@@ -92,6 +92,17 @@
             color: var(--text-primary);
         }
 
+        .logo-svg {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .logo-svg:hover {
+            transform: scale(1.1);
+        }
+
         .logo-icon {
             background: var(--beer-gold);
             width: 40px;
@@ -103,6 +114,7 @@
             color: var(--text-primary);
             font-size: 20px;
             transition: transform 0.3s ease;
+            margin-right: 15px;
         }
 
         .logo-icon:hover {
@@ -541,7 +553,8 @@
     <header>
         <nav class="container">
             <div class="logo">
-                <div class="logo-icon">
+                <img src="your-logo.svg" alt="Craft Beer School Logo" class="logo-svg" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="logo-icon" style="display: none;">
                     <i class="fas fa-beer"></i>
                 </div>
                 <span>Craft Beer School</span>
