@@ -47,12 +47,22 @@
             font-weight: bold;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 15px;
+        }
+
+        .logo-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 8px;
+            object-fit: contain;
+            background: rgba(255,255,255,0.1);
+            padding: 5px;
         }
 
         .logo::before {
             content: "🍺";
             font-size: 2.5rem;
+            display: none; /* Hidden when logo image is present */
         }
 
         .nav-links {
@@ -388,7 +398,12 @@
 <body>
     <header>
         <nav class="container">
-            <div class="logo">Craft Beer School</div>
+            <div class="logo">
+                <!-- Replace 'your-logo.png' with your actual logo file name -->
+                <img src="your-logo.png" alt="Craft Beer School Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                <span style="display: none;">🍺</span>
+                Craft Beer School
+            </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -542,10 +557,10 @@
             <h2>Meet Our Faculty</h2>
             <div class="faculty-grid">
                 <div class="faculty-card">
-                    <div class="faculty-avatar">🍺</div>
-                    <h3>Sarah Thompson</h3>
-                    <p><strong>Head Brewer & Director</strong></p>
-                    <p>15+ years in craft brewing, former head brewer at three award-winning breweries. Certified Cicerone and BJCP judge with expertise in traditional and experimental brewing techniques.</p>
+                    <div class="faculty-avatar">👨‍🍺</div>
+                    <h3>Ankur Napa</h3>
+                    <p><strong>Master Brewer & Founder</strong></p>
+                    <p>Industry veteran with extensive experience at leading global breweries including AB InBev, SABMiller, and United Breweries. Master Brewer with deep expertise in large-scale production, quality control, and brewing innovation across multiple beer styles and markets.</p>
                 </div>
                 
                 <div class="faculty-card">
@@ -618,8 +633,8 @@
                         <div class="contact-item-icon">📍</div>
                         <div>
                             <strong>Address</strong><br>
-                            123 Brewery Lane<br>
-                            Crafttown, ST 12345
+                            [Your Address]<br>
+                            [City, State, PIN Code]
                         </div>
                     </div>
                     
@@ -627,8 +642,8 @@
                         <div class="contact-item-icon">📞</div>
                         <div>
                             <strong>Phone</strong><br>
-                            (555) 123-BREW<br>
-                            (555) 123-2739
+                            [Your Phone Number]<br>
+                            [Alternate Number]
                         </div>
                     </div>
                     
@@ -636,8 +651,8 @@
                         <div class="contact-item-icon">✉️</div>
                         <div>
                             <strong>Email</strong><br>
-                            info@craftbeerschool.com<br>
-                            admissions@craftbeerschool.com
+                            info@craftbeer.in<br>
+                            admissions@craftbeer.in
                         </div>
                     </div>
                     
