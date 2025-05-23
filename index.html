@@ -892,13 +892,19 @@
             <div class="contact-content">
                 <div class="contact-form">
                     <h3 style="margin-bottom: 1.5rem; color: #654321;">Get More Information</h3>
-                    <form>
+                    <form action="https://formsubmit.co/napaankur@gmail.com" method="POST">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="New Contact Form Submission - Craft Beer School">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://craftbeer.in#contact">
+                        
                         <div class="form-group">
-                            <label for="name">Full Name</label>
+                            <label for="name">Full Name *</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email Address</label>
+                            <label for="email">Email Address *</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
@@ -907,21 +913,24 @@
                         </div>
                         <div class="form-group">
                             <label for="course">Course Interest</label>
-                            <select id="course" name="course" style="width: 100%; padding: 12px; border: 2px solid #e8d5b7; border-radius: 10px; font-size: 1rem;">
+                            <select id="course" name="course_interest" style="width: 100%; padding: 12px; border: 2px solid var(--border-light); border-radius: 8px; font-size: 1rem; font-family: inherit; transition: border-color 0.3s ease;">
                                 <option value="">Select a course</option>
-                                <option value="fundamentals">Brewing Fundamentals</option>
-                                <option value="advanced">Advanced Brewing Science</option>
-                                <option value="business">Brewery Business Management</option>
-                                <option value="styles">Style Specialization</option>
-                                <option value="master">Master Brewer Certification</option>
-                                <option value="sensory">Sensory Evaluation</option>
+                                <option value="Brewing Fundamentals">Brewing Fundamentals (4 weeks - $899)</option>
+                                <option value="Advanced Brewing Science">Advanced Brewing Science (6 weeks - $1,299)</option>
+                                <option value="Brewery Business Management">Brewery Business Management (3 weeks - $799)</option>
+                                <option value="Style Specialization">Style Specialization (8 weeks - $1,599)</option>
+                                <option value="Master Brewer Certification">Master Brewer Certification (12 weeks - $2,499)</option>
+                                <option value="Sensory Evaluation">Sensory Evaluation (2 weeks - $599)</option>
+                                <option value="General Inquiry">General Inquiry</option>
                             </select>
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
                             <textarea id="message" name="message" rows="4" placeholder="Tell us about your brewing goals and any questions you have..."></textarea>
                         </div>
-                        <button type="submit" class="btn-primary" style="width: 100%; margin-top: 1rem;">Send Message</button>
+                        <button type="submit" class="btn-primary" style="width: 100%; margin-top: 1rem;">
+                            <i class="fas fa-paper-plane" style="margin-right: 8px;"></i>Send Message
+                        </button>
                     </form>
                 </div>
                 
@@ -1008,11 +1017,8 @@
             });
         });
 
-        // Form submission handler
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your interest! We\'ll contact you within 24 hours to discuss your brewing education goals.');
-        });
+        // Remove old form submission handler since FormSubmit handles it now
+        // Form is now fully functional with FormSubmit service
 
         // Add scroll effect to navigation - Keep header white
         window.addEventListener('scroll', function() {
