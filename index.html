@@ -879,8 +879,11 @@
                             <label for="message">Message</label>
                             <textarea id="message" name="message" rows="4" placeholder="Tell us about your brewing goals and any questions you have..."></textarea>
                         </div>
-                        <button type="submit" class="btn-primary" style="width: 100%; margin-top: 1rem;">
-                            <i class="fas fa-paper-plane" style="margin-right: 8px;"></i>Send Message
+                        <button type="button" 
+                                onclick="sendWhatsAppMessage()" 
+                                class="btn-secondary" 
+                                style="width: 100%; margin-top: 1rem; text-align: center; background: #25D366; color: white; border: 2px solid #25D366;">
+                            <i class="fab fa-whatsapp" style="margin-right: 8px;"></i>Send WhatsApp Message
                         </button>
                     </form>
                 </div>
@@ -905,7 +908,7 @@
                         </div>
                         <div>
                             <strong>Phone</strong><br>
-                            +91-7755909<br>
+                            +91-7755909445<br>
                             <small>Contact Ankur Napa</small>
                         </div>
                     </div>
@@ -953,6 +956,40 @@
     </footer>
 
     <script>
+        // Function to send WhatsApp message with form data
+        function sendWhatsAppMessage() {
+            // Get form data
+            const name = document.getElementById('name').value || '[Not provided]';
+            const email = document.getElementById('email').value || '[Not provided]';
+            const phone = document.getElementById('phone').value || '[Not provided]';
+            const course = document.getElementById('course').value || '[Not selected]';
+            const message = document.getElementById('message').value || '[No additional message]';
+            
+            // Create WhatsApp message
+            const whatsappMessage = `Hi Ankur,
+
+I'm interested in Craft Beer School courses. Here are my details:
+
+*Name:* ${name}
+*Email:* ${email}
+*Phone:* ${phone}
+*Course Interest:* ${course}
+*Message:* ${message}
+
+Please share more information about the courses.
+
+Thanks!`;
+            
+            // Encode the message for URL
+            const encodedMessage = encodeURIComponent(whatsappMessage);
+            
+            // Create WhatsApp URL
+            const whatsappURL = `https://wa.me/917755909445?text=${encodedMessage}`;
+            
+            // Open WhatsApp
+            window.open(whatsappURL, '_blank');
+        }
+
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
