@@ -184,24 +184,44 @@
         /* Hero Section */
         .hero {
             background: linear-gradient(135deg, var(--beer-wheat) 0%, var(--beer-foam) 100%);
-            padding: 80px 0;
+            padding: 100px 0;
             text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, var(--beer-gold) 0%, var(--beer-amber) 25%, var(--beer-wheat) 50%, var(--beer-foam) 75%, var(--beer-gold) 100%);
+            opacity: 0.1;
+            z-index: 1;
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 2;
         }
 
         .hero h1 {
-            font-size: 3rem;
+            font-size: 3.5rem;
             font-weight: 700;
             margin-bottom: 20px;
-            color: var(--text-primary);
+            color: var(--malt-brown);
+            text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.1);
         }
 
         .hero p {
             font-size: 1.25rem;
-            color: var(--text-secondary);
+            color: var(--barley-brown);
             margin-bottom: 40px;
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
+            font-weight: 500;
         }
 
         /* Sections */
@@ -256,6 +276,29 @@
         }
 
         /* About Section */
+        .about {
+            background: var(--beer-foam);
+            position: relative;
+        }
+
+        .about::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 20% 80%, var(--beer-wheat) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, var(--beer-gold) 0%, transparent 50%),
+                        radial-gradient(circle at 40% 40%, var(--beer-amber) 0%, transparent 50%);
+            opacity: 0.1;
+        }
+
+        .about .container {
+            position: relative;
+            z-index: 2;
+        }
+
         .about-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -266,46 +309,69 @@
         .about-text {
             font-size: 1.1rem;
             line-height: 1.8;
-            color: var(--text-secondary);
+            color: var(--barley-brown);
         }
 
         .about-features {
             background: var(--bg-secondary);
             padding: 2rem;
             border-radius: 12px;
-            box-shadow: 0 2px 8px var(--shadow);
+            box-shadow: 0 8px 32px rgba(255, 215, 0, 0.15);
+            border: 1px solid var(--beer-wheat);
         }
 
         .feature-item {
             display: flex;
             align-items: center;
             margin-bottom: 1.5rem;
-            padding: 1rem;
-            background: var(--bg-accent);
+            padding: 1.5rem;
+            background: linear-gradient(135deg, var(--beer-wheat) 0%, var(--beer-foam) 100%);
             border-radius: 10px;
-            transition: transform 0.3s ease;
+            transition: all 0.3s ease;
+            border: 1px solid var(--beer-amber);
         }
 
         .feature-item:hover {
-            transform: translateX(10px);
+            transform: translateX(15px);
+            box-shadow: 0 8px 25px rgba(255, 191, 0, 0.2);
+            border-color: var(--beer-gold);
         }
 
         .feature-icon {
             width: 48px;
             height: 48px;
-            background: var(--beer-gold);
+            background: linear-gradient(135deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
             border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-right: 1rem;
-            color: var(--text-primary);
+            color: var(--malt-brown);
             font-size: 20px;
+            box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
         }
 
         /* Courses Section */
         .courses {
             background: var(--bg-secondary);
+            position: relative;
+        }
+
+        .courses::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 49%, var(--beer-wheat) 50%, transparent 51%),
+                        linear-gradient(-45deg, transparent 49%, var(--beer-foam) 50%, transparent 51%);
+            opacity: 0.03;
+        }
+
+        .courses .container {
+            position: relative;
+            z-index: 2;
         }
 
         .courses-grid {
@@ -315,53 +381,90 @@
         }
 
         .course-card {
-            background: var(--bg-primary);
-            border-radius: 12px;
+            background: linear-gradient(135deg, var(--beer-foam) 0%, var(--beer-wheat) 100%);
+            border-radius: 16px;
             padding: 2rem;
-            box-shadow: 0 2px 8px var(--shadow);
+            box-shadow: 0 8px 32px rgba(210, 105, 30, 0.1);
             transition: all 0.3s ease;
-            border: 1px solid var(--border-light);
+            border: 2px solid var(--beer-wheat);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .course-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
         }
 
         .course-card:hover {
-            transform: translateY(-8px);
+            transform: translateY(-12px);
             border-color: var(--beer-gold);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+            box-shadow: 0 20px 40px rgba(255, 215, 0, 0.2);
         }
 
         .course-card h3 {
             font-size: 1.5rem;
             margin-bottom: 1rem;
-            color: var(--text-primary);
+            color: var(--malt-brown);
             display: flex;
             align-items: center;
             gap: 10px;
         }
 
         .course-duration {
-            background: var(--beer-gold);
-            color: var(--text-primary);
-            padding: 5px 15px;
-            border-radius: 20px;
+            background: linear-gradient(135deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
+            color: var(--malt-brown);
+            padding: 8px 20px;
+            border-radius: 25px;
             font-size: 0.9rem;
             font-weight: 600;
+            box-shadow: 0 4px 12px rgba(255, 215, 0, 0.3);
         }
 
         .course-price {
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: 700;
-            color: var(--beer-gold);
+            color: var(--barley-brown);
             margin: 1rem 0;
+            text-shadow: 2px 2px 4px rgba(210, 105, 30, 0.1);
         }
 
         /* Faculty Section */
         .faculty {
             background: linear-gradient(135deg, var(--malt-brown) 0%, var(--barley-brown) 100%);
-            color: white;
+            color: var(--beer-wheat);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .faculty::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 70%, var(--beer-gold) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 30%, var(--beer-amber) 0%, transparent 50%);
+            opacity: 0.1;
+        }
+
+        .faculty .container {
+            position: relative;
+            z-index: 2;
         }
 
         .faculty h2 {
-            color: white;
+            color: var(--beer-wheat);
+        }
+
+        .faculty h2::after {
+            background: linear-gradient(90deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
         }
 
         .faculty-grid {
@@ -371,30 +474,33 @@
         }
 
         .faculty-card {
-            background: rgba(255,255,255,0.1);
-            border-radius: 12px;
+            background: linear-gradient(135deg, rgba(255, 248, 220, 0.15) 0%, rgba(255, 215, 0, 0.1) 100%);
+            border-radius: 16px;
             padding: 2rem;
             text-align: center;
-            transition: transform 0.3s ease;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(20px);
+            border: 2px solid rgba(255, 215, 0, 0.3);
         }
 
         .faculty-card:hover {
             transform: scale(1.05);
+            border-color: var(--beer-gold);
+            box-shadow: 0 15px 35px rgba(255, 215, 0, 0.2);
         }
 
         .faculty-avatar {
             width: 80px;
             height: 80px;
             border-radius: 50%;
-            background: var(--beer-gold);
+            background: linear-gradient(135deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
             margin: 0 auto 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 2rem;
-            color: var(--text-primary);
+            color: var(--malt-brown);
+            box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
         }
 
         /* Contact Section */
@@ -470,10 +576,27 @@
 
         /* Footer */
         footer {
-            background: var(--text-primary);
-            color: white;
+            background: linear-gradient(135deg, var(--malt-brown) 0%, #1a0f08 100%);
+            color: var(--beer-wheat);
             text-align: center;
             padding: 3rem 0 2rem;
+            position: relative;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 49%, var(--beer-gold) 50%, transparent 51%);
+            opacity: 0.02;
+        }
+
+        footer > * {
+            position: relative;
+            z-index: 2;
         }
 
         .footer-social {
@@ -484,22 +607,24 @@
         }
 
         .social-icon {
-            width: 40px;
-            height: 40px;
-            background: rgba(255,255,255,0.1);
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.2) 0%, rgba(255, 191, 0, 0.1) 100%);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
+            color: var(--beer-wheat);
             text-decoration: none;
             transition: all 0.3s ease;
+            border: 2px solid rgba(255, 215, 0, 0.3);
         }
 
         .social-icon:hover {
-            background: var(--beer-gold);
-            color: var(--text-primary);
-            transform: translateY(-2px);
+            background: linear-gradient(135deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
+            color: var(--malt-brown);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
         }
 
         /* Responsive Design */
@@ -889,15 +1014,17 @@
             alert('Thank you for your interest! We\'ll contact you within 24 hours to discuss your brewing education goals.');
         });
 
-        // Add scroll effect to navigation
+        // Add scroll effect to navigation - Keep header white
         window.addEventListener('scroll', function() {
             const header = document.querySelector('header');
             if (window.scrollY > 100) {
-                header.style.background = 'linear-gradient(135deg, rgba(139, 69, 19, 0.95) 0%, rgba(101, 67, 33, 0.95) 100%)';
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
                 header.style.backdropFilter = 'blur(10px)';
+                header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
             } else {
-                header.style.background = 'linear-gradient(135deg, #8b4513 0%, #654321 100%)';
+                header.style.background = 'var(--bg-secondary)';
                 header.style.backdropFilter = 'none';
+                header.style.boxShadow = '0 2px 8px var(--shadow)';
             }
         });
 
