@@ -65,7 +65,7 @@
             padding: 0 20px;
         }
 
-        /* Navigation Bar */
+        /* Simple Header */
         header {
             background-color: var(--bg-secondary);
             border-bottom: 1px solid var(--border-light);
@@ -76,71 +76,40 @@
             z-index: 100;
         }
 
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .logo {
+        .header-content {
             display: flex;
             align-items: center;
+            justify-content: center;
             gap: 15px;
-            font-weight: 700;
-            font-size: 1.25rem;
-            color: var(--text-primary);
         }
 
         .logo-svg {
-            width: 40px;
-            height: 40px;
-            margin-right: 15px;
-            transition: transform 0.3s ease;
-        }
-
-        .logo-svg:hover {
-            transform: scale(1.1);
+            width: 50px;
+            height: 50px;
+            fill: var(--beer-gold);
         }
 
         .logo-icon {
             background: var(--beer-gold);
-            width: 40px;
-            height: 40px;
+            width: 50px;
+            height: 50px;
             border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: var(--text-primary);
-            font-size: 20px;
+            font-size: 24px;
             transition: transform 0.3s ease;
-            margin-right: 15px;
         }
 
         .logo-icon:hover {
             transform: scale(1.1);
         }
 
-        .nav-links {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .nav-links a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            font-weight: 500;
-            padding: 10px 15px;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-
-        .nav-links a:hover {
-            color: var(--beer-gold);
-            background-color: var(--beer-wheat);
+        .header-title {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--text-primary);
         }
 
         /* Buttons */
@@ -633,11 +602,6 @@
                 font-size: 2rem;
             }
             
-            .nav-links {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
             .about-content,
             .contact-content {
                 grid-template-columns: 1fr;
@@ -676,45 +640,45 @@
 </head>
 <body>
     <header>
-        <nav class="container">
-            <div class="logo">
-                <img src="your-logo.svg" alt="Craft Beer School Logo" class="logo-svg" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                <div class="logo-icon" style="display: none;">
-                    <i class="fas fa-beer"></i>
-                </div>
-                <span>Craft Beer School</span>
-            </div>    <circle cx="48" cy="13" r="2" fill="#ff6b35"/>
+        <div class="container">
+            <div class="header-content">
+                <svg class="logo-svg" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="20" y="15" width="24" height="35" rx="2" ry="2" fill="#FFD700" stroke="#8B4513" stroke-width="2"/>
+                    <ellipse cx="32" cy="12" rx="10" ry="3" fill="#FFFACD"/>
+                    <path d="M22 20 Q32 25 42 20" stroke="#FFBF00" stroke-width="2" fill="none"/>
+                    <path d="M22 25 Q32 30 42 25" stroke="#FFBF00" stroke-width="2" fill="none"/>
+                    <path d="M22 30 Q32 35 42 30" stroke="#FFBF00" stroke-width="2" fill="none"/>
+                    <circle cx="32" cy="40" r="2" fill="#8B4513"/>
+                    <text x="32" y="58" text-anchor="middle" font-family="serif" font-size="8" fill="#8B4513">CRAFT</text>
                 </svg>
-                <span>Craft Beer School</span>
+                <span class="header-title">Craft Beer School</span>
             </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#faculty">Faculty</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        </div>
     </header>
 
-    <section id="home" class="hero">
+    <section class="hero">
         <div class="container">
             <h1>Master the Art of Brewing</h1>
-            <p>Join our comprehensive craft beer education program and transform your passion into expertise. From grain to glass, learn every aspect of professional brewing.</p>
-            <a href="#courses" class="btn-primary">Explore Courses</a>
+            <p>Join our comprehensive craft beer education program and transform your passion into expertise. From grain to glass, learn every aspect of professional brewing with industry experts.</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="#courses" class="btn-primary">Explore Courses</a>
+                <a href="https://nas.io/craftbeer" target="_blank" class="btn-secondary" style="background: var(--beer-gold); color: var(--text-primary); border: 2px solid var(--beer-gold);">
+                    <i class="fas fa-users" style="margin-right: 8px;"></i>Join Our School
+                </a>
+            </div>
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="about">
         <div class="container">
             <h2>About Our School</h2>
             <div class="about-content">
                 <div class="about-text">
                     <p>Welcome to the premier destination for craft beer education. Our school combines traditional brewing wisdom with cutting-edge techniques, providing students with comprehensive knowledge of the brewing industry.</p>
                     
-                    <p>Founded by master brewers with decades of experience, we've trained over 1,000 successful brewers who now operate breweries, taprooms, and craft beer businesses worldwide. Our hands-on approach ensures you'll graduate with both theoretical knowledge and practical skills.</p>
+                    <p>Founded by industry veterans with decades of experience, we've trained brewers who now operate successful breweries, taprooms, and craft beer businesses worldwide. Our hands-on approach ensures you'll graduate with both theoretical knowledge and practical skills.</p>
                     
-                    <p>Whether you're a complete beginner or looking to refine your skills, our courses are designed to meet you where you are and take you to the next level.</p>
+                    <p>Whether you're a complete beginner or looking to refine your skills, our courses are designed to meet you where you are and take you to the next level in your brewing journey.</p>
                 </div>
                 <div class="about-features">
                     <div class="feature-item">
@@ -723,7 +687,7 @@
                         </div>
                         <div>
                             <strong>Professional Brewery</strong><br>
-                            Learn in our fully equipped 10-barrel brewery facility
+                            Learn in our fully equipped brewing facility with industry-standard equipment
                         </div>
                     </div>
                     <div class="feature-item">
@@ -732,7 +696,7 @@
                         </div>
                         <div>
                             <strong>Expert Instructors</strong><br>
-                            Learn from award-winning brewers and industry professionals
+                            Learn from experienced brewers and industry professionals
                         </div>
                     </div>
                     <div class="feature-item">
@@ -852,35 +816,17 @@
                         <i class="fas fa-user-tie"></i>
                     </div>
                     <h3>Ankur Napa</h3>
-                    <p><strong>Master Brewer & Founder</strong></p>
+                    <p><strong>Course Instructor & Master Brewer</strong></p>
                     <p>Industry veteran with extensive experience at leading global breweries including AB InBev, SABMiller, and United Breweries. Master Brewer with deep expertise in large-scale production, quality control, and brewing innovation across multiple beer styles and markets.</p>
                 </div>
                 
                 <div class="faculty-card">
                     <div class="faculty-avatar">
-                        <i class="fas fa-microscope"></i>
+                        <i class="fas fa-handshake"></i>
                     </div>
-                    <h3>Dr. Michael Chen</h3>
-                    <p><strong>Brewing Science Professor</strong></p>
-                    <p>PhD in Food Science with specialization in fermentation. Published researcher in brewing microbiology and author of "Modern Brewing Science" textbook used worldwide.</p>
-                </div>
-                
-                <div class="faculty-card">
-                    <div class="faculty-avatar">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <h3>Jennifer Martinez</h3>
-                    <p><strong>Business Operations Instructor</strong></p>
-                    <p>Former brewery owner and consultant who has helped launch over 50 successful craft breweries. Expert in brewery business planning, finance, and market strategy.</p>
-                </div>
-                
-                <div class="faculty-card">
-                    <div class="faculty-avatar">
-                        <i class="fas fa-medal"></i>
-                    </div>
-                    <h3>Robert "Hop" Wilson</h3>
-                    <p><strong>Style Specialist</strong></p>
-                    <p>Master Cicerone and internationally recognized beer judge. Winner of multiple brewing competitions and expert in historical beer styles and modern innovations.</p>
+                    <h3>Cheers Chatty</h3>
+                    <p><strong>Co-Founder</strong></p>
+                    <p>Passionate craft beer enthusiast and business strategist. Brings expertise in brewery operations, market development, and industry networking to help students navigate the commercial aspects of the brewing world.</p>
                 </div>
             </div>
         </div>
@@ -1016,9 +962,6 @@
                 }
             });
         });
-
-        // Remove old form submission handler since FormSubmit handles it now
-        // Form is now fully functional with FormSubmit service
 
         // Add scroll effect to navigation - Keep header white
         window.addEventListener('scroll', function() {
