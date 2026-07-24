@@ -249,6 +249,7 @@ footer.site a:hover{color:#fff}
   .navlinks{display:none}
   .navlinks.open{display:flex;position:absolute;top:100%;right:0;left:0;background:#fff;flex-direction:column;padding:1.2rem;gap:1rem;border-bottom:1px solid var(--line);box-shadow:var(--shadow)}
   .burger{display:block}
+  .brand-logo{height:36px}
   .grid-3,.grid-2,.features,.steps,.stats,.foot-grid,.row2{grid-template-columns:1fr}
   .offset-img::before{inset:10px -10px -10px 10px}
 }
