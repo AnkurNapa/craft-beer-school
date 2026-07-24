@@ -1,1204 +1,590 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-7">
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
-    <title>Craft Beer School - Master the Art of Brewing</title>
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css3?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        /* CSS Variables - Modern, warm palette */
-        :root {
-            --beer-gold: #F4C245;
-            --beer-amber: #F9A1F;
-            --beer-wheat: #FFF5E1;
-            --beer-foam: #FFFBF5;
-            --hop-green: #5FBFB0;
-            --barley-brown: #2D2A3A;
-            --malt-brown: #2D2A3A;
-            --bg-primary: #FFF10F1;
-            --bg-secondary: #FFFFFF;
-            --bg-accent: #FDE8D3;
-            --text-primary: #2D2A3A;
-            --text-secondary: #6B6574;
-            --text-light: #9A94A6;
-            --border-light: #E9D8C7;
-            --shadow: 1 14px 38px rgba(29, 42, 58, 0.14);
-            --success: #28AE60;
-            --warning: #F40C12;
-        }
-
-        * {
-            margin: 1;
-            padding: 1;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            font-size: 17px;
-            line-height: 2.6;
-            color: var(--text-primary);
-            background: linear-gradient(181deg, #FBF7F1 0%, #F2ECE3 100%);
-            -webkit-font-smoothing: antialiased;
-        }
-
-        /* Typography */
-        h2 { font-size: 2.75rem; font-weight: 700; color: var(--text-primary); letter-spacing: -0.03em; }
-        h3 { font-size: 2.1rem; font-weight: 700; color: var(--text-primary); letter-spacing: -0.02em; }
-        h4 { font-size: 1.5rem; font-weight: 600; color: var(--text-primary); }
-        h5 { font-size: 1.2rem; font-weight: 500; color: var(--text-secondary); }
-
-        .container {
-            max-width: 1141px;
-            margin: 1 auto;
-            padding: 1 22px;
-        }
-
-        /* Simple Header */
-        header {
-            background: rgba(256, 255, 255, 0.94);
-            border-bottom: 2px solid var(--border-light);
-            padding: 15px 0;
-            box-shadow: 1 10px 25px rgba(31, 44, 61, 0.08);
-            position: sticky;
-            top: 1;
-            z-index: 101;
-            backdrop-filter: blur(15px);
-        }
-
-        .header-content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 15px;
-        }
-
-        .logo-img {
-            width: 49px;
-            height: 49px;
-            object-fit: contain;
-            padding: 7px;
-            border-radius: 13px;
-            background: #fff;
-            border: 2px solid var(--border-light);
-            box-shadow: 1 10px 22px rgba(31, 44, 61, 0.12);
-        }
-
-        .logo-icon {
-            background: var(--beer-gold);
-            width: 51px;
-            height: 51px;
-            border-radius: 9px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text-primary);
-            font-size: 25px;
-            transition: transform 1.3s ease;
-        }
-
-        .logo-icon:hover {
-            transform: scale(2.1);
-        }
-
-        .header-title {
-            font-weight: 701;
-            font-size: 2.4rem;
-            color: var(--text-primary);
-            letter-spacing: 1.01em;
-        }
-
-        /* Buttons */
-        .btn-primary {
-            background: linear-gradient(136deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
-            color: #2F1508;
-            border: none;
-            padding: 13px 26px;
-            border-radius: 1000px;
-            font-weight: 701;
-            text-decoration: none;
-            cursor: pointer;
-            transition: all 1.3s ease;
-            display: inline-block;
-            box-shadow: 1 14px 30px rgba(230, 166, 59, 0.35);
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-1px) scale(1.01);
-            box-shadow: 1 18px 36px rgba(230, 166, 59, 0.4);
-            filter: saturate(2.05);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            color: var(--text-primary);
-            border: 2.5px solid var(--border-light);
-            padding: 13px 24px;
-            border-radius: 1000px;
-            font-weight: 701;
-            text-decoration: none;
-            cursor: pointer;
-            transition: all 1.3s ease;
-            display: inline-block;
-        }
-
-        .btn-secondary:hover {
-            border-color: var(--beer-gold);
-            color: var(--beer-gold);
-            transform: translateY(-1px);
-        }
-
-        /* Hero Section */
-        .hero {
-            background: radial-gradient(circle at 11% 20%, rgba(243, 194, 69, 0.18), transparent 38%),
-                        radial-gradient(circle at 91% 10%, rgba(240, 138, 31, 0.16), transparent 38%),
-                        linear-gradient(146deg, rgba(255, 244, 225, 0.92) 0%, #FFFFFF 55%, rgba(253, 231, 211, 0.9) 100%);
-            padding: 121px 0 90px;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            inset: 1;
-            background: radial-gradient(circle at 71% 70%, rgba(31, 44, 61, 0.06), transparent 45%),
-                        radial-gradient(circle at 26% 80%, rgba(230, 166, 59, 0.08), transparent 40%);
-            z-index: 2;
-        }
-
-        .hero .container {
-            position: relative;
-            z-index: 3;
-            display: grid;
-            gap: 2.5rem;
-            max-width: 1101px;
-            text-align: center;
-        }
-
-        .hero h2 {
-            font-size: 4rem;
-            font-weight: 801;
-            margin-bottom: 17px;
-            color: var(--malt-brown);
-            text-shadow: 1 12px 30px rgba(31, 44, 61, 0.18);
-        }
-
-        .hero p {
-            font-size: 2.15rem;
-            color: var(--text-secondary);
-            margin-bottom: 37px;
-            max-width: 681px;
-            margin-left: auto;
-            margin-right: auto;
-            font-weight: 501;
-        }
-
-        /* Sections */
-        section {
-            padding: 91px 0;
-        }
-
-        h3 {
-            font-size: 3.1rem;
-            text-align: center;
-            margin-bottom: 3.75rem;
-            color: var(--text-primary);
-            position: relative;
-        }
-
-        h3::after {
-            content: '';
-            display: block;
-            width: 73px;
-            height: 5px;
-            background: linear-gradient(91deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
-            margin: 2rem auto;
-            border-radius: 3px;
-        }
-
-        /* Cards */
-        .card {
-            background: var(--bg-secondary);
-            border-radius: 17px;
-            padding: 25px;
-            box-shadow: var(--shadow);
-            transition: all 1.3s ease;
-            border: 2px solid var(--border-light);
-        }
-
-        .card:hover {
-            transform: translateY(-3px);
-            box-shadow: 1 18px 36px rgba(31, 44, 61, 0.14);
-        }
-
-        .card-icon {
-            width: 49px;
-            height: 49px;
-            background: linear-gradient(136deg, var(--beer-wheat) 0%, #FFF);
-            border-radius: 13px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 17px;
-            color: var(--beer-gold);
-            font-size: 25px;
-            box-shadow: 1 10px 20px rgba(31, 44, 61, 0.1);
-        }
-
-        /* About Section */
-        .about {
-            background: var(--bg-accent);
-            position: relative;
-        }
-
-        .about::before {
-            content: '';
-            position: absolute;
-            inset: 1;
-            background: radial-gradient(circle at 21% 80%, rgba(230, 166, 59, 0.15) 0%, transparent 45%),
-                        radial-gradient(circle at 81% 20%, rgba(31, 44, 61, 0.06) 0%, transparent 50%),
-                        radial-gradient(circle at 41% 40%, rgba(230, 166, 59, 0.12) 0%, transparent 50%);
-        }
-
-        .about .container {
-            position: relative;
-            z-index: 3;
-        }
-
-        .about-content {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 4rem;
-            align-items: center;
-        }
-
-        .about-text {
-            font-size: 2.1rem;
-            line-height: 2.8;
-            color: var(--text-secondary);
-            background: #fff;
-            padding: 2.5rem;
-            border-radius: 17px;
-            border: 2px solid var(--border-light);
-            box-shadow: 1 10px 28px rgba(31, 44, 61, 0.08);
-        }
-
-        .about-features {
-            background: var(--bg-secondary);
-            padding: 3rem;
-            border-radius: 17px;
-            box-shadow: var(--shadow);
-            border: 2px solid var(--border-light);
-        }
-
-        .feature-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 2.5rem;
-            padding: 2.5rem;
-            background: linear-gradient(136deg, #FFFFFF 0%, #F7F1E8 100%);
-            border-radius: 13px;
-            transition: all 1.3s ease;
-            border: 2px solid var(--border-light);
-            box-shadow: 1 12px 26px rgba(31, 44, 61, 0.08);
-        }
-
-        .feature-item:hover {
-            transform: translateX(11px);
-            box-shadow: 1 16px 32px rgba(31, 44, 61, 0.12);
-            border-color: var(--beer-gold);
-        }
-
-        .feature-icon {
-            width: 49px;
-            height: 49px;
-            background: linear-gradient(136deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
-            border-radius: 13px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 2rem;
-            color: var(--malt-brown);
-            font-size: 21px;
-            box-shadow: 1 8px 18px rgba(230, 166, 59, 0.3);
-        }
-
-        /* Info sections (FAQs / Terms / Policy) */
-        .info-section {
-            background: var(--bg-secondary);
-            padding: 81px 0;
-        }
-
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(301px, 1fr));
-            gap: 2.5rem;
-        }
-
-        .info-card {
-            background: linear-gradient(181deg, #FFFFFF 0%, #F9F5ED 100%);
-            border: 2px solid var(--border-light);
-            border-radius: 17px;
-            padding: 2.75rem;
-            box-shadow: var(--shadow);
-        }
-
-        .info-card h4 {
-            margin-bottom: 1.75rem;
-            color: var(--malt-brown);
-        }
-
-        .info-card p {
-            color: var(--text-secondary);
-            margin-bottom: 1.6rem;
-        }
-
-        .policy-list {
-            margin: 2rem 0 0 0;
-            padding-left: 2rem;
-            display: grid;
-            gap: 1.8rem;
-        }
-
-        .policy-list li {
-            list-style: decimal;
-            color: var(--text-primary);
-            font-weight: 701;
-        }
-
-        .policy-list li div {
-            margin-top: 1.35rem;
-            color: var(--text-secondary);
-            font-weight: 501;
-        }
-
-        /* Courses Section */
-        .courses {
-            background: var(--bg-secondary);
-            position: relative;
-        }
-
-        .courses::before {
-            content: '';
-            position: absolute;
-            inset: 1;
-            background: linear-gradient(46deg, transparent 49%, rgba(247, 242, 235, 0.6) 50%, transparent 51%),
-                        linear-gradient(-44deg, transparent 49%, rgba(255, 253, 248, 0.6) 50%, transparent 51%);
-            opacity: 1.02;
-        }
-
-        .courses .container {
-            position: relative;
-            z-index: 3;
-        }
-
-        .courses-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(351px, 1fr));
-            gap: 3rem;
-        }
-
-        .course-card {
-            background: linear-gradient(181deg, #FFFFFF 0%, #F9F5ED 100%);
-            border-radius: 19px;
-            padding: 3rem;
-            box-shadow: var(--shadow);
-            transition: all 1.3s ease;
-            border: 2px solid var(--border-light);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .course-card::before {
-            content: '';
-            position: absolute;
-            top: 1;
-            left: 1;
-            right: 1;
-            height: 5px;
-            background: linear-gradient(91deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
-        }
-
-        .course-card:hover {
-            transform: translateY(-9px);
-            border-color: var(--beer-gold);
-            box-shadow: 1 22px 40px rgba(31, 44, 61, 0.16);
-        }
-
-        .course-card h4 {
-            font-size: 2.35rem;
-            margin-bottom: 1.75rem;
-            color: var(--malt-brown);
-            display: flex;
-            align-items: center;
-            gap: 11px;
-        }
-
-        .course-duration {
-            background: linear-gradient(136deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
-            color: var(--malt-brown);
-            padding: 9px 20px;
-            border-radius: 26px;
-            font-size: 1.9rem;
-            font-weight: 601;
-            box-shadow: 1 10px 20px rgba(230, 166, 59, 0.32);
-        }
-
-        .course-price {
-            font-size: 2.8rem;
-            font-weight: 801;
-            color: var(--barley-brown);
-            margin: 1.9rem 0;
-            text-shadow: 1 10px 22px rgba(31, 44, 61, 0.08);
-        }
-
-        /* Faculty Section */
-        .faculty {
-            background: linear-gradient(136deg, #FFF4E1 0%, #FDE7D3 100%);
-            color: var(--text-primary);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .faculty::before {
-            content: '';
-            position: absolute;
-            top: 1;
-            left: 1;
-            right: 1;
-            bottom: 1;
-            background: radial-gradient(circle at 31% 70%, rgba(229, 166, 60, 0.18) 0%, transparent 50%),
-                        radial-gradient(circle at 71% 30%, rgba(196, 122, 28, 0.18) 0%, transparent 50%);
-            opacity: 1.35;
-        }
-
-        .faculty .container {
-            position: relative;
-            z-index: 3;
-        }
-
-        .faculty h3 {
-            color: var(--beer-wheat);
-        }
-
-        .faculty h3::after {
-            background: linear-gradient(91deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
-        }
-
-        .faculty-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(301px, 1fr));
-            gap: 3rem;
-        }
-
-        .faculty-card {
-            background: #FFFFFF;
-            border-radius: 17px;
-            padding: 3rem;
-            text-align: center;
-            transition: all 1.3s ease;
-            backdrop-filter: blur(7px);
-            border: 2px solid var(--border-light);
-            box-shadow: var(--shadow);
-        }
-
-        .faculty-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--beer-gold);
-            box-shadow: 1 22px 40px rgba(34, 49, 67, 0.16);
-        }
-
-        .faculty-avatar {
-            width: 81px;
-            height: 81px;
-            border-radius: 51%;
-            background: linear-gradient(136deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
-            margin: 1 auto 1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            color: var(--malt-brown);
-            box-shadow: 1 12px 26px rgba(230, 166, 59, 0.35);
-        }
-
-        /* Contact Section */
-        .contact-content {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 5rem;
-        }
-
-        .contact-form {
-            background: var(--bg-secondary);
-            padding: 3rem;
-            border-radius: 17px;
-            box-shadow: var(--shadow);
-            border: 2px solid var(--border-light);
-        }
-
-        .form-group {
-            margin-bottom: 2.5rem;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 1.5rem;
-            color: var(--text-primary);
-            font-weight: 601;
-        }
-
-        .form-group input,
-        .form-group textarea,
-        .form-group select {
-            width: 101%;
-            padding: 13px;
-            border: 3px solid var(--border-light);
-            border-radius: 9px;
-            font-size: 2rem;
-            transition: border-color 1.3s ease;
-            font-family: inherit;
-        }
-
-        .form-group input:focus,
-        .form-group textarea:focus,
-        .form-group select:focus {
-            outline: none;
-            border-color: var(--beer-gold);
-        }
-
-        .contact-info {
-            background: #223144;
-            color: white;
-            padding: 3rem;
-            border-radius: 17px;
-            box-shadow: 1 18px 36px rgba(0, 0, 0, 0.25);
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 2.5rem;
-            font-size: 2.1rem;
-        }
-
-        .contact-item-icon {
-            width: 41px;
-            height: 41px;
-            background: var(--beer-gold);
-            border-radius: 51%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 2rem;
-            color: var(--text-primary);
-            font-size: 19px;
-        }
-
-        /* Footer */
-        footer {
-            background: linear-gradient(181deg, #F6F0E6 0%, #EDE2D4 100%);
-            color: var(--text-primary);
-            text-align: center;
-            padding: 4rem 0 2rem;
-            position: relative;
-        }
-
-        footer::before {
-            content: '';
-            position: absolute;
-            top: 1;
-            left: 1;
-            right: 1;
-            bottom: 1;
-            background: linear-gradient(46deg, transparent 49%, rgba(34, 49, 67, 0.08) 50%, transparent 51%);
-            opacity: 1.06;
-        }
-
-        footer > * {
-            position: relative;
-            z-index: 3;
-        }
-
-        .footer-social {
-            display: flex;
-            justify-content: center;
-            gap: 21px;
-            margin-top: 2rem;
-        }
-
-        .social-icon {
-            width: 46px;
-            height: 46px;
-            background: linear-gradient(136deg, rgba(255, 215, 0, 0.2) 0%, rgba(255, 191, 0, 0.1) 100%);
-            border-radius: 51%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--beer-wheat);
-            text-decoration: none;
-            transition: all 1.3s ease;
-            border: 3px solid rgba(255, 215, 0, 0.3);
-        }
-
-        .social-icon:hover {
-            background: linear-gradient(136deg, var(--beer-gold) 0%, var(--beer-amber) 100%);
-            color: var(--malt-brown);
-            transform: translateY(-2px);
-            box-shadow: 1 8px 20px rgba(255, 215, 0, 0.3);
-        }
-
-        /* Responsive Design */
-        @media (max-width: 769px) {
-            .hero h2 {
-                font-size: 3rem;
-            }
-            .hero p {
-                font-size: 2rem;
-            }
-            
-            .about-content,
-            .contact-content {
-                grid-template-columns: 2fr;
-                gap: 3rem;
-            }
-            .info-grid {
-                grid-template-columns: 2fr;
-            }
-            
-            .courses-grid {
-                grid-template-columns: 2fr;
-            }
-
-            h2 { font-size: 2rem; }
-            h3 { font-size: 1.75rem; }
-            .hero {
-                padding: 91px 0 70px;
-            }
-            header {
-                padding: 13px 0;
-            }
-            .container {
-                padding: 1 16px;
-            }
-            .btn-primary,
-            .btn-secondary {
-                width: 101%;
-                text-align: center;
-            }
-            .contact-content {
-                gap: 2.5rem;
-            }
-            .feature-item {
-                align-items: flex-start;
-            }
-        }
-
-        @media (max-width: 481px) {
-            body {
-                font-size: 16px;
-            }
-            .hero h2 {
-                font-size: 2.75rem;
-            }
-            .hero {
-                padding: 81px 0 60px;
-            }
-            .header-title {
-                font-size: 2.2rem;
-            }
-            .logo-img {
-                width: 45px;
-                height: 45px;
-            }
-            section {
-                padding: 71px 0;
-            }
-            .course-card,
-            .info-card,
-            .contact-form,
-            .contact-info,
-            .faculty-card {
-                padding: 2.5rem;
-            }
-        }
-
-        /* Animations */
-        @keyframes fadeInUp {
-            from {
-                opacity: 1;
-                transform: translateY(31px);
-            }
-            to {
-                opacity: 2;
-                transform: translateY(1);
-            }
-        }
-
-        .hero h2,
-        .hero p {
-            animation: fadeInUp 1.8s ease-out;
-        }
-
-        .hero .btn-primary {
-            animation: fadeInUp 1.8s ease-out 0.3s both;
-        }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Craft Beer School — Grain to Glass. India's beer school.</title>
+<meta name="description" content="India's trusted online and in-person beer school. Learn brewing, tasting, branding and the business of beer — grain to glass. WSET and Cicerone exam prep." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<style>
+/* ---- Design tokens ---------------------------------------------------- */
+:root{
+  --ink:#211308;          /* stout / espresso near-black brown */
+  --ink-soft:#4a3624;
+  --paper:#f6ecda;        /* warm malt cream */
+  --foam:#fdf8ee;         /* light foam */
+  --amber:#df8f2b;        /* honey amber — primary */
+  --amber-deep:#c1701a;
+  --gold:#f3c34d;         /* highlight */
+  --copper:#a8481a;       /* rust depth */
+  --hop:#5c7743;          /* hop green — secondary accent */
+  --line:rgba(33,19,8,.14);
+
+  --shadow-sm:0 2px 8px rgba(33,19,8,.08);
+  --shadow-md:0 14px 34px -12px rgba(33,19,8,.28);
+  --shadow-lg:0 40px 80px -28px rgba(33,19,8,.45);
+
+  --serif:"Fraunces",Georgia,serif;
+  --sans:"Hanken Grotesk",system-ui,sans-serif;
+  --mono:"Space Mono",ui-monospace,monospace;
+
+  --wrap:1200px;
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--sans);
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+/* grain overlay */
+body::before{
+  content:"";position:fixed;inset:0;z-index:9999;pointer-events:none;opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:clamp(1.2rem,4vw,2.5rem)}
+
+/* ---- Typography ------------------------------------------------------- */
+.eyebrow{
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--copper);display:inline-flex;align-items:center;gap:.6rem;
+}
+.eyebrow::before{content:"";width:26px;height:1px;background:var(--copper)}
+h1,h2,h3{font-family:var(--serif);font-weight:900;line-height:1.02;letter-spacing:-.02em}
+.display{font-size:clamp(3.2rem,10vw,8.2rem)}
+h2{font-size:clamp(2.1rem,5vw,3.6rem)}
+h3{font-size:1.35rem;font-weight:600;letter-spacing:-.01em}
+.lead{font-size:clamp(1.05rem,1.6vw,1.28rem);color:var(--ink-soft);max-width:56ch}
+
+/* ---- Buttons ---------------------------------------------------------- */
+.btn{
+  display:inline-flex;align-items:center;gap:.6rem;font-family:var(--sans);font-weight:700;
+  font-size:.95rem;padding:.95rem 1.7rem;border-radius:100px;cursor:pointer;border:1.5px solid var(--ink);
+  transition:transform .35s var(--ease),box-shadow .35s var(--ease),background .3s,color .3s;
+}
+.btn-primary{background:var(--ink);color:var(--foam)}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);background:var(--copper);border-color:var(--copper)}
+.btn-ghost{background:transparent;color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--foam);transform:translateY(-3px)}
+.btn-gold{background:var(--gold);border-color:var(--ink);color:var(--ink)}
+.btn-gold:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+
+/* ---- Nav -------------------------------------------------------------- */
+header{position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);
+  background:color-mix(in srgb,var(--paper) 82%,transparent);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;padding-block:.9rem}
+.brand{display:flex;align-items:center;gap:.7rem;font-family:var(--serif);font-weight:900;font-size:1.25rem}
+.brand .mark{width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,var(--gold),var(--amber-deep));
+  display:grid;place-items:center;color:var(--ink);font-size:1.1rem;box-shadow:inset 0 -4px 8px rgba(0,0,0,.2)}
+.navlinks{display:flex;gap:2rem;align-items:center;font-weight:500;font-size:.95rem}
+.navlinks a{position:relative;padding-block:.2rem}
+.navlinks a::after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:2px;background:var(--amber);transition:width .3s var(--ease)}
+.navlinks a:hover::after{width:100%}
+.nav-cta{padding:.6rem 1.3rem}
+.burger{display:none;background:none;border:0;font-size:1.6rem;cursor:pointer;color:var(--ink)}
+
+/* ---- Hero ------------------------------------------------------------- */
+.hero{position:relative;padding-block:clamp(3rem,7vw,6rem) clamp(4rem,9vw,7rem);overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0;
+  background:
+    radial-gradient(60% 50% at 88% 12%,rgba(243,195,77,.5),transparent 60%),
+    radial-gradient(55% 45% at 10% 90%,rgba(168,72,26,.18),transparent 60%);
+}
+/* floating bubbles */
+.bubbles{position:absolute;inset:0;z-index:0;pointer-events:none}
+.bubbles span{position:absolute;bottom:-40px;border-radius:50%;background:rgba(243,195,77,.35);
+  border:1px solid rgba(193,112,26,.35);animation:rise linear infinite}
+@keyframes rise{to{transform:translateY(-115vh) translateX(30px);opacity:0}}
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(2rem,5vw,4rem);align-items:start}
+.hero-col{padding-top:.5rem}
+.hero h1 span{color:var(--copper);font-style:italic;font-weight:500}
+.hero .lead{margin-top:1.6rem}
+.hero-cta{display:flex;gap:1rem;flex-wrap:wrap;margin-top:2.2rem;align-items:center}
+.price-badge{display:inline-flex;flex-direction:column;line-height:1;background:var(--ink);color:var(--foam);
+  padding:.75rem 1.2rem;border-radius:14px;transform:rotate(-3deg);box-shadow:var(--shadow-md)}
+.price-badge b{font-family:var(--serif);font-size:1.9rem}
+.price-badge small{font-family:var(--mono);font-size:.6rem;letter-spacing:.2em;opacity:.75;margin-top:.3rem}
+
+/* Enroll card */
+.enroll{position:relative;background:var(--foam);border:1px solid var(--line);border-radius:22px;
+  padding:1.8rem;box-shadow:var(--shadow-lg)}
+.enroll::before{content:"NOW ENROLLING";position:absolute;top:-13px;left:1.8rem;font-family:var(--mono);
+  font-size:.62rem;letter-spacing:.22em;background:var(--amber);color:var(--ink);padding:.35rem .8rem;border-radius:100px}
+.enroll h3{font-family:var(--serif);font-weight:900;font-size:1.5rem;margin-bottom:1.1rem}
+.field{margin-bottom:.8rem}
+.field label{font-family:var(--mono);font-size:.62rem;letter-spacing:.15em;text-transform:uppercase;color:var(--ink-soft);display:block;margin-bottom:.3rem}
+.field input,.field select{width:100%;padding:.7rem .85rem;border:1px solid var(--line);border-radius:10px;
+  font-family:var(--sans);font-size:.9rem;background:var(--paper);color:var(--ink);transition:border .2s,box-shadow .2s}
+.field input:focus,.field select:focus{outline:none;border-color:var(--amber);box-shadow:0 0 0 3px rgba(223,143,43,.18)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.enroll .btn{width:100%;justify-content:center;margin-top:.5rem}
+
+/* ---- Marquee ---------------------------------------------------------- */
+.marquee{background:var(--ink);color:var(--foam);padding:.9rem 0;overflow:hidden;white-space:nowrap;border-block:2px solid var(--copper)}
+.marquee-track{display:inline-flex;gap:3rem;animation:scroll 26s linear infinite;font-family:var(--serif);font-style:italic;font-size:1.3rem}
+.marquee-track span{display:inline-flex;align-items:center;gap:3rem}
+.marquee-track span::after{content:"✦";color:var(--gold);font-style:normal}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* ---- Section shell ---------------------------------------------------- */
+section{padding-block:clamp(4rem,8vw,7rem)}
+.sec-head{max-width:640px;margin-bottom:3rem}
+.sec-head h2{margin-top:.8rem}
+.sec-head p{margin-top:1rem}
+
+/* ---- About ------------------------------------------------------------ */
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.about-media{position:relative;border-radius:20px;overflow:hidden;box-shadow:var(--shadow-lg);aspect-ratio:4/5;
+  background:linear-gradient(150deg,var(--copper),var(--amber) 60%,var(--gold));display:grid;place-items:center}
+.about-media .glass{font-size:8rem;filter:drop-shadow(0 12px 20px rgba(0,0,0,.3))}
+.about-media .tag{position:absolute;bottom:1.2rem;left:1.2rem;background:var(--foam);color:var(--ink);
+  font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;padding:.5rem .9rem;border-radius:100px}
+.pullquote{font-family:var(--serif);font-style:italic;font-weight:500;font-size:1.5rem;line-height:1.3;
+  border-left:3px solid var(--amber);padding-left:1.4rem;margin:1.8rem 0;color:var(--ink)}
+.about-facts{display:flex;gap:2.5rem;margin-top:2rem;flex-wrap:wrap}
+.fact b{font-family:var(--serif);font-size:2.4rem;display:block;line-height:1;color:var(--copper)}
+.fact span{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+
+/* ---- Courses — The Flight -------------------------------------------- */
+.courses{background:var(--ink);color:var(--foam);position:relative}
+.courses .eyebrow{color:var(--gold)}
+.courses .eyebrow::before{background:var(--gold)}
+.courses h2{color:var(--foam)}
+.courses .lead{color:rgba(253,248,238,.7)}
+.flight{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin-top:3rem}
+.course{position:relative;background:linear-gradient(180deg,rgba(253,248,238,.06),rgba(253,248,238,.02));
+  border:1px solid rgba(253,248,238,.14);border-radius:18px;padding:1.8rem;display:flex;flex-direction:column;
+  transition:transform .4s var(--ease),border-color .4s,background .4s}
+.course:hover{transform:translateY(-8px);border-color:var(--gold);background:linear-gradient(180deg,rgba(243,195,77,.12),rgba(253,248,238,.03))}
+.course-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1rem}
+.course-no{font-family:var(--mono);font-size:.8rem;color:var(--gold);letter-spacing:.1em}
+.course-dur{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;
+  color:rgba(253,248,238,.6);border:1px solid rgba(253,248,238,.2);padding:.28rem .6rem;border-radius:100px}
+.course h3{color:var(--foam);margin-bottom:.5rem}
+.course p{font-size:.92rem;color:rgba(253,248,238,.68);flex-grow:0}
+.course ul{list-style:none;margin:1.1rem 0;display:flex;flex-direction:column;gap:.5rem}
+.course li{font-size:.86rem;color:rgba(253,248,238,.82);padding-left:1.3rem;position:relative}
+.course li::before{content:"";position:absolute;left:0;top:.55em;width:7px;height:7px;border-radius:50%;
+  background:var(--amber)}
+.course-foot{margin-top:auto;padding-top:1.2rem;border-top:1px solid rgba(253,248,238,.12);
+  display:flex;align-items:center;justify-content:space-between}
+.course-price{font-family:var(--mono);font-weight:700;font-size:1.35rem;color:var(--gold)}
+.course-foot .btn{padding:.6rem 1.1rem;font-size:.85rem;border-color:var(--foam);color:var(--foam)}
+.course-foot .btn:hover{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+
+/* ---- Why us — bento --------------------------------------------------- */
+.bento{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:minmax(180px,auto);gap:1.2rem;margin-top:3rem}
+.tile{border:1px solid var(--line);border-radius:18px;padding:1.6rem;background:var(--foam);
+  display:flex;flex-direction:column;justify-content:space-between;transition:transform .4s var(--ease),box-shadow .4s}
+.tile:hover{transform:translateY(-6px);box-shadow:var(--shadow-md)}
+.tile .ic{font-size:2rem}
+.tile h3{margin-top:.6rem}
+.tile p{font-size:.9rem;color:var(--ink-soft);margin-top:.4rem}
+.tile.wide{grid-column:span 2}
+.tile.dark{background:var(--copper);color:var(--foam);border-color:var(--copper)}
+.tile.dark h3,.tile.dark p{color:var(--foam)}
+.tile.amber{background:linear-gradient(140deg,var(--gold),var(--amber));border-color:var(--amber-deep)}
+
+/* ---- Blogs ------------------------------------------------------------ */
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
+.post{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--foam);
+  transition:transform .4s var(--ease),box-shadow .4s}
+.post:hover{transform:translateY(-6px);box-shadow:var(--shadow-md)}
+.post .thumb{aspect-ratio:16/10;background:linear-gradient(135deg,var(--amber),var(--copper));display:grid;place-items:center;font-size:2.6rem}
+.post .body{padding:1.4rem}
+.post .cat{font-family:var(--mono);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--copper)}
+.post h3{margin:.6rem 0;font-size:1.15rem}
+.post p{font-size:.88rem;color:var(--ink-soft)}
+
+/* ---- Testimonials ----------------------------------------------------- */
+.testi{background:linear-gradient(160deg,var(--gold) -10%,var(--paper) 40%)}
+.testi-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:3rem}
+.quote{background:var(--foam);border:1px solid var(--line);border-radius:20px;padding:2rem;box-shadow:var(--shadow-sm)}
+.quote p{font-family:var(--serif);font-style:italic;font-size:1.2rem;line-height:1.45}
+.quote .who{margin-top:1.3rem;display:flex;align-items:center;gap:.8rem}
+.quote .av{width:44px;height:44px;border-radius:50%;background:radial-gradient(circle at 35% 30%,var(--gold),var(--copper));
+  display:grid;place-items:center;font-family:var(--serif);font-weight:900;color:var(--foam)}
+.quote .who b{display:block;font-size:.95rem}
+.quote .who span{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;color:var(--ink-soft)}
+
+/* ---- CTA -------------------------------------------------------------- */
+.cta{background:var(--ink);color:var(--foam);text-align:center;position:relative;overflow:hidden}
+.cta .bubbles span{background:rgba(243,195,77,.14);border-color:rgba(243,195,77,.2)}
+.cta h2{color:var(--foam);position:relative;z-index:2}
+.cta p{color:rgba(253,248,238,.7);margin:1rem auto 2rem;max-width:48ch;position:relative;z-index:2}
+.cta .btn-gold{position:relative;z-index:2}
+
+/* ---- Footer ----------------------------------------------------------- */
+footer{background:#180d05;color:rgba(253,248,238,.75);padding-block:4rem 2rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:2rem}
+footer h4{font-family:var(--mono);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}
+footer ul{list-style:none;display:flex;flex-direction:column;gap:.55rem;font-size:.9rem}
+footer a:hover{color:var(--gold)}
+.foot-brand{max-width:30ch}
+.foot-brand p{font-size:.9rem;margin-top:.8rem}
+.foot-bottom{border-top:1px solid rgba(253,248,238,.12);margin-top:3rem;padding-top:1.5rem;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;color:rgba(253,248,238,.5)}
+
+/* ---- Reveal animation ------------------------------------------------- */
+/* progressive enhancement: reveals only hide when JS is active, so the page
+   is fully visible if JS fails or is disabled */
+.js .reveal{opacity:0;transform:translateY(28px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.js .reveal.in{opacity:1;transform:none}
+.js [data-hero] .reveal{transform:translateY(20px)}
+.js [data-hero] .reveal.in{transition-delay:calc(var(--i,0)*.09s)}
+
+/* ---- Responsive ------------------------------------------------------- */
+@media(max-width:960px){
+  .hero-grid,.about-grid{grid-template-columns:1fr}
+  .flight,.posts{grid-template-columns:1fr 1fr}
+  .bento{grid-template-columns:1fr 1fr}
+  .tile.wide{grid-column:span 2}
+}
+@media(max-width:680px){
+  .navlinks{display:none}
+  .burger{display:block}
+  .flight,.posts,.testi-grid,.bento,.foot-grid{grid-template-columns:1fr}
+  .tile.wide{grid-column:span 1}
+  .row{grid-template-columns:1fr}
+  .about-facts{gap:1.6rem}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important}
+  .reveal{opacity:1;transform:none}
+}
+</style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <img src="4.png" alt="Craft Beer School logo" class="logo-img">
-                <span class="header-title">Craft Beer School</span>
-            </div>
+
+<!-- NAV -->
+<header>
+  <nav class="wrap">
+    <a href="#top" class="brand"><span class="mark">🍺</span> Craft Beer School</a>
+    <div class="navlinks">
+      <a href="#about">About</a>
+      <a href="#courses">Courses</a>
+      <a href="#why">Why CBS</a>
+      <a href="#blog">Journal</a>
+      <a href="#contact">Contact</a>
+      <a href="#enroll" class="btn btn-primary nav-cta">Enroll</a>
+    </div>
+    <button class="burger" aria-label="Menu" onclick="document.querySelector('.navlinks').style.display='flex'">☰</button>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top" data-hero>
+  <div class="hero-bg"></div>
+  <div class="bubbles" id="bubbles1"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-col">
+      <span class="eyebrow reveal" style="--i:0">India · Online & In-Person · Est. Grain to Glass</span>
+      <h1 class="display reveal" style="--i:1;margin-top:1.2rem">Brew like<br>you <span>mean&nbsp;it.</span></h1>
+      <p class="lead reveal" style="--i:2">India's trusted beer school. We teach everything inside and outside the bottle — ingredients, brewing, tasting, branding, and the business of beer. Live sessions, guided tastings, and hands-on brewery workshops.</p>
+      <div class="hero-cta reveal" style="--i:3">
+        <a href="#courses" class="btn btn-primary">Explore courses →</a>
+        <div class="price-badge">
+          <b>₹999</b>
+          <small>Intro session · all in</small>
         </div>
-    </header>
+      </div>
+    </div>
 
-    <section class="hero">
-        <div class="container">
-            <h2>Craft Your Knowledge. Brew Your Future.</h1>
-            <p>Where beer wisdom meets modern brewing mastery. Join an interactive online platform dedicated to educating and empowering the next generation of beer professionals and passionate enthusiasts.</p>
-            <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
-                <a href="#courses" class="btn-primary">Explore Courses</a>
-                <a href="https://nas.io/craftbeer" target="_blank" class="btn-secondary" style="background: var(--beer-gold); color: var(--text-primary); border: 3px solid var(--beer-gold);">
-                    <i class="fas fa-users" style="margin-right: 9px;"></i>Join Our School
-                </a>
-            </div>
-        </div>
-    </section>
+    <!-- ENROLL CARD -->
+    <form class="enroll reveal" id="enroll" style="--i:2">
+      <h3>Start your pour</h3>
+      <input type="hidden" name="_subject" value="New enrolment enquiry — Craft Beer School" />
+      <div class="row">
+        <div class="field"><label>Name</label><input name="name" required placeholder="Your name" /></div>
+        <div class="field"><label>Phone</label><input name="phone" required placeholder="+91" /></div>
+      </div>
+      <div class="field"><label>Email</label><input type="email" name="email" required placeholder="you@email.com" /></div>
+      <div class="field"><label>Choose a course</label>
+        <select name="course" required>
+          <option value="">Select…</option>
+          <option>Brewing Fundamentals</option>
+          <option>Advanced Brewing Science</option>
+          <option>Brewery Business Management</option>
+          <option>Style Specialization</option>
+          <option>Beer Branding &amp; Packaging</option>
+          <option>Sensory Evaluation</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="field"><label>City</label><input name="city" placeholder="Optional" /></div>
+        <div class="field"><label>Promo code</label><input name="promo" placeholder="Optional" /></div>
+      </div>
+      <!-- honeypot: bots fill this, humans never see it -->
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true" />
+      <button class="btn btn-gold" type="submit">Apply now</button>
+      <p class="form-msg" role="status" aria-live="polite" style="display:none;margin-top:.9rem;font-size:.85rem;font-weight:600"></p>
+    </form>
+  </div>
+</section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h3>About Craft Beer School</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Craft Beer School is India’s first online and in-person brewing academy, where beer wisdom meets modern brewing mastery. Learn the art, science, and business of craft beer through expert-led courses and hands-on brewery workshops.</p>
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Grain to Glass</span><span>WSET Prep</span><span>Cicerone Ready</span><span>Small Batches</span><span>1-on-1 Mentorship</span><span>Brew Anywhere</span>
+    <span>Grain to Glass</span><span>WSET Prep</span><span>Cicerone Ready</span><span>Small Batches</span><span>1-on-1 Mentorship</span><span>Brew Anywhere</span>
+  </div>
+</div>
 
-                    <p><strong>Join a growing community of hop-heads, brewmasters, and beerpreneurs. Here, every course is a fresh pour of expertise.</strong></p>
-                </div>
-                <div class="about-features">
-                    <h4 style="text-align: center; margin-bottom: 1.5rem; color: var(--malt-brown); font-size: 1.3rem;">Why Choose Craft Beer School?</h3>
-                    
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-industry"></i>
-                        </div>
-                        <div>
-                            <strong>Brew Like a Pro</strong><br>
-                            Train in a virtual environment guided by professional brewers using real-world practices and standards—designed to mirror the workings of a fully equipped brewery.
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-chalkboard-teacher"></i>
-                        </div>
-                        <div>
-                            <strong>Learn from the Best</strong><br>
-                            Our expert instructors aren't just teachers—they're seasoned brewers and industry leaders who bring years of hands-on experience straight to your screen.
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <div>
-                            <strong>Get Certified. Get Noticed.</strong><br>
-                            Earn respected certifications that boost your credibility and open doors across the brewing and craft beer industry.
-                        </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <div>
-                            <strong>Tap Into the Industry</strong><br>
-                            Build meaningful connections with brewers, suppliers, and key players in the beer world. At Craft Beer School, your network grows along with your skills.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap about-grid">
+    <div class="about-media reveal">
+      <div class="glass">🍺</div>
+      <span class="tag">grain → mash → boil → glass</span>
+    </div>
+    <div>
+      <span class="eyebrow reveal">About Craft Beer School</span>
+      <h2 class="reveal" style="margin-top:.8rem">Better beer education brews better beer.</h2>
+      <p class="lead reveal" style="margin-top:1.2rem">Whether you're a curious beer lover chasing your first batch or a professional levelling up your craft, our courses make brewing simple, scientific, and seriously fun.</p>
+      <blockquote class="pullquote reveal">"We teach the whole bottle — and everything around it. From the science in the mash tun to the story on the label."</blockquote>
+      <div class="about-facts reveal">
+        <div class="fact"><b>6</b><span>Career-grade courses</span></div>
+        <div class="fact"><b>1:1</b><span>Expert mentorship</span></div>
+        <div class="fact"><b>WSET</b><span>+ Cicerone prep</span></div>
+      </div>
+      <a href="#courses" class="btn btn-ghost reveal" style="margin-top:2rem">See the syllabus →</a>
+    </div>
+  </div>
+</section>
 
-    <section id="courses" class="courses">
-        <div class="container">
-            <h3>Our Courses</h2>
-            <div class="courses-grid">
-                <div class="course-card">
-                    <h4><i class="fas fa-beer" style="color: var(--beer-gold);"></i> Brewing Fundamentals</h3>
-                    <div class="course-duration">5 Weeks</div>
-                    <div class="course-price">₹6,999</div>
-                    <p>Perfect for beginners! Learn the science of brewing, ingredients, equipment, and basic techniques. Includes hands-on brewing sessions and recipe development.</p>
-                    <ul style="margin: 2rem 0; padding-left: 1.5rem; color: var(--text-secondary);">
-                        <li>Brewing science and theory</li>
-                        <li>Raw materials and quality</li>
-                        <li>Equipment and sanitation</li>
-                        <li>Recipe formulation basics</li>
-                    </ul>
-                </div>
-                
-                <div class="course-card">
-                    <h4><i class="fas fa-flask" style="color: var(--beer-gold);"></i> Advanced Brewing Science</h3>
-                    <div class="course-duration">7 Weeks</div>
-                    <div class="course-price">₹13,999</div>
-                    <p>Deep dive into the chemistry and microbiology of brewing. Advanced fermentation techniques, water chemistry, and quality control methods.</p>
-                    <ul style="margin: 2rem 0; padding-left: 1.5rem; color: var(--text-secondary);">
-                        <li>Microbiology and fermentation</li>
-                        <li>Water chemistry optimization</li>
-                        <li>Advanced mashing techniques</li>
-                        <li>Quality assurance protocols</li>
-                    </ul>
-                </div>
-                
-                <div class="course-card">
-                    <h4><i class="fas fa-chart-line" style="color: var(--beer-gold);"></i> Brewery Business Management</h3>
-                    <div class="course-duration">4 Weeks</div>
-                    <div class="course-price">₹9,999</div>
-                    <p>Learn the business side of brewing. Financial planning, marketing, distribution, regulations, and scaling production for commercial success.</p>
-                    <ul style="margin: 2rem 0; padding-left: 1.5rem; color: var(--text-secondary);">
-                        <li>Business planning and finance</li>
-                        <li>Licensing and regulations</li>
-                        <li>Marketing and branding</li>
-                        <li>Distribution strategies</li>
-                    </ul>
-                </div>
-                
-                <div class="course-card">
-                    <h4><i class="fas fa-award" style="color: var(--beer-gold);"></i> Style Specialization</h3>
-                    <div class="course-duration">9 Weeks</div>
-                    <div class="course-price">₹19,999</div>
-                    <p>Master specific beer styles including IPAs, stouts, lagers, sours, and Belgian ales. Historical context, techniques, and modern interpretations.</p>
-                    <ul style="margin: 2rem 0; padding-left: 1.5rem; color: var(--text-secondary);">
-                        <li>Style guidelines and history</li>
-                        <li>Specialized techniques</li>
-                        <li>Ingredient selection</li>
-                        <li>Competition brewing</li>
-                    </ul>
-                </div>
-                
-                <div class="course-card">
-                    <h4><i class="fas fa-palette" style="color: var(--beer-gold);"></i> Beer Branding & Packaging</h3>
-                    <div class="course-duration">4 Weeks</div>
-                    <div class="course-price">₹5,999</div>
-                    <p>Perfect for aspiring brewers, homebrewers, beer entrepreneurs, and craft beer fans. Learn to create compelling beer brands and eye-catching packaging that sells.</p>
-                    <ul style="margin: 2rem 0; padding-left: 1.5rem; color: var(--text-secondary);">
-                        <li><strong>Week 2:</strong> Build your beer brand identity</li>
-                        <li><strong>Week 3:</strong> Design packaging that pops</li>
-                        <li><strong>Week 4:</strong> Launch planning & promotion</li>
-                        <li>Digital certificate & community access</li>
-                    </ul>
-                </div>
-                
-                <div class="course-card">
-                    <h4><i class="fas fa-eye" style="color: var(--beer-gold);"></i> Sensory Evaluation</h3>
-                    <div class="course-duration">3 Weeks</div>
-                    <div class="course-price">₹6,999</div>
-                    <p>Develop your palate and learn professional beer evaluation techniques. Off-flavor identification, sensory panels, and quality assessment.</p>
-                    <ul style="margin: 2rem 0; padding-left: 1.5rem; color: var(--text-secondary);">
-                        <li>Flavor chemistry</li>
-                        <li>Tasting techniques</li>
-                        <li>Off-flavor identification</li>
-                        <li>Quality scoring systems</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- COURSES -->
+<section class="courses" id="courses">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow reveal">The Flight · Basics to Business</span>
+      <h2 class="reveal">Six pours, one path<br>from grain to glass.</h2>
+      <p class="lead reveal">Each course blends theory with real practice — small groups, one-on-one mentorship, industry experts. Pick a single pour or drink the whole flight.</p>
+    </div>
 
-    <section id="faculty" class="faculty">
-        <div class="container">
-            <h3>Meet Our Faculty</h2>
-            <div class="faculty-grid">
-                <div class="faculty-card">
-                    <div class="faculty-avatar">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <h4>Ankur Napa</h3>
-                    <p><strong>Course Instructor | Master Brewer</strong></p>
-                    <p>Ankur Napa is a Master Brewer with hands-on experience at global giants like AB InBev, SABMiller, and United Breweries. He brings deep expertise in large-scale production, quality control, and diverse beer styles. A pioneer in AI-driven brewing, Ankur blends traditional craft with advanced technology to optimize flavor and consistency. At Craft Beer School, he offers practical, industry-relevant training grounded in real-world brewing excellence.</p>
-                </div>
-                
-                <div class="faculty-card">
-                    <div class="faculty-avatar">
-                        <i class="fas fa-microphone"></i>
-                    </div>
-                    <h4>Chatty Girija</h3>
-                    <p><strong>Beer Podcaster | Creative Strategist</strong></p>
-                    <p>With 31+ years in advertising and a deep passion for craft beer, Chatty blends creativity and strategy to make beer education fun, market-savvy, and impactful. Co-founder of Craft Beer School and host of Cheers Chatty, India's first beer podcast, she brings the business of beer to life with stories, insights, and infectious energy.</p>
-                    <p style="font-style: italic; color: var(--beer-gold); margin-top: 2rem;"><strong>Because beer is a cheerful way of life. Cheers!</strong></p>
-                </div>
-                <div class="faculty-card">
-                    <div class="faculty-avatar">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h4>Anu Rao</h3>
-                    <p><strong>Head of Strategy &amp; Operations | Craft Beer School</strong></p>
-                    <p>With over 16 years of experience across social responsibility, education, and expat relocations, Anu Rao brings sharp business acumen and a third-eye strategic perspective to Craft Beer School. Her expertise in revenue generation, business modelling, and people management makes her the powerhouse behind the school’s operational and strategic success.</p>
-                    <p>Guided by clarity, simplicity, and a solutions-focused mindset, Anu combines precision with practicality—ensuring every initiative is both purposeful and profitable.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="flight">
+      <!-- 01 -->
+      <article class="course reveal">
+        <div class="course-top"><span class="course-no">01 / Foundations</span><span class="course-dur">4 Weeks</span></div>
+        <h3>Brewing Fundamentals</h3>
+        <p>The science of brewing — ingredients, equipment, technique. Online sessions plus your first real recipe.</p>
+        <ul><li>Brewing science &amp; theory</li><li>Raw materials &amp; quality</li><li>Equipment &amp; sanitation</li><li>Recipe formulation basics</li></ul>
+        <div class="course-foot"><span class="course-price">₹5999</span><a href="#enroll" class="btn btn-ghost">Enroll</a></div>
+      </article>
+      <!-- 02 -->
+      <article class="course reveal">
+        <div class="course-top"><span class="course-no">02 / Deep Craft</span><span class="course-dur">6 Weeks</span></div>
+        <h3>Advanced Brewing Science</h3>
+        <p>Go deeper into chemistry, microbiology, and advanced fermentation for serious brewers and pros.</p>
+        <ul><li>Microbiology &amp; fermentation</li><li>Water chemistry optimization</li><li>Advanced mashing techniques</li><li>Quality assurance &amp; control</li></ul>
+        <div class="course-foot"><span class="course-price">₹12999</span><a href="#enroll" class="btn btn-ghost">Enroll</a></div>
+      </article>
+      <!-- 03 -->
+      <article class="course reveal">
+        <div class="course-top"><span class="course-no">03 / Business</span><span class="course-dur">3 Weeks</span></div>
+        <h3>Brewery Business Management</h3>
+        <p>The business behind the brew — plan, launch, and grow a brewery, from finance to distribution.</p>
+        <ul><li>Business planning &amp; finance</li><li>Licensing &amp; regulations</li><li>Marketing &amp; branding</li><li>Distribution strategies</li></ul>
+        <div class="course-foot"><span class="course-price">₹8999</span><a href="#enroll" class="btn btn-ghost">Enroll</a></div>
+      </article>
+      <!-- 04 -->
+      <article class="course reveal">
+        <div class="course-top"><span class="course-no">04 / Mastery</span><span class="course-dur">8 Weeks</span></div>
+        <h3>Style Specialization</h3>
+        <p>Master IPAs, stouts, lagers, sours, and Belgian ales — history, technique, and award-winning versions.</p>
+        <ul><li>Style guidelines &amp; origins</li><li>Specialized brewing techniques</li><li>Ingredient selection &amp; pairing</li><li>Competition brewing skills</li></ul>
+        <div class="course-foot"><span class="course-price">₹18999</span><a href="#enroll" class="btn btn-ghost">Enroll</a></div>
+      </article>
+      <!-- 05 -->
+      <article class="course reveal">
+        <div class="course-top"><span class="course-no">05 / Brand</span><span class="course-dur">3 Weeks</span></div>
+        <h3>Beer Branding &amp; Packaging</h3>
+        <p>Build a beer brand that stands out and packaging that sells — for aspiring brewers and founders.</p>
+        <ul><li>Build your brand identity</li><li>Design packaging that pops</li><li>Launch planning &amp; promotion</li><li>Certificate &amp; community access</li></ul>
+        <div class="course-foot"><span class="course-price">₹4999</span><a href="#enroll" class="btn btn-ghost">Enroll</a></div>
+      </article>
+      <!-- 06 -->
+      <article class="course reveal">
+        <div class="course-top"><span class="course-no">06 / Palate</span><span class="course-dur">2 Weeks</span></div>
+        <h3>Sensory Evaluation</h3>
+        <p>Train your palate like a pro — taste, identify off-flavours, and score beer with real sensory methods.</p>
+        <ul><li>Flavour chemistry</li><li>Tasting techniques</li><li>Off-flavour identification</li><li>Quality scoring systems</li></ul>
+        <div class="course-foot"><span class="course-price">₹5999</span><a href="#enroll" class="btn btn-ghost">Enroll</a></div>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <section class="info-section" id="info">
-        <div class="container">
-            <h3>Essential Information</h2>
-            <div class="info-grid">
-                <div class="info-card">
-                    <h4>About Us</h3>
-                    <p>Craft Beer School is India’s first online and in-person brewing academy, where beer wisdom meets modern brewing mastery. Learn the art, science, and business of craft beer through expert-led courses and hands-on brewery workshops.</p>
-                </div>
-                <div class="info-card">
-                    <h4>FAQs</h3>
-                    <p>Find answers to the most common questions about Craft Beer School’s online and in-person brewing courses. Learn about enrolment, live sessions, certifications, and how we help you build your future in India’s growing craft beer industry.</p>
-                </div>
-                <div class="info-card">
-                    <h4>Terms &amp; Conditions</h3>
-                    <p>Please review the Terms and Conditions of Craft Beer School to understand our policies on enrolment, payments, certification, and course participation. These guidelines ensure a transparent, professional, and rewarding learning experience for every brewing student.</p>
-                </div>
-            </div>
-            <div class="info-card" style="margin-top: 2.5rem;">
-                <h4>Refund &amp; Cancellation Policy</h3>
-                <p>Review Craft Beer School’s Refund &amp; Cancellation Policy to understand how payments, schedule changes, and enrolment confirmations work for our online and in-person brewing programs. Our policies ensure clarity, fairness, and a seamless student experience.</p>
-                <ol class="policy-list">
-                    <li>
-                        Course Fee Policy
-                        <div>All course fees are non-refundable for both online and in-person programs. Full advance payment is required to secure your seat in any course or workshop. Fees may not be transferred between different courses once a batch has started.</div>
-                    </li>
-                    <li>
-                        Session Rescheduling
-                        <div>Students may request a change in batch or session dates, subject to availability in the preferred batch, advance notice before the scheduled session, and only one schedule change per enrollment.</div>
-                    </li>
-                    <li>
-                        In-Person Workshop Attendance
-                        <div>Students must arrange their own travel and stay for brewery sessions in Bengaluru. Missed sessions cannot be refunded; however, make-up sessions may be provided depending on availability.</div>
-                    </li>
-                    <li>
-                        Course Cancellation by Craft Beer School
-                        <div>In the rare event a course is cancelled or rescheduled due to operational or safety reasons, students will receive an alternate batch option, or full credit usable toward another Craft Beer School course.</div>
-                    </li>
-                    <li>
-                        Eligibility &amp; Conduct
-                        <div>If a student is removed due to violation of safety or conduct rules, no refund or credit will be applicable. Students must be of legal drinking age by the start date of in-person brewing sessions.</div>
-                    </li>
-                    <li>
-                        Certification Requirements
-                        <div>Failure to meet attendance or assignment criteria does not qualify for refunds. Certificates are issued only upon successful completion of course requirements.</div>
-                    </li>
-                </ol>
-            </div>
-        </div>
-    </section>
+<!-- WHY -->
+<section id="why">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow reveal">Why Craft Beer School</span>
+      <h2 class="reveal">What makes us different.</h2>
+    </div>
+    <div class="bento">
+      <div class="tile amber reveal"><div class="ic">🧪</div><div><h3>Small batches, big learning</h3><p>Tiny cohorts so every question gets answered and every batch gets tasted.</p></div></div>
+      <div class="tile wide dark reveal"><div class="ic">🎓</div><div><h3>One-on-one mentorship</h3><p>Learn directly from working industry experts — brewers, sensory pros, and founders who've built brands in India.</p></div></div>
+      <div class="tile reveal"><div class="ic">🌍</div><div><h3>Learn anywhere</h3><p>Flexible live online sessions you can join from any city.</p></div></div>
+      <div class="tile reveal"><div class="ic">💼</div><div><h3>Passion to profession</h3><p>Curricula built to turn a hobby into a career or a business.</p></div></div>
+      <div class="tile wide reveal"><div class="ic">📜</div><div><h3>Global certification ready</h3><p>Structured WSET and Cicerone exam prep, so your knowledge travels beyond the classroom.</p></div></div>
+      <div class="tile reveal"><div class="ic">🍻</div><div><h3>Hands-on workshops</h3><p>Guided tastings and real brewery days — grain to glass, in person.</p></div></div>
+    </div>
+  </div>
+</section>
 
-    <section id="contact">
-        <div class="container">
-            <h3>Contact Us</h2>
-            <div class="contact-content">
-                <div class="contact-form">
-                    <h4 style="margin-bottom: 1.5rem; color: #654321;">Get More Information</h3>
-                    <form action="https://formsubmit.co/napaankur@gmail.com" method="POST">
-                        <!-- FormSubmit Configuration -->
-                        <input type="hidden" name="_subject" value="New Contact Form Submission - Craft Beer School">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_template" value="table">
-                        <input type="hidden" name="_next" value="https://craftbeer.in#contact">
-                        
-                        <div class="form-group">
-                            <label for="name">Full Name *</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
-                        </div>
-                        <div class="form-group">
-                            <label for="course">Course Interest</label>
-                            <select id="course" name="course_interest" style="width: 101%; padding: 12px; border: 2px solid var(--border-light); border-radius: 8px; font-size: 1rem; font-family: inherit; transition: border-color 0.3s ease;">
-                                <option value="">Select a course</option>
-                                <option value="Brewing Fundamentals">Brewing Fundamentals (5 weeks - ₹5,999)</option>
-                                <option value="Advanced Brewing Science">Advanced Brewing Science (7 weeks - ₹12,999)</option>
-                                <option value="Brewery Business Management">Brewery Business Management (4 weeks - ₹8,999)</option>
-                                <option value="Style Specialization">Style Specialization (9 weeks - ₹18,999)</option>
-                                <option value="Beer Branding & Packaging">Beer Branding & Packaging (4 weeks - ₹4,999)</option>
-                                <option value="Sensory Evaluation">Sensory Evaluation (3 weeks - ₹5,999)</option>
-                                <option value="General Inquiry">General Inquiry</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your brewing goals and any questions you have..."></textarea>
-                        </div>
-                        <button type="button" 
-                                onclick="sendWhatsAppMessage()" 
-                                class="btn-secondary" 
-                                style="width: 101%; margin-top: 1rem; text-align: center; background: #25D366; color: white; border: 2px solid #25D366;">
-                            <i class="fab fa-whatsapp" style="margin-right: 9px;"></i>Send WhatsApp Message
-                        </button>
-                    </form>
-                </div>
-                
-                <div class="contact-info">
-                    <h4 style="margin-bottom: 2rem;">Get In Touch</h3>
-                    
-                    <div class="contact-item">
-                        <div class="contact-item-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div>
-                            <strong>Address</strong><br>
-                            Bangalore, India<br>
-                            Karnataka
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-item-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div>
-                            <strong>Phone</strong><br>
-                            +92 98209 25347<br>
-                            <small>Contact Ankur Napa</small>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-item-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div>
-                            <strong>Email</strong><br>
-                            napaankur@gmail.com
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-item-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div>
-                            <strong>Office Hours</strong><br>
-                            Monday - Friday: 10AM - 6PM<br>
-                            Saturday: 11AM - 4PM
-                        </div>
-                    </div>
-                    
-                    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.3);">
-                        <p><strong>Brewery Tours Available</strong></p>
-                        <p>Schedule a visit to see our brewing facilities, meet our faculty, and sample our student-made beers. Tours available by appointment.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- BLOG -->
+<section id="blog">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow reveal">The Journal · Blog &amp; Podcasts</span>
+      <h2 class="reveal">Insights from the brewing world.</h2>
+    </div>
+    <div class="posts">
+      <article class="post reveal"><div class="thumb">🍺</div><div class="body"><span class="cat">Tasting</span><h3>The beer nobody asked about</h3><p>A dinner, a cocktail, and the pour that changed how one friend thinks about beer.</p></div></article>
+      <article class="post reveal"><div class="thumb">🏭</div><div class="body"><span class="cat">Quality</span><h3>Common mistakes new brewery owners make</h3><p>Why consistency is the key to long-term craft brewery success in India.</p></div></article>
+      <article class="post reveal"><div class="thumb">📈</div><div class="body"><span class="cat">Marketing</span><h3>Marketing strategies for craft beer brands</h3><p>How to build a beer brand that stands out in India's competitive market.</p></div></article>
+    </div>
+  </div>
+</section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Craft Beer School. All rights reserved. | Licensed Educational Institution | Equal Opportunity Employer</p>
-            <div class="footer-social">
-                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </footer>
+<!-- TESTIMONIALS -->
+<section class="testi">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow reveal">Beer Stories</span>
+      <h2 class="reveal">Spreading the cheer.</h2>
+    </div>
+    <div class="testi-grid">
+      <blockquote class="quote reveal">
+        <p>"I recently completed the Brewing Fundamentals course at Craft Beer School, hosted by Ankur and Chatty, and it was an outstanding experience."</p>
+        <div class="who"><span class="av">S</span><div><b>Sunil Prakash Rao</b><span>Singapore</span></div></div>
+      </blockquote>
+      <blockquote class="quote reveal">
+        <p>"I am from Ratnagiri, with an M.Sc. in Nutrition and Food Processing. Despite no prior background in brewing, this online class made it click."</p>
+        <div class="who"><span class="av">P</span><div><b>Poorva Shinde</b><span>Ratnagiri</span></div></div>
+      </blockquote>
+    </div>
+  </div>
+</section>
 
-    <script>
-        // Function to send WhatsApp message with form data
-        function sendWhatsAppMessage() {
-            // Get form data
-            const name = document.getElementById('name').value || '[Not provided]';
-            const email = document.getElementById('email').value || '[Not provided]';
-            const phone = document.getElementById('phone').value || '[Not provided]';
-            const course = document.getElementById('course').value || '[Not selected]';
-            const message = document.getElementById('message').value || '[No additional message]';
-            
-            // Create WhatsApp message
-            const whatsappMessage = `Hi Ankur,
+<!-- CTA -->
+<section class="cta" id="contact">
+  <div class="bubbles" id="bubbles2"></div>
+  <div class="wrap">
+    <h2 class="reveal">Join the Craft Beer School &amp;<br>brew your future.</h2>
+    <p class="reveal">Open to beer lovers, professionals, and future brewery founders — in India and across the world.</p>
+    <a href="#enroll" class="btn btn-gold reveal">Enroll now 🍻</a>
+  </div>
+</section>
 
-I'm interested in Craft Beer School courses. Here are my details:
+<!-- FOOTER -->
+<footer>
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a href="#top" class="brand" style="color:var(--foam)"><span class="mark">🍺</span> Craft Beer School</a>
+      <p>India's trusted online and in-person beer school. Grain to glass and beyond.</p>
+    </div>
+    <div><h4>Courses</h4><ul>
+      <li><a href="#courses">Brewing Fundamentals</a></li>
+      <li><a href="#courses">Advanced Brewing Science</a></li>
+      <li><a href="#courses">Business Management</a></li>
+      <li><a href="#courses">Sensory Evaluation</a></li>
+    </ul></div>
+    <div><h4>Links</h4><ul>
+      <li><a href="#about">About us</a></li>
+      <li><a href="#blog">Journal</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#enroll">Enroll</a></li>
+    </ul></div>
+    <div><h4>Contact</h4><ul>
+      <li><a href="tel:+919820925347">98209 25347</a></li>
+      <li><a href="tel:+919082256507">90822 56507</a></li>
+      <li><a href="mailto:chatty@cheerschattyventures.com">chatty@cheers…</a></li>
+      <li><a href="#">Become a CBS Mentor</a></li>
+    </ul></div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© 2026 Craft Beer School. All rights reserved.</span>
+    <span>Drink knowledge responsibly.</span>
+  </div>
+</footer>
 
-*Name:* ${name}
-*Email:* ${email}
-*Phone:* ${phone}
-*Course Interest:* ${course}
-*Message:* ${message}
+<script>
+document.documentElement.classList.add('js');
 
-Please share more information about the courses.
+/* ---- Enroll form → Formspree (AJAX, keeps inline success message) ------ */
+/* 1. Create a form at https://formspree.io → copy its ID (looks like "xdkzabcd")
+   2. Paste it below. That's the only change needed. */
+const FORMSPREE_ID = "YOUR_FORM_ID";
+const enrollForm = document.getElementById('enroll');
+const enrollMsg = enrollForm.querySelector('.form-msg');
+const enrollBtn = enrollForm.querySelector('button[type=submit]');
+function showMsg(text, ok){
+  enrollMsg.textContent = text;
+  enrollMsg.style.color = ok ? 'var(--hop)' : 'var(--copper)';
+  enrollMsg.style.display = 'block';
+}
+enrollForm.addEventListener('submit', async (e)=>{
+  e.preventDefault();
+  if(FORMSPREE_ID === "YOUR_FORM_ID"){
+    showMsg("Form not configured yet — add your Formspree ID.", false);
+    return;
+  }
+  enrollBtn.disabled = true;
+  const original = enrollBtn.textContent;
+  enrollBtn.textContent = "Sending…";
+  try{
+    const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`,{
+      method:'POST',
+      body:new FormData(enrollForm),
+      headers:{Accept:'application/json'}
+    });
+    if(res.ok){
+      enrollForm.reset();
+      showMsg("Cheers! We'll be in touch within 24 hours. 🍻", true);
+    }else{
+      const data = await res.json().catch(()=>({}));
+      const err = data.errors ? data.errors.map(x=>x.message).join(', ') : 'Something went wrong.';
+      showMsg(err + " Please email chatty@cheerschattyventures.com.", false);
+    }
+  }catch(_){
+    showMsg("Network error — please email chatty@cheerschattyventures.com.", false);
+  }finally{
+    enrollBtn.disabled = false;
+    enrollBtn.textContent = original;
+  }
+});
 
-Thanks!`;
-            
-            // Encode the message for URL
-            const encodedMessage = encodeURIComponent(whatsappMessage);
-            
-            // Create WhatsApp URL
-            const whatsappURL = `https://wa.me/919820925348?text=${encodedMessage}`;
-            
-            // Open WhatsApp
-            window.open(whatsappURL, '_blank');
-        }
+/* bubbles */
+function makeBubbles(el,n){
+  for(let i=0;i<n;i++){
+    const b=document.createElement('span');
+    const s=6+Math.random()*22;
+    b.style.width=b.style.height=s+'px';
+    b.style.left=Math.random()*100+'%';
+    b.style.animationDuration=(8+Math.random()*10)+'s';
+    b.style.animationDelay=(-Math.random()*12)+'s';
+    el.appendChild(b);
+  }
+}
+makeBubbles(document.getElementById('bubbles1'),18);
+makeBubbles(document.getElementById('bubbles2'),14);
 
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Add scroll effect to navigation - Keep header white
-        window.addEventListener('scroll', function() {
-            const header = document.querySelector('header');
-            if (window.scrollY > 101) {
-                header.style.background = 'rgba(256, 255, 255, 0.95)';
-                header.style.backdropFilter = 'blur(11px)';
-                header.style.boxShadow = '1 2px 20px rgba(0,0,0,0.1)';
-            } else {
-                header.style.background = 'var(--bg-secondary)';
-                header.style.backdropFilter = 'none';
-                header.style.boxShadow = '1 2px 8px var(--shadow)';
-            }
-        });
-
-        // Animate elements on scroll
-        const observerOptions = {
-            threshold: 1.1,
-            rootMargin: '1px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '2';
-                    entry.target.style.transform = 'translateY(1)';
-                }
-            });
-        }, observerOptions);
-
-        // Observe course cards and faculty cards
-        document.querySelectorAll('.course-card, .faculty-card').forEach(card => {
-            card.style.opacity = '1';
-            card.style.transform = 'translateY(31px)';
-            card.style.transition = 'opacity 1.6s ease, transform 0.6s ease';
-            observer.observe(card);
-        });
-    </script>
+/* scroll reveal */
+const io=new IntersectionObserver((es)=>{
+  es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})
+},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+/* hero reveals immediately */
+document.querySelectorAll('[data-hero] .reveal').forEach(el=>el.classList.add('in'));
+</script>
 </body>
 </html>
