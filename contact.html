@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact & Enroll — Craft Beer School</title>
+<meta name="description" content="Enrol, ask a question, or book a tasting. Reach Craft Beer School by phone, email or the form — we reply within 24 hours." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500;1,9..144,600&family=Poppins:wght@600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="announce">Now enrolling — the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
+<div class="rainbow"></div>
+<header>
+  <nav class="wrap">
+    <a href="index.html" class="brand"><span class="mark">🍺</span>Craft Beer School</a>
+    <div class="navlinks" id="navlinks">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="courses.html">Courses</a><a href="resources.html">Resources</a><a href="blog.html">Blog</a><a href="careers.html">Careers</a><a href="contact.html" class="active">Contact</a>
+      <a href="contact.html" class="nav-cta">Enroll</a>
+    </div>
+    <button class="burger" aria-label="Menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+  </nav>
+</header>
+<main>
+<section class="banner"><div class="wrap">
+  <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
+  <span class="eyebrow">Contact &amp; Enroll</span>
+  <h1 class="display">Let's get you pouring.</h1>
+  <p>Enrol, ask a question or book a tasting. We reply within 24 hours.</p>
+</div></section>
+<section>
+  <div class="wrap split">
+    <div class="prose-block reveal">
+      <span class="eyebrow">Reach us</span>
+      <h2>Talk to Craft Beer School.</h2>
+      <p>Whether you're a beer lover chasing your first batch or a professional levelling up, we'd love to hear from you.</p>
+      <ul class="checklist" style="margin-top:1.5rem">
+        <li><b>Phone / WhatsApp:</b> <a href="tel:+919820925347" style="color:var(--blue)">+91 98209 25347</a> · <a href="tel:+919082256507" style="color:var(--blue)">+91 90822 56507</a></li>
+        <li><b>Email:</b> <a href="mailto:chatty@cheerschattyventures.com" style="color:var(--blue)">chatty@cheerschattyventures.com</a></li>
+        <li><b>Based in:</b> Bengaluru, India — serving learners across the world</li>
+        <li><b>Hours:</b> Mon–Sat, 10:00–19:00 IST</li>
+      </ul>
+      <p style="margin-top:1.2rem"><a href="faq.html" class="link-arrow">Read the FAQ first</a></p>
+    </div>
+    <form class="form-card reveal" id="enroll" data-formspree>
+      <h3 style="margin-bottom:1.1rem">Enrol or enquire</h3>
+      <input type="hidden" name="_subject" value="New enquiry — Craft Beer School" />
+      <div class="row2">
+        <div class="field"><label>Name</label><input name="name" required placeholder="Your name" /></div>
+        <div class="field"><label>Phone</label><input name="phone" required placeholder="+91" /></div>
+      </div>
+      <div class="field"><label>Email</label><input type="email" name="email" required placeholder="you@email.com" /></div>
+      <div class="field"><label>Interested in</label>
+        <select name="course" required><option value="">Select…</option><option>Brewing Fundamentals</option><option>Advanced Brewing Science</option><option>Brewery Business Management</option><option>Style Specialization</option><option>Beer Branding &amp; Packaging</option><option>Sensory Evaluation</option><option>In-person workshop / tasting</option><option>Not sure yet</option></select>
+      </div>
+      <div class="row2">
+        <div class="field"><label>City</label><input name="city" placeholder="Optional" /></div>
+        <div class="field"><label>Promo code</label><input name="promo" placeholder="Optional" /></div>
+      </div>
+      <div class="field"><label>Message</label><textarea name="message" placeholder="Anything you'd like us to know…"></textarea></div>
+      <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <button class="btn btn-amber" type="submit">Apply now</button>
+      <p class="form-msg" role="status" aria-live="polite" style="display:none;margin-top:.9rem;font-size:.85rem;font-weight:600"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a href="index.html" class="brand" style="color:#fff"><span class="mark">🍺</span>Craft Beer School</a>
+      <p>India's trusted online and in-person beer school. Grain to glass and beyond — brewing, tasting, branding and the business of beer.</p>
+    </div>
+    <div><h4>Learn</h4><ul>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="blog.html">Blog &amp; Podcasts</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+    </ul></div>
+    <div><h4>School</h4><ul>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="careers.html">Careers &amp; Mentors</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html">Enroll</a></li>
+    </ul></div>
+    <div><h4>Contact</h4><ul>
+      <li><a href="tel:+919820925347">+91 98209 25347</a></li>
+      <li><a href="tel:+919082256507">+91 90822 56507</a></li>
+      <li><a href="mailto:chatty@cheerschattyventures.com">chatty@cheers…</a></li>
+      <li><a href="privacy.html">Privacy</a> · <a href="refund.html">Refunds</a></li>
+    </ul></div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© 2026 Craft Beer School. All rights reserved.</span>
+    <span>Drink knowledge responsibly. 🍻</span>
+  </div>
+</footer>
+
+<script>
+document.documentElement.classList.add('js');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+const FORMSPREE_ID="YOUR_FORM_ID";
+document.querySelectorAll('form[data-formspree]').forEach(form=>{
+  const msg=form.querySelector('.form-msg');
+  const btn=form.querySelector('button[type=submit]');
+  function show(t,ok){if(!msg)return;msg.textContent=t;msg.style.color=ok?'#2f7a46':'#c1701a';msg.style.display='block';}
+  form.addEventListener('submit',async e=>{
+    e.preventDefault();
+    if(FORMSPREE_ID==="YOUR_FORM_ID"){show("Form not configured yet — add your Formspree ID in build.py.",false);return;}
+    const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
+    try{
+      const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
+      if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours. 🍻",true);}
+      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email chatty@cheerschattyventures.com.",false);}
+    }catch(_){show("Network error — please email chatty@cheerschattyventures.com.",false);}
+    finally{btn.disabled=false;btn.textContent=orig;}
+  });
+});
+</script>
+</body>
+</html>
