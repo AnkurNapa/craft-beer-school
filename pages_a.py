@@ -16,22 +16,22 @@ def course(no, tag, dur, name, blurb, items, price, ph):
 
 C1 = course("01","Foundations","4 Weeks","Brewing Fundamentals",
     "The science of brewing — ingredients, equipment, technique. Online sessions plus your first real recipe.",
-    ["Brewing science &amp; theory","Raw materials &amp; quality","Equipment &amp; sanitation","Recipe formulation basics"],"₹5,999","🌾")
+    ["Brewing science &amp; theory","Raw materials &amp; quality","Equipment &amp; sanitation","Recipe formulation basics"],"₹5,999","")
 C2 = course("02","Deep Craft","6 Weeks","Advanced Brewing Science",
     "Go deeper into chemistry, microbiology and advanced fermentation for serious brewers and pros.",
-    ["Microbiology &amp; fermentation","Water chemistry optimization","Advanced mashing techniques","Quality assurance &amp; control"],"₹12,999","🧪")
+    ["Microbiology &amp; fermentation","Water chemistry optimization","Advanced mashing techniques","Quality assurance &amp; control"],"₹12,999","")
 C3 = course("03","Business","3 Weeks","Brewery Business Management",
     "The business behind the brew — plan, launch and grow a brewery, from finance to distribution.",
-    ["Business planning &amp; finance","Licensing &amp; regulations","Marketing &amp; branding","Distribution strategies"],"₹8,999","📊")
+    ["Business planning &amp; finance","Licensing &amp; regulations","Marketing &amp; branding","Distribution strategies"],"₹8,999","")
 C4 = course("04","Mastery","8 Weeks","Style Specialization",
     "Master IPAs, stouts, lagers, sours and Belgian ales — history, technique and award-winning versions.",
-    ["Style guidelines &amp; origins","Specialized techniques","Ingredient selection &amp; pairing","Competition brewing skills"],"₹18,999","🍺")
+    ["Style guidelines &amp; origins","Specialized techniques","Ingredient selection &amp; pairing","Competition brewing skills"],"₹18,999","")
 C5 = course("05","Brand","3 Weeks","Beer Branding &amp; Packaging",
     "Build a beer brand that stands out and packaging that sells — for aspiring brewers and founders.",
-    ["Build your brand identity","Design packaging that pops","Launch planning &amp; promotion","Certificate &amp; community access"],"₹4,999","🎨")
+    ["Build your brand identity","Design packaging that pops","Launch planning &amp; promotion","Certificate &amp; community access"],"₹4,999","")
 C6 = course("06","Palate","2 Weeks","Sensory Evaluation",
     "Train your palate like a pro — taste, identify off-flavours and score beer with real sensory methods.",
-    ["Flavour chemistry","Tasting techniques","Off-flavour identification","Quality scoring systems"],"₹5,999","👃")
+    ["Flavour chemistry","Tasting techniques","Off-flavour identification","Quality scoring systems"],"₹5,999","")
 
 # ============================================================================
 HOME = f"""
@@ -79,9 +79,9 @@ HOME = f"""
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Why Craft Beer School</span><h2>Better beer education brews better beer.</h2></div>
     <div class="features">
-      <div class="feature reveal" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)"><div class="ic">🧪</div><h3 style="color:#fff">Small batches, big learning</h3><p style="color:rgba(255,255,255,.7)">Tiny cohorts so every question gets answered and every batch gets tasted.</p></div>
-      <div class="feature reveal" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)"><div class="ic">🎓</div><h3 style="color:#fff">One-on-one mentorship</h3><p style="color:rgba(255,255,255,.7)">Learn directly from working brewers, sensory pros and founders.</p></div>
-      <div class="feature reveal" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)"><div class="ic">🌍</div><h3 style="color:#fff">Learn anywhere</h3><p style="color:rgba(255,255,255,.7)">Flexible live online sessions you can join from any city, plus in-person workshops.</p></div>
+      <div class="feature reveal" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)"><div class="ic">[[flask]]</div><h3 style="color:#fff">Small batches, big learning</h3><p style="color:rgba(255,255,255,.7)">Tiny cohorts so every question gets answered and every batch gets tasted.</p></div>
+      <div class="feature reveal" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)"><div class="ic">[[cap]]</div><h3 style="color:#fff">One-on-one mentorship</h3><p style="color:rgba(255,255,255,.7)">Learn directly from working brewers, sensory pros and founders.</p></div>
+      <div class="feature reveal" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)"><div class="ic">[[globe]]</div><h3 style="color:#fff">Learn anywhere</h3><p style="color:rgba(255,255,255,.7)">Flexible live online sessions you can join from any city, plus in-person workshops.</p></div>
     </div>
   </div>
 </section>
@@ -124,7 +124,7 @@ HOME = f"""
   <div class="wrap">
     <h2>Join the Craft Beer School &amp; brew your future.</h2>
     <p>Open to beer lovers, professionals and future brewery founders — in India and across the world.</p>
-    <a href="contact.html" class="btn btn-amber">Enroll now 🍻</a>
+    <a href="contact.html" class="btn btn-amber">Enroll now</a>
   </div>
 </section>
 """
@@ -157,12 +157,12 @@ ABOUT = banner("About","About Craft Beer School","We teach the whole bottle.",
   <div class="wrap">
     <div class="sec-head center"><span class="eyebrow">What makes us different</span><h2>From passion to profession.</h2></div>
     <div class="features">
-      <div class="feature reveal"><div class="ic">🧪</div><h3>Small batches, big learning</h3><p>Tiny cohorts so every question gets answered and every batch gets tasted.</p></div>
-      <div class="feature reveal"><div class="ic">🎓</div><h3>One-on-one mentorship</h3><p>Learn directly from working brewers, sensory pros and founders who've built brands in India.</p></div>
-      <div class="feature reveal"><div class="ic">🌍</div><h3>Learn anywhere</h3><p>Flexible live online sessions you can join from any city — plus in-person brewery days.</p></div>
-      <div class="feature reveal"><div class="ic">📜</div><h3>Certification ready</h3><p>Structured WSET and Cicerone exam prep so your knowledge travels beyond the classroom.</p></div>
-      <div class="feature reveal"><div class="ic">💼</div><h3>Passion to profession</h3><p>Curricula built to turn a hobby into a career or a business.</p></div>
-      <div class="feature reveal"><div class="ic">🍻</div><h3>Hands-on workshops</h3><p>Guided tastings and real brewery days — grain to glass, in person.</p></div>
+      <div class="feature reveal"><div class="ic">[[flask]]</div><h3>Small batches, big learning</h3><p>Tiny cohorts so every question gets answered and every batch gets tasted.</p></div>
+      <div class="feature reveal"><div class="ic">[[cap]]</div><h3>One-on-one mentorship</h3><p>Learn directly from working brewers, sensory pros and founders who've built brands in India.</p></div>
+      <div class="feature reveal"><div class="ic">[[globe]]</div><h3>Learn anywhere</h3><p>Flexible live online sessions you can join from any city — plus in-person brewery days.</p></div>
+      <div class="feature reveal"><div class="ic">[[award]]</div><h3>Certification ready</h3><p>Structured WSET and Cicerone exam prep so your knowledge travels beyond the classroom.</p></div>
+      <div class="feature reveal"><div class="ic">[[briefcase]]</div><h3>Passion to profession</h3><p>Curricula built to turn a hobby into a career or a business.</p></div>
+      <div class="feature reveal"><div class="ic">[[beer]]</div><h3>Hands-on workshops</h3><p>Guided tastings and real brewery days — grain to glass, in person.</p></div>
     </div>
   </div>
 </section>
@@ -178,7 +178,7 @@ ABOUT = banner("About","About Craft Beer School","We teach the whole bottle.",
   </div>
 </section>
 
-<section class="cta"><div class="wrap"><h2>Ready to go grain to glass?</h2><p>Pick a course, book a tasting, or ask us anything.</p><a href="contact.html" class="btn btn-amber">Talk to us 🍻</a></div></section>
+<section class="cta"><div class="wrap"><h2>Ready to go grain to glass?</h2><p>Pick a course, book a tasting, or ask us anything.</p><a href="contact.html" class="btn btn-amber">Talk to us</a></div></section>
 """
 
 # ============================================================================
@@ -225,12 +225,12 @@ RESOURCES = banner("Resources","Free beer education","Start learning today — o
 <section>
   <div class="wrap">
     <div class="grid-3">
-      <article class="card reveal"><div class="ph amber">📖</div><div class="card-body"><span class="cat">Start here</span><h3>Beer 101</h3><p>What is craft beer? Ingredients, the four pillars, and how a beer is actually made — grain to glass in plain English.</p><div class="foot"><a href="contact.html" class="link-arrow">Get the crash course</a></div></div></article>
-      <article class="card reveal"><div class="ph mint">🍺</div><div class="card-body"><span class="cat">Reference</span><h3>Beer Styles Primer</h3><p>IPAs, stouts, lagers, sours and Belgian ales — origins, flavour signatures and what to expect in the glass.</p><div class="foot"><a href="courses.html" class="link-arrow">Explore styles</a></div></div></article>
-      <article class="card reveal"><div class="ph">📔</div><div class="card-body"><span class="cat">Reference</span><h3>Brewing Glossary</h3><p>ABV, IBU, OG/FG, attenuation, lauter, dry hop — the words brewers use, defined clearly.</p><div class="foot"><a href="#glossary" class="link-arrow">Jump to glossary</a></div></div></article>
-      <article class="card reveal"><div class="ph mint">🧮</div><div class="card-body"><span class="cat">Tool · App</span><h3>Indian Brewing Calculator</h3><p>ABV, attenuation and recipe math built for Indian brewing — check your numbers before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/indian-brewing-calculator/" class="link-arrow" target="_blank" rel="noopener">Open the calculator</a></div></div></article>
-      <article class="card reveal"><div class="ph amber">👃</div><div class="card-body"><span class="cat">Tool · App</span><h3>Aroma Forge</h3><p>Predict a beer's aroma by superimposing digitised Weyermann malt aroma wheels — see how your grain bill smells before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/aroma-forge/" class="link-arrow" target="_blank" rel="noopener">Open Aroma Forge</a></div></div></article>
-      <article class="card reveal"><div class="ph mint">⚗️</div><div class="card-body"><span class="cat">Tool · App</span><h3>Advanced Brewing Calculator</h3><p>Pro-tier formulation, spec sheets and recipe comparison — for serious brewers who want the full picture.</p><div class="foot"><a href="https://ankurnapa.github.io/advanced-brewing-calc/" class="link-arrow" target="_blank" rel="noopener">Open the pro suite</a></div></div></article>
+      <article class="card reveal"><div class="ph amber">[[book-open]]</div><div class="card-body"><span class="cat">Start here</span><h3>Beer 101</h3><p>What is craft beer? Ingredients, the four pillars, and how a beer is actually made — grain to glass in plain English.</p><div class="foot"><a href="contact.html" class="link-arrow">Get the crash course</a></div></div></article>
+      <article class="card reveal"><div class="ph mint">[[beer]]</div><div class="card-body"><span class="cat">Reference</span><h3>Beer Styles Primer</h3><p>IPAs, stouts, lagers, sours and Belgian ales — origins, flavour signatures and what to expect in the glass.</p><div class="foot"><a href="courses.html" class="link-arrow">Explore styles</a></div></div></article>
+      <article class="card reveal"><div class="ph">[[book]]</div><div class="card-body"><span class="cat">Reference</span><h3>Brewing Glossary</h3><p>ABV, IBU, OG/FG, attenuation, lauter, dry hop — the words brewers use, defined clearly.</p><div class="foot"><a href="#glossary" class="link-arrow">Jump to glossary</a></div></div></article>
+      <article class="card reveal"><div class="ph mint">[[calculator]]</div><div class="card-body"><span class="cat">Tool · App</span><h3>Indian Brewing Calculator</h3><p>ABV, attenuation and recipe math built for Indian brewing — check your numbers before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/indian-brewing-calculator/" class="link-arrow" target="_blank" rel="noopener">Open the calculator</a></div></div></article>
+      <article class="card reveal"><div class="ph amber">[[wind]]</div><div class="card-body"><span class="cat">Tool · App</span><h3>Aroma Forge</h3><p>Predict a beer's aroma by superimposing digitised Weyermann malt aroma wheels — see how your grain bill smells before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/aroma-forge/" class="link-arrow" target="_blank" rel="noopener">Open Aroma Forge</a></div></div></article>
+      <article class="card reveal"><div class="ph mint">[[sliders]]</div><div class="card-body"><span class="cat">Tool · App</span><h3>Advanced Brewing Calculator</h3><p>Pro-tier formulation, spec sheets and recipe comparison — for serious brewers who want the full picture.</p><div class="foot"><a href="https://ankurnapa.github.io/advanced-brewing-calc/" class="link-arrow" target="_blank" rel="noopener">Open the pro suite</a></div></div></article>
     </div>
   </div>
 </section>

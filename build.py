@@ -5,8 +5,32 @@ One shared shell (nav + footer + scripts) stamped around per-page bodies
 defined in pages_a.py / pages_b.py. Run `python3 build.py` to regenerate
 every .html file in this folder. Edit the shell here once; all pages update.
 """
+import re
 import pages_a
 import pages_b
+
+# --- Consistent inline icon set (Lucide, MIT). Use [[name]] in page bodies. ---
+ICONS = {
+    "flask": '<path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"/><path d="M6.453 15h11.094"/><path d="M8.5 2h7"/>',
+    "cap": '<path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/>',
+    "globe": '<circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>',
+    "award": '<circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>',
+    "briefcase": '<rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>',
+    "beer": '<path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 3 11 3s2 .5 3 .5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/><path d="M5 8v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V8"/>',
+    "book-open": '<path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>',
+    "book": '<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/>',
+    "calculator": '<rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/>',
+    "wind": '<path d="M12.8 19.6A2 2 0 1 0 14 16H2"/><path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"/><path d="M9.8 4.4A2 2 0 1 1 11 8H2"/>',
+    "sliders": '<line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/>',
+}
+
+
+def expand_icons(html):
+    def sub(m):
+        inner = ICONS.get(m.group(1), "")
+        return (f'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+                f'stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{inner}</svg>')
+    return re.sub(r"\[\[([a-z-]+)\]\]", sub, html)
 
 # Paste your Formspree form id here (e.g. "xdkzabcd") to activate all forms.
 FORMSPREE_ID = "YOUR_FORM_ID"
@@ -34,7 +58,7 @@ def nav(active):
 <div class="rainbow"></div>
 <header>
   <nav class="wrap">
-    <a href="index.html" class="brand"><span class="mark">🍺</span>Craft Beer School</a>
+    <a href="index.html" class="brand" aria-label="Craft Beer School home"><img src="assets/logo.png" alt="Craft Beer School" class="brand-logo" width="118" height="146" /></a>
     <div class="navlinks" id="navlinks">
       {links}
       <a href="contact.html" class="nav-cta">Enroll</a>
@@ -48,7 +72,7 @@ FOOTER = """
 <footer class="site">
   <div class="wrap foot-grid">
     <div class="foot-brand">
-      <a href="index.html" class="brand" style="color:#fff"><span class="mark">🍺</span>Craft Beer School</a>
+      <a href="index.html" aria-label="Craft Beer School home"><img src="assets/footer-logo.png" alt="Craft Beer School" class="foot-logo" width="113" height="126" /></a>
       <p>India's trusted online and in-person beer school. Grain to glass and beyond — brewing, tasting, branding and the business of beer.</p>
     </div>
     <div><h4>Learn</h4><ul>
@@ -72,7 +96,7 @@ FOOTER = """
   </div>
   <div class="wrap foot-bottom">
     <span>© 2026 Craft Beer School. All rights reserved.</span>
-    <span>Drink knowledge responsibly. 🍻</span>
+    <span>Drink knowledge responsibly.</span>
   </div>
 </footer>"""
 
@@ -94,7 +118,7 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
     const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
     try{
       const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
-      if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours. 🍻",true);}
+      if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);}
       else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email chatty@cheerschattyventures.com.",false);}
     }catch(_){show("Network error — please email chatty@cheerschattyventures.com.",false);}
     finally{btn.disabled=false;btn.textContent=orig;}
@@ -104,7 +128,7 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
 
 
 def page(title, desc, active, body):
-    return f"""<!DOCTYPE html>
+    return expand_icons(f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -124,7 +148,7 @@ def page(title, desc, active, body):
 {FOOTER}
 {SCRIPTS.replace("__FID__", FORMSPREE_ID)}
 </body>
-</html>"""
+</html>""")
 
 
 PAGES = {

@@ -15,7 +15,7 @@
 <div class="rainbow"></div>
 <header>
   <nav class="wrap">
-    <a href="index.html" class="brand"><span class="mark">🍺</span>Craft Beer School</a>
+    <a href="index.html" class="brand" aria-label="Craft Beer School home"><img src="assets/logo.png" alt="Craft Beer School" class="brand-logo" width="118" height="146" /></a>
     <div class="navlinks" id="navlinks">
       <a href="index.html">Home</a><a href="about.html">About</a><a href="courses.html">Courses</a><a href="resources.html">Resources</a><a href="blog.html">Blog</a><a href="careers.html">Careers</a><a href="contact.html" class="active">Contact</a>
       <a href="contact.html" class="nav-cta">Enroll</a>
@@ -72,7 +72,7 @@
 <footer class="site">
   <div class="wrap foot-grid">
     <div class="foot-brand">
-      <a href="index.html" class="brand" style="color:#fff"><span class="mark">🍺</span>Craft Beer School</a>
+      <a href="index.html" aria-label="Craft Beer School home"><img src="assets/footer-logo.png" alt="Craft Beer School" class="foot-logo" width="113" height="126" /></a>
       <p>India's trusted online and in-person beer school. Grain to glass and beyond — brewing, tasting, branding and the business of beer.</p>
     </div>
     <div><h4>Learn</h4><ul>
@@ -96,7 +96,7 @@
   </div>
   <div class="wrap foot-bottom">
     <span>© 2026 Craft Beer School. All rights reserved.</span>
-    <span>Drink knowledge responsibly. 🍻</span>
+    <span>Drink knowledge responsibly.</span>
   </div>
 </footer>
 
@@ -116,7 +116,7 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
     const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
     try{
       const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
-      if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours. 🍻",true);}
+      if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);}
       else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email chatty@cheerschattyventures.com.",false);}
     }catch(_){show("Network error — please email chatty@cheerschattyventures.com.",false);}
     finally{btn.disabled=false;btn.textContent=orig;}

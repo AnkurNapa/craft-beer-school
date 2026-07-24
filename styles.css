@@ -70,7 +70,11 @@ h3{font-size:1.35rem;font-weight:700;letter-spacing:-.02em}
 header{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.8);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--line)}
 nav{display:flex;align-items:center;justify-content:space-between;padding-block:.85rem}
 .brand{display:flex;align-items:center;gap:.55rem;font-family:var(--serif);font-weight:900;font-size:1.35rem;font-style:italic;color:var(--ink)}
-.brand .mark{width:38px;height:38px;border-radius:50%;background:radial-gradient(circle at 35% 30%,var(--gold),var(--amber-deep));display:grid;place-items:center;font-style:normal;font-size:1.05rem;box-shadow:inset 0 -3px 6px rgba(0,0,0,.25)}
+.brand-logo{height:46px;width:auto;display:block}
+.foot-logo{height:62px;width:auto;display:block}
+.ico{width:24px;height:24px;flex:none;display:block}
+.ic .ico{width:27px;height:27px;color:var(--navy)}
+.ph .ico{width:48px;height:48px;color:#fff}
 .navlinks{display:flex;gap:1.7rem;align-items:center;font-family:var(--head);font-weight:500;font-size:.92rem;letter-spacing:-.01em}
 .navlinks a{position:relative;padding-block:.3rem;color:var(--ink)}
 .navlinks a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:2px;background:var(--amber);transition:width .3s var(--ease)}
@@ -91,6 +95,7 @@ nav{display:flex;align-items:center;justify-content:space-between;padding-block:
 .offset-img{position:relative}
 .offset-img::before{content:"";position:absolute;inset:14px -14px -14px 14px;background:var(--mint);border-radius:8px;z-index:-1}
 .offset-img img,.offset-img .ph{border-radius:var(--radius);box-shadow:var(--shadow);width:100%;display:block}
+.offset-img img{aspect-ratio:4/3;object-fit:cover;height:auto}
 .ph{aspect-ratio:4/3;background:linear-gradient(150deg,var(--navy),var(--blue) 60%,var(--mint-deep));display:grid;place-items:center;font-size:5rem;color:#fff}
 .ph.amber{background:linear-gradient(150deg,var(--amber-deep),var(--amber) 55%,var(--gold))}
 .ph.mint{background:linear-gradient(150deg,var(--navy),var(--mint-deep))}
