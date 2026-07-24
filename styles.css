@@ -125,6 +125,8 @@ section{padding-block:clamp(4.5rem,8vw,8rem)}
   transition:transform .4s var(--ease),box-shadow .4s}
 .card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
 .card .ph{aspect-ratio:16/10;font-size:3rem;border-radius:0}
+.thumb{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;background:var(--cloud)}
+.mentor-img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:var(--cloud)}
 .card-body{padding:1.5rem;display:flex;flex-direction:column;flex-grow:1}
 .card .cat{font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:700}
 .card h3{margin:.6rem 0 .5rem}

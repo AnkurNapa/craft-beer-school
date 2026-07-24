@@ -19,7 +19,7 @@ CAREERS = banner("Careers","Careers &amp; Mentors","Help India learn beer.",
       </ul>
       <a href="#apply" class="btn btn-amber">Apply to mentor</a>
     </div>
-    <div class="split-media reveal"><div class="offset-img"><div class="ph amber">🎓</div></div></div>
+    <div class="split-media reveal"><div class="offset-img"><img src="assets/team1.jpg" alt="Join the Craft Beer School mentor team" loading="lazy" /></div></div>
   </div>
 </section>
 

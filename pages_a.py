@@ -47,7 +47,7 @@ HOME = f"""
       </div>
     </div>
     <div class="hero-media reveal">
-      <div class="offset-img"><div class="ph amber">🍺</div></div>
+      <div class="offset-img"><img src="assets/hero.jpg" alt="A craft beer tasting flight — grain to glass at Craft Beer School" width="1200" height="900" loading="eager" fetchpriority="high" /></div>
     </div>
   </div>
 </section>
@@ -88,7 +88,7 @@ HOME = f"""
 
 <section class="tint">
   <div class="wrap split">
-    <div class="split-media reveal"><div class="offset-img"><div class="ph mint">📚</div></div></div>
+    <div class="split-media reveal"><div class="offset-img"><img src="assets/team1.jpg" alt="The Craft Beer School team" loading="lazy" /></div></div>
     <div class="prose-block reveal">
       <span class="eyebrow">Free Resources</span>
       <h2>Start learning before you enrol.</h2>
@@ -103,9 +103,9 @@ HOME = f"""
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">The Journal · Blog &amp; Podcasts</span><h2>Insights from the brewing world.</h2></div>
     <div class="grid-3">
-      <article class="card reveal"><div class="ph amber">🍺</div><div class="card-body"><span class="cat">Tasting</span><h3>The beer nobody asked about</h3><p>A dinner, a cocktail and the pour that changed how one friend thinks about beer.</p><div class="foot"><a href="blog.html" class="link-arrow">Read</a></div></div></article>
-      <article class="card reveal"><div class="ph">🏭</div><div class="card-body"><span class="cat">Quality</span><h3>Mistakes new brewery owners make</h3><p>Why consistency is the key to long-term craft brewery success in India.</p><div class="foot"><a href="blog.html" class="link-arrow">Read</a></div></div></article>
-      <article class="card reveal"><div class="ph mint">📈</div><div class="card-body"><span class="cat">Marketing</span><h3>Marketing strategies for beer brands</h3><p>How to build a beer brand that stands out in India's competitive market.</p><div class="foot"><a href="blog.html" class="link-arrow">Read</a></div></div></article>
+      <article class="card reveal"><img class="thumb" src="assets/blog-03.png" alt="The Rise of Craft Beer in India" loading="lazy" /><div class="card-body"><span class="cat">India</span><h3>The Rise of Craft Beer in India</h3><p>How a young, thirsty market is turning into one of the world's most exciting beer scenes.</p><div class="foot"><a href="blog.html" class="link-arrow">Read</a></div></div></article>
+      <article class="card reveal"><img class="thumb" src="assets/blog-04.png" alt="How to Start a Microbrewery in India" loading="lazy" /><div class="card-body"><span class="cat">Business</span><h3>How to Start a Microbrewery in India</h3><p>Licensing, capital and the role of real brewing education in getting it right.</p><div class="foot"><a href="blog.html" class="link-arrow">Read</a></div></div></article>
+      <article class="card reveal"><img class="thumb" src="assets/blog-06.png" alt="How to Taste Craft Beer Like a Pro" loading="lazy" /><div class="card-body"><span class="cat">Tasting</span><h3>How to Taste Craft Beer Like a Pro</h3><p>Aroma, flavour and mouthfeel — a simple framework to read any beer in the glass.</p><div class="foot"><a href="blog.html" class="link-arrow">Read</a></div></div></article>
     </div>
   </div>
 </section>
@@ -149,7 +149,7 @@ ABOUT = banner("About","About Craft Beer School","We teach the whole bottle.",
       <p>Our learning goes grain to glass and beyond through live sessions, guided tastings and hands-on brewery workshops. We also support WSET and Cicerone certification exam preparation, helping you build global beer knowledge and real industry confidence.</p>
       <p>Our courses are open to beer lovers, professionals and future brewery founders in India and across the world. Learn from industry experts through flexible online sessions and practical insights you can use anywhere.</p>
     </div>
-    <div class="split-media reveal"><div class="offset-img"><div class="ph">🍺</div></div></div>
+    <div class="split-media reveal"><div class="offset-img"><img src="assets/team2.jpg" alt="Craft Beer School recognised at an industry awards ceremony" loading="lazy" /></div></div>
   </div>
 </section>
 
@@ -171,9 +171,9 @@ ABOUT = banner("About","About Craft Beer School","We teach the whole bottle.",
   <div class="wrap">
     <div class="sec-head center"><span class="eyebrow">Your mentors</span><h2>Taught by people who brew.</h2></div>
     <div class="grid-3">
-      <article class="card reveal"><div class="ph amber">🎙️</div><div class="card-body"><span class="cat">Founder · Mentor</span><h3>Ankur</h3><p>Brewer and brewing data scientist. Bridges the science of the mash tun with the reality of the brewery floor.</p></div></article>
-      <article class="card reveal"><div class="ph mint">🎙️</div><div class="card-body"><span class="cat">Founder · Host</span><h3>Chatty Girija</h3><p>Host of Cheers Chatty Ventures. Brings the stories, the branding and the business of beer to every session.</p></div></article>
-      <article class="card reveal"><div class="ph">🤝</div><div class="card-body"><span class="cat">Guest Faculty</span><h3>Industry collaborators</h3><p>Working brewers, sensory pros and founders join as guest mentors across specialised courses.</p></div></article>
+      <article class="card reveal"><img class="mentor-img" src="assets/team3.jpg" alt="Ankur Napa, Master Brewer and course instructor" loading="lazy" /><div class="card-body"><span class="cat">Course Instructor · Master Brewer</span><h3>Ankur Napa</h3><p>A Master Brewer with hands-on experience at global brewing giants. Bridges the science of the mash tun with the reality of the brewery floor.</p></div></article>
+      <article class="card reveal"><img class="mentor-img" src="assets/team5.jpg" alt="Chatty Girija, beer podcaster and creative strategist" loading="lazy" /><div class="card-body"><span class="cat">Beer Podcaster · Creative Strategist</span><h3>Chatty Girija</h3><p>30+ years in advertising and a deep passion for craft beer. Brings the stories, the branding and the business of beer to every session.</p></div></article>
+      <article class="card reveal"><img class="mentor-img" src="assets/team4.jpg" alt="Anu Rao, Head of Strategy and Operations" loading="lazy" /><div class="card-body"><span class="cat">Head of Strategy &amp; Operations</span><h3>Anu Rao</h3><p>15+ years across social responsibility, education and operations — keeping every cohort running smoothly, grain to glass.</p></div></article>
     </div>
   </div>
 </section>
@@ -265,12 +265,12 @@ BLOG = banner("Blog","The Journal · Blog &amp; Podcasts","Insights from the bre
 <section>
   <div class="wrap">
     <div class="grid-3">
-      <article class="card reveal"><div class="ph amber">🍺</div><div class="card-body"><span class="cat">Tasting</span><h3>The beer nobody asked about</h3><p>A few days ago I was at a fine-dining restaurant in South Mumbai with a friend. She ordered a cocktail. I ordered a conversation about beer.</p><div class="foot"><a href="#" class="link-arrow">Read</a></div></div></article>
-      <article class="card reveal"><div class="ph">🏭</div><div class="card-body"><span class="cat">Quality</span><h3>Common mistakes new brewery owners make</h3><p>Craft beer quality control in India: why consistency is the key to long-term craft brewery success.</p><div class="foot"><a href="#" class="link-arrow">Read</a></div></div></article>
-      <article class="card reveal"><div class="ph mint">📈</div><div class="card-body"><span class="cat">Marketing</span><h3>Marketing strategies for craft beer brands</h3><p>How to build a beer brand that stands out in India's competitive market.</p><div class="foot"><a href="#" class="link-arrow">Read</a></div></div></article>
-      <article class="card reveal"><div class="ph">🌾</div><div class="card-body"><span class="cat">Ingredients</span><h3>Reading a malt spec sheet</h3><p>Colour, extract, protein — what the numbers on a malt datasheet actually tell you before you brew.</p><div class="foot"><a href="#" class="link-arrow">Read</a></div></div></article>
-      <article class="card reveal"><div class="ph amber">💧</div><div class="card-body"><span class="cat">Science</span><h3>Water is 90% of your beer</h3><p>A short primer on brewing water chemistry and why it quietly shapes every style.</p><div class="foot"><a href="#" class="link-arrow">Read</a></div></div></article>
-      <article class="card reveal"><div class="ph mint">🎧</div><div class="card-body"><span class="cat">Podcast</span><h3>Green innovation in brewing</h3><p>"My true passion lies in green innovation." A conversation on sustainability and the future of Indian beer.</p><div class="foot"><a href="#" class="link-arrow">Listen</a></div></div></article>
+      <article class="card reveal"><img class="thumb" src="assets/blog-01.png" alt="What is Craft Beer? A Beginner's Guide" loading="lazy" /><div class="card-body"><span class="cat">Start here</span><h3>What is Craft Beer? A Beginner's Guide</h3><p>The ingredients, the four pillars and what actually makes a beer "craft" — in plain English.</p><div class="foot"><a href="#" class="link-arrow">Read</a></div></div></article>
+      <article class="card reveal"><img class="thumb" src="assets/blog-02.png" alt="Types of Craft Beer: A Complete Style Guide" loading="lazy" /><div class="card-body"><span class="cat">Styles</span><h3>Types of Craft Beer: A Complete Style Guide</h3><p>IPAs, stouts, lagers, sours and Belgian ales — how to tell them apart in the glass.</p><div class="foot"><a href="#" class="link-arrow">Read</a></div></div></article>
+      <article class="card reveal"><img class="thumb" src="assets/blog-03.png" alt="The Rise of Craft Beer in India" loading="lazy" /><div class="card-body"><span class="cat">India</span><h3>The Rise of Craft Beer in India</h3><p>How a young, thirsty market is turning into one of the world's most exciting beer scenes.</p><div class="foot"><a href="#" class="link-arrow">Read</a></div></div></article>
+      <article class="card reveal"><img class="thumb" src="assets/blog-04.png" alt="How to Start a Microbrewery in India" loading="lazy" /><div class="card-body"><span class="cat">Business</span><h3>How to Start a Microbrewery in India</h3><p>Licensing, capital and the role of real brewing education in getting it right.</p><div class="foot"><a href="#" class="link-arrow">Read</a></div></div></article>
+      <article class="card reveal"><img class="thumb" src="assets/blog-05.png" alt="Top Indian Craft Beer Brands You Must Try" loading="lazy" /><div class="card-body"><span class="cat">Culture</span><h3>Top Indian Craft Beer Brands You Must Try</h3><p>A tour of the breweries putting Indian craft beer on the map.</p><div class="foot"><a href="#" class="link-arrow">Read</a></div></div></article>
+      <article class="card reveal"><img class="thumb" src="assets/blog-06.png" alt="How to Taste Craft Beer Like a Pro" loading="lazy" /><div class="card-body"><span class="cat">Tasting</span><h3>How to Taste Craft Beer Like a Pro</h3><p>Aroma, flavour and mouthfeel — a simple framework to read any beer.</p><div class="foot"><a href="#" class="link-arrow">Read</a></div></div></article>
     </div>
   </div>
 </section>
@@ -283,7 +283,7 @@ BLOG = banner("Blog","The Journal · Blog &amp; Podcasts","Insights from the bre
       <p>Every episode we sit down with brewers, founders and sensory pros to talk about what really happens between grain and glass — the wins, the off-flavours and the business of building a beer brand in India.</p>
       <a href="contact.html" class="link-arrow">Suggest a guest or topic</a>
     </div>
-    <div class="split-media reveal"><div class="offset-img"><div class="ph">🎙️</div></div></div>
+    <div class="split-media reveal"><div class="offset-img"><img src="assets/team5.jpg" alt="Chatty Girija, host of the Cheers Chatty Ventures beer podcast" loading="lazy" /></div></div>
   </div>
 </section>
 
