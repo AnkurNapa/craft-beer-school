@@ -245,6 +245,9 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
+# The admin surface holds applicant contact details. Keep crawlers off it.
+Disallow: /admin.html
+
 Sitemap: {SITE_URL}/sitemap.xml
 """
 

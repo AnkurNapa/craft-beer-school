@@ -9,8 +9,14 @@ import pathlib
 import re
 import sys
 
+# Public, indexable pages only. The admin surface is deliberately noindex and
+# carries no marketing metadata, and *_template.html files are build inputs.
+def _is_public(path, html):
+    return not path.name.endswith("_template.html") and "noindex" not in html
+
+
 HTML = sorted(pathlib.Path(__file__).parent.glob("*.html"))
-PAGES = {p.name: p.read_text() for p in HTML}
+PAGES = {p.name: t for p in HTML if _is_public(p, (t := p.read_text()))}
 assert PAGES, "no built HTML found, run build.py first"
 
 

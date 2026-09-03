@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Applications | Craft Beer School</title>
+<!-- Never index the admin surface. -->
+<meta name="robots" content="noindex,nofollow,noarchive" />
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+<style>
+:root{
+  --navy:#123c4a; --navy-deep:#0c2b35; --blue:#0a6d84; --amber:#d9862a;
+  --ink:#15242a; --muted:#5d7078; --line:#dfe6e9; --bg:#f6f8f9; --card:#fff;
+  --ok:#2f7a46; --warn:#b96f18;
+  --head:'Hanken Grotesk',system-ui,-apple-system,sans-serif;
+  --mono:'Space Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--head);background:var(--bg);color:var(--ink);font-size:15px;line-height:1.5}
+.wrap{max-width:1240px;margin:0 auto;padding:0 1.25rem}
+header.bar{background:var(--navy);color:#fff;padding:.9rem 0}
+header.bar .wrap{display:flex;align-items:center;gap:1rem}
+header.bar h1{font-size:1.05rem;font-weight:700;letter-spacing:-.01em}
+header.bar .who{margin-left:auto;font-size:.85rem;color:rgba(255,255,255,.75)}
+.btn{font-family:var(--head);font-weight:600;font-size:.9rem;border:0;border-radius:999px;
+     padding:.55rem 1.1rem;cursor:pointer;transition:filter .15s}
+.btn:hover{filter:brightness(.93)}
+.btn-amber{background:var(--amber);color:#fff}
+.btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.35)}
+.btn-sm{padding:.35rem .7rem;font-size:.82rem}
+
+/* login */
+.login{max-width:380px;margin:9vh auto;background:var(--card);padding:2rem;
+       border-radius:16px;box-shadow:0 12px 40px rgba(18,60,74,.1)}
+.login h2{font-size:1.3rem;margin-bottom:.35rem}
+.login p{color:var(--muted);font-size:.9rem;margin-bottom:1.25rem}
+label{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;
+      text-transform:uppercase;color:var(--muted);margin:.85rem 0 .3rem}
+input,select,textarea{width:100%;font-family:var(--head);font-size:.95rem;padding:.6rem .75rem;
+      border:1px solid var(--line);border-radius:9px;background:#fbfcfc;color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--blue);outline-offset:1px}
+
+/* toolbar */
+.tools{display:flex;flex-wrap:wrap;gap:.6rem;align-items:end;margin:1.5rem 0 1rem}
+.tools .field{flex:0 0 auto}
+.tools .field.grow{flex:1 1 220px}
+.tools label{margin-top:0}
+.stats{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;
+      padding:.35rem .8rem;font-size:.82rem;color:var(--muted)}
+.chip b{color:var(--ink);font-weight:700}
+
+/* table */
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th{background:#eef3f4;text-align:left;font-family:var(--mono);font-size:.66rem;
+   letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
+   padding:.7rem .8rem;white-space:nowrap;position:sticky;top:0}
+td{padding:.7rem .8rem;border-top:1px solid var(--line);vertical-align:top}
+tbody tr:hover{background:#fafcfc}
+td.nowrap{white-space:nowrap}
+td a{color:var(--blue);text-decoration:none}
+td a:hover{text-decoration:underline}
+.status{border:1px solid var(--line);border-radius:999px;padding:.28rem .6rem;font-size:.8rem;background:#fff}
+.s-new{background:#fff6e8;border-color:#f0cf9f}
+.s-contacted{background:#eaf3f7;border-color:#bcd8e3}
+.s-enrolled{background:#e9f5ed;border-color:#b3ddc3}
+.s-not_a_fit,.s-spam{background:#f2f3f4;color:var(--muted)}
+.empty{padding:3rem 1rem;text-align:center;color:var(--muted)}
+.msg{margin:.9rem 0;padding:.7rem .9rem;border-radius:9px;font-size:.9rem;display:none}
+.msg.err{background:#fdeeee;color:#9b2c2c;display:block}
+.msg.ok{background:#eaf6ee;color:var(--ok);display:block}
+.note{width:100%;min-height:2.2rem;font-size:.85rem;resize:vertical}
+footer.foot{color:var(--muted);font-size:.8rem;padding:1.5rem 0 3rem}
+@media(max-width:680px){ th,td{padding:.55rem} .hide-sm{display:none} }
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="login" class="login" hidden>
+  <h2>Applications</h2>
+  <p>Sign in to view course applications.</p>
+  <div id="loginMsg" class="msg"></div>
+  <form id="loginForm">
+    <label for="email">Email</label>
+    <input id="email" type="email" required autocomplete="username" />
+    <label for="password">Password</label>
+    <input id="password" type="password" required autocomplete="current-password" />
+    <button class="btn btn-amber" style="width:100%;margin-top:1.1rem" type="submit">Sign in</button>
+  </form>
+</div>
+
+<!-- APP -->
+<div id="app" hidden>
+  <header class="bar">
+    <div class="wrap">
+      <h1>Course applications</h1>
+      <span class="who" id="who"></span>
+      <button class="btn btn-ghost btn-sm" id="signout">Sign out</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="appMsg" class="msg"></div>
+
+    <div class="stats" id="stats"></div>
+
+    <div class="tools">
+      <div class="field grow">
+        <label for="q">Search</label>
+        <input id="q" type="search" placeholder="Name, email, phone, city" />
+      </div>
+      <div class="field">
+        <label for="fStatus">Status</label>
+        <select id="fStatus">
+          <option value="">All</option>
+          <option value="new">New</option>
+          <option value="contacted">Contacted</option>
+          <option value="enrolled">Enrolled</option>
+          <option value="not_a_fit">Not a fit</option>
+          <option value="spam">Spam</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="fCourse">Course</label>
+        <select id="fCourse"><option value="">All</option></select>
+      </div>
+      <div class="field">
+        <label>&nbsp;</label>
+        <button class="btn btn-amber" id="export">Export CSV</button>
+      </div>
+      <div class="field">
+        <label>&nbsp;</label>
+        <button class="btn btn-amber" id="refresh" style="background:var(--blue)">Refresh</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="scroll">
+        <table>
+          <thead><tr>
+            <th>Received</th><th>Name</th><th>Contact</th><th>Course</th>
+            <th class="hide-sm">City</th><th class="hide-sm">Message</th>
+            <th>Status</th><th class="hide-sm">Notes</th>
+          </tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <div class="empty" id="empty" hidden>No applications match.</div>
+    </div>
+
+    <footer class="foot">
+      Applications are stored in Supabase. Row level security means the public
+      site key can submit an application but can never read one.
+    </footer>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.114.0/dist/umd/supabase.js"
+        integrity="sha384-UxmVkfpcoSCBn4QrHwxxZVlCbloMpP/2Ay2ByWcNy6TcMxC3JUgqa8Geipyl0tP7"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+const SUPABASE_URL = "";
+const SUPABASE_ANON_KEY = "";
+
+const $ = (id) => document.getElementById(id);
+const loginEl = $('login'), appEl = $('app');
+
+function say(el, text, kind) { el.className = 'msg ' + kind; el.textContent = text; }
+
+if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
+  loginEl.hidden = false;
+  say($('loginMsg'), 'Not configured yet. Build with SUPABASE_URL and SUPABASE_ANON_KEY set.', 'err');
+  throw new Error('supabase not configured');
+}
+
+const db = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+let ALL = [];
+
+// ---- auth ----------------------------------------------------------------
+async function boot() {
+  const { data: { session } } = await db.auth.getSession();
+  if (session) { showApp(session); } else { loginEl.hidden = false; }
+}
+
+$('loginForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const { data, error } = await db.auth.signInWithPassword({
+    email: $('email').value.trim(), password: $('password').value
+  });
+  if (error) { say($('loginMsg'), error.message, 'err'); return; }
+  showApp(data.session);
+});
+
+$('signout').addEventListener('click', async () => {
+  await db.auth.signOut();
+  location.reload();
+});
+
+function showApp(session) {
+  loginEl.hidden = true;
+  appEl.hidden = false;
+  $('who').textContent = session.user.email;
+  load();
+}
+
+// ---- data ----------------------------------------------------------------
+async function load() {
+  const { data, error } = await db.from('applications')
+    .select('*').order('created_at', { ascending: false }).limit(2000);
+  if (error) { say($('appMsg'), 'Could not load: ' + error.message, 'err'); return; }
+  ALL = data || [];
+  $('appMsg').className = 'msg';
+  fillCourses();
+  render();
+}
+
+function fillCourses() {
+  const sel = $('fCourse'), current = sel.value;
+  const courses = [...new Set(ALL.map(r => r.course).filter(Boolean))].sort();
+  sel.innerHTML = '<option value="">All</option>' +
+    courses.map(c => `<option>${esc(c)}</option>`).join('');
+  sel.value = current;
+}
+
+function filtered() {
+  const q = $('q').value.trim().toLowerCase();
+  const st = $('fStatus').value, co = $('fCourse').value;
+  return ALL.filter(r => {
+    if (st && r.status !== st) return false;
+    if (co && r.course !== co) return false;
+    if (!q) return true;
+    return [r.name, r.email, r.phone, r.city, r.message]
+      .filter(Boolean).join(' ').toLowerCase().includes(q);
+  });
+}
+
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c =>
+  ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+const STATUSES = ['new', 'contacted', 'enrolled', 'not_a_fit', 'spam'];
+
+function render() {
+  const rows = filtered();
+  $('empty').hidden = rows.length > 0;
+  $('rows').innerHTML = rows.map(r => `
+    <tr data-id="${r.id}">
+      <td class="nowrap">${new Date(r.created_at).toLocaleDateString('en-IN',
+        { day: '2-digit', month: 'short', year: '2-digit' })}<br>
+        <span style="color:var(--muted);font-size:.8em">${new Date(r.created_at)
+        .toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' })}</span></td>
+      <td><b>${esc(r.name)}</b></td>
+      <td class="nowrap">
+        <a href="https://wa.me/${String(r.phone).replace(/\D/g, '')}" target="_blank" rel="noopener">${esc(r.phone)}</a><br>
+        <a href="mailto:${esc(r.email)}">${esc(r.email)}</a></td>
+      <td>${esc(r.course || '')}</td>
+      <td class="hide-sm">${esc(r.city || '')}</td>
+      <td class="hide-sm" style="max-width:22ch">${esc(r.message || '')}</td>
+      <td><select class="status s-${r.status}" data-field="status">
+        ${STATUSES.map(s => `<option value="${s}"${s === r.status ? ' selected' : ''}>${s.replace(/_/g, ' ')}</option>`).join('')}
+      </select></td>
+      <td class="hide-sm"><textarea class="note" data-field="notes"
+        placeholder="Add a note">${esc(r.notes || '')}</textarea></td>
+    </tr>`).join('');
+  renderStats();
+}
+
+function renderStats() {
+  const counts = {};
+  ALL.forEach(r => counts[r.status] = (counts[r.status] || 0) + 1);
+  $('stats').innerHTML = `<span class="chip">Total <b>${ALL.length}</b></span>` +
+    STATUSES.filter(s => counts[s]).map(s =>
+      `<span class="chip">${s.replace(/_/g, ' ')} <b>${counts[s]}</b></span>`).join('');
+}
+
+// Save a status or note as soon as it changes. One row, one field, no save button.
+$('rows').addEventListener('change', async (e) => {
+  const el = e.target, field = el.dataset.field;
+  if (!field) return;
+  const id = el.closest('tr').dataset.id;
+  const { error } = await db.from('applications').update({ [field]: el.value || null }).eq('id', id);
+  if (error) { say($('appMsg'), 'Save failed: ' + error.message, 'err'); return; }
+  const row = ALL.find(r => r.id === id);
+  if (row) row[field] = el.value;
+  if (field === 'status') { el.className = 'status s-' + el.value; renderStats(); }
+  say($('appMsg'), 'Saved.', 'ok');
+  setTimeout(() => { $('appMsg').className = 'msg'; }, 1500);
+});
+$('rows').addEventListener('blur', (e) => {
+  if (e.target.dataset.field === 'notes') e.target.dispatchEvent(new Event('change', { bubbles: true }));
+}, true);
+
+['q', 'fStatus', 'fCourse'].forEach(id => $(id).addEventListener('input', render));
+$('refresh').addEventListener('click', load);
+
+// ---- export --------------------------------------------------------------
+$('export').addEventListener('click', () => {
+  const cols = ['created_at', 'name', 'phone', 'email', 'course', 'city', 'promo', 'message', 'status', 'notes', 'source_page'];
+  const cell = (v) => {
+    const s = String(v ?? '');
+    // A leading =, +, - or @ is treated as a formula by Excel. Prefix it.
+    const safe = /^[=+\-@]/.test(s) ? "'" + s : s;
+    return '"' + safe.replace(/"/g, '""') + '"';
+  };
+  const csv = [cols.join(',')].concat(
+    filtered().map(r => cols.map(c => cell(r[c])).join(','))).join('\r\n');
+  const url = URL.createObjectURL(new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' }));
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `cbs-applications-${new Date().toISOString().slice(0, 10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+boot();
+</script>
+</body>
+</html>

@@ -7,6 +7,7 @@ every .html file in this folder. Edit the shell here once; all pages update.
 """
 import datetime
 import os
+import pathlib
 import re
 from urllib.parse import quote
 import pages_a
@@ -40,6 +41,13 @@ def expand_icons(html):
 # Paste your Formspree form id here (e.g. "xdkzabcd") to activate all forms.
 # Until it is set, forms fall back to a prefilled email so no enquiry is ever lost.
 FORMSPREE_ID = os.environ.get("FORMSPREE_ID", "YOUR_FORM_ID")
+
+# Supabase stores course applications so they can be triaged in admin.html.
+# The anon key is a public, publishable key and is meant to ship in the page:
+# row level security (supabase/schema.sql) lets it INSERT and nothing else.
+# Never put the service_role key here, that one bypasses RLS entirely.
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
+SUPABASE_ANON_KEY = os.environ.get("SUPABASE_ANON_KEY", "")
 
 # Single source of truth for every contact CTA on the site.
 ENQUIRY_EMAIL = "chatty@cheerschattyventures.com"
@@ -137,6 +145,8 @@ document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
 const FORMSPREE_ID="__FID__";
 const ENQUIRY_EMAIL="__EMAIL__";
+const SUPABASE_URL="__SBURL__";
+const SUPABASE_ANON_KEY="__SBKEY__";
 
 // Pre-select the course when arriving from a course card: contact.html?course=...
 const wanted=new URLSearchParams(location.search).get('course');
@@ -172,12 +182,30 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   form.addEventListener('submit',async e=>{
     e.preventDefault();
     if(!form.reportValidity())return;
-    if(FORMSPREE_ID==="YOUR_FORM_ID"){mailtoFallback();return;}
+    if(form.querySelector('[name=_gotcha]')?.value){show("Thanks!",true);return;}  // bot
     const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
     try{
-      const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
-      if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);}
-      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email "+ENQUIRY_EMAIL+".",false);}
+      if(SUPABASE_URL&&SUPABASE_ANON_KEY&&form.dataset.store!=="off"){
+        const d=new FormData(form);
+        const row={
+          name:d.get('name'), phone:d.get('phone'), email:d.get('email'),
+          course:d.get('course')||null, city:d.get('city')||null,
+          promo:d.get('promo')||null, message:d.get('message')||null,
+          source_page:location.pathname.replace(/^\//,'')||'index.html'
+        };
+        const r=await fetch(SUPABASE_URL+"/rest/v1/applications",{
+          method:'POST',
+          headers:{'apikey':SUPABASE_ANON_KEY,'Authorization':'Bearer '+SUPABASE_ANON_KEY,
+                   'Content-Type':'application/json','Prefer':'return=minimal'},
+          body:JSON.stringify(row)});
+        if(r.ok){form.reset();show("Cheers! Your application is in. We'll be in touch within 24 hours.",true);return;}
+        console.warn('application store failed',r.status,await r.text().catch(()=>''));
+      }
+      if(FORMSPREE_ID!=="YOUR_FORM_ID"){
+        const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
+        if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);return;}
+      }
+      mailtoFallback();
     }catch(_){mailtoFallback();}
     finally{btn.disabled=false;btn.textContent=orig;}
   });
@@ -190,7 +218,9 @@ def fill_ctas(html):
     return (html.replace("__ENROLL__", ENROLL_HREF)
                 .replace("__WA__", whatsapp_href())
                 .replace("__EMAIL__", ENQUIRY_EMAIL)
-                .replace("__FID__", FORMSPREE_ID))
+                .replace("__FID__", FORMSPREE_ID)
+                .replace("__SBURL__", SUPABASE_URL)
+                .replace("__SBKEY__", SUPABASE_ANON_KEY))
 
 
 def page(slug, title, desc, active, body):
@@ -274,6 +304,11 @@ def main():
     # Pages runs Jekyll by default, which ignores files starting with _ and
     # can rewrite output. This site is already built HTML.
     write(".nojekyll", "")
+
+    # Admin surface. Kept out of PAGES so it never lands in the nav, the
+    # sitemap or the JSON-LD graph. Its data is protected by row level
+    # security, not by being hard to find.
+    write("admin.html", fill_ctas(pathlib.Path("admin_template.html").read_text()))
 
 
 if __name__ == "__main__":

@@ -13,7 +13,14 @@ import sys
 import seo
 
 HERE = pathlib.Path(__file__).parent
-PAGES = {p.name: p.read_text() for p in sorted(HERE.glob("*.html"))}
+# Public, indexable pages only. The admin surface is deliberately noindex and
+# carries no marketing metadata, and *_template.html files are build inputs.
+def _is_public(path, html):
+    return not path.name.endswith("_template.html") and "noindex" not in html
+
+
+PAGES = {p.name: t for p in sorted(HERE.glob("*.html"))
+         if _is_public(p, (t := p.read_text()))}
 errors = []
 
 
