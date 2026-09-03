@@ -10,6 +10,9 @@ import os
 import pathlib
 import re
 from urllib.parse import quote
+import article_render
+import articles_a
+import articles_b
 import pages_a
 import pages_b
 import seo
@@ -249,6 +252,12 @@ def page(slug, title, desc, active, body):
 </html>"""))
 
 
+ARTICLES = articles_a.ARTICLES_A + articles_b.ARTICLES_B
+BY_SLUG = {a["slug"]: a for a in ARTICLES}
+
+# Reuse the existing blog banner, then list the real guides underneath it.
+_BLOG_BANNER = pages_a.BLOG.split("<section", 1)[0]
+
 PAGES = {
     "index.html":     ("Craft Beer School | Brewing Courses in India, Grain to Glass",
                         "India's trusted online and in-person beer school. Learn brewing, tasting, branding and the business of beer, grain to glass. WSET & Cicerone prep.",
@@ -264,7 +273,7 @@ PAGES = {
                         "resources", pages_a.RESOURCES),
     "blog.html":      ("Blog and Podcasts | Craft Beer School",
                         "Insights from the brewing world, quality, marketing, tasting and the business of beer, plus our podcast conversations with industry voices.",
-                        "blog", pages_a.BLOG),
+                        "blog", article_render.blog_index(ARTICLES, _BLOG_BANNER)),
     "careers.html":   ("Careers and Mentors | Craft Beer School",
                         "Become a CBS mentor or join the team. Help India learn beer, grain to glass. Open roles and the mentor application.",
                         "careers", pages_b.CAREERS),
@@ -281,6 +290,11 @@ PAGES = {
                         "Craft Beer School's refund and cancellation policy for online and in-person courses.",
                         "", pages_b.REFUND),
 }
+
+
+for _a in ARTICLES:
+    PAGES[f"{_a['slug']}.html"] = (
+        _a["title"], _a["desc"], "blog", article_render.render(_a, BY_SLUG))
 
 
 def write(path, text):

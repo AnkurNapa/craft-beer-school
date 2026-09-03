@@ -121,6 +121,48 @@ for asset in ("favicon.ico", "assets/favicon.svg", "assets/og-default.png",
               "assets/apple-touch-icon.png"):
     check((HERE / asset).exists(), f"missing {asset}")
 
+# --- articles --------------------------------------------------------------
+# An article that ships without a CTA, without FAQ schema, or with a related
+# link pointing at nothing is a page that costs traffic and converts nobody.
+for art in seo.ARTICLES:
+    name = f"{art['slug']}.html"
+    check(name in PAGES, f"article {art['slug']} was not built")
+    if name not in PAGES:
+        continue
+    html = PAGES[name]
+
+    check(html.count('data-cta="article-inline"') == 1, f"{name}: no inline CTA")
+    check(html.count('data-cta="article-band"') == 1, f"{name}: no closing CTA")
+    check(len(art["sections"]) >= 4, f"{name}: only {len(art['sections'])} sections, too thin")
+    check(len(art.get("faqs", [])) >= 3, f"{name}: fewer than 3 FAQs, weak for answer engines")
+
+    for slug in art.get("related", []):
+        check(slug in seo.ARTICLE_BY_SLUG, f"{name}: related link '{slug}' does not exist")
+        check(slug != art["slug"], f"{name}: links to itself as related")
+
+    graph = json.loads(
+        re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.S).group(1))["@graph"]
+    types = set()
+    for n in graph:
+        t = n.get("@type")
+        types.update(t if isinstance(t, list) else [t])
+    check("Article" in types, f"{name}: no Article node")
+    check("FAQPage" in types, f"{name}: no FAQPage node")
+
+    # Every schema FAQ must be answerable from the visible page.
+    faq = next(n for n in graph if n.get("@type") == "FAQPage")
+    check(len(faq["mainEntity"]) == len(art["faqs"]),
+          f"{name}: schema FAQ count does not match the page")
+    for q in faq["mainEntity"]:
+        check(q["name"][:40] in html, f"{name}: schema FAQ not visible on page")
+
+    check(f'href="{art["cta"]["href"]}"' in html, f"{name}: CTA href missing from page")
+
+# The blog index must link every article, or they are orphaned from navigation.
+for art in seo.ARTICLES:
+    check(f'href="{art["slug"]}.html"' in PAGES["blog.html"],
+          f"blog.html does not link {art['slug']}")
+
 if errors:
     for e in errors:
         print("FAIL:", e)

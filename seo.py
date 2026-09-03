@@ -8,8 +8,13 @@ not cite one that contradicts the visible page.
 """
 import json
 
+import articles_a
+import articles_b
 import pages_a
 import pages_b
+
+ARTICLES = articles_a.ARTICLES_A + articles_b.ARTICLES_B
+ARTICLE_BY_SLUG = {a['slug']: a for a in ARTICLES}
 
 SITE_URL = "https://craftbeerschool.in"      # apex is canonical, www redirects
 SITE_NAME = "Craft Beer School"
@@ -36,6 +41,9 @@ PAGE_WEIGHT = {
     "refund.html": ("0.2", "yearly"),
 }
 
+for _a in ARTICLES:
+    PAGE_WEIGHT[f"{_a['slug']}.html"] = ("0.8", "monthly")
+
 BREADCRUMB_LABEL = {
     "about.html": "About",
     "courses.html": "Courses",
@@ -47,6 +55,10 @@ BREADCRUMB_LABEL = {
     "privacy.html": "Privacy",
     "refund.html": "Refunds",
 }
+
+
+def _article_for(slug):
+    return ARTICLE_BY_SLUG.get(slug[:-5] if slug.endswith(".html") else slug)
 
 
 def url_for(slug):
@@ -96,6 +108,13 @@ def _website():
 
 def _breadcrumbs(slug):
     items = [{"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + "/"}]
+    art = _article_for(slug)
+    if art:
+        items.append({"@type": "ListItem", "position": 2, "name": "Blog",
+                      "item": url_for("blog.html")})
+        items.append({"@type": "ListItem", "position": 3, "name": _strip(art["h1"]),
+                      "item": url_for(slug)})
+        return {"@type": "BreadcrumbList", "itemListElement": items}
     label = BREADCRUMB_LABEL.get(slug)
     if label:
         items.append({"@type": "ListItem", "position": 2, "name": label,
@@ -152,6 +171,36 @@ def _faq():
     }
 
 
+def _article_nodes(art, slug):
+    nodes = [{
+        "@type": "Article",
+        "@id": url_for(slug) + "#article",
+        "headline": _strip(art["h1"])[:110],
+        "description": _strip(art["desc"]),
+        "articleSection": art["cat"],
+        "url": url_for(slug),
+        "datePublished": art["updated"],
+        "dateModified": art["updated"],
+        "inLanguage": "en-IN",
+        "isPartOf": {"@id": f"{SITE_URL}/#website"},
+        "mainEntityOfPage": {"@id": url_for(slug) + "#webpage"},
+        "author": {"@id": f"{SITE_URL}/#organization"},
+        "publisher": {"@id": f"{SITE_URL}/#organization"},
+        "image": OG_IMAGE,
+        "about": {"@id": f"{SITE_URL}/#organization"},
+    }]
+    if art.get("faqs"):
+        nodes.append({
+            "@type": "FAQPage",
+            "@id": url_for(slug) + "#faq",
+            "mainEntity": [
+                {"@type": "Question", "name": _strip(q),
+                 "acceptedAnswer": {"@type": "Answer", "text": _strip(a)}}
+                for q, a in art["faqs"]],
+        })
+    return nodes
+
+
 def jsonld(slug, title, desc):
     graph = [_organization(), _website(), _breadcrumbs(slug), {
         "@type": "WebPage",
@@ -167,6 +216,9 @@ def jsonld(slug, title, desc):
         graph.extend(_courses())
     if slug == "faq.html":
         graph.append(_faq())
+    art = _article_for(slug)
+    if art:
+        graph.extend(_article_nodes(art, slug))
     if slug == "contact.html":
         graph.append({"@type": "ContactPage", "@id": url_for(slug) + "#contact",
                       "url": url_for(slug)})
@@ -267,6 +319,13 @@ def llms_txt():
     for c in pages_a.COURSE_DATA:
         lines.append(f"- [{_strip(c['name'])}]({SITE_URL}/courses.html): "
                      f"{_strip(c['blurb'])} Duration {c['dur']}. Price INR {c['amount']}.")
+    lines += [
+        "",
+        "## Guides",
+        "",
+    ]
+    for a in ARTICLES:
+        lines.append(f"- [{_strip(a['h1'])}]({SITE_URL}/{a['slug']}.html): {_strip(a['desc'])}")
     lines += [
         "",
         "## Key pages",

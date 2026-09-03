@@ -277,3 +277,58 @@ footer.site a:hover{color:#fff}
 }
 /* Anchor targets clear the sticky header instead of hiding under it. */
 [id]{scroll-margin-top:5rem}
+
+/* --- Long-form articles ---------------------------------------------------- */
+.crumbs{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+        color:var(--muted);margin-bottom:1.2rem}
+.crumbs a{color:var(--blue);text-decoration:none}
+.crumbs a:hover{text-decoration:underline}
+.post-head{padding-block:2.5rem 1.5rem;max-width:56rem}
+.post-title{font-family:var(--serif);font-size:clamp(2rem,1.2rem+3.4vw,3.6rem);
+            line-height:1.04;letter-spacing:-.02em;margin:.5rem 0 1rem}
+.post-meta{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;
+           text-transform:uppercase;color:var(--muted);margin-top:1.2rem}
+.post-body{max-width:44rem;padding-bottom:3rem}
+.post-body h2{font-family:var(--serif);font-size:clamp(1.35rem,1rem+1.3vw,1.95rem);
+              line-height:1.15;letter-spacing:-.015em;margin:2.6rem 0 .9rem}
+.post-body p{margin:0 0 1.05rem;font-size:1.03rem;line-height:1.72}
+.post-body strong{font-weight:700}
+.post-body .tbl{width:100%;border-collapse:collapse;margin:1.4rem 0;font-size:.93rem;display:block;overflow-x:auto}
+.post-body .tbl th{background:#eef3f4;text-align:left;font-family:var(--mono);font-size:.66rem;
+                   letter-spacing:.1em;text-transform:uppercase;padding:.6rem .7rem;white-space:nowrap}
+.post-body .tbl td{padding:.6rem .7rem;border-top:1px solid var(--line);vertical-align:top}
+
+/* on-page nav */
+.toc{background:var(--sand,#faf7f2);border:1px solid var(--line);border-radius:14px;
+     padding:1.1rem 1.3rem;margin:0 0 2rem}
+.toc h2{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;
+        color:var(--muted);margin:0 0 .5rem}
+.toc ol{margin:0;padding-left:1.1rem}
+.toc li{margin:.25rem 0;font-size:.94rem}
+.toc a{color:var(--blue);text-decoration:none}
+.toc a:hover{text-decoration:underline}
+
+/* conversion blocks */
+.cta-inline,.cta-band{display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap;
+     border-radius:16px;padding:1.4rem 1.5rem;margin:2.2rem 0}
+.cta-inline{background:var(--sand,#faf7f2);border:1px solid var(--line)}
+.cta-band{background:var(--navy);color:#fff;margin-top:3rem}
+.cta-inline h3{font-size:1.12rem;margin:0 0 .3rem}
+/* The global heading colour would otherwise put navy text on a navy band. */
+.cta-band h3{font-size:1.12rem;margin:0 0 .3rem;color:#fff}
+.cta-inline p,.cta-band p{margin:0;font-size:.94rem;color:var(--muted)}
+.cta-band p{color:rgba(255,255,255,.75)}
+.cta-inline>div,.cta-band>div{flex:1 1 260px}
+.cta-inline .btn,.cta-band .btn{flex:0 0 auto}
+
+/* faq */
+.faq-block{margin-top:3rem}
+.faq-block h2{margin-bottom:1rem}
+.faq-block details{border-top:1px solid var(--line);padding:.9rem 0}
+.faq-block summary{cursor:pointer;font-weight:600;font-size:1rem;list-style:none}
+.faq-block summary::-webkit-details-marker{display:none}
+.faq-block summary::after{content:"+";float:right;color:var(--blue);font-weight:700}
+.faq-block details[open] summary::after{content:"–"}
+.faq-block p{margin:.7rem 0 0;color:var(--muted);font-size:.97rem}
+.card .foot .read{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;
+                  text-transform:uppercase;color:var(--muted);margin-left:auto}
