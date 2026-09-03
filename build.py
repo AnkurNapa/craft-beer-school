@@ -5,11 +5,13 @@ One shared shell (nav + footer + scripts) stamped around per-page bodies
 defined in pages_a.py / pages_b.py. Run `python3 build.py` to regenerate
 every .html file in this folder. Edit the shell here once; all pages update.
 """
+import datetime
 import os
 import re
 from urllib.parse import quote
 import pages_a
 import pages_b
+import seo
 
 # --- Consistent inline icon set (Lucide, MIT). Use [[name]] in page bodies. ---
 ICONS = {
@@ -191,18 +193,20 @@ def fill_ctas(html):
                 .replace("__FID__", FORMSPREE_ID))
 
 
-def page(title, desc, active, body):
+def page(slug, title, desc, active, body):
     return expand_icons(fill_ctas(f"""<!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>{title}</title>
 <meta name="description" content="{desc}" />
+{seo.head_meta(slug, title, desc)}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500;1,9..144,600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
+{seo.jsonld(slug, title, desc)}
 </head>
 <body>
 {nav(active)}
@@ -216,44 +220,60 @@ def page(title, desc, active, body):
 
 
 PAGES = {
-    "index.html":     ("Craft Beer School, Grain to Glass. India's beer school.",
+    "index.html":     ("Craft Beer School | Brewing Courses in India, Grain to Glass",
                         "India's trusted online and in-person beer school. Learn brewing, tasting, branding and the business of beer, grain to glass. WSET & Cicerone prep.",
                         "home", pages_a.HOME),
-    "about.html":     ("About, Craft Beer School",
+    "about.html":     ("About Us | Craft Beer School",
                         "Better beer education brews better beer. Meet Craft Beer School, India's grain-to-glass beer school, our mentors, mission and method.",
                         "about", pages_a.ABOUT),
-    "courses.html":   ("Courses, Craft Beer School",
+    "courses.html":   ("Beer Brewing Courses in India | Craft Beer School",
                         "Six online courses from basics to business, plus hands-on in-person workshops. Brewing, science, business, styles, branding and sensory.",
                         "courses", pages_a.COURSES),
-    "resources.html": ("Resources, Craft Beer School",
+    "resources.html": ("Free Beer Education Resources | Craft Beer School",
                         "Free beer education: Beer 101, styles primer, a brewing glossary, calculators and tasting tools to sharpen your palate and your process.",
                         "resources", pages_a.RESOURCES),
-    "blog.html":      ("Blog & Podcasts, Craft Beer School",
+    "blog.html":      ("Blog and Podcasts | Craft Beer School",
                         "Insights from the brewing world, quality, marketing, tasting and the business of beer, plus our podcast conversations with industry voices.",
                         "blog", pages_a.BLOG),
-    "careers.html":   ("Careers & Mentors, Craft Beer School",
+    "careers.html":   ("Careers and Mentors | Craft Beer School",
                         "Become a CBS mentor or join the team. Help India learn beer, grain to glass. Open roles and the mentor application.",
                         "careers", pages_b.CAREERS),
-    "contact.html":   ("Contact & Enroll, Craft Beer School",
+    "contact.html":   ("Contact and Enrol | Craft Beer School",
                         "Enrol, ask a question, or book a tasting. Reach Craft Beer School by phone, email or the form, we reply within 24 hours.",
                         "contact", pages_b.CONTACT),
-    "faq.html":       ("FAQ, Craft Beer School",
+    "faq.html":       ("Frequently Asked Questions | Craft Beer School",
                         "Answers on courses, format, certification, payment, refunds and getting started at Craft Beer School.",
                         "faq", pages_b.FAQ),
-    "privacy.html":   ("Privacy Policy, Craft Beer School",
+    "privacy.html":   ("Privacy Policy | Craft Beer School",
                         "How Craft Beer School collects, uses and protects your information.",
                         "", pages_b.PRIVACY),
-    "refund.html":    ("Refund & Cancellation, Craft Beer School",
+    "refund.html":    ("Refund and Cancellation Policy | Craft Beer School",
                         "Craft Beer School's refund and cancellation policy for online and in-person courses.",
                         "", pages_b.REFUND),
 }
 
 
+def write(path, text):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+    print("wrote", path)
+
+
 def main():
     for slug, (title, desc, active, body) in PAGES.items():
-        with open(slug, "w", encoding="utf-8") as f:
-            f.write(page(title, desc, active, body))
-        print("wrote", slug)
+        write(slug, page(slug, title, desc, active, body))
+
+    today = datetime.date.today().isoformat()
+    write("sitemap.xml", seo.sitemap_xml(list(PAGES), today))
+    write("robots.txt", seo.robots_txt())
+    write("llms.txt", seo.llms_txt())
+    write("site.webmanifest", seo.webmanifest())
+    # Custom domain for GitHub Pages. Without this file every deploy reverts
+    # the repo back to the github.io host.
+    write("CNAME", seo.SITE_URL.split("//")[1] + "\n")
+    # Pages runs Jekyll by default, which ignores files starting with _ and
+    # can rewrite output. This site is already built HTML.
+    write(".nojekyll", "")
 
 
 if __name__ == "__main__":

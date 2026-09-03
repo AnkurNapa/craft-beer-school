@@ -23,24 +23,39 @@ def course(no, tag, dur, name, blurb, items, price, ph):
   </div>
 </article>"""
 
-C1 = course("01","Foundations","4 Weeks","Brewing Fundamentals",
-    "The science of brewing, ingredients, equipment, technique. Online sessions plus your first real recipe.",
-    ["Brewing science &amp; theory","Raw materials &amp; quality","Equipment &amp; sanitation","Recipe formulation basics"],"₹5,999","")
-C2 = course("02","Deep Craft","6 Weeks","Advanced Brewing Science",
-    "Go deeper into chemistry, microbiology and advanced fermentation for serious brewers and pros.",
-    ["Microbiology &amp; fermentation","Water chemistry optimization","Advanced mashing techniques","Quality assurance &amp; control"],"₹12,999","")
-C3 = course("03","Business","3 Weeks","Brewery Business Management",
-    "The business behind the brew, plan, launch and grow a brewery, from finance to distribution.",
-    ["Business planning &amp; finance","Licensing &amp; regulations","Marketing &amp; branding","Distribution strategies"],"₹8,999","")
-C4 = course("04","Mastery","8 Weeks","Style Specialization",
-    "Master IPAs, stouts, lagers, sours and Belgian ales, history, technique and award-winning versions.",
-    ["Style guidelines &amp; origins","Specialized techniques","Ingredient selection &amp; pairing","Competition brewing skills"],"₹18,999","")
-C5 = course("05","Brand","3 Weeks","Beer Branding &amp; Packaging",
-    "Build a beer brand that stands out and packaging that sells, for aspiring brewers and founders.",
-    ["Build your brand identity","Design packaging that pops","Launch planning &amp; promotion","Certificate &amp; community access"],"₹4,999","")
-C6 = course("06","Palate","2 Weeks","Sensory Evaluation",
-    "Train your palate like a pro, taste, identify off-flavours and score beer with real sensory methods.",
-    ["Flavour chemistry","Tasting techniques","Off-flavour identification","Quality scoring systems"],"₹5,999","")
+# Course records drive both the cards and the Course JSON-LD in seo.py, so the
+# structured data can never drift from what is on the page.
+COURSE_DATA = [
+    dict(no="01", tag="Foundations", dur="4 Weeks", weeks=4, name="Brewing Fundamentals",
+         blurb="The science of brewing, ingredients, equipment, technique. Online sessions plus your first real recipe.",
+         items=["Brewing science &amp; theory","Raw materials &amp; quality","Equipment &amp; sanitation","Recipe formulation basics"],
+         price="₹5,999", amount="5999"),
+    dict(no="02", tag="Deep Craft", dur="6 Weeks", weeks=6, name="Advanced Brewing Science",
+         blurb="Go deeper into chemistry, microbiology and advanced fermentation for serious brewers and pros.",
+         items=["Microbiology &amp; fermentation","Water chemistry optimization","Advanced mashing techniques","Quality assurance &amp; control"],
+         price="₹12,999", amount="12999"),
+    dict(no="03", tag="Business", dur="3 Weeks", weeks=3, name="Brewery Business Management",
+         blurb="The business behind the brew, plan, launch and grow a brewery, from finance to distribution.",
+         items=["Business planning &amp; finance","Licensing &amp; regulations","Marketing &amp; branding","Distribution strategies"],
+         price="₹8,999", amount="8999"),
+    dict(no="04", tag="Mastery", dur="8 Weeks", weeks=8, name="Style Specialization",
+         blurb="Master IPAs, stouts, lagers, sours and Belgian ales, history, technique and award-winning versions.",
+         items=["Style guidelines &amp; origins","Specialized techniques","Ingredient selection &amp; pairing","Competition brewing skills"],
+         price="₹18,999", amount="18999"),
+    dict(no="05", tag="Brand", dur="3 Weeks", weeks=3, name="Beer Branding &amp; Packaging",
+         blurb="Build a beer brand that stands out and packaging that sells, for aspiring brewers and founders.",
+         items=["Build your brand identity","Design packaging that pops","Launch planning &amp; promotion","Certificate &amp; community access"],
+         price="₹4,999", amount="4999"),
+    dict(no="06", tag="Palate", dur="2 Weeks", weeks=2, name="Sensory Evaluation",
+         blurb="Train your palate like a pro, taste, identify off-flavours and score beer with real sensory methods.",
+         items=["Flavour chemistry","Tasting techniques","Off-flavour identification","Quality scoring systems"],
+         price="₹5,999", amount="5999"),
+]
+
+C1, C2, C3, C4, C5, C6 = [
+    course(c["no"], c["tag"], c["dur"], c["name"], c["blurb"], c["items"], c["price"], "")
+    for c in COURSE_DATA
+]
 
 # ============================================================================
 HOME = f"""

@@ -1,3 +1,8 @@
 .gstack/
 __pycache__/
 .DS_Store
+
+# Held back until craftbeerschool.in DNS points at GitHub Pages. Committing
+# this file makes Pages redirect the github.io URL to the custom domain, which
+# would take the live site dark while DNS still resolves elsewhere.
+CNAME

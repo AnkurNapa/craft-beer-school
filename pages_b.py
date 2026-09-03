@@ -103,7 +103,13 @@ CONTACT = banner("Contact","Contact &amp; Enroll","Let's get you pouring.",
 """
 
 # ============================================================================
+# Every rendered FAQ is recorded so seo.py can emit FAQPage structured data
+# from the same source. Answer engines quote these directly.
+FAQ_ITEMS = []
+
+
 def faq_item(q, a):
+    FAQ_ITEMS.append((q, a))
     return f"<details class=\"reveal\"><summary>{q}</summary><p>{a}</p></details>"
 
 FAQ = banner("FAQ","Questions","Everything you wanted to ask.",

@@ -1,0 +1,21 @@
+{
+  "name": "Craft Beer School",
+  "short_name": "CBS",
+  "description": "Grain to Glass. India's beer school.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#123c4a",
+  "icons": [
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
