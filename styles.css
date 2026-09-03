@@ -254,3 +254,26 @@ footer.site a:hover{color:#fff}
   .offset-img::before{inset:10px -10px -10px 10px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}}
+
+/* --- CTA layer: WhatsApp button + mobile sticky enrol bar ------------------ */
+:root{--wa:#1f8f5f}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-wa:hover{background:#17724b;transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.btn-wa .ico{width:1.05em;height:1.05em}
+
+/* Hidden by default; only earns its place on small screens where the nav
+   Enroll link is folded away behind the burger. */
+.mobile-cta{display:none}
+@media(max-width:680px){
+  .mobile-cta{
+    display:flex;gap:.5rem;position:fixed;left:0;right:0;bottom:0;z-index:60;
+    padding:.6rem .8rem calc(.6rem + env(safe-area-inset-bottom));
+    background:rgba(255,255,255,.92);backdrop-filter:blur(10px);
+    border-top:1px solid rgba(18,60,74,.12);
+  }
+  .mobile-cta .btn{flex:1;justify-content:center;padding:.7rem .9rem;font-size:.92rem}
+  /* Keep the sticky bar from covering the last of the footer. */
+  body{padding-bottom:4.5rem}
+}
+/* Anchor targets clear the sticky header instead of hiding under it. */
+[id]{scroll-margin-top:5rem}

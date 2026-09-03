@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>FAQ — Craft Beer School</title>
+<title>FAQ, Craft Beer School</title>
 <meta name="description" content="Answers on courses, format, certification, payment, refunds and getting started at Craft Beer School." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,38 +11,42 @@
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="announce">Now enrolling — the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
+<div class="announce">Now enrolling, the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
 <div class="rainbow"></div>
 <header>
   <nav class="wrap">
     <a href="index.html" class="brand" aria-label="Craft Beer School home"><img src="assets/logo.png" alt="Craft Beer School" class="brand-logo" width="118" height="146" /></a>
     <div class="navlinks" id="navlinks">
       <a href="index.html">Home</a><a href="about.html">About</a><a href="courses.html">Courses</a><a href="resources.html">Resources</a><a href="blog.html">Blog</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a>
-      <a href="contact.html" class="nav-cta">Enroll</a>
+      <a href="contact.html#enroll" class="nav-cta" data-cta="nav-enroll">Enroll</a>
     </div>
-    <button class="burger" aria-label="Menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">☰</button>
   </nav>
 </header>
+<div class="mobile-cta">
+  <a class="btn btn-amber" href="contact.html#enroll" data-cta="mobile-enroll">Enroll now</a>
+  <a class="btn btn-wa" href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%27d%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener" data-cta="mobile-whatsapp"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg> WhatsApp</a>
+</div>
 <main>
 <section class="banner"><div class="wrap">
   <div class="crumbs"><a href="index.html">Home</a> / FAQ</div>
   <span class="eyebrow">Questions</span>
   <h1 class="display">Everything you wanted to ask.</h1>
-  <p>Courses, format, certification, payment and refunds — answered.</p>
+  <p>Courses, format, certification, payment and refunds, answered.</p>
 </div></section>
 <section>
   <div class="wrap">
     <div class="faq">
-      <details class="reveal"><summary>Do I need any brewing experience to start?</summary><p>Not at all. Brewing Fundamentals is built for complete beginners — we start with the science and ingredients and build up from there. Many of our students had no prior brewing background.</p></details>
+      <details class="reveal"><summary>Do I need any brewing experience to start?</summary><p>Not at all. Brewing Fundamentals is built for complete beginners, we start with the science and ingredients and build up from there. Many of our students had no prior brewing background.</p></details>
       <details class="reveal"><summary>Are the courses online or in person?</summary><p>Both. Our six core courses run as flexible live online sessions you can join from any city. We also offer in-person workshops, home-visit brewing and guided tastings, mainly around Bengaluru.</p></details>
       <details class="reveal"><summary>What are the class sizes?</summary><p>Small by design. Tiny cohorts mean every question gets answered and every batch gets tasted, with one-on-one mentorship from industry experts.</p></details>
       <details class="reveal"><summary>Do you help with WSET or Cicerone certification?</summary><p>Yes. We provide structured exam preparation for WSET and Cicerone so you can build globally recognised beer knowledge and sit the exams with confidence.</p></details>
-      <details class="reveal"><summary>How do I enrol and pay?</summary><p>Pick a course and submit the enquiry form or WhatsApp us. We confirm dates and share payment details. Seats are confirmed once payment is received — cohorts fill quickly.</p></details>
+      <details class="reveal"><summary>How do I enrol and pay?</summary><p>Pick a course and submit the enquiry form or WhatsApp us. We confirm dates and share payment details. Seats are confirmed once payment is received, cohorts fill quickly.</p></details>
       <details class="reveal"><summary>What is your refund policy?</summary><p>See our full <a href='refund.html' style='color:var(--blue);text-decoration:underline'>Refund &amp; Cancellation policy</a>. In short, cancellations before a cohort starts are eligible for a refund within the stated window.</p></details>
-      <details class="reveal"><summary>Do I get a certificate?</summary><p>Yes — courses include a digital certificate and access to the Craft Beer School community.</p></details>
+      <details class="reveal"><summary>Do I get a certificate?</summary><p>Yes, courses include a digital certificate and access to the Craft Beer School community.</p></details>
       <details class="reveal"><summary>Can you teach a group or corporate session?</summary><p>Absolutely. We run private workshops and tastings for teams and events. Reach out via the <a href='contact.html' style='color:var(--blue);text-decoration:underline'>contact page</a> with your group size and dates.</p></details>
     </div>
-    <p style="text-align:center;margin-top:2.5rem;color:var(--ink-soft)">Still curious? <a href="contact.html" class="link-arrow" style="display:inline-flex">Ask us directly</a></p>
+    <p style="text-align:center;margin-top:2.5rem;color:var(--ink-soft)">Still curious? <a href="contact.html#enroll" class="link-arrow" style="display:inline-flex" data-cta="ask-us-directly">Ask us directly</a></p>
   </div>
 </section>
 
@@ -52,7 +56,7 @@
   <div class="wrap foot-grid">
     <div class="foot-brand">
       <a href="index.html" aria-label="Craft Beer School home"><img src="assets/footer-logo.png" alt="Craft Beer School" class="foot-logo" width="113" height="126" /></a>
-      <p>India's trusted online and in-person beer school. Grain to glass and beyond — brewing, tasting, branding and the business of beer.</p>
+      <p>India's trusted online and in-person beer school. Grain to glass and beyond, brewing, tasting, branding and the business of beer.</p>
     </div>
     <div><h4>Learn</h4><ul>
       <li><a href="courses.html">Courses</a></li>
@@ -64,12 +68,13 @@
       <li><a href="about.html">About us</a></li>
       <li><a href="careers.html">Careers &amp; Mentors</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="contact.html">Enroll</a></li>
+      <li><a href="contact.html#enroll" data-cta="footer-enroll">Enroll</a></li>
     </ul></div>
     <div><h4>Contact</h4><ul>
+      <li><a href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%27d%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener" data-cta="footer-whatsapp">WhatsApp us</a></li>
       <li><a href="tel:+919820925347">+91 98209 25347</a></li>
       <li><a href="tel:+919082256507">+91 90822 56507</a></li>
-      <li><a href="mailto:chatty@cheerschattyventures.com">chatty@cheers…</a></li>
+      <li><a href="mailto:chatty@cheerschattyventures.com" data-cta="footer-email">chatty@cheerschattyventures.com</a></li>
       <li><a href="privacy.html">Privacy</a> · <a href="refund.html">Refunds</a></li>
     </ul></div>
   </div>
@@ -85,19 +90,49 @@ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.targ
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
 const FORMSPREE_ID="YOUR_FORM_ID";
+const ENQUIRY_EMAIL="chatty@cheerschattyventures.com";
+
+// Pre-select the course when arriving from a course card: contact.html?course=...
+const wanted=new URLSearchParams(location.search).get('course');
+if(wanted){
+  const sel=document.querySelector('select[name=course]');
+  if(sel){
+    const hit=[...sel.options].find(o=>o.value===wanted||o.textContent.trim()===wanted);
+    if(hit){sel.value=hit.value||hit.textContent;sel.dispatchEvent(new Event('change'));}
+  }
+}
+
+// Every CTA is measurable the moment an analytics tag is added. No-op without one.
+document.addEventListener('click',e=>{
+  const a=e.target.closest('[data-cta]');
+  if(a)(window.dataLayer=window.dataLayer||[]).push({event:'cta_click',cta:a.dataset.cta,href:a.getAttribute('href')||''});
+});
+
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
   function show(t,ok){if(!msg)return;msg.textContent=t;msg.style.color=ok?'#2f7a46':'#c1701a';msg.style.display='block';}
+  // No endpoint configured yet: hand the enquiry to the user's mail app rather
+  // than dead-ending them. Losing a lead beats no lead.
+  function mailtoFallback(){
+    const d=new FormData(form);
+    const subject=d.get('_subject')||'Craft Beer School enquiry';
+    const body=[...d.entries()]
+      .filter(([k,v])=>!k.startsWith('_')&&k!=='_gotcha'&&String(v).trim())
+      .map(([k,v])=>k.replace(/^./,c=>c.toUpperCase())+': '+v).join('\n');
+    location.href='mailto:'+ENQUIRY_EMAIL+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+    show("Opening your email app. If nothing happens, write to "+ENQUIRY_EMAIL+" or tap WhatsApp above.",true);
+  }
   form.addEventListener('submit',async e=>{
     e.preventDefault();
-    if(FORMSPREE_ID==="YOUR_FORM_ID"){show("Form not configured yet — add your Formspree ID in build.py.",false);return;}
+    if(!form.reportValidity())return;
+    if(FORMSPREE_ID==="YOUR_FORM_ID"){mailtoFallback();return;}
     const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
     try{
       const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
       if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);}
-      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email chatty@cheerschattyventures.com.",false);}
-    }catch(_){show("Network error — please email chatty@cheerschattyventures.com.",false);}
+      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email "+ENQUIRY_EMAIL+".",false);}
+    }catch(_){mailtoFallback();}
     finally{btn.disabled=false;btn.textContent=orig;}
   });
 });

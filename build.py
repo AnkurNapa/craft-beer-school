@@ -5,7 +5,9 @@ One shared shell (nav + footer + scripts) stamped around per-page bodies
 defined in pages_a.py / pages_b.py. Run `python3 build.py` to regenerate
 every .html file in this folder. Edit the shell here once; all pages update.
 """
+import os
 import re
+from urllib.parse import quote
 import pages_a
 import pages_b
 
@@ -21,6 +23,7 @@ ICONS = {
     "book": '<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/>',
     "calculator": '<rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/>',
     "wind": '<path d="M12.8 19.6A2 2 0 1 0 14 16H2"/><path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"/><path d="M9.8 4.4A2 2 0 1 1 11 8H2"/>',
+    "whatsapp": '<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/>',
     "sliders": '<line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/>',
 }
 
@@ -33,7 +36,25 @@ def expand_icons(html):
     return re.sub(r"\[\[([a-z-]+)\]\]", sub, html)
 
 # Paste your Formspree form id here (e.g. "xdkzabcd") to activate all forms.
-FORMSPREE_ID = "YOUR_FORM_ID"
+# Until it is set, forms fall back to a prefilled email so no enquiry is ever lost.
+FORMSPREE_ID = os.environ.get("FORMSPREE_ID", "YOUR_FORM_ID")
+
+# Single source of truth for every contact CTA on the site.
+ENQUIRY_EMAIL = "chatty@cheerschattyventures.com"
+WHATSAPP_NUMBER = "919820925347"      # digits only, country code first
+WHATSAPP_TEXT = "Hi Craft Beer School, I'd like to know more about your courses."
+ENROLL_HREF = "contact.html#enroll"   # lands on the form, not the top of the page
+
+
+def whatsapp_href(text=WHATSAPP_TEXT):
+    return f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(text)}"
+
+
+def enroll_href(course=None):
+    """Enrol link that carries the chosen course into the contact form."""
+    if not course:
+        return ENROLL_HREF
+    return f"contact.html?course={quote(course)}#enroll"
 
 NAV_ITEMS = [
     ("Home", "index.html", "home"),
@@ -45,7 +66,7 @@ NAV_ITEMS = [
     ("Contact", "contact.html", "contact"),
 ]
 
-ANNOUNCE = ('<div class="announce">Now enrolling — the ₹999 intro session is open. '
+ANNOUNCE = ('<div class="announce">Now enrolling, the ₹999 intro session is open. '
             '<a href="courses.html">See all courses →</a></div>')
 
 
@@ -61,11 +82,15 @@ def nav(active):
     <a href="index.html" class="brand" aria-label="Craft Beer School home"><img src="assets/logo.png" alt="Craft Beer School" class="brand-logo" width="118" height="146" /></a>
     <div class="navlinks" id="navlinks">
       {links}
-      <a href="contact.html" class="nav-cta">Enroll</a>
+      <a href="{ENROLL_HREF}" class="nav-cta" data-cta="nav-enroll">Enroll</a>
     </div>
-    <button class="burger" aria-label="Menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">☰</button>
   </nav>
-</header>"""
+</header>
+<div class="mobile-cta">
+  <a class="btn btn-amber" href="{ENROLL_HREF}" data-cta="mobile-enroll">Enroll now</a>
+  <a class="btn btn-wa" href="{whatsapp_href()}" target="_blank" rel="noopener" data-cta="mobile-whatsapp">[[whatsapp]] WhatsApp</a>
+</div>"""
 
 
 FOOTER = """
@@ -73,7 +98,7 @@ FOOTER = """
   <div class="wrap foot-grid">
     <div class="foot-brand">
       <a href="index.html" aria-label="Craft Beer School home"><img src="assets/footer-logo.png" alt="Craft Beer School" class="foot-logo" width="113" height="126" /></a>
-      <p>India's trusted online and in-person beer school. Grain to glass and beyond — brewing, tasting, branding and the business of beer.</p>
+      <p>India's trusted online and in-person beer school. Grain to glass and beyond, brewing, tasting, branding and the business of beer.</p>
     </div>
     <div><h4>Learn</h4><ul>
       <li><a href="courses.html">Courses</a></li>
@@ -85,12 +110,13 @@ FOOTER = """
       <li><a href="about.html">About us</a></li>
       <li><a href="careers.html">Careers &amp; Mentors</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="contact.html">Enroll</a></li>
+      <li><a href="__ENROLL__" data-cta="footer-enroll">Enroll</a></li>
     </ul></div>
     <div><h4>Contact</h4><ul>
+      <li><a href="__WA__" target="_blank" rel="noopener" data-cta="footer-whatsapp">WhatsApp us</a></li>
       <li><a href="tel:+919820925347">+91 98209 25347</a></li>
       <li><a href="tel:+919082256507">+91 90822 56507</a></li>
-      <li><a href="mailto:chatty@cheerschattyventures.com">chatty@cheers…</a></li>
+      <li><a href="mailto:__EMAIL__" data-cta="footer-email">__EMAIL__</a></li>
       <li><a href="privacy.html">Privacy</a> · <a href="refund.html">Refunds</a></li>
     </ul></div>
   </div>
@@ -108,27 +134,65 @@ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.targ
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
 const FORMSPREE_ID="__FID__";
+const ENQUIRY_EMAIL="__EMAIL__";
+
+// Pre-select the course when arriving from a course card: contact.html?course=...
+const wanted=new URLSearchParams(location.search).get('course');
+if(wanted){
+  const sel=document.querySelector('select[name=course]');
+  if(sel){
+    const hit=[...sel.options].find(o=>o.value===wanted||o.textContent.trim()===wanted);
+    if(hit){sel.value=hit.value||hit.textContent;sel.dispatchEvent(new Event('change'));}
+  }
+}
+
+// Every CTA is measurable the moment an analytics tag is added. No-op without one.
+document.addEventListener('click',e=>{
+  const a=e.target.closest('[data-cta]');
+  if(a)(window.dataLayer=window.dataLayer||[]).push({event:'cta_click',cta:a.dataset.cta,href:a.getAttribute('href')||''});
+});
+
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
   function show(t,ok){if(!msg)return;msg.textContent=t;msg.style.color=ok?'#2f7a46':'#c1701a';msg.style.display='block';}
+  // No endpoint configured yet: hand the enquiry to the user's mail app rather
+  // than dead-ending them. Losing a lead beats no lead.
+  function mailtoFallback(){
+    const d=new FormData(form);
+    const subject=d.get('_subject')||'Craft Beer School enquiry';
+    const body=[...d.entries()]
+      .filter(([k,v])=>!k.startsWith('_')&&k!=='_gotcha'&&String(v).trim())
+      .map(([k,v])=>k.replace(/^./,c=>c.toUpperCase())+': '+v).join('\\n');
+    location.href='mailto:'+ENQUIRY_EMAIL+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+    show("Opening your email app. If nothing happens, write to "+ENQUIRY_EMAIL+" or tap WhatsApp above.",true);
+  }
   form.addEventListener('submit',async e=>{
     e.preventDefault();
-    if(FORMSPREE_ID==="YOUR_FORM_ID"){show("Form not configured yet — add your Formspree ID in build.py.",false);return;}
+    if(!form.reportValidity())return;
+    if(FORMSPREE_ID==="YOUR_FORM_ID"){mailtoFallback();return;}
     const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
     try{
       const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
       if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);}
-      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email chatty@cheerschattyventures.com.",false);}
-    }catch(_){show("Network error — please email chatty@cheerschattyventures.com.",false);}
+      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email "+ENQUIRY_EMAIL+".",false);}
+    }catch(_){mailtoFallback();}
     finally{btn.disabled=false;btn.textContent=orig;}
   });
 });
 </script>"""
 
 
+def fill_ctas(html):
+    """Resolve the shared CTA placeholders used in FOOTER and SCRIPTS."""
+    return (html.replace("__ENROLL__", ENROLL_HREF)
+                .replace("__WA__", whatsapp_href())
+                .replace("__EMAIL__", ENQUIRY_EMAIL)
+                .replace("__FID__", FORMSPREE_ID))
+
+
 def page(title, desc, active, body):
-    return expand_icons(f"""<!DOCTYPE html>
+    return expand_icons(fill_ctas(f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -146,40 +210,40 @@ def page(title, desc, active, body):
 {body}
 </main>
 {FOOTER}
-{SCRIPTS.replace("__FID__", FORMSPREE_ID)}
+{SCRIPTS}
 </body>
-</html>""")
+</html>"""))
 
 
 PAGES = {
-    "index.html":     ("Craft Beer School — Grain to Glass. India's beer school.",
-                        "India's trusted online and in-person beer school. Learn brewing, tasting, branding and the business of beer — grain to glass. WSET & Cicerone prep.",
+    "index.html":     ("Craft Beer School, Grain to Glass. India's beer school.",
+                        "India's trusted online and in-person beer school. Learn brewing, tasting, branding and the business of beer, grain to glass. WSET & Cicerone prep.",
                         "home", pages_a.HOME),
-    "about.html":     ("About — Craft Beer School",
-                        "Better beer education brews better beer. Meet Craft Beer School — India's grain-to-glass beer school, our mentors, mission and method.",
+    "about.html":     ("About, Craft Beer School",
+                        "Better beer education brews better beer. Meet Craft Beer School, India's grain-to-glass beer school, our mentors, mission and method.",
                         "about", pages_a.ABOUT),
-    "courses.html":   ("Courses — Craft Beer School",
+    "courses.html":   ("Courses, Craft Beer School",
                         "Six online courses from basics to business, plus hands-on in-person workshops. Brewing, science, business, styles, branding and sensory.",
                         "courses", pages_a.COURSES),
-    "resources.html": ("Resources — Craft Beer School",
+    "resources.html": ("Resources, Craft Beer School",
                         "Free beer education: Beer 101, styles primer, a brewing glossary, calculators and tasting tools to sharpen your palate and your process.",
                         "resources", pages_a.RESOURCES),
-    "blog.html":      ("Blog & Podcasts — Craft Beer School",
-                        "Insights from the brewing world — quality, marketing, tasting and the business of beer, plus our podcast conversations with industry voices.",
+    "blog.html":      ("Blog & Podcasts, Craft Beer School",
+                        "Insights from the brewing world, quality, marketing, tasting and the business of beer, plus our podcast conversations with industry voices.",
                         "blog", pages_a.BLOG),
-    "careers.html":   ("Careers & Mentors — Craft Beer School",
+    "careers.html":   ("Careers & Mentors, Craft Beer School",
                         "Become a CBS mentor or join the team. Help India learn beer, grain to glass. Open roles and the mentor application.",
                         "careers", pages_b.CAREERS),
-    "contact.html":   ("Contact & Enroll — Craft Beer School",
-                        "Enrol, ask a question, or book a tasting. Reach Craft Beer School by phone, email or the form — we reply within 24 hours.",
+    "contact.html":   ("Contact & Enroll, Craft Beer School",
+                        "Enrol, ask a question, or book a tasting. Reach Craft Beer School by phone, email or the form, we reply within 24 hours.",
                         "contact", pages_b.CONTACT),
-    "faq.html":       ("FAQ — Craft Beer School",
+    "faq.html":       ("FAQ, Craft Beer School",
                         "Answers on courses, format, certification, payment, refunds and getting started at Craft Beer School.",
                         "faq", pages_b.FAQ),
-    "privacy.html":   ("Privacy Policy — Craft Beer School",
+    "privacy.html":   ("Privacy Policy, Craft Beer School",
                         "How Craft Beer School collects, uses and protects your information.",
                         "", pages_b.PRIVACY),
-    "refund.html":    ("Refund & Cancellation — Craft Beer School",
+    "refund.html":    ("Refund & Cancellation, Craft Beer School",
                         "Craft Beer School's refund and cancellation policy for online and in-person courses.",
                         "", pages_b.REFUND),
 }

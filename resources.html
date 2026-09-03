@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Resources — Craft Beer School</title>
+<title>Resources, Craft Beer School</title>
 <meta name="description" content="Free beer education: Beer 101, styles primer, a brewing glossary, calculators and tasting tools to sharpen your palate and your process." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,34 +11,38 @@
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="announce">Now enrolling — the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
+<div class="announce">Now enrolling, the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
 <div class="rainbow"></div>
 <header>
   <nav class="wrap">
     <a href="index.html" class="brand" aria-label="Craft Beer School home"><img src="assets/logo.png" alt="Craft Beer School" class="brand-logo" width="118" height="146" /></a>
     <div class="navlinks" id="navlinks">
       <a href="index.html">Home</a><a href="about.html">About</a><a href="courses.html">Courses</a><a href="resources.html" class="active">Resources</a><a href="blog.html">Blog</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a>
-      <a href="contact.html" class="nav-cta">Enroll</a>
+      <a href="contact.html#enroll" class="nav-cta" data-cta="nav-enroll">Enroll</a>
     </div>
-    <button class="burger" aria-label="Menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">☰</button>
   </nav>
 </header>
+<div class="mobile-cta">
+  <a class="btn btn-amber" href="contact.html#enroll" data-cta="mobile-enroll">Enroll now</a>
+  <a class="btn btn-wa" href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%27d%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener" data-cta="mobile-whatsapp"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg> WhatsApp</a>
+</div>
 <main>
 <section class="banner"><div class="wrap">
   <div class="crumbs"><a href="index.html">Home</a> / Resources</div>
   <span class="eyebrow">Free beer education</span>
-  <h1 class="display">Start learning today — on the house.</h1>
+  <h1 class="display">Start learning today, on the house.</h1>
   <p>Beer 101, a styles primer, a working glossary, calculators and tasting tools. No enrolment required.</p>
 </div></section>
 <section>
   <div class="wrap">
     <div class="grid-3">
-      <article class="card reveal"><div class="ph amber"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></div><div class="card-body"><span class="cat">Start here</span><h3>Beer 101</h3><p>What is craft beer? Ingredients, the four pillars, and how a beer is actually made — grain to glass in plain English.</p><div class="foot"><a href="contact.html" class="link-arrow">Get the crash course</a></div></div></article>
-      <article class="card reveal"><div class="ph mint"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 3 11 3s2 .5 3 .5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/><path d="M5 8v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V8"/></svg></div><div class="card-body"><span class="cat">Reference</span><h3>Beer Styles Primer</h3><p>IPAs, stouts, lagers, sours and Belgian ales — origins, flavour signatures and what to expect in the glass.</p><div class="foot"><a href="courses.html" class="link-arrow">Explore styles</a></div></div></article>
-      <article class="card reveal"><div class="ph"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></svg></div><div class="card-body"><span class="cat">Reference</span><h3>Brewing Glossary</h3><p>ABV, IBU, OG/FG, attenuation, lauter, dry hop — the words brewers use, defined clearly.</p><div class="foot"><a href="#glossary" class="link-arrow">Jump to glossary</a></div></div></article>
-      <article class="card reveal"><div class="ph mint"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg></div><div class="card-body"><span class="cat">Tool · App</span><h3>Indian Brewing Calculator</h3><p>ABV, attenuation and recipe math built for Indian brewing — check your numbers before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/indian-brewing-calculator/" class="link-arrow" target="_blank" rel="noopener">Open the calculator</a></div></div></article>
-      <article class="card reveal"><div class="ph amber"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.8 19.6A2 2 0 1 0 14 16H2"/><path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"/><path d="M9.8 4.4A2 2 0 1 1 11 8H2"/></svg></div><div class="card-body"><span class="cat">Tool · App</span><h3>Aroma Forge</h3><p>Predict a beer's aroma by superimposing digitised Weyermann malt aroma wheels — see how your grain bill smells before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/aroma-forge/" class="link-arrow" target="_blank" rel="noopener">Open Aroma Forge</a></div></div></article>
-      <article class="card reveal"><div class="ph mint"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/></svg></div><div class="card-body"><span class="cat">Tool · App</span><h3>Advanced Brewing Calculator</h3><p>Pro-tier formulation, spec sheets and recipe comparison — for serious brewers who want the full picture.</p><div class="foot"><a href="https://ankurnapa.github.io/advanced-brewing-calc/" class="link-arrow" target="_blank" rel="noopener">Open the pro suite</a></div></div></article>
+      <article class="card reveal"><div class="ph amber"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg></div><div class="card-body"><span class="cat">Start here</span><h3>Beer 101</h3><p>What is craft beer? Ingredients, the four pillars, and how a beer is actually made, grain to glass in plain English.</p><div class="foot"><a href="contact.html#enroll" class="link-arrow" data-cta="get-the-crash-course">Get the crash course</a></div></div></article>
+      <article class="card reveal"><div class="ph mint"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 3 11 3s2 .5 3 .5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/><path d="M5 8v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V8"/></svg></div><div class="card-body"><span class="cat">Reference</span><h3>Beer Styles Primer</h3><p>IPAs, stouts, lagers, sours and Belgian ales, origins, flavour signatures and what to expect in the glass.</p><div class="foot"><a href="courses.html" class="link-arrow">Explore styles</a></div></div></article>
+      <article class="card reveal"><div class="ph"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></svg></div><div class="card-body"><span class="cat">Reference</span><h3>Brewing Glossary</h3><p>ABV, IBU, OG/FG, attenuation, lauter, dry hop, the words brewers use, defined clearly.</p><div class="foot"><a href="#glossary" class="link-arrow">Jump to glossary</a></div></div></article>
+      <article class="card reveal"><div class="ph mint"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg></div><div class="card-body"><span class="cat">Tool · App</span><h3>Indian Brewing Calculator</h3><p>ABV, attenuation and recipe math built for Indian brewing, check your numbers before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/indian-brewing-calculator/" class="link-arrow" target="_blank" rel="noopener">Open the calculator</a></div></div></article>
+      <article class="card reveal"><div class="ph amber"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12.8 19.6A2 2 0 1 0 14 16H2"/><path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"/><path d="M9.8 4.4A2 2 0 1 1 11 8H2"/></svg></div><div class="card-body"><span class="cat">Tool · App</span><h3>Aroma Forge</h3><p>Predict a beer's aroma by superimposing digitised Weyermann malt aroma wheels, see how your grain bill smells before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/aroma-forge/" class="link-arrow" target="_blank" rel="noopener">Open Aroma Forge</a></div></div></article>
+      <article class="card reveal"><div class="ph mint"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/></svg></div><div class="card-body"><span class="cat">Tool · App</span><h3>Advanced Brewing Calculator</h3><p>Pro-tier formulation, spec sheets and recipe comparison, for serious brewers who want the full picture.</p><div class="foot"><a href="https://ankurnapa.github.io/advanced-brewing-calc/" class="link-arrow" target="_blank" rel="noopener">Open the pro suite</a></div></div></article>
     </div>
   </div>
 </section>
@@ -48,16 +52,16 @@
     <div class="sec-head"><span class="eyebrow">Quick reference</span><h2>Brewing glossary.</h2></div>
     <div class="grid-2">
       <div class="prose-block reveal">
-        <p><b>ABV</b> — Alcohol by volume, the percentage of alcohol in the finished beer.</p>
-        <p><b>OG / FG</b> — Original and final gravity, measured before and after fermentation to track sugar converted to alcohol.</p>
-        <p><b>IBU</b> — International Bitterness Units, a measure of hop bitterness.</p>
-        <p><b>Attenuation</b> — How much of the sugar the yeast fermented; higher means a drier beer.</p>
+        <p><b>ABV</b>, Alcohol by volume, the percentage of alcohol in the finished beer.</p>
+        <p><b>OG / FG</b>, Original and final gravity, measured before and after fermentation to track sugar converted to alcohol.</p>
+        <p><b>IBU</b>, International Bitterness Units, a measure of hop bitterness.</p>
+        <p><b>Attenuation</b>, How much of the sugar the yeast fermented; higher means a drier beer.</p>
       </div>
       <div class="prose-block reveal">
-        <p><b>Mash</b> — Steeping crushed malt in hot water to convert starch to fermentable sugar.</p>
-        <p><b>Lauter / Sparge</b> — Separating and rinsing the sweet wort from the grain.</p>
-        <p><b>Dry hop</b> — Adding hops after the boil for aroma without added bitterness.</p>
-        <p><b>Lagering</b> — Cold conditioning that gives lagers their clean, crisp finish.</p>
+        <p><b>Mash</b>, Steeping crushed malt in hot water to convert starch to fermentable sugar.</p>
+        <p><b>Lauter / Sparge</b>, Separating and rinsing the sweet wort from the grain.</p>
+        <p><b>Dry hop</b>, Adding hops after the boil for aroma without added bitterness.</p>
+        <p><b>Lagering</b>, Cold conditioning that gives lagers their clean, crisp finish.</p>
       </div>
     </div>
     <p style="margin-top:1.5rem"><a href="courses.html" class="link-arrow">Go deeper in Brewing Fundamentals</a></p>
@@ -72,7 +76,7 @@
   <div class="wrap foot-grid">
     <div class="foot-brand">
       <a href="index.html" aria-label="Craft Beer School home"><img src="assets/footer-logo.png" alt="Craft Beer School" class="foot-logo" width="113" height="126" /></a>
-      <p>India's trusted online and in-person beer school. Grain to glass and beyond — brewing, tasting, branding and the business of beer.</p>
+      <p>India's trusted online and in-person beer school. Grain to glass and beyond, brewing, tasting, branding and the business of beer.</p>
     </div>
     <div><h4>Learn</h4><ul>
       <li><a href="courses.html">Courses</a></li>
@@ -84,12 +88,13 @@
       <li><a href="about.html">About us</a></li>
       <li><a href="careers.html">Careers &amp; Mentors</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="contact.html">Enroll</a></li>
+      <li><a href="contact.html#enroll" data-cta="footer-enroll">Enroll</a></li>
     </ul></div>
     <div><h4>Contact</h4><ul>
+      <li><a href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%27d%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener" data-cta="footer-whatsapp">WhatsApp us</a></li>
       <li><a href="tel:+919820925347">+91 98209 25347</a></li>
       <li><a href="tel:+919082256507">+91 90822 56507</a></li>
-      <li><a href="mailto:chatty@cheerschattyventures.com">chatty@cheers…</a></li>
+      <li><a href="mailto:chatty@cheerschattyventures.com" data-cta="footer-email">chatty@cheerschattyventures.com</a></li>
       <li><a href="privacy.html">Privacy</a> · <a href="refund.html">Refunds</a></li>
     </ul></div>
   </div>
@@ -105,19 +110,49 @@ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.targ
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
 const FORMSPREE_ID="YOUR_FORM_ID";
+const ENQUIRY_EMAIL="chatty@cheerschattyventures.com";
+
+// Pre-select the course when arriving from a course card: contact.html?course=...
+const wanted=new URLSearchParams(location.search).get('course');
+if(wanted){
+  const sel=document.querySelector('select[name=course]');
+  if(sel){
+    const hit=[...sel.options].find(o=>o.value===wanted||o.textContent.trim()===wanted);
+    if(hit){sel.value=hit.value||hit.textContent;sel.dispatchEvent(new Event('change'));}
+  }
+}
+
+// Every CTA is measurable the moment an analytics tag is added. No-op without one.
+document.addEventListener('click',e=>{
+  const a=e.target.closest('[data-cta]');
+  if(a)(window.dataLayer=window.dataLayer||[]).push({event:'cta_click',cta:a.dataset.cta,href:a.getAttribute('href')||''});
+});
+
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
   function show(t,ok){if(!msg)return;msg.textContent=t;msg.style.color=ok?'#2f7a46':'#c1701a';msg.style.display='block';}
+  // No endpoint configured yet: hand the enquiry to the user's mail app rather
+  // than dead-ending them. Losing a lead beats no lead.
+  function mailtoFallback(){
+    const d=new FormData(form);
+    const subject=d.get('_subject')||'Craft Beer School enquiry';
+    const body=[...d.entries()]
+      .filter(([k,v])=>!k.startsWith('_')&&k!=='_gotcha'&&String(v).trim())
+      .map(([k,v])=>k.replace(/^./,c=>c.toUpperCase())+': '+v).join('\n');
+    location.href='mailto:'+ENQUIRY_EMAIL+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+    show("Opening your email app. If nothing happens, write to "+ENQUIRY_EMAIL+" or tap WhatsApp above.",true);
+  }
   form.addEventListener('submit',async e=>{
     e.preventDefault();
-    if(FORMSPREE_ID==="YOUR_FORM_ID"){show("Form not configured yet — add your Formspree ID in build.py.",false);return;}
+    if(!form.reportValidity())return;
+    if(FORMSPREE_ID==="YOUR_FORM_ID"){mailtoFallback();return;}
     const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
     try{
       const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
       if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);}
-      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email chatty@cheerschattyventures.com.",false);}
-    }catch(_){show("Network error — please email chatty@cheerschattyventures.com.",false);}
+      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email "+ENQUIRY_EMAIL+".",false);}
+    }catch(_){mailtoFallback();}
     finally{btn.disabled=false;btn.textContent=orig;}
   });
 });

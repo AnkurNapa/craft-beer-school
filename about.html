@@ -3,39 +3,43 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>About — Craft Beer School</title>
-<meta name="description" content="Better beer education brews better beer. Meet Craft Beer School — India's grain-to-glass beer school, our mentors, mission and method." />
+<title>About, Craft Beer School</title>
+<meta name="description" content="Better beer education brews better beer. Meet Craft Beer School, India's grain-to-glass beer school, our mentors, mission and method." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500;1,9..144,600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="announce">Now enrolling — the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
+<div class="announce">Now enrolling, the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
 <div class="rainbow"></div>
 <header>
   <nav class="wrap">
     <a href="index.html" class="brand" aria-label="Craft Beer School home"><img src="assets/logo.png" alt="Craft Beer School" class="brand-logo" width="118" height="146" /></a>
     <div class="navlinks" id="navlinks">
       <a href="index.html">Home</a><a href="about.html" class="active">About</a><a href="courses.html">Courses</a><a href="resources.html">Resources</a><a href="blog.html">Blog</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a>
-      <a href="contact.html" class="nav-cta">Enroll</a>
+      <a href="contact.html#enroll" class="nav-cta" data-cta="nav-enroll">Enroll</a>
     </div>
-    <button class="burger" aria-label="Menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">☰</button>
   </nav>
 </header>
+<div class="mobile-cta">
+  <a class="btn btn-amber" href="contact.html#enroll" data-cta="mobile-enroll">Enroll now</a>
+  <a class="btn btn-wa" href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%27d%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener" data-cta="mobile-whatsapp"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg> WhatsApp</a>
+</div>
 <main>
 <section class="banner"><div class="wrap">
   <div class="crumbs"><a href="index.html">Home</a> / About</div>
   <span class="eyebrow">About Craft Beer School</span>
   <h1 class="display">We teach the whole bottle.</h1>
-  <p>India's trusted online and in-person beer school — grain to glass and everything around it.</p>
+  <p>India's trusted online and in-person beer school, grain to glass and everything around it.</p>
 </div></section>
 <section>
   <div class="wrap split">
     <div class="prose-block reveal">
       <span class="eyebrow">Our story</span>
       <h2>Better beer education brews better beer.</h2>
-      <p>We are Craft Beer School — India's trusted beer school, online and in person. We teach everything inside and outside the bottle: from ingredients and brewing to tasting, branding and the business of beer.</p>
+      <p>We are Craft Beer School, India's trusted beer school, online and in person. We teach everything inside and outside the bottle: from ingredients and brewing to tasting, branding and the business of beer.</p>
       <p>Our learning goes grain to glass and beyond through live sessions, guided tastings and hands-on brewery workshops. We also support WSET and Cicerone certification exam preparation, helping you build global beer knowledge and real industry confidence.</p>
       <p>Our courses are open to beer lovers, professionals and future brewery founders in India and across the world. Learn from industry experts through flexible online sessions and practical insights you can use anywhere.</p>
     </div>
@@ -49,10 +53,10 @@
     <div class="features">
       <div class="feature reveal"><div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"/><path d="M6.453 15h11.094"/><path d="M8.5 2h7"/></svg></div><h3>Small batches, big learning</h3><p>Tiny cohorts so every question gets answered and every batch gets tasted.</p></div>
       <div class="feature reveal"><div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg></div><h3>One-on-one mentorship</h3><p>Learn directly from working brewers, sensory pros and founders who've built brands in India.</p></div>
-      <div class="feature reveal"><div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></div><h3>Learn anywhere</h3><p>Flexible live online sessions you can join from any city — plus in-person brewery days.</p></div>
+      <div class="feature reveal"><div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg></div><h3>Learn anywhere</h3><p>Flexible live online sessions you can join from any city, plus in-person brewery days.</p></div>
       <div class="feature reveal"><div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></div><h3>Certification ready</h3><p>Structured WSET and Cicerone exam prep so your knowledge travels beyond the classroom.</p></div>
       <div class="feature reveal"><div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><h3>Passion to profession</h3><p>Curricula built to turn a hobby into a career or a business.</p></div>
-      <div class="feature reveal"><div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 3 11 3s2 .5 3 .5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/><path d="M5 8v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V8"/></svg></div><h3>Hands-on workshops</h3><p>Guided tastings and real brewery days — grain to glass, in person.</p></div>
+      <div class="feature reveal"><div class="ic"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 11h1a3 3 0 0 1 0 6h-1"/><path d="M9 12v6"/><path d="M13 12v6"/><path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 3 11 3s2 .5 3 .5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"/><path d="M5 8v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V8"/></svg></div><h3>Hands-on workshops</h3><p>Guided tastings and real brewery days, grain to glass, in person.</p></div>
     </div>
   </div>
 </section>
@@ -63,12 +67,12 @@
     <div class="grid-3">
       <article class="card reveal"><img class="mentor-img" src="assets/team3.jpg" alt="Ankur Napa, Master Brewer and course instructor" loading="lazy" /><div class="card-body"><span class="cat">Course Instructor · Master Brewer</span><h3>Ankur Napa</h3><p>A Master Brewer with hands-on experience at global brewing giants. Bridges the science of the mash tun with the reality of the brewery floor.</p></div></article>
       <article class="card reveal"><img class="mentor-img" src="assets/team5.jpg" alt="Chatty Girija, beer podcaster and creative strategist" loading="lazy" /><div class="card-body"><span class="cat">Beer Podcaster · Creative Strategist</span><h3>Chatty Girija</h3><p>30+ years in advertising and a deep passion for craft beer. Brings the stories, the branding and the business of beer to every session.</p></div></article>
-      <article class="card reveal"><img class="mentor-img" src="assets/team4.jpg" alt="Anu Rao, Head of Strategy and Operations" loading="lazy" /><div class="card-body"><span class="cat">Head of Strategy &amp; Operations</span><h3>Anu Rao</h3><p>15+ years across social responsibility, education and operations — keeping every cohort running smoothly, grain to glass.</p></div></article>
+      <article class="card reveal"><img class="mentor-img" src="assets/team4.jpg" alt="Anu Rao, Head of Strategy and Operations" loading="lazy" /><div class="card-body"><span class="cat">Head of Strategy &amp; Operations</span><h3>Anu Rao</h3><p>15+ years across social responsibility, education and operations, keeping every cohort running smoothly, grain to glass.</p></div></article>
     </div>
   </div>
 </section>
 
-<section class="cta"><div class="wrap"><h2>Ready to go grain to glass?</h2><p>Pick a course, book a tasting, or ask us anything.</p><a href="contact.html" class="btn btn-amber">Talk to us</a></div></section>
+<section class="cta"><div class="wrap"><h2>Ready to go grain to glass?</h2><p>Pick a course, book a tasting, or ask us anything.</p><a href="contact.html#enroll" class="btn btn-amber" data-cta="talk-to-us">Talk to us</a></div></section>
 
 </main>
 
@@ -76,7 +80,7 @@
   <div class="wrap foot-grid">
     <div class="foot-brand">
       <a href="index.html" aria-label="Craft Beer School home"><img src="assets/footer-logo.png" alt="Craft Beer School" class="foot-logo" width="113" height="126" /></a>
-      <p>India's trusted online and in-person beer school. Grain to glass and beyond — brewing, tasting, branding and the business of beer.</p>
+      <p>India's trusted online and in-person beer school. Grain to glass and beyond, brewing, tasting, branding and the business of beer.</p>
     </div>
     <div><h4>Learn</h4><ul>
       <li><a href="courses.html">Courses</a></li>
@@ -88,12 +92,13 @@
       <li><a href="about.html">About us</a></li>
       <li><a href="careers.html">Careers &amp; Mentors</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="contact.html">Enroll</a></li>
+      <li><a href="contact.html#enroll" data-cta="footer-enroll">Enroll</a></li>
     </ul></div>
     <div><h4>Contact</h4><ul>
+      <li><a href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%27d%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener" data-cta="footer-whatsapp">WhatsApp us</a></li>
       <li><a href="tel:+919820925347">+91 98209 25347</a></li>
       <li><a href="tel:+919082256507">+91 90822 56507</a></li>
-      <li><a href="mailto:chatty@cheerschattyventures.com">chatty@cheers…</a></li>
+      <li><a href="mailto:chatty@cheerschattyventures.com" data-cta="footer-email">chatty@cheerschattyventures.com</a></li>
       <li><a href="privacy.html">Privacy</a> · <a href="refund.html">Refunds</a></li>
     </ul></div>
   </div>
@@ -109,19 +114,49 @@ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.targ
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
 const FORMSPREE_ID="YOUR_FORM_ID";
+const ENQUIRY_EMAIL="chatty@cheerschattyventures.com";
+
+// Pre-select the course when arriving from a course card: contact.html?course=...
+const wanted=new URLSearchParams(location.search).get('course');
+if(wanted){
+  const sel=document.querySelector('select[name=course]');
+  if(sel){
+    const hit=[...sel.options].find(o=>o.value===wanted||o.textContent.trim()===wanted);
+    if(hit){sel.value=hit.value||hit.textContent;sel.dispatchEvent(new Event('change'));}
+  }
+}
+
+// Every CTA is measurable the moment an analytics tag is added. No-op without one.
+document.addEventListener('click',e=>{
+  const a=e.target.closest('[data-cta]');
+  if(a)(window.dataLayer=window.dataLayer||[]).push({event:'cta_click',cta:a.dataset.cta,href:a.getAttribute('href')||''});
+});
+
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
   function show(t,ok){if(!msg)return;msg.textContent=t;msg.style.color=ok?'#2f7a46':'#c1701a';msg.style.display='block';}
+  // No endpoint configured yet: hand the enquiry to the user's mail app rather
+  // than dead-ending them. Losing a lead beats no lead.
+  function mailtoFallback(){
+    const d=new FormData(form);
+    const subject=d.get('_subject')||'Craft Beer School enquiry';
+    const body=[...d.entries()]
+      .filter(([k,v])=>!k.startsWith('_')&&k!=='_gotcha'&&String(v).trim())
+      .map(([k,v])=>k.replace(/^./,c=>c.toUpperCase())+': '+v).join('\n');
+    location.href='mailto:'+ENQUIRY_EMAIL+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+    show("Opening your email app. If nothing happens, write to "+ENQUIRY_EMAIL+" or tap WhatsApp above.",true);
+  }
   form.addEventListener('submit',async e=>{
     e.preventDefault();
-    if(FORMSPREE_ID==="YOUR_FORM_ID"){show("Form not configured yet — add your Formspree ID in build.py.",false);return;}
+    if(!form.reportValidity())return;
+    if(FORMSPREE_ID==="YOUR_FORM_ID"){mailtoFallback();return;}
     const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
     try{
       const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
       if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);}
-      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email chatty@cheerschattyventures.com.",false);}
-    }catch(_){show("Network error — please email chatty@cheerschattyventures.com.",false);}
+      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email "+ENQUIRY_EMAIL+".",false);}
+    }catch(_){mailtoFallback();}
     finally{btn.disabled=false;btn.textContent=orig;}
   });
 });

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Courses — Craft Beer School</title>
+<title>Courses, Craft Beer School</title>
 <meta name="description" content="Six online courses from basics to business, plus hands-on in-person workshops. Brewing, science, business, styles, branding and sensory." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,24 +11,28 @@
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="announce">Now enrolling — the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
+<div class="announce">Now enrolling, the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
 <div class="rainbow"></div>
 <header>
   <nav class="wrap">
     <a href="index.html" class="brand" aria-label="Craft Beer School home"><img src="assets/logo.png" alt="Craft Beer School" class="brand-logo" width="118" height="146" /></a>
     <div class="navlinks" id="navlinks">
       <a href="index.html">Home</a><a href="about.html">About</a><a href="courses.html" class="active">Courses</a><a href="resources.html">Resources</a><a href="blog.html">Blog</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a>
-      <a href="contact.html" class="nav-cta">Enroll</a>
+      <a href="contact.html#enroll" class="nav-cta" data-cta="nav-enroll">Enroll</a>
     </div>
-    <button class="burger" aria-label="Menu" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">☰</button>
   </nav>
 </header>
+<div class="mobile-cta">
+  <a class="btn btn-amber" href="contact.html#enroll" data-cta="mobile-enroll">Enroll now</a>
+  <a class="btn btn-wa" href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%27d%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener" data-cta="mobile-whatsapp"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg> WhatsApp</a>
+</div>
 <main>
 <section class="banner"><div class="wrap">
   <div class="crumbs"><a href="index.html">Home</a> / Courses</div>
   <span class="eyebrow">Basics to Business</span>
   <h1 class="display">Learn the art, science &amp; business of brewing.</h1>
-  <p>From your first pint to your professional journey. Simple, clear and full of real-world learning — online and in person.</p>
+  <p>From your first pint to your professional journey. Simple, clear and full of real-world learning, online and in person.</p>
 </div></section>
 <section>
   <div class="wrap">
@@ -37,9 +41,9 @@
   <div class="top"><span class="course-no">01 / Foundations</span><span class="course-dur">4 Weeks</span></div>
   <div class="card-body">
     <h3>Brewing Fundamentals</h3>
-    <p>The science of brewing — ingredients, equipment, technique. Online sessions plus your first real recipe.</p>
+    <p>The science of brewing, ingredients, equipment, technique. Online sessions plus your first real recipe.</p>
     <ul><li>Brewing science &amp; theory</li><li>Raw materials &amp; quality</li><li>Equipment &amp; sanitation</li><li>Recipe formulation basics</li></ul>
-    <div class="foot"><span class="price">₹5,999</span><a href="contact.html" class="btn btn-ghost" style="padding:.55rem 1.1rem">Enroll</a></div>
+    <div class="foot"><span class="price">₹5,999</span><a href="contact.html?course=Brewing%20Fundamentals#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enroll in Brewing Fundamentals">Enroll</a></div>
   </div>
 </article><article class="card course-card reveal">
   <div class="top"><span class="course-no">02 / Deep Craft</span><span class="course-dur">6 Weeks</span></div>
@@ -47,39 +51,39 @@
     <h3>Advanced Brewing Science</h3>
     <p>Go deeper into chemistry, microbiology and advanced fermentation for serious brewers and pros.</p>
     <ul><li>Microbiology &amp; fermentation</li><li>Water chemistry optimization</li><li>Advanced mashing techniques</li><li>Quality assurance &amp; control</li></ul>
-    <div class="foot"><span class="price">₹12,999</span><a href="contact.html" class="btn btn-ghost" style="padding:.55rem 1.1rem">Enroll</a></div>
+    <div class="foot"><span class="price">₹12,999</span><a href="contact.html?course=Advanced%20Brewing%20Science#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enroll in Advanced Brewing Science">Enroll</a></div>
   </div>
 </article><article class="card course-card reveal">
   <div class="top"><span class="course-no">03 / Business</span><span class="course-dur">3 Weeks</span></div>
   <div class="card-body">
     <h3>Brewery Business Management</h3>
-    <p>The business behind the brew — plan, launch and grow a brewery, from finance to distribution.</p>
+    <p>The business behind the brew, plan, launch and grow a brewery, from finance to distribution.</p>
     <ul><li>Business planning &amp; finance</li><li>Licensing &amp; regulations</li><li>Marketing &amp; branding</li><li>Distribution strategies</li></ul>
-    <div class="foot"><span class="price">₹8,999</span><a href="contact.html" class="btn btn-ghost" style="padding:.55rem 1.1rem">Enroll</a></div>
+    <div class="foot"><span class="price">₹8,999</span><a href="contact.html?course=Brewery%20Business%20Management#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enroll in Brewery Business Management">Enroll</a></div>
   </div>
 </article><article class="card course-card reveal">
   <div class="top"><span class="course-no">04 / Mastery</span><span class="course-dur">8 Weeks</span></div>
   <div class="card-body">
     <h3>Style Specialization</h3>
-    <p>Master IPAs, stouts, lagers, sours and Belgian ales — history, technique and award-winning versions.</p>
+    <p>Master IPAs, stouts, lagers, sours and Belgian ales, history, technique and award-winning versions.</p>
     <ul><li>Style guidelines &amp; origins</li><li>Specialized techniques</li><li>Ingredient selection &amp; pairing</li><li>Competition brewing skills</li></ul>
-    <div class="foot"><span class="price">₹18,999</span><a href="contact.html" class="btn btn-ghost" style="padding:.55rem 1.1rem">Enroll</a></div>
+    <div class="foot"><span class="price">₹18,999</span><a href="contact.html?course=Style%20Specialization#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enroll in Style Specialization">Enroll</a></div>
   </div>
 </article><article class="card course-card reveal">
   <div class="top"><span class="course-no">05 / Brand</span><span class="course-dur">3 Weeks</span></div>
   <div class="card-body">
     <h3>Beer Branding &amp; Packaging</h3>
-    <p>Build a beer brand that stands out and packaging that sells — for aspiring brewers and founders.</p>
+    <p>Build a beer brand that stands out and packaging that sells, for aspiring brewers and founders.</p>
     <ul><li>Build your brand identity</li><li>Design packaging that pops</li><li>Launch planning &amp; promotion</li><li>Certificate &amp; community access</li></ul>
-    <div class="foot"><span class="price">₹4,999</span><a href="contact.html" class="btn btn-ghost" style="padding:.55rem 1.1rem">Enroll</a></div>
+    <div class="foot"><span class="price">₹4,999</span><a href="contact.html?course=Beer%20Branding%20%26%20Packaging#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enroll in Beer Branding &amp; Packaging">Enroll</a></div>
   </div>
 </article><article class="card course-card reveal">
   <div class="top"><span class="course-no">06 / Palate</span><span class="course-dur">2 Weeks</span></div>
   <div class="card-body">
     <h3>Sensory Evaluation</h3>
-    <p>Train your palate like a pro — taste, identify off-flavours and score beer with real sensory methods.</p>
+    <p>Train your palate like a pro, taste, identify off-flavours and score beer with real sensory methods.</p>
     <ul><li>Flavour chemistry</li><li>Tasting techniques</li><li>Off-flavour identification</li><li>Quality scoring systems</li></ul>
-    <div class="foot"><span class="price">₹5,999</span><a href="contact.html" class="btn btn-ghost" style="padding:.55rem 1.1rem">Enroll</a></div>
+    <div class="foot"><span class="price">₹5,999</span><a href="contact.html?course=Sensory%20Evaluation#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enroll in Sensory Evaluation">Enroll</a></div>
   </div>
 </article></div>
   </div>
@@ -89,10 +93,10 @@
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">In person</span><h2>Hands-on workshops &amp; tastings.</h2><p class="lead">Prefer to learn at the bench? Join us in the room.</p></div>
     <div class="grid-2">
-      <article class="card reveal"><div class="card-body"><span class="cat">1 Day · Intensive</span><h3>1-Day Super Intensive Craft Beer Course</h3><p>Step into a real microbrewery for a full day — from raw materials to a finished pour, condensed into one focused classroom-plus-brewery session.</p><div class="foot"><a href="contact.html" class="btn btn-ghost" style="padding:.55rem 1.1rem">Enquire</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="cat">1 Month · Advanced</span><h3>1-Month Advanced Craft Beer Brewing Course</h3><p>Bragger to a beer founder — an advanced, hands-on programme with focused mentorship over four weeks.</p><div class="foot"><a href="contact.html" class="btn btn-ghost" style="padding:.55rem 1.1rem">Enquire</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="cat">1 Day · At Home</span><h3>1-Day Home Visit Brewing Course</h3><p>Our brew master comes to your home with all the equipment and ingredients needed to brew your first batch, start to finish.</p><div class="foot"><a href="contact.html" class="btn btn-ghost" style="padding:.55rem 1.1rem">Enquire</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="cat">2 Hours · Tasting</span><h3>2-Hour Craft Beer Tasting Course</h3><p>A guided tasting flight in Bengaluru — learn to read aroma, flavour and style in two focused hours.</p><div class="foot"><a href="contact.html" class="btn btn-ghost" style="padding:.55rem 1.1rem">Enquire</a></div></div></article>
+      <article class="card reveal"><div class="card-body"><span class="cat">1 Day · Intensive</span><h3>1-Day Super Intensive Craft Beer Course</h3><p>Step into a real microbrewery for a full day, from raw materials to a finished pour, condensed into one focused classroom-plus-brewery session.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
+      <article class="card reveal"><div class="card-body"><span class="cat">1 Month · Advanced</span><h3>1-Month Advanced Craft Beer Brewing Course</h3><p>Homebrewer to beer founder, an advanced, hands-on programme with focused mentorship over four weeks.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
+      <article class="card reveal"><div class="card-body"><span class="cat">1 Day · At Home</span><h3>1-Day Home Visit Brewing Course</h3><p>Our brew master comes to your home with all the equipment and ingredients needed to brew your first batch, start to finish.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
+      <article class="card reveal"><div class="card-body"><span class="cat">2 Hours · Tasting</span><h3>2-Hour Craft Beer Tasting Course</h3><p>A guided tasting flight in Bengaluru, learn to read aroma, flavour and style in two focused hours.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
     </div>
   </div>
 </section>
@@ -101,7 +105,7 @@
   <div class="wrap">
     <div class="sec-head center"><span class="eyebrow">How enrolment works</span><h2>From enquiry to first pour.</h2></div>
     <div class="steps">
-      <div class="step reveal"><h3>Pick a course</h3><p>Choose a single pour or the full flight — online or in person.</p></div>
+      <div class="step reveal"><h3>Pick a course</h3><p>Choose a single pour or the full flight, online or in person.</p></div>
       <div class="step reveal"><h3>Reach out</h3><p>Submit the form or WhatsApp us. We confirm dates and answer questions.</p></div>
       <div class="step reveal"><h3>Confirm &amp; pay</h3><p>Secure your seat. Small cohorts fill quickly.</p></div>
       <div class="step reveal"><h3>Start brewing</h3><p>Join live sessions, get 1:1 mentorship and build your first recipe.</p></div>
@@ -110,7 +114,7 @@
   </div>
 </section>
 
-<section class="cta"><div class="wrap"><h2>Not sure which course fits?</h2><p>Tell us where you are and where you want to go — we'll point you to the right pour.</p><a href="contact.html" class="btn btn-amber">Get a recommendation</a></div></section>
+<section class="cta"><div class="wrap"><h2>Not sure which course fits?</h2><p>Tell us where you are and where you want to go, we'll point you to the right pour.</p><a href="contact.html#enroll" class="btn btn-amber" data-cta="get-a-recommendation">Get a recommendation</a></div></section>
 
 </main>
 
@@ -118,7 +122,7 @@
   <div class="wrap foot-grid">
     <div class="foot-brand">
       <a href="index.html" aria-label="Craft Beer School home"><img src="assets/footer-logo.png" alt="Craft Beer School" class="foot-logo" width="113" height="126" /></a>
-      <p>India's trusted online and in-person beer school. Grain to glass and beyond — brewing, tasting, branding and the business of beer.</p>
+      <p>India's trusted online and in-person beer school. Grain to glass and beyond, brewing, tasting, branding and the business of beer.</p>
     </div>
     <div><h4>Learn</h4><ul>
       <li><a href="courses.html">Courses</a></li>
@@ -130,12 +134,13 @@
       <li><a href="about.html">About us</a></li>
       <li><a href="careers.html">Careers &amp; Mentors</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="contact.html">Enroll</a></li>
+      <li><a href="contact.html#enroll" data-cta="footer-enroll">Enroll</a></li>
     </ul></div>
     <div><h4>Contact</h4><ul>
+      <li><a href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%27d%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener" data-cta="footer-whatsapp">WhatsApp us</a></li>
       <li><a href="tel:+919820925347">+91 98209 25347</a></li>
       <li><a href="tel:+919082256507">+91 90822 56507</a></li>
-      <li><a href="mailto:chatty@cheerschattyventures.com">chatty@cheers…</a></li>
+      <li><a href="mailto:chatty@cheerschattyventures.com" data-cta="footer-email">chatty@cheerschattyventures.com</a></li>
       <li><a href="privacy.html">Privacy</a> · <a href="refund.html">Refunds</a></li>
     </ul></div>
   </div>
@@ -151,19 +156,49 @@ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.targ
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
 const FORMSPREE_ID="YOUR_FORM_ID";
+const ENQUIRY_EMAIL="chatty@cheerschattyventures.com";
+
+// Pre-select the course when arriving from a course card: contact.html?course=...
+const wanted=new URLSearchParams(location.search).get('course');
+if(wanted){
+  const sel=document.querySelector('select[name=course]');
+  if(sel){
+    const hit=[...sel.options].find(o=>o.value===wanted||o.textContent.trim()===wanted);
+    if(hit){sel.value=hit.value||hit.textContent;sel.dispatchEvent(new Event('change'));}
+  }
+}
+
+// Every CTA is measurable the moment an analytics tag is added. No-op without one.
+document.addEventListener('click',e=>{
+  const a=e.target.closest('[data-cta]');
+  if(a)(window.dataLayer=window.dataLayer||[]).push({event:'cta_click',cta:a.dataset.cta,href:a.getAttribute('href')||''});
+});
+
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
   function show(t,ok){if(!msg)return;msg.textContent=t;msg.style.color=ok?'#2f7a46':'#c1701a';msg.style.display='block';}
+  // No endpoint configured yet: hand the enquiry to the user's mail app rather
+  // than dead-ending them. Losing a lead beats no lead.
+  function mailtoFallback(){
+    const d=new FormData(form);
+    const subject=d.get('_subject')||'Craft Beer School enquiry';
+    const body=[...d.entries()]
+      .filter(([k,v])=>!k.startsWith('_')&&k!=='_gotcha'&&String(v).trim())
+      .map(([k,v])=>k.replace(/^./,c=>c.toUpperCase())+': '+v).join('\n');
+    location.href='mailto:'+ENQUIRY_EMAIL+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+    show("Opening your email app. If nothing happens, write to "+ENQUIRY_EMAIL+" or tap WhatsApp above.",true);
+  }
   form.addEventListener('submit',async e=>{
     e.preventDefault();
-    if(FORMSPREE_ID==="YOUR_FORM_ID"){show("Form not configured yet — add your Formspree ID in build.py.",false);return;}
+    if(!form.reportValidity())return;
+    if(FORMSPREE_ID==="YOUR_FORM_ID"){mailtoFallback();return;}
     const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
     try{
       const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
       if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);}
-      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email chatty@cheerschattyventures.com.",false);}
-    }catch(_){show("Network error — please email chatty@cheerschattyventures.com.",false);}
+      else{const d=await r.json().catch(()=>({}));show((d.errors?d.errors.map(x=>x.message).join(', '):'Something went wrong.')+" Email "+ENQUIRY_EMAIL+".",false);}
+    }catch(_){mailtoFallback();}
     finally{btn.disabled=false;btn.textContent=orig;}
   });
 });
