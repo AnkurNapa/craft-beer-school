@@ -1,0 +1,71 @@
+{
+ "slug": "dry-hopping-guide",
+ "cat": "Ingredients",
+ "h1": "Dry hopping: timing, dose and contact",
+ "title": "Dry Hopping: Timing, Dose and Contact | Craft Beer School",
+ "desc": "How dry hop timing, dose and contact time change aroma, and why hop creep and biotransformation matter on the cold side.",
+ "teaser": "Dry hopping is where a lot of hop budget gets wasted. Get the timing and dose wrong and you pay for aroma that never shows up in the glass.",
+ "standfirst": "Dry hopping adds aroma without adding bitterness, but only if the yeast, the timing and the contact time are right. Here is what actually moves the needle on the brewhouse floor.",
+ "read": "3 min",
+ "updated": "2024-08-26",
+ "updated_label": "August 2024",
+ "sections": [
+  [
+   "What dry hopping changes and what it does not",
+   "<p>Hops added after the boil do not isomerise. There is no heat to convert alpha acids into bitterness, so a dry hop addition is pure aroma and flavour extraction: essential oils dissolving into beer that is already at fermentation or packaging temperature.</p><p>This is also why dry hopping cannot fix a beer that is bitter in the wrong place, or thin on malt body. It only adds a layer of aroma on top of whatever is already there.</p>"
+  ],
+  [
+   "Biotransformation: hopping into active yeast",
+   "<p>Add hops while yeast is still working and the yeast enzymes convert some hop compounds into new aroma molecules, often fruitier and rounder than the raw hop oil itself. This is why many hazy IPA brewers hop during high krausen rather than waiting for fermentation to finish.</p><p>The trade-off is contact with actively respiring yeast, which can strip some volatile aroma as CO2 scrubs through the tank. Brewers balance this with a second, cold-side addition after fermentation is done.</p>"
+  ],
+  [
+   "Hop creep and why it matters more than people think",
+   "<p>Dry hop pellets carry starch and enzyme residue from the hop itself. Added to a beer that has already reached its expected final gravity, these enzymes can convert unfermented dextrins into fermentable sugar, restarting fermentation days after you thought the beer was finished.</p><p>The gravity keeps dropping, a little more alcohol appears, and if the beer has already been packaged and carbonated, that extra CO2 has nowhere to go. Over pressurised cans and bottle gushers are the usual result. Check final gravity again a few days after a large dry hop addition before you package.</p>"
+  ],
+  [
+   "Dose: how much is too much",
+   "<p>A restrained pale ale sits around 0.5 to 1 gram per litre. A hazy IPA chasing a big, juicy nose can run 3 to 5 grams per litre or more, often split across two or three additions rather than dumped in once.</p><p>Past a certain point, more hops stop adding aroma and start adding grassy, vegetal, chlorophyll character, along with hop matter that eats into your yield. There is a ceiling, and most homebrewers find it by accident the first time they over-hop a batch.</p>"
+  ],
+  [
+   "Contact time",
+   "<p>Two to four days is the usual window. Longer contact does not necessarily mean more aroma. Past four or five days you start pulling grassy and tannic notes from the plant material itself, and in a beer that already has haze-forming protein, prolonged contact can add unwanted bitterness from hop tannins reacting with the beer.</p><p>Pull the hops (or rack off them) once the aroma you want is there, not on a fixed schedule copied from a recipe with different hops and a different tank.</p>"
+  ],
+  [
+   "What this looks like on a real brewhouse floor",
+   "<p>In a small Indian craft brewery running open fermenters without a hop cannon, dry hops usually go in by hand through the manway, which means every addition is an infection risk if the room is not clean and the crew is not fast. A rushed addition on a humid Mumbai afternoon, lid open longer than it should be, is a more common source of off flavours than the hop choice itself.</p><p>Good process beats a better hop variety almost every time. See our guide on <a href=\"brewing-water-basics.html\">brewing water basics</a> for the other half of aroma and flavour balance, and <a href=\"hop-extracts-and-cryo-hops.html\">hop extracts and cryo hops</a> if pellet volume and oxygen pickup are the problem you are actually trying to solve.</p>"
+  ],
+  [
+   "Double dry hopping and packaging oxygen",
+   "<p>Double dry hopping, a smaller addition during fermentation followed by a second, larger one closer to packaging, is now standard for a lot of hazy IPA production, giving both biotransformation character and fresh, unscrubbed aroma from the second charge. Each opening of the tank to add hops is also a chance to pick up oxygen, so a proper dry hop addition uses a sealed hop cannon or a purged, closed transfer rather than an open manway wherever the equipment allows it.</p><p>Oxygen picked up at this stage does not show up immediately. It shows up two or three weeks later as a beer that has lost its hop punch and started to taste dull, which is often blamed on the hops rather than the handling.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does dry hopping add bitterness?",
+   "No, in any meaningful amount. There is no heat to isomerise alpha acids, so dry hopping is almost entirely an aroma and flavour addition."
+  ],
+  [
+   "Why did my dry hopped beer keep fermenting after I thought it was done?",
+   "This is hop creep. Enzymes carried in the hop material convert leftover dextrins into fermentable sugar. Check gravity again a few days after a heavy dry hop addition before you package."
+  ],
+  [
+   "Should I dry hop during fermentation or after?",
+   "Both are used. During active fermentation gives biotransformation and fruitier aroma but some loss to CO2 scrubbing. After fermentation preserves more of the raw hop aroma. Many brewers do both, in smaller additions."
+  ],
+  [
+   "How long should hops stay in contact with the beer?",
+   "Two to four days is typical. Longer contact risks grassy, vegetal or tannic character rather than more aroma."
+  ]
+ ],
+ "cta": {
+  "title": "Solve hop creep and inconsistent aroma for good",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers hop chemistry, biotransformation, water treatment and fermentation control as one connected system, not isolated tricks.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "hop-extracts-and-cryo-hops",
+  "brewing-water-basics",
+  "hop-storage-and-freshness"
+ ]
+}

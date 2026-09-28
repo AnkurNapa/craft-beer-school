@@ -1,0 +1,67 @@
+{
+ "slug": "keeping-a-brew-log",
+ "cat": "Brewing basics",
+ "h1": "Keeping a brew log that actually helps",
+ "title": "Keeping a brew log | Craft Beer School",
+ "desc": "What to record on brew day, and why a consistent log turns single batches into patterns you can learn from.",
+ "teaser": "Memory is a poor substitute for a written record when you are trying to work out why one batch was better than the last.",
+ "standfirst": "A brew log is not paperwork for its own sake. It is the only way to turn a string of separate brew days into a pattern you can actually learn from.",
+ "read": "3 min",
+ "updated": "2025-10-28",
+ "updated_label": "October 2025",
+ "sections": [
+  [
+   "Why memory fails you here",
+   "<p>Brewing produces a result two to six weeks after the decisions that caused it. By the time you taste a finished beer, the details of brew day, exactly what temperature the mash held, how long the boil ran, when you pitched relative to chilling, have usually blurred. A log closes that gap. It does not need to be elaborate, but it needs to exist, and it needs to be written down on the day, not reconstructed from memory a week later.</p>"
+  ],
+  [
+   "What to record and why each field matters",
+   "<p>Record your strike water volume and temperature, actual mash temperature (not just the target), mash and boil times, measured OG, yeast strain and pitch amount, fermentation temperature over the first 72 hours, and final gravity at packaging. Each of these connects directly to a result you can taste: mash temperature to body and fermentability, pitch rate and fermentation temperature to off flavours like the ones covered in our <a href=\"beer-off-flavours.html\">beer off flavours guide</a>, and OG against FG to the actual ABV you achieved versus the one you planned.</p>"
+  ],
+  [
+   "The measurement that most homebrewers skip",
+   "<p>Actual mash pH, checked with a calibrated meter or strips against the working range of 5.2 to 5.6, is the field most home brewers leave blank and most professional brewers never skip. A mash sitting outside that range affects enzyme activity, extraction and the astringency of the finished beer, and it is one of the few numbers that a simple recipe calculator cannot estimate reliably from your grain bill alone, because it depends on your specific water.</p>"
+  ],
+  [
+   "Turning entries into patterns",
+   "<p>A single log entry tells you what happened once. Ten log entries, laid side by side, tell you what happens when you change one variable, pitch rate, mash temperature, a different yeast strain, while everything else stays constant. This is how you find out that your fermentation fridge runs 2 degrees warmer than its dial claims, or that your actual mash efficiency is consistently 68 percent rather than the 75 percent your <a href=\"brewing-software-and-calculators.html\">brewing software</a> assumed by default.</p>"
+  ],
+  [
+   "A format that survives being used",
+   "<p>The best log format is whichever one you will actually fill in standing next to a hot kettle: a laminated card and a grease pencil, a phone notes app, or the batch log inside your brewing software. Elaborate spreadsheets with forty fields tend to get abandoned after the third batch. A short, consistent set of ten to twelve fields, filled in every single time, beats a comprehensive template used twice.</p>"
+  ],
+  [
+   "What a log is worth once you have a year of them",
+   "<p>After a year of consistent entries you will know your true mash efficiency, your fermentation fridge's real temperature offset, and which yeast strains behave the way the manufacturer's data sheet claims for your specific process. That is the kind of working knowledge that separates a brewer who repeats good results on purpose from one who occasionally gets lucky, and it becomes especially valuable once you are <a href=\"brewing-in-a-small-indian-apartment.html\">brewing in a small space</a> where every variable is harder to control and worth tracking precisely.</p>"
+  ],
+  [
+   "A sample week one entry, and why the detail matters",
+   "<p>A useful entry looks something like this: strike water 18 litres at 72 degrees Celsius, mash stabilised at 66 degrees for 60 minutes, sparge collected 24 litres, boil 60 minutes, OG measured 1.052 (corrected for a wort temperature of 24 degrees), pitched 11.5 grams of dry ale yeast at 20 degrees, fermentation held between 19 and 21 degrees for the first four days, FG measured 1.011 at day fourteen. Every one of those numbers is checkable against the next batch. If the next batch's OG comes in low despite an identical grain bill, the log immediately narrows the search to milling, mash temperature or sparge technique rather than leaving you guessing across the whole process.</p><p>The habit that makes this work is writing the entry during the brew day itself, not from memory afterwards. A number written down while the mash is resting is accurate. The same number recalled two hours later, after cleanup and a tired walk to the fridge, usually is not.</p><p>It is also worth logging the small operational details that seem trivial at the time: which burner setting held a steady boil, how long the chiller actually took, what the ambient kitchen temperature was. None of these feel important on the day, but they are often exactly what explains why one batch behaved differently from the next.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the single most important thing to log?",
+   "Actual mash temperature and pitch rate. Between them they explain most of the variation between an average batch and a very good one."
+  ],
+  [
+   "Do I need a pH meter to keep a useful log?",
+   "No, but it helps. Cheap pH strips are good enough to flag a mash well outside the 5.2 to 5.6 working range, which is the main thing you are checking for."
+  ],
+  [
+   "How long before a brew log actually helps me?",
+   "Patterns usually start showing after four to six batches logged consistently, and become genuinely reliable after a year covering different seasons and yeast strains."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to turn your logs into consistently better beer?",
+  "body": "A log tells you what happened. It takes more structured teaching to know what to do differently next time. Brewing Fundamentals runs 4 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-in-a-small-indian-apartment",
+  "how-beer-is-made-step-by-step",
+  "brewing-software-and-calculators"
+ ]
+}

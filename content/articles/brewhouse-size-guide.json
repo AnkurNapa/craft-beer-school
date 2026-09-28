@@ -1,0 +1,71 @@
+{
+ "slug": "brewhouse-size-guide",
+ "cat": "Business",
+ "h1": "Choosing your brewhouse size",
+ "title": "Choosing Your Brewhouse Size | Craft Beer School",
+ "desc": "How to size a brewhouse against your actual sales plan rather than ambition, and why the wrong size quietly punishes a business for years.",
+ "teaser": "A brewhouse too small chokes your growth. A brewhouse too big drains cash every month it sits under used. Both mistakes look identical for the first year.",
+ "standfirst": "Brewhouse size is one of the few early decisions in a brewery build that is genuinely difficult to undo later. Getting the sizing logic right matters more than getting the biggest tanks you can afford.",
+ "read": "3 min",
+ "updated": "2022-11-18",
+ "updated_label": "November 2022",
+ "sections": [
+  [
+   "Why this decision is hard to reverse",
+   "<p>Once a brewhouse and its fermenters are installed, plumbed and licensed, changing the batch size usually means a significant new capital outlay and, in many states, a fresh round of licence amendments. This is very different from a staffing or menu decision, which can be adjusted within weeks if it is wrong.</p><p>That is exactly why it deserves more scrutiny than most founders give it in the excitement of planning a new brewery.</p>"
+  ],
+  [
+   "Start from realistic sales, not capacity ambition",
+   "<p>Work backwards from a conservative estimate of weekly beer sales in your first year, based on comparable venues in your city and your own seating or distribution capacity, not on how much beer you hope to eventually sell once the brand is established. It is far cheaper to add a fermenter later than to have expensive tanks sitting mostly empty from day one.</p><p>A brewhouse sized for year three ambitions, running at a fraction of capacity in year one, is a common and avoidable drag on early cash flow.</p>"
+  ],
+  [
+   "Batch size versus fermenter count",
+   "<p>Two breweries with the same total annual output can look very different depending on whether that comes from a large batch size brewed less often, or a smaller batch size brewed more frequently across more fermenters. More, smaller fermenters give you more flexibility to run different beers in parallel, while a single larger batch size can be more efficient per litre for a brewery focused on one or two flagship beers.</p><p>Neither approach is universally better. It depends on how much variety your business model actually needs.</p><p>Cycle time matters as much as vessel volume. A brewhouse that can only complete one brew day before needing a thorough clean limits how many batches you can realistically run in a week, regardless of how large the kettle is. A smaller, faster brewhouse run twice in a day can sometimes out produce a bigger one run only every other day.</p>"
+  ],
+  [
+   "Match cellar capacity to brewhouse capacity",
+   "<p>A brewhouse is only half of throughput. If fermentation and cold conditioning capacity do not scale alongside it, the bottleneck simply moves downstream. A large brewhouse feeding too few fermenters forces you to either brew less often than the kit allows or push beer out of conditioning before it is ready, which shows up as inconsistency in the glass rather than as a line item on a budget.</p><p>As a rule of thumb, plan cellar space, fermenters plus bright tanks plus any cold storage, ahead of the brewhouse itself. A brewhouse decision is comparatively easy to phase in later, but a cramped cellar is hard to expand once the building is fitted out.</p>"
+  ],
+  [
+   "How this decision interacts with your business model",
+   "<p>A brewpub with limited on premise sales generally needs less total capacity than a microbrewery planning wider distribution, a distinction covered in our guide to <a href=\"brewpub-vs-microbrewery.html\">brewpub or microbrewery</a>. Similarly, a founder considering <a href=\"contract-brewing-india.html\">contract brewing</a> or <a href=\"gypsy-brewing-explained.html\">gypsy brewing</a> to test demand first can delay this whole decision until real sales data exists, rather than sizing a brewhouse around a guess.</p>"
+  ],
+  [
+   "Room to grow without over-committing",
+   "<p>Some founders deliberately plan the physical space, plumbing and electrical capacity for a larger brewhouse than they initially install, adding fermenters later as demand justifies it. This spreads capital spend over time while avoiding a costly full rebuild if the smart early move turns out to be too conservative.</p><p>Ask your equipment supplier specifically about this kind of phased approach before committing to a single fixed configuration.</p>"
+  ],
+  [
+   "Getting real numbers before you decide",
+   "<p>Talk to more than one equipment supplier about how cost scales across a range of batch sizes, since the relationship is rarely a straight line and small increases in capacity sometimes come at a disproportionately higher cost. Feed this into the wider budget covered in our guide to <a href=\"microbrewery-cost-india.html\">what a microbrewery costs in India</a> before finalising anything.</p><p>Brewhouse size also drives the size of everything feeding it: boiler or steam capacity, glycol chilling for fermentation, water supply and effluent treatment. A bigger brewhouse without matching utility capacity will simply run slower than its rated size, brew days stretching out because the kettle cannot reach a boil or the chiller cannot pull fermenters down fast enough. Ask your supplier to size utilities against your intended brewing schedule, not just the vessel volumes.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is a bigger brewhouse always a safer long term choice?",
+   "No. Oversizing ties up capital in equipment sitting idle and can increase running costs without matching revenue. Right sizing against realistic near term sales is generally the safer approach."
+  ],
+  [
+   "Can I add fermenters to an existing brewhouse later?",
+   "Often yes, particularly if the space, plumbing and electrical capacity were planned with future expansion in mind from the start."
+  ],
+  [
+   "Does brewhouse size affect my licence category?",
+   "In some states, production caps tied to licence category can be affected by installed capacity. Confirm this with your state's excise department before finalising equipment size."
+  ],
+  [
+   "How do I estimate realistic year one sales for sizing purposes?",
+   "Look at comparable venues in your city, your own likely seating or distribution reach, and be conservative rather than optimistic, since it is easier to expand later than to undo an oversized initial build."
+  ]
+ ],
+ "cta": {
+  "title": "Size this decision properly before you buy equipment",
+  "body": "Brewery Business Management runs as live weekend classes, Saturday and Sunday, with a maximum of 20 students a batch, weekly assignments and a certificate on completion.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "cost-per-litre-beer",
+  "beer-pricing-strategy",
+  "microbrewery-cost-india"
+ ]
+}

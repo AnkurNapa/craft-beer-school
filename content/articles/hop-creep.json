@@ -1,0 +1,63 @@
+{
+ "slug": "hop-creep",
+ "cat": "Brewing science",
+ "h1": "Hop creep and how to manage it",
+ "title": "Hop Creep and How to Manage It | Craft Beer School",
+ "desc": "Why dry hopping can restart fermentation, how hop creep leads to gushers, and how to dry hop without the risk.",
+ "teaser": "Dry hops bring more than aroma to the fermenter. They carry enzymes that can quietly restart fermentation after you thought it was finished.",
+ "standfirst": "Hop creep is a real fermentation risk hiding inside an aroma technique, and it catches out breweries that treat dry hopping as a purely aromatic step.",
+ "read": "3 min",
+ "updated": "2025-06-04",
+ "updated_label": "June 2025",
+ "sections": [
+  [
+   "What hop creep actually is",
+   "<p>Hop material carries diastatic enzymes on its surface, left over from the hop plant's own biology, that can continue converting residual dextrins in beer into fermentable sugars during dry hopping. If enough of that new sugar ferments after the beer has already been measured, packaged or carbonated to a target, the result is over-carbonation, gushing, or bottle and can failures.</p><p>The specific enzymes responsible, largely amylase-type activity carried on hop material, work at a wide range of temperatures, which is why cold dry hopping slows but does not eliminate the risk discussed elsewhere in this guide. Even a near-freezing dry hop over an extended period can allow measurable creep to occur.</p>"
+  ],
+  [
+   "Why it hits hazy and heavily dry hopped beers hardest",
+   "<p>Styles that dry hop at high rates, particularly hazy and juicy IPAs, carry the most hop surface area and enzyme load into the beer, and they are often packaged relatively soon after dry hopping without much buffer time. The combination of high dry hop rates, residual dextrins from a less attenuative yeast strain, and a tight production schedule makes hop creep far more likely in these styles than in a clean, highly attenuated lager.</p><p>Yeast attenuation of the base beer before dry hopping sets how much residual dextrin is available for hop enzymes to act on in the first place. A highly attenuated beer with little residual sugar has much less material available for creep than one finished with a less attenuative yeast strain or a mash designed for extra body and sweetness, which is common in many hazy IPA recipes.</p>"
+  ],
+  [
+   "How it is different from a stuck or incomplete fermentation",
+   "<p>Hop creep is not a sign that fermentation failed the first time, it is new fermentation activity introduced after the fact, from enzymes the hops brought with them rather than from the original yeast pitch. A beer can read as fully finished and stable before dry hopping and still creep afterwards.</p><p>Some breweries manage the risk by using hop products specifically processed to reduce enzyme activity, or by adding a small amount of a stabilising enzyme inhibitor, though the simplest and most widely used safeguard remains a straightforward gravity check before packaging rather than relying on a hop product claim alone. See <a href=\"pasteurisation-units.html\">pasteurisation units</a> for a further safeguard some breweries add on top of gravity monitoring for extra confidence in package stability.</p>"
+  ],
+  [
+   "Managing the risk before packaging",
+   "<p>Dry hop after primary fermentation and any needed diacetyl cleanup are genuinely complete, rather than dry hopping into active fermentation where the extra sugar simply blends in unnoticed. Hold the beer for a few days after dry hopping and recheck gravity before packaging, since a still-dropping reading is the clearest sign that creep is underway. Cold temperature during the dry hop slows enzyme activity somewhat, though it does not eliminate it.</p><p>Packaging line scheduling matters as much as brewery-side process. A beer that tested stable a week before packaging can still creep further if the actual packaging date slips and the beer sits longer than planned with hop material still in contact, which argues for a final gravity check as close to the actual fill date as practical rather than trusting an earlier reading.</p>"
+  ],
+  [
+   "What to do if it has already happened",
+   "<p>If gravity is still falling shortly before a planned packaging date, delay until it stabilises, and consider a short cold crash to slow things further while you confirm. Beer that has already been packaged and shows signs of gusher-level over-carbonation is difficult to fix after the fact, which makes the pre-packaging gravity check the real safeguard rather than any correction afterwards.</p><p>Documentation across a hop supplier relationship can help too. Some hop merchants now test and report relative enzyme activity across lots, and a brewery working consistently with high dry hop rates may find it worthwhile asking suppliers directly rather than discovering the difference only after a batch of gushers reaches a customer.</p><p>Field reports of gushers are a useful, if unwelcome, feedback loop. Tracking which batches, hop varieties and dry hop schedules produced field complaints over time helps a brewery build its own risk profile rather than relying purely on general industry guidance that may not match its specific yeast strain and process.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What causes hop creep?",
+   "Diastatic enzymes present on hop material convert residual dextrins in beer to fermentable sugar during dry hopping, restarting a small amount of fermentation after the beer seemed finished."
+  ],
+  [
+   "Which styles are most at risk?",
+   "Hazy and juicy IPAs with high dry hop rates and moderately attenuated yeast strains are the most common examples, since they combine high enzyme load with substantial residual dextrin."
+  ],
+  [
+   "Does cold dry hopping prevent hop creep?",
+   "It slows enzyme activity but does not stop it entirely. A gravity check before packaging is still the more reliable safeguard."
+  ],
+  [
+   "How do I know if hop creep has happened before packaging?",
+   "A gravity reading that keeps dropping in the days after dry hopping, rather than holding steady, is the clearest sign that fermentation has restarted."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to schedule dry hopping and pre-packaging checks to catch hop creep before it becomes a gusher in the field. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "oxygen-pickup-in-packaging",
+  "beer-shelf-life",
+  "beer-haze-causes"
+ ]
+}

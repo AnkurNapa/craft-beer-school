@@ -1,0 +1,59 @@
+{
+ "slug": "how-to-chill-wort-fast",
+ "cat": "Brewing basics",
+ "h1": "How to chill wort fast, and why it matters",
+ "title": "How to Chill Wort Fast | Craft Beer School",
+ "desc": "Why the speed of cooling after the boil matters as much as the boil itself, and three practical ways to do it.",
+ "teaser": "The hour after the boil ends is a genuine risk window. Getting through it fast protects flavour and keeps unwanted microbes out.",
+ "standfirst": "A pot of hot wort sitting on the stove cooling by itself is not harmless downtime, it is an open invitation to airborne bacteria, wild yeast and re-forming off flavours. Chilling it fast closes that window.",
+ "read": "3 min",
+ "updated": "2024-04-11",
+ "updated_label": "April 2024",
+ "sections": [
+  [
+   "Why speed matters, not just eventual temperature",
+   "<p>The boil sterilises your wort, but that protection ends the moment it drops below boiling. Every extra minute spent between roughly 60 &#176;C and pitching temperature gives airborne bacteria and wild yeast more opportunity to settle in before your cultivated yeast gets a chance to establish itself. Slow cooling also allows some DMS, driven off during the boil, to re-form as the wort passes back through the temperature range where its precursor converts, covered in <a href=\"what-happens-during-the-boil.html\">what actually happens during the boil</a>.</p><p>A properly chilled wort also looks visibly different from a poorly chilled one: rapid cooling causes a second, cold break of fine protein particles to drop out, similar in principle to the hot break during the boil, and skipping fast cooling means more of that haze-forming material carries through into the fermenter.</p><p>Plan the chilling step before brew day even starts, not after the boil ends, since scrambling to find ice or set up a chiller while hot wort sits waiting defeats much of the purpose of chilling quickly in the first place.</p>"
+  ],
+  [
+   "The ice bath method",
+   "<p>Submerging the covered kettle in a sink or tub of ice and cold water, changing the water as it warms, is the cheapest method and works well for smaller batches. It typically takes 30 to 45 minutes to reach pitching temperature, longer in Indian summer heat when ambient and tap water both start warm, which is worth planning around rather than being surprised by.</p><p>Stirring the wort gently while it sits in the ice bath speeds cooling considerably, since it constantly brings warmer wort from the centre of the pot into contact with the cold kettle wall rather than relying on slow convection alone. A sanitised spoon or a whirlpool created by stirring in one direction works well for this.</p><p>A large sink or a plastic tub dedicated to brewing, rather than the kitchen sink used for everything else, keeps the ice bath method from turning brew day into a competition for space with the rest of the household, which is a small practical detail that matters more than it sounds once you are doing this regularly.</p>"
+  ],
+  [
+   "Immersion and counterflow chillers",
+   "<p>An immersion chiller, a coil of copper or stainless tubing run through the hot wort with cold water flowing through it, cools a full batch in 15 to 20 minutes in most conditions. A counterflow chiller, where wort and cold water run past each other through concentric tubes as the wort is transferred out of the kettle, is faster still and is the standard choice once brewers are running regular batch sizes.</p><p>Whichever chiller you use, running the coldest water available through it, ideally straight from a tap rather than a warm storage tank that has been sitting in the sun, makes a noticeable difference to how quickly the wort drops in temperature, particularly in the hotter months.</p>"
+  ],
+  [
+   "Sanitation does not stop at the chiller",
+   "<p>Anything that touches the wort below boiling temperature, including the outside surface of an immersion chiller lowered into the pot, needs to be sanitised beforehand. A chiller wiped down but not properly sanitised can undo the entire point of cooling quickly, introducing exactly the contamination the speed was meant to prevent.</p><p>A chiller coil left coiled and stored damp between brew days can develop mould or mineral scale on the outside surface, both of which are worth cleaning off with a brush before the next use, well before the sanitising step happens right before it goes into the pot.</p>"
+  ],
+  [
+   "Getting to the right pitching temperature",
+   "<p>Most ale yeast wants to be pitched somewhere around 18 to 22 &#176;C, and lager yeast considerably colder, so chilling fast is only half the job: chilling to the correct target matters just as much. Pitching yeast into wort that is still too warm stresses it and produces more fermentation by-products than usual, which we cover in <a href=\"pitching-yeast-properly.html\">pitching yeast properly</a>.</p><p>Checking wort temperature with a sanitised or freshly cleaned thermometer immediately before pitching, rather than relying on how long the chiller has been running, catches the occasional batch that has cooled faster or slower than expected due to unusually cold or warm tap water on the day.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is tap water in India cold enough for an ice bath chill?",
+   "Often not on its own during the hotter months, since municipal or borewell water can already run warm. Adding ice to the bath water, or pre-freezing bottles of water to drop in, makes up the difference."
+  ],
+  [
+   "Can I just leave the wort overnight to cool naturally?",
+   "This is not recommended. Slow, unprotected cooling gives contamination and DMS re-formation far more time to act, and it is one of the more common causes of an off-tasting first batch."
+  ],
+  [
+   "Do I need an immersion chiller for a first batch?",
+   "No. An ice bath is a perfectly workable method for smaller batches while you are starting out, and a chiller is a sensible upgrade once you are brewing regularly enough to want faster turnaround."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "pitching-yeast-properly",
+  "fermentation-temperature-control-at-home",
+  "what-happens-during-the-boil"
+ ]
+}

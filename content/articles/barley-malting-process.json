@@ -1,0 +1,67 @@
+{
+ "slug": "barley-malting-process",
+ "cat": "Ingredients",
+ "h1": "How barley becomes malt",
+ "title": "How barley becomes malt | Craft Beer School",
+ "desc": "How raw barley becomes malt through steeping, germination and kilning, and why modification matters most.",
+ "teaser": "Malting is farming raw barley into something the mash tun can actually work with, three stages, about a week, and one precise moment that decides the whole batch.",
+ "standfirst": "Before barley reaches a brewery it has already been steeped, germinated and kilned into malt. Understanding that process explains why base malts behave so differently from one another on the mash floor.",
+ "read": "3 min",
+ "updated": "2021-10-13",
+ "updated_label": "October 2021",
+ "sections": [
+  [
+   "Steeping: waking the grain up",
+   "<p>Malting starts with raw barley soaked in water, in alternating wet and dry cycles, over one to two days, until moisture content reaches roughly 42 to 46 percent. This tells the dormant grain that conditions are right to germinate, and it is the first point where a maltster can under or overshoot: too little moisture and germination is patchy, too much and the grain suffocates.</p>"
+  ],
+  [
+   "Germination: growing the enzymes you need",
+   "<p>Over the next four to six days the grain is spread out and kept cool and moist while it begins to sprout. This is where the enzymes brewers depend on, mainly alpha and beta amylase, develop inside the grain, along with a breakdown of the hard cell walls (modification) that will let a mash tun extract sugar efficiently later. The maltster halts germination just as the rootlet reaches most of the length of the kernel, judged by friability, how easily a dried kernel crumbles between the fingers, since letting it run longer wastes the grain's own starch reserves on growth rather than leaving them for the brewer.</p>"
+  ],
+  [
+   "Kilning: locking in the result and building colour",
+   "<p>The green malt, still around 45 percent moisture, is dried in a kiln, first at a lower temperature to bring moisture down without damaging the enzymes, then at a higher finishing temperature that develops colour and flavour through Maillard reactions. A base malt is kilned gently, around 80 to 85 degrees Celsius at the finish, to preserve as much enzyme activity as possible. Push the finishing temperature higher and you start moving toward the darker, lower enzyme malts covered in our guides on <a href=\"crystal-and-caramel-malts.html\">crystal and caramel malts</a> and <a href=\"roasted-malts-guide.html\">roasted malts</a>.</p>"
+  ],
+  [
+   "Why modification is the number that matters most",
+   "<p>A well modified malt has broken down enough of its internal cell structure that a simple single infusion mash can extract its starch efficiently. Under modified malt, more common in some older or specialty malts, needs a step mash with a rest at a lower protein-rest temperature to finish the job the maltster left incomplete. Reading a malt's modification level, when a supplier states it, tells you whether your usual mash schedule will actually work with it.</p>"
+  ],
+  [
+   "From maltster to brewery",
+   "<p>Finished malt is screened to remove rootlets (sold on as cattle feed) and stored, typically for several weeks, before it is stable enough to mill and mash. Almost every base malt used in Indian craft breweries, whether imported or from a domestic maltster, goes through this same three stage process, differing mainly in barley variety and kilning temperature, which is exactly what separates a Pilsner malt from a Munich malt, covered in our guide to <a href=\"base-malts-explained.html\">base malts</a>.</p>"
+  ],
+  [
+   "Two-row versus six-row barley",
+   "<p>Two-row barley, the variety most European and craft brewing malt is made from, produces plumper kernels with a higher extract potential and lower protein content than six-row barley, which is more common in parts of North America and better suited to grists carrying a large proportion of adjuncts, since its higher enzyme content helps convert the adjunct's starch as well as its own. Most malt used in Indian craft brewing, whether imported or from domestic maltsters, is two-row, chosen for its cleaner, more efficient conversion in a simple single infusion mash.</p>"
+  ],
+  [
+   "What can go wrong at each stage",
+   "<p>Uneven steeping produces patchy germination, leaving some kernels under modified and others over modified in the same batch, which shows up later as inconsistent mash efficiency. Germination run too long wastes starch reserves on root growth the brewer never sees a benefit from. Kilning too aggressively, or too fast, can scorch the malt or destroy more enzyme activity than intended, turning what was meant to be a base malt into something closer to a mild specialty malt. None of these faults are usually visible by eye, which is why reputable maltsters test and publish specifications, diastatic power, moisture, protein, colour, for every batch they release.</p><p>Domestic Indian malting capacity has grown alongside the craft beer scene, though many breweries still blend imported and domestically malted barley depending on style and availability. Whichever source, checking a malt analysis certificate for diastatic power and moisture before committing to a large purchase is worth the small effort, the same discipline covered in our guide to <a href=\"base-malts-explained.html\">base malts</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does malted barley behave differently from raw barley in a mash?",
+   "Malting develops the enzymes (amylases) needed to convert starch to fermentable sugar and breaks down the grain's cell walls, neither of which raw barley has done on its own."
+  ],
+  [
+   "What does friability actually measure?",
+   "How easily a dried malt kernel crumbles, which is a practical proxy for how well modified it is and how well it will perform in a simple single infusion mash."
+  ],
+  [
+   "Does kilning temperature affect enzyme activity?",
+   "Yes. Higher finishing temperatures develop more colour and flavour but destroy more enzyme activity, which is why darker malts contribute little to no diastatic power."
+  ]
+ ],
+ "cta": {
+  "title": "Want the chemistry behind every one of these steps?",
+  "body": "Knowing the three stages is a start. Judging modification and enzyme reserve on the fly takes real practice. Brewing Fundamentals runs 4 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "base-malts-explained",
+  "crystal-and-caramel-malts",
+  "brewing-with-indian-spices"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "running-a-sensory-panel",
+ "cat": "Tasting",
+ "h1": "Running a sensory panel",
+ "title": "Running a Beer Sensory Panel | Craft Beer School",
+ "desc": "How to set up a working sensory panel in a small brewery: who sits on it, how to train them, and how to make the results actually change anything.",
+ "teaser": "A sensory panel that never changes a brewing decision is a ritual, not a quality tool. Here is how to build one that earns its place on the schedule.",
+ "standfirst": "You do not need a laboratory to run a real sensory panel. You need a small trained group, a consistent method, and a process that acts on what they find.",
+ "read": "3 min",
+ "updated": "2026-03-14",
+ "updated_label": "March 2026",
+ "sections": [
+  [
+   "Why a panel beats one person's palate",
+   "<p>Every taster has blind spots. Some people are far more sensitive to diacetyl than the average drinker, others barely notice it at all, and everyone's palate fatigues over the course of a tasting session. A panel of four to six people, tasting the same samples independently, catches faults that any one person alone would miss.</p><p>It also protects the business from a single trained brewer leaving and taking the entire quality function with them. A brewery that depends on one nose for quality control is one resignation letter away from flying blind.</p>"
+  ],
+  [
+   "Choosing your panel",
+   "<p>You do not need professional tasters. You need people willing to taste consistently, describe what they notice in plain words, and show up for the same slot each week. A mix of brewhouse staff and people from outside production, sales or the taproom for instance, actually helps, because production staff can develop blind spots to their own beer over time.</p><p>Screen for basic sensitivity early using a simple test, such as identifying diluted sweet, sour, salty and bitter samples, so you know your panel can reliably tell flavours apart before you ask them to spot faults.</p><p>Consistency of attendance matters more than most breweries expect at first. A panel that changes membership every week never builds the shared vocabulary and shared reference points that make its scores comparable from one session to the next.</p>"
+  ],
+  [
+   "Training on real standards",
+   "<p>The single biggest improvement most panels make is tasting spiked samples: a base beer with a small, known amount of diacetyl, acetaldehyde or another common fault added deliberately. Once a taster has smelled a real, named diacetyl standard, they recognise it in an actual batch far faster than someone working from a written description alone.</p><p>Run this kind of calibration session periodically, not just once at the start, since sensitivity drifts and new panel members need the same grounding as the original group.</p><p>A small brewery does not need commercial flavour standards to do this well. A known dose of diacetyl or a beer left to oxidise on purpose in a marked bottle works as a teaching sample, as long as everyone tastes the same reference and agrees on the same name for it.</p>"
+  ],
+  [
+   "Building a simple, repeatable method",
+   "<p>Taste at the same points every time: after fermentation, after any conditioning, and again after packaging. Use the same vocabulary each session, written down on a simple scoring sheet rather than left to memory, and taste blind wherever practical so panel members are not influenced by knowing which tank produced which sample.</p><p>Keep sessions short. Palate fatigue sets in after five or six samples, and a tired panel produces less reliable data than a fresh one tasting fewer beers.</p><p>Serve samples at a consistent temperature too, ideally in identical glasses, since a colder or warmer pour can mask or exaggerate a fault enough to throw off a panel's scoring without anyone realising why.</p>"
+  ],
+  [
+   "Recording results so they mean something",
+   "<p>A single tasting tells you little. A record kept over months tells you whether a fault is a one-off or a pattern, and whether a fix actually worked. Keep results in one place, batch by batch, so a new diacetyl reading can be compared against the last ten instead of judged in isolation.</p><p>This record is also what turns a quality conversation from an opinion into evidence when you need to justify a process change to the rest of the team. A spreadsheet is a perfectly good tool for this. It does not need to be complicated to be useful, it just needs to be kept up consistently.</p>"
+  ],
+  [
+   "Closing the loop back to production",
+   "<p>A panel that finds the same fault month after month without the brewing schedule changing is an expensive habit rather than a quality system. The result of every tasting session needs an owner and a next step, even if that step is simply confirming a change worked on the next batch.</p><p>This is the difference between tasting beer and actually running quality control, and it is the same discipline that makes <a href=\"fresh-vs-stale-ipa.html\">tracking hop aroma over time</a> useful rather than just interesting.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many people do I need for a working sensory panel?",
+   "Four to six is a practical minimum for a small brewery. Fewer than that and you lose the benefit of averaging out individual blind spots."
+  ],
+  [
+   "Do panel members need a trained or expensive palate?",
+   "No. What matters more is consistency, willingness to taste regularly, and training against real known standards rather than natural talent alone."
+  ],
+  [
+   "How often should a brewery run tastings?",
+   "At minimum, at the key points in every batch: after fermentation, after conditioning and after packaging. Weekly calibration sessions on top of that keep the panel sharp."
+  ],
+  [
+   "What is the most common reason a sensory programme fails?",
+   "Nobody acts on the findings. A panel that flags the same fault repeatedly without a process change behind it stops being worth the time it costs."
+  ]
+ ],
+ "cta": {
+  "title": "Build a sensory programme that holds up",
+  "body": "Our Sensory Evaluation course covers panel design, calibration against reference standards, and scoring systems used in professional breweries, over two weekends of live weekend classes.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "fresh-vs-stale-ipa",
+  "draught-line-cleaning",
+  "metallic-off-flavour"
+ ]
+}

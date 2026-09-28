@@ -1,0 +1,63 @@
+{
+ "slug": "oxygen-pickup-in-packaging",
+ "cat": "Brewing science",
+ "h1": "Oxygen pickup in packaging",
+ "title": "Oxygen Pickup in Packaging | Craft Beer School",
+ "desc": "Where oxygen enters beer during filling, why total package oxygen matters, and how to keep it low in bottles, cans and kegs.",
+ "teaser": "Most oxidation complaints trace back to the last few minutes before the package is sealed, not to anything that happened during fermentation.",
+ "standfirst": "Total package oxygen is one number that predicts shelf life better than almost anything else measured at the end of a production run.",
+ "read": "3 min",
+ "updated": "2025-07-29",
+ "updated_label": "July 2025",
+ "sections": [
+  [
+   "What total package oxygen actually measures",
+   "<p>Total package oxygen, TPO, combines dissolved oxygen already in the beer at the point of filling with oxygen trapped in the package's headspace after sealing. Both contribute to oxidative staling over the beer's shelf life, so a beer with low dissolved oxygen but a large, unpurged headspace can still have a high TPO and stale quickly.</p><p>Filling speed and line design both affect TPO in practice. A filler running faster than its design allows for proper counter-pressure equalisation or CO2 purging tends to pick up more oxygen per unit than the same line run within its intended speed range, which makes production targets and quality targets occasionally pull in opposite directions.</p>"
+  ],
+  [
+   "Where oxygen actually gets in",
+   "<p>Air in the headspace above the beer before a lid or crown goes on is the largest and most controllable source, especially in can filling where a wide-open top holds a lot of headspace air compared with a bottle's neck. Splashing during transfer or filling whips air into the beer directly. Dissolved oxygen already present in the beer, carried over from an earlier process step, and any leakage through a poorly formed seal or seam add further to the total.</p><p>Bottle and can supply quality also plays a role that is easy to overlook. Empty containers stored in a warm, humid environment can carry more residual moisture and dissolved gas variance than freshly delivered stock, and cans in particular benefit from a brief CO2 purge before filling even begins, on top of the purge applied during the fill itself.</p>"
+  ],
+  [
+   "Practical controls at the filler",
+   "<p>Counter-pressure filling, purging the package headspace with CO2 immediately before and after filling, and filling gently rather than letting beer splash all reduce oxygen pickup at the point that matters most. Low-dissolved-oxygen water used for any final dilution avoids reintroducing oxygen that careful upstream handling had already kept out.</p> A brewery without access to a dedicated TPO meter can still track relative trends using a simple dissolved oxygen reading at the bright tank paired with careful headspace estimation, which is far better than no measurement at all.<p>Testing TPO regularly, rather than only when a shelf life complaint arises, catches drift in filling equipment before it becomes a widespread quality issue. A handheld or inline dissolved oxygen and TPO meter is a worthwhile investment for any brewery packaging beyond a very small taproom-only scale.</p>"
+  ],
+  [
+   "Seam and seal integrity",
+   "<p>A can's double seam or a bottle's crown seal is a mechanical barrier against oxygen ingress after packaging, and a poorly formed seam lets oxygen in slowly over the beer's shelf life even if TPO at filling was low. Regular seam checks, whether visual, torn-down inspection or automated measurement, catch a drifting seamer before it quietly undermines every other oxygen control upstream.</p><p>Keg filling has its own oxygen considerations distinct from bottles and cans, since a keg's larger headspace and reusable nature introduce variability from residual air or moisture left in the keg from a previous cleaning cycle. A thorough purge and pressure check before filling matters as much here as careful bottle or can line management does elsewhere.</p>"
+  ],
+  [
+   "Why this matters more than most recipe decisions",
+   "<p>A beer that survived fermentation, <a href=\"cold-crashing.html\">cold crashing</a> and filtration cleanly can still stale fast if packaging undoes that work in the last few seconds before the seal closes. Low TPO is one of the few production metrics that predicts <a href=\"beer-shelf-life.html\">shelf life</a> directly, which is why breweries chasing distribution beyond a taproom treat it as a core quality control number rather than an afterthought.</p><p>Staff training on filler operation deserves as much attention as the equipment itself. A well designed counter-pressure filler run by an operator unfamiliar with its correct settings and warning signs will still pick up more oxygen than the same machine run correctly, which makes operator competency a genuine quality control variable rather than a fixed property of the equipment alone.</p><p>Ultimately, TPO control is a whole-line discipline rather than a single setting, spanning container preparation, the fill itself, and the seal or seam applied immediately afterward, and a weakness at any one of those points can undo careful control everywhere else.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good total package oxygen target?",
+   "Many breweries aim for under 100 to 150 parts per billion, though the achievable number depends heavily on the filling equipment in use."
+  ],
+  [
+   "Does can packaging pick up more oxygen than bottles?",
+   "It can, mainly because cans have a wider opening and more headspace exposed to air before seaming, which makes headspace purging especially important for canning lines."
+  ],
+  [
+   "Can low TPO fix a beer that already oxidised earlier in the process?",
+   "No. TPO only addresses oxygen introduced at packaging. Oxidation from earlier mishandling, such as splashing during transfer, has already happened by that point."
+  ],
+  [
+   "How often should seam integrity be checked?",
+   "Regularly, whether through visual inspection, seam tear-downs or automated measurement, since a seamer can drift out of specification gradually without an obvious sign at the time of filling."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to measure and control total package oxygen properly across bottling, canning and kegging lines. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-shelf-life",
+  "beer-staling-chemistry",
+  "hop-creep"
+ ]
+}

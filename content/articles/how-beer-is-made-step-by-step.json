@@ -1,0 +1,59 @@
+{
+ "slug": "how-beer-is-made-step-by-step",
+ "cat": "Brewing basics",
+ "h1": "How beer is made, step by step",
+ "title": "How Beer Is Made, Step by Step | Craft Beer School",
+ "desc": "The seven stages of brewing, from malted grain to a glass of finished beer, explained in the order they actually happen.",
+ "teaser": "Malt, water, hops and yeast go through five distinct stages before any of it is beer. Here is what happens at each one.",
+ "standfirst": "Every beer, from a supermarket lager to a small-batch saison, passes through the same five stages. Once you can name each one and what it is doing to the liquid, the rest of brewing starts to make sense.",
+ "read": "4 min",
+ "updated": "2021-10-04",
+ "updated_label": "October 2021",
+ "sections": [
+  [
+   "Malting: where the sugar comes from",
+   "<p>Barley does not contain sugar the way grape juice does. It contains starch, locked up inside the grain, and a brewer's first job is breaking it open into something yeast can use.</p><p>Malting does that work before the grain ever reaches a brewery. The maltster steeps barley in water until it germinates, then halts germination with heat in a kiln. Germination switches on enzymes that will later convert starch to sugar. Kilning stops the sprouting, dries the grain for storage, and, depending on how dark the kiln runs, builds the colour and toasted or roasted character you taste later. A pale pilsner malt and a dark chocolate malt start as the same barley and diverge entirely at this step.</p><p>Base malts, the pale, lightly kilned malts that form the bulk of most grain bills, contribute mostly fermentable sugar and a bready, biscuity backbone. Speciality and crystal malts are kilned or roasted further and contribute colour, caramel or roasted character but comparatively little fermentable sugar, which is why a beer's grain bill usually lists one large base malt addition alongside several much smaller speciality ones.</p>"
+  ],
+  [
+   "Mashing: turning starch into sugar",
+   "<p>The brewer mills the malt to crack each husk open, then mixes it with hot water in a mash tun, usually somewhere between 63 and 70 &#176;C. This is the mash.</p><p>At that temperature, the enzymes activated during malting go back to work, breaking the grain's starch into fermentable sugar over roughly 60 minutes. The exact temperature chosen decides how fermentable the resulting wort will be, and we cover that trade-off properly in our <a href=\"mash-temperature-guide.html\">mash temperature guide</a>. At the end of the mash, the sweet liquid, called wort, is drained off the spent grain.</p><p>Once the mash is converted, the wort is separated from the spent grain husks in a process called lautering, usually followed by sparging, a gentle rinse of the grain bed with hot water to recover sugar left clinging to the husks. Skipping or rushing the sparge leaves sugar, and therefore final gravity, behind in the discarded grain.</p>"
+  ],
+  [
+   "The boil: flavour, bitterness and safety",
+   "<p>Wort goes into the kettle for a vigorous boil, typically 60 to 90 minutes. Hops go in at set points, early additions extracting bitterness, late additions contributing aroma that would otherwise boil away.</p><p>The boil also sterilises the wort, drives off unwanted volatile compounds, and causes proteins to clump and drop out as the hot break. We go through exactly what is happening minute by minute in <a href=\"what-happens-during-the-boil.html\">what actually happens during the boil</a>.</p><p>A rough rule many recipes follow is a 60 minute boil for most ales and a slightly longer 75 to 90 minute boil for lagers or beers with a large grain bill, since more malt in the kettle means more of the sulphur compound that needs driving off. The exact time on any given recipe is a deliberate choice, not a default to be shortened for convenience.</p>"
+  ],
+  [
+   "Fermentation: where yeast takes over",
+   "<p>The hot wort is chilled quickly, oxygenated, and pitched with yeast. From here the brewer's job is mostly to leave it alone at the right temperature.</p><p>Yeast consumes the sugar made during mashing and produces alcohol, carbon dioxide and a wide range of flavour compounds as by-products. Ale yeast prefers somewhere around 18 to 22 &#176;C, lager yeast a much colder 8 to 13 &#176;C, and the strain and the temperature together decide most of what a finished beer tastes like.</p><p>A homebrewer working through this stage for the first time is usually surprised by how little there is to actually do. Beyond an initial burst of oxygen at pitching and holding a steady temperature, the yeast does the entire job unsupervised, and opening the fermenter to check on it more often does more harm than good.</p>"
+  ],
+  [
+   "Conditioning and packaging",
+   "<p>Once fermentation slows and the gravity holds steady across several readings, the beer needs time to settle. Yeast and other solids drop out, harsh green flavours fade, and carbonation either develops naturally or is added.</p><p>The beer is then packaged into bottles, cans or kegs, carbonated to a level appropriate for its style, and left to condition further before it reaches a glass. A homebrewer moving through these same five stages for the first time will find a full kit setup covered in our <a href=\"homebrewing-starter-kit-india.html\">homebrewing starter kit guide</a>.</p><p>Cold conditioning, sometimes just called lagering even for ale styles, is where remaining haze-forming proteins and yeast continue to settle out and where any last rough edges in flavour smooth over. A week or two of cold storage before packaging makes a visible difference to clarity even in styles that are not true lagers.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do all beers go through every one of these stages?",
+   "Yes, in principle. Even extract brewing, which skips mashing at home because the maltster's sugars arrive pre-converted in a can, still relies on someone having mashed that malt earlier in the supply chain."
+  ],
+  [
+   "Which stage has the biggest effect on flavour?",
+   "Fermentation, by a wide margin. The same wort fermented with two different yeast strains, or at two different temperatures, can produce beers that taste like entirely different styles."
+  ],
+  [
+   "How long does the whole process take from grain to glass?",
+   "A simple ale can be brewed, fermented and ready to drink in three to four weeks. Bigger beers and lagers take considerably longer, often two to three months, because they need more conditioning time."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "homebrewing-starter-kit-india",
+  "extract-vs-all-grain-brewing",
+  "brewing-in-a-small-indian-apartment"
+ ]
+}

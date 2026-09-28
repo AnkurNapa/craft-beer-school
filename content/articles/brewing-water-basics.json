@@ -1,0 +1,75 @@
+{
+ "slug": "brewing-water-basics",
+ "cat": "Ingredients",
+ "h1": "Brewing water basics",
+ "title": "Brewing Water Basics | Craft Beer School",
+ "desc": "The minerals that shape beer flavour, why tap water is not neutral, and what a homebrewer needs to test before adjusting anything.",
+ "teaser": "Water is most of what is in the glass, and it is never really neutral. Here is what the minerals in it actually do to your beer.",
+ "standfirst": "Every brewing book tells you water matters and few explain why. This is the short version: which minerals matter, what they do to flavour, and when you can safely ignore all of it.",
+ "read": "4 min",
+ "updated": "2024-12-13",
+ "updated_label": "December 2024",
+ "sections": [
+  [
+   "Water is an ingredient, not a blank canvas",
+   "<p>Tap or borewell water carries dissolved minerals left behind by the rock and soil it passed through. Those minerals do not disappear when you boil the water. They shape mash pH, yeast health and the final taste of the beer, in ways that are easy to ignore until a batch tastes flat, harsh or oddly metallic for no obvious reason.</p><p>You do not need a full water report to start. You need to know the handful of ions that matter.</p>"
+  ],
+  [
+   "Calcium and magnesium: hardness",
+   "<p>Calcium helps enzymes work properly during the mash, helps yeast flocculate at the end of fermentation, and helps protein drop out during the boil. Most brewing water benefits from having some, and very soft water (low in calcium) can give a thin, indistinct beer and a sluggish mash.</p><p>Magnesium does something similar in smaller amounts but is a yeast nutrient more than a mash aid, and too much of it reads as a harsh, slightly bitter mineral edge.</p>"
+  ],
+  [
+   "Sulphate and chloride: the flavour dial",
+   "<p>Sulphate sharpens and dries out hop bitterness, which is why classic English pale ales built on high sulphate water taste crisper and more bitter than the same recipe brewed with soft water. Chloride does the opposite: it rounds out malt character and gives a fuller, slightly sweeter mouthfeel.</p><p>The ratio between the two, not just the absolute amount, is what brewers adjust to push a beer toward a hoppy, dry profile or a malty, rounder one. Our guide to the <a href=\"sulphate-chloride-ratio.html\">sulphate to chloride ratio</a> goes into that balance in detail.</p>"
+  ],
+  [
+   "Alkalinity and why it fights your mash",
+   "<p>Alkalinity, mostly from bicarbonate, resists pH change and tends to push mash pH upward, away from the 5.2 to 5.6 range where enzymes work best and where the beer avoids a harsh, astringent edge. Municipal water in many Indian cities runs moderately to significantly alkaline, and dark, roasted malts (which are naturally acidic) can partly offset that on their own.</p><p>A pale beer brewed with alkaline water and no acid correction is one of the most common causes of a dull, slightly grainy homebrew.</p>"
+  ],
+  [
+   "What to actually test before you adjust anything",
+   "<p>Get a water report if your municipal supplier publishes one, or send a sample to a lab if you are on a borewell, since borewell water varies enormously even between two houses on the same street. Total hardness, alkalinity, sulphate and chloride are the four numbers worth having before you buy any brewing salts.</p><p>If you cannot get a full report, a cheap pH meter checked at mash temperature will catch the most damaging problem, mash pH sitting outside range, even without knowing exactly which mineral is responsible.</p>"
+  ],
+  [
+   "When to leave it alone",
+   "<p>If your beer already tastes good and your process is consistent, resist the urge to start dosing gypsum and calcium chloride because a book said so. Water adjustment is a fine tuning tool. It will not rescue a beer with a fermentation or sanitation problem, and guessing at additions without a baseline measurement usually makes things worse, not better.</p><p>Once you do have numbers, our guides on <a href=\"water-hardness-and-beer.html\">water hardness and beer</a> and <a href=\"treating-borewell-water-for-brewing.html\">treating borewell water for brewing</a> cover the next steps for Indian water sources specifically.</p>"
+  ],
+  [
+   "Sodium: the ion most brewers forget",
+   "<p>Sodium is not usually a target for deliberate addition, but it shows up in some municipal supplies and in water softened by an ion exchange softener, which swaps calcium and magnesium for sodium rather than actually removing hardness in a brewing-useful sense. A softener that makes household water feel silkier can quietly wreck a beer's water profile, since it does nothing to fix alkalinity and adds sodium that reads as a salty, sometimes harsh edge at higher concentrations.</p><p>If your home has a water softener installed for the plumbing, brew with water drawn before the softener, not after it.</p>"
+  ],
+  [
+   "A simple first brew day water check",
+   "<p>Before your next brew day, taste your source water plain, chilled to drinking temperature. A flat, metallic, chalky or strongly chlorinated taste in the raw water is a rough early warning that something in the profile is worth investigating properly, even before a lab report confirms exactly what it is. This will not replace testing, but it catches the more obvious problems for free.</p><p>Chlorine and chloramine, common in treated municipal supply, react with malt phenols during the mash to create a plastic or medicinal off flavour. A cheap carbon filter, or simply letting chlorinated water stand uncovered overnight, removes most free chlorine, though chloramine needs the carbon filter specifically since it does not dissipate on standing the way chlorine does.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need to treat my water if my beer already tastes fine?",
+   "No. Treat water when you have a specific problem to solve or a specific style profile to hit, not as a default step."
+  ],
+  [
+   "Is RO water a safe starting point?",
+   "Yes, RO water is close to mineral-free, which makes it a predictable base you can build up with brewing salts, though it needs some mineral addition rather than being used completely raw. See our RO water guide for the detail."
+  ],
+  [
+   "Why does my pale beer taste harsh even though I follow the recipe exactly?",
+   "Alkaline water pushing mash pH too high is the most common cause. Check pH at mash temperature before assuming the recipe or the grain is the problem."
+  ],
+  [
+   "What is the single most useful water number for a homebrewer to know?",
+   "Alkalinity. It has the biggest effect on mash pH, which affects almost everything downstream in the beer."
+  ]
+ ],
+ "cta": {
+  "title": "Stop guessing at water chemistry",
+  "body": "Brewing Fundamentals is a 4-week live course that goes past what one guide can cover. It covers mash chemistry, water adjustment and recipe formulation together, so water stops being a separate mystery.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "water-hardness-and-beer",
+  "sulphate-chloride-ratio",
+  "hop-extracts-and-cryo-hops"
+ ]
+}

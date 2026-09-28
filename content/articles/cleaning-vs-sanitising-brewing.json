@@ -1,0 +1,59 @@
+{
+ "slug": "cleaning-vs-sanitising-brewing",
+ "cat": "Brewing basics",
+ "h1": "Cleaning versus sanitising in brewing",
+ "title": "Cleaning vs Sanitising in Brewing | Craft Beer School",
+ "desc": "Why cleaning and sanitising are two different jobs, why the order matters, and which products do each one.",
+ "teaser": "Cleaning and sanitising get lumped together as one chore. They are chemically different jobs, and doing them out of order wastes both.",
+ "standfirst": "Ask most first-time brewers what sanitising does and they will describe cleaning. The two are not the same job, they use different products, and doing them in the wrong order leaves your equipment neither clean nor sanitary.",
+ "read": "3 min",
+ "updated": "2022-10-03",
+ "updated_label": "October 2022",
+ "sections": [
+  [
+   "What cleaning actually removes",
+   "<p>Cleaning is about visible and invisible soil: wort residue, beer stone, protein films and general grime. An alkaline cleaner such as PBW or a washing soda solution breaks down that organic matter so it can be rinsed away. Cleaning alone does not reliably kill microbes, it just removes the material they hide in and feed on.</p><p>Beer stone in particular, a hard, chalky deposit of oxalate and protein that builds up on equipment used repeatedly, resists ordinary washing and needs a dedicated alkaline or acid-based cleaner to shift. Left in place, it gives bacteria a rough surface to colonise that even a good sanitiser struggles to fully reach.</p><p>Rinse thoroughly after cleaning, since leftover cleaner residue can itself taint a beer's flavour or interfere with head retention in the finished glass. A clean surface should feel smooth and squeak slightly under a clean finger, not slick or soapy.</p>"
+  ],
+  [
+   "What sanitising actually does",
+   "<p>Sanitising reduces the population of remaining microbes on an already-clean surface to a level that will not noticeably affect your beer. It does not remove dirt, and it is not designed to. A no-rinse acid sanitiser such as Star San, or an iodophor solution, is the standard homebrew choice, applied as a final step just before the equipment touches wort or beer.</p><p>Not every sanitiser needs rinsing, and reading the label matters here: a no-rinse sanitiser used at the correct dilution is safe to leave on the surface, while some older-style sanitisers, including plain bleach solutions, need a thorough rinse with sanitised or boiled water afterwards to avoid tainting the beer with chlorine flavour.</p><p>Star San in particular foams readily when agitated, and that foam is harmless and does not need rinsing away, which sometimes worries first-time users who assume any foam left in a fermenter must be a problem. It is simply the sanitiser doing its job and can be left in place.</p>"
+  ],
+  [
+   "Why the order cannot be reversed",
+   "<p>Sanitiser sprayed onto a dirty surface gets used up neutralising organic matter before it ever reaches the microbes underneath, so a sanitised-but-unwashed fermenter is not actually sanitary. Clean first, rinse thoroughly, then sanitise. Skipping the clean step and going straight to sanitiser is one of the more common shortcuts that quietly ruins a batch.</p><p>A simple two-bucket habit works well for most homebrewers: one bucket of cleaner solution for scrubbing and soaking, a thorough rinse under running water, and a second bucket of fresh sanitiser solution for the final step. Keeping the two physically separate, rather than one bucket reused for both jobs, avoids accidentally weakening the sanitiser with leftover cleaner residue.</p>"
+  ],
+  [
+   "Contact time is not optional",
+   "<p>Most no-rinse sanitisers need only 30 to 60 seconds of contact with a surface to work, but that contact has to actually happen: a quick spray that runs straight off a curved surface is not the same as full coverage. Fill hoses and airlocks with sanitiser solution rather than just wetting the outside, and let equipment sit submerged for a proper soak wherever you can.</p><p>Cold, hard borewell water common in many parts of India can also leave a mineral film behind after rinsing equipment, which is worth wiping away with a clean cloth before sanitising rather than assuming a rinse alone has left a spotless surface.</p><p>A soft-bristled bottle brush reaches most bottle interiors well, but narrow-necked carboys and jugs often need a longer, curved brush or a load of sanitised marbles swirled inside to scrub the base properly.</p>"
+  ],
+  [
+   "India-specific reasons to take this seriously",
+   "<p>Warm, humid conditions for much of the year favour mould and wild yeast on anything left even slightly wet, and a plastic bucket that has picked up scratches over several batches is harder to fully clean and sanitise than a fresh one. Replace scratched plastic fermenting buckets periodically rather than trying to sanitise your way around the problem, since bacteria can hide in scratches that sanitiser cannot reach.</p><p>Star San and similar acid sanitisers work fastest in slightly warm water, and cold borewell water straight from the tap can slow their action noticeably, so warming your sanitiser solution a little rather than using it ice cold is worth the extra few minutes on brew day.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I use the same product to clean and sanitise?",
+   "No, generally not. Cleaners are formulated to break down organic soil and sanitisers to kill microbes on an already-clean surface. A few products marketed as combined cleaner-sanitisers exist, but a dedicated two-step process is more reliable for beginners."
+  ],
+  [
+   "Do I need to sanitise everything, or only what touches the beer after boiling?",
+   "Only what touches the wort or beer after the boil needs sanitising, since the boil itself sterilises the wort. Fermenters, airlocks, bottling equipment and anything used for transfers all need it."
+  ],
+  [
+   "Is boiling water enough to sanitise equipment?",
+   "Not practically for most homebrew equipment. Plastic items can warp or melt, and boiling everything is slow and impractical for routine brew-day sanitation compared with a proper no-rinse sanitiser."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "how-to-use-a-hydrometer",
+  "original-gravity-final-gravity-explained",
+  "first-homebrew-mistakes"
+ ]
+}

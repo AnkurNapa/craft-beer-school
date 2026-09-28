@@ -1,0 +1,59 @@
+{
+ "slug": "beer-colour-srm-ebc",
+ "cat": "Brewing basics",
+ "h1": "Beer colour: SRM and EBC in plain English",
+ "title": "Beer Colour: SRM and EBC Explained | Craft Beer School",
+ "desc": "What the SRM and EBC scales measure, how the two relate, and what actually darkens a beer.",
+ "teaser": "A number on a recipe sheet tells you what colour a beer should be before you have poured a drop. Here is how to read it.",
+ "standfirst": "Beer colour looks obvious once it is in the glass, but describing it precisely needs a scale. Brewers use two, SRM and EBC, and knowing how they relate saves you converting on the fly every time you read an American recipe next to a European one.",
+ "read": "3 min",
+ "updated": "2023-10-03",
+ "updated_label": "October 2023",
+ "sections": [
+  [
+   "What SRM and EBC actually are",
+   "<p>Standard Reference Method, SRM, is the scale used mainly in the United States. European Brewery Convention, EBC, is its European counterpart. Both measure how much light a beer sample absorbs at a specific wavelength, a laboratory measurement rather than a subjective colour name, though in practice most brewers just match a number to a familiar swatch chart.</p><p>Both scales were developed so brewers could communicate colour precisely without relying on subjective names like amber or copper, which mean slightly different things to different people. A laboratory measures colour with a spectrophotometer, but for recipe design purposes, most brewing software estimates SRM or EBC directly from the grain bill using published colour values for each malt.</p><p>Neither scale copes especially well at the very darkest end, since an imperial stout and a much lighter porter can both measure well above the top of a standard colour chart despite looking visibly different in a glass, which is one of the scale's known limitations rather than a measurement error.</p>"
+  ],
+  [
+   "Roughly how the two scales relate",
+   "<p>EBC runs numerically higher than SRM for the same beer, roughly by a factor of about two, so a pale lager around 3 SRM sits near 6 EBC, and a stout around 40 SRM sits near 80 EBC. It is a rough conversion rather than an exact one, but close enough to translate a recipe between the two systems without confusion.</p><p>Recipe software built around either scale usually lets you view the estimate in the other unit as well with a single toggle, so in practice a homebrewer rarely needs to do the conversion by hand more than once or twice before the two numbers start to feel familiar together.</p>"
+  ],
+  [
+   "What actually darkens a beer",
+   "<p>Colour comes almost entirely from the malt bill, specifically from how dark the malt was kilned or roasted, discussed further in <a href=\"how-beer-is-made-step-by-step.html\">how beer is made, step by step</a>. A small amount of a very dark speciality malt, sometimes just a few percent of the total grain bill, can shift a beer's colour dramatically while barely touching its flavour, which is a useful trick for adjusting appearance without redesigning the recipe.</p><p>Longer or more vigorous boils also darken wort slightly through caramelisation and a browning reaction between sugars and proteins, called the Maillard reaction, which is part of why an extract beer boiled hard and long for 90 minutes can come out visibly darker than the same recipe boiled gently for 60.</p><p>Steeping specialty grains rather than mashing them, a technique common in extract brewing, still contributes colour in much the same way, which is how extract kits manage to offer a wide range of finished beer colours despite skipping a full mash entirely.</p>"
+  ],
+  [
+   "Typical colour ranges by style",
+   "<p>As rough reference points: a pale lager sits around 2 to 4 SRM, a standard pale ale around 6 to 10 SRM, an amber ale or brown ale around 12 to 22 SRM, and a stout or porter comfortably above 30 SRM. These bands overlap between styles and are guidelines rather than rules, since plenty of well-regarded beers sit right at the edges.</p><p>Water can shift perceived colour slightly too, since very soft or very hard water changes how malt tannins and colour compounds extract during the mash, though the effect is minor compared with the grain bill itself. For nearly all practical recipe design, the malt choice is what to adjust if you want a different shade in the glass.</p>"
+  ],
+  [
+   "Why colour is not a reliable guide to flavour or strength",
+   "<p>A dark beer is not automatically stronger or more bitter, and a pale one is not automatically light-bodied. Dark colour comes from roasted or caramelised malt character, which affects flavour, but strength depends on total fermentable sugar and attenuation, discussed in <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity explained</a>, and those two things vary independently of colour.</p><p>Chill haze, a temporary cloudiness that appears in cold beer and clears as it warms, is a separate phenomenon from colour entirely, caused by proteins and tannins interacting at low temperature rather than by anything to do with how dark the beer is.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do hops affect beer colour at all?",
+   "Only very slightly, and mostly through minor oxidation over time rather than any meaningful colour contribution during brewing. Colour is overwhelmingly a malt story."
+  ],
+  [
+   "Can I estimate SRM at home without lab equipment?",
+   "You can get a reasonable visual estimate by comparing your beer against a printed SRM or EBC colour chart held up behind the glass, though it will not be a precise laboratory reading."
+  ],
+  [
+   "Why do some black beers taste less roasty than expected?",
+   "Colour and roast flavour intensity do not scale together perfectly. A brewer can use a small amount of very dark, low-flavour colouring malt to darken a beer substantially without adding much roasted character."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-temperature-guide",
+  "what-happens-during-the-boil",
+  "what-is-ibu"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "brewery-waste-and-spent-grain",
+ "cat": "Business",
+ "h1": "Brewery waste and spent grain",
+ "title": "Brewery Waste and Spent Grain | Craft Beer School",
+ "desc": "What a brewery actually produces as waste, where spent grain goes, and how effluent treatment fits into a compliant, workable operation in India.",
+ "teaser": "Spent grain is the easy part. Effluent is the part that actually needs planning.",
+ "standfirst": "Every brew day produces waste: spent grain, trub, wash water and cleaning chemicals. Handling it well is both a compliance requirement and, done right, a modest cost saving.",
+ "read": "3 min",
+ "updated": "2025-05-08",
+ "updated_label": "May 2025",
+ "sections": [
+  [
+   "What a brew day actually produces",
+   "<p>The largest visible waste stream is spent grain, the mash solids left after lautering, which is wet, heavy and starts to spoil within hours in Indian heat if it sits around without a plan for collection. Trub and yeast slurry from fermentation are a smaller but nutrient-dense stream that also needs a disposal route rather than being tipped down a drain.</p><p>Wash water, from cleaning tanks, floors and lines, carries organic load, caustic or acid residue and, if not managed, is the main reason breweries need effluent treatment before discharge, more so than any single ingredient stream.</p>"
+  ],
+  [
+   "Spent grain: the easiest waste stream to solve",
+   "<p>Spent grain has real value as livestock feed, and many breweries arrange same-day or next-day collection by local farmers or feed aggregators, sometimes for free, sometimes for a small payment, because it needs to move fast before it spoils in the heat. Storage even overnight in Indian conditions needs refrigeration or very rapid turnaround, so this is a logistics problem to solve before your first brew day, not after the first complaint about the smell reaches you from a neighbour.</p>"
+  ],
+  [
+   "Effluent: where the real compliance work sits",
+   "<p>Wash water and process wastewater generally cannot go straight into a municipal drain without treatment, because organic load and pH extremes from cleaning chemicals violate discharge standards almost everywhere they are measured. Pollution control board consent to operate typically requires at least basic effluent treatment: screening solids, adjusting pH, and often some biological treatment before discharge, sized to your production volume rather than a generic template.</p><p>Confirm the specific standard your state applies, since discharge limits and required treatment levels vary by state and by the receiving water body your effluent ultimately reaches.</p><p>Ask your pollution control board directly what category your production volume falls into, since smaller breweries are sometimes held to a lighter treatment standard than a large industrial brewer, but this concession is never automatic and must be confirmed rather than assumed.</p>"
+  ],
+  [
+   "Building waste handling into your process, not after it",
+   "<p>Retrofitting effluent treatment onto a running brewery, after a pollution control inspection flags a gap, is more expensive and more disruptive than designing for it from the start, when it can be sized correctly alongside the rest of the equipment. Factor a treatment system, however basic, into your original equipment budget alongside the brewhouse and fermenters.</p><p>See <a href=\"brewery-equipment-buying-guide.html\">buying brewery equipment</a> for how this fits into the wider capital plan you are already building.</p>"
+  ],
+  [
+   "Waste handling as part of a bigger sustainability story",
+   "<p>Spent grain donation, water reuse in non-product processes, and careful chemical dosing all reduce cost and environmental impact together, which is a rare alignment worth taking advantage of rather than treating as separate initiatives. This connects directly to <a href=\"sustainability-in-brewing.html\">sustainability in brewing</a>, where waste handling is one part of a wider set of choices a brewery can make without inventing new technology, just by being disciplined about what it already produces every single day.</p>"
+  ],
+  [
+   "A basic waste plan before your first brew day",
+   "<p>Before you brew the first batch, line up a spent grain collector with a confirmed same-day pickup arrangement, install even a simple pH-adjustment and screening step ahead of discharge, and get written confirmation from your pollution control board on what level of treatment your specific volume requires. Doing this before opening, rather than reacting to a smell complaint or an inspection notice, is the difference between waste handling as a planned operating cost and waste handling as an emergency.</p><p>Write the plan down, even briefly, and revisit it as your production volume grows, since a collection arrangement that worked at low volume can quietly become inadequate at double the output.</p><p>A brewery that reaches this point without a plan usually finds out the hard way, with grain piling up faster than a single collector can clear it, which is an unpleasant and entirely avoidable problem to solve under pressure.</p><p>Keep a backup collector's contact on file too, since a single point of failure on grain removal is a surprisingly common and avoidable operational risk for a business that otherwise plans its supply chain carefully, and one missed pickup should never be allowed to become a production-stopping problem.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What happens to spent grain from a brewery?",
+   "It is most commonly collected by local farmers or feed aggregators as livestock feed, usually needing same-day or next-day pickup since it spoils quickly in Indian heat."
+  ],
+  [
+   "Does a brewery need effluent treatment before discharging wastewater?",
+   "In almost all cases yes, since organic load and pH from cleaning chemicals typically exceed municipal discharge standards without some level of treatment first."
+  ],
+  [
+   "How much does effluent treatment cost to set up?",
+   "This varies by production volume, required treatment level and state discharge standards, so get a specific quote for your scale rather than assuming a fixed figure."
+  ],
+  [
+   "Can spent grain handling save a brewery money?",
+   "Yes, in a small way. Arranging regular collection avoids disposal costs and, in some cases, generates a small payment, alongside the environmental benefit."
+  ]
+ ],
+ "cta": {
+  "title": "Plan waste handling into your brewery budget from day one",
+  "body": "Brewery Business Management covers operations, compliance and site planning across three live weekends, capped at 20 students, with recordings and a certificate.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "sustainability-in-brewing",
+  "craft-beer-market-india-trends",
+  "brewery-utilities-water-power"
+ ]
+}

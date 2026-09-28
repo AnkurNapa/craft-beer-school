@@ -1,0 +1,63 @@
+{
+ "slug": "hop-storage-and-freshness",
+ "cat": "Ingredients",
+ "h1": "Hop storage and freshness",
+ "title": "Hop storage and freshness | Craft Beer School",
+ "desc": "Why hops degrade after harvest, what the Hop Storage Index measures, and how to store hops to keep them fresh.",
+ "teaser": "A hop starts losing its alpha acid the moment it is picked. Everything about hop storage is a fight against that clock.",
+ "standfirst": "Oxygen, heat and light degrade a hop's bittering and aromatic compounds from the day it is harvested. Understanding that decay curve is the difference between a fresh, vivid IPA and a dull, papery one.",
+ "read": "3 min",
+ "updated": "2024-06-23",
+ "updated_label": "June 2024",
+ "sections": [
+  [
+   "Why hops degrade at all",
+   "<p>Alpha acids and the aromatic oils responsible for hop character are both chemically unstable once exposed to oxygen, heat and light. Oxidation converts alpha acids into other compounds that contribute little useful bitterness and can produce a cheesy, unpleasant off note at high levels, while the volatile aroma oils, particularly the thiol compounds behind the tropical character in hops like those covered in our <a href=\"new-world-hops-nz-australia.html\">New World hops guide</a>, evaporate and break down well before the alpha acid loss becomes obvious.</p>"
+  ],
+  [
+   "The Hop Storage Index, and what it actually measures",
+   "<p>The Hop Storage Index (HSI) is a lab measurement of how much a hop's alpha acid has already oxidised, expressed as a ratio that rises as the hop ages and degrades. A fresh, well stored hop typically shows an HSI below 0.30, while a poorly stored or aged hop can climb well above 0.40. Reputable suppliers test and print this figure alongside alpha acid percentage, and it is worth checking on any hop, particularly imported stock that may have already spent months in transit before reaching a brewer in India.</p>"
+  ],
+  [
+   "The three enemies: oxygen, heat and light",
+   "<p>Oxygen exposure during storage is the single biggest driver of alpha acid loss, which is why commercial hop pellets are vacuum sealed or flushed with nitrogen before packaging, and why an opened pack should be resealed with as little air trapped inside as possible. Heat accelerates every one of these degradation reactions, so hops held at room temperature for weeks lose far more character than the same hops kept cold. Light, particularly UV, breaks down hop compounds directly, which is part of why hop packaging is almost always opaque.</p>"
+  ],
+  [
+   "Practical storage for a home or small commercial brewery",
+   "<p>Store unopened hop packs in a freezer, not a fridge, since alpha acid loss continues, just more slowly, above freezing. Once a pack is opened, press out as much air as possible, reseal tightly, and use the hops within a few weeks rather than months for the best aroma. Buying in smaller, more frequent quantities rather than one large yearly order reduces the time any given hop spends sitting in storage before it is actually used, which matters more for delicate aroma hops than for high alpha bittering varieties.</p>"
+  ],
+  [
+   "Why this matters more for some hops than others",
+   "<p>A high alpha bittering hop used mainly for a 60 minute boil addition tolerates some age reasonably well, since bitterness is more resilient to storage than aroma. A delicate, thiol-rich aroma or dry hop variety, of the kind covered in our <a href=\"hop-pellets-vs-whole-cone.html\">pellets versus whole cone guide</a>, loses its most distinctive character fastest, which is exactly the character a brewer is usually paying a premium for. Treat aroma hops as a perishable ingredient with a real shelf life, not a shelf stable pantry item, and freshness stops being a guessing game.</p>"
+  ],
+  [
+   "Commercial cold chain versus a homebrewer's freezer",
+   "<p>A commercial brewery buying hops in bulk typically receives them in large nitrogen-flushed foil bags stored in a dedicated cold room, opened only briefly to weigh out a batch's addition before being resealed and returned to cold storage, minimising the total time any given hop spends exposed to air. A homebrewer working from smaller retail packs faces a harder version of the same problem: each pack is opened repeatedly over several small batches, and every opening is a fresh exposure to oxygen. Decanting hops into smaller vacuum-sealed portions immediately after a larger pack is opened, rather than reopening the same bag repeatedly over weeks, closes much of that gap for a home setup without needing commercial equipment.</p><p>If you are ever unsure how fresh an imported hop pack actually is by the time it reaches you, check the harvest year printed on the package against the date you are brewing. A pack more than twelve months past harvest, even if it has been reasonably well stored, has usually lost a meaningful share of its original aroma intensity, regardless of what the alpha acid percentage on the label still claims.</p><p>None of this needs expensive lab equipment to manage well at a small scale. A reliable freezer, airtight resealable bags, and buying from a supplier who is transparent about harvest dates and storage conditions covers most of what actually protects hop quality between farm and fermenter.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good Hop Storage Index reading?",
+   "Below 0.30 generally indicates a fresh, well stored hop. Values climbing above 0.40 suggest meaningful oxidation and a loss of both bitterness efficiency and aroma quality."
+  ],
+  [
+   "Should hops be kept in the fridge or the freezer?",
+   "The freezer. Alpha acid degradation continues above freezing, just more slowly, so a freezer preserves hop quality significantly longer than a standard refrigerator."
+  ],
+  [
+   "Do bittering hops need the same careful storage as aroma hops?",
+   "Less so. Bitterness holds up better to age than the delicate aroma oils in late addition and dry hop varieties, though both benefit from cold, sealed, dark storage."
+  ]
+ ],
+ "cta": {
+  "title": "Want to protect every batch from avoidable hop loss?",
+  "body": "Protecting hop quality is one small piece of the process control a full course actually teaches. Advanced Brewing Science runs 6 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "dry-hopping-guide",
+  "hop-extracts-and-cryo-hops",
+  "hop-pellets-vs-whole-cone"
+ ]
+}

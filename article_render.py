@@ -108,9 +108,8 @@ def render(article, by_slug):
 """
 
 
-def blog_index(articles, banner):
-    """The blog listing, built from the real articles rather than placeholders."""
-    cards = "".join(f"""
+def _card(a):
+    return f"""
       <article class="card reveal">
         <div class="card-body">
           <span class="cat">{a['cat']}</span>
@@ -121,20 +120,57 @@ def blog_index(articles, banner):
             <span class="read">{a['read']}</span>
           </div>
         </div>
-      </article>""" for a in articles)
+      </article>"""
+
+
+SHOWN = 6  # per segment before the rest fold away
+
+
+def _seg_id(name):
+    return name.lower().replace(" ", "-")
+
+
+def blog_index(articles, banner, segment_of, segments):
+    """The blog as a set of doors, one per reader segment, each ending at the
+    course that segment is most likely to buy."""
+    jump = "".join(f'<a href="#{_seg_id(name)}" class="seg-chip" data-cta="blog-segment">{name}</a>'
+                   for name, *_ in segments)
+    blocks = []
+    for name, who, course_href, course_name in segments:
+        mine = [a for a in articles if segment_of.get(a["slug"]) == name]
+        if not mine:
+            continue
+        head, rest = mine[:SHOWN], mine[SHOWN:]
+        head_cards = "".join(_card(a) for a in head)
+        rest_cards = "".join(_card(a) for a in rest)
+        more = (f'<details class="more"><summary>Show all {len(mine)} {name.lower()} guides</summary>'
+                f'<div class="grid-3">{rest_cards}</div></details>') if rest else ""
+        blocks.append(f"""
+<section id="{_seg_id(name)}" class="seg">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">For {name.lower()}</span><h2>{who}</h2></div>
+    <div class="grid-3">{head_cards}</div>
+    {more}
+    <aside class="cta-inline" style="margin-top:2rem">
+      <div><h3>Ready to go further?</h3><p>{course_name} turns these guides into a structured course, live every weekend with a mentor.</p></div>
+      <a class="btn btn-amber" href="{course_href}" data-cta="blog-segment-course">See {course_name}</a>
+    </aside>
+  </div>
+</section>""")
+    blocks_html = "".join(blocks)
     return banner + f"""
-<section>
+<section style="padding-bottom:0">
   <div class="wrap">
     <div class="sec-head">
       <span class="eyebrow">The Journal</span>
-      <h2>Guides from the brewhouse floor.</h2>
+      <h2>{len(articles)} guides from the brewhouse floor.</h2>
       <p class="lead">Written by brewers who actually run the numbers, for people
-      learning beer in India. No filler, no borrowed listicles.</p>
+      learning beer in India. Start with the door that fits you.</p>
     </div>
-    <div class="grid-3">{cards}</div>
+    <nav class="seg-nav" aria-label="Guides by reader">{jump}</nav>
   </div>
 </section>
-
+{blocks_html}
 <section class="cta">
   <div class="wrap" style="text-align:center">
     <h2>Reading is a start. Brewing is better.</h2>

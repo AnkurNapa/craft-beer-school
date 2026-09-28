@@ -231,7 +231,7 @@ is the glass in front of you.</p>"""),
          "dry stouts are weaker than the pale IPA beside them."),
     ],
     cta=dict(title="Learn the styles properly",
-             body="Style Specialization covers origins, technique and how to brew "
+             body="Style Specialisation covers origins, technique and how to brew "
                   "award standard versions across eight weeks.",
              href=COURSES, label="See the course"),
     related=["what-is-craft-beer", "how-to-taste-beer", "brewing-for-india"],

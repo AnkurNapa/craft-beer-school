@@ -1,0 +1,67 @@
+{
+ "slug": "bitterness-perception",
+ "cat": "Tasting",
+ "h1": "How we perceive bitterness",
+ "title": "How We Perceive Bitterness in Beer | Craft Beer School",
+ "desc": "Why the same IBU number can taste very different across two beers, and what actually shapes how bitter a beer feels.",
+ "teaser": "IBU is a number on a lab sheet. What you taste is something else entirely.",
+ "standfirst": "Bitterness is one of the most misunderstood numbers in beer. Here is what IBU actually measures, and everything else that changes how bitter a beer feels in the glass.",
+ "read": "3 min",
+ "updated": "2023-04-04",
+ "updated_label": "April 2023",
+ "sections": [
+  [
+   "What IBU actually measures",
+   "<p>International Bitterness Units measure the concentration of iso-alpha acids, compounds extracted from hops during the boil, dissolved in the finished beer. It is a chemical measurement, taken in a lab, not a measurement of perceived bitterness on a human tongue. Two beers with the same IBU number can taste very differently bitter to a real drinker sitting at a table.</p><p>Two beers brewed with the exact same hop bill and boil time can still land differently on IBU depending on water chemistry, wort gravity and even how vigorously the boil was run, which is one more reason to treat the number as an estimate rather than a promise.</p>"
+  ],
+  [
+   "Why malt sweetness changes everything",
+   "<p>Bitterness and sweetness partly cancel each other out in perception, the same way sugar softens a bitter coffee. A double IPA at 70 IBU built on a big malt backbone can taste less aggressively bitter than a pale, dry beer at 40 IBU with almost no residual sweetness to balance it against. This is why brewers cannot simply chase a target IBU number and expect a predictable result, the malt bill has to be considered alongside it at every step.</p><p>This interaction runs in the other direction too. A very sweet beer with almost no bitterness to balance it, such as some cream ales or milk stouts, can taste cloying rather than pleasantly sweet, which is exactly why even sweet leaning styles usually carry at least a modest amount of hop bitterness in the recipe to hold the balance.</p>"
+  ],
+  [
+   "Carbonation and temperature both change the read",
+   "<p>Higher carbonation tends to scrub bitterness across the tongue quickly, which some tasters read as sharper and others read as cleaner depending on their own preference. Warmer serving temperature generally makes bitterness read as smoother and rounder, which is one reason a hoppy beer straight from the fridge can taste harsher than the same beer given a few minutes to warm, a variable also covered in our <a href=\"beer-serving-temperature.html\">serving temperature guide</a>.</p><p>This is part of why a beer poured for a formal tasting is usually served at a controlled, moderate temperature rather than whatever happens to come out of the fridge, since a consistent temperature is the only way to compare bitterness fairly across a lineup.</p>"
+  ],
+  [
+   "Individual variation is real and large",
+   "<p>Sensitivity to bitter compounds varies genuinely between people, not just as a matter of preference or practice built up over years of drinking. Some people carry a gene variant that makes certain bitter compounds taste dramatically stronger to them than to the average taster, and repeated exposure over time does appear to raise most people's tolerance somewhat. None of this means a taster with low sensitivity is doing anything wrong, but it does mean bitterness scores should be treated as somewhat personal rather than absolute.</p><p>Supertasters, a recognised group with an unusually dense concentration of taste receptors, perceive bitterness, and several other tastes, more intensely than average across the board, not just for beer specifically. Knowing this exists is useful mainly so nobody assumes a strong reaction to bitterness reflects a lack of experience.</p>"
+  ],
+  [
+   "Describing bitterness with more precision",
+   "<p>Beyond a simple low to high scale, try describing the character: a clean, sharp bitterness that fades quickly, a lingering resinous bitterness that stays for minutes, or a harsh, astringent edge that is closer to a fault than a style choice. This level of detail is what separates a useful tasting note from a single number, and it connects directly to <a href=\"mouthfeel-and-body.html\">mouthfeel and body</a>, since both shape how bitterness lands on the palate.</p><p>Time also changes bitterness perception within a single glass. The first sip of a hoppy beer often reads as the most bitter, with later sips seeming to soften slightly as your palate adjusts, which is worth remembering when comparing notes with someone tasting the same beer for the first time on their first sip.</p>"
+  ],
+  [
+   "Bitterness in the context of a meal",
+   "<p>Bitterness cuts through fat and richness in food, which is the whole logic behind pairing a hoppy beer with fried or fatty dishes, a principle we cover properly in <a href=\"beer-and-food-pairing-basics.html\">beer and food pairing basics</a> and again for Indian menus specifically, where fried and rich dishes are common on almost every table.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does a higher IBU number always mean a more bitter tasting beer?",
+   "Not reliably. Malt sweetness, carbonation and serving temperature all change how bitter a beer actually tastes, so two beers at the same IBU can feel quite different."
+  ],
+  [
+   "Why do some people find IPAs unbearably bitter and others do not notice much?",
+   "Genuine genetic variation in bitter taste receptors plays a real role, alongside how much exposure someone has had to bitter beers over time."
+  ],
+  [
+   "Can you get used to bitterness?",
+   "Many people report that repeated exposure to hoppy beers raises their tolerance and appreciation over time, though the underlying sensitivity does not disappear."
+  ],
+  [
+   "Is a harsh, drying bitterness normal?",
+   "Usually not. That sensation is closer to astringency, often caused by a brewing process fault rather than the hops themselves, and is worth reading about in our guide to <a href=\"beer-off-flavours.html\">beer off flavours</a>."
+  ]
+ ],
+ "cta": {
+  "title": "Score bitterness the way trained panels do",
+  "body": "Sensory Evaluation covers how to separate bitterness intensity from bitterness character, and how to score it consistently against a reference.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "beer-and-food-pairing-basics",
+  "indian-food-and-beer-pairing",
+  "mouthfeel-and-body"
+ ]
+}

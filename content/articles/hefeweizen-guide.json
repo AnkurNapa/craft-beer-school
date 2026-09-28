@@ -1,0 +1,67 @@
+{
+ "slug": "hefeweizen-guide",
+ "cat": "Styles",
+ "h1": "Hefeweizen",
+ "title": "Hefeweizen Style Guide | Craft Beer School",
+ "desc": "Hefeweizen explained: the yeast strain behind its banana and clove flavour, the malt bill, and how it differs from Belgian witbier.",
+ "teaser": "The banana and clove in a good hefeweizen do not come from fruit or spice. They come entirely from the yeast, working exactly as it should.",
+ "standfirst": "Hefeweizen is one of the few beer styles where the yeast strain is the star of the show rather than the malt or hops. Here is how that actually works.",
+ "read": "3 min",
+ "updated": "2023-03-26",
+ "updated_label": "March 2023",
+ "sections": [
+  [
+   "A Bavarian wheat beer built around one yeast strain",
+   "<p>Hefeweizen, meaning yeast wheat beer, is a South German style using a high proportion of wheat malt, often 50 percent or more of the grain bill, alongside barley malt, fermented with a specific top fermenting wheat beer yeast strain unlike any lager or standard ale yeast. That strain, most famously associated with the Weihenstephan brewery, is responsible for almost everything distinctive about the beer.</p><p>Unlike most styles where yeast character is something to minimise, hefeweizen depends entirely on it. The wrong yeast strain in an otherwise correct recipe simply does not produce a hefeweizen.</p>"
+  ],
+  [
+   "What to expect in the glass",
+   "<p>Hefeweizen pours a hazy pale gold, cloudy from suspended yeast and wheat proteins that are meant to stay in the glass rather than be filtered out, with a tall, persistent white head. The aroma is unmistakable: ripe banana from isoamyl acetate and clove or black pepper spice from 4-vinyl guaiacol, both produced naturally by the yeast strain during a warm fermentation.</p><p>Bitterness is very low, 8 to 15 IBU, and body is light to moderate, with a soft, slightly tangy wheat character underneath the banana and clove. Hops are barely noticeable by design.</p>"
+  ],
+  [
+   "Getting the banana and clove balance right",
+   "<p>Fermentation temperature is the main lever a brewer has over the balance between banana and clove. Warmer fermentation, toward 20 to 22°C, tends to push banana ester production higher, while slightly cooler fermentation within the yeast's tolerance shifts the balance more toward clove. Pitching rate and wort composition also play a role, but temperature is the most practical control point.</p><p>There is no single correct ratio. Different commercial examples lean noticeably more banana or more clove, and that variation is part of what makes the style interesting to compare across breweries.</p><p>Keeping a fermentation log that records temperature against tasting notes for each batch is the fastest way for a brewery to find its own preferred balance rather than guessing from one attempt to the next.</p>"
+  ],
+  [
+   "The wheat malt matters too",
+   "<p>A high proportion of wheat malt gives hefeweizen its characteristic soft, slightly tangy body and contributes to the persistent, fluffy head the style is known for, since wheat proteins improve head retention compared with an all barley grain bill. Because wheat malt lacks a husk, a wheat forward mash can run slower to lauter and benefits from a rice hull addition in some setups to keep the grain bed from compacting.</p><p>Unfiltered serving, leaving the yeast in suspension, is traditional and intentional rather than a shortcut. A filtered version, sometimes labelled kristallweizen, is a genuinely different drinking experience with the same base recipe.</p>"
+  ],
+  [
+   "How it differs from Belgian witbier",
+   "<p>Both are wheat beers, but hefeweizen gets its character entirely from yeast, banana and clove, with no added spice, while <a href=\"witbier-guide.html\">witbier</a> is deliberately spiced with coriander and orange peel and uses a cleaner yeast strain. Tasted side by side, the difference is obvious: hefeweizen is about fermentation character, witbier about ingredient additions.</p><p>Neither is more traditional than the other. They are simply two different wheat beer traditions, German and Belgian, solving the same basic idea in different ways.</p>"
+  ],
+  [
+   "Serving it properly",
+   "<p>Serve at 7 to 10°C, noticeably warmer than a pilsner, in the tall, curved hefeweizen glass if you have one, which is shaped specifically to hold the large head the style produces. Roll the last portion of the bottle gently to resuspend the yeast before pouring the final measure, which is standard practice rather than a mistake.</p><p>It is a genuinely good match for Indian food with some heat, since the low bitterness and fruity, spicy yeast character complement chilli rather than clashing with it the way a hop forward IPA sometimes can.</p><p>Pour it with intent, tilting the glass and finishing with a straighter pour to build that tall, dense head deliberately, rather than pouring gently the way you would a delicate pilsner. A thin head undersells a beer built partly around its own foam, so practice the pour before serving it to guests.</p><p>A common mistake is filtering or over clarifying hefeweizen, which strips out the very yeast character the style depends on. The haze is not a flaw to correct, it carries flavour and mouthfeel. Pour it with a proper swirl to rouse the sediment at the bottom of the bottle rather than leaving it behind.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does hefeweizen taste like banana?",
+   "The yeast strain used produces isoamyl acetate, a compound with a banana like aroma, as a natural byproduct of fermentation, particularly at warmer fermentation temperatures."
+  ],
+  [
+   "Is hefeweizen supposed to be cloudy?",
+   "Yes. The haze comes from suspended yeast and wheat proteins that are traditionally left in the beer rather than filtered out, and it is part of the intended appearance and flavour."
+  ],
+  [
+   "What is the difference between hefeweizen and witbier?",
+   "Hefeweizen's banana and clove character comes entirely from its yeast strain with no added spice. Witbier uses a cleaner yeast and is deliberately spiced with coriander and orange peel."
+  ],
+  [
+   "Can I control whether my hefeweizen tastes more like banana or clove?",
+   "To some extent, yes. Fermentation temperature is the main practical lever, with warmer fermentation generally producing more banana character and slightly cooler fermentation shifting the balance toward clove."
+  ]
+ ],
+ "cta": {
+  "title": "Want a style where the yeast does the heavy lifting?",
+  "body": "Style Specialisation covers wheat beer yeast selection and fermentation temperature control across a dedicated module.",
+  "href": "style-specialization-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "witbier-guide",
+  "berliner-weisse",
+  "american-light-lager"
+ ]
+}

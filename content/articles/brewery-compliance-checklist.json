@@ -1,0 +1,67 @@
+{
+ "slug": "brewery-compliance-checklist",
+ "cat": "Business",
+ "h1": "A brewery compliance checklist",
+ "title": "A Brewery Compliance Checklist | Craft Beer School",
+ "desc": "The licences, registrations and inspections a small Indian brewery has to track, grouped so nothing falls through the gap between departments.",
+ "teaser": "No single office issues everything a brewery needs. Here is the full spread, grouped so you know who to call for what.",
+ "standfirst": "Brewery compliance in India is not one process, it is several running in parallel: excise, food safety, pollution control, labour and local municipal approval. Here is how to keep track of all of them.",
+ "read": "3 min",
+ "updated": "2024-05-27",
+ "updated_label": "May 2024",
+ "sections": [
+  [
+   "Why one checklist, several regulators",
+   "<p>A new brewery founder often expects a single licence to open the business. In practice, excise, FSSAI, pollution control, fire safety, labour law and municipal trade licensing are separate systems administered by separate departments, sometimes at state level and sometimes local. None of them coordinates with the others on your behalf, and each one operates on its own paperwork, its own timeline and its own definition of what counts as compliant.</p><p>Missing one does not just delay you, it can stop a fully brewed batch from leaving the building, which is a particularly expensive kind of delay given how quickly fresh beer loses value sitting in a tank.</p>"
+  ],
+  [
+   "The excise and alcohol licensing track",
+   "<p>This covers your brewery manufacturing licence, any distribution or wholesale licence you need to move beer, and the permits required for every consignment leaving the site. See <a href=\"beer-excise-duty-india.html\">excise duty on beer in India</a> for how the tax side works alongside the licensing side. These rules differ significantly by state, and renewal cycles are usually annual, though the exact process and required documents vary widely from one state excise department to another.</p>"
+  ],
+  [
+   "Food safety, environment and labour",
+   "<p>FSSAI registration or licensing applies because beer is a food product under Indian law, covered in detail in <a href=\"fssai-rules-for-beer.html\">FSSAI and beer</a>. Pollution control board consent, both to establish and to operate, is required because brewing generates effluent, spent grain and, at scale, boiler emissions that need managed disposal. Fire safety clearance is tied to your building and equipment layout, and needs revisiting whenever you significantly change either.</p><p>Labour law compliance, including registers, wages and safety provisions, applies once you employ staff, which is covered further in <a href=\"brewery-staffing.html\">staffing a small brewery</a> and is easy to overlook when a founder is focused entirely on the alcohol-specific licences.</p>"
+  ],
+  [
+   "Local and structural approvals",
+   "<p>Municipal trade licensing, building use permission, industrial or commercial depending on your state's zoning, and weights-and-measures registration for anything sold by volume all sit outside the alcohol-specific track entirely. These are easy to overlook because they feel generic and unrelated to brewing, but a brewery cannot legally operate without them regardless of how clean its excise file is.</p><p>Some founders discover these requirements only when a fire safety or municipal inspector visits unannounced, which is a needlessly stressful way to learn about a gap that could have been closed months earlier.</p>"
+  ],
+  [
+   "Building a compliance calendar that actually works",
+   "<p>Put every licence, registration and renewal date into one shared calendar with a 60-day lead-time reminder, because renewal windows and required documents vary by department and by state, and processing time is rarely instant. Assign one person, even in a small team, as the owner of this calendar. A brewery that treats compliance as everyone's job in general tends to find it is nobody's job in particular when a renewal is missed.</p><p>Because requirements, fees and timelines vary by state and change from year to year, verify each item against the relevant state or central notification, or work with a licensing consultant who tracks changes across departments for a living, rather than relying on a list that was accurate when a friend's brewery opened two years ago.</p>"
+  ],
+  [
+   "Who actually issues what, in practice",
+   "<p>It helps to separate the paperwork by who you are actually dealing with: the state excise department for manufacturing and distribution licences, FSSAI's regional office for food safety registration, the state pollution control board for environmental consent, the local fire department for safety clearance, and the municipal corporation for trade licensing and building use permission. Each of these runs on a different form, a different fee schedule and a different officer, and none of them will proactively tell you what another department needs from you.</p><p>Keeping a single page listing which department owns which requirement, updated as you go, saves a surprising amount of confusion later when a renewal notice arrives and nobody remembers which office originally issued it.</p><p>When in doubt about which office to approach first, start with your state excise department, since most other approvals, from FSSAI to municipal trade licensing, tend to ask whether that piece is already in hand.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the single most commonly missed licence?",
+   "Pollution control board consent is frequently underestimated, since founders focus on excise and FSSAI and forget that effluent and spent grain disposal are separately regulated."
+  ],
+  [
+   "Do all these licences need annual renewal?",
+   "Most do, but cycles and required documents vary by department and by state, so check each one's specific renewal terms rather than assuming a single annual date covers everything."
+  ],
+  [
+   "Can a licensing consultant handle all of this for me?",
+   "Many consultants specialise in exactly this kind of multi-department coordination and can be worth the fee purely to avoid a missed renewal halting production."
+  ],
+  [
+   "Does a brewpub need a different checklist to a packaging brewery?",
+   "The core list overlaps heavily, but a brewpub adds food service licensing on top, while a packaging brewery adds more weight to labelling and distribution permits."
+  ]
+ ],
+ "cta": {
+  "title": "Build your own compliance calendar with guided help",
+  "body": "Brewery Business Management walks through licensing, compliance and operations across three live weekends, 20 students per batch, with recordings and a certificate.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "beer-distribution-india",
+  "on-trade-vs-off-trade",
+  "brewery-equipment-buying-guide"
+ ]
+}

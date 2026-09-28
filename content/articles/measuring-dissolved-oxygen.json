@@ -1,0 +1,67 @@
+{
+ "slug": "measuring-dissolved-oxygen",
+ "cat": "Brewing science",
+ "h1": "Measuring dissolved oxygen",
+ "title": "Measuring Dissolved Oxygen in Beer | Craft Beer School",
+ "desc": "Why oxygen pickup after fermentation ruins beer quietly, how to measure it, and the packaging steps that keep dissolved oxygen down.",
+ "teaser": "The beer that tastes fine on packaging day and stale six weeks later almost always has an oxygen problem nobody measured.",
+ "standfirst": "Dissolved oxygen is invisible, has no smell of its own, and does most of its damage weeks after the beer leaves the brewery. Here is how to actually measure it and where it gets in.",
+ "read": "3 min",
+ "updated": "2026-05-07",
+ "updated_label": "May 2026",
+ "sections": [
+  [
+   "Why oxygen is the quiet killer",
+   "<p>Oxygen picked up after fermentation reacts slowly with hop compounds and beer components to produce cardboard, sherry and stale flavours, a process that speeds up dramatically with warm storage. The beer can taste completely fine at the packaging line and noticeably tired a month later, which is exactly why it gets blamed on everything except the real cause.</p><p>By the time oxidation is obvious in the glass, it is far too late to fix. The only real lever is measuring and controlling pickup before it happens.</p>"
+  ],
+  [
+   "Where dissolved oxygen actually gets in",
+   "<p>Fermentation itself produces carbon dioxide that purges most oxygen from a sealed vessel, so the highest risk points are everywhere after that: transfers between tanks, filtration, carbonation stone or venturi setup, and the final fill at the canning or bottling line. Splashing during any transfer whips air straight into the beer.</p><p>Packaging is usually the single biggest contributor. An unpurged can seam or a bottle filled with excess headspace and no counter pressure will pick up more oxygen in that one step than the rest of the process combined.</p>"
+  ],
+  [
+   "How a dissolved oxygen meter actually works",
+   "<p>Most affordable brewery DO meters use an optical sensor, a luminescent dye that changes its glow characteristics depending on how much oxygen is present, rather than the older electrochemical Clark cell sensors that needed frequent membrane replacement. Optical meters are more forgiving for a small brewery because they need less maintenance and calibrate faster.</p><p>Readings are usually given in parts per billion. A well run brewery aims for total package oxygen, dissolved plus headspace, in the low tens of parts per billion. Above roughly 100 to 150 ppb, most drinkers will start noticing a shortened shelf life on hop forward beers within weeks.</p><p>Buy a meter with a probe rated for the pressures your packaging line actually reaches, particularly if you plan to measure inline during a can seaming run rather than only in a static sample. A probe rated only for atmospheric sampling will give unreliable readings under line pressure, and a brewer trusting that number is worse off than one who never measured at all.</p>"
+  ],
+  [
+   "Where to actually take readings",
+   "<p>Measuring only in the bright tank tells you nothing about what happens at the filler. Take readings in the bright tank before packaging, then again in a filled and sealed can or bottle, because the gap between those two numbers is where your real packaging line performance shows up.</p><p>A brewery that only checks tank oxygen and never checks the packaged product is measuring the wrong end of the process. The tank number can look excellent while the filler quietly adds oxygen nobody is tracking.</p>"
+  ],
+  [
+   "Fixing the pickup points, not just measuring them",
+   "<p>Purge every empty vessel, keg, bottle and can with carbon dioxide before filling. Minimise the drop height and splashing on every transfer, run counter pressure fills wherever the equipment allows it, and keep hoses full rather than half empty during transfers.</p><p>Our <a href=\"beer-stability-in-indian-heat.html\">beer stability in Indian heat guide</a> covers the other half of this problem: even a well packaged beer with low oxygen pickup will still oxidise faster if it then sits in a warm godown or an un-refrigerated delivery van.</p><p>A short checklist taped near the filler, purge, check drop height, confirm counter pressure, costs nothing and catches the lapses that happen on a busy packaging day when everyone is focused on speed.</p>"
+  ],
+  [
+   "Making DO testing routine rather than occasional",
+   "<p>A DO meter used once a quarter tells you almost nothing about your actual average performance, because packaging line behaviour drifts with worn seals, a tired pump or a new operator who fills differently. Test every batch, log the number, and treat a rising trend as an early warning rather than waiting for a customer complaint to tell you.</p><p>This is one of the clearest examples in a brewery of a number that is cheap to collect and expensive to ignore.</p><p>Log the operator's name alongside each reading too, not to assign blame but because filling technique genuinely varies person to person, and a pattern tied to a particular shift or a particular filler head is far easier to fix once you can actually see it in the data rather than guessing from memory.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good dissolved oxygen level for packaged beer?",
+   "Most well run small breweries target total package oxygen in the low tens of parts per billion. Above roughly 100 to 150 ppb, hop forward beers typically show a noticeably shorter shelf life."
+  ],
+  [
+   "Can I fix high oxygen after the beer is packaged?",
+   "No. Oxidation cannot be reversed once it happens. The only real control is preventing pickup during transfer, filtration and filling."
+  ],
+  [
+   "Do optical DO meters need calibration?",
+   "Yes, though less often than older electrochemical sensors. Follow the manufacturer's calibration schedule and always calibrate before a session that matters, such as a packaging run."
+  ],
+  [
+   "Is dissolved oxygen only a problem for hoppy beers?",
+   "No, but hop aroma fades fastest and most noticeably, so hoppy beers show oxidation first. Malty and dark beers oxidise too, usually showing up as sherry like or stale notes over a longer time."
+  ]
+ ],
+ "cta": {
+  "title": "Take the guesswork out of your packaging line",
+  "body": "Advanced Brewing Science spends a full session on dissolved oxygen, packaging line audits and shelf life over its six week run, with worked examples this guide can only summarise.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-stability-in-indian-heat",
+  "glycol-cooling-systems",
+  "brewery-qc-lab-on-a-budget"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "boil-chemistry-hot-break",
+ "cat": "Brewing science",
+ "h1": "Boil chemistry and the hot break",
+ "title": "Boil Chemistry and Hot Break | Craft Beer School",
+ "desc": "What happens chemically during the boil, why the hot break matters for clarity, and how boil vigour affects flavour.",
+ "teaser": "The boil looks simple from the outside. Underneath it, proteins are coagulating, sulphur compounds are escaping and hop acids are being reshaped.",
+ "standfirst": "An hour at a rolling boil does more than sterilise wort. It sets the beer's clarity, drives off a key off flavour precursor and converts hop resins into something the palate can actually taste as bitterness.",
+ "read": "4 min",
+ "updated": "2023-03-16",
+ "updated_label": "March 2023",
+ "sections": [
+  [
+   "Why breweries boil at all",
+   "<p>The boil sterilises wort, isomerises hop alpha acids into the soluble iso-alpha acids that taste bitter, concentrates the wort through evaporation, and drives off volatile compounds that would otherwise carry through as faults. All four happen at once, which is why boil time and vigour are not just about following a recipe number.</p><p>Malt kilning intensity also shapes how much DMS precursor is present to begin with. Pale, lightly kilned malts carry more S-methylmethionine into the mash and kettle than darker, more heavily kilned malts, where much of it has already been driven off during malting. This is one reason very pale lagers need such disciplined boil vigour, while a stout or porter recipe made from heavily roasted malts has far less DMS risk to manage in the first place.<p>Wort pH during the boil also affects how cleanly the hot break forms. Wort sitting toward the higher end of typical mash pH carries more soluble protein into the kettle, which can make coagulation less complete even at a full rolling boil. This is one reason mash pH management pays dividends well past the mash tun itself.</p>"
+  ],
+  [
+   "The hot break, and why it matters",
+   "<p>As wort reaches a rolling boil, proteins denature and bind to polyphenols from the malt and hops, clumping into visible flakes, the hot break. This is wanted. Protein and polyphenol removed here is protein and polyphenol that cannot later cause haze or foam instability in the finished beer.</p><p>A weak or absent hot break, often from a boil that never reaches a true rolling boil, leaves more of that material in solution and pushes clarity and foam problems downstream to whirlpool and packaging.</p><p>The size and firmness of the hot break flakes give a rough, visual read on how the boil is going. Fine, dusty material that will not settle usually means the boil has not reached full vigour yet, or the wort protein load was low to begin with, while large, well formed flakes that drop quickly to the kettle floor suggest a strong, complete break.</p>"
+  ],
+  [
+   "DMS and the case for a vigorous boil",
+   "<p>Malt contains a precursor, S-methylmethionine, that converts to dimethyl sulphide with heat. DMS smells of cooked sweetcorn or tinned vegetables and is volatile, so a strong, open boil carries it off in the steam. A gentle boil, a lidded kettle, or a slow cool afterwards all let DMS build back up. Pale, delicately hopped lagers show this fault most clearly, because there is little else in the beer to mask it.</p><p>Evaporation rate matters alongside DMS control. Most systems run somewhere around 8 to 10 percent evaporation per hour at a proper rolling boil, and a system evaporating well below that is often also a system not boiling hard enough to drive off DMS effectively. The two problems tend to travel together.</p>"
+  ],
+  [
+   "Isomerisation and hop utilisation",
+   "<p>Alpha acids in hops are barely soluble and barely bitter in their raw form. Boiling isomerises them into iso-alpha acids, which dissolve readily and taste bitter. Utilisation, the share of alpha acid that actually ends up as usable bitterness, rises with boil time and wort pH but plateaus after roughly 60 to 90 minutes, which is why long boils give diminishing returns on bitterness even as they concentrate the wort further.</p><p>Hop additions timed early in the boil isomerise for longer and contribute more bitterness per gram than the same hops added later, which is the basic logic behind bittering versus flavour and aroma additions. Understanding the boil's chemistry is really the foundation for understanding why hop timing matters at all, well before you get to a whirlpool addition.</p>"
+  ],
+  [
+   "Reading your own boil",
+   "<p>A true rolling boil should be vigorous enough to see the hot break form and clear within 10 to 15 minutes of reaching temperature, and it should be visibly rolling, not just steaming. If you are chasing DMS complaints or hazy pale beers with no obvious cause elsewhere, the boil is worth checking before you touch <a href=\"whirlpool-hopping.html\">the whirlpool</a> or fermentation, since both are downstream of what the boil already fixed or failed to fix.</p><p>Kettle geometry plays a role too. A wide, shallow kettle boils and evaporates differently from a tall, narrow one at the same nominal power input, and breweries moving between pilot and production scale often need to re-establish their DMS and hot break behaviour rather than assuming it scales directly.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should a boil be?",
+   "Sixty to ninety minutes is standard for most base malt recipes, long enough to drive off DMS and reach good hop utilisation. Some delicate pilsner recipes use longer boils specifically to manage DMS."
+  ],
+  [
+   "What causes a weak hot break?",
+   "A boil that never reaches a true rolling boil, low protein or polyphenol content in the grist, or wort pH that is unusually high. All three reduce the coagulation that produces a visible hot break."
+  ],
+  [
+   "Does a longer boil always remove more DMS?",
+   "Up to a point. DMS removal depends more on boil vigour and an open kettle than on extra time once a strong boil is established."
+  ],
+  [
+   "Should the kettle lid be on or off during the boil?",
+   "Off, or mostly off. A lidded kettle traps steam and lets DMS and other volatiles condense back into the wort instead of escaping."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how boil chemistry, DMS control and hop utilisation actually interact on a real brewhouse, further than a single guide can take you. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "whirlpool-hopping",
+  "wort-aeration-and-oxygen",
+  "brewhouse-efficiency"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "lautering-and-sparging",
+ "cat": "Brewing science",
+ "h1": "Lautering and sparging",
+ "title": "Lautering and Sparging | Craft Beer School",
+ "desc": "How wort separation actually works, the difference between batch and fly sparging, and the most common causes of a stuck mash.",
+ "teaser": "Lautering is the step most homebrewers rush, and the step most likely to quietly cost you efficiency if you do.",
+ "standfirst": "Separating sweet wort from spent grain sounds simple. Getting good efficiency and avoiding a stuck mash depends on details most recipes skip over entirely.",
+ "read": "3 min",
+ "updated": "2022-08-10",
+ "updated_label": "August 2022",
+ "sections": [
+  [
+   "What lautering and sparging each do",
+   "<p>Lautering is the general process of separating liquid wort from the solid spent grain bed after mashing. Sparging is specifically rinsing that grain bed with additional hot water afterward to recover sugar left behind in the liquid still clinging to the grain. The two happen back to back and are often talked about as one step, but they are doing slightly different jobs.</p><p>A brewer moving from extract brewing to all grain for the first time often underestimates how much attention this step alone needs, since it has no real equivalent in extract brewing and is frequently the single biggest adjustment in a first all grain brew day.</p>"
+  ],
+  [
+   "Batch sparging",
+   "<p>Batch sparging drains the mash liquid completely, then adds the full sparge water volume at once, stirs, and drains again, usually in one or two batches. It is faster and simpler than fly sparging, forgiving of a less precisely designed lauter tun, and the standard choice for most homebrewers and many small breweries, at a modest cost in final extraction efficiency compared with a well executed fly sparge.</p>"
+  ],
+  [
+   "Fly sparging",
+   "<p>Fly sparging trickles sparge water continuously onto the top of the grain bed while wort drains continuously from the bottom, keeping the grain bed submerged throughout and rinsing more thoroughly and more gently than a batch dump. Done well it extracts somewhat more sugar for the same grain bill, but it needs a more careful setup, a slower, more attentive process, and a longer brew day.</p>"
+  ],
+  [
+   "What causes a stuck mash",
+   "<p>A stuck lauter, where wort stops draining or slows to a crawl, is usually caused by too fine a grain crush compacting the grain bed, a grain bed that has been disturbed and channelled unevenly, or a beta glucan heavy grist, common with oats, rye or unmalted wheat, forming a gummy, slow-draining mass. See our <a href=\"step-mashing.html\">step mashing</a> guide for the beta glucan rest that helps with the last of these before it becomes a lautering problem at all.</p><p>Vorlauf, recirculating the first cloudy runnings back over the grain bed before collecting wort properly, helps the grain bed settle into a natural filter and reduces the risk of both a stuck mash and a hazy final wort.</p>"
+  ],
+  [
+   "Getting good efficiency without over-sparging",
+   "<p>Extended sparging past the point where runnings thin out significantly, generally below about 1.010 specific gravity, extracts diminishing sugar while pulling more tannin and husk-derived astringency from the grain, particularly if the water used is alkaline. See our guide on <a href=\"mash-ph-explained.html\">mash pH</a> for why sparge water pH also matters here, since over-sparging with alkaline water compounds the astringency risk rather than just adding thin, watery runnings.</p>"
+  ],
+  [
+   "No-sparge brewing as the simplest alternative",
+   "<p>Some brewers skip sparging entirely, using a larger single mash volume and collecting all the wort in one drain with no rinse at all, trading some efficiency for a genuinely simpler brew day. This works reasonably well for smaller batches and less efficiency-sensitive recipes, though it typically needs a larger grain bill to hit the same original gravity a sparged batch would reach with less grain.</p>"
+  ],
+  [
+   "False bottoms, manifolds and grain bed support",
+   "<p>The physical design of a lauter tun's false bottom or manifold, the perforated or slotted surface the grain bed rests on, affects how evenly wort drains and how much whole husk material is needed in the grist to form a good natural filter bed. A mash relying heavily on flaked or malted wheat with little husk, like a wheat beer grist, drains less predictably through a standard manifold than a barley-heavy grist with plenty of husk material, which is one reason rice hulls are sometimes added purely to improve drainage.</p>"
+  ],
+  [
+   "Grain crush and its knock-on effect on lautering",
+   "<p>A crush set too fine for your lauter system's ability to drain, chasing slightly better extraction efficiency, is one of the most common causes of a slow or stuck lauter, and the fix is often simpler than brewers expect: opening the mill gap slightly rather than changing anything else about the process. A slightly coarser crush costs a small amount of efficiency and buys a much more reliable, faster lauter, a trade most small breweries and homebrewers should take.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What causes a stuck mash?",
+   "Usually a grain crush that is too fine, an uneven or channelled grain bed, or a beta glucan heavy grist from oats, rye or unmalted wheat forming a gummy mass that resists draining."
+  ],
+  [
+   "Is fly sparging worth the extra effort over batch sparging?",
+   "It typically gives somewhat better extraction efficiency, but batch sparging is simpler, faster and perfectly adequate for most homebrew and small-scale batches."
+  ],
+  [
+   "What is vorlauf and why does it matter?",
+   "Recirculating the first runnings back over the grain bed before collecting wort. It lets the grain bed settle into a natural filter, giving a clearer wort and a more even lauter."
+  ],
+  [
+   "When should I stop sparging?",
+   "Generally once runnings drop to around 1.010 specific gravity or lower, since sparging past that point extracts little extra sugar while raising the risk of tannin extraction."
+  ]
+ ],
+ "cta": {
+  "title": "Fix efficiency and consistency at the source",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers lautering equipment, sparging method and mash chemistry together, the connected system behind consistent brewhouse efficiency.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "stuck-mash-fixes",
+  "brewhouse-efficiency",
+  "decoction-mashing"
+ ]
+}

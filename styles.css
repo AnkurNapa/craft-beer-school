@@ -356,3 +356,15 @@ footer.site a:hover{color:#fff}
 .course-facts .cta-pair{margin-left:auto}
 @media (max-width:760px){.course-facts .cta-pair{margin-left:0;width:100%}.course-facts .cta-pair .btn{flex:1;justify-content:center}}
 @media (max-width:760px){.course-facts .cta-pair .btn,.cta-inline .cta-pair .btn{flex:1 1 100%;justify-content:center}.course-facts{margin-top:-1rem;padding:1.2rem}}
+
+/* ---- Blog segments ---------------------------------------- */
+.seg-nav{display:flex;flex-wrap:wrap;gap:.6rem}
+.seg-chip{font-family:var(--head);font-weight:600;font-size:.9rem;padding:.5rem 1.1rem;border:1px solid var(--navy);border-radius:980px;color:var(--navy);transition:background .2s,color .2s}
+.seg-chip:hover,.seg-chip:focus-visible{background:var(--navy);color:#fff}
+.seg{scroll-margin-top:80px}
+.seg+.seg{border-top:1px solid var(--line)}
+.more{margin-top:1.4rem}
+.more summary{cursor:pointer;font-family:var(--head);font-weight:700;color:var(--blue);list-style:none;margin-bottom:1.4rem}
+.more summary::-webkit-details-marker{display:none}
+.more summary::after{content:" +"}
+.more[open] summary::after{content:" \2212"}

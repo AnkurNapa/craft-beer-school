@@ -1,0 +1,59 @@
+{
+ "slug": "how-to-calculate-abv",
+ "cat": "Brewing basics",
+ "h1": "How to calculate ABV from gravity readings",
+ "title": "How to Calculate ABV From Gravity | Craft Beer School",
+ "desc": "The standard homebrew ABV formula, worked through with real numbers, and where it becomes less accurate.",
+ "teaser": "One formula, two gravity readings, and you know your beer's alcohol content to a useful degree of accuracy.",
+ "standfirst": "Alcohol by volume is not something you taste your way to reliably. It comes from a short formula applied to two hydrometer readings, and it takes about thirty seconds once you have both numbers.",
+ "read": "3 min",
+ "updated": "2023-05-10",
+ "updated_label": "May 2023",
+ "sections": [
+  [
+   "The formula homebrewers actually use",
+   "<p>The standard simplified formula is ABV = (OG minus FG) multiplied by 131.25. Take your original gravity reading, subtract your final gravity reading, and multiply the result by 131.25 to get a percentage. It is not the most scientifically precise formula available, but it is accurate enough for homebrewing and it is the version taught almost everywhere.</p><p>Some brewing software and more advanced brewers use a slightly different constant, sometimes 131 or 133, or a more complex non-linear formula. The differences between them are small, usually well under half a percentage point, and for a homebrewer working from a hydrometer rather than a laboratory instrument, that level of precision rarely matters in practice.</p><p>Keep the formula itself somewhere handy, written on the inside cover of a brewing notebook or saved as a phone note, since it is genuinely one of those small pieces of arithmetic that is easy to blank on mid-brew-day even after using it many times before.</p>"
+  ],
+  [
+   "Working through a real example",
+   "<p>Say a batch started at an OG of 1.052 and finished at an FG of 1.012. Subtract: 1.052 minus 1.012 equals 0.040. Multiply 0.040 by 131.25 and you get 5.25. That beer is roughly 5.25 percent ABV, a fairly typical strength for a pale ale.</p><p>Try a second example to build confidence: an OG of 1.065 and an FG of 1.014 gives a difference of 0.051, which multiplied by 131.25 comes to roughly 6.7 percent ABV, a fairly strong ale. Running the numbers yourself a few times on real readings is the fastest way to stop needing a calculator for it.</p><p>Practising with a couple of your own past batches, if you have the readings recorded, is a good way to make the calculation feel automatic before you need to rely on it for a batch you actually care about getting right.</p>"
+  ],
+  [
+   "Why you need both readings, not just one",
+   "<p>OG alone tells you how much sugar you started with, and FG alone tells you how much is left, but neither number by itself tells you how much of that sugar actually became alcohol. Skipping proper OG and FG measurement, discussed in <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity explained</a>, is the most common reason homebrewers end up guessing at their beer's strength.</p><p>Some online and phone-based calculators will do this arithmetic for you and also apply a temperature correction if you enter your sample temperature, which is a reasonable shortcut once you already understand what the calculation is doing rather than as a replacement for learning it.</p>"
+  ],
+  [
+   "Where the simplified formula loses accuracy",
+   "<p>The 131.25 formula assumes a fairly linear relationship between gravity and alcohol content that holds reasonably well for typical session and standard-strength beers. At higher gravities, well above roughly 1.070 OG, the relationship curves slightly and the simplified formula starts to overstate ABV a little. More precise formulas exist for very strong beers, but for the vast majority of homebrew batches the simple version is close enough to plan a party around.</p><p>Brewing software that models this curve more precisely is worth using once you are regularly brewing strong beers, such as barleywines or imperial stouts, where even a half a percentage point of ABV difference matters for labelling or for staying within a particular category at a competition.</p>"
+  ],
+  [
+   "Getting reliable readings in the first place",
+   "<p>The formula is only as good as the two numbers you feed it. Take both readings with the same hydrometer, correct for sample temperature if it differs from the instrument's calibration point, and confirm FG with two matching readings 48 hours apart rather than one early number. Good technique for taking those readings is covered in <a href=\"how-to-use-a-hydrometer.html\">how to use a hydrometer properly</a>, and it matters more to your final ABV figure than the formula itself does.</p><p>A common beginner error is comparing a calculated ABV against a commercial beer's printed label and assuming a mismatch means something went wrong. Commercial labels often round or use slightly different measurement methods, so a homebrew reading a few tenths of a percent off a comparable style is not evidence of a mistake.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is 131.25 the exact scientifically correct multiplier?",
+   "It is a widely used approximation, not an exact physical constant. It gives a result close enough for practical homebrewing purposes across most normal-strength beers."
+  ],
+  [
+   "Why did my calculated ABV come out negative or zero?",
+   "Almost always a reading error, usually an FG taken before fermentation actually finished, or a temperature correction that was not applied. Recheck both readings before trusting a strange result."
+  ],
+  [
+   "Does a higher OG always mean a stronger finished beer?",
+   "Generally yes, but not automatically, since the final ABV also depends on how much of that sugar the yeast actually manages to ferment, which varies by strain, pitch rate and fermentation temperature."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-is-ibu",
+  "beer-colour-srm-ebc",
+  "original-gravity-final-gravity-explained"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "hop-varieties-for-beginners",
+ "cat": "Ingredients",
+ "h1": "Hop varieties for beginners",
+ "title": "Hop varieties for beginners | Craft Beer School",
+ "desc": "A beginner's short list of hop varieties, sorted by bittering versus aroma use, to start experimenting with.",
+ "teaser": "Every hop does two jobs, bitterness and aroma, and almost none of them do both equally well.",
+ "standfirst": "Walk into any homebrew shop and the wall of hop varieties looks intimidating. Sorted by what each one is actually for, it becomes a short, manageable list.",
+ "read": "3 min",
+ "updated": "2023-05-19",
+ "updated_label": "May 2023",
+ "sections": [
+  [
+   "Bittering hops versus aroma hops",
+   "<p>The same hop cone can be used for both bitterness and aroma, but varieties tend to lean one way. High alpha acid hops (the compound responsible for bitterness, covered in detail in our guide to <a href=\"alpha-acids-explained.html\">alpha acids</a>) are economical choices for a long boil addition, where most of the aroma compounds boil off anyway. Lower alpha, aromatic varieties are saved for late boil, whirlpool or dry hop additions, where their fragile aroma oils survive because they are never exposed to a long boil.</p>"
+  ],
+  [
+   "A short list to start with",
+   "<p>Cascade, floral and citrusy with a moderate 5 to 7 percent alpha acid, is the hop most associated with the American pale ale style and a sensible first hop to learn on. Centennial, sometimes called super Cascade, is similar but stronger and slightly more floral. Simcoe brings a distinctive passionfruit and pine character at a higher alpha acid, useful for both bittering and aroma in one hop. Fuggle and East Kent Golding, both low alpha English hops, give an earthy, mild character suited to English styles rather than the bright citrus of American varieties.</p>"
+  ],
+  [
+   "Noble hops: a different family entirely",
+   "<p>European noble hops, Hallertau, Tettnang, Saaz and Spalt, sit at low alpha acid and bring a spicy, herbal, sometimes floral character rather than the citrus or pine of American hops. They are the traditional backbone of European lagers and belong in a separate conversation, covered fully in our guide to <a href=\"noble-hops-explained.html\">noble hops</a>, because their role in a recipe is quite different from the American varieties above.</p>"
+  ],
+  [
+   "What alpha acid percentage actually tells you",
+   "<p>A hop's alpha acid percentage, printed on the package and varying by harvest year, tells you roughly how much bitterness a given weight will contribute during a boil, which matters directly if you are using a <a href=\"brewing-software-and-calculators.html\">calculator</a> to hit a target IBU. Higher alpha hops need less weight to reach the same bitterness, which makes them more efficient for bittering additions but not necessarily better for aroma, where the actual oil profile matters more than the alpha percentage.</p>"
+  ],
+  [
+   "Building confidence before branching out",
+   "<p>Pick two or three hops from the short list above and brew a few batches varying only the hop, keeping the rest of the recipe constant. That comparison, more than reading any description, is what teaches you what a hop actually smells and tastes like in a finished beer, and it is worth logging carefully in the way described in our guide to <a href=\"keeping-a-brew-log.html\">keeping a brew log</a> before moving on to the <a href=\"american-hops-guide.html\">wider American hop family</a> or beyond.</p>"
+  ],
+  [
+   "Boil hopping versus dry hopping for a beginner",
+   "<p>A boil addition, whether at 60 minutes for bitterness or 5 minutes for aroma, is straightforward: weigh the hop, add it to the kettle at the stated time, done. Dry hopping, adding hops directly to the fermenter after the main fermentation has slowed, needs a little more care: it should happen once most active fermentation has finished, both to avoid excessive CO2 scrubbing the aroma compounds back out and to reduce the risk of introducing oxygen into an actively blowing-off fermenter. A simple, reliable starting point is a single dry hop addition, 2 to 4 grams per litre, added three to five days before packaging, left in contact for 3 to 5 days, which is enough to build real confidence before experimenting with the split or multi-stage dry hop schedules more advanced recipes use.</p><p>Buy hops in the smallest quantity that covers your immediate brewing plan rather than a large bulk pack up front, particularly while you are still working out which varieties you actually like. This also keeps every hop you use reasonably fresh, which matters more to the final result than most beginners expect, as covered fully in our guide to <a href=\"hop-storage-and-freshness.html\">hop storage and freshness</a>.</p><p>Keep a simple written note of which hop went into which batch and what you thought of the aroma once the beer was finished, rather than trying to remember it later. This is exactly the kind of record covered in our guide to <a href=\"keeping-a-brew-log.html\">keeping a brew log</a>, and it becomes far more valuable once you are comparing five or six hops rather than just the first two or three.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between a bittering hop and an aroma hop?",
+   "Mostly how they are used rather than an inherent property. High alpha hops are efficient added early for bitterness; lower alpha, aromatic varieties are usually saved for late additions where their oils survive."
+  ],
+  [
+   "Which hop should a beginner try first?",
+   "Cascade is a reasonable starting point: moderate alpha acid, recognisable citrus and floral character, and widely available."
+  ],
+  [
+   "Does a higher alpha acid percentage mean a better hop?",
+   "No, it just means less weight is needed to reach a given bitterness. Aroma quality depends on the hop's oil profile, not its alpha acid percentage."
+  ]
+ ],
+ "cta": {
+  "title": "Want a proper foundation before you keep experimenting?",
+  "body": "A short list gets you started. Building a real hop programme takes structured practice. Brewing Fundamentals runs 4 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "alpha-acids-explained",
+  "noble-hops-explained",
+  "brewing-sugars-explained"
+ ]
+}

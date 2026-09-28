@@ -1,0 +1,67 @@
+{
+ "slug": "beer-label-design",
+ "cat": "Branding",
+ "h1": "Beer label design that works",
+ "title": "Beer Label Design That Works | Craft Beer School",
+ "desc": "What actually makes a beer label work on a shelf and at a bar: hierarchy, legibility, colour and the shelf-distance test.",
+ "teaser": "A label has about two seconds to do its job. Most of that time gets wasted on decoration instead of information.",
+ "standfirst": "Good beer label design is not primarily about looking beautiful up close. It is about communicating fast, at a distance, next to fifty other labels competing for the same two seconds of attention.",
+ "read": "3 min",
+ "updated": "2022-02-09",
+ "updated_label": "February 2022",
+ "sections": [
+  [
+   "Design for the shelf, not the desk",
+   "<p>A label that looks stunning on a designer's monitor can disappear completely on a retail shelf next to dozens of other beers, because shelf context is unforgiving: small type vanishes, subtle colour contrasts flatten, and busy compositions blur into noise from three feet away. Print a mock-up at actual size and view it from typical shopping distance before finalising anything, ideally under the kind of lighting a real shop or bar actually uses.</p><p>This single test catches more design mistakes than any amount of screen-based review ever will, however carefully that review was done.</p>"
+  ],
+  [
+   "Hierarchy: what needs to be read first",
+   "<p>A drinker scanning a shelf needs to identify the brand, then the beer style or name, then anything else, in that order, within a couple of seconds of glancing at it. If your label gives equal visual weight to the brand name, the beer name, a tasting note and a decorative illustration, none of it actually registers first, and the whole label reads as noise rather than information.</p><p>Pick one dominant element and let everything else support it visually, resisting the temptation to give every piece of information equal prominence.</p>"
+  ],
+  [
+   "Colour as information, not just decoration",
+   "<p>Colour can do real communicative work: consistent colour coding across a range helps returning customers spot their preferred style at a glance, and strong colour contrast, light text on dark, or the reverse, is what actually makes a label legible from a distance, more than font choice does on its own. Test your colour choices specifically for legibility at small size and low light, since many bars and shops are dimmer than a design studio ever is.</p>"
+  ],
+  [
+   "Where the name and the visual identity meet",
+   "<p>The name chosen in <a href=\"naming-a-beer-brand.html\">naming a beer brand</a> should drive the label's typography and layout, not fight against it once the design process begins. A short, punchy name suits bold, large-scale type as the dominant element, while a longer or more evocative name may need a supporting illustration to carry some of the communicative weight the name alone cannot manage.</p><p>Decide this relationship before commissioning artwork, rather than discovering a mismatch once the design is nearly finished.</p>"
+  ],
+  [
+   "Mandatory information is part of the design, not an afterthought",
+   "<p>ABV, volume, manufacturer details and required warning text are not optional extras to squeeze in after the creative work is done, they are fixed constraints the design has to accommodate from the first sketch onward. See <a href=\"beer-label-rules-india.html\">beer label rules in India</a> for what must appear and roughly where it needs to sit on the finished label.</p><p>A label redesigned late to cram in compliance text after the creative concept is finished usually looks like exactly that, and drinkers notice the awkwardness even if they cannot name what is wrong. Treat the compliance zone as a fixed piece of the grid from the start, the same way a print designer treats bleed and trim marks, rather than a problem to solve at the end. A designer briefed on these constraints from day one usually produces a tighter, more resolved layout than one asked to shoehorn them in later.</p>"
+  ],
+  [
+   "Testing before you commit to print",
+   "<p>Show the label to people outside your immediate circle, ideally people who match your actual target drinker, and ask a specific question: can you tell what this beer is and roughly what it costs, without being told. A label that needs verbal explanation to land its basic message has not yet done its job on a shelf where no one is there to explain it.</p><p>Run this test on a printed sample under normal lighting, not a screen mockup in a quiet design review, since the two settings give genuinely different answers.</p><p>If several testers hesitate on the same question, style, price impression or brand name, treat that as a real signal rather than noise, and go back to whichever design element is causing the confusion before committing to print.</p><p>This kind of testing costs almost nothing compared with a full print run, and it is far cheaper to fix a confusing label on paper than to discover the same confusion once thousands of units are already printed and boxed on a delivery truck.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the biggest mistake in beer label design?",
+   "Designing for close-up viewing on a screen rather than for shelf distance, which is where the label actually has to do its job in a shop or bar."
+  ],
+  [
+   "Should mandatory label information be designed in from the start?",
+   "Yes. ABV, volume, manufacturer details and warning text are fixed constraints, and a label built around them from the first sketch looks far more coherent than one with them added late."
+  ],
+  [
+   "How much should colour vary across a beer range?",
+   "Enough to distinguish styles at a glance, but consistent enough that customers still recognise the overall brand. A shared layout with style-specific colour usually achieves both."
+  ],
+  [
+   "Does the beer name affect the label layout?",
+   "Yes, directly. A short name suits bold dominant type, while a longer name often needs a supporting visual element to carry equal communicative weight."
+  ]
+ ],
+ "cta": {
+  "title": "Learn label design as a full system, not a one-off project",
+  "body": "Beer Branding & Packaging is a three-week live course covering label design, layout hierarchy and packaging strategy in far more depth than a single guide can.",
+  "href": "beer-branding-packaging-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-label-rules-india",
+  "cans-vs-bottles",
+  "naming-a-beer-brand"
+ ]
+}

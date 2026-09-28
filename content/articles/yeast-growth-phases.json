@@ -1,0 +1,63 @@
+{
+ "slug": "yeast-growth-phases",
+ "cat": "Brewing science",
+ "h1": "The phases of yeast growth",
+ "title": "Yeast Growth Phases Explained | Craft Beer School",
+ "desc": "The four phases a yeast population moves through during fermentation, and what each one means for flavour and timing.",
+ "teaser": "Yeast does not ferment at a constant rate. It grows, peaks, coasts and declines, and each phase leaves its mark on the finished beer.",
+ "standfirst": "Reading a fermentation curve is really reading yeast biology. Knowing which phase you are in tells you what to expect next and what to worry about if it does not show up.",
+ "read": "3 min",
+ "updated": "2023-10-21",
+ "updated_label": "October 2023",
+ "sections": [
+  [
+   "Lag phase: the quiet start",
+   "<p>Immediately after pitching, yeast is not yet dividing. It is taking up the oxygen and nutrients from the wort, particularly the sterols and unsaturated fatty acids discussed under <a href=\"wort-aeration-and-oxygen.html\">wort aeration</a>, and preparing its cell machinery for growth. A healthy pitch at the right rate and temperature keeps this phase short, often just a few hours. A long lag phase invites contamination, since the wort sits undefended by fermentation activity or falling pH.</p><p>Krausen, the foamy layer that forms on top of an actively fermenting ale, is really a visible marker of the exponential and stationary phases overlapping, carrying yeast, hop resins and proteins to the surface on rising CO2. Its height and colour give an experienced brewer a rough, non-invasive read on fermentation progress without opening the vessel.</p>"
+  ],
+  [
+   "Exponential growth: the population builds",
+   "<p>Once adapted, yeast begins budding rapidly, doubling its population repeatedly as it consumes available oxygen and nutrients. This is when most of the yeast's total growth for the batch happens, typically three to five generations of budding depending on pitch rate and wort composition. Fermentation activity, visible as krausen and CO2 output, rises sharply through this phase.</p><p>Pitch rate sets the starting size of the population entering lag phase, and it is one of the few variables a brewer controls directly. An underpitch forces more total divisions to reach the same final cell count, which extends the growth phase and pushes more stress-related byproducts, covered further under esters and fusel alcohols, into the beer.</p>"
+  ],
+  [
+   "Stationary phase: peak fermentation",
+   "<p>Growth slows as oxygen and key nutrients run out, but fermentation itself continues at a high rate, now driven by the large yeast population built during exponential growth rather than by further budding. Most of the wort's sugar is consumed here. Temperature control matters most in this window, since active fermentation is exothermic and a big batch can drift several degrees above its set point if the cooling capacity is not enough.</p><p>Temperature during the growth phase affects both the speed of division and the byproducts produced per division, which is why two identical pitches at different fermentation temperatures can finish at similar gravities but taste noticeably different. The growth phase, not just the later stationary phase, is where much of that flavour divergence is set.</p>"
+  ],
+  [
+   "Decline phase: cleanup and settling",
+   "<p>As fermentable sugar runs low, yeast activity slows and cells begin to flocculate, clump together, and settle. This is also when yeast reabsorbs some of its own fermentation byproducts, including the vicinal diketones behind diacetyl, which is why a <a href=\"diacetyl-rest.html\">diacetyl rest</a> is timed for this phase rather than earlier.</p><p>Generation count across repeated repitches also changes how a yeast population behaves through these phases. Yeast that has been repitched many times without a fresh propagation can show slower lag phases and reduced vitality, which is one reason breweries retire a strain after a set number of generations rather than repitching indefinitely.</p>"
+  ],
+  [
+   "Why the shape of the curve matters",
+   "<p>A fermentation that skips straight from lag to a slow, weak stationary phase without a visible exponential rise usually points at an underpitch, poor yeast health or a nutrient deficiency. A curve that looks right on paper but tastes wrong at packaging often means the decline phase was cut short by pulling the beer off the yeast, or by cold crashing, too early for cleanup to finish.</p><p>Harvesting yeast for repitching during the right window in the decline phase, once flocculation has begun but before the population has sat too long on spent, nutrient-poor beer, gives the healthiest starting material for the next batch. Yeast left too long past this point in a warm fermenter can start to show reduced vitality even before any visible sign of trouble appears in the beer itself.</p><p>Monitoring cell counts and viability with a microscope or automated counter, rather than relying on fermentation activity alone, gives a much clearer picture of which phase a batch is actually in, particularly useful when a fermentation looks sluggish and the cause could be a genuinely small population or simply a slow but healthy one.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many times does yeast divide during fermentation?",
+   "Typically three to five generations of budding for a standard gravity pitch, though this varies with pitch rate, oxygen availability and wort nutrients."
+  ],
+  [
+   "What happens if I skip aeration before pitching?",
+   "Yeast enters exponential growth with incomplete membranes, which tends to shorten or weaken growth, stress the cells, and increase certain fermentation byproducts."
+  ],
+  [
+   "Why does fermentation temperature rise on its own?",
+   "Fermentation is an exothermic reaction. During the exponential and stationary phases, the yeast population is large and active enough to raise the beer's temperature above the set point without external heating."
+  ],
+  [
+   "Should I pull the beer off the yeast as soon as gravity stabilises?",
+   "Usually not immediately. Giving the decline phase time to finish, often a few extra days at fermentation temperature, lets yeast reabsorb byproducts like diacetyl before cold crashing."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to read a fermentation curve properly, diagnose pitch rate and nutrient problems, and time your cellar work to the yeast's actual biology. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "esters-and-fusel-alcohols",
+  "diacetyl-rest",
+  "wort-aeration-and-oxygen"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "diacetyl-rest",
+ "cat": "Brewing science",
+ "h1": "The diacetyl rest",
+ "title": "The Diacetyl Rest Explained | Craft Beer School",
+ "desc": "Why beer picks up a buttery flavour, how a diacetyl rest fixes it, and when to actually schedule one.",
+ "teaser": "Diacetyl is not a mystery fault. It is a normal fermentation byproduct that yeast is meant to clean up before you cold crash it away.",
+ "standfirst": "A diacetyl rest is a deliberate pause near the end of fermentation that lets yeast finish a job it was already doing. Skip it and the butter note that should have disappeared stays in the beer.",
+ "read": "3 min",
+ "updated": "2024-02-26",
+ "updated_label": "February 2024",
+ "sections": [
+  [
+   "Where diacetyl comes from",
+   "<p>During active fermentation, yeast produces alpha-acetolactate as a byproduct of building the amino acid valine. Some of this leaks out of the cell and converts, without any enzyme involved, into diacetyl, which tastes and smells of butter or butterscotch and leaves a slick texture on the tongue. This is a normal, expected step in fermentation, not a sign of anything wrong yet.</p><p>A forced diacetyl test gives a more reliable read than tasting straight from a cold sample. Warming a small sample to around 60 degrees Celsius for a short period accelerates the same non-enzymatic conversion of alpha-acetolactate that would otherwise happen slowly in the tank, revealing diacetyl that a cold taste might miss because it has not yet converted.</p>"
+  ],
+  [
+   "How yeast is supposed to clean it up",
+   "<p>Healthy, active yeast reabsorbs diacetyl and reduces it into compounds with far higher flavour thresholds that go unnoticed at normal concentrations. This reabsorption needs the yeast to still be metabolically active and in contact with the beer, which is exactly what a rushed fermentation schedule removes.</p><p>Yeast strain choice affects how much diacetyl rest is needed in the first place. Some strains are naturally more efficient at reabsorption and need only a short rest, while others, often chosen for other flavour reasons, are slower and benefit from a longer or slightly warmer rest to reach the same clean result.</p>"
+  ],
+  [
+   "What a diacetyl rest actually is",
+   "<p>Near the end of primary fermentation, once gravity is close to final, the beer is held at a slightly warmer temperature, often raised a few degrees toward the top of the yeast strain's range, for two to four days before cold crashing. The warmer temperature keeps the yeast active enough to finish reabsorbing diacetyl rather than falling dormant with the job half done.</p> Documenting the exact rest schedule that works for a given strain also helps train new cellar staff, giving them a concrete, tested reference rather than a vague instruction to rest the beer warm for a while before crashing.<p>Raising the temperature too aggressively for the rest can itself cause problems, pushing the beer warm enough to encourage unwanted ester production discussed under esters and fusel alcohols. A rest is usually a modest rise of a few degrees rather than jumping straight to ale fermentation temperatures for a lager.</p>"
+  ],
+  [
+   "Why lagers need it more than ales",
+   "<p>Lager fermentations run cold, typically 8 to 13 degrees Celsius, which slows yeast metabolism enough that diacetyl reabsorption can lag behind. The rest is a near-universal step in lager production for this reason. Ale fermentations, run warmer throughout, often clean up diacetyl on their own by the time fermentation finishes, though a rest is still worth confirming with a taste or forced test rather than assumed.</p><p>Pressure fermentation, increasingly common on smaller systems, can shorten the effective rest needed, since some evidence suggests yeast under mild back pressure clears diacetyl somewhat faster. This does not remove the need to confirm with a taste or forced test before crashing.</p>"
+  ],
+  [
+   "Getting it wrong in both directions",
+   "<p>Cold crashing before diacetyl has cleared locks the flavour into the beer, since low temperature stops the yeast from finishing the reabsorption. Skipping straight to <a href=\"lagering-explained.html\">lagering</a> without this step is the most common cause of a buttery lager. On the other side, an unusually persistent diacetyl that will not clear even with an extended rest is a signal to check for bacterial contamination, since certain bacteria produce diacetyl continuously rather than as a fermentation byproduct that resolves.</p><p>Keep a simple log of rest temperature, duration and forced test result against each fermentation, including the strain and pitch rate used. Over a modest number of batches this turns a generic industry guideline into a specific, tested schedule for a brewery's own strain library, saving both tank time and guesswork on every batch that follows.</p><p>Recording rest length and forced test results against each batch builds a house reference over time, so a brewery eventually knows roughly how long its own strain, pitch rate and gravity combination typically needs, rather than relying on a generic number borrowed from a textbook.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is diacetyl always a fault?",
+   "No. A low level is traditional and even desirable in some English ales and Czech lagers. In a clean lager or hop forward beer, it reads as a defect."
+  ],
+  [
+   "How long should a diacetyl rest last?",
+   "Two to four days is typical, though the real endpoint is a clean taste or forced diacetyl test rather than a fixed number of days."
+  ],
+  [
+   "Can diacetyl be removed after packaging?",
+   "No. Once the beer is packaged, diacetyl is fixed in place. It can only be reduced while yeast is still active and in contact with the beer, before cold crashing."
+  ],
+  [
+   "What if diacetyl will not clear even with a rest?",
+   "Persistent diacetyl that does not fall despite an extended rest is worth investigating as possible bacterial contamination rather than an incomplete yeast cleanup."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to time and run a diacetyl rest correctly across ale and lager schedules, and how to tell a normal cleanup from a contamination problem. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "lagering-explained",
+  "cold-crashing",
+  "esters-and-fusel-alcohols"
+ ]
+}

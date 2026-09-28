@@ -1,0 +1,75 @@
+{
+ "slug": "yeast-harvesting-and-reuse",
+ "cat": "Ingredients",
+ "h1": "Harvesting and reusing yeast",
+ "title": "Harvesting and Reusing Yeast | Craft Beer School",
+ "desc": "How to safely wash, store and repitch yeast from a finished batch, and how many generations you can realistically get from one strain.",
+ "teaser": "A brewery buying fresh yeast for every single batch is spending money it does not need to spend, if it harvests carefully.",
+ "standfirst": "Yeast slurry left in a fermenter after racking is not waste, it is your next batch's pitch, provided you handle it cleanly and know when to stop reusing it.",
+ "read": "3 min",
+ "updated": "2026-02-14",
+ "updated_label": "February 2026",
+ "sections": [
+  [
+   "Why breweries harvest yeast at all",
+   "<p>Buying a fresh pitch for every batch is a real, recurring cost, and healthy yeast harvested from a clean fermentation can be repitched for several generations before quality drops enough to matter. For a commercial brewery running the same house strain across many batches, harvesting is standard practice, not a corner-cutting measure.</p><p>The trade-off is risk: reused yeast carries forward whatever bacteria or wild yeast were present in the previous batch, so the fermentation has to have been clean to begin with.</p>"
+  ],
+  [
+   "Collecting the slurry",
+   "<p>Once primary fermentation finishes, the yeast settles into a layer at the bottom of the fermenter (or the top, for some ale strains), sitting on top of trub, the dead cell matter and protein left from the batch. Collect the yeast layer as cleanly as you can, avoiding the darker trub layer beneath it, into a sanitised, sealed container.</p><p>Do this soon after fermentation finishes rather than letting the yeast sit stressed and starved in the empty fermenter for days.</p><p>Label each harvested container clearly with the strain, the date and the generation number before it goes in the fridge, since an unlabelled jar of pale, creamy slurry looks identical regardless of which batch or which strain it actually came from.</p>"
+  ],
+  [
+   "Washing yeast to reduce trub carryover",
+   "<p>Yeast washing suspends the harvested slurry in cold, sterile water and lets it settle in stages, since yeast and trub settle at slightly different rates. Pouring off the top layer after a short settling period leaves a cleaner yeast slurry behind, though it does not remove bacterial contamination if any was present, only trub and dead cell matter.</p><p>Washing is optional. Many brewers repitch directly from a clean harvest without it and get good results.</p><p>A simple two stage settle, swirling the harvested slurry with cold water, letting it stand for twenty minutes, then decanting the cloudier top layer away from the denser yeast beneath, is enough for most home-scale harvesting without needing a more elaborate multi-stage protocol.</p>"
+  ],
+  [
+   "Storage and how long it stays viable",
+   "<p>Harvested yeast keeps in a sealed, refrigerated container for a week or two with a gradual decline in viability, and should be brought back up with a starter, covered in our <a href=\"making-a-yeast-starter.html\">yeast starter guide</a>, before it goes into a new batch, particularly after more than a few days in the fridge.</p><p>Do not freeze harvested slurry expecting it to survive the way a lab culture designed for freezing does. Ordinary harvested yeast does not tolerate freezing well.</p>"
+  ],
+  [
+   "How many times can you reuse it",
+   "<p>Most healthy ale strains handle five to ten repitches before mutation, contamination risk and gradually declining vitality make starting fresh the safer choice. Track each generation, taste every batch critically and retire the strain the moment flavour drifts or fermentation performance drops, rather than pushing a tired culture for one more batch to save money.</p><p>A logbook noting generation number against each batch is the only reliable way to catch slow drift before it shows up as an obviously bad beer.</p><p>Commercial breweries running a single house strain across high volume sometimes track generations into the twenties or beyond with careful monitoring, though this level of confidence generally comes from lab support most small operations and homebrewers do not have access to.</p>"
+  ],
+  [
+   "When to walk away from a harvested culture",
+   "<p>Any sign of infection, unexpected off flavours, unusually slow starts, or a sour smell from the stored slurry, means discarding that batch of yeast rather than trying to save it. The cost of fresh yeast is small next to the cost of an infected house culture contaminating every future batch it touches.</p>"
+  ],
+  [
+   "Timing the harvest against fermentation temperature",
+   "<p>A warmer fermentation finishes and drops yeast to a harvestable layer faster than a cold one, so the right moment to collect slurry depends on the specific batch rather than a fixed number of days after pitching. Checking gravity stability before harvesting, rather than working from the calendar alone, avoids collecting yeast that is still mid-fermentation and under-flocculated.</p>"
+  ],
+  [
+   "Keeping records that actually catch drift",
+   "<p>A simple logbook tracking generation number, fermentation time, final gravity and a tasting note against each batch turns a vague sense that a beer is not fermenting the way it used to into an actual, traceable pattern. Without this record, drift in a repitched culture is usually noticed only once it has already become a problem in several consecutive batches.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long can I store harvested yeast before it is unusable?",
+   "A week or two refrigerated with reasonable viability, though building it back up with a starter before repitching is recommended, especially past the first few days."
+  ],
+  [
+   "Is washing yeast necessary before reusing it?",
+   "No, it is optional. It reduces trub carryover but does not remove bacterial contamination, so a clean original fermentation matters more than the washing step."
+  ],
+  [
+   "How many times can I reuse the same yeast?",
+   "Commonly five to ten generations for a healthy ale strain, tracked by tasting and fermentation performance rather than a fixed number."
+  ],
+  [
+   "Can I freeze harvested yeast to store it longer?",
+   "Not reliably with ordinary harvested slurry. Long-term frozen storage needs specific cryoprotectant methods that go beyond a simple home harvest."
+  ]
+ ],
+ "cta": {
+  "title": "Run a repitching programme without the risk",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers yeast health monitoring, generation tracking and contamination diagnosis, the full system behind safe, repeated reuse.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "kveik-yeast-for-hot-climates",
+  "brettanomyces-explained",
+  "making-a-yeast-starter"
+ ]
+}

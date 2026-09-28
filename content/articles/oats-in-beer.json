@@ -1,0 +1,67 @@
+{
+ "slug": "oats-in-beer",
+ "cat": "Ingredients",
+ "h1": "Oats in beer: body, haze and silk",
+ "title": "Oats in beer: body and haze | Craft Beer School",
+ "desc": "How oats add silky body to beer, the lautering problems they cause, and how much to use in a grain bill.",
+ "teaser": "Oats give beer a silky body no other grain quite matches, and a gummy, stuck lauter tun if you are not careful about it.",
+ "standfirst": "From the classic oatmeal stout to the modern hazy IPA, oats do the same basic job: they add body and a soft, rounded mouthfeel that barley alone cannot produce.",
+ "read": "3 min",
+ "updated": "2022-12-24",
+ "updated_label": "December 2022",
+ "sections": [
+  [
+   "What oats bring that barley does not",
+   "<p>Oats carry high levels of beta-glucans and lipids that barley malt has much less of. Beta-glucans, a type of soluble fibre, thicken the wort and survive into the finished beer, producing the smooth, almost creamy body that oatmeal stouts are named for and that modern hazy IPAs lean on heavily for mouthfeel. The lipids contribute to a softer, rounder finish, though too much can dull hop aroma and shorten head retention if used to excess.</p>"
+  ],
+  [
+   "Flaked oats, oat malt and steel cut: not interchangeable",
+   "<p>Flaked oats are pre-gelatinised and rolled, mashing in directly without a cereal cooker, and they are the most common form in home and craft brewing. Oat malt has been through actual malting, covered in our guide to the <a href=\"barley-malting-process.html\">malting process</a>, and carries some enzyme activity of its own along with a milder version of the same body effect. Steel cut or raw oats need cooking to gelatinise first, similar to raw <a href=\"rice-and-maize-adjuncts-india.html\">rice or maize</a>, and are rarely used outside of professional cereal-mash setups.</p>"
+  ],
+  [
+   "The lautering problem, and the fix",
+   "<p>Like wheat, oats have no husk, and their beta-glucans make the mash noticeably more viscous and gummy than a straight barley mash. Pushed above roughly 20 to 25 percent of the grist, an oat-heavy mash can turn thick enough to stall in the lauter tun. Rice hulls, added purely as a physical filter aid with no flavour contribution, solve this the same way they solve it for a heavy wheat mash covered in our guide to <a href=\"wheat-malt-in-brewing.html\">wheat malt</a>, by holding drainage channels open in the grain bed.</p>"
+  ],
+  [
+   "A beta-glucan rest, when it is worth it",
+   "<p>A rest around 35 to 45 degrees Celsius for 15 to 20 minutes before the main conversion rest lets naturally occurring beta-glucanase enzymes in the malt break down some of the gumminess before it becomes a problem. This step is mostly worth the extra time when oats make up more than roughly 15 percent of the grist; below that, most base malts have enough of their own enzyme activity to manage without it.</p>"
+  ],
+  [
+   "How much oats to use, and where",
+   "<p>A classic oatmeal stout typically runs 5 to 10 percent flaked oats, enough for a noticeably silkier body without lautering trouble. A hazy IPA chasing maximum soft mouthfeel might push 10 to 20 percent, often alongside wheat or the sugars in our guide to <a href=\"brewing-sugars-explained.html\">brewing sugars</a> used to keep the final gravity from finishing too sweet despite all that added body.</p>"
+  ],
+  [
+   "Golden naked oats: oats without the husk problem",
+   "<p>Golden naked oats are a hull-less oat variety, meaning the grain never carried the fibrous husk that ordinary oats have removed during processing, which reduces the astringent, slightly bitter character that regular oats can occasionally contribute alongside their beta-glucans. They behave similarly in the mash to standard flaked oats in terms of body contribution, and some brewers find them slightly smoother in flavour, though they remain less widely available than ordinary flaked oats, particularly through Indian suppliers currently.</p>"
+  ],
+  [
+   "Oats versus wheat when body is the goal",
+   "<p>Both grains, covered in our guide to <a href=\"wheat-malt-in-brewing.html\">wheat malt</a>, boost body and haze through similar protein and beta-glucan mechanisms, but oats generally give a smoother, more rounded mouthfeel while wheat contributes more toward foam stability and head retention. Many hazy IPA recipes use both together specifically because they are not redundant, each is solving a slightly different part of the mouthfeel and stability picture rather than duplicating the other's job.</p><p>One detail worth testing for yourself: oats add haze that behaves differently from the haze in a hefeweizen or a New England IPA relying mainly on hop and yeast-derived compounds. Oat haze tends to be more persistent and less likely to drop out with cold conditioning, which is worth knowing if a recipe is meant to clear before packaging rather than stay permanently cloudy.</p><p>If a mash carrying a large oat percentage still runs slowly despite rice hulls, check your grain crush next. An overly fine crush compounds the viscosity problem oats already create, and a slightly coarser crush setting specifically for oat-heavy batches is a common, simple adjustment that solves a stuck sparge before reaching for a larger rice hull addition.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do oats add any sweetness to beer?",
+   "Not directly. Their contribution is body and mouthfeel through beta-glucans and lipids, not fermentable sugar, so a beer can be dry and full bodied at the same time when oats are used well."
+  ],
+  [
+   "Can I use plain rolled oats from a kitchen cupboard?",
+   "Rolled oats sold for cooking can work, but brewing-grade flaked oats are milled and flaked specifically for mashing and give more consistent, predictable results."
+  ],
+  [
+   "Do I always need rice hulls when using oats?",
+   "Only at higher percentages, roughly above 15 to 20 percent of the grist, where the mash's viscosity starts to risk a stuck sparge."
+  ]
+ ],
+ "cta": {
+  "title": "Want to nail body and mouthfeel on purpose?",
+  "body": "Getting body right without a stuck sparge takes practice most brewers only get through guided batches. Style Specialisation runs 8 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "style-specialization-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-sugars-explained",
+  "hop-varieties-for-beginners",
+  "rice-and-maize-adjuncts-india"
+ ]
+}

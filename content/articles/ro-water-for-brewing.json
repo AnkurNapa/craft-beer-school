@@ -1,0 +1,75 @@
+{
+ "slug": "ro-water-for-brewing",
+ "cat": "Ingredients",
+ "h1": "Brewing with RO water",
+ "title": "Brewing With RO Water | Craft Beer School",
+ "desc": "Why reverse osmosis water is a good starting point for brewing, what it strips out, and the minerals you need to add back.",
+ "teaser": "Reverse osmosis water is close to a blank page. That is exactly why it needs a little work before it goes into the mash.",
+ "standfirst": "RO water gives you a predictable, near-mineral-free base to build any water profile you want, but brewing with it completely untreated causes its own problems.",
+ "read": "3 min",
+ "updated": "2025-07-20",
+ "updated_label": "July 2025",
+ "sections": [
+  [
+   "What reverse osmosis actually removes",
+   "<p>An RO membrane forces water through a fine barrier under pressure, filtering out the vast majority of dissolved minerals, along with most contaminants, chlorine and chloramine. What comes out the other side is close to distilled water: very low in calcium, magnesium, sulphate, chloride and alkalinity alike.</p><p>This is the appeal. Whatever is in your source water, hard, alkaline, high in iron, RO water resets it to close to zero and gives you a stable, repeatable starting point.</p>"
+  ],
+  [
+   "Why zero minerals is not actually the goal",
+   "<p>Calcium supports enzyme activity in the mash, helps yeast flocculate, and helps clarify the beer during the boil. Mash pH also depends on having some mineral content to buffer against, since pure water has essentially no buffering capacity of its own and pH can swing further than expected with grain acidity alone.</p><p>Brewing entirely on unamended RO water often gives a mash that behaves unpredictably and a beer that tastes thin, indistinct and lacking the mineral backbone most styles expect.</p><p>A mash built entirely on unamended RO water can also run noticeably more acidic than expected once the grain's own acidity has nothing to buffer against, an easy trap for a brewer who assumes clean water automatically means an easy, trouble-free mash.</p>"
+  ],
+  [
+   "Building the water profile back up",
+   "<p>Start from RO water and add calculated amounts of gypsum, calcium chloride, and occasionally Epsom salt or a small pinch of baking soda, depending on the style you are targeting. This is the reverse of correcting a mineral-heavy source: instead of removing problems, you are adding exactly the minerals the beer needs and nothing else.</p><p>See our guide on the <a href=\"sulphate-chloride-ratio.html\">sulphate to chloride ratio</a> for how to decide the balance once you are working from a clean base.</p><p>Keep the mineral additions for the mash separate from any additions to the sparge water, since some brewers deliberately use a slightly different, usually lighter, mineral profile for sparging than for the main mash itself.</p>"
+  ],
+  [
+   "A minimum mineral floor for the mash",
+   "<p>Even a modest calcium addition, roughly 50 parts per million or more, is worth including as a baseline before you think about style-specific flavour salts, purely for mash chemistry and yeast health. Many brewing water calculators build this in automatically once you tell them you are starting from RO or distilled water.</p><p>Skipping this step is the most common mistake brewers make the first time they switch to RO, since the water looks clean and safe, which it is, but chemically empty, which causes its own issues.</p>"
+  ],
+  [
+   "When RO makes the most sense",
+   "<p>RO is the standard answer for a source that is too variable or too difficult to correct reliably, which is common with Indian borewell supply. See our guide on <a href=\"treating-borewell-water-for-brewing.html\">treating borewell water</a> for the alternative of correcting the source directly rather than replacing it. For a small brewery, the equipment cost of an RO system has to be weighed against a stable, predictable process that removes water variability as a source of batch to batch inconsistency.</p>"
+  ],
+  [
+   "RO system maintenance matters for consistency",
+   "<p>An RO membrane's performance drifts as it fouls with use, and a poorly maintained system can pass more dissolved solids through than expected, quietly undermining the very consistency that made RO worth installing. Periodic testing of the output water's total dissolved solids, not just trusting the system because it is new, catches this before it shows up as an unexplained shift in beer character.</p>"
+  ],
+  [
+   "Blending RO with source water instead of full replacement",
+   "<p>Some brewers blend RO water with a portion of their existing treated municipal or borewell supply rather than running 100 percent RO, aiming for a specific target mineral level rather than starting from zero every time. This can reduce running cost and wastewater compared with full RO treatment, provided the source water's baseline is stable and well understood, which brings the discussion back to testing it properly in the first place.</p>"
+  ],
+  [
+   "The wastewater side of RO",
+   "<p>Reverse osmosis rejects a portion of the input water as concentrate rather than passing all of it through as usable output, commonly rejecting close to half the input volume depending on the membrane and pressure. For a brewery weighing up an RO system, this wastewater volume and its disposal are a real part of the total cost, not just the upfront equipment price.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is RO water the same as distilled water for brewing purposes?",
+   "Close enough for most purposes. Both are very low in dissolved minerals, though RO retains trace amounts distillation removes more completely."
+  ],
+  [
+   "Can I brew a beer entirely on plain RO water with no additions?",
+   "You can, but expect a thin, indistinct beer and unpredictable mash pH, since there is nothing to buffer the mash or support yeast and clarification the way calcium does."
+  ],
+  [
+   "Do I need an RO system, or can I buy RO water?",
+   "Either works. Commercial breweries usually install a system for volume and cost reasons, while homebrewers commonly buy RO water from a local supplier."
+  ],
+  [
+   "How much should I mineralise RO water before brewing?",
+   "Enough to give a reasonable calcium floor, commonly 50 to 100 parts per million, then adjust sulphate and chloride to the style you are brewing."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to build any water profile from a clean base",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers water chemistry calculations and recipe-specific mineral targets in depth, from RO or distilled water upward.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "ale-vs-lager-yeast",
+  "dry-yeast-vs-liquid-yeast",
+  "treating-borewell-water-for-brewing"
+ ]
+}

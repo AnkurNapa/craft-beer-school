@@ -1,0 +1,71 @@
+{
+ "slug": "cost-per-litre-beer",
+ "cat": "Business",
+ "h1": "Working out your cost per litre",
+ "title": "Cost Per Litre of Beer, Explained | Craft Beer School",
+ "desc": "How to build a real cost per litre for your beer: ingredients, packaging, utilities, labour and the overheads people forget.",
+ "teaser": "Most new breweries price their beer off a gut feeling, then wonder why the margin never shows up. Here is the arithmetic that actually holds.",
+ "standfirst": "Cost per litre sounds like a simple division sum. It is, once you have found every cost that belongs in it. Most founders miss half of them.",
+ "read": "3 min",
+ "updated": "2023-01-30",
+ "updated_label": "January 2023",
+ "sections": [
+  [
+   "Why this number decides everything else",
+   "<p>Cost per litre is the floor under every other decision in the brewery: pricing, packaging format, distribution and whether a new recipe is worth brewing at all. Get it wrong and every decision built on top of it is wrong too.</p><p>The trap is treating it as a single number that never moves. It changes with batch size, with hop dosage, with how much beer you lose to trub and dead space in the tank, and with the price you pay for malt this month against last month. Build it as a live calculation, not a one-time estimate.</p>"
+  ],
+  [
+   "Start with raw materials, but count the loss",
+   "<p>Malt, hops, yeast and any adjunct go in first, priced at what you actually paid, not a list price from a supplier's website. Then subtract for loss. A brewhouse rarely delivers everything it mashes: some wort stays behind in the mash tun, some beer stays behind in the fermenter with the yeast cake, and some is lost to trub after the boil.</p><p>A reasonable working assumption for a small brewhouse is 10 to 15 percent total loss between grain in and beer in the bright tank, though a poorly designed vessel or a rushed transfer can push that higher. Whatever your real figure is, use it, because it directly inflates your ingredient cost per litre sold.</p>"
+  ],
+  [
+   "Packaging is often bigger than the beer itself",
+   "<p>Cans, bottles, kegs, crowns, labels and secondary packaging (trays, shrink wrap, cartons) are frequently the largest single line in cost per litre for small-format beer, ahead of the ingredients that went into the tank. A keg spreads its cost over many litres and looks cheap per litre; a can of the same beer does not.</p><p>Keep packaging cost per format separate rather than blending it into one average. A brewery selling the same beer in keg and can needs two different cost-per-litre figures, because the two channels behave differently on margin.</p>"
+  ],
+  [
+   "Utilities, water and the cold chain",
+   "<p>Water, electricity, gas or steam, and refrigeration all belong in the cost, even though none of them appear on an ingredient invoice. A brewhouse boil alone can run for sixty to ninety minutes at full heat, and glycol chillers run continuously to hold fermenters and bright tanks at temperature in Indian ambient conditions. None of this is free, and none of it should be absorbed silently into overhead where it disappears from the per-litre picture.</p><p>Water use is worth tracking on its own. Cleaning, mashing, sparging and cooling can use several litres of water for every litre of beer produced, and municipal or borewell water cost, plus any treatment, belongs in the calculation.</p>"
+  ],
+  [
+   "Labour, and the hours nobody logs",
+   "<p>Brew day labour is obvious. What gets missed is cleaning, cellar work, quality checks and packaging line time, which together often exceed the hours spent actually brewing. Cost that labour at a real hourly rate and divide it across the litres that batch produced.</p><p>If you are the only person doing all of it, it is tempting to leave your own time out because it feels free. It is not. Price it as if you had to hire someone to do your job, because eventually you might.</p>"
+  ],
+  [
+   "Overhead, allocated honestly",
+   "<p>Rent, insurance, equipment depreciation, licence renewals and admin all sit above the brewhouse and have to be spread across your annual output. Divide your fixed annual overhead by your realistic annual volume, not your optimistic one, and add that per-litre figure on top of everything else.</p><p>A brewery that budgets overhead against a volume it never reaches will always look more profitable on paper than it is in the bank account.</p>"
+  ],
+  [
+   "Put it together and use it",
+   "<p>Add raw materials (loss-adjusted), packaging by format, utilities, labour and allocated overhead. That total, divided by litres actually sold in that format, is your real cost per litre. Compare it against your <a href=\"beer-pricing-strategy.html\">selling price</a> before you commit to a recipe or a format, not after the first batch has already gone out.</p><p>Once you have this working for one beer, building it for the next is quick, and it becomes the tool you reach for whenever someone suggests a new SKU, a new hop bill or a move into a new package format.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need accounting software to track cost per litre?",
+   "No. A spreadsheet with one row per batch and columns for each cost category will get you a usable figure. Software helps once you are tracking many SKUs at once."
+  ],
+  [
+   "What is a normal loss percentage in a small brewhouse?",
+   "Ten to fifteen percent between grain in and beer in the bright tank is a common range for a small system, though poor transfer practice or an undersized fermenter can push it higher."
+  ],
+  [
+   "Should packaging cost be averaged across all formats?",
+   "No. Cost it separately by format. Keg, bottle and can carry very different packaging costs per litre and blending them hides which format is actually profitable."
+  ],
+  [
+   "How often should I recalculate cost per litre?",
+   "Whenever a major input price moves, at least quarterly otherwise, and every time you change a recipe, supplier or package format."
+  ]
+ ],
+ "cta": {
+  "title": "Turn this into a full costing model for your brewery",
+  "body": "Brewery Business Management walks you through building complete cost, pricing and cash flow models across live weekend sessions, with weekly assignments on your own numbers and a certificate at the end.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "beer-pricing-strategy",
+  "taproom-economics",
+  "brewhouse-size-guide"
+ ]
+}

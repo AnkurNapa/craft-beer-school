@@ -1,0 +1,67 @@
+{
+ "slug": "triangle-test",
+ "cat": "Tasting",
+ "h1": "Running a triangle test",
+ "title": "How to Run a Beer Triangle Test | Craft Beer School",
+ "desc": "What a triangle test is, why breweries use it for quality control, and how to run one properly with a small panel.",
+ "teaser": "Three glasses, two the same, one different. It sounds simple, and it is one of the most useful tools in a brewery's quality programme.",
+ "standfirst": "A triangle test answers one narrow question with real statistical confidence: can a taster actually tell two beers apart. Here is how to run one properly.",
+ "read": "3 min",
+ "updated": "2024-07-20",
+ "updated_label": "July 2024",
+ "sections": [
+  [
+   "What a triangle test actually proves",
+   "<p>A taster is given three samples, two identical and one different, and asked to identify the odd one out, without being told in advance what might differ between them. If tasters correctly identify the odd sample more often than random guessing would predict, that is statistical evidence a real, detectable difference exists between the two beers, not just an opinion that they seem different to one particular person.</p><p>The test works because it removes the ambiguity of asking someone whether two beers seem different, a question people will often answer yes to simply because they expect a difference to exist, whether or not one is actually present.</p>"
+  ],
+  [
+   "Why breweries use it",
+   "<p>Triangle tests are used to check whether a recipe or process change actually altered the beer perceptibly, whether a new batch of a raw material shifted flavour noticeably, or whether a packaging change, switching cans or a new closure, introduced a detectable difference worth worrying about. It answers a narrower, more useful question than simply asking which one you like better, which is a preference test rather than a difference test.</p><p>Some breweries also use a variant called a duo trio test, where tasters are given a known reference sample alongside two unknowns and asked which unknown matches the reference, a slightly easier task that suits panels still building confidence with structured testing.</p>"
+  ],
+  [
+   "Setting up the samples",
+   "<p>All three samples need to be served at the same temperature, in identical glasses, and coded with random numbers rather than letters or labels that might hint at which is which to an alert taster. Serve the two identical samples from the same source batch wherever possible, since even small pouring or timing differences can introduce a false signal into the result.</p><p>Palate cleansing between samples matters here as much as it does in any structured tasting: plain water and an unsalted cracker between each of the three glasses stops earlier samples from influencing how later ones are perceived.</p>"
+  ],
+  [
+   "Running the panel",
+   "<p>Eight to twelve tasters is a reasonable minimum for a result you can actually trust statistically. Each taster works alone, in a quiet setting, tasting all three samples before making a single choice, and should not discuss impressions with other panellists until every sheet has been collected in.</p><p>Avoid running a triangle test immediately after a heavy meal or strong coffee, both of which dull the palate measurably for the following hour or two, and try to test at a consistent time of day if you are comparing results across several separate sessions.</p><p>Running the test at roughly the same time each day, and avoiding strong smells in the room beforehand, keeps the panel's baseline sensitivity reasonably consistent from one session to the next.</p>"
+  ],
+  [
+   "Reading the result",
+   "<p>Compare the number of correct identifications against published triangle test significance tables, which account for the fact that random guessing alone gets the right answer roughly a third of the time by chance. A result needs to clear that statistical bar before you can call it a real, detectable difference rather than simple noise in the data.</p><p>It is worth recording not just whether each taster was correct, but how confident they felt in their answer, since a panel that guesses correctly but reports low confidence is telling you something different from one that identifies the difference with certainty.</p><p>Results worth acting on should also be replicated at least once with a fresh panel before a brewery changes an established process, since a single test, even a statistically valid one, can still occasionally be a fluke.</p>"
+  ],
+  [
+   "Building this into a quality programme",
+   "<p>A triangle test is one tool in a broader sensory programme alongside <a href=\"training-your-palate.html\">palate training</a> and structured scoring like the <a href=\"bjcp-scoresheet-explained.html\">BJCP scoresheet</a>. Used consistently over time, it turns a vague feeling that this batch tastes off into a defensible, repeatable finding backed by real evidence.</p><p>A brewery that runs triangle tests regularly, even informally, tends to build a much sharper collective sense of what actually changes a beer's flavour, since every test is a small, concrete lesson rather than a vague impression left to fade.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many tasters do I need for a reliable triangle test?",
+   "Eight to twelve is a reasonable working minimum, more gives you a more statistically confident result."
+  ],
+  [
+   "What is the difference between a triangle test and a preference test?",
+   "A triangle test asks whether tasters can detect a difference at all. A preference test asks which sample they like better. They answer different questions and should not be confused."
+  ],
+  [
+   "Can one taster run a valid triangle test alone?",
+   "No, a single taster's result carries no statistical weight. You need a panel large enough to compare against significance tables."
+  ],
+  [
+   "Why is a third guessing correct considered the baseline?",
+   "With three samples and no real ability to detect a difference, random guessing will still identify the odd one out about a third of the time by chance, which is the bar any real result has to clear."
+  ]
+ ],
+ "cta": {
+  "title": "Run panels with statistical confidence, not guesswork",
+  "body": "Sensory Evaluation covers triangle tests, duo trio tests and how to interpret results properly against significance tables.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "training-your-palate",
+  "off-flavour-spiking-kits",
+  "bjcp-scoresheet-explained"
+ ]
+}

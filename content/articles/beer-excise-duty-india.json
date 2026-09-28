@@ -1,0 +1,63 @@
+{
+ "slug": "beer-excise-duty-india",
+ "cat": "Business",
+ "h1": "Excise duty on beer in India",
+ "title": "Excise Duty on Beer in India | Craft Beer School",
+ "desc": "How beer excise duty actually works in India: who charges it, when it is paid, and why the number on your invoice changes when you cross a state line.",
+ "teaser": "Beer is taxed by the states, not by Delhi, and that single fact explains almost everything strange about pricing it in India.",
+ "standfirst": "Excise duty is the largest single cost in a bottle of Indian beer, and it is set state by state. Here is how the system works and where a founder needs to pay attention.",
+ "read": "4 min",
+ "updated": "2023-11-17",
+ "updated_label": "November 2023",
+ "sections": [
+  [
+   "Why beer tax is a state subject",
+   "<p>Alcohol for human consumption sits outside the GST net. States tax it directly, through excise duty, and each state runs its own act, its own rates and its own licence structure. That is why a beer brewed in one state can cost noticeably more or less once it crosses into the next.</p><p>For a founder used to thinking in national rules, this takes adjustment. There is no single number to learn. There are close to thirty different systems, and the one that matters is the one where your brewery, or your first market, actually sits. Two breweries producing an almost identical beer, one in a low-duty state and one in a high-duty state, can end up with meaningfully different shelf prices for reasons that have nothing to do with their brewing or their costs.</p><p>This is also why a national craft beer price benchmark is close to meaningless. Compare your numbers only against breweries operating under the same state's rules.</p>"
+  ],
+  [
+   "Where duty gets charged",
+   "<p>Most states charge excise duty at the point the beer leaves the brewery, calculated per bulk litre or per case, sometimes banded by alcohol strength. A few route beer through a state corporation that buys and resells it, adding its own margin on top. Either way, the duty is baked into the price before a single bottle reaches a shop shelf, which means it needs to be built into your pricing model from the first spreadsheet, not added as an afterthought once you know what a case actually costs to sell.</p><p>On top of brewery-gate duty, expect import or export permit fees if you move beer between states, label registration fees per state per brand, and renewal cycles that do not all fall on the same date. <a href=\"beer-distribution-india.html\">Beer distribution in India</a> gets tangled with this quickly, because moving into a new state is rarely just a sales decision, it is a fresh round of registration and duty exposure.</p>"
+  ],
+  [
+   "What changes the number on your invoice",
+   "<p>Alcohol by volume is the first lever. Several states tax strong beer, generally anything above 5% ABV, at a materially higher rate than mild beer, which is one reason so many mainstream Indian lagers sit just under that line. Package format is the second lever: kegs, cans and bottles can carry different duty treatment in the same state, and it is worth checking this before you commit to a packaging format on cost grounds alone. Where you sell, on-trade in a bar or off-trade through a retail shop, can also change which fee schedule applies. See <a href=\"on-trade-vs-off-trade.html\">on-trade versus off-trade</a> for how that split works downstream.</p><p>None of these rules are fixed for long. States revise excise rates most years, often in the state budget, and sometimes mid-year with a fresh notification that gives operators very little lead time to adjust pricing.</p>"
+  ],
+  [
+   "The compliance side founders underestimate",
+   "<p>Duty is not just a rate, it is a process: bonded warehousing, batch-wise stock registers, transport permits for every consignment leaving the brewery, and an excise official who may need to verify production before release in some states. Getting this wrong does not just cost money, it can hold up a release date while a consignment sits waiting for a permit, which is a particularly painful problem for a beer with a limited fresh-tasting window.</p><p>Build this into your production calendar from day one. A brewery that treats excise paperwork as an afterthought will find it is what actually controls how fast beer moves, not the brewhouse. Talk to your excise office early about the practical rhythm of permits and inspections in your specific district, since local practice can differ even within one state's rules.</p>"
+  ],
+  [
+   "Working with the number, not around it",
+   "<p>Because duty is set by the state and reviewed often, price your beer off the current schedule for your actual state and package format, not off what a friend's brewery in another state pays. Rates, slabs and fee structures vary by state and change, sometimes without much notice, so check the current excise notification for your state, or use a licensing consultant who tracks it for a living.</p><p>Getting this one input wrong flows straight through into your unit economics and your <a href=\"brewery-funding-options.html\">funding conversation</a>, since an investor or a lender will want to see that your pricing model reflects the actual duty burden you face, not an average pulled from a different state entirely.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is beer taxed the same way across India?",
+   "No. Excise duty on beer is a state subject, so rates, slabs and fee structures differ by state and are reviewed most years in the state budget."
+  ],
+  [
+   "Does higher ABV always mean higher duty?",
+   "In many states, yes, strong beer above roughly 5% ABV is taxed at a higher rate than mild beer, though the exact threshold and rate are set separately by each state."
+  ],
+  [
+   "Where can I find the current excise rate for my state?",
+   "Check your state excise department's current notification, or work with a licensing consultant, since published rates change and vary by state."
+  ],
+  [
+   "Does packaging format affect the duty I pay?",
+   "It can. Kegs, cans and bottles are sometimes treated differently for duty purposes within the same state, so check the schedule for your specific format."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to read a state excise notification without a consultant on retainer",
+  "body": "Brewery Business Management is a live, weekend-only course, taught over three weekends with a maximum of 20 students per batch, recordings and weekly assignments included, and it ends with a certificate.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "fssai-rules-for-beer",
+  "brewery-equipment-buying-guide",
+  "brewery-business-plan"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "slug": "mash-temperature-guide",
+ "cat": "Brewing basics",
+ "h1": "Mash temperature and what it does to your beer",
+ "title": "Mash Temperature Guide for Homebrewers | Craft Beer School",
+ "desc": "How mash temperature controls fermentability, body and final gravity, with the ranges to actually mash at.",
+ "teaser": "Mash temperature is the single biggest recipe decision most new brewers underrate. Here is what each range in the mash actually does.",
+ "standfirst": "The mash is where starch becomes sugar, and the temperature you hold it at decides what kind of sugar you get. Get comfortable with this one variable and your beer's body and dryness stop being accidents.",
+ "read": "3 min",
+ "updated": "2023-12-06",
+ "updated_label": "December 2023",
+ "sections": [
+  [
+   "Two enzymes, two different jobs",
+   "<p>Barley malt carries two main starch-converting enzymes, alpha-amylase and beta-amylase, and they work best at different temperatures within the mash range. Beta-amylase favours the cooler end, producing more simple, fully fermentable sugar. Alpha-amylase favours the warmer end, producing more complex sugar that yeast cannot fully ferment. Every mash is a balance between the two, set by the single temperature you choose.</p><p>Both enzymes are destroyed outright at high enough heat, which is why a mash held too hot, well above roughly 72 to 75 &#176;C, stops converting starch altogether rather than simply shifting the balance toward one enzyme. This ceiling is also why sparge water is normally kept below boiling, so it does not denature any residual enzyme activity still finishing its work as it rinses through the grain bed.</p><p>The malt itself also carries a small amount of natural variation in enzyme strength batch to batch, which is one reason two brewers following the identical recipe and mash schedule can still see slightly different final gravities. Keeping notes on your own results with a given malt supplier over several batches is more useful than chasing perfect theoretical precision.</p>"
+  ],
+  [
+   "Mashing cool: 63 to 65 &#176;C",
+   "<p>A mash held at the cooler end favours beta-amylase, producing wort with a higher proportion of fermentable sugar. The finished beer ends up drier, with a lower final gravity and a higher apparent attenuation, discussed in <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity explained</a>. This is the range to choose for a crisp pale ale or a dry session beer.</p>"
+  ],
+  [
+   "Mashing warm: 68 to 70 &#176;C",
+   "<p>A mash held toward the warmer end favours alpha-amylase and leaves more unfermentable sugar behind. The finished beer ends up fuller-bodied and sweeter, with a higher final gravity, which suits a stout, a Scottish-style ale or anything you want to feel substantial in the glass rather than crisp.</p><p>A beer aiming for a very full body and a firm, chewy mouthfeel can also mash at the warmer end of the range and additionally use a portion of unmalted or specialty grains that add body without much fermentable sugar at all, stacking two separate techniques toward the same goal.</p>"
+  ],
+  [
+   "Why mash pH matters alongside temperature",
+   "<p>Enzyme activity is sensitive to acidity as well as heat, and both alpha and beta-amylase work best in a mash pH range of roughly 5.2 to 5.6. Very hard or very alkaline water, common from some Indian borewells, can push mash pH outside that range and blunt conversion regardless of how carefully you control temperature, which is one of the reasons water chemistry becomes worth learning once you move to all-grain.</p><p>A small addition of food-grade acid, commonly lactic or phosphoric acid, or of specific brewing salts, is how brewers correct mash pH when their water chemistry pushes it out of range. This becomes a genuinely useful skill once you are chasing a specific style closely, though it is not something a beginner needs to master before their first all-grain batch.</p>"
+  ],
+  [
+   "Getting a steady mash temperature in practice",
+   "<p>A mash tun loses heat over the 60 minutes it typically runs, and a drop of even a few degrees midway through changes the final balance of sugars. Insulating the mash tun, using a preheated vessel, and checking temperature partway through with a reliable thermometer are the practical habits that keep the number where you set it. Brew in a bag brewers, covered in <a href=\"brew-in-a-bag-method.html\">brew in a bag, the easiest all-grain method</a>, often find a single large insulated pot holds temperature more steadily than a smaller, uninsulated one.</p><p>A step mash, holding the grain at more than one temperature in sequence, such as a short rest lower down before raising to the main conversion temperature, is a more advanced technique some traditional lager recipes call for. Most modern malt is well enough modified that a single infusion mash at one steady temperature is all a homebrewer needs for the vast majority of recipes.</p><p>A simple insulated cooler box, the kind sold for keeping food cold, makes a surprisingly effective mash tun for exactly this reason: once the insulation is doing its job, temperature loss over a 60 minute mash is often only a degree or two, well within the range that still produces a predictable result.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is there one correct mash temperature for every recipe?",
+   "No. The right temperature depends on the body and dryness you want in the finished beer, and different styles deliberately mash at different points across the 63 to 70 degree range."
+  ],
+  [
+   "What happens if my mash temperature drifts a couple of degrees?",
+   "A small drift shifts the fermentability of the resulting wort slightly, changing the final gravity a little. It is rarely catastrophic, but consistent mash temperature across batches is what makes a recipe repeatable."
+  ],
+  [
+   "Can I mash outside the 63 to 70 degree range?",
+   "Enzyme activity falls off quickly below about 60 degrees and denatures above roughly 72 to 75 degrees, so mashing well outside that band stops converting starch effectively rather than just shifting the balance."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-happens-during-the-boil",
+  "how-to-chill-wort-fast",
+  "beer-colour-srm-ebc"
+ ]
+}

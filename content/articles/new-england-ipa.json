@@ -1,0 +1,71 @@
+{
+ "slug": "new-england-ipa",
+ "cat": "Styles",
+ "h1": "New England IPA",
+ "title": "New England IPA (Hazy IPA) Guide | Craft Beer School",
+ "desc": "Why NEIPA looks cloudy on purpose, how oats and wheat build that soft mouthfeel, and what biotransformation actually does to hop flavour.",
+ "teaser": "Hazy is not a flaw in this style, it is the entire point. New England IPA turned everything West Coast IPA stood for inside out and drinkers loved it anyway.",
+ "standfirst": "Soft, cloudy and bursting with juicy hop flavour rather than bitterness, New England IPA broke almost every rule the earlier American IPA template had set. Here is what is actually happening in the tank to produce that look and that flavour.",
+ "read": "3 min",
+ "updated": "2025-08-07",
+ "updated_label": "August 2025",
+ "sections": [
+  [
+   "A deliberate break from the old IPA rules",
+   "<p>New England IPA, often called hazy IPA or NEIPA, emerged from Vermont breweries in the 2010s and reversed almost every West Coast IPA convention: soft rather than crisp, low bitterness rather than high, and cloudy rather than bright, with that haze treated as a feature rather than something to filter out.</p><p>It spread fast once drinkers tried it, and within a few years most craft breweries with any hop-forward ambitions were brewing some version of it alongside their existing IPA line.</p>"
+  ],
+  [
+   "What makes it hazy",
+   "<p>The haze comes from a combination of protein from wheat or oats in the grain bill, yeast strains that stay in suspension longer, and hop-derived polyphenols and oils from heavy dry hopping, all working together rather than any single ingredient. Filtering or aggressive fining removes the haze and, with it, much of the soft mouthfeel the style depends on, which is why NEIPA is typically served unfiltered straight from the tank.</p><p>Water chemistry plays a role too. A softer water profile, lower in sulphate and higher in chloride, supports the rounded, juicy impression the style is after, in contrast to the sulphate forward water that suits a crisper West Coast IPA.</p>"
+  ],
+  [
+   "The grain bill behind the soft texture",
+   "<p>Flaked oats and wheat, often 10 to 20 percent of the grist together, build the smooth, almost creamy mouthfeel that defines the style, alongside a base of pale malt. ABV usually sits around 6 to 8%, with bitterness deliberately kept low, often 25 to 45 IBU, so the hop character reads as flavour and aroma rather than as a bitter bite.</p><p>Oats in particular need care in the mash, since their gumminess can slow or stick a sparge if used in large quantity without adjusting the mash thickness or adding rice hulls to keep the grain bed permeable.</p>"
+  ],
+  [
+   "Biotransformation: yeast changing hop character",
+   "<p>Adding hops during active fermentation, rather than only after it finishes, lets yeast metabolise certain hop compounds into new aroma compounds, a process called biotransformation that produces some of the tropical, juicy character associated with the style. This is combined with large, often multiple, dry hop additions after fermentation using tropical and fruity modern hop varieties such as Citra, Mosaic, Galaxy or Nelson Sauvin.</p>"
+  ],
+  [
+   "Yeast strain matters more than usual",
+   "<p>Certain English or hazy specific yeast strains, fermented on the warmer side of ale temperature, produce stone fruit and citrus esters that complement the hop character and contribute to the soft, rounded finish. A cleaner, more neutral yeast strain suited to West Coast IPA will not deliver the same effect even with an identical hop schedule.</p><p>Choosing the right strain is one of the few decisions in this style that cannot be corrected later, since fermentation character is locked in well before the dry hop additions go anywhere near the tank.</p>"
+  ],
+  [
+   "Why this style is unforgiving of shortcuts",
+   "<p>NEIPA has almost no margin for oxygen exposure. The delicate tropical hop aroma the style depends on fades within weeks if the beer picks up oxygen at any transfer or packaging step, turning juicy character into a dull, cardboard-adjacent flatness far faster than a bitterer, more robust West Coast IPA would show the same damage. Careful closed transfers and canning under inert gas are close to mandatory for a brewery serious about this style.</p><p>A brewery that treats NEIPA as just another recipe with more dry hops, without changing its oxygen handling, will usually end up with a beer that tastes flat and tired within a month, regardless of how good the hop bill looked on paper.</p>"
+  ],
+  [
+   "Brewing it in Indian conditions",
+   "<p>The biggest local obstacle is getting fresh, high oil content hop varieties like Citra or Mosaic into the country quickly enough, since these hops lose their tropical punch faster than higher alpha, more resinous varieties. Breweries that commit to NEIPA usually build a direct, frequent import relationship rather than holding large hop stock, because a stale batch of the wrong hops will not save the style the way it might for a more bitterness-led IPA. For the clean, dry version this style reacted against, see our <a href=\"west-coast-ipa.html\">West Coast IPA guide</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is haze in NEIPA a sign of a flawed beer?",
+   "No, it is intentional, coming from protein, yeast and hop compounds working together. A hazy IPA is not the same thing as an infected or improperly filtered beer."
+  ],
+  [
+   "Why does NEIPA taste juicy without being sweet?",
+   "Modern hop varieties and biotransformation during fermentation produce genuinely fruity aroma compounds, which the palate reads as juicy, even though the beer's actual sugar content and bitterness are both kept low."
+  ],
+  [
+   "Should NEIPA be filtered before serving?",
+   "No. Filtering removes much of the haze and the soft mouthfeel that defines the style. It is meant to be served unfiltered."
+  ],
+  [
+   "Why does NEIPA go stale faster than other IPAs?",
+   "Its delicate tropical hop aroma is more fragile than the pine and resin character of a West Coast IPA, and any oxygen exposure during packaging accelerates the loss noticeably."
+  ]
+ ],
+ "cta": {
+  "title": "Want to brew a hazy IPA that actually stays juicy?",
+  "body": "Style Specialisation covers biotransformation, oxygen management and dry hop technique specifically for the NEIPA style.",
+  "href": "style-specialization-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "english-ipa",
+  "double-ipa",
+  "west-coast-ipa"
+ ]
+}

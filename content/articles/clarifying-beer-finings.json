@@ -1,0 +1,63 @@
+{
+ "slug": "clarifying-beer-finings",
+ "cat": "Brewing science",
+ "h1": "Clarifying beer with finings",
+ "title": "Clarifying Beer with Finings | Craft Beer School",
+ "desc": "How fining agents like gelatin, isinglass and Irish moss actually clear beer, and how to choose the right one.",
+ "teaser": "Finings work by giving haze particles something to stick to and fall with, rather than by filtering anything out.",
+ "standfirst": "Fining agents settle suspended particles rather than removing them mechanically, which makes choosing the right one for the right stage of brewing a matter of chemistry, not habit.",
+ "read": "3 min",
+ "updated": "2024-09-04",
+ "updated_label": "September 2024",
+ "sections": [
+  [
+   "How finings work, in general",
+   "<p>Most fining agents carry a surface charge that attracts oppositely charged particles suspended in beer, yeast cells, proteins or polyphenols, causing them to clump together into larger particles heavy enough to settle out under gravity. This is different from filtration, which physically strains particles through a medium, and different from cold crashing alone, which relies on temperature to encourage settling.</p><p>Dosage matters more than most brewers assume. Underdosing a fining agent leaves haze particles without enough binding material to clump effectively, while overdosing, particularly with isinglass, can strip more flavour and body than intended, or in rare cases even cause a slight haze of its own from excess fining material.</p>"
+  ],
+  [
+   "Kettle finings: Irish moss and whirlfloc",
+   "<p>Added near the end of the boil, carrageenan-based products such as Irish moss or whirlfloc bind with proteins during the hot and cold break, improving clarity before the wort even reaches the fermenter. They work on the same proteins discussed under <a href=\"boil-chemistry-hot-break.html\">boil chemistry and the hot break</a>, giving that natural coagulation a boost.</p><p>Temperature at the time of addition changes how well certain finings perform. Gelatin needs to be dissolved in warm water before adding, since adding it dry or cold reduces its effectiveness, then added to beer that is already cold for the actual clarification step to work as intended.</p>"
+  ],
+  [
+   "Gelatin: the common post-fermentation choice",
+   "<p>Gelatin carries a positive charge and binds well to negatively charged yeast cells and some proteins. It is added cold, after fermentation, often alongside or just before <a href=\"cold-crashing.html\">cold crashing</a>, since cold temperature improves how effectively it clumps and settles particles. It is inexpensive, widely available and works quickly, usually within a day or two.</p> A fresh batch of gelatin dissolved just before use, rather than a premixed solution left sitting for days, generally performs more reliably as well.<p>Contact time is often underestimated. Most finings need at least a day, and some benefit from two or three, undisturbed and at a stable cold temperature, to fully settle. Racking or moving the beer too soon after adding finings disturbs the settling particles before they have fully dropped.</p>"
+  ],
+  [
+   "Isinglass and other traditional agents",
+   "<p>Isinglass, made from fish swim bladder collagen, has long been used in British cask ale for its strong effect on ale yeast strains in particular. Silica gel and similar chillproofing agents target haze-forming proteins specifically, while polyvinylpolypyrrolidone, PVPP, binds polyphenols rather than proteins, making it a useful complement when protein-targeted finings alone are not enough.</p> Reviewing results after packaging, not just at the point of fining, closes the loop on whether a given dose and contact time actually delivered the clarity expected once the beer has had time to settle further in the package.<p>Some breweries use tannin-based finings, such as gelatin paired with a small silica addition, specifically to manage protein without removing polyphenols, since removing one without the other can leave a beer clear but still slightly unstable if only half the haze-forming pair has been addressed.</p>"
+  ],
+  [
+   "Choosing and combining finings",
+   "<p>No single fining agent removes every haze-forming compound, since proteins and polyphenols respond to different charges and mechanisms. A kettle fining plus a cold-side gelatin addition covers most standard ale and lager production. Beers relying heavily on finings rather than time and cold rest to reach clarity are also worth checking for underlying causes covered under <a href=\"beer-haze-causes.html\">what causes haze in beer</a>, since finings treat the symptom, not always the root cause.</p><p>Storage conditions for fining agents themselves matter more than brewers often assume. Gelatin and isinglass both lose effectiveness if stored warm or for extended periods past their recommended shelf life, so a fining addition that used to work reliably can quietly underperform simply because the stock on the shelf has aged past its best. Checking supply freshness is a cheap first step before assuming a recipe or dosing problem.</p><p>Recording which fining, dose and contact time produced the clearest result on a given recipe builds a reliable house method over time, since different grists, hop schedules and yeast strains respond somewhat differently to the same fining agent.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Are finings vegetarian friendly?",
+   "Gelatin and isinglass are both animal derived and not vegetarian or vegan. Silica gel and some plant or synthetic alternatives are available for breweries that need to label a beer as vegan."
+  ],
+  [
+   "Do finings affect flavour?",
+   "Used at the correct dose, well established finings have minimal flavour impact. Overdosing, particularly with isinglass, can occasionally strip more character than intended."
+  ],
+  [
+   "Can finings fix a hazy beer that will not clear?",
+   "Sometimes, but not always. If haze is caused by starch, active fermentation, or infection rather than settled proteins and polyphenols, finings alone will not resolve it."
+  ],
+  [
+   "Do I need both kettle and cold-side finings?",
+   "Not always, but using both generally gives more complete clarity than relying on either alone, since they address different points in the process."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to choose, dose and combine fining agents properly across the whole brewing process, from kettle to cold side. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-filtration-basics",
+  "pasteurisation-units",
+  "cold-crashing"
+ ]
+}

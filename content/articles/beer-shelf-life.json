@@ -1,0 +1,63 @@
+{
+ "slug": "beer-shelf-life",
+ "cat": "Brewing science",
+ "h1": "Beer shelf life",
+ "title": "Beer Shelf Life Explained | Craft Beer School",
+ "desc": "What actually limits how long beer stays fresh, why temperature matters more than the calendar, and how to set a realistic best-before date.",
+ "teaser": "Two identical beers can have very different shelf lives depending on nothing more than how warm they sat in transit.",
+ "standfirst": "Shelf life is not a fixed property of a recipe. It is the result of oxygen exposure, temperature and time acting together, and temperature usually does the most damage.",
+ "read": "3 min",
+ "updated": "2025-09-22",
+ "updated_label": "September 2025",
+ "sections": [
+  [
+   "What actually ends a beer's freshness",
+   "<p>Staling is driven mainly by oxidation reactions and, more slowly, ongoing chemical changes that continue even without oxygen present, covered in detail under <a href=\"beer-staling-chemistry.html\">the chemistry of stale beer</a>. Both processes are strongly temperature dependent, so heat during storage or transport accelerates staling far more than the same beer would stale sitting cold.</p><p>Light exposure adds a separate shelf life risk distinct from thermal and oxidative staling. Beer stored under fluorescent lighting or direct sunlight in clear or green glass can develop a lightstruck, skunky character within minutes, which is a different failure mode entirely from the slow, gradual staling that temperature and oxygen drive, and it argues for brown glass or cans wherever display lighting cannot be controlled.</p>"
+  ],
+  [
+   "Why temperature matters more than most people think",
+   "<p>As a rough industry guide, the rate of staling reactions roughly doubles for every 8 to 10 degree Celsius rise in storage temperature. A beer that would stay fresh for months in a cold room can visibly stale within weeks if it spends real time at Indian ambient summer temperatures, which is why the cold chain, not the recipe, is often the actual limit on shelf life here.</p><p>Carbonation level tends to drop slowly over a beer's shelf life as well, particularly in less than perfectly sealed packaging, which changes mouthfeel and perceived freshness even before flavour staling becomes obvious. A flat-feeling beer well within its printed best-before date is sometimes an early warning sign of a packaging seal problem rather than simple staling.</p>"
+  ],
+  [
+   "What fades first",
+   "<p>Hop aroma is the most volatile and fragile quality in a beer, fading noticeably within weeks even under good storage, which is why hop forward styles are marketed and sold on freshness dates more aggressively than malt forward ones. Malty, darker beers tolerate age better and sometimes even develop pleasant sherry-like notes as they age slowly, within limits, unlike a hoppy pale ale which simply goes flat and stale.</p> Sharing simple storage guidance directly with retail partners, rather than assuming they already understand it, is a low cost step that protects a brewery's freshest possible pour at the point of sale.<p>Retail handling in India adds its own variables worth planning around directly, since a beer that spends time on an un-refrigerated shelf, in a warehouse without climate control, or in a delivery vehicle during peak summer heat, has already used up a meaningful share of its theoretical shelf life before it ever reaches a drinker's hand.</p>"
+  ],
+  [
+   "Setting a realistic best-before date",
+   "<p>A pasteurised, well packaged beer with low oxygen pickup, discussed under <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup in packaging</a>, can reasonably carry a longer shelf life claim than an unpasteurised, loosely filled one. Many unpasteurised craft beers set a best-before of four to nine months, while some hop forward styles deliberately claim less to push faster turnover and fresher drinking.</p><p>Some breweries print a production date alongside, or instead of, a best-before date, trusting retailers and drinkers to understand freshness rather than relying purely on a fixed shelf life number. This works best paired with genuine drinker education about why freshness matters for a hop forward beer specifically.</p>"
+  ],
+  [
+   "What a brewery actually controls",
+   "<p>Recipe and packaging choices set the starting point, but distribution and retail storage decide how much of that potential shelf life a drinker actually gets. Educating distributors and retailers on cold storage, and choosing distribution routes with a realistic cold chain, protects a beer's reputation more reliably than chasing a slightly longer best-before number on the label.</p><p>Comparing shelf life claims across breweries is rarely a fair exercise, since packaging quality, pasteurisation choices and typical distribution conditions all differ. A brewery's own claim should reflect its own measured TPO, its own cold chain reality and its own style mix, rather than matching a number seen on a competitor's label that may have been earned under very different conditions.</p><p>Taste testing packaged beer at intervals through its claimed shelf life, rather than only at the point of release, is the most direct way to confirm a best-before date is realistic for a brewery's actual packaging and distribution conditions rather than copied from a competitor or an industry rule of thumb.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do hoppy beers go stale faster than malty ones?",
+   "Hop aroma compounds are especially volatile and fade quickly even under good storage. Malt-forward flavours are more stable and some darker, stronger beers even improve modestly with careful age."
+  ],
+  [
+   "Does refrigeration really make that much difference?",
+   "Yes. Staling reactions are strongly temperature dependent, so beer stored or transported warm ages noticeably faster than the same beer kept cold."
+  ],
+  [
+   "Can pasteurised beer still go stale?",
+   "Yes. Pasteurisation controls microbial spoilage but does not stop oxidative or thermal staling reactions, which continue regardless of whether the beer was pasteurised."
+  ],
+  [
+   "How long should an unpasteurised craft beer's shelf life be?",
+   "Many breweries set four to nine months as a reasonable claim, though the real number depends on packaging oxygen control and how the beer will actually be stored and distributed."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to model realistic shelf life for your own packaging and distribution conditions, rather than copying another brewery's number. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-staling-chemistry",
+  "infection-bacteria-in-brewing",
+  "oxygen-pickup-in-packaging"
+ ]
+}

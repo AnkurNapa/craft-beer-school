@@ -1,0 +1,59 @@
+{
+ "slug": "pitching-yeast-properly",
+ "cat": "Brewing basics",
+ "h1": "Pitching yeast properly",
+ "title": "Pitching Yeast Properly | Craft Beer School",
+ "desc": "How much yeast to pitch, at what temperature, and the preparation steps that make the difference between a clean and a stressed fermentation.",
+ "teaser": "Pitching yeast looks like the easiest step in brewing. It is also where a surprising number of avoidable off flavours actually start.",
+ "standfirst": "By the time you pitch yeast, the hard work of the brew day is done. What happens in the next few minutes, though, decides whether that yeast has an easy fermentation ahead of it or a stressed one.",
+ "read": "3 min",
+ "updated": "2024-06-14",
+ "updated_label": "June 2024",
+ "sections": [
+  [
+   "Getting the temperature right first",
+   "<p>Pitch yeast too warm and it starts its work stressed, producing more fusel alcohols and harsh by-products than it would at the correct temperature. Ale yeast generally wants wort at 18 to 22 &#176;C at pitching, lager yeast considerably colder, and getting there quickly after the boil is covered in <a href=\"how-to-chill-wort-fast.html\">how to chill wort fast, and why it matters</a>. Confirm the actual wort temperature with a thermometer rather than guessing from how the pot feels to the touch.</p><p>Liquid yeast in a smack pack or vial needs to be brought roughly to pitching temperature before use as well, since a large temperature shock at pitching, sometimes called cold or hot shocking the yeast, stresses the cells even if the wort itself is at the correct temperature by the time they meet it.</p>"
+  ],
+  [
+   "Pitching enough yeast",
+   "<p>Underpitching is one of the most common causes of a slow, stressed fermentation that finishes with unwanted flavours still in the beer. A single 11 gram sachet of dry yeast is generally enough for a standard-gravity ale batch around 19 to 23 litres, but a higher-gravity beer or a lager needs more, either two packets of dry yeast or a properly sized liquid yeast starter. When in doubt, pitch more rather than less.</p><p>A yeast starter, a small batch of thin wort fermented a day or two ahead of brew day specifically to multiply the yeast cell count, is the standard way liquid yeast users reach an adequate pitch rate for stronger beers, since a single liquid yeast pack usually holds fewer cells than a dry sachet to begin with.</p>"
+  ],
+  [
+   "Rehydrating dry yeast correctly",
+   "<p>Sprinkling dry yeast straight onto wort works, but rehydrating it first in a small amount of warm, sanitised water for 15 to 20 minutes gives a noticeably healthier start, since the yeast can rebuild its cell membrane in plain water before facing the osmotic stress of sugary wort. Follow the temperature guidance on the yeast packet rather than guessing, since rehydration water that is too hot or too cold damages the cells before they ever reach the fermenter.</p><p>Avoid rehydrating in wort itself, since the sugar concentration creates osmotic stress on cells that have not yet rebuilt a functioning membrane, and use plain, cooled, previously boiled or filtered water instead, at the temperature range printed on the yeast packet, usually somewhere around 30 to 35 &#176;C.</p><p>Once rehydrated, pitch the yeast within 15 to 30 minutes rather than letting it sit much longer, since the rehydrated cells are actively metabolising and will start to run low on their own reserves if left waiting too long before reaching the wort.</p>"
+  ],
+  [
+   "Oxygen: the one exception to keeping air out",
+   "<p>Wort needs a burst of dissolved oxygen right at pitching so yeast can build healthy cell membranes for the fermentation ahead, which is the one moment in the whole process where you deliberately introduce air rather than keep it out. A vigorous shake or splash of the sealed fermenter for a minute or two after pitching achieves this for most homebrew scales, with dedicated aeration stones reserved for brewers chasing more consistent results at larger volumes.</p><p>Pure oxygen from a small canister, injected briefly through a diffusion stone, gives a more consistent and higher dissolved oxygen level than shaking alone, and is a common upgrade for brewers making bigger, higher-gravity beers where yeast health matters even more than usual.</p>"
+  ],
+  [
+   "Signs your pitch went well",
+   "<p>Visible fermentation activity, foam or airlock bubbling, usually starts within 12 to 24 hours of a healthy pitch. A longer lag than that, particularly beyond 36 hours, points back at pitching temperature, pitch rate or dead or old yeast, and is worth investigating rather than assuming it will sort itself out, a topic we cover in <a href=\"how-long-does-beer-take-to-ferment.html\">how long does beer take to ferment</a>.</p><p>A gravity check on day two or three, rather than waiting until you expect fermentation to be finished, is a useful habit for new brewers specifically because it confirms fermentation actually started as intended, well before you would otherwise notice a problem.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I pitch yeast directly onto hot wort to save time?",
+   "No. Wort still warm from cooling stresses and can kill yeast cells outright. Confirm the wort has reached the correct pitching temperature with a thermometer first."
+  ],
+  [
+   "Is one sachet of dry yeast always enough?",
+   "For a standard-gravity ale batch, usually yes. For higher-gravity beers or lagers, which both need more healthy yeast cells to ferment cleanly, two packets or a liquid yeast starter is the safer choice."
+  ],
+  [
+   "Why does my fermentation sometimes take longer than a day to start visibly?",
+   "A modest lag of up to 24 hours is normal. A longer delay usually points at pitching temperature, an insufficient pitch rate, or yeast that was old or poorly stored before use."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "fermentation-temperature-control-at-home",
+  "how-long-does-beer-take-to-ferment",
+  "how-to-chill-wort-fast"
+ ]
+}

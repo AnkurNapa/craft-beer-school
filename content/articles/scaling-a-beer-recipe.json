@@ -1,0 +1,67 @@
+{
+ "slug": "scaling-a-beer-recipe",
+ "cat": "Brewing basics",
+ "h1": "How to scale a beer recipe up or down",
+ "title": "Scaling a beer recipe up or down | Craft Beer School",
+ "desc": "Why scaling a recipe is not simple multiplication, and how hop utilisation and losses change with batch size.",
+ "teaser": "A recipe that works at 20 litres does not simply multiply by 25 to work at 500. Hop utilisation and pitch rate do not scale in a straight line.",
+ "standfirst": "Scaling a recipe is not a multiplication exercise. Some numbers scale with volume, some scale with surface area, and getting the two confused is how a favourite homebrew recipe turns into a disappointing pilot batch.",
+ "read": "4 min",
+ "updated": "2025-07-11",
+ "updated_label": "July 2025",
+ "sections": [
+  [
+   "What actually scales in a straight line",
+   "<p>Fermentables and the target OG scale directly with batch volume, provided your mash efficiency stays the same. If a 20 litre batch used 4.5 kg of Pilsner malt to hit 1.050, a 500 litre batch needs roughly 112.5 kg to hit the same gravity, adjusted for whatever efficiency your actual mash tun and lauter setup achieves at that scale. Yeast pitch rate also scales with wort volume and gravity together, most commonly worked out in cells per millilitre per degree Plato, which is why professional brewers pitch by cell count rather than by packet.</p>"
+  ],
+  [
+   "What does not scale: hop utilisation",
+   "<p>This is where recipes fall apart. Hop utilisation, the fraction of alpha acid that actually isomerises into bitterness, depends on wort gravity, boil vigour, kettle geometry and boil-off rate, not on batch size alone. A vigorous rolling boil in a small pot behaves differently from the same nominal boil in a large kettle with a gentler roll. If you scale hop weights by the same multiplier as the grain bill without checking the resulting IBU with a <a href=\"brewing-software-and-calculators.html\">calculator</a> built for your equipment's boil-off rate, the scaled batch commonly comes out less bitter than the original, sometimes noticeably so.</p>"
+  ],
+  [
+   "Trub losses and dead space change the maths",
+   "<p>A 20 litre homebrew kettle might lose 1 to 2 litres to trub and hop matter, a rounding error you barely notice. A commercial brewhouse loses a fixed volume to the same causes, plus transfer lines, a whirlpool and a heat exchanger, and that fixed loss becomes a smaller percentage of a larger batch but is rarely zero. Work out your total losses in litres for your actual equipment, not as a percentage carried over from a different scale, and add that volume to your target before you calculate grain and hop quantities.</p>"
+  ],
+  [
+   "Water chemistry scales with volume, salts do not round evenly",
+   "<p>Mineral additions scale with the litres of water being treated, which is straightforward, but the practical difficulty is precision. A homebrew recipe calling for 2 grams of gypsum in 20 litres becomes 50 grams in 500 litres, an amount that is easy to weigh accurately, unlike the 2 gram dose at small scale where a kitchen scale's error margin is a real fraction of the dose. Scaling up is, in this one respect, more forgiving than scaling down.</p>"
+  ],
+  [
+   "Time and temperature do not scale at all",
+   "<p>Mash and boil temperatures stay exactly where they were: 65 to 68 degrees Celsius single infusion, a rolling boil for 60 to 90 minutes, a diacetyl rest a few degrees above final fermentation temperature near the end. What changes with scale is how long it takes the whole vessel to reach and hold those temperatures, because thermal mass increases with volume while your heating element or steam jacket capacity may not increase in proportion. Build in extra time for heating and cooling at scale rather than assuming the schedule from a smaller batch carries over unchanged.</p>"
+  ],
+  [
+   "A practical scaling checklist",
+   "<p>Scale fermentables and target OG by volume. Recalculate hop additions against your actual boil-off and kettle geometry rather than a flat multiplier. Add your real trub and transfer losses in litres before back-calculating grain weight. Scale mineral additions by volume, then weigh them properly. And plan for longer heating and cooling times as the batch gets bigger. Every brewery that has ever scaled a homebrew recipe onto a commercial system has been caught out by at least one of these once, which is usually the moment they start keeping the kind of records covered in <a href=\"keeping-a-brew-log.html\">keeping a brew log</a>.</p>"
+  ],
+  [
+   "A worked example: 20 litres to 200 litres",
+   "<p>Take a 20 litre homebrew batch built around 4.5 kg of Pilsner malt and 30 grams of a 6 percent alpha hop at 60 minutes, hitting an OG of 1.050 and roughly 25 IBU on a homebrew calculator tuned to a 75 percent efficiency and a vigorous stovetop boil. Multiplying by 10 for a 200 litre pilot batch gives 45 kg of malt, which is correct, and 300 grams of hop, which is very likely wrong, because a 200 litre kettle with a gentler industrial boil and different geometry will not isomerise alpha acid at the same rate as a rolling pot on a stove.</p><p>The right approach is to re-run the hop calculation using the new kettle's actual boil-off rate and utilisation curve, then adjust the hop weight up or down until the estimated IBU matches the original 25, rather than trusting the same multiplier that correctly scaled the grain bill. This is the single most common mistake in scaling a recipe, and it is entirely avoidable with one extra calculation.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I just multiply every ingredient by the same factor?",
+   "For fermentables and yeast, roughly yes. For hops, no, because utilisation depends on boil vigour and kettle geometry, not just volume, so bitterness needs recalculating."
+  ],
+  [
+   "Why did my scaled up batch come out less bitter?",
+   "Almost always lower hop utilisation at the new scale. Check your calculator's boil-off and kettle settings against the new equipment rather than trusting the multiplied weight."
+  ],
+  [
+   "Do trub losses matter at homebrew scale?",
+   "Less than at commercial scale, because they are a smaller fraction of the batch, but they still exist. Measure your actual losses once and use that figure going forward."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to scale a recipe without losing the plot?",
+  "body": "Getting hop utilisation and losses right at a new scale is exactly the kind of maths this guide can only sketch. Brewing Fundamentals runs 4 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-software-and-calculators",
+  "keeping-a-brew-log",
+  "reading-a-beer-recipe"
+ ]
+}

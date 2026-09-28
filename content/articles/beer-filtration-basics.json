@@ -1,0 +1,63 @@
+{
+ "slug": "beer-filtration-basics",
+ "cat": "Brewing science",
+ "h1": "Beer filtration basics",
+ "title": "Beer Filtration Basics | Craft Beer School",
+ "desc": "How beer filtration works, the difference between depth and membrane filtration, and what filtering trades away.",
+ "teaser": "Filtration buys clarity and shelf stability, but every micron you filter down to also strips a little of the beer's body and character.",
+ "standfirst": "Filtration is the last major clarity step before packaging, and the one most likely to change a beer's character if it is pushed further than the style actually needs.",
+ "read": "3 min",
+ "updated": "2024-10-29",
+ "updated_label": "October 2024",
+ "sections": [
+  [
+   "Why breweries filter at all",
+   "<p>Filtration removes remaining yeast, protein-polyphenol haze particles and any spoilage organisms still in suspension after fermentation, <a href=\"cold-crashing.html\">cold crashing</a> and fining. It gives sharper, more consistent clarity than settling alone, and improves microbial stability by removing much of the yeast that could otherwise restart fermentation in the package.</p><p>Filter media itself needs proper handling and cleaning between uses to avoid becoming a contamination risk rather than a clarity tool. A filter pad or diatomaceous earth cake that is not adequately sanitised between batches can actually introduce spoilage organisms into an otherwise clean beer, defeating the purpose of filtering at all.</p>"
+  ],
+  [
+   "Depth filtration",
+   "<p>Depth filtration passes beer through a thick medium, commonly diatomaceous earth or cellulose fibre pads, that traps particles throughout its structure rather than at a single surface. It handles a high particle load well and is standard in many mid to large breweries, though diatomaceous earth requires careful handling since its dust is a respiratory hazard.</p><p>Flow rate through a filter affects both clarity and beer quality in ways that are easy to overlook. Pushing beer through too fast can cause channelling through the filter medium, letting some unfiltered beer bypass effectively filtered sections, while excessive back pressure from pushing too hard can strip dissolved CO2 or introduce foaming that then needs to be managed separately.</p>"
+  ],
+  [
+   "Membrane and sheet filtration",
+   "<p>Membrane filters trap particles at a defined pore size on a single surface, giving a more precise, repeatable cut-off than depth filtration. Sheet filters sit somewhere between the two, layered pads rated to specific micron ranges. Filter ratings typically run from a rough 5 to 10 micron pass for general clarity to sub-micron ratings used when near-sterile filtration is the goal.</p> Keeping a simple log of filter run length and pressure drop over time also flags a media or cleaning problem well before it causes a visible quality issue in the beer itself.<p>Cross-flow, or tangential, filtration is a newer alternative to traditional depth and membrane systems, running beer parallel to the filter surface rather than straight through it, which reduces clogging and can handle higher particle loads with less media replacement, at a higher initial equipment cost.</p>"
+  ],
+  [
+   "The trade-off nobody skips past",
+   "<p>Tighter filtration removes more haze-forming material, but it also strips some of the proteins that contribute to body and the compounds that carry hop aroma and flavour, covered in more detail under <a href=\"beer-foam-science.html\">the science of beer foam</a>. A heavily filtered hazy IPA defeats its own purpose, which is why hop forward, juicy styles are often filtered loosely or not at all, while crisp lagers are filtered tighter without losing what makes them distinctive.</p><p>Carbonation and filtration are often combined into a single in-line process on larger systems, filtering beer as it moves toward a bright tank or directly toward packaging, which reduces the number of separate transfers and therefore reduces the number of chances for oxygen pickup along the way.</p>"
+  ],
+  [
+   "Matching filtration to the beer",
+   "<p>Decide the filtration level from the style, not from a single default setting. A clean, bright lager benefits from tighter filtration for a polished look and longer stability. A hazy or juicy style wants little to no filtration to preserve the body and haze that define it. Filtration is also not a substitute for good process upstream, a beer that needed heavy filtering to look acceptable usually had a preventable haze problem to begin with.</p><p>Pre-filtration steps such as a settling tank or a coarse strainer ahead of the main filter reduce the particle load the finer filtration stage has to handle, extending media life and giving more consistent results run to run. Skipping this step and sending heavily laden beer straight to a fine filter is a common reason filter runs shorten unexpectedly and media costs climb.</p><p>For a small or growing brewery deciding whether to invest in filtration at all, the honest question is whether the beers in the lineup actually need it. A brewery built around clean lagers benefits substantially, while one built around hazy or naturally cloudy styles may get more value investing that capital in fermentation or cold storage capacity instead.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does filtering beer remove flavour?",
+   "Tighter filtration can strip some hop oils, proteins and body-contributing compounds along with haze particles. The effect grows with how fine the filter rating is."
+  ],
+  [
+   "What is the difference between depth and membrane filtration?",
+   "Depth filtration traps particles throughout a thick medium and handles heavy loads well. Membrane filtration traps particles at a precise pore size on a single surface, giving a sharper, more repeatable cut-off."
+  ],
+  [
+   "Is filtered beer always more stable than unfiltered?",
+   "Generally yes for microbial stability, since filtration removes much of the remaining yeast and some spoilage organisms. It does not protect against oxidation or contamination introduced after filtering."
+  ],
+  [
+   "Should hazy IPAs be filtered?",
+   "Usually not, or only very loosely. Filtering tightly removes the body, protein and hop oil suspension that defines the style."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to pick a filtration approach and rating for a given style, and where it fits against fining and cold conditioning in the full process. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "pasteurisation-units",
+  "beer-foam-science",
+  "clarifying-beer-finings"
+ ]
+}

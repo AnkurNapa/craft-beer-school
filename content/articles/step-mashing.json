@@ -1,0 +1,75 @@
+{
+ "slug": "step-mashing",
+ "cat": "Brewing science",
+ "h1": "Step mashing and when it is worth it",
+ "title": "Step Mashing and When It Is Worth It | Craft Beer School",
+ "desc": "What step mashing actually does over a single infusion mash, and the specific cases where the extra effort pays off.",
+ "teaser": "Most modern homebrew recipes do not need step mashing, and knowing when yours actually does saves a lot of wasted brew day time.",
+ "standfirst": "Step mashing holds the mash at more than one temperature in sequence. It solves real problems with certain malts and certain styles, and it solves nothing for a well modified pale malt grist.",
+ "read": "3 min",
+ "updated": "2022-03-17",
+ "updated_label": "March 2022",
+ "sections": [
+  [
+   "What step mashing actually is",
+   "<p>Rather than holding the mash at a single saccharification temperature, a step mash moves through two or more rests, commonly a lower temperature rest followed by a higher one, each targeting a different enzyme or a different job. This requires either direct heat under the mash tun, a way to add measured amounts of boiling water, or a recirculating system that can raise temperature accurately.</p><p>A step mash also gives a brewer more room to troubleshoot mid-mash, since checking conversion or adjusting timing between rests is more natural to build into the process than it is with a single, continuous infusion rest that runs start to finish unattended.</p>"
+  ],
+  [
+   "The traditional case: undermodified malt",
+   "<p>Older or less modern malt, undermodified in brewing terms, retains more unbroken protein and cell wall material than the highly modified malt most craft brewers use today. A protein rest around 50 to 55 degrees Celsius helps break this down before the main conversion rest, reducing haze and the risk of a stuck lauter. Well modified modern malt generally does not need this step at all.</p>"
+  ],
+  [
+   "A beta glucan rest for gummy grists",
+   "<p>Grists heavy in oats, rye or unmalted wheat carry a lot of beta glucan, a gummy compound that can make lautering painfully slow if it is not broken down first. A short rest around 35 to 45 degrees Celsius activates beta glucanase enzymes that clear much of this before the mash moves up to saccharification temperature, and it is genuinely useful for these adjunct-heavy recipes even with fully modern base malt.</p>"
+  ],
+  [
+   "Fermentability control through a two-step conversion rest",
+   "<p>Some brewers step through a lower rest around 63 degrees, favouring beta amylase, followed by a higher rest around 70 degrees to finish with alpha amylase, aiming for a specific balance of fermentability that a single fixed temperature cannot give as precisely. This overlaps with what a single, carefully chosen infusion temperature can already achieve for most recipes, covered in our <a href=\"enzymes-in-the-mash.html\">enzymes in the mash</a> guide, so the extra complexity has to earn its place.</p>"
+  ],
+  [
+   "Deciding if it is worth it for your batch",
+   "<p>If you are brewing with well modified base malt and a grist that is mostly barley, a single infusion mash at a well chosen temperature gets you almost everything a step mash would, with a much simpler brew day. Reach for step mashing specifically for adjunct-heavy grists needing a glucan rest, for older or specialty malt genuinely calling for a protein rest, or for a decoction-adjacent style where tradition and flavour, not just efficiency, are the point. See our <a href=\"decoction-mashing.html\">decoction mashing</a> guide for the more involved traditional method built on the same idea of multiple temperature stages.</p><p>A brew log noting which grists and malts you have step mashed successfully, and which showed no measurable benefit over a simple infusion mash, is more useful over time than any general rule, since your own equipment and water are part of the outcome too.</p>"
+  ],
+  [
+   "Equipment needed to step mash properly",
+   "<p>A mash tun with direct heat, whether gas fired, electric element or a recirculating system with an inline heater, makes hitting accurate step temperatures far easier than trying to add measured boiling water to a cooler-style mash tun, though the infusion method still works with careful calculation and a good thermometer. Brewers without heated mash equipment can step mash, it simply takes more planning and a slightly wider margin for error.</p>"
+  ],
+  [
+   "A worked example: adjunct-heavy grist",
+   "<p>A recipe built around a significant proportion of oats or rye, aiming for a smooth, full-bodied hazy pale ale, benefits from a short glucan rest around 40 degrees Celsius before stepping up to a normal saccharification temperature, protecting the eventual lauter from the slow, gummy drainage those grains are known for. This is a case where step mashing solves a real, specific problem rather than adding complexity for its own sake.</p>"
+  ],
+  [
+   "Recording your step mash schedule properly",
+   "<p>A step mash with two or three temperature stages is harder to reproduce by memory than a single infusion temperature, so recording exact rest times, temperatures and the volume of any infusion water used matters more here than for a simple mash. A batch that turned out well on a step schedule is only repeatable if the schedule itself was actually written down accurately at the time, not reconstructed afterward from a rough memory of what was done.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need to step mash if I use modern base malt?",
+   "Usually not. Well modified modern malt converts fine with a single infusion mash at the right temperature."
+  ],
+  [
+   "What is a beta glucan rest for?",
+   "It breaks down gummy beta glucan compounds common in oats, rye and unmalted wheat, which otherwise slow down lautering significantly."
+  ],
+  [
+   "Can I step mash without special equipment?",
+   "Yes, by adding measured amounts of boiling water to raise temperature between rests, though a heated mash tun or recirculating system gives more precise control."
+  ],
+  [
+   "Is step mashing the same as decoction mashing?",
+   "No. Step mashing changes temperature by adding heat or hot water to the whole mash. Decoction mashing removes a portion, boils it separately, and returns it, a more traditional and more involved method."
+  ]
+ ],
+ "cta": {
+  "title": "Decide with confidence which mash schedule to run",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers mash scheduling, enzyme behaviour and equipment options together, so the decision is based on your actual grist rather than a rule of thumb.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "decoction-mashing",
+  "lautering-and-sparging",
+  "enzymes-in-the-mash"
+ ]
+}

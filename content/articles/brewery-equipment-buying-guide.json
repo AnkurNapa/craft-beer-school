@@ -1,0 +1,67 @@
+{
+ "slug": "brewery-equipment-buying-guide",
+ "cat": "Business",
+ "h1": "Buying brewery equipment",
+ "title": "Buying Brewery Equipment: A Guide | Craft Beer School",
+ "desc": "How to choose a brewhouse, fermenters and packaging line without overbuying capacity or underbuying reliability. A founder's equipment guide.",
+ "teaser": "The brewhouse you can afford and the brewhouse you actually need are rarely the same size. Sort that out before you sign a purchase order.",
+ "standfirst": "Equipment is the biggest single line item in a brewery budget, and the easiest place to get badly wrong. Here is how to think about it before you talk to a fabricator.",
+ "read": "3 min",
+ "updated": "2024-03-24",
+ "updated_label": "March 2024",
+ "sections": [
+  [
+   "Start from demand, not from a catalogue",
+   "<p>The most common brewery-equipment mistake is buying capacity for the business you hope to have in three years, rather than the one you have now. Oversized fermenters sit half full, tying up cash and yeast, while an undersized brewhouse means more brew days to hit the same volume, which strains your team and your utility bills alike. Work backwards from a realistic first-year sales estimate, add a sensible growth margin, and size the brewhouse and fermenters to that, not to ambition.</p><p>This decision interacts directly with <a href=\"brewery-location-choice.html\">where you site the brewery</a>, since a bigger system needs more floor height, drainage and power than a compact one, and choosing the equipment first can quietly rule out sites you would otherwise have liked.</p>"
+  ],
+  [
+   "Domestic fabrication versus imported systems",
+   "<p>India has a growing base of domestic brewery fabricators who build to spec at lower cost and, critically, can service the equipment locally without a six-week wait for a part to clear customs. Imported systems, mostly from China, Germany or Italy, often come with tighter automation and better documented process control, at a real premium and with a longer support chain that can leave you waiting during a breakdown.</p><p>Neither is automatically right. A founder running one core recipe with a small team is often better served by a simpler, well-supported domestic system than by an automated line nobody on staff can troubleshoot at 2am. Weigh the cost of downtime against the cost of automation honestly before deciding.</p>"
+  ],
+  [
+   "The parts that actually determine beer quality",
+   "<p>Glycol capacity to hold fermentation and lagering temperatures reliably matters more than a shiny brewhouse, especially in Indian ambient conditions where a chiller undersized for the climate will quietly drift your fermentation warm without anyone noticing until the beer tastes wrong. A functioning clean-in-place system, even a manual one done properly, prevents more quality problems than any single ingredient choice. Reliable temperature control and cleaning discipline beat a bigger mash tun every time a founder has to choose between them on a tight budget.</p><p>Water treatment is the other quiet decision. Borewell and municipal supply both need testing and, usually, adjustment before they are fit to brew with. Get a water report before you finalise vessel sizing, not after, since water chemistry can change how much grain you need for the same result.</p>"
+  ],
+  [
+   "Packaging line: buy for your actual channel",
+   "<p>A brewpub selling only on-site may need nothing beyond kegs and a counter-pressure filler. A brewery planning retail distribution needs a canning or bottling line, and the gap in cost and complexity between those two positions is large enough to shape your entire launch plan. Decide your channel mix, on-trade or off-trade, before you spec packaging equipment, because retrofitting a packaging line onto a brewhouse built for draught-only is expensive and disruptive once the site is already running production.</p><p>See <a href=\"kegs-vs-cans-business.html\">kegs or cans: the business case</a> for how that trade-off plays out in more financial detail.</p>"
+  ],
+  [
+   "Budgeting the whole system, not just the tanks",
+   "<p>Fabricators quote the brewhouse and fermenters cleanly, but installation, utilities connection, effluent treatment, and the compliance inspections that come with commissioning new equipment all add real time and cost that a tank quote does not show. Ask any vendor for a full installed-and-commissioned price, not a factory-gate price, and get it in writing before you compare quotes, since two proposals that look similar on the tank spec sheet can differ substantially once everything around them is counted.</p>"
+  ],
+  [
+   "Spares, warranty and the cost of downtime",
+   "<p>A pump or a temperature controller failing on brew day costs you far more than the part itself once you count the lost time and the batch at risk, so ask any vendor upfront what spares they recommend keeping on site and how quickly a replacement part actually reaches you in practice, not in theory. Warranty terms differ widely between domestic and imported suppliers, and a warranty that requires shipping a part overseas for repair is, in practical terms, a much weaker warranty than one backed by a local service technician.</p><p>Factor this into your comparison alongside price, since the cheapest quote on paper is not always the cheapest system to actually run over its working life.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Should I buy an imported or a domestic brewhouse?",
+   "It depends on your budget, technical support needs and local service access. Domestic fabrication is usually cheaper and easier to service; imported systems often offer more automation at a higher cost and longer support lead times."
+  ],
+  [
+   "What equipment matters most for beer quality?",
+   "Reliable temperature control (glycol chilling) and a working clean-in-place system generally matter more to consistent quality than brewhouse size or automation level."
+  ],
+  [
+   "How do I decide on packaging equipment?",
+   "Decide your sales channel first. Draught-only for on-trade needs far less than a canning or bottling line built for retail distribution."
+  ],
+  [
+   "Does equipment sizing affect my location choice?",
+   "Yes. Larger vessels need more floor height, power and drainage capacity, so equipment sizing and site selection should be decided together."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to size and budget a brewhouse before you sign anything",
+  "body": "Brewery Business Management covers equipment planning, budgeting and vendor evaluation over three live weekends, capped at 20 students, with recordings and a certificate.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "brewery-compliance-checklist",
+  "beer-distribution-india",
+  "fssai-rules-for-beer"
+ ]
+}

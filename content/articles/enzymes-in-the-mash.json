@@ -1,0 +1,75 @@
+{
+ "slug": "enzymes-in-the-mash",
+ "cat": "Brewing science",
+ "h1": "The enzymes at work in your mash",
+ "title": "The Enzymes at Work in Your Mash | Craft Beer School",
+ "desc": "Alpha and beta amylase explained: what each enzyme does, the temperature each one favours, and how that shapes fermentability.",
+ "teaser": "Mash temperature is not one setting, it is a dial between two enzymes with opposite preferences, and that dial decides how dry or how full your beer finishes.",
+ "standfirst": "Two enzymes do almost all the work of converting starch into sugar during the mash, and they disagree about temperature, which is exactly why mash temperature is such a powerful recipe lever.",
+ "read": "3 min",
+ "updated": "2022-01-03",
+ "updated_label": "January 2022",
+ "sections": [
+  [
+   "Starch, sugar and why conversion has to happen at all",
+   "<p>Barley stores its energy as starch, long chains of glucose that yeast cannot ferment directly. The mash exists to convert that starch into shorter, fermentable sugar chains using enzymes naturally present in malted barley, activated by soaking the crushed grain in hot water for roughly 45 to 90 minutes.</p><p>Get the temperature wrong and the enzymes either work too slowly to finish in a reasonable mash time, or denature and stop working altogether.</p><p>This conversion step is also where a mash thermometer earns its keep. A few degrees of error either way changes which enzyme dominates the outcome, even though the mash itself will look identical either way to the naked eye.</p>"
+  ],
+  [
+   "Alpha amylase: the fast, less selective enzyme",
+   "<p>Alpha amylase cuts starch chains at essentially random points along their length, working best around 66 to 70 degrees Celsius, and produces a broad mix of sugar chain lengths, including some too long for yeast to ferment. This enzyme also denatures relatively quickly at the higher end of its range, so mashing hot favours alpha amylase's output early before it stops working.</p>"
+  ],
+  [
+   "Beta amylase: slower, and more selective",
+   "<p>Beta amylase works from the end of the starch chain inward, clipping off maltose, a highly fermentable sugar, two units at a time, and prefers a slightly cooler range, roughly 60 to 65 degrees Celsius. It also denatures faster at higher temperatures than alpha amylase does, which is why a hot mash favours alpha amylase's less fermentable output almost by default.</p>"
+  ],
+  [
+   "What this means for your finished beer",
+   "<p>A mash held toward the cooler end, around 63 to 65 degrees, favours beta amylase and produces more fermentable sugar, giving a drier, more attenuated beer with less residual body. A mash held toward the warmer end, around 68 to 70 degrees, favours alpha amylase's broader output and leaves more unfermentable dextrins behind, giving a fuller, sweeter, more full-bodied beer at the same starting gravity.</p><p>This single temperature choice is one of the most reliable ways to steer final gravity and mouthfeel without changing the grain bill at all.</p>"
+  ],
+  [
+   "Beyond the two amylases",
+   "<p>Other enzymes play smaller roles: beta glucanase breaks down gummy cell wall material that can cause a stuck lauter if the malt is undermodified, and protease enzymes break down proteins, relevant mainly at very low temperature rests used with less modern, undermodified malts. Most modern well modified malt does not need these extra rests, which is why single-temperature infusion mashing is standard practice today.</p><p>See our guide on <a href=\"step-mashing.html\">step mashing</a> for when those extra rests are actually worth doing.</p>"
+  ],
+  [
+   "What denaturing actually means",
+   "<p>Enzymes are proteins folded into a specific shape that lets them do their job, and heat past a certain threshold unfolds, or denatures, that shape permanently, stopping the enzyme from working even if the temperature later drops back into range. This is why a mash accidentally overheated past roughly 78 degrees Celsius cannot simply be cooled back down and continued as if nothing happened, the enzymes present at that point are gone for good.</p>"
+  ],
+  [
+   "Checking conversion with an iodine test",
+   "<p>A small sample of mash liquid mixed with a drop of iodine turns dark blue or black if unconverted starch is still present, and stays a light amber-brown once conversion is essentially complete. This simple, cheap test removes the guesswork of relying purely on the clock, particularly useful the first few times you mash a new grist or adjust your process, since actual conversion time varies with crush, temperature and grain bill.</p>"
+  ],
+  [
+   "Limit dextrinase and the long tail of attenuation",
+   "<p>A smaller enzyme, limit dextrinase, works on the branch points in starch molecules that alpha and beta amylase cannot reach alone, and it is more temperature sensitive than either of the two main amylases, denaturing early in a typical mash. This is part of why a beer's apparent attenuation has a practical ceiling even at an aggressively low mash temperature: some starch structure simply is not accessible to the enzymes still active by the time the mash reaches saccharification range.</p><p>Specialty enzyme additions exist commercially to push past this ceiling for very dry styles, though most homebrew and craft recipes do not need them.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature gives the driest beer?",
+   "Mashing toward the cooler end of the saccharification range, around 63 to 65 degrees Celsius, favours beta amylase and produces more fermentable sugar, giving a drier finish."
+  ],
+  [
+   "Why does a hotter mash give a fuller, sweeter beer?",
+   "Higher temperatures favour alpha amylase and denature beta amylase faster, leaving more unfermentable dextrins in the wort, which read as body and residual sweetness."
+  ],
+  [
+   "Do I need protein rests with modern malt?",
+   "Usually not. Most modern malt is well modified, so a single saccharification temperature is enough. Protein rests matter more with less modified or adjunct-heavy grists."
+  ],
+  [
+   "How long does a mash need to fully convert?",
+   "Roughly 45 to 60 minutes for most well modified malt at a well chosen temperature, though checking conversion with an iodine test removes the guesswork."
+  ]
+ ],
+ "cta": {
+  "title": "Control fermentability with real precision",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers mash chemistry, enzyme kinetics and recipe formulation as one system, going well past a single ingredient explainer.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "step-mashing",
+  "decoction-mashing",
+  "mash-ph-explained"
+ ]
+}

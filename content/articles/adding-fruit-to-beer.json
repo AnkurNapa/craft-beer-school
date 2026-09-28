@@ -1,0 +1,75 @@
+{
+ "slug": "adding-fruit-to-beer",
+ "cat": "Ingredients",
+ "h1": "Adding fruit to beer",
+ "title": "Adding Fruit to Beer | Craft Beer School",
+ "desc": "When to add fruit in the brewing process, how much to use, and the sanitation and fermentation risks fruit introduces.",
+ "teaser": "Fruit beers fail more often from timing and sanitation mistakes than from a bad fruit choice.",
+ "standfirst": "Fruit adds sugar, acidity and its own wild microbes to a beer, all at once. Get the timing and quantity right and it is one of the easiest ways to build a distinctive beer.",
+ "read": "3 min",
+ "updated": "2026-06-04",
+ "updated_label": "June 2026",
+ "sections": [
+  [
+   "Why timing matters more than fruit choice",
+   "<p>Fruit added during the boil loses most of its delicate aroma to heat and evaporation, leaving mostly colour and a little sugar behind. Fruit added during or after fermentation preserves far more aroma and fresh character, which is why most fruit beers add it on the cold side, either late in primary fermentation or during a separate secondary stage.</p><p>The trade-off is sanitation risk, since unpasteurised fruit carries its own wild yeast and bacteria straight into an environment you have otherwise worked hard to keep clean.</p>"
+  ],
+  [
+   "Managing the sanitation risk",
+   "<p>Pasteurise fruit and puree briefly before adding it, or use a commercial fruit puree product designed for brewing, which is already treated and far more consistent than fresh fruit batch to batch. Fresh fruit added raw is not automatically ruinous, many traditional lambic producers rely on exactly that wild character, but it is a deliberate choice, not a default.</p><p>If you want a clean, purely fruity beer without the wild funk fresh fruit can bring, treated puree or extract is the more predictable option.</p><p>A short pasteurisation, heating fruit or puree to around 71 degrees Celsius for a few minutes before it cools and goes into the fermenter, kills most of the wild organisms riding along on the fruit while still preserving considerably more fresh character than a full boil would.</p>"
+  ],
+  [
+   "How much fruit to use",
+   "<p>Quantities vary enormously by fruit and desired intensity, but a common starting range is 100 to 300 grams of fruit or puree per litre of finished beer for a noticeable but balanced character, going higher for an intensely fruited style. Very high fruit loads add meaningful fermentable sugar too, which can push final gravity and alcohol content up beyond what the base recipe accounted for.</p>"
+  ],
+  [
+   "Fermentation restarting on fruit sugar",
+   "<p>Adding fruit after what you thought was the end of fermentation often restarts activity, since fruit sugar is fresh, fermentable material for yeast that is still present in the beer. Plan for this rather than treating it as a fault: leave headspace, expect a fresh krausen, and wait for gravity to stabilise again before packaging.</p><p>This is a similar mechanism to the hop creep covered in our <a href=\"dry-hopping-guide.html\">dry hopping guide</a>, different cause, same practical lesson: check gravity again before you package anything added late.</p>"
+  ],
+  [
+   "Matching fruit to base beer",
+   "<p>Tart, acidic fruit like berries pairs naturally with sour or wild styles where the acidity fits the existing character, while stone fruit and tropical fruit often sit better against a hop-forward or lightly malty base that will not compete for attention. See our guide on <a href=\"brewing-with-indian-spices.html\">brewing with Indian spices</a> for the same principle applied to spice rather than fruit.</p><p>Keep the base beer recipe itself relatively simple and restrained when fruit is the intended star of the finished beer, since a heavily hopped or heavily roasted base competes with fruit character rather than showcasing it.</p>"
+  ],
+  [
+   "Choosing between fresh fruit, puree and extract",
+   "<p>Fresh fruit gives the most authentic character but the highest sanitation risk and the most batch to batch variability, since ripeness and sugar content shift with season and source. Commercial fruit puree, pasteurised and standardised, trades a little of that authenticity for consistency and lower risk, and is what most commercial breweries use at scale. Natural or artificial extract gives aroma with almost no fermentable sugar or infection risk, useful for a lighter touch of fruit character without disturbing gravity.</p>"
+  ],
+  [
+   "Colour and haze from fruit",
+   "<p>Fruit skins, particularly berries, contribute pectin and pigment that can leave a beer hazier and more deeply coloured than the base recipe alone would produce, an effect some brewers want and others actively work to avoid with pectic enzyme additions that break down the haze-forming compound. Decide early whether a hazy, fruit-forward look fits the beer you are making, since correcting it after the fact is harder than planning for it upfront.</p>"
+  ],
+  [
+   "A note on expectations",
+   "<p>Fruit beer rarely tastes exactly like the fresh fruit itself, since fermentation consumes much of the sugar and some of the more delicate aroma compounds along the way. Managing this expectation, and tasting test batches with a small amount of fruit before scaling a full batch's addition, avoids the common disappointment of a fruit beer that tastes far more subtle than the brewer expected.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Should I add fruit during the boil or after fermentation?",
+   "After fermentation, or late in primary, preserves far more aroma. Boiling fruit mostly destroys the delicate character and leaves colour and sugar behind."
+  ],
+  [
+   "Do I need to pasteurise fruit before adding it?",
+   "It is safer, since raw fruit carries wild yeast and bacteria. Treated puree or a quick pasteurisation reduces the risk of unwanted funk or infection."
+  ],
+  [
+   "Why did my beer start fermenting again after I added fruit?",
+   "Fruit sugar is fresh fermentable material for any yeast still present. This is normal. Wait for gravity to stabilise again before packaging."
+  ],
+  [
+   "How much fruit should I use per litre of beer?",
+   "Roughly 100 to 300 grams per litre for a noticeable but balanced character is a common starting point, adjusted up for a more intensely fruited beer."
+  ]
+ ],
+ "cta": {
+  "title": "Build fruit and specialty beers with confidence",
+  "body": "Style Specialisation is an 8-week live course that goes past what one guide can cover. It covers fruit handling, secondary fermentation and recipe balance for a full range of specialty styles, not one ingredient in isolation.",
+  "href": "style-specialization-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-with-indian-spices",
+  "barley-malting-process",
+  "brettanomyces-explained"
+ ]
+}

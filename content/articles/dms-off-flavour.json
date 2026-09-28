@@ -1,0 +1,67 @@
+{
+ "slug": "dms-off-flavour",
+ "cat": "Tasting",
+ "h1": "DMS: the sweetcorn fault",
+ "title": "DMS: The Sweetcorn Off-Flavour in Beer | Craft Beer School",
+ "desc": "What DMS is, why it smells like cooked sweetcorn, what causes it during the boil and how brewers prevent it.",
+ "teaser": "Cooked sweetcorn or cabbage in your pale lager usually means one thing: the boil was not doing its job.",
+ "standfirst": "DMS is a malt derived fault that a proper boil should drive off completely. When it shows up, the boil is almost always the place to look.",
+ "read": "3 min",
+ "updated": "2025-03-05",
+ "updated_label": "March 2025",
+ "sections": [
+  [
+   "What DMS actually smells like",
+   "<p>Cooked or tinned sweetcorn is the classic descriptor, and some tasters also pick up cabbage or tomato depending on the concentration present. Pale lagers show it most obviously, since there is little other malt character around to mask it, which is why lager brewers watch for it especially closely at every stage.</p><p>Certain malt varieties naturally carry more of the DMS precursor than others, which is one reason some historic lager recipes specify particularly long, vigorous boils as standard practice rather than an optional extra step.</p>"
+  ],
+  [
+   "Where it comes from",
+   "<p>A precursor compound present in malt converts to dimethyl sulphide with heat, during both mashing and the boil itself. DMS is volatile, meaning a vigorous, open boil drives it off into the air rather than leaving it behind in the beer. It survives, or builds up, when the boil is too gentle, too short, or run with the lid on, which traps the volatile compound instead of letting it escape freely.</p><p>It can also re-form after the boil finishes if hot wort sits around cooling slowly, since the precursor conversion continues at high temperature even after the kettle has been switched off entirely.</p><p>Extended mash times at higher mash temperatures can also contribute additional DMS precursor into the wort before the boil even begins, which is one more reason recipe design and process control need to be considered together rather than the boil being treated as the only variable that matters.</p>"
+  ],
+  [
+   "The fix",
+   "<p>A strong, rolling boil with the lid off for the full boil time, followed by rapid cooling to pitching temperature, prevents almost all DMS problems before they start. The gap between the end of the boil and getting the wort properly cold is exactly where uncontrolled DMS tends to form, so a slow immersion chiller on a hot day is a common culprit worth checking first.</p><p>A wort chiller sized properly for your batch volume is one of the more overlooked pieces of brewing equipment on this front, since an underpowered chiller extends exactly the slow cooling window where DMS has the chance to reform after the boil.</p>"
+  ],
+  [
+   "Why pale lagers are the canary here",
+   "<p>Because a pilsner or a helles has so little else going on flavour wise, even a small DMS problem stands out immediately to a trained taster, which is why experienced lager brewers treat it as one of the first checks run on any new batch. A dark, heavily hopped beer can mask the same level of DMS almost entirely by comparison.</p><p>Some brewers add a short boil vigour check partway through as a specific quality control step, watching for a genuine rolling boil rather than a gentle simmer that merely looks active from a distance, since the difference between the two is easy to misjudge by eye alone.</p><p>A covered kettle left even briefly during a boil, to check a hydrometer reading or add a late hop addition, can meaningfully trap enough DMS to be noticeable in the finished beer, so keep any lid off entirely for the full duration.</p>"
+  ],
+  [
+   "Training your nose to catch it",
+   "<p>A spiked reference sample, from a kit covered in our guide to <a href=\"off-flavour-spiking-kits.html\">off flavour spiking kits</a>, fixes the sweetcorn aroma in memory far faster than trying to recall it from a written description alone.</p><p>Home brewers working with smaller batches sometimes assume a gentler boil is safer because it reduces evaporation loss, but this trade off usually costs more in DMS risk than it saves in lost wort volume.</p>"
+  ],
+  [
+   "DMS alongside the other common faults",
+   "<p>DMS, <a href=\"diacetyl-off-flavour.html\">diacetyl</a> and <a href=\"acetaldehyde-off-flavour.html\">acetaldehyde</a> are the three faults most new brewers meet first, each traceable to a specific, identifiable point in the process rather than a mysterious general flaw. Oxidation, covered in our guide to <a href=\"oxidised-beer.html\">oxidised beer</a>, is a fourth worth learning alongside these three early on.</p><p>Keeping a simple log of boil time, vigour and cooling time alongside tasting notes for each batch makes it far easier to spot a DMS problem's real cause quickly, rather than guessing at the process after the fact from memory alone.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does my pale lager smell like cooked sweetcorn?",
+   "This is the classic sign of DMS, usually caused by a boil that was too gentle, too short, or run with the lid on, letting the compound build up instead of boiling off."
+  ],
+  [
+   "Can a strong boil really prevent DMS entirely?",
+   "A vigorous, open boil for the full recommended time removes the great majority of DMS in most recipes, which is why boil vigour is one of the first things checked when the fault appears."
+  ],
+  [
+   "Does DMS affect dark beers as much as pale ones?",
+   "The underlying chemistry is the same, but dark, heavily hopped or roasted beers have more character to mask a low level of DMS, so it tends to show up most obviously in pale lagers."
+  ],
+  [
+   "Can DMS form after the boil is finished?",
+   "Yes, if hot wort cools too slowly, the conversion can continue, which is why rapid cooling after the boil matters as much as the boil itself."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to name this fault before it ships",
+  "body": "Sensory Evaluation includes a spiked DMS reference sample, so the sweetcorn character is fixed in memory against a real, calibrated example.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "acetaldehyde-off-flavour",
+  "oxidised-beer",
+  "diacetyl-off-flavour"
+ ]
+}

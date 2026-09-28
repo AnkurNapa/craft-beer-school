@@ -1,0 +1,63 @@
+{
+ "slug": "beer-foam-science",
+ "cat": "Brewing science",
+ "h1": "The science of beer foam",
+ "title": "The Science of Beer Foam | Craft Beer School",
+ "desc": "What makes beer foam stable, which compounds help and hurt it, and why a clean glass matters more than people think.",
+ "teaser": "Good foam is not decoration. It is a measurable interaction between malt proteins, hop acids and whatever is or is not left on the glass.",
+ "standfirst": "Foam stability comes down to a handful of specific molecules working together, and a single trace of fat or detergent can undo all of them at once.",
+ "read": "3 min",
+ "updated": "2025-02-15",
+ "updated_label": "February 2025",
+ "sections": [
+  [
+   "What actually holds foam together",
+   "<p>Beer foam is a network of bubbles stabilised mainly by a malt-derived protein called lipid transfer protein 1, LTP1, which unfolds at the bubble surface and forms a stable film. Hop iso-alpha acids, the bittering compounds formed during the boil, bind to this protein film and reinforce it further, which is part of why bittering hop additions support foam more than late aroma additions do.</p><p>Carbonation level itself interacts with foam. A beer carbonated too low will never build a substantial head regardless of how good its protein and hop chemistry is, since there simply is not enough dissolved CO2 to form bubbles in the first place. Foam problems should always rule out a carbonation shortfall before blaming protein or lipid chemistry.</p>"
+  ],
+  [
+   "Foam positive and foam negative factors",
+   "<p>Malt proteins and iso-alpha acids are foam positive. Lipids and fats are strongly foam negative, they disrupt the protein film at very low concentrations. Sources include poorly rinsed glassware carrying detergent residue, oils from crisps or lipstick on the glass rim, and occasionally lipid carryover from an underfiltered or unusually fatty grain bill. This is why a scrupulously clean, oil-free glass has a bigger effect on foam than most recipe changes.</p><p>Pour technique changes perceived foam quality even when the beer's chemistry is identical. A pour straight down the centre of a glass, rather than down the side, agitates more CO2 out of solution at once, building a taller, if faster fading, head, which is why serving staff training affects a brewery's foam reputation almost as much as recipe design does.</p>"
+  ],
+  [
+   "Nucleation and bubble formation",
+   "<p>Bubbles need a nucleation site, a tiny imperfection or particle, to form from dissolved CO2 rather than releasing all at once. Etched nucleation points in some glassware, or a rough patch left deliberately at the base of a glass, give a steady, controlled stream of bubbles that continually refreshes the foam head, rather than the beer going flat looking within minutes.</p> A quick check with a completely fresh, oil free glass is one of the fastest ways to rule out serving equipment as the cause of a foam complaint before assuming the recipe itself is at fault.<p>Malt selection contributes differently to foam depending on how it is processed. Highly modified, well kilned malts generally retain more of the foam-positive proteins through the brewing process than heavily adjunct-based grists, which is part of why some all-malt lagers are noted for exceptional, long-lasting foam compared with lighter, adjunct-heavy styles.</p>"
+  ],
+  [
+   "Why filtration and finings can hurt foam",
+   "<p>Aggressive fining or tight <a href=\"beer-filtration-basics.html\">filtration</a> can remove some of the same proteins that stabilise foam, since foam-positive and haze-forming proteins are not always cleanly separable. A beer that looks perfectly clear but goes flat quickly in the glass has often had its foam-supporting proteins stripped out along with the haze it was chasing away.</p><p>Foam-negative contamination is not always obvious at the point it happens. A cleaning chemical residue left in a keg coupler or tap line, rather than in the glass itself, can quietly ruin foam on every pour from that line until the equipment is properly cleaned and rinsed.</p>"
+  ],
+  [
+   "Practical foam control",
+   "<p>Keep glassware free of any oil or detergent film, rinse with plain water immediately before pouring rather than relying on an earlier wash alone, and avoid over-filtering styles that depend on a persistent head. Bittering hop additions, rather than relying solely on late or dry hop character, also give foam a real chemical assist rather than a cosmetic one.</p><p>Detergent choice for glass washing is worth reviewing specifically for foam performance rather than just general cleanliness, since some commercial dish detergents leave a film that is excellent for removing grease but genuinely harmful to foam retention. Dedicated, foam-safe glass cleaning products exist for exactly this reason and are worth the switch for any venue serious about how its beer is presented.</p><p>For a brewery troubleshooting a foam complaint from a specific account or venue, checking their glass washing and line cleaning practices before revisiting the recipe is usually the faster and more accurate diagnosis, since the beer itself is often unchanged from a batch pouring perfectly well elsewhere.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does my beer have no head even though it is fully carbonated?",
+   "The most common cause is a glass with oil or detergent residue, which destroys the protein film that stabilises foam almost instantly. A properly rinsed, oil-free glass is the first thing to check."
+  ],
+  [
+   "Do hops actually help foam?",
+   "Yes. Iso-alpha acids from bittering hop additions bind to malt proteins and reinforce the foam-stabilising film, so a well hopped beer generally holds foam better than an under-hopped one with the same malt bill."
+  ],
+  [
+   "Can filtration ruin a beer's foam?",
+   "It can. Tight filtration sometimes removes foam-positive proteins alongside the haze-forming ones it targets, leaving a clear beer that goes flat quickly."
+  ],
+  [
+   "What is a nucleation point?",
+   "A tiny surface imperfection or etched mark that gives dissolved CO2 a place to form bubbles steadily, rather than releasing all at once. It helps sustain a foam head over the life of the pour."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to build and protect foam stability through the whole process, from grist and hop schedule to the glass it is served in. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-haze-causes",
+  "hop-creep",
+  "pasteurisation-units"
+ ]
+}

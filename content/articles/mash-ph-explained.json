@@ -1,0 +1,75 @@
+{
+ "slug": "mash-ph-explained",
+ "cat": "Brewing science",
+ "h1": "Mash pH explained",
+ "title": "Mash pH Explained | Craft Beer School",
+ "desc": "Why mash pH sits in the 5.2 to 5.6 range, what happens outside it, and how to measure and correct it properly.",
+ "teaser": "Mash pH is the single most consequential number in the entire brewing process, and one of the least checked.",
+ "standfirst": "A mash a little outside the 5.2 to 5.6 range still produces beer. It just produces worse beer, in ways that are hard to trace back to the actual cause without a pH reading.",
+ "read": "3 min",
+ "updated": "2021-10-22",
+ "updated_label": "October 2021",
+ "sections": [
+  [
+   "Why this narrow range matters",
+   "<p>Enzymes that convert starch into fermentable sugar work fastest and most efficiently within roughly 5.2 to 5.6, measured at mash temperature rather than at room temperature, where the same sample reads slightly higher. Push pH above this range and conversion slows, extraction of harsh tannins from the grain husk increases, and the beer tends toward a duller, sometimes astringent character. Push it too far below and enzyme activity also suffers, though this is the less common failure.</p>"
+  ],
+  [
+   "What sets mash pH in the first place",
+   "<p>Grain itself is naturally slightly acidic, more so for darker, roasted malts, which is why a big stout mash often needs less correction, sometimes none, compared with a pale lager mash using the same water. Water alkalinity works against this natural acidity, pushing pH upward, and the balance between the two, not either one alone, is what determines where your mash actually lands.</p>"
+  ],
+  [
+   "Measuring it properly",
+   "<p>A calibrated pH meter, checked with buffer solution regularly and read at mash temperature, is the only reliable method. pH strips are cheap and better than nothing, but they are hard to read precisely and were never designed for the reddish, opaque colour of wort. Room-temperature readings run measurably higher than the same sample at mash temperature, roughly 0.3 units, which matters if you are chasing a target range this narrow.</p>"
+  ],
+  [
+   "Correcting it",
+   "<p>Food grade lactic or phosphoric acid brings pH down for water that is too alkaline for the grain bill. Calcium carbonate or baking soda raises pH, needed occasionally for a very pale, low-alkalinity water mash that runs too acidic, particularly with a large proportion of acidic specialty malt. Small, measured additions and a recheck beat a single large correction guessed from a calculator alone.</p><p>See our guide on <a href=\"treating-borewell-water-for-brewing.html\">treating borewell water</a> for the common Indian case of high alkalinity fighting a pale mash.</p><p>Keep any acid or base additions well diluted and stirred in gradually rather than poured in a single concentrated dose, since a strong, undiluted acid addition can locally over-correct part of the mash before it has a chance to mix evenly through the whole volume.</p>"
+  ],
+  [
+   "What happens if you ignore it",
+   "<p>The beer will still ferment and still be drinkable in most cases, which is exactly why the problem goes unnoticed for so long. A mash sitting at 5.8 or higher extracts more tannin, converts starch slightly less efficiently, and gives a beer that tastes duller and slightly harsh in a way most brewers blame on the recipe or the grain rather than the one number that actually caused it.</p><p>Our guide on <a href=\"enzymes-in-the-mash.html\">the enzymes at work in your mash</a> covers why this temperature and pH sensitivity exists at the enzyme level.</p>"
+  ],
+  [
+   "Buffer capacity and why some grists resist correction",
+   "<p>A grist heavy in dark, roasted malt has more natural buffering capacity of its own than a very pale grist, meaning the same acid addition moves pH by a smaller amount. This is why a pH calculator's prediction should be treated as a starting estimate rather than a guarantee, and why measuring the actual result after an addition matters more than trusting the calculation alone.</p>"
+  ],
+  [
+   "Common calculator pitfalls",
+   "<p>Brewing water calculators need an accurate water report to work from, and feeding one an outdated or estimated water profile produces a confident, precise-looking, and wrong recommendation. Garbage in, garbage out applies here more than almost anywhere else in the brewing process, since a pH correction based on bad water data can push the mash further from target rather than closer to it.</p>"
+  ],
+  [
+   "Sparge water pH matters too",
+   "<p>Mash pH gets most of the attention, but sparge water arriving at a high, uncorrected pH can push the pH of the collected wort back up during lautering, particularly toward the end of a long sparge when there is less grain left to buffer it. Acidifying sparge water slightly, generally to around 5.5 to 6.0, protects against this late-stage pH drift and the tannin extraction that comes with it.</p><p>This is a smaller effect than mash pH itself, but it compounds with over-sparging, covered in our <a href=\"lautering-and-sparging.html\">lautering and sparging</a> guide, to produce exactly the dull, harsh character both problems cause independently.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the ideal mash pH range?",
+   "Roughly 5.2 to 5.6, measured at mash temperature, works well for most styles and grain bills."
+  ],
+  [
+   "Why does my pH reading change between mash temperature and room temperature?",
+   "pH readings run higher, roughly 0.3 units, at room temperature than at the actual mash temperature, so always calibrate and read this close to mash conditions."
+  ],
+  [
+   "Do dark beers need pH correction less often than pale beers?",
+   "Often yes, since dark, roasted malts are naturally more acidic and can bring pH into range on their own, sometimes without any added acid."
+  ],
+  [
+   "Can I skip measuring pH if I follow a published recipe?",
+   "Not reliably. Your water is different from whatever water the recipe was developed with, so the same grain bill can land at a different pH depending on your local water chemistry."
+  ]
+ ],
+ "cta": {
+  "title": "Control mash chemistry instead of guessing at it",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers mash pH, enzyme kinetics and water adjustment together as one connected system, going well beyond a single explainer.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "enzymes-in-the-mash",
+  "step-mashing",
+  "glycol-cooling-systems"
+ ]
+}

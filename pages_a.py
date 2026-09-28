@@ -13,7 +13,8 @@ def enroll_href(course_name):
 
 def course_href(course_name):
     """Detail page for a course, e.g. brewing-fundamentals-course.html."""
-    plain = course_name.replace("&amp;", "&").lower()
+    # British display name, but the live URL keeps its original z spelling.
+    plain = course_name.replace("&amp;", "&").lower().replace("specialisation", "specialization")
     return re.sub(r"[^a-z0-9]+", "-", plain).strip("-") + "-course.html"
 
 
@@ -46,7 +47,7 @@ COURSE_DATA = [
          blurb="The business behind the brew: plan, launch and grow a brewery, from finance to distribution.",
          items=["Business planning &amp; finance","Licensing &amp; regulations","Marketing &amp; branding","Distribution strategies"],
          price="₹8,999", amount="8999"),
-    dict(no="04", tag="Mastery", dur="8 Weeks", weeks=8, name="Style Specialization",
+    dict(no="04", tag="Mastery", dur="8 Weeks", weeks=8, name="Style Specialisation",
          blurb="Master IPAs, stouts, lagers, sours and Belgian ales: their history, technique and award-winning examples.",
          items=["Style guidelines &amp; origins","Specialised techniques","Ingredient selection &amp; pairing","Competition brewing skills"],
          price="₹18,999", amount="18999"),

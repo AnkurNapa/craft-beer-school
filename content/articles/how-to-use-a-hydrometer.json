@@ -1,0 +1,59 @@
+{
+ "slug": "how-to-use-a-hydrometer",
+ "cat": "Brewing basics",
+ "h1": "How to use a hydrometer properly",
+ "title": "How to Use a Hydrometer Properly | Craft Beer School",
+ "desc": "Correct hydrometer technique, including temperature correction, so your gravity readings are actually reliable.",
+ "teaser": "A hydrometer looks simple to use and is easy to use badly. Here is the technique that gets you a reading you can trust.",
+ "standfirst": "A hydrometer measures the density of your wort or beer relative to water, and it is the only honest way to know your gravity. Used carelessly, though, it gives numbers that look precise and are quietly wrong.",
+ "read": "3 min",
+ "updated": "2022-12-15",
+ "updated_label": "December 2022",
+ "sections": [
+  [
+   "What a hydrometer is actually measuring",
+   "<p>A hydrometer floats higher in denser liquid and lower in less dense liquid. Wort full of dissolved sugar is denser than water, so it reads above 1.000. As yeast converts that sugar to alcohol and carbon dioxide during fermentation, the liquid gets less dense and the reading falls. Watching that number fall and then hold steady is how you track fermentation from the outside.</p><p>Most homebrew hydrometers are marked in specific gravity, a simple ratio against water, though some also carry a Plato or Brix scale used more often in professional brewing and in sugar and wine work. Stick to whichever scale your recipes and calculators already use rather than mixing the two, since converting between them introduces an easy place to make an arithmetic mistake.</p>"
+  ],
+  [
+   "Taking a proper sample",
+   "<p>Never dip the hydrometer straight into your fermenter. Draw a small sample with a sanitised wine thief, turkey baster or the tap on your bucket, into a sanitised test jar or a tall glass. Anything that touches the sample needs the same sanitising discipline as anything else that touches your beer, covered in <a href=\"cleaning-vs-sanitising-brewing.html\">cleaning versus sanitising in brewing</a>.</p><p>Return unused sample from the test jar to compost or simply pour it away rather than back into the fermenter, and rinse the jar out between uses so old, oxidised sample residue does not affect your next reading or introduce a stray source of contamination near your equipment.</p><p>Drawing a sample through a tap fitted low on a fermenting bucket is usually cleaner and easier than dipping a wine thief in from the top, since it avoids disturbing the layer of yeast and trub that has settled at the base, which can otherwise cloud the sample and slightly distort the reading.</p>"
+  ],
+  [
+   "Reading it correctly",
+   "<p>Lower the hydrometer into the sample with a gentle spin to knock off any clinging bubbles, then let it settle. Read at eye level, at the flat surface of the liquid, not at the curved meniscus that climbs the glass or the stem. A sample straight from active fermentation is often full of suspended carbon dioxide, which makes the hydrometer float artificially high, so give it a minute or gently degas it by swirling before reading.</p><p>A hydrometer resting against the side of a narrow test jar rather than floating freely in the centre can give a slightly skewed reading, so a jar with enough width for the hydrometer to spin and settle without touching the sides gives the most reliable result.</p><p>Wipe the hydrometer dry between uses rather than storing it wet, since residue left on the glass stem can dry into a film that skews the next reading slightly until it is cleaned off again.</p>"
+  ],
+  [
+   "Correcting for temperature",
+   "<p>Most hydrometers are calibrated to read accurately at one specific reference temperature, commonly 20 &#176;C, printed on the instrument. A warm sample reads lower than its true gravity and a cold sample reads higher, because the liquid itself expands or contracts. Either cool your sample close to the calibration temperature before reading, or apply a temperature correction chart, widely available and worth keeping taped near your brewing area.</p><p>Keeping a small notebook or a phone note with your hydrometer's exact calibration temperature, printed on the paper scale inside most models, saves a search every time you need to apply a correction. Not every hydrometer is calibrated to the same reference point, so do not assume yours matches one you have read about elsewhere.</p>"
+  ],
+  [
+   "Knowing when to trust the number",
+   "<p>A single reading tells you the gravity at that moment. Fermentation is genuinely finished only when two readings taken 48 hours apart come back identical, which is the check we recommend before bottling, discussed further in <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity explained</a>. Bottling on a single reading, even a low one, is how sealed bottles end up over-carbonated.</p><p>A refractometer is sometimes used instead of or alongside a hydrometer for a quicker reading from just a few drops of sample, which is useful for checking progress without wasting beer. It reads inaccurately once alcohol is present, though, so refractometer readings taken during or after fermentation need a correction formula, whereas a hydrometer reads correctly throughout.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I reuse the sample I test after taking a reading?",
+   "No, discard it. It has been exposed to air and whatever was on the equipment used to draw it, so returning it to the fermenter risks contamination."
+  ],
+  [
+   "My hydrometer reading looks too high right after fermentation started. Why?",
+   "Carbon dioxide clinging to the hydrometer and the sample can make it float higher than the true gravity. Swirl the sample gently to release trapped gas before reading."
+  ],
+  [
+   "What if I do not have a temperature correction chart handy?",
+   "Cooling the sample to roughly room temperature, close to your hydrometer's stated calibration point, before reading gets you close enough for most homebrewing purposes without needing the chart at all."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "original-gravity-final-gravity-explained",
+  "how-to-calculate-abv",
+  "cleaning-vs-sanitising-brewing"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "brewery-qc-lab-on-a-budget",
+ "cat": "Brewing science",
+ "h1": "A brewery QC lab on a budget",
+ "title": "Brewery QC Lab on a Budget | Craft Beer School",
+ "desc": "The minimum quality control kit a small brewery actually needs, roughly what each tool costs, and the order to buy them in.",
+ "teaser": "You do not need a microbiologist on staff to catch most of what goes wrong. You need six pieces of kit and the discipline to use them every batch.",
+ "standfirst": "A quality lab does not have to mean a spare room full of glassware. Here is the short list that catches most real problems, in the order most small breweries should actually buy it.",
+ "read": "3 min",
+ "updated": "2026-04-01",
+ "updated_label": "April 2026",
+ "sections": [
+  [
+   "What QC is actually for",
+   "<p>Quality control is not about chasing perfection. It is about catching the same three or four failure modes, an infection, a fermentation that stalled, an oxidation problem, before they reach a customer, and catching them early enough to still do something about it.</p><p>Most small breweries skip this because a proper lab looks expensive. The truth is a genuinely useful starter kit costs less than a single stuck batch of beer poured down the drain.</p>"
+  ],
+  [
+   "Start with a hydrometer or refractometer, and a thermometer",
+   "<p>These are not optional and most brewers already own them, but few use them with real discipline. Tracking original gravity, daily gravity through fermentation and final gravity against your recipe target tells you within a day or two if fermentation has stalled, long before the beer tastes obviously wrong.</p><p>A calibrated digital thermometer, checked periodically against ice water at 0°C, matters more than people think. A thermometer reading two degrees warm can leave a lager fermenting outside its intended range for weeks without anyone noticing.</p>"
+  ],
+  [
+   "A pH meter is the next real upgrade",
+   "<p>Mash pH sitting outside the normal 5.2 to 5.6 range affects enzyme activity, extraction efficiency and finished beer stability, and you cannot judge it by taste or colour. A decent bench or handheld pH meter, calibrated with buffer solutions before each session, is the single instrument that pays for itself fastest in a brewery still dialling in its water treatment.</p><p>Buy calibration buffers alongside the meter and actually use them. An uncalibrated pH meter gives you a confident, wrong number, which is worse than no number at all.</p><p>India adds a specific wrinkle here. Borewell water varies wildly in mineral content from one part of a city to the next, sometimes from one season to the next in the same borewell, so a pH reading taken once when the brewery opened is not a reading you can trust two years later without rechecking.</p>"
+  ],
+  [
+   "A microscope for yeast health and contamination",
+   "<p>A basic compound microscope with 400x magnification lets you count yeast cells, check viability with methylene blue staining, and spot obvious contamination, wild yeast, bacterial chains, well before it shows up in flavour. This is the tool that turns pitching rate from a guess into a number.</p><p>Secondhand laboratory microscopes are usually adequate for this and far cheaper than a new one built for brewing specifically. The optics matter more than the badge on the base.</p>"
+  ],
+  [
+   "ATP swabs and a simple titration kit",
+   "<p>An ATP luminometer gives a fast, numeric readout of surface cleanliness after a CIP cycle, which turns our <a href=\"cip-cleaning-in-place.html\">cleaning in place guide</a> from theory into something you can actually verify. A basic titration kit for caustic and acid strength stops you guessing whether your cleaning chemical is still working or has been diluted past usefulness.</p><p>Neither tool needs a lab technician to run. Both take under a minute per test, which is the real reason they get used consistently and a full microbiology setup often does not.</p>"
+  ],
+  [
+   "Dissolved oxygen last, once the basics are solid",
+   "<p>A dissolved oxygen meter is genuinely useful, but it solves a specific problem, oxygen pickup after fermentation, and it is wasted money if your fermentation control and cleaning are still shaky. Get the fundamentals working first. Our <a href=\"measuring-dissolved-oxygen.html\">measuring dissolved oxygen guide</a> covers what to do once you are ready for it.</p><p>Buying instruments in the wrong order is a common trap. A brewery with an expensive DO meter and no calibrated pH meter has its priorities backwards.</p>"
+  ],
+  [
+   "Building the habit, not just the shelf",
+   "<p>A lab full of unused equipment is worse than no lab, because it creates a false sense of control. Every instrument on this list needs a logbook entry every time it is used, on every batch, or the data never becomes a pattern you can act on.</p><p>Twenty students in one of our live sessions have all said the same thing in different words: the equipment is the easy part. Building the habit of testing the same thing the same way every single batch is what actually prevents the next bad one.</p><p>Set a simple rule before you buy anything: no new instrument goes on the shelf without a matching line in your batch record sheet. If you cannot say where a reading gets written down, you are not ready to buy the tool that produces it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the single most useful instrument to buy first?",
+   "A calibrated pH meter, if you already own a hydrometer and thermometer. Mash pH affects almost everything downstream and cannot be judged by eye or taste."
+  ],
+  [
+   "Do I need a microbiology lab to catch infections?",
+   "Not for most common problems. A basic microscope and disciplined sensory tasting catch the majority of infections early enough to act, without a full microbiology setup."
+  ],
+  [
+   "How much should a starter QC kit cost?",
+   "It varies by supplier and whether you buy new or secondhand, but a hydrometer, pH meter, basic microscope, ATP swabs and a titration kit together cost far less than one lost batch."
+  ],
+  [
+   "Is a dissolved oxygen meter worth it for a small brewery?",
+   "Yes eventually, but only once fermentation control and cleaning are already solid. It solves a specific late stage problem and is not where a new brewery should start spending."
+  ]
+ ],
+ "cta": {
+  "title": "Build the lab, then learn to read it",
+  "body": "Advanced Brewing Science runs live on weekends over six weeks, capped at 20 students, and walks through exactly how to set up and run this QC kit with a certificate at the end. Seats: ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "measuring-dissolved-oxygen",
+  "beer-stability-in-indian-heat",
+  "cip-cleaning-in-place"
+ ]
+}

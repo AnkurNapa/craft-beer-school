@@ -1,0 +1,67 @@
+{
+ "slug": "brewing-software-and-calculators",
+ "cat": "Brewing basics",
+ "h1": "Brewing software and calculators worth using",
+ "title": "Brewing software and calculators | Craft Beer School",
+ "desc": "What brewing calculators are actually good for, and where mash efficiency and water chemistry still need real data.",
+ "teaser": "Software will not brew good beer for you, but it will stop you making the same arithmetic mistake on every batch.",
+ "standfirst": "Recipe software and online calculators do the repetitive maths, gravity corrections, IBU estimates, water salts, so you can spend your attention on the brew day itself. Here is what they are actually good for.",
+ "read": "3 min",
+ "updated": "2025-09-03",
+ "updated_label": "September 2025",
+ "sections": [
+  [
+   "What calculators are genuinely useful for",
+   "<p>The maths behind brewing is not hard, but it is repetitive and easy to get slightly wrong under time pressure on brew day. Tools like Brewer's Friend, Brewfather and BeerSmith, or a plain spreadsheet if you would rather build your own, are good at hydrometer temperature correction, converting between specific gravity and degrees Plato, estimating IBU from the Tinseth or Rager formulas, and working out water salt additions to hit a target mineral profile. None of this replaces judgement, but it removes the arithmetic errors that creep in at the end of a long brew day.</p>"
+  ],
+  [
+   "Mash efficiency: the number worth tracking",
+   "<p>Most software will ask for your expected mash efficiency and use it to predict your OG from a grain bill. The honest way to use this feature is backwards: log your actual measured OG against the grain bill you used, let the software calculate your real efficiency, and use that measured number for your next recipe rather than a generic default. Efficiency varies by mill gap, grain crush, mash tun design and technique, and your own number will always beat a textbook figure.</p>"
+  ],
+  [
+   "Water calculators need real starting data",
+   "<p>A water chemistry calculator is only as good as the water report you feed it. If you brew on borewell or municipal water in India, get an actual mineral analysis rather than assuming a generic profile, because calcium, sulphate and chloride levels vary enormously between sources, and a calculator working from wrong inputs will suggest confidently wrong salt additions. RO (reverse osmosis) water, increasingly common as a starting point, is close enough to a blank slate that calculators handle it well, since you are building the profile up from near zero rather than correcting an unknown baseline.</p>"
+  ],
+  [
+   "Where the software cannot help",
+   "<p>No calculator can tell you whether your beer tastes right, whether your fermentation is progressing normally, or whether a stuck sparge is about to happen. Those judgements still come from watching the process and, eventually, from experience that no app replaces. Software is a tool for the maths around the brew, not a substitute for the brewer's attention during it.</p>"
+  ],
+  [
+   "Choosing between a spreadsheet and an app",
+   "<p>A dedicated app gives you a built in ingredient database, unit conversions and a phone-friendly interface for brew day, which matters if you are checking numbers standing over a mash tun. A spreadsheet gives you complete control over the formulas and is free, which matters if you want to understand exactly how a number was calculated rather than trust a black box. Most homebrewers in India start with a free app tier and move to a spreadsheet, or the paid version of the same app, once they want to track efficiency and water chemistry properly across batches, which pairs naturally with <a href=\"keeping-a-brew-log.html\">keeping a brew log</a> alongside it.</p>"
+  ],
+  [
+   "A sensible starting setup",
+   "<p>Pick one app, log every batch in it consistently rather than switching tools every few brews, and treat the numbers it gives you as a starting estimate to correct with your own measured results. Once you trust your own efficiency and water numbers, scaling a recipe, covered in our guide on <a href=\"scaling-a-beer-recipe.html\">scaling a beer recipe</a>, becomes far less of a guessing game.</p>"
+  ],
+  [
+   "A worked example: predicting OG before brew day",
+   "<p>Say a recipe calls for 5 kg of Pilsner malt at an assumed 75 percent mash efficiency, targeting 20 litres of wort. A calculator will use the malt's potential extract, roughly 1.037 per kilogram per litre for a well modified Pilsner malt, multiplied by the assumed efficiency, to predict an OG close to 1.050. If your actual system consistently hits 68 percent rather than 75, that same grain bill will land closer to 1.045, a difference easily corrected before brew day once you have logged a few real efficiency numbers rather than trusted the software's generic assumption.</p><p>This is the pattern worth adopting: use the calculator to plan the recipe, but feed it your own measured numbers rather than the defaults it ships with, and its predictions will start matching your actual results far more closely.</p><p>One habit worth building early: export or back up your batch records periodically, whichever tool you use. A phone lost or an account locked out should never mean losing two years of logged efficiency and water data that took real batches to build up.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which brewing app should I start with?",
+   "Any of the well known free tiers, Brewer's Friend or Brewfather, are fine to start. Consistency in using one tool matters more than which one you pick."
+  ],
+  [
+   "Do I need a water report to use a water calculator?",
+   "You get much better results with one. A generic assumed profile can lead a calculator to suggest salt additions that are wrong for your actual source water."
+  ],
+  [
+   "Can software predict my actual mash efficiency?",
+   "Not accurately from a default setting. Log a few real batches, let it calculate your measured efficiency, and use that number going forward instead of a textbook estimate."
+  ]
+ ],
+ "cta": {
+  "title": "Want the numbers behind the software explained properly?",
+  "body": "Software gives you the numbers. It will not tell you why your last batch tasted different from the one before it. Brewing Fundamentals runs 4 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "keeping-a-brew-log",
+  "brewing-in-a-small-indian-apartment",
+  "scaling-a-beer-recipe"
+ ]
+}

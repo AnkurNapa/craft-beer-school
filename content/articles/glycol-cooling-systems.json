@@ -1,0 +1,67 @@
+{
+ "slug": "glycol-cooling-systems",
+ "cat": "Brewing science",
+ "h1": "Glycol cooling systems",
+ "title": "Glycol Cooling Systems for Breweries | Craft Beer School",
+ "desc": "How glycol chilling actually works in a small brewery, sizing a system correctly, and the maintenance that keeps fermentation temperature stable.",
+ "teaser": "A glycol system that is undersized does not fail loudly. It just quietly lets your lager ferment three degrees warmer than you think it is.",
+ "standfirst": "Most fermentation temperature problems trace back to a glycol system that was never sized for the job, or one nobody has serviced since installation. Here is how the system actually works and where it goes wrong.",
+ "read": "3 min",
+ "updated": "2026-07-19",
+ "updated_label": "July 2026",
+ "sections": [
+  [
+   "What a glycol system is actually doing",
+   "<p>A glycol chiller cools a propylene glycol and water mixture to a set temperature, usually somewhere between minus 5 and 5°C, and circulates it through jackets welded or clamped around fermenters and bright tanks. Glycol rather than plain water is used because it does not freeze at these temperatures, and because a shared loop can serve multiple vessels at different setpoints through individually controlled valves.</p><p>The chiller, the glycol loop and the tank jacket all need to be sized together. A powerful chiller feeding an undersized tank jacket, or a good jacket fed by a chiller with too little capacity, both leave you unable to hold temperature once a vigorous fermentation starts generating its own heat.</p>"
+  ],
+  [
+   "Sizing: why most small brewery systems run short",
+   "<p>Fermentation is exothermic, and an actively fermenting batch generates real heat, more than most first time brewers expect, especially during the vigorous first two to three days. A glycol system sized only for the target fermentation temperature, without margin for that heat load plus ambient heat gain through tank walls in a hot Indian brewhouse, will fall behind exactly when you need it most.</p><p>The common failure pattern is a brewery that sized its chiller for its coldest planned lager and then finds every fermenter running slightly warm the moment two tanks ferment vigorously at once, because the chiller cannot serve both loads simultaneously.</p>"
+  ],
+  [
+   "Single stage versus glycol water mixture temperature",
+   "<p>Glycol concentration matters more than people assume. Too little glycol in the mix risks partial freezing at the chiller's evaporator, which damages the compressor over time. Too much glycol reduces the fluid's heat carrying capacity and makes the pump work harder for the same cooling effect.</p><p>Most small brewery systems run 25 to 35 percent propylene glycol by volume, but the correct figure depends on your chiller's minimum operating temperature. Check the manufacturer's chart rather than guessing, and recheck concentration periodically since water evaporates from open reservoirs and topping up with plain water shifts the ratio over time.</p>"
+  ],
+  [
+   "Maintenance that actually prevents drift",
+   "<p>Glycol reservoirs are rarely sealed systems in a small brewery, and algae growth, scale build-up and slowly dropping glycol concentration all reduce cooling capacity gradually rather than all at once. This is exactly why the problem often goes unnoticed: the system does not fail, it just gets a little worse every month.</p><p>Check glycol concentration with a refractometer every few months, inspect and clean the reservoir annually, and keep an eye on compressor run time. A compressor that used to cycle off regularly and now runs almost continuously is telling you the system is losing capacity somewhere, whether that is a dirty condenser coil or falling glycol concentration.</p><p>Condenser coils in particular need regular attention in most Indian brewhouses, since dust and kitchen exhaust residue in a shared building can cake onto fins within months and quietly reduce heat rejection long before anyone notices a fermentation running warm.</p>"
+  ],
+  [
+   "Jacket coverage and insulation matter as much as the chiller",
+   "<p>A fermenter with a single cooling jacket band near the base struggles to control temperature evenly through a tall tank, since the top of the beer can sit several degrees warmer than the jacketed zone during vigorous fermentation. Full height or multi zone jacketing, paired with proper tank insulation, does more for temperature stability than simply buying a bigger chiller.</p><p>Insulation gets skipped surprisingly often on a tight budget, but an uninsulated tank in a hot brewhouse is constantly fighting ambient heat gain, which means the chiller spends capacity holding steady state rather than responding to fermentation heat when it matters.</p>"
+  ],
+  [
+   "Redundancy and what happens when the chiller fails",
+   "<p>A single chiller serving every fermenter and bright tank in the brewery is a single point of failure, and a compressor failure during a vigorous fermentation can undo weeks of careful process control within hours in Indian ambient temperatures. Even a modest backup, a second smaller unit or a plan to reroute glycol from a less critical tank, buys time to get a repair done.</p><p>Pairing a well sized glycol system with the fermentation control habits in our <a href=\"beer-stability-in-indian-heat.html\">beer stability in Indian heat guide</a> is what actually keeps a beer tasting the same in July as it does in January.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What glycol concentration should I run?",
+   "Most small brewery systems run 25 to 35 percent propylene glycol by volume, but check your chiller manufacturer's chart, since running below the recommended concentration risks freezing at the evaporator and damaging the compressor."
+  ],
+  [
+   "Why is my fermenter running warmer than the chiller setpoint?",
+   "Usually insufficient jacket coverage, poor tank insulation, an undersized chiller for your total tank load, or falling glycol concentration reducing cooling capacity. Check concentration and jacket coverage before assuming the chiller itself is faulty."
+  ],
+  [
+   "How often should I check my glycol system?",
+   "Check concentration every few months with a refractometer, and monitor compressor run time regularly. A compressor running near continuously compared to its normal cycling pattern is an early warning sign worth investigating."
+  ],
+  [
+   "Do I need a backup chiller for a small brewery?",
+   "It depends on your risk tolerance and how many tanks share one system. Even a modest backup plan reduces the chance that a single compressor failure ruins an active fermentation during peak Indian heat."
+  ]
+ ],
+ "cta": {
+  "title": "Understand the system, not just the setpoint",
+  "body": "Advanced Brewing Science covers glycol sizing, fermentation heat load and troubleshooting over six weeks, with the calculations this guide only summarises.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-ph-explained",
+  "enzymes-in-the-mash",
+  "beer-stability-in-indian-heat"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "bjcp-scoresheet-explained",
+ "cat": "Tasting",
+ "h1": "The BJCP scoresheet explained",
+ "title": "The BJCP Beer Scoresheet Explained | Craft Beer School",
+ "desc": "A section by section walkthrough of the BJCP scoresheet used in most homebrew and craft beer competitions.",
+ "teaser": "Fifty points, five categories, one written comment box. Here is what each part is actually asking a judge to do.",
+ "standfirst": "The BJCP scoresheet is the standard framework most competitions in India and worldwide use for judging beer. Here is how to read one, whether you are the brewer or the judge.",
+ "read": "3 min",
+ "updated": "2024-05-18",
+ "updated_label": "May 2024",
+ "sections": [
+  [
+   "Where the scoresheet fits in judging",
+   "<p>The Beer Judge Certification Programme, known everywhere as BJCP, built a standard scoresheet and set of style guidelines used across most homebrew and craft competitions worldwide, giving judges in different countries a common structure to work from. Our guide on <a href=\"how-beer-judges-score.html\">how beer judges score a beer</a> covers the wider judging process this sheet supports.</p><p>Judges typically train and certify through a structured exam process covering both tasting ability and technical brewing knowledge, which is part of why a BJCP score carries weight beyond a single enthusiastic opinion at a bar.</p>"
+  ],
+  [
+   "Aroma: up to 12 points",
+   "<p>Judges assess malt, hop, fermentation character and any fault detectable by smell alone, before tasting a drop of the beer. Writing the aroma comments first, before tasting, keeps the judge from letting flavour impressions bleed backward into the aroma score once the two senses start to blur together.</p><p>A useful habit for a brewer reading their own scoresheet is to read the aroma comments in isolation first, resisting the urge to jump straight to the final number, since the specific comments almost always explain more about what actually happened in the tank.</p>"
+  ],
+  [
+   "Appearance: up to 3 points",
+   "<p>Colour, clarity and head retention are scored here, weighted lightly compared to the other categories since appearance, while worth checking against style, rarely reflects the underlying quality of the beer the way aroma and flavour actually do.</p><p>Even a beer that pours slightly hazy when the style calls for brilliant clarity will only lose a point or two here, rarely enough on its own to meaningfully change the outcome if the aroma and flavour underneath are genuinely well executed.</p>"
+  ],
+  [
+   "Flavour: up to 20 points",
+   "<p>The largest single category, covering malt, hop, fermentation character, balance and any fault detectable on the palate. This is where most of the scoring weight sits, and where a fault like <a href=\"diacetyl-off-flavour.html\">diacetyl</a> or oxidation will cost a beer the most points of the whole sheet.</p><p>A beer entered under the wrong style category can be marked down here even if it is well made, simply because it does not match what the judge was told to expect, which is why choosing the right category when entering a competition matters as much as the brewing itself.</p><p>A common mistake among newer judges is scoring flavour too quickly, before letting the beer sit for a minute in the mouth to reveal a lingering aftertaste, which is often where a subtle fault first becomes noticeable on the palate.</p>"
+  ],
+  [
+   "Mouthfeel: up to 5 points",
+   "<p>Body, carbonation, warmth and astringency are scored here, the same categories covered in our guide to <a href=\"mouthfeel-and-body.html\">mouthfeel and body</a>. A beer that nails aroma and flavour but has a flat, lifeless carbonation will still lose points in this section regardless of how good it tastes.</p><p>Carbonation level specifically is checked against style expectations too, since a cask conditioned English bitter and a heavily carbonated Belgian tripel sit at genuinely different points on the scale by design, not by accident or oversight.</p><p>A judge scoring mouthfeel will specifically check whether carbonation and body suit the named style rather than simply judging them as good or bad in isolation, since a flat, still beer might be entirely correct for a traditional English cask ale.</p>"
+  ],
+  [
+   "Overall impression: up to 10 points",
+   "<p>This final category asks the judge to step back and weigh the beer as a complete drinking experience against the style, alongside a written comment summarising strengths, faults and, where relevant, suggestions for the brewer to consider. It is deliberately the last thing written, after every specific category has already been scored on its own terms.</p><p>Some competitions also award a numeric ranking on top of the raw score, comparing entries within the same style category directly against each other, which is a separate step from the scoresheet itself but builds directly on top of it.</p><p>New brewers reading a scoresheet for the first time should focus on the written comments over the numeric score, since the comments point directly at what to change next time, while the number alone only says how the beer compared, not why it landed there.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many total points can a beer score on a BJCP sheet?",
+   "Fifty, split across aroma, appearance, flavour, mouthfeel and overall impression, with flavour weighted most heavily."
+  ],
+  [
+   "Why is appearance worth so few points?",
+   "Appearance rarely reflects the underlying quality of a beer the way aroma and flavour do, so it is weighted lightly relative to the categories that matter more."
+  ],
+  [
+   "What order do judges fill in the sections?",
+   "Aroma is usually assessed and written first, before tasting, so flavour impressions do not bleed backward into the aroma comments."
+  ],
+  [
+   "Is the BJCP scoresheet used outside homebrew competitions?",
+   "Yes, many professional and commercial craft beer competitions use the same or a closely adapted framework, since it gives judges worldwide a shared structure."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to fill in every section with confidence",
+  "body": "Sensory Evaluation walks through the full BJCP scoresheet category by category, with practice beers to score against a trained instructor.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "triangle-test",
+  "training-your-palate",
+  "how-beer-judges-score"
+ ]
+}

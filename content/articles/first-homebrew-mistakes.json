@@ -1,0 +1,71 @@
+{
+ "slug": "first-homebrew-mistakes",
+ "cat": "Brewing basics",
+ "h1": "Ten mistakes almost every first homebrew makes",
+ "title": "Ten First Homebrew Mistakes to Avoid | Craft Beer School",
+ "desc": "The recurring errors we see in a beginner's first batch, and the simple habit that fixes each one.",
+ "teaser": "Nearly every disappointing first batch fails for one of the same ten reasons. Fix these and your beer jumps several notches immediately.",
+ "standfirst": "We have watched enough first batches go wrong to notice the pattern. It is almost never the recipe. It is one of these ten habits, and every one of them is easy to fix once you know to look for it.",
+ "read": "3 min",
+ "updated": "2022-07-23",
+ "updated_label": "July 2022",
+ "sections": [
+  [
+   "Skipping sanitation, or doing it half-heartedly",
+   "<p>This is the single biggest cause of a ruined batch. Cleaning removes visible soil, sanitising kills what is left behind, and both steps are needed on anything that touches the beer after the boil. Wipe-and-hope is not sanitising. We explain the difference properly in <a href=\"cleaning-vs-sanitising-brewing.html\">cleaning versus sanitising in brewing</a>, and it is worth reading before your very first brew day, not after your first infected batch.</p><p>A cheap way to build the habit is to sanitise everything you plan to use before you even start the brew day, rather than sanitising items one at a time as you reach for them, which is when steps get skipped under time pressure.</p>"
+  ],
+  [
+   "Fermenting too warm",
+   "<p>Most Indian rooms run warmer than ale yeast wants for most of the year. Fermenting at 26 to 28 &#176;C instead of 18 to 22 &#176;C produces harsh, boozy, sometimes solvent-like flavours that no amount of conditioning will fix. This is worth solving with a cheap temperature controller before it costs you a batch.</p>"
+  ],
+  [
+   "Bottling before fermentation is finished, or skipping the hydrometer",
+   "<p>Gravity readings taken on consecutive days, not smell or the absence of visible bubbling, are the only reliable sign fermentation has stopped. Bottle too early and you risk over-carbonated, occasionally dangerous bottles as leftover sugar keeps fermenting in a sealed container. Two stable readings 48 hours apart is the rule we teach.</p><p>Without an original gravity reading, you cannot calculate ABV, and without a final gravity reading, you cannot confirm fermentation is done. A hydrometer costs little and answers both questions with certainty that guessing never will.</p>"
+  ],
+  [
+   "Pitching too little yeast, or yeast that is already dead",
+   "<p>An underpitched or unhealthy yeast population ferments slowly, stresses itself, and produces more off flavours as a result. Check the use-by date on dry yeast, rehydrate it properly rather than sprinkling it dry onto wort, and pitch the full packet rather than saving half for next time.</p><p>Storing dry yeast in the fridge rather than a warm kitchen shelf noticeably extends its viable life, and checking that a sachet still feels firm and dry rather than clumped or damp before pitching is a five-second habit that catches a surprising number of dead packets before they ruin a brew day.</p>"
+  ],
+  [
+   "Opening the fermenter to check on it",
+   "<p>Every time you lift the lid you risk introducing wild yeast or bacteria, and you let out carbon dioxide that was protecting the beer from oxygen. Trust the airlock. If you need to know what is happening, wait for your scheduled gravity check rather than peeking daily.</p>"
+  ],
+  [
+   "Ignoring water quality entirely",
+   "<p>Extract brewers can mostly get away with plain filtered water. All-grain brewers cannot, because water chemistry affects mash pH, and mash pH outside roughly 5.2 to 5.6 hurts enzyme activity and extraction. This becomes relevant the moment you move past extract kits, not before.</p><p>Chlorine and chloramine in municipal tap water can also react during the boil to produce plastic or medicinal off flavours, regardless of your mash pH. A simple carbon filter, or letting tap water stand uncovered overnight before brew day, removes most of the chlorine without needing to understand water chemistry in any depth yet.</p>"
+  ],
+  [
+   "Boiling with the lid on, and cooling the wort slowly",
+   "<p>A lidded or gentle boil traps a compound called DMS that a vigorous, open boil would otherwise drive off, leaving a cooked-vegetable flavour in the finished beer, especially noticeable in pale styles. Keep the lid off and keep the boil rolling.</p><p>Wort sitting warm for an hour after the boil is an open invitation to airborne bacteria and wild yeast, and it also re-forms some of the DMS the boil just removed. An ice bath or an immersion chiller gets you to pitching temperature in minutes instead of hours.</p>"
+  ],
+  [
+   "Rushing the whole process",
+   "<p>Beer on a deadline is the root cause behind most of the mistakes above. Give fermentation the time it needs, give conditioning the time it needs, and resist the urge to open the first bottle a week early. Patience is a genuinely free ingredient.</p><p>A brewing log, even a simple notebook with dates, temperatures and gravity readings for each batch, turns every one of these ten mistakes into something you can actually diagnose after the fact rather than guess at. Most experienced brewers keep one, and most beginners skip it right up until their first genuinely confusing batch.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the single most common cause of a bad first batch?",
+   "Poor sanitation, by a wide margin. Most sour, off or contaminated first batches trace back to something that touched the beer without being properly sanitised."
+  ],
+  [
+   "How do I know if my batch is actually infected rather than just tasting young?",
+   "A young beer tastes rough but not sour or vinegary. A distinct sourness, a film on the surface, or ropy texture points to infection rather than youth."
+  ],
+  [
+   "Is it normal for a first batch to taste worse than a commercial beer?",
+   "Yes, and that is not a failure. Commercial brewers have equipment, water treatment and years of practice a first-time brewer has not built yet. Batch two is almost always noticeably better."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to brew your first proper batch?",
+  "body": "Brewing Fundamentals runs live on Saturdays and Sundays, 12:00 PM to 2:00 PM IST, in batches capped at 20 students, with recordings, weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "cleaning-vs-sanitising-brewing",
+  "how-to-use-a-hydrometer",
+  "brew-in-a-bag-method"
+ ]
+}

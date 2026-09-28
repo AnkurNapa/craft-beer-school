@@ -1,0 +1,71 @@
+{
+ "slug": "hop-extracts-and-cryo-hops",
+ "cat": "Ingredients",
+ "h1": "Hop extracts and cryo hops",
+ "title": "Hop Extracts and Cryo Hops Explained | Craft Beer School",
+ "desc": "What CO2 extracts, lupulin powder and cryo hops actually are, when they save you money and when whole pellets still win.",
+ "teaser": "Cryo hops and CO2 extracts promise more aroma for less plant matter. They deliver, but not on every beer and not for every reason marketed.",
+ "standfirst": "Concentrated hop products cut the vegetal matter you pay to ship and the oxygen you pick up handling pellets. Here is what each one actually is, and where it earns its place in a recipe.",
+ "read": "3 min",
+ "updated": "2024-10-19",
+ "updated_label": "October 2024",
+ "sections": [
+  [
+   "What a CO2 extract actually is",
+   "<p>Supercritical CO2 extraction pulls the resins, mostly alpha and beta acids, out of the hop cone while leaving behind the plant fibre, chlorophyll and most of the volatile aroma oils. What you get is a concentrated bittering product, usually added at the start of the boil in place of whole hops.</p><p>It is precise and consistent from batch to batch, which whole hops, with their variable alpha acid content by harvest year, are not. It is a bittering tool first, not an aroma tool.</p>"
+  ],
+  [
+   "Lupulin powder and cryo hops",
+   "<p>Cryo hops are made by freezing the whole cone with liquid nitrogen and mechanically separating the lupulin glands, where almost all the aroma oil and a good share of the resin live, from the leafier plant matter. What you get is a concentrated powder, roughly twice the aroma intensity by weight of a standard pellet, with much less vegetal material along for the ride.</p><p>Because the process is mechanical rather than chemical, cryo hops keep the full aroma profile of the variety, unlike a CO2 extract which strips most of it away.</p>"
+  ],
+  [
+   "Why brewers reach for these products",
+   "<p>Less plant matter means less wort and beer lost soaking into hop debris, which on a small brewhouse can be a meaningful yield difference on a heavily hopped beer. It also means less oxygen pickup, since whole pellets trap air in every leaf fold that a dry hop addition then introduces to the tank.</p><p>For a brewery importing hops into India, where freight is charged by weight and volume, a concentrated product that delivers the same aroma from half the mass is also a straightforward cost argument.</p>"
+  ],
+  [
+   "Where whole pellets still win",
+   "<p>Traditional pellets remain cheaper per gram of total hop character and are what most published recipes are calibrated against. Cryo and extract products also cost more per kilogram, so the saving on yield and freight has to be weighed against the higher unit price.</p><p>Some brewers also find whole cone or standard pellets give a rounder, less one dimensional hop character in certain styles, particularly where a bit of grassy, herbal backbone is part of the intended flavour.</p>"
+  ],
+  [
+   "Using them in practice",
+   "<p>Cryo hops behave differently in the kettle and the fermenter because so little plant matter is diluting the oil. A recipe converted from standard pellets to cryo powder needs the dose recalculated, not simply halved by rule of thumb, and it is worth a small trial batch before committing a full brew to the swap.</p><p>Storage matters more too. These are concentrated products, and oxidation of the oils shows up faster once the protective plant matrix is gone. Keep them cold, sealed and used within a reasonable window of opening the pack.</p>"
+  ],
+  [
+   "Reading the product names",
+   "<p>Hop products carry naming conventions that are worth learning rather than guessing at. A standard pellet is usually labelled T90, roughly 90 percent of the original cone weight retained after pelletising. Cryo or lupulin powder products go by various brand names depending on the supplier, but all describe the same basic mechanical separation process, concentrating lupulin and leaving fibrous plant material behind.</p><p>Alpha acid percentage is printed on the pack for a reason: it varies by harvest and variety, and a bittering calculation done against last year's alpha acid figure on this year's hops will give you the wrong IBU target.</p>"
+  ],
+  [
+   "Converting a recipe from pellets to a concentrate",
+   "<p>Do not simply halve the pellet weight when swapping to a cryo product and call it done. Cryo hops typically run at roughly double the lupulin concentration of a standard pellet by weight, but the exact ratio varies by supplier and hop variety, so a proper brewing software conversion, or a small test batch, is worth the extra step before committing a full brew.</p><p>The same caution applies to alpha acid contribution from a CO2 extract used for bittering: check the manufacturer's stated alpha acid percentage rather than assuming a round number.</p>"
+  ],
+  [
+   "A trial batch before switching entirely",
+   "<p>Brewers who move a flagship recipe from whole pellets to a cryo product often run a smaller trial batch first, tasting it against the existing beer rather than assuming the aroma will transfer one for one. Concentrated products change extraction dynamics in the whirlpool and fermenter as well as the dose, and a recipe tuned over many batches on pellets does not always translate perfectly on the first attempt with a different product.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do cryo hops taste different from regular pellets of the same variety?",
+   "The character should match the variety since the extraction is mechanical, not chemical, but the balance shifts because so much of the leafy, vegetal component is removed."
+  ],
+  [
+   "Can I use a CO2 extract for aroma?",
+   "Not really. Most of the volatile aroma oil is lost in a CO2 extract, so it is used mainly for bittering, not for late or dry hop aroma additions."
+  ],
+  [
+   "Are cryo hops worth the extra cost for a small brewery?",
+   "Often yes, once you account for the yield saved from less plant matter soaking up beer and the lower oxygen pickup on the dry hop side, though it depends on your recipe and hopping rate."
+  ]
+ ],
+ "cta": {
+  "title": "Get hopping economics and chemistry right together",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers hop chemistry, dosing conversions between hop products and the oxygen management that makes concentrated hop products worth the cost.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-water-basics",
+  "water-hardness-and-beer",
+  "dry-hopping-guide"
+ ]
+}

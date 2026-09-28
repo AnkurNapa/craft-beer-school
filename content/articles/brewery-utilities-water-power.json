@@ -1,0 +1,67 @@
+{
+ "slug": "brewery-utilities-water-power",
+ "cat": "Business",
+ "h1": "Brewery utilities: water, power and steam",
+ "title": "Brewery Utilities: Water and Power | Craft Beer School",
+ "desc": "Water quality, supply and power reliability are quiet make-or-break factors for an Indian brewery. What to check before you commit to a site.",
+ "teaser": "A brewery is, underneath everything, a water and power business. Get either wrong and the recipe stops mattering.",
+ "standfirst": "Water chemistry shapes beer more than most recipes admit, and unreliable power can undo a fermentation in hours. Here is what to check about utilities before you sign a lease.",
+ "read": "3 min",
+ "updated": "2025-03-14",
+ "updated_label": "March 2025",
+ "sections": [
+  [
+   "Water is an ingredient, not a utility bill",
+   "<p>Borewell water and municipal water in India both vary enormously in mineral content, hardness and, sometimes, contamination, from one location to the next, even within the same city or the same street. Get a full water report before you finalise a site or a recipe, because the same grain bill can produce noticeably different beer depending on the mineral profile of the water it is mashed in.</p><p>Mash pH, generally targeted around 5.2 to 5.6, is directly affected by water chemistry, and getting it wrong quietly costs you extraction efficiency and flavour clarity without an obvious single cause to point at. Treatment, whether filtration, reverse osmosis or mineral adjustment, is a recurring operating cost, not a one-time fix, so budget it as ongoing.</p>"
+  ],
+  [
+   "Volume matters as much as quality",
+   "<p>Brewing uses far more water than what ends up in the glass, typically several litres for every litre of finished beer once mashing, sparging, cleaning and cooling are all counted honestly. Confirm that your site's water supply, whether borewell or municipal, can sustain your production volume reliably through the dry season, not just on the day you tour the building when everything looks fine.</p><p>A site with excellent water quality but an unreliable dry-season supply is not actually a good site, however good the test report looks on the day you visit.</p>"
+  ],
+  [
+   "Power reliability, not just capacity",
+   "<p>Glycol chillers holding fermentation temperature run continuously, and an unplanned power outage during active fermentation can let a tank drift warm enough to throw off flavour or invite unwanted bacterial activity before anyone notices the problem. Sanctioned load capacity matters, but so does outage frequency in your specific area, which a landlord's assurances will not always reflect accurately.</p><p>A backup generator sized to at least keep glycol chilling and critical refrigeration running through a typical outage is not a luxury in most Indian locations, it is close to a requirement for consistent quality.</p>"
+  ],
+  [
+   "Steam, heating and the boiler question",
+   "<p>Larger brewhouses use steam for the boil and sometimes for cleaning, which means a boiler, its fuel supply and its own set of safety and inspection requirements that add to your compliance load. Smaller systems often heat electrically or with direct fire, trading some efficiency for a simpler compliance footprint that suits a founder still finding their feet with the paperwork.</p><p>Choose based on your actual brewhouse size and the utility infrastructure your site can realistically support, not on what a larger brewery down the road happens to run.</p>"
+  ],
+  [
+   "Building utilities into your site decision",
+   "<p>Water quality and volume, power reliability, and available electrical load together often narrow a shortlist of possible sites faster than rent does, once you actually test them properly rather than taking a landlord's word for it. Test all three before you sign anything, because retrofitting a site for water treatment or backup power after the lease is signed costs far more than choosing a better site from the start.</p><p>See <a href=\"brewery-location-choice.html\">choosing a brewery location</a> for how these utility questions weigh against rent, zoning and access.</p>"
+  ],
+  [
+   "A simple utility test before you sign anything",
+   "<p>Ask to run water at full pressure for ten minutes and check it does not drop off, request the site's actual outage log from the past year rather than a verbal assurance, and get the sanctioned electrical load confirmed in writing against your equipment's real draw, not its nameplate rating. These three checks take an afternoon and catch most of the utility problems that would otherwise surface only after equipment is installed and a lease is signed.</p><p>A landlord confident in the site's utilities will not mind these checks, and one who resists them is telling you something worth hearing before you commit.</p><p>Keep a written record of what you tested and when, since it also becomes useful evidence if a utility problem emerges later and needs to be raised with the landlord or the utility provider directly.</p><p>None of this replaces a proper engineering assessment once you are close to signing, but it filters out the clearly unsuitable sites before you spend money on that more detailed, and more expensive, level of review.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Should I test water before choosing a brewery site?",
+   "Yes, always, before finalising a lease. Water chemistry varies significantly even within one city and directly affects mash pH, extraction efficiency and finished flavour."
+  ],
+  [
+   "How much water does brewing actually use per litre of beer?",
+   "It varies by system and process discipline, but total water use, including mashing, cleaning and cooling, is typically several times the volume of finished beer produced."
+  ],
+  [
+   "Is a backup generator necessary for a small brewery?",
+   "In most Indian locations, yes, at least enough capacity to keep glycol chilling and refrigeration running through a typical outage, since a warm drift during fermentation can ruin a batch."
+  ],
+  [
+   "Do all breweries need a steam boiler?",
+   "No. Larger brewhouses often use steam, but smaller systems can heat electrically or by direct fire, which is simpler to install and inspect."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to evaluate a site's utilities before you commit",
+  "body": "Brewery Business Management covers site selection, utilities planning and operations across three live weekends, capped at 20 students, with recordings and a certificate.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "brewery-waste-and-spent-grain",
+  "sustainability-in-brewing",
+  "brewery-staffing"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "off-flavour-spiking-kits",
+ "cat": "Tasting",
+ "h1": "Off-flavour spiking kits",
+ "title": "Beer Off-Flavour Spiking Kits Explained | Craft Beer School",
+ "desc": "What off-flavour spiking kits are, how breweries use them for sensory training, and how to run a session with one.",
+ "teaser": "You cannot train someone to recognise diacetyl by describing butter. You need actual diacetyl, at a known dose, in their glass.",
+ "standfirst": "Spiking kits dose a clean base beer with known faults at known concentrations, turning a vague description into a fixed, repeatable reference.",
+ "read": "3 min",
+ "updated": "2024-11-16",
+ "updated_label": "November 2024",
+ "sections": [
+  [
+   "What a spiking kit actually is",
+   "<p>A spiking kit is a set of small vials, each containing a specific off flavour compound, diacetyl, DMS, acetaldehyde and others, at a concentration calibrated to sit near the threshold most tasters can just barely detect. A measured dose is added to a clean, neutral base beer, giving the taster a known, repeatable example of that fault rather than a written description alone to work from.</p><p>Concentrations in a well made kit are chosen deliberately to sit near the recognised detection threshold for each compound, which mirrors how a taster is actually likely to encounter that fault in a real batch, rather than an exaggerated, unrealistic dose that would be easy to spot regardless of training.</p>"
+  ],
+  [
+   "Why written descriptions are not enough",
+   "<p>Telling someone diacetyl tastes like butter is a start, but the word butter means something slightly different to everyone, and the actual sensation, a slick, oily texture alongside the aroma itself, is hard to convey in words at all. Tasting an actual spiked sample fixes that word to a real, shared reference the first time, which is far faster than months of incidental exposure and guesswork.</p><p>Some kits also include a version showing the fault at two different concentrations, a subtle, near threshold dose and a much more obvious one, which helps a panel learn to recognise a fault both when it is glaring and when it is only just beginning to appear in a batch.</p>"
+  ],
+  [
+   "Running a training session",
+   "<p>Prepare a clean base beer, a lager works well since it has little character of its own to mask the spike, and dose each vial into a separate portion following the kit's instructions precisely, since overdosing defeats the purpose by making the fault too obvious to be useful as a threshold reference. Serve blind, without telling tasters which vial is which, and ask them to name the fault before revealing the correct answer.</p><p>Store opened vials carefully and use them promptly once opened, since many of these compounds degrade or evaporate over time, which can quietly weaken a kit that has been sitting half used in a cupboard for months.</p>"
+  ],
+  [
+   "Building a rotation across a panel",
+   "<p>Cover one or two faults per session rather than throwing all of them at tasters at once. Diacetyl, DMS and acetaldehyde, the three most common faults encountered in practice, are a sensible starting rotation, each covered in its own guide: <a href=\"diacetyl-off-flavour.html\">diacetyl</a>, <a href=\"dms-off-flavour.html\">DMS</a> and <a href=\"acetaldehyde-off-flavour.html\">acetaldehyde</a>.</p><p>Keep a simple log of who correctly identified which fault in each session. Over several months this becomes a genuinely useful record of where a panel's collective blind spots sit, which faults need more repetition, and which panellists are ready to take on more responsibility during production tastings.</p><p>New panel members often need two or three exposures to a given fault before reliably naming it under blind conditions, so treat an early miss as normal progress rather than a sign the training is not working.</p>"
+  ],
+  [
+   "From spiking to real quality control",
+   "<p>A panel trained on spiked samples is far more useful in actual production, because tasters who can reliably name diacetyl in a spiked lager will catch it in an actual batch days earlier than a panel relying on vague, untrained impressions. This is the practical payoff behind the training exercise described in our guide to <a href=\"training-your-palate.html\">training your palate</a>.</p><p>Some breweries build spiking into new hire onboarding directly, giving every new production team member the same calibrated introduction to common faults in their first week, rather than leaving it to pick up informally over months on the floor.</p>"
+  ],
+  [
+   "A note on sourcing kits in India",
+   "<p>Spiking compounds are specialist brewing supplies and are not widely stocked locally in most cities, so most Indian breweries source them through specialist brewing suppliers or import them directly from abroad. Check current availability and import rules before ordering, since these vary by state and change over time.</p><p>Even without a formal kit, tasting a beer known to carry a specific fault at a mild level, sourced from a batch that did not turn out as planned, can serve as a rough substitute reference while you source a proper calibrated kit.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What faults do spiking kits usually cover?",
+   "Common kits include diacetyl, DMS, acetaldehyde, and often oxidation and lightstruck character, since these are the faults most likely to appear in a working brewery."
+  ],
+  [
+   "Can I make a spiking kit myself?",
+   "Some compounds are available from specialist suppliers, but dosing accurately without proper measurement equipment is difficult, and getting the concentration wrong defeats the purpose of the exercise."
+  ],
+  [
+   "How often should a brewery run spiking sessions?",
+   "Enough to keep the panel calibrated, often every few months, or whenever new panel members join and need to be brought up to the same standard."
+  ],
+  [
+   "Is a spiking kit only useful for professional brewers?",
+   "It is most valuable for anyone tasting with intent, whether running a production quality panel or simply wanting to recognise faults reliably as a serious home taster."
+  ]
+ ],
+ "cta": {
+  "title": "Taste real spiked samples with proper guidance",
+  "body": "Sensory Evaluation includes hands on sessions with calibrated spiking kits, covering the most common faults with an instructor confirming your identification.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "diacetyl-off-flavour",
+  "dms-off-flavour",
+  "training-your-palate"
+ ]
+}

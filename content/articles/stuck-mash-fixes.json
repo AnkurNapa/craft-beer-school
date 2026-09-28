@@ -1,0 +1,63 @@
+{
+ "slug": "stuck-mash-fixes",
+ "cat": "Brewing science",
+ "h1": "How to prevent and fix a stuck mash",
+ "title": "Stuck Mash: Causes and Fixes | Craft Beer School",
+ "desc": "Why a mash stops flowing mid-lauter, the usual culprits, and the fixes that work without ruining the batch.",
+ "teaser": "The wort stops moving, the underlet valve is wide open, and the clock is running. Here is what to check first.",
+ "standfirst": "A stuck mash is rarely bad luck. It is almost always the grain bed telling you something about the crush, the grist or the water it is sitting in.",
+ "read": "4 min",
+ "updated": "2022-10-22",
+ "updated_label": "October 2022",
+ "sections": [
+  [
+   "What a stuck mash actually is",
+   "<p>A stuck mash is a lauter that has slowed to a trickle or stopped, usually because the grain bed has compacted into a filter that is too tight for wort to pass through. It is not the same as a slow sparge, which is just patience. A true stick means the bed has channelled, packed or clogged.</p><p>It shows up as falling flow at the tap, a rising vacuum under the false bottom, or wort that runs clear then suddenly stops. Left alone it wastes time, pulls tannins from an over-compressed bed, and can drop your mash temperature enough to hurt conversion.</p><p>Time itself is also a factor. Mashes that run long past the planned rest, because a brewer is waiting out a slow conversion, sit under a compacting bed for longer, which raises the odds of a stick that would not have happened on a shorter schedule. A grain bed is not a static filter, it keeps settling the whole time wort is being drawn through it.</p>"
+  ],
+  [
+   "The usual causes",
+   "<p>Four things cause most stuck mashes. An over-fine crush turns the grist to flour, which packs like wet cement under its own weight. A high proportion of unhusked adjunct, wheat, rice or oats without enough rice hulls removes the husk material that normally keeps channels open through the bed. A thin mash with too little liquor compresses harder under the same vacuum. And a false bottom or manifold with too few open slots draws unevenly, pulling the bed tight in one spot before the rest.</p><p>Beta glucans from under-modified malt or a heavy oat bill add a gummy viscosity that makes any of the above worse.</p><p>Recirculating too aggressively at the start of vorlauf is a common trigger. Pulling wort fast before the bed has had a chance to settle into an even filter draws grain particles straight through or packs the bed unevenly from below. A slow, patient vorlauf for the first few litres, returned gently to the top of the mash rather than splashed in, sets up the rest of the lauter to run cleanly.</p>"
+  ],
+  [
+   "Fixing it while it is happening",
+   "<p>Close the tap first. Do not keep pulling wort through a bed that has already channelled, it only compacts further. Vorlaut again, gently, to rebuild an even filter bed before reopening the valve partway.</p><p>If the bed has genuinely packed, an underlet, pushing hot liquor back up through the false bottom to loosen the grain, is the standard rescue. Stir carefully, re-level the bed, and resume at a slower flow. Cutting the vacuum at the tap, rather than opening it fully, is usually enough on its own.</p><p>Underletting works because it reverses the direction of pressure across the bed for a moment, lifting compacted grain rather than pulling it tighter. Add hot liquor slowly through the bottom valve rather than all at once, since a sudden surge can blow a channel straight through the bed instead of loosening it evenly.</p>"
+  ],
+  [
+   "Preventing the next one",
+   "<p>Check your crush against a target that leaves husk material largely intact rather than pulverised, most mills are set finer than they need to be. If you brew with rice or maize, which is common across Indian breweries chasing a lighter body, add rice hulls at 5 to 10 percent of the grist. They add no flavour and no extract, only drainage.</p><p>Keep your mash thickness in a reasonable range rather than as thin as the recipe allows, and confirm your lauter tun's false bottom has even, adequate open area. Mash pH sitting in the normal 5.2 to 5.6 band also helps enzyme activity finish cleanly, so you are not relying on a long, slow lauter to compensate for an incomplete conversion.</p><p>A second, often overlooked prevention step is checking your water treatment. Excessive calcium or a very hard water profile can interact with grain husk material in ways that make the bed pack tighter than a similar mash on softer, better balanced water. This matters more in parts of India relying on borewell water with high mineral content than on filtered municipal supply.</p>"
+  ],
+  [
+   "When it keeps happening",
+   "<p>A stuck mash that recurs across recipes points at equipment, not chance. Check the false bottom for a low slot count, blocked holes or a design that draws hard from the centre outlet. If you have moved to a bigger batch on the same vessel, the deeper bed alone can be the cause, since deeper beds compact under more of their own weight.</p><p>Once you have the mechanics under control, the same fundamentals feed directly into <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a>, since a stuck lauter that gets rescued with extra hot liquor dilutes your numbers even when the batch turns out fine.</p><p>If your brewery runs the same recipe on the same equipment and still sticks occasionally, look at seasonal variation in your grain supplier's malt modification. A batch of under-modified malt behaves differently in the mash tun even at an identical crush setting, and it is one of the few stuck-mash causes that genuinely is not something you did wrong at the brewhouse.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does a stuck mash ruin the beer?",
+   "Not usually. A rescued mash with a careful underlet and re-vorlauf finishes normally. The bigger risk is a long stall dropping mash temperature and hurting conversion, or over-compressing the bed and pulling tannins."
+  ],
+  [
+   "How many rice hulls should I add?",
+   "Five to ten percent of total grist weight is a typical starting point for adjunct-heavy or wheat-heavy mashes. They add drainage and no fermentable extract."
+  ],
+  [
+   "Is a slow lauter the same as a stuck one?",
+   "No. A slow lauter is just a long, steady flow, which is normal with a fine crush or high adjunct rate. A stuck mash has stopped or is falling towards zero flow."
+  ],
+  [
+   "Can mash pH cause a stuck mash?",
+   "Indirectly. Mash pH outside 5.2 to 5.6 slows enzyme activity and starch conversion, which can leave more unconverted starch and beta glucan viscosity behind, both of which make the bed harder to drain."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to read and prevent stuck mashes, plus the wider mash and lauter troubleshooting one guide cannot fit. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewhouse-efficiency",
+  "boil-chemistry-hot-break",
+  "lautering-and-sparging"
+ ]
+}

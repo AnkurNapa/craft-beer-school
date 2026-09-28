@@ -1,0 +1,63 @@
+{
+ "slug": "brewing-sugars-explained",
+ "cat": "Ingredients",
+ "h1": "Brewing sugars explained",
+ "title": "Brewing sugars explained | Craft Beer School",
+ "desc": "Dextrose, table sugar, candi sugar and honey compared, and how each changes alcohol and body differently.",
+ "teaser": "A kilogram of malt and a kilogram of dextrose can both raise your original gravity by the same amount, but only one of them leaves body behind.",
+ "standfirst": "Sugar additions raise alcohol without adding the body or flavour that malt would bring along with it. Knowing which sugar to reach for, and why, is what separates a thin homebrew mistake from a deliberately dry Belgian tripel.",
+ "read": "3 min",
+ "updated": "2023-03-07",
+ "updated_label": "March 2023",
+ "sections": [
+  [
+   "Why brewers add sugar instead of just more malt",
+   "<p>Malt brings fermentable sugar bundled together with proteins, unfermentable dextrins and colour, all of which add body and character alongside the alcohol they help produce. Pure sugar additions, dextrose, table sugar, candi sugar or others, add fermentable extract with none of that baggage, which is exactly the point: they raise ABV while keeping the beer's final gravity, and therefore its body, lower than an equivalent amount of malt would.</p>"
+  ],
+  [
+   "Dextrose and table sugar: simple, fully fermentable, nearly flavourless",
+   "<p>Dextrose (corn sugar) and ordinary table sugar (sucrose) are both essentially 100 percent fermentable, and yeast handles table sugar almost as easily as dextrose since it splits sucrose into glucose and fructose within minutes of contact. Both are commonly used for priming carbonation, since a small measured dose predictably produces a known volume of carbon dioxide, and both are used in larger doses in Belgian style beers to boost ABV while keeping the beer surprisingly dry and light bodied for its strength.</p>"
+  ],
+  [
+   "Candi sugar: colour and character, not just fermentability",
+   "<p>Candi sugar, particularly the darker amber and dark versions used in Belgian brewing, is cooked to develop caramel and dried-fruit flavours before it is added, similar in principle to how <a href=\"crystal-and-caramel-malts.html\">crystal malt</a> develops flavour through heat, though candi sugar remains almost entirely fermentable unlike crystal malt's largely unfermentable sugars. This is what lets a dubbel or a quadrupel carry deep colour and rich dried-fruit character while still finishing dry enough to drink easily at 8 or 9 percent ABV.</p>"
+  ],
+  [
+   "Honey and other adjunct sugars",
+   "<p>Honey is mostly fermentable, contributes a distinct floral or fruity character depending on the source, and needs to be added carefully, typically late in the boil or after chilling, since prolonged high heat drives off the aroma it is being used for in the first place. Maple syrup, jaggery and other traditional sugars behave similarly: mostly fermentable, with a specific regional flavour attached, and worth using when that flavour is genuinely wanted rather than as a cheaper substitute for a clean sugar.</p>"
+  ],
+  [
+   "How much sugar before it becomes a problem",
+   "<p>Sugar additions above roughly 10 to 15 percent of total fermentables tend to thin a beer's body noticeably and can produce a harsh, cidery character if the yeast is stressed by too much simple sugar too quickly, which is one reason Belgian brewers traditionally add sugar in stages rather than all at once at the start of the boil. Used in that 5 to 15 percent range, sugar is a precise tool for raising strength without changing the malt character a recipe is built around, which is where it earns its place alongside the hop choices in our guide to <a href=\"hop-varieties-for-beginners.html\">hop varieties for beginners</a>.</p>"
+  ],
+  [
+   "Priming sugar: a small, precise dose at packaging",
+   "<p>Priming sugar, added just before bottling or kegging rather than during the boil, gives the yeast still present in the beer one final small measured feed, producing a predictable amount of carbon dioxide as it ferments inside a sealed bottle or keg. Dextrose is the most common priming sugar because it is simple, cheap and completely predictable, and standard tables exist matching a dose in grams per litre to a target carbonation level in volumes of CO2. Getting this dose wrong in either direction matters: too little leaves a flat beer, too much risks dangerously over-pressurised bottles, which is why priming calculators, built into most <a href=\"brewing-software-and-calculators.html\">brewing software</a>, are worth using precisely rather than eyeballing a rough measure.</p><p>Store all of these sugars somewhere genuinely dry. Sugar that has picked up ambient moisture in a humid Indian kitchen can clump and become harder to dissolve cleanly into hot wort, and in bad cases can support mould growth in storage well before it ever reaches the kettle.</p><p>Adding sugar earlier rather than later in the boil, alongside the malt extract, generally causes fewer problems than dumping a large dose in right at the very end, since a sudden spike in wort gravity late in the boil can slightly affect hop utilisation calculations that assumed a lower gravity for most of the boil's duration.</p><p>Whatever sugar you choose, weigh it rather than measuring by volume. Sugars pack and settle differently from each other, and a cup measure can be off by a meaningful margin compared to a kitchen scale, which matters more the closer you are working to a specific target ABV.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Will adding sugar make my beer taste like cider?",
+   "Only in large amounts or if the yeast is stressed. Used in a normal range, 5 to 15 percent of fermentables, sugar raises alcohol without introducing a noticeable cidery flavour."
+  ],
+  [
+   "Is honey a good sugar to add to beer?",
+   "Yes, if you want its flavour. It ferments almost as cleanly as table sugar but carries a distinct character of its own, so it works best when that flavour suits the beer."
+  ],
+  [
+   "Why do Belgian beers taste dry despite being strong?",
+   "Because a meaningful share of their fermentables comes from highly fermentable sugar additions rather than malt alone, which raises alcohol without adding the residual body malt would leave behind."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to use sugar as a precise recipe tool?",
+  "body": "Timing and dosing sugar additions correctly is a skill that rewards structured practice. Brewing Fundamentals runs 4 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "hop-varieties-for-beginners",
+  "alpha-acids-explained",
+  "oats-in-beer"
+ ]
+}

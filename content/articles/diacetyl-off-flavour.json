@@ -1,0 +1,67 @@
+{
+ "slug": "diacetyl-off-flavour",
+ "cat": "Tasting",
+ "h1": "Diacetyl: the butter fault",
+ "title": "Diacetyl: The Butter Off-Flavour in Beer | Craft Beer School",
+ "desc": "What diacetyl is, why it tastes like butter and feels slick, what causes it and when it is actually acceptable.",
+ "teaser": "Butter, butterscotch, and a slick film on the tongue. Diacetyl is the fault every new brewer meets first.",
+ "standfirst": "Diacetyl is one of the most recognisable beer faults, and also one of the most misunderstood, since it is a fault in some styles and a feature in others.",
+ "read": "3 min",
+ "updated": "2025-01-09",
+ "updated_label": "January 2025",
+ "sections": [
+  [
+   "What diacetyl actually tastes like",
+   "<p>Butter or butterscotch on the nose, and a slick, almost oily texture across the tongue that is distinct from the aroma itself and lingers a little after each sip. At low levels it can read as a rounded, pleasant sweetness rather than anything obviously wrong, which is exactly why it is tricky to catch reliably without proper training.</p><p>Some tasters describe the aroma at very low levels as simply rounder or fuller, without immediately identifying it as diacetyl at all, which is exactly the range a proper reference sample is most useful for calibrating against.</p>"
+  ],
+  [
+   "Where it comes from",
+   "<p>Yeast produces a diacetyl precursor as a completely normal part of fermentation, then reabsorbs and reduces it into flavourless compounds if given enough time and the right conditions to finish the job. Diacetyl showing up in finished beer usually means that clean up step never actually finished, because fermentation was cooled too early, the yeast was unhealthy or underpitched, or the beer was pulled off the yeast and packaged too soon for its own good.</p><p>It can also come from a bacterial infection, most commonly Pediococcus, which is the more serious diagnosis and needs a completely different fix from a simple scheduling problem.</p><p>Certain yeast strains are simply more prone to producing higher levels of diacetyl than others under identical conditions, which is worth knowing before assuming a process fault when the real explanation might be strain selection interacting with a recipe that was not adjusted to account for it.</p>"
+  ],
+  [
+   "The fix",
+   "<p>A diacetyl rest, holding the beer a few degrees warmer for a day or two near the end of active fermentation, gives the yeast the chance to finish the clean up job properly before you crash cool the tank. Do not rush this step on a fixed schedule, test the beer directly and only cool once it reads genuinely clean on the palate.</p><p>Yeast health going into fermentation plays a large role here too. An underpitched or stressed yeast population is slower to finish every part of its job, diacetyl reduction included, which is why pitching rate calculations matter well beyond simply hitting a target ABV.</p>"
+  ],
+  [
+   "When it is not a fault at all",
+   "<p>Some English ales and Czech lagers traditionally carry a small amount of diacetyl on purpose, and in those specific styles it is considered part of the character rather than a flaw to be eliminated. Context matters a great deal here: the same aroma that is a defect in a crisp modern lager is entirely traditional in a well made English bitter.</p><p>Commercial lager breweries historically extended their whole fermentation and lagering schedule specifically to give diacetyl time to clear naturally at cold temperature over several weeks, a slower but equally valid approach compared with a shorter, warmer diacetyl rest.</p><p>A brewer moving from a clean American lager yeast to a traditional English ale strain should expect the diacetyl baseline to shift, and adjust their fermentation schedule accordingly rather than assuming a fixed process will suit every strain equally.</p>"
+  ],
+  [
+   "How to train your nose on it",
+   "<p>A spiking kit, covered in our guide to <a href=\"off-flavour-spiking-kits.html\">off flavour spiking kits</a>, is the fastest way to fix the aroma and the slick mouthfeel in memory against a known, calibrated reference, rather than relying on a written description of butter alone.</p><p>Some brewers deliberately taste a sample daily in the final days of fermentation specifically to check for diacetyl, rather than relying on a fixed calendar schedule, since yeast performance varies batch to batch even with an identical recipe.</p><p>A quick way to check for diacetyl without a full spiking kit is to warm a small sample in your hand while swirling it gently, since the compound's aroma often becomes more obvious as the beer approaches room temperature.</p>"
+  ],
+  [
+   "Where diacetyl fits among the common faults",
+   "<p>Diacetyl is usually the first fault new brewers and tasters learn to recognise reliably, alongside <a href=\"dms-off-flavour.html\">DMS</a> and <a href=\"acetaldehyde-off-flavour.html\">acetaldehyde</a>, since all three are common, distinctive and directly traceable to a specific, identifiable point in the brewing process.</p><p>A brewer who has tasted a genuine spiked reference once rarely forgets the sensation afterwards, which is exactly the point of the exercise: turning a description read on a page into a fixed, permanent memory you can check any future batch against.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is diacetyl always a fault?",
+   "No. A low level is traditional in some English ales and Czech lagers. In a clean modern lager or a hop forward beer it is generally a defect."
+  ],
+  [
+   "Why does diacetyl feel slick as well as taste buttery?",
+   "The compound affects mouthfeel as well as aroma and flavour, producing an oily texture across the tongue distinct from the smell alone."
+  ],
+  [
+   "Can diacetyl be fixed after the beer is packaged?",
+   "Rarely. It needs to be caught before packaging, while the yeast is still present and active enough to reduce it during a proper diacetyl rest."
+  ],
+  [
+   "How do I know if my diacetyl is from process or infection?",
+   "Persistent diacetyl across multiple batches despite good fermentation practice is worth investigating as a possible infection, since that requires a different fix than simply extending the diacetyl rest."
+  ]
+ ],
+ "cta": {
+  "title": "Recognise this fault instantly, not eventually",
+  "body": "Sensory Evaluation includes a spiked diacetyl reference sample, so you taste and remember the real thing rather than just reading about it.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "dms-off-flavour",
+  "acetaldehyde-off-flavour",
+  "off-flavour-spiking-kits"
+ ]
+}

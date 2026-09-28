@@ -1,0 +1,63 @@
+{
+ "slug": "base-malts-explained",
+ "cat": "Ingredients",
+ "h1": "Base malts explained",
+ "title": "Base malts explained | Craft Beer School",
+ "desc": "Pilsner, Pale Ale, Vienna and Munich malts compared: kilning temperature, diastatic power and where each one fits.",
+ "teaser": "Base malt is the malt doing the actual work of a mash. Everything else in the grain bill is there to adjust what the base malt already built.",
+ "standfirst": "Pilsner, Pale Ale, Vienna and Munich malts look similar in the bag but behave differently in the mash tun. Knowing why helps you pick the right one instead of defaulting to whatever is on the shelf.",
+ "read": "4 min",
+ "updated": "2021-12-25",
+ "updated_label": "December 2021",
+ "sections": [
+  [
+   "What makes a malt a base malt",
+   "<p>A base malt is kilned gently enough during malting, usually finishing around 80 to 85 degrees Celsius, to retain strong enzyme activity, measured as diastatic power. That enzyme reserve is what converts starch to fermentable sugar during the mash, which is why base malts typically make up 70 to 100 percent of a grain bill: they are doing the actual conversion work that specialty malts, added mostly for colour and flavour, cannot do on their own.</p>"
+  ],
+  [
+   "Pilsner malt: the lightest, most versatile base",
+   "<p>Kilned the most gently of the common base malts, Pilsner malt runs 2 to 3 EBC (roughly 1 to 2 Lovibond) and carries the highest diastatic power of the group. It is the base for pale lagers and many pale ales where you want maximum control over colour and flavour from the specialty malts and hops rather than from the base itself. Its light kilning also means it is the most forgiving choice if you are experimenting with adjuncts covered in our guide to <a href=\"rice-and-maize-adjuncts-india.html\">rice and maize adjuncts</a>, since it has enzyme reserve to spare.</p>"
+  ],
+  [
+   "Pale Ale malt: a step up in colour and biscuit character",
+   "<p>Kilned slightly higher than Pilsner malt, Pale Ale malt sits around 6 to 9 EBC and develops a mild biscuit and bread crust character that Pilsner malt does not have. It remains highly modified with good enzyme reserve, so it works fine as close to 100 percent of a grain bill, and it is the standard base for English and American pale ales and most IPAs.</p>"
+  ],
+  [
+   "Vienna and Munich: colour and malt character, less enzyme headroom",
+   "<p>Vienna malt, around 10 to 15 EBC, and Munich malt, ranging from roughly 20 EBC for a light version up to 40 or more for a dark version, are kilned harder still and bring genuine malty, toasty, bread-crust flavour on their own, rather than relying on specialty malts for it. Their diastatic power is lower than Pilsner or Pale Ale malt, which usually is not a problem when they make up under half the grist, but a grain bill built mostly from Munich malt needs checking against its enzyme reserve before you assume it will convert on a standard mash schedule.</p>"
+  ],
+  [
+   "Choosing a base malt for a recipe",
+   "<p>Start from the flavour you want the malt itself to contribute before the specialty malts and hops get involved. A crisp lager or a hop forward pale ale wants Pilsner or Pale Ale malt doing most of the work quietly. An Oktoberfest or a malt-forward brown ale wants Vienna or Munich malt carrying real character on its own. From there, the darker and more flavourful malts in our guides to <a href=\"crystal-and-caramel-malts.html\">crystal and caramel malts</a> and <a href=\"roasted-malts-guide.html\">roasted malts</a> are added in smaller amounts to finish the picture.</p>"
+  ],
+  [
+   "How diastatic power is measured, and why it matters",
+   "<p>Diastatic power, usually expressed in degrees Lintner or Windisch-Kolbach depending on the standard used, measures a malt's enzyme reserve, its capacity to convert starch into fermentable sugar during a mash. A Pilsner malt typically tests well above 100 degrees Lintner, more than enough to convert its own starch with plenty of reserve left over to spare. A Munich malt might test closer to 40 to 60, still sufficient on its own but with far less headroom to also convert unmalted adjuncts or a large proportion of low-enzyme specialty malt sitting alongside it in the same grist.</p><p>This is the practical reason a recipe built mostly from Munich or Vienna malt needs checking rather than assumed to convert exactly like a Pilsner-based one: the enzyme reserve is real but finite, and a mash that asks too much of it can finish with unconverted starch left behind, showing up as a hazy, starchy beer and a lower than expected OG.</p><p>It is worth tasting each base malt on its own before building a recipe around it, chewing a few dry kernels or steeping a small handful in hot water. Pilsner malt tastes clean and faintly sweet, Munich malt tastes distinctly bready and toasty even raw, and that direct tasting does more to build intuition for a grain bill than any specification sheet.</p><p>Colour figures printed on a bag are averages, not guarantees, and can shift slightly from harvest to harvest the same way alpha acid does for hops. A brewer chasing a precise colour target for a competition beer will want to check the specific lot's certificate of analysis rather than rely on the generic figure printed on packaging.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I use Munich malt as 100 percent of my grain bill?",
+   "You can, but check its diastatic power first, since Munich malt has less enzyme reserve than Pilsner or Pale Ale malt and a very dark grist may need a step mash to convert reliably."
+  ],
+  [
+   "What is the actual difference between Pilsner and Pale Ale malt?",
+   "Kilning temperature. Pale Ale malt is finished slightly hotter, giving it more colour and a mild biscuit character that Pilsner malt, kilned lighter, does not have."
+  ],
+  [
+   "Do base malts contribute any flavour, or is that all specialty malts?",
+   "Base malts absolutely contribute flavour, particularly Vienna and Munich, which taste distinctly toasty and bready on their own even before any specialty malt is added."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to build a grain bill with real confidence?",
+  "body": "Picking the right base malt for a style is one decision among dozens a full recipe actually needs. Brewing Fundamentals runs 4 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "crystal-and-caramel-malts",
+  "roasted-malts-guide",
+  "barley-malting-process"
+ ]
+}

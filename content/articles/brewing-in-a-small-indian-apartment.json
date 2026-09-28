@@ -1,0 +1,67 @@
+{
+ "slug": "brewing-in-a-small-indian-apartment",
+ "cat": "Brewing basics",
+ "h1": "Brewing in a small Indian apartment",
+ "title": "Brewing in a small Indian apartment | Craft Beer School",
+ "desc": "Brewing in an Indian flat: fermentation temperature control, water sources and managing brew day smell and noise.",
+ "teaser": "Heat is the real obstacle to homebrewing in an Indian apartment, not space. Solve fermentation temperature first.",
+ "standfirst": "A one bedroom flat in Bengaluru or Mumbai has enough room to brew good beer. The genuine constraint is keeping fermentation cool through an Indian summer without a dedicated fridge taking over the kitchen.",
+ "read": "4 min",
+ "updated": "2025-12-22",
+ "updated_label": "December 2025",
+ "sections": [
+  [
+   "Space is rarely the actual constraint",
+   "<p>A 20 litre all-grain or extract batch needs a kitchen counter for an afternoon, a corner for a fermenter for two to three weeks, and a balcony or bathroom for cleaning up. That fits into most Indian apartments without rearranging furniture. The constraint people run into is not floor area, it is finding somewhere in the flat that stays consistently cool.</p>"
+  ],
+  [
+   "Fermentation temperature is the real project",
+   "<p>Ale yeast generally wants 18 to 22 degrees Celsius, lager yeast 8 to 13 degrees. An Indian apartment in April or May routinely sits at 30 to 35 degrees indoors without air conditioning running continuously, which is well outside the range for either. Fermenting too warm pushes yeast to throw off fusel alcohols and esters that read as harsh or solventy, and it is the single most common reason a first batch disappoints. A second hand refrigerator, with its thermostat overridden by an external temperature controller so it can hold a warmer ale range instead of full fridge cold, is the standard fix and is well worth the one-time cost before you brew a second batch.</p>"
+  ],
+  [
+   "Working with what you already have",
+   "<p>If a dedicated fridge is not yet in the budget, a large tub of water with frozen bottles swapped out twice a day, wrapped in a wet towel with a fan blowing across it for evaporative cooling, can hold a fermenter within a few degrees of ambient minus 5 to 8, which is sometimes enough to get through cooler months. It is not a permanent solution and it needs active attention, but it beats fermenting in open room temperature during a heatwave.</p>"
+  ],
+  [
+   "Water: borewell, municipal or RO",
+   "<p>Most apartments run on either municipal supply, a borewell, or an RO purifier, and each behaves differently for brewing. Municipal water usually needs a simple carbon filter or a campden tablet to remove chlorine and chloramine before it touches the mash. Borewell water can carry high mineral content that varies street to street, worth testing once rather than guessing. RO water is close to mineral-free and needs brewing salts added back in to give the yeast and mash what they need, which a <a href=\"brewing-software-and-calculators.html\">water calculator</a> can work out once you know your starting point.</p>"
+  ],
+  [
+   "Noise, smell and neighbours",
+   "<p>A boil produces steam and a strong malty smell for an hour, noticeable in a shared building with thin walls or a lobby that shares air with your kitchen exhaust. Brewing with the kitchen exhaust fan running and a window open avoids most complaints. Fermentation itself is close to silent and produces very little smell once the vessel is sealed, so the boil is the one part of the day worth planning around your building's layout.</p>"
+  ],
+  [
+   "Building the habit before scaling up",
+   "<p>Get one small batch fermenting at the right temperature reliably before worrying about anything else, kit upgrades, bigger batches, extra equipment. Once the temperature problem is solved, everything else about brewing in a flat is a smaller version of brewing anywhere else, and <a href=\"keeping-a-brew-log.html\">keeping a brew log</a> from day one will tell you exactly how well your setup is actually holding temperature, rather than how well you hope it is.</p>"
+  ],
+  [
+   "Equipment that earns its space in a small kitchen",
+   "<p>A stovetop capable of a genuine rolling boil, a decent immersion or plate chiller to bring 20 litres of hot wort down to pitching temperature quickly rather than leaving it to cool slowly on a counter, and an external temperature controller wired to a spare fridge cover the three pieces of equipment that make the biggest difference to a small-space setup. Fancier additions, a dedicated grain mill, a conical fermenter, a kegging system, are worth adding later, once the basics of temperature control and sanitation are solid and repeatable.</p><p>Chilling quickly matters more in a hot climate than it might elsewhere, because wort sitting warm for longer than necessary is also the window in which unwanted bacteria have the best chance to establish themselves before the yeast gets going, on top of the DMS risk covered in our guide to <a href=\"beer-off-flavours.html\">beer off flavours</a>.</p><p>Keep a simple checklist by the door for brew day: gas connected and checked, exhaust fan on, sanitiser mixed before you need it, and a plan for where hot wort will cool safely away from pets or curious children. A small space rewards this kind of routine far more than a large brewery does, because there is less margin for a spill or a knocked-over kettle to go unnoticed.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I brew a full batch in a small kitchen?",
+   "Yes, a standard 20 litre batch fits on one stove burner and a counter for the afternoon it takes to brew, provided you have a corner to ferment in afterwards."
+  ],
+  [
+   "What is the cheapest way to control fermentation temperature?",
+   "A frozen water bottle swap system with a wet towel and a fan is the cheapest workable option, though a second hand fridge with an external temperature controller is far more reliable."
+  ],
+  [
+   "Is borewell water safe to brew with?",
+   "Usually, but mineral content varies a great deal by location. Get it tested once so you know what you are starting from before adjusting it for brewing."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to brew consistently, whatever your kitchen size?",
+  "body": "Getting the basics right in a small space is exactly where a structured course saves months of trial and error. Brewing Fundamentals runs 4 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "how-beer-is-made-step-by-step",
+  "homebrewing-starter-kit-india",
+  "keeping-a-brew-log"
+ ]
+}

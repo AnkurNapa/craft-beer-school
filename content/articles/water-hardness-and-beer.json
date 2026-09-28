@@ -1,0 +1,75 @@
+{
+ "slug": "water-hardness-and-beer",
+ "cat": "Ingredients",
+ "h1": "Water hardness and beer",
+ "title": "Water Hardness and Beer Explained | Craft Beer School",
+ "desc": "What hard and soft water each do to mash chemistry, yeast health and finished beer flavour, and how to tell which one you have.",
+ "teaser": "Hard water gets blamed for a lot of brewing faults it did not cause, and credited for balance it does not always give.",
+ "standfirst": "Hardness is one number standing in for two different minerals with different jobs. Separate them and water chemistry gets a lot less mysterious.",
+ "read": "4 min",
+ "updated": "2025-02-06",
+ "updated_label": "February 2025",
+ "sections": [
+  [
+   "What hardness actually measures",
+   "<p>Total hardness is the combined concentration of calcium and magnesium, usually reported in parts per million as calcium carbonate. It tells you how much of those two minerals is present but nothing about the other ions, like sulphate, chloride or bicarbonate, that do most of the work shaping flavour.</p><p>Two waters with identical hardness numbers can brew very differently if their sulphate and bicarbonate levels are different.</p><p>Some water reports separate calcium hardness from magnesium hardness rather than giving a single combined figure, which is worth checking for since the two minerals affect the beer somewhat differently even though both count toward total hardness.</p>"
+  ],
+  [
+   "Why some calcium and magnesium helps",
+   "<p>Calcium supports enzyme activity during the mash, helps proteins and haze-forming compounds drop out during the boil and cold break, and helps yeast flocculate cleanly at the end of fermentation. A beer brewed on very soft water can finish hazier than expected and take longer to clear.</p><p>Magnesium is a smaller player, useful to yeast in trace amounts but harsh and slightly bitter if it builds up much beyond that.</p>"
+  ],
+  [
+   "Soft water is not automatically a problem",
+   "<p>Pilsner, brewed traditionally on some of the softest water in Europe, is proof that low mineral water works well for delicate, malt-forward styles where you do not want minerals competing with a subtle grain character. The historical Pilsen water profile is close to what you would get straight out of an RO unit.</p><p>Soft water becomes a problem mainly for styles that expect a firmer mineral backbone, like a classic English bitter, or when mash pH drifts because there is no calcium buffering it.</p>"
+  ],
+  [
+   "Hard water and the styles it built",
+   "<p>Burton on Trent's famously hard, high sulphate water is the reason English pale ale tastes the way it does: dry, crisp bitterness with a mineral snap. That water profile did not just tolerate the style, it shaped it, and brewers still add gypsum to soft water to chase that same effect, a practice literally called Burtonisation.</p><p>Very hard, high alkalinity water is the harder case, since the bicarbonate fights mash pH correction even while the calcium is doing useful work.</p>"
+  ],
+  [
+   "Reading your own water report",
+   "<p>Look at total hardness alongside alkalinity separately. Water can be hard (high calcium and magnesium) and low in alkalinity, which is generally easy to work with, or hard and highly alkaline, which needs acid addition to bring mash pH into range regardless of how much useful calcium is present.</p><p>See our <a href=\"sulphate-chloride-ratio.html\">sulphate to chloride ratio</a> guide once you know your hardness numbers, since that ratio is what actually decides whether the beer reads dry and bitter or round and malty.</p>"
+  ],
+  [
+   "Borewell water in India: hardness is only the start",
+   "<p>Borewell water across peninsular India is frequently very hard, sometimes carrying visible scale on kettles as the giveaway, and often alkaline as well. A brewery drawing straight from a borewell without a water report is brewing blind on two variables that both push mash pH the wrong way for pale beer. Our guide on <a href=\"treating-borewell-water-for-brewing.html\">treating borewell water for brewing</a> covers the practical fixes.</p><p>A brewery relying on a borewell should also ask neighbouring properties or the local groundwater authority whether water quality has shifted over recent years, since extraction pressure and monsoon patterns both influence the mineral load of shallow aquifers over time, not just from well to well but from year to year at the same well.</p>"
+  ],
+  [
+   "Permanent versus temporary hardness",
+   "<p>Older brewing texts distinguish permanent hardness, calcium and magnesium bound to sulphate or chloride, from temporary hardness, the same minerals bound to bicarbonate, which drops out of solution when the water is boiled. Boiling water before brewing with it, then decanting off the sediment, was a traditional way to reduce temporary hardness and the alkalinity that comes with it, before modern water treatment made the distinction less commonly discussed.</p><p>It still works today as a low cost first step for a brewer dealing with high-bicarbonate water and no access to acid or an RO system.</p>"
+  ],
+  [
+   "A quick home test that is better than nothing",
+   "<p>A basic aquarium or pool test kit measuring total hardness will not replace a proper lab water report, but it gives a rough sense of whether you are dealing with soft, moderate or very hard water before you invest in anything more precise. Combined with a simple taste test, mineral-heavy water often has a faint metallic or chalky note on its own, this is enough to decide whether water chemistry is worth investigating further for your specific batches.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is hard water bad for brewing?",
+   "Not by itself. It depends on the balance between calcium, magnesium, sulphate, chloride and alkalinity, not the hardness number alone."
+  ],
+  [
+   "Can I brew a good pilsner with hard water?",
+   "It is harder to get the same delicate character, since pilsner was built on very soft water. Diluting with RO water is the usual fix."
+  ],
+  [
+   "What is Burtonisation?",
+   "Adding gypsum (calcium sulphate) to water to mimic the high sulphate, high calcium profile of Burton on Trent, traditionally used for English pale ales."
+  ],
+  [
+   "How do I know if my water is hard?",
+   "A water report from your municipal supplier or a lab test for borewell water will give you a number in parts per million or degrees of hardness. Visible scale on a kettle is a rough sign but not a substitute for a test."
+  ]
+ ],
+ "cta": {
+  "title": "Turn a water report into a working recipe",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers full water chemistry calculations, salt additions and pH adjustment as one practical workflow, beyond what a single guide can walk through.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "sulphate-chloride-ratio",
+  "treating-borewell-water-for-brewing",
+  "brewing-water-basics"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "beer-staling-chemistry",
+ "cat": "Brewing science",
+ "h1": "The chemistry of stale beer",
+ "title": "The Chemistry of Stale Beer | Craft Beer School",
+ "desc": "The actual chemical reactions behind stale, cardboard and sherry flavours, and why staling keeps happening even without oxygen.",
+ "teaser": "Stale beer is not one flavour, it is several reactions layered on top of each other, and most of them are already underway from the moment beer is packaged.",
+ "standfirst": "Understanding what stale beer actually is, chemically, makes clear why the fix is almost entirely prevention, since none of these reactions run in reverse once they start.",
+ "read": "3 min",
+ "updated": "2025-11-15",
+ "updated_label": "November 2025",
+ "sections": [
+  [
+   "Trans-2-nonenal: the wet cardboard note",
+   "<p>Linoleic acid, a fatty acid derived from malt, oxidises through an enzyme pathway and further breakdown to eventually produce trans-2-nonenal, the compound most associated with wet cardboard or papery staling character. It has an extremely low flavour threshold, meaning even a small amount is easily detectable, and its precursors are present from the moment malt is milled, well before fermentation even begins.</p><p>Melanoidins, the brown, flavour-active compounds formed during malting and the boil through Maillard reactions, continue to slowly react and shift character during storage, contributing to the deepening, toffee-like direction that malt forward and darker beers often take on with age, distinct from the fresher, brighter Maillard character they show when new.</p>"
+  ],
+  [
+   "Oxidation and the sherry, toffee direction",
+   "<p>Beyond cardboard notes, ongoing oxidation in stronger or darker beers tends to push flavour toward sherry, dried fruit or toffee character, a direction some strong ales and barleywines age into deliberately within limits, while the same character in a pale lager reads as a clear fault. The difference is largely about what the style expects, not a different chemical process.</p><p>Metal ion contamination, particularly trace iron or copper picked up from worn equipment or poor quality water, can catalyse oxidation reactions and accelerate staling well beyond what oxygen exposure alone would predict, which is one reason equipment maintenance and water quality both sit upstream of a beer's eventual shelf life even though neither looks directly related to staling at first glance.</p>"
+  ],
+  [
+   "Non-oxidative staling: the part that keeps happening anyway",
+   "<p>Some staling reactions, including certain Strecker degradation pathways that produce stale aldehydes, continue slowly even in beer with very low oxygen content, because they draw on reactions and precursors already present in the beer rather than requiring fresh oxygen input. This is why even a beer packaged with excellent <a href=\"oxygen-pickup-in-packaging.html\">oxygen control</a> still has a finite shelf life rather than an indefinite one.</p> Recognising which pathway is dominant in a given complaint sample helps a brewery target the right fix, whether that is tighter packaging oxygen control, a shorter distribution chain, or better protection from light and heat.<p>Antioxidant compounds naturally present in malt and hops offer some protection against oxidative staling, which is part of why heavily kilned, darker malts sometimes show better oxidative stability than very pale, lightly modified ones, independent of any deliberate antioxidant additive.</p>"
+  ],
+  [
+   "Why staling accelerates with heat and light",
+   "<p>Almost every staling reaction speeds up with temperature, which is the chemical basis for the shelf life guidance covered under <a href=\"beer-shelf-life.html\">beer shelf life</a>. Light exposure adds a separate, fast acting reaction entirely, where riboflavin in beer reacts with hop compounds under light to produce a distinctly skunky character within minutes in clear or green glass, a different chemical pathway from oxidative staling but often confused with it.</p><p>Sensory panels trained specifically to recognise staling markers, rather than general off flavours, give a brewery an early warning system, catching the first hints of cardboard or sherry character in a shelf life trial well before an average drinker would notice, which supports setting a realistic and defensible best-before date.</p>"
+  ],
+  [
+   "Why none of this reverses",
+   "<p>Every staling reaction covered here runs one way. There is no cellar trick, fining agent or filtration step that restores a stale beer to its fresh state, which is the entire argument for prevention through low oxygen packaging, a controlled cold chain and brown glass or cans over clear glass, rather than trying to manage staling after the fact.</p><p>None of the individual reactions described here act entirely alone in a real beer. Oxidative, thermal and light driven pathways can all be running simultaneously at different rates, which is why a genuinely stale beer often shows a blend of cardboard, sherry and flat, dull character rather than one single, cleanly identifiable fault.</p><p>None of this chemistry is exotic or unique to any one brewery. It runs the same way in every beer, at a rate set almost entirely by how much oxygen, heat and light the beer is exposed to, which is exactly why prevention through process and packaging control is the only lever that actually works.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What causes the wet cardboard flavour in old beer?",
+   "Trans-2-nonenal, formed from the oxidative breakdown of a malt-derived fatty acid. It has a very low flavour threshold, so even a small amount is noticeable."
+  ],
+  [
+   "Can stale beer chemistry be reversed?",
+   "No. All the reactions behind staling run in one direction. Prevention through packaging, oxygen control and cold storage is the only real defence."
+  ],
+  [
+   "Is lightstruck flavour the same as oxidative staling?",
+   "No, though they are often confused. Lightstruck character comes from a fast reaction between riboflavin and hop compounds triggered by light, not from oxygen exposure."
+  ],
+  [
+   "Why does staling still happen in beer packaged with very low oxygen?",
+   "Some staling reactions draw on precursors already present in the beer and do not require ongoing oxygen input, so they continue slowly regardless of how well oxygen was controlled at packaging."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how these staling reactions interact in practice, and how to design a packaging and storage process that keeps them as slow as possible. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "infection-bacteria-in-brewing",
+  "cip-cleaning-in-place",
+  "beer-shelf-life"
+ ]
+}

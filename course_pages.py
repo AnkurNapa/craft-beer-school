@@ -9,8 +9,7 @@ mirror the "CBS Online Courses 2026" brochure.
 import re
 
 import article_render
-import articles_a
-import articles_b
+import articles_all
 import pages_a
 from pages_a import banner, course_href as slug_for, enroll_href
 
@@ -24,7 +23,7 @@ LOGISTICS = [
     ("Fees", "Paid in full at sign-up. No discounts apply, and a package of courses cannot be changed once confirmed."),
 ]
 
-ARTICLES_BY_SLUG = {a["slug"]: a for a in articles_a.ARTICLES_A + articles_b.ARTICLES_B}
+ARTICLES_BY_SLUG = {a["slug"]: a for a in articles_all.ARTICLES}
 
 # name (plain text, as in the contact form) -> detail
 DETAIL = {
@@ -79,7 +78,7 @@ DETAIL = {
             ("Market, brand and distribution", ["Positioning and taproom economics", "On-trade versus off-trade, distributors and state rules", "Kegs versus cans, and when each makes sense"],
              "Present a one-page business plan to the cohort."),
         ]),
-    "Style Specialization": dict(
+    "Style Specialisation": dict(
         reading=['beer-styles-guide', 'how-to-taste-beer', 'what-is-craft-beer'],
         who=["Brewers who want a broader portfolio", "Competition brewers and future judges",
              "Beer educators and servers preparing for Cicerone"],

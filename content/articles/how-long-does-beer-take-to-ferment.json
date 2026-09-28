@@ -1,0 +1,59 @@
+{
+ "slug": "how-long-does-beer-take-to-ferment",
+ "cat": "Brewing basics",
+ "h1": "How long does beer take to ferment?",
+ "title": "How Long Does Beer Take to Ferment | Craft Beer School",
+ "desc": "Realistic fermentation timelines for ales and lagers, and how to tell the difference between finished and merely quiet.",
+ "teaser": "There is no single answer to how long fermentation takes, but there are honest ranges, and a reliable way to check rather than guess.",
+ "standfirst": "New brewers want a number of days circled on a calendar. Fermentation does not work that neatly, but it does follow patterns predictable enough to plan around, once you know what you are actually waiting for.",
+ "read": "3 min",
+ "updated": "2024-10-10",
+ "updated_label": "October 2024",
+ "sections": [
+  [
+   "The active phase versus the whole fermentation",
+   "<p>Most of the visible activity, foam, bubbling airlock, a thick krausen on top of the beer, happens in the first three to seven days for a typical ale. That is the loudest part of fermentation, not the whole of it. Yeast continues working quietly afterwards, cleaning up by-products and settling out, well past the point the airlock has gone still.</p><p>Krausen, the thick, foamy cap that forms on top of an actively fermenting ale, typically builds within the first 24 to 48 hours, peaks, and then falls back into the beer as fermentation slows. Watching krausen rise and fall is a useful rough visual guide to the fermentation's progress, though it is not a substitute for an actual hydrometer reading.</p><p>A short conditioning stint of a further week after gravity stabilises, even for a fast-finishing ale, generally leaves the beer noticeably cleaner tasting than packaging it the moment the numbers hold steady.</p>"
+  ],
+  [
+   "Typical ale timelines",
+   "<p>A standard-gravity ale usually finishes primary fermentation, meaning gravity has stopped dropping, within seven to ten days at a proper fermentation temperature. Giving it another few days beyond that for the yeast to reabsorb compounds like diacetyl, sometimes called a diacetyl rest when held slightly warmer on purpose, produces a noticeably cleaner beer than rushing straight to packaging the moment bubbling slows.</p><p>Higher-gravity beers, those starting well above roughly 1.070, generally need noticeably longer than a standard-strength ale, both because there is more sugar for the yeast to work through and because high alcohol concentration itself slows yeast activity in the later stages of fermentation.</p><p>Fermentation temperature and pitch rate together decide most of the variation within these ranges, so a batch that finishes on the fast or slow end of what is typical is not automatically a sign of a problem, provided the two-reading gravity check confirms it has genuinely stopped.</p>"
+  ],
+  [
+   "Why lagers take so much longer",
+   "<p>Lager yeast ferments at a much colder 8 to 13 &#176;C, discussed in <a href=\"fermentation-temperature-control-at-home.html\">controlling fermentation temperature at home</a>, and cold temperatures slow yeast activity considerably. Primary fermentation alone can take two to three weeks, and traditional lagers then need a further extended cold conditioning period, called lagering, often held near 0 &#176;C for several weeks more, which is where the style gets its name.</p><p>Session beers and lower-gravity ales generally sit at the faster end of every range mentioned here, while stronger, more complex beers, and any beer deliberately conditioned on fruit, wood or a secondary culture such as brettanomyces, can extend well beyond the timelines a simple ale would follow.</p>"
+  ],
+  [
+   "The only reliable way to know it is done",
+   "<p>Bubbling stopping is not proof fermentation has finished, since a loose-fitting lid or a slow leak can stop the airlock moving even while fermentation continues underneath. Two gravity readings, taken 48 hours apart with a hydrometer, coming back identical is the only check worth trusting, covered fully in <a href=\"how-to-use-a-hydrometer.html\">how to use a hydrometer properly</a>. Bottling on anything less risks over-carbonated or gushing bottles from sugar still left to ferment.</p><p>Some brewers build in a short diacetyl rest as standard practice, holding the beer a few degrees warmer than fermentation temperature for two or three days once gravity looks stable, specifically to let the yeast clean up any remaining diacetyl before cold conditioning or packaging. It costs little time and reliably improves the finished beer.</p>"
+  ],
+  [
+   "What slows fermentation down unexpectedly",
+   "<p>An underpitched or old yeast, a fermentation temperature that drifted too cold, or a very high original gravity beer that is simply asking a lot of the yeast, can all stretch out the timeline well beyond what a recipe sheet suggested. A stalled fermentation, where gravity stops well above where it should, is a different problem from a slow one and is worth investigating with a warm gentle swirl of the fermenter or a small addition of fresh, healthy yeast rather than just waiting indefinitely.</p><p>A gravity that has genuinely stalled rather than simply finished low sometimes responds to a gentle temperature increase of two or three degrees, which encourages any remaining sluggish yeast back into activity, though this should be a considered troubleshooting step rather than a routine part of every batch.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is it normal for airlock activity to stop after two or three days?",
+   "Yes, especially for lower-gravity beers with a healthy, vigorous pitch. Slowing airlock activity is not the same as finished fermentation, so a gravity check is still the right next step."
+  ],
+  [
+   "How long should I leave beer in the fermenter before bottling?",
+   "Long enough for two gravity readings 48 hours apart to match, typically 10 to 14 days for a standard ale including a short conditioning period afterwards, though the exact number varies by recipe and yeast strain."
+  ],
+  [
+   "Can I speed up fermentation by raising the temperature?",
+   "You can shorten the time, but at a real cost: higher temperatures generally push yeast to produce more off flavours and fusel alcohols, so rushing this way usually makes the beer noticeably worse."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "bottle-conditioning-and-priming-sugar",
+  "kegging-homebrew",
+  "fermentation-temperature-control-at-home"
+ ]
+}

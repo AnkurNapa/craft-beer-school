@@ -1,0 +1,63 @@
+{
+ "slug": "infection-bacteria-in-brewing",
+ "cat": "Brewing science",
+ "h1": "Bacteria and infection in brewing",
+ "title": "Bacteria and Infection Risks | Craft Beer School",
+ "desc": "The common spoilage organisms in brewing, what they actually taste like, and the cleaning practices that keep them out.",
+ "teaser": "An infection rarely announces itself clearly. It usually shows up first as a flavour you cannot quite explain, and a hygiene gap you have not found yet.",
+ "standfirst": "Most brewery infections trace back to the same handful of organisms and the same handful of cleaning gaps, which makes them more preventable than they are usually given credit for.",
+ "read": "3 min",
+ "updated": "2026-01-09",
+ "updated_label": "January 2026",
+ "sections": [
+  [
+   "The organisms that actually cause trouble",
+   "<p>Lactobacillus and Pediococcus are the most common bacterial contaminants, producing sourness and, in the case of Pediococcus, a persistent buttery diacetyl character that will not clear with the usual rest, unlike the normal fermentation byproduct covered under <a href=\"diacetyl-rest.html\">the diacetyl rest</a>. Acetobacter needs oxygen to work and produces a sharp vinegar character, making it mainly a risk around loose seals or open transfers rather than inside a sealed fermenter. Wild Brettanomyces yeast contributes funky, barnyard or leathery notes and is sometimes used deliberately in sour and farmhouse styles, but is unwelcome almost everywhere else.</p><p>Water quality itself can be a contamination vector if not properly treated, particularly with borewell sources common across many Indian breweries, where microbial load can vary seasonally in ways municipal supply generally does not. Testing water source quality periodically, not just at initial setup, catches a drifting risk before it reaches the brewhouse.</p>"
+  ],
+  [
+   "Where contamination actually gets in",
+   "<p>Poor cleaning in place, residual biofilm in dead legs, gaskets and hose fittings that see infrequent full disassembly, and contaminated transfer hoses account for most infections. Propagation and yeast handling steps, where wort sits at a warm, nutrient-rich, low-alcohol stage with no protective fermentation activity yet, are a particularly exposed point in the process.</p><p>Pest and airborne contamination pathways are easy to overlook in a hygiene routine focused mainly on surfaces and liquids. Fruit flies in particular are notorious vectors for wild yeast and acetic bacteria, and a brewery with an open fermentation area or poor door seals against outside insects carries a persistent, low-level contamination risk regardless of how well surfaces are cleaned.</p>"
+  ],
+  [
+   "Cleaning versus sanitising, and why both matter",
+   "<p>Cleaning removes visible soil and the biofilm that would otherwise protect bacteria from a sanitiser. Sanitising then reduces the remaining microbial load to a safe level, but only works reliably on a surface that is already clean, since organic residue can shield organisms from sanitiser contact. Skipping straight to sanitising a visibly dirty surface is one of the most common and avoidable brewery mistakes.</p> Building this kind of outside check into an annual or biannual schedule, rather than only after a problem appears, catches drift in a cleaning programme while it is still a minor issue rather than a batch-losing one.<p>Staff hygiene training matters as much as equipment design. Hands, clothing and shared tools moving between a packaging line and a fermentation area without any barrier or changeover routine can carry contamination between stages that would otherwise be well separated by equipment alone.</p>"
+  ],
+  [
+   "Catching an infection before it ships",
+   "<p>Routine tasting at defined process checkpoints catches most infections well before packaging, alongside simple lab checks such as plating samples on selective media where a brewery has the setup for it. An unexplained haze, discussed under <a href=\"beer-haze-causes.html\">what causes haze in beer</a>, or gravity that will not stabilise are both worth investigating as possible contamination rather than assumed to be a fermentation quirk.</p><p>Quarantine protocols for any batch showing early signs of possible infection, rather than continuing normal production scheduling around it, prevent a single contaminated batch from cross-contaminating shared equipment, transfer lines or a packaging line used immediately afterward for a clean batch.</p>"
+  ],
+  [
+   "Building a hygiene routine that actually holds",
+   "<p>Full disassembly and cleaning of fittings, gaskets and dead legs on a fixed schedule, rather than only when a problem appears, closes off the gaps that a quick rinse misses. In warm, humid Indian brewery environments, biofilm and wild yeast pressure build faster than in cooler climates, which makes a strict, calendar-driven cleaning schedule more important than an ad hoc one that waits for a visible sign of trouble.</p><p>Third party lab testing, even occasional rather than routine, gives an outside check on a brewery's own hygiene assumptions. A brewery that has never had an external swab test or plate count done is relying entirely on internal judgement about whether its cleaning programme is actually working, which is a reasonable starting point but not a substitute for independent verification over time.</p><p>A brewery's hygiene programme should also be documented and reviewed periodically rather than existing purely as staff habit, since undocumented practices tend to drift or get skipped under production pressure in ways a written, checked schedule resists.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the most common brewery infection?",
+   "Lactobacillus and Pediococcus are among the most frequently seen, both producing sourness, with Pediococcus also associated with a persistent buttery diacetyl character."
+  ],
+  [
+   "Can an infection be fixed once it is in the beer?",
+   "Generally no. Prevention through cleaning, sanitising and process hygiene is far more effective than trying to correct an infected batch after the fact."
+  ],
+  [
+   "Is Brettanomyces always a fault?",
+   "Not always. It is used deliberately in some sour and farmhouse styles for its funky character, but it is considered contamination in almost every other style."
+  ],
+  [
+   "Why does cleaning have to happen before sanitising?",
+   "Sanitisers work reliably only on an already clean surface. Organic residue and biofilm can shield organisms from sanitiser contact, making a dirty surface still risky even after sanitising."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to build a hygiene and quality control routine that actually catches contamination early, rather than reacting after a batch is already lost. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cip-cleaning-in-place",
+  "brewery-qc-lab-on-a-budget",
+  "beer-staling-chemistry"
+ ]
+}

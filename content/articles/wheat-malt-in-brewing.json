@@ -1,0 +1,63 @@
+{
+ "slug": "wheat-malt-in-brewing",
+ "cat": "Ingredients",
+ "h1": "Wheat malt in brewing",
+ "title": "Wheat malt in brewing | Craft Beer School",
+ "desc": "Why wheat malt boosts head retention and haze, and how to avoid a stuck sparge when using a lot of it.",
+ "teaser": "Wheat malt has no husk of its own, which is exactly why it improves head retention and exactly why it can jam a lauter tun.",
+ "standfirst": "Wheat malt brings protein that barley malt does not, and that protein is responsible for almost everything distinctive it does in a beer, for better and for worse.",
+ "read": "3 min",
+ "updated": "2022-08-01",
+ "updated_label": "August 2022",
+ "sections": [
+  [
+   "Why wheat behaves differently from barley in the mash",
+   "<p>Wheat kernels carry noticeably more protein than barley, and unlike barley, wheat has no husk of its own to protect a lauter bed once the mash is finished. Both facts follow you through the rest of the brewing process: the protein is responsible for the haze and head retention wheat is known for, and the missing husk is why an all-wheat mash can run slowly or stick during lautering.</p>"
+  ],
+  [
+   "Head retention and haze: the same protein, two effects",
+   "<p>Wheat proteins bind readily with hop compounds and carbon dioxide to form a stable, persistent foam, which is why wheat beers are known for thick, long lasting heads. The same proteins, combined with the beta-glucans wheat also carries, contribute to the cloudy appearance typical of hefeweizens and witbiers. Where a brewer wants clarity, a protein rest early in the mash, held around 50 to 55 degrees Celsius for 15 to 20 minutes, breaks some of this protein down before the main conversion rest and reduces the eventual haze.</p>"
+  ],
+  [
+   "Malted wheat versus raw or flaked wheat",
+   "<p>Malted wheat has been through the same steeping, germination and kilning steps as barley malt, covered in our guide to the <a href=\"barley-malting-process.html\">malting process</a>, and carries its own enzyme activity, though less than a good base barley malt. Raw or flaked wheat contributes none of that enzyme activity and needs to lean entirely on the barley base malt in the grist to convert. Flaked wheat is pre-gelatinised, so it mashes in easily without a cereal cooker, while raw wheat berries need cooking first to gelatinise their starch before the enzymes in the mash can reach it.</p>"
+  ],
+  [
+   "Avoiding a stuck sparge",
+   "<p>Because wheat has no husk, a grain bill running much above 50 to 60 percent wheat malt can pack down into a dense, slow-draining bed during lautering. Rice hulls, added purely as a filter aid with no flavour of their own, are the standard fix: mixed into the mash before lautering, they hold channels open in the grain bed the way barley husk normally would. This is the same fix used for the high-oat grists covered in our guide to <a href=\"oats-in-beer.html\">oats in beer</a>, another husk-free grain with the same lautering problem.</p>"
+  ],
+  [
+   "Where wheat malt earns its place",
+   "<p>Beyond the obvious wheat beer styles, a smaller addition of wheat malt, 5 to 10 percent of the grist, is a common trick in pale ales and IPAs purely for the head retention boost, without pushing the beer toward the cloudy, banana-and-clove character a dedicated wheat beer yeast strain would add. The malt and the yeast are separate decisions, and wheat malt on its own, with a clean ale yeast, does not taste like a hefeweizen.</p>"
+  ],
+  [
+   "Unmalted wheat in Belgian witbier",
+   "<p>Belgian witbier traditionally uses a substantial proportion, often 30 to 50 percent, of raw unmalted wheat rather than malted wheat, alongside a barley base malt carrying enough enzyme reserve to convert both. Raw wheat contributes a distinct, slightly tart, bready character different from malted wheat's cleaner protein contribution, and it needs the same rice hull and mash management attention as any husk-free, high protein grain in large proportion. This is a case where using the less processed, cheaper ingredient is a genuine stylistic choice rather than a shortcut, in the same way that <a href=\"rice-and-maize-adjuncts-india.html\">rice and maize adjuncts</a> are a deliberate choice in Indian lager rather than a compromise.</p><p>Storage is worth a mention too: wheat malt, carrying more protein and often a slightly higher oil content than barley malt, can go stale a little faster if left in a warm, humid store cupboard for months. Buying it closer to when you plan to brew, rather than stockpiling a year's supply, keeps its contribution to head retention and haze working the way it is meant to.</p><p>If a hazy wheat beer starts clearing more than expected during cold storage, check your protein rest and cold crash timing before assuming the wheat malt itself is at fault. Haze stability in these styles is usually a process question as much as an ingredient one, tied closely to how the beer is handled after fermentation rather than the wheat percentage alone.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does wheat malt make beer cloudy on its own?",
+   "Partly. Its protein and beta-glucan content contribute to haze, but the classic hefeweizen cloudiness also depends heavily on the yeast strain and how the beer is handled after fermentation."
+  ],
+  [
+   "Can I brew with 100 percent wheat malt?",
+   "You can, but expect a slow or stuck sparge without rice hulls added as a filter aid, since wheat has no husk to keep the grain bed draining."
+  ],
+  [
+   "What is the difference between malted and flaked wheat?",
+   "Malted wheat has its own enzyme activity from being malted; flaked wheat is pre-gelatinised with no enzymes of its own and relies entirely on the base malt to convert it."
+  ]
+ ],
+ "cta": {
+  "title": "Want fewer stuck sparges and better head retention?",
+  "body": "Managing a high protein mash on brew day is a different skill from reading about it. Brewing Fundamentals runs 4 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "rice-and-maize-adjuncts-india",
+  "oats-in-beer",
+  "roasted-malts-guide"
+ ]
+}

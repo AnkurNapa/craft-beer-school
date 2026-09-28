@@ -1,0 +1,75 @@
+{
+ "slug": "treating-borewell-water-for-brewing",
+ "cat": "Ingredients",
+ "h1": "Treating borewell water for brewing",
+ "title": "Treating Borewell Water for Brewing | Craft Beer School",
+ "desc": "How to test and correct hard, alkaline or contaminated borewell water so it is safe and predictable to brew with.",
+ "teaser": "Borewell water is the default supply for a lot of Indian breweries, and it is rarely close to a workable brewing profile straight from the ground.",
+ "standfirst": "Borewell water varies house to house and season to season. Here is a practical order of operations for testing it, correcting it, and knowing when to stop trusting it without treatment.",
+ "read": "3 min",
+ "updated": "2025-05-26",
+ "updated_label": "May 2025",
+ "sections": [
+  [
+   "Why borewell water needs more attention than municipal supply",
+   "<p>Municipal water is treated to a published standard and usually comes with an annual quality report. Borewell water reflects whatever rock and soil it passed through on the way up, and that varies enormously across a city, let alone across the country. Two borewells a few hundred metres apart can differ sharply in hardness, iron and total dissolved solids.</p><p>Nothing about borewell water can be assumed. It has to be tested.</p>"
+  ],
+  [
+   "The tests that actually matter",
+   "<p>Get total dissolved solids, total hardness, alkalinity, iron, and a basic bacterial and heavy metal screen before brewing with a new borewell source for the first time. Total dissolved solids gives you a fast, cheap sanity check with a handheld meter, but it does not tell you which minerals are present, so it is a first flag, not a full picture.</p><p>A proper lab report, repeated at least once across a dry and a monsoon season, is worth the cost for a commercial brewery.</p>"
+  ],
+  [
+   "The two problems that show up most often",
+   "<p>High alkalinity is common in peninsular India's hard rock aquifers and pushes mash pH upward, away from the 5.2 to 5.6 range. Iron, sometimes visible as a reddish tint or a metallic taste once concentrated, is the other frequent issue, and even small amounts can give beer a bloody, inky off flavour.</p><p>Hardness on its own is manageable. Alkalinity and iron together are what turn borewell water into a real brewing problem.</p>"
+  ],
+  [
+   "Correcting alkalinity",
+   "<p>Food grade lactic or phosphoric acid, added in small, measured doses to the mash, neutralises excess alkalinity and brings pH down into range. This is more reliable than trying to dilute your way out of the problem with RO water alone, since dilution reduces everything proportionally rather than targeting the actual culprit.</p><p>A pH meter calibrated regularly and checked at mash temperature is the only way to know the correction worked, rather than assuming a standard dose fixes every batch.</p><p>Keep a record of the exact acid dose used against the resulting pH reading for each new batch of source water, since borewell alkalinity can shift with the seasons and a dose that worked in the dry season may slightly overshoot or undershoot after heavy monsoon recharge.</p>"
+  ],
+  [
+   "Removing iron and sediment",
+   "<p>A sediment filter followed by an iron removal filter or aeration and settling tank handles most borewell iron before it reaches the mash tun. This is a plumbing fix, done once, rather than something adjusted brew to brew, and it protects pumps and heat exchangers from scale buildup as well as protecting flavour.</p><p>For a small operation, even a simple activated carbon and sediment cartridge stack ahead of the hot liquor tank catches a meaningful share of the problem cheaply.</p><p>A simple bucket test, letting a sample of borewell water stand overnight in a clear container, often shows visible sediment or a rust-coloured tint settling out, a quick, free way to judge whether filtration is worth prioritising before spending on a full lab report.</p>"
+  ],
+  [
+   "When to switch to RO instead of treating",
+   "<p>If a borewell source is highly variable season to season, treating it consistently gets expensive and unpredictable. Many Indian craft breweries settle on reverse osmosis as a stable base water, then rebuild the mineral profile from scratch with brewing salts, which trades a treatment problem for a straightforward, repeatable recipe. Our <a href=\"ro-water-for-brewing.html\">RO water for brewing</a> guide covers that approach, and see <a href=\"sulphate-chloride-ratio.html\">the sulphate to chloride ratio</a> for building the profile back up once you have a clean base.</p>"
+  ],
+  [
+   "A simple order of operations for a new source",
+   "<p>Test first, filter sediment and iron second, correct alkalinity third, then build the specific style profile with sulphate and chloride salts last. Doing these in the wrong order, adding flavour salts before alkalinity is under control, for example, wastes effort correcting a mash pH problem that acid addition would have solved directly and more cheaply.</p>"
+  ],
+  [
+   "What a lab report actually costs versus what a bad batch costs",
+   "<p>A basic water test from a local agricultural or environmental lab is a modest, one-time cost against the ingredients, time and tank space tied up in a batch ruined by an untreated water problem discovered only after fermentation. For a commercial brewery scaling up from a borewell source, this test is one of the cheapest insurance policies available before committing a full production batch.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is borewell water safe to brew with untested?",
+   "No. Test it first. Hardness, alkalinity, iron and a bacterial screen are the minimum before committing a batch to a new source."
+  ],
+  [
+   "How often should I retest my borewell?",
+   "At least once across dry and monsoon seasons in the first year, since groundwater composition can shift noticeably with rainfall and extraction levels."
+  ],
+  [
+   "Can I just dilute borewell water with bottled water instead of treating it?",
+   "It helps reduce total mineral load but does not target specific problems like alkalinity or iron the way a proper correction does, and it is expensive at commercial volume."
+  ],
+  [
+   "Is RO water a better long-term answer than treating borewell water directly?",
+   "For consistency, often yes, since it gives a stable, near-mineral-free base you rebuild deliberately, rather than correcting a source that keeps changing."
+  ]
+ ],
+ "cta": {
+  "title": "Build a repeatable water process for Indian sources",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers water testing, correction and salt rebuilding as one workflow suited to variable Indian supply, beyond what fits in a single guide.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "ro-water-for-brewing",
+  "ale-vs-lager-yeast",
+  "sulphate-chloride-ratio"
+ ]
+}

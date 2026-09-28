@@ -1,0 +1,67 @@
+{
+ "slug": "phenolic-off-flavours",
+ "cat": "Tasting",
+ "h1": "Phenolic off-flavours",
+ "title": "Phenolic Off-Flavours: Clove or Fault? | Craft Beer School",
+ "desc": "Why clove and smoke are correct in a hefeweizen but a fault in a lager, and what usually causes a plastic or medicinal note.",
+ "teaser": "Clove is a feature in one glass and a fault in the next. Here is how to tell which beer you are actually holding.",
+ "standfirst": "Phenolic character is one of the few off flavour families where the same compound can be entirely correct in one style and a clear defect in another. Learn the difference and a confusing glass stops being confusing.",
+ "read": "3 min",
+ "updated": "2025-10-10",
+ "updated_label": "October 2025",
+ "sections": [
+  [
+   "The clove and smoke family",
+   "<p>Phenolic flavours cover a fairly wide range: clove, black pepper, smoke, and at the less pleasant end, plastic, bandage or medicinal notes. What links them is where they come from in the brewing process, even though they taste nothing alike on the tongue.</p><p>In a German hefeweizen, a clear clove aroma alongside banana is exactly right. It comes from the specific wheat beer yeast strain and is one of the style's defining features rather than an accident.</p><p>Smoke belongs to the same chemical family for a different reason. A rauchbier is deliberately brewed with malt dried over an open flame, and the smoky phenolic character there is the entire point of the style rather than a mistake anywhere in the process.</p>"
+  ],
+  [
+   "When the same family becomes a fault",
+   "<p>Take that same clove or a sharper plastic note and put it in a clean lager or a hop forward pale ale, and it reads as wrong immediately. Most drinkers cannot always name why a beer tastes slightly medicinal or like a sticking plaster, but they notice the beer is off.</p><p>The usual cause outside a wheat beer is chlorophenol formation: chlorine or chloramine in the brewing water reacting with naturally occurring phenolic compounds from the malt. A brewery on municipal water with heavy chlorination, and no carbon filtration in its water treatment, is the classic setup for this fault.</p><p>Even a small amount of chlorophenol is noticeable, because the human nose is extremely sensitive to it. A concentration too low to measure easily in a small lab can already be obvious in the glass, which is part of why this fault has such a reputation among brewers for being disproportionately annoying to track down.</p>"
+  ],
+  [
+   "Wild yeast as the other suspect",
+   "<p>The second common cause is wild yeast contamination, usually a strain called Brettanomyces or a similar wild organism getting into a fermenter, a hose or a plastic fitting that was not properly cleaned. This tends to show up as a more animal or band aid character rather than clean clove, and it often gets worse the longer the beer sits.</p><p>Some brewers deliberately work with wild yeast to produce funky, farmhouse style beers, where these same phenolic notes are the entire point. Context and intention are what separate a fault from a style.</p>"
+  ],
+  [
+   "Why Indian water makes this worth knowing",
+   "<p>Municipal water supplies and even borewell water in India vary enormously in mineral content and chlorine treatment from one city, and sometimes one part of a city, to the next. A brewery that changes its water source, even for a single delivery of tanker water during a shortage, can suddenly see a plastic or medicinal note appear in a beer that was clean the week before.</p><p>This is one of the more solvable faults in brewing. A carbon filter ahead of the brewhouse, or a Campden tablet dose to neutralise chlorine, generally removes the problem entirely.</p><p>The harder part is noticing it in the first place, since a brewery only tastes its own finished beer against its own memory of what normal is supposed to taste like. A new brewer joining the team, tasting with fresh senses, sometimes spots a fault that everyone else stopped noticing weeks ago.</p>"
+  ],
+  [
+   "How to tell the fault from the feature",
+   "<p>Ask what style you are drinking before you decide the beer is faulty. Clove and light spice in a hefeweizen or a Belgian witbier are correct. The same note in an IPA, a stout or a clean lager almost never is.</p><p>Smell before you taste. A plastic or medicinal aroma that arrives before you even sip is a stronger warning sign than a flavour you only notice after swallowing, since your nose catches these volatile compounds earlier and more reliably than your tongue does.</p>"
+  ],
+  [
+   "Building your own reference",
+   "<p>The fastest way to learn this family is to taste a well made hefeweizen specifically for its clove and banana, then compare it against any beer you suspect of a chlorophenol fault. Once you have smelled correct clove deliberately, an incorrect plastic note in another glass becomes much easier to name, in the same way that comparing <a href=\"sour-infection-off-flavour.html\">an infected sour beer</a> against an intentionally sour one trains your palate for that distinction.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is clove flavour always a mistake?",
+   "No. It is correct and expected in German hefeweizen and some Belgian styles, where it comes from the yeast strain. In most other styles it signals a water treatment or contamination problem."
+  ],
+  [
+   "What does a chlorophenol fault actually taste like?",
+   "Often described as plastic, medicinal or like a sticking plaster. It is distinct from the warm clove and spice of a proper wheat beer yeast."
+  ],
+  [
+   "Can a brewery fix this once it appears in a batch?",
+   "Not in that batch. The fix is upstream, usually filtering or treating the water supply before brewing, so the fault does not appear in the next one."
+  ],
+  [
+   "Is Brettanomyces always a contamination problem?",
+   "Not always. Some brewers use it deliberately for funky, farmhouse style beers. In a beer not meant to have that character, though, it is a clear fault and a sign of poor sanitation somewhere in the process."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to separate a style from a fault",
+  "body": "Sensory Evaluation walks through every major off flavour family, phenolics included, with reference samples so you learn to trust your own nose rather than guessing.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "sour-infection-off-flavour",
+  "metallic-off-flavour",
+  "lightstruck-skunky-beer"
+ ]
+}

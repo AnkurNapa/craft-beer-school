@@ -1,0 +1,75 @@
+{
+ "slug": "porter-guide",
+ "cat": "Styles",
+ "h1": "Porter",
+ "title": "Porter Beer Guide | Craft Beer School",
+ "desc": "What porter is, how it split from stout, the malts that give it chocolate and coffee notes, and how to brew and serve it.",
+ "teaser": "Porter is the beer that gave stout its name and then spent two centuries being confused with it. Here is the difference that actually matters.",
+ "standfirst": "Roasted, chocolatey and built on dark malt rather than raw grain, porter is older than the beers people usually credit with inventing dark beer. This guide covers the two main branches and how each one is built.",
+ "read": "3 min",
+ "updated": "2024-11-07",
+ "updated_label": "November 2024",
+ "sections": [
+  [
+   "Where porter came from",
+   "<p>Porter emerged in 18th century London as a beer blended from older and younger brews to suit the tastes of market porters and dockworkers, which is where the name is thought to come from. A stronger version brewed for export, called stout porter, eventually shortened to stout and split off as its own family.</p><p>The two names have been tangled ever since, and in practice today the line between a strong porter and a mild stout is often more about the brewery's label than any fixed rule. Craft brewers reviving the style over the past few decades have generally treated porter as the lighter, gentler sibling and left the bigger, harder edged versions to carry the stout name instead.</p>"
+  ],
+  [
+   "Brown porter and robust porter",
+   "<p>Brown porter is the lighter branch, 4 to 5.4% ABV, with chocolate and caramel notes but restrained roast, closer in spirit to a dark brown ale. Robust porter runs stronger, 4.8 to 6.5% ABV, with more pronounced roasted malt, sometimes a bitter coffee edge, and a fuller body.</p><p>Neither should taste burnt. A well made porter reads as chocolate and toasted bread, not as scorched grain, and that difference comes almost entirely from how the dark malt is chosen and dosed.</p>"
+  ],
+  [
+   "The malt bill",
+   "<p>A base of pale malt carries most of the fermentable sugar, with chocolate malt doing the heavy lifting for colour and roast character, usually 5 to 10 percent of the grist. Crystal malt adds caramel sweetness and body, and some brewers include a small amount of black malt for depth without pushing bitterness too far.</p><p>Unlike stout, porter traditionally avoids roasted barley, which is part of why it tastes rounder and less sharply roasty than a dry stout brewed to a similar colour.</p>"
+  ],
+  [
+   "Hops and fermentation",
+   "<p>English varieties such as Fuggles or East Kent Goldings suit the traditional style, providing 20 to 40 IBU of clean bitterness without a strong aroma that would compete with the malt. American brewers sometimes push porter toward more hop character, but the roast should still lead.</p><p>An English ale yeast fermenting at 18 to 20 degrees Celsius leaves light fruity esters that complement the chocolate and caramel notes, and moderate attenuation keeps a touch of body and sweetness in the finished beer.</p>"
+  ],
+  [
+   "A brewhouse detail that matters",
+   "<p>Dark malt is more fragile in the mill than it looks. Over crush chocolate or black malt and you pull excessive tannin and an ashy bitterness into the wort, especially if your sparge water runs hot. Set the mill gap for the dark grains the same as for base malt and resist the urge to grind them fine to speed up colour extraction.</p>"
+  ],
+  [
+   "Porter and stout in India",
+   "<p>Porter travels well in the Indian climate because roasted malt character survives heat and imperfect cold chain better than delicate hop aroma does, which is one reason it shows up reliably on brewpub menus even where refrigerated logistics are patchy.</p><p>If you want to see the same roast character pushed further and sharper, our <a href=\"dry-stout-guide.html\">dry stout guide</a> and <a href=\"imperial-stout-guide.html\">imperial stout guide</a> both build on the same base.</p>"
+  ],
+  [
+   "Serving and glassware",
+   "<p>A nonic pint or a simple tulip glass suits porter well, served around 10 to 13 degrees Celsius rather than fridge cold, which lets the chocolate and toasted bread notes come through instead of muting under the chill.</p><p>Carbonation should stay moderate. A porter carbonated like a fizzy lager tends to feel thin against the roast character, while a slightly softer carbonation lets the malt body carry the beer the way it is meant to.</p>"
+  ],
+  [
+   "A style worth brewing early",
+   "<p>Porter is a good first dark beer for a new brewer, since the ingredients are ordinary, the process forgiving, and mistakes tend to show up as a slightly thinner or slightly harsher beer rather than a genuinely undrinkable one. It is also a useful reference point once you move on to stout, because the shared malt logic, and the one added ingredient that separates them, becomes much clearer once you have brewed both side by side.</p><p>Keep the grain bill simple the first time. A pale malt base, a modest dose of chocolate malt and a touch of crystal will teach you more about how dark malt behaves than a recipe with six specialty grains competing for attention.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between porter and stout?",
+   "Historically stout was simply a stronger porter. Today the practical difference is that stout usually includes roasted barley for a sharper, drier roast, while porter relies on chocolate malt for a rounder, less bitter character."
+  ],
+  [
+   "Is porter a dark ale or a dark lager?",
+   "Porter is an ale, fermented warm with ale yeast. Dark lagers such as schwarzbier use similar colour malts but a cold lager fermentation and taste noticeably cleaner."
+  ],
+  [
+   "Does porter taste burnt?",
+   "It should not. A well brewed porter tastes of chocolate and toasted bread. A burnt or ashy character usually means too much dark malt, or dark malt milled too fine."
+  ],
+  [
+   "What food pairs with porter?",
+   "Grilled or smoked meats, chocolate desserts and strong cheeses all suit porter's roast and caramel character well."
+  ]
+ ],
+ "cta": {
+  "title": "Curious where stout and porter actually diverge?",
+  "body": "Style Specialisation covers the full dark beer family, porter, stout and their variants, with the grain bills and process choices behind each one.",
+  "href": "style-specialization-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "dry-stout-guide",
+  "imperial-stout-guide",
+  "english-brown-ale"
+ ]
+}

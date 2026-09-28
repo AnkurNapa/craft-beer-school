@@ -1,0 +1,59 @@
+{
+ "slug": "bottle-conditioning-and-priming-sugar",
+ "cat": "Brewing basics",
+ "h1": "Bottle conditioning and priming sugar",
+ "title": "Bottle Conditioning and Priming Sugar | Craft Beer School",
+ "desc": "How bottle conditioning carbonates beer naturally, how much priming sugar to use, and the safety habits that matter.",
+ "teaser": "Bottle conditioning uses the yeast already in your beer to carbonate it. Get the sugar amount right and it is close to foolproof.",
+ "standfirst": "Bottle conditioning is the simplest way most homebrewers carbonate their beer, and it works because a small amount of leftover yeast is still in there, ready for one more small job before it finally goes dormant.",
+ "read": "3 min",
+ "updated": "2024-12-04",
+ "updated_label": "December 2024",
+ "sections": [
+  [
+   "What is actually happening in the bottle",
+   "<p>Flat, finished beer goes into bottles along with a measured amount of priming sugar. The residual yeast in the beer ferments that additional sugar, producing a small amount of alcohol and, crucially, carbon dioxide with nowhere to go inside a sealed bottle. That trapped gas dissolves into the beer over one to two weeks, giving you natural carbonation without any external gas source.</p><p>The yeast doing this final job is the same population already present in the beer from primary fermentation, still viable in small numbers even after weeks in the fermenter. This is why a very old or heavily filtered beer with almost no yeast left can carbonate slowly or not at all, and why some brewers add a small pinch of fresh yeast at bottling for beers that have conditioned a long time.</p><p>Priming sugar solutions are typically boiled briefly in a small amount of water both to dissolve the sugar fully and to sanitise that small addition, since it is going straight into an otherwise finished, previously sanitised batch of beer.</p>"
+  ],
+  [
+   "How much priming sugar to use",
+   "<p>Most standard homebrew ales use somewhere around 4 to 8 grams of dextrose per litre of beer, translating to roughly 70 to 100 grams for a typical 19 litre batch, though the exact amount depends on the carbonation level the style calls for, covered in <a href=\"carbonation-levels-by-style.html\">carbonation levels by beer style</a>. Dissolve the priming sugar in a small amount of boiled water, cool it, and mix it evenly into the batch before bottling rather than adding sugar to individual bottles, which risks wildly uneven carbonation.</p><p>Batch size matters more than most new brewers expect here: a slightly smaller final batch volume than planned, from spillage or loss to trub, means the same total priming sugar dose is now dissolved in less beer, pushing the actual carbonation level higher than intended. Measuring your real final volume rather than assuming the recipe's target volume avoids this quiet source of overcarbonation.</p>"
+  ],
+  [
+   "Why fermentation must actually be finished first",
+   "<p>Priming sugar assumes fermentation of the original wort has already completed. Bottling before that point, confirmed only by two matching hydrometer readings 48 hours apart as covered in <a href=\"how-to-use-a-hydrometer.html\">how to use a hydrometer properly</a>, adds priming sugar's carbon dioxide on top of whatever the yeast is still producing from the original batch, which can badly overcarbonate bottles or, in rare cases, cause one to fail under pressure.</p><p>A related risk, sometimes called bottle bombs, happens when brewers add priming sugar to a beer that still has significant unfermented sugar left over from an incomplete primary fermentation, effectively priming it twice over. This is the single most avoidable safety issue in homebrewing and the main reason the two-reading gravity check matters so much.</p>"
+  ],
+  [
+   "Storage and patience",
+   "<p>Conditioning bottles at a similar temperature to fermentation, generally somewhere in the high teens to low twenties in Celsius, gives the residual yeast an active enough environment to finish the job within one to two weeks. Colder storage slows this down considerably. Store bottles somewhere they cannot fall or be knocked, since a fully carbonated glass bottle under pressure deserves the same care as any pressurised container.</p><p>Labelling bottles by batch and date, even with just a marker pen on the cap, prevents the common mix-up of testing or opening the wrong batch too early, particularly for brewers running several fermenters or bottling sessions close together.</p>"
+  ],
+  [
+   "Checking a bottle before serving a whole batch",
+   "<p>Chill and open one test bottle after about a week of conditioning to check progress, rather than waiting for the whole batch date and hoping. If it is undercarbonated, give the rest more time at room temperature. If bottles feel unusually hard or a test pour gushes violently, chill the remaining bottles thoroughly before opening and open them over a sink, since excess pressure needs somewhere controlled to go.</p><p>A plastic PET bottle, if you have one in the batch, is a useful early warning tool even if the rest of the batch is in glass, since a PET bottle visibly firms up and grows hard to the touch as internal pressure builds, giving you a rough, squeezable gauge of carbonation progress without opening anything.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I use table sugar instead of dextrose to prime?",
+   "Yes, ordinary sugar works, though it is slightly less fermentable gram for gram than dextrose, so recipes and calculators built around dextrose amounts need a small adjustment if you substitute."
+  ],
+  [
+   "Why did some of my bottles turn out flat while others overcarbonated?",
+   "Uneven mixing of the priming sugar solution into the batch before bottling is the most common cause. Stirring gently but thoroughly, without splashing in air, gives every bottle the same amount of sugar."
+  ],
+  [
+   "Is bottle conditioning safe if I get the sugar amount slightly wrong?",
+   "A small overshoot is usually just gushing or excess foam rather than dangerous, but a significant overdose of priming sugar can build enough pressure to crack or burst a bottle, which is why measuring carefully matters."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "kegging-homebrew",
+  "carbonation-levels-by-style",
+  "how-long-does-beer-take-to-ferment"
+ ]
+}

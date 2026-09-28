@@ -1,0 +1,75 @@
+{
+ "slug": "making-a-yeast-starter",
+ "cat": "Ingredients",
+ "h1": "Making a yeast starter",
+ "title": "Making a Yeast Starter | Craft Beer School",
+ "desc": "How and when to build a yeast starter, the DME to water ratio that works, and why underpitching is behind more bad beer than bad recipes.",
+ "teaser": "Underpitching is one of the most common, least visible causes of a mediocre beer, and a starter is the cheapest fix available.",
+ "standfirst": "A yeast starter is a small batch of low-gravity wort grown ahead of brew day to multiply your yeast cell count before it ever meets the real beer.",
+ "read": "3 min",
+ "updated": "2025-12-31",
+ "updated_label": "December 2025",
+ "sections": [
+  [
+   "Why pitching rate matters this much",
+   "<p>Too few yeast cells at pitching means a slow, stressed fermentation, more fusel alcohols and off flavours, and a higher risk of infection taking hold before the yeast establishes dominance in the fermenter. This is underpitching, and it is one of the most common, hardest to diagnose problems in home and small-scale brewing, because the beer often still ferments to completion, just with worse flavour than it should have.</p><p>A single packet of liquid yeast, pitched directly, is frequently not enough cells for a standard-gravity batch, and almost never enough for anything above about 1.060 original gravity.</p>"
+  ],
+  [
+   "The basic starter recipe",
+   "<p>Dissolve dried malt extract in water at roughly 100 grams per litre, boil for ten minutes to sanitise, cool, then pitch your yeast into the cooled wort in a sanitised flask or jar with an airlock or loose foil cover. A 1 to 2 litre starter, made a day or two ahead and given gentle agitation or a stir plate, grows the cell count substantially before brew day.</p><p>Bigger beers need bigger or stepped starters, built up in stages rather than one large batch, since yeast grows more efficiently in smaller volumes.</p><p>Label the starter flask with the date, the strain and the target batch before you set it aside, a small habit that avoids a genuinely common mistake of mixing up which starter belongs to which upcoming brew when running more than one at a time.</p>"
+  ],
+  [
+   "Reading a starter's activity",
+   "<p>A healthy starter shows visible krausen, a foamy layer, within 12 to 24 hours and a noticeable increase in yeast sediment at the bottom of the flask once fermentation slows. No visible activity after 24 hours with warm, viable yeast is a warning sign worth investigating before you commit it to a full batch.</p><p>Chill the finished starter for a day before brew day so the yeast drops out and you can decant most of the spent, thin beer on top, pitching only the yeast slurry.</p><p>A starter that shows strong initial activity and then goes quiet earlier than expected has often simply finished consuming the available sugar rather than stalled, which is normal and not itself a sign of a problem.</p>"
+  ],
+  [
+   "When a starter is not worth the effort",
+   "<p>Standard-gravity beers pitched with a fresh, high-viability packet of yeast, particularly most dry yeast, do not need a starter. See our guide on <a href=\"dry-yeast-vs-liquid-yeast.html\">dry yeast versus liquid yeast</a> for why cell count out of the packet differs so much between the two. Reserve starters for liquid yeast, higher-gravity beers, or yeast you are propagating up from a harvested culture.</p>"
+  ],
+  [
+   "Using a starter to build up harvested yeast",
+   "<p>A starter is also the standard way to bring a harvested yeast slurry back up to full strength and confirm it is still healthy before reusing it in a new batch. Our guide on <a href=\"yeast-harvesting-and-reuse.html\">harvesting and reusing yeast</a> covers that process end to end, and a starter step there catches contamination before it reaches an entire new brew.</p>"
+  ],
+  [
+   "Why dried malt extract rather than table sugar",
+   "<p>Dried malt extract gives yeast the same mix of maltose and other sugars it will encounter in real wort, encouraging the specific enzymes and metabolic pathways it needs for the coming fermentation. Table sugar ferments quickly but does not condition the yeast the same way, and using it for a starter is a corner worth not cutting even though it is cheaper and more available.</p>"
+  ],
+  [
+   "Stepping up a starter for a very big beer",
+   "<p>A single 2 litre starter is not enough yeast for a strong imperial stout or barleywine starting well above 1.080 gravity. Stepping up, growing an initial small starter, then decanting and feeding it fresh wort in one or two further stages, builds cell count further than one large single-stage starter can manage in the same timeframe, since yeast multiplies more efficiently in a smaller volume relative to its food supply.</p>"
+  ],
+  [
+   "Aeration and oxygen for a healthy starter",
+   "<p>Yeast needs oxygen to build cell membranes and reproduce efficiently during the early growth phase of a starter, which is why a stir plate or vigorous manual agitation genuinely outperforms a still, unstirred flask. Oxygen matters here in a way it specifically should not later, once the starter is pitched into the actual batch and fermentation itself begins.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How big should my starter be?",
+   "It depends on original gravity and how much yeast you are starting with, but 1 to 2 litres covers most standard-gravity homebrew batches using a single liquid yeast packet."
+  ],
+  [
+   "Do I need a stir plate to make a starter?",
+   "No, but it helps. Gentle, continuous agitation grows more yeast faster than an occasional manual swirl, though a swirled starter still works for most home use."
+  ],
+  [
+   "Can I use a starter that shows no fermentation activity?",
+   "Investigate first rather than pitching it. No visible krausen after a day at a suitable temperature suggests the yeast may not be viable."
+  ],
+  [
+   "Should I pitch the whole starter, including the liquid?",
+   "For a standard starter, decanting off the spent liquid and pitching just the yeast is usually preferred, particularly for lighter beers where the extra liquid could affect flavour."
+  ]
+ ],
+ "cta": {
+  "title": "Master pitching rate and fermentation health",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers cell counting, stepped starters and fermentation troubleshooting as a full system, not a single recipe.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "yeast-harvesting-and-reuse",
+  "kveik-yeast-for-hot-climates",
+  "dry-yeast-vs-liquid-yeast"
+ ]
+}

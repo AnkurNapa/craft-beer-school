@@ -1,0 +1,63 @@
+{
+ "slug": "reading-a-beer-recipe",
+ "cat": "Brewing basics",
+ "h1": "How to read a beer recipe",
+ "title": "Reading a beer recipe | Craft Beer School",
+ "desc": "How to read a beer recipe sheet: gravity targets, grain percentages, hop timing and yeast attenuation explained.",
+ "teaser": "A recipe sheet looks like a spreadsheet until you know what each column is actually telling the yeast to do.",
+ "standfirst": "Every line on a recipe sheet is an instruction, not a suggestion. Learn what each one means and you can judge a recipe before you have brewed a single litre of it.",
+ "read": "3 min",
+ "updated": "2025-05-17",
+ "updated_label": "May 2025",
+ "sections": [
+  [
+   "What the top of the sheet is telling you",
+   "<p>Before the grain bill, most recipes give you three numbers: original gravity (OG), final gravity (FG) and IBU. OG tells you how much fermentable sugar went into the wort, FG tells you how much the yeast left behind, and the gap between the two, run through the formula ABV = (OG - FG) x 131.25, gives you the alcohol. IBU is a rough measure of bitterness. None of these numbers tell you what the beer tastes like on their own, but together they set the frame you should expect the rest of the recipe to fill in.</p><p>A recipe with an OG of 1.050 and an FG of 1.010 is promising something crisp and well attenuated. The same OG finishing at 1.020 is promising something sweeter and fuller. Read the gap before you read anything else.</p>"
+  ],
+  [
+   "The grain bill: percentages, not just weights",
+   "<p>The fermentables section lists each malt by name and by percentage of the total grist, sometimes with a weight alongside for a specific batch size. The percentage is the part worth remembering, because it is what you will use if you ever want to <a href=\"scaling-a-beer-recipe.html\">scale the recipe up or down</a>.</p><p>A base malt (Pilsner, Pale Ale, or Vienna) usually makes up 70 to 95 percent of the grist and supplies the enzymes and most of the fermentable sugar. Everything above that percentage is a specialty malt added for colour, body or flavour, in amounts small enough that the base malt still drives fermentation.</p>"
+  ],
+  [
+   "Hop additions: it is all about the timing",
+   "<p>Hops are listed with a weight, an alpha acid percentage and a timing, usually in minutes before the end of the boil. A 60 minute addition is there for bitterness: the long boil isomerises the alpha acids into something the palate can register as bitter. A 5 minute or flameout addition barely isomerises at all and is there purely for aroma. A recipe that puts all its hops at 60 minutes will be bitter and dull on the nose. One that puts everything at 5 minutes and whirlpool will smell fantastic and taste thin.</p><p>Dry hop additions, added after fermentation with no heat involved, contribute aroma only. Watch for the alpha acid percentage next to each hop: the same weight of a 4 percent alpha hop and a 12 percent alpha hop will produce very different bitterness, which is why serious recipes specify alpha acid alongside weight.</p>"
+  ],
+  [
+   "Yeast strain and expected attenuation",
+   "<p>The yeast line names a strain and, if the recipe is well written, an expected attenuation range, the percentage of sugar the yeast is expected to consume. A strain quoted at 78 percent attenuation will leave more body and sweetness than one quoted at 85 percent, even from an identical wort. This is the number that tells you whether the promised FG is realistic for that yeast, or whether the brewer is hoping for something the strain will not deliver without help.</p>"
+  ],
+  [
+   "Mash schedule and water notes",
+   "<p>A single infusion mash at 65 to 68 degrees Celsius covers most beers: lower in that range favours a drier, more fermentable wort, higher favours body and sweetness. Step mashes and mash pH targets (5.2 to 5.6 is the working range) appear on more technical sheets and matter more for base malts with less enzyme reserve, like some Munich or wheat heavy grists. Water notes, when present, are telling you what minerals to add to match a style, not a safety instruction, so they can be skipped by a beginner without the beer failing.</p>"
+  ],
+  [
+   "Reading a recipe before you commit to it",
+   "<p>Put the pieces together before you buy anything. Check that the OG and FG match the grain bill's fermentability, that the hop schedule matches the aroma the style promises, and that the yeast's real attenuation supports the target FG. A recipe that looks internally consistent on paper is far more likely to behave the way it reads once it is in the fermenter. If you want to keep a record of how your own reading of a recipe compares with what actually came out of the tank, that is exactly what a <a href=\"keeping-a-brew-log.html\">brew log</a> is for.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does OG stand for and why does it matter?",
+   "Original gravity, measured before fermentation starts. It tells you how much fermentable sugar is in the wort and sets the upper limit on the beer's final alcohol content."
+  ],
+  [
+   "Do I need to follow a recipe's water treatment exactly?",
+   "No. Water notes fine tune a style's character but most base water in India, treated for chlorine, will produce a drinkable beer without any mineral additions."
+  ],
+  [
+   "Why do two hops with the same weight give different bitterness?",
+   "Alpha acid percentage varies by hop and by harvest. A recipe should always specify alpha acid alongside weight, and calculators use both to estimate IBU."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to write recipes instead of just reading them?",
+  "body": "A recipe sheet only gets you so far without someone explaining why each line is there. Brewing Fundamentals runs 4 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "scaling-a-beer-recipe",
+  "brewing-software-and-calculators",
+  "carbonation-levels-by-style"
+ ]
+}

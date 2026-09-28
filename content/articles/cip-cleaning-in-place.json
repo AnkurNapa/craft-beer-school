@@ -1,0 +1,63 @@
+{
+ "slug": "cip-cleaning-in-place",
+ "cat": "Brewing science",
+ "h1": "Cleaning in place for small breweries",
+ "title": "CIP: Cleaning in Place Guide | Craft Beer School",
+ "desc": "How cleaning in place actually works in a small brewery: circuits, chemistry, temperature, contact time and the checks that prove a tank is clean.",
+ "teaser": "Most infections do not come from a dirty brewery. They come from a clean looking one.",
+ "standfirst": "CIP is not a rinse. It is a chemical process with its own temperatures, concentrations and timings, and every one of them matters more than how hard you scrub.",
+ "read": "3 min",
+ "updated": "2026-02-23",
+ "updated_label": "February 2026",
+ "sections": [
+  [
+   "Why manual cleaning stops working past a certain size",
+   "<p>A single fermenter, hand scrubbed with a brush and a hose, can be cleaned well enough by a careful brewer. Add a second vessel, a bright tank and a keg line, and hand cleaning starts eating the hours you should be spending on brewing.</p><p>Cleaning in place solves this by circulating cleaning solution through the vessel and its pipework using its own spray ball or rotary jet, rather than sending someone inside. It reaches pipe runs and valve bodies that a hand and a brush never will.</p><p>The catch is that CIP only cleans what the fluid actually touches at the right strength and the right temperature. A spray ball that does not cover the whole vessel wall leaves a clean looking tank with an unclean strip behind a manway gasket, and that strip is where the next infection starts.</p>"
+  ],
+  [
+   "The two circuits: caustic and acid",
+   "<p>A standard CIP programme runs two chemistries. An alkaline wash, usually sodium hydroxide, strips proteins, yeast residue and beerstone precursors. An acid wash, often phosphoric or nitric based, follows to neutralise any remaining caustic film and shift mineral scale that caustic does not touch.</p><p>Running caustic alone eventually leaves a chalky mineral build-up on tank walls and heat exchanger plates, especially with harder borewell water common in many Indian breweries. Running acid alone leaves organic soil behind. Small breweries sometimes drop the acid step to save chemical cost, and pay for it later in stuck heat exchangers and a fermenter that never quite smells right.</p>"
+  ],
+  [
+   "Temperature and contact time do the work, not scrubbing pressure",
+   "<p>Caustic cleans far faster hot than cold: a typical fermenter caustic wash runs around 70 to 75 degrees Celsius for ten to twenty minutes of recirculation, against a much longer, weaker cold clean that still risks leaving residue in dead legs. Acid washes generally run cooler, close to ambient, since heat adds cost without much extra cleaning benefit.</p><p>Contact time matters as much as temperature. A CIP cycle that circulates for two minutes because the brewer wanted the tank turned around faster has not actually cleaned the vessel, whatever the pump gauge says. Write your cycle times down and stick to them, because the biggest cause of drift in a small brewery is a good cycle quietly shortened under pressure.</p>"
+  ],
+  [
+   "Coverage: the part everyone assumes is fine",
+   "<p>A spray ball or rotary head only does its job if solution physically reaches every internal surface, including the underside of a dished top, the racking arm, sample valves and any dead leg longer than about one and a half pipe diameters. Riboflavin testing, where a UV visible tracer is sprayed inside the vessel and checked under UV light after a clean cycle, is the cheapest way to find gaps before an infection finds them for you.</p><p>Dead legs are the usual culprit: a sample port, a pressure gauge tee or an unused valve stub the CIP flow never reaches because it sits off the main circulation path. These need manual flushing or engineering out, because no amount of caustic strength fixes a section the fluid never touches.</p>"
+  ],
+  [
+   "Sanitising after cleaning, not instead of it",
+   "<p>Cleaning removes soil. Sanitising kills the microbes left once the soil is gone, and the two steps are not interchangeable, whatever a rushed changeover schedule might suggest. Peracetic acid at low ppm, applied as a no rinse sanitiser just before filling, is standard in most small breweries because it needs no final rinse and breaks down to water, oxygen and acetic acid.</p><p>Sanitiser applied to a tank that was not properly cleaned first is largely wasted, since organic soil shields bacteria from contact. Clean thoroughly, then sanitise, in that order, every time.</p>"
+  ],
+  [
+   "Building a CIP programme you can actually run",
+   "<p>Documenting your cycle, caustic strength, temperature, contact time, acid step and final sanitiser, then checking it with a simple ATP swab test after cleaning, turns CIP from a guess into a controlled process. Our <a href=\"brewery-qc-lab-on-a-budget.html\">brewery QC lab on a budget guide</a> covers what an ATP luminometer and titration kit cost and how to use them.</p><p>CIP mistakes are usually invisible until a batch comes back tasting of diacetyl or worse, and by then the cause is three cleans ago. A written programme, checked with actual data rather than a visual once over, is what separates a brewery that occasionally gets away with it from one that does not have to.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need automated CIP equipment to clean properly?",
+   "No. A recirculating pump, a spray ball and a tank for cleaning solution can run an effective manual CIP programme. Automation adds consistency and saves labour as you scale, but the chemistry and timing matter more than the hardware."
+  ],
+  [
+   "How often should I replace caustic solution?",
+   "It depends on soil load and volume cleaned, but reused caustic weakens with each cycle as it picks up organic material. Titrate concentration regularly rather than relying on how many cleans you think it has done."
+  ],
+  [
+   "Can I skip the acid step if my water is soft?",
+   "You can extend the interval between acid washes with genuinely soft water, but skipping it entirely still lets a caustic film build up over time. Check heat exchanger performance and tank appearance to judge if your interval is too long."
+  ]
+ ],
+ "cta": {
+  "title": "Go deeper than a clean tank",
+  "body": "Advanced Brewing Science covers CIP chemistry, quality control and fermentation troubleshooting over six weeks, with the process detail this guide only has room to summarise.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewery-qc-lab-on-a-budget",
+  "measuring-dissolved-oxygen",
+  "infection-bacteria-in-brewing"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "beer-stability-in-indian-heat",
+ "cat": "Brewing science",
+ "h1": "Keeping beer stable in Indian heat",
+ "title": "Beer Stability in Indian Heat | Craft Beer School",
+ "desc": "Why beer ages faster in Indian conditions than brewing textbooks assume, and the practical steps that protect flavour through the supply chain.",
+ "teaser": "A beer that would sit happily for four months in a European cellar can be visibly tired in four weeks after a Delhi summer delivery run.",
+ "standfirst": "Most beer stability advice is written for cold climates. Here is what actually changes when your supply chain runs through Indian heat, and what to do about it.",
+ "read": "3 min",
+ "updated": "2026-06-13",
+ "updated_label": "June 2026",
+ "sections": [
+  [
+   "Why temperature matters more than almost anything else",
+   "<p>Chemical reactions roughly double in rate for every 10°C rise in temperature, and beer staling reactions, oxidation among them, follow that pattern closely. A beer stored at 35°C is not ageing a little faster than one stored at 4°C. It is ageing several times faster, which turns a beer meant to last months into one that is tired within weeks.</p><p>This single fact explains most of the stability complaints Indian breweries deal with that European or American brewing references barely mention, because their supply chains rarely see sustained 35 to 40°C heat.</p>"
+  ],
+  [
+   "The cold chain is usually the weakest link",
+   "<p>A beer can be brewed and packaged with excellent process control, low dissolved oxygen, clean fermentation, tight quality checks, and still arrive at a bar tasting flat and stale because it spent six hours in an un-refrigerated delivery van in May. The brewery gets blamed for a fault that happened entirely after the beer left the building.</p><p>One brewery we know solved most of its retail complaints not by changing the recipe at all, but by refusing to load kegs onto vehicles without functioning refrigeration, even when it meant delaying a delivery by a day.</p>"
+  ],
+  [
+   "Packaging choices that actually help",
+   "<p>Cans block light completely and generally seal with lower oxygen pickup than crown capped bottles, which matters more in a hot climate where every staling reaction is already running faster. Clear or green glass adds a second problem, lightstruck character, on top of heat driven oxidation.</p><p>If bottles are unavoidable for cost or branding reasons, brown glass and minimising time under direct light during storage and transport both help meaningfully.</p>"
+  ],
+  [
+   "Recipe decisions that buy you margin",
+   "<p>A hop forward, delicate pale ale has very little margin for heat abuse before its aroma fades noticeably. A maltier, more robust style, or a beer brewed with somewhat higher hop rates to compensate for expected loss in transit, tolerates the same heat exposure with less obvious damage.</p><p>This is not an argument against brewing hoppy beers in India. It is an argument for being realistic about how far they can travel and how long they can sit on a shelf before quality suffers, and pricing or distribution planned around that reality.</p><p>Some breweries solve this by keeping their most delicate hoppy beers for taproom sales only, where the beer never leaves refrigeration between the bright tank and the glass, and reserving the hardier, maltier recipes for anything that has to survive a distributor's van and a retailer's back room.</p>"
+  ],
+  [
+   "What retailers and bars can control",
+   "<p>Kegs and cans stored in a back room without air conditioning, sitting next to a kitchen exhaust or a loading bay in direct sun, will stale fast regardless of how well the brewery did its job. A simple conversation with retail partners about storage location, not even refrigeration necessarily, just shade and airflow, prevents a surprising amount of avoidable customer complaints.</p><p>Educating the point of sale is unglamorous work compared to recipe development, but it protects the beer more than most process changes a small brewery can afford to make.</p><p>A short storage guideline sheet left with every delivery, one page, plain language, costs almost nothing and gives a retailer something concrete to follow rather than relying on a verbal conversation nobody remembers a month later.</p>"
+  ],
+  [
+   "Building stability testing into your process",
+   "<p>Forced ageing, holding a sample of every batch at an elevated temperature such as 30°C for a set number of days alongside a refrigerated control, gives you an early read on how a recipe will hold up before real world heat finds the weak points for you. Compare the two samples side by side rather than relying on memory of how the beer tasted fresh.</p><p>Paired with the low oxygen packaging habits from our <a href=\"measuring-dissolved-oxygen.html\">measuring dissolved oxygen guide</a>, this turns stability from a guess into something you can actually test for before a customer does it for you.</p><p>Keep the forced ageing samples from the same batch that went to market, not a special test batch brewed differently, since the whole point is finding out what a customer will actually experience rather than what a carefully handled sample can achieve under ideal conditions.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does higher ABV beer last longer in heat?",
+   "Alcohol offers some protective effect against microbial spoilage, but it does not meaningfully slow oxidation, which is the main staling mechanism in Indian heat. A strong beer can still oxidise quickly if it is stored warm."
+  ],
+  [
+   "Are cans always better than bottles in hot climates?",
+   "Generally yes, because cans block light completely and typically seal with lower oxygen pickup. Brown glass with careful filling can perform well too, but clear or green glass adds a lightstruck risk cans do not have."
+  ],
+  [
+   "How much difference does refrigerated transport actually make?",
+   "A significant one. Because staling reactions roughly double with every 10°C rise, a delivery van running at ambient 38°C rather than a refrigerated 10 to 15°C can age beer several times faster over the same transit time."
+  ],
+  [
+   "Can forced ageing tests predict real shelf life exactly?",
+   "Not exactly, but they give a reliable comparative read between recipes or packaging choices, which is usually more useful than an exact shelf life number for making practical decisions."
+  ]
+ ],
+ "cta": {
+  "title": "Design for the heat your beer will actually meet",
+  "body": "Advanced Brewing Science covers stability, shelf life testing and packaging decisions with Indian supply chain realities built in, not bolted on as an afterthought.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "glycol-cooling-systems",
+  "mash-ph-explained",
+  "measuring-dissolved-oxygen"
+ ]
+}

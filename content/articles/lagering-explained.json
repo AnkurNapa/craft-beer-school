@@ -1,0 +1,63 @@
+{
+ "slug": "lagering-explained",
+ "cat": "Brewing science",
+ "h1": "Lagering explained",
+ "title": "Lagering Explained | Craft Beer School",
+ "desc": "What lagering actually does to beer, how long it takes, and why cold storage is more than just waiting.",
+ "teaser": "Lagering is not just refrigeration with a German name. It is a slow, cold conditioning step that settles the beer and smooths its flavour.",
+ "standfirst": "The word lagern means to store, and that is literally what lagering is: weeks of cold rest that a lager needs and most ales do not.",
+ "read": "3 min",
+ "updated": "2024-04-29",
+ "updated_label": "April 2024",
+ "sections": [
+  [
+   "What lagering is",
+   "<p>Lagering is an extended cold storage period, typically at 0 to 4 degrees Celsius, after primary fermentation and any <a href=\"diacetyl-rest.html\">diacetyl rest</a> are complete. It can run from a few weeks to several months depending on style and strength, with stronger, maltier lagers generally benefiting from longer rests than light, everyday ones.</p><p>Pressure during lagering matters more than it is often given credit for. A sealed, pressurised tank retains natural carbonation through the rest, while an open or loosely sealed vessel loses CO2 over the weeks involved, which then has to be corrected separately before packaging.</p>"
+  ],
+  [
+   "Why it exists",
+   "<p>Bottom-fermenting lager yeast, Saccharomyces pastorianus, ferments well at low temperatures, historically in cellars and caves that stayed cold year round. Traditional brewers found that beer stored cold for an extended period after fermentation came out cleaner and smoother than beer bottled straight away, well before anyone understood the chemistry behind it.</p><p>Historically, lagering also served a practical brewing calendar function, since cellars stayed cold enough only for part of the year in the regions where the practice developed, concentrating brewing into cooler months and using the rest of the year for the long, slow maturation that gave the style its name and its character.</p>"
+  ],
+  [
+   "What actually happens during the rest",
+   "<p>Cold temperature encourages remaining yeast to flocculate and settle out of suspension, along with proteins and polyphenols that form chill haze, covered in more detail under <a href=\"beer-haze-causes.html\">what causes haze</a>. Slow, gentle sedimentation over weeks gives a clearer result than a fast cold crash alone, and flavour continues to mellow slightly as young, sharp fermentation notes fade.</p> Racking partway through also gives an opportunity to check clarity and flavour progress directly, rather than waiting the full planned duration and hoping the result matches expectations.<p>Sediment building up during a long lager rest is not purely waste. Racking the beer off that sediment partway through an extended lager, rather than leaving it in contact with settled yeast for months, avoids autolysis, a breakdown of dead yeast cells that can contribute unpleasant, rubbery or meaty off flavours in the finished beer.</p>"
+  ],
+  [
+   "How long is long enough",
+   "<p>Light lagers often lager for two to four weeks. Stronger styles such as bocks or doppelbocks can rest for two to three months or longer. There is no universal number, the goal is a beer that has dropped clear and lost its rough, green edge, which is better judged by tasting through the process than by following a fixed calendar.</p> A gradual, staged warming at the very end of lagering, rather than an abrupt jump to serving temperature, also helps preserve carbonation and avoids shocking a beer that has sat cold and settled for weeks.<p>Modern lager production sometimes compresses this traditional timeline using faster yeast strains, warmer fermentation followed by a shorter cold rest, and reliance on filtration for the clarity that a full lager rest would otherwise provide on its own. The trade-off is usually a slightly less rounded flavour profile than a beer given the full traditional rest.</p>"
+  ],
+  [
+   "Lagering without a dedicated cellar",
+   "<p>A temperature-controlled fermenter or a spare refrigerator holding steadily near freezing does the job just as well as a traditional lager cellar. What matters is a stable, cold, consistent temperature for the full duration, not the specific vessel or room. Fluctuating temperature during lagering can redissolve settled haze particles and undo some of the clarity gain.</p><p>Tank utilisation planning around lagering is worth treating as a genuine capacity constraint rather than an afterthought. A brewery adding a new lager to its lineup without adding the cold storage volume to support months of lagering alongside its existing schedule will eventually find itself either rushing the rest or running out of tank space for new brews, and neither outcome serves the beer or the business well.</p><p>For breweries without a dedicated cold room, planning lager production around available refrigerated capacity becomes a real production bottleneck, since a tank tied up for months in lagering is a tank unavailable for the next batch, which is part of why lager production at scale needs more cold storage capacity than an equivalent volume of ale.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should lagering happen at?",
+   "Roughly 0 to 4 degrees Celsius is standard. The exact target matters less than holding it steady for the full rest period."
+  ],
+  [
+   "How is lagering different from cold crashing?",
+   "Cold crashing is a short, sharp temperature drop, usually a day or two, mainly to drop yeast and chill haze quickly. Lagering is a much longer, gentler cold rest aimed at both clarity and flavour maturation."
+  ],
+  [
+   "Can ales be lagered?",
+   "Some can benefit from extended cold conditioning, sometimes called cold ageing, but the term lagering specifically describes the process built around bottom-fermenting lager yeast and style."
+  ],
+  [
+   "Does lagering remove the need for filtration?",
+   "It reduces the need but does not fully replace it. A well lagered beer is often clear enough to package without filtration, though many breweries still filter for consistency and shelf stability."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to plan lagering schedules by style and strength, and how cold conditioning fits into a full production timeline, beyond what a single guide can cover. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cold-crashing",
+  "clarifying-beer-finings",
+  "diacetyl-rest"
+ ]
+}

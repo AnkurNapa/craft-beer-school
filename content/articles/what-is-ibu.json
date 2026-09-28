@@ -1,0 +1,59 @@
+{
+ "slug": "what-is-ibu",
+ "cat": "Brewing basics",
+ "h1": "What IBU really tells you about bitterness",
+ "title": "What IBU Really Tells You | Craft Beer School",
+ "desc": "What International Bitterness Units actually measure, why two beers with the same IBU can taste completely different, and how to use the number.",
+ "teaser": "IBU is not a bitterness dial you can read directly off a can. Here is what the number is measuring and what it consistently misses.",
+ "standfirst": "International Bitterness Units, IBU, is printed on tap lists and cans as if it settles the question of how bitter a beer is. It measures something real, but it is a narrower measurement than most drinkers assume.",
+ "read": "3 min",
+ "updated": "2023-07-22",
+ "updated_label": "July 2023",
+ "sections": [
+  [
+   "What IBU is actually measuring",
+   "<p>IBU approximates the concentration of iso-alpha acids in a finished beer, the bitter compounds hops contribute once their alpha acids are isomerised by the heat of the boil. Roughly, one IBU corresponds to about one milligram of iso-alpha acid per litre of beer. It is a chemistry measurement, not a taste panel result.</p><p>IBU is calculated rather than tasted directly, using a formula that accounts for hop alpha acid percentage, the weight of hops added, boil time and batch volume. Recipe software runs this calculation automatically, but understanding the inputs helps explain why the same hop addition can produce noticeably different bitterness in two different batch sizes or boil gravities.</p><p>The measurement was standardised jointly by American and European brewing bodies decades ago specifically so a number on one side of the world would mean roughly the same thing as the same number on the other, which is why IBU, unlike some older, less formal bitterness descriptions, travels well across a recipe written anywhere.</p>"
+  ],
+  [
+   "Why two beers at the same IBU can taste completely different",
+   "<p>Perceived bitterness depends heavily on what else is in the glass. A hoppy, thin, dry pale ale at 40 IBU can taste sharply bitter, while a rich, sweet, malty beer at the same 40 IBU can taste barely bitter at all, because residual sweetness and body mask the same bitter compounds. Mash temperature, discussed in our <a href=\"mash-temperature-guide.html\">mash temperature guide</a>, has real influence here through the body and residual sweetness it produces.</p><p>Hop variety also shapes how bitterness is perceived even at a matched IBU number, since some varieties produce a smoother, rounder bitterness and others a sharper, more lingering one, a quality no single number on a recipe sheet can capture.</p>"
+  ],
+  [
+   "Typical IBU ranges by style",
+   "<p>As a rough guide: light lagers usually sit around 8 to 18 IBU, standard pale ales around 30 to 45, and American IPAs commonly 40 to 70 or more. These ranges are widely published guidelines rather than fixed rules, and plenty of well-regarded beers sit outside them deliberately.</p><p>Stouts and porters often sit in a surprisingly wide range, anywhere from about 20 to 50 IBU, because the style is defined much more by roasted malt character than by hop bitterness, and brewers vary hop rates considerably while still staying recognisably within style.</p>"
+  ],
+  [
+   "How hop additions actually build the number",
+   "<p>Hops added early in the boil have more time to isomerise their alpha acids and contribute most of the bitterness. Hops added in the last few minutes barely isomerise at all and instead survive mostly as aroma. This is why a recipe can list a large late hop addition without the IBU number moving much, covered further in <a href=\"what-happens-during-the-boil.html\">what actually happens during the boil</a>.</p><p>Dry hopping, adding hops after the boil has finished and fermentation has slowed, contributes essentially no bitterness at all regardless of quantity, since there is no heat left to isomerise the alpha acids. It is purely an aroma and flavour technique, which is a common point of confusion for new brewers assembling a heavily dry-hopped recipe.</p><p>Whirlpool or hop stand additions, where hops steep in wort held just below boiling after the burner is switched off, sit somewhere between the two extremes, contributing a moderate amount of both bitterness and aroma depending on how long and how hot the steep runs.</p>"
+  ],
+  [
+   "Using IBU sensibly as a homebrewer",
+   "<p>Treat the calculated IBU on your recipe software as a useful estimate for comparing your own recipes against each other, not as a precise, universal bitterness score you can compare directly against a commercial can's printed number. Brewhouse efficiency, exact hop alpha acid content and boil vigour all shift the real result, so your own tasting judgement across a few batches will teach you more than chasing an exact figure.</p><p>Utilisation, the percentage of a hop's alpha acid that actually ends up isomerised into the beer, drops as wort gravity rises, because a denser, sugar-heavy wort inhibits the isomerisation reaction. This is why the same hop addition produces a lower calculated IBU in a strong, high-gravity beer than in a lighter one, all else being equal.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is a higher IBU always a more bitter-tasting beer?",
+   "Not reliably. Perceived bitterness depends on malt sweetness, body and carbonation as much as on the calculated IBU number, so the two can diverge noticeably."
+  ],
+  [
+   "Can you actually taste above a certain IBU?",
+   "Human sensitivity to iso-alpha acid bitterness levels off at high concentrations, so very high IBU numbers on extreme beers often describe more than most drinkers can distinguish by taste alone."
+  ],
+  [
+   "Do late hop additions raise IBU much?",
+   "Very little. Hops added in the final few minutes of the boil mostly survive as aroma rather than isomerising into bitterness, so they affect the beer's smell far more than its calculated IBU."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-colour-srm-ebc",
+  "mash-temperature-guide",
+  "how-to-calculate-abv"
+ ]
+}

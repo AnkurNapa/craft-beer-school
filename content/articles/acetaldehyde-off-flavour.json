@@ -1,0 +1,67 @@
+{
+ "slug": "acetaldehyde-off-flavour",
+ "cat": "Tasting",
+ "h1": "Acetaldehyde: the green apple fault",
+ "title": "Acetaldehyde: The Green Apple Fault | Craft Beer School",
+ "desc": "What acetaldehyde is, why it tastes like green apple, and why it is usually a sign of a beer that simply is not finished.",
+ "teaser": "Green apple in a finished beer is rarely a flaw in the recipe. It usually means the beer was packaged before it was ready.",
+ "standfirst": "Acetaldehyde is one of the more forgiving faults to fix, mostly because it is a sign of patience running out rather than a process actually going wrong.",
+ "read": "3 min",
+ "updated": "2025-04-29",
+ "updated_label": "April 2025",
+ "sections": [
+  [
+   "What acetaldehyde actually tastes like",
+   "<p>Fresh green apple is the classic descriptor, sometimes with a solvent edge that some tasters compare to emulsion paint at higher concentrations. It sits on both the nose and the palate at once, and is fairly easy to recognise reliably once you have tasted an actual reference sample side by side with a real apple.</p><p>The aroma is distinct enough that most tasters, once shown a reference, stop confusing it with the tropical or citrus fruit notes found in many modern hop varieties, which is a common early mix up before proper calibration.</p>"
+  ],
+  [
+   "Where it comes from",
+   "<p>Acetaldehyde is a genuine intermediate compound sitting on yeast's metabolic path towards producing ethanol during fermentation. Its presence in a finished, packaged beer generally means the beer simply has not finished fermenting yet, or that the yeast was stressed, underpitched or otherwise struggling and stalled before completing that final conversion step properly.</p><p>Ambient fermentation temperature swings, common in Indian breweries without tight cooling control, particularly during hot months, can stress yeast in exactly the way that leads to stalled, incomplete fermentation and the acetaldehyde that comes with it.</p>"
+  ],
+  [
+   "The fix",
+   "<p>Patience is most of it. Adequate yeast pitching rates, proper aeration of the wort before pitching so the yeast has the oxygen it needs early on, and a stable fermentation temperature throughout all give the yeast the best chance of finishing the job cleanly and completely. Most acetaldehyde complaints trace back to a packaging schedule that ran ahead of what the biology actually needed.</p><p>Wort oxygenation before pitching is worth specific attention here, since yeast needs oxygen early in fermentation to build healthy cell membranes, and a wort pitched without enough oxygen struggles through every later stage of fermentation, acetaldehyde reduction included.</p><p>A healthy, actively fermenting batch typically shows a brief, mild acetaldehyde presence partway through fermentation that then clears on its own, which is a normal stage of the process rather than a warning sign at that specific point.</p>"
+  ],
+  [
+   "Why it sometimes clears up on its own",
+   "<p>If the beer is still sitting on the yeast and given a few extra days, acetaldehyde often drops on its own as fermentation finishes and the yeast converts it through to ethanol naturally. This is one of the few faults that can genuinely improve with a little more time before packaging, unlike oxidation or infection, which only ever get worse with time.</p><p>Checking final gravity against the recipe's expected target, rather than relying on taste alone, is a useful cross check here, since a beer still sitting noticeably above its expected final gravity is very likely still working through exactly this stage of fermentation.</p><p>A fermentation that appears to have stopped early is worth a gentle rousing of the yeast, a light swirl of the fermenter rather than a full agitation, before assuming the beer has genuinely finished and moving on to packaging.</p>"
+  ],
+  [
+   "Training your nose to catch it",
+   "<p>A spiked reference sample, from a kit covered in our guide to <a href=\"off-flavour-spiking-kits.html\">off flavour spiking kits</a>, anchors the green apple character clearly in memory, and is worth tasting alongside a genuinely fresh green apple for direct comparison.</p><p>A quick daily taste in the final stretch before packaging, the same habit worth building for diacetyl, catches acetaldehyde early enough to hold the beer a few extra days rather than shipping it before it was ready.</p><p>Cask conditioned and bottle conditioned beers, which continue a slow secondary fermentation after packaging, sometimes show a very brief trace of acetaldehyde early on that resolves within a week or two as that secondary fermentation finishes on its own.</p>"
+  ],
+  [
+   "Acetaldehyde alongside the other common faults",
+   "<p>Acetaldehyde, <a href=\"diacetyl-off-flavour.html\">diacetyl</a> and <a href=\"dms-off-flavour.html\">DMS</a> are the three faults most new brewers encounter first in their careers. Two related faults worth knowing too are <a href=\"oxidised-beer.html\">oxidised beer</a>, which cannot be reversed once it happens, and <a href=\"lightstruck-skunky-beer.html\">lightstruck beer</a>, caused by light exposure rather than fermentation.</p><p>A brewery that tracks final gravity trends across batches, alongside tasting notes, tends to catch a stalling fermentation early enough to fix it before packaging, rather than discovering the green apple note only after the beer is already in the customer's glass.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is green apple flavour always a fault?",
+   "In a finished, packaged beer, yes, it usually signals the beer was not fully fermented. A trace can appear briefly during active fermentation and is not a concern at that stage."
+  ],
+  [
+   "Can acetaldehyde fix itself if I wait?",
+   "Often yes, if the beer is still on the yeast, since fermentation finishing naturally converts acetaldehyde through to ethanol. Once packaged, it is far less likely to change."
+  ],
+  [
+   "What causes yeast to stall before finishing this conversion?",
+   "Underpitching, poor aeration before pitching, and unstable fermentation temperature are the most common causes of yeast struggling to complete fermentation cleanly."
+  ],
+  [
+   "Is acetaldehyde dangerous to drink?",
+   "No, it is simply a flavour fault at the concentrations found in beer, not a safety concern, though it signals a beer that was not ready for packaging."
+  ]
+ ],
+ "cta": {
+  "title": "Recognise green apple the moment it shows up",
+  "body": "Sensory Evaluation includes a spiked acetaldehyde reference sample, fixing the green apple character in memory against a real, calibrated example.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "oxidised-beer",
+  "lightstruck-skunky-beer",
+  "dms-off-flavour"
+ ]
+}

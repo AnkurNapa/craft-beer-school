@@ -1,0 +1,75 @@
+{
+ "slug": "ale-vs-lager-yeast",
+ "cat": "Ingredients",
+ "h1": "Ale yeast versus lager yeast",
+ "title": "Ale Yeast Versus Lager Yeast | Craft Beer School",
+ "desc": "The real differences between ale and lager yeast: temperature, flavour, fermentation time, and what that means for a home brewery.",
+ "teaser": "One ferments warm and fast, the other cold and slow. That single difference explains most of what separates an ale from a lager.",
+ "standfirst": "Ale and lager yeast are different species doing the same basic job at different temperatures, and that temperature difference is where most of the flavour comes from.",
+ "read": "3 min",
+ "updated": "2025-09-12",
+ "updated_label": "September 2025",
+ "sections": [
+  [
+   "Two species, not two styles of the same yeast",
+   "<p>Ale yeast, Saccharomyces cerevisiae, ferments best in a warmer range, roughly 18 to 24 degrees Celsius, and produces the fruity esters and spicy phenols associated with ales: banana, clove, apple, stone fruit, depending on the strain. Lager yeast, Saccharomyces pastorianus, works at cooler temperatures, typically 8 to 13 degrees Celsius, and produces a cleaner, crisper fermentation profile with far fewer of those fruity byproducts.</p><p>The difference is genetic, not just a matter of temperature choice. Lager yeast evolved through hybridisation and is naturally suited to cold, slow fermentation in a way ale yeast is not.</p><p>Some brewing texts still describe ale yeast as top fermenting and lager yeast as bottom fermenting, a reference to where the yeast historically collected in open fermenters, though modern cylindroconical tanks make this distinction largely irrelevant to how either yeast actually behaves.</p>"
+  ],
+  [
+   "Why temperature changes the flavour so much",
+   "<p>Esters and fusel alcohols, the compounds behind fruity and boozy aromas, form more readily at warmer fermentation temperatures regardless of which species is used. This is why an ale yeast pushed too warm turns aggressively fruity or solvent-like, and why a lager yeast fermented too warm starts to taste more like an ale, losing the clean character it is chosen for.</p><p>Controlling fermentation temperature tightly matters more for a clean lager than almost any other decision in the recipe.</p>"
+  ],
+  [
+   "Time is the other big difference",
+   "<p>Ale fermentation typically finishes primary activity within a week at warm temperatures. Lager fermentation runs slower even before you add the traditional cold conditioning period, lagering, that can extend total production time by several weeks. This is a real cost difference for a commercial brewery: tank time is money, and lager ties up a fermenter for far longer per batch.</p>"
+  ],
+  [
+   "What this means for an Indian home or small brewery",
+   "<p>Holding a steady 10 to 12 degrees Celsius for weeks is not trivial without dedicated temperature control in most Indian climates, where ambient temperature can sit well above that year round outside the hills. This is the practical reason lagers are less common among Indian homebrewers than ales, not a flavour preference, simply an equipment and electricity cost problem.</p><p>Kveik yeast, covered in our separate guide on <a href=\"kveik-yeast-for-hot-climates.html\">kveik for hot climates</a>, is one workaround for brewers without reliable cooling, though it is an ale yeast, not a lager substitute.</p><p>A dedicated small chest freezer converted with a temperature controller is a common, relatively affordable way Indian homebrewers manage lager-suitable temperatures without a full commercial glycol system, and is worth considering before ruling lager out entirely on cost grounds.</p>"
+  ],
+  [
+   "Choosing between them",
+   "<p>Pick ale yeast if your equipment cannot hold cold, steady fermentation temperatures reliably, or if the style you want, a pale ale, a stout, a wheat beer, calls for the fruity, expressive character ale yeast gives. Pick lager yeast if you have the temperature control to do it properly and want the crisp, clean profile that defines styles like pilsner and helles.</p><p>See our guide on <a href=\"dry-yeast-vs-liquid-yeast.html\">dry yeast versus liquid yeast</a> for the next practical decision once you have chosen a strain family.</p>"
+  ],
+  [
+   "Hybrid strains and the middle ground",
+   "<p>Some modern yeast strains, sold as hybrid or Kolsch-style strains, ferment at ale-like temperatures but produce a cleaner, lager-like profile than a typical ale yeast, aiming deliberately at the middle ground between the two categories. These are a practical option for a brewer who wants a cleaner beer without the cold-fermentation commitment a true lager strain demands.</p>"
+  ],
+  [
+   "Flocculation and clarity differences",
+   "<p>Lager yeast strains generally flocculate, clump together and drop out of suspension, more thoroughly at cold temperature than most ale strains manage even after conditioning, part of why lagers are traditionally associated with a bright, clear appearance. Ale yeast can still clear well with time and cold conditioning of its own, but it is a slower, less automatic process than what lager fermentation delivers as a natural side effect of its cold, slow ferment.</p>"
+  ],
+  [
+   "Pitching rate differences between the two",
+   "<p>Lager fermentation generally wants a higher pitching rate than an equivalent-gravity ale, since the cold, slow environment is less forgiving of an underpitched, stressed fermentation. This is one more reason a lager batch often needs a properly sized yeast starter even where the equivalent ale recipe would not, covered in our <a href=\"making-a-yeast-starter.html\">yeast starter guide</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I ferment lager yeast at ale temperatures to save time?",
+   "You can, but it produces fruity byproducts closer to an ale profile, defeating the point of choosing lager yeast in the first place."
+  ],
+  [
+   "Is lager yeast harder to work with than ale yeast?",
+   "Not harder technically, but it demands tighter, colder temperature control for longer, which is the main practical hurdle."
+  ],
+  [
+   "Why do lagers take longer to make than ales?",
+   "Cooler, slower fermentation plus a traditional cold conditioning period (lagering) that further smooths flavour and drops yeast out of suspension."
+  ],
+  [
+   "Can I use kveik as a substitute for lager yeast in hot weather?",
+   "No, kveik is an ale strain that tolerates warm, fast fermentation cleanly. It gives a different flavour profile from a true lager, though some kveik strains do ferment relatively cleanly."
+  ]
+ ],
+ "cta": {
+  "title": "Understand yeast selection properly before your next batch",
+  "body": "Brewing Fundamentals is a 4-week live course that goes past what one guide can cover. It covers yeast biology, temperature control and pitching rates for both ale and lager fermentation, beyond a single comparison guide.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "dry-yeast-vs-liquid-yeast",
+  "making-a-yeast-starter",
+  "ro-water-for-brewing"
+ ]
+}

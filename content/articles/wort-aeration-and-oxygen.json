@@ -1,0 +1,63 @@
+{
+ "slug": "wort-aeration-and-oxygen",
+ "cat": "Brewing science",
+ "h1": "Wort aeration and oxygen for yeast",
+ "title": "Wort Aeration and Oxygen | Craft Beer School",
+ "desc": "Why yeast needs oxygen before fermentation, how much is enough, and why the timing matters more than the method.",
+ "teaser": "Oxygen is the one place in brewing where adding it at the wrong moment ruins the beer, and skipping it entirely does too.",
+ "standfirst": "Yeast needs oxygen to build healthy cell membranes before fermentation starts. Get the timing wrong and you either starve the yeast or oxidise the wort, and both mistakes look similar days later.",
+ "read": "3 min",
+ "updated": "2023-08-09",
+ "updated_label": "August 2023",
+ "sections": [
+  [
+   "Why yeast needs oxygen at all",
+   "<p>Yeast uses dissolved oxygen, present only in the short window before fermentation gets going, to synthesise sterols and unsaturated fatty acids for its cell membranes. Once fermentation is underway, the yeast turns anaerobic and any oxygen introduced from that point on reacts with the beer itself rather than helping the yeast. This is the single most important timing rule in aeration.</p><p>Altitude and ambient pressure change how much oxygen dissolves into wort for a given method and duration, which matters for breweries at higher elevation using the same equipment settings as a sea level brewery and wondering why their dissolved oxygen readings run consistently lower.</p>"
+  ],
+  [
+   "How much oxygen and when",
+   "<p>Typical targets sit around 8 to 10 parts per million of dissolved oxygen for standard gravity ale and lager worts, measured at pitching. Higher gravity worts generally need more, since there is more yeast growth and more membrane material to build. The oxygen has to go in cooled wort, after the chiller, never into hot or actively boiling wort, where it would drive oxidation reactions instead of feeding yeast.</p><p>Pure oxygen from a cylinder saturates wort faster than ambient air pushed through the same diffusion stone, since air is only about a fifth oxygen by volume. Systems using pure oxygen need tighter timing control, since it is easy to overshoot a target that would take much longer to reach with air alone.</p>"
+  ],
+  [
+   "Methods, from simple to precise",
+   "<p>Splashing wort during transfer introduces some air and works for many homebrew and small batch setups. Diffusion stones fed with pure oxygen or filtered air give more control and are standard in larger breweries, often paired with an inline dissolved oxygen meter so the target is measured rather than assumed. Shaking or rocking a fermenter achieves a similar, rougher result at small scale.</p><p>Repitched yeast, reused from a previous fermentation, generally needs less supplemental oxygen than a fresh pitch, since some of its sterol reserves carry over from the previous generation. Treating every pitch identically regardless of yeast history is a common reason for inconsistent results between a brewery's first generation and later repitches of the same strain.</p>"
+  ],
+  [
+   "Under-aeration and over-aeration",
+   "<p>Too little oxygen gives yeast an incomplete membrane, leading to a sluggish start, more stress-related byproducts and sometimes premature flocculation before fermentation finishes. Too much oxygen can push excessive yeast growth at the expense of alcohol production and, at extreme levels, increase certain fermentation byproducts. Neither failure looks obviously like an oxygen problem when you first taste the beer, which is why it gets misdiagnosed as a yeast health or pitch rate issue.</p><p>A dissolved oxygen meter, even a relatively simple one, removes most of the guesswork here and is one of the higher value instruments a growing brewery can add, since aeration errors in either direction are otherwise diagnosed by elimination rather than direct measurement.</p>"
+  ],
+  [
+   "The line you do not cross again",
+   "<p>Once fermentation starts, treat oxygen as the enemy rather than the friend it was minutes earlier. Every transfer, sample pull and racking step downstream, through <a href=\"cold-crashing.html\">cold crashing</a> and into packaging, should be run to keep oxygen pickup as close to zero as your equipment allows.</p><p>Free amino nitrogen levels in the wort interact with oxygen availability in ways that are easy to miss. A wort adequately aerated but low in usable nitrogen still leaves yeast short of what it needs for healthy growth, since sterol synthesis is only one part of building a robust population. Reviewing malt bill and mash schedule alongside aeration practice gives a fuller picture than treating oxygen as the only variable that determines yeast health at pitching.</p><p>Sample handling before a dissolved oxygen reading is taken also affects accuracy. Drawing a sample into an open container and letting it sit exposed to air for even a minute before measuring will read artificially high, so in-line or immediately sealed sampling gives a truer picture of what the yeast actually experienced.</p><p>Some styles deliberately reduce aeration, most notably certain Belgian and wild fermentation programmes where a slower, more stressed yeast performance is part of the intended character. These are exceptions built on a clear understanding of the rule, not evidence that aeration does not matter generally.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can you over-aerate wort?",
+   "Yes. Excess dissolved oxygen pushes yeast toward growth rather than fermentation and, at high levels, is linked to increased production of certain fermentation byproducts."
+  ],
+  [
+   "Is splashing during transfer enough aeration?",
+   "For many ale worts at moderate gravity, controlled splashing gets close to target dissolved oxygen levels. Higher gravity worts usually need a more controlled method such as a diffusion stone."
+  ],
+  [
+   "Why can't you aerate hot wort?",
+   "Oxygen introduced into hot or boiling wort reacts with wort compounds and drives oxidation, producing stale, cardboard-like flavours, rather than being taken up by yeast, which is not yet present or active."
+  ],
+  [
+   "Does dry yeast need aeration the same way liquid yeast does?",
+   "Dry yeast is manufactured with adequate sterol reserves already built in, so it needs less supplemental oxygen than a liquid pitch, though some aeration still supports a healthy fermentation."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to measure and control dissolved oxygen properly, the equipment it takes and the mistakes that go unnoticed until fermentation is already underway. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "yeast-growth-phases",
+  "esters-and-fusel-alcohols",
+  "whirlpool-hopping"
+ ]
+}

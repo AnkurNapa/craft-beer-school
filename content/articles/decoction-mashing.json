@@ -1,0 +1,75 @@
+{
+ "slug": "decoction-mashing",
+ "cat": "Brewing science",
+ "h1": "Decoction mashing",
+ "title": "Decoction Mashing | Craft Beer School",
+ "desc": "How traditional decoction mashing works, why German and Czech lager brewers developed it, and whether it still earns its extra effort today.",
+ "teaser": "Decoction mashing solved a problem that modern malt has largely solved on its own, which is why it survives now mostly for flavour rather than necessity.",
+ "standfirst": "Pulling a portion of the mash, boiling it separately and returning it sounds like extra work for no reason, until you understand what German and Czech brewers were actually working around.",
+ "read": "3 min",
+ "updated": "2022-05-29",
+ "updated_label": "May 2022",
+ "sections": [
+  [
+   "What decoction mashing is",
+   "<p>A portion of the mash, typically a third or so, is removed, boiled separately in a second vessel, then returned to the main mash, raising the overall temperature by a calculated step each time. Repeated once, twice or three times, this moves the mash through the temperature stages a step mash would achieve with direct heat, but does it by boiling grain rather than heating liquid alone.</p><p>A well marked, well labelled second vessel and a reliable way to measure the volume pulled out at each step matter more here than in almost any other mash method, since guessing the decoction volume by eye is one of the more common ways brewers miss their intended temperature target on the return.</p>"
+  ],
+  [
+   "Why it was developed in the first place",
+   "<p>Traditional European decoction developed in an era before precise, reliable direct-fired or steam-heated mash vessels, and often with less modified malt than is common today, malt that genuinely benefited from the more thorough starch gelatinisation a hard boil provides. Boiling a portion of the grain bed broke down starch and protein more completely than a gentle single-temperature soak could manage with the equipment and malt available at the time.</p><p>Firing a mash vessel directly with wood or coal, as many historic European breweries did, also made a single, evenly controlled infusion temperature genuinely difficult to hold steady, which is a second, less discussed reason decoction's step by step approach suited the equipment of its era.</p>"
+  ],
+  [
+   "What boiling the grain actually does",
+   "<p>The boiled portion undergoes Maillard reactions, the same browning and flavour development that happens in a bread crust or a seared steak, developing melanoidins, rich, bready, slightly toasty flavour compounds that a simple infusion mash never produces. This is the main reason decoction survives today: not efficiency, but a specific malt-driven depth of flavour associated with traditional German and Czech lagers like doppelbock and Bohemian pilsner.</p>"
+  ],
+  [
+   "Why most modern brewers skip it",
+   "<p>Modern, well modified malt gelatinises and converts efficiently at normal infusion mash temperatures without any boiling step, which removes the original technical justification for decoction almost entirely. What is left is a flavour choice, and a demanding one: decoction typically adds two to four hours to a brew day and needs careful temperature and volume calculation to hit each target step accurately.</p>"
+  ],
+  [
+   "Getting the melanoidin character without a full decoction",
+   "<p>Melanoidin malt, a specialty malt kilned to mimic some of decoction's flavour effect, gives a smaller dose of similar bready, toasty character without the extra brew day time, and many modern lager recipes use it as a shortcut. It does not fully replace a genuine decoction's depth, but it closes much of the gap for a brewer unwilling to commit the extra hours.</p><p>See our <a href=\"step-mashing.html\">step mashing</a> guide for the more common way modern brewers manage multiple mash temperatures without the boiling step.</p>"
+  ],
+  [
+   "How many decoctions is traditional",
+   "<p>Historic Bohemian pilsner brewing sometimes used a triple decoction, three separate pulls and boils, though modern practice, even among traditional breweries, has largely settled on a single or double decoction as a practical balance between flavour development and brew day length. More decoctions add more melanoidin character but also more time, more risk of scorching the boiled portion, and diminishing returns past a certain point.</p>"
+  ],
+  [
+   "The risk of scorching",
+   "<p>The portion of mash pulled for decoction is thick, grain-heavy and prone to sticking and scorching on direct heat if it is not stirred continuously while it heats and boils. A scorched decoction introduces a harsh, burnt character that no amount of subsequent process can remove from the finished beer, which is part of why decoction demands close attention rather than being left unattended on the stove.</p>"
+  ],
+  [
+   "Planning a decoction brew day around the extra time",
+   "<p>A single decoction step realistically adds 45 minutes to an hour once you account for pulling the portion, bringing it to a boil, holding it, and returning it to blend with the main mash. Plan the whole brew day around this rather than trying to slot decoction into a schedule built for a standard infusion mash, since rushing a decoction step to save time defeats much of the reason for doing it in the first place.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is decoction mashing necessary with modern malt?",
+   "Not for conversion efficiency. Modern well modified malt converts fine with simple infusion mashing. Decoction today is mainly a flavour choice."
+  ],
+  [
+   "What does decoction actually add to the beer?",
+   "Melanoidin, bready, toasty flavour compounds developed by Maillard reactions during the boiled portion, a depth of malt character infusion mashing does not produce."
+  ],
+  [
+   "How much longer does a decoction brew day take?",
+   "Typically two to four extra hours compared to a single infusion mash, depending on how many decoction steps you run."
+  ],
+  [
+   "Can I get similar flavour without doing a full decoction?",
+   "Melanoidin malt gives a smaller dose of similar character without the extra process, a common shortcut in modern lager recipes."
+  ]
+ ],
+ "cta": {
+  "title": "Understand traditional lager technique properly",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers mash chemistry, temperature scheduling and traditional method alongside modern shortcuts, the full picture behind one technique.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "lautering-and-sparging",
+  "stuck-mash-fixes",
+  "step-mashing"
+ ]
+}

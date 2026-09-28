@@ -1,0 +1,59 @@
+{
+ "slug": "original-gravity-final-gravity-explained",
+ "cat": "Brewing basics",
+ "h1": "Original and final gravity explained",
+ "title": "Original & Final Gravity Explained | Craft Beer School",
+ "desc": "What OG and FG actually measure, why the gap between them matters, and how to know fermentation is done.",
+ "teaser": "Original gravity and final gravity are the two numbers that tell you what happened to your beer between brew day and the glass.",
+ "standfirst": "Two numbers, taken days or weeks apart with the same hydrometer, tell you almost everything about a fermentation: how much sugar you started with, how much of it the yeast actually consumed, and roughly how strong the finished beer will be.",
+ "read": "3 min",
+ "updated": "2023-02-26",
+ "updated_label": "February 2023",
+ "sections": [
+  [
+   "Original gravity: your starting point",
+   "<p>Original gravity, OG, is the density of your wort measured right after the boil, before yeast has touched it. It reflects how much fermentable and unfermentable sugar the mash and boil extracted from your grain or extract. A typical session beer might start around 1.040, a strong ale well above 1.070. Recording OG accurately, using proper hydrometer technique covered in <a href=\"how-to-use-a-hydrometer.html\">how to use a hydrometer properly</a>, is the first half of every ABV calculation you will ever do.</p><p>Take your OG reading as soon as practical after the boil, once the wort has been transferred to the fermenter and cooled, rather than from the hot kettle. Hot wort is less dense than the same wort at room temperature, so a reading taken too early or without a temperature correction will understate your true starting gravity.</p><p>Write the OG reading down immediately rather than trusting memory, ideally straight into the same notebook or app where the rest of that batch's details live, since it is the one number you cannot go back and measure again once fermentation has started.</p>"
+  ],
+  [
+   "Final gravity: what is left after fermentation",
+   "<p>Final gravity, FG, is the same measurement taken once fermentation has finished. Yeast has consumed most of the fermentable sugar and converted it to alcohol and carbon dioxide, so FG sits lower than OG, sometimes only just above 1.000, sometimes higher if the beer is intentionally sweeter or less attenuated. Do not trust a single low reading: fermentation is finished only when two readings 48 hours apart come back identical.</p><p>A healthy, correctly pitched ale yeast at a normal fermentation temperature typically lands somewhere around 65 to 80 percent apparent attenuation on an average recipe, though the specific yeast strain's own published attenuation range, usually printed on the packet, is the more precise guide for any given beer.</p>"
+  ],
+  [
+   "The gap between them is the story",
+   "<p>The distance between OG and FG tells you two separate things. It gives you the raw material for the ABV formula, covered fully in <a href=\"how-to-calculate-abv.html\">how to calculate ABV from gravity readings</a>, and it gives you apparent attenuation, the percentage of the original gravity's sugar that the yeast actually consumed. A beer that starts at 1.050 and finishes at 1.012 has attenuated to roughly 76 percent, which is a normal, healthy result for most ale yeast strains.</p><p>Apparent attenuation is a useful shorthand rather than a perfectly precise figure, since the alcohol present in the finished beer also affects the hydrometer reading slightly, in a way the simple percentage calculation does not fully account for. For homebrewing purposes, though, it is more than accurate enough to judge whether a fermentation behaved normally.</p>"
+  ],
+  [
+   "Why some beers finish higher than others on purpose",
+   "<p>Mash temperature is the main lever here. A cooler mash, around 63 to 65 &#176;C, produces more fermentable sugar and a drier finished beer with a lower FG. A warmer mash, closer to 68 to 70 &#176;C, leaves more unfermentable sugar behind and produces a fuller, sweeter beer with a higher FG. Neither is wrong, they are simply different design choices, explained properly in our <a href=\"mash-temperature-guide.html\">mash temperature guide</a>.</p>"
+  ],
+  [
+   "When the numbers do not match expectations",
+   "<p>A final gravity that will not budge, sitting well above what the recipe expected, usually points to an underpitched or stressed yeast, a mash temperature that ran too warm, or a fermentation that got too cold partway through. A final gravity that keeps dropping past where it should stop can point to a wild yeast or bacterial infection eating sugars ordinary brewing yeast cannot touch. Either way, the two readings taken days apart are what tell you which situation you are actually in.</p><p>Recording OG and FG for every batch, even ones that seem to have gone perfectly, builds a personal reference over time that is more useful than any generic chart, since it reflects your own equipment, water and process rather than someone else's brewery.</p><p>A brand new brewer seeing an unfamiliar reading for the first time should treat it as information to investigate calmly rather than a sign the whole batch is ruined, since most gravity surprises trace back to one identifiable cause once you look for it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a normal OG for a standard beer?",
+   "Most session beers sit between 1.035 and 1.050, and stronger ales and lagers run higher, often 1.060 to 1.080 or more. There is no single correct number, it depends entirely on the style you are brewing."
+  ],
+  [
+   "Can final gravity be lower than 1.000?",
+   "Yes, for very highly attenuated beers, particularly those fermented with certain saison or brett strains, or beers that used a lot of simple sugar. It means the fermented liquid is slightly less dense than water."
+  ],
+  [
+   "Do I need both readings to work out ABV?",
+   "Yes. ABV is calculated from the difference between OG and FG, so a single reading on its own cannot tell you the alcohol content."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "how-to-calculate-abv",
+  "what-is-ibu",
+  "how-to-use-a-hydrometer"
+ ]
+}

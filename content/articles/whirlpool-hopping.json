@@ -1,0 +1,63 @@
+{
+ "slug": "whirlpool-hopping",
+ "cat": "Brewing science",
+ "h1": "Whirlpool hopping",
+ "title": "Whirlpool Hopping Explained | Craft Beer School",
+ "desc": "How whirlpool hopping extracts hop aroma with less bitterness, and how to run a hop stand that actually works.",
+ "teaser": "Adding hops after the boil, while the wort is still hot, gets you aroma without the harsh bitterness a long boil addition would add.",
+ "standfirst": "Whirlpool hopping trades a small amount of extraction efficiency for a large amount of aroma, provided the temperature and the rest are controlled rather than guessed at.",
+ "read": "3 min",
+ "updated": "2023-05-28",
+ "updated_label": "May 2023",
+ "sections": [
+  [
+   "What the whirlpool is for",
+   "<p>After the boil, wort is stirred into a spinning motion, usually by pumping it in tangentially, so that centripetal force pushes trub and hop debris into a cone at the centre of the vessel floor. Clear wort can then be drawn off from the edge, leaving the sediment behind. That is the whirlpool's original job, and it still matters even when no hops are added at this stage.</p><p>The amount of wort surface exposed to hop material during the stand also affects extraction. A whirlpool that keeps hops circulating in suspension rather than letting them mat down in the trub cone extracts more evenly, which is part of why pumped recirculation during the rest, rather than a single static addition, has become common on larger systems chasing consistent aroma.</p>"
+  ],
+  [
+   "Adding hops during the rest",
+   "<p>Whirlpool hopping, sometimes called a hop stand, adds hops to the wort after flame-out but while it is still hot, commonly in the 75 to 85 degree Celsius range, then lets it steep for 15 to 30 minutes before chilling. At these temperatures hop aroma oils extract well, while isomerisation, the reaction that produces bitterness, slows sharply compared to a full boil.</p><p>The result is a big aromatic hit without pushing the beer's bitterness as far as the same hop weight would if boiled.</p><p>Hop form matters as much as temperature. Pellets break down and disperse through the wort more readily than whole cone hops, giving faster, more even extraction during a short stand, while whole cones need either a longer rest or a coarser expectation of extraction efficiency.</p>"
+  ],
+  [
+   "Getting the temperature right",
+   "<p>Too hot and you still isomerise a meaningful share of alpha acids, blurring the line between a whirlpool addition and a late boil addition. Too cool and extraction slows, wasting hop material and stand time. Most breweries settle on a specific temperature and hold it there with a controlled cooling step before the hops go in, rather than adding hops straight off the boil and letting the temperature drift down naturally.</p><p>Breweries chasing very high aroma intensity sometimes run a staged whirlpool addition, part of the charge going in hot for oil extraction and a further addition once the wort has cooled somewhat, splitting the aromatic character between what survives heat well and what does not. It adds complexity to the process for a genuine flavour gain rather than a purely cosmetic one.</p>"
+  ],
+  [
+   "What it does to your hop bill",
+   "<p>Because whirlpool additions extract oils efficiently, they can use less hop material for the same aroma intensity than an equivalent dry hop, and they avoid the vegetal or grassy notes that heavy dry hopping can sometimes bring. Many modern hazy and West Coast style beers lean on a large whirlpool charge specifically for this reason, saving the dry hop for the character oils that only survive without any heat at all.</p><p>Oxygen exposure during a long, open whirlpool rest is worth watching. Wort sitting hot and exposed to air for thirty minutes is not yet in the danger zone that finished beer would be, but a covered or closed vessel during the stand still protects flavour better than an open one, particularly for delicate, hop forward recipes.</p>"
+  ],
+  [
+   "Whirlpool hopping and what comes after",
+   "<p>A big hop stand adds real mass and oil to the wort, which affects both your <a href=\"wort-aeration-and-oxygen.html\">aeration step</a> and how much trub you carry into the fermenter. Draw wort off the whirlpool carefully rather than draining it flat, and expect a slightly higher cold break carryover than a beer without a hop stand.</p><p>Recirculating the whirlpool through an external heat exchanger during the rest, rather than letting it sit static in the kettle, is one way larger breweries hold a precise stand temperature for the full duration. Smaller systems without that option can approximate it by insulating the vessel well and accepting a slow, gradual temperature drift rather than a sharp one, adjusting stand time slightly to compensate.<p>Cooling rate after the stand also shapes the final aroma. A slow chill lets isomerisation continue a little further even after the intended stand time has ended, so systems without fast plate chillers sometimes compensate by cutting the whirlpool rest slightly shorter than a system with rapid cooling would use.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should a whirlpool hop stand run at?",
+   "Most brewers work in the 75 to 85 degree Celsius range. Higher temperatures extract more bitterness along with aroma, lower temperatures extract aroma oils more slowly."
+  ],
+  [
+   "How long should the hop stand last?",
+   "Fifteen to thirty minutes is typical. Longer rests give diminishing returns and hold the wort at a warm temperature for longer, which is a contamination risk if the vessel is not sealed."
+  ],
+  [
+   "Does whirlpool hopping replace dry hopping?",
+   "No. They extract different compounds. Whirlpool hopping is efficient for oils that survive some heat, dry hopping preserves the most volatile aromatics that heat would drive off."
+  ],
+  [
+   "Can whirlpool hopping cause haze?",
+   "It can contribute polyphenol and oil load that interacts with later haze formation, particularly in hop forward styles, but it is rarely the sole cause on its own."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to design and control a whirlpool hop stand for real aroma targets, beyond what one article can walk through step by step. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "wort-aeration-and-oxygen",
+  "yeast-growth-phases",
+  "boil-chemistry-hot-break"
+ ]
+}

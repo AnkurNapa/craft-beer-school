@@ -1,0 +1,63 @@
+{
+ "slug": "roasted-malts-guide",
+ "cat": "Ingredients",
+ "h1": "Roasted malts: chocolate, black and roasted barley",
+ "title": "Roasted malts guide | Craft Beer School",
+ "desc": "Chocolate malt, black patent and roasted barley compared: how each is roasted and what it brings to a stout or porter.",
+ "teaser": "Chocolate malt, black patent and roasted barley get their colour from something closer to coffee roasting than to brewing.",
+ "standfirst": "Roasted malts turn a base malt or raw barley into something dark enough to define a stout or porter on sight before you have even tasted it. Each one does a slightly different job.",
+ "read": "3 min",
+ "updated": "2022-05-20",
+ "updated_label": "May 2022",
+ "sections": [
+  [
+   "Roasting versus kilning: a different process entirely",
+   "<p>Base and crystal malts are finished in a kiln at temperatures that rarely exceed 150 degrees Celsius. Roasted malts go into a rotating drum roaster, closer in principle to a coffee roaster, at temperatures that can reach 200 to 230 degrees Celsius. At that heat the malt develops the deep colour and burnt, coffee-like flavours that a kiln alone cannot produce, and it loses essentially all of its diastatic power in the process, which is why roasted malts cannot convert starch on their own and always rely on a base malt to do that work elsewhere in the grist.</p>"
+  ],
+  [
+   "Chocolate malt: the mid ground",
+   "<p>Roasted from malted barley to around 350 to 450 EBC, chocolate malt gives a genuine chocolate and light coffee character without the sharp bitterness of the darker roasts. It is often the first roasted malt a brewer reaches for in a porter or a brown ale, because it adds real colour and roast character in amounts as small as 2 to 5 percent of the grist without dominating the beer.</p>"
+  ],
+  [
+   "Black patent malt: colour with a bitter edge",
+   "<p>Roasted harder still, up to around 600 EBC, black patent malt is where the roast character turns sharper and slightly acrid, closer to burnt toast than chocolate. Used sparingly, often under 5 percent, it deepens colour to near-black without needing a large percentage of the grist, but used too heavily it introduces an ashy bitterness that most drinkers read as a fault rather than a style feature.</p>"
+  ],
+  [
+   "Roasted barley: the stout malt that is not malt at all",
+   "<p>Roasted barley is unmalted barley roasted directly, without ever going through the steeping and germination steps in our guide to the <a href=\"barley-malting-process.html\">malting process</a>. That gives it a distinct dry, coffee-like bitterness with less of the sweetness that roasted malted grains carry, and it is the ingredient most associated with the dry, roasty finish of a classic Irish stout. Because it was never malted, it contributes zero enzyme activity and needs a well modified base malt to carry the mash.</p>"
+  ],
+  [
+   "Using roasted malts without wrecking the beer",
+   "<p>All three are potent in small quantities, so measure them in grams rather than eyeballing a handful, and add them toward the pale end of a recipe first, tasting the trend across a few batches before pushing higher. A stout built from 5 percent roasted barley and 3 percent chocolate malt over a Pale Ale or Munich base, covered in our guide to <a href=\"base-malts-explained.html\">base malts</a>, will taste balanced. Double both percentages on the same base and the beer usually tips into acrid rather than complex.</p>"
+  ],
+  [
+   "Dehusked roasted malts and acidity",
+   "<p>Some roasted malts, particularly darker chocolate and black malts, are available in a dehusked version, with the husk removed before roasting. Removing the husk reduces the harsh, astringent tannins the husk itself can contribute at high roast levels, giving a smoother, less acrid character at the same colour. Dehusked versions are also gentler on mash pH, since husk material is one of the contributors that can push a mash's pH down toward the acidic end, useful in a stout recipe carrying a large percentage of roasted grain where pH management already needs attention.</p><p>The trade-off is a slightly softer, less traditional edge that some stout brewers prefer to avoid, treating the sharper character of husk-on roasted malt as part of the style's identity rather than a flaw to engineer away.</p><p>When building a recipe from scratch, it helps to add roasted malts as a percentage of total grist rather than a fixed weight, then scale that percentage consistently as you move between batch sizes, following the same principle covered in our guide to <a href=\"scaling-a-beer-recipe.html\">scaling a beer recipe</a>. This keeps the roast character consistent even as the rest of the grain bill changes with batch size or a switched base malt.</p><p>A quick sensory trick worth trying at home: steep a small measured amount of each roasted malt separately in hot water for ten minutes and taste the liquid on its own. This isolates each malt's contribution far more clearly than tasting it buried in a full mash, and it is a fast way to build a working memory of what chocolate malt, black patent and roasted barley each actually taste like before committing them to a full batch.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between chocolate malt and black patent malt?",
+   "Chocolate malt is roasted less hard and tastes more like genuine chocolate and coffee, while black patent malt is roasted further and brings a sharper, more acrid edge."
+  ],
+  [
+   "Why does roasted barley taste different from other roasted malts?",
+   "It was never malted, so it lacks the sugars that develop during malting and roasts to a drier, more purely coffee-like bitterness instead."
+  ],
+  [
+   "Do roasted malts need a mash rest of their own?",
+   "No. They contribute no enzyme activity and no meaningful starch to convert, so they simply steep alongside the base malt in a normal single infusion mash."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to design a stout or porter properly?",
+  "body": "Balancing roast character against a whole recipe is harder than it looks from a percentage table. Style Specialisation runs 8 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "style-specialization-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "wheat-malt-in-brewing",
+  "rice-and-maize-adjuncts-india",
+  "crystal-and-caramel-malts"
+ ]
+}

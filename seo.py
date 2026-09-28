@@ -8,12 +8,11 @@ not cite one that contradicts the visible page.
 """
 import json
 
-import articles_a
-import articles_b
+import articles_all
 import pages_a
 import pages_b
 
-ARTICLES = articles_a.ARTICLES_A + articles_b.ARTICLES_B
+ARTICLES = articles_all.ARTICLES
 ARTICLE_BY_SLUG = {a['slug']: a for a in ARTICLES}
 
 SITE_URL = "https://craftbeerschool.in"      # apex is canonical, www redirects
@@ -286,9 +285,13 @@ def sitemap_xml(slugs, lastmod):
     urls = []
     for slug in slugs:
         priority, freq = PAGE_WEIGHT.get(slug, ("0.5", "monthly"))
+        # An article's lastmod is its own date, not the build date. Claiming every
+        # page changed today teaches crawlers to ignore the field.
+        art = _article_for(slug)
+        mod = art["updated"] if art else lastmod
         urls.append(f"""  <url>
     <loc>{url_for(slug)}</loc>
-    <lastmod>{lastmod}</lastmod>
+    <lastmod>{mod}</lastmod>
     <changefreq>{freq}</changefreq>
     <priority>{priority}</priority>
   </url>""")

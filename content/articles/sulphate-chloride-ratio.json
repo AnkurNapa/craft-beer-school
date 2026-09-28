@@ -1,0 +1,75 @@
+{
+ "slug": "sulphate-chloride-ratio",
+ "cat": "Ingredients",
+ "h1": "The sulphate to chloride ratio",
+ "title": "The Sulphate to Chloride Ratio | Craft Beer School",
+ "desc": "How the balance between sulphate and chloride shapes hop bitterness and malt roundness, with practical ratios for common styles.",
+ "teaser": "One ratio decides whether a beer reads crisp and hoppy or soft and malty, more than almost any other water adjustment.",
+ "standfirst": "Sulphate sharpens, chloride rounds. The ratio between them is the single most useful lever in water chemistry, and it is simpler than most brewing texts make it sound.",
+ "read": "3 min",
+ "updated": "2025-04-01",
+ "updated_label": "April 2025",
+ "sections": [
+  [
+   "Two ions, two very different jobs",
+   "<p>Sulphate accentuates hop bitterness, giving it a drier, sharper, more assertive edge. Chloride does the opposite, softening bitterness and adding a fuller, rounder, slightly sweet impression to malt character. Neither ion changes the actual bittering value of the beer, the IBU number stays the same. They change how that bitterness is perceived.</p><p>This is why two beers built from an identical grain bill and hop schedule can taste noticeably different depending only on the water salts used.</p>"
+  ],
+  [
+   "Reading and using the ratio",
+   "<p>Brewers express the balance as a ratio of sulphate to chloride in parts per million. A ratio below 1:1, chloride dominant, gives a rounder, maltier impression suited to brown ales, stouts and malt-forward lagers. A ratio above 2:1, sulphate dominant, gives the crisp, dry, assertive bitterness associated with English pale ale and West Coast IPA.</p><p>Ratios in the middle, roughly 1:1 to 2:1, give a more balanced profile, which is a reasonable default for a lot of everyday styles.</p><p>Some brewers find it easier to think in terms of the difference between the two numbers rather than a strict ratio, particularly at lower overall mineral levels where a ratio calculation can look more dramatic than the actual flavour effect turns out to be.</p>"
+  ],
+  [
+   "Practical starting points",
+   "<p>A hop-forward IPA often targets sulphate around 150 to 300 parts per million against chloride closer to 50 to 100, pushing the ratio firmly toward sulphate. A malty brown ale or a soft, juicy hazy IPA does the opposite, chloride at 100 or more against a much lower sulphate.</p><p>These are starting points, not fixed rules. Taste the result and adjust the next batch, since palate and hop variety both shift what feels balanced.</p><p>Take detailed notes on whatever ratio you use for a given batch, alongside the tasting result, since building your own reference table across several brews teaches you faster than any published guideline how your particular palate responds to the adjustment.</p>"
+  ],
+  [
+   "Gypsum and calcium chloride: the tools",
+   "<p>Gypsum, calcium sulphate, is the standard way to push a water profile toward sulphate. Calcium chloride does the same for the chloride side. Both also add calcium, which is useful for mash chemistry regardless of which flavour direction you are adjusting for, so the two additions are not purely a flavour choice, they affect mash pH too.</p><p>Add salts to the mash and sparge water in small, measured amounts using a brewing water calculator rather than guessing, since the effective concentration depends on your total water volume, not just the amount of salt.</p>"
+  ],
+  [
+   "Where this goes wrong in practice",
+   "<p>The most common mistake is treating the ratio as a magic number without checking the base water first. If your municipal or borewell water already carries significant sulphate or chloride, salt additions calculated from a zero baseline will overshoot. Test first, then adjust, using our <a href=\"water-hardness-and-beer.html\">water hardness</a> guide alongside this one.</p><p>The second mistake is chasing an extreme ratio on a delicate style. A pilsner pushed too far toward sulphate stops tasting crisp and starts tasting minerally and harsh.</p>"
+  ],
+  [
+   "Why the ratio interacts with total mineral content",
+   "<p>A ratio of 2:1 built from 40 parts per million sulphate and 20 parts per million chloride reads as a subtle effect. The same 2:1 ratio built from 300 and 150 parts per million reads as a very pronounced one. The ratio tells you direction, sharper or rounder, but the absolute concentration tells you intensity, and both numbers matter for predicting how a beer will actually taste.</p>"
+  ],
+  [
+   "Common mistakes when adjusting the ratio",
+   "<p>Adding gypsum to fix a beer that already tastes too bitter is a frequent error, since gypsum sharpens perceived bitterness rather than softening it, the opposite of what a brewer chasing a smoother beer usually wants. Calcium chloride is the correction for that direction. Confusing the two additions, or adding both in equal measure out of caution, tends to cancel out the very adjustment the brewer was trying to make.</p>"
+  ],
+  [
+   "Working with existing base water instead of against it",
+   "<p>A base water already moderately high in sulphate makes it harder, though not impossible, to push toward a chloride-dominant, malty profile without diluting with RO water first. Know your starting point before calculating additions, since salts stack on top of whatever minerals are already present rather than starting from zero, a mistake covered in more detail in our <a href=\"brewing-water-basics.html\">brewing water basics</a> guide.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good sulphate to chloride ratio for an IPA?",
+   "Roughly 2:1 to 3:1 or higher, sulphate dominant, is common for a crisp, dry, hop-forward IPA, though many hazy IPAs now use a much lower ratio for a softer profile."
+  ],
+  [
+   "Does the ratio change the actual bitterness (IBU) of the beer?",
+   "No. It changes how bitterness is perceived, sharper or softer, not the measured IBU value."
+  ],
+  [
+   "Can I use table salt to adjust chloride?",
+   "No, use calcium chloride, sold specifically for brewing. Table salt (sodium chloride) adds sodium, which brings its own flavour effects and is not the same adjustment."
+  ],
+  [
+   "Do I need to hit an exact ratio number?",
+   "No. Treat published ratios as a starting direction, then adjust by taste across a couple of batches rather than chasing a precise figure."
+  ]
+ ],
+ "cta": {
+  "title": "Build water profiles for every style you brew",
+  "body": "Advanced Brewing Science is a 6-week live course that goes past what one guide can cover. It covers salt calculations, mash pH interaction and style-specific water profiles as a full system, not a single ratio in isolation.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "treating-borewell-water-for-brewing",
+  "ro-water-for-brewing",
+  "water-hardness-and-beer"
+ ]
+}

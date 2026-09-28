@@ -1,0 +1,75 @@
+{
+ "slug": "brewery-business-plan",
+ "cat": "Business",
+ "h1": "Writing a brewery business plan",
+ "title": "How to Write a Brewery Business Plan | Craft Beer School",
+ "desc": "The sections a brewery business plan actually needs: production capacity, route to market, licensing timeline, costing and a realistic cash flow.",
+ "teaser": "A brewery business plan is not a pitch deck with a beer on the cover. It is the document that forces you to answer the questions that actually sink new breweries.",
+ "standfirst": "Most brewery business plans fail for the same reason: they describe the beer in loving detail and skip the arithmetic that decides whether the business survives its first two years.",
+ "read": "3 min",
+ "updated": "2023-09-06",
+ "updated_label": "September 2023",
+ "sections": [
+  [
+   "What a brewery plan needs that a generic plan does not",
+   "<p>A standard business plan template will ask for a market summary and a financial projection. A brewery plan needs those, plus production capacity, batch scheduling, packaging strategy, a licensing timeline and a cold chain plan, because these are the operational realities that decide whether the beer you describe ever reaches a customer in good condition.</p><p>Think of it less as a document to impress a bank and more as the working model you will actually run the business against in month one. If a section only exists to sound impressive and could not be turned into an operating decision next week, it probably does not belong in the plan.</p>"
+  ],
+  [
+   "Production capacity and realistic output",
+   "<p>State your brewhouse size, batch frequency and realistic annual output, not the theoretical maximum if everything ran perfectly. Fermenter and bright tank count usually limits a small brewery long before the brewhouse itself does, since a beer sits in a tank for one to three weeks depending on style, so your true bottleneck is tank turnover, not brew days.</p><p>Model this out on paper before you commit to equipment. A brewhouse that can brew twice a week is wasted if you only own enough fermenters for one batch to be conditioning at a time, and a lot of first-year capital gets spent solving the wrong bottleneck because nobody mapped tank turnover against brewhouse capacity before ordering equipment.</p>"
+  ],
+  [
+   "Route to market",
+   "<p>Decide, and justify, how the beer reaches drinkers: taproom, on-premise accounts, off-premise retail, or a mix, and how that mix changes in year one versus year three. A plan that says the beer will be sold everywhere is really a plan that has not decided anything, and investors and lenders notice the difference immediately.</p>"
+  ],
+  [
+   "Licensing and regulatory timeline",
+   "<p>Set out the licences you expect to need and a realistic timeline for each, while being explicit in the plan that rules, fees and timelines vary by state and change, so the reader should not treat any figure here as fixed. This is also where a <a href=\"fssai-rules-for-beer.html\">food safety registration</a> and your state excise position both need a line, even if the detail is: confirmed with a licensing consultant closer to launch.</p>"
+  ],
+  [
+   "Costing and pricing, not just revenue",
+   "<p>Your revenue line means nothing without a defensible <a href=\"cost-per-litre-beer.html\">cost per litre</a> underneath it, by format and by channel. A plan that shows revenue growing steadily while cost per litre is guessed at will fall apart the moment a lender or investor asks where the number came from.</p>"
+  ],
+  [
+   "Cash flow, month by month",
+   "<p>Breweries are cash-hungry in the early months: raw materials, packaging and licence costs are paid up front, while revenue often lags behind, especially if you are building a taproom customer base from zero. A monthly cash flow for at least the first eighteen months, not an annual summary, is what shows whether you can actually survive the gap between spending and earning.</p><p>Pay particular attention to the weeks between finishing your first commercial batches and the taproom or accounts actually generating steady revenue. That gap is where undercapitalised breweries run out of cash even though the annual numbers, on paper, look perfectly fine.</p>"
+  ],
+  [
+   "Risk and the honest version of the plan",
+   "<p>Name the real risks: a licence delay, a bad monsoon affecting footfall, an equipment failure during a peak season, a key hire leaving. A plan that pretends nothing can go wrong reads as naive rather than confident, and the founders who write the honest version tend to be the ones who are actually ready to run the business.</p>"
+  ],
+  [
+   "The team section is not a formality",
+   "<p>Name who runs production, who runs the front of house and who handles the numbers, even if that is two people wearing three hats between them in year one. A lender or investor reading a plan wants to see that someone in the room actually knows how to brew and someone actually knows how to run the cash, not that the founder has read enough to sound convincing on both.</p><p>If a critical role, head brewer, general manager, is not yet filled, say so plainly and explain the plan to fill it, rather than leaving a gap the reader has to notice for themselves.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should a brewery business plan be?",
+   "Long enough to cover capacity, route to market, licensing, costing and cash flow properly, usually somewhere between fifteen and thirty pages. Length matters less than whether every section is backed by a real number."
+  ],
+  [
+   "Do I need a lawyer to write the licensing section?",
+   "Not to write the plan, but you should confirm any licence timeline or fee with a current licensing consultant before relying on it, since rules vary by state and change."
+  ],
+  [
+   "What is the biggest mistake in a first-time brewery plan?",
+   "Treating cost per litre and cash flow as afterthoughts to the beer description. Lenders and investors read those sections first."
+  ],
+  [
+   "Should the plan assume best-case sales from day one?",
+   "No. Build the plan around a realistic ramp-up, and keep a best-case scenario separate so the base plan still holds if growth is slower than hoped."
+  ]
+ ],
+ "cta": {
+  "title": "Write the plan alongside working brewers who have done it",
+  "body": "Brewery Business Management is a live weekend course covering costing, licensing, cash flow and route to market, with weekly assignments built around your own plan and a certificate at the end.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "beer-excise-duty-india",
+  "fssai-rules-for-beer",
+  "taproom-economics"
+ ]
+}

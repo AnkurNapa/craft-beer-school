@@ -1,0 +1,63 @@
+{
+ "slug": "alpha-acids-explained",
+ "cat": "Ingredients",
+ "h1": "Alpha acids and hop bitterness",
+ "title": "Alpha acids and hop bitterness | Craft Beer School",
+ "desc": "How alpha acids isomerise into bitterness during the boil, and why hop utilisation is never close to 100 percent.",
+ "teaser": "Alpha acids are not bitter until heat rearranges them. That single chemical fact explains almost every hop timing decision a brewer makes.",
+ "standfirst": "IBU calculations, hop schedules and bittering efficiency all trace back to one reaction: alpha acids isomerising into iso-alpha acids during the boil. Understand that reaction and the rest of hop chemistry falls into place.",
+ "read": "3 min",
+ "updated": "2023-07-31",
+ "updated_label": "July 2023",
+ "sections": [
+  [
+   "Alpha acids are barely bitter until they are isomerised",
+   "<p>Raw alpha acids, mainly humulone and its close relatives, sitting in an unboiled hop cone are only mildly soluble in wort and contribute very little perceived bitterness on their own. Heat, sustained near boiling for an extended period, rearranges their molecular structure into iso-alpha acids, which are far more soluble and far more bitter. This isomerisation is why a hop steeped briefly at flameout contributes negligible bitterness compared to the same hop boiled for 60 minutes, regardless of its alpha acid percentage.</p>"
+  ],
+  [
+   "Utilisation: why you never get all the alpha acid you paid for",
+   "<p>Utilisation is the fraction of a hop's total alpha acid that actually converts to bitterness in the finished beer, and it is rarely more than 25 to 35 percent even in a well run boil. It depends on wort gravity (isomerisation is less efficient in denser, higher gravity worts), boil time, boil vigour and pH. This is the mechanism behind the scaling problem covered in our guide to <a href=\"scaling-a-beer-recipe.html\">scaling a beer recipe</a>: change the kettle geometry or boil intensity and utilisation shifts even if the hop weight and boil time stay identical.</p>"
+  ],
+  [
+   "The Tinseth formula, in plain terms",
+   "<p>Most brewing calculators estimate IBU using either the Tinseth or Rager formula, both of which model utilisation as a function of boil time and wort gravity, then multiply by the hop's alpha acid weight to estimate the resulting bitterness in parts per million. Tinseth in particular models utilisation as increasing steeply for the first 15 to 20 minutes of boil time and then levelling off, which is why moving a bittering addition from 60 to 90 minutes gains relatively little extra bitterness, most of the isomerisation has already happened by then.</p>"
+  ],
+  [
+   "Why alpha acid percentage varies by harvest",
+   "<p>A hop variety's alpha acid content is not fixed, it shifts year to year and field to field depending on growing conditions, and reputable suppliers print the actual tested alpha acid percentage for each harvest lot on the package rather than a generic average. Using last season's assumed alpha acid figure for this season's hops is a common, easily avoided source of a batch coming out more or less bitter than a recipe intended.</p>"
+  ],
+  [
+   "What this means for hop scheduling",
+   "<p>Because isomerisation needs sustained heat, a hop added for bitterness gains almost nothing from being added earlier than 60 minutes, while a hop added for aroma loses almost everything if it goes in earlier than the last 5 to 10 minutes or the whirlpool. There is very little useful middle ground between these two extremes, which is why well designed hop schedules, of the kind covered in our guide to <a href=\"reading-a-beer-recipe.html\">reading a beer recipe</a>, tend to cluster additions at the early and late ends of the boil rather than spreading them evenly through it.</p>"
+  ],
+  [
+   "Beta acids: alpha's quieter relative",
+   "<p>Hops also contain beta acids, chemically similar to alpha acids but far less soluble and barely isomerised by boiling, which is why they contribute little to fresh beer bitterness. Beta acids do, however, oxidise over time into compounds that do contribute bitterness, which is part of why aged hops, tracked by the Hop Storage Index covered in our guide to <a href=\"hop-storage-and-freshness.html\">hop storage and freshness</a>, can taste unpredictably and unpleasantly more bitter than their alpha acid percentage alone would suggest, since that oxidised beta acid bitterness was never accounted for in the original calculation.</p><p>Water chemistry has a secondary effect here too: a lower mash and boil pH slightly reduces isomerisation efficiency, part of why professional brewers managing pH carefully within the 5.2 to 5.6 working range are also, indirectly, managing their hop utilisation, even though the two are usually discussed as separate topics.</p><p>None of this needs to be calculated by hand on brew day. The value in understanding the underlying chemistry is knowing why a calculator's IBU estimate moves the way it does when you change a boil time, a gravity or a hop weight, rather than treating the number it produces as an unexplained black box.</p><p>It also explains why two brewers using the same hop weight, boil time and volume can still land on slightly different IBU figures: small differences in boil vigour and altitude-adjusted boiling point both nudge utilisation up or down a little, well within the normal batch to batch variation any brewer should expect.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do hops need to be boiled to taste bitter?",
+   "Raw alpha acids are barely soluble and contribute little bitterness. Sustained heat isomerises them into iso-alpha acids, which are far more soluble and far more bitter."
+  ],
+  [
+   "What does hop utilisation mean?",
+   "The percentage of a hop's total alpha acid that actually ends up as bitterness in the finished beer, typically 25 to 35 percent, and it depends on boil time, wort gravity and boil vigour."
+  ],
+  [
+   "Why does a 90 minute boil not taste twice as bitter as a 60 minute one?",
+   "Isomerisation slows down sharply after the first 15 to 20 minutes of boiling, so extending a bittering addition well past 60 minutes adds relatively little extra bitterness."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to calculate bitterness like a professional?",
+  "body": "The formulas are one thing. Applying them confidently on your own recipes is another. Advanced Brewing Science runs 6 weeks, live on Saturdays and Sundays, with weekly assignments and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "noble-hops-explained",
+  "american-hops-guide",
+  "hop-varieties-for-beginners"
+ ]
+}

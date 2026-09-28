@@ -1,0 +1,67 @@
+{
+ "slug": "gose-guide",
+ "cat": "Styles",
+ "h1": "Gose",
+ "title": "Gose Style Guide | Craft Beer School",
+ "desc": "Gose explained: the salted, sour wheat beer from Leipzig, why brewers add salt to beer at all, and how it differs from Berliner Weisse.",
+ "teaser": "Adding salt to beer sounds like a mistake until you taste a well made gose, where it sharpens everything else rather than tasting salty at all.",
+ "standfirst": "Gose is one of the stranger beer styles on paper, salt and coriander in a sour wheat beer, and one of the most pleasant surprises in practice once you understand what each ingredient is actually doing.",
+ "read": "3 min",
+ "updated": "2023-10-30",
+ "updated_label": "October 2023",
+ "sections": [
+  [
+   "A style from a town whose water made it necessary",
+   "<p>Gose originated in the German town of Goslar, named for the local Gose river, where the naturally mineral rich, slightly salty water may have shaped the style's character before salt was ever added deliberately. It later became strongly associated with Leipzig, where it developed into the version most commonly brewed today, with salt and coriander added as clear, deliberate ingredients rather than an accident of local water.</p><p>Like several sour German styles, gose nearly disappeared in the twentieth century and survived only through a small number of dedicated producers before a wider revival.</p>"
+  ],
+  [
+   "What to expect in the glass",
+   "<p>Gose pours pale gold, often hazy, with a light tartness on the nose and a subtle coriander spice note underneath. Bitterness is very low, 5 to 10 IBU, and the defining characteristic is a bright, clean sourness balanced against a distinct, though not overpowering, salinity.</p><p>Done well, the salt should not taste like salt exactly. It should sharpen the sourness and round out the finish, in roughly the same way a small pinch of salt improves a dish without making it taste salty.</p>"
+  ],
+  [
+   "Salt: how much is actually used",
+   "<p>Gose typically uses a fairly small addition of salt, often well under two grams per litre, added to the kettle or the finished beer, enough to be perceptible as a savoury, mouth filling quality rather than an obviously salty taste. Overdoing this addition is the most common mistake, since it is easy to push a subtle, pleasant salinity into something that just tastes like seawater.</p><p>Coriander seed, added similarly to witbier though usually in smaller quantity, contributes a light citrusy spice that complements the sourness and salt rather than competing with either.</p>"
+  ],
+  [
+   "Souring gose the modern way",
+   "<p>As with Berliner Weisse, most breweries today use kettle souring, adding Lactobacillus to the wort before the boil, letting it acidify over roughly a day or two at a controlled warm temperature, then boiling to halt bacterial activity before fermenting with a clean yeast strain. This gives a controllable, repeatable sourness level far more reliably than an open or mixed fermentation process would.</p><p>Careful pH monitoring during the souring stage matters, since going too far produces an unpleasantly sharp, almost vinegary sourness rather than the clean tartness the style calls for.</p><p>A target pH somewhere around 3.3 to 3.5 before boiling is a reasonable working range for most gose recipes, though the right stopping point ultimately depends on taste and how salt and coriander will interact with that sourness once they are added.</p>"
+  ],
+  [
+   "The grain bill and fermentation",
+   "<p>A roughly even mix of wheat and pilsner malt, similar to Berliner Weisse, keeps the base beer light and simple enough for the salt, coriander and sourness to stand out clearly. A clean ale yeast finishes fermentation after the souring stage, contributing minimal character of its own so the deliberate additions remain the focus, and fermentation temperature control still matters even in a beer this forgiving on other fronts.</p><p>Because this is a genuinely delicate beer, the same equipment separation discipline that applies to any Lactobacillus process, covered in our <a href=\"berliner-weisse.html\">Berliner Weisse guide</a>, applies here too.</p>"
+  ],
+  [
+   "Serving it well",
+   "<p>Serve cold, 4 to 7°C, in a tall glass. Some modern versions add fruit, most commonly a citrus or berry addition, though a traditional gose is defined by salt, coriander and sourness alone without needing fruit to carry it.</p><p>Its bright acidity and light body make it a genuinely refreshing choice in Indian heat, and the salinity gives it an unusual edge that pairs surprisingly well with spicy or fried food, cutting through oil in a way a sweeter beer cannot.</p><p>It is worth mentioning the salt addition to drinkers before they taste it, rather than letting them work it out mid sip, since an unexpected savoury note in a beer surprises people in a way that a straightforward description usually heads off before it becomes a distraction from an otherwise pleasant beer.</p><p>A common mistake with gose is treating salt and sourness as competing dials to push as far as possible. Both should sit in the background, seasoning the beer rather than announcing themselves. A gose that tastes distinctly salty or aggressively sour has usually overshot the traditional style, even if it is still enjoyable on its own terms.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does gose actually taste salty?",
+   "A little, but a well made gose uses salt sparingly enough that it sharpens the sourness and finish rather than tasting overtly salty. Too much salt is a common brewing mistake in this style."
+  ],
+  [
+   "What is the difference between gose and Berliner Weisse?",
+   "Both are low alcohol sour wheat beers, but gose adds salt and coriander as defining ingredients, while Berliner Weisse relies on sourness alone, traditionally served with a flavoured syrup rather than salt or spice."
+  ],
+  [
+   "How is gose made sour?",
+   "Most modern breweries use kettle souring, adding Lactobacillus bacteria to the wort before boiling, then boiling to stop the souring before fermenting with a standard clean yeast."
+  ],
+  [
+   "Is gose a strong beer?",
+   "No, it is generally session strength, around 4.2 to 4.8% ABV, similar to other traditional German sour wheat styles."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to brew beyond the usual style list?",
+  "body": "Style Specialisation covers gose alongside the wider German sour beer tradition, including salt and spice dosing that is easy to get wrong without guidance.",
+  "href": "style-specialization-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "kolsch-guide",
+  "altbier-guide",
+  "berliner-weisse"
+ ]
+}

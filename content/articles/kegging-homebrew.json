@@ -1,0 +1,59 @@
+{
+ "slug": "kegging-homebrew",
+ "cat": "Brewing basics",
+ "h1": "Kegging your homebrew",
+ "title": "Kegging Your Homebrew | Craft Beer School",
+ "desc": "Force carbonation versus natural carbonation in a keg, the equipment you need, and why kegging suits Indian conditions well.",
+ "teaser": "Kegging trades bottling's patience for a bigger upfront setup, and once it is running it saves real time on every batch after.",
+ "standfirst": "Bottling works fine for years of homebrewing, but kegging removes the slowest, most repetitive part of packaging day and gives you far more control over when your beer is actually ready to drink.",
+ "read": "3 min",
+ "updated": "2025-01-28",
+ "updated_label": "January 2025",
+ "sections": [
+  [
+   "The core kegging setup",
+   "<p>A Cornelius keg, commonly called a corny keg, second-hand from the soft drinks industry, a CO2 cylinder with a regulator, and gas and liquid disconnects to link them together form the basic setup. Beer gets transferred from the fermenter straight into the sealed keg rather than into dozens of individual bottles, which is where most of the time saving comes from.</p><p>Second-hand Cornelius kegs need a thorough clean and a check of the rubber seals, called O-rings, before their first use, since a worn or perished seal is the most common cause of a keg that will not hold pressure. Replacement seal kits are cheap and worth keeping a spare set of on hand.</p><p>A picnic tap or a simple party tap, connected directly to the keg's liquid line without a full bar tower, is a lower-cost way to serve straight from a kegerator or an ice-filled tub for an event, and is often where new keggers start before investing in a permanent tap tower.</p>"
+  ],
+  [
+   "Force carbonation: the fast method",
+   "<p>Set the CO2 regulator to a higher pressure than normal serving pressure, connect it to the keg, and give it a day or two, sometimes shaking or rocking the keg to speed dissolving. This carbonates beer in a fraction of the time bottle conditioning needs, because you are dissolving gas directly rather than waiting on yeast to generate it.</p><p>A quicker variant, sometimes called the burst method, sets the regulator considerably higher than normal for a short period of a few hours with regular agitation, then drops back to serving pressure, trading a slightly less even result for carbonation ready to pour the same day.</p>"
+  ],
+  [
+   "Natural carbonation in a keg",
+   "<p>You can also prime a keg with sugar exactly as you would a batch of bottles, sealing it and letting residual yeast carbonate it over one to two weeks, covered in <a href=\"bottle-conditioning-and-priming-sugar.html\">bottle conditioning and priming sugar</a>. This suits brewers who want the flavour profile some argue natural carbonation gives, at the cost of losing kegging's main speed advantage.</p><p>A blow-off or pressure relief step is worth building into the routine regardless of which carbonation method you use, since checking and briefly venting keg pressure before disconnecting any fitting avoids the sudden hiss and occasional mess of disconnecting a fully pressurised line unexpectedly.</p>"
+  ],
+  [
+   "Serving pressure and why it matters",
+   "<p>Once carbonated, beer needs to be served at a pressure that matches its carbonation level and line length, or it pours as mostly foam. This balance depends on serving temperature as much as pressure, and gets harder to hold steady in a warm Indian room, which is why most serious kegging setups here live inside a dedicated fridge or a converted chest freezer, called a keezer, kept at a consistent cold temperature.</p><p>Beer line length also plays a real role alongside pressure and temperature: a line that is too short for the pressure you are serving at produces an overly fast, foamy pour, while a longer line adds the resistance needed for a smooth one. Most homebrew setups settle on somewhere between 1.5 and 3 metres of standard beer line, tuned by trial and error to their own pressure and temperature.</p>"
+  ],
+  [
+   "Is kegging worth the upfront cost for a homebrewer?",
+   "<p>The initial outlay for a keg, regulator and CO2 cylinder is real, and noticeably more than a box of reusable bottles. What it buys back is packaging speed, cleaner sanitation since there are far fewer surfaces to sanitise than a batch of bottles, and the ability to carbonate and adjust a beer's fizziness on demand rather than committing to a fixed level at bottling time, discussed in <a href=\"carbonation-levels-by-style.html\">carbonation levels by beer style</a>.</p><p>Reused kegs and a basic regulator are widely available second-hand from the same channels that sell other homebrew equipment, which keeps the realistic entry cost for a first kegging setup lower than buying everything new, even though it remains a bigger step than a box of bottles.</p><p>Cleaning between batches is also quicker with a keg than with a full crate of bottles, since there is only one vessel and one set of fittings to sanitise rather than dozens of individual bottle necks and caps.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does force carbonation actually take?",
+   "A day or two at elevated pressure with occasional agitation gets most beers to a drinkable carbonation level, compared with one to two weeks for natural bottle or keg conditioning."
+  ],
+  [
+   "Do I need a dedicated fridge to keg beer in India?",
+   "Not strictly, but without one, holding a steady cold serving temperature is difficult in most Indian climates, and inconsistent temperature makes dialling in the right serving pressure much harder."
+  ],
+  [
+   "Can I mix bottling and kegging from the same batch?",
+   "Yes. Many homebrewers keg most of a batch for quick serving and bottle a small portion separately for gifting or storage, which works fine as long as each portion is carbonated by its own method."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "carbonation-levels-by-style",
+  "reading-a-beer-recipe",
+  "bottle-conditioning-and-priming-sugar"
+ ]
+}

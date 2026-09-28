@@ -1,0 +1,59 @@
+{
+ "slug": "extract-vs-all-grain-brewing",
+ "cat": "Brewing basics",
+ "h1": "Extract or all-grain: which way to start",
+ "title": "Extract vs All-Grain Brewing | Craft Beer School",
+ "desc": "How the two methods differ, what each one costs you in time and control, and which to pick for your first batches.",
+ "teaser": "Extract and all-grain make the same styles of beer. They differ in where the sugar-making step happens, and how much control that hands you.",
+ "standfirst": "Every new brewer eventually asks whether to start with malt extract or go straight to all-grain. Both make real beer. The honest answer is about what you are trading, not which one is correct.",
+ "read": "3 min",
+ "updated": "2022-02-27",
+ "updated_label": "February 2022",
+ "sections": [
+  [
+   "What extract brewing actually skips",
+   "<p>Malt extract is wort that a maltster has already mashed, concentrated and either dried into powder or reduced into a thick syrup. Brewing with it means you skip mashing entirely: dissolve the extract in water, add hops, boil, and ferment.</p><p>That is a genuine shortcut. It removes an entire piece of equipment (a mash tun), an entire hour of the brew day, and the main variable that can go wrong for a beginner. Extract brewing is not a lesser version of the craft, it is a different entry point that a great many capable brewers used for their first dozen batches.</p><p>Extract comes in two forms, dried malt extract and liquid malt extract, and the two behave slightly differently in the kettle. Dried extract keeps longer and measures more precisely by weight, while liquid extract is stickier to handle and can scorch on the bottom of the pot if not stirred well as it dissolves, a common source of a burnt, caramelised flavour in a first extract batch.</p>"
+  ],
+  [
+   "What all-grain gives you back",
+   "<p>All-grain brewing starts from raw malted grain and does the mashing yourself, converting starch to sugar in your own mash tun at your own chosen temperature. That single extra step is where most of the control lives.</p><p>Mash temperature decides how fermentable your wort is, which shapes the final body and dryness of the beer. Grain bill decides colour and flavour far more precisely than blending pre-made extracts can. If you want to design a recipe rather than assemble one, all-grain is where that skill develops.</p><p>All-grain also opens up water chemistry as a genuine variable, since the minerals in your brewing water interact directly with the raw grain during the mash in a way that pre-made extract, produced under controlled conditions at the maltster, never exposes you to. This is a deeper rabbit hole than most beginners need immediately, but it is one more layer of control that only exists once you are mashing yourself.</p>"
+  ],
+  [
+   "The honest cost: time and equipment",
+   "<p>All-grain brew days run two to three hours longer than extract days, mostly because of the mash and the slower runoff afterwards. You also need a mash tun, a way to heat larger volumes of water (called strike and sparge water), and somewhere to hold and drain the grain bed.</p><p><a href=\"brew-in-a-bag-method.html\">Brew in a bag</a> narrows that gap considerably: it is genuine all-grain brewing using a single large pot and a mesh bag instead of a separate mash tun and lauter setup, and it is where we point most students who want to move up without buying much new equipment.</p><p>Water volume management is another quiet cost of all-grain brewing: strike water, the water used to mash in, and sparge water, used to rinse the grain, both need to be heated to specific temperatures and measured accurately, whereas an extract brewer is usually just heating one pot of water to a boil. It is not difficult, but it does add steps a beginner has to learn and get right.</p>"
+  ],
+  [
+   "Does the beer actually taste different?",
+   "<p>A well-made extract beer and a well-made all-grain beer using the equivalent grain bill can taste very close, and in a blind pour most drinkers will not reliably tell them apart. Extract has historically carried a reputation for a slight cloying sweetness, but that mostly traces back to older, lower-quality extract and long, hot boils that darkened it unintentionally, not to the method itself.</p>"
+  ],
+  [
+   "Which to choose for your next batch",
+   "<p>If you have already brewed two or three extract batches and you keep wondering what a different grain bill would taste like, that instinct is the sign you are ready for all-grain, or for brew in a bag as the gentler route there. If you have not brewed anything yet, start with extract or a kit, get comfortable with sanitation and fermentation temperature first, and let the mashing question wait until it is the thing actually holding you back.</p><p>Cost per batch is broadly similar between the two methods once you already own the extra all-grain equipment, since raw grain is generally cheaper per litre of finished beer than pre-made extract. The equipment purchase is the real barrier, not the ongoing ingredient cost.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is all-grain beer objectively better than extract?",
+   "No. Quality depends far more on sanitation, fermentation temperature and yeast health than on the mashing method. All-grain gives more control over recipe design, not automatically better beer."
+  ],
+  [
+   "Can I mix the two methods?",
+   "Yes. Partial mash brewing uses a small amount of grain mashed at home alongside extract to fill in a gravity or flavour gap, and it is a common stepping stone between the two full methods."
+  ],
+  [
+   "Is brew in a bag the same as all-grain?",
+   "Yes. It is a genuine all-grain method that mashes and, in most versions, boils in the same large pot, using a mesh bag in place of a separate mash tun and lauter tun."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brew-in-a-bag-method",
+  "first-homebrew-mistakes",
+  "homebrewing-starter-kit-india"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "slug": "brew-in-a-bag-method",
+ "cat": "Brewing basics",
+ "h1": "Brew in a bag, the easiest all-grain method",
+ "title": "Brew in a Bag: Easiest All-Grain Method | Craft Beer School",
+ "desc": "How brew in a bag works, the one piece of extra kit it needs, and where it can go wrong on a small burner.",
+ "teaser": "Brew in a bag turns all-grain brewing into a single-pot method. This is how it works and what actually catches people out.",
+ "standfirst": "Brew in a bag, usually shortened to BIAB, is the fastest route from extract kits to full all-grain control. It replaces a separate mash tun and lauter tun with one large pot and a mesh bag.",
+ "read": "3 min",
+ "updated": "2022-05-11",
+ "updated_label": "May 2022",
+ "sections": [
+  [
+   "The idea in one paragraph",
+   "<p>You put your whole crushed grain bill inside a large, fine-mesh bag, submerge it in your full batch volume of hot water in a single pot, mash as usual, then lift the bag straight out. There is no separate sparge, no lautering, and often no second vessel at all.</p><p>Because the bag holds the grain and the same pot goes on to the boil, brew in a bag needs only one big pot and one bag beyond what an extract brewer already owns. It is the cheapest and simplest way into real all-grain brewing that we teach.</p><p>Because the same pot holds the mash and then goes straight on to boil, BIAB also saves a step that traditional three-vessel setups cannot skip: transferring hot wort between a mash tun and a separate boil kettle, with the heat loss and spillage risk that transfer carries. Everything happens in one place, which is a large part of why the method suits smaller kitchens and balconies.</p>"
+  ],
+  [
+   "Sizing your pot and your burner",
+   "<p>Because you mash in your full batch volume rather than a smaller, concentrated mash, you need a pot large enough to hold your whole boil volume plus the grain, with headroom to spare for the boil. For a typical 19 to 23 litre batch that usually means a 30 to 35 litre pot.</p><p>Heating that much water to mash and then boil temperature takes a serious burner. A standard kitchen hob under-delivers for anything past small test batches, which is why most BIAB brewers in India move outdoors to an LPG burner once they are brewing regularly.</p><p>Water absorption by the grain also matters more in BIAB than in a sparged system, since there is no second rinse to recover sugar left behind. Recipe calculators built for BIAB account for this by specifying a slightly larger total water volume up front, and it is worth using one rather than estimating water volumes by eye on your first few attempts.</p>"
+  ],
+  [
+   "Lifting the bag without a mess",
+   "<p>A soaked grain bag holding 4 to 6 kilograms of wet malt is heavy, and lifting it out badly is the method's main failure point. A pulley rigged over the pot, or a second pair of hands, turns a precarious lift into a non-event. Let the bag drain over the pot for ten to fifteen minutes rather than squeezing it hard, since aggressive squeezing pushes tannins out of the grain husk and can leave the beer tasting astringent.</p><p>A large stock pot lid propped over the draining bag, or a purpose-built stand that suspends the bag directly over the empty kettle, both solve the same problem: giving the wort somewhere clean to drip into while the bag itself sits well clear of the floor or countertop.</p>"
+  ],
+  [
+   "Mash temperature still matters",
+   "<p>Nothing about the single-pot method changes the chemistry. You are still converting starch to sugar in the same 63 to 70 &#176;C window, and the same trade-off between fermentability and body still applies, covered fully in our <a href=\"mash-temperature-guide.html\">mash temperature guide</a>. Because you are mashing in a full volume of water rather than a thick, concentrated mash, BIAB tends to run slightly less efficient at pulling sugar out of the grain, so many BIAB recipes call for a little extra grain to compensate.</p>"
+  ],
+  [
+   "Where BIAB brewers go next",
+   "<p>Once you are comfortable with the single-pot method, the step up to a dedicated mash tun and separate boil kettle is mostly about batch size and convenience rather than beer quality. Plenty of serious homebrewers stay on BIAB permanently because it is simple, cheap and produces genuinely good beer. If your next question is what to do with the wort once the bag comes out, our guide on <a href=\"how-to-chill-wort-fast.html\">chilling wort fast</a> covers the step right after the boil.</p><p>Batch size is the other practical ceiling on a single-pot method: most home stoves and even outdoor burners struggle to heat and boil much beyond about 25 litres of water in a single pot within a reasonable time, which caps typical BIAB batches at a finished volume somewhere around 19 to 23 litres unless you invest in serious outdoor brewing equipment.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need a false bottom or a separate lauter tun for BIAB?",
+   "No. The mesh bag does the job of both, holding the grain during the mash and acting as a filter as you lift it out. That is the entire appeal of the method."
+  ],
+  [
+   "Is BIAB efficiency lower than a traditional three-vessel setup?",
+   "Slightly, in most cases, because you mash in a fuller, more dilute volume of water. Adding a small amount of extra grain to the recipe usually closes that gap without any other change."
+  ],
+  [
+   "Can I do a proper sparge with brew in a bag?",
+   "You can rinse the grain bag with a small amount of hot water after lifting it, which recovers a bit more sugar, though many BIAB brewers skip it entirely and just brew with a slightly larger grain bill instead."
+  ]
+ ],
+ "cta": {
+  "title": "Want the whole process, not just this piece of it",
+  "body": "Brewing Fundamentals is a 4 week live course that covers the whole grain-to-glass process, with weekly assignments and a certificate.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "first-homebrew-mistakes",
+  "cleaning-vs-sanitising-brewing",
+  "extract-vs-all-grain-brewing"
+ ]
+}

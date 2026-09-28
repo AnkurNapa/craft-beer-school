@@ -1,0 +1,75 @@
+{
+ "slug": "brettanomyces-explained",
+ "cat": "Ingredients",
+ "h1": "Brettanomyces explained",
+ "title": "Brettanomyces Explained | Craft Beer School",
+ "desc": "What Brettanomyces does to beer, the funky, farmhouse flavours it creates, and why most breweries keep it strictly separate from clean fermentation.",
+ "teaser": "Brett is either a beloved character strain or a contamination nightmare, depending entirely on whether you invited it in.",
+ "standfirst": "Brettanomyces is a wild yeast that most breweries spend real money keeping out, and a smaller group of brewers deliberately invite in for exactly the flavours it creates.",
+ "read": "3 min",
+ "updated": "2026-04-28",
+ "updated_label": "April 2026",
+ "sections": [
+  [
+   "What Brettanomyces is",
+   "<p>Brettanomyces, usually shortened to Brett, is a genus of yeast distinct from the Saccharomyces used in normal ale and lager fermentation. It occurs naturally on fruit skins and in the environment, and historically found its way into beer through open fermentation and old wooden barrels long before anyone understood what it was doing.</p><p>Left uncontrolled in a clean brewery, it is a contamination. Used deliberately, it is the backbone of an entire family of styles.</p>"
+  ],
+  [
+   "The flavours it creates",
+   "<p>Brett produces a distinctive range of aromas: barnyard, horse blanket, leather and hay on the earthier end, and bright pineapple or tropical fruit notes on the fruitier end, depending on the specific Brett strain and how long it has worked on the beer. It can also produce noticeable acidity over long ageing, though acidity itself usually comes more from accompanying bacteria in a mixed culture.</p>"
+  ],
+  [
+   "Why most breweries keep it out",
+   "<p>Brett is extremely persistent. Its spores can survive in wood, plastic tubing, gaskets and hard to clean corners of equipment for a very long time, and once established in a brewery it can turn up unwanted in beers that were never meant to have it. This is why breweries that run any Brett-fermented or barrel-aged programme almost always keep dedicated equipment, separate from anything touching their clean beer, and never share tubing, barrels or even some cleaning brushes between the two.</p><p>Even the air inside a room where Brett fermentation regularly happens can carry enough spores to be a slow contamination risk for equipment stored nearby, which is why serious Brett programmes often use a physically separate space, not just separate equipment within the same room.</p>"
+  ],
+  [
+   "Deliberate use: farmhouse and wild ales",
+   "<p>Traditional Belgian lambic and gueuze rely on wild fermentation where Brett is one of several organisms present alongside bacteria, working over months or years in barrels. Modern American wild ale and farmhouse styles often use isolated Brett strains in a more controlled, faster process, sometimes as a secondary fermentation on top of a normal Saccharomyces primary.</p><p>Both approaches trade fermentation speed and predictability for a flavour complexity that clean yeast alone cannot produce.</p>"
+  ],
+  [
+   "Working with Brett safely",
+   "<p>If you want to experiment, use fully dedicated fermenters, tubing and bottling equipment, and never let a Brett batch anywhere near your clean beer production line. Glass carboys and stainless steel are easier to keep genuinely clean between uses than plastic, which is more porous and harder to fully sanitise once Brett has been in contact with it.</p><p>Patience matters as much as equipment. Good Brett character usually needs months, not weeks, to develop properly. See our guide on <a href=\"adding-fruit-to-beer.html\">adding fruit to beer</a>, since fruit and Brett are often combined in the same wild or farmhouse recipes.</p><p>Plastic fermenters and hoses that have been exposed to Brett are generally best retired from clean beer use entirely rather than relied on after aggressive cleaning, since the material itself can harbour the organism in ways that are difficult to fully verify have been removed.</p>"
+  ],
+  [
+   "Primary Brett fermentation versus secondary addition",
+   "<p>Some brewers pitch Brett as the sole or primary fermenting organism from the start, a slower, more unpredictable process that gives Brett maximum influence over the beer's final character. Others ferment cleanly first with a standard Saccharomyces strain, then add Brett afterward as a secondary step, a more controlled approach that layers Brett character onto an already-stable base beer.</p>"
+  ],
+  [
+   "Testing for unwanted Brett contamination",
+   "<p>A beer showing an unexpected earthy or barnyard character weeks after packaging, in a brewery that does not deliberately use Brett, is worth investigating rather than dismissing, since it may indicate the organism has established itself somewhere in the equipment. Sending a sample to a lab for microbial testing is more reliable than trying to diagnose it by taste alone, since some Brett character can be subtle at first.</p>"
+  ],
+  [
+   "Acidity, bacteria and mixed cultures",
+   "<p>Brett alone typically does not produce much acidity on its own. The sharp sourness associated with lambic and similar styles usually comes from accompanying lactic and acetic acid bacteria working alongside Brett in a mixed culture, not from Brett itself. Understanding this distinction matters if you are trying to reproduce a specific flavour profile rather than an overall wild fermentation character.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is Brettanomyces dangerous to drink?",
+   "No, it is not a health risk. It changes flavour, sometimes dramatically, but it is not harmful in the way a pathogenic contamination would be."
+  ],
+  [
+   "Can I remove Brett from my brewery once it gets in?",
+   "It is very difficult, since it survives in porous materials and hard to reach spots. Dedicated equipment kept fully separate is the standard prevention, since removal after the fact is unreliable."
+  ],
+  [
+   "How long does a Brett beer need to age?",
+   "Commonly several months to over a year, depending on the strain, style and how strong a character you are aiming for."
+  ],
+  [
+   "Can I add Brett to a beer that already has regular yeast in it?",
+   "Yes, this is common practice, adding Brett as a secondary fermentation after a normal primary fermentation with Saccharomyces has finished."
+  ]
+ ],
+ "cta": {
+  "title": "Go deep on wild and farmhouse styles",
+  "body": "Style Specialisation is an 8-week live course that goes past what one guide can cover. It covers mixed fermentation, barrel programmes and Brett-specific process across a dedicated style track, beyond a single overview.",
+  "href": "style-specialization-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "adding-fruit-to-beer",
+  "brewing-with-indian-spices",
+  "kveik-yeast-for-hot-climates"
+ ]
+}

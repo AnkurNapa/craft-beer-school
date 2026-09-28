@@ -1,0 +1,63 @@
+{
+ "slug": "cold-crashing",
+ "cat": "Brewing science",
+ "h1": "Cold crashing",
+ "title": "Cold Crashing Beer Explained | Craft Beer School",
+ "desc": "What cold crashing does, how fast to do it, and why timing it against fermentation matters more than the temperature itself.",
+ "teaser": "Dropping the temperature hard for a day or two clears a beer faster than waiting it out at fermentation temperature ever will.",
+ "standfirst": "Cold crashing is a quick, deliberate temperature drop that pulls yeast and haze-forming particles out of suspension before packaging or transfer.",
+ "read": "3 min",
+ "updated": "2024-07-02",
+ "updated_label": "July 2024",
+ "sections": [
+  [
+   "What cold crashing does",
+   "<p>Cold crashing drops fermented beer's temperature sharply, often to near 0 to 2 degrees Celsius, over a day or two. The cold encourages yeast to flocculate faster and causes proteins and polyphenols to bind into chill haze particles, both of which then settle to the bottom of the vessel under gravity, leaving clearer beer above.</p><p>Pressure inside a sealed fermenter rises as temperature drops if the vessel cannot vent, since dissolved CO2 behaves differently at different temperatures. Breweries crashing in a sealed, pressure-rated vessel need to manage this deliberately, either venting in a controlled way or accounting for the pressure change in their process.</p>"
+  ],
+  [
+   "Why timing matters more than temperature",
+   "<p>Cold crashing before fermentation and any <a href=\"diacetyl-rest.html\">diacetyl rest</a> are fully finished is the most common mistake. Cold temperature slows yeast metabolism sharply, which locks in whatever cleanup was still incomplete, most notably diacetyl. Confirm the beer has reached final gravity and tastes clean before starting the crash, rather than crashing on a schedule.</p><p>Crashing in a conical fermenter allows yeast to be harvested from the cone partway through the process, useful for breweries repitching yeast for the next batch, since the cold, compacted yeast at the bottom of a crashed cone is generally healthier to harvest than yeast left warm and active for longer.</p>"
+  ],
+  [
+   "How fast is too fast",
+   "<p>A very rapid drop can shock a still-active yeast population and, in some cases, cause it to release compounds from dying or stressed cells back into the beer. A controlled drop over 24 to 48 hours, rather than an instant plunge, generally gives the cleanest result while still being fast enough to count as a crash rather than a slow lagering rest.</p> A quick taste and gravity check immediately before crashing, not just before starting the diacetyl rest, catches any late drift that could still need attention.<p>A beer crashed hard but still cloudy is worth diagnosing rather than simply crashing for longer. Persistent haze despite a proper cold crash points toward one of the other haze mechanisms covered under what causes haze in beer, since cold crashing only addresses the temperature-dependent chill haze and settled yeast, not starch or biological haze.</p>"
+  ],
+  [
+   "What it does not fix",
+   "<p>Cold crashing settles what is already in suspension, it does not remove dissolved oxygen, correct an infection, or reverse oxidation. It is a clarity and yeast-drop tool, not a general purpose fix for a flawed batch. Beer that is hazy from starch, from an active infection or from permanent oxidised haze will not clear with cold alone.</p> A brewery running several fermenters at once benefits from staggering crash schedules slightly rather than demanding full glycol capacity from every vessel at the same moment, which keeps the whole cellar's cooling load manageable.<p>Some breweries use a two-stage approach, a moderate crash followed by fining, rather than relying on an extreme temperature drop alone. This can reach similar clarity with less risk of the yeast stress issues that a very rapid, very cold crash can sometimes cause in a still-active population.</p>"
+  ],
+  [
+   "Cold crashing versus lagering",
+   "<p>Cold crashing is short and sharp, aimed mainly at dropping yeast quickly before kegging, bottling or transfer to a bright tank. <a href=\"lagering-explained.html\">Lagering</a> is a much longer, gentler cold rest that also matures flavour. Many production schedules use both, a short crash followed by filtration or fining, or a crash that simply shortens the wait before a full lager rest.</p><p>Fermenter design affects how evenly a crash actually chills the beer. A large, unstirred cylindroconical vessel can take considerably longer to reach a uniform temperature throughout than a smaller vessel or one with active glycol jacketing across its full height, so two systems labelled as running the same crash schedule may not be delivering the same result in practice.</p><p>Whatever the exact schedule, logging crash duration and starting gravity against final clarity results over several batches turns cold crashing from a fixed recipe step into a tuned part of a brewery's own process, adjusted to its own yeast strains and fermenter design.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should a cold crash take?",
+   "Twenty-four to forty-eight hours is typical for most homebrew and small batch fermenters, reaching near 0 to 2 degrees Celsius."
+  ],
+  [
+   "Can you cold crash too early?",
+   "Yes. Crashing before fermentation and diacetyl cleanup are complete locks in unfinished flavours, particularly diacetyl, since cold temperature stops yeast from finishing that work."
+  ],
+  [
+   "Does cold crashing remove the need for finings?",
+   "It reduces the need but many brewers still add gelatin or another fining agent during or after the crash for faster, more complete clarity."
+  ],
+  [
+   "Why does my beer look hazier again after warming up?",
+   "That is usually chill haze, a reversible haze from proteins and polyphenols that reforms at cold temperature and redissolves as the beer warms. It is different from a permanent, oxidised haze."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to schedule cold crashing against fermentation completion, and how it fits with fining and filtration in a full clarity strategy. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "clarifying-beer-finings",
+  "beer-filtration-basics",
+  "lagering-explained"
+ ]
+}

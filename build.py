@@ -12,8 +12,7 @@ import re
 from urllib.parse import quote
 import article_render
 import course_pages
-import articles_a
-import articles_b
+import articles_all
 import pages_a
 import pages_b
 import seo
@@ -269,7 +268,7 @@ def page(slug, title, desc, active, body):
 </html>"""))
 
 
-ARTICLES = articles_a.ARTICLES_A + articles_b.ARTICLES_B
+ARTICLES = articles_all.ARTICLES
 
 
 def _course_cta(article):
@@ -303,7 +302,7 @@ PAGES = {
                         "resources", pages_a.RESOURCES),
     "blog.html":      ("Blog and Podcasts | Craft Beer School",
                         "Insights from the brewing world, quality, marketing, tasting and the business of beer, plus our podcast conversations with industry voices.",
-                        "blog", article_render.blog_index(ARTICLES, _BLOG_BANNER)),
+                        "blog", article_render.blog_index(ARTICLES, _BLOG_BANNER, articles_all.SEGMENT, articles_all.SEGMENTS)),
     "careers.html":   ("Careers and Mentors | Craft Beer School",
                         "Become a CBS mentor or join the team. Help India learn beer, grain to glass. Open roles and the mentor application.",
                         "careers", pages_b.CAREERS),

@@ -1,0 +1,63 @@
+{
+ "slug": "beer-haze-causes",
+ "cat": "Brewing science",
+ "h1": "What causes haze in beer",
+ "title": "What Causes Haze in Beer | Craft Beer School",
+ "desc": "The different kinds of beer haze, which ones are reversible, and which mean something has actually gone wrong.",
+ "teaser": "Not all haze is the same problem, and treating a permanent haze like a chill haze wastes time chasing a fix that was never going to work.",
+ "standfirst": "Haze has at least four distinct causes, and telling them apart, rather than reaching for finings by default, is what actually gets a beer clear again.",
+ "read": "3 min",
+ "updated": "2025-04-11",
+ "updated_label": "April 2025",
+ "sections": [
+  [
+   "Chill haze: the reversible kind",
+   "<p>Chill haze forms when proteins and polyphenols bind together at low temperature, creating fine particles that scatter light. Because the bond is temperature dependent, chill haze redissolves and the beer clears again as it warms up. It is the haze most directly addressed by <a href=\"clarifying-beer-finings.html\">fining agents</a> and by extended <a href=\"cold-crashing.html\">cold crashing</a> or lagering.</p><p>Protein-based haze from the mash side traces back to malt selection and mash temperature as much as anything downstream. A mash run at the low end of the saccharification range favours more protein breakdown into haze-active fragments than one run slightly warmer, which is one more way mash technique echoes all the way through to packaged clarity.</p>"
+  ],
+  [
+   "Permanent haze: what oxidation leaves behind",
+   "<p>Given enough time, oxidation can convert the same protein-polyphenol bonds behind chill haze into a permanent, irreversible form that does not clear with warming. Oxygen pickup after fermentation is usually the root cause, connecting this kind of haze directly to packaging and transfer practice rather than to the recipe.</p><p>Polyphenol contribution is not only from malt. Hop material, particularly whole cone hops and heavy dry hop rates, adds its own polyphenol load, which is part of why hazy, heavily dry hopped styles need a different clarity strategy than a clean lager relying only on malt-derived haze precursors.</p>"
+  ],
+  [
+   "Biological haze: something is growing in there",
+   "<p>A haze that appears unexpectedly, especially alongside off flavours, unusual gushing or sourness, points at wild yeast or bacterial contamination rather than a chemical haze. This is covered in depth under <a href=\"infection-bacteria-in-brewing.html\">bacteria and infection risks</a>, and it is the one type of haze that should prompt a hygiene and process review rather than a fining addition.</p> Keeping a small reference sample from each batch, tasted and inspected again weeks later, makes it easier to tell whether a haze developed over time or was present from the start.<p>Testing for the specific haze type rather than guessing saves real time. A simple warm and cold comparison distinguishes chill haze from permanent haze in minutes, an iodine test confirms or rules out starch, and a taste alongside any sourness or off character points toward biological causes, all faster and more reliable than trying multiple fining agents in sequence and hoping one works.</p>"
+  ],
+  [
+   "Starch haze: an unfinished mash",
+   "<p>Incomplete starch conversion during the mash, from an underperforming enzyme step, an off mash pH outside the 5.2 to 5.6 range, or a rushed conversion rest, leaves unconverted starch in the finished beer. Starch haze often shows a distinctive dull, opaque quality and can be confirmed with a simple iodine test on a wort or beer sample.</p> Sharing this kind of diagnosis with a lab partner, where one is available, adds a layer of confirmation beyond what visual and taste testing alone can offer, particularly for a haze that keeps recurring despite process changes.<p>Water chemistry can contribute to haze indirectly, since certain mineral profiles affect how readily proteins and polyphenols bind together at a given temperature. This is a secondary factor compared with mash and process control, but worth checking if a haze problem persists despite otherwise sound technique.</p>"
+  ],
+  [
+   "Deliberate haze in hazy styles",
+   "<p>Some modern styles, particularly juicy or hazy IPAs, use haze deliberately, built from wheat or oat protein, hop-derived polyphenols and oils, and yeast held in suspension rather than settled or filtered out. This is a formulated haze rather than a fault, and treating it as a problem to fine or filter away defeats the style's intent.</p><p>Seasonal variation in raw materials can quietly shift a beer's haze tendency even when the recipe on paper has not changed. A different malt harvest year or a new hop lot can carry a different protein or polyphenol load than the batch before it, which is one more reason a recurring haze problem is worth investigating as a possible ingredient shift rather than assuming the process itself has failed.</p><p>For breweries selling into markets that expect brilliant clarity as a quality signal, investing time in understanding which haze type is present pays back directly, since the wrong fix, filtering hard against a starch haze, for instance, wastes materials and beer character without solving the actual problem.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I know if my haze is chill haze or permanent?",
+   "Chill haze clears when the beer warms to room temperature and returns when it is chilled again. Permanent haze stays regardless of temperature."
+  ],
+  [
+   "Can starch haze be fixed after fermentation?",
+   "No. It traces back to an incomplete mash conversion and cannot be reversed after the fact. Prevention means checking mash pH, rest time and conversion completeness with an iodine test."
+  ],
+  [
+   "Is all haze a sign of a problem?",
+   "No. Deliberately hazy styles build haze into the recipe on purpose, using wheat, oats, hops and yeast in suspension. Haze is only a fault when it is unintended or unstable."
+  ],
+  [
+   "What is the fastest way to check for biological haze?",
+   "Look for accompanying signs such as sourness, gushing or off flavours rather than haze alone, and consider plating a sample if contamination is suspected."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to stop guessing and start measuring?",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to diagnose and fix each type of haze properly, rather than treating every cloudy beer with the same fining or filtration step. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "hop-creep",
+  "oxygen-pickup-in-packaging",
+  "beer-foam-science"
+ ]
+}

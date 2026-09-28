@@ -1,0 +1,75 @@
+# Writer brief: Craft Beer School seeded articles
+
+You are writing guides for craftbeerschool.in, an Indian online beer school. Each
+guide is one JSON file at `content/articles/<slug>.json`. Your batch of slugs is in
+your task prompt. Every guide's plan (h1, category, segment, funnel stage, course,
+related slugs, date) is in `content/plan.json`. Use those values exactly.
+
+## Read these first
+
+1. `~/.claude/skills/humanizer/SKILL.md` and `~/.claude/skills/humanizer/references/patterns.md`. Apply them silently to everything you write.
+2. The reference guide, to match voice and depth:
+   `python3 -c "import articles_a,json;print(json.dumps(articles_a.ARTICLES_A[3],indent=1,ensure_ascii=False))"`
+   Run it from `/Users/ankurnapa/Documents/craft-beer-school`.
+
+## Voice
+
+- The school speaks as "we": working brewers who teach. Plain, direct, practical. A little dry wit is fine. No hype.
+- Write for the plan's `segment`. A beer lover needs no jargon. A professional brewer wants numbers and mechanisms.
+- Ground it in India where it is natural: heat, the cold chain, borewell and municipal water, rice and maize adjuncts, rupees, state-by-state excise, Indian food. Do not force it into every paragraph.
+- One concrete brewhouse-floor detail per guide, used precisely. For example, a real temperature, a real piece of kit or a real failure. Not five.
+- British English throughout: colour, flavour, litre, optimise, sanitise, pasteurise, analyse, fibre, grey, mould, programme, centre.
+
+## Hard rules (the validator enforces these)
+
+- No em dash, en dash, curly quotes or double spaces anywhere. Use commas, colons, full stops or parentheses. Straight quotes only.
+- None of these words: delve, tapestry, landscape, seamless, unlock, empower, leverage, pivotal, crucial, embark, elevate, game changer, testament, realm, "in conclusion", "it's important to note".
+- Avoid the other tells too: "not just X but Y", rule-of-three padding, "serves as", closing summaries, rhetorical-question openers.
+- Accuracy first. Use standard, well-established brewing values (for example ABV = (OG - FG) x 131.25, lager fermentation around 8 to 13 °C, mash pH 5.2 to 5.6). Never invent statistics, studies, surveys, named experts, quotes, prices, licence fees or legal section numbers. For Indian regulation, describe the process and say that rules and fees vary by state and change, so readers should check the current notification or ask a licensing consultant.
+- No medical or health claims about beer. Nothing that encourages heavy or underage drinking.
+
+## JSON shape (exactly these keys)
+
+```json
+{
+ "slug": "<slug>",
+ "cat": "<plan cat>",
+ "h1": "<plan h1, you may polish wording but keep the meaning>",
+ "title": "<under 60 chars total, ending exactly ' | Craft Beer School'>",
+ "desc": "<meta description, 50 to 160 chars, says what the reader gets>",
+ "teaser": "<one or two short sentences for the card, makes someone click>",
+ "standfirst": "<two or three sentences under the headline, the promise of the piece>",
+ "read": "<N min, where N = round(body words / 200), minimum 3>",
+ "updated": "<plan date, YYYY-MM-DD>",
+ "updated_label": "<Month YYYY of that date, e.g. October 2021>",
+ "sections": [["<sentence-case heading>", "<p>HTML body</p>"], "... 5 to 8 sections"],
+ "faqs": [["<question?>", "<plain-text answer, 1 to 3 sentences>"], "... 3 or 4"],
+ "cta": {"title": "...", "body": "...", "href": "<plan course>", "label": "..."},
+ "related": ["<exactly the plan's related list>"]
+}
+```
+
+- Body total 650 to 1200 words across sections. Aim for about 800.
+- Section HTML may use only `<p> <strong> <em> <ul> <ol> <li> <a> <br>`. Headings are sentence case.
+- Include one to three internal links inside the body, `<a href="<slug>.html">`, to other slugs in `content/plan.json` or to these existing guides: what-is-craft-beer, beer-styles-guide, how-to-taste-beer, beer-off-flavours, craft-beer-in-india, start-a-microbrewery-india, become-a-brewer-india, brewing-for-india. Link where a reader would genuinely want to go next.
+- Date-appropriate: the guide is dated at its plan date. Do not mention events after that date or call anything "new in 2026" in a 2022 piece.
+
+## The funnel (the CTA is the point of the piece)
+
+The CTA sells the course at the plan's `course` page. Its copy depends on the plan's `stage`:
+
+- `awareness`: the reader is curious, not shopping. Soft. Title names the next thing they would enjoy learning. Body says what the course covers in one or two sentences. Label: "See what the course covers".
+- `consideration`: the reader is trying to do the thing. Title names the problem the course solves. Body names the course, its length and what it teaches that this guide could not. Label: "See the full syllabus".
+- `decision`: the reader is planning a move (a brewery, a career, going pro). Direct. Title is an invitation. Body: live weekend classes, max 20 per batch, certificate. Label: "Save your seat".
+
+The CTA is shown twice (mid-article and at the end), so it must read well in both places. Also let the body earn it: at least one moment in the guide should make the reader feel the gap that the course fills, without turning into an advert.
+
+Course facts you may use: all courses are live online on Saturdays and Sundays, 12:00 PM to 2:00 PM IST, max 20 students, with recordings, weekly assignments and a certificate. Durations and fees: Brewing Fundamentals 4 weeks, Rs 5,999; Advanced Brewing Science 6 weeks, Rs 12,999; Brewery Business Management 3 weeks, Rs 8,999; Style Specialization 8 weeks, Rs 18,999; Beer Branding & Packaging 3 weeks, Rs 4,999; Sensory Evaluation 2 weeks, Rs 5,999. Write the rupee sign as ₹. Do not mention fees in pieces dated before 2026 (prices change), and never promise refunds or discounts.
+
+## Workflow
+
+1. Write each file (use the Write tool, or a short Python script with `json.dump(..., ensure_ascii=False, indent=1)`).
+2. Run `python3 validate_articles.py <your slugs...>` from the repo folder. Fix every failure and rerun until your whole batch passes.
+3. Reread two of your guides as a sceptical brewer would. Fix anything vague, wrong or AI-sounding.
+4. Only touch your own slugs' files. Do not edit any other file in the repo.
+5. Report back in five lines or fewer: how many passed, and anything you were unsure was factually right.
