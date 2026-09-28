@@ -62,7 +62,7 @@ CAREERS = banner("Careers","Careers &amp; Mentors","Help India learn beer.",
 """
 
 # ============================================================================
-CONTACT = banner("Contact","Contact &amp; Enroll","Let's get you pouring.",
+CONTACT = banner("Contact","Contact &amp; Enrol","Let's get you pouring.",
     "Enrol, ask a question or book a tasting. We reply within 24 hours.") + """
 <section>
   <div class="wrap split">

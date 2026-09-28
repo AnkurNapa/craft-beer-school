@@ -108,13 +108,13 @@ def nav(active):
     <a href="index.html" class="brand" aria-label="Craft Beer School home"><img src="assets/logo.png" alt="Craft Beer School" class="brand-logo" width="118" height="146" /></a>
     <div class="navlinks" id="navlinks">
       {links}
-      <a href="{ENROLL_HREF}" class="nav-cta" data-cta="nav-enroll">Enroll</a>
+      <a href="{ENROLL_HREF}" class="nav-cta" data-cta="nav-enroll">Enrol</a>
     </div>
     <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">☰</button>
   </nav>
 </header>
 <div class="mobile-cta">
-  <a class="btn btn-amber" href="{ENROLL_HREF}" data-cta="mobile-enroll">Enroll now</a>
+  <a class="btn btn-amber" href="{ENROLL_HREF}" data-cta="mobile-enroll">Enrol now</a>
   <a class="btn btn-wa" href="{whatsapp_href()}" target="_blank" rel="noopener" data-cta="mobile-whatsapp">[[whatsapp]] WhatsApp</a>
 </div>"""
 
@@ -136,7 +136,7 @@ FOOTER = """
       <li><a href="about.html">About us</a></li>
       <li><a href="careers.html">Careers &amp; Mentors</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="__ENROLL__" data-cta="footer-enroll">Enroll</a></li>
+      <li><a href="__ENROLL__" data-cta="footer-enroll">Enrol</a></li>
     </ul></div>
     <div><h4>Contact</h4><ul>
       <li><a href="__WA__" target="_blank" rel="noopener" data-cta="footer-whatsapp">WhatsApp us</a></li>
@@ -270,6 +270,19 @@ def page(slug, title, desc, active, body):
 
 
 ARTICLES = articles_a.ARTICLES_A + articles_b.ARTICLES_B
+
+
+def _course_cta(article):
+    """Send an article's course CTA to that course's own page, not the grid."""
+    cta = article["cta"]
+    hit = next((c for c in pages_a.COURSE_DATA
+                if cta["body"].startswith(c["name"].replace("&amp;", "&"))), None)
+    if not hit or cta["href"] != "courses.html":
+        return article
+    return {**article, "cta": {**cta, "href": pages_a.course_href(hit["name"])}}
+
+
+ARTICLES = [_course_cta(a) for a in ARTICLES]
 BY_SLUG = {a["slug"]: a for a in ARTICLES}
 
 # Reuse the existing blog banner, then list the real guides underneath it.

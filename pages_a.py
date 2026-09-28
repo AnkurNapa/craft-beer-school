@@ -27,7 +27,7 @@ def course(no, tag, dur, name, blurb, items, price, ph):
     <p>{blurb}</p>
     <ul>{lis}</ul>
     <a href="{course_href(name)}" class="link-arrow" data-cta="course-syllabus">Full syllabus</a>
-    <div class="foot"><span class="price">{price}</span><a href="{enroll_href(name)}" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enroll in {name}">Enroll</a></div>
+    <div class="foot"><span class="price">{price}</span><a href="{enroll_href(name)}" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enrol in {name}">Enrol</a></div>
   </div>
 </article>"""
 
@@ -35,27 +35,27 @@ def course(no, tag, dur, name, blurb, items, price, ph):
 # structured data can never drift from what is on the page.
 COURSE_DATA = [
     dict(no="01", tag="Foundations", dur="4 Weeks", weeks=4, name="Brewing Fundamentals",
-         blurb="The science of brewing, ingredients, equipment, technique. Online sessions plus your first real recipe.",
+         blurb="The science of brewing: ingredients, equipment and technique. Live online sessions, plus your first real recipe.",
          items=["Brewing science &amp; theory","Raw materials &amp; quality","Equipment &amp; sanitation","Recipe formulation basics"],
          price="₹5,999", amount="5999"),
     dict(no="02", tag="Deep Craft", dur="6 Weeks", weeks=6, name="Advanced Brewing Science",
          blurb="Go deeper into chemistry, microbiology and advanced fermentation for serious brewers and pros.",
-         items=["Microbiology &amp; fermentation","Water chemistry optimization","Advanced mashing techniques","Quality assurance &amp; control"],
+         items=["Microbiology &amp; fermentation","Water chemistry optimisation","Advanced mashing techniques","Quality assurance &amp; control"],
          price="₹12,999", amount="12999"),
     dict(no="03", tag="Business", dur="3 Weeks", weeks=3, name="Brewery Business Management",
-         blurb="The business behind the brew, plan, launch and grow a brewery, from finance to distribution.",
+         blurb="The business behind the brew: plan, launch and grow a brewery, from finance to distribution.",
          items=["Business planning &amp; finance","Licensing &amp; regulations","Marketing &amp; branding","Distribution strategies"],
          price="₹8,999", amount="8999"),
     dict(no="04", tag="Mastery", dur="8 Weeks", weeks=8, name="Style Specialization",
-         blurb="Master IPAs, stouts, lagers, sours and Belgian ales, history, technique and award-winning versions.",
-         items=["Style guidelines &amp; origins","Specialized techniques","Ingredient selection &amp; pairing","Competition brewing skills"],
+         blurb="Master IPAs, stouts, lagers, sours and Belgian ales: their history, technique and award-winning examples.",
+         items=["Style guidelines &amp; origins","Specialised techniques","Ingredient selection &amp; pairing","Competition brewing skills"],
          price="₹18,999", amount="18999"),
     dict(no="05", tag="Brand", dur="3 Weeks", weeks=3, name="Beer Branding &amp; Packaging",
-         blurb="Build a beer brand that stands out and packaging that sells, for aspiring brewers and founders.",
+         blurb="Build a beer brand that stands out and packaging that sells. Made for aspiring brewers and founders.",
          items=["Build your brand identity","Design packaging that pops","Launch planning &amp; promotion","Certificate &amp; community access"],
          price="₹4,999", amount="4999"),
     dict(no="06", tag="Palate", dur="2 Weeks", weeks=2, name="Sensory Evaluation",
-         blurb="Train your palate like a pro, taste, identify off-flavours and score beer with real sensory methods.",
+         blurb="Train your palate like a pro: taste, identify off-flavours and score beer with real sensory methods.",
          items=["Flavour chemistry","Tasting techniques","Off-flavour identification","Quality scoring systems"],
          price="₹5,999", amount="5999"),
 ]
@@ -156,7 +156,7 @@ HOME = f"""
   <div class="wrap">
     <h2>Join the Craft Beer School &amp; brew your future.</h2>
     <p>Open to beer lovers, professionals and future brewery founders, in India and across the world.</p>
-    <a href="contact.html#enroll" class="btn btn-amber" data-cta="enroll-now">Enroll now</a>
+    <a href="contact.html#enroll" class="btn btn-amber" data-cta="enroll-now">Enrol now</a>
   </div>
 </section>
 """
@@ -230,7 +230,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
       <article class="card reveal"><div class="card-body"><span class="cat">1 Day · Intensive</span><h3>1-Day Super Intensive Craft Beer Course</h3><p>Step into a real microbrewery for a full day, from raw materials to a finished pour, condensed into one focused classroom-plus-brewery session.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="cat">1 Month · Advanced</span><h3>1-Month Advanced Craft Beer Brewing Course</h3><p>Homebrewer to beer founder, an advanced, hands-on programme with focused mentorship over four weeks.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="cat">1 Day · At Home</span><h3>1-Day Home Visit Brewing Course</h3><p>Our brew master comes to your home with all the equipment and ingredients needed to brew your first batch, start to finish.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="cat">2 Hours · Tasting</span><h3>2-Hour Craft Beer Tasting Course</h3><p>A guided tasting flight in Bengaluru, learn to read aroma, flavour and style in two focused hours.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
+      <article class="card reveal"><div class="card-body"><span class="cat">2 Hours · Tasting</span><h3>2-Hour Craft Beer Tasting Course</h3><p>A guided tasting flight in Bengaluru. Learn to read aroma, flavour and style in two focused hours.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
     </div>
   </div>
 </section>
@@ -248,7 +248,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
   </div>
 </section>
 
-<section class="cta"><div class="wrap"><h2>Not sure which course fits?</h2><p>Tell us where you are and where you want to go, we'll point you to the right pour.</p><a href="contact.html#enroll" class="btn btn-amber" data-cta="get-a-recommendation">Get a recommendation</a></div></section>
+<section class="cta"><div class="wrap"><h2>Not sure which course fits?</h2><p>Tell us where you are and where you want to go. We'll point you to the right pour.</p><a href="contact.html#enroll" class="btn btn-amber" data-cta="get-a-recommendation">Get a recommendation</a></div></section>
 """
 
 # ============================================================================
