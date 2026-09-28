@@ -332,3 +332,24 @@ footer.site a:hover{color:#fff}
 .faq-block p{margin:.7rem 0 0;color:var(--muted);font-size:.97rem}
 .card .foot .read{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;
                   text-transform:uppercase;color:var(--muted);margin-left:auto}
+
+/* ---- Course detail pages ---------------------------------- */
+.course-facts{display:flex;flex-wrap:wrap;gap:1.2rem 2.4rem;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:1.4rem 1.8rem;margin-top:-1.6rem;position:relative}
+.course-facts span{display:block;font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+.course-facts b{font-family:var(--head);font-size:1.15rem;color:var(--navy)}
+.course-facts .btn{margin-left:auto}
+.banner .crumbs a{color:inherit;text-decoration:underline}
+.course-card h3 a{color:inherit}
+.course-card h3 a:hover{color:var(--blue)}
+.course-card .link-arrow{font-size:.9rem;margin-bottom:.4rem}
+.syllabus{max-width:none}
+.syllabus summary{font-family:var(--head);font-weight:700}
+.syllabus .wk{padding:0 0 1.3rem}
+.syllabus .wk-meta{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--amber-deep);padding:0}
+.syllabus .checklist{margin:.8rem 0}
+.syllabus details p.wk-task{padding:.9rem 1.1rem;background:var(--paper);border-left:3px solid var(--amber);border-radius:6px;color:var(--ink)}
+.logistics{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+.logistics div{border-top:2px solid var(--line);padding-top:1rem}
+.logistics dt{font-family:var(--head);font-weight:700;color:var(--navy);margin-bottom:.3rem}
+.logistics dd{margin:0;font-size:.92rem;color:var(--ink-soft)}
+@media (max-width:760px){.logistics{grid-template-columns:1fr}.course-facts .btn{margin-left:0;width:100%;justify-content:center}}

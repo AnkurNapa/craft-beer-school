@@ -41,6 +41,9 @@ PAGE_WEIGHT = {
     "refund.html": ("0.2", "yearly"),
 }
 
+for _c in pages_a.COURSE_DATA:
+    PAGE_WEIGHT[pages_a.course_href(_c["name"])] = ("0.9", "weekly")
+
 for _a in ARTICLES:
     PAGE_WEIGHT[f"{_a['slug']}.html"] = ("0.8", "monthly")
 
@@ -115,6 +118,13 @@ def _breadcrumbs(slug):
         items.append({"@type": "ListItem", "position": 3, "name": _strip(art["h1"]),
                       "item": url_for(slug)})
         return {"@type": "BreadcrumbList", "itemListElement": items}
+    course = _course_for(slug)
+    if course:
+        items.append({"@type": "ListItem", "position": 2, "name": "Courses",
+                      "item": url_for("courses.html")})
+        items.append({"@type": "ListItem", "position": 3, "name": _strip(course["name"]),
+                      "item": url_for(slug)})
+        return {"@type": "BreadcrumbList", "itemListElement": items}
     label = BREADCRUMB_LABEL.get(slug)
     if label:
         items.append({"@type": "ListItem", "position": 2, "name": label,
@@ -122,28 +132,36 @@ def _breadcrumbs(slug):
     return {"@type": "BreadcrumbList", "itemListElement": items}
 
 
-def _courses():
+def _course_for(slug):
+    return next((c for c in pages_a.COURSE_DATA if pages_a.course_href(c["name"]) == slug), None)
+
+
+def _courses(only=None):
     """One Course node per real course, priced in INR.
 
     hasCourseInstance is required for Course rich results; without it the
     markup validates but earns no enhanced listing.
     """
     out = []
-    for c in pages_a.COURSE_DATA:
+    for c in [only] if only else pages_a.COURSE_DATA:
         name = _strip(c["name"])
+        page = url_for(pages_a.course_href(c["name"]))
         out.append({
             "@type": "Course",
-            "@id": f"{SITE_URL}/courses.html#{name.lower().replace(' ', '-')}",
+            "@id": page + "#course",
             "name": name,
             "description": _strip(c["blurb"]),
             "provider": {"@id": f"{SITE_URL}/#organization"},
-            "url": f"{SITE_URL}/courses.html",
+            "url": page,
             "inLanguage": "en-IN",
             "teaches": [_strip(i) for i in c["items"]],
             "educationalLevel": c["tag"],
             "hasCourseInstance": [{
                 "@type": "CourseInstance",
                 "courseMode": "Online",
+                "courseSchedule": {"@type": "Schedule", "repeatFrequency": "P1W",
+                                   "byDay": ["https://schema.org/Saturday", "https://schema.org/Sunday"],
+                                   "startTime": "12:00", "endTime": "14:00"},
                 "courseWorkload": f"P{c['weeks']}W",
                 "instructor": {"@id": f"{SITE_URL}/#organization"},
             }],
@@ -214,6 +232,8 @@ def jsonld(slug, title, desc):
     }]
     if slug == "courses.html":
         graph.extend(_courses())
+    if _course_for(slug):
+        graph.extend(_courses(_course_for(slug)))
     if slug == "faq.html":
         graph.append(_faq())
     art = _article_for(slug)
@@ -317,7 +337,7 @@ def llms_txt():
         "",
     ]
     for c in pages_a.COURSE_DATA:
-        lines.append(f"- [{_strip(c['name'])}]({SITE_URL}/courses.html): "
+        lines.append(f"- [{_strip(c['name'])}]({url_for(pages_a.course_href(c['name']))}): "
                      f"{_strip(c['blurb'])} Duration {c['dur']}. Price INR {c['amount']}.")
     lines += [
         "",
@@ -339,6 +359,8 @@ def llms_txt():
         "## Facts",
         "",
         "- Format: live online sessions plus hands-on in-person brewery workshops.",
+        "- Online schedule: Saturdays and Sundays, 12:00 PM to 2:00 PM IST, max 20 students per batch.",
+        "- Certificate of Completion needs all assignments and at least 80% attendance.",
         "- Certification support: WSET and Cicerone preparation.",
         "- Cohorts are deliberately small, with one-to-one mentorship.",
         f"- Contact: {EMAIL}, {PHONE}.",

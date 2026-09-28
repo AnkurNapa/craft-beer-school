@@ -33,6 +33,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500;1,9..144,600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["EducationalOrganization","LocalBusiness"],"@id":"https://craftbeerschool.in/#organization","name":"Craft Beer School","url":"https://craftbeerschool.in","logo":{"@type":"ImageObject","url":"https://craftbeerschool.in/assets/logo.png"},"image":"https://craftbeerschool.in/assets/og-default.png","description":"India's online and in-person beer school teaching brewing, tasting, branding and the business of beer, grain to glass.","email":"chatty@cheerschattyventures.com","telephone":"+91-98209-25347","address":{"@type":"PostalAddress","addressLocality":"Bengaluru","addressCountry":"IN"},"areaServed":{"@type":"Country","name":"India"},"knowsAbout":["Brewing","Craft beer","Beer sensory evaluation","Brewery business management","Beer styles","WSET","Cicerone"]},{"@type":"WebSite","@id":"https://craftbeerschool.in/#website","url":"https://craftbeerschool.in","name":"Craft Beer School","publisher":{"@id":"https://craftbeerschool.in/#organization"},"inLanguage":"en-IN"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://craftbeerschool.in/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://craftbeerschool.in/blog.html"},{"@type":"ListItem","position":3,"name":"Brewing for Indian heat, water and palates","item":"https://craftbeerschool.in/brewing-for-india.html"}]},{"@type":"WebPage","@id":"https://craftbeerschool.in/brewing-for-india.html#webpage","url":"https://craftbeerschool.in/brewing-for-india.html","name":"Brewing for Indian Heat and Water | Craft Beer School","description":"How heat, water chemistry, imported ingredients and the cold chain change brewing decisions in India, and which styles genuinely work here.","isPartOf":{"@id":"https://craftbeerschool.in/#website"},"about":{"@id":"https://craftbeerschool.in/#organization"},"inLanguage":"en-IN"},{"@type":"Article","@id":"https://craftbeerschool.in/brewing-for-india.html#article","headline":"Brewing for Indian heat, water and palates","description":"How heat, water chemistry, imported ingredients and the cold chain change brewing decisions in India, and which styles genuinely work here.","articleSection":"Craft","url":"https://craftbeerschool.in/brewing-for-india.html","datePublished":"2026-09-03","dateModified":"2026-09-03","inLanguage":"en-IN","isPartOf":{"@id":"https://craftbeerschool.in/#website"},"mainEntityOfPage":{"@id":"https://craftbeerschool.in/brewing-for-india.html#webpage"},"author":{"@id":"https://craftbeerschool.in/#organization"},"publisher":{"@id":"https://craftbeerschool.in/#organization"},"image":"https://craftbeerschool.in/assets/og-default.png","about":{"@id":"https://craftbeerschool.in/#organization"}},{"@type":"FAQPage","@id":"https://craftbeerschool.in/brewing-for-india.html#faq","mainEntity":[{"@type":"Question","name":"Does Indian brewing water need treatment?","acceptedAnswer":{"@type":"Answer","text":"Almost always. At minimum remove chlorine or chloramine with carbon filtration, because it causes medicinal off flavours. Beyond that, test your source and adjust mineral balance to suit the styles you brew."}},{"@type":"Question","name":"Why does my beer taste hot or solventy?","acceptedAnswer":{"@type":"Answer","text":"Usually fermentation ran warmer than intended, producing fusel alcohols. In Indian conditions that generally points at cooling capacity rather than the recipe or the yeast."}},{"@type":"Question","name":"Which beer styles sell best in India?","acceptedAnswer":{"@type":"Answer","text":"Wheat beers convert new drinkers most reliably, and lagers drive volume in a mature venue. Hoppy styles are popular but demand real cold chain discipline because their aroma fades quickly."}},{"@type":"Question","name":"How cold should beer be served?","acceptedAnswer":{"@type":"Answer","text":"Cooler than most Indian venues pour it. Around 6 to 8 degrees Celsius for lagers and slightly warmer for ales lets the aroma and flavour actually reach the drinker."}}]}]}</script>
+
 </head>
 <body>
 <div class="announce">Now enrolling, the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
@@ -262,15 +263,18 @@ if(wanted){
   }
 }
 
-// Every CTA is measurable the moment an analytics tag is added. No-op without one.
+// Every CTA becomes a GA4 event. gtag.js ignores plain objects pushed to
+// dataLayer, so it has to go through gtag(). No-op when GA is not configured.
 document.addEventListener('click',e=>{
   const a=e.target.closest('[data-cta]');
-  if(a)(window.dataLayer=window.dataLayer||[]).push({event:'cta_click',cta:a.dataset.cta,href:a.getAttribute('href')||''});
+  if(a&&window.gtag)gtag('event','cta_click',{cta:a.dataset.cta,link_url:a.getAttribute('href')||''});
 });
 
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
+  // Successful submissions are the conversion to mark as a key event in GA4.
+  function lead(){if(window.gtag)gtag('event','generate_lead',{course:new FormData(form).get('course')||'',form_page:location.pathname});}
   function show(t,ok){if(!msg)return;msg.textContent=t;msg.style.color=ok?'#2f7a46':'#c1701a';msg.style.display='block';}
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
@@ -302,12 +306,12 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
           headers:{'apikey':SUPABASE_ANON_KEY,'Authorization':'Bearer '+SUPABASE_ANON_KEY,
                    'Content-Type':'application/json','Prefer':'return=minimal'},
           body:JSON.stringify(row)});
-        if(r.ok){form.reset();show("Cheers! Your application is in. We'll be in touch within 24 hours.",true);return;}
+        if(r.ok){lead();form.reset();show("Cheers! Your application is in. We'll be in touch within 24 hours.",true);return;}
         console.warn('application store failed',r.status,await r.text().catch(()=>''));
       }
       if(FORMSPREE_ID!=="YOUR_FORM_ID"){
         const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
-        if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);return;}
+        if(r.ok){lead();form.reset();show("Cheers! We'll be in touch within 24 hours.",true);return;}
       }
       mailtoFallback();
     }catch(_){mailtoFallback();}

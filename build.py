@@ -11,6 +11,7 @@ import pathlib
 import re
 from urllib.parse import quote
 import article_render
+import course_pages
 import articles_a
 import articles_b
 import pages_a
@@ -51,6 +52,18 @@ FORMSPREE_ID = os.environ.get("FORMSPREE_ID", "YOUR_FORM_ID")
 # Never put the service_role key here, that one bypasses RLS entirely.
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
 SUPABASE_ANON_KEY = os.environ.get("SUPABASE_ANON_KEY", "")
+
+# Google Analytics 4 measurement ID (GA > Admin > Data streams, "G-..."). Empty
+# means no tag is emitted at all, so a missing ID never ships a broken loader.
+GA_ID = os.environ.get("GA_ID", "")
+
+
+def ga_tag():
+    if not GA_ID:
+        return ""
+    return (f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
+            "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
+            f"gtag('js',new Date());gtag('config','{GA_ID}');</script>")
 
 # Single source of truth for every contact CTA on the site.
 ENQUIRY_EMAIL = "chatty@cheerschattyventures.com"
@@ -161,15 +174,18 @@ if(wanted){
   }
 }
 
-// Every CTA is measurable the moment an analytics tag is added. No-op without one.
+// Every CTA becomes a GA4 event. gtag.js ignores plain objects pushed to
+// dataLayer, so it has to go through gtag(). No-op when GA is not configured.
 document.addEventListener('click',e=>{
   const a=e.target.closest('[data-cta]');
-  if(a)(window.dataLayer=window.dataLayer||[]).push({event:'cta_click',cta:a.dataset.cta,href:a.getAttribute('href')||''});
+  if(a&&window.gtag)gtag('event','cta_click',{cta:a.dataset.cta,link_url:a.getAttribute('href')||''});
 });
 
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
+  // Successful submissions are the conversion to mark as a key event in GA4.
+  function lead(){if(window.gtag)gtag('event','generate_lead',{course:new FormData(form).get('course')||'',form_page:location.pathname});}
   function show(t,ok){if(!msg)return;msg.textContent=t;msg.style.color=ok?'#2f7a46':'#c1701a';msg.style.display='block';}
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
@@ -201,12 +217,12 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
           headers:{'apikey':SUPABASE_ANON_KEY,'Authorization':'Bearer '+SUPABASE_ANON_KEY,
                    'Content-Type':'application/json','Prefer':'return=minimal'},
           body:JSON.stringify(row)});
-        if(r.ok){form.reset();show("Cheers! Your application is in. We'll be in touch within 24 hours.",true);return;}
+        if(r.ok){lead();form.reset();show("Cheers! Your application is in. We'll be in touch within 24 hours.",true);return;}
         console.warn('application store failed',r.status,await r.text().catch(()=>''));
       }
       if(FORMSPREE_ID!=="YOUR_FORM_ID"){
         const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
-        if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);return;}
+        if(r.ok){lead();form.reset();show("Cheers! We'll be in touch within 24 hours.",true);return;}
       }
       mailtoFallback();
     }catch(_){mailtoFallback();}
@@ -240,6 +256,7 @@ def page(slug, title, desc, active, body):
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500;1,9..144,600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 {seo.jsonld(slug, title, desc)}
+{ga_tag()}
 </head>
 <body>
 {nav(active)}
@@ -291,6 +308,8 @@ PAGES = {
                         "", pages_b.REFUND),
 }
 
+
+PAGES.update(course_pages.pages())
 
 for _a in ARTICLES:
     PAGES[f"{_a['slug']}.html"] = (

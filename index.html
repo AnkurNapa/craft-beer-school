@@ -33,6 +33,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500;1,9..144,600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["EducationalOrganization","LocalBusiness"],"@id":"https://craftbeerschool.in/#organization","name":"Craft Beer School","url":"https://craftbeerschool.in","logo":{"@type":"ImageObject","url":"https://craftbeerschool.in/assets/logo.png"},"image":"https://craftbeerschool.in/assets/og-default.png","description":"India's online and in-person beer school teaching brewing, tasting, branding and the business of beer, grain to glass.","email":"chatty@cheerschattyventures.com","telephone":"+91-98209-25347","address":{"@type":"PostalAddress","addressLocality":"Bengaluru","addressCountry":"IN"},"areaServed":{"@type":"Country","name":"India"},"knowsAbout":["Brewing","Craft beer","Beer sensory evaluation","Brewery business management","Beer styles","WSET","Cicerone"]},{"@type":"WebSite","@id":"https://craftbeerschool.in/#website","url":"https://craftbeerschool.in","name":"Craft Beer School","publisher":{"@id":"https://craftbeerschool.in/#organization"},"inLanguage":"en-IN"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://craftbeerschool.in/"}]},{"@type":"WebPage","@id":"https://craftbeerschool.in/#webpage","url":"https://craftbeerschool.in/","name":"Craft Beer School | Brewing Courses in India, Grain to Glass","description":"India's trusted online and in-person beer school. Learn brewing, tasting, branding and the business of beer, grain to glass. WSET and Cicerone prep.","isPartOf":{"@id":"https://craftbeerschool.in/#website"},"about":{"@id":"https://craftbeerschool.in/#organization"},"inLanguage":"en-IN"}]}</script>
+
 </head>
 <body>
 <div class="announce">Now enrolling, the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
@@ -91,25 +92,28 @@
     <div class="grid-3"><article class="card course-card reveal">
   <div class="top"><span class="course-no">01 / Foundations</span><span class="course-dur">4 Weeks</span></div>
   <div class="card-body">
-    <h3>Brewing Fundamentals</h3>
+    <h3><a href="brewing-fundamentals-course.html">Brewing Fundamentals</a></h3>
     <p>The science of brewing, ingredients, equipment, technique. Online sessions plus your first real recipe.</p>
     <ul><li>Brewing science &amp; theory</li><li>Raw materials &amp; quality</li><li>Equipment &amp; sanitation</li><li>Recipe formulation basics</li></ul>
+    <a href="brewing-fundamentals-course.html" class="link-arrow" data-cta="course-syllabus">Full syllabus</a>
     <div class="foot"><span class="price">₹5,999</span><a href="contact.html?course=Brewing%20Fundamentals#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enroll in Brewing Fundamentals">Enroll</a></div>
   </div>
 </article><article class="card course-card reveal">
   <div class="top"><span class="course-no">02 / Deep Craft</span><span class="course-dur">6 Weeks</span></div>
   <div class="card-body">
-    <h3>Advanced Brewing Science</h3>
+    <h3><a href="advanced-brewing-science-course.html">Advanced Brewing Science</a></h3>
     <p>Go deeper into chemistry, microbiology and advanced fermentation for serious brewers and pros.</p>
     <ul><li>Microbiology &amp; fermentation</li><li>Water chemistry optimization</li><li>Advanced mashing techniques</li><li>Quality assurance &amp; control</li></ul>
+    <a href="advanced-brewing-science-course.html" class="link-arrow" data-cta="course-syllabus">Full syllabus</a>
     <div class="foot"><span class="price">₹12,999</span><a href="contact.html?course=Advanced%20Brewing%20Science#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enroll in Advanced Brewing Science">Enroll</a></div>
   </div>
 </article><article class="card course-card reveal">
   <div class="top"><span class="course-no">03 / Business</span><span class="course-dur">3 Weeks</span></div>
   <div class="card-body">
-    <h3>Brewery Business Management</h3>
+    <h3><a href="brewery-business-management-course.html">Brewery Business Management</a></h3>
     <p>The business behind the brew, plan, launch and grow a brewery, from finance to distribution.</p>
     <ul><li>Business planning &amp; finance</li><li>Licensing &amp; regulations</li><li>Marketing &amp; branding</li><li>Distribution strategies</li></ul>
+    <a href="brewery-business-management-course.html" class="link-arrow" data-cta="course-syllabus">Full syllabus</a>
     <div class="foot"><span class="price">₹8,999</span><a href="contact.html?course=Brewery%20Business%20Management#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enroll in Brewery Business Management">Enroll</a></div>
   </div>
 </article></div>
@@ -224,15 +228,18 @@ if(wanted){
   }
 }
 
-// Every CTA is measurable the moment an analytics tag is added. No-op without one.
+// Every CTA becomes a GA4 event. gtag.js ignores plain objects pushed to
+// dataLayer, so it has to go through gtag(). No-op when GA is not configured.
 document.addEventListener('click',e=>{
   const a=e.target.closest('[data-cta]');
-  if(a)(window.dataLayer=window.dataLayer||[]).push({event:'cta_click',cta:a.dataset.cta,href:a.getAttribute('href')||''});
+  if(a&&window.gtag)gtag('event','cta_click',{cta:a.dataset.cta,link_url:a.getAttribute('href')||''});
 });
 
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
+  // Successful submissions are the conversion to mark as a key event in GA4.
+  function lead(){if(window.gtag)gtag('event','generate_lead',{course:new FormData(form).get('course')||'',form_page:location.pathname});}
   function show(t,ok){if(!msg)return;msg.textContent=t;msg.style.color=ok?'#2f7a46':'#c1701a';msg.style.display='block';}
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
@@ -264,12 +271,12 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
           headers:{'apikey':SUPABASE_ANON_KEY,'Authorization':'Bearer '+SUPABASE_ANON_KEY,
                    'Content-Type':'application/json','Prefer':'return=minimal'},
           body:JSON.stringify(row)});
-        if(r.ok){form.reset();show("Cheers! Your application is in. We'll be in touch within 24 hours.",true);return;}
+        if(r.ok){lead();form.reset();show("Cheers! Your application is in. We'll be in touch within 24 hours.",true);return;}
         console.warn('application store failed',r.status,await r.text().catch(()=>''));
       }
       if(FORMSPREE_ID!=="YOUR_FORM_ID"){
         const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
-        if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);return;}
+        if(r.ok){lead();form.reset();show("Cheers! We'll be in touch within 24 hours.",true);return;}
       }
       mailtoFallback();
     }catch(_){mailtoFallback();}

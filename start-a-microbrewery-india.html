@@ -33,6 +33,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500;1,9..144,600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["EducationalOrganization","LocalBusiness"],"@id":"https://craftbeerschool.in/#organization","name":"Craft Beer School","url":"https://craftbeerschool.in","logo":{"@type":"ImageObject","url":"https://craftbeerschool.in/assets/logo.png"},"image":"https://craftbeerschool.in/assets/og-default.png","description":"India's online and in-person beer school teaching brewing, tasting, branding and the business of beer, grain to glass.","email":"chatty@cheerschattyventures.com","telephone":"+91-98209-25347","address":{"@type":"PostalAddress","addressLocality":"Bengaluru","addressCountry":"IN"},"areaServed":{"@type":"Country","name":"India"},"knowsAbout":["Brewing","Craft beer","Beer sensory evaluation","Brewery business management","Beer styles","WSET","Cicerone"]},{"@type":"WebSite","@id":"https://craftbeerschool.in/#website","url":"https://craftbeerschool.in","name":"Craft Beer School","publisher":{"@id":"https://craftbeerschool.in/#organization"},"inLanguage":"en-IN"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://craftbeerschool.in/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://craftbeerschool.in/blog.html"},{"@type":"ListItem","position":3,"name":"How to start a microbrewery in India","item":"https://craftbeerschool.in/start-a-microbrewery-india.html"}]},{"@type":"WebPage","@id":"https://craftbeerschool.in/start-a-microbrewery-india.html#webpage","url":"https://craftbeerschool.in/start-a-microbrewery-india.html","name":"How to Start a Microbrewery in India | Craft Beer School","description":"Licences, capital, equipment, running costs and realistic timelines for opening a microbrewery or brewpub in India, without the sales pitch.","isPartOf":{"@id":"https://craftbeerschool.in/#website"},"about":{"@id":"https://craftbeerschool.in/#organization"},"inLanguage":"en-IN"},{"@type":"Article","@id":"https://craftbeerschool.in/start-a-microbrewery-india.html#article","headline":"How to start a microbrewery in India","description":"Licences, capital, equipment, running costs and realistic timelines for opening a microbrewery or brewpub in India, without the sales pitch.","articleSection":"Business","url":"https://craftbeerschool.in/start-a-microbrewery-india.html","datePublished":"2026-09-03","dateModified":"2026-09-03","inLanguage":"en-IN","isPartOf":{"@id":"https://craftbeerschool.in/#website"},"mainEntityOfPage":{"@id":"https://craftbeerschool.in/start-a-microbrewery-india.html#webpage"},"author":{"@id":"https://craftbeerschool.in/#organization"},"publisher":{"@id":"https://craftbeerschool.in/#organization"},"image":"https://craftbeerschool.in/assets/og-default.png","about":{"@id":"https://craftbeerschool.in/#organization"}},{"@type":"FAQPage","@id":"https://craftbeerschool.in/start-a-microbrewery-india.html#faq","mainEntity":[{"@type":"Question","name":"How much does it cost to start a microbrewery in India?","acceptedAnswer":{"@type":"Answer","text":"It varies widely by state, city, format and scale, so any single figure would mislead. Plan the split instead: brewhouse a quarter to a third, fit out a similar share, plus cooling, licences and at least six months of working capital. Get quotes for your own state and premises."}},{"@type":"Question","name":"How long does licensing take?","acceptedAnswer":{"@type":"Answer","text":"Commonly twelve to eighteen months from decision to first pour, because approvals are often sequential and premises must usually be secured first. Requirements differ by state and change, so verify locally."}},{"@type":"Question","name":"Can I start without buying a brewery?","acceptedAnswer":{"@type":"Answer","text":"Yes. Contract brewing lets you develop recipes and a brand on someone else's plant with far lower capital. It is a sensible way to test demand before committing to equipment."}},{"@type":"Question","name":"Do I need to be a brewer to own a brewery?","acceptedAnswer":{"@type":"Answer","text":"No, but somebody in the room must be. Owners who cannot assess their own beer are dependent on whoever they hire, and that is an expensive position when quality slips."}}]}]}</script>
+
 </head>
 <body>
 <div class="announce">Now enrolling, the ₹999 intro session is open. <a href="courses.html">See all courses →</a></div>
@@ -284,15 +285,18 @@ if(wanted){
   }
 }
 
-// Every CTA is measurable the moment an analytics tag is added. No-op without one.
+// Every CTA becomes a GA4 event. gtag.js ignores plain objects pushed to
+// dataLayer, so it has to go through gtag(). No-op when GA is not configured.
 document.addEventListener('click',e=>{
   const a=e.target.closest('[data-cta]');
-  if(a)(window.dataLayer=window.dataLayer||[]).push({event:'cta_click',cta:a.dataset.cta,href:a.getAttribute('href')||''});
+  if(a&&window.gtag)gtag('event','cta_click',{cta:a.dataset.cta,link_url:a.getAttribute('href')||''});
 });
 
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
+  // Successful submissions are the conversion to mark as a key event in GA4.
+  function lead(){if(window.gtag)gtag('event','generate_lead',{course:new FormData(form).get('course')||'',form_page:location.pathname});}
   function show(t,ok){if(!msg)return;msg.textContent=t;msg.style.color=ok?'#2f7a46':'#c1701a';msg.style.display='block';}
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
@@ -324,12 +328,12 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
           headers:{'apikey':SUPABASE_ANON_KEY,'Authorization':'Bearer '+SUPABASE_ANON_KEY,
                    'Content-Type':'application/json','Prefer':'return=minimal'},
           body:JSON.stringify(row)});
-        if(r.ok){form.reset();show("Cheers! Your application is in. We'll be in touch within 24 hours.",true);return;}
+        if(r.ok){lead();form.reset();show("Cheers! Your application is in. We'll be in touch within 24 hours.",true);return;}
         console.warn('application store failed',r.status,await r.text().catch(()=>''));
       }
       if(FORMSPREE_ID!=="YOUR_FORM_ID"){
         const r=await fetch("https://formspree.io/f/"+FORMSPREE_ID,{method:'POST',body:new FormData(form),headers:{Accept:'application/json'}});
-        if(r.ok){form.reset();show("Cheers! We'll be in touch within 24 hours.",true);return;}
+        if(r.ok){lead();form.reset();show("Cheers! We'll be in touch within 24 hours.",true);return;}
       }
       mailtoFallback();
     }catch(_){mailtoFallback();}

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Page bodies: Home, About, Courses, Resources, Blog."""
 
+import re
 from urllib.parse import quote
 
 
@@ -10,15 +11,22 @@ def enroll_href(course_name):
     return f"contact.html?course={quote(plain)}#enroll"
 
 
+def course_href(course_name):
+    """Detail page for a course, e.g. brewing-fundamentals-course.html."""
+    plain = course_name.replace("&amp;", "&").lower()
+    return re.sub(r"[^a-z0-9]+", "-", plain).strip("-") + "-course.html"
+
+
 # ---- shared course card snippets -------------------------------------------
 def course(no, tag, dur, name, blurb, items, price, ph):
     lis = "".join(f"<li>{i}</li>" for i in items)
     return f"""<article class="card course-card reveal">
   <div class="top"><span class="course-no">{no} / {tag}</span><span class="course-dur">{dur}</span></div>
   <div class="card-body">
-    <h3>{name}</h3>
+    <h3><a href="{course_href(name)}">{name}</a></h3>
     <p>{blurb}</p>
     <ul>{lis}</ul>
+    <a href="{course_href(name)}" class="link-arrow" data-cta="course-syllabus">Full syllabus</a>
     <div class="foot"><span class="price">{price}</span><a href="{enroll_href(name)}" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="course-enroll" aria-label="Enroll in {name}">Enroll</a></div>
   </div>
 </article>"""
