@@ -55,7 +55,7 @@ SUPABASE_ANON_KEY = os.environ.get("SUPABASE_ANON_KEY", "")
 
 # Google Analytics 4 measurement ID (GA > Admin > Data streams, "G-..."). Empty
 # means no tag is emitted at all, so a missing ID never ships a broken loader.
-GA_ID = os.environ.get("GA_ID", "")
+GA_ID = os.environ.get("GA_ID", "G-1ZHW47YJDC")  # shared with the Beverage-AI Radar property
 
 
 def ga_tag():
