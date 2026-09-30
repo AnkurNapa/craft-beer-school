@@ -131,10 +131,11 @@ for art in seo.ARTICLES:
         continue
     html = PAGES[name]
 
-    check(html.count('data-cta="article-inline"') == 1, f"{name}: no inline CTA")
+    story = bool(art.get("author"))  # guest stories: no inline CTA, no FAQs
+    check(html.count('data-cta="article-inline"') == (0 if story else 1), f"{name}: inline CTA count wrong")
     check(html.count('data-cta="article-band"') == 1, f"{name}: no closing CTA")
     check(len(art["sections"]) >= 4, f"{name}: only {len(art['sections'])} sections, too thin")
-    check(len(art.get("faqs", [])) >= 3, f"{name}: fewer than 3 FAQs, weak for answer engines")
+    check(story or len(art.get("faqs", [])) >= 3, f"{name}: fewer than 3 FAQs, weak for answer engines")
 
     for slug in art.get("related", []):
         check(slug in seo.ARTICLE_BY_SLUG, f"{name}: related link '{slug}' does not exist")
@@ -147,10 +148,11 @@ for art in seo.ARTICLES:
         t = n.get("@type")
         types.update(t if isinstance(t, list) else [t])
     check("Article" in types, f"{name}: no Article node")
-    check("FAQPage" in types, f"{name}: no FAQPage node")
+    # Guest stories carry no FAQs; everything else must.
+    check("FAQPage" in types or story, f"{name}: no FAQPage node")
 
     # Every schema FAQ must be answerable from the visible page.
-    faq = next(n for n in graph if n.get("@type") == "FAQPage")
+    faq = next((n for n in graph if n.get("@type") == "FAQPage"), {"mainEntity": []})
     check(len(faq["mainEntity"]) == len(art["faqs"]),
           f"{name}: schema FAQ count does not match the page")
     for q in faq["mainEntity"]:

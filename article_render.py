@@ -24,6 +24,15 @@ def _cta(cta, variant="inline"):
 </aside>"""
 
 
+def _byline(author):
+    if not author:
+        return ""
+    return f"""<div class="byline">
+      <img src="{author['photo']}" alt="{author['name']}" width="64" height="64" loading="eager">
+      <div><strong>{author['name']}</strong><span>{author['role']}</span></div>
+    </div>"""
+
+
 def _faqs(faqs):
     if not faqs:
         return ""
@@ -68,7 +77,8 @@ def render(article, by_slug):
     for i, (heading, body) in enumerate(secs):
         anchor = heading.lower().replace(" ", "-").replace(",", "").replace("?", "")
         parts.append(f'<h2 id="{anchor}">{heading}</h2>\n{body}')
-        if i + 1 == cut:
+        # Guest stories run uninterrupted; only the closing band sells.
+        if i + 1 == cut and not article.get("author"):
             parts.append(_cta(article["cta"], "inline"))
     article_body = "\n".join(parts)
 
@@ -86,8 +96,8 @@ def render(article, by_slug):
     <p class="post-meta">
       <span>{article['read']} read</span> ·
       <span>Updated <time datetime="{article['updated']}">{article['updated_label']}</time></span> ·
-      <span>Craft Beer School</span>
-    </p>
+      <span>{article['author']['name'] if article.get('author') else 'Craft Beer School'}</span>
+    </p>{_byline(article.get('author'))}
   </div>
 
   <div class="wrap post-body">

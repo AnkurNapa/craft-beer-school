@@ -201,7 +201,10 @@ def _article_nodes(art, slug):
         "inLanguage": "en-IN",
         "isPartOf": {"@id": f"{SITE_URL}/#website"},
         "mainEntityOfPage": {"@id": url_for(slug) + "#webpage"},
-        "author": {"@id": f"{SITE_URL}/#organization"},
+        "author": ({"@type": "Person", "name": art["author"]["name"],
+                    "jobTitle": art["author"]["role"],
+                    "image": f"{SITE_URL}/{art['author']['photo']}"}
+                   if art.get("author") else {"@id": f"{SITE_URL}/#organization"}),
         "publisher": {"@id": f"{SITE_URL}/#organization"},
         "image": OG_IMAGE,
         "about": {"@id": f"{SITE_URL}/#organization"},

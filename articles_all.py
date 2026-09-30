@@ -8,6 +8,7 @@ import pathlib
 
 import articles_a
 import articles_b
+import stories
 
 HERE = pathlib.Path(__file__).parent
 _PLAN = {p["slug"]: p for p in json.loads((HERE / "content/plan.json").read_text())}
@@ -15,7 +16,7 @@ _PLAN = {p["slug"]: p for p in json.loads((HERE / "content/plan.json").read_text
 _seeded = [json.loads(f.read_text()) for f in sorted((HERE / "content/articles").glob("*.json"))]
 
 # Newest first, the way a reader expects a journal to run.
-ARTICLES = sorted(articles_a.ARTICLES_A + articles_b.ARTICLES_B + _seeded,
+ARTICLES = sorted(articles_a.ARTICLES_A + articles_b.ARTICLES_B + stories.STORIES + _seeded,
                   key=lambda a: a["updated"], reverse=True)
 
 # Reader segment per article, which drives the blog index and the funnel.
@@ -25,6 +26,7 @@ SEGMENT.update({
     "how-to-taste-beer": "Beer lovers", "beer-off-flavours": "Professional brewers",
     "craft-beer-in-india": "Founders", "start-a-microbrewery-india": "Founders",
     "become-a-brewer-india": "Career changers", "brewing-for-india": "Professional brewers",
+    "the-man-who-took-off-his-tie": "Career changers",
 })
 
 # (segment, who it is for, course it feeds). Order is the order on the blog.
