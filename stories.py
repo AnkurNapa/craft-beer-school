@@ -141,4 +141,5 @@ Gopal Joshi's story.</blockquote>"""),
     related=["become-a-brewer-india", "homebrewer-to-pro-brewer", "jobs-in-a-brewery"],
 )
 
-STORIES = [GOPAL_JOSHI_TIE]
+# Gopal Joshi story unpublished 2026-09-30; add it back here to republish.
+STORIES = []
