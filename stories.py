@@ -18,7 +18,9 @@ GOPAL_JOSHI_TIE = dict(
     standfirst="Some careers are planned. Some are brewed. Mine was simply a "
                "matter of deciding where I belonged.",
     read="6 min", updated="2026-09-30", updated_label="September 2026",
-    author=dict(name="Chatty Girija"),
+    author=dict(name="Chatty Girija",
+                role="Beer podcaster and creative strategist, Craft Beer School",
+                photo="assets/chatty-girija.jpg"),
     subject=dict(name="Gopal Joshi",
                  role="Secretary General, All India Brewers Association",
                  photo="assets/gopal-joshi.jpg"),
