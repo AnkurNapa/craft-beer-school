@@ -293,7 +293,8 @@ footer.site a:hover{color:#fff}
               line-height:1.15;letter-spacing:-.015em;margin:2.6rem 0 .9rem}
 .post-body p{margin:0 0 1.05rem;font-size:1.03rem;line-height:1.72}
 .post-body strong{font-weight:700}
-.byline{display:flex;align-items:center;gap:.9rem;margin-top:1.4rem}
+.bylines{display:flex;flex-wrap:wrap;gap:1rem 2.5rem;margin-top:1.4rem}
+.byline{display:flex;align-items:center;gap:.9rem}
 .byline img{width:64px;height:64px;border-radius:50%;object-fit:cover}
 .byline span{display:block;font-size:.9rem;color:var(--ink-soft)}
 .post-body .chapter{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;

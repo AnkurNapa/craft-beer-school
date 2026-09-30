@@ -2,8 +2,8 @@
 """Guest stories: first-person pieces by people from the Indian beer industry.
 
 These are the author's own words, lightly proofread and nothing more. They
-carry an `author` record, which gives them a byline and photo, Person schema,
-and no mid-story CTA.
+carry an `author` record (the writer's byline and Person schema) and usually a
+`subject` record (whose story it is, shown with a photo), and no mid-story CTA.
 """
 
 GOPAL_JOSHI_TIE = dict(
@@ -18,9 +18,10 @@ GOPAL_JOSHI_TIE = dict(
     standfirst="Some careers are planned. Some are brewed. Mine was simply a "
                "matter of deciding where I belonged.",
     read="6 min", updated="2026-09-30", updated_label="September 2026",
-    author=dict(name="Gopal Joshi",
-                role="Secretary General, All India Brewers Association",
-                photo="assets/gopal-joshi.jpg"),
+    author=dict(name="Chatty Girija"),
+    subject=dict(name="Gopal Joshi",
+                 role="Secretary General, All India Brewers Association",
+                 photo="assets/gopal-joshi.jpg"),
     sections=[
         ("Prologue", """
 <p>I was fresh out of campus. Engineer. MBA from Allahabad. Young enough to be

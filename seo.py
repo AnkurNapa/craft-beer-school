@@ -202,12 +202,14 @@ def _article_nodes(art, slug):
         "isPartOf": {"@id": f"{SITE_URL}/#website"},
         "mainEntityOfPage": {"@id": url_for(slug) + "#webpage"},
         "author": ({"@type": "Person", "name": art["author"]["name"],
-                    "jobTitle": art["author"]["role"],
-                    "image": f"{SITE_URL}/{art['author']['photo']}"}
+                    **({"image": f"{SITE_URL}/{art['author']['photo']}"} if art["author"].get("photo") else {})}
                    if art.get("author") else {"@id": f"{SITE_URL}/#organization"}),
         "publisher": {"@id": f"{SITE_URL}/#organization"},
         "image": OG_IMAGE,
-        "about": {"@id": f"{SITE_URL}/#organization"},
+        "about": ({"@type": "Person", "name": art["subject"]["name"],
+                   "jobTitle": art["subject"]["role"],
+                   "image": f"{SITE_URL}/{art['subject']['photo']}"}
+                  if art.get("subject") else {"@id": f"{SITE_URL}/#organization"}),
     }]
     if art.get("faqs"):
         nodes.append({

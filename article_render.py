@@ -24,13 +24,13 @@ def _cta(cta, variant="inline"):
 </aside>"""
 
 
-def _byline(author):
-    if not author:
-        return ""
-    return f"""<div class="byline">
-      <img src="{author['photo']}" alt="{author['name']}" width="64" height="64" loading="eager">
-      <div><strong>{author['name']}</strong><span>{author['role']}</span></div>
-    </div>"""
+def _byline(people):
+    """Who the story is about and who wrote it, each with a photo when we have one."""
+    cards = "".join(f"""<div class="byline">
+      {f'<img src="{p["photo"]}" alt="{p["name"]}" width="64" height="64" loading="eager">' if p.get("photo") else ""}
+      <div><span>{label}</span><strong>{p['name']}</strong><span>{p.get('role', '')}</span></div>
+    </div>""" for label, p in people if p)
+    return f'<div class="bylines">{cards}</div>' if cards else ""
 
 
 def _faqs(faqs):
@@ -96,8 +96,8 @@ def render(article, by_slug):
     <p class="post-meta">
       <span>{article['read']} read</span> ·
       <span>Updated <time datetime="{article['updated']}">{article['updated_label']}</time></span> ·
-      <span>{article['author']['name'] if article.get('author') else 'Craft Beer School'}</span>
-    </p>{_byline(article.get('author'))}
+      <span>{'By ' + article['author']['name'] if article.get('author') else 'Craft Beer School'}</span>
+    </p>{_byline([('The story of', article.get('subject')), ('Written by', article.get('author'))])}
   </div>
 
   <div class="wrap post-body">
