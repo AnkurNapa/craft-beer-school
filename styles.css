@@ -544,3 +544,12 @@ section.fam-group{padding:0}
   .style-tile.read::after,.style-tile::after{position:static;font-family:var(--sans);font-size:1.4rem;color:var(--ink-soft)}
 }
 .style-tile:target{outline:none}
+
+/* Forms on phones: 16px text so iOS does not zoom on focus, tighter card */
+#enroll{scroll-margin-top:90px}
+@media (max-width:680px){
+  .field input,.field select,.field textarea{font-size:16px;padding:.75rem .9rem}
+  .row2{gap:0}
+  .form-card{padding:1.3rem 1.1rem}
+  body:has(#enroll) .mobile-cta{display:none}
+}
