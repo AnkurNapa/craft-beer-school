@@ -594,3 +594,14 @@ section.fam-group{padding:0}
 .track-list a:hover,.track-list a:focus-visible{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
 .track-list span{flex:none;font-family:var(--mono);font-size:.7rem;color:var(--ink-soft);white-space:nowrap}
 @media (max-width:680px){.tracks{grid-template-columns:1fr;gap:.9rem}.track{padding:1.1rem 1.1rem .7rem}}
+
+/* For Companies */
+.co-jump{display:flex;flex-wrap:wrap;gap:.6rem;padding-top:1.6rem}
+.btn-ghost.on-dark{color:#fff;border-color:rgba(255,255,255,.6)}
+.btn-ghost.on-dark:hover{background:#fff;color:var(--navy)}
+.checklist.on-dark li{color:rgba(255,255,255,.88)}
+.co-steps{list-style:none;counter-reset:co;margin:1rem 0 0;padding:0;display:grid;gap:1rem}
+.co-steps li{counter-increment:co;position:relative;padding-left:3rem}
+.co-steps li::before{content:counter(co,decimal-leading-zero);position:absolute;left:0;top:0;font-family:var(--mono);font-weight:700;color:var(--amber-deep);font-size:.9rem;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--sand);display:grid;place-items:center}
+.co-steps h3{font-size:1.02rem;margin:0 0 .2rem}
+.co-steps p{margin:0;color:var(--ink-soft);font-size:.95rem}

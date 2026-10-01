@@ -18,6 +18,7 @@ import pages_a
 import pages_b
 import seo
 import style_render
+import companies
 
 # --- Consistent inline icon set (Lucide, MIT). Use [[name]] in page bodies. ---
 ICONS = {
@@ -178,6 +179,8 @@ FOOTER = """
     </ul></div>
     <div><h4>School</h4><ul>
       <li><a href="about.html">About us</a></li>
+      <li><a href="for-companies.html#training">Corporate training</a></li>
+      <li><a href="for-companies.html#hiring">Hiring support</a></li>
       <li><a href="careers.html">Careers &amp; Mentors</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="__ENROLL__" data-cta="footer-enroll">Enrol</a></li>
@@ -421,6 +424,7 @@ PAGES = {
 PAGES.update(course_pages.pages())
 COURSE_SLUGS = set(course_pages.pages())
 PAGES.update(style_render.pages(BY_SLUG))
+PAGES[companies.SLUG] = companies.PAGE
 
 for _a in ARTICLES:
     PAGES[f"{_a['slug']}.html"] = (

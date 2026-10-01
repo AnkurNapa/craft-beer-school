@@ -140,6 +140,8 @@ def tracks_section():
     tiles = []
     for icon, title, line, names in TRACKS:
         items = "".join(_track_course(_by_name[n]) for n in names)
+        if title == "Brewing":
+            items += '<li><a href="courses.html#wset">WSET Beer exam prep</a><span>Group or 1-to-1</span></li>'
         if title.startswith("Free"):
             items += ('<li><a href="courses.html#in-person">Professional Beer Tasting Day</a><span>1 Day · ₹4,999</span></li>'
                       '<li><a href="courses.html#in-person">Brewery Business Tour</a><span>Half day · On enquiry</span></li>'
@@ -203,7 +205,19 @@ HOME = f"""
     <div style="margin-top:2rem"><a href="#tracks" class="link-arrow">See all {COURSE_COUNT_WORD} courses by track</a></div>
   </div>
 </section>
-{tracks_section()}{style_render.home_teaser()}
+{tracks_section()}
+<section class="navy-sec" id="companies">
+  <div class="wrap split">
+    <div class="prose-block reveal">
+      <span class="eyebrow">For companies</span>
+      <h2 style="color:#fff">Training for beverage GCCs. Hiring for drinks businesses.</h2>
+      <p style="color:rgba(255,255,255,.75)">Beer, wine and spirits companies opening capability centres in Bengaluru, Pune and Hyderabad need teams who understand the product. Breweries, wineries and distilleries need people who can do the job on day one. We help with both.</p>
+      <div class="cta-pair" style="margin-top:1.2rem"><a class="btn btn-amber" href="for-companies.html#training" data-cta="home-companies-training">Corporate training</a><a class="btn btn-ghost on-dark" href="for-companies.html#hiring" data-cta="home-companies-hiring">Hiring support</a></div>
+    </div>
+    <ul class="checklist on-dark reveal"><li>Beverage 101 for new joiners</li><li>Brewing and distilling operations for analysts</li><li>Supply chain, excise and route to market in India</li><li>Guided tasting of your own portfolio</li><li>Hiring across brewing, quality, sales, finance and data</li></ul>
+  </div>
+</section>
+{style_render.home_teaser()}
 
 <section class="navy-sec">
   <div class="wrap">
@@ -321,6 +335,12 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
   </div>
 </section>
 
+<section id="wset" style="padding-block:2rem 0">
+  <div class="wrap"><aside class="cta-inline"><div><h3>Preparing for a WSET Beer exam?</h3><p>We prepare candidates for every WSET Beer level, in group cohorts or one-to-one: the syllabus, guided tastings with the systematic approach, and mock papers. You sit the exam itself through a WSET Approved Programme Provider. <a href="wset-beer-course.html" style="color:var(--blue);text-decoration:underline">How the WSET Beer route works</a>.</p></div><a class="btn btn-amber" href="contact.html?course=WSET%20Beer%20exam%20prep#enroll" data-cta="courses-wset">Ask about exam prep</a></aside></div>
+</section>
+<section style="padding-block:2rem 0">
+  <div class="wrap"><aside class="cta-inline"><div><h3>Training a whole team?</h3><p>We run beverage domain training for GCCs and companies in Bengaluru, Pune and Hyderabad, and help drinks businesses hire.</p></div><a class="btn btn-amber" href="for-companies.html" data-cta="courses-companies">For companies</a></aside></div>
+</section>
 <section class="tint" id="in-person">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">In person</span><h2>Hands-on workshops &amp; tastings.</h2><p class="lead">Prefer to learn at the bench? Join us in the room.</p></div>
