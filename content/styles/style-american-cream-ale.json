@@ -1,0 +1,44 @@
+{
+ "slug": "style-american-cream-ale",
+ "name": "Cream Ale",
+ "family": "Hybrids",
+ "title": "Cream Ale: Style Guide | Craft Beer School",
+ "desc": "Cream Ale explained: a light, crisp American ale made to rival lager, often with corn or rice. How it tastes, Indian pairings and examples.",
+ "tagline": "An ale that wants to be a lager. Crisp, clean and very easy on a hot day.",
+ "tastes": "<p>Cream ale is an American invention from the late 1800s, when ale brewers in the north-east were losing drinkers to the new pale lagers. Their answer was a light, clean ale, often fermented warm and then stored cold, sometimes blended with lager. Despite the name, there is no cream in it, and the creaminess is mostly in the marketing.</p><p>It tastes of light, sweetish grain with a corn or rice character, very low hop aroma and a low bitterness. Corn gives a faint sweetness, rice keeps it drier and crisper. A cool fermentation with a clean ale yeast keeps fruitiness to a whisper, so the beer drinks almost like a lager, with a touch more roundness in the middle. It is pale, highly carbonated and refreshing. A good cream ale has no flaws to hide behind, which makes it a better test of a brewery than any double IPA.</p>",
+ "profile": {
+  "look": "Pale straw to light gold, brilliantly clear, with a fizzy white head that fades fairly quickly.",
+  "aroma_flavour": "Light, sweetish grain with corn or rice character. Low floral or spicy hops and almost no fruitiness.",
+  "mouthfeel": "Light body, high carbonation, and a crisp, smooth and dry finish.",
+  "ingredients": "Pale two-row or six-row malt with flaked corn or rice up to about a fifth of the grist, low-alpha hops, and a clean ale or lager yeast."
+ },
+ "glass": "Pilsner glass",
+ "serve_c": "3-6",
+ "in_india": "<p>Cream ale fits India almost too well. Rice and maize adjuncts are common in mainstream lager, so the flavour is familiar, and the light body is right for a hot afternoon. Brewers here can use poha or local rice as the adjunct, and at least one Delhi brewpub has done exactly that. It is a good bridge for drinkers moving from mass lager to craft. Serve it properly cold.</p>",
+ "pairings": [
+  {
+   "food": "Masala dosa with coconut chutney",
+   "why": "Clean, crisp grain and fizz refresh the palate between bites of potato and chutney."
+  },
+  {
+   "food": "Amritsari kulcha with chole",
+   "why": "The light beer cuts butter and spice without competing with them."
+  },
+  {
+   "food": "Malvani surmai fry",
+   "why": "Bubbles and a crisp finish scrub away the fried coating and kokum tang."
+  },
+  {
+   "food": "Rasgulla",
+   "why": "A light, slightly sweet beer matches the soft, syrupy cheese without weighing it down."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Poha Creampie",
+   "brewery": "Fort City Brewing",
+   "source": "https://myannoyingopinions.com/2025/03/29/fort-city-delhi-march-2025/"
+  }
+ ],
+ "examples_note": ""
+}

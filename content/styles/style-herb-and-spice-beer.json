@@ -1,0 +1,50 @@
+{
+ "slug": "style-herb-and-spice-beer",
+ "name": "Herb and Spice Beer",
+ "family": "Speciality beers",
+ "title": "Herb and Spice Beer: Style Guide | Craft Beer School",
+ "desc": "Herb and spice beer explained: saffron, basil, rose and more, how brewers dose them without overdoing it, and why India has an advantage.",
+ "tagline": "Beer seasoned like food, where the spice should sit in the background and never shout.",
+ "tastes": "<p>Before hops became standard, brewers flavoured beer with whatever grew nearby: bog myrtle, yarrow, juniper, and spice from the trade routes. Herb and spice beer picks up that thread. It covers any beer with added spices, herbs, flowers, roots or leaves, from ginger and cinnamon to rosemary, rose petals or tea. Belgian witbier and the old gruit beers sit close by, though witbier is usually judged as a style of its own.</p><p>Restraint is the whole skill. Spices are far more potent than fruit, and a few grams per hectolitre too many will turn a beer into cough syrup or curry. Brewers usually add them late in the boil, at whirlpool or as a tincture after fermentation, and taste as they go. The best ones taste like a good beer first, with the spice adding a lift you might not name on the first sip. If the spice is the only thing you notice, the brewer went too far.</p>",
+ "profile": {
+  "look": "Any colour, set by the base beer. Some ingredients tint it: saffron gives gold, hibiscus and rose push pink, tea darkens it slightly.",
+  "aroma_flavour": "The herb or spice should be recognisable but balanced against malt and hops, which are usually kept moderate. Harsh, medicinal or vegetal notes mean it was overdosed.",
+  "mouthfeel": "Usually medium-light to medium body. Ginger, pepper and chilli can add warmth or bite; tea and some roots add a little dry tannin.",
+  "ingredients": "A base recipe chosen to suit the spice, often pale, wheat or amber, plus spices, herbs, flowers or roots added late in the boil, at whirlpool or after fermentation."
+ },
+ "glass": "Tulip",
+ "serve_c": "6-10",
+ "in_india": "<p>No country has a better spice cupboard to brew from. Indian brewers have put Kashmiri saffron, basil, ginger, turmeric, rose and black pepper into beer, and an Indian saffron lager has won medals at international competitions. The style suits drinkers who already love masala chai and jaljeera. Spices also travel better than hop aroma, so these beers cope with the heat reasonably well. Still, keep bottles cold and out of the sun, because warmth and light dull the delicate ones such as saffron and rose.</p>",
+ "pairings": [
+  {
+   "food": "Kashmiri dum aloo",
+   "why": "Fennel, dry ginger and Kashmiri chilli in the gravy meet a spiced beer halfway, and the carbonation cuts through the yoghurt and oil."
+  },
+  {
+   "food": "Hyderabadi mutton biryani",
+   "why": "A gently spiced beer picks up the whole spices in the rice instead of fighting them."
+  },
+  {
+   "food": "Kesar pista kulfi",
+   "why": "Saffron meets saffron, and the beer's dryness stops the kulfi from coating your mouth."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Saffron Lager",
+   "brewery": "Kati Patang",
+   "source": "https://londonbeercompetition.com/en/winner-brands/beers/2026/empyrean-spirits-pvt-ltd-1744/kati-patang-saffron-lager-3052.htm"
+  },
+  {
+   "beer": "Puneri Basil Ale",
+   "brewery": "Kimaya Brewing Company",
+   "source": "https://www.theestablished.com/culture/living/flavoured-beer-in-india-best-breweries-12022844"
+  },
+  {
+   "beer": "Gulabo (rose wheat beer)",
+   "brewery": "BeeYoung Brewgarden",
+   "source": "https://www.theestablished.com/culture/living/flavoured-beer-in-india-best-breweries-12022844"
+  }
+ ],
+ "examples_note": ""
+}

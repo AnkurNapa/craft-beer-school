@@ -1,0 +1,54 @@
+{
+ "slug": "style-belgian-style-witbier",
+ "name": "Belgian Witbier",
+ "family": "Wheat beers",
+ "title": "Belgian Witbier: Style Guide | Craft Beer School",
+ "desc": "Belgian witbier explained: unmalted wheat, orange peel and coriander, why it suits Indian heat, and the Indian wits worth trying.",
+ "tagline": "Hazy, spiced and bright with orange peel: the wheat beer India took to first.",
+ "tastes": "<p>Witbier is white beer, named for its pale, cloudy look. It comes from the farm breweries east of Brussels, around Hoegaarden, and nearly died out in the 1950s before a milkman named Pierre Celis revived it in the 1960s.</p><p>The recipe is unusual for a beer. A large share of raw, unmalted wheat and often some oats give a silky body and a haze that never settles. Dried orange peel and crushed coriander seed go in at the end of the boil. The coriander should taste citrusy and floral, not like a curry; that comes down to fresh seed and a light hand. Belgian yeast adds a peppery, slightly fruity note, and there is a gentle tartness that makes it refreshing.</p><p>Bitterness is low. The finish is dry and bubbly. It is one of the easiest craft styles to like, which is why so many Indian brewers made a wit their first canned beer.</p>",
+ "profile": {
+  "look": "Very pale straw to light gold, cloudy white haze, dense white head that holds well.",
+  "aroma_flavour": "Orange peel, fresh coriander seed, light pepper and a soft wheat sweetness. A gentle tartness and very low hop bitterness.",
+  "mouthfeel": "Light to medium body, creamy from wheat and oats, high carbonation, dry crisp finish.",
+  "ingredients": "Pilsner malt with roughly half unmalted wheat, sometimes oats. Dried orange peel and coriander. Low alpha European hops. A Belgian wit yeast."
+ },
+ "glass": "Goblet",
+ "serve_c": "3-6",
+ "in_india": "<p>Witbier fits India almost too well. It is light, cold, low in bitterness and smells of two things every Indian kitchen already knows, dhania and citrus peel. That made it the gateway style of our craft boom, and you will find a wit in cans in most metros and on tap at most brewpubs. Its weak point is freshness: the spice and orange fade fast in the heat, so check the date. A wedge of lemon or orange is optional, and we would skip it.</p>",
+ "pairings": [
+  {
+   "food": "Goan prawn balchao",
+   "why": "The bright, spiced beer cools the red chilli heat and the citrus peel cuts the tangy masala."
+  },
+  {
+   "food": "Dhokla with green chutney",
+   "why": "Light, airy and a little tart, it matches the beer's texture and the coriander in both."
+  },
+  {
+   "food": "Masala dosa",
+   "why": "Potato, mustard seed and curry leaf sit well with coriander spice, and the bubbles lift the ghee."
+  },
+  {
+   "food": "Shrikhand",
+   "why": "Sweet, sour hung curd with cardamom echoes the beer's gentle tartness and creamy body."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Bira 91 White",
+   "brewery": "B9 Beverages (Bira 91)",
+   "source": "https://en.wikipedia.org/wiki/Bira_91"
+  },
+  {
+   "beer": "Simba Wit",
+   "brewery": "Simba Beer",
+   "source": "https://simbabeer.com/our-beers/wit/"
+  },
+  {
+   "beer": "Tint-In-Wit",
+   "brewery": "Toit Brewpub",
+   "source": "https://toit.in/"
+  }
+ ],
+ "examples_note": ""
+}

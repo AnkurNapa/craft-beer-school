@@ -1,0 +1,49 @@
+{
+ "slug": "style-barrel-aged-beer",
+ "name": "Barrel-Aged Beer",
+ "family": "Speciality beers",
+ "title": "Barrel-Aged Beer: Style Guide | Craft Beer School",
+ "desc": "Barrel-aged beer explained: what oak, whisky and rum casks do to a stout or a dubbel, and how Indian heat changes the ageing.",
+ "tagline": "Any beer that has spent months in wood, usually picking up some of the spirit that lived there first.",
+ "tastes": "<p>Barrel-aged is a method rather than a recipe. Brewers take a finished beer, most often an imperial stout, barley wine or Belgian strong ale, and rest it in oak for months. The wood gives vanilla, coconut and toast from compounds released when the staves were charred or toasted. If the cask held whisky, bourbon, rum or wine, the beer draws some of that spirit out of the wood as well. Slow oxygen pick-up through the staves rounds off harsh edges and, over time, adds dried fruit and a sherry-like note.</p><p>The base beer has to be strong enough to carry all this. A light lager in a bourbon barrel tastes of bourbon and little else. A good barrel-aged beer tastes like the beer first, with wood and spirit layered in, and warms as it goes down. The classic examples usually sit at 8 per cent or more, with low carbonation and a long, sweet and woody finish.</p>",
+ "profile": {
+  "look": "Depends on the base beer: black stouts, amber barley wines, brown dubbels. Expect less head than the fresh version and often bright clarity after months at rest.",
+  "aroma_flavour": "Base beer character first, then vanilla, coconut, toasted oak and whatever the cask held. Long ageing adds dried fruit, toffee and a gentle sherry note.",
+  "mouthfeel": "Usually full and smooth, with low to moderate carbonation and noticeable warmth from alcohol. Wood tannin can give a slight dry grip.",
+  "ingredients": "A strong base beer, often an imperial stout, barley wine or Belgian dark ale, aged in oak barrels that previously held whisky, rum, bourbon or wine. Some brewers add wild yeast for sour versions."
+ },
+ "glass": "Snifter",
+ "serve_c": "12-15",
+ "in_india": "<p>Indian heat speeds barrel ageing up. Warm warehouses push beer in and out of the wood faster, so flavour builds in months, and evaporation losses climb with it, as our whisky distillers know well. Indian brewers have started borrowing casks from the country's single malt and rum makers, which gives these beers a local stamp. They are small, limited releases, mostly poured at the brewery itself. Serve cool rather than cold, in small pours, and treat a bottle as something to share after dinner.</p>",
+ "pairings": [
+  {
+   "food": "Nihari with sheermal",
+   "why": "Slow-cooked mutton shank and a slow-aged beer share the same depth, and the vanilla from the oak flatters the saffron in the sheermal."
+  },
+  {
+   "food": "Dal makhani",
+   "why": "A dal simmered for hours has the weight to match a strong beer, and the oak picks up its smoky, buttery richness."
+  },
+  {
+   "food": "Kerala plum cake",
+   "why": "Rum-soaked dried fruit in the cake meets the dried fruit and spirit drawn from the barrel."
+  },
+  {
+   "food": "Aged Gouda",
+   "why": "Its crunchy crystals and caramel notes match the toffee and vanilla of a barrel-aged stout."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Dhumri (Imperial Stout in ex-Indri single malt casks)",
+   "brewery": "Fort City Brewing",
+   "source": "https://hospibuz.com/indri-single-malt-whisky-and-fort-city-brewing-unveil-indias-first-barrel-aged-beer-collaboration/"
+  },
+  {
+   "beer": "Mridya (Belgian Dubbel in ex-Camikara rum casks)",
+   "brewery": "Fort City Brewing",
+   "source": "https://www.businesstoday.in/lifestyle/food/story/camikara-and-fort-city-brewing-launch-indias-first-ex-rum-barrel-aged-beer-mridya-468733-2025-03-21"
+  }
+ ],
+ "examples_note": ""
+}

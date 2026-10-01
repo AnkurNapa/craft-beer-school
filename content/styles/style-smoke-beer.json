@@ -1,0 +1,49 @@
+{
+ "slug": "style-smoke-beer",
+ "name": "Smoke Beer",
+ "family": "Speciality beers",
+ "title": "Smoke Beer: Style Guide | Craft Beer School",
+ "desc": "Smoke beer explained: from Bamberg rauchbier to smoked porter, what smoked malt adds and which Indian dishes it suits.",
+ "tagline": "Malt dried over a fire, giving a beer that smells like a tandoor at closing time.",
+ "tastes": "<p>Before kilns with indirect heat, a lot of malt picked up some smoke while drying. The town of Bamberg in Franconia kept the habit on purpose, drying barley over beechwood fires, and its rauchbier is still the reference point: a dark lager that smells of bacon and campfire but drinks smooth and malty.</p><p>Smoke beer as a category goes wider. Brewers smoke porters, stouts, wheat beers and strong ales. Some use beechwood, some cherry or oak, and peat smoked malt turns up now and then, though a little goes a long way and too much tastes medicinal. Polish grodziskie, a light smoked wheat beer, sits at the other end of the scale.</p><p>The smoke should sit in balance with the base beer. The first sip can be a shock, but by the end of the glass most drinkers find the malt sweetness and the smoke have settled into something savoury and moreish.</p>",
+ "profile": {
+  "look": "Mostly amber to dark brown, though smoked wheat beers can be pale gold. Clear in lager versions, with a creamy tan head.",
+  "aroma_flavour": "Wood smoke, from gentle campfire to smoked ham, over toasty and caramel malt. Hops are restrained. Peat smoke, if used, should be faint.",
+  "mouthfeel": "Medium body, smooth, with moderate carbonation. Lager versions finish clean and fairly dry; smoked porters are rounder and softer.",
+  "ingredients": "Beechwood smoked malt, often a large share of the grist in rauchbier, with Munich and pale malts. Noble type hops. Lager or ale yeast depending on the base style."
+ },
+ "glass": "Willi becher",
+ "serve_c": "8-12",
+ "in_india": "<p>Indian drinkers already love smoke on a plate, from tandoori kebabs to Naga smoked pork, which gives smoke beer a better chance here than its niche reputation suggests. Smoked malt is imported, so this is brewpub territory and usually a limited release. The smoke character is stable and holds up in a warm supply chain better than hop aroma does. It suits the monsoon, a barbecue, or the cooler months in the north.</p>",
+ "pairings": [
+  {
+   "food": "Naga smoked pork with bamboo shoot",
+   "why": "Smoke meets smoke, and the malt sweetness rounds off the fiery king chilli."
+  },
+  {
+   "food": "Baingan bharta",
+   "why": "Fire charred aubergine is a natural match for smoked malt, and the beer's body suits the mustard oil."
+  },
+  {
+   "food": "Tandoori pomfret",
+   "why": "The char and ajwain line up with the smoke, and the clean lager finish keeps the fish light."
+  },
+  {
+   "food": "Smoked gouda or Kalimpong cheese",
+   "why": "The salty, nutty cheese takes the edge off the smoke and brings out the caramel malt."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Rauchbier",
+   "brewery": "Zero40 Brewing, Hyderabad",
+   "source": "https://beerasia.net/craft-beer-guides/hyderabad-craft-beer-guide/"
+  },
+  {
+   "beer": "Smoked Porter",
+   "brewery": "Arbor Brewing Company, Bengaluru",
+   "source": "https://mansworldindia.com/fooddrink/indias-best-brewpubs"
+  }
+ ],
+ "examples_note": ""
+}

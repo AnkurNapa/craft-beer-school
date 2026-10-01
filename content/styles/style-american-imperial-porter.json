@@ -1,0 +1,44 @@
+{
+ "slug": "style-american-imperial-porter",
+ "name": "Imperial Porter",
+ "family": "Porters",
+ "title": "Imperial Porter: Style Guide | Craft Beer School",
+ "desc": "American imperial porter explained: a strong, dark ale of chocolate, coffee and dark fruit. How it tastes, how to serve it and Indian pairings.",
+ "tagline": "Porter scaled up: more chocolate, more roast, more warmth. A beer to sip, not to quench.",
+ "tastes": "<p>An imperial porter pours black, often with a dark tan head. The malt does most of the work: dark chocolate, cocoa, coffee, toffee, and dark fruit such as raisin or plum, with some roast, though usually less burnt and harsh than an imperial stout. The alcohol, often 8% or more, shows as a gentle warmth and adds to the impression of richness. Hops are mostly there to balance, though American brewers sometimes add noticeable hop aroma.</p><p>It belongs to the American craft habit of taking a classic style and making it bigger. Porter began in eighteenth-century London as a dark, everyday beer, and strong versions were brewed for export then too. Today's American imperial porter is generally an ale, which separates it from the lager-fermented Baltic porter, its close cousin. Many brewers age it on coffee, vanilla, cocoa or in spirit barrels.</p><p>The difference from imperial stout is a matter of degree. Porter usually leans more on chocolate and less on the acrid roast of roasted barley, so it can feel smoother and slightly sweeter.</p>",
+ "profile": {
+  "look": "Very dark brown to black, opaque, with a tan to dark tan head of moderate retention.",
+  "aroma_flavour": "Dark chocolate, cocoa, coffee, toffee and dark fruit, gentle roast and warming alcohol. Hops low to moderate.",
+  "mouthfeel": "Full body, moderate to low carbonation, a smooth, warming palate and a finish from dry to semi-sweet.",
+  "ingredients": "Pale base malt with chocolate, crystal and black malts, sometimes a little roasted barley, American or English hops and a clean or lightly fruity ale yeast."
+ },
+ "glass": "Snifter",
+ "serve_c": "12-15",
+ "in_india": "<p>Strong, dark beers do surprisingly well in India's winters and air-conditioned bars. An imperial porter is rare here and usually turns up as a small-batch brewpub release. Its strength means a small pour is plenty. Unlike delicate lagers, it handles some warm storage without falling apart and can even improve with a few months in the bottle. Pair it with Christmas plum cake or after a heavy Punjabi meal.</p>",
+ "pairings": [
+  {
+   "food": "Kerala Christmas plum cake",
+   "why": "The dark fruit and toffee in the beer echo the rum-soaked raisins and caramelised sugar."
+  },
+  {
+   "food": "Smoked pork with bamboo shoot, Naga style",
+   "why": "The roast and chocolate meet the smoky pork and the full body handles the bhut jolokia."
+  },
+  {
+   "food": "Methi malai mushroom",
+   "why": "The rich malt carries the creamy gravy and the roast offsets the bitter fenugreek."
+  },
+  {
+   "food": "Gulab jamun",
+   "why": "Chocolate and coffee next to warm, syrupy dumplings works like a dessert wine pairing."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Imperial Porter",
+   "brewery": "Brooks and Bonds Brewery",
+   "source": "https://www.outlooktraveller.com/experiences/food-and-drink/these-5-unique-breweries-in-bangalore-will-sort-your-weekend-plans"
+  }
+ ],
+ "examples_note": ""
+}

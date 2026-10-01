@@ -1,0 +1,49 @@
+{
+ "slug": "style-blonde-ale",
+ "name": "Blonde Ale",
+ "family": "Pale ales",
+ "title": "Blonde Ale: Style Guide | Craft Beer School",
+ "desc": "Blonde ale explained: a light, soft, gently hopped ale that converts lager drinkers. Taste, serving, Indian food pairings and local examples.",
+ "tagline": "The friendly ale. Light, bready and quietly made, it is often the beer a brewpub sells most of.",
+ "tastes": "<p>Blonde ale is pale, soft and easy. The malt gives a light bready or crackery sweetness, sometimes a hint of honey, and the hops sit in the background with a little floral or citrus lift. Bitterness is gentle. The finish is clean and fairly dry, so it never cloys.</p><p>It grew up in American brewpubs, where brewers needed an ale for customers who mostly drank lager. Fermented warm with a clean ale yeast, it is quicker to make than a lager and can be on tap in a couple of weeks, yet it drinks almost as crisply. Some brewers use a German or Czech pilsner malt for a slightly richer bread note, others add a touch of wheat for a fuller head.</p><p>There is nothing loud about it, and that is the point. A blonde ale shows whether a brewer can make a clean beer with nowhere to hide. Any off note, a whiff of butter from diacetyl or a solvent edge from a hot ferment, stands out straight away in a beer this light.</p>",
+ "profile": {
+  "look": "Straw to light gold, clear, with a white head of moderate size.",
+  "aroma_flavour": "Light bread, cracker and a little honey from the malt, with low floral or citrus hop notes. Few or no fruity yeast esters.",
+  "mouthfeel": "Light to medium-light body, medium to lively carbonation, a soft and clean finish with low bitterness.",
+  "ingredients": "Pale or pilsner malt, sometimes a little wheat or light crystal, a modest charge of American or noble hops and a clean ale yeast. Rice is a natural fit."
+ },
+ "glass": "Pint",
+ "serve_c": "4-7",
+ "in_india": "<p>This is the style that brings lager drinkers into a brewpub and keeps them there, which is why many Indian brewpubs keep one on all year. It suits Indian heat well: light, cold and low in bitterness, it works on a Chennai afternoon or a crowded wedding lawn. Indian brewers have also used basmati and other local rice in the grist, which keeps the body light and adds a faint aroma of its own. Fresh from the tap is best, as light beers show stale flavours quickly.</p>",
+ "pairings": [
+  {
+   "food": "Masala dosa",
+   "why": "The crisp dosa and the bready malt meet half way and the low bitterness leaves the potato filling alone."
+  },
+  {
+   "food": "Kerala prawn fry",
+   "why": "A light, clean beer lets the pepper and coconut oil come through instead of covering them."
+  },
+  {
+   "food": "Dhokla",
+   "why": "The gentle sweetness matches the steamed batter and the carbonation clears the tempering of mustard seed and chilli."
+  },
+  {
+   "food": "Rasmalai",
+   "why": "The beer is light enough to sit next to a delicate milk sweet and the honey note in the malt echoes the saffron syrup."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Basmati Blonde",
+   "brewery": "Toit",
+   "source": "https://toit.in/beer/toit-basmati-blonde/"
+  },
+  {
+   "beer": "Blonde on Blonde",
+   "brewery": "Windmills Craftworks",
+   "source": "https://windmills-india.com/"
+  }
+ ],
+ "examples_note": ""
+}

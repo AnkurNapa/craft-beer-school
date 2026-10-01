@@ -1,0 +1,49 @@
+{
+ "slug": "style-german-style-kolsch",
+ "name": "Kolsch",
+ "family": "Hybrids",
+ "title": "Kolsch: Style Guide | Craft Beer School",
+ "desc": "Kolsch explained: Cologne's pale ale brewed like a lager. How it tastes, how to serve it and Indian Kolsch you can actually drink.",
+ "tagline": "Cologne's pale, delicate ale, brewed with lager discipline and gone in four sips.",
+ "tastes": "<p>Kolsch is the local beer of Cologne, and in Germany the name is protected for brewers in and around that city. It is an ale, fermented with top fermenting yeast, but cool, then cold conditioned like a lager. That gives a beer which looks like a pale lager and tastes softer and a little fruitier.</p><p>It is pale straw to light gold and brilliantly clear. The malt is soft and bready, like a fresh white loaf. Hops are gentle and herbal, never citrus. The yeast leaves a faint fruit, a hint of pear or white wine, that you notice and then lose. The finish is dry and short.</p><p>In Cologne it comes in a thin 200 ml glass, the stange, carried round on a ring tray and refilled until you put a beer mat on top. The small glass is practical: Kolsch is fragile and tastes best in the first minutes. A Kolsch that tastes of sulphur or of nothing at all has been rushed, and that is the commonest fault you will meet.</p>",
+ "profile": {
+  "look": "Pale straw to light gold, very clear, with a white, fine head that fades fairly quickly.",
+  "aroma_flavour": "Soft white bread malt, gentle herbal hops, a faint pear or white grape fruitiness from the yeast.",
+  "mouthfeel": "Light body, lively but soft carbonation, a crisp, dry, short finish.",
+  "ingredients": "Pilsner malt, sometimes a little wheat, German noble hops such as Hallertau or Tettnang, a Kolsch ale yeast fermented cool."
+ },
+ "glass": "Stange",
+ "serve_c": "4-7",
+ "in_india": "<p>Kolsch suits Indian weather better than almost anything. It is light, cold and low in bitterness, so it converts lager drinkers on a hot afternoon and survives a long lunch. The weak point is freshness: delicate beers show heat damage fast, so drink it on tap or from a brewery that ships cold. Several Indian brewpubs keep one on, some with local twists like lemongrass or honey.</p>",
+ "pairings": [
+  {
+   "food": "Bengali bhetki fish fry",
+   "why": "Light body and carbonation lift the crumb without hiding the fish."
+  },
+  {
+   "food": "Masala dosa with coconut chutney",
+   "why": "Bready malt and gentle hops keep out of the way of the potato and the fermented batter."
+  },
+  {
+   "food": "Hyderabadi chicken 65",
+   "why": "Cold, crisp and low in bitterness, it cools the chilli instead of amplifying it."
+  },
+  {
+   "food": "Rasgulla",
+   "why": "A light, dry beer against a light, syrupy sweet, neither crushes the other."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Geist Kolsch-Style Ale",
+   "brewery": "Geist Brewing Co., Bengaluru",
+   "source": "https://www.geist.in/beers"
+  },
+  {
+   "beer": "Skywalker",
+   "brewery": "Brewbot, Mumbai",
+   "source": "https://www.deccanchronicle.com/lifestyle/food-and-recipes/210416/best-beers-to-drink-this-summer.html"
+  }
+ ],
+ "examples_note": ""
+}

@@ -1,0 +1,50 @@
+{
+ "slug": "style-fruit-and-field-beer",
+ "name": "Fruit and Field Beer",
+ "family": "Speciality beers",
+ "title": "Fruit and Field Beer: Style Guide | Craft Beer School",
+ "desc": "Fruit and field beer explained: beers brewed with fruit or vegetables, from Alphonso mango wits to Nashik grape ales, and how to judge a good one.",
+ "tagline": "Real fruit or vegetables in the brew, where the produce should taste picked, not poured from a syrup bottle.",
+ "tastes": "<p>This is a broad category: any beer brewed with fruit, or with vegetables and other field produce such as chilli, cucumber or sweet potato. The base can be a wheat beer, a pale ale, a stout or a sour. What defines it is that the added ingredient is real and recognisable. Spices and herbs have their own category, and Belgian fruit lambics are judged separately too.</p><p>The brewer's main decision is when to add the fruit. In the boil it sets colour but cooks off aroma. In the fermenter, yeast eats the fruit sugar, which dries the beer and nudges the alcohol up while keeping more of the aroma. Purée, juice and whole fruit all behave differently, and pectin from cooked fruit can leave a haze. The best examples taste of fruit in season, bright and slightly tart, with the beer still holding its shape underneath. Flavoured syrup stirred in at the end usually tastes like flavoured syrup.</p>",
+ "profile": {
+  "look": "Colour and clarity depend on the base and the fruit. Berries tint pink or purple, mango and orange push gold, and real fruit often leaves a haze.",
+  "aroma_flavour": "The fruit or vegetable should be clear and natural, balanced against the base beer's malt and hops. Fermented fruit reads drier and more wine-like than fresh juice.",
+  "mouthfeel": "Usually light to medium body with lively carbonation. Fruit acid can sharpen the finish; sugar from late additions can make it softer and rounder.",
+  "ingredients": "Any base recipe, often wheat or pale malt, plus fruit as purée, juice or whole pieces, or vegetables such as chilli or cucumber. Hops are kept modest so they do not fight the produce."
+ },
+ "glass": "Teku",
+ "serve_c": "4-8",
+ "in_india": "<p>India is spoiled for fruit, and brewers use it. Alphonso mango, Nagpur oranges, Nashik grapes, Mahabaleshwar strawberries and Konkan kokum all turn up in Indian beer, usually as seasonals tied to the harvest. Fruit beer is also the easiest way in for someone who thinks beer is too bitter. Two cautions. Bottled fruit beer can keep fermenting if the brewer has not stabilised it, so keep it cold. And drink it young, while the fruit still smells like fruit.</p>",
+ "pairings": [
+  {
+   "food": "Paneer butter masala",
+   "why": "Mango and orange beers echo the sweetness in the tomato gravy, and their acidity keeps the cream from feeling heavy."
+  },
+  {
+   "food": "Chicken 65",
+   "why": "Fruit sweetness cools the red chilli, and the carbonation lifts the frying oil off your tongue."
+  },
+  {
+   "food": "Shrikhand",
+   "why": "Tart, cardamom-scented hung curd and a mango or orange beer work well together, as long as the beer is less sweet than the shrikhand."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Aamras (Mango American Wit)",
+   "brewery": "BeeYoung Brewgarden",
+   "source": "https://www.theestablished.com/culture/living/flavoured-beer-in-india-best-breweries-12022844"
+  },
+  {
+   "beer": "Orange Popsicle (Nagpuri santra)",
+   "brewery": "Fort City Brewing",
+   "source": "https://www.theestablished.com/culture/living/flavoured-beer-in-india-best-breweries-12022844"
+  },
+  {
+   "beer": "Kimaya Mango (Alphonso mango)",
+   "brewery": "Kimaya Brewing Company",
+   "source": "https://www.theestablished.com/culture/living/flavoured-beer-in-india-best-breweries-12022844"
+  }
+ ],
+ "examples_note": ""
+}

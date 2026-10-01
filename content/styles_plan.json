@@ -1,0 +1,1122 @@
+[
+ {
+  "slug": "style-american-amber-lager",
+  "name": "American Amber Lager",
+  "family": "Amber and dark lagers",
+  "srm": "6-14",
+  "ibu": "18-30",
+  "abv": "4.8-5.4%",
+  "guide": null,
+  "similar": [
+   "style-german-style-marzen-oktoberfest",
+   "style-vienna-style-lager",
+   "style-german-style-dunkel"
+  ]
+ },
+ {
+  "slug": "style-german-style-dunkel",
+  "name": "German-Style Dunkel",
+  "family": "Amber and dark lagers",
+  "srm": "15-17",
+  "ibu": "16-25",
+  "abv": "4.8-5.3%",
+  "guide": "dunkel-and-schwarzbier",
+  "similar": [
+   "style-vienna-style-lager",
+   "style-american-amber-lager",
+   "style-german-style-marzen-oktoberfest"
+  ]
+ },
+ {
+  "slug": "style-german-style-marzen-oktoberfest",
+  "name": "German-Style Marzen / Oktoberfest",
+  "family": "Amber and dark lagers",
+  "srm": "4-15",
+  "ibu": "18-25",
+  "abv": "5.1-6%",
+  "guide": "marzen-and-oktoberfest",
+  "similar": [
+   "style-american-amber-lager",
+   "style-vienna-style-lager",
+   "style-german-style-dunkel"
+  ]
+ },
+ {
+  "slug": "style-german-style-schwarzbier",
+  "name": "German-Style Schwarzbier",
+  "family": "Amber and dark lagers",
+  "srm": "25-30",
+  "ibu": "22-30",
+  "abv": "3.8-4.9%",
+  "guide": "dunkel-and-schwarzbier",
+  "similar": [
+   "style-english-style-brown-porter",
+   "style-english-style-mild",
+   "style-german-style-dunkel"
+  ]
+ },
+ {
+  "slug": "style-vienna-style-lager",
+  "name": "Vienna-Style Lager",
+  "family": "Amber and dark lagers",
+  "srm": "12-16",
+  "ibu": "22-28",
+  "abv": "4.5-5.5%",
+  "guide": "vienna-lager",
+  "similar": [
+   "style-german-style-dunkel",
+   "style-american-amber-lager",
+   "style-german-style-marzen-oktoberfest"
+  ]
+ },
+ {
+  "slug": "style-belgian-style-blonde-ale",
+  "name": "Belgian-Style Blonde Ale",
+  "family": "Belgian ales",
+  "srm": "4-7",
+  "ibu": "15-30",
+  "abv": "6.3-7.9%",
+  "guide": null,
+  "similar": [
+   "style-belgian-style-saison",
+   "style-belgian-style-tripel",
+   "style-belgian-style-pale-ale"
+  ]
+ },
+ {
+  "slug": "style-belgian-style-dubbel",
+  "name": "Belgian-Style Dubbel",
+  "family": "Belgian ales",
+  "srm": "16-36",
+  "ibu": "20-35",
+  "abv": "6.3-7.6%",
+  "guide": "belgian-dubbel",
+  "similar": [
+   "style-german-style-bock",
+   "style-coffee-beer",
+   "style-fruit-and-field-beer"
+  ]
+ },
+ {
+  "slug": "style-belgian-style-golden-strong-ale",
+  "name": "Belgian-Style Golden Strong Ale",
+  "family": "Belgian ales",
+  "srm": "3-10",
+  "ibu": "20-50",
+  "abv": "7-11%",
+  "guide": null,
+  "similar": [
+   "style-belgian-style-tripel",
+   "style-belgian-style-quadrupel",
+   "style-belgian-style-blonde-ale"
+  ]
+ },
+ {
+  "slug": "style-belgian-style-pale-ale",
+  "name": "Belgian-Style Pale Ale",
+  "family": "Belgian ales",
+  "srm": "6-12",
+  "ibu": "20-30",
+  "abv": "4-6%",
+  "guide": null,
+  "similar": [
+   "style-belgian-style-saison",
+   "style-american-amber-lager",
+   "style-belgian-style-blonde-ale"
+  ]
+ },
+ {
+  "slug": "style-belgian-style-quadrupel",
+  "name": "Belgian-Style Quadrupel",
+  "family": "Belgian ales",
+  "srm": "8-20",
+  "ibu": "25-50",
+  "abv": "7.2-11.2%",
+  "guide": "belgian-strong-dark-ale",
+  "similar": [
+   "style-belgian-style-golden-strong-ale",
+   "style-belgian-style-tripel",
+   "style-belgian-style-blonde-ale"
+  ]
+ },
+ {
+  "slug": "style-belgian-style-saison",
+  "name": "Belgian-Style Saison",
+  "family": "Belgian ales",
+  "srm": "3-7",
+  "ibu": "20-38",
+  "abv": "4.4-6.8%",
+  "guide": "saison-guide",
+  "similar": [
+   "style-belgian-style-pale-ale",
+   "style-belgian-style-blonde-ale",
+   "style-european-style-export"
+  ]
+ },
+ {
+  "slug": "style-belgian-style-tripel",
+  "name": "Belgian-Style Tripel",
+  "family": "Belgian ales",
+  "srm": "4-7",
+  "ibu": "20-45",
+  "abv": "7.1-10.1%",
+  "guide": "belgian-tripel",
+  "similar": [
+   "style-belgian-style-golden-strong-ale",
+   "style-belgian-style-blonde-ale",
+   "style-belgian-style-quadrupel"
+  ]
+ },
+ {
+  "slug": "style-german-style-bock",
+  "name": "German-Style Bock",
+  "family": "Bocks",
+  "srm": "20-30",
+  "ibu": "20-30",
+  "abv": "6.3-7.5%",
+  "guide": "bock-and-doppelbock",
+  "similar": [
+   "style-german-style-doppelbock",
+   "style-belgian-style-dubbel",
+   "style-fruit-and-field-beer"
+  ]
+ },
+ {
+  "slug": "style-german-style-doppelbock",
+  "name": "German-Style Doppelbock",
+  "family": "Bocks",
+  "srm": "12-30",
+  "ibu": "17-27",
+  "abv": "6.6-7.9%",
+  "guide": "bock-and-doppelbock",
+  "similar": [
+   "style-german-style-bock",
+   "style-german-style-weizenbock",
+   "style-belgian-style-fruit-lambic"
+  ]
+ },
+ {
+  "slug": "style-german-style-maibock",
+  "name": "German-Style Maibock",
+  "family": "Bocks",
+  "srm": "4-9",
+  "ibu": "20-38",
+  "abv": "6-8%",
+  "guide": "bock-and-doppelbock",
+  "similar": [
+   "style-belgian-style-blonde-ale",
+   "style-new-england-ipa",
+   "style-belgian-style-saison"
+  ]
+ },
+ {
+  "slug": "style-german-style-weizenbock",
+  "name": "German-Style Weizenbock",
+  "family": "Bocks",
+  "srm": "4.5-30",
+  "ibu": "15-35",
+  "abv": "7-9.5%",
+  "guide": null,
+  "similar": [
+   "style-german-style-doppelbock",
+   "style-german-style-bock",
+   "style-smoke-porter"
+  ]
+ },
+ {
+  "slug": "style-american-brown-ale",
+  "name": "American Brown Ale",
+  "family": "Brown ales",
+  "srm": "15-26",
+  "ibu": "25-45",
+  "abv": "4.2-6.3%",
+  "guide": null,
+  "similar": [
+   "style-english-style-brown-ale",
+   "style-english-style-mild",
+   "style-german-style-altbier"
+  ]
+ },
+ {
+  "slug": "style-english-style-brown-ale",
+  "name": "English-Style Brown Ale",
+  "family": "Brown ales",
+  "srm": "12-17",
+  "ibu": "15-25",
+  "abv": "4-5.5%",
+  "guide": "english-brown-ale",
+  "similar": [
+   "style-german-style-dunkel",
+   "style-irish-style-red-beer",
+   "style-vienna-style-lager"
+  ]
+ },
+ {
+  "slug": "style-english-style-mild",
+  "name": "English-Style Mild",
+  "family": "Brown ales",
+  "srm": "17-34",
+  "ibu": "10-24",
+  "abv": "3.2-4%",
+  "guide": "english-mild",
+  "similar": [
+   "style-american-brown-ale",
+   "style-german-style-schwarzbier",
+   "style-english-style-brown-ale"
+  ]
+ },
+ {
+  "slug": "style-american-cream-ale",
+  "name": "American Cream Ale",
+  "family": "Hybrids",
+  "srm": "2-5",
+  "ibu": "10-22",
+  "abv": "4.3-5.7%",
+  "guide": null,
+  "similar": [
+   "style-german-style-kolsch",
+   "style-belgian-style-witbier",
+   "style-american-lager"
+  ]
+ },
+ {
+  "slug": "style-california-common",
+  "name": "California Common",
+  "family": "Hybrids",
+  "srm": "8-15",
+  "ibu": "35-45",
+  "abv": "4.6-5.7%",
+  "guide": null,
+  "similar": [
+   "style-german-style-altbier",
+   "style-french-style-biere-de-garde",
+   "style-irish-style-red-beer"
+  ]
+ },
+ {
+  "slug": "style-french-style-biere-de-garde",
+  "name": "French-Style Biere de Garde",
+  "family": "Hybrids",
+  "srm": "7-16",
+  "ibu": "20-30",
+  "abv": "4.4-8%",
+  "guide": null,
+  "similar": [
+   "style-irish-style-red-beer",
+   "style-california-common",
+   "style-german-style-altbier"
+  ]
+ },
+ {
+  "slug": "style-german-style-altbier",
+  "name": "German-Style Altbier",
+  "family": "Hybrids",
+  "srm": "11-19",
+  "ibu": "25-52",
+  "abv": "4.6-5.6%",
+  "guide": "altbier-guide",
+  "similar": [
+   "style-california-common",
+   "style-irish-style-red-beer",
+   "style-french-style-biere-de-garde"
+  ]
+ },
+ {
+  "slug": "style-german-style-kolsch",
+  "name": "German-Style Kolsch",
+  "family": "Hybrids",
+  "srm": "3-6",
+  "ibu": "18-28",
+  "abv": "4.8-5.3%",
+  "guide": "kolsch-guide",
+  "similar": [
+   "style-american-cream-ale",
+   "style-german-style-helles",
+   "style-blonde-ale"
+  ]
+ },
+ {
+  "slug": "style-irish-style-red-beer",
+  "name": "Irish-Style Red Beer",
+  "family": "Hybrids",
+  "srm": "11-18",
+  "ibu": "20-28",
+  "abv": "4-4.8%",
+  "guide": "amber-and-red-ales",
+  "similar": [
+   "style-german-style-altbier",
+   "style-french-style-biere-de-garde",
+   "style-california-common"
+  ]
+ },
+ {
+  "slug": "style-american-ipa",
+  "name": "American IPA",
+  "family": "IPAs",
+  "srm": "6-12",
+  "ibu": "50-70",
+  "abv": "6.3-7.5%",
+  "guide": "west-coast-ipa",
+  "similar": [
+   "style-english-style-ipa",
+   "style-new-england-ipa",
+   "style-imperial-india-pale-ale"
+  ]
+ },
+ {
+  "slug": "style-english-style-ipa",
+  "name": "English-Style IPA",
+  "family": "IPAs",
+  "srm": "6-14",
+  "ibu": "35-63",
+  "abv": "5-7%",
+  "guide": "english-ipa",
+  "similar": [
+   "style-american-ipa",
+   "style-new-england-ipa",
+   "style-california-common"
+  ]
+ },
+ {
+  "slug": "style-imperial-india-pale-ale",
+  "name": "Imperial India Pale Ale",
+  "family": "IPAs",
+  "srm": "2-9",
+  "ibu": "65-100",
+  "abv": "7.6-10.6%",
+  "guide": "double-ipa",
+  "similar": [
+   "style-american-ipa",
+   "style-american-style-wheat-wine-ale",
+   "style-american-imperial-red-ale"
+  ]
+ },
+ {
+  "slug": "style-new-england-ipa",
+  "name": "New England IPA",
+  "family": "IPAs",
+  "srm": "3-7",
+  "ibu": "30-50",
+  "abv": "6.3-7.5%",
+  "guide": "new-england-ipa",
+  "similar": [
+   "style-english-style-ipa",
+   "style-american-ipa",
+   "style-german-style-maibock"
+  ]
+ },
+ {
+  "slug": "style-american-amber-ale",
+  "name": "American Amber Ale",
+  "family": "Pale ales",
+  "srm": "11-18",
+  "ibu": "25-45",
+  "abv": "4.4-6.1%",
+  "guide": "amber-and-red-ales",
+  "similar": [
+   "style-english-style-pale-ale-esb",
+   "style-american-pale-ale",
+   "style-german-style-altbier"
+  ]
+ },
+ {
+  "slug": "style-american-pale-ale",
+  "name": "American Pale Ale",
+  "family": "Pale ales",
+  "srm": "6-14",
+  "ibu": "30-50",
+  "abv": "4.4-5.4%",
+  "guide": "pale-ale-guide",
+  "similar": [
+   "style-english-style-pale-ale-esb",
+   "style-american-amber-ale",
+   "style-english-style-bitter"
+  ]
+ },
+ {
+  "slug": "style-blonde-ale",
+  "name": "Blonde Ale",
+  "family": "Pale ales",
+  "srm": "3-7",
+  "ibu": "15-25",
+  "abv": "4.1-5.1%",
+  "guide": null,
+  "similar": [
+   "style-english-style-bitter",
+   "style-english-style-pale-ale-esb",
+   "style-american-wheat"
+  ]
+ },
+ {
+  "slug": "style-english-style-bitter",
+  "name": "English-Style Bitter",
+  "family": "Pale ales",
+  "srm": "5-12",
+  "ibu": "20-35",
+  "abv": "3-4.2%",
+  "guide": "english-bitter",
+  "similar": [
+   "style-english-style-pale-ale-esb",
+   "style-blonde-ale",
+   "style-american-pale-ale"
+  ]
+ },
+ {
+  "slug": "style-english-style-pale-ale-esb",
+  "name": "English-Style Pale Ale (ESB)",
+  "family": "Pale ales",
+  "srm": "5-16",
+  "ibu": "20-40",
+  "abv": "4.5-5.5%",
+  "guide": "english-bitter",
+  "similar": [
+   "style-american-pale-ale",
+   "style-american-amber-ale",
+   "style-english-style-bitter"
+  ]
+ },
+ {
+  "slug": "style-american-lager",
+  "name": "American Lager",
+  "family": "Pale lagers",
+  "srm": "2-4",
+  "ibu": "5-19",
+  "abv": "4.1-5.1%",
+  "guide": "american-light-lager",
+  "similar": [
+   "style-german-style-helles",
+   "style-european-style-export",
+   "style-belgian-style-witbier"
+  ]
+ },
+ {
+  "slug": "style-bohemian-style-pilsener",
+  "name": "Bohemian-Style Pilsener",
+  "family": "Pale lagers",
+  "srm": "3-7",
+  "ibu": "30-45",
+  "abv": "4.1-5.1%",
+  "guide": "pilsner-style-guide",
+  "similar": [
+   "style-german-style-pilsner",
+   "style-european-style-export",
+   "style-german-style-helles"
+  ]
+ },
+ {
+  "slug": "style-european-style-export",
+  "name": "European-Style Export",
+  "family": "Pale lagers",
+  "srm": "3-6",
+  "ibu": "23-29",
+  "abv": "5.1-6.1%",
+  "guide": null,
+  "similar": [
+   "style-german-style-helles",
+   "style-german-style-pilsner",
+   "style-bohemian-style-pilsener"
+  ]
+ },
+ {
+  "slug": "style-german-style-helles",
+  "name": "German-Style Helles",
+  "family": "Pale lagers",
+  "srm": "4-5.5",
+  "ibu": "18-25",
+  "abv": "4.8-5.6%",
+  "guide": "helles-style-guide",
+  "similar": [
+   "style-european-style-export",
+   "style-american-lager",
+   "style-german-style-pilsner"
+  ]
+ },
+ {
+  "slug": "style-german-style-pilsner",
+  "name": "German-Style Pilsner",
+  "family": "Pale lagers",
+  "srm": "3-4",
+  "ibu": "25-50",
+  "abv": "4.6-5.3%",
+  "guide": "pilsner-style-guide",
+  "similar": [
+   "style-bohemian-style-pilsener",
+   "style-european-style-export",
+   "style-german-style-helles"
+  ]
+ },
+ {
+  "slug": "style-american-imperial-porter",
+  "name": "American Imperial Porter",
+  "family": "Porters",
+  "srm": "40+",
+  "ibu": "35-50",
+  "abv": "7-12%",
+  "guide": null,
+  "similar": [
+   "style-baltic-style-porter",
+   "style-robust-porter",
+   "style-american-stout"
+  ]
+ },
+ {
+  "slug": "style-baltic-style-porter",
+  "name": "Baltic-Style Porter",
+  "family": "Porters",
+  "srm": "17-30",
+  "ibu": "35-40",
+  "abv": "7.6-9.3%",
+  "guide": null,
+  "similar": [
+   "style-american-imperial-porter",
+   "style-robust-porter",
+   "style-american-stout"
+  ]
+ },
+ {
+  "slug": "style-english-style-brown-porter",
+  "name": "English-Style Brown Porter",
+  "family": "Porters",
+  "srm": "20-35",
+  "ibu": "20-30",
+  "abv": "4.5-6%",
+  "guide": "porter-guide",
+  "similar": [
+   "style-robust-porter",
+   "style-german-style-schwarzbier",
+   "style-smoke-porter"
+  ]
+ },
+ {
+  "slug": "style-robust-porter",
+  "name": "Robust Porter",
+  "family": "Porters",
+  "srm": "30-40",
+  "ibu": "25-40",
+  "abv": "5.1-6.6%",
+  "guide": "porter-guide",
+  "similar": [
+   "style-english-style-brown-porter",
+   "style-english-style-oatmeal-stout",
+   "style-baltic-style-porter"
+  ]
+ },
+ {
+  "slug": "style-smoke-porter",
+  "name": "Smoke Porter",
+  "family": "Porters",
+  "srm": "20+",
+  "ibu": "20-40",
+  "abv": "5.1-8.9%",
+  "guide": "smoked-beer-rauchbier",
+  "similar": [
+   "style-scotch-ale-wee-heavy",
+   "style-german-style-doppelbock",
+   "style-english-style-brown-porter"
+  ]
+ },
+ {
+  "slug": "style-scotch-ale-wee-heavy",
+  "name": "Scotch Ale/Wee Heavy",
+  "family": "Scottish ales",
+  "srm": "15-30",
+  "ibu": "25-35",
+  "abv": "6.2-8%",
+  "guide": null,
+  "similar": [
+   "style-smoke-porter",
+   "style-german-style-bock",
+   "style-german-style-doppelbock"
+  ]
+ },
+ {
+  "slug": "style-scottish-style-ale",
+  "name": "Scottish-Style Ale",
+  "family": "Scottish ales",
+  "srm": "6-19",
+  "ibu": "9-25",
+  "abv": "2.8-5.3%",
+  "guide": null,
+  "similar": [
+   "style-english-style-brown-ale",
+   "style-irish-style-red-beer",
+   "style-vienna-style-lager"
+  ]
+ },
+ {
+  "slug": "style-american-brett",
+  "name": "American Brett",
+  "family": "Sours and wild beers",
+  "srm": "Varies",
+  "ibu": "Varies",
+  "abv": "Varies",
+  "guide": null,
+  "similar": [
+   "style-american-sour",
+   "style-smoke-beer",
+   "style-rye-beer"
+  ]
+ },
+ {
+  "slug": "style-american-sour",
+  "name": "American Sour",
+  "family": "Sours and wild beers",
+  "srm": "1-40",
+  "ibu": "Varies",
+  "abv": "Varies",
+  "guide": null,
+  "similar": [
+   "style-american-brett",
+   "style-rye-beer",
+   "style-gluten-free-craft-beer"
+  ]
+ },
+ {
+  "slug": "style-belgian-style-flanders",
+  "name": "Belgian-Style Flanders",
+  "family": "Sours and wild beers",
+  "srm": "12-25",
+  "ibu": "5-18",
+  "abv": "4.8-6.6%",
+  "guide": "flanders-red-ale",
+  "similar": [
+   "style-belgian-style-fruit-lambic",
+   "style-german-style-dunkelweizen",
+   "style-belgian-style-lambic-gueuze"
+  ]
+ },
+ {
+  "slug": "style-belgian-style-fruit-lambic",
+  "name": "Belgian-Style Fruit Lambic",
+  "family": "Sours and wild beers",
+  "srm": "Varies",
+  "ibu": "15-21",
+  "abv": "5-8.9%",
+  "guide": "lambic-and-gueuze",
+  "similar": [
+   "style-belgian-style-flanders",
+   "style-german-style-doppelbock",
+   "style-belgian-style-lambic-gueuze"
+  ]
+ },
+ {
+  "slug": "style-belgian-style-lambic-gueuze",
+  "name": "Belgian-Style Lambic/Gueuze",
+  "family": "Sours and wild beers",
+  "srm": "6-13",
+  "ibu": "9-23",
+  "abv": "5-8.9%",
+  "guide": "lambic-and-gueuze",
+  "similar": [
+   "style-contemporary-gose",
+   "style-belgian-style-flanders",
+   "style-belgian-style-fruit-lambic"
+  ]
+ },
+ {
+  "slug": "style-contemporary-gose",
+  "name": "Contemporary Gose",
+  "family": "Sours and wild beers",
+  "srm": "3-9",
+  "ibu": "5-15",
+  "abv": "4.4-5.4%",
+  "guide": "gose-guide",
+  "similar": [
+   "style-german-style-hefeweizen",
+   "style-belgian-style-lambic-gueuze",
+   "style-american-lager"
+  ]
+ },
+ {
+  "slug": "style-american-black-ale",
+  "name": "American Black Ale",
+  "family": "Speciality beers",
+  "srm": "34-38",
+  "ibu": "50-70",
+  "abv": "6-7.5%",
+  "guide": null,
+  "similar": [
+   "style-honey-beer",
+   "style-pumpkin-beer",
+   "style-chocolate-beer"
+  ]
+ },
+ {
+  "slug": "style-barrel-aged-beer",
+  "name": "Barrel-Aged Beer",
+  "family": "Speciality beers",
+  "srm": "1-40",
+  "ibu": "Varies",
+  "abv": "Varies",
+  "guide": null,
+  "similar": [
+   "style-rye-beer",
+   "style-gluten-free-craft-beer",
+   "style-smoke-beer"
+  ]
+ },
+ {
+  "slug": "style-chocolate-beer",
+  "name": "Chocolate Beer",
+  "family": "Speciality beers",
+  "srm": "12-50",
+  "ibu": "15-40",
+  "abv": "2.5-12%",
+  "guide": null,
+  "similar": [
+   "style-fruit-and-field-beer",
+   "style-herb-and-spice-beer",
+   "style-coffee-beer"
+  ]
+ },
+ {
+  "slug": "style-coffee-beer",
+  "name": "Coffee Beer",
+  "family": "Speciality beers",
+  "srm": "4-50",
+  "ibu": "15-45",
+  "abv": "2.5-12%",
+  "guide": null,
+  "similar": [
+   "style-fruit-and-field-beer",
+   "style-herb-and-spice-beer",
+   "style-pumpkin-beer"
+  ]
+ },
+ {
+  "slug": "style-fruit-and-field-beer",
+  "name": "Fruit and Field Beer",
+  "family": "Speciality beers",
+  "srm": "5-50",
+  "ibu": "5-45",
+  "abv": "2.5-12%",
+  "guide": null,
+  "similar": [
+   "style-herb-and-spice-beer",
+   "style-coffee-beer",
+   "style-chocolate-beer"
+  ]
+ },
+ {
+  "slug": "style-gluten-free-craft-beer",
+  "name": "Gluten-Free Craft Beer",
+  "family": "Speciality beers",
+  "srm": "1-40",
+  "ibu": "Varies",
+  "abv": "Varies",
+  "guide": null,
+  "similar": [
+   "style-rye-beer",
+   "style-barrel-aged-beer",
+   "style-smoke-beer"
+  ]
+ },
+ {
+  "slug": "style-herb-and-spice-beer",
+  "name": "Herb and Spice Beer",
+  "family": "Speciality beers",
+  "srm": "5-50",
+  "ibu": "5-40",
+  "abv": "2.5-12%",
+  "guide": null,
+  "similar": [
+   "style-fruit-and-field-beer",
+   "style-coffee-beer",
+   "style-chocolate-beer"
+  ]
+ },
+ {
+  "slug": "style-honey-beer",
+  "name": "Honey Beer",
+  "family": "Speciality beers",
+  "srm": "1-50",
+  "ibu": "1-100",
+  "abv": "2.5-12%",
+  "guide": null,
+  "similar": [
+   "style-pumpkin-beer",
+   "style-rye-beer",
+   "style-gluten-free-craft-beer"
+  ]
+ },
+ {
+  "slug": "style-pumpkin-beer",
+  "name": "Pumpkin Beer",
+  "family": "Speciality beers",
+  "srm": "5-50",
+  "ibu": "5-70",
+  "abv": "2.3-12%",
+  "guide": null,
+  "similar": [
+   "style-coffee-beer",
+   "style-fruit-and-field-beer",
+   "style-chocolate-beer"
+  ]
+ },
+ {
+  "slug": "style-rye-beer",
+  "name": "Rye Beer",
+  "family": "Speciality beers",
+  "srm": "1-40",
+  "ibu": "Varies",
+  "abv": "Varies",
+  "guide": null,
+  "similar": [
+   "style-gluten-free-craft-beer",
+   "style-barrel-aged-beer",
+   "style-smoke-beer"
+  ]
+ },
+ {
+  "slug": "style-session-beer",
+  "name": "Session Beer",
+  "family": "Speciality beers",
+  "srm": "Varies",
+  "ibu": "10-35",
+  "abv": "3.5-5%",
+  "guide": "session-ipa",
+  "similar": [
+   "style-english-style-sweet-stout-milk-stout",
+   "style-irish-style-dry-stout",
+   "style-english-style-oatmeal-stout"
+  ]
+ },
+ {
+  "slug": "style-smoke-beer",
+  "name": "Smoke Beer",
+  "family": "Speciality beers",
+  "srm": "Varies",
+  "ibu": "Varies",
+  "abv": "Varies",
+  "guide": "smoked-beer-rauchbier",
+  "similar": [
+   "style-rye-beer",
+   "style-gluten-free-craft-beer",
+   "style-barrel-aged-beer"
+  ]
+ },
+ {
+  "slug": "style-specialty-beer",
+  "name": "Specialty Beer",
+  "family": "Speciality beers",
+  "srm": "Varies",
+  "ibu": "1-100",
+  "abv": "2.5-25%",
+  "guide": null,
+  "similar": [
+   "style-british-style-barley-wine-ale",
+   "style-american-style-wheat-wine-ale",
+   "style-honey-beer"
+  ]
+ },
+ {
+  "slug": "style-american-imperial-stout",
+  "name": "American Imperial Stout",
+  "family": "Stouts",
+  "srm": "40+",
+  "ibu": "50-80",
+  "abv": "7-12%",
+  "guide": "imperial-stout-guide",
+  "similar": [
+   "style-american-stout",
+   "style-american-imperial-porter",
+   "style-american-black-ale"
+  ]
+ },
+ {
+  "slug": "style-american-stout",
+  "name": "American Stout",
+  "family": "Stouts",
+  "srm": "40-45",
+  "ibu": "35-60",
+  "abv": "5.7-8.9%",
+  "guide": null,
+  "similar": [
+   "style-american-imperial-stout",
+   "style-irish-style-dry-stout",
+   "style-baltic-style-porter"
+  ]
+ },
+ {
+  "slug": "style-english-style-oatmeal-stout",
+  "name": "English-Style Oatmeal Stout",
+  "family": "Stouts",
+  "srm": "20-50",
+  "ibu": "20-40",
+  "abv": "3.8-6%",
+  "guide": "milk-and-oatmeal-stout",
+  "similar": [
+   "style-irish-style-dry-stout",
+   "style-english-style-sweet-stout-milk-stout",
+   "style-robust-porter"
+  ]
+ },
+ {
+  "slug": "style-english-style-sweet-stout-milk-stout",
+  "name": "English-Style Sweet Stout (Milk Stout)",
+  "family": "Stouts",
+  "srm": "40+",
+  "ibu": "15-25",
+  "abv": "3-6%",
+  "guide": "milk-and-oatmeal-stout",
+  "similar": [
+   "style-irish-style-dry-stout",
+   "style-english-style-oatmeal-stout",
+   "style-robust-porter"
+  ]
+ },
+ {
+  "slug": "style-irish-style-dry-stout",
+  "name": "Irish-Style Dry Stout",
+  "family": "Stouts",
+  "srm": "35-40",
+  "ibu": "30-40",
+  "abv": "3.8-5%",
+  "guide": "dry-stout-guide",
+  "similar": [
+   "style-english-style-oatmeal-stout",
+   "style-english-style-sweet-stout-milk-stout",
+   "style-robust-porter"
+  ]
+ },
+ {
+  "slug": "style-american-barley-wine",
+  "name": "American Barley Wine",
+  "family": "Strong ales",
+  "srm": "11-18",
+  "ibu": "60-100",
+  "abv": "8.5-12.2%",
+  "guide": "barleywine-guide",
+  "similar": [
+   "style-american-imperial-red-ale",
+   "style-british-style-barley-wine-ale",
+   "style-american-style-wheat-wine-ale"
+  ]
+ },
+ {
+  "slug": "style-american-imperial-red-ale",
+  "name": "American Imperial Red Ale",
+  "family": "Strong ales",
+  "srm": "10-17",
+  "ibu": "55-85",
+  "abv": "8-10.6%",
+  "guide": null,
+  "similar": [
+   "style-american-barley-wine",
+   "style-british-style-barley-wine-ale",
+   "style-american-style-wheat-wine-ale"
+  ]
+ },
+ {
+  "slug": "style-british-style-barley-wine-ale",
+  "name": "British-Style Barley Wine Ale",
+  "family": "Strong ales",
+  "srm": "14-22",
+  "ibu": "40-60",
+  "abv": "8.5-12%",
+  "guide": "barleywine-guide",
+  "similar": [
+   "style-english-style-old-ale",
+   "style-american-imperial-red-ale",
+   "style-american-barley-wine"
+  ]
+ },
+ {
+  "slug": "style-english-style-old-ale",
+  "name": "English-Style Old Ale",
+  "family": "Strong ales",
+  "srm": "12-30",
+  "ibu": "30-65",
+  "abv": "6.3-9.1%",
+  "guide": null,
+  "similar": [
+   "style-british-style-barley-wine-ale",
+   "style-honey-beer",
+   "style-rye-beer"
+  ]
+ },
+ {
+  "slug": "style-american-wheat",
+  "name": "American Wheat",
+  "family": "Wheat beers",
+  "srm": "2-10",
+  "ibu": "10-35",
+  "abv": "3.5-5.6%",
+  "guide": null,
+  "similar": [
+   "style-german-style-hefeweizen",
+   "style-belgian-style-witbier",
+   "style-blonde-ale"
+  ]
+ },
+ {
+  "slug": "style-american-style-wheat-wine-ale",
+  "name": "American-Style Wheat Wine Ale",
+  "family": "Wheat beers",
+  "srm": "5-15",
+  "ibu": "45-85",
+  "abv": "8.5-12.2%",
+  "guide": null,
+  "similar": [
+   "style-american-imperial-red-ale",
+   "style-american-barley-wine",
+   "style-imperial-india-pale-ale"
+  ]
+ },
+ {
+  "slug": "style-belgian-style-witbier",
+  "name": "Belgian-Style Witbier",
+  "family": "Wheat beers",
+  "srm": "2-4",
+  "ibu": "10-17",
+  "abv": "4.8-5.6%",
+  "guide": "witbier-guide",
+  "similar": [
+   "style-german-style-hefeweizen",
+   "style-american-wheat",
+   "style-american-cream-ale"
+  ]
+ },
+ {
+  "slug": "style-berliner-style-weisse",
+  "name": "Berliner-Style Weisse",
+  "family": "Wheat beers",
+  "srm": "2-4",
+  "ibu": "3-6",
+  "abv": "2.8-3.4%",
+  "guide": "berliner-weisse",
+  "similar": [
+   "style-belgian-style-witbier",
+   "style-german-style-hefeweizen",
+   "style-american-wheat"
+  ]
+ },
+ {
+  "slug": "style-german-style-dunkelweizen",
+  "name": "German-Style Dunkelweizen",
+  "family": "Wheat beers",
+  "srm": "10-25",
+  "ibu": "10-15",
+  "abv": "4.8-5.4%",
+  "guide": null,
+  "similar": [
+   "style-belgian-style-flanders",
+   "style-german-style-dunkel",
+   "style-english-style-brown-ale"
+  ]
+ },
+ {
+  "slug": "style-german-style-hefeweizen",
+  "name": "German-Style Hefeweizen",
+  "family": "Wheat beers",
+  "srm": "3-9",
+  "ibu": "10-15",
+  "abv": "4.9-5.6%",
+  "guide": "hefeweizen-guide",
+  "similar": [
+   "style-belgian-style-witbier",
+   "style-american-wheat",
+   "style-contemporary-gose"
+  ]
+ }
+]

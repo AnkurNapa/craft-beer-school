@@ -1,0 +1,44 @@
+{
+ "slug": "style-american-brett",
+ "name": "American Brett Beer",
+ "family": "Sours and wild beers",
+ "title": "American Brett Beer: Style Guide | Craft Beer School",
+ "desc": "American Brett beer: ales fermented or finished with Brettanomyces yeast. What funk tastes like, how to serve it and what to eat with it.",
+ "tagline": "One yeast, a lot of character: farmyard, tropical fruit and a bone-dry finish, without needing to be sour.",
+ "tastes": "<p>Brettanomyces, Brett for short, is a slow, hardy yeast that most breweries treat as an infection. A few deliberately invite it in. An American Brett beer is any ale fermented wholly or partly with Brett, and in the American craft tradition that means almost any base: pale ale, IPA, saison, stout.</p><p>Brett brings two families of flavour. One is fruity: pineapple, mango, stone fruit. The other is the famous funk: hay, leather, a barnyard note, sometimes a whiff of clove or smoke. Which side shows depends on the strain, the base beer and time. Brett also eats sugars that ordinary yeast leaves behind, so these beers often finish very dry.</p><p>Brett on its own does not make a beer sour. That needs lactic or acetic bacteria. A Brett beer can be tart, but many are not, and a hoppy Brett pale ale can be fruity and dry with no acidity at all. That is the clearest line between this style and an American sour. Because the colour, bitterness and strength depend on the base, the numbers vary freely.</p>",
+ "profile": {
+  "look": "Anything from pale straw to black, depending on the base beer. Often slightly hazy. Brett can give a lively, persistent head.",
+  "aroma_flavour": "Tropical and stone fruit, hay, leather and a light barnyard funk over whatever malt and hops the base beer carries. Usually little or no sourness.",
+  "mouthfeel": "Typically light to medium and very dry, as Brett eats sugars ordinary yeast leaves. Carbonation is often high, especially when bottle-conditioned.",
+  "ingredients": "Any ale base, from pale to dark. Brettanomyces as primary or secondary yeast, sometimes alongside brewer's yeast. Often oak barrels or foeders. Hops chosen to suit the base."
+ },
+ "glass": "Teku",
+ "serve_c": "7-11",
+ "in_india": "<p>Brett is rare in Indian brewing for practical reasons. It is hard to remove from a brewery once it lives there, so most brewpubs that try it keep it in a separate barrel room or avoid it altogether. When you find one, it will be a small batch, often oak-aged. Heat speeds up Brett, so a bottle stored warm can keep fermenting and become overcarbonated. Drink it on tap, or keep bottles cold and open them carefully.</p>",
+ "pairings": [
+  {
+   "food": "Goan chorizo pao",
+   "why": "The funky, dry beer cuts through the spiced, vinegary fat, and the fruit notes play against the chilli."
+  },
+  {
+   "food": "Khandvi with tempered mustard seed",
+   "why": "A light, dry Brett beer matches the tangy, delicate gram flour rolls without drowning them."
+  },
+  {
+   "food": "Bandel or Kalimpong cheese",
+   "why": "Smoky, salty Indian farmhouse cheese meets farmhouse funk, and the dryness keeps it clean."
+  },
+  {
+   "food": "Aam shrikhand",
+   "why": "Mango and hung curd echo Brett's tropical fruit, and the dry finish balances the sugar."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Belgian Brett Tripel",
+   "brewery": "Biergarten Brewery and Kitchen, Bengaluru",
+   "source": "https://untappd.com/b/biergarten-brewery-and-kitchen-belgian-brett-tripel/6208631"
+  }
+ ],
+ "examples_note": ""
+}

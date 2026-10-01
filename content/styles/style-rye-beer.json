@@ -1,0 +1,44 @@
+{
+ "slug": "style-rye-beer",
+ "name": "Rye Beer",
+ "family": "Speciality beers",
+ "title": "Rye Beer: Style Guide | Craft Beer School",
+ "desc": "Rye beer explained: what rye malt adds, why it is a pain in the mash tun, and which Indian dishes suit its spicy, dry bite.",
+ "tagline": "Rye brings a peppery snap and a slick body to almost any beer you add it to.",
+ "tastes": "<p>Rye is less a style than an ingredient that changes whatever it goes into. Add it to a pale ale and you get a rye pale ale; add it to an IPA and you get a rye IPA; brew a Bavarian dark wheat beer with rye instead of wheat and you have roggenbier. The common thread is a dry, slightly peppery grain flavour, a little like the crust of a dark rye loaf, and a body that feels oddly full and silky for how dry the beer finishes.</p><p>That silkiness comes from gums in the grain. They are also why brewers grumble about rye. Above about 20 percent of the grist, the mash turns sticky and slow to run off, and some brewers add rice hulls or a beta glucan rest to keep it moving.</p><p>The American versions lean on hops, with citrus and pine against the spicy grain. German roggenbier leans on yeast, with banana and clove from a weizen strain. Both are worth knowing.</p>",
+ "profile": {
+  "look": "Anything from pale gold to dark brown depending on the base beer. Often a little hazy from the rye, with a dense, long lasting head.",
+  "aroma_flavour": "Peppery, earthy grain like rye bread crust, over whatever the base beer brings: hops in a rye IPA, banana and clove in roggenbier, caramel in a rye amber.",
+  "mouthfeel": "Medium body with a smooth, slightly oily texture, yet a crisp and dry finish. Carbonation is moderate to lively.",
+  "ingredients": "Malted rye at 10 to 50 percent of the grist alongside pale barley malt, sometimes crystal malt. Rice hulls help the run-off. Hops and yeast depend on the base style."
+ },
+ "glass": "Tulip",
+ "serve_c": "6-10",
+ "in_india": "<p>Rye is not grown at any scale in India, so every kilo of rye malt is imported and costs more than barley. That keeps it to brewpubs that like to experiment. Fresh rye ales hold up reasonably well in heat, but the hop character of a rye IPA fades fast in a warm supply chain, so drink it on tap. The dry, spicy finish makes it a strong choice with heavily spiced north Indian food.</p>",
+ "pairings": [
+  {
+   "food": "Rajma chawal",
+   "why": "The peppery grain and dry finish cut through the rich kidney bean gravy, and the body stands up to it."
+  },
+  {
+   "food": "Amritsari fish fry",
+   "why": "Ajwain in the batter meets the spicy rye, and the carbonation scrubs the oil off your palate."
+  },
+  {
+   "food": "Mutton seekh kebab",
+   "why": "Char and black pepper in the kebab echo the rye's bite."
+  },
+  {
+   "food": "Gajar ka halwa",
+   "why": "A malty rye amber has enough caramel to keep up with the halwa, and its dry finish stops the pairing from cloying."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Rye Ale",
+   "brewery": "Royal Oak Brewery, Navi Mumbai",
+   "source": "https://homegrown.co.in/homegrown-explore/24-microbreweries-across-india-you-can-celebrate-world-beer-day-at"
+  }
+ ],
+ "examples_note": ""
+}

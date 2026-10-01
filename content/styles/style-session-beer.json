@@ -1,0 +1,44 @@
+{
+ "slug": "style-session-beer",
+ "name": "Session Beer",
+ "family": "Speciality beers",
+ "title": "Session Beer: Style Guide | Craft Beer School",
+ "desc": "Session beer explained: low alcohol, full flavour, and why it suits Indian afternoons better than a strong lager.",
+ "tagline": "Any style, brewed light enough that the third glass tastes as good as the first.",
+ "tastes": "<p>A session beer is defined by strength, not flavour. The usual line is 5 percent alcohol or below, and the idea is old: English drinkers spent long evenings on bitter and mild at 3.5 to 4 percent long before anyone in America called it sessionable. Today you find session IPAs, session sours, session stouts and plenty of pale ales that fit the label.</p><p>The hard part is making a light beer that does not taste thin. Brewers mash a little warmer to leave more body, use crystal or oats for texture, and pack in late hops so the aroma does the work that alcohol cannot. A session IPA at 4.5 percent can smell every bit as loud as a 7 percent one, then finish dry and quick.</p><p>What you should notice is balance. Nothing dominates, nothing is hot, and you do not feel tired after two. That is the whole brief.</p>",
+ "profile": {
+  "look": "Wide range: straw gold for session IPAs and pale ales, amber for bitters, near black for session stouts. Usually clear, with a lively head.",
+  "aroma_flavour": "Depends on the base style. Hop led versions show citrus, tropical fruit or floral notes over light biscuit malt. Stouts give coffee and cocoa without the weight.",
+  "mouthfeel": "Light to medium body, kept from going watery by careful mashing or oats. Brisk carbonation and a clean, dry finish that invites another sip.",
+  "ingredients": "Pale malt with a little crystal, wheat or oats for body. Plenty of late and dry hops in hoppy versions. Clean ale yeast that finishes dry without stripping flavour."
+ },
+ "glass": "Nonic pint",
+ "serve_c": "4-8",
+ "in_india": "<p>India is made for session beer. Most of us drink in heat, often over a long meal or a cricket match, and the strong lagers that dominate the market push 8 percent. A 4.5 percent beer with real flavour is the better companion for a Sunday afternoon. Brewpubs are the place to find them, and many house IPAs and pale ales already sit in session territory. Hoppy session beers fade fast in a warm cold chain, so drink them fresh.</p>",
+ "pairings": [
+  {
+   "food": "Masala peanuts and banana chips",
+   "why": "Salt and spice keep you sipping, and a light hoppy beer refreshes without tiring the palate."
+  },
+  {
+   "food": "Mysore masala dosa",
+   "why": "The red chutney's chilli is cooled by a crisp, light pint that does not fill you up."
+  },
+  {
+   "food": "Chicken 65",
+   "why": "Curry leaf and chilli meet citrus hops, and the low alcohol keeps the heat in check."
+  },
+  {
+   "food": "Mango kulfi",
+   "why": "A light session stout or fruity pale ale brings out the mango without drowning a delicate dessert."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Toit India Pale Ale",
+   "brewery": "Toit Brewpub",
+   "source": "https://toit.in/beer/toit-india-pale-ale/"
+  }
+ ],
+ "examples_note": ""
+}

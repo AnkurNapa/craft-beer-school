@@ -1,0 +1,50 @@
+{
+ "slug": "style-coffee-beer",
+ "name": "Coffee Beer",
+ "family": "Speciality beers",
+ "title": "Coffee Beer: Style Guide | Craft Beer School",
+ "desc": "Coffee beer explained: how brewers add coffee to stouts, porters and pale beers, and why Indian estates from Chikmagalur to Araku suit it.",
+ "tagline": "Beer with real coffee in it, from roasty stouts to pale ales that smell like a fresh pour-over.",
+ "tastes": "<p>Coffee beer is any beer with coffee added, and the base can be almost anything. Stout and porter are the obvious partners because dark malt already tastes of roast, but pale coffee ales, coffee lagers and even coffee sours exist. The coffee should be obvious and fresh, not a vague bitterness you have to hunt for.</p><p>How the coffee goes in matters more than which bean. Hot coffee, or beans in the boil, give stale, harsh notes. Most brewers either blend in cold brew at packaging or soak whole or coarsely ground beans in the fermented beer for a day or two, much as they would dry hop. Leave them too long and you get green, vegetal or astringent flavours. Light roasts in a pale beer show fruit and florals; dark roasts in a stout show chocolate and caramel. Either way, coffee aroma fades within weeks, so these are beers to drink young.</p>",
+ "profile": {
+  "look": "Anything from gold to black, set by the base beer. A cold steep adds little colour, so a pale coffee ale can look like any other pale ale.",
+  "aroma_flavour": "Fresh coffee first: roast, chocolate and caramel from dark beans, berry, citrus or jasmine from light ones. Stale or ashy notes are faults.",
+  "mouthfeel": "Follows the base: light and crisp for pale versions, fuller and smoother for stouts. Coffee adds some dryness and a mild bitterness at the finish.",
+  "ingredients": "A base beer recipe plus whole or coarsely ground beans or cold brew, usually added after fermentation. Arabica is the usual choice; robusta brings a harsher, earthier bitterness."
+ },
+ "glass": "Nonic pint",
+ "serve_c": "8-12",
+ "in_india": "<p>India grows serious coffee, and brewers have noticed. Arabica and robusta from Chikmagalur, Coorg, the Nilgiris and Araku give a short, traceable supply chain, and several breweries work directly with Indian speciality roasters. The style also fits Indian habits: a coffee porter makes instant sense to anyone raised on South Indian filter coffee. The catch is freshness. Coffee aroma fades fast, faster still on a warm shop shelf, so pick the most recent can and keep it in the fridge.</p>",
+ "pairings": [
+  {
+   "food": "Masala dosa with coconut chutney",
+   "why": "Filter coffee after a dosa is a habit for a reason: the roast cuts the ghee and potato masala, and the bubbles do the rest."
+  },
+  {
+   "food": "Kerala beef fry",
+   "why": "Coconut slivers, curry leaves and black pepper fried dark and crisp meet the coffee's roast on the same note."
+  },
+  {
+   "food": "Mysore pak",
+   "why": "This dense ghee and gram flour sweet needs bitterness to balance it, and coffee provides exactly that."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Malabar Stout",
+   "brewery": "Bira 91",
+   "source": "https://www.livcheers.com/liquor/bira-91-malabar-stout-indian-coffee-330ml"
+  },
+  {
+   "beer": "Filter Coffee Porter",
+   "brewery": "Effingut",
+   "source": "https://www.theestablished.com/culture/living/flavoured-beer-in-india-best-breweries-12022844"
+  },
+  {
+   "beer": "Coffee Stout (with Third Wave Coffee)",
+   "brewery": "Ironhill India",
+   "source": "https://www.theestablished.com/culture/living/flavoured-beer-in-india-best-breweries-12022844"
+  }
+ ],
+ "examples_note": ""
+}

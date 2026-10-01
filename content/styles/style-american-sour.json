@@ -1,0 +1,49 @@
+{
+ "slug": "style-american-sour",
+ "name": "American Sour",
+ "family": "Sours and wild beers",
+ "title": "American Sour: Style Guide | Craft Beer School",
+ "desc": "American sour ales: tart beers soured with bacteria and wild yeast, often barrel-aged or fruited. How they taste and what to pair in India.",
+ "tagline": "The broadest sour family: acidity from bacteria, often oak and fruit, and plenty of brewer imagination.",
+ "tastes": "<p>American sour is less a single recipe than a way of brewing. Brewers take almost any base beer and sour it with lactic bacteria, Lactobacillus or Pediococcus, sometimes with Brett and wild yeast as well. Some age it for months or years in oak barrels. Others sour it quickly in the kettle before boiling and fermenting it clean. Many add fruit.</p><p>The flavour spread is wide. A barrel-aged sour can taste of cherry, oak, vinegar edge and leather, layered and complex. A kettle sour is cleaner and simpler: bright, lemony, yoghurt-like tartness, often with mango or berries on top. Colour, bitterness and strength all depend on the base, so the style range is wide by design.</p><p>What links them is acidity that is meant to be there, and a sense of balance. Good sours taste tart and refreshing, not harsh, and any fruit tastes like fruit rather than syrup. Sharp nail-polish or sweaty-sock notes are faults, not funk.</p>",
+ "profile": {
+  "look": "Anything from pale yellow to dark brown, or the colour of the fruit used. Clear to hazy. Head usually modest.",
+  "aroma_flavour": "Lactic tartness, often with fruit, oak, light vinegar or Brett funk. Hops are usually low so they do not clash with the acid. Malt sits in the background.",
+  "mouthfeel": "Light to medium body. Bright, often high carbonation. Finishes dry and mouth-watering, sometimes with a slight oak grip.",
+  "ingredients": "Any base, often pale or amber. Lactobacillus or Pediococcus, sometimes Brett. Oak barrels or foeders for long-aged versions. Real fruit or purée is common."
+ },
+ "glass": "Teku",
+ "serve_c": "5-9",
+ "in_india": "<p>Sour beer has caught on in Indian cities, mostly as kettle sours and goses with local fruit: kokum and raw mango. They make sense in hot weather, because acidity refreshes in a way bitterness does not. The slower, barrel-aged kind is rarer and pricier, because it ties up tanks and barrels for months and brewers have to keep the bugs away from their clean beers. If you see one on a board, try it.</p>",
+ "pairings": [
+  {
+   "food": "Bhel puri",
+   "why": "Tamarind, raw mango and puffed rice share the beer's tang, and the bubbles lift the sev and onion."
+  },
+  {
+   "food": "Avial with coconut",
+   "why": "The beer's acidity does the job that sour curd does in the dish, while lifting the coconut."
+  },
+  {
+   "food": "Chingri malai curry",
+   "why": "Tart beer cuts the coconut cream and lets the sweetness of the prawns come through."
+  },
+  {
+   "food": "Shrikhand with berries or Mahabaleshwar strawberries",
+   "why": "Fruit-led sourness meets sweet, tangy curd, and each makes the other taste fresher."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Barrel Bloom",
+   "brewery": "Biergarten Brewery and Kitchen, Bengaluru",
+   "source": "https://untappd.com/b/biergarten-brewery-and-kitchen-barrel-bloom/6311332"
+  },
+  {
+   "beer": "Foothills Blonde",
+   "brewery": "Arbor Brewing Company India, Bengaluru",
+   "source": "https://untappd.com/b/arbor-brewing-company-india-foothills-blonde/1763848"
+  }
+ ],
+ "examples_note": ""
+}

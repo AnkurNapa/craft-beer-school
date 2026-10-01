@@ -16,6 +16,7 @@ import articles_all
 import pages_a
 import pages_b
 import seo
+import style_render
 
 # --- Consistent inline icon set (Lucide, MIT). Use [[name]] in page bodies. ---
 ICONS = {
@@ -128,6 +129,7 @@ FOOTER = """
     <div><h4>Learn</h4><ul>
       <li><a href="courses.html">Courses</a></li>
       <li><a href="resources.html">Resources</a></li>
+      <li><a href="style-library.html">Style Library</a></li>
       <li><a href="blog.html">Blog &amp; Podcasts</a></li>
       <li><a href="faq.html">FAQ</a></li>
     </ul></div>
@@ -322,6 +324,7 @@ PAGES = {
 
 
 PAGES.update(course_pages.pages())
+PAGES.update(style_render.pages(BY_SLUG))
 
 for _a in ARTICLES:
     PAGES[f"{_a['slug']}.html"] = (

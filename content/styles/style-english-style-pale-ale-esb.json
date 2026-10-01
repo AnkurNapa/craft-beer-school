@@ -1,0 +1,44 @@
+{
+ "slug": "style-english-style-pale-ale-esb",
+ "name": "English Pale Ale (ESB)",
+ "family": "Pale ales",
+ "title": "ESB, English Pale Ale: Style Guide | Craft Beer School",
+ "desc": "ESB and English pale ale explained: the strong end of the bitter family, with toffee malt, earthy hops and fruity yeast. Taste, serving, Indian pairings.",
+ "tagline": "The bitter with its sleeves rolled up: more malt, more fruit and more strength, still balanced.",
+ "tastes": "<p>An ESB, or extra special bitter, is the strongest member of the bitter family. It pours amber to copper and leads with malt: toffee, toast, a little caramel and a nutty biscuit note. English hops answer with earthy, woody and slightly spicy character, and the bitterness is firm enough to keep all that malt in check. English ale yeast adds red apple, pear or a faint marmalade fruitiness.</p><p>The name comes from a London brewery that launched its own Extra Special Bitter in the early 1970s; the term later spread into a style category, and American brewers took it up as a name for any strong, malty English-type pale ale. Compared with an American pale ale, the hops here are quieter and earthier and the malt is richer, so the beer tastes rounder rather than sharper.</p><p>Brewers often aim for a sulphate-rich water profile like Burton upon Trent's, which gives the bitterness a dry, clean edge. Get the yeast and the water right and the beer tastes deeper than its strength suggests.</p>",
+ "profile": {
+  "look": "Deep gold to copper, clear, with an off-white head that sits a little lower than on an American ale.",
+  "aroma_flavour": "Toffee, toast and nutty biscuit malt, earthy and spicy English hops, orchard fruit and marmalade from the yeast.",
+  "mouthfeel": "Medium body, moderate carbonation, a dry finish with firm bitterness that lingers.",
+  "ingredients": "Maris Otter or similar British pale malt with crystal malt, Fuggle, Goldings or Target hops, a fruity English ale yeast and sulphate-rich water."
+ },
+ "glass": "Nonic pint",
+ "serve_c": "10-13",
+ "in_india": "<p>ESB is not common in India, but it is a useful beer for anyone tired of hazy IPAs and cold lager. Malt-led beers like this hold up better in the Indian cold chain than hop-forward ones, as toffee and toast fade more slowly than citrus aroma. Serve it cool rather than icy. It is a beer for the monsoon or a December evening in Delhi, with something roasted or grilled on the table.</p>",
+ "pairings": [
+  {
+   "food": "Mutton Rogan Josh",
+   "why": "The toffee and toast in the malt match the browned onions and Kashmiri chilli, and the bitterness trims the fat."
+  },
+  {
+   "food": "Rajma chawal",
+   "why": "The nutty malt and earthy hops meet the slow-cooked kidney beans and the fruity yeast brightens the gravy."
+  },
+  {
+   "food": "Amul cheddar with mango chutney",
+   "why": "Toffee malt against sharp cheese and sweet chutney is the classic ploughman's trick, done with Indian ingredients."
+  },
+  {
+   "food": "Gajak",
+   "why": "The roasted sesame and jaggery echo the caramel in the malt."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "English-not-so-bitter",
+   "brewery": "Great State Aleworks",
+   "source": "https://www.greatstatealeworks.com/beers/english-not-so-bitter"
+  }
+ ],
+ "examples_note": ""
+}

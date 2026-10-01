@@ -1,0 +1,44 @@
+{
+ "slug": "style-american-pale-ale",
+ "name": "American Pale Ale",
+ "family": "Pale ales",
+ "title": "American Pale Ale: Style Guide | Craft Beer School",
+ "desc": "American pale ale explained: citrus and pine hops on a clean malt base, how it tastes, how to serve it in India and what to eat with it.",
+ "tagline": "The beer that taught a generation what American hops smell like, at a strength you can drink twice.",
+ "tastes": "<p>Pour one and the hops arrive first: grapefruit peel, orange, a bit of pine, sometimes a floral edge. Underneath sits a pale, biscuity malt base with a touch of caramel, enough to carry the bitterness without turning sweet. The finish is dry and firm, and it should leave you wanting a second sip rather than a glass of water.</p><p>The style took shape in California around 1980, when small brewers started using Cascade, a then-new American hop, in a beer built on the English pale ale template. Swap the earthy English hops for loud citrus ones, swap the fruity English yeast for a clean American strain, and you have it. Later hops such as Centennial, Citra and Simcoe pushed it further towards tropical fruit.</p><p>What keeps it distinct from an IPA is restraint. It is lighter in alcohol, lighter in bitterness and more balanced, so the malt still has a say. A good one is the beer you order when you want flavour but plan to stay a while.</p>",
+ "profile": {
+  "look": "Pale gold to light copper, mostly clear, with a white head that holds well and leaves lace down the glass.",
+  "aroma_flavour": "Citrus peel, pine and light tropical fruit from American hops over biscuit and a little caramel. Clean yeast, so few fruity esters.",
+  "mouthfeel": "Medium-light body, medium to lively carbonation, a dry finish with firm but not harsh bitterness.",
+  "ingredients": "Pale two-row base with a little crystal malt, American hops such as Cascade, Centennial or Citra, a clean American ale yeast and moderately hard water."
+ },
+ "glass": "Nonic pint",
+ "serve_c": "7-10",
+ "in_india": "<p>Of all the hoppy styles, American pale ale is among the easiest to find in Indian cities, on tap at brewpubs and in cans from production breweries. Hop aroma is the first casualty of heat, so buy cans that have been kept cold and drink them within a couple of months of packing. On a Bengaluru or Pune evening it sits nicely between a light lager and a full IPA, and at around 5% it suits a long dinner better than a big double IPA does.</p>",
+ "pairings": [
+  {
+   "food": "Chicken 65",
+   "why": "The bitterness cuts through the fried coating and the citrus hops pick up the curry leaf and green chilli."
+  },
+  {
+   "food": "Paneer tikka",
+   "why": "Char on the paneer meets the caramel note in the malt, while the hops lift the smoky marinade."
+  },
+  {
+   "food": "Hyderabadi mirchi ka salan",
+   "why": "Firm bitterness stands up to the tangy, nutty gravy without the chilli taking over."
+  },
+  {
+   "food": "Carrot halwa",
+   "why": "The malt sweetness echoes the ghee-roasted carrot and the dry finish keeps the pudding from feeling heavy."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Off Duty",
+   "brewery": "Great State Aleworks",
+   "source": "https://www.greatstatealeworks.com/beers/off-duty"
+  }
+ ],
+ "examples_note": ""
+}

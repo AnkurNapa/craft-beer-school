@@ -68,7 +68,7 @@ h3{font-size:1.35rem;font-weight:700;letter-spacing:-.02em}
 .announce{background:var(--navy);color:#fff;text-align:center;font-family:var(--head);font-weight:600;font-size:.9rem;padding:.7rem 1rem}
 .announce a{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
 header{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.8);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--line)}
-nav{display:flex;align-items:center;justify-content:space-between;padding-block:.85rem}
+header nav{display:flex;align-items:center;justify-content:space-between;padding-block:.85rem}
 .brand{display:flex;align-items:center;gap:.55rem;font-family:var(--serif);font-weight:900;font-size:1.35rem;font-style:italic;color:var(--ink)}
 .brand-logo{height:46px;width:auto;display:block}
 .foot-logo{height:62px;width:auto;display:block}
@@ -376,3 +376,64 @@ footer.site a:hover{color:#fff}
 .more summary::-webkit-details-marker{display:none}
 .more summary::after{content:" +"}
 .more[open] summary::after{content:" \2212"}
+
+/* Style Library */
+.swatch{display:inline-block;width:.9em;height:1.3em;border-radius:3px 3px 8px 8px;margin-right:.45em;vertical-align:-.15em;box-shadow:inset 0 -6px 0 rgba(0,0,0,.12),0 0 0 1px rgba(0,0,0,.08)}
+.style-stats{background:var(--sand);border:1px solid var(--line);border-radius:var(--radius);padding:1.4rem 1.5rem;margin:0 0 2rem;display:grid;gap:.9rem}
+.sbar{display:grid;grid-template-columns:7.5rem 1fr;gap:.2rem .8rem;align-items:center}
+.sbar-l{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.sbar-v{font-weight:700;text-align:right}
+.sbar-t{grid-column:1/-1;position:relative;height:8px;border-radius:8px;background:var(--line)}
+.sbar-t i{position:absolute;top:0;bottom:0;border-radius:8px;background:linear-gradient(90deg,var(--gold),var(--amber))}
+.style-serve{margin:.3rem 0 0;color:var(--ink-soft)}
+.style-prof{display:grid;grid-template-columns:minmax(8rem,12rem) 1fr;gap:.6rem 1.2rem;margin:0 0 1.5rem}
+.style-prof dt{font-weight:700}
+.style-prof dd{margin:0;color:var(--ink-soft)}
+.style-pairs{list-style:none;padding:0;display:grid;gap:.7rem}
+.style-pairs li{display:grid;gap:.15rem;padding:.9rem 1.1rem;border-left:3px solid var(--amber);background:var(--cloud);border-radius:0 12px 12px 0}
+.style-pairs span{color:var(--ink-soft)}
+.style-ex{margin:0 0 1.2rem}
+.style-ex a{font-family:var(--mono);font-size:.72rem;margin-left:.3rem}
+.style-guide-link{margin:1.5rem 0}
+.style-search{width:100%;max-width:520px;margin:1.2rem 0 .8rem;padding:.8rem 1rem;font:inherit;border:1px solid var(--line);border-radius:12px}
+.style-search:focus{outline:2px solid var(--blue);outline-offset:2px}
+.style-filter button{font:inherit;cursor:pointer}
+.style-filter button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.style-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}
+.style-tile{display:grid;gap:.25rem;padding:1.1rem 1.2rem;border:1px solid var(--line);border-radius:var(--radius);text-decoration:none;color:var(--ink);background:var(--paper);transition:transform .25s var(--ease),box-shadow .25s var(--ease)}
+.style-tile:hover,.style-tile:focus-visible{transform:translateY(-3px);box-shadow:var(--shadow-sm)}
+.style-tile .swatch{width:1.1rem;height:1.6rem;margin:0 0 .3rem}
+.style-tile .cat{font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.style-nums{font-size:.85rem;color:var(--ink-soft)}
+@media (max-width:600px){.style-prof{grid-template-columns:1fr}.style-prof dd{margin-bottom:.4rem}}
+.style-tile[hidden]{display:none}
+.style-where{display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1.2rem;margin-bottom:.4rem}
+.style-where .eyebrow{text-decoration:none}
+.style-where .eyebrow:hover{text-decoration:underline}
+.style-pos{font-family:var(--mono);font-size:.72rem;color:var(--ink-soft)}
+.style-steps{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:2.5rem 0 1rem}
+.style-step{display:grid;gap:.15rem;padding:1rem 1.2rem;border:1px solid var(--line);border-radius:var(--radius);text-decoration:none;color:var(--ink);transition:border-color .2s,transform .25s var(--ease)}
+.style-step:hover,.style-step:focus-visible{border-color:var(--amber);transform:translateY(-2px)}
+.style-step.next{text-align:right}
+.style-step span{font-family:var(--mono);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.style-step.prev span::before{content:"\2190  "}
+.style-step.next span::after{content:"  \2192"}
+.style-step em{font-style:normal;font-size:.85rem;color:var(--ink-soft)}
+.style-backline{display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:baseline}
+.style-readcount{color:var(--ink-soft);font-size:.9rem}
+.style-progress{margin:.4rem 0 0;color:var(--ink-soft)}
+.style-tile{position:relative;scroll-margin-top:120px}
+.style-tile.read::after{content:"Read \2713";position:absolute;top:1rem;right:1rem;font-family:var(--mono);font-size:.66rem;color:var(--blue)}
+.style-tile.flash{animation:tileflash 2s var(--ease)}
+@keyframes tileflash{0%,40%{box-shadow:0 0 0 3px var(--amber)}100%{box-shadow:0 0 0 0 transparent}}
+@media (prefers-reduced-motion:reduce){.style-tile.flash{animation:none;box-shadow:0 0 0 3px var(--amber)}}
+@media (max-width:600px){.style-steps{grid-template-columns:1fr}.style-step.next{text-align:left}}
+.glassico{display:block;color:var(--ink-soft);flex:none;overflow:visible}
+.style-h1{display:flex;align-items:flex-end;gap:.7rem}
+.style-tile .glassico{margin-bottom:.35rem}
+.style-back{font-weight:700;color:var(--blue);text-decoration:none}
+.style-back:hover{text-decoration:underline}
+.glass-fig{display:inline-flex;flex-direction:column;align-items:center;gap:.3rem;flex:none}
+.glass-fig small{font-family:var(--mono);font-size:.62rem;font-weight:400;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);line-height:1.2;white-space:nowrap}
+.style-tile .glass-fig{align-items:flex-start;flex-direction:row;align-items:flex-end;gap:.6rem;margin-bottom:.4rem}
+.style-tile .glass-fig .glassico{margin:0}

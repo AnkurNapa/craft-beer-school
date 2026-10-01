@@ -1,0 +1,44 @@
+{
+ "slug": "style-specialty-beer",
+ "name": "Specialty Beer",
+ "family": "Speciality beers",
+ "title": "Specialty Beer: Style Guide | Craft Beer School",
+ "desc": "Specialty beer explained: the home for beers brewed with unusual ingredients or methods, and how to judge one fairly.",
+ "tagline": "The open category for beers that use an ingredient or method no other style has a name for.",
+ "tastes": "<p>Specialty beer is the drawer for everything that does not fit elsewhere. It covers beers brewed with an unusual fermentable such as rice, honey, maple or jaggery, beers built around a spice or flower, and beers made with an unusual process. Because it is a catch all, it has no single taste. A saffron lager and a 15 percent barley wine both belong.</p><p>What holds it together is a way of judging. A specialty beer should taste like a good base beer plus the thing on the label, and the special ingredient should be clearly there without bullying the rest. If a brewer says tulsi, you should find tulsi. If you only find tulsi, the beer has failed.</p><p>That makes the category a playground for brewpubs. It is where you find beers made with local produce, odd sugars and family recipes, and where a brewer shows whether they understand balance or are just chasing novelty.</p>",
+ "profile": {
+  "look": "Any colour, clarity or head, set by the base beer. Some special ingredients tint the beer, as saffron does gold or hibiscus does pink.",
+  "aroma_flavour": "A recognisable base style plus a clear, identifiable special ingredient or process character. The two should read as one beer, not two flavours side by side.",
+  "mouthfeel": "Set by the base style, from light and spritzy to thick and warming. Added sugars can thin the body; lactose or oats fill it out.",
+  "ingredients": "A conventional malt, hop and yeast base, plus the defining addition: unusual grains, honey, jaggery, maple, spices, flowers, tea, or a special process such as wood ageing."
+ },
+ "glass": "Teku",
+ "serve_c": "6-12",
+ "in_india": "<p>This is where Indian brewers have the most to say. Saffron, kokum, tulsi, gondhoraj lime, jaggery, black rice and Darjeeling tea have all found their way into beers here, and a local ingredient gives a brewery something an import cannot copy. Ask what the base beer is before you order, because a specialty beer can be anything from a light lager to a strong ale. Delicate spices and flowers fade in heat, so drink these fresh.</p>",
+ "pairings": [
+  {
+   "food": "Kashmiri yakhni",
+   "why": "A saffron or spice led specialty beer echoes the fennel and dry ginger, and stays light enough for the yoghurt gravy."
+  },
+  {
+   "food": "Paneer tikka",
+   "why": "Smoky, lightly spiced paneer is a forgiving partner for most specialty beers and lets the special ingredient show."
+  },
+  {
+   "food": "Goan prawn balchao",
+   "why": "A tart, fruited specialty beer cuts the vinegar and chilli heat."
+  },
+  {
+   "food": "Kesar peda",
+   "why": "Saffron and milk sweetness meet a saffron or honey beer and make the shared ingredient obvious."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Saffron Lager",
+   "brewery": "Kati Patang",
+   "source": "https://www.adgully.com/post/18727/kati-patang-launches-in-chandigarh-with-its-award-winning-saffron-lager"
+  }
+ ],
+ "examples_note": ""
+}

@@ -1,0 +1,44 @@
+{
+ "slug": "style-berliner-style-weisse",
+ "name": "Berliner Weisse",
+ "family": "Wheat beers",
+ "title": "Berliner Weisse: Style Guide | Craft Beer School",
+ "desc": "Berliner weisse explained: a low alcohol, sharply sour wheat beer from Berlin, how it is made, and why it suits an Indian summer.",
+ "tagline": "Light, tart and fizzy: Berlin's sour wheat beer, closer to nimbu pani than to a lager.",
+ "tastes": "<p>Berliner weisse is the lightest sour beer most people will drink. It is pale, cloudy, very bubbly and sharply tart, usually around 3 per cent alcohol. The sourness comes from lactic acid bacteria, the same family that turns milk into curd, working alongside a normal ale yeast.</p><p>Berlin brewed it in huge numbers in the nineteenth century, and the old way to drink it was with a dash of raspberry or woodruff syrup to soften the acid. Purists drink it plain. Hops barely register; the beer is about the clean, lemony sourness and a bready wheat note underneath.</p><p>Modern brewers usually kettle sour it, letting Lactobacillus work on the wort for a day or two before the boil. Older versions were sometimes fermented with Brettanomyces too, which adds a dry, slightly funky edge. A good one is bracing for the first sip and then very hard to stop drinking.</p>",
+ "profile": {
+  "look": "Very pale straw, hazy, with a big white head that drops fairly fast because there is little protein to hold it.",
+  "aroma_flavour": "Clean lemony lactic sourness over light bread and grain. Hops almost absent. Older styles may show a faint barnyard funk.",
+  "mouthfeel": "Very light body, high spritzy carbonation, a sharp and dry finish.",
+  "ingredients": "Roughly equal parts wheat and pilsner malt, very little hopping, Lactobacillus plus a clean ale yeast. Sometimes Brettanomyces. Often served with fruit syrup."
+ },
+ "glass": "Goblet",
+ "serve_c": "4-7",
+ "in_india": "<p>A cold, sour, 3 per cent beer makes complete sense in an Indian summer. It drinks like a grown up nimbu soda and works for a long afternoon. The catch is that sour beers need careful cleaning, because stray Lactobacillus can spoil every other beer in the brewery, so brewers here make them in small, controlled batches. Expect seasonal releases, often with local fruit such as pomegranate, kokum or jamun in place of the old raspberry syrup.</p>",
+ "pairings": [
+  {
+   "food": "Pani puri",
+   "why": "Tangy, spiced water and a tart beer make one long sour, cooling bite."
+  },
+  {
+   "food": "Kerala fish moilee",
+   "why": "A creamy coconut curry needs acid to cut through, and the low alcohol keeps the fish delicate."
+  },
+  {
+   "food": "Aloo tikki chaat",
+   "why": "Curd, tamarind and fried potato love a sharp, fizzy beer to reset the palate."
+  },
+  {
+   "food": "Rasgulla",
+   "why": "Sweet syrup and soft chhena against a lemony sour beer is a clean, light contrast."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Dalimb Berliner Weisse (with Kadak)",
+   "brewery": "Babylon Craft Brewery",
+   "source": "https://www.brewer-world.com/sour-beer-month-2020-goses-and-berliner-weisse/"
+  }
+ ],
+ "examples_note": ""
+}

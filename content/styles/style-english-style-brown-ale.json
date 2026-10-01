@@ -1,0 +1,44 @@
+{
+ "slug": "style-english-style-brown-ale",
+ "name": "English Brown Ale",
+ "family": "Brown ales",
+ "title": "English Brown Ale: Style Guide | Craft Beer School",
+ "desc": "English Brown Ale explained: a gentle, nutty, caramel-led session ale from England. How it tastes, Indian food pairings and examples in India.",
+ "tagline": "Nutty, toffee-sweet and easy-going. A pub beer that never tries too hard.",
+ "tastes": "<p>English brown ale is a working pub beer from the north and the Midlands of England. The northern versions, of which Newcastle Brown is the famous one, are drier and paler. The southern versions are darker and sweeter, closer to a strong mild. Both share the same idea: malt first, low strength, easy to drink by the pint.</p><p>Crystal and a little chocolate malt give toffee, biscuit, caramel and a nutty character often compared to hazelnut. Hops are English varieties such as Fuggles or East Kent Goldings, used for balance rather than aroma, so bitterness is low and earthy. English ale yeast adds a soft fruitiness, a hint of dried fruit or apple. There is no harsh roast, and the finish is gently sweet to medium-dry. A good English brown is quiet and well put together, and its pleasure comes from that balance.</p>",
+ "profile": {
+  "look": "Copper to reddish brown, clear, with a light tan head of moderate size.",
+  "aroma_flavour": "Toffee, biscuit, caramel and nutty malt, a little light chocolate, soft fruity esters, and low earthy hops.",
+  "mouthfeel": "Medium-light to medium body, moderate carbonation, a smooth, gently sweet to medium-dry finish.",
+  "ingredients": "English pale ale malt with crystal and a little chocolate malt, English hops such as Fuggles or East Kent Goldings, and an English ale yeast."
+ },
+ "glass": "Nonic pint",
+ "serve_c": "10-13",
+ "in_india": "<p>English brown ale is gentle enough for a long afternoon and low enough in alcohol for a family lunch. It is not a common tap in India, but Toit in Bengaluru has poured a smoked version. It does not need ice-cold serving, which helps on a winter evening, but in May keep it on the cooler side. It suits Sunday lunch with a mutton curry more than a quick summer thirst-quencher.</p>",
+ "pairings": [
+  {
+   "food": "Bengali kosha mangsho",
+   "why": "The slow-cooked mutton's caramelised onion and spice match the toffee malt."
+  },
+  {
+   "food": "Mushroom xacuti",
+   "why": "Roasted coconut and poppy seed echo the nutty, toasted malt."
+  },
+  {
+   "food": "Pav bhaji",
+   "why": "Buttery, sweet-spiced vegetables sit easily with a soft, malty beer."
+  },
+  {
+   "food": "Chikki",
+   "why": "Peanut and jaggery brittle mirrors the beer's nut and toffee notes."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Smoked Brown Ale",
+   "brewery": "Toit",
+   "source": "https://toit.in/restaurant/toit-bangalore/"
+  }
+ ],
+ "examples_note": ""
+}

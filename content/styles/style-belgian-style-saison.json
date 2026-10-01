@@ -1,0 +1,49 @@
+{
+ "slug": "style-belgian-style-saison",
+ "name": "Saison",
+ "family": "Belgian ales",
+ "title": "Saison: Style Guide | Craft Beer School",
+ "desc": "Saison explained: a dry, peppery, highly carbonated farmhouse ale from Wallonia, how it tastes, what to eat with it and where to find one in India.",
+ "tagline": "A bone-dry farmhouse ale where the yeast does most of the talking.",
+ "tastes": "<p>Saison started as the beer of Wallonian farms, brewed in the cooler months and kept for the people working the fields in summer. Every farm had its own version, so the style has always been loose around the edges. What ties modern saisons together is the yeast. Saison strains are some of the hungriest in brewing: they chew through sugars most ale yeasts leave behind, which is why a good one finishes with a final gravity near 1.002 and almost no sweetness at all.</p><p>That yeast also throws pepper, clove and a fruity note somewhere between pear and orange peel. Hops sit behind it, usually earthy or spicy rather than tropical. Some brewers add coriander, ginger or black pepper, but the best examples get their spice from fermentation alone. The finish is dry, prickly and a little tart, and it makes you want the next sip. A saison fermented warm, often well above 25 °C, is behaving exactly as it should, which is one reason Indian brewers like the style.</p>",
+ "profile": {
+  "look": "Pale gold to light orange, often slightly hazy, with a tall, rocky white head that clings to the glass.",
+  "aroma_flavour": "Peppery and spicy yeast character over pear, lemon and orange peel. Light grainy malt, earthy hops, sometimes a faint tartness.",
+  "mouthfeel": "Light to medium-light body, very high carbonation, and a crisp, almost chalky dry finish.",
+  "ingredients": "Pilsner malt with some wheat, oats or spelt, noble or English hops, a saison yeast strain, and sometimes a little sugar to dry it out further."
+ },
+ "glass": "Tulip",
+ "serve_c": "7-10",
+ "in_india": "<p>Saison suits India better than most Belgian styles. The yeast is happy at the temperatures a fermenter reaches in a Chennai or Pune summer without much cooling, so brewpubs can make it without fighting their glycol. It is also forgiving with local fruit: guava, pineapple and kokum all show up in Indian versions. On a humid monsoon evening its dryness and fizz feel more refreshing than a heavier ale. Look for it as a rotating tap rather than in bottles.</p>",
+ "pairings": [
+  {
+   "food": "Goan prawn balchao",
+   "why": "The beer's dryness and pepper cut the vinegar and chilli without fighting them."
+  },
+  {
+   "food": "Paneer tikka with mint chutney",
+   "why": "Charred paneer and green herbs echo the spice from the yeast, and the bubbles lift the fat."
+  },
+  {
+   "food": "Kerala appam with vegetable stew",
+   "why": "A gentle coconut stew lets the beer's citrus and pepper show, and the carbonation keeps it light."
+  },
+  {
+   "food": "Shrikhand with saffron",
+   "why": "The tart, creamy yoghurt meets the beer's own slight tartness, and the dry finish stops it cloying."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Syndicate Saison (4 Grain Saison Ale)",
+   "brewery": "Independence Brewing Company",
+   "source": "https://www.brewer-world.com/sip-ibcs-game-changing-4-grain-saison-ale-syndicate-saison-a-thirst-quencher-craft/"
+  },
+  {
+   "beer": "Guava and Pineapple Saisons",
+   "brewery": "Long Boat Brewing Co.",
+   "source": "https://beerasia.net/craft-beer-guides/bengaluru-craft-beer-guide/"
+  }
+ ],
+ "examples_note": ""
+}

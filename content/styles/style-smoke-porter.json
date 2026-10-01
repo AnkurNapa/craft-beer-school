@@ -1,0 +1,54 @@
+{
+ "slug": "style-smoke-porter",
+ "name": "Smoke Porter",
+ "family": "Porters",
+ "title": "Smoke Porter: Style Guide | Craft Beer School",
+ "desc": "Smoke porter: a dark porter brewed with smoked malt. How much smoke is right, how to serve it and the Indian dishes that suit it.",
+ "tagline": "Chocolate porter, a campfire and a light hand. When the smoke is balanced, nothing else tastes quite like it.",
+ "tastes": "<p>A smoke porter is a porter brewed with some smoked malt in the grist. Before indirect kilns, most malt picked up some smoke from wood fires, so in one sense this is an old flavour come back. The modern version took shape in American craft brewing in the late 1980s and has spread wherever brewers like a challenge.</p><p>The base is a proper porter: chocolate, caramel, a bit of roast. On top of that comes smoke, and the type depends on the malt. Beechwood-smoked malt from Bamberg gives a clean, bacon-like smoke. Cherry or oak-smoked malts are softer and sweeter. Peat-smoked malt, used carefully, brings a medicinal, Islay whisky edge that can bully everything else.</p><p>The skill is proportion. The smoke should sit inside the beer and work with the chocolate, not taste like a cold ashtray. A good one smells like a fire in another room. Strength ranges widely, from a session-friendly 5 percent to bigger, warming versions near 9.</p>",
+ "profile": {
+  "look": "Dark brown to black, often ruby at the edges. Clear. Tan head of moderate staying power.",
+  "aroma_flavour": "Wood smoke over chocolate, caramel and light roast. Smoke ranges from gentle to assertive but should blend, not dominate. Moderate hop bitterness, little hop aroma.",
+  "mouthfeel": "Medium to full body, moderate carbonation. The finish is fairly dry, with smoke lingering longer than the malt.",
+  "ingredients": "Porter grist of pale, crystal and chocolate malt, plus beech, oak or cherrywood smoked malt. Peat-smoked malt only in small amounts. English or American hops, clean ale yeast."
+ },
+ "glass": "Tulip",
+ "serve_c": "10-13",
+ "in_india": "<p>India already loves smoke in food, from dhungar to coal-fired tandoors, so the idea lands more easily here than people expect. The beer itself is a brewpub style, rarely bottled, and you will usually find it as a winter special. Smoked malt is imported and costly, which is one reason it stays small-batch. Drink it fresh and not too cold. Below about 8 degrees the smoke goes flat and only the bitterness shows.</p>",
+ "pairings": [
+  {
+   "food": "Dhungar dal makhani",
+   "why": "The charcoal-smoked butter and black lentils echo the beer's smoke and chocolate in one mouthful."
+  },
+  {
+   "food": "Naga smoked pork with bamboo shoot",
+   "why": "Wood-smoked meat meets wood-smoked malt, and the beer's body handles the fermented sourness of the bamboo."
+  },
+  {
+   "food": "Tandoori paneer tikka",
+   "why": "Charred edges and smoky marinade pick up the smoke, and the beer's sweetness softens the chilli."
+  },
+  {
+   "food": "Lonavala jaggery chikki",
+   "why": "Jaggery's dark caramel sits with the chocolate malt, and the roasted peanuts meet the smoke."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Smoked Porter",
+   "brewery": "Toit Beer Co., Bengaluru",
+   "source": "https://untappd.com/b/toit-beer-co-smoked-porter/2582946"
+  },
+  {
+   "beer": "Smoked Porter",
+   "brewery": "Arbor Brewing Company India, Bengaluru",
+   "source": "https://untappd.com/b/arbor-brewing-company-india-smoked-porter/5504366"
+  },
+  {
+   "beer": "Smoked Porter",
+   "brewery": "Great State Aleworks, Bengaluru",
+   "source": "https://untappd.com/b/great-state-aleworks-smoked-porter/4372413"
+  }
+ ],
+ "examples_note": ""
+}

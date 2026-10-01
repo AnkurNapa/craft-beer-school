@@ -1,0 +1,54 @@
+{
+ "slug": "style-scottish-style-ale",
+ "name": "Scottish Ale",
+ "family": "Scottish ales",
+ "title": "Scottish Ale: Style Guide | Craft Beer School",
+ "desc": "Scottish ale: light, malty, low-bitterness ales from Scotland's 60, 70 and 80 shilling tradition. Taste, serving and Indian food pairings.",
+ "tagline": "Malt-forward, low in bitterness and gentle on strength. A quiet beer with more going on than it lets on.",
+ "tastes": "<p>Scottish ale covers a family of modest-strength, malt-led beers once named by shillings: 60 shilling light, 70 shilling heavy and 80 shilling export. The numbers referred to the old price of a barrel, and the higher the number, the stronger the beer. Strengths run from under 3 percent to a little over 5.</p><p>Flavour is about malt, not hops. Expect caramel, toast, biscuit and a soft sweetness, with a dry, slightly roasty note at the finish from a pinch of roasted barley. Bitterness is low and hop aroma barely there. Fermentation is cool for an ale, so fruity esters stay restrained and the malt reads clean.</p><p>What gives the style its character is restraint. The lighter versions are thin on paper and yet taste full, because the malt bill is built for flavour at low gravity. If you are used to bright, hoppy pale ales, this will seem quiet at first. Give it a second glass. The caramel and toast open up as it warms a little, and it becomes one of the most drinkable dark-ish beers around.</p>",
+ "profile": {
+  "look": "Pale copper to dark brown, depending on the shilling. Clear. Low to moderate off-white head.",
+  "aroma_flavour": "Caramel, toast and biscuit malt, a faint dry roast at the finish. Low hop aroma and bitterness. Clean, with only light fruity esters.",
+  "mouthfeel": "Light to medium body, low to moderate carbonation. Smooth, finishing malty and slightly dry.",
+  "ingredients": "Scottish or English pale malt, some crystal, a small amount of roasted barley. Minimal English hops. Ale yeast fermented on the cool side for an ale."
+ },
+ "glass": "Nonic pint",
+ "serve_c": "8-12",
+ "in_india": "<p>Low strength and low bitterness make Scottish ale one of the friendlier dark-ish beers for an Indian afternoon, as long as it is served cool rather than ice cold. It is a good first step for a lager drinker who wants malt without heaviness. With so little hop, it depends on fresh, clean malt flavour, so drink it at the brewpub. Several brewpubs in Bengaluru and Pune have brewed one, sometimes under a playful name.</p>",
+ "pairings": [
+  {
+   "food": "Chicken 65",
+   "why": "Fried, spiced chicken with curry leaf meets toasty malt, and low bitterness keeps the chilli in check."
+  },
+  {
+   "food": "Misal pav",
+   "why": "The beer's caramel and soft body cushion the heat of the tarri, and the carbonation scrubs the farsan oil."
+  },
+  {
+   "food": "Hyderabadi veg biryani",
+   "why": "Fragrant rice and fried onion echo the toasty malt without the beer competing with the spice."
+  },
+  {
+   "food": "Shahi tukda",
+   "why": "Fried bread in sweet milk syrup lines up with the biscuit and caramel notes of the malt."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Lungi Scotsman",
+   "brewery": "Big Pitcher, Bengaluru",
+   "source": "https://untappd.com/b/big-pitcher-lungi-scotsman/1394149"
+  },
+  {
+   "beer": "Scottish Ale",
+   "brewery": "The Biere Club, Bengaluru",
+   "source": "https://untappd.com/b/the-biere-club-scottish-ale/1753740"
+  },
+  {
+   "beer": "Scottish Ale",
+   "brewery": "Doolally Craft Beers, Pune",
+   "source": "https://untappd.com/b/doolally-craft-beers-scotch-ale/1882328"
+  }
+ ],
+ "examples_note": ""
+}

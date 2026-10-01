@@ -1,0 +1,49 @@
+{
+ "slug": "style-american-ipa",
+ "name": "American IPA",
+ "family": "IPAs",
+ "title": "American IPA: Style Guide | Craft Beer School",
+ "desc": "American IPA explained: citrus, pine and a clean bitter finish. Flavour, serving temperature, Indian food pairings and Indian IPAs to try.",
+ "tagline": "Clear, bitter and loud with American hops, the beer that defined craft for a generation.",
+ "tastes": "<p>American IPA took the English idea of a strong, well hopped pale ale and rebuilt it around American hops: Cascade, Centennial, Simcoe, Citra and their relatives. These hops smell of grapefruit, orange peel, pine and resin, and the brewers used plenty of them in the kettle and again after fermentation.</p><p>The beer is gold to light amber and clear. Malt is a backdrop, a little bread and light caramel, just enough to carry the hops. Bitterness is firm and the finish is dry, which is what makes you want the next sip. A good one smells like you have just cut open a grapefruit in a pine forest. A tired one smells of cardboard and onion, because hop aroma fades fast.</p><p>The style spans a range. The West Coast version is the driest and most bitter. Others carry more malt. What they share is clarity and a bitter backbone, which is the clearest line between this and a hazy New England IPA. Drink it young and cold, and check the packaging date.</p>",
+ "profile": {
+  "look": "Gold to light amber, clear, with a white, sticky head that clings to the glass.",
+  "aroma_flavour": "Grapefruit, orange peel, pine and resin from American hops over a light bready malt; clean yeast.",
+  "mouthfeel": "Medium light body, medium to high carbonation, a firmly bitter, dry finish.",
+  "ingredients": "Pale malt with a little crystal malt, American hops such as Cascade, Centennial, Simcoe or Citra, a clean American ale yeast."
+ },
+ "glass": "Tulip",
+ "serve_c": "6-9",
+ "in_india": "<p>IPA is the beer most Indian craft drinkers graduate to after wheat beer, and every serious brewpub has one. Our problem is freshness. Hop aroma fades in weeks at room temperature, and an Indian summer warehouse can flatten an IPA long before it reaches you. Buy from a fridge, check the date and prefer the tap. With food, bitterness amplifies chilli heat, so pick dishes with care.</p>",
+ "pairings": [
+  {
+   "food": "Amritsari fish",
+   "why": "Citrus hops echo the ajwain and lemon, and bitterness cuts the gram flour batter."
+  },
+  {
+   "food": "Mushroom and onion uttapam",
+   "why": "Bread malt and grapefruit hops brighten a mild, savoury plate."
+  },
+  {
+   "food": "Mutton galouti kebab",
+   "why": "Rich, smooth kebab against firm bitterness, a cut rather than a cool."
+  },
+  {
+   "food": "Aged gouda",
+   "why": "Nutty, salty cheese, easy to buy in Indian cities, softens the bitterness and draws out the malt."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Kamacitra",
+   "brewery": "Geist Brewing Co., Bengaluru",
+   "source": "https://www.geist.in/beer-catalogue/geist-kamacitra"
+  },
+  {
+   "beer": "Bira 91 West Coast IPA",
+   "brewery": "Bira 91",
+   "source": "https://www.brewer-world.com/bira-91s-vp-innovations-brewing-thomas-hartman-talks-india-pale-ales-and-all-things-hoppy/"
+  }
+ ],
+ "examples_note": ""
+}

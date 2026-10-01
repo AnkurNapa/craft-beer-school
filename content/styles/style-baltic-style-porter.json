@@ -1,0 +1,49 @@
+{
+ "slug": "style-baltic-style-porter",
+ "name": "Baltic Porter",
+ "family": "Porters",
+ "title": "Baltic Porter: Style Guide | Craft Beer School",
+ "desc": "Baltic porter explained: a strong, smooth dark lager from the cold north, how it tastes, how to serve it and what to eat with it in India.",
+ "tagline": "A porter that went north, swapped to lager yeast and came back strong, dark and very smooth.",
+ "tastes": "<p>Think of Baltic porter as the cold-climate cousin of the London porters that sailed into the Baltic in the 1700s and 1800s. Brewers in Poland, Finland, Estonia and Russia took the idea, raised the strength and, from the late 1800s, began fermenting it with lager yeast and conditioning it cold for weeks or months. That long, cold rest is the whole personality of the beer.</p><p>In the glass you get dark fruit first: plum, prune, raisin, sometimes cherry. Behind that sits toffee, molasses and a little cocoa, with roast kept on a short lead so it never turns burnt or acrid. Alcohol is there, often around 8 to 9 percent, but a good one hides it behind a smooth, almost silky body. Hops are a background job, enough bitterness to stop the sweetness cloying and no more.</p><p>What makes it itself is cleanliness. An imperial stout shouts roast and fruity ale esters. A Baltic porter is quieter and rounder, because the lager yeast leaves almost nothing behind except malt.</p>",
+ "profile": {
+  "look": "Deep mahogany to near black, with ruby glints when held to light. Clear if you can see through it. Tan, fine-bubbled head that holds reasonably well for the strength.",
+  "aroma_flavour": "Plum, raisin and molasses over toffee and light cocoa. Roast is soft, never ashy. Low, clean hop presence. Warming alcohol, with no fruity ale esters thanks to the lager yeast.",
+  "mouthfeel": "Full and smooth, close to velvet. Moderate carbonation. The finish is semi-sweet, with gentle warmth that builds as the glass empties.",
+  "ingredients": "Munich or Vienna base, crystal and dehusked dark malts for colour without harshness, a touch of chocolate malt. Noble or Polish hops for balance. Lager yeast, fermented cool and lagered for weeks."
+ },
+ "glass": "Snifter",
+ "serve_c": "10-13",
+ "in_india": "<p>This is a beer for a Bengaluru December evening or a hill-station weekend in Shimla, not a May afternoon in Nagpur. At 8 percent plus, it is best shared or sipped slowly. Strength works in its favour on the cold chain: it stales slower than a pale lager, though heat still pushes it towards sherry and cardboard. Brewpubs that lager properly in their own cold tanks are where you will meet it, usually as a winter special. Ask how long it was lagered. Anything under a month is a porter wearing a costume.</p>",
+ "pairings": [
+  {
+   "food": "Mutton nihari",
+   "why": "Slow-cooked marrow and spice meet slow-cooked malt, and the beer's dark fruit sits well with the rich, sticky gravy."
+  },
+  {
+   "food": "Rajma with jeera rice",
+   "why": "The beans and tomato base share the beer's earthy, gently sweet depth, and the carbonation lifts the starch."
+  },
+  {
+   "food": "Aged gouda",
+   "why": "Nutty, caramel notes in the cheese echo the toffee in the malt."
+  },
+  {
+   "food": "Gajar ka halwa",
+   "why": "Ghee, milk and caramelised carrot meet plum and molasses, and the beer's alcohol cuts the richness."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Baltic Porter",
+   "brewery": "Windmills Craftworks, Bengaluru",
+   "source": "https://untappd.com/b/windmills-craftworks-baltic-porter/4056912"
+  },
+  {
+   "beer": "Batch 400 Baltic Porter",
+   "brewery": "Arbor Brewing Company India, Bengaluru",
+   "source": "https://untappd.com/b/arbor-brewing-company-india-batch-400-baltic-porter/1195977"
+  }
+ ],
+ "examples_note": ""
+}

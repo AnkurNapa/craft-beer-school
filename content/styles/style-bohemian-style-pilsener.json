@@ -1,0 +1,44 @@
+{
+ "slug": "style-bohemian-style-pilsener",
+ "name": "Czech Pilsner",
+ "family": "Pale lagers",
+ "title": "Czech Pilsner: Style Guide | Craft Beer School",
+ "desc": "Czech (Bohemian) pilsner explained: rich golden malt, Saaz hops and soft water. How it tastes, how to serve it and Indian food pairings.",
+ "tagline": "The original golden lager: richer and rounder than the German version, with Saaz spice over bread and honey.",
+ "tastes": "<p>The first golden lager was brewed in Plzen, in Bohemia, in 1842, and the Czech version is still the fullest of the pilsners. It pours deep gold with a dense, creamy white head. The malt leads with fresh bread, a little honey and a toasted biscuit note, richer than you expect from such a pale beer. Saaz hops bring a soft spicy, herbal and floral aroma, and the bitterness is clear and lasting but never harsh.</p><p>Three things make it. Very soft water lets brewers use plenty of hops without a rough edge. Floor-malted Moravian barley, often taken through a traditional decoction mash, gives it depth of malt. A Czech lager yeast can leave a trace of diacetyl, a faint butter note that is tolerated here where it would be a fault elsewhere.</p><p>Compared with a German pilsner it is rounder, sweeter and a shade darker, with a fuller body. The bitterness is just as firm, but it is cushioned rather than sharp.</p>",
+ "profile": {
+  "look": "Deep gold, brilliantly clear, with a dense, long-lasting, creamy white head.",
+  "aroma_flavour": "Fresh bread, honey and light toast from the malt, spicy and floral Saaz hops, and perhaps a faint buttery note from Czech yeast.",
+  "mouthfeel": "Medium body, moderate carbonation, a rounded palate and a clean, lingering bitterness.",
+  "ingredients": "Moravian or Czech pilsner malt, often decoction mashed, Saaz hops, a Czech lager yeast and very soft water."
+ },
+ "glass": "Pilsner glass",
+ "serve_c": "6-9",
+ "in_india": "<p>A well-made Czech pilsner is one of the best beers for Indian food, but it travels badly. Saaz aroma fades in warm storage and the beer picks up stale, papery notes, so the freshest glass is at a brewpub. Most Indian borewell water is too hard for this style, and brewers here strip it with reverse osmosis first. Some local brewers add Indian grains to a Bohemian base, and the style suits a long monsoon lunch.</p>",
+ "pairings": [
+  {
+   "food": "Chettinad chicken",
+   "why": "The rounded malt softens the black pepper and fennel heat while Saaz spice echoes the masala."
+  },
+  {
+   "food": "Dal makhani",
+   "why": "The beer's bread and honey malt sits under the creamy dal and the bitterness cuts the butter."
+  },
+  {
+   "food": "Bengali fish fry",
+   "why": "Crisp carbonation and clean bitterness lift the batter and work with a sharp kasundi."
+  },
+  {
+   "food": "Sandesh",
+   "why": "The honeyed malt echoes the light chhena sweet without drowning it."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Banger Lager",
+   "brewery": "Toit",
+   "source": "https://toit.in/beer/banger-lager/"
+  }
+ ],
+ "examples_note": ""
+}

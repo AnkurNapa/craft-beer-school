@@ -1,0 +1,54 @@
+{
+ "slug": "style-robust-porter",
+ "name": "Robust Porter",
+ "family": "Porters",
+ "title": "Robust Porter: Style Guide | Craft Beer School",
+ "desc": "Robust porter: bigger, roastier and more bitter than brown porter. How it tastes, where it came from and what Indian food stands up to it.",
+ "tagline": "Porter with its sleeves rolled up: more roast, more bitterness, still not quite a stout.",
+ "tastes": "<p>Robust porter is largely an American craft brewing take on the old London style. Brewers kept the chocolate backbone of porter and pushed everything a notch further: more dark malt, more hop bitterness, a little more strength. The result sits in the space between a brown porter and a stout, and the border is genuinely blurry.</p><p>Expect dark chocolate and coffee first, then caramel and some bready sweetness underneath. Roast is clear but should stay on the chocolate side of burnt. Hops show as firm bitterness and, in American versions, a light piney or resinous note. Alcohol is usually 5 to 6.5 percent, so it has weight without being a sipping beer.</p><p>How do you tell it from a stout? Roughly, porter leans on chocolate malt and stout leans on roasted barley, which gives a drier, more coffee-ash edge. In practice, judge the beer in front of you. If the roast tastes like espresso and the body is fuller and drier, you are close to stout territory.</p>",
+ "profile": {
+  "look": "Very dark brown to black, ruby at the edges when backlit. Tan head, thick and lasting.",
+  "aroma_flavour": "Dark chocolate, coffee, caramel and some burnt sugar. Moderate to firm hop bitterness, sometimes with pine or earthy hop aroma. Low fruity esters.",
+  "mouthfeel": "Medium to medium-full body, moderate carbonation. A slightly dry, roasty finish with lingering bitterness.",
+  "ingredients": "Pale malt base with crystal, chocolate and black malts. American or English hops in generous bittering amounts. Clean American or English ale yeast."
+ },
+ "glass": "Pint",
+ "serve_c": "8-12",
+ "in_india": "<p>A robust porter is a dark beer with enough bitterness and roast to stand next to strong Indian flavours, which is more than most dark beers can say. The firm hops also help it hold up a little better through a warm supply chain than sweet, low-hop styles. Order it at the brewpub rather than hunting for cans, because fresh roast and hop aroma fade fast in heat. Cool winter nights in Pune or Delhi suit it, and so does a barbecue.</p>",
+ "pairings": [
+  {
+   "food": "Tandoori raan",
+   "why": "Charred crust and smoky fat meet the beer's roast, and the bitterness cuts through the richness."
+  },
+  {
+   "food": "Baingan bharta",
+   "why": "Smoky, fire-roasted aubergine echoes the dark malts, and the beer's body matches the mash."
+  },
+  {
+   "food": "Pork vindaloo, Goan style",
+   "why": "Vinegar and chilli heat get a sweet malt cushion, and the roast stands up to the spice."
+  },
+  {
+   "food": "Chocolate brownie with a scoop of filter coffee ice cream",
+   "why": "Chocolate and coffee in the dessert line up with the same notes in the beer."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Robust Porter",
+   "brewery": "Independence Brewing Company, Pune",
+   "source": "https://untappd.com/b/independence-brewing-company-robust-porter/1430549"
+  },
+  {
+   "beer": "Robust Porter",
+   "brewery": "Effingut Brewerkz, Pune",
+   "source": "https://untappd.com/b/effingut-brewerkz-robust-porter/3922419"
+  },
+  {
+   "beer": "Oaked Robust Porter",
+   "brewery": "Independence Brewing Company, Pune",
+   "source": "https://untappd.com/b/independence-brewing-company-oaked-robust-porter/2880031"
+  }
+ ],
+ "examples_note": ""
+}

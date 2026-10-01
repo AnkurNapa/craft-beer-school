@@ -1,0 +1,44 @@
+{
+ "slug": "style-american-amber-ale",
+ "name": "American Amber Ale",
+ "family": "Pale ales",
+ "title": "American Amber Ale: Style Guide | Craft Beer School",
+ "desc": "American Amber Ale explained: caramel malt meets citrus hops. How it tastes, how to serve it, Indian food pairings and examples.",
+ "tagline": "A pale ale with more caramel in the middle, built for the dinner table.",
+ "tastes": "<p>American amber sits between an American pale ale and a brown ale. It takes the pale ale's American hops, citrus, pine and flowers, and puts them on a deeper malt base with real caramel and toast. The colour is amber to copper and the beer is clear.</p><p>Balance is the point. Neither side wins. You get toffee and toasted bread first, then orange peel and pine, then a moderate bitterness that keeps the caramel from going sticky. Some brewers push the hops toward a red IPA; others keep it mellow. Both are fair as long as the malt stays in the picture.</p><p>It is an easy style to make dull. Too much crystal malt and it turns sweet and heavy; too little and it is a pale ale with food colouring. A good one is clean, with no butterscotch, and dry enough that the caramel reads as flavour rather than sugar. Put it next to dinner and it earns its place.</p>",
+ "profile": {
+  "look": "Amber to copper, clear, with an off white head of good retention.",
+  "aroma_flavour": "Caramel, toffee and toast malt, citrus, pine or floral American hops, clean fermentation.",
+  "mouthfeel": "Medium body, moderate carbonation, a balanced, moderately bitter finish.",
+  "ingredients": "Pale malt with a generous share of crystal malt, American hops such as Cascade or Centennial, a clean American ale yeast."
+ },
+ "glass": "Nonic pint",
+ "serve_c": "7-10",
+ "in_india": "<p>Amber ale suits Indian dinner tables better than a hop bomb. The caramel takes on tandoori char, the moderate bitterness does not inflame the chilli, and the malt hides a little heat damage better than an IPA. It is less common on Indian taps than wheat beers and IPAs, so when you see one, it is worth a try with food.</p>",
+ "pairings": [
+  {
+   "food": "Tandoori chicken",
+   "why": "Caramel malt picks up the char and the hops lift the lemon and spice."
+  },
+  {
+   "food": "Undhiyu",
+   "why": "The Gujarati winter vegetable pot has a sweet, spiced edge that suits toffee malt."
+  },
+  {
+   "food": "Pork vindaloo",
+   "why": "Malt sweetness rounds out the vinegar and chilli heat."
+  },
+  {
+   "food": "Mysore pak",
+   "why": "Ghee and gram flour meet the toasted malt, and the bitterness keeps it from cloying."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Geist Almost Amber Ale",
+   "brewery": "Geist Brewing Co., Bengaluru",
+   "source": "https://www.geist.in/beer-catalogue/geist-almost-amber-ale"
+  }
+ ],
+ "examples_note": ""
+}

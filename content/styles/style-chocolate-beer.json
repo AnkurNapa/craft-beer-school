@@ -1,0 +1,40 @@
+{
+ "slug": "style-chocolate-beer",
+ "name": "Chocolate Beer",
+ "family": "Speciality beers",
+ "title": "Chocolate Beer: Style Guide | Craft Beer School",
+ "desc": "Chocolate beer explained: cocoa nibs, dark malt and lactose in stouts and porters, and how cocoa grown in south India is finding its way into beer.",
+ "tagline": "A dark beer with real cocoa in it, rich enough for dessert and dry enough to want another sip.",
+ "tastes": "<p>Plenty of stouts and porters taste of chocolate without containing any. Chocolate malt, despite the name, is just barley kilned dark. A chocolate beer goes further and adds the real thing: cocoa nibs, cocoa powder or, now and then, actual chocolate, most often to a porter or stout whose roast already points the same way. Nibs added after fermentation, much like dry hopping, give the cleanest result, because cocoa aroma is fragile and the boil drives much of it off.</p><p>Cocoa butter is the brewer's problem. Fat kills foam, so nibs are preferred to bars, and some brewers use cold extraction to pull flavour without the oil. A good one tastes like dark chocolate, with fruit, coffee and some dryness, rather than a sweet milky drink. Strength runs from session porters to imperial stouts, and lactose or vanilla often appear alongside the cocoa to round it out.</p>",
+ "profile": {
+  "look": "Usually dark brown to black, with a tan head that may be thinner than usual, because cocoa fat is hard on foam.",
+  "aroma_flavour": "Dark chocolate and cocoa powder over roasted malt, with hints of coffee, dried fruit or red berry depending on the bean. Sweetness ranges from bittersweet to dessert-like.",
+  "mouthfeel": "Medium to full body, moderate carbonation, often silky from oats or lactose. The finish should stay fairly dry, with cocoa bitterness rather than cloying sugar.",
+  "ingredients": "Pale malt with chocolate, crystal and roasted malts, cocoa nibs or powder, often oats, lactose or vanilla, and a clean ale yeast that leaves some body."
+ },
+ "glass": "Snifter",
+ "serve_c": "10-13",
+ "in_india": "<p>India grows its own cocoa, mostly in Kerala, Karnataka, Andhra Pradesh and Tamil Nadu, and a crop of small bean-to-bar makers means brewers can now buy nibs from a known estate. That makes chocolate beer one of the more interesting Indian speciality styles. Its weakness is the weather: a heavy, dark beer suits a December evening far better than a May afternoon. Serve it cooler than the room but not ice cold, or the cocoa disappears. A small glass goes a long way.</p>",
+ "pairings": [
+  {
+   "food": "Goan pork vindaloo",
+   "why": "Vinegar and Kashmiri chilli against bittersweet cocoa is the same pairing that makes Mexican mole work, and the beer's body stands up to the pork."
+  },
+  {
+   "food": "Chettinad mushroom masala",
+   "why": "The roasted pepper, fennel and dried red chilli in the masala behave like a mole too, and cocoa has always been friendly with chilli."
+  },
+  {
+   "food": "Gulab jamun",
+   "why": "The beer's roast and bitterness balance the syrup, and the cocoa sits nicely with the cardamom."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Breakfast Cereal Stout (cocoa nibs from the Anamalai foothills)",
+   "brewery": "Goa Brewing Co.",
+   "source": "https://www.brewer-world.com/breakfast-cereal-stout/"
+  }
+ ],
+ "examples_note": ""
+}

@@ -1,0 +1,44 @@
+{
+ "slug": "style-pumpkin-beer",
+ "name": "Pumpkin Beer",
+ "family": "Speciality beers",
+ "title": "Pumpkin Beer: Style Guide | Craft Beer School",
+ "desc": "Pumpkin beer explained: why the spice does most of the work, how brewers use the gourd, and what to eat with it in India.",
+ "tagline": "A harvest beer where the spice rack does more talking than the pumpkin.",
+ "tastes": "<p>Ask most drinkers what a pumpkin beer tastes of and they will describe cinnamon, nutmeg, clove and ginger. That is fair. Pumpkin flesh gives very little flavour once it has been through a mash and a boil; what it adds is a touch of body, a faint earthy sweetness and an orange cast in the glass. The spice blend, the same one Americans put in pumpkin pie, is what people actually recognise.</p><p>The style grew up in the United States, where colonial brewers short of barley used pumpkins and squash as a source of sugar. The modern version came back with the craft movement in the 1980s and turned into an autumn ritual. Underneath, the base beer can be almost anything: an amber ale, a brown ale, a porter, even a strong ale aged in a barrel.</p><p>A good one tastes like a beer first. The malt carries toffee and biscuit, the spice sits on top as seasoning, and the finish stays dry enough for a second glass. A bad one tastes like a candle shop.</p>",
+ "profile": {
+  "look": "Copper to deep amber, sometimes brown when built on a porter. Clear to slightly hazy, with an off-white head of modest staying power.",
+  "aroma_flavour": "Cinnamon, nutmeg, clove and ginger over caramel and bready malt. Pumpkin itself reads as a light earthy sweetness. Hops stay quiet so the spice can show.",
+  "mouthfeel": "Medium body, a little fuller than the base beer would be on its own. Moderate carbonation and a gently warming finish in the stronger versions.",
+  "ingredients": "Pale and crystal malts, sometimes a little brown or chocolate malt. Roasted pumpkin or squash in the mash or kettle, a pie spice blend late in the boil, clean ale yeast."
+ },
+ "glass": "Tulip",
+ "serve_c": "8-12",
+ "in_india": "<p>We have no shortage of pumpkin. Kaddu, kashiphal and red pumpkin turn up in every sabzi market, so a brewpub can roast its own instead of opening a can. The spice cupboard is already stocked too, though Indian drinkers notice clumsy clove quickly because they eat it every day. This is a seasonal beer and best on tap, fresh. Brew it for Diwali or the first cool weeks of November, when a spiced amber feels right and the heat has eased.</p>",
+ "pairings": [
+  {
+   "food": "Kaddu ki sabzi with puri",
+   "why": "The sweet-sour pumpkin and fennel in the sabzi echo the gourd and spice in the glass, and the carbonation lifts the fried puri."
+  },
+  {
+   "food": "Bengali kumro chhokka",
+   "why": "Panch phoron and gentle sweetness pick up the beer's spice without fighting it."
+  },
+  {
+   "food": "Tandoori chicken tikka",
+   "why": "Charred edges and smoked paprika meet the caramel malt, and the spice blend ties in with the garam masala."
+  },
+  {
+   "food": "Kaddu ka halwa",
+   "why": "Ghee, cardamom and roasted pumpkin sit right alongside a malty, spiced beer, as long as the halwa is not sweeter than the pint."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Pumpkin Ale",
+   "brewery": "Toit Brewpub",
+   "source": "https://mansworldindia.com/fooddrink/indias-best-brewpubs"
+  }
+ ],
+ "examples_note": ""
+}

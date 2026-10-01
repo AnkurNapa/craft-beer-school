@@ -1,0 +1,40 @@
+{
+ "slug": "style-honey-beer",
+ "name": "Honey Beer",
+ "family": "Speciality beers",
+ "title": "Honey Beer: Style Guide | Craft Beer School",
+ "desc": "Honey beer explained: why honey makes a beer drier rather than sweeter, how brewers keep its aroma, and the Indian honeys worth brewing with.",
+ "tagline": "Honey in the brew adds aroma and dryness more than sweetness, which surprises most people.",
+ "tastes": "<p>Honey beer is any beer with honey added, and the first thing to know is that it rarely tastes sweet. Honey is mostly simple sugar, and yeast ferments nearly all of it, so a honey ale finishes drier and a little stronger than the same beer without it. What survives is aroma: floral, waxy, sometimes herbal, depending on the flowers the bees worked.</p><p>That is why timing matters. Honey added to the boil loses most of its perfume. Brewers who want it to show usually add it once fermentation is under way, sometimes after warming it gently to knock back wild yeast. The base is often a blonde, golden or amber ale, or a wheat beer, light enough for the honey to come through. Darker versions such as honey porters, and braggots made with roughly as much honey as malt, sit at the stronger end. A good one smells of the hive and finishes clean.</p>",
+ "profile": {
+  "look": "Usually golden to amber and clear, though the base can be anything. Honey adds little colour at normal doses.",
+  "aroma_flavour": "Floral honey, beeswax and sometimes herbal or fruity notes from the flower source, over light bready or caramel malt. Sweetness is low to moderate.",
+  "mouthfeel": "Light to medium body, often lighter than expected because honey ferments out almost fully. Moderate carbonation and a clean, dry finish.",
+  "ingredients": "Pale or light crystal malts, modest hops, a clean ale yeast, and honey at anything from a few per cent to a third or more of the fermentable sugar. Single-flower honeys give the clearest aroma."
+ },
+ "glass": "Tulip",
+ "serve_c": "6-9",
+ "in_india": "<p>Indian honey is far more varied than the supermarket squeeze bottle suggests. Litchi honey from Bihar, wild forest honey from the Sundarbans and the Himalayan foothills, mustard honey from Punjab and Rajasthan, and multiflora from the Western Ghats all smell different, and each would make a different beer. Honey ales suit the climate too: light, dry and easy in the heat, with enough aroma to feel special. Check for a recent packing date, since honey aroma fades much as hop aroma does.</p>",
+ "pairings": [
+  {
+   "food": "Malai kofta",
+   "why": "The beer's floral note and light malt sweetness meet the cream and cashew gravy, while its dry finish keeps things from turning heavy."
+  },
+  {
+   "food": "Chicken Chettinad",
+   "why": "Floral sweetness and a dry finish tame the black pepper and red chilli heat."
+  },
+  {
+   "food": "Nolen gur sandesh",
+   "why": "Date palm jaggery and chhena have a delicate, smoky sweetness that the honey aroma flatters without adding more sugar."
+  }
+ ],
+ "examples": [
+  {
+   "beer": "Maka di Honey Ale",
+   "brewery": "Latambarcem Brewers",
+   "source": "https://beveragetradenetwork.com/en/brands/beer-4/india-105/maka-di-honey-ale-11164.htm"
+  }
+ ],
+ "examples_note": ""
+}
