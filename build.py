@@ -38,6 +38,7 @@ ICONS = {
     "martini": '<path d="M8 22h8"/><path d="M12 11v11"/><path d="m19 3-7 8-7-8Z"/>',
     "glass-water": '<path d="M5.116 4.104A1 1 0 0 1 6.11 3h11.78a1 1 0 0 1 .994 1.105L17.19 20.21A2 2 0 0 1 15.2 22H8.8a2 2 0 0 1-2-1.79z"/><path d="M6 12a5 5 0 0 1 6 0 5 5 0 0 0 6 0"/>',
     "map-pin": '<path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/>',
+    "download": '<path d="M12 15V3"/><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/>',
     "arrow-right": '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
     "arrow-left": '<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>',
     "menu": '<line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/>',
@@ -120,7 +121,8 @@ NAV_ITEMS = [
 ]
 
 ANNOUNCE = ('<div class="announce">Now enrolling, the ₹999 intro session is open. '
-            '<a href="courses.html">See all courses [[arrow-right]]</a></div>')
+            '<a href="courses.html">See all courses [[arrow-right]]</a>'
+            '<span class="announce-sep">·</span><a href="assets/craft-beer-school-prospectus.pdf" download data-cta="announce-prospectus">[[download]] Download prospectus</a></div>')
 
 
 def course_ticker():

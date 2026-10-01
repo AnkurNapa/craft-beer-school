@@ -182,6 +182,7 @@ HOME = f"""
       <p class="lead">India's trusted beer school. We teach everything inside and outside the bottle: brewing, tasting, branding and the business of beer, and now spirits, AI for breweries and the drinks beyond beer. Live online sessions, guided tastings and hands-on days in Bengaluru.</p>
       <div class="hero-cta">
         <a href="courses.html" class="btn btn-amber">Explore courses [[arrow-right]]</a>
+        <a href="assets/craft-beer-school-prospectus.pdf" class="btn btn-ghost" download data-cta="hero-prospectus">[[download]] Prospectus (PDF)</a>
         <div class="sticker"><b>₹999</b><small>Intro session · all in</small></div>
       </div>
     </div>
@@ -338,7 +339,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
     "From your first pint to your professional journey. Simple, clear and full of real-world learning, online and in person.") + f"""
 <section>
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Online courses</span><h2>{COURSE_COUNT_WORD.capitalize()} pours from grain to glass.</h2><div style="margin-top:1.2rem"><a href="assets/craft-beer-school-prospectus.pdf" class="btn btn-ghost" download data-cta="prospectus-download">Download the prospectus (PDF)</a></div></div>
+    <div class="sec-head"><span class="eyebrow">Online courses</span><h2>{COURSE_COUNT_WORD.capitalize()} pours from grain to glass.</h2><div style="margin-top:1.2rem"><a href="assets/craft-beer-school-prospectus.pdf" class="btn btn-amber" download data-cta="prospectus-download">[[download]] Download the prospectus (PDF)</a></div></div>
     <div class="grid-3">{"".join(COURSE_CARDS)}</div>
   </div>
 </section>

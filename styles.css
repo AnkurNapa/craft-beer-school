@@ -660,3 +660,7 @@ section.fam-group{padding:0}
 .credits a{color:var(--blue)}
 @media (max-width:680px){.photo.wide img{aspect-ratio:16/10}}
 .track-photo figcaption{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.announce-sep{margin:0 .6rem;opacity:.5}
+.announce .ico{display:inline-block;width:1em;height:1em;vertical-align:-.15em}
+.btn .ico-download{width:1.05em;height:1.05em}
+.hero-cta{flex-wrap:wrap}
