@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Page bodies: Careers, Contact, FAQ, Privacy, Refund."""
-from pages_a import banner
+from pages_a import banner, COURSE_COUNT_WORD
 
 # ============================================================================
 CAREERS = banner("Careers","Careers &amp; Mentors","Help India learn beer.",
@@ -87,7 +87,7 @@ CONTACT = banner("Contact","Contact &amp; Enrol","Let's get you pouring.",
       </div>
       <div class="field"><label>Email</label><input type="email" name="email" required autocomplete="email" placeholder="you@email.com" /></div>
       <div class="field"><label>Interested in</label>
-        <select name="course" required><option value="">Select…</option><option>Brewing Fundamentals</option><option>Advanced Brewing Science</option><option>Brewery Business Management</option><option>Style Specialisation</option><option>Beer Branding &amp; Packaging</option><option>Sensory Evaluation</option><option>AI for Craft Breweries</option><option>Digital Transformation Basics for Brewing</option><option>ESG in Craft Brewing</option><option>Safety in Brewing</option><option>In-person workshop / tasting</option><option>Not sure yet</option></select>
+        <select name="course" required><option value="">Select…</option><option>Brewing Fundamentals</option><option>Advanced Brewing Science</option><option>Brewery Business Management</option><option>Style Specialisation</option><option>Beer Branding &amp; Packaging</option><option>Sensory Evaluation</option><option>AI for Craft Breweries</option><option>Digital Transformation Basics for Brewing</option><option>ESG in Craft Brewing</option><option>Safety in Brewing</option><option>Craft Distilling</option><option>Professional Beer Tasting Day</option><option>Brewery Business Tour</option><option>In-person workshop / tasting</option><option>Not sure yet</option></select>
       </div>
       <div class="row2">
         <div class="field"><label>City</label><input name="city" autocomplete="address-level2" placeholder="Optional" /></div>
@@ -118,7 +118,7 @@ FAQ = banner("FAQ","Questions","Everything you wanted to ask.",
   <div class="wrap">
     <div class="faq">
       {faq_item("Do I need any brewing experience to start?","Not at all. Brewing Fundamentals is built for complete beginners, we start with the science and ingredients and build up from there. Many of our students had no prior brewing background.")}
-      {faq_item("Are the courses online or in person?","Both. Our ten core courses run as flexible live online sessions you can join from any city. We also offer in-person workshops, home-visit brewing and guided tastings, mainly around Bengaluru.")}
+      {faq_item("Are the courses online or in person?","Both. Our " + COURSE_COUNT_WORD + " core courses run as flexible live online sessions you can join from any city. We also offer in-person workshops, home-visit brewing and guided tastings, mainly around Bengaluru.")}
       {faq_item("What are the class sizes?","Small by design. Tiny cohorts mean every question gets answered and every batch gets tasted, with one-on-one mentorship from industry experts.")}
       {faq_item("Do you help with WSET or Cicerone certification?","Yes. We provide structured exam preparation for WSET and Cicerone so you can build globally recognised beer knowledge and sit the exams with confidence.")}
       {faq_item("How do I enrol and pay?","Pick a course and submit the enquiry form or WhatsApp us. We confirm dates and share payment details. Seats are confirmed once payment is received, cohorts fill quickly.")}

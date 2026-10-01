@@ -78,12 +78,19 @@ COURSE_DATA = [
          blurb="The hazards that hurt people in breweries and how to work around them: CO2, chemicals, heat, pressure and confined spaces.",
          items=["CO2 and confined spaces","Caustic, acid and hot liquids","Pressure, kegs and lifting","Your brewery safety checklist"],
          price="Free", amount="0"),
+    dict(no="11", tag="New · Spirits", dur="4 Weeks", weeks=4, name="Craft Distilling",
+         blurb="From wash to bottle: stills, cuts, gin botanicals, ageing in Indian heat, and the licences a craft distillery needs.",
+         items=["Wash, stills and the run","Heads, hearts and tails","Gin and botanicals","Ageing, costs and licensing"],
+         price="₹9,999", amount="9999"),
 ]
 
-C1, C2, C3, C4, C5, C6, C7, C8, C9, C10 = [
+COURSE_CARDS = [
     course(c["no"], c["tag"], c["dur"], c["name"], c["blurb"], c["items"], c["price"], "")
     for c in COURSE_DATA
 ]
+C1, C2, C3 = COURSE_CARDS[:3]
+_WORDS = {6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten", 11: "eleven", 12: "twelve", 13: "thirteen", 14: "fourteen", 15: "fifteen"}
+COURSE_COUNT_WORD = _WORDS.get(len(COURSE_DATA), str(len(COURSE_DATA)))
 
 # ============================================================================
 HOME = f"""
@@ -107,7 +114,7 @@ HOME = f"""
 <section style="padding-block:0">
   <div class="wrap">
     <div class="stats reveal">
-      <div class="stat"><b>10</b><span>Career-grade courses</span></div>
+      <div class="stat"><b>{len(COURSE_DATA)}</b><span>Career-grade courses</span></div>
       <div class="stat"><b>1:1</b><span>Expert mentorship</span></div>
       <div class="stat"><b>WSET</b><span>+ Cicerone prep</span></div>
       <div class="stat"><b>∞</b><span>Grain to glass</span></div>
@@ -119,11 +126,11 @@ HOME = f"""
   <div class="wrap">
     <div class="sec-head">
       <span class="eyebrow">Basics to Business</span>
-      <h2>Ten pours, one path from grain to glass.</h2>
+      <h2>{COURSE_COUNT_WORD.capitalize()} pours, one path from grain to glass.</h2>
       <p class="lead">Each course blends theory with real practice, small groups, one-on-one mentorship, industry experts.</p>
     </div>
     <div class="grid-3">{C1}{C2}{C3}</div>
-    <div style="margin-top:2rem"><a href="courses.html" class="link-arrow">See all ten courses &amp; in-person workshops</a></div>
+    <div style="margin-top:2rem"><a href="courses.html" class="link-arrow">See all {COURSE_COUNT_WORD} courses &amp; in-person workshops</a></div>
   </div>
 </section>
 {style_render.home_teaser()}
@@ -239,8 +246,8 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
     "From your first pint to your professional journey. Simple, clear and full of real-world learning, online and in person.") + f"""
 <section>
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Online courses</span><h2>Ten pours from grain to glass.</h2></div>
-    <div class="grid-3">{C1}{C2}{C3}{C4}{C5}{C6}{C7}{C8}{C9}{C10}</div>
+    <div class="sec-head"><span class="eyebrow">Online courses</span><h2>{COURSE_COUNT_WORD.capitalize()} pours from grain to glass.</h2></div>
+    <div class="grid-3">{"".join(COURSE_CARDS)}</div>
   </div>
 </section>
 
@@ -251,6 +258,8 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
       <article class="card reveal"><div class="card-body"><span class="cat">1 Day · Intensive</span><h3>1-Day Super Intensive Craft Beer Course</h3><p>Step into a real microbrewery for a full day, from raw materials to a finished pour, condensed into one focused classroom-plus-brewery session.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="cat">1 Month · Advanced</span><h3>1-Month Advanced Craft Beer Brewing Course</h3><p>Homebrewer to beer founder, an advanced, hands-on programme with focused mentorship over four weeks.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="cat">1 Day · At Home</span><h3>1-Day Home Visit Brewing Course</h3><p>Our brew master comes to your home with all the equipment and ingredients needed to brew your first batch, start to finish.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
+      <article class="card reveal"><div class="card-body"><span class="cat">1 Day · Bengaluru · ₹4,999</span><h3>Professional Beer Tasting Day</h3><p>Taste the way brewers, judges and buyers do. A guided flight across the main styles, from lager, wheat and pale ale to IPA, stout, sour and Belgian, plus spiked samples of the common off-flavours. You learn the professional tasting method, write proper tasting notes and score every beer on an industry scoresheet. Beers, tasting kit and scoresheets included.</p><div class="foot"><a href="contact.html?course=Professional%20Beer%20Tasting%20Day#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Book a seat</a></div></div></article>
+      <article class="card reveal"><div class="card-body"><span class="cat">Half day · Bengaluru · Guided tour</span><h3>Brewery Business Tour</h3><p>For anyone thinking about a brewery or brewpub business. Walk a working Bengaluru brewery with a brewer who runs one: brewhouse, cellar, cold room and taproom. Then the questions every would-be founder asks, about cost, licences, staffing, space and what nobody tells you before you start.</p><div class="foot"><a href="contact.html?course=Brewery%20Business%20Tour#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="cat">2 Hours · Tasting</span><h3>2-Hour Craft Beer Tasting Course</h3><p>A guided tasting flight in Bengaluru. Learn to read aroma, flavour and style in two focused hours.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
     </div>
   </div>

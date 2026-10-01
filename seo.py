@@ -366,7 +366,7 @@ def llms_txt():
         "",
         "## Key pages",
         "",
-        f"- [Courses]({SITE_URL}/courses.html): all ten online courses and in-person workshops.",
+        f"- [Courses]({SITE_URL}/courses.html): all {pages_a.COURSE_COUNT_WORD} online courses and in-person workshops.",
         f"- [Resources]({SITE_URL}/resources.html): free Beer 101, styles primer, glossary and brewing calculators.",
         f"- [FAQ]({SITE_URL}/faq.html): experience needed, format, class size, certification, payment and refunds.",
         f"- [About]({SITE_URL}/about.html): mentors, mission and teaching method.",

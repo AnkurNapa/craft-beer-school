@@ -222,11 +222,45 @@ DETAIL = {
               "What to do in an emergency, first aid and who to call. Rules vary by state, so check the ones that apply to you"],
              "Walk through your brewery or kitchen and fill in the safety checklist we give you."),
         ]),
+    "Craft Distilling": dict(
+        reading=['start-a-microbrewery-india', 'yeast-growth-phases', 'brewery-compliance-checklist'],
+        who=["Brewers thinking about adding spirits",
+             "Founders planning a craft distillery or a gin brand",
+             "Bartenders and spirits lovers who want to know how it is really made"],
+        outcomes=["Explain every step from wash to bottle",
+                  "Read a still and explain how a distiller makes the cuts",
+                  "Design a gin botanical recipe on paper",
+                  "Understand the licences and costs behind a craft distillery in India"],
+        weeks=[
+            ("Wash, spirits and the law",
+             ["How a wash differs from beer: no hops, and the fermentation is pushed for alcohol",
+              "Grain, molasses, fruit and sugar as starting points",
+              "Distilling in India needs its own excise licence, separate from brewing, and rules vary by state. Distilling at home is not legal",
+              "The main spirit families: whisky, gin, rum, vodka and fruit spirits"],
+             "Map the licences and approvals a craft distillery needs in your state."),
+            ("Stills and the run",
+             ["Pot stills, column stills and reflux",
+              "Heads, hearts and tails, and why the cuts matter for flavour and safety",
+              "Proof, ABV and measuring a spirit",
+              "Ethanol vapour, fire risk and safe still operation"],
+             "Read a sample run log and mark where you would make each cut, and why."),
+            ("Gin and botanicals",
+             ["Juniper first: what makes a gin a gin",
+              "Maceration versus vapour infusion",
+              "Building a botanical bill, including Indian botanicals",
+              "Dilution, proofing and bottling strength"],
+             "Design a gin botanical recipe and explain the role of each botanical."),
+            ("Ageing, costs and getting to market",
+             ["Oak, char and what a cask adds",
+              "Why maturation runs faster in Indian heat, and the higher losses to evaporation",
+              "Costing a bottle: raw materials, energy, duty and packaging",
+              "Brand, route to market and the first year of a small distillery"],
+             "Write a one-page business case for your first spirit."),
+        ]),
 }
 
 
-NUMBER_WORDS = {6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten", 11: "eleven", 12: "twelve"}
-N_COURSES = NUMBER_WORDS.get(len(pages_a.COURSE_DATA), str(len(pages_a.COURSE_DATA)))
+N_COURSES = pages_a.COURSE_COUNT_WORD
 TOTAL_WEEKS = sum(c["weeks"] for c in pages_a.COURSE_DATA)
 
 
