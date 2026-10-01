@@ -143,7 +143,7 @@ def render(card, cards, guide_title):
   <div class="wrap post-head">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="{back}">Style Library</a> / <span>{card['name']}</span></nav>
     <div class="style-where">
-      <a class="style-back" href="{back}" data-cta="style-back">\u2190 All {total} styles</a>
+      <a class="style-back" href="{back}" data-cta="style-back">[[arrow-left]] All {total} styles</a>
       <a class="eyebrow" href="{_fam_href(card['family'])}">{card['family']}, {fpos} of {ftotal}</a>
       <span class="style-pos">Style {i + 1} of {total}</span>
     </div>
@@ -181,7 +181,7 @@ def render(card, cards, guide_title):
       {step(prev_c, "prev", "Previous style")}
       {step(next_c, "next", "Next style")}
     </nav>
-    <p class="style-backline"><a href="{back}" class="style-back" data-cta="style-back-bottom">\u2190 Back to the Style Library</a> <span class="style-readcount"></span></p>
+    <p class="style-backline"><a href="{back}" class="style-back" data-cta="style-back-bottom">[[arrow-left]] Back to the Style Library</a> <span class="style-readcount"></span></p>
     <aside class="cta-band">
       <div><h3>Learn to taste and brew styles properly</h3>
       <p>Style Specialization walks through every major family with live tastings and a mentor, eight weekends, online.</p></div>

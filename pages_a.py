@@ -77,7 +77,7 @@ HOME = f"""
       <h1 class="display">Brew like<br>you <span class="script">mean it.</span></h1>
       <p class="lead">India's trusted beer school. We teach everything inside and outside the bottle, ingredients, brewing, tasting, branding and the business of beer. Live sessions, guided tastings and hands-on brewery workshops.</p>
       <div class="hero-cta">
-        <a href="courses.html" class="btn btn-amber">Explore courses →</a>
+        <a href="courses.html" class="btn btn-amber">Explore courses [[arrow-right]]</a>
         <div class="sticker"><b>₹999</b><small>Intro session · all in</small></div>
       </div>
     </div>
