@@ -364,7 +364,7 @@ PAGES = {
                         "Better beer education brews better beer. Meet Craft Beer School, India's grain-to-glass beer school, our mentors, mission and method.",
                         "about", pages_a.ABOUT),
     "courses.html":   ("Beer Brewing Courses in India | Craft Beer School",
-                        "Six online courses from basics to business, plus hands-on in-person workshops. Brewing, science, business, styles, branding and sensory.",
+                        "Ten online courses from basics to business, plus hands-on workshops. Brewing, science, business, styles, branding, sensory, AI, digital, ESG and free safety.",
                         "courses", pages_a.COURSES),
     "resources.html": ("Free Beer Education Resources | Craft Beer School",
                         "Free beer education: Beer 101, styles primer, a brewing glossary, calculators and tasting tools to sharpen your palate and your process.",

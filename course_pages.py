@@ -128,7 +128,113 @@ DETAIL = {
             ("Off-flavours and scoring", ["Diacetyl, DMS, acetaldehyde, oxidation, light-struck, phenolic and sulphur", "Where each fault comes from and how to fix it", "Triangle tests and BJCP-style scoresheets"],
              "Score a flight and compare your sheet with the instructor's."),
         ]),
+    "AI for Craft Breweries": dict(
+        reading=['beer-social-media-marketing', 'beer-brand-storytelling', 'alcohol-advertising-rules-india'],
+        who=["Brewery and brewpub owners who write their own posts at midnight",
+             "Taproom, marketing and sales people who handle the copy and the admin",
+             "Brewers who would rather brew than fill in spreadsheets"],
+        outcomes=["Brief a GenAI tool with your brewery's real facts and get copy you can actually use",
+                  "Plan and draft a month of on-brand social posts in one sitting",
+                  "Hand one repetitive weekly task over to AI, with a human check at the end",
+                  "Write a one-page responsible AI policy for your brewery"],
+        weeks=[
+            ("GenAI for your brewery's words",
+             ["How large language models work, in plain English, and where they go wrong",
+              "Briefing the tool properly: style, ABV, ingredients, tasting notes and your brewery's voice",
+              "Tap list notes, menu cards, label copy and newsletters",
+              "A month of social posts around launches, festivals and the monsoon",
+              "AI images versus real photos of your beer, and when each one fits"],
+             "Write tasting notes for your current tap list and a month of posts, then edit them until they sound like you."),
+            ("Repetitive tasks and responsible AI",
+             ["Drafting replies to common questions and reviews",
+              "Turning brew logs and sales notes into short weekly reports",
+              "Spreadsheet formulas, checklists and first drafts of SOPs",
+              "Checking every fact: AI must never invent an ABV, an award or an ingredient",
+              "Customer data, image rights, and India's rules on alcohol advertising, which vary by state and change",
+              "Nothing aimed at minors, and no health claims"],
+             "Hand one weekly task to AI from start to finish, and write your brewery's one-page AI policy."),
+        ]),
+    "Digital Transformation Basics for Brewing": dict(
+        reading=['keeping-a-brew-log', 'brewing-software-and-calculators', 'brewery-qc-lab-on-a-budget'],
+        who=["Brewery owners still running on paper, WhatsApp and memory",
+             "Head brewers who want their numbers in one place",
+             "Operations and finance people at small breweries and brewpubs"],
+        outcomes=["Replace the paper brew log with a digital one the whole team fills in",
+                  "Track stock and batches from malt sack to keg",
+                  "Build a one-page dashboard for the numbers that matter each week",
+                  "Leave with a 90-day plan you can afford"],
+        weeks=[
+            ("From paper to data",
+             ["What digital transformation means for a 10 HL brewery, and what it does not",
+              "Brew logs, cellar logs and cleaning records in shared spreadsheets",
+              "Stock, batch and keg tracking, and why batch codes matter when a complaint comes in",
+              "Brewery management software versus spreadsheets, and when to switch"],
+             "Turn last month's paper brew sheets into one digital log and find three things you did not know."),
+            ("Sensors, dashboards and your plan",
+             ["Temperature and gravity loggers on fermenters",
+              "Point of sale and sales data next to production data",
+              "A simple dashboard: volume, yield, stock and what sold",
+              "Data habits: one source of truth, backups and who can edit what",
+              "Planning 90 days of change your team will actually keep doing"],
+             "Build your weekly dashboard and write your 90-day digital plan."),
+        ]),
+    "ESG in Craft Brewing": dict(
+        reading=['sustainability-in-brewing', 'brewery-waste-and-spent-grain', 'brewery-utilities-water-power'],
+        who=["Founders asked about sustainability by investors, retailers or customers",
+             "Brewers who want to cut water, power and waste costs",
+             "Brand and marketing people who need a true story, not a green label"],
+        outcomes=["Measure water and energy per litre of beer from your own bills and logs",
+                  "Find a better route for spent grain, yeast and packaging waste",
+                  "Cover the people and governance side, not just the environment",
+                  "Build a simple ESG scorecard and talk about it without greenwashing"],
+        weeks=[
+            ("The E: water, energy and waste",
+             ["Your water to beer ratio, and where the litres go: cleaning, cooling, the brewhouse",
+              "Energy for heating, cooling and glycol, and what to measure first",
+              "Spent grain and yeast as feed or food rather than waste",
+              "Glass, cans, kegs and returnable packaging",
+              "Wastewater and pollution control consent, which varies by state"],
+             "Work out your brewery's water and energy per litre from last quarter's numbers."),
+            ("The S and the G, and telling the story",
+             ["Staff safety, fair work and training",
+              "Responsible drinking, local sourcing and your neighbourhood",
+              "Governance: licences, a compliance calendar and clean books",
+              "A one-page ESG scorecard you can update every quarter",
+              "Talking about it honestly: what to claim, what to leave out, and how to avoid greenwashing"],
+             "Fill in your first ESG scorecard and draft one honest post about it."),
+        ]),
+    "Safety in Brewing": dict(
+        reading=['cip-cleaning-in-place', 'cleaning-vs-sanitising-brewing', 'brewery-compliance-checklist'],
+        who=["Anyone starting work in a brewery or brewpub",
+             "Owners setting up a new brewhouse or training new staff",
+             "Homebrewers moving up to bigger kit"],
+        outcomes=["Spot the hazards that hurt people in breweries before they do",
+                  "Handle CO2, cleaning chemicals and hot liquids safely",
+                  "Know when a tank or vessel must never be entered",
+                  "Leave with a safety checklist for your own brewery"],
+        weeks=[
+            ("The hazards and how to work around them",
+             ["CO2 from fermenting beer: why it collects low down, and gas monitors in cellars and cold rooms",
+              "Confined spaces: never climb into a tank, and why",
+              "Caustic and acid for cleaning, the right protective kit, and eyewash",
+              "Hot wort and steam, pressure vessels, kegs and relief valves",
+              "Wet floors, electrics near water, and lifting heavy malt sacks",
+              "What to do in an emergency, first aid and who to call. Rules vary by state, so check the ones that apply to you"],
+             "Walk through your brewery or kitchen and fill in the safety checklist we give you."),
+        ]),
 }
+
+
+NUMBER_WORDS = {6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten", 11: "eleven", 12: "twelve"}
+N_COURSES = NUMBER_WORDS.get(len(pages_a.COURSE_DATA), str(len(pages_a.COURSE_DATA)))
+TOTAL_WEEKS = sum(c["weeks"] for c in pages_a.COURSE_DATA)
+
+
+FREE_FEES = "Free. Register to hold one of the 20 seats in the next batch."
+
+
+def is_free(c):
+    return c["amount"] == "0"
 
 
 def plain(name):
@@ -152,7 +258,7 @@ def render(c):
     weeks = "".join(_week(i, *w) for i, w in enumerate(d["weeks"], 1))
     who = "".join(f"<li>{w}</li>" for w in d["who"])
     out = "".join(f"<li>{o}</li>" for o in d["outcomes"])
-    logi = "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in LOGISTICS)
+    logi = "".join(f"<div><dt>{k}</dt><dd>{FREE_FEES if k == 'Fees' and is_free(c) else v}</dd></div>" for k, v in LOGISTICS)
     enrol = enroll_href(c["name"])
     return banner(f'<a href="courses.html">Courses</a> / {c["name"]}', f'{c["no"]} / {c["tag"]}', c["name"], c["blurb"]) + f"""
 <section style="padding-block:0">
@@ -174,7 +280,7 @@ def render(c):
 
 <section class="tint">
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Syllabus</span><h2>Week by week.</h2><p class="lead">{c["weeks"]} weeks. Two live sessions every weekend and one assignment a week.</p></div>
+    <div class="sec-head"><span class="eyebrow">Syllabus</span><h2>Week by week.</h2><p class="lead">{c["weeks"]} week{"s" if c["weeks"] != 1 else ""}. Two live sessions every weekend and one assignment a week.</p></div>
     <div class="faq syllabus">{weeks}</div>
     <aside class="cta-inline" style="margin-top:2.4rem">
       <div><h3>Questions about the syllabus?</h3><p>Ask us on WhatsApp before you commit, or enrol now to hold your seat.</p></div>
@@ -187,7 +293,7 @@ def render(c):
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">How it runs</span><h2>Format and terms.</h2></div>
     <dl class="logistics">{logi}</dl>
-    <p style="margin-top:1.5rem;color:var(--ink-soft);font-size:.9rem">Want the full flight? All six courses together run to 26 weeks, and you choose your package when you enrol. Compare <a href="courses.html" style="color:var(--blue);text-decoration:underline">all six courses</a>, and read the <a href="refund.html" style="color:var(--blue);text-decoration:underline">refund policy</a> before you pay.</p>
+    <p style="margin-top:1.5rem;color:var(--ink-soft);font-size:.9rem">Want the full flight? All {N_COURSES} courses together run to {TOTAL_WEEKS} weeks, and you choose your package when you enrol. Compare <a href="courses.html" style="color:var(--blue);text-decoration:underline">all {N_COURSES} courses</a>, and read the <a href="refund.html" style="color:var(--blue);text-decoration:underline">refund policy</a> before you pay.</p>
   </div>
 </section>
 
@@ -203,7 +309,9 @@ def pages():
     for c in pages_a.COURSE_DATA:
         name = plain(c["name"])
         title = f"{name} Course | Craft Beer School"
+        if len(title) > 60:  # search results cut long titles; fall back to the short name
+            title = f"{c.get('short', name)} | Craft Beer School"
         desc = (f"{name}: {c['dur'].lower()} of live weekend classes online, max 20 per batch, "
-                f"{c['price']}. Full week-by-week syllabus, assignments and certificate.")
+                f"{'free' if is_free(c) else c['price']}. Full week-by-week syllabus, assignments and certificate.")
         out[slug_for(c["name"])] = (title, desc, "courses", render(c))
     return out

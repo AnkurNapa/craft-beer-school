@@ -10,6 +10,7 @@ import pathlib
 import re
 import sys
 
+import pages_a
 import seo
 
 HERE = pathlib.Path(__file__).parent
@@ -73,10 +74,10 @@ courses_graph = json.loads(
     re.search(r'<script type="application/ld\+json">(.*?)</script>',
               PAGES["courses.html"], re.S).group(1))["@graph"]
 course_nodes = [n for n in courses_graph if n.get("@type") == "Course"]
-check(len(course_nodes) == 6, f"courses.html: {len(course_nodes)} Course nodes, expected 6")
+check(len(course_nodes) == len(pages_a.COURSE_DATA), f"courses.html: {len(course_nodes)} Course nodes, expected {len(pages_a.COURSE_DATA)}")
 for node in course_nodes:
     price = node["offers"]["price"]
-    check(f"₹{int(price):,}" in PAGES["courses.html"],
+    check((f"₹{int(price):,}" if int(price) else "Free") in PAGES["courses.html"],
           f"courses.html: schema price {price} for '{node['name']}' is not shown on the page")
     check(node["offers"]["priceCurrency"] == "INR", f"{node['name']}: price not in INR")
     check(node.get("hasCourseInstance"), f"{node['name']}: no hasCourseInstance, no rich result")

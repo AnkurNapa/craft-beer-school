@@ -61,9 +61,26 @@ COURSE_DATA = [
          blurb="Train your palate like a pro: taste, identify off-flavours and score beer with real sensory methods.",
          items=["Flavour chemistry","Tasting techniques","Off-flavour identification","Quality scoring systems"],
          price="₹5,999", amount="5999"),
+    dict(no="07", tag="New · AI", dur="2 Weeks", weeks=2, name="AI for Craft Breweries",
+         blurb="Put GenAI to work on your brewery's copy, social posts and weekly admin, and use it responsibly. No coding needed.",
+         items=["GenAI for beer copy &amp; social","Prompting with your brewery's facts","Automating repetitive tasks","Responsible AI &amp; alcohol ad rules"],
+         price="₹5,000", amount="5000"),
+    dict(no="08", tag="New · Digital", dur="2 Weeks", weeks=2, name="Digital Transformation Basics for Brewing",
+         short="Digital Transformation for Brewing",
+         blurb="Move your brewery off paper and into simple digital tools: brew logs, stock, batch tracking and a dashboard you will actually open.",
+         items=["Paper to digital brew logs","Stock and batch tracking","Sensors and dashboards","A 90-day digital plan"],
+         price="₹5,000", amount="5000"),
+    dict(no="09", tag="New · ESG", dur="2 Weeks", weeks=2, name="ESG in Craft Brewing",
+         blurb="Water, energy, spent grain, packaging, people and governance: measure what your brewery does and tell the story honestly.",
+         items=["Water and energy per litre","Spent grain, waste and packaging","People, safety and community","A simple ESG scorecard"],
+         price="₹5,000", amount="5000"),
+    dict(no="10", tag="Free · Safety", dur="1 Week", weeks=1, name="Safety in Brewing",
+         blurb="The hazards that hurt people in breweries and how to work around them: CO2, chemicals, heat, pressure and confined spaces.",
+         items=["CO2 and confined spaces","Caustic, acid and hot liquids","Pressure, kegs and lifting","Your brewery safety checklist"],
+         price="Free", amount="0"),
 ]
 
-C1, C2, C3, C4, C5, C6 = [
+C1, C2, C3, C4, C5, C6, C7, C8, C9, C10 = [
     course(c["no"], c["tag"], c["dur"], c["name"], c["blurb"], c["items"], c["price"], "")
     for c in COURSE_DATA
 ]
@@ -90,7 +107,7 @@ HOME = f"""
 <section style="padding-block:0">
   <div class="wrap">
     <div class="stats reveal">
-      <div class="stat"><b>6</b><span>Career-grade courses</span></div>
+      <div class="stat"><b>10</b><span>Career-grade courses</span></div>
       <div class="stat"><b>1:1</b><span>Expert mentorship</span></div>
       <div class="stat"><b>WSET</b><span>+ Cicerone prep</span></div>
       <div class="stat"><b>∞</b><span>Grain to glass</span></div>
@@ -102,11 +119,11 @@ HOME = f"""
   <div class="wrap">
     <div class="sec-head">
       <span class="eyebrow">Basics to Business</span>
-      <h2>Six pours, one path from grain to glass.</h2>
+      <h2>Ten pours, one path from grain to glass.</h2>
       <p class="lead">Each course blends theory with real practice, small groups, one-on-one mentorship, industry experts.</p>
     </div>
     <div class="grid-3">{C1}{C2}{C3}</div>
-    <div style="margin-top:2rem"><a href="courses.html" class="link-arrow">See all six courses &amp; in-person workshops</a></div>
+    <div style="margin-top:2rem"><a href="courses.html" class="link-arrow">See all ten courses &amp; in-person workshops</a></div>
   </div>
 </section>
 {style_render.home_teaser()}
@@ -222,8 +239,8 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
     "From your first pint to your professional journey. Simple, clear and full of real-world learning, online and in person.") + f"""
 <section>
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Online courses</span><h2>Six pours from grain to glass.</h2></div>
-    <div class="grid-3">{C1}{C2}{C3}{C4}{C5}{C6}</div>
+    <div class="sec-head"><span class="eyebrow">Online courses</span><h2>Ten pours from grain to glass.</h2></div>
+    <div class="grid-3">{C1}{C2}{C3}{C4}{C5}{C6}{C7}{C8}{C9}{C10}</div>
   </div>
 </section>
 

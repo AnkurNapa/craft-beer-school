@@ -176,7 +176,7 @@ def _courses(only=None):
                 "@type": "Offer",
                 "price": c["amount"],
                 "priceCurrency": "INR",
-                "category": "Paid",
+                "category": "Free" if c["amount"] == "0" else "Paid",
                 "availability": "https://schema.org/InStock",
                 "url": f"{SITE_URL}/contact.html#enroll",
             },
@@ -354,7 +354,7 @@ def llms_txt():
     ]
     for c in pages_a.COURSE_DATA:
         lines.append(f"- [{_strip(c['name'])}]({url_for(pages_a.course_href(c['name']))}): "
-                     f"{_strip(c['blurb'])} Duration {c['dur']}. Price INR {c['amount']}.")
+                     f"{_strip(c['blurb'])} Duration {c['dur']}. " + ("Free (price INR 0)." if c['amount'] == "0" else f"Price INR {c['amount']}."))
     lines += [
         "",
         "## Guides",
@@ -366,7 +366,7 @@ def llms_txt():
         "",
         "## Key pages",
         "",
-        f"- [Courses]({SITE_URL}/courses.html): all six online courses and in-person workshops.",
+        f"- [Courses]({SITE_URL}/courses.html): all ten online courses and in-person workshops.",
         f"- [Resources]({SITE_URL}/resources.html): free Beer 101, styles primer, glossary and brewing calculators.",
         f"- [FAQ]({SITE_URL}/faq.html): experience needed, format, class size, certification, payment and refunds.",
         f"- [About]({SITE_URL}/about.html): mentors, mission and teaching method.",
