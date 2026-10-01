@@ -209,12 +209,12 @@ HOME = f"""
 <section class="navy-sec" id="companies">
   <div class="wrap split">
     <div class="prose-block reveal">
-      <span class="eyebrow">For companies</span>
-      <h2 style="color:#fff">Training for beverage GCCs. Hiring for drinks businesses.</h2>
-      <p style="color:rgba(255,255,255,.75)">Beer, wine and spirits companies opening capability centres in Bengaluru, Pune and Hyderabad need teams who understand the product. Breweries, wineries and distilleries need people who can do the job on day one. We help with both.</p>
-      <div class="cta-pair" style="margin-top:1.2rem"><a class="btn btn-amber" href="for-companies.html#training" data-cta="home-companies-training">Corporate training</a><a class="btn btn-ghost on-dark" href="for-companies.html#hiring" data-cta="home-companies-hiring">Hiring support</a></div>
+      <span class="eyebrow">Corporate services</span>
+      <h2 style="color:#fff">Training, hiring and consulting for the drinks business.</h2>
+      <p style="color:rgba(255,255,255,.75)">For breweries, wineries and distilleries, for beverage GCCs in Bengaluru, Pune and Hyderabad, and for companies bringing beer, ingredients or packaging to India.</p>
+      <div class="cta-pair" style="margin-top:1.2rem"><a class="btn btn-amber" href="for-companies.html" data-cta="home-companies">See our services</a><a class="btn btn-ghost on-dark" href="contact.html#enroll" data-cta="home-companies-talk">Talk to us</a></div>
     </div>
-    <ul class="checklist on-dark reveal"><li>Beverage 101 for new joiners</li><li>Brewing and distilling operations for analysts</li><li>Supply chain, excise and route to market in India</li><li>Guided tasting of your own portfolio</li><li>Hiring across brewing, quality, sales, finance and data</li></ul>
+    <ul class="checklist on-dark reveal"><li>Corporate training for beverage GCCs</li><li>Hiring support for every function</li><li>Brand and digital marketing consultancy</li><li>Market entry into India for beer, ingredient and packaging companies</li><li>Digital transformation and AI</li></ul>
   </div>
 </section>
 {style_render.home_teaser()}
@@ -339,7 +339,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
   <div class="wrap"><aside class="cta-inline"><div><h3>Preparing for a WSET Beer exam?</h3><p>We prepare candidates for every WSET Beer level, in group cohorts or one-to-one: the syllabus, guided tastings with the systematic approach, and mock papers. You sit the exam itself through a WSET Approved Programme Provider. <a href="wset-beer-course.html" style="color:var(--blue);text-decoration:underline">How the WSET Beer route works</a>.</p></div><a class="btn btn-amber" href="contact.html?course=WSET%20Beer%20exam%20prep#enroll" data-cta="courses-wset">Ask about exam prep</a></aside></div>
 </section>
 <section style="padding-block:2rem 0">
-  <div class="wrap"><aside class="cta-inline"><div><h3>Training a whole team?</h3><p>We run beverage domain training for GCCs and companies in Bengaluru, Pune and Hyderabad, and help drinks businesses hire.</p></div><a class="btn btn-amber" href="for-companies.html" data-cta="courses-companies">For companies</a></aside></div>
+  <div class="wrap"><aside class="cta-inline"><div><h3>Training a whole team, or need more than a course?</h3><p>Corporate training for beverage GCCs, hiring support, brand and digital marketing, market entry into India and digital transformation.</p></div><a class="btn btn-amber" href="for-companies.html" data-cta="courses-companies">Corporate services</a></aside></div>
 </section>
 <section class="tint" id="in-person">
   <div class="wrap">

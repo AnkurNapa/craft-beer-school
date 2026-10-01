@@ -606,3 +606,17 @@ section.fam-group{padding:0}
 .co-steps li::before{content:counter(co,decimal-leading-zero);position:absolute;left:0;top:0;font-family:var(--mono);font-weight:700;color:var(--amber-deep);font-size:.9rem;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--sand);display:grid;place-items:center}
 .co-steps h3{font-size:1.02rem;margin:0 0 .2rem}
 .co-steps p{margin:0;color:var(--ink-soft);font-size:.95rem}
+
+/* Corporate services overview */
+.features.services{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.feature.service{display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .25s var(--ease),box-shadow .25s var(--ease)}
+.feature.service:hover,.feature.service:focus-visible{transform:translateY(-3px);box-shadow:var(--shadow-sm)}
+.feature.service .link-arrow{margin-top:auto;padding-top:.8rem;font-size:.9rem}
+@media (max-width:680px){
+  .features.services{gap:.6rem}
+  .feature.service{display:grid;grid-template-columns:var(--icon-tile) 1fr;column-gap:.9rem;row-gap:.15rem;padding:1rem 1.1rem;align-items:start}
+  .feature.service .ic{grid-row:1/4;margin:0}
+  .feature.service h3{margin:0;font-size:1.02rem}
+  .feature.service p{margin:0;font-size:.9rem}
+  .feature.service .link-arrow{padding-top:.3rem;font-size:.85rem}
+}
