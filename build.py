@@ -327,6 +327,10 @@ def fill_ctas(html):
                 .replace("__SBKEY__", SUPABASE_ANON_KEY))
 
 
+# Changes whenever styles.css changes, so browsers never pair new HTML with a cached old stylesheet.
+CSS_VERSION = __import__("hashlib").sha1(pathlib.Path(__file__).with_name("styles.css").read_bytes()).hexdigest()[:10]
+
+
 def page(slug, title, desc, active, body):
     return _with_page_whatsapp(slug, title, expand_icons(fill_ctas(f"""<!DOCTYPE html>
 <html lang="en-IN">
@@ -339,7 +343,7 @@ def page(slug, title, desc, active, body):
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500;1,9..144,600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css?v={CSS_VERSION}" />
 {seo.jsonld(slug, title, desc)}
 {ga_tag()}
 </head>
