@@ -692,3 +692,12 @@ section.fam-group{padding:0}
 @media (max-width:960px){.statband{grid-template-columns:1fr 1fr}.sb:nth-child(3){border-left:0}.sb:nth-child(n+3){border-top:1px solid var(--line)}}
 @media (max-width:680px){.statband{grid-template-columns:1fr 1fr}.sb{flex-direction:column;gap:.6rem;padding:1rem}.sb b{font-size:1.5rem}.sb em{display:none}}
 .hero{padding-bottom:clamp(2rem,4vw,3rem)}
+
+/* Icons stand on their own: no tile behind them, anywhere */
+.ic{background:none;width:auto;height:auto;border-radius:0;display:inline-flex;align-items:center;justify-content:flex-start;color:var(--navy)}
+.ic .ico{width:30px;height:30px;stroke-width:1.75}
+.navy-sec .ic,.navy-sec .ic .ico{color:var(--gold)}
+.sb .ic{padding-top:.25rem}
+.sb .ic .ico{color:var(--amber-deep)}
+.feature .ic,.card-body > .ic{margin-bottom:.9rem}
+@media (max-width:680px){.feature,.feature.service{grid-template-columns:32px 1fr}}
