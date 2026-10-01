@@ -143,8 +143,8 @@ def nav(active):
   {tab("index.html", "house", "Home", "home")}
   {tab("courses.html", "cap", "Courses", "courses")}
   {tab("style-library.html", "beer", "Styles", "styles")}
-  <a class="tab tab-wa" href="{whatsapp_href()}" target="_blank" rel="noopener" data-cta="mobile-whatsapp">[[whatsapp]]<span>WhatsApp</span></a>
-  <a class="tab tab-enrol{' on' if active == 'contact' else ''}" href="{ENROLL_HREF}" data-cta="mobile-enroll">[[user-plus]]<span>Enrol</span></a>
+  <a class="btn btn-amber tab-cta" href="{ENROLL_HREF}" data-cta="mobile-enroll">Enrol now</a>
+  <a class="btn btn-wa tab-cta" href="{whatsapp_href()}" target="_blank" rel="noopener" data-cta="mobile-whatsapp">[[whatsapp]] WhatsApp</a>
 </nav>"""
 
 
