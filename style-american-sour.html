@@ -13,14 +13,14 @@
 <meta property="og:url" content="https://craftbeerschool.in/style-american-sour.html" />
 <meta property="og:title" content="American Sour: Style Guide | Craft Beer School" />
 <meta property="og:description" content="American sour ales: tart beers soured with bacteria and wild yeast, often barrel-aged or fruited. How they taste and what to pair in India." />
-<meta property="og:image" content="https://craftbeerschool.in/assets/og-default.png" />
+<meta property="og:image" content="https://craftbeerschool.in/assets/og/style-american-sour.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="Craft Beer School, Grain to Glass. India's beer school." />
+<meta property="og:image:alt" content="American Sour: Style Guide | Craft Beer School" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="American Sour: Style Guide | Craft Beer School" />
 <meta name="twitter:description" content="American sour ales: tart beers soured with bacteria and wild yeast, often barrel-aged or fruited. How they taste and what to pair in India." />
-<meta name="twitter:image" content="https://craftbeerschool.in/assets/og-default.png" />
+<meta name="twitter:image" content="https://craftbeerschool.in/assets/og/style-american-sour.jpg" />
 <link rel="icon" href="/favicon.ico" sizes="32x32" />
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
@@ -51,7 +51,7 @@
 </header>
 <div class="mobile-cta">
   <a class="btn btn-amber" href="contact.html#enroll" data-cta="mobile-enroll">Enrol now</a>
-  <a class="btn btn-wa" href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%27d%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener" data-cta="mobile-whatsapp"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg> WhatsApp</a>
+  <a class="btn btn-wa" href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%20was%20reading%20about%20American%20Sour%20in%20your%20Style%20Library%20and%20have%20a%20question.%20%28https%3A//craftbeerschool.in/style-american-sour.html%29" target="_blank" rel="noopener" data-cta="mobile-whatsapp"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg> WhatsApp</a>
 </div>
 <main>
 
@@ -141,7 +141,7 @@ const a=document.querySelector('.style-step[data-key="'+(e.key==="ArrowLeft"?"pr
       <li><a href="contact.html#enroll" data-cta="footer-enroll">Enrol</a></li>
     </ul></div>
     <div><h4>Contact</h4><ul>
-      <li><a href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%27d%20like%20to%20know%20more%20about%20your%20courses." target="_blank" rel="noopener" data-cta="footer-whatsapp">WhatsApp us</a></li>
+      <li><a href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%20was%20reading%20about%20American%20Sour%20in%20your%20Style%20Library%20and%20have%20a%20question.%20%28https%3A//craftbeerschool.in/style-american-sour.html%29" target="_blank" rel="noopener" data-cta="footer-whatsapp">WhatsApp us</a></li>
       <li><a href="tel:+919820925347">+91 98209 25347</a></li>
       <li><a href="tel:+919082256507">+91 90822 56507</a></li>
       <li><a href="mailto:chatty@cheerschattyventures.com" data-cta="footer-email">chatty@cheerschattyventures.com</a></li>
@@ -179,6 +179,20 @@ if(wanted){
 document.addEventListener('click',e=>{
   const a=e.target.closest('[data-cta]');
   if(a&&window.gtag)gtag('event','cta_click',{cta:a.dataset.cta,link_url:a.getAttribute('href')||''});
+});
+
+// "WhatsApp instead" on a form carries whatever the person already typed,
+// so nobody has to repeat their name, course or question in the chat.
+document.querySelectorAll('form .btn-wa').forEach(a=>{
+  const base=a.getAttribute('href');
+  a.addEventListener('click',()=>{
+    const d=new FormData(a.closest('form'));
+    const lines=[['name','Name'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message']]
+      .map(([k,l])=>[l,String(d.get(k)||'').trim()]).filter(([,v])=>v).map(([l,v])=>l+': '+v);
+    if(!lines.length){a.href=base;return}
+    const [url,q]=base.split('?text=');
+    a.href=url+'?text='+encodeURIComponent(decodeURIComponent(q||'')+'\n\n'+lines.join('\n'));
+  });
 });
 
 document.querySelectorAll('form[data-formspree]').forEach(form=>{

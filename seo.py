@@ -7,6 +7,7 @@ a brewing course cost in India" can only cite a price it can parse, and it will
 not cite one that contradicts the visible page.
 """
 import json
+import pathlib
 
 import articles_all
 import pages_a
@@ -20,6 +21,13 @@ SITE_NAME = "Craft Beer School"
 TAGLINE = "Grain to Glass. India's beer school."
 LOGO = f"{SITE_URL}/assets/logo.png"
 OG_IMAGE = f"{SITE_URL}/assets/og-default.png"
+HERE_DIR = pathlib.Path(__file__).parent
+
+
+def og_image(slug):
+    """This page's own share card (made by make_og.py), or the house default."""
+    own = HERE_DIR / "assets/og" / (slug[:-5] + ".jpg")
+    return f"{SITE_URL}/assets/og/{own.name}" if slug.endswith(".html") and own.exists() else OG_IMAGE
 EMAIL = "chatty@cheerschattyventures.com"
 PHONE = "+91-98209-25347"
 CITY = "Bengaluru"
@@ -205,7 +213,7 @@ def _article_nodes(art, slug):
                     **({"image": f"{SITE_URL}/{art['author']['photo']}"} if art["author"].get("photo") else {})}
                    if art.get("author") else {"@id": f"{SITE_URL}/#organization"}),
         "publisher": {"@id": f"{SITE_URL}/#organization"},
-        "image": OG_IMAGE,
+        "image": og_image(slug),
         "about": ({"@type": "Person", "name": art["subject"]["name"],
                    "jobTitle": art["subject"]["role"],
                    "image": f"{SITE_URL}/{art['subject']['photo']}"}
@@ -266,14 +274,14 @@ def head_meta(slug, title, desc):
 <meta property="og:url" content="{canonical}" />
 <meta property="og:title" content="{safe_title}" />
 <meta property="og:description" content="{safe_desc}" />
-<meta property="og:image" content="{OG_IMAGE}" />
+<meta property="og:image" content="{og_image(slug)}" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content="{SITE_NAME}, {TAGLINE}" />
+<meta property="og:image:alt" content="{safe_title}" />
 <meta name="twitter:card" content="summary_large_image" />{tw}
 <meta name="twitter:title" content="{safe_title}" />
 <meta name="twitter:description" content="{safe_desc}" />
-<meta name="twitter:image" content="{OG_IMAGE}" />
+<meta name="twitter:image" content="{og_image(slug)}" />
 <link rel="icon" href="/favicon.ico" sizes="32x32" />
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />

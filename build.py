@@ -6,6 +6,7 @@ defined in pages_a.py / pages_b.py. Run `python3 build.py` to regenerate
 every .html file in this folder. Edit the shell here once; all pages update.
 """
 import datetime
+import html
 import os
 import pathlib
 import re
@@ -74,6 +75,21 @@ ENROLL_HREF = "contact.html#enroll"   # lands on the form, not the top of the pa
 
 def whatsapp_href(text=WHATSAPP_TEXT):
     return f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(text)}"
+
+
+def whatsapp_text(slug, title):
+    """Opening message that tells us which page the person tapped WhatsApp on."""
+    name = re.sub(r"\s*\|\s*Craft Beer School\s*$", "", html.unescape(title)).strip()
+    url = seo.url_for(slug)
+    if slug == "index.html":
+        return f"{WHATSAPP_TEXT} (from {url})"
+    if slug in COURSE_SLUGS:
+        return f"Hi Craft Beer School, I'd like to know more about the {name.replace(' Course', '')} course. ({url})"
+    if slug.startswith("style-") and slug != "style-library.html":
+        return f"Hi Craft Beer School, I was reading about {name.split(':')[0]} in your Style Library and have a question. ({url})"
+    if slug[:-5] in articles_all.SEGMENT or slug[:-5] in {a['slug'] for a in articles_all.ARTICLES}:
+        return f"Hi Craft Beer School, I was reading \"{name}\" and have a question. ({url})"
+    return f"Hi Craft Beer School, I was on your {name} page and have a question. ({url})"
 
 
 def enroll_href(course=None):
@@ -183,6 +199,20 @@ document.addEventListener('click',e=>{
   if(a&&window.gtag)gtag('event','cta_click',{cta:a.dataset.cta,link_url:a.getAttribute('href')||''});
 });
 
+// "WhatsApp instead" on a form carries whatever the person already typed,
+// so nobody has to repeat their name, course or question in the chat.
+document.querySelectorAll('form .btn-wa').forEach(a=>{
+  const base=a.getAttribute('href');
+  a.addEventListener('click',()=>{
+    const d=new FormData(a.closest('form'));
+    const lines=[['name','Name'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message']]
+      .map(([k,l])=>[l,String(d.get(k)||'').trim()]).filter(([,v])=>v).map(([l,v])=>l+': '+v);
+    if(!lines.length){a.href=base;return}
+    const [url,q]=base.split('?text=');
+    a.href=url+'?text='+encodeURIComponent(decodeURIComponent(q||'')+'\\n\\n'+lines.join('\\n'));
+  });
+});
+
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
@@ -245,7 +275,7 @@ def fill_ctas(html):
 
 
 def page(slug, title, desc, active, body):
-    return expand_icons(fill_ctas(f"""<!DOCTYPE html>
+    return _with_page_whatsapp(slug, title, expand_icons(fill_ctas(f"""<!DOCTYPE html>
 <html lang="en-IN">
 <head>
 <meta charset="UTF-8" />
@@ -268,7 +298,12 @@ def page(slug, title, desc, active, body):
 {FOOTER}
 {SCRIPTS}
 </body>
-</html>"""))
+</html>""")))
+
+
+def _with_page_whatsapp(slug, title, html_out):
+    """Every WhatsApp link on the page opens with a message naming this page."""
+    return html_out.replace(whatsapp_href(), whatsapp_href(whatsapp_text(slug, title)))
 
 
 ARTICLES = articles_all.ARTICLES
@@ -325,6 +360,7 @@ PAGES = {
 
 
 PAGES.update(course_pages.pages())
+COURSE_SLUGS = set(course_pages.pages())
 PAGES.update(style_render.pages(BY_SLUG))
 
 for _a in ARTICLES:
