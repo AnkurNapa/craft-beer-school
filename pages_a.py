@@ -221,7 +221,7 @@ HOME = f"""
       <span class="eyebrow">Corporate services</span>
       <h2 style="color:#fff">Training, hiring and consulting for the drinks business.</h2>
       <p style="color:rgba(255,255,255,.75)">For breweries, wineries and distilleries, for beverage GCCs in Bengaluru, Pune and Hyderabad, and for companies bringing beer, ingredients or packaging to India.</p>
-      <div class="cta-pair" style="margin-top:1.2rem"><a class="btn btn-amber" href="for-companies.html" data-cta="home-companies">See our services</a><a class="btn btn-ghost on-dark" href="contact.html#enroll" data-cta="home-companies-talk">Talk to us</a></div>
+      <div class="cta-pair" style="margin-top:1.2rem"><a class="btn btn-amber" href="for-companies.html" data-cta="home-companies">See our services</a><a class="btn btn-ghost on-dark" href="assets/craft-beer-school-corporate-services.pdf" download data-cta="home-companies-brochure">[[download]] Corporate brochure (PDF)</a></div>
     </div>
     <ul class="checklist on-dark reveal"><li>Corporate training for beverage GCCs</li><li>Hiring support for every function</li><li>Brand and digital marketing consultancy</li><li>Market entry into India for beer, ingredient and packaging companies</li><li>Digital transformation and AI</li></ul>
   </div>
