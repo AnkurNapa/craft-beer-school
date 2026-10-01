@@ -94,6 +94,7 @@ AUTHORS = [
     ("Written by", dict(name="Ankur Napa", role="Master Brewer and course instructor", photo="assets/ankur-napa.jpg")),
     ("Written by", dict(name="Chatty Girija", role="Beer podcaster and creative strategist", photo="assets/chatty-girija.jpg")),
 ]
+PAIRING_BY = dict(name="Anuradha Rao", role="Head of Strategy and Operations", photo="assets/anu-rao.jpg")
 READ_KEY = "cbs-styles-read"  # localStorage: slugs this reader has opened
 
 
@@ -159,6 +160,8 @@ def render(card, cards, guide_title):
     <h2 id="india">In India</h2>
     {card['in_india']}
     <h2 id="pairing">At the Indian table</h2>
+    <p class="pair-credit"><img src="{PAIRING_BY['photo']}" alt="{PAIRING_BY['name']}" width="36" height="36" loading="lazy">
+      <span>Food pairings contributed by <strong>{PAIRING_BY['name']}</strong></span></p>
     <ul class="style-pairs">{pairs}</ul>
     <h2 id="examples">Brewed in India</h2>
     {ex}
@@ -169,7 +172,7 @@ def render(card, cards, guide_title):
       {step(prev_c, "prev", "Previous style")}
       {step(next_c, "next", "Next style")}
     </nav>
-    <p class="style-backline"><a href="{back}" class="link-arrow" data-cta="style-back-bottom">Back to the Style Library</a> <span class="style-readcount"></span></p>
+    <p class="style-backline"><a href="{back}" class="style-back" data-cta="style-back-bottom">\u2190 Back to the Style Library</a> <span class="style-readcount"></span></p>
     <aside class="cta-band">
       <div><h3>Learn to taste and brew styles properly</h3>
       <p>Style Specialization walks through every major family with live tastings and a mentor, eight weekends, online.</p></div>
@@ -198,13 +201,13 @@ def index(cards):
         <span class="style-nums">{c['abv']} ABV · {c['ibu']} IBU</span>
       </a>""" for c in cards.values())
     return f"""
-<section style="padding:0">
+<section class="style-lib" style="padding:0">
   <div class="wrap"><div class="post-head">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <span>Style Library</span></nav>
     <span class="eyebrow">Style Library</span>
     <h1 class="post-title">{len(cards)} beer styles, explained for India</h1>
     <p class="lead">Colour, bitterness and strength at a glance, what each beer tastes like, how it holds up in our heat, and what to eat with it, from dal makhani to Goan prawn curry.</p>
-    {_byline(AUTHORS)}
+    {_byline(AUTHORS + [("Food pairings by", PAIRING_BY)])}
     <input class="style-search" type="search" placeholder="Search styles, e.g. stout, wheat, sour" aria-label="Search styles">
     <nav class="seg-nav style-filter" aria-label="Filter by family">{chips}</nav>
     <p class="style-progress" hidden><span></span> <a class="link-arrow" href="{next(iter(cards))}.html">Continue reading</a></p>
@@ -243,7 +246,8 @@ def home_teaser():
     cards = load_cards()
     glasses = "".join(
         f'<a class="shelf-glass" href="{s}.html" data-cta="home-style-glass">'
-        f'{glass_svg(cards[s]["glass"], cards[s]["srm"], 76, "home-" + s)}<span>{cards[s]["name"]}</span></a>'
+        f'<span class="shelf-slot">{glass_svg(cards[s]["glass"], cards[s]["srm"], 76, "home-" + s)}</span>'
+        f'<span class="shelf-name">{cards[s]["name"]}</span></a>'
         for s in SHOWCASE if s in cards)
     return f"""
 <section class="tint">
