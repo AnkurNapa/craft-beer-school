@@ -384,6 +384,30 @@ DETAIL = {
               "Scaling up, hygiene and FSSAI labelling. Rules change, so check the current ones"],
              "Plan a three-flavour range and a weekly brewing schedule."),
         ]),
+    "Non-Alcoholic Beer": dict(
+        reading=['mash-temperature-guide', 'dry-hopping-guide', 'pasteurisation-units'],
+        who=["Craft breweries adding a zero or low alcohol beer",
+             "Founders planning a non-alcoholic beer brand",
+             "Brewers who want to understand why most of them taste thin, and fix it"],
+        outcomes=["Choose the right route to a non-alcoholic beer for your kit and budget",
+                  "Design a recipe with real body and aroma and no worty taste",
+                  "Keep it safe on the shelf with pasteurisation, pH and hygiene",
+                  "Measure alcohol accurately and know which rules apply"],
+        weeks=[
+            ("Making beer without the alcohol",
+             ["Two routes: stop the alcohol forming, or remove it afterwards",
+              "Limited fermentation, high mash temperatures and yeasts that cannot ferment maltose",
+              "Vacuum distillation and membranes, and why they suit larger breweries",
+              "Body and aroma: speciality malts, oats, late and dry hops, and carbonation",
+              "Fixing the worty, sweet taste most first attempts have"],
+             "Design a non-alcoholic recipe for your kit, with a target ABV and a plan for body and aroma."),
+            ("Stability, testing and selling it",
+             ["With no alcohol to protect it, the beer needs pasteurisation, low oxygen and careful hygiene",
+              "Measuring alcohol accurately at these low levels",
+              "The ABV limit for calling a beer non-alcoholic is set by regulators and has changed, so check the current FSSAI rules",
+              "Where it can be sold, how to price it and who is buying it"],
+             "Write a stability, testing and launch plan for your non-alcoholic beer."),
+        ]),
 }
 
 

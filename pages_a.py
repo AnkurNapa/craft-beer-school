@@ -103,6 +103,10 @@ COURSE_DATA = [
          blurb="Brew kombucha safely and consistently, from tea, sugar and culture to flavoured, sparkling bottles for a cafe or taproom.",
          items=["Tea, sugar and the culture","Safe pH and clean brewing","Second ferment and flavour","Scaling up and labelling"],
          price="₹5,000", amount="5000"),
+    dict(no="17", tag="New · Non-alcoholic", dur="2 Weeks", weeks=2, name="Non-Alcoholic Beer",
+         blurb="Beer that still tastes like beer, without the alcohol: limited fermentation, special yeasts, body and aroma, and keeping it safe on the shelf.",
+         items=["Limited fermentation and special yeasts","Dealcoholisation, and when it makes sense","Body, aroma and avoiding a worty taste","Pasteurisation, testing and labelling"],
+         price="₹5,000", amount="5000"),
 ]
 
 COURSE_CARDS = [
@@ -122,7 +126,7 @@ TRACKS = [
     ("martini", "Spirits", "Distilling and gin, from wash to bottle.",
      ["Craft Distilling", "Craft Gin Making"]),
     ("glass-water", "Beyond beer", "Low, no and other ferments people are buying now.",
-     ["RTD Drinks: Alcoholic and Non-Alcoholic", "Hop Water", "Hard Seltzer", "Kombucha"]),
+     ["Non-Alcoholic Beer", "RTD Drinks: Alcoholic and Non-Alcoholic", "Hop Water", "Hard Seltzer", "Kombucha"]),
     ("map-pin", "Free &amp; in Bengaluru", "Start free, or learn in the room with us.",
      ["Safety in Brewing"]),
 ]
