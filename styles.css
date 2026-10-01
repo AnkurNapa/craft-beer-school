@@ -620,3 +620,14 @@ section.fam-group{padding:0}
   .feature.service p{margin:0;font-size:.9rem}
   .feature.service .link-arrow{padding-top:.3rem;font-size:.85rem}
 }
+
+/* Phones: tighter section rhythm, feature cards as compact rows, full-width CTA pairs */
+@media (max-width:680px){
+  section{padding-block:3rem}
+  .feature{display:grid;grid-template-columns:var(--icon-tile) 1fr;column-gap:.9rem;row-gap:.2rem;padding:1rem 1.1rem;align-items:start}
+  .feature .ic{grid-row:1/3;margin:0}
+  .feature h3{margin:0;font-size:1.02rem;line-height:1.3}
+  .feature p{margin:0;font-size:.92rem;line-height:1.5}
+  .features{gap:.6rem}
+  .prose-block .cta-pair .btn,.sec-head + .cta-pair .btn{flex:1 1 100%;justify-content:center}
+}
