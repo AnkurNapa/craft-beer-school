@@ -31,6 +31,8 @@
   --shadow:0 22px 60px -24px rgba(20,24,28,.22);
   --shadow-sm:0 2px 14px -6px rgba(20,24,28,.14);
   --radius:18px;
+  --icon-tile:48px;   /* one icon box size across the site */
+  --icon:24px;
 }
 ::selection{background:var(--amber);color:#fff}
 :focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:4px}
@@ -73,7 +75,7 @@ header nav{display:flex;align-items:center;justify-content:space-between;padding
 .brand-logo{height:46px;width:auto;display:block}
 .foot-logo{height:62px;width:auto;display:block}
 .ico{width:24px;height:24px;flex:none;display:block}
-.ic .ico{width:27px;height:27px;color:var(--navy)}
+.ic .ico{width:var(--icon);height:var(--icon);color:var(--navy)}
 .ph .ico{width:48px;height:48px;color:#fff}
 .navlinks{display:flex;gap:1.7rem;align-items:center;font-family:var(--head);font-weight:500;font-size:.92rem;letter-spacing:-.01em}
 .navlinks a{position:relative;padding-block:.3rem;color:var(--ink)}
@@ -151,7 +153,8 @@ section{padding-block:clamp(4.5rem,8vw,8rem)}
 .features{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
 .feature{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:1.8rem;transition:transform .4s var(--ease),box-shadow .4s}
 .feature:hover{transform:translateY(-4px);box-shadow:var(--shadow-sm)}
-.feature .ic{width:54px;height:54px;border-radius:14px;background:var(--mint);display:grid;place-items:center;font-size:1.5rem;margin-bottom:1.1rem}
+.ic{width:var(--icon-tile);height:var(--icon-tile);border-radius:12px;background:var(--mint);color:var(--navy);display:grid;place-items:center;flex:none}
+.feature .ic,.card-body > .ic{margin-bottom:1.1rem}
 .feature h3{font-size:1.15rem;margin-bottom:.4rem}
 .feature p{font-size:.92rem;color:var(--ink-soft)}
 
@@ -584,8 +587,6 @@ section.fam-group{padding:0}
 .tracks{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.2rem}
 .track{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:1.4rem 1.5rem 1rem;box-shadow:var(--shadow-sm)}
 .track-head{display:flex;gap:.9rem;align-items:flex-start;margin-bottom:.8rem}
-.track-head .ic{flex:none;width:44px;height:44px;border-radius:12px;background:var(--mint);color:var(--navy);display:grid;place-items:center}
-.track-head .ico{width:22px;height:22px}
 .track-head h3{font-size:1.15rem;margin:0 0 .15rem}
 .track-head p{margin:0;font-size:.9rem;color:var(--ink-soft);line-height:1.45}
 .track-list{list-style:none;margin:0;padding:0}

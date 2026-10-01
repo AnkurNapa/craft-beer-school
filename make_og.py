@@ -29,7 +29,7 @@ HERE = pathlib.Path(__file__).parent
 OUT = HERE / "assets/og"
 MANIFEST = OUT / "manifest.json"
 SKIP = {"index.html"}  # the home page keeps the hand-made og-default.png
-TEMPLATE_VERSION = "1"
+TEMPLATE_VERSION = "2"
 
 ARTICLES = {a["slug"]: a for a in articles_all.ARTICLES}
 CARDS = style_render.load_cards()
@@ -46,7 +46,7 @@ def spec(slug, title):
     key = slug[:-5]
     if key in CARDS:
         c = CARDS[key]
-        glass = style_render.glass_svg(c["glass"], c["srm"], 330, "og").replace('stroke-width="1.2"', 'stroke-width=".55"')
+        glass = style_render.glass_svg(c["glass"], c["srm"], 330, "og").replace('stroke-width="2"', 'stroke-width="5"')
         return (f"Style Library · {c['family']}", c["name"], f"{c['abv']} ABV · {c['ibu']} IBU", glass)
     if key in ARTICLES:
         a = ARTICLES[key]

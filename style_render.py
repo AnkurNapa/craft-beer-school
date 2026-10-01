@@ -46,12 +46,12 @@ def glass_svg(glass, srm, size=36, uid="g"):
     """The style's own glass, filled with an approximation of its colour under a foam head."""
     bowl, stem = GLASS_SHAPES.get(glass, GLASS_SHAPES["Pint"])
     w = round(size * 24 / 36)
-    stem_el = f'<path d="{stem}" fill="#e9eef0" stroke="currentColor" stroke-width="1.2"/>' if stem else ""
+    stem_el = f'<path d="{stem}" fill="#e9eef0" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>' if stem else ""
     return (f'<svg class="glassico" viewBox="0 0 24 36" width="{w}" height="{size}" aria-hidden="true">'
             f'<clipPath id="c-{uid}"><path d="{bowl}"/></clipPath>'
             f'<g clip-path="url(#c-{uid})"><rect width="24" height="36" fill="{srm_hex(srm)}"/>'
             f'<rect width="24" height="7" y="0" fill="#fff8ec"/><rect width="24" height="1" y="7" fill="#000" opacity=".08"/></g>'
-            f'{stem_el}<path d="{bowl}" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>')
+            f'{stem_el}<path d="{bowl}" fill="none" stroke="currentColor" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/></svg>')
 
 
 def _range(s):
