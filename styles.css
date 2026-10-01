@@ -558,3 +558,39 @@ section.fam-group{padding:0}
 /* Icons that sit inside a line of text match its size and colour. */
 .ico-arrow-right,.ico-arrow-left{display:inline-block;width:1em;height:1em;vertical-align:-.15em}
 .burger .ico{width:26px;height:26px}
+
+/* Course ticker under the nav, after the Beverage-AI Radar's events strip. */
+.ticker{background:var(--cloud);border-bottom:1px solid var(--line);font-size:.85rem;color:var(--ink-soft)}
+.ticker-inner{display:flex;gap:.8rem;align-items:center;padding-block:.5rem}
+.ticker-label{flex:none;display:inline-flex;align-items:center;gap:.45rem;font-family:var(--mono);font-size:.68rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--amber-deep);text-decoration:none}
+.ticker-label::before{content:"";width:.45rem;height:.45rem;border-radius:50%;background:currentColor;animation:ticker-pulse 2.4s ease-in-out infinite}
+@keyframes ticker-pulse{0%,100%{opacity:.3;transform:scale(.85)}50%{opacity:1;transform:scale(1)}}
+.ticker-viewport{flex:1 1 auto;min-width:0;overflow:hidden;
+  -webkit-mask-image:linear-gradient(to right,transparent 0,#000 2rem,#000 calc(100% - 2rem),transparent 100%);
+  mask-image:linear-gradient(to right,transparent 0,#000 2rem,#000 calc(100% - 2rem),transparent 100%)}
+.ticker-track{margin:0;display:flex;width:max-content;white-space:nowrap;animation:ticker-run var(--ticker-duration,60s) linear infinite}
+.ticker:hover .ticker-track,.ticker:focus-within .ticker-track{animation-play-state:paused}
+@keyframes ticker-run{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ticker-seq{flex:none;display:flex;align-items:baseline}
+.tick-item{display:inline-flex;align-items:baseline;gap:.45rem;padding-inline:1rem;border-left:1px solid var(--line)}
+.tick-item a{color:var(--navy);font-weight:700;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:3px;transition:text-decoration-color .15s}
+.tick-item a:hover,.tick-item a:focus-visible{text-decoration-color:currentColor}
+.tick-meta{font-size:.82em}
+.tick-badge{font-size:.68rem;font-weight:700;padding:.05rem .45rem;border-radius:999px;background:var(--mint);color:var(--navy)}
+@media (prefers-reduced-motion:reduce){.ticker-viewport{overflow-x:auto;-webkit-mask-image:none;mask-image:none}.ticker-seq[aria-hidden]{display:none}}
+@media (max-width:680px){.ticker{font-size:.8rem}.ticker-inner{padding-block:.4rem}}
+
+/* Home: every course grouped by track */
+.tracks{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.2rem}
+.track{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:1.4rem 1.5rem 1rem;box-shadow:var(--shadow-sm)}
+.track-head{display:flex;gap:.9rem;align-items:flex-start;margin-bottom:.8rem}
+.track-head .ic{flex:none;width:44px;height:44px;border-radius:12px;background:var(--mint);color:var(--navy);display:grid;place-items:center}
+.track-head .ico{width:22px;height:22px}
+.track-head h3{font-size:1.15rem;margin:0 0 .15rem}
+.track-head p{margin:0;font-size:.9rem;color:var(--ink-soft);line-height:1.45}
+.track-list{list-style:none;margin:0;padding:0}
+.track-list li{display:flex;justify-content:space-between;align-items:baseline;gap:.8rem;padding:.6rem 0;border-top:1px solid var(--line)}
+.track-list a{color:var(--navy);font-weight:700;text-decoration:none;line-height:1.35}
+.track-list a:hover,.track-list a:focus-visible{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.track-list span{flex:none;font-family:var(--mono);font-size:.7rem;color:var(--ink-soft);white-space:nowrap}
+@media (max-width:680px){.tracks{grid-template-columns:1fr;gap:.9rem}.track{padding:1.1rem 1.1rem .7rem}}

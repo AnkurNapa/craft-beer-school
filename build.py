@@ -31,6 +31,9 @@ ICONS = {
     "book": '<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/>',
     "calculator": '<rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/>',
     "wind": '<path d="M12.8 19.6A2 2 0 1 0 14 16H2"/><path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"/><path d="M9.8 4.4A2 2 0 1 1 11 8H2"/>',
+    "martini": '<path d="M8 22h8"/><path d="M12 11v11"/><path d="m19 3-7 8-7-8Z"/>',
+    "glass-water": '<path d="M5.116 4.104A1 1 0 0 1 6.11 3h11.78a1 1 0 0 1 .994 1.105L17.19 20.21A2 2 0 0 1 15.2 22H8.8a2 2 0 0 1-2-1.79z"/><path d="M6 12a5 5 0 0 1 6 0 5 5 0 0 0 6 0"/>',
+    "map-pin": '<path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/>',
     "arrow-right": '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
     "arrow-left": '<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>',
     "menu": '<line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/>',
@@ -116,6 +119,25 @@ ANNOUNCE = ('<div class="announce">Now enrolling, the ₹999 intro session is op
             '<a href="courses.html">See all courses [[arrow-right]]</a></div>')
 
 
+def course_ticker():
+    """Running strip of every course under the nav, like the Beverage-AI Radar's
+    events line. The sequence is emitted twice and slides exactly -50%, so the
+    loop is seamless; the copy is aria-hidden and out of the tab order."""
+    def item(c, copy):
+        tab = ' tabindex="-1"' if copy else ""
+        badge = ("Free" if c["amount"] == "0" else "New" if c["tag"].startswith("New") else "")
+        badge_html = f'<span class="tick-badge">{badge}</span>' if badge else ""
+        return (f'<span class="tick-item"><a href="{pages_a.course_href(c["name"])}"{tab}>{c["name"]}</a>'
+                f'<span class="tick-meta">{c["dur"]} · {c["price"]}</span>{badge_html}</span>')
+    seq = lambda copy: "".join(item(c, copy) for c in pages_a.COURSE_DATA)
+    return f"""<aside class="ticker" aria-label="Our courses">
+  <div class="wrap ticker-inner">
+    <a class="ticker-label" href="courses.html">Courses</a>
+    <div class="ticker-viewport"><p class="ticker-track"><span class="ticker-seq">{seq(False)}</span><span class="ticker-seq" aria-hidden="true">{seq(True)}</span></p></div>
+  </div>
+</aside>"""
+
+
 def nav(active):
     def item(label, href, key):
         cls = ' class="active"' if key == active else ''
@@ -133,6 +155,7 @@ def nav(active):
     <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">[[menu]]</button>
   </nav>
 </header>
+{course_ticker()}
 <div class="mobile-cta">
   <a class="btn btn-amber" href="{ENROLL_HREF}" data-cta="mobile-enroll">Enrol now</a>
   <a class="btn btn-wa" href="{whatsapp_href()}" target="_blank" rel="noopener" data-cta="mobile-whatsapp">[[whatsapp]] WhatsApp</a>
@@ -184,6 +207,11 @@ const FORMSPREE_ID="__FID__";
 const ENQUIRY_EMAIL="__EMAIL__";
 const SUPABASE_URL="__SBURL__";
 const SUPABASE_ANON_KEY="__SBKEY__";
+
+// Course ticker: about 60px a second whatever the number of courses.
+(()=>{const t=document.querySelector('.ticker-track');if(!t)return;
+requestAnimationFrame(()=>{const w=t.querySelector('.ticker-seq').getBoundingClientRect().width;
+t.style.setProperty('--ticker-duration',Math.min(160,Math.max(25,Math.round(w/60)))+'s');});})();
 
 // Remember the last page read before the enquiry form, so a lead arrives
 // with "came from the Irish Dry Stout page", not just "contact.html".
@@ -358,7 +386,7 @@ _BLOG_BANNER = pages_a.BLOG.split("<section", 1)[0]
 
 PAGES = {
     "index.html":     ("Craft Beer School | Brewing Courses in India, Grain to Glass",
-                        "India's trusted online and in-person beer school. Learn brewing, tasting, branding and the business of beer, grain to glass. WSET & Cicerone prep.",
+                        "India's online and in-person beer school. Brewing, tasting, branding and business, plus spirits, AI for breweries, kombucha and hop water.",
                         "home", pages_a.HOME),
     "about.html":     ("About Us | Craft Beer School",
                         "Better beer education brews better beer. Meet Craft Beer School, India's grain-to-glass beer school, our mentors, mission and method.",

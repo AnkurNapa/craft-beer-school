@@ -82,6 +82,27 @@ COURSE_DATA = [
          blurb="From wash to bottle: stills, cuts, gin botanicals, ageing in Indian heat, and the licences a craft distillery needs.",
          items=["Wash, stills and the run","Heads, hearts and tails","Gin and botanicals","Ageing, costs and licensing"],
          price="₹9,999", amount="9999"),
+    dict(no="12", tag="New · Spirits", dur="4 Weeks", weeks=4, name="Craft Gin Making",
+         blurb="Design and make a gin of your own: juniper and botanicals, the still run, proofing, and getting a bottle to market in India.",
+         items=["What makes a gin a gin","Botanicals, including Indian ones","Distilling, cuts and proofing","Brand, costing and licences"],
+         price="₹9,999", amount="9999"),
+    dict(no="13", tag="New · RTD", dur="2 Weeks", weeks=2, name="RTD Drinks: Alcoholic and Non-Alcoholic",
+         short="RTD Drinks Course",
+         blurb="Ready-to-drink cans and bottles, with and without alcohol: formulation, sweetness and acid, carbonation, shelf life and the rules.",
+         items=["Formulating for flavour and balance","Spirit, malt and sugar bases","Carbonation, canning and shelf life","Excise and FSSAI labelling"],
+         price="₹5,000", amount="5000"),
+    dict(no="14", tag="New · Non-alcoholic", dur="2 Weeks", weeks=2, name="Hop Water",
+         blurb="Sparkling water with all the aroma of hops and none of the alcohol. Make it on brewery kit and keep it stable on the shelf.",
+         items=["Choosing hops for aroma","Cold steeping, oils and extracts","pH, carbonation and stability","Selling a zero-alcohol line"],
+         price="₹5,000", amount="5000"),
+    dict(no="15", tag="New · Seltzer", dur="2 Weeks", weeks=2, name="Hard Seltzer",
+         blurb="A clean, dry sugar ferment turned into a light, fruity seltzer: base, yeast nutrition, clarity, flavour and the rules in India.",
+         items=["Sugar base and yeast nutrition","A clean, neutral fermentation","Clarity, flavour and acid","Packaging and excise"],
+         price="₹5,000", amount="5000"),
+    dict(no="16", tag="New · Ferments", dur="2 Weeks", weeks=2, name="Kombucha",
+         blurb="Brew kombucha safely and consistently, from tea, sugar and culture to flavoured, sparkling bottles for a cafe or taproom.",
+         items=["Tea, sugar and the culture","Safe pH and clean brewing","Second ferment and flavour","Scaling up and labelling"],
+         price="₹5,000", amount="5000"),
 ]
 
 COURSE_CARDS = [
@@ -89,7 +110,56 @@ COURSE_CARDS = [
     for c in COURSE_DATA
 ]
 C1, C2, C3 = COURSE_CARDS[:3]
-_WORDS = {6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten", 11: "eleven", 12: "twelve", 13: "thirteen", 14: "fourteen", 15: "fifteen"}
+
+# Home page tracks. Every course must sit in exactly one, so a new course can
+# never go missing from the home page: the assert below stops the build.
+TRACKS = [
+    ("beer", "Brewing", "From your first batch to judging-level palate.",
+     ["Brewing Fundamentals", "Advanced Brewing Science", "Style Specialisation", "Sensory Evaluation"]),
+    ("briefcase", "Business &amp; tech", "Run, market and modernise a brewery.",
+     ["Brewery Business Management", "Beer Branding &amp; Packaging", "AI for Craft Breweries",
+      "Digital Transformation Basics for Brewing", "ESG in Craft Brewing"]),
+    ("martini", "Spirits", "Distilling and gin, from wash to bottle.",
+     ["Craft Distilling", "Craft Gin Making"]),
+    ("glass-water", "Beyond beer", "Low, no and other ferments people are buying now.",
+     ["RTD Drinks: Alcoholic and Non-Alcoholic", "Hop Water", "Hard Seltzer", "Kombucha"]),
+    ("map-pin", "Free &amp; in Bengaluru", "Start free, or learn in the room with us.",
+     ["Safety in Brewing"]),
+]
+_by_name = {c["name"]: c for c in COURSE_DATA}
+_placed = [n for *_, names in TRACKS for n in names]
+assert sorted(_placed) == sorted(_by_name), f"courses missing from TRACKS: {set(_by_name) - set(_placed)}"
+
+
+def _track_course(c):
+    return (f'<li><a href="{course_href(c["name"])}">{c["name"]}</a>'
+            f'<span>{c["dur"]} · {c["price"]}</span></li>')
+
+
+def tracks_section():
+    tiles = []
+    for icon, title, line, names in TRACKS:
+        items = "".join(_track_course(_by_name[n]) for n in names)
+        if title.startswith("Free"):
+            items += ('<li><a href="courses.html#in-person">Professional Beer Tasting Day</a><span>1 Day · ₹4,999</span></li>'
+                      '<li><a href="courses.html#in-person">Brewery Business Tour</a><span>Half day · On enquiry</span></li>'
+                      '<li><a href="courses.html#in-person">More hands-on workshops</a><span>Bengaluru</span></li>')
+        tiles.append(f"""<article class="track reveal">
+        <div class="track-head"><span class="ic">[[{icon}]]</span><div><h3>{title}</h3><p>{line}</p></div></div>
+        <ul class="track-list">{items}</ul>
+      </article>""")
+    return f"""
+<section class="sand" id="tracks">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Every course</span>
+      <h2>Find your track.</h2>
+      <p class="lead">{len(COURSE_DATA)} live online courses across brewing, business, spirits and the drinks beyond beer, plus a free safety course and hands-on days in Bengaluru.</p></div>
+    <div class="tracks">{"".join(tiles)}</div>
+  </div>
+</section>
+"""
+_WORDS = {6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten", 11: "eleven", 12: "twelve", 13: "thirteen",
+          14: "fourteen", 15: "fifteen", 16: "sixteen", 17: "seventeen", 18: "eighteen", 19: "nineteen", 20: "twenty"}
 COURSE_COUNT_WORD = _WORDS.get(len(COURSE_DATA), str(len(COURSE_DATA)))
 
 # ============================================================================
@@ -99,7 +169,7 @@ HOME = f"""
     <div class="hero-copy reveal">
       <span class="eyebrow">India · Online &amp; In-Person</span>
       <h1 class="display">Brew like<br>you <span class="script">mean it.</span></h1>
-      <p class="lead">India's trusted beer school. We teach everything inside and outside the bottle, ingredients, brewing, tasting, branding and the business of beer. Live sessions, guided tastings and hands-on brewery workshops.</p>
+      <p class="lead">India's trusted beer school. We teach everything inside and outside the bottle: brewing, tasting, branding and the business of beer, and now spirits, AI for breweries and the drinks beyond beer. Live online sessions, guided tastings and hands-on days in Bengaluru.</p>
       <div class="hero-cta">
         <a href="courses.html" class="btn btn-amber">Explore courses [[arrow-right]]</a>
         <div class="sticker"><b>₹999</b><small>Intro session · all in</small></div>
@@ -130,10 +200,10 @@ HOME = f"""
       <p class="lead">Each course blends theory with real practice, small groups, one-on-one mentorship, industry experts.</p>
     </div>
     <div class="grid-3">{C1}{C2}{C3}</div>
-    <div style="margin-top:2rem"><a href="courses.html" class="link-arrow">See all {COURSE_COUNT_WORD} courses &amp; in-person workshops</a></div>
+    <div style="margin-top:2rem"><a href="#tracks" class="link-arrow">See all {COURSE_COUNT_WORD} courses by track</a></div>
   </div>
 </section>
-{style_render.home_teaser()}
+{tracks_section()}{style_render.home_teaser()}
 
 <section class="navy-sec">
   <div class="wrap">
@@ -251,7 +321,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
   </div>
 </section>
 
-<section class="tint">
+<section class="tint" id="in-person">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">In person</span><h2>Hands-on workshops &amp; tastings.</h2><p class="lead">Prefer to learn at the bench? Join us in the room.</p></div>
     <div class="grid-2">
