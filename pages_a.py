@@ -164,7 +164,7 @@ def tracks_section():
       <h2>Find your track.</h2>
       <p class="lead">{len(COURSE_DATA)} live online courses across brewing, business, spirits and the drinks beyond beer, plus a free safety course and hands-on days in Bengaluru.</p></div>
     <div class="tracks">{"".join(tiles)}</div>
-    <div style="margin-top:2rem"><a href="assets/craft-beer-school-prospectus.pdf" class="btn btn-ghost" download data-cta="prospectus-download">Download the prospectus (PDF)</a></div>
+    <div style="margin-top:2rem"><a href="prospectus.html" class="btn btn-ghost" data-cta="prospectus-download">Read the prospectus</a></div>
   </div>
 </section>
 """
@@ -182,7 +182,7 @@ HOME = f"""
       <p class="lead">India's trusted beer school. We teach everything inside and outside the bottle: brewing, tasting, branding and the business of beer, and now spirits, AI for breweries and the drinks beyond beer. Live online sessions, guided tastings and hands-on days in Bengaluru.</p>
       <div class="hero-cta">
         <a href="courses.html" class="btn btn-amber">Explore courses [[arrow-right]]</a>
-        <a href="assets/craft-beer-school-prospectus.pdf" class="btn btn-ghost" download data-cta="hero-prospectus">[[download]] Prospectus (PDF)</a>
+        <a href="prospectus.html" class="btn btn-ghost" data-cta="hero-prospectus">Read the prospectus</a>
         <div class="sticker"><b>₹999</b><small>Intro session · all in</small></div>
       </div>
     </div>
@@ -221,7 +221,7 @@ HOME = f"""
       <span class="eyebrow">Corporate services</span>
       <h2 style="color:#fff">Training, hiring and consulting for the drinks business.</h2>
       <p style="color:rgba(255,255,255,.75)">For breweries, wineries and distilleries, for beverage GCCs in Bengaluru, Pune and Hyderabad, and for companies bringing beer, ingredients or packaging to India.</p>
-      <div class="cta-pair" style="margin-top:1.2rem"><a class="btn btn-amber" href="for-companies.html" data-cta="home-companies">See our services</a><a class="btn btn-ghost on-dark" href="assets/craft-beer-school-corporate-services.pdf" download data-cta="home-companies-brochure">[[download]] Corporate brochure (PDF)</a></div>
+      <div class="cta-pair" style="margin-top:1.2rem"><a class="btn btn-amber" href="for-companies.html" data-cta="home-companies">See our services</a><a class="btn btn-ghost on-dark" href="corporate-brochure.html" data-cta="home-companies-brochure">Corporate brochure</a></div>
     </div>
     <ul class="checklist on-dark reveal"><li>Corporate training for beverage GCCs</li><li>Hiring support for every function</li><li>Brand and digital marketing consultancy</li><li>Market entry into India for beer, ingredient and packaging companies</li><li>Digital transformation and AI</li></ul>
   </div>
@@ -339,7 +339,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
     "From your first pint to your professional journey. Simple, clear and full of real-world learning, online and in person.") + f"""
 <section>
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Online courses</span><h2>{COURSE_COUNT_WORD.capitalize()} pours from grain to glass.</h2><div style="margin-top:1.2rem"><a href="assets/craft-beer-school-prospectus.pdf" class="btn btn-amber" download data-cta="prospectus-download">[[download]] Download the prospectus (PDF)</a></div></div>
+    <div class="sec-head"><span class="eyebrow">Online courses</span><h2>{COURSE_COUNT_WORD.capitalize()} pours from grain to glass.</h2><div style="margin-top:1.2rem"><a href="prospectus.html" class="btn btn-amber" data-cta="prospectus-download">Read the prospectus</a></div></div>
     <div class="grid-3">{"".join(COURSE_CARDS)}</div>
   </div>
 </section>

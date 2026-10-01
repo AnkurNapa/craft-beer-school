@@ -20,6 +20,7 @@ import seo
 import style_render
 import companies
 import photos
+import brochure_pages
 
 # --- Consistent inline icon set (Lucide, MIT). Use [[name]] in page bodies. ---
 ICONS = {
@@ -122,7 +123,7 @@ NAV_ITEMS = [
 
 ANNOUNCE = ('<div class="announce">Now enrolling, the ₹999 intro session is open. '
             '<a href="courses.html">See all courses [[arrow-right]]</a>'
-            '<span class="announce-sep">·</span><a href="assets/craft-beer-school-prospectus.pdf" download data-cta="announce-prospectus">[[download]] Download prospectus</a></div>')
+            '<span class="announce-sep">·</span><a href="prospectus.html" data-cta="announce-prospectus">Read the prospectus</a></div>')
 
 
 def course_ticker():
@@ -179,14 +180,14 @@ FOOTER = """
       <li><a href="courses.html">Courses</a></li>
       <li><a href="resources.html">Resources</a></li>
       <li><a href="style-library.html">Style Library</a></li>
-      <li><a href="assets/craft-beer-school-prospectus.pdf" download data-cta="footer-prospectus">Prospectus (PDF)</a></li>
+      <li><a href="prospectus.html" data-cta="footer-prospectus">Prospectus</a></li>
       <li><a href="blog.html">Blog &amp; Podcasts</a></li>
       <li><a href="faq.html">FAQ</a></li>
     </ul></div>
     <div><h4>School</h4><ul>
       <li><a href="about.html">About us</a></li>
       <li><a href="for-companies.html">Corporate services</a></li>
-      <li><a href="assets/craft-beer-school-corporate-services.pdf" download data-cta="footer-brochure">Corporate brochure (PDF)</a></li>
+      <li><a href="corporate-brochure.html" data-cta="footer-brochure">Corporate brochure</a></li>
       <li><a href="careers.html">Careers &amp; Mentors</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="__ENROLL__" data-cta="footer-enroll">Enrol</a></li>
@@ -431,6 +432,7 @@ PAGES.update(course_pages.pages())
 COURSE_SLUGS = set(course_pages.pages())
 PAGES.update(style_render.pages(BY_SLUG))
 PAGES[companies.SLUG] = companies.PAGE
+PAGES.update(brochure_pages.pages())
 PAGES[photos.CREDITS] = ("Image Credits | Craft Beer School",
                          "Credits and licences for the free-licence photographs used on Craft Beer School.",
                          "", photos.credits_page())

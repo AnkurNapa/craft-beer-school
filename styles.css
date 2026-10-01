@@ -664,3 +664,8 @@ section.fam-group{padding:0}
 .announce .ico{display:inline-block;width:1em;height:1em;vertical-align:-.15em}
 .btn .ico-download{width:1.05em;height:1.05em}
 .hero-cta{flex-wrap:wrap}
+
+/* Read-online brochures */
+.bro{max-width:860px;display:grid;gap:1.4rem}
+.bro-page{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 10px 40px -18px rgba(20,24,28,.35);border:1px solid var(--line)}
+@media (max-width:680px){.bro{gap:.9rem}}
