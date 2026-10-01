@@ -4,6 +4,7 @@
 import re
 
 import style_render
+import photos
 from urllib.parse import quote
 
 
@@ -150,7 +151,9 @@ def tracks_section():
             items += ('<li><a href="courses.html#in-person">Professional Beer Tasting Day</a><span>1 Day · ₹4,999</span></li>'
                       '<li><a href="courses.html#in-person">Brewery Business Tour</a><span>Half day · On enquiry</span></li>'
                       '<li><a href="courses.html#in-person">More hands-on workshops</a><span>Bengaluru</span></li>')
-        tiles.append(f"""<article class="track reveal">
+        slot = {"Brewing": "track:brewing", "Business &amp; tech": "track:business", "Spirits": "track:spirits",
+                "Beyond beer": "track:beyond"}.get(title, "track:bengaluru")
+        tiles.append(f"""<article class="track reveal">{photos.figure(slot, title, "photo track-photo")}
         <div class="track-head"><span class="ic">[[{icon}]]</span><div><h3>{title}</h3><p>{line}</p></div></div>
         <ul class="track-list">{items}</ul>
       </article>""")
@@ -161,6 +164,7 @@ def tracks_section():
       <h2>Find your track.</h2>
       <p class="lead">{len(COURSE_DATA)} live online courses across brewing, business, spirits and the drinks beyond beer, plus a free safety course and hands-on days in Bengaluru.</p></div>
     <div class="tracks">{"".join(tiles)}</div>
+    <div style="margin-top:2rem"><a href="assets/craft-beer-school-prospectus.pdf" class="btn btn-ghost" download data-cta="prospectus-download">Download the prospectus (PDF)</a></div>
   </div>
 </section>
 """
@@ -334,7 +338,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
     "From your first pint to your professional journey. Simple, clear and full of real-world learning, online and in person.") + f"""
 <section>
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Online courses</span><h2>{COURSE_COUNT_WORD.capitalize()} pours from grain to glass.</h2></div>
+    <div class="sec-head"><span class="eyebrow">Online courses</span><h2>{COURSE_COUNT_WORD.capitalize()} pours from grain to glass.</h2><div style="margin-top:1.2rem"><a href="assets/craft-beer-school-prospectus.pdf" class="btn btn-ghost" download data-cta="prospectus-download">Download the prospectus (PDF)</a></div></div>
     <div class="grid-3">{"".join(COURSE_CARDS)}</div>
   </div>
 </section>

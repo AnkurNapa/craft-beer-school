@@ -19,6 +19,7 @@ import pages_b
 import seo
 import style_render
 import companies
+import photos
 
 # --- Consistent inline icon set (Lucide, MIT). Use [[name]] in page bodies. ---
 ICONS = {
@@ -176,6 +177,7 @@ FOOTER = """
       <li><a href="courses.html">Courses</a></li>
       <li><a href="resources.html">Resources</a></li>
       <li><a href="style-library.html">Style Library</a></li>
+      <li><a href="assets/craft-beer-school-prospectus.pdf" download data-cta="footer-prospectus">Prospectus (PDF)</a></li>
       <li><a href="blog.html">Blog &amp; Podcasts</a></li>
       <li><a href="faq.html">FAQ</a></li>
     </ul></div>
@@ -191,7 +193,7 @@ FOOTER = """
       <li><a href="tel:+919820925347">+91 98209 25347</a></li>
       <li><a href="tel:+919082256507">+91 90822 56507</a></li>
       <li><a href="mailto:__EMAIL__" data-cta="footer-email">__EMAIL__</a></li>
-      <li><a href="privacy.html">Privacy</a> · <a href="refund.html">Refunds</a></li>
+      <li><a href="privacy.html">Privacy</a> · <a href="refund.html">Refunds</a> · <a href="image-credits.html">Image credits</a></li>
     </ul></div>
   </div>
   <div class="wrap foot-bottom">
@@ -426,6 +428,9 @@ PAGES.update(course_pages.pages())
 COURSE_SLUGS = set(course_pages.pages())
 PAGES.update(style_render.pages(BY_SLUG))
 PAGES[companies.SLUG] = companies.PAGE
+PAGES[photos.CREDITS] = ("Image Credits | Craft Beer School",
+                         "Credits and licences for the free-licence photographs used on Craft Beer School.",
+                         "", photos.credits_page())
 
 for _a in ARTICLES:
     PAGES[f"{_a['slug']}.html"] = (

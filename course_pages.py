@@ -11,6 +11,7 @@ import re
 import article_render
 import articles_all
 import pages_a
+import photos
 from pages_a import banner, course_href as slug_for, enroll_href
 
 # Shared across every course, straight from the 2026 brochure.
@@ -457,6 +458,7 @@ def render(c):
 </section>
 
 <section>
+  <div class="wrap">{photos.figure("course:" + slug_for(c["name"])[:-len("-course.html")], c["name"] + " course", "photo wide")}</div>
   <div class="wrap split" style="align-items:start">
     <div class="prose-block reveal"><span class="eyebrow">Who it is for</span><h2>Is this for you?</h2><ul class="checklist">{who}</ul></div>
     <div class="prose-block reveal"><span class="eyebrow">By the end</span><h2>What you walk away with.</h2><ul class="checklist">{out}</ul></div>

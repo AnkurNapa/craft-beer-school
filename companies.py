@@ -6,6 +6,7 @@ Team facts here must match what the About page already says about the
 mentors. Do not add employers, numbers or claims that are not on the site.
 """
 from pages_a import banner, enroll_href
+import photos
 
 SLUG = "for-companies.html"
 TRAINING_HREF = enroll_href("Corporate training")
@@ -85,6 +86,7 @@ BODY = banner(
       <div class="cta-pair" style="margin-top:1.4rem"><a class="btn btn-amber" href="{TRAINING_HREF}" data-cta="companies-training">Plan a programme</a><a class="btn btn-wa" href="__WA__" target="_blank" rel="noopener" data-cta="companies-whatsapp">[[whatsapp]] WhatsApp us</a></div>
     </div>
     <div class="prose-block reveal">
+      {photos.figure("service:training", "A guided tasting session")}
       <span class="eyebrow">Who it is for</span>
       <ul class="checklist">{"".join(f"<li>{w}</li>" for w in TRAINING_FOR)}</ul>
       <span class="eyebrow" style="display:block;margin-top:1.6rem">Formats</span>
@@ -111,6 +113,7 @@ BODY = banner(
       <div class="cta-pair" style="margin-top:1.4rem"><a class="btn btn-amber" href="{HIRING_HREF}" data-cta="companies-hiring">Tell us the role</a></div>
     </div>
     <div class="prose-block reveal">
+      {photos.figure("service:hiring", "A brewer at work")}
       <span class="eyebrow">How it works</span>
       <ol class="co-steps">{"".join(f"<li><h3>{t}</h3><p>{d}</p></li>" for t, d in HIRING_STEPS)}</ol>
     </div>
@@ -127,6 +130,7 @@ BODY = banner(
       <div class="cta-pair" style="margin-top:1.4rem"><a class="btn btn-amber" href="{BRAND_HREF}" data-cta="companies-brand">Talk about your brand</a></div>
     </div>
     <div class="prose-block reveal">
+      {photos.figure("service:brand", "Beer bottles on a shelf")}
       <span class="eyebrow">What we do</span>
       <ul class="checklist"><li>Brand strategy, positioning and naming</li><li>Label and packaging direction</li><li>Launch plans for a new beer or brand</li><li>Social media and content, including GenAI workflows</li><li>Digital marketing that respects alcohol advertising rules</li><li>Taproom marketing, events and community</li></ul>
     </div>
@@ -143,6 +147,7 @@ BODY = banner(
       <div class="cta-pair" style="margin-top:1.4rem"><a class="btn btn-amber" href="{ENTRY_HREF}" data-cta="companies-india">Plan your entry</a></div>
     </div>
     <div class="prose-block reveal">
+      {photos.figure("service:india", "A barley field")}
       <span class="eyebrow">What we do</span>
       <ul class="checklist"><li>A read of the market for your product: who buys it, where and why</li><li>A state-by-state map of the rules that apply to you</li><li>Finding partners: contract brewers, importers, distributors and agents</li><li>Introductions to breweries, maltsters and buyers</li><li>Pricing and route to market</li><li>Launch support and training for your local team</li></ul>
     </div>
@@ -159,6 +164,7 @@ BODY = banner(
       <div class="cta-pair" style="margin-top:1.4rem"><a class="btn btn-amber" href="{DIGITAL_HREF}" data-cta="companies-digital">Start with a conversation</a></div>
     </div>
     <div class="prose-block reveal">
+      {photos.figure("service:digital", "Brewery tanks")}
       <span class="eyebrow">What we do</span>
       <ul class="checklist"><li>Mapping how production, stock and sales run today</li><li>Choosing brewery management or ERP software, or staying with spreadsheets</li><li>Dashboards for production, quality, stock and sales</li><li>Sensors and logging on fermenters and cold rooms</li><li>AI use cases worth doing, and the ones to skip</li><li>A 90-day roadmap and help delivering it</li></ul>
     </div>
