@@ -7,6 +7,24 @@ FAQ block that doubles as FAQPage schema, and links to sibling articles. The
 CTA is part of the template, so no article can ship without a way to enrol.
 """
 
+import pathlib
+
+THUMB_DIR = pathlib.Path(__file__).parent / "assets/og/thumb"
+
+
+def thumb(slug, alt):
+    """Card image: the article's own share card, scaled down. Empty if not made yet."""
+    if not (THUMB_DIR / f"{slug}.jpg").exists():
+        return ""
+    return (f'<img class="thumb" src="assets/og/thumb/{slug}.jpg" srcset="{SRCSET.format(slug=slug)}" '
+            f'sizes="{SIZES}" alt="{alt}" width="600" height="315" loading="lazy" decoding="async" />')
+
+
+# Sharp on high-density phones: they pick the full share card, desktops the 600px copy.
+SRCSET = "assets/og/thumb/{slug}.jpg 600w, assets/og/{slug}.jpg 1200w"
+SIZES = "(max-width: 680px) 92vw, 360px"
+
+
 BREADCRUMB = ('<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a>'
               ' / <a href="blog.html">Blog</a> / <span>{title}</span></nav>')
 
@@ -51,7 +69,7 @@ def _related(article, by_slug):
     if not links:
         return ""
     cards = "".join(f"""
-      <article class="card reveal"><div class="card-body">
+      <article class="card reveal">{thumb(a['slug'], a['h1'])}<div class="card-body">
         <span class="cat">{a['cat']}</span>
         <h3>{a['h1']}</h3>
         <p>{a['teaser']}</p>
@@ -120,7 +138,7 @@ def render(article, by_slug):
 
 def _card(a):
     return f"""
-      <article class="card reveal">
+      <article class="card reveal">{thumb(a['slug'], a['h1'])}
         <div class="card-body">
           <span class="cat">{a['cat']}</span>
           <h3>{a['h1']}</h3>

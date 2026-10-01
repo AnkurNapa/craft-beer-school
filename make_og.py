@@ -100,6 +100,22 @@ def render_html(eyebrow, title, pill, glass):
             .replace("__LOGO__", LOGO_URI))
 
 
+THUMBS = OUT / "thumb"
+
+
+def make_thumbs():
+    """600px copies of each share card, used as card images on the blog."""
+    from PIL import Image
+    THUMBS.mkdir(exist_ok=True)
+    for src in OUT.glob("*.jpg"):
+        dst = THUMBS / src.name
+        if not dst.exists() or dst.stat().st_mtime < src.stat().st_mtime:
+            Image.open(src).resize((600, 315), Image.LANCZOS).save(dst, quality=82, optimize=True)
+    for dst in THUMBS.glob("*.jpg"):
+        if not (OUT / dst.name).exists():
+            dst.unlink()
+
+
 def main(force=False):
     OUT.mkdir(parents=True, exist_ok=True)
     seen = json.loads(MANIFEST.read_text()) if MANIFEST.exists() and not force else {}
@@ -127,6 +143,7 @@ def main(force=False):
                 if i % 25 == 0:
                     print(f"  {i}/{len(jobs)}")
             browser.close()
+    make_thumbs()
     live = {s for s in build.PAGES if s not in SKIP}
     for f in OUT.glob("*.jpg"):  # drop images for pages that no longer exist
         if f.stem + ".html" not in live:
