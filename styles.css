@@ -680,3 +680,15 @@ section.fam-group{padding:0}
   body:has(.bro) .banner .display{font-size:2rem}
   body:has(.bro) .banner p{font-size:.95rem;margin-top:.4rem}
 }
+
+/* Home: stats band under the hero */
+.statband{display:grid;grid-template-columns:repeat(4,1fr);background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);overflow:hidden}
+.sb{display:flex;gap:.9rem;align-items:flex-start;padding:1.4rem 1.3rem;text-decoration:none;color:var(--ink);transition:background .2s}
+.sb + .sb{border-left:1px solid var(--line)}
+.sb:hover,.sb:focus-visible{background:var(--sand)}
+.sb b{display:block;font-family:var(--head);font-weight:800;font-size:1.9rem;line-height:1;color:var(--navy)}
+.sb span:not(.ic){display:block;margin-top:.35rem;font-weight:700;font-size:.95rem}
+.sb em{display:block;font-style:normal;font-size:.82rem;color:var(--ink-soft);margin-top:.15rem;line-height:1.4}
+@media (max-width:960px){.statband{grid-template-columns:1fr 1fr}.sb:nth-child(3){border-left:0}.sb:nth-child(n+3){border-top:1px solid var(--line)}}
+@media (max-width:680px){.statband{grid-template-columns:1fr 1fr}.sb{flex-direction:column;gap:.6rem;padding:1rem}.sb b{font-size:1.5rem}.sb em{display:none}}
+.hero{padding-bottom:clamp(2rem,4vw,3rem)}

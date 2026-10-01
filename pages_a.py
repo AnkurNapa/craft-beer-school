@@ -194,11 +194,11 @@ HOME = f"""
 
 <section style="padding-block:0">
   <div class="wrap">
-    <div class="stats reveal">
-      <div class="stat"><b>{len(COURSE_DATA)}</b><span>Career-grade courses</span></div>
-      <div class="stat"><b>1:1</b><span>Expert mentorship</span></div>
-      <div class="stat"><b>WSET</b><span>+ Cicerone prep</span></div>
-      <div class="stat"><b>∞</b><span>Grain to glass</span></div>
+    <div class="statband reveal">
+      <a class="sb" href="courses.html" data-cta="stat-courses"><span class="ic">[[cap]]</span><div><b>{len(COURSE_DATA)}</b><span>Live online courses</span><em>Brewing, business, spirits and more</em></div></a>
+      <a class="sb" href="style-library.html" data-cta="stat-styles"><span class="ic">[[beer]]</span><div><b>80</b><span>Beer styles explained</span><em>Free in the Style Library</em></div></a>
+      <a class="sb" href="courses.html" data-cta="stat-batch"><span class="ic">[[users]]</span><div><b>Max 20</b><span>Students per batch</span><em>Live weekend classes, mentor-led</em></div></a>
+      <a class="sb" href="courses.html#wset" data-cta="stat-wset"><span class="ic">[[award]]</span><div><b>WSET</b><span>+ Cicerone exam prep</span><em>Group or one-to-one</em></div></a>
     </div>
   </div>
 </section>
