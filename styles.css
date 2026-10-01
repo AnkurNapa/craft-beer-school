@@ -669,3 +669,14 @@ section.fam-group{padding:0}
 .bro{max-width:860px;display:grid;gap:1.4rem}
 .bro-page{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 10px 40px -18px rgba(20,24,28,.35);border:1px solid var(--line)}
 @media (max-width:680px){.bro{gap:.9rem}}
+.bro-link{display:block;cursor:zoom-in}
+.bro-hint{margin:0;font-size:.85rem;color:var(--ink-soft)}
+@media (max-width:680px){
+  .bro-sec{padding-top:1.2rem}
+  .bro{padding-inline:0}
+  .bro-hint{padding-inline:1rem}
+  .bro-page{border-radius:0;border-inline:0;box-shadow:none;border-block:1px solid var(--line)}
+  body:has(.bro) .banner{padding-block:1.6rem 1.4rem}
+  body:has(.bro) .banner .display{font-size:2rem}
+  body:has(.bro) .banner p{font-size:.95rem;margin-top:.4rem}
+}
