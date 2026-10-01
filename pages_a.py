@@ -2,6 +2,8 @@
 """Page bodies: Home, About, Courses, Resources, Blog."""
 
 import re
+
+import style_render
 from urllib.parse import quote
 
 
@@ -107,6 +109,7 @@ HOME = f"""
     <div style="margin-top:2rem"><a href="courses.html" class="link-arrow">See all six courses &amp; in-person workshops</a></div>
   </div>
 </section>
+{style_render.home_teaser()}
 
 <section class="navy-sec">
   <div class="wrap">
@@ -259,7 +262,7 @@ RESOURCES = banner("Resources","Free beer education","Start learning today, on t
   <div class="wrap">
     <div class="grid-3">
       <article class="card reveal"><div class="ph amber">[[book-open]]</div><div class="card-body"><span class="cat">Start here</span><h3>Beer 101</h3><p>What is craft beer? Ingredients, the four pillars, and how a beer is actually made, grain to glass in plain English.</p><div class="foot"><a href="contact.html#enroll" class="link-arrow" data-cta="get-the-crash-course">Get the crash course</a></div></div></article>
-      <article class="card reveal"><div class="ph mint">[[beer]]</div><div class="card-body"><span class="cat">Reference</span><h3>Beer Styles Primer</h3><p>IPAs, stouts, lagers, sours and Belgian ales, origins, flavour signatures and what to expect in the glass.</p><div class="foot"><a href="courses.html" class="link-arrow">Explore styles</a></div></div></article>
+      <article class="card reveal"><div class="ph mint">[[beer]]</div><div class="card-body"><span class="cat">Reference</span><h3>Beer Style Library</h3><p>80 styles from pilsner to barley wine: colour, bitterness, strength, the right glass, and Indian food pairings for each.</p><div class="foot"><a href="style-library.html" class="link-arrow" data-cta="resources-style-library">Open the Style Library</a></div></div></article>
       <article class="card reveal"><div class="ph">[[book]]</div><div class="card-body"><span class="cat">Reference</span><h3>Brewing Glossary</h3><p>ABV, IBU, OG/FG, attenuation, lauter, dry hop, the words brewers use, defined clearly.</p><div class="foot"><a href="#glossary" class="link-arrow">Jump to glossary</a></div></div></article>
       <article class="card reveal"><div class="ph mint">[[calculator]]</div><div class="card-body"><span class="cat">Tool · App</span><h3>Indian Brewing Calculator</h3><p>ABV, attenuation and recipe math built for Indian brewing, check your numbers before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/indian-brewing-calculator/" class="link-arrow" target="_blank" rel="noopener">Open the calculator</a></div></div></article>
       <article class="card reveal"><div class="ph amber">[[wind]]</div><div class="card-body"><span class="cat">Tool · App</span><h3>Aroma Forge</h3><p>Predict a beer's aroma by superimposing digitised Weyermann malt aroma wheels, see how your grain bill smells before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/aroma-forge/" class="link-arrow" target="_blank" rel="noopener">Open Aroma Forge</a></div></div></article>

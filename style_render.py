@@ -233,6 +233,31 @@ const a=pr.querySelector('a');if(nxt){{a.href=nxt.getAttribute('href');a.textCon
 """
 
 
+SHOWCASE = ["style-german-style-pilsner", "style-german-style-hefeweizen", "style-new-england-ipa",
+            "style-belgian-style-tripel", "style-belgian-style-saison", "style-irish-style-dry-stout",
+            "style-german-style-kolsch", "style-british-style-barley-wine-ale"]
+
+
+def home_teaser():
+    """Home page strip: a row of real glasses that each open their style."""
+    cards = load_cards()
+    glasses = "".join(
+        f'<a class="shelf-glass" href="{s}.html" data-cta="home-style-glass">'
+        f'{glass_svg(cards[s]["glass"], cards[s]["srm"], 76, "home-" + s)}<span>{cards[s]["name"]}</span></a>'
+        for s in SHOWCASE if s in cards)
+    return f"""
+<section class="tint">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">New · Free Style Library</span>
+      <h2>{len(cards)} beer styles, explained for India.</h2>
+      <p class="lead">Colour, bitterness and strength at a glance, the right glass, and what to eat with each one, from vada pav to Goan prawn curry. Pick a glass to start.</p></div>
+    <div class="shelf">{glasses}</div>
+    <div style="margin-top:2rem"><a href="{INDEX}" class="btn btn-amber" data-cta="home-style-library">Browse all {len(cards)} styles</a></div>
+  </div>
+</section>
+"""
+
+
 def pages(articles_by_slug):
     """(filename -> (title, desc, active, body)) for build.py."""
     cards = load_cards()
@@ -240,8 +265,8 @@ def pages(articles_by_slug):
         return {}
     out = {INDEX: ("Beer Style Library, 80 Styles for India | Craft Beer School",
                    "Every major beer style at a glance: colour, bitterness, strength, taste, and Indian food pairings, written by working brewers.",
-                   "resources", index(cards))}
+                   "styles", index(cards))}
     for c in cards.values():
         g = articles_by_slug.get(c.get("guide") or "")
-        out[f"{c['slug']}.html"] = (c["title"], c["desc"], "resources", render(c, cards, g and g["h1"]))
+        out[f"{c['slug']}.html"] = (c["title"], c["desc"], "styles", render(c, cards, g and g["h1"]))
     return out
