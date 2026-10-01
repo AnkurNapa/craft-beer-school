@@ -27,7 +27,12 @@ def credit(r):
             f'<a href="{r["page"]}" target="_blank" rel="noopener nofollow">{html.escape(r["licence"])}</a>, Wikimedia Commons')
 
 
+SHOW_ON_SITE = False  # photos are used in the prospectus PDF only, by request
+
+
 def figure(slot, alt, cls="photo", eager=False):
+    if not SHOW_ON_SITE:
+        return ""
     r = _all().get(slot)
     if not r:
         return ""
@@ -53,8 +58,8 @@ def credits_page():
 <section class="banner"><div class="wrap">
   <div class="crumbs"><a href="index.html">Home</a> / Image credits</div>
   <span class="eyebrow">Image credits</span>
-  <h1 class="display">Photos on this site.</h1>
-  <p>The photographs on Craft Beer School come from Wikimedia Commons under free licences. Thank you to the photographers.</p>
+  <h1 class="display">Photos in our prospectus.</h1>
+  <p>The photographs in the Craft Beer School prospectus come from Wikimedia Commons under free licences. Thank you to the photographers.</p>
 </div></section>
 <section><div class="wrap">
   <p style="max-width:62ch;color:var(--ink-soft)">Each photo has been cropped and resized for the web. Photos under a Creative Commons ShareAlike licence remain under that licence as modified; the licence link for each is below. Beer glass illustrations and course share images are our own.</p>
