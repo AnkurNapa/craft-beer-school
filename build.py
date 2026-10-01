@@ -182,6 +182,18 @@ const ENQUIRY_EMAIL="__EMAIL__";
 const SUPABASE_URL="__SBURL__";
 const SUPABASE_ANON_KEY="__SBKEY__";
 
+// Remember the last page read before the enquiry form, so a lead arrives
+// with "came from the Irish Dry Stout page", not just "contact.html".
+const here=location.pathname.replace(/^\//,'')||'index.html';
+let cameFrom=here;
+try{
+  if(here!=='contact.html')sessionStorage.setItem('cbs-from',here);
+  else cameFrom=sessionStorage.getItem('cbs-from')||(document.referrer.startsWith(location.origin)?new URL(document.referrer).pathname.replace(/^\//,''):'')||here;
+}catch(_){}
+document.querySelectorAll('form[data-formspree]').forEach(f=>{
+  const h=document.createElement('input');h.type='hidden';h.name='came_from';h.value=location.origin+'/'+cameFrom;f.appendChild(h);
+});
+
 // Pre-select the course when arriving from a course card: contact.html?course=...
 const wanted=new URLSearchParams(location.search).get('course');
 if(wanted){
@@ -205,7 +217,7 @@ document.querySelectorAll('form .btn-wa').forEach(a=>{
   const base=a.getAttribute('href');
   a.addEventListener('click',()=>{
     const d=new FormData(a.closest('form'));
-    const lines=[['name','Name'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message']]
+    const lines=[['name','Name'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message'],['came_from','Came from']]
       .map(([k,l])=>[l,String(d.get(k)||'').trim()]).filter(([,v])=>v).map(([l,v])=>l+': '+v);
     if(!lines.length){a.href=base;return}
     const [url,q]=base.split('?text=');
@@ -242,7 +254,7 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
           name:d.get('name'), phone:d.get('phone'), email:d.get('email'),
           course:d.get('course')||null, city:d.get('city')||null,
           promo:d.get('promo')||null, message:d.get('message')||null,
-          source_page:location.pathname.replace(/^\//,'')||'index.html'
+          source_page:(cameFrom===here?here:cameFrom+' > '+here).slice(0,200)
         };
         const r=await fetch(SUPABASE_URL+"/rest/v1/applications",{
           method:'POST',
@@ -301,9 +313,25 @@ def page(slug, title, desc, active, body):
 </html>""")))
 
 
+def page_course(slug):
+    """The course a reader on this page most likely wants, or None."""
+    by_href = {pages_a.course_href(c["name"]): c["name"] for c in pages_a.COURSE_DATA}
+    if slug in by_href:
+        return by_href[slug]
+    if slug.startswith("style-"):
+        return by_href.get(style_render.COURSE)
+    art = BY_SLUG.get(slug[:-5])
+    return by_href.get(art["cta"]["href"]) if art else None
+
+
 def _with_page_whatsapp(slug, title, html_out):
-    """Every WhatsApp link on the page opens with a message naming this page."""
-    return html_out.replace(whatsapp_href(), whatsapp_href(whatsapp_text(slug, title)))
+    """Every WhatsApp link opens with a message naming this page, and every
+    generic Enrol button carries the course this page is about."""
+    html_out = html_out.replace(whatsapp_href(), whatsapp_href(whatsapp_text(slug, title)))
+    course = page_course(slug)
+    if course:
+        html_out = html_out.replace(f'href="{ENROLL_HREF}"', f'href="{pages_a.enroll_href(course)}"')
+    return html_out
 
 
 ARTICLES = articles_all.ARTICLES

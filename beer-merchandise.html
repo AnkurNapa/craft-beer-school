@@ -44,13 +44,13 @@
     <a href="index.html" class="brand" aria-label="Craft Beer School home"><img src="assets/logo.png" alt="Craft Beer School" class="brand-logo" width="118" height="146" /></a>
     <div class="navlinks" id="navlinks">
       <a href="index.html">Home</a><a href="about.html">About</a><a href="courses.html">Courses</a><a href="resources.html">Resources</a><a href="style-library.html">Styles</a><a href="blog.html" class="active">Blog</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a>
-      <a href="contact.html#enroll" class="nav-cta" data-cta="nav-enroll">Enrol</a>
+      <a href="contact.html?course=Beer%20Branding%20%26%20Packaging#enroll" class="nav-cta" data-cta="nav-enroll">Enrol</a>
     </div>
     <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">☰</button>
   </nav>
 </header>
 <div class="mobile-cta">
-  <a class="btn btn-amber" href="contact.html#enroll" data-cta="mobile-enroll">Enrol now</a>
+  <a class="btn btn-amber" href="contact.html?course=Beer%20Branding%20%26%20Packaging#enroll" data-cta="mobile-enroll">Enrol now</a>
   <a class="btn btn-wa" href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%20was%20reading%20%22Brewery%20Merchandise%20That%20Sells%22%20and%20have%20a%20question.%20%28https%3A//craftbeerschool.in/beer-merchandise.html%29" target="_blank" rel="noopener" data-cta="mobile-whatsapp"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></svg> WhatsApp</a>
 </div>
 <main>
@@ -157,7 +157,7 @@
       <li><a href="about.html">About us</a></li>
       <li><a href="careers.html">Careers &amp; Mentors</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="contact.html#enroll" data-cta="footer-enroll">Enrol</a></li>
+      <li><a href="contact.html?course=Beer%20Branding%20%26%20Packaging#enroll" data-cta="footer-enroll">Enrol</a></li>
     </ul></div>
     <div><h4>Contact</h4><ul>
       <li><a href="https://wa.me/919820925347?text=Hi%20Craft%20Beer%20School%2C%20I%20was%20reading%20%22Brewery%20Merchandise%20That%20Sells%22%20and%20have%20a%20question.%20%28https%3A//craftbeerschool.in/beer-merchandise.html%29" target="_blank" rel="noopener" data-cta="footer-whatsapp">WhatsApp us</a></li>
@@ -183,6 +183,18 @@ const ENQUIRY_EMAIL="chatty@cheerschattyventures.com";
 const SUPABASE_URL="";
 const SUPABASE_ANON_KEY="";
 
+// Remember the last page read before the enquiry form, so a lead arrives
+// with "came from the Irish Dry Stout page", not just "contact.html".
+const here=location.pathname.replace(/^\//,'')||'index.html';
+let cameFrom=here;
+try{
+  if(here!=='contact.html')sessionStorage.setItem('cbs-from',here);
+  else cameFrom=sessionStorage.getItem('cbs-from')||(document.referrer.startsWith(location.origin)?new URL(document.referrer).pathname.replace(/^\//,''):'')||here;
+}catch(_){}
+document.querySelectorAll('form[data-formspree]').forEach(f=>{
+  const h=document.createElement('input');h.type='hidden';h.name='came_from';h.value=location.origin+'/'+cameFrom;f.appendChild(h);
+});
+
 // Pre-select the course when arriving from a course card: contact.html?course=...
 const wanted=new URLSearchParams(location.search).get('course');
 if(wanted){
@@ -206,7 +218,7 @@ document.querySelectorAll('form .btn-wa').forEach(a=>{
   const base=a.getAttribute('href');
   a.addEventListener('click',()=>{
     const d=new FormData(a.closest('form'));
-    const lines=[['name','Name'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message']]
+    const lines=[['name','Name'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message'],['came_from','Came from']]
       .map(([k,l])=>[l,String(d.get(k)||'').trim()]).filter(([,v])=>v).map(([l,v])=>l+': '+v);
     if(!lines.length){a.href=base;return}
     const [url,q]=base.split('?text=');
@@ -243,7 +255,7 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
           name:d.get('name'), phone:d.get('phone'), email:d.get('email'),
           course:d.get('course')||null, city:d.get('city')||null,
           promo:d.get('promo')||null, message:d.get('message')||null,
-          source_page:location.pathname.replace(/^\//,'')||'index.html'
+          source_page:(cameFrom===here?here:cameFrom+' > '+here).slice(0,200)
         };
         const r=await fetch(SUPABASE_URL+"/rest/v1/applications",{
           method:'POST',

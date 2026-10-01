@@ -35,7 +35,8 @@ for name, html in PAGES.items():
 
 # 2. Every page offers an enrol path that lands on the form itself.
 for name, html in PAGES.items():
-    if "contact.html#enroll" not in html and 'id="enroll"' not in html:
+    # A course-carrying link (contact.html?course=...#enroll) points at the same form.
+    if not re.search(r'contact\.html(\?course=[^"#]+)?#enroll', html) and 'id="enroll"' not in html:
         errors += fail(f"{name} has no enrol CTA pointing at the form")
 
 # 3. Every page offers a WhatsApp path (the highest-intent channel for India).
