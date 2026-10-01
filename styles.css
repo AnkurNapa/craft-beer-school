@@ -263,22 +263,20 @@ footer.site a:hover{color:#fff}
 .btn-wa:hover{background:#17724b;transform:translateY(-2px);box-shadow:var(--shadow-sm)}
 .btn-wa .ico{width:1.05em;height:1.05em}
 
-/* Phone tab bar: app-style navigation along the bottom on small screens. */
-.tabbar{display:none}
+/* Hidden by default; only earns its place on small screens where the nav
+   Enroll link is folded away behind the burger. */
+.mobile-cta{display:none}
 @media(max-width:680px){
-  .tabbar{display:grid;grid-template-columns:repeat(3,46px) 1fr 1fr;gap:.35rem;align-items:center;position:fixed;left:0;right:0;bottom:0;z-index:60;
-    padding:.35rem .4rem calc(.35rem + env(safe-area-inset-bottom));background:rgba(255,255,255,.94);
-    backdrop-filter:saturate(180%) blur(16px);-webkit-backdrop-filter:saturate(180%) blur(16px);border-top:1px solid rgba(18,60,74,.12)}
-  .tab{display:flex;flex-direction:column;align-items:center;gap:.2rem;padding:.35rem 0;color:var(--ink-soft);text-decoration:none;font-size:.68rem;font-weight:600;border-radius:12px;-webkit-tap-highlight-color:transparent}
-  .tab .ico{width:22px;height:22px}
-  .tab.on{color:var(--navy)}
-  .tab.on .ico{stroke-width:2.4}
-  .tab:active{background:var(--cloud)}
-  .tab{font-size:.6rem}
-  .tab-cta{justify-content:center;padding:.62rem .5rem;font-size:.86rem;white-space:nowrap;gap:.35rem}
-  .tab-cta .ico{width:18px;height:18px}
-  /* Keep the tab bar from covering the last of the footer. */
-  body{padding-bottom:calc(4.4rem + env(safe-area-inset-bottom))}
+  .mobile-cta{
+    display:flex;gap:.5rem;position:fixed;left:0;right:0;bottom:0;z-index:60;
+    padding:.6rem .8rem calc(.6rem + env(safe-area-inset-bottom));
+    background:rgba(255,255,255,.92);backdrop-filter:blur(10px);
+    border-top:1px solid rgba(18,60,74,.12);
+  }
+  .mobile-cta .btn{flex:1;justify-content:center;padding:.7rem .9rem;font-size:.92rem}
+  /* Keep the sticky bar from covering the last of the footer. */
+  body{padding-bottom:4.5rem}
+  body:has(#enroll) .mobile-cta{display:none}
 }
 /* Anchor targets clear the sticky header instead of hiding under it. */
 [id]{scroll-margin-top:5rem}
@@ -560,4 +558,3 @@ section.fam-group{padding:0}
 /* Icons that sit inside a line of text match its size and colour. */
 .ico-arrow-right,.ico-arrow-left{display:inline-block;width:1em;height:1em;vertical-align:-.15em}
 .burger .ico{width:26px;height:26px}
-@media (max-width:359px){.tabbar{grid-template-columns:repeat(3,40px) 1fr 1fr}.tab span{display:none}.tab-cta{font-size:.8rem;padding:.6rem .35rem}.tab-cta .ico{display:none}}

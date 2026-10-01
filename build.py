@@ -34,8 +34,6 @@ ICONS = {
     "arrow-right": '<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>',
     "arrow-left": '<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>',
     "menu": '<line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/>',
-    "house": '<path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>',
-    "user-plus": '<path d="M2 21a8 8 0 0 1 13.292-6"/><circle cx="10" cy="8" r="5"/><path d="M19 16v6"/><path d="M22 19h-6"/>',
     "whatsapp": '<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/>',
     "sliders": '<line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/>',
 }
@@ -123,10 +121,6 @@ def nav(active):
         cls = ' class="active"' if key == active else ''
         return f'<a href="{href}"{cls}>{label}</a>'
     links = "".join(item(*i) for i in NAV_ITEMS)
-
-    def tab(href, icon, label, key):
-        on = ' on" aria-current="page' if key == active else ""
-        return f'<a class="tab{on}" href="{href}">[[{icon}]]<span>{label}</span></a>'
     return f"""{ANNOUNCE}
 <div class="rainbow"></div>
 <header>
@@ -139,13 +133,10 @@ def nav(active):
     <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">[[menu]]</button>
   </nav>
 </header>
-<nav class="tabbar" aria-label="Quick navigation">
-  {tab("index.html", "house", "Home", "home")}
-  {tab("courses.html", "cap", "Courses", "courses")}
-  {tab("style-library.html", "beer", "Styles", "styles")}
-  <a class="btn btn-amber tab-cta" href="{ENROLL_HREF}" data-cta="mobile-enroll">Enrol now</a>
-  <a class="btn btn-wa tab-cta" href="{whatsapp_href()}" target="_blank" rel="noopener" data-cta="mobile-whatsapp">[[whatsapp]] WhatsApp</a>
-</nav>"""
+<div class="mobile-cta">
+  <a class="btn btn-amber" href="{ENROLL_HREF}" data-cta="mobile-enroll">Enrol now</a>
+  <a class="btn btn-wa" href="{whatsapp_href()}" target="_blank" rel="noopener" data-cta="mobile-whatsapp">[[whatsapp]] WhatsApp</a>
+</div>"""
 
 
 FOOTER = """
