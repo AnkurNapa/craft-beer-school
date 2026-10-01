@@ -274,8 +274,6 @@ footer.site a:hover{color:#fff}
     border-top:1px solid rgba(18,60,74,.12);
   }
   .mobile-cta .btn{flex:1;justify-content:center;padding:.7rem .9rem;font-size:.92rem}
-  .mobile-cta{transition:transform .3s var(--ease)}
-  .mobile-cta.mcta-hide{transform:translateY(110%)}
   /* Keep the sticky bar from covering the last of the footer. */
   body{padding-bottom:4.5rem}
   body:has(#enroll) .mobile-cta{display:none}

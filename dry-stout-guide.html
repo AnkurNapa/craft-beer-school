@@ -187,14 +187,6 @@ const ENQUIRY_EMAIL="chatty@cheerschattyventures.com";
 const SUPABASE_URL="";
 const SUPABASE_ANON_KEY="";
 
-// The phone Enrol/WhatsApp bar gets out of the way while someone reads:
-// it slides off as they scroll down and comes back on scroll up or at the end.
-(()=>{const bar=document.querySelector('.mobile-cta');if(!bar)return;let last=scrollY,ticking=false;
-addEventListener('scroll',()=>{if(ticking)return;ticking=true;requestAnimationFrame(()=>{
-  const y=scrollY,atEnd=innerHeight+y>=document.documentElement.scrollHeight-80;
-  if(atEnd||y<last-6||y<120)bar.classList.remove('mcta-hide');else if(y>last+6)bar.classList.add('mcta-hide');
-  last=y;ticking=false;})},{passive:true});})();
-
 // Remember the last page read before the enquiry form, so a lead arrives
 // with "came from the Irish Dry Stout page", not just "contact.html".
 const here=location.pathname.replace(/^\//,'')||'index.html';
