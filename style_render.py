@@ -98,6 +98,14 @@ PAIRING_BY = dict(name="Anuradha Rao", role="Head of Strategy and Operations", p
 READ_KEY = "cbs-styles-read"  # localStorage: slugs this reader has opened
 
 
+def credit_strip(with_pairing=False):
+    """Phone-sized credits: overlapping faces and one line of names."""
+    people = [a for _, a in AUTHORS] + ([PAIRING_BY] if with_pairing else [])
+    faces = "".join(f'<img src="{x["photo"]}" alt="" width="30" height="30" loading="lazy">' for x in people)
+    text = "By Ankur Napa and Chatty Girija" + (", food pairings by Anuradha Rao" if with_pairing else "")
+    return f'<p class="credit-strip"><span class="faces">{faces}</span><span>{text}</span></p>'
+
+
 def _nav(card, cards):
     """Where this card sits: family position, overall position, prev and next in library order."""
     order = list(cards)
@@ -141,13 +149,14 @@ def render(card, cards, guide_title):
     </div>
     <h1 class="post-title style-h1"><span class="glass-fig">{glass_svg(card['glass'], card['srm'], 88, 'h')}<small>{card['glass']}</small></span><span>{card['name']}</span></h1>
     <p class="lead">{card['tagline']}</p>
-    {_byline(AUTHORS)}
+    {_byline(AUTHORS)}{credit_strip()}
   </div>
   <div class="wrap post-body">
     <section class="style-stats" aria-label="Style numbers">
       {_bar('srm', card['srm'])}{_bar('ibu', card['ibu'])}{_bar('abv', card['abv'])}
       <p class="style-serve">Serve in a <strong>{card['glass'].lower()}</strong> at <strong>{card['serve_c']} °C</strong></p>
     </section>
+    <nav class="style-jump" aria-label="On this page"><a href="#taste">Taste</a><a href="#profile">Profile</a><a href="#india">In India</a><a href="#pairing">Food</a><a href="#examples">Brewed here</a></nav>
     <h2 id="taste">What it tastes like</h2>
     {card['tastes']}
     <h2 id="profile">Style profile</h2>
@@ -194,12 +203,17 @@ def index(cards):
     fams = list(dict.fromkeys(c["family"] for c in cards.values()))
     chips = '<button class="seg-chip on" data-fam="">All</button>' + "".join(
         f'<button class="seg-chip" data-fam="{f}">{f}</button>' for f in fams)
-    tiles = "".join(f"""
+    tile = lambda c: f"""
       <a class="style-tile" id="{c['slug']}" href="{c['slug']}.html" data-fam="{c['family']}" data-name="{c['name'].lower()}">
         <span class="glass-fig">{glass_svg(c['glass'], c['srm'], 60, c['slug'])}<small>{c['glass']}</small></span>
-        <span class="cat">{c['family']}</span><strong>{c['name']}</strong>
+        <strong>{c['name']}</strong>
         <span class="style-nums">{c['abv']} ABV · {c['ibu']} IBU</span>
-      </a>""" for c in cards.values())
+      </a>"""
+    tiles = "".join(f"""
+    <section class="fam-group" data-fam="{f}">
+      <h2 class="fam-head">{f} <span>{sum(1 for c in cards.values() if c['family'] == f)} styles</span></h2>
+      <div class="style-grid">{"".join(tile(c) for c in cards.values() if c["family"] == f)}</div>
+    </section>""" for f in fams)
     return f"""
 <section class="style-lib" style="padding:0">
   <div class="wrap"><div class="post-head">
@@ -207,25 +221,26 @@ def index(cards):
     <span class="eyebrow">Style Library</span>
     <h1 class="post-title">{len(cards)} beer styles, explained for India</h1>
     <p class="lead">Colour, bitterness and strength at a glance, what each beer tastes like, how it holds up in our heat, and what to eat with it, from dal makhani to Goan prawn curry.</p>
-    {_byline(AUTHORS + [("Food pairings by", PAIRING_BY)])}
+    {_byline(AUTHORS + [("Food pairings by", PAIRING_BY)])}{credit_strip(True)}
     <input class="style-search" type="search" placeholder="Search styles, e.g. stout, wheat, sour" aria-label="Search styles">
     <nav class="seg-nav style-filter" aria-label="Filter by family">{chips}</nav>
     <p class="style-progress" hidden><span></span> <a class="link-arrow" href="{next(iter(cards))}.html">Continue reading</a></p>
   </div></div>
 </section>
-<section style="padding-top:1rem"><div class="wrap"><div class="style-grid">{tiles}</div></div></section>
+<section style="padding-top:1rem"><div class="wrap">{tiles}</div></section>
 <script>
 (()=>{{const t=[...document.querySelectorAll('.style-tile')],q=document.querySelector('.style-search'),
 btns=[...document.querySelectorAll('.style-filter button')];let fam='';
 const save=()=>{{const h=new URLSearchParams();if(fam)h.set('fam',fam);if(q.value.trim())h.set('q',q.value.trim());
 history.replaceState(null,'',h.toString()?'#'+h:location.pathname)}};
 const go=()=>{{const s=q.value.trim().toLowerCase();btns.forEach(x=>x.classList.toggle('on',x.dataset.fam===fam));
-t.forEach(e=>e.hidden=!((!fam||e.dataset.fam===fam)&&(!s||e.dataset.name.includes(s)||e.dataset.fam.toLowerCase().includes(s))))}};
+t.forEach(e=>e.hidden=!((!fam||e.dataset.fam===fam)&&(!s||e.dataset.name.includes(s)||e.dataset.fam.toLowerCase().includes(s))));
+document.querySelectorAll('.fam-group').forEach(g=>g.hidden=!g.querySelector('.style-tile:not([hidden])'))}};
 q.addEventListener('input',()=>{{go();save()}});
 btns.forEach(b=>b.addEventListener('click',()=>{{fam=b.dataset.fam;go();save()}}));
 const h=location.hash.slice(1);
 if(h.includes('=')){{const p=new URLSearchParams(h);fam=p.get('fam')||'';q.value=p.get('q')||'';go()}}
-else if(h){{const tile=document.getElementById(h);if(tile){{tile.scrollIntoView({{block:'center'}});tile.classList.add('flash');tile.focus({{preventScroll:true}})}}}}
+else if(h){{const tile=document.getElementById(h);if(tile){{tile.scrollIntoView({{block:'center',behavior:'instant'}});tile.classList.add('flash')}}}}
 let r=[];try{{r=JSON.parse(localStorage.getItem("{READ_KEY}")||"[]")}}catch(_){{}}
 t.forEach(e=>e.classList.toggle('read',r.includes(e.id)));
 const pr=document.querySelector('.style-progress'),nxt=t.find(e=>!r.includes(e.id));
