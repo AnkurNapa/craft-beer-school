@@ -76,7 +76,7 @@ def _related(article, by_slug):
         <div class="foot"><a href="{a['slug']}.html" class="link-arrow" data-cta="related-article">Read</a></div>
       </div></article>""" for a in links)
     return f"""
-<section class="tint">
+<section class="tint related">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Keep reading</span><h2>Related guides</h2></div>
     <div class="grid-3">{cards}</div>
