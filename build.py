@@ -19,6 +19,7 @@ import pages_b
 import seo
 import style_render
 import companies
+import mentors
 import photos
 import brochure_pages
 
@@ -436,6 +437,7 @@ PAGES.update(course_pages.pages())
 COURSE_SLUGS = set(course_pages.pages())
 PAGES.update(style_render.pages(BY_SLUG))
 PAGES[companies.SLUG] = companies.PAGE
+PAGES.update(mentors.pages())
 PAGES.update(brochure_pages.pages())
 PAGES[photos.CREDITS] = ("Image Credits | Craft Beer School",
                          "Credits and licences for the free-licence photographs used on Craft Beer School.",

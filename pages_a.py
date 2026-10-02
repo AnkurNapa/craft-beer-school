@@ -291,6 +291,7 @@ def banner(crumb, eyebrow, title, sub):
   <p>{sub}</p>
 </div></section>"""
 
+import mentors
 ABOUT = banner("About","About Craft Beer School","We teach the whole bottle.",
     "India's trusted online and in-person beer school, grain to glass and everything around it.") + """
 <section>
@@ -324,11 +325,7 @@ ABOUT = banner("About","About Craft Beer School","We teach the whole bottle.",
   <div class="wrap">
     <div class="sec-head center"><span class="eyebrow">Your mentors</span><h2>Taught by people who brew.</h2></div>
     <div class="grid-2">
-      <article class="card reveal"><img class="mentor-img" src="assets/team3.jpg" alt="Ankur Napa, Master Brewer and course instructor" loading="lazy" /><div class="card-body"><span class="cat">Course Instructor · Master Brewer</span><h3>Ankur Napa</h3><p>A Master Brewer with hands-on experience at global brewing giants. Bridges the science of the mash tun with the reality of the brewery floor.</p></div></article>
-      <article class="card reveal"><img class="mentor-img" src="assets/team5.jpg" alt="Chatty Girija, beer podcaster and creative strategist" loading="lazy" /><div class="card-body"><span class="cat">Beer Podcaster · Creative Strategist</span><h3>Chatty Girija</h3><p>30+ years in advertising and a deep passion for craft beer. Brings the stories, the branding and the business of beer to every session.</p></div></article>
-      <article class="card reveal"><img class="mentor-img" src="assets/team4.jpg" alt="Anu Rao, Head of Strategy and Operations" loading="lazy" /><div class="card-body"><span class="cat">Head of Strategy &amp; Operations</span><h3>Anu Rao</h3><p>15+ years across social responsibility, education and operations, keeping every cohort running smoothly, grain to glass.</p></div></article>
-      <article class="card reveal"><img class="mentor-img" src="assets/rahul-baliyan.jpg" alt="Rahul Baliyan, Brewing Science Instructor, in a copper brewhouse" loading="lazy" /><div class="card-body"><span class="cat">Brewing Science Instructor · Delhi &amp; North India</span><h3>Rahul Baliyan</h3><p>German-style Brewmaster trained at Weihenstephan, TU Munich, with an M.Tech. in Food Biotechnology. A decade as Consultant Brew Master for JW Marriott Chandigarh and Rockmann Beer Island, India's first German brewery, from start-up and excise to yield and sourcing.</p><p><a href="https://www.linkedin.com/in/rahul-baliyan-m-tech-40630a6b/" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:underline">Rahul on LinkedIn</a></p></div></article>
-    </div>
+""" + mentors.cards() + """    </div>
   </div>
 </section>
 
