@@ -138,6 +138,8 @@ section{padding-block:clamp(4.5rem,8vw,8rem)}
 .mentor-card h3 a::after{content:"";position:absolute;inset:0}
 .mentor-card a[target="_blank"]{position:relative;z-index:1}
 .mentor-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.mentor-photo img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);display:block}
+.mentor-photo figcaption{margin-top:.6rem;font-size:.9rem;color:var(--ink-soft)}
 .card-body{padding:1.5rem;display:flex;flex-direction:column;flex-grow:1}
 .card .cat{font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:700}
 .card h3{margin:.6rem 0 .5rem}

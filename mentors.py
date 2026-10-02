@@ -43,7 +43,11 @@ MENTORS = [
          areas=["Brewing science", "German lager brewing", "Brewery start-ups", "Excise compliance", "Yield optimisation", "Raw material sourcing"],
          courses=[("brewing-fundamentals-course.html", "Brewing Fundamentals"),
                   ("advanced-brewing-science-course.html", "Advanced Brewing Science")],
-         linkedin="https://www.linkedin.com/in/rahul-baliyan-m-tech-40630a6b/"),
+         linkedin="https://www.linkedin.com/in/rahul-baliyan-m-tech-40630a6b/",
+         gallery=[("assets/rahul-tum-certificate.jpg", "Receiving his brewing certificate at TUM"),
+                  ("assets/rahul-brewhouse.jpg", "In a copper brewhouse"),
+                  ("assets/rahul-cohort-1.jpg", "With fellow brewers on the course in Germany"),
+                  ("assets/rahul-cohort-2.jpg", "The course group in the classroom")]),
 ]
 
 
@@ -87,6 +91,10 @@ def _body(m):
     li = (f'<p><a href="{m["linkedin"]}" target="_blank" rel="noopener" class="link-arrow">{m["name"].split()[0]} on LinkedIn</a></p>'
           if m["linkedin"] else "")
     others = "".join(card(o) for o in MENTORS if o is not m)
+    pics = "".join(f'<figure class="mentor-photo reveal"><img src="{src}" alt="{m["name"]}: {cap}" loading="lazy" /><figcaption>{cap}</figcaption></figure>'
+                   for src, cap in m.get("gallery", []))
+    gallery = (f'<section><div class="wrap"><div class="sec-head"><span class="eyebrow">In photos</span><h2>{m["name"].split()[0]} at work.</h2></div>'
+               f'<div class="grid-2">{pics}</div></div></section>') if pics else ""
     return banner(f'<a href="about.html">About</a> / {m["name"]}', m["role"], m["name"], m["lede"]) + f"""
 <section>
   <div class="wrap split">
@@ -101,6 +109,7 @@ def _body(m):
   </div>
 </section>
 
+{gallery}
 <section class="tint">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Your mentors</span><h2>Meet the rest of the team.</h2></div>
