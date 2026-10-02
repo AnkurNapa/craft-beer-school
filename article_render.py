@@ -55,7 +55,7 @@ def _byline(people):
     """Who the story is about and who wrote it, each with a photo when we have one."""
     cards = "".join(f"""<div class="byline">
       {f'<img src="{p["photo"]}" alt="{p["name"]}" width="64" height="64" loading="eager">' if p.get("photo") else ""}
-      <div><span>{label}</span><strong>{p['name']}</strong><span>{p.get('role', '')}</span></div>
+      <div><span>{label}</span><strong>{f'<a href="{p["href"]}" data-cta="article-byline">{p["name"]}</a>' if p.get("href") else p['name']}</strong><span>{p.get('role', '')}</span></div>
     </div>""" for label, p in people if p)
     return f'<div class="bylines">{cards}</div>' if cards else ""
 
@@ -123,8 +123,8 @@ def render(article, by_slug):
     <p class="post-meta">
       <span>{article['read']} read</span> ·
       <span>Updated <time datetime="{article['updated']}">{article['updated_label']}</time></span> ·
-      <span>{'By ' + article['author']['name'] if article.get('author') else 'Craft Beer School'}</span>
-    </p>{_byline([('The story of', article.get('subject')), ('Written by', article.get('author'))])}
+      <span>{'By ' + (article.get('author') or article.get('expert') or {'name': 'Craft Beer School'})['name']}</span>
+    </p>{_byline([('The story of', article.get('subject')), ('Written by', article.get('author') or article.get('expert'))])}
   </div>
 
   <div class="wrap post-body">

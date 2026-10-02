@@ -18,8 +18,26 @@ _seeded = [json.loads(f.read_text()) for f in sorted((HERE / "content/articles")
 _seeded = [{**a, "also": _PLAN[a["slug"]]["also"]} if _PLAN.get(a["slug"], {}).get("also") else a
            for a in _seeded]
 
+# Byline for every guide that is not a guest story: Chatty on the creative
+# side (brand, packaging, marketing), Ankur on everything technical.
+import mentors
+_PEOPLE = {m["slug"]: {"name": m["name"], "role": m["role"], "photo": m["img"], "href": m["slug"]}
+           for m in mentors.MENTORS}
+_CREATIVE = {"brand", "design", "social", "influencers", "storytelling", "naming", "merchandise", "events",
+             "marketing", "positioning", "launching"}
+
+
+def expert(a):
+    creative = a["cat"] == "Branding" or bool(_CREATIVE & set(a["slug"].split("-")))
+    return _PEOPLE["mentor-chatty-girija.html" if creative else "mentor-ankur-napa.html"]
+
+
+_seeded = [{**a, "expert": expert(a)} for a in _seeded]
+_hand = [a if a.get("author") else {**a, "expert": expert(a)}
+         for a in articles_a.ARTICLES_A + articles_b.ARTICLES_B + stories.STORIES]
+
 # Newest first, the way a reader expects a journal to run.
-ARTICLES = sorted(articles_a.ARTICLES_A + articles_b.ARTICLES_B + stories.STORIES + _seeded,
+ARTICLES = sorted(_hand + _seeded,
                   key=lambda a: a["updated"], reverse=True)
 
 # Reader segment per article, which drives the blog index and the funnel.
