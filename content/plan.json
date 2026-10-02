@@ -2798,5 +2798,749 @@
   "segment": "Beer lovers",
   "stage": "awareness",
   "date": "2026-09-21"
+ },
+ {
+  "slug": "beer-industry-explained-for-gcc-teams",
+  "h1": "The beer business explained for GCC teams",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "brewhouse-kpis-for-analysts",
+   "beer-supply-chain-explained",
+   "beer-production-planning-basics"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-06-01"
+ },
+ {
+  "slug": "brewhouse-kpis-for-analysts",
+  "h1": "Brewhouse KPIs every beverage analyst should know",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "beer-supply-chain-explained",
+   "beer-production-planning-basics",
+   "beer-cost-of-goods-explained"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-06-03"
+ },
+ {
+  "slug": "beer-supply-chain-explained",
+  "h1": "The beer supply chain, from barley field to bar",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "beer-production-planning-basics",
+   "beer-cost-of-goods-explained",
+   "beer-quality-data-for-data-teams"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-06-06"
+ },
+ {
+  "slug": "beer-production-planning-basics",
+  "h1": "Beer production planning for supply chain teams",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "beer-cost-of-goods-explained",
+   "beer-quality-data-for-data-teams",
+   "packaging-line-efficiency-oee"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-06-09"
+ },
+ {
+  "slug": "beer-cost-of-goods-explained",
+  "h1": "Beer cost of goods, line by line, for finance teams",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "beer-quality-data-for-data-teams",
+   "packaging-line-efficiency-oee",
+   "beer-brand-portfolio-explained"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-06-12"
+ },
+ {
+  "slug": "beer-quality-data-for-data-teams",
+  "h1": "Beer quality data: what the lab measures and why",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "packaging-line-efficiency-oee",
+   "beer-brand-portfolio-explained",
+   "shipments-vs-depletions-beer-sales-data"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-06-15"
+ },
+ {
+  "slug": "packaging-line-efficiency-oee",
+  "h1": "Packaging line efficiency and OEE in a brewery",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "beer-brand-portfolio-explained",
+   "shipments-vs-depletions-beer-sales-data",
+   "beer-glossary-for-new-joiners"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-06-18"
+ },
+ {
+  "slug": "beer-brand-portfolio-explained",
+  "h1": "How beer companies build a brand portfolio",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "shipments-vs-depletions-beer-sales-data",
+   "beer-glossary-for-new-joiners",
+   "beer-styles-for-marketing-teams"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-06-20"
+ },
+ {
+  "slug": "shipments-vs-depletions-beer-sales-data",
+  "h1": "Shipments versus depletions: reading beer sales data",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "beer-glossary-for-new-joiners",
+   "beer-styles-for-marketing-teams",
+   "beer-demand-forecasting-indian-seasons"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-06-23"
+ },
+ {
+  "slug": "beer-glossary-for-new-joiners",
+  "h1": "A beer glossary for new joiners in drinks companies",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "beer-styles-for-marketing-teams",
+   "beer-demand-forecasting-indian-seasons",
+   "beer-industry-explained-for-gcc-teams"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-06-26"
+ },
+ {
+  "slug": "beer-styles-for-marketing-teams",
+  "h1": "Lager, ale and the styles big brewers sell",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "beer-demand-forecasting-indian-seasons",
+   "beer-industry-explained-for-gcc-teams",
+   "brewhouse-kpis-for-analysts"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-06-29"
+ },
+ {
+  "slug": "beer-demand-forecasting-indian-seasons",
+  "h1": "Forecasting beer demand around Indian seasons",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "beer-industry-explained-for-gcc-teams",
+   "brewhouse-kpis-for-analysts",
+   "beer-supply-chain-explained"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "brewing-fundamentals-course.html",
+   "Brewing Fundamentals"
+  ],
+  "date": "2026-07-02"
+ },
+ {
+  "slug": "how-whisky-is-made",
+  "h1": "How whisky is made, from grain to cask",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "malt-grain-and-blended-whisky",
+   "whisky-styles-of-the-world",
+   "whisky-maturation-and-casks"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-07-05"
+ },
+ {
+  "slug": "malt-grain-and-blended-whisky",
+  "h1": "Malt, grain and blended whisky explained",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "whisky-styles-of-the-world",
+   "whisky-maturation-and-casks",
+   "angels-share-whisky-in-indian-heat"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-07-07"
+ },
+ {
+  "slug": "whisky-styles-of-the-world",
+  "h1": "Scotch, bourbon, Irish, Japanese and Indian whisky",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "whisky-maturation-and-casks",
+   "angels-share-whisky-in-indian-heat",
+   "whisky-inventory-planning"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-07-10"
+ },
+ {
+  "slug": "whisky-maturation-and-casks",
+  "h1": "Whisky maturation: what the cask actually does",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "angels-share-whisky-in-indian-heat",
+   "whisky-inventory-planning",
+   "indian-whisky-market-for-new-joiners"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-07-13"
+ },
+ {
+  "slug": "angels-share-whisky-in-indian-heat",
+  "h1": "The angels' share: why whisky ages faster in India",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "whisky-inventory-planning",
+   "indian-whisky-market-for-new-joiners",
+   "whisky-label-terms-explained"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-07-16"
+ },
+ {
+  "slug": "whisky-inventory-planning",
+  "h1": "Whisky inventory: planning stock you cannot sell for years",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "indian-whisky-market-for-new-joiners",
+   "whisky-label-terms-explained",
+   "whisky-tasting-for-beginners"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-07-19"
+ },
+ {
+  "slug": "indian-whisky-market-for-new-joiners",
+  "h1": "The Indian whisky business for new joiners",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "whisky-label-terms-explained",
+   "whisky-tasting-for-beginners",
+   "distillery-kpis-for-analysts"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-07-22"
+ },
+ {
+  "slug": "whisky-label-terms-explained",
+  "h1": "Whisky label terms: age statements, single cask and cask strength",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "whisky-tasting-for-beginners",
+   "distillery-kpis-for-analysts",
+   "molasses-vs-grain-spirit-india"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-07-24"
+ },
+ {
+  "slug": "whisky-tasting-for-beginners",
+  "h1": "Tasting whisky properly, for teams new to spirits",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "distillery-kpis-for-analysts",
+   "molasses-vs-grain-spirit-india",
+   "how-whisky-blenders-keep-brands-consistent"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-07-27"
+ },
+ {
+  "slug": "distillery-kpis-for-analysts",
+  "h1": "Distillery KPIs: yield, litres of pure alcohol and losses",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "molasses-vs-grain-spirit-india",
+   "how-whisky-blenders-keep-brands-consistent",
+   "how-whisky-is-made"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-07-30"
+ },
+ {
+  "slug": "molasses-vs-grain-spirit-india",
+  "h1": "Molasses spirit versus grain spirit in India",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "how-whisky-blenders-keep-brands-consistent",
+   "how-whisky-is-made",
+   "malt-grain-and-blended-whisky"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-08-02"
+ },
+ {
+  "slug": "how-whisky-blenders-keep-brands-consistent",
+  "h1": "How whisky blenders keep a brand consistent",
+  "cat": "Whisky",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "malt-grain-and-blended-whisky",
+   "whisky-styles-of-the-world",
+   "whisky-maturation-and-casks"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "craft-distilling-course.html",
+   "Craft Distilling"
+  ],
+  "date": "2026-08-05"
+ },
+ {
+  "slug": "how-wine-is-made",
+  "h1": "How wine is made, from vineyard to bottle",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "red-white-rose-and-sparkling-wine",
+   "grape-varieties-for-beginners",
+   "indian-wine-regions"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "date": "2026-08-08"
+ },
+ {
+  "slug": "red-white-rose-and-sparkling-wine",
+  "h1": "Red, white, rosé and sparkling: how each wine is made",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "grape-varieties-for-beginners",
+   "indian-wine-regions",
+   "wine-harvest-and-vintage-planning"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "date": "2026-08-10"
+ },
+ {
+  "slug": "grape-varieties-for-beginners",
+  "h1": "Grape varieties every new joiner should know",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "indian-wine-regions",
+   "wine-harvest-and-vintage-planning",
+   "wine-tasting-for-beginners"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "date": "2026-08-13"
+ },
+ {
+  "slug": "indian-wine-regions",
+  "h1": "India's wine regions: Nashik, Nandi Hills and beyond",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "wine-harvest-and-vintage-planning",
+   "wine-tasting-for-beginners",
+   "reading-a-wine-label"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "date": "2026-08-16"
+ },
+ {
+  "slug": "wine-harvest-and-vintage-planning",
+  "h1": "Harvest and vintage: why wine planning runs on one crop a year",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "wine-tasting-for-beginners",
+   "reading-a-wine-label",
+   "winery-kpis-for-analysts"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "date": "2026-08-19"
+ },
+ {
+  "slug": "wine-tasting-for-beginners",
+  "h1": "Tasting wine without the jargon",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "reading-a-wine-label",
+   "winery-kpis-for-analysts",
+   "wine-storage-and-cold-chain-india"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "date": "2026-08-22"
+ },
+ {
+  "slug": "reading-a-wine-label",
+  "h1": "Reading a wine label",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "winery-kpis-for-analysts",
+   "wine-storage-and-cold-chain-india",
+   "wine-and-indian-food-pairing"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "date": "2026-08-25"
+ },
+ {
+  "slug": "winery-kpis-for-analysts",
+  "h1": "Winery KPIs: yield per tonne, losses and cellar stock",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "wine-storage-and-cold-chain-india",
+   "wine-and-indian-food-pairing",
+   "old-world-vs-new-world-wine"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "date": "2026-08-27"
+ },
+ {
+  "slug": "wine-storage-and-cold-chain-india",
+  "h1": "Wine storage and the cold chain in Indian heat",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "wine-and-indian-food-pairing",
+   "old-world-vs-new-world-wine",
+   "wine-faults-for-quality-teams"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "date": "2026-08-30"
+ },
+ {
+  "slug": "wine-and-indian-food-pairing",
+  "h1": "Pairing wine with Indian food",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "old-world-vs-new-world-wine",
+   "wine-faults-for-quality-teams",
+   "how-wine-is-made"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "date": "2026-09-02"
+ },
+ {
+  "slug": "old-world-vs-new-world-wine",
+  "h1": "Old World and New World wine",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "wine-faults-for-quality-teams",
+   "how-wine-is-made",
+   "red-white-rose-and-sparkling-wine"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "date": "2026-09-05"
+ },
+ {
+  "slug": "wine-faults-for-quality-teams",
+  "h1": "Common wine faults, for quality and supply teams",
+  "cat": "Wine",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "grape-varieties-for-beginners",
+   "indian-wine-regions",
+   "wine-harvest-and-vintage-planning"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "date": "2026-09-08"
+ },
+ {
+  "slug": "beer-wine-and-whisky-compared",
+  "h1": "Beer, wine and whisky compared, for people joining the drinks business",
+  "cat": "Drinks business",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "alcohol-regulation-india-for-corporate-teams",
+   "running-responsible-tastings-at-work",
+   "data-and-ai-in-breweries-wineries-distilleries"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "courses.html",
+   "all our courses"
+  ],
+  "date": "2026-09-11"
+ },
+ {
+  "slug": "alcohol-regulation-india-for-corporate-teams",
+  "h1": "Alcohol regulation in India, for corporate teams",
+  "cat": "Drinks business",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "running-responsible-tastings-at-work",
+   "data-and-ai-in-breweries-wineries-distilleries",
+   "product-training-for-beverage-gcc-teams"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "courses.html",
+   "all our courses"
+  ],
+  "date": "2026-09-13"
+ },
+ {
+  "slug": "running-responsible-tastings-at-work",
+  "h1": "Running responsible tastings at work",
+  "cat": "Drinks business",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "data-and-ai-in-breweries-wineries-distilleries",
+   "product-training-for-beverage-gcc-teams",
+   "onboarding-new-joiners-in-a-drinks-company"
+  ],
+  "segment": "Corporate teams",
+  "stage": "decision",
+  "also": [
+   "courses.html",
+   "all our courses"
+  ],
+  "date": "2026-09-16"
+ },
+ {
+  "slug": "data-and-ai-in-breweries-wineries-distilleries",
+  "h1": "Where data and AI help breweries, wineries and distilleries",
+  "cat": "Drinks business",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "product-training-for-beverage-gcc-teams",
+   "onboarding-new-joiners-in-a-drinks-company",
+   "water-energy-packaging-beer-wine-spirits"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "courses.html",
+   "all our courses"
+  ],
+  "date": "2026-09-19"
+ },
+ {
+  "slug": "product-training-for-beverage-gcc-teams",
+  "h1": "Why beverage GCC teams need product training",
+  "cat": "Drinks business",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "onboarding-new-joiners-in-a-drinks-company",
+   "water-energy-packaging-beer-wine-spirits",
+   "excise-for-finance-teams-beer-wine-spirits"
+  ],
+  "segment": "Corporate teams",
+  "stage": "decision",
+  "also": [
+   "courses.html",
+   "all our courses"
+  ],
+  "date": "2026-09-22"
+ },
+ {
+  "slug": "onboarding-new-joiners-in-a-drinks-company",
+  "h1": "Onboarding new joiners in a drinks company",
+  "cat": "Drinks business",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "water-energy-packaging-beer-wine-spirits",
+   "excise-for-finance-teams-beer-wine-spirits",
+   "beer-wine-and-whisky-compared"
+  ],
+  "segment": "Corporate teams",
+  "stage": "decision",
+  "also": [
+   "courses.html",
+   "all our courses"
+  ],
+  "date": "2026-09-25"
+ },
+ {
+  "slug": "water-energy-packaging-beer-wine-spirits",
+  "h1": "Water, energy and packaging across beer, wine and spirits",
+  "cat": "Drinks business",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "excise-for-finance-teams-beer-wine-spirits",
+   "beer-wine-and-whisky-compared",
+   "alcohol-regulation-india-for-corporate-teams"
+  ],
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "also": [
+   "courses.html",
+   "all our courses"
+  ],
+  "date": "2026-09-28"
+ },
+ {
+  "slug": "excise-for-finance-teams-beer-wine-spirits",
+  "h1": "Excise basics for finance teams in beer, wine and spirits",
+  "cat": "Drinks business",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "related": [
+   "alcohol-regulation-india-for-corporate-teams",
+   "running-responsible-tastings-at-work",
+   "data-and-ai-in-breweries-wineries-distilleries"
+  ],
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "also": [
+   "courses.html",
+   "all our courses"
+  ],
+  "date": "2026-10-01"
  }
 ]

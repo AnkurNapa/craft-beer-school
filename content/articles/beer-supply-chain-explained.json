@@ -1,0 +1,71 @@
+{
+ "slug": "beer-supply-chain-explained",
+ "cat": "Beer for teams",
+ "h1": "The beer supply chain, from barley field to bar",
+ "title": "The Beer Supply Chain, Field to Bar | Craft Beer School",
+ "desc": "Follow beer from barley field and maltster to brewery, packaging and Indian state distribution. A plain guide for drinks company teams.",
+ "teaser": "A bottle of lager has passed through a farm, a maltings, a brewery and a state depot. Here is the route.",
+ "standfirst": "Before beer reaches a retailer it has been grown, malted, brewed, packed and pushed through state licensing. Each link has its own lead time and its own way of going wrong. This guide walks the chain once, end to end.",
+ "read": "3 min",
+ "updated": "2026-06-06",
+ "updated_label": "June 2026",
+ "sections": [
+  [
+   "Start in a barley field",
+   "<p>Beer begins as barley. In India, malting barley is grown mainly in the north and west, with Rajasthan, Haryana, Punjab, Uttar Pradesh and Madhya Pradesh among the producing states. It is a winter crop harvested in spring, so a brewery's barley for the year is bought around one harvest.</p><p>Not every barley is fit for brewing. Maltsters want grain that germinates evenly and has the right protein level. A poor season shows up months later as higher prices, different malt specifications or more imported malt.</p>"
+  ],
+  [
+   "The maltster turns grain into malt",
+   "<p>Raw barley is no use to a brewer. It has to be <strong>malted</strong>: soaked in water, allowed to sprout for a few days, then dried with hot air in a kiln. Sprouting creates the enzymes that later turn starch into sugar. Kilning stops growth and sets the colour and flavour of the malt.</p><p>Most brewers buy malt from specialist maltsters rather than malting themselves. Each lot comes with an analysis sheet that the brewery uses to plan recipes and yield. For a supply team, malt is a commodity with a quality certificate attached.</p>"
+  ],
+  [
+   "The other ingredients",
+   "<p><strong>Hops</strong> give bitterness and aroma. India grows very few, so most are imported as pellets or extracts. They are light, expensive per kilo and keep for a long time if stored cold, which makes them a planning item rather than a weekly one.</p><p><strong>Adjuncts</strong> such as broken rice, maize grits or sugar syrups are widely used in mainstream Indian lagers. They are sourced locally and can swing in price with the crop.</p><p><strong>Water</strong> is the largest ingredient by volume. Breweries treat borewell or municipal water to a consistent standard before use.</p><p><strong>Yeast</strong> is usually kept and reused by the brewery itself, so it rarely appears in procurement data at all.</p>"
+  ],
+  [
+   "Brewing and packaging",
+   "<p>The brewery turns these ingredients into beer over two to four weeks. That stage is covered in the <a href=\"beer-industry-explained-for-gcc-teams.html\">beer business overview</a>.</p><p>Packaging is where the supply chain widens again. A packaging line needs glass bottles, cans, crown caps, labels, cartons and crates, each from a different supplier with a different lead time. In India much beer still goes into returnable 650 ml glass. Bottles come back from the market, are washed, inspected and refilled. The returnable bottle pool behaves like a second inventory. A shortage of clean bottles in April can stop a line as surely as a shortage of beer.</p>"
+  ],
+  [
+   "Through the state system to the shelf",
+   "<p>Once packed, beer is held in the brewery warehouse until it is cleared for dispatch under excise control. From there the route depends on the state. In some, stock goes to a government corporation that acts as the sole wholesaler. In others, it goes to licensed private distributors. Retailers, bars and restaurants buy from that layer.</p><p>Each state has its own permits, labels and duty process. Moving stock across a state border needs the right permits on both sides. The rules vary and change, so teams should check current state notifications rather than rely on a past process note.</p>"
+  ],
+  [
+   "Heat and the cold chain",
+   "<p>Beer is best kept cool. Warm storage speeds up staling, the papery, flat flavour of old beer. A truck sitting in summer sun or a depot without cooling ages beer far faster than a cool store.</p><p>India rarely has a full cold chain for packaged beer. Most of the route is ambient. That is why stock rotation (first in, first out) and freshness targets are taken seriously. It is also why a forecast that overbuilds stock before summer has a hidden cost in flavour as well as cash.</p>"
+  ],
+  [
+   "Seeing the chain as one system",
+   "<p>Each link here has a lead time: a harvest year for barley, weeks for imported hops and glass, weeks for beer itself, then days to weeks in the state system. A planner who knows these clocks reads a stock-out very differently from one who only sees the final number.</p><p>Teams that have walked the whole chain once, even in a classroom, ask better questions of their own data. The next step is the <a href=\"beer-production-planning-basics.html\">production planning guide</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Where does Indian brewing barley come from?",
+   "Mainly from northern and western states such as Rajasthan, Haryana, Punjab, Uttar Pradesh and Madhya Pradesh. It is a winter crop harvested in spring."
+  ],
+  [
+   "Why are hops imported into India?",
+   "Very few hops are grown in India, so most brewers import them as pellets or extracts. They store well when kept cold."
+  ],
+  [
+   "What is a returnable bottle pool?",
+   "The stock of glass bottles that circulate between brewery and market, being washed and refilled each trip. Its size and condition limit how much beer can be packed."
+  ],
+  [
+   "Does beer travel cold in India?",
+   "Mostly not. Much of the route is ambient, which is why freshness and stock rotation matter so much."
+  ]
+ ],
+ "cta": {
+  "title": "Give your team a map of the whole chain",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions, covering beer, whisky and wine from raw material to retailer.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-production-planning-basics",
+  "beer-cost-of-goods-explained",
+  "beer-quality-data-for-data-teams"
+ ]
+}

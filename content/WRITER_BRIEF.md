@@ -73,3 +73,18 @@ Course facts you may use: all courses are live online on Saturdays and Sundays, 
 3. Reread two of your guides as a sceptical brewer would. Fix anything vague, wrong or AI-sounding.
 4. Only touch your own slugs' files. Do not edit any other file in the repo.
 5. Report back in five lines or fewer: how many passed, and anything you were unsure was factually right.
+
+## Corporate teams segment (plan segment "Corporate teams")
+
+These 44 guides are for people who work inside beer, wine and spirits companies but have never made the product: GCC analysts, planners, buyers, finance, marketing, technology and new joiners in Bengaluru, Pune and Hyderabad. They cover beer, whisky and wine, not only beer.
+
+- Write for a smart professional with no production background. Explain each term once, then use it. Connect the product to their desk: what the number in their dashboard means on the floor, why a forecast or a stock plan behaves the way it does.
+- Whisky and wine facts must be as accurate as the brewing ones. Standard, well-established values only (for example: whisky in Scotland must age at least three years in oak; Indian heat raises evaporation loss well above Scotland's commonly quoted ~2% a year; wine yeast converts grape sugar to alcohol; red wine gets its colour from skins). No invented market sizes, shares, rankings or company figures. Name real regions and grape varieties; do not name a specific company's plant, numbers or calibration.
+- Indian regulation: process level only, rules vary by state and change, check the current notification. Never legal advice.
+- Tastings: always responsible, opt-in, within company policy, with non-drinkers welcome and spit cups. No encouragement to drink more.
+- No serial comma and no ", and" joins: write "malt, hops and water", and split a sentence rather than join two clauses with ", and".
+- CTA (href is `contact.html?course=Corporate%20training#enroll`, the enquiry form with Corporate training pre-selected). It sells a programme to a team, not a seat to an individual:
+  - `awareness`: title names what the reader's team would gain from knowing this. Body: we run beverage training for drinks companies and GCC teams, modules like Beverage 101 and guided sensory sessions. Label: "Ask about team training" (the button opens the enquiry form).
+  - `consideration`: title names the work problem (bad forecasts, KPIs nobody can explain). Body names the relevant module (Beverage 101; Brewing and distilling operations; Raw materials and supply chain; Route to market and regulation in India; Guided sensory sessions; Data and AI in beverages) and says it is built around the team's own portfolio. Label: "Plan a programme".
+  - `decision`: direct invitation to a team lead or L&D manager. Body: programmes run on-site in Bengaluru, Pune and Hyderabad or live online, sized to the team. Label: "Plan a programme".
+- Never quote corporate fees. Internal links may also point at `for-companies.html` and the other corporate slugs in the plan.

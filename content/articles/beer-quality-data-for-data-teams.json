@@ -1,0 +1,71 @@
+{
+ "slug": "beer-quality-data-for-data-teams",
+ "cat": "Beer for teams",
+ "h1": "Beer quality data: what the lab measures and why",
+ "title": "Beer Quality Data: What the Lab Measures | Craft Beer School",
+ "desc": "What a brewery lab measures, from Plato and ABV to dissolved oxygen, CO2 and microbiology, with what each means for data teams.",
+ "teaser": "Your quality table has forty columns. About eight of them decide whether the beer ships. Here they are.",
+ "standfirst": "Brewery quality data arrives as a wide table of odd units and short codes. Behind each column is a test with a reason. This guide explains what the lab measures, why it matters and how to read it without false alarms.",
+ "read": "3 min",
+ "updated": "2026-06-15",
+ "updated_label": "June 2026",
+ "sections": [
+  [
+   "Why quality data looks the way it does",
+   "<p>A brewery lab tests beer at several points: wort, fermentation, maturation, filtration and packaged product. Each test has a specification, usually a target with upper and lower limits. Results outside the limits trigger a hold, a retest or a decision by the quality manager.</p><p>For a data team, the shape matters as much as the values. Tests happen at different frequencies, some per brew, some per tank, some per hour on the packaging line. Joining them needs batch and tank identifiers, which are not always recorded cleanly.</p><p>Specifications differ by brand and sometimes by plant. A value that is fine for one beer can be a fail for another. Always join results to the specification that applied on the day of the test, not the current one, because limits get revised.</p><p>Many results are also retests. If the first reading fails, the lab often samples again. Keep both rows. Dropping the first one makes a plant look better than it is, while dropping the retest makes it look worse.</p>"
+  ],
+  [
+   "Strength: Plato, ABV and extract",
+   "<p><strong>Original gravity</strong> or <strong>original extract</strong>, in degrees Plato (°P), tells you how much sugar the wort had before fermentation. Final readings show how much remains. Alcohol by volume (ABV) is calculated from the difference, or measured directly with an instrument.</p><p>In India, ABV matters legally. The declared strength is on the label and tied to the excise category, so a tank that finishes outside its range is a compliance issue as well as a quality one. For high gravity beer, strength is adjusted with dilution water before packaging, so the final check after blending is the one that counts.</p>"
+  ],
+  [
+   "Colour, bitterness and pH",
+   "<p><strong>Colour</strong> is measured in EBC units in most breweries outside the United States. Pale lagers sit low on the scale. <strong>Bitterness</strong> is measured in bitterness units (IBU or EBU), roughly milligrams of bitter hop compounds per litre. Mainstream lagers are usually low.</p><p><strong>pH</strong> measures acidity. Finished beer is acidic, usually somewhere around 4 to 4.6. A drift can point to a fermentation problem or contamination.</p><p>These values tend to move slowly. A sudden change is more often a sampling or instrument issue than a real change in the beer. Check calibration logs before raising an alarm.</p>"
+  ],
+  [
+   "Oxygen and carbon dioxide",
+   "<p>Two gases decide a lot about shelf life.</p><p><strong>Dissolved oxygen</strong> and <strong>total package oxygen</strong> measure how much oxygen got into the beer during filtration and filling. Oxygen causes staling, the wet cardboard flavour of old beer. Lower is better. Packaging teams work hard to keep it down. In Indian heat, where stock is often stored warm, oxygen pickup shows up as stale beer much sooner.</p><p><strong>Carbon dioxide</strong> content sets the fizz. Mainstream lager is usually around 2.5 volumes, or roughly 5 grams per litre. Too low tastes flat. Too high causes foaming on the filler and gushing when opened.</p>"
+  ],
+  [
+   "Haze and microbiology",
+   "<p><strong>Haze</strong> measures cloudiness, usually in EBC haze units or NTU. Filtered lager should be bright. Breweries also run <strong>forced ageing</strong> tests, warming samples to predict whether haze will form on the shelf.</p><p><strong>Microbiology</strong> checks for spoilage organisms. Results take days, because samples must incubate. A data team should never treat a missing micro result as a pass. It may simply not be ready yet.</p>"
+  ],
+  [
+   "Sensory: the column that does not fit",
+   "<p>Most breweries also run a tasting panel. Trained tasters score each batch for <strong>trueness to type</strong> and flag faults such as diacetyl (butter) or oxidation (cardboard). Our guide to <a href=\"beer-off-flavours.html\">beer off flavours</a> describes the common faults.</p><p>Sensory data is noisy and partly subjective, so it is easy to ignore. It is also the result closest to what a drinker experiences. Panel sessions should be opt-in and within company policy, with spit cups used as standard.</p>"
+  ],
+  [
+   "Turning lab results into useful analysis",
+   "<p>Control charts beat single readings. A value inside specification but drifting for a month tells you more than an occasional outlier. Link quality results to process data (temperatures, times, raw material lots) and patterns start to appear.</p><p>The hard part is knowing which columns matter for which question. A data scientist who knows that oxygen drives shelf life, while bitterness rarely moves, builds a far better model than one who throws every column in. The <a href=\"data-and-ai-in-breweries-wineries-distilleries.html\">data and AI guide</a> takes this further.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is degrees Plato?",
+   "A measure of how much sugar and other dissolved material is in wort or beer, roughly as a percentage by weight. Brewers use it to track strength through fermentation."
+  ],
+  [
+   "Why does dissolved oxygen matter so much?",
+   "Oxygen in packaged beer causes staling. Warm storage speeds the reaction, so oxygen control matters even more in India."
+  ],
+  [
+   "Why are microbiology results late?",
+   "Samples have to incubate for days before organisms can be counted. A missing result usually means pending, not passed."
+  ],
+  [
+   "Which quality measures predict shelf life best?",
+   "Package oxygen, forced ageing tests and microbiology tell you most about how beer will hold up after it leaves the brewery."
+  ]
+ ],
+ "cta": {
+  "title": "Build quality models on the right columns",
+  "body": "Our Data and AI in beverages module shows data teams what each lab test measures and which ones matter for which question, built around your team's portfolio and quality data.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "packaging-line-efficiency-oee",
+  "beer-brand-portfolio-explained",
+  "shipments-vs-depletions-beer-sales-data"
+ ]
+}

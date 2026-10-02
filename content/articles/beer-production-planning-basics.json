@@ -1,0 +1,71 @@
+{
+ "slug": "beer-production-planning-basics",
+ "cat": "Beer for teams",
+ "h1": "Beer production planning for supply chain teams",
+ "title": "Beer Production Planning Basics | Craft Beer School",
+ "desc": "How breweries plan production around tank capacity, brew-to-pack lead times, packaging lines and Indian state SKUs. For supply chain teams.",
+ "teaser": "Your plan says brew 400 hectolitres more. The fermenters say otherwise. Here is how brewery planning really works.",
+ "standfirst": "Beer production planning is a puzzle with three moving parts: tanks that are slow to free up, packaging lines that are fast but fussy, plus demand that swings with the weather. This guide explains each so supply chain teams can build plans the floor can actually run.",
+ "read": "3 min",
+ "updated": "2026-06-09",
+ "updated_label": "June 2026",
+ "sections": [
+  [
+   "Why beer planning is harder than it looks",
+   "<p>Many supply chain professionals arrive from consumer goods where a product can be made in a shift. Beer is different. A lager takes two to four weeks from brewhouse to packed bottle. Most of that time it sits in a tank doing nothing visible.</p><p>That lead time means beer for a hot April has to be brewed in March. Get it wrong and there is no quick fix, because you cannot speed up yeast much without changing the flavour.</p>"
+  ],
+  [
+   "The three planning horizons",
+   "<p>Most breweries plan on three clocks.</p><ul><li><strong>Long range (months).</strong> Annual volume, capacity, malt and hop contracts, returnable bottle purchases.</li><li><strong>Brewing plan (weeks).</strong> Which beers to brew, when, in which tanks.</li><li><strong>Packaging schedule (days).</strong> Which SKUs to run on which line, shift by shift.</li></ul><p>Each one feeds the next. A packaging schedule can only pack beer that the brewing plan put into tanks weeks earlier. When sales asks for a sudden change, the packaging schedule can often flex. The brewing plan usually cannot.</p>"
+  ],
+  [
+   "Tanks are usually the constraint",
+   "<p>A brewhouse can often make several brews a day. The beer then goes into <strong>cylindroconical tanks</strong> (tall steel fermenters with a cone at the bottom for yeast) where it ferments and matures. Each tank is tied up for the full cycle.</p><p>So the real capacity question is: how many tank days do I have, compared with how many each beer needs? A standard lager might need three weeks. A beer with a longer maturation needs more. A planner who swaps one for the other has changed capacity without touching the brewhouse.</p><p>Tank size also matters. A large tank filled by several brews is efficient for a big brand, wasteful for a small one. This is one reason small brands cost more per hectolitre to make. Our <a href=\"brewhouse-kpis-for-analysts.html\">brewhouse KPIs guide</a> explains tank occupancy as a measure.</p>"
+  ],
+  [
+   "Filtration and bright beer tanks",
+   "<p>After maturation, most mainstream beer is filtered and moved to a <strong>bright beer tank</strong>, where it waits to be packed. Bright beer tanks are the buffer between brewing and packaging. If there are too few, the packaging line runs short of beer even when the fermenters are full.</p><p>Filtered beer should be packed within a few days. Holding it longer risks quality, so planners treat bright beer as perishable stock.</p>"
+  ],
+  [
+   "Packaging lines and changeovers",
+   "<p>A packaging line is fast but dislikes change. Switching from one brand to another, one bottle size to another, or one state's label to another costs time for cleaning, adjusting and checking. Every changeover is lost output.</p><p>India adds a layer that surprises newcomers. Labels often carry state-specific details, so the same beer in the same bottle may be a different SKU for each state. A line packing 650 ml bottles for five states in one week may face five label changes even if the beer never changes. Grouping runs by state and pack size is one of the quickest wins a planner can find.</p><p>Returnable bottles are the other constraint. The line can only fill bottles that have come back, been washed and passed inspection. A planner who forgets the bottle pool will build a plan the floor cannot meet.</p>"
+  ],
+  [
+   "Planning for the Indian summer",
+   "<p>Demand in most of India peaks in the hot months before the monsoon. Breweries prepare by brewing ahead and building stock. That stock has limits: warehouse space, cash and freshness. Beer stored warm ages faster. Mainstream lager also carries a best before date.</p><p>The usual approach is to build stock gradually from late winter, keep tanks fully occupied through the peak and plan maintenance shutdowns for the monsoon dip. Forecasting the peak itself is covered in <a href=\"beer-demand-forecasting-indian-seasons.html\">forecasting beer demand around Indian seasons</a>.</p>"
+  ],
+  [
+   "What makes a plan the floor trusts",
+   "<p>The plans that work are built with the brewers, not handed to them. That means knowing real tank cycle times rather than book values, real changeover times per line and real bottle availability. The gap between book capacity and real capacity is where most missed plans come from.</p><p>For a central planning team, that knowledge is hard to get from a spreadsheet alone. It comes from understanding what the brewery is physically doing on any given day.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What limits beer production capacity?",
+   "Usually fermentation and maturation tank time rather than the brewhouse. Each tank is occupied for the whole two to four week cycle."
+  ],
+  [
+   "What is a bright beer tank?",
+   "A tank that holds filtered, finished beer ready to be packed. It is the buffer between brewing and packaging."
+  ],
+  [
+   "Why are there so many SKUs for one Indian beer brand?",
+   "Labels and pack details often differ by state, so the same beer in the same bottle may be a separate SKU for each market."
+  ],
+  [
+   "Can a brewery quickly increase output in summer?",
+   "Only within its tank and bottle limits. Beer for the peak has to be brewed weeks ahead, so the decision is made well before demand appears."
+  ]
+ ],
+ "cta": {
+  "title": "Stop building plans the brewery cannot run",
+  "body": "Our Raw materials and supply chain module teaches planners how tanks, packaging lines and bottle pools really constrain output, built around your team's portfolio and plants.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "beer-cost-of-goods-explained",
+  "beer-quality-data-for-data-teams",
+  "packaging-line-efficiency-oee"
+ ]
+}

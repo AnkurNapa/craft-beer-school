@@ -14,6 +14,9 @@ HERE = pathlib.Path(__file__).parent
 _PLAN = {p["slug"]: p for p in json.loads((HERE / "content/plan.json").read_text())}
 
 _seeded = [json.loads(f.read_text()) for f in sorted((HERE / "content/articles").glob("*.json"))]
+# A plan row may name a second course for readers learning for themselves.
+_seeded = [{**a, "also": _PLAN[a["slug"]]["also"]} if _PLAN.get(a["slug"], {}).get("also") else a
+           for a in _seeded]
 
 # Newest first, the way a reader expects a journal to run.
 ARTICLES = sorted(articles_a.ARTICLES_A + articles_b.ARTICLES_B + stories.STORIES + _seeded,
@@ -37,4 +40,5 @@ SEGMENTS = [
     ("Founders", "Planning a brewery or brewpub in India.", "brewery-business-management-course.html", "Brewery Business Management"),
     ("Brand builders", "Naming, packaging and selling beer people remember.", "beer-branding-packaging-course.html", "Beer Branding &amp; Packaging"),
     ("Career changers", "Turning a love of beer into a job.", "brewing-fundamentals-course.html", "Brewing Fundamentals"),
+    ("Corporate teams", "Working in a beer, wine or spirits company and want to know the product.", "for-companies.html#training", "Corporate training"),
 ]

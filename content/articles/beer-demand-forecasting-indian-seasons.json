@@ -1,0 +1,67 @@
+{
+ "slug": "beer-demand-forecasting-indian-seasons",
+ "cat": "Beer for teams",
+ "h1": "Forecasting beer demand around Indian seasons",
+ "title": "Forecasting Beer Demand in India | Craft Beer School",
+ "desc": "How Indian summers, monsoon, dry days, price revisions and stock-outs shape beer demand, plus how to build them into a forecast.",
+ "teaser": "The forecast was fine. Then it was 42 °C for ten days, a state revised prices and there was a dry day. Here is how to model that.",
+ "standfirst": "Beer demand in India follows the weather, the calendar and the state excise year more than it follows marketing. This guide explains each driver and how to build a forecast the brewery can act on in time.",
+ "read": "3 min",
+ "updated": "2026-07-02",
+ "updated_label": "July 2026",
+ "sections": [
+  [
+   "Why beer forecasting is unforgiving",
+   "<p>A beer forecast has to be right weeks before demand appears. Lager takes two to four weeks from brewhouse to packed bottle. The brewery can only make as much as its tanks allow. A forecast that catches a heatwave a week after it starts is too late to brew for.</p><p>So the forecast that matters most is the one feeding the brewing plan, three to six weeks out. Short-term adjustments can move stock between depots. They cannot make more beer.</p><p>Packaging adds its own lead time. Labels for each state, crowns, cartons and returnable bottles all need to be in place before the line runs. A forecast that changes the mix late can leave the right beer waiting for the wrong labels.</p>"
+  ],
+  [
+   "The shape of the Indian year",
+   "<p>In most of India, beer demand climbs from late winter and peaks in the hot months before the monsoon. It eases when the rains arrive and recovers somewhat after. Winter is usually the quietest period, more so in the colder north.</p><p>The shape differs by region. A state with a mild winter has a flatter curve than one with a cold one. Forecast at state level, not just nationally, because state is also where supply, pricing and rules change.</p><p>Temperature is the strongest single driver. Many teams add actual and forecast temperature as an input, which helps most at the start of summer when a few hot weeks can arrive early or late.</p>"
+  ],
+  [
+   "Calendar events",
+   "<p>Several events repeat every year and should be in the model as named features, not left to be absorbed as noise.</p><ul><li><strong>Dry days.</strong> Sales stop on declared dry days, including some national holidays and polling days during elections. Election dry days are announced at short notice and vary by constituency.</li><li><strong>Festivals and holidays.</strong> Long weekends and some festivals lift demand. Others are dry days in certain states.</li><li><strong>Sporting events.</strong> Big cricket tournaments overlap the summer peak. Tag them so their effect is not confused with temperature.</li><li><strong>Financial year start.</strong> Many states revise duty or approved prices around April. The trade often buys ahead of an increase and slows after.</li></ul><p>Rules vary by state and change, so the event calendar needs an owner who checks current notifications each year.</p>"
+  ],
+  [
+   "Supply limits hide demand",
+   "<p>Sales data records what was sold, not what was wanted. When a brand runs out in a depot in May, depletions fall. A model trained on that history learns that demand dropped, when in fact supply did.</p><p>Flag stock-out periods and treat them as censored data. The usual causes are tank capacity, returnable bottle shortages, label or registration delays and transport. The <a href=\"shipments-vs-depletions-beer-sales-data.html\">shipments and depletions guide</a> explains which sales layer to forecast.</p>"
+  ],
+  [
+   "From forecast to brewing plan",
+   "<p>A forecast becomes useful when it turns into tank days. Each beer needs a known cycle in the fermenter, so a forecast of extra cases converts into extra brews and occupied tanks. If the tanks are already full, the extra demand must be met from stock built earlier or not at all.</p><p>This is why breweries build stock from late winter. The forecast decides how much to build. Build too little and you miss the peak. Build too much and beer sits in warm depots, ageing. Our <a href=\"beer-production-planning-basics.html\">production planning guide</a> covers the brewery side.</p>"
+  ],
+  [
+   "Measuring the forecast honestly",
+   "<p>Measure accuracy at the horizon that matters, three to six weeks out. Measure it at the level the brewery plans at: brand, pack and state. A forecast that looks accurate nationally and monthly can still miss every state peak.</p><p>Keep a short note of why each big miss happened: a heatwave, a late price notification, a stock-out, a dry day. Over two or three seasons that log becomes the most useful input the model has, because it records events the sales data cannot explain on its own.</p><p>Track bias as well as error. A forecast that is always a little low through summer causes stock-outs every year, even if its average error looks fine. A forecaster who has seen a full tank farm in April understands why that bias costs more than the error number suggests.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "When does beer demand peak in India?",
+   "In most states, in the hot months before the monsoon. The exact shape varies by region and should be forecast state by state."
+  ],
+  [
+   "Why do beer forecasts need to look weeks ahead?",
+   "Beer takes two to four weeks to brew and mature. Tank capacity is limited too, so the brewing decision is made well before demand appears."
+  ],
+  [
+   "How should stock-outs be handled in a forecast?",
+   "Flag them and treat sales in those periods as censored. Otherwise the model learns that demand fell when it was supply that fell."
+  ],
+  [
+   "Do dry days matter for beer forecasting?",
+   "Yes. Sales stop on dry days. Election dry days can be announced at short notice, so they need their own calendar."
+  ]
+ ],
+ "cta": {
+  "title": "Build forecasts the brewery can brew to",
+  "body": "Our Data and AI in beverages module teaches forecasting teams how weather, the excise calendar and tank capacity drive beer demand, built around your team's portfolio and states.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "beer-industry-explained-for-gcc-teams",
+  "brewhouse-kpis-for-analysts",
+  "beer-supply-chain-explained"
+ ]
+}

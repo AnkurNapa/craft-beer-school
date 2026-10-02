@@ -1,0 +1,67 @@
+{
+ "slug": "winery-kpis-for-analysts",
+ "cat": "Wine",
+ "h1": "Winery KPIs: yield per tonne, losses and cellar stock",
+ "title": "Winery KPIs: Yield, Losses and Stock | Craft Beer School",
+ "desc": "What winery KPIs such as litres per tonne, process losses and cellar stock mean on the floor, explained for analysts and planners in wine companies.",
+ "teaser": "Your dashboard says litres per tonne fell by 4 percent. Here is what that might mean in the cellar.",
+ "standfirst": "Winery numbers look like any other manufacturing metrics until you ask where they come from. This guide explains the main winery KPIs, the physical reality behind each one and the questions an analyst should ask before trusting a trend.",
+ "read": "3 min",
+ "updated": "2026-08-27",
+ "updated_label": "August 2026",
+ "sections": [
+  [
+   "Why winery data behaves differently",
+   "<p>A winery runs one harvest a year, then holds the wine for months or years before selling it. So its data has two odd features. Most raw material arrives in a few weeks. Most of the year's numbers describe stock moving slowly between tanks, barrels and bottles. A KPI that is fine for a bottling line, such as daily output, says little about the cellar.</p><p>Background on the process itself is in our guide to <a href=\"how-wine-is-made.html\">how wine is made</a>. Below are the numbers you are most likely to meet.</p>"
+  ],
+  [
+   "Yield: tonnes per hectare and litres per tonne",
+   "<p><strong>Tonnes per hectare</strong> (or per acre) measures how much fruit the vineyard produced. Higher is not automatically better. Many quality-focused growers deliberately limit yield. Some European appellations cap it by law.</p><p><strong>Litres per tonne</strong> measures how much wine came out of the grapes. A typical range is around 600 to 750 litres per tonne. It depends on the grape, on how ripe and juicy it was and on the winemaker's choices. Wine made only from free-run juice yields less than wine that includes heavy pressings. So a fall in litres per tonne may be a quality decision, not a waste problem. Always ask which wines were in the mix before you compare years.</p><p>A worked example helps. Thirty tonnes of Chenin Blanc pressed at 680 litres per tonne gives 20,400 litres of juice. If racking, filtration and bottling lose 5 percent between them, about 19,380 litres reach the bottle. At 9 litres to a 12-bottle case of 750 ml, that is roughly 2,150 cases. Every step in that chain is a place where the dashboard and the cellar can disagree.</p>"
+  ],
+  [
+   "Process losses",
+   "<p>Between the press and the bottle, wine is lost at every step:</p><ul><li><strong>Lees.</strong> Dead yeast and solids settle at the bottom of the tank. Racking the clear wine off leaves some behind.</li><li><strong>Filtration and fining.</strong> Filter pads and sediment hold back wine.</li><li><strong>Barrel ageing.</strong> Wine evaporates through oak. Barrels are topped up regularly to replace it. The loss is larger in a warm, dry room, which matters in Indian conditions.</li><li><strong>Bottling.</strong> Line start-ups, rejects and changeovers.</li></ul><p>Loss percentages are often calculated as the gap between book volume and measured volume. Measured volume comes from tank dips or level gauges, which carry their own error. Wine volume also changes with temperature. A loss figure that jumps in one month may be a measurement change, not a real one.</p>"
+  ],
+  [
+   "Cellar stock and work in progress",
+   "<p>At any moment a winery holds several vintages in different states: fermenting, ageing in tank or barrel, finished and waiting for bottling, then bottled stock. Cellar stock is usually tracked in litres by lot, vintage, variety and vessel. Finished goods are tracked in cases.</p><p>For finance, bulk wine in the cellar is working capital that cannot be sold yet. For planners, the question is when each lot will be ready to bottle and whether the volume matches the demand plan. A mismatch here is how a company ends up with a shortage of one wine and a tank of another that nobody planned to sell. The harvest side is covered in our guide to <a href=\"wine-harvest-and-vintage-planning.html\">vintage planning</a>.</p>"
+  ],
+  [
+   "Blending makes lot tracking hard",
+   "<p>Most finished wines are blends of several lots, sometimes of different varieties or vintages within the rules. Every blend splits and merges volumes, so a single bottle may trace back to grapes from several growers. Good winery systems record every movement between vessels. Weak ones keep the true picture in a cellar master's notebook. When reconciliation fails, start by checking whether all the movements between tanks were actually entered.</p>"
+  ],
+  [
+   "Questions to ask before trusting a trend",
+   "<ul><li>Is this number measured, calculated or estimated? By whom?</li><li>Did the product mix change, such as more premium free-run wine this year?</li><li>Are volumes corrected for temperature? Are tank calibrations current?</li><li>Do losses include deliberate choices, such as discarding a faulty lot?</li></ul><p>Analysts who can ask these questions in the cellar's language get better data back. That is usually the difference between a dashboard the winemaker trusts and one they quietly ignore.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a normal yield of wine per tonne of grapes?",
+   "Around 600 to 750 litres per tonne is a common range, depending on the grape, ripeness and how much pressed juice is used."
+  ],
+  [
+   "Why does a winery lose wine during ageing?",
+   "Wine is left behind on lees and filters at each transfer. Wine aged in barrels evaporates through the wood. Barrels are topped up to replace the loss, which is higher in warm, dry rooms."
+  ],
+  [
+   "Why do book stock and measured stock not match?",
+   "Tank measurements have error, wine volume changes with temperature, losses are not always recorded at the moment they happen and transfers between vessels are sometimes not entered."
+  ],
+  [
+   "Is a lower yield per hectare a bad sign?",
+   "Not necessarily. Many growers limit yield on purpose to improve fruit quality. Some regions cap it by law."
+  ]
+ ],
+ "cta": {
+  "title": "Winery KPIs your team can actually explain",
+  "body": "Our Data and AI in beverages module takes analysts through winery yields, losses and stock movements, built around your team's own portfolio and data.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "wine-storage-and-cold-chain-india",
+  "wine-and-indian-food-pairing",
+  "old-world-vs-new-world-wine"
+ ]
+}

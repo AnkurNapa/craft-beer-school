@@ -1,0 +1,71 @@
+{
+ "slug": "beer-industry-explained-for-gcc-teams",
+ "cat": "Beer for teams",
+ "h1": "The beer business explained for GCC teams",
+ "title": "The Beer Business for GCC Teams | Craft Beer School",
+ "desc": "How a beer company works from brewhouse to retailer, explained for GCC analysts, planners and finance teams who report on it every day.",
+ "teaser": "You build the dashboards for a beer company. Here is what actually happens behind every row.",
+ "standfirst": "Most people in a beverage GCC can recite the brand list but have never stood next to a fermenter. This guide walks the whole business once, in plain terms, so the numbers on your screen start to mean something physical.",
+ "read": "4 min",
+ "updated": "2026-06-01",
+ "updated_label": "June 2026",
+ "sections": [
+  [
+   "Why the product matters to a reporting job",
+   "<p>A GCC team in Bengaluru or Hyderabad can run the reporting, planning and finance for breweries it will never visit. That works until a number moves for a reason nobody on the team can see.</p><p>A forecast misses because a tank was held for an extra week. A cost line jumps because a state changed its bottle rules. A quality flag appears and nobody knows whether it is cosmetic or a recall. The people who handle these moments well are rarely the best at SQL. They are the ones who know what the product is doing while the data is being collected.</p><p>You do not need to brew. You do need a working model of the chain. That is what this guide gives you.</p>"
+  ],
+  [
+   "Beer in one paragraph",
+   "<p>Malted barley is crushed and soaked in hot water so its starch turns into sugar. The sweet liquid, called <strong>wort</strong>, is boiled with hops for bitterness and aroma. It is cooled and yeast is added. Yeast eats the sugar and makes alcohol and carbon dioxide. The beer is then matured cold, usually filtered, carbonated and packed into bottles, cans or kegs.</p><p>In India, many mainstream beers also use rice, maize or sugar syrups alongside malt. These are called <strong>adjuncts</strong>. They lighten the body and lower the cost per litre.</p>"
+  ],
+  [
+   "The four businesses inside one beer company",
+   "<p>A brewer is really four operations stitched together.</p><ul><li><strong>Brewing and fermentation.</strong> Turning raw material into beer. Slow, biological and capacity bound by tanks.</li><li><strong>Packaging.</strong> Bottling, canning and kegging. Fast, mechanical and the biggest single source of downtime and material cost.</li><li><strong>Route to market.</strong> Getting stock through each state's licensing and distribution system to a retailer or bar.</li><li><strong>Brand and commercial.</strong> Pricing, promotion, portfolio and the relationship with the trade.</li></ul><p>Each one generates its own data with its own clock. Brewing reports in brews and hectolitres (one hectolitre is 100 litres). Packaging reports in cases and line hours. Sales reports in cases shipped and cases sold through. Finance reports per hectolitre and per case. A lot of reconciliation pain is simply these four clocks disagreeing.</p>"
+  ],
+  [
+   "Why beer is slow and sales are fast",
+   "<p>A mainstream lager ferments at around 8 to 13 °C and then matures cold, close to 0 °C. From brewhouse to packed bottle typically takes two to four weeks. Demand, on the other hand, can jump in a single hot week in April.</p><p>This mismatch drives most of what a planner sees. Beer has to be brewed before anyone knows exactly how much will sell. Fermentation tanks are the usual bottleneck, because a tank full of maturing lager cannot be used for anything else. When people say a brewery is \"at capacity\" in summer, they nearly always mean tank capacity, not the brewhouse.</p><p>The <a href=\"beer-production-planning-basics.html\">production planning guide</a> goes deeper into how planners juggle this.</p>"
+  ],
+  [
+   "What makes India different",
+   "<p>Alcohol in India is a state subject. Each state sets its own excise duty, licence conditions, label requirements and often its own pricing approval. In several states a government corporation is the only wholesaler. The practical result for a GCC team is that one brand can behave like a dozen slightly different products, each with its own price, label and tax line.</p><p>Rules and fees vary by state and change, sometimes mid-year. Anyone building a model on them should check the current state notification rather than last year's file. Our guide to <a href=\"alcohol-regulation-india-for-corporate-teams.html\">alcohol regulation for corporate teams</a> covers the process side.</p><p>Heat is the other Indian factor. Beer stales faster when stored warm. A depot running at 40 °C in May ages stock far quicker than the same stock in a cool store. This is why freshness and stock rotation sit so high on the agenda.</p>"
+  ],
+  [
+   "Where analysts usually get it wrong",
+   "<p>A few patterns come up again and again when teams new to beer read brewery data.</p><ul><li>Treating brewed volume as sales volume. Big brewers often brew concentrated wort and dilute it later, so brewhouse hectolitres and packaged hectolitres are not the same number.</li><li>Reading a summer stock-out as a forecasting failure when the real limit was tanks or returnable bottles.</li><li>Comparing cost per case across states without separating excise from production cost.</li><li>Assuming a quality hold is a data error. Sometimes the lab is simply doing its job.</li></ul><p>None of these need a chemistry degree to avoid. They need someone on the team who knows what a fermenter is for.</p>"
+  ],
+  [
+   "Getting a team to that level",
+   "<p>A one-off brewery tour helps, but the knowledge fades without a link back to the team's own reports. What sticks is mapping each dashboard metric to the physical step that produces it, then tasting the product the numbers describe. Where tastings happen, keep them opt-in and within company policy, with spit cups and non-drinkers made welcome.</p><p>That mapping takes a few focused sessions, not a degree. Start with the <a href=\"brewhouse-kpis-for-analysts.html\">brewhouse KPIs</a> your team already reports.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do GCC analysts need to know how beer is brewed?",
+   "Not in detail. They need a working model of the steps so they can explain why volumes, costs and forecasts move. A few hours of grounding saves weeks of misread reports."
+  ],
+  [
+   "What is a hectolitre?",
+   "One hundred litres. Breweries plan and cost in hectolitres because it is a practical unit for tanks and brews."
+  ],
+  [
+   "Why do beer numbers differ so much between Indian states?",
+   "Each state sets its own excise, labels, licences and often pricing. Some also route all stock through a government wholesaler. Check the current state notification before modelling it."
+  ],
+  [
+   "Is beer production planned weekly or monthly?",
+   "Usually both. Brewing and tank plans look weeks ahead because beer takes two to four weeks to make, while packaging is scheduled daily against orders."
+  ]
+ ],
+ "cta": {
+  "title": "Give your team the floor knowledge behind the numbers",
+  "body": "Our Beverage 101 module walks GCC and head office teams through brewing, packaging and route to market, built around your own brands and the reports your team already produces.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "brewhouse-kpis-for-analysts",
+  "beer-supply-chain-explained",
+  "beer-production-planning-basics"
+ ]
+}

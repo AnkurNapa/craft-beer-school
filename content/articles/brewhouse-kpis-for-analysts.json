@@ -1,0 +1,67 @@
+{
+ "slug": "brewhouse-kpis-for-analysts",
+ "cat": "Beer for teams",
+ "h1": "Brewhouse KPIs every beverage analyst should know",
+ "title": "Brewhouse KPIs for Beverage Analysts | Craft Beer School",
+ "desc": "The brewery KPIs analysts report on, from extract yield and beer loss to water per hectolitre, with what each means on the floor.",
+ "teaser": "Extract yield, beer loss, hl/hl water. What the numbers in your brewery dashboard are actually measuring.",
+ "standfirst": "Brewery KPIs look tidy in a dashboard. On the floor they are measured with hoses, meters and the occasional bucket. This guide explains what each common KPI measures and where it tends to lie.",
+ "read": "3 min",
+ "updated": "2026-06-03",
+ "updated_label": "June 2026",
+ "sections": [
+  [
+   "A KPI is a physical event, counted",
+   "<p>Every number on a brewery scorecard started as something happening to liquid, grain or steam. When an analyst can picture that event, odd values stop being mysterious. When they cannot, a meter fault and a real loss look identical.</p><p>Here are the measures you will see most, grouped by where they are produced.</p>"
+  ],
+  [
+   "Brewhouse yield and extract efficiency",
+   "<p><strong>Extract</strong> is the sugar and other dissolved material that comes out of the malt into the wort. Brewers measure wort strength in <strong>degrees Plato</strong> (°P), roughly the percentage of dissolved solids by weight. A 12 °P wort is about 12 per cent extract.</p><p><strong>Brewhouse yield</strong> compares the extract that reached the fermenter with the extract the malt could theoretically give, based on the maltster's analysis. Well run plants usually sit somewhere in the high eighties to mid nineties per cent, depending on equipment. A mash filter tends to beat a traditional lauter tun.</p><p>A drop of one or two points matters because malt is a large raw material cost. Before treating it as a real loss, check whether the malt analysis was updated for a new lot. A stale malt certificate is a classic source of a phantom yield problem.</p>"
+  ],
+  [
+   "Beer loss, stage by stage",
+   "<p>Liquid disappears at every step. Wort is left behind in the spent grain. Yeast and sediment are removed after fermentation. Filters hold beer. Packaging lines overfill, underfill and reject. Each stage loses a little. The total from wort to packaged beer is a closely watched number.</p><p>Good loss reporting breaks it down by stage. A single total hides where the money went. If one week's total jumps, the first question is which stage moved, the second is whether a tank count or meter was off.</p><p>Beware high gravity brewing. Large brewers often brew strong wort and dilute with deaerated water before packaging. Volume grows between brewhouse and bottle. Loss calculations must be done on extract or on a diluted equivalent, not raw hectolitres, or losses can look negative.</p>"
+  ],
+  [
+   "Brews per day and tank occupancy",
+   "<p>The brewhouse makes batches called <strong>brews</strong>. Brews per day shows how hard it is working. A brewhouse rarely limits output for long, though. Fermentation and maturation tanks usually do.</p><p><strong>Tank occupancy</strong> or tank days tell you how much of that capacity is in use. A lager that sits in a tank for three weeks ties up that tank whether demand is high or low. When summer arrives, this is the number that decides how much more beer the plant can make.</p>"
+  ],
+  [
+   "Water, energy and CO2",
+   "<p>Breweries report <strong>water use</strong> as hectolitres of water per hectolitre of beer (hl/hl). Large modern plants commonly run somewhere around three to five hl/hl. Smaller breweries often use more. Most of the water is not in the beer at all: it goes into cleaning, cooling and the bottle washer.</p><p><strong>Energy</strong> is usually reported as megajoules or kilowatt hours per hectolitre. Boiling wort and pasteurising packaged beer are the heavy users.</p><p>In India, a plant drawing on borewell water may also track treatment cost, since hard or variable groundwater needs more treatment before it is fit for brewing. When water per hectolitre jumps, look at cleaning cycles first. A run of short brews or many product changes means more cleaning per hectolitre.</p>"
+  ],
+  [
+   "Quality and schedule KPIs",
+   "<p>Two more groups round out most scorecards. <strong>Right first time</strong> counts batches that met specification without rework or blending. <strong>Schedule adherence</strong> compares what was planned with what was brewed and packed.</p><p>Both are easy to game and easy to misread. A brewery with very high right first time may have loose specifications. Low schedule adherence may be a sales team changing orders, not a brewery failing. Our guide to <a href=\"beer-quality-data-for-data-teams.html\">beer quality data</a> covers the lab side.</p>"
+  ],
+  [
+   "Reading KPIs without misjudging the plant",
+   "<p>Compare plants only after checking they measure the same way. One site's beer loss may start at the fermenter, another's at the brewhouse. One counts dilution water, another does not.</p><p>That gap between definition and reality is where most analyst errors live. Closing it needs someone who has walked the floor with the KPI dictionary in hand, then rebuilt the team's own measures to match.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good brewhouse yield?",
+   "It depends on equipment, but well run plants often sit in the high eighties to mid nineties per cent of theoretical extract. Compare a plant with its own history before comparing it with others."
+  ],
+  [
+   "Why is water use reported per hectolitre of beer?",
+   "It normalises for volume, so a busy month and a quiet month can be compared. Most of the water goes into cleaning, cooling and bottle washing rather than the beer itself."
+  ],
+  [
+   "Why can beer loss look negative?",
+   "High gravity brewing adds dilution water after the brewhouse, so packaged volume can exceed brewed volume. Calculate loss on extract or a diluted equivalent."
+  ]
+ ],
+ "cta": {
+  "title": "Fix the KPIs nobody on the team can explain",
+  "body": "Our Brewing and distilling operations module takes your analysts through each KPI on your own scorecard, built around your team's portfolio and plants, so every number has a physical meaning.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "beer-supply-chain-explained",
+  "beer-production-planning-basics",
+  "beer-cost-of-goods-explained"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "whisky-label-terms-explained",
+ "cat": "Whisky",
+ "h1": "Whisky label terms: age statements, single cask and cask strength",
+ "title": "Whisky Label Terms Explained | Craft Beer School",
+ "desc": "What whisky labels actually promise: age statements, single malt, single cask, cask strength, finishes, chill filtration, natural colour and Indian label rules.",
+ "teaser": "A 12 year old can contain whisky much older than twelve. A small batch can be large. Here is how to read the label.",
+ "standfirst": "Every term on a whisky label is either a legal promise or a marketing choice. Knowing which is which helps anyone who works with product data, pricing or brand teams.",
+ "read": "3 min",
+ "updated": "2026-07-24",
+ "updated_label": "July 2026",
+ "sections": [
+  [
+   "A label is a set of promises",
+   "<p>Some words on a whisky label are defined in law, at least in the country of origin. Others mean whatever the producer wants. The trick is knowing which is which. The definitions below follow Scotch practice, which most whisky labels borrow, with notes on India at the end.</p>"
+  ],
+  [
+   "Age statements",
+   "<p>An age statement gives the age of the <strong>youngest</strong> whisky in the bottle. A 12 year old can contain whisky of 15 or 20 years, but nothing younger than 12. Age counts only the years spent maturing in the cask. Time in the bottle does not count. A 12 year old bottled in 2015 and opened today is still a 12 year old.</p><p>Age statements also tie the hands of the people who make the whisky. Once a brand promises a number, the stock has to support it every year, whatever demand does. Our guide to <a href=\"whisky-inventory-planning.html\">whisky inventory planning</a> explains why that matters.</p><p>Whiskies sold without an age are called <strong>no age statement</strong>, or NAS. That is not a quality signal in either direction. It gives the blender freedom to use younger casks that taste ready, which matters most in hot climates, where whisky matures faster.</p>"
+  ],
+  [
+   "Single malt, single cask and small batch",
+   "<p><strong>Single malt</strong> means malt whisky from one distillery, usually a mix of many casks. <strong>Single cask</strong> means exactly that: every bottle came from one cask. Single cask releases are numbered, limited and different from cask to cask. If a favourite runs out, the next one will taste different.</p><p><strong>Small batch</strong> has no legal definition in Scotland or the United States. It suggests a smaller vatting than usual, but the size is up to the producer. Our guide to <a href=\"malt-grain-and-blended-whisky.html\">malt, grain and blended whisky</a> covers the main categories.</p>"
+  ],
+  [
+   "Cask strength",
+   "<p>Most whisky is reduced with water to a bottling strength of 40 to 46% ABV. <strong>Cask strength</strong> whisky is bottled without that reduction, often somewhere between 50 and 65% ABV. It is meant to be tasted with a few drops of water, which loosens aroma. A cask strength whisky will usually cost more per bottle because it contains more alcohol and carries higher duty where tax is charged on alcohol content.</p>"
+  ],
+  [
+   "Finishes, chill filtration and colour",
+   "<p><strong>Finished in</strong> sherry, port or wine casks means the whisky spent its main maturation in one cask, then moved to a second for a shorter time.</p><p><strong>Non-chill filtered</strong> means the producer skipped a step. Chill filtration cools the whisky and filters out fatty compounds that can make it cloudy when cold or when water is added. Some drinkers believe those compounds carry texture. Whiskies bottled at 46% ABV or above stay clear more easily, so they are often left unfiltered.</p><p><strong>Natural colour</strong> means no caramel colouring. Scotch is allowed to add plain caramel to keep each batch the same shade. Many blends do.</p>"
+  ],
+  [
+   "Indian labels",
+   "<p>Indian whisky labels carry the category under national food standards, the strength, the volume and the maximum retail price, plus statutory warnings. Many states add their own excise labels or holograms. Each state usually requires the label to be registered before sale. Terms such as \"blended with Scotch\" or \"bottled in India\" describe where the spirit came from and where it was packed. Rules vary by state and change, so the current notification is the reference.</p>"
+  ],
+  [
+   "Reading a label at work",
+   "<p>Teams often ask whether a term is worth paying more for. The honest answer is that most label terms describe how a whisky was made, not how good it is. A cask strength single cask from a tired refill barrel can be dull. A well-made blend can be excellent. The label tells you what to expect from the liquid. Only tasting tells you whether you like it, which is why our guide to <a href=\"whisky-tasting-for-beginners.html\">tasting whisky properly</a> is a good next step.</p><p>Label terms end up as fields in a product master: age, category, strength, cask type, bottling location. When those fields are filled in loosely, every report built on them inherits the mistake. A brand team calling something \"aged\" and a data team recording an age statement are not always talking about the same thing. Someone has to know the difference.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does a 12 year old whisky contain only 12 year old whisky?",
+   "No. The age statement shows the youngest whisky in the bottle. Older whisky can be in the blend too."
+  ],
+  [
+   "What does cask strength mean?",
+   "The whisky was bottled without being reduced with water, usually at 50 to 65% ABV instead of the standard 40 to 46%."
+  ],
+  [
+   "Is a no age statement whisky young?",
+   "Not necessarily. It may contain old whisky alongside younger casks. The producer has simply chosen not to declare an age."
+  ],
+  [
+   "What is chill filtration?",
+   "Cooling whisky and filtering out compounds that can make it cloudy when cold or diluted. Non-chill filtered whisky skips this step."
+  ]
+ ],
+ "cta": {
+  "title": "Help your team speak the language on the label",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions. Each one starts from how the product is made and ends at the numbers your team works with.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "whisky-tasting-for-beginners",
+  "distillery-kpis-for-analysts",
+  "molasses-vs-grain-spirit-india"
+ ]
+}

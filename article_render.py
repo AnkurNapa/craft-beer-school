@@ -42,6 +42,15 @@ def _cta(cta, variant="inline"):
 </aside>"""
 
 
+def _also(also):
+    """Quiet second route for a reader who wants the course, not the team programme."""
+    if not also:
+        return ""
+    href, name = also
+    return (f'\n<p class="cta-also">Learning for yourself? '
+            f'<a href="{href}" data-cta="article-also">See {name}</a></p>')
+
+
 def _byline(people):
     """Who the story is about and who wrote it, each with a photo when we have one."""
     cards = "".join(f"""<div class="byline">
@@ -128,7 +137,7 @@ def render(article, by_slug):
 
     {_faqs(article.get('faqs'))}
 
-    {_cta(article['cta'], 'band')}
+    {_cta(article['cta'], 'band')}{_also(article.get('also'))}
   </div>
 </article>
 

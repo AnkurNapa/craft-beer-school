@@ -1,0 +1,63 @@
+{
+ "slug": "data-and-ai-in-breweries-wineries-distilleries",
+ "cat": "Drinks business",
+ "h1": "Where data and AI help breweries, wineries and distilleries",
+ "title": "Data and AI in Drinks Production | Craft Beer School",
+ "desc": "Where data and AI genuinely help breweries, wineries and distilleries, where they do not and what tech teams must understand first.",
+ "teaser": "The useful AI projects in a drinks company start with a tank, a cask or a vineyard. The failed ones start with a model.",
+ "standfirst": "Data and AI can save a drinks company real money, but only when the people building the tools understand what the numbers mean on the production floor. This guide maps where the value usually sits in beer, wine and whisky. It also shows where projects tend to go wrong.",
+ "read": "3 min",
+ "updated": "2026-09-19",
+ "updated_label": "September 2026",
+ "sections": [
+  [
+   "Start with the process, not the model",
+   "<p>Most failed data projects in drinks companies share a cause: a capable team built something accurate that nobody on the floor needed. A forecast that ignores dry days, a quality model that does not know a lager is meant to sit cold for weeks, a dashboard that reports a KPI the brewer never uses. The maths was fine. The understanding of the product was missing.</p><p>The questions worth asking first are simple. What decision does this help someone make? Who makes it and how often? What does the data look like when things are normal and when they go wrong? Teams that can answer those for a brewery, a winery and a distillery build tools that get used.</p><p>Expect the data to be messier than in other industries. Many readings are still taken by hand and typed in at the end of a shift. A sensor gets recalibrated without a note in the log. Batch numbers change format when a new system goes live. Budget time to understand where each number comes from before you model it.</p>"
+  ],
+  [
+   "Breweries: fermentation, quality and demand",
+   "<p>Fermentation is the clearest example. Brewers track how much sugar is left in the beer by measuring its density, often in degrees Plato. A lager might start near 12 °Plato and finish near 2 °Plato over about a week at 10 °C. That falling curve has a typical shape for each recipe. Inline density sensors now record it continuously. A model that flags a curve drifting off its usual shape can warn a brewer of a stuck or slow fermentation days before a manual check would.</p><p>Beyond the tank, breweries get value from packaging line data (where stoppages and losses happen), lab data on each batch and demand forecasting. Beer demand in India swings with heat and festivals. A forecast that learns those patterns state by state helps a planner fill tanks for the weeks that matter. Our guide to <a href=\"beer-demand-forecasting-indian-seasons.html\">beer demand in Indian seasons</a> goes deeper.</p>"
+  ],
+  [
+   "Wineries: the vineyard and the vintage",
+   "<p>A winery gets one harvest a year, so its biggest data questions sit in the vineyard. When to pick depends on grape sugar, acidity and weather. Growers sample the fruit for weeks before harvest. Weather data, satellite or drone images of the vines and sample results can help predict picking dates and yields. A better yield estimate lets the winery plan tank space, labour and purchased grapes before the fruit arrives.</p><p>In the cellar, fermentation monitoring works much as it does in a brewery. Temperature control matters for white wines, which are usually fermented cooler than reds.</p>"
+  ],
+  [
+   "Distilleries: casks and time",
+   "<p>For whisky the hard problem is inventory that takes years to mature. A distillery holds thousands of casks of different ages, wood types and fill histories. The spirit in each loses volume to evaporation every year. In Indian heat that loss is far higher than Scotland's commonly quoted figure of about 2% a year. Good cask records plus models of loss and maturation help blenders and planners decide what to lay down today for brands that will be sold years from now.</p><p>Distilling itself is energy-heavy, so steam and energy data are another common target for savings.</p>"
+  ],
+  [
+   "Where GenAI fits",
+   "<p>Generative AI is useful where people search through text. Standard operating procedures, quality records, label rules and sales notes are all text. An assistant that answers questions from those documents can save time across a business. It needs care: answers must cite the source document. Anything touching regulation or food safety needs a human check. Rules on alcohol vary by state and change, so a model trained on last year's documents can be confidently wrong.</p>"
+  ],
+  [
+   "What your team needs to know first",
+   "<p>The common thread is domain knowledge. A data scientist does not need to brew, but they do need to know what a gravity reading is, why a cask loses volume and why a winery cannot make more wine in July. Without that, the team spends months learning by trial and error what a short, practical course could teach in a week. That is the gap we see most often in analytics and technology teams that support drinks businesses.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the easiest AI win in a brewery?",
+   "Fermentation monitoring is often a good start. Density and temperature data are already collected, the curves have a predictable shape and early warnings of a slow fermentation have clear value."
+  ],
+  [
+   "Can AI predict a grape harvest?",
+   "It can help estimate picking dates and yields from weather data, vine imagery and fruit samples. The final call still rests with the winemaker and the grower."
+  ],
+  [
+   "Is GenAI safe to use for compliance questions?",
+   "Only with care. Answers should cite their source documents and be checked by a person, because alcohol rules vary by state and change often."
+  ]
+ ],
+ "cta": {
+  "title": "AI projects that do not survive contact with the floor",
+  "body": "Our Data and AI in beverages module teaches tech and analytics teams how brewing, winemaking and distilling generate data and where AI helps. We build it around your own portfolio and the systems your team already supports.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "product-training-for-beverage-gcc-teams",
+  "onboarding-new-joiners-in-a-drinks-company",
+  "water-energy-packaging-beer-wine-spirits"
+ ]
+}

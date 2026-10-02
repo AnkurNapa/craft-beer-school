@@ -1,0 +1,67 @@
+{
+ "slug": "excise-for-finance-teams-beer-wine-spirits",
+ "cat": "Drinks business",
+ "h1": "Excise basics for finance teams in beer, wine and spirits",
+ "title": "Excise Basics for Drinks Finance Teams | Craft Beer School",
+ "desc": "How state excise works for beer, wine and spirits in India, explained at process level for finance teams. No rates, just the mechanics.",
+ "teaser": "In a drinks company, excise can be a bigger number than the cost of the liquid. Here is how it moves through your books.",
+ "standfirst": "Finance teams joining a drinks company soon find that excise drives margins, cash flow and reconciliations. This guide explains the mechanics at process level for beer, wine and spirits in India. Rates and rules vary by state and change, so treat it as orientation, not advice.",
+ "read": "3 min",
+ "updated": "2026-10-01",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why excise behaves differently here",
+   "<p>Alcohol for human consumption is a state subject in India and sits outside GST. Each state sets its own excise duty, its own fees and its own sales tax or VAT on alcohol. Most revise them regularly, often around the start of the financial year. A finance team supporting a national portfolio is really supporting many tax systems at once.</p><p>Excise can be a larger number than the cost of making the drink. That makes it the line that most often explains a margin swing, a cash crunch or a pricing decision. You do not need to memorise rates. You do need to understand how the system works so you can follow the numbers.</p>"
+  ],
+  [
+   "What the duty is charged on",
+   "<p>States use different bases for working out duty. A single state may use different ones for beer, wine and spirits. Common approaches include a charge per litre of product, a charge linked to the amount of alcohol in it and a charge linked to price, sometimes in slabs. Some states combine more than one. Beer, wine and spirits are usually taxed under separate schedules.</p><p>The practical point for finance: the same product can carry a very different duty in two neighbouring states. A change in strength, pack size or price can move it into a different band. Any pricing or pack decision needs a duty check per state before it goes ahead.</p>"
+  ],
+  [
+   "When duty is paid",
+   "<p>Most finished stock sits in a bonded warehouse under excise supervision until it is released. Duty generally becomes payable at release, before the goods reach the market. That is often well before the company is paid by its customer. That gap is working capital. In states where a government corporation is the sole wholesaler, the timing of payments and the terms of trade follow that corporation's system, which changes the cash picture again.</p><p>Goods moving between states usually need permits from both the exporting and importing states, with fees attached. Permit timing can hold stock in bond, so it shows up in inventory days as well as in cost.</p>"
+  ],
+  [
+   "Stock, losses and the excise register",
+   "<p>Here is where production and finance meet. Excise departments track bonded stock closely. The company's records must reconcile with them. Real liquid is lost along the way: beer left in tanks and lines, spirit lost in transfers and whisky evaporating from casks during maturation. In Indian heat, that evaporation runs well above Scotland's commonly quoted figure of about 2% a year. States set norms for allowable wastage and transit loss. Losses inside the norm are accepted. Losses outside it can attract duty or questions.</p><p>For a finance team, this means a production loss is also an excise event. Variances between the plant's figures and the excise register are worth chasing early, before an audit does it for you. Our guide to <a href=\"angels-share-whisky-in-indian-heat.html\">the angels' share in Indian heat</a> explains the cask side.</p>"
+  ],
+  [
+   "Fees beyond the duty",
+   "<p>Duty is not the only cost. Expect licence fees for manufacturing, warehousing and distribution, annual brand and label registration fees in each state, permit and pass fees for moving goods and in some states charges on each bottle or label. These are often fixed per brand or per state, so a small brand sold in many states can carry a heavy compliance cost relative to its volume. That is worth knowing before anyone proposes a long tail of SKUs.</p>"
+  ],
+  [
+   "Reporting it properly",
+   "<p>Because alcohol is outside GST, GST paid on inputs such as packaging and services cannot usually be offset against output tax the way it would be in other industries, so it tends to become a cost. Listed drinks companies often report revenue both including and excluding excise duty. Before comparing two dashboards, check which one each uses. A margin calculated on gross revenue and one calculated on net revenue are telling different stories.</p><p>None of this replaces the current state notification or advice from your tax team and a licensing consultant. What it gives you is the map, so the questions you take to them are the right ones.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is excise duty on alcohol the same across India?",
+   "No. Each state sets its own duty, fees and taxes on alcohol. Most revise them regularly. Always check the current notification for the state concerned."
+  ],
+  [
+   "When does a drinks company pay excise duty?",
+   "Generally when goods are released from a bonded warehouse, before they reach the market. The exact point and process vary by state."
+  ],
+  [
+   "Why do drinks companies report revenue with and without excise?",
+   "Because excise is a large part of the price. Showing both lets readers see the size of the duty and compare margins on a like-for-like basis."
+  ],
+  [
+   "Can GST paid on inputs be offset for alcohol?",
+   "Usually not, because alcohol for human consumption is outside GST. That GST tends to become a cost, so check the treatment with your tax team."
+  ]
+ ],
+ "cta": {
+  "title": "When the margin moves and nobody can say why",
+  "body": "Our Route to market and regulation in India module walks finance teams through excise, permits, bonded stock and reporting. We build it around your own portfolio and the states you sell in. A briefing, not legal advice.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "alcohol-regulation-india-for-corporate-teams",
+  "running-responsible-tastings-at-work",
+  "data-and-ai-in-breweries-wineries-distilleries"
+ ]
+}

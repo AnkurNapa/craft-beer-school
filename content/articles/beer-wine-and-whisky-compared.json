@@ -1,0 +1,63 @@
+{
+ "slug": "beer-wine-and-whisky-compared",
+ "cat": "Drinks business",
+ "h1": "Beer, wine and whisky compared, for people joining the drinks business",
+ "title": "Beer, Wine and Whisky Compared | Craft Beer School",
+ "desc": "How beer, wine and whisky are made, how long each takes and why that shapes the forecasts, stock plans and dashboards you work on.",
+ "teaser": "Beer takes weeks, wine waits for one harvest a year and whisky sits in a cask for years. That difference runs your whole planning calendar.",
+ "standfirst": "All three drinks start the same way: yeast turns sugar into alcohol. What changes is where the sugar comes from and how long the product waits before it can be sold. Learn that and half the numbers on your screen start to make sense.",
+ "read": "4 min",
+ "updated": "2026-09-11",
+ "updated_label": "September 2026",
+ "sections": [
+  [
+   "One process underneath all three",
+   "<p>Every alcoholic drink is the work of yeast. Give yeast sugar in a liquid and it produces alcohol and carbon dioxide, plus a long list of flavour compounds. Beer, wine and whisky are three different answers to two questions: where does the sugar come from and what happens after fermentation?</p><p>Beer gets its sugar from grain. Wine gets it from grapes. Whisky also gets it from grain, but the fermented liquid is then distilled to concentrate the alcohol and aged in wood. Those choices decide the time each product takes to make. Time is what turns up in your work as lead times, stock levels and working capital.</p>"
+  ],
+  [
+   "Beer: grain, made in weeks",
+   "<p>Grain starch cannot be fermented directly. Barley is first malted (soaked, sprouted and dried) so it carries the enzymes that turn starch into sugar. At the brewery the malt is crushed and soaked in hot water, a step called mashing, to make a sweet liquid called wort. Many Indian lagers also use rice or maize as an adjunct, which adds fermentable sugar with a lighter body. The wort is boiled with hops for bitterness and aroma, cooled and fermented.</p><p>Ales ferment warm, roughly 18 to 22 °C. They are ready in a couple of weeks. Lagers ferment cool, around 8 to 13 °C, then sit near 0 °C for further weeks of conditioning. Most beer sold in India lands between about 4 and 8% alcohol by volume (ABV).</p><p>Beer is best fresh. Heat and time stale it, so the cold chain from brewery to shop matters more for beer than for the other two. If you want the craft side of the story, our guide to <a href=\"what-is-craft-beer.html\">what craft beer is</a> is a good next read.</p>"
+  ],
+  [
+   "Wine: fruit, made once a year",
+   "<p>Grapes bring their own sugar, so there is no mashing. They are picked, crushed and fermented by yeast that turns grape sugar into alcohol. Red wine is fermented with the skins, which is where its colour and much of its grip (tannin) come from. White wine is usually pressed off the skins before fermentation. Rose sits in between, with a short time on red skins.</p><p>The defining fact for a planner is that grapes ripen once a year. A winery gets one harvest, called the vintage. That year's grapes set the ceiling on how much wine it can make. Indian vineyards in Nashik in Maharashtra and around Bengaluru in Karnataka harvest early in the calendar year, not in autumn as in Europe. Table wine usually lands somewhere around 11 to 15% ABV.</p>"
+  ],
+  [
+   "Whisky: distilled beer that waits for years",
+   "<p>Whisky begins as something close to an unhopped beer, called the wash. Distilling heats the wash and collects the vapour, which is richer in alcohol than the liquid it came from. The new spirit is clear and harsh. Wood changes that: years in oak casks add colour, smooth the edges and bring vanilla, spice and dried fruit notes.</p><p>In Scotland whisky must age at least three years in oak. India has no Scottish winter. Heat changes the maths. Spirit matures faster here. More of it evaporates from the cask each year than Scotland's commonly quoted figure of about 2%. Much of the whisky sold in India is a blend that uses neutral spirit, often distilled from molasses, alongside malt or grain whisky. Our guide to <a href=\"molasses-vs-grain-spirit-india.html\">molasses and grain spirit</a> explains why that matters.</p>"
+  ],
+  [
+   "What this means at your desk",
+   "<p>Put the three side by side and the planning problem becomes clear:</p><ul><li>Beer turns in weeks. A forecast error shows up fast. So does the fix. Capacity is usually limited by tank space, because a lager can occupy a conditioning tank for a month.</li><li>Wine is decided once a year. If the harvest is short, no amount of planning creates more grapes until the next vintage.</li><li>Whisky is decided years ahead. The spirit a distillery lays down today is the brand it can sell in the future, so whisky inventory is part forecast, part bet.</li></ul><p>This is why a beer dashboard talks about weekly volumes and freshness, a wine report talks about vintages and a whisky report talks about stock in cask by age. The numbers are not arbitrary. They follow the product.</p>"
+  ],
+  [
+   "Words that trip up new joiners",
+   "<p>A few terms come up in the first week and are rarely explained:</p><ul><li><strong>ABV</strong>: alcohol by volume, the percentage of the liquid that is alcohol.</li><li><strong>Wort</strong> and <strong>wash</strong>: the sweet liquid before fermentation (beer) and the fermented liquid before distillation (whisky).</li><li><strong>Vintage</strong>: the harvest year of a wine.</li><li><strong>Age statement</strong>: on a whisky label, the age of the youngest whisky in the bottle.</li><li><strong>Case</strong>: the sales unit. Its size varies by product and pack, so always check what a case means before you compare volumes.</li></ul><p>Reading about these helps. Seeing a mash tun, a tank of fermenting wine or a cask on a slide, explained by someone who has worked with them, makes them stick far better.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is whisky just distilled beer?",
+   "Close. Whisky starts as a fermented grain liquid much like beer without hops, then it is distilled and aged in wood. The distilling and the years in oak are what make it whisky."
+  ],
+  [
+   "Why does wine planning work on a yearly cycle?",
+   "Grapes ripen once a year, so each winery gets one harvest. That harvest sets how much wine can be made until the next one."
+  ],
+  [
+   "Why does Indian whisky age differently from Scotch?",
+   "Heat. Warm conditions speed up the interaction between spirit and wood and increase evaporation from the cask, so maturation runs faster and losses are higher than in Scotland."
+  ]
+ ],
+ "cta": {
+  "title": "Give your team the product behind the numbers",
+  "body": "We run beverage training for drinks companies and GCC teams. Modules include Beverage 101, which covers how beer, wine and whisky are made, plus guided sensory sessions on your own portfolio.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "alcohol-regulation-india-for-corporate-teams",
+  "running-responsible-tastings-at-work",
+  "data-and-ai-in-breweries-wineries-distilleries"
+ ]
+}

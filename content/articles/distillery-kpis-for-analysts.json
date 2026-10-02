@@ -1,0 +1,67 @@
+{
+ "slug": "distillery-kpis-for-analysts",
+ "cat": "Whisky",
+ "h1": "Distillery KPIs: yield, litres of pure alcohol and losses",
+ "title": "Distillery KPIs: Yield, LPA and Losses | Craft Beer School",
+ "desc": "The distillery numbers analysts meet most: litres of pure alcohol, strength at 20 °C, yield per tonne, losses and how to read a variance.",
+ "teaser": "Why does a distillery report litres of pure alcohol instead of litres? Because the bulk volume keeps changing while the alcohol mostly does not.",
+ "standfirst": "Distillery reports are full of numbers that look simple and are not. This guide explains the main ones from the floor up, so an analyst can tell a real problem from a measurement quirk.",
+ "read": "3 min",
+ "updated": "2026-07-30",
+ "updated_label": "July 2026",
+ "sections": [
+  [
+   "Why distilleries count pure alcohol",
+   "<p>Spirit changes strength at almost every stage. Wash is around 8% ABV, new make around 70%, filled casks are often reduced to the low 60s. Bottled whisky sits at 40% or more. Bulk litres jump up and down as water is added or removed. The alcohol itself is what the business makes, sells and pays duty on.</p><p>So distilleries count <strong>litres of pure alcohol</strong>, or LPA:</p><p><strong>LPA = bulk litres x ABV / 100</strong></p><p>A cask holding 200 litres at 63.5% ABV contains 127 LPA. Reduced to 40% for bottling, that becomes about 317 litres of whisky. The bulk volume grew by more than half. The LPA did not change at all.</p>"
+  ],
+  [
+   "Strength is measured at 20 °C",
+   "<p>Alcohol expands with heat more than water does, so both volume and strength readings drift with temperature. ABV is defined at 20 °C. On the floor, readings from an alcohol meter or a density meter are corrected to 20 °C using standard tables. A reading taken in a hot tank store and not corrected will overstate strength. Every LPA figure built on it inherits the error.</p><p>One more quirk: alcohol and water shrink slightly when mixed. Add 60 litres of water to 40 litres of pure alcohol and you get a little less than 100 litres. That is why reduction is planned in LPA rather than bulk litres.</p>"
+  ],
+  [
+   "Yield: LPA per tonne",
+   "<p>Spirit <strong>yield</strong> is the main efficiency number. For a grain or malt distillery it is LPA produced per tonne of grain. For a molasses distillery it is LPA per tonne of molasses, which depends heavily on how much fermentable sugar that molasses still holds.</p><p>Malt distilleries usually compare actual yield with a <strong>predicted yield</strong> from the maltster's analysis of each batch. The gap shows how well the plant converted what it was given. It is broken down further into conversion in the mash, fermentation efficiency and distillation efficiency, so a drop can be traced to a stage.</p>"
+  ],
+  [
+   "Where the losses sit",
+   "<p>Some apparent losses are not losses. Carbon dioxide leaving fermentation is chemistry, not waste. Foreshots and feints from a pot still are recycled into the next run rather than thrown away.</p><p>The real losses are spread across the process: incomplete conversion, spirit left in spent grain or effluent, small spills and transfer losses, then evaporation in the cask, the <a href=\"angels-share-whisky-in-indian-heat.html\">angels' share</a>. Finally there are losses at reduction and bottling. Excise authorities set allowances for many of these. In India the allowances and recording rules are set by each state and change, so check the current notification.</p>"
+  ],
+  [
+   "Other numbers worth knowing",
+   "<ul><li><strong>Energy per LPA</strong>: steam and power used per unit of spirit, usually the largest running cost after raw material.</li><li><strong>Water per LPA</strong>: process and cooling water, closely watched where water is scarce.</li><li><strong>Fermentation time</strong>: affects both capacity and flavour, so a shorter one is not automatically better.</li><li><strong>Ageing profile</strong>: stock in LPA by age band, covered in our guide to <a href=\"whisky-inventory-planning.html\">whisky inventory planning</a>.</li></ul>"
+  ],
+  [
+   "Reading a variance like the floor does",
+   "<p>Say yield drops for a week. A dashboard flags it in red. The floor team will ask a list of questions before anyone panics. Did the malt batch change? Was the mill gap adjusted? Did mash temperatures drift? Is there infection in a washback? Was the meter recalibrated or the temperature correction skipped?</p><p>The answer is often dull. A new malt batch with slightly lower extract, or a meter that drifted, explains more red cells than any dramatic failure. Sometimes the answer is that nothing changed in the plant at all: the stock count moved because a regauge replaced an estimate. Knowing which explanation to check first saves a week of email. A short call with the shift lead usually settles it faster than another round of charts.</p><p>Most of those causes leave traces in data the analyst already has, if they know where to look. That is the gap between reporting a KPI and explaining it. Closing it means understanding the process that produces the number.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does LPA stand for?",
+   "Litres of pure alcohol: bulk litres multiplied by ABV and divided by 100. It is the standard unit for spirit production, stock and duty."
+  ],
+  [
+   "Why is ABV corrected to 20 °C?",
+   "Volume and strength readings change with temperature. Correcting to 20 °C makes every reading comparable."
+  ],
+  [
+   "What is spirit yield?",
+   "LPA produced per tonne of raw material, such as malt, grain or molasses. Malt distilleries compare it with a predicted yield from the malt analysis."
+  ],
+  [
+   "Is fermentation carbon dioxide counted as a loss?",
+   "No. It is an expected product of fermentation. Real losses include incomplete conversion, spirit left in residues, transfer losses and evaporation in the cask."
+  ]
+ ],
+ "cta": {
+  "title": "Distillery KPIs your team cannot explain?",
+  "body": "Our Brewing and distilling operations module shows analysts how LPA, yield and losses are produced on the floor. We build it around your team's own portfolio and reports.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "molasses-vs-grain-spirit-india",
+  "how-whisky-blenders-keep-brands-consistent",
+  "how-whisky-is-made"
+ ]
+}

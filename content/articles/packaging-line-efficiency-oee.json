@@ -1,0 +1,71 @@
+{
+ "slug": "packaging-line-efficiency-oee",
+ "cat": "Beer for teams",
+ "h1": "Packaging line efficiency and OEE in a brewery",
+ "title": "Packaging Line Efficiency and OEE | Craft Beer School",
+ "desc": "How OEE works on a brewery bottling or canning line: availability, performance, quality, the filler bottleneck and the losses behind each.",
+ "teaser": "The packaging line is where breweries lose most of their hours. OEE is how they count them.",
+ "standfirst": "A brewery packaging line runs tens of thousands of bottles an hour and stops more often than anyone would like. OEE turns those stops into one number. This guide explains how it is built, what it hides and how to read it.",
+ "read": "3 min",
+ "updated": "2026-06-18",
+ "updated_label": "June 2026",
+ "sections": [
+  [
+   "What a packaging line is",
+   "<p>A bottling line is a chain of machines joined by conveyors. On a returnable glass line in India the order is typically: depalletiser, crate unpacker, bottle washer, empty bottle inspector, filler and crowner, pasteuriser, labeller, crate packer and palletiser. A can line is shorter, with no washer.</p><p>Each machine has its own speed, faults and changeover needs. The line only produces when all of them work together.</p><p>After filling, a tunnel pasteuriser sprays the closed bottles with hot water to make the beer microbiologically stable, then cools them again. It is one of the slowest parts of the line to empty and refill, which is why stopping and restarting it costs so much time.</p>"
+  ],
+  [
+   "The filler sets the pace",
+   "<p>The <strong>filler</strong> is the heart of the line. It fills bottles with beer under carbon dioxide pressure so oxygen stays out, then the crowner seals them. Lines are usually designed so the filler is the slowest machine, with machines before and after it rated somewhat faster. Conveyors between machines hold small buffers.</p><p>This is sometimes drawn as a V shape: speed falls towards the filler and rises after it. The idea is that small stops elsewhere are absorbed by the buffers, so the filler keeps running. When a labeller stops for longer than the buffer can hold, the filler stops too. For OEE, what matters is the filler's output.</p>"
+  ],
+  [
+   "How OEE is calculated",
+   "<p><strong>Overall equipment effectiveness</strong> multiplies three ratios.</p><ul><li><strong>Availability:</strong> the share of planned production time the line was actually running.</li><li><strong>Performance:</strong> how fast it ran while running, compared with its rated speed.</li><li><strong>Quality:</strong> the share of output that was good, first time.</li></ul><p>A line at 90 per cent availability, 90 per cent performance and 98 per cent quality has an OEE of about 79 per cent. Three numbers that each look healthy multiply into one that does not. That is the point of the measure.</p><p>The often quoted \"world class\" 85 per cent figure comes from general manufacturing. Treat it as a talking point, not a target, until you know how your own plant defines planned time.</p>"
+  ],
+  [
+   "Where the hours actually go",
+   "<p>Availability losses are the big ones on most beer lines: changeovers, cleaning, breakdowns, waiting for beer from the bright beer tank and waiting for materials such as labels or crowns.</p><p>Returnable glass adds its own. Bottles come back dirty, chipped or carrying foreign labels. The bottle washer and the empty bottle inspector reject the bad ones. If incoming glass quality drops, the washer slows, rejects rise and the filler starves. In April that can look like a line problem when it is really a bottle supply problem.</p><p>Performance losses are short stops and running below rated speed, often to reduce jams. Quality losses are bottles rejected for low fill, missing crowns or poor labels.</p>"
+  ],
+  [
+   "Changeovers and Indian SKUs",
+   "<p>Every change of brand, pack size or state label costs line time. Because labels often carry state-specific details in India, a line can change over several times a day without changing the beer. Grouping runs by pack and state, then fixing changeover steps so they happen the same way every time, are the usual first gains.</p><p>Some plants exclude changeovers from planned time and some include them. That one definition can move OEE by many points. Agree it before comparing lines. Our guide to <a href=\"beer-production-planning-basics.html\">beer production planning</a> covers how schedules are built around changeovers.</p>"
+  ],
+  [
+   "What OEE does not tell you",
+   "<p>OEE says nothing about cost per bottle, beer loss or oxygen pickup at the filler. A line can post a high OEE while overfilling every bottle, which gives away beer. It can also run fast while picking up oxygen that shortens shelf life.</p><p>Read OEE beside beer loss on the line and the <a href=\"beer-quality-data-for-data-teams.html\">package oxygen results</a>. A gain in one should not come at the cost of the others.</p>"
+  ],
+  [
+   "Making the number useful",
+   "<p>The plants that improve OEE track the reasons for stops, not just their length. A stop log with consistent categories (labeller jam, washer reject, waiting for beer) turns a percentage into a to-do list.</p><p>For analysts, that log is the most useful dataset on the line. It is often the messiest too, because operators fill it in under pressure. Knowing what each stop means physically is what lets you clean it without throwing away the signal.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is OEE?",
+   "Overall equipment effectiveness: availability multiplied by performance multiplied by quality. It shows how much of planned time produced good output."
+  ],
+  [
+   "Why is the filler the focus on a bottling line?",
+   "Lines are usually designed so the filler is the slowest machine. Its output decides the line's output, so OEE is normally measured there."
+  ],
+  [
+   "Why do returnable bottles hurt line efficiency?",
+   "Dirty, damaged or foreign bottles slow the washer and are rejected at inspection, which can starve the filler."
+  ],
+  [
+   "Is 85 per cent OEE a good target for a brewery?",
+   "It is a general manufacturing benchmark. Agree how planned time and changeovers are defined first, then set targets against your own lines' history."
+  ]
+ ],
+ "cta": {
+  "title": "Turn line stops into a plan the plant can act on",
+  "body": "Our Brewing and distilling operations module takes engineers and analysts through the packaging line machine by machine, built around your team's own lines, portfolio and stop data.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "beer-brand-portfolio-explained",
+  "shipments-vs-depletions-beer-sales-data",
+  "beer-glossary-for-new-joiners"
+ ]
+}

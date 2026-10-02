@@ -1,0 +1,71 @@
+{
+ "slug": "whisky-inventory-planning",
+ "cat": "Whisky",
+ "h1": "Whisky inventory: planning stock you cannot sell for years",
+ "title": "Whisky Inventory Planning Explained | Craft Beer School",
+ "desc": "How whisky companies plan stock that takes years to mature: fill decisions, ageing profiles, losses, regauging, duty under bond and cask supply.",
+ "teaser": "The 12 year old you sell in 2038 has to be filled this year. Whisky planning starts from that uncomfortable fact.",
+ "standfirst": "Whisky stock behaves unlike almost any other inventory. It ages, shrinks and changes value while it sits. This guide explains how planners think about it and what to ask the floor.",
+ "read": "3 min",
+ "updated": "2026-07-19",
+ "updated_label": "July 2026",
+ "sections": [
+  [
+   "The product you plan today ships in years",
+   "<p>Most supply chains plan in weeks or months. Whisky plans in years. Spirit filled into a cask this year cannot be sold as Scotch for at least three years. It cannot go into a 12 year old until twelve have passed. Every fill decision is made against a forecast that will be wrong in ways nobody can see yet.</p><p>The industry learned this the hard way. Scotland overproduced in the 1970s and early 1980s, built up a surplus the trade nicknamed the whisky loch, then closed distilleries when demand fell. Years later, some of those same whiskies ran short.</p>"
+  ],
+  [
+   "What whisky stock actually is",
+   "<p>A whisky inventory is a list of casks rather than a pile of identical units. Each record typically carries a fill date, the spirit type and distillery, the cask type and fill number, the volume, the strength and the warehouse location. The figure everything rolls up into is <strong>litres of pure alcohol</strong>, or LPA: volume multiplied by strength. Our guide to <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs</a> explains why.</p><p>Planners then look at the <strong>ageing profile</strong>: how much LPA sits in each age band, by spirit and cask type. A gap in that profile, such as a year with low fillings, travels forward through time. It reaches the brands that depend on that age years later.</p>"
+  ],
+  [
+   "Matching fillings to a long forecast",
+   "<p>Fill plans start from long-term demand for each brand, translated through the blend recipes into demand for each type of spirit at each age. Then losses are added on top, because some of the spirit will evaporate before it is needed.</p><p>Age statements lock that plan in. A brand that promises 12 years has no way to borrow from younger stock when demand jumps. Brands without an age statement give blenders more room, which is one reason they became common after shortages of aged stock.</p><p>Overfilling ties up cash and warehouse space for years. Underfilling creates a shortage you can see coming long before you can fix it. Neither mistake shows up quickly, which makes them easy to repeat.</p>"
+  ],
+  [
+   "Losses, regauging and the book",
+   "<p>Casks lose spirit to evaporation every year, the <a href=\"angels-share-whisky-in-indian-heat.html\">angels' share</a>. The rate depends on climate, season and warehouse. The book stock in the system is an estimate. Periodically the warehouse team <strong>regauges</strong> casks, weighing them and checking strength, to find the real LPA.</p><p>Regauging every cask every year is rarely practical, so most teams sample a share of casks and apply the result to similar ones. That works until a warehouse, a cask type or a season behaves differently from the sample. The difference between book and physical is a normal part of the job, not a scandal. A planner who expects it and knows which warehouses and seasons drive it, will build a better loss assumption than one who treats it as an error.</p>"
+  ],
+  [
+   "Working capital and duty",
+   "<p>Maturing whisky can sit on the balance sheet for a decade or more, gaining value as it ages while tying up cash. In most markets spirit matures under bond, meaning excise duty is paid when it leaves the bonded warehouse rather than when it is made. In India the process for bonded stock, movement permits and loss allowances is set state by state. Rules vary and change, so check the current notification.</p>"
+  ],
+  [
+   "Wood is a plan of its own",
+   "<p>You cannot fill spirit without casks. Ex-bourbon barrels depend on American bourbon production. Sherry casks depend on Spanish bodegas and cooperages. A stock plan that ignores cask supply will hit a wall at the filling store. Planners usually keep a separate wood plan: how many casks of each type will be needed, bought, repaired or retired each year.</p>"
+  ],
+  [
+   "Questions to ask the floor",
+   "<ul><li>What loss rate does the plan assume for each warehouse? When was it last checked against regauges?</li><li>Which brands depend on the ages where our profile is thinnest?</li><li>How much flexibility does each blend recipe have to substitute one spirit for another?</li><li>Which cask types are we short of next year?</li></ul><p>Those questions sound simple. Most teams find that the answers live in three spreadsheets and one person's head.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why can't a whisky company just make more when demand rises?",
+   "Because the whisky has to mature first. Extra spirit distilled today only becomes a 12 year old in twelve years."
+  ],
+  [
+   "What is an ageing profile?",
+   "A view of whisky stock grouped by age, usually in litres of pure alcohol and split by spirit and cask type. Gaps in it show future shortages."
+  ],
+  [
+   "Why does book stock differ from physical stock?",
+   "Casks lose spirit to evaporation at rates that vary with climate and season. Regauging measures the real contents and corrects the book."
+  ],
+  [
+   "Is duty paid when whisky is made?",
+   "Usually not. Spirit matures under bond and duty is paid when it leaves the bonded warehouse. In India the details are set by each state, so check the current rules."
+  ]
+ ],
+ "cta": {
+  "title": "Stock plans that keep missing the warehouse?",
+  "body": "Our Raw materials and supply chain module takes planners through fillings, ageing profiles, losses and cask supply. We build it around your team's own portfolio and stock reports.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "indian-whisky-market-for-new-joiners",
+  "whisky-label-terms-explained",
+  "whisky-tasting-for-beginners"
+ ]
+}

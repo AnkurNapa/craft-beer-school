@@ -1,0 +1,71 @@
+{
+ "slug": "beer-cost-of-goods-explained",
+ "cat": "Beer for teams",
+ "h1": "Beer cost of goods, line by line, for finance teams",
+ "title": "Beer Cost of Goods for Finance Teams | Craft Beer School",
+ "desc": "Beer cost of goods line by line: malt, adjuncts, hops, packaging, conversion costs, losses and excise. A plain guide for finance teams.",
+ "teaser": "The bottle often costs more than the beer inside it. Here is how a beer cost sheet really breaks down.",
+ "standfirst": "A beer cost sheet looks like any other bill of materials until you ask why the packaging line costs more than the ingredients, or why excise moves margin more than any brewing decision. This guide walks the cost of goods one line at a time.",
+ "read": "3 min",
+ "updated": "2026-06-12",
+ "updated_label": "June 2026",
+ "sections": [
+  [
+   "How brewers express cost",
+   "<p>Breweries cost beer per hectolitre (100 litres) for production decisions and per case for commercial ones. In India a standard beer case is twelve 650 ml bottles, or 7.8 litres. Moving between the two units is simple arithmetic, but mixing them in the same report is a common source of confusion.</p><p>Costs are usually split into raw materials, packaging materials, conversion costs and, depending on the accounting policy, duties. Each behaves differently, so we take them in turn.</p>"
+  ],
+  [
+   "Raw materials: malt, adjuncts and hops",
+   "<p><strong>Malt</strong> is the main brewing ingredient by cost. Its price follows the barley crop. The cost per hectolitre depends on beer strength: a stronger beer needs more extract, so more malt.</p><p><strong>Adjuncts</strong> such as rice, maize or sugar syrup replace part of the malt in many Indian lagers. They are usually cheaper per unit of extract, which is one reason mainstream lagers use them.</p><p><strong>Hops</strong> are expensive per kilo but used in small amounts in mainstream lager. Their cost per hectolitre is often modest. In hop-forward craft beers it can be large.</p><p>Water, yeast and processing aids are minor lines. Water treatment can matter in plants that depend on hard borewell supply.</p>"
+  ],
+  [
+   "Packaging: often the biggest material line",
+   "<p>For bottled and canned beer, packaging materials frequently cost more than the ingredients. The list includes glass or cans, crown caps or can ends, labels, cartons, crates and shrink film.</p><p>Returnable glass changes the maths. A bottle that comes back and is refilled many times spreads its purchase cost across trips. The real cost depends on the <strong>trippage</strong>, how many times a bottle returns before it breaks or vanishes. If return rates fall, cost per case rises even though nothing changed in the brewery. Finance teams who track bottle returns alongside cost per case catch this early.</p>"
+  ],
+  [
+   "Conversion costs",
+   "<p>Conversion covers everything needed to turn materials into packed beer: energy, water, labour, maintenance, cleaning chemicals and depreciation of plant.</p><p>Much of this is fixed. A brewery costs roughly the same to run at 70 per cent of capacity as at 90. So cost per hectolitre falls as volume rises. It rises sharply in a slow month. Before reading a monthly cost jump as inefficiency, check the volume line. Our <a href=\"brewhouse-kpis-for-analysts.html\">brewhouse KPIs guide</a> covers the energy and water measures behind this.</p>"
+  ],
+  [
+   "Losses and yield",
+   "<p>Beer is lost at every stage, from wort left in the grain to bottles rejected on the line. Each lost litre carries the materials and conversion cost already spent on it.</p><p>A one point change in brewhouse yield or packaging loss can move cost per hectolitre more than a supplier price negotiation. That is why breweries watch losses closely. It is also why a finance analyst should ask how losses are measured before trusting a variance. A tank dip read on a different morning can create a loss that never happened.</p>"
+  ],
+  [
+   "Excise and the state layer",
+   "<p>In India, excise duty and other state levies make up a large share of what a consumer pays for beer. Each state sets its own structure. Some charge per litre, some on value, some both. The rules change too, often at the start of the financial year.</p><p>Whether excise sits inside cost of goods or is netted off revenue depends on the company's accounting policy. Either way, comparing margins across states without separating duty from production cost will mislead. For the process side, see our guide to <a href=\"excise-for-finance-teams-beer-wine-spirits.html\">excise for finance teams</a>. For any specific figure, check the current state notification.</p>"
+  ],
+  [
+   "Standard cost versus actual",
+   "<p>Most brewers set a standard cost per SKU for the year, then report variances. The usual suspects are malt price, packaging price, volume and losses. A good variance report names which physical event caused each one.</p><p>That last step is where finance and production often talk past each other. When a finance team can ask \"was that the bottle washer or the filter?\", the conversation changes.</p><p>One practical habit helps. Put the plant's monthly volume, bottle return rate and brewhouse yield on the same page as the cost variance. Most of the large swings explain themselves once those three lines sit next to the money. The rest are usually price changes that procurement already knows about.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is packaging really more expensive than the beer?",
+   "For bottled and canned beer it often is, once glass or cans, caps, labels and cartons are added up. Returnable glass lowers the cost only while bottles keep coming back."
+  ],
+  [
+   "What is trippage?",
+   "The number of times a returnable bottle is filled before it is lost or broken. Higher trippage spreads the bottle's cost over more cases."
+  ],
+  [
+   "Why does cost per hectolitre rise in slow months?",
+   "Much of a brewery's conversion cost is fixed, so lower volume spreads the same cost over fewer hectolitres."
+  ],
+  [
+   "Should excise be in cost of goods?",
+   "It depends on the company's accounting policy. Either way, separate it from production cost before comparing states."
+  ]
+ ],
+ "cta": {
+  "title": "Make cost variances make sense",
+  "body": "Our Raw materials and supply chain module walks finance teams through every line of a beer cost sheet and the floor events behind each variance, built around your team's portfolio.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "beer-quality-data-for-data-teams",
+  "packaging-line-efficiency-oee",
+  "beer-brand-portfolio-explained"
+ ]
+}

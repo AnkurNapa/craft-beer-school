@@ -11,7 +11,7 @@ HERE = pathlib.Path(__file__).parent
 PLAN = {p["slug"]: p for p in json.load(open(HERE / "content/plan.json"))}
 EXISTING = {"what-is-craft-beer", "beer-styles-guide", "how-to-taste-beer", "beer-off-flavours",
             "craft-beer-in-india", "start-a-microbrewery-india", "become-a-brewer-india", "brewing-for-india"}
-PAGES = {"courses.html", "contact.html", "resources.html", "faq.html", "about.html", "blog.html",
+PAGES = {"courses.html", "contact.html", "resources.html", "faq.html", "about.html", "blog.html", "for-companies.html",
          *[p["course"] for p in PLAN.values()]}
 KEYS = {"slug", "cat", "h1", "title", "desc", "teaser", "standfirst", "read", "updated", "updated_label",
         "sections", "faqs", "cta", "related"}

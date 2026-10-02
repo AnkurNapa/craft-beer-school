@@ -1,0 +1,63 @@
+{
+ "slug": "water-energy-packaging-beer-wine-spirits",
+ "cat": "Drinks business",
+ "h1": "Water, energy and packaging across beer, wine and spirits",
+ "title": "Water, Energy and Packaging in Drinks | Craft Beer School",
+ "desc": "Where water, energy and packaging go in beer, wine and spirits production and what the sustainability numbers on your dashboard mean.",
+ "teaser": "A litre of beer uses several litres of water. Most of it never goes into the beer. Here is where it goes instead.",
+ "standfirst": "Sustainability reports in drinks companies talk about water ratios, steam, effluent and glass. Behind each number is a specific step on the production floor. This guide walks through where the resources go in beer, wine and spirits, in plain terms.",
+ "read": "3 min",
+ "updated": "2026-09-28",
+ "updated_label": "September 2026",
+ "sections": [
+  [
+   "Why these three numbers matter",
+   "<p>Water, energy and packaging are the three resources that show up most in a drinks company's operating costs and its sustainability reporting. They also behave differently across beer, wine and spirits, because the processes differ. A dashboard that compares a brewery with a distillery on the same water ratio is comparing different things. Knowing why helps you read the numbers and ask better questions about targets.</p>"
+  ],
+  [
+   "Water: most of it is for cleaning",
+   "<p>Breweries track water use as litres of water per litre of beer. Efficient large breweries are commonly quoted at around three to four litres per litre. Smaller breweries often use more. Only about one of those litres ends up in the product. The rest goes into cleaning, rinsing, cooling and packaging, plus water lost with spent grain and evaporated in the boil.</p><p>Cleaning is the big one. Every tank, pipe and filler is cleaned between batches, often with a cleaning-in-place system that circulates rinse water, a hot caustic solution at around 80 °C, then acid and a final rinse. Each step uses water. A small brewery that cleans manually tends to use far more. In India, where many plants rely on borewell or municipal supply and face summer shortages, water is a cost and a licence-to-operate issue at once. Our guide to <a href=\"brewing-water-basics.html\">brewing water basics</a> covers the quality side.</p><p>Wineries use water to clean presses, tanks and barrels. Vineyards need irrigation. In dry Indian growing regions such as Nashik, drip irrigation is the norm. Distilleries use large volumes for cooling the condensers on their stills.</p>"
+  ],
+  [
+   "Energy: heat and cold",
+   "<p>In a brewery the boil is one big energy user, because it needs steam or direct heat. The other is refrigeration for fermentation, conditioning and cold storage. Indian ambient temperatures make the cooling load heavier than in a European brewery.</p><p>In a winery, the biggest energy draw is usually temperature control. White wines are fermented cool. Keeping tanks cool through a warm harvest takes chilling capacity.</p><p>Distilleries are the most energy-hungry of the three. Distillation means heating the wash until the alcohol boils off, which takes a lot of steam. Heat recovery, where hot spirit and hot waste streams warm the incoming wash, makes a large difference. When finance teams see a distillery's fuel bill, distillation is most of it.</p>"
+  ],
+  [
+   "Effluent and by-products",
+   "<p>What leaves the plant matters too. Spent grain from a brewery is wet, protein-rich and usually goes to cattle feed. Grape skins and seeds from a winery, called pomace, can be composted or distilled. The hardest stream is spent wash from molasses-based distilleries, a dark, high-strength effluent. Indian pollution control rules require it to be treated heavily. Many such distilleries run zero liquid discharge systems. Rules vary by state and change, so the current conditions sit in each plant's consent to operate.</p>"
+  ],
+  [
+   "Packaging: glass is heavy",
+   "<p>Packaging is often the largest slice of a drink's carbon footprint once you count making the material and moving it. Glass is heavy and takes a lot of energy to make. Much Indian beer is sold in returnable glass bottles that are collected, washed and refilled many times, which saves glass but adds washing water and reverse logistics. Cans are lighter, chill faster and keep light out completely, which also protects beer flavour.</p><p>Wine is mostly sold in glass. Spirits use glass at the premium end, while some lower-priced spirits in India come in PET bottles. Each choice trades cost, weight, shelf life and brand image. That trade-off is where procurement, marketing and sustainability teams meet.</p>"
+  ],
+  [
+   "Reading the numbers on your screen",
+   "<p>When you see a water or energy ratio, ask a few questions before you draw a conclusion. What does it include: cleaning, packaging, utilities, the whole site? What volume is it divided by: beer brewed, beer packaged or beer sold? And which product mix sits behind it? A brewery that shifts from kegs to small bottles will see its ratios move without any change in efficiency. Small definitions decide whether a trend is real, so check them before a number goes into a board pack.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does a brewery use so much more water than the beer it makes?",
+   "Most of the water goes into cleaning tanks, pipes and fillers, plus cooling, packaging and losses in the boil and spent grain. Only about one litre per litre ends up in the beer."
+  ],
+  [
+   "Which drink uses the most energy to make?",
+   "Spirits, usually. Distillation needs a lot of steam to boil the alcohol off the wash, so distilleries tend to have the highest energy use per litre of product."
+  ],
+  [
+   "Are returnable bottles better for the environment?",
+   "They save glass, which is energy-heavy to make, but they add washing water and collection logistics. The overall benefit depends on how many times each bottle is reused and how far it travels."
+  ]
+ ],
+ "cta": {
+  "title": "Help your team read the sustainability numbers",
+  "body": "We run beverage training for drinks companies and GCC teams. Modules such as Beverage 101 and Brewing and distilling operations explain where water, energy and packaging go on the floor.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "excise-for-finance-teams-beer-wine-spirits",
+  "beer-wine-and-whisky-compared",
+  "alcohol-regulation-india-for-corporate-teams"
+ ]
+}

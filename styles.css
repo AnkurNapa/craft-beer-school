@@ -346,6 +346,8 @@ footer.site a:hover{color:#fff}
 .cta-band p{color:rgba(255,255,255,.75)}
 .cta-inline>div,.cta-band>div{flex:1 1 260px}
 .cta-inline .btn,.cta-band .btn{flex:0 0 auto}
+.cta-also{margin:-2rem 0 2.2rem;padding:0 1.5rem;font-size:.92rem;color:var(--muted)}
+.cta-also a{color:var(--amber-deep);font-weight:600}
 
 /* faq */
 .faq-block{margin-top:3rem}
