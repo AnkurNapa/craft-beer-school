@@ -14,7 +14,7 @@ MENTORS = [
          areas=["Brewing science", "Brewery operations", "Data and AI for breweries"],
          courses=[("advanced-brewing-science-course.html", "Advanced Brewing Science"),
                   ("ai-for-craft-breweries-course.html", "AI for Craft Breweries")],
-         linkedin=""),
+         linkedin="https://www.linkedin.com/in/ankur-napa/"),
     dict(slug="mentor-chatty-girija.html", name="Chatty Girija", img="assets/team5.jpg",
          role="Beer Podcaster · Creative Strategist",
          card="30+ years in advertising and a deep passion for craft beer. Brings the stories, the branding and the business of beer to every session.",
@@ -48,7 +48,7 @@ MENTORS = [
 
 
 def card(m):
-    return (f'      <article class="card reveal"><a href="{m["slug"]}"><img class="mentor-img" src="{m["img"]}" alt="{m["name"]}" loading="lazy" /></a>'
+    return (f'      <article class="card mentor-card reveal"><a href="{m["slug"]}" tabindex="-1" aria-hidden="true"><img class="mentor-img" src="{m["img"]}" alt="{m["name"]}" loading="lazy" /></a>'
             f'<div class="card-body"><span class="cat">{m["role"]}</span><h3><a href="{m["slug"]}">{m["name"]}</a></h3>'
             f'<p>{m["card"]}</p><div style="display:flex;flex-wrap:wrap;gap:.4rem 1.4rem"><a href="{m["slug"]}" class="link-arrow">Full profile</a>{_linkedin(m)}</div></div></article>\n')
 

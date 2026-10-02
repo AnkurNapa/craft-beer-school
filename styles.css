@@ -134,6 +134,10 @@ section{padding-block:clamp(4.5rem,8vw,8rem)}
 .card .ph{aspect-ratio:16/10;font-size:3rem;border-radius:0}
 .thumb{width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;display:block;background:var(--navy)}
 .mentor-img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:var(--cloud)}
+.mentor-card{position:relative;transition:transform .3s var(--ease),box-shadow .3s var(--ease)}
+.mentor-card h3 a::after{content:"";position:absolute;inset:0}
+.mentor-card a[target="_blank"]{position:relative;z-index:1}
+.mentor-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
 .card-body{padding:1.5rem;display:flex;flex-direction:column;flex-grow:1}
 .card .cat{font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);font-weight:700}
 .card h3{margin:.6rem 0 .5rem}
