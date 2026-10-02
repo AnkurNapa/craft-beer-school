@@ -22,6 +22,7 @@ from playwright.sync_api import sync_playwright
 
 import articles_all
 import build
+import mentors
 import pages_a
 import style_render
 
@@ -34,6 +35,7 @@ TEMPLATE_VERSION = "2"
 ARTICLES = {a["slug"]: a for a in articles_all.ARTICLES}
 CARDS = style_render.load_cards()
 COURSES = {pages_a.course_href(c["name"]): c for c in pages_a.COURSE_DATA}
+MENTORS = {m["slug"]: m for m in mentors.MENTORS}
 
 
 def og_file(slug):
@@ -54,6 +56,12 @@ def spec(slug, title):
     if slug in COURSES:
         c = COURSES[slug]
         return ("Course · Live online", html.unescape(re.sub("<[^>]+>", "", c["name"])), f"{c['dur']} · {c['price']}", "")
+    if slug in MENTORS:
+        m = MENTORS[slug]
+        face = "data:image/jpeg;base64," + base64.b64encode((HERE / m["img"]).read_bytes()).decode()
+        # inline styles so the shared template (and every other page's hash) stays unchanged
+        photo = f'<img src="{face}" alt="" style="width:360px;height:360px;object-fit:cover;border-radius:28px;border:6px solid #f3c34d;margin-right:-60px">'
+        return (html.unescape(m["role"].split(" · ")[0]), m["name"], "Meet the mentor", photo)
     if slug == style_render.INDEX:
         return ("Free Style Library", f"{len(CARDS)} beer styles, explained for India", "Free to read", "")
     return ("Craft Beer School", name, "Grain to glass", "")
