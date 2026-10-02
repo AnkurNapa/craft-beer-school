@@ -28,6 +28,8 @@ _CREATIVE = {"brand", "design", "social", "influencers", "storytelling", "naming
 
 
 def expert(a):
+    if _PLAN.get(a["slug"], {}).get("by"):
+        return _PEOPLE[_PLAN[a["slug"]]["by"]]
     creative = a["cat"] == "Branding" or bool(_CREATIVE & set(a["slug"].split("-")))
     return _PEOPLE["mentor-chatty-girija.html" if creative else "mentor-ankur-napa.html"]
 
@@ -58,5 +60,6 @@ SEGMENTS = [
     ("Founders", "Planning a brewery or brewpub in India.", "brewery-business-management-course.html", "Brewery Business Management"),
     ("Brand builders", "Naming, packaging and selling beer people remember.", "beer-branding-packaging-course.html", "Beer Branding &amp; Packaging"),
     ("Career changers", "Turning a love of beer into a job.", "brewing-fundamentals-course.html", "Brewing Fundamentals"),
+    ("Drinks producers", "Running a brewery, cidery, distillery or winery and want it to do better.", "contact.html?course=Brewery%20consultancy#enroll", "Brewery consultancy"),
     ("Corporate teams", "Working in a beer, wine or spirits company and want to know the product.", "for-companies.html#training", "Corporate training"),
 ]

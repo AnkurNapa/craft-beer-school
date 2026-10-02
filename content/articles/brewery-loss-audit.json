@@ -1,0 +1,67 @@
+{
+ "slug": "brewery-loss-audit",
+ "cat": "Consultancy",
+ "h1": "Finding the beer you are losing: a brewery loss audit",
+ "title": "Brewery Loss Audit: Find Lost Beer | Craft Beer School",
+ "desc": "How to run a brewery loss audit: map every stage from kettle to till, measure volume properly, set your own baseline and find the expensive leaks.",
+ "teaser": "Every brewery loses beer between kettle and till. The question is how much, where and whether anyone has measured it.",
+ "standfirst": "A loss audit traces every litre from the kettle to the till. It needs a calibrated dipstick, a month of honest records and a spreadsheet. It usually finds the biggest leak somewhere nobody was looking.",
+ "read": "3 min",
+ "updated": "2026-08-06",
+ "updated_label": "August 2026",
+ "sections": [
+  [
+   "Why litres matter more than you think",
+   "<p>Every litre you brew carries the cost of malt, hops, power, labour and excise before it reaches a customer. A litre lost after the bright tank costs more than a litre lost in the brewhouse, because more money has gone into it by then. A loss audit traces where beer goes, stage by stage, so you fix the expensive leaks first.</p><p>You need a reliable way to measure volume at each stage, a few weeks of honest records and a spreadsheet. Nothing more.</p>"
+  ],
+  [
+   "Map the stages",
+   "<ol><li><strong>Kettle to fermenter.</strong> Cast-out volume, trub left in the whirlpool, wort left in the heat exchanger and hoses.</li><li><strong>Fermenter to bright tank.</strong> Yeast cropped or dumped, beer left in the cone, losses at the filter or centrifuge if you have one.</li><li><strong>Bright tank to keg or serving tank.</strong> Tank bottoms, hoses, beer lost while purging or filling.</li><li><strong>Tap to till.</strong> First pours, foam, overpours, line cleaning, spills, comps, staff drinks and unbilled sales.</li></ol><p>Record the volume at the start and end of each stage for every batch over a month. The difference at each stage is your loss there.</p>"
+  ],
+  [
+   "Measure volume properly",
+   "<p>Most audit errors are measurement errors. A dipstick on a fermenter is only as good as the calibration chart behind it. Many charts came with the tank and were never checked, so fill each vessel once with a metered volume of water and write your own.</p><p>Here is the detail people miss. Hot wort shrinks by roughly 4% as it cools from near boiling to fermentation temperature, simply because water is denser cold. If your brewer measures cast-out volume in a hot kettle and fermenter volume cold, part of that apparent loss is physics. Correct one to the other or the brewhouse will look worse than it is.</p><p>For the bar, compare litres drawn from each serving tank with litres billed for that beer. Convert every serving size to litres first, including pitchers and towers.</p>"
+  ],
+  [
+   "What normal looks like",
+   "<p>Some loss is unavoidable. Trub, yeast and tank bottoms take a share of every batch. How much depends on your kit and your styles. A heavily dry-hopped IPA leaves far more behind than a pale lager, because hop material soaks up beer.</p><p>Rather than chase an industry average, set your own baseline per beer from a month of clean data. Then look for stages where the loss is large, swings between batches or has no explanation. Variation is the useful signal. A stage that loses the same amount every time is a design limit. A stage that swings is a habit on the floor.</p>"
+  ],
+  [
+   "The bar is often the biggest leak",
+   "<p>In consulting work we often find the largest unexplained gap between the serving tank and the till. The causes are ordinary: lines running warm so the first pour is all foam, glasses filled past the line, a pint poured for a regular and never billed, beer dumped after a line clean with no record. None of it shows up unless someone compares tank drawdown with sales.</p><p>Check draught temperature and gas pressure first. Beer served too warm or at the wrong pressure fobs. The foam goes down the drain. Then check the pour. A marked glass and a short refresher for bar staff fix more than most equipment does. Our guide to <a href=\"cost-per-litre-beer.html\">cost per litre</a> shows what each lost litre is worth.</p>"
+  ],
+  [
+   "Make the audit a habit",
+   "<p>A one-off audit gives you a snapshot. The value comes when the litres-drawn against litres-sold figure joins your <a href=\"weekly-numbers-for-brewpub-owners.html\">weekly numbers</a>. Give each stage an owner: the brewer for brewhouse and cellar, the bar manager for tap to till. Review the gaps every week, not every quarter.</p><p>Keep excise in view too. Production and stock records that do not reconcile can become a compliance problem as well as a cost one. State rules on permitted losses and record keeping vary and change, so ask your licensing adviser what yours require.</p><p>The arithmetic is simple. Reading it is harder: knowing whether a gap is a measurement error, a design limit or a habit. That judgement is where an experienced pair of eyes saves weeks.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should a loss audit run?",
+   "At least a month, or long enough to cover several batches of each regular beer. A single batch can mislead you."
+  ],
+  [
+   "Why does my fermenter hold less than the kettle cast out?",
+   "Partly physics: hot wort contracts by roughly 4% as it cools. The rest is trub, hop material and wort left in the heat exchanger and hoses."
+  ],
+  [
+   "Where do brewpubs lose the most beer?",
+   "Often between the serving tank and the till, through foam, overpours, unbilled pours and unrecorded dumps. Only comparing tank drawdown with billed sales shows it."
+  ],
+  [
+   "Do I need flow meters?",
+   "No. Calibrated dipsticks or sight glasses and careful records are enough to start. Flow meters help once you know which stage you need to watch closely."
+  ]
+ ],
+ "cta": {
+  "title": "Find out where your beer is going",
+  "body": "Our yield and loss review traces every litre from kettle to till. Ankur Napa leads the cost and data side with Rahul Baliyan on the brewhouse. Your team keeps the method to run every month.",
+  "label": "Book a consultation",
+  "href": "contact.html?course=Brewery%20consultancy#enroll"
+ },
+ "related": [
+  "tap-list-planning-with-sales-data",
+  "weekly-numbers-for-brewpub-owners",
+  "turning-around-a-struggling-brewpub"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "what-a-brewery-health-check-covers",
+ "cat": "Consultancy",
+ "h1": "What a brewery health check covers",
+ "title": "What a Brewery Health Check Covers | Craft Beer School",
+ "desc": "What a brewery health check looks at, from brewhouse yield and quality to losses, cost per litre, records and team, plus what you get at the end.",
+ "teaser": "Sales are flat or the IPA tastes different every batch. A health check finds out why before anyone changes a recipe.",
+ "standfirst": "Most owners call about one symptom. A health check looks at the whole brewery first, then ranks the fixes by what each problem is costing you.",
+ "read": "4 min",
+ "updated": "2026-08-03",
+ "updated_label": "August 2026",
+ "sections": [
+  [
+   "Why we start here",
+   "<p>Most owners who call us have one symptom in mind. Sales are flat, the IPA tastes different every batch or the beer cost looks too high against the menu price. The symptom is real. It is rarely the whole story.</p><p>A health check is a structured look at the whole brewery before anyone changes a recipe or a price. We walk the process from grain intake to the glass, read the records that exist, taste what is on tap and in tank, then compare all of it with what a well-run brewery of the same size should look like. For a typical brewpub that means a few days on site plus some time with your sales and purchase data. The output is a written action plan, ranked by what costs you most.</p><p>Here is what we look at and why.</p>"
+  ],
+  [
+   "The brewhouse and its yield",
+   "<p>We start with how much extract you get from the malt you pay for. That means checking brewhouse efficiency against your recipes, the mill gap, mash and lauter temperatures and how long the run-off takes. Measured against the malt's laboratory extract, a well-run lauter tun usually recovers somewhere in the high 80s to low 90s per cent. A brewhouse well below that is buying malt it never turns into beer. Our guide to <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> explains the arithmetic.</p><p>We also check whether the numbers the brewer writes down can be trusted. A hydrometer read at the wrong temperature, or a refractometer used for final gravity without correcting for alcohol, makes every downstream figure wrong.</p>"
+  ],
+  [
+   "Fermentation, cellar and quality",
+   "<p>Next come the fermentation records: pitching rate and temperature, the gravity curve, how long each beer spends in the fermenter and whether diacetyl is checked before the tank is crashed. We taste every beer on tap against its own specification, not against our preferences.</p><p>One small thing tells us a lot. We ask to see the pH meter calibrated. A meter that has not seen fresh pH 4 and pH 7 buffers in weeks gives readings nobody should act on. It is usually a sign that other routine checks have drifted too.</p><p>We review cleaning as well: caustic and acid cycles, their concentrations and temperatures, how often draught lines are cleaned and who signs it off.</p>"
+  ],
+  [
+   "Where the beer goes",
+   "<p>Every brewery loses beer between the kettle and the till. Some loss is physics. Hot wort shrinks as it cools, trub and yeast take their share and every transfer leaves something behind. Some is not: overpours, foamy first pours, free pints, staff drinks and beer dumped quietly when it went wrong.</p><p>We reconcile litres cast out against litres sold over a recent period and show you where the gap sits. The method is set out in our <a href=\"brewery-loss-audit.html\">brewery loss audit</a> guide.</p>"
+  ],
+  [
+   "Cost per litre and what sells",
+   "<p>We build a cost per litre from your actual purchase invoices: malt, hops, yeast, water treatment, CO2, cleaning chemicals, power for cooling and the fuel or electricity for the boil. Then we lay it beside your sales by beer.</p><p>In consulting work we often see a tap list carrying two or three beers that sell slowly, tie up tanks for weeks and go stale before they are finished. Sales data makes that visible. The fix is often a shorter list, which costs nothing.</p>"
+  ],
+  [
+   "Records, people and compliance",
+   "<p>We check what is written down and who owns it: brew logs, cellar logs, cleaning records, stock registers and the production records your state excise department expects. We do not give legal advice on excise. Rules vary by state and change, so we flag gaps for your licensing adviser to close.</p><p>We also talk to the team. A brewery that only runs well when one person is on shift has a single point of failure. Better to know that before it fails.</p>"
+  ],
+  [
+   "What you get at the end",
+   "<p>The health check ends with a written report and an action plan. Each finding has a cause, a fix, an owner and a rough sense of what it is costing you. Quick fixes come first: things the team can do this week with no spend. Larger items such as equipment repairs or a new quality routine follow, in the order we would do them.</p><p>What you do not get is a promised number. A health check tells you where money and quality are leaking. Closing the leaks is work your team does, with or without us alongside.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does a brewery health check take?",
+   "A few days on site for a typical brewpub, plus time with your sales, purchase and production records. A larger production brewery takes longer."
+  ],
+  [
+   "Do we need to stop brewing during the check?",
+   "No. We prefer to see the brewery working normally, including a brew day and a cleaning cycle if the schedule allows."
+  ],
+  [
+   "What should we prepare?",
+   "Recent brew and cellar logs, raw material invoices, sales by beer from your billing system and any quality or cleaning records you keep. Gaps in these records are findings too."
+  ],
+  [
+   "Does it cover excise compliance?",
+   "We check that production records exist and reconcile with the brewing logs. Excise rules vary by state and change, so legal questions go to your licensing adviser."
+  ]
+ ],
+ "cta": {
+  "title": "Book a health check for your brewery",
+  "body": "We start with a brewery health check and a written action plan, ranked by what is costing you most in beer, quality and money.",
+  "label": "Book a consultation",
+  "href": "contact.html?course=Brewery%20consultancy#enroll"
+ },
+ "related": [
+  "brewery-loss-audit",
+  "tap-list-planning-with-sales-data",
+  "weekly-numbers-for-brewpub-owners"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "starting-a-cider-line-in-india",
+ "cat": "Consultancy",
+ "h1": "Starting a cider line in India",
+ "title": "Starting a Cider Line in India | Craft Beer School",
+ "desc": "How a brewery adds cider in India: fruit or concentrate, the numbers to measure, stabilising sweet cider safely and the licensing questions to ask first.",
+ "teaser": "Your brewhouse can make cider. The hard parts are the fruit, the sweetness and the licence.",
+ "standfirst": "Most breweries that add cider already own the tanks it needs. What trips them up is sourcing fruit, keeping a sweet cider stable in the bottle and finding out which licence the drink falls under in their state.",
+ "read": "4 min",
+ "updated": "2026-08-24",
+ "updated_label": "August 2026",
+ "sections": [
+  [
+   "Settle the licence question before the fruit",
+   "<p>Start with paperwork, because it decides everything else. In India cider sits in an awkward place. Depending on the state it may be treated as a fruit wine, as beer or as something the excise rules barely mention. That affects whether your existing licence covers it, what label approval you need and how the drink is taxed.</p><p>Ask your licensing adviser three things in writing: which category cider falls under in your state, whether your current premises can produce it and what changes to your excise registers it needs. Rules vary by state and change often, so check the current notification rather than what another brewer told you last year.</p>"
+  ],
+  [
+   "Fresh fruit or concentrate",
+   "<p>Indian apples come mostly from the hill states, with a harvest in late summer and autumn. Fresh juice gives the best cider but ties you to a short season, a cold chain from the orchard and a press you may not own.</p><p>Apple juice concentrate works all year and is easier to standardise. Reconstitute it with dechlorinated water to your target gravity, check it has not been preserved with anything that will stop yeast and taste it before you commit a tank. A concentrate cider can be clean and pleasant. It rarely has the depth of pressed fruit, so many producers blend the two.</p><p>Whichever you use, reject mouldy or rotten fruit. Rotten apples can carry patulin, a mould toxin that fermentation does not remove.</p>"
+  ],
+  [
+   "The numbers to measure",
+   "<p>Cider is closer to wine than to beer, so the measurements shift.</p><ul><li><strong>Gravity.</strong> Dessert apple juice usually lands around 1.045 to 1.060, which ferments dry to roughly 6 to 8% ABV. Use the same ABV formula you use for beer.</li><li><strong>pH.</strong> Aim for about 3.2 to 3.8. Above that the juice is poorly protected against spoilage. Indian dessert apples are often low in acid, so malic acid additions are common.</li><li><strong>Sulphite.</strong> Many producers add sulphite to the juice before pitching to knock back wild yeast and bacteria. The dose needed depends on pH, so measure pH first.</li><li><strong>Nutrient.</strong> Apple juice is short of yeast-available nitrogen compared with wort. Without nutrient you get slow fermentations and sulphur smells.</li></ul>"
+  ],
+  [
+   "Fermentation in a brewery",
+   "<p>Ferment with a wine or cider yeast, not your house ale strain. Keep it cool: around 12 to 18 °C keeps the fruit aroma and avoids hot, solvent notes. In an Indian summer that means a jacketed tank with a working glycol supply, not a tank in a warm corner.</p><p>Pectinase enzyme added to the juice helps the finished cider clear. Expect fermentation to take two to four weeks, longer than most ales. Keep cider equipment and hoses well cleaned between products, because the acid and residual sugar of a cider will happily carry bugs into your beer line and the other way round.</p>"
+  ],
+  [
+   "Sweet cider is where breweries get hurt",
+   "<p>Most drinkers in India prefer cider with some sweetness. Fully fermented cider is bone dry, so you have to add sugar or juice back. The moment you do that in a bottle or can with live yeast, fermentation restarts.</p><p>This is the classic floor failure: a back-sweetened cider packaged without stabilisation, stored warm, building pressure until glass bottles burst on the shelf. It is a safety problem before it is a quality one.</p><p>You have three safe routes. Sterile filter before packaging into a clean, closed system. Pasteurise after packaging, with a validated time and temperature. Or keg it cold and keep it cold all the way to the tap. Potassium sorbate with sulphite helps prevent a restart, but it will not stop a fermentation that is already running and it is not a substitute for the other three. Our <a href=\"brewery-qc-lab-on-a-budget.html\">guide to a budget QC lab</a> covers the basic tests that show whether stabilisation worked.</p>"
+  ],
+  [
+   "Run a pilot before you run a tank",
+   "<p>Make three or four small trial batches with different yeasts, acid levels and sweetness, then taste them blind with staff and regulars. Hold samples warm for a few weeks to see what the Indian supply chain will do to them. In consulting work we often see the cider itself turn out fine while the costing gets skipped: juice, sugar, acid, yeast, nutrient and packaging add up differently from beer.</p><p>Write the recipe, the stabilisation step and the release tests down as a procedure, so the second batch matches the first. If you plan to add other non-beer drinks later, our guide to <a href=\"launching-a-hard-seltzer.html\">launching a hard seltzer</a> covers a similar set of problems from a different base.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I make cider on my brewery licence?",
+   "It depends on your state. Some treat cider like beer, others like fruit wine or another category. Ask your licensing adviser and check the current excise notification before buying fruit."
+  ],
+  [
+   "Why does my cider smell of rotten eggs?",
+   "Usually yeast stressed by low nitrogen. Apple juice is short of yeast nutrient, so add a cider or wine nutrient at pitching and keep fermentation temperature steady."
+  ],
+  [
+   "How do I make a sweet cider that does not explode?",
+   "Stabilise it. Sterile filter it, pasteurise it after packaging or keep it as cold keg only. Back-sweetening a live cider in bottles without one of these is a safety risk."
+  ],
+  [
+   "Is concentrate good enough?",
+   "It makes clean, consistent cider all year. Fresh pressed fruit usually tastes fuller, which is why many producers blend the two."
+  ]
+ ],
+ "cta": {
+  "title": "Adding cider without risking your beer",
+  "body": "A product development and quality set-up for cider: recipe trials, stabilisation and release tests written as procedures. Ankur leads on quality, cost and data, Rahul on fermentation. Your team keeps running it after we leave.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "launching-a-hard-seltzer",
+  "planning-a-craft-distillery-in-india",
+  "getting-new-make-spirit-right"
+ ]
+}

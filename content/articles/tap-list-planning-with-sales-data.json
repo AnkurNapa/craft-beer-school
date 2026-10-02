@@ -1,0 +1,63 @@
+{
+ "slug": "tap-list-planning-with-sales-data",
+ "cat": "Consultancy",
+ "h1": "Planning your tap list with sales data",
+ "title": "Planning a Tap List with Sales Data | Craft Beer School",
+ "desc": "Use your billing data to plan a tap list: litres per week, weeks of cover, freshness, lead times and the split between anchor beers and rotators.",
+ "teaser": "The beer everyone wants runs dry on Saturday while a tank of the one nobody orders goes stale. Your sales data can fix that.",
+ "standfirst": "Every handle on the bar is a tank in the cellar. Plan the list from sales data and lead times and you stop running out of the beers that sell.",
+ "read": "3 min",
+ "updated": "2026-08-10",
+ "updated_label": "August 2026",
+ "sections": [
+  [
+   "The tap list is a production plan",
+   "<p>Every handle on your bar is a tank in your cellar. Put a beer on the list and you commit a fermenter for weeks, a serving tank until it sells out and a share of your brewer's time. Choose the list by feel and you end up with tanks of beer nobody orders while the beer everyone wants runs dry on a Saturday.</p><p>Your billing system already holds the data to do better. Most point-of-sale systems can export sales by item by day. That export is the starting point.</p>"
+  ],
+  [
+   "Turn sales into litres per week",
+   "<p>Convert every sale to litres. Glasses, pitchers, towers and growlers each have a volume. Sum by beer by week. Now you know the real velocity of each beer, which is the number production needs. Sales in rupees mislead here because prices differ between beers.</p><p>Use at least three months so you see the pattern behind the noise. Mark the weeks with something unusual in them: a festival, a long weekend, dry days, a big cricket match, the start of the monsoon. In India these swing beer sales hard. The swings also differ by city.</p>"
+  ],
+  [
+   "Weeks of cover and freshness",
+   "<p>For each beer, divide the litres in its serving tank by the litres it sells per week. That is weeks of cover. Compare it with how long the beer stays at its best.</p><p>Hop-forward beers lose aroma fastest, so most brewers want an IPA finished within a few weeks of going on tap. A clean lager or a stout holds up longer when it is kept cold and away from oxygen. If a beer has more weeks of cover than weeks of freshness, you brewed too much of it or it sits on the wrong list. Either way, customers are drinking it past its best.</p>"
+  ],
+  [
+   "Plan backwards from the tank",
+   "<p>Lead time matters as much as demand. An ale is commonly ready two to three weeks after brew day. A lager, with its cold fermentation at around 8 to 13 °C and a lagering period after it, often needs four to six weeks or more. That cellar time decides your list. A lager that sells fast must be brewed long before its tank runs dry, or the handle sits empty for a month.</p><p>Work backwards. If the house lager sells 300 litres a week and its serving tank holds 1,000 litres, the tank lasts a little over three weeks. The next batch has to be in the fermenter well before that. It also needs a free fermenter to go into.</p>"
+  ],
+  [
+   "Anchors and rotators",
+   "<p>Sales data usually splits a tap list into two groups. Anchors are the few beers that sell every week whatever the season, often a lager, a wheat beer and a pale ale or IPA. Rotators are seasonals and specials that give regulars a reason to come back.</p><p>Give anchors most of your tank capacity and never let them run out. Brew rotators in smaller batches with a planned end date. When a rotator sells well week after week, it has earned a trial as an anchor. When an anchor slips for several months, ask why before replacing it. A quality drift often looks like falling demand. Our guide to a <a href=\"quality-system-for-a-small-brewery.html\">quality system for a small brewery</a> covers how to tell.</p><p>Watch how many handles you run too. More taps look generous, but each one splits the same weekly volume more thinly. If every beer has more than a few weeks of cover, the list is too long for your trade.</p>"
+  ],
+  [
+   "Make it a weekly routine",
+   "<p>Put velocity, weeks of cover and days on tap for each beer on one sheet. Review it with your brewer every week, next to the other <a href=\"weekly-numbers-for-brewpub-owners.html\">weekly numbers</a> an owner should see.</p><p>The spreadsheet is the easy part. The hard part is the conversation it forces: dropping a beer the head brewer loves, or brewing the lager again when everyone would rather brew something new. Data gives that conversation facts. Somebody still has to make the call. It helps to have someone in the room who has made it before.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many beers should a brewpub have on tap?",
+   "As many as you can sell fresh. Count your tanks, split weekly sales across them and check weeks of cover for each beer. Many brewpubs carry more taps than their volume can keep fresh."
+  ],
+  [
+   "What data do I need to plan a tap list?",
+   "Sales by item by day from your billing system, the volume of each serving size, your tank sizes and how long each beer takes from brew day to tap."
+  ],
+  [
+   "How far ahead should I plan brewing?",
+   "At least as far as your slowest beer takes to make. With lagers that is often six weeks or more, so plan a couple of months ahead and adjust every week."
+  ]
+ ],
+ "cta": {
+  "title": "Stop running out of the beer that sells",
+  "body": "We build a sales-led tap list and brew schedule from your billing data. Ankur Napa leads the data work with Rahul Baliyan on the brew plan. Your team keeps the sheet and runs it every week.",
+  "label": "Book a consultation",
+  "href": "contact.html?course=Brewery%20consultancy#enroll"
+ },
+ "related": [
+  "weekly-numbers-for-brewpub-owners",
+  "turning-around-a-struggling-brewpub",
+  "quality-system-for-a-small-brewery"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "raising-brewhouse-yield",
+ "cat": "Consultancy",
+ "h1": "Raising brewhouse yield without changing the beer",
+ "title": "Raising Brewhouse Yield | Craft Beer School",
+ "desc": "How to get more extract from the same malt without changing the beer: measure yield properly, then fix the mill, the mash, the lauter and the losses.",
+ "teaser": "Every kilo of malt you fail to extract is money already spent. Here is where small brewhouses lose it.",
+ "standfirst": "Brewhouse yield is the share of the malt's extract that actually reaches the fermenter. Raising it is mostly a matter of measuring honestly and fixing the mill, the mash and the lauter in that order.",
+ "read": "4 min",
+ "updated": "2026-07-13",
+ "updated_label": "July 2026",
+ "sections": [
+  [
+   "Yield is money you already paid for",
+   "<p>Every malt lot carries a laboratory extract figure on its certificate of analysis. Brewhouse yield is how much of that extract reaches the fermenter as wort. The rest leaves with the spent grain, sticks to the trub or stays in the pipes.</p><p>The goal here is narrow: more extract from the same grist, with the beer in the glass unchanged. Same original gravity, same colour, same bitterness, same flavour. If raising yield changes the beer, it is a recipe change and should be handled as one.</p>"
+  ],
+  [
+   "Measure it before you try to move it",
+   "<p>Many small breweries quote an efficiency figure nobody can trace. Start with a proper calculation:</p><ul><li>extract in the wort (kg) = cold wort volume in litres x specific gravity x °P / 100</li><li>extract available (kg) = malt weight x laboratory extract, converted to an as-is basis using the moisture figure on the certificate</li></ul><p>Yield is the first divided by the second. If you measure hot volume at knock-out, multiply by about 0.96 to correct for contraction on cooling. Do this for every batch for a month before you change anything. A single good number proves little. The spread across batches tells you whether the process is under control.</p>"
+  ],
+  [
+   "The mill comes first",
+   "<p>The crush sets the ceiling. Too coarse and the starch inside the endosperm never fully reaches the enzymes. Too fine and the husks shred, the bed packs and the lauter slows or sticks, which costs more than the fine crush gained.</p><p>For a lauter tun, aim for intact husks with the endosperm broken into grits and flour. Check the crush on every new malt lot, since kernel size changes between lots. Adjust the gap in small steps and record the setting. Conditioning the malt with a little water or steam before milling, common in German brewhouses, keeps husks intact at a finer gap.</p>"
+  ],
+  [
+   "Mash conditions that convert fully",
+   "<ul><li><strong>pH.</strong> Aim for 5.2 to 5.6 measured at room temperature, with most beers happiest around 5.3 to 5.5. High-alkalinity borewell water pushes mash pH up and quietly cuts extract. Treat the water, or use a little acid malt as German brewers have long done within the purity law.</li><li><strong>Rests.</strong> In a step mash, give the saccharification rest around 72 °C enough time and run an iodine test before mash-out. Starch left in the mash is lost extract and a haze risk.</li><li><strong>Thickness.</strong> Liquor-to-grist ratios around 3 to 4 litres per kilo suit most lauter tun systems. Very thick mashes convert slowly. Very thin ones leave too little room for sparge water.</li><li><strong>Mash-out.</strong> Raise to around 76 to 78 °C before transfer to lower viscosity and help the run-off.</li></ul>"
+  ],
+  [
+   "Lautering: where most extract is lost",
+   "<p>The lauter tun is where small breweries lose the most extract, usually by rushing.</p><ul><li>Recirculate (the German Vorlauf) until the wort runs clear before sending it to the kettle.</li><li>Run off steadily. A fast first run-off compacts the bed and lets sparge water channel around pockets of sugar.</li><li>Sparge at 76 to 78 °C. Much hotter risks tannins and unconverted starch, while cooler leaves the wort viscous.</li><li>Use the rakes to loosen the bed if run-off slows, without cutting deep into it.</li><li>Stop collecting when the last runnings fall to around 1 to 2 °P or their pH climbs towards 6. Past that point the extra extract is small and the tannins are not.</li></ul>"
+  ],
+  [
+   "Losses after the kettle",
+   "<p>Extract that reached the kettle can still disappear. Measure what stays behind in the whirlpool trub, the heat exchanger and the hoses. A tight, well-formed trub cone loses less wort. Hops absorb wort too, so heavily late-hopped beers show lower volume into the fermenter for reasons that have nothing to do with the mash.</p><p>Track two numbers separately: yield into the kettle and wort volume into the fermenter. Our guide on <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> covers the arithmetic in more depth.</p>"
+  ],
+  [
+   "Keeping the beer the same",
+   "<p>Once yield improves, the same grist makes stronger wort. Reduce every malt in the bill by the same proportion so colour and malt balance stay put, then confirm original gravity and colour on the next batch. Taste it blind against a retained sample of the old version. If your panel can tell them apart, find out why before you roll the change across the range.</p><p>Change one variable per batch. Change three at once and you will never know which one worked. That patience is usually what separates a yield gain that sticks from one that drifts back within a month.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good brewhouse yield for a small brewery?",
+   "Against laboratory extract, a well-run small lauter tun commonly reaches the high 80s to low 90s in percent. Persistently below 80% usually points to a crush, pH or lautering problem worth fixing."
+  ],
+  [
+   "Will a finer crush always raise yield?",
+   "Only while the bed still drains. In a lauter tun, shredded husks cause slow or stuck run-offs that cost more than the finer crush gains."
+  ],
+  [
+   "Does improving yield change the beer?",
+   "It should not if you scale the grist down proportionally and check gravity, colour and flavour against earlier batches. Over-sparging is the exception, since it extracts tannins."
+  ]
+ ],
+ "cta": {
+  "title": "Find the extract your brewhouse is losing",
+  "body": "A yield and loss review traces extract from the malt certificate to the fermenter and on to the glass. Rahul Baliyan leads the brewhouse work with Ankur Napa on the cost side. Your team keeps the measurement routine afterwards.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "clean-german-lager-in-an-indian-brewpub",
+  "sourcing-malt-and-hops-in-india",
+  "beer-tastes-different-every-batch"
+ ]
+}

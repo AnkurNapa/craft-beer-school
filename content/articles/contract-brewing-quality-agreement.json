@@ -1,0 +1,67 @@
+{
+ "slug": "contract-brewing-quality-agreement",
+ "cat": "Consultancy",
+ "h1": "Writing a contract brewing quality agreement",
+ "title": "Contract Brewing Quality Agreements | Craft Beer School",
+ "desc": "What belongs in a contract brewing quality agreement: specifications, raw material control, release and sign-off, non-conformance and cold chain.",
+ "teaser": "Both sides want the same beer until a batch comes out different. Write down who decides before that happens.",
+ "standfirst": "A contract brewing quality agreement turns 'brew it like the last one' into numbers, tolerances and named responsibilities. Here is what to put in it, from the brewer's side of the table.",
+ "read": "3 min",
+ "updated": "2026-09-21",
+ "updated_label": "September 2026",
+ "sections": [
+  [
+   "Why a handshake is not enough",
+   "<p>Contract brewing lets a brand sell beer without owning a brewhouse and lets a brewery fill spare capacity. Both sides want the same beer, right up until a batch comes out different and nobody wrote down who decides whether it ships. A quality agreement settles that in advance.</p><p>It sits alongside the commercial contract covering price, volume and payment. The quality agreement covers the beer. What follows is a brewing checklist, not legal advice. Have a lawyer draft the final document.</p>"
+  ],
+  [
+   "The specification",
+   "<p>Write the beer down as numbers with tolerances rather than adjectives. For each beer, specify:</p><ul><li>original gravity and final gravity in °P, each with a band such as 0.2 °P either side</li><li>alcohol by volume, within the tolerance your label and the applicable labelling rules allow</li><li>bitterness in IBU, colour in EBC and pH</li><li>carbonation in volumes or g/L</li><li>a maximum dissolved oxygen in the package</li><li>microbiological limits, for example no beer-spoilage organisms detected by an agreed method</li><li>a sensory description agreed by both sides, backed by a reference sample</li></ul>"
+  ],
+  [
+   "Raw materials and recipe control",
+   "<p>Name the malts, hops and yeast strain, with approved suppliers or approved equivalents. Say who buys them and who holds the stock. Most disputes start with a quiet substitution, such as a different maltster or a hop swapped because the specified one was out of stock. Require written approval from the brand for any change to recipe, raw material, yeast or process.</p><p>Agree who owns the recipe and the yeast culture. If the brand supplies its own strain, set out how it is propagated and stored. Agree how many generations it may be repitched.</p>"
+  ],
+  [
+   "Release, retention and sign-off",
+   "<ul><li><strong>Release criteria.</strong> The tests a batch must pass before packaging and before dispatch, plus who signs the release.</li><li><strong>Brand approval.</strong> Whether the brand tastes each batch and within how many working days. Agree what silence means, approval or hold.</li><li><strong>Retained samples.</strong> How many packs per batch the brewery keeps, at what temperature and for how long, usually at least through the stated shelf life.</li><li><strong>Batch coding.</strong> Every pack traceable to brew date, tank and raw material lots.</li></ul>"
+  ],
+  [
+   "When something goes wrong",
+   "<p>Define a non-conforming batch and what can happen to it: rework, blend, downgrade or destroy. Then say who pays in each case. Leaving this vague is how a single bad batch ends a working relationship.</p><p>Set out how complaints are shared and investigated, the time allowed for a response and how a recall would work, with named contacts on both sides. Give the brand the right to audit the brewery with reasonable notice, covering hygiene, records and the process for its beer.</p>"
+  ],
+  [
+   "Excise, labelling and the cold chain",
+   "<p>In India, excise obligations generally sit with the licensed manufacturer. Labels have to meet both excise and food safety requirements. The agreement should say who prepares and approves labels, who handles excise documents and who is responsible from dispatch onwards. Contract brewing arrangements are treated differently from state to state, so take advice from a licensing adviser before you sign.</p><p>Agree storage and transport temperatures too. A hoppy beer held warm for two weeks between brewery and distributor will miss its specification at the bar however well it was brewed. The agreement should say whose problem that is.</p>"
+  ],
+  [
+   "Keep it short enough to use",
+   "<p>The best quality agreements run to a few pages and get read. Put the specifications in an annex that can be updated without redrafting the contract. Review it together after the first three batches, when both sides know where the real tolerances lie. Our guide on <a href=\"scaling-a-pilot-recipe-to-production.html\">scaling a pilot recipe to production</a> covers the trial batches that should come before the first commercial run.</p><p>Assign a named quality contact on each side, with authority to hold a batch. When a problem turns up on a Saturday night, the agreement only helps if someone can act on it without waiting for Monday. Keep a shared log of every deviation, test result and decision. After a year that log is worth more than the contract, because it shows both sides how the beer actually behaves in that brewhouse.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is a quality agreement the same as a contract brewing contract?",
+   "No. The commercial contract covers price, volume and payment. The quality agreement covers the beer itself: specification, raw materials, release, complaints and recalls."
+  ],
+  [
+   "Who should own the recipe in contract brewing?",
+   "Usually the brand, but the agreement must say so explicitly. Cover any yeast strain the brand supplies as well."
+  ],
+  [
+   "What tolerance should I set for original gravity?",
+   "Many brewers work to about 0.2 °P either side of target on core beers. Confirm it from real data after the first few batches."
+  ]
+ ],
+ "cta": {
+  "title": "Contract batches that drift from your beer",
+  "body": "We help brands and host breweries write specifications, release criteria and quality agreements, then check the first batches against them. Rahul Baliyan leads the brewing side with Ankur Napa on quality systems, so both teams can run the agreement themselves.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "scaling-a-pilot-recipe-to-production",
+  "where-ai-helps-a-small-brewery",
+  "consultant-or-full-time-head-brewer"
+ ]
+}

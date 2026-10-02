@@ -1,0 +1,71 @@
+{
+ "slug": "beer-tastes-different-every-batch",
+ "cat": "Consultancy",
+ "h1": "Why your beer tastes different every batch",
+ "title": "Why Your Beer Varies Batch to Batch | Craft Beer School",
+ "desc": "The usual reasons a brewery's beer changes from batch to batch, from malt lots and water to yeast, fermentation heat and bad measurements.",
+ "teaser": "Same recipe, different beer. The cause is almost always in a short list. Your batch records can find it.",
+ "standfirst": "Regulars rarely complain about inconsistency. They just order something else. Here is where batch-to-batch variation comes from and how to track it down.",
+ "read": "3 min",
+ "updated": "2026-07-23",
+ "updated_label": "July 2026",
+ "sections": [
+  [
+   "Consistency is the product",
+   "<p>A regular who loved last month's wheat beer and finds this month's flatter or sweeter does not file a complaint. They order something else. Variation costs a brewery quietly, which is why owners underestimate it.</p><p>In consulting work the cause usually sits in a short list. The trick is to stop guessing and start comparing records.</p>"
+  ],
+  [
+   "Raw materials changed while the recipe did not",
+   "<p>A new malt lot can bring different extract, modification and colour. A new hop lot can carry alpha acid a couple of percentage points away from the last, which moves bitterness noticeably if the recipe weight stays fixed. Hops stored warm lose aroma week by week.</p><p>Log the lot number of every malt and hop in every batch record. When a beer changes, the first question is whether a lot changed. Our guide to <a href=\"sourcing-malt-and-hops-in-india.html\">sourcing malt and hops in India</a> covers the incoming checks.</p>"
+  ],
+  [
+   "Water changes with the season",
+   "<p>Municipal water in many Indian cities shifts through the year. Mineral content, alkalinity and chlorine dosing all move, especially around the monsoon. Borewell water can change as the water table rises and falls. Brew with untreated supply and your mash pH and hop character move with it.</p><p>Test incoming water regularly for hardness, alkalinity and chlorine, or brew from RO water rebuilt to a fixed recipe. The second option removes the variable entirely.</p>"
+  ],
+  [
+   "Yeast: the living variable",
+   "<p>The same strain behaves differently depending on how much you pitch, how healthy it is and how many times it has been repitched. Underpitching gives more esters, slower finishes and sometimes diacetyl. Old or stressed yeast gives sluggish fermentations. Pitch by cell count rather than by the bucket, track generations and check viability with a microscope and methylene blue if you have one.</p><p>Oxygen at knock-out matters too. Inconsistent aeration gives inconsistent yeast growth. The beer follows.</p>"
+  ],
+  [
+   "Fermentation temperature that drifts",
+   "<p>Fermentation makes heat. During the most active day or two, a fermenter can run several degrees above setpoint if the glycol supply cannot keep up. In an Indian summer, with several tanks peaking at once, small chillers often fall behind in the afternoon. A Weissbier fermented at 18 °C one month and 22 °C the next will taste like two beers, with far more banana in the warmer one.</p><p>Log the actual tank temperature twice a day, not the setpoint. If the record shows peaks, stagger brew days so fewer tanks hit high krausen together, or add chilling capacity.</p>"
+  ],
+  [
+   "Measurements that lie",
+   "<p>Sometimes the beer has not changed but the numbers have. An uncalibrated pH meter, a probe reading 2 °C off or a hydrometer read at 30 °C without temperature correction will send you chasing the wrong problem. Calibrate the pH meter on brew days, check probes against a reference thermometer monthly and correct gravity readings for temperature.</p><p>Volume is the quiet one. If the brewer fills the fermenter to a mark on a sight glass that nobody has checked, the dilution changes from batch to batch and so does the original gravity.</p>"
+  ],
+  [
+   "People and the brew sheet",
+   "<p>Two brewers running the same recipe will run it differently unless the brew sheet leaves no room for interpretation. One mashes in at 64 °C, the other at 66 °C because the hot liquor ran hot that morning. One rests the whirlpool for 10 minutes, the other for 25. Each choice is small. Together they make a different beer.</p><p>Write every set point, time and target on the brew sheet with a tolerance beside it. Ask the brewer to record the actual value, not tick a box. Deviations then show up on paper instead of in the glass.</p>"
+  ],
+  [
+   "Find the cause by comparing batches",
+   "<p>Pull the records of a good batch and the one that tasted wrong. Compare them line by line: lots, water, mash pH and temperatures, original gravity, pitch rate, yeast generation, fermentation temperature log, days to final gravity, final gravity and packaging date. The difference usually jumps out. If nothing differs, the records are not detailed enough. That is the first fix.</p><p>Set tolerance bands for the core beers, for example original gravity within about 0.2 °P of target. Taste each batch blind against a retained sample of the last good one, using a panel trained on the faults in our <a href=\"beer-off-flavours.html\">off flavours guide</a>. A brewery that works this way catches drift in one batch instead of five.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does my beer taste different when I follow the same recipe?",
+   "Usually because something outside the recipe changed: a malt or hop lot, the water, yeast health or fermentation temperature. Compare batch records line by line to find it."
+  ],
+  [
+   "How much variation between batches is acceptable?",
+   "Most brewers aim for original gravity within about 0.2 °P and no difference a trained panel can reliably detect. Set and record your own bands for each core beer."
+  ],
+  [
+   "How often should I calibrate my pH meter?",
+   "Every brew day, with fresh pH 4 and pH 7 buffers. Keep the probe in its storage solution, never dry."
+  ]
+ ],
+ "cta": {
+  "title": "Making every batch taste like the last good one",
+  "body": "A consistency review compares your batch records, raw material lots, yeast handling and fermentation logs to find what is moving. Rahul Baliyan leads the brewing side with Ankur Napa on quality data. Your team is left with tolerance bands and a routine to hold them.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "daily-excise-routine-for-brewpubs",
+  "when-to-hire-a-consultant-brewmaster",
+  "what-a-brewery-health-check-covers"
+ ]
+}

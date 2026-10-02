@@ -109,7 +109,7 @@ def build_html():
 </section>
 <section class="page about"><span class="eyebrow">Who we are</span>
   <h2>A team that has worked inside the industry.</h2>
-  <p class="lead">Craft Beer School is India's beer school. Alongside our courses we work with companies: we train their teams, help them hire, and advise on brand, market entry and digital transformation.</p>
+  <p class="lead">Craft Beer School is India's beer school. Alongside our courses we work with companies: we consult for breweries, train their teams, help them hire and advise on brand, market entry and digital transformation.</p>
   {team}
   <span class="eyebrow" style="display:block;margin-top:8mm">Five services</span>
   <div class="ov">{overview}</div>
@@ -120,6 +120,7 @@ def build_html():
 {service_page("brand", "service:brand")}
 {service_page("india", "service:india")}
 {service_page("digital", "track:brewing")}
+{service_page("consultancy", "course:advanced-brewing-science")}
 {contact}
 </body></html>"""
 

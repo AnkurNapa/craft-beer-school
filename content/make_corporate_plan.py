@@ -59,16 +59,26 @@ excise-for-finance-teams-beer-wine-spirits|Excise basics for finance teams in be
 STAGE = {"a": "awareness", "c": "consideration", "d": "decision"}
 
 here = pathlib.Path(__file__).parent
-plan = [p for p in json.loads((here / "plan.json").read_text()) if p["segment"] != SEGMENT]
-rows = [(cat, *line.split("|")) for cat, block in PLAN.items() for line in block.splitlines()]
-start, end = datetime.date(2026, 6, 1), datetime.date(2026, 10, 1)
-step = (end - start) / (len(rows) - 1)
-for i, (cat, slug, h1, st) in enumerate(rows):
-    same = [r[1] for r in rows if r[0] == cat and r[1] != slug]
-    k = same.index(rows[(i + 1) % len(rows)][1]) if rows[(i + 1) % len(rows)][1] in same else i % len(same)
-    plan.append({"slug": slug, "h1": h1, "cat": cat, "course": COURSE,
-                 "related": [same[(k + j) % len(same)] for j in range(3)],
-                 "segment": SEGMENT, "stage": STAGE[st], **({"also": ALSO[cat]} if cat in ALSO else {}), "date": (start + step * i).isoformat()})
-assert len({p["slug"] for p in plan}) == len(plan), "duplicate slug"
-(here / "plan.json").write_text(json.dumps(plan, indent=1, ensure_ascii=False))
-print(len(rows), "corporate rows,", len(plan), "total")
+
+
+def append_segment(segment, course, blocks, start, end, extra=lambda cat: {}):
+    """Replace this segment's rows in plan.json. A row is slug|h1|stage, optionally |author mentor slug."""
+    plan = [p for p in json.loads((here / "plan.json").read_text()) if p["segment"] != segment]
+    rows = [(cat, *line.split("|")) for cat, block in blocks.items() for line in block.splitlines()]
+    step = (end - start) / (len(rows) - 1)
+    for i, (cat, slug, h1, st, *by) in enumerate(rows):
+        same = [r[1] for r in rows if r[0] == cat and r[1] != slug]
+        nxt = rows[(i + 1) % len(rows)][1]
+        k = same.index(nxt) if nxt in same else i % len(same)
+        plan.append({"slug": slug, "h1": h1, "cat": cat, "course": course,
+                     "related": [same[(k + j) % len(same)] for j in range(3)], "segment": segment,
+                     "stage": STAGE[st], **extra(cat), **({"by": by[0]} if by else {}),
+                     "date": (start + step * i).isoformat()})
+    assert len({p["slug"] for p in plan}) == len(plan), "duplicate slug"
+    (here / "plan.json").write_text(json.dumps(plan, indent=1, ensure_ascii=False))
+    print(len(rows), segment, "rows,", len(plan), "total")
+
+
+if __name__ == "__main__":
+    append_segment(SEGMENT, COURSE, PLAN, datetime.date(2026, 6, 1), datetime.date(2026, 10, 1),
+                   lambda cat: {"also": ALSO[cat]} if cat in ALSO else {})

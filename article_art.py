@@ -8,12 +8,15 @@ import game_art
 # Article art: the tile colour says the category, the icon says the topic.
 CAT_COLOUR = {"Wine": "#8e2c48", "Whisky": "#b8662f", "Drinks business": "#2e7f9a", "Beer for teams": "#d9862a",
               "Business": "#2e7f9a", "Branding": "#b3302c", "Careers": "#6b4fa0", "Tasting": "#c98a1b",
-              "Ingredients": "#4f7f2f", "Brewing science": "#0a6d84", "Brewing basics": "#d9862a", "Styles": "#b8662f"}
+              "Ingredients": "#4f7f2f", "Brewing science": "#0a6d84", "Brewing basics": "#d9862a", "Styles": "#b8662f", "Consultancy": "#5b6f2a"}
 CAT_ICON = {"Wine": "wineglass", "Whisky": "cask", "Drinks business": "chart", "Beer for teams": "chart",
             "Business": "coin", "Branding": "pencil", "Careers": "people", "Tasting": "glass", "Ingredients": "barley",
-            "Brewing science": "tank", "Brewing basics": "kettle", "Styles": "glass"}
+            "Brewing science": "tank", "Brewing basics": "kettle", "Styles": "glass", "Consultancy": "tank"}
 # First matching word in the slug wins, so order runs specific to general.
-TOPIC_ICON = [("grape", "grapes"), ("wine", "wineglass"), ("whisky", "cask"), ("cask", "cask"), ("distill", "cask"),
+TOPIC_ICON = [("cider", "bottle"), ("seltzer", "can"), ("fortified", "wineglass"), ("contract", "tank"),
+              ("alcohol", "drop"), ("development", "star"), ("yield", "chart"), ("loss", "magnifier"),
+              ("audit", "magnifier"), ("health", "check"), ("numbers", "chart"), ("hire", "people"), ("brewmaster", "people"),
+              ("commissioning", "check"), ("struggling", "chart"), ("first", "clock"), ("grape", "grapes"), ("wine", "wineglass"), ("whisky", "cask"), ("cask", "cask"), ("distill", "cask"),
               ("spirit", "cask"), ("hop", "hop"), ("yeast", "yeast"), ("kveik", "yeast"), ("brett", "yeast"),
               ("ferment", "tank"), ("lager", "snow"), ("cold", "snow"), ("chill", "snow"), ("glycol", "snow"),
               ("ph", "drop"), ("water", "drop"), ("temperature", "thermo"), ("mash", "thermo"), ("boil", "flame"),
@@ -45,7 +48,8 @@ CAT_SET = {"Wine": ["grapes", "wineglass", "bottle", "sun", "plate"], "Whisky": 
            "Business": ["coin", "chart", "truck", "keg"], "Branding": ["pencil", "can", "bottle", "star"],
            "Careers": ["people", "star", "kettle", "check"], "Tasting": ["glass", "plate", "magnifier", "star"],
            "Ingredients": ["barley", "hop", "yeast", "drop"], "Brewing science": ["tank", "thermo", "yeast", "flame"],
-           "Brewing basics": ["kettle", "thermo", "glass", "barley"], "Styles": ["glass", "hop", "barley", "keg"]}
+           "Brewing basics": ["kettle", "thermo", "glass", "barley"], "Styles": ["glass", "hop", "barley", "keg"],
+           "Consultancy": ["tank", "check", "chart", "barley", "grapes", "cask"]}
 NAVY, GOLD, CREAM = "#0f3340", "#f3c34d", "#fff8ec"
 
 

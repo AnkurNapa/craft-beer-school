@@ -1,0 +1,67 @@
+{
+ "slug": "quality-system-for-a-small-brewery",
+ "cat": "Consultancy",
+ "h1": "Building a quality system in a small brewery",
+ "title": "Quality System for a Small Brewery | Craft Beer School",
+ "desc": "Build a lean quality system for a small brewery: beer specs, checks at fixed points, calibration, cleaning records, a tasting panel and a deviation log.",
+ "teaser": "You do not need a lab or a quality manager. You need a one-page spec per beer and checks your team actually does.",
+ "standfirst": "A quality system makes your beer the same every time and catches it when it is not. In a small brewery it fits on a few pages, provided someone acts on what it finds.",
+ "read": "3 min",
+ "updated": "2026-08-20",
+ "updated_label": "August 2026",
+ "sections": [
+  [
+   "What a quality system is",
+   "<p>A quality system is the set of routines that keeps your beer the same every batch and catches it when it drifts. In a small brewery it does not need a laboratory or a quality manager. It needs written specifications, a short list of checks at the same points every batch and someone who acts on the results.</p><p>The trap is building something too big. A thick manual nobody follows is worse than one page everyone does.</p>"
+  ],
+  [
+   "Write a specification for every beer",
+   "<p>Each regular beer gets a one-page spec with a target and an acceptable range for:</p><ul><li>Original gravity, final gravity and the ABV calculated from them</li><li>pH of the finished beer, usually somewhere around 4.0 to 4.5 for most ales and lagers</li><li>Colour and bitterness, if you can measure them or send samples out</li><li>Carbonation in volumes of CO2, roughly 2.2 to 2.7 for most draught beer</li><li>A short sensory description of how the beer should smell and taste, plus the faults it must never show</li></ul><p>A batch outside spec is not automatically dumped. It is held, assessed and then released or rejected by a named person.</p>"
+  ],
+  [
+   "Checks at fixed points",
+   "<ol><li><strong>Raw materials.</strong> Check malt and hop lots against the supplier's certificate on arrival. Store hops cold and sealed.</li><li><strong>Brew day.</strong> Mash pH, normally 5.2 to 5.6, original gravity and cast-out volume.</li><li><strong>Fermentation.</strong> Gravity and temperature every day until terminal gravity holds steady.</li><li><strong>Before crash cooling.</strong> A forced diacetyl test. Warm a sealed sample to around 60 °C for 10 to 20 minutes, cool it and smell it beside an unheated sample. Butterscotch in the warmed one means the beer is not ready. This is the one check we would never let a small brewery skip.</li><li><strong>Before release.</strong> Final gravity, carbonation, clarity and a sensory sign-off against the spec.</li><li><strong>On tap.</strong> Serving temperature, line cleaning dates and a weekly taste of every beer.</li></ol>"
+  ],
+  [
+   "Calibration and cleaning records",
+   "<p>Every number above is only as good as the instrument behind it. Calibrate the pH meter with fresh buffers before each session, check the hydrometer in water at its reference temperature and verify thermometers against a reference thermometer.</p><p>Cleaning belongs in the system too. Record each CIP cycle with chemical, concentration, temperature and contact time. In consulting work we often trace infections back to a cleaning step that was shortened or skipped, rather than to anything exotic. For equipment, our guide to a <a href=\"brewery-qc-lab-on-a-budget.html\">QC lab on a budget</a> lists what is worth buying first.</p>"
+  ],
+  [
+   "Sensory: the cheapest instrument",
+   "<p>Train two to four people who taste every batch at the same points with the same words. Our guide to <a href=\"beer-off-flavours.html\">beer off flavours</a> makes a good shared vocabulary. Spiked samples help a panel agree on what diacetyl or acetaldehyde actually tastes like.</p><p>Record results against the batch number. A single tasting tells you little. The trend across ten batches of the same beer tells you whether it is drifting.</p>"
+  ],
+  [
+   "Give it an owner",
+   "<p>Somebody must own the system. In a small brewery that is usually the head brewer, with the owner reading the logs each month. Write down who can release a batch, who can hold one and who decides when a held batch is dumped. An argument about a borderline tank is easier when the rule was agreed before the tank existed.</p><p>Keep the records where the work happens. A clipboard by the fermenters that actually gets filled in beats a spreadsheet nobody opens. Move to digital records once the habit is there, not before.</p>"
+  ],
+  [
+   "Deviations, complaints and closing the loop",
+   "<p>Keep two logs. A deviation log records any batch outside spec, what was found, the likely cause and what was changed. A complaint log records every returned pint or customer comment with the beer and batch.</p><p>Review both monthly with the brewer. The system works when a finding changes the process: a longer diacetyl rest, a revised cleaning cycle, a new check on a supplier. If the logs fill up and nothing changes, you have paperwork rather than quality.</p><p>Setting this up takes a few weeks. Getting the team to run it without someone chasing them is the harder part. That is where most small breweries stall.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does a small brewery need a lab?",
+   "Not to start. A calibrated pH meter, hydrometer and thermometer plus a trained tasting panel cover most of what a small brewery needs. Add lab tests as volume grows."
+  ],
+  [
+   "What is a forced diacetyl test?",
+   "Warm a sealed sample of fermenting beer to around 60 °C for 10 to 20 minutes, cool it and smell it beside an unheated sample. Butter or butterscotch in the warmed sample means the yeast has not finished cleaning up."
+  ],
+  [
+   "How often should the pH meter be calibrated?",
+   "Before each session of use, with fresh pH 4 and pH 7 buffers. Electrodes drift and age. A bad reading misleads every decision built on it."
+  ]
+ ],
+ "cta": {
+  "title": "Make your beer the same every batch",
+  "body": "We set up a lean quality system for your brewery: specifications, checks, records and a tasting panel. Ankur Napa leads the work. Your team is trained to run it without us.",
+  "label": "Book a consultation",
+  "href": "contact.html?course=Brewery%20consultancy#enroll"
+ },
+ "related": [
+  "starting-a-cider-line-in-india",
+  "launching-a-hard-seltzer",
+  "planning-a-craft-distillery-in-india"
+ ]
+}

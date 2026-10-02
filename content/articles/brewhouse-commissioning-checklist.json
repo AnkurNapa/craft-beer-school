@@ -1,0 +1,63 @@
+{
+ "slug": "brewhouse-commissioning-checklist",
+ "cat": "Consultancy",
+ "h1": "Commissioning a new brewhouse: what to check before the first brew",
+ "title": "Brewhouse Commissioning Checklist | Craft Beer School",
+ "desc": "What to check on a new brewhouse before the first brew: cleaning and passivation, pressure tests, water runs, calibration and the first batch.",
+ "teaser": "The fabricator says it is finished. Here is what to prove before a single kilo of malt goes in.",
+ "standfirst": "Commissioning is the gap between installed equipment and a working brewery. Do it in the right order and the first batches teach you about your brewhouse instead of costing you your opening month.",
+ "read": "4 min",
+ "updated": "2026-07-06",
+ "updated_label": "July 2026",
+ "sections": [
+  [
+   "Commissioning is where the brewery's habits start",
+   "<p>The fabricator hands over a polished brewhouse, a row of fermenters and a glycol chiller. It looks finished. It is not. Commissioning is the stretch between installation and the first saleable beer, when you prove that every vessel holds pressure, every probe reads true and every valve does what the drawing says it does.</p><p>In consulting work we often see owners rush it because the opening date is fixed and the rent is running. That is how a brewpub ends up dumping its first three batches. A week of methodical checks costs far less than a reputation for a sour house lager.</p><p>The order below is the one we use on a typical 10 hl brewhouse. Adjust it for your kit but keep the sequence: clean, test, calibrate, then brew.</p>"
+  ],
+  [
+   "Clean and passivate before anything touches wort",
+   "<p>New stainless steel arrives with cutting oil, polishing compound, weld discolouration and fingerprints. None of it belongs in beer.</p><ol><li><strong>Degrease.</strong> Run a hot caustic clean through every vessel, pipe and hose, typically 1 to 3% sodium hydroxide at 70 to 80 °C, then rinse thoroughly.</li><li><strong>Acid and passivate.</strong> Follow with an acid circulation or a passivation product, per the chemical supplier's instructions, to rebuild the chromium oxide layer that protects stainless from corrosion.</li><li><strong>Inspect the welds.</strong> Look inside with a torch. Heat tint, pitting or crevices on internal welds harbour bacteria and should go back to the fabricator now.</li><li><strong>Check the spray balls.</strong> Run water through them and watch the coverage. A blocked spray ball leaves a patch that never gets cleaned.</li></ol><p>One rule matters more than the rest on a closed fermenter. Never seal a tank while hot water or hot caustic is cooling inside it. Never run caustic into a tank still full of CO2 either. Both pull a vacuum. If the vacuum relief valve is blocked, the tank can collapse inwards in minutes.</p>"
+  ],
+  [
+   "Pressure and leak tests",
+   "<p>Every fermenter and bright tank carries a rated working pressure on its nameplate. Test it with water to the manufacturer's procedure before it sees beer. Check that the pressure relief valve lifts at its rated setting and that the vacuum relief valve opens freely.</p><p>Then pressure-test the glycol loop and the tank jackets. A pinhole between a jacket and the beer side is rare. Finding it after the first batch means contaminated beer and a tank out of service. On the hot side, run the plate heat exchanger with both circuits under pressure and look for leakage across the plates. Check the gasket on every manway and clamp.</p><p>If the brewhouse is steam-fired, the boiler and steam lines need their own inspection and certification under the boiler rules that apply in your state. Do not fire anything until that paperwork is in hand.</p>"
+  ],
+  [
+   "Water runs: brew the brewhouse without malt",
+   "<p>A water run is a full brew day with water only. Fill the mash tun to your planned strike volume, heat, transfer, run the lauter, fill the kettle, boil, whirlpool and knock out through the heat exchanger into a fermenter. Time every step and measure:</p><ul><li>heat-up rate in the hot liquor tank and the kettle</li><li>evaporation rate at a full rolling boil, in litres per hour</li><li>dead space left in each vessel after transfer</li><li>knock-out temperature against your cooling water temperature</li><li>how long the glycol takes to pull a full fermenter from 20 °C to 10 °C</li></ul><p>These numbers become your recipe calculations. The evaporation rate sets your pre-boil volume. Dead space goes into your loss figures. The heat exchanger result tells you whether 30 °C mains water on a May afternoon will let you reach lager pitching temperature or whether you need a chilled water stage. In much of India it will be the second.</p>"
+  ],
+  [
+   "Calibrate before you trust a single number",
+   "<p>A brewery runs on four measurements: temperature, gravity, pH and volume. Check each one now.</p><ul><li><strong>Probes.</strong> Check every fermenter and brewhouse probe against a reference thermometer in ice water and at mash temperature. A probe reading 1.5 °C low on a lager tank is the difference between clean and estery.</li><li><strong>pH meter.</strong> Two-point calibration with fresh pH 4 and pH 7 buffers, then make it a brew day habit.</li><li><strong>Gravity.</strong> Check the hydrometer or refractometer in distilled water at its reference temperature.</li><li><strong>Volumes.</strong> Calibrate every fermenter and bright tank against a flow meter or measured fills and record a level chart. Your excise stock records will be built on these figures, so check how your state wants tanks calibrated or certified.</li></ul><p>Set the mill too. Look for intact husks with the endosperm broken to grits and flour with very few whole kernels.</p>"
+  ],
+  [
+   "The first brew",
+   "<p>Make the first beer simple, then judge it hard. Write a full batch record: weights, volumes, temperatures, gravities and times at every step. Compare the actual numbers with the recipe. Brewhouse yield, volume into the fermenter and evaporation rarely match the design on day one.</p><p>That gap is the commissioning work. Closing it over the first few batches turns a fabricator's equipment into your brewery. Our guide on <a href=\"raising-brewhouse-yield.html\">raising brewhouse yield</a> picks up from here, while <a href=\"first-100-days-of-a-new-brewpub.html\">the first 100 days of a new brewpub</a> covers what comes after.</p><p>A checklist gets you through the tests. Knowing what a result means and which problem to fix first is harder to write down. That judgement is what an experienced commissioning brewer brings to the floor.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does brewhouse commissioning take?",
+   "For a small brewpub, plan on one to two weeks from finished installation to the first real brew, longer if utilities or the boiler are late. The first few batches after that are still part of commissioning."
+  ],
+  [
+   "Should the first batch be sold?",
+   "Only if it passes your sensory check and the numbers are within specification. Many brewers treat the first batch as a test and are glad they did."
+  ],
+  [
+   "What is passivation and do I need it?",
+   "Passivation is an acid treatment that restores the protective oxide layer on stainless steel after fabrication. Do it before the first brew and again after any welding or mechanical repair."
+  ]
+ ],
+ "cta": {
+  "title": "Commissioning a brewhouse without guesswork",
+  "body": "Our commissioning support covers cleaning, pressure tests, water runs, calibration and the first brews. Rahul Baliyan leads it on site or remotely and leaves your team with the records and routines to run the brewhouse themselves.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "first-100-days-of-a-new-brewpub",
+  "raising-brewhouse-yield",
+  "clean-german-lager-in-an-indian-brewpub"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "launching-a-hard-seltzer",
+ "cat": "Consultancy",
+ "h1": "Launching a hard seltzer: base, filtration and flavour",
+ "title": "Launching a Hard Seltzer | Craft Beer School",
+ "desc": "How hard seltzer is made: the sugar or malt base, fixing nutrient and pH, carbon filtration, adding flavour and the checks before launch in India.",
+ "teaser": "Hard seltzer looks like the easiest drink to make. A clear, neutral base is harder than it looks.",
+ "standfirst": "A hard seltzer is a clean alcoholic base, flavour and a lot of bubbles. The trouble is that a clean base is the hardest thing to fake: every sulphur note and every haze shows through, with nothing to hide behind.",
+ "read": "4 min",
+ "updated": "2026-08-27",
+ "updated_label": "August 2026",
+ "sections": [
+  [
+   "Two ways to build the base",
+   "<p>The usual route is a sugar base: cane sugar or dextrose dissolved in water and fermented. The alternative is a brewed malt base that is then stripped of colour and flavour. The sugar route gives a cleaner result with less processing, so most small producers start there.</p><p>Before choosing, ask your licensing adviser how your state classifies a fermented sugar drink. Some may treat it like beer, others under a different category. The answer decides whether your current licence and label approvals cover it. Rules vary by state and change, so check the current notification.</p>"
+  ],
+  [
+   "Sugar water is a hostile place for yeast",
+   "<p>Wort is full of nitrogen, minerals and buffering compounds. Sugar water has none of them. Pitch a normal ale yeast into it and you get the textbook failure: a slow, stalling fermentation that smells of rotten eggs, because nitrogen-starved yeast throws hydrogen sulphide.</p><ul><li><strong>Nutrient.</strong> Add a complete yeast nutrient. Split it across the first part of fermentation rather than dumping it all at the start.</li><li><strong>pH.</strong> With no buffer, pH can crash as yeast works, sometimes low enough to slow it down. Measure daily and correct with a food-grade buffer salt if it falls too far.</li><li><strong>Pitch rate and temperature.</strong> Pitch generously and keep the tank steady, around 18 to 20 °C for most neutral strains.</li></ul><p>Many producers ferment a stronger base, 8 to 12% ABV, then dilute with treated water to the final strength of roughly 4 to 5%. That makes better use of tank space. Your water then becomes an ingredient, so dechlorinate it and keep alkalinity low.</p>"
+  ],
+  [
+   "Carbon filtration and clarity",
+   "<p>Even a good fermentation leaves faint yeasty or sulphury notes. Activated carbon treatment strips them. Dose carbon into the base, give it contact time, then filter it out fully, because loose carbon fines in a clear drink are obvious. Trial the dose on a small sample first. Carbon removes what you want to keep as readily as what you do not.</p><p>After carbon, filter to bright. Drinkers expect seltzer to look like water. Haze that would pass unnoticed in a wheat beer will get a seltzer returned.</p>"
+  ],
+  [
+   "Flavour goes in last",
+   "<p>Add flavour after filtration, never before, or the carbon and filters take it out. Natural flavour extracts, fruit juice and citrus are the common choices. Keep in mind:</p><ul><li>Juice adds sugar, so it needs the same stabilisation thinking as a sweet cider.</li><li>Some flavours fade fast in warm storage. Hold trial cans warm for a few weeks and taste them against fresh ones.</li><li>Check your labelling. Words like natural, juice and flavour have specific meanings under FSSAI rules, so confirm the wording with whoever handles your label approvals.</li></ul>"
+  ],
+  [
+   "Carbonation and packaging",
+   "<p>Seltzer is usually carbonated higher than most beers, often around 2.7 to 3 volumes of CO2. Check that your cans, kegs and filler are rated for it. Acidic, flavoured drinks can also be harder on can liners than beer, so ask your can supplier whether their liner suits your product.</p><p>Dissolved oxygen matters less for flavour than in a hoppy beer, but it still dulls citrus notes. Purge and fill as carefully as you would for a pale lager.</p>"
+  ],
+  [
+   "Tasting a neutral base",
+   "<p>A neutral base is judged by what it does not taste of. Set up a short sensory check before carbon, after carbon and after flavouring. Taste at serving temperature and again slightly warm, because faults hide in a cold glass.</p><p>The faults to look for are predictable. Rotten egg or struck match means sulphur from stressed yeast. Green apple means acetaldehyde from a fermentation that was not finished. Bready or yeasty notes point to yeast left in contact too long or poor clarification. A papery note after a few weeks suggests oxygen picked up at packaging.</p><p>Keep a retained sample from every batch of base. When a customer complains about a flavoured can, you can taste the base on its own and see whether the problem started in fermentation or in the flavour.</p>"
+  ],
+  [
+   "Before you launch",
+   "<p>Write the full process down: sugar and water specification, nutrient schedule, pH limits, carbon dose, filtration, flavour dosing and release tests. The <a href=\"brewery-qc-lab-on-a-budget.html\">budget QC lab guide</a> covers most of the tests you need. Then cost it properly. Sugar is cheap, but carbon, filter media, flavour and extra tank time add up.</p><p>In consulting work we often see the first batch taste fine and the third taste of sulphur, because the nutrient schedule lived in one person's head. A written procedure fixes that. If you are thinking about stronger products next, read <a href=\"planning-a-craft-distillery-in-india.html\">planning a craft distillery in India</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does my seltzer base smell of rotten eggs?",
+   "Nitrogen-starved yeast produces hydrogen sulphide. Sugar water has almost no yeast nutrient, so add a complete nutrient in stages early in fermentation."
+  ],
+  [
+   "Do I need carbon filtration?",
+   "For a clean, neutral seltzer most producers use it. It removes leftover yeast and sulphur notes, but it also strips flavour, so add flavour afterwards."
+  ],
+  [
+   "Can a brewery licence cover hard seltzer?",
+   "It depends on your state. Ask your licensing adviser how a fermented sugar drink is classified and check the current excise notification."
+  ]
+ ],
+ "cta": {
+  "title": "A seltzer base that stays clean every batch",
+  "body": "A product and process set-up for hard seltzer: base fermentation, nutrient and pH control, carbon and filtration, release tests. Ankur leads on quality and cost, Rahul on fermentation. Your team runs it from the written procedure.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "planning-a-craft-distillery-in-india",
+  "getting-new-make-spirit-right",
+  "planning-a-small-winery-in-india"
+ ]
+}

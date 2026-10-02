@@ -14,8 +14,10 @@ HIRING_HREF = enroll_href("Hiring support")
 BRAND_HREF = enroll_href("Brand and marketing consultancy")
 ENTRY_HREF = enroll_href("Market entry into India")
 DIGITAL_HREF = enroll_href("Digital transformation consulting")
+CONSULT_HREF = enroll_href("Brewery consultancy")
 
 SERVICES = [
+    ("flask", "Brewery and drinks consultancy", "Beer, cider, whisky, wine, fortified wine and seltzer: start-up, new products, contract brewing, quality and cost.", "#consultancy"),
     ("cap", "Corporate training", "Beverage domain training for GCC teams in Bengaluru, Pune and Hyderabad.", "#training"),
     ("users", "Hiring support", "The right people for every function in a brewery, winery or distillery.", "#hiring"),
     ("megaphone", "Brand and digital marketing", "Brand, packaging, content and digital marketing for beer and drinks brands.", "#brand"),
@@ -172,6 +174,22 @@ BODY = banner(
   </div>
 </section>
 
+<section id="consultancy">
+  <div class="wrap split">
+    <div class="prose-block reveal">
+      <span class="eyebrow">Brewery and drinks consultancy</span>
+      <h2>Consultant brewers for beer, cider, spirits and wine.</h2>
+      <p>For breweries, brewpubs, cideries, distilleries, wineries and drinks brands that are opening, launching something new or stuck: a beer that will not stay consistent, a new cider or seltzer that needs a process, a contract brewer who needs a spec, or numbers the owner cannot see until the month is over.</p>
+      <p>Rahul Baliyan, our Weihenstephan-trained Brewmaster, leads brewing: start-ups, commissioning, recipes, contract brewing, yield and raw materials. Ankur Napa, our Master Brewer, leads new product development across beer, cider, hard seltzer, whisky, wine and fortified wine, along with quality systems, costing, data and AI. We work on site or remotely and leave your own team able to run it without us.</p>
+      <div class="cta-pair" style="margin-top:1.4rem"><a class="btn btn-amber" href="{CONSULT_HREF}" data-cta="companies-consultancy">Book a consultation</a><a class="btn btn-wa" href="__WA__" target="_blank" rel="noopener" data-cta="companies-consultancy-whatsapp">[[whatsapp]] WhatsApp us</a></div>
+    </div>
+    <div class="prose-block reveal">
+      <span class="eyebrow">What we do</span>
+      <ul class="checklist"><li>Brewery, cidery, distillery and winery start-ups</li><li>New product development: beer, cider, hard seltzer, spirits, wine and fortified wine</li><li>Contract brewing specs, partner choice and quality agreements</li><li>Brewhouse commissioning and acceptance trials</li><li>Recipe development and consistency between batches</li><li>Brewhouse yield, losses and cost per litre</li><li>Malt, hop and yeast sourcing in India</li><li>Quality systems and a lab sized to the brewery</li><li>Excise and compliance routines, with your licensing adviser</li><li>A brewery health check with a written action plan</li></ul>
+    </div>
+  </div>
+</section>
+
 <section class="sand">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Why us</span><h2>Taught and screened by people who have done the work.</h2>
@@ -182,5 +200,5 @@ BODY = banner(
 """
 
 PAGE = ("Corporate Services | Craft Beer School",
-        "Training for beverage GCCs, hiring, brand and digital marketing, market entry into India and digital transformation for drinks businesses.",
+        "Brewery consultancy, training for beverage GCCs, hiring, brand and digital marketing, market entry into India and digital transformation for drinks businesses.",
         "", BODY)

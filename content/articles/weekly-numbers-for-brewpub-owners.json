@@ -1,0 +1,67 @@
+{
+ "slug": "weekly-numbers-for-brewpub-owners",
+ "cat": "Consultancy",
+ "h1": "The weekly numbers every brewpub owner should see",
+ "title": "Weekly Numbers for Brewpub Owners | Craft Beer School",
+ "desc": "The one-page weekly sheet a brewpub owner should see: litres brewed and sold, the tap-to-till gap, margins, covers and the quality checks behind them.",
+ "teaser": "Monthly accounts tell you what went wrong six weeks ago. A one-page weekly sheet tells you while you can still act.",
+ "standfirst": "By the time the monthly accounts arrive, the stale batch has been poured and the overpours have become habit. These are the numbers to see every week instead, with a way to review them.",
+ "read": "3 min",
+ "updated": "2026-08-13",
+ "updated_label": "August 2026",
+ "sections": [
+  [
+   "Why weekly",
+   "<p>Monthly accounts tell you what went wrong six weeks ago. By the time the profit and loss statement arrives, the stale batch has been poured, the overpours have become habit and the tank you should have brewed is still empty. A short weekly sheet catches these while you can still act.</p><p>Keep it to one page. If a number never changes a decision, drop it. Every number below can come from records a working brewpub already has: the billing system, the brew log, the cellar log and purchase invoices. You do not need new software to start.</p>"
+  ],
+  [
+   "Beer volume and yield",
+   "<ul><li><strong>Litres brewed</strong> this week, by beer.</li><li><strong>Litres sold</strong> by beer, converted from glasses, pitchers and towers.</li><li><strong>Litres drawn from serving tanks</strong>, from tank readings or flow meters.</li><li><strong>The gap</strong> between drawn and sold. This is your tap-to-till loss.</li></ul><p>The gap is the most revealing number on the sheet. If it creeps up, the <a href=\"brewery-loss-audit.html\">brewery loss audit</a> method shows where to look.</p>"
+  ],
+  [
+   "Cost and margin",
+   "<ul><li><strong>Beer cost per litre</strong>, raw materials plus utilities, at this week's purchase prices. Our guide to <a href=\"cost-per-litre-beer.html\">cost per litre</a> shows how to build it.</li><li><strong>Beer gross margin</strong> as a percentage of beer sales.</li><li><strong>Food cost</strong> as a percentage of food sales.</li><li><strong>Labour cost</strong> as a percentage of total sales.</li></ul><p>We do not give target percentages here because they depend on your rent, menu, city and state excise structure. Watch your own trend. A margin that falls three weeks in a row needs an explanation, whatever its level.</p>"
+  ],
+  [
+   "Customers and mix",
+   "<ul><li><strong>Covers</strong> and <strong>average spend per cover</strong>, split by weekday and weekend.</li><li><strong>House beer share of sales</strong> against food, cocktails and bought-in drinks.</li><li><strong>Litres per beer per week</strong>, the velocity number that drives your <a href=\"tap-list-planning-with-sales-data.html\">tap list planning</a>.</li></ul><p>A brewpub's reason to exist is its own beer. If house beer's share of sales is sliding, find out whether it is the beer, the price or staff steering guests to something else.</p>"
+  ],
+  [
+   "Quality and freshness",
+   "<p>Owners often skip this block because it is not money. It drives the money.</p><ul><li><strong>Days on tap</strong> for each beer. Old hoppy beer loses customers quietly.</li><li><strong>Date of the last draught line clean.</strong> The widely used standard is every two weeks. Yeast and beer stone build up in lines faster than most staff believe. A line left a month tastes of it.</li><li><strong>Serving temperature</strong>, checked with a probe in the glass, not read off the cooler display.</li><li><strong>Complaints and returned pints</strong>, with the beer named.</li><li><strong>Batches out of specification</strong> this week and what was done about them.</li></ul>"
+  ],
+  [
+   "Tanks and the brew plan",
+   "<p>Add a short cellar block so production and sales meet on the same page.</p><ul><li><strong>What is in every tank</strong>: the beer, its volume and the date it was brewed.</li><li><strong>Weeks of cover</strong> for each serving tank: litres in the tank divided by litres sold per week.</li><li><strong>The next two weeks of brews</strong>, checked against the beers that will run out first.</li><li><strong>Raw material stock</strong> for the next month of brewing, so nobody discovers on brew day that the pilsner malt has run out.</li></ul><p>In India add one more line. Imported hops and specialty malts can take weeks to arrive, so reorder points belong on the sheet rather than in the brewer's head.</p>"
+  ],
+  [
+   "How to run the review",
+   "<p>Fill the sheet on the same day each week from the billing export, the brew log and the cellar log. Sit with the head brewer and the floor manager for thirty minutes. Read each number against the last four weeks, not against last week alone. Agree one or two actions with a name against each.</p><p>The first month is the hardest. The data will be messy and some numbers will not reconcile. That mess is itself a finding. Many brewpubs discover they have never measured tank drawdown properly, or that the billing system records a pitcher as one item with no volume. Fixing the data is the first win. It is also the step owners most often need help to get right, because it means walking the cellar with a dipstick and the billing screen side by side until the two agree.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the most important weekly number for a brewpub?",
+   "The gap between litres drawn from serving tanks and litres billed. It catches overpours, waste and unbilled beer that monthly accounts hide."
+  ],
+  [
+   "Should I use software or a spreadsheet?",
+   "Start with a spreadsheet. Once you know which numbers you act on, a dashboard that pulls from your billing system saves time. The reverse order usually wastes money."
+  ],
+  [
+   "How often should draught lines be cleaned?",
+   "The widely used standard is every two weeks with an alkaline cleaner, plus a periodic acid clean. Record the date so it appears on the weekly sheet."
+  ]
+ ],
+ "cta": {
+  "title": "Get a weekly sheet that runs your brewpub",
+  "body": "We set up a one-page weekly scorecard from your billing, brewing and cellar records. Ankur Napa leads the data and cost work. Your team keeps running it after we leave.",
+  "label": "Book a consultation",
+  "href": "contact.html?course=Brewery%20consultancy#enroll"
+ },
+ "related": [
+  "turning-around-a-struggling-brewpub",
+  "quality-system-for-a-small-brewery",
+  "starting-a-cider-line-in-india"
+ ]
+}

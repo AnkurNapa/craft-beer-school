@@ -1,0 +1,63 @@
+{
+ "slug": "daily-excise-routine-for-brewpubs",
+ "cat": "Consultancy",
+ "h1": "A daily excise routine for brewpubs",
+ "title": "A Daily Excise Routine for Brewpubs | Craft Beer School",
+ "desc": "A practical daily routine for brewpub excise records in India: morning tank dips, logging transfers and losses, then a closing reconciliation.",
+ "teaser": "Reconcile daily and a gap is a ten-minute question. Reconcile monthly and it is a week of detective work.",
+ "standfirst": "Excise formats vary by state, but the discipline behind them does not. Every litre brewed, moved, lost and sold has to add up. Here is a daily routine that keeps it that way.",
+ "read": "3 min",
+ "updated": "2026-07-27",
+ "updated_label": "July 2026",
+ "sections": [
+  [
+   "Why a daily habit beats a monthly scramble",
+   "<p>A brewpub in India makes and sells excisable liquor on the same premises, so the excise department expects every litre to be accounted for from brewhouse to glass. Registers, returns and formats differ from state to state and change by notification. Treat this guide as a working routine, not legal advice. Confirm current requirements with your licensing adviser or the local excise office.</p><p>The principle does not vary. Stock in the tanks, beer brewed and beer sold have to reconcile. The losses in between have to be explained. A brewery that reconciles daily spots a gap the same day. One that reconciles monthly spends days reconstructing it.</p>"
+  ],
+  [
+   "Morning: dip and record the tanks",
+   "<p>Start each day with physical stock. Read the level of every fermenter and bright tank against its calibration chart at the same time each morning. Record the volume, the beer and the batch. Volumes must come from calibrated charts, so if a tank has never been calibrated, or has been modified since, fix that before anything else.</p><p>Note each batch's stage: fermenting, conditioning or ready for service. Excise records often track beer as it moves between stages. A transfer nobody wrote down becomes a gap later.</p>"
+  ],
+  [
+   "During the day: log every movement",
+   "<ul><li><strong>Brewing.</strong> Wort volume and original gravity into the fermenter, with date and batch number.</li><li><strong>Transfers.</strong> Volume out of the fermenter and into the bright tank, with the loss between them.</li><li><strong>Losses.</strong> Yeast and trub removed, beer lost on filtration or transfer, each with a reason written down.</li><li><strong>Dispense.</strong> If your taps run through flow meters, read them at opening and closing.</li></ul><p>Before you dump a spoiled batch, check your state's rules. Some require the excise authorities to be told in advance or to witness destruction. Either way, write it down.</p><p>Keep losses in the same unit and at the same point every time. A loss measured as wort volume at knock-out cannot be compared with one measured as beer at the bright tank. Pick a method, write it into the SOP and stick to it so the numbers mean the same thing month after month.</p>"
+  ],
+  [
+   "Close of day: reconcile",
+   "<p>At closing, do the arithmetic while the day is fresh. Opening bright beer stock, plus beer transferred in today, minus beer sold through the point-of-sale system, minus recorded losses, should equal closing bright beer stock.</p><p>The difference should be small and explainable: foam on the first pours, line cleaning, a spill. Agree a tolerance with your head brewer and investigate anything outside it the next morning. When point-of-sale volumes and dispense meter readings drift apart, look for over-pouring or unrecorded free pours. That is a cost problem as much as an excise one.</p>"
+  ],
+  [
+   "Keep the paper trail tidy",
+   "<p>Inspections can come with little notice. Keep registers current, signed where the format requires it and stored where they can be produced quickly. Keep the supporting documents with them: brew sheets, transfer logs, loss notes, raw material purchase records and tank calibration certificates.</p><p>Raw material records matter more than many owners expect. Excise authorities may compare malt purchased with beer declared. A brewhouse with poor yield can then look like one with undeclared production. Our guide on <a href=\"raising-brewhouse-yield.html\">raising brewhouse yield</a> helps on both counts.</p>"
+  ],
+  [
+   "Make it someone's job",
+   "<p>The routine fails when it belongs to everyone. Name one person for the morning dips and transfers, usually the brewer on shift. Name another for the closing reconciliation, often the manager who closes the till. Give them one sheet or spreadsheet with the same columns every day, then review the week's numbers every Monday with the head brewer.</p><p>When the numbers will not reconcile and nobody can say why, the cause is usually upstream: an uncalibrated tank, a night transfer that was never recorded or a dispense meter nobody reads. All three are fixable. Finding them takes someone who will walk the whole flow from brewhouse to tap with the registers in hand.</p><p>Keep a short running note of anything unusual that day: a tank opened for repair, a keg returned from an event, a batch held back for quality. Months later, when an officer asks about one entry, that note is the difference between a clear answer and a guess. It costs two minutes a day.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is this routine enough to stay compliant?",
+   "No guide can promise that. Excise rules, registers and returns vary by state and change by notification, so confirm the current requirements with your licensing adviser or local excise office."
+  ],
+  [
+   "Can I dump a spoiled batch of beer?",
+   "Check your state's rules first. Some states require the excise authorities to be informed or to witness destruction. Keep a written record either way."
+  ],
+  [
+   "How much loss between brewhouse and glass is normal?",
+   "It depends on the system and the beer. Excise departments may also apply their own norms, so measure your losses at each stage and investigate any batch outside your usual band."
+  ]
+ ],
+ "cta": {
+  "title": "Excise records that reconcile every day",
+  "body": "We set up a daily stock and reconciliation routine around your tanks, transfers and dispense. Rahul Baliyan, who has spent a decade as a consultant brewmaster in North India working within excise rules, leads it. Your team runs it unaided afterwards.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "when-to-hire-a-consultant-brewmaster",
+  "what-a-brewery-health-check-covers",
+  "brewery-loss-audit"
+ ]
+}

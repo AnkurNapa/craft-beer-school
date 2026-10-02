@@ -1,0 +1,63 @@
+{
+ "slug": "clean-german-lager-in-an-indian-brewpub",
+ "cat": "Consultancy",
+ "h1": "Brewing a clean German lager in an Indian brewpub",
+ "title": "Brewing Clean German Lager in India | Craft Beer School",
+ "desc": "How to brew a clean Helles or Pilsner in an Indian brewpub: water treatment, mash, boil, pitch rate, fermentation control, VDK checks and lagering.",
+ "teaser": "Pale malt, noble hops and nowhere to hide. Here is how to make a German lager behave in Indian heat.",
+ "standfirst": "A German lager shows every fault in the brewery. Hard water, hot summers and tight tank space make it harder in India, but each problem has a known answer.",
+ "read": "3 min",
+ "updated": "2026-07-16",
+ "updated_label": "July 2026",
+ "sections": [
+  [
+   "Why lager is the hardest beer on the tap list",
+   "<p>A Helles or a German Pilsner has nowhere to hide: pale malt, noble hops, clean yeast and soft water. Any diacetyl, sulphur, DMS or oxidation shows immediately. The customer may not name it but will order something else next round.</p><p>Indian brewpubs add their own hurdles. The water is often hard or alkaline, summer temperatures push glycol systems to their limit and the long lagering time eats tank space. None of these is a reason to give up on lager.</p>"
+  ],
+  [
+   "Start with the water",
+   "<p>Many borewell supplies carry high hardness and alkalinity. Municipal water varies with the season and usually carries chlorine. Pale German lager wants soft water with low residual alkalinity. The reliable route is reverse osmosis (RO), then rebuilding the minerals you want: calcium at around 50 to 100 mg/L from calcium chloride or calcium sulphate, with the chloride-to-sulphate balance set for the style. A Helles leans soft and malty. A German Pilsner can take a little more sulphate for a drier, firmer bitterness.</p><p>Remove chlorine and chloramine with activated carbon or a small dose of potassium metabisulphite. Chlorophenols taste medicinal at tiny concentrations and a pale lager will show them.</p>"
+  ],
+  [
+   "Grist and mash",
+   "<p>Well-modified German Pilsner malt is the base. A step mash suits it: a rest around 62 to 64 °C for fermentability, a saccharification rest around 70 to 72 °C, then mash-out at 76 to 78 °C. Lengthen or shorten the lower rest to move the final gravity. A decoction mash adds malt depth and is worth trying once your infusion process is consistent. It is a refinement, not a requirement.</p><p>Target a mash pH of about 5.4 measured at room temperature. A small share of acid malt (Sauermalz) is the traditional German way to get there without adding anything outside the purity law.</p>"
+  ],
+  [
+   "Boil and cool hard",
+   "<p>DMS is the classic pale lager fault: cooked sweetcorn on the nose. Pilsner malt carries plenty of its precursor, so boil vigorously with the lid open for 60 to 90 minutes. Keep the whirlpool rest short and cool promptly, because DMS keeps forming while hot wort waits.</p><p>Cool to around 8 to 10 °C for pitching. In an Indian summer a single-stage heat exchanger on mains water rarely gets there. A second stage on chilled glycol water, or a cold liquor tank chilled overnight, solves it.</p>"
+  ],
+  [
+   "Fermentation: pitch big, stay cold, let the yeast finish",
+   "<ul><li><strong>Pitch rate.</strong> Lager needs roughly twice the yeast of an ale. The common working figure is about 1.5 million cells per millilitre per degree Plato. Underpitching is the usual cause of sulphur, diacetyl and acetaldehyde in brewpub lager.</li><li><strong>Oxygen.</strong> Oxygenate the cooled wort to around 8 to 10 mg/L.</li><li><strong>Temperature.</strong> Ferment at around 9 to 12 °C with a proven lager strain such as Weihenstephan 34/70. Watch the probe, not the setpoint. On a 38 °C afternoon a small chiller can fall behind three fermenters at peak activity.</li><li><strong>Diacetyl rest.</strong> When gravity is 2 to 3 °P above the expected final, let the beer rise to 14 to 16 °C for two or three days.</li></ul><p>Before you cool, run a forced diacetyl test. Warm a sealed sample to about 60 °C for 10 to 20 minutes, cool it and smell it beside an untreated sample. Butter in the warmed one means the precursor is still there. Do not crash cool until it passes.</p>"
+  ],
+  [
+   "Lagering and the tank-space problem",
+   "<p>Cold conditioning at around 0 to 1 °C for three to four weeks drops yeast and protein, fades the sulphur and gives the beer its polish. It also ties up a tank, which is the real cost of lager in a brewpub. Plan tank space so the house lager is never rushed out to free a vessel for the next ale.</p><p>Many German brewers spund their lager: a pressure-setting valve closed near the end of fermentation lets the yeast's own CO2 carbonate the beer. Keep every transfer closed and purged with CO2. Oxygen picked up here turns a delicate lager stale within weeks once the cold chain runs warm. Good noble hops matter too. Our guide to <a href=\"sourcing-malt-and-hops-in-india.html\">sourcing malt and hops in India</a> covers keeping them fresh.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I brew a good lager without a decoction mash?",
+   "Yes. A well-controlled step infusion with good German Pilsner malt makes an excellent clean lager. Decoction adds malt depth but is not essential."
+  ],
+  [
+   "How long should a German lager be lagered?",
+   "Three to four weeks near 0 °C is a sound starting point for a Helles or Pilsner. Release it on tasting and the diacetyl test, not on the calendar alone."
+  ],
+  [
+   "Why does my brewpub lager smell of sulphur?",
+   "Some sulphur is normal during lager fermentation and fades in conditioning. If it lingers, look at pitch rate, yeast health and whether the beer was rushed through lagering."
+  ]
+ ],
+ "cta": {
+  "title": "Fixing a lager that will not come out clean",
+  "body": "Our lager process review covers water treatment, mash, pitch rates, fermentation control and lagering. Rahul Baliyan, a Weihenstephan-trained brewmaster, leads it and leaves your team with written procedures they can run on their own.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "sourcing-malt-and-hops-in-india",
+  "beer-tastes-different-every-batch",
+  "daily-excise-routine-for-brewpubs"
+ ]
+}

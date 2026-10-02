@@ -88,3 +88,18 @@ These 44 guides are for people who work inside beer, wine and spirits companies 
   - `consideration`: title names the work problem (bad forecasts, KPIs nobody can explain). Body names the relevant module (Beverage 101; Brewing and distilling operations; Raw materials and supply chain; Route to market and regulation in India; Guided sensory sessions; Data and AI in beverages) and says it is built around the team's own portfolio. Label: "Plan a programme".
   - `decision`: direct invitation to a team lead or L&D manager. Body: programmes run on-site in Bengaluru, Pune and Hyderabad or live online, sized to the team. Label: "Plan a programme".
 - Never quote corporate fees. Internal links may also point at `for-companies.html` and the other corporate slugs in the plan.
+
+## Drinks producers segment (plan segment "Drinks producers", cat "Consultancy")
+
+26 guides for owners, founders, head brewers and product teams of breweries, brewpubs, cideries, distilleries, wineries and drinks brands in India that are open, opening or struggling. Each plan row has a `by` field: the guide is bylined to Rahul Baliyan (mentor-rahul-baliyan.html: Weihenstephan-trained German-style Brewmaster, M.Tech. Food Biotechnology, a decade as Consultant Brew Master in North India, on 10 hl brewhouses; start-ups, excise compliance, team supervision, yield and raw material sourcing) or Ankur Napa (mentor-ankur-napa.html: Master Brewer who also works in data and AI; quality systems, costing, data, AI). Write in the school's "we" voice in the author's area of expertise.
+
+- Never invent case studies, client names, before-and-after numbers or personal anecdotes presented as real. "In consulting work we often see..." followed by a general, well-known pattern is fine. Do not name any venue, client or brand.
+- Practical and specific: checklists, the order to do things in, the numbers to measure and typical healthy ranges from standard brewing practice. A brewer should finish the guide knowing what to check tomorrow.
+- Excise and licensing: process level only, state rules vary and change, work with a licensing adviser. No section numbers, rates or fees.
+- No serial comma and no ", and" joins.
+- CTA href is `contact.html?course=Brewery%20consultancy#enroll` (the enquiry form with Brewery consultancy pre-selected). It sells a consultation, not a course:
+  - `awareness`: title names what the owner would gain. Body: our consultant brewers work with breweries and brewpubs on site or remotely. Label: "Talk to a consultant brewer".
+  - `consideration`: title names the problem. Body names the work (for example a yield and loss review, commissioning support, a quality system set-up), who leads it (Rahul on brewing, Ankur on quality, cost and data) and that it leaves the team able to run it. Label: "Book a consultation".
+  - `decision`: direct invitation to the owner. Body: we start with a brewery health check and a written action plan. Label: "Book a consultation".
+- Never quote consultancy fees or promise outcomes (no "raise yield by X%").
+- Internal links may also point at `for-companies.html` and other plan slugs, including existing guides such as brewhouse-efficiency, brewery-qc-lab-on-a-budget, brewery-failure-reasons, cost-per-litre-beer, taproom-economics.

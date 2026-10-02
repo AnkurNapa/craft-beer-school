@@ -1,0 +1,71 @@
+{
+ "slug": "scaling-a-pilot-recipe-to-production",
+ "cat": "Consultancy",
+ "h1": "Scaling a pilot recipe to a production brewhouse",
+ "title": "Scaling a Pilot Recipe to Production | Craft Beer School",
+ "desc": "Why multiplying a pilot recipe fails and how to scale by targets instead: extract, hop utilisation, evaporation, fermenter geometry and dry hopping.",
+ "teaser": "Multiply the pilot recipe by twenty and you get a different beer. Here is how to scale it properly.",
+ "standfirst": "A recipe written in kilos is a record of how one system behaved. To move a beer from a pilot kit to a production brewhouse, scale the targets and rebuild the recipe around the bigger system.",
+ "read": "3 min",
+ "updated": "2026-09-24",
+ "updated_label": "September 2026",
+ "sections": [
+  [
+   "Why multiplying the recipe fails",
+   "<p>A 50 litre pilot batch tastes right. The obvious move is to multiply every ingredient by twenty and brew 10 hl. The result is usually close but wrong: a little more bitter, a little less aromatic, a different finish. Scale changes the physics of almost every step.</p><p>The fix is to scale by targets rather than ingredients. Write the pilot beer down as numbers first: original gravity, final gravity, IBU, colour, water profile, mash schedule and fermentation profile. Then rebuild the production recipe to hit those numbers on the production system.</p>"
+  ],
+  [
+   "Grist: scale by extract, not weight",
+   "<p>Pilot systems rarely run at the same brewhouse yield as production. A small mash tun with a fine crush may extract more, or less, than a 10 hl lauter tun. Use each system's measured yield to calculate the grist that hits the target original gravity. Keep the percentage of each malt the same so colour and malt character carry across, then confirm colour in EBC on the first production batch.</p>"
+  ],
+  [
+   "Bitterness: utilisation changes with the kettle",
+   "<p>Hop utilisation depends on boil vigour, wort gravity, kettle geometry and above all how long the wort stays hot after the boil. A 50 litre pilot kettle cools in minutes. A 10 hl kettle with a 20 minute whirlpool rest holds wort above 90 °C long enough to keep isomerising alpha acids from every late addition. That is the usual reason a scaled beer comes out more bitter than the pilot.</p><p>Calculate bitterness using the production system's real hot-side time, including whirlpool and knock-out. Reduce late additions or move some into a cooler whirlpool if the aim is aroma. Measure IBU on the first batches if you can, or at least compare bitterness blind against the pilot beer.</p>"
+  ],
+  [
+   "Boil, evaporation and the hot side",
+   "<p>Evaporation rarely scales in a straight line. Use the production kettle's measured rate from commissioning, not a percentage borrowed from the pilot, to set the pre-boil volume. Heat-up and knock-out times are longer at scale too, which affects DMS in pale beers and the survival of late-hop aroma. Our <a href=\"brewhouse-commissioning-checklist.html\">commissioning checklist</a> covers how to measure these numbers.</p>"
+  ],
+  [
+   "Fermentation: the tank shape matters",
+   "<p>A pilot fermenter is short and squat. A 20 hl cylindroconical tank is tall, so yeast near the cone works under a couple of metres of beer. That hydrostatic pressure raises dissolved CO2, which tends to suppress ester formation. Tall tanks can also develop temperature differences top to bottom. A Weissbier full of banana at pilot scale can come out plainer in a tall tank at the same setpoint.</p><p>Pitch by cell count at both scales and keep the same oxygen target. Adjust fermentation temperature on the production batches if the ester profile shifts. Some traditional German wheat beer brewers still use open, shallow fermenters, partly for this reason.</p>"
+  ],
+  [
+   "Dry hopping and the cold side",
+   "<p>Dry hop rates in grams per litre transfer reasonably well, but contact does not. Pellets dropped into a large tank can settle into the cone instead of circulating, so some brewers rouse with CO2 or recirculate. Bigger additions also bring a bigger oxygen risk. Purge hop additions or use a closed dosing vessel.</p>"
+  ],
+  [
+   "Run a trial, then lock it in",
+   "<p>Treat the first production batch as a trial. Measure everything and taste it blind against a fresh pilot batch. Adjust one variable at a time and brew again. Two or three batches usually close the gap. Write the final production recipe with its targets and tolerances so the next brewer can hold it. For contract production, those targets belong in the <a href=\"contract-brewing-quality-agreement.html\">quality agreement</a>.</p><p>The judgement in between, deciding which difference matters and which knob to turn, is what takes most brewers several scale-ups to learn.</p>"
+  ],
+  [
+   "Water and yeast at scale",
+   "<p>Two inputs are easy to forget. The pilot may have been brewed with bottled or RO water while the production brewhouse runs on treated borewell supply. Match the mineral profile on paper and check mash pH on the first production brew. Yeast is the other. A fresh pack in the pilot and a fifth-generation slurry in production are not the same pitch, even at the same cell count. Use a young, healthy generation for the first production batches so the trial measures the brewhouse and not the yeast.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I scale a homebrew recipe straight to a 10 hl brewhouse?",
+   "Not by multiplying weights. Rebuild it from targets for gravity, bitterness and colour using the production system's measured yield, hop utilisation and evaporation."
+  ],
+  [
+   "Why is my scaled-up beer more bitter?",
+   "Usually because the larger kettle keeps the wort hot for longer after the boil, so late hops isomerise more. Account for whirlpool and knock-out time in your bitterness calculation."
+  ],
+  [
+   "How many trial batches does scaling take?",
+   "Often two or three, changing one variable at a time. Measure and taste each against the pilot beer."
+  ]
+ ],
+ "cta": {
+  "title": "Turning a pilot recipe into a production beer",
+  "body": "Our scale-up support rebuilds the recipe from targets, plans the trial batches and checks them against the pilot. Rahul Baliyan leads the brewing work and leaves your team with a production recipe they can hold.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "where-ai-helps-a-small-brewery",
+  "consultant-or-full-time-head-brewer",
+  "brewhouse-commissioning-checklist"
+ ]
+}

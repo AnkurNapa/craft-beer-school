@@ -1,0 +1,67 @@
+{
+ "slug": "low-and-no-alcohol-production-routes",
+ "cat": "Consultancy",
+ "h1": "Low and no alcohol drinks: production routes compared",
+ "title": "Low and No Alcohol Production Routes | Craft Beer School",
+ "desc": "The main ways to make low and no alcohol beer, wine and spirit alternatives: dealcoholisation, limited fermentation, special yeasts and what each costs you.",
+ "teaser": "There are only a few ways to take alcohol out of a drink. Each one leaves a different fingerprint on the flavour.",
+ "standfirst": "Low and no alcohol drinks are made by removing alcohol, never producing much in the first place or building the drink without fermentation. Each route has its own equipment, flavour trade-offs and microbiological risks.",
+ "read": "3 min",
+ "updated": "2026-09-17",
+ "updated_label": "September 2026",
+ "sections": [
+  [
+   "What low and no actually mean",
+   "<p>Definitions depend on the market. In the UK, for example, alcohol-free means no more than 0.05% ABV and low alcohol means no more than 1.2%, while many other markets use 0.5% as the line for non-alcoholic. In India, check the current FSSAI standards and your state's excise position before you name a product, because the category also decides who regulates it.</p><p>Pick your target number first. Getting to 0.5% is a different engineering problem from getting to 0.05%.</p>"
+  ],
+  [
+   "Route one: make it, then remove the alcohol",
+   "<p>Dealcoholisation starts with a normal beer or wine and takes the alcohol out. The two common methods:</p><ul><li><strong>Vacuum distillation.</strong> Under vacuum, alcohol boils off at a much lower temperature than normal, often somewhere around 30 to 45 °C, which limits cooked flavours. Systems with aroma recovery capture some volatile aroma and add it back. The spinning cone column used for wine is a variant of this idea.</li><li><strong>Membrane separation.</strong> Reverse osmosis or dialysis separates alcohol and water from the larger flavour molecules without heating. It treats the drink gently but the kit is expensive and needs careful running.</li></ul><p>Both routes can reach very low alcohol. Both also remove some aroma and body, so many producers adjust the starting recipe: more malt character, late hops or a blend-back of untreated product within the legal limit. Kit cost and throughput usually put this route out of reach for a small brewery, which is why contract dealcoholisation exists in some markets.</p>"
+  ],
+  [
+   "Route two: limit the fermentation",
+   "<p>The cheaper route for beer is to stop much alcohol forming in the first place.</p><ul><li><strong>Low fermentability wort.</strong> Mash hot, around 72 to 78 °C, so enzymes produce fewer fermentable sugars.</li><li><strong>Arrested or cold contact fermentation.</strong> Ferment briefly or at near-freezing temperature, then remove the yeast before much alcohol forms.</li></ul><p>The fingerprint of this route is worty, sweet, raw-grain flavour, because the sugars and aldehydes that fermentation would normally clean up remain. Acidity, hops and careful recipe design hide some of it. Our guide to <a href=\"beer-off-flavours.html\">beer off flavours</a> explains why unfermented wort tastes the way it does.</p>"
+  ],
+  [
+   "Route three: yeast that cannot finish the job",
+   "<p>Some yeasts cannot ferment maltose, the main sugar in wort. <em>Saccharomycodes ludwigii</em> and some <em>Pichia kluyveri</em> strains are the commonly used examples. They ferment the small amount of simpler sugar, make some aroma and stop at low alcohol, leaving maltose behind.</p><p>This gives a fuller, more beer-like result than arrested fermentation in many cases, with ordinary brewery kit. The trade-off is sweetness from residual maltose and a narrower set of yeast behaviours to work with. Run it as a separate culture so it does not mix with your house strains.</p>"
+  ],
+  [
+   "Route four: build it without fermentation",
+   "<p>Some drinks skip fermentation entirely. Hop water is carbonated water flavoured with hops. Non-alcoholic spirit alternatives are usually distillates or infusions of botanicals in water. Some alcohol-free wine alternatives use juice, tea or vinegar for structure. These sit closer to soft drink production than to brewing, with their own food safety and labelling rules.</p>"
+  ],
+  [
+   "Choosing a route",
+   "<p>For most small breweries the decision comes down to scale and target strength:</p><ul><li>Below 0.5% ABV with brewery kit you already own: a maltose-negative yeast or a limited fermentation.</li><li>A very low figure such as 0.05% with a full-bodied flavour: dealcoholisation, done in-house at scale or by a contract partner.</li><li>No fermentation at all: hop water or a botanical drink, which may sit under a different licence.</li></ul><p>Run small trials of two routes before buying anything. Taste them blind against a commercial reference at the same strength.</p>"
+  ],
+  [
+   "The risk every route shares",
+   "<p>Alcohol is part of what protects beer and wine. Take it away and leave sugar behind and you have a drink that spoilage organisms like. Most low and no beers are pasteurised or sterile filtered and packaged cleanly. Many brewers keep pH low as an extra hurdle.</p><p>The typical floor failure is a low alcohol keg that tasted clean at release and arrived at the bar sour or gushing. In Indian heat, assume the shelf is warm. Plan stabilisation and shelf-life testing as part of the product, as covered in <a href=\"new-product-development-for-drinks.html\">new product development for drinks</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the cheapest way to make low alcohol beer?",
+   "Usually a limited fermentation: a less fermentable wort, a short or cold fermentation, or a maltose-negative yeast. Dealcoholisation kit is expensive for a small brewery."
+  ],
+  [
+   "Why do some alcohol-free beers taste like wort?",
+   "When fermentation is cut short, the sugars and aldehydes it would normally convert or clean up remain in the beer, giving a sweet, grainy flavour."
+  ],
+  [
+   "Do low and no alcohol beers need pasteurising?",
+   "Most producers pasteurise or sterile filter them, because there is little alcohol and plenty of sugar for spoilage organisms. Low pH helps as an extra safeguard."
+  ]
+ ],
+ "cta": {
+  "title": "Know which route suits your brewery",
+  "body": "Our consultant brewers work with breweries and brewpubs on site or remotely, from choosing a low and no route to the trials and shelf-life checks that come with it.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Talk to a consultant brewer"
+ },
+ "related": [
+  "contract-brewing-quality-agreement",
+  "scaling-a-pilot-recipe-to-production",
+  "where-ai-helps-a-small-brewery"
+ ]
+}

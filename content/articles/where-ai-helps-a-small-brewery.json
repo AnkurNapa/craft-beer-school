@@ -1,0 +1,63 @@
+{
+ "slug": "where-ai-helps-a-small-brewery",
+ "cat": "Consultancy",
+ "h1": "Where AI helps a small brewery and where it does not",
+ "title": "Where AI Helps a Small Brewery | Craft Beer School",
+ "desc": "Where AI genuinely helps a small brewery, from sales forecasting to drafting SOPs, where it does not and the order to adopt it in.",
+ "teaser": "AI cannot taste your beer. It can tell you how much lager to brew next month, if your sales data is in order.",
+ "standfirst": "Most small breweries do not have an AI problem. They have a data problem. Here is where AI earns its keep once the records are in order, where it does not and a sensible order to try it in.",
+ "read": "3 min",
+ "updated": "2026-09-28",
+ "updated_label": "September 2026",
+ "sections": [
+  [
+   "Start with the data you have",
+   "<p>Every AI tool runs on data. A small brewery that writes brew logs on paper, keeps sales in a billing system nobody exports and tracks fermentation on a whiteboard does not have an AI problem. It has a data problem. That comes first.</p><p>The good news is that the data most useful to AI is data a brewery should keep anyway: sales by beer by day, brew logs, gravity readings, cleaning records and purchase prices. Get those into a consistent digital form and the options open up.</p>"
+  ],
+  [
+   "Where it helps: forecasting and planning",
+   "<p>Forecasting demand is the most practical use. A model trained on a year or two of daily sales, with weekends, festivals, dry days and weather marked, can predict next month's demand by beer better than gut feel. That forecast feeds the brew schedule, which matters most for lagers that take weeks to make. Even a simple statistical forecast in a spreadsheet gets you much of the way.</p><p>Check every forecast against what actually sold. If the model misses by the same amount in the same direction week after week, it is missing something you know about, such as a regular corporate booking or a new taproom down the road. Add that knowledge before trusting it further.</p><p>Our guide to <a href=\"tap-list-planning-with-sales-data.html\">tap list planning with sales data</a> covers the groundwork any forecast depends on.</p>"
+  ],
+  [
+   "Where it helps: paperwork and knowledge",
+   "<p>Language models are good at drafting. They can turn a brewer's rough notes into a clean standard operating procedure, summarise a month of tasting panel comments, draft a training checklist for new bar staff or answer questions over your own documents.</p><p>A brewer still has to check every SOP before it goes on the wall. A model will write a wrong mash temperature with complete confidence. Treat its output as a first draft from a fast junior who has never been in your brewhouse. It is quick and tidy. It has no idea what your mash tun does at full load.</p><p>They are also useful for pulling numbers out of supplier invoices and specification sheets into a cost sheet, which saves hours of typing.</p>"
+  ],
+  [
+   "Where it helps: spotting drift",
+   "<p>If fermentation gravity and temperature are logged regularly, a simple model can compare each batch's curve with past batches of the same beer and flag one that is running slow or warm. That is anomaly detection. It needs nothing exotic.</p><p>The catch is data density. A manual gravity reading once a day gives a coarse curve. Inline density sensors give a finer one but cost money. Decide what you would do differently with a better curve before you buy the sensor.</p><p>The same idea works for cold rooms and glycol chillers. A cheap temperature logger with an alert catches a failing compressor overnight, long before the kegs warm enough to matter.</p>"
+  ],
+  [
+   "Where it does not help",
+   "<ul><li><strong>Tasting.</strong> No model can taste your beer. Sensory checks stay with trained people.</li><li><strong>Recipe design from scratch.</strong> A chatbot can suggest a recipe, but it cannot know your malt, water, yeast health or brewhouse efficiency. Treat its suggestions as a sketch at best.</li><li><strong>Fixing a broken process.</strong> If cleaning is skipped or fermentation temperature swings, a dashboard just shows the problem more clearly. The fix is still on the floor.</li><li><strong>Replacing a brewer's judgement.</strong> A model can flag a slow fermentation. Deciding whether to rouse the yeast, raise the temperature or dump the batch is a brewing decision.</li></ul>"
+  ],
+  [
+   "A sensible order",
+   "<p>Digitise sales and brew logs first. Build a few weekly reports from them. Use a language model for drafting and summaries, where mistakes are cheap and easy to catch. Only then look at forecasting and anomaly detection.</p><p>Be careful what you upload. Recipes, costs and sales figures are commercially sensitive, so read a tool's data terms before pasting them in.</p><p>Vendors will offer to skip these steps. In our experience the breweries that get real value from AI are the ones whose basic records were already in order. Our guide to <a href=\"consultant-or-full-time-head-brewer.html\">choosing a consultant or a full-time head brewer</a> covers who should own those records.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is AI worth it for a small brewery?",
+   "For drafting, summaries and simple forecasting, yes. The cost is low. For anything needing sensors or custom models, wait until your basic records are digital and consistent."
+  ],
+  [
+   "Can AI write my beer recipes?",
+   "It can suggest a starting point. It cannot account for your ingredients, water or kit, so a brewer still has to design and test the real recipe."
+  ],
+  [
+   "What data should a brewery collect first?",
+   "Daily sales by beer, brew logs with gravities and volumes, fermentation readings and purchase prices. These help with or without AI."
+  ]
+ ],
+ "cta": {
+  "title": "See what your brewery's data could do",
+  "body": "Our consultant brewers work with breweries and brewpubs on site or remotely. Ankur Napa leads the work on quality, cost, data and practical AI.",
+  "label": "Talk to a consultant brewer",
+  "href": "contact.html?course=Brewery%20consultancy#enroll"
+ },
+ "related": [
+  "consultant-or-full-time-head-brewer",
+  "brewhouse-commissioning-checklist",
+  "first-100-days-of-a-new-brewpub"
+ ]
+}

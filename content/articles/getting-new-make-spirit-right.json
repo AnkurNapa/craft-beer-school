@@ -1,0 +1,71 @@
+{
+ "slug": "getting-new-make-spirit-right",
+ "cat": "Consultancy",
+ "h1": "Getting new make spirit right before it goes into cask",
+ "title": "Getting New Make Spirit Right | Craft Beer School",
+ "desc": "How to get new make whisky spirit right before it goes into cask: wash, fermentation, copper, cut points, strength and the checks to run on every batch.",
+ "teaser": "A cask cannot fix a bad spirit. It can only make it older.",
+ "standfirst": "Wood adds a great deal to whisky, but it starts from what the still gives it. Get the wash, the cuts and the filling strength right and the cask has something worth working on.",
+ "read": "4 min",
+ "updated": "2026-09-03",
+ "updated_label": "September 2026",
+ "sections": [
+  [
+   "Why the new make matters most",
+   "<p>New make is the clear spirit that comes off the spirit still before it sees any wood. Many of its faults survive ageing. Sulphur can soften in the cask, but heavy feinty notes, solvent edges and harsh fusel character tend to stay. Fixing them later means blending them away, which costs money and stock.</p><p>The good news is that new make is measurable and repeatable. Treat it like a beer you are about to package, with specs and release checks.</p>"
+  ],
+  [
+   "It starts in the fermenter",
+   "<p>A malt whisky wash typically finishes around 7 to 9% ABV. Unlike beer, the wort is usually not boiled and there are no hops, so the fermentation itself sets much of the flavour.</p><ul><li><strong>Fermentation length.</strong> Short fermentations, around two days, tend to give a heavier, nuttier spirit. Longer ones of three to four days or more let a late lactic phase build fruitier esters.</li><li><strong>Temperature.</strong> A wash that runs too hot gives more fusel alcohols. In Indian heat, fermenter cooling is worth its cost.</li><li><strong>Hygiene.</strong> Some bacterial activity late in fermentation is normal and even useful. Infection early on is not.</li></ul><p>If you come from brewing, your <a href=\"brewery-qc-lab-on-a-budget.html\">QC lab routines</a> carry straight over: gravity, pH and microscope checks still apply.</p>"
+  ],
+  [
+   "Two distillations and the role of copper",
+   "<p>In the common pot still process, the wash still turns the wash into low wines of roughly 20 to 25% ABV. The spirit still then redistils the low wines and the cuts are made there.</p><p>Copper does chemical work in both stills. It reacts with sulphur compounds and removes them. More copper contact, through slower distillation, more reflux or a warmer condenser, gives a lighter spirit. Less contact gives a heavier, meatier one. Neither is wrong, but you have to choose it rather than drift into it. Watch your cooling water: in an Indian summer the condenser may run warmer than in winter. The spirit can change with it.</p>"
+  ],
+  [
+   "Cut points: heads, heart and tails",
+   "<p>The spirit still run is divided into three parts:</p><ul><li><strong>Foreshots or heads.</strong> The first, most volatile fraction, with solvent and harsh notes. These are diverted back for redistillation.</li><li><strong>Heart.</strong> The middle cut that becomes new make. Distilleries commonly start collecting somewhere above 70% ABV and stop somewhere in the 60s, but the exact points are a house decision.</li><li><strong>Feints or tails.</strong> The end of the run, heavy and oily. Also recycled into the next charge.</li></ul><p>On the floor, the still operator watches strength and temperature at the spirit safe and noses the run at each cut. Write the cut points down by strength, not by clock time. Keep them unless you decide to change the style on purpose. A cut taken late to gain volume brings feinty character that will show for years.</p>"
+  ],
+  [
+   "Faults and where they start",
+   "<p>Most new make faults trace back to a specific step:</p><ul><li>Sulphury, cabbage notes: too little copper contact or a fermentation under stress.</li><li>Solvent, nail varnish notes: heads cut taken too early into the run, or a hot fermentation.</li><li>Oily, wet cardboard or sweaty notes: tails collected too late.</li><li>Sour or vinegary notes: a wash that sat too long or became infected before distillation.</li></ul><p>Change one thing at a time when chasing a fault. Log what you changed.</p>"
+  ],
+  [
+   "Strength, measurement and records",
+   "<p>New make often comes off around 68 to 72% ABV and is reduced with clean water before filling. Many producers fill at around 63.5% ABV, a strength widely used in Scotland, though some fill higher or lower by choice. Filling strength affects how the spirit extracts from the wood, so keep it consistent.</p><p>Measure strength with a calibrated hydrometer or density meter, corrected to the reference temperature. In India that number also goes into your excise records, so it must agree with what the officer measures. Log every run: charge volume, strengths at each cut, litres of pure alcohol in each fraction, cooling water temperature and a short sensory note.</p>"
+  ],
+  [
+   "A simple release check before filling",
+   "<ol><li>Strength within spec.</li><li>Nose and taste at reduced strength, around 20% ABV, against a reference sample from a run you liked.</li><li>No obvious sulphur, solvent or feinty notes beyond the house style.</li><li>Cask record ready: fill date, strength, volume and cask type.</li></ol><p>Keep a library of small new make samples. In two years, when a cask tastes wrong, you will want to know whether the problem started in the still or in the wood. For the wider business side, see <a href=\"planning-a-craft-distillery-in-india.html\">planning a craft distillery in India</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is new make spirit?",
+   "The clear spirit straight off the spirit still, before it goes into a cask. Whisky starts as new make and only becomes whisky after ageing in wood."
+  ],
+  [
+   "Why does my new make smell sulphury?",
+   "Usually too little copper contact, from running the still fast, a cold condenser or stainless parts in the vapour path. Some sulphur fades in cask, but it is better controlled at the still."
+  ],
+  [
+   "Should I cut by time or by strength?",
+   "By strength, backed by nosing. Clock times drift as charges and steam rates change, while strength tells you where you are in the run."
+  ],
+  [
+   "Can I redistil heads and tails?",
+   "Yes. In most pot still operations the foreshots and feints are collected and added to the next spirit still charge."
+  ]
+ ],
+ "cta": {
+  "title": "A new make spec your still team can hold",
+  "body": "A spirit quality review: fermentation, copper contact, cut points, strength measurement and release checks written into a procedure with a run log. Ankur leads on quality and data. Your team keeps running it.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "planning-a-small-winery-in-india",
+  "how-fortified-wines-are-made",
+  "new-product-development-for-drinks"
+ ]
+}
