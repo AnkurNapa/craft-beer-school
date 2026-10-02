@@ -7,13 +7,25 @@ says. Do not add employers, numbers or claims that are not confirmed.
 MENTORS = [
     dict(slug="mentor-ankur-napa.html", name="Ankur Napa", img="assets/team3.jpg",
          role="Course Instructor · Master Brewer",
-         card="A Master Brewer with hands-on experience at global brewing giants. Bridges the science of the mash tun with the reality of the brewery floor.",
+         card="A Master Brewer from R&amp;D at United Breweries, SABMiller and AB InBev who went on to build AI and GenAI as a data scientist for AB InBev's global business units.",
          lede="A Master Brewer who also works in data and AI.",
-         bio=["Ankur has brewed at global brewing companies and he teaches the way the brewhouse actually runs: what the numbers say, and what the floor tells you when they are wrong.",
-              "He also works in data and AI for breweries, so his sessions connect classic brewing science with the tools a modern brewery uses to measure, predict and improve."],
-         areas=["Brewing science", "Brewery operations", "Data and AI for breweries"],
+         bio=["Ankur built his brewing career in research and development at United Breweries, SABMiller and AB InBev, where he worked as a Master Brewer. He learned brewing where the numbers have to hold at scale. He teaches the way the brewhouse actually runs: what the numbers say and what the floor tells you when they are wrong.",
+              "He then moved into data. After Mathesis Labs he returned to AB InBev as a data scientist, working on AI and GenAI for its global business units. He then worked in operations and digital transformation at iWort. Today he is Growth Officer at Disruptive Advantage.",
+              "He holds an MSc in Brewing Science and Technology and an MSc in Data Science and AI. His sessions join classic brewing science to the tools a modern brewery uses to measure, predict and improve. He is a Microsoft Certified Fabric Analytics Engineer and has taught at Craft Beer School since 2021."],
+         areas=["Brewing science", "Brewery operations", "Data and AI for breweries", "Digital transformation"],
          courses=[("advanced-brewing-science-course.html", "Advanced Brewing Science"),
                   ("ai-for-craft-breweries-course.html", "AI for Craft Breweries")],
+         career=[("2026 to now", "Growth Officer", "Disruptive Advantage"),
+                 ("2023 to 2026", "Operations and Digital Transformation", "iWort"),
+                 ("2022 to 2023", "Data Scientist, AI and GenAI", "AB InBev, global business units"),
+                 ("2020 to 2022", "Senior Data Analyst", "Mathesis Labs"),
+                 ("2011 to 2020", "R&amp;D Brewer and Master Brewer", "SABMiller and AB InBev"),
+                 ("", "R&amp;D Brewer", "United Breweries")],
+         education=[("2021 to 2023", "MSc Data Science and AI", "Liverpool John Moores University"),
+                    ("", "PG Diploma in Data Analytics and Business Intelligence", "IIIT Bangalore"),
+                    ("2013 to 2015", "MSc Brewing Science and Technology", "Savitribai Phule Pune University"),
+                    ("", "BTech Biotechnology", "Maharshi Dayanand University"),
+                    ("", "Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)", "Microsoft")],
          linkedin="https://www.linkedin.com/in/ankur-napa/"),
     dict(slug="mentor-chatty-girija.html", name="Chatty Girija", img="assets/team5.jpg",
          role="Beer Podcaster · Creative Strategist",
@@ -43,6 +55,8 @@ MENTORS = [
          areas=["Brewing science", "German lager brewing", "Brewery start-ups", "Excise compliance", "Yield optimisation", "Raw material sourcing"],
          courses=[("brewing-fundamentals-course.html", "Brewing Fundamentals"),
                   ("advanced-brewing-science-course.html", "Advanced Brewing Science")],
+         education=[("", "Brewing certification", "Weihenstephan, Technical University of Munich"),
+                    ("", "M.Tech. Food Biotechnology", "")],
          linkedin="https://www.linkedin.com/in/rahul-baliyan-m-tech-40630a6b/",
          gallery=[("assets/rahul-tum-certificate.jpg", "Receiving his brewing certificate at TUM"),
                   ("assets/rahul-brewhouse.jpg", "In a copper brewhouse"),
@@ -82,6 +96,13 @@ def cards():
     return "".join(card(m) for m in MENTORS)
 
 
+def _timeline(title, rows):
+    if not rows:
+        return ""
+    items = "".join(f'<li><span>{when}</span><b>{what}</b>{f"<em>{where}</em>" if where else ""}</li>' for when, what, where in rows)
+    return f'<div class="prose-block reveal"><span class="eyebrow">{title}</span><ol class="timeline">{items}</ol></div>'
+
+
 def _body(m):
     from pages_a import banner  # pages_a imports this module for the About cards
     bio = "".join(f"<p>{p}</p>" for p in m["bio"])
@@ -91,6 +112,8 @@ def _body(m):
     li = (f'<p><a href="{m["linkedin"]}" target="_blank" rel="noopener" class="link-arrow">{m["name"].split()[0]} on LinkedIn</a></p>'
           if m["linkedin"] else "")
     others = "".join(card(o) for o in MENTORS if o is not m)
+    history = "".join(_timeline(t, m.get(k)) for t, k in (("Career", "career"), ("Education", "education")))
+    history = f'<section class="tint"><div class="wrap split" style="align-items:start">{history}</div></section>' if history else ""
     pics = "".join(f'<figure class="mentor-photo reveal"><img src="{src}" alt="{m["name"]}: {cap}" loading="lazy" /><figcaption>{cap}</figcaption></figure>'
                    for src, cap in m.get("gallery", []))
     gallery = (f'<section><div class="wrap"><div class="sec-head"><span class="eyebrow">In photos</span><h2>{m["name"].split()[0]} at work.</h2></div>'
@@ -109,6 +132,7 @@ def _body(m):
   </div>
 </section>
 
+{history}
 {gallery}
 <section class="tint">
   <div class="wrap">
