@@ -50,7 +50,28 @@ MENTORS = [
 def card(m):
     return (f'      <article class="card reveal"><a href="{m["slug"]}"><img class="mentor-img" src="{m["img"]}" alt="{m["name"]}" loading="lazy" /></a>'
             f'<div class="card-body"><span class="cat">{m["role"]}</span><h3><a href="{m["slug"]}">{m["name"]}</a></h3>'
-            f'<p>{m["card"]}</p><a href="{m["slug"]}" class="link-arrow">Full profile</a></div></article>\n')
+            f'<p>{m["card"]}</p><div style="display:flex;flex-wrap:wrap;gap:.4rem 1.4rem"><a href="{m["slug"]}" class="link-arrow">Full profile</a>{_linkedin(m)}</div></div></article>\n')
+
+
+def _linkedin(m):
+    if not m["linkedin"]:
+        return ""
+    return f'<a href="{m["linkedin"]}" target="_blank" rel="noopener" class="link-arrow">{m["name"].split()[0]} on LinkedIn</a>'
+
+
+def instructors(course_slug):
+    """'Your instructors' section for a course page, empty if nobody is mapped to it."""
+    team = [m for m in MENTORS if any(s == course_slug for s, _ in m["courses"])]
+    if not team:
+        return ""
+    return f"""<section class="tint">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Your instructor{"s" if len(team) > 1 else ""}</span><h2>Who teaches this course.</h2></div>
+    <div class="grid-3">
+{"".join(card(m) for m in team)}    </div>
+  </div>
+</section>
+"""
 
 
 def cards():
@@ -62,7 +83,7 @@ def _body(m):
     bio = "".join(f"<p>{p}</p>" for p in m["bio"])
     areas = "".join(f"<li>{a}</li>" for a in m["areas"])
     courses = "".join(f'<li><a href="{s}">{n}</a></li>' for s, n in m["courses"])
-    courses = f'<h3>Related courses</h3><ul class="checklist">{courses}</ul>' if courses else ""
+    courses = f'<h3>Courses</h3><ul class="checklist">{courses}</ul>' if courses else ""
     li = (f'<p><a href="{m["linkedin"]}" target="_blank" rel="noopener" class="link-arrow">{m["name"].split()[0]} on LinkedIn</a></p>'
           if m["linkedin"] else "")
     others = "".join(card(o) for o in MENTORS if o is not m)

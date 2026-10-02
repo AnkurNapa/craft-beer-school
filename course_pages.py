@@ -10,6 +10,7 @@ import re
 
 import article_render
 import articles_all
+import mentors
 import pages_a
 import photos
 from pages_a import banner, course_href as slug_for, enroll_href
@@ -465,6 +466,7 @@ def render(c):
   </div>
 </section>
 
+{mentors.instructors(slug_for(c["name"]))}
 <section class="tint">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Syllabus</span><h2>Week by week.</h2><p class="lead">{c["weeks"]} week{"s" if c["weeks"] != 1 else ""}. Two live sessions every weekend and one assignment a week.</p></div>
