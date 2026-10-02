@@ -175,7 +175,7 @@ BODY = banner(
 <section class="sand">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Why us</span><h2>Taught and screened by people who have done the work.</h2>
-      <p class="lead">Our mentors include a Master Brewer with hands-on experience at global brewing companies who also works in data and AI, a Weihenstephan-trained German-style Brewmaster based in Delhi, a creative strategist with more than 30 years in advertising, and an operations lead with more than 15 years in education and operations. We teach what we have done, and we hire the way we would want to be hired.</p></div>
+      <p class="lead">Our mentors include a Master Brewer with hands-on experience at global brewing companies who also works in data and AI, a Weihenstephan-trained German-style Brewmaster based in Delhi, a creative strategist with more than 30 years in advertising and an operations lead with more than 15 years in education and operations. We teach what we have done, and we hire the way we would want to be hired.</p></div>
     <div class="cta-pair"><a class="btn btn-amber" href="contact.html#enroll" data-cta="companies-bottom-enquire">Talk to us</a><a class="btn btn-wa" href="__WA__" target="_blank" rel="noopener" data-cta="companies-bottom-whatsapp">[[whatsapp]] WhatsApp us</a><a class="btn btn-ghost" href="corporate-brochure.html" data-cta="companies-bottom-brochure">Corporate brochure</a></div>
   </div>
 </section>

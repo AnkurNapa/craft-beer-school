@@ -9,7 +9,7 @@ MENTORS = [
          role="Course Instructor · Master Brewer",
          card="A Master Brewer with hands-on experience at global brewing giants. Bridges the science of the mash tun with the reality of the brewery floor.",
          lede="A Master Brewer who also works in data and AI.",
-         bio=["Ankur has brewed at global brewing companies, and he teaches the way the brewhouse actually runs: what the numbers say, and what the floor tells you when they are wrong.",
+         bio=["Ankur has brewed at global brewing companies and he teaches the way the brewhouse actually runs: what the numbers say, and what the floor tells you when they are wrong.",
               "He also works in data and AI for breweries, so his sessions connect classic brewing science with the tools a modern brewery uses to measure, predict and improve."],
          areas=["Brewing science", "Brewery operations", "Data and AI for breweries"],
          courses=[("advanced-brewing-science-course.html", "Advanced Brewing Science"),
