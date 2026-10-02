@@ -95,7 +95,8 @@ h1,h2{{font-family:"Hanken Grotesk";font-weight:800;letter-spacing:-.02em;line-h
 .fact{{background:var(--sand);border-radius:4mm;padding:5mm}}
 .fact b{{display:block;font-size:20pt;color:var(--navy);line-height:1}}
 .fact span{{font-size:8.5pt;color:var(--soft)}}
-.team{{display:grid;grid-template-columns:repeat(3,1fr);gap:5mm}}
+.team{{display:grid;grid-template-columns:repeat(4,1fr);gap:5mm}}
+.member .ini{{width:100%;aspect-ratio:1;border-radius:4mm;background:#eee;display:grid;place-items:center;font-size:28pt;font-weight:700;color:#777}}
 .member img{{width:100%;aspect-ratio:1;object-fit:cover;border-radius:4mm}}
 .member h3{{font-size:11pt;margin-top:3mm}}
 .member p{{font-size:9pt;color:var(--soft)}}
@@ -154,6 +155,7 @@ h1,h2{{font-family:"Hanken Grotesk";font-weight:800;letter-spacing:-.02em;line-h
     <div class="member"><img src="{uri("assets/team3.jpg")}" alt=""><h3>Ankur Napa</h3><p>Master Brewer and course instructor, with hands-on experience at global brewing companies.</p></div>
     <div class="member"><img src="{uri("assets/team5.jpg")}" alt=""><h3>Chatty Girija</h3><p>Beer podcaster and creative strategist, with more than 30 years in advertising.</p></div>
     <div class="member"><img src="{uri("assets/team4.jpg")}" alt=""><h3>Anu Rao</h3><p>Head of Strategy and Operations, with more than 15 years in education and operations.</p></div>
+    <div class="member"><div class="ini">RB</div><h3>Rahul Baliyan</h3><p>Brewing science instructor for Delhi and North India. Weihenstephan-trained German-style Brewmaster.</p></div>
   </div>
   <div class="how"><div><b>Live, not recorded</b>Two live sessions every weekend, with recordings afterwards.</div>
     <div><b>Small batches</b>At most 20 students, so every question gets answered.</div>
