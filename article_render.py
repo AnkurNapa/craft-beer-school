@@ -7,6 +7,7 @@ FAQ block that doubles as FAQPage schema, and links to sibling articles. The
 CTA is part of the template, so no article can ship without a way to enrol.
 """
 
+import article_art
 import pathlib
 
 THUMB_DIR = pathlib.Path(__file__).parent / "assets/og/thumb"
@@ -117,6 +118,7 @@ def render(article, by_slug):
 <article class="post">
   <div class="wrap post-head">
     {BREADCRUMB.format(title=article['h1'])}
+    <figure class="post-banner">{article_art.banner_svg(article['slug'], article['cat'])}</figure>
     <span class="eyebrow">{article['cat']}</span>
     <h1 class="post-title">{article['h1']}</h1>
     <p class="lead">{article['standfirst']}</p>

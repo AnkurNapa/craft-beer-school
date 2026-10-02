@@ -721,3 +721,8 @@ section.fam-group{padding:0}
 .bro-hint{grid-column:1/-1}
 @media (min-width:1024px){.bro{grid-template-columns:1fr 1fr;gap:1.6rem}}
 .bro-sec{padding-top:2.2rem}
+
+/* Illustrated banner at the top of every guide (article_art.banner_svg) */
+.post-banner{margin:.4rem 0 1.6rem;border-radius:20px;overflow:hidden;aspect-ratio:12/5;box-shadow:var(--shadow-sm)}
+.post-banner svg{display:block;width:100%;height:100%}
+@media (max-width:640px){.post-banner{aspect-ratio:2/1;border-radius:14px;margin-bottom:1.2rem}}

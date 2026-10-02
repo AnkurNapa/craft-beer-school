@@ -39,38 +39,7 @@ COURSES = {pages_a.course_href(c["name"]): c for c in pages_a.COURSE_DATA}
 MENTORS = {m["slug"]: m for m in mentors.MENTORS}
 
 
-# Article art: the tile colour says the category, the icon says the topic.
-CAT_COLOUR = {"Wine": "#8e2c48", "Whisky": "#b8662f", "Drinks business": "#2e7f9a", "Beer for teams": "#d9862a",
-              "Business": "#2e7f9a", "Branding": "#b3302c", "Careers": "#6b4fa0", "Tasting": "#c98a1b",
-              "Ingredients": "#4f7f2f", "Brewing science": "#0a6d84", "Brewing basics": "#d9862a", "Styles": "#b8662f"}
-CAT_ICON = {"Wine": "wineglass", "Whisky": "cask", "Drinks business": "chart", "Beer for teams": "chart",
-            "Business": "coin", "Branding": "pencil", "Careers": "people", "Tasting": "glass", "Ingredients": "barley",
-            "Brewing science": "tank", "Brewing basics": "kettle", "Styles": "glass"}
-# First matching word in the slug wins, so order runs specific to general.
-TOPIC_ICON = [("grape", "grapes"), ("wine", "wineglass"), ("whisky", "cask"), ("cask", "cask"), ("distill", "cask"),
-              ("spirit", "cask"), ("hop", "hop"), ("yeast", "yeast"), ("kveik", "yeast"), ("brett", "yeast"),
-              ("ferment", "tank"), ("lager", "snow"), ("cold", "snow"), ("chill", "snow"), ("glycol", "snow"),
-              ("ph", "drop"), ("water", "drop"), ("temperature", "thermo"), ("mash", "thermo"), ("boil", "flame"),
-              ("malt", "barley"), ("barley", "barley"), ("wheat", "barley"), ("oat", "barley"), ("rice", "barley"),
-              ("can", "can"), ("keg", "keg"), ("bottl", "bottle"), ("packag", "box"), ("label", "pencil"),
-              ("design", "pencil"), ("brand", "pencil"), ("nam", "pencil"), ("pair", "plate"), ("food", "plate"),
-              ("cheese", "plate"), ("dessert", "plate"), ("off-flavour", "magnifier"), ("infection", "bug"),
-              ("sour", "bug"), ("quality", "magnifier"), ("kpi", "chart"), ("data", "chart"), ("forecast", "chart"),
-              ("sales", "chart"), ("depletion", "chart"), ("price", "coin"), ("pricing", "coin"), ("cost", "coin"),
-              ("excise", "coin"), ("funding", "coin"), ("economics", "coin"), ("regulation", "check"), ("rules", "check"), ("licence", "check"), ("compliance", "check"),
-              ("fssai", "check"), ("supply", "truck"),
-              ("distribution", "truck"), ("trade", "truck"), ("energy", "bolt"), ("job", "people"),
-              ("career", "people"), ("team", "people"), ("joiner", "people"), ("staff", "people"), ("shelf", "clock"),
-              ("long", "clock"), ("stale", "clock"), ("judge", "star"), ("bjcp", "star"), ("score", "star")]
-
-
-def topic_icon(slug, cat):
-    words = slug.split("-")
-    for key, name in TOPIC_ICON:
-        if key in words or (len(key) >= 3 and any(w.startswith(key) for w in words)) or (
-                "-" in key and key in slug):
-            return name
-    return CAT_ICON.get(cat, "glass")
+from article_art import CAT_COLOUR, topic_icon
 
 
 def article_art(slug, cat):
