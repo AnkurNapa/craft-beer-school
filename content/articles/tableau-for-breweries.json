@@ -1,0 +1,71 @@
+{
+ "slug": "tableau-for-breweries",
+ "cat": "Business",
+ "h1": "Tableau for breweries: seeing a brew season in one view",
+ "title": "Tableau for Breweries | Craft Beer School",
+ "desc": "How a brewery uses Tableau to turn brew logs, fermentation readings and sales into views that show a whole season at once, and what the tool costs.",
+ "teaser": "Tableau is built for the question a spreadsheet cannot answer: show me every batch of this beer we have ever brewed, on one screen, and point at the odd one.",
+ "standfirst": "A spreadsheet shows you one batch at a time. Tableau shows you forty of them side by side, and the one that fermented wrong jumps off the screen. This guide walks through what a brewery puts into Tableau, the three views worth building first and what the tool costs once the free trial ends.",
+ "read": "5 min",
+ "updated": "2026-10-03",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What Tableau is for in a brewery",
+   "<p>Tableau started as a tool for people who wanted to drag a column onto a canvas and see a chart appear, without writing a formula first. That is still its strength. A brewer who has never built a dashboard can connect a brew log, drop batch code on one axis and loss on the other and have something useful inside ten minutes.</p><p>Where it earns its keep is pattern finding. Forty batches of the same lager plotted as fermentation curves, one line each, show you in a glance that three of them stalled at the same gravity in the same month. The same data in Excel is forty tabs. In consulting work we often see a brewery discover its summer fermentation problem this way, years after the fact, because nobody had ever looked at the curves together.</p>"
+  ],
+  [
+   "The data Tableau wants",
+   "<p>The same rule as any tool: long and tidy beats wide and pretty. Tableau is happiest with a sheet where each row is one measurement. For fermentation, that means one row per tank per day: batch code, beer, tank, date, gravity, temperature. For the brew log, one row per batch with the columns we describe in <a href=\"power-bi-for-breweries.html\">Power BI for breweries</a>: grist weight, wort volume, original and final gravity, packaged volume, dates.</p><p>Tableau reads Excel, CSV and Google Sheets directly. Point it at the file, and if your sheet has a block of headers across the top and blank rows underneath, use the Data Interpreter. It is good at guessing where the real table starts. Then join the fermentation sheet to the brew log on batch code, and you have the whole season in one source.</p><p>Keep the raw log as the single source of truth. Fix wrong values there, never inside Tableau. The dashboard is a window, not a second copy.</p>"
+  ],
+  [
+   "View one: every fermentation curve, overlaid",
+   "<p>This is the view that sells Tableau to a brewer. Put days since pitch on the horizontal axis, gravity on the vertical, one line per batch, filtered to one beer. Colour by month brewed. A healthy ale drops fast for three days, then eases to its final gravity by day five or six. The outliers are obvious: a curve that flattens early, a curve that keeps dropping past the expected terminal gravity, a curve that starts a day late.</p><p>Add temperature as a second row of the same chart. Most stalled ferments in Indian breweries sit next to a temperature line that climbed over 24 °C on a hot afternoon when the glycol could not keep up. Seeing the two together turns a mystery into a maintenance job.</p>"
+  ],
+  [
+   "View two: yield and loss across the season",
+   "<p>A bar per batch, height equal to packaged litres divided by wort litres into the fermenter, coloured by beer. Sort by date. Add a reference line at your target, say 88%, and a reference band for the range you consider normal. Batches below the band get a label.</p><p>Tableau's calculated fields do the arithmetic. Loss percentage is one line: packaged litres over wort litres, subtracted from one. Apparent attenuation from the gravities is another. Our guide on <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> explains how to go from the simple litres-per-kilo proxy to the real extract calculation when you are ready, and the field is the same shape either way.</p><p>The point of the season view is the slope, not the single batch. A loss figure drifting from 9% in January to 14% in June is a slow leak: a worn seal on the bright tank, a yeast dump that got lazier, a filler that nobody recalibrated. One batch at 14% is a Tuesday.</p>"
+  ],
+  [
+   "View three: production next to sales",
+   "<p>Join the sales export from the point of sale or the depletion report from your distributor on beer and week. Then draw two lines per beer: litres packaged and litres sold. Where the gap opens, stock is building. Where sold runs ahead of packaged, you are about to run out.</p><p>This is the view the owner opens. It replaces the Friday phone call about whether to brew the pale ale again. If you supply distributors rather than a taproom, our guide to <a href=\"beer-quality-data-for-data-teams.html\">beer quality data for data teams</a> covers what else to put next to the sales numbers so quality complaints line up with the batches that caused them.</p>"
+  ],
+  [
+   "What it costs, and the free routes",
+   "<p>Tableau Desktop is paid, licensed per user per year, and the price is high for a brewery with one laptop. Two free routes exist. Tableau Public is the full authoring tool at no cost, with the catch that anything you publish is visible to the world and the data goes with it. For a brewery that is a real problem: your loss figures are not public information. The other route is the trial, which gives you a couple of weeks to build the three views and decide whether the paid licence is worth it.</p><p>Compare that with Power BI Desktop, which is free to use on one computer and only costs money when you share online. For a single-laptop brewery the budget usually points at Power BI. For a company with analysts who already live in Tableau, the brewery should go where the analysts are. Pricing changes often, so check the current page before you plan a budget around it.</p>"
+  ],
+  [
+   "Where Tableau beats the spreadsheet, and where it does not",
+   "<p>It beats the spreadsheet on anything with many batches, many tanks or many days: curves, trends, comparisons. It beats it on filters, where clicking a beer name reshapes every view on the page. It beats it on sharing a read-only picture with people who should not be editing the data.</p><p>It does not beat the spreadsheet on data entry. The brew log stays in Excel or a shared sheet. It does not beat it on a one-off calculation for one batch. Open the log for that. And it will not fix a log with merged cells, mixed units and dates typed as words. The tool amplifies what you feed it. Feed it a tidy log, and you will see things about your brewery that you did not know. Feed it a mess, and you will get a very pretty mess.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is Tableau free for a small brewery?",
+   "Tableau Desktop is a paid licence per user. Tableau Public is free but everything you publish is visible to anyone, including the data, so it is not suitable for brewery figures. Most small breweries use the trial to decide, then compare with Power BI Desktop, which is free on one computer."
+  ],
+  [
+   "What brewery data should go into Tableau first?",
+   "The brew log, one row per batch, and the fermentation log, one row per tank per day. Join them on batch code. Add the sales export once the first two are clean."
+  ],
+  [
+   "Which chart should a brewer build first in Tableau?",
+   "Every fermentation curve for one beer overlaid on a single chart, with temperature underneath. It shows stalled and slow fermentations at a glance and is the view that convinces most brewers the tool is worth learning."
+  ],
+  [
+   "Can Tableau read my Excel brew log directly?",
+   "Yes. Tableau connects to Excel, CSV and Google Sheets. Its Data Interpreter handles sheets with headers and notes above the real table, but a tidy log with one header row and no merged cells will always behave better."
+  ]
+ ],
+ "cta": {
+  "title": "Forty batches on one screen, built from your own log",
+  "body": "Power BI and Tableau for Breweries is two weeks of live weekend classes. You bring your own brew and fermentation logs and build the season view, the loss view and the sales view in both tools, so you can choose the one that fits your brewery with your own data in front of you.",
+  "label": "See the full syllabus",
+  "href": "power-bi-and-tableau-for-breweries-course.html"
+ },
+ "related": [
+  "power-bi-for-breweries",
+  "brewhouse-efficiency",
+  "beer-quality-data-for-data-teams"
+ ]
+}

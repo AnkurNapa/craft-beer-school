@@ -5314,5 +5314,33 @@
    "courses.html",
    "all our courses"
   ]
+ },
+ {
+  "slug": "power-bi-for-breweries",
+  "h1": "Power BI for breweries: the first dashboard worth building",
+  "cat": "Business",
+  "course": "power-bi-and-tableau-for-breweries-course.html",
+  "related": [
+   "tableau-for-breweries",
+   "brewhouse-kpis-for-analysts",
+   "keeping-a-brew-log"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "date": "2026-10-03"
+ },
+ {
+  "slug": "tableau-for-breweries",
+  "h1": "Tableau for breweries: seeing a brew season in one view",
+  "cat": "Business",
+  "course": "power-bi-and-tableau-for-breweries-course.html",
+  "related": [
+   "power-bi-for-breweries",
+   "brewhouse-efficiency",
+   "beer-quality-data-for-data-teams"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "date": "2026-10-03"
  }
 ]

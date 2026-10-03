@@ -108,6 +108,11 @@ COURSE_DATA = [
          blurb="Beer that still tastes like beer, without the alcohol: limited fermentation, special yeasts, body and aroma, and keeping it safe on the shelf.",
          items=["Limited fermentation and special yeasts","Dealcoholisation, and when it makes sense","Body, aroma and avoiding a worty taste","Pasteurisation, testing and labelling"],
          price="₹5,000", amount="5000"),
+    dict(no="18", tag="New · Data", dur="2 Weeks", weeks=2, name="Power BI and Tableau for Breweries",
+         short="Power BI and Tableau for Breweries",
+         blurb="Build the dashboards a brewery actually opens: brew logs, yield, losses, stock and sales in Power BI or Tableau, from your own spreadsheets.",
+         items=["Brewery data model from your logs","Yield, loss and KPI dashboards","Power BI and Tableau side by side","A dashboard your team will keep"],
+         price="₹5,000", amount="5000"),
 ]
 
 COURSE_CARDS = [
@@ -123,7 +128,7 @@ TRACKS = [
      ["Brewing Fundamentals", "Advanced Brewing Science", "Style Specialisation", "Sensory Evaluation"]),
     ("briefcase", "Business &amp; tech", "Run, market and modernise a brewery.",
      ["Brewery Business Management", "Beer Branding &amp; Packaging", "AI for Craft Breweries",
-      "Digital Transformation Basics for Brewing", "ESG in Craft Brewing"]),
+      "Digital Transformation Basics for Brewing", "ESG in Craft Brewing", "Power BI and Tableau for Breweries"]),
     ("martini", "Spirits", "Distilling and gin, from wash to bottle.",
      ["Craft Distilling", "Craft Gin Making"]),
     ("glass-water", "Beyond beer", "Low, no and other ferments people are buying now.",

@@ -1,0 +1,71 @@
+{
+ "slug": "power-bi-for-breweries",
+ "cat": "Business",
+ "h1": "Power BI for breweries: the first dashboard worth building",
+ "title": "Power BI for Breweries | Craft Beer School",
+ "desc": "How a small brewery gets from a paper brew log to a Power BI dashboard of yield, loss, tank days and sales, and the five numbers to put on page one.",
+ "teaser": "Most brewery dashboards die in a month. The ones that survive show five numbers the head brewer already argues about. Here is how to build that one in Power BI.",
+ "standfirst": "Power BI is free to install, runs on the laptop the brewery already owns and reads the spreadsheets you already keep. The hard part is not the software. It is deciding which five numbers deserve the page and getting the brew log clean enough to feed them.",
+ "read": "5 min",
+ "updated": "2026-10-03",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the brewery needs one page, not twenty",
+   "<p>Walk into most 10 hL breweries in India and the numbers live in three places: a brew sheet on a clipboard, an Excel file the owner keeps, and a sales export from the point of sale that nobody opens. Each one is right on its own. Put them together and the questions start. Why did we pack 870 litres from a batch that should have given 950? Which tank has been sitting at 2 °C for 19 days because nobody had a keg to put it in?</p><p>A dashboard is just those three sources on one screen, refreshed without anyone retyping. Power BI is the tool we reach for first because the Desktop version costs nothing, it reads Excel and CSV files directly and most brewery owners already have a Microsoft account. If you have read our guide to <a href=\"keeping-a-brew-log.html\">keeping a brew log</a>, you already have the raw material.</p>"
+  ],
+  [
+   "Start with the brew log, not the software",
+   "<p>Power BI will happily load a messy sheet and then punish you for it in every chart. Before you open the tool, fix the log. One row per batch. One column per measurement. Units in the column header, not typed next to the number. Dates as dates, not as \"3rd Oct\". Batch code on every row of every sheet, because the batch code is the thread that ties brewhouse, cellar, packaging and sales together.</p><p>The columns that earn their place on a first pass are batch code, beer, brew date, grist weight in kg, wort volume into the fermenter in litres, original gravity, final gravity, packaged volume in litres, packaging date and the tank it fermented in. Ten columns. A brewery that records those ten, honestly, for six months has a better dataset than most large plants manage.</p><p>Be honest about the gaps too. A missing packaged volume is a missing packaged volume, not a zero. Zero will drag your averages down and send you chasing a loss that never happened.</p>"
+  ],
+  [
+   "Loading and shaping in Power Query",
+   "<p>Power BI has two halves. Power Query is where data comes in and gets cleaned. The model is where you define what the numbers mean. Keep that split in your head and the tool stops feeling like a maze.</p><p>In Power Query, point it at the brew log workbook, promote the first row to headers, set each column's type (decimal for gravities, whole number for litres, date for dates) and remove the blank rows that Excel always leaves at the bottom. Do the same for the packaging sheet and the sales export. Then merge them on the batch code, the way you would do a VLOOKUP, except it runs itself every time you refresh.</p><p>One habit saves hours later: never fix a value inside Power BI. If a gravity was typed as 1.52 instead of 1.052, go back to the log and correct it there. The dashboard should be a window on the log, not a second copy of it with its own quiet edits.</p>"
+  ],
+  [
+   "The five measures and their formulas",
+   "<p>Measures are the calculations Power BI runs on the fly, written in DAX. You need very few of them to begin.</p><ul><li><strong>Brewhouse yield.</strong> Extract in the kettle divided by extract in the grist. For a first dashboard, the simpler proxy is litres of wort per kg of malt, tracked per beer. Our guide on <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> covers the proper calculation when you are ready.</li><li><strong>Beer loss.</strong> Packaged litres divided by wort litres into the fermenter, shown as a percentage lost. A 10 hL brewery losing more than 12 to 15% between fermenter and package has something worth finding.</li><li><strong>Apparent attenuation.</strong> (OG minus FG) divided by (OG minus 1), from the gravities already in the log.</li><li><strong>Days in tank.</strong> Packaging date minus brew date. Watch the batches above 21 days for an ale. They are usually waiting for kegs, not for flavour.</li><li><strong>Litres sold per week by beer.</strong> From the sales export, so production sits next to what actually left the building.</li></ul><p>Each of these is a four or five line DAX measure. Write them once and every chart on every page can use them.</p>"
+  ],
+  [
+   "Page one: what the head brewer argues about",
+   "<p>The temptation is to build eleven pages. Build one. Across the top, five cards: litres packaged this month, average yield, average loss, average days in tank, litres sold. Below them, a bar chart of loss by batch for the last 30 batches and a line of days in tank. At the bottom, a table of batches still in tank with their age.</p><p>That page answers the Monday morning question in ten seconds. Everything else can wait for page two, which you build only when somebody asks a question page one cannot answer. Our guide to <a href=\"brewhouse-kpis-for-analysts.html\">brewhouse KPIs</a> explains what each of these numbers hides when it is measured with a hose and a bucket.</p>"
+  ],
+  [
+   "Sharing it without paying for every seat",
+   "<p>Power BI Desktop is free. Publishing a report to the Power BI service so colleagues can open it on their phones needs a Pro licence per user who views it, and that is where small breweries stall. Two routes work. Keep the report in Desktop on the brewery laptop and open it at the weekly review, which costs nothing. Or export the page one as a PDF every Monday and drop it in the team WhatsApp group, which is low tech and still gets read.</p><p>If you are a bigger operation already on Microsoft 365, the licensing sum changes and the service starts to make sense. Check the current pricing before you plan around it. It changes.</p>"
+  ],
+  [
+   "The habit is the product",
+   "<p>A dashboard nobody opens is a screenshot. Set a ten-minute slot at the same time every week, open page one with the brewer and ask one question: which number moved, and why? The first month the answer is usually a data entry error. The second month it is a real loss. By the third, the brewer starts fixing things before the review, which is the point.</p><p>Refresh is the other half of the habit. If the log is a workbook on the laptop, refresh is one click. If it is a shared sheet online, Power BI can pull it directly. Either way, the brewer should never have to retype a number to see it on screen. The moment retyping appears, the dashboard is already dying.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is Power BI free for a small brewery?",
+   "Power BI Desktop is free to download and use on one computer. Sharing reports online through the Power BI service needs a paid licence per user, so many small breweries keep the report on one laptop and share a PDF of the page each week."
+  ],
+  [
+   "Do I need a database before I use Power BI?",
+   "No. Power BI reads Excel and CSV files directly, which is where most brewery data already lives. A database becomes worth it once several people enter data at the same time or the workbook grows past what Excel handles comfortably."
+  ],
+  [
+   "What should go on a brewery dashboard first?",
+   "Packaged volume, brewhouse yield, beer loss, days in tank and litres sold by beer. Five numbers that the head brewer and the owner both care about and that your existing brew log can already feed."
+  ],
+  [
+   "Power BI or Tableau for a brewery?",
+   "Both do the job. Power BI costs less to start and fits breweries already on Microsoft 365. Tableau is stronger for exploring and shaping charts by hand. Our guide to Tableau for breweries walks through the same dashboard in that tool."
+  ]
+ ],
+ "cta": {
+  "title": "Your brew log is a dashboard waiting to happen",
+  "body": "Power BI and Tableau for Breweries is two weeks of live weekend classes. You bring your own brew log and leave with a working yield, loss and sales dashboard built in both tools, plus the data model and the weekly habit that keep it alive.",
+  "label": "See the full syllabus",
+  "href": "power-bi-and-tableau-for-breweries-course.html"
+ },
+ "related": [
+  "tableau-for-breweries",
+  "brewhouse-kpis-for-analysts",
+  "keeping-a-brew-log"
+ ]
+}
