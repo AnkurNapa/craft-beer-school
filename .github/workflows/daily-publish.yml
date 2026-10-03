@@ -37,7 +37,7 @@ jobs:
         run: |
           # Only the generated text pages. Brochure images can re-render on a
           # fresh checkout because of file times, and are not today's news.
-          git add -- '*.html' sitemap.xml llms.txt
+          git add -- '*.html' sitemap.xml llms.txt assets/search.json
           git checkout -- . 2>/dev/null || true
           git clean -fdq -- assets/ || true
           if git diff --cached --quiet; then

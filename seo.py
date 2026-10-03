@@ -113,6 +113,9 @@ def _website():
         "name": SITE_NAME,
         "publisher": {"@id": f"{SITE_URL}/#organization"},
         "inLanguage": "en-IN",
+        "potentialAction": {"@type": "SearchAction",
+                            "target": {"@type": "EntryPoint", "urlTemplate": f"{SITE_URL}/search.html?q={{search_term_string}}"},
+                            "query-input": "required name=search_term_string"},
     }
 
 

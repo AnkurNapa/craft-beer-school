@@ -22,6 +22,7 @@ import companies
 import mentors
 import photos
 import brochure_pages
+import discover
 
 # --- Consistent inline icon set (Lucide, MIT). Use [[name]] in page bodies. ---
 ICONS = {
@@ -158,6 +159,7 @@ def nav(active):
     <a href="index.html" class="brand" aria-label="Craft Beer School home"><img src="assets/logo.png" alt="Craft Beer School" class="brand-logo" width="118" height="146" /></a>
     <div class="navlinks" id="navlinks">
       {links}
+      {discover.SEARCH_FORM}
       <a href="{ENROLL_HREF}" class="nav-cta" data-cta="nav-enroll">Enrol</a>
     </div>
     <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">[[menu]]</button>
@@ -435,6 +437,18 @@ PAGES = {
 
 PAGES.update(course_pages.pages())
 COURSE_SLUGS = set(course_pages.pages())
+# Every course page ends with the free guides that already sell it.
+for _c in pages_a.COURSE_DATA:
+    _slug = pages_a.course_href(_c["name"])
+    _t, _d, _a, _b = PAGES[_slug]
+    _skip = set(course_pages.DETAIL[course_pages.plain(_c["name"])]["reading"])
+    PAGES[_slug] = (_t, _d, _a, _b + discover.course_guides_section(_c, ARTICLES, _skip))
+# The course finder replaces the "ask us" band on the courses page.
+_t, _d, _a, _b = PAGES["courses.html"]
+PAGES["courses.html"] = (_t, _d, _a, re.sub(r'<section class="cta"><div class="wrap"><h2>Not sure which course fits\?.*?</section>', lambda m: discover.finder(), _b, count=1, flags=re.S))
+PAGES["search.html"] = ("Search | Craft Beer School",
+                        "Search every guide, course, beer style and mentor on Craft Beer School from one box.",
+                        "", discover.search_page())
 PAGES.update(style_render.pages(BY_SLUG))
 PAGES[companies.SLUG] = companies.PAGE
 PAGES.update(mentors.pages())
@@ -445,7 +459,8 @@ PAGES[photos.CREDITS] = ("Image Credits | Craft Beer School",
 
 for _a in ARTICLES:
     PAGES[f"{_a['slug']}.html"] = (
-        _a["title"], _a["desc"], "blog", article_render.render(_a, BY_SLUG))
+        _a["title"], _a["desc"], "blog",
+        article_render.render(_a, BY_SLUG) + discover.recommended_section(_a, ARTICLES))
 
 
 def write(path, text):
@@ -459,6 +474,7 @@ def main():
         write(slug, page(slug, title, desc, active, body))
 
     today = datetime.date.today().isoformat()
+    write("assets/search.json", discover.search_index(ARTICLES, style_render.load_cards(), mentors.MENTORS))
     write("sitemap.xml", seo.sitemap_xml(list(PAGES), today))
     write("robots.txt", seo.robots_txt())
     write("llms.txt", seo.llms_txt())

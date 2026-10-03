@@ -380,7 +380,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
   </div>
 </section>
 
-<section class="cta"><div class="wrap"><h2>Not sure which course fits?</h2><p>Tell us where you are and where you want to go. We'll point you to the right pour.</p><a href="contact.html#enroll" class="btn btn-amber" data-cta="get-a-recommendation">Get a recommendation</a></div></section>
+<section class="cta"><div class="wrap"><h2>Not sure which course fits?</h2><p>Tell us where you are and where you want to go. We'll point you to the right pour.</p><a href="courses.html#finder" class="btn btn-amber" data-cta="get-a-recommendation">Find my course</a></div></section>
 """
 
 # ============================================================================
