@@ -1,0 +1,71 @@
+{
+ "slug": "reducing-beer-loss-at-the-bar",
+ "cat": "Consultancy",
+ "h1": "Reducing beer loss at the bar and taproom",
+ "title": "Reducing Beer Loss at the Bar | Craft Beer School",
+ "desc": "Where beer disappears between the tank and the till, how to measure the gap and the fixes for foam, over-pours, line cleaning and comps.",
+ "teaser": "You brewed it, chilled it and paid the duty on it. Then a share of it went down the drip tray.",
+ "standfirst": "The bar is where finished, taxed beer turns into money, or into foam. We show how to measure what the bar loses and fix the usual causes without slowing service.",
+ "read": "3 min",
+ "updated": "2026-10-18",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The most expensive litre you lose",
+   "<p>A litre lost in the mash costs you some malt. A litre lost at the bar costs you everything: ingredients, energy, tank time, labour, excise and the selling price you never collected. That makes the bar the place where loss control pays fastest.</p><p>In consulting work we often see owners focused on brewhouse yield while the taproom quietly pours away more value than the brewhouse ever did. If you have not yet traced losses across the whole process, start with a <a href=\"brewery-loss-audit.html\">brewery loss audit</a>, then come back here.</p>"
+  ],
+  [
+   "Measure the gap first",
+   "<p>You cannot fix what you have not counted. The basic test is a reconciliation over one week:</p><ol><li>Record litres dispensed. Use flow meters on serving tanks, or the change in tank level, or full kegs tapped.</li><li>Record litres sold from the POS, converting each pour size to litres.</li><li>The difference is your bar loss. Divide by litres dispensed for a percentage.</li></ol><p>Do it by beer, not just in total. One tap losing far more than the others usually points at a single fault: a warm line, a wrong pressure, a worn tap.</p>"
+  ],
+  [
+   "Foam is the biggest leak",
+   "<p>Fobbing taps, where beer comes out as froth and gets dumped, are the commonest cause of bar loss. The usual culprits:</p><ul><li><strong>Temperature.</strong> Beer warmer than about 2 to 4 °C at the tap releases CO2 as it pours. Check the temperature in the glass, not on the cold room display. Uninsulated lines running through a hot ceiling are a classic Indian problem.</li><li><strong>Pressure and balance.</strong> Gas pressure must match the beer's carbonation at its serving temperature. Line length must then provide the resistance to slow the pour. Turning up the pressure to speed service makes things worse.</li><li><strong>Dirty glasses and lines.</strong> Residues knock out CO2 and spoil the head. Rinse glasses cold before pouring.</li></ul>"
+  ],
+  [
+   "Over-pours and glassware",
+   "<p>A bartender who tops a 330 ml pour to the brim of a 400 ml glass gives away beer on every round. Use lined or marked glasses, or glasses sized so the correct pour with a proper head reaches the rim. Then check: take ten pours at a busy time and measure them in a measuring cylinder. It takes ten minutes and the result usually starts a useful conversation.</p><p>Train staff on one pouring method: tilted glass, open the tap fully, straighten as it fills. Half-open taps cause turbulence and foam. New staff learn from whoever trained them, so fix the habit at the top of the shift roster first. Revisit pour checks after every new hire and every menu change that brings a new glass.</p>"
+  ],
+  [
+   "Line cleaning and the first pour",
+   "<p>Lines should be cleaned every two weeks or so. The beer sitting in them is dumped each time. Long runs hold more than people think: a 10 metre run of 3/16 inch line holds about 0.18 litres. Many bars have far longer runs to every tap. Shorter, well-insulated runs cut both the cleaning loss and the warm first pour each morning that gets tipped away.</p><p>Do not skip cleaning to save beer. Dirty lines give you off flavours and foam, which lose more.</p>"
+  ],
+  [
+   "Comps, tastings and staff beer",
+   "<p>Tasters for guests, a round on the house for a regular and the shift drink are all fine business decisions. Unrecorded, they look exactly like theft or spillage in the reconciliation. Add POS buttons at zero price for tasters, comps and staff beer. Insist every one is rung through. Your loss number becomes honest and you learn what hospitality actually costs.</p><p>Remember that excise records in most states expect stock to reconcile, so unexplained losses can become a compliance question as well as a margin one. Rules vary by state, so check with your licensing adviser.</p>"
+  ],
+  [
+   "Make it a weekly number",
+   "<p>Run the reconciliation every week and put the bar loss percentage beside sales on the same sheet the owner already reads. Keep the method identical each time: same day, same meter readings, same conversion of pour sizes to litres. A number that changes because the counting changed is worse than no number.</p><p> Once staff know it is watched, it usually improves before you change any equipment. When it does not, you have the data to justify fixing the lines.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I calculate beer loss at the bar?",
+   "Compare litres dispensed from tanks or kegs with litres sold on the POS over the same period. The difference, divided by litres dispensed, is your bar loss percentage."
+  ],
+  [
+   "What temperature should draught beer be served at?",
+   "Most draught systems are set to deliver beer at around 2 to 4 °C at the tap. Warmer beer foams on pouring, which wastes beer and slows service."
+  ],
+  [
+   "Does line cleaning waste beer?",
+   "Some, because the beer in the lines is dumped. Skipping cleaning costs more through foam and off flavours, so shorten the lines instead of stretching the schedule."
+  ],
+  [
+   "Should staff drinks go through the POS?",
+   "Yes. Ring tasters, comps and staff beer through at zero price so your reconciliation separates hospitality from real loss."
+  ]
+ ],
+ "cta": {
+  "title": "Find the beer your bar pours away",
+  "body": "Our yield and loss review reconciles tank, tap and till, then fixes the causes. Ankur Napa leads the data and cost side with Rahul Baliyan on the cellar and dispense. Your team keeps the weekly reconciliation.",
+  "label": "Book a consultation",
+  "href": "contact.html?course=Brewery%20consultancy#enroll"
+ },
+ "related": [
+  "brewery-loss-audit",
+  "beer-tastes-different-every-batch",
+  "brewhouse-commissioning-checklist"
+ ]
+}

@@ -103,3 +103,16 @@ These 44 guides are for people who work inside beer, wine and spirits companies 
   - `decision`: direct invitation to the owner. Body: we start with a brewery health check and a written action plan. Label: "Book a consultation".
 - Never quote consultancy fees or promise outcomes (no "raise yield by X%").
 - Internal links may also point at `for-companies.html` and other plan slugs, including existing guides such as brewhouse-efficiency, brewery-qc-lab-on-a-budget, brewery-failure-reasons, cost-per-litre-beer, taproom-economics.
+
+## Daily drip (plan rows with `"daily": true`)
+
+90 guides dated one a day from 3 October to 31 December 2026, built by `content/make_daily_plan.py`. Each goes live on its own date, so:
+
+- Internal body links may only point at guides dated on or before your guide's date (anything from before October 2026 is always safe). The validator fails a link to a guide that is not live yet.
+- These are 2026 pieces, so course fees may be quoted from the course facts above.
+- Seasonal pieces (festive marketing 12 October, Diwali 2 November, winter beers 1 December, gift guide 10 December, Christmas and New Year 18 December) should feel timely without naming dates that might be wrong. Diwali and festive pieces: responsible serving, never drink-driving, plenty for guests who do not drink.
+- Food pairing guides: real Indian dishes described accurately, regional where it matters. Pairings are suggestions, not rules.
+- Careers guides: no invented salaries, placement rates or statistics about women in the industry. Describe paths and skills.
+- Founders guides on insurance, leases and partner agreements: process and the questions to ask, never legal or financial advice; tell readers to use a lawyer or broker.
+- No serial comma and no ", and" joins, same as the other segments.
+- The Drinks producers and Corporate teams rules above apply to their daily rows too (`by` byline, consultancy or corporate CTA).

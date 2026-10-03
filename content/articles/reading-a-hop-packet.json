@@ -1,0 +1,67 @@
+{
+ "slug": "reading-a-hop-packet",
+ "cat": "Ingredients",
+ "h1": "Reading a hop packet: alpha acids, oils and harvest year",
+ "title": "Reading a Hop Packet | Craft Beer School",
+ "desc": "What the numbers on a hop packet mean (alpha acids, oil, harvest year, lot number) and how to adjust a recipe to them.",
+ "teaser": "Every hop packet tells you how bitter it will be and how fresh it is. Most homebrewers read the variety name and stop.",
+ "standfirst": "A hop packet carries more useful information than its label design suggests. Learn to read it and you can hit your bitterness target, spot stale stock and get the aroma you paid for.",
+ "read": "3 min",
+ "updated": "2026-11-21",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "Start with the variety and the form",
+   "<p>The variety name tells you the character to expect: Saaz for spicy, herbal lagers, Cascade for grapefruit and pine, Citra for tropical fruit. It does not tell you the exact strength. That changes every year.</p><p>The form matters too. Most hops sold in India are T90 pellets: whole hops milled, then pressed into pellets. Pellets store better and take less space than whole cones but behave a little differently in the kettle. Our guide to <a href=\"hop-pellets-vs-whole-cone.html\">hop pellets vs whole cone</a> covers the trade-offs.</p>"
+  ],
+  [
+   "Alpha acids: the bitterness number",
+   "<p>Alpha acids are the compounds that turn bitter in the boil. The packet shows the alpha acid percentage measured on that particular lot. That is the number you should use, not the average range you find for the variety online. Cascade, for example, usually tests somewhere around 4.5 to 7 per cent. That spread is large enough to shift a beer's bitterness noticeably.</p><p>To adjust a recipe, scale the bittering addition by the ratio of the two alpha figures:</p><p><strong>New grams = recipe grams x recipe alpha / your alpha.</strong></p><p>A recipe calling for 30 g at 12 per cent, with a packet that says 9.5 per cent, needs about 38 g. Late aroma additions matter less for bitterness, so most brewers leave them alone. <a href=\"alpha-acids-explained.html\">Alpha acids explained</a> and <a href=\"what-is-ibu.html\">what is IBU</a> show how this turns into bitterness units.</p>"
+  ],
+  [
+   "Beta acids and total oil: the aroma side",
+   "<p>Beta acids add little bitterness in the boil. Some packets list them. They matter more to brewers interested in how bitterness develops as beer ages. For a homebrewer they are mostly background.</p><p>Total oil, given in millilitres per 100 g, is a better guide to aroma. Hop oils carry the citrus, pine, floral and fruit notes. Many aroma varieties sit somewhere around 1 to 3 ml per 100 g. A higher figure means more aroma per gram, which is why brewers choosing dry hops look at oil before alpha. Some suppliers also list individual oils such as myrcene and linalool, which tell you more about the type of aroma.</p>"
+  ],
+  [
+   "Harvest year and freshness",
+   "<p>Hops are harvested once a year: around August and September in the northern hemisphere, around March and April in the southern. The crop year on the packet tells you how old the hops are. A pellet hop that was vacuum or nitrogen packed and kept frozen holds up well for a year or two. One that sat warm loses alpha acids and aroma much faster.</p><p>Some suppliers print a hop storage index (HSI). Lower is fresher. It rises as the hop oxidises.</p><p>Then trust your nose. Fresh hops smell bright and resinous. Old, oxidised hops smell of cheese or sweaty socks. If a packet smells like that, use it for bittering only, or not at all.</p>"
+  ],
+  [
+   "Lot numbers and repackaged hops",
+   "<p>Many Indian homebrew shops buy hops in bulk and repack them into 50 g or 100 g bags. That is normal and makes small batches affordable. Ask whether the label carries the original lot number and alpha figure. Ask too whether the repacking was done cold and vacuum sealed. A shop that can tell you the crop year knows what it is selling.</p><p>Check the pack itself when it arrives. A vacuum bag should feel hard, with the pellets locked in place. A bag that feels soft and loose has lost its seal. The hops inside have been breathing air for as long as it has been loose.</p>"
+  ],
+  [
+   "Storing hops once you open them",
+   "<p>Hops hate heat, light and oxygen. Once a packet is open, squeeze out as much air as you can, fold it tight, tape it and put it back in the freezer. Use opened hops within a few weeks.</p><p>In Indian summers the delivery leg is often the weak link. If you order online, have hops delivered when someone is home and get them into the freezer the same hour. A packet that spent an afternoon in a hot courier van has already lost some of what you paid for.</p><p>Reading a packet well is a small habit. Knowing how alpha, oil and freshness each show up in a finished beer comes from brewing and tasting with someone who can point at the cause.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which alpha acid number should I use in my recipe?",
+   "The one printed on your packet, which is measured on that lot. Variety averages can be off by a few percentage points."
+  ],
+  [
+   "How long do hop pellets last?",
+   "Vacuum or nitrogen packed pellets kept in a freezer hold up well for a year or two. Opened packets should be used within a few weeks."
+  ],
+  [
+   "Why do my hops smell like cheese?",
+   "They have oxidised, usually from warm storage or a broken seal. Use them for bittering only, or replace them."
+  ],
+  [
+   "Do I need to adjust aroma hop amounts for alpha acid?",
+   "Usually not. Adjust the bittering addition for alpha acid. For aroma, total oil and freshness matter more."
+  ]
+ ],
+ "cta": {
+  "title": "Hit your bitterness target on every batch",
+  "body": "Brewing Fundamentals is four weeks of live weekend classes (₹5,999) covering hops, bitterness calculations, recipe design and fermentation, with practical tasting along the way.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "alpha-acids-explained",
+  "american-hops-guide",
+  "hop-pellets-vs-whole-cone"
+ ]
+}

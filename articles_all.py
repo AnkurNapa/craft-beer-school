@@ -3,7 +3,9 @@
 library in content/articles/*.json. build.py and seo.py both read from here so
 the pages, sitemap and JSON-LD can never disagree about what exists.
 """
+import datetime
 import json
+import os
 import pathlib
 
 import articles_a
@@ -39,8 +41,15 @@ _hand = [a if a.get("author") else {**a, "expert": expert(a)}
          for a in articles_a.ARTICLES_A + articles_b.ARTICLES_B + stories.STORIES]
 
 # Newest first, the way a reader expects a journal to run.
-ARTICLES = sorted(_hand + _seeded,
-                  key=lambda a: a["updated"], reverse=True)
+ALL_ARTICLES = sorted(_hand + _seeded,
+                      key=lambda a: a["updated"], reverse=True)
+
+# Guides dated in the future are written but not live: each one appears on its
+# own date (India time) when the daily-publish workflow rebuilds the site.
+# PUBLISH_DATE=YYYY-MM-DD previews the site as it will look on that day.
+TODAY = os.environ.get("PUBLISH_DATE") or datetime.datetime.now(
+    datetime.timezone(datetime.timedelta(hours=5, minutes=30))).date().isoformat()
+ARTICLES = [a for a in ALL_ARTICLES if a["updated"] <= TODAY]
 
 # Reader segment per article, which drives the blog index and the funnel.
 SEGMENT = {p["slug"]: p["segment"] for p in _PLAN.values()}

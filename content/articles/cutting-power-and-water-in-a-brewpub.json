@@ -1,0 +1,67 @@
+{
+ "slug": "cutting-power-and-water-in-a-brewpub",
+ "cat": "Consultancy",
+ "h1": "Cutting power and water use in a brewpub",
+ "title": "Cutting Power and Water in a Brewpub | Craft Beer School",
+ "desc": "Where a brewpub's power and water go, how to meter them and practical fixes for the chiller, wort cooling, CIP, RO reject water and leaks.",
+ "teaser": "The glycol chiller on a sunny rooftop and the hose left running in the cellar. Two of the most expensive habits in a brewpub.",
+ "standfirst": "Power and water bills in a brewpub climb quietly until someone looks. We show where the units and litres go, how to measure them and the changes that cut them without touching the beer.",
+ "read": "4 min",
+ "updated": "2026-11-19",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "Measure before you fix",
+   "<p>Most brewpubs get one electricity bill and one water bill for the whole site, shared with a kitchen and a bar. That tells you the total and nothing else. Before changing anything, put sub-meters where the big loads are: the glycol chiller, the cold room, the brewhouse heating if it is electric and the main water line into the brewery.</p><p>Then track two ratios every week: litres of water used per litre of beer sold and units of electricity per litre. Large breweries work hard to keep water use down to a few litres per litre of beer. Small brewpubs usually run well above that, which is not a failure, just a sign of where the room is. Your own trend matters more than anyone else's benchmark. Our guide to <a href=\"brewery-utilities-water-power.html\">brewery utilities</a> covers the basics of supply.</p>"
+  ],
+  [
+   "The chiller is usually the biggest load",
+   "<p>In Indian heat the refrigeration plant works hard all year. Small changes make a real difference:</p><ul><li><strong>Shade and ventilate the condenser.</strong> A condenser unit in full afternoon sun, or boxed into a corner where hot air recirculates, has to reject heat into air that is already very hot. Shade it and give it clear airflow.</li><li><strong>Keep the coils clean.</strong> Dust and pollution coat condenser fins quickly in Indian cities. Clean them on a schedule, not when the chiller trips.</li><li><strong>Insulate glycol lines and tanks.</strong> Bare or damaged insulation drips condensation and wastes cooling. Check jackets and pipe runs for wet patches.</li><li><strong>Do not over-chill.</strong> Set the glycol temperature to what the coldest job needs, not lower. Crash cooling several tanks at once can be staggered.</li></ul><p>Cold room doors left open, failed door seals and warm beer loaded straight into the cold room all add load too. See <a href=\"glycol-cooling-systems.html\">glycol cooling systems</a> for how the system is sized.</p>"
+  ],
+  [
+   "Recover the hot water from wort cooling",
+   "<p>This is the single best water and energy saving on most brewhouses. When you cool wort through the heat exchanger, the cold water going in leaves hot. Cooling a 10 hl brew from boiling to fermentation temperature produces a large volume of water at around 75 to 85 °C.</p><p>That water belongs in the hot liquor tank for the next brew's mash and cleaning, not down the drain. If your plumbing sends it to drain, a pipe change and a properly sized hot liquor tank pay back quickly in both water and heating energy. Check that the hot liquor tank has room for it when you knock out.</p>"
+  ],
+  [
+   "Clean smarter, not longer",
+   "<p>CIP uses a lot of water and heat. Recover the final rinse of one cycle as the pre-rinse for the next. Reuse caustic where your system allows, checking concentration each time rather than making it fresh every clean. Time rinses by checking the rinse water, for example with pH strips, rather than running the hose for an arbitrary half hour.</p><p>On the floor, fit trigger nozzles that shut off when released. An open hose in a cellar uses an astonishing amount of water across a shift and nobody notices because it goes straight to the drain.</p>"
+  ],
+  [
+   "Borewell water and RO reject",
+   "<p>Many Indian brewpubs treat borewell or tanker water with reverse osmosis. RO sends a large share of its feed water to reject. That reject is often piped straight to drain. It is higher in dissolved salts but often fine for floor washing, toilet flushing or garden use, depending on its quality. Collect it in a separate tank and put it to work.</p><p>Blend RO water with some untreated water where the brewing water profile allows, rather than treating every litre. Treating only what the brewhouse needs saves both water and power.</p>"
+  ],
+  [
+   "Hunt leaks and idle loads",
+   "<p>Walk the brewery with the taps off at night and listen. Dripping valves, passing solenoids and leaking CO2 fittings all cost money. CO2 leaks cost twice, in gas and in safety risk, so check fittings with soapy water regularly.</p><p>Look at what runs when the brewery is idle: pumps left on, lights in empty stores, a second chiller running when one would do. These are the cheapest savings you will find.</p>"
+  ],
+  [
+   "Make it a habit",
+   "<p>Put the water and power ratios on the same weekly sheet as sales and beer loss. Assign one person to own them. In consulting work we often see savings slip back within months because nobody kept watching the meters. Pair the numbers with the wider <a href=\"sustainability-in-brewing.html\">sustainability</a> work if you report it to guests or investors.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What uses the most power in a brewpub?",
+   "Usually refrigeration: the glycol chiller and cold room, especially in hot weather. Electric brewhouse heating can also be a large load where it is used."
+  ],
+  [
+   "How can a brewery save water quickly?",
+   "Send the hot water from wort cooling to the hot liquor tank, fit trigger nozzles on hoses, reuse final CIP rinses and fix leaks. Then meter water to track the ratio per litre of beer."
+  ],
+  [
+   "Can RO reject water be reused?",
+   "Often, for floor washing, toilet flushing or gardens, depending on its salt content. It is generally not suitable for brewing without further treatment."
+  ]
+ ],
+ "cta": {
+  "title": "Find out where your units and litres go",
+  "body": "Our utilities review meters your chiller, brewhouse and water use, then ranks the fixes by payback. Ankur Napa leads the data and cost side with Rahul Baliyan on the brewhouse. Your team keeps the weekly ratios.",
+  "label": "Book a consultation",
+  "href": "contact.html?course=Brewery%20consultancy#enroll"
+ },
+ "related": [
+  "brewery-utilities-water-power",
+  "sustainability-in-brewing",
+  "glycol-cooling-systems"
+ ]
+}

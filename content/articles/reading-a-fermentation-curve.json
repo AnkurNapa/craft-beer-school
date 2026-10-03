@@ -1,0 +1,67 @@
+{
+ "slug": "reading-a-fermentation-curve",
+ "cat": "Brewing science",
+ "h1": "Reading a fermentation gravity curve",
+ "title": "Reading a Fermentation Gravity Curve | Craft Beer School",
+ "desc": "How to log, plot and read a fermentation gravity curve: lag, the steep drop, the slowdown, stalls and when to start the diacetyl rest.",
+ "teaser": "Twice-daily gravity readings on a chart tell you more about a tank than any single number. Here is how to read the shape.",
+ "standfirst": "A gravity reading tells you where a fermentation is. A curve tells you where it is going and whether something is wrong. We walk through the shape of a healthy curve, the common deviations and what each one usually means.",
+ "read": "4 min",
+ "updated": "2026-12-06",
+ "updated_label": "December 2026",
+ "sections": [
+  [
+   "Why one reading is not enough",
+   "<p>Most small breweries take a gravity reading when they think a beer might be finished. That answers one question: is it done yet? It does not tell you whether the yeast had a hard time getting there, whether the fermentation is slowing early or whether this batch behaved like the last ten.</p><p>Log gravity and temperature at the same times every day (twice a day for the first three or four days). Plot them against hours since pitching. After a handful of batches you will know what normal looks like for each recipe and strain. Then the abnormal ones stand out on day two instead of day twelve.</p><p>If you need a refresher on the numbers themselves, our guide to <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity</a> covers the basics.</p>"
+  ],
+  [
+   "The shape of a healthy curve",
+   "<p>Plotted in degrees Plato or specific gravity, a healthy fermentation draws a lazy S.</p><ul><li><strong>Lag.</strong> For the first 6 to 24 hours the line barely moves. The yeast is taking up oxygen, building sterols and multiplying. A short, flat start is normal.</li><li><strong>The steep drop.</strong> Gravity then falls fast and close to linear. A 12 °P ale at 19 °C can lose 2 °P or more a day here. A lager at 10 °C falls more slowly, often around 1 °P a day.</li><li><strong>The slowdown.</strong> As fermentable sugar runs out and the yeast starts to flocculate, the line bends and flattens.</li><li><strong>Terminal.</strong> Two or three readings a day apart with no change. That is your final gravity for this tank.</li></ul><p>Overlay the temperature trace. Fermentation gives off heat, so a tank on glycol will show the jacket working hardest during the steep drop. If the temperature climbs above set point there, your cooling is undersized for that volume.</p>"
+  ],
+  [
+   "Know where the floor is before you start",
+   "<p>A curve that flattens at 3 °P is fine if that is as low as the wort can go. It is a problem if the wort should reach 2 °P. The way to know is a forced fermentation test.</p><p>On brew day, take a sealed sample of pitched wort, add an excess of yeast, keep it warm (around 25 °C) and shake it often. Within a day or two it will reach the limit of fermentability for that wort. That number is the floor. Your tank curve should approach it. If the tank stops well above it, the wort was fine and the yeast was not.</p><p>This one habit ends a lot of arguments about whether the mash or the fermentation is to blame.</p>"
+  ],
+  [
+   "Reading the common deviations",
+   "<p><strong>Long lag, then normal.</strong> Usually underpitching, old yeast or poor aeration. The beer may finish but often with extra esters or acetaldehyde, because the yeast spent the lag stressed.</p><p><strong>Slow, shallow slope throughout.</strong> Temperature too low, low viability or a nutrient problem such as low free amino nitrogen in a high adjunct wort. Rice and maize heavy worts, common in Indian lager recipes, can run short of nitrogen and zinc.</p><p><strong>Sharp stop well above the forced test.</strong> The classic stuck fermentation. Look for a temperature drop (a glycol valve stuck open is common), a strain that flocculated early or a yeast crop that was reused one generation too many.</p><p><strong>Overshoot below the forced test.</strong> Something is eating sugars that brewing yeast cannot: a diastatic strain, enzymes from dry hops or bacteria. Smell the sample and plate it before you package.</p>"
+  ],
+  [
+   "Using the curve to time decisions",
+   "<p>The curve is also a schedule. For a lager, many brewers raise the temperature for a <a href=\"diacetyl-rest.html\">diacetyl rest</a> when the beer is roughly 2 to 3 °P above the forced test result, while the yeast is still active enough to reabsorb diacetyl. Starting it on a fixed day ignores the fact that no two batches run at the same speed.</p><p>The same logic applies to dry hopping during fermentation, closing the spunding valve to capture natural carbonation and the point at which you crash cool. Each decision should be tied to a gravity, not to a calendar.</p>"
+  ],
+  [
+   "Taking the sample properly",
+   "<p>The numbers are only as good as the sample. On a cylindroconical tank, sanitise the sample valve, run off a little beer to clear the dead leg, then take your sample. Degas it by pouring between two jugs or stirring, because CO2 bubbles lift a hydrometer and make it read high.</p><p>Correct for temperature, or let the sample come to the hydrometer's calibration temperature. A refractometer needs an alcohol correction once fermentation starts, so for curve work a hydrometer or a digital density meter is safer.</p><p>Finally, put the curves side by side. Spotting patterns across batches is where the real diagnosis happens. It is also the part most teams never reach, because the data lives in a notebook nobody plots.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How often should I take gravity readings during fermentation?",
+   "Twice a day for the first three or four days, when gravity falls fastest, then once a day until three readings in a row match. Take them at the same times each day so the curves compare."
+  ],
+  [
+   "What is a forced fermentation test?",
+   "A small sample of pitched wort fermented warm with excess yeast and frequent shaking. It shows the lowest gravity that wort can reach, so you can tell whether a high finish is a wort problem or a yeast problem."
+  ],
+  [
+   "When is fermentation actually finished?",
+   "When gravity is stable over two or three days and close to the forced test result. For lagers, also confirm diacetyl is gone before cooling."
+  ],
+  [
+   "Can I use a refractometer for the curve?",
+   "Only with an alcohol correction once fermentation starts. Even then the corrections drift at low gravities. A hydrometer or density meter is more reliable for tracking a curve."
+  ]
+ ],
+ "cta": {
+  "title": "Fermentations that stall and you cannot say why",
+  "body": "Advanced Brewing Science is a six week live course (₹12,999) on yeast physiology, fermentation kinetics and how to diagnose a tank from its data. Bring your own curves and we work through them together in the weekend sessions, with recordings and weekly assignments.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "how-long-does-beer-take-to-ferment",
+  "yeast-growth-phases",
+  "original-gravity-final-gravity-explained"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "high-gravity-brewing-and-dilution",
+ "cat": "Brewing science",
+ "h1": "High gravity brewing and dilution",
+ "title": "High Gravity Brewing and Dilution | Craft Beer School",
+ "desc": "How high gravity brewing works, how to calculate dilution properly from Plato and specific gravity and what it does to flavour, foam and yeast.",
+ "teaser": "Brew strong, dilute to strength, sell more beer from the same tanks. The maths is simple. The quality side is not.",
+ "standfirst": "High gravity brewing lets a brewery make more beer from the same brewhouse and tanks. We cover the dilution calculation done properly, the water it needs and the quality costs that decide how far you can push it.",
+ "read": "3 min",
+ "updated": "2026-12-22",
+ "updated_label": "December 2026",
+ "sections": [
+  [
+   "What high gravity brewing is",
+   "<p>In high gravity brewing you brew and ferment a wort stronger than the beer you sell, then dilute it with treated water to the sales strength, usually after fermentation and before or after filtration. A brewery that brews at 16 °P and sells an 11 °P beer gets close to 50% more saleable beer out of every brew and every fermenter turn.</p><p>Large lager breweries have done this for decades, including in India, where many mainstream lagers are made this way. For a growing craft brewery that has run out of tank space, it is one of the cheapest capacity increases available, if you can control it.</p>"
+  ],
+  [
+   "Doing the dilution maths properly",
+   "<p>Degrees Plato is a percentage by weight, so the honest calculation goes through kilograms of extract, not litres.</p><p>Take 10 hL of wort at 16 °P. Its specific gravity is about 1.065, so it weighs about 1,065 kg and holds 1,065 x 0.16 = about 170 kg of extract. At a target of 11 °P (SG about 1.044), that extract can make 170 / 0.11 = about 1,549 kg of wort, which is 1,549 / 1.044 = about 1,484 litres.</p><p>The shortcut, 10 hL x 16 / 11, gives about 1,455 litres. It is close, but it undershoots by around 2%. That 2% of every tank adds up across a year. Our guide to <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity</a> covers the conversions.</p><p>When you dilute finished beer, you are blending to an alcohol and original extract target, so use a lab measurement of the strong beer rather than the brew sheet. Confirm the blend after mixing.</p>"
+  ],
+  [
+   "The water is part of the beer",
+   "<p>Dilution water can be a quarter or more of the finished beer, so it has to meet beer standards.</p><ul><li><strong>Deaerated.</strong> Oxygen in dilution water stales beer as surely as oxygen at packaging. Breweries strip it with vacuum or CO2 down to very low levels and check it with a meter, as covered in our guide to <a href=\"measuring-dissolved-oxygen.html\">measuring dissolved oxygen</a>.</li><li><strong>Microbiologically clean.</strong> It goes in after the boil, so it must be sterile filtered or otherwise treated.</li><li><strong>Chemically matched.</strong> Borewell water with high alkalinity or chlorine will show in a pale lager. Most breweries start from RO water and add back minerals to match the beer.</li><li><strong>Carbonated and chilled</strong> to suit the point of addition.</li></ul>"
+  ],
+  [
+   "What it does to flavour and yeast",
+   "<p>Strong worts change fermentation. Yeast faces more osmotic stress and higher alcohol, so it tends to make more esters, especially ethyl acetate and isoamyl acetate. A beer brewed at 18 °P and diluted rarely tastes identical to the same recipe brewed at sales gravity.</p><p>To keep the yeast healthy, pitch more cells in proportion to the gravity, oxygenate well, dose zinc and keep the temperature under tight control. Many breweries cap high gravity at around 15 to 17 °P because yeast health and flavour drift get hard to manage above that.</p><p>Hop utilisation also falls in stronger worts, so bitterness has to be recalculated, not scaled. Foam can suffer as well, because foam-positive proteins are diluted along with everything else.</p>"
+  ],
+  [
+   "Indian adjuncts and excise",
+   "<p>Rice, maize grits and sugar syrups make it easier to reach high gravity without a bigger mash tun, which is one reason they go hand in hand with high gravity brewing. Keep an eye on free amino nitrogen, because adjunct-heavy strong worts are the ones most likely to run short.</p><p>Dilution also touches excise. Where in the process dilution is allowed, how strength is declared and how volumes are recorded are matters for your state excise rules, which vary and change. Check the current notification or speak to a licensing consultant before you change the process.</p>"
+  ],
+  [
+   "Where to start",
+   "<p>Start small. Brew your core lager 2 to 3 °P stronger than usual, dilute to strength and run a blind triangle test against the normal version. If the panel cannot tell, move up another step. If it can, you have found your limit for that recipe and that yeast.</p><p>The arithmetic is the easy part. Getting a diluted beer that matches the original every time, across water, oxygen, yeast and bitterness, is where a brewery's process knowledge is really tested.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much extra beer does high gravity brewing give?",
+   "Roughly the ratio of brewing gravity to sales gravity. Brewing at 16 °P for an 11 °P beer gives close to 50% more saleable volume from the same brew, before losses."
+  ],
+  [
+   "Why not just multiply volume by the gravity ratio?",
+   "Plato is a weight percentage and wort density changes with strength. The ratio shortcut undershoots by a percent or two, which matters at brewery scale."
+  ],
+  [
+   "What water is used for dilution?",
+   "Deaerated, microbiologically clean water matched to the beer's chemistry, usually RO water with minerals added back, carbonated and chilled to suit the point of addition."
+  ]
+ ],
+ "cta": {
+  "title": "Diluted beer that never quite matches",
+  "body": "Advanced Brewing Science is a six week live course (₹12,999) on fermentation under stress, extract and dilution calculations, water treatment and oxygen control. Weekend sessions with recordings and weekly assignments built around your own beers.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewhouse-efficiency",
+  "original-gravity-final-gravity-explained",
+  "ro-water-for-brewing"
+ ]
+}

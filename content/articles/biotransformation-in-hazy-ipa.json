@@ -1,0 +1,63 @@
+{
+ "slug": "biotransformation-in-hazy-ipa",
+ "cat": "Brewing science",
+ "h1": "Biotransformation in hazy IPA",
+ "title": "Biotransformation in Hazy IPA | Craft Beer School",
+ "desc": "What yeast actually does to hop compounds during an active dry hop, what the evidence supports and how to schedule hops without the side effects.",
+ "teaser": "Dry hopping at high krausen is a hazy IPA ritual. Some of the chemistry behind it is real. Some is folklore.",
+ "standfirst": "Biotransformation is the idea that yeast changes hop compounds into new aromas during fermentation. Part of it is well established, part of it is overstated. We separate the two and show how to schedule an active dry hop without paying for it later.",
+ "read": "3 min",
+ "updated": "2026-12-15",
+ "updated_label": "December 2026",
+ "sections": [
+  [
+   "What the word actually means",
+   "<p>Biotransformation covers any change yeast makes to a hop compound. Three are worth knowing.</p><ul><li><strong>Terpene alcohol conversion.</strong> Ale yeast can convert geraniol, a floral, rose-like hop alcohol, into beta-citronellol, which reads more citrus and lime. This one is well documented.</li><li><strong>Glycoside release.</strong> Hops carry aroma compounds bound to sugars, which have no smell while bound. Yeast enzymes can cut some of them free. How much this adds in real beer varies and is often smaller than the marketing suggests.</li><li><strong>Thiol release.</strong> Hops and malt contain bound precursors of potent tropical and grapefruit thiols, such as 3MH. Most brewing strains release only a small fraction. Selected and engineered strains with stronger enzyme activity now exist to push that further.</li></ul><p>For the hop chemistry underneath all this, our guide to <a href=\"hop-oil-chemistry.html\">hop oil chemistry</a> covers the oils and their aromas.</p>"
+  ],
+  [
+   "Why brewers dry hop during fermentation",
+   "<p>The usual practice in a <a href=\"new-england-ipa.html\">New England IPA</a> is a first dry hop charge around day two or three, near high krausen, then a second charge after fermentation. The active charge has three arguments for it.</p><p>Yeast is present in large numbers and metabolically busy, so any conversion has the best chance of happening. Active fermentation also scavenges oxygen, so the oxygen that comes in with hop pellets does less harm. Many brewers also find it gives a softer, juicier aroma that reads differently from a cold dry hop alone.</p><p>That last point is mostly sensory experience, not a single proven mechanism. Treat it as a reason to run your own trial, not as settled science.</p>"
+  ],
+  [
+   "The costs of hopping early",
+   "<p>Active dry hopping is not free.</p><p><strong>Aroma scrubbing.</strong> CO2 leaving a vigorous fermentation carries volatile hop oils out of the blow-off. You can often smell your money leaving the building.</p><p><strong>Yeast binding.</strong> Yeast and hop matter drop out together. Some aroma goes to the cone with them.</p><p><strong><a href=\"hop-creep.html\">Hop creep</a>.</strong> Hops carry enzymes that break dextrins into fermentable sugar. That restarts fermentation, drops gravity below what you expected and can bring diacetyl back after you thought the beer was clean. In a hazy IPA packaged warm into a hot Indian market, extra fermentable sugar in the can is a serious risk.</p><p><strong>Foam-overs.</strong> Pellets added to a fermenting tank give CO2 thousands of nucleation sites. Many brewers have watched a tank spray green foam from the top manway.</p>"
+  ],
+  [
+   "Scheduling it sensibly",
+   "<p>A workable schedule for a pressurised fermenter looks like this.</p><ol><li>Pitch a healthy, adequate dose of a strain you know. Biotransformation needs active yeast, not a stressed one.</li><li>Add the first charge when gravity is roughly a third to half of the way down, or about 24 to 48 hours after the steep drop starts. Keep it modest, a fraction of your total.</li><li>Reduce top pressure slowly first and add pellets in stages through the top port, not all at once.</li><li>Keep the temperature steady. Let it free rise a degree or two near the end if your strain needs help finishing.</li><li>Add the main charge after terminal gravity, then check for diacetyl and gravity drift before you cool.</li></ol>"
+  ],
+  [
+   "Choosing yeast and hops",
+   "<p>Strain choice matters as much as timing. Some English and American ale strains are known for strong geraniol conversion. Thiol-releasing strains are a separate category that brewers buy specifically for that purpose. Read the supplier data and ask what the strain was selected for.</p><p>On the hop side, varieties rich in geraniol and in thiol precursors give the yeast more to work with. Varieties and harvests vary year to year, so a hop that worked well last season may not repeat.</p>"
+  ],
+  [
+   "Testing it in your own brewery",
+   "<p>The only honest way to know whether biotransformation is worth it for your beer is a split batch. Brew one wort, split it into two fermenters, hop one actively and one only after fermentation, keep the total hop weight identical, then run a blind triangle test with your team.</p><p>Measure gravity drift and diacetyl as well as aroma. If the active charge does not win the triangle test on your wort and your yeast, save yourself the scrubbing losses and the foam-overs. Designing that test properly, so the result actually means something, is harder than it sounds.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is biotransformation in beer?",
+   "It is any change yeast makes to hop compounds during fermentation. Examples include converting geraniol into citronellol, freeing aroma compounds bound to sugars and releasing thiols from their precursors."
+  ],
+  [
+   "When should I dry hop for biotransformation?",
+   "Most brewers add a modest first charge during active fermentation, roughly a day or two into the steep gravity drop, then the main charge after fermentation finishes."
+  ],
+  [
+   "Does dry hopping during fermentation cause hop creep?",
+   "It can. Hop enzymes break down dextrins wherever the hops are added. Check gravity and diacetyl after any dry hop before you package."
+  ]
+ ],
+ "cta": {
+  "title": "Hazy IPAs that lose aroma or creep in the can",
+  "body": "Advanced Brewing Science is a six week live course (₹12,999) that covers hop chemistry, yeast metabolism and how to design split batch and sensory trials that give a real answer. Weekend sessions, recordings and weekly assignments on your own beers.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "new-england-ipa",
+  "dry-hopping-guide",
+  "hop-creep"
+ ]
+}

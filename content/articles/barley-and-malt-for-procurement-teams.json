@@ -1,0 +1,67 @@
+{
+ "slug": "barley-and-malt-for-procurement-teams",
+ "cat": "Beer for teams",
+ "h1": "Barley and malt for procurement teams",
+ "title": "Barley and Malt for Procurement | Craft Beer School",
+ "desc": "What procurement teams need to know about barley, malt specs, crop years, storage and why price per tonne is the wrong number to compare.",
+ "teaser": "Two malts at the same price per tonne can produce very different amounts of beer. Here is why.",
+ "standfirst": "Malt is the biggest raw material in most beers and the easiest one to buy badly. This guide explains what the spec sheet means, where Indian malt comes from and which numbers really drive cost.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "From barley to malt",
+   "<p>Brewers do not use raw barley. They use malt, which is barley that has been soaked in water, allowed to sprout for a few days and then dried in a kiln. The process takes about a week. Sprouting builds the enzymes that will later turn starch into sugar in the brewhouse. Kilning stops growth and sets colour and flavour. Our guide to <a href=\"barley-malting-process.html\">the barley malting process</a> walks through each stage.</p><p>Pale base malts make up most of the recipe for nearly every beer. Speciality malts, roasted or caramelised to deeper colours, are used in small amounts for colour and flavour. Base malt is a bulk commodity. Speciality malt is closer to an ingredient you buy for a specific recipe.</p>"
+  ],
+  [
+   "Where Indian malt comes from",
+   "<p>Barley in India is a rabi crop. It is sown around October and November and harvested around March and April, mostly in Rajasthan, Haryana, Punjab, Uttar Pradesh and Madhya Pradesh. Maltsters buy grain after harvest, store it and malt it through the year.</p><p>Brewers talk about two-row and six-row barley. Two-row generally gives more extract and less husk. Six-row has more protein and enzyme. Both are used. The variety matters to the brewer because it changes how the malt behaves in the brewhouse.</p><p>Many Indian lagers also use adjuncts: broken rice, maize grits or brewing sugars that add fermentable sugar at a lower cost than malt and give a lighter body. Adjuncts bring their own specs and suppliers. They also need the malt to carry enough enzyme to convert their starch, which is one more reason the brewer cares about the malt's diastatic power, its enzyme strength.</p><p>Many speciality malts and some premium base malts are imported, often from Germany, Belgium or the UK. That brings shipping time, currency exposure and import paperwork into the plan.</p>"
+  ],
+  [
+   "Reading the malt spec sheet",
+   "<p>Every delivery should come with a certificate of analysis. The lines that matter most:</p><ul><li><strong>Moisture.</strong> Usually around 4 to 5% for well-kilned malt. Higher moisture means you are paying for water and the malt will not store as well.</li><li><strong>Extract.</strong> The share of the malt's weight that can become sugar in the brewhouse, quoted as a percentage on a dry basis. Good pale malt is commonly around 80% fine-grind extract. This is the number that turns into beer.</li><li><strong>Protein.</strong> Brewing barley usually sits around 9.5 to 11.5%. Too much protein lowers extract and can cause haze.</li><li><strong>Colour.</strong> Measured in EBC units. A pale lager malt is a few EBC, a roasted malt hundreds.</li><li><strong>Friability and beta-glucan.</strong> Measures of how well the grain was modified during malting. Poorly modified malt causes trouble downstream.</li></ul>"
+  ],
+  [
+   "Why price per tonne misleads",
+   "<p>Suppose two maltsters quote the same price. One malt delivers 81% extract at 4% moisture. The other delivers 78% extract at 5.5% moisture. Per tonne bought, the first gives noticeably more fermentable sugar, so more beer from the same spend. The cheaper-looking quote can be the expensive one.</p><p>The fairer comparison is cost per unit of extract, or simply cost per hectolitre of beer brewed. That needs the brewer's input on recipe and brewhouse efficiency. Procurement teams who build that conversion into their tender process usually stop arguing with the brewhouse about \"equivalent\" malts.</p>"
+  ],
+  [
+   "What a bad lot looks like on the floor",
+   "<p>A spec sheet can pass and the malt can still misbehave. The classic sign is a slow or stuck lauter: the brewer drains the sweet wort off the grain bed and it barely trickles. Poorly modified malt with high beta-glucan makes the wort sticky and gums up the bed. A brew that should take a few hours runs long, extract is lost and the brewhouse schedule for the week slips.</p><p>When a brewer rejects a lot that looks fine on paper, this is often why. It is worth asking for the brewhouse data before escalating with the supplier.</p>"
+  ],
+  [
+   "Storage, crop years and risk",
+   "<p>Malt keeps well if it stays dry, cool and free of pests, typically for several months and up to about a year. Indian monsoon humidity is the enemy. Malt picks up moisture in damp stores, which shortens its life and invites insects. Rotate stock first in, first out and keep bags off the floor.</p><p>Each harvest is different. A hot or wet season changes protein and extract across a whole crop year, so specs agreed last year may not be achievable this year. Contracts that name the key parameters and a tolerance band, with the right to reject outside it, protect both sides. For a broader view of where malt sits in the chain, see <a href=\"beer-supply-chain-explained.html\">the beer supply chain explained</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between barley and malt?",
+   "Malt is barley that has been steeped, sprouted and kiln-dried. Malting creates the enzymes and the soluble starch a brewer needs to make sugar for fermentation."
+  ],
+  [
+   "Which number on a malt certificate matters most for cost?",
+   "Extract, read together with moisture. It tells you how much fermentable sugar each tonne will yield, which is what turns into beer."
+  ],
+  [
+   "When is barley harvested in India?",
+   "It is a rabi crop, sown around October and November and harvested around March and April, mainly in the north-western and central states."
+  ],
+  [
+   "How long can malt be stored?",
+   "Typically several months and up to about a year if kept dry, cool and pest-free. High humidity during the monsoon shortens that."
+  ]
+ ],
+ "cta": {
+  "title": "Malt tenders your brewers will agree with",
+  "body": "Our Raw materials and supply chain module teaches buyers to read malt and hop specs, compare suppliers on cost per hectolitre and plan around crop years. We build it around your own portfolio and your current suppliers.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "barley-malting-process",
+  "sourcing-malt-and-hops-in-india",
+  "beer-supply-chain-explained"
+ ]
+}

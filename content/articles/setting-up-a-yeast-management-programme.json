@@ -1,0 +1,67 @@
+{
+ "slug": "setting-up-a-yeast-management-programme",
+ "cat": "Consultancy",
+ "h1": "Setting up a yeast management programme",
+ "title": "Setting Up a Yeast Management Programme | Craft Beer School",
+ "desc": "How a small brewery sets up yeast management: sourcing, harvesting, storage, cell counts, viability, generation limits and the records that hold it together.",
+ "teaser": "Your yeast makes the beer. If nobody is managing it, every batch is a gamble on how it feels that week.",
+ "standfirst": "Most inconsistency in small breweries traces back to yeast handled by habit rather than by method. Here is the programme we set up: what to measure, the numbers to aim for and the records that make it stick.",
+ "read": "3 min",
+ "updated": "2026-10-26",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why yeast needs a programme",
+   "<p>Brewers buy malt to a specification and weigh hops to the gram. Then they pitch yeast by eye: a bucket of slurry from the last tank, of unknown age, count and health. The beer pays for it with slow starts, stuck fermentations, diacetyl and a house character that drifts.</p><p>A yeast management programme is simply a written way of handling yeast so that every pitch is known. It need not be elaborate. It does need to be followed on every brew, by whoever is on shift. If your beer <a href=\"beer-tastes-different-every-batch.html\">tastes different every batch</a>, yeast is the first place we look.</p>"
+  ],
+  [
+   "Start clean and know your source",
+   "<p>Every yeast line starts from a fresh culture, either a lab-propagated pitch or dried yeast from a reputable supplier. Write down the strain, supplier, lot number and date received. In India, liquid cultures may spend days in transit, so check the temperature on arrival and keep dried yeast refrigerated.</p><p>Keep the number of strains small, because every strain needs its own brinks, labels and generation count. A brewpub running six house strains has six lines to manage and usually manages none of them well. One clean ale strain and one lager strain cover most tap lists.</p>"
+  ],
+  [
+   "Harvesting: take the middle of the cone",
+   "<p>Harvest from the cone of a healthy fermentation once it has finished and the diacetyl rest is done. The first material out of the bottom valve is dark and heavy with trub and dead cells: run it to drain. Collect the creamy, pale middle portion. Stop before the last thin, beery slurry.</p><p>Use a sanitised, dedicated yeast brink, purged with CO2. Flame or sanitise the valve before and after. Every harvest is a chance to pick up bacteria, so treat the valve like a sample port, not a drain.</p>"
+  ],
+  [
+   "Storage and the clock",
+   "<p>Store harvested slurry cold, at about 0 to 4 °C, under a little beer, with a loose lid or a pressure relief so CO2 can escape. Yeast loses vitality every day it sits, even when cold. Aim to repitch within a few days and treat anything older than about a week with suspicion. Label every brink with strain, generation, source tank and harvest date.</p><p>In a hot cellar a brink left on the floor for an afternoon is already stressed. Put yeast straight into the cold room.</p>"
+  ],
+  [
+   "Count, check viability, then pitch",
+   "<p>This is the step most small breweries skip and the one that changes results. With a microscope, a haemocytometer and methylene blue stain you can count cells and check viability in about twenty minutes.</p><ul><li><strong>Pitch rate.</strong> A common working target is around 0.75 million cells per ml per degree Plato for ales and about 1.5 million for lagers. A 12 °P lager wants roughly 18 million cells per ml.</li><li><strong>Viability.</strong> Repitch slurry above about 90% viable. Below that, pitch more, or go back to a fresh culture.</li><li><strong>Calculate the volume.</strong> Required cells divided by cells per ml of slurry, corrected for viability, gives litres of slurry to pitch.</li></ul><p>Pitching by count gives you the same start every time, which is most of what consistency means.</p>"
+  ],
+  [
+   "Generation limits and warning signs",
+   "<p>Yeast changes over repeated use. Set a generation limit for each strain, commonly somewhere between five and ten. Adjust it from your own performance data. Retire a line early if you see:</p><ul><li>Fermentations starting or finishing slower than the strain's normal curve.</li><li>Attenuation drifting, so final gravity creeps up batch on batch.</li><li>Flocculation changing, with beer staying hazy or yeast dropping too early.</li><li>New aromas: sourness, phenolic or solvent notes.</li></ul><p>A simple forcing test helps here. Hold a sample of wort or beer warm for a few days and smell it. Spoilage organisms show up long before the main batch would reveal them.</p>"
+  ],
+  [
+   "The records that make it work",
+   "<p>Keep one yeast log: strain, generation, harvest tank, harvest date, count, viability, volume pitched and the tank it went into, with that fermentation's gravity curve. After a few months the log tells you which generation starts to slip and whether a problem tank shares a yeast history with another.</p><p>Fit the log into your wider <a href=\"quality-system-for-a-small-brewery.html\">quality system</a> so it is reviewed, not just filled. The microscope work takes practice to do reliably. This is where small teams usually need hands-on training rather than another document.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many times can I repitch brewing yeast?",
+   "Many breweries set a limit of around five to ten generations per strain. The right limit for you comes from watching fermentation speed, attenuation and flavour in your own yeast log."
+  ],
+  [
+   "How long can harvested yeast be stored?",
+   "Store slurry at about 0 to 4 °C and repitch within a few days. Vitality falls every day it waits, so treat slurry older than about a week with caution."
+  ],
+  [
+   "Do I need a microscope for yeast management?",
+   "For a serious programme, yes. A microscope, haemocytometer and methylene blue let you count cells and check viability, which is how you pitch the same amount every time."
+  ]
+ ],
+ "cta": {
+  "title": "Make every pitch a known pitch",
+  "body": "Our yeast and fermentation review sets up harvesting, storage, cell counting and the yeast log on your own kit. Rahul Baliyan leads the brewing side, training your team at the microscope until they run it without us.",
+  "label": "Book a consultation",
+  "href": "contact.html?course=Brewery%20consultancy#enroll"
+ },
+ "related": [
+  "yeast-harvesting-and-reuse",
+  "beer-tastes-different-every-batch",
+  "quality-system-for-a-small-brewery"
+ ]
+}

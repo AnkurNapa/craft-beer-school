@@ -1,0 +1,71 @@
+{
+ "slug": "fixing-homebrew-carbonation",
+ "cat": "Brewing science",
+ "h1": "Flat or gushing homebrew: fixing carbonation",
+ "title": "Fixing Flat or Gushing Homebrew | Craft Beer School",
+ "desc": "Why homebrew comes out flat or gushes, how to tell priming errors from infection and how to rescue bottles and kegs safely.",
+ "teaser": "Flat beer is disappointing. Gushing beer is a warning. Here is how to tell what went wrong and what to do with the bottles you already have.",
+ "standfirst": "Carbonation problems are among the most common homebrew complaints. Most have one of a handful of causes. Work out which one you have, fix the bottles you can and change the process for next time.",
+ "read": "4 min",
+ "updated": "2026-11-27",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "First, work out which problem you have",
+   "<p>Open one bottle that has been chilled for at least a day and pour it into a clean glass. A flat beer pours with little or no head and tastes sweet and thin. An over-carbonated beer foams up fast and may push half the bottle out. A true gusher erupts the moment the cap comes off.</p><p>Then taste. If the beer tastes the way it did at bottling, the cause is almost always sugar, yeast or time. If it tastes sour, medicinal or oddly dry, suspect infection.</p>"
+  ],
+  [
+   "Flat beer: the usual causes",
+   "<p>Most flat beer is simply beer that has not finished conditioning.</p><ul><li>Not enough time. Bottle conditioning usually takes two to three weeks at about 20 to 22 °C. Strong or lagered beers take longer.</li><li>Too cold. Below about 18 °C the yeast slows right down. A bottle in an air conditioned room may need twice as long.</li><li>Not enough active yeast. Long cold lagering or a high alcohol beer can leave too few healthy cells to eat the priming sugar.</li><li>Not enough sugar, or sugar that was not stirred in, so some bottles got most of it.</li><li>Leaky caps. If one bottle is flat and its neighbours are fine, check the cap seal.</li></ul>"
+  ],
+  [
+   "Rescuing flat bottles",
+   "<p>Move the bottles somewhere at 20 to 24 °C. Turn each one gently upside down and back once to put the settled yeast back into suspension. Wait another week or two, then chill one and test it.</p><p>If nothing changes after a month, the yeast is probably exhausted. You can open each bottle, add a few granules of rehydrated dry yeast and recap. It works, but every opening risks oxygen pickup, so it is a last resort. Next time, add a little fresh yeast at bottling for strong or long lagered beers. Our guide to <a href=\"brewing-a-lager-at-home.html\">brewing a lager at home</a> covers that step.</p>"
+  ],
+  [
+   "Over-carbonated and gushing beer",
+   "<p>Gushing almost always means too much CO2 in the bottle. There are four common reasons:</p><ul><li>Too much priming sugar. A typical ale at about 2.4 volumes needs roughly 6 g of table sugar per litre, not a heaped spoon per bottle.</li><li>Bottling before fermentation finished. The yeast eats the leftover sugar from the beer as well as the priming sugar.</li><li>Uneven mixing, so some bottles got a double dose.</li><li>Infection. Wild yeast or bacteria keep eating sugars the brewing yeast left behind, so carbonation keeps climbing week after week.</li></ul><p>The fermentation one is the most common. Before bottling, take a hydrometer reading on three days in a row. If it moves, it is not finished. A beer that sat at 1.016 for two days is not necessarily done; it may just be resting.</p>"
+  ],
+  [
+   "Getting the priming calculation right",
+   "<p>Beer already holds some CO2 when fermentation ends. How much depends on the warmest temperature it reached after fermentation, not the temperature on bottling day. Beer that finished at 24 °C holds less CO2 than beer that finished at 18 °C, so it needs more priming sugar. Use the warmest temperature in any priming calculator.</p><p>Then match the target to the style. A stout might want about 2 volumes and a wheat beer 3 or more. Our guides to <a href=\"carbonation-levels-by-style.html\">carbonation levels by style</a> and <a href=\"bottle-conditioning-and-priming-sugar.html\">priming sugar</a> give the figures.</p>"
+  ],
+  [
+   "Handling over-carbonated bottles safely",
+   "<p>Over-carbonated glass bottles can burst. If several bottles are gushing, move the rest into the fridge straight away. Cold slows the yeast and keeps more CO2 dissolved. Wear eye protection and handle them with a towel over the top.</p><p>To save the batch, chill the bottles thoroughly, then lift each cap just enough to hiss and press it back down, or recap. Repeat over a few days until the pour is right. If the cause was infection, carbonation will keep rising, so drink or discard the batch rather than storing it.</p><p>Indian heat makes all of this worse. CO2 is less soluble in warm beer, so a bottle at 35 °C pours far foamier than the same bottle at 5 °C. Always chill a homebrew for at least a day before judging its carbonation.</p>"
+  ],
+  [
+   "Kegs: pressure, temperature and line length",
+   "<p>In a keg the carbonation depends on gas pressure and temperature. At about 4 °C, roughly 12 psi (about 0.8 bar) gives around 2.5 volumes. Leave it a week to settle. Turning the pressure up to carbonate faster is how most kegged homebrew ends up over-carbonated.</p><p>If the beer is right but the pour is all foam, the beer line is probably too short for the pressure. For a simple picnic tap, a common starting point is 1.5 to 2 metres of 4.8 mm internal diameter line. See <a href=\"kegging-homebrew.html\">kegging homebrew</a> for the details.</p><p>Carbonation is the last step, so it collects every earlier mistake. When it goes wrong, the fix is often upstream.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should homebrew bottle condition?",
+   "Usually two to three weeks at 20 to 22 °C. Strong beers and lagers can take longer because their yeast is slower."
+  ],
+  [
+   "Why are only some of my bottles gushing?",
+   "Usually the priming sugar was not mixed evenly, so some bottles got more. If gushing gets worse over weeks, suspect infection."
+  ],
+  [
+   "Can I fix flat homebrew?",
+   "Often. Warm the bottles to 20 to 24 °C, gently rouse the yeast and wait another week or two. If that fails, the yeast may need topping up."
+  ],
+  [
+   "What pressure should I keg homebrew at?",
+   "At about 4 °C, roughly 12 psi gives around 2.5 volumes of CO2, which suits many ales. Check a carbonation chart for your style and temperature."
+  ]
+ ],
+ "cta": {
+  "title": "Get your beer right from mash to glass",
+  "body": "Brewing Fundamentals is four weeks of live weekend classes (₹5,999) covering fermentation, conditioning, bottling and kegging, so faults get fixed at their source.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "bottle-conditioning-and-priming-sugar",
+  "kegging-homebrew",
+  "carbonation-levels-by-style"
+ ]
+}

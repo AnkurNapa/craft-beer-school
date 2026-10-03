@@ -1,0 +1,71 @@
+{
+ "slug": "measuring-carbonation",
+ "cat": "Brewing science",
+ "h1": "Measuring carbonation in tank and package",
+ "title": "Measuring Carbonation in Tank and Can | Craft Beer School",
+ "desc": "How to measure CO2 in beer properly: volumes and g/L, the shake test, inline meters, sampling from tanks and checking cans and bottles.",
+ "teaser": "Most carbonation arguments in a brewery come from two people measuring the same beer two different ways.",
+ "standfirst": "Carbonation is one of the few things a drinker notices in the first second. Measuring it properly means knowing what your method actually reads and where it lies to you.",
+ "read": "3 min",
+ "updated": "2026-11-08",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "Volumes, grams per litre and why both exist",
+   "<p>Carbonation is expressed in two ways. Volumes of CO2 means the volume of gas, at 0 °C and atmospheric pressure, dissolved in one volume of beer. Grams per litre is the mass of CO2 in a litre of beer. One volume is close to 2 g/L (1.96 g/L to be precise), so 2.5 volumes is about 4.9 g/L.</p><p>British and American brewers tend to talk in volumes. Continental European labs and many instruments report g/L. Pick one for your brewery's records and convert everything into it.</p>"
+  ],
+  [
+   "The principle: pressure and temperature",
+   "<p>Almost every practical method rests on Henry's law. At equilibrium, the amount of CO2 dissolved in beer depends on the gas pressure above it and the temperature. Measure both once the sample has reached equilibrium and a chart or formula tells you the carbonation.</p><p>Temperature accuracy matters more than people expect. Near serving temperatures, an error of 1 °C shifts the result by roughly 0.1 volumes. A cheap dial thermometer that reads 2 °C off will make every batch look wrong.</p>"
+  ],
+  [
+   "The shake test",
+   "<p>The classic tool is a piercing device or a tank sampling cylinder fitted with a pressure gauge and a thermometer. For a can or bottle, you clamp the package, pierce it, then shake hard until the pressure reading stops rising. Read pressure and temperature, then look up the carbonation on the chart supplied with the device.</p><p>The shaking is the step people skimp on. Until the gas in the headspace and the gas in the beer are in equilibrium, the gauge reads low. Shake, rest, shake again. When two readings agree, you are done.</p><p>One limitation: the method cannot tell CO2 from air. A package with a lot of air in the headspace reads high, because air adds pressure. If your can readings are consistently above the tank reading, suspect poor fill-head purging before you blame the tank.</p>"
+  ],
+  [
+   "Inline and benchtop meters",
+   "<p>Dedicated carbonation meters remove much of the operator error. Some read pressure and temperature in a sealed chamber with automatic agitation. More advanced benchtop instruments use the multiple volume expansion method. They expand the sample chamber in steps and measure pressure each time, which separates CO2 from air and gives a true dissolved CO2 figure.</p><p>Inline sensors fitted between the bright tank and the filler let you watch carbonation continuously during packaging. They are expensive but worth it on a busy canning line. Whatever you use, check it against a reference method regularly. A meter that has drifted is worse than no meter, because people trust it.</p>"
+  ],
+  [
+   "Sampling from a tank",
+   "<p>Never judge tank carbonation from a glass. Beer loses CO2 the moment it leaves pressure. Use a closed sampling cylinder connected to the sample valve. Flush it with beer to purge air, fill it under tank pressure, close it, then shake and read.</p><p>Measure after the tank has settled. Right after stone carbonation, undissolved bubbles and uneven distribution can give misleading numbers. A few hours of rest at steady temperature gives a reading you can act on.</p>"
+  ],
+  [
+   "Checking the package",
+   "<p>Carbonation can change between tank and package. Fillers lose some CO2 when beer foams. Warm packaging halls make that worse. In a hot Indian packaging hall, cans can warm several degrees while they wait for the seamer. Sample cans from the start, middle and end of each run, let them reach a known temperature and test them.</p><p>Log the results with the batch code alongside <a href=\"measuring-dissolved-oxygen.html\">dissolved oxygen</a> readings. Most packaging problems show up in both.</p>"
+  ],
+  [
+   "What good looks like",
+   "<p>Targets depend on style, as our guide to <a href=\"carbonation-levels-by-style.html\">carbonation levels by style</a> sets out. Many lagers sit around 2.5 to 2.8 volumes, many ales around 2.2 to 2.6, with stouts on nitrogen far lower and wheat beers higher. Consistency matters as much as the target. A spread of more than about 0.1 to 0.15 volumes across a packaging run is worth investigating.</p><p>When it does spread, look at the filler first: fill temperature, counter-pressure and how much the beer foams on the way in usually explain it.</p><p>Carbonation also shapes foam and mouthfeel. If your head collapses even though the number looks right, the cause may lie elsewhere. See <a href=\"beer-foam-science.html\">beer foam science</a> for the other half of that story.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I convert volumes of CO2 to g/L?",
+   "Multiply volumes by about 1.96. So 2.5 volumes is roughly 4.9 g/L."
+  ],
+  [
+   "Why does my can read higher than the tank?",
+   "Often because of air in the headspace. Simple pressure and temperature methods count air as CO2, so poor purging at the filler shows up as high carbonation."
+  ],
+  [
+   "Can I measure carbonation without a meter?",
+   "Not reliably. Tasting and pouring give a rough idea, but a piercing device or sampling cylinder with an accurate gauge and thermometer is the minimum for consistent beer."
+  ],
+  [
+   "How accurate does my thermometer need to be?",
+   "Within about half a degree. A 1 °C error shifts the carbonation result by around 0.1 volumes."
+  ]
+ ],
+ "cta": {
+  "title": "Make your packaging numbers trustworthy",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes. It covers carbonation, oxygen and packaging quality in depth, including how to build a lab routine your whole team can follow.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "carbonation-levels-by-style",
+  "measuring-dissolved-oxygen",
+  "beer-foam-science"
+ ]
+}

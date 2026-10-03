@@ -1,0 +1,71 @@
+{
+ "slug": "co2-in-the-brewery",
+ "cat": "Brewing science",
+ "h1": "CO2 in the brewery: buying, using and recovering it",
+ "title": "CO2 in the Brewery: Buy, Use, Recover | Craft Beer School",
+ "desc": "What beverage-grade CO2 means, how breweries use and waste it, when CO2 recovery pays and how to keep the cellar safe.",
+ "teaser": "Your fermenters make more CO2 than your packaging line needs. Most breweries vent it and then pay for a delivery.",
+ "standfirst": "CO2 touches nearly every step after fermentation, from purging tanks to filling cans. Buying it well, using less of it and keeping people safe around it are all brewing skills.",
+ "read": "4 min",
+ "updated": "2026-10-14",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Where CO2 goes in a brewery",
+   "<p>Look at a brewery's gas bill and the obvious use, carbonation, is rarely the biggest line. CO2 also purges tanks, kegs and cans of oxygen. It provides counter-pressure for filling. It pushes beer from tank to tank and from keg to tap. Every one of those uses can be done well or wastefully.</p><p>The cheapest CO2 is the gas you did not vent. Before you look at recovery systems or new suppliers, measure how much you use per hectolitre packaged and where it goes.</p>"
+  ],
+  [
+   "Buying beverage-grade gas",
+   "<p>CO2 that touches beer should be beverage grade. The reference most suppliers quote is the specification published by the International Society of Beverage Technologists, which sets a minimum purity of 99.9% and limits for moisture, oxygen, hydrocarbons, sulphur compounds and other impurities.</p><p>Industrial CO2 in India often comes as a by-product of fertiliser plants, refineries or fermentation. Purified properly, any of these sources is fine. Purified poorly, it can carry sulphur or oily notes straight into your beer. Ask for a certificate of analysis with each delivery and keep them on file. Smell gas from a new cylinder through a clean glass of water before it goes near a bright tank.</p><p>Small breweries buy cylinders. Once usage grows, a bulk liquid CO2 tank with a vaporiser usually works out cheaper per kilo and removes the daily cylinder swap, which is where a lot of air sneaks into the gas lines.</p>"
+  ],
+  [
+   "Using less of it",
+   "<p>Purging is where most gas is wasted. Pushing CO2 into the top of an air-filled tank mixes the two gases. You then need several tank volumes of gas to get oxygen down to a low level. Two better habits:</p><ul><li>Fill the tank with deaerated or clean water, then push the water out with CO2. One tank volume of gas and the tank is essentially oxygen free.</li><li>Where you must purge with gas alone, feed CO2 in at the bottom and vent at the top. CO2 is heavier than air and will displace it far more efficiently than turbulent mixing.</li></ul><p>Fix leaks. A slow leak on a gas manifold runs all night, every night. Spray fittings with soapy water once a month and replace perished hoses. Our guide to <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup in packaging</a> covers the purging that matters most for shelf life.</p>"
+  ],
+  [
+   "How much CO2 fermentation makes",
+   "<p>Yeast turns sugar into roughly equal masses of ethanol and CO2. By the chemistry, every 92 g of ethanol comes with 88 g of CO2. A hectolitre of 5% ABV beer holds about 3.9 kg of ethanol, so fermentation released around 3.8 kg of CO2.</p><p>Carbonating that same hectolitre to 2.5 volumes needs about 0.5 kg dissolved in the beer. Even allowing for purging and filling losses, fermentation produces several times what the beer itself needs. That surplus is the case for recovery.</p>"
+  ],
+  [
+   "When CO2 recovery makes sense",
+   "<p>A recovery plant collects fermenter gas, washes it with water to strip ethanol and other volatiles, compresses it, passes it through activated carbon and a dryer, then liquefies it for storage. Collection starts only once the fermenter headspace has reached high purity, usually after the first day of active fermentation, because the early gas is mostly air.</p><p>The kit is expensive and has running costs: power, water, carbon and maintenance. It is common in large breweries and rare in brewpubs. For a craft brewery, the honest question is whether your annual gas spend, plus the cost of supply interruptions, justifies the capital. Supply interruptions are not hypothetical. CO2 is a by-product of other industries, so availability tightens when those plants shut down for maintenance. Brewers in several countries have had to pause packaging because of it.</p>"
+  ],
+  [
+   "Safety in the cellar",
+   "<p>CO2 is colourless, close to odourless at dangerous levels and heavier than air. It collects in pits, sumps, closed cold rooms and inside fermenters. Many workplace standards set an eight-hour exposure limit of 5,000 ppm (0.5%). Concentrations of a few percent cause headache and confusion. Higher levels can kill within minutes.</p><p>Fit fixed CO2 monitors with alarms at low level in cellars and cold rooms. Never put your head inside a fermenter manway to look or clean without forced ventilation and a gas check first. Store cylinders upright and chained. Our free Safety in Brewing course covers confined spaces properly.</p>"
+  ],
+  [
+   "Getting carbonation right",
+   "<p>Gas is only half the carbonation story. Temperature and pressure decide how much CO2 the beer actually holds. The right level depends on the style. See <a href=\"carbonation-levels-by-style.html\">carbonation levels by style</a> for target volumes. Stable temperatures depend on your <a href=\"glycol-cooling-systems.html\">glycol system</a>, which is why a warm bright tank always seems to need more gas than the chart says.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I use industrial CO2 for beer?",
+   "Only if it meets a beverage-grade specification. Ask the supplier for a certificate of analysis against the ISBT standard or an equivalent food-grade specification."
+  ],
+  [
+   "How much CO2 does fermentation produce?",
+   "Roughly as much by mass as the ethanol it makes. A hectolitre of 5% ABV beer gives off around 3.8 kg of CO2 during fermentation."
+  ],
+  [
+   "Is CO2 recovery worth it for a small brewery?",
+   "Usually not, because the plant is expensive to buy and run. It starts to make sense at larger volumes, or where gas supply is unreliable."
+  ],
+  [
+   "What CO2 level is dangerous?",
+   "Many workplace standards set the eight-hour limit at 5,000 ppm. A few percent in the air causes symptoms and higher levels can be fatal, so cellars need fixed monitors."
+  ]
+ ],
+ "cta": {
+  "title": "Run the cellar on numbers, not habit",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes. It covers gas use, carbonation, oxygen control and the cellar engineering behind them, with the calculations a single guide can only sketch.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "carbonation-levels-by-style",
+  "glycol-cooling-systems",
+  "oxygen-pickup-in-packaging"
+ ]
+}

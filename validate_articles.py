@@ -72,6 +72,8 @@ def check(path):
         if target.startswith("http"): continue
         if target not in PAGES and target[:-5] not in PLAN and target[:-5] not in EXISTING:
             errs.append(f"dead internal link {href}")
+        elif target[:-5] in PLAN and PLAN[target[:-5]]["date"] > p["date"]:
+            errs.append(f"link {href} is not live yet on {p['date']}")
     t = text_of(a)
     for ch, name in BANNED.items():
         if ch in t: errs.append(f"banned {name}")

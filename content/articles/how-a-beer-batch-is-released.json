@@ -1,0 +1,67 @@
+{
+ "slug": "how-a-beer-batch-is-released",
+ "cat": "Beer for teams",
+ "h1": "How a batch of beer is released for sale",
+ "title": "How a Beer Batch Is Released | Craft Beer School",
+ "desc": "The checks a batch of beer passes between the fermenter and the warehouse door. Also why stock sometimes sits on hold.",
+ "teaser": "The beer is brewed, packed and stacked in the warehouse. So why can nobody ship it yet?",
+ "standfirst": "Before any beer leaves a brewery, someone in quality signs it off. This guide follows a batch through those checks and explains what \"on hold\" means in your system.",
+ "read": "4 min",
+ "updated": "2026-10-27",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why release is a separate step",
+   "<p>In most breweries a finished batch does not become saleable stock the moment it is packed. It sits in a held or quarantined status until quality assurance releases it. The ERP shows the pallets, but the sales team cannot allocate them yet.</p><p>This often looks like friction from the commercial side. It is the brewery protecting the brand. A single bad batch in the market can mean a recall, a complaint from an excise authority or a lost listing.</p>"
+  ],
+  [
+   "Checks in the tank",
+   "<p>The first decisions happen before packaging. Brewers track the beer's gravity, which is a measure of how much sugar is left. When the reading stays the same for a couple of days, fermentation is done.</p><p>Lagers then get a check for diacetyl, a buttery compound the yeast makes and later cleans up. A common test is to heat a sample to around 60 °C for a short time, which converts any remaining precursor into diacetyl, then smell or measure it. If the warmed sample smells of butter the beer stays in the tank. This is one of the most frequent reasons a batch is held back by a few days.</p><p>After cold maturation and filtration, the bright beer is checked for alcohol, carbonation, clarity, colour and dissolved oxygen. Too much oxygen at this point means the beer will go stale quickly once packed.</p>"
+  ],
+  [
+   "Checks on the packaging line",
+   "<p>During packaging the line team samples regularly. They check fill level, the seal on crowns or can ends, label position and the date code. For pasteurised beer they confirm the pasteuriser delivered the right heat treatment, measured in pasteurisation units.</p><p>Samples are also pulled for the lab and for retained library stock, kept so the brewery can taste the same batch months later if a complaint comes in.</p>"
+  ],
+  [
+   "The tasting panel",
+   "<p>Instruments catch a lot, but a trained tasting panel still decides. Panellists compare the batch with the brand's reference and look for faults such as staleness, sulphur or butteriness. Our guide to <a href=\"beer-off-flavours.html\">beer off flavours</a> lists the usual suspects.</p><p>Tasting happens at several points, not only at the end: in the fermenter, in the bright beer tank and again on packaged samples. A fault caught in the tank costs far less than one caught in a warehouse full of cases.</p><p>Panels are small, trained and tasting tiny amounts with spit cups, as part of the job. It is quality control, not a perk.</p>"
+  ],
+  [
+   "Why some results take days",
+   "<p>Microbiology is the slow part. To check for spoilage organisms, the lab spreads samples on growth media and waits for anything to grow. Depending on the method, that can take several days. Some breweries release on chemistry and tasting, then hold the micro result as a follow-up check. Others wait for it, especially for unpasteurised beer.</p><p>This is why a planner may see stock packed on Monday that cannot ship until the end of the week. The beer is fine. The evidence is still in the incubator.</p>"
+  ],
+  [
+   "When a batch fails",
+   "<p>Not every batch passes. When a result falls outside specification, quality has a few options and the choice depends on the fault.</p><ul><li><strong>Wait.</strong> A beer with diacetyl or a slightly high gravity often just needs more days in the tank before it is retested.</li><li><strong>Rework.</strong> Some faults can be corrected before packaging, for example by adjusting carbonation or blending within the same brand under the brewery's own rules.</li><li><strong>Downgrade or destroy.</strong> Packaged beer with an infection, oxidation or a seal fault cannot be fixed. It is written off and, in India, destroyed under excise supervision with the paperwork that requires, which varies by state.</li></ul><p>Each of these shows up somewhere on a commercial dashboard: as a delay, a yield loss or a write-off. Knowing which is which helps finance and planning ask the right question instead of the loudest one.</p>"
+  ],
+  [
+   "The batch record and traceability",
+   "<p>Every result above goes into a batch record that links raw material lots, brew dates, tanks, packaging runs and lab data. If a problem appears in the market, the brewery can trace which pallets came from which brew and pull only those. Labels must also carry an alcohol figure that matches the beer within whatever tolerance the state's rules allow, so the lab result matters for compliance too.</p><p>For analysts, this record is a rich dataset. Our guide to <a href=\"beer-quality-data-for-data-teams.html\">beer quality data for data teams</a> shows what can be done with it. Once a team understands what each hold reason means on the floor, the hold queue stops being a mystery and becomes something it can forecast.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does it mean when beer stock is on hold?",
+   "It has been packed but quality assurance has not yet released it. The batch is waiting for test results, a tasting decision or the fix of a problem found during checks."
+  ],
+  [
+   "Why does microbiology take so long?",
+   "Samples have to be grown on media to see whether spoilage organisms are present. Growth takes time, often several days depending on the method."
+  ],
+  [
+   "Who decides whether a batch is released?",
+   "Usually the quality manager or head of quality, based on lab results, packaging checks and the tasting panel's verdict."
+  ]
+ ],
+ "cta": {
+  "title": "Help your team read the hold queue",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions. Each one starts with how the product is made and ends at the numbers your team works with.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "quality-system-for-a-small-brewery",
+  "beer-quality-data-for-data-teams",
+  "beer-shelf-life"
+ ]
+}

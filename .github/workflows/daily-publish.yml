@@ -1,0 +1,57 @@
+name: Daily publish
+
+# Guides in content/articles are written ahead and dated one a day.
+# articles_all.py hides anything dated after today (IST), so a rebuild each
+# morning is all it takes to put that day's guide live: page, blog card,
+# sitemap, llms.txt and related links. Runs in GitHub, not on a laptop.
+on:
+  schedule:
+    - cron: "35 0 * * *"     # 00:35 UTC = 06:05 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: daily-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install build dependencies
+        run: pip install pymupdf pillow
+
+      - name: Rebuild the site for today
+        run: python3 build.py > /dev/null
+
+      - name: Commit pages that changed
+        run: |
+          # Only the generated text pages. Brochure images can re-render on a
+          # fresh checkout because of file times, and are not today's news.
+          git add -- '*.html' sitemap.xml llms.txt
+          git checkout -- . 2>/dev/null || true
+          git clean -fdq -- assets/ || true
+          if git diff --cached --quiet; then
+            echo "Nothing new to publish today."
+            exit 0
+          fi
+          git config user.name "Craft Beer School bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "chore: publish guides dated $(TZ=Asia/Kolkata date +%F)"
+          git push
+          echo "published=yes" >> "$GITHUB_ENV"
+
+      - name: Ask Pages to rebuild
+        if: env.published == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages will pick up the push on its own."

@@ -1,0 +1,67 @@
+{
+ "slug": "malt-certificate-of-analysis",
+ "cat": "Ingredients",
+ "h1": "Reading a malt certificate of analysis",
+ "title": "Reading a Malt Certificate of Analysis | Craft Beer School",
+ "desc": "What each line on a malt certificate of analysis means, the typical ranges for base malt and the numbers that predict trouble in the brewhouse.",
+ "teaser": "Every bag of malt comes with a sheet of numbers. Most brewers file it. The ones who read it see problems coming.",
+ "standfirst": "A malt certificate of analysis tells you how a lot of malt will behave in your mash before you ever mill it. Here is what each line means and which ones deserve your attention.",
+ "read": "4 min",
+ "updated": "2026-11-22",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "What a certificate of analysis is",
+   "<p>A certificate of analysis, or CoA, is the maltster's lab report for a specific lot of malt. It lists measured values from a standardised laboratory mash, called the Congress mash, along with physical tests on the grain. European maltsters usually follow EBC methods. American maltsters usually follow ASBC methods. The numbers are close but not identical, so check which method a CoA uses before comparing two suppliers.</p><p>The ranges below are typical for pale base malts. Your maltster's specification sheet is the reference for their product. Our guide to <a href=\"base-malts-explained.html\">base malts</a> covers how the types differ.</p>"
+  ],
+  [
+   "Moisture and extract",
+   "<p><strong>Moisture.</strong> Usually around 4 to 5% for base malt. Higher moisture means you pay for water and the malt stores less well. Malt that has spent the monsoon in a humid godown can pick up moisture, go slack and mill poorly, so check it on arrival as well as on the CoA.</p><p><strong>Extract.</strong> The percentage of the malt's weight that dissolves into wort in the lab mash, often around 80 to 82% fine grind, dry basis, for pale malt. This figure is the ceiling for your brewhouse yield. Your brewhouse efficiency is measured against it.</p><p><strong>Fine/coarse difference.</strong> The gap between extract on a fine grind and a coarse grind. A small difference, often 1.5 to 2%, points to well-modified malt that releases its extract easily. A large one warns that the malt needs more milling or a more careful mash.</p>"
+  ],
+  [
+   "Modification and physical tests",
+   "<p>Modification describes how far the maltster broke down cell walls and protein during germination. Several lines on the CoA tell you about it.</p><ul><li><strong>Friability.</strong> How much of the malt crumbles in a friabilimeter. Above about 80% is generally good. Low friability means hard, under-modified kernels.</li><li><strong>Homogeneity or glassy kernels.</strong> Shows how evenly the lot modified. A good average can hide a mix of over- and under-modified grain.</li><li><strong>Beta-glucan and viscosity.</strong> Beta-glucans are cell wall gums. High levels thicken wort and slow lautering and filtration. Many brewers look for low beta-glucan and viscosity around 1.5 to 1.6 mPa s or below in the Congress wort.</li></ul><p>If your lauter suddenly runs slow with no change in process, check these three lines on the new lot first. How modification happens is covered in our guide to the <a href=\"barley-malting-process.html\">malting process</a>.</p>"
+  ],
+  [
+   "Protein and nitrogen",
+   "<p><strong>Total protein.</strong> Often around 9.5 to 11.5% for brewing barley malt. High protein lowers extract and can add haze.</p><p><strong>Soluble nitrogen ratio, or Kolbach index.</strong> The share of total protein that became soluble. Around 36 to 45% is common. Low values suggest under-modification and weak yeast nutrition. High values can thin out body and foam.</p><p><strong>Free amino nitrogen (FAN).</strong> The nitrogen yeast can use directly. Values above about 130 to 150 mg/L in the Congress wort are a common comfort zone. This line matters a lot in India, where many recipes use rice or maize. Adjuncts bring starch but almost no FAN, so the malt has to supply the yeast's nitrogen for the whole grist.</p>"
+  ],
+  [
+   "Enzymes, colour and the rest",
+   "<p><strong>Diastatic power.</strong> The malt's starch-converting enzyme activity, in degrees Windisch-Kolbach (°WK) or degrees Lintner. Pale lager malts often run 250 °WK or more. If you brew with a high share of adjunct, diastatic power decides whether the mash converts fully.</p><p><strong>Colour.</strong> In EBC units for the Congress wort. Pilsner malt is often around 3 to 4 EBC and pale ale malt around 5 to 7. Specialty malts are covered in our guide to <a href=\"crystal-and-caramel-malts.html\">crystal and caramel malts</a>.</p><p><strong>Wort pH, saccharification time and DMS precursor.</strong> pH of the Congress wort is usually around 5.8 to 6.0. Saccharification time shows how fast the lab mash converts. DMS precursor (SMM) is listed by some maltsters for lager malts. A high figure warns you to watch the boil.</p>"
+  ],
+  [
+   "Using the CoA in practice",
+   "<p>Keep a simple spreadsheet of every lot you receive, with the key lines: moisture, extract, fine/coarse difference, friability, beta-glucan, protein, Kolbach, FAN, diastatic power and colour. Note the brewhouse yield and lauter time you achieved with each lot.</p><p>After a few months the pattern appears. You will see which numbers predict a slow runoff or a weak ferment in your plant. Then you can ask a supplier for a specification on the lines that matter, rather than accepting whatever arrives. That conversation goes much better with data behind it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the Congress mash?",
+   "A standardised laboratory mash used by maltsters to measure extract, colour and other wort values under fixed conditions, so lots can be compared."
+  ],
+  [
+   "What does a high fine/coarse difference mean?",
+   "It suggests less-modified malt that gives up its extract less easily. Expect lower yield unless you mill finer or adjust the mash."
+  ],
+  [
+   "Why does FAN matter more with adjuncts?",
+   "Rice and maize add fermentable starch but very little yeast-available nitrogen. The malt must supply FAN for the whole grist, so a low-FAN malt can leave yeast short."
+  ],
+  [
+   "Are EBC and ASBC values the same?",
+   "Not exactly. They use different methods and some different units, so check which method a CoA uses before comparing suppliers."
+  ]
+ ],
+ "cta": {
+  "title": "Turn malt data into brewhouse decisions",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes. It covers malt quality, mashing science and brewhouse yield in depth, with assignments that use your own CoAs and brew logs.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "barley-malting-process",
+  "base-malts-explained",
+  "crystal-and-caramel-malts"
+ ]
+}

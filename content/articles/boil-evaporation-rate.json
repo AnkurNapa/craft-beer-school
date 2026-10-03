@@ -1,0 +1,71 @@
+{
+ "slug": "boil-evaporation-rate",
+ "cat": "Brewing science",
+ "h1": "Setting the right boil evaporation rate",
+ "title": "Setting the Right Boil Evaporation Rate | Craft Beer School",
+ "desc": "How to calculate boil evaporation, the rate your kettle needs to remove DMS and how altitude and fuel cost change the answer.",
+ "teaser": "Boiling off too much water wastes fuel. Boiling off too little leaves sweetcorn in your lager. The right number sits in between.",
+ "standfirst": "Evaporation rate is one of the most quoted numbers in a brewhouse and one of the least understood. It controls gravity, DMS and your fuel bill all at once.",
+ "read": "3 min",
+ "updated": "2026-11-15",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "What evaporation rate means",
+   "<p>Evaporation rate is the amount of water driven off during the boil, usually expressed as a percentage of the pre-boil volume per hour. A kettle that starts with 1,100 litres and boils off 55 litres in an hour has an evaporation rate of 5% per hour.</p><p>Some brewers quote total evaporation over the whole boil instead. Be clear which one you mean, especially when comparing notes with another brewery or a kit supplier.</p>"
+  ],
+  [
+   "Calculating it properly",
+   "<p>Measure the volume at the start of the boil and at the end, then:</p><p><strong>Evaporation % per hour = (pre-boil volume - post-boil volume) / pre-boil volume x 100 / boil time in hours</strong></p><p>Measure both volumes hot, or both cold. Wort shrinks by about 4% as it cools from boiling to 20 °C, so mixing a hot reading with a cold one inflates the result. If your dipstick or sight glass is only accurate at one temperature, correct for that.</p><p>Gravity gives you a cross-check. Gravity points multiplied by volume stay roughly constant during the boil, since sugar does not evaporate. If pre-boil wort is 1.044 at 1,100 litres and post-boil wort is 1.048, the post-boil volume should be about 1,008 litres. If your dipstick says something very different, one of them needs calibrating.</p>"
+  ],
+  [
+   "What rate to aim for",
+   "<p>Older textbooks quote 8 to 10% per hour. That was normal for direct-fired kettles and long, hard boils. Modern kettles with internal or external heaters (calandrias) are designed to work at around 4 to 6% total evaporation while still meeting quality targets. Many craft brewhouses sit somewhere between the two.</p><p>The right rate for your kettle is the lowest one that does three jobs reliably:</p><ul><li>Drives off DMS, the cooked sweetcorn compound covered in our guide to <a href=\"dms-off-flavour.html\">DMS</a>.</li><li>Gives a strong enough rolling boil for protein coagulation and hot break.</li><li>Hits your target post-boil gravity and volume.</li></ul><p>Below that, problems start. Above it, you are spending fuel to make steam.</p>"
+  ],
+  [
+   "Why DMS sets the floor",
+   "<p>Malt carries S-methylmethionine (SMM), a precursor that converts to DMS when heated. At boiling temperature that conversion has a half-life of roughly 40 minutes. DMS itself is volatile. An open, vigorous boil carries it away with the steam.</p><p>Two consequences follow. A boil that is too gentle, or a lid that is closed, lets DMS condense back into the wort. And DMS keeps forming after the boil while hot wort sits in the whirlpool, so a short whirlpool rest and fast cooling matter as much as the boil itself. Pilsner malt carries more SMM than pale ale malt, which is why pale lagers need the most care. Our guide to <a href=\"boil-chemistry-hot-break.html\">boil chemistry and hot break</a> covers what else happens in that hour.</p>"
+  ],
+  [
+   "Altitude changes the boil",
+   "<p>Water boils at a lower temperature as altitude rises. In Bengaluru, at around 900 metres, wort boils at roughly 97 °C rather than 100 °C. That slows SMM conversion and hop isomerisation a little. Brewers at altitude often extend the boil or adjust hop additions slightly rather than chasing a higher evaporation rate.</p>"
+  ],
+  [
+   "The energy bill",
+   "<p>Evaporation is expensive. Turning one kilogram of water at boiling point into steam takes about 2,260 kJ. On a 10 hL batch, every extra 1% of evaporation is roughly 10 litres of water and around 22.6 MJ of heat, before any boiler losses. Over a year of brews that adds up to a real fuel cost, especially with diesel or LPG prices in India.</p><p>This is why modern brewhouse design aims for lower evaporation with better DMS stripping, through good kettle geometry, vigorous circulation and sometimes a separate wort stripping step. For an existing brewhouse, start by measuring. Many breweries discover they are boiling off far more than they need to.</p>"
+  ],
+  [
+   "Getting consistent numbers",
+   "<p>Keep heat input steady and the boil rolling at the same intensity every batch. Record pre-boil volume, post-boil volume and gravities. After ten brews you will know your kettle's real evaporation rate and how much it varies. Only then does it make sense to change it, one variable at a time. Our overview of <a href=\"what-happens-during-the-boil.html\">what happens during the boil</a> is a good companion while you do.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a normal boil evaporation rate?",
+   "Traditional kettles often run 8 to 10% per hour. Modern efficient kettles are designed for around 4 to 6% total while still removing DMS."
+  ],
+  [
+   "Why does my wort taste of sweetcorn?",
+   "Usually DMS that was not driven off. The boil was too gentle or covered, or hot wort sat too long before cooling."
+  ],
+  [
+   "Should I measure volumes hot or cold?",
+   "Either, as long as both readings use the same basis. Wort contracts by about 4% from boiling to 20 °C, so mixing the two distorts the calculation."
+  ],
+  [
+   "Does altitude affect the boil?",
+   "Yes. At around 900 metres wort boils near 97 °C, which slows DMS formation and hop isomerisation slightly."
+  ]
+ ],
+ "cta": {
+  "title": "Run your brewhouse by measurement",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes. It covers wort boiling, brewhouse calculations and energy use in depth, so you can tune your own kettle with confidence.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "boil-chemistry-hot-break",
+  "what-happens-during-the-boil",
+  "dms-off-flavour"
+ ]
+}

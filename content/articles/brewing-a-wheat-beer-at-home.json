@@ -1,0 +1,63 @@
+{
+ "slug": "brewing-a-wheat-beer-at-home",
+ "cat": "Brewing basics",
+ "h1": "Brewing a wheat beer at home",
+ "title": "Brewing a Wheat Beer at Home | Craft Beer School",
+ "desc": "How to brew a hefeweizen or witbier at home: the grain bill, beating a stuck mash, yeast temperature for banana or clove and serving it fresh.",
+ "teaser": "Wheat beer is mostly a yeast beer. Get the fermentation temperature right and the rest is easy.",
+ "standfirst": "A good hefeweizen is one of the most forgiving beers to brew at home, as long as you respect two things: a sticky mash and a yeast with strong opinions about temperature. Here is how we would brew one on a home setup in India.",
+ "read": "4 min",
+ "updated": "2026-12-05",
+ "updated_label": "December 2026",
+ "sections": [
+  [
+   "Pick your wheat beer first",
+   "<p>\"Wheat beer\" covers a few quite different beers. The two most homebrewers start with are the German <strong>hefeweizen</strong> and the Belgian <strong>witbier</strong>.</p><p>A hefeweizen gets its banana and clove from a specific yeast. There is no fruit or spice in the recipe at all. A witbier uses a cleaner Belgian yeast plus coriander seed and dried orange peel, with unmalted wheat for a soft, hazy body. Both are pale, low in bitterness and around 4.5 to 5.5% ABV.</p><p>This guide follows a hefeweizen, with notes on where a wit differs. If you want the style detail first, read our <a href=\"hefeweizen-guide.html\">hefeweizen guide</a>.</p>"
+  ],
+  [
+   "The grain bill",
+   "<p>For a 20 litre batch at an original gravity around 1.048 to 1.052, a simple and traditional recipe is about 55 to 65% wheat malt with the rest pilsner malt. That is roughly 2.5 kg of wheat malt and 1.7 kg of pilsner malt at typical home efficiency.</p><p>Wheat malt has no husk and carries more protein than barley malt. That protein gives the beer its haze and soft, full mouthfeel. Our guide to <a href=\"wheat-malt-in-brewing.html\">wheat malt in brewing</a> covers the grain itself.</p><p>For a witbier, swap the wheat malt for roughly 45% unmalted wheat (flaked wheat is easiest to find) with pilsner malt. Add a small handful of flaked oats if you like a creamier body.</p><p>Bitterness stays low, about 10 to 15 IBU from a single early addition of a mild German hop such as Hallertauer or Tettnanger. You should barely notice the hops.</p>"
+  ],
+  [
+   "The stuck mash and how to avoid it",
+   "<p>This is the failure we see most on a first wheat brew. All that husk-free wheat turns the mash into porridge. Wort stops running from the bag or false bottom. People then stir the grain bed, which compacts it further.</p><p>The fix is cheap. Add about 250 to 400 g of rice hulls to the mash for a 20 litre batch. They add no flavour and give the grain bed the structure the wheat cannot. Mash at 64 to 66 °C for a drier, more drinkable beer. Run off slowly.</p><p>If you brew in a bag, the problem mostly goes away. Lift the bag slowly and let it drain rather than squeezing hard, which pushes starch and protein into the kettle.</p>"
+  ],
+  [
+   "Yeast and temperature decide the flavour",
+   "<p>Use a proper Weihenstephan-type hefeweizen strain, dry or liquid. A clean ale yeast will give you a pale wheat ale, which is fine beer but not a hefeweizen.</p><p>That yeast makes two characteristic compounds. Isoamyl acetate gives banana. A phenol called 4-vinyl guaiacol gives clove. Temperature tips the balance:</p><ul><li>Around 17 to 18 °C: more clove, restrained banana.</li><li>Around 19 to 20 °C: the classic balance.</li><li>Above about 22 °C: banana takes over, then solvent and hot fusel alcohols arrive.</li></ul><p>That last point matters in India. A fermenter on a balcony at 28 °C ambient will run several degrees warmer than the room once the yeast gets going. You will get a banana milkshake with a headache attached. Some form of cooling, even a tub of water with frozen bottles, is worth it for this style. Our piece on <a href=\"fermentation-temperature-control-at-home.html\">fermentation temperature control at home</a> covers the cheap options.</p><p>Holding the temperature steady for the first three days is where most of the flavour is decided. Learning to read and steer that is the part of brewing that recipes leave out. It is also what our fundamentals course spends real time on.</p>"
+  ],
+  [
+   "Carbonation and bottling",
+   "<p>Wheat beers are served lively, typically around 3.3 to 4 volumes of CO2, well above an English ale. At bottling that means more priming sugar than usual. It also means thicker bottles. Standard thin glass is not built for that pressure, especially if the beer was not fully finished.</p><p>Check that the final gravity has been stable for three days before you bottle. With a hefeweizen yeast that usually lands somewhere around 1.010 to 1.012.</p>"
+  ],
+  [
+   "Serve it young",
+   "<p>This beer does not improve with age. The banana fades within weeks and the wheat character turns dull. Brew a batch size you will drink within a month or two and keep the bottles cold once they have carbonated.</p><p>Pour into a tall glass. Leave a little in the bottle, swirl it to lift the yeast, then pour that in too. The haze is part of the style. It also pairs well with food: try it with a plate of mild chicken tikka or a Goan prawn dish, where the banana and clove sit nicely against gentle spice.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is my hefeweizen all banana and no clove?",
+   "It fermented warm. Banana esters rise quickly above about 20 °C. Next time pitch cool and hold the first three days around 18 to 19 °C."
+  ],
+  [
+   "Do I need a protein rest for wheat beer?",
+   "Not with modern well-modified malt. Some brewers use a short rest around 43 to 45 °C to build more clove character, but a single infusion mash makes good wheat beer."
+  ],
+  [
+   "Can I brew a wheat beer from extract?",
+   "Yes. Wheat malt extract is usually a blend of wheat and barley malt, which suits a hefeweizen well. Yeast choice and temperature still matter most."
+  ]
+ ],
+ "cta": {
+  "title": "Get the fermentation right every time",
+  "body": "Brewing Fundamentals is a four-week live course (₹5,999) that takes you through mashing, yeast health and temperature control on your own brews, with feedback each week. It goes past recipes into why a batch tastes the way it does.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "hefeweizen-guide",
+  "wheat-malt-in-brewing",
+  "witbier-guide"
+ ]
+}

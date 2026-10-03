@@ -1,0 +1,71 @@
+{
+ "slug": "bright-beer-tank-management",
+ "cat": "Brewing science",
+ "h1": "Running bright beer tanks well",
+ "title": "Running Bright Beer Tanks Well | Craft Beer School",
+ "desc": "How to prepare, fill, carbonate and hold beer in a bright tank without picking up oxygen, losing CO2 or wasting beer.",
+ "teaser": "The bright tank is the last vessel your beer sees before the package. It is also where good beer most often goes stale.",
+ "standfirst": "A bright beer tank looks simple: a cold, pressurised vessel that waits for packaging. In practice it is where oxygen sneaks in, carbonation drifts and schedules collide.",
+ "read": "3 min",
+ "updated": "2026-10-22",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a bright tank is for",
+   "<p>The bright beer tank, or BBT, holds finished beer after fermentation and conditioning. It is where beer is carbonated, checked and held until it goes into kegs, cans or bottles. In a brewpub it may also serve beer straight to the taps.</p><p>Unlike a fermenter, it has no cone and usually a lower working pressure rating. Most craft BBTs are rated around 1 to 2 bar and fitted with a carbonation stone, a sample valve and a pressure relief valve. Know your vessel's rating and check the relief valve setting. Over-pressurising a tank to rush carbonation is how vessels get damaged.</p>"
+  ],
+  [
+   "Preparing the tank",
+   "<p>Clean and sanitise as you would a fermenter, with caustic and acid on the right schedule. Then deal with the air. A tank full of air will give your beer a dose of oxygen it can never lose.</p><p>The most effective purge is to fill the tank with clean, cold water and push it out with CO2. You use one tank volume of gas and end up with a tank full of nearly pure CO2. Purging an air-filled tank from the top wastes gas and still leaves oxygen behind. Leave a little positive pressure on the tank until you transfer.</p>"
+  ],
+  [
+   "Transfers that do not pick up oxygen",
+   "<p>Transfer beer cold, ideally at 0 to 2 °C after a proper <a href=\"cold-crashing.html\">cold crash</a>. Cold beer holds CO2 better and stales more slowly.</p><ul><li>Purge hoses and fittings with CO2 or push a little beer through to waste before connecting.</li><li>Fill from the bottom, never splash through the top.</li><li>Keep a little counter-pressure on the BBT so beer does not foam as it enters.</li><li>Measure dissolved oxygen at the start and end of the transfer, if you have a meter.</li></ul><p>Many breweries aim for dissolved oxygen below 50 ppb in the bright tank. If a transfer adds more than that, look at the hose connections and the first few litres. Our guide to <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup</a> lists the usual culprits.</p>"
+  ],
+  [
+   "Carbonating in the tank",
+   "<p>There are two common methods. Pushing CO2 through a carbonation stone dissolves gas quickly, in hours rather than days. Setting top pressure and waiting is slower but gentler. Either way, the amount of CO2 the beer holds at equilibrium depends on temperature and pressure. At 0 °C, roughly 0.6 bar gauge holds about 2.5 volumes. At 4 °C the same carbonation needs about 0.8 bar.</p><p>Stone carbonation needs patience at the end. Keep gas flow low so bubbles dissolve rather than rise and vent. Stop a little short of target, let the tank settle for a few hours, then measure. Check targets against <a href=\"carbonation-levels-by-style.html\">carbonation levels by style</a>.</p>"
+  ],
+  [
+   "Holding beer without losing it",
+   "<p>Once carbonated, the beer needs steady temperature and pressure. If the tank warms, CO2 comes out of solution and pressure rises. If you vent to relieve it, the beer loses carbonation. If the glycol fails overnight, you may come in to a flat, warm tank.</p><p>In Indian conditions this is the real risk. A power cut that stops the chiller for a few hours in May can lift a bright tank several degrees. Set a high-temperature alarm on the BBT controller. If beer has warmed, re-check carbonation and dissolved oxygen before packaging.</p><p>Also think about how long beer sits. A bright tank is a holding vessel, not a store room. Plan packaging so beer goes out within days, not weeks, especially hoppy styles whose aroma fades even at 0 °C.</p>"
+  ],
+  [
+   "Sampling and serving from a BBT",
+   "<p>Take samples through a sample valve that you have flamed or sprayed with alcohol. Run off a little beer before collecting. For carbonation checks, use a closed sampling device rather than pouring into a glass, which loses gas.</p><p>If you serve straight from a BBT, keep top pressure matched to the carbonation and temperature, not to whatever pushes beer fastest. Too much pressure over-carbonates the beer over a few days. Too little lets it go flat.</p>"
+  ],
+  [
+   "Knowing when something is wrong",
+   "<p>Most BBT problems show up in three readings you should log for every batch: temperature, pressure and carbonation. Dissolved oxygen joins them once you have a meter. When a beer tastes stale a month after packaging, those logs are the only way to find out whether the bright tank was the cause.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should a bright beer tank be?",
+   "Most breweries hold bright beer at 0 to 2 °C. Cold beer holds CO2 better and stales more slowly."
+  ],
+  [
+   "How long can beer stay in a bright tank?",
+   "As short a time as practical. Days rather than weeks, particularly for hoppy beers whose aroma fades even when cold."
+  ],
+  [
+   "How do I purge a bright tank of oxygen?",
+   "Fill it with clean water and push the water out with CO2. It uses less gas and leaves less oxygen than purging an air-filled tank from the top."
+  ],
+  [
+   "Why is my bright tank beer losing carbonation?",
+   "Usually temperature has risen or someone has vented pressure. Check the glycol supply and the controller log, then adjust top pressure to match the temperature."
+  ]
+ ],
+ "cta": {
+  "title": "Get the cold side under control",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes. It covers carbonation, oxygen control and cellar management in detail, with real calculations and assignments built around your own tanks.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "cold-crashing",
+  "carbonation-levels-by-style",
+  "oxygen-pickup-in-packaging"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "lager-yeast-strains-compared",
+ "cat": "Ingredients",
+ "h1": "Lager yeast strains compared",
+ "title": "Lager Yeast Strains Compared | Craft Beer School",
+ "desc": "How the main lager yeast strains differ in attenuation, sulphur, esters and temperature, plus how to pick one for an Indian brewery.",
+ "teaser": "Two lagers on the same wort can taste very different just because of the yeast. Here is how the common strains compare.",
+ "standfirst": "Lager yeast is not one organism with one personality. Strains differ in how dry they finish, how much sulphur they throw, how warm they tolerate and how fast they clear. We compare the main families and the well-known strains so you can choose with a reason.",
+ "read": "3 min",
+ "updated": "2026-12-28",
+ "updated_label": "December 2026",
+ "sections": [
+  [
+   "Two families of lager yeast",
+   "<p>All true lager yeasts belong to <em>Saccharomyces pastorianus</em>, a hybrid of ale yeast and a cold-tolerant wild species. Brewers and researchers split them into two groups.</p><ul><li><strong>Saaz type.</strong> Very cold tolerant, often lower attenuation because they handle the sugar maltotriose poorly. Fuller-bodied results.</li><li><strong>Frohberg type.</strong> Better attenuation and fermentation speed. Most widely used commercial lager strains fall in this group.</li></ul><p>For the basics of how lager yeast differs from ale yeast, see our guide to <a href=\"ale-vs-lager-yeast.html\">ale versus lager yeast</a>.</p>"
+  ],
+  [
+   "The workhorse: Weihenstephan 34/70",
+   "<p>The 34/70 strain from Weihenstephan is probably the most widely used lager yeast in the world. It is sold dry and in liquid form under several names. Brewers like it because it is forgiving.</p><p>It attenuates well, finishes clean with a soft malt profile and tolerates a wide temperature range. Many brewers ferment it at 10 to 13 °C. It also handles warmer fermentation under pressure better than most lager strains, which helps in breweries with limited glycol. It can throw some sulphur early that clears with a proper diacetyl rest and lagering.</p><p>If you have no reason to choose something else, this is a sensible starting point. Its popularity also helps in practice: suppliers stock it widely, other brewers can tell you how it behaves and there is plenty of published data on it.</p>"
+  ],
+  [
+   "Other strains worth knowing",
+   "<p><strong>Fruitier dry lager strains.</strong> Some strains, such as the one sold as SafLager S-23, give more ester and fruit character, which suits some Vienna and Märzen styles but can feel out of place in a crisp pilsner.</p><p><strong>Malt-forward strains.</strong> Strains such as S-189 and several Bavarian liquid strains are often chosen for a rounder, malt-led profile. Brewers reach for them in helles and dunkel.</p><p><strong>Czech pilsner strains.</strong> Liquid strains associated with Czech brewing tend to finish a little fuller. A trace of diacetyl is traditional in some Czech lagers, so these strains are judged differently. They want time and cold.</p><p><strong>Warm-tolerant hybrids.</strong> Newer selected strains are designed to ferment clean at ale temperatures while keeping a lager-like profile. Useful for breweries without enough cold capacity, though purists argue about the result.</p><p>Read each supplier's data sheet for attenuation range, flocculation and temperature range. Those figures are the starting point for your own trial, not a promise.</p>"
+  ],
+  [
+   "What to compare when choosing",
+   "<ol><li><strong>Attenuation.</strong> How dry the beer finishes on your wort. A rice or maize adjunct lager will finish drier than an all-malt one on the same strain.</li><li><strong>Sulphur.</strong> How much H2S the strain makes and how fast it clears.</li><li><strong>Diacetyl.</strong> How much it produces and how readily it reabsorbs it.</li><li><strong>Temperature range.</strong> How warm it stays clean. In India this often decides the choice.</li><li><strong>Flocculation.</strong> How quickly it drops bright, which affects filtration and turnaround.</li><li><strong>Availability.</strong> Whether you can get it fresh, reliably, in the quantity you need.</li></ol>"
+  ],
+  [
+   "Dry or liquid in an Indian brewery",
+   "<p>Liquid strains offer more variety, but they need a cold chain from the lab to your fermenter. A pouch that sat on a warm courier van for two days arrives with poor viability. Dry lager yeast is far more robust in transit, which is why many Indian craft breweries use it as their main strain.</p><p>Dry lager yeast is usually pitched at around 80 to 120 g per hectolitre, depending on temperature and gravity. Rehydrate it as the supplier recommends rather than sprinkling it on cold wort. If you harvest and repitch, keep careful notes on generation and viability. Our guide to <a href=\"yeast-viability-and-vitality.html\">yeast viability and vitality</a> covers the checks.</p>"
+  ],
+  [
+   "Running a fair comparison",
+   "<p>The best way to choose a strain is a split batch. Brew one wort, split it between two fermenters, pitch equal healthy doses of two strains, then keep everything else the same. Log both fermentation curves, check diacetyl and sulphur on warm samples, then taste blind.</p><p>One trial will tell you more than any comparison table, including this one. The hard part is controlling the variables so the difference you taste comes from the yeast and not from a warmer fermenter or a slower pitch.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the most common lager yeast?",
+   "Weihenstephan 34/70 is the most widely used lager strain. It is sold dry and liquid under several names and is known for being clean, attenuative and forgiving."
+  ],
+  [
+   "Can lager yeast ferment warm?",
+   "Some strains, including 34/70, handle warmer fermentation under pressure better than others. Warm-tolerant hybrid strains are designed for it. Expect some flavour difference compared with a cold fermentation."
+  ],
+  [
+   "Is dry or liquid lager yeast better in India?",
+   "Dry yeast is more robust in transit and storage, which makes it the safer choice where the cold chain is uncertain. Liquid strains offer more variety if you can get them fresh."
+  ]
+ ],
+ "cta": {
+  "title": "Lagers that never taste quite how you planned",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes (₹12,999) on yeast physiology, strain selection and fermentation control, including how to run strain trials that give a clear answer. Recordings and weekly assignments let you apply it to your own beers.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "ale-vs-lager-yeast",
+  "kveik-yeast-for-hot-climates",
+  "making-a-yeast-starter"
+ ]
+}

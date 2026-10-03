@@ -1,0 +1,67 @@
+{
+ "slug": "centrifuge-vs-filtration",
+ "cat": "Brewing science",
+ "h1": "Centrifuge or filter: clarifying beer at scale",
+ "title": "Centrifuge or Filter: Clarifying Beer | Craft Beer School",
+ "desc": "How centrifuges and filters clarify beer, what each costs in beer, oxygen and money. Which fits your brewery's scale and styles.",
+ "teaser": "A centrifuge and a filter both make beer clearer. They do it in very different ways and change the beer differently.",
+ "standfirst": "Once a brewery outgrows cold crashing and finings, the choice between a centrifuge and a filter decides how the beer looks, how long it lasts and what the cellar spends.",
+ "read": "3 min",
+ "updated": "2026-10-30",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why clarify at all",
+   "<p>Yeast and haze particles left in beer affect more than looks. They carry flavour into the package, settle as sediment and can speed up staling. Brewers clarify for appearance, for shelf life and for consistency from batch to batch.</p><p>At small scale, time does most of the work. A good cold crash and finings get many beers bright enough, as our guide to <a href=\"clarifying-beer-finings.html\">clarifying with finings</a> explains. Once volumes grow, tank time costs money. Mechanical clarification starts to pay.</p>"
+  ],
+  [
+   "How a centrifuge works",
+   "<p>Brewery centrifuges are mostly disc-stack separators. Beer enters a spinning bowl fitted with a stack of conical discs. Solids heavier than beer are flung outwards and collect at the bowl wall. Clear beer moves inwards and leaves. Modern machines discharge the collected solids automatically at set intervals, called desludging.</p><p>A centrifuge removes most yeast and large particles quickly. It does not on its own reach the brilliant clarity of a fine filter. Many large breweries run a centrifuge first to reduce the load, then filter.</p><p>Points to watch:</p><ul><li><strong>Oxygen.</strong> Older open designs can pick up oxygen. Hermetic machines, sealed from feed to outlet, avoid most of it.</li><li><strong>Heat.</strong> Friction warms the beer slightly. Check the outlet temperature and chill if needed.</li><li><strong>Beer loss.</strong> Each desludge carries some beer with it. Tune the interval to the yeast load.</li></ul><p>A practical habit: take a haze reading at the centrifuge outlet just before and just after each desludge. If clarity worsens steadily between discharges, the bowl is filling faster than the interval allows, so shorten it.</p>"
+  ],
+  [
+   "How filters work",
+   "<p>Filters hold particles back on or in a medium. The main types in breweries:</p><ul><li><strong>Kieselguhr (diatomaceous earth) filters.</strong> A powder is dosed into the beer and builds a filter cake on screens or candles. They give excellent clarity. The powder is a dust hazard and spent cake has to be disposed of responsibly.</li><li><strong>Sheet and pad filters.</strong> Cellulose sheets in a plate frame. Cheap to buy and common in craft breweries, though sheets are consumed and changed often.</li><li><strong>Crossflow membrane filters.</strong> Beer flows across a membrane rather than through a cake. No powder, consistent results, high capital cost.</li></ul><p>A fine filter gives the brightest beer and the most stable haze. It also removes more than yeast. Some colour, bitterness and foam-positive material can be lost, which is why a heavily filtered beer can feel thinner. Our guide to <a href=\"beer-filtration-basics.html\">filtration basics</a> covers each system in more depth.</p>"
+  ],
+  [
+   "What each does to flavour and foam",
+   "<p>The difference that matters most for craft brewers is what the beer keeps. A centrifuge removes particles by density. Hop particles, haze and protein that do not settle easily can stay in the beer, so a hazy IPA can be cleaned of yeast without losing all its haze or hop character.</p><p>A tight filter takes out much more. For a pale lager aiming for brilliant clarity and long shelf life, that is the point. For a hop-forward beer, it can strip the aroma and mouthfeel you paid for. Foam can suffer too, as our guide to <a href=\"beer-foam-science.html\">beer foam</a> explains.</p>"
+  ],
+  [
+   "Money, space and labour",
+   "<p>A centrifuge is a large capital item, needs a solid foundation, three-phase power and a technician who understands it. Running costs are mostly power, water and maintenance. A filter costs less to buy, but kieselguhr or sheets are consumables you buy forever. Disposal adds cost on top.</p><p>On the floor, the centrifuge wins on speed and labour once it is tuned. Filters need setting up, precoating and cleaning for each run. Neither choice is cheap. For a 10 hL brewpub, the honest answer is often neither: invest in cold-side control and patience first.</p>"
+  ],
+  [
+   "Choosing for your brewery",
+   "<p>A rough way to decide:</p><ul><li>Mostly lagers and pale beers sold with long shelf life: filtration, possibly with a centrifuge ahead of it at larger volumes.</li><li>Mostly hazy and hop-forward beers: a centrifuge, or careful cold crashing.</li><li>Small volumes, beer sold fresh on site: cold crash and finings.</li></ul><p>In India the shelf-life question weighs heavily. Beer that travels warm through distribution needs more stability than beer poured from the brewpub's own tanks. Before buying either machine, work out what clarity and shelf life your market actually demands. Then work out how much tank time you would free.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does a centrifuge make beer as clear as a filter?",
+   "Not usually. A centrifuge removes most yeast and large particles, but brilliant clarity normally needs filtration afterwards."
+  ],
+  [
+   "Does filtration remove hop aroma?",
+   "It can. Fine filtration strips some hop compounds, colour and foam-positive material, which is why many hazy and hop-forward beers are centrifuged or left unfiltered."
+  ],
+  [
+   "Is a centrifuge worth it for a small brewpub?",
+   "Rarely. The capital and running costs are high for small volumes. Cold crashing plus finings usually give acceptable clarity for beer sold fresh."
+  ],
+  [
+   "What is kieselguhr?",
+   "A powder made from fossilised diatoms used as a filter aid. It gives excellent clarity but must be handled carefully as a dust and disposed of properly."
+  ]
+ ],
+ "cta": {
+  "title": "Choose clarification kit with confidence",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes. It covers colloidal stability, filtration and the process choices behind shelf life, in more depth than any one guide can.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "beer-filtration-basics",
+  "clarifying-beer-finings",
+  "beer-foam-science"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "water-salts-for-homebrewers",
+ "cat": "Ingredients",
+ "h1": "Gypsum, calcium chloride and other water salts for homebrewers",
+ "title": "Water Salts for Homebrewers | Craft Beer School",
+ "desc": "What gypsum, calcium chloride, Epsom salt, table salt and baking soda each add to brewing water, how much to use per 10 litres and when.",
+ "teaser": "One gram of gypsum in ten litres. That is how small the adjustments are, which is why a proper scale beats a teaspoon.",
+ "standfirst": "Water salts are cheap, safe and make a bigger difference to a homebrew than most hop upgrades. Here is what each one adds, the amounts that make sense and how to use them without turning your beer into mineral water.",
+ "read": "3 min",
+ "updated": "2026-11-14",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "Why add salts at all",
+   "<p>Water carries minerals, and those minerals change both the mash and the finished flavour. Calcium helps enzymes and yeast work and helps the beer clear. Sulphate makes hop bitterness drier and sharper. Chloride makes malt taste rounder and fuller.</p><p>If you brew with soft water, such as RO or <a href=\"brewing-with-packaged-drinking-water.html\">packaged drinking water</a>, you start with almost none of these. If you brew with tap or borewell water, you need a water report first, because you may already have too much. Our guide to <a href=\"brewing-water-basics.html\">brewing water basics</a> explains how to read one.</p>"
+  ],
+  [
+   "What each salt adds, per gram in 10 litres",
+   "<p>These figures are for the common food grade forms. Each is for 1 g dissolved in 10 litres.</p><ul><li>Gypsum (calcium sulphate): about 23 ppm calcium and 56 ppm sulphate.</li><li>Calcium chloride (the dihydrate flakes): about 27 ppm calcium and 48 ppm chloride.</li><li>Epsom salt (magnesium sulphate): about 10 ppm magnesium and 39 ppm sulphate.</li><li>Table salt (sodium chloride, non-iodised): about 39 ppm sodium and 61 ppm chloride.</li><li>Baking soda (sodium bicarbonate): about 27 ppm sodium and 73 ppm bicarbonate.</li></ul><p>Most brewing software has these built in, but it helps to know the rough sizes. One gram is a big step in ten litres.</p>"
+  ],
+  [
+   "Gypsum and calcium chloride do most of the work",
+   "<p>For nearly every beer, these two are all you need. Both add calcium. Gypsum also adds sulphate and calcium chloride adds chloride, so the balance between them sets the character of the beer.</p><p>Brewers talk about this as the <a href=\"sulphate-chloride-ratio.html\">sulphate to chloride ratio</a>. Around 2:1 or higher suits hoppy beers such as the one in our guide to <a href=\"designing-your-first-ipa-recipe.html\">designing your first IPA</a>. About 1:1 is balanced. Around 1:2 suits malty brown ales, stouts and hazy IPAs.</p><p>Aim for 50 to 100 ppm calcium in most beers, sulphate up to about 300 ppm for a very bitter IPA and chloride under about 150 ppm.</p>"
+  ],
+  [
+   "Magnesium, sodium and bicarbonate: use sparingly",
+   "<p>Malt already supplies the magnesium yeast needs. A little Epsom salt can add sulphate without more calcium, but above about 30 ppm magnesium the beer turns harsh and sour. Use it rarely.</p><p>A touch of sodium can round out a malty beer. Too much tastes salty. Keep it under about 100 ppm and never use iodised salt.</p><p>Baking soda raises mash pH. It is only worth using when you brew a very dark beer with very soft water and your pH reading comes in low. Most homebrewers never need it. Chalk is sometimes sold for the same job, but it barely dissolves in water, so we leave it on the shelf.</p>"
+  ],
+  [
+   "How to add them",
+   "<p>Weigh on a scale that reads to 0.1 g. Salts differ a lot in density, so a teaspoon measure is unreliable.</p><p>Add the salts to the mash and sparge water, or all to the full volume of water if you brew in a bag. Gypsum dissolves slowly, so stir it into the mash rather than leaving it at the bottom of a pot. Adding salts in the mash helps hit the right pH of 5.2 to 5.6. Adding them only to the kettle changes flavour but does nothing for the mash.</p><p>Test the mash pH ten minutes in. Salts move it a little. The grist moves it more. If a pale beer still reads above 5.6, food grade lactic acid brings it down a few drops at a time.</p>"
+  ],
+  [
+   "Storing salts in Indian humidity",
+   "<p>Calcium chloride pulls water out of the air. In a Mumbai or Chennai monsoon an open bag of flakes turns into wet slush within days. A gram of slush is no longer a gram of calcium chloride. Keep it in an airtight jar with the lid screwed tight. Weigh it fast. Gypsum and Epsom salt are much more forgiving.</p><p>Buy food grade salts from a homebrew supplier. Epsom salt from a chemist is often fine if the pack says it is pharmaceutical grade magnesium sulphate with nothing added, but avoid scented bath salts.</p>"
+  ],
+  [
+   "Start simple",
+   "<p>Pick a base profile for your beer. Adjust only calcium and the sulphate to chloride balance, then log what you added. Change one salt at a time between batches. After a few brews you will taste what an extra gram of gypsum does. That is worth more than any table.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need water salts if I use RO water?",
+   "Yes. RO water has almost no calcium, so add some, usually as gypsum and calcium chloride. Without it the mash and yeast both struggle."
+  ],
+  [
+   "Can I use Epsom salt from a chemist?",
+   "Often, if the pack says pharmaceutical grade magnesium sulphate with nothing added. Avoid scented bath salts."
+  ],
+  [
+   "How much gypsum for a pale ale?",
+   "In soft water, around 4 to 5 g across 30 litres of brew day water is a reasonable start for a hop forward pale ale. Adjust from there with your own water report."
+  ]
+ ],
+ "cta": {
+  "title": "Build the right water for every beer you brew",
+  "body": "Brewing Fundamentals is four weeks of live weekend classes (₹5,999) covering water chemistry, mash pH and the ingredient choices that shape flavour, using your own water reports.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-water-basics",
+  "ro-water-for-brewing",
+  "sulphate-chloride-ratio"
+ ]
+}

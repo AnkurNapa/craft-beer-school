@@ -1,0 +1,67 @@
+{
+ "slug": "sulphur-in-lager-fermentation",
+ "cat": "Brewing science",
+ "h1": "Sulphur in lager fermentation",
+ "title": "Sulphur in Lager Fermentation | Craft Beer School",
+ "desc": "Why lager yeast makes hydrogen sulphide, when a sulphur smell is normal and how to make sure it is gone before the beer is packaged.",
+ "teaser": "Rotten egg from the blow-off tube on day three is normal. Rotten egg in the keg is not. Here is the difference.",
+ "standfirst": "Almost every lager smells of sulphur at some point in fermentation. The skill is knowing which sulphur it is, why it formed and how to get the yeast to clear it before packaging.",
+ "read": "3 min",
+ "updated": "2026-12-11",
+ "updated_label": "December 2026",
+ "sections": [
+  [
+   "Which sulphur are we talking about",
+   "<p>Three different compounds get called \"sulphur\" in a brewery. They have different causes.</p><ul><li><strong>Hydrogen sulphide (H2S).</strong> Rotten egg, or struck match at low levels. Made by yeast during fermentation. This guide is mostly about it.</li><li><strong>Sulphur dioxide (SO2).</strong> A sharper, struck match note. Also made by yeast, more by some lager strains than others. It acts as a natural antioxidant in the finished beer.</li><li><strong>Dimethyl sulphide (DMS).</strong> Cooked sweetcorn. This comes from malt and the boil, not the fermentation. Our <a href=\"beer-off-flavours.html\">off flavours guide</a> covers it.</li></ul><p>Getting the diagnosis right matters, because a longer lagering phase will not fix DMS from a weak boil.</p>"
+  ],
+  [
+   "Why lager yeast makes hydrogen sulphide",
+   "<p>Yeast needs sulphur to build two amino acids, methionine and cysteine. It takes sulphate from the wort, reduces it step by step to sulphide, then attaches it to a carbon backbone. When the yeast cannot finish that last step fast enough, sulphide leaks out as H2S.</p><p>That bottleneck shows up when the cell runs short of the nitrogen it needs for the backbone, or when it is growing fast and its sulphur demand outruns supply. Lager strains of <em>Saccharomyces pastorianus</em> tend to produce more H2S and SO2 than ale strains. The cold slows everything down too, so a lager often smells eggy for the first few days. That is the yeast working, not a fault.</p><p>Stressed or dying yeast is a different story. Autolysis releases sulphur compounds with a rubbery, meaty edge that does not clear.</p>"
+  ],
+  [
+   "How it normally goes away",
+   "<p>H2S is very volatile. The CO2 rushing out of an active fermentation carries most of it away through the blow-off, which is why the smell at the blow-off peaks with the steepest part of the gravity drop.</p><p>What is left gets dealt with by time on healthy yeast. A warm diacetyl rest near the end of fermentation, then several weeks of cold <a href=\"lagering-explained.html\">lagering</a>, lets the beer lose most of the remaining sulphide. Traditional lagering schedules were partly a sulphur management tool long before anyone measured it.</p>"
+  ],
+  [
+   "What causes sulphur to linger",
+   "<p>When a lager still smells of egg or struck match at packaging, look at these first.</p><ul><li><strong>Underpitching.</strong> Lagers need roughly 1.5 million cells per millilitre per degree Plato. Too few cells means more growth and more stress.</li><li><strong>Low nitrogen.</strong> High adjunct worts with lots of rice, maize or sugar can run short of free amino nitrogen.</li><li><strong>Low zinc.</strong> Yeast needs zinc for a healthy fermentation and many worts are marginal. Brewers commonly dose a yeast nutrient to reach around 0.1 to 0.2 mg/L of zinc in the wort.</li><li><strong>Capping the tank too early.</strong> Close the spunding valve while fermentation is still vigorous and you trap the H2S the CO2 would have carried away.</li><li><strong>Rushing it.</strong> Crash cooling the day gravity hits terminal leaves the yeast no time to clean up.</li></ul>"
+  ],
+  [
+   "A floor check that saves a batch",
+   "<p>Before you cool a lager, pull a sample into a clean wine glass, cover it, swirl it and let it warm towards room temperature. Sulphur that hides at 2 °C becomes obvious at 15 °C. If you can smell it warm, your customer will smell it once the glass has sat on a Bengaluru bar counter for a few minutes.</p><p>If it is there, raise the tank back to 12 to 14 °C, rouse the yeast with a gentle CO2 push through the cone if your tank allows it, then give it a few more days. Copper contact also reduces H2S, which is one reason old copper brewhouses had a reputation for clean lagers. It is not a substitute for healthy yeast.</p>"
+  ],
+  [
+   "Choosing strains and settings",
+   "<p>Strains differ a lot. Some popular German lager strains throw a noticeable sulphur note early that clears well with time. Others are cleaner from the start but slower or less attenuative. Our guide to <a href=\"ale-vs-lager-yeast.html\">ale versus lager yeast</a> covers the basics. Pick one strain and learn how it behaves on your wort before you start changing temperatures or pressures.</p><p>Fermenting warmer under pressure can speed a lager up, but it changes the sulphur picture too. Change one variable at a time and keep tasting warm samples. The honest answer to most sulphur questions is that it depends on your yeast, your wort and your schedule, which is exactly why it pays to learn the mechanism rather than a recipe.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is a rotten egg smell during lager fermentation normal?",
+   "Yes, in the first few days of active fermentation it is very common. Lager yeast makes hydrogen sulphide and the escaping CO2 carries most of it away. It should fade with a diacetyl rest and lagering."
+  ],
+  [
+   "How long does it take for sulphur to clear from a lager?",
+   "It varies by strain and wort. Most lagers lose the bulk of it over a warm rest and a few weeks of cold conditioning on healthy yeast. Check a warm sample before you package."
+  ],
+  [
+   "Can I fix sulphur in a lager that has already been kegged?",
+   "Sometimes, if there is still active yeast. Venting the headspace and giving it time can help. A rubbery note from autolysis will not go away. Prevention is far more reliable."
+  ],
+  [
+   "Does the sulphate in my water cause the egg smell?",
+   "Yeast does reduce sulphate to make sulphide, but normal brewing sulphate levels are rarely the cause. Yeast health, nitrogen, zinc and fermentation management matter far more."
+  ]
+ ],
+ "cta": {
+  "title": "Lagers that still smell of egg at packaging",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes (₹12,999) on yeast metabolism, nutrition and fermentation control, including how to plan a lager schedule around your strain. It goes deeper than a single guide can, with recordings and weekly assignments on your own beers.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "lagering-explained",
+  "ale-vs-lager-yeast",
+  "diacetyl-rest"
+ ]
+}

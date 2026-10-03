@@ -1,0 +1,71 @@
+{
+ "slug": "hop-oil-chemistry",
+ "cat": "Ingredients",
+ "h1": "Hop oils: myrcene, linalool and geraniol in the glass",
+ "title": "Hop Oils: Myrcene, Linalool, Geraniol | Craft Beer School",
+ "desc": "What the main hop oils are, how each one smells, how boiling, whirlpool and dry hopping change them and what yeast does to them.",
+ "teaser": "The oil in a hop cone is a tiny fraction of its weight and almost all of its aroma. Here is what is in it and where it goes.",
+ "standfirst": "Alpha acids give beer its bitterness. Hop oils give it the smell. Knowing a few of the main compounds explains why the same hop behaves so differently in the kettle, the whirlpool and the fermenter.",
+ "read": "3 min",
+ "updated": "2026-11-28",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "How much oil is in a hop",
+   "<p>Hop oil is a small part of the cone. Most varieties contain somewhere around 0.5 to 3 mL of oil per 100 g, with a few aroma-heavy varieties running higher. That oil is a mix of hundreds of compounds, but a handful make up most of it and explain most of what you smell.</p><p>Hop suppliers list total oil and often a breakdown on the lot analysis. The breakdown varies with variety, growing region, harvest year and how the hops were stored, which is why two lots of the same hop can smell different.</p>"
+  ],
+  [
+   "Myrcene: the green, resinous one",
+   "<p>Myrcene is often the largest single component, frequently 30% to over 60% of the oil in many American aroma varieties. On its own it smells green, resinous and a little pine-like, the smell of freshly rubbed hops.</p><p>It is also very volatile. In a long boil most of it is carried away with the steam. It survives best in late additions, the whirlpool and dry hopping. It also oxidises readily in stored hops. A beer with lots of raw myrcene can taste sharp and grassy rather than fruity.</p>"
+  ],
+  [
+   "Humulene and caryophyllene: woody and spicy",
+   "<p>These two are sesquiterpenes, larger and less volatile than myrcene. Humulene gives woody, herbal and slightly spicy notes. Caryophyllene is peppery and woody. Many traditional European aroma hops have a high share of humulene, which is part of their classic noble character.</p><p>They also break down and oxidise into other compounds, such as humulene epoxides, which some brewers associate with the herbal, spicy aroma of a well-aged noble hop.</p>"
+  ],
+  [
+   "Linalool and geraniol: the floral alcohols",
+   "<p>Linalool and geraniol are terpene alcohols, present in much smaller amounts than myrcene but with very low aroma thresholds. A little goes a long way.</p><p><strong>Linalool</strong> smells floral, with hints of citrus and lavender. It is more soluble in beer than myrcene and survives into the finished beer far better. Brewers often use it as a marker of hop aroma in beer.</p><p><strong>Geraniol</strong> smells of rose and geranium. During fermentation, yeast converts some geraniol into citronellol, which reads as citrus and lime. This kind of change is called biotransformation. It is one reason hops added during active fermentation can smell different from the same hops added after.</p>"
+  ],
+  [
+   "What the boil, whirlpool and dry hop do",
+   "<p>The stage at which you add hops decides which oils survive:</p><ul><li><strong>Long boil.</strong> Almost all the oil is lost. You get bitterness from isomerised alpha acids, as our guide to <a href=\"alpha-acids-explained.html\">alpha acids</a> explains, with little aroma.</li><li><strong>Late boil and whirlpool.</strong> More oil survives, especially if the wort cools to around 80 °C or below before the hops go in. Myrcene still drops sharply. The alcohols hold up better.</li><li><strong>Dry hopping.</strong> The oils extract into cold beer with little loss to evaporation. Myrcene stays at its highest, which explains the raw, green edge some heavily dry-hopped beers have.</li></ul>"
+  ],
+  [
+   "Storage, extracts and freshness",
+   "<p>Hop oils fade and change with time, heat and oxygen. Myrcene drops quickest. Old hops lose their bright aroma and pick up cheesy notes, which actually come from oxidised alpha and beta acids rather than the oil. Cold, dark, vacuum-sealed or nitrogen-flushed storage slows this down. In India, where hops are imported and often wait in transit and warehouses, that storage chain matters. Our guide to <a href=\"hop-storage-and-freshness.html\">hop storage and freshness</a> covers the details.</p><p>Products such as lupulin powders and hop oil extracts concentrate the oil-rich part of the hop. They give more aroma per kilo with less vegetal material and less beer loss. See <a href=\"hop-extracts-and-cryo-hops.html\">hop extracts and cryo hops</a> for how to use them.</p>"
+  ],
+  [
+   "Using the oil breakdown",
+   "<p>When you choose hops, read the oil breakdown alongside alpha acid. A variety high in linalool and geraniol suits late and whirlpool additions where floral and citrus character can carry through. A myrcene-heavy variety brings green, resinous punch in dry hopping. Try the same hop at different stages in small trials, taste them side by side and write down what you find. The chemistry gives you a starting point. Your own sensory notes tell you what it does in your beer.</p><p>Keep the lot analysis with your brew sheet. When a beer smells different from last month's batch, the oil breakdown of the new hop lot is the first place to look, before you start changing the recipe.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is myrcene in hops?",
+   "Myrcene is often the largest component of hop oil. It smells green and resinous and is very volatile, so most of it is lost in the boil but much of it survives in dry hopping."
+  ],
+  [
+   "Which hop oils survive into the beer?",
+   "Terpene alcohols such as linalool and geraniol survive best. They are more soluble and have very low aroma thresholds, so small amounts are noticeable."
+  ],
+  [
+   "What does yeast do to hop oils?",
+   "Yeast can convert some compounds during fermentation. For example, geraniol is partly turned into citronellol, which shifts aroma from rose towards citrus."
+  ],
+  [
+   "Why do old hops smell cheesy?",
+   "Mostly because the alpha and beta acids have oxidised into compounds such as isovaleric acid. Cold, oxygen-free storage slows this down."
+  ]
+ ],
+ "cta": {
+  "title": "Design hop character on purpose",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes. It covers hop chemistry, aroma retention and recipe design in depth, with trials you run and analyse in your own brewery.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "alpha-acids-explained",
+  "hop-extracts-and-cryo-hops",
+  "hop-storage-and-freshness"
+ ]
+}

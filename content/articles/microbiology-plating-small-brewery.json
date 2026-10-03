@@ -1,0 +1,67 @@
+{
+ "slug": "microbiology-plating-small-brewery",
+ "cat": "Brewing science",
+ "h1": "Microbiology plating in a small brewery lab",
+ "title": "Microbiology Plating in a Small Brewery | Craft Beer School",
+ "desc": "Which media to use, where to sample, how to incubate and how to read plates in a small brewery lab. A practical guide to finding spoilers early.",
+ "teaser": "You cannot taste an infection until it is already in the keg. A few plates a week can show it to you first.",
+ "standfirst": "Plating is how a brewery sees bacteria and wild yeast before they reach a customer. You do not need a full laboratory. You need the right media, a sampling plan and the discipline to read the plates every time.",
+ "read": "3 min",
+ "updated": "2026-12-19",
+ "updated_label": "December 2026",
+ "sections": [
+  [
+   "What plating tells you that tasting cannot",
+   "<p>By the time you can taste a lactic or phenolic infection, the batch is lost and the organism is probably living in a valve, a gasket or the filler. Plating catches it at low numbers, often in places that have not yet reached a finished beer.</p><p>The aim is not sterile beer. It is a record that shows your process is clean and an early warning when it stops being clean. Our guide to <a href=\"brewery-qc-lab-on-a-budget.html\">a QC lab on a budget</a> covers the wider kit list. This one is about the plates.</p>"
+  ],
+  [
+   "Choosing your media",
+   "<p>Different media answer different questions. A small brewery can cover most needs with three or four.</p><ul><li><strong>WLN (Wallerstein Laboratory Nutrient).</strong> Grows brewing yeast and most other organisms. Useful for checking a yeast slurry and for general counts. Colonies of different yeasts often look different on it.</li><li><strong>WLD.</strong> The same base with cycloheximide added, which suppresses brewing yeast so bacteria can show. Cycloheximide is toxic, so buy ready-made media or handle the powder with gloves and a mask.</li><li><strong>HLP or UBA.</strong> Media designed for beer spoilage bacteria such as <em>Lactobacillus</em> and <em>Pediococcus</em>, the organisms behind most sour and buttery infections.</li><li><strong>Lysine medium.</strong> Brewing <em>Saccharomyces</em> cannot use lysine as its nitrogen source but many wild yeasts can, so growth points at wild yeast in your culture.</li></ul><p>Plates or tubes poured in-house are cheaper but take sterile technique. Pre-poured media cost more and remove one source of error.</p>"
+  ],
+  [
+   "Where and when to sample",
+   "<p>Build a sampling plan along the path the beer takes.</p><ol><li>Cooled wort at the heat exchanger outlet, before pitching.</li><li>The yeast slurry you are about to pitch.</li><li>Each fermenter near the end of fermentation.</li><li>The bright tank before packaging.</li><li>The filler or keg head by swab. Finished packages from the start and end of a run.</li></ol><p>Swab after cleaning, not before, because you are testing whether the <a href=\"cip-cleaning-in-place.html\">CIP</a> worked. For bright beer, filter 100 mL or more through a 0.45 micron membrane and lay the membrane on the plate. Low numbers of spoilers are invisible in a 1 mL sample.</p><p>Frequency matters more than volume. A brewery making a few batches a week can plate wort, slurry and bright beer for every batch and swab the filler weekly without the lab becoming a full-time job. Start there, keep it up for three months, then decide where you can sample less often and where the results tell you to sample more.</p>"
+  ],
+  [
+   "Sterile technique without a clean room",
+   "<p>Work in a still corner with no fan, or build a simple still-air box from a clear plastic storage tub. Wipe surfaces with 70% alcohol. Flame the sample valve with a spray of ethanol before sampling, then run off beer to flush it.</p><p>A domestic pressure cooker works as an autoclave for media and for killing used plates before disposal. Fifteen minutes at full pressure, around 121 °C, is the usual rule. Never throw live plates in the bin. You are deliberately growing the organisms you most want out of your building.</p>"
+  ],
+  [
+   "Incubation and reading plates",
+   "<p>Most beer spoilage bacteria grow best with little or no oxygen. Use an anaerobic jar with a gas pack for HLP, UBA and WLD. Incubate at around 25 to 30 °C. A cheap incubator is fine. In an Indian summer you will want one with cooling, not only heating.</p><p>Read plates at set times. Yeast colonies on WLN usually show in two to three days. Lactic bacteria can take five to seven days, so do not call a plate clean on day two. Count colonies, note their shape and colour, then write the result down against the sample point and date.</p>"
+  ],
+  [
+   "Turning results into action",
+   "<p>A single colony on a bright beer plate is a prompt to look, not a reason to panic. Two weeks of colonies from the same filler head is a cleaning problem. Growth on a yeast slurry plate means that crop stops being repitched.</p><p>Set simple action limits in writing before you need them: what count triggers a re-clean, a re-test or a hold on the batch. Then keep the records. The value of plating shows in the trend over months. A lab that plates but never changes anything is only buying agar.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What media should a small brewery use for plating?",
+   "WLN for yeast and general counts, WLD or a dedicated medium such as HLP or UBA for beer spoilage bacteria and lysine medium to check for wild yeast. Pre-poured plates are a good start."
+  ],
+  [
+   "How long should I incubate brewery plates?",
+   "Yeast colonies usually appear in two to three days. Lactic acid bacteria can take five to seven days, so wait the full time before calling a plate clean."
+  ],
+  [
+   "Do I need an autoclave?",
+   "A domestic pressure cooker at full pressure for about 15 minutes does the same job for small volumes of media and for killing used plates before disposal."
+  ],
+  [
+   "Why sample after cleaning rather than before?",
+   "Because the question is whether your cleaning worked. Swabs taken after CIP show what is left on the surface that the next beer will touch."
+  ]
+ ],
+ "cta": {
+  "title": "Infections you only find when customers complain",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes (₹12,999) covering brewery microbiology, sampling plans and how to set action limits that actually change what the team does. Recordings and weekly assignments let you build a plan for your own lab.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewery-qc-lab-on-a-budget",
+  "cip-cleaning-in-place",
+  "beer-filtration-basics"
+ ]
+}

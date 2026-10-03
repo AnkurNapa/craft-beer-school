@@ -1,0 +1,67 @@
+{
+ "slug": "keg-washing-and-filling",
+ "cat": "Brewing science",
+ "h1": "Keg washing and filling done properly",
+ "title": "Keg Washing and Filling Done Properly | Craft Beer School",
+ "desc": "The full keg cycle for a craft brewery: inspection, washing, sanitising, CO2 purging and counter-pressure filling, with the checks that matter.",
+ "teaser": "Most draught complaints start in a keg that came back from a bar and went out again without a proper clean.",
+ "standfirst": "A keg leaves the brewery clean and comes back weeks later warm, half empty and full of whatever grew inside. We walk through the cycle that turns it back into a safe container, step by step, with the checks that catch problems before the beer goes out.",
+ "read": "3 min",
+ "updated": "2026-12-25",
+ "updated_label": "December 2026",
+ "sections": [
+  [
+   "Why kegs deserve their own process",
+   "<p>A keg is a small pressure vessel that spends most of its life outside your control. It sits in a hot storeroom, gets tapped and untapped, sometimes comes back with an inch of beer in it after two weeks at 35 °C. Whatever grew in that beer is now on the spear and the inside walls.</p><p>Breweries that fight recurring sour or buttery draught complaints often find the cause here rather than in the fermenter. Cleaning a keg is <a href=\"cip-cleaning-in-place.html\">CIP</a> on a small scale, with the same rules: time, temperature, chemical strength and contact.</p>"
+  ],
+  [
+   "Inspect before you wash",
+   "<p>Every returned keg gets a quick look before it goes on the washer.</p><ul><li>Release any pressure safely through the spear before doing anything else.</li><li>Check for dents near the neck, damaged chimes and a bent or loose spear.</li><li>Smell it. A strong sour or mouldy smell flags a keg for a longer clean or a spear-out inspection.</li><li>Check the date of the last spear service. O-rings and seals wear. A tired seal leaks beer out and lets air in.</li></ul><p>Pull damaged kegs out of rotation. A keg that cannot hold pressure cannot hold carbonation either.</p><p>Spears should come out on a schedule, not only when something goes wrong. Beer and soil collect under the spear where no washer jet reaches. Pulling a sample of spears each month and inspecting the seals and the threads tells you how often the whole fleet needs servicing.</p>"
+  ],
+  [
+   "The wash cycle step by step",
+   "<p>Whether you use a single-head manual washer or a semi-automatic line, the order is the same.</p><ol><li><strong>Empty and pre-rinse.</strong> Blow out residual beer with air or CO2, then rinse with warm water until it runs clear.</li><li><strong>Caustic wash.</strong> A hot caustic detergent, typically 1.5 to 2% at 70 to 80 °C, recirculated long enough to dissolve organic soil. Watch the return temperature, not only the tank temperature. A keg that came in cold from the yard can pull it down fast.</li><li><strong>Rinse.</strong> Water until the rinse is free of caustic.</li><li><strong>Acid wash.</strong> Removes beerstone and mineral scale, especially with hard borewell water. Many breweries alternate or do it on every cycle.</li><li><strong>Rinse again.</strong></li><li><strong>Sanitise.</strong> Peracetic acid at the supplier's recommended strength, or steam on washers built for it.</li><li><strong>Purge with CO2</strong> and leave the keg under a little pressure until filling.</li></ol>"
+  ],
+  [
+   "Filling without picking up oxygen",
+   "<p>The beer has done all its work in the tank. The filling step can undo it in a minute. Oxygen picked up here shows as stale, papery draught weeks later, especially in hoppy beers, as covered in our guide to <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup in packaging</a>.</p><p>Fill cold, at around 0 to 2 °C, from a bright tank at a stable top pressure. Fill under counter-pressure, so the keg is already pressurised with CO2 when beer arrives and the beer never foams. Let the CO2 vent slowly as beer displaces it. A fast, foamy fill knocks carbonation out and lets air in.</p><p>Fill by weight. Put the keg on a floor scale and record the filled weight against the empty weight. It is the simplest check that each keg holds what the invoice says. It also catches short fills before the customer does.</p>"
+  ],
+  [
+   "Labelling and records",
+   "<p>Label each keg with beer, batch number and fill date. Keep a simple log of keg ID, batch, fill date and customer. When a bar calls about a bad keg, you can find the batch, check the other kegs from it and look at the washer records for that day.</p><p>In consulting and teaching we see the same pattern again and again: the breweries that solve draught complaints fastest are the ones that can trace a keg in two minutes.</p>"
+  ],
+  [
+   "Checks worth doing every week",
+   "<p>Verify caustic strength with a titration or conductivity reading rather than trusting the dosing pump. Check peracetic acid strength with test strips. Swab one keg a week after cleaning and plate it. Pull a keg at random from the cold room, tap it and taste it against the tank.</p><p>Finally, remember that the keg is only half the system. A perfect keg poured through a dirty line at the bar still tastes infected. Our guide to <a href=\"draught-line-cleaning.html\">draught line cleaning</a> covers the other half.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should keg caustic be?",
+   "Typically 70 to 80 °C at around 1.5 to 2% strength, though you should follow your detergent supplier's guidance. Check the temperature of the return flow, not only the tank."
+  ],
+  [
+   "Do I need an acid wash on every keg?",
+   "Not always, but it removes beerstone and mineral scale that caustic leaves behind. With hard water, regular acid washes matter more."
+  ],
+  [
+   "Why fill kegs by weight?",
+   "Weight is a quick, accurate check that each keg holds the right volume. It catches short fills and leaking kegs before they leave the brewery."
+  ],
+  [
+   "How do I stop oxygen pickup when filling kegs?",
+   "Purge the clean keg with CO2, fill cold under counter-pressure and vent slowly so the beer does not foam."
+  ]
+ ],
+ "cta": {
+  "title": "Draught complaints you cannot trace",
+  "body": "Advanced Brewing Science is a six week live course (₹12,999) that covers cleaning chemistry, oxygen control and packaging quality checks in depth. Weekend sessions with recordings and weekly assignments help you build procedures for your own brewery.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cip-cleaning-in-place",
+  "draught-line-cleaning",
+  "oxygen-pickup-in-packaging"
+ ]
+}

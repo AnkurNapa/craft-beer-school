@@ -1,0 +1,71 @@
+{
+ "slug": "first-all-grain-brew-day",
+ "cat": "Brewing basics",
+ "h1": "Your first all-grain brew day, hour by hour",
+ "title": "Your First All-Grain Brew Day | Craft Beer School",
+ "desc": "An hour by hour plan for a first all-grain brew in a bag day: water, mash, boil, chilling in Indian heat and what to write down.",
+ "teaser": "Six hours, one big pot and a bag of grain. Here is what happens in each of them.",
+ "standfirst": "A first all-grain day feels long because you do not know what comes next. Here is the whole day laid out hour by hour for a 20 litre brew in a bag batch, with the numbers we check at each step.",
+ "read": "4 min",
+ "updated": "2026-10-13",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Before the day: what to have ready",
+   "<p>The night before, weigh your grain and get it milled if it is not already. Weigh your hops into labelled cups. Clean the kettle, fermenter and anything that will touch cooled wort. Sanitising comes on the day.</p><p>For a first beer keep the recipe simple: a pale ale with about 5 kg of pale malt, one bittering hop and one aroma hop. That gives roughly 1.045 to 1.050 in a 20 litre batch at the efficiency most people hit first time. If you have only brewed from extract, read <a href=\"extract-vs-all-grain-brewing.html\">extract vs all-grain</a> first so the jump makes sense.</p><p>Plan on about six hours, including cleaning. Brew on a day nobody needs the kitchen.</p>"
+  ],
+  [
+   "Hour 0: heating the strike water",
+   "<p>For a full volume <a href=\"brew-in-a-bag-method.html\">brew in a bag</a>, all the water goes in at the start: around 30 to 32 litres for a 20 litre batch. Add your water salts now.</p><p>Because the mash is so thin, the strike water only needs to be about 3 °C above your target mash temperature. For a 66 °C mash, heat to about 69 to 70 °C. On a domestic gas burner 30 litres takes the best part of an hour, so this is a good time to clean up and set out the bag.</p>"
+  ],
+  [
+   "Hour 1: mashing in and the long wait",
+   "<p>Put the bag in the kettle, clip it to the rim and stir the grain in slowly so there are no dry clumps. Check the temperature in two or three places after five minutes. You want 65 to 67 °C. Lower gives a drier, lighter beer and higher a fuller one.</p><p>Lid on, wrap the kettle in an old blanket and leave it for 60 minutes. Stir once halfway. Check pH at the ten minute mark if you have strips or a meter. The target is 5.2 to 5.6.</p><p>Use the hour to sanitise the fermenter and set up the chiller.</p>"
+  ],
+  [
+   "Hour 2: lifting the bag and the first reading",
+   "<p>Lift the bag and let it drain over the kettle. Squeeze it gently if you like, which costs you nothing in flavour despite what the forums say. Turn the burner on full.</p><p>Take a sample of the wort, cool it to about 20 °C and read the gravity with a <a href=\"how-to-use-a-hydrometer.html\">hydrometer</a>. Write down the pre-boil gravity and the volume in the kettle. These two numbers tell you your efficiency. Next time you will know exactly how much grain to buy.</p>"
+  ],
+  [
+   "Hours 2 to 3: the boil",
+   "<p>Once you have a rolling boil, start a 60 minute timer. Keep the lid off so DMS (the cooked sweetcorn smell) can escape. Watch the first ten minutes closely, because the hot break foam boils over fast.</p><ul><li>At 60 minutes: bittering hops. About 25 g of a 10 per cent alpha hop gives roughly 25 IBU here.</li><li>At 10 minutes: aroma hops, plus your chiller dropped into the boil to sanitise it.</li><li>At 0: flame off, more aroma hops if the recipe calls for them.</li></ul><p>Measure the volume at the end. The difference from the start is your boil-off rate, which every future recipe will need.</p>"
+  ],
+  [
+   "Hour 4: chilling in Indian heat",
+   "<p>This is the step Indian brewers find hardest. An immersion chiller only gets wort down to a few degrees above the water flowing through it. Groundwater in much of the country runs in the mid to high twenties. Your chiller will race to about 35 °C, then crawl.</p><p>Use tap water for the first stretch, then move the kettle into a sink or tub of ice water and stir gently. Ale yeast wants wort at about 18 to 20 °C before pitching. Buying two bags of ice on the way home is cheaper than a stalled fermentation. Our guide to <a href=\"how-to-chill-wort-fast.html\">chilling wort fast</a> has more options.</p>"
+  ],
+  [
+   "Hour 5: into the fermenter, then clean",
+   "<p>Transfer the cooled wort into the sanitised fermenter, leaving the thick trub behind. Splash it in, or shake the closed fermenter for a minute: yeast needs oxygen at this stage and only at this stage. Take the original gravity reading. Pitch the yeast, fit the airlock and move the fermenter somewhere steady and cool.</p><p>Then clean the kettle while the grain residue is still soft. Dried mash is like cement.</p><p>Finally, write it all down: strike temperature, mash temperature, pH, pre-boil gravity, boil-off, OG and pitch temperature. A first brew day that is fully logged is worth more than a perfect beer you cannot repeat. Understanding why each of those numbers matters is where a structured course earns its keep.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does a first all-grain brew day take?",
+   "Plan on five to six hours for a 20 litre brew in a bag batch, including heating, cleaning and chilling. It gets quicker once you know your kit."
+  ],
+  [
+   "What mash temperature should I use for my first beer?",
+   "About 66 °C suits most pale ales. Lower, around 64 °C, makes a drier beer and higher, around 68 °C, a fuller one."
+  ],
+  [
+   "Why is my wort not cooling below 30 °C?",
+   "Your chiller cannot cool wort below the temperature of the water running through it. Indian tap water is often warm. Finish in an ice bath."
+  ],
+  [
+   "Do I need to squeeze the grain bag?",
+   "It is fine to squeeze it. It adds a little extract and there is no good evidence it adds tannin at normal mash pH."
+  ]
+ ],
+ "cta": {
+  "title": "Turn one good brew day into a repeatable one",
+  "body": "Brewing Fundamentals is four weeks of live weekend classes (₹5,999) covering the whole brew day from mash to fermenter, plus how to read your own numbers.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brew-in-a-bag-method",
+  "extract-vs-all-grain-brewing",
+  "carbonation-levels-by-style"
+ ]
+}

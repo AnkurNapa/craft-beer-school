@@ -1,0 +1,67 @@
+{
+ "slug": "brewing-a-lager-at-home",
+ "cat": "Brewing basics",
+ "h1": "Brewing a lager at home without a cellar",
+ "title": "Brewing a Lager at Home | Craft Beer School",
+ "desc": "How to brew a clean lager at home in India: a fridge and controller, cold pitching, the diacetyl rest and weeks of cold conditioning.",
+ "teaser": "Lager wants 10 °C. Your flat is 30 °C. A second-hand fridge closes that gap.",
+ "standfirst": "Lager is the hardest beer to brew at home in India because it needs cold for weeks. You do not need a cellar. You need a fridge, a controller and patience. This guide shows how they fit together.",
+ "read": "4 min",
+ "updated": "2026-10-21",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why lager is harder than ale",
+   "<p>Ale yeast works happily at 18 to 20 °C. Lager yeast ferments best at about 8 to 13 °C, then the beer wants weeks near freezing to smooth out. Any shortcut shows up in the glass, because a pale lager has nothing to hide behind. Sulphur, green apple or butter, which a hoppy ale might mask, sit right on top of a pilsner.</p><p>In an Indian flat that sits at 28 to 32 °C for much of the year, a bucket of water with frozen bottles will hold a fermenter a few degrees below room temperature on a good day. That is useful for ales. It will not get you to 10 °C. Our guide to <a href=\"ale-vs-lager-yeast.html\">ale and lager yeast</a> explains why the strains behave so differently.</p>"
+  ],
+  [
+   "The kit: a fridge and a controller",
+   "<p>The standard home answer is a second-hand fridge with an external temperature controller. The controller plugs in between the wall and the fridge and switches it on and off from a probe you place on the fermenter. Many people add a small heater on the same controller for the diacetyl rest.</p><p>Measure before you buy. A 23 litre fermenter with an airlock on top needs more height than most single-door fridges have once the shelves are out. A chest freezer on a controller works too and holds the cold better.</p><p>Tape the probe to the side of the fermenter and cover it with a folded cloth or a bit of foam. A probe dangling in the fridge air reads the air, which swings wildly as the compressor cycles, while the beer inside lags several degrees behind. It is the most common lager mistake we see. It is invisible until you taste the beer.</p>"
+  ],
+  [
+   "Pitching enough yeast, cold",
+   "<p>Lager needs roughly twice as much yeast as an ale of the same gravity, because the yeast works slowly in the cold. For a 20 litre batch around 1.048, that means two 11 g sachets of dry lager yeast, or a well grown starter if you use liquid yeast.</p><p>Chill the wort to about 10 °C before pitching, which in Indian conditions usually means finishing it off in the fridge overnight, sealed. Pitching warm and cooling later gives the yeast a burst of fruity ester production at the start, which is exactly the part of fermentation that sets the flavour.</p>"
+  ],
+  [
+   "Fermentation and the diacetyl rest",
+   "<p>Hold the beer at 10 to 12 °C. Fermentation will look slow compared with an ale and may take ten days to two weeks to get most of the way.</p><p>When the gravity is about two thirds to three quarters of the way to its final reading, raise the temperature to 16 to 18 °C for two or three days. This is the <a href=\"diacetyl-rest.html\">diacetyl rest</a>. Warmer yeast cleans up diacetyl, the butterscotch compound, much faster. Before you cool the beer, warm a small sample and smell it. If it smells of butter, give it longer.</p>"
+  ],
+  [
+   "Lagering: the long cold wait",
+   "<p>Once fermentation is finished and the beer is clean, drop the temperature a couple of degrees a day down to 0 to 2 °C. Then leave it. Three to six weeks is normal for a pale lager. During that time yeast and haze drop out, sulphur fades and the flavour rounds off. <a href=\"lagering-explained.html\">Lagering explained</a> goes into what is happening chemically.</p><p>You can bottle or keg after lagering. If you bottle condition, the cold aged beer has less active yeast, so leave the bottles warm a little longer than you would for an ale before you chill them.</p>"
+  ],
+  [
+   "Power cuts and other Indian problems",
+   "<p>A closed fridge full of 20 litres of cold beer holds its temperature for hours. A short cut does no harm during lagering. During active fermentation, keep the door shut and check the temperature when power returns. If cuts are long and frequent in your area, a small inverter for the fridge is worth more than any other upgrade.</p><p>Some brewers skip the fridge with yeasts sold as clean at warm temperatures, or by fermenting under pressure. Both make good beer. Neither quite makes a classic pilsner.</p>"
+  ],
+  [
+   "Is it worth the wait?",
+   "<p>From brew day to glass, a home lager takes six to ten weeks. That is the price. What you get is a beer that shows every decision you made: water, yeast health, fermentation control. Get those right and the reward is a crisp, clean pint that most homebrewers never manage.</p><p>If it goes wrong, the fault usually points to a single step. Learning to read which one is a skill worth building before you buy a second fridge.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should I ferment a lager at home?",
+   "About 10 to 12 °C for most lager strains, then a diacetyl rest at 16 to 18 °C near the end, then several weeks at 0 to 2 °C."
+  ],
+  [
+   "Can I make lager without a fridge in India?",
+   "Not a classic one. Water baths and wet towels only cool a few degrees below room temperature. A fridge or chest freezer on a controller is the practical minimum."
+  ],
+  [
+   "How much lager yeast do I need for 20 litres?",
+   "About twice the ale amount. For a normal strength 20 litre batch, two 11 g sachets of dry lager yeast is the usual choice."
+  ]
+ ],
+ "cta": {
+  "title": "Get fermentation control right before you buy more kit",
+  "body": "Brewing Fundamentals is four weeks of live weekend classes (₹5,999) covering yeast, fermentation temperature, the diacetyl rest and conditioning, with real batches as examples.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "lagering-explained",
+  "diacetyl-rest",
+  "fermentation-temperature-control-at-home"
+ ]
+}

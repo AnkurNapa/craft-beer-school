@@ -1,0 +1,67 @@
+{
+ "slug": "writing-brewhouse-sops",
+ "cat": "Consultancy",
+ "h1": "Writing brewhouse SOPs that people follow",
+ "title": "Writing Brewhouse SOPs People Follow | Craft Beer School",
+ "desc": "How to write brewhouse SOPs that work on the floor: which to write first, a one-page format, setpoints with tolerances and testing on a new brewer.",
+ "teaser": "Most brewery SOPs live in a binder in the office. The ones that work are taped to the wall next to the valve.",
+ "standfirst": "A standard operating procedure is only useful if the person at the kit follows it at six in the morning. We cover which SOPs to write first, how to write them so they get used and how to keep them true.",
+ "read": "3 min",
+ "updated": "2026-11-04",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "Why most SOPs go unread",
+   "<p>In consulting work we often find a brewery with a thick folder of procedures and a brew team that has never opened it. The documents were written to satisfy a licence application or copied from another brewery. They describe someone else's kit, run to five pages each and sit in a cabinet far from the brewhouse.</p><p>Meanwhile the real procedure lives in the head brewer's memory. When that person is on leave, mash temperatures wander and CIP gets shortened. An SOP exists to make the right way the easy way for whoever is on shift.</p>"
+  ],
+  [
+   "Write these first",
+   "<p>Do not try to document everything at once. Start where mistakes cost most or hurt someone.</p><ol><li><strong>CIP of fermenters and bright tanks.</strong> Chemical handling and sanitation in one place.</li><li><strong>Mash-in and lautering.</strong> Temperatures, water to grist ratio and run-off rates that drive yield.</li><li><strong>Knockout and wort cooling.</strong> Target temperatures, aeration and the hygiene of the cold side.</li><li><strong>Yeast pitching and harvesting.</strong> Where most batch-to-batch drift begins.</li><li><strong>Transfers and packaging.</strong> Purging, oxygen pickup and volume records for excise.</li></ol><p>Once these five are in use, add the rest one at a time.</p>"
+  ],
+  [
+   "One page, numbered steps, real numbers",
+   "<p>A good brewhouse SOP fits on one side of A4. Each step starts with a verb and names the valve, pump or tank as it is labelled on the kit. Every setpoint carries a tolerance and an action if it is out.</p><p>Compare \"clean the fermenter with caustic\" with \"Circulate caustic at 1.5 to 2% and 70 to 80 °C through the spray ball for 30 minutes. Check concentration with the test kit before starting. Below 1.5%, top up and recheck.\" The second one can be followed, checked and signed for.</p><p>Mark the hold points clearly: the steps where the brewer must stop, measure and record before going on. Put safety warnings at the step where the hazard appears, not in a block at the top that everyone skips. Hot caustic, CO2 in a closed tank and steam lines each deserve a warning right where they matter.</p>"
+  ],
+  [
+   "Write it at the kit, with the people who run it",
+   "<p>Draft each SOP standing at the equipment with the brewer who does the job best. Walk it step by step and write what actually happens. You will find steps the head brewer does without thinking and never mentions, like cracking a valve slowly to avoid a pressure spike.</p><p>Add photographs of valve positions and panel screens. Where the team is more comfortable in Hindi, Kannada, Marathi or another language, write a version in that language too. A procedure in a language the operator reads slowly is a procedure that gets skipped.</p>"
+  ],
+  [
+   "Test it on someone new",
+   "<p>The real test is a person who has not done the job. Hand the draft to a new assistant and watch, without helping, while they follow it. Wherever they hesitate or ask a question, the SOP is missing something. Fix it and test again. Our guide to the <a href=\"brewhouse-commissioning-checklist.html\">brewhouse commissioning checklist</a> uses the same idea at start-up, when new kit and new procedures are proved together.</p>"
+  ],
+  [
+   "Link SOPs to records",
+   "<p>Each SOP should feed a record: a brew sheet, a CIP log, a transfer log. If a step has a number, there is a box for it. That is what lets you trace a bad batch back to a missed rest or a weak caustic. It also gives you evidence for excise and food safety inspectors. The same records serve any partner under a <a href=\"contract-brewing-quality-agreement.html\">contract brewing quality agreement</a>.</p>"
+  ],
+  [
+   "Keep them true",
+   "<p>Give each SOP a version number, a date and an owner. Review it at least once a year and whenever the kit, a supplier or a recipe changes. Remove old copies from the floor when a new version goes up. An out-of-date procedure on the wall is worse than none, because people trust it.</p><p>Writing the first set takes a few weeks of a senior brewer's time, which is exactly the time a busy brewpub never has. That is usually why it does not happen.</p><p>Start small if you must. One SOP a week, tested and on the wall, gets a brewery to a working set inside two months. The CIP procedure alone usually repays the effort in fewer infected batches.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should a brewhouse SOP be?",
+   "Ideally one page. Use numbered steps that start with a verb, real setpoints with tolerances and a clear action when a reading is out of range."
+  ],
+  [
+   "Which SOPs should a new brewery write first?",
+   "Start with CIP, mash-in and lautering, knockout and wort cooling, yeast handling and transfers. These are where mistakes cost most in beer, money or safety."
+  ],
+  [
+   "How often should SOPs be reviewed?",
+   "At least once a year and whenever equipment, suppliers or recipes change. Give each SOP a version, a date and a named owner."
+  ]
+ ],
+ "cta": {
+  "title": "Get your procedures out of one person's head",
+  "body": "We write your core brewhouse SOPs with your team, at your kit. We link each one to the records it should feed. Rahul Baliyan leads the brewing side. Your team keeps the method to write and review the rest.",
+  "label": "Book a consultation",
+  "href": "contact.html?course=Brewery%20consultancy#enroll"
+ },
+ "related": [
+  "brewhouse-commissioning-checklist",
+  "contract-brewing-quality-agreement",
+  "raising-brewhouse-yield"
+ ]
+}

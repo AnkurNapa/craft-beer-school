@@ -1,0 +1,67 @@
+{
+ "slug": "costing-a-recipe-before-you-brew",
+ "cat": "Consultancy",
+ "h1": "Costing a recipe before you brew it",
+ "title": "Costing a Recipe Before You Brew | Craft Beer School",
+ "desc": "How to cost a beer recipe before brew day: sellable litres, malt from extract maths, hops, yeast, utilities, labour, tank time and excise.",
+ "teaser": "A recipe that sells out can still lose money. Cost it on paper first and you will know before the malt is milled.",
+ "standfirst": "Most brewers cost a beer after it is on tap, if at all. We show how to cost a recipe before you brew it, starting from the litres you will actually sell and ending with a cost per glass you can price against.",
+ "read": "3 min",
+ "updated": "2026-11-25",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "Start from sellable litres",
+   "<p>The first mistake is dividing ingredient cost by batch size. A 10 hl brew does not give you 10 hl to sell. You lose wort in the kettle and whirlpool, beer with the yeast and trub in the fermenter, more in transfers and filtration and more again at the bar. Dry-hopped beers lose extra to the hops, which soak up beer you then throw away.</p><p>Use your own measured losses for each stage, from a loss audit if you have one. Divide every cost by the sellable litres, not the brew length. On heavily hopped or long-conditioned beers the difference is large.</p>"
+  ],
+  [
+   "Malt: work it out from extract",
+   "<p>Do not guess the grist from a recipe written for another brewhouse. Work it out from extract. Degrees Plato is percent extract by weight, so:</p><p><strong>Extract needed (kg) = litres of wort x specific gravity x °P / 100</strong></p><p>For 10 hl of 12 °P wort (SG about 1.048), that is 1,000 x 1.048 x 0.12, or about 126 kg of extract. Pale malt yields roughly 78 to 80% extract as delivered. At a brewhouse efficiency of 80%, you need about 126 / (0.79 x 0.80), close to 200 kg of malt.</p><p>This is where efficiency turns into rupees. A brewhouse running five points below its potential buys that extra malt on every brew. Raising yield is often the cheapest saving in the whole recipe.</p>"
+  ],
+  [
+   "Hops, yeast and the small lines",
+   "<p>Cost hops by weight per addition at your current invoice price. Imported hops priced in foreign currency move with the exchange rate, so recheck the price when you reorder. Dry hopping often costs more than all the kettle additions put together.</p><p>Yeast is a fresh pitch cost for new strains or a share of the culture cost spread across the generations you repitch. Add the small lines brewers forget: water treatment salts and acid, finings, CO2 for purging and carbonation, cleaning chemicals per brew and lab consumables. Each is small. Together they are not.</p>"
+  ],
+  [
+   "Utilities and labour",
+   "<p>Estimate the electricity, fuel and water each brew uses: heating mash and boil, the chiller load through fermentation and conditioning, CIP. Sub-meters make this easy. Without them, divide monthly utility cost by litres brewed as a first estimate.</p><p>Labour is the hours on brew day plus cellar time across the beer's life, at the loaded cost of the people doing it. A double-mash or decoction recipe that takes four extra hours is a real cost.</p>"
+  ],
+  [
+   "Tank time is a cost too",
+   "<p>A lager conditioned cold for five or six weeks holds a fermenter that could have produced two or three ale batches. That fermenter has a cost. A lager does not pay its share unless it sells at a price that covers the lost capacity. Put a cost per tank-week into your sheet so slow beers carry it.</p><p>The simplest way to set it: take the monthly cost of owning and running your cellar (rent share, chiller power, depreciation of the tanks) and divide by the tank-weeks available. A beer that sits four weeks pays four shares. This often changes which seasonal beers make sense in a small brewpub.</p>"
+  ],
+  [
+   "Excise, packaging and the final number",
+   "<p>Add excise and the other state levies at the rate your licence and state apply. They vary by state and change, so take the current figure from your excise records or adviser, not from memory. Add packaging if the beer goes into kegs, cans or bottles.</p><p>Now divide the total by sellable litres for a cost per litre, then by your pour size for a cost per glass. Compare it with the price the menu can bear. Our guide to <a href=\"cost-per-litre-beer.html\">cost per litre</a> covers how this rolls up across the business.</p>"
+  ],
+  [
+   "Do it before every new recipe",
+   "<p>Build the costing as a sheet with your prices, losses and efficiency in one place, so a new recipe takes ten minutes to cost. Rerun it when malt, hop or exchange rates move. When a pilot recipe goes to full scale, recost it at production losses, since <a href=\"scaling-a-pilot-recipe-to-production.html\">scaling a pilot recipe</a> rarely keeps every number the same.</p><p>The arithmetic is simple. Getting reliable loss figures and utility data to feed it is where most brewpubs need help, because those numbers are rarely measured until someone sets up the system.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I calculate malt needed for a beer?",
+   "Extract needed in kg equals litres of wort times specific gravity times degrees Plato divided by 100. Divide that by your malt's extract yield and your brewhouse efficiency to get kilograms of malt."
+  ],
+  [
+   "Should excise be included in recipe costing?",
+   "Yes, as a separate line at the rate your state and licence apply. Rates vary by state and change, so use your current excise records or adviser."
+  ],
+  [
+   "Why divide by sellable litres rather than batch size?",
+   "Because beer is lost at every stage from kettle to glass. Costing against brew length understates what each glass actually costs, most of all for dry-hopped and long-conditioned beers."
+  ]
+ ],
+ "cta": {
+  "title": "Know what each glass costs before you brew it",
+  "body": "We build a recipe costing sheet on your own prices, losses and utility data. Ankur Napa leads the cost and data side with Rahul Baliyan on the brewhouse numbers. Your team keeps the sheet and costs every new recipe themselves.",
+  "label": "Book a consultation",
+  "href": "contact.html?course=Brewery%20consultancy#enroll"
+ },
+ "related": [
+  "cost-per-litre-beer",
+  "beer-cost-of-goods-explained",
+  "scaling-a-pilot-recipe-to-production"
+ ]
+}

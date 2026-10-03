@@ -1,0 +1,71 @@
+{
+ "slug": "beer-seasonality-for-demand-planners",
+ "cat": "Beer for teams",
+ "h1": "Beer seasonality explained for demand planners",
+ "title": "Beer Seasonality for Planners | Craft Beer School",
+ "desc": "Why Indian beer demand peaks and dips when it does, plus how brewing lead times and tank space shape a plan that works.",
+ "teaser": "Summer sells the beer. January decides whether you have any to sell.",
+ "standfirst": "A beer forecast is shaped by weather, festivals, dry days and excise calendars. It is also shaped by a brewery that cannot make April's beer in April. Here is how the two sides meet.",
+ "read": "4 min",
+ "updated": "2026-10-10",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The curve every Indian beer planner knows",
+   "<p>Beer in India follows the heat. Volumes climb from February, peak from March to June and then soften when the monsoon arrives. Rain keeps people indoors and slows the trucks that move stock out to retail. October and November bring a festive lift in many markets. Winter is quieter for lager in the north, while the south and the coastal states stay steadier because they never really get cold.</p><p>That is the national shape. Your own curve depends on which states you sell in, because each state is close to its own market with its own prices, its own holidays and its own excise year.</p>"
+  ],
+  [
+   "The calendar breaks the curve",
+   "<p>Weather gives the smooth line. The calendar puts holes in it.</p><ul><li><strong>Dry days.</strong> National holidays, elections and state-specific religious days close retail for a day or more. An election phase can shut sales in one district while the next one trades normally.</li><li><strong>Excise year changes.</strong> Many states revise duties or retail prices at the start of their financial year. Distributors often buy heavily before a price rise and very little just after it.</li><li><strong>Label and price registration.</strong> A new brand or pack cannot ship into a state until it is registered there. A late approval looks like a demand dip in the data but is really a supply block.</li></ul><p>Rules and timings vary by state and change often, so planners should work from the current notification for each state, not last year's pattern. Our guide to <a href=\"beer-demand-forecasting-indian-seasons.html\">forecasting beer demand across Indian seasons</a> goes further into building these effects into a model.</p>"
+  ],
+  [
+   "Why the brewery cannot just make more in May",
+   "<p>This is the part that surprises people who join from other consumer goods. A lager is not made in a day.</p><p>After brewing, the wort ferments for roughly one to two weeks at around 8 to 13 °C. It then matures cold, close to 0 °C, for one to three weeks or longer. Filtration and packaging come after that. So a mainstream lager usually spends three to five weeks in a tank before it reaches a bottle or can. Ales are faster but still take a couple of weeks.</p><p>Each batch occupies a fermenter for that whole time. Tank capacity is the real ceiling. When demand doubles in April the brewery cannot double its tanks, so the extra volume has to be brewed earlier and stored as finished stock.</p>"
+  ],
+  [
+   "The pre-build and its limits",
+   "<p>Most breweries handle summer by building stock from January onwards. That works, within limits.</p><p>Packaged beer ages. A pasteurised, well-packaged lager holds up for a matter of months, while unpasteurised craft beer, especially hop-led styles, fades much faster. Stock that sits in a hot warehouse ages faster still. Read our guide to <a href=\"beer-shelf-life.html\">beer shelf life</a> for the mechanics. The practical point for a planner is that the pre-build window is bounded by freshness at one end and tank space at the other.</p><p>Packaging materials need their own lead time too. Glass, cans, crowns and labels for a summer peak are ordered weeks or months ahead, which is why a late change to a pack design can cost more than the beer inside it.</p>"
+  ],
+  [
+   "Reading the numbers on your dashboard",
+   "<p>Two figures cause most of the confusion. <strong>Shipments</strong> are what the brewery sends to distributors or depots. <strong>Depletions</strong> are what leaves the distributor towards retail. Before a price rise shipments jump while depletions stay flat. After the rise the opposite happens. If you forecast from shipments alone you will see a boom then a slump that never happened in consumption.</p><p>Look at depletions for the true seasonal shape. Use shipments to understand the supply plan and the pipeline sitting in the trade.</p>"
+  ],
+  [
+   "Craft and mainstream behave differently",
+   "<p>Big lager brands and small craft brands do not share one curve. Mainstream lager is the summer drink and swings hardest with temperature. Craft beer sold on tap in pubs and taprooms tracks footfall more than heat: weekends, long weekends, cricket matches and the end of the month when salaries land. Darker and stronger styles sell better in the cooler months, while wheat beers and light lagers lead in summer.</p><p>Keg and package also differ. Draught depends on the on-trade being open and busy. Cans and bottles depend on retail shelves and the home fridge. A planner who lumps them together will miss both patterns.</p>"
+  ],
+  [
+   "What a better plan looks like",
+   "<p>A good beer demand plan is honest about three things. It separates weather from calendar effects. It is built per state, not as one national line. It is checked against what the brewery can physically produce in the weeks before each peak.</p><p>In practice that means a rolling plan reviewed every month with the brewing team, a clear cut-off date for summer volumes and an agreed rule for which brands get tank space first when capacity runs short.</p><p>That last check is where most forecasting work falls short. Planners who have never seen a fermenter tend to treat production as elastic. Once a team understands why a brewery needs its summer orders in January, the conversations between sales, planning and production get much shorter.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "When does beer demand peak in India?",
+   "In most markets it climbs from February and peaks between March and June, then softens through the monsoon. October and November often bring a festive lift, though it varies by state."
+  ],
+  [
+   "Why can a brewery not respond quickly to a demand spike?",
+   "A lager typically spends three to five weeks in a tank between brewing and packaging. Tank capacity is fixed, so extra summer volume has to be brewed and stored in advance."
+  ],
+  [
+   "Should I forecast from shipments or depletions?",
+   "Use depletions for the consumer demand shape. Shipments are distorted by distributors buying ahead of price changes and can show peaks and dips that never happened at retail."
+  ],
+  [
+   "How far ahead can beer be pre-built?",
+   "It depends on the product. Pasteurised lager keeps for months if stored well, while unpasteurised and hop-led beers fade faster, particularly in Indian heat."
+  ]
+ ],
+ "cta": {
+  "title": "Forecasts that production can actually deliver",
+  "body": "Our Route to market and regulation in India module, paired with Brewing and distilling operations, explains seasonality, dry days and tank lead times using your own portfolio and states. Your planners leave able to explain every bump in the curve.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "beer-demand-forecasting-indian-seasons",
+  "beer-brand-portfolio-explained",
+  "beer-cost-of-goods-explained"
+ ]
+}

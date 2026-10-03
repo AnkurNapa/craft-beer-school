@@ -1,0 +1,63 @@
+{
+ "slug": "brewpub-layout-kitchen-brewhouse-bar",
+ "cat": "Business",
+ "h1": "Laying out a brewpub: kitchen, brewhouse and bar",
+ "title": "Brewpub Layout: Kitchen, Brewhouse, Bar | Craft Beer School",
+ "desc": "How to lay out a brewpub so the brewhouse, kitchen and bar work together: utilities, drainage, cold rooms and guest flow for Indian sites.",
+ "teaser": "Where the fermenters go decides your drains, your power bill and how far a server walks with a tray.",
+ "standfirst": "A brewpub layout is a set of trade-offs between the brewer, the chef and the guest. Get the order of decisions right and most of the arguments disappear before the contractor arrives.",
+ "read": "3 min",
+ "updated": "2026-10-15",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with the beer path",
+   "<p>Draw the route the beer takes before you draw a single table. Malt arrives in bags, goes to the mill, into the mash tun, through the kettle, into the fermenters, then the bright tanks and finally the taps. Every metre of that route costs hose, pipe, glycol line and labour.</p><p>The cleanest layouts put the brewhouse and fermenters in a line, with the bright tanks or the cold room as close to the bar as the building allows. Short draught lines from bright tank or keg to tap mean less beer sitting warm in a pipe and less foam.</p>"
+  ],
+  [
+   "Give the brewhouse what it needs from the building",
+   "<p>A brewhouse is a small factory. Before you finalise the floor plan, check:</p><ul><li><strong>Floor loading.</strong> A full 10 hl fermenter weighs well over a tonne once you add the steel. Upper floors and old slabs need a structural engineer's sign-off.</li><li><strong>Drainage.</strong> Brewing means hot caustic, acid and spent wash water. You want a sloped floor, a proper trench drain and a plan for discharge that your pollution control approvals will accept.</li><li><strong>Power.</strong> Electric kettles, the chiller and the kitchen together can push you past the sanctioned load. Ask the equipment supplier for the connected load early.</li><li><strong>Height and access.</strong> Tanks need headroom and a route in. More than one project has discovered the fermenters do not fit through the door.</li></ul><p>Our <a href=\"brewhouse-size-guide.html\">brewhouse size guide</a> helps you pick the kit before you commit to the room.</p>"
+  ],
+  [
+   "Separate hot from cold",
+   "<p>The kitchen and the brewhouse both make heat, steam and smell. The fermentation room and the cold room want to stay cool. In an Indian summer, a fermenter wall shared with a tandoor or a fryer bank turns into extra work for the glycol chiller. The chiller is usually already the hardest working machine on site.</p><p>Put the chiller and its condenser where hot air can escape, not in a closed corner. Keep the kitchen exhaust well away from the brewhouse air intake. Where you can, use the cold room as a buffer between the hot zones and the bar.</p>"
+  ],
+  [
+   "Plan the dirty jobs",
+   "<p>Guests never see the parts of brewing that decide whether a layout works. Spent grain comes out of the mash tun wet and heavy after every brew. It needs a short, direct route to a back door and a pickup point that does not cross the dining room. Malt deliveries need dry storage near the mill, raised off the floor and away from damp walls, because Indian monsoon humidity and pests both find a stack of grain bags quickly. Keg washing, chemical storage and the CO2 cylinders each need their own safe, ventilated spot.</p><p>Write down where each of these happens. If the answer for spent grain is through the restaurant during lunch service, redraw the plan.</p>"
+  ],
+  [
+   "Design the bar for speed",
+   "<p>The bar is where the money changes hands, so it should be designed around the busiest hour rather than the quietest. That means enough taps for your core range, glass washing behind the bar, a short walk from the kitchen pass to the floor and a clear spot for servers to collect drinks without crossing guest traffic.</p><p>Many guests want to see the tanks. A glass wall into the brewhouse sells beer, but the brewer still has to clean, climb and spill behind it. Make sure the view does not leave the brewer working in a shop window with no floor drain.</p><p>Think about noise as well. Pumps, the chiller compressor and the keg washer are not quiet. A table pushed up against the brewhouse wall on a brew day is not a table anyone will book twice.</p>"
+  ],
+  [
+   "Bring the brewer and the chef in early",
+   "<p>Architects and interior designers are good at guest space and less familiar with process space. Get your head brewer (or a consultant if you have not hired one) and your chef to mark up the drawings before tender. Ask each of them to walk through a full brew day and a full Saturday service on paper.</p><p>This is usually where founders see that layout, equipment, staffing and cost per litre are one connected decision. That connection is what we teach. <a href=\"cost-per-litre-beer.html\">cost per litre</a> is a good place to see it in numbers.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Should the brewhouse be visible to guests?",
+   "Many brewpubs put it behind glass because it sells the idea of fresh beer. Make sure the brewer still has drains, access and safe working space behind that glass."
+  ],
+  [
+   "What is the most common brewpub layout mistake?",
+   "Treating the brewhouse as décor and the utilities as an afterthought. Floor loading, drainage, power and spent grain removal should be settled before the interior design."
+  ],
+  [
+   "How close should the tanks be to the taps?",
+   "As close as the building allows. Shorter draught lines hold less beer, waste less in foam and are easier to clean."
+  ]
+ ],
+ "cta": {
+  "title": "Get the layout right before the contractor starts",
+  "body": "Brewery Business Management is a 3 week live course (₹8,999) that walks founders through layout, equipment sizing, staffing and the numbers that tie them together, using Indian site realities.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewhouse-size-guide",
+  "brewpub-vs-microbrewery",
+  "cost-per-litre-beer"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "pos-and-inventory-software-for-brewpubs",
+ "cat": "Business",
+ "h1": "POS and inventory software for brewpubs",
+ "title": "POS and Inventory Software for Brewpubs | Craft Beer School",
+ "desc": "What a brewpub needs from its POS and inventory software: beer yield tracking, split taxes, recipe costing and the reports worth reading.",
+ "teaser": "A 50 litre keg holds about 150 glasses of 330 ml. If your till says 120, where did the rest go?",
+ "standfirst": "Brewpub software has to do more than print bills. We look at what to ask for, what to measure and how to make sure the numbers it produces are ones you can trust.",
+ "read": "3 min",
+ "updated": "2026-11-09",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "What the software is actually for",
+   "<p>A POS takes orders, prints bills and records payments. A good one in a brewpub also tells you how much beer you sold against how much you brewed, what each dish costs to make and which hour of which day pays the rent.</p><p>The trouble is that most restaurant POS systems are built for kitchens and bottled drinks. Beer poured from a tank or keg is different. You need the software to understand litres, not just units.</p>"
+  ],
+  [
+   "Beer yield is the number that matters",
+   "<p>Simple arithmetic: a 50 litre keg holds about 151 pours of 330 ml. In practice you will get fewer, because the first pours foam, lines hold beer and some glasses get topped up. Your job is to know how many fewer.</p><p>Set up the software so every beer item maps to a volume. A 330 ml glass deducts 0.33 litres, a 500 ml mug 0.5 litres, a tasting flight its total. Then compare litres sold with litres drawn from the bright tank or keg each week. The gap is your loss. Some loss is normal. A gap that grows week on week means something is wrong with the pour, the lines or the honesty of the counting.</p><p>Flow meters on each tap make this far more precise, though they add cost and need calibration.</p><p>Run the same check for packaged beer if you sell growlers or cans to take away. Those litres leave the building and have to reconcile with your excise records as well as your till.</p>"
+  ],
+  [
+   "Must-haves for an Indian brewpub",
+   "<ul><li><strong>Split taxation on one bill.</strong> Food falls under GST while beer is taxed by the state. The system must handle both and print a bill your accountant and the excise inspector will accept. Confirm the current rules for your state.</li><li><strong>Recipe costing.</strong> Link each dish to its ingredients so stock is deducted as you sell and food cost is visible per plate.</li><li><strong>Stock counts and variance.</strong> Opening stock, receipts, sales and closing stock, for kitchen items and beer.</li><li><strong>User permissions.</strong> Who can void a bill, give a discount or comp a drink, with a log of who did it.</li><li><strong>Offline mode.</strong> Internet drops. The bar should keep billing.</li><li><strong>Exports.</strong> Your data should come out as a spreadsheet without a support ticket.</li></ul>"
+  ],
+  [
+   "Questions to ask a vendor",
+   "<ul><li>Can a beer item deduct a volume from a tank or keg?</li><li>How does it handle happy hour pricing and flights?</li><li>What does it cost per terminal, per year and for support? What happens to the price at renewal?</li><li>Who owns the data? Can I export all of it if I leave?</li><li>Can I speak to two existing brewpub or bar customers?</li></ul><p>Ask for a trial and put a real Saturday's orders through it before you sign.</p>"
+  ],
+  [
+   "Set it up properly on day one",
+   "<p>Most POS trouble comes from a rushed set-up rather than bad software. Before opening, enter every menu item with its correct tax treatment, its recipe link and, for beer, its volume. Create separate logins for every staff member and never share the manager's password. Decide the reasons allowed for a void or a comp and make staff pick one each time.</p><p>Then do one full stock count, kitchen and beer, the night before you open. Every variance report you run later is measured against that first count. If it is wrong, the next three months of numbers are wrong too.</p>"
+  ],
+  [
+   "Brewery records sit next to it",
+   "<p>Your POS will not run the brewhouse. Batch records, gravity readings, fermentation logs and excise registers usually live in brewing software, a spreadsheet or a paper log the inspector asks for. Our guide to <a href=\"brewing-software-and-calculators.html\">brewing software and calculators</a> covers that side. What matters is that the litres packaged on the brewery side match the litres the POS expects to sell.</p>"
+  ],
+  [
+   "Read the reports every week",
+   "<p>Software only helps if someone opens it. Pick a short set of numbers to check every Monday: beer yield by tap, food cost, sales by hour, discounts and voids. Our guide to the <a href=\"weekly-numbers-for-brewpub-owners.html\">weekly numbers for brewpub owners</a> sets out which ones. Most owners discover their biggest leak within a month of looking properly. Knowing what a healthy number looks like is the harder part. It is what software cannot tell you.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many glasses should I get from a keg?",
+   "A 50 litre keg holds about 151 pours of 330 ml in theory. Real yield is lower because of foam and line losses, so measure your own and track it weekly."
+  ],
+  [
+   "Do I need tap flow meters?",
+   "Not to start. Mapping each beer item to a volume in the POS and comparing it with litres drawn gives a useful loss figure. Flow meters add precision once volumes justify the cost."
+  ],
+  [
+   "Can one system handle food GST and beer excise?",
+   "Many Indian restaurant POS systems can split taxes on one bill. Test it with your accountant before you go live because the rules vary by state."
+  ]
+ ],
+ "cta": {
+  "title": "Stop guessing where the beer goes",
+  "body": "Brewery Business Management is a 3 week live course (₹8,999) that teaches the weekly numbers, yield and loss tracking, pricing and cash flow a brewpub owner needs, so the software reports something you can act on.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "taproom-economics",
+  "brewing-software-and-calculators",
+  "weekly-numbers-for-brewpub-owners"
+ ]
+}

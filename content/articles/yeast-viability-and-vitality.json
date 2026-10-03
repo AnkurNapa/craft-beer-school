@@ -1,0 +1,71 @@
+{
+ "slug": "yeast-viability-and-vitality",
+ "cat": "Brewing science",
+ "h1": "Yeast viability and vitality: counting cells properly",
+ "title": "Yeast Viability and Vitality Explained | Craft Beer School",
+ "desc": "How to count yeast with a haemocytometer, stain for viability, test vitality and turn the numbers into a pitch you can trust.",
+ "teaser": "A slurry can be 95% alive and still ferment like it is half asleep. Here is how to tell the difference before you pitch.",
+ "standfirst": "Viability tells you how many cells are alive. Vitality tells you how ready they are to work. A brewery that measures only the first will keep getting surprised by the second.",
+ "read": "4 min",
+ "updated": "2026-10-05",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two numbers, two questions",
+   "<p>Viability is the share of cells in a sample that are alive. Vitality is how metabolically fit those living cells are, which decides how fast they take up oxygen, build sterols and start eating sugar.</p><p>The distinction matters because a cropped slurry can pass a viability stain with flying colours after a week in the cold room, then give you a long lag and a sluggish finish. The cells are alive. They are also starved of glycogen and slow to restart. If you only ever count dead cells, that failure looks like bad luck.</p>"
+  ],
+  [
+   "Counting cells with a haemocytometer",
+   "<p>The standard tool is a haemocytometer, usually the improved Neubauer type, under a microscope at 400x. Its central counting area is 1 mm by 1 mm, divided into 25 large squares, with a chamber depth of 0.1 mm. That central area holds 0.1 microlitres.</p><p>Dilute the slurry so you see roughly 20 to 50 cells per large square. Thick slurry often needs 1 in 100 or 1 in 200. Count five large squares (the four corners and the centre), on both sides of the chamber if you can. Then:</p><p><strong>cells per mL = total cells in 5 squares x 5 x 10,000 x dilution factor</strong></p><p>Count budding cells as one if the bud is smaller than half the mother. Pick a rule for cells touching the boundary lines (for example, count the top and left lines, ignore the bottom and right) and stick to it. Aim for at least 200 cells in total. At 200 cells, random counting error is about 7%. At 50 cells it is about 14%, which is enough to throw a pitch well off target.</p>"
+  ],
+  [
+   "Staining for viability",
+   "<p>Methylene blue is the classic stain. Live cells reduce it to a colourless form. Dead cells stay blue. Mix equal parts diluted slurry and stain, wait a few minutes, then count blue and clear cells together.</p><p>It is cheap and fast. It is also known to overestimate viability once a culture drops below about 90%, because damaged cells can still reduce the dye for a while. Timing matters too: read too late and live cells start taking stain. Methylene violet behaves similarly and some labs find the contrast easier. Fluorescent stains are more reliable but need a fluorescence microscope or a cell counter, which most craft breweries do not have.</p><p>A working rule: repitch slurry that stains above 90% viable. Between 80 and 90%, pitch more and watch the fermentation closely. Below that, start fresh.</p>"
+  ],
+  [
+   "Testing vitality",
+   "<p>Vitality is harder to put a number on. The tests that small labs can actually run include:</p><ul><li><strong>Acidification power.</strong> Suspend washed cells in water, add glucose and track the pH drop over 10 minutes. Healthy yeast pushes the pH down quickly. It needs only a good pH meter.</li><li><strong>Glycogen staining.</strong> Iodine stains glycogen a reddish brown. Well-fed cells cropped at the right time stain dark. Cells that sat warm or too long stain pale, because they burned their reserves to stay alive.</li><li><strong>A forced fermentation.</strong> Pitch a sample into wort at warm temperature and watch gravity over 24 hours. Crude, but it measures what you care about.</li></ul><p>None of these replaces viability counting. Together they tell you whether a slurry is ready or needs a longer, warmer start.</p>"
+  ],
+  [
+   "Turning counts into a pitch",
+   "<p>The common targets are about 0.75 million viable cells per mL per degree Plato for ales and about 1.5 million for lagers. A 12 °P lager at 1.5 million needs 18 million cells per mL. Multiply by your wort volume in mL, divide by the viable count in your slurry and you have the slurry volume. Our guide to <a href=\"pitching-yeast-properly.html\">pitching yeast properly</a> walks through the arithmetic for a full brew length.</p><p>Correct for viability every time. A slurry counted at 2 billion cells per mL that stains 85% viable carries 1.7 billion live cells per mL. The difference on a 10 hL lager is several litres of slurry.</p>"
+  ],
+  [
+   "Where Indian breweries lose yeast health",
+   "<p>Most of the damage happens between crop and repitch. Slurry should sit at 2 to 4 °C under a little beer, in a sanitised vessel that can vent. It should go back into wort within a few days. In practice a power cut overnight can push a cold room above 10 °C. A slurry that warms up burns glycogen fast. If your cold room had a bad night, stain and run an acidification test before you trust that yeast.</p><p>Crop from the middle of the cone, not the trub-heavy first draw. See <a href=\"yeast-harvesting-and-reuse.html\">harvesting and reusing yeast</a> for a full routine.</p>"
+  ],
+  [
+   "Make it a habit, not a rescue",
+   "<p>The value is in the log. Record count, viability, generation number and how each fermentation ran. After a dozen batches you will know your strain's normal lag time and how many generations it holds up for. That is when cell counting stops being a lab chore and starts predicting problems. Knowing how the cells behave through <a href=\"yeast-growth-phases.html\">each growth phase</a> makes those numbers easier to read.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between yeast viability and vitality?",
+   "Viability is the percentage of cells that are alive. Vitality is how active and healthy those live cells are, which decides how quickly fermentation starts and how cleanly it finishes."
+  ],
+  [
+   "How accurate is methylene blue?",
+   "It is good enough for routine checks on healthy slurry. Below about 90% viability it tends to read high, so treat a borderline result with suspicion and confirm with a vitality test."
+  ],
+  [
+   "How many cells should I count on a haemocytometer?",
+   "At least 200 in total across your squares. Fewer than that and random counting error becomes a large share of the result."
+  ],
+  [
+   "How many times can I repitch yeast?",
+   "It depends on the strain and on your hygiene. Many breweries manage several generations. Track viability, lag time and flavour each generation and retire the culture when they drift."
+  ]
+ ],
+ "cta": {
+  "title": "Stop guessing how healthy your yeast is",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes. It covers yeast physiology, cell counting and fermentation control in the depth a single guide cannot, with weekly assignments built on your own brewery's data.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "pitching-yeast-properly",
+  "yeast-harvesting-and-reuse",
+  "yeast-growth-phases"
+ ]
+}

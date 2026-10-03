@@ -1,0 +1,67 @@
+{
+ "slug": "designing-your-first-ipa-recipe",
+ "cat": "Brewing basics",
+ "h1": "Designing your first IPA recipe",
+ "title": "Designing Your First IPA Recipe | Craft Beer School",
+ "desc": "Build your own IPA from scratch: target gravity and bitterness, a simple grist, hop timing, water, yeast and a dry hop that stays fresh.",
+ "teaser": "Most first IPAs fail on the same three things: too much crystal malt, too little attention to oxygen and hops that were old before they arrived.",
+ "standfirst": "Copying someone else's IPA is a fine start. Designing your own is how you understand what each part of the recipe does. Here is the order we design one in, with a 20 litre example you can brew.",
+ "read": "4 min",
+ "updated": "2026-11-07",
+ "updated_label": "November 2026",
+ "sections": [
+  [
+   "Start with the beer in the glass",
+   "<p>Before you choose a single ingredient, decide what you want to drink. A West Coast IPA is clear, dry and properly bitter, with pine and citrus. A hazy IPA is soft, juicy and much less bitter. They share a name and very little else in the recipe.</p><p>This guide designs a classic, clear IPA because it teaches the most. Write down your targets first:</p><ul><li>Original gravity: about 1.060 to 1.065.</li><li>Final gravity: about 1.010 to 1.012.</li><li>Strength: about 6.5 per cent ABV, since (1.062 minus 1.011) x 131.25 is 6.7.</li><li>Bitterness: 50 to 65 IBU.</li></ul><p>If those terms are new, <a href=\"reading-a-beer-recipe.html\">reading a beer recipe</a> explains each one.</p>"
+  ],
+  [
+   "The grist: mostly pale malt",
+   "<p>An IPA is a hop showcase. The malt's job is to give enough body and colour to carry the hops, then get out of the way.</p><p>For 20 litres into the fermenter, start with about 6 kg of pale ale malt and 300 g of light crystal malt. That lands near 1.061 at typical brew in a bag efficiency. Keep crystal at 5 per cent or less. More makes the beer sweet and heavy. The sweetness clashes with high bitterness. It is the most common fault in first IPAs.</p><p>Mash at 65 to 66 °C. A cooler mash makes more fermentable wort, which gives the dry finish that lets bitterness read clean. See our <a href=\"mash-temperature-guide.html\">mash temperature guide</a> for what changes at each degree.</p>"
+  ],
+  [
+   "Bittering hops: the arithmetic",
+   "<p>Bitterness comes mostly from hops boiled for a long time. As a starting point, about 35 g of a 12 to 14 per cent alpha acid hop added at 60 minutes gives roughly 40 IBU in 23 litres of wort. The whirlpool additions below add more, which takes you into the 50s or 60s.</p><p>Use the alpha acid figure printed on your packet, not a generic one from the internet. A packet at 10 per cent instead of 13 needs about a third more hops for the same bitterness. A <a href=\"brewing-software-and-calculators.html\">brewing calculator</a> does this sum for you. Check your numbers in one rather than trusting ours.</p>"
+  ],
+  [
+   "Aroma: whirlpool and dry hop",
+   "<p>Late hops carry the aroma. Two additions do most of the work:</p><ul><li>Whirlpool: at flame out, let the wort cool to about 80 °C, add around 100 g of aroma hops and stir for 20 minutes before chilling. You get aroma and some extra bitterness without the harshness of a long boil.</li><li>Dry hop: about 4 to 6 g per litre, so 80 to 120 g for 20 litres, added when fermentation is nearly finished. Leave it three or four days, then cool the beer and package it.</li></ul><p>Pick one or two hop varieties for a first recipe. Cascade and Centennial for a classic citrus and pine IPA, or Citra for something more tropical. Five varieties in one beer usually tastes like none of them.</p>"
+  ],
+  [
+   "Water and yeast",
+   "<p>IPAs like a water profile with more sulphate than chloride, which sharpens the bitterness and dries the finish. In soft water, around 5 g of gypsum and 2 g of calcium chloride across your brew day water is a reasonable start.</p><p>Use a clean American ale yeast and ferment at 18 to 19 °C. Warmer and the yeast adds fruity esters that blur the hops. In an Indian summer that means some form of cooling, even a water bath with ice packs changed twice a day.</p>"
+  ],
+  [
+   "Oxygen and old hops, the two quiet killers",
+   "<p>Hop aroma is fragile. Two things destroy it before you ever taste the beer.</p><p>The first is oxygen after fermentation. Every time you open the fermenter to dry hop, air gets in. Add the hops quickly while there is still a little fermentation going, so the yeast can use up some of that oxygen. Fill bottles gently, without splashing.</p><p>The second is stale hops. Hops travel a long way to reach India, often warm. Buy from a seller who keeps them frozen. If a packet smells of cheese or old socks when you open it, the alpha acids have oxidised. Do not put it in your IPA.</p>"
+  ],
+  [
+   "Brew it, then change one thing",
+   "<p>Your first IPA will not be your best. Brew it, take good notes and taste it fresh. Then change one variable for the next batch: a different dry hop rate, a cooler mash or a second variety. Changing four things at once tells you nothing.</p><p>Our guide to <a href=\"first-homebrew-mistakes.html\">first homebrew mistakes</a> lists the faults that most often sink an early IPA. Most come from process rather than the recipe sheet. The recipe is the easy half. Understanding why the same recipe tastes different on your kit is where the learning is.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much crystal malt should go in an IPA?",
+   "Five per cent of the grist or less for a classic IPA. More makes it sweet and heavy, which fights the bitterness."
+  ],
+  [
+   "How many grams of dry hops for a 20 litre IPA?",
+   "About 4 to 6 g per litre is a good range for a first IPA, so 80 to 120 g for 20 litres."
+  ],
+  [
+   "What temperature should I ferment an IPA at?",
+   "About 18 to 19 °C with a clean American ale yeast. Warmer fermentation adds fruity esters that blur the hop character."
+  ]
+ ],
+ "cta": {
+  "title": "Design recipes that taste the way you planned",
+  "body": "Brewing Fundamentals is four weeks of live weekend classes (₹5,999) covering recipe design, grist and hop calculations, water and fermentation, with your own recipes reviewed in class.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "first-homebrew-mistakes",
+  "reading-a-beer-recipe",
+  "scaling-a-beer-recipe"
+ ]
+}

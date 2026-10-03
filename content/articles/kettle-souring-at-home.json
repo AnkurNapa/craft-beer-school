@@ -1,0 +1,63 @@
+{
+ "slug": "kettle-souring-at-home",
+ "cat": "Brewing science",
+ "h1": "Kettle souring at home",
+ "title": "Kettle Souring at Home | Craft Beer School",
+ "desc": "A step-by-step method for kettle souring at home: pre-acidifying, holding Lactobacillus warm, reaching the right pH and avoiding rotten off-aromas.",
+ "teaser": "A sour beer in a week, without letting bacteria anywhere near your fermenter.",
+ "standfirst": "Kettle souring is the quickest and safest way to brew a sour beer at home. You sour the wort with Lactobacillus before the boil, then boil it to kill the bacteria, so your fermenter never sees them.",
+ "read": "3 min",
+ "updated": "2026-12-27",
+ "updated_label": "December 2026",
+ "sections": [
+  [
+   "How kettle souring works",
+   "<p>Lactobacillus is the bacterium behind yoghurt. It makes lactic acid. In a kettle sour you give it unhopped wort, keep it warm for a day or two and let the pH fall. Then you boil, which kills the bacteria, add hops and ferment with normal yeast.</p><p>The bacteria never reach your fermenter, hoses or bottling bucket. That is the big advantage over traditional mixed-culture sours, where the bugs stay in the beer and in the plastic. It is how most modern <a href=\"berliner-weisse.html\">Berliner weisse</a> and <a href=\"gose-guide.html\">gose</a> are brewed.</p>"
+  ],
+  [
+   "What you need",
+   "<ul><li>A Lactobacillus culture. Commercial brewing strains are best. Some homebrewers use plain probiotic capsules that list Lactobacillus plantarum; results vary.</li><li>Food-grade lactic acid.</li><li>A pH meter, calibrated before use. Test strips are hard to read accurately in the range that matters.</li><li>A way to hold the wort warm for one to two days: an insulated kettle, a blanket or a large cool box.</li><li>Cling film or a lid that seals well.</li></ul><p>Everything else is ordinary homebrew kit. You do not need a separate fermenter, because the bacteria are killed before the wort ever reaches it.</p><p>A calibrated meter is the single most useful thing on that list. Kettle souring is judged entirely by pH. A cheap uncalibrated meter can be out by a few tenths, which is the difference between pleasantly tart and painfully sour.</p>"
+  ],
+  [
+   "The method, step by step",
+   "<ol><li><strong>Brew a simple, low-gravity wort.</strong> Pilsner malt with some wheat, aimed at around 1.034 to 1.044. No hops yet: hop compounds stop Lactobacillus working.</li><li><strong>Bring it briefly to the boil</strong> for about 10 minutes to kill what came in on the grain, then cool it.</li><li><strong>Pre-acidify to about pH 4.5</strong> with lactic acid. This is the step that protects you, because most spoilage bacteria cannot cope at that pH while Lactobacillus can.</li><li><strong>Cool to the culture's temperature,</strong> often around 30 to 40 °C. Check the supplier's guidance.</li><li><strong>Pitch the culture, cover the surface with cling film</strong> and seal. Keep oxygen out.</li><li><strong>Hold warm and check the pH every 12 hours.</strong> Most homebrewers stop somewhere between pH 3.2 and 3.5, usually after 24 to 48 hours.</li><li><strong>Boil the soured wort</strong> for 15 minutes or more, add a small amount of hops if you want and ferment with a clean ale yeast.</li></ol>"
+  ],
+  [
+   "Keeping it warm in December",
+   "<p>Most of India is cooler at this time of year. A kettle left on the floor loses heat overnight. Wrap it in a blanket or sleeping bag, or move the wort into a sanitised cool box. Check the temperature in the morning. An electric kettle element on a timer can help, as long as it never runs dry. If it has fallen well below the culture's range, souring slows and other microbes get more of a chance.</p>"
+  ],
+  [
+   "If it smells wrong",
+   "<p>A healthy kettle sour smells clean and tart, a bit like yoghurt. If it smells of vomit, rotten eggs, old cheese or baby nappies, other bacteria have taken over. That usually means the pH was not lowered enough before pitching, oxygen got in or the wort was not kept warm enough for the Lactobacillus to win.</p><p>Do not try to rescue it. Boiling will not remove those aromas. Pour it away, clean everything and start again with a lower starting pH and a better seal. Our guide to <a href=\"sour-infection-off-flavour.html\">sour and infection off flavours</a> helps you tell a deliberate sour from an accidental one.</p>"
+  ],
+  [
+   "Finishing the beer",
+   "<p>Check the final pH of the finished beer as well as the soured wort. Fermentation usually lowers it a little further. Keep notes of the pH at each stage and the time it took, so the next batch can be stopped at the right moment rather than by guesswork.</p><p>Low pH is hard on yeast, so pitch a healthy, generous amount of clean ale yeast. Keep hop bitterness low, below about 10 IBU, because bitterness and acidity clash.</p><p>A Berliner weisse is about 3 to 4% ABV and very pale. A gose adds a little salt and coriander at the end of the boil. You can add fruit after fermentation too.</p><p>Telling clean acidity from an off aroma in your own beer comes with practice and a trained palate. That is the part a guide cannot do for you.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is kettle souring safe for my plastic equipment?",
+   "Yes. The bacteria are killed in the second boil, before the wort reaches your fermenter, so your normal equipment stays free of Lactobacillus."
+  ],
+  [
+   "Why can't I add hops before souring?",
+   "Hop compounds inhibit Lactobacillus. Even a small amount of bitterness can stop souring, so hops go in only after the soured wort has been boiled."
+  ],
+  [
+   "Can I use yoghurt to sour beer?",
+   "Some people try it, but yoghurt cultures are not chosen for brewing and results are unreliable. A brewing culture or a known Lactobacillus plantarum source is safer."
+  ]
+ ],
+ "cta": {
+  "title": "Brew sours without fearing infection",
+  "body": "Brewing Fundamentals is a four-week live course (₹5,999) covering sanitation, pH, yeast and fermentation, with feedback on your own brews. It gives you the process control that kettle souring depends on.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "berliner-weisse",
+  "gose-guide",
+  "sour-infection-off-flavour"
+ ]
+}
