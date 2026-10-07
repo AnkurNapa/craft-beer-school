@@ -167,7 +167,8 @@ def main(force=False):
                     print(f"  {i}/{len(jobs)}")
             browser.close()
     make_thumbs()
-    live = {s for s in build.PAGES if s not in SKIP}
+    # Future-dated guides are not in build.PAGES yet but their pre-rendered images must survive.
+    live = {s for s in build.PAGES if s not in SKIP} | {a["slug"] + ".html" for a in articles_all.ALL_ARTICLES}
     for f in OUT.glob("*.jpg"):  # drop images for pages that no longer exist
         if f.stem + ".html" not in live:
             f.unlink()
