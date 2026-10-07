@@ -1,0 +1,71 @@
+{
+ "slug": "yeast-nutrition-zinc-and-fan",
+ "cat": "Brewing science",
+ "h1": "Yeast nutrition: zinc and FAN do most of the work",
+ "title": "Yeast Nutrition: Zinc and FAN Targets | Craft Beer School",
+ "desc": "The two yeast nutrients that matter most: zinc and FAN. Target ranges, how to dose zinc in a 10 hl brew and how rice and maize change the picture.",
+ "teaser": "Sluggish ferments and lingering diacetyl often trace back to two numbers. One of them is under a gram per brew.",
+ "standfirst": "Slow ferments, diacetyl that will not clear and tired repitches cost tank days and sometimes whole batches. Most of the time the fix is two nutrients, zinc and free amino nitrogen, plus a few minutes with a scale and a calculator.",
+ "read": "4 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Most fermentation trouble starts with two numbers",
+   "<p>Malt gives yeast nearly everything it needs. Two things are the exceptions that cause most of the trouble. Zinc is short in almost every wort. Free amino nitrogen (FAN), the amino acids and small peptides yeast uses to build protein, needs balance, because too little and too much both hurt. Zinc is the easy one to fix.</p><p>Get these two right, along with wort oxygen of 8 to 10 mg/L at pitching (our guide to <a href=\"wort-aeration-and-oxygen.html\">wort aeration</a> covers that). Most fermentations then take care of themselves.</p>"
+  ],
+  [
+   "Zinc is short in almost every wort",
+   "<p>Barley carries zinc, but most of it leaves with the rootlets during malting and much of what remains binds to proteins in the mash or drops out with the trub. Yeast needs zinc as a cofactor for hundreds of enzymes, including alcohol dehydrogenase, the enzyme that makes the last step to ethanol.</p><p>The usual target is 0.15 to 0.3 mg/L of zinc in the wort going into the fermenter, with propagation at the upper end. Below about 0.1 mg/L you tend to see slow starts, fermentations that stall a little short, diacetyl that takes days longer to clear and yeast that is weaker each time you repitch it.</p>"
+  ],
+  [
+   "Dosing zinc is a sub-gram job",
+   "<p>The usual source is food-grade zinc sulphate heptahydrate, which is about 22.7% zinc by weight. Work it through for a 10 hl brew aiming at 0.2 mg/L:</p><ol><li>Zinc needed: 1,000 L x 0.2 mg/L = 200 mg.</li><li>Salt needed: 200 mg / 0.227 = about 880 mg, a little under 1 g.</li></ol><p>Add it dissolved in a little water in the last 10 minutes of the boil. Some is lost to the trub, which is why some brewers dose slightly above the target or add a sterile solution on the cold side instead. The real risk is a weighing slip: a 10 g mistake is a tenfold overdose. Use a scale that reads to 0.01 g, write the dose on the brew sheet and have a second person check it. More zinc than the target buys nothing.</p>"
+  ],
+  [
+   "FAN has a floor and a ceiling",
+   "<p>For an all-malt wort around 12 °P, FAN usually lands somewhere between 150 and 250 mg/L. Below roughly 150 mg/L yeast growth starts to suffer. The beer can ferment slowly and finish with more diacetyl and sulphur.</p><p>The ceiling gets less attention. Amino acids the yeast does not use stay in the beer, where they feed spoilage organisms and help form staling aldehydes. A target of under 50 mg/L of residual FAN in finished beer is reasonable, yet a university lab that tested more than 100 commercial craft beers found an average above 100 mg/L, as reported in The New Brewer, the Brewers Association's journal. Heavily dry hopped beers add amino acids of their own on top.</p>"
+  ],
+  [
+   "Rice and maize dilute FAN while malt supplies it",
+   "<p>This is where Indian recipes differ. Rice and maize bring starch and very little FAN. Replace 30% of the grist with rice and the FAN falls by roughly the same share: a wort that would have had 200 mg/L all-malt drops to about 140 mg/L, right at the floor.</p><p>The fixes are to cap the adjunct share, use a malt with a higher FAN figure on its certificate or add a complex yeast nutrient that supplies amino acids, not only nitrogen salts. Read the FAN on your malt analysis before you change the yeast.</p>"
+  ],
+  [
+   "It depends on gravity, strain and dry hop",
+   "<p>How much nutrition a batch needs depends on:</p><ul><li><strong>Gravity.</strong> High-gravity worts stress yeast more and need FAN and zinc nearer the top of the range.</li><li><strong>Strain and generation.</strong> Lager strains and yeast on its fifth or sixth repitch show shortages first. Our guide to <a href=\"yeast-viability-and-vitality.html\">yeast viability and vitality</a> covers how to check.</li><li><strong>Dry hopping.</strong> Big dry hops restart fermentation and add amino acids, so a beer that finished clean can pick up diacetyl and extra FAN late.</li><li><strong>Tank filling.</strong> Fermenters filled from several brews over a long day use FAN less efficiently than single-brew fills.</li></ul>"
+  ],
+  [
+   "Measure once, then dose by habit",
+   "<p>Send one sample of cooled wort and one of finished beer from your flagship to a lab for FAN and zinc. On the next brew add 880 mg of zinc sulphate per 10 hl and log the gravity twice a day. Compare the curve and the time to a clean diacetyl test with the last batch. If it improves, the dose goes on the standard brew sheet.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much zinc should wort have?",
+   "Aim for 0.15 to 0.3 mg/L in the wort going to the fermenter. For a 10 hl brew at 0.2 mg/L that is about 880 mg of zinc sulphate heptahydrate."
+  ],
+  [
+   "What is a good FAN level in wort?",
+   "For an all-malt wort around 12 °P, 150 to 250 mg/L is typical. Below about 150 mg/L fermentation can suffer, while very high levels leave unused amino acids in the beer."
+  ],
+  [
+   "Do rice and maize adjuncts need extra yeast nutrient?",
+   "Often, at higher adjunct shares. They add starch but very little FAN, so a 30% rice grist can pull FAN down near the minimum."
+  ],
+  [
+   "Can I measure zinc myself?",
+   "Not easily. Zinc needs lab equipment, so most small breweries test once at a lab and then dose by calculation."
+  ]
+ ],
+ "cta": {
+  "title": "Ferments that crawl or diacetyl that will not clear?",
+  "body": "Advanced Brewing Science is our six-week live course. It covers yeast metabolism, wort composition and fermentation control in depth, with weekly assignments on your own brews that a single guide cannot give you.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "thiolized-yeast-explained",
+  "trialling-a-new-hop-variety",
+  "control-charts-for-brewers"
+ ]
+}

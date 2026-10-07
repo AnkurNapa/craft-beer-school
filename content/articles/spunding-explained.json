@@ -1,0 +1,71 @@
+{
+ "slug": "spunding-explained",
+ "cat": "Brewing science",
+ "h1": "Spunding: carbonating with your own fermentation CO2",
+ "title": "Spunding Explained: Free Carbonation | Craft Beer School",
+ "desc": "How spunding works: when to close the valve, the pressure for your temperature, tank ratings and what it saves on bought CO2 in an Indian brewery.",
+ "teaser": "Your fermenter makes ten times the CO2 your beer needs. Spunding keeps some of it in the tank instead of the drain.",
+ "standfirst": "Every brewpub that buys CO2 in cylinders knows what happens when a delivery is late or the price jumps. Spunding carbonates the beer with gas the yeast already made, which cuts how much you buy and how much you depend on the truck.",
+ "read": "4 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Your fermenter makes far more CO2 than the beer will hold",
+   "<p>Yeast makes carbon dioxide and ethanol in almost equal weights. A 5% ABV beer holds about 39 g of ethanol per litre, so the fermentation released roughly 38 g of CO2 per litre along the way. In a 10 hl batch that is about 38 kg of gas.</p><p>Carbonating that beer to 2.5 volumes needs only around 3 g per litre, or about 3 kg for the batch. The rest goes out of the blow-off tube. Spunding means closing the tank near the end of fermentation so the last few kilos stay dissolved in the beer instead.</p>"
+  ],
+  [
+   "Close the valve before the yeast finishes",
+   "<p>Timing is the whole skill. Close too early and the beer ferments under pressure for days, which can suppress esters but also traps hydrogen sulphide and acetaldehyde and stresses the yeast. Close too late and there is not enough sugar left to build the carbonation.</p><p>The common practice is to fit the spunding valve when the gravity is 1 to 2 °P above the expected final gravity. Here is why that is enough. A fall of 1 °P apparent is roughly 0.8 °P real, or about 8 g of extract per litre, which releases close to 4 g of CO2 per litre: around two volumes. With 1 to 2 °P left you have headroom for the gas that escapes before the valve starts to hold.</p>"
+  ],
+  [
+   "Pressure and temperature set carbonation together",
+   "<p>Dissolved CO2 depends on both, so a pressure figure means nothing without a temperature next to it. From a standard carbonation chart at sea level:</p><ul><li>Lager at 10 °C and 1.0 bar settles at about 2.3 volumes. At 1.2 bar, about 2.5.</li><li>Ale at 20 °C and 1.0 bar reaches only about 1.7 volumes. It needs close to 2.0 bar to reach 2.6.</li></ul><p>That second line matters. Many brewers spund ales to a modest level and top up with bought gas after the crash, rather than push a tank near its limit. Check the target for the style in our guide to <a href=\"carbonation-levels-by-style.html\">carbonation levels by style</a>.</p><p>Altitude matters too. A gauge reads pressure above the local atmosphere and Bengaluru sits at about 900 m, where the air pressure is roughly 0.1 bar lower than at sea level. Set the valve about 0.1 bar higher than the chart says to get the same carbonation.</p>"
+  ],
+  [
+   "Check the nameplate before you set the pressure",
+   "<p>Read the working pressure stamped on the tank before anything else. Small-brewery fermenters vary widely and some are built only for low pressure. The relief valve must be set below that rating and tested, because the spunding valve is a control, not a safety device.</p><p>Spunding valves also clog. Krausen climbs into the line, the valve sticks and the gauge sits at 0.8 bar while the tank keeps climbing. Leave enough headspace for foam, fit the valve after the most vigorous fermentation has passed, strip and clean it after every batch and watch the tank gauge, not only the one on the valve.</p>"
+  ],
+  [
+   "The saving is real but smaller than people expect",
+   "<p>Work it through for a lager. At the end of fermentation at 10 °C an open tank holds about 1.1 volumes. Taking it to 2.5 volumes needs 1.4 volumes, at about 1.96 g per volume per litre, or 2.7 g per litre. That is 2.7 kg dissolved per 10 hl. At four batches a month it is about 11 kg of CO2 that you no longer buy for carbonation, plus whatever your carbonating stone was losing to venting.</p><p>Multiply that by your own price per kg. Then look at the rest of the gas bill, because purging tanks, kegs and lines often uses more CO2 than carbonation does. Passive recovery, meaning spunding plus linking tank headspaces during transfers, could cut CO2 purchases by almost half, as reported in The New Brewer, the Brewers Association's journal. The bigger benefit in India is often independence: a spunded beer is ready even when the cylinders are late.</p>"
+  ],
+  [
+   "It depends on the strain and the hops",
+   "<p>Whether spunding suits a beer depends on a few things:</p><ul><li><strong>Sulphur.</strong> Lager strains that throw hydrogen sulphide need open venting long enough to carry it off before you close up.</li><li><strong>Diacetyl.</strong> Spund during the diacetyl rest if you like, but test for it before you crash, as you would anyway.</li><li><strong>Dry hopping.</strong> Hops added to a closed tank restart fermentation through <a href=\"hop-creep.html\">hop creep</a>. Pressure and gravity both move, so watch them for two days.</li></ul>"
+  ],
+  [
+   "Start on one lager",
+   "<p>Pick your next lager. Read the tank rating, clean the spunding valve and set it to 1.0 bar plus your altitude correction. Take gravity twice a day near the end and fit the valve at 1.5 °P above final. After the crash, measure the carbonation and write it next to the pressure and temperature you used. One batch will tell you where your tanks really sit.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What pressure should I spund at?",
+   "It depends on temperature. For a lager at about 10 °C, 1.0 to 1.2 bar gives roughly 2.3 to 2.5 volumes at sea level. Ales at 20 °C need close to 2 bar for the same result, so check the tank rating first."
+  ],
+  [
+   "When do I close the spunding valve?",
+   "When the gravity is about 1 to 2 °P above the expected final gravity. That leaves enough sugar to build most of the carbonation without fermenting the whole beer under pressure."
+  ],
+  [
+   "Does spunding change the flavour?",
+   "It can. Pressure during active fermentation tends to lower esters and can trap sulphur, which is why most brewers close the valve only near the end."
+  ],
+  [
+   "Can I spund in any fermenter?",
+   "Only in a tank rated for the pressure you plan to use, with a working relief valve set below that rating. Check the nameplate before you start."
+  ]
+ ],
+ "cta": {
+  "title": "Carbonation that changes from batch to batch?",
+  "body": "Advanced Brewing Science is our six-week live course. It covers CO2 solubility, pressure fermentation and cellar control in depth, with weekly assignments on your own tanks that a single guide cannot give you.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "monotanking-in-a-unitank",
+  "yeast-nutrition-zinc-and-fan",
+  "thiolized-yeast-explained"
+ ]
+}

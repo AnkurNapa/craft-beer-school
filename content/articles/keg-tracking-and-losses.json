@@ -1,0 +1,71 @@
+{
+ "slug": "keg-tracking-and-losses",
+ "cat": "Business",
+ "h1": "Keg tracking: stop losing kegs and the money inside them",
+ "title": "Keg Tracking and Keg Losses | Craft Beer School",
+ "desc": "Why small breweries lose kegs, what a lost keg really costs and the simple tracking system that brings the steel and the beer home.",
+ "teaser": "Every keg you cannot find is working capital parked in someone else's cold room. Here is how to get it back.",
+ "standfirst": "Kegs are the most expensive packaging a craft brewery owns. Most small breweries cannot say where a quarter of them are today. A keg that does not come home costs you the steel, the beer left inside it and the next delivery you cannot fill.",
+ "read": "5 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Most breweries do not lose kegs, they lose track of them",
+   "<p>Ask a founder how many kegs they own and you will get a number. Ask how many are in the cold room, how many are full at outlets and how many are empty and waiting for pickup. The answer turns into a shrug.</p><p>That gap is the problem. A keg rarely disappears in one dramatic theft. It sits in the back store of a bar that has stopped ordering, or it goes out on a challan with no serial number written on it, or it travels with a bar's stock when the outlet changes hands. Six months later nobody can prove whose it was.</p><p>The scale of this is not small anywhere. Reported in The New Brewer, the Brewers Association's journal, US brewers were estimated to be losing almost 400,000 kegs a year around 2010. That is a US figure, from a market with deposits and keg registries. An Indian brewery with neither has less protection, not more.</p>"
+  ],
+  [
+   "A lost keg costs more than the steel",
+   "<p>Work it through with your own numbers. We will use round illustrative figures so you can swap yours in.</p><ul><li>Fleet: 200 kegs of 30 litres.</li><li>Landed cost per keg: take ₹6,000 as an illustration. Use your own invoice.</li><li>Kegs that never come back in a year: 10, which is 5% of the fleet.</li></ul><p>Steel alone: 10 x ₹6,000 = ₹60,000 a year. Now add the beer. If even half of those kegs went missing while still partly full, that is 5 x 15 litres = 75 litres you paid to brew and paid duty on, gone. Then add the delivery you could not make because the cold room was short of empties on a Friday.</p><p>The rule: price a lost keg at its replacement cost plus the beer inside it, never at what a scrap dealer would pay for it.</p>"
+  ],
+  [
+   "Your fleet size is set by how slowly kegs come home",
+   "<p>The bigger hidden cost is not loss, it is dwell time. The number of kegs you need is roughly the kegs you send out each week multiplied by the weeks one keg takes to go round: fill, deliver, sit on tap, sit empty, come back, get washed.</p><p>Say you deliver 40 kegs a week and the average round trip is 5 weeks. You need 40 x 5 = 200 kegs in circulation. Cut the round trip to 4 weeks by collecting empties on every delivery run and you need 160. Those 40 freed kegs are 40 x ₹6,000 = ₹2,40,000 of steel you do not have to buy for your next outlet.</p><p>So measure two numbers every month: kegs lost and average days out. The second one usually matters more.</p>"
+  ],
+  [
+   "A serial number and a spreadsheet beat any app you do not use",
+   "<p>Start with a permanent number on every keg, stamped or laser marked, never a paper sticker that falls off in the washer. Then keep one register with these columns:</p><ol><li>Keg number</li><li>Date filled and batch code</li><li>Outlet delivered to and challan number</li><li>Date delivered</li><li>Date returned and condition</li></ol><p>Ten seconds per keg at the filler and at the loading bay. Write the keg numbers on every delivery challan and get the outlet to sign for the count, both full kegs in and empties out. Barcodes and RFID tags are worth looking at once the register is a habit. Bought before the habit exists, they become one more thing nobody updates.</p><p>The batch column earns its keep twice: it is also the backbone of a <a href=\"beer-recall-plan.html\">recall plan</a>.</p>"
+  ],
+  [
+   "Bars that change hands take your kegs with them",
+   "<p>In Bengaluru, Pune and Goa outlets close, reopen under a new name and change partners often. When that happens, your kegs are physically in a building where the new owner owes you nothing and may not know you exist.</p><ul><li>Put a short written keg agreement in place with every outlet: the kegs remain your property and must be returned on request.</li><li>Take a deposit or a security amount that is above what the steel would fetch as scrap, so returning a keg is always worth more than selling it.</li><li>Run a monthly report of kegs that have been out more than 45 days and send someone to count them in person.</li><li>When you hear an outlet is closing or being sold, go that week, with the signed challans.</li></ul><p>None of this is legal advice. A lawyer should draft the agreement and state excise rules on what may move with a licence differ, so check with your licensing adviser.</p>"
+  ],
+  [
+   "Beer that comes back is a quality problem as well",
+   "<p>A keg that returns with 8 litres still in it is telling you the outlet is pouring that beer too slowly. That beer has sat on a coupler for weeks, sometimes in a cold room switched off overnight. Do not top it up and resend it. Check how your state treats returned or destroyed dutiable beer before you pour it away, because many states expect excise to be involved.</p><p>Then fix the cause: a smaller keg size for slow outlets, fewer taps of your beer at that bar or a different beer. Matching keg size to the rate of sale protects both the steel and the flavour, a point we come back to in <a href=\"kegs-vs-cans-business.html\">kegs versus cans</a>.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Count every keg you can physically see today. Write the number down. Subtract it from the number on your fixed asset register. Then list every outlet holding your kegs and how many each should have.</p><p>The difference between those totals is your starting loss figure. Most founders who do this for the first time find it is larger than they would have guessed. That one figure is usually enough to get the register filled in at the loading bay from Monday.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many kegs does a small brewery need?",
+   "Roughly the kegs you send out each week multiplied by the number of weeks a keg takes to go round from filling to return. Shorten the round trip and you need fewer kegs."
+  ],
+  [
+   "Should I charge bars a keg deposit?",
+   "Many brewers do, set above the scrap value of the steel so returning a keg is always worth more than selling it. Have the agreement drafted by a lawyer and check how your state treats it."
+  ],
+  [
+   "Is RFID keg tracking worth it for a small brewery?",
+   "Only once a simple numbered register is already being filled in every day. Technology speeds up a habit you have, it does not create one."
+  ],
+  [
+   "What should I do with beer left in returned kegs?",
+   "Do not top it up and resend it. Record it, check your state's excise process for destroying beer and use the volume as a signal that the outlet needs a smaller keg or a different beer."
+  ]
+ ],
+ "cta": {
+  "title": "Kegs, cash and stock you cannot see",
+  "body": "Brewery Business Management is a three-week live course (₹8,999) on the numbers that decide whether a small brewery survives: costing, stock, working capital and the systems that keep assets coming home. You build your own keg and stock register as an assignment.",
+  "label": "See the full syllabus",
+  "href": "brewery-business-management-course.html"
+ },
+ "related": [
+  "beer-recall-plan",
+  "brewery-safety-culture",
+  "brewer-burnout"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "control-charts-for-brewers",
+ "cat": "Brewing science",
+ "h1": "Control charts for brewers: noise or a real problem",
+ "title": "Control Charts for Brewers | Craft Beer School",
+ "desc": "How to build an individuals control chart for OG, DO or days to terminal, read the signals and stop adjusting a brewery process for noise.",
+ "teaser": "Your OG came in 0.3 °P low. Before you add malt next time, check whether anything actually changed.",
+ "standfirst": "Brewers lose money two ways with process data: ignoring a real shift and reacting to noise. A control chart in a spreadsheet tells you which one you are looking at. It takes an afternoon to set up.",
+ "read": "4 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "One reading on its own tells you very little",
+   "<p>Your last lager came in at 12.2 °P against a 12.5 °P target. The instinct is to add a few kilos of malt to the next brew. It lands at 12.8, so you take them out again. A month later the original gravity wanders more than it did before you started fixing it.</p><p>That is tampering: adjusting a process in response to ordinary variation. Every adjustment adds its own wobble on top of the noise that was already there. A control chart is the tool that tells you when to leave the process alone and when something has genuinely changed.</p>"
+  ],
+  [
+   "Every process has noise you should leave alone",
+   "<p>No two brews are identical. Malt moisture varies between lots, the mill gap creeps, sparge timing shifts by a few minutes and a hydrometer reads to about 0.1 °P on a good day. Together these produce common-cause variation, the background noise of your brewhouse. You reduce it by improving the system, not by reacting to each batch.</p><p>Special causes are different. A new malt lot with a lower extract, a slipped mill roller or a level probe that has started reading 20 litres short will push the numbers in a way the noise cannot explain. Those deserve an investigation the same week. The chart's job is to separate the two.</p>"
+  ],
+  [
+   "Twenty batches give you limits you can trust",
+   "<p>Breweries make one batch at a time, so the chart that fits is the individuals and moving range chart. You need one number per batch. Twenty batches give sound limits; here are ten to show the working, original gravity in °P:</p><p>12.4, 12.6, 12.3, 12.5, 12.7, 12.4, 12.2, 12.5, 12.6, 12.4</p><ol><li>Average them. The total is 124.6, divided by 10 gives a centre line of 12.46 °P.</li><li>Take the moving range, the gap between each batch and the one before: 0.2, 0.3, 0.2, 0.2, 0.3, 0.2, 0.3, 0.1, 0.2. They add to 2.0, so the average moving range is 2.0 / 9 = 0.22.</li><li>Multiply by the standard constant 2.66: 0.22 x 2.66 = 0.59.</li><li>Your limits are 12.46 - 0.59 = 11.87 °P and 12.46 + 0.59 = 13.05 °P.</li></ol><p>Any batch between those lines is your brewhouse being itself. Do not use the standard deviation of the whole set instead; the moving range method keeps a single bad batch from inflating the limits.</p>"
+  ],
+  [
+   "Some patterns mean act this week",
+   "<p>Three simple signals cover most of what a small brewery needs:</p><ul><li>one point outside either limit</li><li>eight points in a row on the same side of the centre line</li><li>six points in a row steadily rising or falling</li></ul><p>The second signal is the one brewers miss. Eight brews in a row just below 12.46 never trip a limit, but the odds of that happening by chance are less than one in a hundred. Something shifted, often a new malt lot or a change of miller.</p><p>When you make a deliberate change, such as new malt or a recalibrated flow meter, start fresh limits after it. Old limits describe a process that no longer exists.</p>"
+  ],
+  [
+   "Your specification and your limits are different things",
+   "<p>The limits come from the process. The specification comes from you: the recipe, the label, what drinkers expect. Say your spec is 12.5 °P plus or minus 0.3. The process above runs from 11.87 to 13.05, wider than the spec, so it will miss spec on perfectly ordinary batches. Chasing each miss is tampering. The fix is to shrink the noise at source, through mill settings, malt lot handling and sparge control, which is where <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> work pays off.</p><p>The expensive workaround is to brew high so the low batches still pass. Work it through. Brewing at 12.8 instead of 12.5 is 0.3 / 12.5 = 2.4% more extract. A 10 hl brew at 12.5 °P needs about 220 kg of malt at typical brewhouse efficiency, so 2.4% is about 5.3 kg a brew. At 150 brews a year that is about 800 kg of malt. At, say, ₹60 a kilo (use your own invoice), you are paying ₹48,000 a year to hide variation instead of removing it.</p>"
+  ],
+  [
+   "Chart the numbers that cost you money",
+   "<p>Start with three charts, not thirty. Good candidates for a small brewery:</p><ul><li>original gravity, or extract into the fermenter in kg</li><li>days from knockout to terminal gravity</li><li>packaged dissolved oxygen, if you <a href=\"measuring-dissolved-oxygen.html\">measure it</a></li><li>final pH or CO2 volumes for your flagship</li></ul><p>Days to terminal is worth watching in an Indian summer. When the glycol chiller struggles at 40 °C ambient, ferments that usually finish in 6 days start taking 7. No single batch looks alarming. The run of points above the centre line does.</p><p>Reading a run is where process knowledge matters. The chart says something changed; knowing whether to suspect wort oxygen, pitch rate or chiller capacity is the brewing science behind it.</p>"
+  ],
+  [
+   "Your first step is last year's brew sheets",
+   "<p>Open a spreadsheet. Type the original gravity of your last 20 brews of one beer into column B, in order. In column C put the moving range with =ABS(B3-B2) and fill down. Average both columns, work out the limits as above and draw a line chart with the data, centre line and two limits. It takes under an hour. Then pin it next to the brewhouse and add a point after every brew.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many batches do I need before a control chart is useful?",
+   "Twenty gives reliable limits. You can start with ten and recalculate once you reach twenty, as long as you treat the early limits as provisional."
+  ],
+  [
+   "Should I use my specification as the control limits?",
+   "No. Control limits come from what the process actually does. Comparing them with your specification tells you whether the process is capable of meeting it."
+  ],
+  [
+   "What software do I need?",
+   "A spreadsheet is enough. The formulas are an average, an absolute difference and one multiplication. Dedicated quality software helps later when you track dozens of parameters."
+  ]
+ ],
+ "cta": {
+  "title": "Know when your process has really changed",
+  "body": "Advanced Brewing Science is a six-week live course on the fermentation, wort and process science that explains what a shift on the chart means, so you fix the cause instead of tweaking the recipe. Weekend classes, recordings and a certificate.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "cip-water-and-chemical-savings",
+  "standard-work-on-brew-day",
+  "root-cause-analysis-for-brewers"
+ ]
+}

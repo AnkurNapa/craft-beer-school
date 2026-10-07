@@ -1,0 +1,71 @@
+{
+ "slug": "beer-recall-plan",
+ "cat": "Business",
+ "h1": "Planning a beer recall before you need one",
+ "title": "How to Plan a Beer Recall | Craft Beer School",
+ "desc": "What a small brewery needs in place before a recall: batch codes, delivery records, a decision tree, named roles and a timed mock recall.",
+ "teaser": "The day you need a recall plan is the worst day to write one. A small brewery can build it in an afternoon.",
+ "standfirst": "A recall is a test of your records, not your beer. Breweries that can say exactly which batch went to which outlet pull back a few hundred litres. Breweries that cannot pull back everything and lose the trust of every bar on the list.",
+ "read": "4 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The size of a recall is decided months before it happens",
+   "<p>Picture a Tuesday morning. A bar in Pune calls: two cans from your latest IPA have burst in their fridge. You know the beer was canned last week. Can you say which batch, which hour of the canning run and which nine outlets it went to? If you can, you have a problem. If you cannot, you have a crisis.</p><p>The difference is entirely paperwork done earlier. This guide covers what to set up now, while nothing is wrong. It describes process only: FSSAI rules on food recalls and your state's excise rules both apply to beer, they change and they differ by state, so check the current notifications with your licensing adviser. Nothing here is legal advice.</p>"
+  ],
+  [
+   "A code on every package shrinks every recall",
+   "<p>Every keg, can and bottle needs a code that ties it to a batch and a packaging date. The more detail in the code, the smaller the recall.</p><p>Work it through. Say you package three batches of 1,000 litres on the same day and your code shows only the date. A fault found in one batch now covers all three, 3,000 litres instead of 1,000. If your all-in cost is, as an illustration, ₹200 a litre (take your real number from your <a href=\"cost-per-litre-beer.html\">cost per litre</a> sheet), the vague code just cost you 2,000 x ₹200 = ₹4,00,000 in extra beer pulled back, before collection costs.</p><p>A batch code plus the hour of packaging is better still. A filler fault that lasted forty minutes then becomes a recall of forty minutes of stock.</p>"
+  ],
+  [
+   "Traceability runs in both directions",
+   "<p>Forwards: from a batch to every outlet, distributor and taproom keg that received it. That comes from delivery challans that carry batch codes, plus a keg register if you run one, as we describe in <a href=\"keg-tracking-and-losses.html\">keg tracking</a>.</p><p>Backwards: from a batch to every ingredient lot in it. Record the malt, hop, yeast, adjunct and fruit lot numbers on the brew sheet, along with the cleaning and sanitising chemicals used on that tank. If a supplier tells you a malt lot was contaminated, you need to find every batch that used it within the hour, not by reading 40 brew sheets.</p>"
+  ],
+  [
+   "Decide in advance what triggers a recall",
+   "<p>Not every problem is a recall. Brewers usually separate two kinds:</p><ul><li><strong>Safety problems</strong>, where the beer could hurt someone: glass or metal in the package, bottles or cans over-carbonated by a refermentation, a cleaning chemical in the product, a wrong or missing allergen declaration such as wheat. These go to recall.</li><li><strong>Quality problems</strong>, where the beer is safe but not what you meant to sell: diacetyl, oxidation, haze in a clear beer. These are usually a withdrawal from sale at your own discretion.</li></ul><p>Write the list down with one person named who makes the call. On the day, a 15-minute argument about whether it counts is 15 minutes of beer still being poured.</p>"
+  ],
+  [
+   "Name the people and the phone numbers now",
+   "<p>A recall plan for a brewery of 5 to 15 people fits on two pages. It needs:</p><ol><li>The decision maker and a deputy for when they are away.</li><li>The person who pulls the batch records and builds the outlet list.</li><li>The person who calls every outlet, with a short script: what to stop serving, how it will be collected, who to call back.</li><li>Who informs the regulators. Find out now which offices your state expects to hear from and how.</li><li>Where recalled stock is held, labelled and recorded. In many states destroying dutiable beer needs excise involvement, so do not tip it down the drain on day one.</li></ol><p>Keep the contact list of every outlet, with a mobile number for the person who actually runs the bar, in the same file.</p>"
+  ],
+  [
+   "A mock recall is the only test that counts",
+   "<p>Twice a year, pick a batch at random and time how long it takes to produce three things: every outlet that received it with the quantity, every ingredient lot in it and the stock still on site. Set yourself a target, for example two hours. Write down what slowed you down.</p><p>The first drill nearly always fails somewhere boring: a challan without a batch code, a keg delivered by a driver who did not log it, a hop lot written on a whiteboard that was wiped. Each failure is cheap to fix during a drill and expensive during the real thing. This is the kind of system we build with founders in the course below, because a guide can give you the checklist but not the habits around it.</p>"
+  ],
+  [
+   "Start with the code on the package",
+   "<p>Pull one can, one bottle and one keg from your cold room right now. Read the code on each. If any of them cannot be tied to a single batch within five minutes, fix the coding before you write a word of the plan. Everything else in a recall depends on it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is a recall the same as a withdrawal?",
+   "Not usually. Breweries tend to use recall for beer that could harm someone and withdrawal for beer that is safe but below standard. Check how FSSAI and your state define and require each, as rules change."
+  ],
+  [
+   "What is the most common physical hazard in packaged beer?",
+   "Glass is a well-known one in bottled beer, from breakage on the line. Over-carbonated packages that can burst are another, usually from refermentation."
+  ],
+  [
+   "How often should we run a mock recall?",
+   "Twice a year is a sensible minimum for a small brewery. Run another whenever you change your packaging line or coding system."
+  ],
+  [
+   "Can we just pour recalled beer away?",
+   "Not without checking. In many states destroying beer on which duty is paid or due needs excise involvement, so hold it, label it and ask your licensing adviser."
+  ]
+ ],
+ "cta": {
+  "title": "Know where every batch went, in minutes",
+  "body": "Brewery Business Management is a three-week live course (₹8,999) on the systems behind a small brewery: batch records, stock, costing and the plans you hope never to use. You leave with your own recall plan and a mock recall to run.",
+  "label": "See the full syllabus",
+  "href": "brewery-business-management-course.html"
+ },
+ "related": [
+  "brewery-safety-culture",
+  "brewer-burnout",
+  "flagship-beer-strategy"
+ ]
+}

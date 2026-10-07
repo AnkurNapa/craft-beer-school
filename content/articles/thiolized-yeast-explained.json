@@ -1,0 +1,71 @@
+{
+ "slug": "thiolized-yeast-explained",
+ "cat": "Brewing science",
+ "h1": "Thiolized yeast and biotransformation, explained",
+ "title": "Thiolized Yeast and Biotransformation | Craft Beer School",
+ "desc": "What thiols are, how yeast frees them from malt and hops, how engineered thiol-boosting strains work and what to check before trying one in India.",
+ "teaser": "Most of the passion fruit in your hops and malt is locked away. Some new yeast strains carry the key.",
+ "standfirst": "Hazy IPA brewers spend heavily on hops for tropical fruit aroma, yet much of the fruit is already in the wort in a form the nose cannot detect. Understanding thiols and biotransformation tells you where that aroma comes from and whether an engineered yeast is worth a trial in your brewery.",
+ "read": "3 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Most of the fruit is locked away",
+   "<p>Malt and hops carry thiols, the sulphur compounds behind passion fruit, guava and grapefruit, but mostly in a bound form. The thiol is attached to an amino acid or a small peptide and has no smell at all until something cuts it free.</p><p>Ordinary brewing yeast does cut some of it free, through an enzyme called beta-lyase, but only a small fraction. Most of the potential aroma goes straight through the fermenter and down the drain with the spent yeast.</p>"
+  ],
+  [
+   "Thiols work at parts per trillion",
+   "<p>The numbers are what make thiols interesting. The main ones and their usual aroma thresholds in beer and wine work are:</p><ul><li><strong>3MH</strong> (also written 3SH): grapefruit and passion fruit, noticed at about 60 ng/L.</li><li><strong>3MHA</strong>: passion fruit and guava, at about 4 ng/L.</li><li><strong>4MMP</strong>: blackcurrant and box tree, catty in excess, at about 1.5 ng/L.</li></ul><p>A nanogram per litre is one part per trillion. At 60 ng/L, 3MH in a 10 hl batch weighs 60 micrograms in total, far less than a grain of salt. You can still smell it. Small changes in release make big changes in the glass.</p>"
+  ],
+  [
+   "Biotransformation is yeast editing the hop",
+   "<p>Biotransformation means yeast changing hop compounds into different ones. It happens in several ways at once. Yeast enzymes free terpene alcohols that were bound to sugars. Ale yeast turns some geraniol, which smells of rose, into citronellol, which smells of citrus. Beta-lyase frees bound thiols and yeast can then turn some 3MH into the even more potent 3MHA.</p><p>Brewers chase this by dry hopping during active fermentation, when the yeast is busiest, rather than only after it. Our <a href=\"dry-hopping-guide.html\">dry hopping guide</a> covers timing and the trade-off with oxygen and hop creep.</p>"
+  ],
+  [
+   "Thiol-boosting strains switch the enzyme on",
+   "<p>Thiolized is a registered trademark of Omega Yeast, which was among the first to sell brewing strains engineered to release far more thiols. Other yeast labs now offer their own thiol-boosting strains. The principle is the same: give the yeast an active beta-lyase so it frees a much larger share of the bound precursors.</p><p>Earlier attempts with wine yeasts known for thiols did poorly in beer, largely because nutrient-rich wort switches the enzyme down. Engineering got around that. These strains are genetically modified, which matters for what comes next.</p><p>Because barley malt supplies much of the precursor, the malt bill changes the result. Wheat and oats carry very little. Blending the engineered strain with its unmodified parent, or swapping some barley malt for wheat or oats, turns the intensity down if the first trial is too loud.</p>"
+  ],
+  [
+   "In India, check the rules before the order",
+   "<p>Genetically modified organisms in food are regulated in India and the position on GM yeast in beer is not something to assume. Before ordering, ask your licensing adviser to check the current food-regulator position and the import paperwork for live cultures. Rules vary and change.</p><p>Then there is transport. A liquid culture needs an unbroken cold chain from the lab to your door and on a 38 °C day the courier leg is the weak link. Ask how it ships and how long it can sit warm.</p>"
+  ],
+  [
+   "The money question is the hop bill",
+   "<p>The case for a trial is about hops. A hazy IPA dry hopped at 12 g/L uses 12 kg in a 10 hl batch. If a thiol-forward version tastes as good to your panel at 8 g/L, that is 4 kg less per batch. Multiply by your price per kg and by batches a year, then subtract the extra cost of the yeast. Whether it works out depends on your hops, your beer and your drinkers, so trial it rather than assume it.</p>"
+  ],
+  [
+   "Start with a split batch",
+   "<p>Brew one 10 hl hazy IPA and split it across two fermenters. Pitch the usual strain in one and a thiol-boosting strain in the other, with the same hops and schedule. Package both and run a blind triangle test with your panel at one and four weeks. If you want to change the hops at the same time, read <a href=\"trialling-a-new-hop-variety.html\">trialling a new hop variety</a> first and change one thing at a time.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does thiolized yeast do?",
+   "It is engineered to release far more thiols, the sulphur aroma compounds behind passion fruit and guava, from bound precursors in malt and hops. Thiolized is a registered trademark of Omega Yeast."
+  ],
+  [
+   "Is biotransformation the same as dry hopping?",
+   "No. Dry hopping adds hops. Biotransformation is the yeast changing hop and malt compounds into new aromas, which is why some brewers dry hop during active fermentation."
+  ],
+  [
+   "Can I use a thiol-boosting yeast in India?",
+   "These strains are genetically modified, so check the current food-regulator position and import requirements with a licensing adviser before ordering."
+  ],
+  [
+   "Can the thiol character be too strong?",
+   "Yes. Blend the strain with its unmodified parent, use some wheat or oats in place of barley malt or adjust the hop rate to bring it down."
+  ]
+ ],
+ "cta": {
+  "title": "The chemistry behind hop aroma",
+  "body": "Advanced Brewing Science is our six-week live course on yeast metabolism, hop chemistry and fermentation control, taught by working brewers on weekend afternoons.",
+  "label": "See what the course covers",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "trialling-a-new-hop-variety",
+  "control-charts-for-brewers",
+  "cip-water-and-chemical-savings"
+ ]
+}

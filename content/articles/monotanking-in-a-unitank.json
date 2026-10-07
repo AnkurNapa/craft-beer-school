@@ -1,0 +1,71 @@
+{
+ "slug": "monotanking-in-a-unitank",
+ "cat": "Brewing science",
+ "h1": "Monotanking: fermenting, conditioning and serving from one tank",
+ "title": "Monotanking in a Unitank, Explained | Craft Beer School",
+ "desc": "How to ferment, condition, carbonate and serve from one unitank: the steps, the cone, the tank-time sums and when monotanking costs more than it saves.",
+ "teaser": "Skip the brite tank and serve straight from the fermenter. It saves a transfer and a clean, but it can cost you a tank for six weeks.",
+ "standfirst": "Every transfer in a brewpub costs beer, oxygen and a clean. Monotanking removes the transfer to the brite tank, but it ties up a fermenter for longer, so the sums need doing before the habit forms.",
+ "read": "4 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Every transfer costs beer, oxygen and a clean",
+   "<p>Moving beer from a fermenter to a brite tank loses beer in hoses and tank bottoms, gives oxygen a way in and leaves one more tank to clean. In a 10 hl brewpub the loss is often tens of litres per transfer. The dissolved oxygen picked up can matter more than the litres for a hoppy beer.</p><p>Monotanking keeps the beer in one unitank from pitch to pour. The yeast is dropped out of the cone, the beer is chilled and carbonated in place and the taps draw from the racking arm. One vessel, one clean, no transfer.</p>"
+  ],
+  [
+   "One tank does four jobs in a set order",
+   "<p>The sequence for an ale in a 10 hl unitank looks like this:</p><ol><li>Ferment at the strain's temperature, usually 18 to 21 °C. Hold for the diacetyl rest until a forced test is clean.</li><li>Dump yeast from the cone once fermentation is finished, before you chill.</li><li>Crash to 0 to 2 °C over a day or two. Our guide to <a href=\"cold-crashing.html\">cold crashing</a> covers the pace.</li><li>Dump the cone every day for the first two or three days of the crash, until little comes out.</li><li>Carbonate in place, either by <a href=\"spunding-explained.html\">spunding</a> near the end of fermentation or with the stone, to 2.4 to 2.6 volumes.</li><li>Serve from the racking arm under constant CO2 top pressure at about 2 °C.</li></ol>"
+  ],
+  [
+   "The cone is where monotanking goes wrong",
+   "<p>In a brite tank the yeast is left behind. In a monotank it sits under the beer for weeks. Kept cold and dumped regularly that is fine. Left warm or ignored, yeast starts to break down and the beer picks up meaty, rubbery or savoury notes.</p><p>The racking arm is the other trap. Turned too low it pulls sediment and the first pours of the day come out cloudy. Set it once the cone is clean, mark its position on the tank and pull a small sample before the first pour of every service. Dry hop material settles into the cone too and can block the dump valve, so dump soon after dry hopping, while it is still loose.</p>"
+  ],
+  [
+   "Tank time is the real price",
+   "<p>Here is the sum that decides it. Say an ale spends 14 days fermenting and conditioning, then the taproom sells 2.5 hl of it a week. A 10 hl tank takes four weeks to empty. One full cycle is six weeks, or about eight to nine batches a year from that tank.</p><p>The same tank used only as a fermenter, with the beer moved on at day 14, can turn about 26 batches a year. You are trading roughly two thirds of that fermenter's capacity for one fewer transfer and clean per batch.</p><p>So monotanking pays when you have more fermenters than your sales need, or for a beer that sells fast enough to empty the tank in a week or two. It costs you when tank space is what limits production.</p>"
+  ],
+  [
+   "Serving from a unitank needs serving-tank habits",
+   "<p>A unitank used for serving has to behave like a serving tank. Hold top pressure steady so carbonation does not drift as the level falls. Hold temperature at about 2 °C, which in a 35 °C May means checking the insulation and the glycol chiller load, because a jacket designed for fermenting has to work harder to hold cold beer for weeks. Run the tap line from the racking arm, never from the cone.</p>"
+  ],
+  [
+   "It depends on clarity, strain and speed of sale",
+   "<p>Monotanking suits some beers better than others. It depends on:</p><ul><li><strong>The strain.</strong> Flocculent ale yeasts drop out cleanly. Low-flocculating strains keep clouding the arm.</li><li><strong>The style.</strong> A hazy IPA forgives some haze. A crystal clear lager that needs weeks of cold conditioning ties up the tank even longer.</li><li><strong>Filtration.</strong> You cannot filter between fermenter and tap without a transfer, so if a beer needs filtering it needs a brite tank.</li><li><strong>Speed of sale.</strong> Beer that sits for six weeks on a yeast cone is the case to avoid.</li></ul><p>Dry hopping in a closed unitank also raises <a href=\"dry-hopping-guide.html\">dry hopping</a> questions about oxygen and pressure, so purge the hop addition and watch the gauge.</p>"
+  ],
+  [
+   "Try it on your fastest seller first",
+   "<p>Look at last month's sales and pick the beer that empties a tank fastest. Monotank one batch of it. Record the litres you did not lose, the clean you did not run and the days the tank was occupied. Compare those against your normal route and decide on numbers rather than habit.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is monotanking the same as using a unitank?",
+   "No. A unitank is the vessel, a cylindro-conical tank that can ferment and hold pressure. Monotanking is the practice of fermenting, conditioning and serving from that one vessel without a transfer."
+  ],
+  [
+   "Does beer get worse sitting on the yeast?",
+   "Only if it is warm or neglected. Dump the cone after fermentation and daily during the crash, hold it near 2 °C and plan to empty the tank within a few weeks."
+  ],
+  [
+   "Can I serve lager straight from a unitank?",
+   "Yes, if it has had its cold conditioning and you do not need to filter it. Expect the tank to be tied up for longer than an ale."
+  ],
+  [
+   "When should I keep using a brite tank?",
+   "When the beer needs filtering, when it sells slowly or when fermenter space is what limits how much you can brew."
+  ]
+ ],
+ "cta": {
+  "title": "Short of tanks or losing beer at every transfer?",
+  "body": "Advanced Brewing Science is our six-week live course. It covers fermentation, conditioning and cellar planning in depth, with weekly assignments built on your own tanks and sales that a single guide cannot give you.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "yeast-nutrition-zinc-and-fan",
+  "thiolized-yeast-explained",
+  "trialling-a-new-hop-variety"
+ ]
+}

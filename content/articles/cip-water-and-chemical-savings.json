@@ -1,0 +1,71 @@
+{
+ "slug": "cip-water-and-chemical-savings",
+ "cat": "Brewing science",
+ "h1": "Cutting CIP water and chemicals without cutting corners",
+ "title": "Cutting CIP Water and Chemicals | Craft Beer School",
+ "desc": "Measure what each clean uses, rinse to an endpoint, reuse caustic safely and trade heat for time, with worked litres and rupees for a brewpub.",
+ "teaser": "Most small breweries rinse by the clock. The clock is usually wrong. Here is how to rinse by the result.",
+ "standfirst": "Cleaning is one of the biggest water and chemical bills in a small brewery. Most of the waste sits in rinses that run long after the job is done. Cut it with measurements, never with guesses, because an infection costs more than a year of caustic.",
+ "read": "4 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Most rinses run long after the job is done",
+   "<p>Stand at the drain of a 20 hl fermenter during its final rinse. The return ran clear and the pH strip read neutral three minutes in. The procedure says ten minutes, so the pump keeps going. Nobody wrote that number down after testing it. It came from a supplier sheet or a previous brewer.</p><p>Breweries with no water plan can use upwards of 10 litres of water per litre of beer, while careful ones have got close to 3, as reported in The New Brewer, the Brewers Association's journal. In India, where water may arrive by borewell, tanker or RO plant with its own reject stream, every litre carries a cost.</p>"
+  ],
+  [
+   "Measure what one clean actually uses",
+   "<p>Put a flow meter on the CIP supply line, or time a bucket at the spray ball return. Say your pump delivers 4,000 litres an hour, about 67 litres a minute. Now time a typical fermenter clean:</p><ul><li>pre-rinse: 8 minutes</li><li>rinse after caustic: 10 minutes</li><li>rinse after acid: 8 minutes</li></ul><p>That is 26 minutes, or 26 x 67 = 1,742 litres of rinse water, before you count the chemical solutions. Most brewers are surprised by the figure the first time they see it.</p>"
+  ],
+  [
+   "Rinse to an endpoint, not a time",
+   "<p>Replace fixed times with a test at the return. After caustic, rinse until a sample from the return stays colourless with a drop of phenolphthalein, or until conductivity at the return is back near your incoming water. After acid, rinse until the pH matches the supply. A cheap pen meter does the job.</p><p>Break the pre-rinse into bursts as well: 30 to 60 seconds of water, drain fully, repeat. Each burst carries away loose soil instead of diluting it in a full sump. Three bursts usually clean better than one long rinse.</p><p>In the example above, bursts plus endpoints might bring the rinse time to about 11 minutes. That is 15 minutes x 67 = about 1,000 litres saved per clean. At six fermenter cleans a week for 50 weeks, that is 300,000 litres a year. Multiply by what a kilolitre costs you once pumping, RO reject and effluent treatment are counted. At ₹150 a kilolitre (use your own figure), that is ₹45,000.</p>"
+  ],
+  [
+   "Reuse caustic, but titrate it every time",
+   "<p>A 300 litre batch of 2% caustic holds 6 kg of sodium hydroxide. Dumped after every clean, 300 cleans use 1,800 kg. Recovered in a CIP tank, topped up after each use and recharged weekly, the same year might use 300 x 1 kg plus 50 x 6 kg, or 600 kg. At, say, ₹60 a kilo, the difference is 1,200 kg x ₹60 = ₹72,000.</p><p>The catch is carbon dioxide. Caustic reacts with CO2 left in a fermenter to form sodium carbonate, which cleans poorly, so recovered caustic quietly weakens. Titrate it before each use and top up to strength. Purge CO2 from the tank first: caustic absorbing the gas can pull a vacuum strong enough to collapse a fermenter that was built for pressure, not suction.</p>"
+  ],
+  [
+   "Heat, time, chemical and flow trade against each other",
+   "<p>Cleaning results come from four things: chemical strength, temperature, contact time and mechanical action. Within limits you can trade one for another. Fermenters and brite tanks carry light soil and often clean well with 1 to 2% caustic at ambient, which in much of India is already 25 to 35 °C. Brewhouse vessels with baked-on soil still need hot caustic.</p><p>Heat is not free. Warming 300 litres from 30 to 75 °C takes 300 x 4.186 x 45 / 3,600 = about 15.7 kWh. On a DG set during a power cut, at roughly 3 kWh per litre of diesel, that is about 5 litres of diesel for one clean.</p><p>Flow is the input most often ignored. Pipes need turbulent flow, roughly 1.5 to 2 m/s, to scour the walls. A pump that cannot deliver that will leave soil whatever the chemical strength.</p>"
+  ],
+  [
+   "Cut nothing you have not validated",
+   "<p>Change one variable at a time and check the result before the next change. Swab with ATP after the clean, plate a sample of the final rinse and look inside with a torch. Keep the acid step. If you are unsure how far a cut can go, the <a href=\"cip-cleaning-in-place.html\">CIP basics</a> and a <a href=\"brewery-qc-lab-on-a-budget.html\">budget QC lab</a> are where to start. A single infected 20 hl batch wipes out years of caustic savings. Knowing which soil each vessel carries is the brewing science that tells you where to stop.</p>"
+  ],
+  [
+   "Your first step is a flow meter on the CIP supply",
+   "<p>Fit one this month and log litres per clean for every vessel for two weeks. You will find one clean that uses twice what the others do. Start there.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is cold caustic CIP safe for fermenters?",
+   "For light soil in fermenters and brite tanks, 1 to 2% caustic at ambient is common practice, often with an additive from your chemical supplier. Validate it with ATP swabs and rinse plating before you rely on it."
+  ],
+  [
+   "How do I know recovered caustic is still strong enough?",
+   "Titrate it before each use with a method that separates carbonate from free hydroxide. Your chemical supplier can provide the kit and the method."
+  ],
+  [
+   "Can I reuse final rinse water?",
+   "Many breweries use the final rinse of one clean as the pre-rinse of the next, stored in a clean tank. Never reuse it as a final rinse."
+  ],
+  [
+   "Why purge CO2 before a caustic clean?",
+   "Caustic absorbs CO2, which weakens the caustic and can pull a vacuum inside a closed tank. Fermenters can collapse under a small vacuum even though they handle positive pressure well."
+  ]
+ ],
+ "cta": {
+  "title": "Clean with less water without risking the beer",
+  "body": "Advanced Brewing Science is a six-week live course covering the chemistry of soil, cleaning and contamination, so you can cut CIP costs knowing exactly where the safe limits are. Weekend classes, recordings and a certificate.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "standard-work-on-brew-day",
+  "root-cause-analysis-for-brewers",
+  "forced-ageing-tests"
+ ]
+}

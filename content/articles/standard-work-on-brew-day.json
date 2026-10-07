@@ -1,0 +1,71 @@
+{
+ "slug": "standard-work-on-brew-day",
+ "cat": "Brewing science",
+ "h1": "Standard work: taking an hour out of brew day",
+ "title": "Standard Work on Brew Day | Craft Beer School",
+ "desc": "How to time a brew day, find the waiting and walking hidden in it and write standard work that takes an hour out without hurting the wort.",
+ "teaser": "Most brew days lose an hour to waiting for water and hunting for fittings. Here is how to find it.",
+ "standfirst": "A brew day that runs ten hours when the recipe needs eight costs labour, power and a brew slot every week. Standard work is how a small brewery gets that time back while making the beer more consistent, not less.",
+ "read": "4 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Most brew days are longer than the beer needs",
+   "<p>Picture a 10 hl brewpub at 7 am. The brewer arrives, switches on the hot liquor tank and waits 50 minutes for strike temperature. During the mash rest he walks to the store for hops that were never weighed. At knockout a tri-clamp gasket is missing. Then the power goes, the DG set starts and nobody is sure which loads it can carry with the heating elements on. The beer is fine. The day ends at 6 pm.</p><p>None of that time made the wort better. Standard work is how you take it out.</p>"
+  ],
+  [
+   "Standard work is today's best way, written down",
+   "<p>Standard work is not a thick SOP folder. It is the current best known way to do a job, with the order of steps, how long each takes and the target for every parameter that matters, with its range.</p><p>Here is a quick test. Ask two of your brewers, separately, three questions about your flagship pale ale: mash temperature, target mash pH and the gravity at which they stop collecting runnings. If one says 66 °C and pH 5.3 and the other says 67 °C and \"around 5.4\", you do not have a standard. You have two brewers. Many breweries stop the sparge when runnings fall to about 2.5 °P (1.010) or the pH climbs towards 5.8. Whatever your number is, everyone should give the same one.</p>"
+  ],
+  [
+   "Time the day before you try to shorten it",
+   "<p>On your next brew, walk alongside with a phone stopwatch and log when every step starts and stops. Mark each block as working on the beer, waiting or walking. A typical 10 hl day might look like this:</p><ul><li>heating liquor to strike: 50 min, all waiting</li><li>milling and mash-in: 40 min</li><li>mash rest: 60 min</li><li>lauter and sparge: 100 min</li><li>heating to boil and boil: 70 min</li><li>whirlpool and rest: 30 min</li><li>knockout to fermenter: 45 min</li><li>clean-down: 75 min</li></ul><p>That adds up to 470 minutes, close to eight hours, before walking, searching and breaks. The rest of the ten-hour day is in the gaps between the lines.</p>"
+  ],
+  [
+   "The hour hides in waiting and walking",
+   "<p>Look for work that can happen before the shift or in parallel with steps that need no attention:</p><ul><li>Put the liquor tank heating on a timer so it reaches strike temperature as the brewer arrives. That alone recovers most of the 50 minutes.</li><li>Weigh and label every hop and salt addition during the mash rest, in a tray in boil order.</li><li>Dig out and rinse the mash tun during the boil instead of after knockout.</li><li>Keep a brew-day kit of gaskets, clamps and hoses on one trolley, checked at the end of each brew.</li><li>Write the DG set sequence onto the sheet: which elements and pumps to switch off when the power cuts, so nobody trips the set while the glycol is running.</li></ul><p>Do not shorten the steps that make the beer. Cutting the boil to save 15 minutes can leave DMS behind; cutting the mash rest can cost extract. Knowing which steps carry the chemistry is brewing science. It is also the line between saving time and losing quality. One small brewery reported in The New Brewer, the Brewers Association's journal, took about an hour out of a 5 barrel (about 6 hl) brew day.</p>"
+  ],
+  [
+   "An hour a brew is worth more than it looks",
+   "<p>Work it through with your own numbers. Three brews a week for 50 weeks is 150 brews. An hour saved on each is 150 hours. With a brewer and an assistant on every brew, that is 300 person-hours a year. At a loaded cost of, say, ₹300 an hour (take yours from payroll), that is ₹90,000.</p><p>The bigger win is capacity. In a busy summer, 150 hours is about fifteen ten-hour brew days. If demand is there, that is room for a fourth brew in some weeks without hiring. A shorter day also means fewer tired mistakes at 5 pm, which is when hoses get left open.</p>"
+  ],
+  [
+   "Write it for the station, not the shelf",
+   "<p>Put the standard on one laminated sheet at the brewhouse, not in a binder in the office. Each line gets the step, the target and range, the time it should take and a short why. Photograph the valve positions for each stage and print them beside it. A new brewer should be able to run a supervised brew from that sheet on day three.</p><p>Record actuals against the targets on every brew sheet. Those figures feed <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> tracking and show when a step starts drifting.</p>"
+  ],
+  [
+   "Change the standard, never drift from it",
+   "<p>Anyone can propose a better way. Trial it on two brews, compare the timing and the wort numbers, then rewrite the sheet with a version number and date. What nobody does is quietly do it differently. When a brew misses its targets, treat it with <a href=\"root-cause-analysis-for-brewers.html\">root cause analysis</a> and update the standard with what you learn.</p><p>Your first step: time your next brew day, minute by minute. Then circle every block marked waiting.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Will standard work make our beers less creative?",
+   "No. It covers how the kit is run, not what the recipe is. Brewers who are not firefighting the process have more time and attention for recipe work."
+  ],
+  [
+   "How long should a standard work sheet be?",
+   "One page per job if you can. If it needs more, the job probably needs splitting into two sheets, such as brewhouse and clean-down."
+  ],
+  [
+   "Can I mill the night before to save time?",
+   "Only if the crushed malt is sealed against moisture and pests. In monsoon humidity crushed malt picks up water quickly, so many brewers mill the same morning while the liquor heats."
+  ],
+  [
+   "Who should write the standard?",
+   "The people who do the job, with the head brewer checking targets and ranges. A standard written in the office and handed down is rarely followed."
+  ]
+ ],
+ "cta": {
+  "title": "Shorten brew day without hurting the wort",
+  "body": "Advanced Brewing Science is a six-week live course on the mash, boil and fermentation chemistry behind each step, so you know which minutes you can save and which ones make the beer. Weekend classes, recordings and a certificate.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "root-cause-analysis-for-brewers",
+  "forced-ageing-tests",
+  "spunding-explained"
+ ]
+}

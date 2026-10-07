@@ -1,0 +1,67 @@
+{
+ "slug": "preventive-maintenance-plan-brewery",
+ "cat": "Business",
+ "h1": "A preventive maintenance plan for a small brewery",
+ "title": "Preventive Maintenance for Breweries | Craft Beer School",
+ "desc": "Build a preventive maintenance plan for a small brewery: asset list, intervals, critical spares, owners and the downtime number to track.",
+ "teaser": "A dusty chiller coil in May can cost more than the chiller service did all year.",
+ "standfirst": "Most small breweries fix kit when it breaks, which means fixing it on the worst possible day. A preventive maintenance plan on one spreadsheet costs a few hours a month and protects every batch in the cellar.",
+ "read": "4 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Breakdowns pick the worst possible day",
+   "<p>It is 3 pm in May. The glycol chiller trips on high pressure because the condenser fins are matted with dust and the air around it is 40 °C. By the time anyone notices, three fermenters of lager have drifted from 12 °C towards 18 °C. Nobody bought the wrong chiller. Nobody cleaned the coil since February.</p><p>That is what reactive maintenance looks like. The fault was predictable, the fix took half an hour with a soft brush and a hose. It was skipped because nothing had gone wrong yet.</p>"
+  ],
+  [
+   "A breakdown costs more than the part",
+   "<p>Price the chiller failure with your own numbers. Three 10 hl fermenters hold 3 x 1,000 = 3,000 litres. At a making cost of, say, ₹70 a litre (take yours from your books), that is ₹2,10,000 of beer at risk. Even if the lager is saved, warm fermentation can leave esters or diacetyl that set it back by days.</p><p>Then add the hidden costs: a technician called out on a Sunday, a part couriered from Mumbai or imported over several weeks and a tap list with gaps. Against that, cleaning a condenser coil once a month costs a few hours of time a year. One brewery reported in The New Brewer, the Brewers Association's journal, estimated that regular chiller maintenance avoids 30 to 40 hours of downtime a year.</p>"
+  ],
+  [
+   "Start with a list of what can stop production",
+   "<p>Walk the brewery and list every piece of kit whose failure would stop brewing, cooling or serving. For a typical 5 to 20 hl brewpub that means the mill, brewhouse pumps, the heating source, the glycol chiller and pump, the air compressor, the RO plant, the DG set, the keg washer, CO2 regulators and the pressure and vacuum relief valves on every tank.</p><p>For each one, record make, model, serial number, supplier contact, where the manual is and which parts wear. One row per asset in a spreadsheet is enough. That list is your asset register. It is worth having even if you do nothing else.</p>"
+  ],
+  [
+   "Set intervals from the manual, then from your own records",
+   "<p>Take the first intervals from each manufacturer's manual, then adjust them from what you find. A starting schedule might look like this:</p><ul><li>Daily: glycol temperature and level, compressor pressure, any drips at pump seals.</li><li>Weekly: inspect hoses and gaskets, check CO2 regulators, look at RO pressures.</li><li>Monthly: clean chiller condenser coils (fortnightly in dusty summer months), change RO pre-filters when the pressure drop says so, run the DG set under load.</li><li>Quarterly: test tank pressure and vacuum relief valves, check pump alignment and belts.</li><li>Yearly: replace tank and valve gaskets, calibrate thermometers and gauges against a reference, service the chiller and compressor.</li></ul><p>Service the DG set by running hours, as its manual specifies, not by the calendar. In a year of frequent power cuts the hours add up fast.</p>"
+  ],
+  [
+   "Critical spares are cheaper than waiting",
+   "<p>Some parts take weeks to arrive, especially for imported kit. Keep a shelf of the ones that stop production when they fail: a pump mechanical seal, a set of tank gaskets, a spare temperature probe, a glycol solenoid valve, a pH probe and the fuses for your control panel.</p><p>Work out the trade-off for each part. If a mechanical seal costs a few thousand rupees and the brewhouse sits idle for two weeks without it, the seal pays for itself the first time it fails. A part that is cheap and in stock at the local supplier can stay there.</p>"
+  ],
+  [
+   "A plan only works when someone owns each line",
+   "<p>Give every task an owner and put it on a shared calendar or a tab in the asset spreadsheet. When it is done, the owner records the date, what they found and any parts used. A task that keeps finding nothing can move to a longer interval. One that keeps finding problems moves shorter.</p><p>Track two numbers each month: hours of unplanned downtime and the share of planned tasks done on time. If the second is below about 90%, the plan is too big for the team. Trim it to what will actually happen. Running a brewery like this, with costs, people and kit on one page, is the business side most brewers were never taught. It is also where <a href=\"brewery-failure-reasons.html\">many small breweries come unstuck</a>.</p>"
+  ],
+  [
+   "Your first step is a walk with a notebook",
+   "<p>This week, walk the brewery and write down the five pieces of kit that would stop production tomorrow if they failed. For each, find the manual and one maintenance task you can schedule this month. Start with the <a href=\"glycol-cooling-systems.html\">glycol system</a> if it is summer.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need maintenance software for a small brewery?",
+   "No. A spreadsheet or shared calendar with an owner for each task works well for a brewpub. Dedicated maintenance software becomes useful once you have several sites or dozens of assets."
+  ],
+  [
+   "How often should brewery gaskets be replaced?",
+   "Many breweries replace tank and valve gaskets yearly, sooner if they crack, harden or start holding soil. Follow the material guidance from your equipment supplier."
+  ],
+  [
+   "Should the equipment supplier do our maintenance?",
+   "Use them for specialist servicing such as chiller refrigerant work. Daily and weekly checks are better done by your own team, who see the kit every day."
+  ]
+ ],
+ "cta": {
+  "title": "Stop losing batches to breakdowns",
+  "body": "Brewery Business Management is a three-week live course on running the operation behind the beer: costs, people, planning and the systems that keep a small brewery out of firefighting. Weekend classes, recordings and a certificate.",
+  "label": "See the full syllabus",
+  "href": "brewery-business-management-course.html"
+ },
+ "related": [
+  "keg-tracking-and-losses",
+  "beer-recall-plan",
+  "brewery-safety-culture"
+ ]
+}

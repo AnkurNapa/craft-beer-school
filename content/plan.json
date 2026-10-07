@@ -5342,5 +5342,305 @@
   "segment": "Professional brewers",
   "stage": "consideration",
   "date": "2026-10-03"
+ },
+ {
+  "slug": "root-cause-analysis-for-brewers",
+  "h1": "Root cause analysis: stop solving the same brewery problem twice",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "forced-ageing-tests",
+   "spunding-explained",
+   "monotanking-in-a-unitank"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "forced-ageing-tests",
+  "h1": "Forced ageing tests: tasting month three in week one",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "spunding-explained",
+   "monotanking-in-a-unitank",
+   "yeast-nutrition-zinc-and-fan"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "spunding-explained",
+  "h1": "Spunding: carbonating with your own fermentation CO2",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "monotanking-in-a-unitank",
+   "yeast-nutrition-zinc-and-fan",
+   "thiolized-yeast-explained"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "monotanking-in-a-unitank",
+  "h1": "Monotanking: fermenting, conditioning and serving from one tank",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "yeast-nutrition-zinc-and-fan",
+   "thiolized-yeast-explained",
+   "trialling-a-new-hop-variety"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "yeast-nutrition-zinc-and-fan",
+  "h1": "Yeast nutrition: zinc and FAN do most of the work",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "thiolized-yeast-explained",
+   "trialling-a-new-hop-variety",
+   "control-charts-for-brewers"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "thiolized-yeast-explained",
+  "h1": "Thiolized yeast and biotransformation, explained",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "trialling-a-new-hop-variety",
+   "control-charts-for-brewers",
+   "cip-water-and-chemical-savings"
+  ],
+  "segment": "Professional brewers",
+  "stage": "awareness",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "trialling-a-new-hop-variety",
+  "h1": "Trialling a new hop without risking your flagship",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "control-charts-for-brewers",
+   "cip-water-and-chemical-savings",
+   "standard-work-on-brew-day"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "control-charts-for-brewers",
+  "h1": "Control charts for brewers: noise or a real problem",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "cip-water-and-chemical-savings",
+   "standard-work-on-brew-day",
+   "root-cause-analysis-for-brewers"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "cip-water-and-chemical-savings",
+  "h1": "Cutting CIP water and chemicals without cutting corners",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "standard-work-on-brew-day",
+   "root-cause-analysis-for-brewers",
+   "forced-ageing-tests"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "standard-work-on-brew-day",
+  "h1": "Standard work: taking an hour out of brew day",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "root-cause-analysis-for-brewers",
+   "forced-ageing-tests",
+   "spunding-explained"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "regenerative-barley-and-sustainable-malt",
+  "h1": "Regenerative barley and sustainable malt: what a brewer can ask for",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "barley-malting-process",
+   "base-malts-explained",
+   "crystal-and-caramel-malts"
+  ],
+  "segment": "Professional brewers",
+  "stage": "awareness",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "flagship-beer-strategy",
+  "h1": "Why a brewery needs a flagship, and when to retire one",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "related": [
+   "preventive-maintenance-plan-brewery",
+   "keg-tracking-and-losses",
+   "beer-recall-plan"
+  ],
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "preventive-maintenance-plan-brewery",
+  "h1": "A preventive maintenance plan for a small brewery",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "related": [
+   "keg-tracking-and-losses",
+   "beer-recall-plan",
+   "brewery-safety-culture"
+  ],
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "keg-tracking-and-losses",
+  "h1": "Keg tracking: stop losing kegs and the money inside them",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "related": [
+   "beer-recall-plan",
+   "brewery-safety-culture",
+   "brewer-burnout"
+  ],
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "beer-recall-plan",
+  "h1": "Planning a beer recall before you need one",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "related": [
+   "brewery-safety-culture",
+   "brewer-burnout",
+   "flagship-beer-strategy"
+  ],
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "brewery-safety-culture",
+  "h1": "Building a safety culture in a small brewery",
+  "cat": "Business",
+  "course": "safety-in-brewing-course.html",
+  "related": [
+   "brewer-burnout",
+   "flagship-beer-strategy",
+   "preventive-maintenance-plan-brewery"
+  ],
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "brewer-burnout",
+  "h1": "Burnout in brewing: spotting it before you lose a good brewer",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "related": [
+   "flagship-beer-strategy",
+   "preventive-maintenance-plan-brewery",
+   "keg-tracking-and-losses"
+  ],
+  "segment": "Founders",
+  "stage": "awareness",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "bringing-back-a-retired-beer",
+  "h1": "Bringing back a retired beer: nostalgia as a sales tool",
+  "cat": "Branding",
+  "course": "beer-branding-packaging-course.html",
+  "related": [
+   "younger-drinkers-and-craft-beer",
+   "naming-a-beer-brand",
+   "beer-label-design"
+  ],
+  "segment": "Brand builders",
+  "stage": "awareness",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "younger-drinkers-and-craft-beer",
+  "h1": "What younger drinkers want from craft beer",
+  "cat": "Branding",
+  "course": "beer-branding-packaging-course.html",
+  "related": [
+   "bringing-back-a-retired-beer",
+   "naming-a-beer-brand",
+   "beer-label-design"
+  ],
+  "segment": "Brand builders",
+  "stage": "awareness",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
+ },
+ {
+  "slug": "cold-ipa-explained",
+  "h1": "Cold IPA: the lager-brewed IPA, explained",
+  "cat": "Styles",
+  "course": "sensory-evaluation-course.html",
+  "related": [
+   "pilsner-style-guide",
+   "helles-style-guide",
+   "marzen-and-oktoberfest"
+  ],
+  "segment": "Beer lovers",
+  "stage": "awareness",
+  "batch": "house-style-1",
+  "date": "2026-10-07"
  }
 ]

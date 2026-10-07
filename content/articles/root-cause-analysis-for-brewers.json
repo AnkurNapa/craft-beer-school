@@ -1,0 +1,71 @@
+{
+ "slug": "root-cause-analysis-for-brewers",
+ "cat": "Brewing science",
+ "h1": "Root cause analysis: stop solving the same brewery problem twice",
+ "title": "Root Cause Analysis for Brewers | Craft Beer School",
+ "desc": "A practical root cause method for small breweries: define the gap, run the 5 whys on checked facts, fix the process and prove the fix held.",
+ "teaser": "Dumping the tank stops bad beer reaching the bar. It does nothing about why it went bad.",
+ "standfirst": "Every repeat fault in a brewery is money paid twice for the same lesson. This is the method we teach for finding the cause that actually has to change, on a 10 hl brewhouse with no quality department.",
+ "read": "5 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A fix that lasts a week was only containment",
+   "<p>Picture the third buttery batch of house lager this quarter. Last time the cellar team dumped half a tank, blamed the yeast and pitched fresh slurry. The next two batches were clean. Now the butter is back and the same meeting is about to happen again.</p><p>Dumping the tank was containment. It kept bad beer off the bar, which was the right call on the day. It changed nothing about why the beer went buttery, so the cause stayed in the process and waited for the next batch. Root cause analysis is the habit of going one step further once the fire is out, until you find the thing that has to change for the problem to stay gone.</p><p>On a 10 hl brewhouse that habit pays quickly. A dumped batch is 1,000 litres you paid to make and will never sell.</p>"
+  ],
+  [
+   "The gap has to be a number before anyone names a cause",
+   "<p>Most investigations go wrong in the first five minutes, when someone announces a cause before anyone has described the problem. Write the gap first: what should have happened against what did happen, in numbers.</p><p>\"The lager is buttery\" is a complaint. \"Diacetyl target below 0.1 mg/L at packaging; batches 41 and 44 failed a forced diacetyl test on the day they were crashed\" is a gap. It tells you which batches to compare and what a fixed process would look like.</p><p>Then go and look. Pull the brew sheets, gravity logs and glycol readings for the two bad batches and two good ones. Stand at the tank. Ask the brewer who ran the shift what felt different, before memory tidies it up. The answer you get on the floor is often not the one you get in the office.</p>"
+  ],
+  [
+   "Money decides which problems get the full treatment",
+   "<p>You cannot run a full investigation on every split hose. Set triggers instead and write them down, so nobody argues about it on the day. A sensible starting list for a small brewery:</p><ul><li>any dumped or blended-away batch</li><li>any packaged lot outside its specification</li><li>unplanned downtime longer than 30 minutes</li><li>any injury or near miss</li></ul><p>To set a rupee trigger, price a lost batch. Take your <a href=\"cost-per-litre-beer.html\">cost per litre</a> from your own books. Say it comes to ₹70 for malt, hops, yeast, power, water, CO2 and labour. A 10 hl batch is 10 x 100 = 1,000 litres, so a dumped tank costs 1,000 x ₹70 = ₹70,000 before you count the beer you could not sell. Through a taproom the lost sales are worth several times the making cost. Our rule of thumb: anything costing more than a tenth of a batch, here ₹7,000, earns an hour of structured thinking.</p>"
+  ],
+  [
+   "Each why needs an answer you have checked",
+   "<p>The 5 whys is the simplest tool in the box and the easiest to abuse. The rule that makes it work: every answer must be something you verified in a log, a sample or on the floor. For the buttery lager it might run like this.</p><ol><li>Why was it buttery? It was crashed on day 9 with diacetyl still present. The fermentation log shows the crash and the retained sample fails a forced test.</li><li>Why was it crashed on day 9? The tank was booked for Friday's brew.</li><li>Why was the beer not finished by then? Fermentation ran two days slower than usual, which the gravity log confirms.</li><li>Why was it slow? The pitch came from a fifth-generation slurry that nobody counted, so it fell well short of the usual 1.5 million cells per mL per °P for a lager.</li><li>Why did nobody count? The schedule has no step that asks for a cell count or a diacetyl test before crash.</li></ol><p>Look at where it ends. Not at \"bad yeast\" and not at the cellar brewer. It ends at a process that assumes a nine-day lager and has no gate to stop it when the assumption fails. The obvious first answer, old yeast, was only part of the story.</p>"
+  ],
+  [
+   "Fix the process and people keep reporting problems",
+   "<p>If an investigation ends with a name, people stop telling you about problems. You will hear about the next one from a customer instead. Aim every countermeasure at a step, a tool or a schedule.</p><p>Each countermeasure gets one owner and one date. For the lager: a forced diacetyl test written into the crash step and signed on the brew sheet, owned by the head brewer from Monday; a cell count with a haemocytometer and methylene blue before every lager pitch, owned by whoever harvests; lager tanks booked for 14 days on the brew plan rather than 9.</p><p>In consulting work we often see the countermeasure list grow to a dozen items. Three that get done beat twelve that do not. Treat each one as a hypothesis, because that is what it is until the data says otherwise.</p>"
+  ],
+  [
+   "A fix is confirmed when the number moves and stays moved",
+   "<p>Decide in advance what proof looks like. Here it might be the next five lager batches passing the forced test before crash, with days to terminal gravity back within a day of normal. If one fails, the analysis was wrong or incomplete. Go back to the fourth why and look again.</p><p>Plot the result rather than eyeballing it. A simple <a href=\"control-charts-for-brewers.html\">control chart</a> of days to terminal gravity shows whether the fix shifted the process or you had two lucky batches. Once it holds, rewrite the procedure so the new step becomes <a href=\"standard-work-on-brew-day.html\">standard work</a> for everyone, not a habit of the one brewer who was in the meeting.</p><p>The hard part is rarely the paperwork. It is knowing that a slow ferment points at pitch rate, wort oxygen or zinc before it points at the yeast supplier. That is brewing science. Without it the whys go round in circles.</p>"
+  ],
+  [
+   "Your first step is one sheet and one small problem",
+   "<p>Take a sheet of A4 and draw four boxes: gap, cause, countermeasures, confirmation. Pick a small, irritating problem from this week, a hose that keeps splitting or a mash pH that drifts 0.2 high. Fill the sheet in with the team standing at the kit. Pin it where everyone walks past. The second sheet will take half the time of the first.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many whys do I actually need?",
+   "As many as it takes to reach something in the process you can change. Five is a guide, not a rule. Stop when the next answer would be outside your control, such as the weather."
+  ],
+  [
+   "What if there is more than one cause?",
+   "There often is. Run a separate chain for each verified branch and give each its own countermeasure, then confirm them one at a time if you can."
+  ],
+  [
+   "Is root cause analysis worth it for a small brewpub?",
+   "Yes, because small breweries feel each lost batch harder. One sheet of paper and an hour with the team costs far less than a 10 hl tank down the drain."
+  ],
+  [
+   "Who should lead the investigation?",
+   "Someone who was not responsible for the step that failed, working with the people who were. The person running the shift knows the facts; a fresh pair of eyes asks the awkward questions."
+  ]
+ ],
+ "cta": {
+  "title": "Stop chasing the same faults batch after batch",
+  "body": "Advanced Brewing Science is a six-week live course on the yeast, wort and process science behind faults like this one, so your whys end at a real cause rather than a guess. Live weekend classes, recordings and a certificate.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "forced-ageing-tests",
+  "spunding-explained",
+  "monotanking-in-a-unitank"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "brewery-safety-culture",
+ "cat": "Business",
+ "h1": "Building a safety culture in a small brewery",
+ "title": "Safety Culture in a Small Brewery | Craft Beer School",
+ "desc": "How a small brewery builds safety habits that hold on a busy day: the real hazards, daily routines, near-miss logs and what the owner must do.",
+ "teaser": "A safety poster has never stopped a brewer climbing into a tank full of CO2. Habits do. Here is how a small team builds them.",
+ "standfirst": "In a five-person brewery one injury takes out a fifth of your labour and sometimes your only brewer. Safety culture is what your team does when nobody is watching and the brew is running late.",
+ "read": "4 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Breweries hurt people in a handful of predictable ways",
+   "<p>A brewhouse looks calm until you list what is in it. Wort at 100 °C. Caustic cleaning solution at around 2% strength, run hot through tanks and pipes. Fermenters that have just produced hundreds of litres of carbon dioxide. Kegs and tanks under pressure. Grain dust at the mill. A wet floor under all of it.</p><p>Almost every serious brewery injury comes from that short list: scalds, chemical burns, CO2 in a confined space, pressurised vessels letting go, slips and the occasional hand near a moving auger. The good news is that a short list can be managed. The bad news is that familiarity makes each item feel harmless by the hundredth brew.</p>"
+  ],
+  [
+   "Culture is the owner's job, not a poster's",
+   "<p>Teams copy what the founder does, not what the founder says. If the owner walks onto the floor in sandals during a CIP cycle, the face shield on the hook becomes optional for everyone by Friday.</p><p>Three things only the owner can do:</p><ul><li>Follow every rule personally, every time, including the annoying ones.</li><li>Thank people publicly when they stop a job because something looked wrong, even when it costs a brew day.</li><li>Budget for it: gauntlets, face shields, a CO2 monitor and the time for training are line items, not favours.</li></ul><p>Indian factory and state labour safety rules also apply to a brewery and they change, so check your obligations with your consultant. Treat them as the floor, not the goal.</p>"
+  ],
+  [
+   "CO2 is the hazard you cannot see or smell",
+   "<p>Carbon dioxide is heavier than air and pools in tanks, cellars and pits. Widely used workplace limits put the safe average exposure over a shift at 5,000 ppm (0.5%). Around 40,000 ppm (4%) is treated as immediately dangerous to life. A fermenter that has just been emptied can hold far more than that.</p><p>So the rules are simple and absolute:</p><ol><li>Nobody puts their head or body inside a tank without a written entry permit, tested air and a second person outside.</li><li>Ventilate low-lying cellars and fit a fixed CO2 alarm where people work near fermenters.</li><li>If someone collapses inside a vessel, you call for help and do not go in after them without breathing apparatus. Rescuers become the second casualty.</li></ol>"
+  ],
+  [
+   "Daily habits beat annual training",
+   "<p>A once-a-year session is forgotten by the next monsoon. What sticks is small and frequent:</p><ul><li>A five-minute talk at the start of each brew day: what is hot, what is under pressure, what is being cleaned today.</li><li>Lock out and tag out any pump, mill or auger before hands go near it. One lock, one key, held by the person doing the work.</li><li>Written steps for hot and chemical jobs, kept where the job happens. Our guide to <a href=\"cip-cleaning-in-place.html\">cleaning in place</a> covers the chemistry side.</li><li>Heavy, hot jobs moved to the cooler hours in Indian summers, when a brewhouse floor in May can be far hotter than the city outside. Heat makes tired people careless.</li></ul>"
+  ],
+  [
+   "Near misses are free lessons, if you write them down",
+   "<p>For every injury there are many moments when something almost happened: the hose that whipped loose, the keg that vented in someone's face, the caustic splash that hit the boot instead of the eye. Each one tells you exactly where the next injury will come from.</p><p>Keep a near-miss notebook by the brewhouse door. Three lines per entry: what happened, what could have happened, what we changed. Review it at the monthly team meeting. If the notebook is empty after a month, people are not reporting, which is a culture problem in itself. Never punish an honest entry, or the entries stop.</p>"
+  ],
+  [
+   "The cost of skipping it, worked through",
+   "<p>Take a brewery brewing three times a week with a team of five, two of them on the brew deck. A scald that keeps one brewer off work for two weeks leaves one person running a two-person brew day. Realistically you lose most of 6 brews, or you run them short-handed and tired, which is how the second accident happens.</p><p>On a 10 hl brewhouse, 6 lost brews is 6,000 litres of beer that does not reach your taps or your outlets in time. Set that against the cost of a face shield and a five-minute talk. The arithmetic is not close.</p><p>Where a guide runs out is turning this into your own written programme. That is what the free course below walks a team through, with your own floor plan in front of you.</p>"
+  ],
+  [
+   "Start with one walk round",
+   "<p>Tomorrow, before the first brew, walk the brewery with the whole team and a notebook. Stop at every hot surface, every chemical drum, every vessel someone could climb into and every machine with a moving part. Ask the person who works there what could go wrong. Fix the easiest three items that week. Write the rest on a list with a name and a date beside each.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the biggest hidden hazard in a brewery?",
+   "Carbon dioxide. It is invisible, has no warning smell at dangerous levels and collects in tanks and low cellars. Tank entry needs tested air, a permit and a second person outside."
+  ],
+  [
+   "Do small breweries need a written safety programme?",
+   "Yes. Even a two-page set of rules, permits and a near-miss log is far better than relying on memory. Indian factory and state labour rules may also require specific measures, so check with your consultant."
+  ],
+  [
+   "How do we get staff to report near misses?",
+   "Make it easy, with a notebook by the door. Never punish an honest report. Review entries as a team and show what changed because of them."
+  ]
+ ],
+ "cta": {
+  "title": "Turn good intentions into a written safety programme",
+  "body": "Safety in Brewing is a free one-week live course covering the real hazards on a brewery floor, from CO2 and confined spaces to hot chemicals and pressure. Your team leaves with permits, checklists and a near-miss system built for your own site.",
+  "label": "See the full syllabus",
+  "href": "safety-in-brewing-course.html"
+ },
+ "related": [
+  "brewer-burnout",
+  "flagship-beer-strategy",
+  "preventive-maintenance-plan-brewery"
+ ]
+}

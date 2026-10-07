@@ -1,0 +1,67 @@
+{
+ "slug": "trialling-a-new-hop-variety",
+ "cat": "Brewing science",
+ "h1": "Trialling a new hop without risking your flagship",
+ "title": "Trialling a New Hop Variety | Craft Beer School",
+ "desc": "How to test a new or experimental hop on a split batch, adjust for alpha acids, run a triangle test and decide before you commit a whole tank.",
+ "teaser": "A new hop smells wonderful in the bag. The question is what it does to 1,000 litres of the beer that pays your rent.",
+ "standfirst": "Every brewer wants to try the hop everyone is talking about. Put it straight into the flagship and a bad call costs you a full tank plus the regulars who notice. Here is how we trial a hop on half the risk with a result you can trust.",
+ "read": "4 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A hop that smells good in the bag proves almost nothing",
+   "<p>Rubbing pellets between your palms tells you about the oil in that sample on that day. It does not tell you how the hop behaves in your water, with your yeast, after five days on a dry hop at 12 °C.</p><p>The usual move is to swap the new hop into the next batch of the flagship and see. That is the expensive way to learn. On a 10 hl brewhouse dry hopping at 8 g per litre, one batch uses 8 kg of hops and puts 1,000 litres of your best seller on the line. A trial needs to answer one question, does the new hop make this beer better or worse, while betting as little of the flagship as possible.</p><p>New and experimental varieties make the risk sharper. Breeding a hop takes about ten years, as reported in The New Brewer, the Brewers Association's journal. Many numbered varieties never reach wide release. A hop you love this year may not be on offer in two.</p>"
+  ],
+  [
+   "Read the certificate of analysis before you read the marketing",
+   "<p>Ask the supplier for the lot analysis: alpha acids, beta acids, total oil in ml per 100 g and the hop storage index (HSI). Aroma descriptors are a sales sheet. The numbers are the hop.</p><p>Alpha acids decide your bittering swap. If the flagship takes 1.2 kg of a 12% alpha hop at 60 minutes and the newcomer is 14%, the new weight is 1.2 x 12 / 14 = 1.03 kg. Change the bittering weight and nothing else, or you will be tasting your arithmetic instead of the hop.</p><p>Total oil decides the dry hop. A lot at 1.5 ml per 100 g and a lot at 3 ml per 100 g are different ingredients at the same grams per litre.</p>"
+  ],
+  [
+   "Imported hops need a cold chain plan before the order",
+   "<p>Most hops used in Indian craft brewing travel from the United States, Germany, New Zealand or Australia by sea, then clear customs. Plan the trial in months, not weeks, because a hop you cannot reorder in time is a hop you cannot put into the flagship anyway.</p><p>Storage is where trials quietly fail. Pellets want to live sealed and cold, below 0 °C in a freezer or cold room. A carton that sat for a week at 30 °C on a loading dock has already lost aroma, which means your trial measured the warehouse. Write the arrival date, the storage temperature and the HSI on the trial sheet. Our guide to <a href=\"hop-storage-and-freshness.html\">hop storage and freshness</a> covers the rest.</p>"
+  ],
+  [
+   "Split the batch so the beer is the only difference",
+   "<p>Brew one normal 10 hl batch of the flagship and split it into two 5 hl fermenters after knockout. Same wort, same yeast, same pitch, same temperature profile. The control half gets the house dry hop. The trial half gets the new hop at the same 8 g per litre, which is 4 kg on each side.</p><p>Now the money. Put your own landed hop price in here; for the arithmetic, take ₹5,000 a kilo. The trial risks 4 kg, so ₹20,000 of hops, plus 500 litres that can still be sold as a one-off if the result is poor. Swapping the whole batch risks 8 kg, ₹40,000 of hops and 1,000 litres of the flagship. Half the exposure buys you a proper control.</p><p>A 50 litre pilot is cheaper still, but dry hop extraction in a small vessel behaves differently from a production tank, so it is better for screening five hops than for deciding on one.</p>"
+  ],
+  [
+   "A triangle test turns opinions into a decision",
+   "<p>Give each taster three samples, two the same and one different. Ask which is the odd one out. Guessing gets a third right. With 12 tasters you need at least 8 correct answers before you can say, at the usual 5% confidence level, that people really can tell the beers apart.</p><p>Only once they can tell the difference does the preference question matter. Ask the tasters who picked correctly which they would rather drink. Run the test at packaging and again after four weeks cold, because some new hops fade faster than the variety they replace. Our guide to <a href=\"running-a-sensory-panel.html\">running a sensory panel</a> explains how to set this up without a lab.</p><p>This is the point where most trials go soft: someone tastes once, says it is nicer and the flagship changes. Designing a fair test is a skill. It is the gap a structured course in brewing science fills.</p>"
+  ],
+  [
+   "Commit only when supply and taste both pass",
+   "<p>A trial passes when the panel tells the beers apart, prefers the new one and the supplier can promise the volume you need for a year. On a 10 hl flagship brewed twice a month at 8 kg per batch, that is 24 batches and 192 kg of dry hop alone. If the supplier can only offer 50 kg, use the hop in a seasonal and leave the flagship alone.</p><p>It depends on what the flagship is to your business. If it is half your volume, change it rarely and only on evidence. If it is one beer among eight on the taps, you can afford to move faster.</p><p>Your first step: before ordering, ask the supplier for the lot analysis and the volume they can hold for you across a full year.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much of a new hop should I buy for a trial?",
+   "Enough for one split batch plus a repeat, so you can confirm the result. On a 10 hl brewhouse dry hopping at 8 g per litre, that is about 8 kg."
+  ],
+  [
+   "Can I trial a hop on a homebrew or pilot batch?",
+   "Yes, for screening several hops quickly. For a decision about a flagship, a split production batch is more reliable because dry hop extraction changes with vessel size."
+  ],
+  [
+   "What is a triangle test?",
+   "Tasters get three samples, two identical and one different, then pick the odd one. With 12 tasters, 8 or more correct answers means the difference is real rather than luck."
+  ],
+  [
+   "How should I adjust bitterness for a hop with different alpha acids?",
+   "Scale the bittering weight by the ratio of alpha acids: old weight x old alpha / new alpha. Keep everything else the same so the trial tests the hop."
+  ]
+ ],
+ "cta": {
+  "title": "Test ingredients like a scientist, not a gambler",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes (₹12,999) on hop chemistry, fermentation and how to design trials and sensory tests that give you a clear answer.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "control-charts-for-brewers",
+  "cip-water-and-chemical-savings",
+  "standard-work-on-brew-day"
+ ]
+}

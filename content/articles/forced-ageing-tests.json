@@ -1,0 +1,71 @@
+{
+ "slug": "forced-ageing-tests",
+ "cat": "Brewing science",
+ "h1": "Forced ageing tests: tasting month three in week one",
+ "title": "Forced Ageing Tests for Beer | Craft Beer School",
+ "desc": "How to run a forced ageing test in a small brewery: the warm box, the cold reference, the tasting schedule and how to turn it into a date on the can.",
+ "teaser": "A week in a warm box will tell you roughly what your beer tastes like after months on a shelf. Here is how to run it with twelve cans.",
+ "standfirst": "Your customers taste your beer weeks after you do, often after it has sat somewhere warm. A forced ageing test lets you taste that future beer now, cheaply, so the date on the can is a decision rather than a guess.",
+ "read": "4 min",
+ "updated": "2026-10-07",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Heat is a fast-forward button for staling",
+   "<p>Staling is chemistry and chemistry runs faster when it is warm. The working rule most brewers use is that the rate of these reactions roughly doubles to triples for every 10 °C rise in temperature.</p><p>Do the sum for a beer held at 30 °C against one in a 4 °C cold store. That is a 26 °C gap, or 2.6 steps of 10 °C. At a doubling per step the warm beer ages about six times faster (2 to the power 2.6). At a tripling it ages about seventeen times faster. So one week at 30 °C stands in for somewhere between six and seventeen weeks cold, which is where the idea of tasting month three in week one comes from.</p><p>That range is wide on purpose. Heat also drives some reactions that barely happen in a cold store, so a forced sample shows you the direction and the speed of change. It does not give you an exact replica of a three-month-old can. Treat it as an early warning.</p>"
+  ],
+  [
+   "In India the warm box is closer to the truth than the cold store",
+   "<p>In Europe a forced test is a stress test. Here it is often a preview of ordinary trade. A carton that leaves a cold room in Bengaluru or Pune can spend days in a delivery van, a distributor's godown or a shop shelf where 32 to 38 °C in summer is normal.</p><p>So read your results two ways. The cold-equivalent estimate tells you how long the beer lasts if the cold chain holds. The warm result itself tells you what happens when it does not, which for much Indian packaged beer is the more honest number. Our guide to <a href=\"beer-staling-chemistry.html\">beer staling chemistry</a> covers what is happening inside the can while it sits there.</p>"
+  ],
+  [
+   "Twelve cans and a cold reference are enough",
+   "<p>You do not need a lab. You need a stable warm place, a cold place and discipline.</p><ol><li>Pull twelve cans or bottles from the middle of the packaging run, not the first or last few, which carry extra oxygen.</li><li>Put six in your coldest store at 0 to 4 °C, in the dark. These are your reference.</li><li>Put six in a warm cabinet held at 30 °C, also in the dark. A lab incubator is ideal; a thermostat-controlled cabinet works if you log its temperature every day.</li><li>Pull two warm and two cold packages at one, two and four weeks. Chill the warm ones to serving temperature for a day before tasting.</li></ol><p>Two of each per pull gives a panel of five enough for a blind triangle test at 40 ml a pour. Write down the total package oxygen if you can measure it, because it predicts the result better than anything else. If you cannot yet, our guide to <a href=\"measuring-dissolved-oxygen.html\">measuring dissolved oxygen</a> shows where to start.</p>"
+  ],
+  [
+   "Taste for change, not for a verdict",
+   "<p>The first question is simple: can the panel tell the warm sample from the cold one? Run it as a triangle test, three cups with two the same. Ask tasters to pick the odd one. With five tasters, four or five correct answers is a real difference, three is a maybe and two or fewer is noise.</p><p>Once a difference shows, describe it. Hop aroma fades first in IPAs and pale ales. Pale lagers drift towards paper and cardboard. Malty beers pick up honey and sherry. Bitterness often turns harsher and lingers. Score each note from 0 to 5 at every pull so you can see the slope rather than one snapshot.</p><p>For haze there is a separate standard forced test: 48 hours at 60 °C, then 24 hours at 0 °C, then a turbidity reading. It tells you about colloidal stability, not flavour, so run it as well rather than instead.</p>"
+  ],
+  [
+   "The money is in the date on the can",
+   "<p>A 10 hl batch fills about 3,000 cans of 330 ml. The test uses twelve, or 4 litres, which is 0.4% of the batch. Now set that against the cost of getting the date wrong. If 10% of a batch comes back or gets written off because it sat past its best, that is 300 cans. Put your own cost per can into both numbers: twelve against three hundred is the whole case.</p><p>To set the date, take the first pull where the panel reliably finds a difference. Say that is two weeks at 30 °C. Use the cautious end of the range, six times. That gives about twelve weeks cold. If your beer travels warm, shorten it again, because those two weeks may be two weeks on a hot shelf.</p>"
+  ],
+  [
+   "It depends on oxygen, hops and alcohol",
+   "<p>A forced test result is only as good as the batch it came from. It depends on:</p><ul><li><strong>Packaged oxygen.</strong> A run with high total package oxygen will stale faster in both boxes. Test more than one run before you trust a date.</li><li><strong>Hop load.</strong> Heavily dry hopped beers lose their aroma first, so their useful life is shorter even when they never taste stale.</li><li><strong>Strength and colour.</strong> Stronger and darker beers hide early staling better and some improve for a while.</li><li><strong>Your panel.</strong> Five trained tasters beat fifteen untrained ones. Train them on fresh and aged pairs first.</li></ul>"
+  ],
+  [
+   "Start with your next packaging run",
+   "<p>Before the next run, clear a shelf in the cold room, set up the warm cabinet and log its temperature for three days so you know it holds. On packaging day pull twelve from the middle, label them with the batch code and put three tasting dates in the calendar. Four weeks later you will know more about your shelf life than most breweries ever write down.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should a forced ageing test use?",
+   "Most small breweries use 30 °C because it is warm enough to speed staling several times over without cooking the beer. Some use 37 °C for a quicker answer, but the higher you go the less the result looks like real ageing."
+  ],
+  [
+   "How long does a forced ageing test take?",
+   "Pull samples at one, two and four weeks at 30 °C. Most pale and hoppy beers show a clear difference within that window."
+  ],
+  [
+   "Can a forced test tell me my exact shelf life?",
+   "No. It gives a direction and a rough speed. Use the cautious end of the conversion and confirm it by tasting real stored packages over time."
+  ],
+  [
+   "Do I need a lab to run one?",
+   "No. You need a warm cabinet with a steady temperature, a cold store, a batch code on every package and a small trained panel that tastes blind."
+  ]
+ ],
+ "cta": {
+  "title": "Beer that tastes tired before its date?",
+  "body": "Advanced Brewing Science is our six-week live course. It covers staling chemistry, oxygen control and how to design shelf-life studies on your own beer, with weekly assignments a single guide cannot give you.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "spunding-explained",
+  "monotanking-in-a-unitank",
+  "yeast-nutrition-zinc-and-fan"
+ ]
+}
