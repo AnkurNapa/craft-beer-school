@@ -1,0 +1,73 @@
+{
+ "slug": "new-brewing-yeast-strains-2026",
+ "cat": "Industry update",
+ "h1": "New brewing yeast strains in 2026 and how brewers use them",
+ "title": "New Brewing Yeast Strains 2026 | Craft Beer School",
+ "desc": "Engineered thiol and diacetyl strains, POF-negative and STA1-negative yeasts, hybrids and NA strains: what is new in 2026 and how to trial them.",
+ "teaser": "Yeast labs are now editing out the faults brewers used to manage by hand. Here is what is on the shelf and what to check before you pitch it.",
+ "standfirst": "The biggest change in brewing yeast is not a new flavour. It is strains bred or engineered to remove a problem: diacetyl, phenols, diastatic spoilage or too much alcohol. We go through what is new, the numbers from the labs' own sheets and how a working brewery should trial them.",
+ "read": "4 min",
+ "updated": "2026-10-08",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Yeast is being designed around faults",
+   "<p>For most of brewing history you picked a strain and then managed its habits. Ale yeast threw diacetyl, so you held a rest. Saison yeast could be diastatic, so you kept it away from the packaging hall. The 2026 shelf looks different. Labs now sell strains where the habit has been bred or engineered out, alongside new strains bred for aroma. Two kinds you already know have their own guides: <a href=\"thiolized-yeast-explained.html\">thiol-boosting yeast</a> and <a href=\"kveik-yeast-for-hot-climates.html\">kveik for hot climates</a>. This piece covers the rest.</p>"
+  ],
+  [
+   "Engineered strains with a regulator's paper trail",
+   "<p>In the US, engineered brewing yeasts go through the FDA's GRAS notice process and the filings are public. Omega Yeast's OYR-290 carries a cysteine-thiol lyase gene from <em>Staphylococcus hominis</em> to release more 3SH, the passion fruit thiol. It was built from the Chico ale strain, received by the FDA on 13 January 2025 and filed on 17 April 2025 (<a href=\"https://www.fda.gov/media/189742/download\">FDA filing letter</a>).</p><p>The FDA's inventory also lists strains that express an alpha-acetolactate decarboxylase (ALDC), Omega's OYR-481 and Berkeley Yeast's BY-927, both marked \"FDA has no questions\" (<a href=\"https://www.fda.gov/food/gras-notice-inventory/recently-published-gras-notices-and-fda-letters\">FDA GRAS inventory</a>). ALDC converts acetolactate, the precursor of diacetyl, straight to acetoin, which has little flavour. In practice that can mean less waiting for diacetyl to clean up and shorter tank time.</p><p>In India, do not assume an engineered culture can be imported or used. Ask your licensing adviser to check the current food-regulator position in writing first.</p>"
+  ],
+  [
+   "Bred, not edited",
+   "<p>Plenty of new strains carry no foreign genes at all. They come from crossing two parents or from adaptive laboratory evolution, which means growing yeast for many generations under the conditions you want it to tolerate.</p><ul><li><strong>LalBrew Pomona</strong>, developed by Escarpment Laboratories by breeding and evolution in strong, heavily hopped IPA fermentations: 18 to 22 °C, 75 to 84% attenuation (<a href=\"https://murphyandson.co.uk/wp-content/uploads/2024/07/Pomona-TDS-ENG-8.5x11-Print-LalBrew.pdf\">Pomona data sheet</a>).</li><li><strong>Escarpment Superfog and Superlager</strong>, named on the lab's 2026 strain poster in March: a lab-evolved haze strain for IPAs and a clean lager strain with enhanced thiol biotransformation (<a href=\"https://escarpmentlabs.com/en-us/blogs/resources/new-download-2026-strain-poster\">Escarpment Labs, 4 March 2026</a>).</li></ul><p>These strains suit a brewer who wants new aroma without the regulatory question that comes with genetic engineering.</p>"
+  ],
+  [
+   "POF-negative and STA1-negative strains",
+   "<p>POF means phenolic off-flavour, the clove and smoky character from ferulic acid decarboxylation. It is right in a weissbier and wrong in a pale ale. Lallemand's LalBrew NovaLager is a POF-negative hybrid lager strain that ferments at 10 to 20 °C with 78 to 84% attenuation. Its data sheet lists it as diastaticus-negative (<a href=\"https://www.themaltmiller.co.uk/wp-content/uploads/2022/09/NOVALAGER-DATASHEET.pdf\">NovaLager data sheet</a>).</p><p>STA1 is the gene that lets <em>diastaticus</em> yeast break down dextrins, which is how a finished beer keeps fermenting in the can until it gushes. Omega now sells saison strains with STA1 activity \"eliminated at the source\", such as American Saison+, which runs at 18 to 27 °C (<a href=\"https://omegayeast.com/products/american-saison-plus\">Omega American Saison+</a>). Omega warns that one commercial rapid test can give a false positive on this strain and recommends a qPCR test for the STA1 gene instead. Labs such as QC2 offer that test with a one to two day turnaround (<a href=\"https://qc2.beer/collections/microbial-services/products/diastaticus-detection\">QC2</a>).</p>"
+  ],
+  [
+   "Hybrids and the lager question",
+   "<p>Lager-ale hybrids are the strains most relevant to Indian brewpubs. A clean lager character at 15 to 20 °C saves glycol load in a hot plant room. NovaLager is one; Wyeast's limited release for October to December 2026 adds an American Lager strain (2035-PC) and a Kölsch strain (2575-PC) that ferments well cool (<a href=\"https://wyeastlab.com/\">Wyeast Q4 2026 release</a>). For full lager practice see our guide to a <a href=\"clean-german-lager-in-an-indian-brewpub.html\">clean German lager in an Indian brewpub</a>.</p><p>Maltose-negative strains for non-alcoholic beer are the other fast-moving group. We cover LoNa and LA-01 in <a href=\"non-alcoholic-beer-technology-2026.html\">what is new in non-alcoholic beer technology</a>.</p>"
+  ],
+  [
+   "How to trial a new strain properly",
+   "<p>Split one batch across two fermenters, pitch the house strain in one and the new strain in the other, keep everything else identical. Log gravity twice a day, check diacetyl with a forced test before you crash and run a blind triangle test at packaging and again four weeks later. Change one thing at a time.</p><p>Read the data sheet's cell count and pitch rate rather than guessing. Dry strains are usually given in g/hl; at 50 to 100 g/hl a 10 hl batch needs 500 g to 1 kg. Check viability on arrival, especially after a long, warm courier route; our guide to <a href=\"yeast-viability-and-vitality.html\">yeast viability and vitality</a> shows how. A trial on tired yeast tells you about the courier, not the strain.</p>"
+  ],
+  [
+   "What is coming next",
+   "<p>Expect more strains that remove a step: no diacetyl rest, no phenol worry, no diastatic risk. Expect more breeding and evolution for brewers in markets that will not accept engineered yeast. In India, the limit is supply. Most new strains arrive as dry yeast or as imported liquid cultures that need an unbroken cold chain, so the dry versions will reach Indian brewers first.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is genetically engineered yeast allowed in Indian beer?",
+   "Do not assume it is. Genetically modified organisms in food are regulated in India, so ask your licensing adviser to confirm the current position before you import or use an engineered strain."
+  ],
+  [
+   "What does POF-negative mean on a yeast pack?",
+   "The strain does not produce the clove-like phenolic flavour that comes from ferulic acid. Choose POF-negative strains for clean ales and lagers. Pick POF-positive ones for weissbier and many Belgian styles."
+  ],
+  [
+   "How do I know if a yeast is diastatic?",
+   "Ask the supplier for the STA1 result on the certificate of analysis. If you suspect contamination, a qPCR test for the STA1 gene from a brewing lab gives an answer in a day or two."
+  ]
+ ],
+ "cta_inline": {
+  "title": "Want to trial a new strain without risking a full batch?",
+  "body": "Our consultant brewers help on site or remotely: Rahul Baliyan on brewing and excise, Ankur Napa on quality, cost and data. We set up the split-batch trial, the lab checks and the tasting panel with you so your team can run the next one itself.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "cta": {
+  "title": "Choose and manage yeast with the science behind it",
+  "body": "Advanced Brewing Science runs for 6 weeks, live on weekends. It covers yeast metabolism, diacetyl, phenols, attenuation and fermentation control in the depth a single guide cannot.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "new-hop-varieties-2026",
+  "new-hop-products-2026",
+  "craft-beer-in-india"
+ ]
+}

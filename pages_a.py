@@ -4,6 +4,7 @@
 import re
 
 import style_render
+import brew_floor
 import photos
 from urllib.parse import quote
 
@@ -257,6 +258,7 @@ HOME = f"""
   </div>
 </section>
 
+{brew_floor.home_section()}
 <section>
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">The Journal · Blog &amp; Podcasts</span><h2>Insights from the brewing world.</h2></div>

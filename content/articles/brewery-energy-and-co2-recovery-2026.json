@@ -1,0 +1,69 @@
+{
+ "slug": "brewery-energy-and-co2-recovery-2026",
+ "cat": "Industry update",
+ "h1": "Energy and CO2 recovery in small breweries: what is new in 2026",
+ "title": "Brewery Energy and CO2 Recovery 2026 | Craft Beer School",
+ "desc": "Small CO2 recovery units, heat recovery, heat pumps, solar thermal and low-evaporation boiling in 2026, with payback worked out in plain terms.",
+ "teaser": "Your fermenters vent the CO2 you then buy back in cylinders. Here is what it costs to stop doing that and what else now pays back.",
+ "standfirst": "A brewery buys energy twice: once to heat wort and once to cool beer. It also buys back carbon dioxide its own fermenters threw away. Here is what changed in 2026 for small breweries, with the payback sums a founder should run before signing for any of it.",
+ "read": "4 min",
+ "updated": "2026-10-08",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with what you throw away",
+   "<p>Three things leave a brewery as waste that cost money to replace: fermentation CO2, boil vapour and the heat pulled out of wort when you cool it. Every technology in this piece recovers one of them. Before you look at any of it, read your own bills. Know what you pay per kilowatt-hour, per litre of diesel or per kilo of LPG and per kilo of CO2. Check which electricity tariff category your licence puts you in too. Our guide to <a href=\"brewery-utilities-water-power.html\">brewery utilities</a> covers the basics.</p>"
+  ],
+  [
+   "CO2 recovery has come down to brewpub size",
+   "<p>Fermentation makes roughly 4 kg of CO2 per hectolitre of 5% beer. The Danish maker DALUM uses that rule of thumb and measured 93% capture of the gas leaving the fermenter in a trial, though it assumes about 70 to 80% in its feasibility sums. Its smallest unit, the Micro, is rated at 5 kg an hour (<a href=\"https://dalumequipment.com/co2-recovery-for-breweries-how-much-can-you-capture-and-whats-the-roi/\">DALUM, September 2025</a>). Chart Industries' Earthly Labs CiCi range starts with a model aimed at brewpubs making about 2,000 to 6,000 hl a year (<a href=\"https://files.chartindustries.com/EarthlyLabsTrifold.pdf\">Chart brochure</a>).</p><p>The first gas out of a fermenter carries too much oxygen to keep. DALUM's trial lost the first 20 kg that way. Recovery starts once the gas is clean enough, which is why real yields sit below the theoretical figure.</p>"
+  ],
+  [
+   "The payback sum, in plain terms",
+   "<p>Payback is the capital cost divided by what the kit saves each year after its own running costs. For CO2 that means kilos recovered and used, times what you now pay per kilo, minus power, filters and servicing.</p><p>DALUM's own example for a 2,500 hl a year brewery puts the Micro at €67,000 with savings of €12,000 to €17,000 a year at €2 a kilo, a break-even of about five years. Now scale that to India. Telangana caps a microbrewery at 1,000 litres a day and Karnataka at 3,65,000 litres a year (see our <a href=\"telangana-craft-beer-and-microbrewery-rules.html\">Telangana</a> and <a href=\"karnataka-craft-beer-and-microbrewery-rules.html\">Karnataka</a> guides). Even a brewpub running flat out at that cap makes about 3,650 hl, so around 14.6 tonnes of CO2 a year before losses. Most make far less. Unless your CO2 supply is unreliable or expensive, the sum rarely works yet for a single brewpub. A production brewery is a different case.</p>"
+  ],
+  [
+   "Heat pumps that make steam",
+   "<p>The most interesting result of the past year came from Hepworth Brewery in Sussex. A Futraheat high-temperature heat pump takes the roughly 100 °C vapour that used to vent from the kettle and turns it back into steam at 123 to 130 °C for the kettle coil. The supplier reports a coefficient of performance above 6.5 at the lower lifts, meaning more than six units of heat for each unit of electricity, from a 300 kW unit installed in 2025 on one of four brewing lines. Wider use across the site was planned for 2026 (<a href=\"https://heatpumpingtechnologies.org/content/uploads/sites/81/2026/07/demo55breweryfutraheat20260505.pdf\">IEA Heat Pumping Technologies case, May 2026</a>). These are supplier figures without third-party validation and the kit is sized for a regional brewery, not a 10 hl brewpub. The direction is what matters: electric steam from waste heat.</p>"
+  ],
+  [
+   "Boil less, recover more",
+   "<p>The cheapest kilowatt-hour is the one you never boil off. Modern brewhouses run total evaporation around 4%, against around 10% in some older ones. GEA says its QBOIL design gets below 0.5% by stripping volatiles in a column instead of boiling them off (<a href=\"https://www.gea.com/en/products/brewery-systems/brewhouse-mash-house/brewhouse-mash-house-process-units/qboil/\">GEA QBOIL</a>). Campden BRI notes that reusing boil heat stops being viable below about 4.5% evaporation, depending on energy prices (<a href=\"https://www.campdenbri.co.uk/sustainablebrewing/brewing-energy-recovery.php\">Campden BRI</a>).</p><p>For a small brewer the realistic step is simpler. Shorten an over-long boil, check DMS stays in spec and make sure the wort cooler's hot side fills the hot liquor tank for the next brew and the cleaning cycle. Our guide to <a href=\"cip-water-and-chemical-savings.html\">CIP water and chemical savings</a> covers the cleaning side.</p>"
+  ],
+  [
+   "Solar heat and the Indian picture",
+   "<p>Solar thermal suits a process that needs hot water during the day. Birra Peroni has run a 460 kW parabolic trough field at its Bari brewery since June 2023 (<a href=\"https://www.renewablethermal.org/birra-peroni-case-study/\">Renewable Thermal Collaborative</a>). In India, the Ministry of New and Renewable Energy invited proposals from 8 September to 7 October 2026 for concentrating solar thermal in industry, with support of up to 50% of project cost (<a href=\"https://renewablewatch.in/2026/09/09/mnre-invites-proposals-to-promote-concentrating-solar-thermal-technology/\">Renewable Watch, 9 September 2026</a>). That window has closed, so watch for the next call.</p><p>Indian power is not cheap for industry. Karnataka's regulator set the HT industrial energy charge at ₹6.60 a unit for 2025-26 and 2026-27 (<a href=\"https://www.theweek.in/wire-updates/national/2025/03/27/mes21-ka-electricity-tariff.html\">The Week, 27 March 2025</a>). A brewpub on a commercial tariff may pay a different rate, so use your own bill. Refrigeration is the bigger electric load in a hot climate. That is where a founder usually finds the first saving.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much CO2 does a brewery make?",
+   "Roughly 4 kg per hectolitre of 5% beer, from DALUM's rule of thumb. Real recovery is lower because the first gas carries too much oxygen."
+  ],
+  [
+   "Is CO2 recovery worth it for a brewpub in India?",
+   "Usually not yet for a single brewpub, because the smallest units are sized for a few thousand hectolitres a year. Run the payback sum on your own CO2 price and volume first."
+  ],
+  [
+   "What is the quickest energy saving in a small brewery?",
+   "Usually the cold side: insulation, door discipline in the cold room and a well-serviced glycol chiller. Then check that wort cooling heats water you actually use."
+  ]
+ ],
+ "cta_inline": {
+  "title": "Not sure which energy project pays back in your brewery?",
+  "body": "Our consultant brewers help on site or remotely: Rahul Baliyan on brewing and excise, Ankur Napa on quality, cost and data. We read your utility bills and brew logs with you, rank the options and leave your team a cost model it can update itself.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "cta": {
+  "title": "Run your brewery on numbers, not guesses",
+  "body": "Brewery Business Management runs for 3 weeks, live on weekends. It covers costing, utilities, capital decisions and payback for a working brewery, with the worked examples a single guide cannot fit.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "new-hop-varieties-2026",
+  "new-hop-products-2026",
+  "craft-beer-in-india"
+ ]
+}

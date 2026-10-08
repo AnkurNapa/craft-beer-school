@@ -1,0 +1,69 @@
+{
+ "slug": "non-alcoholic-beer-technology-2026",
+ "cat": "Industry update",
+ "h1": "What is new in non-alcoholic beer technology in 2026",
+ "title": "Non-Alcoholic Beer Technology 2026 | Craft Beer School",
+ "desc": "Membranes, vacuum distillation, maltose-negative yeast and aroma recovery in 2026, with what a small Indian brewery can realistically do.",
+ "teaser": "The kit that strips alcohol has got smaller and the yeast that never makes much has got better. Here is what works at brewpub scale.",
+ "standfirst": "Non-alcoholic beer is made two ways: brew a beer and take the alcohol out, or never let much form. Both routes moved on in the past two years. We set out what each one involves on the floor, what the suppliers' own sheets say and where a small Indian brewer fits.",
+ "read": "4 min",
+ "updated": "2026-10-08",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two routes, one target",
+   "<p>Every non-alcoholic beer starts with a number. In India the Food Safety and Standards (Alcoholic Beverages) amendment of 2022 defines a non-alcoholic counterpart of an alcoholic drink as one with no more than 0.5% alcohol by volume that meets every other requirement of the original drink (<a href=\"https://lexplosion.in/fssai-notifies-food-safety-and-standards-alcoholic-beverages-first-amendment-regulations-2022-inserts-sub-regulations-relating-to-non-alcoholic-counterpart-of-alcoholic-beverage-and-flavoured-beer/\">summary of the June 2022 notification</a>). The same text describes the source drink as fermented with the alcohol removed afterwards, so ask your licensing adviser in writing how a beer made by limited fermentation is classed before you print a label.</p><p>From there the choice is physical removal or biological restraint. Our guide to <a href=\"low-and-no-alcohol-production-routes.html\">low and no alcohol production routes</a> covers the basics. This piece is about what changed.</p>"
+  ],
+  [
+   "Membranes got smaller",
+   "<p>Reverse osmosis pushes beer against a membrane that lets water and ethanol through and holds back most of the flavour. Alfa Laval's batch skid for craft scale shows the sequence well: concentrate the beer to about three times its strength, wash the alcohol out with deaerated water (diafiltration), then add deaerated water back to the original volume. It targets below 0.5% and the beer needs carbonating afterwards (<a href=\"https://www.alfalaval.com/products/process-solutions/brewery-solutions/beer-de-alcoholization-modules/low-alc-de-alcoholization-module/\">Alfa Laval Low-alc module</a>).</p><p>Deaerated water is the hidden cost. GEA's AromaPlus reverse osmosis system can reach 0.05% (<a href=\"https://www.gea.com/en/customer-cases/scandinavian-first-with-the-gea-aromaplus/\">GEA Laitilan case</a>) and its PRO version is reported to cut diafiltration water by up to 100% (<a href=\"https://www.worldpumps.com/content/news/gea-s-water-saving-membrane-system-for-non-alcoholic-beer\">World Pumps</a>). In a city where water arrives by tanker, that line in the spec sheet matters more than the brochure photo.</p>"
+  ],
+  [
+   "Distillation got gentler",
+   "<p>Vacuum distillation lowers the boiling point so ethanol leaves without cooking the beer. Flavourtech says its spinning cone column runs at 30 to 45 °C with about 25 seconds of residence time (<a href=\"https://flavourtech.com/industries/alcoholic-beverages/\">Flavourtech</a>), a vendor figure framed mainly around wine.</p><p>The research keeps reminding us what is lost. A January 2026 study in the Journal of Food Science dealcoholised beer at 100 to 200 mbar, where a rotary vacuum still ran at 50 to 67 °C. It compared that with an ohmic-heated version, which was faster and used less energy. Both lost ethyl acetate, isoamyl acetate and ethyl caproate, the esters behind pear, banana and apple (<a href=\"https://pubmed.ncbi.nlm.nih.gov/41454565/\">Akdoğan and Baltacı, 2026</a>). That is why aroma recovery exists. Alfa Laval's own FAQ puts recovery at about 50% of aroma for beers under 0.5% and about 25% for 0.0% (<a href=\"https://www.alfalaval.com/industries/food-dairy-beverage/beverage-processing/beer-production/webinar/beer-dealcoholization-webinar-21-nov-2019/faq/\">Alfa Laval FAQ</a>). Plan to rebuild hop aroma after the process, which is where the new <a href=\"new-hop-products-2026.html\">hop oils and liquid products</a> earn their place.</p>"
+  ],
+  [
+   "Yeast that stops at sugar",
+   "<p>The cheaper route needs no new vessel. Maltose-negative yeasts ferment glucose, fructose and sucrose but leave maltose and maltotriose alone, so alcohol tracks the simple sugars in the wort rather than its full gravity.</p><ul><li><strong>Lallemand LalBrew LoNa</strong>: a non-GMO hybrid, 16 to 20% attenuation, 20 to 25 °C, 50 to 100 g/hl, POF-negative and clean (<a href=\"https://admin.lallemandbrewing.com/wp-content/uploads/2023/04/LoNa-TDS-ENG-A4-Print-LalBrew.pdf\">LoNa data sheet</a>).</li><li><strong>Fermentis SafBrew LA-01</strong>: <em>Saccharomyces cerevisiae</em> var. <em>chevalieri</em>, about 15% apparent attenuation, 15 to 25 °C, 50 to 80 g/hl (<a href=\"https://fermentis.com/product/safbrew-la-01\">Fermentis</a>). Its technical guideline suggests an original gravity of about 6.5 to 7.5 °P for 0.5% and says the packaged beer must be pasteurised (<a href=\"https://distributors.fermentis.com/download/374/english/1434/technical-guideline-en-safbrew-la-01\">LA-01 guideline</a>).</li></ul><p>Engineered strains are the newer branch. A 2025 University of Arkansas panel study in ACS Food Science and Technology found strain choice changed NA beer flavour sharply, with two bioengineered Berkeley Yeast strains described as tropical and citrus while others read as cheesy, solvent or worty (<a href=\"https://berkeleyyeast.com/blogs/resources/berkeley-yeast-na-strains-stand-out-in-peer-reviewed-study\">Berkeley Yeast summary of Maust et al.</a>). Check India's position on genetically modified cultures before ordering one.</p>"
+  ],
+  [
+   "What a small brewer can realistically do",
+   "<p>A 10 hl brewpub will not buy a membrane plant for one tap. What it can do is brew a 7 °P wort, mash hot to cut fermentables, pitch a maltose-negative strain and pasteurise. The catch is the sugar left behind. A beer at 0.4% with most of its maltose intact is a growth medium. In a 38 °C storeroom it will find out fast. Our guide to <a href=\"beer-stability-in-indian-heat.html\">beer stability in Indian heat</a> explains why.</p><p>This is where most first attempts fail: not on flavour but on a keg that gushed in week three. Measuring alcohol accurately at 0.5% also needs better kit than a hydrometer.</p>"
+  ],
+  [
+   "What is coming next",
+   "<p>We are watching membrane skids sized for batch work rather than continuous lines, which opens dealcoholisation to regional breweries. Yeast for the fermentation route keeps improving through breeding and engineering. Contract dealcoholisation, where one plant serves many brands, is the other route a small brand might use. For India, the open questions are regulatory: how FSSAI and each state's excise department treat a limited-fermentation beer and whether a microbrewery licence covers selling one.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the legal limit for non-alcoholic beer in India?",
+   "FSSAI's 2022 amendment sets 0.5% alcohol by volume for a non-alcoholic counterpart of an alcoholic drink. State excise rules can add their own conditions, so check both before you label."
+  ],
+  [
+   "Can a brewpub make non-alcoholic beer without new equipment?",
+   "Yes, with a maltose-negative yeast and a low-gravity wort, but you need a reliable way to pasteurise and an accurate alcohol test. Without those the residual sugar makes it a spoilage risk."
+  ],
+  [
+   "Does dealcoholisation remove flavour?",
+   "Some. Peer-reviewed work shows esters are lost in vacuum distillation, which is why systems recover aroma and why brewers often add hop aroma back afterwards."
+  ]
+ ],
+ "cta_inline": {
+  "title": "Not sure which NA route fits your brewhouse?",
+  "body": "Our consultant brewers help on site or remotely: Rahul Baliyan on brewing and excise, Ankur Napa on quality, cost and data. We work through the recipe, the stability plan and the testing with you so your team can run it afterwards.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "cta": {
+  "title": "Make an NA beer that tastes like beer and stays stable",
+  "body": "Our Non-Alcoholic Beer course runs for 2 weeks, live on weekends. It covers wort design, maltose-negative yeast, pasteurisation and alcohol testing in the depth a single guide cannot.",
+  "href": "non-alcoholic-beer-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "new-hop-varieties-2026",
+  "new-hop-products-2026",
+  "craft-beer-in-india"
+ ]
+}
