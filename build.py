@@ -120,6 +120,7 @@ NAV_ITEMS = [
     ("Resources", "resources.html", "resources"),
     ("Styles", "style-library.html", "styles"),
     ("Blog", "blog.html", "blog"),
+    ("Podcast", "podcast.html", "podcast"),
     ("Careers", "careers.html", "careers"),
     ("Contact", "contact.html", "contact"),
 ]

@@ -99,7 +99,7 @@ def page(banner):
 """
     return ("Cheers Chatty Beer Podcast, All Episodes | Craft Beer School",
             f"Listen to all {len(episodes)} episodes of the Cheers Chatty Beer Podcast with Chatty Girija. Brewers, founders and sensory pros, on Spotify and Apple Podcasts.",
-            "blog", body)
+            "podcast", body)
 
 
 if __name__ == "__main__":
