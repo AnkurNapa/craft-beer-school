@@ -107,7 +107,8 @@ def render(article, by_slug):
         parts.append(f'<h2 id="{anchor}">{heading}</h2>\n{body}')
         # Guest stories run uninterrupted; only the closing band sells.
         if i + 1 == cut and not article.get("author"):
-            parts.append(_cta(article["cta"], "inline"))
+            # Optional cta_inline lets a guide sell a different route mid-article (e.g. consultancy).
+            parts.append(_cta(article.get("cta_inline", article["cta"]), "inline"))
     article_body = "\n".join(parts)
 
     toc = "".join(

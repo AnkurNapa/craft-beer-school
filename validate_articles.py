@@ -31,6 +31,8 @@ MONTHS = ["January", "February", "March", "April", "May", "June", "July", "Augus
 
 def text_of(a):
     parts = [a["h1"], a["title"], a["desc"], a["teaser"], a["standfirst"], a["cta"]["title"], a["cta"]["body"]]
+    if "cta_inline" in a:
+        parts += [a["cta_inline"]["title"], a["cta_inline"]["body"]]
     parts += [h + " " + b for h, b in a["sections"]] + [q + " " + ans for q, ans in a["faqs"]]
     return "\n".join(parts)
 
@@ -45,9 +47,11 @@ def check(path):
     p = PLAN.get(slug)
     if not p:
         return ["slug not in plan"]
-    if set(a) != KEYS:
-        errs.append(f"keys differ: missing {KEYS - set(a)}, extra {set(a) - KEYS}")
+    if not KEYS <= set(a) <= KEYS | {"cta_inline"}:
+        errs.append(f"keys differ: missing {KEYS - set(a)}, extra {set(a) - KEYS - {'cta_inline'}}")
         return errs
+    if "cta_inline" in a and set(a["cta_inline"]) != {"title", "body", "href", "label"}:
+        errs.append("cta_inline keys must be title, body, href, label")
     if a["slug"] != slug: errs.append("slug field does not match file name")
     if a["cat"] != p["cat"]: errs.append(f"cat should be {p['cat']}")
     if a["updated"] != p["date"]: errs.append(f"updated should be {p['date']}")
