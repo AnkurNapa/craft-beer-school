@@ -799,3 +799,4 @@ section.fam-group{padding:0}
 .pod-embed{width:100%;border:0;border-radius:var(--radius)}
 .ep audio{width:100%;margin-top:1rem}
 .ep .foot{gap:1rem;justify-content:flex-start}
+.ep-art{width:100%;height:auto;aspect-ratio:1;object-fit:cover;display:block}

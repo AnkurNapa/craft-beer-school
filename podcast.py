@@ -13,6 +13,8 @@ from email.utils import parsedate_to_datetime
 
 SLUG = "podcast.html"
 DATA = pathlib.Path("content/podcast.json")
+ART = pathlib.Path("assets/podcast")
+ART_PX = 600
 FEED = "https://feeds.megaphone.fm/ISP9530441028"
 APPLE_ID = "1493541371"
 SPOTIFY_URL = "https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX"
@@ -33,8 +35,13 @@ def fetch():
     apple_by_guid = {a["episodeGuid"]: a["trackViewUrl"].split("?")[0]
                      for a in apple["results"] if a.get("kind") == "podcast-episode"}
     episodes = []
+    ART.mkdir(exist_ok=True)
     for it in ET.fromstring(_get(FEED)).iter("item"):
         guid = it.findtext("guid")
+        art = ART / f"{guid}.jpg"
+        if not art.exists():
+            src = it.find(f"{IT}image").get("href").split("?")[0]
+            art.write_bytes(_get(f"{src}?w={ART_PX}&h={ART_PX}&fit=crop&fm=jpg&q=75"))
         summary = (it.findtext(f"{IT}summary") or it.findtext("description") or "").strip()
         episodes.append(dict(
             title=it.findtext("title").strip().translate(STRAIGHT),
@@ -43,6 +50,7 @@ def fetch():
             minutes=round(int(it.findtext(f"{IT}duration") or 0) / 60),
             summary=summary.translate(STRAIGHT),
             audio=it.find("enclosure").get("url"),
+            art=art.as_posix(),
             apple=apple_by_guid.get(guid, APPLE_URL)))
     if not episodes:
         raise SystemExit("feed returned no episodes, keeping the old podcast.json")
@@ -57,7 +65,7 @@ def _short(text, limit=240):
 def _card(e):
     esc = html.escape
     tag = f"S{e['season']} E{e['episode']} · " if e["season"] and e["episode"] else ""
-    return f"""<article class="card ep reveal"><div class="card-body">
+    return f"""<article class="card ep reveal"><img class="ep-art" src="{esc(e['art'])}" alt="Cover art for {esc(e['title'])}" width="{ART_PX}" height="{ART_PX}" loading="lazy" /><div class="card-body">
   <span class="cat">{tag}{e['date']} · {e['minutes']} min</span>
   <h3>{esc(e['title'])}</h3>
   <p>{esc(_short(e['summary']))}</p>
