@@ -1,0 +1,77 @@
+{
+ "slug": "alcopops-and-hard-seltzer-production",
+ "cat": "Consultancy",
+ "h1": "Alcopops and hard seltzers: brewing a clean neutral base",
+ "title": "Hard Seltzer and Alcopop Production | Craft Beer School",
+ "desc": "How to ferment, strip, dilute, flavour and stabilise a neutral base for hard seltzers and alcopops, with typical supplier ranges and India's licensing route.",
+ "teaser": "Sugar water is hostile to yeast and carbon takes everything. Here is the process a brewery needs for a clean neutral base.",
+ "standfirst": "Alcopops and hard seltzers are all about a neutral base. We walk through the three routes, the fermentation numbers from supplier protocols, the dilution maths and the stability decisions, then what a brewery must add in kit and paperwork.",
+ "read": "5 min",
+ "updated": "2026-10-08",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Three routes to one clear drink",
+   "<p>Every alcopop or hard seltzer is a neutral alcoholic base plus flavour, acid, sweetness and gas. What changes is where the alcohol comes from. The <strong>malt route</strong> brews a beer, then strips its colour and flavour. The <strong>sugar route</strong> ferments dextrose or cane sugar in water. The <strong>spirit route</strong> dilutes neutral spirit and needs a distillery licence, so it sits outside a brewery.</p><p>India sorts these at a high level. The FSSAI <a href=\"https://www.fssai.gov.in/upload/uploadfiles/files/Comp_Alcoholic_Beverages_IV_27_08_2025.pdf\">Alcoholic Beverages Regulations, 2018 (compendium version IV, 27 August 2025)</a> treat anything above 0.5% ABV as an alcoholic beverage. A flavoured beer stays a beer if it meets the beer requirements. From 1 January 2026 the same compendium defines an alcoholic ready-to-drink beverage as more than 0.5 and up to 15.0% ABV, made from spirit or any alcoholic beverage as base, with at least one volume of CO2 if carbonated. Which category a sugar-fermented seltzer lands in for excise is a state decision. We cover the business case in <a href=\"launching-a-hard-seltzer.html\">launching a hard seltzer</a>; this guide is the process.</p>"
+  ],
+  [
+   "Fermenting the sugar base",
+   "<p>Lallemand's <a href=\"https://admin.lallemandbrewing.com/wp-content/uploads/2023/07/LAL-bestpractices-Hard_Seltzer-ENG-A4_2021-printbleed.pdf\">hard seltzer best practices (August 2021)</a> give a workable starting protocol: dextrose at 20 kg/hL for 20 °P, which yields about 12% ABV, with 150 to 250 g/hL of an organic yeast-derived nutrient and 100 g/hL of rehydrated yeast, fermented at 25 °C. They prefer dextrose because sucrose can leave lower attenuation and residual fructose. They prefer organic nitrogen over DAP because rapid growth on inorganic nitrogen throws off-flavours.</p><p>pH is the control that catches brewers out. Sugar water has almost no buffer and CO2 alone drags pH down fast. Lallemand advise holding it above 3.5 to 4.0 with potassium bicarbonate, starting at 10 to 15 g/hL and adding more as the daily reading demands. Dissolve it fully and add it slowly, because it foams. <a href=\"https://knowledge.escarpmentlabs.com/article/59-hard-seltzer-process\">Escarpment Labs</a> suggest a cooler 20 to 22 °C and expect full attenuation in four to seven days with a healthy pitch.</p>"
+  ],
+  [
+   "Stripping colour and flavour",
+   "<p>A sugar base needs only a polish. A malt base needs real work. Activated carbon is the common tool: dose it into the fermented base, hold for contact time, then filter every fine out. Carbon takes good and bad alike, so we bench-trial three or four doses on one-litre samples before treating a tank and taste each against the untreated base.</p><p>Ultrafiltration is the capital-heavy alternative. One <a href=\"https://patents.google.com/patent/US5618572\">US patent for flavoured malt beverages</a> describes passing base beer through a tight membrane at 30 to 190 psi to give a clear base, as an alternative to carbon. For a 10 hl brewhouse, carbon plus a sheet or lenticular filter is the realistic start. Membranes come later, if volume justifies them.</p>"
+  ],
+  [
+   "Base strength and dilution",
+   "<p>Fermenting strong and diluting saves tank time. The arithmetic is simple: target ABV divided by base ABV gives the fraction of base. A 12% base cut to 5% needs 41.7 litres of base per 100 litres of finished drink and 58.3 litres of water.</p><p>That water is now most of your product. Carbon-filter it to remove chlorine, keep alkalinity low so it does not fight your acid and deaerate it if you can, because dissolved oxygen in dilution water dulls citrus within weeks. Measure ABV after blending, not before. The declared strength on the label is what excise checks, so a blending error becomes a compliance problem.</p>"
+  ],
+  [
+   "Flavour, acid and sweetness",
+   "<p>Flavour goes in after filtration, or the filter takes it out. Acid sets the character: citric for a sharp lemon edge, malic for a rounder apple note, tartaric for grip. Escarpment Labs give a final pH target of 3.6 to 4.2. We dose acid on a bench trial of 1 litre, record grams per litre and scale by volume, then check pH and titratable acidity on the tank before packaging.</p><p>Sweetness is the stability decision. A dry seltzer sweetened with non-fermentable sweeteners is far easier to keep stable. Lallemand note that seltzers back-sweetened with fermentable sugar may need pasteurisation or a stabiliser such as potassium sorbate. Any additive you use must be permitted for the category under FSSAI rules, so check before you print a label.</p>"
+  ],
+  [
+   "Carbonation, stability and pasteurisation",
+   "<p>Escarpment Labs suggest 2.5 to 3.0 volumes of CO2, higher than most lagers, so confirm your brite tank, filler and cans are rated for it. Carbonate cold in the brite tank, where control is better than on the filler.</p><p>Sugar-based drinks carry a real risk of refermentation in a warm Indian warehouse if any sugar and live yeast remain. Sterile filtration or tunnel pasteurisation removes that risk. If you already pasteurise beer, our guide to <a href=\"pasteurisation-units.html\">pasteurisation units</a> explains how to set the dose. Hold sample cans at warehouse temperature for several weeks and taste them against cold-stored cans before you commit to a shelf life.</p>"
+  ],
+  [
+   "Brewery or new set-up: kit and licences",
+   "<p><strong>If you already run a brewery</strong>, most of the kit is there: the kettle dissolves and sterilises the sugar, glycol-jacketed fermenters handle the ferment and the brite tank carbonates. Add a carbon dosing vessel, a sheet or lenticular filter, a water treatment line for dilution water and a small QC set-up for pH, titratable acidity and alcohol. The hard part is paper. A new alcoholic product category usually needs approval from the state excise department, plus label registration, before a litre leaves bond. Ask early, in writing.</p><p><strong>If you are starting fresh</strong>, build in this order: water treatment, a mixing and dissolving tank, jacketed fermenters with glycol, carbon treatment and filtration, a blending and brite tank, filler, then pasteuriser. A brewery licence and an FSSAI licence come first on the paper side. Rules vary by state and change, so confirm with your state excise office and FSSAI before you buy kit.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What ABV should I ferment a hard seltzer base to?",
+   "Many producers ferment to around 10 to 12% and dilute to the final strength. Lallemand's starting protocol uses 20 °P dextrose to reach about 12% ABV."
+  ],
+  [
+   "Why does my seltzer ferment stall?",
+   "Usually nitrogen starvation or a pH crash. Sugar water has no buffer, so add nutrient at pitching and keep pH above 3.5 to 4.0 with potassium bicarbonate."
+  ],
+  [
+   "Is a hard seltzer a beer in India?",
+   "It depends on the base and on your state. FSSAI classifies anything above 0.5% ABV as alcoholic and defines flavoured beer and alcoholic ready-to-drink categories. The state excise department decides how your product is licensed and taxed."
+  ],
+  [
+   "Do I need carbon filtration for a sugar base?",
+   "Not always. A clean sugar ferment may only need a polish. A malt base almost always needs carbon or membrane treatment to remove colour and beer flavour."
+  ]
+ ],
+ "cta": {
+  "title": "Seltzer stalling, smelling of sulphur or failing on shelf?",
+  "body": "We set up the base process with your team: nutrient and pH schedule, carbon trials, dilution and release tests. Rahul Baliyan leads the brewing side and Ankur Napa the quality system. Your team leaves able to run it without us.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "beverage-technology-for-brewers",
+  "launching-a-hard-seltzer",
+  "low-alcohol-and-mixed-drinks-production"
+ ],
+ "cta_inline": {
+  "title": "Learn the full seltzer process step by step",
+  "body": "Our Hard Seltzer course runs for 2 weeks in live weekend classes at ₹5,000. It covers base fermentation, filtration, flavour and stability in more depth than one guide can.",
+  "href": "hard-seltzer-course.html",
+  "label": "See the full syllabus"
+ }
+}

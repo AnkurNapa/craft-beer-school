@@ -1,0 +1,77 @@
+{
+ "slug": "kombucha-and-water-kefir-production",
+ "cat": "Consultancy",
+ "h1": "Kombucha and water kefir at commercial scale",
+ "title": "Kombucha and Water Kefir Production | Craft Beer School",
+ "desc": "Culture management, pH limits, alcohol creep, cold chain, FSSAI position and the batch log a commercial kombucha or water kefir producer should keep.",
+ "teaser": "Kombucha keeps fermenting after you bottle it. Here is how to hold pH, alcohol and shelf life where they should be.",
+ "standfirst": "Kombucha and water kefir look easy until a warm shop pushes a bottle past 0.5% ABV. We set out the published pH and alcohol guidance, the controls that work at scale, what India's rules say today and the numbers to log on every batch.",
+ "read": "5 min",
+ "updated": "2026-10-08",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two cultures, two timetables",
+   "<p><strong>Kombucha</strong> is sweetened black or green tea fermented by a SCOBY, a mat of yeast and acetic acid bacteria. Yeast turns sugar into ethanol and the bacteria turn much of that ethanol into acetic acid. New York's <a href=\"https://agriculture.ny.gov/food-safety/kombucha-processing\">kombucha processing guidance</a> describes steeping tea for about ten minutes and fermenting at room temperature for 7 to 10 days. The Kombucha Brewers International <a href=\"https://kombuchabrewers.org/kombucha-code-of-practice/\">Code of Practice (version 3.0)</a> sets starter liquid at no less than 10% of the batch.</p><p><strong>Water kefir</strong> is faster. Grains of bacteria and yeast in a polysaccharide matrix ferment a sucrose solution, usually with dried fruit, as an <a href=\"https://doi.org/10.1016/j.ijfoodmicro.2021.109128\">International Journal of Food Microbiology review (2021)</a> describes. In a <a href=\"https://doi.org/10.1128/AEM.03978-13\">2014 study by Laureys and De Vuyst</a>, sucrose was fully converted within 24 hours and pH fell from 4.26 to 3.45 over the first 72 hours, with ethanol and lactic acid the main products.</p>"
+  ],
+  [
+   "Managing the culture",
+   "<p>Treat the culture like a yeast bank. Keep a mother vessel of SCOBY and starter, or of kefir grains, away from the production tanks. Draw from it on a fixed schedule. Weigh kefir grains at every transfer, because grain mass growth is your early warning that something has changed. New York's guidance is blunt about mould: discard the batch and never reuse it as inoculum. In consulting work we often see a culture passed between people without a record, which makes any later fault untraceable.</p>"
+  ],
+  [
+   "pH is the first critical control",
+   "<p>Sweet tea starts near neutral, which is why acidifying fast matters. The KBI Code asks for pH 4.6 or lower once the culture is added. Pennsylvania's <a href=\"https://www.agriculture.pa.gov/consumer_protection/FoodSafety/manufacturing-packing-holding-distribution/Documents/Guidelines%20for%20brewing-bottling%20Kombucha.pdf\">kombucha guidelines</a> set 4.2 or below as the target for unpasteurised kombucha. New York requires finished product below 4.2 but not under 2.5. We write it as two limits: pH 4.6 or below at pitching, then 4.2 or below by day 7. Miss either and the batch is held and investigated. Calibrate the pH meter at the start of every shift and record the calibration, because a drifting electrode makes the whole log fiction.</p>"
+  ],
+  [
+   "Alcohol creep and the 0.5% line",
+   "<p>Live kombucha keeps making ethanol in the bottle, faster when it is warm. In India the <a href=\"https://www.fssai.gov.in/upload/uploadfiles/files/Comp_Alcoholic_Beverages_IV_27_08_2025.pdf\">FSSAI Alcoholic Beverages Regulations, 2018 (compendium version IV, 27 August 2025)</a> define an alcoholic beverage as one above 0.5% ABV. A product that drifts over that line in a warm shop is no longer the product you licensed. The US regulator takes the same view and its <a href=\"https://www.ttb.gov/regulated-commodities/beverage-alcohol/kombucha\">kombucha guidance</a> applies the limit at any time, including after bottling.</p><p>Controls that work: finish the primary ferment dry enough, keep added fermentable sugar low, chill fast after packaging and keep it cold. For shelf stability, the options in the KBI Code are pasteurisation, high-pressure processing or sterile filtration at 0.45 micron or finer. On testing, the Code asks for a third-party lab test at least once a year, ideally at an ISO 17025 lab, retained-sample tests at least twice a year and a validated method on every batch. Ask any lab how its method handles sugar and acid, since both can confuse density-based readings.</p>"
+  ],
+  [
+   "Flavouring, carbonation and cold chain",
+   "<p>The KBI Code treats any flavouring that carries fermentable sugar as a secondary fermentation, which means more CO2 and more ethanol. A brewery has a cleaner option: flavour the finished base in a brite tank and force-carbonate, so there is no sugar left for yeast to chase. Optional ingredients are capped at 20% of the finished product in the Code.</p><p>Unpasteurised product belongs in the cold chain end to end. The KBI Code asks for 4.4 to 9 °C through distribution and New York sets 41 °F (5 °C) or lower. In Indian summer the weak point is the last mile, the delivery van and the shop chiller that gets switched off at night. If you cannot control that, pasteurise. New York treats pasteurised kombucha at pH 4.2 or lower as shelf stable.</p>"
+  ],
+  [
+   "FSSAI, excise and your kit",
+   "<p>We found no kombucha-specific FSSAI standard as of 8 October 2026. Brands have used the non-specified food approval route: FSSAI's <a href=\"https://www.fssai.gov.in/upload/uploadfiles/files/Status_of_Application_as_on_02052025.pdf\">status list of applications as on 2 May 2025</a> shows kombucha products approved in 2023. Check with FSSAI whether your recipe fits an existing standard or needs approval. Get label claims checked too.</p><p><strong>If you already run a brewery</strong>, a kettle, jacketed fermenter, brite tank and filler cover most of it. Kombucha is non-alcoholic, but your premises are bonded. Ask the state excise office whether you may make a non-excisable product there, on a separate line or in a separate room. Then get a separate FSSAI licence or endorsement for it. Keep acetic cultures well away from beer and tighten <a href=\"cip-cleaning-in-place.html\">CIP</a>. <strong>If you are starting fresh</strong>, build in this order: tea brewing and sugar dissolving tank, food-grade fermenters, a culture room, a cold room, a filler, then a pasteuriser. Rules vary by state and change, so confirm with your state excise office and FSSAI.</p>"
+  ],
+  [
+   "What to log on every batch",
+   "<p>This is where kombucha is won or lost. Our minimum batch record:</p><ul><li>Tea type, lot and grams per litre; sugar grams per litre; water source.</li><li>Starter percentage, culture generation and grain mass for kefir.</li><li>pH and temperature at pitching, then daily; Brix daily.</li><li>Titratable acidity at the end of primary.</li><li>ABV at packaging and on a retained sample at the end of shelf life.</li><li>CO2 volumes, fill date, pasteurisation record and cold room temperature.</li></ul><p>Six months of these records will show which variable predicts alcohol creep in your process. Most teams keep logs and never look at them. The analysis is where the value is.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What pH should commercial kombucha reach?",
+   "Guidance varies by regulator. Pennsylvania targets 4.2 or below for unpasteurised kombucha and New York requires below 4.2 but not under 2.5. The KBI Code asks for 4.6 or lower once the culture is added."
+  ],
+  [
+   "Is kombucha alcoholic in India?",
+   "Not if it stays at or below 0.5% ABV. FSSAI's alcoholic beverage regulations define an alcoholic beverage as one above 0.5% ABV, so a kombucha that creeps past that line changes category."
+  ],
+  [
+   "Can I make kombucha in my brewery?",
+   "Often yes on the same kind of kit, but your premises are bonded. Ask the state excise office about making a non-alcoholic product there and get the right FSSAI licence for it."
+  ],
+  [
+   "How do I stop alcohol rising in the bottle?",
+   "Keep fermentable sugar low at packaging, force-carbonate rather than bottle-condition and keep the product cold. Pasteurisation or sterile filtration stops it entirely."
+  ]
+ ],
+ "cta": {
+  "title": "Kombucha batches drifting on pH or alcohol?",
+  "body": "We build the quality system with you: critical limits, a batch log, an alcohol testing plan and the cold chain checks. Ankur Napa leads the quality and data side and Rahul Baliyan the process. Your team runs it after we leave.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "beverage-technology-for-brewers",
+  "soft-drinks-and-alcohol-free-drinks-in-a-brewery",
+  "low-and-no-alcohol-production-routes"
+ ],
+ "cta_inline": {
+  "title": "Learn kombucha production from culture to cold chain",
+  "body": "Our Kombucha course runs for 2 weeks in live weekend classes at ₹5,000. It goes deeper into culture care, flavouring and safe scale-up than one guide can.",
+  "href": "kombucha-course.html",
+  "label": "See the full syllabus"
+ }
+}

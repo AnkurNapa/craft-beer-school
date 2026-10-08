@@ -1,0 +1,77 @@
+{
+ "slug": "soft-drinks-and-alcohol-free-drinks-in-a-brewery",
+ "cat": "Consultancy",
+ "h1": "Making soft drinks and alcohol-free drinks in a brewery",
+ "title": "Soft Drinks in a Brewery | Craft Beer School",
+ "desc": "How a brewery makes sodas, sparkling water, hop water and tonic: syrup room, Brix and ratio control, FSSAI limits, carbonation and stability.",
+ "teaser": "Your brite tanks, filler and CIP already do half the work. The syrup room, the FSSAI limits and the stability plan are the other half.",
+ "standfirst": "A brewery that packages beer owns most of a soft drinks plant already. Here is what transfers, what you have to add, the FSSAI numbers to work to and the licence questions to settle before the first batch.",
+ "read": "6 min",
+ "updated": "2026-10-08",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What your brewery already has",
+   "<p>Water treatment, a cold brite tank with a carbonation stone, a filler that handles carbonated product, a CIP set and a lab that reads pH and CO2 all transfer from beer to soft drinks. What a brewery lacks is the front end: a dry store for sugar, a syrup room and a way to dose syrup into water at a fixed ratio.</p><p>That gap decides the product list. Hop water needs almost nothing new because it carries no sugar. Flavoured sparkling water needs dosing but little sugar. Full-sugar sodas and tonic-style mixers need the whole syrup room. In consulting work we often see breweries start with hop water, learn stability on a low-risk product, then move on to sugar.</p>"
+  ],
+  [
+   "Simple syrup, finished syrup and the ratio",
+   "<p>Soft drinks are built in two stages. <strong>Simple syrup</strong> is sugar dissolved in treated water, filtered and held for the day's run. <strong>Finished syrup</strong> is that simple syrup with acid, flavour, colour and preservative added in the order your flavour supplier's specification sets. Dissolve preservatives fully before they meet the acid, or they can drop out of solution.</p><p>Finished syrup then meets water at a fixed ratio, the throw. On a 1+5 throw, one part syrup meets five parts water. The throw sets sweetness, acidity and cost per litre, so measure it every run: Brix of the finished syrup by refractometer, then Brix and pH of the finished drink against the formula. A drink that reads light on Brix is almost always a dosing fault, not a recipe fault.</p><p>The throw also moves carbonation. If uncarbonated syrup is dosed into carbonated water on a 1+5 throw, the drink keeps only five-sixths of the water's CO2, so water at 4.2 volumes lands at 3.5. Blending first and carbonating in a brite tank avoids that sum.</p>"
+  ],
+  [
+   "Acids, sweeteners and preservatives within FSSAI limits",
+   "<p>The FSSAI standard for carbonated water, regulation 2.10.6 in the <a href=\"https://www.fssai.gov.in/upload/uploadfiles/files/Chapter%202_10%20(BEVERAGES%20(Other%20than%20Dairy%20and%20Fruits%20and%20Vegetables%20based).pdf\">Chapter 2.10 compendium (version of 1 September 2023)</a>, is your rulebook. The base must meet the packaged drinking water or mineral water standard. Figures to pin on the syrup room wall:</p><ul><li>Permitted acids include citric, fumaric, tartaric, phosphoric, lactic, ascorbic and malic.</li><li>Caffeine not above 145 ppm.</li><li>Quinine salts not above 100 ppm, expressed as quinine sulphate. This is the ceiling for a tonic-style mixer.</li><li>Saccharin sodium not above 100 ppm, acesulfame-K 300 ppm, aspartame 700 ppm, sucralose 300 ppm, neotame 33 ppm.</li><li>On the finished drink: total plate count not above 50 cfu per ml, coliforms 0 in 100 ml, yeast and mould not above 2 cfu per ml.</li></ul><p>Benzoates, sorbates and other additives are allowed at the levels in Appendix A of the Food Products Standards and Food Additives Regulations. Check the current entry for your category in the <a href=\"https://www.fssai.gov.in/cms/Compendium-FSS-FPS-FA.php\">FSSAI compendium</a> before you fix a formula, because those tables are amended often. Non-caloric sweeteners also carry their own labelling duties.</p>"
+  ],
+  [
+   "Water, deaeration and carbonation",
+   "<p>Start from the water you treat for beer, then polish it. A soda shows chlorine, iron and earthy notes that a hoppy beer hides, so add activated carbon and fine filtration after your RO or softening stage. Then deaerate the water. Syrups are viscous and foam when stripped, so plants deaerate the water and keep air out of the syrup by mixing gently. Less oxygen means less fobbing at the filler and a longer flavour life.</p><p>Carbonation targets run higher than for beer. The University of Florida's <a href=\"https://ask.ifas.ufl.edu/publication/FS379\">guide to carbonating beverages</a> gives 3.5 to 4 volumes of CO2 for colas and 2.5 to 3.5 for club soda, tonic and lemon-lime drinks. Brew Your Own's <a href=\"https://byo.com/articles/hop-water/\">hop water method</a> aims for 3 to 4 volumes because hop water at ale levels tastes flat. FSSAI's beer standard sets 1.8 to 3.6 volumes, so your brite tanks and filler may be asked for more pressure than lager needs. Check vessel ratings before you push CO2. Fill as cold as the filler allows, since CO2 holds better and foams less a few degrees above zero.</p>"
+  ],
+  [
+   "Hop water and alcohol-free beer",
+   "<p>Hop water is sparkling water dry-hopped and acidified. With no sugar and no alcohol its main defence is low pH. Brew Your Own targets pH 3.2 to 3.6 with lactic or citric acid and keeps bitterness to about 8 to 12 IBU. That sits well under pH 4.6, the line US regulators use for <a href=\"https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-114\">acidified foods</a> because botulinum spores do not grow below it. Ask FSSAI which standard your hop water falls under before you print a label, since hop extract is not named in the carbonated water list.</p><p>Alcohol-free beer is a different product under different rules. The <a href=\"https://www.fssai.gov.in/upload/uploadfiles/files/Comp_Alcoholic_Beverages_IV_27_08_2025.pdf\">FSSAI Alcoholic Beverages Regulations</a> define a non-alcoholic counterpart as 0.5% ABV or less, made by fermenting and then removing the alcohol. A beer labelled alcohol free must be 0.0. Our guides to <a href=\"low-and-no-alcohol-production-routes.html\">low and no alcohol production routes</a> and <a href=\"non-alcoholic-beer-technology-2026.html\">non-alcoholic beer technology</a> cover that kit.</p>"
+  ],
+  [
+   "Keeping it stable",
+   "<p>A sweet drink with no alcohol and no hops is yeast food. There are three ways to hold it and most plants combine two.</p><ul><li><strong>Low pH, preservative and a clean fill.</strong> Works for high-acid sodas from a plant that meets the micro limits every day. It fails the first time a CIP is skipped.</li><li><strong>Tunnel pasteurisation after filling.</strong> The brewery way and the safest for cans. Agree a PU target with your flavour supplier and validate it; our guide to <a href=\"pasteurisation-units.html\">pasteurisation units</a> covers the arithmetic.</li><li><strong>Hot fill.</strong> The drink is filled hot into heat-tolerant packs and held before cooling. It suits still juice drinks, not carbonated ones, because hot liquid will not hold CO2.</li></ul><p>Whichever you choose, the yeast and mould count decides. Two cfu per ml is tight for a lab used to beer, so plate every batch and keep the records.</p>"
+  ],
+  [
+   "Existing brewery or new set-up",
+   "<p><strong>If you already run a brewery or brewpub</strong>, settle two questions before buying kit. First excise: a brewery is bonded premises, so ask the state excise office in writing whether a non-alcoholic product may be made, stored and dispatched inside the bond. Ask too whether it needs its own line, tanks, store or gate. Second FSSAI: your licence lists the food categories you make, so adding carbonated beverages means a modification on FoSCoS or a separate licence. Rules vary by state and change, so confirm both with the offices concerned. On the kit side you add a sugar store, a jacketed syrup tank with an agitator, a dosing pump or flow meter, a refractometer and carbon filtration.</p><p><strong>If you are starting a new set-up</strong>, build in this order:</p><ol><li>Water treatment to packaged drinking water quality, with carbon filtration and a deaerator.</li><li>A lab with refractometer, pH meter, CO2 tester and plating for yeast and mould.</li><li>Sugar store and syrup room with stainless tanks and filtration.</li><li>Ratio dosing or batch blending into a carbonation tank.</li><li>Filler and seamer or crowner, then a tunnel pasteuriser.</li><li><a href=\"cip-cleaning-in-place.html\">CIP</a> that reaches every one of these.</li></ol><p>The kit list is the easy part. Matching the syrup room, the preservative system and the FSSAI category to your exact product is where most first runs go wrong.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can a brewery in India make soft drinks?",
+   "Often yes, but it is a state excise question because the brewery is bonded premises. Ask the excise office in writing whether a non-alcoholic product can be made and dispatched inside the bond. Then add the category to your FSSAI licence."
+  ],
+  [
+   "How much CO2 should a soda carry?",
+   "University of Florida guidance gives 3.5 to 4 volumes for colas and 2.5 to 3.5 for club soda, tonic and lemon-lime drinks. Hop water is usually carbonated to 3 to 4 volumes."
+  ],
+  [
+   "How much quinine can a tonic contain in India?",
+   "The FSSAI carbonated water standard allows quinine salts up to 100 ppm, expressed as quinine sulphate."
+  ],
+  [
+   "Does hop water need pasteurising?",
+   "Acidified to pH 3.2 to 3.6 with no sugar, hop water is a low-risk product, but many producers still tunnel pasteurise cans. Validate your own process against the FSSAI micro limits."
+  ]
+ ],
+ "cta": {
+  "title": "Add soft drinks without putting your excise licence at risk",
+  "body": "We review your water, syrup room plan, stability route and the FSSAI and excise questions, then support the first commissioning runs. Rahul Baliyan leads the process side and Ankur Napa the quality system and costing. Your team is left able to run the line itself.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "beverage-technology-for-brewers",
+  "low-and-no-alcohol-production-routes",
+  "non-alcoholic-beer-technology-2026"
+ ],
+ "cta_inline": {
+  "title": "Learn the syrup room before you build it",
+  "body": "Our RTD Drinks course covers alcoholic and non-alcoholic ready-to-drink production in two weeks of live weekend classes, 12:00 PM to 2:00 PM IST, for ₹5,000.",
+  "href": "rtd-drinks-alcoholic-and-non-alcoholic-course.html",
+  "label": "See the full syllabus"
+ }
+}
