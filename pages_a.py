@@ -444,10 +444,10 @@ BLOG = banner("Blog","The Journal · Blog &amp; Podcasts","Insights from the bre
 <section class="tint">
   <div class="wrap split">
     <div class="prose-block reveal">
-      <span class="eyebrow">Cheers Chatty Ventures</span>
+      <span class="eyebrow">Cheers Chatty Beer Podcast</span>
       <h2>The podcast.</h2>
       <p>Every episode we sit down with brewers, founders and sensory pros to talk about what really happens between grain and glass, the wins, the off-flavours and the business of building a beer brand in India.</p>
-      <a href="contact.html#enroll" class="link-arrow" data-cta="suggest-a-guest-or-topic">Suggest a guest or topic</a>
+      <a href="podcast.html" class="link-arrow" data-cta="blog-listen-podcast">Listen to every episode</a>
     </div>
     <div class="split-media reveal"><div class="offset-img"><img src="assets/team5.jpg" alt="Chatty Girija, host of the Cheers Chatty Ventures beer podcast" loading="lazy" /></div></div>
   </div>

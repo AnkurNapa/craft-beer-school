@@ -793,3 +793,9 @@ section.fam-group{padding:0}
 .bf-list a:hover b{color:var(--amber-deep)}
 @media (max-width:860px){.bf-grid{grid-template-columns:1fr}.bf-text{min-height:0}}
 @media (prefers-reduced-motion:reduce){.bf-next,.bf-list a{transition:none}.bf-next:hover{transform:none}}
+
+/* --- Podcast page --------------------------------------------------------- */
+.pod-follow{display:flex;flex-wrap:wrap;gap:.8rem;margin-bottom:1.6rem}
+.pod-embed{width:100%;border:0;border-radius:var(--radius)}
+.ep audio{width:100%;margin-top:1rem}
+.ep .foot{gap:1rem;justify-content:flex-start}

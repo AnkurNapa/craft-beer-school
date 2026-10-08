@@ -23,6 +23,7 @@ import mentors
 import photos
 import brochure_pages
 import discover
+import podcast
 
 # --- Consistent inline icon set (Lucide, MIT). Use [[name]] in page bodies. ---
 ICONS = {
@@ -184,7 +185,8 @@ FOOTER = """
       <li><a href="resources.html">Resources</a></li>
       <li><a href="style-library.html">Style Library</a></li>
       <li><a href="prospectus.html" data-cta="footer-prospectus">Prospectus</a></li>
-      <li><a href="blog.html">Blog &amp; Podcasts</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="podcast.html">Podcast</a></li>
       <li><a href="faq.html">FAQ</a></li>
     </ul></div>
     <div><h4>School</h4><ul>
@@ -453,6 +455,7 @@ PAGES.update(style_render.pages(BY_SLUG))
 PAGES[companies.SLUG] = companies.PAGE
 PAGES.update(mentors.pages())
 PAGES.update(brochure_pages.pages())
+PAGES[podcast.SLUG] = podcast.page(pages_a.banner)
 PAGES[photos.CREDITS] = ("Image Credits | Craft Beer School",
                          "Credits and licences for the free-licence photographs used on Craft Beer School.",
                          "", photos.credits_page())
