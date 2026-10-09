@@ -6173,5 +6173,765 @@
   "by": "mentor-ankur-napa.html",
   "batch": "beverage-tech-1",
   "date": "2026-10-08"
+ },
+ {
+  "slug": "digital-hydrometers-and-fermentation-sensors",
+  "h1": "Digital hydrometers and fermentation sensors: Plaato, EasyDens, RAPT Pill, Tilt and what is new",
+  "cat": "Brewing science",
+  "course": "digital-transformation-basics-for-brewing-course.html",
+  "related": [
+   "how-to-use-a-hydrometer",
+   "original-gravity-final-gravity-explained",
+   "keeping-a-brew-log"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "gadgets-1",
+  "date": "2026-10-09"
+ },
+ {
+  "slug": "weyermann-malts-guide",
+  "h1": "Weyermann malts: a brewer's guide to every malt in the range",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-pilsner-malt",
+   "weyermann-caramunich-malt",
+   "weyermann-carafa-special-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "awareness",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Weyermann malts"
+ },
+ {
+  "slug": "weyermann-pilsner-malt",
+  "h1": "Weyermann Pilsner malt: the base for clean, pale lagers",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-extra-pale-premium-pilsner-malt",
+   "weyermann-bohemian-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Pilsner Malt",
+  "wheel": "assets/weyermann/pilsner-malt.webp"
+ },
+ {
+  "slug": "weyermann-extra-pale-premium-pilsner-malt",
+  "h1": "Weyermann Extra Pale Premium Pilsner malt: for the palest beers",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pilsner-malt",
+   "weyermann-bohemian-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Extra Pale Premium Pilsner Malt",
+  "wheel": "assets/weyermann/extra-pale-premium-pilsner-malt.webp"
+ },
+ {
+  "slug": "weyermann-bohemian-pilsner-malt",
+  "h1": "Weyermann Bohemian Pilsner malt: Czech character in the grist",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pilsner-malt",
+   "weyermann-extra-pale-premium-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Bohemian Pilsner Malt",
+  "wheel": "assets/weyermann/bohemian-pilsner-malt.webp"
+ },
+ {
+  "slug": "weyermann-floor-malted-bohemian-pilsner-malt",
+  "h1": "Weyermann Floor-Malted Bohemian Pilsner malt: the old way of malting",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pilsner-malt",
+   "weyermann-extra-pale-premium-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Floor-Malted Bohemian Pilsner Malt",
+  "wheel": "assets/weyermann/floor-malted-bohemian-pilsner-malt.webp"
+ },
+ {
+  "slug": "weyermann-floor-malted-bohemian-dark-malt",
+  "h1": "Weyermann Floor-Malted Bohemian Dark malt: for Czech dark lagers",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pilsner-malt",
+   "weyermann-extra-pale-premium-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Floor-Malted Bohemian Dark Malt",
+  "wheel": "assets/weyermann/floor-malted-bohemian-dark-malt.webp"
+ },
+ {
+  "slug": "weyermann-barke-pilsner-malt",
+  "h1": "Weyermann Barke Pilsner malt: a heritage barley in a modern lager",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pilsner-malt",
+   "weyermann-extra-pale-premium-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Barke Pilsner Malt",
+  "wheel": "assets/weyermann/barke-pilsner-malt.webp"
+ },
+ {
+  "slug": "weyermann-eraclea-pilsner-malt",
+  "h1": "Weyermann Eraclea Pilsner malt: an Italian barley for pale beers",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pilsner-malt",
+   "weyermann-extra-pale-premium-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Eraclea Pilsner Malt",
+  "wheel": "assets/weyermann/eraclea-pilsner-malt.webp"
+ },
+ {
+  "slug": "weyermann-isaria-1924-malt",
+  "h1": "Weyermann Isaria 1924 malt: brewing with a 100-year-old barley",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pilsner-malt",
+   "weyermann-extra-pale-premium-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Isaria 1924",
+  "wheel": "assets/weyermann/isaria-1924.webp"
+ },
+ {
+  "slug": "weyermann-pale-ale-malt",
+  "h1": "Weyermann Pale Ale malt: a fuller base for ales",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pilsner-malt",
+   "weyermann-extra-pale-premium-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Pale Ale Malt",
+  "wheel": "assets/weyermann/pale-ale-malt.webp"
+ },
+ {
+  "slug": "weyermann-diastatic-barley-malt",
+  "h1": "Weyermann Diastatic Barley malt: extra enzymes for adjunct-heavy mashes",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pilsner-malt",
+   "weyermann-extra-pale-premium-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Diastatic Barley Malt",
+  "wheel": "assets/weyermann/diastatic-barley-malt.webp"
+ },
+ {
+  "slug": "weyermann-vienna-malt",
+  "h1": "Weyermann Vienna malt: golden colour and a toasty backbone",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-barke-vienna-malt",
+   "weyermann-munich-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Vienna Malt",
+  "wheel": "assets/weyermann/vienna-malt.webp"
+ },
+ {
+  "slug": "weyermann-barke-vienna-malt",
+  "h1": "Weyermann Barke Vienna malt: heritage barley, kilned for Vienna lager",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-vienna-malt",
+   "weyermann-munich-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Barke Vienna Malt",
+  "wheel": "assets/weyermann/barke-vienna-malt.webp"
+ },
+ {
+  "slug": "weyermann-munich-malt",
+  "h1": "Weyermann Munich malt Type 1 and Type 2: choosing the right one",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-vienna-malt",
+   "weyermann-barke-vienna-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Munich Malt Type 1 and Type 2",
+  "wheel": "assets/weyermann/munich-malt.webp"
+ },
+ {
+  "slug": "weyermann-barke-munich-malt",
+  "h1": "Weyermann Barke Munich malt: deep malt flavour from a heritage barley",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-vienna-malt",
+   "weyermann-barke-vienna-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Barke Munich Malt",
+  "wheel": "assets/weyermann/barke-munich-malt.webp"
+ },
+ {
+  "slug": "weyermann-brewing-malt-type-cologne",
+  "h1": "Weyermann Brewing Malt Type Cologne: a base malt built for Kolsch",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-vienna-malt",
+   "weyermann-barke-vienna-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Brewing Malt Type Cologne",
+  "wheel": "assets/weyermann/brewing-malt-type-cologne.webp"
+ },
+ {
+  "slug": "weyermann-carapils-malt",
+  "h1": "Weyermann CARAPILS: body and foam without colour",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carahell-malt",
+   "weyermann-carafoam-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARAPILS",
+  "wheel": "assets/weyermann/carapils.webp"
+ },
+ {
+  "slug": "weyermann-carahell-malt",
+  "h1": "Weyermann CARAHELL: light caramel for pale beers",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carafoam-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARAHELL",
+  "wheel": "assets/weyermann/carahell.webp"
+ },
+ {
+  "slug": "weyermann-carafoam-malt",
+  "h1": "Weyermann CARAFOAM: a foam and body malt for pale beers",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARAFOAM",
+  "wheel": "assets/weyermann/carafoam.webp"
+ },
+ {
+  "slug": "weyermann-carabohemian-malt",
+  "h1": "Weyermann CARABOHEMIAN: the caramel malt behind Czech amber lagers",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARABOHEMIAN",
+  "wheel": "assets/weyermann/carabohemian.webp"
+ },
+ {
+  "slug": "weyermann-caramunich-malt",
+  "h1": "Weyermann CARAMUNICH Type 1, 2 and 3: amber caramel, three depths",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARAMUNICH Type 1, 2 and 3",
+  "wheel": "assets/weyermann/caramunich.webp"
+ },
+ {
+  "slug": "weyermann-caraamber-malt",
+  "h1": "Weyermann CARAAMBER: amber colour with a bready finish",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARAAMBER",
+  "wheel": "assets/weyermann/caraamber.webp"
+ },
+ {
+  "slug": "weyermann-carared-malt",
+  "h1": "Weyermann CARARED: red colour without roast",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARARED",
+  "wheel": "assets/weyermann/carared.webp"
+ },
+ {
+  "slug": "weyermann-caraaroma-malt",
+  "h1": "Weyermann CARAAROMA: the darkest caramel for big malt aroma",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARAAROMA",
+  "wheel": "assets/weyermann/caraaroma.webp"
+ },
+ {
+  "slug": "weyermann-carabelge-malt",
+  "h1": "Weyermann CARABELGE: caramel for Belgian ales",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARABELGE",
+  "wheel": "assets/weyermann/carabelge.webp"
+ },
+ {
+  "slug": "weyermann-carawheat-malt",
+  "h1": "Weyermann CARAWHEAT: caramel malt from wheat",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARAWHEAT",
+  "wheel": "assets/weyermann/carawheat.webp"
+ },
+ {
+  "slug": "weyermann-cararye-malt",
+  "h1": "Weyermann CARARYE: caramel malt from rye",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARARYE",
+  "wheel": "assets/weyermann/cararye.webp"
+ },
+ {
+  "slug": "weyermann-abbey-malt",
+  "h1": "Weyermann Abbey malt: biscuit and honey for Belgian ales",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Abbey Malt",
+  "wheel": "assets/weyermann/abbey-malt.webp"
+ },
+ {
+  "slug": "weyermann-melanoidin-malt",
+  "h1": "Weyermann Melanoidin malt: decoction-style depth without the decoction",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Melanoidin Malt",
+  "wheel": "assets/weyermann/melanoidin-malt.webp"
+ },
+ {
+  "slug": "weyermann-special-w-malt",
+  "h1": "Weyermann Special W: dark caramel with a dried-fruit edge",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carapils-malt",
+   "weyermann-carahell-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Special W",
+  "wheel": "assets/weyermann/special-w.webp"
+ },
+ {
+  "slug": "weyermann-carafa-malt",
+  "h1": "Weyermann CARAFA Type 1, 2 and 3: roasted malt for dark beers",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carafa-special-malt",
+   "weyermann-roasted-barley"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARAFA Type 1, 2 and 3",
+  "wheel": "assets/weyermann/carafa.webp"
+ },
+ {
+  "slug": "weyermann-carafa-special-malt",
+  "h1": "Weyermann CARAFA SPECIAL: dark colour with less roast bite",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carafa-malt",
+   "weyermann-roasted-barley"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "CARAFA SPECIAL Type 1, 2 and 3",
+  "wheel": "assets/weyermann/carafa-special.webp"
+ },
+ {
+  "slug": "weyermann-roasted-barley",
+  "h1": "Weyermann Roasted Barley: the dry roast of a stout",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carafa-malt",
+   "weyermann-carafa-special-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Roasted Barley",
+  "wheel": "assets/weyermann/roasted-barley.webp"
+ },
+ {
+  "slug": "weyermann-chocolate-wheat-malt",
+  "h1": "Weyermann Chocolate Wheat malt: dark wheat for dunkels and porters",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carafa-malt",
+   "weyermann-carafa-special-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Chocolate Wheat Malt",
+  "wheel": "assets/weyermann/chocolate-wheat-malt.webp"
+ },
+ {
+  "slug": "weyermann-chocolate-rye-malt",
+  "h1": "Weyermann Chocolate Rye malt: roast with a spicy edge",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-carafa-malt",
+   "weyermann-carafa-special-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Chocolate Rye Malt",
+  "wheel": "assets/weyermann/chocolate-rye-malt.webp"
+ },
+ {
+  "slug": "weyermann-pale-wheat-malt",
+  "h1": "Weyermann Pale Wheat malt: the heart of a Hefeweizen",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-dark-wheat-malt",
+   "weyermann-pale-rye-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Wheat Malt Pale",
+  "wheel": "assets/weyermann/pale-wheat-malt.webp"
+ },
+ {
+  "slug": "weyermann-dark-wheat-malt",
+  "h1": "Weyermann Dark Wheat malt: for Dunkelweizen and Weizenbock",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pale-wheat-malt",
+   "weyermann-pale-rye-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Wheat Malt Dark",
+  "wheel": "assets/weyermann/dark-wheat-malt.webp"
+ },
+ {
+  "slug": "weyermann-pale-rye-malt",
+  "h1": "Weyermann Pale Rye malt: spice, body and a lautering challenge",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pale-wheat-malt",
+   "weyermann-dark-wheat-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Rye Malt Pale",
+  "wheel": "assets/weyermann/pale-rye-malt.webp"
+ },
+ {
+  "slug": "weyermann-spelt-malt",
+  "h1": "Weyermann Spelt malt: brewing with an ancient wheat",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pale-wheat-malt",
+   "weyermann-dark-wheat-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Spelt Malt",
+  "wheel": "assets/weyermann/spelt-malt.webp"
+ },
+ {
+  "slug": "weyermann-beech-smoked-barley-malt",
+  "h1": "Weyermann Beech Smoked Barley malt: the Bamberg Rauchbier malt",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-oak-smoked-wheat-malt",
+   "weyermann-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Beech Smoked Barley Malt",
+  "wheel": "assets/weyermann/beech-smoked-barley-malt.webp"
+ },
+ {
+  "slug": "weyermann-oak-smoked-wheat-malt",
+  "h1": "Weyermann Oak Smoked Wheat malt: a gentler smoke for Grodziskie and more",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-beech-smoked-barley-malt",
+   "weyermann-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Oak Smoked Wheat Malt",
+  "wheel": "assets/weyermann/oak-smoked-wheat-malt.webp"
+ },
+ {
+  "slug": "weyermann-acidulated-malt",
+  "h1": "Weyermann Acidulated malt: lowering mash pH the natural way",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-sour-wort",
+   "weyermann-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Acidulated Malt",
+  "wheel": "assets/weyermann/acidulated-malt.webp"
+ },
+ {
+  "slug": "weyermann-sour-wort",
+  "h1": "Weyermann Sour Wort: biological acidification in a can",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-acidulated-malt",
+   "weyermann-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "Sour Wort"
+ },
+ {
+  "slug": "weyermann-sinamar-and-malt-extracts",
+  "h1": "Weyermann SINAMAR and malt extracts: colour and wort from a can",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "weyermann-pilsner-malt",
+   "weyermann-extra-pale-premium-pilsner-malt"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "weyermann-1",
+  "date": "2026-10-09",
+  "malt": "SINAMAR and malt extracts"
  }
 ]

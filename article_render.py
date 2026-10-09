@@ -94,6 +94,15 @@ def _related(article, by_slug):
 </section>"""
 
 
+def _wheel(a):
+    """Weyermann's own Malt Aroma Wheel for the malt, credited to them."""
+    return (f'<figure class="malt-wheel"><img src="{a["wheel"]}" alt="Weyermann Malt Aroma Wheel for {a["malt"]}, '
+            f'showing the aroma attributes found in its wort" width="900" height="900" loading="lazy">'
+            f'<figcaption>Malt Aroma Wheel (wort) for {a["malt"]}. Image: '
+            f'<a href="https://www.weyermann.de/en-gb/" rel="noopener">Weyermann Specialty Malts</a>, from their published '
+            f'product documents. Craft Beer School is not affiliated with Weyermann.</figcaption></figure>')
+
+
 def render(article, by_slug):
     """Full page body for one article."""
     secs = article["sections"]
@@ -105,6 +114,8 @@ def render(article, by_slug):
     for i, (heading, body) in enumerate(secs):
         anchor = heading.lower().replace(" ", "-").replace(",", "").replace("?", "")
         parts.append(f'<h2 id="{anchor}">{heading}</h2>\n{body}')
+        if i == 0 and article.get("wheel"):
+            parts.append(_wheel(article))
         # Guest stories run uninterrupted; only the closing band sells.
         if i + 1 == cut and not article.get("author"):
             # Optional cta_inline lets a guide sell a different route mid-article (e.g. consultancy).

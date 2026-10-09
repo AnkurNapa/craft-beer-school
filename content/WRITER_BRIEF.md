@@ -116,3 +116,17 @@ These 44 guides are for people who work inside beer, wine and spirits companies 
 - Founders guides on insurance, leases and partner agreements: process and the questions to ask, never legal or financial advice; tell readers to use a lawyer or broker.
 - No serial comma and no ", and" joins, same as the other segments.
 - The Drinks producers and Corporate teams rules above apply to their daily rows too (`by` byline, consultancy or corporate CTA).
+
+## Weyermann malt series (plan batch "weyermann-1")
+
+44 guides, one per Weyermann malt plus a hub (`weyermann-malts-guide`), for craft brewers in India. Segment Professional brewers, cat Ingredients, all dated 2026-10-09. Each page shows Weyermann's Malt Aroma Wheel for the malt after the first section (the renderer adds it from the plan row; do not add images or a `wheel` key to the JSON).
+
+- Facts come from the per-malt fact sheet named in your task (spec note frontmatter plus the Weyermann brewery datasheet text). Every spec number you print (colour EBC and Lovibond, extract, moisture, maximum addition, enzyme activity) must match that sheet. If a value is missing, leave it out. Never invent a spec, a price, a distributor or a lab result.
+- Rewrite, never copy: no run of seven or more words lifted from the datasheet text. Datasheet style lists are a starting point, not a list to paste.
+- Shape, in your own headings (5 to 7 sections): what the malt is and how it is made; the numbers from the spec sheet and what each means on brew day; what it tastes like (refer to the aroma wheel the reader can see below the first section, using the datasheet's sensory words); how much to use and how to mash it (enzymes or none, where it goes in the grist); styles it suits, with one worked grist for a 1,000 litre brewpub batch or a 20 litre homebrew in kg and percentages that add up to 100; using it in India (storing imported malt in heat and humidity, moisture pickup, milling, what to swap in when it is out of stock). One brewhouse-floor detail, used precisely.
+- Name malts in Weyermann's own capitals (CARAMUNICH, CARAFA SPECIAL, CARAHELL) without the ® sign. Do not imply Craft Beer School is endorsed by Weyermann.
+- Internal links: the hub and one or two sibling malt guides from this batch, plus an existing guide where it helps (base-malts-explained, crystal-and-caramel-malts, roasted-malts-guide, wheat-malt-in-brewing, smoked-beer-rauchbier, mash-ph-explained, beer-colour-srm-ebc, sourcing-malt-and-hops-in-india, decoction-mashing).
+- The hub explains Weyermann (family maltster in Bamberg, Germany, since 1879), how to read a malt spec sheet and an aroma wheel (the wheels came from a GC/MS and trained sensory panel study with Trier University), and links every guide in the batch, grouped by family.
+- CTA: stage consideration (hub awareness), course advanced-brewing-science-course.html, 6 weeks, ₹12,999. The gap it fills is grist design: balancing base, caramel and roasted malts for colour, body and flavour on purpose.
+- Also read `~/.claude/skills/humanizer/references/brewing-house-style.md` for numbers and sourcing discipline; this brief's voice and JSON shape win where they differ.
+- No serial comma and no ", and" joins.

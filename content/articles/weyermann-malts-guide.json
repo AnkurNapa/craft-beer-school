@@ -1,0 +1,75 @@
+{
+ "slug": "weyermann-malts-guide",
+ "cat": "Ingredients",
+ "h1": "Weyermann malts: a brewer's guide to every malt in the range",
+ "title": "Weyermann Malts: A Brewer's Guide | Craft Beer School",
+ "desc": "A brewer's guide to the Weyermann malt range: how to read a malt spec sheet and aroma wheel, with links to a guide for every malt, grouped by family.",
+ "teaser": "Forty-three malts, one maltster, one page to find your way around them. Start here before you place the next import order.",
+ "standfirst": "We wrote a guide to every malt in the Weyermann range for brewers in India. This page explains the spec sheets and aroma wheels they all use, then sorts the malts by family so you can go straight to the one you need.",
+ "read": "5 min",
+ "updated": "2026-10-09",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A family maltster in Bamberg",
+   "<p>Weyermann is a family maltster in Bamberg, in Franconia, Germany, malting since 1879. Its range runs from pale Pilsner malt to roasted CARAFA, with caramel, smoked, wheat, rye and spelt malts in between. Plenty of Indian craft brewers already have a bag or two in the store.</p><p>Each guide below takes one malt and covers what it is, the numbers on its current brewery datasheet, how it tastes, how to mash it, a worked grist and how to keep it in good shape in Indian heat. The spec figures come from Weyermann's datasheets. The opinions on how to brew with them are ours. Craft Beer School is not affiliated with Weyermann.</p>"
+  ],
+  [
+   "How to read a malt spec sheet",
+   "<p>Every Weyermann brewery datasheet carries a short analysis table. The lines that change your brew day are these:</p><ul><li><strong>Colour, in EBC and Lovibond.</strong> The colour of a standard laboratory wort. It tells you how much a malt darkens the beer, which our guide to <a href=\"beer-colour-srm-ebc.html\">beer colour</a> turns into recipe arithmetic.</li><li><strong>Extract, on dry matter.</strong> The share of the malt that dissolves in a fine-grind lab mash. Your brewhouse recovers less, but a lower figure still means more malt per brew.</li><li><strong>Moisture.</strong> You pay for water too. A 25 kg bag at 5% moisture holds 23.75 kg of dry malt.</li><li><strong>Kolbach index and protein.</strong> Kolbach is soluble protein as a share of total protein, a measure of modification. Around 36 to 42% means a well modified malt that needs no protein rest.</li><li><strong>Friability and glassy kernels.</strong> How easily the grain crumbles at the mill. Glassy kernels are the hard, poorly modified ones that do not.</li><li><strong>Enzyme activity and recommended addition.</strong> Whether the malt can convert itself and others. The addition figure is the share of the grist Weyermann suggests as a ceiling.</li></ul><p>Read the certificate of analysis for your actual lot as well. The datasheet gives ranges. The certificate tells you where your bags landed.</p>"
+  ],
+  [
+   "How to read an aroma wheel",
+   "<p>Each malt guide shows Weyermann's Malt Aroma Wheel for that malt. The wheels grew out of a research project at Trier University of Applied Sciences, with Weyermann's support, that paired gas chromatography with mass spectrometry (GC/MS) to measure malt aroma compounds against a trained sensory panel scoring the same malts.</p><p>The wheel has six sectors: taste (sweet, sour, bitter), caramel, malty, fruity and nutty, smoky and roasted. Each spoke is scored from 0 at the centre to 5 at the rim. Read the shape before the points. A Pilsner malt bulges toward sweet and malty-sweet and stays tight in the roast sector, while a CARAFA does the reverse. The scores describe wort, not finished beer, so yeast and hops will still have their say.</p>"
+  ],
+  [
+   "Base malts",
+   "<p>The malts that supply most of the extract and the enzymes to convert it.</p><ul><li><a href=\"weyermann-pilsner-malt.html\">Pilsner malt</a>: the base for clean, pale lagers</li><li><a href=\"weyermann-extra-pale-premium-pilsner-malt.html\">Extra Pale Premium Pilsner malt</a>: for the palest beers</li><li><a href=\"weyermann-bohemian-pilsner-malt.html\">Bohemian Pilsner malt</a>: Czech character in the grist</li><li><a href=\"weyermann-floor-malted-bohemian-pilsner-malt.html\">Floor-Malted Bohemian Pilsner malt</a>: the old way of malting</li><li><a href=\"weyermann-floor-malted-bohemian-dark-malt.html\">Floor-Malted Bohemian Dark malt</a>: for Czech dark lagers</li><li><a href=\"weyermann-barke-pilsner-malt.html\">Barke Pilsner malt</a>: a heritage barley in a modern lager</li><li><a href=\"weyermann-eraclea-pilsner-malt.html\">Eraclea Pilsner malt</a>: an Italian barley for pale beers</li><li><a href=\"weyermann-isaria-1924-malt.html\">Isaria 1924 malt</a>: brewing with a 100-year-old barley</li><li><a href=\"weyermann-pale-ale-malt.html\">Pale Ale malt</a>: a fuller base for ales</li><li><a href=\"weyermann-brewing-malt-type-cologne.html\">Brewing Malt Type Cologne</a>: a base malt built for Kolsch</li><li><a href=\"weyermann-diastatic-barley-malt.html\">Diastatic Barley malt</a>: extra enzymes for adjunct-heavy mashes</li></ul>"
+  ],
+  [
+   "Kilned malts",
+   "<p>Kilned hotter for colour and malt flavour. Most still carry enough enzymes to convert themselves.</p><ul><li><a href=\"weyermann-vienna-malt.html\">Vienna malt</a>: golden colour and a toasty backbone</li><li><a href=\"weyermann-barke-vienna-malt.html\">Barke Vienna malt</a>: heritage barley, kilned for Vienna lager</li><li><a href=\"weyermann-munich-malt.html\">Munich malt Type 1 and Type 2</a>: choosing the right one</li><li><a href=\"weyermann-barke-munich-malt.html\">Barke Munich malt</a>: deep malt flavour from a heritage barley</li><li><a href=\"weyermann-melanoidin-malt.html\">Melanoidin malt</a>: decoction-style depth without the decoction</li><li><a href=\"weyermann-abbey-malt.html\">Abbey malt</a>: biscuit and honey for Belgian ales</li></ul>"
+  ],
+  [
+   "Caramel malts",
+   "<p>Stewed and dried so the starch turns to sugar inside the kernel. They bring body, sweetness and colour, with no enzymes to speak of.</p><ul><li><a href=\"weyermann-carapils-malt.html\">CARAPILS</a>: body and foam without colour</li><li><a href=\"weyermann-carafoam-malt.html\">CARAFOAM</a>: a foam and body malt for pale beers</li><li><a href=\"weyermann-carahell-malt.html\">CARAHELL</a>: light caramel for pale beers</li><li><a href=\"weyermann-carabohemian-malt.html\">CARABOHEMIAN</a>: the caramel malt behind Czech amber lagers</li><li><a href=\"weyermann-caramunich-malt.html\">CARAMUNICH Type 1, 2 and 3</a>: amber caramel, three depths</li><li><a href=\"weyermann-caraamber-malt.html\">CARAAMBER</a>: amber colour with a bready finish</li><li><a href=\"weyermann-carared-malt.html\">CARARED</a>: red colour without roast</li><li><a href=\"weyermann-caraaroma-malt.html\">CARAAROMA</a>: the darkest caramel for big malt aroma</li><li><a href=\"weyermann-carabelge-malt.html\">CARABELGE</a>: caramel for Belgian ales</li><li><a href=\"weyermann-special-w-malt.html\">Special W</a>: dark caramel with a dried-fruit edge</li><li><a href=\"weyermann-carawheat-malt.html\">CARAWHEAT</a>: caramel malt from wheat</li><li><a href=\"weyermann-cararye-malt.html\">CARARYE</a>: caramel malt from rye</li></ul>"
+  ],
+  [
+   "Roasted malts, wheat, rye and spelt",
+   "<p><strong>Roasted malts</strong> give the colour and roast of dark beers. A few per cent goes a long way.</p><ul><li><a href=\"weyermann-carafa-malt.html\">CARAFA Type 1, 2 and 3</a>: roasted malt for dark beers</li><li><a href=\"weyermann-carafa-special-malt.html\">CARAFA SPECIAL</a>: dark colour with less roast bite</li><li><a href=\"weyermann-roasted-barley.html\">Roasted Barley</a>: the dry roast of a stout</li><li><a href=\"weyermann-chocolate-wheat-malt.html\">Chocolate Wheat malt</a>: dark wheat for dunkels and porters</li><li><a href=\"weyermann-chocolate-rye-malt.html\">Chocolate Rye malt</a>: roast with a spicy edge</li></ul><p><strong>Wheat, rye and spelt malts</strong> bring protein, body and their own flavours, along with some lautering headaches.</p><ul><li><a href=\"weyermann-pale-wheat-malt.html\">Pale Wheat malt</a>: the heart of a Hefeweizen</li><li><a href=\"weyermann-dark-wheat-malt.html\">Dark Wheat malt</a>: for Dunkelweizen and Weizenbock</li><li><a href=\"weyermann-pale-rye-malt.html\">Pale Rye malt</a>: spice, body and a lautering challenge</li><li><a href=\"weyermann-spelt-malt.html\">Spelt malt</a>: brewing with an ancient wheat</li></ul>"
+  ],
+  [
+   "Smoked malts, acid malt and extracts",
+   "<p><strong>Smoked malts</strong> carry the smoke of the wood they were kilned over.</p><ul><li><a href=\"weyermann-beech-smoked-barley-malt.html\">Beech Smoked Barley malt</a>: the Bamberg Rauchbier malt</li><li><a href=\"weyermann-oak-smoked-wheat-malt.html\">Oak Smoked Wheat malt</a>: a gentler smoke for Grodziskie and more</li></ul><p><strong>Acid malt and extracts</strong> correct pH or add colour and wort without a mash.</p><ul><li><a href=\"weyermann-acidulated-malt.html\">Acidulated malt</a>: lowering mash pH the natural way</li><li><a href=\"weyermann-sour-wort.html\">Sour Wort</a>: biological acidification in a can</li><li><a href=\"weyermann-sinamar-and-malt-extracts.html\">SINAMAR and malt extracts</a>: colour and wort from a can</li></ul>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Who makes Weyermann malt?",
+   "Weyermann, a family maltster based in Bamberg, Germany, that has been malting since 1879."
+  ],
+  [
+   "What is a Malt Aroma Wheel?",
+   "A chart that scores a malt's taste and aroma on six sectors from 0 to 5. Weyermann's wheels came out of research with Trier University of Applied Sciences that combined GC/MS analysis with a trained sensory panel."
+  ],
+  [
+   "Which Weyermann malt should I start with?",
+   "Most grists start with a base malt such as Pilsner or Pale Ale malt, then add kilned, caramel or roasted malts in small shares for colour and flavour."
+  ],
+  [
+   "Is Craft Beer School endorsed by Weyermann?",
+   "No. These are independent guides written by our brewers, using Weyermann's published datasheets for the spec figures."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to build a grist from these malts",
+  "body": "Advanced Brewing Science, our 6 week live course, covers grist design: balancing base, caramel and roasted malts for colour, body and flavour on purpose, with the mash chemistry behind each choice.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "weyermann-pilsner-malt",
+  "weyermann-caramunich-malt",
+  "weyermann-carafa-special-malt"
+ ]
+}

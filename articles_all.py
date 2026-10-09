@@ -17,7 +17,8 @@ _PLAN = {p["slug"]: p for p in json.loads((HERE / "content/plan.json").read_text
 
 _seeded = [json.loads(f.read_text()) for f in sorted((HERE / "content/articles").glob("*.json"))]
 # A plan row may name a second course for readers learning for themselves.
-_seeded = [{**a, "also": _PLAN[a["slug"]]["also"]} if _PLAN.get(a["slug"], {}).get("also") else a
+# Weyermann malt guides carry the malt's aroma wheel image.
+_seeded = [{**a, **{k: _PLAN[a["slug"]][k] for k in ("also", "wheel", "malt") if _PLAN.get(a["slug"], {}).get(k)}}
            for a in _seeded]
 
 # Byline for every guide that is not a guest story: Chatty on the creative

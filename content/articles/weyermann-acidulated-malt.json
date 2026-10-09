@@ -1,0 +1,67 @@
+{
+ "slug": "weyermann-acidulated-malt",
+ "cat": "Ingredients",
+ "h1": "Weyermann Acidulated malt: lowering mash pH the natural way",
+ "title": "Weyermann Acidulated Malt Guide | Craft Beer School",
+ "desc": "How Acidulated Malt lowers mash pH, its spec numbers, dosing rules of thumb to check with a meter, a worked Pilsner grist and Indian water tips.",
+ "teaser": "A pale malt coated in natural lactic acid. It nudges mash pH down without a bottle of acid in the brewhouse.",
+ "standfirst": "Acidulated Malt is the German brewer's way to correct mash pH within the purity law. Here is what it is, how much pH it moves and why your pH meter, not a rule of thumb, gets the final word.",
+ "read": "3 min",
+ "updated": "2026-10-09",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What Acidulated Malt is",
+   "<p>Acidulated Malt, also called sour malt, is pale malt made from German brewing barley that carries natural lactic acid. The acid comes from unhopped wort fermented by lactic acid bacteria. The malt is coated in it. Brewers working under the German purity law cannot add mineral acid to the mash, so this is how they lower pH while staying within the rules.</p><p>It adds almost no colour and little flavour at normal doses. Its job is chemistry. If mash pH is new to you, our <a href=\"mash-ph-explained.html\">mash pH guide</a> covers why it matters.</p>"
+  ],
+  [
+   "Reading the spec sheet",
+   "<ul><li><strong>Colour: 1.5 to 5 EBC (0.9 to 2.3 Lovibond).</strong> As pale as a Pilsner malt.</li><li><strong>pH of the malt: 3.35 to 3.7.</strong> This is what does the work.</li><li><strong>Moisture: 8% maximum.</strong></li><li><strong>Maximum addition: 5%</strong> in normal beers, <strong>10%</strong> in sour beers.</li><li><strong>Enzyme activity:</strong> Weyermann does not give a figure. It notes that getting the mash pH right helps the base malt's enzymes work better.</li></ul><p>The datasheet gives no extract figure, so count it as a small contributor to gravity.</p>"
+  ],
+  [
+   "What it does to flavour",
+   "<p>The aroma wheel above shows the profile. Weyermann calls it fruity-acidic and universally applicable. At 1 to 3%, you will not taste sourness. What you notice is a crisper finish, because a beer mashed at the correct pH tastes cleaner. Push to 10% in a sour beer and the lactic tartness becomes part of the flavour.</p><p>Correct mash pH helps beyond flavour too. Enzymes convert starch more reliably, the wort tends to clear better in the kettle and hop bitterness reads smoother. Those effects are modest, but they add up over a year of brews.</p>"
+  ],
+  [
+   "How much pH it moves and why you measure",
+   "<p>Weyermann's rule of thumb is that 1% Acidulated Malt lowers mash pH by roughly 0.1. Treat that as approximate. Your real result depends on water alkalinity, the colour of the rest of the grist and the base malt itself. A dark grist already acidifies the mash. Hard, alkaline water pushes the other way.</p><p>The target most brewers aim for is a mash pH between 5.2 and 5.6, measured on a cooled sample. Start with the rule of thumb, then check with a pH meter and adjust on the next brew.</p><p>Here is the floor routine. Calibrate the meter each brew day with fresh pH 4 and pH 7 buffers. Take a sample from the mash about 10 to 15 minutes after dough-in and cool it to room temperature before you read it. Hot samples read lower and wear the probe out faster. Write the number in the brew log next to the dose.</p>"
+  ],
+  [
+   "A worked grist: German Pilsner, 1,000 litres",
+   "<p>For a 1,000 litre brewpub batch at around 12 °P with a brewhouse yield near 75%.</p><ul><li><a href=\"weyermann-pilsner-malt.html\">Pilsner malt</a>: 203.7 kg (97%)</li><li>Acidulated Malt: 6.3 kg (3%)</li><li>Total: 210 kg (100%)</li></ul><p>By the rule of thumb, 3% might lower mash pH by about 0.3. If your water and malt give a mash pH around 5.7 without it, you would expect to land near 5.4. Measure to confirm.</p><p>The water, the grist and the acid all interact. Understanding that interaction and building grist and water together on purpose is one of the things a brewer learns slowly by trial unless someone teaches it directly.</p>"
+  ],
+  [
+   "Using Acidulated Malt in India",
+   "<p>Many Indian borewell supplies are hard and alkaline, which pushes mash pH up, especially in pale beers. Acidulated Malt is an easy, natural way to pull it back. Treating the water itself is the bigger fix; see our guide to <a href=\"treating-borewell-water-for-brewing.html\">treating borewell water</a>.</p><p>Unopened, Weyermann gives at least 24 months of shelf life in dry storage between 0 and 30 °C. Indian heat and humidity are hard on this malt. The acid coating attracts moisture once the bag is open. Damp acid malt can clump. Keep opened stock sealed.</p><p>If you run out, food-grade lactic acid in the mash does the same job, as long as you are not brewing to the German purity law. For acidifying wort later in the process, see <a href=\"weyermann-sour-wort.html\">Weyermann Sour Wort</a>. The <a href=\"weyermann-malts-guide.html\">Weyermann malts guide</a> covers the rest.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much does Acidulated Malt lower mash pH?",
+   "Weyermann's rule of thumb is about 0.1 pH per 1% of the grist. That is approximate, so confirm it with a calibrated pH meter on a cooled mash sample."
+  ],
+  [
+   "What is the maximum addition?",
+   "5% in normal beers and up to 10% in sour beers, according to Weyermann."
+  ],
+  [
+   "Will Acidulated Malt make my beer sour?",
+   "Not at 1 to 3%. At those doses it corrects pH and gives a cleaner finish. At higher doses in sour beers the tartness shows."
+  ],
+  [
+   "What mash pH should I aim for?",
+   "Most brewers aim for 5.2 to 5.6, measured on a sample cooled to room temperature."
+  ]
+ ],
+ "cta": {
+  "title": "Get mash pH right on purpose",
+  "body": "Advanced Brewing Science is our 6 week live course (₹12,999). It teaches grist design: balancing base, caramel and roasted malts for colour, body and flavour, with the water chemistry that goes with them.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "weyermann-malts-guide",
+  "weyermann-sour-wort",
+  "weyermann-pilsner-malt"
+ ]
+}

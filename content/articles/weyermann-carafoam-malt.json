@@ -1,0 +1,63 @@
+{
+ "slug": "weyermann-carafoam-malt",
+ "cat": "Ingredients",
+ "h1": "Weyermann CARAFOAM: a foam and body malt for pale beers",
+ "title": "Weyermann CARAFOAM Malt Guide | Craft Beer School",
+ "desc": "How Weyermann CARAFOAM builds head retention and body in pale beers, its spec numbers, dose and what else kills foam.",
+ "teaser": "A good head starts in the grist and dies at the tap. CARAFOAM handles the first part. Here is the rest.",
+ "standfirst": "CARAFOAM is a nearly colourless malt for foam and mouthfeel. We look at what it can and cannot do for your head retention, from mash tun to glass.",
+ "read": "3 min",
+ "updated": "2026-10-09",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What CARAFOAM is and how it relates to CARAPILS",
+   "<p>CARAFOAM is a very pale dextrin malt from German brewing barley. The malting leaves a high share of dextrins and large proteins in the kernel. The drying keeps colour near Pilsner malt. Dextrins give body; the large proteins help form and hold a head.</p><p>If you have read our <a href=\"weyermann-carapils-malt.html\">CARAPILS guide</a>, this will sound familiar. Weyermann's datasheets for the two malts carry identical numbers, the same style list and the same description. On paper they are the same malt sold under two names. You can treat them as interchangeable. The CARAPILS guide covers body in rice lagers and alcohol-free beer. This one is about foam, because that is what most brewers buy it for.</p><p>Before you add it, measure what you have. Pour your current beer into a clean, cold, straight-sided glass from a consistent height and time how long the head takes to fall by half. Write the number down. Without a baseline you will never know whether the malt did anything. Foam is the easiest thing in brewing to argue about from memory.</p>"
+  ],
+  [
+   "The numbers on the spec sheet",
+   "<ul><li><strong>Colour:</strong> 2.5 to 6.5 EBC (1.4 to 2.9 °L), invisible at normal doses.</li><li><strong>Extract:</strong> 75% minimum, dry basis.</li><li><strong>Moisture:</strong> 8% maximum.</li><li><strong>Enzyme activity:</strong> low, so it needs a base malt to convert.</li><li><strong>Recommended addition:</strong> 5 to 10%, up to 40% in special formulations such as alcohol-free beer.</li></ul><p>For foam work, 3 to 5% is often enough in a beer that is already well made. Above 10% you start buying sweetness and body you may not want in a dry Pilsner.</p>"
+  ],
+  [
+   "What it tastes like",
+   "<p>The aroma wheel below the first section shows a gentle profile. Weyermann's sensory note is malty-sweet with light caramel. That is about all you will get. In a pale ale or Kölsch-style beer it is close to invisible on the nose. You feel it as a fuller middle and see it as a tighter, longer-lasting head.</p>"
+  ],
+  [
+   "Foam is a whole-process job",
+   "<p>CARAFOAM adds foam-positive material. Plenty of things downstream take it away. No malt can outrun them:</p><ul><li><strong>Hot side:</strong> a weak boil leaves poor hot break. An over-long protein rest in a well-modified malt can break down the very proteins you want.</li><li><strong>Fermentation:</strong> stressed or autolysing yeast releases enzymes and lipids that hurt foam. Do not leave beer sitting warm on a dead yeast cake.</li><li><strong>Dispense:</strong> detergent residue and grease on glassware flatten a head in seconds. Rinse-aid in a bar dishwasher is a common culprit.</li></ul><p>Hops help too: iso-alpha acids are foam-positive, which is one reason a bitter Pilsner holds a head better than a sweet lager. Working out which of these is costing you foam, before you change the malt bill, is the sort of diagnosis grist design alone will not give you.</p>"
+  ],
+  [
+   "How much to use and a worked grist",
+   "<p>Mill it with the base malt and mash it in with everything else. For a Kölsch-style ale, 20 litre homebrew, about 11.5 °P:</p><ul><li>Pilsner malt: 3.57 kg (85%)</li><li>Pale wheat malt: 0.42 kg (10%)</li><li>CARAFOAM: 0.21 kg (5%)</li></ul><p>Total 4.2 kg. The wheat brings its own foam proteins, so CARAFOAM at 5% is plenty here. Scale by a factor of 50 for a 1,000 litre batch, then check the result against your own brewhouse efficiency.</p>"
+  ],
+  [
+   "Using CARAFOAM in India",
+   "<p>Indian taproom foam has a particular enemy: the warm glass. A pint glass straight out of a hot dishwasher, or one sitting on a back shelf at 32 °C, knocks carbon dioxide out of solution and the head collapses. A cold-water rinse before every pour settles a lot of foam complaints before anyone touches the recipe.</p><p>The datasheet promises at least 24 months of shelf life for an unopened bag kept dry between 0 and 30 °C. Plenty of Indian godowns pass 30 °C from March to June, so treat that promise as conditional. Keep pallets off the floor and away from the roof sheet, in the coolest room you have.</p><p>Opened bags pull moisture fast in the monsoon, so seal them. If CARAFOAM is out of stock, CARAPILS from the same maltster matches it on every published number; any other dextrin malt of similar colour is the next choice. The <a href=\"weyermann-malts-guide.html\">Weyermann malts guide</a> shows where it sits in the range.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is CARAFOAM the same as CARAPILS?",
+   "The two Weyermann datasheets list the same colour, extract, moisture, enzyme activity, dose and description, so in practice they are interchangeable."
+  ],
+  [
+   "How much CARAFOAM do I need for better foam?",
+   "The sheet recommends 5 to 10%. In a well-made pale beer, 3 to 5% is often enough; above 10% the beer starts to taste fuller and sweeter."
+  ],
+  [
+   "My beer has CARAFOAM but still no head. Why?",
+   "Look downstream: greasy or detergent-coated glassware, warm glasses, yeast left too long in the fermenter or a weak boil. Malt cannot fix a dirty glass."
+  ]
+ ],
+ "cta": {
+  "title": "Head dies in the glass and you cannot tell why?",
+  "body": "Advanced Brewing Science is a 6 week live course (₹12,999) on grist design: balancing base, caramel and roasted malts for colour, body and flavour on purpose, with the maths to predict each before you brew.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "weyermann-malts-guide",
+  "weyermann-carapils-malt",
+  "weyermann-carahell-malt"
+ ]
+}

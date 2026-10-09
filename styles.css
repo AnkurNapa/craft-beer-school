@@ -803,3 +803,6 @@ section.fam-group{padding:0}
 /* Nine nav links: keep the logo whole on narrow desktops. */
 .brand{flex-shrink:0}
 @media(min-width:961px) and (max-width:1180px){.navlinks{gap:1.1rem}}
+.malt-wheel{margin:1.6rem auto;max-width:560px;text-align:center}
+.malt-wheel img{display:block;width:100%;height:auto;border-radius:16px;background:#fff;box-shadow:var(--shadow-sm)}
+.malt-wheel figcaption{margin-top:.6rem;font-size:.85rem;color:var(--ink-soft)}

@@ -1,0 +1,75 @@
+{
+ "slug": "digital-hydrometers-and-fermentation-sensors",
+ "cat": "Brewing science",
+ "h1": "Digital hydrometers and fermentation sensors: Plaato, EasyDens, RAPT Pill, Tilt and what is new",
+ "title": "Digital Hydrometers Compared | Craft Beer School",
+ "desc": "How Tilt, RAPT Pill, iSpindel, EasyDens and tank probes measure gravity, what Plaato's shutdown means and which sensor suits your brewery.",
+ "teaser": "Floats, U-tubes and tank probes compared, plus the Plaato devices that stopped working when the cloud went dark.",
+ "standfirst": "A logging sensor turns gravity from a daily chore into a fermentation curve you can act on. Here is how each device actually measures, where it fails and which one fits a homebrew bucket, a brewpub tank or a production cellar.",
+ "read": "6 min",
+ "updated": "2026-10-09",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a reading every 15 minutes beats one a day",
+   "<p>A glass hydrometer tells you where a beer is. A logging sensor tells you where it is going.</p>\n<p>Plot gravity every 15 or 30 minutes and you get a fermentation curve: a lag, a steep fall while the yeast is at full speed, then a flattening tail. A beer that stalls at 1.020 on day three shows up while you can still rouse the yeast or warm the tank, not at packaging. The curve also tells you when to act. Dry hop while there is still some activity to scrub oxygen, start a diacetyl rest in the last few points and only <a href=\"cold-crashing.html\">cold crash</a> once gravity has held steady for two or three days.</p>\n<p>None of this replaces the <a href=\"how-to-use-a-hydrometer.html\">glass hydrometer</a>. Every device below misreads in some situation.</p>"
+  ],
+  [
+   "The floating sensors: Tilt, RAPT Pill and iSpindel",
+   "<p>Most homebrew sensors work on one trick. A sealed, weighted capsule floats in the beer and leans at an angle. As sugar is eaten the beer gets thinner, the capsule sinks a little and the angle changes. An accelerometer inside reads that angle and a calibration curve turns it into gravity.</p>\n<p><strong>Tilt.</strong> The original float. It broadcasts over Bluetooth only, so you need a phone, a Raspberry Pi running Tilt Pi or the small Tilt Pico bridge to get readings onto Wi-Fi and into Google Sheets or Brewfather. The maker states gravity accuracy of plus or minus 0.002 and temperature to 0.5 °C, with a battery of one to two years. Tilt's spec sheet for the Pro Mini gives a range of about 90 m in open glass but roughly 6 m from inside a closed stainless keg, which tells you how much steel blocks radio.</p>\n<p><strong>KegLand RAPT Pill.</strong> The same principle with Wi-Fi built in alongside Bluetooth. It runs on a rechargeable 18650 lithium cell. KegLand states plus or minus 0.002 on gravity and 0.2 °C on temperature. Wi-Fi means it needs a 2.4 GHz network and eats battery much faster than Bluetooth mode. Readings run warm for a while after charging.</p>\n<p><strong>iSpindel.</strong> The open-source version: a Wi-Fi board, an accelerometer and a battery in a plastic tube, built from published plans. You calibrate each one yourself in sugar solutions of known gravity and fit a curve. It pushes data to Ubidots, MQTT, BierBot Bricks and most brew apps.</p>\n<p>The weak points are shared. Krausen and yeast stick to the capsule and add weight, so readings wander during high krausen. Bubbles cling and add lift. Judge the trend, not single points.</p>"
+  ],
+  [
+   "Plaato: what happened to the airlock, the keg and the valve",
+   "<p>Plaato took a different route. The Plaato Airlock counted CO2 bubbles leaving the fermenter and estimated gravity from them. The Plaato Keg sat under a keg on a load cell and reported how much beer was left. The Plaato Valve was an anti-suck-back valve for the airlock.</p>\n<p>Say it plainly: these homebrew products are discontinued. Plaato stopped selling them in November 2023 and kept the app running until November 2025, after which the cloud service went dark. Brewfather now lists Plaato as discontinued. Some owners keep airlocks alive through open-plaato-keg, a community replacement for the cloud. There is no official support, so skip second-hand units.</p>\n<p>Plaato itself now sells to breweries: a tuning-fork density and temperature sensor on a 1.5 inch tri-clamp, feeding its Insights software.</p>\n<p>The bubble-count idea had a flaw anyway: a leaking lid loses CO2 that never reaches the airlock, so the estimate drifts and nothing warns you.</p>"
+  ],
+  [
+   "EasyDens and SmartRef: a lab method on the bench",
+   "<p>Anton Paar's EasyDens is not a float. It is a small benchtop density meter using the oscillating U-tube method found in brewery labs. You draw about 2 ml of sample through a glass tube with a syringe, the tube vibrates and its frequency shifts with the density of the liquid. It reports to a phone app over Bluetooth Low Energy.</p>\n<p>Anton Paar states accuracy of 0.001 SG for aqueous samples such as beer (0.3 °P) for samples between 5 and 30 °C. It is a spot check, not a logger. The catch is bubbles: CO2 in a fermenting sample throws the reading, so degas it first by pouring between two jugs or filtering.</p>\n<p>Paired with Anton Paar's SmartRef refractometer, the app combines density and refractive index to estimate alcohol and real extract in fermenting or finished beer, without needing the original gravity.</p>"
+  ],
+  [
+   "At brewery scale: sensors in the tank",
+   "<p>In a closed 5 to 10 hl conical a float is hard to retrieve and the steel blocks its radio. Production brewers use probes fitted through a tri-clamp port instead. Options include the Plaato fermentation sensor, Anton Paar's L-Dens density sensors and Fermentation Monitor, the Endress+Hauser QWX43 fermentation probe and Emerson's Micro Motion fork density meter, which in Emerson's published craft brewery case study read to plus or minus 0.2 °Plato. They survive CIP and cost far more than any float. Ask each supplier for the stated accuracy, the cleaning procedure and how the probe is recalibrated against lab samples.</p>"
+  ],
+  [
+   "How the options compare",
+   "<ul>\n<li><strong>Tilt:</strong> floating, tilt angle, Bluetooth only (bridge needed for Wi-Fi), stated plus or minus 0.002, long battery life, still sold.</li>\n<li><strong>RAPT Pill:</strong> floating, tilt angle, Wi-Fi and Bluetooth, stated plus or minus 0.002, rechargeable, still sold.</li>\n<li><strong>iSpindel:</strong> floating, tilt angle, Wi-Fi, accuracy depends on your calibration, open source.</li>\n<li><strong>Plaato Airlock, Keg and Valve:</strong> bubble count and load cell. Discontinued, cloud shut down, community workarounds only. Avoid.</li>\n<li><strong>EasyDens with SmartRef:</strong> oscillating U-tube spot checks, Bluetooth, stated 0.001 SG.</li>\n<li><strong>Inline probes (Plaato Pro, Anton Paar, Endress+Hauser, Emerson):</strong> tank-mounted, CIP-proof and wired into plant systems.</li>\n</ul>\n<p>As a rule of thumb, a homebrewer is well served by a Tilt or RAPT Pill plus a hydrometer. A brewpub on 5 to 10 hl tanks gets more from an EasyDens on the bench than from floats it cannot retrieve. A production brewery should price tank probes.</p>"
+  ],
+  [
+   "Running them in India",
+   "<p>None of these is made here, so most reach us through importers or as personal imports. Customs duty and GST apply. Wireless devices may need type approval before an importer can sell them. Rules change, so check with the importer or a customs broker before ordering.</p>\n<p>The bigger problems are on the floor. A cold room is an insulated box with steel panels: Wi-Fi that works in the office often dies at the glycol-jacketed tank. Put a 2.4 GHz access point or Bluetooth bridge inside the cellar before blaming the sensor. Chargers and bridges run off ordinary USB adapters on our 230 V supply, ideally behind a surge protector. In summer, a float fermenting in an uncontrolled room at 30 °C will show a fast, sharp curve. That is your data telling you to fix temperature control first.</p>"
+  ],
+  [
+   "Turning numbers into decisions",
+   "\n<ol>\n<li><strong>Check against a reference.</strong> Take a hydrometer or EasyDens reading at pitch, mid-fermentation and at the end of every batch. Note the offset. If it grows from batch to batch, recalibrate or clean the float.</li>\n<li><strong>Set alerts that mean something.</strong> For example, no drop of more than 0.002 in 24 hours before you reach expected final gravity, or temperature more than 1 °C off setpoint. Brewfather and similar apps can send these.</li>\n<li><strong>Log it with the batch.</strong> Keep the curve with the recipe, yeast generation and tank in your <a href=\"keeping-a-brew-log.html\">brew log</a>.</li>\n</ol>\n<p>Buying the sensor is easy. Wiring it to alerts, a log and the call on when to crash is where most small breweries stall.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is a Tilt or RAPT Pill as accurate as a glass hydrometer?",
+   "Both makers state plus or minus 0.002 SG, which is coarser than a good glass hydrometer read carefully. Use the sensor for the trend and a hydrometer for the numbers you record."
+  ],
+  [
+   "Does the Plaato Airlock still work?",
+   "Not officially. Plaato stopped selling homebrew products in November 2023 and shut its app in November 2025. Some owners run it through community servers such as open-plaato-keg."
+  ],
+  [
+   "Why does my floating hydrometer read wrong during high krausen?",
+   "Yeast and foam stick to the capsule and change its weight, while bubbles add lift. Readings usually settle once krausen drops, so judge the trend rather than single points."
+  ],
+  [
+   "Will Wi-Fi reach a sensor inside a stainless fermenter?",
+   "Often not well. Steel blocks radio, so place a bridge or access point close to the tank in the cold room."
+  ]
+ ],
+ "cta": {
+  "title": "Turn fermentation readings into decisions",
+  "body": "Digital Transformation Basics for Brewing is a two week live course (₹5,000) on choosing sensors, logging batch data and setting alerts your team will act on. It covers the setup work this guide can only point at.",
+  "href": "digital-transformation-basics-for-brewing-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "how-to-use-a-hydrometer",
+  "original-gravity-final-gravity-explained",
+  "keeping-a-brew-log"
+ ]
+}
