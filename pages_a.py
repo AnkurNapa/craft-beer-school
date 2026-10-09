@@ -41,15 +41,15 @@ def course(no, tag, dur, name, blurb, items, price, ph):
 COURSE_DATA = [
     dict(no="01", tag="Foundations", dur="4 Weeks", weeks=4, name="Brewing Fundamentals",
          blurb="The science of brewing: ingredients, equipment and technique. Live online sessions, plus your first real recipe.",
-         items=["Brewing science &amp; theory","Raw materials &amp; quality","Equipment &amp; sanitation","Recipe formulation basics"],
+         items=["Brewing science and theory","Raw materials and quality","Equipment and sanitation","Recipe formulation basics"],
          price="₹5,999", amount="5999"),
     dict(no="02", tag="Deep Craft", dur="6 Weeks", weeks=6, name="Advanced Brewing Science",
-         blurb="Go deeper into chemistry, microbiology and advanced fermentation for serious brewers and pros.",
-         items=["Microbiology &amp; fermentation","Water chemistry optimisation","Advanced mashing techniques","Quality assurance &amp; control"],
+         blurb="Go deeper into brewing chemistry, microbiology and fermentation. For serious homebrewers and professionals.",
+         items=["Microbiology and fermentation","Water chemistry optimisation","Advanced mashing techniques","Quality assurance and control"],
          price="₹12,999", amount="12999"),
     dict(no="03", tag="Business", dur="3 Weeks", weeks=3, name="Brewery Business Management",
          blurb="The business behind the brew: plan, launch and grow a brewery, from finance to distribution.",
-         items=["Business planning &amp; finance","Licensing &amp; regulations","Marketing &amp; branding","Distribution strategies"],
+         items=["Business planning and finance","Licensing and regulations","Marketing and branding","Distribution strategies"],
          price="₹8,999", amount="8999"),
     dict(no="04", tag="Mastery", dur="8 Weeks", weeks=8, name="Style Specialisation",
          blurb="Master IPAs, stouts, lagers, sours and Belgian ales: their history, technique and award-winning examples.",
@@ -125,16 +125,16 @@ C1, C2, C3 = COURSE_CARDS[:3]
 # Home page tracks. Every course must sit in exactly one, so a new course can
 # never go missing from the home page: the assert below stops the build.
 TRACKS = [
-    ("beer", "Brewing", "From your first batch to judging-level palate.",
+    ("beer", "Brewing", "From your first batch to a judge's palate.",
      ["Brewing Fundamentals", "Advanced Brewing Science", "Style Specialisation", "Sensory Evaluation"]),
-    ("briefcase", "Business &amp; tech", "Run, market and modernise a brewery.",
+    ("briefcase", "Business and tech", "Run, market and modernise a brewery.",
      ["Brewery Business Management", "Beer Branding &amp; Packaging", "AI for Craft Breweries",
       "Digital Transformation Basics for Brewing", "ESG in Craft Brewing", "Power BI and Tableau for Breweries"]),
     ("martini", "Spirits", "Distilling and gin, from wash to bottle.",
      ["Craft Distilling", "Craft Gin Making"]),
-    ("glass-water", "Beyond beer", "Low, no and other ferments people are buying now.",
+    ("glass-water", "Beyond beer", "Alcohol-free, low-alcohol and the other ferments people are buying now.",
      ["Non-Alcoholic Beer", "RTD Drinks: Alcoholic and Non-Alcoholic", "Hop Water", "Hard Seltzer", "Kombucha"]),
-    ("map-pin", "Free &amp; in Bengaluru", "Start free, or learn in the room with us.",
+    ("map-pin", "Free and in Bengaluru", "Start free, or learn in the room with us.",
      ["Safety in Brewing"]),
 ]
 _by_name = {c["name"]: c for c in COURSE_DATA}
@@ -152,12 +152,12 @@ def tracks_section():
     for icon, title, line, names in TRACKS:
         items = "".join(_track_course(_by_name[n]) for n in names)
         if title == "Brewing":
-            items += '<li><a href="courses.html#wset">WSET Beer exam prep</a><span>Group or 1-to-1</span></li>'
+            items += '<li><a href="courses.html#wset">WSET Beer exam prep</a><span>Group or one-to-one</span></li>'
         if title.startswith("Free"):
             items += ('<li><a href="courses.html#in-person">Professional Beer Tasting Day</a><span>1 Day · ₹4,999</span></li>'
                       '<li><a href="courses.html#in-person">Brewery Business Tour</a><span>Half day · On enquiry</span></li>'
                       '<li><a href="courses.html#in-person">More hands-on workshops</a><span>Bengaluru</span></li>')
-        slot = {"Brewing": "track:brewing", "Business &amp; tech": "track:business", "Spirits": "track:spirits",
+        slot = {"Brewing": "track:brewing", "Business and tech": "track:business", "Spirits": "track:spirits",
                 "Beyond beer": "track:beyond"}.get(title, "track:bengaluru")
         tiles.append(f"""<article class="track reveal">{photos.figure(slot, title, "photo track-photo")}
         <div class="track-head"><span class="ic">[[{icon}]]</span><div><h3>{title}</h3><p>{line}</p></div></div>
@@ -183,9 +183,9 @@ HOME = f"""
 <section class="hero">
   <div class="wrap hero-offset">
     <div class="hero-copy reveal">
-      <span class="eyebrow">India · Online &amp; In-Person</span>
+      <span class="eyebrow">India · Online and in person</span>
       <h1 class="display">Brew like<br>you <span class="script">mean it.</span></h1>
-      <p class="lead">India's trusted beer school. We teach everything inside and outside the bottle: brewing, tasting, branding and the business of beer, and now spirits, AI for breweries and the drinks beyond beer. Live online sessions, guided tastings and hands-on days in Bengaluru.</p>
+      <p class="lead">India's trusted beer school. We teach everything inside and outside the bottle: brewing, tasting, branding and the business of beer. Now we teach spirits, AI for breweries and the drinks beyond beer too. Live online sessions, guided tastings and hands-on days in Bengaluru.</p>
       <div class="hero-cta">
         <a href="courses.html" class="btn btn-amber">Explore courses [[arrow-right]]</a>
         <a href="prospectus.html" class="btn btn-ghost" data-cta="hero-prospectus">Read the prospectus</a>
@@ -214,7 +214,7 @@ HOME = f"""
     <div class="sec-head">
       <span class="eyebrow">Basics to Business</span>
       <h2>{COURSE_COUNT_WORD.capitalize()} pours, one path from grain to glass.</h2>
-      <p class="lead">Each course blends theory with real practice, small groups, one-on-one mentorship, industry experts.</p>
+      <p class="lead">Every course pairs theory with real practice. Classes are small, taught by working brewers and backed by one-to-one mentorship.</p>
     </div>
     <div class="grid-3">{C1}{C2}{C3}</div>
     <div style="margin-top:2rem"><a href="#tracks" class="link-arrow">See all {COURSE_COUNT_WORD} courses by track</a></div>
@@ -226,7 +226,7 @@ HOME = f"""
     <div class="prose-block reveal">
       <span class="eyebrow">Corporate services</span>
       <h2 style="color:#fff">Training, hiring and consulting for the drinks business.</h2>
-      <p style="color:rgba(255,255,255,.75)">For breweries, wineries and distilleries, for beverage GCCs in Bengaluru, Pune and Hyderabad, and for companies bringing beer, ingredients or packaging to India.</p>
+      <p style="color:rgba(255,255,255,.75)">For breweries, wineries and distilleries. For beverage GCCs in Bengaluru, Pune and Hyderabad. For companies bringing beer, ingredients or packaging to India.</p>
       <div class="cta-pair" style="margin-top:1.2rem"><a class="btn btn-amber" href="for-companies.html" data-cta="home-companies">See our services</a><a class="btn btn-ghost on-dark" href="corporate-brochure.html" data-cta="home-companies-brochure">Corporate brochure</a></div>
     </div>
     <ul class="checklist on-dark reveal"><li>Consultancy for beer, cider, spirits and wine, from start-up to new products</li><li>Corporate training for beverage GCCs</li><li>Hiring support for every function</li><li>Brand and digital marketing consultancy</li><li>Market entry into India for beer, ingredient and packaging companies</li><li>Digital transformation and AI</li></ul>
@@ -239,7 +239,7 @@ HOME = f"""
     <div class="sec-head"><span class="eyebrow">Why Craft Beer School</span><h2>Better beer education brews better beer.</h2></div>
     <div class="features">
       <div class="feature reveal" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)"><div class="ic">[[flask]]</div><h3 style="color:#fff">Small batches, big learning</h3><p style="color:rgba(255,255,255,.7)">Tiny cohorts so every question gets answered and every batch gets tasted.</p></div>
-      <div class="feature reveal" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)"><div class="ic">[[cap]]</div><h3 style="color:#fff">One-on-one mentorship</h3><p style="color:rgba(255,255,255,.7)">Learn directly from working brewers, sensory pros and founders.</p></div>
+      <div class="feature reveal" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)"><div class="ic">[[cap]]</div><h3 style="color:#fff">One-to-one mentorship</h3><p style="color:rgba(255,255,255,.7)">Learn directly from working brewers, sensory pros and founders.</p></div>
       <div class="feature reveal" style="background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)"><div class="ic">[[globe]]</div><h3 style="color:#fff">Learn anywhere</h3><p style="color:rgba(255,255,255,.7)">Flexible live online sessions you can join from any city, plus in-person workshops.</p></div>
     </div>
   </div>
@@ -251,8 +251,8 @@ HOME = f"""
     <div class="prose-block reveal">
       <span class="eyebrow">Free Resources</span>
       <h2>Start learning before you enrol.</h2>
-      <p>Beer 101, a styles primer, a working brewing glossary and calculators, everything you need to sharpen your palate and your process, on the house.</p>
-      <ul class="checklist"><li>Beer 101 crash course</li><li>Beer styles &amp; off-flavour guides</li><li>Brewing calculators &amp; tasting tools</li></ul>
+      <p>Beer 101, a styles primer, a working brewing glossary and calculators. Everything you need to sharpen your palate and your process, free.</p>
+      <ul class="checklist"><li>Beer 101 crash course</li><li>Beer style and off-flavour guides</li><li>Brewing calculators and tasting tools</li></ul>
       <a href="resources.html" class="link-arrow">Browse the resource library</a>
     </div>
   </div>
@@ -261,7 +261,7 @@ HOME = f"""
 {brew_floor.home_section()}
 <section>
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">The Journal · Blog &amp; Podcasts</span><h2>Insights from the brewing world.</h2></div>
+    <div class="sec-head"><span class="eyebrow">The Journal · Blog and podcast</span><h2>Insights from the brewing world.</h2></div>
     <div class="grid-3">
       <article class="card reveal"><img class="thumb" src="assets/og/thumb/craft-beer-in-india.jpg" srcset="assets/og/thumb/craft-beer-in-india.jpg 600w, assets/og/craft-beer-in-india.jpg 1200w" sizes="(max-width: 680px) 92vw, 360px" alt="How craft beer actually grew in India" width="600" height="315" loading="lazy" decoding="async" /><div class="card-body"><span class="cat">India</span><h3>How craft beer actually grew in India</h3><p>A licence change in one state started it. Everything after that was taprooms, heat and a generation that wanted choice.</p><div class="foot"><a href="craft-beer-in-india.html" class="link-arrow" data-cta="home-journal">Read</a></div></div></article>
       <article class="card reveal"><img class="thumb" src="assets/og/thumb/start-a-microbrewery-india.jpg" srcset="assets/og/thumb/start-a-microbrewery-india.jpg 600w, assets/og/start-a-microbrewery-india.jpg 1200w" sizes="(max-width: 680px) 92vw, 360px" alt="How to start a microbrewery in India" width="600" height="315" loading="lazy" decoding="async" /><div class="card-body"><span class="cat">Business</span><h3>How to start a microbrewery in India</h3><p>The brewhouse is the easy part. Licensing, cooling and working capital are what decide whether you open.</p><div class="foot"><a href="start-a-microbrewery-india.html" class="link-arrow" data-cta="home-journal">Read</a></div></div></article>
@@ -282,7 +282,7 @@ HOME = f"""
 
 <section class="cta">
   <div class="wrap">
-    <h2>Join the Craft Beer School &amp; brew your future.</h2>
+    <h2>Join Craft Beer School and brew your future.</h2>
     <p>Open to beer lovers, professionals and future brewery founders, in India and across the world.</p>
     <a href="contact.html#enroll" class="btn btn-amber" data-cta="enroll-now">Enrol now</a>
   </div>
@@ -319,7 +319,7 @@ ABOUT = banner("About","About Craft Beer School","We teach the whole bottle.",
     <div class="sec-head center"><span class="eyebrow">What makes us different</span><h2>From passion to profession.</h2></div>
     <div class="features">
       <div class="feature reveal"><div class="ic">[[flask]]</div><h3>Small batches, big learning</h3><p>Tiny cohorts so every question gets answered and every batch gets tasted.</p></div>
-      <div class="feature reveal"><div class="ic">[[cap]]</div><h3>One-on-one mentorship</h3><p>Learn directly from working brewers, sensory pros and founders who've built brands in India.</p></div>
+      <div class="feature reveal"><div class="ic">[[cap]]</div><h3>One-to-one mentorship</h3><p>Learn directly from working brewers, sensory pros and founders who've built brands in India.</p></div>
       <div class="feature reveal"><div class="ic">[[globe]]</div><h3>Learn anywhere</h3><p>Flexible live online sessions you can join from any city, plus in-person brewery days.</p></div>
       <div class="feature reveal"><div class="ic">[[award]]</div><h3>Certification ready</h3><p>Structured WSET and Cicerone exam prep so your knowledge travels beyond the classroom.</p></div>
       <div class="feature reveal"><div class="ic">[[briefcase]]</div><h3>Passion to profession</h3><p>Curricula built to turn a hobby into a career or a business.</p></div>
@@ -426,7 +426,7 @@ RESOURCES = banner("Resources","Free beer education","Start learning today, on t
 """
 
 # ============================================================================
-BLOG = banner("Blog","The Journal · Blog &amp; Podcasts","Insights from the brewing world.",
+BLOG = banner("Blog","The Journal · Blog and podcast","Insights from the brewing world.",
     "Quality, marketing, tasting and the business of beer, plus podcast conversations with the people making it.") + """
 <section>
   <div class="wrap">

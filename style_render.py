@@ -269,7 +269,7 @@ def home_teaser():
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">New · Free Style Library</span>
       <h2>{len(cards)} beer styles, explained for India.</h2>
-      <p class="lead">Colour, bitterness and strength at a glance, the right glass, and what to eat with each one, from vada pav to Goan prawn curry. Pick a glass to start.</p></div>
+      <p class="lead">Colour, bitterness and strength at a glance. The right glass and what to eat with each one, from vada pav to Goan prawn curry. Pick a glass to start.</p></div>
     <div class="shelf">{glasses}</div>
     <div style="margin-top:2rem"><a href="{INDEX}" class="btn btn-amber" data-cta="home-style-library">Browse all {len(cards)} styles</a></div>
   </div>

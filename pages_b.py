@@ -3,7 +3,7 @@
 from pages_a import banner, COURSE_COUNT_WORD
 
 # ============================================================================
-CAREERS = banner("Careers","Careers &amp; Mentors","Help India learn beer.",
+CAREERS = banner("Careers","Careers and mentors","Help India learn beer.",
     "Become a CBS mentor or join the team. If you love brewing and love teaching it, there's a seat for you.") + """
 <section>
   <div class="wrap split">
@@ -119,7 +119,7 @@ FAQ = banner("FAQ","Questions","Everything you wanted to ask.",
     <div class="faq">
       {faq_item("Do I need any brewing experience to start?","Not at all. Brewing Fundamentals is built for complete beginners, we start with the science and ingredients and build up from there. Many of our students had no prior brewing background.")}
       {faq_item("Are the courses online or in person?","Both. Our " + COURSE_COUNT_WORD + " core courses run as flexible live online sessions you can join from any city. We also offer in-person workshops, home-visit brewing and guided tastings, mainly around Bengaluru.")}
-      {faq_item("What are the class sizes?","Small by design. Tiny cohorts mean every question gets answered and every batch gets tasted, with one-on-one mentorship from industry experts.")}
+      {faq_item("What are the class sizes?","Small by design. Tiny cohorts mean every question gets answered and every batch gets tasted, with one-to-one mentorship from working brewers.")}
       {faq_item("Do you help with WSET or Cicerone certification?","Yes. We provide structured exam preparation for WSET and Cicerone so you can build globally recognised beer knowledge and sit the exams with confidence.")}
       {faq_item("How do I enrol and pay?","Pick a course and submit the enquiry form or WhatsApp us. We confirm dates and share payment details. Seats are confirmed once payment is received, cohorts fill quickly.")}
       {faq_item("What is your refund policy?","See our full <a href='refund.html' style='color:var(--blue);text-decoration:underline'>Refund &amp; Cancellation policy</a>. In short, cancellations before a cohort starts are eligible for a refund within the stated window.")}

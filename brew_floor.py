@@ -37,7 +37,7 @@ def home_section():
     return f"""
 <section class="sand brew-floor">
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">From the brew floor</span><h2>One tip a day, and what is new this month.</h2></div>
+    <div class="sec-head"><span class="eyebrow">From the brew floor</span><h2>One tip a day and what is new this month.</h2></div>
     <div class="bf-grid">
       <figure class="bf-tip reveal" data-tips="{data}">
         <span class="bf-label">Brewer's tip <span class="bf-no">No. 1</span></span>

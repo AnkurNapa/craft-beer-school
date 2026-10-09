@@ -22,8 +22,8 @@ SITE = "craftbeerschool.in"
 PHONE, EMAIL = "+91 98209 25347", "chatty@cheerschattyventures.com"
 BY_NAME = {c["name"]: c for c in pages_a.COURSE_DATA}
 PHOTOS = photos._all()
-TRACK_SLOT = {"Brewing": "track:brewing", "Business &amp; tech": "track:business", "Spirits": "track:spirits",
-              "Beyond beer": "track:beyond", "Free &amp; in Bengaluru": "track:bengaluru"}
+TRACK_SLOT = {"Brewing": "track:brewing", "Business and tech": "track:business", "Spirits": "track:spirits",
+              "Beyond beer": "track:beyond", "Free and in Bengaluru": "track:bengaluru"}
 
 
 def uri(rel):
@@ -147,7 +147,7 @@ h1,h2{{font-family:"Hanken Grotesk";font-weight:800;letter-spacing:-.02em;line-h
 
 <section class="page about"><span class="eyebrow">About the school</span>
   <h2>India's beer school, grain to glass and beyond.</h2>
-  <p class="lead">We teach everything inside and outside the bottle: ingredients, brewing, tasting, branding and the business of beer, and now spirits, AI for breweries and the drinks beyond beer. Live online sessions, guided tastings and hands-on brewery days.</p>
+  <p class="lead">We teach everything inside and outside the bottle: ingredients, brewing, tasting, branding and the business of beer. Now we teach spirits, AI for breweries and the drinks beyond beer too. Live online sessions, guided tastings and hands-on brewery days.</p>
   <div class="facts"><div class="fact"><b>{n}</b><span>Live online courses</span></div><div class="fact"><b>20</b><span>Students per batch, at most</span></div>
     <div class="fact"><b>Sat-Sun</b><span>12:00 to 2:00 PM IST</span></div><div class="fact"><b>Cert.</b><span>Certificate of completion</span></div></div>
   <div class="team">

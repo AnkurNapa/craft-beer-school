@@ -125,7 +125,7 @@ NAV_ITEMS = [
     ("Contact", "contact.html", "contact"),
 ]
 
-ANNOUNCE = ('<div class="announce">Now enrolling, the ₹999 intro session is open. '
+ANNOUNCE = ('<div class="announce">Now enrolling: the ₹999 intro session is open. '
             '<a href="courses.html">See all courses [[arrow-right]]</a>'
             '<span class="announce-sep">·</span><a href="prospectus.html" data-cta="announce-prospectus">Read the prospectus</a></div>')
 
@@ -194,7 +194,7 @@ FOOTER = """
       <li><a href="about.html">About us</a></li>
       <li><a href="for-companies.html">Corporate services</a></li>
       <li><a href="corporate-brochure.html" data-cta="footer-brochure">Corporate brochure</a></li>
-      <li><a href="careers.html">Careers &amp; Mentors</a></li>
+      <li><a href="careers.html">Careers and mentors</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="__ENROLL__" data-cta="footer-enroll">Enrol</a></li>
     </ul></div>
