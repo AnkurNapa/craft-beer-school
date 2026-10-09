@@ -103,6 +103,12 @@ def _wheel(a):
             f'product documents. Craft Beer School is not affiliated with Weyermann.</figcaption></figure>')
 
 
+def _photo(ph):
+    """A credited photo from the plan row, shown after section ph["after"]."""
+    return (f'<figure class="malt-wheel post-photo" style="max-width:{min(ph["w"], 640)}px"><img src="{ph["src"]}" alt="{ph["alt"]}" width="{ph["w"]}" '
+            f'height="{ph["h"]}" loading="lazy"><figcaption>{ph["caption"]}</figcaption></figure>')
+
+
 def render(article, by_slug):
     """Full page body for one article."""
     secs = article["sections"]
@@ -116,6 +122,7 @@ def render(article, by_slug):
         parts.append(f'<h2 id="{anchor}">{heading}</h2>\n{body}')
         if i == 0 and article.get("wheel"):
             parts.append(_wheel(article))
+        parts += [_photo(ph) for ph in article.get("photos", []) if ph["after"] == i]
         # Guest stories run uninterrupted; only the closing band sells.
         if i + 1 == cut and not article.get("author"):
             # Optional cta_inline lets a guide sell a different route mid-article (e.g. consultancy).
