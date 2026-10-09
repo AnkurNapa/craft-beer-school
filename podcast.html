@@ -31,7 +31,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500;1,9..144,600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css?v=c04a6e1bd4" />
+<link rel="stylesheet" href="styles.css?v=4ad3dd095c" />
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["EducationalOrganization","LocalBusiness"],"@id":"https://craftbeerschool.in/#organization","name":"Craft Beer School","url":"https://craftbeerschool.in","logo":{"@type":"ImageObject","url":"https://craftbeerschool.in/assets/logo.png"},"image":"https://craftbeerschool.in/assets/og-default.png","description":"India's online and in-person beer school teaching brewing, tasting, branding and the business of beer, grain to glass.","email":"chatty@cheerschattyventures.com","telephone":"+91-98209-25347","address":{"@type":"PostalAddress","addressLocality":"Bengaluru","addressCountry":"IN"},"areaServed":{"@type":"Country","name":"India"},"knowsAbout":["Brewing","Craft beer","Beer sensory evaluation","Brewery business management","Beer styles","WSET","Cicerone"]},{"@type":"WebSite","@id":"https://craftbeerschool.in/#website","url":"https://craftbeerschool.in","name":"Craft Beer School","publisher":{"@id":"https://craftbeerschool.in/#organization"},"inLanguage":"en-IN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://craftbeerschool.in/search.html?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://craftbeerschool.in/"}]},{"@type":"WebPage","@id":"https://craftbeerschool.in/podcast.html#webpage","url":"https://craftbeerschool.in/podcast.html","name":"Cheers Chatty Beer Podcast, All Episodes | Craft Beer School","description":"Listen to all 49 episodes of the Cheers Chatty Beer Podcast with Chatty Girija. Brewers, founders and sensory pros, on Spotify and Apple Podcasts.","isPartOf":{"@id":"https://craftbeerschool.in/#website"},"about":{"@id":"https://craftbeerschool.in/#organization"},"inLanguage":"en-IN"}]}</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZHW47YJDC"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1ZHW47YJDC');</script>
@@ -72,6 +72,7 @@
     <div class="pod-follow">
       <a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="btn btn-amber" target="_blank" rel="noopener" data-cta="podcast-spotify">Follow on Spotify</a>
       <a href="https://podcasts.apple.com/us/podcast/cheers-chatty-beer-podcast/id1493541371" class="btn btn-ghost" target="_blank" rel="noopener" data-cta="podcast-apple">Follow on Apple Podcasts</a>
+      <a href="youtube.html" class="btn btn-ghost" data-cta="podcast-youtube">Watch on YouTube</a>
     </div>
     <iframe class="pod-embed" title="Cheers Chatty Beer Podcast on Spotify" src="https://open.spotify.com/embed/show/1qPO5UgB1WHnp4qfx7MCMX" height="352" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
   </div>
@@ -79,8 +80,22 @@
 <section class="tint">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">All episodes</span><h2>Press play.</h2></div>
-    <div class="grid-3">
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/8a9c91c7-f1a5-4634-a4a4-b0e8007f78ea.jpg" alt="Cover art for &quot;Teach beer to live like beer.&quot; Ft. Obakeng Malope" width="600" height="600" loading="lazy" /><div class="card-body">
+    <div class="kw-filter"><label for="pod-list-q" class="eyebrow">Filter</label>
+<input id="pod-list-q" type="search" placeholder="Filter episodes by guest, beer or topic" autocomplete="off" />
+<p class="kw-count" aria-live="polite"></p></div>
+<script>(function(){var box=document.getElementById("pod-list-q"),out=box.parentNode.querySelector(".kw-count");
+function run(){var cards=document.getElementById("pod-list").querySelectorAll("[data-q]"),words=box.value.toLowerCase().split(/\s+/).filter(Boolean),n=0;
+cards.forEach(function(c){var hit=words.every(function(w){return c.dataset.q.indexOf(w)>-1});c.hidden=!hit;if(hit)n++});
+out.textContent=words.length?(n?n+" of "+cards.length+" match":"Nothing matches. Try a shorter word."):""}
+box.addEventListener("input",run)})();</script>
+    <div class="grid-3" id="pod-list">
+<article class="card ep reveal" data-q="&quot;teach beer to live like beer.&quot; ft. obakeng malope childhood stories with life lessons have become a beer movement, empowering the youth of south africa.
+ brown beers international podcast series- #episode 4
+ podcast guest: obakeng malope, beer is art movementpodcast host: chatty girija 
+ #beerineverything
+ tune into india&#x27;s first and only beer podcast.
+ follow us on instagram, facebook, youtube, and linkedin for regular insights and updates. and if you ever have a beer-related question, don&#x27;t be afraid to dm us on our cheers chatty instagram handle. 
+ cheers!&quot;"><img class="ep-art" src="assets/podcast/8a9c91c7-f1a5-4634-a4a4-b0e8007f78ea.jpg" alt="Cover art for &quot;Teach beer to live like beer.&quot; Ft. Obakeng Malope" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S3 E10 · 2023-12-30 · 28 min</span>
   <h3>&quot;Teach beer to live like beer.&quot; Ft. Obakeng Malope</h3>
   <p>Childhood stories with life lessons have become a beer movement, empowering the youth of South Africa.
@@ -90,7 +105,17 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP3770658454.mp3?updated=1723807621" aria-label="Play &quot;Teach beer to live like beer.&quot; Ft. Obakeng Malope"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/teach-beer-to-live-like-beer-ft-obakeng-malope/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/816e6ff5-6c8f-44ef-9952-b0970065dbf8.jpg" alt="Cover art for Brown Beers featuring Ravi Patel" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="brown beers featuring ravi patel &quot;dishoom dishoom… dishoom…&quot; 
+ iss podcast beer story mae action hain… teen raniyan hain, jelebi ki tarah kahani mae twist hai, hoppy mere saathi hai jigri yaar aur intermission mein chai biscoot bhi bhi hai. and full on bhangra music bhi hai.
+ yeh hai filmi, very filmi
+ today we have with us ravi patel.  &quot;other desi beer&quot; company is the brew child of ravi, one of the country&#x27;s few south asian american brewers. the 34-year-old connecticut native has been introducing craft beer enthusiasts to the tastes and flavours he grew up with by using names and ingredients inspired by india.
+ podcast guest: ravi patel, other desi beer co.
+ podcast host: chatty girija 
+ #beerineverything
+ tune into india&#x27;s first and only beer podcast.
+ follow @cheerschatty on instagram, facebook, linkedin &amp; youtube.
+ listen to cheers chatty podcast on bingepods, spotify, apple and podcast channels 
+ of your choice."><img class="ep-art" src="assets/podcast/816e6ff5-6c8f-44ef-9952-b0970065dbf8.jpg" alt="Cover art for Brown Beers featuring Ravi Patel" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S3 E9 · 2023-10-12 · 46 min</span>
   <h3>Brown Beers featuring Ravi Patel</h3>
   <p>&quot;Dishoom Dishoom… Dishoom…&quot; 
@@ -98,7 +123,13 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP3104110217.mp3?updated=1723807621" aria-label="Play Brown Beers featuring Ravi Patel"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/brown-beers-featuring-ravi-patel/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/a1a9e7b2-f156-481b-a24d-b05c00c685b3.jpg" alt="Cover art for &quot;Let&#x27;s exchange some liquid currency&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="&quot;let&#x27;s exchange some liquid currency&quot; celebrating independence day week with vanit sharma, co-founder of rupee beer on cheers chatty &#x27;brown beers&#x27; international podcast edition, episode 2.  
+ babuussss…rupee beer is an unforgettably smooth tribute to india. 
+ #beerineverything
+ tune into india&#x27;s first and only beer podcast.
+ podcast host: chatty girija 
+ follow us on instagram, facebook, youtube, and linkedin for regular insights and updates. and if you ever have a beer-related question, don&#x27;t be afraid to dm us on our cheers chatty instagram handle. 
+ cheers!&quot;"><img class="ep-art" src="assets/podcast/a1a9e7b2-f156-481b-a24d-b05c00c685b3.jpg" alt="Cover art for &quot;Let&#x27;s exchange some liquid currency&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S3 E8 · 2023-08-16 · 42 min</span>
   <h3>&quot;Let&#x27;s exchange some liquid currency&quot;</h3>
   <p>Celebrating Independence Day week with Vanit Sharma, Co-founder of Rupee Beer on Cheers Chatty &#x27;Brown Beers&#x27; International Podcast edition, episode 2.  
@@ -107,7 +138,13 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP4582848968.mp3?updated=1723807621" aria-label="Play &quot;Let&#x27;s exchange some liquid currency&quot;"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/lets-exchange-some-liquid-currency/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/5ec4196c-4576-4f0e-873c-b05300a943a8.jpg" alt="Cover art for &quot;Where are all the brown people?&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="&quot;where are all the brown people?&quot; cheers chatty launches the &#x27;brown beers&#x27; international podcast edition with ruvani de silva for south asian beer club on international beer day.
+ ​​cheers chatty&#x27;s asian podcast edition is dedicated to international asian brews.
+ babuussss…go grab a beer and spread cheer!!
+ tune into india&#x27;s first and only beer podcast.
+ podcast hosts: chatty girija 
+ follow @cheerschatty on instagram, facebook, linkedin &amp; youtube.
+ listen to cheers chatty podcast on bingepods, spotify, apple and podcast channels of your choice."><img class="ep-art" src="assets/podcast/5ec4196c-4576-4f0e-873c-b05300a943a8.jpg" alt="Cover art for &quot;Where are all the brown people?&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S3 E7 · 2023-08-04 · 30 min</span>
   <h3>&quot;Where are all the brown people?&quot;</h3>
   <p>Cheers Chatty launches the &#x27;Brown Beers&#x27; International Podcast edition with Ruvani de Silva for South Asian Beer Club on International Beer Day.
@@ -116,7 +153,13 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP6859854566.mp3?updated=1723807621" aria-label="Play &quot;Where are all the brown people?&quot;"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/where-are-all-the-brown-people/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/8e45db8e-a019-4241-8a53-b035008ecd85.jpg" alt="Cover art for Guess what! The Beer Brand?" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="guess what! the beer brand? logo ke peeche ky hai? logo ke peeche…
+ cheers chatty &#x27;beer branding&#x27; episode talks about beer logos, signature brews for ipl, pushpa the fire and bahubali etc. #beerineverything
+ listen to the beer branding episode from cheers chatty podcast.
+ every wednesday at 5 p.m., a new episode will be accessible on the bingepods network and other podcast platforms of your choice.
+ podcast host: chatty girija &amp; chinmay soman
+ follow us on instagram, facebook, youtube, and linkedin for regular insights and updates. and if you ever have a beer-related question, don&#x27;t be afraid to dm us on our cheers chatty instagram handle. 
+ cheers!&quot;"><img class="ep-art" src="assets/podcast/8e45db8e-a019-4241-8a53-b035008ecd85.jpg" alt="Cover art for Guess what! The Beer Brand?" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S3 E6 · 2023-07-06 · 12 min</span>
   <h3>Guess what! The Beer Brand?</h3>
   <p>Logo ke peeche ky hai? Logo ke peeche…
@@ -125,7 +168,13 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP7943110657.mp3?updated=1723807622" aria-label="Play Guess what! The Beer Brand?"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/guess-what-the-beer-brand/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/732d8549-42dc-465b-b3e7-b02e009601c2.jpg" alt="Cover art for Beer Bhadas" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="beer bhadas the beer bhadas war is declared. the drinkers are out! time to crack attack with beers.
+ the battle between craft &amp; commercial beers. the war between 2 generations of beers and beer lovers.  whose side are you on? let us know in the comments section.
+ see you in the ring! listen to the beer bhadas episode on cheers chatty podcast.
+ every wednesday at 5 p.m., a new episode will be accessible on the bingepods network and other podcast platforms of your choice.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija &amp; chinmay soman
+ follow us on instagram, facebook, youtube, and linkedin for regular insights and updates. and if you ever have a beer-related question, don&#x27;t be afraid to dm us on our cheers chatty instagram handle. 
+ cheers!&quot;"><img class="ep-art" src="assets/podcast/732d8549-42dc-465b-b3e7-b02e009601c2.jpg" alt="Cover art for Beer Bhadas" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S3 E5 · 2023-06-29 · 11 min</span>
   <h3>Beer Bhadas</h3>
   <p>The Beer Bhadas war is declared. The drinkers are out! Time to crack attack with beers.
@@ -133,7 +182,13 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP2802090961.mp3?updated=1723807622" aria-label="Play Beer Bhadas"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/beer-bhadas/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/64d7f0eb-fc4c-4e08-b278-b02700922a24.jpg" alt="Cover art for #BeerBandi Abhiyan: Don&#x27;t drink beer if…" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="#beerbandi abhiyan: don&#x27;t drink beer if… #beerbandi abhiyan: don&#x27;t drink beer if…
+ in this cheers chatty podcast episode, we delve into the world of beer with our special #beerbandiabhiyan. join us as we explore the dos and don&#x27;ts of beer drinking and share insightful gyan (wisdom) that every beer lover should know. 
+ from proper pouring techniques to the ideal serving temperatures, we&#x27;ll guide you through the art of respecting beer and making it an integral part of the cheerful world we live in. so grab your favorite brew, tune in, and let&#x27;s raise a glass together!
+ every wednesday at 5 p.m., a new episode will be accessible on the bingepods network and other podcast platforms of your choice.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija &amp; chinmay soman
+ follow us on instagram, facebook, youtube, and linkedin for regular insights and updates. and if you ever have a beer-related question, don&#x27;t be afraid to dm us on our cheers chatty instagram handle. 
+ cheers!&quot;"><img class="ep-art" src="assets/podcast/64d7f0eb-fc4c-4e08-b278-b02700922a24.jpg" alt="Cover art for #BeerBandi Abhiyan: Don&#x27;t drink beer if…" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S3 E4 · 2023-06-21 · 8 min</span>
   <h3>#BeerBandi Abhiyan: Don&#x27;t drink beer if…</h3>
   <p>#BeerBandi Abhiyan: Don&#x27;t drink beer if…
@@ -141,14 +196,21 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP4558992600.mp3?updated=1723807623" aria-label="Play #BeerBandi Abhiyan: Don&#x27;t drink beer if…"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/beerbandi-abhiyan-dont-drink-beer-if/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/2b98f7d8-6642-4761-b82e-b02100be97df.jpg" alt="Cover art for B Bole Toh? Unraveling Bollywood&#x27;s Amar Prem with Beer" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="b bole toh? unraveling bollywood&#x27;s amar prem with beer welcome to &quot;b bole toh?&quot; the ultimate podcast that delves into the intriguing relationship between bollywood and beer. join us as we explore the fascinating world of indian cinema and how it portrays the beloved beverage on the big screen and behind the scenes.
+ bole toh…beergiri zindabad.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija &amp; chinmay somanfollow @cheerschatty on instagram, facebook, linkedin.listen to cheers chatty podcast on bingepods, spotify, apple and podcast channels of your choice."><img class="ep-art" src="assets/podcast/2b98f7d8-6642-4761-b82e-b02100be97df.jpg" alt="Cover art for B Bole Toh? Unraveling Bollywood&#x27;s Amar Prem with Beer" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S3 E3 · 2023-06-14 · 13 min</span>
   <h3>B Bole Toh? Unraveling Bollywood&#x27;s Amar Prem with Beer</h3>
   <p>Welcome to &quot;B Bole Toh?&quot; the ultimate podcast that delves into the intriguing relationship between Bollywood and beer. Join us as we explore the fascinating world of Indian cinema and how it portrays the beloved beverage on the big screen...</p>
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP8510962638.mp3?updated=1723807623" aria-label="Play B Bole Toh? Unraveling Bollywood&#x27;s Amar Prem with Beer"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/b-bole-toh-unraveling-bollywoods-amar-prem-with-beer/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/e558fd21-746c-4fc3-a0d8-b01300621039.jpg" alt="Cover art for Pehli beer ki bunde" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="pehli beer ki bunde remember your first beer-drinking experience and the obstacles you had to overcome to get cheer with pehli beer ki bunde. what made our experiences noteworthy was being apprehended and condemned to behind the bars drama that ensued.  
+ listen to the cheers chatty podcast, which has two generations and two anecdotes about pehli beer ki bunde at ruia &amp; podar college and yeoor hills.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija &amp; chinmay soman
+ every wednesday at 5 p.m., a new episode will be accessible on the bingepods network and other podcast platforms of your choice.
+ follow us on instagram, facebook, youtube, and linkedin for regular insights and updates. and if you ever have a beer-related question, don&#x27;t be afraid to dm us on our cheers chatty instagram handle. 
+ cheers!&quot;"><img class="ep-art" src="assets/podcast/e558fd21-746c-4fc3-a0d8-b01300621039.jpg" alt="Cover art for Pehli beer ki bunde" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S3 E2 · 2023-05-31 · 26 min</span>
   <h3>Pehli beer ki bunde</h3>
   <p>Remember your first beer-drinking experience and the obstacles you had to overcome to get cheer with pehli beer ki bunde. What made our experiences noteworthy was being apprehended and condemned to behind the bars drama that ensued.  
@@ -156,7 +218,11 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP8269999430.mp3?updated=1723807623" aria-label="Play Pehli beer ki bunde"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/pehli-beer-ki-bunde/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/34eb6a4a-1021-41a7-af7c-b00c009a1196.jpg" alt="Cover art for 1 + 1 = 4" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="1 + 1 = 4 beer banter: exploring the brewiverse with chatty as the &quot;baa of beer podcast&quot; and chinmay as the &quot;privileged pint&quot;.
+ in their intriguing podcast series, baa and privileged pint, a dynamic duo of beer fans, delve into the interesting world of brews. they will take you on a voyage of flavours and stories, from craft breweries to commercial favourites and even lesser known cracomm beers. they&#x27;re here to help you make informed beer decisions and become a connoisseur in your own right by simplifying the complexity of beer. consider them your trusted consultants, similar to astrologers for your beer tastes.
+ every wednesday at 5 p.m., a new episode will be accessible on the bingepods network and other podcast platforms of your choice.
+ follow us on instagram, facebook, youtube, and linkedin for regular insights and updates. and if you ever have a beer-related question, don&#x27;t be afraid to dm us on our cheers chatty instagram handle. 
+ cheers!&quot;"><img class="ep-art" src="assets/podcast/34eb6a4a-1021-41a7-af7c-b00c009a1196.jpg" alt="Cover art for 1 + 1 = 4" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S3 E1 · 2023-05-24 · 21 min</span>
   <h3>1 + 1 = 4</h3>
   <p>Beer Banter: Exploring the Brewiverse with Chatty as the &quot;Baa of Beer Podcast&quot; and Chinmay as the &quot;Privileged Pint&quot;.
@@ -164,7 +230,9 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP8424535128.mp3?updated=1723807624" aria-label="Play 1 + 1 = 4"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/1-1-4/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/4c23f0c6-4c76-4bcb-a211-ae5200bdd355.jpg" alt="Cover art for Women&#x27;s Day Celebrations with a Man" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="women&#x27;s day celebrations with a man cheers chatty cheers yash lahoti, founder of women&#x27;s criczone for his relentless effort at promoting women&#x27;s cricket. we pay a tribute to him by featuring him on our international women&#x27;s day episode. cheers to yash &amp; women cricketers.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/4c23f0c6-4c76-4bcb-a211-ae5200bdd355.jpg" alt="Cover art for Women&#x27;s Day Celebrations with a Man" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E22 · 2022-03-08 · 21 min</span>
   <h3>Women&#x27;s Day Celebrations with a Man</h3>
   <p>Cheers Chatty cheers Yash Lahoti, Founder of Women&#x27;s CricZone for his relentless effort at promoting Women&#x27;s Cricket. We pay a tribute to him by featuring him on our International Women&#x27;s Day episode. Cheers to Yash &amp; women cricketers.
@@ -172,7 +240,10 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP1683834367.mp3?updated=1723807624" aria-label="Play Women&#x27;s Day Celebrations with a Man"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/womens-day-celebrations-with-a-man/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/75278876-a6a4-40b8-9240-ae2e00763f11.jpg" alt="Cover art for 7 Guinness Beer Facts" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="7 guinness beer facts the story behind 160,000 pints of beer, the guinness book of world records, 21 child children and the beer that is made for more.
+ listen to the 7 facts about guinness beer.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/75278876-a6a4-40b8-9240-ae2e00763f11.jpg" alt="Cover art for 7 Guinness Beer Facts" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E21 · 2022-01-31 · 10 min</span>
   <h3>7 Guinness Beer Facts</h3>
   <p>The story behind 160,000 pints of beer, the Guinness Book of World Records, 21 child children and the beer that is made for more.
@@ -181,7 +252,10 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP9150126636.mp3?updated=1723807625" aria-label="Play 7 Guinness Beer Facts"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/7-guinness-beer-facts/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/0431bc04-6397-4535-91a5-ae2400bbee3f.jpg" alt="Cover art for 2022 starts on a G.O.A.T note." width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="2022 starts on a g.o.a.t note. &quot;kehte hain agar kisi cheez ko dil se chaho; to puri kainaat usse tumse milane ki koshish mein lag jaati hai. &quot;
+ and when the kainaat makes your guinness beer wish come true, a podcast dedicated to the g.o.a.t beer is a must.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/0431bc04-6397-4535-91a5-ae2400bbee3f.jpg" alt="Cover art for 2022 starts on a G.O.A.T note." width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E20 · 2022-01-21 · 11 min</span>
   <h3>2022 starts on a G.O.A.T note.</h3>
   <p>&quot;Kehte hain agar kisi cheez ko dil se chaho; to puri kainaat usse tumse milane ki koshish mein lag jaati hai. &quot;
@@ -190,7 +264,10 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP2453882558.mp3?updated=1723807625" aria-label="Play 2022 starts on a G.O.A.T note."></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/2022-starts-on-a-g-o-a-t-note/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/f6a37e18-0e60-4477-a6b2-ae08008773b3.jpg" alt="Cover art for &quot;ReinBEER with cookie chaknas&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="&quot;reinbeer with cookie chaknas&quot; it&#x27;s christmas time and santa ke liye beer banta hai. cheers chatty podcast recommends beer pairings with cookies for santa and all beer lovers.
+ merry christmas and enjoy the cheer of beer.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/f6a37e18-0e60-4477-a6b2-ae08008773b3.jpg" alt="Cover art for &quot;ReinBEER with cookie chaknas&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E19 · 2021-12-24 · 11 min</span>
   <h3>&quot;ReinBEER with cookie chaknas&quot;</h3>
   <p>It&#x27;s Christmas time and Santa ke liye beer banta hai. Cheers Chatty podcast recommends beer pairings with cookies for Santa and all beer lovers.
@@ -199,14 +276,19 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP4640681731.mp3?updated=1723807625" aria-label="Play &quot;ReinBEER with cookie chaknas&quot;"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/reinbeer-with-cookie-chaknas/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/a08d0a41-3c34-4dce-998c-ae01006f76e0.jpg" alt="Cover art for Little bit of beer in all of us" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="little bit of beer in all of us when you feel light, happy and fun, it&#x27;s the hoppy beer in us making our lives cheerful. no matter what our personality traits are, there is beer in all of us. i have explored 5 pints of personalities. if you can think of more, send in your suggestions. 
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/a08d0a41-3c34-4dce-998c-ae01006f76e0.jpg" alt="Cover art for Little bit of beer in all of us" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E18 · 2021-12-17 · 11 min</span>
   <h3>Little bit of beer in all of us</h3>
   <p>When you feel light, happy and fun, it&#x27;s the hoppy beer in us making our lives cheerful. No matter what our personality traits are, there is beer in all of us. I have explored 5 pints of personalities. If you can think of more, send in...</p>
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP6260012081.mp3?updated=1723807626" aria-label="Play Little bit of beer in all of us"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/little-bit-of-beer-in-all-of-us/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/accf9ea0-3ef3-4ab8-9c90-adea00920056.jpg" alt="Cover art for His, Hers &amp; Beer" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="his, hers &amp; beer take a break. take a pee break because when you gotta go, you better go. today&#x27;s cheers chatty episode is a bladder full after beer experiences of beer drinkers, medical reason for constant urge to pee and stand and pee kits.
+ of course my ordeal dealing with the fastest pee breaks.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/accf9ea0-3ef3-4ab8-9c90-adea00920056.jpg" alt="Cover art for His, Hers &amp; Beer" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E17 · 2021-11-24 · 23 min</span>
   <h3>His, Hers &amp; Beer</h3>
   <p>Take a break. Take a pee break because when you gotta go, you better go. Today&#x27;s Cheers Chatty episode is a bladder full after beer experiences of beer drinkers, medical reason for constant urge to pee and stand and pee kits.
@@ -214,7 +296,10 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP9662385784.mp3?updated=1723807626" aria-label="Play His, Hers &amp; Beer"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/his-hers-beer/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/c4b0d1b0-4591-421b-b1bc-add400744a96.jpg" alt="Cover art for The Pint Prayer" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="the pint prayer to the man who lived life beer size. thank you robert tardif (everyone&#x27;s bob) for being a part of life. heaven is now beertiful.
+ cheers bob!! from an indian friend to an american friend.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/c4b0d1b0-4591-421b-b1bc-add400744a96.jpg" alt="Cover art for The Pint Prayer" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E16 · 2021-11-02 · 4 min</span>
   <h3>The Pint Prayer</h3>
   <p>To the man who lived life beer size. Thank you Robert Tardif (everyone&#x27;s Bob) for being a part of life. Heaven is now beertiful.
@@ -223,7 +308,10 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP2068666306.mp3?updated=1723807627" aria-label="Play The Pint Prayer"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/the-pint-prayer/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/590a0f53-6d1f-4025-b664-add000611c8d.jpg" alt="Cover art for The 3 am podcast review" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="the 3 am podcast review hey babuuus...cheers chatty presents spark beer review from white owl in a groggy state and yet feeling bright and sunny. listen to this 3 am podcast with a spark beer in hand and you don&#x27;t need to stay up the night. 
+ cheers-o-meter : 4.8
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/590a0f53-6d1f-4025-b664-add000611c8d.jpg" alt="Cover art for The 3 am podcast review" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E15 · 2021-10-29 · 6 min</span>
   <h3>The 3 am podcast review</h3>
   <p>Hey babuuus...Cheers Chatty presents SPARK beer review from White Owl in a groggy state and yet feeling bright and sunny. Listen to this 3 am podcast with a SPARK beer in hand and you don&#x27;t need to stay up the night. 
@@ -231,7 +319,10 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP1152036085.mp3?updated=1723807627" aria-label="Play The 3 am podcast review"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/the-3-am-podcast-review/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/8b3b6dfe-ec39-4435-971b-adc500a94879.jpg" alt="Cover art for WHITE ZEN WHITE ZEN" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="white zen white zen cheers chatty has tasted white zen beer and loves this easy going and made with german precision wheat beer.
+ we also give you a chance to get featured on cheers chatty instagram reels page. subscribe to the channel, send us a video and #cheerschatty. it&#x27;s as simple as falling in love with beer.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/8b3b6dfe-ec39-4435-971b-adc500a94879.jpg" alt="Cover art for WHITE ZEN WHITE ZEN" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E14 · 2021-10-22 · 9 min</span>
   <h3>WHITE ZEN WHITE ZEN</h3>
   <p>Cheers Chatty has tasted White Zen beer and loves this easy going and made with German precision wheat beer.
@@ -239,7 +330,9 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP2245684981.mp3?updated=1723807628" aria-label="Play WHITE ZEN WHITE ZEN"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/white-zen-white-zen/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/01c90ceb-d70a-4a64-bf17-adba00c19e30.jpg" alt="Cover art for Oktoberfest -  Beer ka &quot;Happy Diwali&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="oktoberfest -  beer ka &quot;happy diwali&quot; cheers chatty presents to you 20 fun &amp; facts about oktoberfest that you might know or a good first time laugh. we also speak about how we could relate a few situations to an indian context.
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/01c90ceb-d70a-4a64-bf17-adba00c19e30.jpg" alt="Cover art for Oktoberfest -  Beer ka &quot;Happy Diwali&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E13 · 2021-10-08 · 10 min</span>
   <h3>Oktoberfest -  Beer ka &quot;Happy Diwali&quot;</h3>
   <p>Cheers Chatty presents to you 20 fun &amp; facts about Oktoberfest that you might know or a good first time laugh. We also speak about how we could relate a few situations to an Indian context.
@@ -247,7 +340,12 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP6929144576.mp3?updated=1723807628" aria-label="Play Oktoberfest -  Beer ka &quot;Happy Diwali&quot;"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/oktoberfest-beer-ka-happy-diwali/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/87cc00f2-c308-4be2-ae29-adb30095ccd5.jpg" alt="Cover art for &quot;Take it to your heart.&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="&quot;take it to your heart.&quot; happy world heart day from cheers chatty. listen to why beer is good for your heart and also beer review of black &amp; tan.
+ finally, a surprise review of a troll that proves that we are noticed.
+ hahaha….yeh dil pe nahi liya
+ coming up next: international podcast day
+ tune into india&#x27;s first and only beer podcast.podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/87cc00f2-c308-4be2-ae29-adb30095ccd5.jpg" alt="Cover art for &quot;Take it to your heart.&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E12 · 2021-09-30 · 15 min</span>
   <h3>&quot;Take it to your heart.&quot;</h3>
   <p>Happy World Heart Day from Cheers Chatty. Listen to why beer is good for your heart and also Beer Review of Black &amp; Tan.
@@ -257,7 +355,11 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP6768774894.mp3?updated=1723807628" aria-label="Play &quot;Take it to your heart.&quot;"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/take-it-to-your-heart/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/6efc44f9-94c5-44f4-a0fa-ad8900c3184c.jpg" alt="Cover art for &quot;Blend it like...Inspired blends.&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="&quot;blend it like...inspired blends.&quot; cheers chatty introduces its beer review series and we start with inspired blends by gateway brewing co. farmhouse ale is our first review and we give 4 mugs ratings on our cheers-o-metre.
+ coming up next: black &amp; tan
+ tune into india&#x27;s first and only beer podcast.
+ podcast host: chatty girija
+ follow @cheerschatty on instagram, facebook, linkedin &amp; podcast channels."><img class="ep-art" src="assets/podcast/6efc44f9-94c5-44f4-a0fa-ad8900c3184c.jpg" alt="Cover art for &quot;Blend it like...Inspired blends.&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E11 · 2021-08-20 · 6 min</span>
   <h3>&quot;Blend it like...Inspired blends.&quot;</h3>
   <p>Cheers Chatty introduces its Beer Review Series and we start with Inspired Blends by Gateway Brewing Co. Farmhouse Ale is our first review and we give 4 mugs ratings on our Cheers-o-Metre.
@@ -266,7 +368,11 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP9126016352.mp3?updated=1723807629" aria-label="Play &quot;Blend it like...Inspired blends.&quot;"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/blend-it-like-inspired-blends/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/a67692b1-6228-4fb8-8da1-ad7c00862eb7.jpg" alt="Cover art for International Beer Day" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="international beer day &quot;thank god there is beer bringing cheer.&quot;
+ cheers chatty thanks beer, beer lovers and the industry. thank you for being a beautiful beverage and making the world a cheerful place to live in.
+ also listen to brewer&#x27;s choice podcast no.4 with jayesh joshi of toit
+ tune into india&#x27;s first and only beer podcast.
+ podcast host: chatty girija"><img class="ep-art" src="assets/podcast/a67692b1-6228-4fb8-8da1-ad7c00862eb7.jpg" alt="Cover art for International Beer Day" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E10 · 2021-08-06 · 13 min</span>
   <h3>International Beer Day</h3>
   <p>&quot;Thank God there is beer bringing cheer.&quot;
@@ -275,7 +381,11 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP4784985228.mp3?updated=1723807629" aria-label="Play International Beer Day"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/international-beer-day/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/c479457e-4dfa-4923-a661-ad7501174834.jpg" alt="Cover art for #YOLO #NOLO" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="#yolo #nolo &quot;wise choices for your vices.&quot;
+ the 0.0 is a hero making you only live once a mugful of no alcohol low alcohol beer. brands are going miles to quench the thirst of millennials with healthy &#x27;sin free fun&#x27; choices. listen to it all on cheers chatty podcast.
+ also listen to brewer&#x27;s choice podcast no.3 with krutika khavilkar
+ tune into india&#x27;s first and only beer podcast.
+ podcast host: chatty girija"><img class="ep-art" src="assets/podcast/c479457e-4dfa-4923-a661-ad7501174834.jpg" alt="Cover art for #YOLO #NOLO" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E9 · 2021-07-30 · 13 min</span>
   <h3>#YOLO #NOLO</h3>
   <p>&quot;Wise choices for your vices.&quot;
@@ -283,7 +393,12 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP9892759137.mp3?updated=1723807630" aria-label="Play #YOLO #NOLO"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/yolo-nolo/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/3b12c998-702d-4d07-8538-ad6c00732623.jpg" alt="Cover art for &quot;We have to make a EFFING good beer&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="&quot;we have to make a effing good beer&quot; &quot;we have to make a effing good beer!&quot;
+ and that&#x27;s how the brand name was born in a drunken state.
+ cheers chatty podcast features manu gulati, the founder of effingut brewerkz who calls himself a brewer with a passion to brew and with a little business acumen. he talks about his journey from being a typical punjabi boy with whisky flowing all around to brewing winter warmer beer aged in whisky barrels for a year. the beer won top honors at the asia beer championship as well.
+ and to surprise manu gulati, shilpi sharma- a die-hard fan of effingut brews pours her love for cidersand hefeweizen beer.
+ tune into india&#x27;s first and only beer podcast.
+ podcast host: chatty girija"><img class="ep-art" src="assets/podcast/3b12c998-702d-4d07-8538-ad6c00732623.jpg" alt="Cover art for &quot;We have to make a EFFING good beer&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E8 · 2021-07-21 · 53 min</span>
   <h3>&quot;We have to make a EFFING good beer&quot;</h3>
   <p>&quot;We have to make a EFFING good beer!&quot;
@@ -292,7 +407,10 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP6138892922.mp3?updated=1723807630" aria-label="Play &quot;We have to make a EFFING good beer&quot;"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/we-have-to-make-a-effing-good-beer/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/35695f0e-c0fc-4ba2-ba57-ad55011a2faf.jpg" alt="Cover art for &quot;Surrogacy not served here.&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="&quot;surrogacy not served here.&quot; why does the beer industry need podcasts?  beer is beer and not coasters, packaged mineral water or anything other than beer. podcasts narrate history, real brand stories and people&#x27;s voices in the industry.
+ also listen to brewer&#x27;s choice podcast no.2 with dhaval nagda.
+ tune into india&#x27;s first and only beer podcast.
+ podcast host: chatty girija"><img class="ep-art" src="assets/podcast/35695f0e-c0fc-4ba2-ba57-ad55011a2faf.jpg" alt="Cover art for &quot;Surrogacy not served here.&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E7 · 2021-07-10 · 23 min</span>
   <h3>&quot;Surrogacy not served here.&quot;</h3>
   <p>Why does the beer industry need podcasts?  Beer is beer and not coasters, packaged mineral water or anything other than beer. Podcasts narrate history, real brand stories and people&#x27;s voices in the industry.
@@ -300,7 +418,10 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP2752866002.mp3?updated=1723807630" aria-label="Play &quot;Surrogacy not served here.&quot;"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/surrogacy-not-served-here/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/494dfd84-8a94-4bb3-be0f-ad4c003e43ef.jpg" alt="Cover art for &quot;Beer Podcasts taught me to brew beer&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="&quot;beer podcasts taught me to brew beer&quot; the lack of good quality beers in india, crafted navin&#x27;s passion to discover and explore beers; starting with loving the beverage to founding a microbrewery.
+ of course, the brewery name has a history of emotional and monumental significance too.
+ and finally, navin instantly brews why beer is like none other!
+ tune into india&#x27;s first and only beer podcast. podcast host: chatty girija"><img class="ep-art" src="assets/podcast/494dfd84-8a94-4bb3-be0f-ad4c003e43ef.jpg" alt="Cover art for &quot;Beer Podcasts taught me to brew beer&quot;" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E6 · 2021-06-19 · 36 min</span>
   <h3>&quot;Beer Podcasts taught me to brew beer&quot;</h3>
   <p>The lack of good quality beers in India, crafted Navin&#x27;s passion to discover and explore beers; starting with loving the beverage to founding a microbrewery.
@@ -308,7 +429,9 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP5088866298.mp3?updated=1723807631" aria-label="Play &quot;Beer Podcasts taught me to brew beer&quot;"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/beer-podcasts-taught-me-to-brew-beer/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/6cf5efea-effd-4e5f-b7af-ad4500d6cc30.jpg" alt="Cover art for &quot;Just a beer guy&quot; - Anudeep Reddy" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="&quot;just a beer guy&quot; - anudeep reddy anudeep reddy, beer ambassador, bjcp certified beer judge certified cicerone® on cheers chatty podcast.
+ &quot;with all the certifications and qualifications unmatched by few, he stays grounded and calls himself just a beer guy.&quot; let&#x27;s hear anudeep reddy, the ordinary humble being with extraordinary feats speaks on cheers chatty podcast.
+ tune into india&#x27;s first and only beer podcast. podcast host: chatty girija"><img class="ep-art" src="assets/podcast/6cf5efea-effd-4e5f-b7af-ad4500d6cc30.jpg" alt="Cover art for &quot;Just a beer guy&quot; - Anudeep Reddy" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E5 · 2021-06-12 · 47 min</span>
   <h3>&quot;Just a beer guy&quot; - Anudeep Reddy</h3>
   <p>Anudeep Reddy, Beer Ambassador, BJCP Certified Beer Judge Certified Cicerone® on Cheers Chatty Podcast.
@@ -316,21 +439,28 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP5970447685.mp3?updated=1723807631" aria-label="Play &quot;Just a beer guy&quot; - Anudeep Reddy"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/just-a-beer-guy-anudeep-reddy/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/44b31e4c-2753-4691-b240-ad3c00b26683.jpg" alt="Cover art for Over a Pint of Beer with Siddhesh &amp; Mital" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="over a pint of beer with siddhesh &amp; mital siddhesh sapte and mital dubal founded their brand over a pint of beer. that&#x27;s why the brand name. beer fuels their creativity to produce a line of casual fashion wear, home décor and home furnishings. they take so much passion in their art that they have imprinted their logo as a tattoo.
+ launching brewer&#x27;s choice podcast series. episode 1 featuring brewer vedant naik.
+ tune into india&#x27;s first and only beer podcast to enjoy the podcast over a pint of beer. podcast host: chatty girija"><img class="ep-art" src="assets/podcast/44b31e4c-2753-4691-b240-ad3c00b26683.jpg" alt="Cover art for Over a Pint of Beer with Siddhesh &amp; Mital" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E4 · 2021-06-05 · 40 min</span>
   <h3>Over a Pint of Beer with Siddhesh &amp; Mital</h3>
   <p>Siddhesh Sapte and Mital Dubal founded their brand over a pint of beer. That&#x27;s why the brand name. Beer fuels their creativity to produce a line of casual fashion wear, home décor and home furnishings. They take so much passion in their...</p>
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP4275086532.mp3?updated=1723807632" aria-label="Play Over a Pint of Beer with Siddhesh &amp; Mital"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/over-a-pint-of-beer-with-siddhesh-mital/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/34638973-f2b8-44a4-854f-ad21007d65ec.jpg" alt="Cover art for My chair has all the answers - Pallavi Naidu" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="my chair has all the answers - pallavi naidu cheers chatty in conversation with pallavi naidu-ceo of alcobuzz, asia&#x27;s premier digital magazine on spirits, cocktails, nightlife &amp; experiences. you want to know about alcohol, this is the place for you. they both keep it simple, straight and sober. &quot;there was nothing about spirits that was relating directly to the casual drinker and story telling is not about the technical aspects of alcohol.&quot;
+ when two ex-advertising professionals cross paths, it is &#x27;high&#x27; time on cheers chatty.
+ tune into india&#x27;s first and only beer podcast. podcast host: chatty girija"><img class="ep-art" src="assets/podcast/34638973-f2b8-44a4-854f-ad21007d65ec.jpg" alt="Cover art for My chair has all the answers - Pallavi Naidu" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E3 · 2021-05-28 · 18 min</span>
   <h3>My chair has all the answers - Pallavi Naidu</h3>
   <p>Cheers Chatty in conversation with Pallavi Naidu-CEO of Alcobuzz, Asia&#x27;s premier digital magazine on Spirits, Cocktails, Nightlife &amp; Experiences. You want to know about alcohol, this is the place for you. They both keep it simple, straight...</p>
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP4518749923.mp3?updated=1723807632" aria-label="Play My chair has all the answers - Pallavi Naidu"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/my-chair-has-all-the-answers-pallavi-naidu/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/dd8efaea-19a7-4219-9fd2-ad2e0076cb9a.jpg" alt="Cover art for Beer Pee Lo, Apna Cheers Banao" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="beer pee lo, apna cheers banao &quot;ipl ho na ho, usmae beer wali feeling zaroor hai. &quot;
+ cheers chatty has identified 4 similarities between ipl and beer in a monologue podcast. if you know more, let us know. till then enjoy this powerplay podcast till the world becomes a safe place for ipl to return.
+ tune into india&#x27;s first and only beer podcast. 
+ podcast host: chatty girija"><img class="ep-art" src="assets/podcast/dd8efaea-19a7-4219-9fd2-ad2e0076cb9a.jpg" alt="Cover art for Beer Pee Lo, Apna Cheers Banao" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E2 · 2021-05-21 · 10 min</span>
   <h3>Beer Pee Lo, Apna Cheers Banao</h3>
   <p>&quot;IPL ho na ho, usmae beer wali feeling zaroor hai. &quot;
@@ -338,7 +468,10 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP8705347199.mp3?updated=1723807632" aria-label="Play Beer Pee Lo, Apna Cheers Banao"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/beer-pee-lo-apna-cheers-banao/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/6de11d6b-949d-4bb9-97d2-ad21007c37df.jpg" alt="Cover art for Cheers Chatty - Samar Singh Sheikhawat" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="cheers chatty - samar singh sheikhawat &quot;an iso 9001: 2015 certified teetotaller who sold beer.&quot;
+ samar singh sheikhawat-ex-cmo of the ub group, gets candid on cheers chatty podcast. he adds no mixers to his opinion on how beer is positioned and gets a raw deal in india. his thoughts are lined with silver as he speaks about silver surfers, a generation that is ignored in beer and other marketing communication. you have the questions, samar has the answers!
+ tune into india&#x27;s first and only beer podcast.
+ podcast host: chatty girija"><img class="ep-art" src="assets/podcast/6de11d6b-949d-4bb9-97d2-ad21007c37df.jpg" alt="Cover art for Cheers Chatty - Samar Singh Sheikhawat" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E1 · 2021-05-08 · 64 min</span>
   <h3>Cheers Chatty - Samar Singh Sheikhawat</h3>
   <p>&quot;An ISO 9001: 2015 certified teetotaller who sold beer.&quot;
@@ -346,21 +479,41 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP4913992656.mp3?updated=1723807633" aria-label="Play Cheers Chatty - Samar Singh Sheikhawat"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/cheers-chatty-samar-singh-sheikhawat/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/1c29b5e3-572c-42d4-91a0-ad1e00f20aad.jpg" alt="Cover art for Season 2 is here!" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="season 2 is here! it&#x27;s time to raise your glasses again and toast! season 2 is coming soon!"><img class="ep-art" src="assets/podcast/1c29b5e3-572c-42d4-91a0-ad1e00f20aad.jpg" alt="Cover art for Season 2 is here!" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2021-05-04 · 1 min</span>
   <h3>Season 2 is here!</h3>
   <p>It&#x27;s time to raise your glasses again and toast! Season 2 is coming soon!</p>
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP7564489915.mp3?updated=1723807633" aria-label="Play Season 2 is here!"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/season-2-is-here/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/8ca05835-6d64-4451-ba42-9a8c754c3324.jpg" alt="Cover art for Copter7 Beer Podcast Review by Cheers Chatty." width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="copter7 beer podcast review by cheers chatty. refreshing beer with a hidden taste. listen to the podcast to know more. whistle podu from cheers chatty. india&#x27;s first and only beer podcast 🍻. @cheerschatty #cheerschatty #beereview #beermarketing #podcastmarketing #seo #search."><img class="ep-art" src="assets/podcast/8ca05835-6d64-4451-ba42-9a8c754c3324.jpg" alt="Cover art for Copter7 Beer Podcast Review by Cheers Chatty." width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2021-04-17 · 4 min</span>
   <h3>Copter7 Beer Podcast Review by Cheers Chatty.</h3>
   <p>Refreshing beer with a hidden taste. Listen to the podcast to know more. Whistle Podu from Cheers Chatty. India&#x27;s first and only BEER PODCAST 🍻. @cheerschatty #cheerschatty #beereview #beermarketing #podcastmarketing #seo #search.</p>
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP8768746509.mp3?updated=1723807634" aria-label="Play Copter7 Beer Podcast Review by Cheers Chatty."></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/copter7-beer-podcast-review-by-cheers-chatty/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/e74d7807-40c0-4976-8d65-5a2ddb391dc1.jpg" alt="Cover art for Breast Cancer Awareness Month Podcast: Episode 1" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="breast cancer awareness month podcast: episode 1 breast cancer awareness month podcast: episode 1-2. from grain to grant, everything beer does to support breast cancer. beer is not only about cheer. beer cares, is compassionate and is a charitable beverage.
+ subscribe &amp; listen to cheers chatty india&#x27;s first and only beer podcast.
+ @slobrew @keepabreast @angelcitybeer @beer4boobs
+ listen, subscribe and advertise on cheers chatty podcast.chatty@cheerschatty.comcheerschatty@gmail.com
+ link tree
+ https://linktr.ee/cheerschatty
+ apple podcast
+ https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ spotify
+ https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ google podcast
+ https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ soundcloudhttps://soundcloud.com/girija-chatty
+ blogger
+ https://cheerschatty.blogspot.com/
+ linkedin
+ https://www.linkedin.com/company/cheers-chatty/
+ kindle
+ http://amzn.in/eifsn0i
+ #california #surfers #beerandboobs #iloveboobies #breastcancerawareness #breastcancerawarenessmonth #breastcancerawarenessorganization #beercreative #beerpodcast #angelcitybrewery #slobrew #keepabreast #beercoach #brewing #brewmaster #brewers #brewery
+ #cheerforbeer #beercoach #beerworldwide #beer #breastcancerawarenessmonth #breastcancerawareness #breastcancer #beerworld #beerinfluencer #californiabeer"><img class="ep-art" src="assets/podcast/e74d7807-40c0-4976-8d65-5a2ddb391dc1.jpg" alt="Cover art for Breast Cancer Awareness Month Podcast: Episode 1" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2020-10-27 · 11 min</span>
   <h3>Breast Cancer Awareness Month Podcast: Episode 1</h3>
   <p>Breast Cancer Awareness Month Podcast: Episode 1-2. From grain to grant, everything beer does to support Breast Cancer. Beer is not only about cheer. Beer cares, is compassionate and is a charitable beverage.
@@ -368,7 +521,30 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP2253417417.mp3?updated=1723807634" aria-label="Play Breast Cancer Awareness Month Podcast: Episode 1"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/breast-cancer-awareness-month-podcast-episode-1/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/c42ef00a-1924-4df3-a04b-f380f9477c93.jpg" alt="Cover art for Cheers Chatty Podcast features Nikita John of Kuppikali, the upcycler" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="cheers chatty podcast features nikita john of kuppikali, the upcycler cheers chatty podcast features nikita john of kuppikali, the upcycler
+ cheers chatty is india&#x27;s first and only beer podcast
+ listen, subscribe and advertise on cheers chatty podcast. chatty@cheerschatty.com cheerschatty@gmail.com
+ https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ link tree
+ https://linktr.ee/cheerschatty
+ anchor
+ https://anchor.fm/chatty-girija
+ youtube
+ https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ apple podcast
+ https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ spotify
+ https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ google podcast
+ https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ soundcloud https://soundcloud.com/girija-chatty
+ blogger
+ https://cheerschatty.blogspot.com/
+ linkedin
+ https://www.linkedin.com/company/cheers-chatty/
+ kindle
+ http://amzn.in/eifsn0i
+ #beerbottle #bottleart #bottlerecycle #artist #dryday #drydayspecial #gandhijayanti #cheerschatty #beerpodcast #podcaster  # #winepodcast #indianpodcast #brewer #indiawines #indiapodcast #winecareers  #podcast5kage #podcasting #podcastingtips #youtubepodcast #spotifypodcast #anchorpodcast  #podcaststar #personalbrand #linktree #soundcloud #internationalpodcast #podcastdianauribe #podcastnyawirda #podcastwithmacg"><img class="ep-art" src="assets/podcast/c42ef00a-1924-4df3-a04b-f380f9477c93.jpg" alt="Cover art for Cheers Chatty Podcast features Nikita John of Kuppikali, the upcycler" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2020-10-04 · 28 min</span>
   <h3>Cheers Chatty Podcast features Nikita John of Kuppikali, the upcycler</h3>
   <p>Cheers Chatty Podcast features Nikita John of Kuppikali, the upcycler
@@ -378,7 +554,21 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP3148379802.mp3?updated=1723807635" aria-label="Play Cheers Chatty Podcast features Nikita John of Kuppikali, the upcycler"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/cheers-chatty-podcast-features-nikita-john-of/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/a8e4056f-dfee-4921-b870-f669c27d783e.jpg" alt="Cover art for Grandparents Day special 4th Podcast | Real People Real stories | Beer Podcast" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="grandparents day special 4th podcast | real people real stories | beer podcast special podcast for grandparents day.
+ cheers chatty is india&#x27;s first and only beer podcast
+ listen, subscribe and advertise on cheers chatty podcast. chatty@cheerschatty.com cheerschatty@gmail.com
+ link tree https://linktr.ee/cheerschatty
+ anchor https://anchor.fm/chatty-girija
+ youtube https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ apple podcast https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ spotify  https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ google podcast https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ soundcloud https://soundcloud.com/girija-chatty
+ blogger https://cheerschatty.blogspot.com/
+ linkedin https://www.linkedin.com/company/cheers-chatty/
+ kindle http://amzn.in/eifsn0i
+ #cheerschatty #podcastadvertising #beerpodcast #beerindia #indiabeer #beerschool #craftbeer  #beerwebsite #beerinfluencer #internationalbrewer #beerblog #beercareers #beerinfluencer #cheers #chatty  #indianpodcast #brewer #indiapodcast #podcast5kage #podcasting #indiapodcast #podcaster #therecruit
+ #beerandgrandparents #africa #african #africanbeer #grandparents #grandparentdaywishes #wine #whisky #beer #beerlove #grandparentspost #internationalgrandparentsday  #indiaproud"><img class="ep-art" src="assets/podcast/a8e4056f-dfee-4921-b870-f669c27d783e.jpg" alt="Cover art for Grandparents Day special 4th Podcast | Real People Real stories | Beer Podcast" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2020-09-21 · 9 min</span>
   <h3>Grandparents Day special 4th Podcast | Real People Real stories | Beer Podcast</h3>
   <p>Special podcast for Grandparents Day.
@@ -388,7 +578,21 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP9760350658.mp3?updated=1723807635" aria-label="Play Grandparents Day special 4th Podcast | Real People Real stories | Beer Podcast"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/grandparents-day-special-4th-podcast-real-people-real/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/991e06c5-cc45-4799-9485-4c332ef22709.jpg" alt="Cover art for Grandparents Day special 2nd Podcast | Real People Real stories | Beer Podcast" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="grandparents day special 2nd podcast | real people real stories | beer podcast special podcast for grandparents day
+ cheers chatty is india&#x27;s first and only beer podcast
+ listen, subscribe and advertise on cheers chatty podcast. chatty@cheerschatty.com cheerschatty@gmail.com
+ link tree https://linktr.ee/cheerschatty
+ anchor https://anchor.fm/chatty-girija
+ youtube https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ apple podcast https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ spotify  https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ google podcast https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ soundcloud https://soundcloud.com/girija-chatty
+ blogger https://cheerschatty.blogspot.com/
+ linkedin https://www.linkedin.com/company/cheers-chatty/
+ kindle http://amzn.in/eifsn0i
+ #cheerschatty #podcastadvertising #beerpodcast #beerindia #indiabeer #beerschool #craftbeer  #beerwebsite #beerinfluencer #internationalbrewer #beerblog #beercareers #beerinfluencer #cheers #chatty  #indianpodcast #brewer #indiapodcast #podcast5kage #podcasting
+ #beerandgrandparents #grandparents #grandparentdaywishes #wine #whisky #beer #beerlove #grandparentspost"><img class="ep-art" src="assets/podcast/991e06c5-cc45-4799-9485-4c332ef22709.jpg" alt="Cover art for Grandparents Day special 2nd Podcast | Real People Real stories | Beer Podcast" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2020-09-15 · 29 min</span>
   <h3>Grandparents Day special 2nd Podcast | Real People Real stories | Beer Podcast</h3>
   <p>Special podcast for Grandparents Day
@@ -399,7 +603,21 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP2150156280.mp3?updated=1723807635" aria-label="Play Grandparents Day special 2nd Podcast | Real People Real stories | Beer Podcast"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/grandparents-day-special-2nd-podcast-real-people-real/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/bd556b3f-442d-4a45-8073-0631fda45a82.jpg" alt="Cover art for Grandparents Day special | Real People Real stories | Beer Podcast" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="grandparents day special | real people real stories | beer podcast special podcast for grandparents day
+ cheers chatty is india&#x27;s first and only beer podcast
+ listen, subscribe and advertise on cheers chatty podcast. chatty@cheerschatty.com cheerschatty@gmail.com
+ link tree https://linktr.ee/cheerschatty
+ anchor https://anchor.fm/chatty-girija
+ youtube https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ apple podcast https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ spotify  https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ google podcast https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ soundcloud https://soundcloud.com/girija-chatty
+ blogger https://cheerschatty.blogspot.com/
+ linkedin https://www.linkedin.com/company/cheers-chatty/
+ kindle http://amzn.in/eifsn0i
+ #cheerschatty #podcastadvertising #beerpodcast #beerindia #indiabeer #beerschool #craftbeer  #beerwebsite #beerinfluencer #internationalbrewer #beerblog #beercareers #beerinfluencer #cheers #chatty  #indianpodcast #brewer #indiapodcast #podcast5kage #podcasting
+ #beerandgrandparents #grandparents #grandparentdaywishes #wine #whisky #beer #beerlove #grandparentspost"><img class="ep-art" src="assets/podcast/bd556b3f-442d-4a45-8073-0631fda45a82.jpg" alt="Cover art for Grandparents Day special | Real People Real stories | Beer Podcast" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2020-09-15 · 11 min</span>
   <h3>Grandparents Day special | Real People Real stories | Beer Podcast</h3>
   <p>Special podcast for Grandparents Day
@@ -410,7 +628,31 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP4716054696.mp3?updated=1723807636" aria-label="Play Grandparents Day special | Real People Real stories | Beer Podcast"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/grandparents-day-special-real-people-real-stories-beer/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/7d7bd7b2-8f98-475d-82bb-3bd97d500684.jpg" alt="Cover art for Cheers Chatty Podcast: Get famous with your first beer experience" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="cheers chatty podcast: get famous with your first beer experience cheers chatty podcast: get famous with your first beer experience
+ here&#x27;s a chance to become an influencer and earn all that fame you have always been wanting 🐣
+ what you have to do? 1. follow us on social media platform 2. send us recording of your beer experience with your name and picture. what we do?  we share your video on our podcast and  tag your social media pages. and yeah! you are famous 🍻
+ cheers chatty is india&#x27;s first and only beer podcast listen, subscribe and advertise on cheers chatty podcast. chatty@cheerschatty.com cheerschatty@gmail.com
+ https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ link tree
+ https://linktr.ee/cheerschatty
+ anchor
+ https://anchor.fm/chatty-girija
+ youtube
+ https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ apple podcast
+ https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ spotify
+ https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ google podcast
+ https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ soundcloud https://soundcloud.com/girija-chatty
+ blogger
+ https://cheerschatty.blogspot.com/
+ linkedin
+ https://www.linkedin.com/company/cheers-chatty/
+ kindle
+ http://amzn.in/eifsn0i
+ #howtobecomefamous #cheerschatty #beerknowledge #beerpodcast  #beers #chatty  #wine #winemaker #winepodcast #indianpodcast #brewer #indiawines #indiapodcast #winecareers  #podcast5kage #podcasting #podcastingtips #youtubepodcast #spotifypodcast #anchorpodcast  #podcaststar #personalbrand #linktree #soundcloud #internationalpodcast #podcastdianauribe #podcastnyawirda #podcastwithmacg #podcastkeluarga #podcastwerewolf #podcastage #podcastandchill #podcastbincangshopee #podcastcini #podcastdesk #podcasterk #podcaster #podcastersforjustice #podcastgridoto #podcasthindutimes #podcasthoror #podcastingforbeginners #podcastindonesia #podcasting101 #podcastinitalian #podcastjauhan   #podcastrubenonsu #podcastrapatosis #podcastsforeveryone #podcasttips #podcasttutorial #podcastunited  #podcastwisnu1 #podcast001 #ciders #cidermaker #ciderlover #beerindia #indiabeer #beersofworld #influencers #influencer #beaninfluencer"><img class="ep-art" src="assets/podcast/7d7bd7b2-8f98-475d-82bb-3bd97d500684.jpg" alt="Cover art for Cheers Chatty Podcast: Get famous with your first beer experience" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2020-09-04 · 2 min</span>
   <h3>Cheers Chatty Podcast: Get famous with your first beer experience</h3>
   <p>Cheers Chatty Podcast: Get famous with your first beer experience
@@ -419,14 +661,37 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP9106483222.mp3?updated=1723807636" aria-label="Play Cheers Chatty Podcast: Get famous with your first beer experience"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/cheers-chatty-podcast-get-famous-with-your-first-beer/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/d95b1b7e-d550-4a47-97e1-ee0a4952a57b.jpg" alt="Cover art for Cheers Chatty Podcast: Anudeep Reddy" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="cheers chatty podcast: anudeep reddy cheers chatty podcast: anudeep reddy, beer ambassador, bjcp certified beer judge certified cicerone®  india&#x27;s first &amp; only beer podcast  ganesh chaturthi 2020 release.  &quot;with all the certifications and qualifications unmatched by few, he stays grounded and calls himself just a beer guy.&quot; let&#x27;s hear anudeep reddy, the ordinary humble being with extraordinary feats on cheers chatty podcast.  subscribe and listen to anudeep reddy on cheers chatty podcast hosted on itunes, youtube, google podcast, spotify, anchor and sound cloud.    listen, subscribe and advertise on cheers chatty podcast. chatty@cheerschatty.com cheerschatty@gmail.com  https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha  link tree  https://linktr.ee/cheerschatty  anchor  https://anchor.fm/chatty-girija  youtube  https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha  apple podcast  https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878  spotify   https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry   google podcast  https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba  soundcloud https://soundcloud.com/girija-chatty   blogger  https://cheerschatty.blogspot.com/    linkedin  https://www.linkedin.com/company/cheers-chatty/  kindle  http://amzn.in/eifsn0i  #cheerschatty #beerpodcast #anudeepreddy #bjcp #anudeep  #beverageconsultant #cocktails #whisky #gin #beer #vodka  #podcastadvertising #beerpodcast  #brewmaster #brewing  #davis #brewingconsultant #beerinfluencer #cheers #chatty  #wine #winemaker #winepodcast #indianpodcast #brewer #indiawines #indiapodcast #winecareers  #podcast5kage #podcasting #podcastingtips #youtubepodcast #spotifypodcast #anchorpodcast  #podcaststar #personalbrand #linktree #soundcloud #internationalpodcast #podcastdianauribe #podcastnyawirda #podcastwithmacg #podcastkeluarga #podcastwerewolf #podcastage #podcastandchill #podcastbincangshopee #podcastcini #podcastdesk #podcasterk #podcaster #podcastersforjustice #podcastgridoto #podcasthindutimes #podcasthoror #podcastingforbeginners #podcastindonesia #podcasting101 #podcastinitalian #podcastjauhan #podcastjuice #podcastjae #podcastkristen #podcastkakakberadik #beerreview  #podcastmalamkliwon #podcastnchill #podcastparaaprenderespanol #podcastpolitik #podcastquebec #podcastramadhanits #podcastrepsul #podcastrubenonsu #podcastrapatosis #podcastsforeveryone #podcasttips #podcasttutorial #podcastunited  #podcastwisnu1 #podcast001 #ciders #cidermaker #ciderlover #bjcpcertified #beerjudge  #cicerone"><img class="ep-art" src="assets/podcast/d95b1b7e-d550-4a47-97e1-ee0a4952a57b.jpg" alt="Cover art for Cheers Chatty Podcast: Anudeep Reddy" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2020-08-22 · 39 min</span>
   <h3>Cheers Chatty Podcast: Anudeep Reddy</h3>
   <p>Cheers Chatty Podcast: Anudeep Reddy, Beer Ambassador, BJCP Certified Beer Judge Certified Cicerone®  India&#x27;s first &amp; only beer podcast  Ganesh Chaturthi 2020 release.  &quot;With all the certifications and qualifications unmatched by few, he...</p>
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP1030791546.mp3?updated=1723807637" aria-label="Play Cheers Chatty Podcast: Anudeep Reddy"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/cheers-chatty-podcast-anudeep-reddy/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/91622e8d-24fc-4632-8a9f-340e6ea3c636.jpg" alt="Cover art for CHEERS CHATTY RAP SONG BY DJ SBM (Africa)" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="cheers chatty rap song by dj sbm (africa) a special music piece composed for cheers chatty by qurtis price(dj qp), africa&#x27;s number one most stylish dj and recording artist. super cheers to this beer lover, cheers chatty fan, his music and to africa.
+ cheers chatty is india&#x27;s first and only beer podcast
+ listen, subscribe and advertise on cheers chatty podcast. chatty@cheerschatty.com cheerschatty@gmail.com
+ https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ link tree
+ https://linktr.ee/cheerschatty
+ anchor
+ https://anchor.fm/chatty-girija
+ youtube
+ https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ apple podcast
+ https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ spotify
+ https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ google podcast
+ https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ soundcloud https://soundcloud.com/girija-chatty
+ blogger
+ https://cheerschatty.blogspot.com/
+ linkedin
+ https://www.linkedin.com/company/cheers-chatty/
+ kindle
+ http://amzn.in/eifsn0i
+ #cheerschatty #beerpodcast #podcaster  #karinaaggarwal #gigglewater411 #beverageconsultant #cocktails #whisky #gin #beer #vodka  #podcastadvertising #beerpodcast  #brewmaster #brewing  #davis #brewingconsultant #beerinfluencer #cheers #chatty  #wine #winemaker #winepodcast #indianpodcast #brewer #indiawines #indiapodcast #winecareers  #podcast5kage #podcasting #podcastingtips #youtubepodcast #spotifypodcast #anchorpodcast  #podcaststar #personalbrand #linktree #soundcloud #internationalpodcast #podcastdianauribe #podcastnyawirda #podcastwithmacg #podcastkeluarga #podcastwerewolf #podcastage #podcastandchill #podcastbincangshopee #podcastcini #podcastdesk #podcasterk #podcaster #podcastersforjustice #podcastgridoto #podcasthindutimes #podcasthoror #podcastingforbeginners #podcastindonesia #podcasting101 #podcastinitalian #podcastjauhan #podcastjuice #podcastjae #podcastkristen #podcastkakakberadik #beerreview  #podcastmalamkliwon #podcastnchill #podcastparaaprenderespanol #podcastpolitik #podcastquebec #podcastramadhanits #podcastrepsul #podcastrubenonsu #podcastrapatosis #podcastsforeveryone #podcasttips #podcasttutorial #podcastunited  #podcastwisnu1 #podcast001 #ciders #cidermaker #ciderlover"><img class="ep-art" src="assets/podcast/91622e8d-24fc-4632-8a9f-340e6ea3c636.jpg" alt="Cover art for CHEERS CHATTY RAP SONG BY DJ SBM (Africa)" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2020-08-17 · 1 min</span>
   <h3>CHEERS CHATTY RAP SONG BY DJ SBM (Africa)</h3>
   <p>A special music piece composed for Cheers Chatty by Qurtis Price(Dj Qp), Africa&#x27;s number one most stylish Dj and recording artist. Super cheers to this beer lover, Cheers Chatty fan, his music and to Africa.
@@ -434,14 +699,61 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP9277961621.mp3?updated=1723807637" aria-label="Play CHEERS CHATTY RAP SONG BY DJ SBM (Africa)"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/cheers-chatty-rap-song-by-dj-sbm-africa/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/3b504eda-9a18-4c6b-bb33-53ee8ffb4123.jpg" alt="Cover art for Independence Day wishes from Cheers chatty" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="independence day wishes from cheers chatty podcast copy: a very happy independence day from cheers chatty to india. on this special occasion, we have few special announcements made on our podcast. subscribe and listen to cheers chatty podcast hosted on apple podcasts, youtube, spotify, google podcasts, anchor and soundcloud.
+ cheers chatty is india&#x27;s first and only beer podcast
+ listen, subscribe and advertise on cheers chatty podcast. chatty@cheerschatty.com cheerschatty@gmail.com
+ link tree
+ https://linktr.ee/cheerschatty
+ anchor
+ https://anchor.fm/chatty-girija
+ youtube
+ https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ apple podcast
+ https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ spotify
+ https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ google podcast
+ https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ soundcloud https://soundcloud.com/girija-chatty
+ blogger
+ https://cheerschatty.blogspot.com/
+ linkedin
+ https://www.linkedin.com/company/cheers-chatty/
+ kindle
+ http://amzn.in/eifsn0i
+ #cheerschatty #beerpodcast #podcaster  #karinaaggarwal #gigglewater411 #beverageconsultant #cocktails #whisky #gin #beer #vodka  #podcastadvertising #beerpodcast  #brewmaster #brewing  #davis #brewingconsultant #beerinfluencer #cheers #chatty  #wine #winemaker #winepodcast #indianpodcast #brewer #indiawines #indiapodcast #winecareers  #podcast5kage #podcasting #podcastingtips #youtubepodcast #spotifypodcast #anchorpodcast  #podcaststar #personalbrand #linktree #soundcloud #internationalpodcast #podcastdianauribe #podcastnyawirda #podcastwithmacg #podcastkeluarga #podcastwerewolf #podcastage #podcastandchill #podcastbincangshopee #podcastcini #podcastdesk #podcasterk #podcaster #podcastersforjustice #podcastgridoto #podcasthindutimes #podcasthoror #podcastingforbeginners #podcastindonesia #podcasting101 #podcastinitalian #podcastjauhan #podcastjuice #podcastjae #podcastkristen #podcastkakakberadik #beerreview  #podcastmalamkliwon #podcastnchill #podcastparaaprenderespanol #podcastpolitik #podcastquebec #podcastramadhanits #podcastrepsul #podcastrubenonsu #podcastrapatosis #podcastsforeveryone #podcasttips #podcasttutorial #podcastunited  #podcastwisnu1 #podcast001 #ciders #cidermaker #ciderlover"><img class="ep-art" src="assets/podcast/3b504eda-9a18-4c6b-bb33-53ee8ffb4123.jpg" alt="Cover art for Independence Day wishes from Cheers chatty" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2020-08-15 · 2 min</span>
   <h3>Independence Day wishes from Cheers chatty</h3>
   <p>Podcast copy: A very Happy Independence Day from Cheers Chatty to India. On this special occasion, we have few special announcements made on our podcast. Subscribe and listen to Cheers Chatty podcast hosted on Apple Podcasts, YouTube,...</p>
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP6982320164.mp3?updated=1723807637" aria-label="Play Independence Day wishes from Cheers chatty"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/independence-day-wishes-from-cheers-chatty/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/93c1f911-5c22-4eb2-ac8c-165d325ab796.jpg" alt="Cover art for Batch 1: Pint 19: Karina Aggarwal, Gigglewater411" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="batch 1: pint 19: karina aggarwal, gigglewater411 batch 1: pint 19: karina aggarwal, gigglewater411.
+ cheers chatty is india&#x27;s first and only beer podcast
+ &quot;from being the chosen one to make a drink for her grandmother to becoming one of india&#x27;s beverage consultant of repute, karina aggarwal is passionate about all types of spirits.&quot; subscribe and listen to cheers chatty on itunes, youtube, google podcast, spotify, anchor and sound cloud.
+ karina is an acclaimed beverage expert who has juried international beer competitions and authors the popular website on alcoholic beverages, &#x27;gigglewater411&#x27;.
+ cheers chatty is india&#x27;s first and only beer podcast
+ listen, subscribe and advertise on cheers chatty podcast.  chatty@cheerschatty.com  cheerschatty@gmail.com
+ link tree
+ https://linktr.ee/cheerschatty
+ anchor
+ https://anchor.fm/chatty-girija
+ youtube
+ https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ apple podcast
+ https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ spotify
+ https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ google podcast
+ https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ soundcloud  https://soundcloud.com/girija-chatty
+ blogger
+ https://cheerschatty.blogspot.com/
+ linkedin
+ https://www.linkedin.com/company/cheers-chatty/
+ kindle
+ http://amzn.in/eifsn0i
+ #cheerschatty #beerpodcast #podcaster  #karinaaggarwal #gigglewater411 #beverageconsultant #cocktails #whisky #gin #beer #vodka   #podcastadvertising #beerpodcast  #brewmaster #brewing  #davis #brewingconsultant #beerinfluencer #cheers #chatty  #wine #winemaker #winepodcast #indianpodcast #brewer #indiawines #indiapodcast #winecareers  #podcast5kage #podcasting #podcastingtips #youtubepodcast #spotifypodcast #anchorpodcast  #podcaststar #personalbrand #linktree #soundcloud #internationalpodcast #podcastdianauribe #podcastnyawirda #podcastwithmacg #podcastkeluarga #podcastwerewolf #podcastage #podcastandchill #podcastbincangshopee #podcastcini #podcastdesk #podcasterk #podcaster #podcastersforjustice #podcastgridoto #podcasthindutimes #podcasthoror #podcastingforbeginners #podcastindonesia #podcasting101 #podcastinitalian #podcastjauhan #podcastjuice #podcastjae #podcastkristen #podcastkakakberadik #beerreview  #podcastmalamkliwon #podcastnchill #podcastparaaprenderespanol #podcastpolitik #podcastquebec #podcastramadhanits #podcastrepsul #podcastrubenonsu #podcastrapatosis #podcastsforeveryone #podcasttips #podcasttutorial #podcastunited  #podcastwisnu1 #podcast001"><img class="ep-art" src="assets/podcast/93c1f911-5c22-4eb2-ac8c-165d325ab796.jpg" alt="Cover art for Batch 1: Pint 19: Karina Aggarwal, Gigglewater411" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S1 E19 · 2020-08-10 · 39 min</span>
   <h3>Batch 1: Pint 19: Karina Aggarwal, Gigglewater411</h3>
   <p>Batch 1: Pint 19: Karina Aggarwal, Gigglewater411.
@@ -450,7 +762,66 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP9413860312.mp3?updated=1723807638" aria-label="Play Batch 1: Pint 19: Karina Aggarwal, Gigglewater411"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/batch-1-pint-19-karina-aggarwal-gigglewater411/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/4feabef3-56b4-4e1a-9ce3-ed68c91f3750.jpg" alt="Cover art for Cheers Chatty: Batch 1: Pint 20: Pallavi Naidu, Founder &amp; CEO- Alcobuzz" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="cheers chatty: batch 1: pint 20: pallavi naidu, founder &amp; ceo- alcobuzz cheers chatty: batch 1: pint 20: pallavi naidu, founder &amp; ceo- alcobuzz
+ 
+ cheers chatty is india&#x27;s first and only beer podcast 
+ 
+ &quot;there was nothing about spirits that was relating directly to the casual drinker and story telling is not about the technical aspects of alcohol.&quot; pallavi naidu is the founder and ceo of alcobuzz, asia&#x27;s premier digital magazine on spirits, cocktails, nightlife &amp; experiences.
+ 
+ subscribe and listen to pallavi naidu on cheers chatty podcast hosted on itunes, youtube, google podcast, spotify, anchor and sound cloud.
+ 
+ 
+ 
+ listen, subscribe and advertise on cheers chatty podcast.
+ chatty@cheerschatty.com
+ cheerschatty@gmail.com
+ 
+ link tree
+ 
+ https://linktr.ee/cheerschatty
+ 
+ anchor
+ 
+ https://anchor.fm/chatty-girija
+ 
+ youtube
+ 
+ https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ 
+ apple podcast
+ 
+ https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ 
+ spotify 
+ 
+ https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ 
+  google podcast
+ 
+ https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ 
+ soundcloud
+ https://soundcloud.com/girija-chatty
+ 
+  blogger
+ 
+ https://cheerschatty.blogspot.com/
+ 
+ 
+ 
+ linkedin
+ 
+ https://www.linkedin.com/company/cheers-chatty/
+ 
+ kindle
+ 
+ http://amzn.in/eifsn0i
+ 
+ #cheerschatty #podcastadvertising #beerpodcast #pallavinaidu #alcobuzz #spiritsmagazine
+ 
+ #cocktails #stoutbeer #guinnessbeer #advertisingperson #contentwriting #creativewoman #alcoholcareers #alcoholmagazine
+ 
+ #brewmaster #brewing   #beerinfluencer #cheers #chatty  #wine #winemaker #winepodcast #indianpodcast #brewer #indiawines #indiapodcast #winecareers  #podcast5kage #podcasting #podcastingtips #youtubepodcast #spotifypodcast #anchorpodcast  #podcaststar #personalbrand #linktree #soundcloud #internationalpodcast #podcastdianauribe #podcastnyawirda #podcastwithmacg #podcastkeluarga #podcastwerewolf #podcastage #podcastandchill #podcastbincangshopee #podcastcini #podcastdesk #podcasterk #podcaster #podcastersforjustice #podcastgridoto #podcasthindutimes #podcasthoror #podcastingforbeginners #podcastindonesia #podcasting101 #podcastinitalian #podcastjauhan #podcastjuice #podcastjae #podcastkristen #podcastkakakberadik #beerreview  #podcastmalamkliwon #podcastnchill #podcastparaaprenderespanol #podcastpolitik #podcastquebec #podcastramadhanits #podcastrepsul #podcastrubenonsu #podcastrapatosis #podcastsforeveryone #podcasttips #podcasttutorial #podcastunited #podcastwithakrahul #podcastwithharoonikram #podcastwithsai #podcastwisnu1 #podcast001 #ciders #cidermaker #ciderlover"><img class="ep-art" src="assets/podcast/4feabef3-56b4-4e1a-9ce3-ed68c91f3750.jpg" alt="Cover art for Cheers Chatty: Batch 1: Pint 20: Pallavi Naidu, Founder &amp; CEO- Alcobuzz" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S1 E20 · 2020-08-10 · 18 min</span>
   <h3>Cheers Chatty: Batch 1: Pint 20: Pallavi Naidu, Founder &amp; CEO- Alcobuzz</h3>
   <p>Cheers Chatty: Batch 1: Pint 20: Pallavi Naidu, Founder &amp; CEO- Alcobuzz
@@ -461,7 +832,35 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP9382252796.mp3?updated=1723807638" aria-label="Play Cheers Chatty: Batch 1: Pint 20: Pallavi Naidu, Founder &amp; CEO- Alcobuzz"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/cheers-chatty-batch-1-pint-20-pallavi-naidu-founder/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/556c48a0-9c65-4c7d-b7af-8b6f30dc6f97.jpg" alt="Cover art for Cheers Chatty: Batch 1: Pint 18: Julie Bagget: CEO, Consultant &amp; Brewmaster" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="cheers chatty: batch 1: pint 18: julie bagget: ceo, consultant &amp; brewmaster cheers chatty: batch 1: pint 18: julie bagget: ceo, consultant &amp; brewmaster
+ india&#x27;s first &amp; only beer podcast
+ &quot;with an indian soul, kali maa tattoo on her arm…she brews beer with a spine of steel attitude. listen to julie bagget on her love for india, zero 40 brewing, brewbot and more on cheers chatty podcast. subscribe and listen to cheers chatty on itunes, youtube, google podcast, spotify, anchor and sound cloud.
+ julie bagget&#x27;s profile
+ julie bagget is an experienced consultant with a demonstrated history of working in the food &amp; beverages industry. skilled in cleaning &amp; sanitation, sensory evaluation, beverage industry, and alcoholic beverages. strong consulting professional with a certification focused in master brewers from university of california, davis.
+ &quot;julie is an artist who knows and loves beer, and communicates that to the rabble that enjoy the fruits of her craft.&quot;
+ subscribe and listen to julie bagget on cheers chatty podcast on apple podcast, youtube, anchor, google podcast, spotify and sound cloud.
+ cheers chatty is india&#x27;s first and only beer podcast
+ listen, subscribe and advertise on cheers chatty podcast. chatty@cheerschatty.com cheerschatty@gmail.com
+ link tree
+ https://linktr.ee/cheerschatty
+ anchor
+ https://anchor.fm/chatty-girija
+ youtube
+ https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ apple podcast
+ https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ spotify
+ https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ google podcast
+ https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ soundcloud https://soundcloud.com/girija-chatty
+ blogger
+ https://cheerschatty.blogspot.com/
+ linkedin
+ https://www.linkedin.com/company/cheers-chatty/
+ kindle
+ http://amzn.in/eifsn0i
+ #cheerschatty #podcastadvertising #beerpodcast #juliebagget #zero40 #brewmaster #brewing #universityofcalifornia #davis #brewingconsultant #usa #beerinfluencer #cheers #chatty  #wine #winemaker #winepodcast #indianpodcast #brewer #indiawines #indiapodcast #winecareers  #podcast5kage #podcasting #podcastingtips #youtubepodcast #spotifypodcast #anchorpodcast  #podcaststar #personalbrand #linktree #soundcloud #internationalpodcast #podcastdianauribe #podcastnyawirda #podcastwithmacg #podcastkeluarga #podcastwerewolf #podcastage #podcastandchill #podcastbincangshopee #podcastcini #podcastdesk #podcasterk #podcaster #podcastersforjustice #podcastgridoto #podcasthindutimes #podcasthoror #podcastingforbeginners #podcastindonesia #podcasting101 #podcastinitalian #podcastjauhan #podcastjuice #podcastjae #podcastkristen #podcastkakakberadik #beerreview  #podcastmalamkliwon #podcastnchill #podcastparaaprenderespanol #podcastpolitik #podcastquebec #podcastramadhanits #podcastrepsul #podcastrubenonsu #podcastrapatosis #podcastsforeveryone #podcasttips #podcasttutorial #podcastunited #podcastwithakrahul #podcastwithharoonikram #podcastwithsai #podcastwisnu1 #podcast001 #ciders #cidermaker #ciderlover"><img class="ep-art" src="assets/podcast/556c48a0-9c65-4c7d-b7af-8b6f30dc6f97.jpg" alt="Cover art for Cheers Chatty: Batch 1: Pint 18: Julie Bagget: CEO, Consultant &amp; Brewmaster" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2020-07-23 · 12 min</span>
   <h3>Cheers Chatty: Batch 1: Pint 18: Julie Bagget: CEO, Consultant &amp; Brewmaster</h3>
   <p>Cheers Chatty: Batch 1: Pint 18: Julie Bagget: CEO, Consultant &amp; Brewmaster
@@ -470,7 +869,36 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP3265701326.mp3?updated=1723807639" aria-label="Play Cheers Chatty: Batch 1: Pint 18: Julie Bagget: CEO, Consultant &amp; Brewmaster"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/cheers-chatty-batch-1-pint-18-julie-bagget-ceo-consultant/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/fb4fc151-050c-4202-9d4b-f21e34361e97.jpg" alt="Cover art for Saurabh Kumar, Siqera. Cheers Chatty. India&#x27;s 1st &amp; only beer Podcast. Contact to advertise." width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="saurabh kumar, siqera. cheers chatty. india&#x27;s 1st &amp; only beer podcast. contact to advertise. saurabh kumar, siqera, winemaker.  &quot;i would like to experiment with as many fruits as i can to craft different styles of cider, mead and wine.&quot;   
+  
+ here is an all-rounder of alcohol that experiments with different kinds of fruits and in different combinations to make wine. subscribe and listen to saurabh&#x27;s wine story on cheers chatty podcast on apple podcast, youtube, anchor, google podcast, spotify and sound cloud.   
+ listen, subscribe and advertise on cheers chatty podcast. 
+ chatty@cheerschatty.com 
+ cheerschatty@gmail.com
+ link tree
+ https://linktr.ee/cheerschatty
+ youtube
+ https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha
+ apple podcast
+ https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878
+ spotify
+ https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry
+ google podcast
+ https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba
+ sound cloud
+ https://soundcloud.com/girija-chatty/saurabh-kumar-on-cheers-chatty-podcast
+ blogger
+ https://cheerschatty.blogspot.com/
+ instagram
+ https://www.instagram.com/cheerschatty/
+ facebook
+ https://www.facebook.com/cheerschatty/
+ linkedin
+ https://www.linkedin.com/company/cheers-chatty/
+ kindle
+ http://amzn.in/eifsn0i
+  
+ #cheerschatty #podcastadvertising #beerpodcast #cheerschatty #cheers #chatty #siqera #wine #winemaker #winepodcast #indiawines #indiapodcast #winecareers #saurabhkumar #podcast5kage #podcasting #podcastingtips #youtubepodcast #spotifypodcast #anchorpodcast #podcaststar #personalbrand #linktree #soundcloud #internationalpodcast #podcastdianauribe #podcastnyawirda #podcastwithmacg #podcastkeluarga #podcastwerewolf #podcastage #podcastandchill #podcastbincangshopee #podcastcini #podcastdesk #podcasterk #podcaster #podcastersforjustice #podcastgridoto #podcasthindutimes #podcasthoror #podcastingforbeginners #podcastindonesia #podcasting101 #podcastinitalian #podcastjauhan #podcastjuice #podcastjae #podcastkristen #podcastkakakberadik #podcastmalamkliwon #podcastnchill #podcastparaaprenderespanol #podcastpolitik #podcastquebec #podcastramadhanits #podcastrepsul #podcastrubenonsu #podcastrapatosis #podcastsforeveryone #podcasttips #podcasttutorial #podcastunited #podcastwithakrahul #podcastwithharoonikram #podcastwithsai #podcastwisnu1 #podcast001"><img class="ep-art" src="assets/podcast/fb4fc151-050c-4202-9d4b-f21e34361e97.jpg" alt="Cover art for Saurabh Kumar, Siqera. Cheers Chatty. India&#x27;s 1st &amp; only beer Podcast. Contact to advertise." width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S2 E7 · 2020-06-28 · 15 min</span>
   <h3>Saurabh Kumar, Siqera. Cheers Chatty. India&#x27;s 1st &amp; only beer Podcast. Contact to advertise.</h3>
   <p>Saurabh Kumar, Siqera, Winemaker.  &quot;I would like to experiment with as many fruits as I can to craft different styles of cider, mead and wine.&quot;   
@@ -479,7 +907,19 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP5886021793.mp3?updated=1723807639" aria-label="Play Saurabh Kumar, Siqera. Cheers Chatty. India&#x27;s 1st &amp; only beer Podcast. Contact to advertise."></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/saurabh-kumar-siqera-cheers-chatty-indias-1st-only/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/c7350c7f-85b1-4db9-9d32-5761c38607e8.jpg" alt="Cover art for Cheers Chatty Podcast: Special Feature: Podcast for a Podcast. Featuring Chatty Girija &amp; Anu Rao" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="cheers chatty podcast: special feature: podcast for a podcast. featuring chatty girija &amp; anu rao cheers chatty-india&#x27;s first and only beer podcast now gives the beer and alcobev brands an opportunity to advertise, sponsor, contribute and support cheers chatty.
+ listen and subscribe to cheers chatty on apple podcasts, youtube, google podcast, spotify and soundcloud.
+ you can also write to us at chatty@cheerschatty.com/ cheerschatty@gmail.com to know more.
+ 
+ listen &amp; subscribe to cheers chatty on  youtube: https://www.youtube.com/channel/ucnrpbc7wm8auqkfwwpdhkha   
+ apple podcast https://podcasts.apple.com/in/podcast/cheers-chatty-ii/id1509379908?i=1000472485878  
+ spotify  https://open.spotify.com/show/7bc1wafrk2d1ika8hlmcry  
+ google podcast https://podcasts.google.com/?feed=ahr0chm6ly9mzwvklnbvzgjlyw4uy29tl25hcgfhbmt1ci9mzwvklnhtba  
+ blogger https://cheerschatty.blogspot.com/  
+ instagram https://www.instagram.com/cheerschatty/  
+ facebook https://www.facebook.com/cheerschatty/  
+ linkedin https://www.linkedin.com/company/cheers-chatty/  
+ kindle http://amzn.in/eifsn0i"><img class="ep-art" src="assets/podcast/c7350c7f-85b1-4db9-9d32-5761c38607e8.jpg" alt="Cover art for Cheers Chatty Podcast: Special Feature: Podcast for a Podcast. Featuring Chatty Girija &amp; Anu Rao" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">S1 E2 · 2020-06-04 · 8 min</span>
   <h3>Cheers Chatty Podcast: Special Feature: Podcast for a Podcast. Featuring Chatty Girija &amp; Anu Rao</h3>
   <p>Cheers Chatty-India&#x27;s first and only beer podcast now gives the beer and Alcobev brands an opportunity to advertise, sponsor, contribute and support Cheers Chatty.
@@ -487,7 +927,7 @@
   <audio controls preload="none" src="https://traffic.megaphone.fm/ISP5535100429.mp3?updated=1723807640" aria-label="Play Cheers Chatty Podcast: Special Feature: Podcast for a Podcast. Featuring Chatty Girija &amp; Anu Rao"></audio>
   <div class="foot"><a href="https://podcasts.apple.com/us/podcast/cheers-chatty-podcast-special-feature-podcast-for-a/id1493541371" class="link-arrow" target="_blank" rel="noopener">Apple Podcasts</a><a href="https://open.spotify.com/show/1qPO5UgB1WHnp4qfx7MCMX" class="link-arrow" target="_blank" rel="noopener">Spotify</a></div>
 </div></article>
-<article class="card ep reveal"><img class="ep-art" src="assets/podcast/5fc1da0e-502b-45b5-8bc7-7465a094e5cb.jpg" alt="Cover art for Cheers Chatty Podcast Introduction" width="600" height="600" loading="lazy" /><div class="card-body">
+<article class="card ep reveal" data-q="cheers chatty podcast introduction introducing you to the world of cheers chatty podcast. we aim to give the real heroes of the beer and the alcobev industry a voice to share their stories that make your hours happy. the perfect destination for industry professionals and enthusiasts to know more about beer and what goes to make a cheerful beverage. no wonder they call it a drink that brings people together. if you want to know about beer, know it all through cheers chatty cheers! take care babuuss. chatty girija."><img class="ep-art" src="assets/podcast/5fc1da0e-502b-45b5-8bc7-7465a094e5cb.jpg" alt="Cover art for Cheers Chatty Podcast Introduction" width="600" height="600" loading="lazy" /><div class="card-body">
   <span class="cat">2020-05-16 · 1 min</span>
   <h3>Cheers Chatty Podcast Introduction</h3>
   <p>Introducing you to the world of Cheers Chatty Podcast. We aim to give the real heroes of the beer and the alcobev industry a voice to share their stories that make your hours happy. The perfect destination for industry professionals and...</p>
@@ -514,6 +954,7 @@
       <li><a href="prospectus.html" data-cta="footer-prospectus">Prospectus</a></li>
       <li><a href="blog.html">Blog</a></li>
       <li><a href="podcast.html">Podcast</a></li>
+      <li><a href="youtube.html">YouTube</a></li>
       <li><a href="faq.html">FAQ</a></li>
     </ul></div>
     <div><h4>School</h4><ul>

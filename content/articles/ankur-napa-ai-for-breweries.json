@@ -1,0 +1,63 @@
+{
+ "slug": "ankur-napa-ai-for-breweries",
+ "cat": "Business",
+ "h1": "Ankur Napa on AI for breweries: start with the data you already have",
+ "title": "Ankur Napa on AI for Breweries | Craft Beer School",
+ "desc": "How brewer and data scientist Ankur Napa approaches AI in a brewery: the data you already record, the questions worth asking and where AI helps.",
+ "teaser": "AI in a brewpub does not start with a model. It starts with the brew log nobody reads. How Ankur Napa approaches it.",
+ "standfirst": "Ankur Napa spent nine years in brewery R&D before working on AI and GenAI for AB InBev's global business units. His view of AI in a brewery is practical: start with the records you already keep, then ask one question at a time.",
+ "read": "3 min",
+ "updated": "2026-10-09",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A brewer's view of AI",
+   "<p>Ankur Napa comes to AI from the brew deck. He worked as an R&amp;D brewer and Master Brewer at United Breweries, SABMiller and AB InBev, then as a data scientist on AI and GenAI for AB InBev's global business units. After that he worked in operations and digital transformation at iWort.</p><p>That route gives him an unusual starting point. He does not begin with a model. He begins with the brew sheet, the cellar log and the excise register. Then he asks what they already know that nobody has looked at. He explains the approach in a <a href=\"https://www.youtube.com/watch?v=vmA8ft3rvh4\" rel=\"noopener\">video on how AI is changing breweries</a>.</p>"
+  ],
+  [
+   "The data you already have",
+   "<p>A working brewpub records more than it thinks. Every brew has a recipe, mash temperatures, original gravity and volumes. Every fermenter has daily gravity and temperature readings. The taproom has sales by beer and by hour. The store has malt and hop stock. Most of it sits in notebooks, WhatsApp photos and separate spreadsheets.</p><ul><li>Brewhouse: grist weights, gravities and volumes give you yield per brew.</li><li>Cellar: gravity curves show how each yeast generation is performing.</li><li>Taproom: sales by day show which beers to brew when.</li><li>Stores: stock against recipes shows what to order and when.</li></ul><p>Putting those in one place, consistently, is most of the work. It is also the step most AI projects skip.</p>"
+  ],
+  [
+   "Questions worth asking first",
+   "<p>Once the records line up, the useful questions are usually simple. Why did brewhouse yield drop this month? Which beer runs out first in the IPL season? How many days of base malt are left at the current brewing rate? Is this fermentation slower than the last five on the same yeast?</p><p>None of these needs a large language model. They need clean data and a chart someone looks at every morning. A brewer who can answer them every Monday is already running a data-driven brewery. Our guide to <a href=\"power-bi-for-breweries.html\">Power BI for breweries</a> shows how a small team can build those views.</p>"
+  ],
+  [
+   "Where AI genuinely helps",
+   "<p>AI earns its place once the basics are in. Forecasting is the obvious first use: predicting sales by beer from past sales, the season, festivals and match days, so the brewer plans brews and malt orders ahead. Our guide to <a href=\"beer-demand-forecasting-indian-seasons.html\">demand forecasting for Indian seasons</a> explains why India's calendar makes this harder than it looks.</p><p>GenAI helps in quieter ways. It can turn a messy brew log into structured records, draft SOPs from a brewer's notes and answer staff questions from the brewery's own manuals. In each case the brewer still checks the output. A model that has never smelled a sulphury fermentation will not catch one.</p><p>Quality control is a third use. A model that knows each beer's usual fermentation curve can flag a tank drifting from it, so the brewer checks it a day earlier than they otherwise would.</p>"
+  ],
+  [
+   "A first project that fits a brewpub",
+   "<p>For a brewpub starting from scratch, a sensible first project is small. Put one sheet on the brew deck that the brewer fills in for every brew: date, beer, grist weight, original gravity, volume into the fermenter and the yeast generation. Copy it into one shared table each evening. Do the same for daily fermenter readings.</p><p>After a month, look at three things. Brewhouse yield per brew, to spot a mill or lautering problem. Days to final gravity per yeast generation, to see when a yeast is tiring. Litres sold per beer per week against litres brewed, to see what to brew next. That is not AI yet. It is the foundation every AI project needs. Many breweries find most of the value here before they ever build a model.</p>"
+  ],
+  [
+   "The floor still decides",
+   "<p>One habit runs through Ankur's teaching: check the number against the floor. If the dashboard says yield fell, walk to the mill and look at the crush. If a fermenter's curve looks wrong, taste the beer and check the probe. A temperature sensor reading 2 °C off can make a healthy fermentation look stuck on screen.</p><p>Breweries that get value from data treat it as a second opinion, never the only one. That is the gap the course below is built to close.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does a small brewpub need AI?",
+   "Not at first. Most value comes from getting brew, cellar, sales and stock records into one place and reviewing them regularly. AI helps once that data is clean."
+  ],
+  [
+   "What is the first AI use case for a brewery?",
+   "Demand forecasting is usually the first: predicting sales by beer so brews and malt orders are planned ahead."
+  ],
+  [
+   "Who is Ankur Napa?",
+   "A Master Brewer and data scientist who worked in R&D at United Breweries, SABMiller and AB InBev and on AI and GenAI at AB InBev. He teaches AI for Craft Breweries at Craft Beer School."
+  ]
+ ],
+ "cta": {
+  "title": "Turn your brew logs into decisions",
+  "body": "AI for Craft Breweries, Ankur's 2 week live course (₹5,000), covers getting brewery data into shape, the dashboards worth building and where forecasting and GenAI genuinely help a brewpub.",
+  "href": "ai-for-craft-breweries-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "power-bi-for-breweries",
+  "beer-demand-forecasting-indian-seasons",
+  "meet-ankur-napa-master-brewer-data-scientist"
+ ]
+}

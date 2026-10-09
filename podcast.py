@@ -62,10 +62,22 @@ def _short(text, limit=240):
     return text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0] + "..."
 
 
+def filter_box(target, placeholder):
+    """Keyword filter over every [data-q] card inside #target. Plain JS, no library."""
+    return f"""<div class="kw-filter"><label for="{target}-q" class="eyebrow">Filter</label>
+<input id="{target}-q" type="search" placeholder="{placeholder}" autocomplete="off" />
+<p class="kw-count" aria-live="polite"></p></div>
+<script>(function(){{var box=document.getElementById("{target}-q"),out=box.parentNode.querySelector(".kw-count");
+function run(){{var cards=document.getElementById("{target}").querySelectorAll("[data-q]"),words=box.value.toLowerCase().split(/\\s+/).filter(Boolean),n=0;
+cards.forEach(function(c){{var hit=words.every(function(w){{return c.dataset.q.indexOf(w)>-1}});c.hidden=!hit;if(hit)n++}});
+out.textContent=words.length?(n?n+" of "+cards.length+" match":"Nothing matches. Try a shorter word."):""}}
+box.addEventListener("input",run)}})();</script>"""
+
+
 def _card(e):
     esc = html.escape
     tag = f"S{e['season']} E{e['episode']} · " if e["season"] and e["episode"] else ""
-    return f"""<article class="card ep reveal"><img class="ep-art" src="{esc(e['art'])}" alt="Cover art for {esc(e['title'])}" width="{ART_PX}" height="{ART_PX}" loading="lazy" /><div class="card-body">
+    return f"""<article class="card ep reveal" data-q="{esc((e['title'] + ' ' + e['summary']).lower())}"><img class="ep-art" src="{esc(e['art'])}" alt="Cover art for {esc(e['title'])}" width="{ART_PX}" height="{ART_PX}" loading="lazy" /><div class="card-body">
   <span class="cat">{tag}{e['date']} · {e['minutes']} min</span>
   <h3>{esc(e['title'])}</h3>
   <p>{esc(_short(e['summary']))}</p>
@@ -83,6 +95,7 @@ def page(banner):
     <div class="pod-follow">
       <a href="{SPOTIFY_URL}" class="btn btn-amber" target="_blank" rel="noopener" data-cta="podcast-spotify">Follow on Spotify</a>
       <a href="{APPLE_URL}" class="btn btn-ghost" target="_blank" rel="noopener" data-cta="podcast-apple">Follow on Apple Podcasts</a>
+      <a href="youtube.html" class="btn btn-ghost" data-cta="podcast-youtube">Watch on YouTube</a>
     </div>
     <iframe class="pod-embed" title="Cheers Chatty Beer Podcast on Spotify" src="https://open.spotify.com/embed/show/1qPO5UgB1WHnp4qfx7MCMX" height="352" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
   </div>
@@ -90,7 +103,8 @@ def page(banner):
 <section class="tint">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">All episodes</span><h2>Press play.</h2></div>
-    <div class="grid-3">
+    {filter_box("pod-list", "Filter episodes by guest, beer or topic")}
+    <div class="grid-3" id="pod-list">
 {chr(10).join(_card(e) for e in episodes)}
     </div>
   </div>

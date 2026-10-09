@@ -6984,19 +6984,11 @@
   "photos": [
    {
     "after": 0,
-    "src": "assets/people/gagan-deep-brewer-world-award.jpg",
-    "w": 800,
-    "h": 800,
-    "alt": "Gagan Deep, brewmaster at Hops n Grains, holding a Brewer World award at the Brewer World show in Bengaluru",
-    "caption": "Gagan Deep, brewmaster at Hops n Grains, with his Brewer World award in Bengaluru. Photo courtesy of Gagan Deep."
-   },
-   {
-    "after": 2,
-    "src": "assets/people/gagan-deep-brewhouse.jpg",
-    "w": 1400,
-    "h": 778,
-    "alt": "Gagan Deep standing in front of the copper-clad brewhouse vessels at Hops n Grains",
-    "caption": "Gagan Deep on the brew deck at Hops n Grains. Photo courtesy of Gagan Deep."
+    "src": "assets/people/gagan-deep-fermentation-cellar.jpg",
+    "w": 960,
+    "h": 1280,
+    "alt": "Gagan Deep standing between rows of stainless steel fermentation tanks in the brewery cellar",
+    "caption": "Gagan Deep in the fermentation cellar. Photo courtesy of Gagan Deep."
    }
   ]
  },
@@ -7017,11 +7009,11 @@
   "photos": [
    {
     "after": 0,
-    "src": "assets/people/gagan-deep-brewhouse.jpg",
-    "w": 1400,
-    "h": 778,
-    "alt": "Gagan Deep standing in front of the copper-clad brewhouse vessels at Hops n Grains",
-    "caption": "Gagan Deep on the brew deck at Hops n Grains. Photo courtesy of Gagan Deep."
+    "src": "assets/people/gagan-deep-fermentation-cellar.jpg",
+    "w": 960,
+    "h": 1280,
+    "alt": "Gagan Deep standing between rows of stainless steel fermentation tanks in the brewery cellar",
+    "caption": "Gagan Deep in the fermentation cellar. Photo courtesy of Gagan Deep."
    },
    {
     "after": 1,
@@ -7050,11 +7042,11 @@
   "photos": [
    {
     "after": 0,
-    "src": "assets/people/gagan-deep-brewhouse.jpg",
-    "w": 1400,
-    "h": 778,
-    "alt": "Gagan Deep standing in front of the copper-clad brewhouse vessels at Hops n Grains",
-    "caption": "Gagan Deep on the brew deck at Hops n Grains. Photo courtesy of Gagan Deep."
+    "src": "assets/people/gagan-deep-fermentation-cellar.jpg",
+    "w": 960,
+    "h": 1280,
+    "alt": "Gagan Deep standing between rows of stainless steel fermentation tanks in the brewery cellar",
+    "caption": "Gagan Deep in the fermentation cellar. Photo courtesy of Gagan Deep."
    },
    {
     "after": 1,
@@ -7068,7 +7060,7 @@
  },
  {
   "slug": "gagan-deep-brewing-on-an-imported-plant",
-  "h1": "Gagan Deep on the first plant: what an imported brewhouse teaches",
+  "h1": "Built by hand: what Gagan Deep's first brewhouse teaches founders",
   "cat": "Business",
   "course": "brewery-business-management-course.html",
   "related": [
@@ -7083,12 +7075,82 @@
   "photos": [
    {
     "after": 0,
-    "src": "assets/people/gagan-deep-brewhouse.jpg",
-    "w": 1400,
-    "h": 778,
-    "alt": "Gagan Deep standing in front of the copper-clad brewhouse vessels at Hops n Grains",
-    "caption": "Gagan Deep on the brew deck at Hops n Grains. Photo courtesy of Gagan Deep."
+    "src": "assets/people/gagan-deep-fermentation-cellar.jpg",
+    "w": 960,
+    "h": 1280,
+    "alt": "Gagan Deep standing between rows of stainless steel fermentation tanks in the brewery cellar",
+    "caption": "Gagan Deep in the fermentation cellar. Photo courtesy of Gagan Deep."
    }
   ]
+ },
+ {
+  "slug": "meet-ankur-napa-master-brewer-data-scientist",
+  "h1": "Meet Ankur Napa, the Master Brewer who moved into data and AI",
+  "cat": "Careers",
+  "course": "ai-for-craft-breweries-course.html",
+  "related": [
+   "become-a-brewer-india",
+   "ankur-napa-ai-for-breweries",
+   "ankur-napa-brewing-lessons-on-youtube"
+  ],
+  "segment": "Career changers",
+  "stage": "awareness",
+  "batch": "ankur-napa-1",
+  "date": "2026-10-09",
+  "photos": [
+   {
+    "after": 0,
+    "src": "assets/team3.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alt": "Ankur Napa, Master Brewer and data scientist, instructor at Craft Beer School",
+    "caption": "Ankur Napa, Master Brewer and data scientist. He has taught at Craft Beer School since 2021."
+   }
+  ]
+ },
+ {
+  "slug": "ankur-napa-ai-for-breweries",
+  "h1": "Ankur Napa on AI for breweries: start with the data you already have",
+  "cat": "Business",
+  "course": "ai-for-craft-breweries-course.html",
+  "related": [
+   "power-bi-for-breweries",
+   "beer-demand-forecasting-indian-seasons",
+   "meet-ankur-napa-master-brewer-data-scientist"
+  ],
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "ankur-napa-1",
+  "date": "2026-10-09"
+ },
+ {
+  "slug": "ankur-napa-free-brewing-tools",
+  "h1": "The free brewing tools Ankur Napa has built for brewers",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "related": [
+   "weyermann-malts-guide",
+   "meet-ankur-napa-master-brewer-data-scientist",
+   "ankur-napa-ai-for-breweries"
+  ],
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "ankur-napa-1",
+  "date": "2026-10-09"
+ },
+ {
+  "slug": "ankur-napa-brewing-lessons-on-youtube",
+  "h1": "Learn brewing with Ankur Napa: his lessons on YouTube",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "related": [
+   "how-beer-is-made-step-by-step",
+   "barley-malting-process",
+   "meet-ankur-napa-master-brewer-data-scientist"
+  ],
+  "segment": "Homebrewers",
+  "stage": "awareness",
+  "batch": "ankur-napa-1",
+  "date": "2026-10-09"
  }
 ]

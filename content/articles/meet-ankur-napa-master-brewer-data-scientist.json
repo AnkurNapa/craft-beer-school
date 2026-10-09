@@ -1,0 +1,63 @@
+{
+ "slug": "meet-ankur-napa-master-brewer-data-scientist",
+ "cat": "Careers",
+ "h1": "Meet Ankur Napa, the Master Brewer who moved into data and AI",
+ "title": "Ankur Napa: Brewer Turned Data Scientist | Craft Beer School",
+ "desc": "Ankur Napa's path from R&D brewer at United Breweries, SABMiller and AB InBev to data scientist, plus what he teaches at Craft Beer School.",
+ "teaser": "Nine years in brewery R&D, then a second career in data and AI. Meet the instructor who teaches both sides of the brewhouse.",
+ "standfirst": "Ankur Napa spent the first part of his career brewing in research and development for some of the largest brewers in India. Then he retrained in data science. Here is the route he took and why it shapes the way he teaches.",
+ "read": "3 min",
+ "updated": "2026-10-09",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A brewer first",
+   "<p>Ankur Napa learned brewing where the numbers have to hold at scale. He worked as an R&amp;D brewer at United Breweries, then from 2011 to 2020 as an R&amp;D brewer and Master Brewer with SABMiller and AB InBev. Research and development is the part of a big brewery that trials new recipes, new raw materials and new process settings before they reach the main plant.</p><p>Along the way he took an MSc in Brewing Science and Technology at Savitribai Phule Pune University, on top of a BTech in Biotechnology. That pairing of biology and brewing still shows in how he explains yeast, enzymes and fermentation: as living systems with a chemistry you can measure.</p>"
+  ],
+  [
+   "What R&D brewing teaches",
+   "<p>Brewery R&amp;D is a good school for a scientist. A new recipe is brewed first on a pilot plant, a few hectolitres at a time, then scaled to production vessels many times larger. Something always changes on the way up. Hop utilisation shifts with kettle geometry. Fermentation behaves differently in a tall tank than a short one. A new barley variety mills and mashes in its own way.</p><p>The R&amp;D brewer's job is to predict those changes, measure them and correct for them before a consumer ever tastes the beer. That means trial plans, careful records and a habit of comparing what you expected with what you got. It is, in other words, the same discipline a data scientist uses, applied to wort instead of spreadsheets. The brewing years left him with a habit he still teaches: check every number against the tank before you trust it.</p>"
+  ],
+  [
+   "Then a second career in data",
+   "<p>In 2020 Ankur moved into data full time, first as a Senior Data Analyst at Mathesis Labs. He studied for an MSc in Data Science and AI at Liverpool John Moores University and a PG Diploma in Data Analytics and Business Intelligence at IIIT Bangalore. He also holds Microsoft's Fabric Analytics Engineer certification (DP-600).</p><p>He then went back to AB InBev, this time as a data scientist working on AI and GenAI for its global business units. From 2023 to 2026 he worked in operations and digital transformation at iWort. Today he is Growth Officer at Disruptive Advantage.</p>"
+  ],
+  [
+   "Why the two halves fit",
+   "<p>Most brewers can read a gravity curve. Fewer can tell you why the dashboard says yield fell two points last month when the brewhouse crew swears nothing changed. Most data scientists can build that dashboard. Fewer know that a 2 °C drift on a fermenter probe can explain the whole thing.</p><p>Ankur works in that gap. He describes it as the space between what the numbers say and what the floor tells you when they are wrong. It is the same gap many Indian breweries are trying to close as they add sensors, ERPs and reporting to plants that were run for years on clipboards and experience.</p>"
+  ],
+  [
+   "Teaching at Craft Beer School",
+   "<p>Ankur has taught at Craft Beer School since 2021. He leads three courses: Advanced Brewing Science, AI for Craft Breweries and Power BI and Tableau for Breweries. His sessions start from classic brewing science, then show the tools a modern brewery uses to measure, predict and improve.</p><p>He also appears on the school's video channel and on the Cheers Chatty podcast with co-founder Chatty Girija, explaining malting, hops and the brewhouse in English and Hindi. Our guide to <a href=\"ankur-napa-brewing-lessons-on-youtube.html\">his brewing lessons on YouTube</a> lists the best place to start. His full profile is on his <a href=\"mentor-ankur-napa.html\">mentor page</a>.</p>"
+  ],
+  [
+   "What his route shows a career changer",
+   "<p>You do not have to choose between the brewhouse and the laptop. Ankur's career runs through both, in that order. The brewing years gave him the questions worth asking. The data training gave him the tools to answer them.</p><p>If you are a brewer curious about data, start with the numbers you already record: gravities, temperatures, yields, losses. If you are in data and curious about beer, learn the process before you model it. Our guide to <a href=\"become-a-brewer-india.html\">becoming a brewer in India</a> covers the brewing side of that path.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Who is Ankur Napa?",
+   "A Master Brewer who worked in R&D at United Breweries, SABMiller and AB InBev, then retrained as a data scientist. He teaches at Craft Beer School."
+  ],
+  [
+   "What does Ankur Napa teach at Craft Beer School?",
+   "Advanced Brewing Science, AI for Craft Breweries and Power BI and Tableau for Breweries."
+  ],
+  [
+   "What qualifications does Ankur Napa hold?",
+   "An MSc in Brewing Science and Technology, an MSc in Data Science and AI, a PG Diploma in Data Analytics and Business Intelligence and Microsoft's DP-600 Fabric Analytics Engineer certification."
+  ]
+ ],
+ "cta": {
+  "title": "Learn where brewing meets data",
+  "body": "AI for Craft Breweries is Ankur's 2 week live online course on using data and AI in a brewery, from the numbers you already record to the tools that predict and improve.",
+  "href": "ai-for-craft-breweries-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "become-a-brewer-india",
+  "ankur-napa-ai-for-breweries",
+  "ankur-napa-brewing-lessons-on-youtube"
+ ]
+}

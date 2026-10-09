@@ -1,0 +1,71 @@
+{
+ "slug": "ankur-napa-free-brewing-tools",
+ "cat": "Brewing science",
+ "h1": "The free brewing tools Ankur Napa has built for brewers",
+ "title": "Ankur Napa's Free Brewing Tools | Craft Beer School",
+ "desc": "Aroma Forge, the Indian Brewer's Calculator, an advanced formulation calculator and the Beverage-AI Radar: free tools built by brewer Ankur Napa.",
+ "teaser": "A malt aroma predictor, a metric brewing calculator in four languages and a map of AI in beer. All free, all built by a brewer.",
+ "standfirst": "Ankur Napa builds the tools he wished he had on the brew deck. Several are free and open on the web. Here is what each one does and when a brewer would reach for it.",
+ "read": "3 min",
+ "updated": "2026-10-09",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Tools built by a brewer",
+   "<p>Ankur Napa spent nine years as an R&amp;D brewer and Master Brewer before moving into data science. He now builds small web tools that answer brewing questions directly. They run in the browser, need no login and cost nothing. Each started as a problem he kept meeting in breweries or in class.</p><p>None of them replaces a brewer's judgement. Each one gives a starting number or picture that a brewer then checks against the tank and the glass.</p>"
+  ],
+  [
+   "Aroma Forge: predict a grist's flavour",
+   "<p><a href=\"https://ankurnapa.github.io/aroma-forge/\" rel=\"noopener\">Aroma Forge</a> predicts the flavour, colour and character of a beer from its Weyermann malt grist. It takes the digitised aroma wheels for each malt and overlays them in proportion to the grist, so you can see how a recipe leans before you brew it.</p><p>It is most useful when designing a new recipe or swapping a malt that is out of stock. Our <a href=\"weyermann-malts-guide.html\">Weyermann malts guide</a> explains how to read the aroma wheels the tool is built on. The wheels describe wort, not finished beer, so yeast and hops still have their say.</p>"
+  ],
+  [
+   "The Indian Brewer's Calculator",
+   "<p>The <a href=\"https://ankurnapa.github.io/indian-brewing-calculator/\" rel=\"noopener\">Indian Brewer's Calculator</a> covers the everyday sums of a brew day in metric units: litres, hectolitres, grams and degrees Celsius. It works at homebrew scale and at commercial scale, with brewhouse yield and extract calculations a brewpub needs.</p><p>It also runs in English, German, Hindi and Marathi. That matters on an Indian brew deck, where the head brewer may think in German textbook terms and the assistant brewer in Hindi or Marathi.</p>"
+  ],
+  [
+   "Advanced Brewing Calculator",
+   "<p>The <a href=\"https://ankurnapa.github.io/advanced-brewing-calculator/\" rel=\"noopener\">Advanced Brewing Calculator</a> is the professional companion. It is built for formulation and specification: designing a beer to a target, writing its spec and comparing versions side by side.</p><p>This is the tool for a brewer moving from following recipes to writing them. Setting a target original gravity, colour and bitterness, then working back to a grist and hop schedule, is exactly the skill a head brewer is paid for.</p>"
+  ],
+  [
+   "Beverage-AI Radar",
+   "<p>The <a href=\"https://ankurnapa.github.io/beverage-ai-radar/\" rel=\"noopener\">Beverage-AI Radar</a> is a different kind of tool. It tracks companies around the world that apply AI to beer, whisky and wine, from brewery software to quality and supply chain start-ups. It grew past a thousand companies in 2026.</p><p>For a brewery owner it answers a practical question: who already sells the thing I am thinking of building? Checking the radar first can save months of reinventing a tool that exists.</p>"
+  ],
+  [
+   "His blog and guidebook",
+   "<p>The tools sit alongside Ankur's writing. His blog, <a href=\"https://ankurnapa.github.io/\" rel=\"noopener\">Beer, Wine, Whiskey and AI</a>, covers brewing science, data and AI across beer, whisky and wine. A companion guidebook, <a href=\"https://ankurnapa.github.io/brewing-distilling-ai/\" rel=\"noopener\">Brewing, Distilling and AI</a>, collects longer explanations in one place.</p><p>Read them for the reasoning behind the calculators: why a formula uses the value it does, where it breaks down and what to measure instead. A tool tells you a number. The writing tells you when not to trust it.</p>"
+  ],
+  [
+   "Why free and in the browser",
+   "<p>Brewing software is usually sold by licence, priced for breweries in Europe or the United States. Most Indian brewpubs and homebrewers will not pay for it, so they work from spreadsheets inherited from a previous brewer, often with formulas nobody can explain.</p><p>Ankur's tools take the opposite route. They are free, need no account and open on a phone on the brew deck. The calculators do their sums in the browser itself, so a brewer can use them without sending recipes anywhere. The aim is simple: put sound brewing arithmetic in front of every brewer in India, whatever the size of their kit. Then let them check the working.</p>"
+  ],
+  [
+   "Use them, then check them",
+   "<p>Every calculator rests on assumptions: a typical extract, a standard hop utilisation, a lab-mash aroma score. Your brewhouse will differ. Treat each tool's answer as a first guess, brew, measure what actually happened and adjust. After a few brews you will know how far your plant sits from the textbook.</p><p>That loop of predict, brew, measure and correct is the core of brewing science. It is also why Ankur built the tools in the first place.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Are Ankur Napa's brewing tools free?",
+   "Yes. Aroma Forge, the Indian Brewer's Calculator, the Advanced Brewing Calculator and the Beverage-AI Radar are free to use in a browser with no login."
+  ],
+  [
+   "What does Aroma Forge do?",
+   "It predicts a beer's flavour, colour and character from its Weyermann malt grist by combining each malt's aroma wheel in proportion to the recipe."
+  ],
+  [
+   "Which languages does the Indian Brewer's Calculator support?",
+   "English, German, Hindi and Marathi."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to write the recipe, not just follow it",
+  "body": "Advanced Brewing Science, Ankur's 6 week live course (₹12,999), covers grist design, mash chemistry and fermentation control, so you can set a target and brew to it on purpose.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "weyermann-malts-guide",
+  "meet-ankur-napa-master-brewer-data-scientist",
+  "ankur-napa-ai-for-breweries"
+ ]
+}

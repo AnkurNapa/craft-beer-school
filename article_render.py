@@ -105,7 +105,7 @@ def _wheel(a):
 
 def _photo(ph):
     """A credited photo from the plan row, shown after section ph["after"]."""
-    return (f'<figure class="malt-wheel post-photo" style="max-width:{min(ph["w"], 640)}px"><img src="{ph["src"]}" alt="{ph["alt"]}" width="{ph["w"]}" '
+    return (f'<figure class="malt-wheel post-photo" style="max-width:{min(ph["w"], 640 if ph["w"] >= ph["h"] else 460)}px"><img src="{ph["src"]}" alt="{ph["alt"]}" width="{ph["w"]}" '
             f'height="{ph["h"]}" loading="lazy"><figcaption>{ph["caption"]}</figcaption></figure>')
 
 
