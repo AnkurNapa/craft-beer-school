@@ -344,6 +344,98 @@ DETAIL = {
               "Alcoholic RTDs fall under state excise, non-alcoholic ones under FSSAI. Rules vary and change, so check before you launch"],
              "Write a production and shelf-life plan for your drink."),
         ]),
+    "Winemaking": dict(
+        reading=['how-wine-is-made', 'indian-wine-regions', 'grape-varieties-for-beginners'],
+        who=["Grape growers who want to make their own wine",
+             "Brewers and distillers adding wine to their skills",
+             "Wine lovers ready to make a first small batch"],
+        outcomes=["Read sugar, acid and pH at harvest and decide when to pick",
+                  "Run a white and a red fermentation at the right temperatures",
+                  "Manage malolactic, sulphur, fining and cold stabilisation",
+                  "Plan bottling for a wine that holds up in Indian heat"],
+        weeks=[
+            ("Grapes and fermentation",
+             ["Ripeness: sugar in Brix, acidity and pH, and why harvest timing decides the wine",
+              "Indian vineyards: Nashik and Karnataka, and harvesting in the dry season",
+              "Crushing, pressing and the difference between red, white and rose making",
+              "Fermentation: whites cool, around 12 to 18 °C (54 to 64 °F); reds warmer on their skins, with punch-downs or pump-overs"],
+             "Plan the harvest numbers and fermentation schedule for one red and one white."),
+            ("Finishing the wine",
+             ["Malolactic fermentation and when to block it",
+              "Sulphur dioxide: why, how much and when",
+              "Fining, filtration and cold stabilisation against tartrate crystals",
+              "Barrel or tank ageing, bottling and storing wine in a hot country"],
+             "Write a cellar plan from end of fermentation to bottle."),
+        ]),
+    "Fortified Wine": dict(
+        reading=['how-fortified-wines-are-made', 'how-wine-is-made', 'wine-faults-for-quality-teams'],
+        who=["Winemakers adding a fortified or dessert wine to their range",
+             "Distillers who make grape spirit and want a second use for it",
+             "Wine lovers curious how port-style and sherry-style wines are made"],
+        outcomes=["Fortify a wine with grape spirit at the right point for the style",
+                  "Calculate spirit additions for a target strength",
+                  "Choose between fruity, oxidative and barrel-aged styles",
+                  "Cost a fortified wine and understand the labelling rules"],
+        weeks=[
+            ("Fortifying and the styles",
+             ["Fortification: adding grape spirit to raise strength and stop or follow fermentation",
+              "Port-style: fortifying mid-fermentation to keep natural grape sweetness",
+              "Sherry-style: fortifying a dry wine, flor yeast and the solera system",
+              "Other styles: heated and oxidised wines, and vin doux naturel"],
+             "Work out the spirit addition for a port-style wine at a target strength."),
+            ("Ageing, blending and selling",
+             ["Ageing in barrel and tank, and what oxygen does over years",
+              "Blending for a house style that stays the same every year",
+              "Names such as Port and Sherry are protected place names; how to label your own style",
+              "Excise, labels and pricing for fortified wine in India, which vary by state"],
+             "Design a fortified wine and its label for your market."),
+        ]),
+    "Winery Business": dict(
+        reading=['planning-a-small-winery-in-india', 'wine-harvest-and-vintage-planning', 'indian-wine-regions'],
+        who=["Founders planning a small winery or wine brand",
+             "Grape growers thinking about making their own label",
+             "Hospitality and drinks people moving into wine"],
+        outcomes=["Cost a bottle of wine from grape to shelf",
+                  "Map the licences, excise and label approvals for your state",
+                  "Choose a route to market and set prices that work",
+                  "Plan a cellar door and wine tourism offer"],
+        weeks=[
+            ("Costs, licences and compliance",
+             ["What a bottle costs: grapes, winemaking, glass, closures, labels and duty",
+              "Buying grapes or growing them, and contracts with growers",
+              "Winery licences, excise and label registration, which differ by state and change",
+              "Planning around one harvest a year: cash flow and stock"],
+             "Build a cost sheet for one wine."),
+            ("Selling the wine",
+             ["Route to market: distributors, on-trade, retail and direct sales where allowed",
+              "Pricing for each channel without losing margin",
+              "Cellar door, tastings and wine tourism",
+              "Building a brand people remember"],
+             "Write a one-page sales plan for your first vintage."),
+        ]),
+    "New Product Development: Beer, Whisky and Wine": dict(
+        reading=['new-product-development-for-drinks', 'launching-a-new-beer', 'scaling-a-pilot-recipe-to-production'],
+        who=["Brewers, distillers and winemakers planning a new product",
+             "Brand and marketing teams in drinks companies",
+             "Founders launching their first drink"],
+        outcomes=["Turn a gap in the market into a clear product brief",
+                  "Run pilot batches and sensory tests that give a real answer",
+                  "Cost a new product before committing to it",
+                  "Plan labels, approvals and the launch"],
+        weeks=[
+            ("From idea to recipe",
+             ["Finding the gap: drinkers, occasions and what competitors already sell",
+              "Writing a product brief: style, strength, price and target drinker",
+              "Formulation for beer, whisky and wine, and what each one can and cannot change",
+              "Pilot batches and scaling them up"],
+             "Write a product brief for a new beer, whisky or wine."),
+            ("Testing, costing and launch",
+             ["Sensory testing: triangle tests, consumer panels and reading the results",
+              "Shelf life and stability checks before launch",
+              "Costing the product and setting the price",
+              "Labels, FSSAI and state excise approvals, and a launch plan"],
+             "Build a launch plan with costs, approvals and a first-year sales target."),
+        ]),
     "Hop Water": dict(
         reading=['dry-hopping-guide', 'hop-varieties-for-beginners', 'pasteurisation-units'],
         who=["Breweries that want a zero-alcohol drink on tap",
@@ -490,6 +582,10 @@ KEYWORDS = {
     "kombucha-course.html": ["kombucha", "kefir", "soft drinks"],
     "non-alcoholic-beer-course.html": ["non alcoholic", "alcohol free", "low alcohol", "low and no"],
     "power-bi-and-tableau-for-breweries-course.html": ["power bi", "tableau", "dashboard", "kpis"],
+    "winemaking-course.html": ["wine", "grape", "vintage"],
+    "fortified-wine-course.html": ["fortified", "wine"],
+    "winery-business-course.html": ["winery", "wine"],
+    "new-product-development-beer-whisky-and-wine-course.html": ["new product", "launching", "product development", "pilot recipe", "seasonal and limited"],
 }
 
 
@@ -586,7 +682,10 @@ def pages():
         title = f"{name} Course | Craft Beer School"
         if len(title) > 60:  # search results cut long titles; fall back to the short name
             title = f"{c.get('short', name)} | Craft Beer School"
-        desc = (f"{name}: {c['dur'].lower()} of live weekend classes online, max 20 per batch, "
+        where = "online and in person" if pages_a.MODE.get(c["name"]) == "Both" else "online"
+        desc = (f"{name}: {c['dur'].lower()} of live weekend classes {where}, max 20 per batch, "
                 f"{'free' if is_free(c) else c['price']}. Full week-by-week syllabus, assignments and certificate.")
+        if len(desc) > 160:
+            desc = desc.replace(name, c.get("short", name), 1)
         out[slug_for(c["name"])] = (title, desc, "courses", render(c))
     return out

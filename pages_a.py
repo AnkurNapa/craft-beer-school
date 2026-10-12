@@ -25,7 +25,8 @@ def course_href(course_name):
 # ---- shared course card snippets -------------------------------------------
 # How each course is taught. Online unless listed: Brewing Fundamentals also
 # runs in person (the Rs 1,999 bundle in promos.py).
-MODE = {"Brewing Fundamentals": "Both"}
+MODE = {"Brewing Fundamentals": "Both", "Winemaking": "Both", "Fortified Wine": "Both", "Winery Business": "Both",
+        "New Product Development: Beer, Whisky and Wine": "Both"}
 MODE_LABEL = {"Online": "Online", "In person": "In person", "Both": "Online + in person"}
 
 
@@ -125,6 +126,23 @@ COURSE_DATA = [
          blurb="Build the dashboards a brewery actually opens: brew logs, yield, losses, stock and sales in Power BI or Tableau, from your own spreadsheets.",
          items=["Brewery data model from your logs","Yield, loss and KPI dashboards","Power BI and Tableau side by side","A dashboard your team will keep"],
          price="₹5,000", amount="5000"),
+    dict(no="19", tag="New · Wine", dur="2 Weeks", weeks=2, name="Winemaking",
+         blurb="Grape to bottle: harvest numbers, crushing and pressing, red and white fermentation, malolactic, clarifying and bottling, for Indian vineyards and climate.",
+         items=["Grapes, sugar and acid at harvest","Red and white fermentation","Malolactic, clarifying and ageing","Bottling and stability"],
+         price="₹5,000", amount="5000"),
+    dict(no="20", tag="New · Wine", dur="2 Weeks", weeks=2, name="Fortified Wine",
+         blurb="How port-style, sherry-style and other fortified wines are made: fortifying with grape spirit, sweetness, oxidative ageing and blending.",
+         items=["Fortifying with grape spirit","Sweet and dry styles","Oxidative and barrel ageing","Blending, costing and the rules"],
+         price="₹5,000", amount="5000"),
+    dict(no="21", tag="New · Wine", dur="2 Weeks", weeks=2, name="Winery Business",
+         blurb="Run a small winery as a business: costing a bottle, licences and excise, route to market, cellar door and wine tourism in India.",
+         items=["Costing a bottle of wine","Licences, excise and labels","Route to market and pricing","Cellar door and wine tourism"],
+         price="₹5,000", amount="5000"),
+    dict(no="22", tag="New · Product", dur="2 Weeks", weeks=2, name="New Product Development: Beer, Whisky and Wine",
+         short="New Product Development",
+         blurb="Take a new beer, whisky or wine from idea to launch: consumer insight, formulation, pilot batches, sensory testing, costing, labels and launch.",
+         items=["Finding the gap and the drinker","Formulation and pilot batches","Sensory testing and costing","Labels, approvals and launch"],
+         price="₹5,000", amount="5000"),
 ]
 
 COURSE_CARDS = [
@@ -145,6 +163,8 @@ TRACKS = [
      ["Craft Distilling", "Craft Gin Making"]),
     ("glass-water", "Beyond beer", "Alcohol-free, low-alcohol and the other ferments people are buying now.",
      ["Non-Alcoholic Beer", "RTD Drinks: Alcoholic and Non-Alcoholic", "Hop Water", "Hard Seltzer", "Kombucha"]),
+    ("wine", "Wine and new products", "Make wine, run a winery and launch new drinks.",
+     ["Winemaking", "Fortified Wine", "Winery Business", "New Product Development: Beer, Whisky and Wine"]),
     ("map-pin", "Free and in Bengaluru", "Start free, or learn in the room with us.",
      ["Safety in Brewing"]),
 ]
@@ -169,7 +189,7 @@ def tracks_section():
                       '<li><a href="courses.html#in-person">Brewery Business Tour</a><span>Half day · On enquiry</span></li>'
                       '<li><a href="in-person-brewing-courses-pune-delhi-gurugram-bengaluru.html">1-day and 1-month brewing courses</a><span>Pune, Delhi, Gurugram, Bengaluru</span></li>')
         slot = {"Brewing": "track:brewing", "Business and tech": "track:business", "Spirits": "track:spirits",
-                "Beyond beer": "track:beyond"}.get(title, "track:bengaluru")
+                "Beyond beer": "track:beyond", "Wine and new products": "track:wine"}.get(title, "track:bengaluru")
         tiles.append(f"""<article class="track reveal">{photos.figure(slot, title, "photo track-photo")}
         <div class="track-head"><span class="ic">[[{icon}]]</span><div><h3>{title}</h3><p>{line}</p></div></div>
         <ul class="track-list">{items}</ul>
