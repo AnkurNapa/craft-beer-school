@@ -62,7 +62,7 @@ def cities():
 
 def _area(trail):
     areas = [v.get("area") for v in trail if v.get("area")]
-    return max(set(areas), key=areas.count).split(",")[0] if areas else trail[0]["city"]
+    return max(sorted(set(areas)), key=areas.count).split(",")[0] if areas else trail[0]["city"]  # sorted: stable tie-break
 
 
 def _stop(i, v, prev):

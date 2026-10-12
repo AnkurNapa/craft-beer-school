@@ -154,7 +154,7 @@ h1,h2{{font-family:"Hanken Grotesk";font-weight:800;letter-spacing:-.02em;line-h
     <div class="member"><img src="{uri("assets/team3.jpg")}" alt=""><h3>Ankur Napa</h3><p>Master Brewer and course instructor, with hands-on experience at global brewing companies.</p></div>
     <div class="member"><img src="{uri("assets/team5.jpg")}" alt=""><h3>Chatty Girija</h3><p>Beer podcaster and creative strategist, with more than 30 years in advertising.</p></div>
     <div class="member"><img src="{uri("assets/team4.jpg")}" alt=""><h3>Anu Rao</h3><p>Head of Strategy and Operations, with more than 15 years in education and operations.</p></div>
-    <div class="member"><img src="{uri("assets/rahul-baliyan.jpg")}" alt=""><h3>Rahul Baliyan</h3><p>Brewing science instructor for Delhi and North India. Weihenstephan-trained German-style Brewmaster.</p></div>
+    <div class="member"><img src="{uri("assets/rahul-baliyan-portrait.jpg")}" alt=""><h3>Rahul Baliyan</h3><p>Brewing science instructor for Delhi and North India. Weihenstephan-trained German-style Brewmaster.</p></div>
   </div>
   <div class="how"><div><b>Live, not recorded</b>Two live sessions every weekend, with recordings afterwards.</div>
     <div><b>Small batches</b>At most 20 students, so every question gets answered.</div>
