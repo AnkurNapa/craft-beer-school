@@ -878,3 +878,45 @@ section.fam-group{padding:0}
 .mode-online{background:#e6f1f4;color:var(--blue)}
 .mode-in-person{background:#fbeedd;color:var(--amber-deep)}
 .mode-both{background:#e9f3e6;color:#2f6b2a}
+
+/* Brewery directory */
+.bd-stats{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem}
+.bd-stats div{padding:1.1rem 1.2rem;border:1px solid var(--line);border-radius:14px;background:var(--paper)}
+.bd-stats b{display:block;font-family:var(--head);font-size:clamp(1.6rem,3vw,2.3rem);font-weight:800;letter-spacing:-.03em;color:var(--navy)}
+.bd-stats span{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+.bd-kind-select{background-color:var(--navy)!important}
+.bd-count{text-align:center;margin:1rem 0}
+.bd-split{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:1.6rem;align-items:start}
+.bd-map-wrap{position:sticky;top:5.5rem}
+#bd-map{height:min(72vh,640px);border-radius:16px;border:1px solid var(--line);z-index:0}
+.bd-attrib{font-size:.75rem;color:var(--ink-soft);margin:.5rem 0 0}
+.bd-list{list-style:none;margin:0;padding:0;max-height:min(72vh,640px);overflow-y:auto;border-top:1px solid var(--line)}
+.bd-row{padding:1rem .2rem;border-bottom:1px solid var(--line)}
+.bd-head{display:flex;justify-content:space-between;gap:.8rem;align-items:baseline}
+.bd-head h3{font-size:1.08rem;margin:0;cursor:pointer}
+.bd-head h3:hover{color:var(--blue)}
+.bd-kind{flex:0 0 auto;font-family:var(--mono);font-size:.58rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.18rem .5rem;border-radius:4px;background:#e6f1f4;color:var(--blue)}
+.bd-microbrewery{background:#fbeedd;color:var(--amber-deep)}
+.bd-taproom{background:#e9f3e6;color:#2f6b2a}
+.bd-packaged{background:#efeaf6;color:#5a3d8a}
+.bd-place{margin:.25rem 0 .4rem;font-size:.9rem;color:var(--ink-soft)}
+.bd-beers summary{cursor:pointer;font-size:.85rem;font-weight:600;color:var(--blue)}
+.bd-beers ul{margin:.4rem 0 0;padding-left:1.1rem;font-size:.85rem}
+.bd-beers li span{color:var(--ink-soft)}
+.bd-none{font-size:.8rem;color:var(--ink-soft);margin:0}
+.bd-links{display:flex;flex-wrap:wrap;gap:1rem;margin:.5rem 0 0;font-size:.78rem;color:var(--ink-soft)}
+.bd-links a{color:var(--blue);text-decoration:underline;text-underline-offset:2px}
+.bd-two{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.bd-table{width:100%;border-collapse:collapse;margin-top:1rem;font-size:.9rem}
+.bd-table th,.bd-table td{text-align:left;padding:.45rem .3rem;border-bottom:1px solid var(--line)}
+.bd-table thead th{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+.bd-table td:last-child{text-align:right;font-weight:700}
+.bd-city{background:none;border:0;padding:0;font:inherit;font-weight:600;color:var(--blue);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.bd-method{font-size:.85rem;color:var(--ink-soft);margin-top:1rem}
+@media (max-width:900px){
+  .bd-stats{grid-template-columns:repeat(2,1fr)}
+  .bd-split,.bd-two{grid-template-columns:1fr}
+  .bd-map-wrap{position:relative;top:auto}
+  #bd-map{height:340px}
+  .bd-list{max-height:none}
+}

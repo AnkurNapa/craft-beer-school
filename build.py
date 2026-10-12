@@ -16,6 +16,7 @@ import course_pages
 import articles_all
 import pages_a
 import promos
+import breweries
 import pages_b
 import seo
 import style_render
@@ -121,6 +122,7 @@ NAV_ITEMS = [
     ("Courses", "courses.html", "courses"),
     ("Resources", "resources.html", "resources"),
     ("Styles", "style-library.html", "styles"),
+    ("Breweries", "breweries.html", "breweries"),
     ("Blog", "blog.html", "blog"),
     ("Podcast", "podcast.html", "podcast"),
     ("Careers", "careers.html", "careers"),
@@ -465,6 +467,9 @@ for _c in pages_a.COURSE_DATA:
 # The course finder replaces the "ask us" band on the courses page.
 _t, _d, _a, _b = PAGES["courses.html"]
 PAGES["courses.html"] = (_t, _d, _a, re.sub(r'<section class="cta"><div class="wrap"><h2>Not sure which course fits\?.*?</section>', lambda m: discover.finder(), _b, count=1, flags=re.S))
+PAGES["breweries.html"] = ("India Craft Brewery Directory and Map | Craft Beer School",
+                           "Map and directory of craft breweries, brewpubs and taprooms in India. Search by brewery, beer, style, city or state.",
+                           "breweries", breweries.page())
 PAGES["search.html"] = ("Search | Craft Beer School",
                         "Search every guide, course, beer style and mentor on Craft Beer School from one box.",
                         "", discover.search_page())

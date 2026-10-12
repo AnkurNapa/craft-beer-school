@@ -43,6 +43,7 @@ PAGE_WEIGHT = {
     "about.html": ("0.7", "monthly"),
     "faq.html": ("0.7", "monthly"),
     "blog.html": ("0.6", "weekly"),
+    "breweries.html": ("0.8", "monthly"),
     "careers.html": ("0.5", "monthly"),
     "privacy.html": ("0.2", "yearly"),
     "refund.html": ("0.2", "yearly"),
@@ -59,6 +60,7 @@ BREADCRUMB_LABEL = {
     "courses.html": "Courses",
     "resources.html": "Resources",
     "blog.html": "Blog",
+    "breweries.html": "Breweries",
     "careers.html": "Careers",
     "contact.html": "Contact",
     "faq.html": "FAQ",
@@ -252,6 +254,9 @@ def jsonld(slug, title, desc):
         graph.extend(_courses(_course_for(slug)))
     if slug == "faq.html":
         graph.append(_faq())
+    if slug == "breweries.html":
+        import breweries
+        graph.extend(breweries.graph_nodes())
     art = _article_for(slug)
     if art:
         graph.extend(_article_nodes(art, slug))
@@ -371,6 +376,7 @@ def llms_txt():
         "## Key pages",
         "",
         f"- [Courses]({SITE_URL}/courses.html): all {pages_a.COURSE_COUNT_WORD} online courses and in-person workshops.",
+        f"- [India craft brewery directory]({SITE_URL}/breweries.html): map and list of craft breweries, brewpubs and taprooms in India, searchable by brewery, beer, style, city and state, each with a source and last-checked date.",
         f"- [Resources]({SITE_URL}/resources.html): free Beer 101, styles primer, glossary and brewing calculators.",
         f"- [FAQ]({SITE_URL}/faq.html): experience needed, format, class size, certification, payment and refunds.",
         f"- [About]({SITE_URL}/about.html): mentors, mission and teaching method.",
