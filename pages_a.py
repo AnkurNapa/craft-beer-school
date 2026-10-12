@@ -210,7 +210,47 @@ _WORDS = {6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten", 11: "eleven", 
 COURSE_COUNT_WORD = _WORDS.get(len(COURSE_DATA), str(len(COURSE_DATA)))
 
 # ============================================================================
-HOME = f"""
+# Oktoberfest dressing for the home page: bunting, a hat on the logo and a festival
+# band. festive.MASCOT (on every page) sets the .okt class that switches it on.
+OKT_RAUTE = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='44'%3E"
+             "%3Cpath d='M13 0 26 22 13 44 0 22Z' fill='%232f7fc6' fill-opacity='.85'/%3E%3C/svg%3E")
+OKT = """
+<style>
+.okt-only{display:none}
+.okt .okt-only{display:block}
+.okt-bunting{height:30px;background:
+  conic-gradient(from 150deg at 50% 0,#2f7fc6 60deg,transparent 0) 0 0/88px 30px repeat-x,
+  conic-gradient(from 150deg at 50% 0,var(--amber,#e0912f) 60deg,transparent 0) 44px 0/88px 30px repeat-x;
+  border-top:2px solid #7a5a2b;transform-origin:top;animation:okt-sway 4s ease-in-out infinite alternate}
+@keyframes okt-sway{to{transform:skewX(2deg)}}
+@media (prefers-reduced-motion:reduce){.okt-bunting{animation:none}}
+.okt-band{padding-block:0;background:#fbf3e2 url("RAUTE") right top/18px 30px repeat-y;border-bottom:1px solid #ead9b8}
+.okt-band .wrap{display:flex;align-items:center;gap:clamp(1rem,3vw,2.5rem);flex-wrap:wrap;padding-block:clamp(1.4rem,3vw,2.2rem);padding-right:clamp(2.5rem,5vw,4rem)}
+.okt-ribbon{display:inline-block;background:#3b2414;color:#fbf3e2;font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem;padding:.35rem .9rem;clip-path:polygon(0 0,100% 0,96% 50%,100% 100%,0 100%,4% 50%)}
+.okt-title{font-family:var(--serif);font-weight:900;font-size:clamp(2.4rem,6vw,4rem);line-height:1;color:#3b2414;margin:.5rem 0 .3rem;letter-spacing:-.01em}
+.okt-title em{color:var(--amber,#e0912f);font-style:italic}
+.okt-copy{flex:1 1 320px}
+.okt-copy p{margin:0;color:#5a4330;font-size:1.05rem}
+.okt-facts{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem}
+.okt-facts span{background:#fff;border:1px solid #ead9b8;border-radius:999px;padding:.3rem .85rem;font-size:.9rem;color:#3b2414}
+.okt-mug{font-size:clamp(3rem,7vw,4.6rem);line-height:1;transform:rotate(-8deg)}
+</style>
+<div class="okt-only" aria-hidden="true"><div class="okt-bunting"></div></div>
+<section class="okt-only okt-band" aria-label="Oktoberfest batch">
+  <div class="wrap">
+    <div class="okt-mug" aria-hidden="true">🍺</div>
+    <div class="okt-copy">
+      <span class="okt-ribbon">Learn. Brew. Cheer. Repeat.</span>
+      <h2 class="okt-title">Oktoberfest at <em>Craft Beer School</em></h2>
+      <p>Raise a stein and learn to brew it. Online Brewing Fundamentals, live with our brewers.</p>
+      <div class="okt-facts"><span>Next online batch starts 17 October</span><span>Take home a happy gift</span></div>
+    </div>
+    <a href="contact.html?course=Brewing%20Fundamentals#enroll" class="btn btn-amber" data-cta="home-oktoberfest">Enrol now [[arrow-right]]</a>
+  </div>
+</section>
+""".replace("RAUTE", OKT_RAUTE)
+
+HOME = f"""{OKT}
 <section class="hero">
   <div class="wrap hero-offset">
     <div class="hero-copy reveal">
@@ -229,12 +269,6 @@ HOME = f"""
   </div>
 </section>
 
-<section id="oktoberfest-promo" style="padding-block:0 clamp(2rem,4vw,3rem)">
-  <div class="wrap" style="max-width:560px">
-    <a href="contact.html?course=Brewing%20Fundamentals#enroll" data-cta="home-oktoberfest-banner"><img src="assets/oktoberfest-brewing-fundamentals.jpg" alt="Oktoberfest: Online Brewing Fundamentals. Next online batch starts 17th October. Take home a happy gift. Enrol now." width="1080" height="1080" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px" /></a>
-  </div>
-</section>
-<script>if(new Date()>new Date('2026-10-18T00:00:00+05:30'))document.getElementById('oktoberfest-promo').remove()</script>
 
 <section style="padding-block:0">
   <div class="wrap">

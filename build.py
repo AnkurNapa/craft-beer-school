@@ -17,6 +17,7 @@ import course_pages
 import articles_all
 import pages_a
 import promos
+import festive
 import breweries
 import ingredients
 import hopping
@@ -401,6 +402,7 @@ def page(slug, title, desc, active, body):
 <link rel="stylesheet" href="styles.css?v={CSS_VERSION}" />
 {seo.jsonld(slug, title, desc)}
 {ga_tag()}
+{festive.GATE}
 </head>
 <body>
 {nav(active)}
@@ -410,6 +412,7 @@ def page(slug, title, desc, active, body):
 {FOOTER}
 {SCRIPTS}
 <script>{discover.SUGGEST_JS}</script>
+{festive.MASCOT}
 </body>
 </html>""")))
 
