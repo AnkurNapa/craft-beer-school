@@ -19,6 +19,7 @@ import promos
 import breweries
 import ingredients
 import hopping
+import glossary
 import pages_b
 import seo
 import style_render
@@ -131,6 +132,7 @@ NAV_ITEMS = [
     ("Learn", "blog.html", {"blog", "styles", "resources", "podcast"}, [
         ("Guides and blog", "blog.html"),
         ("Beer style library", "style-library.html"),
+        ("Brewing glossary", "brewing-glossary.html"),
         ("Yeast strains", "yeast-strains-guide.html"),
         ("Hop varieties", "hops-guide.html"),
         ("Malts", "malt-guide.html"),
@@ -502,6 +504,10 @@ for _k, _g in ingredients.GUIDES.items():
     if ingredients.load(_k):
         PAGES[_g["slug"]] = (_g["title"], _g["desc"], "", ingredients.page(_k, _TITLES))
 PAGES.update(hopping.pages())
+if glossary.load():
+    PAGES[glossary.SLUG] = ("Brewing Glossary: Beer Terms Explained | Craft Beer School",
+                            "Brewing, tasting, packaging and beer business terms explained in plain English, from ABV and attenuation to wort and yeast.",
+                            "resources", glossary.page())
 PAGES["search.html"] = ("Search | Craft Beer School",
                         "Search every guide, course, beer style and mentor on Craft Beer School from one box.",
                         "", discover.search_page())

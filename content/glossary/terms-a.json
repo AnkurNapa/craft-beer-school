@@ -1,0 +1,1228 @@
+[
+ {
+  "term": "Malt",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Grain, usually barley, that has been steeped, germinated and kilned so its starch and enzymes are ready for the mash. It supplies most of the sugar, colour and flavour in beer.",
+  "link": "barley-malting-process"
+ },
+ {
+  "term": "Malting",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Controlled steeping, germination and kilning of grain to develop enzymes and soften the kernel. How the maltster runs it decides colour, flavour and how easily the malt converts in the mash.",
+  "link": "barley-malting-process"
+ },
+ {
+  "term": "Kilning",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Drying germinated grain with hot air to halt growth and develop colour and flavour. Low temperatures give pale base malts; higher temperatures give Munich, Vienna and darker malts.",
+  "link": "barley-malting-process"
+ },
+ {
+  "term": "Modification",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Extent to which malting has broken down the cell walls and proteins inside the grain. Well-modified modern malts convert easily in a single infusion mash, while undermodified malts benefit from step or decoction mashing.",
+  "link": "barley-malting-process"
+ },
+ {
+  "term": "Diastatic power",
+  "aka": [
+   "DP"
+  ],
+  "cat": "Ingredients",
+  "def": "Measure of the starch-converting enzyme activity in a malt, given in degrees Lintner or WK. It tells you whether a grist has enough enzymes to convert adjuncts and speciality malts.",
+  "link": "enzymes-in-the-mash"
+ },
+ {
+  "term": "Base malt",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Pale, highly enzymatic malt such as pilsner or pale ale malt that makes up most of a grist. It provides the bulk of the fermentable extract plus the enzymes to convert it.",
+  "link": "base-malts-explained"
+ },
+ {
+  "term": "Pilsner malt",
+  "aka": [
+   "Pils malt"
+  ],
+  "cat": "Ingredients",
+  "def": "Very pale base malt kilned at low temperature, giving light colour with a clean, grainy sweetness. It is the standard foundation for pilsner, helles and many pale lagers.",
+  "link": "weyermann-pilsner-malt"
+ },
+ {
+  "term": "Munich malt",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Kilned base malt with deeper colour plus rich bready, toasty flavour, while keeping enough enzymes to convert itself. It adds malt depth to bock, Märzen and dunkel.",
+  "link": "weyermann-munich-malt"
+ },
+ {
+  "term": "Crystal malt",
+  "aka": [
+   "Caramel malt"
+  ],
+  "cat": "Ingredients",
+  "def": "Speciality malt stewed while wet so its starch turns to sugar inside the husk before kilning or roasting. It adds sweetness, body plus caramel to toffee flavours, with colour set by how hard it is roasted.",
+  "link": "crystal-and-caramel-malts"
+ },
+ {
+  "term": "Roasted malt",
+  "aka": [
+   "Chocolate malt",
+   "Black malt"
+  ],
+  "cat": "Ingredients",
+  "def": "Malt roasted at high temperature to give dark colour plus coffee, chocolate or burnt flavours. Used in small amounts, it defines porters and stouts but brings no usable enzymes.",
+  "link": "roasted-malts-guide"
+ },
+ {
+  "term": "Wheat malt",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Malted wheat, which has no husk and carries more protein than barley malt. It boosts foam and body, making it essential in hefeweizen and common in other wheat beers.",
+  "link": "wheat-malt-in-brewing"
+ },
+ {
+  "term": "Acidulated malt",
+  "aka": [
+   "Sauermalz"
+  ],
+  "cat": "Ingredients",
+  "def": "Malt carrying lactic acid from lactic bacteria grown on it during malting. A few per cent of the grist lowers mash pH into range without adding mineral acid.",
+  "link": "weyermann-acidulated-malt"
+ },
+ {
+  "term": "Speciality malt",
+  "aka": [
+   "Specialty malt"
+  ],
+  "cat": "Ingredients",
+  "def": "Any malt used in small amounts for colour, flavour or body rather than fermentable extract, including crystal, roasted and smoked malts. Most have little or no enzyme power.",
+  "link": "weyermann-malts-guide"
+ },
+ {
+  "term": "Adjunct",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Any unmalted source of fermentable sugar, such as rice, maize or sugar, used alongside malt. Adjuncts lighten body and flavour, lower cost and are common in Indian mainstream lagers.",
+  "link": "rice-and-maize-adjuncts-india"
+ },
+ {
+  "term": "Rice",
+  "aka": [
+   "Broken rice",
+   "Rice grits"
+  ],
+  "cat": "Ingredients",
+  "def": "Adjunct that gives a very light, crisp, dry beer with almost no flavour of its own. Its starch gelatinises at high temperature, so it is usually cooked in a cereal cooker before joining the mash.",
+  "link": "rice-and-maize-adjuncts-india"
+ },
+ {
+  "term": "Maize",
+  "aka": [
+   "Corn",
+   "Maize grits"
+  ],
+  "cat": "Ingredients",
+  "def": "Adjunct used as grits or flakes that lightens body while leaving a soft, faintly sweet corn note. Grits need cooking to gelatinise the starch; pre-gelatinised flakes can go straight into the mash.",
+  "link": "rice-and-maize-adjuncts-india"
+ },
+ {
+  "term": "Brewing sugar",
+  "aka": [
+   "Dextrose",
+   "Candi sugar"
+  ],
+  "cat": "Ingredients",
+  "def": "Simple sugars such as sucrose, dextrose or invert sugar added in the kettle to raise alcohol without adding body. Belgian brewers use them to keep strong beers dry and drinkable.",
+  "link": "brewing-sugars-explained"
+ },
+ {
+  "term": "Hops",
+  "aka": [
+   "Humulus lupulus"
+  ],
+  "cat": "Ingredients",
+  "def": "Cone-shaped flowers of the female hop plant, used for bitterness, aroma and flavour. Their resins also help protect beer against some spoilage bacteria.",
+  "link": "hop-varieties-for-beginners"
+ },
+ {
+  "term": "Lupulin",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Yellow, sticky glands inside the hop cone that hold the alpha acids, beta acids and essential oils. Almost everything a brewer wants from a hop sits in this powder.",
+  "link": "hop-extracts-and-cryo-hops"
+ },
+ {
+  "term": "Alpha acids",
+  "aka": [
+   "Humulones"
+  ],
+  "cat": "Ingredients",
+  "def": "Resins in hop lupulin that become bitter once isomerised in the boil. The alpha acid percentage on a hop packet is how brewers calculate the dose for a target bitterness.",
+  "link": "alpha-acids-explained"
+ },
+ {
+  "term": "Beta acids",
+  "aka": [
+   "Lupulones"
+  ],
+  "cat": "Ingredients",
+  "def": "Hop resins that barely isomerise in the boil, so they add little bitterness at first. They can oxidise over time into bitter compounds and they have antibacterial activity.",
+  "link": "alpha-acids-explained"
+ },
+ {
+  "term": "Cohumulone",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "One of the main alpha acid analogues, usually quoted as a percentage of total alpha acids. Many brewers believe high-cohumulone hops give a harsher bitterness, though the evidence is debated.",
+  "link": "alpha-acids-explained"
+ },
+ {
+  "term": "Hop oils",
+  "aka": [
+   "Essential oils"
+  ],
+  "cat": "Ingredients",
+  "def": "Volatile compounds in lupulin, a small fraction of the cone's weight, that carry most hop aroma. They boil off easily, which is why aroma hops go in late or after the boil.",
+  "link": "whirlpool-hopping"
+ },
+ {
+  "term": "Myrcene",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Usually the most abundant oil in hops, giving green, resinous and herbal aroma. It is very volatile, so it survives mainly in dry-hopped beers.",
+  "link": "dry-hopping-guide"
+ },
+ {
+  "term": "Linalool",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Floral, citrusy hop alcohol found in most aroma hops, linked to orange and lavender notes. It survives fermentation better than many hop oils, making it a useful marker of hop aroma.",
+  "link": "whirlpool-hopping"
+ },
+ {
+  "term": "Thiols",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Sulphur compounds giving intense tropical, passion fruit and grapefruit aromas at extremely low concentrations. Much of their potential sits locked in bound forms that certain yeasts can release.",
+  "link": "thiolized-yeast-explained"
+ },
+ {
+  "term": "Biotransformation",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Chemical changes yeast makes to hop compounds during fermentation, such as converting geraniol or freeing bound thiols. It is why dry hopping during active fermentation tastes different from dry hopping afterwards.",
+  "link": "thiolized-yeast-explained"
+ },
+ {
+  "term": "Hop pellets",
+  "aka": [
+   "T90 pellets"
+  ],
+  "cat": "Ingredients",
+  "def": "Hops milled into powder then pressed into small pellets, usually labelled T90. They store better and take less space than whole cones, which is why most breweries use them.",
+  "link": "hop-pellets-vs-whole-cone"
+ },
+ {
+  "term": "Whole cone hops",
+  "aka": [
+   "Leaf hops",
+   "Whole hops"
+  ],
+  "cat": "Ingredients",
+  "def": "Dried hop cones left otherwise unprocessed. They are bulky and oxidise faster than pellets, yet some brewers prefer their gentler aroma and they work as a filter bed in a hop back.",
+  "link": "hop-pellets-vs-whole-cone"
+ },
+ {
+  "term": "Cryo hops",
+  "aka": [
+   "Lupulin powder",
+   "Lupulin pellets"
+  ],
+  "cat": "Ingredients",
+  "def": "Lupulin separated from cone material at very low temperature, then pelletised, giving roughly twice the resin content of standard pellets. Less leafy matter means less beer lost to hop debris.",
+  "link": "hop-extracts-and-cryo-hops"
+ },
+ {
+  "term": "Hop extract",
+  "aka": [
+   "CO2 extract"
+  ],
+  "cat": "Ingredients",
+  "def": "Hop resins and oils pulled out of the cone, usually with liquid or supercritical carbon dioxide. It gives precise, consistent bitterness with almost no vegetal loss in the kettle.",
+  "link": "hop-extracts-and-cryo-hops"
+ },
+ {
+  "term": "Noble hops",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Traditional European aroma varieties, usually Hallertau Mittelfrüh, Tettnang, Spalt and Saaz, prized for soft floral and spicy character. They define classic German and Czech lagers.",
+  "link": "noble-hops-explained"
+ },
+ {
+  "term": "Yeast",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Single-celled fungus that ferments wort sugars into alcohol and carbon dioxide while producing many flavour compounds. Brewing strains are mostly Saccharomyces species, chosen for flavour and reliability.",
+  "link": "yeast-growth-phases"
+ },
+ {
+  "term": "Ale yeast",
+  "aka": [
+   "Saccharomyces cerevisiae",
+   "Top-fermenting yeast"
+  ],
+  "cat": "Ingredients",
+  "def": "Strains of Saccharomyces cerevisiae that ferment warm, typically 15 to 24 °C (59 to 75 °F), producing fruity esters. Many rise to the top during fermentation, hence the old name top-fermenting yeast.",
+  "link": "ale-vs-lager-yeast"
+ },
+ {
+  "term": "Lager yeast",
+  "aka": [
+   "Saccharomyces pastorianus",
+   "Bottom-fermenting yeast"
+  ],
+  "cat": "Ingredients",
+  "def": "Strains of Saccharomyces pastorianus that ferment cool, usually 8 to 13 °C (46 to 55 °F), for a clean profile with few esters. They tend to settle at the bottom of the fermenter.",
+  "link": "ale-vs-lager-yeast"
+ },
+ {
+  "term": "Kveik",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Norwegian farmhouse yeast cultures that ferment quickly and fairly cleanly at unusually high temperatures, often 30 to 40 °C (86 to 104 °F). They suit Indian breweries short on cooling capacity.",
+  "link": "kveik-yeast-for-hot-climates"
+ },
+ {
+  "term": "Flocculation",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Tendency of yeast cells to clump together then drop out of suspension once fermentation slows. Highly flocculent strains clear quickly but may stop early, while low flocculators stay in suspension longer.",
+  "link": "yeast-harvesting-and-reuse"
+ },
+ {
+  "term": "STA1",
+  "aka": [
+   "STA1 gene"
+  ],
+  "cat": "Ingredients",
+  "def": "Gene that lets some yeast make glucoamylase, an enzyme that breaks down dextrins most brewing yeast cannot ferment. STA1-positive strains over-attenuate and are a gushing risk if they reach packaged beer.",
+  "link": "yeast-strains-guide.html"
+ },
+ {
+  "term": "Diastaticus",
+  "aka": [
+   "Saccharomyces cerevisiae var. diastaticus"
+  ],
+  "cat": "Ingredients",
+  "def": "STA1-positive variant of brewing yeast that slowly ferments dextrins and starch. In packaged beer it causes over-carbonation, gushing and burst bottles, so breweries treat it as a serious contaminant.",
+  "link": "yeast-strains-guide.html"
+ },
+ {
+  "term": "Pitching rate",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Number of yeast cells added per millilitre of wort per degree Plato. Common guides are about 0.75 million cells for ales and 1.5 million for lagers; under-pitching invites off-flavours.",
+  "link": "pitching-yeast-properly"
+ },
+ {
+  "term": "Viability",
+  "aka": [
+   "Yeast viability"
+  ],
+  "cat": "Ingredients",
+  "def": "Percentage of yeast cells in a slurry or pack that are alive, usually checked with a stain such as methylene blue under a microscope. It decides how much yeast you actually need to pitch.",
+  "link": "yeast-viability-and-vitality"
+ },
+ {
+  "term": "Vitality",
+  "aka": [
+   "Yeast vitality"
+  ],
+  "cat": "Ingredients",
+  "def": "Metabolic fitness of living yeast cells, or how ready they are to ferment strongly. Viable but stressed yeast can still give a slow start and off-flavours.",
+  "link": "yeast-viability-and-vitality"
+ },
+ {
+  "term": "FAN",
+  "aka": [
+   "Free amino nitrogen"
+  ],
+  "cat": "Ingredients",
+  "def": "Amino acids and small peptides in wort that yeast uses to build new cells. An all-malt wort usually has plenty; heavy adjunct use dilutes it and can stress the yeast.",
+  "link": "yeast-nutrition-zinc-and-fan"
+ },
+ {
+  "term": "Zinc",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Trace mineral yeast needs for healthy enzyme activity and growth. Wort is often short of it, so brewers commonly add a small dose of around 0.1 to 0.2 mg/L to the kettle.",
+  "link": "yeast-nutrition-zinc-and-fan"
+ },
+ {
+  "term": "pH",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Scale of acidity from 0 to 14, where 7 is neutral and lower numbers are more acidic. Brewers track it at every stage because enzymes, hop bitterness, yeast health and flavour all depend on it.",
+  "link": "mash-ph-explained"
+ },
+ {
+  "term": "Alkalinity",
+  "aka": [
+   "Total alkalinity"
+  ],
+  "cat": "Ingredients",
+  "def": "Ability of water to resist a drop in pH, mainly from bicarbonate, expressed as mg/L of calcium carbonate. High alkalinity pushes mash pH up, which suits dark beers more than pale ones.",
+  "link": "brewing-water-basics"
+ },
+ {
+  "term": "Residual alkalinity",
+  "aka": [
+   "RA"
+  ],
+  "cat": "Ingredients",
+  "def": "Alkalinity left over once calcium and magnesium have offset part of it in the mash. It predicts how a water will shift mash pH, so it shows which beer colours that water suits.",
+  "link": "mash-ph-explained"
+ },
+ {
+  "term": "Hardness",
+  "aka": [
+   "Water hardness"
+  ],
+  "cat": "Ingredients",
+  "def": "Total calcium and magnesium in water, usually given as mg/L of calcium carbonate. Calcium in particular helps enzymes, yeast flocculation and beer clarity.",
+  "link": "water-hardness-and-beer"
+ },
+ {
+  "term": "Calcium",
+  "aka": [],
+  "cat": "Ingredients",
+  "def": "Most important brewing mineral, lowering mash pH, protecting enzymes and helping yeast settle. Many brewers aim for at least 50 mg/L in their brewing water.",
+  "link": "brewing-water-basics"
+ },
+ {
+  "term": "Sulphate to chloride ratio",
+  "aka": [
+   "SO4:Cl ratio"
+  ],
+  "cat": "Ingredients",
+  "def": "Balance between sulphate, which sharpens hop bitterness and dryness, against chloride, which rounds out malt and body. Ratios above 2:1 lean hoppy while ratios below 1:1 lean malty.",
+  "link": "sulphate-chloride-ratio"
+ },
+ {
+  "term": "Gypsum",
+  "aka": [
+   "Calcium sulphate"
+  ],
+  "cat": "Ingredients",
+  "def": "Brewing salt that adds calcium plus sulphate, lowering mash pH and giving a crisper, drier hop finish. It is the classic addition for Burton-style pale ales.",
+  "link": "sulphate-chloride-ratio"
+ },
+ {
+  "term": "RO water",
+  "aka": [
+   "Reverse osmosis water"
+  ],
+  "cat": "Ingredients",
+  "def": "Water forced through a fine membrane that strips out almost all dissolved minerals. It gives brewers a blank slate to rebuild with salts, useful where borewell water is hard or variable.",
+  "link": "ro-water-for-brewing"
+ },
+ {
+  "term": "Milling",
+  "aka": [
+   "Crushing"
+  ],
+  "cat": "Brewhouse",
+  "def": "Crushing malt to crack the husk and expose the starchy interior while keeping husks largely whole. A good crush balances extract against a smooth, fast lauter.",
+  "link": "stuck-mash-fixes"
+ },
+ {
+  "term": "Grist",
+  "aka": [
+   "Grain bill",
+   "Grist bill"
+  ],
+  "cat": "Brewhouse",
+  "def": "Mixture of milled malt and other grains ready for mashing. The grist bill lists each grain with its share, usually given in recipes as percentages.",
+  "link": "reading-a-beer-recipe"
+ },
+ {
+  "term": "Mash",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Mixture of grist and hot water held at set temperatures so malt enzymes convert starch into sugars. Mash temperature and pH largely decide how fermentable the wort will be.",
+  "link": "mash-temperature-guide"
+ },
+ {
+  "term": "Mash pH",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Acidity of the mash, measured on a cooled sample, with 5.2 to 5.6 the standard target range. Within it enzymes work well, tannin extraction stays low and beer tastes cleaner.",
+  "link": "mash-ph-explained"
+ },
+ {
+  "term": "Infusion mash",
+  "aka": [
+   "Single infusion mash"
+  ],
+  "cat": "Brewhouse",
+  "def": "Mash held at a single temperature, usually somewhere in the 62 to 70 °C (144 to 158 °F) range, reached by adding hot water. It suits well-modified modern malts and is the simplest method.",
+  "link": "mash-temperature-guide"
+ },
+ {
+  "term": "Step mash",
+  "aka": [
+   "Step mashing",
+   "Temperature-programmed mash"
+  ],
+  "cat": "Brewhouse",
+  "def": "Mash raised through several temperature rests, for example a protein rest, saccharification rests and mash out. It helps with undermodified malts or grists high in adjuncts.",
+  "link": "step-mashing"
+ },
+ {
+  "term": "Decoction mash",
+  "aka": [
+   "Decoction"
+  ],
+  "cat": "Brewhouse",
+  "def": "Mash method where part of the mash is drawn off, boiled then returned to raise the temperature. It deepens malt flavour and colour, the traditional route for many German and Czech lagers.",
+  "link": "decoction-mashing"
+ },
+ {
+  "term": "Beta-glucan rest",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Rest around 35 to 45 °C (95 to 113 °F) where beta-glucanase breaks down gums from grain cell walls. It eases lautering in grists high in oats, rye or unmalted barley.",
+  "link": "step-mashing"
+ },
+ {
+  "term": "Protein rest",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Rest around 45 to 55 °C (113 to 131 °F) where protein-degrading enzymes work. Useful with undermodified malt, it can thin body and foam with modern malts if overdone.",
+  "link": "step-mashing"
+ },
+ {
+  "term": "Saccharification rest",
+  "aka": [
+   "Conversion rest"
+  ],
+  "cat": "Brewhouse",
+  "def": "Main conversion rest, usually 62 to 72 °C (144 to 162 °F), where amylases turn starch into sugars. Lower temperatures make a more fermentable wort, higher ones a fuller-bodied beer.",
+  "link": "mash-temperature-guide"
+ },
+ {
+  "term": "Mash out",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Raising the mash to about 76 to 78 °C (169 to 172 °F) at the end of mashing. It slows enzyme activity and thins the wort for an easier runoff.",
+  "link": "lautering-and-sparging"
+ },
+ {
+  "term": "Alpha amylase",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Mash enzyme that chops starch chains at random points, most active around 68 to 72 °C (154 to 162 °F). It liquefies starch quickly, leaving dextrins as well as fermentable sugars.",
+  "link": "enzymes-in-the-mash"
+ },
+ {
+  "term": "Beta amylase",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Mash enzyme that snips maltose from the ends of starch chains, most active around 60 to 65 °C (140 to 149 °F). It is heat sensitive, so cooler mashes give drier, more fermentable worts.",
+  "link": "enzymes-in-the-mash"
+ },
+ {
+  "term": "Protease",
+  "aka": [
+   "Proteolytic enzymes"
+  ],
+  "cat": "Brewhouse",
+  "def": "Group of enzymes that break proteins into smaller pieces, including amino acids yeast can use. Most of this work happens during malting rather than in the mash.",
+  "link": "enzymes-in-the-mash"
+ },
+ {
+  "term": "Beta-glucanase",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Enzyme that breaks down beta-glucans, the sticky gums in grain cell walls. Without enough of it wort turns viscous, lautering slows and beer can haze or filter poorly.",
+  "link": "enzymes-in-the-mash"
+ },
+ {
+  "term": "Gelatinisation",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Swelling and bursting of starch granules in hot water, which opens the starch to enzyme attack. Barley malt starch gelatinises at normal mash temperatures, whereas rice and maize need more heat.",
+  "link": "rice-and-maize-adjuncts-india"
+ },
+ {
+  "term": "Cereal cooker",
+  "aka": [
+   "Adjunct cooker"
+  ],
+  "cat": "Brewhouse",
+  "def": "Separate vessel that boils rice or maize with a little malt to gelatinise the starch before it joins the main mash. It is standard kit in breweries that brew with rice or maize grits.",
+  "link": "rice-and-maize-adjuncts-india"
+ },
+ {
+  "term": "Dextrins",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Longer chains of glucose that most brewing yeast cannot ferment. They stay in the beer as body with a little sweetness; higher mash temperatures leave more of them.",
+  "link": "mouthfeel-and-body"
+ },
+ {
+  "term": "Lautering",
+  "aka": [
+   "Wort separation"
+  ],
+  "cat": "Brewhouse",
+  "def": "Separating the sweet wort from spent grain, using the husk bed as a filter. A slow, even runoff gives clear wort with good extract.",
+  "link": "lautering-and-sparging"
+ },
+ {
+  "term": "Vorlauf",
+  "aka": [
+   "Recirculation"
+  ],
+  "cat": "Brewhouse",
+  "def": "Recirculating the first cloudy runnings back over the grain bed until the wort runs clear. It sets the filter bed before collection into the kettle starts.",
+  "link": "lautering-and-sparging"
+ },
+ {
+  "term": "Sparging",
+  "aka": [
+   "Sparge"
+  ],
+  "cat": "Brewhouse",
+  "def": "Rinsing the grain bed with hot water, usually around 75 to 78 °C (167 to 172 °F), to wash out remaining sugar. Over-sparging pulls tannins once runnings get thin and pH rises.",
+  "link": "lautering-and-sparging"
+ },
+ {
+  "term": "First runnings",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Strongest, most concentrated wort drained from the mash before sparging begins. Its gravity tells you how well the mash converted.",
+  "link": "lautering-and-sparging"
+ },
+ {
+  "term": "Stuck mash",
+  "aka": [
+   "Set mash"
+  ],
+  "cat": "Brewhouse",
+  "def": "Mash or lauter that stops draining because the grain bed has compacted or clogged. Too fine a crush, sticky grains and drawing wort off too fast are common causes.",
+  "link": "stuck-mash-fixes"
+ },
+ {
+  "term": "Tannins",
+  "aka": [
+   "Polyphenols"
+  ],
+  "cat": "Brewhouse",
+  "def": "Astringent compounds from husks and hops. Over-sparging, hot or alkaline sparge water and a very fine crush extract more of them, giving a harsh, drying finish.",
+  "link": "lautering-and-sparging"
+ },
+ {
+  "term": "Spent grain",
+  "aka": [
+   "Brewers' grains"
+  ],
+  "cat": "Brewhouse",
+  "def": "Wet husks and grain residue left after lautering. It is usually sold or given away as cattle feed.",
+  "link": "brewery-waste-and-spent-grain"
+ },
+ {
+  "term": "Wort",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Sweet liquid drained from the mash that becomes beer once it is boiled, hopped and fermented. Pronounced 'wurt', it is the brewer's main product until the yeast goes in.",
+  "link": "how-beer-is-made-step-by-step"
+ },
+ {
+  "term": "Boil",
+  "aka": [
+   "Wort boiling"
+  ],
+  "cat": "Brewhouse",
+  "def": "Vigorous boiling of the wort, usually for 60 to 90 minutes. It sterilises the wort, isomerises hop acids, drives off DMS and coagulates protein.",
+  "link": "what-happens-during-the-boil"
+ },
+ {
+  "term": "Hot break",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Clumps of protein and polyphenol that coagulate early in the boil, often after a foamy surge. A good hot break helps clarity and flavour stability.",
+  "link": "boil-chemistry-hot-break"
+ },
+ {
+  "term": "Cold break",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Fine protein and polyphenol particles that drop out of wort when it is chilled quickly. Fast cooling improves it, giving clearer beer.",
+  "link": "how-to-chill-wort-fast"
+ },
+ {
+  "term": "DMS",
+  "aka": [
+   "Dimethyl sulphide"
+  ],
+  "cat": "Brewhouse",
+  "def": "Sulphur compound tasting of cooked sweetcorn, formed from SMM in pale malt when wort is heated. A vigorous, uncovered boil drives it off; slow chilling lets more form.",
+  "link": "dms-off-flavour"
+ },
+ {
+  "term": "Isomerisation",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Chemical rearrangement of hop alpha acids into bitter, soluble iso-alpha acids during the boil. Longer boiling increases it, which is why bittering hops go in early.",
+  "link": "alpha-acids-explained"
+ },
+ {
+  "term": "Hop utilisation",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Share of the alpha acids added that end up as iso-alpha acids in finished beer, typically well under half. Boil time, wort gravity and losses to trub and yeast all affect it.",
+  "link": "what-is-ibu"
+ },
+ {
+  "term": "IBU",
+  "aka": [
+   "International Bitterness Units"
+  ],
+  "cat": "Brewhouse",
+  "def": "Lab measure of bitterness roughly equal to milligrams of iso-alpha acids per litre. It tracks bitter compounds but not how bitter a beer tastes against its malt.",
+  "link": "what-is-ibu"
+ },
+ {
+  "term": "Whirlpool",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Swirling hot wort after the boil so trub and hop debris collect in a cone at the centre of the vessel. Brewers also add whirlpool hops here for aroma.",
+  "link": "whirlpool-hopping"
+ },
+ {
+  "term": "Trub",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Sediment of coagulated protein, hop debris and fats left after the boil or at the bottom of a fermenter. Separating it gives a cleaner fermentation.",
+  "link": "boil-chemistry-hot-break"
+ },
+ {
+  "term": "Knockout",
+  "aka": [
+   "Casting"
+  ],
+  "cat": "Brewhouse",
+  "def": "Moment the boil ends and wort is sent through the heat exchanger into the fermenter. Knockout temperature should match the yeast's pitching temperature.",
+  "link": "how-to-chill-wort-fast"
+ },
+ {
+  "term": "Heat exchanger",
+  "aka": [
+   "Plate chiller",
+   "Wort cooler"
+  ],
+  "cat": "Brewhouse",
+  "def": "Stack of metal plates that cools hot wort against cold water or glycol flowing the other way. It brings wort to pitching temperature in one pass while recovering hot water.",
+  "link": "how-to-chill-wort-fast"
+ },
+ {
+  "term": "Wort aeration",
+  "aka": [
+   "Oxygenation"
+  ],
+  "cat": "Brewhouse",
+  "def": "Adding oxygen to cooled wort so yeast can build healthy cell membranes. It is the only point in brewing where oxygen is wanted; later it causes staling.",
+  "link": "wort-aeration-and-oxygen"
+ },
+ {
+  "term": "Brewhouse efficiency",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Share of the malt's potential extract that reaches the fermenter as wort. It is how breweries judge milling, mashing and lautering, since losses show up as wasted malt.",
+  "link": "brewhouse-efficiency"
+ },
+ {
+  "term": "Yield",
+  "aka": [
+   "Brewhouse yield"
+  ],
+  "cat": "Brewhouse",
+  "def": "Amount of extract or wort obtained from a given weight of malt. Brewers track it every brew because a small drop adds up to large malt costs over a year.",
+  "link": "raising-brewhouse-yield"
+ },
+ {
+  "term": "Extract",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Dissolved solids, mostly sugars, in wort or released from malt. Malt specifications list extract as the percentage of dry weight a standard lab mash recovers.",
+  "link": "brewhouse-efficiency"
+ },
+ {
+  "term": "Plato",
+  "aka": [
+   "Degrees Plato",
+   "°P"
+  ],
+  "cat": "Brewhouse",
+  "def": "Percentage by weight of dissolved extract in wort, so 12 °P means 12 g of extract per 100 g of wort. It is the standard gravity unit in professional brewing.",
+  "link": "original-gravity-final-gravity-explained"
+ },
+ {
+  "term": "Specific gravity",
+  "aka": [
+   "SG"
+  ],
+  "cat": "Brewhouse",
+  "def": "Density of wort or beer relative to water, which reads 1.000. A 12 °P wort is about 1.048; brewers use it to track fermentation and work out alcohol.",
+  "link": "how-to-use-a-hydrometer"
+ },
+ {
+  "term": "Original gravity",
+  "aka": [
+   "OG"
+  ],
+  "cat": "Brewhouse",
+  "def": "Gravity of wort before fermentation starts, showing how much sugar the yeast has to work with. It largely sets the potential strength of the beer.",
+  "link": "original-gravity-final-gravity-explained"
+ },
+ {
+  "term": "Brix",
+  "aka": [
+   "Degrees Brix"
+  ],
+  "cat": "Brewhouse",
+  "def": "Sugar concentration scale read on refractometers, close to Plato for unfermented wort. Once alcohol is present, refractometer readings need a correction formula.",
+  "link": ""
+ },
+ {
+  "term": "Hot liquor tank",
+  "aka": [
+   "HLT"
+  ],
+  "cat": "Brewhouse",
+  "def": "Insulated vessel that heats and stores brewing water for mashing in and sparging. Its size and reheat time often limit how many brews a day a brewhouse can run.",
+  "link": "brewhouse-size-guide"
+ },
+ {
+  "term": "Mash tun",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Vessel where grist and hot water are mixed and held for conversion. In simpler two-vessel brewhouses it also serves as the lauter tun.",
+  "link": "brewery-equipment-buying-guide"
+ },
+ {
+  "term": "Lauter tun",
+  "aka": [],
+  "cat": "Brewhouse",
+  "def": "Wide, false-bottomed vessel where wort is separated from the grain bed, often with rotating rakes to keep the bed open. Its shape is built for clear, efficient runoff.",
+  "link": "lautering-and-sparging"
+ },
+ {
+  "term": "Kettle",
+  "aka": [
+   "Copper",
+   "Brew kettle"
+  ],
+  "cat": "Brewhouse",
+  "def": "Vessel where wort is boiled with hops, heated by steam jacket, internal calandria or direct fire. Many modern kettles double as whirlpools.",
+  "link": "what-happens-during-the-boil"
+ },
+ {
+  "term": "CIP",
+  "aka": [
+   "Cleaning in place"
+  ],
+  "cat": "Brewhouse",
+  "def": "Cleaning tanks and pipes by pumping hot caustic, acid and rinse water through fixed spray balls and lines without taking them apart. It is the backbone of brewery hygiene.",
+  "link": "cip-cleaning-in-place"
+ },
+ {
+  "term": "Fermentation",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Yeast turning wort sugars into alcohol, carbon dioxide and flavour compounds. Controlling its temperature does more for beer quality than almost anything else a brewer does.",
+  "link": "how-long-does-beer-take-to-ferment"
+ },
+ {
+  "term": "Pitching",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Adding yeast to cooled, aerated wort to start fermentation. The amount and health of yeast pitched decide how quickly and cleanly the beer ferments.",
+  "link": "pitching-yeast-properly"
+ },
+ {
+  "term": "Lag phase",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Quiet period after pitching while yeast absorbs oxygen and nutrients before visible activity starts. A long lag gives wild microbes time to get established.",
+  "link": "yeast-growth-phases"
+ },
+ {
+  "term": "Growth phase",
+  "aka": [
+   "Exponential phase",
+   "Log phase"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Stage after the lag phase when yeast multiplies rapidly and ferments most of the sugar. Much of the beer's ester and fusel character forms here, so temperature control matters most.",
+  "link": "yeast-growth-phases"
+ },
+ {
+  "term": "Stationary phase",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Stage when yeast stops multiplying as sugar runs low and begins to settle. It is also when yeast reabsorbs diacetyl and acetaldehyde.",
+  "link": "yeast-growth-phases"
+ },
+ {
+  "term": "Krausen",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Rocky head of foam, yeast and hop resin that forms on top of fermenting wort. It rises, peaks then falls back as fermentation moves through its phases.",
+  "link": "yeast-growth-phases"
+ },
+ {
+  "term": "High krausen",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Peak of fermentation, when the krausen is tallest and activity most vigorous. Brewers often time dry hopping, krausening and temperature changes around it.",
+  "link": "yeast-growth-phases"
+ },
+ {
+  "term": "Primary fermentation",
+  "aka": [
+   "Primary"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Main fermentation, when yeast consumes most of the sugar, usually lasting a few days to two weeks depending on style and temperature. Most flavour compounds form here.",
+  "link": "how-long-does-beer-take-to-ferment"
+ },
+ {
+  "term": "Attenuation",
+  "aka": [
+   "Apparent attenuation"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Drop in gravity during fermentation, shown as a percentage of the original gravity. Most brewing strains land roughly between 65 and 85 per cent, which shapes body and dryness.",
+  "link": "original-gravity-final-gravity-explained"
+ },
+ {
+  "term": "Real attenuation",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Share of extract truly fermented, correcting for alcohol being lighter than water, which flatters hydrometer readings. It is always lower than apparent attenuation, roughly 0.8 times it.",
+  "link": "original-gravity-final-gravity-explained"
+ },
+ {
+  "term": "Limit of attenuation",
+  "aka": [
+   "Forced fermentation test",
+   "Fermentability"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Lowest gravity a wort can reach, found by fermenting a sample warm with plenty of yeast. Comparing it with the tank shows whether a fermentation has truly finished.",
+  "link": ""
+ },
+ {
+  "term": "Final gravity",
+  "aka": [
+   "FG",
+   "Terminal gravity"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Gravity once fermentation is complete. Together with original gravity it gives alcohol content through ABV = (OG - FG) x 131.25.",
+  "link": "how-to-calculate-abv"
+ },
+ {
+  "term": "ABV",
+  "aka": [
+   "Alcohol by volume"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Share of a beer's volume that is ethanol, shown as a percentage. Brewers estimate it from gravity readings with ABV = (OG - FG) x 131.25, using specific gravity.",
+  "link": "how-to-calculate-abv"
+ },
+ {
+  "term": "Stuck fermentation",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Fermentation that stops before reaching the expected final gravity. Common causes are under-pitching, too little oxygen, a sudden temperature drop or a poorly fermentable wort.",
+  "link": "pitching-yeast-properly"
+ },
+ {
+  "term": "Diacetyl",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Buttery, butterscotch compound formed from a yeast by-product during fermentation. Healthy yeast reabsorbs it if given time, so high levels usually mean rushed fermentation or infection.",
+  "link": "diacetyl-off-flavour"
+ },
+ {
+  "term": "Diacetyl rest",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Warming beer a few degrees near the end of fermentation, often to around 16 to 18 °C (61 to 64 °F) for lagers, so yeast clears diacetyl faster. It is standard before lagering.",
+  "link": "diacetyl-rest"
+ },
+ {
+  "term": "VDK",
+  "aka": [
+   "Vicinal diketones"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Diacetyl plus 2,3-pentanedione, measured together in the lab. Many breweries cool a beer only once VDK falls below their set limit.",
+  "link": "diacetyl-rest"
+ },
+ {
+  "term": "Acetaldehyde",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Green apple compound yeast makes on the way to alcohol and normally reabsorbs. Noticeable levels point to beer pulled off yeast too early, under-pitching or oxidation.",
+  "link": "acetaldehyde-off-flavour"
+ },
+ {
+  "term": "Esters",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Fruity compounds such as isoamyl acetate (banana) and ethyl acetate (pear, solvent) made by yeast. Warmer, higher-gravity fermentations and low pitching rates raise them.",
+  "link": "esters-and-fusel-alcohols"
+ },
+ {
+  "term": "Fusel alcohols",
+  "aka": [
+   "Higher alcohols",
+   "Fusels"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Heavier alcohols made by yeast that give hot, solvent-like warmth. Fermenting too warm or under-pitching increases them.",
+  "link": "esters-and-fusel-alcohols"
+ },
+ {
+  "term": "Glycol",
+  "aka": [
+   "Glycol chiller"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Food-grade coolant chilled and pumped through tank jackets to hold fermentation and storage temperatures. A properly sized glycol system is essential in hot Indian conditions.",
+  "link": "glycol-cooling-systems"
+ },
+ {
+  "term": "Cylindroconical fermenter",
+  "aka": [
+   "CCT",
+   "Fermentation vessel",
+   "FV"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Tall fermenter with a cone at the base where yeast and trub collect. It is standard in modern breweries because yeast is easy to remove and harvest.",
+  "link": ""
+ },
+ {
+  "term": "Yeast harvesting",
+  "aka": [
+   "Yeast cropping",
+   "Repitching"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Collecting healthy yeast from a fermenter cone to pitch into a later batch. Breweries track generations and viability so they know when to start fresh.",
+  "link": "yeast-harvesting-and-reuse"
+ },
+ {
+  "term": "Conditioning",
+  "aka": [
+   "Maturation",
+   "Secondary"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Period after primary fermentation when beer matures, clears and carbonates. Yeast cleans up off-flavours such as diacetyl and acetaldehyde during this time.",
+  "link": "lagering-explained"
+ },
+ {
+  "term": "Lagering",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Cold storage of beer near freezing, often for weeks, after fermentation. It settles yeast and haze, smooths flavour and gives lagers their clean, crisp finish.",
+  "link": "lagering-explained"
+ },
+ {
+  "term": "Cold crash",
+  "aka": [
+   "Crash cooling"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Rapidly chilling finished beer to near 0 °C (32 °F) to drop yeast, protein and hop particles out of suspension. It speeds clarity before packaging or filtration.",
+  "link": "cold-crashing"
+ },
+ {
+  "term": "Spunding",
+  "aka": [
+   "Spunding valve"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Closing a fermenter near the end of fermentation so its own CO2 builds pressure and carbonates the beer. A spunding valve releases gas above the set pressure.",
+  "link": "spunding-explained"
+ },
+ {
+  "term": "Unitank",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Pressure-rated cylindroconical tank that can ferment, condition and carbonate beer in one vessel. Its cone lets yeast be dumped or harvested, saving transfers and oxygen pickup.",
+  "link": "monotanking-in-a-unitank"
+ },
+ {
+  "term": "Bright beer tank",
+  "aka": [
+   "BBT",
+   "Serving tank"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Pressure-rated tank that holds finished, clarified beer ready for packaging or serving. In brewpubs beer is often poured straight from it.",
+  "link": ""
+ },
+ {
+  "term": "Dry hopping",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Adding hops to beer during or after fermentation for aroma without much extra bitterness. Timing, dose and contact time all shape the result.",
+  "link": "dry-hopping-guide"
+ },
+ {
+  "term": "Hop creep",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Renewed fermentation set off when enzymes in dry hops break dextrins into fermentable sugars. It can raise ABV, diacetyl and pressure in tanks or packages.",
+  "link": "hop-creep"
+ },
+ {
+  "term": "Hop burn",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Harsh, scratchy, peppery feeling from hop particles left in suspension in heavily dry-hopped beers. Cold crashing and time help them settle.",
+  "link": "dry-hopping-guide"
+ },
+ {
+  "term": "Carbonation",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Carbon dioxide dissolved in beer, giving fizz, lift to aroma and a livelier mouthfeel. Its level is set by temperature and pressure, whether produced naturally or forced in.",
+  "link": "carbonation-levels-by-style"
+ },
+ {
+  "term": "Volumes of CO2",
+  "aka": [
+   "Vols"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Unit of carbonation where one volume means the beer holds its own volume of CO2 at standard temperature and pressure. Most lagers sit around 2.5 to 2.8 volumes, British cask ales much lower.",
+  "link": "carbonation-levels-by-style"
+ },
+ {
+  "term": "Forced carbonation",
+  "aka": [
+   "Force carbonation"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Adding CO2 under pressure to cold beer in a tank or keg. It is faster and more controllable than natural carbonation.",
+  "link": "kegging-homebrew"
+ },
+ {
+  "term": "Bottle conditioning",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Carbonating beer in the bottle with a small dose of priming sugar plus live yeast. It leaves a fine yeast sediment and the yeast helps mop up oxygen.",
+  "link": "bottle-conditioning-and-priming-sugar"
+ },
+ {
+  "term": "Priming sugar",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Measured sugar added before bottling or kegging so the remaining yeast produces the right carbonation. Too much can cause gushing or burst bottles.",
+  "link": "bottle-conditioning-and-priming-sugar"
+ },
+ {
+  "term": "Finings",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Clarifying agents such as isinglass, gelatine or silica sol that bind to yeast or haze particles and drag them down. They speed up clarity without filtration.",
+  "link": "clarifying-beer-finings"
+ },
+ {
+  "term": "PVPP",
+  "aka": [
+   "Polyvinylpolypyrrolidone"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Fine plastic powder that binds haze-forming polyphenols and is removed with them. Dosed before filtration, it improves haze stability and shelf life.",
+  "link": "beer-stability-in-indian-heat"
+ },
+ {
+  "term": "Chill haze",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Cloudiness that appears when beer is cold and clears as it warms, caused by protein and polyphenol complexes. Over time it can turn into permanent haze.",
+  "link": "beer-haze-causes"
+ },
+ {
+  "term": "Filtration",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Passing beer through a medium such as diatomaceous earth, sheets or membranes to remove yeast and haze. It gives bright, stable beer with a longer shelf life.",
+  "link": "beer-filtration-basics"
+ },
+ {
+  "term": "Diatomaceous earth",
+  "aka": [
+   "DE",
+   "Kieselguhr"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Powdered fossil algae used as a filter aid, building a porous cake that traps yeast and haze. It works well but needs careful handling because the dust harms lungs.",
+  "link": "beer-filtration-basics"
+ },
+ {
+  "term": "Centrifuge",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Machine spinning beer at high speed so yeast and solids are thrown out by centrifugal force. It clarifies quickly with little beer loss, useful for hazy beers that need partial clarity.",
+  "link": "beer-filtration-basics"
+ },
+ {
+  "term": "Pasteurisation",
+  "aka": [],
+  "cat": "Fermentation and conditioning",
+  "def": "Heating beer to kill spoilage microbes and extend shelf life. Flash pasteurisation heats beer in bulk before filling; tunnel pasteurisation heats sealed bottles or cans.",
+  "link": "pasteurisation-units"
+ },
+ {
+  "term": "Pasteurisation unit",
+  "aka": [
+   "PU"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Measure of heat dose in pasteurisation: one PU equals one minute at 60 °C (140 °F). Too many units dull flavour, so breweries set a target dose for each beer.",
+  "link": "pasteurisation-units"
+ },
+ {
+  "term": "Dissolved oxygen",
+  "aka": [
+   "DO"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Oxygen dissolved in finished beer, usually measured in parts per billion. Keeping it low after fermentation is the biggest single guard against stale flavours.",
+  "link": "measuring-dissolved-oxygen"
+ },
+ {
+  "term": "Oxidation",
+  "aka": [
+   "Staling"
+  ],
+  "cat": "Fermentation and conditioning",
+  "def": "Ageing of beer by oxygen, bringing papery, cardboard or sherry flavours while hop aroma fades. Low oxygen pickup with cold storage slows it.",
+  "link": "oxidised-beer"
+ }
+]

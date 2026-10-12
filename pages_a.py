@@ -425,7 +425,7 @@ RESOURCES = banner("Resources","Free beer education","Start learning today, on t
     <div class="grid-3">
       <article class="card reveal"><div class="card-body"><span class="ic">[[book-open]]</span><span class="cat">Start here</span><h3>Beer 101</h3><p>What is craft beer? Ingredients, the four pillars, and how a beer is actually made, grain to glass in plain English.</p><div class="foot"><a href="contact.html#enroll" class="link-arrow" data-cta="get-the-crash-course">Get the crash course</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="ic">[[beer]]</span><span class="cat">Reference</span><h3>Beer Style Library</h3><p>80 styles from pilsner to barley wine: colour, bitterness, strength, the right glass, and Indian food pairings for each.</p><div class="foot"><a href="style-library.html" class="link-arrow" data-cta="resources-style-library">Open the Style Library</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="ic">[[book]]</span><span class="cat">Reference</span><h3>Brewing Glossary</h3><p>ABV, IBU, OG/FG, attenuation, lauter, dry hop, the words brewers use, defined clearly.</p><div class="foot"><a href="#glossary" class="link-arrow">Jump to glossary</a></div></div></article>
+      <article class="card reveal"><div class="card-body"><span class="ic">[[book]]</span><span class="cat">Reference</span><h3>Brewing Glossary</h3><p>ABV, IBU, OG/FG, attenuation, lauter, dry hop, the words brewers use, defined clearly.</p><div class="foot"><a href="brewing-glossary.html" class="link-arrow">Open the full glossary</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="ic">[[calculator]]</span><span class="cat">Tool · App</span><h3>Indian Brewing Calculator</h3><p>ABV, attenuation and recipe math built for Indian brewing, check your numbers before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/indian-brewing-calculator/" class="link-arrow" target="_blank" rel="noopener">Open the calculator</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="ic">[[wind]]</span><span class="cat">Tool · App</span><h3>Aroma Forge</h3><p>Predict a beer's aroma by superimposing digitised Weyermann malt aroma wheels, see how your grain bill smells before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/aroma-forge/" class="link-arrow" target="_blank" rel="noopener">Open Aroma Forge</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="ic">[[sliders]]</span><span class="cat">Tool · App</span><h3>Advanced Brewing Calculator</h3><p>Pro-tier formulation, spec sheets and recipe comparison, for serious brewers who want the full picture.</p><div class="foot"><a href="https://ankurnapa.github.io/advanced-brewing-calc/" class="link-arrow" target="_blank" rel="noopener">Open the pro suite</a></div></div></article>
@@ -450,7 +450,7 @@ RESOURCES = banner("Resources","Free beer education","Start learning today, on t
         <p><b>Lagering</b>, Cold conditioning that gives lagers their clean, crisp finish.</p>
       </div>
     </div>
-    <p style="margin-top:1.5rem"><a href="courses.html" class="link-arrow">Go deeper in Brewing Fundamentals</a></p>
+    <p style="margin-top:1.5rem"><a href="brewing-glossary.html" class="link-arrow">See every term in the full brewing glossary</a></p>
   </div>
 </section>
 

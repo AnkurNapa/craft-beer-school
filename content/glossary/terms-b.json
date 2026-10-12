@@ -1,0 +1,1236 @@
+[
+ {
+  "term": "Keg",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Sealed stainless steel container, commonly 20, 30 or 50 litres, that holds pressurised beer for draught dispense. Kegs protect beer from light and air far better than open vessels.",
+  "link": "kegs-vs-cans-business"
+ },
+ {
+  "term": "Cask ale",
+  "aka": [
+   "real ale"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Unfiltered ale that finishes conditioning in its cask and is served without added gas pressure, usually by hand pump. Once tapped it must be sold within days because air replaces the beer drawn off.",
+  "link": ""
+ },
+ {
+  "term": "Can",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Aluminium container with a thin inner lining, sealed by a lid seamed onto the body. Cans block all light and weigh little, though filling must be tightly controlled to keep oxygen out.",
+  "link": "cans-vs-bottles"
+ },
+ {
+  "term": "Bottle",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Glass container for beer, most often brown because amber glass blocks most of the light that causes skunky flavour. Green and clear glass give little protection.",
+  "link": "cans-vs-bottles"
+ },
+ {
+  "term": "Returnable bottle",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Glass bottle collected after use, washed and refilled. Common in Indian mass-market beer, it cuts packaging cost but needs careful inspection for chips, residue and scuffing.",
+  "link": "beer-packaging-costs"
+ },
+ {
+  "term": "Crown",
+  "aka": [
+   "crown cork",
+   "crown cap"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Crimped metal cap that seals a beer bottle, with a liner that grips the glass. Some liners absorb oxygen, which helps slow staling in the bottle.",
+  "link": ""
+ },
+ {
+  "term": "Fill height",
+  "aka": [
+   "fill level"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Level to which a bottle or can is filled, checked against the declared volume. Short fills shortchange the drinker and overfills waste beer, so lines check it every shift.",
+  "link": ""
+ },
+ {
+  "term": "Headspace",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Gas space between the beer and the closure in a bottle or can. Air left there is a major source of package oxygen, so fillers work hard to push it out.",
+  "link": "oxygen-pickup-in-packaging"
+ },
+ {
+  "term": "Fobbing",
+  "aka": [
+   "jetting"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Tiny jet of hot water or CO2 squirted into a bottle just before capping so the beer foams up and drives air out of the headspace. It is a cheap way to cut oxygen pickup.",
+  "link": "oxygen-pickup-in-packaging"
+ },
+ {
+  "term": "Dissolved oxygen",
+  "aka": [
+   "DO"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Oxygen dissolved in beer, measured in parts per billion (ppb). Keeping it low after fermentation is one of the biggest levers for flavour stability.",
+  "link": "measuring-dissolved-oxygen"
+ },
+ {
+  "term": "Total package oxygen",
+  "aka": [
+   "TPO"
+  ],
+  "cat": "Packaging and quality",
+  "def": "All the oxygen in a sealed package: the dissolved oxygen in the beer plus the oxygen in the headspace. It is the figure that best predicts how fast a packaged beer will stale.",
+  "link": "oxygen-pickup-in-packaging"
+ },
+ {
+  "term": "Oxygen pickup",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Oxygen that gets into beer during transfers, centrifuging or packaging. Each step adds a little, so breweries measure before and after each one to find the leak.",
+  "link": "oxygen-pickup-in-packaging"
+ },
+ {
+  "term": "Oxidation",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Chemical reaction of beer compounds with oxygen that dulls hop aroma, darkens colour and creates stale flavours. Once it starts in the package it cannot be reversed.",
+  "link": "oxidised-beer"
+ },
+ {
+  "term": "Staling",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Slow loss of fresh character as beer ages, driven by oxygen, heat and time. Hop aroma fades first; papery, honey or sherry notes follow.",
+  "link": "beer-staling-chemistry"
+ },
+ {
+  "term": "Shelf life",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "How long a packaged beer stays within its intended flavour, set by the brewery from forced ageing and real-time tasting. Heat in Indian supply chains can shorten it sharply.",
+  "link": "beer-shelf-life"
+ },
+ {
+  "term": "Best before date",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Date on a label up to which the producer expects the drink to keep its quality when stored as directed. It is a quality promise, not a safety cut-off.",
+  "link": "reading-a-beer-label"
+ },
+ {
+  "term": "Forced ageing",
+  "aka": [
+   "accelerated ageing"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Test that stores sealed beer warm, commonly at 30°C (86°F) or higher, for days or weeks to predict how it will taste months later on the shelf.",
+  "link": "forced-ageing-tests"
+ },
+ {
+  "term": "Light strike",
+  "aka": [
+   "lightstruck"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Damage caused when blue and ultraviolet light breaks down hop bitter compounds in beer, creating a skunky smell. In clear or green glass it can happen within minutes in sunlight.",
+  "link": "lightstruck-skunky-beer"
+ },
+ {
+  "term": "Pasteurisation",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Heating beer enough to kill spoilage organisms, giving a longer, more stable shelf life. Too much heat gives a cooked, bready flavour.",
+  "link": "pasteurisation-units"
+ },
+ {
+  "term": "Pasteurisation units",
+  "aka": [
+   "PU"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Measure of heat treatment where one unit equals one minute at 60°C (140°F). Breweries target a PU range that kills spoilage organisms without cooking the beer.",
+  "link": "pasteurisation-units"
+ },
+ {
+  "term": "Tunnel pasteuriser",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Long machine that sprays filled bottles or cans with water in warming, holding and cooling zones as they travel through. It treats the beer inside the sealed pack.",
+  "link": "pasteurisation-units"
+ },
+ {
+  "term": "Cleaning",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Removing soil, protein, beer stone and other deposits from a surface, usually with caustic or acid detergents. A surface must be clean before it can be sanitised.",
+  "link": "cleaning-vs-sanitising-brewing"
+ },
+ {
+  "term": "Sanitising",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Reducing microbes on an already clean surface to a safe level with chemicals such as peracetic acid or with hot water. Sanitising a dirty surface does little because soil shields bacteria.",
+  "link": "cleaning-vs-sanitising-brewing"
+ },
+ {
+  "term": "Cleaning in place",
+  "aka": [
+   "CIP"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Cleaning tanks and pipework by pumping detergent and rinse cycles through them without taking them apart. Time, temperature, concentration and flow together decide whether it works.",
+  "link": "cip-cleaning-in-place"
+ },
+ {
+  "term": "Draught line cleaning",
+  "aka": [
+   "line cleaning"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Regular flushing of beer lines, couplers and taps with line cleaner to remove yeast, bacteria and scale. Dirty lines are a common reason good beer tastes bad at the bar.",
+  "link": "draught-line-cleaning"
+ },
+ {
+  "term": "Hydrometer",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Weighted glass float that measures the density of wort or beer by how deep it sinks. Brewers use it to track fermentation and work out alcohol content.",
+  "link": "how-to-use-a-hydrometer"
+ },
+ {
+  "term": "Degrees Plato",
+  "aka": [
+   "°P",
+   "Plato"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Brewing scale giving the percentage by weight of dissolved extract in wort or beer, so 12°P means 12 g of extract per 100 g of liquid. Most commercial breweries record gravity this way.",
+  "link": "original-gravity-final-gravity-explained"
+ },
+ {
+  "term": "Refractometer",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Handheld instrument that reads sugar content from how much a drop of liquid bends light. It is quick for wort, but alcohol distorts readings once fermentation starts, so a correction is needed.",
+  "link": "brewery-qc-lab-on-a-budget"
+ },
+ {
+  "term": "Spectrophotometer",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Lab instrument that measures how much light a sample absorbs at a set wavelength. Breweries use it for colour, bitterness units and other standard methods.",
+  "link": "brewery-qc-lab-on-a-budget"
+ },
+ {
+  "term": "EBC colour",
+  "aka": [
+   "EBC"
+  ],
+  "cat": "Packaging and quality",
+  "def": "European Brewery Convention scale for beer and malt colour, read from light absorbance at 430 nm. EBC values are roughly double SRM values, which helps when comparing recipes.",
+  "link": "beer-colour-srm-ebc"
+ },
+ {
+  "term": "Bitterness units",
+  "aka": [
+   "BU",
+   "IBU measurement"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Lab measure of bitterness made by extracting acidified beer with iso-octane and reading absorbance at 275 nm. It tracks bitter hop compounds, not how bitter a beer actually tastes.",
+  "link": "what-is-ibu"
+ },
+ {
+  "term": "pH meter",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Electronic probe that measures acidity. Brewers check pH in the brewhouse and in finished beer because it affects flavour, stability and microbial safety.",
+  "link": "brewery-qc-lab-on-a-budget"
+ },
+ {
+  "term": "Off-flavour",
+  "aka": [
+   "fault"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Any aroma or taste that does not belong in a beer or its style, caused by faults in ingredients, process, hygiene or packaging. Learning to name them is the core of brewery QC.",
+  "link": "beer-off-flavours"
+ },
+ {
+  "term": "DMS",
+  "aka": [
+   "dimethyl sulphide"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Cooked sweetcorn or tinned vegetable aroma from dimethyl sulphide, which forms from a precursor in pale malt. A weak boil or slow wort cooling leaves too much behind.",
+  "link": "dms-off-flavour"
+ },
+ {
+  "term": "Diacetyl",
+  "aka": [
+   "VDK"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Buttery or butterscotch flavour from a compound yeast makes during fermentation and normally reabsorbs. Too much signals beer taken off yeast too early or a bacterial infection.",
+  "link": "diacetyl-off-flavour"
+ },
+ {
+  "term": "Acetaldehyde",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Green apple or freshly cut pumpkin flavour from a compound yeast makes on the way to alcohol. It points to young beer, stressed yeast or late oxygen pickup.",
+  "link": "acetaldehyde-off-flavour"
+ },
+ {
+  "term": "Phenolic",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Clove, smoky, plastic or medicinal flavours from phenol compounds. Expected in hefeweizen and some Belgian ales, they are a fault elsewhere, often from wild yeast or chlorine.",
+  "link": "phenolic-off-flavours"
+ },
+ {
+  "term": "Metallic",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Tinny, blood-like or coin-like taste, usually from iron or other metal ions picked up from water, worn equipment or poorly passivated stainless steel.",
+  "link": "metallic-off-flavour"
+ },
+ {
+  "term": "Oxidised",
+  "aka": [
+   "stale"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Stale flavours of wet cardboard, paper, honey or sherry that develop as beer reacts with oxygen. Hoppy beers also lose their aroma and can turn dull or darker.",
+  "link": "oxidised-beer"
+ },
+ {
+  "term": "Skunky",
+  "aka": [
+   "3-MBT"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Pungent smell like a skunk, burnt rubber or cannabis from 3-MBT, a sulphur compound formed when light hits hop compounds. Brown glass and cans prevent it.",
+  "link": "lightstruck-skunky-beer"
+ },
+ {
+  "term": "Sour infection",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Unwanted sourness from lactic or acetic acid bacteria, often with haze, ropiness or vinegar notes. It usually traces back to a hygiene gap in hoses, heat exchangers or packaging.",
+  "link": "sour-infection-off-flavour"
+ },
+ {
+  "term": "Sulphur",
+  "aka": [
+   "H2S"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Rotten egg or struck match aroma from hydrogen sulphide and related compounds made by yeast. A trace in young lager often fades with conditioning; persistent sulphur suggests stressed yeast.",
+  "link": "beer-off-flavours"
+ },
+ {
+  "term": "Haze",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Cloudiness in beer from protein, polyphenols, yeast, starch or bacteria. Some styles want it; in a beer meant to be bright it is a stability fault.",
+  "link": "beer-haze-causes"
+ },
+ {
+  "term": "Triangle test",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Sensory test where tasters get three samples, two identical and one different, then must pick the odd one. It shows whether a process change makes a detectable difference.",
+  "link": "triangle-test"
+ },
+ {
+  "term": "Sensory panel",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Trained group of tasters who assess beer by agreed methods, checking flavour, faults and trueness to brand. Their scores are QC data, just like lab numbers.",
+  "link": "running-a-sensory-panel"
+ },
+ {
+  "term": "True to type",
+  "aka": [
+   "TTT"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Sensory check of whether a batch tastes as the brand should, judged against a fresh reference sample. It catches drift that lab numbers alone can miss.",
+  "link": "running-a-sensory-panel"
+ },
+ {
+  "term": "Control chart",
+  "aka": [],
+  "cat": "Packaging and quality",
+  "def": "Time-ordered plot of a measurement with a centre line and statistical control limits. Points outside the limits or unusual runs show a process has shifted and needs attention.",
+  "link": "control-charts-for-brewers"
+ },
+ {
+  "term": "OEE",
+  "aka": [
+   "overall equipment effectiveness"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Packaging line score that multiplies availability, performance and quality into one percentage. It shows how much theoretical output actually becomes good, saleable product.",
+  "link": "packaging-line-efficiency-oee"
+ },
+ {
+  "term": "Batch code",
+  "aka": [
+   "lot code"
+  ],
+  "cat": "Packaging and quality",
+  "def": "Printed code on a can, bottle or keg that ties it to a brew, tank and packaging run. Without it a recall or complaint investigation becomes guesswork.",
+  "link": "beer-recall-plan"
+ },
+ {
+  "term": "Aroma",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "What a beer smells like, sensed through the nose before and while drinking. Most of what people call taste is really aroma, so judges assess it first.",
+  "link": "beer-aroma-vocabulary"
+ },
+ {
+  "term": "Flavour wheel",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Chart that groups beer flavour terms from broad classes at the centre to specific descriptors at the rim. It gives tasters and brewers a shared vocabulary.",
+  "link": "beer-flavour-wheel"
+ },
+ {
+  "term": "Esters",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Fruity aromas such as banana, pear or apple made by yeast during fermentation. Wanted in many ales and wheat beers, they are usually kept low in clean lagers.",
+  "link": "esters-and-fusel-alcohols"
+ },
+ {
+  "term": "Mouthfeel",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Physical sensations a beer gives in the mouth, such as body, carbonation, warmth, creaminess and astringency. It shapes how refreshing or rich a beer seems.",
+  "link": "mouthfeel-and-body"
+ },
+ {
+  "term": "Body",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Perceived weight or fullness of a beer on the palate, from thin and watery to thick and chewy. Residual sugars, proteins and alcohol all add to it.",
+  "link": "mouthfeel-and-body"
+ },
+ {
+  "term": "Finish",
+  "aka": [
+   "aftertaste"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Flavours and sensations left after swallowing, described as short or long, dry or sweet, bitter or clean. A good finish invites the next sip.",
+  "link": "how-to-taste-beer"
+ },
+ {
+  "term": "Astringency",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Dry, puckering, tea-like roughness on the palate caused by tannins and other polyphenols. A little suits some roasty beers; too much usually points to harsh husk extraction.",
+  "link": "mouthfeel-and-body"
+ },
+ {
+  "term": "Carbonic bite",
+  "aka": [
+   "carbonation perception"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Prickly, slightly acidic tingle on the tongue as dissolved CO2 forms carbonic acid. Higher carbonation makes beer feel lighter and sharper; low carbonation feels softer and fuller.",
+  "link": "carbonation-levels-by-style"
+ },
+ {
+  "term": "Head retention",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "How long the foam on a poured beer lasts before collapsing. Grease, detergent residue on glasses or poor foam proteins can kill it quickly.",
+  "link": "beer-foam-science"
+ },
+ {
+  "term": "Lacing",
+  "aka": [
+   "Brussels lace"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Rings of foam that cling to the inside of the glass as the beer is drunk. Good lacing suggests healthy foam proteins and a properly cleaned glass.",
+  "link": "beer-foam-science"
+ },
+ {
+  "term": "Serving temperature",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Temperature at which a beer shows its best. Light lagers suit about 3 to 5°C (37 to 41°F), while strong dark ales open up nearer 10 to 13°C (50 to 55°F).",
+  "link": "beer-serving-temperature"
+ },
+ {
+  "term": "ABV",
+  "aka": [
+   "alcohol by volume"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Percentage of a drink's volume that is pure ethanol. A 5% ABV beer contains 5 ml of alcohol in every 100 ml, which is how strengths are compared.",
+  "link": "how-to-calculate-abv"
+ },
+ {
+  "term": "IBU",
+  "aka": [
+   "International Bitterness Units"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Measure of bitter hop compounds in beer, roughly milligrams of iso-alpha acids per litre. Malt sweetness changes how bitter the same number tastes.",
+  "link": "what-is-ibu"
+ },
+ {
+  "term": "SRM",
+  "aka": [
+   "Standard Reference Method"
+  ],
+  "cat": "Tasting and styles",
+  "def": "American scale for beer colour, measured from light absorbance at 430 nm. Pale lagers sit around 2 to 4 while stouts reach 40 or more.",
+  "link": "beer-colour-srm-ebc"
+ },
+ {
+  "term": "BJCP",
+  "aka": [
+   "Beer Judge Certification Program"
+  ],
+  "cat": "Tasting and styles",
+  "def": "US non-profit that writes widely used beer style guidelines and certifies beer judges through tasting exams. Its guidelines are the reference at most homebrew competitions.",
+  "link": "beer-judge-bjcp-exam"
+ },
+ {
+  "term": "Cicerone",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Certification programme for beer service and knowledge, running from Certified Beer Server up to Master Cicerone. It focuses on serving, storing, styles and food pairing.",
+  "link": "cicerone-certification-guide"
+ },
+ {
+  "term": "WSET",
+  "aka": [
+   "Wine and Spirit Education Trust"
+  ],
+  "cat": "Tasting and styles",
+  "def": "London-based education body offering graded qualifications in wine, spirits, sake and beer through approved course providers worldwide, including in India.",
+  "link": "wset-beer-course"
+ },
+ {
+  "term": "Craft beer",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Beer from smaller, independent breweries that prize flavour, variety and local character. India has no single legal definition, so the term is used loosely.",
+  "link": "what-is-craft-beer"
+ },
+ {
+  "term": "Lager",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Beer fermented with bottom-fermenting lager yeast at cool temperatures, then cold-conditioned. Lagers are usually crisp and clean; most beer sold in India is lager.",
+  "link": "ale-vs-lager-yeast"
+ },
+ {
+  "term": "Ale",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Beer fermented with top-fermenting ale yeast at warmer temperatures, often 15 to 22°C (59 to 72°F). Ales tend to show more fruity esters than lagers.",
+  "link": "ale-vs-lager-yeast"
+ },
+ {
+  "term": "Pale ale",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Golden to amber ale of moderate strength with a balance of malt and hops. It is the parent of the IPA and a common flagship for new breweries.",
+  "link": "pale-ale-guide"
+ },
+ {
+  "term": "IPA",
+  "aka": [
+   "India pale ale"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Hop-forward pale beer with more bitterness and hop aroma than a standard pale ale. Born in England, it now spans English, West Coast, hazy and double versions.",
+  "link": "style-american-ipa"
+ },
+ {
+  "term": "West Coast IPA",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "American IPA that is clear, dry and assertively bitter, with piney, resinous and citrus hop character. It grew up in California and the Pacific Northwest.",
+  "link": "west-coast-ipa"
+ },
+ {
+  "term": "NEIPA",
+  "aka": [
+   "New England IPA",
+   "hazy IPA"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Hazy, juicy IPA with soft bitterness, a full mouthfeel and heavy late hop additions. It stales quickly, so it is best drunk fresh and kept cold.",
+  "link": "new-england-ipa"
+ },
+ {
+  "term": "Double IPA",
+  "aka": [
+   "DIPA",
+   "imperial IPA"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Stronger, more intensely hopped IPA, typically around 7.5 to 10% ABV. It needs extra malt to carry the hops without tasting harsh.",
+  "link": "double-ipa"
+ },
+ {
+  "term": "Cold IPA",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Crisp, dry IPA fermented with lager yeast at warmer temperatures, often with rice or maize in the grist. It pairs West Coast hop character with lager cleanness.",
+  "link": "cold-ipa-explained"
+ },
+ {
+  "term": "Stout",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Dark, roasty ale made with roasted barley or dark malts, with coffee and dark chocolate flavours. Styles range from dry Irish stout to sweet milk stout and strong imperial versions.",
+  "link": "dry-stout-guide"
+ },
+ {
+  "term": "Porter",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Dark brown ale from 18th-century London with chocolate, caramel and toast flavours, usually softer in roast than stout. The line between the two has always been blurry.",
+  "link": "porter-guide"
+ },
+ {
+  "term": "Imperial stout",
+  "aka": [
+   "Russian imperial stout"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Strong, rich, dark stout, often 8 to 12% ABV, with intense roast, dark fruit and chocolate notes. It was historically brewed in London for export to the Russian court.",
+  "link": "imperial-stout-guide"
+ },
+ {
+  "term": "Wheat beer",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Beer brewed with a large share of wheat, often half the grist or more, giving a soft body and good foam. Styles include hefeweizen, witbier and American wheat.",
+  "link": "wheat-malt-in-brewing"
+ },
+ {
+  "term": "Hefeweizen",
+  "aka": [
+   "Weissbier"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Unfiltered Bavarian wheat beer with banana and clove aromas from its special yeast. It is usually at least half wheat malt and served cloudy in a tall vase-shaped glass.",
+  "link": "hefeweizen-guide"
+ },
+ {
+  "term": "Saison",
+  "aka": [
+   "farmhouse ale"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Dry, spicy, highly carbonated Belgian farmhouse ale with peppery and fruity yeast character. It was originally brewed for seasonal farm workers in Wallonia.",
+  "link": "saison-guide"
+ },
+ {
+  "term": "Sour beer",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Any beer with deliberate tartness from lactic or acetic acid, made with bacteria such as Lactobacillus or Pediococcus or by blending. Methods range from quick kettle souring to years in barrels.",
+  "link": "style-american-sour"
+ },
+ {
+  "term": "Lambic",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Spontaneously fermented wheat beer from the Brussels region, cooled in open vessels so wild microbes settle in, then aged in wooden barrels for months or years. It is tart, funky and usually still.",
+  "link": "lambic-and-gueuze"
+ },
+ {
+  "term": "Gueuze",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Blend of young and old lambic, bottled so the young beer referments and builds a lively sparkle. It is dry, sour and complex.",
+  "link": "lambic-and-gueuze"
+ },
+ {
+  "term": "Gose",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Tart German wheat beer brewed with salt and coriander, first from Goslar and later Leipzig. Light and refreshing, it suits hot weather.",
+  "link": "gose-guide"
+ },
+ {
+  "term": "Berliner Weisse",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Low-strength, very pale, sharply tart wheat beer from Berlin, often around 3% ABV. It was traditionally served with flavoured syrups to soften the acidity.",
+  "link": "berliner-weisse"
+ },
+ {
+  "term": "Kolsch",
+  "aka": [
+   "Kölsch"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Pale, delicate beer from Cologne fermented with ale yeast at cool temperatures, then cold-conditioned. In Europe only Cologne-area brewers may use the name.",
+  "link": "kolsch-guide"
+ },
+ {
+  "term": "Pilsner",
+  "aka": [
+   "Pils",
+   "Pilsener"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Pale, crisp, hop-accented lager first brewed in Plzen, Bohemia, in 1842. German versions are drier and more bitter; Czech versions are rounder and maltier.",
+  "link": "pilsner-style-guide"
+ },
+ {
+  "term": "Helles",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Pale Munich lager that leans towards soft, bready malt rather than hop bitterness. Clean and gentle, it was created in 1894 as Bavaria's answer to pilsner.",
+  "link": "helles-style-guide"
+ },
+ {
+  "term": "Bock",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Strong German lager, roughly 6 to 7.5% ABV, with rich toasty malt and little hop character. Doppelbock, maibock and eisbock are stronger or seasonal relatives.",
+  "link": "bock-and-doppelbock"
+ },
+ {
+  "term": "Session beer",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Lower-alcohol beer, usually under about 5% ABV, built so several can be enjoyed in one sitting. A good one still needs flavour and balance.",
+  "link": "style-session-beer"
+ },
+ {
+  "term": "Imperial",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Label word for a stronger, more intense version of a style, as in imperial stout or imperial IPA. It signals more malt, more alcohol and usually more of everything.",
+  "link": "imperial-stout-guide"
+ },
+ {
+  "term": "Barrel-aged",
+  "aka": [],
+  "cat": "Tasting and styles",
+  "def": "Beer matured in wooden barrels, often ex-bourbon, wine or rum, picking up vanilla, oak, spirit or wine notes. Ageing takes months and the wood can host souring microbes.",
+  "link": "style-barrel-aged-beer"
+ },
+ {
+  "term": "Nitro",
+  "aka": [
+   "nitrogenated beer"
+  ],
+  "cat": "Tasting and styles",
+  "def": "Beer served with a nitrogen and CO2 gas mix through a restrictor tap, giving tiny bubbles, a cascading pour and a creamy head. Dry stout is the classic example.",
+  "link": "beer-foam-science"
+ },
+ {
+  "term": "Brewpub",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Restaurant or bar that brews beer on site and serves it there, usually straight from serving tanks. In several Indian states it is the main craft beer model.",
+  "link": "brewpub-vs-microbrewery"
+ },
+ {
+  "term": "Microbrewery",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Small brewery producing limited volumes, often with its own bar. In India the word often means an on-premise brewing licence; its exact meaning and rules vary by state.",
+  "link": "start-a-microbrewery-india"
+ },
+ {
+  "term": "Taproom",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Bar attached to a production brewery where its own beer is poured fresh. It earns the full retail margin and builds the brand directly with drinkers.",
+  "link": "taproom-economics"
+ },
+ {
+  "term": "Contract brewing",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Arrangement where a brand owner pays an established brewery to brew and package its recipe. It lets brands launch without building a plant, though quality depends on the host.",
+  "link": "contract-brewing-india"
+ },
+ {
+  "term": "Gypsy brewing",
+  "aka": [
+   "cuckoo brewing",
+   "nomad brewing"
+  ],
+  "cat": "Business and India",
+  "def": "Brewing by a brand or brewer with no plant of its own, renting spare capacity at other breweries batch by batch. It is a common way to test demand before investing.",
+  "link": "gypsy-brewing-explained"
+ },
+ {
+  "term": "Quality agreement",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Written contract between a brand owner and a host brewery setting out specifications, testing, sign-off and who pays for failed batches. It prevents arguments when a batch goes wrong.",
+  "link": "contract-brewing-quality-agreement"
+ },
+ {
+  "term": "On-trade",
+  "aka": [
+   "on-premise"
+  ],
+  "cat": "Business and India",
+  "def": "Sales of drinks for consumption where they are bought, such as bars, pubs, restaurants and hotels. Margins and brand building work very differently here than in retail.",
+  "link": "on-trade-vs-off-trade"
+ },
+ {
+  "term": "Off-trade",
+  "aka": [
+   "off-premise"
+  ],
+  "cat": "Business and India",
+  "def": "Sales of packaged drinks to take away and drink elsewhere, mainly through licensed liquor shops in India. Rules on who may sell vary by state.",
+  "link": "on-trade-vs-off-trade"
+ },
+ {
+  "term": "Route to market",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Path a product takes from brewery to drinker through depots, distributors, wholesalers and retailers. In India state rules often decide who may buy from whom.",
+  "link": "beer-distribution-india"
+ },
+ {
+  "term": "Excise duty",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Tax charged by a state on alcohol made or sold within it, collected through permits, labels or volume-based charges. Structures and processes vary by state, so brewers need local advice.",
+  "link": "beer-excise-duty-india"
+ },
+ {
+  "term": "Licence fee",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Annual or one-off fee paid to the state for the right to brew, store or sell alcohol. Licence categories, fees and renewal cycles vary by state.",
+  "link": "microbrewery-licence-india"
+ },
+ {
+  "term": "Transport permit",
+  "aka": [
+   "excise pass"
+  ],
+  "cat": "Business and India",
+  "def": "Document issued by the state excise department to move alcohol from a brewery to a warehouse, retailer or another state. Requirements and processes vary by state.",
+  "link": "beer-distribution-india"
+ },
+ {
+  "term": "Bonded warehouse",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Store where alcohol is held under excise supervision before duty is paid. Duty usually falls due as stock leaves bond, though procedures vary by state.",
+  "link": "excise-for-finance-teams-beer-wine-spirits"
+ },
+ {
+  "term": "Bulk litre",
+  "aka": [
+   "BL"
+  ],
+  "cat": "Business and India",
+  "def": "Volume of a drink as measured, whatever its strength. Indian excise often counts beer in bulk litres and spirits in proof litres; methods vary by state.",
+  "link": "excise-for-finance-teams-beer-wine-spirits"
+ },
+ {
+  "term": "Case",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Standard selling unit of packaged drinks, such as 12 bottles of 650 ml or 24 cans of 500 ml. Case sizes differ, so convert to litres before comparing sales.",
+  "link": "beer-distribution-india"
+ },
+ {
+  "term": "Shipments",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Volume a brewery sends to distributors or depots, recorded at the factory gate. Shipments can rise while real consumer sales fall, so they are read alongside depletions.",
+  "link": "shipments-vs-depletions-beer-sales-data"
+ },
+ {
+  "term": "Depletions",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Volume a distributor sells on to retailers and bars, a closer signal of real demand than brewery shipments. Comparing the two shows stock building up or running down in the trade.",
+  "link": "shipments-vs-depletions-beer-sales-data"
+ },
+ {
+  "term": "COGS",
+  "aka": [
+   "cost of goods sold"
+  ],
+  "cat": "Business and India",
+  "def": "Direct cost of making the product sold: ingredients, packaging, direct labour and production overheads. Companies treat excise differently within it, so check before comparing figures.",
+  "link": "beer-cost-of-goods-explained"
+ },
+ {
+  "term": "Cost per litre",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Total cost of making one litre of finished beer, including ingredients, packaging, energy, labour and overheads. Pricing and margin decisions should start from this number.",
+  "link": "cost-per-litre-beer"
+ },
+ {
+  "term": "Gross margin",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Revenue minus cost of goods sold, often shown as a percentage of revenue. It shows how much each sale contributes towards overheads and profit.",
+  "link": "beer-pricing-strategy"
+ },
+ {
+  "term": "MRP",
+  "aka": [
+   "maximum retail price"
+  ],
+  "cat": "Business and India",
+  "def": "Highest price at which a packaged product may be sold to consumers in India, printed on the pack. For alcohol it is also shaped by state excise pricing rules.",
+  "link": "beer-pricing-strategy"
+ },
+ {
+  "term": "Hectolitre",
+  "aka": [
+   "hl"
+  ],
+  "cat": "Business and India",
+  "def": "Unit of 100 litres, the standard way breweries express batch size, tank volume and annual output. A 10 hl brewhouse makes about 1,000 litres per brew.",
+  "link": "brewhouse-size-guide"
+ },
+ {
+  "term": "Brewhouse capacity",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Volume of wort a brewhouse can produce per brew, usually given in hectolitres. Annual output also depends on brews per day and how much fermenting space follows.",
+  "link": "brewhouse-size-guide"
+ },
+ {
+  "term": "Beer loss",
+  "aka": [
+   "yield loss"
+  ],
+  "cat": "Business and India",
+  "def": "Volume lost between brewhouse and sale through tank bottoms, filling waste, breakages and dumped batches. Tracking it stage by stage is one of the cheapest profit gains.",
+  "link": "brewery-loss-audit"
+ },
+ {
+  "term": "Flagship beer",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Core beer a brewery is best known for and sells all year round. Its steady volume usually pays for the seasonal experiments.",
+  "link": "flagship-beer-strategy"
+ },
+ {
+  "term": "FSSAI",
+  "aka": [
+   "Food Safety and Standards Authority of India"
+  ],
+  "cat": "Business and India",
+  "def": "India's national food regulator, which sets standards for alcoholic drinks covering composition, additives and labelling. Breweries need its licence alongside state excise approvals.",
+  "link": "fssai-rules-for-beer"
+ },
+ {
+  "term": "Label approval",
+  "aka": [
+   "label registration"
+  ],
+  "cat": "Business and India",
+  "def": "Process of getting a drink's label approved by the state excise department before sale. Each state reviews labels separately and requirements vary, so multi-state launches take time.",
+  "link": "beer-label-rules-india"
+ },
+ {
+  "term": "Dry day",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "Day when the sale of alcohol is banned, such as certain national holidays, election days and some festivals. State governments set the dates, so taprooms plan stock and staff around them.",
+  "link": "planning-a-brewpub-year-around-indian-seasons"
+ },
+ {
+  "term": "Dry state",
+  "aka": [],
+  "cat": "Business and India",
+  "def": "State where the sale and consumption of alcohol is prohibited, wholly or largely. Prohibition policies change over time, so check the current position state by state.",
+  "link": "craft-beer-rules-by-state-india"
+ },
+ {
+  "term": "Brix",
+  "aka": [
+   "°Bx",
+   "degrees Brix"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Scale of dissolved sugar in grape juice, where 1 degree equals 1 g of sucrose per 100 g of solution. Winemakers track it to time the harvest and predict potential alcohol.",
+  "link": "wine-harvest-and-vintage-planning"
+ },
+ {
+  "term": "Must",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Freshly crushed grape juice with its skins, seeds and pulp, before or during fermentation. Red wine takes its colour from fermenting with the skins in the must.",
+  "link": "how-wine-is-made"
+ },
+ {
+  "term": "Malolactic fermentation",
+  "aka": [
+   "MLF",
+   "malo"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Conversion of sharp malic acid into softer lactic acid by bacteria, usually after the main ferment. It softens acidity and can add buttery notes to reds and some whites.",
+  "link": "how-wine-is-made"
+ },
+ {
+  "term": "Lees",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Dead yeast and other sediment that settle after fermentation. Ageing wine on its lees, called sur lie, adds texture and bready complexity.",
+  "link": "how-wine-is-made"
+ },
+ {
+  "term": "Fining (wine)",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Adding an agent such as bentonite, egg white or gelatin to wine so it binds haze-forming or harsh compounds that then settle out. Some agents make a wine unsuitable for vegans.",
+  "link": "wine-faults-for-quality-teams"
+ },
+ {
+  "term": "Tannin",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Polyphenols from grape skins, seeds, stems and oak that give red wine its drying grip. Tannin softens with age and helps a wine last.",
+  "link": "wine-tasting-for-beginners"
+ },
+ {
+  "term": "Sulphites",
+  "aka": [
+   "SO2",
+   "sulphur dioxide"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Sulphur dioxide added to wine to protect it from oxidation and spoilage microbes. Most wines contain some, which is why many markets require a sulphite warning on the label.",
+  "link": "wine-faults-for-quality-teams"
+ },
+ {
+  "term": "Cork taint",
+  "aka": [
+   "TCA"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Musty, damp cardboard smell caused by trichloroanisole, often from a contaminated cork. Even tiny amounts mute a wine's fruit.",
+  "link": "wine-faults-for-quality-teams"
+ },
+ {
+  "term": "Vintage",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Year the grapes were harvested, printed on many wine labels. Weather that year shapes quality, so vintage matters most in marginal climates.",
+  "link": "reading-a-wine-label"
+ },
+ {
+  "term": "Terroir",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Combined effect of site, soil, climate and slope on the character of a wine. It explains why the same grape tastes different from different vineyards.",
+  "link": "indian-wine-regions"
+ },
+ {
+  "term": "Traditional method",
+  "aka": [
+   "méthode traditionnelle"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Sparkling wine method where a second fermentation happens in the bottle, followed by ageing on lees, riddling and disgorging. Champagne is made this way.",
+  "link": "red-white-rose-and-sparkling-wine"
+ },
+ {
+  "term": "Fortification",
+  "aka": [
+   "fortified wine"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Adding grape spirit to wine during or after fermentation, raising alcohol to roughly 15 to 22% ABV. Port, sherry and Madeira are made this way.",
+  "link": "how-fortified-wines-are-made"
+ },
+ {
+  "term": "Solera",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Fractional blending system of barrel tiers used for sherry, where wine for bottling comes from the oldest tier and is topped up from younger ones. Each bottle holds a little very old wine.",
+  "link": "how-fortified-wines-are-made"
+ },
+ {
+  "term": "Flor",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Film of yeast that grows on fino and manzanilla sherry in barrels left part full. It shields the wine from oxygen and gives a tangy, nutty, bread-dough character.",
+  "link": "how-fortified-wines-are-made"
+ },
+ {
+  "term": "Cask",
+  "aka": [
+   "barrel"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Wooden container, usually oak, used to mature spirits and wine. Ex-bourbon and ex-sherry casks are the most common for whisky, each shaping colour and flavour.",
+  "link": "whisky-maturation-and-casks"
+ },
+ {
+  "term": "Maturation",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Time a spirit or wine spends ageing in cask, drawing flavour from the wood, oxidising gently and losing harsh notes. Heat speeds the process up.",
+  "link": "whisky-maturation-and-casks"
+ },
+ {
+  "term": "Angels' share",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Spirit lost to evaporation through the cask during maturation. Losses are far higher in hot climates such as India than in Scotland, which speeds ageing but costs volume.",
+  "link": "angels-share-whisky-in-indian-heat"
+ },
+ {
+  "term": "Wash",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Fermented liquid, much like an unhopped beer, that a distiller feeds into the still. For malt whisky it is usually around 7 to 9% ABV.",
+  "link": "how-whisky-is-made"
+ },
+ {
+  "term": "New make spirit",
+  "aka": [
+   "new make"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Clear spirit straight off the still before any cask ageing. Its quality sets the ceiling for the finished whisky.",
+  "link": "getting-new-make-spirit-right"
+ },
+ {
+  "term": "Pot still",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Copper still run in batches, usually twice for malt whisky, giving a heavier, more flavourful spirit. The copper also strips out sulphur compounds.",
+  "link": "how-whisky-is-made"
+ },
+ {
+  "term": "Column still",
+  "aka": [
+   "continuous still",
+   "Coffey still"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Tall still that distils continuously over many internal plates, producing a lighter, stronger spirit efficiently. It is used for grain whisky, vodka and most Indian molasses spirit.",
+  "link": "molasses-vs-grain-spirit-india"
+ },
+ {
+  "term": "Cut points",
+  "aka": [
+   "heads, hearts and tails"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Moments when a distiller switches the spirit run from heads to hearts and from hearts to tails. Only the hearts are kept, so cut timing shapes flavour.",
+  "link": "getting-new-make-spirit-right"
+ },
+ {
+  "term": "Extra neutral alcohol",
+  "aka": [
+   "ENA",
+   "neutral spirit"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Highly rectified spirit of about 95 to 96% ABV with little flavour of its own. In India it is the base of most mass-market spirits, usually made from molasses or grain.",
+  "link": "molasses-vs-grain-spirit-india"
+ },
+ {
+  "term": "Proof",
+  "aka": [
+   "ABV versus proof"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Older measure of alcohol strength. US proof is twice the ABV, so 40% ABV is 80 proof; British proof differs, with 100 proof equal to about 57.1% ABV.",
+  "link": "whisky-label-terms-explained"
+ },
+ {
+  "term": "Single malt",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Whisky made only from malted barley at a single distillery. Scotch single malt must also be distilled in pot stills and aged at least three years in oak.",
+  "link": "malt-grain-and-blended-whisky"
+ },
+ {
+  "term": "Blended whisky",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Whisky made by mixing different whiskies, typically malt and grain. Many Indian blends also include neutral spirit, which is why labels and definitions differ by market.",
+  "link": "malt-grain-and-blended-whisky"
+ },
+ {
+  "term": "Age statement",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Number on a whisky label giving the age of the youngest spirit in the bottle. A 12-year-old can contain older whisky but nothing younger.",
+  "link": "whisky-label-terms-explained"
+ },
+ {
+  "term": "Cask strength",
+  "aka": [
+   "barrel proof"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Whisky bottled at the strength it comes out of the cask, without dilution with water, often above 50% ABV.",
+  "link": "whisky-label-terms-explained"
+ },
+ {
+  "term": "Peat",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Partly decayed vegetation burned to dry malted barley, giving smoky, medicinal flavours measured in phenol parts per million. Islay whiskies are the best-known peated style.",
+  "link": "how-whisky-is-made"
+ },
+ {
+  "term": "Gin botanicals",
+  "aka": [
+   "botanicals"
+  ],
+  "cat": "Wine and spirits",
+  "def": "Plant ingredients that flavour gin, led by juniper, which must dominate, plus coriander, citrus peel, angelica and many others. Indian gins often add local spices.",
+  "link": "craft-gin-making-course.html"
+ },
+ {
+  "term": "Vapour infusion",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Gin method where botanicals sit in a basket above the boiling spirit so the rising vapour extracts their aroma. It gives a lighter, more delicate result than soaking the botanicals in the spirit.",
+  "link": "craft-gin-making-course.html"
+ },
+ {
+  "term": "London dry gin",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Gin style where all flavour comes from botanicals distilled with the spirit, with only water and a trace of sugar allowed afterwards. The name describes a method, not a place.",
+  "link": "craft-gin-making-course.html"
+ },
+ {
+  "term": "Feni",
+  "aka": [],
+  "cat": "Wine and spirits",
+  "def": "Goan spirit distilled from fermented cashew apple juice or coconut palm toddy, traditionally in small pot stills. Cashew feni holds a geographical indication tag.",
+  "link": ""
+ }
+]

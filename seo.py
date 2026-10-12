@@ -44,6 +44,7 @@ PAGE_WEIGHT = {
     "faq.html": ("0.7", "monthly"),
     "blog.html": ("0.6", "weekly"),
     "breweries.html": ("0.8", "monthly"),
+    "brewing-glossary.html": ("0.8", "monthly"),
     "yeast-strains-guide.html": ("0.8", "monthly"),
     "hops-guide.html": ("0.8", "monthly"),
     "malt-guide.html": ("0.8", "monthly"),
@@ -64,6 +65,7 @@ BREADCRUMB_LABEL = {
     "resources.html": "Resources",
     "blog.html": "Blog",
     "breweries.html": "Breweries",
+    "brewing-glossary.html": "Brewing glossary",
     "brewery-hopping-india.html": "Brewery hopping",
     "yeast-strains-guide.html": "Yeast strains",
     "hops-guide.html": "Hops",
@@ -266,6 +268,9 @@ def jsonld(slug, title, desc):
     for _k, _g in ingredients.GUIDES.items():
         if slug == _g["slug"]:
             graph.extend(ingredients.graph_nodes(_k))
+    if slug == "brewing-glossary.html":
+        import glossary
+        graph.extend(glossary.graph_nodes())
     if slug == "breweries.html":
         import breweries
         graph.extend(breweries.graph_nodes())
@@ -389,6 +394,7 @@ def llms_txt():
         "",
         f"- [Courses]({SITE_URL}/courses.html): all {pages_a.COURSE_COUNT_WORD} online courses and in-person workshops.",
         f"- [India craft brewery directory]({SITE_URL}/breweries.html): map and list of craft breweries, brewpubs and taprooms in India, searchable by brewery, beer, style, city and state, each with a source and last-checked date.",
+        f"- [Brewing glossary]({SITE_URL}/brewing-glossary.html): brewing, tasting, packaging, business and wine terms defined in plain English.",
         f"- [Brewery hopping trails in India]({SITE_URL}/brewery-hopping-india.html): mapped brewery hopping trails for India's craft beer cities, stop by stop with distances and beers to try.",
         f"- [Brewing yeast strains guide]({SITE_URL}/yeast-strains-guide.html): popular dry and liquid yeasts compared on attenuation, temperature and flocculation from makers' datasheets.",
         f"- [Hop varieties guide]({SITE_URL}/hops-guide.html): popular hops compared on alpha acid, oil, aroma and substitutes.",

@@ -1019,3 +1019,19 @@ header nav{gap:1.6rem}
 /* Phone notice: the site is best on a bigger screen */
 .device-note{margin:0;padding:.55rem 2.6rem .55rem 1rem;background:#fff8ee;border-bottom:1px solid var(--line);font-size:.8rem;color:var(--ink);position:relative;text-align:center}
 .device-note button{position:absolute;right:.6rem;top:50%;transform:translateY(-50%);background:none;border:0;font-size:1.2rem;line-height:1;cursor:pointer;color:var(--ink-soft);padding:.2rem .4rem}
+
+/* Brewing glossary */
+.gl-az{display:flex;flex-wrap:wrap;gap:.3rem;justify-content:center;margin:1rem 0 0}
+.gl-az a{min-width:2rem;padding:.3rem .45rem;border-radius:6px;text-align:center;font-family:var(--mono);font-weight:700;font-size:.8rem;color:var(--navy);background:var(--cloud)}
+.gl-az a:hover{background:var(--amber);color:#fff}
+.gl-list{max-width:900px;margin:0 auto}
+.gl-letter{scroll-margin-top:6rem;padding-top:1rem}
+.gl-letter h2{font-size:2rem;color:var(--amber-deep);border-bottom:2px solid var(--line);padding-bottom:.3rem;margin:1rem 0 .4rem}
+.gl-letter dl{margin:0}
+.gl-term{padding:.9rem 0;border-bottom:1px solid var(--line);scroll-margin-top:6rem}
+.gl-term:target{background:#fff8ee}
+.gl-term dt{font-family:var(--head);font-weight:800;font-size:1.1rem}
+.gl-cat{font-family:var(--mono);font-weight:700;font-size:.56rem;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);background:#e6f1f4;padding:.15rem .45rem;border-radius:4px;margin-left:.5rem;vertical-align:middle}
+.gl-term dd{margin:.3rem 0 0;color:var(--ink-soft);max-width:72ch}
+.gl-more{margin-left:.35rem;color:var(--blue);text-decoration:underline;text-underline-offset:2px;font-size:.9rem}
+.gl-aka{display:block;margin-top:.25rem;font-size:.78rem;font-style:italic}
