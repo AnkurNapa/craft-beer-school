@@ -31,7 +31,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;1,9..144,500;1,9..144,600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="styles.css?v=beec8a88b7" />
+<link rel="stylesheet" href="styles.css?v=8822d982b1" />
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["EducationalOrganization","LocalBusiness"],"@id":"https://craftbeerschool.in/#organization","name":"Craft Beer School","url":"https://craftbeerschool.in","logo":{"@type":"ImageObject","url":"https://craftbeerschool.in/assets/logo.png"},"image":"https://craftbeerschool.in/assets/og-default.png","description":"India's online and in-person beer school teaching brewing, tasting, branding and the business of beer, grain to glass.","email":"chatty@cheerschattyventures.com","telephone":"+91-98209-25347","address":{"@type":"PostalAddress","addressLocality":"Bengaluru","addressCountry":"IN"},"areaServed":{"@type":"Country","name":"India"},"knowsAbout":["Brewing","Craft beer","Beer sensory evaluation","Brewery business management","Beer styles","WSET","Cicerone"]},{"@type":"WebSite","@id":"https://craftbeerschool.in/#website","url":"https://craftbeerschool.in","name":"Craft Beer School","publisher":{"@id":"https://craftbeerschool.in/#organization"},"inLanguage":"en-IN","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://craftbeerschool.in/search.html?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://craftbeerschool.in/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://craftbeerschool.in/blog.html"},{"@type":"ListItem","position":3,"name":"Diacetyl: the butter fault","item":"https://craftbeerschool.in/diacetyl-off-flavour.html"}]},{"@type":"WebPage","@id":"https://craftbeerschool.in/diacetyl-off-flavour.html#webpage","url":"https://craftbeerschool.in/diacetyl-off-flavour.html","name":"Diacetyl: The Butter Off-Flavour in Beer | Craft Beer School","description":"What diacetyl is, why it tastes like butter and feels slick, what causes it and when it is actually acceptable.","isPartOf":{"@id":"https://craftbeerschool.in/#website"},"about":{"@id":"https://craftbeerschool.in/#organization"},"inLanguage":"en-IN"},{"@type":"Article","@id":"https://craftbeerschool.in/diacetyl-off-flavour.html#article","headline":"Diacetyl: the butter fault","description":"What diacetyl is, why it tastes like butter and feels slick, what causes it and when it is actually acceptable.","articleSection":"Tasting","url":"https://craftbeerschool.in/diacetyl-off-flavour.html","datePublished":"2025-01-09","dateModified":"2025-01-09","inLanguage":"en-IN","isPartOf":{"@id":"https://craftbeerschool.in/#website"},"mainEntityOfPage":{"@id":"https://craftbeerschool.in/diacetyl-off-flavour.html#webpage"},"author":[{"@type":"Person","name":"Ankur Napa","image":"https://craftbeerschool.in/assets/team3.jpg","url":"https://craftbeerschool.in/mentor-ankur-napa.html"},{"@type":"Person","name":"Rahul Baliyan","image":"https://craftbeerschool.in/assets/rahul-baliyan-portrait.jpg","url":"https://craftbeerschool.in/mentor-rahul-baliyan.html"}],"publisher":{"@id":"https://craftbeerschool.in/#organization"},"image":"https://craftbeerschool.in/assets/og/diacetyl-off-flavour.jpg","about":{"@id":"https://craftbeerschool.in/#organization"}},{"@type":"FAQPage","@id":"https://craftbeerschool.in/diacetyl-off-flavour.html#faq","mainEntity":[{"@type":"Question","name":"Is diacetyl always a fault?","acceptedAnswer":{"@type":"Answer","text":"No. A low level is traditional in some English ales and Czech lagers. In a clean modern lager or a hop forward beer it is generally a defect."}},{"@type":"Question","name":"Why does diacetyl feel slick as well as taste buttery?","acceptedAnswer":{"@type":"Answer","text":"The compound affects mouthfeel as well as aroma and flavour, producing an oily texture across the tongue distinct from the smell alone."}},{"@type":"Question","name":"Can diacetyl be fixed after the beer is packaged?","acceptedAnswer":{"@type":"Answer","text":"Rarely. It needs to be caught before packaging, while the yeast is still present and active enough to reduce it during a proper diacetyl rest."}},{"@type":"Question","name":"How do I know if my diacetyl is from process or infection?","acceptedAnswer":{"@type":"Answer","text":"Persistent diacetyl across multiple batches despite good fermentation practice is worth investigating as a possible infection, since that requires a different fix than simply extending the diacetyl rest."}}]}]}</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZHW47YJDC"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1ZHW47YJDC');</script>
@@ -339,5 +339,46 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   });
 });
 </script>
+<script>(()=>{
+const KEY='cbs-recent',POP=["IPA", "yeast", "mash temperature", "microbrewery licence", "off-flavours", "Power BI", "whisky", "kombucha"];let DATA=null,loading=null;
+const recent=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return[]}};
+const remember=q=>{q=q.trim();if(!q)return;try{const r=[q,...recent().filter(x=>x.toLowerCase()!==q.toLowerCase())].slice(0,6);localStorage.setItem(KEY,JSON.stringify(r))}catch(e){}};
+const load=()=>loading||(loading=fetch('assets/suggest.json').then(r=>r.json()).then(d=>DATA=d).catch(()=>DATA=[]));
+function score(t,q){t=t.toLowerCase();if(t.startsWith(q))return 3;if((' '+t).includes(' '+q))return 2;return t.includes(q)?1:0}
+document.querySelectorAll('form.search-form').forEach((form,fi)=>{
+  const input=form.querySelector('input[name=q]');if(!input)return;
+  const list=document.createElement('ul');list.className='sg-list';list.id='sg-'+fi;list.setAttribute('role','listbox');list.hidden=true;form.appendChild(list);
+  input.setAttribute('role','combobox');input.setAttribute('aria-autocomplete','list');input.setAttribute('aria-controls',list.id);input.setAttribute('aria-expanded','false');input.autocomplete='off';
+  let items=[],active=-1;
+  const close=()=>{list.hidden=true;input.setAttribute('aria-expanded','false');active=-1};
+  const go=it=>{if(it.q!==undefined){input.value=it.q;remember(it.q);form.submit();return}remember(input.value||it.t);location.href=it.u};
+  function draw(groups){
+    list.replaceChildren();items=[];
+    groups.forEach(([label,arr])=>{if(!arr.length)return;const h=document.createElement('li');h.className='sg-head';h.textContent=label;h.setAttribute('role','presentation');list.appendChild(h);
+      arr.forEach(it=>{const li=document.createElement('li');li.className='sg-item';li.setAttribute('role','option');li.id=list.id+'-'+items.length;
+        const t=document.createElement('span');t.textContent=it.t;li.appendChild(t);if(it.k){const k=document.createElement('em');k.textContent=it.k;li.appendChild(k)}
+        li.addEventListener('mousedown',e=>{e.preventDefault();go(it)});items.push(it);list.appendChild(li)})});
+    list.hidden=!items.length;input.setAttribute('aria-expanded',String(!list.hidden));active=-1;
+  }
+  function update(){
+    const q=input.value.trim().toLowerCase();
+    if(!q){draw([['Recent searches',recent().map(r=>({t:r,q:r}))],['Popular',POP.map(p=>({t:p,q:p}))]]);return}
+    if(!DATA){load().then(update);return}
+    const hits=DATA.map(r=>[score(r[0],q),r]).filter(x=>x[0]).sort((a,b)=>b[0]-a[0]||a[1][0].length-b[1][0].length).slice(0,8).map(x=>({t:x[1][0],u:x[1][1],k:x[1][2]}));
+    draw([['Suggestions',hits],['Search for',[{t:'All results for "'+input.value.trim()+'"',q:input.value.trim()}]]]);
+  }
+  input.addEventListener('focus',()=>{load();update()});
+  input.addEventListener('input',update);
+  input.addEventListener('blur',()=>setTimeout(close,120));
+  input.addEventListener('keydown',e=>{
+    if(list.hidden)return;const opts=list.querySelectorAll('.sg-item');
+    if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();active=(active+(e.key==='ArrowDown'?1:-1)+opts.length)%opts.length;
+      opts.forEach((o,i)=>o.classList.toggle('on',i===active));input.setAttribute('aria-activedescendant',opts[active].id)}
+    else if(e.key==='Enter'&&active>=0){e.preventDefault();go(items[active])}
+    else if(e.key==='Escape')close();
+  });
+  form.addEventListener('submit',()=>remember(input.value));
+});
+})();</script>
 </body>
 </html>

@@ -228,3 +228,70 @@ document.querySelectorAll('#finder input[name=finder]').forEach(r=>r.addEventLis
   document.querySelectorAll('#finder .finder-panel').forEach(p=>p.hidden=p.dataset.seg!==r.value);}}));
 </script>
 """
+
+
+def suggest_index(articles, styles):
+    """Small index for type-ahead in every search box: assets/suggest.json.
+    Title, link and kind only, so it stays light enough to load on first focus."""
+    import breweries
+    import glossary
+    import hopping
+    import ingredients
+    rows = [[_plain(c["name"]), pages_a.course_href(c["name"]), "Course"] for c in pages_a.COURSE_DATA]
+    rows += [[t, u, "Tool"] for t, u in [("India craft brewery directory", "breweries.html"),
+                                         ("Brewery hopping trails", "brewery-hopping-india.html"),
+                                         ("Brewing glossary", "brewing-glossary.html"),
+                                         ("Beer style library", "style-library.html")]]
+    rows += [[g["h1"].rstrip("."), g["slug"], "Tool"] for g in ingredients.GUIDES.values()]
+    rows += [[t.split(" | ")[0], p, "Trail"] for p, (t, *_r) in hopping.pages().items() if p != "brewery-hopping-india.html"]
+    rows += [[_plain(a["h1"]), f"{a['slug']}.html", "Guide"] for a in articles]
+    rows += [[s["name"], f"{s['slug']}.html", "Style"] for s in styles.values()]
+    rows += [[t["term"], f"brewing-glossary.html#{glossary._id(t['term'])}", "Term"] for t in glossary.load()]
+    rows += [[r["name"], f"breweries.html?q={r['name'].split(' (')[0]}", "Brewery"]
+             for r in breweries.load() if not breweries.is_closed(r)]
+    return rows
+
+
+SUGGEST_JS_RAW = """(()=>{
+const KEY='cbs-recent',POP=POPULAR_LIST;let DATA=null,loading=null;
+const recent=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return[]}};
+const remember=q=>{q=q.trim();if(!q)return;try{const r=[q,...recent().filter(x=>x.toLowerCase()!==q.toLowerCase())].slice(0,6);localStorage.setItem(KEY,JSON.stringify(r))}catch(e){}};
+const load=()=>loading||(loading=fetch('assets/suggest.json').then(r=>r.json()).then(d=>DATA=d).catch(()=>DATA=[]));
+function score(t,q){t=t.toLowerCase();if(t.startsWith(q))return 3;if((' '+t).includes(' '+q))return 2;return t.includes(q)?1:0}
+document.querySelectorAll('form.search-form').forEach((form,fi)=>{
+  const input=form.querySelector('input[name=q]');if(!input)return;
+  const list=document.createElement('ul');list.className='sg-list';list.id='sg-'+fi;list.setAttribute('role','listbox');list.hidden=true;form.appendChild(list);
+  input.setAttribute('role','combobox');input.setAttribute('aria-autocomplete','list');input.setAttribute('aria-controls',list.id);input.setAttribute('aria-expanded','false');input.autocomplete='off';
+  let items=[],active=-1;
+  const close=()=>{list.hidden=true;input.setAttribute('aria-expanded','false');active=-1};
+  const go=it=>{if(it.q!==undefined){input.value=it.q;remember(it.q);form.submit();return}remember(input.value||it.t);location.href=it.u};
+  function draw(groups){
+    list.replaceChildren();items=[];
+    groups.forEach(([label,arr])=>{if(!arr.length)return;const h=document.createElement('li');h.className='sg-head';h.textContent=label;h.setAttribute('role','presentation');list.appendChild(h);
+      arr.forEach(it=>{const li=document.createElement('li');li.className='sg-item';li.setAttribute('role','option');li.id=list.id+'-'+items.length;
+        const t=document.createElement('span');t.textContent=it.t;li.appendChild(t);if(it.k){const k=document.createElement('em');k.textContent=it.k;li.appendChild(k)}
+        li.addEventListener('mousedown',e=>{e.preventDefault();go(it)});items.push(it);list.appendChild(li)})});
+    list.hidden=!items.length;input.setAttribute('aria-expanded',String(!list.hidden));active=-1;
+  }
+  function update(){
+    const q=input.value.trim().toLowerCase();
+    if(!q){draw([['Recent searches',recent().map(r=>({t:r,q:r}))],['Popular',POP.map(p=>({t:p,q:p}))]]);return}
+    if(!DATA){load().then(update);return}
+    const hits=DATA.map(r=>[score(r[0],q),r]).filter(x=>x[0]).sort((a,b)=>b[0]-a[0]||a[1][0].length-b[1][0].length).slice(0,8).map(x=>({t:x[1][0],u:x[1][1],k:x[1][2]}));
+    draw([['Suggestions',hits],['Search for',[{t:'All results for "'+input.value.trim()+'"',q:input.value.trim()}]]]);
+  }
+  input.addEventListener('focus',()=>{load();update()});
+  input.addEventListener('input',update);
+  input.addEventListener('blur',()=>setTimeout(close,120));
+  input.addEventListener('keydown',e=>{
+    if(list.hidden)return;const opts=list.querySelectorAll('.sg-item');
+    if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();active=(active+(e.key==='ArrowDown'?1:-1)+opts.length)%opts.length;
+      opts.forEach((o,i)=>o.classList.toggle('on',i===active));input.setAttribute('aria-activedescendant',opts[active].id)}
+    else if(e.key==='Enter'&&active>=0){e.preventDefault();go(items[active])}
+    else if(e.key==='Escape')close();
+  });
+  form.addEventListener('submit',()=>remember(input.value));
+});
+})();"""
+
+SUGGEST_JS = SUGGEST_JS_RAW.replace("POPULAR_LIST", json.dumps(POPULAR))

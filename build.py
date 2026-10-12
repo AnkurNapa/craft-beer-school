@@ -7,6 +7,7 @@ every .html file in this folder. Edit the shell here once; all pages update.
 """
 import datetime
 import html
+import json
 import os
 import pathlib
 import re
@@ -408,6 +409,7 @@ def page(slug, title, desc, active, body):
 </main>
 {FOOTER}
 {SCRIPTS}
+<script>{discover.SUGGEST_JS}</script>
 </body>
 </html>""")))
 
@@ -548,6 +550,7 @@ def main():
 
     today = datetime.date.today().isoformat()
     write("assets/search.json", discover.search_index(ARTICLES, style_render.load_cards(), mentors.MENTORS))
+    write("assets/suggest.json", json.dumps(discover.suggest_index(ARTICLES, style_render.load_cards()), ensure_ascii=False, separators=(",", ":")))
     write("sitemap.xml", seo.sitemap_xml(list(PAGES), today))
     write("robots.txt", seo.robots_txt())
     write("llms.txt", seo.llms_txt())
