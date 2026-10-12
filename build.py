@@ -412,7 +412,6 @@ def page(slug, title, desc, active, body):
 {FOOTER}
 {SCRIPTS}
 <script>{discover.SUGGEST_JS}</script>
-{festive.MASCOT}
 </body>
 </html>""")))
 

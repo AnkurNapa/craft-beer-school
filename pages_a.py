@@ -233,13 +233,11 @@ OKT = """
 .okt-copy p{margin:0;color:#5a4330;font-size:1.05rem}
 .okt-facts{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.9rem}
 .okt-facts span{background:#fff;border:1px solid #ead9b8;border-radius:999px;padding:.3rem .85rem;font-size:.9rem;color:#3b2414}
-.okt-mug{font-size:clamp(3rem,7vw,4.6rem);line-height:1;transform:rotate(-8deg)}
-@media(max-width:680px){.okt-mug{display:none}.okt-band .wrap{gap:1rem;padding-block:1.4rem 1.6rem}.okt-title{font-size:2.1rem}.okt-copy p{font-size:.98rem}.okt-facts span{font-size:.85rem}.okt-band .btn{width:100%;justify-content:center}.okt-bunting{height:22px;background-size:64px 22px,64px 22px;background-position:0 0,32px 0}}
+@media(max-width:680px){.okt-band .wrap{gap:1rem;padding-block:1.4rem 1.6rem}.okt-title{font-size:2.1rem}.okt-copy p{font-size:.98rem}.okt-facts span{font-size:.85rem}.okt-band .btn{width:100%;justify-content:center}.okt-bunting{height:22px;background-size:64px 22px,64px 22px;background-position:0 0,32px 0}}
 </style>
 <div class="okt-only" aria-hidden="true"><div class="okt-bunting"></div></div>
 <section class="okt-only okt-band" aria-label="Oktoberfest batch">
   <div class="wrap">
-    <div class="okt-mug" aria-hidden="true">🍺</div>
     <div class="okt-copy">
       <span class="okt-ribbon">Learn. Brew. Cheer. Repeat.</span>
       <h2 class="okt-title">Oktoberfest at <em>Craft Beer School</em></h2>
