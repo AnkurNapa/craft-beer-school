@@ -999,3 +999,23 @@ section.fam-group{padding:0}
 header nav{gap:1.6rem}
 @media(min-width:961px) and (max-width:1440px){.navlinks{gap:1.15rem}}
 @media(min-width:961px) and (max-width:1180px){.navlinks{gap:.85rem;font-size:.88rem}}
+
+/* Top menu dropdowns */
+.nav-dd{position:relative}
+.nav-dd>a{display:inline-flex;align-items:center;gap:.3rem}
+.dd-caret{width:.42rem;height:.42rem;border-right:1.6px solid currentColor;border-bottom:1.6px solid currentColor;transform:rotate(45deg) translateY(-2px);opacity:.6}
+.dd-menu{position:absolute;top:calc(100% + .5rem);left:-1rem;min-width:220px;padding:.5rem;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);display:grid;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity .18s var(--ease),transform .18s var(--ease),visibility .18s;z-index:300}
+.dd-menu::before{content:"";position:absolute;top:-.6rem;left:0;right:0;height:.6rem}
+.dd-menu a{padding:.5rem .75rem;border-radius:8px;font-size:.9rem;white-space:nowrap}
+.dd-menu a::after{display:none}
+.dd-menu a:hover,.dd-menu a:focus-visible{background:var(--cloud);color:var(--amber-deep)}
+.nav-dd:hover .dd-menu,.nav-dd:focus-within .dd-menu{opacity:1;visibility:visible;transform:none}
+@media(max-width:960px){
+  .navlinks.open .nav-dd{width:100%}
+  .navlinks.open .dd-menu{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:0;padding:.2rem 0 0 .9rem;min-width:0}
+  .navlinks.open .dd-menu a{padding:.3rem 0;font-size:.88rem;color:var(--ink-soft)}
+  .dd-caret{display:none}
+}
+/* Phone notice: the site is best on a bigger screen */
+.device-note{margin:0;padding:.55rem 2.6rem .55rem 1rem;background:#fff8ee;border-bottom:1px solid var(--line);font-size:.8rem;color:var(--ink);position:relative;text-align:center}
+.device-note button{position:absolute;right:.6rem;top:50%;transform:translateY(-50%);background:none;border:0;font-size:1.2rem;line-height:1;cursor:pointer;color:var(--ink-soft);padding:.2rem .4rem}

@@ -54,7 +54,7 @@ MENTORS = [
          areas=["Strategy", "Operations", "Education"],
          courses=[],
          linkedin=""),
-    dict(slug="mentor-rahul-baliyan.html", name="Rahul Baliyan", img="assets/rahul-baliyan-portrait.jpg",
+    dict(slug="mentor-rahul-baliyan.html", name="Rahul Baliyan", img="assets/rahul-baliyan-portrait.jpg", page_img="assets/rahul-baliyan-headshot.jpg",
          role="Brewing Science Instructor · Delhi &amp; North India",
          card="German-style Brewmaster trained at Weihenstephan, TU Munich, with an M.Tech. in Food Biotechnology. A decade as Consultant Brew Master for JW Marriott Chandigarh and Rockmann Beer Island, India's first German brewery, from start-up and excise to yield and sourcing.",
          lede="German-style brewing, taught from Delhi.",
@@ -166,7 +166,7 @@ def _body(m):
     return banner(f'<a href="about.html">About</a> / {m["name"]}', m["role"], m["name"], m["lede"]) + f"""
 <section>
   <div class="wrap split">
-    <div class="split-media reveal"><img class="mentor-img" src="{m["img"]}" alt="{m["name"]}" style="border-radius:var(--radius)" /></div>
+    <div class="split-media reveal"><img class="mentor-img" src="{m.get("page_img", m["img"])}" alt="{m["name"]}" style="border-radius:var(--radius)" /></div>
     <div class="prose-block reveal">
       <span class="eyebrow">About {m["name"].split()[0]}</span>
       {bio}

@@ -119,17 +119,35 @@ def enroll_href(course=None):
         return ENROLL_HREF
     return f"contact.html?course={quote(course)}#enroll"
 
+# Top menu: five groups, each a dropdown (Ankur asked for dropdowns, 12 Oct 2026).
+# (label, landing page, active keys, [(sub label, href), ...] or None)
 NAV_ITEMS = [
-    ("Home", "index.html", "home"),
-    ("About", "about.html", "about"),
-    ("Courses", "courses.html", "courses"),
-    ("Resources", "resources.html", "resources"),
-    ("Styles", "style-library.html", "styles"),
-    ("Breweries", "breweries.html", "breweries"),
-    ("Blog", "blog.html", "blog"),
-    ("Podcast", "podcast.html", "podcast"),
-    ("Careers", "careers.html", "careers"),
-    ("Contact", "contact.html", "contact"),
+    ("Courses", "courses.html", {"courses"}, [
+        ("All courses", "courses.html"),
+        ("In-person courses", "in-person-brewing-courses-pune-delhi-gurugram-bengaluru.html"),
+        ("WSET exam prep", "courses.html#wset"),
+        ("Corporate training", "for-companies.html"),
+        ("Prospectus", "prospectus.html")]),
+    ("Learn", "blog.html", {"blog", "styles", "resources", "podcast"}, [
+        ("Guides and blog", "blog.html"),
+        ("Beer style library", "style-library.html"),
+        ("Yeast strains", "yeast-strains-guide.html"),
+        ("Hop varieties", "hops-guide.html"),
+        ("Malts", "malt-guide.html"),
+        ("Free resources", "resources.html"),
+        ("Podcast", "podcast.html"),
+        ("YouTube lessons", "youtube.html")]),
+    ("Find", "breweries.html", {"breweries"}, [
+        ("Brewery directory", "breweries.html"),
+        ("Brewery hopping trails", "brewery-hopping-india.html")]),
+    ("About", "about.html", {"about", "careers"}, [
+        ("About us", "about.html"),
+        ("Ankur Napa", "mentor-ankur-napa.html"),
+        ("Rahul Baliyan", "mentor-rahul-baliyan.html"),
+        ("Chatty Girija", "mentor-chatty-girija.html"),
+        ("Careers", "careers.html"),
+        ("FAQ", "faq.html")]),
+    ("Contact", "contact.html", {"contact"}, None),
 ]
 
 # Rotates through the current offers in promos.py; the first shows without JS.
@@ -162,9 +180,13 @@ def course_ticker():
 
 
 def nav(active):
-    def item(label, href, key):
-        cls = ' class="active"' if key == active else ''
-        return f'<a href="{href}"{cls}>{label}</a>'
+    def item(label, href, keys, subs):
+        cls = ' class="active"' if active in keys else ''
+        if not subs:
+            return f'<a href="{href}"{cls}>{label}</a>'
+        menu = "".join(f'<a href="{h}">{l}</a>' for l, h in subs)
+        return (f'<div class="nav-dd"><a href="{href}"{cls} aria-haspopup="true">{label}<span class="dd-caret" aria-hidden="true"></span></a>'
+                f'<div class="dd-menu">{menu}</div></div>')
     links = "".join(item(*i) for i in NAV_ITEMS)
     return f"""{ANNOUNCE}
 <div class="rainbow"></div>
@@ -180,6 +202,8 @@ def nav(active):
   </nav>
 </header>
 {course_ticker()}
+<p class="device-note" id="device-note" hidden>Best on a laptop or desktop: the maps, filters and tables have more room there. <button type="button" aria-label="Dismiss" onclick="this.parentNode.hidden=true;try{{localStorage.setItem('cbs-device-note','1')}}catch(e){{}}">&times;</button></p>
+<script>try{{if(innerWidth<860&&!localStorage.getItem('cbs-device-note'))document.getElementById('device-note').hidden=false}}catch(e){{}}</script>
 <div class="mobile-cta">
   <a class="btn btn-amber" href="{ENROLL_HREF}" data-cta="mobile-enroll">Enrol now</a>
   <a class="btn btn-wa" href="{whatsapp_href()}" target="_blank" rel="noopener" data-cta="mobile-whatsapp">[[whatsapp]] WhatsApp</a>
