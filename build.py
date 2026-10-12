@@ -154,8 +154,11 @@ NAV_ITEMS = [
     ("Contact", "contact.html", {"contact"}, None),
 ]
 
-# Rotates through the current offers in promos.py; the first shows without JS.
-ANNOUNCE = ('<div class="announce" aria-live="off">' + "".join(
+# Otherwise rotates through the current offers in promos.py; the first shows without JS.
+# During Oktoberfest (festive.GATE sets .okt) the strip shows only this line.
+ANNOUNCE = ('<div class="announce" aria-live="off">'
+    '<span class="okt-ann">Oktoberfest batch: Online Brewing Fundamentals starts 17 October, with a happy gift to take home. '
+    '<a href="contact.html?course=Brewing%20Fundamentals#enroll" data-cta="announce-oktoberfest">Enrol now [[arrow-right]]</a></span>' + "".join(
     f'<span class="ann"{"" if i == 0 else " hidden"}>{o["banner"]} '
     f'<a href="{o["article"]}" data-cta="announce-{o["key"]}">{o["link"]} [[arrow-right]]</a></span>'
     for i, o in enumerate(promos.OFFERS)) +
