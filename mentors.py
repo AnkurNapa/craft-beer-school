@@ -15,7 +15,11 @@ MENTORS = [
          areas=["Brewing science", "Brewery operations", "Data and AI for breweries", "Digital transformation"],
          courses=[("advanced-brewing-science-course.html", "Advanced Brewing Science"),
                   ("ai-for-craft-breweries-course.html", "AI for Craft Breweries"),
-                  ("power-bi-and-tableau-for-breweries-course.html", "Power BI and Tableau for Breweries")],
+                  ("power-bi-and-tableau-for-breweries-course.html", "Power BI and Tableau for Breweries"),
+                  ("brewery-business-management-course.html", "Brewery Business Management"),
+                  ("sensory-evaluation-course.html", "Sensory Evaluation"),
+                  ("digital-transformation-basics-for-brewing-course.html", "Digital Transformation Basics for Brewing"),
+                  ("esg-in-craft-brewing-course.html", "ESG in Craft Brewing")],
          career=[("2026 to now", "Growth Officer", "Disruptive Advantage"),
                  ("2023 to 2026", "Operations and Digital Transformation", "iWort"),
                  ("2022 to 2023", "Data Scientist, AI and GenAI", "AB InBev, global business units"),
@@ -55,7 +59,16 @@ MENTORS = [
               "He covers the whole brewing process and the running of a brewery around it: start-ups, excise compliance, team supervision, yield and raw material sourcing. He teaches for Craft Beer School from Delhi, for students across North India."],
          areas=["Brewing science", "German lager brewing", "Brewery start-ups", "Excise compliance", "Yield optimisation", "Raw material sourcing"],
          courses=[("brewing-fundamentals-course.html", "Brewing Fundamentals"),
-                  ("advanced-brewing-science-course.html", "Advanced Brewing Science")],
+                  ("advanced-brewing-science-course.html", "Advanced Brewing Science"),
+                  ("style-specialization-course.html", "Style Specialisation"),
+                  ("safety-in-brewing-course.html", "Safety in Brewing"),
+                  ("craft-distilling-course.html", "Craft Distilling"),
+                  ("craft-gin-making-course.html", "Craft Gin Making"),
+                  ("rtd-drinks-alcoholic-and-non-alcoholic-course.html", "RTD Drinks: Alcoholic and Non-Alcoholic"),
+                  ("hop-water-course.html", "Hop Water"),
+                  ("hard-seltzer-course.html", "Hard Seltzer"),
+                  ("kombucha-course.html", "Kombucha"),
+                  ("non-alcoholic-beer-course.html", "Non-Alcoholic Beer")],
          education=[("", "Brewing certification", "Weihenstephan, Technical University of Munich"),
                     ("", "M.Tech. Food Biotechnology", "")],
          linkedin="https://www.linkedin.com/in/rahul-baliyan-m-tech-40630a6b/",
@@ -78,20 +91,43 @@ def _linkedin(m):
     return f'<a href="{m["linkedin"]}" target="_blank" rel="noopener" class="link-arrow">{m["name"].split()[0]} on LinkedIn</a>'
 
 
-def instructors(course_slug):
-    """'Your instructors' section for a course page, empty if nobody is mapped to it."""
+CONTACT = "mentor-chatty-girija.html"  # point of contact on every course page, reached on WhatsApp
+WHATSAPP_NUMBER = "919820925347"      # school and Chatty WhatsApp, digits only, country code first
+
+
+def _person(m, label, action):
+    return (f'<article class="card person-card reveal"><img class="person-img" src="{m["img"]}" alt="{m["name"]}" '
+            f'width="120" height="120" loading="lazy" /><div class="card-body"><span class="cat">{label}</span>'
+            f'<h3><a href="{m["slug"]}">{m["name"]}</a></h3><p>{m["role"]}</p>{action}</div></article>')
+
+
+def instructors(course_slug, course_name):
+    """Instructor and point-of-contact cards for a course page. Instructors link to
+    LinkedIn where we have it; the point of contact opens WhatsApp about this course."""
+    by_slug = {m["slug"]: m for m in MENTORS}
     team = [m for m in MENTORS if any(s == course_slug for s, _ in m["courses"])]
-    if not team:
-        return ""
+    cards_html = []
+    for m in team:
+        if m["slug"] == CONTACT:
+            continue  # shown once below, as instructor and contact
+        action = (f'<a href="{m["linkedin"]}" target="_blank" rel="noopener" class="btn btn-ghost person-btn" '
+                  f'data-cta="course-instructor-linkedin">Connect on LinkedIn</a>' if m["linkedin"]
+                  else f'<a href="{m["slug"]}" class="link-arrow">Full profile</a>')
+        cards_html.append(_person(m, "Instructor", action))
+    c = by_slug[CONTACT]
+    label = "Instructor and point of contact" if c in team else "Point of contact"
+    from urllib.parse import quote
+    wa = f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(f'Hi Chatty, I would like to know more about the {course_name} course.')}"
+    cards_html.append(_person(c, label, f'<a href="{wa}" target="_blank" rel="noopener" class="btn btn-amber person-btn" '
+                                        f'data-cta="course-contact-whatsapp">WhatsApp {c["name"].split()[0]}</a>'))
+    head = "Your instructor and point of contact" if len(team) <= 1 else "Your instructors and point of contact"
     return f"""<section class="tint">
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Your instructor{"s" if len(team) > 1 else ""}</span><h2>Who teaches this course.</h2></div>
-    <div class="grid-3">
-{"".join(card(m) for m in team)}    </div>
+    <div class="sec-head"><span class="eyebrow">{head}</span><h2>Who teaches this course, and who to ask.</h2></div>
+    <div class="person-grid">{"".join(cards_html)}</div>
   </div>
 </section>
 """
-
 
 def cards():
     return "".join(card(m) for m in MENTORS)

@@ -494,7 +494,7 @@ def render(c):
   </div>
 </section>
 
-{mentors.instructors(slug_for(c["name"]))}
+{mentors.instructors(slug_for(c["name"]), c["name"].replace("&amp;", "&"))}
 <section class="tint">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Syllabus</span><h2>Week by week.</h2><p class="lead">{c["weeks"]} week{"s" if c["weeks"] != 1 else ""}. Two live sessions every weekend and one assignment a week.</p></div>

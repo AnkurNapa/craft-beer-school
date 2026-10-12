@@ -86,7 +86,7 @@ def ga_tag():
 
 # Single source of truth for every contact CTA on the site.
 ENQUIRY_EMAIL = "chatty@cheerschattyventures.com"
-WHATSAPP_NUMBER = "919820925347"      # digits only, country code first
+WHATSAPP_NUMBER = mentors.WHATSAPP_NUMBER
 WHATSAPP_TEXT = "Hi Craft Beer School, I'd like to know more about your courses."
 ENROLL_HREF = "contact.html#enroll"   # lands on the form, not the top of the page
 
