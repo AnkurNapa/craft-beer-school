@@ -199,7 +199,7 @@ def tracks_section():
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Every course</span>
       <h2>Find your track.</h2>
-      <p class="lead">{len(COURSE_DATA)} live online courses across brewing, business, spirits and the drinks beyond beer, plus a free safety course and hands-on days in Bengaluru.</p></div>
+      <p class="lead">{len(COURSE_DATA)} courses across brewing, business, spirits, wine and the drinks beyond beer, live online and in person in Pune, Delhi, Gurugram and Bengaluru, plus a free safety course.</p></div>
     <div class="tracks">{"".join(tiles)}</div>
     <div style="margin-top:2rem"><a href="prospectus.html" class="btn btn-ghost" data-cta="prospectus-download">Read the prospectus</a></div>
   </div>
