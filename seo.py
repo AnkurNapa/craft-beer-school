@@ -221,10 +221,11 @@ def _article_nodes(art, slug):
         "inLanguage": "en-IN",
         "isPartOf": {"@id": f"{SITE_URL}/#website"},
         "mainEntityOfPage": {"@id": url_for(slug) + "#webpage"},
-        "author": ({"@type": "Person", "name": by["name"],
-                    **({"image": f"{SITE_URL}/{by['photo']}"} if by.get("photo") else {}),
-                    **({"url": f"{SITE_URL}/{by['href']}"} if by.get("href") else {})}
-                   if (by := art.get("author") or art.get("expert")) else {"@id": f"{SITE_URL}/#organization"}),
+        "author": ([{"@type": "Person", "name": by["name"],
+                     **({"image": f"{SITE_URL}/{by['photo']}"} if by.get("photo") else {}),
+                     **({"url": f"{SITE_URL}/{by['href']}"} if by.get("href") else {})}
+                    for by in (art.get("author") or art.get("expert"), art.get("co_expert")) if by]
+                   if (art.get("author") or art.get("expert")) else {"@id": f"{SITE_URL}/#organization"}),
         "publisher": {"@id": f"{SITE_URL}/#organization"},
         "image": og_image(slug),
         "about": ({"@type": "Person", "name": art["subject"]["name"],

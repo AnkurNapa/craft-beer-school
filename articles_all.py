@@ -30,15 +30,50 @@ _CREATIVE = {"brand", "design", "social", "influencers", "storytelling", "naming
              "marketing", "positioning", "launching"}
 
 
+# Bylines (Ankur's rule, 12 October 2026): Ankur leads every beer guide, because
+# Craft Beer School is his school and his idea.
+#   food and pairing guides       Ankur Napa and Anu Rao
+#   beer with AI, data or digital Ankur Napa
+#   brand and marketing guides    Ankur Napa and Chatty Girija
+#   consultancy guides            Rahul Baliyan only
+#   every other beer guide        Ankur Napa and Rahul Baliyan
+# A plan row's "by" set to Chatty (pieces about Ankur) still wins. Chatty is the
+# point of contact on every guide.
+ANKUR, RAHUL, ANU, CHATTY = ("mentor-ankur-napa.html", "mentor-rahul-baliyan.html",
+                             "mentor-anu-rao.html", "mentor-chatty-girija.html")
+_FOOD = {"pairing", "food", "biryani", "dosa", "cheese", "dessert", "menu", "chettinad", "dishes", "cuisine"}
+_TECH = {"ai", "data", "power", "bi", "tableau", "dashboard", "dashboards", "digital", "analytics", "analysts",
+         "kpi", "kpis", "sensors", "software", "calculators", "forecasting", "machine", "copilot"}
+
+
+def authors(a):
+    """Byline slugs for a guide, first author first."""
+    plan = _PLAN.get(a["slug"], {})
+    if plan.get("by") == CHATTY:
+        return [CHATTY]
+    words = set(a["slug"].split("-")) | set(a["h1"].lower().replace(",", " ").replace(":", " ").split())
+    if _FOOD & words:
+        return [ANKUR, ANU]
+    if _TECH & words:
+        return [ANKUR]
+    if a["cat"] == "Consultancy":
+        return [RAHUL]
+    if a["cat"] == "Branding" or _CREATIVE & set(a["slug"].split("-")):
+        return [ANKUR, CHATTY]
+    return [ANKUR, RAHUL]
+
+
 def expert(a):
-    if _PLAN.get(a["slug"], {}).get("by"):
-        return _PEOPLE[_PLAN[a["slug"]]["by"]]
-    creative = a["cat"] == "Branding" or bool(_CREATIVE & set(a["slug"].split("-")))
-    return _PEOPLE["mentor-chatty-girija.html" if creative else "mentor-ankur-napa.html"]
+    return _PEOPLE[authors(a)[0]]
 
 
-_seeded = [{**a, "expert": expert(a)} for a in _seeded]
-_hand = [a if a.get("author") else {**a, "expert": expert(a)}
+def _with_bylines(a):
+    names = authors(a)
+    return {**a, "expert": _PEOPLE[names[0]], "co_expert": _PEOPLE[names[1]] if len(names) > 1 else None,
+            "contact": _PEOPLE[CHATTY]}
+
+_seeded = [_with_bylines(a) for a in _seeded]
+_hand = [a if a.get("author") else _with_bylines(a)
          for a in articles_a.ARTICLES_A + articles_b.ARTICLES_B + stories.STORIES]
 
 # Newest first, the way a reader expects a journal to run.

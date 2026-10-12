@@ -53,13 +53,34 @@ def _also(also):
             f'<a href="{href}" data-cta="article-also">See {name}</a></p>')
 
 
+def _ext(href):
+    return ' target="_blank" rel="noopener"' if href.startswith("http") else ""
+
+
 def _byline(people):
     """Who the story is about and who wrote it, each with a photo when we have one."""
     cards = "".join(f"""<div class="byline">
       {f'<img src="{p["photo"]}" alt="{p["name"]}" width="64" height="64" loading="eager">' if p.get("photo") else ""}
-      <div><span>{label}</span><strong>{f'<a href="{p["href"]}" data-cta="article-byline">{p["name"]}</a>' if p.get("href") else p['name']}</strong><span>{p.get('role', '')}</span></div>
+      <div><span>{label}</span><strong>{f'<a href="{p["href"]}"{_ext(p["href"])} data-cta="{"article-contact-whatsapp" if label == "Point of contact" else "article-byline"}">{p["name"]}</a>' if p.get("href") else p['name']}</strong><span>{p.get('role', '')}</span></div>
     </div>""" for label, p in people if p)
     return f'<div class="bylines">{cards}</div>' if cards else ""
+
+
+def _by_names(article):
+    people = [article.get("author") or article.get("expert"), article.get("co_expert")]
+    names = [p["name"] for p in people if p] or ["Craft Beer School"]
+    return " and ".join(names)
+
+
+def _contact(article):
+    """Chatty as point of contact, opening WhatsApp about this guide."""
+    c = article.get("contact")
+    if not c or article.get("author"):
+        return None
+    import mentors
+    from urllib.parse import quote
+    text = f"Hi Chatty, I read '{article['h1']}' on Craft Beer School and have a question."
+    return {**c, "role": "Questions about this guide? WhatsApp her", "href": f"https://wa.me/{mentors.WHATSAPP_NUMBER}?text={quote(text)}"}
 
 
 def _faqs(faqs):
@@ -145,8 +166,9 @@ def render(article, by_slug):
     <p class="post-meta">
       <span>{article['read']} read</span> ·
       <span>Updated <time datetime="{article['updated']}">{article['updated_label']}</time></span> ·
-      <span>{'By ' + (article.get('author') or article.get('expert') or {'name': 'Craft Beer School'})['name']}</span>
-    </p>{_byline([('The story of', article.get('subject')), ('Written by', article.get('author') or article.get('expert'))])}
+      <span>By {_by_names(article)}</span>
+    </p>{_byline([('The story of', article.get('subject')), ('Written by', article.get('author') or article.get('expert')),
+                  ('Written by', article.get('co_expert')), ('Point of contact', _contact(article))])}
   </div>
 
   <div class="wrap post-body">
@@ -192,7 +214,7 @@ def _finder(articles, segment_of):
     opts = "".join(f'<option value="{c}">{c}</option>' for c in cats)
     rows = [{"s": a["slug"], "t": a["h1"], "c": a["cat"], "d": a["teaser"], "r": a["read"],
              "u": a["updated"], "g": segment_of.get(a["slug"], ""),
-             "b": (a.get("expert") or {}).get("name", ""),
+             "b": _by_names(a) if (a.get("author") or a.get("expert")) else "",
              "i": (THUMB_DIR / f"{a['slug']}.jpg").exists()} for a in articles]
     data = json.dumps(rows, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     recs = json.dumps(_recommendations(articles), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
