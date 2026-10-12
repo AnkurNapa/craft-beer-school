@@ -1,0 +1,702 @@
+# Clue bank for games_crossword.py. One puzzle per "## Title | icon | intro" block,
+# then "ANSWER | clue" lines. Spaces in an answer only set the enumeration, e.g. (3,3).
+
+## Malt basics | barley | From field to maltings: the grain behind nearly every beer.
+BARLEY | Cereal grain behind most brewing malt
+STEEPING | First maltings step: soaking the grain in water
+GERMINATION | Sprouting stage when the grain builds its enzymes
+KILNING | Hot-air drying that stops growth and sets colour
+ACROSPIRE | Shoot that grows under the husk during malting
+HUSK | Outer layer that forms the filter bed in the mash tun
+ENZYMES | Amylases are examples of these malt proteins
+DIASTATIC | ___ power: a malt's ability to convert starch
+PILSNER | Very pale base malt named after a Czech lager
+CRYSTAL | Stewed malt with glassy sugars, also called caramel malt
+ROASTED | ___ barley gives dry stout its coffee bite
+MALTSTER | Person who turns grain into malt
+
+## Hops | hop | The green cone that brings bitterness, aroma and a lot of argument.
+LUPULIN | Yellow glands in the cone that hold resins and oils
+ALPHA | ___ acids, the source of bitterness
+HUMULUS | Genus of the hop plant
+BINE | Climbing stem of the hop, which twists rather than clings
+CONE | Female flower used in brewing
+MYRCENE | Most plentiful hop oil, green and resinous
+ISOMERISATION | Boil reaction that makes hop acids bitter and soluble
+CASCADE | US variety released in 1972 that shaped American pale ale
+SAAZ | Noble hop named after the Czech town of Žatec
+PELLET | Most common hop form: milled and pressed
+NOBLE | ___ hops: the classic German and Czech aroma varieties
+DRY HOP | To add hops cold, once fermentation is under way
+
+## Yeast | yeast | Brewers make wort. Yeast makes beer.
+SACCHAROMYCES | Genus of brewer's yeast
+CEREVISIAE | Species name of ale yeast
+PASTORIANUS | Species name of lager yeast
+FLOCCULATION | Yeast clumping together and settling out
+ATTENUATION | How much of the sugar the yeast eats, as a percentage
+PITCH | To add yeast to cooled wort
+ESTERS | Fruity compounds made by yeast
+BUDDING | How yeast cells reproduce
+SLURRY | Thick yeast harvested from the cone for repitching
+STARTER | Small batch of wort that grows yeast before brew day
+KVEIK | Norwegian farmhouse yeast happy at 30°C (86°F) and above
+DIACETYL | Buttery compound yeast cleans up during a warm rest
+
+## Brewing water | drop | Beer is more than nine parts water, so the water matters.
+GYPSUM | Calcium sulphate, added to sharpen hop bitterness
+CALCIUM | Ion that helps enzymes, clarity and yeast health
+BICARBONATE | Alkaline ion that pushes mash pH up
+CHLORIDE | Ion that rounds out maltiness
+SULPHATE | Ion that makes bitterness feel drier
+BURTON | English town famed for hard, sulphate-rich water
+PILSEN | Czech city with very soft water and a famous pale lager
+CHLORAMINE | Mains-water disinfectant that carbon filters remove
+ALKALINITY | Water's resistance to a fall in pH
+HARDNESS | Measure of dissolved calcium and magnesium
+MAGNESIUM | Yeast nutrient ion that tastes bitter in excess
+DUBLIN | City whose carbonate-rich water suited dark stout
+
+## Mashing | kettle | Where hot water and crushed malt turn starch into sugar.
+MASH | Mix of crushed malt and hot water
+INFUSION | Mash method held at a single temperature
+DECOCTION | Mash method that boils a portion and returns it
+BETA | ___ amylase, busiest around 60 to 65°C (140 to 149°F)
+ALPHA | ___ amylase, busiest near 70°C (158°F) and good for body
+SACCHARIFICATION | The starch-to-sugar rest
+GRIST | Milled malt before it meets water
+DOUGH IN | To mix grist and water at the start of the mash
+LAUTER | To separate sweet wort from the grain bed
+SPARGE | To rinse the grain bed with hot water
+MASH OUT | Raise to about 76°C (169°F) to stop the enzymes
+IODINE | Test that turns blue-black if starch remains
+
+## The boil | flame | An hour or so of rolling heat that sets bitterness and stability.
+WORT | Sweet liquid boiled with hops
+HOT BREAK | Proteins clumping early in the boil
+DMS | Sulphur compound with a cooked-corn smell driven off by boiling
+EVAPORATION | Loss of water as steam during the boil
+KETTLE | Vessel where wort boils
+COPPER | Traditional British name for the kettle
+WHIRLPOOL | Spin after the boil that piles trub into a cone
+TRUB | Sludge of protein and hop matter
+IRISH MOSS | Seaweed fining added late in the boil
+CALANDRIA | Bundle of heating tubes inside some kettles
+MAILLARD | Browning reaction between sugars and amino acids
+STERILISE | One reason to boil: to ___ the wort
+
+## Fermentation | tank | Sugar in, alcohol and carbon dioxide out.
+FERMENTER | Vessel where wort becomes beer
+UNITANK | Conical tank for fermenting and conditioning in one
+LAG PHASE | Quiet start while yeast adapts to the wort
+KRAUSEN | Rocky foam head on fermenting beer
+GRAVITY | Density reading tracked every day
+CARBON DIOXIDE | Gas made alongside alcohol
+ETHANOL | The alcohol in beer
+GLYCOL | Coolant run through tank jackets
+BLOW OFF | ___ tube: lets foam and gas escape a busy fermenter
+HYDROMETER | Floating gauge for specific gravity
+TERMINAL | ___ gravity: when the reading stops falling
+OXYGEN | Yeast needs it at pitching, finished beer hates it
+
+## Lagers | snow | Cold, slow and patient: the lager family.
+HELLES | Pale everyday lager of Munich
+MARZEN | Amber Oktoberfest lager (no umlaut needed)
+BOCK | Strong German lager linked to the town of Einbeck
+DOPPELBOCK | Stronger bock, a style started by Munich's Paulaner monks
+DUNKEL | Dark Munich lager
+SCHWARZBIER | German black lager
+LAGERING | Cold storage after fermentation
+VIENNA | Amber lager city that also names a malt
+PILSNER | Pale lager first brewed in 1842
+KELLERBIER | Unfiltered cellar lager from Franconia
+RAUCHBIER | Smoked lager from Bamberg
+DORTMUNDER | Export-strength pale lager from a Ruhr city
+
+## British ales | cask | Pints, pumps and the pub.
+BITTER | Session ale of the English pub
+MILD | Low-strength English ale, often dark
+PORTER | Dark ale named after London's street workers
+ESB | Extra special bitter, by its letters
+BARLEYWINE | Strong ale that ages like wine
+SPARKLER | Nozzle that gives a northern pint its tight head
+HAND PUMP | Beer engine on the bar
+FIRKIN | Cask holding nine imperial gallons
+CASK | Vessel where unfiltered real ale conditions
+FININGS | Isinglass is one of these clarifiers
+SPILE | Wooden peg that vents a cask
+MARIS OTTER | English heritage malting barley
+
+## Belgian beers | star | Abbeys, farmhouses and the wild air of the Senne valley.
+TRAPPIST | Beer brewed under a monastery's supervision
+DUBBEL | Dark, raisiny abbey ale
+TRIPEL | Strong golden abbey ale
+QUADRUPEL | Strongest of the dark abbey styles
+SAISON | Farmhouse ale from Wallonia
+WITBIER | Wheat beer spiced with coriander and orange peel
+LAMBIC | Spontaneously fermented beer from around Brussels
+GUEUZE | Blend of young and old lambic
+KRIEK | Lambic with sour cherries
+CANDI | Belgian ___ sugar
+ORVAL | Trappist abbey whose single beer is dry hopped and finished with Brett
+CHIMAY | Trappist brewery near the French border, known for its Blue
+
+## Wheat beers | barley | Banana, clove, haze and a tall glass.
+HEFEWEIZEN | Bavarian wheat beer served with its yeast
+BANANA | Isoamyl acetate gives this fruit note
+CLOVE | Spice note from 4-vinyl guaiacol in weissbier
+WEIZEN | German for wheat
+DUNKELWEIZEN | Dark Bavarian wheat beer
+WEIZENBOCK | Strong wheat beer
+BERLINER | ___ Weisse, a tart wheat beer of low strength
+GOSE | Salty sour with coriander, from Goslar and Leipzig
+KRISTALL | Filtered weissbier
+PROTEIN | Wheat brings more of this than barley, so more haze and foam
+HAZE | Cloudiness from yeast and protein
+UNMALTED | Witbier uses this kind of raw wheat
+
+## Stouts and porters | glass | Roast, coffee, chocolate and a creamy head.
+STOUT | Dark beer whose name once just meant strong
+IMPERIAL | ___ stout, brewed strong for the Russian market
+NITRO | Pour that gives a creamy, cascading head
+OATMEAL | Grain that adds silky body to a stout
+MILK | ___ stout, sweetened with lactose
+LACTOSE | Milk sugar that yeast cannot ferment
+DRY | Irish ___ stout
+COFFEE | Flavour roasted barley often suggests
+WIDGET | Nitrogen capsule inside a can
+BALTIC | ___ porter, a dark beer fermented with lager yeast
+CHOCOLATE | Dark malt that adds cocoa notes
+GUINNESS | Stout first brewed at St James's Gate, Dublin
+
+## India pale ale | hop | The style that sailed east and came back as a craze.
+INDIA | The I in IPA
+HODGSON | George ___, London brewer whose pale ale shipped east in the 1700s
+BURTON | Trent town that made IPA its own
+HAZY | New England IPA is often called this
+WEST COAST | Clear, bitter American IPA
+DOUBLE | ___ IPA, stronger and hoppier
+SESSION | ___ IPA, low in strength
+BLACK | ___ IPA, dark in the glass but hoppy
+JUICY | Soft, low-bitterness IPAs are often called this
+BRUT | Bone-dry IPA made with an added enzyme
+CITRA | US hop released in 2008, known for lime and tropical fruit
+MOSAIC | US hop bred from Simcoe, with berry and pine notes
+
+## Sour beers | bug | Acid, wood and patience.
+LACTOBACILLUS | Bacteria that make lactic acid
+PEDIOCOCCUS | Acid-making bacteria often paired with Brett
+BRETTANOMYCES | Wild yeast with farmyard and fruity notes
+KETTLE SOUR | Quick souring before the boil
+COOLSHIP | Shallow open vessel for spontaneous inoculation
+FOEDER | Large wooden vat for ageing sour beer
+FLANDERS | ___ red ale, a vinous Belgian sour
+OUD BRUIN | Flemish brown sour
+LACTIC | Clean, yoghurt-like acid
+ACETIC | Vinegar acid
+SPONTANEOUS | Fermentation with no yeast added by the brewer
+BLENDING | Mixing barrels of different ages
+
+## Off-flavours | magnifier | Name the fault, then find the cause.
+DIACETYL | Butter or butterscotch
+ACETALDEHYDE | Green apple or fresh-cut pumpkin
+DMS | Cooked sweetcorn
+SKUNKY | Aroma of light-struck beer
+OXIDATION | Wet cardboard comes from this
+PHENOLIC | Plastic or medicinal, often from chlorine
+ISOVALERIC | Cheesy, sweaty smell from old hops
+METALLIC | Taste of coins or blood
+FUSEL | Hot, solvent-like alcohols
+ASTRINGENT | Puckering dryness, like stewed tea
+SULPHUR | Rotten egg, often from lager yeast
+INFECTION | Contamination by wild microbes
+
+## Brewhouse kit | kettle | Name the steel on the brewhouse floor.
+MASH TUN | Vessel for mashing
+LAUTER TUN | Vessel with a false bottom for wort separation
+HLT | Hot liquor tank, by its letters
+GRANT | Small vessel that collects runoff
+HEAT EXCHANGER | Plate unit that cools wort on its way to the fermenter
+RAKES | Lauter tun knives that cut the grain bed
+MILL | Crushes the malt
+HOP BACK | Hop-filled vessel the hot wort passes through
+BRIGHT | ___ tank: holds finished beer
+CIP | Clean in place, by its letters
+VALVE | Butterfly ___
+PUMP | Moves wort and water around the brewhouse
+
+## Cleaning and hygiene | check | Brewing is mostly cleaning. Here is the vocabulary.
+CAUSTIC | Alkaline cleaner for hot CIP
+ACID | Cleaner that removes beerstone
+BEERSTONE | Calcium oxalate scale on tank walls
+PERACETIC | ___ acid, a popular no-rinse sanitiser
+SANITISE | To bring microbes down to a safe level
+SPRAY BALL | Head inside a tank that sprays cleaning fluid
+SWAB | ATP ___: a quick hygiene test
+RINSE | Water step between chemicals
+BIOFILM | Slimy layer of microbes
+PASSIVATION | Acid treatment that protects stainless steel
+GASKET | Seal that can hide bacteria
+TURBULENCE | CIP needs enough flow to create this
+
+## Packaging | can | Getting beer into something you can sell.
+CANNING | Packing beer into aluminium
+SEAMER | Machine that closes the lid on a can
+CROWN | Bottle cap
+KEG | Steel container for draught beer
+LABEL | Paper or film on a bottle
+FILLER | Machine that fills bottles or cans
+TPO | Total package oxygen, by its letters
+PASTEURISE | To heat-treat beer for stability
+TUNNEL | ___ pasteuriser
+FOB | Foam on beer detector, by its letters
+CAPPER | Machine that crimps on the crowns
+SLEEVE | Shrink ___: printed wrap for a can
+
+## Draught and serving | keg | From keg to glass without the foam disaster.
+COUPLER | Fits onto the keg spear
+TAP | Faucet on the bar
+PYTHON | Chilled bundle of beer lines
+SHANK | Tube that runs through the font
+FONT | Bar-top fitting that holds the taps
+REGULATOR | Sets the gas pressure
+COLD ROOM | Walk-in chiller for kegs
+FOAM | Too much of this means waste
+LINE CLEANING | Job due every one to two weeks
+SPEAR | Tube inside a keg
+MIXED GAS | Blend of nitrogen and carbon dioxide
+PINT | Standard pour
+
+## Glassware | glass | The right glass, and why it matters.
+TULIP | Stemmed glass that holds aroma, good for strong ales
+SNIFTER | Balloon glass for barleywine
+STANGE | Tall, thin glass for Kölsch
+TEKU | Modern stemmed tasting glass from Italy
+NONIC | Pint glass with a bulge near the top
+TANKARD | Mug with a handle
+CHALICE | Wide goblet used for abbey ales
+FLUTE | Narrow glass for fruit lambic
+WILLIBECHER | German glass that tapers at the top
+TASTER | Small glass in a flight
+BOOT | Glass shaped like footwear
+LACING | Rings of foam left on the glass
+
+## Tasting and sensory | magnifier | How to taste like a judge.
+AROMA | What you smell first
+MOUTHFEEL | Body, carbonation and texture
+FINISH | Flavour that lingers after you swallow
+RETRONASAL | Smelling through the back of the mouth
+BITTERNESS | Taste from hop acids
+APPEARANCE | Colour, clarity and head
+TRIANGLE | Test with three samples, one of them different
+THRESHOLD | Lowest level you can detect
+PALATE | Your sense of taste
+BALANCE | Malt set against hops
+FLIGHT | A set of small tasters
+SCORESHEET | Judging form
+
+## Beer and food | plate | Pairing rules, from the dinner table.
+CUT | Carbonation and bitterness ___ through fat
+CONTRAST | Pairing by opposites
+COMPLEMENT | Pairing by shared flavours
+BIRYANI | Spiced rice dish that suits a crisp lager
+TANDOORI | Clay-oven dishes that suit malty or smoky beers
+OYSTERS | Classic match for dry stout
+CHEESE | Washed-rind ___ with a Belgian ale
+DESSERT | Imperial stout can stand in for one
+SPICE | Hop bitterness can amplify chilli ___
+UMAMI | Savoury fifth taste
+CARAMEL | Maillard notes in amber ale echo this
+PANEER | Indian cheese to try with a witbier
+
+## Beer history | clock | Seven thousand years in twelve clues.
+SUMER | Ancient land with a goddess of beer
+NINKASI | Sumerian goddess of beer
+REINHEITSGEBOT | Bavarian purity law of 1516
+GRUIT | Herb mix used before hops
+MONKS | Abbey brewers of medieval Europe
+PASTEUR | Scientist who showed that yeast drives fermentation
+HANSEN | Emil Christian ___, who isolated pure lager yeast in 1883
+LINDE | Carl von ___, whose refrigeration changed lagering
+PROHIBITION | US ban on alcohol from 1920 to 1933
+GROLL | Josef ___, brewer of the first Pilsner in 1842
+EGYPT | Land where pyramid builders were paid partly in beer
+HOPS | Plant that replaced gruit
+
+## Beer in India | star | From a hill-station brewery to the brewpub boom.
+KASAULI | Himachal town with one of Asia's oldest breweries, from the 1820s
+DYER | Edward ___, who founded that brewery
+SOLAN | Himachal town where Mohan Meakin brews today
+BENGALURU | City often called India's pub capital
+PUNE | Maharashtra city with a growing microbrewery scene
+GURUGRAM | Haryana city where brewpubs boomed in the 2010s
+GOA | Coastal state famous for beach shacks and cold beer
+EXCISE | State duty on alcohol
+LICENCE | Permission every brewpub needs
+KINGFISHER | India's best-selling lager brand
+MICROBREWERY | Small brewery, often attached to a pub
+WHEAT | Brewpub menus in India often lead with a ___ beer
+
+## Brewing numbers | chart | The units on every brew sheet.
+ABV | Alcohol by volume, by its letters
+ORIGINAL | ___ gravity, measured before fermentation
+FINAL | ___ gravity, measured after fermentation
+PLATO | Degrees ___: sugar by weight
+SRM | American colour scale, by its letters
+EBC | European colour scale, by its letters
+LOVIBOND | Older colour scale still used for malt
+BRIX | Scale read on a refractometer
+EFFICIENCY | Brewhouse ___: extract won against extract possible
+VOLUMES | Carbonation is measured in ___ of CO2
+HECTOLITRE | One hundred litres
+BARREL | US measure of about 117 litres
+
+## Hop varieties | hop | Name the hop from its home and its smell.
+SIMCOE | US hop with pine and passion fruit
+CENTENNIAL | US hop nicknamed Super Cascade
+GALAXY | Australian hop with a passion fruit punch
+NELSON | ___ Sauvin, a New Zealand hop with white grape notes
+HALLERTAU | Bavarian hop region, the largest in the world
+TETTNANG | Noble hop town near Lake Constance
+FUGGLE | Earthy English hop from Kent, introduced in 1875
+GOLDINGS | East Kent ___
+AMARILLO | Orange-forward US hop
+MAGNUM | High-alpha bittering hop
+SPALT | Noble hop town south of Nuremberg
+COLUMBUS | Pungent high-alpha US hop, the C in CTZ
+
+## Malt varieties | barley | Specialty malts and what they bring.
+MUNICH | Toasty base malt from Bavaria
+CARAPILS | Dextrin malt for foam and body
+BISCUIT | Toasted Belgian malt
+MELANOIDIN | Malt with rich red colour and honey notes
+SMOKED | Beechwood-___ malt for Rauchbier
+ACIDULATED | Malt coated in lactic acid to lower mash pH
+AMBER | British malt between pale and brown
+BROWN | Old porter malt
+BLACK PATENT | Very dark malt patented in 1817
+SPECIAL | ___ B, a dark Belgian crystal malt
+RYE | Spicy grain malted for Roggenbier
+SPELT | Ancient wheat that can be malted
+
+## Adjuncts | box | Everything in the mash or kettle that is not barley malt.
+RICE | Adjunct in many Asian lagers
+MAIZE | Corn by its British name
+OATS | Grain for a silky body
+SORGHUM | Gluten-free grain used in African brewing
+MILLET | Small grain used in Himalayan and African brews
+JAGGERY | Indian cane sugar for strong ales
+HONEY | Sweet adjunct, and the base of mead
+DEXTROSE | Corn sugar, often used for priming
+FLAKED | ___ barley: rolled unmalted grain
+TORREFIED | Puffed with heat, like some wheat
+CORIANDER | Spice in witbier
+VANILLA | Bean found in many pastry stouts
+
+## Cellar and conditioning | tank | What happens after the yeast has done the hard work.
+CONDITIONING | Maturing beer after fermentation
+CARBONATION | Fizz
+PRIMING | Adding sugar for bottle conditioning
+SPUNDING | Capping a tank to keep natural CO2
+DIACETYL REST | Warm pause before the crash
+COLD CRASH | Drop the temperature to settle yeast
+FILTRATION | Removing yeast and haze
+CENTRIFUGE | Spins yeast out of beer
+KIESELGUHR | Diatomaceous earth used as a filter aid
+SILICA | Gel that removes haze proteins
+GELATINE | Fining made from collagen
+KRAUSENING | Adding fermenting wort to carbonate
+
+## Brewing chemistry | bolt | The molecules behind the flavour.
+AMYLASE | Enzyme family that breaks down starch
+MALTOSE | Main sugar in wort
+GLUCOSE | Simplest sugar
+DEXTRINS | Unfermentable chains that give body
+POLYPHENOLS | Tannins from husks and hops
+ISO ALPHA | ___ acids, the bitter compounds in beer
+BUFFER | Malt phosphate acts as one in the mash
+PROTEASE | Enzyme that breaks down protein
+FERULIC | Acid that becomes clove in weissbier
+GLYCOGEN | Yeast's energy store
+HYDROLYSIS | Splitting a molecule with water
+MALTOTRIOSE | Three-glucose sugar that lager yeast can use
+
+## American craft | star | How a homebrew hobby became an industry.
+PALE ALE | Cascade-forward style that launched US craft
+CREAM ALE | Light US hybrid, fermented warm then cold
+STEAM | Anchor's trademark name for California common
+CALIFORNIA | ___ common: lager yeast fermented warm
+PUMPKIN | Autumn seasonal with spice
+BLONDE | Easy-drinking golden ale
+HOMEBREW | Hobby made legal at federal level in the US in 1978
+BREWPUB | Pub that brews its own beer
+TAPROOM | Bar at the brewery
+FLAGSHIP | A brewery's core beer
+ANCHOR | San Francisco brewery revived by Fritz Maytag
+COLLABORATION | Beer brewed by two breweries together
+
+## Homebrewing | pencil | The words you meet on your first kit.
+EXTRACT | Malt in syrup or powder
+ALL GRAIN | Brewing from malted grain only
+BIAB | Brew in a bag, by its letters
+AIRLOCK | Valve that lets gas out of a fermenter
+CARBOY | Glass fermenter
+AUTOSIPHON | Tool for racking beer
+BOTTLING | Packaging at home
+REFRACTOMETER | Needs only a drop of wort
+CHILLER | Immersion ___ cools the wort
+RACK | To move beer off the yeast
+KIT | Beginner's starter pack
+RECIPE | List of grain, hops and yeast
+
+## Barrel ageing | cask | Wood, spirit and time.
+BOURBON | US whiskey whose barrels age many stouts
+OAK | Wood of most barrels
+STAVE | Plank of a barrel
+COOPER | Barrel maker
+CHAR | Burnt inner layer of a barrel
+TOAST | Gentler heating of barrel wood
+VANILLIN | Oak compound with vanilla flavour
+ANGELS SHARE | Liquid lost to evaporation
+BUNG | Barrel stopper
+SOLERA | Fractional blending system
+PUNCHEON | Large cask, often about 500 litres
+HOGSHEAD | Cask of about 250 litres
+
+## Festivals and culture | people | Raise a glass.
+OKTOBERFEST | Munich festival that starts in September
+MASS | One-litre mug at Oktoberfest
+PROST | German for cheers
+SANTE | French for cheers (no accent needed)
+CHEERS | The English toast
+GABF | Great American Beer Festival in Denver, by its letters
+CAMRA | UK real ale campaign founded in 1971
+BEER GARDEN | Outdoor drinking space under chestnut trees
+STEIN | Stoneware mug
+PUB CRAWL | Tour of several bars in one night
+TAP TAKEOVER | Night a guest brewery holds a bar's lines
+ZUM WOHL | German toast to your health
+
+## Quality control | check | How a brewery knows the beer is right.
+MICROSCOPE | Tool for counting yeast cells
+HAEMOCYTOMETER | Counting chamber for cells
+VIABILITY | Share of live yeast cells
+METHYLENE BLUE | Stain that marks dead yeast
+TURBIDITY | Haze measurement
+DISSOLVED OXYGEN | Measured in parts per billion after packaging
+SHELF LIFE | How long beer stays fresh
+FORCED | ___ ageing: warm storage to predict staling
+SPEC | Target range for a product, for short
+PCR | DNA test that finds spoilers, by its letters
+AUDIT | Systematic check of a process
+CALIBRATION | Checking an instrument against a standard
+
+## The business of beer | coin | Turning good beer into a going concern.
+MARGIN | Profit left on each pint
+COGS | Cost of goods sold, by its letters
+DISTRIBUTOR | Middle tier between brewer and bar
+CONTRACT | ___ brewing: renting another brewery's kit
+GYPSY | ___ brewer: one with no brewery of their own
+CAPACITY | The most beer a plant can make
+FORECAST | Sales prediction
+INVENTORY | Stock on hand
+MRP | Maximum retail price printed on Indian packs
+BRAND | What drinkers remember
+LAUNCH | First release of a beer
+SKU | Stock keeping unit, by its letters
+
+## Utilities and the plant | bolt | Steam, cold and water: what keeps a brewery running.
+STEAM | Common heat source for a kettle
+BOILER | Makes the steam
+CHILLER | Makes the cold for glycol
+EFFLUENT | Waste water leaving the brewery
+COD | Chemical oxygen demand, by its letters
+AMMONIA | Refrigerant in large plants
+COMPRESSOR | Machine at the heart of refrigeration
+RECOVERY | CO2 ___: capturing fermentation gas
+SPENT GRAIN | Mash leftover fed to cattle
+CARBON FILTER | Removes chlorine from water
+SOFTENER | Removes hardness by ion exchange
+ETP | Effluent treatment plant, by its letters
+
+## German beer words | star | A brewer's German for the brewhouse.
+BRAUEREI | Brewery
+HOPFEN | Hops
+MALZ | Malt
+HEFE | Yeast
+BIER | Beer
+KELLER | Cellar
+SUD | One brew, a single batch
+ZWICKEL | Sampling tap on a tank
+BRAUMEISTER | Head brewer
+WASSER | Water
+FASS | Cask or keg
+LAGERN | To store
+
+## Brew day in order | clock | Twelve steps from sack to tank.
+MILLING | Step 1: crack the malt
+MASHING | Step 2: hot water meets grist
+VORLAUF | Step 3: recirculate until the wort runs clear
+LAUTERING | Step 4: run the wort off the grain
+SPARGING | Step 5: rinse the bed with hot water
+BOILING | Step 6: roll the wort with hops
+WHIRLPOOLING | Step 7: spin to gather the trub
+CHILLING | Step 8: cool the wort fast
+OXYGENATING | Step 9: give the yeast some air
+PITCHING | Step 10: add the yeast
+FERMENTING | Step 11: let the yeast work
+PACKAGING | Step 12: into keg, can or bottle
+
+## Famous breweries | glass | Names every brewer should know.
+WEIHENSTEPHAN | Bavarian brewery with roots in 1040, often called the oldest
+PILSNER URQUELL | Plzeň brewery of the original pale lager
+CARLSBERG | Copenhagen brewer whose lab isolated lager yeast
+ROCHEFORT | Trappist abbey in the Ardennes
+WESTVLETEREN | Trappist abbey whose beer is sold mainly at its gate
+CANTILLON | Brussels lambic brewery
+SPATEN | Munich brewery of Gabriel Sedlmayr
+SCHNEIDER | Weissbier brewery founded by Georg ___ in 1872
+FULLERS | Chiswick brewer of the original ESB
+BUDVAR | Brewery in České Budějovice
+DUVEL | Belgian strong golden ale named after the devil
+HEINEKEN | Dutch brewer with a red star
+
+## Foam and fizz | bolt | The science of bubbles.
+HEAD | Foam on top of a beer
+NUCLEATION | Bubbles forming at a rough spot
+RETENTION | How long the head lasts
+GUSHING | Foaming out on opening, sometimes from mouldy grain
+NITROGEN | Gas that makes tiny bubbles
+CARBONIC | ___ acid, the bite of CO2
+BAR | Metric unit of pressure
+PSI | Pressure unit in North America
+FLAT | With no fizz
+HYDROPHOBIN | Fungal protein that causes gushing
+BUBBLE | Rising pocket of gas
+SURGER | Ultrasonic base that sets off a nitro pour
+
+## Other fermented drinks | grapes | Beer's cousins, from India and around the world.
+CIDER | Fermented apple juice
+PERRY | Fermented pear juice
+MEAD | Honey wine
+KOMBUCHA | Fermented sweet tea
+KVASS | Slavic drink brewed from bread
+SAKE | Japanese rice brew
+HANDIA | Rice beer of Jharkhand and Odisha
+CHHAANG | Himalayan brew of millet or barley
+TONGBA | Millet drink of Sikkim and Nepal, sipped through hot water
+PULQUE | Fermented agave sap from Mexico
+SELTZER | Hard ___: alcoholic fizzy water
+CHICHA | Andean corn beer
+
+## Hop farming | sun | From rhizome to bale.
+TRELLIS | Wire frame the hops climb
+BURR | Early flower stage before the cone forms
+HARVEST | Late August to September in the north
+KILN | Where hops are dried
+OAST | Kent building with a hop kiln
+YAKIMA | Washington valley that grows most US hops
+TASMANIA | Australian island hop region
+RHIZOME | Root cutting used to plant hops
+DOWNY | ___ mildew, a serious hop disease
+BALE | Pressed block of dried hops
+PERENNIAL | Hops come back every year, so they are this
+WET HOP | Fresh, undried hops used within a day of picking
+
+## Low and no alcohol | drop | Lighter beers and how they are made.
+DEALCOHOLISED | With the alcohol removed after fermentation
+VACUUM | ___ distillation strips alcohol at low temperature
+MEMBRANE | Reverse osmosis pushes beer through one
+ARRESTED | ___ fermentation: stopped early on purpose
+GLUTEN | Barley protein some drinkers must avoid
+ENZYME | Some brewers add one to break down gluten
+BUCKWHEAT | Gluten-free seed brewed like a grain
+QUINOA | Andean seed used in some gluten-free beers
+CALORIES | Energy on the nutrition panel
+LIGHT | Low-calorie lager type
+WORTY | Common flaw of alcohol-free beer: tasting too ___
+SESSIONABLE | Easy to drink several of
+
+## Judging and competitions | star | How beers win medals.
+BJCP | US beer judge programme, by its letters
+MEDAL | Gold, silver or bronze
+BEST | ___ of show
+STEWARD | Volunteer who pours for the judges
+CATEGORY | Style group in a competition
+BLIND | Tasting without labels
+CONSENSUS | Agreed score between judges
+ENTRY | One beer sent in
+TO STYLE | How well a beer matches its guidelines
+CERTIFIED | ___ Beer Server, a Cicerone level
+CICERONE | Beer service certification
+GUIDELINES | Style document the judges use
+
+## Farmhouse traditions | yeast | Old beers brewed on farms and still alive.
+FARMHOUSE | Saison and bière de garde are this kind of ale
+BIERE DE GARDE | French ale made for keeping
+SAHTI | Finnish beer filtered through juniper
+JUNIPER | Branches used in a sahti filter bed
+GOTLANDSDRICKA | Smoky farmhouse ale of a Swedish island
+RAW | ___ ale: wort that is never boiled
+GRODZISKIE | Smoky Polish wheat beer
+SMOKE | Main character of grodziskie
+HERBS | Gruit was made from these
+STONE | Steinbier is boiled with a hot ___
+STEINBIER | German stone beer
+NORWAY | Home of kveik
+
+## Recipe design | pencil | Building a beer on paper before brew day.
+GRAIN BILL | List of malts in a recipe
+BASE | ___ malt: most of the grist
+SPECIALITY | Small-share malts that add character
+BITTERING | Early-boil hop addition
+LATE | ___ hop: added near the end of the boil
+TARGET | Aim for a ___ original gravity
+BUGU | BU:GU ratio of bitterness to gravity
+WATER PROFILE | Mineral recipe for the brewing liquor
+YEAST STRAIN | The culture you choose to ferment with
+MASH TEMP | Raise it for more body
+BATCH SIZE | Volume the recipe makes
+SCALING | Adjusting a recipe to another size
+
+## Colour and clarity | sun | What your eyes tell you before the first sip.
+STRAW | Palest beer colour, like dried grass
+GOLD | Colour of a Helles
+AMBER | Colour of a Märzen
+COPPER | Colour of many bitters
+RUBY | Red glint in a porter held to the light
+BRILLIANT | Top grade of clarity
+OPAQUE | Letting no light through
+CHILL HAZE | Cloudiness that appears cold and clears when warm
+TAN | Colour of a stout's head
+PALE | ___ ale, named for its colour
+BLACK | Colour of a Schwarzbier
+CLOUDY | Unfiltered look
+
+## Kegs, casks and bottles | keg | Every container a beer can live in.
+PIN | Smallest cask, four and a half imperial gallons
+KILDERKIN | Cask of 18 imperial gallons
+SANKEY | Common keg fitting
+CORNELIUS | Soda keg loved by homebrewers
+GROWLER | Refillable jug from the taproom
+CROWLER | Can filled and sealed at the bar
+KEYKEG | One-way bag-in-ball keg
+STAINLESS | Steel used for most kegs
+SIXTEL | US sixth-barrel keg
+BOMBER | 650 ml bottle
+TALLBOY | Sixteen-ounce can
+STUBBY | Short, squat bottle
+
+## Schools and careers | people | Where brewers learn and where they go next.
+BREWMASTER | Head of brewing
+APPRENTICE | Learner in the brewhouse
+CELLARER | Person who keeps the cellar
+BEER | The point of it all
+YIELD | Litres out for every kilo in
+WASTE | What lean brewing cuts
+SIEBEL | Chicago brewing school founded in 1872
+IBD | Institute of Brewing and Distilling, by its letters
+DOEMENS | Brewing academy near Munich
+VLB | Berlin brewing research and teaching institute, by its letters
+HERIOT WATT | Edinburgh university with a brewing degree
+DAVIS | University of California campus with a brewing programme

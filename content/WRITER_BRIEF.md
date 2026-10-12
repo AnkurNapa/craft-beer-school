@@ -130,3 +130,7 @@ These 44 guides are for people who work inside beer, wine and spirits companies 
 - CTA: stage consideration (hub awareness), course advanced-brewing-science-course.html, 6 weeks, ₹12,999. The gap it fills is grist design: balancing base, caramel and roasted malts for colour, body and flavour on purpose.
 - Also read `~/.claude/skills/humanizer/references/brewing-house-style.md` for numbers and sourcing discipline; this brief's voice and JSON shape win where they differ.
 - No serial comma and no ", and" joins.
+
+## News and press pieces (publications, awards, talks)
+
+Full checklist in the vault's `Craft Beer School Article Flow.md`, section 3. In short: explain the organisation in its own section with real dates; link the primary source (resolved DOI or official page) in the first section; link the organisation's LinkedIn post and show a screenshot of it as a plan-row photo from `assets/press/`; match claims to the published version, not the draft; finish with a numbered References section and the byline author's one-line bio; leave out anything that only appears in private email. A piece about Ankur is bylined by Chatty via `"by": "mentor-chatty-girija.html"`. First example: `ankur-napa-mbaa-technical-quarterly-ai-article`.

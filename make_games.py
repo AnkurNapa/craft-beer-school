@@ -51,7 +51,8 @@ META = {"Brew Ludo": ("glass", "2 to 4 players", "30 minutes"),
         "Brewery Quiz Trail": ("question", "2 to 6 players", "45 minutes"),
         "Off-Flavour Detective": ("magnifier", "3 to 6 players", "45 minutes"),
         "Brew Day Dash": ("flame", "2 to 5 players", "20 minutes"),
-        "Tank Planner": ("tank", "1 to 4 players", "40 minutes")}
+        "Tank Planner": ("tank", "1 to 4 players", "40 minutes"),
+        "Beer Crosswords": ("pencil", "1 player or teams", "15 minutes each")}
 
 
 def foot(game):
@@ -480,3 +481,5 @@ if __name__ == "__main__":
     import games_strategy
     games_party.main()
     games_strategy.main()
+    import games_crossword
+    games_crossword.main()
