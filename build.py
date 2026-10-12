@@ -181,6 +181,14 @@ def course_ticker():
 </aside>"""
 
 
+# Phones hide the header search inside the burger menu, so the home page shows it
+# as its own bar (Ankur's request, 12 Oct 2026).
+MOBILE_SEARCH = ('<div class="mobile-search"><div class="wrap">'
+                 + discover.SEARCH_FORM.replace('class="search-form"', 'class="search-form"', 1)
+                   .replace('aria-label="Search the site"', 'aria-label="Search the site from the home page"', 1)
+                 + '</div></div>')
+
+
 def nav(active):
     def item(label, href, keys, subs):
         cls = ' class="active"' if active in keys else ''
@@ -204,6 +212,7 @@ def nav(active):
   </nav>
 </header>
 {course_ticker()}
+{MOBILE_SEARCH if active == "home" else ""}
 <p class="device-note" id="device-note" hidden>Best on a laptop or desktop: the maps, filters and tables have more room there. <button type="button" aria-label="Dismiss" onclick="this.parentNode.hidden=true;try{{localStorage.setItem('cbs-device-note','1')}}catch(e){{}}">&times;</button></p>
 <script>try{{if(innerWidth<860&&!localStorage.getItem('cbs-device-note'))document.getElementById('device-note').hidden=false}}catch(e){{}}</script>
 <div class="mobile-cta">

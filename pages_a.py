@@ -216,7 +216,7 @@ HOME = f"""
     <div class="hero-copy reveal">
       <span class="eyebrow">India · Online and in person</span>
       <h1 class="display">Brew like<br>you <span class="script">mean it.</span></h1>
-      <p class="lead">India's trusted beer school. We teach everything inside and outside the bottle: brewing, tasting, branding and the business of beer. Now we teach spirits, AI for breweries and the drinks beyond beer too. Live online sessions, guided tastings and hands-on days in Bengaluru.</p>
+      <p class="lead">India's trusted beer school. We teach everything inside and outside the bottle: brewing, tasting, branding and the business of beer. Now we teach spirits, AI for breweries and the drinks beyond beer too. Live online sessions, guided tastings and hands-on days in Pune, Delhi, Gurugram and Bengaluru.</p>
       <div class="hero-cta">
         <a href="courses.html" class="btn btn-amber">Explore courses [[arrow-right]]</a>
         <a href="prospectus.html" class="btn btn-ghost" data-cta="hero-prospectus">Read the prospectus</a>

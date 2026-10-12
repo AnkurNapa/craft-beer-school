@@ -1035,3 +1035,10 @@ header nav{gap:1.6rem}
 .gl-term dd{margin:.3rem 0 0;color:var(--ink-soft);max-width:72ch}
 .gl-more{margin-left:.35rem;color:var(--blue);text-decoration:underline;text-underline-offset:2px;font-size:.9rem}
 .gl-aka{display:block;margin-top:.25rem;font-size:.78rem;font-style:italic}
+/* Home page search bar for phones */
+.mobile-search{display:none}
+@media(max-width:960px){
+  .mobile-search{display:block;padding:.7rem 0;background:#fff;border-bottom:1px solid var(--line)}
+  .mobile-search .search-form{width:100%;margin:0}
+  .mobile-search .search-form input{width:100%;font-size:16px}
+}
