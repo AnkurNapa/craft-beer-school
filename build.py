@@ -18,6 +18,7 @@ import pages_a
 import promos
 import breweries
 import ingredients
+import hopping
 import pages_b
 import seo
 import style_render
@@ -475,6 +476,7 @@ _TITLES = {a["slug"]: a["h1"] for a in ARTICLES}
 for _k, _g in ingredients.GUIDES.items():
     if ingredients.load(_k):
         PAGES[_g["slug"]] = (_g["title"], _g["desc"], "", ingredients.page(_k, _TITLES))
+PAGES.update(hopping.pages())
 PAGES["search.html"] = ("Search | Craft Beer School",
                         "Search every guide, course, beer style and mentor on Craft Beer School from one box.",
                         "", discover.search_page())

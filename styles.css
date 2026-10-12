@@ -953,3 +953,24 @@ section.fam-group{padding:0}
 .ig-finder{flex-wrap:wrap;max-width:980px}
 .ig-finder select{min-width:11rem;flex:1 1 11rem}
 .ig-finder input{flex:3 1 16rem}
+
+/* Brewery hopping trails */
+.hop-split{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.hop-trail{margin-bottom:2rem}
+.hop-trail h3{margin:0 0 .2rem;font-size:1.4rem}
+.hop-meta{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;color:var(--ink-soft);margin:0 0 .8rem}
+.hop-trail ol{list-style:none;margin:0;padding:0;border-left:2px dashed var(--line);margin-left:.9rem}
+.hop-stop{display:flex;gap:.9rem;padding:0 0 1.1rem;margin-left:-.95rem}
+.hop-n{flex:0 0 auto;width:1.8rem;height:1.8rem;border-radius:50%;background:var(--amber);color:#fff;display:grid;place-items:center;font-weight:800;font-size:.85rem}
+.hop-stop h4{margin:.15rem 0 .1rem;font-size:1.05rem}
+.hop-km{display:inline-block;font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);background:#e6f1f4;padding:.15rem .45rem;border-radius:4px}
+.hop-beers{margin:.4rem 0 0;font-size:.85rem;color:var(--ink-soft)}
+.hop-pin span{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;color:#fff;font-weight:800;font-size:.8rem;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.35)}
+.hop-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}
+.hop-card{display:block;padding:1.3rem;border:1px solid var(--line);border-radius:16px;background:var(--paper);transition:transform .2s var(--ease),box-shadow .2s var(--ease)}
+.hop-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-sm)}
+.hop-card b{display:block;font-family:var(--head);font-size:1.4rem;color:var(--ink)}
+.hop-card span{font-size:.85rem;color:var(--ink-soft)}
+@media (max-width:900px){.hop-split{grid-template-columns:1fr}}
+.hop-trail:nth-of-type(2) .hop-n{background:#0a6d84}
+.hop-trail:nth-of-type(3) .hop-n{background:#2f6b2a}
