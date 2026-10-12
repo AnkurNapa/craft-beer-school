@@ -27,7 +27,7 @@ STATE_OF = {
     "Shimla": "Himachal Pradesh", "Dehradun": "Uttarakhand", "Kolkata": "West Bengal", "Bhubaneswar": "Odisha",
     "Guwahati": "Assam", "Shillong": "Meghalaya", "Gangtok": "Sikkim", "Goa": "Goa",
 }
-KIND = {"brewpub": "Brewpub", "microbrewery": "Microbrewery", "taproom": "Taproom", "packaged": "Packaged brand"}
+KIND = {"brewpub": "Brewpub", "microbrewery": "Microbrewery", "taproom": "Taproom", "packaged": "Packaged brand", "unknown": "Brewery"}
 E = html.escape
 
 # Pinned Leaflet 1.9.4 + markercluster 1.5.3 with SRI, shared with hopping.py.
@@ -45,13 +45,38 @@ def load():
     for b in beers:
         for vid in b["venues"]:
             on_tap[vid].append(b)
+    hist = _history()
     rows = []
     for v in venues:
         city = v.get("city")
-        rows.append({**v, "state": STATE_OF.get(city, "") if city else "",
+        rows.append({**v, **hist.pop(v["id"], {}), "state": STATE_OF.get(city, "") if city else "",
                      "where": city or ", ".join(v.get("cities", [])),
                      "beers": sorted(on_tap[v["id"]], key=lambda b: b["name"])})
+    for h in hist.values():  # closed breweries found by the research, not in the live list
+        if h["id"].startswith("closed-") and h.get("city"):
+            rows.append({**h, "kind": "unknown", "state": STATE_OF.get(h["city"], ""), "where": h["city"], "beers": []})
     return sorted(rows, key=lambda r: (r["where"], r["name"]))
+
+
+HISTORY_KEYS = ("founded", "status", "closed", "group", "outlets", "lineage")
+
+
+def _history():
+    """History research (content/breweries/research/out-*.json), keyed by venue id.
+    A row with no source is ignored entirely: we print nothing we cannot cite."""
+    out = {}
+    for f in sorted((DATA / "research").glob("out-*.json")):
+        for h in json.loads(f.read_text()):
+            if not h.get("sources"):
+                continue
+            keep = {k: h.get(k) for k in HISTORY_KEYS if h.get(k) not in (None, "", "unknown")}
+            out[h["id"]] = {**({k: h[k] for k in ("id", "name", "city", "area") if h.get(k)}),
+                            **keep, "history_sources": h["sources"]}
+    return out
+
+
+def is_closed(r):
+    return r.get("status") == "permanently closed"
 
 
 def _row(r):
@@ -67,11 +92,32 @@ def _row(r):
     checked = f'<span>Checked {E(r["checked"])}</span>' if r.get("checked") else ""
     search = " ".join([r["name"], r["where"], r.get("area") or "", r["state"], KIND[r["kind"]]]
                       + [b["name"] + " " + b["style"] for b in r["beers"]]).lower()
-    geo = f' data-lat="{r["lat"]}" data-lng="{r["lng"]}"' if r.get("lat") is not None else ""
-    return (f'<li class="bd-row" id="b-{E(r["id"])}" data-state="{E(r["state"])}" data-kind="{r["kind"]}" '
-            f'data-q="{E(search)}"{geo}>'
-            f'<div class="bd-head"><h3>{E(r["name"])}</h3><span class="bd-kind bd-{r["kind"]}">{KIND[r["kind"]]}</span></div>'
-            f'<p class="bd-place">{sold}{place}</p>'
+    closed = is_closed(r)
+    geo = f' data-lat="{r["lat"]}" data-lng="{r["lng"]}"' if r.get("lat") is not None and not closed else ""
+    status = ("closed" if closed else "temporarily closed" if r.get("status") == "temporarily closed"
+              else "open" if r.get("status") == "open" else "unverified")
+    badge = {"closed": '<span class="bd-status bd-st-closed">Reported closed</span>',
+             "temporarily closed": '<span class="bd-status bd-st-temp">Temporarily closed</span>'}.get(status, "")
+    bits = []
+    if r.get("founded"):
+        bits.append(f'Opened {E(str(r["founded"]))}')
+    if closed:
+        bits.append(f'Closed {E(str(r["closed"]))}' if r.get("closed") else "Reported closed")
+    if r.get("group") and r["group"] != r["name"]:
+        bits.append(f'Part of {E(r["group"])}' + (f' ({r["outlets"]} outlets)' if r.get("outlets") else ""))
+    elif r.get("outlets"):
+        bits.append(f'{r["outlets"]} outlets')
+    hist_src = (r.get("history_sources") or [None])[0]
+    history = (f'<p class="bd-hist">{" · ".join(bits)}'
+               + (f'. {E(r["lineage"])}' if r.get("lineage") else "")
+               + (f' <a href="{E(hist_src)}" rel="noopener nofollow" target="_blank">Source</a>' if hist_src else "")
+               + "</p>") if bits or r.get("lineage") else ""
+    if closed:
+        beer_block = ""
+    return (f'<li class="bd-row{" bd-closed" if closed else ""}" id="b-{E(r["id"])}" data-state="{E(r["state"])}" data-kind="{r["kind"]}" '
+            f'data-status="{status}" data-q="{E(search + " " + (r.get("group") or "").lower())}"{geo}>'
+            f'<div class="bd-head"><h3>{E(r["name"])}</h3><span>{badge}<span class="bd-kind bd-{r["kind"]}">{KIND[r["kind"]]}</span></span></div>'
+            f'<p class="bd-place">{sold}{place}</p>{history}'
             f'{beer_block}<p class="bd-links">{maps}{src_link}{checked}</p></li>')
 
 
@@ -81,15 +127,16 @@ def _jsonld(rows, faqs):
         **({"address": {"@type": "PostalAddress", "streetAddress": r["address"], "addressLocality": r["city"],
                         "addressRegion": r["state"], "addressCountry": "IN"}} if r.get("address") else {}),
         **({"geo": {"@type": "GeoCoordinates", "latitude": r["lat"], "longitude": r["lng"]}} if r.get("lat") is not None else {}),
-        **({"sameAs": r["sources"][0]} if r.get("sources") else {})}} for i, r in enumerate(rows)]
+        **({"sameAs": r["sources"][0]} if r.get("sources") else {})}} for i, r in enumerate([x for x in rows if not is_closed(x)])]
     graph = [{"@type": "ItemList", "@id": f"{SITE}/breweries.html#list", "name": "Craft breweries in India",
-              "numberOfItems": len(rows), "itemListElement": items},
+              "numberOfItems": len(items), "itemListElement": items},
              {"@type": "FAQPage", "@id": f"{SITE}/breweries.html#faq", "mainEntity": [
                  {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]}]
     return graph
 
 
 def stats(rows):
+    rows = [r for r in rows if not is_closed(r)]
     cities = collections.Counter(r["city"] for r in rows if r.get("city"))
     states = {r["state"] for r in rows if r["state"]}
     beers = {b["id"] for r in rows for b in r["beers"]}
@@ -101,7 +148,7 @@ def stats(rows):
 def _faqs(rows, cities, states, top):
     return [
         ("How many craft breweries are there in India?",
-         f"This directory lists {len(rows)} craft breweries, brewpubs, taprooms and packaged craft beer brands in "
+         f"This directory lists {sum(not is_closed(r) for r in rows)} craft breweries, brewpubs, taprooms and packaged craft beer brands in "
          f"{len(cities)} cities across {len(states)} states and union territories, each with a source and a last-checked date. "
          "Venues open and close often, so treat any count as a snapshot."),
         ("Which Indian city has the most craft breweries?",
@@ -139,25 +186,27 @@ def page():
          f"The busiest beer cities are {E(top_txt)}.")}
 <section class="bd-stats-wrap" style="padding-block:1.5rem 0">
   <div class="wrap bd-stats">
-    <div><b>{len(rows)}</b><span>Breweries and brands</span></div>
+    <div><b>{sum(not is_closed(r) for r in rows)}</b><span>Breweries and brands</span></div>
     <div><b>{len(cities)}</b><span>Cities</span></div>
     <div><b>{len(states)}</b><span>States and UTs</span></div>
     <div><b>{len(beers)}</b><span>Beers listed</span></div>
-    <div><b>{kinds['brewpub']}</b><span>Brewpubs</span></div>
+    <div><b>{sum(is_closed(r) for r in rows)}</b><span>Reported closed</span></div>
   </div>
 </section>
 <section style="padding-block:2rem 0">
   <div class="wrap">
-    <form class="finder" id="bd-finder" role="search" action="breweries.html">
+    <form class="finder ig-finder" id="bd-finder" role="search" action="breweries.html">
       <label class="sr-only" for="bd-state">State</label>
       <select id="bd-state" name="state"><option value="">All states</option>{states_opts}</select>
       <label class="sr-only" for="bd-kind">Type</label>
       <select id="bd-kind" name="kind" class="bd-kind-select"><option value="">All types</option>{kind_opts}</select>
+      <label class="sr-only" for="bd-status">Status</label>
+      <select id="bd-status" name="status"><option value="">Open and unverified</option><option value="closed">Reported closed</option><option value="all">All, including closed</option></select>
       <label class="sr-only" for="bd-q">Search breweries</label>
       <input id="bd-q" name="q" type="search" placeholder="Brewery, beer, style or city" autocomplete="off" />
       <button type="submit" class="btn btn-navy">Search</button>
     </form>
-    <p class="f-count bd-count" id="bd-count" aria-live="polite">Showing all {len(rows)} breweries</p>
+    <p class="f-count bd-count" id="bd-count" aria-live="polite">Showing all {sum(not is_closed(r) for r in rows)} open and unverified breweries</p>
     <div class="bd-split">
       <div class="bd-map-wrap"><div id="bd-map" role="region" aria-label="Map of breweries"></div>
         <p class="bd-attrib">Pins from each brewery's public listing. Packaged brands have no pin. Planning a night out? <a href="brewery-hopping-india.html">See the brewery hopping trails</a>.</p></div>
@@ -208,16 +257,16 @@ if(window.L){
   rows.forEach(r=>r.querySelector('h3').addEventListener('click',()=>{const m=pins.get(r);if(m)layer.zoomToShowLayer(m,()=>m.openPopup())}));
 }
 function apply(){
-  const u=new URLSearchParams(location.search),s=u.get('state')||'',k=u.get('kind')||'',q=(u.get('q')||'').trim().toLowerCase();
-  f.state.value=s;f.kind.value=k;f.q.value=u.get('q')||'';
+  const u=new URLSearchParams(location.search),s=u.get('state')||'',k=u.get('kind')||'',st=u.get('status')||'',q=(u.get('q')||'').trim().toLowerCase();
+  f.state.value=s;f.kind.value=k;f.status.value=st;f.q.value=u.get('q')||'';
   const terms=q.split(/\\s+/).filter(Boolean);let n=0;const shown=[];
-  rows.forEach(r=>{const ok=(!s||r.dataset.state===s)&&(!k||r.dataset.kind===k)&&terms.every(t=>r.dataset.q.includes(t));r.hidden=!ok;if(ok){n++;if(pins.has(r))shown.push(pins.get(r))}});
-  count.textContent=n===rows.length?`Showing all ${n} breweries`:n?`Showing ${n} of ${rows.length} breweries`:'No breweries match. Try a city, a style such as IPA or fewer words.';
+  rows.forEach(r=>{const c=r.dataset.status==='closed',ok=(st==='all'||(st==='closed'?c:!c))&&(!s||r.dataset.state===s)&&(!k||r.dataset.kind===k)&&terms.every(t=>r.dataset.q.includes(t));r.hidden=!ok;if(ok){n++;if(pins.has(r))shown.push(pins.get(r))}});
+  const none=!(s||k||q||st);count.textContent=none?`Showing all ${n} open and unverified breweries`:n?`Showing ${n} breweries`:'No breweries match. Try a city, a style such as IPA or fewer words.';
   if(layer){layer.clearLayers();layer.addLayers(shown);if(shown.length&&(s||k||q))map.fitBounds(L.featureGroup(shown).getBounds(),{padding:[30,30],maxZoom:13});else if(!(s||k||q))map.setView([22.5,79],5)}
 }
 function go(x){history.replaceState(null,'','breweries.html'+(x.toString()?'?'+x:''));apply()}
-f.addEventListener('submit',e=>{e.preventDefault();const x=new URLSearchParams();['state','kind'].forEach(n=>f[n].value&&x.set(n,f[n].value));f.q.value.trim()&&x.set('q',f.q.value.trim());go(x)});
-f.state.addEventListener('change',()=>f.requestSubmit());f.kind.addEventListener('change',()=>f.requestSubmit());
+f.addEventListener('submit',e=>{e.preventDefault();const x=new URLSearchParams();['state','kind','status'].forEach(n=>f[n].value&&x.set(n,f[n].value));f.q.value.trim()&&x.set('q',f.q.value.trim());go(x)});
+f.state.addEventListener('change',()=>f.requestSubmit());f.kind.addEventListener('change',()=>f.requestSubmit());f.status.addEventListener('change',()=>f.requestSubmit());
 document.querySelectorAll('.bd-city').forEach(b=>b.addEventListener('click',()=>{go(new URLSearchParams({q:b.dataset.city}));f.scrollIntoView({behavior:'smooth'})}));
 apply();
 })();"""

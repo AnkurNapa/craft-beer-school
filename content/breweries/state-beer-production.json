@@ -1,0 +1,57 @@
+[
+  {
+    "state": "Tamil Nadu",
+    "year": "2022-23",
+    "metric": "beer_production",
+    "value": 2751.08,
+    "unit": "lakh bulk litres",
+    "value_hl": 275108,
+    "source": "https://des.tn.gov.in/sites/default/files/2025-07/35%20STATE%20EXCISE.pdf",
+    "note": "Statistical Hand Book of Tamil Nadu 2022-23, Table 35.1, page 609 (PDF page 1); source Prohibition and Excise Department",
+    "checked": "2026-10-12"
+  },
+  {
+    "state": "Tamil Nadu",
+    "year": "2022-23",
+    "metric": "excise_revenue_beer",
+    "value": 403.15,
+    "unit": "Rs crore (head 103 Malt liquor (Beer))",
+    "value_hl": null,
+    "source": "https://des.tn.gov.in/sites/default/files/2025-07/35%20STATE%20EXCISE.pdf",
+    "note": "Statistical Hand Book of Tamil Nadu 2022-23, Table 35.2, page 610 (PDF page 2)",
+    "checked": "2026-10-12"
+  },
+  {
+    "state": "Maharashtra",
+    "year": "2025-26",
+    "metric": "beer_sales",
+    "value": 4613.14,
+    "unit": "lakh bulk litres",
+    "value_hl": 461314,
+    "source": "https://stateexcise.maharashtra.gov.in/Site/Upload/GR/3333.pdf",
+    "note": "Month and districtwise beer sale F.Y. 2025-26, Maharashtra total row, page 1; listed under Sales Statistics, dated 22/06/2026. Sales, not production.",
+    "checked": "2026-10-12"
+  },
+  {
+    "state": "Karnataka",
+    "year": "2023-24",
+    "metric": "beer_sales",
+    "value": 444.05,
+    "unit": "lakh case boxes (Cbs), sales within the state excluding export and CSD",
+    "value_hl": null,
+    "source": "https://stateexcise.karnataka.gov.in/storage/pdf-files/m&yimlbeersaleseng.jpg",
+    "note": "Monthwise and yearwise sale of IML and beer, Beer Sales TOTAL row, 2023-24 column; image on page https://stateexcise.karnataka.gov.in/20/month-and-year-wise-iml-and-beer-sales/en. Case size in litres not stated, so no hl conversion.",
+    "checked": "2026-10-12"
+  },
+  {
+    "state": "Odisha",
+    "year": "2024-25",
+    "metric": "beer_sales",
+    "value": 1678.77,
+    "unit": "lakh bulk litres (lifting by retailers)",
+    "value_hl": 167877,
+    "source": "https://excise.odisha.gov.in/sites/default/files/2026-03/ANNUAL%20ACTIVITIES%20REPORT-2024-25.pdf",
+    "note": "Excise Department Annual Activities Report 2024-25, section 6 Lifting of IMFL and Beer, row 10, PDF page 3. Lifting, not production.",
+    "checked": "2026-10-12"
+  }
+]

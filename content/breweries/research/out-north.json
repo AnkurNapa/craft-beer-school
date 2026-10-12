@@ -1,0 +1,859 @@
+[
+  {
+    "id": "amritsar-brewmaster-microbrewery",
+    "name": "The BrewMaster Amritsar MicroBrewery",
+    "city": "Amritsar",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/amritsar/the-brewmaster-ranjit-avenue"
+    ]
+  },
+  {
+    "id": "panchkula-adda-microbrewery-sector-9",
+    "name": "Adda Microbrewery & Kitchen",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": []
+  },
+  {
+    "id": "mohali-brew-bros-sector-80",
+    "name": "Brew Bros MicroBrewery",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/chandigarh/brew-bros-sector-82-mohali"
+    ]
+  },
+  {
+    "id": "chandigarh-culture-brew-exchange-sector-26",
+    "name": "Culture Brew Exchange",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "temporarily closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/chandigarh/culture-brew-exchange-sector-26"
+    ]
+  },
+  {
+    "id": "chandigarh-curry-and-hops",
+    "name": "Curry and Hops Brewing",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/chandigarh/curry-hops-aerocity-mohali-mohali",
+      "https://chdlife.com/best-microbreweries-in-chandigarh/"
+    ]
+  },
+  {
+    "id": "panchkula-hops-n-grains-sector-9",
+    "name": "Hops n Grains",
+    "city": "Chandigarh",
+    "founded": "2011",
+    "status": "open",
+    "closed": null,
+    "group": "Hops n Grains",
+    "outlets": 3,
+    "lineage": null,
+    "sources": [
+      "https://www.restaurantindia.in/article/after-13-years-how-these-restaurateurs-are-driving-biz-focusing-on-sustaibility-competition",
+      "https://www.outlooktraveller.com/experiences/food-and-drink/hops-n-grains-the-microbrewery-opens-a-new-unit-in-mohali",
+      "https://www.zomato.com/chandigarh/hops-n-grains-sector-9-panchkula"
+    ]
+  },
+  {
+    "id": "chandigarh-hops-n-grains-sector-8",
+    "name": "Hops n Grains Kitchen & Brewery",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Hops n Grains",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://hopsngrains.com"
+    ]
+  },
+  {
+    "id": "chandigarh-qizo-sector-26",
+    "name": "Qizo",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/chandigarh/qizo-sector-26"
+    ]
+  },
+  {
+    "id": "chandigarh-brew-barrels-sector-59",
+    "name": "The Brew Barrels",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": []
+  },
+  {
+    "id": "chandigarh-brew-estate-sector-26",
+    "name": "The Brew Estate",
+    "city": "Chandigarh",
+    "founded": "2016",
+    "status": "open",
+    "closed": null,
+    "group": "The Brew Estate",
+    "outlets": 11,
+    "lineage": null,
+    "sources": [
+      "https://www.brewestate.in/",
+      "https://www.brewestate.in/the-brew-estate-sector-26-chandigarh.php"
+    ]
+  },
+  {
+    "id": "mohali-brew-estate-sector-80",
+    "name": "The Brew Estate",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "The Brew Estate",
+    "outlets": 11,
+    "lineage": null,
+    "sources": [
+      "https://www.brewestate.in/"
+    ]
+  },
+  {
+    "id": "panchkula-brew-estate-sector-9",
+    "name": "The Brew Estate",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "The Brew Estate",
+    "outlets": 11,
+    "lineage": null,
+    "sources": [
+      "https://www.brewestate.in/"
+    ]
+  },
+  {
+    "id": "chandigarh-brew-nest-sector-70",
+    "name": "The Brew Nest Microbrewery",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/chandigarh/the-brew-nest-microbrewery-sector-70-mohali"
+    ]
+  },
+  {
+    "id": "chandigarh-great-bear-kitchen-microbrewery",
+    "name": "The Great Bear Kitchen & Microbrewery",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Hops n Grains",
+    "outlets": 3,
+    "lineage": null,
+    "sources": [
+      "https://www.outlooktraveller.com/experiences/food-and-drink/hops-n-grains-the-microbrewery-opens-a-new-unit-in-mohali",
+      "https://tribuneindia.com/news/archive/features/beer-hug-184640",
+      "https://www.zomato.com/chandigarh/the-great-bear-sector-26"
+    ]
+  },
+  {
+    "id": "panchkula-twisted-barrel",
+    "name": "Twisted Barrel",
+    "city": "Chandigarh",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/chandigarh/twisted-barrel-sector-9-panchkula"
+    ]
+  },
+  {
+    "id": "dehradun-beertales",
+    "name": "Beer Tales",
+    "city": "Dehradun",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": "Beer Tales",
+    "outlets": 2,
+    "lineage": null,
+    "sources": [
+      "https://www.manujagarwal.com/beertales"
+    ]
+  },
+  {
+    "id": "dehradun-doon-valley-brewery",
+    "name": "Doon Valley Brewery",
+    "city": "Dehradun",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": []
+  },
+  {
+    "id": "dehradun-brew-estate",
+    "name": "The Brew Estate",
+    "city": "Dehradun",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "The Brew Estate",
+    "outlets": 11,
+    "lineage": null,
+    "sources": [
+      "https://www.brewestate.in/"
+    ]
+  },
+  {
+    "id": "delhi-beeyoung-brewgarden-malviya-nagar",
+    "name": "BeeYoung Brewgarden",
+    "city": "Delhi",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/beeyoung-brewgarden-malviya-nagar-new-delhi"
+    ]
+  },
+  {
+    "id": "delhi-dublin-square-rohini",
+    "name": "Dublin Square",
+    "city": "Delhi",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": []
+  },
+  {
+    "id": "delhi-effingut-saket",
+    "name": "Effingut",
+    "city": "Delhi",
+    "founded": "2022-10",
+    "status": "open",
+    "closed": null,
+    "group": "Effingut",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.restaurantindia.in/news/pune-s-favourite-craft-beer-chain-enters-delhi-opens-outlet-at-saket.n20584",
+      "https://www.zomato.com/ncr/effingut-saket-new-delhi"
+    ]
+  },
+  {
+    "id": "delhi-flow-brew-dine-saket",
+    "name": "Flow Brew & Dine",
+    "city": "Delhi",
+    "founded": "2023",
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.restaurantindia.in/news/flow-brewery-launches-in-dlf-avenue-saket.n21249",
+      "https://www.zomato.com/ncr/flow-brew-dine-saket-new-delhi"
+    ]
+  },
+  {
+    "id": "delhi-fort-city-brewing-hauz-khas",
+    "name": "Fort City Brewing",
+    "city": "Delhi",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/fort-city-brew-pub-hauz-khas-new-delhi"
+    ]
+  },
+  {
+    "id": "delhi-ministry-of-beer-connaught-place",
+    "name": "Ministry of Beer",
+    "city": "Delhi",
+    "founded": "2016",
+    "status": "open",
+    "closed": null,
+    "group": "Ministry of Beer",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.knocksense.com/lucknow/lucknow-say-cheers-delhis-first-microbrewery-ministry-of-beer-is-now-in-gomti-nagar/",
+      "https://asiabrewersnetwork.com/?p=4717",
+      "https://www.zomato.com/ncr/ministry-of-beer-connaught-place-new-delhi"
+    ]
+  },
+  {
+    "id": "faridabad-brew-and-barrel-sector-12",
+    "name": "Brew & Barrel",
+    "city": "Faridabad",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": []
+  },
+  {
+    "id": "gurugram-seven-barrel-brew-pub",
+    "name": "7 Barrel Brew Pub",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/7-barrel-brew-pub-dlf-phase-1"
+    ]
+  },
+  {
+    "id": "gurugram-7-degrees-brauhaus",
+    "name": "7 Degrees Brauhaus",
+    "city": "Gurugram",
+    "founded": "2012",
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.restaurantindia.in/news/7-degrees-brauhaus-celebrates-its-3rd-anniversary.n9192",
+      "https://www.zomato.com/ncr/7-degrees-brauhaus-golf-course-road-gurgaon",
+      "https://magicpin.in/Gurgaon/Dlf-South-Point-Mall/Restaurant/7-Degrees-Brauhaus/store/5c2/"
+    ]
+  },
+  {
+    "id": "gurugram-adda-by-striker-sector-29",
+    "name": "Adda by Striker",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "temporarily closed",
+    "closed": null,
+    "group": "Striker",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/adda-by-striker-sector-29-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-batli-29-sector-29",
+    "name": "Batli 29",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/batli-29-sector-29-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-big-pitcher-sector-29",
+    "name": "Big Pitcher",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/big-pitcher-sector-29-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-bottles-and-barrels-sector-30",
+    "name": "Bottles and Barrels",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/bottles-and-barrels-sector-30"
+    ]
+  },
+  {
+    "id": "gurugram-brewdog-golf-course-road",
+    "name": "BrewDog",
+    "city": "Gurugram",
+    "founded": "2022-08",
+    "status": "unknown",
+    "closed": null,
+    "group": "BrewDog",
+    "outlets": 2,
+    "lineage": null,
+    "sources": [
+      "https://outlookindia.com/travel/gurugram-welcomes-its-first-pet-friendly-brewery-news-217467",
+      "https://asiabrewersnetwork.com/?p=4682",
+      "https://brewdog.com/pages/bars/gurugram"
+    ]
+  },
+  {
+    "id": "gurugram-brewer-street-sohna-road",
+    "name": "Brewer Street",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/brewer-street-1-sohna-road-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-bronx-brew-bar",
+    "name": "Bronx: The Brew Bar",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Open Tap",
+    "outlets": null,
+    "lineage": "The Bronx Brewery Bar listing in Sector 29 now trades as Open Tap 29.",
+    "sources": [
+      "https://www.zomato.com/ncr/bronx-brewery-bar-sector-29-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-downtown-diner-sector-29",
+    "name": "Downtown Diner and Fresh Beer Cafe",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Downtown",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/downtown-sector-29-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-effingut-golf-course-road",
+    "name": "Effingut",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Effingut",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/effingut-golf-course-road-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-factory-by-sutra-sector-29",
+    "name": "Factory by Sutra",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "temporarily closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": "Zomato now lists Factory by Sutra as Factory - Pub, Bar and Brewery.",
+    "sources": [
+      "https://www.zomato.com/ncr/factory-by-sutra-sector-29-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-hops-n-brew-sector-29",
+    "name": "Hops n Brew",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "temporarily closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/hops-n-brew-the-microbrewery-sector-29-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-howzatt-sector-15",
+    "name": "Howzatt",
+    "city": "Gurugram",
+    "founded": "2008",
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://homegrown.co.in/article/802379/a-beer-lovers-ode-to-the-breweries-of-gurgaon",
+      "https://www.zomato.com/ncr/howzatt-sector-15-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-lagom-kitchen-brewery",
+    "name": "Lagom Kitchen and Brewery",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/lagom-kitchen-brewery-sohna-road-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-manhattan-craft-brewery",
+    "name": "Manhattan Bar & Brewery",
+    "city": "Gurugram",
+    "founded": "2013",
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://magicpin.in/Gurgaon/Golf-Course-Road/Restaurant/Manhattan-Bar-Exchange-&-Brewery/store/4532",
+      "https://www.zomato.com/ncr/manhattan-bar-exchange-brewery-golf-course-road-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-open-tap-sohna-road",
+    "name": "Open Tap",
+    "city": "Gurugram",
+    "founded": "2014",
+    "status": "open",
+    "closed": null,
+    "group": "Open Tap",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://magicpin.in/Gurgaon/Sector-49/Restaurant/Open-Tap/store/63c",
+      "https://www.zomato.com/ncr/open-tap-sohna-road-sector-49-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-quaff-brewing-cyber-hub",
+    "name": "Quaff Brewing Co",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/quaff-brewing-co-dlf-cyber-city-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-soi-7-pub-brewery",
+    "name": "Soi 7 Pub & Brewery",
+    "city": "Gurugram",
+    "founded": "2012",
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://magicpin.in/Gurgaon/Cyber-Hub/Restaurant/Soi-7-Pub-and-Brewery/store/331",
+      "https://www.zomato.com/ncr/soi-7-pub-brewery-dlf-cyber-city-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-striker-pub-brewery",
+    "name": "Striker Pub and Brewery",
+    "city": "Gurugram",
+    "founded": "2011",
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.indianfoodfreak.com/2011/07/striker-pub-brewery-global-foyer-gurgaon/",
+      "https://www.zomato.com/ncr/striker-pub-and-brewery-golf-course-road"
+    ]
+  },
+  {
+    "id": "gurugram-uptown-dlf-phase-4",
+    "name": "Uptown Fresh Beer Cafe",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Downtown",
+    "outlets": null,
+    "lineage": "Uptown Fresh Beer Cafe in Galleria Market now trades as Downtown Fresh Beer Cafe.",
+    "sources": [
+      "https://www.zomato.com/ncr/uptown-fresh-beer-cafe-dlf-phase-4-gurgaon"
+    ]
+  },
+  {
+    "id": "gurugram-vapour-bar-exchange-sector-48",
+    "name": "Vapour Bar Exchange",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/vapour-bar-exchange-sohna-road-gurgaon",
+      "https://vapourbargurgaon.com/"
+    ]
+  },
+  {
+    "id": "gurugram-vapour-pub-brewery-mg-road",
+    "name": "Vapour Pub & Brewery",
+    "city": "Gurugram",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/vapour-pub-brewery-mg-road-gurgaon"
+    ]
+  },
+  {
+    "id": "lucknow-black-brewhouse",
+    "name": "Black Brewhouse",
+    "city": "Lucknow",
+    "founded": null,
+    "status": "temporarily closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/lucknow/black-brew-house-gomti-nagar"
+    ]
+  },
+  {
+    "id": "lucknow-ministry-of-beer-gomti-nagar",
+    "name": "Ministry of Beer",
+    "city": "Lucknow",
+    "founded": "2025-01",
+    "status": "open",
+    "closed": null,
+    "group": "Ministry of Beer",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.knocksense.com/lucknow/lucknow-say-cheers-delhis-first-microbrewery-ministry-of-beer-is-now-in-gomti-nagar/",
+      "https://www.zomato.com/lucknow/ministry-of-beer-gomti-nagar"
+    ]
+  },
+  {
+    "id": "lucknow-sky-glass-brewing-co",
+    "name": "Sky Glass Brewing Co.",
+    "city": "Lucknow",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/lucknow/sky-glass-brewing-co-gomti-nagar"
+    ]
+  },
+  {
+    "id": "ludhiana-brew-estate-sarabha-nagar",
+    "name": "The Brew Estate",
+    "city": "Ludhiana",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "The Brew Estate",
+    "outlets": 11,
+    "lineage": null,
+    "sources": [
+      "https://www.brewestate.in/"
+    ]
+  },
+  {
+    "id": "noida-cad-tech-bar-sector-94",
+    "name": "CAD Tech Bar and Craft Kitchen & Brewery",
+    "city": "Noida",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "CAD Tech Bar",
+    "outlets": 2,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/cad-techbar-brewery-sector-94-noida",
+      "https://cadtechbar.in/best-microbrewery-in-noida/"
+    ]
+  },
+  {
+    "id": "noida-noidawery-sector-63",
+    "name": "Noidawery",
+    "city": "Noida",
+    "founded": "2021-03",
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://indifoodbev.com/food-ingredients/noidawery-brewery-hub/",
+      "https://www.zomato.com/ncr/noidawery-sector-63-noida"
+    ]
+  },
+  {
+    "id": "shimla-brewing-company",
+    "name": "Shimla Brewing Company",
+    "city": "Shimla",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": []
+  },
+  {
+    "id": "shimla-brew-estate",
+    "name": "The Brew Estate",
+    "city": "Shimla",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "The Brew Estate",
+    "outlets": 11,
+    "lineage": null,
+    "sources": [
+      "https://www.brewestate.in/"
+    ]
+  },
+  {
+    "id": "closed-bulls-and-barrels-golf-course-road",
+    "name": "Bulls & Barrels - Brewery, Bar & Kitchen",
+    "city": "Gurugram",
+    "area": "Global Foyer Mall, Golf Course Road",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/bulls-barrels-brewery-bar-kitchen-golf-course-road"
+    ]
+  },
+  {
+    "id": "closed-prankster-sector-29",
+    "name": "Prankster",
+    "city": "Gurugram",
+    "area": "Sector 29",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/prankster-sector-29-gurgaon",
+      "https://homegrown.co.in/article/802379/a-beer-lovers-ode-to-the-breweries-of-gurgaon"
+    ]
+  },
+  {
+    "id": "closed-brew-buddy-sector-29",
+    "name": "Brew Buddy",
+    "city": "Gurugram",
+    "area": "Sector 29",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/brew-buddy-sector-29-gurgaon",
+      "https://homegrown.co.in/article/802379/a-beer-lovers-ode-to-the-breweries-of-gurgaon"
+    ]
+  },
+  {
+    "id": "closed-ninkasi-by-coopers-sector-30",
+    "name": "Ninkasi By Coopers",
+    "city": "Gurugram",
+    "area": "DLF Star Mall, Sector 30",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.zomato.com/ncr/ninkasi-by-coopers-sector-30-gurgaon"
+    ]
+  }
+]

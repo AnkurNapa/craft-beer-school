@@ -1,0 +1,992 @@
+[
+  {
+    "id": "chhatrapati-sambhajinagar-brewtherhood-craft-works-midc",
+    "name": "Brewtherhood Craft Works",
+    "city": "Chhatrapati Sambhajinagar",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": []
+  },
+  {
+    "id": "jaipur-downtown-diner",
+    "name": "Downtown Diner and Fresh Beer Cafe",
+    "city": "Jaipur",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": "Downtown Diner and Fresh Beer Cafe",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.theestablished.com/culture/living/microbreweries-in-delhi-ncr-12048280"
+    ]
+  },
+  {
+    "id": "jaipur-lighthouse",
+    "name": "Lighthouse",
+    "city": "Jaipur",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://wanderlog.com/place/details/4112871/lighthouse"
+    ]
+  },
+  {
+    "id": "jaipur-retreat",
+    "name": "Retreat",
+    "city": "Jaipur",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": []
+  },
+  {
+    "id": "jaipur-soul-brewing-co",
+    "name": "Soul Brewing Co.",
+    "city": "Jaipur",
+    "founded": "2022",
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://soulbrewing.in/"
+    ]
+  },
+  {
+    "id": "jaipur-tippsy-camel-brewers",
+    "name": "Tippsy Camel Brewers",
+    "city": "Jaipur",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.tippsycamel.com/"
+    ]
+  },
+  {
+    "id": "mumbai-doolally-andheri",
+    "name": "Doolally Taproom",
+    "city": "Mumbai",
+    "founded": "2015",
+    "status": "open",
+    "closed": null,
+    "group": "Doolally",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://homegrown.co.in/homegrown-explore/27-most-exciting-bombay-bars-that-opened-in-2015-what-to-get-at-each",
+      "https://unsobered.com/doolally-taproom-mumbai-reopens",
+      "https://doolally.in/web/venues"
+    ]
+  },
+  {
+    "id": "mumbai-doolally-khar",
+    "name": "Doolally Taproom",
+    "city": "Mumbai",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Doolally",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://unsobered.com/doolally-taproom-mumbai-reopens",
+      "https://www.esquireindia.co.in/food-and-drinks/what-to-eat/best-breweries-in-mumbai-for-craft-beer-gateway-taproom-effingut-and-more-places-worth-a-visit"
+    ]
+  },
+  {
+    "id": "mumbai-doolally-kemps-corner",
+    "name": "Doolally Taproom",
+    "city": "Mumbai",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Doolally",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.esquireindia.co.in/amp/story/food-and-drinks/where-to-drink/a-guide-to-the-best-microbreweries-in-mumbai"
+    ]
+  },
+  {
+    "id": "navi-mumbai-doolally-palm-beach-road",
+    "name": "Doolally Taproom",
+    "city": "Mumbai",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Doolally",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.esquireindia.co.in/amp/story/food-and-drinks/where-to-drink/a-guide-to-the-best-microbreweries-in-mumbai",
+      "https://unsobered.com/doolally-taproom-mumbai-reopens"
+    ]
+  },
+  {
+    "id": "thane-doolally-hiranandani-estate",
+    "name": "Doolally Taproom",
+    "city": "Mumbai",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Doolally",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://unsobered.com/doolally-taproom-mumbai-reopens"
+    ]
+  },
+  {
+    "id": "mumbai-effingut-colaba",
+    "name": "Effingut",
+    "city": "Mumbai",
+    "founded": "2018",
+    "status": "open",
+    "closed": null,
+    "group": "Effingut",
+    "outlets": 18,
+    "lineage": null,
+    "sources": [
+      "https://www.esquireindia.co.in/food-and-drinks/what-to-eat/best-breweries-in-mumbai-for-craft-beer-gateway-taproom-effingut-and-more-places-worth-a-visit",
+      "https://asiabrewersnetwork.com/news/effingut-expands-its-craft-beer-footprint-with-navi-mumbai-brewpub"
+    ]
+  },
+  {
+    "id": "mumbai-gateway-taproom-bkc",
+    "name": "Gateway Taproom (Gateway Brewing Co.)",
+    "city": "Mumbai",
+    "founded": "2017",
+    "status": "open",
+    "closed": null,
+    "group": "Gateway Brewing Co.",
+    "outlets": 2,
+    "lineage": null,
+    "sources": [
+      "https://www.asianage.com/life/food/031118/craft-brew-guide.html",
+      "https://www.restaurantindia.in/news/mumbais-popular-gateway-taproom-opens-2nd-outlet-at-kalaghoda.n20583",
+      "https://www.esquireindia.co.in/food-and-drinks/what-to-eat/best-breweries-in-mumbai-for-craft-beer-gateway-taproom-effingut-and-more-places-worth-a-visit"
+    ]
+  },
+  {
+    "id": "mumbai-hapi-beer-co-bandra",
+    "name": "HAPI Beer Co.",
+    "city": "Mumbai",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://magicpin.in/Mumbai/Reclamation/Restaurant/Hapi-Beer-Co./store/62c3c8/menu",
+      "https://www.esquireindia.co.in/amp/story/food-and-drinks/where-to-drink/a-guide-to-the-best-microbreweries-in-mumbai"
+    ]
+  },
+  {
+    "id": "mumbai-independence-brewing-versova",
+    "name": "Independence Brewing Company",
+    "city": "Mumbai",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Independence Brewing Company",
+    "outlets": null,
+    "lineage": "The brand is backed by the Trenton Group.",
+    "sources": [
+      "https://www.esquireindia.co.in/amp/story/food-and-drinks/where-to-drink/a-guide-to-the-best-microbreweries-in-mumbai",
+      "https://www.restaurantindia.in/news/restaurant-india-news-independence-brewing-company-launches-canned-beer-across-maharashtra.n15892"
+    ]
+  },
+  {
+    "id": "mumbai-independence-brewing-powai",
+    "name": "Independence Brewing Company",
+    "city": "Mumbai",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Independence Brewing Company",
+    "outlets": null,
+    "lineage": "The brand is backed by the Trenton Group.",
+    "sources": [
+      "https://www.esquireindia.co.in/food-and-drinks/what-to-eat/best-breweries-in-mumbai-for-craft-beer-gateway-taproom-effingut-and-more-places-worth-a-visit",
+      "https://www.restaurantindia.in/news/restaurant-india-news-independence-brewing-company-launches-canned-beer-across-maharashtra.n15892"
+    ]
+  },
+  {
+    "id": "mumbai-woodside-inn-colaba",
+    "name": "Woodside Inn",
+    "city": "Mumbai",
+    "founded": "2007",
+    "status": "open",
+    "closed": null,
+    "group": "Woodside Inn",
+    "outlets": 3,
+    "lineage": null,
+    "sources": [
+      "https://magicpin.in/Mumbai/Colaba/Restaurant/Woodside-inn/store/29395",
+      "https://homegrown.co.in/article/800441/a-soft-brioche-butter-poached-prawns-a-new-woodside-inn"
+    ]
+  },
+  {
+    "id": "mumbai-woodside-inn-bandra",
+    "name": "Woodside Inn",
+    "city": "Mumbai",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": "Woodside Inn",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://lbb.in/mumbai/woodside-inn-bandra/",
+      "https://homegrown.co.in/article/800441/a-soft-brioche-butter-poached-prawns-a-new-woodside-inn"
+    ]
+  },
+  {
+    "id": "nagpur-drifters-tap-station",
+    "name": "Drifters Tap Station (Drifters Brewing Company)",
+    "city": "Nagpur",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": "Drifters Brewing Company",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://getthedrift.in/"
+    ]
+  },
+  {
+    "id": "nashik-topchi-brewing-vilholi",
+    "name": "Topchi Brewing",
+    "city": "Nashik",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": "Topchi Brewing",
+    "outlets": 2,
+    "lineage": null,
+    "sources": [
+      "https://topchi.in/about-topchi"
+    ]
+  },
+  {
+    "id": "nashik-topchi-outpost",
+    "name": "Topchi Brewing Outpost",
+    "city": "Nashik",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": "Topchi Brewing",
+    "outlets": 2,
+    "lineage": null,
+    "sources": [
+      "https://topchi.in/about-topchi"
+    ]
+  },
+  {
+    "id": "pune-24k-kraft-brewzz-viman-nagar",
+    "name": "24K Kraft Brewzz",
+    "city": "Pune",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": "24K Kraft Brewzz",
+    "outlets": 10,
+    "lineage": null,
+    "sources": [
+      "https://www.outlookbusiness.com/spotlight/news-wire/rajesh-karandikar-building-a-future-ready-hospitality-empire"
+    ]
+  },
+  {
+    "id": "pune-24k-kraft-brewzz-balewadi",
+    "name": "24K Kraft Brewzz",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "24K Kraft Brewzz",
+    "outlets": 10,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/",
+      "https://www.outlookbusiness.com/spotlight/news-wire/rajesh-karandikar-building-a-future-ready-hospitality-empire"
+    ]
+  },
+  {
+    "id": "pune-babylon-craft-brewery-erandwane",
+    "name": "Babylon Craft Brewery",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/",
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "pune-big-little-brew-pub-kharadi",
+    "name": "Big Little Brew Pub",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "pune-bira-91-taproom-sangamvadi",
+    "name": "Bira 91 Taproom",
+    "city": "Pune",
+    "founded": "2025-11",
+    "status": "open",
+    "closed": null,
+    "group": "Bira 91",
+    "outlets": 9,
+    "lineage": null,
+    "sources": [
+      "https://www.restaurantindia.in/news/restaurant-india-news-bira-91-taproom-opens-its-first-outpost-in-pune-with-16-craft-beers-on-tap.n14583"
+    ]
+  },
+  {
+    "id": "pune-doolally-koregaon-park-annexe",
+    "name": "Doolally Taproom",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Doolally",
+    "outlets": null,
+    "lineage": "Doolally's original Pune brewery at The Corinthians, Mohammadwadi, stopped brewing and the brand now pours in Pune from this KOPA Mall taproom.",
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/",
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/",
+      "https://doolally.in/web/venues"
+    ]
+  },
+  {
+    "id": "pune-dorf-brewhouse-baner",
+    "name": "Dorf Brewhouse",
+    "city": "Pune",
+    "founded": "2025-10",
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/",
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "pune-downpour-baner",
+    "name": "Downpour",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Oi Brewing Company",
+    "outlets": 3,
+    "lineage": null,
+    "sources": [
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/",
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/",
+      "https://www.freepressjournal.in/pune/pune-based-draught-beer-brand-oi-to-open-own-cafes-now-1st-cafe-in-kalyani-nagar"
+    ]
+  },
+  {
+    "id": "pune-drifters-brewing-company-sanaswadi",
+    "name": "Drifters Brewing Company",
+    "city": "Pune",
+    "founded": "2016",
+    "status": "open",
+    "closed": null,
+    "group": "Drifters Brewing Company",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.restaurantindia.in/article/this-pune-based-brewery-is-standing-ahead-of-time-and-trend.13802",
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "pune-drifters-tap-station-koregaon-park",
+    "name": "Drifters Tap Station",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Drifters Brewing Company",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "pune-effingut-2-go-wanowrie",
+    "name": "Effingut 2 Go",
+    "city": "Pune",
+    "founded": "2020",
+    "status": "open",
+    "closed": null,
+    "group": "Effingut",
+    "outlets": 18,
+    "lineage": null,
+    "sources": [
+      "https://magicpin.in/Pune/Wanowrie/Restaurant/Effingut-2-Go/store/41716c/",
+      "https://asiabrewersnetwork.com/news/effingut-expands-its-craft-beer-footprint-with-navi-mumbai-brewpub"
+    ]
+  },
+  {
+    "id": "pune-effingut-2-go-kothrud",
+    "name": "Effingut 2 Go",
+    "city": "Pune",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": "Effingut",
+    "outlets": 18,
+    "lineage": null,
+    "sources": [
+      "https://asiabrewersnetwork.com/news/effingut-expands-its-craft-beer-footprint-with-navi-mumbai-brewpub"
+    ]
+  },
+  {
+    "id": "pune-effingut-bistro-camp",
+    "name": "Effingut Bistro",
+    "city": "Pune",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": "Effingut",
+    "outlets": 18,
+    "lineage": null,
+    "sources": [
+      "https://asiabrewersnetwork.com/news/effingut-expands-its-craft-beer-footprint-with-navi-mumbai-brewpub",
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/"
+    ]
+  },
+  {
+    "id": "pune-effingut-bistro-balewadi",
+    "name": "Effingut Bistro",
+    "city": "Pune",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": "Effingut",
+    "outlets": 18,
+    "lineage": null,
+    "sources": [
+      "https://asiabrewersnetwork.com/news/effingut-expands-its-craft-beer-footprint-with-navi-mumbai-brewpub",
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/"
+    ]
+  },
+  {
+    "id": "pune-effingut-koregaon-park",
+    "name": "Effingut Brewerkz",
+    "city": "Pune",
+    "founded": "2014",
+    "status": "open",
+    "closed": null,
+    "group": "Effingut",
+    "outlets": 18,
+    "lineage": null,
+    "sources": [
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/",
+      "https://asiabrewersnetwork.com/news/effingut-expands-its-craft-beer-footprint-with-navi-mumbai-brewpub",
+      "https://lbb.in/pune/breweries-in-pune"
+    ]
+  },
+  {
+    "id": "pune-independence-brewing-balewadi",
+    "name": "Independence Brewing Company",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Independence Brewing Company",
+    "outlets": null,
+    "lineage": "The brand is backed by the Trenton Group; its original Mundhwa brewpub has closed.",
+    "sources": [
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/",
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/",
+      "https://www.restaurantindia.in/news/restaurant-india-news-independence-brewing-company-launches-canned-beer-across-maharashtra.n15892"
+    ]
+  },
+  {
+    "id": "pune-independence-brewing-kalyani-nagar",
+    "name": "Independence Brewing Company",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Independence Brewing Company",
+    "outlets": null,
+    "lineage": "The brand is backed by the Trenton Group; its original Mundhwa brewpub has closed.",
+    "sources": [
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/",
+      "https://www.restaurantindia.in/news/restaurant-india-news-independence-brewing-company-launches-canned-beer-across-maharashtra.n15892"
+    ]
+  },
+  {
+    "id": "pune-kimaya-beer-station",
+    "name": "Kimaya Beer Station",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/",
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "pune-malaka-spice-koregaon-park",
+    "name": "Malaka Spice",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Malaka Spice",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/"
+    ]
+  },
+  {
+    "id": "pune-malaka-spice-kharadi",
+    "name": "Malaka Spice",
+    "city": "Pune",
+    "founded": "2021-03",
+    "status": "open",
+    "closed": null,
+    "group": "Malaka Spice",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.restaurantindia.in/news/malaka-spice-opens-a-new-restaurant-in-kharadi-pune.n19732",
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/"
+    ]
+  },
+  {
+    "id": "pune-nincasa-mundhwa",
+    "name": "Nincasa",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "pune-oi-brewing-company-kalyani-nagar",
+    "name": "Oi Brewing Company",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": "Oi Brewing Company",
+    "outlets": 3,
+    "lineage": null,
+    "sources": [
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/",
+      "https://www.freepressjournal.in/pune/pune-based-draught-beer-brand-oi-to-open-own-cafes-now-1st-cafe-in-kalyani-nagar"
+    ]
+  },
+  {
+    "id": "pune-pune-beer-farm-growler-kharadi",
+    "name": "Pune Beer Farm - Growler Station",
+    "city": "Pune",
+    "founded": "2021-11",
+    "status": "open",
+    "closed": null,
+    "group": "Pune Beer Farm",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "pune-stoney-river-brewing-co-kondhwa",
+    "name": "Stoney River Brewing Co.",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "pune-the-bierhaus-hinjewadi",
+    "name": "The Bierhaus",
+    "city": "Pune",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "pune-toit-kalyani-nagar",
+    "name": "Toit",
+    "city": "Pune",
+    "founded": "2019",
+    "status": "open",
+    "closed": null,
+    "group": "Toit",
+    "outlets": 4,
+    "lineage": null,
+    "sources": [
+      "https://www.restaurantindia.in/article/now-taste-legendary-craft-beer-fun-cocktails-in-pune.12661",
+      "https://toit.in/restaurant/toit-pune/"
+    ]
+  },
+  {
+    "id": "udaipur-malibu-the-brewhouse",
+    "name": "Malibu The Brewhouse",
+    "city": "Udaipur",
+    "founded": null,
+    "status": "unknown",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://saurabhbrewtech.com/malibu-the-brewhouse-udaipur/"
+    ]
+  },
+  {
+    "id": "udaipur-rhythm-and-brews",
+    "name": "Rhythm & Brews",
+    "city": "Udaipur",
+    "founded": null,
+    "status": "open",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://www.thequaliaudaipur.com/brewery/rhythm-and-brews.html"
+    ]
+  },
+  {
+    "id": "closed-great-state-aleworks",
+    "name": "Great State Aleworks (Power Plaza rooftop)",
+    "city": "Pune",
+    "area": "Koregaon Park",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": "Great State Aleworks",
+    "outlets": null,
+    "lineage": "The rooftop venue is listed as permanently closed; a Pune beer directory says the owners sold the Great State Dive operations, and the brewing brand may continue elsewhere.",
+    "sources": [
+      "https://wanderlog.com/place/details/1428001/great-state-aleworks",
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "closed-barking-deer",
+    "name": "The Barking Deer Brewpub",
+    "city": "Mumbai",
+    "area": "Mathuradas Mills Compound, Lower Parel",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": "A 2026 Esquire India guide still lists a Barking Deer at Nariman Point, so a move is possible but unconfirmed.",
+    "sources": [
+      "https://wanderlog.com/place/details/1323679/the-barking-deer-brewpub-and-restaurant",
+      "https://wanderlog.com/list/geoCategory/11508/best-mumbai-breweries-and-craft-beer",
+      "https://www.esquireindia.co.in/food-and-drinks/what-to-eat/best-breweries-in-mumbai-for-craft-beer-gateway-taproom-effingut-and-more-places-worth-a-visit"
+    ]
+  },
+  {
+    "id": "closed-independence-brewing-mundhwa",
+    "name": "Independence Brewing Company (Mundhwa)",
+    "city": "Pune",
+    "area": "Mundhwa",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": "Independence Brewing Company",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/"
+    ]
+  },
+  {
+    "id": "closed-doolally-the-corinthians",
+    "name": "The 1st Brewhouse (Doolally brewery)",
+    "city": "Pune",
+    "area": "The Corinthians, Mohammadwadi",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": "Doolally",
+    "outlets": null,
+    "lineage": "Doolally's original Pune brewery stopped brewing; the brand now runs a taproom at KOPA Mall.",
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "closed-tjs-brew-works",
+    "name": "TJ's Brew Works",
+    "city": "Pune",
+    "area": "Amanora Town Centre",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "closed-kiva-brew-pub",
+    "name": "Kiva Brew Pub",
+    "city": "Pune",
+    "area": "Hinjewadi",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "closed-2ndpint-brew-co",
+    "name": "2ndPint Brew Co",
+    "city": "Pune",
+    "area": "Bund Garden Road",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": "Rebranded from Flambos.",
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "closed-irish-village",
+    "name": "Irish Village",
+    "city": "Pune",
+    "area": "Koregaon Park",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "closed-mezza9",
+    "name": "Mezza9",
+    "city": "Pune",
+    "area": "Hinjewadi IT Park Phase 1",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "closed-ales-brews-and-ciders",
+    "name": "Ales Brews and Ciders",
+    "city": "Pune",
+    "area": "Kalyani Nagar",
+    "founded": "2018-08",
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://ashtiw.wordpress.com/pune-brewpub-directory/"
+    ]
+  },
+  {
+    "id": "closed-effingut-bandra-west",
+    "name": "Effingut (Bandra West)",
+    "city": "Mumbai",
+    "area": "Linking Road, Bandra West",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": "Effingut",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://wanderlog.com/list/geoCategory/11508/best-mumbai-breweries-and-craft-beer"
+    ]
+  },
+  {
+    "id": "closed-toit-mumbai-lower-parel",
+    "name": "Toit Mumbai (Zeba Centre)",
+    "city": "Mumbai",
+    "area": "Lower Parel",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": "Toit",
+    "outlets": null,
+    "lineage": "toit.in still lists a Toit Mumbai outlet, so the brand may have moved within the city.",
+    "sources": [
+      "https://wanderlog.com/list/geoCategory/11508/best-mumbai-breweries-and-craft-beer",
+      "https://toit.in/restaurant/toit-pune/"
+    ]
+  },
+  {
+    "id": "closed-verbena-brewpub",
+    "name": "Verbena Brewpub and Skygarden",
+    "city": "Mumbai",
+    "area": "Kamala Mills, Lower Parel",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://wanderlog.com/list/geoCategory/11508/best-mumbai-breweries-and-craft-beer"
+    ]
+  },
+  {
+    "id": "closed-brewdog-mumbai-bandra",
+    "name": "BrewDog Mumbai Bandra",
+    "city": "Mumbai",
+    "area": "Hinduja Junction, Bandra West",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": "2024",
+    "group": "BrewDog",
+    "outlets": null,
+    "lineage": "Run by franchisee Aloha International Brewpub.",
+    "sources": [
+      "https://asiabrewersnetwork.com/news/uk-craft-beer-giant-brewdog-closes-its-two-flagship-mumbai-bars",
+      "https://wanderlog.com/list/geoCategory/11508/best-mumbai-breweries-and-craft-beer"
+    ]
+  },
+  {
+    "id": "closed-brewdog-midtown-mumbai",
+    "name": "BrewDog Midtown Mumbai",
+    "city": "Mumbai",
+    "area": "Kamala Mills, Lower Parel",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": "2024",
+    "group": "BrewDog",
+    "outlets": null,
+    "lineage": "Run by franchisee Aloha International Brewpub.",
+    "sources": [
+      "https://asiabrewersnetwork.com/news/uk-craft-beer-giant-brewdog-closes-its-two-flagship-mumbai-bars",
+      "https://wanderlog.com/list/geoCategory/11508/best-mumbai-breweries-and-craft-beer"
+    ]
+  },
+  {
+    "id": "closed-intermezze-brewery",
+    "name": "Intermezze Brewery",
+    "city": "Mumbai",
+    "area": "The Walk, Hiranandani Estate, Thane West",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://wanderlog.com/list/geoCategory/11508/best-mumbai-breweries-and-craft-beer"
+    ]
+  },
+  {
+    "id": "closed-brewbot-taproom",
+    "name": "Brewbot Taproom",
+    "city": "Mumbai",
+    "area": "Geliki Building, Reclamation, Bandra West",
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": "Brewbot",
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://wanderlog.com/list/geoCategory/11508/best-mumbai-breweries-and-craft-beer"
+    ]
+  },
+  {
+    "id": "closed-beerlicious-jaipur",
+    "name": "Beerlicious",
+    "city": "Jaipur",
+    "area": null,
+    "founded": null,
+    "status": "permanently closed",
+    "closed": null,
+    "group": null,
+    "outlets": null,
+    "lineage": null,
+    "sources": [
+      "https://wanderlog.com/list/geoCategory/11507/best-jaipur-breweries-and-craft-beer"
+    ]
+  }
+]

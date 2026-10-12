@@ -974,3 +974,9 @@ section.fam-group{padding:0}
 @media (max-width:900px){.hop-split{grid-template-columns:1fr}}
 .hop-trail:nth-of-type(2) .hop-n{background:#0a6d84}
 .hop-trail:nth-of-type(3) .hop-n{background:#2f6b2a}
+.bd-hist{margin:.1rem 0 .4rem;font-size:.82rem;color:var(--ink)}
+.bd-hist a{color:var(--blue);text-decoration:underline;text-underline-offset:2px;margin-left:.3rem}
+.bd-status{font-family:var(--mono);font-size:.58rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.18rem .5rem;border-radius:4px;margin-right:.35rem}
+.bd-st-closed{background:#f6e3e3;color:#9a2b2b}
+.bd-st-temp{background:#fbeedd;color:var(--amber-deep)}
+.bd-closed h3{color:var(--ink-soft)}
