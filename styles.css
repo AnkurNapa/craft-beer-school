@@ -930,3 +930,26 @@ section.fam-group{padding:0}
 .person-card p{margin:0 0 .8rem;color:var(--ink-soft);font-size:.9rem}
 .person-btn{padding:.5rem 1.1rem;font-size:.85rem}
 @media (max-width:480px){.person-card{flex-direction:column;text-align:center}}
+
+/* Ingredient guides: yeast, hops, malts */
+.ig-finder select:nth-of-type(2){background-color:var(--navy)}
+.ig-finder select:nth-of-type(3){background-color:var(--blue)}
+.ig-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.ig-row{padding:1.4rem .2rem;border-bottom:1px solid var(--line);scroll-margin-top:6rem}
+.ig-row:target{background:#fff8ee}
+.ig-head{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap}
+.ig-head h3{margin:0;font-size:1.3rem}
+.ig-head h3 span{font-family:var(--sans);font-weight:500;font-size:.9rem;color:var(--ink-soft);margin-left:.4rem;letter-spacing:0}
+.ig-chips{display:flex;gap:.4rem;flex-wrap:wrap}
+.ig-chip{font-family:var(--mono);font-size:.58rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.2rem .55rem;border-radius:4px;background:#e6f1f4;color:var(--blue)}
+.ig-chip:first-child{background:#fbeedd;color:var(--amber-deep)}
+.ig-desc{margin:.5rem 0 .8rem;color:var(--ink-soft);max-width:70ch}
+.ig-specs{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem 1.4rem;margin:0}
+.ig-specs dt{font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+.ig-specs dd{margin:.1rem 0 0;font-weight:700;font-size:.95rem}
+.ig-styles{margin:.8rem 0 0;font-size:.88rem}
+.ig-src{display:flex;gap:1rem;margin:.6rem 0 0;font-size:.78rem;color:var(--ink-soft)}
+.ig-src a{color:var(--blue);text-decoration:underline;text-underline-offset:2px}
+.ig-finder{flex-wrap:wrap;max-width:980px}
+.ig-finder select{min-width:11rem;flex:1 1 11rem}
+.ig-finder input{flex:3 1 16rem}

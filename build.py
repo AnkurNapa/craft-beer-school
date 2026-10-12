@@ -17,6 +17,7 @@ import articles_all
 import pages_a
 import promos
 import breweries
+import ingredients
 import pages_b
 import seo
 import style_render
@@ -470,6 +471,10 @@ PAGES["courses.html"] = (_t, _d, _a, re.sub(r'<section class="cta"><div class="w
 PAGES["breweries.html"] = ("India Craft Brewery Directory and Map | Craft Beer School",
                            "Map and directory of craft breweries, brewpubs and taprooms in India. Search by brewery, beer, style, city or state.",
                            "breweries", breweries.page())
+_TITLES = {a["slug"]: a["h1"] for a in ARTICLES}
+for _k, _g in ingredients.GUIDES.items():
+    if ingredients.load(_k):
+        PAGES[_g["slug"]] = (_g["title"], _g["desc"], "", ingredients.page(_k, _TITLES))
 PAGES["search.html"] = ("Search | Craft Beer School",
                         "Search every guide, course, beer style and mentor on Craft Beer School from one box.",
                         "", discover.search_page())

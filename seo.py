@@ -44,6 +44,9 @@ PAGE_WEIGHT = {
     "faq.html": ("0.7", "monthly"),
     "blog.html": ("0.6", "weekly"),
     "breweries.html": ("0.8", "monthly"),
+    "yeast-strains-guide.html": ("0.8", "monthly"),
+    "hops-guide.html": ("0.8", "monthly"),
+    "malt-guide.html": ("0.8", "monthly"),
     "careers.html": ("0.5", "monthly"),
     "privacy.html": ("0.2", "yearly"),
     "refund.html": ("0.2", "yearly"),
@@ -61,6 +64,9 @@ BREADCRUMB_LABEL = {
     "resources.html": "Resources",
     "blog.html": "Blog",
     "breweries.html": "Breweries",
+    "yeast-strains-guide.html": "Yeast strains",
+    "hops-guide.html": "Hops",
+    "malt-guide.html": "Malts",
     "careers.html": "Careers",
     "contact.html": "Contact",
     "faq.html": "FAQ",
@@ -254,6 +260,10 @@ def jsonld(slug, title, desc):
         graph.extend(_courses(_course_for(slug)))
     if slug == "faq.html":
         graph.append(_faq())
+    import ingredients
+    for _k, _g in ingredients.GUIDES.items():
+        if slug == _g["slug"]:
+            graph.extend(ingredients.graph_nodes(_k))
     if slug == "breweries.html":
         import breweries
         graph.extend(breweries.graph_nodes())
@@ -377,6 +387,9 @@ def llms_txt():
         "",
         f"- [Courses]({SITE_URL}/courses.html): all {pages_a.COURSE_COUNT_WORD} online courses and in-person workshops.",
         f"- [India craft brewery directory]({SITE_URL}/breweries.html): map and list of craft breweries, brewpubs and taprooms in India, searchable by brewery, beer, style, city and state, each with a source and last-checked date.",
+        f"- [Brewing yeast strains guide]({SITE_URL}/yeast-strains-guide.html): popular dry and liquid yeasts compared on attenuation, temperature and flocculation from makers' datasheets.",
+        f"- [Hop varieties guide]({SITE_URL}/hops-guide.html): popular hops compared on alpha acid, oil, aroma and substitutes.",
+        f"- [Brewing malt guide]({SITE_URL}/malt-guide.html): base, caramel, kilned and roasted malts compared on colour and usage.",
         f"- [Resources]({SITE_URL}/resources.html): free Beer 101, styles primer, glossary and brewing calculators.",
         f"- [FAQ]({SITE_URL}/faq.html): experience needed, format, class size, certification, payment and refunds.",
         f"- [About]({SITE_URL}/about.html): mentors, mission and teaching method.",
