@@ -50,7 +50,7 @@ MENTORS = [
          areas=["Strategy", "Operations", "Education"],
          courses=[],
          linkedin=""),
-    dict(slug="mentor-rahul-baliyan.html", name="Rahul Baliyan", img="assets/rahul-baliyan.jpg",
+    dict(slug="mentor-rahul-baliyan.html", name="Rahul Baliyan", img="assets/rahul-baliyan-portrait.jpg",
          role="Brewing Science Instructor · Delhi &amp; North India",
          card="German-style Brewmaster trained at Weihenstephan, TU Munich, with an M.Tech. in Food Biotechnology. A decade as Consultant Brew Master for JW Marriott Chandigarh and Rockmann Beer Island, India's first German brewery, from start-up and excise to yield and sourcing.",
          lede="German-style brewing, taught from Delhi.",
