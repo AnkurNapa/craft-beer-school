@@ -8,6 +8,7 @@ CTA that does not point at the course the plan assigned.
 import json, pathlib, re, sys
 
 HERE = pathlib.Path(__file__).parent
+ROOT = __import__("pathlib").Path(__file__).parent
 TODAY = __import__("datetime").date.today().isoformat()
 PLAN = {p["slug"]: p for p in json.load(open(HERE / "content/plan.json"))}
 EXISTING = {"what-is-craft-beer", "beer-styles-guide", "how-to-taste-beer", "beer-off-flavours",
@@ -74,9 +75,10 @@ def check(path):
     for tag in set(re.findall(r"</?([a-z0-9]+)", body + " ".join(x for _, x in a["faqs"]))):
         if tag not in ALLOWED_TAGS: errs.append(f"tag <{tag}> not allowed")
     for href in re.findall(r'href="([^"]+)"', body):
-        target = href.split("#")[0]
+        target = href.split("#")[0].split("?")[0]
         if target.startswith("http"): continue
-        if target not in PAGES and target[:-5] not in PLAN and target[:-5] not in EXISTING:
+        # Generated pages (style cards, directory, ingredient guides) count once built.
+        if target not in PAGES and target[:-5] not in PLAN and target[:-5] not in EXISTING and not (ROOT / target).exists():
             errs.append(f"dead internal link {href}")
         # A guide goes live on its plan date, so a link only breaks if its target publishes after the
         # linking guide does. Backdated archive guides may link to anything already live today.
