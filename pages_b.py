@@ -118,7 +118,7 @@ FAQ = banner("FAQ","Questions","Everything you wanted to ask.",
   <div class="wrap">
     <div class="faq">
       {faq_item("Do I need any brewing experience to start?","Not at all. Brewing Fundamentals is built for complete beginners, we start with the science and ingredients and build up from there. Many of our students had no prior brewing background.")}
-      {faq_item("Are the courses online or in person?","Both. Our " + COURSE_COUNT_WORD + " core courses run as flexible live online sessions you can join from any city. We also offer in-person workshops, home-visit brewing and guided tastings, mainly around Bengaluru.")}
+      {faq_item("Are the courses online or in person?","Both. Our " + COURSE_COUNT_WORD + " core courses run as flexible live online sessions you can join from any city. We also teach in person in Pune, Delhi, Gurugram and Bengaluru: a 1-day intensive, a 1-month advanced course, Brewing Fundamentals with our Beer Crosswords book for ₹1,999 and last-minute WSET Level 1 Beer prep. Home-visit brewing and guided tastings are on enquiry.")}
       {faq_item("What are the class sizes?","Small by design. Tiny cohorts mean every question gets answered and every batch gets tasted, with one-to-one mentorship from working brewers.")}
       {faq_item("Do you help with WSET or Cicerone certification?","Yes. We provide structured exam preparation for WSET and Cicerone so you can build globally recognised beer knowledge and sit the exams with confidence.")}
       {faq_item("How do I enrol and pay?","Pick a course and submit the enquiry form or WhatsApp us. We confirm dates and share payment details. Seats are confirmed once payment is received, cohorts fill quickly.")}

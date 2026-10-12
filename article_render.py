@@ -195,6 +195,7 @@ def _finder(articles, segment_of):
              "b": (a.get("expert") or {}).get("name", ""),
              "i": (THUMB_DIR / f"{a['slug']}.jpg").exists()} for a in articles]
     data = json.dumps(rows, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    recs = json.dumps(_recommendations(articles), ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     return f"""
 <section class="finder-wrap" aria-labelledby="finder-h">
   <div class="wrap">
@@ -208,6 +209,7 @@ def _finder(articles, segment_of):
     </form>
     <p class="finder-all"><a href="blog.html?cat=all" id="f-all">Browse all {len(articles)} guides, newest first</a></p>
     <div id="f-results" hidden>
+      <aside class="cta-inline f-rec" id="f-rec" hidden><div><span class="eyebrow">Recommended for this search</span><h3></h3><p></p></div><a class="btn btn-amber" data-cta="blog-finder-rec"></a></aside>
       <div class="f-bar"><p class="f-count" id="f-count" aria-live="polite"></p><nav class="f-pager" aria-label="Results pages"></nav></div>
       <ol class="f-list" id="f-list"></ol>
       <div class="f-bar"><a href="blog.html" class="f-clear">Clear filters</a><nav class="f-pager" aria-label="Results pages"></nav></div>
@@ -215,7 +217,34 @@ def _finder(articles, segment_of):
   </div>
 </section>
 <script id="f-data" type="application/json">{data}</script>
+<script id="f-recs" type="application/json">{recs}</script>
 <script>{FINDER_JS.replace("PER_PAGE", str(PER_PAGE))}</script>"""
+
+
+def _recommendations(articles):
+    """What the finder recommends: an offer when the search words match one, else
+    the course most guides in the chosen category already sell."""
+    import collections
+    import pages_a
+    import promos
+
+    def course_card(href):
+        for c in pages_a.COURSE_DATA:
+            if pages_a.course_href(c["name"]) == href:
+                name = c["name"].replace("&amp;", "&")
+                return dict(t=name, d=f'{c["dur"]}, live online, {c["price"]}. {c["blurb"]}', h=href, l=f"See {name}")
+        if "Corporate" in href:
+            return dict(t="Training for your team", d="Beverage training for drinks companies and GCC teams, on site or live online.", h=href, l="Ask about team training")
+        if "consultancy" in href:
+            return dict(t="Talk to a consultant brewer", d="Our consultant brewers work with breweries and brewpubs on site or remotely.", h=href, l="Book a consultation")
+        return None
+
+    by_cat = collections.defaultdict(collections.Counter)
+    for a in articles:
+        by_cat[a["cat"]][a["cta"]["href"]] += 1
+    cats = {c: course_card(n.most_common(1)[0][0]) for c, n in by_cat.items()}
+    offers = [dict(w=o["words"], t=o["title"], d=o["body"], h=o["href"], l=o["label"]) for o in promos.OFFERS]
+    return dict(cats={c: v for c, v in cats.items() if v}, offers=offers)
 
 
 FINDER_JS = """(()=>{
@@ -231,6 +260,9 @@ function render(){
   const hits=D.filter(a=>(!c||c==='all'||a.c===c)&&terms.every(t=>(a.t+' '+a.d+' '+a.c+' '+a.g+' '+a.b).toLowerCase().includes(t)));
   const pages=Math.max(1,Math.ceil(hits.length/P)),pg=Math.min(pages,Math.max(1,+u.get('page')||1)),from=(pg-1)*P;
   count.textContent=hits.length?`Displaying results ${from+1}-${Math.min(from+P,hits.length)} of ${hits.length}`:'No guides match. Try a broader word or another category.';
+  const R=JSON.parse(document.getElementById('f-recs').textContent),box2=document.getElementById('f-rec');
+  const rec=R.offers.find(o=>o.w.some(x=>w.includes(x)))||R.cats[c]||R.offers[1];
+  box2.hidden=!rec;if(rec){box2.querySelector('h3').textContent=rec.t;box2.querySelector('p').textContent=rec.d;const b=box2.querySelector('a');b.textContent=rec.l;b.href=rec.h}
   list.replaceChildren(...hits.slice(from,from+P).map(a=>{
     const li=el('li','f-row'),txt=el('div','f-txt'),h=el('h3'),l=el('a',null,a.t);l.href=a.s+'.html';h.append(l);
     const meta=el('p','f-meta');meta.append(el('span','f-cat',a.c),el('span',null,a.r+(a.b?' · By '+a.b:'')));

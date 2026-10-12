@@ -15,6 +15,7 @@ import article_render
 import course_pages
 import articles_all
 import pages_a
+import promos
 import pages_b
 import seo
 import style_render
@@ -126,9 +127,14 @@ NAV_ITEMS = [
     ("Contact", "contact.html", "contact"),
 ]
 
-ANNOUNCE = ('<div class="announce">Now enrolling: the ₹999 intro session is open. '
-            '<a href="courses.html">See all courses [[arrow-right]]</a>'
-            '<span class="announce-sep">·</span><a href="prospectus.html" data-cta="announce-prospectus">Read the prospectus</a></div>')
+# Rotates through the current offers in promos.py; the first shows without JS.
+ANNOUNCE = ('<div class="announce" aria-live="off">' + "".join(
+    f'<span class="ann"{"" if i == 0 else " hidden"}>{o["banner"]} '
+    f'<a href="{o["article"]}" data-cta="announce-{o["key"]}">{o["link"]} [[arrow-right]]</a></span>'
+    for i, o in enumerate(promos.OFFERS)) +
+    '<span class="announce-sep">·</span><a href="courses.html" data-cta="announce-courses">All courses</a>'
+    '<script>(()=>{const s=document.currentScript.parentNode.querySelectorAll(".ann");let i=0;'
+    'if(s.length>1)setInterval(()=>{s[i].hidden=true;i=(i+1)%s.length;s[i].hidden=false},6000)})()</script></div>')
 
 
 def course_ticker():
@@ -400,7 +406,15 @@ def _course_cta(article):
     return {**article, "cta": {**cta, "href": pages_a.course_href(hit["name"])}}
 
 
-ARTICLES = [_course_cta(a) for a in ARTICLES]
+def _promo_cta(article):
+    """Guides closest to a current in-person offer sell that offer instead."""
+    o = promos.BY_GUIDE.get(article["slug"])
+    if not o:
+        return article
+    return {**article, "cta": {k: o[k] for k in ("title", "body", "href", "label")}}
+
+
+ARTICLES = [_promo_cta(_course_cta(a)) for a in ARTICLES]
 BY_SLUG = {a["slug"]: a for a in ARTICLES}
 
 # Reuse the existing blog banner, then list the real guides underneath it.
@@ -414,7 +428,7 @@ PAGES = {
                         "Better beer education brews better beer. Meet Craft Beer School, India's grain-to-glass beer school, our mentors, mission and method.",
                         "about", pages_a.ABOUT),
     "courses.html":   ("Beer Brewing Courses in India | Craft Beer School",
-                        f"{pages_a.COURSE_COUNT_WORD.capitalize()} online courses plus in-person workshops in Bengaluru. Brewing, business, styles, sensory, AI, ESG, distilling and free safety.",
+                        f"{pages_a.COURSE_COUNT_WORD.capitalize()} online courses plus in-person classes in Pune, Delhi, Gurugram and Bengaluru. Brewing, business, styles, sensory and more.",
                         "courses", pages_a.COURSES),
     "resources.html": ("Free Beer Education Resources | Craft Beer School",
                         "Free beer education: Beer 101, styles primer, a brewing glossary, calculators and tasting tools to sharpen your palate and your process.",
