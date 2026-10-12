@@ -100,10 +100,15 @@ check(sitemap.lstrip().startswith("<?xml"), "sitemap.xml: missing XML declaratio
 check('xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"' in sitemap,
       "sitemap.xml: wrong or missing namespace")
 locs = re.findall(r"<loc>([^<]+)</loc>", sitemap)
-check(len(locs) == len(PAGES), f"sitemap lists {len(locs)} urls for {len(PAGES)} pages")
+LANG_DIRS = ("hi/", "mr/", "te/", "kn/")  # translated copies built by i18n.py
+en_locs = [l for l in locs if not l.replace(seo.SITE_URL, "").lstrip("/").startswith(LANG_DIRS)]
+check(len(en_locs) == len(PAGES), f"sitemap lists {len(en_locs)} English urls for {len(PAGES)} pages")
 for loc in locs:
     slug = loc.replace(seo.SITE_URL, "").lstrip("/") or "index.html"
-    check(slug in PAGES, f"sitemap lists {loc} but {slug} does not exist")
+    if slug.startswith(LANG_DIRS):
+        check((HERE / slug).exists(), f"sitemap lists {loc} but {slug} does not exist")
+    else:
+        check(slug in PAGES, f"sitemap lists {loc} but {slug} does not exist")
 
 robots = (HERE / "robots.txt").read_text()
 check(f"Sitemap: {seo.SITE_URL}/sitemap.xml" in robots, "robots.txt: sitemap line wrong")

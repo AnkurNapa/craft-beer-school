@@ -53,6 +53,26 @@ def _segments(soup):
             yield el, inner
 
 
+SKIP_PARENTS = {"script", "style", "svg", "noscript", "title", "code"}
+
+
+def _loose_text(soup):
+    """Text outside the leaf blocks: menu links, buttons, banners, chips, footer labels."""
+    from bs4 import NavigableString, Comment, Doctype
+    for s in soup.find_all(string=True):
+        if isinstance(s, (Comment, Doctype)) or not isinstance(s, NavigableString):
+            continue
+        if s.find_parent(class_="lang-switch"):
+            continue
+        text = s.strip()
+        if not text or not re.search(r"[A-Za-z]{2}", text):
+            continue
+        parents = {p.name for p in s.parents}
+        if parents & SKIP_PARENTS or parents & BLOCK:
+            continue
+        yield s, text
+
+
 def _parse(path):
     return BeautifulSoup(path.read_text(encoding="utf-8"), "lxml")
 
@@ -74,6 +94,8 @@ def page_segments(name):
         out[key(meta["content"])] = meta["content"]
     for inp in soup.find_all(attrs={"placeholder": True}):
         out[key(inp["placeholder"])] = inp["placeholder"]
+    for _, text in _loose_text(soup):
+        out[key(text)] = text
     return out
 
 
@@ -148,9 +170,12 @@ def build():
                 old.unlink()
         for name in sorted(ready[l]):
             soup = _parse(ROOT / name)
+            loose = list(_loose_text(soup))
             for el, inner in list(_segments(soup)):
                 el.clear()
                 el.append(BeautifulSoup(mems[l][key(inner)], "html.parser"))
+            for s, text in loose:
+                s.replace_with(str(s).replace(text, mems[l][key(text)]))
             meta = soup.find("meta", attrs={"name": "description"})
             if meta and meta.get("content") and key(meta["content"]) in mems[l]:
                 meta["content"] = mems[l][key(meta["content"])]
