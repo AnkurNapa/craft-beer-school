@@ -229,6 +229,13 @@ HOME = f"""
   </div>
 </section>
 
+<section id="oktoberfest-promo" style="padding-block:0 clamp(2rem,4vw,3rem)">
+  <div class="wrap" style="max-width:560px">
+    <a href="contact.html?course=Brewing%20Fundamentals#enroll" data-cta="home-oktoberfest-banner"><img src="assets/oktoberfest-brewing-fundamentals.jpg" alt="Oktoberfest: Online Brewing Fundamentals. Next online batch starts 17th October. Take home a happy gift. Enrol now." width="1080" height="1080" loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px" /></a>
+  </div>
+</section>
+<script>if(new Date()>new Date('2026-10-18T00:00:00+05:30'))document.getElementById('oktoberfest-promo').remove()</script>
+
 <section style="padding-block:0">
   <div class="wrap">
     <div class="statband reveal">
