@@ -1,0 +1,380 @@
+{
+ "slug": "where-to-drink-this-weekend-bengaluru-stout",
+ "date": "2026-12-18",
+ "city": "Bengaluru",
+ "style": "Stout",
+ "style_page": "style-irish-style-dry-stout.html",
+ "style_name": "Irish Dry Stout",
+ "serve_c": "6-9",
+ "glass": "Nonic pint",
+ "pairings": [
+  {
+   "food": "Bombay Duck fry",
+   "why": "The crisp, salty fish wants a dry, roasty beer to cut the oil, much as oysters suit stout in Ireland."
+  },
+  {
+   "food": "Vada pav",
+   "why": "The roast plays off the dry garlic chutney, and the light body does not weigh down a fried snack."
+  },
+  {
+   "food": "Chana masala with kulcha",
+   "why": "Roasted cumin and amchur meet the coffee notes, and the dry finish keeps the meal light."
+  },
+  {
+   "food": "Chocolate barfi",
+   "why": "A dry stout gives cocoa sweets a bitter counterweight, like black coffee after dessert."
+  }
+ ],
+ "tastes": "<p>Irish dry stout is the beer most people picture when they hear the word stout, and it is lighter than it looks. Most are around 4 to 4.5 percent, with a body closer to a bitter than a strong ale. The black colour and sharp coffee bite come from roasted barley, unmalted grain roasted until almost charred, which gives a dry, slightly acrid edge that defines the style.</p><p>It grew out of London porter, which Dublin brewers adapted in the eighteenth and nineteenth centuries until it became their own. Flaked barley in the grist helps the head, and many breweries pour it on nitrogen, which gives the slow cascade and the thick, creamy collar of foam.</p><p>Drink one and look for coffee without the milk, a firm but not harsh bitterness, and a quick, dry finish. Nothing should be sweet or heavy. It is a beer for long conversations.</p>",
+ "venues": [
+  {
+   "name": "153 Biere Street",
+   "area": "Whitefield",
+   "kind": "Brewpub",
+   "group": "The Biere Club",
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Nitro Stout (Stout)"
+   ],
+   "other_beers": [
+    "Ale",
+    "Club Special",
+    "IPA",
+    "Lager"
+   ],
+   "directory_link": "breweries.html?q=153 Biere Street",
+   "beer_source": "https://bierestreet.com/"
+  },
+  {
+   "name": "Arbor Brewing Company",
+   "area": "Ashok Nagar / MG Road",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": "2012",
+   "status": "open",
+   "beers": [
+    "Michael Faricy Stout (Stout)"
+   ],
+   "other_beers": [
+    "Bangalore Bliss",
+    "Beach Shack IPA",
+    "Idaho 7 Lager",
+    "Mango Maibock"
+   ],
+   "directory_link": "breweries.html?q=Arbor Brewing Company",
+   "beer_source": "https://www.arborbrewing.in/"
+  },
+  {
+   "name": "Atlantis Brewery",
+   "area": "HSR Layout",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Nitro Stout (Stout)"
+   ],
+   "other_beers": [
+    "American IPA",
+    "Belgian Ale",
+    "Belgian Witbier",
+    "Bohemian Lager"
+   ],
+   "directory_link": "breweries.html?q=Atlantis Brewery",
+   "beer_source": "https://bengaluruatlantis.com/about/"
+  },
+  {
+   "name": "Candles Brewhouse",
+   "area": "Hebbal",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Stout (Stout)"
+   ],
+   "other_beers": [
+    "Belgian Wit"
+   ],
+   "directory_link": "breweries.html?q=Candles Brewhouse",
+   "beer_source": "https://lbb.in/bangalore/candles-brewhouse-hebbal/"
+  },
+  {
+   "name": "Communiti",
+   "area": "Brigade Road",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Imperial Stout (Stout)"
+   ],
+   "other_beers": [
+    "Belgian Wheat",
+    "Golden Lager",
+    "Hefeweizen",
+    "Honey Ale"
+   ],
+   "directory_link": "breweries.html?q=Communiti",
+   "beer_source": "https://communitiindia.com/our-craft-beers.php"
+  },
+  {
+   "name": "Geist Brewing Co. Hennur",
+   "area": "Hennur / Thanisandra",
+   "kind": "Taproom",
+   "group": "Geist Brewing Co.",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Geist Stouter Space (Stout)"
+   ],
+   "other_beers": [
+    "Geist James Blond",
+    "Geist Kamacitra",
+    "Geist Repeat",
+    "Geist Repeat Strong"
+   ],
+   "directory_link": "breweries.html?q=Geist Brewing Co. Hennur",
+   "beer_source": "https://www.geist.in/locations"
+  },
+  {
+   "name": "Geist Brewing Co. OMR",
+   "area": "Old Madras Road (Nimbekaipura)",
+   "kind": "Microbrewery",
+   "group": "Geist Brewing Co.",
+   "opened": "2020",
+   "status": "open",
+   "beers": [
+    "Geist Stouter Space (Stout)"
+   ],
+   "other_beers": [
+    "Geist James Blond",
+    "Geist Kamacitra",
+    "Geist Repeat",
+    "Geist Repeat Strong"
+   ],
+   "directory_link": "breweries.html?q=Geist Brewing Co. OMR",
+   "beer_source": "https://www.geist.in/locations"
+  },
+  {
+   "name": "Geist Brewing Taproom",
+   "area": "Rajajinagar (Orion Mall, Brigade Gateway)",
+   "kind": "Taproom",
+   "group": "Geist Brewing Co.",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Geist Stouter Space (Stout)"
+   ],
+   "other_beers": [
+    "Geist James Blond",
+    "Geist Kamacitra",
+    "Geist Repeat",
+    "Geist Repeat Strong"
+   ],
+   "directory_link": "breweries.html?q=Geist Brewing Taproom",
+   "beer_source": "https://www.geist.in/locations"
+  },
+  {
+   "name": "ICB Indian Craft Brewery",
+   "area": "Nagawara",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": "2024-12",
+   "status": "open",
+   "beers": [
+    "Rowdy Stout (Stout)"
+   ],
+   "other_beers": [
+    "Gose Garu",
+    "Happyweizen",
+    "Nandi Nectar",
+    "Wit Maga"
+   ],
+   "directory_link": "breweries.html?q=ICB Indian Craft Brewery",
+   "beer_source": "https://icb.beer/"
+  },
+  {
+   "name": "Ironhill Bengaluru",
+   "area": "Marathahalli",
+   "kind": "Brewpub",
+   "group": "Ironhill",
+   "opened": "2021-03",
+   "status": "open",
+   "beers": [
+    "Sinnerman Stout (Stout)"
+   ],
+   "other_beers": [
+    "L.O.S.T. Lager",
+    "Wonderland and Wheat"
+   ],
+   "directory_link": "breweries.html?q=Ironhill Bengaluru",
+   "beer_source": "https://ironhillindia.com/bengaluru/"
+  },
+  {
+   "name": "Ironhill Bengaluru",
+   "area": "Konanakunte Cross / Kanakapura Road",
+   "kind": "Brewpub",
+   "group": "Ironhill",
+   "opened": "2024-11",
+   "status": "open",
+   "beers": [
+    "Sinnerman Stout (Stout)"
+   ],
+   "other_beers": [
+    "L.O.S.T. Lager",
+    "Wonderland and Wheat"
+   ],
+   "directory_link": "breweries.html?q=Ironhill Bengaluru",
+   "beer_source": "https://ironhillindia.com/kanakapura-road/"
+  },
+  {
+   "name": "Kling Brewery",
+   "area": "Church Street",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": "2024",
+   "status": "unverified",
+   "beers": [
+    "Richmond Stout (Stout)"
+   ],
+   "other_beers": [
+    "Church Street Trippel",
+    "Heff Brigade",
+    "Infantry Pale Ale",
+    "St. Mark's Sour"
+   ],
+   "directory_link": "breweries.html?q=Kling Brewery",
+   "beer_source": "https://www.klingbangalore.com/"
+  },
+  {
+   "name": "ShakesBierre",
+   "area": "Brigade Road / MG Road",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Brisky Brutus American Stout (Stout)"
+   ],
+   "other_beers": [
+    "Ale Othello IPA",
+    "Taming of the Brew Blueberry Vanilla Cream Ale"
+   ],
+   "directory_link": "breweries.html?q=ShakesBierre",
+   "beer_source": "https://www.shakesbierre.com/"
+  },
+  {
+   "name": "The Biere Club",
+   "area": "Richmond Town / Lavelle Road",
+   "kind": "Brewpub",
+   "group": "The Biere Club",
+   "opened": "2011-05",
+   "status": "open",
+   "beers": [
+    "Coffee Stout (Stout)"
+   ],
+   "other_beers": [
+    "Belgian Strong Ale (Club Special)",
+    "English Pale Ale",
+    "Hefeweizen (Wheat)",
+    "Lychee Basil Blonde (Seasonal)"
+   ],
+   "directory_link": "breweries.html?q=The Biere Club",
+   "beer_source": "https://www.tripadvisor.in/Restaurant_Review-g297628-d8593419-Reviews-The_Biere_Club-Bengaluru_Bangalore_District_Karnataka.html"
+  },
+  {
+   "name": "Toit",
+   "area": "Indiranagar",
+   "kind": "Brewpub",
+   "group": "Toit",
+   "opened": "2010",
+   "status": "open",
+   "beers": [
+    "Nitro Stout (Stout)"
+   ],
+   "other_beers": [
+    "Banger Lager",
+    "Basmati Blonde",
+    "Hefeweizen",
+    "Indian Pale Ale"
+   ],
+   "directory_link": "breweries.html?q=Toit",
+   "beer_source": "https://toit.in/beer/"
+  },
+  {
+   "name": "Toit ORR East",
+   "area": "Mahadevapura / ORR East",
+   "kind": "Brewpub",
+   "group": "Toit",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Nitro Stout (Stout)"
+   ],
+   "other_beers": [
+    "Banger Lager",
+    "Basmati Blonde",
+    "Hefeweizen",
+    "Indian Pale Ale"
+   ],
+   "directory_link": "breweries.html?q=Toit ORR East",
+   "beer_source": "https://toit.in/restaurant/toit-bangalore-orr-east/"
+  },
+  {
+   "name": "Tropika Brewing Co",
+   "area": "Marathahalli / Panathur",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Forever Tropical (Stout)",
+    "Island Stout (Stout)"
+   ],
+   "other_beers": [
+    "Ale Dorado",
+    "Coral Wit",
+    "Finding Fruity",
+    "Hoppy Sunset"
+   ],
+   "directory_link": "breweries.html?q=Tropika Brewing Co",
+   "beer_source": "https://tropikabrewing.com"
+  },
+  {
+   "name": "Wanderers Craft Brewery",
+   "area": "Kalyan Nagar",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Hipster (Stout)"
+   ],
+   "other_beers": [
+    "Cauvery Bliss",
+    "Fruit Infused Beer (FIB)",
+    "La Trappe",
+    "The Indus"
+   ],
+   "directory_link": "breweries.html?q=Wanderers Craft Brewery",
+   "beer_source": "https://wanderers.beer/"
+  },
+  {
+   "name": "XOOX Brewmill",
+   "area": "Koramangala",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Red-Velvet (Stout)"
+   ],
+   "other_beers": [],
+   "directory_link": "breweries.html?q=XOOX Brewmill",
+   "beer_source": "https://magicpin.in/Bangalore/Koramangala-7Th-Block/Restaurant/Xoox-Brewmill/store/276ba9/menu"
+  }
+ ],
+ "data_note": "Beer lists come from our brewery directory, last checked September 2026. Taps rotate; call ahead."
+}

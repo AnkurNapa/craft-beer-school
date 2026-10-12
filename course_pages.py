@@ -467,6 +467,62 @@ def _ctas(enrol, tag):
             f'<a href="__WA__" class="btn btn-wa" target="_blank" rel="noopener" data-cta="course-{tag}-whatsapp">[[whatsapp]] Ask on WhatsApp</a>')
 
 
+# Reference guides that belong on the brewing courses' reading lists.
+REFERENCE = {
+    "brewing-fundamentals-course.html": [("yeast-strains-guide.html", "Brewing yeast strains guide"), ("malt-guide.html", "Brewing malt guide"), ("hops-guide.html", "Hop varieties guide")],
+    "advanced-brewing-science-course.html": [("yeast-strains-guide.html", "Brewing yeast strains guide"), ("malt-guide.html", "Brewing malt guide"), ("hops-guide.html", "Hop varieties guide")],
+    "style-specialization-course.html": [("style-library.html", "Beer style library"), ("malt-guide.html", "Brewing malt guide"), ("hops-guide.html", "Hop varieties guide")],
+    "sensory-evaluation-course.html": [("style-library.html", "Beer style library"), ("brewery-hopping-india.html", "Brewery hopping trails")],
+}
+
+
+# Specialist courses have few guides selling them, so they also pull guides by topic.
+KEYWORDS = {
+    "ai-for-craft-breweries-course.html": ["ai ", "machine learning"],
+    "digital-transformation-basics-for-brewing-course.html": ["digital", "dashboard", "sensors"],
+    "esg-in-craft-brewing-course.html": ["sustainab", "esg", "waste", "energy", "regenerative", "water energy"],
+    "safety-in-brewing-course.html": ["safety", "cip ", "cleaning"],
+    "craft-distilling-course.html": ["distill", "whisky", "spirit", "make spirit"],
+    "craft-gin-making-course.html": ["gin ", "distill", "botanical"],
+    "rtd-drinks-alcoholic-and-non-alcoholic-course.html": ["rtd", "seltzer", "alcopop", "mixed drinks", "shandies", "flavoured beers"],
+    "hop-water-course.html": ["hop water", "hop extract", "cryo"],
+    "hard-seltzer-course.html": ["seltzer", "alcopop"],
+    "kombucha-course.html": ["kombucha", "kefir", "soft drinks"],
+    "non-alcoholic-beer-course.html": ["non alcoholic", "alcohol free", "low alcohol", "low and no"],
+    "power-bi-and-tableau-for-breweries-course.html": ["power bi", "tableau", "dashboard", "kpis"],
+}
+
+
+def all_guides(course_page):
+    """Every live guide whose CTA sells this course, grouped by category, plus the
+    reference pages for it. Long groups fold away so the page stays scannable."""
+    import pathlib
+    import re
+    words = KEYWORDS.get(course_page, [])
+    keyed = lambda a: any(re.search(rf"\b{re.escape(w)}", (a["slug"].replace("-", " ") + " " + a["h1"]).lower()) for w in words)
+    mine = [a for a in articles_all.ARTICLES if a["cta"]["href"] == course_page or (words and keyed(a))]
+    refs = [(s, n) for s, n in REFERENCE.get(course_page, []) if pathlib.Path(s).exists()]
+    if not mine and not refs:
+        return ""
+    groups = {}
+    for a in mine:
+        groups.setdefault(a["cat"], []).append(a)
+    blocks = "".join(
+        f'<details class="cg-group"{" open" if i == 0 else ""}><summary>{cat} <span>{len(arts)}</span></summary><ul>'
+        + "".join(f'<li><a href="{a["slug"]}.html" data-cta="course-guide">{a["h1"]}</a></li>' for a in arts)
+        + "</ul></details>"
+        for i, (cat, arts) in enumerate(sorted(groups.items(), key=lambda kv: -len(kv[1]))))
+    ref_html = ("<p class=\"cg-refs\"><b>Reference:</b> " + " · ".join(f'<a href="{s}">{n}</a>' for s, n in refs) + "</p>") if refs else ""
+    return f"""<section>
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Recommended reading</span><h2>Every guide for this course.</h2>
+    <p class="lead">{len(mine)} free guide{"s" if len(mine) != 1 else ""} on the topics this course covers. Read any of them before the first session.</p></div>
+    {ref_html}<div class="cg-groups">{blocks}</div>
+  </div>
+</section>
+"""
+
+
 def render(c):
     d = DETAIL[plain(c["name"])]
     weeks = "".join(_week(i, *w) for i, w in enumerate(d["weeks"], 1))
@@ -515,6 +571,8 @@ def render(c):
 </section>
 
 {article_render._related({"related": d["reading"]}, ARTICLES_BY_SLUG).replace("Related guides", "Read before you start").replace('data-cta="related-article"', 'data-cta="course-reading"')}
+
+{all_guides(slug_for(c["name"]))}
 
 <section class="cta"><div class="wrap"><h2>Save your seat in {c["name"]}.</h2><p>Cohorts cap at 20. Enrol now or ask us on WhatsApp.</p><div class="cta-pair" style="justify-content:center">{_ctas(enrol, "bottom")}</div></div></section>
 """

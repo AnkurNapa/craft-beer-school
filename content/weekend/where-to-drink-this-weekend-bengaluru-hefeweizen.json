@@ -1,0 +1,594 @@
+{
+ "slug": "where-to-drink-this-weekend-bengaluru-hefeweizen",
+ "date": "2026-10-16",
+ "city": "Bengaluru",
+ "style": "Hefeweizen",
+ "style_page": "style-german-style-hefeweizen.html",
+ "style_name": "German Hefeweizen",
+ "serve_c": "4-7",
+ "glass": "Weizen glass",
+ "pairings": [
+  {
+   "food": "Butter chicken",
+   "why": "Soft wheat and banana esters suit the mild, creamy tomato gravy, and the bubbles cut the butter."
+  },
+  {
+   "food": "Vada pav",
+   "why": "The clove note picks up the garlic chutney, and the fizz deals with the fried batter."
+  },
+  {
+   "food": "Malabar parotta with vegetable stew",
+   "why": "Coconut milk, whole spice and flaky layers match the beer's soft body and gentle spice."
+  },
+  {
+   "food": "Banana sheera",
+   "why": "Semolina, ghee and ripe banana line up with the yeast's banana character."
+  }
+ ],
+ "tastes": "<p>Hefe means yeast and weizen means wheat, which describes the beer exactly. At least half the grist is wheat malt, and the beer is served with its yeast, so it pours cloudy with a tall white head. All the fruit and spice comes from a special Bavarian yeast strain, not from anything added.</p><p>That yeast makes isoamyl acetate, which smells of banana, and 4-vinyl guaiacol, which smells of clove. The brewer steers the balance with fermentation temperature and pitching rate: warmer and lighter on yeast pushes banana, cooler pushes clove. A good one has both, with a soft bread note from the wheat and almost no hop bitterness.</p><p>Bavarians drink it at lunch, with white sausage and pretzels, and it is one of the most consistent styles in the world. It also has a short shelf life. Those delicate esters fade after a few weeks, so fresh really is best.</p>",
+ "venues": [
+  {
+   "name": "153 Biere Street",
+   "area": "Whitefield",
+   "kind": "Brewpub",
+   "group": "The Biere Club",
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Wheat (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Ale",
+    "Club Special",
+    "IPA",
+    "Lager"
+   ],
+   "directory_link": "breweries.html?q=153 Biere Street",
+   "beer_source": "https://bierestreet.com/"
+  },
+  {
+   "name": "33&Brew",
+   "area": "Brookefield",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": "2026-04",
+   "status": "open",
+   "beers": [
+    "Ashen Tracks Roggen Weizen (Hefeweizen)",
+    "Golden Groove Hefeweizen (Hefeweizen)"
+   ],
+   "other_beers": [
+    "A-Side Lager",
+    "High Fidelity Belgian Tripel",
+    "Needle Drop IPA",
+    "Velvet Press Chocolate Porter"
+   ],
+   "directory_link": "breweries.html?q=33&Brew",
+   "beer_source": "https://www.brewer-world.com/bengaluru-gets-its-first-vinyl-microbrewery-with-33brew/"
+  },
+  {
+   "name": "Alchemy",
+   "area": "Residency Road",
+   "kind": "Taproom",
+   "group": null,
+   "opened": "2018-09",
+   "status": "unverified",
+   "beers": [
+    "Wheat Beer (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Pilsener"
+   ],
+   "directory_link": "breweries.html?q=Alchemy",
+   "beer_source": "https://www.tripadvisor.com/Restaurant_Review-g297628-d18453033-Reviews-Alchemy-Bengaluru_Bangalore_District_Karnataka.html"
+  },
+  {
+   "name": "Arbor Brewing Company",
+   "area": "Ashok Nagar / MG Road",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": "2012",
+   "status": "open",
+   "beers": [
+    "Bangalore Bliss (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Beach Shack IPA",
+    "Idaho 7 Lager",
+    "Mango Maibock",
+    "Michael Faricy Stout"
+   ],
+   "directory_link": "breweries.html?q=Arbor Brewing Company",
+   "beer_source": "https://www.arborbrewing.in/"
+  },
+  {
+   "name": "Atlantis Brewery",
+   "area": "HSR Layout",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "German Wheat Beer (Hefeweizen)"
+   ],
+   "other_beers": [
+    "American IPA",
+    "Belgian Ale",
+    "Belgian Witbier",
+    "Bohemian Lager"
+   ],
+   "directory_link": "breweries.html?q=Atlantis Brewery",
+   "beer_source": "https://bengaluruatlantis.com/about/"
+  },
+  {
+   "name": "BLR Brewing Co.",
+   "area": "Kanakapura Road",
+   "kind": "Brewpub",
+   "group": "BLR Brewing Co.",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Hefeweizen (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Jamun Ale"
+   ],
+   "directory_link": "breweries.html?q=BLR Brewing Co.",
+   "beer_source": "https://www.tripadvisor.in/Restaurant_Review-g297628-d23609012-Reviews-BLR_Brewing_Co_Kanakapura_Road-Bengaluru_Bangalore_District_Karnataka.html"
+  },
+  {
+   "name": "BLR Brewing Co.",
+   "area": "Hoodi / Whitefield",
+   "kind": "Brewpub",
+   "group": "BLR Brewing Co.",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Hefeweizen (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Jamun Ale"
+   ],
+   "directory_link": "breweries.html?q=BLR Brewing Co.",
+   "beer_source": "https://www.eazydiner.com/bengaluru/blr-brewing-co-whitefield-east-bengaluru-692877"
+  },
+  {
+   "name": "BLR Brewing Co.",
+   "area": "Sarjapur Road / Bellandur",
+   "kind": "Brewpub",
+   "group": "BLR Brewing Co.",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Hefeweizen (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Jamun Ale"
+   ],
+   "directory_link": "breweries.html?q=BLR Brewing Co.",
+   "beer_source": "https://www.zomato.com/bangalore/blr-brewing-co-2-sarjapur-road-bangalore"
+  },
+  {
+   "name": "Biergarten Brewery & Kitchen",
+   "area": "Whitefield",
+   "kind": "Brewpub",
+   "group": "Biergarten",
+   "opened": "2016",
+   "status": "open",
+   "beers": [
+    "Mango Weizen (Hefeweizen)",
+    "Oopsie Daisy (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Aam Panna Sour Ale",
+    "Belgian Blond Ale",
+    "Belgian Tripple",
+    "Code Reddy"
+   ],
+   "directory_link": "breweries.html?q=Biergarten Brewery & Kitchen",
+   "beer_source": "https://biergarten.co.in/"
+  },
+  {
+   "name": "Biergarten Brewery & Kitchen",
+   "area": "Koramangala",
+   "kind": "Brewpub",
+   "group": "Biergarten",
+   "opened": "2018",
+   "status": "open",
+   "beers": [
+    "Mango Weizen (Hefeweizen)",
+    "Oopsie Daisy (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Aam Panna Sour Ale",
+    "Belgian Blond Ale",
+    "Belgian Tripple",
+    "Code Reddy"
+   ],
+   "directory_link": "breweries.html?q=Biergarten Brewery & Kitchen",
+   "beer_source": "https://biergarten.co.in/"
+  },
+  {
+   "name": "Biergarten Brewery & Kitchen",
+   "area": "Manyata / Nagawara",
+   "kind": "Brewpub",
+   "group": "Biergarten",
+   "opened": "2023",
+   "status": "open",
+   "beers": [
+    "Mango Weizen (Hefeweizen)",
+    "Oopsie Daisy (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Aam Panna Sour Ale",
+    "Belgian Blond Ale",
+    "Belgian Tripple",
+    "Code Reddy"
+   ],
+   "directory_link": "breweries.html?q=Biergarten Brewery & Kitchen",
+   "beer_source": "https://biergarten.co.in/"
+  },
+  {
+   "name": "Biergarten Brewery & Kitchen",
+   "area": "Bellandur",
+   "kind": "Brewpub",
+   "group": "Biergarten",
+   "opened": "2024",
+   "status": "open",
+   "beers": [
+    "Mango Weizen (Hefeweizen)",
+    "Oopsie Daisy (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Aam Panna Sour Ale",
+    "Belgian Blond Ale",
+    "Belgian Tripple",
+    "Code Reddy"
+   ],
+   "directory_link": "breweries.html?q=Biergarten Brewery & Kitchen",
+   "beer_source": "https://biergarten.co.in/"
+  },
+  {
+   "name": "Brooks and Bonds Brewery",
+   "area": "Koramangala",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Brooks Wheat Ale (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Cryo IPA",
+    "Hop Forward IPA"
+   ],
+   "directory_link": "breweries.html?q=Brooks and Bonds Brewery",
+   "beer_source": "https://magicpin.in/Bangalore/Koramangala/Restaurant/Brooks-And-Bonds-Brewery/store/c369c/menu"
+  },
+  {
+   "name": "Brother Barley Brewing Company",
+   "area": "HSR Layout",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Hefeweizen (Hefeweizen)"
+   ],
+   "other_beers": [],
+   "directory_link": "breweries.html?q=Brother Barley Brewing Company",
+   "beer_source": "https://magicpin.in/Bangalore/Hsr/Restaurant/Brother-Barley-Brewing-Company/store/320400"
+  },
+  {
+   "name": "Byg Brewski Brewing Company",
+   "area": "Sarjapur Road / Kaikondrahalli",
+   "kind": "Brewpub",
+   "group": "Byg Brewski",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Big Banger Hefeweizen (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Witty Witbier"
+   ],
+   "directory_link": "breweries.html?q=Byg Brewski Brewing Company",
+   "beer_source": "https://magicpin.in/Bangalore/Sarjapur-Road/Restaurant/Byg-Brewski-Brewing-Company/store/6c76/menu/"
+  },
+  {
+   "name": "Chin Lung Brewery",
+   "area": "Indiranagar",
+   "kind": "Brewpub",
+   "group": "Chin Lung",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Temple Haze (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Brown Mundae",
+    "Firang",
+    "Guava Chilli Gose",
+    "Monroe"
+   ],
+   "directory_link": "breweries.html?q=Chin Lung Brewery",
+   "beer_source": "https://chinlung.co.in/"
+  },
+  {
+   "name": "Communiti",
+   "area": "Brigade Road",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Hefeweizen (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Belgian Wheat",
+    "Golden Lager",
+    "Honey Ale",
+    "Imperial Stout"
+   ],
+   "directory_link": "breweries.html?q=Communiti",
+   "beer_source": "https://communitiindia.com/our-craft-beers.php"
+  },
+  {
+   "name": "District 6",
+   "area": "Malleshwaram West",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Strong Wheat Beer (Hefeweizen)",
+    "Wheat Beer (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Dark Beer",
+    "Lager Beer",
+    "Märzen",
+    "Radler"
+   ],
+   "directory_link": "breweries.html?q=District 6",
+   "beer_source": "https://district6.in/"
+  },
+  {
+   "name": "Geist Brewing Co. Hennur",
+   "area": "Hennur / Thanisandra",
+   "kind": "Taproom",
+   "group": "Geist Brewing Co.",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Geist Uncle Dunkel (Hefeweizen)",
+    "Geist Weiss Guy (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Geist James Blond",
+    "Geist Kamacitra",
+    "Geist Repeat",
+    "Geist Repeat Strong"
+   ],
+   "directory_link": "breweries.html?q=Geist Brewing Co. Hennur",
+   "beer_source": "https://www.geist.in/locations"
+  },
+  {
+   "name": "Geist Brewing Co. OMR",
+   "area": "Old Madras Road (Nimbekaipura)",
+   "kind": "Microbrewery",
+   "group": "Geist Brewing Co.",
+   "opened": "2020",
+   "status": "open",
+   "beers": [
+    "Geist Uncle Dunkel (Hefeweizen)",
+    "Geist Weiss Guy (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Geist James Blond",
+    "Geist Kamacitra",
+    "Geist Repeat",
+    "Geist Repeat Strong"
+   ],
+   "directory_link": "breweries.html?q=Geist Brewing Co. OMR",
+   "beer_source": "https://www.geist.in/locations"
+  },
+  {
+   "name": "Geist Brewing Taproom",
+   "area": "Rajajinagar (Orion Mall, Brigade Gateway)",
+   "kind": "Taproom",
+   "group": "Geist Brewing Co.",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Geist Uncle Dunkel (Hefeweizen)",
+    "Geist Weiss Guy (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Geist James Blond",
+    "Geist Kamacitra",
+    "Geist Repeat",
+    "Geist Repeat Strong"
+   ],
+   "directory_link": "breweries.html?q=Geist Brewing Taproom",
+   "beer_source": "https://www.geist.in/locations"
+  },
+  {
+   "name": "ICB Indian Craft Brewery",
+   "area": "Nagawara",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": "2024-12",
+   "status": "open",
+   "beers": [
+    "Happyweizen (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Gose Garu",
+    "Nandi Nectar",
+    "Rowdy Stout",
+    "Wit Maga"
+   ],
+   "directory_link": "breweries.html?q=ICB Indian Craft Brewery",
+   "beer_source": "https://icb.beer/"
+  },
+  {
+   "name": "Ironhill Bengaluru",
+   "area": "Marathahalli",
+   "kind": "Brewpub",
+   "group": "Ironhill",
+   "opened": "2021-03",
+   "status": "open",
+   "beers": [
+    "Wonderland and Wheat (Hefeweizen)"
+   ],
+   "other_beers": [
+    "L.O.S.T. Lager",
+    "Sinnerman Stout"
+   ],
+   "directory_link": "breweries.html?q=Ironhill Bengaluru",
+   "beer_source": "https://ironhillindia.com/bengaluru/"
+  },
+  {
+   "name": "Ironhill Bengaluru",
+   "area": "Konanakunte Cross / Kanakapura Road",
+   "kind": "Brewpub",
+   "group": "Ironhill",
+   "opened": "2024-11",
+   "status": "open",
+   "beers": [
+    "Wonderland and Wheat (Hefeweizen)"
+   ],
+   "other_beers": [
+    "L.O.S.T. Lager",
+    "Sinnerman Stout"
+   ],
+   "directory_link": "breweries.html?q=Ironhill Bengaluru",
+   "beer_source": "https://ironhillindia.com/kanakapura-road/"
+  },
+  {
+   "name": "Kling Brewery",
+   "area": "Church Street",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": "2024",
+   "status": "unverified",
+   "beers": [
+    "Heff Brigade (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Church Street Trippel",
+    "Infantry Pale Ale",
+    "Richmond Stout",
+    "St. Mark's Sour"
+   ],
+   "directory_link": "breweries.html?q=Kling Brewery",
+   "beer_source": "https://www.klingbangalore.com/"
+  },
+  {
+   "name": "Long Boat Brewing Co.",
+   "area": "Marathahalli",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Watermelon Wheat (Hefeweizen)"
+   ],
+   "other_beers": [],
+   "directory_link": "breweries.html?q=Long Boat Brewing Co.",
+   "beer_source": "https://www.longboatbrewing.com/"
+  },
+  {
+   "name": "The Biere Club",
+   "area": "Richmond Town / Lavelle Road",
+   "kind": "Brewpub",
+   "group": "The Biere Club",
+   "opened": "2011-05",
+   "status": "open",
+   "beers": [
+    "Hefeweizen (Wheat) (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Belgian Strong Ale (Club Special)",
+    "Coffee Stout",
+    "English Pale Ale",
+    "Lychee Basil Blonde (Seasonal)"
+   ],
+   "directory_link": "breweries.html?q=The Biere Club",
+   "beer_source": "https://www.tripadvisor.in/Restaurant_Review-g297628-d8593419-Reviews-The_Biere_Club-Bengaluru_Bangalore_District_Karnataka.html"
+  },
+  {
+   "name": "Toit",
+   "area": "Indiranagar",
+   "kind": "Brewpub",
+   "group": "Toit",
+   "opened": "2010",
+   "status": "open",
+   "beers": [
+    "Hefeweizen (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Banger Lager",
+    "Basmati Blonde",
+    "Indian Pale Ale",
+    "Nitro Stout"
+   ],
+   "directory_link": "breweries.html?q=Toit",
+   "beer_source": "https://toit.in/beer/"
+  },
+  {
+   "name": "Toit ORR East",
+   "area": "Mahadevapura / ORR East",
+   "kind": "Brewpub",
+   "group": "Toit",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Hefeweizen (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Banger Lager",
+    "Basmati Blonde",
+    "Indian Pale Ale",
+    "Nitro Stout"
+   ],
+   "directory_link": "breweries.html?q=Toit ORR East",
+   "beer_source": "https://toit.in/restaurant/toit-bangalore-orr-east/"
+  },
+  {
+   "name": "Vapour Pub and Brewery",
+   "area": "Indiranagar",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "Wheat Beer (Hefeweizen)"
+   ],
+   "other_beers": [],
+   "directory_link": "breweries.html?q=Vapour Pub and Brewery",
+   "beer_source": "https://magicpin.in/Bangalore/Indiranagar/Restaurant/Vapour-Pub-and-Brewery/store/5c30/menu"
+  },
+  {
+   "name": "Wanderers Craft Brewery",
+   "area": "Kalyan Nagar",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "unverified",
+   "beers": [
+    "WANWEISS (Hefeweizen)"
+   ],
+   "other_beers": [
+    "Cauvery Bliss",
+    "Fruit Infused Beer (FIB)",
+    "Hipster",
+    "La Trappe"
+   ],
+   "directory_link": "breweries.html?q=Wanderers Craft Brewery",
+   "beer_source": "https://wanderers.beer/"
+  }
+ ],
+ "data_note": "Beer lists come from our brewery directory, last checked September 2026. Taps rotate; call ahead."
+}

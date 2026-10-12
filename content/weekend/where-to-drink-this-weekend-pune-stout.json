@@ -1,0 +1,177 @@
+{
+ "slug": "where-to-drink-this-weekend-pune-stout",
+ "date": "2026-11-27",
+ "city": "Pune",
+ "style": "Stout",
+ "style_page": "style-irish-style-dry-stout.html",
+ "style_name": "Irish Dry Stout",
+ "serve_c": "6-9",
+ "glass": "Nonic pint",
+ "pairings": [
+  {
+   "food": "Bombay Duck fry",
+   "why": "The crisp, salty fish wants a dry, roasty beer to cut the oil, much as oysters suit stout in Ireland."
+  },
+  {
+   "food": "Vada pav",
+   "why": "The roast plays off the dry garlic chutney, and the light body does not weigh down a fried snack."
+  },
+  {
+   "food": "Chana masala with kulcha",
+   "why": "Roasted cumin and amchur meet the coffee notes, and the dry finish keeps the meal light."
+  },
+  {
+   "food": "Chocolate barfi",
+   "why": "A dry stout gives cocoa sweets a bitter counterweight, like black coffee after dessert."
+  }
+ ],
+ "tastes": "<p>Irish dry stout is the beer most people picture when they hear the word stout, and it is lighter than it looks. Most are around 4 to 4.5 percent, with a body closer to a bitter than a strong ale. The black colour and sharp coffee bite come from roasted barley, unmalted grain roasted until almost charred, which gives a dry, slightly acrid edge that defines the style.</p><p>It grew out of London porter, which Dublin brewers adapted in the eighteenth and nineteenth centuries until it became their own. Flaked barley in the grist helps the head, and many breweries pour it on nitrogen, which gives the slow cascade and the thick, creamy collar of foam.</p><p>Drink one and look for coffee without the milk, a firm but not harsh bitterness, and a quick, dry finish. Nothing should be sweet or heavy. It is a beer for long conversations.</p>",
+ "venues": [
+  {
+   "name": "Babylon Craft Brewery",
+   "area": "Erandwane",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Oatmeal Stout (Stout)"
+   ],
+   "other_beers": [
+    "Belgian Wit",
+    "Hefeweizen",
+    "Puneri Lager"
+   ],
+   "directory_link": "breweries.html?q=Babylon Craft Brewery",
+   "beer_source": "https://beerasia.net/craft-beer-guides/craft-beer-in-pune-city-guide/"
+  },
+  {
+   "name": "Big Little Brew Pub",
+   "area": "Kharadi",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Sleep Walk (Stout)"
+   ],
+   "other_beers": [
+    "Clearly Invisible",
+    "Fool's Gold",
+    "Modern Classic",
+    "Safe Bet"
+   ],
+   "directory_link": "breweries.html?q=Big Little Brew Pub",
+   "beer_source": "https://www.explorepune.in/breweries/big-little-brew-pub-kharadi"
+  },
+  {
+   "name": "Doolally Taproom",
+   "area": "Koregaon Park Annexe, Ghorpadi",
+   "kind": "Microbrewery",
+   "group": "Doolally",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Oatmeal Stout (Stout)"
+   ],
+   "other_beers": [
+    "Belgian Witbier",
+    "Bohemian Pilsner",
+    "Rauch Bier"
+   ],
+   "directory_link": "breweries.html?q=Doolally Taproom",
+   "beer_source": "https://www.explorepune.in/breweries/doolally-taproom-kopa-mall/menu"
+  },
+  {
+   "name": "Effingut 2 Go",
+   "area": "Wanowrie",
+   "kind": "Taproom",
+   "group": "Effingut",
+   "opened": "2020",
+   "status": "open",
+   "beers": [
+    "Dry Stout (Stout)"
+   ],
+   "other_beers": [
+    "Belgian Wit",
+    "Citrus Burst IPA",
+    "Dunkelweizen",
+    "Hefeweizen"
+   ],
+   "directory_link": "breweries.html?q=Effingut 2 Go",
+   "beer_source": "https://www.explorepune.in/breweries/effingut-2-go-wanowrie"
+  },
+  {
+   "name": "Independence Brewing Company",
+   "area": "Balewadi",
+   "kind": "Microbrewery",
+   "group": "Independence Brewing Company",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Nitro Stout (Stout)"
+   ],
+   "other_beers": [
+    "Band Wit",
+    "German Weissbier"
+   ],
+   "directory_link": "breweries.html?q=Independence Brewing Company",
+   "beer_source": "https://www.independencebrewco.com/contact-us.html"
+  },
+  {
+   "name": "Independence Brewing Company",
+   "area": "Kalyani Nagar",
+   "kind": "Microbrewery",
+   "group": "Independence Brewing Company",
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Nitro Stout (Stout)"
+   ],
+   "other_beers": [
+    "Band Wit",
+    "German Weissbier"
+   ],
+   "directory_link": "breweries.html?q=Independence Brewing Company",
+   "beer_source": "https://www.zomato.com/pune/independence-brewing-company-kalyani-nagar"
+  },
+  {
+   "name": "Nincasa",
+   "area": "Mundhwa",
+   "kind": "Brewpub",
+   "group": null,
+   "opened": null,
+   "status": "open",
+   "beers": [
+    "Dry Stout (Stout)"
+   ],
+   "other_beers": [
+    "Citrus Burst IPA",
+    "Dunkelweizen",
+    "Hefeweizen"
+   ],
+   "directory_link": "breweries.html?q=Nincasa",
+   "beer_source": "https://www.explorepune.in/breweries/nincasa-mundhwa"
+  },
+  {
+   "name": "Toit",
+   "area": "Kalyani Nagar",
+   "kind": "Brewpub",
+   "group": "Toit",
+   "opened": "2019",
+   "status": "open",
+   "beers": [
+    "Nitro Stout (Stout)"
+   ],
+   "other_beers": [
+    "Banger Lager",
+    "Basmati Blonde",
+    "Tint-In-Wit",
+    "Toit Hefeweizen"
+   ],
+   "directory_link": "breweries.html?q=Toit",
+   "beer_source": "https://toit.in/restaurant/toit-pune/"
+  }
+ ],
+ "data_note": "Beer lists come from our brewery directory, last checked September 2026. Taps rotate; call ahead."
+}
