@@ -18,6 +18,7 @@ GATE = """<script>try{if(new Date()<new Date('UNTIL')&&!localStorage.getItem('cb
 # links to the enrol form. Closing it is remembered on this browser.
 MASCOT = """
 <style>
+.okt body{overflow-x:clip}
 .okt .brand{position:relative}
 .okt .brand::after{content:"";position:absolute;width:40px;height:27px;top:-15px;left:-4px;transform:rotate(-16deg);background:url("HAT") center/contain no-repeat;pointer-events:none}
 .okt-mascot{display:none}
@@ -34,7 +35,7 @@ MASCOT = """
 @keyframes okt-turn{50%{transform:scaleX(-1)}}
 @keyframes okt-bob{to{transform:translateY(-3px)}}
 @keyframes okt-step{from{transform:rotate(-18deg)}to{transform:rotate(18deg)}}
-@media(max-width:680px){.okt .okt-mascot{bottom:76px;width:52px}.okt-mascot svg{width:52px}.okt-mascot button{opacity:1}}
+@media(max-width:680px){.okt .brand::after{width:26px;height:18px;top:-9px;left:-6px}.okt .okt-mascot{bottom:74px;width:38px;animation-duration:18s}.okt-mascot svg{width:38px}.okt-mascot button{opacity:1;width:16px;height:16px;line-height:16px;font-size:11px;top:-4px;right:-8px}@keyframes okt-walk{to{transform:translateX(calc(100vw - 46px))}}}
 @media(prefers-reduced-motion:reduce){.okt .okt-mascot,.okt-mascot a,.okt-mascot svg,.okt-mascot .leg-a,.okt-mascot .leg-b{animation:none}.okt .okt-mascot{left:auto;right:16px}}
 </style>
 <div class="okt-mascot" id="okt-mascot">
