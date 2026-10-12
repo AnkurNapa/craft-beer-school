@@ -477,6 +477,7 @@ def render(c):
     return banner(f'<a href="courses.html">Courses</a> / {c["name"]}', f'{c["no"]} / {c["tag"]}', c["name"], c["blurb"]) + f"""
 <section style="padding-block:0">
   <div class="wrap course-facts">
+    <div><span>Format</span><b>{pages_a.MODE_LABEL[pages_a.MODE.get(c["name"], "Online")]}</b></div>
     <div><span>Duration</span><b>{c["dur"]}</b></div>
     <div><span>Sessions</span><b>{c["weeks"] * 2} live, 2 hours each</b></div>
     <div><span>Batch</span><b>Max 20</b></div>

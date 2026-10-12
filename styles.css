@@ -872,3 +872,9 @@ section.fam-group{padding:0}
 .f-rec{margin-bottom:1.2rem}
 .f-rec h3{margin:.3rem 0 .4rem}
 .announce .ann[hidden]{display:none}
+/* Course format tag: online, in person or both */
+.mode{display:inline-flex;align-items:center;gap:.35rem;width:max-content;margin-bottom:.55rem;padding:.2rem .6rem;border-radius:980px;font-family:var(--mono);font-size:.6rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.mode::before{content:"";width:.45rem;height:.45rem;border-radius:50%;background:currentColor}
+.mode-online{background:#e6f1f4;color:var(--blue)}
+.mode-in-person{background:#fbeedd;color:var(--amber-deep)}
+.mode-both{background:#e9f3e6;color:#2f6b2a}

@@ -146,7 +146,7 @@ def course_ticker():
         badge = ("Free" if c["amount"] == "0" else "New" if c["tag"].startswith("New") else "")
         badge_html = f'<span class="tick-badge">{badge}</span>' if badge else ""
         return (f'<span class="tick-item"><a href="{pages_a.course_href(c["name"])}"{tab}>{c["name"]}</a>'
-                f'<span class="tick-meta">{c["dur"]} · {c["price"]}</span>{badge_html}</span>')
+                f'<span class="tick-meta">{c["dur"]} · {c["price"]} · {pages_a.MODE_LABEL[pages_a.MODE.get(c["name"], "Online")]}</span>{badge_html}</span>')
     seq = lambda copy: "".join(item(c, copy) for c in pages_a.COURSE_DATA)
     return f"""<aside class="ticker" aria-label="Our courses">
   <div class="wrap ticker-inner">
