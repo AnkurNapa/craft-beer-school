@@ -8,6 +8,7 @@ CTA is part of the template, so no article can ship without a way to enrol.
 """
 
 import article_art
+import json
 import pathlib
 
 THUMB_DIR = pathlib.Path(__file__).parent / "assets/og/thumb"
@@ -181,6 +182,76 @@ def _card(a):
       </article>"""
 
 
+PER_PAGE = 10  # rows per results page, as on the Brewers Association hub
+
+
+def _finder(articles, segment_of):
+    """Brewers Association style finder: category, keywords, a count and a pager.
+    State lives in the URL (?cat=&q=&page=) so a filtered list can be shared."""
+    cats = sorted({a["cat"] for a in articles})
+    opts = "".join(f'<option value="{c}">{c}</option>' for c in cats)
+    rows = [{"s": a["slug"], "t": a["h1"], "c": a["cat"], "d": a["teaser"], "r": a["read"],
+             "u": a["updated"], "g": segment_of.get(a["slug"], ""),
+             "b": (a.get("expert") or {}).get("name", ""),
+             "i": (THUMB_DIR / f"{a['slug']}.jpg").exists()} for a in articles]
+    data = json.dumps(rows, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    return f"""
+<section class="finder-wrap" aria-labelledby="finder-h">
+  <div class="wrap">
+    <h2 id="finder-h" class="sr-only">Find a guide</h2>
+    <form class="finder" id="finder" role="search" action="blog.html">
+      <label class="sr-only" for="f-cat">Category</label>
+      <select id="f-cat" name="cat"><option value="">Choose category</option>{opts}</select>
+      <label class="sr-only" for="f-q">Search the guides</label>
+      <input id="f-q" name="q" type="search" placeholder="Search {len(articles)} guides" autocomplete="off" />
+      <button type="submit" class="btn btn-navy">Search</button>
+    </form>
+    <p class="finder-all"><a href="blog.html?cat=all" id="f-all">Browse all {len(articles)} guides, newest first</a></p>
+    <div id="f-results" hidden>
+      <div class="f-bar"><p class="f-count" id="f-count" aria-live="polite"></p><nav class="f-pager" aria-label="Results pages"></nav></div>
+      <ol class="f-list" id="f-list"></ol>
+      <div class="f-bar"><a href="blog.html" class="f-clear">Clear filters</a><nav class="f-pager" aria-label="Results pages"></nav></div>
+    </div>
+  </div>
+</section>
+<script id="f-data" type="application/json">{data}</script>
+<script>{FINDER_JS.replace("PER_PAGE", str(PER_PAGE))}</script>"""
+
+
+FINDER_JS = """(()=>{
+const D=JSON.parse(document.getElementById('f-data').textContent),P=PER_PAGE;
+const f=document.getElementById('finder'),cat=f.cat,q=f.q,box=document.getElementById('f-results'),
+  list=document.getElementById('f-list'),count=document.getElementById('f-count');
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+function render(){
+  const u=new URLSearchParams(location.search),c=u.get('cat')||'',w=(u.get('q')||'').trim().toLowerCase();
+  cat.value=c==='all'?'':c;q.value=u.get('q')||'';
+  const on=!!(c||w),doors=document.getElementById('doors');box.hidden=!on;if(doors)doors.hidden=on;if(!on)return;
+  const terms=w.split(/\\s+/).filter(Boolean);
+  const hits=D.filter(a=>(!c||c==='all'||a.c===c)&&terms.every(t=>(a.t+' '+a.d+' '+a.c+' '+a.g+' '+a.b).toLowerCase().includes(t)));
+  const pages=Math.max(1,Math.ceil(hits.length/P)),pg=Math.min(pages,Math.max(1,+u.get('page')||1)),from=(pg-1)*P;
+  count.textContent=hits.length?`Displaying results ${from+1}-${Math.min(from+P,hits.length)} of ${hits.length}`:'No guides match. Try a broader word or another category.';
+  list.replaceChildren(...hits.slice(from,from+P).map(a=>{
+    const li=el('li','f-row'),txt=el('div','f-txt'),h=el('h3'),l=el('a',null,a.t);l.href=a.s+'.html';h.append(l);
+    const meta=el('p','f-meta');meta.append(el('span','f-cat',a.c),el('span',null,a.r+(a.b?' · By '+a.b:'')));
+    const d=el('p','f-desc',a.d+' '),m=el('a','link-arrow','Read more');m.href=a.s+'.html';m.tabIndex=-1;d.append(m);
+    txt.append(h,meta,d);li.append(txt);
+    if(a.i){const im=el('img','f-img');im.src='assets/og/thumb/'+a.s+'.jpg';im.alt='';im.width=600;im.height=315;im.loading='lazy';li.append(im)}
+    return li}));
+  document.querySelectorAll('.f-pager').forEach(n=>{n.replaceChildren();if(pages<2)return;
+    const go=(p,t,cur)=>{const x=new URLSearchParams(u);x.set('page',p);const a=el('a',cur?'cur':null,t);a.href='?'+x;if(cur)a.setAttribute('aria-current','page');n.append(a)};
+    if(pg>1)go(pg-1,'Prev');
+    [...new Set([1,pg-1,pg,pg+1,pages])].filter(p=>p>=1&&p<=pages).sort((a,b)=>a-b).forEach((p,i,arr)=>{if(i&&p-arr[i-1]>1)n.append(el('span',null,'...'));go(p,p,p===pg)});
+    if(pg<pages)go(pg+1,'Next')});
+}
+function nav(params){history.pushState(null,'','blog.html'+(params.toString()?'?'+params:''));render();box.scrollIntoView({block:'start'})}
+f.addEventListener('submit',e=>{e.preventDefault();const x=new URLSearchParams();if(cat.value)x.set('cat',cat.value);if(q.value.trim())x.set('q',q.value.trim());if(!x.toString())x.set('cat','all');nav(x)});
+cat.addEventListener('change',()=>f.requestSubmit());
+document.addEventListener('click',e=>{const a=e.target.closest('.f-pager a,#f-all,.f-clear');if(!a)return;e.preventDefault();nav(new URL(a.href).searchParams)});
+addEventListener('popstate',render);document.readyState==='loading'?document.addEventListener('DOMContentLoaded',render):render();
+})();"""
+
+
 SHOWN = 6  # per segment before the rest fold away
 
 
@@ -216,7 +287,8 @@ def blog_index(articles, banner, segment_of, segments):
   </div>
 </section>""")
     blocks_html = "".join(blocks)
-    return banner + f"""
+    return banner + _finder(articles, segment_of) + f"""
+<div id="doors">
 <section style="padding-bottom:0">
   <div class="wrap">
     <div class="sec-head">
@@ -229,6 +301,7 @@ def blog_index(articles, banner, segment_of, segments):
   </div>
 </section>
 {blocks_html}
+</div>
 <section class="cta">
   <div class="wrap" style="text-align:center">
     <h2>Reading is a start. Brewing is better.</h2>

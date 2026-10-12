@@ -834,3 +834,38 @@ section.fam-group{padding:0}
 .yt-short .card-body{padding:.8rem .9rem}
 .yt-short h3{font-size:.9rem;line-height:1.3}
 @media (prefers-reduced-motion:reduce){.yt-thumb img{transition:none}.yt-thumb:hover img{transform:none}}
+
+/* Blog finder, after the Brewers Association hub: one bar, a count, a pager */
+.finder-wrap{padding-block:2.5rem 0}
+.finder{display:flex;gap:.6rem;max-width:860px;margin-inline:auto}
+.finder select{appearance:none;flex:0 0 auto;min-width:13rem;padding:.8rem 2.4rem .8rem 1.2rem;border:0;border-radius:980px;background:var(--amber) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23fff' stroke-width='2' fill='none'/%3E%3C/svg%3E") no-repeat right 1rem center;color:#fff;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;transition:background-color .2s var(--ease)}
+.finder select:hover{background-color:var(--amber-deep)}
+.finder input{flex:1;min-width:0;padding:.8rem 1.1rem;border:1px solid var(--line);border-radius:12px;font:inherit;background:var(--paper);color:var(--ink)}
+.finder input:focus{border-color:var(--blue);outline:none;box-shadow:0 0 0 3px rgba(10,109,132,.15)}
+.finder .btn{flex:0 0 auto;border-radius:12px;padding-inline:1.6rem;text-transform:uppercase;letter-spacing:.08em;font-size:.8rem}
+.finder-all{text-align:center;margin-top:.9rem;font-size:.9rem}
+.finder-all a,.f-clear{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+#f-results{max-width:980px;margin:2rem auto 0}
+.f-bar{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-block:.8rem;font-size:.85rem;color:var(--ink-soft)}
+.f-count{margin:0;font-family:var(--mono);font-size:.72rem;letter-spacing:.06em}
+.f-pager{display:flex;gap:.35rem;align-items:center}
+.f-pager a{min-width:2rem;padding:.25rem .55rem;border-radius:6px;text-align:center;color:var(--ink);font-weight:600}
+.f-pager a:hover{background:var(--line)}
+.f-pager a.cur{background:var(--navy);color:#fff}
+.f-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.f-row{display:grid;grid-template-columns:1fr 260px;gap:2rem;align-items:start;padding-block:1.8rem;border-bottom:1px solid var(--line)}
+.f-row h3{font-size:clamp(1.25rem,2vw,1.55rem);margin:0 0 .45rem}
+.f-row h3 a{color:var(--ink);transition:color .2s var(--ease)}
+.f-row h3 a:hover{color:var(--blue)}
+.f-meta{display:flex;gap:.8rem;align-items:center;margin:0 0 .6rem;font-size:.8rem;color:var(--ink-soft)}
+.f-cat{font-family:var(--mono);font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:var(--amber-deep);padding:.2rem .55rem;border-radius:4px}
+.f-desc{margin:0;color:var(--ink-soft)}
+.f-desc .link-arrow{font-size:.9rem;margin-left:.2rem}
+.f-img{width:100%;height:auto;border-radius:10px;aspect-ratio:600/315;object-fit:cover}
+@media (max-width:680px){
+  .finder{flex-wrap:wrap}
+  .finder select{flex:1 1 100%}
+  .f-row{grid-template-columns:1fr;gap:1rem}
+  .f-img{order:-1}
+  .f-bar{flex-wrap:wrap}
+}
