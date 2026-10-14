@@ -265,7 +265,7 @@ footer.site a:hover{color:#fff}
 }
 @media(max-width:680px){
   .navlinks{display:none}
-  .navlinks.open{display:flex;position:absolute;top:100%;right:0;left:0;background:#fff;flex-direction:column;padding:1.2rem;gap:1rem;border-bottom:1px solid var(--line);box-shadow:var(--shadow)}
+  .navlinks.open{display:flex;position:absolute;top:100%;right:0;left:0;background:#fff;flex-direction:column;padding:1.2rem;gap:1rem;border-bottom:1px solid var(--line);box-shadow:var(--shadow);max-height:calc(100vh - 72px);max-height:calc(100dvh - 72px);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
   .burger{display:block}
   .brand-logo{height:36px}
   .grid-3,.grid-2,.features,.steps,.stats,.foot-grid,.row2{grid-template-columns:1fr}

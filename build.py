@@ -213,7 +213,7 @@ def nav(active):
       {discover.SEARCH_FORM}
       <a href="{ENROLL_HREF}" class="nav-cta" data-cta="nav-enroll">Enrol</a>
     </div>
-    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">[[menu]]</button>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="navlinks" onclick="const n=document.getElementById('navlinks');const o=n.classList.toggle('open');if(o)n.style.maxHeight=(innerHeight-n.getBoundingClientRect().top)+'px';this.setAttribute('aria-expanded',o)">[[menu]]</button>
   </nav>
 </header>
 {course_ticker()}
