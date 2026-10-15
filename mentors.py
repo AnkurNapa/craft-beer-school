@@ -5,6 +5,28 @@ Facts here must stay within what the mentor has given us or the site already
 says. Do not add employers, numbers or claims that are not confirmed.
 """
 MENTORS = [
+    dict(slug="mentor-ganesh-ramu.html", name="A.V. Ganesh Ramu", first="Ganesh", img="assets/ganesh-ramu.jpg",
+         role="Senior Mentor · Master Brewer",
+         card="Our most senior mentor. A Master Brewer from the Institute of Brewing and Distilling with 38 years in brewing across Germany, the UK, New Zealand, Singapore and India.",
+         lede="Thirty-eight years of brewing in five countries.",
+         bio=["Ganesh is the most senior mentor at Craft Beer School. He has spent more than 38 years in brewing across Germany, the UK, New Zealand, Singapore and India. His last role was Assistant Vice President, Technical.",
+              "He has run every stage of the brewery: brewhouse, fermentation, lagering, filtration and bottling. He has brewed ales, stouts, dark ales, festival brews and flavoured beers to the quality standards of leading global brands. He led brewery expansions, plant modernisations and restarts. He also brought production methods and quality benchmarks into line across sites.",
+              "He led the project that developed and launched malt-based non-alcoholic drinks. He has worked on recipes and plant efficiency for flagship brands at international sites.",
+              "Teaching has run through his whole career. He has designed technical programmes for brewers and pub teams. He has presented at CFTRI, HBTI and PES College. Today he mentors postgraduate students at VSI in Pune."],
+         areas=["Brewery operations", "Fermentation and lagering", "Filtration and bottling", "Specialty and festival beers",
+                "Non-alcoholic malt drinks", "Sensory evaluation", "Brewery expansions and restarts"],
+         courses=[],
+         career=[("", "Assistant Vice President, Technical", "Last position"),
+                 ("38+ years", "Brewing in Germany, the UK, New Zealand, Singapore and India", ""),
+                 ("Now", "Mentor to postgraduate students", "VSI, Pune")],
+         education=[("", "Master Brewer Examination", "The Institute of Brewing and Distilling, UK"),
+                    ("", "Malting and Brewing course", "International Centre for Brewing and Distilling, Heriot-Watt University, held at CFTRI"),
+                    ("", "Formal sensory training", "Brewing Research Foundation, UK"),
+                    ("", "PG Diploma in Business Administration", "Bharatiya Vidya Bhavan, Bengaluru"),
+                    ("", "Executive Development Programme", "IIM Bangalore"),
+                    ("", "Developing Leaders Programme", "IIM Calcutta"),
+                    ("", "German language, levels GI and GII", "Max Mueller Bhavan, Bengaluru")],
+         linkedin=""),
     dict(slug="mentor-ankur-napa.html", name="Ankur Napa", img="assets/team3.jpg",
          role="Course Instructor · Master Brewer",
          card="A Master Brewer from R&amp;D at United Breweries, SABMiller and AB InBev who went on to build AI and GenAI as a data scientist for AB InBev's global business units.",
@@ -96,7 +118,7 @@ def card(m):
 def _linkedin(m):
     if not m["linkedin"]:
         return ""
-    return f'<a href="{m["linkedin"]}" target="_blank" rel="noopener" class="link-arrow">{m["name"].split()[0]} on LinkedIn</a>'
+    return f'<a href="{m["linkedin"]}" target="_blank" rel="noopener" class="link-arrow">{m.get("first", m["name"].split()[0])} on LinkedIn</a>'
 
 
 CONTACT = "mentor-chatty-girija.html"  # point of contact on every course page, reached on WhatsApp
@@ -127,7 +149,7 @@ def instructors(course_slug, course_name):
     from urllib.parse import quote
     wa = f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(f'Hi Chatty, I would like to know more about the {course_name} course.')}"
     cards_html.append(_person(c, label, f'<a href="{wa}" target="_blank" rel="noopener" class="btn btn-amber person-btn" '
-                                        f'data-cta="course-contact-whatsapp">WhatsApp {c["name"].split()[0]}</a>'))
+                                        f'data-cta="course-contact-whatsapp">WhatsApp {c.get("first", c["name"].split()[0])}</a>'))
     head = "Your instructor and point of contact" if len(team) <= 1 else "Your instructors and point of contact"
     return f"""<section class="tint">
   <div class="wrap">
@@ -154,21 +176,21 @@ def _body(m):
     areas = "".join(f"<li>{a}</li>" for a in m["areas"])
     courses = "".join(f'<li><a href="{s}">{n}</a></li>' for s, n in m["courses"])
     courses = f'<h3>Courses</h3><ul class="checklist">{courses}</ul>' if courses else ""
-    li = (f'<p><a href="{m["linkedin"]}" target="_blank" rel="noopener" class="link-arrow">{m["name"].split()[0]} on LinkedIn</a></p>'
+    li = (f'<p><a href="{m["linkedin"]}" target="_blank" rel="noopener" class="link-arrow">{m.get("first", m["name"].split()[0])} on LinkedIn</a></p>'
           if m["linkedin"] else "")
     others = "".join(card(o) for o in MENTORS if o is not m)
     history = "".join(_timeline(t, m.get(k)) for t, k in (("Career", "career"), ("Education", "education")))
     history = f'<section class="tint"><div class="wrap split" style="align-items:start">{history}</div></section>' if history else ""
     pics = "".join(f'<figure class="mentor-photo reveal"><img src="{src}" alt="{m["name"]}: {cap}" loading="lazy" /><figcaption>{cap}</figcaption></figure>'
                    for src, cap in m.get("gallery", []))
-    gallery = (f'<section><div class="wrap"><div class="sec-head"><span class="eyebrow">In photos</span><h2>{m["name"].split()[0]} at work.</h2></div>'
+    gallery = (f'<section><div class="wrap"><div class="sec-head"><span class="eyebrow">In photos</span><h2>{m.get("first", m["name"].split()[0])} at work.</h2></div>'
                f'<div class="grid-2">{pics}</div></div></section>') if pics else ""
     return banner(f'<a href="about.html">About</a> / {m["name"]}', m["role"], m["name"], m["lede"]) + f"""
 <section>
   <div class="wrap split">
     <div class="split-media reveal"><img class="mentor-img" src="{m.get("page_img", m["img"])}" alt="{m["name"]}" style="border-radius:var(--radius)" /></div>
     <div class="prose-block reveal">
-      <span class="eyebrow">About {m["name"].split()[0]}</span>
+      <span class="eyebrow">About {m.get("first", m["name"].split()[0])}</span>
       {bio}
       <h3>Teaches</h3><ul class="checklist">{areas}</ul>
       {courses}
@@ -187,7 +209,7 @@ def _body(m):
   </div>
 </section>
 
-<section class="cta"><div class="wrap"><h2>Learn with {m["name"].split()[0]}.</h2><p>Pick a course, or ask us which one fits you.</p><a href="contact.html#enroll" class="btn btn-amber" data-cta="mentor-talk-to-us">Talk to us</a></div></section>
+<section class="cta"><div class="wrap"><h2>Learn with {m.get("first", m["name"].split()[0])}.</h2><p>Pick a course, or ask us which one fits you.</p><a href="contact.html#enroll" class="btn btn-amber" data-cta="mentor-talk-to-us">Talk to us</a></div></section>
 """
 
 
