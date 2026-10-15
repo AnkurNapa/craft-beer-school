@@ -5,7 +5,7 @@ Facts here must stay within what the mentor has given us or the site already
 says. Do not add employers, numbers or claims that are not confirmed.
 """
 MENTORS = [
-    dict(slug="mentor-ganesh-ramu.html", name="A.V. Ganesh Ramu", first="Ganesh", img="assets/ganesh-ramu.jpg",
+    dict(slug="mentor-ganesh-ramu.html", name="A.V. Ganesh Ramu", first="Ganesh", img="assets/ganesh-ramu-portrait.jpg", page_img="assets/ganesh-ramu.jpg",
          role="Senior Mentor · Master Brewer",
          card="Our most senior mentor. A Master Brewer from the Institute of Brewing and Distilling with 38 years in brewing across Germany, the UK, New Zealand, Singapore and India.",
          lede="Thirty-eight years of brewing in five countries.",
