@@ -58,11 +58,21 @@ def _ext(href):
 
 
 def _byline(people):
-    """Who the story is about and who wrote it, each with a photo when we have one."""
+    """Who the story is about and who wrote it, each with a photo when we have one.
+    A person listed twice (a writer who is also the point of contact) gets one card."""
+    merged = {}
+    for label, p in people:
+        if not p:
+            continue
+        if p["name"] in merged:
+            first, _ = merged[p["name"]]
+            merged[p["name"]] = (f"{first} and {label[0].lower()}{label[1:]}", p)
+        else:
+            merged[p["name"]] = (label, p)
     cards = "".join(f"""<div class="byline">
       {f'<img src="{p["photo"]}" alt="{p["name"]}" width="64" height="64" loading="eager">' if p.get("photo") else ""}
-      <div><span>{label}</span><strong>{f'<a href="{p["href"]}"{_ext(p["href"])} data-cta="{"article-contact-whatsapp" if label == "Point of contact" else "article-byline"}">{p["name"]}</a>' if p.get("href") else p['name']}</strong><span>{p.get('role', '')}</span></div>
-    </div>""" for label, p in people if p)
+      <div><span>{label}</span><strong>{f'<a href="{p["href"]}"{_ext(p["href"])} data-cta="{"article-contact-whatsapp" if label.endswith("oint of contact") else "article-byline"}">{p["name"]}</a>' if p.get("href") else p['name']}</strong><span>{p.get('role', '')}</span></div>
+    </div>""" for label, p in merged.values())
     return f'<div class="bylines">{cards}</div>' if cards else ""
 
 
@@ -125,6 +135,15 @@ def _wheel(a):
             f'product documents. Craft Beer School is not affiliated with Weyermann.</figcaption></figure>')
 
 
+def _banner(article):
+    """A photo banner when the plan row names one, otherwise the drawn topic banner."""
+    b = article.get("banner")
+    if not b:
+        return article_art.banner_svg(article['slug'], article['cat'])
+    return (f'<img src="{b["src"]}" alt="{b["alt"]}" width="1200" height="500" loading="eager" fetchpriority="high" '
+            f'style="object-position:50% {b.get("focus", 50)}%">')
+
+
 def _photo(ph):
     """A credited photo from the plan row, shown after section ph["after"]."""
     return (f'<figure class="malt-wheel post-photo" style="max-width:{min(ph["w"], 640 if ph["w"] >= ph["h"] else 460)}px"><img src="{ph["src"]}" alt="{ph["alt"]}" width="{ph["w"]}" '
@@ -159,7 +178,7 @@ def render(article, by_slug):
 <article class="post">
   <div class="wrap post-head">
     {BREADCRUMB.format(title=article['h1'])}
-    <figure class="post-banner">{article_art.banner_svg(article['slug'], article['cat'])}</figure>
+    <figure class="post-banner">{_banner(article)}</figure>
     <span class="eyebrow">{article['cat']}</span>
     <h1 class="post-title">{article['h1']}</h1>
     <p class="lead">{article['standfirst']}</p>

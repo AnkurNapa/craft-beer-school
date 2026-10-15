@@ -44,6 +44,18 @@ from article_art import CAT_COLOUR, topic_icon
 
 def article_art(slug, cat):
     """Tilted colour tile with a big white line icon, a gold outline offset behind it for depth."""
+    banner = ARTICLES.get(slug, {}).get("banner")
+    if banner:  # a real picture for this guide: show it as the tile
+        import base64, io
+        from PIL import Image
+        im = Image.open(HERE / banner["src"]).convert("RGB")
+        im.thumbnail((600, 600))
+        buf = io.BytesIO(); im.save(buf, "JPEG", quality=85)
+        uri = "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
+        return ('<div style="position:relative;width:340px;height:340px;margin:0 -70px 20px 0">'
+                '<div style="position:absolute;inset:0;border:5px solid #f3c34d;border-radius:36px;transform:translate(22px,22px) rotate(4deg)"></div>'
+                f'<img src="{uri}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:36px;'
+                'transform:rotate(-3deg);box-shadow:0 30px 60px rgba(0,0,0,.35)"></div>')
     colour = CAT_COLOUR.get(cat, "#d9862a")
     ic = game_art.icon(topic_icon(slug, cat), "200px", "#fff8ec", 2.2)
     return ('<div style="position:relative;width:300px;height:300px;margin:0 -70px 20px 0">'

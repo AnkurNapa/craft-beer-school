@@ -727,7 +727,7 @@ section.fam-group{padding:0}
 
 /* Illustrated banner at the top of every guide (article_art.banner_svg) */
 .post-banner{margin:.4rem 0 1.6rem;border-radius:20px;overflow:hidden;aspect-ratio:12/5;box-shadow:var(--shadow-sm)}
-.post-banner svg{display:block;width:100%;height:100%}
+.post-banner svg,.post-banner img{display:block;width:100%;height:100%}.post-banner img{object-fit:cover}
 @media (max-width:640px){.post-banner{aspect-ratio:2/1;border-radius:14px;margin-bottom:1.2rem}}
 
 /* ---- search ---- */
