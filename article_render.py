@@ -69,10 +69,14 @@ def _byline(people):
             merged[p["name"]] = (f"{first} and {label[0].lower()}{label[1:]}", p)
         else:
             merged[p["name"]] = (label, p)
-    cards = "".join(f"""<div class="byline">
-      {f'<img src="{p["photo"]}" alt="{p["name"]}" width="64" height="64" loading="eager">' if p.get("photo") else ""}
-      <div><span>{label}</span><strong>{f'<a href="{p["href"]}"{_ext(p["href"])} data-cta="{"article-contact-whatsapp" if label.endswith("oint of contact") else "article-byline"}">{p["name"]}</a>' if p.get("href") else p['name']}</strong><span>{p.get('role', '')}</span></div>
-    </div>""" for label, p in merged.values())
+    def card(label, p):
+        img = f'<img src="{p["photo"]}" alt="{p["name"]}" width="64" height="64" loading="eager">' if p.get("photo") else ""
+        body = f'{img}<div><span>{label}</span><strong>{p["name"]}</strong><span>{p.get("role", "")}</span></div>'
+        if not p.get("href"):
+            return f'<div class="byline">{body}</div>'
+        cta = "article-contact-whatsapp" if label.endswith("oint of contact") else "article-byline"
+        return f'<a class="byline" href="{p["href"]}"{_ext(p["href"])} data-cta="{cta}">{body}</a>'
+    cards = "".join(card(label, p) for label, p in merged.values())
     return f'<div class="bylines">{cards}</div>' if cards else ""
 
 

@@ -175,6 +175,21 @@ def _timeline(title, rows):
     return f'<div class="prose-block reveal"><span class="eyebrow">{title}</span><ol class="timeline">{items}</ol></div>'
 
 
+def _written(m):
+    """Every live guide this mentor wrote, newest first."""
+    from articles_all import ARTICLES  # articles_all reads the mentor list from here
+    mine = [a for a in ARTICLES
+            if any(p and p["name"] == m["name"] for p in (a.get("author") or a.get("expert"), a.get("co_expert")))]
+    if not mine:
+        return ""
+    li = lambda a: f'<li><a href="{a["slug"]}.html" data-cta="mentor-guide">{a["h1"]}</a> <span>{a["cat"]}</span></li>'
+    more = (f'<details class="more-guides"><summary>Show every guide</summary><ul class="guide-list" translate="no">{"".join(li(a) for a in mine[12:])}</ul></details>'
+            if len(mine) > 12 else "")
+    return (f'<section><div class="wrap"><div class="sec-head"><span class="eyebrow">Guides</span>'
+            f'<h2>Written by {m.get("first", m["name"].split()[0])}.</h2></div>'
+            f'<ul class="guide-list" translate="no">{"".join(li(a) for a in mine[:12])}</ul>{more}</div></section>')
+
+
 def _body(m):
     from pages_a import banner  # pages_a imports this module for the About cards
     bio = "".join(f"<p>{p}</p>" for p in m["bio"])
@@ -206,6 +221,7 @@ def _body(m):
 
 {history}
 {gallery}
+{_written(m)}
 <section class="tint">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Your mentors</span><h2>Meet the rest of the team.</h2></div>

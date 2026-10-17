@@ -318,6 +318,14 @@ footer.site a:hover{color:#fff}
 .byline{display:flex;align-items:center;gap:.9rem}
 .byline img{width:64px;height:64px;border-radius:50%;object-fit:cover}
 .byline span{display:block;font-size:.9rem;color:var(--ink-soft)}
+a.byline{color:inherit;text-decoration:none}
+.guide-list{list-style:none;padding:0;margin:0;columns:2 22rem;column-gap:2.5rem}
+.guide-list li{break-inside:avoid;padding:.55rem 0;border-bottom:1px solid var(--cloud)}
+.guide-list span{display:block;font-size:.8rem;color:var(--ink-soft)}
+.more-guides{margin-top:1.2rem}
+.more-guides summary{cursor:pointer;font-weight:600;color:var(--blue);margin-bottom:.8rem}
+a.byline strong{text-decoration:underline;text-underline-offset:3px}
+a.byline:hover strong,a.byline:focus-visible strong{color:var(--blue)}
 .post-body .chapter{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;
                     text-transform:uppercase;color:var(--muted);margin:-.4rem 0 .9rem}
 .post-body .pull{font-family:var(--serif);font-size:clamp(1.3rem,1rem+1.2vw,1.8rem);line-height:1.3;

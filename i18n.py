@@ -46,7 +46,7 @@ def key(seg):
 def _segments(soup):
     """Leaf blocks whose text has at least one English word, plus the meta description."""
     for el in soup.find_all(BLOCK):
-        if el.find(BLOCK) or el.find_parent(["script", "style", "svg", "noscript"]):
+        if el.find(BLOCK) or el.find_parent(["script", "style", "svg", "noscript"]) or el.find_parent(attrs={"translate": "no"}):
             continue
         inner = el.decode_contents().strip()
         if inner and re.search(r"[A-Za-z]{2}", el.get_text(" ", strip=True)):
@@ -62,7 +62,7 @@ def _loose_text(soup):
     for s in soup.find_all(string=True):
         if isinstance(s, (Comment, Doctype)) or not isinstance(s, NavigableString):
             continue
-        if s.find_parent(class_="lang-switch"):
+        if s.find_parent(class_="lang-switch") or s.find_parent(attrs={"translate": "no"}):
             continue
         text = s.strip()
         if not text or not re.search(r"[A-Za-z]{2}", text):
