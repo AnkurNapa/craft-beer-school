@@ -529,6 +529,66 @@ DETAIL = {
               "Where it can be sold, how to price it and who is buying it"],
              "Write a stability, testing and launch plan for your non-alcoholic beer."),
         ]),
+    "Digital Marketing for Breweries": dict(
+        reading=['beer-social-media-marketing', 'photographing-beer-for-instagram', 'alcohol-advertising-rules-india'],
+        who=['Brewpub and microbrewery owners who run their own social media', 'Marketing staff new to drinks brands', 'Brand managers getting a beer ready to launch'],
+        outcomes=["Know what India's alcohol advertising rules mean for posts and creators", 'Plan a month of Instagram and WhatsApp content', 'Get found on Google and earn reviews', 'Track the few numbers that show it is working'],
+        weeks=[
+            ('Rules, channels and content',
+             ['Alcohol advertising rules in India and why they vary by state', 'Instagram: grid, reels, stories and what to post in a week', 'Photographing and filming beer on a phone', 'Brand voice for captions, menus and replies'],
+             'Plan two weeks of posts for your brewery that stay within the rules.'),
+            ('Local search, WhatsApp and measuring it',
+             ['Google Business Profile, map listings and reviews', 'WhatsApp broadcast lists and a taproom community', 'Working with creators and local events', 'The numbers to watch: reach, saves, profile visits and footfall'],
+             'Build a one-month content calendar and pick three numbers to track.'),
+        ]),
+    "Brand Strategy and Positioning for Breweries": dict(
+        reading=['brewery-brand-vs-positioning', 'brewery-positioning-matrix', 'brewery-brand-essence'],
+        who=['Founders planning a new brewery or brewpub', "Owners whose brand feels like everyone else's", 'Marketing leads in drinks companies'],
+        outcomes=['Map your competition on a positioning matrix', 'Cut a long list of values to three to six you will use', 'Write up to three drinker personas', 'Agree a one-line brand essence with your team'],
+        weeks=[
+            ('Where you stand',
+             ['Brand and positioning, and why great beer alone does not stand out', 'Listing your real competitive set', 'Building a two-axis positioning matrix and spotting gaps', 'Writing a positioning statement'],
+             'Map six local competitors and write your positioning statement.'),
+            ('Who you are and who you are for',
+             ['Mission, vision and values a team will use', 'Drinker personas built from real conversations', 'Branded house or house of brands', 'Brand essence in one line'],
+             'Write your values, two personas and a draft brand essence.'),
+        ]),
+    "Rebranding a Brewery": dict(
+        reading=['brewery-rebrand-guide', 'brewery-brand-audit', 'rolling-out-a-brewery-rebrand'],
+        who=['Breweries whose look no longer matches their beer', 'Owners planning new packaging or a new range', 'Teams who have to manage a design agency'],
+        outcomes=['Decide between a refresh and a full rebrand', 'Run a brand audit and keep what drinkers remember', 'Set goals, a sign-off team and a budget', 'Plan a roll-out around label approvals'],
+        weeks=[
+            ('Before any design',
+             ['Pain points across identity, packaging, website and reputation', 'Refresh or full rebrand', 'SMART goals and a sign-off group of four to six', 'Budget, stakeholders and choosing a design partner'],
+             'Write your rebrand goals, team and budget on one page.'),
+            ('Audit, brief and roll-out',
+             ['Brand audit: assets, trade marks and recall drawings', 'Writing a design brief', 'Label approvals as the slowest step', 'Launch timing, who to tell first and the campaign'],
+             'Draft a design brief and a roll-out timeline for your brewery.'),
+        ]),
+    "Naming and Trademarks for Drinks Brands": dict(
+        reading=['choosing-a-brewery-name', 'brewery-name-trademark-india', 'naming-a-beer-brand'],
+        who=['Founders naming a brewery or brewpub', 'Brewers naming a new beer or range', 'Brand teams launching a drinks product'],
+        outcomes=['Build a long list and cut it to a strong shortlist', 'Test names for sound, spelling and meaning across Indian cities', 'Run a first trade mark search', 'Know when to bring in a trade mark attorney'],
+        weeks=[
+            ('Finding the name',
+             ['What makes a brewery or beer name work', 'Long lists, shortlists and naming systems for a range', 'Saying it, spelling it and searching for it', 'Testing names with drinkers and staff'],
+             'Produce a shortlist of five names with reasons for each.'),
+            ('Protecting the name',
+             ['How trade marks work in India at process level', 'Classes for beer, other drinks and taprooms', 'Searching the public register', 'Working with a trade mark attorney before you print'],
+             'Run a first search on your shortlist and note the conflicts.'),
+        ]),
+    "Taproom Marketing and Community": dict(
+        reading=['taproom-events', 'taproom-design-that-sells', 'brewery-culture-and-brand'],
+        who=['Taproom and brewpub owners', 'Front-of-house managers', 'Brewers who pour for the public'],
+        outcomes=['Plan a calendar of events that bring people back', "Start a beer club or regulars' programme", 'Train staff to carry the brand', 'Find local partners worth working with'],
+        weeks=[
+            ('Bringing people back',
+             ['Why first visits do not become regulars', 'Events that fit your beer and your space', 'Beer clubs, loyalty and WhatsApp groups', 'Responsible serving at every event'],
+             'Plan a three-month taproom event calendar.'),
+            ('People and partners',
+             ['Staff as the brand: hiring, training and service', 'Tap list talk that helps guests choose', 'Local partners, collaborations and food pairings', 'Measuring footfall and repeat visits'],
+             'Write a one-page service guide and a plan for one partnership.'),
+        ]),
 }
 
 
@@ -570,6 +630,11 @@ REFERENCE = {
 
 # Specialist courses have few guides selling them, so they also pull guides by topic.
 KEYWORDS = {
+    "digital-marketing-for-breweries-course.html": ['social media', 'instagram', 'influencer', 'creators', 'brand voice', 'website'],
+    "brand-strategy-and-positioning-for-breweries-course.html": ['positioning', 'brand essence', 'personas', 'mission vision', 'branded house', 'brand portfolio'],
+    "rebranding-a-brewery-course.html": ['rebrand', 'brand audit'],
+    "naming-and-trademarks-for-drinks-brands-course.html": ['naming', 'brewery name', 'trademark'],
+    "taproom-marketing-and-community-course.html": ['taproom', 'community', 'beer club', 'culture and brand'],
     "ai-for-craft-breweries-course.html": ["ai ", "machine learning"],
     "digital-transformation-basics-for-brewing-course.html": ["digital", "dashboard", "sensors"],
     "esg-in-craft-brewing-course.html": ["sustainab", "esg", "waste", "energy", "regenerative", "water energy"],
