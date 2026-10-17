@@ -25,6 +25,7 @@ import glossary
 import pages_b
 import seo
 import style_render
+import brand_consult
 import companies
 import mentors
 import photos
@@ -317,7 +318,7 @@ document.querySelectorAll('form .btn-wa').forEach(a=>{
   const base=a.getAttribute('href');
   a.addEventListener('click',()=>{
     const d=new FormData(a.closest('form'));
-    const lines=[['name','Name'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message'],['came_from','Came from']]
+    const lines=[['name','Name'],['company','Brewery'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message'],['came_from','Came from']]
       .map(([k,l])=>[l,String(d.get(k)||'').trim()]).filter(([,v])=>v).map(([l,v])=>l+': '+v);
     if(!lines.length){a.href=base;return}
     const [url,q]=base.split('?text=');
@@ -348,6 +349,12 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
     if(form.querySelector('[name=_gotcha]')?.value){show("Thanks!",true);return;}  // bot
     const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
     try{
+      // A form with its own endpoint (an Apps Script that emails a person) posts
+      // straight there. no-cors hides the reply, so a network failure is the only error.
+      if(form.dataset.endpoint){
+        await fetch(form.dataset.endpoint,{method:'POST',mode:'no-cors',body:new URLSearchParams(new FormData(form))});
+        lead();form.reset();show(form.dataset.thanks||"Cheers! We'll be in touch within 24 hours.",true);return;
+      }
       if(SUPABASE_URL&&SUPABASE_ANON_KEY&&form.dataset.store!=="off"){
         const d=new FormData(form);
         const row={
@@ -529,6 +536,7 @@ PAGES["search.html"] = ("Search | Craft Beer School",
                         "", discover.search_page())
 PAGES.update(style_render.pages(BY_SLUG))
 PAGES[companies.SLUG] = companies.PAGE
+PAGES[brand_consult.SLUG] = brand_consult.page(pages_a.banner)
 PAGES.update(mentors.pages())
 PAGES.update(brochure_pages.pages())
 PAGES[podcast.SLUG] = podcast.page(pages_a.banner)

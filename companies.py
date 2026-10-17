@@ -11,7 +11,7 @@ import photos
 SLUG = "for-companies.html"
 TRAINING_HREF = enroll_href("Corporate training")
 HIRING_HREF = enroll_href("Hiring support")
-BRAND_HREF = enroll_href("Brand and marketing consultancy")
+BRAND_HREF = "brand-consultancy.html#enquire"
 ENTRY_HREF = enroll_href("Market entry into India")
 DIGITAL_HREF = enroll_href("Digital transformation consulting")
 CONSULT_HREF = enroll_href("Brewery consultancy")

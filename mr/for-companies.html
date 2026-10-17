@@ -123,7 +123,7 @@
 <h2>लोकांच्या लक्षात राहणारा बिअर ब्रँड, नियमांच्या चौकटीत मार्केटिंग करून.</h2>
 <p>भारतातली बहुतेक क्राफ्ट बिअर तोंडी प्रसिद्धी, शेल्फवरचं लेबल आणि सोशल फीड यांतून विकली जाते. ब्रुअरीज आणि पेय ब्रँड्सना या गोष्टी बरोबर करायला आम्ही मदत करतो: ब्रँड कोणासाठी आहे, त्याचं नाव काय, शेल्फवर आणि फीडमध्ये तो कसा दिसतो, आणि तो लोकांपर्यंत कसा पोहोचतो.</p>
 <p>भारतात अल्कोहोलच्या जाहिरातींवर निर्बंध आहेत, आणि नियम राज्यानुसार वेगळे असतात आणि बदलतात, म्हणून आम्ही लिहिलेला प्रत्येक प्लॅन त्यांच्या चौकटीतच असतो. जिथे औपचारिक मत लागतं, तिथे आम्ही तुमच्या कायदेशीर सल्लागारांसोबत काम करतो.</p>
-<div class="cta-pair" style="margin-top:1.4rem"><a class="btn btn-amber" data-cta="companies-brand" href="contact.html?course=Brand%20and%20marketing%20consultancy#enroll">तुमच्या ब्रँडबद्दल बोला</a></div>
+<div class="cta-pair" style="margin-top:1.4rem"><a class="btn btn-amber" data-cta="companies-brand" href="../brand-consultancy.html#enquire">तुमच्या ब्रँडबद्दल बोला</a></div>
 </div>
 <div class="prose-block reveal">
 <span class="eyebrow">आम्ही काय करतो</span>
@@ -271,7 +271,7 @@ document.querySelectorAll('form .btn-wa').forEach(a=>{
   const base=a.getAttribute('href');
   a.addEventListener('click',()=>{
     const d=new FormData(a.closest('form'));
-    const lines=[['name','Name'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message'],['came_from','Came from']]
+    const lines=[['name','Name'],['company','Brewery'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message'],['came_from','Came from']]
       .map(([k,l])=>[l,String(d.get(k)||'').trim()]).filter(([,v])=>v).map(([l,v])=>l+': '+v);
     if(!lines.length){a.href=base;return}
     const [url,q]=base.split('?text=');
@@ -302,6 +302,12 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
     if(form.querySelector('[name=_gotcha]')?.value){show("Thanks!",true);return;}  // bot
     const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
     try{
+      // A form with its own endpoint (an Apps Script that emails a person) posts
+      // straight there. no-cors hides the reply, so a network failure is the only error.
+      if(form.dataset.endpoint){
+        await fetch(form.dataset.endpoint,{method:'POST',mode:'no-cors',body:new URLSearchParams(new FormData(form))});
+        lead();form.reset();show(form.dataset.thanks||"Cheers! We'll be in touch within 24 hours.",true);return;
+      }
       if(SUPABASE_URL&&SUPABASE_ANON_KEY&&form.dataset.store!=="off"){
         const d=new FormData(form);
         const row={

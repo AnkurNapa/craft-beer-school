@@ -174,9 +174,9 @@
       </div></article>
       <article class="card reveal"><div class="card-body">
         <span class="cat">Branding</span>
-        <h3>Taproom design that sells beer</h3>
-        <p>Guests decide what to order in the first minute. Most of that minute is shaped by where the taps, the menu and the light are.</p>
-        <div class="foot"><a href="taproom-design-that-sells.html" class="link-arrow" data-cta="recommended-article">Read</a><span class="read">3 min</span></div>
+        <h3>Beer drinker personas: who your brewery is really for</h3>
+        <p>Three well drawn drinkers will guide your rebrand better than a slide that says "25 to 40, urban, aspirational".</p>
+        <div class="foot"><a href="beer-drinker-personas.html" class="link-arrow" data-cta="recommended-article">Read</a><span class="read">3 min</span></div>
       </div></article></div>
     <p style="margin-top:1.4rem"><a href="search.html" class="link-arrow" data-cta="recommended-search">Search every guide</a></p>
   </div>
@@ -271,7 +271,7 @@ document.querySelectorAll('form .btn-wa').forEach(a=>{
   const base=a.getAttribute('href');
   a.addEventListener('click',()=>{
     const d=new FormData(a.closest('form'));
-    const lines=[['name','Name'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message'],['came_from','Came from']]
+    const lines=[['name','Name'],['company','Brewery'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message'],['came_from','Came from']]
       .map(([k,l])=>[l,String(d.get(k)||'').trim()]).filter(([,v])=>v).map(([l,v])=>l+': '+v);
     if(!lines.length){a.href=base;return}
     const [url,q]=base.split('?text=');
@@ -302,6 +302,12 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
     if(form.querySelector('[name=_gotcha]')?.value){show("Thanks!",true);return;}  // bot
     const orig=btn.textContent;btn.disabled=true;btn.textContent="Sending…";
     try{
+      // A form with its own endpoint (an Apps Script that emails a person) posts
+      // straight there. no-cors hides the reply, so a network failure is the only error.
+      if(form.dataset.endpoint){
+        await fetch(form.dataset.endpoint,{method:'POST',mode:'no-cors',body:new URLSearchParams(new FormData(form))});
+        lead();form.reset();show(form.dataset.thanks||"Cheers! We'll be in touch within 24 hours.",true);return;
+      }
       if(SUPABASE_URL&&SUPABASE_ANON_KEY&&form.dataset.store!=="off"){
         const d=new FormData(form);
         const row={
