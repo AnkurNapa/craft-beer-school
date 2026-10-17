@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Talk to us before you brief a firm</h3>
-    <p>We start with a brand health check and a written plan, led by Chatty Girija.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="write-a-brief-that-fits-on-two-pages">Write a brief that fits on two pages</h2>
 <p>A design firm can only answer the question you ask. Put these 8 things in writing before the first meeting:</p><ol><li>Your story: who you are and why you are opening a brewery.</li><li>How you differ from the other taprooms in your city.</li><li>Who you want drinking your beer.</li><li>Your positioning: the one idea people should remember.</li><li>Brands you admire and brands you do not want to resemble.</li><li>Deliverables: identity system, labels for 330 ml cans and 650 ml bottles, menus in English plus a regional language, signage and Instagram templates.</li><li>Dates: opening day and the day labels must go to excise for approval.</li><li>Your budget range and who signs off. Keep the sign-off group to four to six people. Any more and every round of changes stalls.</li></ol><p>Who sits around your own table is covered in <a href="brewery-rebrand-team-and-budget.html">the rebrand team and budget</a>. That guide is written for rebrands, but the people questions are the same for a launch. A brief also reads differently to someone outside the brewery. Having an advertising hand look it over before it goes out often shows where it is vague.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

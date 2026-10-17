@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Can't see where your brewery stands?</h3>
-    <p>Chatty Girija, who spent more than 30 years in advertising, leads our positioning workshops for breweries: the competitive set, the matrix and a positioning statement your team keeps and uses afterwards.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="good-axes-are-things-a-drinker-can-see-or-taste">Good axes are things a drinker can see or taste</h2>
 <p>These are the pairs we reach for with Indian breweries:</p><ul><li>taproom led or production led</li><li>draught or packaged (cans and 650 ml bottles)</li><li>affordable or expensive</li><li>traditional or experimental</li><li>new or established</li><li>clean, minimal design or colourful, illustrated design</li><li>approachable beer or niche beer</li><li>weakly branded or strongly branded</li></ul><p>Two tests help. Each axis should be something a drinker can see or taste, not an internal fact. The two axes should also measure different things. Price and branding strength often move together, so a matrix with both tends to put everyone on one diagonal and tell you nothing. Draw at least three matrices with different pairs.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Unsure who to hire or what to spend?</h3>
-    <p>Chatty Girija helps you set the team and budget, shortlist design partners and write the brief they all answer. Your team keeps the brief and the scoring sheet afterwards.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="about-ten-interviews-tell-the-design-firm-what-it-needs">About ten interviews tell the design firm what it needs</h2>
 <p>Stakeholders are the people the design firm should interview during its discovery work. They do not vote, but they know things the founders do not. About ten interviews is enough. After that you mostly hear the same points again.</p><p>A sensible ten for an Indian brewery might be:</p><ul><li>2 brewers or cellar staff</li><li>2 taproom servers or managers</li><li>1 distributor or their sales rep</li><li>2 on-trade accounts, such as a bar manager in Bengaluru or Pune who pours your beer</li><li>1 shop that stocks your cans</li><li>1 investor who is not on the executive team</li><li>1 long-standing regular</li></ul><p>Collect names, roles and phone numbers in one sheet now. A WhatsApp message from you explaining the project gets a far better response than a cold call from a studio they have never heard of.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

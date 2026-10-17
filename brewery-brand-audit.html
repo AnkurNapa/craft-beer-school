@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Not sure which parts of your brand are worth keeping?</h3>
-    <p>Chatty Girija, who spent more than 30 years in advertising, leads our brand audits for breweries and brewpubs: the asset review, the fan drawings and a keep, fix and drop sheet your team keeps afterwards.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="write-your-colours-down-as-numbers-not-adjectives">Write your colours down as numbers, not adjectives</h2>
 <p>"Our orange" is not a colour specification. List the main brand colours and then the secondary colours each beer uses. Next to each, record whatever codes you have: Pantone reference, CMYK for the label printer and hex for the website. Missing codes are a finding in themselves.</p><p>Lay the 330 ml can, the menu card and a T-shirt side by side under daylight. If you count three different oranges, you have learned that the colour lives in drinkers' memory more loosely than in your files. That matters when a designer asks which shade to keep.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

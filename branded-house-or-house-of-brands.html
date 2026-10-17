@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Not sure whether your next product needs its own name?</h3>
-    <p>We can run a brand architecture and naming workshop with your team, ending in a naming shortlist and clear rules for future products. Chatty Girija leads it and your team keeps the work afterwards.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="a-house-of-brands-lets-each-product-stand-alone">A house of brands lets each product stand alone</h2>
 <p>In a house of brands the parent steps back, sometimes out of sight. Each product gets its own name, look and audience. This suits a product aimed at people who would never walk into your taproom, or one whose personality clashes with your core beers.</p><p>The cost is real. Two brands means two sets of design work, two social accounts to feed and two names to check for trademark conflicts. In India it can also mean a fresh label approval round for each name in every state you sell in. Budget 5 to 15% of a year's revenue for a full rebrand, less for a refresh. On a ₹2 crore turnover that is ₹10 lakh to ₹30 lakh (2 crore x 0.05 and x 0.15). A second brand roughly doubles the design bill. One brand done well beats three done thinly.</p><p>There is a middle path that many breweries drift into: a product with its own name plus a small line that says who brews it. It works, but choose it on purpose rather than by accident.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Values that nobody on the team uses?</h3>
-    <p>Chatty Girija, who spent more than 30 years in advertising, leads our values and mission workshops for breweries. Your team leaves with three to six values, a mission and a vision written in its own words.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="product-method-and-purpose-each-fit-in-20-words">Product, method and purpose each fit in 20 words</h2>
 <p>Next, write three short definitions. Product: what do you make and sell? Method: is there something particular about how you make it? Purpose: why does the brewery exist at all?</p><p>Keep each answer under 20 words and avoid adjectives that any brewery could claim. "Fresh beer" is not a method. "Every keg sold within 21 days of packaging, from a cold room held at 2 to 4 °C" is. Purpose is the hardest. Fun is allowed, but name whose fun and what it replaces.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

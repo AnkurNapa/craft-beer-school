@@ -38,7 +38,7 @@ def page(banner):
       <ul class="checklist" style="margin-top:1.2rem"><li>Brand audits and rebrand plans</li><li>Positioning workshops and brand strategy</li><li>Naming shortlists for a brewery or a beer</li><li>Label systems and packaging direction</li><li>Brand voice for menus, Instagram and WhatsApp</li><li>Launch plans that respect India's alcohol advertising rules</li></ul>
       <p style="margin-top:1.2rem">Not ready to talk? Start with the free guides: <a href="brewery-branding-guide.html">branding a new brewery</a> and <a href="brewery-rebrand-guide.html">rebranding a brewery</a>.</p>
     </div>
-    <form class="form-card reveal" id="enquire" data-formspree{f' data-endpoint="{ENDPOINT}"' if LIVE else ""} data-thanks="Thank you. Your note has gone straight to Chatty. She will reply within 24 hours.">
+    <form class="form-card reveal" id="enquire" data-formspree{f' data-endpoint="{ENDPOINT}"' if LIVE else ' data-fallback="whatsapp"'} data-thanks="Thank you. Your note has gone straight to Chatty. She will reply within 24 hours.">
       <h3 style="margin-bottom:1.1rem">Send Chatty a note</h3>
       <div class="row2">
         <div class="field"><label>Name</label><input name="name" required autocomplete="name" placeholder="Your name" /></div>

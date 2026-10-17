@@ -111,10 +111,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>When your menu, labels and posts sound like three different breweries</h3>
-    <p>A voice audit and a one-page voice guide for your brewery, led by Chatty Girija, who spent more than 30 years in advertising. She reviews your menus, posts and replies with your team. The guide stays with you afterwards.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="same-voice-different-volume-on-each-channel">Same voice, different volume on each channel</h2>
 <p>The medium shapes the message. A brewpub in Bengaluru or Pune usually writes for four places. Each has its own limits.</p><ul><li><strong>Menu board.</strong> Read from 3 metres away by someone deciding in ten seconds. Style, ABV and one line of no more than 8 words.</li><li><strong>Tap list or printed menu.</strong> Room for 20 to 30 words a beer: what it tastes like, what it goes with, one human detail.</li><li><strong>Instagram caption.</strong> Only the first line shows before "more", so it carries the voice. Put the facts people need (timings, the new beer, the event) where they can find them.</li><li><strong>WhatsApp replies.</strong> The most personal channel, often handed to whoever is on shift. This is where voice slips first.</li></ul><p>Write the board in English and add the regional language where your guests read it: Kannada in Bengaluru, Marathi in Pune or Mumbai, Telugu in Hyderabad. Translate the meaning, not the pun. Wordplay that works in English rarely survives in Marathi, so give the second language a plain, friendly line instead.</p>
@@ -302,6 +302,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

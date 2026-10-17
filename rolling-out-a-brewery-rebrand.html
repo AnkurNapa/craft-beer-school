@@ -110,10 +110,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Bring your rebrand launch plan to us</h3>
-    <p>We start with a brand health check and a written plan, led by Chatty Girija.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="the-slowest-task-sets-the-launch-date">The slowest task sets the launch date</h2>
 <p>Our rule is simple. Find the single task with the longest and least certain timeline. It is nearly always new packaging. Estimate when it will be done, add one month for surprises and that is your launch date.</p><p>In India the slowest task is often the label approval. A changed label usually needs fresh approval from the excise department in each state where you sell. The new label still has to meet FSSAI labelling rules. Rules and timelines vary by state and change, so check the current notification or ask a licensing consultant before you promise anyone a date. Our guide to <a href="beer-label-rules-india.html">beer label rules in India</a> covers what has to go on the label.</p><p>Old stock is the other drag. Printed cans come in minimum runs. If you hold 20,000 printed 330 ml cans and fill 2,500 a week, that is eight weeks of old cans to use up before the new design can appear. Put that on the plan too.</p>
@@ -301,6 +301,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

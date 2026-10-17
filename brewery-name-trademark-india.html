@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Not sure your shortlist will survive?</h3>
-    <p>Our brand consultancy builds a naming shortlist with you, tested for meaning, tone and fit with your story before it goes to your attorney. Chatty Girija leads the work and your team keeps every list and rationale afterwards.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="run-the-free-checks-yourself-first">Run the free checks yourself first</h2>
 <p>Once you have 20 or so pairings you like, run the quick checks we would run before showing anyone a name. In India that means four checks, all free:</p><ol><li>A web search of the name alongside words like beer, brewery, bar, pub and restaurant.</li><li>Instagram and Untappd, where small brewpubs often exist long before they have websites.</li><li>Domain availability for .in and .com.</li><li>The public trade mark search at ipindia.gov.in, run by the Trade Marks Registry under the Controller General of Patents, Designs and Trade Marks.</li></ol><p>Strike any name that already shows up as a beer, a brewery or a bar. Mark near misses amber rather than red. A brewery with your word plus another one is not always fatal, but it makes the name less yours. Be extra careful with large food and drinks companies holding similar marks. They have the budgets to object.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

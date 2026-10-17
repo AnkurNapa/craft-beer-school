@@ -110,10 +110,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Get a clear view of what your brand needs</h3>
-    <p>Chatty Girija, who spent more than 30 years in advertising, leads our brand consultancy for breweries and brewpubs: positioning, naming, labels and launches.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Talk to Chatty about your brand</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="stage-four-finds-out-what-your-drinkers-already-remember">Stage four finds out what your drinkers already remember</h2>
 <p>A brand audit gathers everything the brewery has ever put out: logo files, every label version, keg collars, tap handles, menus, coasters, social posts, merch and press cuttings. Lay it all out on one table or in one shared folder. The inconsistencies tend to show up quickly.</p><p>The part we like most is the recall test. Leave simple outline sheets and markers in the taproom and ask regulars to draw your logo or can from memory. We aim for 30 to 40 drawings over three or four weeks. Whatever people draw correctly is equity you should be careful about throwing away. Whatever nobody remembers is fair game. This stage also lists your trademarks and settles the choice between evolution and revolution. See the <a href="brewery-brand-audit.html">brand audit guide</a>.</p>
@@ -301,6 +301,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

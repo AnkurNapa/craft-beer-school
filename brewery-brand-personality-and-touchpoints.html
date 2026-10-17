@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Touch points that sound like five different breweries?</h3>
-    <p>We can run a brand personality workshop and touch point review with your team, ending in an agreed brand essence and a list of fixes. Chatty Girija leads it and your team keeps the work afterwards.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="nine-sliders-turn-vague-adjectives-into-decisions">Nine sliders turn vague adjectives into decisions</h2>
 <p>Everyone wants their brewery to be friendly and authentic, which tells a designer nothing. Use sliders instead: pairs of opposites where you mark a point between the two. We put them on a 1 to 10 scale:</p><ul><li>Homemade to precise</li><li>Economical to expensive</li><li>Simple to complex</li><li>Light to serious</li><li>Friendly to corporate</li><li>Heritage to ground-breaking</li><li>Casual to formal</li><li>Necessity to luxury</li><li>Quiet to loud</li></ul><p>A brewery that scores 3 on quiet to loud should not have a neon tap list and a DJ every Friday. The sliders make that kind of clash visible.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

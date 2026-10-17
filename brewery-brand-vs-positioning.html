@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Know exactly where your brewery stands before you open</h3>
-    <p>Chatty Girija, who spent more than 30 years in advertising, leads our brand consultancy for breweries and brewpubs: positioning, naming, labels and launches.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Talk to Chatty about your brand</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="positioning-is-a-choice-you-make-on-purpose">Positioning is a choice you make on purpose</h2>
 <p>Positioning is the deliberate act of settling your concept, who it is for and how you differ from everyone else. We boil it down to three questions. What do you make? Which drinkers is it for? How are you different from the brewpub down the road? Note that the last one asks about different, not better. Better is a claim every brewery makes. Different is something a drinker can notice.</p><p>Write your answers in one line each. If your answer to the second is "everyone who likes good beer", you have not chosen yet. A 30-seat brewpub serving sours and barrel-aged stouts to beer geeks is a position. "A brewery for all" is a hope. Our guide to the <a href="brewery-positioning-matrix.html">positioning matrix</a> shows how to plot the competition on two axes and spot the gap.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Not sure if you need a rebrand or a refresh?</h3>
-    <p>Chatty Girija leads a brand audit with your team: pain points, recall test and a clear call on evolution or revolution. Your team keeps the audit and the brief afterwards.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="a-wish-list-turns-complaints-into-a-brief">A wish list turns complaints into a brief</h2>
 <p>Once the pain is on paper, write the opposite: a wish list. Split it into five areas: logo and merch, reputation, website, packaging and sales. Write everything down, including wishes that repeat the pain points. Repetition helps here. The items that show up three times are the ones that matter.</p><p>Keep wishes concrete. "A can range where a new beer needs only a colour change and a new name" is a wish a designer can work with. So is "merch that taproom guests buy without being asked". Leave numbers and deadlines for <a href="setting-goals-for-a-brewery-rebrand.html">the goal-setting stage</a>. At this point you only need the raw material.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

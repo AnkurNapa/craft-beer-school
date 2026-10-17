@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Not sure who your brand is really for?</h3>
-    <p>Chatty Girija, who spent more than 30 years in advertising, leads our persona work for breweries: regular interviews, up to three personas and a check against your positioning that your team keeps afterwards.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="one-page-of-200-words-per-persona-is-enough">One page of 200 words per persona is enough</h2>
 <p>Record these fields for each one:</p><ul><li>a first name and an age band, never below the legal drinking age in your state, which varies</li><li>work and neighbourhood, such as a nurse on rotating shifts in Gurugram</li><li>interests and the values they live by</li><li>the beer styles they order and the breweries they also visit</li><li>non-beer brands they trust, plus the food, music and books they like</li><li>how they find out about new beer</li></ul><p>Add a photo, real or stock, so the team can see them. Keep each persona to one page of about 200 words.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

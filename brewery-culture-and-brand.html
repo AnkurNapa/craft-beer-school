@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>When your staff and your branding tell different stories</h3>
-    <p>A brand and culture workshop for your taproom team, led by Chatty Girija, who spent more than 30 years in advertising. It turns your values into hiring questions, briefings and service habits that your team keeps using after the workshop.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="two-weeks-of-training-turns-values-into-habits">Two weeks of training turns values into habits</h2>
 <p>Most brewpub induction is a menu walkthrough and a login for the billing system. Add three things in the first 2 weeks.</p><ol><li><strong>Taste everything on tap with the brewer.</strong> With 8 beers on the board, every server should be able to describe each one in a single sentence, in your brand voice, without reading it.</li><li><strong>Spend one shift on the brewhouse floor.</strong> Watching a mash-in at around 65 °C or a tank being cleaned in place gives servers true stories to tell. "Our brewer was in at 6 am to dry hop this one" beats any adjective.</li><li><strong>Learn the house answer to hard moments.</strong> A beer sent back, a guest who has had enough, a request for something you do not pour. Agree the words in advance so nobody improvises under pressure.</li></ol>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

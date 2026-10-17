@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Rebrand goals that nobody can measure?</h3>
-    <p>Chatty Girija leads a goal-setting workshop with your executive team, turning pain points into SMART goals and a one-page brief for designers. Your team keeps the goal sheet afterwards.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Book a brand consultation</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="some-goals-cannot-be-counted-and-still-matter">Some goals cannot be counted and still matter</h2>
 <p>Leave room for qualitative goals too. We would not skip them. Examples: staff who are happy to wear the T-shirt outside work; a brand the head brewer feels matches the beer; a taproom that feels like the same place as the can. You cannot put these in a spreadsheet, but you will know within a month of launch whether they are true.</p><p>Write 2 or 3 of them. For each, say how you will check. A short anonymous question to staff at 3 months is enough. So is counting tagged Instagram posts from the taproom over the first four weekends.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]

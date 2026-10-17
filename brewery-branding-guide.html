@@ -108,10 +108,10 @@
 
 <aside class="cta-inline">
   <div>
-    <h3>Get a brand that is clear before the first label is printed</h3>
-    <p>Chatty Girija, who spent more than 30 years in advertising, leads our brand consultancy for breweries and brewpubs: positioning, naming, labels and launches.</p>
+    <h3>Learn beer branding from Chatty</h3>
+    <p>Chatty Girija teaches Beer Branding and Packaging, a 3 week live course on weekends (₹4,999) covering naming, labels, storytelling and launches.</p>
   </div>
-  <a class="btn btn-amber" href="brand-consultancy.html#enquire" data-cta="article-inline">Talk to Chatty about your brand</a>
+  <a class="btn btn-amber" href="beer-branding-packaging-course.html" data-cta="article-inline">See the full syllabus</a>
 </aside>
 <h2 id="steps-four-and-five-give-the-brand-a-way-of-speaking">Steps four and five give the brand a way of speaking</h2>
 <p>Next, imagine the brewery as a person. Young or old? Working class or high-brow? From that list of traits comes the <a href="brewery-brand-voice.html">brand voice</a>: how your menu board, Instagram captions and WhatsApp replies sound. In India that may mean a menu in English with Kannada or Marathi alongside, so decide early how the voice survives translation.</p><p>Then look inward. A brand is what your staff do on a busy Saturday night as much as what your posters say. Our guide to <a href="brewery-culture-and-brand.html">culture and brand</a> shows how to brief a floor team of 15 so the service matches the story.</p>
@@ -299,6 +299,10 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
   // No endpoint configured yet: hand the enquiry to the user's mail app rather
   // than dead-ending them. Losing a lead beats no lead.
   function mailtoFallback(){
+    // mailto does nothing on a laptop with no mail app, so a form that asks for it
+    // hands the note to WhatsApp instead (the .btn-wa click carries the fields).
+    const wa=form.dataset.fallback==='whatsapp'&&form.querySelector('.btn-wa');
+    if(wa){wa.click();show("Opening WhatsApp with your note to Chatty. If it does not open, write to "+ENQUIRY_EMAIL+".",true);return;}
     const d=new FormData(form);
     const subject=d.get('_subject')||'Craft Beer School enquiry';
     const body=[...d.entries()]
