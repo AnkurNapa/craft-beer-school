@@ -323,7 +323,7 @@ t.style.setProperty('--ticker-duration',Math.min(160,Math.max(25,Math.round(w/60
 const here=location.pathname.replace(/^\//,'')||'index.html';
 let cameFrom=here;
 try{
-  if(here!=='contact.html')sessionStorage.setItem('cbs-from',here);
+  if(!['contact.html','brand-consultancy.html'].includes(here))sessionStorage.setItem('cbs-from',here);
   else cameFrom=sessionStorage.getItem('cbs-from')||(document.referrer.startsWith(location.origin)?new URL(document.referrer).pathname.replace(/^\//,''):'')||here;
 }catch(_){}
 document.querySelectorAll('form[data-formspree]').forEach(f=>{
