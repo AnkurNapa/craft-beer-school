@@ -28,7 +28,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install build dependencies
-        run: pip install pymupdf pillow
+        run: pip install pymupdf pillow beautifulsoup4
 
       - name: Rebuild the site for today
         run: python3 build.py > /dev/null
