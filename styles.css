@@ -1134,3 +1134,18 @@ header .sg-list{right:auto;width:360px}
 :lang(te) h1,:lang(te) h2,:lang(te) h3{font-family:"Noto Sans Telugu",var(--head);letter-spacing:0;line-height:1.35}
 :lang(kn) h1,:lang(kn) h2,:lang(kn) h3{font-family:"Noto Sans Kannada",var(--head);letter-spacing:0;line-height:1.35}
 :lang(hi) .eyebrow,:lang(mr) .eyebrow,:lang(te) .eyebrow,:lang(kn) .eyebrow,:lang(hi) .cat,:lang(mr) .cat,:lang(te) .cat,:lang(kn) .cat{letter-spacing:.02em;text-transform:none}
+
+/* course finder on courses.html */
+.cf-sec{padding-block:2rem 1rem;border-bottom:1px solid var(--line)}
+.cf-title{font-size:1.3rem;margin-bottom:.9rem}
+.cf{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:.6rem}
+.cf-btn{font:600 .9rem/1 var(--sans);padding:.6rem 1rem;border-radius:980px;border:1.5px solid var(--line);background:var(--paper);color:var(--navy);cursor:pointer;transition:background .2s var(--ease),border-color .2s var(--ease)}
+.cf-btn:hover{border-color:var(--navy)}
+.cf-btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.cf-btn[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:#fff}
+.cf[aria-label="Subject"] .cf-btn{font-size:.82rem;padding:.5rem .85rem}
+.cf[aria-label="Subject"] .cf-btn[aria-pressed="true"]{background:var(--amber-deep);border-color:var(--amber-deep)}
+.cf-count{font-family:var(--mono);font-size:.75rem;color:var(--ink-soft);margin:.3rem 0 .8rem}
+.cf-docs{display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;font-size:.9rem}
+.cf-docs a{color:var(--blue);text-decoration:underline;display:inline-flex;align-items:center;gap:.35rem}
+.cf-docs .ico{width:1em;height:1em}

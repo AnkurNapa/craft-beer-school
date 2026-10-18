@@ -23,7 +23,8 @@ PHONE, EMAIL = "+91 98209 25347", "chatty@cheerschattyventures.com"
 BY_NAME = {c["name"]: c for c in pages_a.COURSE_DATA}
 PHOTOS = photos._all()
 TRACK_SLOT = {"Brewing": "track:brewing", "Business and tech": "track:business", "Spirits": "track:spirits",
-              "Beyond beer": "track:beyond", "Free and in Bengaluru": "track:bengaluru"}
+              "Beyond beer": "track:beyond", "Free and in Bengaluru": "track:bengaluru",
+              "Brand and marketing": "service:brand", "Wine and new products": "track:beyond"}
 
 
 def uri(rel):
@@ -56,7 +57,13 @@ def track_page(icon_title, line, names):
         extra = ('<article class="course"><div class="c-head"><h3>Professional Beer Tasting Day</h3><span class="pill">1 day · ₹4,999</span></div>'
                  '<p>In person in Bengaluru. A guided flight across the main styles plus spiked off-flavour samples. The professional tasting method, written notes and an industry scoresheet. Beers and kit included.</p></article>'
                  '<article class="course"><div class="c-head"><h3>Brewery Business Tour</h3><span class="pill">Half day · On enquiry</span></div>'
-                 '<p>For anyone thinking about a brewery or brewpub. Walk a working Bengaluru brewery with a brewer who runs one, then the questions on cost, licences, staffing and space.</p></article>')
+                 '<p>For anyone thinking about a brewery or brewpub. Walk a working Bengaluru brewery with a brewer who runs one, then the questions on cost, licences, staffing and space.</p></article>'
+                 '<article class="course"><div class="c-head"><h3>1-Day Super Intensive Craft Beer Course</h3><span class="pill">1 day · ₹25,000</span></div>'
+                 '<p>In person in Pune, Delhi, Gurugram and Bengaluru. A full day in a working microbrewery, from raw materials to a finished pour, with a certificate.</p></article>'
+                 '<article class="course"><div class="c-head"><h3>1-Month Intensive Brewing Excellence Course</h3><span class="pill">1 month · ₹1,25,000</span></div>'
+                 '<p>48 contact hours of classes, lab work and hands-on brewing in partner microbreweries. At most 20 students. Separate prospectus on the website.</p></article>'
+                 '<article class="course note"><div class="c-head"><h3>Brewing Fundamentals Study Book</h3><span class="pill">PDF · ₹1,999</span></div>'
+                 '<p>Study material, not a course: the 1-month syllabus as 17 chapters of notes with a crossword each. Pay and we email it to you.</p></article>')
     return f"""<section class="page track">
   <div class="t-hero">{img(TRACK_SLOT[icon_title], "t-img")}<div class="t-over"><span class="eyebrow">Track</span><h2>{icon_title}</h2><p>{line}</p></div></div>
   <div class="courses">{courses}{extra}</div>

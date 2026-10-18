@@ -128,8 +128,11 @@ def enroll_href(course=None):
 NAV_ITEMS = [
     ("Courses", "courses.html", {"courses"}, [
         ("All courses", "courses.html"),
-        ("In-person courses", "in-person-brewing-courses-pune-delhi-gurugram-bengaluru.html"),
-        ("WSET exam prep", "courses.html#wset"),
+        ("In person: 1 day and 1 month", "courses.html?type=in-person"),
+        ("Online courses", "courses.html?type=online"),
+        ("Study book, ₹1,999", "brewing-fundamentals-and-beer-crosswords-bundle.html"),
+        ("Free courses and books", "courses.html?type=free"),
+        ("WSET exam prep", "courses.html?type=exam"),
         ("Corporate training", "for-companies.html"),
         ("Prospectus", "prospectus.html")]),
     ("Learn", "blog.html", {"blog", "styles", "resources", "podcast"}, [

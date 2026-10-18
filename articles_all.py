@@ -49,8 +49,8 @@ _TECH = {"ai", "data", "power", "bi", "tableau", "dashboard", "dashboards", "dig
 def authors(a):
     """Byline slugs for a guide, first author first."""
     plan = _PLAN.get(a["slug"], {})
-    if plan.get("by") == CHATTY:
-        return [CHATTY]
+    if plan.get("by") in (CHATTY, ANKUR):  # sole author, e.g. Ankur's own Study Book page
+        return [plan["by"]]
     words = set(a["slug"].split("-")) | set(a["h1"].lower().replace(",", " ").replace(":", " ").split())
     if _FOOD & words:
         return [ANKUR, ANU]

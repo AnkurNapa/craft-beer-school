@@ -24,10 +24,33 @@ def course_href(course_name):
 
 # ---- shared course card snippets -------------------------------------------
 # How each course is taught. Online unless listed: Brewing Fundamentals also
-# runs in person (the Rs 1,999 bundle in promos.py).
+# has an in-person version too.
 MODE = {"Brewing Fundamentals": "Both", "Winemaking": "Both", "Fortified Wine": "Both", "Winery Business": "Both",
         "New Product Development: Beer, Whisky and Wine": "Both"}
 MODE_LABEL = {"Online": "Online", "In person": "In person", "Both": "Online + in person"}
+
+
+# Course finder on courses.html: every card carries a type (online, in-person, study, free, exam)
+# and a subject, so readers can cut 30-odd cards down to the kind they want (Ankur, 18 Oct 2026).
+SUBJECTS = [("brewing", "Brewing"), ("tasting", "Tasting"), ("business", "Business and brand"),
+            ("data", "Data and AI"), ("spirits-wine", "Spirits and wine"), ("other-drinks", "Other drinks")]
+SUBJECT = {"Brewing Fundamentals": "brewing", "Advanced Brewing Science": "brewing", "Style Specialisation": "brewing",
+           "Safety in Brewing": "brewing", "Sensory Evaluation": "tasting", "Brewery Business Management": "business",
+           "Beer Branding &amp; Packaging": "business", "ESG in Craft Brewing": "business",
+           "New Product Development: Beer, Whisky and Wine": "business", "Digital Marketing for Breweries": "business",
+           "Brand Strategy and Positioning for Breweries": "business", "Rebranding a Brewery": "business",
+           "Naming and Trademarks for Drinks Brands": "business", "Taproom Marketing and Community": "business",
+           "AI for Craft Breweries": "data", "Digital Transformation Basics for Brewing": "data",
+           "Power BI and Tableau for Breweries": "data", "Craft Distilling": "spirits-wine", "Craft Gin Making": "spirits-wine",
+           "Winemaking": "spirits-wine", "Fortified Wine": "spirits-wine", "Winery Business": "spirits-wine",
+           "RTD Drinks: Alcoholic and Non-Alcoholic": "other-drinks", "Hop Water": "other-drinks",
+           "Hard Seltzer": "other-drinks", "Kombucha": "other-drinks", "Non-Alcoholic Beer": "other-drinks"}
+
+
+def course_types(name, price):
+    mode = MODE.get(name, "Online")
+    types = {"Online": "online", "In person": "in-person", "Both": "online in-person"}[mode]
+    return types + (" free" if price == "Free" else "")
 
 
 def mode_tag(mode):
@@ -36,7 +59,7 @@ def mode_tag(mode):
 
 def course(no, tag, dur, name, blurb, items, price, ph):
     lis = "".join(f"<li>{i}</li>" for i in items)
-    return f"""<article class="card course-card reveal">
+    return f"""<article class="card course-card reveal" data-type="{course_types(name, price)}" data-subject="{SUBJECT[name]}">
   <div class="top"><span class="course-no">{no} / {tag}</span><span class="course-dur">{dur}</span></div>
   <div class="card-body">
     {mode_tag(MODE.get(name, "Online"))}
@@ -436,35 +459,76 @@ ABOUT = banner("About","About Craft Beer School","We teach the whole bottle.",
 <section class="cta"><div class="wrap"><h2>Ready to go grain to glass?</h2><p>Pick a course, book a tasting, or ask us anything.</p><a href="contact.html#enroll" class="btn btn-amber" data-cta="talk-to-us">Talk to us</a></div></section>
 """
 
+CF_TYPE_LIST = [("all", "All"), ("in-person", "In person"), ("online", "Online"), ("study", "Study material"),
+                ("free", "Free"), ("exam", "Exam prep")]
+
+
+def _cf_buttons(key, items, first_label):
+    return "".join(f'<button type="button" class="cf-btn" data-k="{key}" data-v="{v}" aria-pressed="{str(i == 0).lower()}">{l}</button>'
+                   for i, (v, l) in enumerate([("all", first_label)] + list(items)))
+
+
+CF_TYPES = _cf_buttons("type", CF_TYPE_LIST[1:], "All types")
+CF_SUBJECTS = _cf_buttons("subject", SUBJECTS, "All subjects")
+# Reads and writes ?type=&subject= so menu links and shared links open a filtered view.
+CF_SCRIPT = """<script>(()=>{const q=new URLSearchParams(location.search),st={type:q.get('type')||'all',subject:q.get('subject')||'all'};
+const cards=[...document.querySelectorAll('main [data-type]')],groups=[...document.querySelectorAll('.cf-group')],out=document.querySelector('.cf-count');
+function run(){let n=0;cards.forEach(c=>{const ok=(st.type==='all'||c.dataset.type.split(' ').includes(st.type))&&(st.subject==='all'||c.dataset.subject===st.subject);c.hidden=!ok;if(ok)n++;});
+groups.forEach(g=>{const own=g.querySelectorAll('[data-type]');g.hidden=own.length>0&&![...own].some(c=>!c.hidden);});
+document.querySelectorAll('.cf-btn').forEach(b=>b.setAttribute('aria-pressed',st[b.dataset.k]===b.dataset.v));
+out.textContent=n?n+(n===1?' match':' matches'):'Nothing matches both. Try All subjects.';}
+document.querySelectorAll('.cf-btn').forEach(b=>b.addEventListener('click',()=>{st[b.dataset.k]=b.dataset.v;run();
+const u=new URL(location);['type','subject'].forEach(k=>st[k]==='all'?u.searchParams.delete(k):u.searchParams.set(k,st[k]));history.replaceState(null,'',u);}));
+run();if(q.get('type')||q.get('subject'))document.getElementById('course-filter').scrollIntoView();})()</script>"""
+
 # ============================================================================
 COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; business of brewing.",
     "From your first pint to your professional journey. Simple, clear and full of real-world learning, online and in person.") + f"""
-<section>
+
+<section id="course-filter" class="cf-sec"><div class="wrap">
+  <h2 class="cf-title">Find the right kind of course</h2>
+  <div class="cf" role="group" aria-label="Course type">{CF_TYPES}</div>
+  <div class="cf" role="group" aria-label="Subject">{CF_SUBJECTS}</div>
+  <p class="cf-count" aria-live="polite"></p>
+  <div class="cf-docs"><a href="assets/craft-beer-school-1-day-course.pdf" download data-cta="courses-prospectus-1day">[[download]] 1-day course prospectus</a><a href="assets/craft-beer-school-1-month-course.pdf" download data-cta="courses-prospectus-1month">[[download]] 1-month course prospectus</a><a href="prospectus.html" data-cta="courses-prospectus-all">All online courses prospectus</a></div>
+</div></section>
+
+<section class="tint cf-group" id="in-person">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">In person</span><h2>Brew in a real brewery.</h2><p class="lead">Hands-on courses in working microbreweries in Pune, Delhi, Gurugram and Bengaluru. <a href="in-person-brewing-courses-pune-delhi-gurugram-bengaluru.html" style="color:var(--blue);text-decoration:underline">Which one suits you</a>.</p></div>
+    <div class="grid-2">
+      <article class="card reveal" data-type="in-person" data-subject="brewing"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Day · 4 cities · ₹25,000</span><h3>1-Day Super Intensive Craft Beer Course</h3><p>A full day inside a working microbrewery, from raw materials to a finished pour: ingredients, mash, lauter, boil, fermentation, CIP and a guided tasting, with a certificate.</p><div class="foot"><a href="contact.html?course=1-Day%20Super%20Intensive%20Craft%20Beer%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-1day">Save your seat</a> <a href="assets/craft-beer-school-1-day-course.pdf" download class="link-arrow" data-cta="workshop-1day-prospectus">Prospectus</a></div></div></article>
+      <article class="card reveal" data-type="in-person" data-subject="brewing"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Month · 48 hours · ₹1,25,000</span><h3>1-Month Intensive Brewing Excellence Course</h3><p>Four weeks of classes, online study, lab work and hands-on brewing in partner microbreweries: fundamentals, brewhouse, fermentation and quality control, at most 20 students.</p><div class="foot"><a href="contact.html?course=1-Month%20Intensive%20Brewing%20Excellence%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-1month">Save your seat</a> <a href="assets/craft-beer-school-1-month-course.pdf" download class="link-arrow" data-cta="workshop-1month-prospectus">Prospectus</a></div></div></article>
+      <article class="card reveal" data-type="in-person" data-subject="brewing"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Day · At Home</span><h3>1-Day Home Visit Brewing Course</h3><p>Our brew master comes to your home with all the equipment and ingredients needed to brew your first batch, start to finish.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
+      <article class="card reveal" data-type="in-person" data-subject="tasting"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Day · Bengaluru · ₹4,999</span><h3>Professional Beer Tasting Day</h3><p>Taste the way brewers, judges and buyers do. A guided flight across the main styles, from lager, wheat and pale ale to IPA, stout, sour and Belgian, plus spiked samples of the common off-flavours. You learn the professional tasting method, write proper tasting notes and score every beer on an industry scoresheet. Beers, tasting kit and scoresheets included.</p><div class="foot"><a href="contact.html?course=Professional%20Beer%20Tasting%20Day#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Book a seat</a></div></div></article>
+      <article class="card reveal" data-type="in-person" data-subject="business"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">Half day · Bengaluru · Guided tour</span><h3>Brewery Business Tour</h3><p>For anyone thinking about a brewery or brewpub business. Walk a working Bengaluru brewery with a brewer who runs one: brewhouse, cellar, cold room and taproom. Then the questions every would-be founder asks, about cost, licences, staffing, space and what nobody tells you before you start.</p><div class="foot"><a href="contact.html?course=Brewery%20Business%20Tour#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
+      <article class="card reveal" data-type="in-person" data-subject="tasting"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">2 Hours · Tasting</span><h3>2-Hour Craft Beer Tasting Course</h3><p>A guided tasting flight in Bengaluru. Learn to read aroma, flavour and style in two focused hours.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="cf-group" id="study">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Study material</span><h2>Learn from the book.</h2><p class="lead">Not a course: notes you work through on your own. Pay and we email it to you.</p></div>
+    <div class="grid-2">
+      <article class="card reveal" data-type="study" data-subject="brewing"><div class="card-body"><span class="mode mode-online">Study material</span><span class="cat">PDF by email · ₹1,999</span><h3>Brewing Fundamentals Study Book</h3><p>The full syllabus of our 1-month course as 17 chapters of study notes, each with key numbers, check questions and a crossword. Every answer is at the back.</p><div class="foot"><a href="contact.html?course=Brewing%20Fundamentals%20Study%20Book#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="study-book-order">Order the book</a> <a href="brewing-fundamentals-and-beer-crosswords-bundle.html" class="link-arrow" data-cta="study-book-read">What's in it</a></div></div></article>
+      <article class="card reveal" data-type="study free" data-subject="brewing"><div class="card-body"><span class="mode mode-both">Free</span><span class="cat">Printable PDF · Free</span><h3>Beer Crosswords</h3><p>103 crosswords on ingredients, the brewhouse, styles, tasting and beer history, with a puzzle for every lesson of our courses and answers at the back.</p><div class="foot"><a href="resources.html" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="study-crosswords">Get it free</a></div></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="cf-group" id="online">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Online courses</span><h2>{COURSE_COUNT_WORD.capitalize()} pours from grain to glass.</h2><div style="margin-top:1.2rem"><a href="prospectus.html" class="btn btn-amber" data-cta="prospectus-download">Read the prospectus</a></div></div>
     <div class="grid-3">{"".join(COURSE_CARDS)}</div>
   </div>
 </section>
 
-<section id="wset" style="padding-block:2rem 0">
-  <div class="wrap"><aside class="cta-inline"><div><span class="mode mode-both">Online + in person</span><h3>Preparing for a WSET Beer exam?</h3><p>We prepare candidates for every WSET Beer level, in group cohorts or one-to-one, including last-minute in-person prep for Level 1 in Pune, Delhi, Gurugram and Bengaluru: the syllabus, guided tastings with the systematic approach, and mock papers. You sit the exam itself through a WSET Approved Programme Provider. <a href="wset-level-1-beer-last-minute-training.html" style="color:var(--blue);text-decoration:underline">Exam soon? Read about last-minute prep</a>.</p></div><a class="btn btn-amber" href="contact.html?course=WSET%20Beer%20exam%20prep#enroll" data-cta="courses-wset">Ask about exam prep</a></aside></div>
+<section id="wset" class="cf-group" style="padding-block:2rem 0">
+  <div class="wrap"><aside class="cta-inline" data-type="exam online in-person" data-subject="tasting"><div><span class="mode mode-both">Online + in person</span><h3>Preparing for a WSET Beer exam?</h3><p>We prepare candidates for every WSET Beer level, in group cohorts or one-to-one, including last-minute in-person prep for Level 1 in Pune, Delhi, Gurugram and Bengaluru: the syllabus, guided tastings with the systematic approach, and mock papers. You sit the exam itself through a WSET Approved Programme Provider. <a href="wset-level-1-beer-last-minute-training.html" style="color:var(--blue);text-decoration:underline">Exam soon? Read about last-minute prep</a>.</p></div><a class="btn btn-amber" href="contact.html?course=WSET%20Beer%20exam%20prep#enroll" data-cta="courses-wset">Ask about exam prep</a></aside></div>
 </section>
 <section style="padding-block:2rem 0">
   <div class="wrap"><aside class="cta-inline"><div><h3>Training a whole team, or need more than a course?</h3><p>Brewery consultancy, corporate training for beverage GCCs, hiring support, brand and digital marketing, market entry into India and digital transformation.</p></div><a class="btn btn-amber" href="for-companies.html" data-cta="courses-companies">Corporate services</a></aside></div>
-</section>
-<section class="tint" id="in-person">
-  <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">In person</span><h2>Hands-on workshops &amp; tastings.</h2><p class="lead">Prefer to learn at the bench? Join us in the room in Pune, Delhi, Gurugram or Bengaluru. <a href="in-person-brewing-courses-pune-delhi-gurugram-bengaluru.html" style="color:var(--blue);text-decoration:underline">Which course suits you</a>.</p></div>
-    <div class="grid-2">
-      <article class="card reveal"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Day · Intensive · 4 cities</span><h3>1-Day Super Intensive Craft Beer Course</h3><p>Step into a real microbrewery for a full day, from raw materials to a finished pour, condensed into one focused classroom-plus-brewery session.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Month · Advanced · 4 cities</span><h3>1-Month Advanced Craft Beer Brewing Course</h3><p>Homebrewer to beer founder, an advanced, hands-on programme with focused mentorship over four weeks.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">In person · 4 cities · ₹1,999</span><h3>Brewing Fundamentals + Beer Crosswords book</h3><p>The Brewing Fundamentals syllabus taught in a room, from mill to glass, plus our 134-page Beer Crosswords book with 103 puzzles and answers. Pune, Delhi, Gurugram and Bengaluru.</p><div class="foot"><a href="contact.html?course=Brewing%20Fundamentals#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-bundle">Save your seat</a> <a href="brewing-fundamentals-and-beer-crosswords-bundle.html" class="link-arrow" data-cta="workshop-bundle-read">What's in it</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Day · At Home</span><h3>1-Day Home Visit Brewing Course</h3><p>Our brew master comes to your home with all the equipment and ingredients needed to brew your first batch, start to finish.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Day · Bengaluru · ₹4,999</span><h3>Professional Beer Tasting Day</h3><p>Taste the way brewers, judges and buyers do. A guided flight across the main styles, from lager, wheat and pale ale to IPA, stout, sour and Belgian, plus spiked samples of the common off-flavours. You learn the professional tasting method, write proper tasting notes and score every beer on an industry scoresheet. Beers, tasting kit and scoresheets included.</p><div class="foot"><a href="contact.html?course=Professional%20Beer%20Tasting%20Day#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Book a seat</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">Half day · Bengaluru · Guided tour</span><h3>Brewery Business Tour</h3><p>For anyone thinking about a brewery or brewpub business. Walk a working Bengaluru brewery with a brewer who runs one: brewhouse, cellar, cold room and taproom. Then the questions every would-be founder asks, about cost, licences, staffing, space and what nobody tells you before you start.</p><div class="foot"><a href="contact.html?course=Brewery%20Business%20Tour#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">2 Hours · Tasting</span><h3>2-Hour Craft Beer Tasting Course</h3><p>A guided tasting flight in Bengaluru. Learn to read aroma, flavour and style in two focused hours.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a></div></div></article>
-    </div>
-  </div>
 </section>
 
 <section>
@@ -482,6 +546,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
 
 <section class="cta"><div class="wrap"><h2>Not sure which course fits?</h2><p>Tell us where you are and where you want to go. We'll point you to the right pour.</p><a href="courses.html#finder" class="btn btn-amber" data-cta="get-a-recommendation">Find my course</a></div></section>
 """
+COURSES += CF_SCRIPT
 
 # ============================================================================
 RESOURCES = banner("Resources","Free beer education","Start learning today, on the house.",
