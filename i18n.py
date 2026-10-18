@@ -1,6 +1,6 @@
-"""Hindi, Marathi, Telugu and Kannada versions of the site.
+"""Hindi, Marathi, Telugu, Kannada, Malayalam and Nepali versions of the site.
 
-Run after build.py:   python3 i18n.py build     (writes hi/, mr/, te/, kn/)
+Run after build.py:   python3 i18n.py build     (writes hi/, mr/, te/, kn/, ml/, ne/)
                       python3 i18n.py todo      (writes translation work packs)
                       python3 i18n.py merge     (pulls finished packs into memory)
 
@@ -24,8 +24,10 @@ from bs4 import BeautifulSoup
 ROOT = pathlib.Path(__file__).parent
 I18N = ROOT / "content" / "i18n"
 SITE = "https://craftbeerschool.in"
-FONTS = {"hi": "Noto+Sans+Devanagari", "mr": "Noto+Sans+Devanagari", "te": "Noto+Sans+Telugu", "kn": "Noto+Sans+Kannada"}
-LANGS = {"hi": ("हिन्दी", "Hindi"), "mr": ("मराठी", "Marathi"), "te": ("తెలుగు", "Telugu"), "kn": ("ಕನ್ನಡ", "Kannada")}
+FONTS = {"hi": "Noto+Sans+Devanagari", "mr": "Noto+Sans+Devanagari", "te": "Noto+Sans+Telugu", "kn": "Noto+Sans+Kannada",
+         "ml": "Noto+Sans+Malayalam", "ne": "Noto+Sans+Devanagari"}
+LANGS = {"hi": ("हिन्दी", "Hindi"), "mr": ("मराठी", "Marathi"), "te": ("తెలుగు", "Telugu"), "kn": ("ಕನ್ನಡ", "Kannada"),
+         "ml": ("മലയാളം", "Malayalam"), "ne": ("नेपाली", "Nepali")}
 BLOCK = {"h1", "h2", "h3", "h4", "h5", "p", "li", "dt", "dd", "summary", "figcaption", "th", "td", "label",
          "option", "button", "blockquote", "title"}
 SKIP = ["admin.html", "admin_template.html"]
@@ -128,16 +130,14 @@ def _switcher(name, current, ready_by_lang):
             return f"{lang}/{name}"
         return f"../{lang}/{name}"
     items = [("en", "English")] + [(l, v[0]) for l, v in LANGS.items()]
-    links = []
-    for l, label in items:
-        avail = l == "en" or name in ready_by_lang.get(l, set())
-        if l == current:
-            links.append(f'<span class="lang-on" lang="{l}">{label}</span>')
-        elif avail:
-            links.append(f'<a href="{href(l)}" lang="{l}" hreflang="{l}">{label}</a>')
-    if len(links) < 2:
+    links = [f'<a href="{href(l)}" lang="{l}" hreflang="{l}">{label}</a>' for l, label in items
+             if l != current and (l == "en" or name in ready_by_lang.get(l, set()))]
+    if not links:
         return ""
-    return f'<nav class="lang-switch" aria-label="Language">{"".join(links)}</nav>'
+    # A native dropdown keeps the header the same width however many languages there are.
+    here = dict(items)[current]
+    return (f'<details class="lang-switch"><summary lang="{current}" aria-label="Language: {here}">{here}</summary>'
+            f'<nav aria-label="Language">{"".join(links)}</nav></details>')
 
 
 def _hreflang(name, ready_by_lang):
@@ -152,7 +152,7 @@ def _insert_head_and_switcher(html, name, current, ready_by_lang):
     html = re.sub(r'<link rel="alternate" hreflang=[^>]*>', "", html)
     html = html.replace("</head>", head + "</head>", 1)
     sw = _switcher(name, current, ready_by_lang)
-    html = re.sub(r'<nav class="lang-switch"[^>]*>.*?</nav>', "", html, flags=re.S)
+    html = re.sub(r'<(nav|details) class="lang-switch"[^>]*>.*?</\1>', "", html, flags=re.S)
     if sw:
         html = html.replace('<div class="navlinks" id="navlinks">', '<div class="navlinks" id="navlinks">' + sw, 1)
     return html

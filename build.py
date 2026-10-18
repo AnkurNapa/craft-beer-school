@@ -590,7 +590,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # Hindi, Marathi, Telugu and Kannada pages, regenerated from the English
+    # Hindi, Marathi, Telugu, Kannada, Malayalam and Nepali pages, regenerated from the English
     # build and the translation memories in content/i18n/.
     import i18n
     i18n.build()

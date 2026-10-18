@@ -100,7 +100,7 @@ check(sitemap.lstrip().startswith("<?xml"), "sitemap.xml: missing XML declaratio
 check('xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"' in sitemap,
       "sitemap.xml: wrong or missing namespace")
 locs = re.findall(r"<loc>([^<]+)</loc>", sitemap)
-LANG_DIRS = ("hi/", "mr/", "te/", "kn/")  # translated copies built by i18n.py
+LANG_DIRS = ("hi/", "mr/", "te/", "kn/", "ml/", "ne/")  # translated copies built by i18n.py
 en_locs = [l for l in locs if not l.replace(seo.SITE_URL, "").lstrip("/").startswith(LANG_DIRS)]
 check(len(en_locs) == len(PAGES), f"sitemap lists {len(en_locs)} English urls for {len(PAGES)} pages")
 for loc in locs:
