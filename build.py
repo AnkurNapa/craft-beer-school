@@ -14,6 +14,7 @@ import re
 from urllib.parse import quote
 import article_render
 import course_pages
+import inperson_pages
 import articles_all
 import pages_a
 import promos
@@ -516,6 +517,7 @@ PAGES = {
 
 
 PAGES.update(course_pages.pages())
+PAGES.update(inperson_pages.pages())
 COURSE_SLUGS = set(course_pages.pages())
 # Every course page ends with the free guides that already sell it.
 for _c in pages_a.COURSE_DATA:
