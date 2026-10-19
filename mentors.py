@@ -158,17 +158,14 @@ def _person(m, label, action):
 
 def instructors(course_slug, course_name):
     """Instructor and point-of-contact cards for a course page. Instructors link to
-    LinkedIn where we have it; the point of contact opens WhatsApp about this course."""
+    their profile; the point of contact opens WhatsApp about this course."""
     by_slug = {m["slug"]: m for m in MENTORS}
     team = [m for m in MENTORS if any(s == course_slug for s, _ in m["courses"])]
     cards_html = []
     for m in team:
         if m["slug"] == CONTACT:
             continue  # shown once below, as instructor and contact
-        action = (f'<a href="{m["linkedin"]}" target="_blank" rel="noopener" class="btn btn-ghost person-btn" '
-                  f'data-cta="course-instructor-linkedin">Connect on LinkedIn</a>' if m["linkedin"]
-                  else f'<a href="{m["slug"]}" class="link-arrow">Full profile</a>')
-        cards_html.append(_person(m, "Instructor", action))
+        cards_html.append(_person(m, "Instructor", f'<a href="{m["slug"]}" class="link-arrow">Full profile</a>'))
     c = by_slug[CONTACT]
     label = "Instructor and point of contact" if c in team else "Point of contact"
     from urllib.parse import quote
