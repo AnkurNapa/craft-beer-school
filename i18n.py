@@ -209,7 +209,7 @@ def build():
     # Translated pages join the sitemap.
     sm = ROOT / "sitemap.xml"
     if sm.exists():
-        xml = re.sub(r"\s*<url>\s*<loc>[^<]*/(?:hi|mr|te|kn)/[^<]*</loc>.*?</url>", "", sm.read_text(), flags=re.S)
+        xml = re.sub(r"\s*<url>\s*<loc>[^<]*/(?:" + "|".join(LANGS) + r")/[^<]*</loc>.*?</url>", "", sm.read_text(), flags=re.S)
         extra = "".join(f"\n  <url>\n    <loc>{SITE}/{l}/{n}</loc>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>"
                         for l in LANGS for n in sorted(ready[l]))
         sm.write_text(xml.replace("</urlset>", extra + "\n</urlset>", 1))
