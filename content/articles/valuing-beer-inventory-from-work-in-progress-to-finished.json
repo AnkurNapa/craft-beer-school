@@ -1,0 +1,63 @@
+{
+ "slug": "valuing-beer-inventory-from-work-in-progress-to-finished",
+ "cat": "Beer for teams",
+ "h1": "Valuing beer inventory from work in progress to finished goods",
+ "title": "Valuing Beer Inventory, WIP to Finished | Craft Beer School",
+ "desc": "How beer inventory moves from raw materials through tanks to finished goods, where costs attach at each stage and the traps finance teams meet.",
+ "teaser": "A tank full of fermenting beer is worth something. Exactly how much is a question finance and brewing often answer differently.",
+ "standfirst": "Beer spends weeks as work in progress before it becomes something you can sell. For finance teams the hard part of inventory is that middle stretch: litres in tanks, losses not yet known and excise not yet due. This guide walks through each stage and the questions to ask.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The stages of beer inventory",
+   "<p>Beer inventory moves through four broad stages:</p><ol><li><strong>Raw and packing materials.</strong> Malt, adjuncts, hops, yeast, water treatment chemicals, bottles, cans, crowns, labels and cartons.</li><li><strong>Wort and fermenting beer.</strong> Once malt is milled and mashed it becomes wort, then beer in fermentation vessels.</li><li><strong>Maturing and bright beer.</strong> Beer conditioning in lager tanks, then filtered or clarified beer in bright beer tanks waiting to be packed.</li><li><strong>Finished goods.</strong> Packed beer in bottles, cans or kegs, in the brewery warehouse, in transit or at depots.</li></ol><p>Stages two and three are work in progress (WIP). Planning how beer moves through them is covered in <a href=\"beer-production-planning-basics.html\">beer production planning basics</a>.</p>"
+  ],
+  [
+   "How cost builds up",
+   "<p>Under standard cost accounting, inventory is valued at the cost of getting it to its current condition and location. For beer that means:</p><ul><li>Raw materials consumed in the brew: malt, adjuncts, hops and so on.</li><li>Conversion costs: utilities such as steam, power and refrigeration, direct labour and a share of production overheads.</li><li>Packaging materials, added only when the beer is packed.</li></ul><p>A litre of beer in a fermenter carries material and brewhouse conversion cost. The same litre in a bright beer tank has added weeks of refrigeration and the cost of filtration. In a bottle it carries glass, crown, label and packaging hall cost too. How your company allocates overheads across these stages is a matter of accounting policy, so agree it with your controller and keep it consistent. Our guide to <a href=\"beer-cost-of-goods-explained.html\">beer cost of goods</a> breaks the lines down.</p>"
+  ],
+  [
+   "Measuring what is in the tanks",
+   "<p>You cannot count beer in a tank the way you count cartons. Volume comes from tank level readings, flow meters or calibrated dip charts. Each method has an error band. A small percentage error on a large lager tank is a lot of litres.</p><p>WIP is also changing while you measure it. Fermenting beer loses volume as yeast settles and is removed. Beer is transferred between tanks, which leaves some behind in pipes and tank bottoms. Month-end stock takes should happen at a consistent point, ideally with transfers paused. They should be signed off by both brewing and finance.</p><p>On the floor the detail that matters is where the volume reading is taken. A bright beer tank level read with foam on top will overstate the stock. Brewers know to let it settle. Auditors may not.</p>"
+  ],
+  [
+   "Losses and when to recognise them",
+   "<p>Beer is lost at every stage: wort left with spent grain and hop residue, beer left with yeast, beer in filter changeovers, fills that are short or overfilled, bottles broken on the line. Some of this loss is normal and expected. Some is a process problem.</p><p>For valuation, normal losses are usually absorbed into the cost of the good beer that survives. Abnormal losses, such as a contaminated batch dumped or a tank lost to a valve failure, are typically written off when they happen rather than buried in the cost of other beer. Agree a written threshold for what counts as abnormal. Without one, every bad month gets argued from scratch.</p>"
+  ],
+  [
+   "Excise and bonded stock",
+   "<p>Alcohol in India is taxed by each state. In many states excise becomes payable at the point beer is removed from the brewery or bonded warehouse, not when it is brewed. Stock held under bond, with duty not yet paid, is valued without that duty. Stock that has had duty paid carries it. The rules on when duty falls due, how stock is reconciled with the excise department and how losses are allowed vary by state and change over time, so work with your excise and tax colleagues on the current position.</p><p>Excise officials often reconcile stock themselves. Keeping production, finance and excise records aligned saves pain at audit time.</p>"
+  ],
+  [
+   "Finished goods and shelf life",
+   "<p>Packed beer has a best-before date and goes stale faster in heat. Finished goods near the end of their life may need to be written down if they cannot be sold at full value. Ageing reports by packaging date, not just by receipt date, show where that risk is building.</p><p>Bright beer also has a shelf life of its own: beer that sits too long before packing loses quality. Our guide to <a href=\"bright-beer-tank-management.html\">bright beer tank management</a> covers how breweries keep that moving.</p><p>The gap most finance teams feel is in reading the brewing side: what a normal loss looks like at each stage, how long beer should spend in each tank and which numbers should trigger a question.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is fermenting beer counted as inventory?",
+   "Yes. Beer in fermentation and maturation tanks is work in progress and is valued at the cost incurred to that point under your accounting policy."
+  ],
+  [
+   "How is beer in a tank measured for stock?",
+   "Through level readings, calibrated dip charts or flow meters. Each has an error band, so stock takes should be done consistently and signed off by brewing and finance."
+  ],
+  [
+   "Does inventory value include excise?",
+   "Only once duty has been paid. Beer held under bond is valued without duty. The rules vary by state, so confirm with your excise team."
+  ]
+ ],
+ "cta": {
+  "title": "Close the gap between the tank and the balance sheet",
+  "body": "Our Brewing and distilling operations module shows finance teams how beer moves through tanks, where losses occur and what a normal month looks like, built around your team's own sites and portfolio.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "bright-beer-tank-management",
+  "beer-production-planning-basics",
+  "beer-cost-of-goods-explained"
+ ]
+}

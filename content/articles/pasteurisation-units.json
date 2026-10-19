@@ -3,8 +3,8 @@
  "cat": "Brewing science",
  "h1": "Pasteurisation units explained",
  "title": "Pasteurisation Units Explained | Craft Beer School",
- "desc": "What a pasteurisation unit actually measures, how tunnel and flash pasteurisation differ, and how to avoid overcooking the beer.",
- "teaser": "A pasteurisation unit is not a temperature or a time on its own. It is the combined effect of both, and getting the balance wrong shows up as flat, stale beer.",
+ "desc": "What a pasteurisation unit actually measures, how tunnel and flash pasteurisation differ and how to avoid overcooking the beer.",
+ "teaser": "A pasteurisation unit is not a temperature or a time on its own. It is the combined effect of both. Getting the balance wrong shows up as flat, stale beer.",
  "standfirst": "Pasteurisation extends shelf life by killing spoilage organisms and residual yeast, but every extra pasteurisation unit beyond what is needed costs the beer some of its fresh character.",
  "read": "3 min",
  "updated": "2024-12-22",
@@ -28,7 +28,7 @@
   ],
   [
    "Getting the target right",
-   "<p>Most packaged beer targets roughly 15 to 25 PU, enough to meaningfully extend shelf stability without cooking out fresh hop character or malt flavour. Overshooting the target produces a flat, cardboard-adjacent note similar to other forms of thermal staling, covered further under <a href=\"beer-staling-chemistry.html\">the chemistry of stale beer</a>. Undershooting defeats the point of pasteurising at all, leaving spoilage risk largely unaddressed.</p><p>Verification through periodic sensory and shelf life trials, alongside the temperature logging already mentioned, closes the loop on whether a chosen PU target is actually achieving what it is meant to. A brewery that sets a target once and never checks it against real outcomes is trusting a calculation rather than confirming it against the beer people are actually drinking months later.</p><p>Ultimately, pasteurisation is one tool among several for extending shelf stability, alongside low oxygen packaging and a controlled cold chain, and the right combination depends on a brewery's actual distribution footprint rather than a single industry default setting.</p>"
+   "<p>Most packaged beer targets roughly 15 to 25 PU, enough to meaningfully extend shelf stability without cooking out fresh hop character or malt flavour. Overshooting the target produces a flat, cardboard-adjacent note similar to other forms of thermal staling, covered further under <a href=\"beer-staling-chemistry.html\">the chemistry of stale beer</a>. Undershooting defeats the point of pasteurising at all, leaving spoilage risk largely unaddressed.</p><p>Verification through periodic sensory and shelf life trials, alongside the temperature logging already mentioned, closes the loop on whether a chosen PU target is actually achieving what it is meant to. A brewery that sets a target once and never checks it against real outcomes is trusting a calculation rather than confirming it against the beer people are actually drinking months later.</p><p>Ultimately, pasteurisation is one tool among several for extending shelf stability, alongside low oxygen packaging and a controlled cold chain. The right combination depends on a brewery's actual distribution footprint rather than a single industry default setting.</p>"
   ]
  ],
  "faqs": [
@@ -51,7 +51,7 @@
  ],
  "cta": {
   "title": "Ready to stop guessing and start measuring?",
-  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to calculate and target the right pasteurisation unit for a given package and distribution chain, beyond the formula alone. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to calculate and target the right pasteurisation unit for a given package and distribution chain, beyond the formula alone. Live weekend sessions, weekly assignments, recordings if you miss one and a certificate at the end.",
   "href": "advanced-brewing-science-course.html",
   "label": "See the full syllabus"
  },

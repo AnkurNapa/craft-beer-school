@@ -1,0 +1,67 @@
+{
+ "slug": "correcting-refractometer-readings-once-fermentation-has",
+ "cat": "Brewing science",
+ "h1": "Correcting refractometer readings once fermentation has started",
+ "title": "Correcting Refractometer Readings | Craft Beer School",
+ "desc": "Why a refractometer reads wrong once alcohol is present, how to correct readings during fermentation and when to reach for a hydrometer instead.",
+ "teaser": "Your refractometer says the beer is stuck at 1.025. It probably is not. Alcohol is fooling it.",
+ "standfirst": "A refractometer is brilliant on brew day: two drops of wort, a quick look, done. Once fermentation starts, alcohol bends the reading and makes a healthy beer look stuck. A simple correction fixes it.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "How a refractometer works",
+   "<p>A refractometer measures how much light bends as it passes through a liquid. Sugar dissolved in water bends light more, so the instrument can read sugar content from a few drops. Most brewing refractometers show Brix, a scale that measures the sugar content of a sucrose solution.</p><p>Wort is not pure sucrose solution, so its Brix reading is a little off from its true gravity. Brewers use a wort correction factor, commonly around 1.04, to convert. Divide the Brix reading by 1.04 to estimate degrees Plato, which is close to the brewing gravity scale. Your own refractometer may need a slightly different factor. Check it against a hydrometer on a few brews.</p>"
+  ],
+  [
+   "Why alcohol throws it off",
+   "<p>Alcohol also bends light, more strongly than water does. Once yeast starts converting sugar into alcohol, the refractometer sees a mix of remaining sugar and new alcohol. It cannot tell them apart. The result is a reading that is much higher than the real gravity.</p><p>That is why a beer that has fermented well can look stuck if you read the refractometer at face value. The hydrometer, which measures density, is not fooled in the same way. Our guide to <a href=\"how-to-use-a-hydrometer.html\">how to use a hydrometer</a> covers that instrument.</p>"
+  ],
+  [
+   "The correction, with a worked example",
+   "<p>Correction formulas use two readings: the Brix of the original wort, taken before pitching, plus the current Brix. From those they estimate the real current gravity. The commonly used formulas are built into most free brewing calculators and apps, so you rarely need to do the maths by hand.</p><p>A worked example. Your wort read 12.4 Brix on brew day, about 1.048 once the 1.04 correction factor is applied. A week later the refractometer shows 6.5 Brix. Read naively, that looks like about 1.025, which would suggest a stuck fermentation. Put both readings through a correction formula and the real gravity comes out at about 1.013. The beer is close to finished, at roughly 4.7% ABV.</p><p>Without the original reading the correction is impossible. Write down the brew day Brix on every batch.</p>"
+  ],
+  [
+   "Getting a good reading in the first place",
+   "<p>The correction can only be as good as the readings you feed it. A few habits make them reliable:</p><ul><li>Zero the refractometer with distilled water at around 20 °C before each session.</li><li>Use a refractometer with automatic temperature compensation. Even so, let the sample sit on the prism for 30 seconds so it reaches the instrument's temperature.</li><li>Cool hot wort samples first. A drop of near boiling wort evaporates as you look at it and reads high.</li><li>Clean and dry the prism between samples.</li><li>Shake a fermenting sample in a small cup to release CO2 bubbles before reading.</li></ul><p>The detail that catches people in a warm Indian kitchen: a few drops of wort on a prism at 32 °C evaporate fast. Close the cover plate as soon as the sample is on and read promptly.</p>"
+  ],
+  [
+   "How accurate is the correction?",
+   "<p>Correction formulas are estimates. They were built from data on typical worts and yeasts. Most are good to within a couple of gravity points for normal strength beers, which is fine for checking progress. They become less reliable for very strong beers, beers with lots of sugar adjuncts and beers with unusual ingredients such as fruit or lactose.</p><p>Treat a corrected refractometer reading as a progress check, not a final answer. Decide that fermentation is finished from a hydrometer or a steady reading over three days.</p>"
+  ],
+  [
+   "Refractometer, hydrometer or digital sensor",
+   "<p>Each tool has a job. The refractometer is quick and needs only a few drops, ideal for checking wort gravity during lautering and boiling. The hydrometer is best for final gravity and for anything where accuracy matters. Floating digital sensors record gravity continuously and are good for seeing a fermentation's shape. Their accuracy also depends on calibration. Our guide to <a href=\"digital-hydrometers-and-fermentation-sensors.html\">digital hydrometers and fermentation sensors</a> compares them.</p><p>Knowing which number to trust and when is a basic brewing skill. It is also the kind of thing that is far easier to learn by doing alongside someone who can check your readings.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does my refractometer show a high reading after fermentation?",
+   "Alcohol bends light more than water does, so the refractometer reads higher than the real gravity. You need a correction formula."
+  ],
+  [
+   "What is the wort correction factor for a refractometer?",
+   "Commonly around 1.04. Divide the Brix reading by it to estimate degrees Plato. Check yours against a hydrometer."
+  ],
+  [
+   "Can I correct a refractometer reading without the original gravity?",
+   "No. Correction formulas need both the original wort reading and the current reading."
+  ],
+  [
+   "Should I use a refractometer for final gravity?",
+   "Use it for progress checks only. Confirm final gravity with a hydrometer, ideally with steady readings over three days."
+  ]
+ ],
+ "cta": {
+  "title": "Take readings you can trust, every batch",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It covers gravity, fermentation, sanitation and recipe basics, with a brewer checking your work, so you stop guessing whether your beer is done.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "how-to-use-a-hydrometer",
+  "original-gravity-final-gravity-explained",
+  "digital-hydrometers-and-fermentation-sensors"
+ ]
+}

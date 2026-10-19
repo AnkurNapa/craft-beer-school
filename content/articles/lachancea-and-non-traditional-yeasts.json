@@ -1,0 +1,71 @@
+{
+ "slug": "lachancea-and-non-traditional-yeasts",
+ "cat": "Ingredients",
+ "h1": "Lachancea and other non-traditional yeasts for sour beer",
+ "title": "Lachancea and Other Sour Yeasts | Craft Beer School",
+ "desc": "How Lachancea and other non-traditional yeasts make sour beer without bacteria, what they taste like and where they fit in a brewery.",
+ "teaser": "A yeast that makes lactic acid and alcohol in one tank. Lachancea changed how a lot of breweries think about sour beer.",
+ "standfirst": "For years a sour beer meant bacteria: a kettle sour with Lactobacillus or a long barrel programme. Yeasts such as Lachancea now give brewers another route. Here is how they work and what the trade-offs are.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A yeast that sours",
+   "<p>Lachancea is a genus of yeast that was studied first in winemaking, where some strains were used to raise acidity in wines from hot regions. The species brewers talk about most is <em>Lachancea thermotolerans</em>. Unlike ordinary brewing yeast, some strains produce lactic acid alongside ethanol from the same sugars.</p><p>That means a single pitch can sour and ferment a beer in one vessel. There is no separate kettle souring step and no lactic bacteria to manage in the brewhouse. Commercial dry strains sold for brewing, such as Lallemand's Philly Sour, made this practical for production breweries.</p>"
+  ],
+  [
+   "How the fermentation runs",
+   "<p>Most of the lactic acid is made early, while plenty of simple sugar is available. As fermentation continues, the yeast shifts towards ethanol. Brewers commonly report a finished pH in the low to mid 3s, depending on the strain, the wort sugars and the temperature.</p><p>Because it is a yeast and not a bacterium, Lachancea is not held back by hop bitterness in the way Lactobacillus is. That opens up sour beers with real hop character, something that is awkward in a kettle sour where the wort must be almost unhopped during souring. Some brewers co-pitch or follow with a Saccharomyces strain once the target acidity is reached, to finish attenuation or add a familiar ester profile.</p>"
+  ],
+  [
+   "What it tastes like",
+   "<p>The acidity is clean and lactic, closer to yoghurt and lemon than to vinegar. Many strains add light stone fruit or pear notes. It suits fruited sours, gose, Berliner weisse style beers and light tart beers for hot weather. If you are new to the family, our <a href=\"sour-beer-for-beginners.html\">beginner's guide to sour beer</a> covers the styles.</p><p>The acid level is less adjustable than in a kettle sour. With Lactobacillus you can stop at pH 3.4 by boiling. With Lachancea the yeast decides, within limits set by your wort and temperature. Trial batches are how you learn a strain.</p>"
+  ],
+  [
+   "Other non-traditional yeasts worth knowing",
+   "<ul><li><strong>Brettanomyces.</strong> Slow, funky, barnyard and tropical notes. Not a souring yeast on its own, but central to mixed fermentation beers.</li><li><strong>Kveik.</strong> Norwegian farmhouse Saccharomyces strains that ferment cleanly at high temperatures, useful in Indian heat but not sour.</li><li><strong>Torulaspora delbrueckii.</strong> Borrowed from wine, used for fruity, low-attenuation beers.</li><li><strong>Pichia kluyveri.</strong> Makes aroma with very little alcohol, studied for low and no alcohol beer.</li><li><strong>Thiol-releasing yeast.</strong> Engineered or selected Saccharomyces that release tropical thiols. See our guide to <a href=\"thiolized-yeast-explained.html\">thiolized yeast</a>.</li></ul>"
+  ],
+  [
+   "Cellar hygiene still matters",
+   "<p>Lachancea is not a beer spoiler in the way Lactobacillus or Pediococcus can be, but it is still a different organism living in your tanks. Treat it like any non-house culture. Keep hoses and gaskets that touch it labelled, run your full caustic and acid clean afterwards and do not harvest it into the same brinks as your house ale yeast. Breweries that run sours alongside clean beers usually keep separate soft parts.</p>"
+  ],
+  [
+   "Running a first trial batch",
+   "<p>Start with a simple, low-hopped pale wort around 1.040 to 1.045 so you can taste what the yeast itself does. Follow the supplier's pitch rate and temperature range. Log pH and gravity twice a day. You are looking for three things: how fast the pH falls, where it settles and how far the gravity drops once the acid phase is over.</p><p>Then change one thing at a time. A batch with more simple sugar, such as fruit or a little dextrose added early, often gives a lower pH. A cooler or warmer fermentation changes the balance of acid and esters. Keep notes, because the second and third batches teach you more than the first. In Indian heat, hold fermentation temperature deliberately rather than letting the ambient room decide.</p>"
+  ],
+  [
+   "Where it fits in a brewery",
+   "<p>For a brewpub that wants a sour on tap without a dedicated souring tank or a long barrel programme, a souring yeast is often the simplest way in. It keeps the brewhouse clean of bacteria and the schedule close to a normal ale. For a brewery chasing complex, aged sour character, it is a tool alongside bacteria and Brettanomyces, not a replacement.</p><p>Choosing between these routes means understanding how yeast metabolism, acidity and hop compounds interact. That chemistry is where a sour programme either holds together or produces a beer that tastes different every batch.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does Lachancea need a kettle souring step?",
+   "No. Suitable strains make lactic acid and alcohol during the same fermentation, so the beer sours in the fermenter."
+  ],
+  [
+   "Can I hop a beer fermented with Lachancea?",
+   "Yes. As a yeast it is not inhibited by hop bitterness the way Lactobacillus is, which makes hoppy sours easier."
+  ],
+  [
+   "Will Lachancea infect my other beers?",
+   "It is not considered a typical beer spoiler, but treat it as a separate culture with full cleaning and separate soft parts where possible."
+  ],
+  [
+   "How sour does it get?",
+   "Brewers commonly see a finished pH in the low to mid 3s, varying with strain, wort sugars and temperature. Trial batches tell you what your recipe does."
+  ]
+ ],
+ "cta": {
+  "title": "Learn the science behind sour fermentation",
+  "body": "Advanced Brewing Science covers yeast and bacterial metabolism, acidity, hop chemistry and fermentation control over 6 weeks of live weekend classes.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "thiolized-yeast-explained",
+  "kettle-souring-at-home",
+  "sour-beer-for-beginners"
+ ]
+}

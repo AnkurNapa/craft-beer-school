@@ -1,0 +1,75 @@
+{
+ "slug": "forecasting-beer-volumes-for-a-new-brewpub-before-it-opens",
+ "cat": "Business",
+ "h1": "Forecasting beer volumes for a new brewpub before it opens",
+ "title": "Forecasting brewpub beer volumes | Craft Beer School",
+ "desc": "How to forecast beer volumes for a new Indian brewpub before opening: build from seats and covers, apply seasonality and ramp-up and check brewhouse capacity.",
+ "teaser": "You cannot look up last year's sales for a brewpub that does not exist yet. You can build a forecast you can defend.",
+ "standfirst": "Every plan for a new brewpub rests on one number: how many litres of beer it will sell. Here is how we build that forecast from the ground up, so it can be checked, argued with and improved once the doors open.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a top-down guess fails",
+   "<p>Founders often start with a round number, such as a few thousand litres a month, because it sounds right or because another brewpub claims it. That number then sizes the brewhouse, the fermenters, the staff and the loan. If it is wrong, everything built on it is wrong too.</p><p>A bottom-up forecast builds the number from parts you can observe and test. Each part can be challenged separately. Once you open, each part can be checked against real data.</p>"
+  ],
+  [
+   "The basic chain",
+   "<p>For a brewpub selling mostly on its own premises, the chain is:</p><ol><li>Seats.</li><li>Covers per seat per day, which varies by day of the week.</li><li>Share of guests who order beer.</li><li>Glasses per beer drinker per visit.</li><li>Litres per glass, from your actual glass sizes.</li><li>Open days per month.</li></ol><p>Multiply through and you have litres per month. As an illustration only: 150 seats at 1.2 covers a day, 60 percent ordering beer, 2 glasses each at 0.33 litres, gives about 71 litres a day, or roughly 2,100 litres over a 30-day month. Your own inputs will differ.</p>"
+  ],
+  [
+   "Where the inputs come from",
+   "<p>Use local evidence, not national averages. Visit comparable venues nearby at different times and count tables. Ask friendly operators about turns per night. Look at your intended price point and food menu, because a family dining brewpub sells less beer per guest than a bar with a short snack menu.</p><p>Write the source next to every input. When the bank asks why you assumed 60 percent beer orders, \"we counted at three venues on four nights\" is a much better answer than \"it felt right\".</p>"
+  ],
+  [
+   "Seasonality in India",
+   "<p>Beer demand in India moves with weather, festivals and sport. Summer lifts volumes in many cities. The monsoon often slows footfall. The festive months, the year-end and big cricket tournaments bring peaks, while dry days and some religious periods reduce sales. Our guide to <a href=\"beer-demand-forecasting-indian-seasons.html\">beer demand forecasting across Indian seasons</a> covers the patterns.</p><p>Turn this into a monthly factor, such as 1.2 for a strong month and 0.8 for a weak one, averaging around 1 over the year. Apply it to the base forecast.</p>"
+  ],
+  [
+   "Packaged and off-site sales",
+   "<p>If your licence allows growler fills, kegs to other venues or packaged beer, forecast each channel separately. Growler sales follow your taproom crowd. Keg sales depend on how many accounts you can sign and how much each pours, which is a sales question as much as a beer one. Keep these lines apart in the model, because they carry different margins, different packaging costs and different cash timing.</p><p>For a new brewpub, we usually suggest leaving off-site channels out of the base case and treating them as upside, until the licence and the first accounts are confirmed.</p>"
+  ],
+  [
+   "Ramp-up and scenarios",
+   "<p>A new brewpub rarely hits its steady volume in month one. Build a ramp-up curve for the first months, starting lower and climbing as word spreads. Then run three scenarios: slow, expected and strong. Plan cash on the slow case and capacity on the strong one.</p>"
+  ],
+  [
+   "Check against brewhouse capacity",
+   "<p>Convert the strong-case peak month into brews and tank time. If a lager spends four weeks in a fermenter and an ale two, how many fermenters do you need to meet December? Our guide to <a href=\"brewhouse-size-guide.html\">brewhouse sizing</a> walks through it. The forecast and the equipment list must agree, or one of them is fiction.</p><p>Also convert volume into raw material orders, CO2 use and glycol load. A forecast is only useful if it drives the plan.</p>"
+  ],
+  [
+   "After opening: forecast against actual",
+   "<p>Once you open, put the forecast and the POS actuals side by side every week. Which input was wrong: covers, beer share or glasses per drinker? Fix the input, not just the total. Within a few months you will have a forecasting model built on your own data rather than guesses.</p><p>This is where a simple dashboard pays for itself. Pulling POS data into a live view of covers, litres and beer share by day lets you see a trend in week three rather than in the quarterly accounts.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I forecast beer sales for a brewpub that is not open yet?",
+   "Build it from seats, covers per seat, share of beer drinkers, glasses per drinker, glass size and open days, then apply seasonality and a ramp-up."
+  ],
+  [
+   "Should I plan on the expected forecast?",
+   "Plan cash on the slow case and equipment capacity on the strong case. Use the expected case for targets."
+  ],
+  [
+   "How do Indian seasons affect brewpub volumes?",
+   "Summer, festivals, year-end and big sports events usually lift demand, while the monsoon and dry days often reduce it. Use monthly factors to reflect your city."
+  ],
+  [
+   "What do I do once I have real sales data?",
+   "Compare forecast and actuals weekly and correct the individual inputs, so the model improves over time."
+  ]
+ ],
+ "cta": {
+  "title": "Stop guessing your volumes and start seeing them",
+  "body": "Power BI and Tableau for Breweries is a 2 week live online course (₹5,000). It shows you how to pull POS and production data into dashboards that track covers, litres and forecasts against actuals, which a spreadsheet guess cannot do.",
+  "href": "power-bi-and-tableau-for-breweries-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-demand-forecasting-indian-seasons",
+  "brewhouse-size-guide",
+  "brewery-business-plan"
+ ]
+}

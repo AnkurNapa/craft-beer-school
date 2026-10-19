@@ -3,9 +3,9 @@
  "cat": "Brewing basics",
  "h1": "How to scale a beer recipe up or down",
  "title": "Scaling a beer recipe up or down | Craft Beer School",
- "desc": "Why scaling a recipe is not simple multiplication, and how hop utilisation and losses change with batch size.",
+ "desc": "Why scaling a recipe is not simple multiplication and how hop utilisation and losses change with batch size.",
  "teaser": "A recipe that works at 20 litres does not simply multiply by 25 to work at 500. Hop utilisation and pitch rate do not scale in a straight line.",
- "standfirst": "Scaling a recipe is not a multiplication exercise. Some numbers scale with volume, some scale with surface area, and getting the two confused is how a favourite homebrew recipe turns into a disappointing pilot batch.",
+ "standfirst": "Scaling a recipe is not a multiplication exercise. Some numbers scale with volume, some scale with surface area. Getting the two confused is how a favourite homebrew recipe turns into a disappointing pilot batch.",
  "read": "4 min",
  "updated": "2025-07-11",
  "updated_label": "July 2025",
@@ -20,7 +20,7 @@
   ],
   [
    "Trub losses and dead space change the maths",
-   "<p>A 20 litre homebrew kettle might lose 1 to 2 litres to trub and hop matter, a rounding error you barely notice. A commercial brewhouse loses a fixed volume to the same causes, plus transfer lines, a whirlpool and a heat exchanger, and that fixed loss becomes a smaller percentage of a larger batch but is rarely zero. Work out your total losses in litres for your actual equipment, not as a percentage carried over from a different scale, and add that volume to your target before you calculate grain and hop quantities.</p>"
+   "<p>A 20 litre homebrew kettle might lose 1 to 2 litres to trub and hop matter, a rounding error you barely notice. A commercial brewhouse loses a fixed volume to the same causes, plus transfer lines, a whirlpool and a heat exchanger. That fixed loss becomes a smaller percentage of a larger batch but is rarely zero. Work out your total losses in litres for your actual equipment, not as a percentage carried over from a different scale. Add that volume to your target before you calculate grain and hop quantities.</p>"
   ],
   [
    "Water chemistry scales with volume, salts do not round evenly",
@@ -36,7 +36,7 @@
   ],
   [
    "A worked example: 20 litres to 200 litres",
-   "<p>Take a 20 litre homebrew batch built around 4.5 kg of Pilsner malt and 30 grams of a 6 percent alpha hop at 60 minutes, hitting an OG of 1.050 and roughly 25 IBU on a homebrew calculator tuned to a 75 percent efficiency and a vigorous stovetop boil. Multiplying by 10 for a 200 litre pilot batch gives 45 kg of malt, which is correct, and 300 grams of hop, which is very likely wrong, because a 200 litre kettle with a gentler industrial boil and different geometry will not isomerise alpha acid at the same rate as a rolling pot on a stove.</p><p>The right approach is to re-run the hop calculation using the new kettle's actual boil-off rate and utilisation curve, then adjust the hop weight up or down until the estimated IBU matches the original 25, rather than trusting the same multiplier that correctly scaled the grain bill. This is the single most common mistake in scaling a recipe, and it is entirely avoidable with one extra calculation.</p>"
+   "<p>Take a 20 litre homebrew batch built around 4.5 kg of Pilsner malt and 30 grams of a 6 percent alpha hop at 60 minutes, hitting an OG of 1.050 and roughly 25 IBU on a homebrew calculator tuned to a 75 percent efficiency and a vigorous stovetop boil. Multiplying by 10 for a 200 litre pilot batch gives 45 kg of malt, which is correct. It also gives 300 grams of hop, which is very likely wrong, because a 200 litre kettle with a gentler industrial boil and different geometry will not isomerise alpha acid at the same rate as a rolling pot on a stove.</p><p>The right approach is to re-run the hop calculation using the new kettle's actual boil-off rate and utilisation curve, then adjust the hop weight up or down until the estimated IBU matches the original 25, rather than trusting the same multiplier that correctly scaled the grain bill. This is the single most common mistake in scaling a recipe. It is entirely avoidable with one extra calculation.</p>"
   ]
  ],
  "faqs": [

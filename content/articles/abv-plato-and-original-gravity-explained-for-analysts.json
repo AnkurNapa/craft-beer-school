@@ -1,0 +1,67 @@
+{
+ "slug": "abv-plato-and-original-gravity-explained-for-analysts",
+ "cat": "Beer for teams",
+ "h1": "ABV, Plato and original gravity explained for analysts",
+ "title": "ABV, Plato and Gravity for Analysts | Craft Beer School",
+ "desc": "What ABV, degrees Plato and original gravity mean, how they connect and why they matter for the numbers analysts see in brewery dashboards.",
+ "teaser": "Your dashboard says 12.5 °P, 1.050 and 5.0%. They describe the same beer at different moments. Here is how they fit together.",
+ "standfirst": "Brewery data is full of numbers that look unrelated: gravity, Plato, ABV. They are three views of one process, sugar becoming alcohol. Once you see how they connect, a lot of production and finance data starts to make sense.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why analysts meet these numbers",
+   "<p>If you work in a planning, finance, quality or data team at a drinks company, you will see columns labelled OG, FG, °P and ABV. They come from the brewery floor and drive things you care about: how much beer a brew produces, how much excise is due, whether a batch is within specification and how much raw material each hectolitre consumed.</p><p>You do not need to brew to read them. You need to know what each one measures and when it is measured.</p>"
+  ],
+  [
+   "Gravity: how much sugar is in the liquid",
+   "<p>Brewers make a sugary liquid called <strong>wort</strong> by soaking crushed malt in hot water. Dissolved sugars make wort denser than water. Specific gravity compares that density with water, which is set at 1.000.</p><p><strong>Original gravity (OG)</strong> is measured before fermentation starts. A typical lager wort might be around 1.044 to 1.050. Yeast then eats the sugar and makes alcohol and carbon dioxide. Because alcohol is less dense than water, the gravity falls. <strong>Final gravity (FG)</strong> is measured when fermentation ends, often around 1.006 to 1.012 for a standard lager. Our guide to <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity</a> goes deeper.</p>"
+  ],
+  [
+   "Plato: the same idea in percentages",
+   "<p>Many breweries, especially larger ones, use degrees <strong>Plato</strong> (°P) instead of specific gravity. One degree Plato means roughly one gram of dissolved extract in every 100 grams of wort. So a 12 °P wort is about 12 percent dissolved sugar and other extract by weight.</p><p>A handy approximation: 12 °P is close to a specific gravity of 1.048. Each degree Plato is roughly four gravity points. It is an approximation, not a conversion formula for reporting, but it helps you read both kinds of data side by side. Large brewers prefer Plato because it is a mass percentage, which makes extract and yield calculations cleaner.</p>"
+  ],
+  [
+   "ABV: the number on the label",
+   "<p><strong>Alcohol by volume (ABV)</strong> is the share of the finished beer's volume that is ethanol. A 5% ABV beer has 5 ml of alcohol in every 100 ml.</p><p>Brewers estimate ABV from the drop in gravity. A widely used formula is ABV = (OG minus FG) x 131.25. A beer that starts at 1.050 and finishes at 1.010 is roughly (0.040) x 131.25, or about 5.25%. Labs measure it more precisely with instruments. The figure on the label must match regulatory tolerances. You may also see <strong>alcohol by weight</strong> in some technical data. It is lower than ABV for the same beer, at roughly four fifths of the ABV figure, because ethanol is lighter than water.</p>"
+  ],
+  [
+   "Real and apparent: a note on final gravity",
+   "<p>One detail confuses many analysts. The final gravity reading is called <strong>apparent extract</strong>, because alcohol in the beer pulls the reading down. The beer still contains more unfermented sugar than the hydrometer suggests. Labs can measure <strong>real extract</strong>, which removes the effect of alcohol. It is always higher than the apparent figure.</p><p>If a dataset carries both columns, do not mix them. Calculations of fermentability, often reported as apparent or real degree of fermentation, depend on using the right pair.</p>"
+  ],
+  [
+   "High gravity brewing and why volumes jump",
+   "<p>Large breweries often brew strong wort, say 15 to 18 °P, then dilute the finished beer with treated, deaerated water to the target strength before packaging. This is called <a href=\"high-gravity-brewing-and-dilution.html\">high gravity brewing</a>. It lets a brewery get more saleable beer out of the same tanks.</p><p>For analysts this explains a common puzzle: the volume that leaves fermentation is smaller than the volume that gets packaged. When you reconcile production data, check whether volumes are reported before or after dilution. Check too whether the gravity in a record belongs to the strong beer or the sales strength beer.</p>"
+  ],
+  [
+   "Numbers in your dashboard, checked against the floor",
+   "<p>Some useful checks when you work with this data:</p><ul><li>If OG is consistently above target, the brewhouse may be producing more extract than planned, or there is a measurement error. Either way, the ABV and yield figures downstream will shift.</li><li>A fermentation stuck at a high FG means less alcohol and a sweeter beer. It often means a batch on hold.</li><li>Excise and labelling rely on accurate ABV. In India, how and when alcohol strength is declared depends on state rules, so a small error can become a compliance issue.</li></ul><p>The brewhouse KPIs built on these numbers, such as extract yield, are explained in <a href=\"brewhouse-kpis-for-analysts.html\">brewhouse KPIs for analysts</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between Plato and specific gravity?",
+   "Both measure how much sugar is dissolved in wort. Plato is a percentage by weight, while specific gravity compares density with water. Roughly, 12 °P is about 1.048."
+  ],
+  [
+   "How is ABV calculated from gravity?",
+   "A common estimate is ABV = (OG minus FG) x 131.25. Laboratories measure the final figure more precisely with instruments."
+  ],
+  [
+   "Why does packaged volume exceed fermented volume?",
+   "Many breweries brew strong wort and dilute the finished beer with treated water before packaging. This high gravity brewing increases the volume of saleable beer."
+  ]
+ ],
+ "cta": {
+  "label": "Ask about team training",
+  "title": "Give your team the production view behind the data",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions. Analysts learn what the numbers mean on the brewery floor, so their reports ask better questions.",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "beer-quality-data-for-data-teams",
+  "brewhouse-kpis-for-analysts",
+  "high-gravity-brewing-and-dilution"
+ ]
+}

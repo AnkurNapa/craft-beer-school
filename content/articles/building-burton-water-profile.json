@@ -1,0 +1,67 @@
+{
+ "slug": "building-burton-water-profile",
+ "cat": "Ingredients",
+ "h1": "Building a Burton water profile for a bitter pale ale",
+ "title": "Building a Burton Water Profile | Craft Beer School",
+ "desc": "How to build Burton-style brewing water from RO water with gypsum, Epsom salt and calcium chloride for a crisp, bitter English pale ale.",
+ "teaser": "Burton water made English pale ale famous. You can build a version of it from RO water and three salts.",
+ "standfirst": "The wells of Burton upon Trent gave English pale ales their dry, firm bitterness. The secret was mostly calcium sulphate. You do not need Burton's wells to get the effect: a bag of gypsum and some arithmetic will do it. Here is how to build the profile without overdoing it.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What made Burton water special",
+   "<p>Burton's well water is very hard, with high levels of calcium and sulphate from gypsum deposits in the ground. Published analyses vary widely, because different wells and different eras gave different results. A commonly used brewing target sits roughly here:</p><ul><li>Calcium: about 250 to 300 ppm</li><li>Sulphate: about 500 to 700 ppm</li><li>Magnesium: about 40 to 60 ppm</li><li>Chloride: about 25 to 40 ppm</li></ul><p>The high calcium helps the mash, encourages clarity and yeast flocculation. The high sulphate makes hop bitterness taste drier and more assertive. Our guide to the <a href=\"sulphate-chloride-ratio.html\">sulphate to chloride ratio</a> explains why.</p><p>Burton water also gave pale ales a faint sulphury aroma, known as the Burton snatch. In small amounts it is a classic part of the style.</p>"
+  ],
+  [
+   "Start with a blank slate",
+   "<p>Building a profile is easiest from water with almost no minerals: RO water, distilled water or packaged drinking water with a low mineral content. Many Indian borewells are high in bicarbonate and variable in everything else, so starting from them makes the maths harder and the results less predictable. If you use tap or borewell water, get a proper ion report rather than relying on a TDS meter, which gives total dissolved solids but not which minerals they are.</p>"
+  ],
+  [
+   "The salts and what each adds",
+   "<p>Three salts do almost all the work. Per gram dissolved in 1 litre of water:</p><ul><li><strong>Gypsum</strong> (calcium sulphate): about 233 ppm calcium and 558 ppm sulphate.</li><li><strong>Epsom salt</strong> (magnesium sulphate): about 99 ppm magnesium and 390 ppm sulphate.</li><li><strong>Calcium chloride</strong> (dihydrate): about 273 ppm calcium and 482 ppm chloride.</li></ul><p>Divide by your total water volume to get the effect on your batch. Our guide to <a href=\"water-salts-for-homebrewers.html\">water salts for homebrewers</a> covers where to buy food grade salts and how to weigh small amounts.</p>"
+  ],
+  [
+   "A worked example for 30 litres",
+   "<p>Say your 20 litre batch uses 30 litres of RO water in total, mash and sparge together. A slightly toned down Burton target that works well for most pale ales:</p><ul><li><strong>21 g gypsum:</strong> about 165 ppm calcium and 390 ppm sulphate.</li><li><strong>6 g Epsom salt:</strong> about 20 ppm magnesium and 78 ppm sulphate.</li><li><strong>3 g calcium chloride:</strong> about 27 ppm calcium and 48 ppm chloride.</li></ul><p>Total: roughly 190 ppm calcium, 470 ppm sulphate, 20 ppm magnesium and 48 ppm chloride. That gives a sulphate to chloride ratio near 10 to 1, firmly on the dry and bitter side.</p><p>Add the salts in proportion to each water volume: if 13 litres go to the mash, put 13/30 of each salt in the mash and the rest in the sparge or kettle.</p>"
+  ],
+  [
+   "Mind the mash pH",
+   "<p>Real Burton water also carries a fair amount of bicarbonate, which raises mash pH. RO water has none. A very pale grist mashed in plain RO water often sits slightly high, around 5.7 to 5.8. Calcium reacts with phosphates from the malt and pulls the pH down, so the salts above move it towards the target range of about 5.2 to 5.6. A pale ale grist may still need a small dose of lactic acid or 2 to 3% acidulated malt to get there. Measure with a calibrated meter about 15 minutes into the mash, cooled to room temperature, rather than guessing.</p><p>Do not add bicarbonate just because Burton had it. Copying every ion in a historical analysis rarely makes better beer.</p>"
+  ],
+  [
+   "Taste and adjust",
+   "<p>Very high sulphate can taste minerally and harsh, particularly with a high hopping rate. Many brewers start at half the Burton figures and increase on the next batch if the beer seems soft. An <a href=\"english-ipa.html\">English IPA</a> or a best bitter can carry the full profile. A lightly hopped golden ale may taste better with less.</p><p>A simple test: brew the same pale ale twice, once with moderate sulphate and once with high. Taste them side by side. Most brewers are surprised by how much the water alone changes the beer.</p><p>Water chemistry is one of the most powerful and least understood tools in brewing. Learning to calculate ions, predict mash pH and match water to style is what lets you brew a convincing pale ale, a soft Pils and a round stout from the same tap.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is Burton water?",
+   "Very hard well water from Burton upon Trent in England, high in calcium and sulphate. It gave English pale ales their dry, firm bitterness."
+  ],
+  [
+   "How do I make Burton water at home?",
+   "Start with RO or distilled water and add gypsum, plus small amounts of Epsom salt and calcium chloride, calculated for your water volume."
+  ],
+  [
+   "How much gypsum per litre for a Burton profile?",
+   "About 0.7 g per litre of RO water gives roughly 165 ppm calcium and 390 ppm sulphate, a good starting point."
+  ],
+  [
+   "Can too much sulphate ruin a beer?",
+   "Yes. Very high sulphate can taste minerally and harsh. Start at half the Burton figures and adjust by taste."
+  ]
+ ],
+ "cta": {
+  "title": "Design brewing water for any beer style",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes for ₹12,999. It covers water chemistry, mash pH and ion calculations properly, which one guide can only introduce.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "sulphate-chloride-ratio",
+  "water-salts-for-homebrewers",
+  "english-ipa"
+ ]
+}

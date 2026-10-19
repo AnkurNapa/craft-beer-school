@@ -1,0 +1,67 @@
+{
+ "slug": "data-and-analytics-jobs-in-breweries-and-drinks-companies",
+ "cat": "Careers",
+ "h1": "Data and analytics jobs in breweries and drinks companies",
+ "title": "Data Jobs in Breweries and Drinks Firms | Craft Beer School",
+ "desc": "The data and analytics roles in breweries, distilleries and drinks companies, the skills they need and how to stand out with domain knowledge.",
+ "teaser": "Drinks companies have plenty of data and not enough people who understand both the numbers and the beer.",
+ "standfirst": "Breweries, distilleries and drinks companies run on forecasts, quality data and sales numbers. If you work in analytics and want to move into drinks, here are the roles, the skills they need and the domain knowledge that gets you hired.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Where the data jobs are",
+   "<p>Large drinks companies in India employ analysts in sales, supply chain, finance and quality. Several run global capability centres in Bengaluru, Hyderabad and Pune that serve markets around the world. Mid-sized breweries and distilleries hire fewer analysts but often want one person who can do everything from building a dashboard to cleaning the production data.</p><p>Craft breweries and brewpubs rarely have a data role. They do have data: point of sale records, brew logs and stock sheets in spreadsheets. A brewery that grows past two or three outlets usually needs someone to make sense of it, often a part-time or contract analyst.</p>"
+  ],
+  [
+   "The main roles",
+   "<ul><li><strong>Sales and commercial analyst:</strong> volumes by outlet, region and brand, promotions, pricing and the gap between what the company ships and what consumers buy.</li><li><strong>Demand planner:</strong> forecasting volumes by pack and region so production and packaging can plan.</li><li><strong>Supply chain analyst:</strong> stock levels, raw materials, packaging and distribution costs.</li><li><strong>Quality or production data analyst:</strong> brewhouse yields, losses, fermentation trends and lab results.</li><li><strong>BI developer:</strong> building and maintaining dashboards in Power BI or Tableau.</li><li><strong>Data scientist:</strong> models for forecasting, pricing, maintenance or quality prediction in larger firms.</li></ul>"
+  ],
+  [
+   "The technical skills they ask for",
+   "<p>Most adverts ask for the same core: SQL, Excel at a high level, one BI tool and some Python or R for analysis. Power BI is common in companies that run on Microsoft systems and Tableau appears in others. Data scientists add statistics, forecasting methods and machine learning.</p><p>None of that is unique to drinks. What makes an analyst valuable in a brewery is knowing what the numbers mean on the floor.</p>"
+  ],
+  [
+   "The domain knowledge that sets you apart",
+   "<p>Imagine a dashboard shows brewhouse efficiency dropping from 78% to 72% across a month. An analyst without brewing knowledge reports the drop. An analyst who understands brewing asks whether the malt changed, whether the mill gap was adjusted or whether the monsoon raised malt moisture. That second analyst is the one who gets invited to production meetings.</p><p>A few concepts come up constantly:</p><ul><li><strong>Shipments versus depletions:</strong> shipments are what the company sends to distributors, depletions are what distributors sell on. Our guide to <a href=\"shipments-vs-depletions-beer-sales-data.html\">shipments and depletions</a> explains why the gap matters.</li><li><strong>Brewhouse KPIs:</strong> extract efficiency, losses, cycle times and cost per hectolitre. See <a href=\"brewhouse-kpis-for-analysts.html\">brewhouse KPIs for analysts</a>.</li><li><strong>Seasonality:</strong> in India beer demand peaks in summer and dips in the monsoon, which drives production and stock plans.</li><li><strong>Excise and state differences:</strong> taxes and route to market rules vary by state, so pricing and margin analysis must be done state by state.</li></ul>"
+  ],
+  [
+   "Moving across from another industry",
+   "<p>Analysts from retail, FMCG and logistics move into drinks most easily, because the demand, pricing and supply chain problems are similar. Analysts from banking or IT services can make the move too but have more to learn about physical products, stock and production constraints.</p><p>Three things help. Learn the production basics so you can talk to brewers. Build a sample dashboard using realistic brewery data, for example sales by outlet and style with a simple forecast. Read job descriptions from drinks companies carefully and mirror their language in your CV. An honest portfolio project often does more than another general analytics certificate.</p>"
+  ],
+  [
+   "Building a brewery dashboard that people use",
+   "<p>The most common failure of brewery dashboards is that nobody opens them. They show too many numbers that the brewer does not trust or cannot act on.</p><p>A useful brewery dashboard starts with a few questions the team actually asks: which beers are selling where, how much stock do we have, are we losing more beer than we should? It uses the brewery's own definitions, agreed with the head brewer and finance. It refreshes automatically from point of sale and brewing records rather than relying on someone to paste numbers in every week. Our guide to <a href=\"power-bi-for-breweries.html\">Power BI for breweries</a> walks through a first build.</p><p>That last point is where many analysts get stuck: connecting messy brewery data to a clean model takes practice that general BI courses rarely give.</p>"
+  ],
+  [
+   "Where the career goes",
+   "<p>Data people in drinks companies often move into planning, commercial strategy or operations leadership, because they end up understanding the business end to end. Others specialise in data science, building forecasting or quality models. In smaller breweries a strong analyst can become the person the owner relies on for every important decision.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need brewing experience for a data job in a drinks company?",
+   "Not usually, but understanding the basics of production and sales makes you far more effective and helps you stand out in interviews."
+  ],
+  [
+   "Which BI tool do drinks companies use?",
+   "Both Power BI and Tableau are common. Power BI is widespread where companies run on Microsoft systems. Learning one well makes the other easier to pick up."
+  ],
+  [
+   "Do craft breweries hire data analysts?",
+   "Rarely full time. Breweries with several outlets sometimes hire part-time or contract analysts to build dashboards and clean up their data."
+  ]
+ ],
+ "cta": {
+  "title": "Build brewery dashboards people actually use",
+  "body": "Power BI and Tableau for Breweries is a 2 week live weekend course (₹5,000). You build dashboards on realistic brewery data, with the definitions and KPIs a general BI course will not teach.",
+  "href": "power-bi-and-tableau-for-breweries-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "power-bi-for-breweries",
+  "brewhouse-kpis-for-analysts",
+  "data-and-ai-in-breweries-wineries-distilleries"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "how-enzymes-are-used-to-make-gluten-reduced-beer",
+ "cat": "Brewing science",
+ "h1": "How enzymes are used to make gluten-reduced beer",
+ "title": "Gluten-reduced beer and enzymes | Craft Beer School",
+ "desc": "How a proline-specific enzyme breaks down gluten in barley beer, how it is tested and why gluten-reduced is not the same as gluten-free.",
+ "teaser": "One enzyme added at pitching can cut gluten in barley beer below many lab limits. The label question is harder than the brewing.",
+ "standfirst": "Gluten-reduced beer is ordinary barley beer treated with an enzyme that chops gluten proteins into small pieces. We explain how it works, how it is measured and what brewers must be careful never to promise.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Where gluten in beer comes from",
+   "<p>Barley and wheat carry storage proteins. In barley the troublesome group is called hordein. It belongs to the family of proteins people mean by gluten. Malting and mashing break some of it down, but fragments survive into wort and finished beer.</p><p>These fragments are rich in the amino acids proline and glutamine. That detail is the whole trick behind gluten-reduced beer, because it gives an enzyme something specific to aim at.</p>"
+  ],
+  [
+   "The enzyme and what it does",
+   "<p>The enzyme used is a proline-specific endoprotease, usually produced from the mould <em>Aspergillus niger</em>. It cuts protein chains at the points where proline sits. Gluten peptides are packed with proline, so they get chopped into pieces too short to be recognised by the tests used for gluten.</p><p>Brewers add it to cooled wort at the start of fermentation, at the dose the supplier specifies. It works through fermentation and conditioning. Nothing else about the recipe needs to change, so the beer is still a barley beer with normal malt character.</p><p>The same enzyme was first sold to prevent chill haze, because haze-active proteins are also proline rich. Brewers using it often notice brighter beer as a side effect. Our guide to <a href=\"beer-haze-causes.html\">beer haze causes</a> explains that protein and polyphenol story.</p>"
+  ],
+  [
+   "How gluten is measured",
+   "<p>Testing is where it gets complicated. Most gluten tests are ELISA assays that use antibodies to detect specific protein sequences. A sandwich ELISA needs two binding sites on the same molecule, so it can miss small fragments. For fermented and hydrolysed products, labs use a competitive ELISA, which is better at detecting short pieces.</p><p>Even the competitive test has limits. It tells you that the target sequences are below a threshold. It cannot prove that every fragment is harmless to every person. Scientists still disagree about how well these tests reflect what happens in the body of someone with coeliac disease.</p>"
+  ],
+  [
+   "Gluten-reduced is not gluten-free",
+   "<p>This is the line brewers must never blur. A beer made from barley and treated with enzyme is gluten-reduced. A beer made from grains that never contained gluten, such as rice, sorghum, millet or buckwheat, is a different product.</p><p>Rules on what can be printed on a label differ between countries and change over time. Some markets use a 20 ppm threshold for gluten-free claims on foods. Others do not allow a gluten-free claim on any product made from a gluten-containing grain, whatever the test says. In India, check the current FSSAI labelling rules before printing anything. Get the claim reviewed too.</p><p>Make no health promises. People with coeliac disease should follow their doctor's advice about what they drink. A brewery should say so plainly.</p>"
+  ],
+  [
+   "Brewing it well",
+   "<p>A few practical points make the process reliable:</p><ul><li>Dose at pitching, not later. The enzyme needs time across fermentation.</li><li>Keep the recipe simple at first. Heavy wheat or oat additions raise the starting gluten load.</li><li>Test every batch at an accredited lab using a competitive ELISA. One good result does not cover the next brew.</li><li>Keep the enzyme in a cool store. Indian summer storerooms can run well above the temperatures most suppliers recommend.</li></ul><p>One brewhouse-floor detail: the enzyme goes into the fermenter, so every batch shares lines and hoses with ordinary beer. Clean and rinse thoroughly. Keep records for each lot.</p>"
+  ],
+  [
+   "What it does to flavour and foam",
+   "<p>Brewers worry that cutting proteins will hurt the head on the beer. In practice the enzyme targets proline-rich peptides, while much of the foam comes from other proteins and from hop acids. Most brewers report little or no change in foam at the supplier's dose, though a heavy overdose is not a good idea.</p><p>Flavour is usually unchanged. The enzyme does not touch sugars, hop compounds or yeast metabolism in any way a taster would notice. If a gluten-reduced version of a house beer tastes different, look first at the batch, the yeast or the packaging date before blaming the enzyme.</p><p>Run a blind triangle test between treated and untreated batches of the same recipe before you launch. It is a cheap way to answer the question with evidence instead of opinion.</p>"
+  ],
+  [
+   "Adjuncts and the Indian angle",
+   "<p>Indian brewers already work with rice and maize, which contain no gluten. A beer with a high rice share starts with less barley protein, which lowers the gluten load before any enzyme is added. That does not make it gluten-free, but it does make the enzyme's job easier. Our guide to <a href=\"rice-and-maize-adjuncts-india.html\">rice and maize adjuncts</a> covers how those grains behave in the mash.</p><p>Understanding why an enzyme does one thing and not another is the same skill that lets you control a mash or a haze problem. It is protein chemistry. It rewards brewers who learn it properly.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is gluten-reduced beer safe for people with coeliac disease?",
+   "We cannot say it is. Test results show gluten below a threshold, but scientists disagree on what that means for every person. People with coeliac disease should follow their doctor's advice."
+  ],
+  [
+   "When is the enzyme added?",
+   "To cooled wort at the start of fermentation, at the supplier's recommended dose. It works through fermentation and conditioning."
+  ],
+  [
+   "Can I call my enzyme-treated barley beer gluten-free in India?",
+   "Do not assume so. Labelling rules vary by country and change, so check the current FSSAI notification and get the label reviewed before printing."
+  ]
+ ],
+ "cta": {
+  "title": "Learn the protein chemistry behind beer",
+  "body": "Advanced Brewing Science covers enzymes, proteins and haze in depth, from the mash tun to the finished glass.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "enzymes-in-the-mash",
+  "beer-haze-causes",
+  "rice-and-maize-adjuncts-india"
+ ]
+}

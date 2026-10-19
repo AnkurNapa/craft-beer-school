@@ -15,7 +15,7 @@ DOCS = {
     "prospectus.html": dict(
         pdf="assets/craft-beer-school-prospectus.pdf", key="prospectus",
         title="Course Prospectus | Craft Beer School",
-        desc="Read the Craft Beer School prospectus online: every course, fee and format, the team, and how to enrol.",
+        desc="Read the Craft Beer School prospectus online: every course, fee and format, the team and how to enrol.",
         eyebrow="Course prospectus", h1="Every course, in one place.",
         sub="Read it here, or download the PDF to share."),
     "corporate-brochure.html": dict(

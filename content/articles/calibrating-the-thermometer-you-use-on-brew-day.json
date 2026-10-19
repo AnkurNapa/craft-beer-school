@@ -1,0 +1,63 @@
+{
+ "slug": "calibrating-the-thermometer-you-use-on-brew-day",
+ "cat": "Brewing basics",
+ "h1": "Calibrating the thermometer you use on brew day",
+ "title": "Calibrating Your Brew Day Thermometer | Craft Beer School",
+ "desc": "How to check a brewing thermometer with an ice bath and a boil test, adjust for altitude in Indian cities and know when to replace it.",
+ "teaser": "If your thermometer reads two degrees low, every mash you have done was two degrees hot. Ten minutes and a glass of ice will tell you.",
+ "standfirst": "The number on your thermometer drives the whole brew day. Here is how to check it against two fixed points, why boiling is not 100 °C in Bengaluru and what to do when it is wrong.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why one or two degrees matters",
+   "<p>Mash temperature decides how fermentable your wort is. A mash at 64 °C gives a drier, lighter beer. The same grain at 68 °C leaves more body and sweetness. Two degrees of thermometer error is enough to move a crisp pale ale towards a sticky one. You would never know why.</p><p>It is not only the mash. Sparge water that is too hot extracts harsh tannins from the husks. Yeast pitched into wort that is still 30 °C, because your probe read 24, can throw solvent and fruity flavours you did not ask for. Fermentation temperature, the single biggest lever on flavour, is only as good as the stick-on strip or probe telling you what it is. One bad thermometer quietly affects every stage.</p><p>Cheap digital probes and dial thermometers drift. They get dropped, steamed and left in the sun. Checking takes ten minutes and costs nothing.</p>"
+  ],
+  [
+   "The ice point test",
+   "<p>This is the most reliable check you can do at home, because a properly made ice bath sits at 0 °C regardless of where you live.</p><ol><li>Fill a tall glass to the top with crushed ice, not cubes. Crushed ice leaves fewer warm pockets.</li><li>Add cold water until it just reaches the top of the ice. You want a slush, not ice floating in water.</li><li>Stir and wait two minutes.</li><li>Push the probe into the centre of the glass without touching the sides or bottom. Stir gently and wait until the reading stops moving.</li></ol><p>It should read 0 °C. Anything within half a degree is fine. Write down the offset if it is more.</p>"
+  ],
+  [
+   "The boiling point test and the altitude catch",
+   "<p>Boiling water gives a second check near the top of the range. The catch is that water only boils at 100 °C at sea level. As you climb, the air pressure drops and so does the boiling point, by roughly 1 °C for every 300 metres.</p><ul><li>Mumbai, Chennai, Kolkata: close to 100 °C.</li><li>Delhi, at a little over 200 metres: about 99 °C.</li><li>Pune and Hyderabad, at 500 to 550 metres: about 98 °C.</li><li>Bengaluru, at roughly 900 metres: about 97 °C.</li></ul><p>Weather moves these by a fraction too. So a thermometer reading 97 °C in a rolling boil in Bengaluru is correct. One that reads 100 °C there is reading high. Use the ice test as your main check and the boil test as a sense check on slope.</p>"
+  ],
+  [
+   "Adjusting or correcting",
+   "<p>What you do next depends on the thermometer:</p><ul><li><strong>Dial thermometers</strong> usually have a small nut behind the dial. Hold the nut with a spanner and turn the dial until it reads 0 °C in the ice bath.</li><li><strong>Digital probes</strong> sometimes have a calibration mode in the manual. Many do not.</li><li><strong>Glass thermometers</strong> cannot be adjusted. If the liquid column has separated, it is finished.</li></ul><p>If you cannot adjust it, label it. A strip of masking tape that says \"reads 1.5 low\" is a perfectly good correction, provided you remember to add it every time.</p>"
+  ],
+  [
+   "Checking it where it counts",
+   "<p>A thermometer that passes the ice test can still mislead you in the mash. Mash is thick and uneven, so the reading depends on where you put the probe. Stir well, take readings in three spots and use the average. In a cooler tun the top few centimetres cool fastest.</p><p>Response time matters too. A cheap probe can take 20 seconds to settle in hot liquid. Hold it still and wait. On the floor, the most common thermometer mistake we see is not bad calibration. It is reading the number while it is still climbing.</p>"
+  ],
+  [
+   "How often to check",
+   "<p>Check a new thermometer before its first brew day. After that, check every few months and whenever it has been dropped or the battery changed. If you own two, compare them in the same pot of warm water now and then. When they disagree by more than a degree, run the ice test on both.</p><p>The same thinking applies to your hydrometer, which reads correctly only at its calibration temperature. Our <a href=\"how-to-use-a-hydrometer.html\">hydrometer guide</a> walks through the correction. For what each mash temperature does to the finished beer, see the <a href=\"mash-temperature-guide.html\">mash temperature guide</a>.</p><p>Trusting your instruments is the start. Knowing what the numbers should be at each stage (and what it means when they are not) is the part a thermometer cannot teach you.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should my thermometer read in boiling water?",
+   "It depends on altitude. Near sea level it is about 100 °C, in Pune about 98 °C and in Bengaluru about 97 °C, because boiling point falls roughly 1 °C per 300 metres."
+  ],
+  [
+   "Is an ice bath accurate enough?",
+   "Yes. A slush of crushed ice and a little water sits at 0 °C, so it is the most dependable check you can do at home."
+  ],
+  [
+   "Should I buy a more expensive thermometer?",
+   "Not necessarily. A cheap thermometer that you have checked and labelled with its offset is more useful than an expensive one you have never tested."
+  ]
+ ],
+ "cta": {
+  "title": "Learn what the numbers on brew day mean",
+  "body": "Brewing Fundamentals covers mashing, gravity, fermentation temperature and the readings that tell you a batch is on track, taught live over four weekends.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "mash-temperature-guide",
+  "first-all-grain-brew-day",
+  "first-homebrew-mistakes"
+ ]
+}

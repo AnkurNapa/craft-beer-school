@@ -1,0 +1,67 @@
+{
+ "slug": "gushing-in-bottles-and-cans-and-the-causes-beyond-infection",
+ "cat": "Brewing science",
+ "h1": "Gushing in bottles and cans and the causes beyond infection",
+ "title": "Gushing Beer: Causes Beyond Infection | Craft Beer School",
+ "desc": "Why beer gushes when there is no infection: Fusarium hydrophobins in malt, calcium oxalate, particles, over-carbonation, hop creep and warm handling.",
+ "teaser": "Not every gushing can is infected. Malt, minerals, particles and heat can all do it on their own.",
+ "standfirst": "When beer foams out of a freshly opened can, infection is the first suspect. Often it is the wrong one. Gushing has several non-microbial causes. Finding the real one saves a lot of wasted cleaning.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What gushing is",
+   "<p>Gushing is the sudden, uncontrolled release of foam when a package is opened, without shaking. It happens when dissolved CO2 escapes all at once rather than gradually. For that to happen, something in the beer must provide nucleation sites, points where bubbles can form quickly, or the beer must hold more CO2 than the package can manage.</p><p>Brewers usually divide gushing into primary gushing, caused by something in the raw materials, versus secondary gushing, caused by process, packaging or handling. Infection is one cause of secondary gushing, but far from the only one.</p>"
+  ],
+  [
+   "Primary gushing: the malt",
+   "<p>The best known raw material cause is fungal infection of barley in the field. Fusarium species, which thrive in wet weather around harvest, produce small proteins called hydrophobins. These survive malting and brewing and end up in the beer. They gather at the surface of tiny CO2 bubbles and stabilise them. When the package opens, those stabilised bubbles act as millions of nucleation sites at once.</p><p>Primary gushing tends to affect many batches brewed from the same malt lot at the same time. Maltsters test for gushing tendency. Some malt specifications include it. If several beers from one malt delivery gush and nothing else has changed, ask your supplier about that lot.</p>"
+  ],
+  [
+   "Secondary gushing: process and packaging",
+   "<ul><li><strong>Calcium oxalate crystals.</strong> If wort is low in calcium, oxalate from malt stays in solution and later crystallises in the package. The crystals are perfect nucleation sites. Adequate calcium in the brewhouse helps oxalate drop out with the trub instead.</li><li><strong>Particles.</strong> Filter aid fines, hop debris, beer stone flakes, haze and dust inside poorly rinsed containers all give bubbles a place to form.</li><li><strong>Over-carbonation.</strong> Too much CO2 is the simplest cause. Check your carbonation in the tank and in the package. Our guide to <a href=\"measuring-carbonation.html\">measuring carbonation</a> explains how.</li><li><strong>Incomplete fermentation.</strong> Beer packaged before reaching terminal gravity keeps fermenting in the can.</li><li><strong>Hop creep.</strong> Enzymes from dry hops break dextrins into fermentable sugar. If enough yeast is present, fermentation restarts in the package.</li><li><strong>Metal ions.</strong> Traces of iron and some other metals are reported to promote gushing.</li></ul>"
+  ],
+  [
+   "Handling and heat",
+   "<p>Temperature changes everything. CO2 is less soluble in warm beer, so a can that is perfectly stable at 4 °C may gush at 30 °C. In India, beer often travels and sits in warm conditions. A batch that tested fine at the brewery can gush in a retailer's display.</p><p>The floor detail worth checking first: open test packages at the warmest temperature the beer is likely to meet in the market, not straight from the cold room. Keep a few cans at room temperature for a day before opening them. That is a fairer test of what a customer will experience.</p><p>Rough handling adds energy and dislodges particles, making any underlying tendency worse. So does exposure to sunlight on a delivery truck.</p>"
+  ],
+  [
+   "Working out which cause you have",
+   "<p>A short diagnostic sequence helps:</p><ol><li>Check carbonation and gravity in the package against the tank. Higher CO2 or lower gravity points to fermentation in the package, from yeast, hop creep or infection.</li><li>Plate a sample on selective media to rule infection in or out. See <a href=\"infection-bacteria-in-brewing.html\">infection and bacteria in brewing</a>.</li><li>Look for patterns. Many batches from one malt lot point at primary gushing. One beer, one packaging run or one line points at process.</li><li>Inspect the beer for particles or crystals. A sediment of fine white crystals at the bottom of a can suggests calcium oxalate.</li><li>Review oxygen and fill data. Our guide to <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup in packaging</a> covers fill quality, which overlaps with foaming.</li></ol><p>A malt gushing test, which adds malt extract to carbonated water and measures the foam on opening, can confirm a raw material problem. Many maltsters and outside labs can run it.</p>"
+  ],
+  [
+   "Preventing it",
+   "<p>Most gushing is preventable. Ensure enough calcium in the brewhouse to drop oxalate early. Confirm terminal gravity before packaging. Run a forced test on heavily dry hopped beers. Rinse and inspect containers. Clean and acid treat tanks to stop beer stone forming. Control carbonation and keep packaged beer cold.</p><p>Diagnosing gushing well needs a grasp of carbonation, raw material quality, fermentation and microbiology at the same time. That combined view is what moves a brewery from guessing to fixing.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can beer gush without being infected?",
+   "Yes. Fusarium hydrophobins in malt, calcium oxalate crystals, particles, over-carbonation, hop creep and warm storage can all cause gushing."
+  ],
+  [
+   "What is primary gushing?",
+   "Gushing caused by raw materials, usually hydrophobins from Fusarium infected barley, which stabilise tiny CO2 bubbles that release all at once."
+  ],
+  [
+   "Why do my cans gush in summer but not in winter?",
+   "CO2 is less soluble in warm beer, so a package that is stable when cold can gush when warm. Test at market temperatures."
+  ],
+  [
+   "How does calcium oxalate cause gushing?",
+   "Oxalate crystals form in the package and act as nucleation sites where CO2 bubbles form rapidly. Enough calcium in the brewhouse helps prevent it."
+  ]
+ ],
+ "cta": {
+  "title": "Diagnose packaging faults from first principles",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers carbonation, raw material quality, fermentation and microbiology so you can trace gushing and other faults to their cause.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "measuring-carbonation",
+  "oxygen-pickup-in-packaging",
+  "infection-bacteria-in-brewing"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "calibrating-and-caring-for-a-ph-meter-in-a-brewery-lab",
+ "cat": "Brewing science",
+ "h1": "Calibrating and caring for a pH meter in a brewery lab",
+ "title": "Calibrating a Brewery pH Meter | Craft Beer School",
+ "desc": "How to calibrate a pH meter, read slope and offset, measure mash and beer samples at the right temperature and store the electrode so it lasts.",
+ "teaser": "A pH meter that drifts gives you confident wrong numbers. Ten minutes a day keeps yours honest.",
+ "standfirst": "pH is one of the cheapest and most useful measurements in a brewery. It is also one of the easiest to get wrong. A meter is only as good as its last calibration and the way its electrode is stored.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why pH matters on the brew floor",
+   "<p>Mash pH steers enzyme activity, extract and colour. A good target is roughly 5.2 to 5.6 measured at room temperature. Kettle pH affects hop utilisation and break formation. Beer pH, usually around 4.0 to 4.5, is one of the best early signs of fermentation health or infection. Our guide to <a href=\"mash-ph-explained.html\">mash pH</a> covers why each stage matters.</p><p>All of that depends on a meter that reads true. A meter drifting by 0.2 can push a brewer into adding acid to a mash that was already right.</p>"
+  ],
+  [
+   "Calibrating every day you use it",
+   "<p>Calibrate at the start of each brewing day, with fresh buffer solutions. For beer and wort, two buffers are enough: pH 7.00 and pH 4.01. They bracket every reading you take.</p><ol><li>Rinse the electrode with distilled water and blot it gently with a tissue. Never wipe the bulb.</li><li>Place it in pH 7.00 buffer, let the reading settle and confirm.</li><li>Rinse, blot and repeat with pH 4.01.</li><li>Check the slope and offset the meter reports.</li><li>Rinse and read the 7.00 buffer again as a check.</li></ol><p>Pour a small amount of buffer into a clean cup for each calibration and throw it away afterwards. Never pour used buffer back into the bottle. Never dip the electrode into the stock bottle.</p><p>Buffers do not last for ever. Opened bottles absorb CO2 from the air, which shifts the pH 7.00 and especially higher buffers. Write the opening date on each bottle and replace it by the supplier's shelf life, sooner if the lab runs hot. Sachets of single use buffer cost more per calibration but remove that doubt entirely. Never top up a buffer bottle from another bottle.</p>"
+  ],
+  [
+   "Reading slope and offset",
+   "<p>Most meters report two numbers after calibration. Slope says how well the electrode responds compared with an ideal one. Between about 95 and 105% is healthy. Offset says how far the reading at pH 7 is from the ideal zero millivolts. Within about plus or minus 30 mV is generally fine.</p><p>Record both on a log sheet every day. A slope that slides from 99% towards 92% over a few months is an electrode wearing out. Track it on a simple <a href=\"control-charts-for-brewers.html\">control chart</a> and you will see the replacement coming rather than discover it through a bad batch.</p>"
+  ],
+  [
+   "Temperature and sample handling",
+   "<p>pH depends on temperature in two ways. The electrode's response changes with temperature, which automatic temperature compensation corrects for. The sample's actual pH also changes with temperature, which no meter corrects. A mash sample measured hot reads lower than the same sample measured cool. The difference is often quoted as about 0.3 pH units.</p><p>The floor detail: always cool mash and wort samples to room temperature, around 20 to 25 °C, before measuring. Use a small sealed container in a bowl of cold water. Hot samples also shorten electrode life. Degas beer samples by pouring them back and forth between cups, because dissolved CO2 lowers the reading.</p>"
+  ],
+  [
+   "Cleaning and storage",
+   "<p>Wort and beer coat the electrode with protein and sugar, which slows its response. Rinse it after every reading. Once a week, or when response feels sluggish, soak it in a protein cleaning solution made for pH electrodes, then rinse well and recalibrate.</p><p>Store the electrode wet, in storage solution, usually 3 molar potassium chloride. Never store it in distilled or tap water, which draws ions out of the glass and ruins it. Never let it dry out. In a hot Indian lab, check the storage cap more often, because the solution evaporates faster.</p><p>Even with good care, electrodes wear out. Many brewery labs replace them every year or so. A meter that will not calibrate within the slope range after cleaning needs a new electrode, not another try.</p>"
+  ],
+  [
+   "Making pH part of your quality system",
+   "<p>A calibrated meter is only useful if the readings are used. Measure the same points on every batch: mash, pre-boil, post-boil, end of fermentation and packaged beer. Write them down. Compare against your targets. Act when a number moves. The <a href=\"brewery-qc-lab-on-a-budget.html\">brewery QC lab on a budget</a> guide shows where a pH meter fits among the other basic tests.</p><p>Knowing what the number means and what to change when it moves is the step from owning a meter to controlling a process.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How often should I calibrate a brewery pH meter?",
+   "At the start of every day you use it, with fresh pH 7.00 and 4.01 buffers. Calibrate again if readings look odd."
+  ],
+  [
+   "What slope is acceptable on a pH meter?",
+   "Between about 95 and 105% is healthy. A slope outside that range after cleaning usually means the electrode needs replacing."
+  ],
+  [
+   "Should I measure mash pH hot or cold?",
+   "Cool the sample to about 20 to 25 °C. Hot samples read lower and damage the electrode faster."
+  ],
+  [
+   "Can I store a pH electrode in distilled water?",
+   "No. Store it in electrode storage solution, usually 3 molar potassium chloride. Distilled water damages the glass."
+  ]
+ ],
+ "cta": {
+  "title": "Turn lab readings into better beer",
+  "body": "Advanced Brewing Science runs live on weekends, with a maximum of 20 brewers per batch and a certificate at the end. You learn the chemistry behind each number and what to change when it moves.",
+  "label": "Save your seat",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "mash-ph-explained",
+  "brewery-qc-lab-on-a-budget",
+  "control-charts-for-brewers"
+ ]
+}

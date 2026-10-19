@@ -1,0 +1,63 @@
+{
+ "slug": "finding-your-own-sensory-thresholds-for-common-beer-faults",
+ "cat": "Tasting",
+ "h1": "Finding your own sensory thresholds for common beer faults",
+ "title": "Your Thresholds for Beer Faults | Craft Beer School",
+ "desc": "How brewers measure their own detection thresholds for diacetyl, DMS, acetaldehyde and other faults with spiked samples and an ascending forced choice series.",
+ "teaser": "You cannot catch a fault you cannot smell. Here is how to find out which ones you miss before a customer finds them for you.",
+ "standfirst": "Every taster has blind spots. A proper threshold test tells you which faults you catch at low levels and which ones slip past you, so you can build a panel that covers each other's gaps.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why thresholds matter on a brewery floor",
+   "<p>A published threshold is an average across many tasters. Your own threshold can sit well above or below it. Some people are close to blind to diacetyl at levels that make others wince. Some find DMS obvious at low levels and others need several times as much.</p><p>If your head brewer has a high diacetyl threshold and signs off every tank, the brewery will ship buttery lager without anyone noticing. Knowing each panellist's thresholds turns a sensory panel from a group of opinions into a measuring instrument.</p>"
+  ],
+  [
+   "What you need",
+   "<ul><li>A spiking kit with food-grade reference standards for the compounds you care about. Our guide to <a href=\"off-flavour-spiking-kits.html\">off flavour spiking kits</a> covers the options.</li><li>A clean, low-flavour base beer, ideally a pale lager from one batch, enough for the whole test.</li><li>Accurate pipettes or syringes and volumetric flasks. Kitchen spoons will not do.</li><li>Identical opaque or dark glasses, coded with random three-digit numbers.</li><li>Someone other than the taster to prepare the samples.</li></ul>"
+  ],
+  [
+   "The ascending forced choice method",
+   "<p>The standard approach is an ascending series with a forced choice at each step. You prepare the compound at a range of concentrations, each step about double the last, starting well below the expected threshold.</p><p>At each step the taster gets three glasses: two of plain base beer and one spiked. They must pick the odd one out, even if they have to guess. This is a <a href=\"triangle-test.html\">triangle test</a> repeated up the series. Start at the weakest step and work upwards, because tasting a strong sample first would blunt the palate for the weak ones.</p><p>Record each answer. A person's individual threshold is usually estimated as the geometric mean of the last concentration they missed and the first concentration from which they answered correctly at every step above it. With one guess in three being right by chance, a single correct answer means little. The pattern across steps is what counts.</p>"
+  ],
+  [
+   "Which faults to test first",
+   "<p>Pick the faults your process is most likely to produce. For most breweries that list starts with these:</p><ul><li><strong>Diacetyl</strong>, the butter fault from rushed or unhealthy fermentation. In pale lager its commonly quoted threshold is around 0.1 mg/L. See our guide to <a href=\"diacetyl-off-flavour.html\">diacetyl</a>.</li><li><strong>Acetaldehyde</strong>, green apple, from beer pulled off yeast too soon.</li><li><strong>DMS</strong>, cooked sweetcorn, from a weak boil or slow cooling.</li><li><strong>Trans-2-nonenal</strong>, wet cardboard, from oxidation.</li><li><strong>Isovaleric acid</strong>, cheesy, from old hops.</li></ul><p>Test one compound per session. Mixing them confuses both the taster and the data.</p>"
+  ],
+  [
+   "Running it well",
+   "<p>Control everything except the compound. Serve all glasses at the same temperature, around 10 to 12 °C, where aromas show. Pour the same volume. Test in a quiet room with no food smells, mid-morning, before anyone has had coffee or lunch. Ban strong perfume.</p><p>Prepare a stock solution first, then dilute from it. Adding a tiny dose straight into each glass is where most errors creep in. Keep a written dilution table and have a second person check it before the session. Spiked samples should be poured fresh, because some compounds, acetaldehyde in particular, are volatile and fade if the glasses stand around.</p><p>Allow water and unsalted crackers between sets. Give a few minutes rest between steps. Repeat the whole series on another day. Thresholds wobble with sleep, a cold or a heavy meal the night before, so a single session is a snapshot rather than a verdict.</p>"
+  ],
+  [
+   "Using the results",
+   "<p>Plot each panellist's threshold for each compound. You will see clear patterns: one person catches diacetyl early, another is reliable on DMS, a third barely registers acetaldehyde. Assign release tasting so that every critical fault is covered by at least one sensitive taster.</p><p>Thresholds also move with training. A taster who practises with spiked samples often gets better at naming a fault, even if their raw detection changes less. Re-test every six months or so. Setting this up for the first time is where most breweries stumble: the dilutions, the coding and the statistics all need to be right before the numbers mean anything. That set-up is a large part of what we teach hands-on.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a sensory threshold?",
+   "It is the lowest concentration at which a person can reliably detect a compound. Detection means noticing a difference, while recognition means naming it, which usually needs a higher level."
+  ],
+  [
+   "How many concentration steps should the test use?",
+   "Six to eight steps, each roughly double the last, usually cover the range. Start well below the published threshold so every taster begins by guessing."
+  ],
+  [
+   "Can I use beer from different batches as the base?",
+   "No. Use one batch of a clean, pale beer for the whole series, or batch differences will be mistaken for the spiked compound."
+  ]
+ ],
+ "cta": {
+  "title": "Build a panel that catches faults before customers do",
+  "body": "Our Sensory Evaluation course runs for two weeks, live online at weekends, for ₹5,999. You learn to run spiked threshold tests, train tasters and read the results, which a written method alone cannot give you.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "off-flavour-spiking-kits",
+  "triangle-test",
+  "diacetyl-off-flavour"
+ ]
+}

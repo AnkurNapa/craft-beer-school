@@ -1,0 +1,71 @@
+{
+ "slug": "purging-tanks-and-hoses-with-co2-before-a-beer-transfer",
+ "cat": "Brewing science",
+ "h1": "Purging tanks and hoses with CO2 before a beer transfer",
+ "title": "Purging tanks and hoses with CO2 | Craft Beer School",
+ "desc": "How to purge tanks and hoses with CO2 before transferring beer, which method uses less gas and how to check oxygen afterwards.",
+ "teaser": "Pushing beer into a tank full of air undoes weeks of careful brewing in a few minutes. Purging done right takes less CO2 than you think.",
+ "standfirst": "Before beer moves into a bright tank or through a hose, the air inside needs to go. We compare purging methods, explain how much CO2 each one needs and cover the safety rules for handling the gas.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why purging matters",
+   "<p>Oxygen picked up after fermentation is one of the main causes of stale beer. A tank full of air has about 21% oxygen. Transferring beer into it, even gently, lets some of that oxygen dissolve. Our guide to <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup in packaging</a> covers where else it sneaks in.</p><p>Purging replaces air with CO2 before the beer arrives. Done well, it keeps dissolved oxygen low. Done badly, it wastes gas and still leaves oxygen behind.</p>"
+  ],
+  [
+   "Method 1: liquid displacement",
+   "<p>The most effective method is to fill the tank completely with water or sanitiser, then push it out from the bottom with CO2 from the top.</p><p>As the liquid drains, the space above fills with CO2. Because no air mixes with the CO2, the tank ends up with very low oxygen. It also uses relatively little CO2, roughly one tank volume at the final pressure.</p><p>This method suits bright tanks that are filled with sanitiser anyway. The downside is the water or sanitiser needed to fill the tank.</p>"
+  ],
+  [
+   "Method 2: pressure cycles",
+   "<p>Another method is to pressurise the empty tank with CO2, vent it, then repeat. Each cycle dilutes the oxygen.</p><p>If you pressurise to 1 bar gauge (2 bar absolute) and vent back to zero gauge, the oxygen level halves each cycle, assuming good mixing. Starting from 21%, it drops to about 10.5%, then 5.25%, then 2.6% and so on.</p><p>Higher pressures cut oxygen faster per cycle. But this method uses more CO2 than liquid displacement. The tank must also be rated for the pressure.</p>"
+  ],
+  [
+   "Method 3: flowing CO2 from the bottom",
+   "<p>Some brewers blow CO2 into the bottom of a tank with the top vent open. CO2 is heavier than air, so in a perfect world it would push air out from below.</p><p>In practice, CO2 mixes with air as it flows in. With full mixing, each tank volume of CO2 reduces oxygen to about 37% of its starting level. You need several tank volumes to get low oxygen. Gentle, low-flow purging with a diffuser at the bottom reduces mixing and improves results.</p>"
+  ],
+  [
+   "Purging hoses",
+   "<p>Hoses are often overlooked. A 10 metre transfer hose holds a surprising amount of air. Options include:</p><ul><li>Fill the hose with deaerated water or sanitiser, then push it out with beer, sending the first litres to drain.</li><li>Blow CO2 through the hose before connecting it.</li><li>Push a small amount of beer through the hose to drain before connecting to the receiving tank.</li></ul><p>One brewhouse-floor detail: when filling a hose with beer, watch the sight glass. Send beer to drain until the stream runs clear without bubbles. That small loss is cheaper than oxygen pickup in a whole tank.</p>"
+  ],
+  [
+   "Choosing a method for your brewery",
+   "<p>For a brewpub, a practical routine often combines methods. Bright tanks get the liquid displacement method, since they are filled with sanitiser after cleaning anyway. Kegs are purged with CO2 by pressure cycles or by filling with sanitiser and pushing it out. Hoses are filled with water or sanitiser and pushed through to drain.</p><p>Write the routine down with gas pressures and the number of cycles. A purge that depends on each brewer's habits will vary from shift to shift. So will your oxygen readings.</p>"
+  ],
+  [
+   "Checking the result",
+   "<p>Do not assume a purge worked. Use a dissolved oxygen meter or a gas analyser to check:</p><ul><li>Measure oxygen in the tank headspace or vent gas after purging.</li><li>Measure dissolved oxygen in the beer after transfer.</li></ul><p>Many breweries aim to keep oxygen pickup during a transfer to a small fraction of a part per million. Track results over time to spot problems. Our guide to <a href=\"bright-beer-tank-management.html\">bright beer tank management</a> covers the rest of the routine.</p>"
+  ],
+  [
+   "CO2 safety",
+   "<p>CO2 is invisible, has little smell at low levels and can cause dizziness, unconsciousness and death at high levels. It sinks and collects in low areas, tank bottoms and cellars.</p><ul><li>Ventilate areas where tanks are vented.</li><li>Install CO2 monitors in cellars and enclosed spaces.</li><li>Never enter a tank without following confined space procedures.</li><li>Use beverage grade CO2 from a reliable supplier.</li></ul><p>Our guide to <a href=\"co2-in-the-brewery.html\">CO2 in the brewery</a> covers gas handling and safety in more detail.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the best way to purge a tank with CO2?",
+   "Filling the tank with water or sanitiser and pushing it out with CO2 from the top gives the lowest oxygen with the least gas."
+  ],
+  [
+   "How many pressure cycles do I need?",
+   "Each cycle to 1 bar gauge and back roughly halves the oxygen. Several cycles bring it down to a few percent or less."
+  ],
+  [
+   "Do I need to purge hoses?",
+   "Yes. A long hose holds plenty of air. Fill it with water or sanitiser, or push beer to drain before connecting."
+  ]
+ ],
+ "cta": {
+  "title": "Keep oxygen out of every transfer",
+  "body": "Advanced Brewing Science is a 6 week live course covering oxygen control, transfers and packaging, with the measurements that show whether your purging actually works. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "oxygen-pickup-in-packaging",
+  "co2-in-the-brewery",
+  "bright-beer-tank-management"
+ ]
+}

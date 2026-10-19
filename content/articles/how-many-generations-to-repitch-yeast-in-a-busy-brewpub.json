@@ -1,0 +1,67 @@
+{
+ "slug": "how-many-generations-to-repitch-yeast-in-a-busy-brewpub",
+ "cat": "Brewing science",
+ "h1": "How many generations to repitch yeast in a busy brewpub",
+ "title": "Repitching yeast in a busy brewpub | Craft Beer School",
+ "desc": "How many times a brewpub can reuse its yeast, what limits the number and the warning signs that a culture should be retired.",
+ "teaser": "Five generations, ten, twenty? The honest answer is: until your yeast tells you to stop. Here is how to listen.",
+ "standfirst": "Repitching saves money and gives a house character, but every generation carries risk. We explain what limits the number of generations, the signs a culture is tiring and how a busy brewpub can run a simple yeast routine.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "There is no fixed number",
+   "<p>Ask ten brewers how many generations they repitch and you will hear ten answers. Many small breweries repitch somewhere between five and ten generations. Some lager breweries with strong yeast management go far beyond that. Others start fresh every few batches because they cannot control the risks.</p><p>The number is not a property of the strain. It is a result of how well the yeast is harvested, stored and checked. A clean, healthy culture handled well can run for many generations. A poorly handled one can be finished after two.</p>"
+  ],
+  [
+   "What wears a culture out",
+   "<p>Four things push a culture towards retirement:</p><ul><li><strong>Contamination.</strong> Each harvest can carry bacteria or wild yeast forward. Small infections grow with each generation.</li><li><strong>Stress.</strong> High gravity, warm storage, long storage and alcohol damage cells and drain their reserves.</li><li><strong>Mutation.</strong> Respiratory-deficient mutants and other variants build up over time.</li><li><strong>Selection.</strong> Harvesting from one part of the cone favours cells that flocculate at a certain speed, so the culture drifts.</li></ul><p>Our guide to <a href=\"yeast-harvesting-and-reuse.html\">yeast harvesting and reuse</a> explains how to collect a clean crop.</p>"
+  ],
+  [
+   "Warning signs to watch",
+   "<p>The yeast will tell you it is tiring before a customer notices. Watch for:</p><ul><li>Longer lag times after pitching at the same rate and temperature.</li><li>Slower attenuation or a higher final gravity than usual.</li><li>Diacetyl that lingers after the usual rest.</li><li>Changes in flocculation: beer staying hazy, or yeast dropping too early.</li><li>Sulphur, phenolic or sour notes that are not part of the house profile.</li><li>Viability falling below about 90% on fresh harvests.</li></ul><p>Any one of these on its own may be a one-off. Two together, or a trend over several batches, means it is time to start fresh.</p>"
+  ],
+  [
+   "A routine for a busy brewpub",
+   "<p>A brewpub brewing several times a week can run a simple programme:</p><ol><li>Harvest from the cone shortly after terminal gravity and a short cool, keeping the creamy middle portion.</li><li>Store at about 2 to 4 °C and repitch within a few days.</li><li>Count cells and check viability with methylene blue before each pitch. Adjust the volume to match.</li><li>Record generation number, source tank and results for each harvest.</li><li>Brew lower gravity beers with fresh or early-generation yeast. Avoid harvesting from high gravity or heavily dry hopped batches.</li><li>Set a ceiling (for example ten generations) and start fresh at that point even if everything looks fine.</li></ol><p>One brewhouse-floor detail: when dry hops are added before harvest, the cone fills with hop debris. Many brewpubs harvest before dry hopping, or dump the hop material first, to keep the slurry clean.</p>"
+  ],
+  [
+   "Keeping generations honest",
+   "<p>Counting generations sounds simple until two tanks are harvested on the same day and the slurries get mixed. Then nobody really knows what generation is in the brink. Agree a rule: the generation number goes up by one at each pitch. A mixed slurry takes the higher number of the two.</p><p>Keep a frozen or slanted master stock of each house strain, or buy fresh from the same supplier, so you can restart from a known point. Without a clean starting culture, retiring a tired one just means repitching from another tired tank.</p><p>It also helps to brew a reference beer early in each cycle, such as the house lager or pale ale. Log its attenuation and flavour. When later generations drift from that reference, you have a baseline to compare against instead of memory.</p>"
+  ],
+  [
+   "The cost argument",
+   "<p>Fresh yeast for every batch is expensive in India, especially for imported liquid strains that need cold shipping. Repitching saves money and keeps a house character consistent. But one infected batch dumped down the drain costs more than many packets of fresh yeast.</p><p>The cheapest route is a disciplined programme that lets you reuse yeast with confidence. Our guide to <a href=\"setting-up-a-yeast-management-programme.html\">setting up a yeast management programme</a> covers the lab kit and records you need.</p>"
+  ],
+  [
+   "Making the call",
+   "<p>A head brewer's job is to decide when to retire a culture before quality slips. That takes data, not instinct. The brewers who do this well track every generation and know what normal looks like for their strain in their tanks.</p><p>If you are moving from homebrew to a brewpub, or taking over a brewery's yeast, this is one of the skills that most quickly separates a professional from an enthusiast.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many times can I repitch yeast?",
+   "Many small breweries use five to ten generations, but it depends on hygiene, storage and checks. Retire a culture when attenuation, flavour or viability drift."
+  ],
+  [
+   "What viability should repitched yeast have?",
+   "Many brewers want viability above about 90% on fresh harvests. Lower readings suggest stress or ageing."
+  ],
+  [
+   "Should I harvest yeast from a dry hopped beer?",
+   "Better not. Harvest before dry hopping or from beers with no dry hops, so the slurry is not full of hop debris."
+  ]
+ ],
+ "cta": {
+  "title": "Run your brewery's yeast like a professional",
+  "body": "Advanced Brewing Science runs as live weekend classes, Saturday and Sunday 12:00 PM to 2:00 PM IST, with a maximum of 20 brewers per batch, recordings and a certificate at the end. 6 weeks, ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "yeast-harvesting-and-reuse",
+  "setting-up-a-yeast-management-programme",
+  "yeast-viability-and-vitality"
+ ]
+}

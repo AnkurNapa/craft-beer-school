@@ -1,0 +1,67 @@
+{
+ "slug": "commissioning-glycol-and-refrigeration-before-the-first-brew",
+ "cat": "Consultancy",
+ "h1": "Commissioning glycol and refrigeration before the first brew",
+ "title": "Commissioning Glycol Before First Brew | Craft Beer School",
+ "desc": "Commission a brewery's glycol and refrigeration system before brewing: concentration, pressure tests, probe calibration, crash tests and Indian heat.",
+ "teaser": "Your chiller will be tested by the first fermentation whether you test it or not. Better to find out with water.",
+ "standfirst": "Fermentation control is only as good as the cold side behind it. A few days of deliberate testing before the first brew tells you whether the glycol system can hold your tanks steady when an Indian summer arrives.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the cold side needs its own commissioning",
+   "<p>New breweries often commission the brewhouse with great care and treat the glycol system as plumbing. Then the first lager ferments warm, the second tank refuses to crash and the chiller trips on a May afternoon. Temperature control decides more about flavour than almost any recipe choice, so the system that provides it deserves proper testing.</p><p>The aim is simple. Before any wort goes in, prove that the chiller can hold glycol at its set point, that every jacket and valve works and that every probe tells the truth. Our guide to <a href=\"glycol-cooling-systems.html\">glycol cooling systems</a> explains the parts. This one is about testing them.</p>"
+  ],
+  [
+   "Check the glycol itself",
+   "<p>Use food-grade propylene glycol, never automotive coolant. Measure the concentration with a refractometer made for glycol, because a mix that is too weak can freeze in the chiller's evaporator at low supply temperatures and one that is too strong pumps poorly and wastes money. Many breweries run around 30 to 35 percent glycol for a supply temperature a few degrees below zero, but follow the chiller maker's figure for your unit.</p><p>Check the reservoir level after the system has been run and bled of air. Air trapped in long pipe runs is a common reason one tank cools well and the one at the end of the line does not.</p>"
+  ],
+  [
+   "Pressure, leaks and valves",
+   "<ul><li>Pressure test the glycol loop and look for weeping at every joint, union and valve before insulation goes on.</li><li>Open and close every jacket solenoid from its controller and confirm by touch or flow that the right jacket responds. Crossed wiring between two tanks is more common than anyone admits.</li><li>Check that each jacket drains and refills properly and that no jacket is airlocked.</li><li>Inspect pipe insulation. Bare cold pipe in a humid Indian brewery drips constantly and wastes cooling capacity.</li></ul>"
+  ],
+  [
+   "Calibrate every probe",
+   "<p>A fermenter controller that reads two degrees wrong will run every batch two degrees wrong, forever. Check each tank probe against a calibrated reference thermometer, ideally in an ice bath at 0 °C and at a fermentation temperature such as 18 °C. Record the offset and correct it in the controller. Do the same for the glycol supply and return probes on the chiller.</p><p>This is the single brewhouse-floor check we would never skip: one reference thermometer, one bucket of ice and water, an hour of work.</p>"
+  ],
+  [
+   "Run a crash test with water",
+   "<p>Fill one or more fermenters with water, bring them to a typical fermentation temperature and then set them to crash to around 0 to 2 °C. Log how long each tank takes and what happens to the glycol supply temperature while it does. Then try two tanks crashing at once, because that is what will happen on a busy week.</p><p>Watch for three things: the glycol supply temperature climbing and not recovering, the chiller short-cycling or tripping and one tank lagging far behind the others. Any of those points to undersizing, a pipe or valve problem or a fault in the control settings.</p><p>If your wort cooling uses glycol or chilled liquor from the same plant, include that load in the test too. Wort cooling on brew day and an active fermentation peak can land on the same afternoon.</p>"
+  ],
+  [
+   "Plan for Indian heat",
+   "<p>Air-cooled condensers lose capacity as the air around them gets hotter. Most chillers are rated at a stated ambient temperature that an Indian rooftop in April will beat comfortably. Ask the supplier what capacity the chiller delivers at your realistic peak ambient, not at the brochure condition. Give the condenser shade and space so it does not breathe its own hot exhaust.</p><p>Fermentation itself produces heat, so a full cellar of actively fermenting ale is a heavier load than a cellar of conditioning beer. Our guide to <a href=\"fermenting-through-an-indian-summer.html\">fermenting through an Indian summer</a> covers the brewing side of the same problem.</p>"
+  ],
+  [
+   "What to hand over",
+   "<p>At the end of commissioning you should have a written record: glycol concentration, supply temperature at rest and under load, crash times per tank, probe offsets and any faults found and fixed. Repeat the probe check every few months and the concentration check at least twice a year. That record is also what you show the chiller supplier if a warranty argument starts.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What glycol concentration should a brewery use?",
+   "Follow your chiller maker's figure. Many breweries run around 30 to 35 percent food-grade propylene glycol for supply temperatures a few degrees below zero, checked with a glycol refractometer."
+  ],
+  [
+   "How do we know if the chiller is undersized?",
+   "Run a crash test on two or more tanks of water at once. If the glycol supply temperature climbs and does not recover, or the chiller trips, it is struggling."
+  ],
+  [
+   "How often should fermenter probes be calibrated?",
+   "Check them at commissioning and every few months after that against a calibrated reference thermometer in an ice bath and at fermentation temperature."
+  ]
+ ],
+ "cta": {
+  "title": "Tanks that will not hold temperature?",
+  "body": "Our consultant brewers commission glycol and refrigeration systems with you: concentration, pressure tests, probe calibration and crash tests under load. Rahul Baliyan leads on brewing, Ankur Napa on quality and data. Your team keeps the checklist.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "glycol-cooling-systems",
+  "brewhouse-commissioning-checklist",
+  "fermentation-temperature-control-at-home"
+ ]
+}

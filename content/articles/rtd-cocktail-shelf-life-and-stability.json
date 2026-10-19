@@ -1,0 +1,71 @@
+{
+ "slug": "rtd-cocktail-shelf-life-and-stability",
+ "cat": "Drinks business",
+ "h1": "Shelf life and stability problems in ready to drink cocktails",
+ "title": "RTD Cocktail Shelf Life and Stability | Craft Beer School",
+ "desc": "Why ready to drink cocktails go wrong on the shelf, from citrus flavour fade and haze to spoilage and can corrosion. Learn how to prevent each.",
+ "teaser": "Your RTD tasted perfect on launch day. Three months in a warm shop later, the lime tastes like turpentine.",
+ "standfirst": "Ready to drink cocktails combine alcohol, acid, sugar, flavour and fizz in a sealed can that may sit warm for months. Each of those ingredients can change over time. This guide covers the common failures and what to test before launch.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why RTDs are harder than they look",
+   "<p>A cocktail in a bar is drunk within minutes. An RTD has to taste the same after months of transport and storage, often in Indian heat. Flavours, colour and fizz all change with time, temperature, light and oxygen. Some RTDs also give microbes enough to grow on.</p>\n<p>The risk depends on the recipe. A spirit-based highball at 7% ABV with little sugar is fairly robust. A low alcohol, juice-based drink with sugar and no preservative is fragile. Know which one you are making. Our guide to <a href=\"low-alcohol-and-mixed-drinks-production.html\">low alcohol and mixed drinks production</a> covers the base recipes.</p>"
+  ],
+  [
+   "Citrus and flavour fade",
+   "<p>Citrus is the most common RTD flavour and the most fragile. The aroma compounds in lime, lemon and orange break down with heat, oxygen and acid. Limonene and citral, key citrus aromas, can turn into stale, piney, medicinal or turpentine-like notes. Fresh juice changes faster than stable flavour preparations.</p>\n<p>Ask your flavour house for flavours designed for acidic, alcoholic drinks and for evidence of their stability. Keep dissolved oxygen in the can as low as possible. Our guide to <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup in packaging</a> explains how to control it on the filler.</p>"
+  ],
+  [
+   "Haze, sediment and colour change",
+   "<p>Juice brings pectin, proteins and pulp that can settle out or form haze. Some colourings and natural flavours are unstable in light and acid and fade over time. A clear drink in a glass bottle can look very different after a few weeks under shop lights.</p>\n<p>Decide early whether your drink is meant to be clear or cloudy. Use clarified juices, stable colours or clouding agents designed for the purpose. Cans protect against light completely, which is one reason many RTDs are canned.</p>"
+  ],
+  [
+   "Microbial spoilage",
+   "<p>Alcohol, acidity and low sugar all protect a drink. Weaken them and yeasts, moulds or bacteria can grow. Spoilage shows up as haze, sediment, off flavours, extra fizz or swollen cans. In the worst cases, pressure builds until a can bulges or a bottle bursts.</p>\n<p>Low alcohol, sweetened drinks with juice are most at risk. The usual protections are pasteurisation, sterile filtration, permitted preservatives where the rules allow and strict hygiene in production. Tunnel pasteurisation is common for cans. Our guide on <a href=\"pasteurisation-units.html\">pasteurisation units</a> explains how heat treatment is measured.</p>"
+  ],
+  [
+   "Can and package problems",
+   "<p>Acidic drinks, especially those with chloride or certain flavourings, can attack can linings. Over time that can give a metallic taste or, in rare cases, pinholes and leaks. Give your can supplier the full recipe, including pH, ABV and flavour list. Ask for liner compatibility testing.</p>\n<p>Carbonation loss is another issue. A poor seam or crown leaks CO2 slowly. Check seams on every run and test filled cans for carbonation over time.</p>"
+  ],
+  [
+   "Test before you launch",
+   "<p>Run a shelf life study before the first production release. Store cans at fridge temperature, at normal room temperature and at a warm temperature such as 30 to 35 °C. Taste and test them at fixed intervals: flavour, colour, haze, pH, carbonation and microbiology.</p>\n<p>The warm samples show you what happens in a hot warehouse or a truck in May. A forced ageing study speeds up some changes, but it does not replace a real time study, so run both. Our guide to <a href=\"forced-ageing-tests.html\">forced ageing tests</a> describes the method.</p>\n<p>Keep retained samples from every batch for the full shelf life. When a complaint arrives, you can compare the returned can with one from the same batch stored correctly.</p>"
+  ],
+  [
+   "Set an honest shelf life",
+   "<p>Set the shelf life on what the tests show, with a margin for the cold chain you actually have. A drink that holds for nine months in a cool store may only last four in a hot market. Print a best before date on every unit, with storage advice. Make sure your distributors rotate stock first in, first out.</p>\n<p>If you change a supplier, a flavour or the can, rerun at least part of the study. Small changes can shift stability in ways that only show up months later. A new batch of the same flavour from the same supplier deserves a quick check too, because natural extracts vary from lot to lot.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does lime flavour go stale in RTDs?",
+   "Citrus aroma compounds break down with heat, oxygen and acid, turning into piney or medicinal notes. Stable flavours and low oxygen slow it down."
+  ],
+  [
+   "Do RTD cocktails need pasteurisation?",
+   "Low alcohol, sweetened or juice-based RTDs usually need pasteurisation, sterile filtration or permitted preservatives to stay stable."
+  ],
+  [
+   "How do I set an RTD's shelf life?",
+   "Run real time and forced studies at cool, room and warm temperatures, test at intervals and set the date with a margin for your cold chain."
+  ],
+  [
+   "Why do some RTD cans taste metallic?",
+   "Acidic or chloride-rich drinks can attack the can lining. Share the recipe with your can supplier and ask for liner compatibility testing."
+  ]
+ ],
+ "cta": {
+  "title": "Launch an RTD that lasts the shelf life",
+  "body": "Our RTD Drinks course runs for two weeks for ₹5,000. It covers formulation for stability, preservation, packaging and shelf life testing, with study designs you can run yourself.",
+  "label": "See the full syllabus",
+  "href": "rtd-drinks-alcoholic-and-non-alcoholic-course.html"
+ },
+ "related": [
+  "low-alcohol-and-mixed-drinks-production",
+  "oxygen-pickup-in-packaging",
+  "new-product-development-for-drinks"
+ ]
+}

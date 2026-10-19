@@ -1,0 +1,71 @@
+{
+ "slug": "beer-ai-use-cases-a-gcc-data-team-can-deliver-first",
+ "cat": "Beer for teams",
+ "h1": "Beer AI use cases a GCC data team can deliver first",
+ "title": "Beer AI Use Cases for GCC Data Teams | Craft Beer School",
+ "desc": "Which brewery AI projects a GCC data team can deliver first, the data each needs and how to pick one that earns trust with the business.",
+ "teaser": "Most brewery AI projects stall because the first one was too ambitious. Start with a problem the brewers already argue about.",
+ "standfirst": "A data team in a Bengaluru or Hyderabad GCC can build impressive models. The ones that succeed in beer start with a use case that has clean data, a clear owner and a decision someone makes every week. Here is a shortlist and how to choose.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Choose a decision, not a technology",
+   "<p>The fastest way to lose a brewery's trust is to show up with a large language model and no problem. Start instead with a decision that people make repeatedly and that costs money when it goes wrong: how much beer to brew next month, when a tank will be ready, why the packaging line stopped, which complaints are serious.</p><p>A good first use case has four properties: data that already exists, a named owner on the business side, a decision cycle measured in days or weeks and a result that can be checked against reality quickly.</p>"
+  ],
+  [
+   "Use case one: demand forecasting by SKU and region",
+   "<p>Beer demand in India swings hard with the seasons. Summer heat, the monsoon and festivals shift volumes. State excise changes can move prices overnight. Our guide to <a href=\"beer-demand-forecasting-indian-seasons.html\">beer demand forecasting in Indian seasons</a> covers the drivers.</p><p>Most companies already have shipment and depletion history, calendar data and promotion records. A forecasting model that beats the current spreadsheet by a few points of accuracy on the top SKUs is valuable and easy to measure. Start with a few states and the biggest brands, not the whole portfolio.</p>"
+  ],
+  [
+   "Use case two: fermentation monitoring",
+   "<p>Fermenters log temperature and, increasingly, gravity through inline or in-tank sensors. A model that learns the normal fermentation curve for each brand can flag a tank that is running slow or has stalled hours before a brewer would notice on the morning round. It can also predict when a tank will reach final gravity, which helps planners schedule tank space.</p><p>The data needs care. Sensor gaps, recalibrations and manual readings must be cleaned before modelling. See <a href=\"beer-quality-data-for-data-teams.html\">beer quality data for data teams</a> for the common traps.</p>"
+  ],
+  [
+   "Use case three: packaging line downtime analysis",
+   "<p>Packaging lines record stops, reasons and durations. Often the reasons are entered by hand and inconsistently. A first project that cleans and classifies these stop records, then shows which machine and which cause lose the most time, is useful even before any prediction. It points maintenance effort where it pays.</p><p>Once the data is trustworthy, predicting failures from machine signals becomes realistic. Doing it the other way round rarely works.</p>"
+  ],
+  [
+   "Use case four: complaint and quality text analysis",
+   "<p>Consumer complaints, trade feedback and quality notes are mostly free text. Language models are good at sorting this text into categories, such as flat beer, foreign matter, off taste or damaged pack. They are also good at spotting clusters by batch, region or date. That helps a quality team find a real problem faster.</p><p>Keep a human in the loop. The model sorts and highlights. Quality staff still investigate and decide.</p>"
+  ],
+  [
+   "What to leave for later",
+   "<p>Some ideas sound exciting but make poor first projects. Recipe generation by AI has no clear owner and is hard to validate without brewing. Fully automated process control touches safety and quality systems that need careful engineering and sign-off. Predictive maintenance on machines with no clean failure history will produce a model nobody trusts.</p><p>These can come later, once the team has delivered something useful and earned access to more data and more people's time.</p>"
+  ],
+  [
+   "Getting the data in the first place",
+   "<p>In many drinks companies the data a GCC team needs sits in several places: sales in the ERP, production in plant systems, quality results in a lab system or spreadsheets and complaints in a customer service tool. Access approvals can take longer than the modelling. Ask early, document every source with its owner and refresh frequency. Agree how plant data leaves the site. A short data map at the start saves weeks of confusion later.</p>"
+  ],
+  [
+   "How to run the first project",
+   "<p>Pick one use case. Sit with the brewers or planners who own the decision and learn how they make it today. Agree on a baseline and a success measure before modelling. Ship a simple version within weeks, put it in front of users and improve from their feedback.</p><p>The hardest part for most GCC teams is not the modelling. It is understanding the process well enough to know what the data means: why a gravity reading jumps after dilution, why a tank's temperature profile changes mid-fermentation on purpose, why shipments and depletions disagree. That domain gap is what slows projects down.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the easiest AI project for a brewery?",
+   "Demand forecasting on the top SKUs is often the easiest to start, because shipment history already exists and accuracy is simple to measure against the current method."
+  ],
+  [
+   "Do we need sensors to start with AI in a brewery?",
+   "No. Sales, planning and complaint data are good starting points. Sensor projects become realistic once the data is reliable and well labelled."
+  ],
+  [
+   "Should we use large language models first?",
+   "Use them where text is the problem, such as complaints or SOP search. For forecasting and process monitoring, simpler statistical and machine learning models often work better."
+  ]
+ ],
+ "cta": {
+  "title": "Bring your data team into the brewery",
+  "body": "AI for Craft Breweries is two weeks of live weekend classes (₹5,000), with a maximum of 20 per batch, recordings and a certificate. It pairs brewing process knowledge with practical AI use cases so your team can deliver the first project with confidence.",
+  "label": "Save your seat",
+  "href": "ai-for-craft-breweries-course.html"
+ },
+ "related": [
+  "data-and-ai-in-breweries-wineries-distilleries",
+  "beer-quality-data-for-data-teams",
+  "ankur-napa-ai-for-breweries"
+ ]
+}

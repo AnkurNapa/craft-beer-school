@@ -1,0 +1,71 @@
+{
+ "slug": "passivating-new-stainless-steel-tanks-before-first-use",
+ "cat": "Brewing science",
+ "h1": "Passivating new stainless steel tanks before first use",
+ "title": "Passivating new stainless steel tanks | Craft Beer School",
+ "desc": "Why new stainless steel brewery tanks need passivation, the step-by-step process and the safety rules for handling the acids.",
+ "teaser": "A new tank is not ready for beer. Free iron from fabrication can rust, pit and give your first batches a metallic edge.",
+ "standfirst": "Passivation removes free iron from new stainless steel and builds the protective oxide layer. We explain why it matters, the usual steps and the safety rules for handling acids in a small brewery.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why stainless steel needs help",
+   "<p>Stainless steel resists corrosion because chromium in the steel forms a thin, invisible chromium oxide layer on the surface. This layer protects the metal underneath.</p><p>During fabrication, cutting, grinding and welding can leave free iron and other contaminants on the surface. Heat from welding can also damage the protective layer. If these areas are not treated, they can rust, pit or release iron into beer.</p><p>Passivation is the chemical treatment that removes free iron and helps the oxide layer rebuild.</p>"
+  ],
+  [
+   "What can go wrong without it",
+   "<p>A tank that is not passivated can show:</p><ul><li>Rust spots or tea staining, often near welds.</li><li>Pitting corrosion, especially if chlorine-based sanitisers are used.</li><li>Metallic off flavours in early batches. Our guide to <a href=\"metallic-off-flavour.html\">metallic off flavour</a> covers the taste side.</li><li>Faster staling, since iron speeds up oxidation in beer.</li></ul>"
+  ],
+  [
+   "The usual process",
+   "<p>Always follow the tank manufacturer's instructions first. A common process looks like this:</p><ol><li><strong>Inspect.</strong> Check for visible weld discolouration, grinding marks or debris.</li><li><strong>Clean.</strong> Run a hot caustic clean to remove oils, grease and fabrication residues. Rinse well.</li><li><strong>Passivate.</strong> Circulate an acid passivation solution, often based on citric, nitric or phosphoric acid, at the concentration, temperature and time the supplier recommends.</li><li><strong>Rinse.</strong> Rinse with clean water until the rinse runs neutral.</li><li><strong>Let it air.</strong> Leave the tank open and dry so oxygen in the air helps rebuild the oxide layer.</li></ol><p>Many brewery suppliers sell ready-made passivation products for this purpose. The standard ASTM A967 describes accepted passivation treatments, which some suppliers use as a reference.</p>"
+  ],
+  [
+   "Citric or nitric acid",
+   "<p>Nitric acid has long been used for passivation in industry. It is effective but hazardous, with strong fumes and handling risks. Citric acid based products are now common in breweries because they are safer to handle and still remove free iron well when used correctly.</p><p>Phosphoric acid blends are also used, sometimes combined with other acids. Some acid cleaners sold for routine brewery use are labelled as suitable for passivation, while others are not. Read the product data and follow the supplier's instructions for concentration, temperature and contact time.</p><p>Small breweries often find a citric acid based product the safer and simpler choice. Whatever you use, handle it with care and train staff first.</p>"
+  ],
+  [
+   "Weld discolouration and timing",
+   "<p>One brewhouse-floor detail: new tanks often have straw, gold or blue coloured bands near welds. This is heat tint, an oxide layer damaged by welding heat. Light heat tint can often be cleaned off during passivation. Heavy heat tint may need pickling paste or mechanical cleaning by the fabricator before passivation.</p><p>Ask your fabricator about weld finishing before the tank ships. It is easier to fix in the workshop than in a brewery.</p><p>Plan passivation into commissioning. The usual order is installation, pressure and leak tests, cleaning, passivation, then a final clean and sanitise before the first water and wort runs.</p><p>Also passivate after any repair, welding or grinding on a tank or fitting. Do it again whenever rust spots appear. Some breweries add passivation to their annual maintenance shutdown.</p>"
+  ],
+  [
+   "Checking the result",
+   "<p>Small breweries can do simple checks:</p><ul><li><strong>Visual inspection.</strong> Look for rust or discolouration after a few days.</li><li><strong>Water break test.</strong> A clean surface holds a continuous water film. Beading suggests oil or residues are still present.</li><li><strong>Ferroxyl test.</strong> A test solution turns blue where free iron is present. Some suppliers can supply this.</li></ul><p>Our guide to <a href=\"brewhouse-commissioning-checklist.html\">the brewhouse commissioning checklist</a> covers passivation alongside other first-use steps.</p>"
+  ],
+  [
+   "Safety comes first",
+   "<p>Passivation involves strong chemicals. Treat it seriously:</p><ul><li>Wear eye protection, face shields, chemical-resistant gloves and aprons.</li><li>Work in a well ventilated area.</li><li>Never mix acids with chlorine-based products, as toxic gases can form.</li><li>Add acid to water, never water to acid.</li><li>Follow confined space rules if anyone needs to enter a tank.</li><li>Dispose of spent solutions according to local rules.</li></ul><p>Read the safety data sheet for every product before use. If your team has not handled acids before, train them first.</p>"
+  ],
+  [
+   "Keeping tanks passive",
+   "<p>Passivation is not a one-time job. Chlorine-based sanitisers, strong acids, scratches and damage can break down the oxide layer over time. Many breweries repassivate every year or after any repair or grinding work.</p><p>Good cleaning practices also help. Our guide to <a href=\"cip-cleaning-in-place.html\">CIP cleaning in place</a> covers routine cleaning cycles that protect stainless steel.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do new brewery tanks need passivation?",
+   "Fabrication leaves free iron and damages the protective oxide layer. Passivation removes the iron and helps the layer rebuild."
+  ],
+  [
+   "How often should I repassivate?",
+   "Many breweries repassivate every year or after repairs, grinding or signs of rust."
+  ],
+  [
+   "Can I use any acid for passivation?",
+   "Use a product made for stainless steel passivation and follow the supplier's instructions. Never mix acids with chlorine."
+  ]
+ ],
+ "cta": {
+  "title": "Commission and clean your brewery safely",
+  "body": "Safety in Brewing is a 1 week live course, free to join, covering chemical handling, confined spaces, CO2 and the safe procedures every new brewery team needs.",
+  "href": "safety-in-brewing-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewhouse-commissioning-checklist",
+  "cip-cleaning-in-place",
+  "metallic-off-flavour"
+ ]
+}

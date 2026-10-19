@@ -1,0 +1,67 @@
+{
+ "slug": "reducing-whisky-to-bottling-strength",
+ "cat": "Whisky",
+ "h1": "Reducing whisky to bottling strength: water quality, haze and timing",
+ "title": "Reducing Whisky to Bottling Strength | Craft Beer School",
+ "desc": "How distillers reduce cask strength whisky to bottling strength: water quality, the maths, haze, chill filtration and how long to rest before bottling.",
+ "teaser": "Adding water to whisky sounds simple. Get the water, the speed or the timing wrong and you bottle haze.",
+ "standfirst": "Most whisky leaves the cask well above the strength it is sold at. Bringing it down is one of the last steps before bottling. It is also one of the easiest places to spoil years of maturation with bad water or a rushed schedule.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why whisky gets reduced",
+   "<p>Casks are typically filled at around 60 to 65% ABV and the whisky may come out stronger or weaker depending on the warehouse. Most whisky is sold far lower. Scotch must be at least 40% ABV. Many Indian whiskies are bottled at 42.8% ABV. Premium malts often sit between 43 and 50%.</p><p>Reduction means blending the whisky with water to hit the label strength exactly. Duty is often linked to alcohol content, so being under strength cheats the customer and being over strength gives away taxed alcohol. The tolerances are tight and the records are checked.</p>"
+  ],
+  [
+   "Water quality comes first",
+   "<p>Use water with almost nothing dissolved in it. Calcium, magnesium and iron in hard borewell or municipal water react with compounds from the oak and the spirit, forming a fine haze or even a sediment weeks after bottling. Chlorine adds its own off-notes.</p><p>Most distilleries use reverse osmosis water, often polished further by deionisation, with very low conductivity. Test it every batch, not just at installation, because membranes and resin beds age. Our guide to <a href=\"brewing-with-packaged-drinking-water.html\">brewing with packaged drinking water</a> explains why mineral content on a bottle label matters for a drink. For reduction you want even less than any packaged water carries. The water should also be microbiologically clean and stored in a sanitised, covered tank.</p>"
+  ],
+  [
+   "The maths and why tables beat formulas",
+   "<p>A rough estimate of the water needed is: water volume = whisky volume x (starting ABV / target ABV - 1). Taking 1,000 litres at 60% down to 43% gives roughly 395 litres of water.</p><p>That is only a starting point. Alcohol and water contract when mixed, so 1,000 litres plus 395 litres gives a little less than 1,395 litres. The mixture also warms slightly. Strength also reads differently at different temperatures. Professionals work by mass or with official alcoholometric tables, measure strength with a calibrated density meter at a stated temperature and add the final water in small steps. Always add water to spirit, slowly, with gentle mixing. Measure after each addition.</p>"
+  ],
+  [
+   "Go slowly in stages",
+   "<p>Dropping strength in one large step can shock the spirit. Some compounds that are happily dissolved at 60% ABV fall out of solution at 43%, causing a cloudy whisky called louching. Reducing in two or three stages over days or weeks gives the spirit time to settle and makes any haze easier to remove.</p><p>Many distilleries rest the reduced whisky in a marrying vat or tank for days to weeks before bottling. The flavour knits together and anything that will drop out has time to do so before it reaches the customer's glass.</p>"
+  ],
+  [
+   "Chill haze and chill filtration",
+   "<p>Below about 46% ABV, some fatty acid esters and other compounds from distillation and the cask can come out of solution when the whisky is cold, making it look cloudy. Pour such a whisky over ice and you may see the haze form.</p><p>Chill filtration cools the whisky, often to a few degrees above zero or lower. It then passes through fine filters to remove these compounds. It keeps the whisky bright on a cold shelf. Some drinkers prefer non chill filtered whisky, believing it keeps more texture. That is a style choice. Bottling at 46% or above reduces the need to chill filter at all.</p>"
+  ],
+  [
+   "Problems to watch for",
+   "<ul><li><strong>Haze weeks after bottling:</strong> usually minerals in the water or reduction done too fast.</li><li><strong>Strength drifting in the bottle:</strong> poor mixing in the tank or a temperature error in measurement.</li><li><strong>Flat, watery flavour:</strong> often taken too far down for the whisky's body. Taste trials at several strengths before choosing the label strength.</li><li><strong>White flakes:</strong> often calcium salts from hard water. Check conductivity first.</li></ul><p>Keep a sample of every bottled batch at room temperature and in the fridge. If haze appears, you will see it before the market does.</p>"
+  ],
+  [
+   "Choosing the label strength",
+   "<p>Strength changes flavour as much as it changes price. The same whisky at 40%, 43% and 46% can taste like three different products. Make blind trials with a small panel, then decide. Price, duty and the shape of the brand all play a part. So does the climate, since a whisky sold in hot, humid India may be served with ice or water more often than in Europe.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What water is used to reduce whisky?",
+   "Very pure water, usually reverse osmosis water with very low mineral content. Minerals in hard water cause haze and sediment in the bottle."
+  ],
+  [
+   "Why does whisky go cloudy with ice or water?",
+   "Some compounds dissolve well at high strength but fall out when the whisky is cold or diluted. It is harmless. Chill filtration removes most of them before bottling."
+  ],
+  [
+   "How long should whisky rest after reduction?",
+   "Days to a few weeks is common. Resting lets the flavour settle and any haze drop out before bottling."
+  ]
+ ],
+ "cta": {
+  "title": "Get bottling strength right every batch",
+  "body": "Craft Distilling runs for four weeks of live weekend classes at ₹9,999. It takes you through mashing, fermentation, cuts and cask maturation with the numbers behind each decision, which a single guide cannot do.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "getting-new-make-spirit-right",
+  "whisky-label-terms-explained",
+  "brewing-with-packaged-drinking-water"
+ ]
+}

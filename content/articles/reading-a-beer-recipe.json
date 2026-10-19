@@ -12,7 +12,7 @@
  "sections": [
   [
    "What the top of the sheet is telling you",
-   "<p>Before the grain bill, most recipes give you three numbers: original gravity (OG), final gravity (FG) and IBU. OG tells you how much fermentable sugar went into the wort, FG tells you how much the yeast left behind, and the gap between the two, run through the formula ABV = (OG - FG) x 131.25, gives you the alcohol. IBU is a rough measure of bitterness. None of these numbers tell you what the beer tastes like on their own, but together they set the frame you should expect the rest of the recipe to fill in.</p><p>A recipe with an OG of 1.050 and an FG of 1.010 is promising something crisp and well attenuated. The same OG finishing at 1.020 is promising something sweeter and fuller. Read the gap before you read anything else.</p>"
+   "<p>Before the grain bill, most recipes give you three numbers: original gravity (OG), final gravity (FG) and IBU. OG tells you how much fermentable sugar went into the wort, FG tells you how much the yeast left behind. The gap between the two, run through the formula ABV = (OG - FG) x 131.25, gives you the alcohol. IBU is a rough measure of bitterness. None of these numbers tell you what the beer tastes like on their own, but together they set the frame you should expect the rest of the recipe to fill in.</p><p>A recipe with an OG of 1.050 and an FG of 1.010 is promising something crisp and well attenuated. The same OG finishing at 1.020 is promising something sweeter and fuller. Read the gap before you read anything else.</p>"
   ],
   [
    "The grain bill: percentages, not just weights",
@@ -32,7 +32,7 @@
   ],
   [
    "Reading a recipe before you commit to it",
-   "<p>Put the pieces together before you buy anything. Check that the OG and FG match the grain bill's fermentability, that the hop schedule matches the aroma the style promises, and that the yeast's real attenuation supports the target FG. A recipe that looks internally consistent on paper is far more likely to behave the way it reads once it is in the fermenter. If you want to keep a record of how your own reading of a recipe compares with what actually came out of the tank, that is exactly what a <a href=\"keeping-a-brew-log.html\">brew log</a> is for.</p>"
+   "<p>Put the pieces together before you buy anything. Check that the OG and FG match the grain bill's fermentability, that the hop schedule matches the aroma the style promises and that the yeast's real attenuation supports the target FG. A recipe that looks internally consistent on paper is far more likely to behave the way it reads once it is in the fermenter. If you want to keep a record of how your own reading of a recipe compares with what actually came out of the tank, that is exactly what a <a href=\"keeping-a-brew-log.html\">brew log</a> is for.</p>"
   ]
  ],
  "faqs": [
@@ -46,7 +46,7 @@
   ],
   [
    "Why do two hops with the same weight give different bitterness?",
-   "Alpha acid percentage varies by hop and by harvest. A recipe should always specify alpha acid alongside weight, and calculators use both to estimate IBU."
+   "Alpha acid percentage varies by hop and by harvest. A recipe should always specify alpha acid alongside weight. Calculators use both to estimate IBU."
   ]
  ],
  "cta": {

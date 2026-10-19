@@ -1,0 +1,71 @@
+{
+ "slug": "polyphenols-from-husk-and-hops-and-how-they-shape-haze-and",
+ "cat": "Brewing science",
+ "h1": "Polyphenols from husk and hops and how they shape haze and astringency",
+ "title": "Polyphenols, haze and astringency | Craft Beer School",
+ "desc": "Where beer polyphenols come from, how they combine with proteins to form haze and how brewers control astringency from husk and hops.",
+ "teaser": "That drying grip at the back of the tongue and the cloud in a cold glass often share a cause: polyphenols.",
+ "standfirst": "Polyphenols from malt husk and hops shape both haze and mouthfeel in beer. We explain where they come from, how they bind with proteins and which brewing steps raise or lower them.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What polyphenols are",
+   "<p>Polyphenols are a large family of plant compounds. In beer, the ones that matter most are simple phenolic acids, flavonoids and the larger tannin-like molecules called proanthocyanidins. They come from two places: malt (mainly the husk) and hops.</p><p>Brewing texts usually put malt as the larger source in most beers, with hops adding the rest. That balance shifts in heavily hopped beers, where hops can add a large share.</p><p>Polyphenols are not all bad. They contribute to colour, flavour stability and body. Problems come from too much of the wrong kind, extracted at the wrong time.</p>"
+  ],
+  [
+   "How they form haze",
+   "<p>Some proteins in beer are rich in the amino acid proline. Polyphenols bind to these proteins through weak bonds. At first the complexes are small and dissolve. As beer gets colder or ages, they grow and become visible.</p><p>Chill haze appears when beer is cold and clears when it warms. Over time, with oxygen and warmth, the bonds become stronger and the haze becomes permanent. Our guide to <a href=\"beer-haze-causes.html\">beer haze causes</a> covers this and other haze types.</p><p>Oxidised polyphenols bind proteins more strongly. So oxygen pickup speeds up haze as well as staling.</p>"
+  ],
+  [
+   "How they cause astringency",
+   "<p>Astringency is not a taste but a feeling: a drying, puckering grip on the tongue and cheeks. It happens when polyphenols bind to proteins in saliva, which reduces its lubricating effect.</p><p>Larger polyphenols, especially tannins, cause stronger astringency. A little can add structure, as in some stouts or dry beers. Too much feels harsh and rough. Our guide to <a href=\"mouthfeel-and-body.html\">mouthfeel and body</a> explains how astringency fits with other sensations.</p>"
+  ],
+  [
+   "Extraction from husk",
+   "<p>Most husk polyphenols are extracted during mashing and especially during lautering. Several conditions raise extraction:</p><ul><li><strong>High pH.</strong> As sparge runnings thin out, pH rises. Above about 5.8 to 6.0, tannin extraction increases.</li><li><strong>Hot sparge water.</strong> Very hot water, above about 78 °C, increases tannin extraction.</li><li><strong>Over-milling.</strong> Shredded husks expose more surface area.</li><li><strong>Over-sparging.</strong> Running too long to chase extract pulls tannins from husks.</li></ul><p>One brewhouse-floor detail: many brewers stop collecting runnings when gravity drops to about 1.008 to 1.010 (2 to 2.5 °P) or when pH rises towards 6.0. Measuring the last runnings with a refractometer and pH meter is the cheapest astringency control in the brewhouse. Our guide to <a href=\"lautering-and-sparging.html\">lautering and sparging</a> covers the method.</p>"
+  ],
+  [
+   "What hops add",
+   "<p>Hops carry polyphenols in their leafy material. Large dry hop additions in hazy and modern IPAs can add significant amounts. These contribute to haze, which drinkers of hazy styles accept, but also to a drying, sometimes harsh mouthfeel described as hop burn.</p><p>Hop burn is likely caused by a mix of hop particles, polyphenols and other hop compounds. Letting the beer settle, cold conditioning and limiting contact time with hops can reduce it.</p>"
+  ],
+  [
+   "Managing polyphenols in the brewery",
+   "<p>The tools depend on whether you want haze or clarity:</p><ul><li><strong>For clear beers.</strong> Control pH and sparge temperature, avoid over-sparging and use good mill settings. Stabilise with PVPP, which binds polyphenols, or silica gel, which binds haze-active proteins.</li><li><strong>For hazy beers.</strong> Accept some polyphenol haze, but control astringency through dry hop rates, contact time and good settling.</li><li><strong>For all beers.</strong> Keep oxygen low after fermentation, as oxidised polyphenols bind proteins more strongly.</li></ul><p>Some brewers use low-proanthocyanidin barley varieties for very stable lagers. These are specialist choices with their own trade-offs.</p>"
+  ],
+  [
+   "Tasting for polyphenol problems",
+   "<p>Train your palate to separate astringency from bitterness. Bitterness is a taste on the tongue. Astringency is a dry, rough feeling that lingers after swallowing, like strong black tea left to stew.</p><p>A useful check is to taste the last runnings from the lauter tun against the first wort. The late runnings often taste thinner and grainier, with a drier finish. That is the character you are trying to keep out of the kettle.</p>"
+  ],
+  [
+   "Why this matters in India",
+   "<p>Beer that sits warm in Indian distribution chains develops haze faster. Pale lagers that look bright at the brewery can turn cloudy on a shop shelf after a few weeks. Controlling polyphenol extraction and oxygen together is the best defence.</p><p>Polyphenols touch colour, haze, mouthfeel and stability at once. Learning to manage them is one of the clearer examples of how one piece of chemistry links several quality problems.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Where do beer polyphenols come from?",
+   "Mainly from malt husk, with hops adding the rest. Heavily hopped beers can get a larger share from hops."
+  ],
+  [
+   "Why does my beer taste astringent?",
+   "Often from over-sparging, high sparge pH or very hot sparge water extracting tannins from husks. Heavy dry hopping can also add astringency."
+  ],
+  [
+   "How do breweries remove polyphenols?",
+   "Many use PVPP, which binds polyphenols. Silica gel removes the proteins they bind to."
+  ]
+ ],
+ "cta": {
+  "title": "Control haze and mouthfeel from mash to glass",
+  "body": "Advanced Brewing Science covers malt, hop and haze chemistry in depth, so you can manage clarity, stability and mouthfeel with confidence.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "beer-haze-causes",
+  "mouthfeel-and-body",
+  "lautering-and-sparging"
+ ]
+}

@@ -3,7 +3,7 @@
  "cat": "Brewing science",
  "h1": "Clarifying beer with finings",
  "title": "Clarifying Beer with Finings | Craft Beer School",
- "desc": "How fining agents like gelatin, isinglass and Irish moss actually clear beer, and how to choose the right one.",
+ "desc": "How fining agents like gelatin, isinglass and Irish moss actually clear beer and how to choose the right one.",
  "teaser": "Finings work by giving haze particles something to stick to and fall with, rather than by filtering anything out.",
  "standfirst": "Fining agents settle suspended particles rather than removing them mechanically, which makes choosing the right one for the right stage of brewing a matter of chemistry, not habit.",
  "read": "3 min",
@@ -12,7 +12,7 @@
  "sections": [
   [
    "How finings work, in general",
-   "<p>Most fining agents carry a surface charge that attracts oppositely charged particles suspended in beer, yeast cells, proteins or polyphenols, causing them to clump together into larger particles heavy enough to settle out under gravity. This is different from filtration, which physically strains particles through a medium, and different from cold crashing alone, which relies on temperature to encourage settling.</p><p>Dosage matters more than most brewers assume. Underdosing a fining agent leaves haze particles without enough binding material to clump effectively, while overdosing, particularly with isinglass, can strip more flavour and body than intended, or in rare cases even cause a slight haze of its own from excess fining material.</p>"
+   "<p>Most fining agents carry a surface charge that attracts oppositely charged particles suspended in beer, yeast cells, proteins or polyphenols, causing them to clump together into larger particles heavy enough to settle out under gravity. This is different from filtration, which physically strains particles through a medium and different from cold crashing alone, which relies on temperature to encourage settling.</p><p>Dosage matters more than most brewers assume. Underdosing a fining agent leaves haze particles without enough binding material to clump effectively, while overdosing, particularly with isinglass, can strip more flavour and body than intended, or in rare cases even cause a slight haze of its own from excess fining material.</p>"
   ],
   [
    "Kettle finings: Irish moss and whirlfloc",
@@ -20,7 +20,7 @@
   ],
   [
    "Gelatin: the common post-fermentation choice",
-   "<p>Gelatin carries a positive charge and binds well to negatively charged yeast cells and some proteins. It is added cold, after fermentation, often alongside or just before <a href=\"cold-crashing.html\">cold crashing</a>, since cold temperature improves how effectively it clumps and settles particles. It is inexpensive, widely available and works quickly, usually within a day or two.</p> A fresh batch of gelatin dissolved just before use, rather than a premixed solution left sitting for days, generally performs more reliably as well.<p>Contact time is often underestimated. Most finings need at least a day, and some benefit from two or three, undisturbed and at a stable cold temperature, to fully settle. Racking or moving the beer too soon after adding finings disturbs the settling particles before they have fully dropped.</p>"
+   "<p>Gelatin carries a positive charge and binds well to negatively charged yeast cells and some proteins. It is added cold, after fermentation, often alongside or just before <a href=\"cold-crashing.html\">cold crashing</a>, since cold temperature improves how effectively it clumps and settles particles. It is inexpensive, widely available and works quickly, usually within a day or two.</p> A fresh batch of gelatin dissolved just before use, rather than a premixed solution left sitting for days, generally performs more reliably as well.<p>Contact time is often underestimated. Most finings need at least a day. Some benefit from two or three, undisturbed and at a stable cold temperature, to fully settle. Racking or moving the beer too soon after adding finings disturbs the settling particles before they have fully dropped.</p>"
   ],
   [
    "Isinglass and other traditional agents",
@@ -51,7 +51,7 @@
  ],
  "cta": {
   "title": "Ready to stop guessing and start measuring?",
-  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to choose, dose and combine fining agents properly across the whole brewing process, from kettle to cold side. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to choose, dose and combine fining agents properly across the whole brewing process, from kettle to cold side. Live weekend sessions, weekly assignments, recordings if you miss one and a certificate at the end.",
   "href": "advanced-brewing-science-course.html",
   "label": "See the full syllabus"
  },

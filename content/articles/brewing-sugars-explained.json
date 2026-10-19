@@ -3,20 +3,20 @@
  "cat": "Ingredients",
  "h1": "Brewing sugars explained",
  "title": "Brewing sugars explained | Craft Beer School",
- "desc": "Dextrose, table sugar, candi sugar and honey compared, and how each changes alcohol and body differently.",
+ "desc": "Dextrose, table sugar, candi sugar and honey compared and how each changes alcohol and body differently.",
  "teaser": "A kilogram of malt and a kilogram of dextrose can both raise your original gravity by the same amount, but only one of them leaves body behind.",
- "standfirst": "Sugar additions raise alcohol without adding the body or flavour that malt would bring along with it. Knowing which sugar to reach for, and why, is what separates a thin homebrew mistake from a deliberately dry Belgian tripel.",
+ "standfirst": "Sugar additions raise alcohol without adding the body or flavour that malt would bring along with it. Knowing which sugar to reach for and why is what separates a thin homebrew mistake from a deliberately dry Belgian tripel.",
  "read": "3 min",
  "updated": "2023-03-07",
  "updated_label": "March 2023",
  "sections": [
   [
    "Why brewers add sugar instead of just more malt",
-   "<p>Malt brings fermentable sugar bundled together with proteins, unfermentable dextrins and colour, all of which add body and character alongside the alcohol they help produce. Pure sugar additions, dextrose, table sugar, candi sugar or others, add fermentable extract with none of that baggage, which is exactly the point: they raise ABV while keeping the beer's final gravity, and therefore its body, lower than an equivalent amount of malt would.</p>"
+   "<p>Malt brings fermentable sugar bundled together with proteins, unfermentable dextrins and colour, all of which add body and character alongside the alcohol they help produce. Pure sugar additions, dextrose, table sugar, candi sugar or others, add fermentable extract with none of that baggage, which is exactly the point: they raise ABV while keeping the beer's final gravity (and therefore its body) lower than an equivalent amount of malt would.</p>"
   ],
   [
    "Dextrose and table sugar: simple, fully fermentable, nearly flavourless",
-   "<p>Dextrose (corn sugar) and ordinary table sugar (sucrose) are both essentially 100 percent fermentable, and yeast handles table sugar almost as easily as dextrose since it splits sucrose into glucose and fructose within minutes of contact. Both are commonly used for priming carbonation, since a small measured dose predictably produces a known volume of carbon dioxide, and both are used in larger doses in Belgian style beers to boost ABV while keeping the beer surprisingly dry and light bodied for its strength.</p>"
+   "<p>Dextrose (corn sugar) and ordinary table sugar (sucrose) are both essentially 100 percent fermentable. Yeast handles table sugar almost as easily as dextrose since it splits sucrose into glucose and fructose within minutes of contact. Both are commonly used for priming carbonation, since a small measured dose predictably produces a known volume of carbon dioxide. Both are used in larger doses in Belgian style beers to boost ABV while keeping the beer surprisingly dry and light bodied for its strength.</p>"
   ],
   [
    "Candi sugar: colour and character, not just fermentability",
@@ -24,7 +24,7 @@
   ],
   [
    "Honey and other adjunct sugars",
-   "<p>Honey is mostly fermentable, contributes a distinct floral or fruity character depending on the source, and needs to be added carefully, typically late in the boil or after chilling, since prolonged high heat drives off the aroma it is being used for in the first place. Maple syrup, jaggery and other traditional sugars behave similarly: mostly fermentable, with a specific regional flavour attached, and worth using when that flavour is genuinely wanted rather than as a cheaper substitute for a clean sugar.</p>"
+   "<p>Honey is mostly fermentable, contributes a distinct floral or fruity character depending on the source and needs to be added carefully, typically late in the boil or after chilling, since prolonged high heat drives off the aroma it is being used for in the first place. Maple syrup, jaggery and other traditional sugars behave similarly: mostly fermentable, with a specific regional flavour attached and worth using when that flavour is genuinely wanted rather than as a cheaper substitute for a clean sugar.</p>"
   ],
   [
    "How much sugar before it becomes a problem",
@@ -32,7 +32,7 @@
   ],
   [
    "Priming sugar: a small, precise dose at packaging",
-   "<p>Priming sugar, added just before bottling or kegging rather than during the boil, gives the yeast still present in the beer one final small measured feed, producing a predictable amount of carbon dioxide as it ferments inside a sealed bottle or keg. Dextrose is the most common priming sugar because it is simple, cheap and completely predictable, and standard tables exist matching a dose in grams per litre to a target carbonation level in volumes of CO2. Getting this dose wrong in either direction matters: too little leaves a flat beer, too much risks dangerously over-pressurised bottles, which is why priming calculators, built into most <a href=\"brewing-software-and-calculators.html\">brewing software</a>, are worth using precisely rather than eyeballing a rough measure.</p><p>Store all of these sugars somewhere genuinely dry. Sugar that has picked up ambient moisture in a humid Indian kitchen can clump and become harder to dissolve cleanly into hot wort, and in bad cases can support mould growth in storage well before it ever reaches the kettle.</p><p>Adding sugar earlier rather than later in the boil, alongside the malt extract, generally causes fewer problems than dumping a large dose in right at the very end, since a sudden spike in wort gravity late in the boil can slightly affect hop utilisation calculations that assumed a lower gravity for most of the boil's duration.</p><p>Whatever sugar you choose, weigh it rather than measuring by volume. Sugars pack and settle differently from each other, and a cup measure can be off by a meaningful margin compared to a kitchen scale, which matters more the closer you are working to a specific target ABV.</p>"
+   "<p>Priming sugar, added just before bottling or kegging rather than during the boil, gives the yeast still present in the beer one final small measured feed, producing a predictable amount of carbon dioxide as it ferments inside a sealed bottle or keg. Dextrose is the most common priming sugar because it is simple, cheap and completely predictable. Standard tables exist matching a dose in grams per litre to a target carbonation level in volumes of CO2. Getting this dose wrong in either direction matters: too little leaves a flat beer, too much risks dangerously over-pressurised bottles, which is why priming calculators, built into most <a href=\"brewing-software-and-calculators.html\">brewing software</a>, are worth using precisely rather than eyeballing a rough measure.</p><p>Store all of these sugars somewhere genuinely dry. Sugar that has picked up ambient moisture in a humid Indian kitchen can clump and become harder to dissolve cleanly into hot wort. In bad cases it can support mould growth in storage well before it ever reaches the kettle.</p><p>Adding sugar earlier rather than later in the boil, alongside the malt extract, generally causes fewer problems than dumping a large dose in right at the very end, since a sudden spike in wort gravity late in the boil can slightly affect hop utilisation calculations that assumed a lower gravity for most of the boil's duration.</p><p>Whatever sugar you choose, weigh it rather than measuring by volume. Sugars pack and settle differently from each other. A cup measure can be off by a meaningful margin compared to a kitchen scale, which matters more the closer you are working to a specific target ABV.</p>"
   ]
  ],
  "faqs": [

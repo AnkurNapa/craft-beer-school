@@ -1,0 +1,71 @@
+{
+ "slug": "pressure-fermentation-and-what-it-does-to-ester-levels",
+ "cat": "Brewing science",
+ "h1": "Pressure fermentation and what it does to ester levels",
+ "title": "Pressure fermentation and esters | Craft Beer School",
+ "desc": "How fermenting under pressure lowers ester and higher alcohol levels, when brewers use it and the practical limits on tanks and yeast.",
+ "teaser": "Fermenting under pressure lets you run a lager warm and still get a clean beer. It also changes ales in ways you may not want.",
+ "standfirst": "Top pressure raises dissolved CO2 in the fermenter, which slows yeast growth and reduces ester formation. We explain how it works, when to use it, how much pressure to apply and the safety rules for tanks.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What pressure fermentation is",
+   "<p>Pressure fermentation means letting CO2 build up in a closed fermenter instead of venting it freely. A spunding valve holds the pressure at a set level and releases the excess.</p><p>The result is more CO2 dissolved in the fermenting beer. That CO2 changes how yeast behaves. Our guide to <a href=\"spunding-explained.html\">spunding</a> covers the valve and how to set it.</p>"
+  ],
+  [
+   "How CO2 changes yeast",
+   "<p>Higher dissolved CO2 affects yeast in several ways:</p><ul><li>It slows cell growth, so fewer new cells form during fermentation.</li><li>It reduces the production of esters, the fruity compounds such as isoamyl acetate (banana) and ethyl acetate (solvent, pear).</li><li>It reduces higher alcohols, the fusel compounds that can taste hot or solvent-like.</li></ul><p>Ester formation is closely linked to yeast growth. When growth slows, ester production falls. Our guide to <a href=\"esters-and-fusel-alcohols.html\">esters and fusel alcohols</a> explains the biochemistry.</p>"
+  ],
+  [
+   "Fermenting lagers warm",
+   "<p>The most common use of pressure fermentation is to ferment lagers warmer than usual. Normal lager fermentation runs around 8 to 13 °C and can take two weeks or more.</p><p>Under pressure, many brewers ferment lager yeast at around 15 to 18 °C with about 1 bar of top pressure. The higher temperature speeds fermentation, while the pressure keeps esters low. The beer can be ready faster with a clean profile, though some brewers find the result is not identical to a traditional cold lager.</p>"
+  ],
+  [
+   "Effects on ales",
+   "<p>For ale styles that rely on esters, such as English ales, Belgian styles and hefeweizen, pressure can work against you. It mutes the fruity character those styles need.</p><p>For hazy IPAs, some brewers avoid pressure during active fermentation to keep fruity esters, then apply pressure near the end to carbonate naturally. Others use moderate pressure to reduce harsh fusel alcohols in warm fermentations.</p>"
+  ],
+  [
+   "How much pressure and when",
+   "<p>Small pressures make a difference. Even a few tenths of a bar raise dissolved CO2 noticeably, which is why tall fermenters with their natural hydrostatic pressure behave a little like pressurised ones.</p><p>Most brewpub fermenters are rated for modest pressures, often around 1 to 2 bar working pressure, though ratings vary. Brewers commonly work in a range from about 0.5 to 1.2 bar for fermentation. Higher pressures give stronger effects but increase yeast stress and safety risk.</p><p>Start with a moderate setting on a beer you know well, then compare it with a normal batch. Change one thing at a time, so you can tell what the pressure did.</p><p>Timing matters too:</p><ul><li><strong>From the start.</strong> Gives the strongest ester reduction but slows the start of fermentation.</li><li><strong>After the first day or two.</strong> Lets yeast grow normally early, then limits esters during the rest of fermentation.</li><li><strong>Near the end.</strong> Mainly for natural carbonation, with little ester effect.</li></ul><p>One brewhouse-floor detail: many brewers set the spunding valve at around 1 bar for lager fermentation and leave it there. Watch the gauge in the first day, because a vigorous fermentation can push pressure up faster than expected if the valve sticks.</p>"
+  ],
+  [
+   "Practical limits",
+   "<p>Pressure fermentation has trade-offs:</p><ul><li><strong>Yeast stress.</strong> High pressure and CO2 levels can stress yeast, affecting attenuation and later repitching.</li><li><strong>Diacetyl.</strong> Slower growth may affect diacetyl reduction. Taste and test before crash cooling.</li><li><strong>Foam control.</strong> Releasing pressure too quickly can cause foaming through the valve.</li></ul><p>Pressure fermentation works well in unitanks, where the beer can ferment, carbonate and condition in one vessel. Our guide to <a href=\"monotanking-in-a-unitank.html\">monotanking in a unitank</a> covers that workflow.</p>"
+  ],
+  [
+   "Natural carbonation as a bonus",
+   "<p>A side benefit of pressure fermentation is natural carbonation. If the spunding valve is set at the right pressure for the beer temperature, the beer finishes fermentation already carbonated, or close to it.</p><p>That saves CO2, time and the oxygen risk of force carbonating. Carbonation charts show the pressure needed for a target CO2 level at a given temperature. Use them, as a beer at 18 °C needs far more pressure to reach the same carbonation than one at 2 °C.</p>"
+  ],
+  [
+   "Safety rules",
+   "<p>Only use tanks rated for the pressure you plan to apply. Check the manufacturer's rating and never exceed it. Every pressurised fermenter must have a working pressure relief valve, checked regularly.</p><p>Train staff to read gauges and to release pressure safely before opening any fitting. CO2 released during venting must be ventilated, as it can build up in low areas.</p><p>Pressure fermentation is one of the clearest examples of how a simple process change shifts yeast metabolism. Understanding it lets you design fermentation, not just follow a schedule.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does pressure fermentation reduce esters?",
+   "Yes. Higher dissolved CO2 slows yeast growth, which reduces ester and higher alcohol formation."
+  ],
+  [
+   "What pressure is used for lagers?",
+   "Many brewers ferment lager at around 15 to 18 °C with about 1 bar of top pressure. Always stay within the tank's rating."
+  ],
+  [
+   "Can I pressure ferment ales?",
+   "You can, but it mutes fruity esters that many ale styles need. Some brewers apply pressure only near the end for carbonation."
+  ]
+ ],
+ "cta": {
+  "title": "Design fermentations that hit your flavour targets",
+  "body": "Advanced Brewing Science is a 6 week live course on yeast metabolism and fermentation control, including pressure, temperature and pitching strategies. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "spunding-explained",
+  "esters-and-fusel-alcohols",
+  "monotanking-in-a-unitank"
+ ]
+}

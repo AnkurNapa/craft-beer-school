@@ -1,0 +1,71 @@
+{
+ "slug": "cheesy-and-sweaty-notes-in-beer-isovaleric-and-butyric",
+ "cat": "Tasting",
+ "h1": "Cheesy and sweaty notes in beer: isovaleric and butyric faults",
+ "title": "Cheesy and Sweaty Off Flavours in Beer | Craft Beer School",
+ "desc": "What causes isovaleric and butyric acid in beer, how to tell them apart on the panel and the hop storage and hygiene fixes that prevent them.",
+ "teaser": "Old socks or baby sick. Two of the least pleasant faults in brewing, with two very different causes.",
+ "standfirst": "Isovaleric acid smells of cheese and sweaty socks. Butyric acid smells of vomit and rancid butter. Both turn up in commercial beer more often than brewers like to admit. They have different sources. Telling them apart quickly points you to the fix.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two faults, often confused",
+   "<p>Both belong to a family called short-chain fatty acids. Both have low sensory thresholds, so a little goes a long way. On a tasting panel they can blur into one word: cheesy. But their causes are different. Treating one as the other wastes time.</p><ul><li><strong>Isovaleric acid.</strong> Old cheese, sweaty socks, sometimes a dusty hay note. Commonly linked to old or badly stored hops and to some Brettanomyces strains.</li><li><strong>Butyric acid.</strong> Vomit, baby sick, rancid butter or parmesan. Almost always a bacterial problem.</li></ul>"
+  ],
+  [
+   "Isovaleric acid: the hop route",
+   "<p>The most common source is oxidised hops. Alpha and beta acids carry side chains that break down as the hops age in the presence of oxygen and heat. That breakdown releases isovaleric acid along with related acids. Old hops smell cheesy before you even open the bag.</p><p>In Indian conditions this is a real risk. Imported hops spend weeks in transit, often through warm ports and warehouses. Once at the brewery, a pallet left in a hot store room for a month can lose much of its fresh aroma and gain a cheesy note.</p><p>Prevention:</p><ul><li>Store hops cold, ideally at or below freezer temperature, in sealed, oxygen-barrier packs.</li><li>Rub-test every lot on arrival. Reject or downgrade any that smell cheesy.</li><li>Reseal opened packs with a vacuum sealer or flush with CO2.</li><li>Use first-in, first-out stock rotation and record the harvest year.</li></ul>"
+  ],
+  [
+   "Isovaleric acid: the microbial route",
+   "<p>Some Brettanomyces strains and some bacteria also produce isovaleric acid. In a deliberate Brett beer a trace can be part of the funk. In a clean beer it signals contamination, often from a line, a heat exchanger gasket or a tank that has not been properly cleaned. Our guide to <a href=\"infection-bacteria-in-brewing.html\">infection bacteria in brewing</a> covers the usual suspects.</p><p>To tell the routes apart, look at the pattern. If every beer brewed with one hop lot carries the note, suspect the hops. If it appears in one tank or one draught line, suspect microbes. Look for other signs such as haze, sourness or a pH lower than the beer normally reaches.</p>"
+  ],
+  [
+   "Butyric acid: a hygiene problem",
+   "<p>Butyric acid comes from bacteria, mainly Clostridium species, which grow without oxygen and produce butyric acid from sugars. Common routes into a brewery:</p><ul><li><strong>Sugar syrups and adjuncts.</strong> Liquid sugar or syrups stored warm and opened repeatedly can be contaminated before they reach the kettle.</li><li><strong>Wort held warm.</strong> Wort left in a vessel at 40 to 60 °C for hours, for instance during a long breakdown or overnight, gives these bacteria time to grow.</li><li><strong>Uncontrolled sour mashing or kettle souring.</strong> Grain carries Clostridium spores. A sour mash that is not pre-acidified and held under CO2 can go badly wrong.</li></ul><p>Once butyric acid forms in wort, boiling kills the bacteria but does not remove the acid. The beer is lost.</p>"
+  ],
+  [
+   "Preventing butyric faults",
+   "<ul><li>Never hold wort warm for long. If a process stops, cool the wort or bring it back to the boil.</li><li>Store sugars and syrups cool, sealed and in date. Inspect them before use.</li><li>For kettle souring, use a pure Lactobacillus culture, pre-acidify the wort to about pH 4.5 or below before pitching and purge the headspace with CO2. Our guide to <a href=\"sour-infection-off-flavour.html\">sour infection off flavour</a> explains the controls.</li><li>Keep the hot side as clean as the cold side. Dead legs in pipework and poorly cleaned heat exchangers can harbour bacteria.</li></ul>"
+  ],
+  [
+   "Training the panel",
+   "<p>Both faults are easy to miss if nobody on the panel has smelt them in isolation. Use prepared standards from commercial <a href=\"off-flavour-spiking-kits.html\">off-flavour spiking kits</a> rather than trying to recreate them. Run isovaleric and butyric side by side in the same session so panellists learn the difference between socks and sick.</p><p>Sensitivity varies widely between people. Some tasters pick up isovaleric acid at very low levels, while others barely notice it. Knowing who on your team is sensitive to what lets you weight their results sensibly.</p>"
+  ],
+  [
+   "What to do when you find it",
+   "<p>First confirm with a second taster and a fresh sample from the tank, not the line. Then trace backwards: hop lot and storage, sugar lot, wort hold times, cleaning records for the tank and lines. Record what you find. A recurring cheesy note is a system problem. Fixing it once without changing the system means it will return.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What causes a cheesy smell in beer?",
+   "Usually isovaleric acid, most often from old or oxidised hops. Some Brettanomyces strains and bacteria can also produce it."
+  ],
+  [
+   "What does butyric acid smell like in beer?",
+   "Vomit, baby sick or rancid butter. It comes from bacterial contamination, mainly Clostridium. It cannot be removed once formed."
+  ],
+  [
+   "Can boiling remove butyric acid?",
+   "No. Boiling kills the bacteria but the acid stays in the wort. Prevention through hygiene and short warm hold times is the only fix."
+  ],
+  [
+   "How should I store hops to avoid cheesy notes?",
+   "Cold, ideally frozen, in sealed oxygen-barrier packs. Rub-test every lot on arrival and reseal opened packs with a vacuum or CO2 flush."
+  ]
+ ],
+ "cta": {
+  "title": "Find faults on the panel before they reach the bar",
+  "body": "Sensory Evaluation is a 2 week live course (₹5,999). It trains your team on real fault standards, including the cheesy and sweaty acids, plus how to trace each one back to a point in the process.",
+  "label": "See the full syllabus",
+  "href": "sensory-evaluation-course.html"
+ },
+ "related": [
+  "sour-infection-off-flavour",
+  "infection-bacteria-in-brewing",
+  "off-flavour-spiking-kits"
+ ]
+}

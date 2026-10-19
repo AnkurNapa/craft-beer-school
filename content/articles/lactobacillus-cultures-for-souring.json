@@ -1,0 +1,71 @@
+{
+ "slug": "lactobacillus-cultures-for-souring",
+ "cat": "Ingredients",
+ "h1": "Choosing a Lactobacillus culture for quick kettle sours",
+ "title": "Lactobacillus for Kettle Sours | Craft Beer School",
+ "desc": "How to pick a Lactobacillus culture for quick kettle sours: species, temperatures, hop tolerance, pre-acidification and a reliable process.",
+ "teaser": "Plantarum or delbrueckii? The culture you choose sets your souring temperature, your speed and how clean the acid tastes.",
+ "standfirst": "Kettle souring lets a brewery make a sour beer in a few days and boil the bacteria away before fermentation. The culture you pitch decides how fast and how cleanly it works. Here is how to choose one and run it.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "How a kettle sour works",
+   "<p>You brew an unhopped or very lightly hopped wort, bring it to the boil briefly to clean it, cool it to the culture's working temperature and pitch Lactobacillus. Over one to three days the bacteria turn sugar into lactic acid and the pH falls. When it reaches your target, you boil again, which kills the bacteria, then hop and ferment with yeast as normal.</p><p>Because the bacteria never reach the fermenters, the cellar stays clean. That is why kettle souring is the usual route for gose, Berliner weisse and fruited sours in breweries without a separate sour programme. Our guide to <a href=\"kettle-souring-at-home.html\">kettle souring</a> walks through the full process.</p>"
+  ],
+  [
+   "The species brewers use",
+   "<ul><li><strong>Lactobacillus plantarum</strong> (now officially Lactiplantibacillus plantarum). Works well around 30 to 37 °C, sours quickly and mostly produces clean lactic acid. A popular all-rounder and the easiest to hold at temperature in a warm Indian brewery.</li><li><strong>Lactobacillus delbrueckii.</strong> A heat lover, usually run around 40 to 48 °C. The high temperature helps keep competing microbes down.</li><li><strong>Lactobacillus brevis</strong> (now Levilactobacillus brevis). Heterofermentative, so it can make some CO2 and other by-products alongside lactic acid. Often more hop tolerant, which makes it a known beer spoiler too.</li><li><strong>Blends.</strong> Several suppliers sell mixed cultures tuned for speed or flavour.</li></ul><p>Always check the supplier's recommended temperature for the exact culture. Strains within a species vary.</p>"
+  ],
+  [
+   "Hops and the bacteria",
+   "<p>Iso-alpha acids from hops inhibit most Lactobacillus. Keep the wort's bitterness as close to zero as you can during souring and add your hops after the second boil. If you must hop, a tiny addition is the limit. A souring tank that worked last month and stalls this month has often picked up hop residue from a shared vessel.</p>"
+  ],
+  [
+   "Setting up for a clean sour",
+   "<ol><li><strong>Pre-acidify</strong> the cooled wort to around pH 4.5 with food-grade lactic acid. Lactobacillus tolerates it, while many unwanted bacteria do not.</li><li><strong>Pitch a healthy, sized culture.</strong> Commercial packs are sized for a volume. For larger batches, build up following the supplier's instructions.</li><li><strong>Keep oxygen out.</strong> Purge the headspace with CO2 and keep the vessel closed. Oxygen invites aerobic spoilers that make cheesy, vomit-like or rotten flavours.</li><li><strong>Hold temperature.</strong> A jacketed kettle or a well-insulated vessel. If temperature falls too far, souring slows and competitors gain ground.</li><li><strong>Check pH every few hours.</strong> Many brewers target pH 3.2 to 3.5, depending on the style.</li><li><strong>Boil when you hit the number.</strong> Then hop, cool and pitch yeast.</li></ol>"
+  ],
+  [
+   "Signs it went wrong",
+   "<p>Smell the wort before the second boil. Clean lactic sourness smells of yoghurt and lemon. A strong cheesy, faecal or vomit note means other organisms took over, usually from slow souring, oxygen or poor pre-acidification. Do not hope the boil fixes it. The flavour compounds survive. Our guide to <a href=\"sour-infection-off-flavour.html\">sour infection off flavours</a> helps you name what you are smelling.</p><p>Avoid probiotic drinks and capsules as starters in a brewery. The species and counts are not designed for wort and results vary from pack to pack.</p>"
+  ],
+  [
+   "Matching the culture to your kit",
+   "<p>The right culture is partly a question of what your brewhouse can do. A steam-jacketed kettle with good insulation can hold 45 °C for two days, which suits L. delbrueckii. A smaller system that loses heat overnight is safer with L. plantarum at a lower, easier temperature. In a warm Indian brewery an insulated vessel often stays above 30 °C on its own, which helps.</p><p>Think about the schedule too. Souring ties up the kettle or a souring vessel for one to three days. Brewpubs with a single kettle often run sours just before a quieter period, or invest in a separate jacketed tank so the brewhouse keeps working. Dry or freeze-dried cultures store better than liquid packs and arrive with less risk from the courier's heat.</p>"
+  ],
+  [
+   "Making it repeatable",
+   "<p>The difference between one good kettle sour and a reliable sour on tap is control: the same pre-acidification target, the same pitch, the same temperature and a log of pH against time for every batch. Plot those curves and you will see when a culture is losing vigour long before the beer tastes wrong.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which Lactobacillus is best for kettle souring?",
+   "Lactobacillus plantarum is a reliable all-rounder at 30 to 37 °C. L. delbrueckii suits brewers who can hold 40 to 48 °C. Always follow the supplier's figures for the exact culture."
+  ],
+  [
+   "Why pre-acidify the wort?",
+   "Bringing wort to about pH 4.5 before pitching slows unwanted bacteria while Lactobacillus keeps working."
+  ],
+  [
+   "Can I hop the wort before souring?",
+   "Keep it as close to unhopped as possible. Hop acids inhibit most Lactobacillus, so add hops after the second boil."
+  ],
+  [
+   "Does the second boil remove bad flavours?",
+   "No. It kills the bacteria but cheesy or rotten flavours from an infected sour usually remain."
+  ]
+ ],
+ "cta": {
+  "title": "Run sour beers with confidence",
+  "body": "Advanced Brewing Science is a 6 week live course (₹12,999) covering microbiology, acidity, wort chemistry and fermentation control, so you can design and troubleshoot a sour programme rather than follow a recipe.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "kettle-souring-at-home",
+  "sour-infection-off-flavour",
+  "gose-guide"
+ ]
+}

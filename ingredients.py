@@ -127,7 +127,7 @@ def faqs(key, rows):
              "Clean American ale strains such as US-05 still need controlled fermentation around 18 to 22 °C for a clean result."),
             ("Dry or liquid yeast for brewing in India?",
              "Dry yeast tolerates shipping and storage far better, which matters when the cold chain is uncertain. "
-             "Liquid yeast offers more strains but should travel and stay cold, and be used quickly."),
+             "Liquid yeast offers more strains but should travel and stay cold. Use it quickly."),
             ("What does STA1 positive mean?",
              "The strain carries a gene that lets it break down dextrins most yeasts leave behind, so it can ferment drier "
              "and keep fermenting in the package. Keep it on separate equipment from your other beers."),

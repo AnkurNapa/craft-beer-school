@@ -1,0 +1,67 @@
+{
+ "slug": "wort-viscosity-and-why-some-grists-filter-so-slowly",
+ "cat": "Brewing science",
+ "h1": "Wort viscosity and why some grists filter so slowly",
+ "title": "Wort viscosity and slow lautering | Craft Beer School",
+ "desc": "Why some grists lauter and filter slowly, from beta-glucans and arabinoxylans to temperature and gravity. What brewers do about thick wort.",
+ "teaser": "Same brewhouse, same crush, but one grist runs off in 90 minutes and another takes four hours. The difference is usually viscosity.",
+ "standfirst": "Wort viscosity decides how fast liquid passes through a grain bed or a filter. Grain gums, wort strength and temperature all raise it. Here is why some grists are slow and what to do about it.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why viscosity matters",
+   "<p>Lautering and filtration are both liquid flowing through a porous bed. The flow rate through a bed is inversely proportional to the viscosity of the liquid, a relationship described by Darcy's law. Double the viscosity and, all else equal, flow halves.</p><p>Water at room temperature has a viscosity of about 1 mPa s. Wort is thicker because of dissolved sugars, proteins and especially large carbohydrate molecules from grain cell walls. Malt specifications often report the viscosity of a standard lab wort. Figures in the region of 1.4 to 1.6 mPa s are typical for well-modified malt.</p>"
+  ],
+  [
+   "The usual culprits: beta-glucans and arabinoxylans",
+   "<p>Barley and oat cell walls contain beta-glucans. Wheat and rye cell walls are rich in arabinoxylans, also called pentosans. Both are long chain carbohydrates that dissolve into wort and make it thicker. They also form gels under shear and cold, which block filters.</p><p>Good malting breaks down most beta-glucan in barley. Under-modified malt, raw barley, oats and rye all bring much more. Oats are famous for this, as our guide to <a href=\"oats-in-beer.html\">oats in beer</a> explains. Rye is often worse, because its arabinoxylans are not broken down well by malt enzymes.</p><p>Wheat malt sits in between. It has no husk and carries more arabinoxylan than barley, so a 50% wheat grist runs slower than an all-barley one even with good malt. Most brewers handle it with a coarser crush on the barley share and a little extra time.</p>"
+  ],
+  [
+   "Temperature and gravity",
+   "<p>Viscosity falls as temperature rises. That is one reason sparge water is usually around 76 to 78 °C: hot enough to thin the wort and speed run-off, but below the point where it extracts excess tannin or dissolves unconverted starch. A lauter tun that cools during run-off slows down.</p><p>Viscosity rises with gravity. Strong first worts run slowly. High gravity brews and very thick mashes therefore push lautering harder.</p>"
+  ],
+  [
+   "Dealing with it in the mash",
+   "<ul><li><strong>A beta-glucan rest.</strong> Malt beta-glucanase works best around 40 to 50 °C and is destroyed quickly above 60 °C. A rest at about 45 °C lets it break down gums before saccharification.</li><li><strong>Exogenous enzymes.</strong> Commercial beta-glucanase and xylanase products work at higher temperatures and on arabinoxylans that malt enzymes handle poorly.</li><li><strong>Avoiding a mid-temperature release.</strong> A process called beta-glucan solubilisation continues up to the mid 60s °C, after malt glucanase has died. Long holds in that region can increase soluble beta-glucan.</li><li><strong>Rice hulls.</strong> Adding a few percent of rice hulls to rye or oat grists opens up the grain bed. They do nothing for viscosity but improve permeability.</li></ul>"
+  ],
+  [
+   "The floor detail: a stuck rye brew",
+   "<p>A typical scene is a first rye beer in a brewhouse that has only ever run barley. Mash goes in normally, the first wort runs, then flow drops and the bed compacts. The brewer opens the valve wider, the pressure difference across the bed rises and the bed packs tighter still. Our guide to <a href=\"stuck-mash-fixes.html\">stuck mash fixes</a> covers recovery: stop run-off, rake or underlet the bed, then restart slowly. Next time, plan a lower rye share, rice hulls and an enzyme or a glucan rest from the start.</p>"
+  ],
+  [
+   "Viscosity downstream",
+   "<p>Problems do not end at the lauter tun. Beta-glucan that survives into beer can form gels during cold storage and under shear in pumps, which block kieselguhr filters and membrane filters. Breweries see short filter runs and rising pressure on beers with high beta-glucan malts. Our guide to <a href=\"beer-filtration-basics.html\">filtration basics</a> covers filter types.</p><p>Gentle handling, enough beta-glucan breakdown in the mash and good malt selection help most. Many breweries check beta-glucan or viscosity on the malt certificate for each lot. Some set a maximum in their purchase specification.</p>"
+  ],
+  [
+   "Reading your malt certificate",
+   "<p>Look for viscosity, beta-glucan and friability. Low friability suggests poor modification and higher gums. When a malt lot runs slowly, compare its certificate with a lot that ran well. In India, where much specialty malt is imported and base malt may come from several maltsters, lot-to-lot variation is common. Tracking it is one of the simplest ways to explain slow brew days.</p><p>Understanding grain chemistry, enzymes and flow together is a core part of advanced brewing science.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does my oat beer lauter so slowly?",
+   "Oats bring a lot of beta-glucan, which thickens wort. A glucan rest, rice hulls and a moderate oat share help."
+  ],
+  [
+   "Does sparge temperature affect run-off speed?",
+   "Yes. Hotter wort is less viscous and runs faster. Most brewers sparge around 76 to 78 °C."
+  ],
+  [
+   "Can I measure wort viscosity in a small brewery?",
+   "Simple viscometers exist, but most small breweries rely on malt certificates and lauter times. Tracking run-off time per brew is a useful proxy."
+  ]
+ ],
+ "cta": {
+  "title": "Learn how grain chemistry shapes your brew day",
+  "body": "Advanced Brewing Science covers malt quality, enzymes, mashing and lautering in depth, including how to read a malt certificate and plan grists that run off well.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "stuck-mash-fixes",
+  "oats-in-beer",
+  "beer-filtration-basics"
+ ]
+}

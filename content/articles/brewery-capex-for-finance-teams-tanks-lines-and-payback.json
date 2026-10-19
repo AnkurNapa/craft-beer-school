@@ -1,0 +1,67 @@
+{
+ "slug": "brewery-capex-for-finance-teams-tanks-lines-and-payback",
+ "cat": "Beer for teams",
+ "h1": "Brewery capex for finance teams: tanks, lines and payback",
+ "title": "Brewery Capex for Finance Teams | Craft Beer School",
+ "desc": "What brewery capital spending buys, from fermenters to packaging lines, how capacity really works and how finance teams can test a payback case.",
+ "teaser": "A capex request for four new fermenters is really a claim about demand, cycle time and lager. Here is how to test it.",
+ "standfirst": "Brewery capex requests are full of technical terms that make them hard to challenge. Finance teams who understand what tanks and lines actually do can ask better questions, spot weak assumptions and approve the right projects faster.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What brewery capex usually buys",
+   "<p>Most capital spending in a brewery falls into a few buckets:</p><ul><li><strong>Brewhouse:</strong> the vessels where malt and water become wort, such as the mash tun, lauter tun and kettle.</li><li><strong>Cellar:</strong> fermenters, conditioning tanks and bright beer tanks where wort becomes finished beer.</li><li><strong>Packaging:</strong> bottling, canning and kegging lines, plus pasteurisers, labellers and packers.</li><li><strong>Utilities:</strong> refrigeration, boilers, compressed air, CO2 recovery, water treatment and effluent treatment.</li><li><strong>Quality and IT:</strong> lab equipment, sensors and control systems.</li></ul><p>Our <a href=\"brewery-equipment-buying-guide.html\">brewery equipment buying guide</a> describes the main pieces in more detail.</p>"
+  ],
+  [
+   "Capacity is set by the slowest step",
+   "<p>A brewery is a chain. Capacity is limited by its tightest link. A brewhouse might produce several brews a day, but each brew then sits in a fermenter for one to four weeks depending on the beer. Lagers ferment cooler and condition longer than ales, so a brand mix that moves toward lager needs more tank capacity even if total volume stays flat.</p><p>This is why the most common capex request in a growing brewery is more tanks. When a request claims the brewery is \"at capacity\", ask which step is the constraint and how that was measured. Tank occupancy data and line efficiency figures should support the claim. Our guide to <a href=\"packaging-line-efficiency-oee.html\">packaging line efficiency and OEE</a> explains how line capacity is measured.</p>"
+  ],
+  [
+   "How to check a tank request",
+   "<p>A simple tank calculation shows whether a request holds together. Take expected annual volume for the beers that will use the new tanks, the average tank cycle time in days including cleaning, then the usable volume per tank. Then:</p><p><strong>Tanks needed = (annual volume x cycle days) / (365 x usable volume per tank)</strong>.</p><p>As an illustration, 30,000 hectolitres a year of lager on a 28 day cycle, in tanks with 300 hectolitres of usable volume, gives (30,000 x 28) / (365 x 300), or about 7.7. That means eight tanks before any allowance for peaks. If the request asks for twelve, the extra four need a reason.</p><p>Allow headroom for seasonal peaks. In India, summer can lift demand sharply. A brewery sized for the annual average will be short in April and May. Ask whether the cycle time assumes the actual mix of lager and ale. Ask too whether a tank's usable volume allows for the headspace needed during fermentation.</p>"
+  ],
+  [
+   "Packaging lines: speed is not output",
+   "<p>A line rated at a certain number of bottles per hour will rarely run at that rate across a shift. Changeovers, cleaning, stoppages and minor jams reduce real output. A request for a faster line should show current efficiency and the losses behind it. Sometimes fixing changeover time or a bottleneck machine gives more output than a new line, for far less money.</p><p>Format matters too. Adding a canning line opens new pack options but brings its own costs in cans, ends and quality control.</p>"
+  ],
+  [
+   "Payback and the assumptions underneath",
+   "<p>The usual measures apply: payback period, net present value and internal rate of return. What differs in brewing are the assumptions that feed them:</p><ul><li><strong>Volume.</strong> Is the extra volume real demand, or a forecast that assumes new states or brands not yet approved?</li><li><strong>Margin per hectolitre.</strong> Excise often takes a large share of gross sales, so margin should be calculated on net revenue. See <a href=\"beer-cost-of-goods-explained.html\">beer cost of goods explained</a>.</li><li><strong>Ramp-up.</strong> New equipment takes time to commission and reach steady output.</li><li><strong>Utilities.</strong> More tanks need more refrigeration. A chiller that was adequate may not be.</li></ul>"
+  ],
+  [
+   "Hidden costs finance teams miss",
+   "<p>Several costs are often left out of the first version of a capex case. Civil works, foundations and drainage for heavy tanks. Electrical upgrades. Installation, commissioning and validation. Spare parts. Licence amendments, because in some states adding capacity requires approval from the excise department. Import duty and currency movement for imported equipment. Each is ordinary, but together they can move the payback by a long way.</p>"
+  ],
+  [
+   "Asking the right questions",
+   "<p>Good finance partners do not need to know how to brew. They need enough process understanding to ask what the constraint is, what data shows it and what cheaper alternatives were considered. Those questions make capex discussions faster and fairer for everyone, including the brewers.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do breweries keep asking for more tanks?",
+   "Beer spends days or weeks in tanks, so tank capacity is often the real limit on output, especially when the brand mix moves toward lagers that take longer."
+  ],
+  [
+   "How do I check whether a brewery is really at capacity?",
+   "Ask which step is the constraint and look at the data: tank occupancy, brewhouse brews per day and packaging line efficiency over a representative period."
+  ],
+  [
+   "Should payback be calculated on gross or net sales?",
+   "Use net revenue after excise and other duties. Excise can be a large share of gross sales, so gross figures overstate the margin."
+  ]
+ ],
+ "cta": {
+  "title": "Help finance challenge brewery capex with confidence",
+  "body": "Our Brewing and distilling operations module shows finance teams how capacity, cycle times and packaging efficiency drive capital requests. It is built around your team's own plants and the projects on your desk.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "brewery-equipment-buying-guide",
+  "packaging-line-efficiency-oee",
+  "beer-cost-of-goods-explained"
+ ]
+}

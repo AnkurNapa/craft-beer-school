@@ -1,0 +1,67 @@
+{
+ "slug": "why-some-yeast-strains-flocculate-early-and-others-stay-in",
+ "cat": "Brewing science",
+ "h1": "Why some yeast strains flocculate early and others stay in suspension",
+ "title": "Why yeast strains flocculate differently | Craft Beer School",
+ "desc": "How yeast flocculation works and why some strains drop clear in days while others stay hazy. What to do about early or late flocculation.",
+ "teaser": "Some yeast drops out of the beer like a stone. Some stays hazy for weeks. The difference is in the genes and in the wort.",
+ "standfirst": "Flocculation is yeast cells clumping together and settling. Each strain does it to a different degree and at a different time. Knowing why helps you pick strains, clear beer and crop yeast.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What flocculation is",
+   "<p>Flocculation is the process where yeast cells stick together into clumps, called flocs, that are large enough to settle out of the beer, or in some strains to rise to the top. It is reversible: break the flocs apart and the cells go back into suspension. Brewers rely on it to clear beer and to crop yeast for repitching.</p><p>Flocculation is different from simple settling. Individual yeast cells are small enough to stay suspended for a long time. Only when they clump do they fall quickly. Our guide to <a href=\"ale-vs-lager-yeast.html\">ale versus lager yeast</a> covers the wider differences between strains.</p>"
+  ],
+  [
+   "The mechanism",
+   "<p>Yeast cells carry proteins on their surfaces called flocculins. These work a little like hands that grab sugar groups, mainly mannose, on the walls of neighbouring cells. When enough cells grab each other, a floc forms.</p><p>Calcium ions are needed for the flocculins to work. That is one reason low-calcium wort can leave a flocculent strain hanging in suspension. Flocculins are coded by a family of genes, the FLO genes. Which of these a strain carries and switches on largely decides how flocculent it is.</p>"
+  ],
+  [
+   "Two main types of flocculation",
+   "<p>Researchers describe two main patterns.</p><ul><li><strong>Flo1 type.</strong> Flocculins bind only mannose. Other sugars in wort do not block them much. These strains flocculate strongly once they start.</li><li><strong>NewFlo type.</strong> Flocculins bind mannose and also glucose, maltose and some other sugars. While the wort is full of sugar, those sugars occupy the binding sites and stop flocculation. As fermentation finishes and sugar runs out, the sites free up and the yeast flocculates.</li></ul><p>Many brewing strains are of the NewFlo type, which suits brewers well: yeast stays in suspension while there is work to do, then drops when the sugar is gone.</p>"
+  ],
+  [
+   "Why strains behave so differently",
+   "<p>Strain differences come from which flocculation genes are present and how strongly they are expressed. Many English ale strains are highly flocculent and drop bright in days. German wheat beer strains are usually low in flocculation, which helps keep a hefeweizen cloudy. Many lager strains sit in the middle. Within a strain, flocculation can drift over many repitchings, as cropping selects cells that settle at the time you harvest.</p><p>Highly flocculent strains clear quickly but risk dropping before they finish attenuating or cleaning up diacetyl. Low flocculent strains attenuate fully but need help to clear.</p>"
+  ],
+  [
+   "When flocculation happens too early",
+   "<p>Early flocculation leaves beer under-attenuated, sweet and sometimes buttery. Common causes include a sudden temperature drop, a strain repitched too many times so that it settles faster than it used to, wort low in nutrients and malt factors. Premature yeast flocculation, often shortened to PYF, is a recognised malt problem linked to compounds formed when barley is affected by certain fungal infections. PYF malt causes yeast to flocculate early even with good practice.</p><p>Rousing the yeast with CO2 from the cone and raising the temperature slightly can help it finish. Checking wort calcium and switching malt lots are the next steps.</p>"
+  ],
+  [
+   "When it happens too late",
+   "<p>Strains that stay in suspension slow down clarification and packaging. Brewers use <a href=\"cold-crashing.html\">cold crashing</a> to encourage settling, since lower temperatures increase flocculation. <a href=\"clarifying-beer-finings.html\">Finings</a> such as isinglass, which carry a charge that attracts yeast cells, speed it further. Centrifuges and filters remove yeast mechanically in larger breweries.</p><p>In a hot climate, a cold room or glycol capacity often limits how quickly a brewery can crash beer. That is a good reason to match strain flocculation to your cooling capacity. A strain that needs a week at 0 °C to clear is a poor fit for a brewery that can only hold two tanks that cold at once.</p>"
+  ],
+  [
+   "Picking a strain with this in mind",
+   "<p>When choosing a strain, check the supplier's flocculation rating alongside attenuation and temperature range. Think about what you want in the glass, how quickly tanks must turn over and how you will crop yeast. A brewery without a filter or centrifuge usually does better with a medium to high flocculation strain for clear beers.</p><p>Yeast genetics and behaviour in the fermenter are central to advanced brewing study. Flocculation is one of the clearest examples of how biology shapes brewery scheduling.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does temperature affect flocculation?",
+   "Yes. Lower temperatures generally increase flocculation, which is why cold crashing works. Sudden drops can make yeast flocculate before fermentation finishes."
+  ],
+  [
+   "Can a strain change flocculation over time?",
+   "Yes. Repeated cropping can select cells that flocculate earlier or later than the original culture. Many breweries restart from a fresh culture regularly."
+  ],
+  [
+   "Why does my beer stay hazy after fermentation?",
+   "The strain may be low flocculating, or wort calcium may be low. Haze can also come from protein, starch or hops, so check the cause first."
+  ]
+ ],
+ "cta": {
+  "title": "Understand the yeast behind every batch",
+  "body": "Advanced Brewing Science covers yeast genetics, flocculation, fermentation and clarification, with practical ways to manage strain behaviour in your own brewery.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "ale-vs-lager-yeast",
+  "cold-crashing",
+  "clarifying-beer-finings"
+ ]
+}

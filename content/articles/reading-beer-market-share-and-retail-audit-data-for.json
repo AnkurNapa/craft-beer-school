@@ -1,0 +1,63 @@
+{
+ "slug": "reading-beer-market-share-and-retail-audit-data-for",
+ "cat": "Beer for teams",
+ "h1": "Reading beer market share and retail audit data for insights teams",
+ "title": "Reading Beer Market Share Data | Craft Beer School",
+ "desc": "How beer retail audit data is built, what distribution and share measures mean and the traps insights teams in India should watch for.",
+ "teaser": "Your share went up two points. Did you sell more beer, or did the panel change? How to tell.",
+ "standfirst": "Market share and retail audit numbers drive brand reviews and budget fights. They are also estimates built on samples, projections and definitions that change. This guide shows insights teams how to read them without being misled.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Where the numbers come from",
+   "<p>Retail audit data is usually built from a panel of stores. A provider collects sales or stock movement from a sample of outlets, then projects it to the whole universe of outlets in a region using weights. The result is an estimate of total market sales by brand, pack and area.</p><p>Three things decide how good that estimate is: how many stores are in the panel, how well they represent the real mix of outlets and how accurately the universe is counted. When any of those changes, your share can move without a single extra bottle being sold.</p><p>In India beer adds its own twist. In many states the government or a state corporation controls wholesale, so depot-level sales data can be close to a census for that state. In other states, retail is private and panel data carries more weight. Know which kind of state you are reading before comparing them.</p>"
+  ],
+  [
+   "The measures you will see",
+   "<ul><li><strong>Volume share and value share.</strong> Your brand's sales as a percentage of category sales, in litres or in rupees. They often move differently because of price and pack mix.</li><li><strong>Numeric distribution.</strong> The percentage of outlets in the universe that stocked your brand. Every shop counts equally.</li><li><strong>Weighted distribution.</strong> The same, but each outlet is weighted by its category sales. Being in the big shops counts for more.</li><li><strong>Rate of sale.</strong> Sales per stocking outlet. It separates how well the beer sells where it is present from how widely it is present.</li><li><strong>Out of stock.</strong> Outlets that list the brand but had none on the day. In an Indian summer this can decide a brand's share for the season.</li></ul>"
+  ],
+  [
+   "Reading share changes honestly",
+   "<p>When share moves, work through the causes in order before telling a story:</p><ol><li><strong>Panel or method change.</strong> Did the provider add stores, re-weight or redefine the category? Check the release notes.</li><li><strong>Distribution.</strong> Did the brand gain or lose outlets? Share often follows distribution.</li><li><strong>Rate of sale.</strong> Is the brand selling faster where it already sits?</li><li><strong>Price and pack.</strong> Did a price move or a new pack shift value share more than volume share?</li><li><strong>Supply.</strong> Was a competitor out of stock because of a supply problem or a licence issue?</li></ol><p>Seasonality matters too. Beer demand swings hard between summer and monsoon, so compare like months. See <a href=\"beer-demand-forecasting-indian-seasons.html\">beer demand forecasting for Indian seasons</a>.</p>"
+  ],
+  [
+   "Joining audit data to your own data",
+   "<p>Audit data tells you what reached consumers. Your internal data tells you what you shipped. The two rarely match month by month because stock sits in depots and shops. Our guide to <a href=\"shipments-vs-depletions-beer-sales-data.html\">shipments versus depletions</a> covers that gap.</p><p>When you join them, line up the same geography, the same brand and pack codes and the same period definitions. A surprising amount of insight work is cleaning a brand master so that one beer does not appear under three names.</p>"
+  ],
+  [
+   "Blind spots to keep in mind",
+   "<ul><li><strong>On-trade.</strong> Bars, restaurants and brewpubs are harder to audit than shops. Draught beer in particular may be thinly covered.</li><li><strong>Craft and small brands.</strong> Low volumes mean wide error bands. A small brand's share moving from 0.4 to 0.6 may be noise.</li><li><strong>New outlet types.</strong> Premium retail and new formats may not be in the universe yet.</li><li><strong>Policy changes.</strong> Changes to excise, licences or retail rules in one state can shift share overnight. Read them as policy events, not consumer trends. For the wider picture, see <a href=\"craft-beer-market-india-trends.html\">craft beer market trends in India</a>.</li></ul>"
+  ],
+  [
+   "The step most teams skip",
+   "<p>The insight teams that earn trust in a brand review are the ones that can explain why a number moved in terms a brewer or a sales manager recognises. That needs a working picture of how beer is made, packed, taxed and moved, not only how the panel is built.</p><p>Without it, a share report is a list of numbers. With it, the same report becomes a short list of things the business can change.</p><p>A simple habit helps. Before each monthly review, write one line per key brand explaining the share move in plain words: distribution, rate of sale, price, supply or panel. If you cannot write the line, you do not yet understand the number. Share that page with sales and brewing colleagues and ask them to challenge it. The questions they raise are usually the start of the real insight.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between numeric and weighted distribution?",
+   "Numeric distribution counts every stocking outlet equally. Weighted distribution gives more weight to outlets with bigger category sales, so it shows how much of the market's selling power you reach."
+  ],
+  [
+   "Why does my share differ between volume and value?",
+   "Because price and pack mix differ between brands. A premium brand can have a higher value share than volume share."
+  ],
+  [
+   "Should I trust a small brand's monthly share change?",
+   "Be cautious. Small volumes carry wide error bands in panel data. Look at a rolling average over several months before concluding anything."
+  ]
+ ],
+ "cta": {
+  "title": "Make share reports your brand teams can act on",
+  "body": "Our Data and AI in beverages module trains insights teams to connect audit, shipment and depletion data to how beer is actually made and sold, built around your team's own portfolio and markets.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "shipments-vs-depletions-beer-sales-data",
+  "craft-beer-market-india-trends",
+  "beer-demand-forecasting-indian-seasons"
+ ]
+}

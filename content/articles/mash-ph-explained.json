@@ -3,8 +3,8 @@
  "cat": "Brewing science",
  "h1": "Mash pH explained",
  "title": "Mash pH Explained | Craft Beer School",
- "desc": "Why mash pH sits in the 5.2 to 5.6 range, what happens outside it, and how to measure and correct it properly.",
- "teaser": "Mash pH is the single most consequential number in the entire brewing process, and one of the least checked.",
+ "desc": "Why mash pH sits in the 5.2 to 5.6 range, what happens outside it and how to measure and correct it properly.",
+ "teaser": "Mash pH is the single most consequential number in the entire brewing process and one of the least checked.",
  "standfirst": "A mash a little outside the 5.2 to 5.6 range still produces beer. It just produces worse beer, in ways that are hard to trace back to the actual cause without a pH reading.",
  "read": "3 min",
  "updated": "2021-10-22",
@@ -12,11 +12,11 @@
  "sections": [
   [
    "Why this narrow range matters",
-   "<p>Enzymes that convert starch into fermentable sugar work fastest and most efficiently within roughly 5.2 to 5.6, measured at mash temperature rather than at room temperature, where the same sample reads slightly higher. Push pH above this range and conversion slows, extraction of harsh tannins from the grain husk increases, and the beer tends toward a duller, sometimes astringent character. Push it too far below and enzyme activity also suffers, though this is the less common failure.</p>"
+   "<p>Enzymes that convert starch into fermentable sugar work fastest and most efficiently within roughly 5.2 to 5.6, measured at mash temperature rather than at room temperature, where the same sample reads slightly higher. Push pH above this range and conversion slows, extraction of harsh tannins from the grain husk increases and the beer tends toward a duller, sometimes astringent character. Push it too far below and enzyme activity also suffers, though this is the less common failure.</p>"
   ],
   [
    "What sets mash pH in the first place",
-   "<p>Grain itself is naturally slightly acidic, more so for darker, roasted malts, which is why a big stout mash often needs less correction, sometimes none, compared with a pale lager mash using the same water. Water alkalinity works against this natural acidity, pushing pH upward, and the balance between the two, not either one alone, is what determines where your mash actually lands.</p>"
+   "<p>Grain itself is naturally slightly acidic, more so for darker, roasted malts, which is why a big stout mash often needs less correction, sometimes none, compared with a pale lager mash using the same water. Water alkalinity works against this natural acidity, pushing pH upward. The balance between the two, not either one alone, is what determines where your mash actually lands.</p>"
   ],
   [
    "Measuring it properly",
@@ -28,15 +28,15 @@
   ],
   [
    "What happens if you ignore it",
-   "<p>The beer will still ferment and still be drinkable in most cases, which is exactly why the problem goes unnoticed for so long. A mash sitting at 5.8 or higher extracts more tannin, converts starch slightly less efficiently, and gives a beer that tastes duller and slightly harsh in a way most brewers blame on the recipe or the grain rather than the one number that actually caused it.</p><p>Our guide on <a href=\"enzymes-in-the-mash.html\">the enzymes at work in your mash</a> covers why this temperature and pH sensitivity exists at the enzyme level.</p>"
+   "<p>The beer will still ferment and still be drinkable in most cases, which is exactly why the problem goes unnoticed for so long. A mash sitting at 5.8 or higher extracts more tannin, converts starch slightly less efficiently and gives a beer that tastes duller and slightly harsh in a way most brewers blame on the recipe or the grain rather than the one number that actually caused it.</p><p>Our guide on <a href=\"enzymes-in-the-mash.html\">the enzymes at work in your mash</a> covers why this temperature and pH sensitivity exists at the enzyme level.</p>"
   ],
   [
    "Buffer capacity and why some grists resist correction",
-   "<p>A grist heavy in dark, roasted malt has more natural buffering capacity of its own than a very pale grist, meaning the same acid addition moves pH by a smaller amount. This is why a pH calculator's prediction should be treated as a starting estimate rather than a guarantee, and why measuring the actual result after an addition matters more than trusting the calculation alone.</p>"
+   "<p>A grist heavy in dark, roasted malt has more natural buffering capacity of its own than a very pale grist, meaning the same acid addition moves pH by a smaller amount. This is why a pH calculator's prediction should be treated as a starting estimate rather than a guarantee. That is why measuring the actual result after an addition matters more than trusting the calculation alone.</p>"
   ],
   [
    "Common calculator pitfalls",
-   "<p>Brewing water calculators need an accurate water report to work from, and feeding one an outdated or estimated water profile produces a confident, precise-looking, and wrong recommendation. Garbage in, garbage out applies here more than almost anywhere else in the brewing process, since a pH correction based on bad water data can push the mash further from target rather than closer to it.</p>"
+   "<p>Brewing water calculators need an accurate water report to work from. Feeding one an outdated or estimated water profile produces a confident, precise-looking but wrong recommendation. Garbage in, garbage out applies here more than almost anywhere else in the brewing process, since a pH correction based on bad water data can push the mash further from target rather than closer to it.</p>"
   ],
   [
    "Sparge water pH matters too",

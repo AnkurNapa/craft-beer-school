@@ -1,0 +1,63 @@
+{
+ "slug": "malolactic-fermentation-in-wine",
+ "cat": "Wine",
+ "h1": "Malolactic fermentation in wine and what it does to flavour",
+ "title": "Malolactic Fermentation in Wine | Craft Beer School",
+ "desc": "What malolactic fermentation does to wine, when to encourage or block it and how to manage and test it in a small winery.",
+ "teaser": "A second fermentation that changes acidity, texture and aroma. Whether you want it is a style decision.",
+ "standfirst": "Malolactic fermentation converts sharp malic acid into softer lactic acid. It changes how a wine tastes and how stable it is. This guide covers the chemistry, the decision and the practical control in a small winery.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What malolactic fermentation is",
+   "<p>Malolactic fermentation, often shortened to MLF, is not a yeast fermentation. It is carried out by lactic acid bacteria, most often Oenococcus oeni. The bacteria convert malic acid, the sharp acid of green apples, into lactic acid, which tastes softer. A small amount of carbon dioxide is released.</p><p>Because malic acid is stronger than lactic acid, total acidity falls and pH rises, typically by around 0.1 to 0.3 units. The wine tastes rounder and less sharp. Our guide to <a href=\"how-wine-is-made.html\">how wine is made</a> shows where MLF sits after primary fermentation.</p>"
+  ],
+  [
+   "What it does to flavour",
+   "<ul><li><strong>Softer acidity.</strong> The sharp edge of malic acid is replaced by a gentler acidity.</li><li><strong>Fuller texture.</strong> Wines feel rounder in the mouth.</li><li><strong>Buttery notes.</strong> The bacteria can produce diacetyl, the same compound brewers know as a butterscotch fault. In a rich Chardonnay a little can be part of the style. In a crisp white it is usually unwanted.</li><li><strong>Less primary fruit.</strong> Some bright fruit aromas fade, which can be a loss in aromatic whites.</li></ul><p>Our guide to <a href=\"sweetness-acidity-and-tannin-in-wine.html\">sweetness, acidity and tannin in wine</a> explains how acidity shapes balance.</p>"
+  ],
+  [
+   "When to encourage it and when to block it",
+   "<p>The decision belongs in the harvest plan, not in the cellar after the fact. Most red wines go through MLF. It softens acidity and, more importantly, removes malic acid that bacteria could otherwise convert later in the bottle. That would cause gas, haze and off aromas.</p><p>For whites it is a choice. Rich Chardonnay often goes through full or partial MLF. Fresh, aromatic whites such as Sauvignon Blanc and Riesling usually do not, because winemakers want to keep their crisp acidity and fruit.</p><p>In warm climates like India's, grapes often reach the winery with lower acidity already. Softening it further can leave a wine tasting flat. Indian winemakers often block MLF in whites. For reds they check acidity carefully before deciding whether to add acid before or after.</p>"
+  ],
+  [
+   "Conditions bacteria need",
+   "<p>Lactic acid bacteria are fussier than wine yeast. MLF goes best when:</p><ul><li>Temperature is around 18 to 22 °C. Cold cellars stall it.</li><li>Free sulphur dioxide is low. SO2 inhibits the bacteria, so additions are usually delayed until MLF is finished.</li><li>pH is not too low. Below about 3.2 the bacteria struggle.</li><li>Alcohol is not too high. Very strong wines make MLF slower.</li></ul><p>Many winemakers add a commercial culture of Oenococcus oeni rather than waiting for a natural MLF. Inoculating gives a more predictable result and reduces the risk of unwanted bacteria taking over. Some inoculate at the same time as yeast, called co-inoculation. Others wait until alcoholic fermentation is finished. Waiting is the traditional route. Co-inoculation can finish MLF sooner and shorten the period when the wine sits without sulphur protection.</p>"
+  ],
+  [
+   "How to block MLF",
+   "<p>If you do not want MLF, make the wine an unfriendly place for the bacteria:</p><ul><li>Add sulphur dioxide promptly after alcoholic fermentation finishes.</li><li>Keep the wine cool.</li><li>Keep pH low where the style allows.</li><li>Use sterile filtration before bottling to remove any bacteria.</li><li>Keep equipment that has handled MLF wines away from wines that must not go through it, or clean it thoroughly between uses.</li></ul><p>This last point is the one people miss. A hose that moved a red wine during MLF can carry bacteria straight into a Sauvignon Blanc you meant to keep crisp.</p>"
+  ],
+  [
+   "Checking whether MLF is finished",
+   "<p>Never assume. MLF gives off very little gas, so there is often nothing visible to watch. A wine that stopped bubbling may still hold malic acid. Small wineries often use paper chromatography, a cheap test that shows malic and lactic acid as separate spots on a paper sheet. Enzymatic test kits give a number, usually reported in g/L of malic acid. They are more precise.</p><p>Once MLF is complete, add sulphur dioxide to protect the wine. A wine left unprotected at this stage, warm and with higher pH, is at real risk from spoilage organisms. Our guide to <a href=\"wine-faults-for-quality-teams.html\">wine faults</a> describes what those spoilage organisms leave behind.</p><p>MLF is a good example of a decision that has to be planned before harvest. Yeast choice, SO2 timing, temperature and acid adjustment all depend on whether you want it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does malolactic fermentation make wine buttery?",
+   "It can. The bacteria may produce diacetyl, which smells buttery. Winemakers control how much remains through strain choice and timing."
+  ],
+  [
+   "Do all red wines go through malolactic fermentation?",
+   "Most do. It softens acidity and prevents the conversion happening later in the bottle, where it would cause gas and haze."
+  ],
+  [
+   "How do I know if malolactic fermentation has finished?",
+   "Test for malic acid using paper chromatography or an enzymatic kit. Do not rely on the wine looking still."
+  ]
+ ],
+ "cta": {
+  "title": "Control acidity and stability in your wines",
+  "body": "Our two-week Winemaking course, online or in person, covers primary and malolactic fermentation, acid and pH management and the timing of sulphur additions.",
+  "label": "See the full syllabus",
+  "href": "winemaking-course.html"
+ },
+ "related": [
+  "how-wine-is-made",
+  "sweetness-acidity-and-tannin-in-wine",
+  "wine-faults-for-quality-teams"
+ ]
+}

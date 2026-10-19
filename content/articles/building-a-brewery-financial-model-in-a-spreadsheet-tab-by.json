@@ -1,0 +1,75 @@
+{
+ "slug": "building-a-brewery-financial-model-in-a-spreadsheet-tab-by",
+ "cat": "Business",
+ "h1": "Building a brewery financial model in a spreadsheet tab by tab",
+ "title": "Brewery financial model, tab by tab | Craft Beer School",
+ "desc": "A tab by tab guide to building a brewery or brewpub financial model in a spreadsheet: assumptions, capex, volumes, pricing, cost per litre, P&L and cash flow.",
+ "teaser": "A good brewery model is ten tabs and one rule: every number lives in one place. Here is the layout we use.",
+ "standfirst": "Banks, investors and your own nerves all want the same thing: a model that shows how the brewery makes money and when it runs out of cash. This is the tab structure we teach, in the order you should build it.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The one rule",
+   "<p>Every input lives once, on the assumptions tab. Every other tab only calculates. The moment someone types a selling price directly into the P&amp;L, the model starts lying quietly. Colour the input cells one colour and lock the rest.</p><p>Build monthly for the first three years and yearly after that. Brewery cash problems happen inside a year, between a slow monsoon and the festive season. An annual model hides them.</p>"
+  ],
+  [
+   "Tabs 1 and 2: assumptions and capex",
+   "<p><strong>Assumptions</strong> holds everything you might want to change: opening date, seats, opening days, beer price per glass, food mix, raw material prices, salaries, rent, inflation, excise and tax inputs and loan terms. Write the source next to each number, even if the source is \"quote from fabricator, March\".</p><p><strong>Capex</strong> lists the brewhouse, fermenters, glycol chiller, boiler or electric heating, kegs, kitchen, bar, fit-out, deposits and licence costs, with the month each is paid. Our guide to <a href=\"microbrewery-cost-india.html\">microbrewery costs in India</a> lists the usual lines. Include advances paid to fabricators months before opening, because they hit cash long before the first pint.</p>"
+  ],
+  [
+   "Tab 3: volumes",
+   "<p>Volume drives everything, so build it from things you can observe. For a brewpub: seats, covers per seat per day, share of guests who order beer, glasses per beer drinker and litres per glass. Add a monthly seasonal factor and a ramp-up curve for the first months.</p><p>Then check the result against brewhouse capacity. If the model sells more beer in December than your fermenters can turn out, the volume tab is wrong, or you need another tank.</p>"
+  ],
+  [
+   "Tabs 4 and 5: pricing and cost per litre",
+   "<p><strong>Pricing</strong> converts the menu price into what you keep. In India that means separating the taxes and levies on liquor and food, which vary by state, from your net revenue. Keep the tax inputs on the assumptions tab so a policy change is one cell, not an afternoon.</p><p><strong>Cost per litre</strong> builds the recipe cost from malt, hops, yeast, water treatment, CO2, energy and losses. Brewhouse and packaging losses matter here: if 1,000 litres in the kettle becomes 850 litres sold, your raw material cost per litre sold is higher than the recipe suggests. See <a href=\"cost-per-litre-beer.html\">cost per litre of beer</a> for the method.</p>"
+  ],
+  [
+   "Tabs 6 to 8: staff, overheads and the P&amp;L",
+   "<p><strong>Staff</strong> lists every role with salary, start month and statutory costs. <strong>Overheads</strong> holds rent, utilities, maintenance, marketing, insurance, software and licence renewals. The <strong>P&amp;L</strong> then pulls revenue, cost of goods, staff and overheads into gross margin, EBITDA, depreciation, interest and profit before tax.</p><p>Keep beer and food margins visible as separate lines. Many brewpubs find the beer carries the business and the kitchen barely breaks even. You want to see that early.</p>"
+  ],
+  [
+   "Working capital: the quiet cash drain",
+   "<p>Add a small block for working capital. Malt and hops are often bought in bulk. Imported hops may be ordered months ahead. Beer sits in tanks for two to six weeks before it earns anything. If you sell kegs to other venues, they may pay you thirty or sixty days later while your suppliers want paying sooner.</p><p>Model stock days, debtor days and creditor days as inputs. A brewpub that only sells across its own bar has little debtor risk. A brewery selling to retail or other outlets can grow its way into a cash crisis, because each extra keg sold on credit ties up money before it comes back.</p>"
+  ],
+  [
+   "Tabs 9 and 10: cash flow and scenarios",
+   "<p><strong>Cash flow</strong> is the tab that matters most. Start from profit, add back depreciation, then account for capex, loan drawdowns and repayments, deposits, stock build-up and timing differences on payments. The lowest point of the cumulative cash line is the real funding requirement.</p><p><strong>Scenarios</strong> runs the model at slow, expected and strong volumes, plus a three-month licence delay. If the slow case runs out of cash, you need more funding or a smaller plan before you sign the lease, not after.</p>"
+  ],
+  [
+   "A dashboard and a checks tab",
+   "<p>Finish with two small tabs. The <strong>dashboard</strong> shows the handful of numbers a bank or partner asks about: total funding need, month of break-even, year-three revenue and EBITDA, cost per litre and the lowest cash point. The <strong>checks</strong> tab tests the model against itself: does the balance sheet balance, does cash match between tabs, does volume ever exceed capacity? Any check that fails turns red.</p><p>Those checks catch the broken formula that otherwise surfaces in front of an investor.</p><p>Building the tabs is the easy part. Knowing whether the inputs are realistic is harder: what a sensible ramp-up looks like, how much stock to carry and which costs move with volume. That judgement is what a model review with someone who has run brewery numbers gives you.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Should a brewery model be monthly or yearly?",
+   "Monthly for at least the first three years, then yearly. Seasonal swings and licence delays create cash gaps that an annual model hides."
+  ],
+  [
+   "What is the most important tab?",
+   "Cash flow. The lowest point of cumulative cash tells you how much funding you actually need."
+  ],
+  [
+   "How do I estimate volumes before opening?",
+   "Build them from seats, covers, the share of beer drinkers, glasses per drinker and glass size, then apply seasonality and a ramp-up. Check the result against brewhouse capacity."
+  ],
+  [
+   "Do I need special software?",
+   "No. Excel or Google Sheets is enough if inputs live on one tab and every other tab only calculates."
+  ]
+ ],
+ "cta": {
+  "title": "Turn your spreadsheet into a business plan that holds up",
+  "body": "Brewery Business Management is a 3 week live online course (₹8,999). It walks through costing, cash flow, pricing and the financial model itself, with feedback on your own numbers in the weekly assignments.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewery-business-plan",
+  "cost-per-litre-beer",
+  "brewery-cash-flow-first-year"
+ ]
+}

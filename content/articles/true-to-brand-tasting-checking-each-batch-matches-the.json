@@ -1,0 +1,75 @@
+{
+ "slug": "true-to-brand-tasting-checking-each-batch-matches-the",
+ "cat": "Tasting",
+ "h1": "True-to-brand tasting: checking each batch matches the flagship",
+ "title": "True-to-Brand Tasting for Every Batch | Craft Beer School",
+ "desc": "How to run true-to-brand tasting in a small brewery: references, panel set-up, scoring, triangle tests and using results to release beer.",
+ "teaser": "Your regulars know their beer better than any lab. True-to-brand tasting makes sure you notice drift before they do.",
+ "standfirst": "A flagship beer is a promise that every pint tastes the same. True-to-brand tasting is how a brewery checks it keeps that promise, batch after batch. Here is a workable system for a small or mid-sized brewery.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What true-to-brand means",
+   "<p>True-to-brand, often shortened to TTB, asks one question about each batch: does this beer taste like our beer? It is different from asking whether the beer is good. A batch can be clean and pleasant and still not be true to brand because it is more bitter, less fruity or darker than it should be.</p><p>For a <a href=\"flagship-beer-strategy.html\">flagship beer</a>, consistency is the product. Regular drinkers notice small changes long before anyone else does. Our guide to <a href=\"beer-tastes-different-every-batch.html\">why beer tastes different every batch</a> covers the process causes.</p>"
+  ],
+  [
+   "Start with a written profile",
+   "<p>Write a short sensory profile for each brand: the key attributes and their expected intensity on a simple scale. For a pale ale it might read: citrus hop aroma 4, pine 2, malt sweetness 2, bitterness 3, body medium, no diacetyl, no oxidation. Agree it with the head brewer. This becomes the standard each batch is judged against.</p>"
+  ],
+  [
+   "Keep a reference sample",
+   "<p>Descriptions drift with memory. A physical reference anchors them. Keep cans or bottles from an approved batch, stored cold and dark. Taste the new batch beside one. Replace references regularly, because a reference ages too. A hoppy beer reference may only be useful for a few weeks before its own aroma fades.</p>"
+  ],
+  [
+   "Set up the panel",
+   "<ul><li><strong>Four to eight tasters</strong> who have been screened for the main faults and trained on the brand profile.</li><li><strong>Same time each day,</strong> ideally mid-morning, away from strong coffee, food and perfume.</li><li><strong>Blind samples.</strong> Pour into identical glasses labelled with random three-digit codes so nobody knows which is the reference.</li><li><strong>Same temperature</strong> for every sample, around 8 to 10 °C for most beers.</li><li><strong>Small pours and spit cups.</strong> Tasters should not swallow during a working panel.</li></ul><p>Our guide to <a href=\"running-a-sensory-panel.html\">running a sensory panel</a> covers training in detail.</p>"
+  ],
+  [
+   "Score and decide",
+   "<p>The simplest form asks each taster to mark the sample true to brand or not true to brand, with a reason if not. A slightly richer form scores each profile attribute. Both work. What matters is that the decision rule is written down before tasting: for example, a batch fails if more than a set share of the panel marks it not true to brand, or if anyone detects a listed fault.</p><p>When the panel is unsure, run a <a href=\"triangle-test.html\">triangle test</a>: two samples of one beer and one of another. Tasters pick the odd one out. If enough people pick correctly, there is a real difference.</p>"
+  ],
+  [
+   "Connect it to release",
+   "<p>TTB is one input into the release decision, alongside lab data such as gravity, ABV, colour, bitterness, carbonation and dissolved oxygen. Sensory and lab data catch different problems. A beer can hit every number and still taste wrong. Our guide to <a href=\"how-a-beer-batch-is-released.html\">how a beer batch is released</a> shows where tasting fits.</p><p>Decide in advance what happens to a failed batch: blend, hold, sell under another name or dump. A plan made at 10 AM on a calm day is better than one made under pressure at packaging.</p>"
+  ],
+  [
+   "Common TTB traps",
+   "<p>Three problems undermine most TTB programmes. The first is the brewer tasting their own beer and knowing which sample is which. Blind coding fixes that. The second is a panel that never fails anything because nobody wants to hold up packaging. Make it clear that a fail is useful information, not a criticism. The third is a stale reference: if the reference has aged, a fresh batch can look wrong when it is actually right. Note the reference's age on every form.</p><p>Keep the paperwork light. A form that takes two minutes gets filled in every day. One that takes ten gets skipped on busy days, which are exactly the days you need it.</p>"
+  ],
+  [
+   "Use the records",
+   "<p>Log every result. Over months, plot attribute scores per batch and you start to see drift, such as hop aroma slowly falling or bitterness creeping up. That trend is often more useful than any single result. A brewery that reviews TTB data monthly finds problems in raw materials, yeast health and process before they reach the customer.</p><p>The weakest link in most TTB programmes is the panel's calibration. Tasters who have never smelled diacetyl at a known level will miss it at low levels. The whole system rests on them.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is true-to-brand tasting?",
+   "A check that each batch tastes like the brand's established profile. It asks whether the beer is consistent, not just whether it is good."
+  ],
+  [
+   "How many tasters does a TTB panel need?",
+   "Four to eight trained tasters is workable for most small and mid-sized breweries. Consistency of the panel matters more than size."
+  ],
+  [
+   "How long should a reference sample be kept?",
+   "Only as long as it stays representative. Hoppy beers lose aroma quickly, so references may need replacing every few weeks. Store them cold and dark."
+  ],
+  [
+   "What if a batch fails TTB?",
+   "Follow a plan agreed in advance: blend, hold for more conditioning, sell under a different name or dump, depending on the fault."
+  ]
+ ],
+ "cta": {
+  "title": "Make every batch taste like the flagship",
+  "body": "Our Sensory Evaluation course is 2 weeks of live weekend classes for ₹5,999. It covers panel training, scoring methods, triangle tests and fault thresholds, the pieces that turn a TTB form into a system you can trust.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "running-a-sensory-panel",
+  "flagship-beer-strategy",
+  "how-a-beer-batch-is-released"
+ ]
+}

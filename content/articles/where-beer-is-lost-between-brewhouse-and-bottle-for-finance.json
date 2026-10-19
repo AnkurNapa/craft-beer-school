@@ -1,0 +1,63 @@
+{
+ "slug": "where-beer-is-lost-between-brewhouse-and-bottle-for-finance",
+ "cat": "Beer for teams",
+ "h1": "Where beer is lost between brewhouse and bottle, for finance teams",
+ "title": "Where Beer Is Lost, Brewhouse to Bottle | Craft Beer School",
+ "desc": "A stage-by-stage map of where beer and extract are lost between brewhouse and bottle, what is normal and which questions finance teams should ask.",
+ "teaser": "The brewhouse made 100 hectolitres. The warehouse received less. Where did the rest go?",
+ "standfirst": "Every brewery loses some beer between the kettle and the pack. Finance sees it as a gap between production and sales volumes. Brewers see a dozen small losses, each with a cause. This guide maps them so both sides can talk about the same thing.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two kinds of loss",
+   "<p>Brewers talk about two different losses. Finance teams should keep them apart.</p><ul><li><strong>Extract loss.</strong> How much of the sugar and other material in the malt actually ends up in the wort. Measured as brewhouse efficiency or yield. Lower efficiency means more malt bought per litre of beer.</li><li><strong>Volume loss.</strong> How many litres of wort or beer disappear on the way to the package. Measured in litres or as a percentage of what went in.</li></ul><p>Both cost money, but in different lines. Extract loss shows up in raw material cost per litre. Volume loss shows up in every cost that was already spent on the litres that never reached a customer. Our guide to <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> covers the extract side.</p>"
+  ],
+  [
+   "Stage by stage",
+   "<ol><li><strong>Brewhouse.</strong> Wort stays behind in the spent grain after lautering and in the hop and protein residue (trub) after the boil. Evaporation in the boil is planned, but a boil that runs longer or harder than designed shrinks the batch.</li><li><strong>Fermentation.</strong> Yeast settles to the cone of the fermenter and is removed, taking beer with it. Some is recovered by better yeast handling. Some is simply lost.</li><li><strong>Maturation and filtration.</strong> Tank bottoms are left behind on transfer. Filtration loses beer at start-up and shutdown when beer mixes with water in the lines.</li><li><strong>Bright beer tank.</strong> Beer left in the tank at the end of a run, plus mixed beer and water at changeovers.</li><li><strong>Packaging.</strong> Fills that are rejected for low or high level, bottles broken on the line, cans damaged in the seamer and beer used in line start-up. Overfilling is a loss too: every bottle filled above its declared volume gives beer away.</li><li><strong>After packaging.</strong> Breakage in the warehouse and in transit, returns of stale or damaged stock and samples drawn for quality testing.</li></ol>"
+  ],
+  [
+   "What is normal",
+   "<p>There is no universal figure, because losses depend on brewery size, equipment, beer style and how losses are measured. A small craft brewery with no beer recovery and lots of hoppy beer will lose more than a large plant built for lager. What matters for finance is that each brewery knows its own normal for each stage and tracks it consistently.</p><p>Hop-heavy beers lose more because hops soak up beer. Dry-hopped IPAs can lose noticeably more volume in the fermenter than a clean lager. When a brewery's mix shifts towards hoppy beers, total loss can rise without anything going wrong.</p>"
+  ],
+  [
+   "The questions finance should ask",
+   "<ul><li>Where is volume measured? How accurate is each meter or level reading?</li><li>What is our normal loss at each stage, by beer type?</li><li>Which stage moved most this month? What changed there?</li><li>How are short fills and overfills tracked at the filler?</li><li>Are excise records and production records based on the same measurements?</li></ul><p>Excise is part of the picture in India. Duty and stock reconciliation rules vary by state. Losses above allowed limits can draw attention from excise officials. Work with your excise colleagues on what records each state expects.</p>"
+  ],
+  [
+   "Where the money really is",
+   "<p>The cost of a lost litre rises as it moves down the line. A litre lost in the brewhouse has used malt and steam. A litre lost at packaging has also used weeks of tank time, refrigeration, filtration and possibly a bottle and a label. A litre lost in the market after duty has been paid carries excise too.</p><p>On the floor, a common hidden loss is filler overfill. A filler set a few millilitres high on every bottle can give away more beer over a month than a dumped tank. It never shows up as a dramatic event. It just quietly lowers the volume reaching the warehouse.</p><p>For keg businesses, losses continue after the brewery: kegs that never come back and beer poured away at the bar. See <a href=\"keg-tracking-and-losses.html\">keg tracking and losses</a>.</p>"
+  ],
+  [
+   "Turning losses into a shared number",
+   "<p>The most useful step is a simple loss bridge, agreed between brewing and finance: litres of wort produced, then each stage's loss, ending at litres packed and sold. Value each stage's loss at the cost incurred up to that point. The result shows where the money goes and which improvement pays most. It connects directly with <a href=\"beer-cost-of-goods-explained.html\">beer cost of goods</a>.</p><p>Building that bridge needs someone who understands both the ledger and the tanks. That is usually the gap.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a normal beer loss percentage?",
+   "It varies by brewery size, equipment, style and how it is measured. Each brewery should set its own baseline per stage and track changes against it."
+  ],
+  [
+   "Why do IPAs lose more beer?",
+   "Hops soak up beer, especially when added during fermentation for dry hopping. That beer stays with the hop material and is hard to recover."
+  ],
+  [
+   "Is overfilling a loss?",
+   "Yes. Beer filled above the declared volume is given away. A small overfill on every pack adds up to a large volume over a month."
+  ]
+ ],
+ "cta": {
+  "title": "Turn the volume gap into a loss map everyone agrees on",
+  "body": "Our Brewing and distilling operations module walks finance teams through every stage where beer is lost and how to value it, built around your team's own sites and portfolio.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "brewhouse-efficiency",
+  "beer-cost-of-goods-explained",
+  "keg-tracking-and-losses"
+ ]
+}

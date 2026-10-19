@@ -1,0 +1,67 @@
+{
+ "slug": "beer-stone-build-up-in-tanks-and-how-to-remove-it-safely",
+ "cat": "Brewing science",
+ "h1": "Beer stone build-up in tanks and how to remove it safely",
+ "title": "Removing Beer Stone Safely | Craft Beer School",
+ "desc": "What beer stone is, why caustic alone will not shift it, how acid cleaning removes it and the safety rules that stop a cleaning job becoming an accident.",
+ "teaser": "That grey film inside your bright tank is not harmless. Here is how to remove it without hurting anyone.",
+ "standfirst": "Beer stone is a hard mineral and organic scale that builds up in fermenters, bright tanks, kegs and heat exchangers. It shelters bacteria and resists ordinary caustic cleaning. Removing it means acid chemistry, which means doing it safely.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What beer stone is",
+   "<p>Beer stone is mostly calcium oxalate, bound up with protein, hop resins and other minerals. Oxalate comes from malt. Calcium comes from brewing water and salt additions. When the two meet in wort and beer, calcium oxalate slowly falls out of solution, especially as beer cools. It settles on stainless steel surfaces.</p><p>It starts as a faint grey or brownish film that you can see when you shine a torch into a tank. Over months it thickens into a rough scale. On kegs and fermenter walls it is easy to miss. On heat exchanger plates it shows up as rising pressure drop and falling performance.</p>"
+  ],
+  [
+   "Why it matters",
+   "<p>Beer stone is rough and porous. Bacteria and wild yeast lodge in it, where sanitiser cannot reach them. A tank with beer stone can pass a visual check, get a full caustic cycle and still reinfect every batch. That is why persistent low level infections often trace back to scaled tanks, kegs or heat exchangers.</p><p>It also flakes. Flakes of scale in a bright tank can act as nucleation sites that encourage gushing in packaged beer.</p>"
+  ],
+  [
+   "Why caustic alone will not remove it",
+   "<p>Hot caustic is excellent at dissolving organic soil: protein, yeast, hop residue. It does little to calcium oxalate. Worse, in hard water caustic can add its own mineral deposits. A cleaning regime that only uses caustic will let beer stone build year after year.</p><p>Removing it needs an acid step. Phosphoric acid and nitric acid blends sold for brewery use are the usual choice. The acid dissolves the mineral part of the scale, after which caustic can strip the organic part. Many breweries run acid regularly as part of their <a href=\"cip-cleaning-in-place.html\">CIP cycle</a>, which keeps scale from forming in the first place.</p>"
+  ],
+  [
+   "A safe removal routine",
+   "<p>Follow the chemical supplier's data sheet for concentration and temperature. Treat this as a sequence:</p><ol><li>Pre-rinse with water to remove loose soil.</li><li>Caustic cycle to strip organics, then a thorough water rinse. Caustic and acid must never meet in the same tank.</li><li>Acid cycle at the supplier's recommended strength. Most acid cleaners work at ambient or mildly warm temperatures.</li><li>Rinse until the water coming out is at the same pH as the water going in.</li><li>Inspect with a torch through the manway. Repeat the acid step for heavy scale rather than raising the strength.</li><li>Sanitise before use.</li></ol><p>Heavy, old scale can take several acid cycles. Brushing helps on kegs and small vessels, but use soft brushes or pads, never wire wool or abrasive scourers, which scratch stainless and give bacteria new places to hide.</p>"
+  ],
+  [
+   "The safety rules that are not optional",
+   "<p>Acid cleaning is where small breweries hurt people. These rules are non negotiable:</p><ul><li>Never mix acid with chlorine based products. The reaction releases chlorine gas.</li><li>Always add acid to water, never water to acid.</li><li>Wear goggles and a face shield, chemical gloves and an apron when handling concentrate.</li><li>Never enter a tank to scrub it. A tank is a confined space and can hold CO2 or chemical fumes. Clean it from outside with a spray ball and a long handled brush.</li><li>Keep an eyewash station and running water close to where chemicals are mixed.</li><li>Label every dosing container. Unlabelled jerrycans are how acid ends up in a caustic tank.</li></ul><p>The one floor detail we see most often go wrong: a cellar hand opens a tank manway straight after an acid cycle, leans in to look and gets a face full of vapour. Vent, rinse and wait before you look.</p>"
+  ],
+  [
+   "Stopping it coming back",
+   "<p>Scale forms faster when wort carries more oxalate into the fermenter. Adequate calcium in the mash and kettle encourages oxalate to drop out with the trub in the brewhouse rather than in your tanks. Water chemistry matters here. Indian borewell water varies enormously from site to site, so test it.</p><p>Run an acid step on a fixed schedule, inspect tank walls and keg interiors regularly and keep an eye on heat exchanger pressure. Our guides to <a href=\"bright-beer-tank-management.html\">bright beer tank management</a> and <a href=\"cip-water-and-chemical-savings.html\">saving water and chemicals in CIP</a> fit alongside this.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is beer stone made of?",
+   "Mainly calcium oxalate, mixed with protein, hop resins and other minerals that deposit on stainless steel as beer cools."
+  ],
+  [
+   "Can caustic remove beer stone?",
+   "Not on its own. Caustic removes organic soil but leaves calcium oxalate behind. An acid cleaning step is needed."
+  ],
+  [
+   "Is it safe to mix acid and chlorine cleaners?",
+   "No. Mixing them releases toxic chlorine gas. Rinse thoroughly between chemicals and keep chlorine products well away from acids."
+  ],
+  [
+   "Should I climb into a tank to scrub beer stone?",
+   "No. Tanks are confined spaces that can hold CO2 or fumes. Clean from outside with spray balls and long handled brushes."
+  ]
+ ],
+ "cta": {
+  "title": "Clean your tanks without putting anyone at risk",
+  "body": "Safety in Brewing is our free one week live course. It covers cleaning chemicals, safe dilution, confined spaces and CO2, the hazards that sit behind every CIP cycle.",
+  "label": "See the full syllabus",
+  "href": "safety-in-brewing-course.html"
+ },
+ "related": [
+  "cip-cleaning-in-place",
+  "cip-water-and-chemical-savings",
+  "bright-beer-tank-management"
+ ]
+}

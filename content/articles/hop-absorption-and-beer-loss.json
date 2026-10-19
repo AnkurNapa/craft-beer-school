@@ -1,0 +1,63 @@
+{
+ "slug": "hop-absorption-and-beer-loss",
+ "cat": "Ingredients",
+ "h1": "How much beer your hops soak up and how to win some back",
+ "title": "Hop Absorption and Beer Loss | Craft Beer School",
+ "desc": "How much beer hops absorb in the kettle and fermenter, how to measure your own loss per kilo and practical ways to win some of it back.",
+ "teaser": "Every big dry hop leaves a layer of sludge that holds sellable beer. Measure it and you may be surprised what it costs.",
+ "standfirst": "Hop-forward beers lose more volume than any other style, mostly to wet hop matter in the kettle and the fermenter. The loss is easy to ignore because it hides in the trub. Measuring it is simple. The fixes are mostly process rather than equipment.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Where the beer goes",
+   "<p>Hops absorb liquid. Pellets swell into a wet mass that holds wort or beer between and inside the particles. In the kettle that mass ends up in the whirlpool trub cone. In the fermenter it settles with the yeast after dry hopping.</p><p>The loss scales with hop weight. A lager with a modest kettle charge loses little. A hazy IPA with large whirlpool and dry hop additions can lose a noticeable share of each batch. Since this is finished, taxed or soon-to-be-taxed beer, the cost per litre is high. Our guide to the <a href=\"brewery-loss-audit.html\">brewery loss audit</a> puts this in the context of all your losses.</p>"
+  ],
+  [
+   "Measure your own number",
+   "<p>Published rules of thumb vary widely, so measure your own system. You need three volumes for a series of batches:</p><ul><li>Volume in the kettle at knockout</li><li>Volume into the fermenter</li><li>Volume out of the fermenter to the brite tank</li></ul><p>Subtract to find the kettle loss and the fermenter loss, then divide each by the kilograms of hops added at that stage. Do this across several batches with different hop loads and you will see how many litres you lose per kilo of hops. Separate the normal yeast and trub loss you see in a low-hopped beer from the extra loss you see in a heavily hopped one.</p><p>Use the same measuring method every time: a calibrated sight glass, a flow meter or tank dip charts. Rough numbers are fine to start with, as long as they are consistent.</p>"
+  ],
+  [
+   "Reducing loss in the kettle",
+   "<ul><li><strong>A good whirlpool.</strong> A firm, compact trub cone gives up more clear wort. Let the whirlpool rest long enough to settle before running off.</li><li><strong>Draw off carefully.</strong> Watch the sight glass and stop at the trub line, not before it out of habit. Some brewers tilt or drain the last litres slowly.</li><li><strong>Hop extracts for bittering.</strong> CO2 extract gives bitterness with almost no vegetal mass, so the kettle absorbs much less. Our guide to <a href=\"hop-extracts-and-cryo-hops.html\">hop extracts and cryo hops</a> covers the options.</li></ul>"
+  ],
+  [
+   "Reducing loss in the fermenter",
+   "<p>Dry hopping is where most of the loss lives in hoppy beers.</p><ul><li><strong>Use lupulin concentrates.</strong> Cryo and similar lupulin powders deliver roughly the same aroma at around half the weight of standard pellets, which means less vegetal mass to soak up beer.</li><li><strong>Dump before you transfer.</strong> After dry hopping and cold crashing, dump the hop and yeast sludge from the cone in several short bursts over a day or two. Each dump lets more beer settle above it.</li><li><strong>Crash cold and give it time.</strong> A firm crash to around 0 to 2 °C compacts the sludge and leaves more clear beer.</li><li><strong>Split charges.</strong> Two smaller additions with a dump between them often give good aroma with less total hop mass sitting in the beer.</li></ul><p>The floor detail worth noting is the first dump: fresh dry hop sludge is loose, so a short, gentle burst wastes far less beer than one long open valve.</p>"
+  ],
+  [
+   "Recovering beer from the sludge",
+   "<p>Larger breweries use centrifuges to separate beer from hop and yeast sludge, recovering a meaningful share of what would otherwise go down the drain. For a small brewery that is usually a big capital spend, but it is worth costing once hop-forward beers make up most of your volume.</p><p>Without a centrifuge, some brewers collect the sludge in a separate small tank, let it settle cold and then draw off the clearer beer for blending back. This carries oxygen pickup and microbial risk, so it must be done under CO2 with sanitised equipment. Only blend if the recovered beer tastes clean. Account for it correctly in your excise records. Rules vary by state, so check how recovered beer is treated where you operate.</p>"
+  ],
+  [
+   "Is it worth it?",
+   "<p>Work out what a litre of finished beer is worth to you, including excise and packaging. Multiply by the litres you lose to hops each month. Compare that number to the cost of the fixes: lupulin products, a longer cone dump routine or, eventually, a centrifuge.</p><p>Many brewpubs find the cheapest win is simply measuring and dumping more carefully. Once you know your loss per kilo, every hop decision has a volume cost attached to it. That mindset fits naturally with our guide to <a href=\"raising-brewhouse-yield.html\">raising brewhouse yield</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much beer do dry hops absorb?",
+   "It depends on the hop form, the dose and your process. Measure volume in and out of the fermenter across several batches and divide the loss by kilograms of hops."
+  ],
+  [
+   "Do cryo hops reduce beer loss?",
+   "Yes. Lupulin concentrates give similar aroma at around half the weight of pellets, so there is less vegetal material to absorb beer."
+  ],
+  [
+   "Can I recover beer from hop sludge?",
+   "Centrifuges do it well. Settling and decanting can work in small breweries if done cold, under CO2 and with careful sanitation and excise accounting."
+  ]
+ ],
+ "cta": {
+  "title": "Stop losing sellable beer to the hop sludge",
+  "body": "Advanced Brewing Science is a six-week live course (₹12,999). It covers hop chemistry, dry hopping, process losses and yield in depth, with assignments built around your own brewery numbers.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "dry-hopping-guide",
+  "brewery-loss-audit",
+  "raising-brewhouse-yield"
+ ]
+}

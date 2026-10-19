@@ -1,0 +1,63 @@
+{
+ "slug": "why-lager-ties-up-tank-time-and-working-capital-for-finance",
+ "cat": "Beer for teams",
+ "h1": "Why lager ties up tank time and working capital, for finance teams",
+ "title": "Why Lager Ties Up Tanks and Cash | Craft Beer School",
+ "desc": "Why lager spends weeks in tanks, how that turns into working capital and capacity limits. Plus what finance teams should know about lagering.",
+ "teaser": "An ale can be ready in two weeks. A proper lager can take four to six or more. Finance pays for every one of those days.",
+ "standfirst": "Lager is the world's most popular beer style. It is also slow to make. That slowness sets how many tanks a brewery needs, how much beer sits unsold and how fast it can respond to a hot summer. This guide explains why, in terms a finance team can use.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why lager is slow",
+   "<p>Lager is fermented with yeast that works best at cool temperatures, typically around 8 to 13 °C. Cool fermentation is slower than the warmer fermentation used for ales. After the main fermentation, lager is held cold, often close to 0 °C, for a period of maturation called lagering. During this time the yeast cleans up unwanted flavours, the beer clarifies and the taste rounds out.</p><p>Put together, a lager often spends several weeks in tanks before it is ready to filter and pack. An ale can sometimes go from brew to package in two weeks. Our guide to <a href=\"lagering-explained.html\">lagering</a> covers the science.</p>"
+  ],
+  [
+   "Tanks are the bottleneck",
+   "<p>A brewhouse can usually brew several batches a day. The fermentation and lager tanks then hold each batch for weeks. So the number and size of tanks, not the brewhouse, usually sets how much lager a brewery can produce.</p><p>A simple way to see it: if every batch occupies a tank for 28 days, each tank can hold about 13 batches a year. Halve the time and each tank does twice the work. That is why brewers and planners watch tank residence time closely. It is also why a style change from ale to lager can quietly cut capacity.</p><p>On the brewhouse floor, the visible sign of a capacity squeeze is a brewer waiting with a full kettle of wort and nowhere to send it, because no fermenter has been emptied and cleaned yet.</p>"
+  ],
+  [
+   "How tank time becomes working capital",
+   "<p>Every litre in a tank has already consumed malt, hops, energy and labour. It cannot be sold until it is packed. Longer tank time means more litres held as work in progress at any moment, which means more cash tied up.</p><p>Lagering also costs money while it waits. Holding beer near 0 °C for weeks uses refrigeration energy. Indian ambient temperatures make that refrigeration work harder than it would in a cooler climate. The capital cost of the tanks themselves sits on the balance sheet too.</p><p>For a growing brewery this creates a familiar squeeze. Demand rises before summer. More beer needs to be in tanks weeks ahead. Cash goes out for raw materials and energy long before sales come back. Our guide to <a href=\"brewery-cash-flow-first-year.html\">brewery cash flow in the first year</a> shows how that plays out for a new business.</p><p>Cleaning time counts too. After each batch a tank has to be emptied, cleaned with hot caustic and acid solutions, rinsed and sanitised before it can take new wort. That turnaround can take most of a shift. On a tank that runs back to back all year, those cleaning days add up to a noticeable share of capacity. A realistic planning model includes them rather than assuming tanks are always full.</p>"
+  ],
+  [
+   "Can lagering be shortened?",
+   "<p>Brewers have ways to shorten the cycle, with trade-offs.</p><ul><li><strong>Warmer fermentation or a warm rest.</strong> Raising temperature at the end of fermentation speeds up the clean-up of buttery diacetyl.</li><li><strong>Faster maturation methods.</strong> Some large breweries use processes designed to shorten maturation, with careful control.</li><li><strong>High gravity brewing.</strong> Brewing concentrated beer and diluting it later packs more finished litres into each tank.</li></ul><p>Cut too far and the beer shows it: green apple, butter or sulphur notes and a rough finish. Shortening lagering is a quality decision as much as a financial one. It belongs with the brewing team.</p>"
+  ],
+  [
+   "What finance should model",
+   "<ul><li><strong>Tank residence time by brand.</strong> Not one average for the whole brewery.</li><li><strong>Tank utilisation.</strong> Days occupied, including cleaning and empty time, over days available.</li><li><strong>WIP volume and value.</strong> Litres in tanks at each stage, valued at cost to date.</li><li><strong>Seasonal build.</strong> How far ahead of peak season beer must be brewed to be ready in time.</li></ul><p>Those figures link directly to <a href=\"beer-production-planning-basics.html\">beer production planning</a>. A planning model that ignores lagering time will promise beer the tanks cannot deliver.</p>"
+  ],
+  [
+   "The trade-off in one sentence",
+   "<p>Lager's slowness is part of why it tastes clean and smooth. The finance question is not how to remove that time but how to plan around it: enough tanks, the right brands in them and cash ready for the weeks between brewing and selling.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does lager take to make?",
+   "Often several weeks from brew to package, depending on the recipe and the brewery. Ales can be quicker, sometimes about two weeks."
+  ],
+  [
+   "Why not just brew more lager in summer?",
+   "Because it takes weeks in tanks before it can be sold. Summer demand has to be brewed well ahead, limited by tank capacity."
+  ],
+  [
+   "Does lagering use a lot of energy?",
+   "Holding beer near 0 °C for weeks needs steady refrigeration, which costs more in a hot climate like most of India."
+  ]
+ ],
+ "cta": {
+  "title": "Help finance see why tanks set the pace of a brewery",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that connect production time to cash, capacity and planning.",
+  "label": "Ask about team training",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "lagering-explained",
+  "beer-production-planning-basics",
+  "brewery-cash-flow-first-year"
+ ]
+}

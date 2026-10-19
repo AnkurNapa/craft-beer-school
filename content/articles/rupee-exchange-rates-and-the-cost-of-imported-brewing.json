@@ -1,0 +1,63 @@
+{
+ "slug": "rupee-exchange-rates-and-the-cost-of-imported-brewing",
+ "cat": "Business",
+ "h1": "Rupee exchange rates and the cost of imported brewing ingredients",
+ "title": "Rupee Rates and Imported Malt Costs | Craft Beer School",
+ "desc": "How the rupee against the euro, pound and dollar moves the landed cost of imported malt, hops and yeast and what Indian brewers can do about it.",
+ "teaser": "Your recipe did not change. Your malt bill did, because the euro moved while the container was at sea.",
+ "standfirst": "Most Indian craft breweries buy some of their grist and nearly all of their hops in foreign currency. Here is how the exchange rate flows through to cost per litre and the few levers a small brewery actually has.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a brewer should care about the exchange rate",
+   "<p>Base malt can be bought in India. Specialty malts mostly come from Germany, Belgium and the UK, priced in euros or pounds. Hops come from the United States, Germany, the Czech Republic, Australia and New Zealand. Dry yeast comes from Europe. Very little of a modern craft recipe is priced in rupees at source.</p><p>That means the rupee is quietly an ingredient. When it weakens against the euro, every kilo of caramel malt costs more in rupees even though the maltster did not raise a single price. When it strengthens, the reverse happens, though in our experience nobody notices that month.</p><p>The effect is not trivial for a hop-forward brewery. A double dry-hopped IPA can use several times the hops of a lager, so the share of the batch cost priced in foreign currency is far higher.</p>"
+  ],
+  [
+   "How landed cost is built",
+   "<p>The supplier's invoice is only the start. The rupee cost of an imported bag of malt that reaches your brewery stacks up roughly like this:</p><ul><li>The supplier price in euros, pounds or dollars.</li><li>International freight and insurance to an Indian port.</li><li>Customs duty and any cess, calculated on the assessable value converted to rupees at the customs exchange rate the government notifies and revises periodically.</li><li>IGST on top of the duty-paid value.</li><li>Clearing agent charges, port handling and local transport to the brewery.</li></ul><p>Duty rates and the customs exchange rate change, so check the current figures with your importer or clearing agent rather than trusting last year's spreadsheet. The point for the brewer is that the exchange rate is applied before duty and tax, so a weaker rupee raises the duty and the GST in rupee terms as well. The movement compounds a little through the chain.</p>"
+  ],
+  [
+   "Working out your exposure",
+   "<p>Take one recipe and split its ingredient cost into two piles: things priced in rupees and things priced in foreign currency. For a pale lager made mostly on Indian base malt the foreign pile may be small. For a hazy IPA on imported pale ale malt with American hops it can be most of the bill.</p><p>Now run a simple test. Suppose the foreign-currency pile is 60 percent of ingredient cost and the rupee weakens by 5 percent. Ingredient cost rises by about 3 percent (60 percent of 5 percent), a little more once duty and tax ride on top. Then check how much ingredients matter in your full <a href=\"cost-per-litre-beer.html\">cost per litre</a>. In many brewpubs excise, rent and staff dwarf the grain bill, so a currency swing that hurts the recipe may barely move the final number. In a production brewery on thin trade margins it matters more.</p><p>This is the useful habit: know which beers are currency sensitive before the rupee moves, not after the invoice lands.</p>"
+  ],
+  [
+   "The levers a small brewery has",
+   "<p>You cannot control the rupee. You can control when you commit and what you commit to.</p><ul><li><strong>Hop contracts.</strong> Hop merchants offer forward contracts for future crop years at agreed prices. This fixes the supplier price, though the rupee conversion still happens when you pay.</li><li><strong>Buying ahead.</strong> Ordering a larger lot when the rate is favourable locks in cost, as long as you can store it properly. Pellets kept cold and sealed hold up well. Malt does not like Indian monsoon humidity, so buy only what your store can keep dry.</li><li><strong>Bank forward cover.</strong> Banks offer forward contracts that fix the exchange rate for a future payment. Ask your bank what minimums apply; for very small import bills it may not be worth the paperwork.</li><li><strong>Recipe design.</strong> Use Indian base malt where the style allows and keep imports for the specialty malts and hops that genuinely carry the flavour.</li></ul>"
+  ],
+  [
+   "A note on stock and cash",
+   "<p>Buying ahead to beat the rupee ties up cash in a cold room. A year of hops bought at a good rate is still a year of cash sitting on a shelf. A small brewery usually needs that money more than it needs a slightly better rate. Weigh the saving against what the cash would otherwise do. Read our guide to <a href=\"sourcing-malt-and-hops-in-india.html\">sourcing malt and hops in India</a> for the supply side of the same decision.</p><p>Also watch the floor detail that ruins the maths: hop pellets left in a warm receiving bay for an afternoon in May lose aroma you paid for in euros. Get them into cold storage the hour they arrive.</p>"
+  ],
+  [
+   "Pricing without whiplash",
+   "<p>Do not reprice your taproom menu every time the rupee wobbles. Customers notice price changes far more than they notice a few rupees of margin. Build a small buffer into the price of your currency-sensitive beers, review it quarterly against a rolling average of your actual landed costs and change prices only when the trend holds.</p><p>Doing this well means having costing that splits by currency and by beer, which most small breweries do not have until something forces them to build it. That is the work our business course spends real time on.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does the exchange rate affect customs duty on malt?",
+   "Yes. Duty is calculated on the assessable value in rupees, converted at the customs exchange rate the government notifies. A weaker rupee raises the rupee value and so the duty and tax paid on it."
+  ],
+  [
+   "Can a small brewery hedge currency risk?",
+   "Banks offer forward contracts that fix a rate for a future payment. Hop merchants offer forward price contracts. Ask your bank about minimum sizes, as very small import bills may not justify it."
+  ],
+  [
+   "Should I switch to Indian malt to avoid currency risk?",
+   "For base malt in many styles it is a sensible option. Specialty malts and most hop varieties still come from abroad, so some exposure stays."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to cost your beer properly",
+  "body": "Brewery Business Management covers costing, cash flow, pricing and the licensing process across Indian states in three weeks of live weekend classes.",
+  "href": "brewery-business-management-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "sourcing-malt-and-hops-in-india",
+  "barley-and-malt-for-procurement-teams",
+  "cost-per-litre-beer"
+ ]
+}

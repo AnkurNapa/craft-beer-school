@@ -1,0 +1,63 @@
+{
+ "slug": "a-cleaning-and-cip-audit-when-beer-keeps-getting-infected",
+ "cat": "Consultancy",
+ "h1": "A cleaning and CIP audit when beer keeps getting infected",
+ "title": "CIP Audit for Recurring Infections | Craft Beer School",
+ "desc": "How to audit cleaning and CIP when beer keeps getting infected: trace the pattern, check time, temperature and chemical strength and find where bacteria hide.",
+ "teaser": "One infected batch is bad luck. Three in a row is a system telling you where it is failing.",
+ "standfirst": "Recurring infections almost always trace back to cleaning that looks right on paper and fails somewhere specific. Here is how to run a structured cleaning and CIP audit that finds the place, rather than doubling the chemical and hoping.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with the pattern, not the chemical",
+   "<p>When beer keeps going sour, buttery or phenolic, the instinct is to buy a stronger sanitiser. Resist it. First map the pattern. Which beers were affected? Which fermenters, which bright tanks, which transfer hoses? Did it start after a gasket change, a new staff member or a change of chemical supplier? Does it appear in the fermenter, or only after transfer or packaging?</p><p>Infections that follow a single tank point at that tank. Infections that appear in every beer after transfer point at shared equipment: a hose, a heat exchanger, a pump or the filler. Our guide to <a href=\"infection-bacteria-in-brewing.html\">infection and bacteria in brewing</a> covers what each organism tastes like.</p>"
+  ],
+  [
+   "Confirm what you are dealing with",
+   "<p>Taste tells you something is wrong. A lab tells you what. Plate samples from the affected beer and from points along the process on selective media: media for lactic acid bacteria such as Lactobacillus and Pediococcus plus media that suppress brewer's yeast to reveal wild yeast. ATP swabs give a fast reading on whether a surface is clean, though not what is on it. Our guide to <a href=\"microbiology-plating-small-brewery.html\">microbiology plating in a small brewery</a> shows how to do this without a big lab.</p><p>Knowing the organism narrows the search. Pediococcus often brings diacetyl and slow-building sourness. Wild yeast can cause phenolic notes, overcarbonation and gushing cans.</p>"
+  ],
+  [
+   "Check the four factors of every clean",
+   "<p>Cleaning works through time, temperature, chemical concentration and mechanical action. Audit each one against the chemical supplier's data sheet:</p><ul><li><strong>Concentration.</strong> Titrate the caustic and acid solutions in the CIP tank. Do not trust the dosing log. Caustic weakens with reuse and with carbon dioxide.</li><li><strong>Temperature.</strong> Measure at the return, not just the tank, with a calibrated thermometer. A solution that leaves at 75 °C and returns at 50 °C has not cleaned the far end.</li><li><strong>Time.</strong> Check that each step runs for the specified time at temperature, not from when the pump started.</li><li><strong>Flow.</strong> Spray devices need their rated flow and pressure. In pipework, a velocity of around 1.5 metres per second or more is the usual target for turbulent flow.</li></ul><p>Our guide to <a href=\"cip-cleaning-in-place.html\">CIP cleaning in place</a> covers how to set those parameters.</p>"
+  ],
+  [
+   "The caustic and CO2 trap",
+   "<p>A floor detail that catches many small breweries: caustic reacts with carbon dioxide left in a fermenter after fermentation. It forms sodium carbonate, which steadily weakens the cleaning solution. It can also pull a vacuum strong enough to damage or collapse a tank that lacks proper vacuum relief. Vent and purge CO2 with air before a caustic clean, or use an acid-based cleaning programme on tanks under CO2. Check the caustic strength after each fermenter clean and you will see the effect in the titration.</p>"
+  ],
+  [
+   "Where bacteria hide",
+   "<p>Spray balls clean what they can reach. Bacteria live where they cannot:</p><ul><li>Valve seats and butterfly valve seals, especially on bottom outlets.</li><li>Sample valves, racking arms and pressure relief valves.</li><li>Dead legs in pipework where solution never flows.</li><li>Hoses and their fittings, including the inside of the hose barb.</li><li>The cold side of the heat exchanger.</li><li>Cracked or hardened gaskets, which should be replaced, not cleaned.</li><li>Keg washer heads and filler valves.</li></ul><p>A riboflavin test shows spray coverage: coat the inside of a tank with a riboflavin solution, run a rinse and check under ultraviolet light for spots the spray missed. Strip valves and fittings and look inside.</p><p>Look at the brewhouse side of the line too. Wort is sterile when it leaves a rolling boil, but it can pick up bacteria in a poorly cleaned whirlpool outlet, a wort line that sits wet between brews or an aeration stone that is never taken apart. Plate a sample of wort straight from the heat exchanger outlet into the fermenter. If it grows bacteria, the problem starts before fermentation does.</p>"
+  ],
+  [
+   "Records and training",
+   "<p>An audit often finds that the cleaning procedure is fine and the practice is not. Night-shift cleans cut short, solutions topped up by eye, sanitiser mixed at half strength to save money. Write simple procedures with the target concentration, temperature and time for each clean. Keep a log that records actual values, not ticks. Train every person who cleans. Check their work with ATP swabs and plating until results are steady.</p><p>Our audits are led by Rahul Baliyan on brewing and cleaning practice and Ankur Napa on quality systems, testing and records. They end with written procedures and a simple testing routine your own team can keep running.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does my beer keep getting infected after cleaning?",
+   "Usually because one step is failing: weak or cool chemical, poor spray coverage, a dead leg or a worn gasket. Map which beers and equipment are affected to find it."
+  ],
+  [
+   "Why should CO2 be vented before a caustic clean?",
+   "Caustic reacts with CO2, which weakens the solution and can create a vacuum that damages a tank. Purge the CO2 or use an acid-based clean."
+  ],
+  [
+   "How do I check that a CIP clean worked?",
+   "Measure concentration, return temperature and time on each clean, then confirm with ATP swabs and plating on the cleaned surfaces."
+  ]
+ ],
+ "cta": {
+  "title": "Stop losing batches to infection",
+  "body": "We run a cleaning and CIP audit on site: tracing the infection pattern, testing every step and stripping the hidden spots. Rahul leads the brewing side and Ankur the quality system. Your team keeps the procedures and testing routine to run it themselves.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "cip-cleaning-in-place",
+  "infection-bacteria-in-brewing",
+  "microbiology-plating-small-brewery"
+ ]
+}

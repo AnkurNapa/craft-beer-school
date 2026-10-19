@@ -1,0 +1,67 @@
+{
+ "slug": "ferulic-acid-rests-and-the-clove-character-in-german-wheat",
+ "cat": "Brewing science",
+ "h1": "Ferulic acid rests and the clove character in German wheat beer",
+ "title": "Ferulic Acid Rests and Clove Flavour | Craft Beer School",
+ "desc": "How a ferulic acid rest at 43 to 45 °C boosts clove character in hefeweizen. How yeast, temperature and pitch rate shape the clove and banana balance.",
+ "teaser": "Want more clove in your hefeweizen? Start in the mash, with a short rest most homebrewers skip.",
+ "standfirst": "The clove note in a German wheat beer comes from yeast, but the raw material comes from malt. A short mash rest at 43 to 45 °C releases more of it. Paired with the right yeast and fermentation, it puts the clove and banana balance under your control.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Where the clove comes from",
+   "<p>The clove flavour in hefeweizen is mainly 4-vinyl guaiacol, often shortened to 4VG. Weizen yeast strains produce it by converting ferulic acid, a compound found in malt, into 4VG. The trait is called POF positive, for phenolic off flavour, a name that sounds odd for a flavour you want. In most styles 4VG is a fault. In hefeweizen it is essential. See <a href=\"phenolic-off-flavours.html\">phenolic off flavours</a> for when it is a problem.</p><p>Ferulic acid in barley and wheat malt is mostly bound to the cell wall. The yeast can only convert free ferulic acid. More free ferulic acid in the wort means more potential clove.</p>"
+  ],
+  [
+   "What the ferulic acid rest does",
+   "<p>An enzyme in malt, feruloyl esterase, releases ferulic acid from the cell walls. It works best at around 43 to 45 °C. A rest in that range, commonly 10 to 20 minutes, frees more ferulic acid into the wort than a mash that goes straight to saccharification temperature.</p><p>After the rest, the mash continues as normal: up to around 63 to 65 °C for beta amylase, then around 70 to 72 °C for alpha amylase, then mash out. Our guide to <a href=\"step-mashing.html\">step mashing</a> explains how to run multiple rests on home equipment.</p>"
+  ],
+  [
+   "Running it at home",
+   "<p>On a stove-top or electric all-in-one system, the rest is simple: mash in to land at 44 °C, hold, then raise the heat. On a cooler mash tun without heating, you can mash in thick at 44 °C, then add measured volumes of boiling water to step up. Brewing software calculates the infusion volumes.</p><p>The floor detail that makes it work: stir while you heat. On a direct fired pot, unstirred grain near the base scorches and the mash temperature reading at the top lies to you. Stir steadily and check temperature in two or three places before starting each rest timer.</p><p>A ferulic acid rest does not lengthen your brew day much. It also helps wort run-off on high wheat grists, because the lower temperature gives other cell wall enzymes some time to work.</p>"
+  ],
+  [
+   "Yeast and temperature decide the balance",
+   "<p>The rest gives the yeast more raw material. What the yeast does with it depends on the strain and the fermentation.</p><ul><li><strong>Strain.</strong> Weizen strains vary. Some lean clove, some lean banana. Pick one known for the profile you want.</li><li><strong>Temperature.</strong> Cooler fermentation, around 17 to 19 °C, tends to favour clove. Warmer fermentation, around 20 to 22 °C and above, pushes banana esters, mainly isoamyl acetate.</li><li><strong>Pitch rate.</strong> Lower pitch rates, with more yeast growth, tend to increase ester production and push banana. Higher pitch rates reduce it.</li><li><strong>Oxygen.</strong> Well aerated wort supports healthy growth. Very low oxygen tends to raise esters.</li></ul><p>In India, holding 18 °C in a home fermenter usually means a temperature controlled fridge or a water bath with ice bottles. A weizen fermenting at 28 °C in a room cupboard will be all banana, bubblegum and solvent.</p>"
+  ],
+  [
+   "Putting it together in a recipe",
+   "<p>A classic hefeweizen grist is around 50 to 70% wheat malt with the rest pilsner malt. Hops are a background, usually a low German noble variety at modest bitterness. The character comes from the mash and the yeast.</p><p>For a clove forward beer: ferulic acid rest at 44 °C for 15 minutes, saccharification around 64 °C, a clove leaning strain, a healthy pitch, fermentation at 17 to 18 °C. For more balance, keep the rest and let fermentation run at 19 to 20 °C. Our guide to <a href=\"brewing-a-wheat-beer-at-home.html\">brewing a wheat beer at home</a> walks through a full recipe.</p>"
+  ],
+  [
+   "Tasting what changed",
+   "<p>The best way to learn the effect is to split a batch or brew two in a row: one with the rest, one without, same yeast and temperature. Taste them side by side, cold and fresh. Most brewers find the clove sharper and more defined in the rested beer.</p><p>Style work like this, where small process choices shape the whole character of a beer, is where brewing gets interesting. It is also where a structured look at each style family, its history and its process saves years of trial and error.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature is a ferulic acid rest?",
+   "Around 43 to 45 °C, usually for 10 to 20 minutes, before raising the mash to saccharification temperature."
+  ],
+  [
+   "Does a ferulic acid rest make beer taste of clove?",
+   "Only with a POF positive yeast, such as a weizen strain. The rest frees ferulic acid, which the yeast converts into clove flavoured 4-vinyl guaiacol."
+  ],
+  [
+   "How do I get more banana in a hefeweizen?",
+   "Ferment warmer, around 20 to 22 °C. Pitch a little less yeast. Both tend to increase banana esters."
+  ],
+  [
+   "Can I do a ferulic acid rest in a cooler mash tun?",
+   "Yes. Mash in at about 44 °C, then add measured boiling water to step up. Brewing software calculates the volumes."
+  ]
+ ],
+ "cta": {
+  "title": "Master the classic styles, step by step",
+  "body": "Style Specialisation is our eight week live course (₹18,999). It works through the major style families, including the mash and yeast choices behind German wheat beer, so you can brew each one with intent.",
+  "label": "See the full syllabus",
+  "href": "style-specialization-course.html"
+ },
+ "related": [
+  "brewing-a-wheat-beer-at-home",
+  "phenolic-off-flavours",
+  "step-mashing"
+ ]
+}

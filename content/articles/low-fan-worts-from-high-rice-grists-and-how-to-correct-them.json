@@ -1,0 +1,71 @@
+{
+ "slug": "low-fan-worts-from-high-rice-grists-and-how-to-correct-them",
+ "cat": "Brewing science",
+ "h1": "Low FAN worts from high rice grists and how to correct them",
+ "title": "Low FAN worts from high rice grists | Craft Beer School",
+ "desc": "Why high rice grists starve yeast of free amino nitrogen, the symptoms in fermentation and the practical ways Indian brewers correct it.",
+ "teaser": "Rice gives a crisp, dry lager. Push it too far and the yeast runs out of nitrogen before it runs out of sugar.",
+ "standfirst": "Rice adds extract but almost no free amino nitrogen. In a high rice grist, the wort can fall short of what yeast needs. We explain how to spot the problem and the brewhouse levers that fix it.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What FAN is and why yeast needs it",
+   "<p>Free amino nitrogen (FAN) is the pool of amino acids and small peptides in wort that yeast can use directly. Yeast needs nitrogen to build proteins and enzymes as it grows. Without enough, growth slows and fermentation suffers.</p><p>FAN comes almost entirely from malt. During malting and mashing, enzymes break malt proteins into smaller pieces. A standard all-malt wort usually carries plenty. Our guide to <a href=\"yeast-nutrition-zinc-and-fan.html\">yeast nutrition, zinc and FAN</a> covers the basics.</p>"
+  ],
+  [
+   "Why rice dilutes it",
+   "<p>Rice is mostly starch with little protein. The protein it has does not break down into FAN during a normal cereal cook. So when rice replaces part of the malt, it adds extract without adding FAN. The higher the rice share, the lower the FAN per degree Plato.</p><p>Indian lagers often use rice or maize to give a light, dry, crisp beer that suits hot weather and spicy food. At moderate levels this is fine. Problems show up as the rice share climbs and malt quality or modification is not enough to compensate. Our guide to <a href=\"rice-and-maize-adjuncts-india.html\">rice and maize adjuncts</a> explains the cereal cook.</p>"
+  ],
+  [
+   "How low is too low",
+   "<p>Brewing literature commonly suggests that a standard strength wort needs somewhere around 150 mg/L of FAN or more for a healthy fermentation. Higher gravity worts need more. Many brewers find that fermentations become unreliable once FAN falls well below that range, though the exact threshold depends on the yeast strain, pitch rate and oxygen.</p><p>Measure FAN using the standard ninhydrin method, which most brewing labs can run. A one-off test on a typical batch tells you whether you have a problem or just a theory.</p>"
+  ],
+  [
+   "Symptoms in the fermenter",
+   "<p>Low FAN worts tend to show:</p><ul><li>Sluggish fermentations that slow down before reaching the expected final gravity.</li><li>Higher diacetyl that takes longer to clear.</li><li>More sulphur notes, especially with lager strains.</li><li>Poorer yeast crops, with lower viability for repitching.</li><li>Shifts in higher alcohol and ester levels compared with all-malt worts.</li></ul><p>These symptoms also have other causes, such as low oxygen or poor pitch rate. FAN is worth testing when they appear together in high rice beers and not in all-malt ones.</p>"
+  ],
+  [
+   "Brewhouse fixes",
+   "<p>The levers sit mostly in the grist and mash:</p><ul><li><strong>Reduce the rice share.</strong> The simplest fix. Even a small cut can bring FAN back into range.</li><li><strong>Use well modified, higher protein malt.</strong> Ask your maltster for the soluble nitrogen or Kolbach index on each lot. Choose malt with good modification for high adjunct brews.</li><li><strong>Add a protein rest.</strong> A short rest around 45 to 55 °C lets malt proteases release more FAN. Keep it short, as long rests can hurt foam.</li><li><strong>Use exogenous proteases.</strong> Commercial brewing enzymes can raise FAN in high adjunct mashes. Check local food additive rules before using them.</li></ul><p>One brewhouse-floor detail: when the boiled rice cooker mash is added to the main mash, the combined mash should land in the right rest temperature. If the brewer aims straight for saccharification at 63 to 65 °C, the protein rest is skipped by accident.</p>"
+  ],
+  [
+   "Fermentation side support",
+   "<p>If the grist cannot change, support the yeast:</p><ul><li>Pitch at a healthy rate with vital yeast.</li><li>Make sure wort oxygen is adequate.</li><li>Add zinc to wort at around 0.1 to 0.2 mg/L, as zinc helps yeast use nitrogen.</li><li>Consider a yeast nutrient blend, checking that every ingredient is allowed under local food rules.</li></ul><p>These help, but they do not replace a balanced wort. Yeast cannot build proteins from nitrogen that is not there. Our guide to <a href=\"yeast-growth-phases.html\">yeast growth phases</a> shows why the early growth stage depends so heavily on nitrogen.</p>"
+  ],
+  [
+   "Test before you change the recipe",
+   "<p>Before changing anything, run a short comparison. Brew the same beer with two rice shares, measure FAN in both worts and log the fermentation curves side by side. If the higher rice wort is slower and finishes higher, the link is clear. If both behave the same, look elsewhere for the cause.</p><p>Keep the maltster's certificate for every malt lot used in the trial. A change in malt protein or modification between lots can move FAN as much as a change in rice share.</p>"
+  ],
+  [
+   "Balancing cost and quality",
+   "<p>Rice is often cheaper per degree of extract than malt in India, so there is always pressure to push the share higher. The real cost of a sluggish, sulphury fermentation is tank time, dumped beer and inconsistent flavour.</p><p>Designing a high adjunct wort that ferments cleanly needs an understanding of malt specifications, mash enzymes and yeast nutrition together. That is exactly the kind of joined-up brewing science that many brewers never get to study properly.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do high rice worts have low FAN?",
+   "Rice adds starch but little usable nitrogen, so replacing malt with rice dilutes the free amino nitrogen yeast needs."
+  ],
+  [
+   "How much FAN does wort need?",
+   "Brewing literature commonly suggests around 150 mg/L or more for a standard strength wort, with higher needs at higher gravity."
+  ],
+  [
+   "What is the quickest fix for low FAN?",
+   "Reduce the rice share or use better modified, higher protein malt. A short protein rest can also help."
+  ]
+ ],
+ "cta": {
+  "title": "Brew high adjunct beers that ferment cleanly",
+  "body": "Advanced Brewing Science is a 6 week live course that covers malt specifications, mash enzymes and yeast nutrition, so you can design adjunct worts with confidence. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "rice-and-maize-adjuncts-india",
+  "yeast-nutrition-zinc-and-fan",
+  "yeast-growth-phases"
+ ]
+}

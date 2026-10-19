@@ -1,0 +1,67 @@
+{
+ "slug": "brewery-sensor-and-scada-data-for-data-engineering-teams",
+ "cat": "Beer for teams",
+ "h1": "Brewery sensor and SCADA data for data engineering teams",
+ "title": "Brewery Sensor and SCADA Data Explained | Craft Beer School",
+ "desc": "A guide for data engineers to brewery sensor and SCADA data: tags, historians, sampling rates, batch context and the traps in plant data.",
+ "teaser": "A fermenter temperature tag looks simple until you learn the setpoint changed on purpose and the probe was swapped on Tuesday.",
+ "standfirst": "Brewery plant data is a rich source for analytics, but it was built to run a process, not to feed a data lake. Data engineers who understand where it comes from build pipelines that brewers trust.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Where plant data comes from",
+   "<p>In a modern brewery, sensors measure temperature, pressure, flow, level, gravity, dissolved oxygen, conductivity and more. They connect to <strong>PLCs</strong> (programmable logic controllers), which run valves, pumps and sequences. A <strong>SCADA</strong> system sits above the PLCs and gives operators screens to watch and control the process. A <strong>historian</strong> stores time series values for each signal, usually called a <strong>tag</strong>.</p><p>For a data engineer the historian is usually the source. It may be a commercial historian product or a database the SCADA writes to. Access is often through an OPC UA interface, a vendor API or exports. It nearly always goes through the plant's IT and OT security controls.</p>"
+  ],
+  [
+   "What the main signals mean",
+   "<p>A few tags carry most of the value:</p><ul><li><strong>Fermenter temperature and setpoint.</strong> The setpoint is what the brewer asked for. The actual value is what the tank achieved. The gap matters.</li><li><strong>Tank pressure and level.</strong> Pressure rises during fermentation in closed tanks. Level shows filling and emptying, which marks the start and end of a batch.</li><li><strong>Gravity or density.</strong> Inline or in-tank sensors track sugar falling as yeast works. See <a href=\"digital-hydrometers-and-fermentation-sensors.html\">digital hydrometers and fermentation sensors</a>.</li><li><strong>Flow and totalisers.</strong> Volumes moved between vessels and to packaging.</li><li><strong>Valve and pump states.</strong> Binary signals that show which route the beer or cleaning solution took.</li></ul>"
+  ],
+  [
+   "Batch context is everything",
+   "<p>A temperature series without context is just a line. Brewers think in batches: brew number, beer, tank, start and end time plus phase, such as fermentation, diacetyl rest, crash cooling and storage. The most valuable engineering work is attaching this context to the raw tags.</p><p>Some plants follow a batch control model inspired by the ISA-88 standard, with recipes, phases and batch IDs recorded by the control system. Others record batches only in brew logs or an ERP. Either way, the pipeline should join tag data to a batch record so analysts can compare one fermentation with another. Our guide to <a href=\"reading-a-fermentation-curve.html\">reading a fermentation curve</a> shows what brewers look for once that join exists.</p>"
+  ],
+  [
+   "Sampling, compression and gaps",
+   "<p>Historians often store values only when they change by more than a set amount, a technique called deadband or exception-based recording. That saves space but means the data is not evenly spaced. Interpolating blindly can invent values that never existed.</p><p>Expect gaps from network outages, PLC restarts and sensor faults. A gravity sensor removed for cleaning will produce a sharp drop or a flat line. A probe recalibration may shift values by a fraction of a degree. Keep raw data, flag quality codes where the historian provides them and document every cleaning rule.</p>"
+  ],
+  [
+   "Changes that look like faults but are not",
+   "<p>Many sudden changes in brewery data are deliberate. A lager might be held at 10 °C, warmed to around 14 °C for a diacetyl rest, then crash cooled to near 0 °C. Each step changes temperature sharply on purpose. A cleaning cycle sends hot caustic and acid through a tank, so temperature and conductivity spike while the tank holds no beer at all.</p><p>Anomaly detection that ignores these phases will flag every normal brew. Learn the process steps for each beer and build them into the logic.</p>"
+  ],
+  [
+   "Units, tag names and time",
+   "<p>Tag naming in older plants is often cryptic and inconsistent between areas. Build a tag dictionary with the plant team: tag name, description, unit, range, vessel and owner. Check units carefully. Pressure might be in bar or millibar, gravity in °P or specific gravity, volume in litres or hectolitres.</p><p>Time zones and clock drift matter too. PLC clocks are not always synchronised with the historian. Daylight saving does not apply in India but may apply to a global data platform. Store timestamps in UTC with the source offset noted.</p>"
+  ],
+  [
+   "Security and the plant boundary",
+   "<p>Plant networks are operational technology. A careless connection can disrupt production. Most companies insist on read-only access through a demilitarised network zone or replicated historian, never direct writes to control systems. Work with the plant's OT and IT teams on the design. Data engineers who respect that boundary get access faster.</p><p>Start small. One fermentation area, a dozen well documented tags and a clean batch join will teach you more about the plant than a full historian copy with no context. Expand once brewers are using the first dashboard and correcting your assumptions.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between SCADA and a historian?",
+   "SCADA lets operators monitor and control the process in real time. A historian stores time series values from the plant so they can be analysed later."
+  ],
+  [
+   "Why does brewery sensor data have gaps?",
+   "Network outages, sensor cleaning, calibration and exception-based recording all create gaps or uneven spacing. Pipelines should flag these rather than hide them."
+  ],
+  [
+   "Can data teams write back to brewery control systems?",
+   "Usually not. Most plants allow read-only access through a secure zone, because writes to control systems can affect safety and production."
+  ]
+ ],
+ "cta": {
+  "label": "See the full syllabus",
+  "title": "Turn plant data into something brewers trust",
+  "body": "Digital Transformation Basics for Brewing is two weeks of live weekend classes (₹5,000). It explains brewery processes alongside the systems and data they generate, so engineers can model plant data with the right batch context and phases.",
+  "href": "digital-transformation-basics-for-brewing-course.html"
+ },
+ "related": [
+  "digital-hydrometers-and-fermentation-sensors",
+  "reading-a-fermentation-curve",
+  "beer-quality-data-for-data-teams"
+ ]
+}

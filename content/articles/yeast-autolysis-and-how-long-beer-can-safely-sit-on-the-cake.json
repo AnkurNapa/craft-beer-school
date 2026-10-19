@@ -1,0 +1,67 @@
+{
+ "slug": "yeast-autolysis-and-how-long-beer-can-safely-sit-on-the-cake",
+ "cat": "Brewing science",
+ "h1": "Yeast autolysis and how long beer can safely sit on the cake",
+ "title": "Yeast autolysis and time on the cake | Craft Beer School",
+ "desc": "What yeast autolysis is, what it tastes like, why cone temperature and pressure matter and how long beer can sit on yeast in a cylindroconical tank.",
+ "teaser": "Leave beer on yeast long enough and the yeast starts digesting itself. How long is long enough depends on temperature, tank shape and yeast health.",
+ "standfirst": "Yeast autolysis gives beer brothy, meaty and rubbery flavours, raises pH and harms foam. Homebrewers often worry too much about it. Commercial brewers with warm cones sometimes worry too little.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What autolysis is",
+   "<p>Autolysis is self-digestion. When yeast cells die, their own enzymes break down the cell from inside. Proteins, nucleic acids and fats are broken into smaller pieces. The cell wall weakens and leaks its contents into the beer.</p><p>Healthy yeast at the end of fermentation is not autolysing. It is stressed and slowing down but still alive. Autolysis becomes a problem when a large mass of yeast stays in contact with beer under conditions that kill cells faster, especially warmth, pressure and starvation. Our guide to <a href=\"yeast-viability-and-vitality.html\">yeast viability and vitality</a> covers how to measure yeast health.</p>"
+  ],
+  [
+   "What it tastes and looks like",
+   "<p>Autolysis brings brothy, meaty, yeasty, soy sauce or rubbery aromas, sometimes with sulphur notes. The beer can taste flabby. pH tends to rise as the cells release basic compounds. Proteinase A, an enzyme released by yeast, breaks down foam proteins, so head retention suffers.</p><p>In small amounts, some autolysis character is part of certain styles and of champagne-method sparkling wine, where wine ages on lees deliberately. In most beers, especially clean lagers and hoppy ales, it is a fault.</p>"
+  ],
+  [
+   "Why the cone is the danger zone",
+   "<p>The floor detail that matters most is the cone of a cylindroconical fermenter. Yeast settles into the cone and compacts. A deep yeast layer has a large mass with little surface, so heat from residual metabolism cannot escape easily. Cones are often less well cooled than the tank wall. The yeast at the bottom also sits under the hydrostatic pressure of the beer above, plus any top pressure. Warmth, pressure and crowding together kill cells faster than the same yeast spread thinly at cool temperature.</p><p>That is why many commercial breweries dump or harvest yeast from the cone soon after fermentation ends, then again after a diacetyl rest, before long cold conditioning.</p>"
+  ],
+  [
+   "How long is safe",
+   "<p>There is no single number, because temperature, yeast health, strain and tank geometry all matter. Some practical patterns:</p><ul><li><strong>Homebrew scale at cellar temperature.</strong> A shallow yeast layer at 18 to 20 °C for a few weeks rarely shows autolysis in practice.</li><li><strong>Commercial cylindroconical at fermentation temperature.</strong> Many breweries remove yeast from the cone within a day or two of reaching final gravity and finishing the diacetyl rest.</li><li><strong>Cold conditioning.</strong> At 0 to 2 °C, yeast dies more slowly. Beer can condition for weeks, especially once most of the yeast has been removed from the cone, as in traditional <a href=\"lagering-explained.html\">lagering</a>.</li></ul><p>The warmer the beer and the bigger the yeast mass, the shorter the safe time.</p>"
+  ],
+  [
+   "Early warning signs",
+   "<p>Track pH through conditioning. A rise of 0.1 to 0.2 units after fermentation is a warning. Taste samples drawn from just above the cone as well as from the sample valve. Look at the yeast you dump: dark, sticky or foul-smelling yeast is unhealthy. Check foam on finished beer against your normal standard. A beer that starts losing head retention batch after batch may be spending too long on warm yeast.</p>"
+  ],
+  [
+   "Practical rules for your tanks",
+   "<ol><li>Dump trub and dead yeast from the cone soon after fermentation peaks.</li><li>Harvest yeast for repitching from the middle layer once fermentation finishes.</li><li>Dump again after the diacetyl rest, then crash.</li><li>Use <a href=\"cold-crashing.html\">cold crashing</a> to drop the remaining yeast, then dump the cone again before long conditioning.</li><li>Keep cone cooling working. Check it in hot months when cellar temperatures rise.</li></ol><p>These steps also protect yeast quality for repitching. Yeast left in a warm cone is poorer quality for the next brew as well.</p><p>In Indian brewpubs the cone is often the weak point in summer. Many small tanks have a jacket on the cylinder only, or a small cone jacket on a shared glycol loop. Put a thermometer on the cone itself, not just the tank wall. A cone running several degrees warmer than the set point tells you why one tank keeps producing brothy beer.</p>"
+  ],
+  [
+   "Balancing it with other needs",
+   "<p>Yeast contact has benefits too. Yeast reabsorbs diacetyl and scavenges oxygen. Removing yeast too early can leave buttery beer. The aim is enough healthy yeast in contact for clean-up, then removal before it starts dying in large numbers. Planning fermentation, harvesting and conditioning around yeast biology is a central topic in advanced brewing science.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I leave homebrew on the yeast for a month?",
+   "At cool cellar temperatures, a few weeks on a shallow yeast layer rarely causes problems. Much longer, or warmer, increases the risk."
+  ],
+  [
+   "Does autolysis make beer unsafe?",
+   "It is a flavour and foam fault, not a safety issue. Autolysed beer tastes worse but is not dangerous because of autolysis."
+  ],
+  [
+   "Why does my beer lose foam after long conditioning?",
+   "Proteinase A released by stressed or dying yeast breaks down foam proteins. Removing yeast earlier and keeping beer cold helps."
+  ]
+ ],
+ "cta": {
+  "title": "Manage yeast from pitch to package",
+  "body": "Advanced Brewing Science is a 6 week live course covering yeast physiology, harvesting, conditioning and foam, with practical routines you can apply to your own tanks. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "yeast-viability-and-vitality",
+  "cold-crashing",
+  "lagering-explained"
+ ]
+}

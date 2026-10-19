@@ -1,0 +1,67 @@
+{
+ "slug": "a-draught-system-audit-for-foamy-pours-and-flat-beer-at-the",
+ "cat": "Consultancy",
+ "h1": "A draught system audit for foamy pours and flat beer at the bar",
+ "title": "Draught Audit for Foamy and Flat Beer | Craft Beer School",
+ "desc": "How to audit a draught system when beer pours foamy or flat: temperature, gas pressure, line balance, cleaning and glassware, with the numbers to check.",
+ "teaser": "The beer was perfect in the bright tank. At the tap it is half foam. The fault lies somewhere in the few metres between.",
+ "standfirst": "Foamy pours waste beer and flat pours lose customers. Both usually come from a handful of causes in the draught system. Here is how to audit it step by step, from the keg cooler to the glass.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a structured audit beats fiddling with the regulator",
+   "<p>When beer foams, the first reaction at most bars is to turn the gas down. When it goes flat, someone turns the gas up. Within a week the keg is either flat or foaming again and nobody knows the original setting. Foam is beer you brewed, paid excise on and then poured down the drain. Our guide to <a href=\"reducing-beer-loss-at-the-bar.html\">reducing beer loss at the bar</a> shows how quickly it adds up.</p><p>A draught system has a small number of variables. Check them in order and the cause usually shows itself.</p>"
+  ],
+  [
+   "Temperature first",
+   "<p>Most foaming starts with warm beer. Carbon dioxide stays in solution better when beer is cold, so a few degrees of warming lets gas break out in the line and the faucet. Check:</p><ul><li>The keg cooler or cold room holds beer at around 2 to 4 °C. Measure the beer, not the air: put a thermometer in a glass of beer poured after the line has been run.</li><li>The lines between cooler and tap are cooled all the way. On longer runs a glycol-cooled python is standard.</li><li>The tower and faucet are cooled. In Indian bars a warm, uncooled tower is a very common cause of a foamy first pour.</li></ul><p>If the first pour of the evening is all foam and later pours are fine, the beer sitting in the tower is warming between pours.</p>"
+  ],
+  [
+   "Gas pressure set for the beer, not by feel",
+   "<p>Each beer has a target carbonation, usually stated in volumes of CO2. Our guide to <a href=\"carbonation-levels-by-style.html\">carbonation levels by style</a> lists typical ranges. The gas pressure in the keg should hold that carbonation at the cooler temperature. For example, a beer at 2.5 volumes held at about 3 °C needs roughly 0.8 bar (around 12 psi) of CO2 to stay in balance. Brewers use a carbonation chart for the exact figure.</p><p>Pressure set too high slowly overcarbonates the beer in the keg, so it foams more each day. Pressure set too low lets CO2 escape, so the beer goes flat and the gas breaking out in the line also causes foam. Both faults can look the same at the tap, which is why the regulator should never be the first thing touched.</p>"
+  ],
+  [
+   "Line balance and flow rate",
+   "<p>The keg pressure that keeps the beer carbonated also pushes it to the tap. The line has to provide enough resistance to slow the beer to a steady pour at the faucet, typically around 60 ml a second. Resistance comes from the line's length and bore, the rise from cooler to tap and every fitting along the way. Narrow-bore vinyl tubing of 3/16 inch is commonly quoted at around 2 to 3 psi of resistance per foot.</p><p>A line that is too short pours fast and foamy. One that is too long pours slow and may go flat. If the pressure has been changed to fix foaming, the line is probably wrong for the system. Long runs may need a mixed gas of CO2 and nitrogen so the pressure can rise without overcarbonating the beer.</p>"
+  ],
+  [
+   "Cleanliness and hardware",
+   "<p>Dirty lines cause foaming as well as off flavours. Beer stone, yeast and bacteria create rough surfaces where CO2 breaks out of solution. Clean lines with a caustic line cleaner at least every two weeks, with an acid clean periodically for beer stone, as set out in our guide to <a href=\"draught-line-cleaning.html\">draught line cleaning</a>. Strip and clean faucets and keg couplers at the same time.</p><p>Check the hardware: worn coupler seals, kinked lines, a faulty regulator, leaking connections and fobbing detectors that need adjustment. A leak on the gas side can empty a CO2 cylinder overnight and leave the next morning's beer flat.</p>"
+  ],
+  [
+   "The glass and the pour",
+   "<p>Beer that is perfect in the line can still look flat in a dirty glass. Grease, detergent residue or rinse aid kills the head and leaves bubbles clinging to the sides. Test for beer-clean glassware: a clean glass sheets water evenly. Lacing forms in rings as the beer is drunk. Wash glasses in a dedicated glass washer, air dry them and rinse with cold water before pouring.</p><p>Pour technique matters too. Open the faucet fully and quickly, hold the glass at an angle and straighten it to build a proper head. Half-opened faucets cause turbulence and foam.</p>"
+  ],
+  [
+   "What the audit leaves behind",
+   "<p>A useful audit records the correct pressure, temperature and line length for each tap, writes them on a card in the cooler and sets a line-cleaning schedule with a log. The floor detail that prevents most repeat problems: a lock or tag on the regulator so nobody adjusts it without checking the card.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is my draught beer so foamy?",
+   "The usual causes are warm beer, wrong gas pressure, unbalanced lines, dirty lines or an uncooled tower. Check temperature first, then pressure, then line balance."
+  ],
+  [
+   "What temperature should draught beer be served at?",
+   "Most draught systems hold beer at around 2 to 4 °C in the cooler. Some styles are served a little warmer in the glass."
+  ],
+  [
+   "How often should beer lines be cleaned?",
+   "At least every two weeks with a caustic line cleaner, with a periodic acid clean for beer stone."
+  ]
+ ],
+ "cta": {
+  "title": "Fix the draught system that is costing you beer",
+  "body": "We audit draught systems from cooler to glass: temperature, gas, line balance, cleaning and pour. Ankur leads the quality and loss review and Rahul the brewing side. Your team is left with settings cards and a cleaning routine to run themselves.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "draught-line-cleaning",
+  "reducing-beer-loss-at-the-bar",
+  "carbonation-levels-by-style"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "reading-a-beer-specification-sheet-when-you-are-not-a-brewer",
+ "cat": "Beer for teams",
+ "h1": "Reading a beer specification sheet when you are not a brewer",
+ "title": "Reading a Beer Specification Sheet | Craft Beer School",
+ "desc": "A plain guide to a beer specification sheet: ABV, gravity, colour, bitterness, CO2, oxygen, pH and haze, with what each number means for the drinker.",
+ "teaser": "ABV, °P, EBC, IBU, ppb. The spec sheet looks like a lab report. Each line is really a promise to the drinker.",
+ "standfirst": "Every beer a brewery sells has a specification: a list of measured values with targets and limits. If you work in quality data, planning, marketing or supply without a brewing background, this guide will help you read one and know which numbers matter most.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a specification is for",
+   "<p>A beer specification sheet defines what a brand should be when it leaves the brewery. Each parameter has a target and a tolerance, usually a minimum and maximum. A batch inside every limit can be released. A batch outside a limit is held, blended, reworked or rejected. Our guide to <a href=\"how-a-beer-batch-is-released.html\">how a beer batch is released</a> covers that decision.</p><p>The point of the sheet is consistency. Drinkers expect the same beer every time. The spec turns that expectation into numbers a lab can measure.</p>"
+  ],
+  [
+   "Strength and body",
+   "<ul><li><strong>Alcohol (ABV).</strong> Percentage alcohol by volume. It must match what the label declares within the tolerance the rules allow, so this is a legal number as well as a quality one.</li><li><strong>Original gravity (OG), often in degrees Plato (°P).</strong> How much sugar and other dissolved material the wort held before fermentation. Roughly, 1 °P is about 1% dissolved extract by weight. More extract means more potential alcohol and body.</li><li><strong>Apparent and real extract.</strong> What is left after fermentation. Higher residual extract usually means a fuller, sweeter beer. The difference between original and final extract tells you how far the yeast fermented.</li></ul><p>Large breweries often brew at high gravity and dilute to final strength. That is why OG on a spec sheet can refer to the beer as sold rather than the wort in the kettle.</p>"
+  ],
+  [
+   "Appearance and taste",
+   "<ul><li><strong>Colour, in EBC units.</strong> A pale lager sits in single figures. Amber beers run into the twenties and thirties. Stouts go well past 100.</li><li><strong>Bitterness, in IBU or EBU.</strong> Roughly the concentration of bitter hop compounds in milligrams per litre. A mainstream Indian lager is low, often in the teens. An IPA can be 40 to 70 or more.</li><li><strong>Haze, in EBC haze units.</strong> How clear the beer is. A filtered lager will have a tight upper limit. A wheat beer or hazy IPA is meant to be cloudy and may have no haze limit at all.</li><li><strong>pH.</strong> Finished beer is acidic, typically about 4.0 to 4.6. A drift outside the brand's normal band can point to a fermentation or infection problem.</li></ul>"
+  ],
+  [
+   "The freshness numbers",
+   "<p>Two lines protect the beer after it leaves the brewery.</p><ul><li><strong>Carbon dioxide (CO2), in grams per litre or volumes.</strong> Most lagers are around 5 g/L, roughly 2.5 volumes. Too low and the beer tastes flat. Too high and it gushes or tastes sharp.</li><li><strong>Dissolved oxygen in the package, in parts per billion (ppb).</strong> Oxygen is the enemy of shelf life. Good packaging lines aim for very low figures, often below 100 ppb in the finished pack. A creeping oxygen number usually shows up as stale beer months later.</li></ul><p>Some sheets add foam stability (often a timed test in seconds), diacetyl (a buttery fermentation by-product with a limit in fractions of a milligram per litre) and microbiology results. Each one exists because it has caused real complaints somewhere.</p>"
+  ],
+  [
+   "How to read it like a brewer",
+   "<p>Brewers do not read a spec sheet line by line. They read it for patterns.</p><ul><li>One value just inside its limit is normal variation. Several values drifting in the same direction over weeks is a process change worth chasing.</li><li>Strength, extract and CO2 tend to move with each other because they come from the same fermentation and packaging steps.</li><li>A pass on every line does not guarantee a good beer. Taste panels catch faults instruments miss, which is why most breweries pair the spec with a sensory check.</li></ul><p>If you work with these numbers in dashboards, our guide to <a href=\"beer-quality-data-for-data-teams.html\">beer quality data for data teams</a> goes further into trends and control charts.</p>"
+  ],
+  [
+   "Where the brewhouse floor shows up",
+   "<p>Every line on the sheet maps to a step you could walk to. Bitterness depends on hop additions in the kettle. CO2 is set in the bright beer tank before packaging. Oxygen pick-up happens at the filler, where a poorly adjusted fill height or a worn seal can quietly push numbers up for a whole shift.</p><p>Learning that map is what turns a table of numbers into something a planner or analyst can act on. It is also the part a slide deck cannot teach: you understand oxygen when you have smelt a stale bottle next to a fresh one.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the most important number on a beer spec sheet?",
+   "Alcohol, because it is a legal declaration as well as a quality value. For shelf life, dissolved oxygen in the package matters most."
+  ],
+  [
+   "Why do some beers have no haze limit?",
+   "Styles such as wheat beer and hazy IPA are meant to be cloudy. Their spec may control haze stability or appearance by panel instead of setting a maximum."
+  ],
+  [
+   "What does °P mean?",
+   "Degrees Plato, a measure of dissolved extract in wort or beer. One degree is roughly one percent extract by weight."
+  ]
+ ],
+ "cta": {
+  "title": "Help your team read the numbers behind every batch",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that link spec sheets to what people taste.",
+  "label": "Ask about team training",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "beer-quality-data-for-data-teams",
+  "how-a-beer-batch-is-released",
+  "beer-glossary-for-new-joiners"
+ ]
+}

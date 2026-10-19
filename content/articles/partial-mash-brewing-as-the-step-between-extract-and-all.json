@@ -1,0 +1,67 @@
+{
+ "slug": "partial-mash-brewing-as-the-step-between-extract-and-all",
+ "cat": "Brewing basics",
+ "h1": "Partial mash brewing as the step between extract and all-grain",
+ "title": "Partial Mash Brewing Explained | Craft Beer School",
+ "desc": "How partial mash brewing works: mashing a few kilos of grain in a pot, topping up with extract and why it is a good bridge to all-grain.",
+ "teaser": "A kilo or two of real grain in a kitchen pot makes a noticeable difference to an extract beer. You probably own the kit already.",
+ "standfirst": "Partial mash brewing gives you some of the freshness and control of all-grain without the space or equipment. Here is how it works, what it can do that steeping cannot and how to run one on a normal stove.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What partial mash means",
+   "<p>In extract brewing, the maltster has done the mash for you. In all-grain brewing, you do it yourself with all the grain. Partial mash sits between them. You mash a portion of the grain, usually 1.5 to 3 kg for a 20 litre batch. You make up the rest of the fermentable sugar with malt extract.</p><p>It is not the same as steeping. When you steep crystal or roasted malts in hot water, you are extracting flavour and colour that is already there. A partial mash includes base malt, whose enzymes convert starch into sugar. That lets you use grains that need converting, such as Munich malt, oats, flaked maize, wheat or rice. Our guide to <a href=\"base-malts-explained.html\">base malts</a> explains why the enzymes matter.</p>"
+  ],
+  [
+   "Why bother",
+   "<ul><li><strong>Fresher flavour.</strong> Freshly mashed grain gives a brighter malt character than extract alone, especially welcome if your extract has travelled a long way.</li><li><strong>More ingredients.</strong> You can add grains like oats for body or Munich malt for depth, which steeping cannot convert.</li><li><strong>Practice.</strong> You learn mash temperature, pH and sparging on a small scale before committing to full all-grain.</li><li><strong>Little extra kit.</strong> A large pot, a grain bag and a thermometer are enough.</li></ul>"
+  ],
+  [
+   "What you need",
+   "<ul><li>A pot of 10 to 15 litres for the mash, in addition to your boil kettle. Many people use the same pot if they boil a partial volume.</li><li>A fine mesh grain bag large enough to hold the grain loosely.</li><li>A thermometer you trust.</li><li>Milled base malt plus any specialty grains in the recipe.</li><li>Malt extract, ideally a light DME, to make up the rest.</li></ul><p>Brew-in-a-bag brewers will recognise the method. It is simply a smaller version of the <a href=\"brew-in-a-bag-method.html\">brew-in-a-bag method</a>.</p>"
+  ],
+  [
+   "Running the mash",
+   "<ol><li>Heat about 2.5 to 3 litres of water per kg of grain to around 70 to 72 °C. Grain at Indian room temperature of 25 to 30 °C pulls it down less than in a cold European kitchen, so start at the lower end and adjust.</li><li>Put the bag in the pot, add the grain and stir well to break up any clumps.</li><li>Check the temperature. You want 65 to 68 °C for most beers. Lower for drier beers, higher for more body.</li><li>Put the lid on and hold the temperature for 45 to 60 minutes. Wrap the pot in a towel or a blanket, or put it in an oven that has been warmed and switched off.</li><li>Check the temperature every 15 minutes. If it drops by more than 2 °C, warm it gently on the stove while stirring.</li></ol><p>A floor tip: never let the bag sit on the base of a pot over a live flame. It can scorch or melt. Lift it or stir while heating.</p>"
+  ],
+  [
+   "Rinsing and adding extract",
+   "<p>When the mash is done, lift the bag and let it drain. Rinse the grain by pouring hot water at about 75 to 78 °C over the bag, or dunk it in a second pot of hot water for a few minutes. That collects more sugar from the grain.</p><p>Do not squeeze the bag hard. Squeezing hot grain can extract tannins and give a drying, astringent edge. Gentle pressing is fine.</p><p>Combine the wort with water up to your boil volume, bring it to the boil and follow your hop schedule. Add most of the extract late in the boil, in the last 10 to 15 minutes, to keep the beer pale and fresh.</p>"
+  ],
+  [
+   "Planning a recipe",
+   "<p>The simplest way to design a partial mash is to start with an all-grain recipe and swap some of the base malt for extract. As a rough guide, 1 kg of DME gives about the same sugar as 1.5 to 1.7 kg of pale malt at typical home efficiency, because extract has no husk or water and loses nothing in the mash. Brewing software does the maths for you.</p><p>A good starter recipe for a 20 litre pale ale: 2 kg pale malt and 250 g light crystal in the mash, with about 1.5 kg of light DME added to the boil. That gives a gravity of around 1.050 with a fresh malt character extract alone cannot quite match.</p>"
+  ],
+  [
+   "When to move to full all-grain",
+   "<p>After a few partial mash batches, you will have handled every part of a mash except scale. If you enjoy the process and have space for a bigger pot or a mash tun, full all-grain is the natural next step. Our guide to <a href=\"extract-vs-all-grain-brewing.html\">extract vs all-grain brewing</a> covers the trade-offs.</p><p>Partial mash teaches you how to mash. It does not teach you why one mash gives a thin beer and another a sweet one, or how to design a grist with purpose. That understanding comes from learning the science behind each step.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between steeping and partial mash?",
+   "Steeping extracts colour and flavour from specialty malts. A partial mash includes base malt, whose enzymes convert starch into fermentable sugar."
+  ],
+  [
+   "How much grain should I mash in a partial mash?",
+   "Usually 1.5 to 3 kg for a 20 litre batch, with malt extract making up the rest of the sugar."
+  ],
+  [
+   "Do I need a mash tun for partial mash?",
+   "No. A large pot, a grain bag and a thermometer are enough."
+  ]
+ ],
+ "cta": {
+  "title": "Learn the science behind the mash",
+  "body": "Brewing Fundamentals covers mashing, extract, boil and fermentation over four live weekends, so you can choose your brewing method with confidence.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "extract-vs-all-grain-brewing",
+  "brew-in-a-bag-method",
+  "base-malts-explained"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "working-out-the-break-even-point-for-a-brewpub-in-india",
+ "cat": "Business",
+ "h1": "Working out the break-even point for a brewpub in India",
+ "title": "Break-Even Point for an Indian Brewpub | Craft Beer School",
+ "desc": "How to calculate the break-even point for an Indian brewpub: fixed costs, contribution margin on beer and food, the sales mix and the covers you need each day.",
+ "teaser": "Every brewpub owner should know one number by heart: how many covers a day pays the rent, the salaries and the loan.",
+ "standfirst": "Break-even is the level of sales at which a brewpub stops losing money. Here is how to calculate it from your own costs, why the beer and food mix changes it and how to turn it into a daily target your team can see.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What break-even tells you",
+   "<p>A brewpub has costs that stay roughly the same whether ten guests come in or two hundred: rent, salaries, loan repayments, licence fees and the basic power bill. It also has costs that rise with every sale: ingredients, excise on the beer sold, food cost and card fees. Break-even is the point where the money left over from each sale, after its own variable costs, covers all the fixed costs.</p><p>Below that point you lose money every month. Above it, each extra cover adds profit. Knowing where the line sits turns vague worry into a target.</p><p>Some costs sit in between. Part-time staff for weekends, extra power on brew days and marketing for a festival rise with activity but not in a straight line with each guest. Treat them as fixed for the month you plan and review them separately. Perfect precision matters less than a number you calculate the same way every quarter.</p>"
+  ],
+  [
+   "Step one: list your fixed costs",
+   "<p>Add up a typical month of costs that do not change much with sales:</p><ul><li>Rent and maintenance charges.</li><li>Salaries and benefits for the core team, including the brewer and kitchen staff.</li><li>Loan instalments or lease payments on equipment.</li><li>Annual licence and renewal fees, divided by twelve.</li><li>Base utilities, insurance, software subscriptions and accounting.</li><li>A fixed marketing budget.</li></ul><p>Be honest. Owners often leave out their own salary, which makes the break-even look better than it is. Our guide to <a href=\"brewery-business-plan.html\">writing a brewery business plan</a> has a fuller cost checklist.</p>"
+  ],
+  [
+   "Step two: find the contribution per cover",
+   "<p>Contribution is what each sale leaves after its variable costs. For a brewpub, beer and food behave very differently.</p><p>Beer brewed on site usually carries a high gross margin, because ingredients are a small part of the price. Excise and the cost of brewing still need counting, which our guide to <a href=\"cost-per-litre-beer.html\">cost per litre</a> works through. Food typically carries a lower margin once ingredients and wastage are included.</p><p>Work out an average bill per cover from your sales data or a realistic estimate, then subtract the variable costs of what that cover typically orders. That is your contribution per cover.</p>"
+  ],
+  [
+   "Step three: do the division",
+   "<p>Break-even covers per month = fixed costs per month divided by contribution per cover.</p><p>Suppose, as round numbers for illustration only, a brewpub's fixed costs are ₹12 lakh a month. The average cover spends ₹1,500 and leaves a contribution of ₹900 after beer, food and card costs. Break-even is 12,00,000 divided by 900, about 1,333 covers a month. Open 30 days, that is roughly 45 covers a day.</p><p>Now look at the shape of your week. If Friday to Sunday brings in most of your guests, weekdays may sit far below 45 while weekends carry far more. That is fine, as long as the monthly total clears the line.</p><p>Check the result against capacity too. If break-even needs 45 covers a day and the room seats 60 with one turn on weekdays, there is very little margin for a slow month. If it needs 45 and you seat 150, the target is comfortable and the question becomes how to fill the room, not whether the model works.</p>"
+  ],
+  [
+   "Why the mix changes everything",
+   "<p>Change the mix and break-even moves. If guests shift from beer towards food or towards guest spirits with thinner margins, the contribution per cover falls and you need more covers to break even. If a pairing menu or a flight brings beer back into the order, contribution rises.</p><p>Run the calculation for two or three mixes: a beer-heavy evening crowd, a food-led family lunch, a corporate booking. It shows which guests carry the business and where marketing effort will pay. Our guide to <a href=\"taproom-economics.html\">taproom economics</a> goes further into margins by channel.</p>"
+  ],
+  [
+   "Make it a daily number",
+   "<p>Turn the monthly break-even into a daily covers target by day of the week and put it where the team can see it. A floor detail that works: a small whiteboard near the pass with today's target, covers so far and yesterday's result. When the manager knows that a quiet Tuesday needs 25 covers to stay on track, they act on it at 7 pm, not at the month-end review.</p><p>Revisit the calculation every quarter. Rent escalations, salary increases, an excise revision or a menu change all move the line. A brewpub that recalculates break-even regularly rarely gets surprised by a bad year.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I calculate break-even for a brewpub?",
+   "Divide your monthly fixed costs by the contribution each cover leaves after its variable costs. The result is the number of covers a month you need to stop losing money."
+  ],
+  [
+   "Why does the beer and food mix matter?",
+   "House beer usually carries a higher margin than food, so a shift towards food lowers contribution per cover and raises the number of covers you need."
+  ],
+  [
+   "How often should I recalculate break-even?",
+   "Every quarter. Recalculate it also whenever rent, salaries, excise or the menu change significantly."
+  ]
+ ],
+ "cta": {
+  "title": "Know the number your brewpub has to hit",
+  "body": "Brewery Business Management is a three week live course on costing, cash flow, pricing, funding and licensing for Indian breweries. The assignments use your own figures, so you finish with a working model rather than a worked example.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "taproom-economics",
+  "cost-per-litre-beer",
+  "brewery-business-plan"
+ ]
+}

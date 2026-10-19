@@ -1,0 +1,67 @@
+{
+ "slug": "tracking-extract-from-grain-to-glass-with-a-brew-day-mass",
+ "cat": "Brewing science",
+ "h1": "Tracking extract from grain to glass with a brew day mass balance",
+ "title": "Tracking extract with a mass balance | Craft Beer School",
+ "desc": "How to build a brew day mass balance: extract in the grist, extract in each stream and where the missing kilograms go, with a worked example.",
+ "teaser": "Your brewhouse efficiency is one number. A mass balance shows you which step lost the extract.",
+ "standfirst": "Brewhouse efficiency tells you how much extract you lost. A mass balance tells you where. With a few measurements on brew day, you can follow every kilogram of extract from the malt bag to the fermenter.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why one efficiency figure is not enough",
+   "<p>Most brewers track <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a>: extract in the fermenter as a share of extract available in the grist. A figure in the mid 80s or higher is common for a well-run lauter tun. When it drops, the question is why. Was the crush wrong? Was conversion incomplete? Did extract stay in the spent grain, or in kettle trub, or in the whirlpool?</p><p>A mass balance answers that. It is just bookkeeping: extract in equals extract out plus losses. Measure each stream and the gaps become visible.</p>"
+  ],
+  [
+   "Step one: extract in the grist",
+   "<p>Start with the malt analysis certificate. It gives extract as a percentage, usually on a dry basis, along with moisture. Extract available is malt weight times (1 minus moisture) times extract.</p><p>Example: 200 kg of pale malt with 4.5% moisture and 80% extract (fine grind, dry basis). Dry malt is 191 kg. Extract available is 191 x 0.80, about 153 kg. Add the same calculation for every grain and adjunct in the grist. If you weigh malt from bags, check the bag weights now and then. A short-weight supply looks like a brewhouse loss.</p>"
+  ],
+  [
+   "Step two: extract in the wort",
+   "<p>Extract in any wort stream is volume x specific gravity x °Plato / 100, giving kg. Use volume corrected to 20 °C. Hot wort at 100 °C has expanded by about 4%, so multiply a hot volume by roughly 0.96 before you use it.</p><p>Example: 1,050 litres of 12 °P wort (specific gravity about 1.048) into the fermenter. Extract is 1,050 x 1.048 x 0.12, about 132 kg. Against 153 kg available, brewhouse yield is about 86%. That leaves about 21 kg of extract to account for.</p>"
+  ],
+  [
+   "Step three: chasing the missing extract",
+   "<p>Measure these on the same brew:</p><ul><li><strong>Pre-boil wort:</strong> volume and gravity in the kettle before boiling. This gives lauter yield.</li><li><strong>Last runnings and spent grain:</strong> gravity of last runnings, plus a sample of spent grain washed in hot water and measured. High extract here points at sparging or the crush.</li><li><strong>Kettle full at knockout:</strong> hot volume and gravity. Extract should match pre-boil, apart from small boil losses.</li><li><strong>Whirlpool trub and hop matter:</strong> volume left behind times wort gravity. A big trub pile carries a lot of extract.</li><li><strong>Fermenter:</strong> volume and gravity after knockout.</li></ul><p>Write each as kg of extract. The stage with the biggest drop is where to work first. Our <a href=\"brewery-loss-audit.html\">brewery loss audit</a> guide carries the same approach through to packaging.</p>"
+  ],
+  [
+   "The volume measurement trap",
+   "<p>The most common error in small brewhouse mass balances is volume. Sight glasses and dipsticks are often calibrated with cold water, then read on hot wort with foam. A sight glass reading 5% high makes efficiency look 5% better than it is. Calibrate each vessel by filling with metered water in steps and recording the level, then use hot-to-cold correction every time. If you have flow meters on the transfer lines, cross-check against them.</p><p>Gravity readings need the same care. Cool every sample to 20 °C before reading a hydrometer, or use a density meter. A refractometer reading on fermenting wort needs a correction for alcohol, so use it only on unfermented streams in the balance.</p>"
+  ],
+  [
+   "Carrying it from fermenter to glass",
+   "<p>The balance does not stop at the fermenter. Beer is lost in yeast, in tank bottoms, in filter changeovers and in packaging. In India, production records also feed excise reporting, so a brewery that cannot explain its volumes has a compliance problem as well as a cost problem. Rules vary by state, so check what your excise office expects.</p><p>Track the volume of beer at each transfer and convert losses to rupees using your cost per litre. A brewery that knows where each kilogram of extract goes can decide which fix pays first, rather than guessing at a lower efficiency figure.</p>"
+  ],
+  [
+   "Making it routine",
+   "<p>You do not need a full balance on every brew. Do one carefully each month, or whenever efficiency moves by more than two or three points. Keep a simple spreadsheet with grist, volumes and gravities. The losses fall out of it. Our <a href=\"raising-brewhouse-yield.html\">raising brewhouse yield</a> guide covers the fixes once you know where the extract is going.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which extract figure should I use from the malt certificate?",
+   "Use fine grind, dry basis extract with the moisture figure. Be consistent. Coarse grind extract gives a more practical figure but is not always reported."
+  ],
+  [
+   "How accurate do my volume readings need to be?",
+   "Within one or two percent if you want the balance to mean anything. Calibrated vessels or flow meters make the biggest difference."
+  ],
+  [
+   "What brewhouse yield should I expect?",
+   "Many lauter tun brewhouses run in the mid 80s percent. Mash filters can run higher. Track your own trend more than an outside benchmark."
+  ]
+ ],
+ "cta": {
+  "title": "Find exactly where your extract is going",
+  "body": "Advanced Brewing Science is a 6 week live course covering mashing, lautering, process measurement and the extract calculations that turn brew logs into decisions. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewhouse-efficiency",
+  "brewery-loss-audit",
+  "raising-brewhouse-yield"
+ ]
+}

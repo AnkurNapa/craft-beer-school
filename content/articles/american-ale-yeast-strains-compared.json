@@ -1,0 +1,67 @@
+{
+ "slug": "american-ale-yeast-strains-compared",
+ "cat": "Ingredients",
+ "h1": "American ale yeast strains compared for a clean, dry IPA",
+ "title": "American Ale Yeast Strains Compared | Craft Beer School",
+ "desc": "Chico, West Coast dry strains and fast San Diego types compared for a clean, dry IPA: attenuation, flocculation, esters and what suits an Indian brewpub.",
+ "teaser": "Most American ale strains look the same on paper. In a 1,000 litre IPA they behave very differently.",
+ "standfirst": "For a clean, dry IPA the yeast should get out of the way. The common American ale strains all promise that, but they differ in speed, clarity, ester profile and how they handle a warm cellar. Here is how we compare them for a brewpub in India.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What \"clean\" actually means",
+   "<p>A clean strain produces low levels of esters and fusel alcohols, no phenolic clove character and very little sulphur. It ferments to a high attenuation, so the beer finishes dry and the hops dominate. For a West Coast IPA you want apparent attenuation in the high 70s to low 80s. From a 1.060 to 1.065 wort, that means a final gravity around 1.010 to 1.012.</p><p>No strain is truly neutral. Each one leaves a fingerprint. That fingerprint gets louder as fermentation temperature rises.</p>"
+  ],
+  [
+   "The Chico family",
+   "<p>The best known American ale yeast is the Chico strain, sold as Wyeast 1056, White Labs WLP001 and in dry form as SafAle US-05 among others. It is the default for American pale ales and IPAs for good reason.</p><ul><li><strong>Strengths:</strong> reliable, clean at 18 to 20 °C, good attenuation, widely available, tolerant of a range of gravities.</li><li><strong>Weaknesses:</strong> low to medium flocculation, so it clears slowly without cold conditioning or finings. Above about 22 °C the dry form can show a faint peach or apricot ester, which some brewers like and others do not.</li></ul><p>For a brewpub that crops and repitches, the liquid versions behave consistently over several generations if handled well.</p>"
+  ],
+  [
+   "Other dry West Coast strains",
+   "<p>Lallemand's BRY-97 is a popular alternative. It flocculates better than US-05, so beer drops bright faster. It also ferments very cleanly. Its known quirk is a long lag phase: it can take 24 to 48 hours to show activity, which alarms brewers used to the Chico strain. With proper rehydration and enough yeast, it finishes well.</p><p>Both are attractive in India for one practical reason. Dry yeast tolerates transport and storage far better than liquid cultures, which suffer badly when a courier van sits in 38 °C heat. Store dry yeast refrigerated and check the best before date on arrival.</p>"
+  ],
+  [
+   "Faster, higher flocculating strains",
+   "<p>Some liquid strains were selected for speed and clarity. White Labs WLP090 San Diego Super Yeast is the best known: it ferments quickly, attenuates well and flocculates more than the Chico strain. Wyeast 1272 American Ale II is a little fruitier and more flocculent, giving a softer malt profile. It suits an amber or a hoppy red better than a bone-dry IPA.</p><p>In a brewpub, faster fermentation and better clarity free up tank time. That is a real advantage when you have four fermenters and six beers on tap.</p>"
+  ],
+  [
+   "Pitch rate and temperature in a warm cellar",
+   "<p>For ales the standard pitch rate is about 0.75 million cells per millilitre per degree Plato. A 1,000 litre batch at 15 °P (about 1.061) needs roughly 11 trillion cells, which is a lot of yeast. For dry yeast, makers usually recommend a dose in grams per hectolitre on their sheet. Follow it rather than tipping in a few sachets and hoping.</p><p>Temperature control matters more than strain choice. Fermentation gives off heat. A 10 hl fermenter at full activity can rise several degrees above the jacket setting if the glycol system is undersized. Ambient cellar temperatures of 30 °C or more, common in Indian brewpubs without proper insulation, make this worse. Pitch at 16 to 17 °C, let the beer rise to 19 to 20 °C and hold it there. Then allow a free rise of a degree or two at the end to help the yeast finish and reabsorb diacetyl.</p><p>Underpitching and warm starts are the two biggest causes of a \"clean\" strain tasting fruity and hot. Our guide to <a href=\"west-coast-ipa.html\">West Coast IPA</a> covers the rest of the process.</p>"
+  ],
+  [
+   "Choosing for your brewery",
+   "<p>A simple rule of thumb:</p><ul><li>Want the classic, most forgiving choice: the Chico strain, liquid or dry.</li><li>Want faster clarity from a dry yeast: BRY-97, accepting the lag.</li><li>Want speed and tank turnover with liquid yeast: a San Diego type.</li><li>Want a touch more malt and fruit: American Ale II.</li></ul><p>Run a split batch before you switch. Ferment the same wort with two strains side by side, taste blind at packaging and again at four weeks. Our guide to <a href=\"ale-vs-lager-yeast.html\">ale versus lager yeast</a> covers the biology if your team needs a refresher.</p><p>Strain selection is one variable among many. Pitch rate, oxygenation, temperature profile, dry hop timing and harvesting practice all shape the final IPA. They also interact. Managing them together is what separates a good IPA from a reliably good IPA.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the cleanest American ale yeast?",
+   "The Chico strain (Wyeast 1056, WLP001, US-05) is the standard clean choice. BRY-97 is similarly clean and drops bright faster."
+  ],
+  [
+   "Why does my US-05 IPA taste of peach?",
+   "Usually because it fermented warm, above about 22 °C. Pitch cooler and control the peak temperature."
+  ],
+  [
+   "Is dry yeast as good as liquid yeast for IPA?",
+   "For clean American ales, yes in most cases. Dry yeast also travels and stores far better in Indian conditions."
+  ],
+  [
+   "What pitch rate should I use for an ale?",
+   "About 0.75 million cells per millilitre per degree Plato. For dry yeast, follow the maker's grams per hectolitre recommendation."
+  ]
+ ],
+ "cta": {
+  "title": "Join the next Advanced Brewing Science batch",
+  "body": "Live weekend classes, Saturdays and Sundays, with a maximum of 20 students per batch and a certificate. Six weeks on yeast, fermentation, water and recipe design for working brewers.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "west-coast-ipa",
+  "ale-vs-lager-yeast",
+  "designing-your-first-ipa-recipe"
+ ]
+}

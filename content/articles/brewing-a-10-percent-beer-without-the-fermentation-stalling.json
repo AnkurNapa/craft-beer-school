@@ -1,0 +1,67 @@
+{
+ "slug": "brewing-a-10-percent-beer-without-the-fermentation-stalling",
+ "cat": "Brewing science",
+ "h1": "Brewing a 10 percent beer without the fermentation stalling",
+ "title": "Brewing a 10% Beer Without Stalling | Craft Beer School",
+ "desc": "Pitch rate, oxygen, nutrients, temperature and sugar additions: how to ferment a 10% ABV beer to finish without stalling at 1.030.",
+ "teaser": "Big beers stall for predictable reasons. Get pitch rate, oxygen and temperature right and they finish.",
+ "standfirst": "A 10% beer asks yeast to do a lot of work in a hostile environment. Most stalls are set up on brew day, by too little yeast, too little oxygen or a temperature plan that ignores what the yeast is going through.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a 10% beer asks of the yeast",
+   "<p>To reach about 10% ABV you need an original gravity around 1.096 and a finish near 1.020. Using ABV = (OG minus FG) x 131.25, that works out at 1.096 minus 1.020, which is 0.076, x 131.25, close to 10%.</p><p>At that gravity the yeast faces high osmotic pressure at the start and rising alcohol at the end. Both stress the cell membrane. A yeast population that is too small, short of oxygen or short of nutrients gives up partway. The classic stall is a gravity that sits at 1.030 or above for three days and will not move.</p>"
+  ],
+  [
+   "Recipe and mash choices",
+   "<p>Fermentability starts in the mash. Mash at the lower end of the saccharification range, around 64 to 65 °C, for a more fermentable wort. Keep crystal and caramel malts modest. They add unfermentable sugars that leave a big beer sweet and heavy.</p><p>Simple sugar, such as dextrose or cane sugar, makes up some of the gravity without adding body. In a strong Belgian ale 10 to 20% of the fermentables as sugar is normal. Our guide to <a href=\"high-gravity-brewing-and-dilution.html\">high gravity brewing</a> covers the brewhouse side, including how to reach the gravity on a small system.</p>"
+  ],
+  [
+   "Pitch enough healthy yeast",
+   "<p>Under-pitching is the single most common cause of a stalled strong beer. Standard practice is around 0.75 million cells per millilitre per degree Plato for ales. For high gravity ales brewers often go towards 1.0 to 1.5 million. At 1.096, about 23 °P, that is a lot of yeast.</p><ul><li>Count your cells and check viability rather than guessing.</li><li>Pitch fresh, vigorous yeast, ideally from a recent fermentation of a normal strength beer.</li><li>Choose a strain known for alcohol tolerance and high attenuation.</li><li>Do not harvest yeast from the 10% beer for reuse in another strong beer. It will be tired.</li></ul>"
+  ],
+  [
+   "Oxygen and nutrients",
+   "<p>Yeast uses oxygen at the start of fermentation to build sterols and unsaturated fatty acids for healthy membranes. Strong wort holds less dissolved oxygen than weak wort and needs more. Aerating with air alone rarely gets there. Pure oxygen through a sintered stone, aiming at around 10 to 12 mg/L at pitching, is common practice for high gravity beers. Some brewers add a second, smaller dose 12 to 18 hours in. See <a href=\"wort-aeration-and-oxygen.html\">wort aeration and oxygen</a> for detail.</p><p>Nutrients matter too. Free amino nitrogen supports yeast growth. An all malt wort usually has plenty. Diluting with sugar reduces it. Zinc is a cofactor for key fermentation enzymes. A yeast nutrient containing zinc helps. Our guide to <a href=\"yeast-nutrition-zinc-and-fan.html\">yeast nutrition, zinc and FAN</a> gives typical ranges.</p>"
+  ],
+  [
+   "A temperature plan that helps the finish",
+   "<p>Start cool to limit fusel alcohols and harsh esters during the growth phase. For many ale strains that means pitching around 17 to 18 °C. Fermentation is exothermic. A big beer generates a lot of heat, so control the temperature closely for the first three days.</p><p>Once the most vigorous phase has passed, let the temperature rise a couple of degrees, to around 20 to 22 °C. Warmer yeast stays active longer as alcohol builds. Cooling a strong beer too early is a reliable way to stall it.</p><p>The floor detail: rousing. On a conical fermenter, a gentle push of CO2 through the bottom valve lifts settled yeast back into suspension. Doing that once or twice in the last third of fermentation often moves a slow beer down the last few points.</p>"
+  ],
+  [
+   "Sugar additions and patience",
+   "<p>Adding simple sugar in stages, rather than all in the kettle, keeps the starting gravity lower and lets yeast get established before they face the full load. Dissolve the sugar in a little boiled water, cool it and add it once the main fermentation is under way.</p><p>Then wait. Strong beers take longer to finish and longer to condition. Take gravity readings on three consecutive days. Only a steady reading means the beer is done. Packaging a strong beer that has not finished risks over-carbonation and burst bottles.</p><p>Yeast physiology under stress and how to design a fermentation around it: that is where brewing moves from following a recipe to controlling a process.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What gravity do I need for a 10% beer?",
+   "An original gravity around 1.096 finishing near 1.020 gives about 10% ABV, using ABV = (OG minus FG) x 131.25."
+  ],
+  [
+   "Why do strong beers stall?",
+   "Usually too little yeast, too little oxygen or nutrients, or cooling the beer too early. High alcohol and osmotic stress make the yeast give up."
+  ],
+  [
+   "How do I restart a stalled high gravity fermentation?",
+   "Raise the temperature a couple of degrees and rouse the yeast. If that fails, pitch an actively fermenting, alcohol tolerant yeast rather than dry yeast straight from the packet."
+  ],
+  [
+   "Should I add sugar to the kettle or the fermenter?",
+   "Adding it in stages to the fermenter keeps early stress lower. Kettle additions are simpler but give the yeast the full gravity from the start."
+  ]
+ ],
+ "cta": {
+  "title": "Ferment strong beers that finish on target",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers yeast physiology, pitch rates, oxygen and nutrition so you can plan fermentations that finish where you want them.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "high-gravity-brewing-and-dilution",
+  "yeast-nutrition-zinc-and-fan",
+  "wort-aeration-and-oxygen"
+ ]
+}

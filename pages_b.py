@@ -141,7 +141,7 @@ PRIVACY = banner("Privacy","Legal","Privacy Policy","How we collect, use and pro
 <section>
   <div class="wrap prose">
     <p class="updated">Last updated: July 2026</p>
-    <p>Craft Beer School ("we", "us") respects your privacy. This policy explains what we collect when you use our website or enrol in a course, and how we use it.</p>
+    <p>Craft Beer School ("we", "us") respects your privacy. This policy explains what we collect when you use our website or enrol in a course and how we use it.</p>
     <h2>Information we collect</h2>
     <ul>
       <li>Contact details you submit through our forms, name, email, phone, city.</li>
@@ -155,7 +155,7 @@ PRIVACY = banner("Privacy","Legal","Privacy Policy","How we collect, use and pro
       <li>To improve our courses, content and website.</li>
     </ul>
     <h2>Sharing</h2>
-    <p>We do not sell your personal information. We share it only with trusted services that help us operate, for example, form delivery and email, and only as needed to provide our services.</p>
+    <p>We do not sell your personal information. We share it only with trusted services that help us operate, for example, form delivery and email, but only as needed to provide our services.</p>
     <h2>Your choices</h2>
     <p>You can ask us to access, correct or delete your information at any time by emailing <a href="mailto:chatty@cheerschattyventures.com">chatty@cheerschattyventures.com</a>. You can unsubscribe from updates at any time.</p>
     <h2>Cookies</h2>

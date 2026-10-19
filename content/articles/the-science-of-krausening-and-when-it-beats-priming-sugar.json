@@ -1,0 +1,63 @@
+{
+ "slug": "the-science-of-krausening-and-when-it-beats-priming-sugar",
+ "cat": "Brewing science",
+ "h1": "The science of krausening and when it beats priming sugar",
+ "title": "Krausening versus priming sugar | Craft Beer School",
+ "desc": "How krausening carbonates beer with actively fermenting wort, how to calculate the dose and when it beats priming sugar for flavour and oxygen.",
+ "teaser": "German lager brewers carbonated with young beer long before they had priming calculators. The method still earns its place.",
+ "standfirst": "Krausening means adding actively fermenting wort to finished beer. It carbonates, cleans up diacetyl and scavenges oxygen. It also asks more of the brewer than a bag of sugar does.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What krausening is",
+   "<p>Krausen is the foamy head on an active fermentation. Krausening means taking wort at that high krausen stage, full of active yeast and still holding fermentable sugar, then adding it to beer that has finished fermentation. The young yeast ferments the remaining sugar. If the tank or bottle is sealed, the CO2 dissolves into the beer.</p><p>It is a traditional German lager technique, partly because purity rules ruled out adding sugar. A related method uses speise, unfermented wort held back from the same brew. Both work on the same chemistry. Priming sugar, covered in our guide to <a href=\"bottle-conditioning-and-priming-sugar.html\">bottle conditioning and priming sugar</a>, uses sucrose or dextrose instead.</p>"
+  ],
+  [
+   "Calculating the dose",
+   "<p>Fermentation produces about 0.49 g of CO2 per g of sugar fermented. One volume of CO2 is close to 2 g/L. So to add 2.5 g/L of CO2, about 1.25 volumes, you need roughly 5 g/L of fermentable extract, or about 0.5 °P across the whole beer.</p><p>Say your krausen wort still has about 6 °P of fermentable extract left. You need 0.5 / 6, roughly 8 to 9% krausen by volume. Commonly quoted ranges are 10 to 15%, depending on how far fermentation has gone in the krausen and how much CO2 is already in the beer. Measure the gravity of the krausen and of the finished beer each time. Fermentable extract in the krausen is the number that changes from brew to brew.</p>"
+  ],
+  [
+   "What krausening does besides carbonate",
+   "<ul><li><strong>Diacetyl clean-up.</strong> Active yeast reabsorbs diacetyl and acetaldehyde from the finished beer. That is why krausening sits naturally after primary fermentation and before or during <a href=\"lagering-explained.html\">lagering</a>.</li><li><strong>Oxygen scavenging.</strong> Growing yeast consumes oxygen picked up during transfer, which protects flavour stability.</li><li><strong>Flavour match.</strong> The krausen is the same beer, so it adds no foreign sugar character.</li></ul><p>Compared with sugar, the gains are flavour and process, not a different level of carbonation.</p><p>There is one more benefit that brewers notice in the glass. Many describe krausened lager as having finer, softer carbonation. The mechanism is debated and partly a matter of perception, so treat it as a reason to try it on your own beer rather than a promise.</p>"
+  ],
+  [
+   "Carbonating in a tank with a spunding valve",
+   "<p>For tank carbonation, transfer the finished beer to a lagering tank, add the krausen and fit a spunding valve set to the pressure that matches your target CO2 at the beer temperature. Roughly 1.2 bar gauge at 10 °C holds about 5 g/L, around 2.5 volumes, according to standard carbonation charts. As fermentation builds pressure past the set point, the valve vents the excess.</p><p>Watch the temperature. Krausened beer needs to stay warm enough for the yeast to work through the sugar, often several days at 8 to 12 °C, before going cold for lagering. Crash it too early and the yeast stops before the CO2 target is met.</p>"
+  ],
+  [
+   "When krausening beats priming sugar",
+   "<ul><li>German-style lagers where tradition and flavour purity matter.</li><li>Beers that still need a diacetyl clean-up after transfer.</li><li>Breweries that pick up oxygen on transfer and want yeast to scavenge it.</li><li>Breweries with a steady schedule of the same beer, so fresh krausen is always available.</li></ul><p>Priming sugar is better when you need precise, repeatable bottle carbonation, when you brew many different beers or when you have no active fermentation of the same beer to draw from.</p>"
+  ],
+  [
+   "The risks to manage",
+   "<p>The krausen must be clean. You are adding young, active beer to finished beer, so any contamination in the krausen tank spreads. Draw it with sanitised fittings from a fermentation you trust.</p><p>Gravity variation is the other risk. A krausen drawn a few hours later than usual has less sugar, so carbonation comes out low. Measure every time, write it down and adjust the volume. A simple table in the brew log, with krausen gravity, krausen volume, beer volume and the CO2 reached after conditioning, soon shows you the correction factor for your own system. Bottles over-primed with krausen can over-carbonate just as with sugar, so treat the calculation seriously. Getting yeast, CO2 and oxygen chemistry to work together is the core of good conditioning practice.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I krausen a beer with a different beer?",
+   "You can, but the krausen beer will change the flavour of the finished beer. Most brewers use the same beer or a close match."
+  ],
+  [
+   "Does krausening work in bottles?",
+   "Yes, but it is harder to dose consistently than sugar. Brewers who bottle condition usually measure krausen gravity carefully or use speise instead."
+  ],
+  [
+   "How long does krausening take?",
+   "Usually several days at fermentation or slightly cooler temperature before cold lagering. The yeast needs time to ferment the added sugar."
+  ]
+ ],
+ "cta": {
+  "title": "Get carbonation and conditioning right every time",
+  "body": "Advanced Brewing Science is a 6 week live course covering yeast metabolism, carbonation chemistry, conditioning and maturation, with calculations you can apply to your own tanks. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "bottle-conditioning-and-priming-sugar",
+  "lagering-explained",
+  "diacetyl-rest"
+ ]
+}

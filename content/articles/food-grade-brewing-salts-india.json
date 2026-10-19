@@ -1,0 +1,67 @@
+{
+ "slug": "food-grade-brewing-salts-india",
+ "cat": "Ingredients",
+ "h1": "Buying food-grade brewing salts and acids in India",
+ "title": "Food-Grade Brewing Salts in India | Craft Beer School",
+ "desc": "Where Indian brewers buy food-grade gypsum, calcium chloride, Epsom salt and lactic acid, which grades to accept and how to dose them correctly.",
+ "teaser": "That cheap bag of gypsum from the hardware shop is not the same as food-grade calcium sulphate. Here is how to buy the right stuff.",
+ "standfirst": "Water treatment only works if the salts and acids you add are clean and correctly labelled. In India, the same chemical name can be sold in grades meant for building sites, laboratories or food. This guide explains which to buy and how to check it.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The usual brewing additions",
+   "<p>Most breweries treat water with a short list of salts and acids:</p><ul><li><strong>Calcium sulphate (gypsum).</strong> Adds calcium and sulphate, sharpens hop bitterness.</li><li><strong>Calcium chloride.</strong> Adds calcium and chloride, rounds out malt.</li><li><strong>Magnesium sulphate (Epsom salt).</strong> Small amounts of magnesium and sulphate.</li><li><strong>Sodium bicarbonate.</strong> Raises alkalinity for dark beers on soft water.</li><li><strong>Lactic acid and phosphoric acid.</strong> Lower mash and sparge pH and reduce alkalinity.</li></ul><p>Our guides to <a href=\"water-salts-for-homebrewers.html\">water salts</a> and the <a href=\"sulphate-chloride-ratio.html\">sulphate to chloride ratio</a> explain how to calculate additions. This guide is about buying them.</p>"
+  ],
+  [
+   "Grades and why they matter",
+   "<p>Chemical suppliers in India sell the same compound in several grades. Technical or commercial grade is made for industrial use and may contain heavy metals or other impurities that are not controlled. LR (laboratory reagent) and AR (analytical reagent) grades are pure, but they are made for labs, not for food. They are not labelled or certified for consumption.</p><p>For brewing, buy <strong>food grade</strong>, labelled as such, or <strong>IP grade</strong> (meeting the Indian Pharmacopoeia standard) where food grade is hard to find. Food-grade additives often carry their INS number, for example 516 for calcium sulphate, 509 for calcium chloride and 270 for lactic acid. A label with the grade, the INS number, a batch number and a manufacturer address is a good sign.</p><p>Plaster of Paris and agricultural gypsum are not substitutes. Neither is a pool chemical labelled calcium chloride.</p>"
+  ],
+  [
+   "Where to buy",
+   "<p>Breweries typically buy from three places. Brewing and homebrew suppliers sell food-grade salts in small packs, often repacked. Food ingredient distributors that supply bakeries and dairies sell food-grade calcium chloride, lactic acid and sodium bicarbonate in bulk. Pharmacies sell IP-grade Epsom salt and sometimes gypsum.</p><p>For a commercial brewery, ask every supplier for a certificate of analysis for each batch. It should state purity and limits for lead, arsenic and other heavy metals. Keep these on file. An inspector or auditor will ask how you know your additions are safe. Our guide to <a href=\"fssai-rules-for-beer.html\">FSSAI rules for beer</a> covers the wider compliance picture. Rules vary by state and change, so check current requirements.</p>"
+  ],
+  [
+   "Check the hydration before you dose",
+   "<p>This catches many brewers. Calcium chloride is sold as anhydrous (no water) and as dihydrate (two water molecules per unit). By weight, anhydrous is roughly a third stronger than dihydrate. If your calculator assumes dihydrate and you weigh anhydrous, you overdose chloride.</p><p>Gypsum is normally sold as the dihydrate. Epsom salt is the heptahydrate, with seven water molecules. Check that your water calculator matches the form on the label.</p><p>Lactic acid is commonly sold at 80% and phosphoric acid at 75 or 85%. A recipe written for one strength will be wrong for another. Write the strength on the bottle in marker the day it arrives.</p>"
+  ],
+  [
+   "Storing salts in Indian humidity",
+   "<p>Calcium chloride pulls water from the air and will turn into a puddle in an open tub during the monsoon. Keep it in a tightly sealed container and close it straight after use. As it absorbs moisture its strength per gram drops, so a caked tub is a dosing error waiting to happen.</p><p>Keep all salts in labelled, food-grade containers, away from cleaning chemicals. Store acids upright in a bunded tray. Use a scale that reads to 0.1 g for small batches and 1 g for commercial brews. Check it with a calibration weight each month.</p>"
+  ],
+  [
+   "A receiving checklist",
+   "<p>Treat salts and acids like any other ingredient, with a short check when each delivery arrives:</p><ul><li>Label states the chemical name, grade, hydration form or strength, batch number and manufacturer.</li><li>Certificate of analysis matches the batch number on the pack.</li><li>Packaging is sealed, dry and undamaged, with no caking in calcium chloride.</li><li>The material is logged in your ingredient register with the date received.</li></ul><p>If any of these is missing, hold the pack aside until the supplier fixes it. It takes two minutes and saves an uncomfortable conversation when someone asks what went into a batch.</p>"
+  ],
+  [
+   "Safety with acids",
+   "<p>Food-grade lactic and phosphoric acids are still corrosive at full strength. Wear gloves and eye protection when measuring. Add acid to water, never water to acid. Dilute in the liquor tank rather than pouring concentrate onto hot grain.</p><p>Keep the safety data sheet for each chemical in the brewery. Make sure everyone dosing knows where the eyewash is.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I use pharmacy Epsom salt for brewing?",
+   "IP-grade Epsom salt from a pharmacy is generally acceptable. Make sure it is plain magnesium sulphate with no added scent or other ingredients."
+  ],
+  [
+   "Is LR grade calcium chloride safe for beer?",
+   "LR grade is pure but is made and labelled for laboratory use, not food. Buy food-grade or IP-grade material for brewing."
+  ],
+  [
+   "Why do my calcium chloride additions vary?",
+   "It absorbs moisture from the air, which lowers its strength per gram. Store it sealed and check whether you have the anhydrous or dihydrate form."
+  ]
+ ],
+ "cta": {
+  "title": "Get your water chemistry right from day one",
+  "body": "Join Brewing Fundamentals: live weekend classes covering water, mashing and brew day control. Max 20 per batch, with recordings and a certificate.",
+  "label": "Save your seat",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "water-salts-for-homebrewers",
+  "sulphate-chloride-ratio",
+  "fssai-rules-for-beer"
+ ]
+}

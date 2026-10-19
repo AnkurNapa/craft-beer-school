@@ -22,7 +22,7 @@ LOGISTICS = [
     ("Included", "Session recordings, presentation decks, weekly assignments and the learning kit."),
     ("Certificate", "Certificate of Completion once every assignment is in and you have attended at least 80% of live sessions."),
     ("Beyond the screen", "Recommended microbrewery visits, so you see the kit you are studying."),
-    ("Fees", "Paid in full at sign-up. No discounts apply, and a package of courses cannot be changed once confirmed."),
+    ("Fees", "Paid in full at sign-up. No discounts apply. A package of courses cannot be changed once confirmed."),
 ]
 
 ARTICLES_BY_SLUG = {a["slug"]: a for a in articles_all.ARTICLES}
@@ -39,11 +39,11 @@ DETAIL = {
         weeks=[
             ("Grain to glass", ["The four ingredients and what each one does", "The brewhouse map: mill, mash, lauter, boil, whirlpool, ferment, condition, package", "Reading a label: ABV, IBU and colour (EBC and SRM)"],
              "Taste three commercial beers and trace each one back to its ingredients."),
-            ("Malt, water and the mash", ["Malting: steep, germinate, kiln", "Base malts versus speciality malts", "Enzymes and mash temperature: 62 to 65 °C for a drier beer, 68 to 70 °C for more body", "Water basics, and why mash pH should sit at 5.2 to 5.6"],
+            ("Malt, water and the mash", ["Malting: steep, germinate, kiln", "Base malts versus speciality malts", "Enzymes and mash temperature: 62 to 65 °C for a drier beer, 68 to 70 °C for more body", "Water basics and why mash pH should sit at 5.2 to 5.6"],
              "Work out the grist and strike water for a 20 L batch."),
-            ("Hops, boil and yeast", ["Alpha acids, and why they need the boil to turn bitter", "Bittering, aroma and dry hop additions", "What the boil does: sterilise, isomerise, drive off DMS, form the hot break", "Ale versus lager yeast, pitch rates and temperature control"],
+            ("Hops, boil and yeast", ["Alpha acids and why they need the boil to turn bitter", "Bittering, aroma and dry hop additions", "What the boil does: sterilise, isomerise, drive off DMS, form the hot break", "Ale versus lager yeast, pitch rates and temperature control"],
              "Calculate the IBU of your recipe."),
-            ("Sanitation, kit and your first recipe", ["Cleaning versus sanitising, and the chemicals for each", "Homebrew kit versus a microbrewery brewhouse", "Original and final gravity, and ABV = (OG - FG) x 131.25", "Priming, carbonation and packaging"],
+            ("Sanitation, kit and your first recipe", ["Cleaning versus sanitising and the chemicals for each", "Homebrew kit versus a microbrewery brewhouse", "Original and final gravity, plus ABV = (OG - FG) x 131.25", "Priming, carbonation and packaging"],
              "Present your first complete recipe to the cohort."),
         ]),
     "Advanced Brewing Science": dict(
@@ -53,9 +53,9 @@ DETAIL = {
         outcomes=["Turn a water lab report into a brewing water profile", "Measure and improve brewhouse efficiency",
                   "Control esters, fusels and diacetyl through fermentation", "Write a QA plan for a small brewery"],
         weeks=[
-            ("Brewing water chemistry", ["Calcium, magnesium, sulphate, chloride and bicarbonate", "Residual alkalinity and the sulphate to chloride ratio", "Treating borewell and municipal water in India, and blending with RO water"],
+            ("Brewing water chemistry", ["Calcium, magnesium, sulphate, chloride and bicarbonate", "Residual alkalinity and the sulphate to chloride ratio", "Treating borewell and municipal water in India and blending with RO water"],
              "Turn your local water report into a treatment plan for two styles."),
-            ("Mash chemistry and advanced mashing", ["Step mashes, protein rests and decoction", "Rice and maize adjuncts, and cooking them", "Extract, lauter yield and brewhouse efficiency"],
+            ("Mash chemistry and advanced mashing", ["Step mashes, protein rests and decoction", "Rice and maize adjuncts and cooking them", "Extract, lauter yield and brewhouse efficiency"],
              "Calculate brewhouse efficiency from a real brew log."),
             ("Hop chemistry", ["Alpha and beta acids, isomerisation and utilisation", "Hop oils: myrcene, linalool, geraniol", "Biotransformation and hop creep"],
              "Redesign a hop schedule for the same IBU with more aroma."),
@@ -75,9 +75,9 @@ DETAIL = {
         weeks=[
             ("Plan and finance", ["Brewpub, microbrewery or contract brewing", "Capex: brewhouse, cellar, cooling and utilities", "Opex, cost per litre, pricing and break-even", "Funding options"],
              "Build a simple P&amp;L for your concept."),
-            ("Licensing and regulation in India", ["Excise is set state by state, and what that means for you", "Brewpub and microbrewery licences, FSSAI, pollution control consent", "Label registration, trademarks and realistic timelines"],
+            ("Licensing and regulation in India", ["Excise is set state by state and what that means for you", "Brewpub and microbrewery licences, FSSAI, pollution control consent", "Label registration, trademarks and realistic timelines"],
              "Draw up a licence checklist and timeline for your state."),
-            ("Market, brand and distribution", ["Positioning and taproom economics", "On-trade versus off-trade, distributors and state rules", "Kegs versus cans, and when each makes sense"],
+            ("Market, brand and distribution", ["Positioning and taproom economics", "On-trade versus off-trade, distributors and state rules", "Kegs versus cans and when each makes sense"],
              "Present a one-page business plan to the cohort."),
         ]),
     "Style Specialisation": dict(
@@ -141,20 +141,20 @@ DETAIL = {
                   "Write a one-page responsible AI policy for your brewery"],
         weeks=[
             ("GenAI for your brewery's words",
-             ["How large language models work, in plain English, and where they go wrong",
+             ["How large language models work in plain English and where they go wrong",
               "Briefing the tool properly: style, ABV, ingredients, tasting notes and your brewery's voice",
               "Tap list notes, menu cards, label copy and newsletters",
               "A month of social posts around launches, festivals and the monsoon",
-              "AI images versus real photos of your beer, and when each one fits"],
+              "AI images versus real photos of your beer and when each one fits"],
              "Write tasting notes for your current tap list and a month of posts, then edit them until they sound like you."),
             ("Repetitive tasks and responsible AI",
              ["Drafting replies to common questions and reviews",
               "Turning brew logs and sales notes into short weekly reports",
               "Spreadsheet formulas, checklists and first drafts of SOPs",
               "Checking every fact: AI must never invent an ABV, an award or an ingredient",
-              "Customer data, image rights, and India's rules on alcohol advertising, which vary by state and change",
-              "Nothing aimed at minors, and no health claims"],
-             "Hand one weekly task to AI from start to finish, and write your brewery's one-page AI policy."),
+              "Customer data, image rights and India's rules on alcohol advertising, which vary by state and change",
+              "Nothing aimed at minors and no health claims"],
+             "Hand one weekly task to AI from start to finish and write your brewery's one-page AI policy."),
         ]),
     "Digital Transformation Basics for Brewing": dict(
         reading=['keeping-a-brew-log', 'brewing-software-and-calculators', 'brewery-qc-lab-on-a-budget'],
@@ -167,10 +167,10 @@ DETAIL = {
                   "Leave with a 90-day plan you can afford"],
         weeks=[
             ("From paper to data",
-             ["What digital transformation means for a 10 HL brewery, and what it does not",
+             ["What digital transformation means for a 10 HL brewery and what it does not",
               "Brew logs, cellar logs and cleaning records in shared spreadsheets",
-              "Stock, batch and keg tracking, and why batch codes matter when a complaint comes in",
-              "Brewery management software versus spreadsheets, and when to switch"],
+              "Stock, batch and keg tracking, plus why batch codes matter when a complaint comes in",
+              "Brewery management software versus spreadsheets and when to switch"],
              "Turn last month's paper brew sheets into one digital log and find three things you did not know."),
             ("Sensors, dashboards and your plan",
              ["Temperature and gravity loggers on fermenters",
@@ -204,7 +204,7 @@ DETAIL = {
               "Sales and depletions next to production, so stock stops surprising you",
               "Power BI versus Tableau: licensing, sharing, refresh and where each one hurts",
               "Refreshing the data without a person retyping it every Monday",
-              "The habit: a weekly ten-minute review, and what to do when a number moves"],
+              "The habit: a weekly ten-minute review and what to do when a number moves"],
              "Build your weekly brewery dashboard in the tool you chose and present it to the cohort."),
         ]),
     "ESG in Craft Brewing": dict(
@@ -218,18 +218,18 @@ DETAIL = {
                   "Build a simple ESG scorecard and talk about it without greenwashing"],
         weeks=[
             ("The E: water, energy and waste",
-             ["Your water to beer ratio, and where the litres go: cleaning, cooling, the brewhouse",
-              "Energy for heating, cooling and glycol, and what to measure first",
+             ["Your water to beer ratio and where the litres go: cleaning, cooling, the brewhouse",
+              "Energy for heating, cooling and glycol, plus what to measure first",
               "Spent grain and yeast as feed or food rather than waste",
               "Glass, cans, kegs and returnable packaging",
               "Wastewater and pollution control consent, which varies by state"],
              "Work out your brewery's water and energy per litre from last quarter's numbers."),
-            ("The S and the G, and telling the story",
+            ("The S, the G and telling the story",
              ["Staff safety, fair work and training",
               "Responsible drinking, local sourcing and your neighbourhood",
               "Governance: licences, a compliance calendar and clean books",
               "A one-page ESG scorecard you can update every quarter",
-              "Talking about it honestly: what to claim, what to leave out, and how to avoid greenwashing"],
+              "Talking about it honestly: what to claim, what to leave out and how to avoid greenwashing"],
              "Fill in your first ESG scorecard and draft one honest post about it."),
         ]),
     "Safety in Brewing": dict(
@@ -243,11 +243,11 @@ DETAIL = {
                   "Leave with a safety checklist for your own brewery"],
         weeks=[
             ("The hazards and how to work around them",
-             ["CO2 from fermenting beer: why it collects low down, and gas monitors in cellars and cold rooms",
-              "Confined spaces: never climb into a tank, and why",
-              "Caustic and acid for cleaning, the right protective kit, and eyewash",
+             ["CO2 from fermenting beer: why it collects low down, plus gas monitors in cellars and cold rooms",
+              "Confined spaces: never climb into a tank and why",
+              "Caustic and acid for cleaning, the right protective kit and eyewash",
               "Hot wort and steam, pressure vessels, kegs and relief valves",
-              "Wet floors, electrics near water, and lifting heavy malt sacks",
+              "Wet floors, electrics near water and lifting heavy malt sacks",
               "What to do in an emergency, first aid and who to call. Rules vary by state, so check the ones that apply to you"],
              "Walk through your brewery or kitchen and fill in the safety checklist we give you."),
         ]),
@@ -262,17 +262,17 @@ DETAIL = {
                   "Understand the licences and costs behind a craft distillery in India"],
         weeks=[
             ("Wash, spirits and the law",
-             ["How a wash differs from beer: no hops, and the fermentation is pushed for alcohol",
+             ["How a wash differs from beer: no hops, with the fermentation pushed for alcohol",
               "Grain, molasses, fruit and sugar as starting points",
-              "Distilling in India needs its own excise licence, separate from brewing, and rules vary by state. Distilling at home is not legal",
+              "Distilling in India needs its own excise licence, separate from brewing. Rules vary by state. Distilling at home is not legal",
               "The main spirit families: whisky, gin, rum, vodka and fruit spirits"],
              "Map the licences and approvals a craft distillery needs in your state."),
             ("Stills and the run",
              ["Pot stills, column stills and reflux",
-              "Heads, hearts and tails, and why the cuts matter for flavour and safety",
+              "Heads, hearts and tails: why the cuts matter for flavour and safety",
               "Proof, ABV and measuring a spirit",
               "Ethanol vapour, fire risk and safe still operation"],
-             "Read a sample run log and mark where you would make each cut, and why."),
+             "Read a sample run log and mark where you would make each cut and why."),
             ("Gin and botanicals",
              ["Juniper first: what makes a gin a gin",
               "Maceration versus vapour infusion",
@@ -281,7 +281,7 @@ DETAIL = {
              "Design a gin botanical recipe and explain the role of each botanical."),
             ("Ageing, costs and getting to market",
              ["Oak, char and what a cask adds",
-              "Why maturation runs faster in Indian heat, and the higher losses to evaporation",
+              "Why maturation runs faster in Indian heat and the higher losses to evaporation",
               "Costing a bottle: raw materials, energy, duty and packaging",
               "Brand, route to market and the first year of a small distillery"],
              "Write a one-page business case for your first spirit."),
@@ -296,22 +296,22 @@ DETAIL = {
                   "Plan a still run, the cuts and proofing to bottling strength",
                   "Cost a bottle and map the licences behind it"],
         weeks=[
-            ("What gin is, and the law",
+            ("What gin is and the law",
              ["Juniper has to lead: what makes a gin a gin",
               "Distilled, London dry and compound gin",
-              "Neutral spirit as the base, and why many Indian craft gins redistil it with botanicals",
+              "Neutral spirit as the base and why many Indian craft gins redistil it with botanicals",
               "Licences and contract distilling. Rules vary by state, so check yours"],
              "Taste three gins and describe what each botanical brings."),
             ("Botanicals",
              ["The classic set: juniper, coriander seed, angelica, citrus peel and orris",
-              "Indian spices, citrus and teas, and how to use them without losing the juniper",
+              "Indian spices, citrus and teas: how to use them without losing the juniper",
               "Maceration versus the vapour basket",
               "Distilling single botanicals and blending them"],
              "Design a botanical bill for your own gin, with the role of each one."),
             ("The run and the finish",
              ["Charging the still and running it",
-              "Heads, hearts and tails, and where flavour sits in the run",
-              "Reducing to bottling strength, and why oils can cloud a gin",
+              "Heads, hearts and tails: where flavour sits in the run",
+              "Reducing to bottling strength and why oils can cloud a gin",
               "Chill filtering and resting before bottling"],
              "Plan the cuts and the reduction for a sample run."),
             ("Brand, costing and market",
@@ -336,7 +336,7 @@ DETAIL = {
               "Flavours, juices, extracts and teas",
               "Alcoholic bases: spirit, malt and fermented sugar",
               "Non-alcoholic RTDs: craft sodas, iced teas and mocktails"],
-             "Formulate one drink with and without alcohol, and note what changes."),
+             "Formulate one drink with and without alcohol and note what changes."),
             ("Production, shelf life and the rules",
              ["Carbonation levels and how they change the taste",
               "Pasteurisation, preservatives and keeping oxygen out of the can",
@@ -355,8 +355,8 @@ DETAIL = {
                   "Plan bottling for a wine that holds up in Indian heat"],
         weeks=[
             ("Grapes and fermentation",
-             ["Ripeness: sugar in Brix, acidity and pH, and why harvest timing decides the wine",
-              "Indian vineyards: Nashik and Karnataka, and harvesting in the dry season",
+             ["Ripeness: sugar in Brix, acidity and pH, plus why harvest timing decides the wine",
+              "Indian vineyards: Nashik and Karnataka, plus harvesting in the dry season",
               "Crushing, pressing and the difference between red, white and rose making",
               "Fermentation: whites cool, around 12 to 18 °C (54 to 64 °F); reds warmer on their skins, with punch-downs or pump-overs"],
              "Plan the harvest numbers and fermentation schedule for one red and one white."),
@@ -381,10 +381,10 @@ DETAIL = {
              ["Fortification: adding grape spirit to raise strength and stop or follow fermentation",
               "Port-style: fortifying mid-fermentation to keep natural grape sweetness",
               "Sherry-style: fortifying a dry wine, flor yeast and the solera system",
-              "Other styles: heated and oxidised wines, and vin doux naturel"],
+              "Other styles: heated and oxidised wines, plus vin doux naturel"],
              "Work out the spirit addition for a port-style wine at a target strength."),
             ("Ageing, blending and selling",
-             ["Ageing in barrel and tank, and what oxygen does over years",
+             ["Ageing in barrel and tank: what oxygen does over years",
               "Blending for a house style that stays the same every year",
               "Names such as Port and Sherry are protected place names; how to label your own style",
               "Excise, labels and pricing for fortified wine in India, which vary by state"],
@@ -402,7 +402,7 @@ DETAIL = {
         weeks=[
             ("Costs, licences and compliance",
              ["What a bottle costs: grapes, winemaking, glass, closures, labels and duty",
-              "Buying grapes or growing them, and contracts with growers",
+              "Buying grapes or growing them and contracts with growers",
               "Winery licences, excise and label registration, which differ by state and change",
               "Planning around one harvest a year: cash flow and stock"],
              "Build a cost sheet for one wine."),
@@ -426,14 +426,14 @@ DETAIL = {
             ("From idea to recipe",
              ["Finding the gap: drinkers, occasions and what competitors already sell",
               "Writing a product brief: style, strength, price and target drinker",
-              "Formulation for beer, whisky and wine, and what each one can and cannot change",
+              "Formulation for beer, whisky and wine: what each one can and cannot change",
               "Pilot batches and scaling them up"],
              "Write a product brief for a new beer, whisky or wine."),
             ("Testing, costing and launch",
              ["Sensory testing: triangle tests, consumer panels and reading the results",
               "Shelf life and stability checks before launch",
               "Costing the product and setting the price",
-              "Labels, FSSAI and state excise approvals, and a launch plan"],
+              "Labels, FSSAI and state excise approvals, plus a launch plan"],
              "Build a launch plan with costs, approvals and a first-year sales target."),
         ]),
     "Hop Water": dict(
@@ -471,9 +471,9 @@ DETAIL = {
         weeks=[
             ("Base and fermentation",
              ["Cane sugar or dextrose as the base",
-              "Why a sugar wash starves yeast, and how to add nutrient in stages",
+              "Why a sugar wash starves yeast and how to add nutrient in stages",
               "Yeast choice, temperature and pH for a clean ferment",
-              "Sulphur and other faults, and how to avoid them"],
+              "Sulphur and other faults and how to avoid them"],
              "Plan a fermentation schedule with your nutrient additions."),
             ("Finish and the rules",
              ["Clarity: settling, fining and filtration",
@@ -496,11 +496,11 @@ DETAIL = {
              ["Tea, sugar and the culture of yeast and bacteria",
               "Starter liquid and getting pH down fast for safety",
               "Temperature, time and tasting for sourness",
-              "Mould versus a healthy culture, and when to throw a batch away"],
+              "Mould versus a healthy culture and when to throw a batch away"],
              "Start a batch and log pH and taste every day."),
             ("Flavour, fizz and scaling up",
              ["Second ferment with fruit, spices and herbs",
-              "Carbonation in the bottle, and how to keep bottles from bursting",
+              "Carbonation in the bottle and how to keep bottles from bursting",
               "Alcohol can creep up in warm conditions, so measure it",
               "Scaling up, hygiene and FSSAI labelling. Rules change, so check the current ones"],
              "Plan a three-flavour range and a weekly brewing schedule."),
@@ -509,7 +509,7 @@ DETAIL = {
         reading=['mash-temperature-guide', 'dry-hopping-guide', 'pasteurisation-units'],
         who=["Craft breweries adding a zero or low alcohol beer",
              "Founders planning a non-alcoholic beer brand",
-             "Brewers who want to understand why most of them taste thin, and fix it"],
+             "Brewers who want to understand why most of them taste thin and fix it"],
         outcomes=["Choose the right route to a non-alcoholic beer for your kit and budget",
                   "Design a recipe with real body and aroma and no worty taste",
                   "Keep it safe on the shelf with pasteurisation, pH and hygiene",
@@ -518,8 +518,8 @@ DETAIL = {
             ("Making beer without the alcohol",
              ["Two routes: stop the alcohol forming, or remove it afterwards",
               "Limited fermentation, high mash temperatures and yeasts that cannot ferment maltose",
-              "Vacuum distillation and membranes, and why they suit larger breweries",
-              "Body and aroma: speciality malts, oats, late and dry hops, and carbonation",
+              "Vacuum distillation and membranes: why they suit larger breweries",
+              "Body and aroma: speciality malts, oats, late and dry hops, plus carbonation",
               "Fixing the worty, sweet taste most first attempts have"],
              "Design a non-alcoholic recipe for your kit, with a target ABV and a plan for body and aroma."),
             ("Stability, testing and selling it",
@@ -547,7 +547,7 @@ DETAIL = {
         outcomes=['Map your competition on a positioning matrix', 'Cut a long list of values to three to six you will use', 'Write up to three drinker personas', 'Agree a one-line brand essence with your team'],
         weeks=[
             ('Where you stand',
-             ['Brand and positioning, and why great beer alone does not stand out', 'Listing your real competitive set', 'Building a two-axis positioning matrix and spotting gaps', 'Writing a positioning statement'],
+             ['Brand and positioning and why great beer alone does not stand out', 'Listing your real competitive set', 'Building a two-axis positioning matrix and spotting gaps', 'Writing a positioning statement'],
              'Map six local competitors and write your positioning statement.'),
             ('Who you are and who you are for',
              ['Mission, vision and values a team will use', 'Drinker personas built from real conversations', 'Branded house or house of brands', 'Brand essence in one line'],
@@ -617,6 +617,12 @@ def _week(i, title, topics, task):
 def _ctas(enrol, tag):
     return (f'<a href="{enrol}" class="btn btn-amber" data-cta="course-{tag}-enroll">Enrol now</a>'
             f'<a href="__WA__" class="btn btn-wa" target="_blank" rel="noopener" data-cta="course-{tag}-whatsapp">[[whatsapp]] Ask on WhatsApp</a>')
+
+
+def _prospectus(c, tag):
+    """This course's PDF prospectus, built by make_course_prospectus.py."""
+    pdf = "assets/prospectus/" + slug_for(c["name"]).replace("-course.html", "") + ".pdf"
+    return f'<a href="{pdf}" class="btn btn-ghost" download data-cta="course-{tag}-prospectus">Download prospectus</a>'
 
 
 # Reference guides that belong on the brewing courses' reading lists.
@@ -699,7 +705,7 @@ def render(c):
     <div><span>Sessions</span><b>{c["weeks"] * 2} live, 2 hours each</b></div>
     <div><span>Batch</span><b>Max 20</b></div>
     <div><span>Fee</span><b>{c["price"]}</b></div>
-    <div class="cta-pair">{_ctas(enrol, "facts")}</div>
+    <div class="cta-pair">{_ctas(enrol, "facts")}{_prospectus(c, "facts")}</div>
   </div>
 </section>
 
@@ -718,7 +724,7 @@ def render(c):
     <div class="faq syllabus">{weeks}</div>
     <aside class="cta-inline" style="margin-top:2.4rem">
       <div><h3>Questions about the syllabus?</h3><p>Ask us on WhatsApp before you commit, or enrol now to hold your seat.</p></div>
-      <div class="cta-pair">{_ctas(enrol, "syllabus")}</div>
+      <div class="cta-pair">{_ctas(enrol, "syllabus")}{_prospectus(c, "syllabus")}</div>
     </aside>
   </div>
 </section>
@@ -727,7 +733,7 @@ def render(c):
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">How it runs</span><h2>Format and terms.</h2></div>
     <dl class="logistics">{logi}</dl>
-    <p style="margin-top:1.5rem;color:var(--ink-soft);font-size:.9rem">Want the full flight? All {N_COURSES} courses together run to {TOTAL_WEEKS} weeks, and you choose your package when you enrol. Compare <a href="courses.html" style="color:var(--blue);text-decoration:underline">all {N_COURSES} courses</a>, and read the <a href="refund.html" style="color:var(--blue);text-decoration:underline">refund policy</a> before you pay.</p>
+    <p style="margin-top:1.5rem;color:var(--ink-soft);font-size:.9rem">Want the full flight? All {N_COURSES} courses together run to {TOTAL_WEEKS} weeks. You choose your package when you enrol. Compare <a href="courses.html" style="color:var(--blue);text-decoration:underline">all {N_COURSES} courses</a> and read the <a href="refund.html" style="color:var(--blue);text-decoration:underline">refund policy</a> before you pay.</p>
   </div>
 </section>
 

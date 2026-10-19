@@ -1,0 +1,67 @@
+{
+ "slug": "building-a-cooler-box-mash-tun-for-all-grain-brewing",
+ "cat": "Brewing basics",
+ "h1": "Building a cooler box mash tun for all-grain brewing",
+ "title": "Build a Cooler Box Mash Tun at Home | Craft Beer School",
+ "desc": "How to turn an ice box cooler into an all-grain mash tun: the parts, the false bottom options, strike water maths and how to hold mash temperature.",
+ "teaser": "An ice box, a ball valve and a length of braided hose. That is most of an all-grain brewhouse.",
+ "standfirst": "A cooler mash tun is the cheapest way to hold a mash steady for an hour. Here is what to buy, how to put it together and how to hit your temperature on the first try.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a cooler works so well",
+   "<p>A mash needs one thing above all: a steady temperature for about an hour. Enzymes in the malt turn starch into sugar. The temperature you hold decides how fermentable that sugar is. A picnic or ice box cooler was designed to keep heat from crossing its walls. It does the same job in reverse, keeping heat in.</p><p>A decent cooler with the lid shut loses roughly 1 to 2 °C over a 60 minute mash. That is good enough for very good beer. A thin pot on a stove, by contrast, drifts or scorches unless you stand over it.</p><p>If you have only brewed from extract so far, read <a href=\"extract-vs-all-grain-brewing.html\">extract vs all-grain brewing</a> first. The cooler is the step that makes all-grain affordable.</p>"
+  ],
+  [
+   "Choosing the cooler",
+   "<p>Rectangular coolers are easy to find in Indian markets and cheap. Cylindrical drink coolers give a deeper grain bed and lose a little less heat at the surface. Either works.</p><ul><li><strong>Size.</strong> For a 20 litre batch, a 35 to 50 litre cooler holds 5 to 7 kg of grain with room for water. Too big and the grain bed is shallow and cools faster.</li><li><strong>Liner.</strong> It must take water at 75 to 80 °C without warping or smelling. Fill it with hot tap water plus a kettle or two before you drill anything. If it bows or smells of plastic, return it.</li><li><strong>Drain.</strong> Many coolers already have a drain spigot. That hole is where your valve will go.</li></ul>"
+  ],
+  [
+   "The parts list",
+   "<p>You need very little. Most of it comes from a hardware shop or an online plumbing seller:</p><ul><li>A stainless or brass ball valve, 1/2 inch is standard.</li><li>A bulkhead fitting or a threaded nipple with silicone or food-grade rubber washers on both sides of the cooler wall.</li><li>A filter inside: either a stainless braided hose (the sheath from a toilet or geyser connection, with the inner rubber tube pulled out) or a manifold of slotted CPVC or copper pipe across the floor.</li><li>Hose clamps and a short length of heat-safe silicone tubing for the outlet.</li></ul><p>The braid is the quickest build. Cap one end, clamp the other to the inside of the bulkhead and lay it along the floor. A manifold drains more evenly in a rectangular cooler, which helps if you fly sparge.</p>"
+  ],
+  [
+   "Putting it together",
+   "<p>Remove the original spigot. Fit the bulkhead with a washer on each side and tighten until it seals without crushing the washer flat. Attach the valve outside and the braid or manifold inside.</p><p>Then test it. Fill with hot water and leave it for 30 minutes. Look for drips at the bulkhead and check the valve opens and shuts cleanly. Fix leaks now, not with 6 kg of hot mash inside.</p>"
+  ],
+  [
+   "Hitting your strike temperature",
+   "<p>The grain and the cooler both pull heat out of the water, so your strike water has to start hotter than the mash target. The standard metric formula is:</p><p><strong>Strike temperature = (0.41 / R) x (target - grain temperature) + target</strong>, where R is litres of water per kg of grain.</p><p>Worked example: 5 kg of grain at 28 °C (a normal room temperature in much of India), 15 litres of water so R is 3, target 66 °C. That gives 0.41 / 3 x 38 + 66, which is about 71 °C. In winter in Delhi, with grain at 15 °C, the same mash needs roughly 73 °C.</p><p>The formula ignores the cooler itself. Preheat it with a few litres of hot water for 10 minutes, tip that out, then add your strike water. Stir the grain in thoroughly to break up dough balls, wait two minutes and check the temperature in several spots. Our one floor rule: keep a kettle of boiling water and a jug of cold water within reach, because you adjust in the first five minutes or not at all. Our guide to <a href=\"mash-temperature-guide.html\">mash temperature</a> explains what each degree does to the beer.</p>"
+  ],
+  [
+   "Draining and sparging",
+   "<p>When the hour is up, open the valve slowly and recirculate the first cloudy litre or two back over the top until the wort runs clear. Then run it to the kettle. Most homebrewers batch sparge in a cooler: add a second volume of hot water at about 76 to 78 °C, stir, rest ten minutes and drain again.</p><p>If the run-off slows to a trickle, the bed has compacted. Stir, recirculate and drain more gently next time. <a href=\"lautering-and-sparging.html\">Lautering and sparging</a> covers the full method.</p>"
+  ],
+  [
+   "Where this leaves you",
+   "<p>A cooler tun gets the hardware sorted in an afternoon. What it cannot teach you is why your efficiency swings between batches, why one mash gave a thin beer and another a sweet one, or how to read what the grain bed is telling you. That is brewing knowledge, not plumbing. It is also where most first all-grain brewers lose a few batches before it clicks.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Will hot water damage a plastic cooler?",
+   "A cooler with a food-safe liner usually handles mash temperatures without trouble. Test it with hot water before you modify it and return any cooler that warps or smells."
+  ],
+  [
+   "How much heat does a cooler mash tun lose?",
+   "A good cooler with the lid closed typically drops 1 to 2 °C over an hour. Preheating it and keeping it out of a cold draught both help."
+  ],
+  [
+   "Do I need a false bottom?",
+   "No. A stainless braid or a slotted pipe manifold filters the grain perfectly well at homebrew scale and costs far less."
+  ]
+ ],
+ "cta": {
+  "title": "Turn your new mash tun into consistent beer",
+  "body": "Brewing Fundamentals is a 4 week live course (₹5,999) that takes you through mashing, sparging, efficiency and fermentation with weekly assignments, so you understand what the hardware is doing.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "first-all-grain-brew-day",
+  "lautering-and-sparging",
+  "extract-vs-all-grain-brewing"
+ ]
+}

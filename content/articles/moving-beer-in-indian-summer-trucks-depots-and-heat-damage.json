@@ -1,0 +1,67 @@
+{
+ "slug": "moving-beer-in-indian-summer-trucks-depots-and-heat-damage",
+ "cat": "Beer for teams",
+ "h1": "Moving beer in Indian summer: trucks, depots and heat damage",
+ "title": "Moving Beer in Indian Summer Heat | Craft Beer School",
+ "desc": "Why heat in trucks and depots ages beer faster, what heat damage tastes like and what logistics and planning teams can do about it.",
+ "teaser": "A truck parked in the May sun is an oven on wheels. What that does to the beer inside. Why it shows up in complaints months later.",
+ "standfirst": "Beer leaves the brewery at its best and only gets older from there. In an Indian summer the trip through trucks, depots and shops can age it faster than any calendar. Here is what happens and where your team can step in.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Beer is a fresh food that happens to be in a sealed bottle",
+   "<p>Most people outside production assume beer in a crown-capped bottle is stable. It is safe, but it is not stable. From the moment it is packaged the flavour starts to drift. Hop aroma fades. Malt character turns papery or sherry-like. Bitterness softens and goes harsh at the edges.</p><p>Brewers call this staling. It is mostly chemistry: traces of oxygen in the pack slowly react with flavour compounds. Temperature sets the speed. A common rule of thumb in the industry is that the rate of staling roughly doubles for every 10 °C rise. That is approximate, but it is a useful way to think about a supply chain.</p><p>By that rule a week at 40 °C does about as much damage as several months in a cold store at 4 °C. The beer has not changed its best-before date. It has simply been aged faster than the date assumes.</p>"
+  ],
+  [
+   "Where the heat gets in",
+   "<p>The brewery cellar is usually the coolest place the beer will ever see. After that the exposures stack up:</p><ul><li><strong>Loading bays.</strong> Pallets waiting on an open dock in the afternoon sun.</li><li><strong>Trucks.</strong> A closed, uninsulated truck body in summer runs far hotter inside than the air outside. Long hauls with overnight halts add hours of that.</li><li><strong>Depots and warehouses.</strong> Tin roofs, poor ventilation and stacks against a sunlit wall. The top layer of a tall stack is often the hottest.</li><li><strong>The last mile.</strong> Shop storerooms, display stacks near the shutter and the period before beer goes into a chiller.</li></ul><p>None of these is dramatic on its own. The damage is the sum of all of them over the weeks the beer spends in the chain.</p>"
+  ],
+  [
+   "What heat damage looks and tastes like",
+   "<p>You do not need a lab to spot it once you know what to look for. Stale beer smells of wet cardboard or paper in a pale lager. Stronger and darker beers drift towards sherry or dried fruit. Hoppy beers lose their aroma first, which is why a craft IPA suffers more than a mainstream lager. The detail is in our guide to <a href=\"beer-stability-in-indian-heat.html\">beer stability in Indian heat</a>.</p><p>Heat also drives haze. Temperature swings between hot depots and cold chillers can bring proteins and polyphenols out of solution, so a bright beer turns cloudy. Unpasteurised craft beer carries a further risk: warm storage gives any surviving microbes the chance to grow.</p><p>Light is a separate problem that travels with heat. Beer in clear or green glass left in sunlight develops a skunky smell within minutes, because light breaks down hop compounds. Our guide to <a href=\"lightstruck-skunky-beer.html\">lightstruck beer</a> explains why brown glass and cans protect against it.</p>"
+  ],
+  [
+   "Why this matters on your desk",
+   "<p>Heat damage rarely shows up as a logistics problem. It shows up somewhere else, weeks later:</p><ul><li>Quality complaints that cluster in certain districts or months.</li><li>Rate of sale slowing on a brand in summer when demand should be at its peak.</li><li>Returns and write-offs at depots that nobody can explain from the dispatch data.</li><li>Trade partners asking for fresher stock and pushing back on older codes.</li></ul><p>If your dashboard shows complaints by region and dispatch by route, put them side by side with transit times and depot dwell time. Patterns often appear that no single team can see alone.</p>"
+  ],
+  [
+   "What logistics and planning teams can change",
+   "<p>Most of the fixes are process, not refrigeration.</p><ul><li><strong>First expiry, first out.</strong> Move stock by packaging date, not by whichever pallet is nearest the door.</li><li><strong>Shorter dwell.</strong> Plan smaller, more frequent dispatches before peak summer so beer spends less time in hot depots.</li><li><strong>Load timing.</strong> Load early in the morning or at night where routes allow. Avoid trucks parked loaded in the afternoon.</li><li><strong>Depot basics.</strong> Shade, ventilation, stacks away from sunlit walls and roof sheeting.</li><li><strong>Freshness targets.</strong> Agree a maximum age at the point of sale for each brand, with hoppy and unpasteurised beers on a much shorter leash.</li></ul><p>For a fuller picture of how stock flows from brewery to shop, see <a href=\"beer-supply-chain-explained.html\">the beer supply chain explained</a>.</p>"
+  ],
+  [
+   "A useful habit for any team",
+   "<p>The single most useful thing a non-technical team can do is taste. Pull a bottle from a depot after the summer, a fresh one from the brewery and compare them side by side with a brewer. Done within company policy, with spit cups and non-drinkers welcome to just smell, it teaches more about heat damage in ten minutes than any slide.</p><p>Once people have smelt cardboard in a glass, they stop treating dwell time as just a number in a report.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does heat make beer unsafe to drink?",
+   "Generally no. Heat-damaged packaged beer tastes stale or flat but is not normally a safety problem. The issue is quality and brand reputation."
+  ],
+  [
+   "Is pasteurised beer protected from heat?",
+   "Pasteurisation deals with microbes, not with staling. A pasteurised lager will still go papery if it sits hot for weeks."
+  ],
+  [
+   "Why do cans and brown bottles help?",
+   "They block light, so the beer cannot turn skunky. They do nothing to stop heat, so the cold chain still matters."
+  ],
+  [
+   "Which beers suffer most in transit?",
+   "Hop-forward and unpasteurised craft beers. Their aroma fades fastest and warm storage can let surviving microbes grow."
+  ]
+ ],
+ "cta": {
+  "title": "Help your team see the beer behind the logistics data",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions where people taste fresh and aged beer side by side.",
+  "label": "Ask about team training",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "beer-stability-in-indian-heat",
+  "lightstruck-skunky-beer",
+  "beer-supply-chain-explained"
+ ]
+}

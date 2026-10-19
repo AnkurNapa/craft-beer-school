@@ -1,0 +1,67 @@
+{
+ "slug": "carbonation-levels-for-seltzers-and-rtds",
+ "cat": "Drinks business",
+ "h1": "Hitting the right carbonation level in seltzers, RTDs and sodas",
+ "title": "Carbonation Levels for Seltzers and RTDs | Craft Beer School",
+ "desc": "Target CO2 volumes for hard seltzers, RTDs and sodas, how to carbonate accurately, measure it and keep it in the can.",
+ "teaser": "A seltzer at 2.2 volumes tastes flat. At 3.8 it gushes. How to hit the number and hold it to the shelf.",
+ "standfirst": "Carbonation is part of the recipe in a seltzer or RTD, not an afterthought. With no malt body to lean on, a few tenths of a volume change how sharp, sweet and fresh the drink tastes. This is how to set the target, hit it and keep it.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why carbonation matters more in clear drinks",
+   "<p>In beer, malt body and foam carry a lot of the mouthfeel. A hard seltzer or a clear RTD has almost none of that. The bite of CO2 is doing the work, along with acid and sweetness.</p>\n<p>Dissolved CO2 forms carbonic acid, which adds a little sourness and a prickle on the tongue. More CO2 makes a drink taste drier and fresher and lifts citrus aroma. Too little and a seltzer tastes like flavoured water with alcohol in it. Too much and it gushes on opening, foams in the glass and stings rather than refreshes.</p>"
+  ],
+  [
+   "Typical targets",
+   "<p>We measure carbonation in volumes of CO2: the volume of gas, at standard conditions, dissolved in each volume of liquid. One volume is roughly 2 g of CO2 per litre. Typical ranges:</p>\n<ul>\n<li><strong>Most beer:</strong> 2.2 to 2.8 volumes. Our guide to <a href=\"carbonation-levels-by-style.html\">carbonation levels by style</a> lists them.</li>\n<li><strong>Hard seltzer:</strong> commonly around 2.7 to 3.2 volumes.</li>\n<li><strong>Spirit based RTDs and highballs:</strong> often 2.5 to 3.5 volumes, depending on how soda-like the drink is meant to be.</li>\n<li><strong>Sodas and tonics:</strong> often 3 to 4 volumes, with colas at the high end.</li>\n</ul>\n<p>Pick a target during product development, taste at a few levels either side and write the chosen number and tolerance into the spec, for example 3.0 volumes, plus or minus 0.1.</p>"
+  ],
+  [
+   "How to carbonate accurately",
+   "<p>CO2 dissolves better in cold liquid. At the same head pressure, liquid at 0 °C holds far more gas than at 10 °C. That relationship, set out in standard carbonation charts, is the whole game. Carbonate cold, at a known temperature and pressure. Then give it time.</p>\n<p>The common options are:</p>\n<ul>\n<li><strong>Carbonation stone in a bright tank.</strong> Fine bubbles through a sintered stone, with the tank held near 0 to 2 °C. Slow but controllable.</li>\n<li><strong>Inline carbonation.</strong> CO2 dosed into the liquid on its way to the tank or filler. Fast and repeatable once tuned. Common for seltzer and soda lines.</li>\n<li><strong>Head pressure alone.</strong> Workable for small batches, but slow and uneven in a large tank.</li>\n</ul>\n<p>Use food grade CO2 with a supplier certificate. Poor quality gas can add off aromas that a clear drink cannot hide.</p>"
+  ],
+  [
+   "Measuring it properly",
+   "<p>Do not trust the pressure gauge on the tank. Measure the liquid. A shake-and-read tester, which reads pressure and temperature on a sealed sample, or an inline or benchtop CO2 meter will give you volumes. Our guide to <a href=\"measuring-carbonation.html\">measuring carbonation</a> explains the methods.</p>\n<p>Measure in the bright tank before filling, then measure filled cans or bottles taken from the start, middle and end of the run. Filling always loses some gas. If the tank reads 3.0 and cans read 2.75, either carbonate the tank slightly higher or fix the filler.</p>"
+  ],
+  [
+   "Losing CO2 between tank and can",
+   "<p>Most carbonation problems happen at the filler. Warm liquid, a filler running too fast, worn seals and turbulent filling all knock gas out of solution. The foam that results also lets air in. Oxygen pickup in a citrus seltzer quickly turns lemon into something stale. See our guide on <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup in packaging</a>.</p>\n<p>Keep the product cold right up to the filler. Check counter pressure settings, fill tube condition and seal wear on a schedule. A sudden drop in can carbonation from one shift to the next is usually mechanical, not a recipe problem.</p>"
+  ],
+  [
+   "Pressure, heat and the can",
+   "<p>Higher carbonation means higher pressure inside the package. Heat raises it further. A highly carbonated drink tunnel pasteurised at around 60 °C, or left in a hot truck in an Indian summer, builds a lot of internal pressure. Check that your cans, ends and bottles are rated for the carbonation level and any pasteurisation step. Talk to your can supplier with real numbers, not guesses.</p>\n<p>Record the carbonation reading, the liquid temperature and the time on every batch record. When a customer complains that a batch tasted flat, that record tells you whether the problem left the brewery or happened in the market.</p>\n<p>Warm storage also drives gushing on opening. A drink that pours perfectly cold may foam everywhere at 35 °C. Test opened cans at warm temperatures during development, because that is how many Indian customers will meet your drink.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many volumes of CO2 should a hard seltzer have?",
+   "Most sit around 2.7 to 3.2 volumes. Set your own target by tasting a few levels during development and write it into the spec with a tolerance."
+  ],
+  [
+   "Why do my cans read lower than the tank?",
+   "Filling knocks gas out of solution. Warm product, fast filling, worn seals or turbulence are the usual causes."
+  ],
+  [
+   "Why does my RTD gush when opened?",
+   "Usually carbonation too high for the package, warm storage or particles that seed bubbles. Check your volumes and test cans at warm temperatures."
+  ],
+  [
+   "Is one volume of CO2 the same as one bar of pressure?",
+   "No. Volumes describe the gas dissolved in the liquid. The pressure needed to hold it depends on temperature, which is why carbonation charts exist."
+  ]
+ ],
+ "cta": {
+  "title": "Get carbonation and stability right first time",
+  "body": "Our RTD Drinks course covers alcoholic and non-alcoholic RTDs over two weeks for ₹5,000. It goes through carbonation targets, acids, sweeteners, stability and packaging with worked examples this guide cannot fit.",
+  "label": "See the full syllabus",
+  "href": "rtd-drinks-alcoholic-and-non-alcoholic-course.html"
+ },
+ "related": [
+  "alcopops-and-hard-seltzer-production",
+  "low-alcohol-and-mixed-drinks-production",
+  "oxygen-pickup-in-packaging"
+ ]
+}

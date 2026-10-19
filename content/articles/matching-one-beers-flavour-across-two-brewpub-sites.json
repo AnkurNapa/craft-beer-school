@@ -1,0 +1,63 @@
+{
+ "slug": "matching-one-beers-flavour-across-two-brewpub-sites",
+ "cat": "Consultancy",
+ "h1": "Matching one beer's flavour across two brewpub sites",
+ "title": "Matching One Beer Across Two Sites | Craft Beer School",
+ "desc": "How to make one beer taste the same at two brewpub sites: specifications, water, malt and hop lots, yeast, process differences and triangle tests.",
+ "teaser": "Same recipe, same brewer, two sites, two different beers. It happens to almost everyone who opens a second brewpub.",
+ "standfirst": "A customer who loves your wheat beer at one site expects the same glass at the other. Getting there takes a written specification, honest measurement and a willingness to change the recipe at one site so the beer stays the same.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the same recipe gives two beers",
+   "<p>A recipe sheet describes ingredients and a process. It does not describe the kit, the water or the habits of the people using them. Two brewhouses of the same nominal size can differ in extraction efficiency, boil vigour, whirlpool time, wort cooling speed and fermenter shape. Each of those changes the beer a little. Together they change it a lot.</p><p>The goal is to match the beer, not the recipe. That means accepting that the grist, hop additions or schedule may need to differ between sites so that what reaches the glass is the same.</p>"
+  ],
+  [
+   "Write a specification for the beer",
+   "<p>Start with what the finished beer must be, in numbers and words. A useful specification includes:</p><ul><li>Original gravity and final gravity, with a tolerance.</li><li>Alcohol by volume.</li><li>Bitterness in IBU and colour in EBC.</li><li>pH of the finished beer.</li><li>Carbonation in volumes or grams per litre.</li><li>Clarity or haze expectation.</li><li>A short sensory description agreed by both teams: aroma, flavour, mouthfeel, finish.</li></ul><p>Both sites brew to the specification. When a batch falls outside it, that is a deviation to log, not a matter of opinion. This is the heart of a <a href=\"quality-system-for-a-small-brewery.html\">quality system for a small brewery</a>.</p><p>Kit differences are easy to underestimate. One site's mash tun may hold temperature better than the other's, so the same target produces a slightly different mash. One kettle may boil harder, driving off more DMS precursor and concentrating the wort more. One fermenter may be taller, which changes how yeast behaves and how much pressure it sits under. None of these differences show on the recipe sheet, but all of them show in the glass.</p>"
+  ],
+  [
+   "Water is usually the first difference",
+   "<p>Two sites in the same city may draw from different sources. One may be on municipal supply and the other on a borewell, with very different hardness and alkalinity. Test both waters for calcium, magnesium, sodium, sulphate, chloride and alkalinity. Then treat each to the same target profile, either by blending with RO water or adding brewing salts. A pale ale with a high sulphate to chloride ratio at one site and a low one at the other will taste like two different beers no matter what else you do.</p>"
+  ],
+  [
+   "Ingredients and yeast",
+   "<p>Buy malt for both sites from the same supplier and the same lot where you can. Read the certificate of analysis for extract and colour. Hop alpha acids vary from lot to lot and harvest to harvest, so adjust bittering additions by alpha acid rather than by weight. Keep hops cold at both sites.</p><p>Yeast needs particular care. Ideally both sites pitch from the same source, with similar generation counts and viability. A culture that has drifted over many generations at one site can change ester profile and attenuation. Agree how many generations each site may repitch before starting fresh.</p>"
+  ],
+  [
+   "Measure the process, then adjust",
+   "<p>Brew the beer at both sites and log the numbers that drive flavour: mash temperature and pH, pre-boil and post-boil gravity, boil-off rate, whirlpool time, pitching temperature, fermentation temperature profile and dissolved oxygen at packaging. Check that the fermenter probes at both sites are calibrated against the same reference thermometer. A two degree difference in fermentation temperature between sites is enough to change a wheat beer's banana and clove balance.</p><p>Then adjust where the numbers differ. A site with lower extraction needs more malt to hit the same gravity. A site with a gentler boil or shorter whirlpool may need different hop timings to reach the same bitterness and aroma.</p>"
+  ],
+  [
+   "Prove it with tasting",
+   "<p>Use a <a href=\"triangle-test.html\">triangle test</a> to check whether tasters can tell the two sites' beers apart. Serve three samples, two from one site and one from the other. Ask tasters to pick the odd one out. If the panel cannot reliably pick it out, the beers match closely enough. If they can, ask them to describe the difference, which tells you where to look next.</p><p>Repeat the test regularly, not only at launch. Drift creeps back in as staff change, malt lots change and equipment wears. In consulting work we often see two sites matched carefully at opening and quietly drifting apart within a year.</p><p>Fresh beer matters in the comparison. Compare samples of similar age, stored the same way, or you may be measuring storage differences instead of brewing differences.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Should both sites use exactly the same recipe?",
+   "Not necessarily. They should produce the same beer. Differences in equipment and water often mean the grist, hop timings or schedule need adjusting at one site."
+  ],
+  [
+   "How do we check whether the beers really match?",
+   "Run triangle tests with a small trained panel, comparing fresh samples from both sites served blind. Repeat them regularly as part of routine quality checks."
+  ],
+  [
+   "What usually causes the biggest difference between sites?",
+   "Water chemistry and fermentation temperature are the most common culprits, followed by differences in extraction efficiency and yeast health."
+  ]
+ ],
+ "cta": {
+  "title": "Your beer tastes different at each site?",
+  "body": "Our consultant brewers build a beer specification, compare both sites' water, ingredients and process and set up triangle testing. Ankur Napa leads on quality and data, Rahul Baliyan on brewing. Both teams leave able to keep the beers matched.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "beer-tastes-different-every-batch",
+  "quality-system-for-a-small-brewery",
+  "triangle-test"
+ ]
+}

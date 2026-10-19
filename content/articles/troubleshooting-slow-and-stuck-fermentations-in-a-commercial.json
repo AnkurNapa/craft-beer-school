@@ -1,0 +1,63 @@
+{
+ "slug": "troubleshooting-slow-and-stuck-fermentations-in-a-commercial",
+ "cat": "Consultancy",
+ "h1": "Troubleshooting slow and stuck fermentations in a commercial brewery",
+ "title": "Fixing Slow and Stuck Fermentations | Craft Beer School",
+ "desc": "Why commercial fermentations slow down or stick and what to check: pitch rate, viability, oxygen, FAN, zinc, temperature and wort fermentability.",
+ "teaser": "A tank sitting at 4 °P for three days is costing you a tank slot and maybe a batch. Here is where to look.",
+ "standfirst": "A stuck fermentation in a commercial brewery is a scheduling problem, a flavour problem and sometimes a contamination risk. The cause is almost always upstream of the day you noticed it. The fix starts with telling a genuinely stuck beer from one that was never going to go lower.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Slow, stuck or simply finished",
+   "<p>Before treating a fermentation as stuck, be sure it is. A beer that stops at a higher gravity than the recipe promised may simply have reached the limit of what its wort can ferment. Mash a few degrees too hot and the wort carries more unfermentable dextrins. No amount of rousing will take it lower.</p><p>The forced fermentation test settles this. Take a sample of wort at pitching, add a generous amount of yeast, hold it warm and agitate it. Within a day or two it reaches its limit of attenuation. If the tank is sitting near that figure, the beer is finished and the problem lies in the brewhouse. If the tank is well above it, the yeast stopped early and the problem lies in the cellar.</p><p>Plot gravity against time for every batch. A healthy curve has a short lag, a steep fall and a gentle finish. Our guide to <a href=\"reading-a-fermentation-curve.html\">reading a fermentation curve</a> shows what the common failure shapes look like.</p>"
+  ],
+  [
+   "Pitch rate and yeast health",
+   "<p>Underpitching is the most common cause of slow fermentations in small breweries. A widely used rule of thumb is around 0.75 million cells per millilitre per degree Plato for ales and roughly double that for lagers. Count cells with a haemocytometer rather than estimating by slurry volume, because slurry density varies enormously.</p><p>Count viability too. Methylene blue or a similar stain shows the share of dead cells. Many brewers want viability above about 90 percent before repitching. Yeast that has sat warm, been stored too long or been through many generations may be alive but sluggish. That is a vitality problem. It shows up as a long lag and a weak finish.</p>"
+  ],
+  [
+   "Oxygen and nutrients",
+   "<p>Yeast needs dissolved oxygen at pitching to build healthy cell membranes. Too little and the culture runs out of steam before the sugar runs out. Many breweries aim for roughly 8 to 10 mg/L at pitching for standard-gravity worts, with more for high-gravity beers. Check your aeration stone or inline oxygenation actually delivers that, with a meter if you can borrow one.</p><p>Free amino nitrogen is the yeast's nitrogen source. All-malt worts usually carry plenty. Worts with a large share of rice, maize or sugar, common in Indian lager recipes, carry less and can leave yeast short. Zinc is the other nutrient that matters, typically wanted at around 0.1 to 0.3 mg/L in wort. A measured yeast nutrient addition late in the boil is cheap insurance. Our guide to <a href=\"yeast-nutrition-zinc-and-fan.html\">yeast nutrition, zinc and FAN</a> goes deeper.</p>"
+  ],
+  [
+   "Temperature control",
+   "<p>A fermenter that cools too hard in the middle of fermentation can shock yeast into flocculating early. Check that the glycol valve is not sticking open, that the controller is not overshooting and that the probe reads correctly against a reference thermometer. A probe reading two degrees warm means a tank running two degrees cold.</p><p>The opposite happens too. In an Indian summer, a cellar that cannot hold temperature lets fermentation run hot and fast. The yeast finishes early with plenty of off-flavours and sometimes stalls once heat-stressed.</p>"
+  ],
+  [
+   "Rescuing a stuck tank",
+   "<ul><li>Raise the temperature a couple of degrees within the strain's range to wake the yeast.</li><li>Rouse the yeast by gently circulating with CO2 from the cone. Do not add air at this stage, as oxygen now only stales the beer.</li><li>If that fails, pitch actively fermenting yeast, ideally from a healthy tank at high kräusen, rather than tired slurry from storage.</li><li>Check for infection with a microscope or plating if the beer tastes sour or the gravity is falling very slowly with unusual haze.</li></ul><p>Once rescued, give the beer time to clean up diacetyl and acetaldehyde before crashing.</p>"
+  ],
+  [
+   "Preventing the next one",
+   "<p>Every stuck fermentation should leave a record: pitch rate, viability, oxygen, temperature log, wort gravity and the forced fermentation result. After three or four incidents the pattern usually shows. It might be one fermenter, one yeast generation or one recipe with too much adjunct and too little nutrient.</p><p>A yeast management routine with counts, viability checks, generation limits and clean storage prevents most of these problems before they start. Getting a small team to run it every brew day is harder than knowing what it should be, which is where outside support often helps.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between a stuck and a finished fermentation?",
+   "Compare the tank gravity with a forced fermentation test on the same wort. If the tank is close to the forced test result, it is finished. If it is well above, the yeast stopped early."
+  ],
+  [
+   "Should we add oxygen to restart a stuck fermentation?",
+   "No. Oxygen only helps at pitching. Adding it later stales the beer. Raise the temperature, rouse with CO2 or pitch actively fermenting yeast instead."
+  ],
+  [
+   "Why do adjunct-heavy beers stick more often?",
+   "Rice, maize and sugar add fermentable extract but little nitrogen, so the yeast can run short of free amino nitrogen. A measured nutrient addition helps."
+  ]
+ ],
+ "cta": {
+  "title": "Fermentations stalling and blocking your tanks?",
+  "body": "Our consultant brewers review your yeast handling, oxygen, nutrient and temperature control and set up a yeast management routine. Rahul Baliyan leads on brewing, Ankur Napa on quality and data. Your team runs it after we leave.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "reading-a-fermentation-curve",
+  "yeast-viability-and-vitality",
+  "yeast-nutrition-zinc-and-fan"
+ ]
+}

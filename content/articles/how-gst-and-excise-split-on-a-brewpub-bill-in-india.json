@@ -1,0 +1,71 @@
+{
+ "slug": "how-gst-and-excise-split-on-a-brewpub-bill-in-india",
+ "cat": "Business",
+ "h1": "How GST and excise split on a brewpub bill in India",
+ "title": "GST and excise on a brewpub bill | Craft Beer School",
+ "desc": "Why a brewpub bill in India shows GST on food but not on beer, where excise and state liquor taxes sit and what that means for pricing and margins.",
+ "teaser": "Your brewpub bill shows GST on the nachos and something else on the beer. There is a reason. It matters more to the owner than the guest.",
+ "standfirst": "Guests often wonder why the tax lines on a brewpub bill look odd. Owners need to understand it properly, because it decides how beer and food are priced, how margins are read and how the books are kept. Here is the plain explanation.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two tax systems on one bill",
+   "<p>When GST came in, alcoholic liquor for human consumption was kept outside it. States continue to tax liquor themselves, through excise duty and through VAT or sales tax on liquor sales, plus various fees. Food, soft drinks and non-alcoholic beverages sit under GST.</p><p>So a brewpub bill can carry two tax treatments at once. Food and soft drinks carry GST. Beer carries state liquor taxes. The exact lines and rates depend on your state. They change with state budgets and excise policy.</p>"
+  ],
+  [
+   "Where excise sits",
+   "<p>Excise is usually not a line on the guest's bill. It is a state levy on the production or removal of beer and on the licence to make and sell it, paid by the brewery or brewpub to the excise department. It is built into your cost and therefore into the menu price, rather than added at the till.</p><p>Different states calculate excise differently: on volume, on strength, through licence fees or a mix. Our guide to <a href=\"beer-excise-duty-india.html\">beer excise duty in India</a> explains the main approaches. For a brewpub owner, the practical point is that excise is part of what a litre of beer costs before anyone orders it.</p>"
+  ],
+  [
+   "Where VAT on liquor sits",
+   "<p>Many states charge VAT or a sales tax on the sale of liquor to the guest. Depending on the state and how prices are displayed, this may appear as a line on the bill or be included in the menu price. Some states also add other levies. Ask your CA and licensing adviser exactly how it should appear on your bills in your state, because getting the display wrong can draw attention from both tax and consumer authorities.</p>"
+  ],
+  [
+   "GST on the food side",
+   "<p>Restaurant service is taxed under GST. For standalone restaurants the rate has commonly been 5 percent without input tax credit, with different treatment in some hotel settings. Rates and conditions are set by the GST Council and can change, so confirm the current position for your venue type.</p><p>An important consequence: because the beer is outside GST and restaurant service often carries no input tax credit, much of the GST you pay on equipment, rent and supplies may not be recoverable. Budget equipment, rent and supplies at their full price including GST, because that is what they really cost you.</p>"
+  ],
+  [
+   "A worked way to read a bill",
+   "<p>Take a simple table order: two glasses of beer and one plate of food. In your POS, the beer line carries the beer price and the state liquor tax treatment. The food line carries its price and GST. Any service charge is a separate question. Current consumer guidance in India treats service charge as voluntary for the guest, so check the latest position before printing it on bills.</p><p>For the owner, the useful view is net revenue: what is left after taxes collected for the government on each line. That is the figure your margins should be calculated on. Mixing gross bill totals with net figures is one of the most common reasons owners misread their own performance.</p>"
+  ],
+  [
+   "Why it changes pricing",
+   "<p>Because beer and food carry different taxes and different costs, they need to be priced separately. A useful habit is to build each menu price backwards: the price on the menu, less taxes, less cost of goods (including excise built into the beer cost), gives the contribution per item. Our guide to <a href=\"brewpub-food-menu-and-margins.html\">brewpub food menus and margins</a> covers the food side in detail.</p><p>Many brewpubs find beer carries most of the margin and the kitchen struggles to break even once GST without input credit and food costs are counted. Knowing that changes how you design the menu and which dishes and beers staff are trained to recommend.</p>"
+  ],
+  [
+   "Setting up the POS and books",
+   "<p>Configure the POS so every item carries the right tax treatment. Reports should show beer, food and soft drinks separately with tax lines intact. Feed those reports to your accounts by category. At month end, your CA files GST returns for the food side and state returns for the liquor side. The numbers must reconcile with POS and excise registers. Our guide to <a href=\"taproom-economics.html\">taproom economics</a> shows how the margin picture comes together.</p><p>When state budgets change rates, update the POS tax settings on the day the change takes effect and keep a note of the date. Bills issued at the wrong rate are an avoidable headache.</p><p>This is the sort of detail that brewing courses skip and that decides whether a brewpub owner understands where the money goes.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is there no GST on beer in a brewpub?",
+   "Alcoholic liquor for human consumption was kept outside GST. States tax it through excise, VAT or sales tax on liquor and other levies, which vary by state."
+  ],
+  [
+   "Is excise shown on the bill?",
+   "Usually not. Excise is paid by the brewery or brewpub to the state and is built into the cost and menu price."
+  ],
+  [
+   "Can a brewpub claim input tax credit?",
+   "Often very little, because beer is outside GST and restaurant service commonly carries no input credit. Check your position with a CA."
+  ],
+  [
+   "Is service charge compulsory?",
+   "Current consumer guidance in India treats service charge as voluntary for guests. Check the latest position before adding it to bills."
+  ]
+ ],
+ "cta": {
+  "title": "Know where every rupee on the bill goes",
+  "body": "Brewery Business Management is a 3 week live online course (₹8,999). It covers pricing, taxes, margins, POS reporting and reading the numbers behind a brewpub bill.",
+  "href": "brewery-business-management-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "beer-excise-duty-india",
+  "brewpub-food-menu-and-margins",
+  "taproom-economics"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "gross-and-net-sales-in-beer-and-how-excise-distorts-the-p-l",
+ "cat": "Beer for teams",
+ "h1": "Gross and net sales in beer and how excise distorts the P&L",
+ "title": "Gross vs Net Sales in Beer and Excise | Craft Beer School",
+ "desc": "Why beer companies report gross and net sales, how excise and state duties inflate revenue and what finance teams should watch in the P&L.",
+ "teaser": "Revenue up twenty percent, profit flat. In beer, the first suspect is excise.",
+ "standfirst": "In most industries, revenue is a fair measure of size. In beer, a large part of what the customer pays goes to the state as excise duty. Finance teams who understand the difference between gross and net sales read the P&L correctly.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why beer has two revenue lines",
+   "<p>Alcohol in India is taxed mainly by state governments, through excise duty and related levies. In many states the brewer pays excise when beer leaves the brewery or bonded warehouse, then recovers it in the price charged to the next party. That duty passes through the company's books.</p><p>As a result, beer companies typically show <strong>gross sales</strong>, which include excise and similar duties, plus <strong>net sales</strong>, which remove them. Net sales is the money the company actually keeps to cover its costs and profit. Our guide to <a href=\"excise-for-finance-teams-beer-wine-spirits.html\">excise for finance teams</a> explains the mechanics across beer, wine and spirits.</p>"
+  ],
+  [
+   "A simple illustration",
+   "<p>Imagine a case of beer sold to a distributor for 1,000 rupees, of which 600 rupees is excise collected for the state. Gross sales record 1,000. Net sales record 400. The cost of making the beer, packaging and freight has to come out of the 400.</p><p>The numbers here are invented to show the structure, not real rates. Actual duty depends on the state, the strength of the beer, the pack and the current notification. The point is that excise can be a large share of gross revenue, so margins measured on gross sales look much thinner than they really are.</p>"
+  ],
+  [
+   "How excise distorts comparisons",
+   "<p>Because duty rates differ by state, the same volume of the same beer produces very different gross sales depending on where it is sold. A shift in sales from a lower duty state to a higher duty state raises gross revenue without any change in what the company earns.</p><p>The same distortion appears over time. When a state raises excise, gross sales rise even if volumes fall. Analysts who compare gross revenue growth across years or regions can easily read a tax change as business growth. Use net sales, net sales per hectolitre and volume together.</p>"
+  ],
+  [
+   "Other items between gross and net",
+   "<p>Excise is the biggest deduction, but not the only one. Depending on the state and the company's accounting policy, other items can sit between gross and net sales: state levies and fees tied to volume, trade discounts, promotional support and distributor incentives. Value added tax applies to alcohol in many states because alcohol for human consumption is outside GST. VAT is usually not counted in revenue at all.</p><p>Accounting treatment follows applicable standards and company policy. It can change. Check with your controller how each item is treated before building a model.</p>"
+  ],
+  [
+   "Metrics that work better",
+   "<ul><li><strong>Net sales per hectolitre</strong> shows real price and mix effects.</li><li><strong>Gross margin on net sales</strong> gives a true view of profitability.</li><li><strong>Excise as a share of gross sales</strong> by state shows how much of the price the company does not control.</li><li><strong>Volume in hectolitres</strong> separates real demand from price and tax effects.</li></ul><p>Cost of goods, the other half of the margin, is explained in <a href=\"beer-cost-of-goods-explained.html\">beer cost of goods explained</a>.</p>"
+  ],
+  [
+   "Pricing and working capital effects",
+   "<p>Excise also affects pricing decisions. Because maximum retail price is built up from the ex-brewery price, duties and trade margins, a small change in the company's own price can be a small part of the shelf price. Our guide to <a href=\"beer-excise-duty-india.html\">beer excise duty in India</a> shows how duty is structured.</p><p>Working capital is hit too. When excise is paid on dispatch and recovered only when the customer pays, the company finances the duty in between. In states where a government corporation buys the beer, payment terms matter a great deal. Finance teams should track duty paid but not yet recovered as its own line.</p>"
+  ],
+  [
+   "Reading a beer P&L with fresh eyes",
+   "<p>When you open a beer company's results, start with volume, then net sales, then net sales per hectolitre. Only then look at gross sales and ask how much of the movement came from excise. It is a simple habit that stops a lot of wrong conclusions.</p><p>The same habit helps when you compare beer with wine or spirits inside a multi-category company. Duty structures differ by category and by state, so headline revenue shares can mislead. Comparing net sales and contribution per case or per litre of alcohol gives a fairer picture of which part of the portfolio really earns its keep.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between gross and net sales in beer?",
+   "Gross sales include excise and similar duties collected for the state. Net sales remove them and show the revenue the company keeps to cover costs and profit."
+  ],
+  [
+   "Why can beer revenue rise while profit stays flat?",
+   "A rise in excise rates or a shift of sales to higher duty states lifts gross revenue without increasing what the company earns per hectolitre."
+  ],
+  [
+   "Is GST charged on beer in India?",
+   "Alcohol for human consumption is outside GST. States levy excise and usually VAT instead. Rules vary by state."
+  ]
+ ],
+ "cta": {
+  "title": "Help finance read a beer P&L properly",
+  "body": "Our Route to market and regulation in India module explains how excise, pricing and state rules shape revenue and margin. It is built around your team's own markets and reporting.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "excise-for-finance-teams-beer-wine-spirits",
+  "beer-cost-of-goods-explained",
+  "beer-excise-duty-india"
+ ]
+}

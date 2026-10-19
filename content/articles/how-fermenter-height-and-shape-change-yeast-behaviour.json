@@ -1,0 +1,67 @@
+{
+ "slug": "how-fermenter-height-and-shape-change-yeast-behaviour",
+ "cat": "Brewing science",
+ "h1": "How fermenter height and shape change yeast behaviour",
+ "title": "Fermenter height and yeast behaviour | Craft Beer School",
+ "desc": "How tank height, aspect ratio and cone angle change pressure, CO2, mixing and esters when you scale a recipe.",
+ "teaser": "The same wort and yeast taste different in a bucket and a tall tank. Geometry is the reason.",
+ "standfirst": "A recipe that works in a 50 litre pilot can come out cleaner, slower or stuck in a tall cylindroconical. We explain how hydrostatic pressure, CO2 and convection change with tank shape and what to adjust when you scale up.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the tank is part of the recipe",
+   "<p>Brewers write recipes in grams and degrees. Yeast also responds to the vessel. A short wide tank and a tall narrow one filled with the same wort give the cells different pressure, different CO2 levels and different mixing. Those differences show up in attenuation speed, ester levels and how well the yeast drops out.</p><p>This matters most when a brewery scales a recipe from a pilot kit to production, or buys taller tanks to save floor space.</p>"
+  ],
+  [
+   "Hydrostatic pressure and dissolved CO2",
+   "<p>Every 10 metres of liquid adds roughly 1 bar of pressure at the bottom. A brewpub fermenter with 3 metres of beer has about 0.3 bar of extra pressure at the cone. A large industrial tank with 15 metres of beer has about 1.5 bar.</p><p>Higher pressure holds more CO2 in solution. Dissolved CO2 slows yeast growth and reduces the formation of esters and higher alcohols. So, all else equal, a taller tank tends to give a cleaner, slightly less fruity beer and a slower start. This is the same effect brewers use on purpose when they ferment under top pressure. Our guide to <a href=\"reading-a-fermentation-curve.html\">reading a fermentation curve</a> shows how to spot that slower start in your gravity log.</p>"
+  ],
+  [
+   "Convection and mixing",
+   "<p>A cylindroconical tank mixes itself. CO2 bubbles rise through the centre and drag beer upwards. Cooled beer near the jackets sinks along the walls. In a tall tank this circulation is strong and keeps yeast in suspension, which helps a fast, even fermentation.</p><p>The catch is temperature layering. If the jacket is in the wrong place or the glycol is too cold, you can get a few degrees between top and bottom. Yeast in the cone may be working at a different temperature from the probe reading. Fit the probe where it reads the bulk of the beer, partway up the cylinder, not in the cone.</p><p>One brewhouse-floor detail: on a tank with separate cone and cylinder jackets, running only the cone jacket during active fermentation can chill the yeast bed while the top stays warm. Use the cylinder jackets for fermentation control and the cone jacket mainly for crash cooling and yeast storage.</p>"
+  ],
+  [
+   "Aspect ratio and cone angle",
+   "<p>Brewpub tanks commonly have a height to diameter ratio around 2:1 to 3:1. Large breweries go much taller. Higher ratios increase pressure effects and circulation. Lower ratios behave more like an open fermenter, with less pressure and gentler mixing.</p><p>The cone angle matters for yeast collection. Most fermenters use an included angle of about 60 to 70 degrees so yeast slides down to the outlet. Shallow cones leave yeast on the slope, where it warms, autolyses and gives meaty or sulphury notes. Check the glycol cooling capacity on that section too. Our guide to <a href=\"glycol-cooling-systems.html\">glycol cooling systems</a> covers jacket sizing.</p>"
+  ],
+  [
+   "Open, square and horizontal tanks",
+   "<p>Older breweries used shallow open squares. Some ale breweries still do. With little liquid depth, there is almost no hydrostatic pressure. CO2 escapes freely, esters come through strongly and top-cropping yeast can be skimmed from the surface. Much of the character of traditional English ale owes something to that shape.</p><p>Horizontal lager tanks are also shallow. They were designed for long cold conditioning, where a short liquid column lets yeast and haze settle a shorter distance.</p><p>Modern cylindroconicals won because they are easy to clean in place, collect yeast neatly and fit more beer per square metre of floor. That trade-off is fine as long as the brewer knows the tank is no longer neutral.</p>"
+  ],
+  [
+   "Scaling a recipe without surprises",
+   "<p>When you move a recipe to a taller tank, expect a cleaner ester profile and plan around it:</p><ul><li>For ester-led styles such as English ales or hefeweizen, raise fermentation temperature by a degree or two, or lower the fill height.</li><li>Check pitch rate. Slower growth under pressure can stretch lag time if the pitch was marginal.</li><li>Watch the diacetyl rest. Strong circulation helps, but a cold cone can leave yeast inactive.</li><li>Taste side by side with the pilot batch before you adjust anything else.</li></ul>"
+  ],
+  [
+   "A note for Indian brewpubs",
+   "<p>Many Indian brewpubs buy fermenters that are taller than usual to fit tight floor plans in leased malls. That is fine, but it means the brewer should expect the house wheat beer to lose some banana and clove compared with the pilot kit. In hot ambient rooms, check that the upper jacket can hold temperature through a vigorous fermentation.</p><p>Most of this is basic physics. The skill is in predicting it before the first batch rather than discovering it after. That is the kind of process thinking that separates a brewer who follows recipes from one who designs them.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do taller fermenters make cleaner beer?",
+   "Often, yes. Higher hydrostatic pressure holds more dissolved CO2, which tends to suppress ester and higher alcohol formation. Temperature and pitch rate still matter more."
+  ],
+  [
+   "Where should the temperature probe sit?",
+   "Partway up the cylinder, so it reads the beer that most of the yeast is working in, not the cone."
+  ],
+  [
+   "What cone angle is best?",
+   "Most fermenters use an included angle of about 60 to 70 degrees so yeast slides cleanly to the outlet."
+  ]
+ ],
+ "cta": {
+  "title": "Ferment the same beer in any tank",
+  "body": "Advanced Brewing Science is a 6 week live course on yeast physiology, fermentation control and scale-up, so you can predict how a new vessel will change a recipe. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "reading-a-fermentation-curve",
+  "yeast-growth-phases",
+  "glycol-cooling-systems"
+ ]
+}

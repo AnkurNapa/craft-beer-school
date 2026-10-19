@@ -157,7 +157,7 @@ def _faqs(rows, cities, states, top):
          "A brewpub brews beer on site and serves it there, usually with food. A microbrewery is a small brewery that may "
          "package or supply beer beyond its own premises. Licence categories and names differ by state."),
         ("How do I get a brewery added or corrected?",
-         "Send us the brewery name, city and a public source such as its website or menu through the contact form, and we "
+         "Send us the brewery name, city and a public source such as its website or menu through the contact form. We "
          "will check it and update the listing."),
     ]
 

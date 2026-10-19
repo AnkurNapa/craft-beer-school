@@ -99,7 +99,7 @@ COURSE_DATA = [
          items=["Flavour chemistry","Tasting techniques","Off-flavour identification","Quality scoring systems"],
          price="₹5,999", amount="5999"),
     dict(no="07", tag="New · AI", dur="2 Weeks", weeks=2, name="AI for Craft Breweries",
-         blurb="Put GenAI to work on your brewery's copy, social posts and weekly admin, and use it responsibly. No coding needed.",
+         blurb="Put GenAI to work on your brewery's copy, social posts and weekly admin and use it responsibly. No coding needed.",
          items=["GenAI for beer copy &amp; social","Prompting with your brewery's facts","Automating repetitive tasks","Responsible AI &amp; alcohol ad rules"],
          price="₹5,000", amount="5000"),
     dict(no="08", tag="New · Digital", dur="2 Weeks", weeks=2, name="Digital Transformation Basics for Brewing",
@@ -116,11 +116,11 @@ COURSE_DATA = [
          items=["CO2 and confined spaces","Caustic, acid and hot liquids","Pressure, kegs and lifting","Your brewery safety checklist"],
          price="Free", amount="0"),
     dict(no="11", tag="New · Spirits", dur="4 Weeks", weeks=4, name="Craft Distilling",
-         blurb="From wash to bottle: stills, cuts, gin botanicals, ageing in Indian heat, and the licences a craft distillery needs.",
+         blurb="From wash to bottle: stills, cuts, gin botanicals, ageing in Indian heat and the licences a craft distillery needs.",
          items=["Wash, stills and the run","Heads, hearts and tails","Gin and botanicals","Ageing, costs and licensing"],
          price="₹9,999", amount="9999"),
     dict(no="12", tag="New · Spirits", dur="4 Weeks", weeks=4, name="Craft Gin Making",
-         blurb="Design and make a gin of your own: juniper and botanicals, the still run, proofing, and getting a bottle to market in India.",
+         blurb="Design and make a gin of your own: juniper and botanicals, the still run, proofing and getting a bottle to market in India.",
          items=["What makes a gin a gin","Botanicals, including Indian ones","Distilling, cuts and proofing","Brand, costing and licences"],
          price="₹9,999", amount="9999"),
     dict(no="13", tag="New · RTD", dur="2 Weeks", weeks=2, name="RTD Drinks: Alcoholic and Non-Alcoholic",
@@ -141,8 +141,8 @@ COURSE_DATA = [
          items=["Tea, sugar and the culture","Safe pH and clean brewing","Second ferment and flavour","Scaling up and labelling"],
          price="₹5,000", amount="5000"),
     dict(no="17", tag="New · Non-alcoholic", dur="2 Weeks", weeks=2, name="Non-Alcoholic Beer",
-         blurb="Beer that still tastes like beer, without the alcohol: limited fermentation, special yeasts, body and aroma, and keeping it safe on the shelf.",
-         items=["Limited fermentation and special yeasts","Dealcoholisation, and when it makes sense","Body, aroma and avoiding a worty taste","Pasteurisation, testing and labelling"],
+         blurb="Beer that still tastes like beer, without the alcohol: limited fermentation, special yeasts, body and aroma, plus keeping it safe on the shelf.",
+         items=["Limited fermentation and special yeasts","Dealcoholisation and when it makes sense","Body, aroma and avoiding a worty taste","Pasteurisation, testing and labelling"],
          price="₹5,000", amount="5000"),
     dict(no="18", tag="New · Data", dur="2 Weeks", weeks=2, name="Power BI and Tableau for Breweries",
          short="Power BI and Tableau for Breweries",
@@ -525,7 +525,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
 </section>
 
 <section id="wset" class="cf-group" style="padding-block:2rem 0">
-  <div class="wrap"><aside class="cta-inline" data-type="exam online in-person" data-subject="tasting"><div><span class="mode mode-both">Online + in person</span><h3>Preparing for a WSET Beer exam?</h3><p>We prepare candidates for every WSET Beer level, in group cohorts or one-to-one, including last-minute in-person prep for Level 1 in Pune, Delhi, Gurugram and Bengaluru: the syllabus, guided tastings with the systematic approach, and mock papers. You sit the exam itself through a WSET Approved Programme Provider. <a href="wset-level-1-beer-last-minute-training.html" style="color:var(--blue);text-decoration:underline">Exam soon? Read about last-minute prep</a>.</p></div><a class="btn btn-amber" href="contact.html?course=WSET%20Beer%20exam%20prep#enroll" data-cta="courses-wset">Ask about exam prep</a></aside></div>
+  <div class="wrap"><aside class="cta-inline" data-type="exam online in-person" data-subject="tasting"><div><span class="mode mode-both">Online + in person</span><h3>Preparing for a WSET Beer exam?</h3><p>We prepare candidates for every WSET Beer level, in group cohorts or one-to-one, including last-minute in-person prep for Level 1 in Pune, Delhi, Gurugram and Bengaluru: the syllabus, guided tastings with the systematic approach and mock papers. You sit the exam itself through a WSET Approved Programme Provider. <a href="wset-level-1-beer-last-minute-training.html" style="color:var(--blue);text-decoration:underline">Exam soon? Read about last-minute prep</a>.</p></div><a class="btn btn-amber" href="contact.html?course=WSET%20Beer%20exam%20prep#enroll" data-cta="courses-wset">Ask about exam prep</a></aside></div>
 </section>
 <section style="padding-block:2rem 0">
   <div class="wrap"><aside class="cta-inline"><div><h3>Training a whole team, or need more than a course?</h3><p>Brewery consultancy, corporate training for beverage GCCs, hiring support, brand and digital marketing, market entry into India and digital transformation.</p></div><a class="btn btn-amber" href="for-companies.html" data-cta="courses-companies">Corporate services</a></aside></div>
@@ -554,8 +554,8 @@ RESOURCES = banner("Resources","Free beer education","Start learning today, on t
 <section>
   <div class="wrap">
     <div class="grid-3">
-      <article class="card reveal"><div class="card-body"><span class="ic">[[book-open]]</span><span class="cat">Start here</span><h3>Beer 101</h3><p>What is craft beer? Ingredients, the four pillars, and how a beer is actually made, grain to glass in plain English.</p><div class="foot"><a href="contact.html#enroll" class="link-arrow" data-cta="get-the-crash-course">Get the crash course</a></div></div></article>
-      <article class="card reveal"><div class="card-body"><span class="ic">[[beer]]</span><span class="cat">Reference</span><h3>Beer Style Library</h3><p>80 styles from pilsner to barley wine: colour, bitterness, strength, the right glass, and Indian food pairings for each.</p><div class="foot"><a href="style-library.html" class="link-arrow" data-cta="resources-style-library">Open the Style Library</a></div></div></article>
+      <article class="card reveal"><div class="card-body"><span class="ic">[[book-open]]</span><span class="cat">Start here</span><h3>Beer 101</h3><p>What is craft beer? Ingredients, the four pillars and how a beer is actually made, grain to glass in plain English.</p><div class="foot"><a href="contact.html#enroll" class="link-arrow" data-cta="get-the-crash-course">Get the crash course</a></div></div></article>
+      <article class="card reveal"><div class="card-body"><span class="ic">[[beer]]</span><span class="cat">Reference</span><h3>Beer Style Library</h3><p>80 styles from pilsner to barley wine: colour, bitterness, strength, the right glass and Indian food pairings for each.</p><div class="foot"><a href="style-library.html" class="link-arrow" data-cta="resources-style-library">Open the Style Library</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="ic">[[book]]</span><span class="cat">Reference</span><h3>Brewing Glossary</h3><p>ABV, IBU, OG/FG, attenuation, lauter, dry hop, the words brewers use, defined clearly.</p><div class="foot"><a href="brewing-glossary.html" class="link-arrow">Open the full glossary</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="ic">[[calculator]]</span><span class="cat">Tool · App</span><h3>Indian Brewing Calculator</h3><p>ABV, attenuation and recipe math built for Indian brewing, check your numbers before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/indian-brewing-calculator/" class="link-arrow" target="_blank" rel="noopener">Open the calculator</a></div></div></article>
       <article class="card reveal"><div class="card-body"><span class="ic">[[wind]]</span><span class="cat">Tool · App</span><h3>Aroma Forge</h3><p>Predict a beer's aroma by superimposing digitised Weyermann malt aroma wheels, see how your grain bill smells before you brew.</p><div class="foot"><a href="https://ankurnapa.github.io/aroma-forge/" class="link-arrow" target="_blank" rel="noopener">Open Aroma Forge</a></div></div></article>

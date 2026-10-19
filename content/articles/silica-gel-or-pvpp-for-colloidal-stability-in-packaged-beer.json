@@ -1,0 +1,63 @@
+{
+ "slug": "silica-gel-or-pvpp-for-colloidal-stability-in-packaged-beer",
+ "cat": "Brewing science",
+ "h1": "Silica gel or PVPP for colloidal stability in packaged beer",
+ "title": "Silica gel or PVPP for beer stability | Craft Beer School",
+ "desc": "Silica gel removes haze proteins and PVPP removes haze polyphenols. How each works, typical doses and when a packaged beer needs one, the other or both.",
+ "teaser": "Your beer leaves the brewery bright and turns hazy on a shop shelf. That is colloidal haze. You get to choose which half of it to remove.",
+ "standfirst": "Chill haze and permanent haze come from proteins and polyphenols binding together. Silica gel takes out one partner and PVPP takes out the other. Choosing between them depends on your beer, your filter and how long it must last.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Where colloidal haze comes from",
+   "<p>Bright beer contains haze-active proteins, rich in the amino acid proline. It also contains polyphenols from malt and hops. Over time the polyphenols polymerise and link up with the proteins. At first the complexes dissolve again when the beer warms: that is chill haze. Later they grow large enough to stay: that is permanent haze.</p><p>You cannot remove all protein or all polyphenol without damaging foam, body and flavour. But removing enough of one partner slows haze formation a great deal. Our guide to <a href=\"beer-haze-causes.html\">beer haze causes</a> covers the other haze types, such as starch and yeast. This one is about colloidal stabilisation.</p>"
+  ],
+  [
+   "Silica gel: taking out haze proteins",
+   "<p>Silica gel is a porous form of silicon dioxide. Its pores and surface chemistry adsorb the proline-rich haze proteins while largely leaving foam proteins alone. It comes as xerogels (dry) and hydrogels (with water in the pores). Hydrogels are gentler on foam. Xerogels are often more efficient per kg.</p><p>Typical doses sit somewhere from 20 to 100 g/hl, depending on the beer and the shelf life target. Silica is usually dosed into the beer on its way to the filter and needs a few minutes of contact. It is removed with the filter aid, so it suits breweries running kieselguhr or sheet filtration. Wear a dust mask when handling the dry powder, as with any fine mineral.</p><p>Because silica removes protein, overdosing shows up first in foam. If head retention falls after you start dosing, cut the dose or move to a hydrogel before you blame the malt.</p>"
+  ],
+  [
+   "PVPP: taking out haze polyphenols",
+   "<p>Polyvinylpolypyrrolidone (PVPP) is an insoluble polymer that binds polyphenols, in particular the tannoids that drive haze. It works quickly, with contact times of a few minutes.</p><p>Single-use PVPP is dosed at around 10 to 30 g/hl and leaves with the filter aid. Regenerable PVPP is a coarser grade held in a dedicated filter and cleaned with hot caustic, which makes sense for larger volumes. Because it removes polyphenols, PVPP also reduces some flavour stability compounds and astringency. Most brewers find this neutral to positive in pale lagers.</p><p>PVPP also needs good mixing. It is denser than beer and settles, so a slurry tank with an agitator and a steady dosing pump matter more than the exact gram figure. A dose that sits in the bottom of a tank does nothing.</p>"
+  ],
+  [
+   "Choosing one, the other or both",
+   "<ul><li><strong>Silica alone</strong> suits all-malt beers with moderate shelf life and a brewery that already filters with kieselguhr.</li><li><strong>PVPP alone</strong> suits beers where polyphenols are the limiting partner, such as heavily hopped beers or adjunct lagers with low protein.</li><li><strong>Both together</strong> is the usual answer for long shelf life packaged lager, because removing a share of each partner gives more stability than doubling one.</li></ul><p>Run a forcing test to decide. Store samples warm, chill them on a schedule and measure haze with a turbidity meter. Compare untreated, silica, PVPP and combined beer. Haze in EBC units after a set number of warm days gives you a real comparison, not a guess. Also check the treated beer for foam and flavour against the control. Stability bought with flat foam is a poor trade.</p>"
+  ],
+  [
+   "Breweries without a filter",
+   "<p>Many brewpubs and small packaging breweries do not filter. Loose silica and single-use PVPP both need a filter to leave the beer, so they do not fit. Options are long cold maturation, good protein precipitation at the boil and in cold storage, finings and a proline-specific enzyme added in fermentation that breaks down haze proteins. See our guide to <a href=\"beer-filtration-basics.html\">filtration basics</a> before buying a filter just for stability.</p>"
+  ],
+  [
+   "Why it matters more in India",
+   "<p>Haze forms faster as storage temperature rises. A lager that holds bright for months in a cool market can haze far sooner on a warm Indian shop shelf or in a non-refrigerated warehouse. Planning shelf life means deciding on stabilisation, filtration and storage together, then proving it with forced tests that reflect your real supply chain.</p><p>That kind of planning is what we teach in depth. Stability, filtration and shelf life testing need more than a dose chart.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does PVPP affect foam?",
+   "Not directly, because it removes polyphenols, not foam proteins. Silica gel, especially xerogel at high doses, has a greater chance of affecting foam."
+  ],
+  [
+   "How long can stabilised beer stay bright?",
+   "It depends on the beer, the treatment and storage temperature. Forcing tests on your own beer are the only reliable way to set a shelf life."
+  ],
+  [
+   "Can I stabilise a hazy IPA?",
+   "Hazy IPAs are meant to be cloudy, so colloidal stabilisers defeat the purpose. The aim there is a stable haze, which is a different problem."
+  ]
+ ],
+ "cta": {
+  "title": "Join the next Advanced Brewing Science batch",
+  "body": "Six weeks of live weekend classes, Saturdays and Sundays 12:00 PM to 2:00 PM IST, covering stability, filtration and shelf life. Max 20 per batch, with recordings, assignments and a certificate. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "beer-haze-causes",
+  "beer-shelf-life",
+  "beer-filtration-basics"
+ ]
+}

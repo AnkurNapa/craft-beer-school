@@ -1,0 +1,63 @@
+{
+ "slug": "biofilms-in-brewery-pipework-and-how-to-break-them-down",
+ "cat": "Brewing science",
+ "h1": "Biofilms in brewery pipework and how to break them down",
+ "title": "Biofilms in Brewery Pipework | Craft Beer School",
+ "desc": "What biofilms are, where they hide in brewery pipes, hoses and draught lines. How heat, chemistry and flow break them down.",
+ "teaser": "The infection that keeps coming back after every clean is often living in a biofilm. Here is how they work.",
+ "standfirst": "A biofilm is a colony of microbes glued to a surface inside a slime of its own making. Once one forms in a pipe, hose or draught line, ordinary sanitising barely touches it. Understanding how biofilms grow explains why cleaning has to come before sanitising.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a biofilm is",
+   "<p>Bacteria and yeast floating in liquid are fairly easy to kill. The same organisms stuck to a surface behave differently. They attach, multiply and wrap themselves in a sticky matrix of sugars and proteins called extracellular polymeric substance. That slime protects the cells inside from heat, chemicals and drying out.</p><p>Biofilms often hold a mix of species. Wild yeast, lactic acid bacteria and acetic acid bacteria can share the same film. Cells near the surface of the film shed off into passing beer, which is how a biofilm in one fitting can seed infection batch after batch.</p>"
+  ],
+  [
+   "Where they hide in a brewery",
+   "<p>Biofilms grow where liquid sits still, where cleaning flow is weak and where surfaces are rough. The usual places:</p><ul><li>Dead legs: short branches of pipe that cleaning solution flows past rather than through</li><li>Gaskets and seals, especially old, cracked or hardened ones</li><li>Valve seats and the inside of butterfly valves that are not cycled during cleaning</li><li>Poor welds and scratched stainless steel</li><li>Transfer hoses, particularly the hose ends and the first metre</li><li>Heat exchanger plates and their gaskets</li><li>Draught lines, couplers and tap nozzles in the taproom</li></ul><p>Warm conditions speed everything up. A beer line in a 30 °C taproom that misses a clean grows a film far faster than one in a cool cellar. That makes regular <a href=\"draught-line-cleaning.html\">draught line cleaning</a> more urgent in Indian conditions than most brewing books suggest.</p>"
+  ],
+  [
+   "Why sanitiser alone fails",
+   "<p>Sanitiser works by contact. The slime layer stops it reaching most of the cells, so a sanitiser that kills free floating bacteria in seconds may leave a biofilm almost untouched. Spraying more sanitiser at a dirty surface is a common and expensive mistake.</p><p>The rule is simple: clean first, sanitise second. Cleaning removes the soil and the slime. Sanitising kills what is left on a now bare surface.</p><p>There is a second reason. Many sanitisers are weakened by organic matter. Beer, wort and yeast residue react with the active chemical and use it up before it reaches the microbes. A sanitiser that works well on a bare, clean surface can be half spent within seconds on a soiled one. This is why the label contact time on a sanitiser drum assumes a pre-cleaned surface.</p>"
+  ],
+  [
+   "How to break a biofilm down",
+   "<p>Biofilm removal relies on four things working together, the same four that every <a href=\"cip-cleaning-in-place.html\">cleaning in place</a> system is built around:</p><ul><li><strong>Chemistry.</strong> Hot caustic dissolves the organic matrix. A regular acid step removes mineral deposits that give the film something to grip.</li><li><strong>Temperature.</strong> Caustic works much faster hot. Follow your chemical supplier's recommended range.</li><li><strong>Time.</strong> A rushed cycle leaves film behind. Give the chemical its full contact time.</li><li><strong>Mechanical action.</strong> In pipes this means turbulent flow. A commonly used target for pipe cleaning is a flow speed of around 1.5 metres per second. In hoses and fittings it can mean brushing.</li></ul><p>The floor detail most often missed: valves. A butterfly valve left closed during CIP keeps its seat and the pipe behind it dirty. Cycle every valve open and shut during the caustic step so solution reaches both sides of every seat.</p>"
+  ],
+  [
+   "Design fixes beat chemistry",
+   "<p>If a point keeps failing hygiene checks after good cleaning, the problem is usually physical. Remove dead legs, or reroute them so solution flows through. Replace gaskets on a schedule rather than when they leak. Swap scratched or badly welded fittings. Shorten and simplify hose runs. Store hoses so they drain fully rather than coiled with water sitting inside.</p><p>These fixes cost money once. A biofilm costs money every batch.</p>"
+  ],
+  [
+   "How to know you have one",
+   "<p>Repeated low level infections with the same organism, especially after a thorough clean, point to a biofilm. ATP swabs at suspect points show organic residue that cleaning is not removing. Plating swabs from those points identifies what is living there. Our guide to <a href=\"infection-bacteria-in-brewing.html\">infection and bacteria in brewing</a> covers the flavours each organism leaves behind.</p><p>Cleaning chemistry, hot caustic and confined tanks also bring their own hazards. Knowing how to run a cleaning programme safely is as important as knowing that it works.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a biofilm in a brewery?",
+   "A colony of microbes stuck to a surface inside a protective slime. It forms in pipes, hoses, gaskets and draught lines and resists ordinary sanitising."
+  ],
+  [
+   "Why doesn't sanitiser kill biofilms?",
+   "The slime layer stops sanitiser reaching most of the cells. The film must be removed by cleaning before sanitiser can work."
+  ],
+  [
+   "Where do biofilms usually form?",
+   "In dead legs, gaskets, valve seats, scratched welds, transfer hoses, heat exchangers and draught lines, anywhere liquid sits still or flow is weak."
+  ]
+ ],
+ "cta": {
+  "title": "Learn how to clean a brewery safely",
+  "body": "Safety in Brewing is our free one week live course. It covers cleaning chemicals, CIP hazards, confined spaces and CO2 for anyone working on a brewery floor.",
+  "label": "See what the course covers",
+  "href": "safety-in-brewing-course.html"
+ },
+ "related": [
+  "cip-cleaning-in-place",
+  "infection-bacteria-in-brewing",
+  "draught-line-cleaning"
+ ]
+}

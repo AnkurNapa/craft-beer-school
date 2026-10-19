@@ -1,0 +1,67 @@
+{
+ "slug": "beer-spoilage-bacteria-that-survive-hops-and-how-to-find",
+ "cat": "Brewing science",
+ "h1": "Beer spoilage bacteria that survive hops and how to find them",
+ "title": "Hop Resistant Beer Spoilage Bacteria | Craft Beer School",
+ "desc": "Which bacteria survive hops and alcohol in beer, what they do to flavour and how a small brewery can detect them with plates, forcing tests and PCR.",
+ "teaser": "Hops protect beer from most bacteria. A few species have learned to shrug them off.",
+ "standfirst": "Hop acids, alcohol, low pH and CO2 make beer a hostile place for microbes. A short list of bacteria has adapted to all four. Knowing which ones they are tells you where to look and how to catch them before a customer does.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why most bacteria cannot live in beer",
+   "<p>Beer is a poor home for microbes. The pH sits around 4.0 to 4.5. Alcohol is toxic to many cells. Dissolved CO2 and low oxygen shut out organisms that need air. Hop iso-alpha acids disrupt the cell membranes of many Gram positive bacteria, so they cannot maintain the pH gradient they need to live.</p><p>The bacteria that spoil beer are the ones that have worked around these barriers. Two groups cause most of the trouble: lactic acid bacteria, which tolerate hops, plus a group of strict anaerobes that thrive in well packaged, low oxygen beer.</p>"
+  ],
+  [
+   "The lactic acid bacteria",
+   "<strong>Lactobacillus brevis</strong> is the most commonly reported beer spoiler worldwide. Hop resistant strains carry genes such as horA and horC, which pump hop acids back out of the cell. It produces lactic acid, haze and sourness.<strong>Lactobacillus lindneri</strong> grows slowly and is easy to miss on plates, but it does well in beer and survives some heat treatments.<strong>Pediococcus damnosus</strong> is the classic source of diacetyl from infection. It gives butterscotch notes, acidity and, in some cases, a ropy, oily texture as it produces slime. If you have done a proper <a href=\"diacetyl-rest.html\">diacetyl rest</a> and the butter keeps coming back, think of Pediococcus."
+  ],
+  [
+   "The anaerobes: Pectinatus and Megasphaera",
+   "<p>These are the reason modern low oxygen packaging is not a complete defence. Pectinatus and Megasphaera are strict anaerobes. They cannot grow with oxygen around, so better packaging with very low dissolved oxygen actually helps them.</p><p>They produce hydrogen sulphide, propionic and butyric acids and other compounds that smell of rotten eggs, vomit or drains. They favour beers with lower alcohol, higher pH and no pasteurisation. A crisp, unpasteurised lager sitting warm in a distributor's godown is close to ideal for them.</p>"
+  ],
+  [
+   "Finding them with selective plates",
+   "<p>General media such as plain wort agar will grow yeast faster than these bacteria, hiding them. You need selective media and the right conditions.</p><ul><li><strong>NBB medium</strong> (Nachweismedium für bierschädliche Bakterien) was designed to detect beer spoilage organisms and is widely used for lactic acid bacteria and the anaerobes.</li><li><strong>MRS agar with cycloheximide</strong> suppresses yeast so lactic acid bacteria can show themselves.</li><li><strong>Anaerobic incubation</strong> in a sealed jar with a gas generating sachet, at around 25 to 30 °C, for five to seven days. Slow growers may need longer.</li></ul><p>The floor detail that catches most people out: sample from the places bacteria live, not only from the tank. Bright tank sample valves, filler heads, keg returns and the last beer out of a transfer hose are more revealing than a sample from the middle of a fermenter. Our guide to <a href=\"microbiology-plating-small-brewery.html\">microbiology plating in a small brewery</a> covers the set-up.</p>"
+  ],
+  [
+   "Forcing tests and PCR",
+   "<p>A forcing test is cheap and underrated. Hold a few packaged cans or bottles from each batch at around 25 to 30 °C for one to two weeks alongside a cold control. Then compare clarity, aroma and pH. A haze, a sour note or a sulphur smell in the warm sample tells you something survived. In India the forcing test is not far from what happens to beer in transit anyway.</p><p>PCR kits detect the DNA of specific spoilage species or the hop resistance genes themselves. Results come in hours rather than days. The kit and equipment cost more, so many small breweries send samples to an outside lab when a problem appears rather than run PCR in house.</p>"
+  ],
+  [
+   "Prevention that actually works",
+   "<p>No detection method saves beer that is already spoiled. The protection comes from cleaning, especially of packaging equipment, gaskets and dead legs where biofilms form. It comes from keeping yeast healthy and repitching only clean slurry. It comes from pasteurisation or sterile filtration where the product needs it.</p><p>Plate on a schedule, not only when something tastes wrong. A brewery that finds Lactobacillus brevis on a filler swab during a routine check has a cleaning job. A brewery that finds it in a customer complaint has a recall. Understanding how each organism behaves and building a sampling plan around that is where a working knowledge of brewing microbiology pays off.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which bacteria most often spoil beer?",
+   "Hop resistant lactic acid bacteria, especially Lactobacillus brevis and Pediococcus damnosus. In packaged beer, also the strict anaerobes Pectinatus and Megasphaera."
+  ],
+  [
+   "Why doesn't wort agar show beer spoilage bacteria?",
+   "Yeast grows much faster on it and crowds them out. Use selective media such as NBB or MRS with cycloheximide and incubate anaerobically."
+  ],
+  [
+   "What does a Pectinatus infection smell like?",
+   "Rotten eggs, drains or vomit, from hydrogen sulphide and short chain fatty acids such as propionic and butyric acid."
+  ],
+  [
+   "What is a forcing test?",
+   "Holding packaged samples warm, around 25 to 30 °C, for one to two weeks next to a cold control, then checking for haze, sourness or off aromas."
+  ]
+ ],
+ "cta": {
+  "title": "Catch spoilage before your customers do",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It teaches brewing microbiology, sampling plans and how to read plates so you can trace an infection to its source.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "infection-bacteria-in-brewing",
+  "microbiology-plating-small-brewery",
+  "sour-infection-off-flavour"
+ ]
+}

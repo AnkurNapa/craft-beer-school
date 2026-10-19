@@ -48,6 +48,13 @@ def course_block(c):
 </article>"""
 
 
+def team():
+    """Every mentor on the site, so a new instructor reaches the PDFs with the next build."""
+    import mentors
+    return "".join(f'<div class="member"><img src="{uri(m["img"])}" alt=""><h3>{m["name"]}</h3><p>{m["role"]}. {m["lede"]}</p></div>'
+                   for m in mentors.MENTORS)
+
+
 def track_page(icon_title, line, names):
     courses = "".join(course_block(BY_NAME[n]) for n in names)
     extra = ""
@@ -102,10 +109,10 @@ h1,h2{{font-family:"Hanken Grotesk";font-weight:800;letter-spacing:-.02em;line-h
 .fact{{background:var(--sand);border-radius:4mm;padding:5mm}}
 .fact b{{display:block;font-size:20pt;color:var(--navy);line-height:1}}
 .fact span{{font-size:8.5pt;color:var(--soft)}}
-.team{{display:grid;grid-template-columns:repeat(4,1fr);gap:5mm}}
+.team{{display:grid;grid-template-columns:repeat(6,1fr);gap:3.5mm}}
 .member img{{width:100%;aspect-ratio:1;object-fit:cover;border-radius:4mm}}
-.member h3{{font-size:11pt;margin-top:3mm}}
-.member p{{font-size:9pt;color:var(--soft)}}
+.member h3{{font-size:9.5pt;margin-top:2.5mm}}
+.member p{{font-size:7.6pt;color:var(--soft)}}
 .how{{display:grid;grid-template-columns:repeat(2,1fr);gap:3mm 8mm;margin-top:8mm}}
 .how div{{border-top:2px solid var(--amber);padding-top:2.5mm;font-size:9.5pt}}
 .how b{{display:block;color:var(--navy)}}
@@ -149,7 +156,7 @@ h1,h2{{font-family:"Hanken Grotesk";font-weight:800;letter-spacing:-.02em;line-h
   <div class="in"><img class="logo" src="{uri("assets/footer-logo.png")}" alt="">
     <span class="eyebrow">Course prospectus · 2026</span>
     <h1>Brew like you <em>mean it.</em></h1>
-    <p>{n} live online courses in brewing, business, spirits and the drinks beyond beer, hands-on days in Bengaluru, and services for drinks companies. Taught by people who do the work.</p></div>
+    <p>{n} live online courses in brewing, business, spirits and the drinks beyond beer, hands-on days in Bengaluru and services for drinks companies. Taught by people who do the work.</p></div>
 </section>
 
 <section class="page about"><span class="eyebrow">About the school</span>
@@ -157,12 +164,7 @@ h1,h2{{font-family:"Hanken Grotesk";font-weight:800;letter-spacing:-.02em;line-h
   <p class="lead">We teach everything inside and outside the bottle: ingredients, brewing, tasting, branding and the business of beer. Now we teach spirits, AI for breweries and the drinks beyond beer too. Live online sessions, guided tastings and hands-on brewery days.</p>
   <div class="facts"><div class="fact"><b>{n}</b><span>Live online courses</span></div><div class="fact"><b>20</b><span>Students per batch, at most</span></div>
     <div class="fact"><b>Sat-Sun</b><span>12:00 to 2:00 PM IST</span></div><div class="fact"><b>Cert.</b><span>Certificate of completion</span></div></div>
-  <div class="team">
-    <div class="member"><img src="{uri("assets/team3.jpg")}" alt=""><h3>Ankur Napa</h3><p>Master Brewer and course instructor, with hands-on experience at global brewing companies.</p></div>
-    <div class="member"><img src="{uri("assets/team5.jpg")}" alt=""><h3>Chatty Girija</h3><p>Beer podcaster and creative strategist, with more than 30 years in advertising.</p></div>
-    <div class="member"><img src="{uri("assets/team4.jpg")}" alt=""><h3>Anu Rao</h3><p>Head of Strategy and Operations, with more than 15 years in education and operations.</p></div>
-    <div class="member"><img src="{uri("assets/rahul-baliyan-portrait.jpg")}" alt=""><h3>Rahul Baliyan</h3><p>Brewing science instructor for Delhi and North India. Weihenstephan-trained German-style Brewmaster.</p></div>
-  </div>
+  <div class="team">{team()}</div>
   <div class="how"><div><b>Live, not recorded</b>Two live sessions every weekend, with recordings afterwards.</div>
     <div><b>Small batches</b>At most 20 students, so every question gets answered.</div>
     <div><b>Weekly assignments</b>Real tasks on your own recipes, data or brand.</div>

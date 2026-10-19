@@ -3,9 +3,9 @@
  "cat": "Brewing basics",
  "h1": "Beer colour: SRM and EBC in plain English",
  "title": "Beer Colour: SRM and EBC Explained | Craft Beer School",
- "desc": "What the SRM and EBC scales measure, how the two relate, and what actually darkens a beer.",
+ "desc": "What the SRM and EBC scales measure, how the two relate and what actually darkens a beer.",
  "teaser": "A number on a recipe sheet tells you what colour a beer should be before you have poured a drop. Here is how to read it.",
- "standfirst": "Beer colour looks obvious once it is in the glass, but describing it precisely needs a scale. Brewers use two, SRM and EBC, and knowing how they relate saves you converting on the fly every time you read an American recipe next to a European one.",
+ "standfirst": "Beer colour looks obvious once it is in the glass, but describing it precisely needs a scale. Brewers use two, SRM and EBC. Knowing how they relate saves you converting on the fly every time you read an American recipe next to a European one.",
  "read": "3 min",
  "updated": "2023-10-03",
  "updated_label": "October 2023",
@@ -16,7 +16,7 @@
   ],
   [
    "Roughly how the two scales relate",
-   "<p>EBC runs numerically higher than SRM for the same beer, roughly by a factor of about two, so a pale lager around 3 SRM sits near 6 EBC, and a stout around 40 SRM sits near 80 EBC. It is a rough conversion rather than an exact one, but close enough to translate a recipe between the two systems without confusion.</p><p>Recipe software built around either scale usually lets you view the estimate in the other unit as well with a single toggle, so in practice a homebrewer rarely needs to do the conversion by hand more than once or twice before the two numbers start to feel familiar together.</p>"
+   "<p>EBC runs numerically higher than SRM for the same beer, roughly by a factor of about two, so a pale lager around 3 SRM sits near 6 EBC and a stout around 40 SRM sits near 80 EBC. It is a rough conversion rather than an exact one, but close enough to translate a recipe between the two systems without confusion.</p><p>Recipe software built around either scale usually lets you view the estimate in the other unit as well with a single toggle, so in practice a homebrewer rarely needs to do the conversion by hand more than once or twice before the two numbers start to feel familiar together.</p>"
   ],
   [
    "What actually darkens a beer",
@@ -24,17 +24,17 @@
   ],
   [
    "Typical colour ranges by style",
-   "<p>As rough reference points: a pale lager sits around 2 to 4 SRM, a standard pale ale around 6 to 10 SRM, an amber ale or brown ale around 12 to 22 SRM, and a stout or porter comfortably above 30 SRM. These bands overlap between styles and are guidelines rather than rules, since plenty of well-regarded beers sit right at the edges.</p><p>Water can shift perceived colour slightly too, since very soft or very hard water changes how malt tannins and colour compounds extract during the mash, though the effect is minor compared with the grain bill itself. For nearly all practical recipe design, the malt choice is what to adjust if you want a different shade in the glass.</p>"
+   "<p>As rough reference points: a pale lager sits around 2 to 4 SRM, a standard pale ale around 6 to 10 SRM, an amber ale or brown ale around 12 to 22 SRM and a stout or porter comfortably above 30 SRM. These bands overlap between styles and are guidelines rather than rules, since plenty of well-regarded beers sit right at the edges.</p><p>Water can shift perceived colour slightly too, since very soft or very hard water changes how malt tannins and colour compounds extract during the mash, though the effect is minor compared with the grain bill itself. For nearly all practical recipe design, the malt choice is what to adjust if you want a different shade in the glass.</p>"
   ],
   [
    "Why colour is not a reliable guide to flavour or strength",
-   "<p>A dark beer is not automatically stronger or more bitter, and a pale one is not automatically light-bodied. Dark colour comes from roasted or caramelised malt character, which affects flavour, but strength depends on total fermentable sugar and attenuation, discussed in <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity explained</a>, and those two things vary independently of colour.</p><p>Chill haze, a temporary cloudiness that appears in cold beer and clears as it warms, is a separate phenomenon from colour entirely, caused by proteins and tannins interacting at low temperature rather than by anything to do with how dark the beer is.</p>"
+   "<p>A dark beer is not automatically stronger or more bitter. A pale one is not automatically light-bodied. Dark colour comes from roasted or caramelised malt character, which affects flavour, but strength depends on total fermentable sugar and attenuation, discussed in <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity explained</a>. Those two things vary independently of colour.</p><p>Chill haze, a temporary cloudiness that appears in cold beer and clears as it warms, is a separate phenomenon from colour entirely, caused by proteins and tannins interacting at low temperature rather than by anything to do with how dark the beer is.</p>"
   ]
  ],
  "faqs": [
   [
    "Do hops affect beer colour at all?",
-   "Only very slightly, and mostly through minor oxidation over time rather than any meaningful colour contribution during brewing. Colour is overwhelmingly a malt story."
+   "Only very slightly and mostly through minor oxidation over time rather than any meaningful colour contribution during brewing. Colour is overwhelmingly a malt story."
   ],
   [
    "Can I estimate SRM at home without lab equipment?",

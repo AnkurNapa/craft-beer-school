@@ -1,0 +1,63 @@
+{
+ "slug": "using-a-spectrophotometer-for-beer-colour-and-bitterness",
+ "cat": "Brewing science",
+ "h1": "Using a spectrophotometer for beer colour and bitterness tests",
+ "title": "Spectrophotometer colour and BU tests | Craft Beer School",
+ "desc": "How to measure beer colour in EBC and SRM and bitterness in BU with a spectrophotometer: methods, equipment, safety and the errors that skew results.",
+ "teaser": "Two of the most useful numbers in a brewery lab come from one instrument. Here is how to get them right.",
+ "standfirst": "A spectrophotometer measures how much light a sample absorbs. At 430 nm that gives you colour. At 275 nm, after an extraction, it gives you bitterness units. Both are routine tests once you have the right kit and technique.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the instrument does",
+   "<p>A spectrophotometer passes light of a chosen wavelength through a sample in a cuvette and measures how much is absorbed. The reading is absorbance, a number that rises with the concentration of whatever absorbs at that wavelength. Beer colour absorbs strongly in the blue region around 430 nm. Iso-alpha acids, extracted into a solvent, absorb in the ultraviolet around 275 nm.</p><p>That is why the two tests need different kit. Many low-cost spectrophotometers cover visible light only. Measuring bitterness at 275 nm needs a UV-capable instrument with a deuterium lamp and quartz cuvettes, because ordinary plastic and glass cuvettes absorb UV themselves. Check this before you buy. A visible-only instrument does colour well and bitterness not at all. Ask the supplier for the wavelength range and the lamp type in writing. Ask whether quartz cuvettes come with it.</p>"
+  ],
+  [
+   "Measuring colour",
+   "<p>The sample must be clear and degassed. Filter or centrifuge it, then read absorbance at 430 nm in a 10 mm cuvette against distilled water.</p><ul><li><strong>EBC colour</strong> = absorbance at 430 nm x 25 (10 mm cell), times any dilution factor.</li><li><strong>SRM</strong> (ASBC) = absorbance at 430 nm x 10 in a half inch cell, which equals about 12.7 x absorbance in a 10 mm cell.</li></ul><p>EBC is roughly 1.97 times SRM. Dark beers absorb too much to read directly. Dilute them with distilled water until absorbance falls into the instrument's accurate range, typically below about 1, then multiply by the dilution. Our guide to <a href=\"beer-colour-srm-ebc.html\">beer colour in SRM and EBC</a> covers what the numbers mean.</p><p>Haze ruins colour readings because it scatters light. A common check is to also read at 700 nm, where beer colour absorbs little. A significant reading there means turbidity, so clarify the sample again.</p>"
+  ],
+  [
+   "Measuring bitterness units",
+   "<p>The standard bitterness method in ASBC and EBC practice extracts bitter compounds from acidified beer into iso-octane, then reads the solvent layer.</p><ol><li>Degas the beer. Take 10 ml in a centrifuge tube or flask.</li><li>Add a small measured volume of hydrochloric acid as the method specifies, then 20 ml of iso-octane.</li><li>Shake for 15 minutes, then let it separate or centrifuge.</li><li>Read the upper iso-octane layer at 275 nm in a quartz cuvette against pure iso-octane.</li></ol><p>Bitterness units (BU) = absorbance x 50. Follow the full published method for acid strength and timings. Record which one you use, so results match other labs.</p>"
+  ],
+  [
+   "What BU does and does not tell you",
+   "<p>BU approximates iso-alpha acid content, the main bitter compounds explained in our <a href=\"what-is-ibu.html\">IBU guide</a>. It also picks up other compounds that absorb at 275 nm and extract into iso-octane, including some from oxidised hops and dry hopping. Heavily dry-hopped beers can read higher BU than their perceived bitterness suggests. Reduced hop extracts also respond differently. Use BU to track consistency for each beer, not to compare perceived bitterness across very different beers.</p><p>BU also falls through the life of a beer. Iso-alpha acids are lost to yeast, foam and filter aid in the brewery, then degrade slowly in the package, faster when it is warm. Measure at a fixed point, such as bright tank, so batch to batch comparisons are fair.</p>"
+  ],
+  [
+   "Safety in the lab",
+   "<p>Iso-octane is highly flammable and its vapour is harmful. Work in a fume cupboard or very well ventilated area, away from flames and hot plates. Store it in a flammables cabinet. Hydrochloric acid needs gloves and eye protection. Dispose of used solvent as chemical waste, never down the drain. A small brewery lab in India is often a corner of the packaging hall, so plan the space for solvent work before the first test.</p>"
+  ],
+  [
+   "Building it into a QC routine",
+   "<p>Colour and BU on every batch, plus a reference beer run with each set, give you a strong consistency record. Calibrate the instrument with checks recommended by the manufacturer, keep cuvettes scrupulously clean and replace lamps when baseline readings drift. Our guide to a <a href=\"brewery-qc-lab-on-a-budget.html\">brewery QC lab on a budget</a> covers where a spectrophotometer fits among other lab kit.</p><p>Analysing results across batches, linking them to hop lots and brewhouse changes, is where lab numbers start to pay for themselves.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I measure bitterness without a UV spectrophotometer?",
+   "Not with the standard method. You would need to send samples to an outside lab, or use a lab that offers a bitterness analysis service."
+  ],
+  [
+   "Why does my colour reading change from day to day?",
+   "Common causes are haze, CO2 bubbles in the cuvette, dirty cuvettes or an instrument that needs a fresh blank. Clarify and degas each sample."
+  ],
+  [
+   "Is BU the same as IBU?",
+   "In practice, brewers use the terms interchangeably for the measured value. Calculated IBU from recipe software is an estimate that often differs from measured BU."
+  ]
+ ],
+ "cta": {
+  "title": "Turn lab readings into better beer",
+  "body": "Advanced Brewing Science is a 6 week live course covering hop chemistry, colour, analytical methods and quality control, with exercises on interpreting your own lab data. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewery-qc-lab-on-a-budget",
+  "beer-colour-srm-ebc",
+  "what-is-ibu"
+ ]
+}

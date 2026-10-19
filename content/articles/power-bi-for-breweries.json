@@ -3,7 +3,7 @@
  "cat": "Business",
  "h1": "Power BI for breweries: the first dashboard worth building",
  "title": "Power BI for Breweries | Craft Beer School",
- "desc": "How a small brewery gets from a paper brew log to a Power BI dashboard of yield, loss, tank days and sales, and the five numbers to put on page one.",
+ "desc": "How a small brewery gets from a paper brew log to a Power BI dashboard of yield, loss, tank days and sales and the five numbers to put on page one.",
  "teaser": "Most brewery dashboards die in a month. The ones that survive show five numbers the head brewer already argues about. Here is how to build that one in Power BI.",
  "standfirst": "Power BI is free to install, runs on the laptop the brewery already owns and reads the spreadsheets you already keep. The hard part is not the software. It is deciding which five numbers deserve the page and getting the brew log clean enough to feed them.",
  "read": "5 min",
@@ -12,7 +12,7 @@
  "sections": [
   [
    "Why the brewery needs one page, not twenty",
-   "<p>Walk into most 10 hL breweries in India and the numbers live in three places: a brew sheet on a clipboard, an Excel file the owner keeps, and a sales export from the point of sale that nobody opens. Each one is right on its own. Put them together and the questions start. Why did we pack 870 litres from a batch that should have given 950? Which tank has been sitting at 2 °C for 19 days because nobody had a keg to put it in?</p><p>A dashboard is just those three sources on one screen, refreshed without anyone retyping. Power BI is the tool we reach for first because the Desktop version costs nothing, it reads Excel and CSV files directly and most brewery owners already have a Microsoft account. If you have read our guide to <a href=\"keeping-a-brew-log.html\">keeping a brew log</a>, you already have the raw material.</p>"
+   "<p>Walk into most 10 hL breweries in India and the numbers live in three places: a brew sheet on a clipboard, an Excel file the owner keeps and a sales export from the point of sale that nobody opens. Each one is right on its own. Put them together and the questions start. Why did we pack 870 litres from a batch that should have given 950? Which tank has been sitting at 2 °C for 19 days because nobody had a keg to put it in?</p><p>A dashboard is just those three sources on one screen, refreshed without anyone retyping. Power BI is the tool we reach for first because the Desktop version costs nothing, it reads Excel and CSV files directly and most brewery owners already have a Microsoft account. If you have read our guide to <a href=\"keeping-a-brew-log.html\">keeping a brew log</a>, you already have the raw material.</p>"
   ],
   [
    "Start with the brew log, not the software",
@@ -32,11 +32,11 @@
   ],
   [
    "Sharing it without paying for every seat",
-   "<p>Power BI Desktop is free. Publishing a report to the Power BI service so colleagues can open it on their phones needs a Pro licence per user who views it, and that is where small breweries stall. Two routes work. Keep the report in Desktop on the brewery laptop and open it at the weekly review, which costs nothing. Or export the page one as a PDF every Monday and drop it in the team WhatsApp group, which is low tech and still gets read.</p><p>If you are a bigger operation already on Microsoft 365, the licensing sum changes and the service starts to make sense. Check the current pricing before you plan around it. It changes.</p>"
+   "<p>Power BI Desktop is free. Publishing a report to the Power BI service so colleagues can open it on their phones needs a Pro licence per user who views it. That is where small breweries stall. Two routes work. Keep the report in Desktop on the brewery laptop and open it at the weekly review, which costs nothing. Or export the page one as a PDF every Monday and drop it in the team WhatsApp group, which is low tech and still gets read.</p><p>If you are a bigger operation already on Microsoft 365, the licensing sum changes and the service starts to make sense. Check the current pricing before you plan around it. It changes.</p>"
   ],
   [
    "The habit is the product",
-   "<p>A dashboard nobody opens is a screenshot. Set a ten-minute slot at the same time every week, open page one with the brewer and ask one question: which number moved, and why? The first month the answer is usually a data entry error. The second month it is a real loss. By the third, the brewer starts fixing things before the review, which is the point.</p><p>Refresh is the other half of the habit. If the log is a workbook on the laptop, refresh is one click. If it is a shared sheet online, Power BI can pull it directly. Either way, the brewer should never have to retype a number to see it on screen. The moment retyping appears, the dashboard is already dying.</p>"
+   "<p>A dashboard nobody opens is a screenshot. Set a ten-minute slot at the same time every week, open page one with the brewer and ask one question: which number moved and why? The first month the answer is usually a data entry error. The second month it is a real loss. By the third, the brewer starts fixing things before the review, which is the point.</p><p>Refresh is the other half of the habit. If the log is a workbook on the laptop, refresh is one click. If it is a shared sheet online, Power BI can pull it directly. Either way, the brewer should never have to retype a number to see it on screen. The moment retyping appears, the dashboard is already dying.</p>"
   ]
  ],
  "faqs": [

@@ -3,7 +3,7 @@
  "cat": "Brewing science",
  "h1": "Whirlpool hopping",
  "title": "Whirlpool Hopping Explained | Craft Beer School",
- "desc": "How whirlpool hopping extracts hop aroma with less bitterness, and how to run a hop stand that actually works.",
+ "desc": "How whirlpool hopping extracts hop aroma with less bitterness and how to run a hop stand that actually works.",
  "teaser": "Adding hops after the boil, while the wort is still hot, gets you aroma without the harsh bitterness a long boil addition would add.",
  "standfirst": "Whirlpool hopping trades a small amount of extraction efficiency for a large amount of aroma, provided the temperature and the rest are controlled rather than guessed at.",
  "read": "3 min",
@@ -12,7 +12,7 @@
  "sections": [
   [
    "What the whirlpool is for",
-   "<p>After the boil, wort is stirred into a spinning motion, usually by pumping it in tangentially, so that centripetal force pushes trub and hop debris into a cone at the centre of the vessel floor. Clear wort can then be drawn off from the edge, leaving the sediment behind. That is the whirlpool's original job, and it still matters even when no hops are added at this stage.</p><p>The amount of wort surface exposed to hop material during the stand also affects extraction. A whirlpool that keeps hops circulating in suspension rather than letting them mat down in the trub cone extracts more evenly, which is part of why pumped recirculation during the rest, rather than a single static addition, has become common on larger systems chasing consistent aroma.</p>"
+   "<p>After the boil, wort is stirred into a spinning motion, usually by pumping it in tangentially, so that centripetal force pushes trub and hop debris into a cone at the centre of the vessel floor. Clear wort can then be drawn off from the edge, leaving the sediment behind. That is the whirlpool's original job. It still matters even when no hops are added at this stage.</p><p>The amount of wort surface exposed to hop material during the stand also affects extraction. A whirlpool that keeps hops circulating in suspension rather than letting them mat down in the trub cone extracts more evenly, which is part of why pumped recirculation during the rest, rather than a single static addition, has become common on larger systems chasing consistent aroma.</p>"
   ],
   [
    "Adding hops during the rest",
@@ -24,11 +24,11 @@
   ],
   [
    "What it does to your hop bill",
-   "<p>Because whirlpool additions extract oils efficiently, they can use less hop material for the same aroma intensity than an equivalent dry hop, and they avoid the vegetal or grassy notes that heavy dry hopping can sometimes bring. Many modern hazy and West Coast style beers lean on a large whirlpool charge specifically for this reason, saving the dry hop for the character oils that only survive without any heat at all.</p><p>Oxygen exposure during a long, open whirlpool rest is worth watching. Wort sitting hot and exposed to air for thirty minutes is not yet in the danger zone that finished beer would be, but a covered or closed vessel during the stand still protects flavour better than an open one, particularly for delicate, hop forward recipes.</p>"
+   "<p>Because whirlpool additions extract oils efficiently, they can use less hop material for the same aroma intensity than an equivalent dry hop. They avoid the vegetal or grassy notes that heavy dry hopping can sometimes bring. Many modern hazy and West Coast style beers lean on a large whirlpool charge specifically for this reason, saving the dry hop for the character oils that only survive without any heat at all.</p><p>Oxygen exposure during a long, open whirlpool rest is worth watching. Wort sitting hot and exposed to air for thirty minutes is not yet in the danger zone that finished beer would be, but a covered or closed vessel during the stand still protects flavour better than an open one, particularly for delicate, hop forward recipes.</p>"
   ],
   [
    "Whirlpool hopping and what comes after",
-   "<p>A big hop stand adds real mass and oil to the wort, which affects both your <a href=\"wort-aeration-and-oxygen.html\">aeration step</a> and how much trub you carry into the fermenter. Draw wort off the whirlpool carefully rather than draining it flat, and expect a slightly higher cold break carryover than a beer without a hop stand.</p><p>Recirculating the whirlpool through an external heat exchanger during the rest, rather than letting it sit static in the kettle, is one way larger breweries hold a precise stand temperature for the full duration. Smaller systems without that option can approximate it by insulating the vessel well and accepting a slow, gradual temperature drift rather than a sharp one, adjusting stand time slightly to compensate.<p>Cooling rate after the stand also shapes the final aroma. A slow chill lets isomerisation continue a little further even after the intended stand time has ended, so systems without fast plate chillers sometimes compensate by cutting the whirlpool rest slightly shorter than a system with rapid cooling would use.</p>"
+   "<p>A big hop stand adds real mass and oil to the wort, which affects both your <a href=\"wort-aeration-and-oxygen.html\">aeration step</a> and how much trub you carry into the fermenter. Draw wort off the whirlpool carefully rather than draining it flat and expect a slightly higher cold break carryover than a beer without a hop stand.</p><p>Recirculating the whirlpool through an external heat exchanger during the rest, rather than letting it sit static in the kettle, is one way larger breweries hold a precise stand temperature for the full duration. Smaller systems without that option can approximate it by insulating the vessel well and accepting a slow, gradual temperature drift rather than a sharp one, adjusting stand time slightly to compensate.<p>Cooling rate after the stand also shapes the final aroma. A slow chill lets isomerisation continue a little further even after the intended stand time has ended, so systems without fast plate chillers sometimes compensate by cutting the whirlpool rest slightly shorter than a system with rapid cooling would use.</p>"
   ]
  ],
  "faqs": [
@@ -51,7 +51,7 @@
  ],
  "cta": {
   "title": "Ready to stop guessing and start measuring?",
-  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to design and control a whirlpool hop stand for real aroma targets, beyond what one article can walk through step by step. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to design and control a whirlpool hop stand for real aroma targets, beyond what one article can walk through step by step. Live weekend sessions, weekly assignments, recordings if you miss one and a certificate at the end.",
   "href": "advanced-brewing-science-course.html",
   "label": "See the full syllabus"
  },

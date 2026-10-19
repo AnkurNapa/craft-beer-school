@@ -1,0 +1,63 @@
+{
+ "slug": "hot-side-aeration-and-whether-small-brewers-should-worry",
+ "cat": "Brewing science",
+ "h1": "Hot side aeration and whether small brewers should worry about it",
+ "title": "Hot side aeration: should you worry? | Craft Beer School",
+ "desc": "What hot side aeration is, why the evidence is mixed and where a small brewery should spend its oxygen effort first.",
+ "teaser": "Splashing hot wort gets blamed for stale beer. The real culprit in most small breweries is somewhere colder.",
+ "standfirst": "Hot side aeration is one of brewing's longest running arguments. We look at what the chemistry says, what it does not say and how a brewpub should rank it against the oxygen problems that are certain.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What people mean by hot side aeration",
+   "<p>Hot side aeration (HSA) is oxygen picked up by wort before it is cooled: during mash in, recirculation, lautering, transfer to the kettle or whirlpool. The fear is that this oxygen starts reactions that show up months later as stale, papery or sherry-like flavour in the finished beer.</p><p>The idea is old and it is not silly. Oxygen does react with wort components at mash temperatures. The question for a working brewer is how much of the staling in a packaged beer can be traced back to the hot side, compared with oxygen picked up after fermentation.</p>"
+  ],
+  [
+   "The chemistry that makes it plausible",
+   "<p>Malt carries lipids (mainly linoleic acid) and an enzyme called lipoxygenase (LOX). In the mash, LOX can oxidise those lipids into hydroperoxides. Further breakdown of these compounds is one route to trans-2-nonenal, the aldehyde behind the classic cardboard note.</p><p>Hot wort also holds polyphenols and thiols that react with oxygen. Some of these reactions darken the wort slightly and change how much natural antioxidant capacity the wort carries into fermentation.</p><p>Two facts limit the damage. Oxygen is far less soluble in hot liquid than in cold, so hot wort cannot hold much of it at any one moment. LOX is also heat sensitive and loses most of its activity once the mash is well above the low 60s °C. The window for this route is mainly the first minutes of mashing in.</p>"
+  ],
+  [
+   "Why the evidence is mixed",
+   "<p>Large breweries have shown measurable flavour stability gains from low oxygen brewhouses. They also run filtered, pasteurised beer with very low packaged oxygen and long shelf lives, where small hot side effects become visible.</p><p>In a brewpub selling fresh beer from serving tanks, those gains are hard to see. Yeast is also a powerful reducing agent. A vigorous fermentation scavenges oxygen and reduces many aldehydes back to alcohols, which wipes out part of what happened upstream.</p><p>So HSA is real chemistry with a size that depends on everything else you do. That is an unsatisfying answer, but it is an honest one. For the wider picture of how staling compounds form, read our guide to <a href=\"beer-staling-chemistry.html\">beer staling chemistry</a>.</p>"
+  ],
+  [
+   "Where small brewers lose oxygen battles",
+   "<p>In consulting work we often see breweries fitting a gentle underlet while their packaging line adds several hundred ppb of oxygen to every can. That is fighting the small fire while the big one burns.</p><p>Cold side oxygen does far more damage per microgram, because there is no active fermentation left to clean it up. Packaged beer that picks up oxygen and then sits warm in an Indian distribution chain will taste stale within weeks. Many breweries aim for packaged dissolved oxygen under about 50 ppb and treat anything well above 100 ppb as a problem worth chasing.</p><p>Put the oxygen meter on transfers, the bright tank and the filler first. Our guide to <a href=\"oxidised-beer.html\">oxidised beer</a> walks through those cold side sources.</p>"
+  ],
+  [
+   "Cheap hot side habits worth keeping",
+   "<p>None of this means splashing is fine. A few habits cost nothing:</p><ul><li>Underlet the mash, adding water from below, rather than dropping grist into a churning vessel.</li><li>Keep the grant outlet below the wort surface so runnings do not cascade.</li><li>Avoid aggressive stirring once the mash is mixed.</li><li>Pump to the kettle from the bottom and avoid long free falls into the whirlpool.</li><li>Do not leave hot wort sitting in an open, half-full vessel longer than needed.</li></ul><p>One brewhouse-floor detail matters here: a lauter grant with a free-falling stream from the false bottom is the most common visible splash point in small Indian brewhouses. Lengthening the inlet pipe to sit under the liquid level is a quick fabrication job.</p>"
+  ],
+  [
+   "A sensible order of work",
+   "<p>If you want to know whether HSA matters for your beer, measure before you change anything. Track packaged dissolved oxygen and run a simple forced ageing test, holding a few cans warm for two weeks against cold controls. If the warm cans stale badly while packaged oxygen is low, then look harder at the hot side. If packaged oxygen is high, fix that first and retest.</p><p>Ranking problems by evidence rather than by forum noise is the habit that separates a good brewer from a busy one. It is also the gap most small teams never close on their own: they know the parts but not how the oxygen budget adds up from mash to can.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does hot side aeration cause stale beer?",
+   "It can contribute through lipid oxidation in the mash, but in most small breweries oxygen picked up after fermentation causes far more staling. Fix the cold side first."
+  ],
+  [
+   "Is it worth buying low oxygen brewhouse kit?",
+   "Only after packaged oxygen is under control and forced ageing tests still show early staling. For fresh draught beer the benefit is usually small."
+  ],
+  [
+   "What is the cheapest way to reduce hot side oxygen?",
+   "Underlet the mash, keep the grant outlet submerged and avoid splashing transfers. These habits cost almost nothing."
+  ]
+ ],
+ "cta": {
+  "title": "Know where oxygen really hurts your beer",
+  "body": "Advanced Brewing Science is a 6 week live course that follows oxygen and staling from mash to package, with the measurements and the order of fixes a guide cannot give you. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-staling-chemistry",
+  "wort-aeration-and-oxygen",
+  "oxidised-beer"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "beta-glucan-problems-with-oats-and-unmalted-barley-in-the",
+ "cat": "Brewing science",
+ "h1": "Beta glucan problems with oats and unmalted barley in the mash",
+ "title": "Beta Glucan Problems in the Mash | Craft Beer School",
+ "desc": "Why oats and unmalted barley cause slow run-offs, stuck mashes and haze. How rests, enzymes and rice hulls keep beta glucan under control.",
+ "teaser": "Oats give silky body. They also give gluey mashes. The cause is beta glucan. It is manageable.",
+ "standfirst": "Oats and unmalted barley bring body, a soft mouthfeel and cost savings. They also bring beta glucan, a gummy fibre that thickens wort and jams the lauter tun. Here is what is going on and what to do about it.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What beta glucan is",
+   "<p>Beta glucans are long chain carbohydrates found in the cell walls of the barley and oat grain. In malting, the grain's own enzymes break most of them down, which is one reason well modified malt mashes easily. Unmalted barley, raw oats and flaked versions of both have had no such treatment. Their beta glucan arrives in the mash intact.</p><p>Dissolved in wort, beta glucan raises viscosity. Thick wort drains slowly through the grain bed, holds on to sugar and carries haze forward. The effect builds sharply as the share of unmalted grain rises.</p>"
+  ],
+  [
+   "How it shows up on brew day",
+   "<p>The symptoms are familiar to anyone who has brewed an oatmeal stout or a hazy IPA with a big oat bill:</p><ul><li>Run-off slows to a trickle partway through lautering.</li><li>The grain bed compacts and the differential pressure climbs.</li><li>The mash sets completely, a classic <a href=\"stuck-mash-fixes.html\">stuck mash</a>.</li><li>Wort that will not run clear however long you recirculate.</li><li>Filtration problems and haze later, if the beer is filtered.</li></ul><p>The floor detail: on a stuck mash the temptation is to rake deep and fast. That breaks the bed but also stirs the gummy layer through the whole mash. Underlet with hot water from below, let the bed refloat, then restart the run-off slowly.</p><p>Keep a note of run-off time for every brew. If an oat beer that normally lauters in 90 minutes starts taking two hours, something has changed, whether a new oat supplier, a different mill setting or a mash that ran thicker than planned.</p>"
+  ],
+  [
+   "The beta glucan rest",
+   "<p>Beta glucanase, the enzyme that breaks beta glucan, comes from malt. It works best at around 40 to 45 °C and is destroyed quickly above about 50 °C. A short rest in that range, often 15 to 20 minutes at 45 °C, lets it cut beta glucan chains before the mash rises to saccharification temperature.</p><p>A rest only helps if the enzyme is there. With a high share of raw grain, the malt in the grist may not carry enough beta glucanase to cope. That is where a commercial beta glucanase enzyme earns its place. It is added at mash in, following the supplier's dose.</p><p>The rest needs a mash tun that can step temperatures, which a single infusion brewpub system may not do well. Our guide to <a href=\"enzymes-in-the-mash.html\">enzymes in the mash</a> explains how the different rests interact.</p>"
+  ],
+  [
+   "Practical fixes that do not need a step mash",
+   "<ul><li><strong>Rice hulls.</strong> They add no flavour or sugar. They open up the grain bed and give the wort channels to drain through. A few percent of the grist weight is typical with heavy oat bills.</li><li><strong>A thinner mash.</strong> More water per kilo of grain dilutes the viscosity.</li><li><strong>A coarser crush on the malt.</strong> Intact husks are your filter bed. Do not over mill to chase extract.</li><li><strong>A slower run-off.</strong> Pulling too hard compacts the bed. Run gently from the start.</li><li><strong>A sensible share.</strong> Up to about 10 to 20% oats is manageable on most systems with hulls and care. Push beyond that and expect trouble.</li></ul>"
+  ],
+  [
+   "Flaked, rolled or raw",
+   "<p>Flaked and rolled oats and barley have been steamed and pressed, which gelatinises the starch. They can go straight into the mash. Raw grain has not been gelatinised and needs cooking first, because its starch gelatinises at a higher temperature than malt starch. Either way, the beta glucan is still there. Pre-gelatinising helps the starch, not the gum.</p><p>In India, many homebrewers and some small brewers use supermarket rolled oats. They work well for body. They behave like any flaked oat in the mash, so the same precautions apply. Read about the flavour side in our guide to <a href=\"oats-in-beer.html\">oats in beer</a>.</p>"
+  ],
+  [
+   "When it is more than a lautering problem",
+   "<p>Beta glucan that survives the brewhouse does not stop being a problem. It slows filtration, can form gels at cold temperatures and contributes to haze that is hard to remove. A brewery that brews oat heavy beers often should track run-off times and differential pressure batch by batch. A slow creep in either is an early warning.</p><p>Working out how enzyme rests, raw material quality and lauter design interact on your own kit is exactly the kind of brewhouse science that saves hours on every brew day once you understand it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do oats cause stuck mashes?",
+   "Oats carry a lot of beta glucan, which raises wort viscosity and makes the grain bed compact and drain slowly."
+  ],
+  [
+   "What temperature is the beta glucan rest?",
+   "Around 40 to 45 °C, often 15 to 20 minutes at 45 °C. Beta glucanase is destroyed quickly above about 50 °C."
+  ],
+  [
+   "Do rice hulls change the flavour of beer?",
+   "No. Rice hulls are inert. They loosen the grain bed so wort drains freely, which helps with oats and unmalted barley."
+  ],
+  [
+   "Do flaked oats still need a beta glucan rest?",
+   "Flaking gelatinises the starch but leaves the beta glucan. A rest or enzyme still helps if you use a large share."
+  ]
+ ],
+ "cta": {
+  "title": "Stop fighting your mash on every oat beer",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers mash enzymes, raw materials and lautering so you can design grists that run off cleanly on your own system.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "oats-in-beer",
+  "stuck-mash-fixes",
+  "lautering-and-sparging"
+ ]
+}

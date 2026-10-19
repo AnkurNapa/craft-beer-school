@@ -3,20 +3,20 @@
  "cat": "Brewing science",
  "h1": "Brewhouse efficiency, measured honestly",
  "title": "Brewhouse Efficiency Explained | Craft Beer School",
- "desc": "What brewhouse efficiency actually measures, why it differs from mash efficiency, and where most breweries leave extract behind.",
+ "desc": "What brewhouse efficiency actually measures, why it differs from mash efficiency and where most breweries leave extract behind.",
  "teaser": "Two breweries can report the same recipe and get different beers, because efficiency is where the recipe meets the real equipment.",
- "standfirst": "Efficiency numbers get quoted a lot and measured badly even more often. Here is what the term means, how to measure it honestly, and where the losses actually happen.",
+ "standfirst": "Efficiency numbers get quoted a lot and measured badly even more often. Here is what the term means, how to measure it honestly and where the losses actually happen.",
  "read": "3 min",
  "updated": "2023-01-03",
  "updated_label": "January 2023",
  "sections": [
   [
    "Three numbers that get confused",
-   "<p>Conversion efficiency asks whether the mash turned starch into fermentable sugar. Mash efficiency asks how much of that sugar you collected in the kettle before the boil. Brewhouse efficiency asks how much of the grain's theoretical extract ended up in the fermenter, after boil-off, trub loss and every transfer in between. They are related but not the same number, and quoting one while meaning another is the most common efficiency argument in a brewery.</p><p>Batch size itself changes the maths. A small pilot batch loses proportionally more extract to dead space and kettle trub than a large production batch, simply because fixed losses stay roughly constant while total extract scales up. Comparing efficiency across two very different batch sizes on the same equipment is rarely a fair comparison.</p>"
+   "<p>Conversion efficiency asks whether the mash turned starch into fermentable sugar. Mash efficiency asks how much of that sugar you collected in the kettle before the boil. Brewhouse efficiency asks how much of the grain's theoretical extract ended up in the fermenter, after boil-off, trub loss and every transfer in between. They are related but not the same number. Quoting one while meaning another is the most common efficiency argument in a brewery.</p><p>Batch size itself changes the maths. A small pilot batch loses proportionally more extract to dead space and kettle trub than a large production batch, simply because fixed losses stay roughly constant while total extract scales up. Comparing efficiency across two very different batch sizes on the same equipment is rarely a fair comparison.</p>"
   ],
   [
    "The formula and what it needs",
-   "<p>Brewhouse efficiency is the ratio of extract actually collected to the theoretical maximum extract the grain bill could give, expressed as a percentage. You need the grain bill's potential extract (from the maltster's specification), the measured gravity of the wort, and the volume collected at that gravity, whether you track it in specific gravity, degrees Plato or points per pound per gallon.</p><p>Measure at the same point every batch, into the fermenter rather than out of the kettle, because that is where the number actually matters for your recipe planning.</p><p>Refractometers and hydrometers need their own care here. A refractometer reading taken on wort still containing alcohol, mid-fermentation, needs a correction factor or it will report a false efficiency. A hydrometer used without correcting for wort temperature against its calibration point does the same. Bad measurement looks exactly like bad efficiency until you check the instrument.</p>"
+   "<p>Brewhouse efficiency is the ratio of extract actually collected to the theoretical maximum extract the grain bill could give, expressed as a percentage. You need the grain bill's potential extract (from the maltster's specification), the measured gravity of the wort and the volume collected at that gravity, whether you track it in specific gravity, degrees Plato or points per pound per gallon.</p><p>Measure at the same point every batch, into the fermenter rather than out of the kettle, because that is where the number actually matters for your recipe planning.</p><p>Refractometers and hydrometers need their own care here. A refractometer reading taken on wort still containing alcohol, mid-fermentation, needs a correction factor or it will report a false efficiency. A hydrometer used without correcting for wort temperature against its calibration point does the same. Bad measurement looks exactly like bad efficiency until you check the instrument.</p>"
   ],
   [
    "What a realistic number looks like",
@@ -24,7 +24,7 @@
   ],
   [
    "Where the extract actually goes",
-   "<p>Four places account for most of the gap between theoretical and actual. An imprecise crush leaves starch locked inside intact grain husks. A short or uneven sparge leaves sugar behind in the spent grain, which is why <a href=\"stuck-mash-fixes.html\">a stuck mash</a> that gets rescued with extra rinse water can distort a reading. Dead space in the mash tun and kettle traps wort that never reaches the fermenter. And trub, both hot break from the boil and cold break after chilling, carries adsorbed sugar out with it.</p><p>Water to grist ratio interacts with both efficiency and mash chemistry at once. A thicker mash concentrates enzymes and can improve conversion speed, but it also raises the risk of the compaction problems covered under stuck mashes. Most systems have a sweet spot rather than a single correct ratio, and it is worth finding through logged experiments rather than a rule of thumb borrowed from a different brewhouse.</p>"
+   "<p>Four places account for most of the gap between theoretical and actual. An imprecise crush leaves starch locked inside intact grain husks. A short or uneven sparge leaves sugar behind in the spent grain, which is why <a href=\"stuck-mash-fixes.html\">a stuck mash</a> that gets rescued with extra rinse water can distort a reading. Dead space in the mash tun and kettle traps wort that never reaches the fermenter. And trub, both hot break from the boil and cold break after chilling, carries adsorbed sugar out with it.</p><p>Water to grist ratio interacts with both efficiency and mash chemistry at once. A thicker mash concentrates enzymes and can improve conversion speed, but it also raises the risk of the compaction problems covered under stuck mashes. Most systems have a sweet spot rather than a single correct ratio. It is worth finding through logged experiments rather than a rule of thumb borrowed from a different brewhouse.</p>"
   ],
   [
    "Improving it without guessing",
@@ -46,12 +46,12 @@
   ],
   [
    "How often should I recalculate my system's efficiency?",
-   "After any equipment change, and periodically otherwise. A new mill setting, a different lauter tun or a longer kettle run all shift the number."
+   "After any equipment change and periodically otherwise. A new mill setting, a different lauter tun or a longer kettle run all shift the number."
   ]
  ],
  "cta": {
   "title": "Ready to stop guessing and start measuring?",
-  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to measure, diagnose and raise brewhouse yield with the same rigour a production brewery uses, beyond what a single guide can walk through. Live weekend sessions, weekly assignments, recordings if you miss one, and a certificate at the end.",
+  "body": "Advanced Brewing Science is a 6-week live online course that goes past what one guide can cover: how to measure, diagnose and raise brewhouse yield with the same rigour a production brewery uses, beyond what a single guide can walk through. Live weekend sessions, weekly assignments, recordings if you miss one and a certificate at the end.",
   "href": "advanced-brewing-science-course.html",
   "label": "See the full syllabus"
  },

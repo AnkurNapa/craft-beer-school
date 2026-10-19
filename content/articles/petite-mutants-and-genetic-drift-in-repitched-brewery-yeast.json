@@ -1,0 +1,67 @@
+{
+ "slug": "petite-mutants-and-genetic-drift-in-repitched-brewery-yeast",
+ "cat": "Brewing science",
+ "h1": "Petite mutants and genetic drift in repitched brewery yeast",
+ "title": "Petite mutants and yeast drift | Craft Beer School",
+ "desc": "What petite mutants are, how genetic drift changes repitched brewery yeast and how a small lab can spot a culture that has wandered.",
+ "teaser": "Your house yeast is not the strain you bought. Every repitch nudges it a little further from the original.",
+ "standfirst": "Repitched yeast slowly changes. Respiratory-deficient petite mutants build up and the population drifts towards cells that suit your harvest habits. We explain both effects and how to keep an eye on them.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Yeast populations change",
+   "<p>A pitch of brewing yeast holds billions of cells. Each fermentation grows the population several times over. Every cell division carries a small chance of change. Over many generations, the population is shaped by those changes and by the conditions you put it through.</p><p>Two effects matter most to brewers: petite mutants and genetic drift through selection. Neither shows up as a sudden failure. Both creep in, which is why they catch breweries out. Our guide to <a href=\"yeast-harvesting-and-reuse.html\">yeast harvesting and reuse</a> covers the practical side of repitching.</p>"
+  ],
+  [
+   "What a petite mutant is",
+   "<p>Yeast cells carry mitochondria, small structures with their own DNA that handle respiration. When that mitochondrial DNA is damaged or lost, the cell can no longer respire properly. It can still ferment sugar to alcohol, but it grows more slowly in the presence of oxygen.</p><p>On a lab plate these cells form small colonies, which is where the name petite comes from. They were first described in the mid 20th century and are well known in yeast science.</p>"
+  ],
+  [
+   "Why petites matter in beer",
+   "<p>A few petites in a pitch are normal. Problems start when their share grows. Brewing studies and long practical experience link high petite levels to:</p><ul><li>Slower or incomplete fermentation.</li><li>Higher diacetyl and slower diacetyl removal.</li><li>Changes in flocculation.</li><li>Off flavours, including phenolic or sulphury notes in some strains.</li><li>Lower vitality after storage.</li></ul><p>Stress raises the rate at which petites form. High alcohol, high temperature, long storage, acid washing and poor nutrition all push it up.</p>"
+  ],
+  [
+   "Genetic drift through selection",
+   "<p>Drift is a separate effect. Every harvest selects some cells and leaves others behind. If you always crop from the bottom of the cone, you favour cells that drop early. If you crop from the top, as some ale breweries do, you favour cells that stay up.</p><p>Over many generations this shifts the culture. Flocculation, attenuation and flavour can all move away from the original strain. Some breweries embrace this as house character. Most want to control it.</p><p>Brewing yeasts also carry multiple copies of many chromosomes. That gives them room for gradual changes that a lab can only see with genetic testing.</p>"
+  ],
+  [
+   "How a small lab can spot trouble",
+   "<p>You do not need a genetics lab to spot most drift:</p><ul><li><strong>Track fermentation data.</strong> Lag time, attenuation rate and final gravity at each generation.</li><li><strong>Watch flocculation.</strong> Note how bright the beer is at a fixed point after fermentation.</li><li><strong>Taste a reference beer.</strong> Compare each generation's version of the same recipe.</li><li><strong>Check viability and vitality.</strong> A steady fall is a warning.</li></ul><p>For petites specifically, labs use a TTC overlay test. Cells are grown on a plate, then covered with a TTC solution. Normal cells turn red, while petites stay white because they cannot respire. A small brewery lab can run this with modest equipment, or send samples to a yeast lab. Our guide to <a href=\"yeast-viability-and-vitality.html\">yeast viability and vitality</a> covers the related checks.</p>"
+  ],
+  [
+   "Keeping drift in check",
+   "<p>The main defence is to limit how far a culture travels from a clean starting point:</p><ul><li>Set a maximum number of generations and start fresh at that point.</li><li>Keep a clean master stock, frozen or on slants, or buy fresh from a trusted supplier.</li><li>Harvest from the middle of the yeast cake, not the first or last portions.</li><li>Reduce stress: store cold, repitch quickly and avoid harvesting from very strong beers.</li><li>Acid wash only when needed and follow a proper method.</li></ul><p>One brewhouse-floor detail: brewpubs that brew a strong winter beer or barley wine with the house strain often see the next few batches struggle. Harvesting the yeast from that strong beer carries forward stressed cells with higher petite rates. Use fresh or early-generation yeast for high gravity brews. Do not repitch from them.</p>"
+  ],
+  [
+   "Why this matters in India",
+   "<p>Imported liquid yeast is expensive and needs cold shipping, which tempts brewers to repitch for longer. Warm ambient temperatures in many Indian brewhouses add stress during handling and storage. Both push cultures towards drift and petite build-up faster.</p><p>Understanding the biology behind these effects makes it easier to decide how far to push a culture. Our guide to <a href=\"setting-up-a-yeast-management-programme.html\">setting up a yeast management programme</a> covers the records and lab routines that support those decisions.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a petite mutant in brewing yeast?",
+   "A yeast cell that has lost working mitochondrial DNA and cannot respire properly. It still ferments, but often more slowly and with off flavours."
+  ],
+  [
+   "How do I test for petite mutants?",
+   "A TTC overlay test on a plate: normal colonies turn red, while petites stay white because they cannot respire."
+  ],
+  [
+   "Does repitching change my yeast strain?",
+   "Over many generations it can. Harvesting habits select for certain traits, so flocculation and flavour can drift."
+  ]
+ ],
+ "cta": {
+  "title": "Learn the biology behind your house yeast",
+  "body": "Advanced Brewing Science covers yeast genetics, physiology and management in depth, so you know why a culture changes and when to start fresh.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "yeast-harvesting-and-reuse",
+  "yeast-viability-and-vitality",
+  "setting-up-a-yeast-management-programme"
+ ]
+}

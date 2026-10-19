@@ -1,0 +1,63 @@
+{
+ "slug": "sizing-a-plate-heat-exchanger-for-your-brewhouse-wort",
+ "cat": "Brewing science",
+ "h1": "Sizing a plate heat exchanger for your brewhouse wort chiller",
+ "title": "Sizing a plate heat exchanger for wort | Craft Beer School",
+ "desc": "Work out the heat load, coolant flow and plate area for a brewhouse wort chiller, with a 10 hl example and what Indian water temperatures change.",
+ "teaser": "A wort chiller that is too small turns a 50 minute knockout into two hours of DMS and stress. Here is the arithmetic to size one properly.",
+ "standfirst": "Sizing a plate heat exchanger comes down to three numbers: how much heat, how fast and how cold your coolant really is. We work through a 10 hl brewhouse so you can redo it with your own figures.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with the heat load",
+   "<p>The heat you must remove is mass flow times specific heat times temperature drop. Take a 10 hl brewhouse knocking out 1,000 litres of 12 °P wort (specific gravity about 1.048) in 50 minutes, from 98 °C down to 12 °C for a lager pitch.</p><ul><li>Flow: 1,000 L in 50 min is 20 L/min, or about 0.35 kg/s.</li><li>Wort specific heat: about 4.0 kJ/kg K.</li><li>Temperature drop: 86 K.</li></ul><p>Heat load is 0.35 x 4.0 x 86, roughly 120 kW. That is the number the plates, the coolant supply and the pumps all have to meet. Shorter knockouts raise it. Ale pitches at 18 to 20 °C lower it.</p><p>Do the sum for your own worst case: the biggest batch, the strongest wort, the coldest pitch and the shortest knockout you plan to run in the next five years. Brewhouses grow into their chillers faster than owners expect.</p>"
+  ],
+  [
+   "How much coolant you need",
+   "<p>Most small brewhouses use a single-stage chiller fed by chilled water from an ice water tank at about 2 to 4 °C. The water leaves hot and goes to the hot liquor tank, so the heat is reused.</p><p>If the water warms from 3 °C to 80 °C, each kg absorbs about 4.18 x 77, or 322 kJ. At 120 kW you need roughly 0.37 kg/s, about 22 L/min, or around 1,100 litres of chilled water per brew. That is a little more than the batch volume, which is why the ice water tank is usually sized at 1.2 to 1.5 times the cast-out volume. Check this against your hot liquor needs too. Excess hot water you cannot use is wasted energy.</p>"
+  ],
+  [
+   "Plate area and approach temperature",
+   "<p>Plate area comes from heat load divided by the overall heat transfer coefficient (U) and the log mean temperature difference (LMTD). In our example the hot end gap is 98 minus 80, or 18 K. The cold end gap is 12 minus 3, or 9 K. LMTD is (18 - 9) / ln 2, about 13 K.</p><p>With a U of around 3,500 W/m2 K, a reasonable figure for clean wort and water plates, area is 120,000 / (3,500 x 13), roughly 2.6 m2. Suppliers will add margin for fouling and for your worst day. The cold end gap, the approach, is the number to watch. Push it below 3 or 4 K and the plate count rises steeply.</p>"
+  ],
+  [
+   "What Indian water does to the design",
+   "<p>Here is where many designs go wrong. Borewell and municipal water in much of India sits around 25 to 32 °C for much of the year. You cannot cool wort to 12 °C with 30 °C water in a single stage. A two-stage chiller uses tower or mains water first, taking wort down to the mid 30s °C, then glycol or chilled water for the last stretch. The second stage carries a smaller share of the load but needs the colder coolant.</p><p>Size the refrigeration as well. Recharging 1,100 litres of water from 30 °C to 3 °C takes about 124,000 kJ, around 34 kWh of cooling. Spread over eight hours, that is over 4 kW of refrigeration before losses. Our guide to <a href=\"glycol-cooling-systems.html\">glycol cooling systems</a> covers the plant side.</p>"
+  ],
+  [
+   "The floor test: watch the last ten minutes",
+   "<p>The classic symptom of an undersized system is wort out temperature creeping up near the end of the cast. The plates are fine. The ice water tank has warmed, so the approach collapses. Log wort out and coolant in temperatures every five minutes on a few brews. If both rise together in the last quarter, the tank or the refrigeration is too small, not the exchanger.</p>"
+  ],
+  [
+   "Fouling, cleaning and commissioning",
+   "<p>Hot break and hop matter foul the wort side. U falls as plates foul. Clean in place after every brew with hot caustic, flowing in the reverse direction to wort. Open the plate pack on a schedule to inspect gaskets. During <a href=\"brewhouse-commissioning-checklist.html\">brewhouse commissioning</a>, run a water test at full flow and record pressure drop and temperatures. That baseline tells you later when plates are fouling.</p><p>Fit thermometers on wort out and coolant out, plus a flow meter on the wort line, if the supplier did not. Without them you are sizing and troubleshooting blind. Add an oxygen injection point after the chiller as well, because cold wort is where aeration belongs, not hot wort upstream.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I add plates to an existing heat exchanger?",
+   "Often yes, if the frame has space and the supplier can match the plate type. Check the coolant supply first, because more plates do not help if the ice water runs out."
+  ],
+  [
+   "Is glycol better than chilled water for wort?",
+   "Chilled water is easier, because it can be heated and sent to the hot liquor tank. Glycol is common as a second stage when mains water is too warm."
+  ],
+  [
+   "How fast should knockout be?",
+   "Many brewhouses aim for 45 to 60 minutes. Long knockouts allow more DMS to form in the hot wort and tie up the brewhouse."
+  ]
+ ],
+ "cta": {
+  "title": "Size your cooling with a consultant brewer",
+  "body": "We start with a brewery health check and a written action plan. For wort cooling that covers heat load, coolant supply, refrigeration and the exchanger itself, reviewed against your real brew logs.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "how-to-chill-wort-fast",
+  "glycol-cooling-systems",
+  "brewhouse-commissioning-checklist"
+ ]
+}

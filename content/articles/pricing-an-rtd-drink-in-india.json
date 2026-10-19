@@ -1,0 +1,67 @@
+{
+ "slug": "pricing-an-rtd-drink-in-india",
+ "cat": "Drinks business",
+ "h1": "Pricing an RTD drink in India: cost, excise and margin",
+ "title": "Pricing an RTD Drink in India | Craft Beer School",
+ "desc": "How to build the price of an RTD in India from liquid, packaging and excise to distributor and retail margins, working back from shelf price.",
+ "teaser": "Most RTD founders price from their cost upwards. The shelf price decides first, so start there and work back.",
+ "standfirst": "An RTD's shelf price passes through production, packaging, state excise, distribution and retail before a customer sees it. Each step takes a share. This guide shows how to build the price both ways, so you know whether your drink can make money before you fill a single can.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two ways to build a price",
+   "<p>Cost-plus pricing starts at the bottom: add up what the drink costs, add your margin, add duty and channel margins and see what shelf price comes out. Market pricing starts at the top: decide the price a customer will pay on the shelf, take away each layer and see what is left for you.</p>\n<p>Do both. If cost-plus gives a shelf price far above what the market will pay, the business does not work at that cost. Our guide to <a href=\"beer-pricing-strategy.html\">beer pricing strategy</a> applies the same thinking to beer.</p>"
+  ],
+  [
+   "Your cost per can",
+   "<p>List every cost for one can or bottle, per litre and per unit:</p>\n<ul>\n<li><strong>Liquid.</strong> Base alcohol or fermented base, flavours, sweeteners, acids, juice and water.</li>\n<li><strong>Packaging.</strong> Can or bottle, end or crown, label or printing, carton or multipack wrap, shipping case.</li>\n<li><strong>Production.</strong> Your own plant costs or the contract manufacturer's fee per unit.</li>\n<li><strong>Losses.</strong> Every batch loses some liquid and some packaging. Count them.</li>\n<li><strong>Quality control.</strong> Lab tests, shelf life trials and retained samples.</li>\n<li><strong>Freight.</strong> To your warehouse and on to distributors.</li>\n</ul>\n<p>Our guide to <a href=\"cost-per-litre-beer.html\">cost per litre for beer</a> shows how to lay this out. Printed cans and custom bottles often carry high minimum orders, which can push the true unit cost up for a new brand.</p>"
+  ],
+  [
+   "Excise and taxes",
+   "<p>For an alcoholic RTD, state excise is often the largest single layer. Each Indian state sets its own duties, fees and rules. Depending on the state and the category, duty may be charged on volume, on alcohol content, on a declared price or on a mix of these. An RTD may fall into a beer, wine, spirit-based or separate category depending on its base, which changes the duty a great deal.</p>\n<p>Ask a licensing consultant how your drink is classified and what it would pay in each state you plan to enter. Use the current notification, not last year's figures. Our guide on <a href=\"excise-for-finance-teams-beer-wine-spirits.html\">excise for finance teams</a> explains the calculations in more detail.</p>\n<p>An alcohol-free RTD falls outside excise and instead pays the indirect taxes that apply to soft drinks, so the price structure looks very different.</p>"
+  ],
+  [
+   "Distributor and retailer margins",
+   "<p>Distributors earn a margin for warehousing, delivery, credit and sales effort. Retailers earn a margin on top. In some states a government corporation sits in the chain as wholesaler or retailer, with its own fixed margins. Many states also fix a maximum retail price that is printed on the label and cannot be exceeded.</p>\n<p>Bars and restaurants price differently again, usually at a multiple of their buying price. If your drink is meant to sell in bars, check what its menu price would be and whether a guest would pay it.</p>"
+  ],
+  [
+   "Working back from the shelf",
+   "<p>Here is the method in steps. Use your own numbers.</p>\n<ol>\n<li>Choose a target shelf price by looking at the drinks your customer would compare yours with.</li>\n<li>Take off the retailer's margin to get the price the retailer pays.</li>\n<li>Take off the distributor's margin to get the price the distributor pays.</li>\n<li>Take off excise and other taxes due at that stage, following your state's rules.</li>\n<li>What remains is your net revenue per can. Subtract your cost per can.</li>\n</ol>\n<p>The result is your gross margin per unit. If it is thin or negative, you have three levers: cut cost, pick a different channel or state, or reposition the drink at a higher price with a brand to match.</p>"
+  ],
+  [
+   "Hidden costs that eat margin",
+   "<p>Several costs never show up on the cost sheet but come out of your margin all the same. Trade schemes and listing fees, sampling and promotion, breakages and expired stock all take a share. So does the cost of money while you wait for payment. Excise in some states is paid before the drink is sold, which ties up cash for weeks or months.</p>\n<p>Build these into a monthly cash flow forecast, by state. Many drinks brands find their per can margin looks healthy while the business runs out of cash.</p>\n<p>Revisit the price every time a state changes its duty, a packaging supplier raises prices or you enter a new channel. A price that worked at launch can quietly stop working a year later. Keep the whole calculation in one spreadsheet, one tab per state, so anyone in the team can see where each rupee goes.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the biggest part of an RTD's price in India?",
+   "For alcoholic RTDs, state excise is often the largest layer, though it varies by state and by how the drink is classified."
+  ],
+  [
+   "Should I price my RTD from cost or from the market?",
+   "Both. Work up from cost to see what you need, then work back from a realistic shelf price to see what the market leaves you."
+  ],
+  [
+   "Do alcohol-free RTDs pay excise?",
+   "Generally no. They fall under food regulation and the indirect taxes that apply to soft drinks."
+  ],
+  [
+   "Why is my margin positive but I am short of cash?",
+   "Excise paid before sale, packaging minimums and slow payment from the market tie up cash. Build a monthly cash flow forecast."
+  ]
+ ],
+ "cta": {
+  "title": "Price your RTD so the numbers work",
+  "body": "Our RTD Drinks course runs for two weeks for ₹5,000. It covers formulation, packaging, costing and pricing for alcoholic and alcohol-free drinks, with worked examples you can adapt to your own figures.",
+  "label": "See the full syllabus",
+  "href": "rtd-drinks-alcoholic-and-non-alcoholic-course.html"
+ },
+ "related": [
+  "excise-for-finance-teams-beer-wine-spirits",
+  "beer-pricing-strategy",
+  "cost-per-litre-beer"
+ ]
+}

@@ -3,7 +3,7 @@
 
 These are the author's own words, lightly proofread and nothing more. They
 carry an `author` record (the writer's byline and Person schema) and usually a
-`subject` record (whose story it is, shown with a photo), and no mid-story CTA.
+`subject` record (whose story it is, shown with a photo) and no mid-story CTA.
 """
 
 GOPAL_JOSHI_TIE = dict(

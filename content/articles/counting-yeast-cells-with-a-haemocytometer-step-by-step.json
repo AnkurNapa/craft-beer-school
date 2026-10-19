@@ -1,0 +1,71 @@
+{
+ "slug": "counting-yeast-cells-with-a-haemocytometer-step-by-step",
+ "cat": "Brewing science",
+ "h1": "Counting yeast cells with a haemocytometer step by step",
+ "title": "Counting Yeast With a Haemocytometer | Craft Beer School",
+ "desc": "A step by step guide to counting yeast with a haemocytometer: dilution, staining, which squares to count, the formula and a 1,000 litre worked example.",
+ "teaser": "A microscope, a counting chamber and twenty minutes. That is all it takes to stop guessing your pitch rate.",
+ "standfirst": "Pitch rate drives fermentation speed, flavour and repeatability, yet many small breweries pitch by volume and hope. A haemocytometer count turns that guess into a number. Here is how to do it, from slurry to litres.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What you need",
+   "<ul><li>A microscope with 400x magnification (a 40x objective with a 10x eyepiece)</li><li>A haemocytometer, usually an improved Neubauer chamber, with its cover glass</li><li>Micropipettes, or accurate graduated pipettes, with clean tips</li><li>Sterile or distilled water for dilution</li><li>Methylene blue or methylene violet stain for viability</li><li>A tally counter, which saves losing count</li></ul><p>An improved Neubauer chamber has a counting grid with a central square of 1 mm by 1 mm, divided into 25 smaller squares. With the cover glass in place, the chamber is 0.1 mm deep. Those dimensions are what make the maths work.</p>"
+  ],
+  [
+   "Step 1: sample and dilute",
+   "<p>Mix the slurry thoroughly before sampling. Yeast settles fast. A sample from the top of a jar will give a very different count from one taken after a good stir.</p><p>Thick slurry has far too many cells to count directly. Dilute it. Slurry usually needs around 1 in 100 overall, counting the stain added in step 2. A 1 in 50 dilution, such as 1 mL of slurry in 49 mL of water, followed by the 1:1 stain gets you there. Mix well after each dilution. Aim for roughly 20 to 50 cells in each small square you count. Too few and the count is statistically weak. Too many and you lose track.</p>"
+  ],
+  [
+   "Step 2: stain for viability",
+   "<p>Mix the diluted sample with an equal volume of methylene blue. Remember that this doubles the dilution. Live cells take up the dye and reduce it to colourless. Dead cells stay blue. Count within about ten minutes of staining, because live cells start to take up stain if left too long and the viability figure falls artificially. Our guide to <a href=\"yeast-viability-and-vitality.html\">yeast viability and vitality</a> covers the stains and their limits.</p>"
+  ],
+  [
+   "Step 3: load and count",
+   "<p>Place the cover glass on the chamber. Touch the pipette tip to the edge of the cover glass and let the sample draw itself in by capillary action. Do not overfill. If liquid runs into the moats on either side, clean and start again.</p><p>Wait a minute for the cells to settle, then focus on the central grid. Count five of the 25 small squares: the four corners and the centre. Count every cell inside each square. For cells touching the edges, use a fixed rule: count cells on the top and left lines, ignore those on the bottom and right. Count a budding cell as one cell unless the bud is at least half the size of the mother.</p><p>Keep two tallies: clear cells and blue cells. The floor detail that ruins most first counts: clumped yeast. Flocculent strains stick together. Gently mix the diluted sample just before staining. If clumps remain, note it. A count full of clumps is not reliable.</p>"
+  ],
+  [
+   "Step 4: do the maths",
+   "<p>Cells per millilitre = (total cells in 5 squares) x 5 x dilution factor x 10,000.</p><p>The x 5 scales from five squares to all 25. The x 10,000 converts from the chamber's volume, 0.1 cubic millimetres, to a millilitre. The dilution factor includes the stain.</p><p>Example: you diluted slurry 1 in 50, then mixed it 1:1 with stain, giving a total dilution of 1 in 100. You count 150 cells in five squares, of which 9 are blue.</p><ul><li>Cell density: 150 x 5 x 100 x 10,000 = 750 million cells per mL</li><li>Viability: (150 minus 9) divided by 150 = 94%</li><li>Viable cells: about 705 million per mL</li></ul>"
+  ],
+  [
+   "Step 5: work out the pitch",
+   "<p>Common practice is around 0.75 million cells per mL per degree Plato for ales and 1.5 million for lagers. See <a href=\"pitching-yeast-properly.html\">pitching yeast properly</a> for when to adjust.</p><p>For a 1,000 litre batch of lager at 12 °P: 1.5 million x 12 = 18 million cells per mL of wort. Multiply by 1,000,000 mL and you need 18 x 10 to the power 12 cells, which is 18 trillion. Divide by 705 million viable cells per mL of slurry and you need about 25,500 mL, roughly 25.5 litres of slurry.</p><p>Without the count, a brewer might pitch 15 litres of a thin slurry or 40 litres of a thick one and never know why the two batches tasted different.</p>"
+  ],
+  [
+   "Making it routine",
+   "<p>Count every pitch and write the result next to the batch's fermentation record. Over time you will see how pitch rate relates to lag time, attenuation and flavour on your own system. Repeat each count at least twice and average them. If the two counts differ by more than about 10%, mix and count again.</p><p>Cell counting is a small skill with a big effect. It is also the gateway to the rest of brewery microbiology, from plating to tracking yeast health across generations. A basic microscope set-up fits easily into a <a href=\"brewery-qc-lab-on-a-budget.html\">QC lab on a budget</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many squares do I count on a haemocytometer?",
+   "Count five of the 25 central squares, usually the four corners and the centre, then multiply by five to cover all 25."
+  ],
+  [
+   "What is the formula for yeast cell count?",
+   "Cells per mL = total cells in 5 squares x 5 x dilution factor x 10,000, for an improved Neubauer chamber 0.1 mm deep."
+  ],
+  [
+   "How long can I wait after methylene blue staining?",
+   "Count within about ten minutes. Live cells begin to take up stain if left longer, which makes viability look worse than it is."
+  ],
+  [
+   "What pitch rate should I use for lager?",
+   "A common guideline is about 1.5 million viable cells per mL per degree Plato, roughly double the usual ale rate."
+  ]
+ ],
+ "cta": {
+  "title": "Run a real yeast programme, not a guess",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers yeast counting, viability, propagation and microbiology so you can manage yeast across generations with numbers.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "yeast-viability-and-vitality",
+  "pitching-yeast-properly",
+  "brewery-qc-lab-on-a-budget"
+ ]
+}

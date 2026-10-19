@@ -1,0 +1,71 @@
+{
+ "slug": "maltose-negative-yeast-strains-for-low-alcohol-beer",
+ "cat": "Brewing science",
+ "h1": "Maltose-negative yeast strains for low alcohol beer",
+ "title": "Maltose-negative yeast for low ABV beer | Craft Beer School",
+ "desc": "How maltose-negative yeasts make low alcohol beer, how to design the wort around them and how to keep the product safe.",
+ "teaser": "A yeast that refuses to eat maltose can make a beer with very little alcohol. The hard part is everything that sugar leaves behind.",
+ "standfirst": "Maltose-negative yeasts ferment simple sugars but leave maltose untouched, so the beer finishes low in alcohol. We explain how they work, how to design the wort and how to manage flavour and microbial safety.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What maltose-negative means",
+   "<p>Most brewing yeasts ferment maltose, the main sugar in wort. Maltose-negative yeasts cannot. They ferment glucose, fructose and sucrose, which make up a small share of wort sugars. Then they stop.</p><p>The result is a beer with low alcohol and a lot of residual maltose. This makes it a biological route to low and no alcohol beer, without the need for dealcoholisation equipment. Our guide to <a href=\"low-and-no-alcohol-production-routes.html\">low and no alcohol production routes</a> compares it with other methods.</p>"
+  ],
+  [
+   "Common yeast options",
+   "<p>Several types of yeast are used:</p><ul><li><strong><em>Saccharomycodes ludwigii</em></strong>, a long-standing choice for low alcohol beer.</li><li><strong><em>Pichia kluyveri</em></strong>, used commercially for its fruity aroma.</li><li><strong>Selected <em>Torulaspora</em> strains</strong> with limited maltose use.</li><li><strong>Newer bred <em>Saccharomyces</em> strains</strong> made specifically for low alcohol brewing.</li></ul><p>Each behaves differently in flavour, flocculation and speed. Ask the supplier for technical data and run trials before scaling up. Our guide to <a href=\"ale-vs-lager-yeast.html\">ale versus lager yeast</a> covers how standard strains differ.</p>"
+  ],
+  [
+   "Designing the wort",
+   "<p>Since the yeast only uses simple sugars, the wort must be designed around that:</p><ul><li><strong>Low original gravity.</strong> Often far below a normal beer, to keep both alcohol and sweetness in check.</li><li><strong>High mash temperature.</strong> Mashing hotter, often in the 70s °C, favours dextrins over fermentable sugars.</li><li><strong>Low simple sugar content.</strong> Avoid adding glucose or sucrose, as these will ferment.</li><li><strong>Specialty malts.</strong> Small amounts of caramel or roasted malts can help balance sweetness.</li></ul><p>Alcohol content depends on the amount of fermentable simple sugars in the wort. Measure the sugar profile in trials, as theory alone can miss the mark. Our guide to <a href=\"brewing-sugars-explained.html\">brewing sugars</a> explains which sugars yeast can use.</p>"
+  ],
+  [
+   "Managing worty flavours",
+   "<p>The biggest flavour challenge is worty, sweet or grainy character. Normal fermentation reduces many wort aldehydes into less flavour-active alcohols. Maltose-negative yeasts do some of this, but the short fermentation gives less time.</p><p>Brewers manage it by:</p><ul><li>Using fresh, well modified malt with low aldehyde levels.</li><li>Keeping hot side oxygen low.</li><li>Adding late hops for aroma and some bitterness to balance sweetness.</li><li>Acidifying to a lower pH, which brightens flavour.</li></ul>"
+  ],
+  [
+   "Microbial safety",
+   "<p>A low alcohol beer full of residual maltose is an easy target for spoilage organisms. It has neither the alcohol nor the low sugar that protect normal beer.</p><p>Most producers pasteurise low alcohol beer. Many also acidify to a pH below about 4.2. This is a common safety target for low alcohol drinks, but your supplier, lab and regulator should confirm the right approach for your product.</p><p>One brewhouse-floor detail: any wild yeast or standard brewing yeast that gets into the beer will ferment the maltose. That raises alcohol and builds pressure in packages. Keep low alcohol brewing equipment and hoses separate, or clean them thoroughly between batches.</p>"
+  ],
+  [
+   "Fermentation in practice",
+   "<p>Maltose-negative fermentations are usually short. The simple sugars run out quickly, often within a few days. Monitor gravity and alcohol closely, because the fermentation can stop well before a brewer used to normal beer expects.</p><p>Temperature affects flavour. Warmer fermentations can increase fruity esters, which may help mask worty notes. Cooler fermentations give a cleaner profile. Trials will show which suits your recipe.</p><p>After fermentation, many brewers cool and condition the beer briefly before filtering or centrifuging. Removing the yeast lowers the risk of further fermentation, though it does not replace pasteurisation.</p>"
+  ],
+  [
+   "Regulation in India",
+   "<p>Definitions of low alcohol and non-alcoholic beer vary by country. In India, the FSSAI and state excise departments set the rules. These can change, so check the current notifications before labelling a product or planning a launch. Work with a licensing consultant if you are unsure.</p><p>Excise treatment of low alcohol drinks also differs between states. A state may treat them differently from regular beer, which affects where you can sell, how you price and which licence you need, so settle it before you design the product.</p>"
+  ],
+  [
+   "Why trials matter",
+   "<p>Maltose-negative brewing looks simple on paper. In practice, the balance between sweetness, body, acidity and alcohol takes several trial batches to get right. Small changes in mash temperature or malt bill can shift the result.</p><p>A structured course in low and no alcohol brewing can save months of trial and error, covering yeast choice, wort design and the safety steps that keep the product stable.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do maltose-negative yeasts make low alcohol beer?",
+   "They ferment simple sugars such as glucose and fructose but leave maltose, so only a small share of wort sugar becomes alcohol."
+  ],
+  [
+   "Is low alcohol beer made this way safe?",
+   "With pasteurisation and good pH control, it can be. Residual maltose makes it vulnerable to spoilage, so microbial safety must be designed in."
+  ],
+  [
+   "What mash temperature should I use?",
+   "Many brewers mash hotter, often in the 70s °C, to favour dextrins over fermentable sugars. Run trials to confirm."
+  ]
+ ],
+ "cta": {
+  "title": "Make a low alcohol beer that tastes like beer",
+  "body": "Non-Alcoholic Beer is a 2 week live course that covers yeast choice, wort design, flavour balance and the safety steps that a single guide can only outline. ₹5,000.",
+  "href": "non-alcoholic-beer-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "low-and-no-alcohol-production-routes",
+  "ale-vs-lager-yeast",
+  "brewing-sugars-explained"
+ ]
+}

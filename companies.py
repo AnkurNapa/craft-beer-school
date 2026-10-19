@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Corporate services: training, hiring, brand and marketing consultancy,
-market entry into India, and digital transformation, for drinks businesses.
+market entry into India and digital transformation, for drinks businesses.
 
 Team facts here must match what the About page already says about the
 mentors. Do not add employers, numbers or claims that are not on the site.
@@ -31,7 +31,7 @@ PROGRAMMES = [
     ("flask", "Brewing and distilling operations",
      "The brewhouse, cellar, still and bottling line as numbers: yield, losses, quality checks and the KPIs analysts are asked to explain."),
     ("globe", "Raw materials and supply chain",
-     "Barley and malt, hops, grapes, casks, glass and cans, and the cold chain, so planners and buyers know what sits behind each line item."),
+     "Barley and malt, hops, grapes, casks, glass and cans, plus the cold chain, so planners and buyers know what sits behind each line item."),
     ("briefcase", "Route to market and regulation in India",
      "Excise, state-by-state rules, labels and distribution, explained for commercial and finance teams. A briefing, not legal advice."),
     ("award", "Guided sensory sessions",
@@ -128,8 +128,8 @@ BODY = banner(
     <div class="prose-block reveal">
       <span class="eyebrow">Brand and digital marketing consultancy</span>
       <h2>A beer brand people remember, marketed within the rules.</h2>
-      <p>Most craft beer in India is sold by word of mouth, a label on a shelf and a social feed. We help breweries and drinks brands get those right: who the brand is for, what it is called, how it looks on the shelf and in a feed, and how it reaches people.</p>
-      <p>Alcohol advertising in India is restricted, and the rules vary by state and change, so every plan we write works inside them. Where a formal opinion is needed, we work alongside your legal advisers.</p>
+      <p>Most craft beer in India is sold by word of mouth, a label on a shelf and a social feed. We help breweries and drinks brands get those right: who the brand is for, what it is called, how it looks on the shelf and in a feed and how it reaches people.</p>
+      <p>Alcohol advertising in India is restricted. The rules vary by state and change, so every plan we write works inside them. Where a formal opinion is needed, we work alongside your legal advisers.</p>
       <div class="cta-pair" style="margin-top:1.4rem"><a class="btn btn-amber" href="{BRAND_HREF}" data-cta="companies-brand">Talk about your brand</a></div>
     </div>
     <div class="prose-block reveal">
@@ -145,8 +145,8 @@ BODY = banner(
     <div class="prose-block reveal">
       <span class="eyebrow">Market entry into India</span>
       <h2>Bringing beer, ingredients or packaging to India.</h2>
-      <p>For companies outside India who want to sell here: beer brands, maltsters, hop and yeast suppliers, adjunct and ingredient makers, can, glass, keg and label suppliers, and equipment makers.</p>
-      <p>India is not one market. Licences, excise, labelling and distribution change from state to state, and the brewers you want to sell to are spread across a handful of cities. We help you work out where to start and who to start with, and we work alongside your legal and tax advisers on the formal steps.</p>
+      <p>For companies outside India who want to sell here: beer brands, maltsters, hop and yeast suppliers, adjunct and ingredient makers, can, glass, keg and label suppliers and equipment makers.</p>
+      <p>India is not one market. Licences, excise, labelling and distribution change from state to state. The brewers you want to sell to are spread across a handful of cities. We help you work out where to start and who to start with. We work alongside your legal and tax advisers on the formal steps.</p>
       <div class="cta-pair" style="margin-top:1.4rem"><a class="btn btn-amber" href="{ENTRY_HREF}" data-cta="companies-india">Plan your entry</a></div>
     </div>
     <div class="prose-block reveal">
@@ -162,14 +162,14 @@ BODY = banner(
     <div class="prose-block reveal">
       <span class="eyebrow">Digital transformation</span>
       <h2>Data, software and AI that a brewery will actually use.</h2>
-      <p>We help breweries and drinks businesses move from paper, WhatsApp and memory to systems the whole team uses: brew and cellar records, stock and batch tracking, dashboards for the numbers that matter, and AI where it saves real time.</p>
-      <p>We start with how the business runs today, not with a software catalogue, and leave you with a plan you can afford and keep doing. If your team wants to learn it themselves, the <a href="digital-transformation-basics-for-brewing-course.html" style="color:var(--blue);text-decoration:underline">Digital Transformation</a> and <a href="ai-for-craft-breweries-course.html" style="color:var(--blue);text-decoration:underline">AI for Craft Breweries</a> courses cover the basics.</p>
+      <p>We help breweries and drinks businesses move from paper, WhatsApp and memory to systems the whole team uses: brew and cellar records, stock and batch tracking, dashboards for the numbers that matter and AI where it saves real time.</p>
+      <p>We start with how the business runs today, not with a software catalogue. We leave you with a plan you can afford and keep doing. If your team wants to learn it themselves, the <a href="digital-transformation-basics-for-brewing-course.html" style="color:var(--blue);text-decoration:underline">Digital Transformation</a> and <a href="ai-for-craft-breweries-course.html" style="color:var(--blue);text-decoration:underline">AI for Craft Breweries</a> courses cover the basics.</p>
       <div class="cta-pair" style="margin-top:1.4rem"><a class="btn btn-amber" href="{DIGITAL_HREF}" data-cta="companies-digital">Start with a conversation</a></div>
     </div>
     <div class="prose-block reveal">
       {photos.figure("service:digital", "Brewery tanks")}
       <span class="eyebrow">What we do</span>
-      <ul class="checklist"><li>Mapping how production, stock and sales run today</li><li>Choosing brewery management or ERP software, or staying with spreadsheets</li><li>Dashboards for production, quality, stock and sales</li><li>Sensors and logging on fermenters and cold rooms</li><li>AI use cases worth doing, and the ones to skip</li><li>A 90-day roadmap and help delivering it</li></ul>
+      <ul class="checklist"><li>Mapping how production, stock and sales run today</li><li>Choosing brewery management or ERP software, or staying with spreadsheets</li><li>Dashboards for production, quality, stock and sales</li><li>Sensors and logging on fermenters and cold rooms</li><li>AI use cases worth doing and the ones to skip</li><li>A 90-day roadmap and help delivering it</li></ul>
     </div>
   </div>
 </section>
@@ -193,7 +193,7 @@ BODY = banner(
 <section class="sand">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Why us</span><h2>Taught and screened by people who have done the work.</h2>
-      <p class="lead">Our mentors include a Master Brewer with hands-on experience at global brewing companies who also works in data and AI, a Weihenstephan-trained German-style Brewmaster based in Delhi, a creative strategist with more than 30 years in advertising and an operations lead with more than 15 years in education and operations. We teach what we have done, and we hire the way we would want to be hired.</p></div>
+      <p class="lead">Our mentors include a Master Brewer with hands-on experience at global brewing companies who also works in data and AI, a Weihenstephan-trained German-style Brewmaster based in Delhi, a creative strategist with more than 30 years in advertising and an operations lead with more than 15 years in education and operations. We teach what we have done. We hire the way we would want to be hired.</p></div>
     <div class="cta-pair"><a class="btn btn-amber" href="contact.html#enroll" data-cta="companies-bottom-enquire">Talk to us</a><a class="btn btn-wa" href="__WA__" target="_blank" rel="noopener" data-cta="companies-bottom-whatsapp">[[whatsapp]] WhatsApp us</a><a class="btn btn-ghost" href="corporate-brochure.html" data-cta="companies-bottom-brochure">Corporate brochure</a></div>
   </div>
 </section>

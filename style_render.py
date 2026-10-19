@@ -220,7 +220,7 @@ def index(cards):
     <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <span>Style Library</span></nav>
     <span class="eyebrow">Style Library</span>
     <h1 class="post-title">{len(cards)} beer styles, explained for India</h1>
-    <p class="lead">Colour, bitterness and strength at a glance, what each beer tastes like, how it holds up in our heat, and what to eat with it, from dal makhani to Goan prawn curry.</p>
+    <p class="lead">Colour, bitterness and strength at a glance, what each beer tastes like, how it holds up in our heat and what to eat with it, from dal makhani to Goan prawn curry.</p>
     {_byline(AUTHORS + [("Food pairings by", PAIRING_BY)])}{credit_strip(True)}
     <input class="style-search" type="search" placeholder="Search styles, e.g. stout, wheat, sour" aria-label="Search styles">
     <nav class="seg-nav style-filter" aria-label="Filter by family">{chips}</nav>
@@ -283,7 +283,7 @@ def pages(articles_by_slug):
     if not cards:
         return {}
     out = {INDEX: ("Beer Style Library, 80 Styles for India | Craft Beer School",
-                   "Every major beer style at a glance: colour, bitterness, strength, taste, and Indian food pairings, written by working brewers.",
+                   "Every major beer style at a glance: colour, bitterness, strength, taste and Indian food pairings, written by working brewers.",
                    "styles", index(cards))}
     for c in cards.values():
         g = articles_by_slug.get(c.get("guide") or "")

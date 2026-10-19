@@ -1,0 +1,67 @@
+{
+ "slug": "whisky-wash-fermentation",
+ "cat": "Whisky",
+ "h1": "Whisky wash fermentation: yeast choice, time and flavour",
+ "title": "Whisky Wash Fermentation: Yeast and Time | Craft Beer School",
+ "desc": "How whisky wash fermentation works: no boil, yeast choice, fermentation length, temperature control in Indian heat and the flavours each creates.",
+ "teaser": "No boil, no hops, two to four days. The washback is where much of a whisky's fruit is born.",
+ "standfirst": "Distillers often say flavour is made in the washback and refined in the still. Fermentation decides how much fruit, how much cereal and how many faults your new make carries before it ever sees copper.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "How wash differs from beer",
+   "<p>Whisky wash starts much like beer wort. Malted barley is mashed in hot water and the sweet liquid is run off. Then the paths split. Distillers usually do not boil the wort or add hops. The wort is cooled straight into the washback and yeast is added.</p><p>Skipping the boil matters. The malt enzymes are not destroyed, so they keep breaking down dextrins during fermentation into sugars the yeast can use. The result is a very dry wash, often finishing at or below a gravity of 1.000. Our guide to <a href=\"enzymes-in-the-mash.html\">enzymes in the mash</a> explains which enzymes do this work. A typical malt whisky wash starts at a gravity of around 1.050 to 1.060 and ends near 8% ABV.</p>"
+  ],
+  [
+   "Choosing the yeast",
+   "<p>Most malt distilleries use dedicated distilling yeast strains, chosen for fast fermentation, high alcohol tolerance and the ability to work at higher temperatures. Some add a portion of brewing yeast for extra fruity character.</p><p>Yeast choice changes the esters and higher alcohols that carry into the new make. Distilling yeasts are usually supplied as dried or cream yeast. Pitch generously, as underpitching leads to slow starts, more bacteria and more sulphur. Healthy, well-fed yeast is the first defence against off-notes.</p>"
+  ],
+  [
+   "Temperature: the Indian challenge",
+   "<p>Wash fermentation releases a lot of heat. Distillers commonly pitch around 18 to 20 °C and let the temperature rise during fermentation, often into the low 30s °C. Above that, yeast becomes stressed, makes more fusel alcohols and sulphur compounds and can stall.</p><p>In Indian heat, wort may arrive at the washback warmer than ideal and the fermentation room can be hot. Without cooling, washbacks can overheat quickly. Plan for wort cooling capacity and washback cooling jackets or coils from the start. Log washback temperature regularly, every few hours at minimum. It is a cheap habit that catches a runaway washback while it can still be saved.</p>"
+  ],
+  [
+   "How long to ferment",
+   "<p>Fermentation times vary from about 48 hours to more than 100 hours. Most of the alcohol is made in the first two days. What happens afterwards is about flavour.</p><p>Short fermentations give a more cereal, nutty, malty new make. Longer fermentations, often 70 hours and more, allow lactic acid bacteria to become active once the yeast slows. Their acids react with alcohol over time to create esters, giving a fruitier, more floral spirit. This late bacterial activity is normal and wanted in many distilleries. It is not the same as infection, but it needs control.</p>"
+  ],
+  [
+   "Washbacks: wood or steel",
+   "<p>Traditional washbacks are made of wood, often larch or Oregon pine. Wood is hard to clean completely and holds a population of bacteria that can add character. Stainless steel washbacks are easier to clean and control.</p><p>Many distillers believe wooden washbacks give more complex spirit, while steel gives consistency. In Indian heat, steel is easier to keep clean and cool. A craft distillery starting out usually does best with steel and consistent practice.</p><p>Whatever the material, leave headroom. A vigorous wash can foam up by a large share of its volume in the first day, especially with high protein Indian six-row malt. Many distillers fill to around three quarters of capacity or fit mechanical foam breakers called switchers rather than lose wash over the top.</p>"
+  ],
+  [
+   "Measuring and recording",
+   "<p>Track every washback: original gravity, pitching temperature, yeast type and amount, temperature through fermentation, final gravity, pH and length. Over time, these records let you link flavour in the new make to choices made in the washback.</p><p>A falling pH that drops too far or too fast can signal bacterial contamination. A gravity that stalls well above 1.000 points to yeast stress, low enzyme activity or temperature problems. Our guide to <a href=\"getting-new-make-spirit-right.html\">getting new make spirit right</a> shows how fermentation records feed into still and cut decisions.</p>"
+  ],
+  [
+   "Cleaning and hygiene",
+   "<p>Wash is not boiled, so any bacteria in the wort or the washback can grow. Clean washbacks thoroughly between fills, check transfer lines and heat exchangers and keep the yeast handling clean.</p><p>Some bacterial activity late in fermentation can be useful. Uncontrolled contamination early on is not. It eats sugar that should become alcohol and creates sour or solvent notes that the still cannot remove.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is whisky wort not boiled?",
+   "Skipping the boil keeps malt enzymes active, so they break down more starch into fermentable sugars during fermentation. That gives a drier wash and more alcohol."
+  ],
+  [
+   "How long does whisky wash ferment?",
+   "Usually between about 48 and 100 or more hours. Longer fermentations tend to give fruitier, more complex spirit."
+  ],
+  [
+   "What temperature should whisky wash ferment at?",
+   "Commonly pitched around 18 to 20 °C and allowed to rise, ideally staying below the mid 30s °C to avoid stressed yeast."
+  ]
+ ],
+ "cta": {
+  "title": "Control fermentation and shape your new make",
+  "body": "Craft Distilling runs for four weeks of live weekend classes at ₹9,999. It takes you through mashing, fermentation, cuts and cask maturation with the numbers behind each decision, which a single guide cannot do.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "how-whisky-is-made",
+  "getting-new-make-spirit-right",
+  "enzymes-in-the-mash"
+ ]
+}

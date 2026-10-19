@@ -1,0 +1,67 @@
+{
+ "slug": "atp-swabs-for-quick-hygiene-checks-in-a-small-brewery",
+ "cat": "Brewing science",
+ "h1": "ATP swabs for quick hygiene checks in a small brewery",
+ "title": "ATP Swabs for Brewery Hygiene Checks | Craft Beer School",
+ "desc": "How ATP swabs work, what the RLU number means, where to swab in a small brewery and how to set your own pass and fail limits.",
+ "teaser": "Fifteen seconds to know whether a filler head is actually clean. Here is how to use ATP swabs properly.",
+ "standfirst": "An ATP swab tells you within seconds whether a surface still carries organic residue after cleaning. It does not tell you what bacteria are there. Used for what it measures, it is one of the most useful tools a small brewery can buy.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What an ATP swab measures",
+   "<p>ATP, adenosine triphosphate, is the energy molecule found in every living cell and in a lot of organic residue. Wort, beer, yeast, bacteria and hop debris all carry it. An ATP swab collects material from a surface. The swab is then activated so the sample meets an enzyme and substrate (luciferase and luciferin, the chemistry fireflies use). The reaction gives off light in proportion to the ATP present. A handheld luminometer reads that light as relative light units, or RLU.</p><p>A high RLU means the surface still has organic matter on it. A low RLU means it is clean in the sense that matters: nothing left for microbes to feed on or hide under.</p>"
+  ],
+  [
+   "What it does not tell you",
+   "<p>ATP is not a bacteria count. A swab cannot tell a smear of yeast from a colony of Lactobacillus. A surface that reads clean can still carry a small number of spoilage organisms. A surface that reads dirty may simply have beer residue on it.</p><p>So treat ATP as a cleaning verification test, not a microbiology test. Plating on selective media is still how you find out what is actually growing. The two work together: ATP tells you every day whether your cleaning worked, plates tell you every few weeks whether anything got through anyway.</p>"
+  ],
+  [
+   "Where to swab in a small brewery",
+   "<p>Swab the places that are hard to clean and touch the beer late in the process. A short list for a brewpub or small packaging brewery:</p><ul><li>Filler heads and the underside of the can or bottle filler bowl</li><li>Keg coupler and spear seals</li><li>Valve seats and butterfly valve gaskets on transfer lines</li><li>Sample valves on fermenters and bright tanks</li><li>The outlet side of the heat exchanger</li><li>The inside of transfer hose ends and fittings</li><li>Manway gaskets and the inside of the tank door</li><li>Draught line couplers and tap nozzles in the taproom</li></ul><p>Swab a fixed area each time, for example a 10 cm by 10 cm square on flat surfaces, or a full turn around a fitting. Consistency is what makes the numbers comparable.</p>"
+  ],
+  [
+   "Setting your own pass and fail limits",
+   "<p>Different brands of swab and luminometer use different RLU scales, so a number from one system means nothing on another. Ignore pass marks copied from someone else's brewery. Build your own.</p><p>Clean each point properly, as well as you possibly can. Swab it on several days. That gives a baseline for a clean surface. Then set a pass limit a little above that baseline and a fail limit well above it, with a caution band between. Most suppliers publish starting limits for their system, which you can then tighten with your own data.</p><p>Swab after cleaning and rinsing, before sanitising. Some sanitisers and chemical residues can quench the light reaction and give a falsely low reading. Write down which you did.</p>"
+  ],
+  [
+   "Turning readings into action",
+   "<p>A swab that fails is only useful if something happens next. Decide the response in advance: reclean and reswab, then record both results. A point that fails repeatedly is a design or method problem. A worn gasket, a dead leg or a valve that never gets fully opened during CIP will keep failing however hard the cellar team scrubs.</p><p>Log every result with the date, the point, the reading and who took it. Over a few months the log shows which points are chronic offenders. Feed that into your <a href=\"cip-cleaning-in-place.html\">CIP routine</a> and your wider <a href=\"quality-system-for-a-small-brewery.html\">quality system</a>. In Indian heat, residue that would sit harmlessly for a day in a cold climate can grow a biofilm quickly, so daily checks on the filler earn their keep.</p>"
+  ],
+  [
+   "Why this is a safety issue too",
+   "<p>Hygiene checks feel like a quality topic, but they sit inside brewery safety. The chemicals used to fix a failed swab, caustic, acid and sanitiser, are the ones that burn hands and eyes. A team that swabs, finds a problem and then improvises a stronger chemical mix is creating a new hazard. Swabbing works best inside a written cleaning and chemical handling procedure that everyone follows.</p><p>If your team has never had formal training on safe chemical use, lockout before entering tanks or CO2 risks in the cellar, that gap is worth closing before you scale up your hygiene programme.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does RLU mean on an ATP meter?",
+   "Relative light units. It is the amount of light the luminometer reads from the swab reaction, which rises with the amount of ATP and organic residue on the surface."
+  ],
+  [
+   "Can an ATP swab detect beer spoilage bacteria?",
+   "Not specifically. It detects ATP from any source, including yeast and beer residue. Use plating or PCR to identify spoilage organisms."
+  ],
+  [
+   "Should I swab before or after sanitising?",
+   "After cleaning and rinsing, before sanitising, because some sanitisers can suppress the light reaction and give a falsely clean reading."
+  ],
+  [
+   "How often should a small brewery swab?",
+   "Swab the filler and other critical points every packaging day. Rotate through the rest of your list over the week."
+  ]
+ ],
+ "cta": {
+  "title": "Join our free Safety in Brewing course",
+  "body": "A one week live course on weekends, with a maximum of 20 brewers per batch and a certificate at the end. It covers safe cleaning chemicals, CIP hazards, confined spaces and CO2.",
+  "label": "Save your seat",
+  "href": "safety-in-brewing-course.html"
+ },
+ "related": [
+  "cip-cleaning-in-place",
+  "brewery-qc-lab-on-a-budget",
+  "quality-system-for-a-small-brewery"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "yeast-flocculation-explained",
+ "cat": "Ingredients",
+ "h1": "Yeast flocculation explained and why it matters for clarity",
+ "title": "Yeast Flocculation and Beer Clarity | Craft Beer School",
+ "desc": "What yeast flocculation is, how low, medium and high flocculating strains behave and how to use it to get clear beer without stalled fermentations.",
+ "teaser": "Some yeasts drop like stones and leave beer clear in days. Others hang about for weeks. Flocculation explains why.",
+ "standfirst": "Flocculation is yeast's habit of clumping together and settling out. It decides how quickly your beer clears, how easy yeast is to harvest and sometimes whether fermentation finishes properly. Here is how it works and how to use it.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What flocculation is",
+   "<p>Flocculation is when yeast cells stick together into clumps, called flocs, that are heavy enough to sink to the bottom or, for some ale strains, rise to the top. Proteins on the yeast cell surface latch on to sugars on neighbouring cells, forming bridges. Calcium ions help those bridges form.</p><p>It usually happens near the end of fermentation, once the sugars the yeast prefers have run out. While there is still plenty of food, most strains stay in suspension and keep working.</p>"
+  ],
+  [
+   "Low, medium and high",
+   "<p>Yeast makers rate strains as low, medium or high flocculation.</p><ul><li><strong>High.</strong> Many English ale strains. They clump and drop fast, giving clear beer quickly. They can also drop before finishing, leaving diacetyl or residual sugar.</li><li><strong>Medium.</strong> Many clean American ale and lager strains. Good clarity with steady attenuation.</li><li><strong>Low.</strong> Hefeweizen and many Belgian strains. They stay in suspension and keep beer hazy, which suits those styles.</li></ul><p>There is often a trade-off with attenuation. A highly flocculent yeast tends to finish a little sweeter. A low-flocculating one keeps working longer and finishes drier.</p>"
+  ],
+  [
+   "Why it matters for clarity",
+   "<p>Yeast is one of the main causes of haze in young beer. A strain that flocculates well clears with little help. A low-flocculating strain may need time, cold or finings. Yeast haze is only one kind. Protein and polyphenol haze, chill haze and starch haze behave differently. Our guide to <a href=\"beer-haze-causes.html\">beer haze causes</a> helps you work out which you have.</p>"
+  ],
+  [
+   "Helping yeast drop",
+   "<p><strong>Cold.</strong> Chilling the beer to near 0 to 4 °C after fermentation encourages yeast to settle. Our guide to <a href=\"cold-crashing.html\">cold crashing</a> explains how to do it without sucking air into the fermenter.</p><p><strong>Time.</strong> A week or two of cold conditioning clears most beers.</p><p><strong>Finings.</strong> Gelatine or silica-based products help yeast and protein drop faster.</p><p><strong>Calcium.</strong> Yeast needs calcium in the water to flocculate well. Very soft or RO water with almost no calcium can leave yeast hanging. Many brewers keep calcium around 50 mg/L or more for most beers.</p>"
+  ],
+  [
+   "When high flocculation causes trouble",
+   "<p>A very flocculent strain can settle out before fermentation is finished, especially if the temperature drops overnight. Signs include gravity stalling above the expected figure and buttery diacetyl in the beer.</p><ul><li>Hold temperature steady. For English strains, let it rise a couple of degrees near the end.</li><li>Gently swirl or rouse the fermenter to bring yeast back into suspension.</li><li>Check gravity is stable over two or three days before chilling.</li></ul>"
+  ],
+  [
+   "Harvesting and reuse",
+   "<p>Flocculation decides where and when to collect yeast. Bottom-cropping strains settle into a cone and are harvested from the bottom of the fermenter. Some traditional ale strains rise into a thick top crop and can be skimmed. Harvest after the main fermentation, when the healthy yeast has settled but before it sits too long under warm beer. Our guide to <a href=\"yeast-harvesting-and-reuse.html\">yeast harvesting and reuse</a> covers the method.</p><p>Flocculation can also drift over generations. Repeatedly harvesting the earliest yeast to drop tends to select more flocculent cells. Harvesting from the middle of the yeast cake helps keep the strain true.</p>"
+  ],
+  [
+   "Flocculation in a brewpub",
+   "<p>On a commercial scale, flocculation affects how much beer you lose with the yeast, how long tanks are tied up and how hard the filter or centrifuge works. A strain that settles into a tight, compact cone gives a cleaner drop and less beer lost at the bottom of the tank. A powdery strain leaves more yeast in the beer going to the bright tank. These are reasons a brewery may stick with a house strain for years even when others promise more flavour.</p>"
+  ],
+  [
+   "Matching strain to style",
+   "<p>Choose the strain for the beer you want. For a bright pale ale or bitter, a medium or high flocculator saves time. For a hefeweizen or witbier, a low flocculator gives the expected haze. For a lager, a medium strain plus cold conditioning gives clarity. In a warm Indian flat without temperature control, a strain that clears without a deep cold crash can be the more practical choice.</p><p>Clear beer comes from several steps lined up: the right strain, healthy fermentation, enough calcium, cold and time. Each one is simple. Putting them together reliably is what makes a brewer.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does high flocculation mean?",
+   "The yeast clumps and settles out quickly, giving clear beer sooner. It can also drop early and leave fermentation unfinished."
+  ],
+  [
+   "Why is my beer still cloudy?",
+   "A low-flocculating strain, too little calcium, no cold conditioning or a protein or starch haze are common causes."
+  ],
+  [
+   "Does calcium help yeast settle?",
+   "Yes. Calcium helps yeast cells bond into flocs. Many brewers keep around 50 mg/L or more."
+  ],
+  [
+   "Does cold crashing help flocculation?",
+   "Yes. Chilling to near 0 to 4 °C after fermentation encourages yeast to drop out of suspension."
+  ]
+ ],
+ "cta": {
+  "title": "Get clearer, more consistent beer",
+  "body": "Brewing Fundamentals is a 4 week live course (₹5,999) covering yeast selection, fermentation control, conditioning and clarity, with feedback on your own brews.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-haze-causes",
+  "cold-crashing",
+  "yeast-harvesting-and-reuse"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "erp-mes-and-lims-in-a-brewery-a-systems-map-for-it-teams",
+ "cat": "Beer for teams",
+ "h1": "ERP, MES and LIMS in a brewery: a systems map for IT teams",
+ "title": "ERP, MES and LIMS in a Brewery | Craft Beer School",
+ "desc": "A systems map for IT teams: what ERP, MES, LIMS, SCADA and excise tools each do in a brewery, how data flows between them and where projects go wrong.",
+ "teaser": "Ask three people in a brewery where the batch record lives and you may get three answers. Here is the map.",
+ "standfirst": "Breweries run on a stack of systems that grew up at different times for different people. IT teams joining a drinks company need a map of what each system owns, how they connect and where the gaps sit.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The layers, from sensor to boardroom",
+   "<p>A useful way to picture brewery systems is as layers, similar to the ISA-95 model used in manufacturing:</p><ul><li><strong>Field and control:</strong> sensors, valves and PLCs that run the process.</li><li><strong>Supervision:</strong> SCADA screens and a historian storing time series data.</li><li><strong>Manufacturing operations:</strong> MES for production orders, batch records and genealogy, plus LIMS for lab results.</li><li><strong>Business:</strong> ERP for finance, purchasing, inventory, sales and planning.</li></ul><p>Around these sit specialist tools: excise and compliance registers, warehouse management, maintenance systems, quality management and BI platforms.</p>"
+  ],
+  [
+   "ERP: the commercial backbone",
+   "<p>The ERP holds materials, recipes in the form of bills of materials, purchase orders, stock, sales orders, invoices and the general ledger. In a brewery it knows that a brew consumed so many kilograms of malt and produced so many hectolitres of wort, but usually only as summary postings.</p><p>Beer adds complications. State excise means stock may be held in bond, with duty paid only when it leaves. Returnable bottles and crates are tracked as assets. One liquid becomes many state SKUs. Good ERP design handles all of this. Poor design pushes it into spreadsheets.</p>"
+  ],
+  [
+   "MES: what happened on the floor",
+   "<p>A manufacturing execution system records production in detail: which brew went into which tank, the actual temperatures and times against the recipe, the materials and lot numbers used, who signed off each step and how much beer each stage produced. That chain of records is called <strong>genealogy</strong>. It lets a brewery trace a can on a shelf back to the malt lot, hop lot and yeast generation.</p><p>Smaller breweries often lack a formal MES. Their batch records live in brew logs, spreadsheets or a brewery management package. The function still exists. It is just less connected.</p><p>One brewing detail matters for MES design: beer changes volume as it moves. Wort shrinks as it cools, some is lost with spent yeast and trub. Filtration and transfers also leave beer in lines. A batch that started as 100 hectolitres in the brewhouse may reach the bright tank noticeably smaller. MES and ERP must expect these losses rather than flag every batch as an error.</p>"
+  ],
+  [
+   "LIMS: the lab's record",
+   "<p>A laboratory information management system stores test results: gravity, alcohol, bitterness, colour, pH, dissolved oxygen, micro plates and sensory scores. It links each result to a sample point and a batch, applies specification limits and records who approved the result.</p><p>LIMS data decides whether a batch can be released. Our guide to <a href=\"beer-quality-data-for-data-teams.html\">beer quality data for data teams</a> explains the common tests and their quirks. When LIMS is missing, results end up in spreadsheets with no audit trail, which is a risk during an inspection or a complaint investigation.</p>"
+  ],
+  [
+   "Where the integrations live",
+   "<p>Most of the trouble in brewery IT sits between systems, not inside them:</p><ul><li><strong>ERP to MES:</strong> production orders go down, consumption and output come back up. Mismatched units or timing create stock differences.</li><li><strong>MES to SCADA:</strong> recipes and batch IDs go down, actual values come back. Without batch IDs, historian data is hard to use.</li><li><strong>LIMS to MES and ERP:</strong> release status must block stock from being shipped until quality approves.</li><li><strong>ERP to excise registers:</strong> production and dispatch volumes must match what is reported to the state, in the state's format.</li></ul><p>Before starting a project, draw this map for the specific site. Mark which links are automated, which are manual and who owns each one.</p>"
+  ],
+  [
+   "The excise layer is not optional",
+   "<p>In India, excise reporting can be the most sensitive integration of all. States differ in what they require and how. Some use online portals with their own formats. Volumes reported for production, transfers, dispatch and losses must agree across systems. IT teams should treat excise data flows as compliance controls, with reconciliation and audit trails built in from the start. Work with the excise and finance teams. Bring in advisers who know the current rules in each state.</p>"
+  ],
+  [
+   "Common project traps",
+   "<ul><li>Building a data platform before agreeing on a batch ID that every system shares.</li><li>Treating the brewery like a discrete manufacturer. Beer moves in volumes that change with losses, dilution and blending.</li><li>Ignoring the people who enter data by hand on the floor. If the screen is awkward, the data will be wrong.</li><li>Underestimating plant network security. Read-only access through a secure zone is the norm.</li></ul><p>Once the map is clear, analytics work becomes far easier. See <a href=\"data-and-ai-in-breweries-wineries-distilleries.html\">data and AI in breweries, wineries and distilleries</a> for where that leads.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between ERP and MES in a brewery?",
+   "ERP handles the business side, such as purchasing, stock, sales and finance. MES records what actually happened during production, batch by batch, including materials used and process values."
+  ],
+  [
+   "Does a small brewery need a LIMS?",
+   "Not always as a dedicated product, but it needs controlled lab records linked to batches. Many small breweries start with a structured spreadsheet or a brewery management tool."
+  ],
+  [
+   "Why is excise reporting so hard to integrate?",
+   "Each state sets its own requirements and formats. Volumes must reconcile across production, transfers and dispatch. It needs to be treated as a compliance control."
+  ]
+ ],
+ "cta": {
+  "title": "Map brewery systems to the brewing process",
+  "body": "Digital Transformation Basics for Brewing is two weeks of live weekend classes (₹5,000). It explains how brewing steps generate data and how ERP, MES, LIMS and plant systems fit around them, which a systems map alone cannot teach.",
+  "label": "See the full syllabus",
+  "href": "digital-transformation-basics-for-brewing-course.html"
+ },
+ "related": [
+  "data-and-ai-in-breweries-wineries-distilleries",
+  "beer-quality-data-for-data-teams",
+  "pos-and-inventory-software-for-brewpubs"
+ ]
+}

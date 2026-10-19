@@ -1,0 +1,67 @@
+{
+ "slug": "closed-transfers-at-home-to-keep-oxygen-out-of-your-beer",
+ "cat": "Brewing basics",
+ "h1": "Closed transfers at home to keep oxygen out of your beer",
+ "title": "Closed Transfers to Keep Oxygen Out | Craft Beer School",
+ "desc": "How homebrewers move beer from fermenter to keg without picking up oxygen: purging kegs, pushing with CO2, cold crash suck-back and dry hop timing.",
+ "teaser": "Your hazy IPA turned brown and dull in two weeks. The oxygen got in on transfer day, not in the fridge.",
+ "standfirst": "Oxygen is the fastest way to ruin a finished beer. The transfer from fermenter to keg or bottle is where most of it gets in. Here is how to move beer at home without letting air touch it.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why oxygen after fermentation is the enemy",
+   "<p>Yeast needs oxygen at the start of fermentation to build healthy cells. Once fermentation is under way, oxygen turns from help to harm. In finished beer it reacts with hop compounds and malt flavours, giving cardboard and sherry notes. In hoppy beers it fades aroma within days. In hazy IPAs it can turn the beer a muddy brown.</p><p>Warm storage speeds all of this up. In much of India, where a keg might sit at 28 °C before it reaches a fridge, a little oxygen does a lot of damage. Our guide to <a href=\"oxidised-beer.html\">oxidised beer</a> describes what it tastes like.</p>"
+  ],
+  [
+   "Where air gets in",
+   "<p>An open transfer lets oxygen in at several points:</p><ul><li>Splashing as beer runs into an open bucket or bottle.</li><li>The air sitting in an empty keg or bottling bucket.</li><li>Air sucked back into the fermenter when you cold crash.</li><li>Opening the lid to dry hop.</li></ul><p>A closed transfer deals with each of these. It needs a keg, a CO2 cylinder with a regulator and a few fittings. It does not need expensive kit.</p>"
+  ],
+  [
+   "Purge the keg first",
+   "<p>Before you start, check every keg seal. The large lid O-ring and the small post O-rings harden with age. A keg that leaks CO2 out will also let air in once the pressure drops, so replace them when they look flat or cracked.</p><p>The simplest way to remove air from a keg is to fill it to the brim with no-rinse sanitiser, seal it and push the sanitiser out through the liquid post using CO2. The keg ends up full of CO2 with almost no air left. You can push that sanitiser straight into a second keg and purge it the same way.</p><p>The quicker method, pressurising an empty keg and venting it several times, works but leaves more oxygen behind. Each fill and vent dilutes the air rather than removing it, so you need many cycles to get close.</p>"
+  ],
+  [
+   "Moving the beer",
+   "<p>How you push the beer depends on your fermenter:</p><ul><li><strong>Pressure-rated fermenters</strong> (stainless or rated PET) can take a low pressure on the gas side. Connect CO2 to the fermenter at a low setting, around 0.1 to 0.2 bar (2 to 3 psi), then run a tube from its outlet to the keg liquid post. Vent the keg gas post gently and the beer flows across without touching air.</li><li><strong>Plastic buckets and glass carboys</strong> cannot take pressure. Never pressurise them. Instead siphon from the bottom of the fermenter into the purged keg through its liquid post, with the keg gas post open. Keep the siphon tube under the beer and the flow gentle.</li></ul><p>Either way, no splashing and no open lids. Finish by topping the keg headspace with CO2 and venting it a couple of times.</p>"
+  ],
+  [
+   "Cold crash without suck-back",
+   "<p>When you chill a fermenter from 20 °C to 2 °C, the gas inside contracts. That pulls air, or the liquid in your airlock, back into the beer. A sealed fermenter fed with a little CO2 during the crash avoids it. A cheaper trick is to swap the airlock for a balloon or a bag filled with CO2 just before you chill, so the fermenter draws back gas rather than air.</p>"
+  ],
+  [
+   "Dry hopping without the air",
+   "<p>Dry hops are the most common oxygen source at home, because the lid comes off. Some ways to limit it:</p><ul><li>Add dry hops while fermentation is still active. The yeast is still producing CO2 and will consume some of the oxygen you introduce.</li><li>Use a hop port or a sealed dosing chamber if your fermenter has one, purged with CO2 first.</li><li>Dry hop in a purged keg instead, with the hops in a weighted mesh bag.</li></ul><p>Our <a href=\"dry-hopping-guide.html\">dry hopping guide</a> covers timing and quantities.</p>"
+  ],
+  [
+   "Bottling without a keg",
+   "<p>If you bottle, you can still cut oxygen pickup. Fill from the bottom with a bottling wand, leave a small headspace of about 2 cm and cap immediately. Bottle-conditioned beer has a small advantage here: live yeast eats some of the oxygen in the headspace while it carbonates. Oxygen-absorbing caps help a little more.</p><p>Measuring dissolved oxygen needs a meter that costs more than most home breweries, so homebrewers judge by results. Keep one bottle or a small sample from each batch at room temperature for a month and taste it against a cold one. If the warm sample turns papery or dull fast, oxygen is still getting in somewhere.</p><p>Closed transfers fix one stage. The full picture of oxygen control runs from brew day through fermentation and packaging. That kind of process knowledge is what separates beer that is good on day one from beer that is still good a month later.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I pressurise a plastic fermenting bucket?",
+   "No. Buckets and glass carboys are not built for pressure and can split or shatter. Siphon from them into a purged keg instead."
+  ],
+  [
+   "What is the best way to purge a keg?",
+   "Fill it with no-rinse sanitiser, seal it and push the liquid out with CO2. The keg ends up full of CO2 with very little air left."
+  ],
+  [
+   "Why did my hazy IPA turn brown?",
+   "Almost always oxygen picked up after fermentation, often during dry hopping or transfer. Warm storage makes it happen faster."
+  ]
+ ],
+ "cta": {
+  "title": "Keep your beer fresh from fermenter to glass",
+  "body": "Brewing Fundamentals is a 4 week live course (₹5,999) covering fermentation, kegging and packaging, with the oxygen and hygiene control a single guide can only outline.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "kegging-homebrew",
+  "oxygen-pickup-in-packaging",
+  "fresh-vs-stale-ipa"
+ ]
+}

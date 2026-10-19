@@ -1,0 +1,71 @@
+{
+ "slug": "moving-from-engineering-into-brewing-and-what-skills-carry",
+ "cat": "Careers",
+ "h1": "Moving from engineering into brewing and what skills carry over",
+ "title": "Moving From Engineering Into Brewing | Craft Beer School",
+ "desc": "Which engineering skills transfer to brewing, which roles suit engineers best and what brewing science to learn before you make the move.",
+ "teaser": "A brewery is a food plant full of pumps, heat exchangers and control loops. Engineers often feel at home faster than they expect.",
+ "standfirst": "Mechanical, chemical, electrical and instrumentation engineers bring skills that breweries need and brewers often lack. Here is what carries over, where engineers fit and what you still need to learn.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why breweries value engineers",
+   "<p>Strip away the romance and a brewery is a process plant. Water is heated, pumped, mixed, separated, boiled, cooled, fermented under pressure, filtered and filled into packages. Every step relies on equipment that someone has to specify, run, maintain and improve.</p><p>Many brewers learn the engineering side by trial and error. An engineer arrives understanding heat transfer, fluid flow, pressure vessels and control systems. That shortens commissioning, cuts downtime and makes better decisions about equipment. Our guide to <a href=\"jobs-in-a-brewery.html\">jobs in a brewery</a> shows where those skills sit in the team.</p>"
+  ],
+  [
+   "Skills that transfer directly",
+   "<ul><li><strong>Heat transfer:</strong> mash heating, wort boiling and wort cooling through a plate heat exchanger are standard heat transfer problems.</li><li><strong>Fluid mechanics:</strong> pump selection, pipe sizing, avoiding cavitation and reducing oxygen pickup during transfers.</li><li><strong>Refrigeration:</strong> glycol chillers and jacketed fermenters, covered in our guide to <a href=\"glycol-cooling-systems.html\">glycol cooling systems</a>.</li><li><strong>Instrumentation and control:</strong> temperature probes, flow meters, PLCs and automated cleaning.</li><li><strong>Maintenance planning:</strong> preventive schedules, spares and root cause analysis of failures.</li><li><strong>Utilities:</strong> steam, compressed air, CO2, water treatment and effluent.</li></ul>"
+  ],
+  [
+   "What a cleaning cycle looks like to an engineer",
+   "<p>Take cleaning in place. A brewer sees it as a routine. An engineer sees a process with variables to control. A typical caustic clean on a fermenter runs a hot caustic solution at around 1.5 to 2% strength and 70 to 80 °C through a spray ball, followed by rinses and an acid step. Whether it works depends on chemical strength, temperature, contact time and flow rate at the spray ball.</p><p>If the spray ball is blocked or the pump is undersized, the top of the tank never gets properly wet and soil builds up. Brewers may blame the chemical. An engineer checks the flow. This is the kind of contribution that earns trust quickly.</p>"
+  ],
+  [
+   "Roles that suit engineers",
+   "<ul><li><strong>Maintenance or engineering manager:</strong> keeping the plant running, planning maintenance and managing technicians.</li><li><strong>Packaging engineer or manager:</strong> canning and bottling lines are complex machines with many failure points.</li><li><strong>Project engineer:</strong> new installations, expansions and equipment upgrades.</li><li><strong>Production manager:</strong> running the plant as a system, balancing output, cost and quality.</li><li><strong>Brewer:</strong> engineers who learn the brewing science often become strong head brewers.</li><li><strong>Equipment supplier roles:</strong> sales, design and commissioning for brewhouse manufacturers.</li></ul>"
+  ],
+  [
+   "What you need to learn",
+   "<p>Engineering training rarely covers the biology and chemistry of beer. The gaps are usually:</p><ul><li>Malt and mashing: how enzymes break down starch at different temperatures and why that changes the beer.</li><li>Hops: bitterness, aroma and how they are extracted.</li><li>Yeast: how it ferments, what flavours it makes and why temperature control matters so much.</li><li>Sensory: tasting beer and recognising faults.</li><li>Hygiene: food safety thinking, which is different from general plant cleanliness.</li></ul><p>An engineer who can design a perfect heat exchanger but cannot taste diacetyl will still be asked by the brewers why the beer tastes of butter. Learning the brewing process closes that gap.</p>"
+  ],
+  [
+   "Making the move in India",
+   "<p>Larger breweries hire engineers into maintenance, packaging and project roles regularly. Brewpubs rarely employ a dedicated engineer, but a brewer with engineering skills is very useful to them, because they can fix equipment without waiting for the supplier.</p><p>Brewhouse manufacturers and installers, including Indian fabricators, also hire engineers. Working for a supplier lets you see many breweries in a short time, which is valuable experience if you later join a brewery.</p><p>Start by homebrewing and visiting breweries. Talk to brewers about their equipment problems. You will often find that you can help. That conversation can lead to a job.</p>"
+  ],
+  [
+   "A first project to prove yourself",
+   "<p>If you land a role in a brewery, pick one measurable problem in your first months. Water and energy use per hectolitre is a good one, because most small breweries have never measured it. Fit a cheap water meter on the main supply, log readings daily and match them to brew days and cleans. Within weeks you will know where water goes and which step wastes the most. That kind of small, clear result tells the head brewer you think like an engineer and care about the brewery.</p>"
+  ],
+  [
+   "A realistic expectation",
+   "<p>Engineers moving into brewing sometimes take a lower salary at first, especially if they want a brewing role rather than an engineering one. The work can be physical and the hours long. Those who stay usually say the reward is seeing a product they helped make in someone's glass, rather than a component in a system they never see.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which engineering branch is most useful in brewing?",
+   "Mechanical and chemical engineering are most directly relevant, but electrical and instrumentation engineers are valuable for automation and controls."
+  ],
+  [
+   "Can an engineer become a head brewer?",
+   "Yes. Many head brewers have engineering backgrounds. They need to add brewing science and sensory skills to their engineering knowledge."
+  ],
+  [
+   "Do I need to start as an assistant brewer?",
+   "Not always. Engineers can enter breweries in maintenance, packaging or project roles and move into brewing later if they want."
+  ]
+ ],
+ "cta": {
+  "title": "Add the brewing science to your engineering",
+  "body": "Brewing Fundamentals is a 4 week live weekend course (₹5,999). It covers malt, mashing, hops, yeast and fermentation, the biology and chemistry that engineering degrees leave out.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "jobs-in-a-brewery",
+  "glycol-cooling-systems",
+  "brewing-degree-vs-short-course"
+ ]
+}

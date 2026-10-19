@@ -105,11 +105,11 @@ def city_page(city, venues):
 def _safety():
     return """<section class="tint"><div class="wrap bd-two">
   <div><span class="eyebrow">Before you go</span><h2>Hop safely.</h2><ul class="checklist">
-    <li>Never drive. Book a cab or use the metro between stops, and plan the ride home first.</li>
+    <li>Never drive. Book a cab or use the metro between stops and plan the ride home first.</li>
     <li>Order tasters or a sampler paddle, not full pints, at every stop.</li>
     <li>A glass of water between beers and food at the first stop.</li>
     <li>Carry ID: the legal drinking age differs between states.</li>
-    <li>Call ahead: hours, holidays and dry days change, and venues open and close.</li></ul></div>
+    <li>Call ahead: hours, holidays and dry days change. Venues open and close.</li></ul></div>
   <div><span class="eyebrow">Learn while you drink</span><h2>Taste like a brewer.</h2>
     <p>A hopping evening is the cheapest tasting class there is. Our <a href="how-to-taste-beer.html">tasting guide</a> gives you a method to use at each stop.</p>
     <aside class="cta-inline" style="margin-top:1rem"><div><h3>Hands-on courses in four cities</h3><p>Our 1-day and 1-month in-person courses run in Pune, Delhi, Gurugram and Bengaluru.</p></div>

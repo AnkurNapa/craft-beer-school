@@ -1,0 +1,63 @@
+{
+ "slug": "brewing-a-bone-dry-brut-ipa-with-amyloglucosidase",
+ "cat": "Brewing science",
+ "h1": "Brewing a bone dry brut IPA with amyloglucosidase",
+ "title": "Brut IPA With Amyloglucosidase | Craft Beer School",
+ "desc": "How amyloglucosidase takes a brut IPA down to 1.000 or below, where to add it, how to keep bitterness in check and how to avoid over-carbonated packages.",
+ "teaser": "Bone dry, pale and fizzy like sparkling wine. The secret is one enzyme, used carefully.",
+ "standfirst": "A brut IPA is pale, aromatic and drier than almost any other beer. The dryness comes from an enzyme, amyloglucosidase, which turns dextrins into fermentable sugar. Used well, it gives a crisp, sparkling beer. Used carelessly, it gives gushing cans.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What makes a brut IPA",
+   "<p>The style aims for a very pale colour, a final gravity at or below about 1.000, plenty of hop aroma, modest bitterness and high carbonation. Think of the dry finish of a sparkling wine with the aroma of an IPA. It is a deliberate contrast to the sweet, heavy hazy IPAs that dominate many taprooms.</p><p>Normal brewing yeast cannot ferment dextrins, the longer sugar chains that give beer some body. Even a well attenuated IPA finishes around 1.008 to 1.012. To reach 1.000 you need help. That help is an enzyme.</p>"
+  ],
+  [
+   "What amyloglucosidase does",
+   "<p>Amyloglucosidase, often shortened to AMG or glucoamylase, breaks both the straight alpha 1,4 links and the branching alpha 1,6 links in starch and dextrins. It snips glucose units off the ends of the chains. Given time, it can turn nearly all the dextrins in wort into glucose, which yeast then ferments.</p><p>Malt's own enzymes, beta and alpha amylase, cannot break the branch points. That is why an ordinary wort always leaves some dextrins behind. Our guide to <a href=\"enzymes-in-the-mash.html\">enzymes in the mash</a> explains how the native enzymes divide the work.</p>"
+  ],
+  [
+   "Mash or fermenter",
+   "<p>There are two ways to use it:</p><ul><li><strong>In the mash.</strong> Add AMG at mash in and hold the mash at a lower temperature, around 60 to 65 °C, for longer than usual. AMG is denatured as the mash rises towards mash out, so its action stops in the brewhouse. You get a very fermentable wort and the enzyme is gone before packaging.</li><li><strong>In the fermenter.</strong> Add it with the yeast. It works slowly at fermentation temperature but keeps going until almost nothing is left. This gives the driest result and is how most brut IPAs are made.</li></ul><p>Either way, follow the supplier's dose. The beer will ferment further and for longer than you expect. Check gravity daily and do not judge the finish by the calendar.</p>"
+  ],
+  [
+   "The packaging risk",
+   "<p>Here is the trap. Enzyme added in the fermenter is still active in the beer unless something destroys it. In an unpasteurised beer, if any dextrins remain when you package, the enzyme keeps converting them to glucose. Any yeast in the package then ferments it. The result is rising pressure, over-carbonation and gushing, the same failure diastaticus yeast causes.</p><p>The floor detail that matters: confirm terminal gravity before packaging. Take gravity readings for three days in a row. Better still, run a forced test. Hold a sample warm with extra yeast for a couple of days and check it cannot go any lower than the tank. If the tank is still above the forced figure, wait. Pasteurisation stops the enzyme, if you have it.</p>"
+  ],
+  [
+   "Building the recipe",
+   "<p>Keep the grist simple and pale: mostly pilsner malt, with a share of rice or flaked maize. India has ready access to both. They lighten colour and body. Avoid crystal malts entirely.</p><p>Go easy on bitterness. With no residual sugar to balance it, bitterness reads stronger than the IBU number suggests. Many brewers aim for the low end of IPA bitterness and put the hops into whirlpool and dry hop additions. Our guide to <a href=\"designing-your-first-ipa-recipe.html\">designing an IPA recipe</a> covers hop scheduling.</p><p>Carbonate high, often above 3 volumes, so the beer has the lively sparkle the name promises. Make sure your bottles, cans and kegs are rated for it.</p>"
+  ],
+  [
+   "Checking your numbers",
+   "<p>With a final gravity at or below 1.000, a hydrometer reading and an ABV calculation need care. A finished brut IPA may read 0.998 or 0.999, because alcohol is lighter than water. That is normal, not a broken instrument. See <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity explained</a> for how to work out ABV correctly.</p><p>Brut IPA is a good example of a style where process decisions matter more than ingredients. Understanding why each step is there is what lets you brew it reliably and adapt it.</p><p>Keep a log of the gravity curve for each brut batch. With AMG in the fermenter, the last few points often come off slowly over several days after the main fermentation looks finished. That slow tail is the enzyme still working. Only when it flattens is the beer safe to carbonate and package.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is amyloglucosidase used for in brewing?",
+   "It breaks dextrins and starch down into glucose that yeast can ferment, giving very dry beers such as brut IPA and light lagers."
+  ],
+  [
+   "What final gravity does a brut IPA reach?",
+   "Usually at or below about 1.000, often 0.998 or 0.999, because alcohol is less dense than water."
+  ],
+  [
+   "Can amyloglucosidase cause over-carbonation?",
+   "Yes. If it is added in the fermenter and the beer is not pasteurised, it can keep working in the package. Confirm terminal gravity before packaging."
+  ]
+ ],
+ "cta": {
+  "title": "Design dry, crisp styles on purpose",
+  "body": "Style Specialisation is our eight week live course (₹18,999). It works through styles family by family, including the enzymes, grists and fermentation plans that make modern styles like brut IPA work.",
+  "label": "See the full syllabus",
+  "href": "style-specialization-course.html"
+ },
+ "related": [
+  "enzymes-in-the-mash",
+  "designing-your-first-ipa-recipe",
+  "original-gravity-final-gravity-explained"
+ ]
+}

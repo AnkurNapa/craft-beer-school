@@ -1,0 +1,63 @@
+{
+ "slug": "recipe-development-for-a-brewpubs-launch-tap-list",
+ "cat": "Consultancy",
+ "h1": "Recipe development for a brewpub's launch tap list",
+ "title": "Recipe Development for a Launch Tap List | Craft Beer School",
+ "desc": "How to develop recipes for a new brewpub's launch tap list: choosing styles, pilot brews, scaling up, tank schedules and getting the beers ready on time.",
+ "teaser": "Opening night needs five beers ready at once. The recipes have to be planned backwards from that date.",
+ "standfirst": "A new brewpub's first tap list sets its reputation in the first month. Developing those recipes means choosing styles your guests will order, proving them at small scale and scheduling tanks so every beer is ready on opening day.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with the guests, not the brewer's favourites",
+   "<p>Every brewer has beers they love to make. A launch tap list is not the place to brew all of them. Start with who will walk through the door: their age, how familiar they are with craft beer, what they drink now and what food the kitchen will serve. In most Indian cities a launch list that includes a crisp lager and a wheat beer will sell to far more first-time guests than a list of hazy IPAs and sours.</p><p>A common launch set for a small brewpub has four to six beers:</p><ul><li>A clean, approachable lager or Kölsch-style beer.</li><li>A wheat beer, either a hefeweizen or a witbier.</li><li>A pale ale or moderate IPA.</li><li>A darker beer, such as a stout, porter or dunkel.</li><li>One or two specials to show range.</li></ul><p>Choose a flagship from among them. Our guide to <a href=\"flagship-beer-strategy.html\">flagship beer strategy</a> explains why one beer should carry the brand.</p>"
+  ],
+  [
+   "Write a specification for each beer",
+   "<p>Before brewing anything, write down what each beer should be: original and final gravity, ABV, bitterness, colour, carbonation and a short sensory description. Agree these with the owner. A specification turns a vague idea such as \"a light, easy beer\" into a target the brewer can hit and the team can taste against.</p><p>Specifications also help when the owner and the brewer disagree. An owner who wants a beer \"less bitter\" and a brewer who thinks it is fine can look at the target IBU together, taste against it and agree on a number. That is a far quicker conversation than arguing over adjectives.</p>"
+  ],
+  [
+   "Pilot brews and adjustments",
+   "<p>Brew each recipe at small scale first, either on a pilot system or a 20 to 50 litre setup. Taste it with the owner, the chef and some trusted outside palates. Adjust one thing at a time: a little less bitterness, a different hop for aroma, a touch more body. Two or three pilot rounds per beer is normal.</p><p>Use local water treated to the profile you will use in production. A recipe developed on bottled water will behave differently on your borewell or municipal supply.</p><p>Keep pilot tasting honest. Serve the beers blind where possible, so tasters judge the beer and not the brewer's enthusiasm. Ask tasters to score against the specification rather than give general opinions. Record every change and its effect, because by the third round nobody remembers why the hop schedule moved.</p>"
+  ],
+  [
+   "Scaling up to the brewhouse",
+   "<p>A recipe that works on a pilot system does not transfer one to one. Brewhouse efficiency, boil-off rate, hop utilisation, whirlpool time and fermenter geometry all change with scale. Calculate the production recipe from the pilot by target gravity and bitterness, not by simply multiplying weights. Our guide to <a href=\"scaling-a-pilot-recipe-to-production.html\">scaling a pilot recipe to production</a> walks through the adjustments.</p><p>Expect the first production batch of each beer to need a small correction. Plan time for it.</p>"
+  ],
+  [
+   "Plan the tank schedule backwards",
+   "<p>Launch date drives everything. Work backwards from opening day, allowing for each beer's time in tank. Ales commonly need around two to three weeks from brew day to serving. Lagers usually need four to six, sometimes more. Add a few days of buffer, then add time for the first production batch of each beer to be corrected if needed.</p><p>Then check the cellar. If you have four fermenters and five beers, the schedule will not work without staggering. Lagers block tanks longest, so brew them first. Wheat beers and pale ales can follow. A simple calendar with each tank on its own row shows clashes immediately.</p><p>In consulting work we often see launch dates set by the marketing calendar before anyone checked the tank schedule. Agree the date with the brewer, not after.</p>"
+  ],
+  [
+   "Prepare for after launch",
+   "<p>Opening day is the start, not the finish. Plan which beer will be brewed first when tanks free up and which seasonal will follow. Watch sales by beer from the first week. Our guide to <a href=\"tap-list-planning-with-sales-data.html\">tap list planning with sales data</a> shows how to read early sales and adjust. A beer that sells poorly in its first month may need a clearer description, a better pairing or a quiet retirement.</p><p>Write up each launch recipe with its specification, production numbers and tasting notes. That document is what keeps the beer consistent when the brewery is busy and when staff change.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many beers should a brewpub launch with?",
+   "Four to six is common for a small brewpub. Fewer, well-made beers ready on time beat a long list that is rushed."
+  ],
+  [
+   "How early should recipe development start before opening?",
+   "Allow several weeks for pilot brews and adjustments, plus the tank time each beer needs, plus buffer. Lagers need the longest lead time."
+  ],
+  [
+   "Can we copy recipes from a homebrew book for launch?",
+   "They are a reasonable starting point for pilots, but they need adjusting to your water, equipment and guests. They also need matching to your own beer specifications."
+  ]
+ ],
+ "cta": {
+  "title": "Launching a brewpub and need the beers ready on time?",
+  "body": "Our consultant brewers develop launch recipes with you, run pilot brews, scale them to your brewhouse and plan the tank schedule. Rahul Baliyan leads on brewing, Ankur Napa on specifications and data. Your brewer owns the recipes.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "tap-list-planning-with-sales-data",
+  "flagship-beer-strategy",
+  "scaling-a-pilot-recipe-to-production"
+ ]
+}

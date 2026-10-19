@@ -1,0 +1,63 @@
+{
+ "slug": "remote-brewing-support-and-what-can-be-fixed-over-video-and",
+ "cat": "Consultancy",
+ "h1": "Remote brewing support and what can be fixed over video and data",
+ "title": "What Remote Brewing Support Can Fix | Craft Beer School",
+ "desc": "What a consultant brewer can fix over video and data, what still needs a site visit and how to set up your brewery so remote support works.",
+ "teaser": "A surprising amount of brewing trouble can be fixed from a laptop. Some of it cannot. Knowing which is which saves time.",
+ "standfirst": "Remote support has become a normal way for small breweries to get experienced help without paying for travel. It works brilliantly for some problems and not at all for others. The difference usually comes down to what you measure and record.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why remote support works more often than you would think",
+   "<p>Most brewing problems leave traces in data before anyone tastes them. A fermentation that lags, a mash pH that drifts, a gravity that falls short or a temperature log with a spike all tell a story. An experienced brewer can read that story from anywhere, as long as somebody wrote it down.</p><p>For a small brewery in a tier two Indian city, remote help can mean an answer the same day instead of waiting for a consultant to travel. It also suits short, focused questions that do not justify a full visit.</p>"
+  ],
+  [
+   "What can be fixed over video and data",
+   "<ul><li><strong>Recipe review.</strong> Grist, hop schedule, water treatment and mash profile can all be checked on paper.</li><li><strong>Fermentation problems.</strong> Gravity and temperature logs show slow starts, stalls and temperature control faults. Our guide to <a href=\"reading-a-fermentation-curve.html\">reading a fermentation curve</a> shows what an expert looks for.</li><li><strong>Brewhouse efficiency.</strong> Weights, gravities and volumes from several brews show where extract is lost.</li><li><strong>SOPs and training.</strong> Writing and reviewing procedures, then watching a brewer follow them on video.</li><li><strong>Process walk-throughs.</strong> A phone camera moved slowly round a transfer, a CIP set-up or a filler can show a lot.</li><li><strong>Planning.</strong> Tank schedules, production plans and ingredient ordering.</li></ul>"
+  ],
+  [
+   "What still needs someone in the room",
+   "<p>Some things cannot travel down a video call. Smell and taste are the main ones. A consultant can taste samples couriered cold, but the courier adds time and can itself change the beer. Mechanical faults, electrical problems, seam teardowns, leak hunting and measuring dissolved oxygen all need hands and instruments on site.</p><p>Complex problems with several overlapping causes also tend to need a visit. Remote support can narrow them down, but the final step often depends on seeing the equipment and watching a brew day live.</p><p>Electrical and mechanical faults are the clearest case. A pump that will not prime, a valve that leaks under pressure or a controller that switches erratically needs someone with tools in hand. A consultant on a call can guide your team through basic checks, but they cannot feel a pump bearing running hot.</p><p>The same goes for anything involving measurement your brewery does not yet do. If nobody on site can measure dissolved oxygen or tear down a can seam, remote support can explain why these matter and how to start, but the readings themselves need equipment in the room.</p>"
+  ],
+  [
+   "Make your brewery remote-ready",
+   "<p>The value of remote support depends on the quality of your records. Before you need help, make sure you are recording:</p><ul><li>Every brew: weights, temperatures, volumes, gravities and pH at each stage.</li><li>Fermentation: gravity and temperature at least once a day, more often in the first days.</li><li>Yeast: source, generation, pitch rate and viability.</li><li>Packaging: dissolved oxygen, carbonation and fill checks where you measure them.</li><li>Cleaning: chemicals, strengths, temperatures and times.</li></ul><p>A shared spreadsheet is enough. Our guide to <a href=\"keeping-a-brew-log.html\">keeping a brew log</a> shows a simple layout. Digital hydrometers and temperature loggers help by recording continuously without anyone remembering to.</p>"
+  ],
+  [
+   "Where data and AI fit",
+   "<p>Once records are kept consistently, simple tools can spot patterns no one has time to look for: batches that drift as yeast generations climb, brew days where efficiency falls or tanks that ferment differently. That does not need a large system. A tidy spreadsheet and someone who knows what to look for go a long way. Bigger tools only help once the basic records are reliable.</p><p>Photographs help too. A clear picture of the yeast slurry, a hydrometer reading, the foam on a fermenter or the seam on a can tells a remote consultant more than a long description. Date and label each one.</p>"
+  ],
+  [
+   "Getting the most out of a remote session",
+   "<p>Send data before the call, not during it. Write down the question in one or two sentences. Have someone at the brewery with a phone and a steady hand ready to show equipment. Agree what will be checked after the call and when you will talk again. A remote session that ends with a clear list of what to measure and change is worth far more than one that ends with general advice.</p><p>For problems that remote support cannot close, a short visit built on the data you have already shared is quicker and cheaper than starting from scratch.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can a consultant taste our beer remotely?",
+   "Only through couriered samples, ideally sent cold and tasted alongside your own notes. For most diagnosis, data and video come first and tasting confirms."
+  ],
+  [
+   "What records do we need for remote support to work?",
+   "Brew logs with weights, temperatures, volumes, gravities and pH, plus daily fermentation gravity and temperature. Yeast and packaging records help a great deal."
+  ],
+  [
+   "Is remote support enough for a new brewery?",
+   "It works well for recipes, planning and training. Commissioning, packaging problems and mechanical faults usually need at least one site visit."
+  ]
+ ],
+ "cta": {
+  "title": "Expert help without waiting for a site visit",
+  "body": "Our consultant brewers work with breweries and brewpubs on site or remotely, reading your brew and fermentation data, reviewing recipes and SOPs and telling you plainly when a visit is needed.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Talk to a consultant brewer"
+ },
+ "related": [
+  "where-ai-helps-a-small-brewery",
+  "keeping-a-brew-log",
+  "reading-a-fermentation-curve"
+ ]
+}

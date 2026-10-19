@@ -1,0 +1,67 @@
+{
+ "slug": "the-many-jobs-calcium-does-from-the-mash-tun-to-the",
+ "cat": "Brewing science",
+ "h1": "The many jobs calcium does from the mash tun to the fermenter",
+ "title": "The many jobs calcium does in beer | Craft Beer School",
+ "desc": "Calcium lowers mash pH, protects enzymes, removes oxalate, helps hot break and makes yeast flocculate. What each job needs and how to get it right.",
+ "teaser": "Calcium is in every water report and most recipes treat it as a number to hit. In the brewery it does at least five jobs.",
+ "standfirst": "Calcium lowers mash pH, protects enzymes, clears oxalate, helps protein drop in the boil and lets yeast settle. Starve a brew of it and you may see trouble at every stage from mash to package.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why calcium gets its own guide",
+   "<p>Water reports list calcium in mg/L next to magnesium, sodium, sulphate, chloride and alkalinity. Recipes often give a target and stop there. But calcium is not just a flavour ion. It is a working ingredient that changes chemistry at several stages of the brew.</p><p>A common recommendation is 50 to 150 mg/L in brewing liquor, with many brewers treating about 50 mg/L as a practical floor for lagers and more for pale ales. Some calcium is lost in the mash and the boil, so what goes in is not what ends up in the fermenter. Our <a href=\"brewing-water-basics.html\">brewing water basics</a> guide covers the full water report.</p>"
+  ],
+  [
+   "Job one: bringing mash pH down",
+   "<p>Malt contains phosphates. In the mash, calcium reacts with them and precipitates as calcium phosphate, releasing hydrogen ions. That lowers mash pH. Bicarbonate in the water does the opposite, raising pH. The balance between them is residual alkalinity.</p><p>A widely used form of the calculation is: residual alkalinity = alkalinity (as CaCO3) minus calcium / 1.4 minus magnesium / 1.7, all in mg/L. Lower residual alkalinity means a lower mash pH. This is how calcium helps you reach the usual target range of 5.2 to 5.6, explained further in our guide to <a href=\"mash-ph-explained.html\">mash pH</a>.</p>"
+  ],
+  [
+   "Job two: protecting alpha-amylase",
+   "<p>Alpha-amylase has calcium bound into its structure. That calcium makes the enzyme more stable against heat. With enough calcium in the mash, alpha-amylase keeps working longer at higher saccharification temperatures. This matters most in a cereal cooker or a hot mash where you rely on alpha-amylase activity. It is one reason brewers add calcium to cooker liquor.</p>"
+  ],
+  [
+   "Job three: getting oxalate out early",
+   "<p>Malt contains oxalic acid. If it stays dissolved into the finished beer, it can come out later as calcium oxalate crystals. Those crystals form beerstone in tanks, kegs and lines. In packaged beer they can seed gushing and haze.</p><p>Enough calcium in the brewhouse precipitates oxalate in the mash and boil, where it leaves with the spent grain and trub. Breweries brewing with very soft water see beerstone build up fast on the cold side. A brewery running reverse osmosis (RO) water with no calcium added back is the classic case: clean-looking beer from the brewhouse, then white scale building in bright tanks and keg spears within weeks.</p>"
+  ],
+  [
+   "Job four: hot break and clarity",
+   "<p>During the boil, proteins and polyphenols coagulate into hot break. Calcium helps this process and helps the break settle in the whirlpool. More break removed in the brewhouse means less to form haze later. Calcium also helps precipitate some phosphate in the boil, which continues the slight pH drop that wort undergoes as it boils.</p>"
+  ],
+  [
+   "Job five: yeast flocculation",
+   "<p>Most yeast strains flocculate through proteins on their cell walls that grab sugar residues on neighbouring cells. Those proteins need calcium ions to work. In low-calcium wort, a normally flocculent strain can stay in suspension, leaving the beer slow to clear and harder to crop. Brewers who switch to RO water and forget to add calcium back often notice this first as a yeast problem rather than a water problem.</p><p>The effect also works the other way. A strain that is meant to stay in suspension, such as many wheat beer strains, will still behave like itself in hard water, because flocculation genes set the ceiling. Calcium only lets a flocculent strain do what it already wants to do.</p>"
+  ],
+  [
+   "Getting calcium in Indian water",
+   "<p>Indian water sources vary a great deal. Many borewells deliver hard water with plenty of calcium and magnesium, often with high alkalinity too. Municipal supplies in some cities are soft. RO plants, now common in Indian breweries, strip almost everything out.</p><p>The usual approach is to know your source from a lab report, then adjust. Calcium sulphate (gypsum) adds calcium with sulphate, which suits hoppy beers. Calcium chloride adds calcium with chloride, which suits rounder, malt-forward beers. Both dissolve more easily in warm water than cold, so stir them into the mash liquor rather than tipping them dry onto the grain. Weigh additions per hectolitre, add them to the mash liquor and recheck mash pH. Our <a href=\"water-hardness-and-beer.html\">water hardness</a> guide covers interpreting the report.</p><p>Matching calcium to mash pH, enzyme behaviour and yeast in one water plan is the kind of joined-up chemistry that makes brewing predictable.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I have too much calcium?",
+   "Very high calcium can push mash pH lower than you want and may affect flavour. Above about 200 to 250 mg/L most brewers see little extra benefit."
+  ],
+  [
+   "Is magnesium a substitute for calcium?",
+   "Only partly. Magnesium lowers pH less strongly and is a yeast nutrient, but it does not protect alpha-amylase or remove oxalate as well as calcium."
+  ],
+  [
+   "Should I add calcium to the sparge water?",
+   "Many brewers do, because it helps keep the pH of the final runnings low and reduces tannin extraction. Acidifying the sparge liquor does a similar job."
+  ]
+ ],
+ "cta": {
+  "title": "Build a water plan that works at every stage",
+  "body": "Advanced Brewing Science covers water chemistry, mash pH, enzymes and yeast together, so your water treatment is based on what each ion actually does.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "mash-ph-explained",
+  "water-hardness-and-beer",
+  "brewing-water-basics"
+ ]
+}

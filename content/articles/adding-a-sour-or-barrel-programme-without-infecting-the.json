@@ -1,0 +1,67 @@
+{
+ "slug": "adding-a-sour-or-barrel-programme-without-infecting-the",
+ "cat": "Consultancy",
+ "h1": "Adding a sour or barrel programme without infecting the brewery",
+ "title": "Adding Sours Without Infection | Craft Beer School",
+ "desc": "How to add kettle sours, mixed fermentation or barrel ageing to an Indian brewery without spreading Brettanomyces or bacteria into your clean beers.",
+ "teaser": "A sour programme can be the best thing on your menu. It can also be how Brettanomyces ends up in your lager.",
+ "standfirst": "Souring bacteria and wild yeast are welcome in one tank and a disaster in the next. Here is how breweries separate equipment, workflow and testing so a sour or barrel programme stays where it belongs.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Know which kind of sour you are adding",
+   "<p>The risk depends on the method:</p><ul><li><strong>Kettle souring</strong> sours wort in the kettle with Lactobacillus before the boil. The boil then kills the bacteria, so the wort goes to a clean fermenter as a normal beer. This is by far the lowest-risk approach. Our guide to <a href=\"kettle-souring-at-home.html\">kettle souring</a> explains the process.</li><li><strong>Mixed fermentation</strong> uses live Brettanomyces, Lactobacillus or Pediococcus in the fermenter alongside or after brewer's yeast. The organisms stay alive in the beer and on the equipment.</li><li><strong>Barrel ageing with wild cultures</strong> adds wood, which cannot be fully sanitised and holds organisms in its pores for years.</li></ul><p>Start with kettle sours if you are new to this. Move to live cultures only once separation is in place.</p><p>Even kettle souring needs care. Hold the wort warm, typically somewhere in the mid 30s to mid 40s °C depending on the strain. Keep oxygen out with a CO2 blanket to limit off flavours from other bacteria. Check pH every few hours until it reaches your target, usually around 3.2 to 3.6, then bring the wort to a full boil.</p>"
+  ],
+  [
+   "Why these organisms are hard to contain",
+   "<p>Brettanomyces is a slow, persistent yeast. It can survive in scratches, under gaskets, in valve seats and in hose fittings, then grow in a clean beer weeks later. It also ferments sugars that brewer's yeast leaves behind, so an infected clean beer keeps attenuating in the can. The result is overcarbonation, gushing and in bottles a real risk of bursting. Lactobacillus and Pediococcus add sourness and sometimes diacetyl. Our guides to <a href=\"brettanomyces-explained.html\">Brettanomyces</a> and <a href=\"infection-bacteria-in-brewing.html\">bacterial infection</a> cover the flavours.</p>"
+  ],
+  [
+   "Separate the soft parts",
+   "<p>Stainless steel cleans well. Soft parts do not. For live-culture beers, keep dedicated, clearly marked equipment:</p><ul><li>Hoses, gaskets, clamps and fittings.</li><li>Pumps where possible, or at least pump seals.</li><li>Sample valves, racking arms and thieves.</li><li>Kegs, with a distinct colour band or label.</li><li>Fermenters or tanks used only for sours.</li><li>Ideally a separate packaging run or line.</li></ul><p>Colour coding helps. Red hoses and red-tagged kegs for sours make mistakes visible. Replace soft parts that move between programmes, rather than trusting a clean.</p>"
+  ],
+  [
+   "Separate the space and the workflow",
+   "<p>Keep barrels and live-culture fermenters in a separate room or a clearly defined area, away from the clean cellar. Work clean beers first and sours last each day, then clean down. Staff handling sours should change gloves and wash before returning to clean beer. Packaging sours at the end of a run, followed by a full clean and sanitise, is better than squeezing them in between clean batches.</p><p>Fruit additions bring their own risk. Fresh or frozen fruit carries wild yeast and bacteria of its own. In Indian markets the mango or jamun you buy has travelled warm. Add fruit only to beers already in the sour programme, never to a clean tank on the way past.</p>"
+  ],
+  [
+   "Barrels in Indian heat",
+   "<p>Barrels age faster and lose more liquid in warm, dry air. In much of India, an uncontrolled room means rapid evaporation and a growing air gap in each barrel. That air brings oxygen, which encourages acetic acid bacteria and turns beer towards vinegar. Keep the barrel room as cool and stable as you can, top up barrels from the same batch and bung them tightly. The floor detail: weigh or dip each barrel monthly and log the loss. A barrel losing much faster than its neighbours has a leak or a loose bung.</p>"
+  ],
+  [
+   "Test so you know, not guess",
+   "<p>Separation only works if you check it. Plate samples from your clean beers regularly on media that detect wild yeast and lactic bacteria, especially from tanks and hoses near the sour area. Monitor gravity in packaged clean beer over several weeks. A drop in gravity or a rise in pressure in cans stored warm points at a wild yeast problem before customers find it.</p><p>For live-culture sours, measure gravity over weeks before packaging. Package only when it has stopped changing, or pasteurise. Mixed-culture beers can keep fermenting for months.</p>"
+  ],
+  [
+   "Plan it before the first barrel arrives",
+   "<p>The cheapest time to separate a sour programme is before it starts. Map the equipment, the space and the workflow, then decide what to buy new. A review of the plan with someone who has run both clean and sour production saves a dumped tank of your best seller.</p><p>We plan these programmes with Rahul Baliyan on fermentation and process and Ankur Napa on quality systems and testing, leaving your team with a written separation plan and a testing routine.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is kettle souring safe for a clean brewery?",
+   "It is the lowest-risk method, because the boil kills the Lactobacillus before the wort reaches a fermenter. Clean the kettle well afterwards."
+  ],
+  [
+   "Can Brettanomyces spread to clean beers?",
+   "Yes. It survives in gaskets, valves, hoses and kegs. Dedicated soft parts and a separate workflow prevent most cross-contamination."
+  ],
+  [
+   "How do I store barrels in Indian heat?",
+   "Keep them in as cool and stable a room as possible, top them up from the same batch and track losses monthly."
+  ]
+ ],
+ "cta": {
+  "title": "Plan a sour programme that stays contained",
+  "body": "We plan sour and barrel programmes from equipment and space to testing. Rahul leads on fermentation and process and Ankur on quality systems, so your team can run the separation plan themselves.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "brettanomyces-explained",
+  "kettle-souring-at-home",
+  "infection-bacteria-in-brewing"
+ ]
+}

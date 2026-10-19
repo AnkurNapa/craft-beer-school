@@ -1,0 +1,71 @@
+{
+ "slug": "depreciation-on-brewing-equipment-and-what-it-means-for-tax",
+ "cat": "Business",
+ "h1": "Depreciation on brewing equipment and what it means for tax",
+ "title": "Depreciation on brewing equipment | Craft Beer School",
+ "desc": "What depreciation on brewing equipment means for an Indian brewery: book versus tax depreciation, blocks of assets, GST on kit and why it shapes your plan.",
+ "teaser": "Your brewhouse loses value every year on paper. How that is counted changes your profit, your tax and how a bank reads you.",
+ "standfirst": "Depreciation sounds like the accountant's business. For a brewery, where most of the money goes into steel before the first pint, it shapes reported profit, the tax bill and the conversation with any lender. Here is the plain version.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What depreciation is",
+   "<p>When you buy a brewhouse for many lakhs, you do not treat the whole cost as an expense in the month you pay. The equipment will brew for years, so its cost is spread across those years. Each year's share is depreciation. It reduces profit on paper without any cash leaving the business that year, because the cash left when you bought the kit.</p><p>That is why a brewery can show a loss in its first years while its cash position is healthy, or the reverse. It is also why lenders look at EBITDA, which is earnings before depreciation and some other items, alongside profit.</p>"
+  ],
+  [
+   "Two sets of depreciation",
+   "<p>In India a company usually calculates depreciation twice. Its financial statements follow the Companies Act, which links depreciation to the useful life of each asset. Its tax return follows the Income Tax rules, which group assets into blocks and apply set rates on the written down value of each block.</p><p>The two numbers differ. That is normal. Your CA tracks both. What matters for you is knowing which figure you are looking at when someone quotes profit.</p>"
+  ],
+  [
+   "How tax depreciation works in practice",
+   "<p>Under the tax rules, assets of a similar type sit in a block. Depreciation each year is a percentage of the block's remaining value. Brewing plant generally falls under plant and machinery. There are rules about assets used for less than half of the year in which they were bought. There have also been extra allowances for new plant in manufacturing that some concessional tax regimes give up.</p><p>We are deliberately not quoting rates. They depend on the asset class, your tax regime and the law in force for that year. They also change. Ask your CA to show you the schedule for your own kit.</p>"
+  ],
+  [
+   "GST on equipment and why it matters",
+   "<p>Beer and other alcohol for human consumption sit outside GST, under state taxes. That matters for equipment. A business that pays GST on a fermenter normally claims it back as input tax credit against GST it collects. A brewery whose main product is outside GST often cannot claim much of that credit, so the GST paid becomes part of what the equipment cost.</p><p>That raises the capital cost in your <a href=\"microbrewery-cost-india.html\">setup budget</a> and the amount you depreciate. Brewpubs that also serve food have a mixed position. The treatment of shared assets needs your CA's view. Plan for it when you price the kit, not after the invoices arrive.</p>"
+  ],
+  [
+   "What to keep from day one",
+   "<ul><li>Every equipment invoice, import document and installation bill, kept together.</li><li>The date each asset was put to use, not only the date it was bought. A fermenter sitting in a crate for four months is not yet in use.</li><li>A simple fixed asset register: item, supplier, cost, date in use, location and serial number.</li><li>Records of anything sold, scrapped or replaced, because they change the block.</li></ul><p>Founders who keep this register from the start save their CA days of work and themselves the cost of those days.</p>"
+  ],
+  [
+   "Repairs, upgrades and spares",
+   "<p>Not every rupee spent on kit is a capital cost. Replacing a pump seal or a gasket set is a repair and is usually an expense in the year you pay it. Adding a new fermenter, a centrifuge or a canning line is capital and goes on the asset register. Upgrades that extend the life or capacity of existing kit sit in a grey area. Your CA will want the invoices and a short note on what the work did.</p><p>Keep spares stock separate too. A box of spare valves on a shelf is inventory until it is fitted. Mixing repairs, spares and capital spending in one ledger line makes both the P&amp;L and the tax return harder to defend.</p>"
+  ],
+  [
+   "How depreciation shapes your plan",
+   "<p>In a <a href=\"brewery-business-plan.html\">brewery business plan</a>, depreciation sits between EBITDA and profit. It does not affect cash flow directly, but it affects tax, which does. Higher tax depreciation in the early years can reduce tax paid while you are still building the business.</p><p>It also changes how you compare buying and leasing kit, or new and used equipment. A used brewhouse depreciates from a lower base. Leased equipment may not be your asset at all. Those comparisons need the full picture: price, tax, cash and lifespan together.</p><p>Very few brewing courses touch this, yet a founder who can read a depreciation schedule reads the whole P&amp;L differently.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does depreciation reduce my cash?",
+   "No. The cash left when you bought the equipment. Depreciation spreads that cost over its useful life and reduces reported profit and, through tax depreciation, taxable income."
+  ],
+  [
+   "Why are book and tax depreciation different?",
+   "Financial statements follow the Companies Act and useful lives. Tax returns follow Income Tax rules with blocks and set rates. Both are tracked and the difference is normal."
+  ],
+  [
+   "Can a brewery claim GST paid on equipment?",
+   "Often only partly or not at all, because beer sits outside GST. The unclaimed GST usually becomes part of the asset's cost. Check your case with a CA."
+  ],
+  [
+   "What records should I keep?",
+   "Invoices, import papers, the date each asset was put to use and a fixed asset register that you update whenever kit is added, sold or scrapped."
+  ]
+ ],
+ "cta": {
+  "title": "Read your brewery's numbers like an owner",
+  "body": "Brewery Business Management is a 3 week live online course (₹8,999). It covers costing, cash flow, financial statements and the questions to ask your accountant, built around a brewery's real numbers.",
+  "href": "brewery-business-management-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "brewery-equipment-buying-guide",
+  "microbrewery-cost-india",
+  "brewery-business-plan"
+ ]
+}

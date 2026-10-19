@@ -1,0 +1,67 @@
+{
+ "slug": "why-mash-thickness-changes-fermentability-and-brewhouse",
+ "cat": "Brewing science",
+ "h1": "Why mash thickness changes fermentability and brewhouse efficiency",
+ "title": "Mash thickness, fermentability and yield | Craft Beer School",
+ "desc": "How liquor-to-grist ratio affects enzyme stability, fermentability, lautering and brewhouse efficiency, with typical ranges for each mashing system.",
+ "teaser": "Mash thickness gets less attention than mash temperature. It still changes how your enzymes work and how much extract you collect.",
+ "standfirst": "Liquor-to-grist ratio changes how long enzymes survive, how fast they work and how much water is left to sparge. The effects are smaller than temperature, but they are real and they interact.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What mash thickness means",
+   "<p>Mash thickness is the ratio of brewing liquor to grist, usually given in litres per kg. A thick mash might be 2.5 L/kg. A thin one might be 4 L/kg or more. Typical infusion mashes for a lauter tun sit around 2.8 to 3.5 L/kg. Mash filters run thicker, often around 2.2 to 2.5 L/kg, because they do not depend on a deep grain bed. Decoction and step mashes vary along the way.</p><p>Mash thickness interacts with temperature, covered in our <a href=\"mash-temperature-guide.html\">mash temperature guide</a>. It also interacts with enzyme activity, covered in our guide to <a href=\"enzymes-in-the-mash.html\">enzymes in the mash</a>.</p>"
+  ],
+  [
+   "How thickness affects the enzymes",
+   "<p>Two effects pull in opposite directions.</p><ul><li><strong>Protection.</strong> In a thick mash, enzymes are surrounded by more dissolved sugars and other solutes, which slow their heat denaturation. Beta-amylase, the heat-sensitive enzyme that produces maltose, survives longer.</li><li><strong>Dilution.</strong> In a thin mash, enzyme and substrate are more dilute, but the products of their work are diluted too. Enzymes can work faster without being slowed by the sugars they produce. Starch gelatinised in more water is easier to reach.</li></ul><p>Brewing studies have reported different results depending on temperature, malt and how long the mash rests. That disagreement is itself useful information: the effect of thickness on fermentability is real but modest. It is smaller than a change of one or two degrees in mash temperature.</p>"
+  ],
+  [
+   "What that means for fermentability",
+   "<p>For a brewer, the practical rule is to change one variable at a time and measure. If you change mash thickness for lautering reasons, check fermentability with a forced fermentation test on the next few brews. If fermentability shifts, correct it with mash temperature, which is the stronger lever.</p><p>The bigger fermentability risk from a very thick mash is poor mixing. Dry pockets and dough balls do not hydrate, so their starch does not convert properly. The resulting wort can be less fermentable and lower in extract at the same time.</p>"
+  ],
+  [
+   "How thickness affects brewhouse efficiency",
+   "<p>Total water for the brew is roughly fixed by the final volume plus losses. Water used in the mash is water not available for the sparge. A thick mash leaves more liquor for sparging, which can rinse sugar from the grain bed more completely and help <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a>. A thin mash leaves less for the sparge and can reduce extract recovery from the grain.</p><p>But very thick mashes are harder to pump and mix. The first wort is very strong and viscous. That can slow lautering. Most lauter tun brewers settle in the middle range because it balances mixing, pumping, lauter speed and sparge volume.</p>"
+  ],
+  [
+   "The floor detail: dough balls at mash-in",
+   "<p>In a small brewhouse without a premasher or hydrator at the grist inlet, a thick mash is where dough balls form. Grist falls onto the liquor surface, wets on the outside and traps dry flour inside. Agitators struggle to break them up. You find them later as dry lumps of flour in the spent grain. The brew comes in under on extract.</p><p>The fix is mostly mechanical: a hydrator or premasher that wets grist as it enters, a steady grist flow rate and enough agitation. Adding liquor first, then grist, with the agitator running also helps. If none of that is possible, mash in slightly thinner. You cannot take water back out later, so plan the volume at the start.</p>"
+  ],
+  [
+   "Thickness in adjunct and step mashes",
+   "<p>Cereal cookers usually run thinner than the main mash, often 4 to 5 L/kg, because gelatinised starch soaks up water and thickens fast. When the cooker mash joins the main mash, total thickness changes. Plan both vessels together so the combined mash suits the lauter tun.</p><p>In step mashes, heating in the mash tun is easier with a slightly thinner mash, as heat transfers better and scorching is less likely. Decoction pulls thick portions for boiling, which concentrates enzymes in the thinner part left behind.</p>"
+  ],
+  [
+   "Choosing your ratio",
+   "<p>Start with what your vessels are designed for. Lauter tun suppliers usually specify a mash thickness range. Within that, pick a ratio and hold it steady, so other variables are easier to read. Record mash thickness alongside temperature, extract and fermentability in each brew log. Trends over a few months will tell you more than any rule of thumb. Designing mash programmes from enzyme kinetics up is exactly what deeper brewing science study covers.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does a thick mash make sweeter beer?",
+   "Not reliably. Thickness has a smaller effect on fermentability than temperature. Studies also disagree on the direction. Measure on your own system."
+  ],
+  [
+   "What thickness should I use in a lauter tun?",
+   "Many brewers work around 2.8 to 3.5 litres per kg. Check your supplier's design range."
+  ],
+  [
+   "Can I change mash thickness to fix low efficiency?",
+   "Sometimes. A thicker mash leaves more sparge water. Check crush, sparge rate and conversion first, as they usually matter more."
+  ]
+ ],
+ "cta": {
+  "title": "Design mash programmes from first principles",
+  "body": "Advanced Brewing Science is a 6 week live course covering enzymes, mash design, lautering and extract calculations, with exercises built on your own brewhouse numbers. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-temperature-guide",
+  "brewhouse-efficiency",
+  "enzymes-in-the-mash"
+ ]
+}

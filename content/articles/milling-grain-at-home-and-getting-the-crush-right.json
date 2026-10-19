@@ -1,0 +1,67 @@
+{
+ "slug": "milling-grain-at-home-and-getting-the-crush-right",
+ "cat": "Brewing basics",
+ "h1": "Milling grain at home and getting the crush right",
+ "title": "Milling Grain at Home: The Right Crush | Craft Beer School",
+ "desc": "How to mill malt at home for all-grain brewing: roller and plate mills, gap settings, what a good crush looks like and how crush affects efficiency.",
+ "teaser": "Too fine and your mash sets like cement. Too coarse and half your sugar stays locked in the grain.",
+ "standfirst": "The crush is where all-grain brewing starts and where many efficiency problems begin. Here is what a good crush looks like, how to set your mill and when to buy milled malt instead.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the crush matters",
+   "<p>Inside each malt kernel is the starchy endosperm that the mash turns into sugar. Around it is the husk. Milling has two jobs: break the endosperm into small pieces so water and enzymes can reach the starch. It must also keep the husk as intact as possible so it forms a filter bed when you drain the mash.</p><p>Get the balance right and you get good extract and a smooth run-off. Too coarse and you leave sugar in the grain. Too fine and the husks shred, the bed packs tight and the mash can stick. Our guide to <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> explains how the crush shows up in your numbers.</p>"
+  ],
+  [
+   "Types of mill",
+   "<ul><li><strong>Two-roller mills</strong> are the standard choice for homebrewers. Grain passes between two steel rollers set a fixed gap apart. They crush rather than grind, which keeps husks largely intact.</li><li><strong>Three-roller mills</strong> crack the grain in two stages. They give a slightly more even crush and cost more.</li><li><strong>Plate or corona mills</strong> grind grain between two plates. They are cheap and easy to find, but they shred husks more, which can make lautering harder.</li><li><strong>Kitchen grinders and mixers</strong> are not suitable. They pulverise husk and endosperm into flour.</li></ul><p>Commercial breweries use the same idea at a larger scale, with multi-roller mills or wet milling. Homebrewers mostly get by very well with two rollers.</p>"
+  ],
+  [
+   "Setting the gap",
+   "<p>The gap between rollers controls the crush. Common starting points for a two-roller mill:</p><ul><li><strong>About 0.9 to 1.0 mm</strong> for a traditional mash tun or cooler with a false bottom or braid.</li><li><strong>About 0.6 to 0.8 mm</strong> for brew-in-a-bag, where the bag does the filtering so a finer crush is safe. See our <a href=\"brew-in-a-bag-method.html\">brew-in-a-bag method</a> guide.</li></ul><p>Set the gap with a feeler gauge, the thin metal blades sold at hardware shops for setting spark plug gaps. Check both ends of the rollers. A gap that is wider at one end gives an uneven crush.</p>"
+  ],
+  [
+   "What a good crush looks like",
+   "<p>Take a handful of milled grain and look closely:</p><ul><li>Most kernels should be broken into several pieces.</li><li>The husks should be mostly whole, in large flakes rather than powder.</li><li>There should be very few whole, uncracked kernels.</li><li>Some flour is normal. A pile of dust is not.</li></ul><p>If you see many whole kernels, tighten the gap. If the husks are shredded and there is lots of flour, open it up. Adjust in small steps and brew a few batches before you change again.</p>"
+  ],
+  [
+   "Conditioning the grain",
+   "<p>Dry husks shatter more easily. Many brewers condition grain by lightly misting it with water, around 2% of the grain weight, then stirring it for 10 to 15 minutes before milling. The husks become more pliable and stay intact while the endosperm still cracks.</p><p>In the dry months before the monsoon, conditioning makes a noticeable difference. During the monsoon, malt often picks up moisture from the air on its own. Do not add more. If malt feels soft or chewy, it is already slack and will mill less cleanly.</p>"
+  ],
+  [
+   "Safety and storage",
+   "<p>Malt dust is fine and can irritate your lungs and eyes. Mill outdoors or in a well-ventilated space, away from the area where you handle cooled wort. Dust carries bacteria from the grain. You do not want it drifting into your fermenter. Grain dust in large concentrations is also a fire risk, which is why commercial mill rooms are built with explosion protection.</p><p>Milled malt goes stale much faster than whole grain, especially in warm, humid weather. Mill on brew day if you can. If you buy pre-milled malt, use it within a couple of weeks and keep it sealed.</p>"
+  ],
+  [
+   "Mill your own or buy it milled?",
+   "<p>A mill costs money and takes space. Many Indian homebrew shops sell malt already milled to a sensible crush. That is a perfectly good way to start.</p><p>Owning a mill becomes worthwhile when you brew often, buy whole malt in bulk or want to fine-tune your efficiency. If your mash keeps sticking, the crush is one of the first things to check. Our guide to <a href=\"stuck-mash-fixes.html\">stuck mash fixes</a> covers the others. Understanding how crush, mash and lautering work together is a big part of moving from following recipes to really controlling your brew day.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What gap should I set on my grain mill?",
+   "Around 0.9 to 1.0 mm for a mash tun with a false bottom or braid. Use around 0.6 to 0.8 mm for brew-in-a-bag."
+  ],
+  [
+   "Can I mill malt in a kitchen mixer?",
+   "No. It turns husk and endosperm into flour, which leads to stuck mashes and poor wort."
+  ],
+  [
+   "How long does milled malt keep?",
+   "Only a couple of weeks at best in warm, humid conditions. Mill on brew day if you can, or keep pre-milled malt sealed and use it quickly."
+  ]
+ ],
+ "cta": {
+  "title": "Master the all-grain brew day",
+  "body": "Brewing Fundamentals covers milling, mashing, lautering and fermentation in a 4 week live course, so every step of your all-grain brew day makes sense.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "first-all-grain-brew-day",
+  "brewhouse-efficiency",
+  "stuck-mash-fixes"
+ ]
+}

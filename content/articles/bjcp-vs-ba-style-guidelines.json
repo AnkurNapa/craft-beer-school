@@ -1,0 +1,67 @@
+{
+ "slug": "bjcp-vs-ba-style-guidelines",
+ "cat": "Styles",
+ "h1": "BJCP and Brewers Association style guidelines compared",
+ "title": "BJCP vs BA Style Guidelines | Craft Beer School",
+ "desc": "How the BJCP and Brewers Association style guidelines differ in purpose, structure, numbers and use, plus which one to follow for a competition or a recipe.",
+ "teaser": "Two style guides, two jobs. Use the wrong one and your 'perfect' entry lands in the wrong category.",
+ "standfirst": "Homebrewers and pros quote style guidelines all the time, but they are often quoting different books. Here is what the BJCP and Brewers Association guidelines are for, how they differ and which one to open before you brew or enter.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two guides, two purposes",
+   "<p>The <strong>BJCP</strong>, the Beer Judge Certification body, is a non profit founded in the United States in 1985 to train and certify beer judges. Its style guidelines exist to help judges evaluate beer consistently, mostly at homebrew competitions. The current beer guidelines are the 2021 edition, with separate guides for mead and cider.</p><p>The <strong>Brewers Association (BA)</strong> is the trade body for small and independent American brewers. Its Beer Style Guidelines are written for professional competitions, most famously the Great American Beer Festival and the World Beer Cup. The BA updates its guidelines regularly, often every year, to keep pace with what commercial brewers are making.</p><p>One is a teaching tool for judges. The other is a rulebook for commercial competitions. That difference explains almost everything else.</p>"
+  ],
+  [
+   "How each one is structured",
+   "<p>A BJCP style entry reads like a tasting lesson. It has sections for overall impression, aroma, appearance, flavour, mouthfeel, comments, history, characteristic ingredients, style comparison, vital statistics and commercial examples. A judge can read it and know what to look for in the glass and how this style differs from its neighbours.</p><p>A BA entry is shorter and more technical. It lists colour, clarity, perceived malt and hop aroma and flavour, perceived bitterness, fermentation characteristics and body, followed by numeric ranges for original gravity, final gravity, alcohol, bitterness and colour. It is closer to a specification than a description.</p>"
+  ],
+  [
+   "How they group styles",
+   "<p>The BJCP groups styles into numbered categories by how they are judged, not by history. Category 1 covers standard American beer, category 21 covers IPA. Lettered subcategories sit inside each one. Specialty categories handle fruit, spice, wood aged and experimental beers, where the brewer must describe what they made.</p><p>The BA splits beer more finely and tends to add new styles faster. Where the BJCP might put several related beers under one style with notes on variation, the BA may list each as its own style with its own numbers. That suits a commercial competition with thousands of entries, where narrow categories keep comparisons fair.</p>"
+  ],
+  [
+   "Where the numbers differ",
+   "<p>Both give ranges for gravity, ABV, IBU and colour, but the ranges do not always match. The BA often reports colour in SRM and EBC and gravity in both specific gravity and degrees Plato. The BJCP reports SRM and specific gravity.</p><p>Small differences matter at the edges. A beer at the very top of one guide's ABV range may sit outside the other's. If you are designing a recipe to land squarely in style, check the guide your competition actually uses. Our guide to <a href=\"bjcp-scoresheet-explained.html\">the BJCP scoresheet</a> shows how judges turn the description into a score out of 50.</p>"
+  ],
+  [
+   "Which one to use",
+   "<ul><li><strong>Entering a homebrew competition:</strong> almost always BJCP. Check the entry rules, which will name the edition. Our guide to <a href=\"entering-a-homebrew-competition.html\">entering a homebrew competition</a> walks through the process.</li><li><strong>Studying to judge:</strong> BJCP. The exam is built on its guidelines, as our <a href=\"beer-judge-bjcp-exam.html\">BJCP exam guide</a> explains.</li><li><strong>Entering a commercial competition:</strong> read the rules. Many use the BA guidelines, some use BJCP and some publish their own list.</li><li><strong>Designing a recipe:</strong> start with the BJCP description for flavour and history, then cross check the BA numbers for a tighter technical target.</li></ul>"
+  ],
+  [
+   "Using guidelines without being boxed in",
+   "<p>Both bodies say their guidelines describe beer rather than dictate it. A style guide is a shared vocabulary, not a law of nature. Many beers brewed in India, with rice, jaggery or local spices, do not fit any listed style. That is fine. In a competition you enter them in a specialty category and describe what you did.</p><p>Where the guides help most is in teaching you what a style's defining features are and which faults rule a beer out. Knowing that a Czech pale lager may carry a trace of diacetyl while a German pils should not is the kind of detail that wins or loses medals.</p>"
+  ],
+  [
+   "Reading a style properly",
+   "<p>Reading a guideline is the easy part. Tasting a beer and placing it accurately is harder. Experienced judges can tell when a beer is technically clean but not true to style, or when it sits between two styles. That skill comes from brewing and tasting many examples of each style against the description, with feedback.</p><p>If you want to brew to style on purpose, the useful habit is to brew one style several times, change one thing each time and taste the results against the guideline. It is slow on your own, faster with a structured programme.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is the BJCP or BA guideline more up to date?",
+   "The BA updates more often, usually every year. The BJCP issues major revisions less often; the current beer edition is from 2021."
+  ],
+  [
+   "Which guidelines do homebrew competitions use?",
+   "Most use the BJCP guidelines. Always check the competition rules for the edition."
+  ],
+  [
+   "Do I need to brew exactly to style?",
+   "Only for competitions or if you want to. Outside judging, style guides are a vocabulary for describing beer, not a rule."
+  ]
+ ],
+ "cta": {
+  "title": "Brew any style on purpose, not by luck",
+  "body": "Our Style Specialisation course runs for 8 weeks (₹18,999) and takes you through the major style families, with recipe design and tasting against the guidelines that a single article cannot give you.",
+  "href": "style-specialization-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-judge-bjcp-exam",
+  "bjcp-scoresheet-explained",
+  "entering-a-homebrew-competition"
+ ]
+}

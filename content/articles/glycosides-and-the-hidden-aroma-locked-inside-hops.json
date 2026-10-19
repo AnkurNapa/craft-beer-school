@@ -1,0 +1,63 @@
+{
+ "slug": "glycosides-and-the-hidden-aroma-locked-inside-hops",
+ "cat": "Brewing science",
+ "h1": "Glycosides and the hidden aroma locked inside hops",
+ "title": "Glycosides: Hidden Aroma in Hops | Craft Beer School",
+ "desc": "What hop glycosides are, how yeast enzymes and time can release their bound aroma and what that means for dry hopping and hop selection.",
+ "teaser": "Some of the aroma in your hops has no smell at all, until yeast cuts it loose.",
+ "standfirst": "Hops carry part of their aroma in a locked form, attached to sugar molecules. These glycosides have no smell. Yeast enzymes, acidity and time can release the aroma compounds inside, which is one reason the same hops can smell different in different beers.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Free and bound aroma",
+   "<p>When we talk about hop aroma we usually mean the essential oils: myrcene, humulene, linalool, geraniol and many others. These are free, volatile compounds. Rub a hop pellet between your fingers and you smell them. Our guide to <a href=\"hop-oil-chemistry.html\">hop oil chemistry</a> introduces the main ones.</p><p>Some aroma compounds also exist in a bound form. A molecule such as linalool or geraniol can be attached to a sugar, usually glucose, forming a glycoside. In that form it is not volatile, so it has no smell. It dissolves in wort and beer like any other non-volatile compound.</p>"
+  ],
+  [
+   "Where glycosides come from",
+   "<p>Plants use glycosides to store and transport compounds. Grapes are the best studied example: in aromatic varieties such as Muscat and Riesling, much of the aroma potential sits in glycosides, released during fermentation and ageing. Hops follow the same pattern.</p><p>Glycoside content varies with hop variety, growing region and season. Hop leaf and cone material both contain them. Because they dissolve in water rather than oil, they come out of hops into wort or beer readily, during both kettle and dry hop additions.</p>"
+  ],
+  [
+   "How the aroma gets released",
+   "<p>To release the aroma compound, the bond to the sugar has to break. Three things can do that:</p><ul><li><strong>Yeast enzymes.</strong> Many yeast strains produce beta-glucosidase, an enzyme that can split glycosides. Activity varies widely between strains. Some non-Saccharomyces yeasts show much more of it.</li><li><strong>Acid hydrolysis.</strong> Beer's low pH slowly breaks the bond over weeks and months, which may explain some of the aroma changes during storage.</li><li><strong>Added enzymes.</strong> Commercial glycosidase enzymes exist, mainly from the wine industry. Their use in brewing is still largely experimental.</li></ul><p>Heat also plays a part in the kettle, although boiling drives off much of whatever is released there.</p>"
+  ],
+  [
+   "Why it matters for brewers",
+   "<p>Glycosides help explain several things brewers notice:</p><ul><li>Hops added during active fermentation can produce aroma that differs from the same hops added after fermentation. The yeast is present and active. Its enzymes have a chance to work. See <a href=\"biotransformation-in-hazy-ipa.html\">biotransformation in hazy IPA</a>.</li><li>Changing yeast strain can change hop aroma, even with identical hopping.</li><li>Some hoppy beers change character in the first weeks after packaging, partly from slow release of bound compounds.</li></ul><p>Glycoside release is one of several processes going on at the same time. Yeast also converts free hop compounds, for example turning geraniol into citronellol. It is hard to say exactly how much aroma in a given beer comes from glycosides. The science is still developing. Claims of large aroma gains from glycosides alone should be treated with some caution.</p><p>Timing matters here. Yeast enzyme activity is highest while the yeast is active. A dry hop added after fermentation has finished and the beer has cooled gives far less opportunity for enzymatic release than one added at high krausen.</p>"
+  ],
+  [
+   "What you can do with this",
+   "<p>You cannot measure glycosides in a small brewery. You can design simple trials around them. Split a wort between two yeast strains with the same dry hop and compare the aroma. Add part of a dry hop during active fermentation and part after. Compare both against an all-late addition. Taste beers at packaging and again after two or four weeks cold.</p><p>The floor detail that makes such trials worth doing: identical hop lots. Pellets from different lots of the same variety can differ more than the effect you are trying to see. Use pellets from one sealed bag for both arms of the trial. Store the bag cold and purged in between.</p><p>In India, hop storage is often the weak link. Hops that have warmed up lose their free oils fast. Keep them frozen or as cold as you can, sealed against oxygen. Our guide to <a href=\"how-hops-change-aroma.html\">how hops change aroma</a> covers storage and freshness.</p>"
+  ],
+  [
+   "Seeing hops as more than oil",
+   "<p>For a long time, hop aroma was discussed almost entirely in terms of oil content. Glycosides, biotransformation and hop enzymes show it is more complex. The hops you add, the yeast you use and the timing of each addition interact.</p><p>That interaction is part of what makes hop chemistry such an interesting field to study. It is also where a deeper understanding of the science lets you design hopping regimes rather than copy them.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What are hop glycosides?",
+   "Aroma compounds such as linalool or geraniol bound to a sugar molecule. In that form they have no smell until the bond is broken."
+  ],
+  [
+   "How are glycosides released in beer?",
+   "Mainly by yeast enzymes such as beta-glucosidase during fermentation. The beer's acidity also releases them slowly during storage."
+  ],
+  [
+   "Do different yeasts release different hop aromas?",
+   "They can. Yeast strains vary in enzyme activity, so the same hops can smell different with different strains."
+  ]
+ ],
+ "cta": {
+  "title": "Understand the chemistry behind hop aroma",
+  "body": "Advanced Brewing Science is our six week live course. It covers hop chemistry, yeast enzymes and biotransformation, the science that sits behind modern hop forward beer.",
+  "label": "See what the course covers",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "hop-oil-chemistry",
+  "biotransformation-in-hazy-ipa",
+  "how-hops-change-aroma"
+ ]
+}

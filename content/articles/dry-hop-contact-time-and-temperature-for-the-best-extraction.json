@@ -1,0 +1,67 @@
+{
+ "slug": "dry-hop-contact-time-and-temperature-for-the-best-extraction",
+ "cat": "Brewing science",
+ "h1": "Dry hop contact time and temperature for the best extraction",
+ "title": "Dry Hop Contact Time and Temperature | Craft Beer School",
+ "desc": "How long to leave dry hops in contact, what temperature to dry hop at and how mixing, hop creep and grassy flavours change the answer.",
+ "teaser": "Most hop aroma comes out in the first day. Leave hops in longer and you mostly extract grass.",
+ "standfirst": "Dry hopping is expensive, so it pays to get the most aroma from every kilo. Contact time and temperature are the two levers that matter most. They work together with how well the hops mix into the beer.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What you are extracting",
+   "<p>Dry hopping adds hops after the boil, usually during or after fermentation, so their volatile oils dissolve into the beer without being boiled away. The oils, rich in compounds such as myrcene, linalool and geraniol, give the aroma. Our guide to <a href=\"hop-oil-chemistry.html\">hop oil chemistry</a> covers the main ones.</p><p>Hops also carry polyphenols, chlorophyll and other plant material. Given enough time, these come out too. They give grassy, vegetal, tea-like and astringent notes. The aim is to extract oil quickly and stop before the plant material takes over.</p>"
+  ],
+  [
+   "Contact time: shorter than you think",
+   "<p>Oil extraction from pellets is fast. In practice, most of the available oil dissolves within the first day of contact in a static tank. With good mixing, much of it comes out within hours.</p><p>After that, aroma gains are small and the risks grow. Longer contact extracts more polyphenols and grassy compounds. It gives hop enzymes more time to cause hop creep. It also delays the tank's next job. A common working range is 24 to 72 hours for pellets, with the beer then cooled and the hops dropped out.</p><p>A simple test on your own system: pull a sample every 12 hours during a dry hop and taste them side by side. Most brewers who do this once shorten their contact time permanently.</p>"
+  ],
+  [
+   "Temperature: warm, cold or in between",
+   "<p>Warmer beer extracts oils faster. Dry hopping near fermentation temperature, around 16 to 20 °C for ales, also keeps yeast active. Active yeast can scavenge some oxygen picked up with the hops and can take part in biotransformation of certain hop compounds. See <a href=\"biotransformation-in-hazy-ipa.html\">biotransformation in hazy IPA</a>.</p><p>Warm dry hopping has downsides. Hop creep is more vigorous, so more dextrins are converted and fermented, raising alcohol and diacetyl risk. Extraction of grassy compounds is faster too.</p><p>Cold dry hopping, after the beer has been cooled to around 10 °C or below, extracts more slowly and tends to give a cleaner, less vegetal aroma. It suppresses hop creep because the yeast is less active. It does need longer contact or better mixing to get the same oil out.</p><p>Many brewers split the difference: a first dry hop late in active fermentation, then a second, smaller one after cooling.</p>"
+  ],
+  [
+   "Mixing changes everything",
+   "<p>In a static conical, pellets swell, sink and form a bed at the bottom of the cone. Much of the beer never touches them. That is the main reason contact times in small breweries run long.</p><p>The floor detail that makes the biggest difference: rousing. A gentle push of CO2 through the bottom of the cone, for a minute or so a few times during the dry hop, lifts the hop bed back into suspension. Recirculation through a pump works too, if you can do it without picking up oxygen. Either way, better mixing gives faster extraction and allows shorter contact.</p>"
+  ],
+  [
+   "Oxygen and the Indian cold chain",
+   "<p>Every hop addition can carry oxygen into the tank, both in the pellets and in the headspace you open to add them. Oxygen fades hop aroma within weeks and turns hoppy beer stale. Purge hop dosing vessels with CO2 where you can and dry hop while some fermentation is still running if oxygen pickup is a concern.</p><p>Hop aroma is also the first thing to suffer in warm storage. A perfectly dry hopped IPA that sits warm for a fortnight in distribution will taste dull however well it was made. Keep packaged hoppy beer cold and sell it fresh. Our <a href=\"dry-hopping-guide.html\">dry hopping guide</a> covers the full process, including dosing rates.</p>"
+  ],
+  [
+   "Building your own dry hop protocol",
+   "<p>There is no single right contact time. It depends on your tank shape, your hop form, your mixing and the style. A hazy IPA that wants big, juicy aroma may handle a warm, active dry hop. A West Coast IPA that wants clean, sharp aroma may prefer cold and short.</p><p>Write a protocol for each beer: temperature, time, rousing schedule and when the hops come out. Change one variable at a time and taste the result. Designing that kind of experiment and reading the chemistry behind the result is what turns dry hopping from habit into control.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should dry hops stay in contact with beer?",
+   "Most aroma oil dissolves within the first day. A common range is 24 to 72 hours for pellets. Longer contact mostly adds grassy flavours."
+  ],
+  [
+   "Is it better to dry hop warm or cold?",
+   "Warm extracts faster and keeps yeast active but increases hop creep. Cold is slower and cleaner. Many brewers use both in two additions."
+  ],
+  [
+   "Does rousing dry hops help?",
+   "Yes. Lifting the settled hop bed with CO2 or recirculation improves contact and speeds extraction, so you can shorten the dry hop."
+  ],
+  [
+   "Why does my dry hopped beer taste grassy?",
+   "Usually contact time is too long or the dry hop rate is too high, so plant material and polyphenols come out along with the oil."
+  ]
+ ],
+ "cta": {
+  "title": "Get more aroma from every kilo of hops",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers hop chemistry, extraction and hop creep so you can design dry hop protocols that suit your tanks and styles.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "dry-hopping-guide",
+  "hop-oil-chemistry",
+  "biotransformation-in-hazy-ipa"
+ ]
+}

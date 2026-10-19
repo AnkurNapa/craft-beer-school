@@ -1,0 +1,67 @@
+{
+ "slug": "what-airlock-bubbles-tell-you-and-what-they-do-not",
+ "cat": "Brewing basics",
+ "h1": "What airlock bubbles tell you and what they do not",
+ "title": "What Airlock Bubbles Really Tell You | Craft Beer School",
+ "desc": "Airlock bubbles are CO2 escaping, not a fermentation gauge. Learn what bubbling does and does not mean plus how to tell when your beer is really done.",
+ "teaser": "No bubbles does not mean no fermentation. Lots of bubbles does not mean it is going well. Here is what the airlock is really saying.",
+ "standfirst": "The airlock is the most watched and least useful instrument in homebrewing. It tells you gas is leaving the fermenter. That is roughly all. Here is how to read it properly and what to trust instead.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the bubbles actually are",
+   "<p>Yeast eats sugar and makes two main products: alcohol and carbon dioxide. Some of the carbon dioxide dissolves in the beer. The rest builds pressure in the headspace and pushes through the water in the airlock as a bubble.</p><p>So a bubble means gas left the fermenter. It does not tell you how much sugar is left, how healthy the yeast is or whether the beer tastes right. Two fermenters can bubble at very different rates and finish at exactly the same gravity, because the bubble rate depends as much on the seal and the headspace as on the yeast.</p>"
+  ],
+  [
+   "Why bubbling can stop while fermentation carries on",
+   "<p>The most common panic message we get from beginners: \"I pitched yeast two days ago and the airlock has stopped. Is it dead?\" Usually not. Several things stop bubbles without stopping fermentation.</p><ul><li><strong>A leaky lid.</strong> Plastic bucket lids often do not seal perfectly. The gas escapes around the rim, the beer ferments happily and the airlock sits still.</li><li><strong>A loose grommet.</strong> The rubber ring holding the airlock can leak in the same way.</li><li><strong>Fermentation slowing.</strong> Activity peaks in the first two or three days and then tails off. The beer is still fermenting at a slower rate.</li></ul><p>A sealed fermenter with a still airlock is worth checking. A bucket with a still airlock is very often just a bucket that leaks.</p>"
+  ],
+  [
+   "Why bubbling can happen with no fermentation",
+   "<p>The reverse is also true. Warm the fermenter by a couple of degrees and gas dissolved in the beer comes out of solution, while the air in the headspace expands. The airlock bubbles. Nothing is fermenting.</p><p>This catches people out in India, where a room can swing 6 or 8 °C between a cool morning and a hot afternoon. A beer that finished days ago can keep bubbling gently every afternoon, which tempts you to wait longer than you need to.</p>"
+  ],
+  [
+   "Use a hydrometer, not your ears",
+   "<p>The only reliable way to know whether fermentation is finished is to measure the sugar that is left. A hydrometer does this by measuring density, since sugar makes wort denser than water.</p><p>Take a sample with a sanitised wine thief or turkey baster, float the hydrometer and read the gravity. Wait two or three days and do it again. If both readings match and the number is close to what the recipe expected, fermentation is done. Our guide on <a href=\"how-to-use-a-hydrometer.html\">how to use a hydrometer</a> covers temperature correction and the common reading mistakes.</p><p>Plot your readings day by day and you get a curve. A healthy ale drops fast for the first few days and then flattens. Our guide to <a href=\"reading-a-fermentation-curve.html\">reading a fermentation curve</a> shows what normal looks like and what a stuck fermentation looks like.</p>"
+  ],
+  [
+   "When the airlock is useful",
+   "<p>The airlock still has two jobs. It lets gas out without letting air, insects or fruit flies in. And very vigorous bubbling in the first day or two tells you the yeast has started.</p><p>In a warm room that early activity can be too much. Foam, called krausen, can rise into the airlock and blow it out of the lid. If your fermenter has less than a few litres of headspace, swap the airlock for a blow-off tube: a length of food grade hose running from the lid into a jar of sanitiser. Switch back to the airlock once the foam settles.</p><p>One more trap. When you cool a beer at the end of fermentation, gas in the headspace contracts and can pull the airlock liquid back into the beer. Fill the airlock with sanitiser solution rather than tap water, so anything that gets sucked in is clean.</p>"
+  ],
+  [
+   "Patience beats watching",
+   "<p>Most ales are done fermenting in about a week at 18 to 20 °C, but the yeast keeps working after the gravity stops falling. It cleans up compounds such as diacetyl and acetaldehyde, which taste of butter and green apple. Leaving the beer two or three days after it reaches final gravity is cheap insurance. Our guide on <a href=\"how-long-does-beer-take-to-ferment.html\">how long beer takes to ferment</a> has typical timings by style.</p><p>Learning to read gravity, temperature and timing together is what separates people who guess from people who know. Once you can, the airlock becomes background noise.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does no airlock activity mean my fermentation has stopped?",
+   "Not necessarily. Lids and grommets often leak, so gas escapes elsewhere. Check with a hydrometer before assuming anything."
+  ],
+  [
+   "Can I bottle when the airlock stops bubbling?",
+   "No. Bottle only when two hydrometer readings two or three days apart match. Bottling early risks over-carbonated or bursting bottles."
+  ],
+  [
+   "Why is my airlock bubbling after fermentation finished?",
+   "Warming releases dissolved carbon dioxide and expands the air in the headspace. A rise of a few degrees in the afternoon is enough to make it bubble."
+  ],
+  [
+   "What should I put in the airlock?",
+   "Sanitiser solution is best. If the liquid gets pulled back into the beer when it cools, it will not contaminate it."
+  ]
+ ],
+ "cta": {
+  "title": "Know exactly what your fermentation is doing",
+  "body": "Brewing Fundamentals covers fermentation, gravity readings and temperature control over four weeks of live weekend classes, so you stop guessing at the airlock.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "how-long-does-beer-take-to-ferment",
+  "how-to-use-a-hydrometer",
+  "reading-a-fermentation-curve"
+ ]
+}

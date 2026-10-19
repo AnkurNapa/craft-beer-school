@@ -1,0 +1,75 @@
+{
+ "slug": "removing-chlorine-and-chloramine",
+ "cat": "Ingredients",
+ "h1": "Removing chlorine and chloramine from city water before brewing",
+ "title": "Removing Chlorine and Chloramine | Craft Beer School",
+ "desc": "How to remove chlorine and chloramine from municipal water before brewing: Campden tablets, carbon filters, boiling and how to tell which you have.",
+ "teaser": "City water keeps you safe to drink. Left in brewing water, its chlorine makes beer taste of plastic and antiseptic.",
+ "standfirst": "Most Indian city water is disinfected with chlorine. In beer, chlorine reacts with phenols to make chlorophenols, some of the strongest off flavours a homebrewer can produce. Removing it is cheap and easy.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why chlorine ruins beer",
+   "<p>Water boards disinfect water with chlorine so it is safe to drink. Chlorine is fine in a glass of water. In brewing, it reacts with phenolic compounds from malt and yeast to form chlorophenols. Drinkers can taste these at extremely low levels, often described as plastic, sticking plaster, antiseptic or medicinal. Our guide to <a href=\"phenolic-off-flavours.html\">phenolic off flavours</a> explains the family.</p><p>Once chlorophenols form, nothing removes them. The only fix is prevention.</p>"
+  ],
+  [
+   "Chlorine and chloramine",
+   "<p><strong>Chlorine</strong> (free chlorine) is a gas dissolved in water. It escapes fairly easily. Boiling or leaving water to stand in an open container drives much of it off over time.</p><p><strong>Chloramine</strong> is chlorine combined with ammonia. Some water boards use it because it lasts longer in the pipes. That stability is the problem for brewers: it does not boil off or evaporate in any useful time.</p><p>Many Indian municipal supplies are chlorinated. Practice varies by city. Ask your water board, or simply treat your water as if chloramine might be present. The methods below handle both.</p>"
+  ],
+  [
+   "Campden tablets: the easy fix",
+   "<p>Campden tablets are potassium or sodium metabisulphite, sold in homebrew shops and used in winemaking. They react with chlorine and chloramine almost instantly and neutralise them.</p><ul><li>One tablet is commonly quoted to treat up to about 75 litres of water. For a 20 to 30 litre brew, a quarter to half a tablet is plenty, but many brewers just use one for simplicity.</li><li>Crush the tablet to a powder and stir it into all your brewing water, mash and sparge.</li><li>Wait a few minutes, then brew.</li></ul><p>The tiny amount of sulphite left behind is far below anything you would taste in finished beer at these doses. Treat all the water that touches the beer, including water for topping up the fermenter.</p>"
+  ],
+  [
+   "Activated carbon filters",
+   "<p>An activated carbon filter removes chlorine well. Chloramine needs a slower flow rate, more contact time or a catalytic carbon filter designed for it. If you use a carbon filter, run water through slowly, for example a litre a minute or less for a homebrew block filter. Change the cartridge on schedule. A tired filter lets chlorine through without any visible sign.</p><p>Many Indian homes already have a purifier with carbon stages. Check what yours actually contains. Some combine RO and carbon, which removes chlorine but also strips minerals, so you may need to add brewing salts back. Our guide to <a href=\"ro-water-for-brewing.html\">RO water for brewing</a> explains how.</p>"
+  ],
+  [
+   "Boiling and standing",
+   "<p>Boiling for 15 minutes or more, or leaving water overnight in a wide, uncovered vessel, removes much of the free chlorine. It does little for chloramine. It also costs time and gas and boiling changes the water's mineral content. Use it only if you are sure your supply is chlorine without chloramine. Even then a Campden tablet is quicker.</p>"
+  ],
+  [
+   "Do not forget the cleaning side",
+   "<p>Chlorine-based sanitisers and bleach leave residues that cause the same chlorophenol off flavours. If you use bleach to clean, rinse thoroughly with treated water. Many homebrewers switch to no-rinse acid sanitisers instead. Our guide to <a href=\"brewing-water-basics.html\">brewing water basics</a> covers the rest of what is in your tap water.</p>"
+  ],
+  [
+   "Brewpubs and larger systems",
+   "<p>On a commercial scale, Campden tablets are replaced by properly sized activated carbon filters on the incoming brewing water line, often after sediment filtration and before any RO unit. The carbon needs replacing on a schedule set by water volume, not by appearance. Many breweries test treated water for chlorine with a simple test kit each brew day. It takes a minute and catches a spent filter before it reaches a batch.</p>"
+  ],
+  [
+   "How to tell if chlorine was the problem",
+   "<p>If several of your beers have a plastic, medicinal or antiseptic note, especially paler ones where there is nothing to hide behind, suspect chlorine first. Wild yeast is the other usual cause. It often brings extra fizz or dryness. Brew the next batch with a Campden tablet and a fresh sanitation routine, changing nothing else. If the note disappears, you have your answer.</p><p>Water treatment is one of the cheapest upgrades a homebrewer can make. It is also one of the most overlooked, because the fault arrives weeks later and looks like a yeast problem.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I remove chlorine from tap water for brewing?",
+   "Crush a Campden tablet into your brewing water and wait a few minutes. One tablet is commonly quoted to treat up to about 75 litres."
+  ],
+  [
+   "Does boiling remove chloramine?",
+   "Not in any useful time. Use a Campden tablet or a carbon filter designed for chloramine."
+  ],
+  [
+   "Does Indian city water have chlorine?",
+   "Most municipal supplies are chlorinated and practice varies by city. Treat your water as if chlorine or chloramine is present."
+  ],
+  [
+   "Will Campden tablets affect my beer's flavour?",
+   "At normal brewing doses the remaining sulphite is far below anything you would taste in finished beer."
+  ]
+ ],
+ "cta": {
+  "title": "Brew with water you understand",
+  "body": "Brewing Fundamentals is a 4 week live course (₹5,999) covering water treatment, ingredients, mashing and fermentation, with assignments on your own brews and feedback from working brewers.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-water-basics",
+  "phenolic-off-flavours",
+  "ro-water-for-brewing"
+ ]
+}

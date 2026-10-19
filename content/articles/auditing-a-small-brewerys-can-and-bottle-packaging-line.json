@@ -1,0 +1,63 @@
+{
+ "slug": "auditing-a-small-brewerys-can-and-bottle-packaging-line",
+ "cat": "Consultancy",
+ "h1": "Auditing a small brewery's can and bottle packaging line",
+ "title": "Auditing a Small Packaging Line | Craft Beer School",
+ "desc": "How to audit a small brewery's canning or bottling line: oxygen pickup, fill levels, seams and crowns, losses and the numbers worth logging.",
+ "teaser": "Good beer goes into the filler. What comes out the other side is the beer your customers judge.",
+ "standfirst": "Most packaging problems are invisible on the day and obvious three weeks later in a warm shop. A structured audit finds them while the line is still running, before the market finds them for you.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why packaging is where good beer goes wrong",
+   "<p>A brewery can spend weeks getting a beer right in the tank and lose it in the two seconds it takes to fill a can. Packaging is the last point where the brewer has full control. After that the beer belongs to the distributor, the shop fridge and the Indian summer.</p><p>The faults that start on the line are rarely visible on the day. Oxygen picked up at the filler shows up as stale, papery beer weeks later. A seam slightly out of specification leaks slowly. A low fill draws a complaint from a shop owner who lines up six cans and sees the difference. By the time any of this reaches you, a whole batch is out in the trade.</p><p>An audit is a deliberate look at the whole line, end to end, with numbers. It is worth doing before your first packaged release, again after any change of equipment or crew. After that, do it at least once a year.</p>"
+  ],
+  [
+   "Start with oxygen",
+   "<p>Dissolved oxygen is the measurement that matters most, because nothing else ages packaged beer as fast. Measure it in the bright tank, at the filler inlet and in finished packages taken from each filling head. The difference between tank and package is your pickup.</p><p>Many craft brewers aim to keep hop-forward beer under about 50 parts per billion in the package. Larger breweries go well below that. What counts more than any single target is knowing your own pickup and seeing it fall. Total package oxygen, which adds the oxygen in the headspace to the oxygen dissolved in the beer, is the better figure if your meter can give it. Our guide to <a href=\"measuring-dissolved-oxygen.html\">measuring dissolved oxygen</a> covers sampling technique, which is where most readings go wrong.</p><p>Common sources of pickup on small lines:</p><ul><li>Hoses and fittings that were not purged before the run started.</li><li>Poor CO2 purging of cans or bottles before filling.</li><li>Fobbing in the filler because the beer is too warm or overcarbonated.</li><li>Too long a gap between filling and seaming or crowning.</li><li>Weak undercover gassing on the seamer, or no jetting of bottle headspace before the crown goes on.</li></ul>"
+  ],
+  [
+   "Fill levels, seams and crowns",
+   "<p>Check fill by weight, not by eye. Weigh a run of empty containers to get an average tare, then weigh filled ones from every head at intervals through the run. A head that fills consistently low points to a worn seal or a filling valve that needs attention. A spread that widens as the run goes on often means the beer is warming in the filler bowl.</p><p>For cans, the double seam is a safety and shelf life issue together. Take cans from each seaming head and tear them down to measure seam thickness, seam length, countersink depth, body hook, cover hook and overlap. Compare against the specification from your can end supplier, not against a number someone remembered. For bottles, a crown gauge confirms crimp diameter on every capping head. Record every result with the time and the head number.</p>"
+  ],
+  [
+   "Losses and line efficiency",
+   "<p>Track how much beer leaves the bright tank and how much arrives in saleable packages. The gap includes line priming, fobbing, underfills that get rejected, damaged packs and the beer left in the bowl at the end. On a small line it is not unusual to find the loss is several times what the owner assumed.</p><p>Line efficiency is worth measuring alongside loss. Overall equipment effectiveness multiplies availability, speed and quality into one figure. On a small manual or semi-automatic line the useful part is usually the stoppage log: why did the line stop, for how long and how often. Our guide to <a href=\"packaging-line-efficiency-oee.html\">packaging line efficiency</a> walks through the calculation.</p>"
+  ],
+  [
+   "Hygiene, codes and the paperwork",
+   "<p>Look at the filler after a run. Check the filling valves, the bowl and the product hoses for residue, because a dirty filler infects bright beer faster than anything upstream. Take micro swabs or plate a few packages if you have the means.</p><p>Then check what the customer sees. Is the batch and date code legible and correct on every pack? Does the label match what your state excise approval says it should? Would you be able to trace a single can back to its tank and brew day? If the answer is no, a recall becomes a guessing game.</p>"
+  ],
+  [
+   "What an outside audit adds",
+   "<p>Brewers who run the line every day stop seeing it. A fresh pair of eyes notices the hose that always gets connected last, the operator who skips the purge when the line is behind or the can end batch that has never been checked against its specification.</p><p>A good audit leaves you with a short written report: measured oxygen pickup per stage, fill and seam results per head, a loss figure in litres and the five changes that will make the biggest difference. It should also leave your crew able to repeat the checks themselves. If the report does not tell you what to measure next week, it was not much of an audit.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How often should we audit our packaging line?",
+   "Before the first packaged release, after any change of equipment or crew and at least once a year. Daily checks on oxygen, fill weight and seams or crowns should run between audits."
+  ],
+  [
+   "What dissolved oxygen should we aim for in cans?",
+   "Many craft brewers aim for under about 50 parts per billion in hop-forward beer. Lower is better. The more useful number is your own pickup from tank to package, tracked over time."
+  ],
+  [
+   "Do we need a seam projector to check can seams?",
+   "No. A seam micrometer and careful teardown give reliable measurements. A projector or seam saw makes the job faster and the readings more repeatable, so it is worth buying as volume grows."
+  ]
+ ],
+ "cta": {
+  "title": "Packaged beer going stale before it sells?",
+  "body": "Our consultant brewers run a packaging line audit covering oxygen pickup, fill levels, seams, crowns and losses. Ankur Napa leads the quality and data side, Rahul Baliyan the brewing side. We leave your team running the checks themselves.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "oxygen-pickup-in-packaging",
+  "packaging-line-efficiency-oee",
+  "measuring-dissolved-oxygen"
+ ]
+}

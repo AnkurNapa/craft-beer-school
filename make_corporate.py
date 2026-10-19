@@ -105,7 +105,7 @@ def build_html():
   <div class="in"><img class="logo" src="{mp.uri("assets/footer-logo.png")}" alt="">
     <span class="eyebrow">Corporate services · 2026</span>
     <h1>Training, hiring and <em>consulting</em> for the drinks business.</h1>
-    <p>For breweries, wineries and distilleries, for beverage capability centres in Bengaluru, Pune and Hyderabad, and for companies bringing beer, ingredients or packaging to India.</p></div>
+    <p>For breweries, wineries and distilleries, for beverage capability centres in Bengaluru, Pune and Hyderabad, plus companies bringing beer, ingredients or packaging to India.</p></div>
 </section>
 <section class="page about"><span class="eyebrow">Who we are</span>
   <h2>A team that has worked inside the industry.</h2>

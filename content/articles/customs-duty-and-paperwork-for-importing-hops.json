@@ -1,0 +1,63 @@
+{
+ "slug": "customs-duty-and-paperwork-for-importing-hops",
+ "cat": "Ingredients",
+ "h1": "How customs duty and paperwork work when importing hops to India",
+ "title": "Importing Hops: Duty and Paperwork | Craft Beer School",
+ "desc": "The documents, registrations and customs steps involved in importing hops to India, explained at process level for brewery founders.",
+ "teaser": "The hops are the easy part. The import code, the food safety clearance and the customs broker are where founders lose weeks.",
+ "standfirst": "Most Indian breweries buy hops from a local importer, but some founders want to import directly. This guide walks through the steps and documents in plain terms, so you know what to ask your customs broker before the first order.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "First, decide whether to import at all",
+   "<p>Direct import makes sense when you buy enough of a few varieties to fill a sensible shipment and have a cold store to put them in. For a single brewpub using 100 to 200 kg of hops a year across many varieties, a local importer who already holds stock, an import licence and a cold room is usually cheaper once you count your own time.</p><p>Direct import gives you control of freshness and price on your core hops. It also makes you the importer of record, responsible for every document and every delay. Weigh that honestly before signing a purchase order.</p>"
+  ],
+  [
+   "Registrations you need before the first order",
+   "<p>An importer in India needs an Importer Exporter Code (IEC) from the Directorate General of Foreign Trade. It is issued online against the business PAN and is a one-time registration.</p><p>Hops are a food ingredient, so food safety clearance applies. Food imports are cleared through the FSSAI import clearance system at the port. The importer needs the appropriate FSSAI licence covering import. Our guide to <a href=\"fssai-rules-for-beer.html\">FSSAI rules for beer</a> covers the licence side for breweries.</p><p>You will also need GST registration, a bank that handles foreign remittance and a customs broker. Rules and portals change, so confirm the current requirements with your broker or a licensing consultant before you commit.</p>"
+  ],
+  [
+   "The documents that travel with the shipment",
+   "<p>A typical hop shipment needs these from the supplier:</p><ul><li>Commercial invoice and packing list, with variety, crop year, lot numbers and net weights</li><li>Bill of lading for sea freight or air waybill for air freight</li><li>Certificate of analysis for each lot, showing alpha acid and usually oil content</li><li>Certificate of origin, which may matter for duty under a trade agreement</li><li>Any health or phytosanitary certificate your broker says is needed for the product form you are importing</li></ul><p>Labelling rules for imported food in India require importer details on the pack. Ask your broker how this is handled for bulk ingredient packs, since suppliers can often add a sticker before dispatch. Getting this wrong is a common reason for samples being held.</p>"
+  ],
+  [
+   "How duty is worked out",
+   "<p>Customs duty on imports into India is usually made up of several components: basic customs duty, a surcharge and integrated GST, all calculated on the assessable value (broadly the cost of goods, freight and insurance). The rates depend on the tariff classification. Hop cones and pellets fall under the tariff heading for hop cones, while hop extracts are classified elsewhere and may attract different duty.</p><p>We will not quote rates here because they change with budgets and notifications. Ask your broker for a landed cost calculation before ordering. It should show duty, port charges, broker fees, freight and the cost of cold storage at the port. Founders who compare only the supplier's price per kilo are often surprised by the final number.</p><p>IGST paid at import can usually be claimed as input credit, depending on how your business is registered. Speak to your accountant about how that interacts with alcohol, which sits outside GST.</p>"
+  ],
+  [
+   "Clearance at the port, where hops get warm",
+   "<p>The commercial risk in hop imports is time at the port. Hops should travel in a refrigerated container or as chilled air cargo, but once the container is unplugged for examination or sits in a yard waiting for paperwork, the temperature rises. In Indian summer heat that happens fast.</p><p>Have every document checked by your broker before the ship sails. Ask in advance whether a sample will be drawn for food safety testing and how long that typically takes at your port. Arrange the reefer truck for the last leg before the cargo lands. The broader cold chain is covered in our guide to <a href=\"hop-storage-and-freshness.html\">hop storage and freshness</a>.</p><p>This is the kind of operational detail that separates a business plan from a working brewery. Supply chain, landed cost and working capital tied up in imported stock all sit on the founder's desk.</p>"
+  ],
+  [
+   "Working out whether it pays",
+   "<p>Build a simple sheet. List each variety, annual quantity and supplier price, then add freight, duty, port charges, broker fees, cold storage and finance cost for the months the stock sits in your store. Compare the landed cost per kilo against your local importer's price for the same crop year.</p><p>If the saving is small, keep buying locally and spend your effort elsewhere. If it is large on two or three core varieties, import those and keep buying the rest locally.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need an IEC to import hops?",
+   "Yes. Any business importing goods into India needs an Importer Exporter Code from the DGFT. It is a one-time online registration."
+  ],
+  [
+   "Is there customs duty on hops?",
+   "Yes, imports attract customs duty and IGST based on the tariff classification. Rates change, so ask your customs broker for a current landed cost calculation."
+  ],
+  [
+   "Should a small brewpub import hops directly?",
+   "Usually not. Buying from an Indian importer who holds cold-stored stock is often cheaper once paperwork, port charges and your own time are counted."
+  ]
+ ],
+ "cta": {
+  "title": "Get the numbers right before the supply chain gets expensive",
+  "body": "Brewery Business Management is a three-week live course (₹8,999) on costing, cash flow, sourcing and running the business side of a brewery. It builds the landed cost and working capital models this guide can only outline.",
+  "label": "See the full syllabus",
+  "href": "brewery-business-management-course.html"
+ },
+ "related": [
+  "sourcing-malt-and-hops-in-india",
+  "hop-storage-and-freshness",
+  "reading-a-hop-packet"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "how-to-research-and-brew-a-clone-of-a-beer-you-love",
+ "cat": "Brewing basics",
+ "h1": "How to research and brew a clone of a beer you love",
+ "title": "How to Research and Brew a Beer Clone | Craft Beer School",
+ "desc": "How to research a commercial beer and brew a close clone at home: reading labels, estimating gravity, choosing malts, hops and yeast and tasting side by side.",
+ "teaser": "You do not need the brewery's recipe to brew something close to it. You need the label, a calculator and a careful palate.",
+ "standfirst": "Cloning a favourite beer is one of the best ways to learn recipe design. Here is how to gather clues, turn them into a recipe and get closer with every batch.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why cloning teaches so much",
+   "<p>When you brew to a target you can taste, every difference tells you something. Too sweet, too dark, not enough citrus: each one points at a specific decision in the recipe. Brewing your own creations is fun, but a clone gives you a reference beer to measure against.</p>"
+  ],
+  [
+   "Gather the clues",
+   "<p>Start by collecting everything the brewery has made public:</p><ul><li><strong>The label.</strong> ABV is almost always printed. Some labels list IBU, malts and hops.</li><li><strong>The brewery's website and social posts.</strong> Many craft breweries share grain bills, hop varieties and even yeast families.</li><li><strong>Interviews and talks</strong> by the brewers.</li><li><strong>Style guidelines.</strong> If the beer is a clear example of a style, guidelines such as the BJCP's give typical ranges for gravity, bitterness and colour.</li></ul><p>Our guide to <a href=\"reading-a-beer-recipe.html\">reading a beer recipe</a> helps you turn these fragments into something you can brew.</p>"
+  ],
+  [
+   "Estimate the numbers",
+   "<p>Work out the original gravity from the ABV. Assume a final gravity typical of the style, then rearrange the standard formula, ABV = (OG - FG) x 131.25.</p><p>Worked example: a pale ale at 5.5% ABV with an assumed FG of 1.012. OG = 1.012 + 5.5 / 131.25, which is about 1.054.</p><p>Estimate colour from the glass. Hold it against a white background and compare it with a colour chart. Estimate bitterness from the style range and your palate. If the label gives an IBU figure, use it. Brewing software makes all of this faster. Our guide to <a href=\"brewing-software-and-calculators.html\">brewing software and calculators</a> covers the options.</p>"
+  ],
+  [
+   "Build the recipe",
+   "<p>With your targets set, design the grist and hop schedule:</p><ul><li><strong>Base malt</strong> makes up most of the grist. Pale ale malt for British styles, pilsner malt for lagers and many Belgian beers, two-row pale for American styles.</li><li><strong>Specialty malts</strong> add colour and flavour. Start small. It is easier to add crystal malt next time than to remove its sweetness.</li><li><strong>Hops.</strong> Use the varieties the brewery names. If they keep them secret, taste carefully. Pine and resin, tropical fruit, citrus and grassy notes each point to different families of hops.</li><li><strong>Yeast.</strong> This is often the biggest factor in matching flavour. A clean American ale yeast, a fruity English strain and a Belgian strain will make three different beers from the same wort.</li><li><strong>Water.</strong> A soft, round beer and a crisp, dry one can come from the same grist with different mineral profiles.</li></ul>"
+  ],
+  [
+   "Mind the gap between their kit and yours",
+   "<p>Some breweries publish their own homebrew-scale recipes, or have shared them in brewing magazines and books. If one exists, start there and treat it as a strong first draft rather than gospel. Recipes are often simplified for homebrewers and the commercial beer may have changed since.</p><p>Commercial breweries get different extract efficiency, hop utilisation and fermentation conditions from a homebrew set-up. A 1,000 litre fermenter with high pressure at the bottom behaves differently from a 20 litre bucket. Expect to adjust. If you scale any recipe from a commercial size, our guide to <a href=\"scaling-a-beer-recipe.html\">scaling a beer recipe</a> explains what changes.</p><p>Freshness matters too. A hoppy beer that has spent weeks in a warm truck will taste very different from the same beer at the brewery. Clone the version you love. Be honest about how fresh it was.</p>"
+  ],
+  [
+   "Taste side by side",
+   "<p>When your beer is ready, pour it next to the commercial beer. Same glass, same temperature, same light. Ask a friend to serve them blind so you do not know which is which. Note differences under four headings:</p><ol><li>Appearance: colour, clarity, head.</li><li>Aroma: hops, malt, yeast character.</li><li>Flavour: sweetness, bitterness, balance.</li><li>Mouthfeel: body, carbonation, finish.</li></ol><p>Tasting beer side by side is about comparison, not volume. Small pours of 50 to 100 ml are plenty. A jug of water between samples keeps your palate honest.</p><p>Change one or two things for the next batch, not everything. Keep notes, so that by the third attempt you know which change made which difference.</p>"
+  ],
+  [
+   "Know when to stop",
+   "<p>You may never match a beer exactly, especially if the brewery uses a house yeast you cannot buy. Getting 90% of the way there is a good result. You will have learned more about recipe design than ten batches of guesswork would teach you. Building that knowledge systematically, from malt and hop choice to fermentation, is what a structured course is for.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I work out the original gravity of a commercial beer?",
+   "Assume a typical final gravity for the style, then use OG = FG + ABV / 131.25. A 5.5% beer with an FG of 1.012 has an OG of about 1.054."
+  ],
+  [
+   "Is the yeast really that important in a clone?",
+   "Often it is the single biggest factor. The same wort fermented with different yeasts can taste like three different beers."
+  ],
+  [
+   "Can I ask the brewery for the recipe?",
+   "You can ask politely. Many craft brewers share hints, though few give away full recipes."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to design recipes with confidence",
+  "body": "Brewing Fundamentals is a 4 week live course (₹5,999) that teaches ingredients, recipe structure and fermentation, so you can move from cloning other people's beers to designing your own.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "reading-a-beer-recipe",
+  "brewing-software-and-calculators",
+  "scaling-a-beer-recipe"
+ ]
+}

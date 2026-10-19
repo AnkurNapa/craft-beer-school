@@ -1,0 +1,71 @@
+{
+ "slug": "hectolitres-cases-and-units-the-volume-measures-beer",
+ "cat": "Beer for teams",
+ "h1": "Hectolitres, cases and units: the volume measures beer companies use",
+ "title": "Hectolitres, Cases and Units in Beer | Craft Beer School",
+ "desc": "The volume measures beer companies use, from hectolitres and cases to units and barrels, with how to convert between them without breaking a report.",
+ "teaser": "Sales says cases, the brewery says hectolitres, finance says units and the global team says barrels. They are all describing the same beer.",
+ "standfirst": "Beer volume is reported in several units at once. Each team prefers the one that suits its work. New joiners who learn the conversions early avoid a whole class of reporting mistakes.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The hectolitre: the industry's common unit",
+   "<p>A <strong>hectolitre</strong> (hl) is 100 litres. It is the standard unit for beer production and industry comparisons in most of the world, including India. Brewery capacity, annual production and market size are usually quoted in hectolitres. A million hectolitres is 100 million litres.</p><p>Hectolitres are useful because they ignore pack size. A brewery packs 650 ml bottles, 330 ml cans and 30 litre kegs, but all of them add up neatly in hectolitres. Our <a href=\"beer-glossary-for-new-joiners.html\">beer glossary for new joiners</a> lists other terms you will meet.</p>"
+  ],
+  [
+   "Cases: the unit sales teams live in",
+   "<p>Sales and distribution usually count <strong>cases</strong>, because that is what moves on trucks and sits in warehouses. In India a common beer case holds twelve 650 ml bottles, which is 7.8 litres. A case of twenty-four 330 ml cans holds 7.92 litres. A case of twenty-four 500 ml cans holds 12 litres.</p><p>Because case contents vary, \"a case\" is not a fixed volume. Two brands that each sold 10,000 cases may have sold quite different volumes. Always check the configuration before adding cases across SKUs.</p>"
+  ],
+  [
+   "Standard cases and equivalent units",
+   "<p>To compare across pack types, some companies define a <strong>standard case</strong> or equivalent case of a fixed volume and convert every SKU to it. The definition differs by company and sometimes by country, so check yours. In spirits and wine, the 9 litre case, equal to twelve 750 ml bottles, is the widely used standard.</p><p>Finance and retail teams may also use <strong>units</strong>, meaning individual bottles or cans. Units matter for pricing and shelf planning but are the least useful for volume comparisons.</p>"
+  ],
+  [
+   "Barrels and other foreign units",
+   "<p>Global reports sometimes use barrels. A US beer barrel is 31 US gallons, about 117.3 litres. A UK brewer's barrel is 36 imperial gallons, about 163.7 litres. They are not the same, so a report that says \"barrels\" without saying which kind is a trap. Converting everything to hectolitres first is the safest approach.</p><p>Kegs vary too. In India, 20, 30 and 50 litre kegs are common in brewpubs and bars, but check the actual size before converting.</p>"
+  ],
+  [
+   "Conversions that break reports",
+   "<ul><li><strong>Mixing cases of different sizes.</strong> Adding 650 ml bottle cases to 330 ml can cases gives a meaningless total.</li><li><strong>Wrong volume in master data.</strong> One SKU entered with the wrong pack size distorts every volume report that uses it.</li><li><strong>Production versus sales volume.</strong> Production hectolitres include beer lost in the process, dilution and stock changes. Sales hectolitres count what left the warehouse. They should be close over time but will not match exactly.</li><li><strong>Strength-adjusted volume.</strong> Excise and some reports use litres of pure alcohol, which multiply volume by alcohol content.</li></ul><p>Our guide to <a href=\"shipments-vs-depletions-beer-sales-data.html\">shipments vs depletions</a> explains why two sales volumes for the same month can differ.</p>"
+  ],
+  [
+   "Quick conversions to keep handy",
+   "<p>A few figures cover most daily needs:</p><ul><li>1 hectolitre = 100 litres.</li><li>A 12 x 650 ml case = 7.8 litres, so about 12.8 cases make a hectolitre.</li><li>A 24 x 330 ml case = 7.92 litres, so about 12.6 cases make a hectolitre.</li><li>A 30 litre keg = 0.3 hectolitres.</li><li>Litres of pure alcohol = litres of beer x ABV. 100 litres of 5% beer contain 5 litres of pure alcohol.</li></ul>"
+  ],
+  [
+   "A worked example",
+   "<p>Suppose a monthly report shows 50,000 cases of a brand in 650 ml bottles and 20,000 cases of the same brand in 330 ml cans. Adding the cases gives 70,000, a figure that means little. Converting gives 50,000 x 7.8 = 390,000 litres plus 20,000 x 7.92 = 158,400 litres. That is 548,400 litres, or 5,484 hectolitres. If the beer is 5% ABV, it holds about 27,420 litres of pure alcohol. Each of those numbers answers a different question for a different team. Each is correct.</p>"
+  ],
+  [
+   "Why production teams care",
+   "<p>On the brewery floor, volumes are measured in tanks, by level gauges and flow meters, in hectolitres. Planners convert sales forecasts into hectolitres to decide how much to brew. Our guide to <a href=\"beer-production-planning-basics.html\">beer production planning basics</a> follows that chain. A mistake in pack volume at the SKU level can end up as a brewing plan that is too large or too small, which costs either stale stock or lost sales.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many litres is a hectolitre?",
+   "A hectolitre is 100 litres. It is the standard unit for beer production and industry volume."
+  ],
+  [
+   "How many litres are in a case of beer?",
+   "It depends on the pack. A common Indian case of twelve 650 ml bottles holds 7.8 litres, while a case of twenty-four 330 ml cans holds 7.92 litres."
+  ],
+  [
+   "Is a US barrel the same as a UK barrel?",
+   "No. A US beer barrel is about 117.3 litres and a UK brewer's barrel is about 163.7 litres. Convert to hectolitres to avoid confusion."
+  ]
+ ],
+ "cta": {
+  "title": "Give new joiners a working beer vocabulary",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions. New joiners learn the units, terms and process behind the numbers they report on.",
+  "label": "Ask about team training",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "beer-glossary-for-new-joiners",
+  "shipments-vs-depletions-beer-sales-data",
+  "beer-production-planning-basics"
+ ]
+}

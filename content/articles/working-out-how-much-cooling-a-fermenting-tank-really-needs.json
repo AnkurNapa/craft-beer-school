@@ -1,0 +1,67 @@
+{
+ "slug": "working-out-how-much-cooling-a-fermenting-tank-really-needs",
+ "cat": "Brewing science",
+ "h1": "Working out how much cooling a fermenting tank really needs",
+ "title": "How much cooling a fermenter needs | Craft Beer School",
+ "desc": "Calculate fermentation heat, crash cooling and ambient gain for a fermenting tank, with a 20 hl example and what Indian summers do to the glycol load.",
+ "teaser": "Fermentation heat is the number everyone calculates. In an Indian brewery it is often the smallest of the three loads.",
+ "standfirst": "Sizing glycol for fermenters means adding up three heat loads: fermentation, crash cooling and heat leaking in from a hot room. We work through a 20 hl tank so you can run the same sums on yours.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The three loads on a fermenter",
+   "<p>A fermenting tank needs cooling for three reasons.</p><ul><li><strong>Fermentation heat.</strong> Yeast releases heat as it converts sugar to alcohol and CO2.</li><li><strong>Crash cooling.</strong> After fermentation, the beer is chilled from fermentation temperature to near 0 °C for conditioning.</li><li><strong>Ambient gain.</strong> Heat leaks in from the room through the tank shell, insulation and fittings.</li></ul><p>A glycol system must handle the worst combination of these across all tanks at once, as explained in our guide to <a href=\"glycol-cooling-systems.html\">glycol cooling systems</a>.</p>"
+  ],
+  [
+   "Fermentation heat in numbers",
+   "<p>A commonly used figure for heat released by fermentation is around 580 to 590 kJ per kg of extract fermented. Take a 20 hl ale tank of 12 °P wort that finishes around 2.5 °P apparent.</p><ul><li>Real extract fermented is roughly 7.8 °P, after correcting apparent gravity for alcohol.</li><li>Extract fermented: 2,000 L x 1.048 x 0.078, about 163 kg.</li><li>Heat: 163 x 587, about 96,000 kJ.</li></ul><p>Spread over three days, the average is only about 0.37 kW. Fermentation does not run evenly, though. The peak, usually during the second day, can run at two to three times the average. Plan for around 1 kW at peak for this tank, more with fast, warm ale strains.</p>"
+  ],
+  [
+   "Crash cooling is often the big one",
+   "<p>Now cool that 2,000 litres from 20 °C to 2 °C in 24 hours. Beer specific heat is about 4.0 kJ/kg K. Heat to remove is about 2,000 x 1.0 x 4.0 x 18, roughly 144,000 kJ. Over 24 hours that is about 1.7 kW, nearly double the fermentation peak.</p><p>Crash faster and the load rises. Crash in 12 hours and you need about 3.3 kW from that one tank. If two or three tanks crash on the same day, the chiller sees all of it at once.</p>"
+  ],
+  [
+   "Ambient gain in an Indian cellar",
+   "<p>The floor detail that decides many Indian systems: a fermentation hall at 35 to 40 °C in May, with tanks held at 2 °C for conditioning. Heat gain through the shell depends on insulation thickness and condition, the tank surface area and the temperature difference. A well-insulated tank gains little. A poorly insulated or uninsulated tank, or one with wet, damaged insulation, can gain a surprising amount. The loss shows up as a tank that cannot hold temperature in the afternoon.</p><p>Do not guess this number. Ask the tank supplier for the heat gain figure at your worst room temperature, or measure it: shut the glycol valve on a cold, full tank and log the temperature rise over a few hours. Our guide to <a href=\"fermenting-through-an-indian-summer.html\">fermenting through an Indian summer</a> covers the wider picture.</p>"
+  ],
+  [
+   "Adding it up for the brewery",
+   "<p>Build a simple table for your schedule. For each tank, list fermentation peak, crash load and ambient gain. Then look at the worst realistic day: how many tanks will be at peak fermentation, how many crashing and all of them gaining heat. Add pipe losses and the brite tanks. Then add a margin.</p><p>Convert to refrigeration tons if your supplier works in them: 1 TR is about 3.5 kW. Remember that chiller capacity falls as condenser temperature rises, so a chiller rated at 35 °C ambient will deliver less on a 42 °C afternoon. Ask for the capacity at your real conditions.</p>"
+  ],
+  [
+   "Jackets, valves and glycol temperature",
+   "<p>The chiller is only part of it. Jacket area, glycol temperature and flow decide how fast heat can move from beer to glycol. A small jacket fed with glycol at -4 °C may still crash slowly because the area is too small. Check that each tank's jacket and valve are sized for its crash load. A fermentation curve that will not hold temperature at peak, as in our guide to <a href=\"reading-a-fermentation-curve.html\">reading a fermentation curve</a>, often points at a valve or a jacket rather than the chiller.</p>"
+  ],
+  [
+   "Why the sums matter",
+   "<p>An undersized system shows up as warm ferments, slow crashes, delayed packaging and strained compressors running flat out. An oversized one costs more to buy and runs inefficiently. In consulting work we often see breweries that sized the chiller on fermentation heat alone, then struggled every summer because crash cooling and ambient gain were never counted.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much glycol capacity do I need per fermenter?",
+   "It depends on tank size, crash rate, room temperature and insulation. Work out each load and the worst day's combination rather than using a single rule of thumb."
+  ],
+  [
+   "Does insulation really matter in India?",
+   "Yes. In a hot fermentation hall, ambient heat gain through poor insulation can be a large share of the cooling load."
+  ],
+  [
+   "Can I crash more slowly to save chiller capacity?",
+   "Yes. Spreading crashes across days, or over 36 to 48 hours, reduces the peak load. It slows tank turnover, so plan it into the schedule."
+  ]
+ ],
+ "cta": {
+  "title": "Get your cooling capacity right before summer",
+  "body": "We run a cooling and fermentation capacity review: heat loads, chiller, jackets and schedule checked against your real logs. Rahul Baliyan leads the brewing side and Ankur Napa the numbers and cost. Your team keeps the calculation sheet and can rerun it as you grow.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "glycol-cooling-systems",
+  "fermenting-through-an-indian-summer",
+  "reading-a-fermentation-curve"
+ ]
+}

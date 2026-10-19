@@ -1,0 +1,67 @@
+{
+ "slug": "working-out-how-much-water-you-need-for-a-homebrew-batch",
+ "cat": "Brewing basics",
+ "h1": "Working out how much water you need for a homebrew batch",
+ "title": "Water Needed for a Homebrew Batch | Craft Beer School",
+ "desc": "Work backwards from the fermenter to find how much mash and sparge water you need: kettle losses, cooling shrinkage, boil-off and grain absorption.",
+ "teaser": "You wanted 20 litres in the fermenter and got 16. Here is the arithmetic that stops that happening.",
+ "standfirst": "Getting the water volume right is the difference between hitting your recipe and ending up with short, strong beer or a full fermenter of weak beer. The calculation looks fiddly the first time. It is really one idea: start at the fermenter and work backwards.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Work backwards from the fermenter",
+   "<p>Beginners often start with \"how much water should I heat?\" That is the last question, not the first. Start with how much wort you want in the fermenter, then add back every loss between the kettle and the fermenter, then every loss in the boil and the mash.</p><p>We will work through a typical 20 litre all-grain batch using 4.5 kg of grain. Your own numbers will differ, which is the point: measure them once and reuse them. Write the steps on a card near the kettle so you are not doing sums with a hot spoon in your hand.</p>"
+  ],
+  [
+   "Losses after the boil",
+   "<p>Not all the wort in the kettle reaches the fermenter. Hops, trub and the liquid below the tap stay behind. In many homebrew kettles that is 1.5 to 2.5 litres. Call it 2 litres here. A plate chiller, pump or long hose adds its own loss, so count any wort that stays in them.</p><p>So you need 22 litres of cooled wort at the end of the boil.</p><p>Wort also shrinks as it cools, by about 4% between boiling and room temperature. If you measure volume hot, you need 22 / 0.96, about 22.9 litres of hot wort at the end of the boil.</p>"
+  ],
+  [
+   "Boil-off",
+   "<p>A rolling boil drives off water as steam. How much depends on the kettle's width, the heat source and the weather, but 2.5 to 4 litres an hour is common for a homebrew kettle. Our guide on <a href=\"boil-evaporation-rate.html\">boil evaporation rate</a> shows how to measure yours.</p><p>Say yours is 3 litres an hour and you boil for 60 minutes. Your pre-boil volume needs to be 22.9 + 3, about 25.9 litres. This is the number to hit when you finish collecting wort from the mash.</p>"
+  ],
+  [
+   "What the grain keeps",
+   "<p>Malt soaks up water and holds on to it. Brewers usually allow about 1 litre per kilo of grain in a mash tun. In a brew in a bag setup, if you squeeze the bag well, it can be closer to 0.6 to 0.8 litres per kilo.</p><p>Our 4.5 kg of grain keeps about 4.5 litres. A mash tun also leaves some liquid below the false bottom or tap, called dead space. Say 1 litre.</p><p>Total water needed: 25.9 + 4.5 + 1 = 31.4 litres.</p>"
+  ],
+  [
+   "Splitting it into mash and sparge water",
+   "<p>If you sparge, which means rinsing the grain with hot water after the mash, you split that total into two parts.</p><p>Mash water is usually set by the mash thickness, between about 2.5 and 3.5 litres per kilo of grain. At 3 litres per kilo, our 4.5 kg needs 13.5 litres for the mash. Sparge water is the rest: 31.4 minus 13.5, which is 17.9 litres. Our guide to <a href=\"lautering-and-sparging.html\">lautering and sparging</a> covers how to run it off without extracting harsh tannins.</p><p>If you brew in a bag without sparging, you put the whole volume in at the start, worked out with the lower absorption figure for a squeezed bag.</p>"
+  ],
+  [
+   "Get your own numbers on one brew day",
+   "<p>The figures above are typical, not yours. On your next brew day, measure four things: pre-boil volume, post-boil volume, volume into the fermenter and how much grain you used. A measuring jug and a marked stick for the kettle are enough. Scratch litre marks into a stainless steel spoon handle and you have a dipstick that never gets lost.</p><p>From those four numbers you get your real boil-off rate, kettle loss and grain absorption. Write them down. From then on, any recipe can be fitted to your system in two minutes. Our guide on <a href=\"scaling-a-beer-recipe.html\">scaling a beer recipe</a> shows how to adjust the grain bill once your volumes are known.</p><p>A few things will push your numbers around. A hot, dry afternoon boils off more than a monsoon morning. A fine crush absorbs a little more water. A hazy IPA with 200 g of hops in the kettle leaves more wort behind than a lager with 40 g.</p><p>Water volumes are one part of what brewers call system calibration. Efficiency, temperature losses and fermenter yield are the others. Nailing all of them is what lets you brew the same beer twice.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much water do I need for a 20 litre all-grain batch?",
+   "Often about 30 to 32 litres in total, depending on grain weight, boil-off and kettle losses. Measure your own system once to get an exact figure."
+  ],
+  [
+   "How much water does grain absorb?",
+   "About 1 litre per kilo in a mash tun. A squeezed brew in a bag can retain less, around 0.6 to 0.8 litres per kilo."
+  ],
+  [
+   "How much water boils off in an hour?",
+   "Commonly 2.5 to 4 litres an hour for a homebrew kettle. It depends on kettle width, heat and weather, so measure yours."
+  ],
+  [
+   "Why does wort volume drop when it cools?",
+   "Hot water takes up more space than cold water. Wort shrinks by about 4% between the boil and room temperature."
+  ]
+ ],
+ "cta": {
+  "title": "Brew the same beer twice on purpose",
+  "body": "Brewing Fundamentals covers volumes, efficiency, mashing and fermentation over four weeks of live weekend classes, so your recipes land where you aim them.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "boil-evaporation-rate",
+  "lautering-and-sparging",
+  "scaling-a-beer-recipe"
+ ]
+}

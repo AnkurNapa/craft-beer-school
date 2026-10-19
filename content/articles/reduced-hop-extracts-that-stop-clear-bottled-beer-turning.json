@@ -1,0 +1,63 @@
+{
+ "slug": "reduced-hop-extracts-that-stop-clear-bottled-beer-turning",
+ "cat": "Brewing science",
+ "h1": "Reduced hop extracts that stop clear bottled beer turning skunky",
+ "title": "Reduced hop extracts for clear bottles | Craft Beer School",
+ "desc": "How rho, tetra and hexa hop extracts stop lightstruck flavour in clear and green glass, how to dose them and why one kettle hop ruins the plan.",
+ "teaser": "Clear glass looks great on a shelf. Ten minutes of sunlight can make the beer inside smell like a skunk. Reduced hop extracts are the fix, if you commit fully.",
+ "standfirst": "Lightstruck flavour is a chemistry problem with a chemistry answer. Reduced iso-alpha acids cannot form the skunky thiol, but only if every normal hop acid stays out of the beer.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What light actually does to beer",
+   "<p>Lightstruck flavour starts with riboflavin, a vitamin that malt and yeast put into every beer. Riboflavin absorbs blue and near ultraviolet light, roughly 350 to 500 nm. It passes that energy on to the iso-alpha acids that make beer bitter. One side chain of the iso-alpha acid breaks off as a radical. It reacts with sulphur compounds in the beer and becomes 3-methyl-2-butene-1-thiol, usually shortened to MBT.</p><p>MBT is the skunk. Its flavour threshold is quoted in nanograms per litre, so a very small amount of damage is enough. Brown glass blocks most of the harmful light. Green glass blocks a little. Clear glass blocks almost none. Our main guide to <a href=\"lightstruck-skunky-beer.html\">lightstruck beer</a> covers the sensory side. This one is about the hop chemistry that prevents it.</p>"
+  ],
+  [
+   "Rho, tetra and hexa: what reduction changes",
+   "<p>Hop suppliers make light-stable bitter acids by chemically reducing iso-alpha acids. Three families are on the market.</p><ul><li><strong>Rho-iso-alpha acids</strong> (dihydro). The carbonyl group next to the breakable side chain is reduced, so the radical that becomes MBT never forms. Bitterness is usually quoted at about 0.6 to 0.7 times that of normal iso-alpha acids.</li><li><strong>Tetrahydro-iso-alpha acids</strong> (tetra). The side chain double bonds are hydrogenated. Bitterness is often quoted as higher than iso-alpha acids. Tetra is also a strong foam enhancer.</li><li><strong>Hexahydro-iso-alpha acids</strong> (hexa). Both changes at once. Light stable, foam positive, bitterness close to or a little above normal iso.</li></ul><p>Bitterness factors vary by product and by panel, so use the figures on your supplier's specification sheet, then confirm by tasting and by measured BU.</p>"
+  ],
+  [
+   "The rule that decides whether it works",
+   "<p>A reduced extract only protects the beer if there is no ordinary iso-alpha acid left to break. That means no kettle hops at all, including the late aroma addition people sneak in for character. A few BU of normal iso-alpha acid in clear glass is enough to skunk.</p><p>The leaks are usually indirect. Yeast repitched from a conventionally hopped beer carries iso-alpha acids on its cell walls. A shared kettle or whirlpool that is not cleaned well leaves residue. Dry hopping with pellets adds some alpha acids and their oxidation products. Brewers who want hop aroma in a light-stable beer usually move to hop oil products made without bitter acids. They also keep a dedicated yeast line for it.</p>"
+  ],
+  [
+   "Dosing reduced extracts on the brewery floor",
+   "<p>Rho can go into the kettle late in the boil or into finished beer. Tetra and hexa are normally dosed cold, into beer after fermentation, because they are already isomerised and kettle losses are wasteful. They come as potassium salt solutions. Dilute them in deaerated water as the supplier describes, then inject with a dosing pump into a flowing beer line ahead of the filter or the bright tank so they mix fully.</p><p>The detail that catches people: these solutions precipitate if they hit cold, acidic beer in a concentrated slug. Dose slowly into turbulent flow, never as a single pour into the top of a tank. A cloudy white streak in the sight glass is undissolved extract. It will end up on the filter rather than in the glass.</p>"
+  ],
+  [
+   "Is clear glass worth it in India",
+   "<p>Sunlight in most of India is strong for much of the year. Bottles sit in open delivery trucks, on shop counters near doors and in ice tubs on terraces. Clear glass without protection is a short shelf life waiting to happen. Even green glass beer is at risk in that setting.</p><p>So the decision is commercial. If the brand needs clear glass, the beer must be designed for it from the grist up: reduced bitter acids only, no kettle hops, clean yeast. If the brand can live with brown glass or cans, that is the simpler route. Light is not the only enemy either. Warm storage and oxygen still stale the beer, as our guide to <a href=\"beer-shelf-life.html\">beer shelf life</a> explains.</p>"
+  ],
+  [
+   "Checking you got it right",
+   "<p>Run a simple light test on finished bottles before launch. Put a few sealed bottles in direct sunlight for 15 to 30 minutes next to controls kept dark, then chill both and smell blind. A trained panel will spot MBT quickly if any ordinary iso-alpha acid got through. Repeat the test whenever you change hop products, yeast source or the cleaning routine on shared vessels.</p><p>Getting this right means knowing hop acid chemistry, foam behaviour and how stability tests are designed. That is the kind of depth a single guide can only point at.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I dry hop a beer that goes into clear glass?",
+   "Dry hopping with pellets adds some alpha acids and related compounds, so it carries a risk. Brewers who need aroma in light-stable beer usually use hop oil products made without bitter acids instead."
+  ],
+  [
+   "Do reduced extracts taste different from kettle hops?",
+   "Many brewers describe the bitterness as cleaner and a little less rounded. Tetra in particular can feel sharper at the same BU, so recipes are usually adjusted by taste."
+  ],
+  [
+   "Do cans need light-stable hops?",
+   "No. Cans block light completely, so ordinary hops are fine. Reduced extracts in canned beer are used for foam, not light protection."
+  ]
+ ],
+ "cta": {
+  "title": "Design hop bitterness that survives the shelf",
+  "body": "Advanced Brewing Science is a 6 week live course covering hop acid chemistry, foam, light and flavour stability, with stability testing you can run in your own brewery. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "lightstruck-skunky-beer",
+  "hop-extracts-and-cryo-hops",
+  "beer-shelf-life"
+ ]
+}

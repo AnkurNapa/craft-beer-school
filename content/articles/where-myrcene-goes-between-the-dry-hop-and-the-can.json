@@ -1,0 +1,67 @@
+{
+ "slug": "where-myrcene-goes-between-the-dry-hop-and-the-can",
+ "cat": "Brewing science",
+ "h1": "Where myrcene goes between the dry hop and the can",
+ "title": "Where myrcene goes after the dry hop | Craft Beer School",
+ "desc": "Myrcene dominates hop oil but little reaches the can. How CO2 scrubbing, yeast, oxygen and packaging polymers remove it and what brewers can control.",
+ "teaser": "Myrcene is often the biggest single part of hop oil. Very little of it reaches the drinker. Here is where it goes.",
+ "standfirst": "Myrcene gives fresh hops their green, resinous punch. It is also volatile, insoluble and sticky. Between the dry hop and the can it escapes in CO2, sticks to yeast and plastics and oxidises.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What myrcene is",
+   "<p>Myrcene is a monoterpene hydrocarbon, the largest single compound in the essential oil of many hop varieties. Shares of 30 to 60% of total oil are common. Some varieties go higher. It smells green, resinous and a little like fresh-cut hops. In the hop store it is the smell you notice first.</p><p>Chemically it is small, volatile and very poorly soluble in water. Those three traits explain almost everything that happens to it in beer. Our guide to <a href=\"hop-oil-chemistry.html\">hop oil chemistry</a> covers the wider oil families.</p>"
+  ],
+  [
+   "Loss one: scrubbing by CO2",
+   "<p>Active fermentation produces large volumes of CO2. As the gas rises through the beer it carries volatile, insoluble compounds out of solution and up the blow-off. Myrcene is a prime candidate. Hops added at high krausen lose a large share of myrcene this way.</p><p>This is the main reason many brewers dry hop late in fermentation or after it ends, when CO2 flow has slowed. Some deliberately dry hop during active fermentation for biotransformation and accept the myrcene loss as the price. Neither choice is wrong. They give different beers.</p>"
+  ],
+  [
+   "Loss two: yeast and hop matter",
+   "<p>Hydrophobic compounds like myrcene stick to surfaces. Yeast cells and the plant material from hop pellets both adsorb it. When yeast settles in the cone or the hop sludge is dropped, myrcene goes with them. A long contact time with heavy yeast in suspension can strip more aroma than it adds.</p><p>Most extraction of hop oil into beer happens within hours to a day or so at cellar temperature. Long dry hop contact mostly adds grassy and vegetal notes. It also leaves more time for myrcene to stick to settled material.</p><p>Temperature changes the balance too. Warmer dry hopping extracts faster, but myrcene is also more volatile at higher temperature. Many brewers settle on cellar temperatures somewhere in the low to mid teens °C as a compromise, then drop the hops and chill.</p>"
+  ],
+  [
+   "Loss three: oxygen",
+   "<p>Myrcene oxidises readily. Oxygen picked up during dry hopping, transfer or packaging turns it into oxidised products with different aromas, often duller and less fresh. Dry hopping through an open manway lets air in with the pellets. Pellets also carry air in their packaging. This is one reason careful breweries purge dry hop vessels with CO2 or use closed dosing systems.</p><p>Our guide to <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup in packaging</a> covers measuring dissolved oxygen through the cold side.</p>"
+  ],
+  [
+   "Loss four: scalping by polymers",
+   "<p>The floor detail many breweries miss: plastics absorb myrcene. Hoses, gaskets, can liners and crown liners are all polymers. Hydrophobic aroma compounds migrate into them. This is called flavour scalping. Long runs of soft hose between tanks, a new filter housing or a fresh set of gaskets can pull aroma out of the first beer through them. In the package, can and crown liners continue to absorb myrcene slowly over time.</p><p>You can reduce it with short hard-pipe runs, polymers chosen for low scalping and fresh beer on the shelf. You cannot stop it entirely.</p>"
+  ],
+  [
+   "What survives and why it changes",
+   "<p>By the time beer is in the can, the myrcene level is usually a small fraction of what went in with the hops. It continues to fall in storage. Other hop compounds behave differently. Linalool and geraniol are more soluble, survive better and become relatively more important in the finished aroma. That is why <a href=\"how-hops-change-aroma.html\">hop aroma changes</a> from the dry hop tank to the can, then again over the shelf life.</p><p>Warm storage speeds every one of these losses. In India, the cold chain from brewery to bar decides how much of that fresh hop character a drinker actually meets.</p>"
+  ],
+  [
+   "What a brewer can control",
+   "<ul><li>Timing: dry hop after peak CO2 if you want fresh, resinous character.</li><li>Contact: keep it short and cool once extraction is done.</li><li>Oxygen: purge, close dosing systems and measure dissolved oxygen.</li><li>Hardware: short runs of hard pipe and low-scalping gaskets.</li><li>Market: package close to sale and keep it cold.</li></ul><p>Measuring myrcene needs gas chromatography, which most small breweries send out. A sensory panel tracking freshness can still catch the trend. Working out these trade-offs for your own beers is where hop chemistry meets process design.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does myrcene give beer its hop aroma?",
+   "It contributes fresh, green and resinous notes, especially in very fresh beer. Many other compounds, including linalool, geraniol and thiols, shape the final aroma."
+  ],
+  [
+   "Should I dry hop during active fermentation?",
+   "It depends on the beer you want. Dry hopping during fermentation loses more myrcene but can increase some biotransformation flavours."
+  ],
+  [
+   "Do cans lose more aroma than bottles?",
+   "Both lose some aroma to liners over time. Cans block light and usually have lower oxygen, so they often keep hop character better overall."
+  ]
+ ],
+ "cta": {
+  "title": "Keep more of the hop aroma you paid for",
+  "body": "Advanced Brewing Science is a 6 week live course covering hop chemistry, dry hopping, oxygen control and packaging, so you can design hoppy beers that hold their aroma. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "hop-oil-chemistry",
+  "how-hops-change-aroma",
+  "oxygen-pickup-in-packaging"
+ ]
+}

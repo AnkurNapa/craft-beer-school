@@ -1,0 +1,67 @@
+{
+ "slug": "diastaticus-yeast-and-the-risk-of-over-carbonated-packaged",
+ "cat": "Brewing science",
+ "h1": "Diastaticus yeast and the risk of over-carbonated packaged beer",
+ "title": "Diastaticus Yeast and Over-Carbonation | Craft Beer School",
+ "desc": "What diastaticus yeast is, why it keeps fermenting in cans and bottles, how to test for it and how to stop it reaching your packaging line.",
+ "teaser": "Cans that bulge, bottles that gush, beer that tastes thin and dry. Diastaticus is a packaging problem with a yeast cause.",
+ "standfirst": "Diastaticus is a variety of brewing yeast that can ferment sugars ordinary yeast leaves alone. In a fermenter that might look like good attenuation. In a sealed can it means rising pressure, gushing and, at worst, burst packages.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What diastaticus is",
+   "<p>Saccharomyces cerevisiae var. diastaticus is the same species as ale yeast, with one important difference. Many strains carry a gene, usually called STA1, that lets them produce a glucoamylase enzyme. The cell secretes it into the beer, where it breaks down dextrins and even starch into glucose. The yeast then ferments that glucose.</p><p>Normal brewing yeast cannot touch dextrins, which is why beer keeps some body and a final gravity above 1.000. Diastaticus can. Given time, it takes a beer far drier than the brewer intended.</p>"
+  ],
+  [
+   "Why it is a packaging problem",
+   "<p>In the fermenter, diastatic activity is slow. A tank may reach what looks like its normal terminal gravity and get packaged on schedule. In the can or bottle, the yeast carries on working through the dextrins. Every gravity point it ferments produces more CO2 in a sealed space.</p><p>The results run from a beer that is merely over-carbonated and thin, to gushing on opening, to swollen cans and exploding glass bottles. Many diastatic strains also produce a phenolic, clove-like character. Warm storage speeds all of this up. A beer that would take months to show a problem in a cold chain can fail in weeks in an Indian summer warehouse.</p>"
+  ],
+  [
+   "Where it comes from",
+   "<ul><li><strong>Deliberate use.</strong> Some saison and farmhouse yeast strains are diastatic. That is why saisons often finish so dry. Brewing with one is fine, as long as it stays contained.</li><li><strong>Cross-contamination.</strong> A brewery that runs a diastatic saison and a lager through the same hoses, heat exchanger, centrifuge or filler can spread it.</li><li><strong>Contaminated yeast.</strong> Repitched slurry that has picked up a diastatic strain carries it into every batch it touches.</li><li><strong>Packaging equipment.</strong> Fillers and seamers with poor cleaning harbour wild yeast, including diastaticus. Biofilms in hard to clean parts are the usual home.</li></ul><p>Acid washing, sometimes tried as a fix, does not remove diastaticus. It tolerates low pH as well as the culture yeast.</p>"
+  ],
+  [
+   "How to test for it",
+   "<p>There are three practical approaches, from cheap to precise:</p><ul><li><strong>Forced fermentation test.</strong> Hold a packaged sample, or a tank sample in a sealed bottle, at around 25 to 30 °C. Measure gravity, or pressure in the package, after one and two weeks. A gravity that keeps falling below the tank's finish suggests diastatic activity, or residual enzyme.</li><li><strong>Selective media.</strong> Some media favour diastatic or wild yeast over the culture yeast. Starch-based media and lysine or copper based media are used. Results take several days and need some interpretation. Our guide to <a href=\"microbiology-plating-small-brewery.html\">microbiology plating</a> explains the basics.</li><li><strong>PCR.</strong> Tests for the STA1 gene give a clear yes or no within hours. Many small breweries send samples to an outside lab rather than buy the kit.</li></ul><p>The floor detail that makes the forced test work: keep a cold control from the same batch. A warm sample that drops two points below the cold one is a warning, even if both look fine on opening.</p>"
+  ],
+  [
+   "Keeping it out",
+   "<p>If you brew with a diastatic strain, treat it like an infection risk. Use dedicated hoses, fittings and, ideally, a dedicated fermenter. Brew it last in the cleaning cycle. Package it last, then clean the filler thoroughly. Never harvest and repitch it into the house yeast propagation.</p><p>Clean packaging equipment with the same care as fermenters, with particular attention to filler valves, seals and the underside of filler bowls. Plate swabs from the filler on a schedule. If you package unpasteurised beer, consider whether flash pasteurisation suits your volume. It deals with diastaticus along with most other spoilage organisms.</p>"
+  ],
+  [
+   "Diastaticus or hop creep?",
+   "<p>A beer that drops in gravity after dry hopping does not necessarily have diastaticus. Hops carry their own enzymes, which can break dextrins into fermentable sugars that the culture yeast then ferments. That is <a href=\"hop-creep.html\">hop creep</a>. It mostly happens in the tank. Diastaticus keeps going in the package and often brings a phenolic note.</p><p>Telling the two apart and knowing which test answers which question is the sort of diagnostic work that saves a brewery from a recall. It is also where a working knowledge of yeast genetics and enzymes starts to pay its way. For the wider picture of spoilage organisms, see <a href=\"infection-bacteria-in-brewing.html\">infection and bacteria in brewing</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is diastaticus yeast?",
+   "A variety of Saccharomyces cerevisiae that carries a gene for glucoamylase, letting it ferment dextrins and starch that normal brewing yeast cannot."
+  ],
+  [
+   "Why does diastaticus cause gushing?",
+   "It keeps fermenting dextrins in sealed cans and bottles, producing extra CO2 that builds pressure until the beer gushes or the package fails."
+  ],
+  [
+   "Does acid washing remove diastaticus?",
+   "No. Diastaticus tolerates low pH as well as culture yeast, so acid washing will not separate them."
+  ],
+  [
+   "How do I test beer for diastaticus?",
+   "A forced fermentation test at 25 to 30 °C is the cheapest check. Selective media and PCR for the STA1 gene are more specific."
+  ]
+ ],
+ "cta": {
+  "title": "Stop packaging problems before they start",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers yeast genetics, microbiology and quality testing so you can find and contain contamination before it reaches a can.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "hop-creep",
+  "infection-bacteria-in-brewing",
+  "microbiology-plating-small-brewery"
+ ]
+}

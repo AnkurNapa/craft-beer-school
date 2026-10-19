@@ -1,0 +1,75 @@
+{
+ "slug": "yeast-attenuation-explained",
+ "cat": "Ingredients",
+ "h1": "Yeast attenuation figures and what they mean for your beer",
+ "title": "Yeast Attenuation Explained | Craft Beer School",
+ "desc": "What yeast attenuation figures mean, how to calculate apparent attenuation, why your beer may differ from the pack and how to control it.",
+ "teaser": "The pack says 75% to 80%. Your beer stopped at 68%. Here is what attenuation figures mean and why they move.",
+ "standfirst": "Attenuation tells you how much of the sugar in your wort the yeast actually ate. It decides how dry or sweet your beer finishes and how strong it ends up. Here is how to read the figures on a yeast pack and how to steer them.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What attenuation means",
+   "<p>Wort contains sugars the yeast can ferment and some it cannot, such as dextrins. As yeast ferments, gravity falls. Attenuation is the share of the gravity drop compared with where you started.</p><p>Brewers usually quote <strong>apparent attenuation</strong>:</p><p><strong>Apparent attenuation = (OG - FG) / (OG - 1) x 100</strong></p><p>A wort at 1.050 that finishes at 1.010 has an apparent attenuation of (0.040 / 0.050) x 100 = 80%. Its ABV is (1.050 - 1.010) x 131.25, which is about 5.3%. Our guides to <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity</a> and <a href=\"how-to-calculate-abv.html\">calculating ABV</a> cover those numbers.</p>"
+  ],
+  [
+   "Apparent versus real",
+   "<p>It is called apparent because alcohol is lighter than water, so it pulls the hydrometer reading down further than the sugar removal alone would. The real attenuation, the true share of extract consumed, is lower, roughly four fifths of the apparent figure. Yeast packs and recipes almost always quote apparent attenuation, so that is the one to use.</p>"
+  ],
+  [
+   "What the pack figures mean",
+   "<p>Yeast makers test each strain on a standard wort under controlled conditions and give a range, for example 73% to 77%. Strains broadly fall into three groups:</p><ul><li><strong>Low (around 65% to 72%).</strong> Many English ale strains. Fuller, sweeter finish.</li><li><strong>Medium (around 72% to 77%).</strong> Many clean American and lager strains.</li><li><strong>High (around 77% to 85% or more).</strong> Saison, some Belgian and some kveik strains. Dry finish.</li></ul><p>The figure tells you what the strain can do on that test wort. Your wort is different.</p>"
+  ],
+  [
+   "Why your beer differs from the pack",
+   "<p><strong>Mash temperature.</strong> The biggest lever. A mash around 63 to 65 °C makes more fermentable sugar and a drier beer. Around 68 to 70 °C makes more dextrins and a fuller beer. The same yeast can finish several points apart. Our guide to <a href=\"mash-temperature-guide.html\">mash temperature</a> explains why.</p><p><strong>Ingredients.</strong> Crystal malts, oats and lactose add unfermentable material, which lowers attenuation. Simple sugars such as dextrose or jaggery raise it.</p><p><strong>Yeast health and pitch.</strong> Too few or tired cells can stop early.</p><p><strong>Oxygen and nutrients.</strong> Poorly aerated wort leaves yeast short of what it needs to finish.</p><p><strong>Temperature.</strong> A fermentation that cools too far, or a beer crashed early, stops short. A highly flocculent yeast can also drop out before finishing.</p>"
+  ],
+  [
+   "Is my fermentation stuck?",
+   "<p>Take gravity readings two or three days apart. If they are the same, fermentation has finished, even if it is short of the pack figure. Compare it with a sensible estimate for your recipe and mash, not the number on the yeast pack.</p><p>If it really is stuck high, gently raise the temperature a couple of degrees and rouse the yeast by swirling. If that fails, pitch a fresh, active yeast. Do not add sugar hoping to restart it. That only adds alcohol and sweetness.</p>"
+  ],
+  [
+   "Steering attenuation on purpose",
+   "<ul><li>For a dry, crisp beer: mash lower, use fewer crystal malts, choose a high-attenuating strain and pitch healthy yeast.</li><li>For a full, malty beer: mash higher, add some crystal or oats and choose a lower-attenuating strain.</li><li>For consistency: hold mash and fermentation temperatures steady and pitch the same healthy amount every time.</li></ul>"
+  ],
+  [
+   "Using attenuation when you design a recipe",
+   "<p>Work backwards from the beer you want. Pick a target final gravity for the style, a dry saison around 1.002 to 1.006 or a sweet stout nearer 1.018 to 1.024, for example. Then choose a yeast and a mash temperature that should land you near it. Brewing software estimates FG from the strain's attenuation, but treat it as a guide. After two or three batches with your own system, you will know how far your results sit from the software and can adjust.</p>"
+  ],
+  [
+   "Watch for over-attenuation",
+   "<p>A beer that finishes far below the expected gravity, especially one that keeps dropping in the bottle, can mean contamination with wild yeast or a diastatic yeast strain, which can break down dextrins. That is how bottles over-carbonate and, in the worst case, burst. Check gravity is stable before bottling and keep your sanitation tight.</p><p>Attenuation is where recipe, mash and yeast meet. Logging OG, FG, mash temperature and strain for every batch is the simplest way to start predicting it instead of hoping.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I calculate apparent attenuation?",
+   "Use (OG - FG) / (OG - 1) x 100. A beer from 1.050 to 1.010 has 80% apparent attenuation."
+  ],
+  [
+   "Why did my beer not reach the attenuation on the yeast pack?",
+   "Mash temperature, unfermentable ingredients, yeast health, oxygen and fermentation temperature all change the result."
+  ],
+  [
+   "What is the difference between real and apparent attenuation?",
+   "Alcohol lowers the hydrometer reading, so apparent attenuation looks higher. Real attenuation is roughly four fifths of the apparent figure."
+  ],
+  [
+   "How do I make a drier beer?",
+   "Mash cooler, use fewer crystal malts and choose a high-attenuating yeast strain."
+  ]
+ ],
+ "cta": {
+  "title": "Design beers that finish where you want",
+  "body": "Brewing Fundamentals is a 4 week live course (₹5,999) covering mashing, yeast and fermentation so you can predict gravity, body and strength instead of guessing.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "original-gravity-final-gravity-explained",
+  "how-to-calculate-abv",
+  "mash-temperature-guide"
+ ]
+}

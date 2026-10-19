@@ -1,0 +1,63 @@
+{
+ "slug": "why-hop-utilisation-drops-in-high-gravity-worts",
+ "cat": "Brewing science",
+ "h1": "Why hop utilisation drops in high gravity worts",
+ "title": "Why hop utilisation drops in strong wort | Craft Beer School",
+ "desc": "Why strong worts isomerise and keep less hop bitterness, how much utilisation falls with gravity and what high gravity brewers do to hit their BU target.",
+ "teaser": "Double the gravity and you will not get double the bitterness from double the hops. Here is where the iso-alpha acids go.",
+ "standfirst": "Hop utilisation falls as wort gravity rises. Isomerised acids are less soluble and more is lost to trub and yeast. High gravity dilution adds its own maths. Here is how to plan for it.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What utilisation means",
+   "<p>Hop utilisation is the share of alpha acids added to the kettle that end up as iso-alpha acids in finished beer. Even in normal wort it is low. Many brewers see something like 25 to 35% for a long boil addition, depending on the brewhouse. The rest stays unisomerised, binds to trub, sticks to yeast or comes out with foam. Our guide to <a href=\"alpha-acids-explained.html\">alpha acids</a> covers the chemistry of isomerisation.</p><p>Utilisation depends on boil time, boil vigour, wort pH, hop form and the whirlpool. Pellets usually give a little more than whole cone hops because the lupulin is broken up and disperses faster. Additions in a long whirlpool keep isomerising while the wort stays near boiling, which many recipe calculators underestimate. Gravity is one more variable on that list. In strong worts it is often the largest one.</p>"
+  ],
+  [
+   "Why stronger wort gives less",
+   "<p>Several effects combine.</p><ul><li><strong>Solubility.</strong> Alpha acids and iso-alpha acids are only moderately soluble. Strong wort, with more dissolved sugar and protein, holds less of them in solution.</li><li><strong>More trub.</strong> High gravity worts form more hot break. Break particles adsorb hop acids and carry them out in the whirlpool.</li><li><strong>More yeast growth.</strong> Strong worts grow more yeast. Yeast cell walls adsorb iso-alpha acids.</li><li><strong>Foam losses.</strong> Iso-alpha acids are surface active. Vigorous high gravity fermentations lose more of them to the foam head.</li></ul>"
+  ],
+  [
+   "How big is the effect",
+   "<p>Brewing formulas capture this with a gravity correction. The Tinseth model, widely used in recipe software, multiplies utilisation by a bigness factor of 1.65 x 0.000125^(SG - 1).</p><p>At a specific gravity of 1.040, the factor works out to about 1.15. At 1.080, it is about 0.80. So the same boil addition gives roughly 30% less utilisation in the 1.080 wort than in the 1.040 wort. Other models give different numbers. Every brewhouse differs too, but the direction is consistent. Measure actual BU on your beer and calibrate your recipe calculation against it, as covered in our <a href=\"what-is-ibu.html\">IBU guide</a>.</p><p>The effect matters most for strong beers brewed to style: barley wines, imperial stouts and double IPAs. A recipe scaled up from a standard strength version by simply multiplying the hops will come out less bitter than intended, sometimes by a wide margin. That may suit a malty strong beer. It rarely suits an imperial IPA meant to be sharply bitter.</p>"
+  ],
+  [
+   "The high gravity dilution twist",
+   "<p>Many breweries brew at high gravity and dilute with deaerated water after fermentation. For example, they brew at 16 °P and dilute to 11 °P. That uses brewhouse and fermenter capacity better, as our guide to <a href=\"high-gravity-brewing-and-dilution.html\">high gravity brewing and dilution</a> explains.</p><p>Bitterness takes two hits. First, utilisation is lower in the 16 °P kettle. Second, dilution reduces BU in proportion to the volume added. A beer at 20 BU before dilution from 16 to 11 °P lands near 14 BU. If you planned the recipe on the final gravity, you will be short on bitterness.</p>"
+  ],
+  [
+   "What brewers do about it",
+   "<ul><li><strong>Plan from measured data.</strong> Calibrate recipe software with real BU readings for each high gravity beer.</li><li><strong>Add more hops to the kettle.</strong> The simplest route, though it costs more and adds more vegetable matter to the trub.</li><li><strong>Use pre-isomerised extracts after fermentation.</strong> Iso-alpha acid extracts dosed into finished beer avoid kettle, trub and yeast losses entirely. Utilisation is much higher. Dosing can be fine-tuned to hit the target.</li><li><strong>Watch wort pH.</strong> Isomerisation runs a little faster at higher pH, though mash and wort pH should still be set for the beer, not for hop efficiency.</li></ul>"
+  ],
+  [
+   "A floor check that settles arguments",
+   "<p>The practical test: measure BU in kettle wort at knockout, then in the beer after fermentation, then after dilution and filtration. Many breweries are surprised by how much they lose in fermentation. The numbers show where to focus. In a brewery running a single high gravity lager, a few weeks of this data usually pays for itself in hop savings or more consistent bitterness.</p><p>Linking hop chemistry, fermentation and dilution into one plan is the kind of brewing science that makes high gravity beer predictable.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does high gravity brewing need more hops overall?",
+   "Usually yes, per litre of final beer, because utilisation is lower in strong wort. Post-fermentation iso-alpha acid extracts can reduce that cost."
+  ],
+  [
+   "Is the Tinseth formula accurate for commercial brewhouses?",
+   "It is a reasonable starting point, but brewhouses vary. Calibrate it against measured BU on your own beers."
+  ],
+  [
+   "Does dry hopping add bitterness?",
+   "Dry hopping adds little iso-alpha acid but can add other compounds that raise perceived bitterness and measured BU slightly."
+  ]
+ ],
+ "cta": {
+  "title": "Hit your bitterness target at any gravity",
+  "body": "Advanced Brewing Science is a 6 week live course covering hop chemistry, utilisation, high gravity brewing and dilution, with calculations you can calibrate against your own lab data. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "alpha-acids-explained",
+  "what-is-ibu",
+  "high-gravity-brewing-and-dilution"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "plato-or-specific-gravity-and-which-scale-homebrewers-should",
+ "cat": "Brewing basics",
+ "h1": "Plato or specific gravity and which scale homebrewers should use",
+ "title": "Plato or Specific Gravity: Which to Use | Craft Beer School",
+ "desc": "Degrees Plato and specific gravity explained: what each measures, how to convert between them, where Brix fits in and which scale homebrewers should use.",
+ "teaser": "Your recipe says 1.050, your refractometer says 12.4 and the brewery down the road talks in Plato. They are all saying roughly the same thing.",
+ "standfirst": "Brewers measure sugar in wort with two main scales. Homebrewers bump into both. Here is what each one means, how to convert between them and which one is worth using.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why we measure sugar at all",
+   "<p>The amount of sugar in wort decides how strong the beer can become and how full it tastes. Measuring it before and after fermentation tells you the alcohol content and whether fermentation is finished. Our guide to <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity</a> covers the basics.</p><p>You will also see these numbers in other places. Brewing software asks for them, competition entry forms sometimes ask for them and any brewery you visit will quote them. Knowing both scales means you can read all of it.</p><p>There are two common ways of expressing that measurement: specific gravity and degrees Plato.</p>"
+  ],
+  [
+   "Specific gravity",
+   "<p>Specific gravity (SG) compares the density of wort with the density of pure water. Water is 1.000. Wort with dissolved sugar is denser, so a typical pale ale wort might read 1.050.</p><p>Homebrewers often drop the decimal and speak of \"gravity points\". A wort at 1.050 has 50 points. SG is the default in most English-language homebrew books, software and recipes. Standard homebrew hydrometers read in it too.</p>"
+  ],
+  [
+   "Degrees Plato",
+   "<p>Degrees Plato (°P) express the percentage of sugar by weight in the wort. A wort at 12 °P contains roughly 12 grams of extract in every 100 grams of wort.</p><p>Strictly, the Plato scale was built from tables of sucrose solutions. Wort is a mix of maltose, glucose, dextrins and other dissolved solids. For brewing purposes the difference is small. The scale is treated as a direct measure of extract.</p><p>Plato is the standard in most commercial breweries, including in India, where much brewing practice follows European methods. Lab reports, brewery specifications and many professional texts use it. If you visit a brewpub and the brewer says the beer was 12 Plato, that is what they mean.</p>"
+  ],
+  [
+   "Converting between them",
+   "<p>For everyday homebrewing, a simple approximation works well:</p><p><strong>°P is roughly gravity points divided by 4.</strong></p><ul><li>1.040 is about 10 °P.</li><li>1.048 is about 12 °P.</li><li>1.060 is about 15 °P.</li></ul><p>The approximation drifts at higher gravities. For strong beers above about 1.080, use a proper conversion. Most brewing software and online calculators do it with a polynomial formula. Our guide to <a href=\"brewing-software-and-calculators.html\">brewing software and calculators</a> lists some options.</p>"
+  ],
+  [
+   "Where Brix fits in",
+   "<p>Refractometers usually read in Brix, which is the percentage of sucrose by weight. For wort before fermentation, Brix and Plato are close enough that many brewers treat them as the same, often with a small correction factor of around 1.02 to 1.04 to account for the difference between wort sugars and sucrose.</p><p>After fermentation starts, alcohol bends light differently from sugar, so a refractometer reading on fermenting beer is wrong unless you correct it with a calculator. A hydrometer does not have that problem, though it needs a larger sample.</p>"
+  ],
+  [
+   "Temperature matters for both",
+   "<p>Hydrometers are calibrated at a specific temperature, usually 20 °C or 15.6 °C. The calibration temperature is printed on the instrument or its paper scale. Warm wort is less dense, so it reads low.</p><p>In Indian conditions, samples are often well above 20 °C. Cool the sample to near the calibration temperature, or use a correction calculator. Our guide on <a href=\"how-to-use-a-hydrometer.html\">using a hydrometer</a> covers this. A floor detail many new brewers miss: a sample taken straight from the kettle at 60 °C can read several points low. Cool it first.</p>"
+  ],
+  [
+   "Which scale should you use?",
+   "<p>Use the scale your instruments read in and your recipes are written in. For most homebrewers in India, that means SG, because homebrew hydrometers and software default to it.</p><p>Whatever you choose, use it consistently in your brew log. A log that mixes 1.052 in one batch and 13 °P in the next is harder to compare at a glance. A slip in conversion can make a good mash look bad.</p><p>It is still worth learning Plato. If you plan to talk to professional brewers, read commercial specifications or one day brew at a brewpub, you will need it. Being able to convert in your head, at least roughly, is a small skill that pays off.</p><p>Measuring gravity accurately is the easy part. Understanding what the readings tell you about your mash, your yeast and your fermentation is where the real brewing knowledge lies.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I convert specific gravity to Plato?",
+   "As a rough guide, divide the gravity points by 4. So 1.048 is about 12 °P. Use a calculator for strong beers."
+  ],
+  [
+   "Is Brix the same as Plato?",
+   "Close enough for unfermented wort, often with a small correction factor. Once fermentation starts, refractometer readings need a calculator to correct for alcohol."
+  ],
+  [
+   "Which scale do Indian breweries use?",
+   "Most commercial breweries use degrees Plato, following European practice. Homebrewers mostly use specific gravity."
+  ]
+ ],
+ "cta": {
+  "title": "Understand what your numbers mean",
+  "body": "Brewing Fundamentals covers gravity, mashing, fermentation and the readings that tell you a batch is on track, over four live weekends.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "original-gravity-final-gravity-explained",
+  "how-to-use-a-hydrometer",
+  "brewing-software-and-calculators"
+ ]
+}

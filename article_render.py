@@ -3,7 +3,7 @@
 
 Every article gets the same furniture without the writer having to remember it:
 breadcrumbs, an inline CTA roughly a third of the way down, a closing CTA, an
-FAQ block that doubles as FAQPage schema, and links to sibling articles. The
+FAQ block that doubles as FAQPage schema and links to sibling articles. The
 CTA is part of the template, so no article can ship without a way to enrol.
 """
 

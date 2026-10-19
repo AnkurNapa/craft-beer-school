@@ -1,0 +1,71 @@
+{
+ "slug": "malt-crush-and-roller-mill-gap",
+ "cat": "Ingredients",
+ "h1": "Setting your roller mill gap for a good malt crush",
+ "title": "Setting Your Roller Mill Gap | Craft Beer School",
+ "desc": "How to set a roller mill gap for a good malt crush at home: target gaps, what a good crush looks like and fixes for low efficiency or stuck mashes.",
+ "teaser": "Your mill gap quietly decides your efficiency, your lauter speed and how often your mash gets stuck. Here is how to set it.",
+ "standfirst": "A good crush cracks the grain open and leaves the husk in large pieces. Too coarse and you lose sugar. Too fine and your mash sets like cement. Here is how homebrewers set and check a roller mill.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a good crush looks like",
+   "<p>The aim is two things at once. You want the starchy inside of each kernel, the endosperm, broken into small grits that water and enzymes can reach. You also want the husk torn into large flakes, because those husks form the filter bed you lauter through.</p><p>Pour a handful of milled grain onto a plate. A good crush shows torn husks, coarse and fine grits and a little flour. There should be almost no whole, uncrushed kernels. Lots of flour and shredded husk means you have gone too fine. Many kernels just pinched or cracked in half means too coarse.</p>"
+  ],
+  [
+   "Typical gap settings",
+   "<p>For a two-roller homebrew mill, many brewers start around 0.9 to 1.0 mm for a traditional mash tun with a false bottom. That is roughly the thickness of a fat credit card stack, but measure it properly with a feeler gauge, which is cheap at any hardware shop.</p><ul><li><strong>Mash tun with false bottom:</strong> start around 0.9 to 1.1 mm.</li><li><strong>Brew in a bag:</strong> many go finer, around 0.6 to 0.8 mm, because the bag does the filtering.</li><li><strong>Recirculating all-in-one systems:</strong> follow the maker's advice. Too fine a crush can block the pump and malt pipe.</li></ul><p>These are starting points. Every mill and every malt lot is slightly different. Change the gap in small steps, about 0.1 mm at a time. Change nothing else while you test.</p>"
+  ],
+  [
+   "Setting the gap",
+   "<ol><li>Unplug or disconnect any drill. Clean dust out of the rollers.</li><li>Slide the feeler gauge between the rollers at both ends.</li><li>Adjust each end until the gauge slides through with light drag. Both ends must match, or one side crushes fine while the other lets kernels through.</li><li>Lock the adjusters and mark the setting so you can return to it.</li><li>Mill a small test handful and look at it before milling the full grist.</li></ol>"
+  ],
+  [
+   "Smaller grains need attention",
+   "<p>Wheat, rye and oats have no husk or a thin one. Wheat and rye kernels are also smaller than barley. At a barley gap, many pass through half crushed. Some brewers mill them separately at a tighter gap. When a grist has a lot of huskless grain, add rice hulls to give the lauter bed structure. Our guide to <a href=\"lautering-and-sparging.html\">lautering and sparging</a> explains why the bed matters.</p>"
+  ],
+  [
+   "Conditioning the malt",
+   "<p>Commercial breweries often spray malt with a little water, around 1% to 2% by weight, a few minutes before milling. The damp husk becomes leathery and tears into larger pieces instead of shattering. Homebrewers can do the same with a spray bottle, mixing well and milling within about fifteen minutes. In humid Indian weather the malt may already be a little soft, so try it without conditioning first.</p>"
+  ],
+  [
+   "Two-roller, three-roller and corona mills",
+   "<p>Most homebrew roller mills have two rollers. They are simple and do a good job once the gap is right. Three-roller mills crack the grain at a wider gap first, then pass it through a tighter second gap, which tends to keep husks in better shape and gives a more even crush. Six-roller mills in commercial breweries take that further with screens between stages.</p><p>Corona or plate mills, the kind sold for grinding grain and spices, shred husks more aggressively. They work for brew in a bag, where lautering is not an issue, but can cause slow runoff in a traditional mash tun. If you use one, set it as coarse as still gives you good efficiency and use rice hulls.</p>"
+  ],
+  [
+   "Reading your results",
+   "<p>Track brewhouse efficiency and lauter time on every batch. If efficiency is low and runoff is fast, tighten the gap. If runoff is slow or the mash sticks, open it up or add rice hulls. Our guide to <a href=\"stuck-mash-fixes.html\">stuck mash fixes</a> covers what to do mid brew day. Change only the gap between batches, otherwise you will not know which change helped.</p><p>If you buy pre-milled malt from a homebrew shop, ask what gap they use and mill as close to brew day as possible. Crushed malt picks up moisture and goes stale far faster than whole malt, especially through an Indian monsoon.</p><p>Crush is one of several variables that decide <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a>. Mash pH, temperature, water to grain ratio and sparge technique all matter too. It is easy to blame the mill for a problem that started elsewhere.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What gap should I set my grain mill to?",
+   "Many homebrewers start around 0.9 to 1.0 mm for a mash tun and finer, around 0.6 to 0.8 mm, for brew in a bag. Adjust in small steps from there."
+  ],
+  [
+   "Why is my mash sticking?",
+   "A crush that is too fine, lots of huskless grain or a mash that is too thick are common causes. Open the gap or add rice hulls."
+  ],
+  [
+   "Should I condition malt before milling?",
+   "A light spray of water, about 1% to 2% of the malt weight, keeps husks larger. In humid weather try without it first."
+  ],
+  [
+   "How long does crushed malt keep?",
+   "Mill as close to brew day as you can. Crushed malt picks up moisture and loses freshness within weeks."
+  ]
+ ],
+ "cta": {
+  "title": "Get better efficiency from every brew",
+  "body": "Brewing Fundamentals is a 4 week live course (₹5,999) covering milling, mashing, lautering, boiling and fermentation, with weekly assignments and feedback on your own brew logs.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "lautering-and-sparging",
+  "stuck-mash-fixes",
+  "brewhouse-efficiency"
+ ]
+}

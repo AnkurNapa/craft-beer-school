@@ -1,0 +1,71 @@
+{
+ "slug": "maillard-reactions-in-the-kettle-and-what-they-add-to-beer",
+ "cat": "Brewing science",
+ "h1": "Maillard reactions in the kettle and what they add to beer flavour",
+ "title": "Maillard reactions in the kettle | Craft Beer School",
+ "desc": "How Maillard reactions during the boil add colour and flavour to beer, what drives them and how brewers control them in the kettle.",
+ "teaser": "Your wort darkens as it boils. That colour carries flavour. It comes from the same chemistry as toast.",
+ "standfirst": "Maillard reactions between sugars and amino acids add colour plus malty and toasty flavour to beer. Most of it happens in the malt kiln, but the kettle adds its own share. We explain how and how to control it.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The chemistry in one paragraph",
+   "<p>Maillard reactions happen when reducing sugars meet amino acids under heat. They produce a large family of compounds. Some are coloured, called melanoidins. Others are flavour compounds such as Strecker aldehydes, pyrazines and furans, which give malty, bready, toasty and nutty notes.</p><p>The same chemistry browns toast, roasts coffee and sears meat. In brewing, most Maillard flavour is built in the malt kiln. The kettle adds a smaller but real contribution.</p>"
+  ],
+  [
+   "Kiln first, kettle second",
+   "<p>Pale malts are kilned at lower temperatures and develop few Maillard compounds. Munich and Vienna malts are kilned hotter and develop more. Melanoidin malts are made specifically to carry a high load. Our guide to <a href=\"weyermann-melanoidin-malt.html\">Melanoidin malt</a> covers one example.</p><p>The boil continues the process. Wort contains sugars and amino acids from the mash. Boiling at around 100 °C drives Maillard reactions forward. Wort colour rises during the boil. A pale wort usually gains a few EBC between first wort and knockout.</p><p>Hop additions and trub removal also change the final colour a little, so measure at knockout rather than guessing from the first wort.</p>"
+  ],
+  [
+   "What drives Maillard in the kettle",
+   "<p>Several factors affect how much happens:</p><ul><li><strong>Time.</strong> Longer boils give more colour and flavour.</li><li><strong>Temperature.</strong> Higher temperatures speed up the reactions. Pressure boiling or very hot heating surfaces increase them.</li><li><strong>Gravity.</strong> Stronger worts have more sugars and amino acids, so they develop more.</li><li><strong>pH.</strong> Maillard reactions run faster at higher pH.</li><li><strong>FAN.</strong> More free amino nitrogen gives more reaction partners.</li></ul><p>Our guide to <a href=\"what-happens-during-the-boil.html\">what happens during the boil</a> covers the other jobs the boil does at the same time.</p>"
+  ],
+  [
+   "Maillard versus caramelisation",
+   "<p>Brewers sometimes say a long boil caramelises the wort. Caramelisation is a different reaction. It happens when sugars alone are heated to high temperatures, well above normal boil temperature.</p><p>In a kettle, true caramelisation mostly happens where wort touches very hot surfaces, such as direct-fired kettle bottoms. Most colour and flavour development in the bulk of the wort comes from Maillard reactions.</p>"
+  ],
+  [
+   "Heating surfaces and scorching",
+   "<p>One brewhouse-floor detail: direct-fired kettles, common in older or very small brewhouses, heat the wort through a hot base plate. That surface can run far hotter than the wort itself. Wort touching it can scorch and develop burnt or harsh flavours. Colour also rises faster than in steam-jacketed or electric kettles.</p><p>Steam-jacketed kettles and internal or external calandrias give gentler heating. If you move a recipe from a direct-fired system to a steam system, expect slightly lighter colour and less kettle flavour.</p>"
+  ],
+  [
+   "Using Maillard on purpose",
+   "<p>Brewers use kettle Maillard reactions in several ways:</p><ul><li><strong>Longer boils</strong> for strong, malty styles such as Scotch ales and barley wines.</li><li><strong>Decoction mashing</strong>, where part of the mash is boiled, builds Maillard flavour before the kettle.</li><li><strong>Boiling down first runnings</strong> into a thick syrup adds rich, toffee-like character to some Scottish and strong ales.</li></ul><p>For pale lagers, the aim is the opposite: a vigorous but not excessive boil, with gentle heating, to keep colour and kettle flavour low.</p>"
+  ],
+  [
+   "Tasting the difference",
+   "<p>You can taste kettle Maillard effects with a simple experiment. Brew the same pale wort twice, once with a 60 minute boil and once with a 90 minute boil. Measure colour and taste both after fermentation.</p><p>The longer boil usually gives slightly darker beer with a fuller, more bready or honey-like malt note. In a pale lager, that can read as heavier and less crisp. In a strong amber ale, it may be exactly what you want.</p><p>Taste with a small panel and serve the samples blind. Brewers often expect a bigger difference than they actually find, which is useful to know before changing a recipe.</p>"
+  ],
+  [
+   "Maillard products and beer stability",
+   "<p>Melanoidins have some antioxidant properties, which can help flavour stability. Under some conditions they can also take part in oxidation reactions, so the effect is mixed.</p><p>Strecker aldehydes formed during the boil can contribute to staling flavours if they survive into finished beer. Yeast reduces much of them during fermentation, so a healthy fermentation matters.</p><p>Understanding where colour and flavour come from lets a brewer design a recipe on purpose rather than by trial and error. That is the core of grist and process design.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does boiling wort make it darker?",
+   "Yes. Maillard reactions during the boil raise wort colour. A pale wort usually gains a few EBC between first wort and knockout."
+  ],
+  [
+   "Is a long boil caramelising the wort?",
+   "Mostly not. Caramelisation needs higher temperatures than the bulk wort reaches. Most kettle colour comes from Maillard reactions."
+  ],
+  [
+   "Why do direct-fired kettles give darker wort?",
+   "The hot base plate runs far hotter than the wort, speeding up Maillard reactions and sometimes scorching."
+  ]
+ ],
+ "cta": {
+  "title": "Design colour and malt flavour on purpose",
+  "body": "Advanced Brewing Science covers malt chemistry, mashing and boiling in depth, so your recipes hit their colour and flavour targets by design.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "what-happens-during-the-boil",
+  "boil-chemistry-hot-break",
+  "weyermann-melanoidin-malt"
+ ]
+}

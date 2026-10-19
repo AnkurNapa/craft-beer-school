@@ -1,0 +1,63 @@
+{
+ "slug": "route-to-market-in-indian-beer-state-corporations-depots",
+ "cat": "Beer for teams",
+ "h1": "Route to market in Indian beer: state corporations, depots and retail",
+ "title": "Route to Market in Indian Beer | Craft Beer School",
+ "desc": "How beer moves from brewery to drinker in India: state corporations, private wholesale, depots, retail licences and why every state works differently.",
+ "teaser": "In most industries you sell to a distributor. In Indian beer, the first customer is often the state.",
+ "standfirst": "Beer in India does not have one route to market. It has many, one per state, shaped by excise policy, licences and in many places a state-run corporation in the middle. For sales, finance and planning teams that structure explains a lot of otherwise strange data.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Alcohol is a state subject",
+   "<p>Under the Indian constitution, alcohol policy and excise are largely in the hands of each state. Each state decides who may make, store, sell and serve beer, how it is taxed and how it is priced. Rules change with budgets and new excise policies, sometimes every year. What follows describes common patterns, not the current rules of any one state. For details always check the latest notification or ask a licensing adviser.</p><p>Our guide to <a href=\"craft-beer-rules-by-state-india.html\">craft beer rules by state</a> shows how widely the picture varies.</p>"
+  ],
+  [
+   "The main models",
+   "<p>Most states fall into one of a few broad patterns:</p><ul><li><strong>State corporation as wholesaler.</strong> A government-owned beverages corporation buys beer from brewers and sells it to licensed retailers and bars. The brewer's customer is the corporation. Payment terms follow its cycle.</li><li><strong>State control of wholesale and retail.</strong> In some states the corporation also runs most liquor shops directly.</li><li><strong>Private wholesale and retail under licence.</strong> Licensed private distributors and shops operate within the state's excise rules, sometimes with retail licences allotted by auction or lottery.</li></ul><p>On top of this, beer moving between states needs permits for export from one and import into the other, with duty paid as the rules require. Brewers also register labels and declare or get approval for prices in each state, often annually.</p>"
+  ],
+  [
+   "Where depots fit",
+   "<p>Depots are the warehouses between brewery and outlet. In a corporation state they may be state-run depots that receive beer from brewers and release it to licensees. In private states they are distributor warehouses. Either way they hold stock that has left the brewery but has not yet reached a drinker.</p><p>This matters for your data. A brewery's shipments to depots are not consumer sales. Stock builds up before peak season or before an expected price change, then drains. Our guide to <a href=\"beer-distribution-india.html\">beer distribution in India</a> covers the physical side.</p>"
+  ],
+  [
+   "Retail and on-trade",
+   "<p>At the end of the route sit two channels. Off-trade is licensed shops selling sealed packs for home. On-trade is bars, restaurants, hotels, clubs and brewpubs serving beer on the premises. Each needs its own licence category, with different fees, hours and conditions depending on the state. The commercial differences are set out in <a href=\"on-trade-vs-off-trade.html\">on-trade versus off-trade</a>.</p><p>Brewpubs are a special case in many states: they brew and serve on the same premises and often cannot sell their beer elsewhere at all. Their route to market is a single bar counter.</p>"
+  ],
+  [
+   "What this means on a sales or finance desk",
+   "<ul><li><strong>Pricing is set state by state.</strong> The same beer can carry very different shelf prices in two neighbouring states because of excise and margin structures.</li><li><strong>Demand and supply can be decoupled.</strong> Corporation ordering patterns, depot stocks and permit delays can make shipments jump even when drinking has not changed.</li><li><strong>Receivables follow the route.</strong> Where the corporation is the customer, its payment cycle shapes working capital.</li><li><strong>Policy events move numbers.</strong> A change in excise, retail licensing or shop timings can reshape a state's volumes overnight.</li></ul><p>When a state's numbers look odd, ask first whether something in the route changed before asking whether drinkers changed.</p><p>Licence calendars matter as well. In many states excise policies and retail licences run on a financial year, with renewals, price declarations and label registrations due around the same time. Supply can tighten for a few weeks while this happens. Planners who know the calendar build stock ahead of it. Analysts who know it stop reading an April dip as lost demand.</p>"
+  ],
+  [
+   "Building a map for your team",
+   "<p>A practical exercise for any new team is to draw the route for your three largest states on one page each: who buys from the brewery, where stock is held, who sells to the drinker, who sets the price and when the cash comes back. It usually takes an afternoon with a sales manager and saves months of confusion.</p><p>Then add the brewery end. Knowing how long a beer takes to brew and pack, plus how quickly it goes stale in a hot depot, connects route to market with production planning in a way most dashboards miss.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does beer cost different amounts in different states?",
+   "Each state sets its own excise duties, fees and margin structure, so the same beer can carry very different shelf prices across a state border."
+  ],
+  [
+   "Who is the brewer's customer in a corporation state?",
+   "Usually the state beverages corporation, which buys from the brewer and sells on to licensed shops and bars."
+  ],
+  [
+   "Can a brewpub sell its beer in shops?",
+   "In many states, no. Brewpub licences commonly allow sale only on the premises. Rules vary by state, so check the current policy."
+  ]
+ ],
+ "cta": {
+  "title": "Stop being surprised by state-level sales swings",
+  "body": "Our Route to market and regulation in India module walks teams through state models, depots, licences and pricing, built around your team's own portfolio and key states.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "beer-distribution-india",
+  "on-trade-vs-off-trade",
+  "craft-beer-rules-by-state-india"
+ ]
+}

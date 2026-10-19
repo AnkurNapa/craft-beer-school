@@ -18,8 +18,9 @@ PAGES = {"courses.html", "contact.html", "resources.html", "faq.html", "about.ht
          *[p["course"] for p in PLAN.values()]}
 KEYS = {"slug", "cat", "h1", "title", "desc", "teaser", "standfirst", "read", "updated", "updated_label",
         "sections", "faqs", "cta", "related"}
-BANNED = {"—": "em dash", "–": "en dash", "“": "curly quote", "”": "curly quote",
-          "‘": "curly quote", "’": "curly quote", "  ": "double space"}
+BANNED = {"\u2014": "em dash", "\u2013": "en dash", "\u201c": "curly quote", "\u201d": "curly quote",
+          "\u2018": "curly quote", "\u2019": "curly quote", "  ": "double space",
+          ", and ": "comma-and join (split the sentence or drop the serial comma)"}
 US = re.compile(r"\b(colou?r(?<!colour)|flavor\w*|favor\w*|center|fiber|liter|analyz\w+|optimiz\w+|"
                 r"organiz\w+|recogniz\w+|realiz\w+|minimiz\w+|maximiz\w+|sanitiz\w+|stabiliz\w+|pasteuriz\w+|caramelize\w*|"
                 r"characterize\w*|specializ\w+|carbonization|oxidiz\w+|standardiz\w+|utiliz\w+|catalog|gray|aluminum|"

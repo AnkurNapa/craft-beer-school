@@ -1,0 +1,67 @@
+{
+ "slug": "how-hop-acids-protect-beer-from-bacteria",
+ "cat": "Brewing science",
+ "h1": "How hop acids protect beer from bacteria",
+ "title": "How hop acids protect beer | Craft Beer School",
+ "desc": "Why hops help beer resist spoilage bacteria, which bugs they stop, which ones fight back and what it means for IPA and sour beer.",
+ "teaser": "Hops were added to beer for preservation long before anyone loved them for bitterness. Here is how that protection works.",
+ "standfirst": "The bitter acids in hops do more than balance malt. They stop many bacteria from growing in beer. We explain how, which microbes get through and why sour brewers keep their hops low.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Hops before hop flavour",
+   "<p>Long before brewers chased citrus and pine, hops earned their place for another reason. Beer made with hops kept better than beer made without them. Brewers in medieval Europe noticed it long before anyone could explain it.</p><p>The explanation sits in the bitter acids. When hops are boiled, alpha acids change into iso-alpha acids. These give beer its bitterness, measured in IBU. They also make life hard for many bacteria. Our guide to <a href=\"alpha-acids-explained.html\">alpha acids</a> explains how that change happens in the kettle.</p>"
+  ],
+  [
+   "How the acids stop bacteria",
+   "<p>Bacteria keep a difference in acidity between the inside and outside of their cell. They use that difference like a battery to power their work.</p><p>Iso-alpha acids carry protons across the bacterial membrane and drain the battery. The cell spends energy trying to recover and eventually cannot grow. Beer's low pH makes the effect stronger, because more of the acid sits in the form that crosses membranes.</p><p>This works best against gram-positive bacteria, the group that includes many lactic acid bacteria. Gram-negative bacteria have an extra outer layer that keeps most of the hop acid out.</p>"
+  ],
+  [
+   "The bugs that fight back",
+   "<p>Hops are not a full defence. Some <em>Lactobacillus</em> and <em>Pediococcus</em> strains carry genes that let them pump hop acids out of the cell or tolerate them. These are the bacteria most often behind sour, buttery or ropy spoiled beer.</p><p>So even a bitter IPA can spoil if hygiene slips. Hops buy time and lower the odds. They do not replace good cleaning. Our guide to <a href=\"infection-bacteria-in-brewing.html\">bacteria in brewing</a> covers the usual suspects and how brewers keep them out.</p>"
+  ],
+  [
+   "The IPA story",
+   "<p>India Pale Ale is tied to this history. In the late 18th and 19th centuries, British brewers shipped strongly hopped pale ales to India. The long, hot voyage was hard on beer. Plenty of hops and a decent strength helped it arrive drinkable.</p><p>The popular story is sometimes stretched. IPA was not invented in one moment for one ship. But the basic point holds: more hops meant better protection on a long journey.</p>"
+  ],
+  [
+   "Why sour beers keep hops low",
+   "<p>Sour brewers want lactic acid bacteria to grow. That is why kettle sours are usually soured before hops go in, or with only a token amount. Even a few IBU can slow many <em>Lactobacillus</em> strains.</p><p>One brewhouse-floor detail: a kettle sour is soured in wort held warm, often around 35 to 45 °C, with almost no hops. Once the wort reaches the target sourness, the brewer boils it, which kills the bacteria. Hops can go in at that point without fighting the souring.</p>"
+  ],
+  [
+   "Bitterness and aroma are different jobs",
+   "<p>It helps to separate two things hops do. Bitterness and bacterial protection come from iso-alpha acids, made by boiling. Aroma comes from hop oils, which are volatile and mostly boil away, so brewers add aroma hops late in the boil, in the whirlpool or during fermentation as dry hops.</p><p>That means a heavily dry hopped beer can smell intense yet carry modest bitterness. Its protection against bacteria depends mostly on the boil hops, not the dry hops. Some hop compounds other than iso-alpha acids also have antibacterial activity, but the boiled acids do most of the work. Our guide to <a href=\"what-is-ibu.html\">IBU</a> explains how bitterness is measured.</p><p>Hop oils also fade much faster than bitterness. That is why a hazy IPA can taste tired after a few weeks even though it has not spoiled at all.</p>"
+  ],
+  [
+   "What this means for the beer you drink",
+   "<p>A bitter beer is not a sterile beer. Hops are not a preservative in any legal sense. What keeps beer sound is a combination of low pH, alcohol, carbonation, low oxygen, few nutrients left after fermentation and the hop acids. Each one makes the next one more effective.</p><p>In India, heat is the enemy of all of these. A hoppy beer stored warm loses its aroma quickly, even if bacteria never touch it. Keep beer cold and drink it fresh.</p><p>If you want to understand how a few grams of hops change the chemistry of a whole batch, that is a good place to start learning to brew.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do hops really preserve beer?",
+   "They help. Iso-alpha acids stop many gram-positive bacteria from growing, but some spoilage strains resist them, so good hygiene still matters."
+  ],
+  [
+   "Why are sour beers low in hops?",
+   "Hop acids slow the lactic acid bacteria that sour brewers want. Even a few IBU can hold back many strains."
+  ],
+  [
+   "Was IPA invented to survive the trip to India?",
+   "Strongly hopped pale ales were shipped to India and the hops helped them travel. The story of a single invention for one voyage is a simplification."
+  ]
+ ],
+ "cta": {
+  "title": "Learn what each ingredient does in the brew",
+  "body": "Brewing Fundamentals is a 4 week live course that covers malt, hops, water and yeast. You learn how each one shapes the beer in your glass.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "alpha-acids-explained",
+  "infection-bacteria-in-brewing",
+  "what-is-ibu"
+ ]
+}

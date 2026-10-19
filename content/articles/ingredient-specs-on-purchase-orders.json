@@ -1,0 +1,75 @@
+{
+ "slug": "ingredient-specs-on-purchase-orders",
+ "cat": "Ingredients",
+ "h1": "Ingredient specs to put on every brewery purchase order",
+ "title": "Ingredient Specs for Purchase Orders | Craft Beer School",
+ "desc": "The ingredient specs a brewery should write on every purchase order for malt, hops, yeast, CO2 and chemicals, plus how to check them on delivery.",
+ "teaser": "A purchase order that says '25 bags pilsner malt' leaves every quality question open. Here is what to write instead.",
+ "standfirst": "Most quality problems that start at the supplier could have been stopped by one line on the purchase order. We list the specs to ask for, ingredient by ingredient, then the checks your team should make when the delivery arrives.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the purchase order is a quality document",
+   "<p>A purchase order is the only place where you and the supplier agree in writing what good looks like before money moves. If it only says the product name and quantity, the supplier decides what you receive. If it names the specs and the documents you expect, a bad lot becomes their problem, not yours.</p><p>This is not legal drafting. It is a short block of text per ingredient, saved as a template so nobody has to remember it. The specs below are standard brewing practice. Agree the exact numbers with each supplier and your head brewer.</p>"
+  ],
+  [
+   "Malt",
+   "<ul><li>Maltster, malt type and variety where it matters, for example two-row pilsner malt.</li><li>Colour range in EBC, such as 3 to 4 EBC for a pale pilsner malt.</li><li>Maximum moisture, typically 5% or below.</li><li>Minimum extract, as stated on the maltster's specification.</li><li>A <a href=\"malt-certificate-of-analysis.html\">certificate of analysis</a> for every lot, sent before or with the delivery.</li><li>Lot number printed on every bag, intact bags, no signs of wetting or pests.</li><li>Whole or milled. Pre-milled malt should be the exception, as it stales faster.</li></ul>"
+  ],
+  [
+   "Hops",
+   "<ul><li>Variety, form (T90 pellets, cryo or extract) and crop year.</li><li>Alpha acid percentage printed on each pack for that lot. You need it to hit your bitterness.</li><li>Packed in oxygen-barrier foil, vacuum or nitrogen flushed, with no puffed or punctured packs.</li><li>Shipped and stored cold. Ask the supplier how stock is held between the importer and your door.</li></ul><p>Our guide to <a href=\"reading-a-hop-packet.html\">reading a hop packet</a> explains each number on the label.</p>"
+  ],
+  [
+   "Yeast",
+   "<ul><li>Strain name and supplier code, so a substitute strain cannot slip in.</li><li>Production or packing date and a best-before date.</li><li>For dry yeast: sealed sachets or bricks, no swelling, stored cool.</li><li>For liquid yeast: shipped cold with ice packs, with the cell count or pitch rate stated. Agree a delivery window that avoids it sitting in a hot courier van over a weekend.</li></ul>"
+  ],
+  [
+   "CO2, water treatment and cleaning chemicals",
+   "<p><strong>CO2.</strong> Ask for beverage-grade CO2 with a certificate of analysis from the supplier, cylinders or bulk tank labelled and in date for testing. CO2 goes straight into your beer, so treat it as an ingredient.</p><p><strong>Water treatment salts and acids.</strong> Food grade, with the grade printed on the pack, for example food-grade calcium sulphate, calcium chloride, lactic or phosphoric acid. Industrial grades can carry impurities you do not want in beer.</p><p><strong>Cleaning and sanitising chemicals.</strong> Product name, concentration, safety data sheet with every new product and a statement that it is suitable for food contact surfaces. Your CIP dilutions depend on the concentration being what the label says.</p>"
+  ],
+  [
+   "Check it on the dock, not in the beer",
+   "<p>Specs on paper only work if someone checks the delivery. Give the person receiving goods a one-page checklist:</p><ol><li>Product, quantity and lot numbers match the purchase order and the paperwork.</li><li>Certificate of analysis received and within spec. File it against the lot number.</li><li>Packaging intact: no wet malt bags, no puffed hop foil, no leaking chemical drums.</li><li>Temperature on arrival for anything that should be cold. A probe thermometer between yeast packs takes ten seconds.</li><li>Anything out of spec goes to a marked quarantine area and the head brewer decides. It does not go into the store with the good stock.</li></ol><p>Linking each lot number to the batches it went into gives you traceability. If a beer goes wrong, you can see which malt lot and which hop crop it used. This sits naturally inside a basic <a href=\"quality-system-for-a-small-brewery.html\">quality system for a small brewery</a>.</p>"
+  ],
+  [
+   "Agree the numbers before the first order",
+   "<p>Send your draft specs to each supplier before you place the first order and ask them to confirm in writing which they can meet. A maltster may not guarantee a colour band as tight as you would like. A hop importer may not know the cold chain between the port and their own store. Better to find that out on email than when a delivery is sitting on your dock.</p><p>Where a supplier cannot meet a spec, decide whether to accept a wider range, find another supplier or adjust the recipe. Write the agreed number into the template so the next order carries it automatically.</p>"
+  ],
+  [
+   "Keep it short enough to use",
+   "<p>The aim is a template your team actually uses, not a binder nobody opens. One block per ingredient, five to eight lines each, reviewed once a year with your suppliers. Founders often find this is the moment they realise how many purchasing decisions were living in one person's head. Writing them down is part of building a brewery that runs when that person is on leave.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need a certificate of analysis for every malt delivery?",
+   "Yes, for every lot. It is the only record of the moisture, extract and colour you were sold. It is also the reference you need if a batch goes wrong."
+  ],
+  [
+   "What CO2 grade should a brewery buy?",
+   "Beverage-grade CO2 with a certificate of analysis from the supplier. It goes into the beer, so it should be specified like any other ingredient."
+  ],
+  [
+   "What should happen to an out-of-spec delivery?",
+   "Put it in a marked quarantine area and let the head brewer decide whether to accept, use for a trial or return it. Never mix it into general stock."
+  ],
+  [
+   "Is this a legal contract?",
+   "No. It is a quality specification on the purchase order. For contract terms and liability, take advice from a lawyer."
+  ]
+ ],
+ "cta": {
+  "title": "Build your brewery's buying system with us",
+  "body": "Brewery Business Management is a 3 week course (₹8,999) covering suppliers, purchasing, stock control, costing and the systems that keep a new brewery running. Live weekend classes, a maximum of 20 per batch, recordings and a certificate.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "malt-certificate-of-analysis",
+  "reading-a-hop-packet",
+  "quality-system-for-a-small-brewery"
+ ]
+}

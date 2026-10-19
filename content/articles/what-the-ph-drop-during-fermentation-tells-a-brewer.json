@@ -1,0 +1,67 @@
+{
+ "slug": "what-the-ph-drop-during-fermentation-tells-a-brewer",
+ "cat": "Brewing science",
+ "h1": "What the pH drop during fermentation tells a brewer",
+ "title": "What fermentation pH drop tells you | Craft Beer School",
+ "desc": "Why pH falls during fermentation, what a normal curve looks like and how a slow drop, a deep drop or a late rise points to yeast or infection problems.",
+ "teaser": "Gravity tells you how much sugar is gone. pH tells you how the yeast felt about it.",
+ "standfirst": "Wort goes into the fermenter around pH 5.2 and comes out as beer around 4.2. How fast it falls and where it stops is a cheap, quick check on yeast health and contamination.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A normal pH curve",
+   "<p>Cast wort usually sits around pH 5.1 to 5.4. Finished beer usually lands somewhere between 4.0 and 4.6, with many lagers around 4.2 to 4.5 and many ales a little lower. Most of the fall happens early, during the first 24 to 48 hours, while yeast is growing fast. After that the curve flattens and pH holds roughly steady while gravity continues down.</p><p>So pH does not track gravity directly. It tracks yeast activity, especially growth. That is why it tells you something gravity does not. Plot both on the same chart, as in our guide to <a href=\"reading-a-fermentation-curve.html\">reading a fermentation curve</a>.</p>"
+  ],
+  [
+   "Why pH falls",
+   "<p>Several things push pH down during fermentation.</p><ul><li><strong>Hydrogen ion excretion.</strong> Yeast pumps hydrogen ions out of the cell as it takes up ammonium and amino acids.</li><li><strong>Organic acids.</strong> Yeast releases small amounts of acids such as succinic, acetic and lactic as part of its metabolism.</li><li><strong>Uptake of buffers.</strong> Yeast consumes some of the amino acids and phosphates that buffer wort, so the wort resists pH change less.</li><li><strong>Dissolved CO2.</strong> Carbonic acid plays a small part, mostly while the beer is under pressure.</li></ul><p>The buffering capacity of the wort sets how far pH can fall. High adjunct worts carry fewer buffers, so their pH often falls lower than all-malt worts with the same yeast.</p>"
+  ],
+  [
+   "Reading a slow pH drop",
+   "<p>If pH has barely moved after a day while it normally drops by half a unit, the yeast is not growing as it should. Common causes are a low pitch rate, poor yeast viability, too little oxygen at pitching or a wort too cold for the strain. Gravity may still be moving slowly. The pH lag often shows the problem earlier than gravity does, which gives you time to act on the next brew.</p>"
+  ],
+  [
+   "Reading a pH that keeps falling",
+   "<p>Clean ale and lager fermentations usually stop above about 3.8 to 4.0. If pH continues falling well below that, especially after gravity has stopped, suspect lactic acid bacteria. Lactobacillus and Pediococcus produce lactic acid. pH is often the first measurement to flag them, before sourness or haze. Check with a microscope or culture media and look hard at sanitation on the cold side. Kettle-soured and mixed-fermentation beers are an obvious exception, where low pH is the point.</p>"
+  ],
+  [
+   "Reading a pH that rises again",
+   "<p>A pH that climbs by 0.1 to 0.2 units during maturation can mean yeast autolysis. Dying yeast cells release compounds that raise pH. It often comes with brothy or meaty aroma and poorer foam. It is a sign to remove yeast sooner or store the beer colder.</p><p>Do not confuse it with the small rise you can see when CO2 leaves a sample. Carbonic acid lowers pH slightly, so a poorly degassed sample reads low and a well degassed one reads a little higher. Use the same sample handling every time.</p>"
+  ],
+  [
+   "Getting good readings",
+   "<p>The floor detail that matters most: pH meters read wrongly when samples are at a different temperature from calibration. They also read wrongly when the sample is full of CO2. Calibrate with fresh buffers at pH 4.0 and 7.0 every day you measure. Bring samples to the calibration temperature, or use a meter with automatic temperature compensation. Degas by swirling or pouring between beakers. Rinse the electrode with distilled water and store it in its storage solution, never dry. A tired electrode reads slowly and drifts, so replace it when calibration slope falls below the manufacturer's limit.</p><p>Measure at fixed times: at cast, at 24 hours, at 48 hours, then daily. A record over many brews of the same beer tells you what normal looks like. Our guide to a <a href=\"brewery-qc-lab-on-a-budget.html\">brewery QC lab on a budget</a> covers buying a meter that lasts.</p>"
+  ],
+  [
+   "Why beer pH matters downstream",
+   "<p>Finished beer pH affects flavour, perceived bitterness, colour and microbial stability. Lower pH beer is more hostile to many spoilage organisms. The mash sets the starting point, as covered in our guide to <a href=\"mash-ph-explained.html\">mash pH</a>. Fermentation sets the end. Brewers who track both have two strong levers on consistency. Understanding yeast physiology well enough to read these signals is a large part of advanced brewing science.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What pH should finished beer be?",
+   "Most beers sit around pH 4.0 to 4.6. Sour beers are lower, often 3.0 to 3.5."
+  ],
+  [
+   "Can I adjust pH in finished beer?",
+   "Small adjustments with food-grade acid are possible but rarely needed. Fixing the cause in the mash or fermentation is usually better."
+  ],
+  [
+   "Do I need an expensive pH meter?",
+   "No, but you need one with temperature compensation, a replaceable electrode and fresh buffers. Cheap pens drift and give false confidence."
+  ]
+ ],
+ "cta": {
+  "title": "Read your fermentations like a lab brewer",
+  "body": "Advanced Brewing Science is a 6 week live course covering yeast physiology, fermentation monitoring and quality control, with exercises on reading your own pH and gravity data. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-ph-explained",
+  "reading-a-fermentation-curve",
+  "brewery-qc-lab-on-a-budget"
+ ]
+}

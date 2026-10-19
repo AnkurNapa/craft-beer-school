@@ -15,12 +15,12 @@ CRAFT_BEER_INDIA = dict(
     h1="How craft beer actually grew in India",
     title="The Rise of Craft Beer in India | Craft Beer School",
     desc="How India went from two national lagers to hundreds of microbreweries, "
-         "why it happened city by city, and what the market looks like now.",
+         "why it happened city by city and what the market looks like now.",
     teaser="A licence change in one state started it. Everything after that was "
            "taprooms, heat and a generation that wanted choice.",
     standfirst="India's craft scene did not grow evenly, because beer is a state "
                "subject. It grew wherever the rules allowed a brewery to sell its own "
-               "beer on its own premises, and stalled everywhere they did not.",
+               "beer on its own premises and stalled everywhere they did not.",
     read="8 min", updated="2026-09-03", updated_label="September 2026",
     sections=[
         ("The rule that started it", """
@@ -28,7 +28,7 @@ CRAFT_BEER_INDIA = dict(
 usually strong, usually served very cold, usually indistinguishable.</p>
 <p>What changed was regulatory rather than cultural. When states began permitting
 microbreweries to brew and sell on their own premises, the economics suddenly
-worked. A brewpub could skip the distributor, skip the retail margin, and sell
+worked. A brewpub could skip the distributor, skip the retail margin and sell
 fresh beer directly at a price that covered small batch production.</p>
 <p>That is why the story starts in a few specific cities rather than nationally.
 Beer is regulated at state level in India, so the scene grew at the pace each
@@ -37,20 +37,20 @@ oddity in the Indian market.</p>"""),
         ("Why the taproom model won", """
 <p>In most mature beer markets, a small brewery packages its beer and sells it
 through shops and bars. In India that route is hard. Distribution is tightly
-controlled, retail shelf space is contested, and excise rules vary by state in
+controlled, retail shelf space is contested. Excise rules vary by state in
 ways that make national distribution expensive.</p>
 <p>The brewpub sidesteps all of it. You brew where you sell. The beer travels
 metres instead of hundreds of kilometres, which solves the freshness problem that
 kills hoppy styles. You capture the full margin. You control serving temperature
 and glassware, so the customer meets the beer at its best.</p>
 <p>The trade off is that you are running a restaurant as well as a brewery. Many
-Indian brewpubs make more money from food than from beer, and the ones that
+Indian brewpubs make more money from food than from beer. The ones that
 struggle usually underestimated how much of the business is hospitality.</p>"""),
         ("What Indian drinkers actually order", """
 <p>The taplist that works here is not the taplist that works in Europe or the
 United States.</p>
 <p>Wheat beers convert first time drinkers more reliably than anything else. They
-are refreshing in heat, low in bitterness, and immediately aromatic. Most
+are refreshing in heat, low in bitterness and immediately aromatic. Most
 successful Indian brewpubs have one on permanently.</p>
 <p>Lagers and pilsners are the volume drivers once a venue matures, because they
 are what a table can agree on. They are also unforgiving to brew, which quietly
@@ -65,7 +65,7 @@ first order design decision rather than an afterthought. Fermentation control is
 where Indian breweries most often fail.</p>
 <p><strong>Ingredients.</strong> Most specialty malt and almost all aroma hops are
 imported, priced in foreign currency and subject to shipping delays. That affects
-both cost and recipe consistency, and it rewards brewers who can reformulate
+both cost and recipe consistency. It rewards brewers who can reformulate
 around what is actually available.</p>
 <p><strong>Water.</strong> Source water varies enormously across the country and
 often needs treatment before it is suitable. Chlorine in municipal supply is a
@@ -89,7 +89,7 @@ you had to travel abroad to get.</p>"""),
     faqs=[
         ("Why is craft beer expensive in India?",
          "Imported malt and hops, small batch production, high and variable state excise "
-         "duty, and the cost of cooling in a hot climate. Licence fees and compliance "
+         "duty and the cost of cooling in a hot climate. Licence fees and compliance "
          "also fall on a much smaller volume than a national brewery enjoys."),
         ("Why are microbreweries concentrated in a few cities?",
          "Because alcohol is regulated by state, not nationally. The scene grew wherever "
@@ -122,7 +122,7 @@ START_MICROBREWERY = dict(
     read="12 min", updated="2026-09-03", updated_label="September 2026",
     sections=[
         ("Decide which business you are actually starting", """
-<p>Three models exist in India, and they are genuinely different businesses.</p>
+<p>Three models exist in India. They are genuinely different businesses.</p>
 <p><strong>The brewpub.</strong> You brew and sell on your own premises. Highest
 margin per litre, direct customer relationship, complete control of freshness.
 You are also running a full hospitality operation, with kitchen, service and
@@ -138,7 +138,7 @@ before committing capital, it is badly underrated.</p>
 another.</p>"""),
         ("Licensing, the part that sets your timeline", """
 <p>Alcohol is a state subject, so there is no single national process. What
-follows is the shape of it rather than any particular state's checklist, and you
+follows is the shape of it rather than any particular state's checklist. You
 must verify current requirements with your own state excise department and a
 local consultant.</p>
 <p>Expect to deal with several of the following: a state excise licence for
@@ -152,7 +152,7 @@ parallel, so one delay pushes everything. Several licences are annual and must b
 renewed, which is a recurring cost, not a one off. And premises usually must be
 secured before some applications can proceed, meaning you pay rent through the
 approval period while earning nothing.</p>
-<p>Budget twelve to eighteen months from decision to first pour, and treat
+<p>Budget twelve to eighteen months from decision to first pour. Treat
 anything faster as a pleasant surprise.</p>"""),
         ("What the capital actually goes on", """
 <p>Founders consistently overweight the brewhouse. A realistic split of project
@@ -237,7 +237,7 @@ venue.</p>"""),
          "committing to equipment."),
         ("Do I need to be a brewer to own a brewery?",
          "No, but somebody in the room must be. Owners who cannot assess their own beer "
-         "are dependent on whoever they hire, and that is an expensive position when "
+         "are dependent on whoever they hire. That is an expensive position when "
          "quality slips."),
     ],
     cta=dict(title="Plan it properly before you sign a lease",
@@ -253,7 +253,7 @@ BECOME_A_BREWER = dict(
     h1="How to become a brewer in India",
     title="How to Become a Brewer in India | Craft Beer School",
     desc="What brewers actually do, the routes into the job in India, which "
-         "qualifications carry weight, and how to get hired without experience.",
+         "qualifications carry weight and how to get hired without experience.",
     teaser="It is a production job with a science base and an early alarm. Here is "
            "the honest route in.",
     standfirst="Brewing looks like a creative job from the outside and is a process "
@@ -264,7 +264,7 @@ BECOME_A_BREWER = dict(
         ("What the job actually involves", """
 <p>A working brewer spends far more time cleaning, measuring and recording than
 designing recipes. On a normal day that means milling and mashing, monitoring
-fermentation, taking gravity and pH readings, transferring beer, and cleaning
+fermentation, taking gravity and pH readings, transferring beer and cleaning
 vessels and lines thoroughly enough that nothing contaminates the next batch.</p>
 <p>It is physical. You will lift sacks, climb tanks, stand for long shifts and
 start early. It is also unforgiving of carelessness, because a single missed
@@ -277,14 +277,14 @@ suits you. If it does not, better to know now.</p>"""),
 or assistants and learned on the job. It is the most common route and the least
 glamorous. You will clean for months before you touch a recipe.</p>
 <p><strong>Come from food science or biotechnology.</strong> A relevant degree
-gives you the microbiology and chemistry foundation quickly, and breweries value
+gives you the microbiology and chemistry foundation quickly. Breweries value
 it, but you will still learn the practical craft on site.</p>
 <p><strong>Come from homebrewing.</strong> Homebrewing proves genuine interest and
 teaches the process end to end. It does not teach scale, cleaning regimes or
 consistency, so present it as evidence of commitment rather than as
 experience.</p>
 <p><strong>Formal training.</strong> Structured courses compress the theory that
-would otherwise take years to absorb piecemeal, and matter most for people
+would otherwise take years to absorb piecemeal and matter most for people
 switching careers who need credibility fast.</p>"""),
         ("Which qualifications carry weight", """
 <p>Employers in India generally read credentials in three tiers.</p>
@@ -314,13 +314,13 @@ homebrewing cannot, mainly around cleaning, scale and how much of the job is
 logistics.</p>
 <p>Learn basic data handling. Breweries collect far more numbers than they use.
 A brewer who can turn fermentation logs into a trend that prevents a problem is
-unusually valuable, and increasingly so.</p>"""),
+unusually valuable and increasingly so.</p>"""),
         ("Pay, progression and where the jobs are", """
 <p>Entry level brewing pay in India is modest and reflects that you are being
 trained. It rises meaningfully with responsibility, particularly once you are
 accountable for quality across multiple tanks or for a site.</p>
 <p>A typical progression runs from assistant or cellar hand, to brewer, to head
-brewer, and from there either to brewmaster across multiple sites, into quality
+brewer. From there it goes either to brewmaster across multiple sites, into quality
 management, or into consulting and plant commissioning. Some move sideways into
 technical sales, training or brand roles, where brewing knowledge is rarer and
 often better paid.</p>
@@ -370,7 +370,7 @@ BREWING_FOR_INDIA = dict(
     h1="Brewing for Indian heat, water and palates",
     title="Brewing for Indian Heat and Water | Craft Beer School",
     desc="How heat, water chemistry, imported ingredients and the cold chain change "
-         "brewing decisions in India, and which styles genuinely work here.",
+         "brewing decisions in India and which styles genuinely work here.",
     teaser="A recipe that works in Munich does not automatically work in May in "
            "India. The variables that change are worth knowing.",
     standfirst="Most brewing literature assumes a temperate climate, soft predictable "
@@ -384,19 +384,19 @@ nuisance. In Indian ambient conditions it compounds with everything else, and
 cooling capacity becomes the constraint the whole brewery is built around.</p>
 <p>Under specified glycol shows up as fermentation running warmer than intended,
 which pushes yeast to produce more esters and fusel alcohols. The result is beer
-that tastes hot, solventy or oddly fruity for its style, and the cause is
+that tastes hot, solventy or oddly fruity for its style. The cause is
 mechanical rather than a recipe fault.</p>
 <p>Two practical consequences. Specify chilling generously, for the worst month
 rather than the average. And treat fermentation temperature as a controlled
 variable you record every day, because it is the single largest driver of flavour
 consistency.</p>"""),
-        ("Water, and the chlorine problem", """
+        ("Water and the chlorine problem", """
 <p>Water is most of the beer and varies enormously across India, so brewing
 without testing it is guessing.</p>
 <p>The most common and most avoidable fault comes from chlorine or chloramine in
 municipal supply. It reacts with compounds from the malt to produce chlorophenols,
 which taste medicinal or plastic at vanishingly small concentrations. Carbon
-filtration removes it, and doing so eliminates an entire category of complaint at
+filtration removes it. Doing so eliminates an entire category of complaint at
 trivial cost.</p>
 <p>Beyond that, mineral content shapes character. Sulphate accentuates hop
 bitterness and dryness, which suits pale hoppy beers. Chloride accentuates
@@ -414,18 +414,18 @@ abroad.</p>
 <p><strong>Consistency.</strong> A variety you built a flagship around may be
 unavailable for a season. Brewers who understand hop character rather than hop
 brand names can substitute intelligently. Those who only know names cannot.</p>
-<p><strong>Storage.</strong> Hops lose aroma with heat and time, and malt is
-vulnerable to humidity. Cold storage for hops is not optional, and grain needs to
+<p><strong>Storage.</strong> Hops lose aroma with heat and time. Malt is
+vulnerable to humidity. Cold storage for hops is not optional. Grain needs to
 be kept dry and used in rotation.</p>
 <p>The good news is that base malt and adjuncts are increasingly available
-regionally, and building recipes around what is reliably obtainable is a
+regionally. Building recipes around what is reliably obtainable is a
 discipline that improves consistency rather than compromising it.</p>"""),
         ("Which styles genuinely work here", """
 <p>Climate and palate both push in the same direction.</p>
 <p><strong>Wheat beers.</strong> Refreshing, aromatic, low bitterness. The most
-reliable converter of new drinkers, and forgiving to brew.</p>
+reliable converter of new drinkers and forgiving to brew.</p>
 <p><strong>Lagers and pilsners.</strong> The volume driver in a mature venue.
-Demanding, because there is nowhere to hide a flaw, and tank hungry because they
+Demanding, because there is nowhere to hide a flaw. Tank hungry, too, because they
 condition slowly. Worth doing well precisely because most do not.</p>
 <p><strong>Pale ales.</strong> Hop character without the cost and perishability of
 a heavily late hopped IPA. A sensible commercial middle.</p>
@@ -433,12 +433,12 @@ a heavily late hopped IPA. A sensible commercial middle.</p>
 thing you can make. Only viable with genuine cold chain discipline and fast
 turnover.</p>
 <p><strong>Dark beers.</strong> Sell in smaller volume year round but build
-reputation, and roast character survives warm serving better than delicate hop
+reputation. Roast character survives warm serving better than delicate hop
 aroma does.</p>"""),
         ("Serving is part of the recipe", """
 <p>A well brewed beer is routinely ruined in the last three metres.</p>
 <p>Serving too cold, which is the Indian default, mutes aroma and flavour. Let
-lagers sit around 6 to 8 degrees and ales a little warmer, and the beer you
+lagers sit around 6 to 8 degrees and ales a little warmer. Then the beer you
 actually brewed becomes perceptible.</p>
 <p>Dispense matters as much. Incorrect line pressure produces foaming, wasted
 beer and inconsistent pours. Dirty lines produce sour and buttery flavours that
@@ -447,13 +447,13 @@ lines on a fixed cycle and record it.</p>
 <p>Glassware must be beer clean. Detergent film destroys head retention and
 carries aroma from the previous drink.</p>"""),
         ("Shelf life deserves a number", """
-<p>Fresh is not a marketing word, it is a measurable property, and different
+<p>Fresh is not a marketing word, it is a measurable property. Different
 styles decay at different rates.</p>
 <p>Hop aroma fades fastest, so a hazy IPA is materially different after a few
 weeks warm. Oxidation flattens everything over time and accelerates with
 temperature. Dark and stronger beers hold up longest.</p>
 <p>Decide a shelf life per style, based on your own tasting rather than a
-default, and manage stock rotation to it. Then protect the cold chain from
+default and manage stock rotation to it. Then protect the cold chain from
 brewery to glass, because in Indian conditions that chain is usually where the
 quality you paid for is lost.</p>"""),
     ],
@@ -467,7 +467,7 @@ quality you paid for is lost.</p>"""),
          "Indian conditions that generally points at cooling capacity rather than the "
          "recipe or the yeast."),
         ("Which beer styles sell best in India?",
-         "Wheat beers convert new drinkers most reliably, and lagers drive volume in a "
+         "Wheat beers convert new drinkers most reliably. Lagers drive volume in a "
          "mature venue. Hoppy styles are popular but demand real cold chain discipline "
          "because their aroma fades quickly."),
         ("How cold should beer be served?",

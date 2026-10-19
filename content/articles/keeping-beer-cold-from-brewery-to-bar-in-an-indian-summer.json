@@ -1,0 +1,63 @@
+{
+ "slug": "keeping-beer-cold-from-brewery-to-bar-in-an-indian-summer",
+ "cat": "Business",
+ "h1": "Keeping beer cold from brewery to bar in an Indian summer",
+ "title": "Keeping Beer Cold in an Indian Summer | Craft Beer School",
+ "desc": "Where beer warms up between the brewery and the glass in Indian heat, what that does to flavour and the practical fixes at each handover.",
+ "teaser": "A beer that left your cold room perfect can taste tired a week later. The damage happens in the handovers.",
+ "standfirst": "Most beer that tastes stale in India was brewed well. It was let down somewhere between the cold room and the tap. Here is where the heat gets in and what a brewery can actually control.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The beer does not forget the heat",
+   "<p>Packaged beer keeps ageing after it leaves the brewery. Oxygen in the package reacts with malt and hop compounds and the speed of that reaction climbs with temperature. Warm beer ages fast. Cold beer ages slowly. Chilling it again later does not undo the hours it spent hot.</p><p>The brewing trade has an old rule of thumb for this, often called 3-30-300. Beer held around 32 °C for three days ages about as much as beer held at 21 °C for thirty days or at 3 °C for three hundred. It is an approximation, not a law of chemistry, but it explains why a delivery van parked in a Hyderabad afternoon in May can do more harm than a month in a cold room.</p><p>Hoppy pale beers show it first. Hop aroma fades, then a papery, honeyed staleness creeps in. We cover the chemistry in more depth in <a href=\"beer-stability-in-indian-heat.html\">beer stability in Indian heat</a>.</p>"
+  ],
+  [
+   "Map every handover",
+   "<p>Draw the route your beer takes on a single sheet of paper. For a typical packaged craft beer in India it looks something like this:</p><ol><li>Brewery cold room or bright tank.</li><li>Loading dock and the vehicle.</li><li>The state warehouse or distributor depot, where the route requires one.</li><li>Second vehicle to the outlet.</li><li>The outlet store room.</li><li>The bar fridge or the keg cooler.</li></ol><p>Each arrow is a handover. Each handover is a place where someone can leave cases on a hot floor because the cold room is full or the driver is in a hurry. The brewery directly controls the first two steps. The rest depends on agreements, training and checking.</p>"
+  ],
+  [
+   "What the brewery controls directly",
+   "<p>Start with the beer you send out. Low dissolved oxygen at packaging gives the beer more time before heat damage shows, so the work on the filler matters as much as the work on the truck. Keep packaged stock cold from the moment it is filled. A pallet that sits on the dock for a long lunch has already lost some shelf life.</p><p>Load early in the morning or late in the evening. An insulated body or a reefer vehicle is ideal. Where neither is affordable, thermal blankets over the pallets and the shortest route help more than people expect. Do not let beer ride on the same run as goods that need the doors opening every twenty minutes.</p><p>Put a cheap temperature logger in a case on some runs. The first time you download the trace and see the line climb past 35 °C at a depot, you will know exactly which conversation to have next.</p>"
+  ],
+  [
+   "Depots, distributors and outlets",
+   "<p>Once beer leaves your hands, cold storage becomes a commercial term rather than a habit. Write it into agreements: storage temperature, maximum time out of the cold, stock rotation by packaging date and what happens to stock that has been held warm. Many depots in India were built for spirits and mass market lager that tolerate heat better than an unpasteurised craft beer. Explain why yours is different. Most people respond better to a reason than a rule.</p><p>At the outlet, the store room is often the warmest room in the building. Ask to see it. Ask how long cases wait before they go into the fridge and whether kegs sit beside a kitchen wall. Our guide to <a href=\"beer-distribution-india.html\">beer distribution in India</a> explains how the route to market varies by state, which decides how many hands your beer passes through.</p>"
+  ],
+  [
+   "Kegs need cold too",
+   "<p>Draught beer is often unpasteurised and unfiltered in craft breweries, so it is more sensitive than bottled mass market lager. A keg that sits warm in a back corridor for a weekend can come back on line with stale or sour notes. Keep kegs in a walk-in or keg fridge from delivery to tapping. Check that the dispense line is cooled all the way to the tap, not just at the keg. Warm lines also mean foaming, which means beer poured down the drain.</p>"
+  ],
+  [
+   "Shelf life on the label is a promise",
+   "<p>Whatever best-before period you print assumes some storage condition. If the beer will spend part of its life at Indian ambient temperatures, set a shorter date for hoppy beers and test it. Hold a few cans warm in the brewery and taste them against cold stored cans every week. That simple forced ageing check tells you more about your real shelf life than any number copied from a European label.</p><p>The harder part is commercial: getting depots, distributors and outlets to share the cost of cold. That needs numbers on losses, returns and pricing, which is where most small breweries feel the gap between brewing well and running the business well.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does craft beer last without refrigeration in India?",
+   "It depends on the style, the oxygen picked up at packaging and how hot it gets. Hoppy beers can show stale flavours within weeks at Indian summer temperatures, so keep them cold whenever possible."
+  ],
+  [
+   "Is it harmful to chill beer, let it warm and chill it again?",
+   "It is not unsafe, but every warm period ages the beer further. Chilling again only stops more damage, it cannot reverse what the heat already did."
+  ],
+  [
+   "Do cans protect beer from heat better than bottles?",
+   "Cans block light completely and seal well, but they do not insulate. A warm can ages as fast as a warm bottle, so temperature control matters either way."
+  ]
+ ],
+ "cta": {
+  "title": "Learn how the whole brewery business fits together",
+  "body": "Brewery Business Management is a three week live course on costing, pricing, distribution, staffing and the numbers that keep a brewery open. Classes run on weekend afternoons with recordings.",
+  "href": "brewery-business-management-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "beer-stability-in-indian-heat",
+  "beer-distribution-india",
+  "wine-storage-and-cold-chain-india"
+ ]
+}

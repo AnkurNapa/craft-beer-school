@@ -215,7 +215,7 @@ def finder():
     return f"""
 <section class="tint" id="finder">
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Course finder</span><h2>Not sure which course fits?</h2><p class="lead">Pick the line that sounds most like you. We will point you at the right pour, and two others worth a look.</p></div>
+    <div class="sec-head"><span class="eyebrow">Course finder</span><h2>Not sure which course fits?</h2><p class="lead">Pick the line that sounds most like you. We will point you at the right pour and two others worth a look.</p></div>
     <div class="finder">
       <fieldset class="finder-opts"><legend class="sr-only">Who are you?</legend>{"".join(opts)}</fieldset>
       <div class="finder-out">{"".join(panels)}</div>

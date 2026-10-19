@@ -3,9 +3,9 @@
  "cat": "Brewing basics",
  "h1": "Original and final gravity explained",
  "title": "Original & Final Gravity Explained | Craft Beer School",
- "desc": "What OG and FG actually measure, why the gap between them matters, and how to know fermentation is done.",
+ "desc": "What OG and FG actually measure, why the gap between them matters and how to know fermentation is done.",
  "teaser": "Original gravity and final gravity are the two numbers that tell you what happened to your beer between brew day and the glass.",
- "standfirst": "Two numbers, taken days or weeks apart with the same hydrometer, tell you almost everything about a fermentation: how much sugar you started with, how much of it the yeast actually consumed, and roughly how strong the finished beer will be.",
+ "standfirst": "Two numbers, taken days or weeks apart with the same hydrometer, tell you almost everything about a fermentation: how much sugar you started with, how much of it the yeast actually consumed and roughly how strong the finished beer will be.",
  "read": "3 min",
  "updated": "2023-02-26",
  "updated_label": "February 2023",
@@ -20,7 +20,7 @@
   ],
   [
    "The gap between them is the story",
-   "<p>The distance between OG and FG tells you two separate things. It gives you the raw material for the ABV formula, covered fully in <a href=\"how-to-calculate-abv.html\">how to calculate ABV from gravity readings</a>, and it gives you apparent attenuation, the percentage of the original gravity's sugar that the yeast actually consumed. A beer that starts at 1.050 and finishes at 1.012 has attenuated to roughly 76 percent, which is a normal, healthy result for most ale yeast strains.</p><p>Apparent attenuation is a useful shorthand rather than a perfectly precise figure, since the alcohol present in the finished beer also affects the hydrometer reading slightly, in a way the simple percentage calculation does not fully account for. For homebrewing purposes, though, it is more than accurate enough to judge whether a fermentation behaved normally.</p>"
+   "<p>The distance between OG and FG tells you two separate things. It gives you the raw material for the ABV formula, covered fully in <a href=\"how-to-calculate-abv.html\">how to calculate ABV from gravity readings</a>. It gives you apparent attenuation, the percentage of the original gravity's sugar that the yeast actually consumed. A beer that starts at 1.050 and finishes at 1.012 has attenuated to roughly 76 percent, which is a normal, healthy result for most ale yeast strains.</p><p>Apparent attenuation is a useful shorthand rather than a perfectly precise figure, since the alcohol present in the finished beer also affects the hydrometer reading slightly, in a way the simple percentage calculation does not fully account for. For homebrewing purposes, though, it is more than accurate enough to judge whether a fermentation behaved normally.</p>"
   ],
   [
    "Why some beers finish higher than others on purpose",
@@ -34,7 +34,7 @@
  "faqs": [
   [
    "What is a normal OG for a standard beer?",
-   "Most session beers sit between 1.035 and 1.050, and stronger ales and lagers run higher, often 1.060 to 1.080 or more. There is no single correct number, it depends entirely on the style you are brewing."
+   "Most session beers sit between 1.035 and 1.050. Stronger ales and lagers run higher, often 1.060 to 1.080 or more. There is no single correct number, it depends entirely on the style you are brewing."
   ],
   [
    "Can final gravity be lower than 1.000?",

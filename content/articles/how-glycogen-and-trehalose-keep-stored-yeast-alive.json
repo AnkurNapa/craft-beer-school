@@ -1,0 +1,67 @@
+{
+ "slug": "how-glycogen-and-trehalose-keep-stored-yeast-alive",
+ "cat": "Brewing science",
+ "h1": "How glycogen and trehalose keep stored yeast alive",
+ "title": "Glycogen and trehalose in stored yeast | Craft Beer School",
+ "desc": "What glycogen and trehalose do inside yeast, why warm or long storage drains them and how brewers protect them between brews.",
+ "teaser": "Stored yeast lives off its own pantry. Run it empty and the next fermentation pays for it.",
+ "standfirst": "Between harvest and repitch, yeast survives on two internal reserves, glycogen and trehalose. We explain what each one does and how storage habits decide whether your yeast arrives at pitching ready to work.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Yeast has a pantry",
+   "<p>A yeast cell sitting in a brink of slurry has no wort to feed on. It still needs energy to keep its membranes intact and its machinery ticking over. It gets that energy from reserves it built up at the end of the previous fermentation.</p><p>Two molecules do most of that work. Glycogen is a storage carbohydrate, a bit like the starch in a grain. Trehalose is a sugar made of two glucose units that protects the cell against stress.</p>"
+  ],
+  [
+   "When yeast stores them",
+   "<p>Yeast builds up glycogen late in fermentation, as sugars run low and growth slows. A healthy crop harvested soon after attenuation finishes is usually rich in glycogen. Trehalose rises when cells meet stress such as heat, ethanol, drying or starvation.</p><p>This is one reason brewers harvest from the cone shortly after fermentation ends rather than leaving yeast sitting warm under the beer for days. Our guide to <a href=\"yeast-growth-phases.html\">yeast growth phases</a> explains what happens to cells at each stage.</p>"
+  ],
+  [
+   "What glycogen does after pitching",
+   "<p>When yeast is pitched into fresh, oxygenated wort, it needs to build new membranes before it can grow. It makes sterols and unsaturated fatty acids from oxygen and energy. In the first hours, before it has taken up much sugar from the wort, glycogen supplies much of that energy.</p><p>Yeast with low glycogen struggles to use the oxygen you gave it. The result is a longer lag, weaker growth and a fermentation that can stall or leave diacetyl and acetaldehyde behind.</p>"
+  ],
+  [
+   "What trehalose does",
+   "<p>Trehalose stabilises membranes and proteins when the cell is under stress. It helps yeast survive storage, temperature swings and the jump back into wort. Dried yeast is made with high trehalose levels for this reason, so it can survive drying and rehydration.</p><p>In stored slurry, trehalose is a buffer. It falls slowly as cells use their reserves and faster when storage is warm.</p>"
+  ],
+  [
+   "How storage drains the reserves",
+   "<p>Yeast burns its reserves faster as temperature rises. Many breweries store slurry at about 2 to 4 °C and aim to repitch within a few days. At room temperature in an Indian summer, glycogen can fall to poor levels within a day or two.</p><p>Other habits drain reserves too:</p><ul><li>Leaving yeast in a warm cone after fermentation finishes.</li><li>Storing slurry under a deep layer of beer, where ethanol keeps stressing the cells.</li><li>Repeated temperature swings, such as a cold room door left open during long shifts.</li><li>Shaking or pumping yeast more than needed.</li></ul><p>One brewhouse-floor detail: a yeast brink parked on the floor of a cold room near the door can sit several degrees warmer than the thermostat shows. Put a cheap logger inside the brink jacket or next to it for a week and you will know.</p>"
+  ],
+  [
+   "A storage routine that protects reserves",
+   "<p>Good yeast storage is mostly discipline. A simple routine for a brewpub looks like this:</p><ol><li>Harvest from the cone within a day or so of terminal gravity, once the beer has been cooled a little and the yeast has settled.</li><li>Discard the first dark, trub-heavy portion and the last thin portion. Keep the creamy middle.</li><li>Store in a clean, sanitised brink or keg with a loose lid or pressure relief, so CO2 can escape.</li><li>Keep it at 2 to 4 °C, with a small layer of beer on top rather than a deep one.</li><li>Label every vessel with strain, generation, harvest date and source tank.</li><li>Repitch within a few days. If storage runs longer, check viability and glycogen before using it.</li></ol><p>The aim is to keep the reserves the yeast built rather than to rebuild them later. Once glycogen is gone, the only real fix is a longer, more stressful start in the next brew.</p>"
+  ],
+  [
+   "Checking reserves in a small lab",
+   "<p>A viability stain tells you whether cells are alive. It does not tell you how much energy they have left. For glycogen, brewers use a simple iodine stain: Lugol's iodine colours glycogen-rich cells brown under the microscope, while depleted cells stay pale.</p><p>This is a rough test but a useful one alongside viability counts. Our guide to <a href=\"yeast-viability-and-vitality.html\">yeast viability and vitality</a> explains why a live cell is not always a ready one.</p><p>Understanding yeast at this level changes how you plan a brew schedule. The harvest date, the cold room and the next brew day become one decision, not three.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does stored yeast need glycogen?",
+   "It supplies energy in the first hours after pitching, when yeast uses oxygen to build new membranes before it starts taking up wort sugars."
+  ],
+  [
+   "How cold should I store harvested yeast?",
+   "Many breweries store slurry at about 2 to 4 °C and repitch within a few days. Warmer or longer storage drains reserves fast."
+  ],
+  [
+   "Can I measure glycogen without a lab?",
+   "A Lugol's iodine stain under a microscope gives a rough picture: glycogen-rich cells stain brown, depleted cells stay pale."
+  ]
+ ],
+ "cta": {
+  "title": "Learn how yeast really works",
+  "body": "Advanced Brewing Science covers yeast physiology, storage and pitching in depth, so each fermentation starts with yeast ready to work.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "yeast-viability-and-vitality",
+  "yeast-growth-phases",
+  "yeast-harvesting-and-reuse"
+ ]
+}

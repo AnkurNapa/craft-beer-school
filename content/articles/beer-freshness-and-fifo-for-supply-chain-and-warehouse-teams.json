@@ -1,0 +1,67 @@
+{
+ "slug": "beer-freshness-and-fifo-for-supply-chain-and-warehouse-teams",
+ "cat": "Beer for teams",
+ "h1": "Beer freshness and FIFO for supply chain and warehouse teams",
+ "title": "Beer Freshness and FIFO for Supply Teams | Craft Beer School",
+ "desc": "Why beer goes stale, how heat speeds it up and how supply chain and warehouse teams use FIFO, FEFO and date codes to keep beer fresh in India.",
+ "teaser": "Beer is not whisky. It gets worse with age. An Indian summer warehouse ages it fast.",
+ "standfirst": "Most beer is at its best soon after it leaves the brewery. From then on, time and heat wear it down. The people who control both are often in supply chain and warehousing, not in the brewhouse.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Beer is a perishable product",
+   "<p>Whisky improves in a cask for years. Beer starts losing quality the day it is packaged. Hop aroma fades, malt character turns papery and sweet. Bitterness softens. Brewers call this <strong>staling</strong>. It is mostly driven by oxygen trapped in the pack reacting slowly with flavour compounds.</p><p>Breweries set a best before date for each pack, often several months for pasteurised lager in bottles or cans and much shorter for unpasteurised draught or hop-forward craft beer. That date assumes reasonable storage. It is not a promise that the beer will taste the same on the last day as on the first. Our guide to <a href=\"beer-shelf-life.html\">beer shelf life</a> explains what sets the date.</p>"
+  ],
+  [
+   "Heat is the accelerator",
+   "<p>Chemical reactions speed up as temperature rises. A common rule of thumb in brewing is that staling runs roughly twice as fast for every 10 °C increase in storage temperature. Beer stored at 35 °C in a tin-roofed godown can taste older after a few weeks than the same beer kept cool for months.</p><p>In India that matters. Summer warehouse temperatures in the north and centre of the country regularly pass 40 °C. Trucks in transit can be hotter still. A brand that tastes fresh in Bengaluru in December can arrive tired in Nagpur in May. See <a href=\"beer-stability-in-indian-heat.html\">beer stability in Indian heat</a> for what happens inside the bottle.</p>"
+  ],
+  [
+   "FIFO and FEFO: two simple rules",
+   "<p><strong>FIFO</strong> means first in, first out: the oldest stock received leaves first. <strong>FEFO</strong> means first expired, first out: the stock with the nearest best before date leaves first. For beer they usually give the same answer, but not always. If a depot receives stock from two breweries, or a returned consignment comes back into stock, FEFO is the safer rule because it follows the date on the pack, not the date of arrival.</p><p>Whichever rule you use, the system and the physical stacking must agree. A warehouse management system that says FEFO while forklift drivers pull from the most accessible stack is running on last in, first out in practice.</p>"
+  ],
+  [
+   "Reading the date and batch code",
+   "<p>Every case and pack carries a code. It usually includes the packaging date or best before date, a batch or line code and sometimes a time stamp. Formats vary between breweries and even between lines. Supply teams should know how to read their own codes, because they are the link between a case on a shelf and a specific production batch.</p><p>That link matters when something goes wrong. If a quality problem is found in one batch, the code tells you which depots and outlets received it. A warehouse that records batch codes on dispatch can isolate a problem in hours. One that does not may have to pull far more stock than necessary.</p>"
+  ],
+  [
+   "Practical rules for depots and warehouses",
+   "<ul><li>Store beer out of direct sun and away from roof sheets that radiate heat. Shade, ventilation and insulation make a measurable difference.</li><li>Keep beer off the floor on pallets and away from strong-smelling goods. Cartons absorb odours and moisture.</li><li>Set an ageing alert, for example when a SKU in a depot passes a set share of its shelf life. Move or promote it before it becomes a problem.</li><li>Check that stock rotation is happening by sampling batch codes on the floor, not only in the system.</li><li>Treat light as an enemy for clear and green glass bottles, because sunlight causes a skunky aroma within minutes.</li></ul>"
+  ],
+  [
+   "Planning decisions that protect freshness",
+   "<p>Freshness is partly a planning outcome. Overstocking a depot ahead of a price change or a festival can mean beer sits for weeks. Long, slow routes to remote markets add age before the beer reaches a shelf. Some state excise processes add waiting time between brewery and retail too, because stock must be cleared through permits and government warehouses.</p><p>Good supply planning balances the cost of frequent smaller dispatches against the cost of stale beer and returns. The trade-off is easier to make when planners understand what is happening to the beer while it waits.</p>"
+  ],
+  [
+   "Why this needs a shared language",
+   "<p>Brewers, planners and warehouse staff often talk past each other. The brewer says the beer is oxidised. The planner says it was within date. Both are right. Teams that understand staling, temperature and coding can agree on targets, such as a maximum age at dispatch for each market, then measure them.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between FIFO and FEFO?",
+   "FIFO dispatches the stock that arrived first. FEFO dispatches the stock with the nearest best before date. For beer, FEFO is usually safer when stock comes from several sources."
+  ],
+  [
+   "Does warm storage really affect beer?",
+   "Yes. Staling speeds up with temperature. A common rule of thumb is roughly double the rate for every 10 °C rise. Hot warehouses age beer much faster."
+  ],
+  [
+   "Can stale beer be fixed?",
+   "No. Staling cannot be reversed once it has happened, so prevention through cool storage and good stock rotation is the only answer."
+  ]
+ ],
+ "cta": {
+  "title": "Stop losing beer to heat and old stock",
+  "body": "Our Raw materials and supply chain module explains how beer changes between brewery and shelf and what planners and warehouse teams can control. It is built around your team's own portfolio, depots and routes.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "beer-shelf-life",
+  "beer-supply-chain-explained",
+  "beer-stability-in-indian-heat"
+ ]
+}

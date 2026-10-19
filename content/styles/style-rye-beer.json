@@ -3,9 +3,9 @@
  "name": "Rye Beer",
  "family": "Speciality beers",
  "title": "Rye Beer: Style Guide | Craft Beer School",
- "desc": "Rye beer explained: what rye malt adds, why it is a pain in the mash tun, and which Indian dishes suit its spicy, dry bite.",
+ "desc": "Rye beer explained: what rye malt adds, why it is a pain in the mash tun and which Indian dishes suit its spicy, dry bite.",
  "tagline": "Rye brings a peppery snap and a slick body to almost any beer you add it to.",
- "tastes": "<p>Rye is less a style than an ingredient that changes whatever it goes into. Add it to a pale ale and you get a rye pale ale; add it to an IPA and you get a rye IPA; brew a Bavarian dark wheat beer with rye instead of wheat and you have roggenbier. The common thread is a dry, slightly peppery grain flavour, a little like the crust of a dark rye loaf, and a body that feels oddly full and silky for how dry the beer finishes.</p><p>That silkiness comes from gums in the grain. They are also why brewers grumble about rye. Above about 20 percent of the grist, the mash turns sticky and slow to run off, and some brewers add rice hulls or a beta glucan rest to keep it moving.</p><p>The American versions lean on hops, with citrus and pine against the spicy grain. German roggenbier leans on yeast, with banana and clove from a weizen strain. Both are worth knowing.</p>",
+ "tastes": "<p>Rye is less a style than an ingredient that changes whatever it goes into. Add it to a pale ale and you get a rye pale ale; add it to an IPA and you get a rye IPA; brew a Bavarian dark wheat beer with rye instead of wheat and you have roggenbier. The common thread is a dry, slightly peppery grain flavour, a little like the crust of a dark rye loaf and a body that feels oddly full and silky for how dry the beer finishes.</p><p>That silkiness comes from gums in the grain. They are also why brewers grumble about rye. Above about 20 percent of the grist, the mash turns sticky and slow to run off. Some brewers add rice hulls or a beta glucan rest to keep it moving.</p><p>The American versions lean on hops, with citrus and pine against the spicy grain. German roggenbier leans on yeast, with banana and clove from a weizen strain. Both are worth knowing.</p>",
  "profile": {
   "look": "Anything from pale gold to dark brown depending on the base beer. Often a little hazy from the rye, with a dense, long lasting head.",
   "aroma_flavour": "Peppery, earthy grain like rye bread crust, over whatever the base beer brings: hops in a rye IPA, banana and clove in roggenbier, caramel in a rye amber.",
@@ -18,11 +18,11 @@
  "pairings": [
   {
    "food": "Rajma chawal",
-   "why": "The peppery grain and dry finish cut through the rich kidney bean gravy, and the body stands up to it."
+   "why": "The peppery grain and dry finish cut through the rich kidney bean gravy. The body stands up to it."
   },
   {
    "food": "Amritsari fish fry",
-   "why": "Ajwain in the batter meets the spicy rye, and the carbonation scrubs the oil off your palate."
+   "why": "Ajwain in the batter meets the spicy rye. The carbonation scrubs the oil off your palate."
   },
   {
    "food": "Mutton seekh kebab",
@@ -30,7 +30,7 @@
   },
   {
    "food": "Gajar ka halwa",
-   "why": "A malty rye amber has enough caramel to keep up with the halwa, and its dry finish stops the pairing from cloying."
+   "why": "A malty rye amber has enough caramel to keep up with the halwa. Its dry finish stops the pairing from cloying."
   }
  ],
  "examples": [

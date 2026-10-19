@@ -1,0 +1,67 @@
+{
+ "slug": "sulphites-and-other-antioxidants-in-beer-and-when-they-help",
+ "cat": "Brewing science",
+ "h1": "Sulphites and other antioxidants in beer and when they help",
+ "title": "Sulphites and antioxidants in beer | Craft Beer School",
+ "desc": "What sulphur dioxide, ascorbic acid and natural polyphenols do against beer staling, when an antioxidant helps and why oxygen control comes first.",
+ "teaser": "Yeast already makes its own antioxidant. Whether you should add more depends on where your oxygen is coming from.",
+ "standfirst": "Antioxidants slow staling. They do not stop it. They cannot rescue beer that picked up oxygen at packaging. Here is what each one does, the rules that govern them and when they are worth using.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Staling is oxidation with a delay",
+   "<p>Stale flavour in beer, the wet cardboard in a pale lager or the sherry note in a stronger beer, comes from oxidation reactions that run slowly in the package. Aldehydes such as trans-2-nonenal form or are released over weeks and months. Heat speeds the whole process up, which is why an Indian summer warehouse ages beer far faster than a cool cellar. Our guide to <a href=\"beer-staling-chemistry.html\">beer staling chemistry</a> covers the reactions in detail.</p><p>An antioxidant is anything that slows these reactions. It might mop up oxygen or radicals before they attack beer compounds. Or it might bind the aldehydes so they cannot be tasted.</p>"
+  ],
+  [
+   "Sulphur dioxide, the antioxidant yeast makes",
+   "<p>Yeast produces sulphur dioxide (SO2) during fermentation as part of its sulphur metabolism. Levels depend heavily on the strain, wort composition and fermentation conditions. Lager strains typically produce more than ale strains. A few mg/L to a little over 10 mg/L is common in finished lager.</p><p>SO2 helps in two ways. It reacts with oxygen-derived radicals and peroxides. It also binds aldehydes into adducts that have no flavour. Beers with higher natural SO2 tend to taste fresh for longer. Brewers who want to raise natural SO2 often look at strain choice, lower wort oxygen and fermentation temperature before reaching for additives.</p>"
+  ],
+  [
+   "Adding sulphite: allowed, limited and labelled",
+   "<p>Potassium or sodium metabisulphite can be added to raise SO2. Some low-oxygen brewers add small amounts at mash-in to protect the wort. Others dose at packaging. Food regulations in most markets set a maximum level for sulphites in beer and require a label declaration above a threshold, because some people are sensitive to sulphites.</p><p>In India, beer additives and labelling fall under FSSAI standards along with state excise rules. Check the current FSSAI regulations for the permitted level and labelling wording before you add any. Rules change. An additive that is fine in one market can need a label change in another. Too much SO2 also gives a struck-match smell, so there is a sensory ceiling well before any legal one.</p>"
+  ],
+  [
+   "Ascorbic acid is a mixed blessing",
+   "<p>Ascorbic acid (vitamin C) reacts with oxygen quickly, which sounds ideal. The problem is what it turns into. Its reaction with oxygen can produce hydrogen peroxide. Peroxide is itself a strong oxidant in the presence of metal ions such as iron and copper. Brewing research has found results ranging from helpful to harmful, depending on the dose, metal content and whether SO2 is present to take up the peroxide.</p><p>Most brewers who use ascorbic acid use it alongside sulphite rather than alone. Few rely on it today. If your beer has high iron from borewell water or filter aid, adding ascorbic acid can make staling worse.</p>"
+  ],
+  [
+   "The antioxidants already in your beer",
+   "<p>Malt and hops bring polyphenols that act as natural antioxidants. Late hopping and dry hopping add hop polyphenols as well. Melanoidins from darker malts also have antioxidant activity, which is one reason dark beers often hide oxidation better than pale ones.</p><p>There is a trade-off. Polyphenols help flavour stability but also take part in colloidal haze. Removing them with PVPP improves haze stability and can slightly reduce antioxidant capacity. Most breweries decide which problem matters more for each beer.</p>"
+  ],
+  [
+   "Where antioxidants cannot help",
+   "<p>Here is the honest limit. An antioxidant is used up as it works. It also does not catch every oxygen molecule before that oxygen reaches the flavour compounds. A canning line with high total package oxygen will keep staling the beer whatever the dose. The fix there is the filler, purging and the seamer, as covered in our guide to <a href=\"oxidised-beer.html\">oxidised beer</a>.</p><p>So the order is fixed. Measure dissolved oxygen through the cold side first. Tighten transfers and purge tanks and kegs. Set up the filler to keep total package oxygen low. Then, if the beer still stales sooner than you need, consider antioxidants as a second line. Brewers who start with the additive usually end up hiding a process fault rather than fixing it.</p>"
+  ],
+  [
+   "A quick way to judge your beer",
+   "<p>Run a forced ageing test. Keep packaged samples at a warm temperature such as 30 °C for a set time, alongside controls stored cold, then taste blind with a small panel. Compare beers with and without the treatment you are considering. Our <a href=\"beer-shelf-life.html\">beer shelf life</a> guide explains how to set it up and read it. Measuring flavour stability properly takes chemistry, sensory and statistics together, which is more than a single guide can teach.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does all beer contain sulphites?",
+   "Most beer contains some sulphur dioxide made by yeast during fermentation. Levels vary with the strain and the process."
+  ],
+  [
+   "Can antioxidants fix beer that already tastes stale?",
+   "No. Staling compounds that have formed cannot be reversed by adding an antioxidant. Antioxidants only slow future change."
+  ],
+  [
+   "Is ascorbic acid safe to use in beer?",
+   "Its use is regulated as a food additive, so check the current FSSAI rules. Technically it can help or harm flavour stability depending on dose and metals present."
+  ]
+ ],
+ "cta": {
+  "title": "Make your beer stay fresh for longer",
+  "body": "Advanced Brewing Science is a 6 week live course covering staling chemistry, oxygen control, antioxidants and forced ageing tests you can run on your own beer. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-staling-chemistry",
+  "oxidised-beer",
+  "beer-shelf-life"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "cloudy-wort-run-off-and-the-lipids-it-carries-into-the",
+ "cat": "Brewing science",
+ "h1": "Cloudy wort run-off and the lipids it carries into the fermenter",
+ "title": "Cloudy Wort Run-Off and Lipids | Craft Beer School",
+ "desc": "Why cloudy lauter run-off carries lipids into the fermenter, what they do to foam and flavour stability and how to collect clearer wort.",
+ "teaser": "Cloudy wort looks harmless on brew day. The lipids it carries show up months later as stale beer and flat foam.",
+ "standfirst": "Wort that runs cloudy from the lauter tun carries fine particles and fatty material into the kettle and on into the fermenter. A little does no harm. A lot costs you foam, flavour stability and shelf life, which matters more in India than almost anywhere.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What makes run-off cloudy",
+   "<p>Clear wort has passed through a well formed grain bed that acts as a filter. Cloudy wort carries fine particles the bed has not caught: bits of husk, protein, starch fragments and lipid rich material from the grain. Barley lipids sit mainly in the germ and the aleurone layer. Fine particles from those parts of the grain carry them along.</p><p>Run-off turns cloudy when the bed is disturbed or stressed. Common causes are too short a recirculation, pulling wort too fast, deep raking, a mill gap set too fine or the last runnings at the end of sparging, which are always cloudier and thinner.</p>"
+  ],
+  [
+   "What lipids do downstream",
+   "<p>Lipids in wort include long chain fatty acids, notably linoleic and linolenic acid. Three things follow when too many reach the fermenter:</p><ul><li><strong>Foam suffers.</strong> Lipids are foam negative. They break the protein films that hold bubbles together, so head retention drops. Our guide to <a href=\"beer-foam-science.html\">beer foam science</a> explains the mechanism.</li><li><strong>Flavour stability falls.</strong> Unsaturated fatty acids oxidise, partly through the malt enzyme lipoxygenase in the mash, into compounds such as trans-2-nonenal, the classic papery, cardboard note of stale beer. See <a href=\"beer-staling-chemistry.html\">beer staling chemistry</a>.</li><li><strong>Fermentation changes.</strong> Yeast uses some unsaturated fatty acids to build membranes, so a little helps. Excess changes ester production, often lowering the fruity esters a brewer may want.</li></ul><p>Warm storage speeds staling. Beer that travels hundreds of kilometres in an unrefrigerated truck in May will show every bit of lipid damage that a cool European cellar would hide for months.</p>"
+  ],
+  [
+   "Recirculate until it is clear, then a bit longer",
+   "<p>Recirculation, or vorlauf, means drawing wort from under the false bottom and returning it gently to the top of the grain bed until it runs clear. It sets the bed as a filter.</p><p>The floor detail we would teach first: judge clarity in a clear glass held up to light, not by looking down a pipe. Fill the glass every couple of minutes during recirculation. When you can read text through it, recirculate for a few minutes more, then switch to the kettle. Return the wort under the liquid surface, or over a spreader, so it does not dig a channel in the bed.</p><p>Many brewpub systems have a sight glass on the run-off line. Use it, but trust the sample glass more.</p>"
+  ],
+  [
+   "Run off gently",
+   "<p>Pulling wort too fast compacts the grain bed and drags fines through it. Start slowly and increase only as the bed allows. If your system has a differential pressure gauge or a level gauge under the false bottom, watch it. A rising pressure difference warns that the bed is tightening before the run-off actually slows.</p><p>Rake only when needed and keep the rakes above the bottom few centimetres of the bed. Raking right down to the false bottom stirs up the fines layer and run-off goes cloudy again. If you have to cut deep, recirculate again before going back to the kettle. Our guide to <a href=\"lautering-and-sparging.html\">lautering and sparging</a> covers bed management in detail.</p>"
+  ],
+  [
+   "Stop collecting before the last runnings get bad",
+   "<p>The last runnings are cloudier, thinner and higher in pH. As sparging continues, the pH rises and the wort extracts more tannins, silicates and lipids from the husks. Common practice is to stop collecting when the run-off gravity falls to around 1.008 to 1.010, or when its pH climbs towards 6.0. Measure both on a few brews and set a stopping point for your system.</p><p>Stopping slightly early costs a little extract. Collecting too long costs flavour, foam and shelf life. On a commercial scale, the trade is almost always worth making.</p>"
+  ],
+  [
+   "Help from the kettle and whirlpool",
+   "<p>Cloudy run-off is not a disaster if the rest of the hot side is working. A vigorous boil coagulates protein and some lipid material into hot break. A good whirlpool then piles that trub into a cone in the centre of the vessel, where it stays behind when you knock out.</p><p>Knock out slowly from the side outlet once the whirlpool has rested. Stop before the trub cone is drawn into the heat exchanger. Carrying hot trub into the fermenter adds back much of the lipid you worked to leave behind in the lauter tun. A clear knock-out matters as much as a clear run-off.</p>"
+  ],
+  [
+   "Measuring and trending it",
+   "<p>You do not need a lab turbidity meter to improve. Photograph a sample glass of first wort against the same background on every brew. Note recirculation time, run-off rate and the gravity and pH at which you stopped. After a dozen batches, compare those records with head retention and how the beer tastes after a month in the cold room and a month at room temperature.</p><p>That kind of link between a brewhouse habit and a packaged beer defect is what separates brewers who fix symptoms from brewers who fix causes. It is also where an understanding of the chemistry behind staling and foam pays back.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is my wort run-off cloudy?",
+   "Usually short recirculation, running off too fast, raking too deep or a mill gap set too fine. The last runnings are always cloudier."
+  ],
+  [
+   "Do lipids in wort affect beer foam?",
+   "Yes. Lipids are foam negative. They break the protein films around bubbles, so head retention drops."
+  ],
+  [
+   "When should I stop collecting wort?",
+   "Many brewers stop when the run-off gravity reaches about 1.008 to 1.010 or its pH rises towards 6.0, whichever comes first."
+  ]
+ ],
+ "cta": {
+  "title": "Brew beer that stays fresh for longer",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers lautering, wort composition and staling chemistry so you can trace foam and shelf life problems back to the brewhouse.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "lautering-and-sparging",
+  "beer-foam-science",
+  "beer-staling-chemistry"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "reading-a-brewery-profit-and-loss-statement-as-a-founder",
+ "cat": "Business",
+ "h1": "Reading a brewery profit and loss statement as a founder",
+ "title": "Reading a Brewery Profit and Loss | Craft Beer School",
+ "desc": "How a founder should read a brewery profit and loss statement: revenue, excise, cost of goods, margin, overheads, EBITDA and the questions each line raises.",
+ "teaser": "Your accountant sends a P&L every month. Most founders read the bottom line and close the file.",
+ "standfirst": "A profit and loss statement tells you whether your brewery is making money and where it leaks. You do not need to be an accountant to read it. Here is what each line means for a brewery.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a P&L is",
+   "<p>A profit and loss statement, or income statement, shows revenue and costs over a period, usually a month, quarter or year. Revenue at the top, costs in the middle, profit or loss at the bottom. It is different from a cash flow statement. A brewery can show a profit on paper and still run out of cash, because of stock, credit given to customers or loan repayments. Read both.</p><p>Ask your accountant for a monthly P&L in a consistent format. Comparing the same lines month after month is where the insight comes from.</p>"
+  ],
+  [
+   "Revenue and where excise sits",
+   "<p>The top line is revenue: beer, food, merchandise, events. For a brewpub, split it into those streams so you can see each one. Excise and taxes complicate revenue in India. Depending on your state and how your accountant presents it, excise may be shown inside revenue and then as a cost, or revenue may be shown net of it. Ask how yours is done. A brewery comparing gross revenue against a competitor's net revenue will draw wrong conclusions.</p>"
+  ],
+  [
+   "Cost of goods sold and gross margin",
+   "<p>Cost of goods sold (COGS) is what it costs to make what you sold: malt, hops, yeast, adjuncts, packaging, food ingredients and often excise where it is treated as a production cost. Revenue minus COGS is gross profit. Gross profit divided by revenue is gross margin.</p><p>For a brewpub, look at beer and food separately. Beer typically carries a higher gross margin than food, but excise structures vary so much by state that there is no single healthy number. Track yours over time. Our guide to <a href=\"beer-cost-of-goods-explained.html\">beer cost of goods explained</a> goes deeper.</p><p>One floor detail matters here. If your brewhouse yield drops, COGS per litre rises even though nothing changed on the invoice. A gross margin that slides two points over a quarter can trace back to a mill gap that drifted open. The P&L shows the effect. The brewer finds the cause.</p>"
+  ],
+  [
+   "Operating expenses",
+   "<p>Below gross profit come operating expenses:</p><ul><li><strong>Labour.</strong> Salaries, statutory contributions and benefits. Often the largest line.</li><li><strong>Rent and occupancy.</strong> Rent, maintenance charges and property costs.</li><li><strong>Utilities.</strong> Power, water, gas, diesel.</li><li><strong>Marketing.</strong> Events, social media, promotions.</li><li><strong>Repairs and maintenance.</strong> Spares, service contracts.</li><li><strong>Licences and professional fees.</strong> Renewals, accountants, consultants.</li></ul><p>Express each as a percentage of revenue and watch the trend. Our <a href=\"taproom-economics.html\">taproom economics</a> guide shows how they fit together.</p>"
+  ],
+  [
+   "EBITDA and the bottom line",
+   "<p>Gross profit minus operating expenses gives operating profit before depreciation, often called EBITDA (earnings before interest, tax, depreciation and amortisation). It shows whether the day-to-day business makes money. Below it come depreciation on equipment, interest on loans and tax, which leave net profit.</p><p>A brewery with heavy loans can have healthy EBITDA and still show a net loss because of interest and depreciation. That is common in early years. The question is whether EBITDA is growing and whether it will cover the debt.</p>"
+  ],
+  [
+   "Questions to ask each month",
+   "<ol><li>Which revenue stream grew or fell? Why?</li><li>Did gross margin move? If so, was it price, cost or yield?</li><li>Which expense line grew faster than revenue?</li><li>Is anything unusual this month, such as a one-off repair or licence renewal?</li><li>How does this month compare with the same month last year?</li></ol><p>Seasonality matters in India. Summer, monsoon and festival months behave differently, so comparing with the same month last year is often more useful than comparing with last month.</p>"
+  ],
+  [
+   "Ask for a P&L by revenue stream",
+   "<p>A single P&L for the whole brewpub hides a lot. Ask your accountant to show beer, food and events separately down to gross profit, with labour split where it can be. You may find that food barely covers its own costs while beer carries the business, or that events earn more per hour than any weekday evening. That changes where you spend effort.</p><p>It takes some setup in your POS and accounting software, mainly consistent categories for every sale and purchase. Once it is done, every monthly report becomes far more useful.</p>"
+  ],
+  [
+   "Use it alongside weekly numbers",
+   "<p>A monthly P&L arrives weeks after the month ends. That is too late to fix a problem quickly. Combine it with a few weekly indicators such as sales, beer cost, labour hours and stock, as we describe in <a href=\"weekly-numbers-for-brewpub-owners.html\">weekly numbers for brewpub owners</a>. The weekly view catches problems early. The P&L confirms the full picture.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between profit and cash flow?",
+   "Profit is revenue minus costs on paper. Cash flow is money actually in and out. A brewery can be profitable and still short of cash because of stock, credit or loan repayments."
+  ],
+  [
+   "What is EBITDA?",
+   "Earnings before interest, tax, depreciation and amortisation. It shows whether the day-to-day operation makes money before financing and asset costs."
+  ],
+  [
+   "How is excise shown in a brewery P&L?",
+   "It depends on your state and accounting treatment. It may be inside revenue and then a cost, or revenue may be shown net of excise. Ask your accountant."
+  ]
+ ],
+ "cta": {
+  "title": "Read your numbers like an owner",
+  "body": "Brewery Business Management is a three week live course on costing, pricing and the financial statements that tell you whether a brewery is healthy. It covers P&L, cash flow and the weekly numbers that matter.",
+  "href": "brewery-business-management-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "taproom-economics",
+  "beer-cost-of-goods-explained",
+  "weekly-numbers-for-brewpub-owners"
+ ]
+}

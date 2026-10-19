@@ -1,0 +1,67 @@
+{
+ "slug": "restarting-a-brewery-safely-after-a-long-licence-or-seasonal",
+ "cat": "Consultancy",
+ "h1": "Restarting a brewery safely after a long licence or seasonal shutdown",
+ "title": "Restarting a Brewery After Shutdown | Craft Beer School",
+ "desc": "How to restart a brewery safely after a long licence or seasonal shutdown: inspections, cleaning, calibration, ingredients, a water brew and the first beer.",
+ "teaser": "Tanks that sat idle for three months are not clean just because they were clean when you left them.",
+ "standfirst": "A brewery that has stood idle for a licence delay, a renovation or a slow season needs a deliberate restart. Equipment, utilities, ingredients and people have all drifted while the tanks were quiet.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Idle is not the same as ready",
+   "<p>A brewery can stop for months in India for many reasons: a licence renewal held up, a change of ownership, a monsoon shutdown or a renovation. When the green light comes, the temptation is to brew on the first day. That is how breweries end up dumping their first batch back.</p><p>Seals dry out, gaskets harden, biofilm grows in places CIP never reaches and moisture finds its way into malt. Glycol levels drop and probes drift. Staff forget steps they once did by habit. A restart is closer to recommissioning than to an ordinary Monday.</p>"
+  ],
+  [
+   "Safety before anything else",
+   "<ul><li>Check CO2 and any gas detection alarms work before anyone enters the cellar.</li><li>Test pressure relief valves and vacuum breakers on every vessel.</li><li>Check boiler or steam generator inspection status. Statutory inspection rules vary by state, so confirm the current requirement with the relevant inspectorate.</li><li>Inspect electrical panels for pests and moisture, especially after monsoon.</li><li>Review chemical stock. Caustic and acid containers can degrade or leak during long storage.</li><li>Brief the team on lockout procedures and confined space entry before any vessel inspection.</li></ul>"
+  ],
+  [
+   "Inspect and clean everything",
+   "<p>Open and inspect every vessel, valve and fitting you can reach. Replace gaskets that have hardened or cracked. Check pump seals, which often dry out and leak when first restarted. Run water through every line to flush stagnant water and look for rust or residue.</p><p>Then run a full clean of the whole product path, including heat exchangers, hoses and dead legs. A caustic cycle at the strength and temperature your SOP specifies, followed by an acid cycle and sanitiser, is the usual minimum. Our guide to <a href=\"cip-cleaning-in-place.html\">cleaning in place</a> covers chemical strengths and contact times. After a long stop, it is worth swabbing or plating a few surfaces to confirm the clean worked.</p>"
+  ],
+  [
+   "Utilities and instruments",
+   "<p>Restart the glycol system and check its concentration with a refractometer, top it up and bleed air from the lines. Run a crash test on a tank of water to confirm the chiller holds temperature. Check the air compressor, CO2 supply and water treatment system, including filter cartridges and RO membranes that may have fouled while idle.</p><p>Calibrate every instrument before trusting it: thermometers and probes against a reference, pH meter with fresh buffers, hydrometer or density meter against distilled water and any dissolved oxygen meter. Our <a href=\"preventive-maintenance-plan-brewery.html\">preventive maintenance plan</a> guide lists the routine checks that should restart with the brewery.</p><p>Look closely at heat exchangers. Plate exchangers that sat wet can harbour biofilm between plates that CIP flow does not reach. If cleaning results are poor, opening the exchanger for inspection and manual cleaning may be needed.</p>"
+  ],
+  [
+   "Ingredients and yeast",
+   "<p>Check malt for moisture pickup, pests and stale smell. Malt stored through an Indian monsoon in a non-sealed space may have absorbed enough moisture to mill poorly and taste dull. Check hops for age and storage temperature. If in doubt, buy fresh.</p><p>Do not repitch yeast slurry that has been stored for months. Start from a fresh pitch from your supplier or a properly maintained bank.</p>"
+  ],
+  [
+   "A water brew, then a simple beer",
+   "<p>Run water through the brewhouse as though it were a brew day: heat, transfer, circulate, cool and send to a fermenter. It shows up leaks, sticking valves, pump faults and heating or cooling problems without risking ingredients.</p><p>Then brew a simple, forgiving beer you know well. Taste it carefully against your records before going on to the beers that are harder to get right.</p><p>Hold the first beer back a little longer than usual and taste it against retained samples or tasting notes from before the shutdown. Check that gravity, pH and fermentation timing match your records. If the beer behaves differently, look at what changed while the brewery was idle: water, malt, yeast source or an instrument that drifted. Only then return to the full schedule of core beers.</p>"
+  ],
+  [
+   "Paperwork and people",
+   "<p>Licence renewals and excise registers have their own restart steps, which differ by state and change over time. Work with your licensing adviser to make sure registers and approvals are in order before beer moves. Then run a short refresher session with the team on brew day, cleaning and safety SOPs. Habits fade faster than equipment does.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does a brewery restart take?",
+   "A careful restart usually takes from several days to a couple of weeks before the first beer is ready to brew, depending on how long the brewery stood idle and what the inspection finds."
+  ],
+  [
+   "Can we reuse yeast stored during the shutdown?",
+   "It is not worth the risk after a long stop. Start from a fresh pitch from your supplier or a properly maintained yeast bank."
+  ],
+  [
+   "Do we need to recalibrate instruments after a shutdown?",
+   "Yes. Probes, pH meters, density meters and oxygen meters can drift while idle. Calibrate them before you trust any reading."
+  ]
+ ],
+ "cta": {
+  "title": "Bringing an idle brewery back to life?",
+  "body": "Our consultant brewers plan and support brewery restarts: safety checks, inspection, cleaning, calibration, a water brew and the first beer. Rahul Baliyan leads on brewing, Ankur Napa on quality and data. Your team leaves with the checklist.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "cip-cleaning-in-place",
+  "preventive-maintenance-plan-brewery",
+  "brewhouse-commissioning-checklist"
+ ]
+}

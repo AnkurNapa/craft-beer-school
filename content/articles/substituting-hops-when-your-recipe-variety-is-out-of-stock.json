@@ -1,0 +1,67 @@
+{
+ "slug": "substituting-hops-when-your-recipe-variety-is-out-of-stock",
+ "cat": "Brewing basics",
+ "h1": "Substituting hops when your recipe variety is out of stock",
+ "title": "Substituting Hops When a Variety Is Out | Craft Beer School",
+ "desc": "How to swap a hop that is out of stock: recalculating bittering by alpha acid, matching aroma character and the substitutions that work for homebrewers.",
+ "teaser": "Your supplier has no Cascade. Before you grab whatever is on the shelf, here is how to swap a hop without wrecking the recipe.",
+ "standfirst": "Hops run out in India more often than anywhere else we brew, because nearly all of them are imported. A good substitution keeps the bitterness where the recipe wanted it and the aroma in the same family. Both take a few minutes of arithmetic and some tasting sense.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "First ask what the hop is doing",
+   "<p>Every hop in a recipe has a job. Before you swap it, work out which job.</p><ul><li><strong>Bittering hops</strong> go in early, usually at 60 minutes. Their aroma boils away. What matters is how much alpha acid they bring, because that becomes the bitterness.</li><li><strong>Flavour and aroma hops</strong> go in late, in the whirlpool or as a dry hop. Here the alpha acid barely matters. The oils matter. They are what make Citra smell different from Saaz.</li></ul><p>This split makes most substitutions easy. A bittering hop can be replaced by almost any clean, high alpha variety. An aroma hop needs a substitute that smells like it.</p>"
+  ],
+  [
+   "Recalculating a bittering hop",
+   "<p>Scale the weight by the ratio of alpha acids. The formula is short:</p><p><strong>New weight = old weight x old alpha acid / new alpha acid</strong></p><p>Say your 20 litre recipe calls for 25 g of Magnus at 13% alpha acid for 60 minutes and your shop only has Columbus at 15%. That works out to 25 x 13 / 15, which is about 21.7 g. Round to 22 g and the bitterness lands where the recipe wanted it.</p><p>Use the alpha acid printed on your packet, not the typical figure from a website. The same variety can swing several points from one harvest to the next. Our guide to <a href=\"reading-a-hop-packet.html\">reading a hop packet</a> shows where to find it. If you want the chemistry behind why alpha acids become bitterness only in the boil, <a href=\"alpha-acids-explained.html\">alpha acids explained</a> covers it.</p>"
+  ],
+  [
+   "Matching aroma and flavour",
+   "<p>For late additions, think in families. These swaps are well established and work at the same weight as a starting point:</p><ul><li><strong>Cascade</strong> to Centennial or Amarillo. Centennial is higher in alpha acid and a little more floral; Amarillo leans orange.</li><li><strong>Citra</strong> to Mosaic for tropical fruit, though Mosaic adds a berry and pine edge. Galaxy works if you like passion fruit.</li><li><strong>Saaz</strong> to Sterling or another Czech grown noble type for a soft, spicy lager aroma.</li><li><strong>Hallertau Mittelfrueh</strong> to Hallertau Hersbrucker or Tettnanger in German lagers.</li><li><strong>East Kent Goldings</strong> to Fuggle or Styrian Golding in English bitters. Fuggle is earthier.</li><li><strong>Simcoe</strong> to Summit or Columbus at a slightly lower weight, since both are more resinous.</li></ul><p>No substitute is identical. Expect the beer to taste related to the original, not the same. If you are brewing a clone for a competition, that difference will show.</p>"
+  ],
+  [
+   "Blending two hops to get closer",
+   "<p>When no single hop fits, two can. Citra is out? Half Mosaic and half Amarillo gives you tropical fruit plus citrus, which sits closer to Citra than either alone. Cascade is out? Centennial with a smaller share of a softer hop takes the edge off.</p><p>Keep notes on what you blended and how it tasted at two weeks. Hop aroma in a pale ale is at its best early, so taste the substitution while it is fresh before you judge it.</p>"
+  ],
+  [
+   "Hop freshness counts more than the name",
+   "<p>A fresh packet of the \"wrong\" hop often beats a stale packet of the right one. Alpha acids and oils both decline with heat and oxygen. A pack that sat in a warm courier van in May has lost aroma you cannot get back.</p><p>Store hops vacuum-sealed or in a tightly rolled pack inside a freezer, at minus 18 °C if your freezer manages it. Once opened, squeeze out the air and reseal at once. A packet that smells of cheese or old socks has oxidised. Use it for bittering at a pinch or throw it away.</p><p>When you shop, buy the varieties you rely on in larger quantities when they are in stock. A couple of hundred grams of a clean bittering hop in the freezer means you rarely have to substitute the hop that matters least.</p>"
+  ],
+  [
+   "When to change the recipe instead",
+   "<p>Sometimes the honest answer is to brew a different beer. A recipe built around one signature hop, such as a single hop Nelson Sauvin pale ale, does not survive a swap. Choose a recipe built around what you can get. Our list of <a href=\"hop-varieties-for-beginners.html\">hop varieties for beginners</a> includes several that Indian suppliers stock regularly.</p><p>Substituting well depends on knowing why the original brewer chose each hop and at what point. Most beginners copy recipes without that layer, which is why a single missing ingredient feels like a disaster. Once you understand bittering, flavour and aroma additions as separate decisions, recipes stop being fragile.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I substitute a bittering hop?",
+   "Multiply the original weight by the original alpha acid, then divide by the alpha acid of the hop you have. Use the figure printed on your packet."
+  ],
+  [
+   "What is a good substitute for Citra?",
+   "Mosaic is the usual choice, with a berry and pine edge. A blend of Mosaic and Amarillo often lands closer to Citra than either one alone."
+  ],
+  [
+   "Can I substitute aroma hops by alpha acid?",
+   "Not really. Late hop additions are about oils and aroma, so choose a hop from the same flavour family and start at the same weight."
+  ],
+  [
+   "Does hop freshness matter more than variety?",
+   "Often it does. Stale, oxidised hops lose aroma and bitterness potential, so a fresh substitute can beat an old packet of the listed variety."
+  ]
+ ],
+ "cta": {
+  "title": "Stop recipes falling apart over one missing hop",
+  "body": "Brewing Fundamentals is four weeks of live weekend classes for ₹5,999. It teaches how bittering, flavour and aroma additions work, so you can adapt any recipe with confidence.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "hop-varieties-for-beginners",
+  "alpha-acids-explained",
+  "reading-a-hop-packet"
+ ]
+}

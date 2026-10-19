@@ -1,0 +1,63 @@
+{
+ "slug": "palate-fatigue-and-how-many-beers-you-can-taste-before-it",
+ "cat": "Tasting",
+ "h1": "Palate fatigue and how many beers you can taste before it fails",
+ "title": "Palate Fatigue in Beer Tasting | Craft Beer School",
+ "desc": "How palate fatigue affects beer tasting panels: how many samples per session, sample order, rest breaks and the signs your panel has stopped tasting.",
+ "teaser": "After the eighth IPA, your panel is not tasting beer. It is guessing. Here is how to design sessions around palate fatigue.",
+ "standfirst": "Palate fatigue is the drop in sensitivity that comes with repeated tasting. It is the most common reason a sensory panel misses a fault late in a session. Planning around it is cheap and makes your release tasting far more reliable.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What palate fatigue is",
+   "<p>Your senses adapt. Smell an aroma for a while and you notice it less. Taste bitterness again and again and it seems to fade. This is normal adaptation. It happens fastest with strong stimuli like intense hop aroma, high bitterness, alcohol and acidity.</p><p>Fatigue also builds across the session. After several samples, tasters become less sensitive and less consistent. They tend to score differences as smaller and miss low-level faults. Alcohol adds to the effect even when people spit, as small amounts are absorbed through the mouth.</p>"
+  ],
+  [
+   "How many samples per session",
+   "<p>There is no single correct number, because it depends on the beer and the task. As a working guide for a brewery panel:</p><ul><li>For difference tests, such as triangles, a few sets per session keeps results reliable.</li><li>For descriptive scoring of mild beers like lagers, around six to eight samples per session is a common ceiling.</li><li>For intense beers such as IPAs, imperial stouts or sours, plan fewer, perhaps four to six.</li></ul><p>If you need to taste more, split into two sessions with a proper break, or spread the work across days. A short session done well is more useful than a long one where the last half is guesswork.</p>"
+  ],
+  [
+   "Order the samples",
+   "<p>Within a session, go from mild to intense: low alcohol before high, low bitterness before high, clean before sour or smoked. A big DIPA before a helles makes the helles taste like water.</p><p>When samples are similar, such as several batches of the same lager, randomise the order for each panellist. Otherwise every taster scores the same sample first and the order effect gets baked into the results. Use random three-digit codes so nobody knows which sample is which. Our guide to <a href=\"running-a-sensory-panel.html\">running a sensory panel</a> covers the setup in more detail.</p>"
+  ],
+  [
+   "Breaks, water and sample size",
+   "<p>Keep samples small, about 30 to 50 ml each. Tasters need enough to judge aroma and take two or three sips, not a full glass. Encourage spitting for any beer that does not need to be swallowed, though some panels swallow a little to judge finish and bitterness.</p><p>Allow at least a minute or two between samples for water and plain crackers, longer after intense beers. After every few samples, take a longer break of five minutes or so away from the table. Fresh air helps reset the nose. Timing matters: mid-morning, before lunch and before coffee, tends to give the most reliable results.</p>"
+  ],
+  [
+   "Signs your panel is tired",
+   "<p>Look at the data as well as the people. Fatigue shows up as:</p><ul><li>Scores bunching towards the middle of the scale, with fewer high or low marks.</li><li>Panellists failing to find a known reference or a duplicate sample late in the session.</li><li>More disagreement between panellists on the later samples than on the earlier ones.</li><li>Comments getting shorter or vaguer as the session goes on.</li></ul><p>A useful check is to include a known control or duplicate sample at the end. If your panel cannot match it to its twin, the later scores from that session should be treated with caution.</p><p>Track this over time. Log each panellist's score on the duplicate pair for every session. A taster whose duplicates drift apart late in sessions is telling you their personal limit. Some people stay sharp through eight samples. Others start to drift after five. Plan sessions around the panel you actually have, not an ideal one.</p>"
+  ],
+  [
+   "Building the right habits",
+   "<p>Write fatigue into the schedule. Set a maximum sample count per session for each type of beer. Keep a fixed time of day. Make the cleansers and breaks standard rather than optional. Rotate panellists so the same people are not tasting every batch every day.</p><p>Our guide to <a href=\"training-your-palate.html\">training your palate</a> covers the individual side. Trained tasters do not avoid fatigue, but they tend to recognise when it has set in. On a brewery floor, that awareness is worth a lot: a tired panel that knows it is tired is safer than a confident one that does not. Designing sessions that respect fatigue is one of the practical skills we cover in depth.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many beers can a panel taste in one session?",
+   "For mild beers, around six to eight samples is a common ceiling. For intense beers like IPAs or sours, plan fewer. Split larger jobs into separate sessions."
+  ],
+  [
+   "Does spitting prevent palate fatigue?",
+   "It reduces alcohol intake, which helps, but sensory adaptation still happens. Small samples, breaks and good ordering matter as much."
+  ],
+  [
+   "What is the best time of day for a tasting panel?",
+   "Mid-morning tends to work well, before lunch and before strong coffee. Tasters are alert and their palates are clean."
+  ]
+ ],
+ "cta": {
+  "title": "Design tasting sessions your data can trust",
+  "body": "Our Sensory Evaluation course runs for two weeks, live online at weekends, for ₹5,999. It covers panel design, sample order, fatigue and how to read scores, so your release tasting stays reliable to the last sample.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "training-your-palate",
+  "beer-flight-guide",
+  "running-a-sensory-panel"
+ ]
+}

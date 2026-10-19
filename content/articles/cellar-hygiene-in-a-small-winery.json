@@ -1,0 +1,63 @@
+{
+ "slug": "cellar-hygiene-in-a-small-winery",
+ "cat": "Wine",
+ "h1": "Cellar hygiene in a small winery: stopping spoilage before it starts",
+ "title": "Cellar Hygiene in a Small Winery | Craft Beer School",
+ "desc": "A practical cellar hygiene routine for small wineries: cleaning versus sanitising, barrels, hoses, SO2 and the spoilage organisms to stop.",
+ "teaser": "Most wine spoilage starts in a hose, a valve or a barrel nobody cleaned properly.",
+ "standfirst": "Spoilage in a small winery rarely comes from the grapes. It comes from equipment, topping habits and sulphur dioxide that was never measured. Here is the routine we would set up first.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What you are fighting",
+   "<p>Three groups of microbes cause most cellar spoilage.</p><ul><li><strong>Acetic acid bacteria.</strong> They need oxygen and turn alcohol into acetic acid, the vinegar smell. They thrive in part-filled tanks and barrels.</li><li><strong>Brettanomyces.</strong> A yeast that lives in wood, in scratched gaskets and in any dead spot where wine pools. It gives barnyard, sticking plaster and smoky aromas. Once it is in a barrel it is very hard to remove.</li><li><strong>Lactic acid bacteria.</strong> Useful when you want malolactic fermentation. Unwanted strains cause mousiness, haze and off aromas, especially in low-acid wines.</li></ul><p>Our guide to <a href=\"wine-faults-for-quality-teams.html\">wine faults</a> describes what each of these tastes like in the glass.</p>"
+  ],
+  [
+   "Cleaning and sanitising are two different jobs",
+   "<p>Cleaning removes soil: tartrate, pulp, yeast and protein. Sanitising kills what is left. A sanitiser on a dirty surface does very little, because the soil protects the microbes underneath.</p><p>The standard sequence for tanks, pumps and lines is:</p><ol><li>Rinse with water to remove loose solids.</li><li>Clean with an alkaline cleaner to lift tartrate and organic soil.</li><li>Rinse well.</li><li>Neutralise with a citric acid rinse, which also brightens stainless steel.</li><li>Sanitise just before use, commonly with peracetic acid or an SO2 and citric solution.</li></ol><p>One rule surprises brewers moving into wine: keep chlorine-based cleaners out of the winery. Chlorine can react with phenols in wood, cardboard and rubber to form chloroanisoles such as TCA, the compound behind cork taint. A whole cellar can pick up that musty note from the building itself.</p>"
+  ],
+  [
+   "Hoses, valves and fittings",
+   "<p>Tanks are easy to see. The trouble hides in the hoses, valve bodies, gaskets and pump heads. Wine sits in them between jobs and a thin film forms that a quick rinse never removes.</p><ul><li>Strip valves and gaskets on a fixed schedule and replace cracked or hardened seals.</li><li>Clean and sanitise hoses after every transfer, then hang them to drain fully.</li><li>Cap hose ends so dust and fruit flies stay out.</li><li>Use a separate set of hoses for finished wine and for juice or lees where you can. Lees and juice carry far more microbes.</li><li>Keep a written log. If a problem appears in one tank, you can trace which hose and pump touched it.</li></ul>"
+  ],
+  [
+   "Barrels need their own routine",
+   "<p>Wood cannot be sanitised the way steel can. Microbes live a few millimetres into the staves. What you can do is keep barrels full, clean and stored correctly.</p><ul><li>Rinse emptied barrels with hot water until it runs clear. Many cellars use water around 80 °C or low-pressure steam.</li><li>Store empty barrels dry with a measured sulphur burn, repeated every few weeks, or full with an SO2 and citric holding solution.</li><li>Top up full barrels regularly. In Indian heat evaporation is faster and the headspace grows quickly.</li><li>Isolate any barrel that shows Brett aromas and do not move it between wines.</li></ul>"
+  ],
+  [
+   "Sulphur dioxide is part of hygiene",
+   "<p>SO2 protects wine against oxidation and microbes, but only the free, molecular form does the work. How much molecular SO2 you get from a given free SO2 depends on pH. At pH 3.3 you need far less free SO2 than at pH 3.8. Many winemakers aim for around 0.5 mg/L molecular SO2 in reds and about 0.8 mg/L in whites.</p><p>Measure pH as well, since it moves after malolactic fermentation and after acid adjustments. Measure free SO2 regularly, after every addition and before bottling. A small winery can do this with an aeration-oxidation kit. Adding by habit without measuring is how wines end up either unprotected or tasting of burnt matches.</p>"
+  ],
+  [
+   "A weekly routine for a small cellar",
+   "<ul><li>Check and top up every barrel and part-filled tank.</li><li>Measure free SO2 on wines in tank and barrel, then adjust.</li><li>Taste each lot briefly and note any change.</li><li>Clean floors and drains, which breed fruit flies and acetic bacteria.</li><li>Review the cleaning log for missed jobs.</li></ul><p>Fruit flies deserve a special mention. They carry acetic acid bacteria from waste to wine, so keep pomace and lees bins covered and well away from the cellar door during harvest. The same thinking runs a brewery quality system, as our <a href=\"quality-system-for-a-small-brewery.html\">quality system guide</a> shows. What changes in a winery is that you get one harvest a year, so a spoiled tank cannot be rebrewed next week.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why avoid chlorine in a winery?",
+   "Chlorine can react with phenols in wood, cardboard and rubber to form chloroanisoles such as TCA. These give a musty, cork-taint character and can contaminate a whole cellar."
+  ],
+  [
+   "How often should barrels be topped up?",
+   "Check them at least weekly, more often in hot weather. Indian heat increases evaporation, so headspace grows faster than in cooler wine regions."
+  ],
+  [
+   "Can Brettanomyces be removed from a barrel?",
+   "Rarely completely, because it lives inside the wood. Hot water and steam reduce it, but a heavily infected barrel is usually best retired."
+  ]
+ ],
+ "cta": {
+  "title": "Keep spoilage out of your first vintages",
+  "body": "Our two-week Winemaking course, online or in person, covers fermentation, SO2 management, cellar hygiene and bottling with the practical routines this guide can only outline.",
+  "label": "See the full syllabus",
+  "href": "winemaking-course.html"
+ },
+ "related": [
+  "wine-faults-for-quality-teams",
+  "quality-system-for-a-small-brewery",
+  "planning-a-small-winery-in-india"
+ ]
+}

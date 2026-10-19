@@ -1,0 +1,67 @@
+{
+ "slug": "boiling-wort-at-altitude-in-a-hill-station-brewpub",
+ "cat": "Brewing science",
+ "h1": "Boiling wort at altitude in a hill station brewpub",
+ "title": "Boiling Wort at Altitude | Craft Beer School",
+ "desc": "Why wort boils below 100 °C in the hills, what that does to hop bitterness, DMS and hot break. How a hill station brewpub can compensate.",
+ "teaser": "Up at 2,000 metres your kettle boils at about 93 °C. Your hops and your DMS both notice.",
+ "standfirst": "A brewpub in Shimla, Ooty or Darjeeling boils its wort several degrees cooler than one in Mumbai. That changes hop utilisation, DMS removal and break formation. None of it is a reason not to brew in the hills, but recipes need adjusting.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why water boils cooler at altitude",
+   "<p>Water boils when its vapour pressure matches the air pressure around it. Higher up, air pressure is lower, so water boils at a lower temperature. A handy rule is a drop of roughly 1 °C for every 300 metres of altitude.</p><p>So a brewpub at sea level boils at about 100 °C. At 1,500 metres it is close to 95 °C. At around 2,200 metres, the height of several Indian hill stations, it is near 93 °C. Turning the burner up does not change this. More heat gives a more vigorous boil and more evaporation, not a hotter one.</p>"
+  ],
+  [
+   "Hop bitterness drops",
+   "<p>Bitterness comes from alpha acids isomerising into iso-alpha acids during the boil, a reaction that slows as temperature falls. Several degrees cooler means noticeably less isomerisation in the same time. A recipe brought up from the plains will come out less bitter than intended. Our guide to <a href=\"alpha-acids-explained.html\">alpha acids</a> covers the chemistry.</p><p>The fixes are simple. Increase bittering hop additions, extend the boil a little, or both. Most recipe software has an altitude or boil temperature setting. Use it as a starting point and then measure. If you can send beer for an IBU test once or twice, you will know your real utilisation rather than a calculated guess.</p>"
+  ],
+  [
+   "DMS needs more attention",
+   "<p>Pale malts carry S-methyl methionine, which heat converts into dimethyl sulphide, the cooked sweetcorn aroma. A vigorous open boil drives DMS off. The conversion is temperature dependent and slower at lower temperatures, so more precursor can survive a cooler boil and turn into DMS later, in the whirlpool or while the wort cools.</p><p>Keep the boil rolling and uncovered. Consider a slightly longer boil for very pale beers such as pilsners and light lagers. Cool the wort quickly after the whirlpool. See <a href=\"what-happens-during-the-boil.html\">what happens during the boil</a> for the full picture.</p>"
+  ],
+  [
+   "Hot break and evaporation",
+   "<p>Protein coagulation, the hot break, also runs more slowly at a lower boil temperature. Give it time and watch the wort in a sample glass. You should see clear wort with distinct flocs.</p><p>Evaporation rate changes too. It also depends on the kettle shape, the heat input and the local humidity. Do not copy the evaporation figure from a plains recipe. Measure your own over a few brews. The <a href=\"boil-evaporation-rate.html\">boil evaporation rate</a> guide explains how.</p><p>Expect the boil to look less violent at the same gas or steam setting. Plan heat input accordingly. A gentle simmer at 93 °C does far less work than a rolling boil at the same temperature.</p>"
+  ],
+  [
+   "Thermometers, gauges and carbonation",
+   "<p>The floor detail that trips people up: the boiling water calibration check. Many brewers check thermometers by dipping them in boiling water and expecting 100 °C. In a hill station that check should read about 93 °C. A brewer who \"corrects\" a good thermometer to read 100 °C at altitude has just made every mash temperature wrong by several degrees.</p><p>Pressure gauges usually read pressure above the local atmosphere. Carbonation charts assume sea level atmospheric pressure. At altitude, set a little more gauge pressure to reach the same CO2 volumes, or use a chart or calculator that accounts for altitude. Measure carbonation in the finished beer to confirm.</p>"
+  ],
+  [
+   "Fermentation and the rest of the process",
+   "<p>Yeast does not much care about altitude. Fermentation, conditioning and serving work as they would anywhere else. Hill stations have a real advantage here: cooler ambient temperatures make temperature control easier and cheaper than on the plains.</p><p>Mash chemistry is also unaffected. Enzymes respond to temperature, not air pressure, so mash rests stay the same. Only processes that rely on boiling change.</p><p>What changes most is the need to know your own numbers rather than borrow someone else's. Brewing outside textbook conditions is where a deeper grasp of boil chemistry pays for itself.</p><p>Water supply in hill towns brings its own questions. Spring and municipal water in the hills is often soft and low in minerals, quite unlike the hard borewell water many plains brewers fight with. Test it before assuming your plains water treatment will carry over. Soft water can make it hard to reach mash pH targets for pale beers without some calcium additions.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "At what temperature does water boil at 2,000 metres?",
+   "Roughly 93 to 94 °C. A common rule of thumb is a drop of about 1 °C for every 300 metres above sea level."
+  ],
+  [
+   "Do I need more hops when brewing at altitude?",
+   "Usually for bittering, yes. A cooler boil isomerises alpha acids more slowly, so increase bittering additions or extend the boil and measure the result."
+  ],
+  [
+   "Does altitude affect mash temperatures?",
+   "No. Mash enzymes respond to temperature, not air pressure. Only boiling related processes change."
+  ],
+  [
+   "Should I calibrate my thermometer to 100 °C in boiling water?",
+   "Not at altitude. Boiling water at 2,000 metres is about 93 °C, so a thermometer reading 100 °C there is wrong."
+  ]
+ ],
+ "cta": {
+  "title": "Brew to your own conditions, not a textbook's",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers boil chemistry, hop utilisation and process control so you can adapt recipes to your altitude, water and kit.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "what-happens-during-the-boil",
+  "boil-evaporation-rate",
+  "alpha-acids-explained"
+ ]
+}

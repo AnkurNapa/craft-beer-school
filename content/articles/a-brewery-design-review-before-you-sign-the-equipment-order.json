@@ -1,0 +1,67 @@
+{
+ "slug": "a-brewery-design-review-before-you-sign-the-equipment-order",
+ "cat": "Consultancy",
+ "h1": "A brewery design review before you sign the equipment order",
+ "title": "Brewery Design Review Before You Order | Craft Beer School",
+ "desc": "What a design review checks before an Indian brewery signs its equipment order: tank capacity, glycol in Indian heat, drainage, utilities and excise needs.",
+ "teaser": "The equipment quote looks complete. The question is whether the brewery it describes can make the beer you plan to sell, in a room you can actually clean.",
+ "standfirst": "Once the deposit is paid and the tanks are fabricated, every design mistake is expensive. A review of the plan before the order catches the gaps between the supplier's drawing, your sales forecast and the realities of Indian heat, water and power.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why review before the order",
+   "<p>Equipment suppliers sell good kit, but they size it to the brief they are given. If the brief is \"a 500 litre brewhouse for a brewpub\", you get a 500 litre brewhouse. Whether it has enough fermenters for your menu, whether the chiller copes with a May afternoon in Delhi or whether the floor drains where the tanks will be cleaned is often left for later. Later is when changes cost the most.</p><p>In consulting work we often see the same pattern: the brewhouse was chosen carefully, while cooling, drainage and tank count were treated as details. Our guides to the <a href=\"brewery-equipment-buying-guide.html\">brewery equipment buying guide</a> and <a href=\"brewhouse-size-guide.html\">brewhouse sizing</a> cover the buying side. A design review checks that the pieces fit together.</p>"
+  ],
+  [
+   "Tank capacity against your menu",
+   "<p>Brewhouse size sets how much you can brew in a day. Fermenters and bright tanks set how much you can sell in a month. Work it out from the menu:</p><ul><li>An ale typically spends around two to three weeks in a fermenter from brew to ready.</li><li>A lager needs longer, often four to six weeks with cold conditioning.</li><li>Bright tanks or serving tanks hold finished beer until it is poured or packaged.</li></ul><p>Multiply your expected weekly sales of each beer by its tank time. If most of your menu is lager, you may need far more fermenter capacity than the brewhouse size suggests. Short tank time is one of the commonest reasons brewpubs rush beer out before it is ready.</p>"
+  ],
+  [
+   "Cooling sized for Indian heat",
+   "<p>Glycol chillers are rated at a stated ambient temperature. A unit whose condenser sits on a roof in north or central India can face air well above 40 °C in summer, where its real capacity is lower than the brochure figure. Size the chiller for the worst day, with every fermenter in active fermentation and one tank crash cooling at the same time. Check the derating at your site's peak ambient, the condenser position and whether a buffer tank is included. Insulate every glycol line. A chiller that cannot hold lager temperatures in May costs more than the price difference to a larger unit.</p>"
+  ],
+  [
+   "Drainage, floors and the room",
+   "<p>A brewery is a wet room. The floor needs a steady fall to trench drains, commonly around 1 to 2 percent, with drains placed where tanks are cleaned and the brewhouse is emptied. Floors must resist hot caustic and acid. Ceiling height must allow for the tallest tank plus room to open the top manway and reach any CIP arm. Door and corridor widths must allow the largest tank in and out again if it ever needs replacing.</p><p>Our guide to <a href=\"brewpub-layout-kitchen-brewhouse-bar.html\">brewpub layout</a> covers how the brewhouse, kitchen and bar share space. In the review, walk the path of grain in, spent grain out, kegs in and out and effluent to the treatment plant. If any route crosses the dining room, rethink it now.</p>"
+  ],
+  [
+   "Utilities that match the kit",
+   "<ul><li><strong>Power.</strong> An electric brewhouse plus a chiller can need a large sanctioned load. Confirm with the distribution company before the order, since upgrades take time.</li><li><strong>Steam.</strong> A steam-heated brewhouse needs a boiler. Boilers above certain sizes need registration and inspection by the state boiler inspectorate.</li><li><strong>Water.</strong> Daily volume, quality and treatment, from borewell, municipal or tanker supply.</li><li><strong>Effluent.</strong> Space and budget for a treatment plant and the pollution control board consent.</li><li><strong>Compressed air and CO2</strong> for valves, transfers and dispense.</li></ul>"
+  ],
+  [
+   "Excise and safety requirements",
+   "<p>Some states set specific requirements for brewery premises, such as metering, sealable tanks, registers or layouts that excise officers can inspect. These vary by state and change, so ask your licensing consultant what the current rules require and check the design against them before fabrication. Safety belongs in the drawing too: CO2 monitoring in enclosed fermentation rooms, guards on the mill, dust control in the grain area and safe access to tank tops.</p>"
+  ],
+  [
+   "What a design review produces",
+   "<p>A good review ends with a written list of changes to the order and the building, ranked by cost of fixing now against cost of fixing later. Typical items are an extra fermenter, a larger chiller, relocated drains or a different heating choice. The floor detail that matters most is often small: a single missing drain beside the fermenters means every tank clean floods the cellar floor for the life of the brewery.</p><p>We lead these reviews with Rahul Baliyan on brewing and process design and Ankur Napa on capacity planning, costing and quality systems.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "When should a brewery design review happen?",
+   "Before the equipment order is signed and before civil work starts, while changes still cost little."
+  ],
+  [
+   "How do I know if I have enough fermenters?",
+   "Multiply expected weekly sales of each beer by its tank time. Lager-heavy menus need much more fermenter capacity than ale-heavy ones."
+  ],
+  [
+   "Does Indian heat affect glycol chiller sizing?",
+   "Yes. Chillers lose capacity at high ambient temperatures, so size for your site's hottest days with all tanks working."
+  ]
+ ],
+ "cta": {
+  "title": "Get your plan reviewed before you pay the deposit",
+  "body": "We start with a brewery health check of your plans, quotes and site, then give you a written action plan with the changes to make before you order.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "brewery-equipment-buying-guide",
+  "brewpub-layout-kitchen-brewhouse-bar",
+  "brewhouse-size-guide"
+ ]
+}

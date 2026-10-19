@@ -1,0 +1,63 @@
+{
+ "slug": "a-water-treatment-audit-for-breweries-on-borewell-or-tanker",
+ "cat": "Consultancy",
+ "h1": "A water treatment audit for breweries on borewell or tanker water",
+ "title": "Water Audit: Borewell and Tanker | Craft Beer School",
+ "desc": "How to audit water treatment in an Indian brewery on borewell or tanker water: what to test, RO and carbon checks and keeping brewing water consistent.",
+ "teaser": "Your recipe is the same every week. Your water may not be, especially if it arrives in a tanker.",
+ "standfirst": "Indian breweries on borewell or tanker water face hard, variable and sometimes contaminated supply. A water treatment audit checks the source, the treatment train and the brewing water at the end, so the beer stops changing with the season.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why water deserves an audit",
+   "<p>Water is most of every beer. Its mineral content affects mash pH, hop character, yeast health and how the beer tastes. Our guide to <a href=\"brewing-water-basics.html\">brewing water basics</a> explains the chemistry.</p><p>Many Indian breweries cannot rely on a consistent municipal supply. Borewell water is often hard, with high dissolved solids. It can carry iron, manganese, nitrate or fluoride depending on the region. Tanker water can come from different sources from one load to the next. A brewery that treats water once at commissioning and never checks again will see its beer drift.</p>"
+  ],
+  [
+   "Test the source properly",
+   "<p>Start with a full laboratory analysis of each source, from an accredited lab, at more than one time of year. Monsoon and dry season borewell water can differ. Ask for:</p><ul><li>pH, total dissolved solids and alkalinity (as calcium carbonate).</li><li>Calcium, magnesium, sodium, chloride and sulphate.</li><li>Iron and manganese.</li><li>Nitrate and fluoride.</li><li>Free chlorine and chloramine, for treated supplies.</li><li>Microbiological tests, including coliforms.</li></ul><p>For pale beers, brewers generally want low alkalinity, with calcium somewhere around 50 to 150 mg/L. Iron should be very low, ideally below about 0.1 mg/L, because it brings metallic flavours and harms yeast and haze stability. Manganese should be lower still. Compare your results against these ranges and against the standard for drinking water.</p><p>Fluoride and nitrate deserve attention in their own right. Neither is removed by a carbon filter. High fluoride is a known problem in groundwater in several parts of India. RO removes most of both, which is one reason so many Indian breweries end up treating borewell water through RO whatever the beer style.</p>"
+  ],
+  [
+   "Tanker water needs a check on every load",
+   "<p>If you depend on tankers, treat each load as a new source until proven otherwise. A simple incoming check takes minutes:</p><ol><li>Measure TDS with a calibrated meter and compare it with your usual range.</li><li>Check pH.</li><li>Test for chlorine with a test kit.</li><li>Smell and look at the water for odour, colour or sediment.</li></ol><p>Reject loads outside your range. Ask the supplier to tell you the source and to use a clean, dedicated tanker. Clean and disinfect your own storage sump and overhead tanks on a schedule, because a biofilm in a warm sump can spoil good water.</p>"
+  ],
+  [
+   "Audit the treatment train stage by stage",
+   "<p>Most brewery treatment trains combine several stages. Each has its own checks:</p><ul><li><strong>Sediment and iron removal filters.</strong> Backwash schedule followed? Iron in the outlet water? Iron fouls RO membranes quickly, so this stage protects the rest.</li><li><strong>Activated carbon.</strong> Removes chlorine and organics. Test for chlorine after the carbon bed. Any reading means the carbon is exhausted or contact time is too short. Chloramine needs longer contact or catalytic carbon.</li><li><strong>Reverse osmosis.</strong> Log feed and permeate TDS daily. A falling rejection percentage means membranes are fouling or failing. Check antiscalant dosing and pressures against the manufacturer's figures.</li><li><strong>UV.</strong> Lamps lose output with age, so replace them on the hours the manufacturer specifies and clean the quartz sleeve.</li></ul><p>Our guides to <a href=\"ro-water-for-brewing.html\">RO water for brewing</a> and <a href=\"treating-borewell-water-for-brewing.html\">treating borewell water</a> cover how each stage works.</p>"
+  ],
+  [
+   "Rebuild the water you want",
+   "<p>RO water is close to pure and has almost no minerals. Brewing with it straight gives thin beer and can starve yeast of calcium. Add minerals back to a target profile for each beer, usually with calcium chloride and calcium sulphate (gypsum), weighed precisely per batch. Write the target profile into the recipe, not just the salt additions, so a change of RO performance is noticed.</p><p>Some breweries blend a measured share of treated raw water back into the RO permeate instead of adding salts. That works only while the raw water stays steady. On tanker supply it rarely does, so salt additions to pure RO water are the more predictable route.</p><p>A floor detail that saves money: RO plants reject a large share of their feed water. Collect the reject in a separate tank and use it for floor washing or the first rinse in cleaning, where minerals do not matter.</p>"
+  ],
+  [
+   "What the audit produces",
+   "<p>A useful audit ends with a water specification for each beer, a testing schedule for every stage, a log sheet and a maintenance calendar for filters, membranes and lamps. It also answers a practical question: is your treatment train right for your source, or is it fighting water it was never designed for?</p><p>Rahul Baliyan leads the brewing side of these audits and Ankur Napa the testing, data and quality systems. Your team ends up running the checks without us.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What should I test in borewell water for brewing?",
+   "pH, TDS, alkalinity, calcium, magnesium, sodium, chloride, sulphate, iron, manganese, nitrate, fluoride and microbiology, at more than one time of year."
+  ],
+  [
+   "How do I know if my RO membranes are failing?",
+   "Log feed and permeate TDS daily. A steady fall in rejection percentage means the membranes are fouling or failing."
+  ],
+  [
+   "Can I brew with RO water directly?",
+   "It is usually too low in minerals. Add calcium salts back to a target profile for each beer."
+  ]
+ ],
+ "cta": {
+  "title": "Make your brewing water consistent",
+  "body": "We audit your water source, treatment train and brewing water, then set specifications and a testing routine. Rahul leads on brewing and Ankur on testing and quality systems, so your team can keep the water steady without outside help.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "treating-borewell-water-for-brewing",
+  "ro-water-for-brewing",
+  "brewing-water-basics"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "low-oxygen-brewing-and-whether-wort-oxidises-in-the-mash",
+ "cat": "Brewing science",
+ "h1": "Low oxygen brewing and whether wort oxidises in the mash",
+ "title": "Low oxygen brewing and the mash | Craft Beer School",
+ "desc": "What low oxygen brewing claims, what actually happens to wort in the mash and which steps make sense for a small brewery.",
+ "teaser": "Some brewers swear that mash oxygen ruins fresh malt flavour. The chemistry says they are partly right.",
+ "standfirst": "Low oxygen brewing tries to keep oxygen out of the mash and lauter. We look at what the mash chemistry supports, where the evidence is thin and which steps small breweries can take without new kit.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What low oxygen brewing is",
+   "<p>Low oxygen brewing is a set of methods aimed at keeping oxygen out of the hot side of brewing, especially mashing in and lautering. Its supporters say beers made this way have brighter, fresher malt character that lasts longer.</p><p>Methods include using deaerated water, underletting the mash, gentle mixing, adding antioxidants such as sodium metabisulphite, using mash caps and avoiding splashing transfers.</p>"
+  ],
+  [
+   "What happens to wort in the mash",
+   "<p>Several reactions can occur when oxygen meets mash:</p><ul><li><strong>Lipid oxidation.</strong> The enzyme lipoxygenase (LOX) from malt oxidises lipids such as linoleic acid. These products are precursors for staling aldehydes like trans-2-nonenal.</li><li><strong>Polyphenol oxidation.</strong> Oxygen reacts with polyphenols, darkening wort slightly and changing its antioxidant capacity.</li><li><strong>Thiol oxidation.</strong> Thiol groups in proteins oxidise and form bridges, which can affect lautering and foam.</li></ul><p>These reactions are real and documented in brewing research. The question is how much they matter in finished beer. Our guide to <a href=\"beer-staling-chemistry.html\">beer staling chemistry</a> covers how staling compounds form.</p>"
+  ],
+  [
+   "When oxidation is strongest",
+   "<p>LOX is most active at lower mash temperatures, close to typical mash-in temperatures of around 45 to 55 °C. It is heat sensitive and loses most of its activity once the mash is well above the low 60s °C.</p><p>That makes the first minutes of mashing in the most sensitive point. Oxygen dissolved in the brewing water and air trapped in the grist are the main sources at this stage.</p><p>Mash pH also affects these reactions. Our guide to <a href=\"mash-ph-explained.html\">mash pH</a> explains why most brewers target about 5.2 to 5.6.</p>"
+  ],
+  [
+   "What the evidence supports",
+   "<p>Large brewery studies show that lowering oxygen in the brewhouse can improve flavour stability in packaged beer. They also often reduce oxygen across the cold side at the same time, which makes it hard to separate the effects.</p><p>Claims that low oxygen methods transform the flavour of fresh beer are harder to test, as they rely on tasting rather than controlled trials. Some brewers report clear differences. Others notice little.</p><p>The honest answer is that mash oxidation is real chemistry with a size that depends on the beer, the shelf life and every other oxygen source in the process.</p>"
+  ],
+  [
+   "Steps small brewers can take",
+   "<p>Some low oxygen habits are simple and cheap:</p><ul><li>Underlet the mash by adding water from below rather than dropping grain into a stirred vessel.</li><li>Mix gently once the mash is wetted.</li><li>Keep the grant inlet below the liquid surface.</li><li>Pump wort to the kettle from the bottom.</li><li>Avoid leaving hot wort in open, half-filled vessels.</li></ul><p>One brewhouse-floor detail: on many small brewhouses, the hydrator at the base of the grist chute sprays water into falling grain, which can trap air. Running it at the flow rate the fabricator recommends rather than at full blast reduces foaming and air pickup.</p>"
+  ],
+  [
+   "Steps that need more thought",
+   "<p>Other methods need care:</p><ul><li><strong>Deaerated water.</strong> Boiling or sparging water with gas removes oxygen, but adds energy cost and time.</li><li><strong>Antioxidant additions.</strong> Sodium metabisulphite is used by some low oxygen brewers. Check whether it is allowed under your local food rules. Note that sulphite must be declared on labels in many markets.</li><li><strong>Mash caps and sealed vessels.</strong> These need equipment changes and careful cleaning.</li></ul><p>These make most sense for breweries chasing long shelf life in packaged beer. Even then, start only after cold side oxygen is under control.</p>"
+  ],
+  [
+   "Fresh beer versus packaged beer",
+   "<p>The case for low oxygen methods is strongest for packaged beer that must stay fresh for months. Staling builds slowly. Small differences in precursors can show up late in shelf life.</p><p>For draught beer sold fresh in a brewpub within a few weeks, the effect is smaller. The beer is often drunk before mash-derived staling has time to develop. That changes the cost-benefit sum for a small brewery.</p><p>If you package beer for distribution, run forced ageing tests on beers made with and without simple low oxygen steps. That gives you evidence specific to your brewhouse.</p>"
+  ],
+  [
+   "Where to start",
+   "<p>Before changing the mash, measure packaged dissolved oxygen and run forced ageing tests. If packaged oxygen is high, fix that first. Cold side oxygen is far more damaging, since there is no yeast left to scavenge it. Our guide to <a href=\"wort-aeration-and-oxygen.html\">wort aeration and oxygen</a> covers where oxygen is wanted and where it is not.</p><p>In Indian conditions, where packaged beer often sits warm, both hot side and cold side oxygen matter. But a brewery's oxygen budget should be ranked by data, not by forum enthusiasm. That ranking is one of the more valuable skills a brewer can learn.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does wort oxidise in the mash?",
+   "Yes, to some extent. Malt lipoxygenase oxidises lipids at mash-in temperatures. Oxygen also reacts with polyphenols and thiols. How much this matters in finished beer depends on the rest of the process."
+  ],
+  [
+   "Is low oxygen brewing worth it for a brewpub?",
+   "Simple steps such as underletting and gentle mixing are worth doing. Bigger changes make sense only after cold side oxygen is under control."
+  ],
+  [
+   "Can I use sodium metabisulphite in the mash?",
+   "Check your local food additive rules first. Sulphite must be declared on labels in many markets."
+  ]
+ ],
+ "cta": {
+  "title": "Rank your brewery's oxygen risks with data",
+  "body": "Advanced Brewing Science is a 6 week live course on mash chemistry, oxygen and flavour stability, with the measurements that tell you which fix matters most. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-staling-chemistry",
+  "mash-ph-explained",
+  "wort-aeration-and-oxygen"
+ ]
+}

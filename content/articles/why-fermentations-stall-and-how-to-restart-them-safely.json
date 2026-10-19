@@ -1,0 +1,63 @@
+{
+ "slug": "why-fermentations-stall-and-how-to-restart-them-safely",
+ "cat": "Brewing science",
+ "h1": "Why fermentations stall and how to restart them safely",
+ "title": "Restarting a stalled fermentation | Craft Beer School",
+ "desc": "How to tell a stuck fermentation from an unfermentable wort, the common causes of stalls and the safe order of steps to restart one.",
+ "teaser": "Gravity has stopped and it is nowhere near target. Before you add anything, work out whether it is stuck at all.",
+ "standfirst": "A fermentation that stalls above its target gravity costs time, flavour and sometimes a batch. The fix depends on the cause. So the first job is diagnosis, then a restart that does not create a new problem.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "First, is it really stuck?",
+   "<p>A high final gravity is not always a stuck fermentation. If the mash ran hot or the grist had a lot of crystal malt, the wort may simply have fewer fermentable sugars. Yeast cannot ferment what is not there.</p><p>The test is a forced fermentation. Take a sample of the wort or beer, add a generous amount of active yeast and hold it warm, around 25 °C, with shaking, for a day or two. The gravity it reaches is the limit of attenuation. If the tank sits at that number, nothing is stuck. If the tank is well above it, there is fermentable sugar left and the yeast has stopped. Our guide to <a href=\"reading-a-fermentation-curve.html\">reading a fermentation curve</a> shows what a normal profile looks like.</p>"
+  ],
+  [
+   "The usual causes",
+   "<ul><li><strong>Too little healthy yeast.</strong> Low pitch rates or poor viability leave too few cells to finish. See our guide to <a href=\"pitching-yeast-properly.html\">pitching yeast properly</a>.</li><li><strong>Too little oxygen at pitching.</strong> Yeast needs oxygen to build sterols for healthy membranes. Commonly quoted targets are around 8 to 10 mg/L dissolved oxygen for standard gravity worts, more for high gravity.</li><li><strong>Nutrient shortage.</strong> Low zinc or low free amino nitrogen (FAN), common in high adjunct worts. Our guide to <a href=\"yeast-nutrition-zinc-and-fan.html\">zinc and FAN</a> gives typical ranges.</li><li><strong>Temperature drop.</strong> A glycol valve that overshoots, or a cold night in an uninsulated tank, can drop a lager strain to near dormancy and an ale strain into flocculation.</li><li><strong>Early flocculation.</strong> Highly flocculent strains can drop out before they finish, especially in low calcium wort.</li><li><strong>High gravity and alcohol.</strong> Strong worts stress yeast. Above the strain's tolerance, fermentation slows sharply.</li></ul>"
+  ],
+  [
+   "Restarting safely: the order of steps",
+   "<ol><li><strong>Raise the temperature a little.</strong> Two or three degrees within the strain's range often wakes yeast up. Do not jump to ale temperatures with a lager, as you trade the stall for esters.</li><li><strong>Rouse the yeast.</strong> In a cylindroconical tank, push sterile CO2 gently into the cone to lift settled yeast back into suspension. Avoid air.</li><li><strong>Add fresh, active yeast.</strong> If rousing fails, add yeast that is already fermenting, not a dormant slurry. Krausen from a healthy fermentation of the same beer is ideal, because those cells are already working in alcohol.</li><li><strong>Check again after 24 to 48 hours.</strong> Measure gravity and compare with your forced fermentation limit.</li></ol>"
+  ],
+  [
+   "What not to do",
+   "<p>Do not add oxygen late in fermentation. Oxygen helps yeast at the start. Added when alcohol is present, it mostly harms flavour stability and can raise acetaldehyde. Do not add glucoamylase enzyme to force the gravity down. It changes the beer and, in unpasteurised beer, can keep working in the package. Do not add sugar in the hope of feeding the yeast. Sugar adds more work, not more yeast.</p>"
+  ],
+  [
+   "The packaging risk",
+   "<p>The most serious danger with a stalled fermentation is packaging it. Beer with fermentable sugar left will continue to ferment in kegs, cans or bottles whenever yeast is present and the beer warms up. That means over-carbonation, gushing and, in glass, bursting bottles. Never package a beer until it has reached a stable gravity on consecutive days and matches its forced fermentation limit.</p><p>If a stuck batch cannot be restarted and must be sold, the only safe routes are full yeast removal by filtration followed by pasteurisation, or blending it into a fully fermented beer and checking the blend with a forced fermentation. Both need lab checks before release.</p><p>In Indian supply chains, where packaged beer can sit warm for days, residual sugar is a real safety issue, not just a quality one.</p>"
+  ],
+  [
+   "Preventing the next one",
+   "<p>Most stalls trace back to yeast handling and wort preparation. Count cells and check viability before pitching. Measure dissolved oxygen after the chiller. Know your FAN and zinc on high adjunct brews. Keep temperature control tight, with alarms on glycol valves. Record what happened in each stall, with yeast generation, pitch rate, oxygen and temperature log, so patterns show up. A brewery that does these things rarely needs a rescue. Understanding why each one matters is the core of yeast and fermentation science.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should I wait before calling it stuck?",
+   "If gravity has not moved for two or three days and sits above the forced fermentation limit, treat it as stuck. Some lagers slow down naturally, so compare with your normal curve."
+  ],
+  [
+   "Can I use dry yeast to restart?",
+   "You can, but rehydrate it properly and ideally build it up in a small volume of fermenting wort first. Dry yeast pitched straight into alcohol often struggles."
+  ],
+  [
+   "Will a restarted beer taste different?",
+   "Sometimes. Higher temperatures and added yeast can change esters and diacetyl. Allow time for a diacetyl rest and taste before packaging."
+  ]
+ ],
+ "cta": {
+  "title": "Stop stuck fermentations before they start",
+  "body": "Advanced Brewing Science is a 6 week live course covering yeast physiology, nutrition, oxygen, pitching and fermentation control, with tools to diagnose problems in your own tanks. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "reading-a-fermentation-curve",
+  "pitching-yeast-properly",
+  "yeast-nutrition-zinc-and-fan"
+ ]
+}

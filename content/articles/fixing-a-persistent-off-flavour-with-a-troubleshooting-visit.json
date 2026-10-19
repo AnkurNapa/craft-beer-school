@@ -1,0 +1,63 @@
+{
+ "slug": "fixing-a-persistent-off-flavour-with-a-troubleshooting-visit",
+ "cat": "Consultancy",
+ "h1": "Fixing a persistent off-flavour with a troubleshooting visit",
+ "title": "Fixing a Persistent Off-Flavour | Craft Beer School",
+ "desc": "How a troubleshooting visit tracks down an off-flavour that keeps coming back: tasting, sampling along the process, data and fixing the root cause.",
+ "teaser": "If the same fault has come back three times, the obvious fix has already failed. Time to look at the whole process.",
+ "standfirst": "A persistent off-flavour is rarely a mystery ingredient. It is usually one step in the process that nobody is watching. A methodical troubleshooting visit follows the beer from mill to glass until the fault shows itself.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why some faults keep coming back",
+   "<p>Most breweries can fix a fault once. They taste butterscotch, give the next batch a longer diacetyl rest and move on. When the fault returns a month later, the team tries something else. After a few rounds people start to accept it as part of the house character.</p><p>Faults that keep coming back usually have one of three explanations. The first fix treated a symptom. The cause is intermittent, such as a valve that does not always close. Or there are two causes overlapping and fixing one hides the other for a while. All three call for the same approach: stop guessing and follow the beer.</p>"
+  ],
+  [
+   "Name the fault precisely",
+   "<p>The visit starts at the tasting bench. Taste the beer from the tap, from a fresh package and straight from the tank, with the brewing team. Agree on what the fault actually is. Butter and butterscotch point to diacetyl. Green apple is acetaldehyde. Cooked sweetcorn is DMS. Plastic or medicinal points to chlorophenols or wild yeast. Sour and cloudy suggests infection. If the team uses different words for the same thing, nothing that follows will be reliable.</p><p>Our guide to <a href=\"beer-off-flavours.html\">beer off-flavours</a> lists the common faults and their usual causes. Spiked samples help a team agree on vocabulary before the visit starts.</p>"
+  ],
+  [
+   "Sample along the process",
+   "<p>Once the fault has a name, find where it first appears. Taste and smell at each stage: wort from the kettle, wort at pitching, beer at the end of primary fermentation, after conditioning, after filtration or transfer, in the keg or package and at the tap. The point where the fault first shows up is where to look hardest.</p><p>For diacetyl, a forced test is useful. Heat a sealed sample to around 60 °C for 10 to 20 minutes, cool it and smell it next to an unheated sample. If the heated one shows butter and the cold one does not, the precursor is still present and the beer left fermentation too early. If only the tap sample shows it, look at dirty draught lines before you look at yeast.</p><p>Keep samples from each stage in sealed, labelled containers in the cold room. If tasting is inconclusive on the day, the team can come back to them with fresh palates, or send them for lab analysis.</p>"
+  ],
+  [
+   "Read the records alongside the beer",
+   "<p>Pull the brew logs and fermentation records for the last several batches, good and bad. Line them up. Look for what the faulty batches share: the same yeast generation, the same fermenter, the same brewer, a hotter week, a change of malt lot, a shortened schedule before a busy weekend. Patterns appear quickly on paper that nobody sees while living through one brew at a time.</p><p>This is the core of <a href=\"root-cause-analysis-for-brewers.html\">root cause analysis</a>: ask why the fault happened, then why that cause happened, until you reach something you can change and check. A fault blamed on yeast that turns out to come from a glycol valve sticking open on one tank is a typical outcome.</p>"
+  ],
+  [
+   "Check the equipment, not only the recipe",
+   "<ul><li>Strip and inspect valves, gaskets and sample ports on the suspect tanks. Old gaskets harbour bacteria where CIP cannot reach.</li><li>Check the probe on the fermenter against a reference thermometer.</li><li>Check CIP chemical strength, temperature and contact time against your SOP.</li><li>Test brewing water for chlorine or chloramine if the fault is medicinal. Municipal supplies in India change treatment through the year.</li><li>Clean or replace draught lines if the fault is only in the taproom.</li></ul>"
+  ],
+  [
+   "Fix one thing and prove it",
+   "<p>Change one variable at a time and brew again. If you change the yeast, the schedule and the cleaning routine in the same week, the fault may go away and you will not know why. Taste the next batch against a retained sample of the faulty one, ideally blind, so the team does not taste what it hopes to taste.</p><p>Write the fix into the SOP and add the check that would catch the fault early. The visit is finished when the team knows what to watch, not when one batch tastes right.</p><p>Keep a fault log from then on: date, beer, tank, the fault named and where in the process it was first noticed. After a few months the log becomes the most useful troubleshooting tool the brewery owns, because it shows patterns that no single tasting can.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does a troubleshooting visit take?",
+   "It depends on the fault and how good the records are. A day on site plus time reading logs and tasting retained samples is a common pattern, followed by a few batches to confirm the fix."
+  ],
+  [
+   "What should we prepare before a troubleshooting visit?",
+   "Retained samples of good and faulty batches, brew logs, fermentation records, CIP records and a list of anything that changed around the time the fault started."
+  ],
+  [
+   "Can a lab test find the cause instead?",
+   "Lab tests confirm a suspicion, such as diacetyl levels or bacterial contamination. They work best once tasting and process sampling have narrowed down where to look."
+  ]
+ ],
+ "cta": {
+  "title": "The same off-flavour keeps coming back?",
+  "body": "Our consultant brewers run troubleshooting visits that follow the beer from mill to glass, read your records and fix the root cause. Rahul Baliyan leads on brewing, Ankur Napa on quality and data. Your team keeps the checks that catch it next time.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "root-cause-analysis-for-brewers",
+  "beer-tastes-different-every-batch",
+  "diacetyl-off-flavour"
+ ]
+}

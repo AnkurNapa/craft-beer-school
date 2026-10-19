@@ -1,0 +1,63 @@
+{
+ "slug": "how-many-cans-to-test-from-a-single-canning-run",
+ "cat": "Brewing science",
+ "h1": "How many cans to test from a single canning run",
+ "title": "How many cans to test from a run | Craft Beer School",
+ "desc": "A practical sampling plan for a small canning line: seams, fill, oxygen and sensory checks, when to pull cans and how many.",
+ "teaser": "Testing one can at the start and calling it done is how bad seams reach the market. Here is a sampling plan that fits a small line.",
+ "standfirst": "There is no single magic number of cans to test. There is a plan: which checks, at which moments and how many cans each time. We lay out one that a small brewery can run with a seam gauge, a scale and an oxygen meter.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why one can is never enough",
+   "<p>A canning run is not one event. It is hundreds or thousands of small events, each one a fill and a seam. Conditions drift. The seamer warms up, CO2 pressure changes, a filler head starts to stick, an operator adjusts something after a jam. A single can at the start tells you about that one moment.</p><p>A sampling plan spreads tests across the run so drift shows up before the pallet leaves. The question is not how many cans in total, but at which points and for which defects.</p>"
+  ],
+  [
+   "The moments that need a sample",
+   "<p>Most problems appear at transitions. Pull cans at these points:</p><ul><li>Start-up, after the line is running steadily, not the very first cans.</li><li>After every jam or stop longer than a few minutes.</li><li>After any adjustment to the seamer, filler or gas settings.</li><li>When a new pallet of cans or ends is opened.</li><li>At regular intervals through a long run and at the end.</li></ul><p>On a multi-head filler, make sure samples over the run cover every head. A fault on one head will hide if you always pull from the same position.</p>"
+  ],
+  [
+   "Seam checks",
+   "<p>The double seam is the joint that keeps beer in and oxygen out. A bad seam can leak slowly, so the beer goes flat or stale in the trade.</p><p>Two levels of check are common. Visual and external checks happen often, typically every 15 to 30 minutes and after every stop: look for sharp edges, droops, cut seams and false seams. Measure seam height and thickness with a seam micrometer. Teardown checks happen less often, usually at start-up, at intervals through the shift and after any seamer adjustment. The operator strips the seam and measures body hook, cover hook and overlap, or uses a seam projector.</p><p>Use the tolerances your can and end supplier gives you. Do not copy numbers from another brewery or another can size. One brewhouse-floor detail: teardown one can from each seaming head, not just one can per check, because a worn chuck or roll on a single head is a common cause of leakers on small rotary seamers.</p>"
+  ],
+  [
+   "Fill level and oxygen",
+   "<p>Underfills are a legal problem as well as a quality one, since declared volume must be met. Weigh cans on a scale against a known empty weight, sampling a few cans from each head at start-up and at intervals. Weight checks are fast, so do more of them than you think you need.</p><p>Oxygen is the slower killer. Measure total package oxygen or dissolved oxygen on a few cans at start-up and then at intervals. Start-up cans are often high while the line settles, which is useful to know when deciding how many to discard. Our guide to <a href=\"measuring-dissolved-oxygen.html\">measuring dissolved oxygen</a> covers methods and meters.</p>"
+  ],
+  [
+   "A starting plan for a small line",
+   "<p>For a brewery running a few thousand cans a shift, a reasonable starting point looks like this:</p><ul><li>Start-up: visual seam check on every head, one teardown per head, fill weights on several cans, oxygen on two or three cans.</li><li>Every 15 to 30 minutes: visual seam check and fill weight on a few cans.</li><li>Every one to two hours: oxygen on one or two cans.</li><li>Mid-run and end: teardown per head and oxygen.</li><li>After any stop or adjustment: repeat the start-up seam and fill checks.</li><li>Retain a few cans from each run for sensory checks at intervals during shelf life.</li></ul><p>Treat this as a starting plan, not a standard. Larger breweries use formal acceptance sampling methods to set sample sizes by risk and batch size. A small brewery can adjust the plan based on what its own data shows.</p>"
+  ],
+  [
+   "Make the numbers useful",
+   "<p>Write every result on a log with time, head number and operator. Then plot seam thickness, fill weight and oxygen on a simple chart through the run. A slow upward drift in oxygen or a creeping seam height tells you something before any single reading goes out of spec. Our guide to <a href=\"control-charts-for-brewers.html\">control charts for brewers</a> shows how to set limits from your own data.</p><p>When a result fails, the plan must say what happens: stop the line, quarantine cans back to the last good check, fix the cause and recheck. Without that rule, testing is just paperwork.</p><p>The hard part is not the tests themselves. It is designing a plan that matches your line, your volumes and your risks, then keeping it honest when the shift is running late.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How often should I check double seams?",
+   "Visual and external checks commonly every 15 to 30 minutes and after any stop. Teardowns at start-up, at intervals through the shift, after adjustments and from every seaming head."
+  ],
+  [
+   "Do I need to test every filler head?",
+   "Yes, over the course of the run. A fault on one head stays hidden if you always sample from the same position."
+  ],
+  [
+   "What should I do when a can fails a check?",
+   "Stop, quarantine cans back to the last good check, fix the cause and repeat the checks before restarting."
+  ]
+ ],
+ "cta": {
+  "title": "Build a quality plan that catches drift",
+  "body": "Advanced Brewing Science is a 6 week live course that covers packaging quality, oxygen control and statistical process control, so your sampling plan rests on data. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "control-charts-for-brewers",
+  "measuring-dissolved-oxygen",
+  "quality-system-for-a-small-brewery"
+ ]
+}

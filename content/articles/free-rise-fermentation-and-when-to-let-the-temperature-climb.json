@@ -1,0 +1,67 @@
+{
+ "slug": "free-rise-fermentation-and-when-to-let-the-temperature-climb",
+ "cat": "Brewing science",
+ "h1": "Free rise fermentation and when to let the temperature climb",
+ "title": "Free Rise Fermentation Explained | Craft Beer School",
+ "desc": "When to hold fermentation cool and when to let it rise: how free rise affects esters, fusels, attenuation and diacetyl in ales, Belgian beers and lagers.",
+ "teaser": "Hold it cool early, let it climb late. The timing of a free rise matters more than the peak temperature.",
+ "standfirst": "A free rise lets fermentation warm itself up, using the heat the yeast produces. Timed well, it helps beer attenuate fully and clean up diacetyl. Timed badly, it fills beer with fusel alcohols and solvent esters. The difference is when you let go.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why fermentation warms itself",
+   "<p>Fermentation is exothermic. Yeast releases heat as it converts sugar into alcohol and CO2. A vigorous ferment in a large tank can easily run several degrees above the surrounding air. In a 1,000 litre fermenter without cooling, the beer can climb fast during the peak of activity.</p><p>Free rise means using that heat on purpose. Instead of holding a fixed temperature throughout, you let the beer warm up over part of the fermentation, then hold it or cool it.</p>"
+  ],
+  [
+   "Flavour is set early",
+   "<p>Most of the flavour compounds that make or break a beer are formed during the growth phase, roughly the first two to three days. That is when yeast multiplies and makes most of its esters and higher alcohols, often called fusel alcohols. Warm conditions during growth push both up. Fusels in particular taste hot and solventy. Our guide to <a href=\"esters-and-fusel-alcohols.html\">esters and fusel alcohols</a> explains why.</p><p>So the rule is simple. Keep the beer at or slightly below the target temperature during the first days. Let it rise only once the most active growth is over and gravity has dropped by roughly half to two thirds.</p>"
+  ],
+  [
+   "What the rise does later",
+   "<p>Later in fermentation, a rise does useful work:</p><ul><li><strong>Better attenuation.</strong> Warmer yeast stays active as sugar runs low and alcohol rises, so it finishes the job rather than dropping out early.</li><li><strong>Diacetyl clean-up.</strong> Yeast reabsorbs diacetyl faster at higher temperatures. A rise near the end works as a built-in <a href=\"diacetyl-rest.html\">diacetyl rest</a>.</li><li><strong>Acetaldehyde reduction.</strong> The green apple note also fades faster when yeast is warm and active.</li><li><strong>A faster tank turnaround.</strong> A beer that finishes cleanly a day or two earlier frees the fermenter.</li></ul>"
+  ],
+  [
+   "How far and how fast, by style",
+   "<ul><li><strong>Clean ales.</strong> Pitch around 17 to 18 °C, hold for two to three days, then let it rise to about 20 to 21 °C to finish.</li><li><strong>Belgian ales and saisons.</strong> These styles are traditionally fermented with a larger rise. Many saison strains are pitched in the low 20s and allowed to climb into the high 20s, which helps them attenuate very dry. Even here, a cooler start reduces harsh fusels.</li><li><strong>Lagers.</strong> Pitch around 8 to 10 °C and ferment cool. When gravity is within a few points of the finish, let it rise to around 13 to 16 °C for a diacetyl rest, then cool for lagering.</li><li><strong>Weizen and English ales.</strong> Temperature shapes the ester profile, so plan the rise around the flavour you want rather than speed alone.</li></ul><p>Always go up gradually. A 1 °C step a day, or a slow drift, keeps the yeast happy. A sudden jump can shock it.</p>"
+  ],
+  [
+   "Free rise is not no control in India",
+   "<p>In a European cellar at 15 °C, an uncontrolled rise is gentle. In an Indian brewery in May, the room may be 32 °C. A free rise without cooling there means the beer will keep climbing well past any sensible peak.</p><p>The floor detail: treat the glycol jacket setpoint as a ceiling, not a target. Set it to the highest temperature you are willing to allow. Let the beer climb towards it under its own heat. On a fermenter with good jacket control, you can also step the setpoint up by 1 °C each day once the growth phase is over. At home, the same idea works with a temperature controlled fridge. Our guide to <a href=\"fermentation-temperature-control-at-home.html\">fermentation temperature control at home</a> covers equipment.</p><p>Measure the beer, not the room. A probe in a thermowell inside the fermenter, or taped against the side under insulation, tells you what the yeast is experiencing.</p>"
+  ],
+  [
+   "When not to free rise",
+   "<p>Skip or limit the rise when the yeast is stressed or under-pitched, when you want a very clean, crisp profile, or when the strain is known for producing fusels at higher temperatures. A rise also cannot fix a fermentation that got too warm early. Once fusels form, they stay.</p><p>Record the temperature curve for every batch alongside the gravity curve. Compare those curves with how the beers taste. Patterns appear quickly. They are specific to your yeast and your tanks. Reading them and designing a temperature plan that delivers the flavour you want is where fermentation science becomes a working tool.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is free rise fermentation?",
+   "Letting a fermentation warm up under its own heat over part of the process, usually after the early growth phase, rather than holding a fixed temperature."
+  ],
+  [
+   "When should I let fermentation temperature rise?",
+   "After the most active growth is over, typically when gravity has dropped by about half to two thirds, usually two to three days in for ales."
+  ],
+  [
+   "Does a free rise help with diacetyl?",
+   "Yes. Yeast reabsorbs diacetyl faster when warm, so a rise near the end of fermentation acts as a diacetyl rest."
+  ],
+  [
+   "Can I free rise a lager?",
+   "Yes, late in fermentation. Many brewers let a lager rise to about 13 to 16 °C near the end for a diacetyl rest, then cool it."
+  ]
+ ],
+ "cta": {
+  "title": "Plan fermentations that taste the way you intend",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers yeast metabolism, flavour formation and temperature control so you can design a fermentation plan for each beer.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "esters-and-fusel-alcohols",
+  "fermentation-temperature-control-at-home",
+  "diacetyl-rest"
+ ]
+}

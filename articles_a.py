@@ -4,7 +4,7 @@
 All prose here is original. Reference material in the vault (vendor datasheets,
 third party fault guides, licensed formulation tables, scraped recipe sets) was
 used only as background reading. No dataset, spec table or recipe from any of
-it is reproduced, and no source is named, because this is a commercial site.
+it is reproduced. No source is named, because this is a commercial site.
 """
 
 ENROL = "contact.html#enroll"
@@ -17,7 +17,7 @@ WHAT_IS_CRAFT_BEER = dict(
     title="What Is Craft Beer? A Beginner's Guide | Craft Beer School",
     desc="What craft beer actually means, how it differs from mass market lager, "
          "and what to drink first. A plain English guide for Indian beer drinkers.",
-    teaser="Four ingredients, one process, and a lot of marketing noise. Here is "
+    teaser="Four ingredients, one process and a lot of marketing noise. Here is "
            "what the word actually means.",
     standfirst="The word gets used to sell everything from a genuine small batch "
                "saison to a mass produced lager in a fancier can. The difference is "
@@ -28,18 +28,18 @@ WHAT_IS_CRAFT_BEER = dict(
 <p>Every beer you have ever drunk is built from water, malted grain, hops and
 yeast. That is the whole list. Everything else, every aroma, every colour, every
 bit of bitterness, comes from how a brewer handles those four things.</p>
-<p>Water is the bulk of it, around 90 per cent of what is in the glass, and its
+<p>Water is the bulk of it, around 90 per cent of what is in the glass. Its
 mineral content quietly decides whether a beer tastes crisp or soft. Malted
 barley provides the sugar the yeast will eat, plus the colour and most of the
 body. Hops add bitterness to balance that sugar, along with aroma that can run
 from pine to mango depending on the variety. Yeast does the actual work, turning
-sugar into alcohol and carbon dioxide, and throwing off flavour compounds while
+sugar into alcohol and carbon dioxide and throwing off flavour compounds while
 it does.</p>
 <p>Change the ratio of those four and you change the beer completely. That is
 why a stout and a pilsner can share an ingredient list and taste nothing
 alike.</p>"""),
         ("So what makes a beer craft?", """
-<p>There is no single legal definition, and in India there is no official one at
+<p>There is no single legal definition. In India there is no official one at
 all. In practice, three things separate craft from commodity brewing.</p>
 <p><strong>Scale.</strong> Craft brewers work in batches small enough that a
 single decision, a mash temperature, a hop addition, changes the beer noticeably.
@@ -50,7 +50,7 @@ beer, sometimes an awkward one that will only appeal to some people. A commodity
 brewery is trying to make a beer that offends nobody.</p>
 <p><strong>Ingredient choice.</strong> Mass lager often uses rice or maize
 alongside barley, partly for a lighter body and partly because it is cheaper.
-Craft brewing tends to use more malt, more hops, and pays for both.</p>
+Craft brewing tends to use more malt and more hops. It pays for both.</p>
 <p>None of that makes craft automatically better. It makes it different, and
 usually more expensive to produce.</p>"""),
         ("Craft versus the lager you grew up with", """
@@ -85,17 +85,17 @@ from the spent grain.</p>
 give bitterness because the heat converts their acids. Hops added late or after
 the boil give aroma, because those oils are volatile and would otherwise
 evaporate.</p>
-<p><strong>Fermentation.</strong> The wort is cooled, yeast is added, and over
+<p><strong>Fermentation.</strong> The wort is cooled, yeast is added and over
 days or weeks the sugar becomes alcohol. Temperature control here decides whether
 you get clean beer or a fruit bomb.</p>
-<p><strong>Conditioning and packaging.</strong> The beer matures, clears, and is
+<p><strong>Conditioning and packaging.</strong> The beer matures, clears and is
 carbonated before it goes into keg, can or bottle.</p>"""),
         ("What to drink first", """
 <p>If you are starting out, do not begin with the most extreme thing on the
 menu. A heavily bitter double IPA is a poor introduction in the same way that a
 peated cask strength whisky is.</p>
 <p>Start with a wheat beer or a pale ale. Both are approachable, both have enough
-character that you can actually taste what the brewer intended, and neither will
+character that you can actually taste what the brewer intended. Neither will
 strip your palate. From there, move towards whatever you found interesting, more
 aroma, more bitterness, more roast.</p>
 <p>Order a tasting flight where you can. Four small pours teach you more in one
@@ -109,11 +109,11 @@ builds a palate.</p>"""),
          "not a property of craft brewing."),
         ("Why does craft beer cost more?",
          "More malt and hops per litre, smaller batches, imported ingredients in most "
-         "of India, and far shorter shelf life. The excise structure in several states "
+         "of India and far shorter shelf life. The excise structure in several states "
          "also taxes on strength or on volume in ways that penalise small producers."),
         ("Is craft beer healthier?",
          "It is unfiltered more often, so it may retain more yeast derived B vitamins, "
-         "but the difference is not meaningful. It is still alcohol, and often at a "
+         "but the difference is not meaningful. It is still alcohol and often at a "
          "higher strength. Drink it for the flavour, not for your health."),
     ],
     cta=dict(title="Taste the difference properly",
@@ -133,17 +133,17 @@ BEER_STYLES = dict(
     teaser="Ale or lager is only the first fork in the road. Here is the map "
            "of everything after it.",
     standfirst="Style names sound like a members only vocabulary. They are really "
-               "just shorthand for a set of decisions a brewer made, and once you can "
+               "just shorthand for a set of decisions a brewer made. Once you can "
                "read them you can order confidently anywhere.",
     read="9 min", updated="2026-09-03", updated_label="September 2026",
     sections=[
         ("The one distinction that matters first", """
-<p>Almost every beer is either an ale or a lager, and the difference is the
+<p>Almost every beer is either an ale or a lager. The difference is the
 yeast.</p>
-<p>Ale yeast works warm, often between 18 and 22 degrees Celsius, and works fast.
+<p>Ale yeast works warm and fast, often between 18 and 22 degrees Celsius.
 While it does, it produces esters, compounds that read as fruit. That is why ales
 often carry banana, pear or citrus notes that nobody added.</p>
-<p>Lager yeast works cold, often between 8 and 12 degrees, and slowly. Cold and
+<p>Lager yeast works cold and slowly, often between 8 and 12 degrees. Cold and
 slow suppresses those fruity compounds, which leaves a cleaner beer where the
 malt and hops have nowhere to hide. A lager is harder to brew well for exactly
 that reason. There is no fruitiness to cover a mistake.</p>
@@ -156,7 +156,7 @@ for drinking rather than analysing.</p>
 <p><strong>Dunkel and Bock.</strong> Darker lagers, bread crust and light caramel
 rather than roast. Bock is the stronger of the two.</p>
 <p>Lagers suit the Indian climate well. They are refreshing, they are familiar
-enough that a table will share one, and they reward a brewery with good
+enough that a table will share one. They reward a brewery with good
 temperature control.</p>"""),
         ("Pale ales and IPAs", """
 <p><strong>Pale ale.</strong> Balanced, hop forward but not aggressive. The
@@ -179,7 +179,7 @@ purely fermentation character.</p>
 <p><strong>Witbier.</strong> Belgian, usually spiced with coriander and orange
 peel, lighter and tarter than a hefeweizen.</p>
 <p>Wheat beers convert Indian drinkers more reliably than anything else on a
-taplist. They are refreshing in heat, they are low in bitterness, and the aroma
+taplist. They are refreshing in heat, they are low in bitterness and the aroma
 is immediately obvious even to someone tasting attentively for the first
 time.</p>"""),
         ("Stouts and porters", """
@@ -247,7 +247,7 @@ HOW_TO_TASTE = dict(
     teaser="Drinking is not tasting. A method turns a vague impression into "
            "something you can name and repeat.",
     standfirst="Professional tasters are not born with better tongues. They have a "
-               "system, they use it every time, and they have practised naming what "
+               "system, they use it every time and they have practised naming what "
                "they find. All three are learnable.",
     read="8 min", updated="2026-09-03", updated_label="September 2026",
     sections=[
@@ -265,7 +265,7 @@ before. Taste early in a session rather than late.</p>"""),
         ("Appearance", """
 <p>Hold the glass against something neutral and white.</p>
 <p>Note the colour honestly, straw, gold, amber, ruby, brown, black. Note whether
-it is clear or hazy, and whether that haze looks deliberate, as in a New England
+it is clear or hazy and whether that haze looks deliberate, as in a New England
 IPA, or like a fault.</p>
 <p>Then watch the head. Good head retention suggests healthy proteins and clean
 glassware. A head that collapses in seconds can indicate a problem, often fat,
@@ -280,9 +280,9 @@ character, citrus, pine, tropical fruit, grass, herbs? Is there yeast character,
 banana, clove, pepper, stone fruit? Is there anything that does not belong,
 butter, cooked sweetcorn, wet cardboard, solvent?</p>
 <p>Name what you find out loud or write it down. Naming is what fixes a smell in
-memory, and it is the single fastest way to improve.</p>"""),
+memory. It is the single fastest way to improve.</p>"""),
         ("Flavour, mouthfeel and finish", """
-<p>Take a decent mouthful, not a sip, and let it cover your whole tongue.</p>
+<p>Take a decent mouthful, not a sip. Let it cover your whole tongue.</p>
 <p><strong>Flavour</strong> should largely confirm the aroma, with sweetness and
 bitterness added. Notice the order in which things arrive. Many beers lead malty
 and finish bitter.</p>
@@ -290,7 +290,7 @@ and finish bitter.</p>
 full and coating? Is the carbonation soft and fine, or sharp and prickly? Is
 there any astringency, that drying, tea like grip at the sides of the tongue,
 which usually signals a process problem.</p>
-<p><strong>Finish</strong> is what remains after swallowing, and for how long. A
+<p><strong>Finish</strong> is what remains after swallowing and for how long. A
 crisp lager should finish clean and short. An imperial stout should linger.
 Whether the finish suits the style matters more than whether it is long.</p>"""),
         ("Judge it against the style, not your preference", """
@@ -298,7 +298,7 @@ Whether the finish suits the style matters more than whether it is long.</p>""")
 the beer does what it set out to do.</p>
 <p>You may dislike smoked beer. That is irrelevant when judging a smoked beer.
 The question is whether the smoke is clean, whether it is balanced, whether the
-beer is free of faults, and whether it matches its declared style.</p>
+beer is free of faults and whether it matches its declared style.</p>
 <p>Formal scoring systems split marks across aroma, appearance, flavour,
 mouthfeel and overall impression, weighting aroma and flavour most heavily.
 Even scoring informally in those five buckets will sharpen your thinking, because
@@ -322,7 +322,7 @@ months ago are the clearest evidence of whether you are improving.</p>"""),
          "at the warmer end."),
         ("Does the glass really matter?",
          "Yes, more than most people expect. A glass that narrows at the top concentrates "
-         "aroma, and aroma carries most of flavour. Detergent residue destroys head "
+         "aroma. Aroma carries most of flavour. Detergent residue destroys head "
          "retention, so rinse well."),
         ("How long does it take to build a decent palate?",
          "Structured tasting a few times a week produces a noticeable difference within "
@@ -339,7 +339,7 @@ months ago are the clearest evidence of whether you are improving.</p>"""),
 OFF_FLAVOURS = dict(
     slug="beer-off-flavours",
     cat="Quality",
-    h1="Beer off flavours, and what causes them",
+    h1="Beer off flavours and what causes them",
     title="Beer Off-Flavours: Causes and Fixes | Craft Beer School",
     desc="The common beer faults, what each one tastes like, the process failure "
          "behind it and how brewers prevent it. A practical quality guide.",
@@ -353,13 +353,13 @@ OFF_FLAVOURS = dict(
         ("Why this is the most valuable skill in a brewery", """
 <p>Recipe design gets the attention. Quality control keeps the business alive.</p>
 <p>A brewery that cannot reliably detect its own faults will ship inconsistent
-beer, and inconsistency loses customers faster than a beer being merely
+beer. Inconsistency loses customers faster than a beer being merely
 uninteresting. The brewers who become indispensable are the ones who can taste a
 tank, name the problem and point at the step that caused it.</p>
 <p>Almost every fault below is preventable with process control rather than
 better ingredients.</p>"""),
         ("Diacetyl: butter, butterscotch, slick", """
-<p><strong>What you notice.</strong> Butter or butterscotch on the nose, and a
+<p><strong>What you notice.</strong> Butter or butterscotch on the nose and a
 slick, almost oily film across the tongue. At low levels it reads as a rounded
 sweetness rather than anything obviously wrong.</p>
 <p><strong>Where it comes from.</strong> Yeast produces a precursor during
@@ -378,10 +378,10 @@ Czech lagers. In a crisp modern lager it is a fault.</p>"""),
 <p><strong>What you notice.</strong> Cooked or tinned sweetcorn, sometimes
 cabbage or tomato.</p>
 <p><strong>Where it comes from.</strong> A malt derived precursor converts to
-dimethyl sulphide with heat, and DMS is volatile, so a vigorous open boil drives
-it off. It survives when the boil is too gentle, too short, or lidded, and it
+dimethyl sulphide with heat. DMS is volatile, so a vigorous open boil drives
+it off. It survives when the boil is too gentle, too short or lidded. It
 re-forms if hot wort sits around slowly cooling after the boil.</p>
-<p><strong>The fix.</strong> A strong rolling boil with the lid off, and rapid
+<p><strong>The fix.</strong> A strong rolling boil with the lid off and rapid
 cooling afterwards. The gap between the end of the boil and pitching temperature
 is where a lot of DMS is created. Pale lagers show it most, because there is
 nothing to hide behind.</p>"""),
@@ -392,19 +392,19 @@ like emulsion paint.</p>
 ethanol. Its presence generally means the beer is simply not finished, or the
 yeast was stressed and gave up early.</p>
 <p><strong>The fix.</strong> Patience, adequate yeast pitching rates, proper
-aeration of the wort before pitching, and stable fermentation temperature. Most
+aeration of the wort before pitching and stable fermentation temperature. Most
 acetaldehyde complaints are really a packaging schedule that ran ahead of the
 biology.</p>"""),
         ("Oxidation: wet cardboard, sherry, stale", """
 <p><strong>What you notice.</strong> Wet cardboard or paper in pale beers, a
-sherry or dried fruit note in stronger dark ones, and a general flattening of hop
+sherry or dried fruit note in stronger dark ones and a general flattening of hop
 aroma.</p>
 <p><strong>Where it comes from.</strong> Oxygen picked up after fermentation, at
 transfer, filtration or packaging. Warm storage accelerates it dramatically.</p>
 <p><strong>The fix.</strong> This one cannot be corrected once it has happened, so
 it must be prevented. Purge tanks, kegs and cans, minimise splashing on transfer,
-fill without foaming, and control the cold chain from brewery to glass. In Indian
-conditions the cold chain is usually the weakest link, and a hoppy beer that sat
+fill without foaming and control the cold chain from brewery to glass. In Indian
+conditions the cold chain is usually the weakest link. A hoppy beer that sat
 warm in transit will arrive stale no matter how well it was brewed.</p>"""),
         ("Phenolic, lightstruck and astringent", """
 <p><strong>Phenolic.</strong> Clove, smoke, plastic or medicinal notes. Clove is
@@ -437,7 +437,7 @@ what you do next.</p>"""),
          "fermentation was cut short."),
         ("Why does my beer taste like wet cardboard?",
          "Oxidation. Oxygen was picked up after fermentation, most often at transfer or "
-         "packaging, and warm storage sped it up. It cannot be reversed, so the answer "
+         "packaging. Warm storage sped it up. It cannot be reversed, so the answer "
          "is prevention and a tighter cold chain."),
         ("Can off flavours be fixed after packaging?",
          "Almost never. Diacetyl and acetaldehyde can sometimes be reduced before "

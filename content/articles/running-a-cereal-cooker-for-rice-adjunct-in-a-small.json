@@ -1,0 +1,63 @@
+{
+ "slug": "running-a-cereal-cooker-for-rice-adjunct-in-a-small",
+ "cat": "Brewing science",
+ "h1": "Running a cereal cooker for rice adjunct in a small brewhouse",
+ "title": "Running a rice cereal cooker | Craft Beer School",
+ "desc": "How to run a cereal cooker for rice in a small brewhouse: grist, water ratio, temperature programme, transfer timing and the faults that cost extract.",
+ "teaser": "Rice gives a crisp, dry lager. It also refuses to convert in a normal mash. A cereal cooker is how you make it cooperate.",
+ "standfirst": "Rice starch gelatinises well above the temperatures malt enzymes survive. The cereal cooker solves that by cooking the rice separately, then using it to heat the main mash. Here is how to run one in a small brewhouse.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why rice needs its own vessel",
+   "<p>Barley malt starch gelatinises in the low 60s °C, inside the window where malt enzymes work. Rice starch needs higher temperatures. Figures from about 70 °C to above 80 °C are quoted depending on the variety. Until starch gelatinises, enzymes cannot reach it. Mash rice grits at 65 °C with the malt and much of the rice comes out of the lauter tun unconverted, taking your extract with it.</p><p>The cereal cooker fixes this. Rice is cooked to a gelatinised porridge in a separate vessel, then pumped into the main mash. Our guide to <a href=\"rice-and-maize-adjuncts-india.html\">rice and maize adjuncts in India</a> covers the flavour side. This one is about running the cooker.</p>"
+  ],
+  [
+   "The cooker grist and water",
+   "<p>Use broken rice milled to fine grits. Whole grains gelatinise slowly from the outside in, leaving the centre raw. Add a portion of the malt to the cooker, commonly around 10 to 20% of the rice weight, or a thermostable bacterial alpha-amylase. Either way you need enzyme activity to thin the porridge as it gelatinises. Without it rice turns into a thick paste that will not pump and scorches on the heating surface.</p><p>Water ratio is usually higher than in the main mash, often 4 to 5 litres per kg of cereal, because gelatinised rice soaks up a lot of liquor. Add calcium to the cooker liquor as well. It stabilises the alpha-amylase while the temperature climbs.</p>"
+  ],
+  [
+   "A typical cooker programme",
+   "<ol><li>Mash in the rice and malt portion at around 45 to 50 °C with the agitator running.</li><li>Raise to about 70 to 72 °C and hold 15 to 20 minutes. Alpha-amylase liquefies the starch as it gelatinises.</li><li>Raise to a boil and hold 15 to 30 minutes so the rest of the starch gelatinises fully.</li><li>Meanwhile the main mash of malt sits at a protein or low saccharification rest, often 45 to 52 °C.</li><li>Pump the boiling cooker mash into the main mash. The combined mash should land at your saccharification temperature, typically 63 to 65 °C.</li></ol><p>That last step is the art. You set the main mash temperature and the volumes so the hot cooker brings the whole mash to target. Work it out on paper with mass and specific heat before brew day, then correct with the main mash heating jacket. The logic is the same as a <a href=\"step-mashing.html\">step mash</a> with an outside heat source.</p>"
+  ],
+  [
+   "Faults we see in small cookers",
+   "<p>The common one is burn-on. Small breweries convert a hot liquor tank or a spare kettle into a cooker. Those vessels often lack a proper agitator. Rice porridge sits on the steam jacket, caramelises and scorches. You get dark specks, a burnt taste in a pale lager and a jacket that needs scrubbing. A cooker needs a strong, low-speed agitator that sweeps the heated surface.</p><p>Others: too little enzyme, so the mash goes solid near 70 °C; adding malt only after the boil, which does nothing because the enzymes die; and pumping too slowly, so the main mash sits at a mid temperature for too long and the beer comes out sweeter than planned. Check iodine on the combined mash before you lauter.</p>"
+  ],
+  [
+   "What it does to your brewhouse numbers",
+   "<p>A well-run cooker gives nearly full extract from the rice. A poorly run one shows up as low <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a>, sticky lautering from unconverted starch and starch haze later. Rice brings almost no husk, so above about 30 to 40% of the grist the lauter bed gets thinner and slower. Many brewers keep the malt crush slightly coarser on rice brews to protect the bed.</p><p>The free amino nitrogen (FAN) in wort also drops as the rice share rises, because rice contributes very little. Watch yeast health on high-rice brews. Many brewers add a yeast nutrient or keep the all-malt share high enough to hold FAN at a level their strain tolerates.</p>"
+  ],
+  [
+   "Before you buy or convert a vessel",
+   "<p>Size the cooker for the largest rice share you plan, with room for foaming at the boil. Confirm the steam or electric heating can take the porridge from 72 °C to boiling in a sensible time. Plan the transfer line and pump for a thick, hot mash. In consulting work we often see the cooker added as an afterthought, after the main brewhouse was already commissioned.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I use flaked rice instead of a cooker?",
+   "Yes. Flaked or pre-gelatinised rice has already been cooked and can go straight into the main mash. It costs more per kg than broken rice, which is why larger breweries cook their own."
+  ],
+  [
+   "How much rice can a small brewhouse handle?",
+   "Many brewhouses manage 20 to 30% rice comfortably. Above that, lautering slows because rice adds almost no husk. You may also need more enzyme and more care with FAN."
+  ],
+  [
+   "Do I need exogenous enzymes?",
+   "Not always. A malt portion in the cooker provides the alpha-amylase. A thermostable bacterial alpha-amylase gives more margin and lets the cooker run without malt."
+  ]
+ ],
+ "cta": {
+  "title": "Get your rice cooker running right",
+  "body": "We start with a brewery health check and a written action plan. For adjunct brewing that means your cooker programme, temperatures, transfer and extract numbers, reviewed by a consultant brewer on site or remotely.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "rice-and-maize-adjuncts-india",
+  "step-mashing",
+  "brewhouse-efficiency"
+ ]
+}

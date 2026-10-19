@@ -197,9 +197,74 @@ def render(html, out):
     print("wrote", out.relative_to(mp.HERE), doc.page_count, "pages")
 
 
+# ---------------------------------------------------------------- one per online course
+def course_pdf(c):
+    """assets/prospectus/<course>.pdf, linked from that course's page."""
+    return "assets/prospectus/" + mp.course_pages.slug_for(c["name"]).replace("-course.html", "") + ".pdf"
+
+
+def _instructors(c):
+    import mentors
+    slug = mp.course_pages.slug_for(c["name"])
+    team = [m for m in mentors.MENTORS if any(s == slug for s, _ in m["courses"])]
+    contact = next(m for m in mentors.MENTORS if m["slug"] == mentors.CONTACT)
+    people = team + ([contact] if contact not in team else [])
+    return "".join(f'<div class="member"><img src="{mp.uri(m["img"])}" alt=""><h3>{m["name"]}</h3>'
+                   f'<p>{"Point of contact" if m is contact and m not in team else "Instructor"}. {m["role"]}</p></div>' for m in people)
+
+
+def course_html(c):
+    cp = mp.course_pages
+    name, d = cp.plain(c["name"]), cp.DETAIL[cp.plain(c["name"])]
+    photo = (mp.PHOTOS.get("course:" + cp.slug_for(c["name"])[:-len("-course.html")]) or {}).get("file", "assets/rahul-brewhouse.jpg")
+    mode = mp.pages_a.MODE_LABEL[mp.pages_a.MODE.get(c["name"], "Online")]
+    fee = "Free" if cp.is_free(c) else c["price"]
+    weeks = plan(["Week", "Focus", "Topics", "Assignment"],
+                 [[f"Week {i}", t, "; ".join(topics), task] for i, (t, topics, task) in enumerate(d["weeks"], 1)])
+    logi = "".join(f"<li><b>{k}.</b> {cp.FREE_FEES if k == 'Fees' and cp.is_free(c) else v}</li>" for k, v in cp.LOGISTICS)
+    return f"""<!doctype html><html lang="en-IN"><head><meta charset="utf-8">{style()}
+<style>.team{{display:grid;grid-template-columns:repeat(4,1fr);gap:5mm;margin-top:5mm}}.member img{{width:100%;aspect-ratio:1;object-fit:cover;border-radius:4mm}}
+.member h3{{font-size:10.5pt;margin-top:2.5mm}}.member p{{font-size:8pt;color:var(--soft)}}table.plan{{font-size:8.2pt}}table.plan td:nth-child(2){{font-weight:700;width:30mm}}</style></head><body>
+{cover(photo, f"{mode} course · 2026", name, c["blurb"])}
+
+<section class="page about"><span class="eyebrow">{c["no"]} / {c["tag"]}</span>
+  <h2>{name}.</h2>
+  <p class="lead">{c["blurb"]}</p>
+  <div class="facts"><div class="fact"><b>{c["dur"]}</b><span>{c["weeks"] * 2} live sessions, 2 hours each</span></div>
+    <div class="fact"><b>Sat-Sun</b><span>12:00 to 2:00 PM IST</span></div>
+    <div class="fact"><b>20</b><span>Students per batch, at most</span></div><div class="fact"><b>{fee}</b><span>Course fee</span></div></div>
+  <div class="cols" style="margin-top:0"><div class="box"><h3>Who it is for</h3>{ul(d["who"])}</div>
+    <div class="box"><h3>What you walk away with</h3>{ul(d["outcomes"])}</div></div>
+  <span class="eyebrow" style="display:block;margin-top:7mm">Who teaches it</span><div class="team">{_instructors(c)}</div>
+  {foot(name)}</section>
+
+<section class="page"><span class="eyebrow">Syllabus</span>
+  <h2 style="font-size:24pt;margin:3mm 0 4mm">Week by week.</h2>
+  <p style="font-size:9.4pt">{c["weeks"]} week{"s" if c["weeks"] != 1 else ""}. Two live sessions every weekend and one assignment a week.</p>
+  {weeks}
+  {foot(name)}</section>
+
+<section class="page"><span class="eyebrow">How it runs</span>
+  <h2 style="font-size:24pt;margin:3mm 0 6mm">Format, terms and how to enrol.</h2>
+  <div class="terms"><ol>{logi}<li><b>Refunds.</b> Read the refund policy at {mp.SITE}/refund.html before you pay.</li></ol></div>
+  <div class="fee"><div><span>Course fee per student</span><br><b>{fee}</b></div>
+    <span style="max-width:95mm">Enrol at {mp.SITE}/{cp.slug_for(c["name"])} or ask us on WhatsApp. Cohorts cap at 20 students.</span></div>
+  <div class="cards" style="margin-top:8mm">
+    <div style="background:var(--navy);color:#fff"><b>Website</b><span>{mp.SITE}</span></div>
+    <div style="background:var(--navy);color:#fff"><b>WhatsApp and phone</b><span>{mp.PHONE}</span></div>
+    <div style="background:var(--navy);color:#fff"><b>Email</b><span>{mp.EMAIL}</span></div>
+    <div style="background:var(--navy);color:#fff"><b>Classes</b><span>{mode}</span></div></div>
+  <p style="font-size:7.5pt;color:var(--soft);margin-top:6mm">Fees and dates are correct at the time of printing and may change; the website has the latest. Drink responsibly.</p>
+  {foot(name)}</section>
+</body></html>"""
+
+
 def main():
     render(day_html(), mp.HERE / "assets/craft-beer-school-1-day-course.pdf")
     render(month_html(), mp.HERE / "assets/craft-beer-school-1-month-course.pdf")
+    (mp.HERE / "assets/prospectus").mkdir(exist_ok=True)
+    for c in mp.pages_a.COURSE_DATA:
+        render(course_html(c), mp.HERE / course_pdf(c))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,67 @@
+{
+ "slug": "designing-a-whisky-warehouse-for-indian-heat",
+ "cat": "Whisky",
+ "h1": "Designing a whisky warehouse for heat, humidity and evaporation losses",
+ "title": "Whisky Warehouse Design for Indian Heat | Craft Beer School",
+ "desc": "How to design a whisky maturation warehouse for Indian heat and humidity: racking, insulation, airflow, monitoring and the evaporation losses to plan for.",
+ "teaser": "In Indian heat the warehouse matures your whisky faster and takes a bigger share of it. Design decides how much.",
+ "standfirst": "Your warehouse is a piece of process equipment, not a shed. In a hot climate its walls, floor and airflow set how fast your whisky matures and how much of it evaporates before you can sell it.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the building matters more in India",
+   "<p>In Scotland the angel's share is commonly quoted at around 2% of cask volume a year. In much of India it runs well above that, because heat drives evaporation through the wood and big daily temperature swings make the cask breathe harder. Faster extraction from the oak is the reward. Lost liquid is the price.</p><p>That trade is not fixed. Two distilleries in the same town can see very different losses depending on how their warehouses are built and run. The building is the one variable you control for decades once the first cask goes in, so it is worth designing on purpose. Our guide to <a href=\"angels-share-whisky-in-indian-heat.html\">the angel's share in Indian heat</a> covers the chemistry in more detail.</p>"
+  ],
+  [
+   "Temperature swing is the real enemy",
+   "<p>Average temperature matters, but the daily swing matters more. When the cask warms, spirit expands into the wood. When it cools, the wood pushes spirit back out and air gets pulled in. A warehouse that swings 15 °C between afternoon and night works the oak hard and loses more spirit than one held within a few degrees.</p><p>So the aim is thermal mass and shade, not air conditioning. Thick masonry walls, a well insulated roof with a reflective finish, few windows and the long side of the building facing away from the afternoon sun all damp the swing. Shade trees and a ventilated roof void help more than people expect. Cooling a full warehouse mechanically is rarely affordable and it changes the maturation profile you may have chosen the climate for.</p>"
+  ],
+  [
+   "Humidity decides which way strength moves",
+   "<p>Water and alcohol both leave the cask, but not at the same rate. In dry air water evaporates faster, so the strength of the spirit tends to rise over time. In humid air alcohol leaves faster, so strength falls. Many Indian sites see both in a single year, dry heat before the monsoon and saturated air during it.</p><p>Log relative humidity as well as temperature. Strength drift across the year tells you whether your losses are mostly water or mostly alcohol, which changes how you plan reduction and bottling volumes later. Earth or gravel floors, as in traditional dunnage warehouses, hold moisture and steady the air near the casks. Sealed concrete with good drainage is easier to clean and safer for forklifts.</p>"
+  ],
+  [
+   "Racking, stacking and where each cask sits",
+   "<p>There are three common layouts:</p><ul><li><strong>Dunnage:</strong> casks two or three high on wooden runners, low and slow, with the steadiest conditions.</li><li><strong>Racked:</strong> steel racks many tiers high, more casks per square metre, but the top tiers run noticeably hotter than the floor.</li><li><strong>Palletised:</strong> casks stood on end on pallets, quick to move with a forklift, harder to sample and rotate.</li></ul><p>In a tall racked warehouse the top and bottom are close to two different climates. That can be useful. Some distillers deliberately rotate casks between tiers or map their stock so that fast and slow maturing casks can be blended later. Whatever you choose, record each cask's position. Without that, you cannot explain why two casks filled on the same day taste different at year three.</p>"
+  ],
+  [
+   "Size it for the stock you will hold in year eight",
+   "<p>The most common warehouse mistake is building for the first year's fills. Whisky stock compounds: if you fill 200 casks a year and plan to bottle at five to eight years, you may hold well over a thousand casks before the first big release. Land and foundations cost far less to plan now than to add later.</p><p>Leave space for a sampling area, a regauging bench with a calibrated scale, a quarantine bay for leaking casks and clear forklift aisles. A cask that cannot be reached cannot be sampled. A cask nobody samples is a guess on your balance sheet.</p>"
+  ],
+  [
+   "Fire, excise and safety come first",
+   "<p>A warehouse full of high strength spirit is a flammable vapour store. Plan for flameproof electrical fittings, no ignition sources, spill containment, fire breaks between bays and access for fire tenders. Talk to your fire adviser before the drawings are final, not after.</p><p>Maturation warehouses are usually bonded premises under state excise control, with rules on locks, registers, gauging and supervision. These rules vary by state and change, so work with a licensing adviser and check the current notification before you finalise the layout.</p>"
+  ],
+  [
+   "Measure losses from day one",
+   "<p>Put calibrated temperature and humidity loggers at floor, middle and top in each bay. Regauge a sample of casks on a fixed schedule, by weight and strength. Keep every reading. After two or three years you will know your real annual loss by position, which no textbook can tell you.</p><p>That figure feeds straight into stock planning. Our guide to <a href=\"whisky-inventory-planning.html\">whisky inventory planning</a> shows how loss rates turn into how many casks you must fill today to have enough whisky to sell in five years.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much whisky evaporates in an Indian warehouse?",
+   "It varies widely with the site and the building. It is generally well above the roughly 2% a year quoted for Scotland. Measure your own losses by cask position rather than relying on a published figure."
+  ],
+  [
+   "Should a whisky warehouse be air conditioned?",
+   "Rarely. It is costly at scale and changes the maturation you are paying for. Thermal mass, shade, insulation and controlled ventilation reduce the daily swing at a fraction of the cost."
+  ],
+  [
+   "Is racked or dunnage storage better for a hot climate?",
+   "Dunnage gives steadier conditions and lower losses per cask. Racking stores far more per square metre but creates a hot top and a cool floor, which you then need to manage and record."
+  ]
+ ],
+ "cta": {
+  "title": "Plan maturation that survives Indian heat",
+  "body": "Craft Distilling runs for four weeks of live weekend classes at ₹9,999. It takes you through mashing, fermentation, cuts and cask maturation with the numbers behind each decision, which a single guide cannot do.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "angels-share-whisky-in-indian-heat",
+  "distillery-kpis-for-analysts",
+  "whisky-inventory-planning"
+ ]
+}

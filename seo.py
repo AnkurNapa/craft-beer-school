@@ -3,7 +3,7 @@
 
 AEO (answer engine optimization) is the reason the JSON-LD here is generated
 from the same records that render the page. An assistant answering "what does
-a brewing course cost in India" can only cite a price it can parse, and it will
+a brewing course cost in India" can only cite a price it can parse. It will
 not cite one that contradicts the visible page.
 """
 import json

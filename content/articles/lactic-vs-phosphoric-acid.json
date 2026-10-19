@@ -1,0 +1,71 @@
+{
+ "slug": "lactic-vs-phosphoric-acid",
+ "cat": "Ingredients",
+ "h1": "Lactic or phosphoric acid for adjusting mash and sparge pH",
+ "title": "Lactic or Phosphoric Acid for Mash pH | Craft Beer School",
+ "desc": "When to use lactic or phosphoric acid to adjust mash and sparge pH: flavour, strength, calcium, safety and how to dose in a brewery.",
+ "teaser": "Both acids drop your mash pH. One leaves a trace of flavour behind, the other takes some of your calcium with it.",
+ "standfirst": "Most brewers adjusting water reach for lactic or phosphoric acid. Both work. The choice depends on your beer, your water and how much acid you need. Here is how to decide and how to dose safely.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why acidify at all",
+   "<p>Mash enzymes and wort chemistry work best in a mash pH of roughly 5.2 to 5.6, measured on a cooled sample. Pale grists on alkaline water often land above that, which can mean lower extract, duller flavour and more tannin pulled from the husk. Our guide to <a href=\"mash-ph-explained.html\">mash pH</a> covers the reasons in detail.</p><p>Sparge water is the other place acid earns its keep. As sparging runs on, the wort's buffering falls and the grain bed pH rises. Alkaline sparge water speeds that up and extracts harsh, drying polyphenols. Many breweries acidify sparge water to around pH 5.5 to 6 to keep the end of the run soft.</p>"
+  ],
+  [
+   "Lactic acid",
+   "<p>Lactic acid is the acid in sour milk and in sour beers. It is commonly sold at 80% to 88% strength. It is strong enough that small additions move pH a lot. It is also easy to handle at the doses most brewers use.</p><p>The catch is flavour. At low additions it is invisible. In a soft-water pale lager it usually stays that way. Where very alkaline water needs a large dose, the lactate can start to taste: a slight tartness or a rounder, milky edge that some tasters pick up in delicate beers. Brewers who need large additions often split the job between lactic acid and acidulated malt, or reduce alkalinity first with RO or dilution.</p><p>For brewers working under German purity rules, the alternative is lactic acid made in the brewery, either through <a href=\"weyermann-acidulated-malt.html\">acidulated malt</a> or biologically soured wort.</p>"
+  ],
+  [
+   "Phosphoric acid",
+   "<p>Phosphoric acid is sold in food grade at around 75% to 85% for breweries. Homebrew shops sell it diluted to about 10%. Phosphate is already present in wort from malt, so phosphoric acid is close to flavour neutral at normal doses. That makes it the usual choice when a lot of alkalinity has to go.</p><p>The trade-off is calcium. Phosphate reacts with calcium to form insoluble calcium phosphate, so a heavy phosphoric addition removes some of the calcium you added for yeast health, clarity and oxalate control. If you lean on phosphoric acid, check that your calcium is still where you want it after treatment.</p>"
+  ],
+  [
+   "Choosing between them",
+   "<ul><li><strong>Small adjustment, any beer:</strong> either works. Use the one already on your shelf.</li><li><strong>Large adjustment, delicate pale beer:</strong> phosphoric, or reduce alkalinity first.</li><li><strong>Sour or tart styles:</strong> lactic fits naturally.</li><li><strong>Purity law beers:</strong> acidulated malt or biological acidification.</li><li><strong>High-calcium recipes:</strong> lactic avoids the calcium loss.</li></ul><p>On borewell water in much of India, alkalinity can be high enough that acid alone is a blunt tool. Measure alkalinity first. Sometimes cutting with RO water is cheaper and better for flavour than dosing acid.</p>"
+  ],
+  [
+   "Acid at other points in the process",
+   "<p>Mash and sparge are where most brewers dose, but acid has other uses. A small addition to the kettle before the boil lowers wort pH a little, which some brewers use to sharpen the hop character of pale lagers and help hot break form. Acid can also correct a mash that came in high after the first pH reading, though stirring it in evenly on a large mash takes care.</p><p>Avoid adding acid to finished beer to fix a flat flavour. That is a recipe or water problem, not an acidity problem. It is far better solved at the start of the next brew.</p>"
+  ],
+  [
+   "Dosing it properly",
+   "<p>Use brewing software or a water calculator with your actual water report to estimate the dose. Then measure. Take a mash sample about 15 minutes in, cool it to room temperature and read it with a calibrated meter. Record the dose, the water analysis and the result for every batch. After a few brews you know your system well enough to dose from the log.</p><p>On a commercial brewhouse, dose sparge water in the hot liquor tank and check the pH there before the sparge starts. A pH probe left in hot liquor for hours drifts, so calibrate with fresh buffers every brew day.</p>"
+  ],
+  [
+   "Handle it like the hazard it is",
+   "<p>Concentrated acids burn skin and eyes. Wear goggles and chemical gloves. Always add acid to water, never water to acid. Store it in labelled, food-grade containers away from caustic. Measure with a dedicated cylinder or dosing pump rather than by eye. Only buy food-grade acid with the grade printed on the pack.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does lactic acid make beer taste sour?",
+   "At normal small doses, no. Large additions in a delicate pale beer can add a slight tartness, which is why big adjustments often use phosphoric acid instead."
+  ],
+  [
+   "Why does phosphoric acid lower calcium?",
+   "Phosphate combines with calcium to form insoluble calcium phosphate, so heavy additions remove some dissolved calcium from the water."
+  ],
+  [
+   "Should I acidify sparge water?",
+   "If your water is alkaline, yes. Bringing sparge water to around pH 5.5 to 6 helps limit tannin extraction late in the run."
+  ],
+  [
+   "Can I use industrial phosphoric acid?",
+   "No. Use only food-grade acid. Industrial grades can carry impurities that do not belong in beer."
+  ]
+ ],
+ "cta": {
+  "title": "Take control of your brewing water",
+  "body": "Advanced Brewing Science is 6 weeks of live weekend classes (₹12,999) covering water chemistry, mash pH, enzymes and fermentation science. A maximum of 20 per batch, with recordings, assignments and a certificate.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "mash-ph-explained",
+  "weyermann-acidulated-malt",
+  "water-salts-for-homebrewers"
+ ]
+}

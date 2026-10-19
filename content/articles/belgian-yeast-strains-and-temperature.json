@@ -1,0 +1,67 @@
+{
+ "slug": "belgian-yeast-strains-and-temperature",
+ "cat": "Ingredients",
+ "h1": "Belgian yeast strains and how temperature shapes their flavour",
+ "title": "Belgian Yeast Strains and Temperature | Craft Beer School",
+ "desc": "How fermentation temperature shapes the banana, pear, clove and pepper of Belgian yeast, with schedules for tripels, dubbels and saisons at home.",
+ "teaser": "Belgian yeast is a flavour ingredient you control with a thermometer. Get the schedule right and the same strain gives you pear or nail polish.",
+ "standfirst": "In most beers the yeast should stay quiet. In Belgian styles it is the lead singer. The fruity esters and spicy phenols that define a tripel or saison all depend on how warm the yeast is and when. Here is how to steer them.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two families of flavour",
+   "<p>Belgian yeasts make two groups of flavour compounds that most other beer yeasts keep low.</p><ul><li><strong>Esters</strong> are fruity. Isoamyl acetate smells of banana or pear drops. Ethyl acetate is fruity in small amounts. In large amounts it smells of nail polish remover.</li><li><strong>Phenols</strong> are spicy. The main one, 4-vinyl guaiacol, gives clove. Others push towards pepper or smoke.</li></ul><p>Higher temperatures generally mean more esters and, past a point, harsh fusel alcohols that taste hot and solvent-like. Our guide to <a href=\"esters-and-fusel-alcohols.html\">esters and fusel alcohols</a> explains the chemistry. Phenol levels depend more on the strain itself, but temperature still shifts the balance between spice and fruit.</p>"
+  ],
+  [
+   "The common strains and their personalities",
+   "<p>A few widely available strains cover most Belgian styles:</p><ul><li><strong>Abbey and Trappist types</strong> (Wyeast 3787, White Labs WLP530 and similar): rich fruit, plum and pear, moderate spice. Good for dubbels, tripels and strong dark ales.</li><li><strong>Ardennes type</strong> (Wyeast 3522): spicier and drier, with less fruit. Suits Belgian blondes and golden strong ales.</li><li><strong>Saison types</strong> (Wyeast 3724 and dry options): peppery, earthy, very dry. Famous for stalling around 1.030 to 1.035 unless kept warm.</li><li><strong>Dry Belgian strains</strong> such as SafAle BE-256 and T-58: convenient and decent, with BE-256 suited to abbey styles and T-58 more peppery.</li></ul>"
+  ],
+  [
+   "Start cool, then let it rise",
+   "<p>The classic Belgian method is to pitch cool and let fermentation warm the beer. Most of the ester and fusel character forms in the first two or three days, while the yeast is growing fastest. Keep that phase controlled and you avoid harshness. Let it warm later and the yeast attenuates fully and cleans up.</p><p>A typical tripel schedule:</p><ol><li>Pitch at 18 to 19 °C.</li><li>Hold below about 20 °C for the first two days.</li><li>Let it free rise to 24 to 26 °C over days three to six.</li><li>Hold warm until the gravity is stable, often 1.008 to 1.010 from a starting gravity of about 1.080.</li></ol><p>Our <a href=\"belgian-tripel.html\">tripel guide</a> covers the grist and sugar.</p>"
+  ],
+  [
+   "Saisons: the exception",
+   "<p>Saison strains want heat throughout. Many brewers pitch at about 20 to 22 °C and let them climb to 30 °C or beyond. The Wyeast 3724 type in particular often slows to a crawl around 1.030 if it cools down, then restarts only when warmed again.</p><p>This is the one style where Indian weather is on your side for much of the year. A saison in a warm room in Bengaluru often behaves better than one in a cool European cellar. Just keep the first day under control, because a wort pitched at 32 °C can go hot and solventy before the yeast settles down. Because saisons can creep down slowly for weeks, trust only gravity readings that stay the same over three days before you bottle. Bottling a saison early is a classic way to make gushers.</p>"
+  ],
+  [
+   "Pitch rate shapes flavour too",
+   "<p>Temperature is not the only lever. Underpitching forces the yeast to grow more. Yeast growth is when esters form. A slightly lower pitch rate than normal can raise fruitiness. A big pitch keeps the beer cleaner. Fermenter shape and pressure matter as well: tall, narrow fermenters and fermenting under pressure both tend to suppress esters.</p><p>For a 20 litre tripel at 1.080, a single liquid pack is a serious underpitch. Make a starter or use two packs. Underpitching a strong beer is more likely to give you fusel heat and a stuck fermentation than pleasant extra fruit.</p>"
+  ],
+  [
+   "Phenols: wanted and unwanted",
+   "<p>Clove and pepper from a Belgian strain are correct. The same compounds in a pale ale brewed with a clean yeast are a fault, usually a sign of wild yeast. Our guide to <a href=\"phenolic-off-flavours.html\">phenolic off flavours</a> explains how to tell the difference.</p><p>If you brew Belgians and clean beers in the same kit, be strict about cleaning. Saison and some Belgian strains can be aggressive and difficult to remove from scratched plastic. Many homebrewers keep separate tubing and a separate fermenter for them.</p><p>Belgian brewing rewards people who understand yeast metabolism, because the same strain can give elegant or ugly results depending on decisions you make in the first 72 hours. That level of control is the step from recipe follower to brewer.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should I ferment a Belgian tripel at?",
+   "Pitch at 18 to 19 °C, hold below 20 °C for two days, then let it rise to 24 to 26 °C until gravity is stable."
+  ],
+  [
+   "Why does my Belgian beer taste like nail polish?",
+   "Usually from a hot start or underpitching, which raises ethyl acetate and fusel alcohols. Pitch cooler and pitch more yeast."
+  ],
+  [
+   "Why does my saison stall at 1.030?",
+   "Some saison strains slow sharply when they cool. Keep them at 28 to 32 °C later in fermentation and they usually finish."
+  ],
+  [
+   "Do Belgian yeasts make banana flavours?",
+   "Some do, from the ester isoamyl acetate, especially at warmer temperatures. Strains vary a lot in how much they make."
+  ]
+ ],
+ "cta": {
+  "title": "Control yeast flavour on purpose, not by luck",
+  "body": "Advanced Brewing Science is six weeks of live weekend classes for ₹12,999. It goes deep into yeast metabolism, fermentation profiles and pitch rates, which a single guide cannot cover.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "belgian-tripel",
+  "esters-and-fusel-alcohols",
+  "phenolic-off-flavours"
+ ]
+}

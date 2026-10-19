@@ -175,7 +175,7 @@ def instructors(course_slug, course_name):
     head = "Your instructor and point of contact" if len(team) <= 1 else "Your instructors and point of contact"
     return f"""<section class="tint">
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">{head}</span><h2>Who teaches this course, and who to ask.</h2></div>
+    <div class="sec-head"><span class="eyebrow">{head}</span><h2>Who teaches this course and who to ask.</h2></div>
     <div class="person-grid">{"".join(cards_html)}</div>
   </div>
 </section>

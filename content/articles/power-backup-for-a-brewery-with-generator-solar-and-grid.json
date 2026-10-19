@@ -1,0 +1,71 @@
+{
+ "slug": "power-backup-for-a-brewery-with-generator-solar-and-grid",
+ "cat": "Business",
+ "h1": "Power backup for a brewery with generator, solar and grid",
+ "title": "Brewery Power Backup: Diesel and Solar | Craft Beer School",
+ "desc": "How to plan power backup for a brewery in India: which loads to protect, sizing a generator, adding solar, UPS for controls and what a power cut costs.",
+ "teaser": "The grid drops at 3 PM on a May afternoon. The glycol chiller stops. Your lager starts warming.",
+ "standfirst": "Power cuts are part of running a brewery in much of India. The question is which equipment must keep running and how to pay for it sensibly. Here is how to plan backup from grid, generator and solar.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Not every load is equal",
+   "<p>A brewery has loads that can wait and loads that cannot. The mill can stop for an hour. A fermenting tank losing its cooling cannot. Start by listing every piece of electrical equipment with its power rating and ask one question for each: what happens if it stops for an hour, for six hours, for a day?</p><ul><li><strong>Must keep running.</strong> Glycol chiller and pumps, cold room, controllers for fermentation, keg coolers and draught systems.</li><li><strong>Should keep running.</strong> Kitchen refrigeration, lighting and POS during service, CO2 and compressed air for dispense.</li><li><strong>Can wait.</strong> Mill, packaging, CIP and office air conditioning. A brew already in the kettle is a judgement call.</li></ul>"
+  ],
+  [
+   "Why cooling comes first",
+   "<p>Fermentation generates heat. A lager fermenting at around 10 °C will warm steadily if the glycol stops. Above its range the yeast throws off flavours that no later cold conditioning can fully remove. A cold room full of kegs in a 40 °C summer warms quickly too. Our guide to <a href=\"glycol-cooling-systems.html\">glycol cooling systems</a> explains how chillers and tanks behave.</p><p>A well-insulated glycol reservoir gives some buffer, so size the reservoir generously. It buys time between the power cut and the generator starting.</p>"
+  ],
+  [
+   "Sizing the generator",
+   "<p>Diesel generators are the usual backup. Size the generator to the protected loads, not the whole brewery, with headroom. The trap is motor starting current. A compressor or large pump started direct-on-line can draw several times its running current for a moment, which can stall an undersized generator. Soft starters or variable frequency drives on the chiller and big pumps reduce that spike and allow a smaller set.</p><p>Use an automatic transfer switch so the generator takes over without someone running to start it at night. Test it under load every month. A generator that has not run since the last monsoon has a way of failing on the one day you need it. Add it to your <a href=\"preventive-maintenance-plan-brewery.html\">preventive maintenance plan</a>.</p>"
+  ],
+  [
+   "UPS for controls",
+   "<p>Controllers, PLCs, sensors and network equipment do not like brief cuts and voltage dips. Even a few seconds can reset a controller, lose a fermentation profile or leave valves in an unexpected state. A small UPS on the control panel and network keeps them steady while the generator starts. It is cheap protection compared with a lost batch.</p>"
+  ],
+  [
+   "Where solar fits",
+   "<p>Rooftop solar reduces daytime grid bills and fits a brewery's daytime loads well, especially cooling in summer. On its own, grid-tied solar usually shuts down during a grid failure for safety, so it does not act as backup without batteries or a hybrid inverter. Batteries large enough to carry a chiller for hours are expensive. For most breweries, solar is a cost saver and the generator remains the backup.</p><p>Net metering, open access and solar policies differ by state and change. Check the current rules with your electricity distribution company and a qualified installer. Our guide to <a href=\"brewery-utilities-water-power.html\">brewery utilities</a> covers connected load and tariff choices.</p>"
+  ],
+  [
+   "Voltage problems, not only cuts",
+   "<p>In many Indian locations the grid does not just fail. It sags, spikes and fluctuates. Low voltage makes motors draw more current and run hotter, which shortens the life of compressors and pumps. Spikes damage electronics. A servo voltage stabiliser on sensitive loads, proper earthing and surge protection on control panels are cheap compared with replacing a chiller compressor. Ask your electrician to log voltage for a week before you size anything. The pattern tells you what protection you need.</p>"
+  ],
+  [
+   "Count the cost of a cut",
+   "<p>Compare the cost of backup with the cost of a failure. A lost batch of lager means the raw materials, the excise already accounted for in some states, the tank time and the sales you cannot make. Add spoiled food, a closed taproom and kegs that need dumping. Diesel generation costs more per unit than grid power, so you want it running only when needed.</p><p>Keep a simple log of power cuts: date, duration and what was affected. After a few months you will know whether your backup is right-sized or whether you are paying for capacity you never use.</p>"
+  ],
+  [
+   "Write the power cut drill",
+   "<p>Put a one-page procedure on the wall. Who checks the generator started? Which loads to switch off manually? Who checks tank temperatures after the cut? Who is called at night? Brewers who rehearse it handle a long outage calmly. Brewers who do not tend to discover the gaps in the dark.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What size generator does a brewery need?",
+   "Size it to the loads that must keep running, mainly cooling and controls, plus headroom for motor starting current. Soft starters can allow a smaller set."
+  ],
+  [
+   "Can solar panels keep my brewery running during a power cut?",
+   "Grid-tied solar usually shuts down when the grid fails. It needs batteries or a hybrid inverter to act as backup."
+  ],
+  [
+   "Why put a UPS on brewery controls?",
+   "Brief cuts can reset controllers and lose fermentation profiles. A UPS keeps them running while the generator starts."
+  ]
+ ],
+ "cta": {
+  "title": "Plan utilities and backup as part of the business",
+  "body": "Brewery Business Management is a three week live course (₹8,999) on capex, operating costs and the decisions behind a reliable brewery, including utilities and maintenance budgets. It turns a guide's rules of thumb into your own costed plan.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewery-utilities-water-power",
+  "glycol-cooling-systems",
+  "preventive-maintenance-plan-brewery"
+ ]
+}

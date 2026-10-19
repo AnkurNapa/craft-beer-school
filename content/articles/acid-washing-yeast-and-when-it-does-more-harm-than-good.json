@@ -1,0 +1,67 @@
+{
+ "slug": "acid-washing-yeast-and-when-it-does-more-harm-than-good",
+ "cat": "Brewing science",
+ "h1": "Acid washing yeast and when it does more harm than good",
+ "title": "Acid Washing Yeast: When It Hurts | Craft Beer School",
+ "desc": "How acid washing yeast works, the pH, temperature and timing that keep it safe plus the slurries you should never wash.",
+ "teaser": "Acid washing kills bacteria in a yeast slurry. Done on the wrong slurry, it kills the yeast too.",
+ "standfirst": "Acid washing is an old brewery tool for cleaning up repitched yeast. It works when the yeast is healthy and the problem is bacteria. Used as a rescue for tired or wild contaminated yeast, it makes things worse.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What acid washing actually does",
+   "<p>Acid washing means dropping the pH of a yeast slurry to around 2.0 to 2.2 with food grade phosphoric acid, holding it cold for a short time, then pitching. Most beer spoilage bacteria cannot tolerate that pH for long. Healthy brewing yeast can, at least for an hour or two.</p><p>That is the whole trick: a short, cold, acidic shock that the yeast survives better than the bacteria do. It is a selective treatment, not a sterilising one. Some bacteria get through. Wild yeast, including diastaticus strains, survives just as well as your culture yeast, so acid washing does nothing for a wild yeast problem.</p>"
+  ],
+  [
+   "The procedure that keeps it safe",
+   "<p>The details matter more than the idea. A typical routine looks like this:</p><ul><li>Start with slurry harvested from a clean, healthy fermentation, ideally from a beer under about 7% ABV.</li><li>Chill the slurry to 2 to 4 °C before adding any acid. Keep it there throughout.</li><li>Dilute food grade phosphoric acid in sterile water and add it slowly with constant stirring. A pocket of strong acid touching yeast will kill it.</li><li>Check the pH with a calibrated meter. Stop at 2.0 to 2.2. Do not guess with test strips.</li><li>Hold for one to two hours, stirring gently now and then.</li><li>Pitch straight away. Do not store acid washed yeast.</li></ul><p>The one floor detail we would insist on: the slurry must be cold before the acid goes in. Acid on warm yeast damages the cell membrane far faster. Viability drops sharply even when the pH reading looks perfect.</p>"
+  ],
+  [
+   "When it does more harm than good",
+   "<p>Acid washing is a stress. Healthy yeast absorbs that stress and recovers in the fermenter. Yeast that is already stressed often does not. Skip acid washing when:</p><ul><li><strong>Viability is low.</strong> If a methylene blue or methylene violet count shows viability under about 90%, washing will push it lower. Discard and propagate fresh.</li><li><strong>The slurry came from a strong beer.</strong> Yeast from a 9 or 10% beer has spent days in high alcohol. Adding an acid shock on top is asking a lot.</li><li><strong>The yeast has been stored long or warm.</strong> Old slurry has used up its glycogen reserves. It needs fresh wort, not more punishment.</li><li><strong>The contaminant is wild yeast.</strong> The acid will not separate it from your culture.</li><li><strong>The problem is in your process.</strong> If bacteria keep turning up, washing every generation hides a cleaning failure somewhere upstream.</li></ul>"
+  ],
+  [
+   "What goes wrong in the fermenter afterwards",
+   "<p>Over-washed yeast shows itself a day or two later. Lag time stretches. Fermentation starts slowly and may finish high. Diacetyl and acetaldehyde hang around longer because the yeast lacks the vigour to clean them up. In a hot Indian summer, a long lag also gives any surviving bacteria a head start in warm wort.</p><p>If you wash, pitch a little more slurry than usual to make up for the cells you have lost. Count cells and check viability after washing, not only before. Watch the first 24 hours of the fermentation closely. A fermentation that is slow to start after washing is telling you the yeast paid a price.</p>"
+  ],
+  [
+   "Better habits than routine washing",
+   "<p>Most brewers who wash every generation would do better fixing the reason they need to. Clean harvest vessels and hoses properly, harvest from the middle of the cone rather than the trub at the bottom, store slurry cold and use it within a few days. Plate a sample on selective media every few generations so you know what is actually in the slurry. Our guide to <a href=\"yeast-harvesting-and-reuse.html\">harvesting and reusing yeast</a> covers the handling side.</p><p>Set a limit on generations for each strain and propagate fresh when you hit it, or sooner if attenuation, flocculation or flavour drifts. A fresh pitch costs money. A dumped tank costs more.</p><p>Keep acid washing for what it does well: a one-off clean-up of healthy yeast with a known, low bacterial load. When the <a href=\"infection-bacteria-in-brewing.html\">bacterial problem</a> is big enough to worry you, the safer call is usually fresh yeast and a hard look at your cleaning.</p>"
+  ],
+  [
+   "Reading the numbers before you decide",
+   "<p>The decision to wash is a lab decision, not a habit. You want three numbers: viability from a stained count, a cell count to set the pitch and a plate result telling you whether bacteria are present at all. Our guide to <a href=\"yeast-viability-and-vitality.html\">yeast viability and vitality</a> explains the staining.</p><p>Many small breweries skip all three and wash on instinct. That is how a slurry with 80% viability gets an acid bath, the next batch stalls at 1.020 and nobody can say why. Making these calls from data while knowing how yeast physiology responds to stress is the kind of thing a recipe sheet will never teach.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What acid is used for acid washing yeast?",
+   "Food grade phosphoric acid is the usual choice, diluted in sterile water and added slowly to cold slurry until the pH reaches about 2.0 to 2.2."
+  ],
+  [
+   "Does acid washing kill wild yeast?",
+   "No. Wild yeast, including diastaticus strains, tolerates low pH as well as brewing yeast does. Acid washing only reduces bacteria."
+  ],
+  [
+   "How long can acid washed yeast be stored?",
+   "It should not be stored. Pitch it as soon as the hold time is over, because the yeast is weakened and needs fresh wort to recover."
+  ],
+  [
+   "Should I acid wash yeast from a strong beer?",
+   "Generally not. Yeast from high alcohol beers is already stressed. An acid shock on top often leads to a slow, sluggish next fermentation."
+  ]
+ ],
+ "cta": {
+  "title": "Make yeast decisions from data, not habit",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers yeast physiology, stress, viability testing and microbiology so you know when to wash, repitch or start fresh.",
+  "label": "See the full syllabus",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "yeast-harvesting-and-reuse",
+  "infection-bacteria-in-brewing",
+  "yeast-viability-and-vitality"
+ ]
+}

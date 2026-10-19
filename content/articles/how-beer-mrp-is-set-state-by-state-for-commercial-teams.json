@@ -1,0 +1,71 @@
+{
+ "slug": "how-beer-mrp-is-set-state-by-state-for-commercial-teams",
+ "cat": "Beer for teams",
+ "h1": "How beer MRP is set state by state, for commercial teams",
+ "title": "How Beer MRP Is Set State by State | Craft Beer School",
+ "desc": "How the maximum retail price of beer is built up in India, from ex-brewery price through excise, margins and VAT, plus why it differs between states.",
+ "teaser": "The same can of beer costs very different amounts across a state border. The brewery's price is only one part of that.",
+ "standfirst": "Commercial teams in Indian beer companies spend much of their time on pricing. Unlike most consumer goods, the shelf price of beer is shaped heavily by state excise systems. Here is how MRP is usually built and why it varies.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What MRP means for beer",
+   "<p>The <strong>maximum retail price</strong> (MRP) is the highest price a retailer can charge, printed on the pack or label. For beer, the MRP is usually registered with each state's excise department as part of label and price approval. Changing it is not as simple as changing a price list.</p><p>Because alcohol is a state subject, each state has its own duty structure, distribution model and approval process. The result is that MRP for the same beer can differ widely across states.</p>"
+  ],
+  [
+   "The building blocks",
+   "<p>The exact structure differs by state, but a beer's MRP is commonly built up from these elements:</p><ol><li><strong>Ex-brewery price</strong> (sometimes called EBP or ex-distillery price for spirits): what the company charges for the beer itself, covering production cost and its margin.</li><li><strong>Excise duty and related levies</strong> set by the state, which may be based on volume, strength, price or a mix.</li><li><strong>Fees</strong> such as label registration or other state-specific charges.</li><li><strong>Wholesale margin</strong>, which goes to a private wholesaler or a state corporation depending on the state.</li><li><strong>Retail margin</strong>, often fixed or guided by the state.</li><li><strong>VAT or sales tax</strong>, since alcohol for human consumption is outside GST.</li></ol><p>Our guide to <a href=\"beer-excise-duty-india.html\">beer excise duty in India</a> explains the duty part in more detail.</p>"
+  ],
+  [
+   "Different states, different systems",
+   "<p>States organise beer distribution in different ways. In some, a government corporation is the sole wholesaler and buys beer from brewers. In others, private wholesalers and retailers operate under licences. Some states run government retail shops. These models change who takes each margin and how prices are approved.</p><p>Duty structures differ too. Some states tax on volume, some on declared price, some by strength band and some through a combination. A change in a state's excise policy, often announced with the state budget or a new excise year, can reset prices across the market. Our <a href=\"craft-beer-rules-by-state-india.html\">state by state rules hub</a> shows how much regimes vary.</p>"
+  ],
+  [
+   "Why a small price change moves MRP unevenly",
+   "<p>When duty is calculated on price, an increase in the ex-brewery price can carry extra duty and margin on top. When duty is based on volume or strength, the same increase passes through more directly. So a company that raises its own price by the same amount in two states can see quite different MRP changes.</p><p>Price bands and slabs add another effect. If duty steps up when a price crosses a threshold, a small change in ex-brewery price can push a beer into a higher band. Commercial teams model these steps carefully before submitting new prices.</p>"
+  ],
+  [
+   "The approval cycle",
+   "<p>In many states, price and label registration happen once a year, often linked to the financial year or the state's excise year. Mid-year changes may be restricted or need special approval. This makes pricing a planning activity: proposals are built months ahead, approved internally, submitted to each state and then printed onto labels or communicated to trade.</p><p>Rules, timing and documents differ by state and change over time. Always check the current notification and work with excise specialists or advisers.</p>"
+  ],
+  [
+   "Pricing strategy within the system",
+   "<p>Within these constraints, companies still make strategic choices: which segment to position a beer in, which pack sizes to offer in which states and how to balance volume against margin. Our guide to <a href=\"beer-pricing-strategy.html\">beer pricing strategy</a> covers the general principles.</p><p>Commercial teams that understand the build-up can explain to sales colleagues why a brand looks expensive in one state, why a competitor can undercut in another and why a pack change might make more sense than a price change.</p>"
+  ],
+  [
+   "A note on draught and on-trade prices",
+   "<p>MRP rules apply to packaged beer sold at retail. Prices in bars, restaurants and brewpubs work differently, because the outlet sets its own menu price within its licence conditions. Draught beer from a brewpub is often taxed on production rather than on a labelled pack. Commercial teams should keep these channels separate in their models, since the levers that move a retail MRP do not move a pint price in a bar in the same way.</p>"
+  ],
+  [
+   "Where commercial teams go wrong",
+   "<ul><li>Comparing MRPs across states without adjusting for duty and margin differences.</li><li>Modelling price changes on gross revenue rather than net sales after excise.</li><li>Missing a state's approval window and waiting a year for a planned change.</li><li>Ignoring price bands, so a proposed price lands just above a duty threshold.</li></ul>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Who sets the MRP of beer in India?",
+   "The company proposes it, but it is built from state excise duties, margins and taxes. It is usually registered with each state's excise department before sale."
+  ],
+  [
+   "Why is beer cheaper in some states?",
+   "Each state has its own duty structure, distribution model and margins. Differences in excise and in how it is calculated are the main reasons prices vary."
+  ],
+  [
+   "Is GST included in beer MRP?",
+   "No. Alcohol for human consumption is outside GST. States charge excise and usually VAT instead, which are built into the MRP."
+  ]
+ ],
+ "cta": {
+  "title": "Help commercial teams price beer state by state",
+  "body": "Our Route to market and regulation in India module explains how excise, distribution models and approvals shape beer prices. It is built around your team's own brands and states.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "beer-pricing-strategy",
+  "beer-excise-duty-india",
+  "craft-beer-rules-by-state-india"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "setting-up-shelf-life-trials-before-your-first-packaged",
+ "cat": "Consultancy",
+ "h1": "Setting up shelf life trials before your first packaged release",
+ "title": "Setting Up Shelf Life Trials | Craft Beer School",
+ "desc": "How to run shelf life trials before your first packaged beer: storage conditions, test intervals, tasting against a cold control and what to measure.",
+ "teaser": "The date on your can is a promise. A shelf life trial is how you find out whether you can keep it.",
+ "standfirst": "Many first packaged releases carry a best before date somebody guessed. A simple, well-planned shelf life trial replaces the guess with evidence and tells you how your beer behaves in Indian heat before your customers find out.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why guess when you can test",
+   "<p>Packaged beer changes from the day it is sealed. Hop aroma fades, malt flavours turn sweet and papery, haze forms or drops out and in the worst case bacteria grow. How fast this happens depends on the beer, the oxygen picked up at packaging and above all the temperature it sits at. Our guide to <a href=\"beer-shelf-life.html\">beer shelf life</a> explains the chemistry.</p><p>A shelf life trial tells you three things: how long your beer stays acceptable when stored well, how quickly it falls apart when stored badly and which faults appear first. With that, you can set a date you trust and push your distributors on cold storage with evidence rather than a feeling.</p>"
+  ],
+  [
+   "Design the trial before the first run",
+   "<p>Plan the trial before packaging so you set aside enough packages from one batch. Take them from across the run, not just the first pallet. A useful design stores packages in three conditions:</p><ul><li><strong>Cold control.</strong> Around 2 to 4 °C, the best case and your reference for tasting.</li><li><strong>Ambient.</strong> A room at normal Indian storeroom temperature, which for much of the year is well above European assumptions.</li><li><strong>Warm stress.</strong> A temperature such as 30 to 35 °C, close to a hot warehouse or a truck in summer.</li></ul><p>Decide your test points in advance. Weekly for the first month, then every two to four weeks to the end of your intended shelf life and beyond it. You want to see the beer fail, so the trial must run past the date you hope to print.</p>"
+  ],
+  [
+   "What to measure at each point",
+   "<p>Record the baseline on packaging day. Then at each test point measure what your lab can manage:</p><ul><li>Total package oxygen or dissolved oxygen at the start, as it predicts much of what follows.</li><li>Carbonation, to check for leaking seals or crowns.</li><li>Haze, measured with a turbidity meter if you have one or judged against a reference if not.</li><li>pH, which moves if bacteria are growing.</li><li>Micro plating on selective media, especially for unpasteurised beer.</li></ul><p>Label every package with batch, storage condition and planned test date before it goes into storage. Keep a simple sheet with one row per test point. It is surprisingly easy to lose track of which cans were meant to be opened in week six, especially in a busy brewery.</p>"
+  ],
+  [
+   "Taste against the cold control",
+   "<p>Sensory is the measurement that counts, because customers judge flavour, not data. At each point, taste the ambient and warm samples against the cold control. A <a href=\"triangle-test.html\">triangle test</a> tells you whether the difference is detectable at all. A short descriptive sheet tells you what changed: hop aroma, cardboard, honey, sherry, sourness or haze.</p><p>Agree in advance the point at which the beer fails. For a hop-forward beer it might be the moment a panel reliably picks out loss of aroma. For a lager it might be the first sign of cardboard. Write that rule down before you start so nobody argues for an extra month later.</p>"
+  ],
+  [
+   "Forced ageing as an early warning",
+   "<p>Warm storage speeds up staling, so a short spell of warm forced ageing gives an early read on how a beer will hold up. Our guide to <a href=\"forced-ageing-tests.html\">forced ageing tests</a> describes the method. Treat any conversion between days warm and weeks cold as a rough guide, because different staling reactions speed up at different rates. Forced ageing is a good way to compare batches or packaging changes quickly. The real-time trial is what sets the date.</p><p>Keep notes of what each test showed, even when the beer passes. A trial that shows aroma fading steadily at ambient from week four is useful information for the next recipe or the next packaging change.</p>"
+  ],
+  [
+   "Setting the date and using the results",
+   "<p>Set the best before date inside the point where the ambient samples failed, with a margin. If your beer only holds up when cold, say so on the label and in your trade terms. Then use the results. High oxygen at packaging points to the filler. Fast loss at ambient points to a cold chain argument with your distributor. In India, where packaged beer can sit in non-chilled storage for weeks, that argument is often worth more than any change in the brewery.</p><p>Repeat the trial when the recipe, packaging line or packaging material changes. The first trial gives you a baseline. Later trials tell you whether you are improving.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should a shelf life trial run?",
+   "Past the date you intend to print. You need to see the beer fail in ambient and warm conditions to know how much margin you have."
+  ],
+  [
+   "Can forced ageing replace a real-time trial?",
+   "No. It gives a quick comparison between batches or packaging changes, but conversion rules are rough. Use real-time storage results to set your date."
+  ],
+  [
+   "What temperature should the warm samples be held at?",
+   "Pick a temperature that matches the worst realistic storage your beer will meet, such as a hot warehouse or truck. Around 30 to 35 °C is a reasonable stress condition in India."
+  ]
+ ],
+ "cta": {
+  "title": "Not sure how long your packaged beer really lasts?",
+  "body": "Our consultant brewers design shelf life trials with you: storage conditions, test points, lab checks and sensory against a cold control. Ankur Napa leads on quality and data, Rahul Baliyan on brewing. Your team runs the next trial alone.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "forced-ageing-tests",
+  "beer-shelf-life",
+  "beer-stability-in-indian-heat"
+ ]
+}

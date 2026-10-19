@@ -1,0 +1,67 @@
+{
+ "slug": "english-ale-yeast-strains-compared",
+ "cat": "Ingredients",
+ "h1": "English ale yeast strains compared for bitters and stouts",
+ "title": "English Ale Yeast Strains Compared | Craft Beer School",
+ "desc": "How English ale yeast strains differ in attenuation, flocculation and flavour, plus which to choose for bitters, ESBs, porters and stouts.",
+ "teaser": "Some English strains finish sweet and malty, others dry and minerally. Pick the wrong one and your bitter turns into a different beer.",
+ "standfirst": "English ale yeasts are where much of the character of a bitter or a stout comes from. They differ far more than the generic label suggests. The choice decides the body, the fruit and the clarity of the finished beer.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the strains have in common",
+   "<p>English ale strains are top-fermenting Saccharomyces cerevisiae, adapted over generations to British breweries. Most ferment best at around 17 to 20 °C, produce moderate fruity esters and flocculate well. Many were selected in open square fermenters where yeast was skimmed from the top.</p><p>Beyond that they split sharply. The differences that matter in the brewery are attenuation, flocculation and the type of ester they produce. Our guide to <a href=\"ale-vs-lager-yeast.html\">ale and lager yeast</a> covers the basics.</p>"
+  ],
+  [
+   "The highly flocculent, malty strains",
+   "<p>These include liquid strains sold under names such as London ESB (Wyeast 1968) and English Ale (WLP002), along with similar dry strains like Lallemand Windsor. They drop out of suspension fast and leave clear beer quickly.</p><p>Attenuation is usually low to moderate, so beers finish fuller and sweeter. Esters lean towards stone fruit and toffee. They suit an ESB, an English mild or a strong ale, where malt should lead.</p><p>The catch is diacetyl. Because the yeast drops early, it can leave before cleaning up. Raise the temperature by 2 to 3 °C towards the end of fermentation, rouse the yeast if needed and hold until a forced diacetyl test is clean. Our <a href=\"diacetyl-rest.html\">diacetyl rest</a> guide explains the method.</p>"
+  ],
+  [
+   "The drier, cleaner strains",
+   "<p>Strains sold as Dry English Ale (WLP007) and British Ale (Wyeast 1098), along with the dry Fermentis SafAle S-04, attenuate further and leave a crisper finish. They still flocculate well and produce gentle English fruit, but the beer reads drier.</p><p>These are good for an ordinary bitter that should be sessionable, an English IPA or a dry stout where you want roast to snap rather than linger. S-04 is a workhorse in Indian brewpubs because it is a reliable dry yeast that tolerates transport better than liquid cultures. It can turn tart or sulphury if fermented too warm, so keep it under control.</p>"
+  ],
+  [
+   "The soft, fruity and minerally strains",
+   "<p>London Ale III (Wyeast 1318) gives a soft, round body and stone fruit esters. It is less flocculent than most English strains and became popular in hazy IPAs for that reason. In a best bitter it gives a juicy, gentle character.</p><p>London Ale (Wyeast 1028) is attenuative with a minerally, slightly woody finish that suits porters and dry bitters. Irish Ale strains (Wyeast 1084, WLP004) are clean with a slight fruit, a natural fit for dry stout and Irish red.</p><p>Attenuation figures vary between labs and worts. Treat the supplier's data sheet as a range and record what you actually get.</p>"
+  ],
+  [
+   "Choosing for bitters and stouts",
+   "<ul><li><strong>Ordinary or best bitter:</strong> a dry English strain for session drinkability, or London Ale III for softness. See our <a href=\"english-bitter.html\">English bitter</a> guide.</li><li><strong>ESB or strong bitter:</strong> a highly flocculent malty strain, with careful diacetyl management.</li><li><strong>Dry stout:</strong> Irish Ale or a dry English strain, so roast stays crisp.</li><li><strong>Sweet or oatmeal stout:</strong> a lower-attenuating malty strain to support body.</li><li><strong>Porter:</strong> London Ale or a moderate-attenuating English strain.</li></ul><p>Mash temperature interacts with all of this. A malty strain with a high mash can leave a beer too sweet. A dry strain with a low mash can thin a stout. Adjust one at a time.</p>"
+  ],
+  [
+   "Dry or liquid yeast in India",
+   "<p>Liquid English strains give the widest choice of character, but they are living cultures that suffer in transit. A pack that sat in a warm courier hub for three days arrives with low viability. If you use liquid yeast, order with cold packs, check the manufacture date and build a starter so you know the culture is active before brew day. Our guide to <a href=\"making-a-yeast-starter.html\">making a yeast starter</a> covers the method.</p><p>Dry strains such as S-04 and Windsor are tougher and easier to stock. The range is narrower, so many brewpubs run a dry strain for the core bitter or stout and bring in a liquid culture for one special beer. Once a liquid strain is in house, harvesting and repitching it spreads the cost across several batches.</p>"
+  ],
+  [
+   "Running English yeast in Indian heat",
+   "<p>Fermentation temperature control matters more than strain choice. An English strain at 24 °C in an uncooled fermenter in May produces solvent-like fusels and harsh fruit that no recipe can fix. Pitch at around 16 to 17 °C, let the yeast rise to 19 or 20 °C and hold it there with glycol.</p><p>Highly flocculent strains are excellent for repitching, because they crop cleanly. Harvest from the cone after the beer has cleared, store cold and repitch within about a week for the best vitality.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which English yeast is best for a bitter?",
+   "A dry English strain such as WLP007, Wyeast 1098 or S-04 gives a crisp, sessionable bitter. London Ale III gives a softer, fruitier one."
+  ],
+  [
+   "Why does my English ale taste of butter?",
+   "Highly flocculent strains can drop before reabsorbing diacetyl. Warm the beer by a few degrees near the end of fermentation and hold until it tests clean."
+  ],
+  [
+   "Can I use S-04 for a stout?",
+   "Yes. S-04 is attenuative and clean enough for a dry stout and reliable in Indian conditions. Keep fermentation cool to avoid tart or sulphury notes."
+  ]
+ ],
+ "cta": {
+  "title": "Master yeast with working brewers",
+  "body": "Join Advanced Brewing Science: six weeks of live weekend classes on yeast, fermentation and recipe design. Max 20 per batch, with recordings, assignments and a certificate.",
+  "label": "Save your seat",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "english-bitter",
+  "dry-stout-guide",
+  "ale-vs-lager-yeast"
+ ]
+}

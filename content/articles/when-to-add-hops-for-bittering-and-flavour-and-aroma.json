@@ -1,0 +1,67 @@
+{
+ "slug": "when-to-add-hops-for-bittering-and-flavour-and-aroma",
+ "cat": "Brewing basics",
+ "h1": "When to add hops for bittering, flavour and aroma",
+ "title": "When to Add Hops in the Boil and After | Craft Beer School",
+ "desc": "Why the same hop gives bitterness at 60 minutes and aroma at flameout. A plain guide to hop timing in the boil, whirlpool and dry hop.",
+ "teaser": "Same hop, same beer, three completely different results. It all depends on when it goes in.",
+ "standfirst": "A hop added at the start of the boil makes a beer bitter. The same hop added at the end makes it smell of citrus or pine. Timing is the main tool brewers have for steering hops. It is simpler than recipes make it look.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two things a hop gives you",
+   "<p>Hops carry two groups of compounds that matter to brewers. <strong>Alpha acids</strong> are the source of bitterness, but only after boiling changes them into a form that dissolves in wort. <strong>Essential oils</strong> carry the aroma: citrus, pine, flowers, tropical fruit, spice. These oils are volatile, meaning they evaporate easily in steam.</p><p>Heat helps the first group and destroys the second. That single tension explains every hop schedule you will ever read. The alpha acid percentage printed on the packet tells you how much bitterness potential a hop carries. Its name and variety tell you what kind of aroma to expect.</p>"
+  ],
+  [
+   "Early additions: bitterness",
+   "<p>Hops added at the start of a 60 minute boil spend a full hour in near boiling wort. That gives the alpha acids time to change into iso-alpha acids, the bitter compounds. Most of the oils boil off and leave with the steam, so these hops contribute bitterness and little else. Boiling much beyond 60 to 90 minutes adds little extra, because most of the change happens in the first hour.</p><p>Bitterness is measured in International Bitterness Units, or IBU. A crisp lager might sit around 15 to 25 IBU, a pale ale 30 to 45 and a West Coast IPA well above that. Our guide to <a href=\"what-is-ibu.html\">what IBU means</a> explains how the number is worked out and why two beers at the same IBU can taste different.</p><p>For bittering, brewers often choose a high alpha acid hop, because you need less of it and less plant matter in the kettle.</p>"
+  ],
+  [
+   "Middle additions: flavour",
+   "<p>Hops added with 10 to 20 minutes left still produce some bitterness, but less, since they have less time to change. More of their oils survive. This gives what brewers call hop flavour: the taste of the hop on the tongue rather than only the smell.</p><p>Many traditional recipes use a 15 minute addition for exactly this. It rounds out a beer without making it intensely aromatic.</p>"
+  ],
+  [
+   "Late additions: aroma",
+   "<p>Hops added in the last five minutes or at flameout (when the heat goes off) give the most aroma from the boil. Very little bitterness forms, especially once the wort starts cooling.</p><p>Many modern brewers go further with a <strong>whirlpool</strong> addition. After the boil, they cool the wort to roughly 75 to 85 °C and add hops for 20 to 30 minutes. At that temperature the oils dissolve into the wort but do not boil off as fast. Only a small amount of bitterness forms. Our guide to <a href=\"whirlpool-hopping.html\">whirlpool hopping</a> covers temperatures and timings.</p>"
+  ],
+  [
+   "Dry hopping: aroma after fermentation",
+   "<p>Dry hopping means adding hops to the fermenter, usually in the last few days of fermentation or just after it. There is no heat, so there is almost no bitterness. What you get is the strongest, freshest aroma a hop can give.</p><p>This is how hazy IPAs and most modern pale ales get their big fruit aromas. A typical homebrew dry hop is 3 to 5 g per litre for an IPA. Add the hops gently and avoid splashing, since oxygen picked up at this stage stales the beer. More is not always better: past a point, beers can taste grassy or harsh.</p><p>Dry hopped aroma fades fastest of all. That makes it vulnerable in Indian conditions. A dry hopped beer that sits warm for a fortnight loses much of what you paid for, so keep hoppy beer cold and drink it young.</p>"
+  ],
+  [
+   "A simple schedule to start with",
+   "<p>For a 20 litre American pale ale, a sensible beginner schedule might look like this:</p><ul><li>60 minutes: a bittering hop to give about 25 to 30 IBU.</li><li>10 minutes: a small addition of an aroma hop.</li><li>Flameout or whirlpool: a larger addition of the same aroma hop.</li><li>Dry hop: 50 to 60 g for three or four days near the end of fermentation.</li></ul><p>Choosing which hops to use at each stage is the next step. Our list of <a href=\"hop-varieties-for-beginners.html\">hop varieties for beginners</a> groups them by character.</p><p>Once timing makes sense, recipe design opens up. You can read a recipe and predict what it will taste like before you brew it, which is the point where brewing stops being copying and starts being cooking.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do hops added early make beer bitter?",
+   "Boiling changes alpha acids into iso-alpha acids, which dissolve in wort and taste bitter. The longer the boil, the more change, up to about an hour."
+  ],
+  [
+   "Do dry hops add bitterness?",
+   "Very little. There is no heat to change the alpha acids, so dry hopping mainly adds aroma."
+  ],
+  [
+   "What is a flameout hop addition?",
+   "Hops added at the moment the heat is turned off. They add aroma with little bitterness."
+  ],
+  [
+   "Why does hop aroma fade?",
+   "The oils that carry aroma are volatile and break down with heat, oxygen and time. Keep hoppy beers cold and drink them fresh."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to build a hop schedule from scratch",
+  "body": "Brewing Fundamentals covers hops, mashing, the boil and fermentation in four weeks of live weekend classes, so you can design recipes instead of copying them.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "what-is-ibu",
+  "whirlpool-hopping",
+  "hop-varieties-for-beginners"
+ ]
+}

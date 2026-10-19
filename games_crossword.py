@@ -146,10 +146,10 @@ def clue_list(s):
 
 
 PARTS = [
-    ("Ingredients", "barley", "Malt, hops, yeast and water, and the chemistry that binds them.",
+    ("Ingredients", "barley", "Malt, hops, yeast and water, plus the chemistry that binds them.",
      ["Malt basics", "Malt varieties", "Hops", "Hop varieties", "Hop farming", "Yeast", "Brewing water", "Adjuncts",
       "Brewing chemistry", "Recipe design"]),
-    ("The brewhouse", "kettle", "From mash tun to bright tank, and the plant that keeps it running.",
+    ("The brewhouse", "kettle", "From mash tun to bright tank, plus the plant that keeps it running.",
      ["Mashing", "The boil", "Brew day in order", "Brewhouse kit", "Fermentation", "Cellar and conditioning",
       "Cleaning and hygiene", "Utilities and the plant", "Brewing numbers", "Quality control"]),
     ("Beer styles", "star", "Lagers, ales, sours and everything brewed in between.",
@@ -222,7 +222,7 @@ Free to print and share for teaching. Please do not sell it.</p></div>""")
 def howto_page(n, total, lessons, courses):
     return page(f"""<h1>How to use this book</h1>
 <p style="margin-top:3mm">There are {total} crosswords here. The first 50 cover every corner of brewing in five parts:
-ingredients, the brewhouse, beer styles, what happens in the glass, and the people, places and history behind it all.
+ingredients, the brewhouse, beer styles, what happens in the glass and the people, places and history behind it all.
 Part six is the course companion: {lessons} more puzzles, one for each lesson of the {courses} Craft Beer School courses.
 Each puzzle has twelve clues and fits on a single page, so you can print just the one you need.</p>
 <h2>Reading the clues</h2><ol>

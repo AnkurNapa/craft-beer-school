@@ -1,0 +1,67 @@
+{
+ "slug": "beer-skus-and-master-data-pack-size-and-brand-hierarchies",
+ "cat": "Beer for teams",
+ "h1": "Beer SKUs and master data: pack, size and brand hierarchies",
+ "title": "Beer SKUs and Master Data Explained | Craft Beer School",
+ "desc": "How beer SKUs are built from brand, pack and size, why state excise multiplies them in India and how to design a master data hierarchy that holds up.",
+ "teaser": "One beer, three pack sizes, twelve states. Suddenly you have dozens of SKUs and a reporting problem.",
+ "standfirst": "Master data looks dull until a forecast, a price list or a sales report breaks because two teams define a product differently. Beer has its own quirks. Here is how its SKUs are built and how to keep the hierarchy clean.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a SKU means in beer",
+   "<p>A <strong>stock keeping unit</strong> (SKU) is the smallest item a company plans, stocks and sells separately. In beer it is usually a combination of liquid, pack type and pack size. A strong lager in a 650 ml bottle and the same lager in a 500 ml can are different SKUs, even though the beer inside is identical.</p><p>In many drinks companies the SKU also carries the selling unit, typically a case. A case of twelve 650 ml bottles and a case of twenty-four 330 ml cans are different selling units with different volumes, prices and pallet patterns.</p>"
+  ],
+  [
+   "A typical hierarchy, top to bottom",
+   "<p>Most beer companies use some version of this structure:</p><ul><li><strong>Category:</strong> beer, as opposed to spirits or wine in a multi-category company.</li><li><strong>Segment:</strong> for example mild lager, strong lager, wheat beer or premium import.</li><li><strong>Brand family:</strong> the master brand.</li><li><strong>Brand variant:</strong> the specific liquid, such as the strong version or the wheat version of the brand.</li><li><strong>Pack type:</strong> returnable glass bottle, non-returnable bottle, can or keg.</li><li><strong>Pack size:</strong> 330 ml, 500 ml, 650 ml or a keg volume.</li><li><strong>Selling unit:</strong> the case or keg configuration.</li></ul><p>Our <a href=\"beer-brand-portfolio-explained.html\">beer brand portfolio guide</a> explains why brands are grouped the way they are.</p>"
+  ],
+  [
+   "Why India multiplies SKUs",
+   "<p>State excise is the big multiplier. In many states a beer must carry a state-specific label, an approved price and sometimes a state marking or security sticker. So the same liquid in the same can may become a separate SKU for each state, because stock labelled for one state cannot legally be sold in another.</p><p>Returnable glass adds another twist. Returnable bottles circulate many times, so companies track bottle stock and crates as assets, often with their own codes. Promotional packs, festival multipacks and export versions add more.</p><p>The result is that a company with a modest portfolio of liquids can manage hundreds of active SKUs. Master data has to handle that without hiding the simple truth that many SKUs share one liquid.</p>"
+  ],
+  [
+   "Attributes that matter for reporting",
+   "<p>Each SKU record should carry attributes that let teams aggregate correctly:</p><ul><li>Volume per selling unit in litres, so sales can roll up to hectolitres.</li><li>Alcohol content, which feeds excise calculations and some reporting.</li><li>Liquid code, linking every pack back to the beer recipe and the brewery's production records.</li><li>State or market of sale, along with its excise label reference.</li><li>Barcode such as a GTIN where used, plus status flags for active, phased out or seasonal.</li></ul><p>Missing volume and missing liquid codes are common errors in drinks data. Without them, total volume and liquid-level forecasting both break.</p>"
+  ],
+  [
+   "Common master data problems",
+   "<p>A few problems come up again and again in beer master data:</p><ul><li><strong>Duplicate SKUs</strong> created for a short promotion and never retired.</li><li><strong>Inconsistent naming</strong>, so one system says \"Strong 650\" and another says \"STR BTL 0.65\".</li><li><strong>Wrong volume conversions</strong>, often a case of 24 x 330 ml entered as 24 x 500 ml.</li><li><strong>Changing hierarchies</strong>, when a brand moves segment and history is not restated.</li><li><strong>Planning and sales disagreeing</strong>, because one plans at liquid level and the other sells at state SKU level.</li></ul><p>These issues show up later as forecast errors and arguments over whose numbers are right, a theme covered in <a href=\"shipments-vs-depletions-beer-sales-data.html\">shipments vs depletions</a>.</p>"
+  ],
+  [
+   "Designing for planning and sales",
+   "<p>Production plans liquids. The brewery cares how many hectolitres of each beer to brew. Packaging plans pack types and sizes. Sales and finance work at state SKU level. Good master data links all three so a planner can move from a state SKU forecast down to a liquid demand and back up again.</p><p>A sensible test: can you take last month's sales by SKU, convert to hectolitres and get a number that matches the brewery's packaged volume for the same period, allowing for stock changes? If not, the hierarchy has a hole.</p>"
+  ],
+  [
+   "Getting teams to agree",
+   "<p>The technical design is the easier part. The hard part is agreement between marketing, supply, finance and IT on definitions, plus a single owner who approves new SKUs. Teams that understand how beer is made, packed and taxed find these conversations much shorter, because they can see why a new state label is a new SKU while a new carton print run may not be.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does the same beer have many SKUs?",
+   "Different pack types and sizes create separate SKUs. In India, state excise labelling often makes the same pack a separate SKU for each state where it is sold."
+  ],
+  [
+   "What is a liquid code?",
+   "It is an identifier for the beer itself, separate from the pack. It links every SKU back to the recipe and production records, so liquid-level demand can be planned."
+  ],
+  [
+   "How do I convert beer sales to hectolitres?",
+   "Multiply the number of units by the litres per unit and divide by 100. Accurate volume data in each SKU record makes this reliable."
+  ]
+ ],
+ "cta": {
+  "title": "Fix the product data your reports depend on",
+  "body": "Our Beverage 101 module explains how beer is brewed, packed, labelled and taxed, so master data and planning teams can build hierarchies that match reality. It is built around your team's own portfolio and SKU list.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "beer-brand-portfolio-explained",
+  "shipments-vs-depletions-beer-sales-data",
+  "beer-glossary-for-new-joiners"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "starch-gelatinisation-temperatures-of-rice-maize-and-barley",
+ "cat": "Brewing science",
+ "h1": "Starch gelatinisation temperatures of rice maize and barley compared",
+ "title": "Gelatinisation temperatures compared | Craft Beer School",
+ "desc": "Why barley malt converts in an ordinary mash while rice and maize need cooking first: gelatinisation ranges, granule structure and what it means for brewers.",
+ "teaser": "Barley starch lets go in the low 60s °C. Rice and maize hold out for longer. That gap decides how every adjunct brewery is built.",
+ "standfirst": "Enzymes cannot touch starch until it gelatinises. Barley, rice and maize do that at different temperatures. The difference explains why some brewhouses have a cereal cooker and others do not.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What gelatinisation means",
+   "<p>Starch sits in cereal grains as tightly packed granules. In cold water they stay intact. Heat them in water and at a certain point they absorb water, swell and lose their ordered crystalline structure. That is gelatinisation. It is the moment the starch chains become available to amylase enzymes.</p><p>Gelatinisation happens over a range, not at one exact temperature. Different granules in the same sample let go at slightly different points. Brewing texts usually quote the range. The numbers also differ between varieties and harvests.</p><p>A useful picture is cooking rice at home. Raw rice in warm water from the tap stays hard for hours. Bring it near the boil and it softens within minutes. The same thing happens in a cooker, just with grits instead of grains and an enzyme waiting to act. Once the granule has opened, amylase cuts the long chains into dextrins and sugars quickly. Before it opens, the enzyme has almost nothing to work on.</p>"
+  ],
+  [
+   "The numbers side by side",
+   "<p>These are the ranges commonly quoted in brewing literature. Treat them as guides.</p><ul><li><strong>Barley malt:</strong> roughly 61 to 65 °C for the main starch granules, with small granules spanning wider.</li><li><strong>Wheat:</strong> similar to barley, in the high 50s to mid 60s °C.</li><li><strong>Maize:</strong> roughly 62 to 74 °C, with brewing practice often cooking grits hotter to be sure.</li><li><strong>Rice:</strong> the widest spread, from about 61 to 78 °C and higher for some varieties. Many brewers treat rice as needing 70 to 80 °C or more.</li></ul><p>Now compare that with the enzymes. Beta-amylase loses activity quickly above about 65 °C. Alpha-amylase works best around 70 to 75 °C but does not last long there. A barley mash at 64 to 66 °C gelatinises its own starch while both enzymes still work. Rice or maize at the same temperature stays largely ungelatinised.</p>"
+  ],
+  [
+   "Why rice and maize hold out",
+   "<p>Several factors push the range up. Rice and maize starch granules are packed in a dense protein matrix, especially in hard, glassy endosperm. Maize starch forms complexes between amylose and lipid that resist swelling. The ratio of amylose to amylopectin matters too: higher amylose varieties of rice tend to gelatinise at higher temperatures. That is why the range for rice varies so much between a sticky short grain and a long grain.</p><p>Malting changes barley too. During germination the grain's own enzymes break down the cell walls and protein around the starch, so malt starch is easier to reach than raw barley starch. Rice and maize used as adjuncts are not malted, so they arrive with their protein matrix intact. Raw barley used as an adjunct behaves more like rice than like malt for the same reason. It brings beta-glucan as well.</p>"
+  ],
+  [
+   "What brewers do about it",
+   "<p>There are three routes.</p><ol><li><strong>Cook the adjunct first</strong> in a cereal cooker, usually up to a boil, then mix it into the main malt mash. This is the classic double mash used for rice and maize grits.</li><li><strong>Buy it pre-gelatinised.</strong> Flaked, torrefied or micronised cereals have been cooked and can go straight into the mash tun.</li><li><strong>Use refined starch or syrups</strong> made from rice or maize, added to the kettle.</li></ol><p>Our guide to <a href=\"rice-and-maize-adjuncts-india.html\">rice and maize adjuncts in India</a> covers which route suits which brewery. The temperature logic of the main mash is in our <a href=\"mash-temperature-guide.html\">mash temperature guide</a>.</p>"
+  ],
+  [
+   "The floor sign of ungelatinised starch",
+   "<p>The clearest sign is a positive iodine test that will not clear, even after a long saccharification rest. Iodine turns blue-black with starch. If the main mash passes but the wort from the lauter tun keeps showing starch, cereal particles in the grain bed are releasing it late. Starch that gets through causes slow lautering, lost extract and a starch haze in the finished beer that no amount of cold storage will clear.</p>"
+  ],
+  [
+   "Why this matters in India",
+   "<p>Rice and maize are available, familiar and often cheaper per kg of extract than imported malt. Broken rice from local mills varies by variety and season, so its gelatinisation behaviour varies too. A brewer who understands the starch, not just the recipe, can adjust cooker temperature and time when a new rice lot behaves differently. That understanding of enzymes and starch is the foundation of any mash design.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can barley malt be mashed directly?",
+   "Yes. Its starch gelatinises in the same range where malt enzymes are active, so a single infusion at 63 to 67 °C converts it."
+  ],
+  [
+   "Does milling finer lower gelatinisation temperature?",
+   "It does not change the temperature, but finer grits gelatinise faster because water and heat reach every particle sooner."
+  ],
+  [
+   "Is oat starch like barley?",
+   "Oat starch gelatinises at relatively low temperatures, but oats bring a lot of beta-glucan that thickens the mash. Flaked oats are normally used for that reason."
+  ]
+ ],
+ "cta": {
+  "title": "Learn the starch science behind every mash",
+  "body": "Advanced Brewing Science covers starch, enzymes and mash design in depth, including adjunct brewing and the arithmetic of multi-vessel mashes.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "rice-and-maize-adjuncts-india",
+  "mash-temperature-guide",
+  "enzymes-in-the-mash"
+ ]
+}

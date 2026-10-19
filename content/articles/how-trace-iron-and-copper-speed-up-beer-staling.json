@@ -1,0 +1,71 @@
+{
+ "slug": "how-trace-iron-and-copper-speed-up-beer-staling",
+ "cat": "Brewing science",
+ "h1": "How trace iron and copper speed up beer staling",
+ "title": "Iron, copper and beer staling | Craft Beer School",
+ "desc": "How trace iron and copper speed up oxidation and staling in beer, where they come from in the brewery and how to keep them low.",
+ "teaser": "A few parts per billion of oxygen do the damage. Trace iron and copper tell that oxygen where to strike.",
+ "standfirst": "Iron and copper act as catalysts for the reactions that turn oxygen into staling compounds. We explain the chemistry, the common sources in Indian breweries and the practical steps to keep metals low.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Metals turn oxygen into a weapon",
+   "<p>Dissolved oxygen on its own reacts fairly slowly with beer. What speeds it up are transition metals, mainly iron and copper. They pass electrons to oxygen and form highly reactive molecules called reactive oxygen species, including superoxide, hydrogen peroxide and the hydroxyl radical.</p><p>These attack ethanol, hop acids, lipids and polyphenols. The products include staling aldehydes such as trans-2-nonenal, along with loss of hop bitterness and aroma. Our guide to <a href=\"beer-staling-chemistry.html\">beer staling chemistry</a> covers the full set of reactions.</p>"
+  ],
+  [
+   "Fenton chemistry in plain terms",
+   "<p>The key reaction is called the Fenton reaction. Ferrous iron reacts with hydrogen peroxide to give the hydroxyl radical, one of the most reactive molecules known. The iron is then recycled back by other reactions, so a small amount keeps working.</p><p>Copper works in a similar way. Because the metal is recycled, even trace levels matter. That is why brewers care about parts per billion, not just parts per million.</p>"
+  ],
+  [
+   "Where the metals come from",
+   "<p>Iron and copper can enter beer from several sources:</p><ul><li><strong>Brewing water.</strong> Borewell water in many Indian regions can carry high iron. Municipal water usually carries less, but old pipes add some.</li><li><strong>Malt and hops.</strong> Both carry trace metals, though most is lost in spent grain and trub.</li><li><strong>Filter aids.</strong> Diatomaceous earth and perlite can release iron into beer if not acid washed.</li><li><strong>Equipment.</strong> Copper fittings, brass valves and damaged or poorly passivated stainless steel.</li><li><strong>Process chemicals.</strong> Some cleaning or processing aids can carry trace metals if bought from unreliable suppliers.</li></ul><p>One brewhouse-floor detail: rust-red stains around the inlet of a borewell storage tank or on cartridge filter housings are a strong sign of iron in your supply. Have the water tested before blaming the malt.</p>"
+  ],
+  [
+   "How metals show up in the glass",
+   "<p>You rarely taste the metal itself. What you notice is the beer ageing faster than it should. A pale lager loses its fresh malt aroma and picks up a papery note within weeks. Hop aroma in an IPA fades and turns dull. Bitterness can drop and become harsher.</p><p>Metals can also make haze worse. Iron and copper help polyphenols and proteins bind together, so a beer that was bright in the tank turns cloudy in the bottle. If a brewery fights both early staling and haze at the same time, metal levels are worth checking.</p><p>A simple way to test is a forced ageing trial. Hold a few packaged samples warm for two weeks and compare them with cold samples from the same batch. If the warm samples stale much faster than similar beers from other batches, look at oxygen first and metals second.</p>"
+  ],
+  [
+   "How much is too much",
+   "<p>Many brewing references suggest keeping iron in brewing water below about 0.1 mg/L. Copper should also be very low. Beyond flavour stability, high iron gives a metallic taste and can affect yeast and haze. Our guide to <a href=\"metallic-off-flavour.html\">metallic off flavour</a> covers the taste side.</p><p>Test your water at an accredited lab. Test again after any change of source. Borewell water can change with the season and with rainfall.</p>"
+  ],
+  [
+   "Keeping metals low",
+   "<p>The practical steps are mostly about sources:</p><ul><li>Treat water for iron if needed. Oxidation and filtration, or a dedicated iron removal unit, can bring borewell water into range.</li><li>Avoid copper and brass in contact with beer after the boil. Replace old fittings with food-grade stainless steel.</li><li>Passivate new stainless steel tanks and fittings before use.</li><li>Use acid washed filter aids from reliable suppliers.</li><li>Keep oxygen low everywhere after fermentation. Without oxygen, metals have little to work with.</li></ul>"
+  ],
+  [
+   "Stainless steel is not always inert",
+   "<p>Brewers trust stainless steel because it resists corrosion. That resistance comes from a thin chromium oxide layer on the surface. If that layer is damaged by scratches, chlorine-based sanitisers, strong acids or poor welding, free iron can be exposed and leach into beer.</p><p>New tanks are often contaminated with iron from cutting and grinding tools during fabrication. Passivation removes that iron and rebuilds the protective layer. Old tanks with pitting or rust spots need inspection and repair.</p><p>Check fittings and pumps too. A cheap fitting made from the wrong grade of steel, or a brass valve left in a beer line, can add more metal than the entire tank.</p>"
+  ],
+  [
+   "Antioxidants in beer",
+   "<p>Beer has some natural defences. Yeast produces sulphur dioxide during fermentation, which reacts with staling aldehydes and holds them in a less volatile form. Polyphenols from malt and hops can scavenge some radicals, though they can also feed haze. Some studies suggest that malt-derived compounds and melanoidins bind metals and reduce their activity.</p><p>These defences get used up over time, faster in warm storage. In Indian distribution chains where beer can sit warm for weeks, metal control and oxygen control together decide shelf life.</p><p>Our guide to <a href=\"brewing-water-basics.html\">brewing water basics</a> covers water testing and treatment more widely.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do iron and copper speed up staling?",
+   "They catalyse reactions that turn dissolved oxygen into highly reactive molecules, which attack beer compounds and form staling aldehydes."
+  ],
+  [
+   "How much iron is acceptable in brewing water?",
+   "Many brewing references suggest below about 0.1 mg/L. Test your supply at an accredited lab, especially borewell water."
+  ],
+  [
+   "Can I use copper fittings in a brewery?",
+   "Avoid copper and brass in contact with beer after the boil. Use food-grade stainless steel instead."
+  ]
+ ],
+ "cta": {
+  "title": "Understand what limits your beer's shelf life",
+  "body": "Advanced Brewing Science covers oxidation, staling and water chemistry, so you can trace shelf life problems back to their causes.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "beer-staling-chemistry",
+  "metallic-off-flavour",
+  "brewing-water-basics"
+ ]
+}

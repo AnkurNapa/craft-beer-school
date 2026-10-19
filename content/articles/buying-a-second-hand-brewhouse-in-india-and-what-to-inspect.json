@@ -1,0 +1,71 @@
+{
+ "slug": "buying-a-second-hand-brewhouse-in-india-and-what-to-inspect",
+ "cat": "Business",
+ "h1": "Buying a second-hand brewhouse in India and what to inspect",
+ "title": "Second-hand brewhouse: what to inspect | Craft Beer School",
+ "desc": "What to check before buying a used brewhouse or fermenters in India: steel, welds, jackets, heating, controls, paperwork and the real cost of moving it.",
+ "teaser": "A used brewhouse can save a lot of money or hide a very expensive problem under the cladding. Here is what to look at.",
+ "standfirst": "As brewpubs close or upgrade, used brewing kit comes onto the Indian market more often. A careful inspection decides whether it is a bargain. This is the checklist we would take to the site.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why buy used at all",
+   "<p>The case for used kit is simple: lower price and shorter lead time than a new build. The risk is just as simple. Stainless steel lasts decades when it is looked after and fails quietly when it is not. The faults are often under insulation or inside a jacket where you cannot see them.</p><p>Read our <a href=\"brewery-equipment-buying-guide.html\">equipment buying guide</a> first so you know what you would specify new. Then judge the used kit against that spec, not against its asking price.</p>"
+  ],
+  [
+   "Steel and welds",
+   "<p>Ask what grade of stainless the vessels are made from. 304 is common for brewing vessels. 316 resists chlorides better. Look inside every vessel with a good torch.</p><ul><li>Pitting or brown spots, often from chlorinated water or chlorine sanitisers left too long.</li><li>Weld seams that are rough, discoloured or crevice-like on the product side, where soil and bacteria can hide.</li><li>Dents or bulges on cones and dished ends, which suggest a vacuum event or overpressure.</li></ul><p>If the seller cannot show any passivation record, plan to clean and passivate before first use anyway.</p>"
+  ],
+  [
+   "Jackets, insulation and pressure",
+   "<p>Fermenters and brite tanks are cooled through glycol jackets. A leaking jacket can let glycol into beer, which is a serious problem. Ask for each jacket to be pressure tested in front of you and watch the gauge hold. Feel the cladding for soft or wet patches, which mean insulation has soaked up water or glycol and will cool badly.</p><p>Check the rated working pressure on every tank that will hold carbonated beer. Look for a working pressure relief valve and vacuum relief. If there is no plate or certificate for the rating, treat the tank as unrated until a qualified inspector says otherwise.</p>"
+  ],
+  [
+   "The brewhouse itself",
+   "<p>On the mash tun or lauter tun, lift the false bottom if you can and check the slots for damage. Look at the rake drive, the gearbox and the seals. On the kettle, check the heating: steam jackets and coils for leaks, or electric elements for scale and burnt terminals. Run the pumps and listen.</p><p>One useful test is to fill the kettle with water, heat it to a rolling boil and time it. If it takes far longer than the seller claims, the heating is undersized or failing. Boil vigour drives DMS removal and hop utilisation.</p>"
+  ],
+  [
+   "Chiller, boiler and the utilities behind them",
+   "<p>The glycol chiller is often sold with the tanks and is easy to overlook. Ask its age, the refrigerant it uses, when it was last serviced and whether the compressor has been replaced. Run it and watch how long it takes to pull the glycol tank down to temperature. In Indian summers a tired chiller that coped in a cooler city may struggle to hold lager fermentations at 10 to 12 °C.</p><p>If there is a steam boiler, it will need its own inspection and registration under your state's boiler rules. Moving it may mean fresh paperwork. Electric brewhouses avoid the boiler but need a large power connection. Find out the connected load the kit needs and whether your new site can supply it before you agree a price, because upgrading a power connection can take months.</p>"
+  ],
+  [
+   "Controls, valves and the small parts",
+   "<p>Panels and PLCs are where used systems often hurt. Ask who wrote the control software, whether you get the source code and whether anyone in India supports it. Count butterfly valves, gaskets, sight glasses, CIP spray balls and sample valves. Price replacements for the worn ones. Small parts add up.</p>"
+  ],
+  [
+   "Paperwork, moving and recommissioning",
+   "<p>Ask for the original drawings, manuals, invoices and any test certificates. In many states the brewhouse and fermenter capacities are part of what the excise department approves for a licence, so the kit you buy must match what you apply for. Check with your licensing adviser before you pay.</p><p>Then price the move honestly: dismantling, rigging, transport, any cutting and rewelding, new insulation, re-piping, electrical work and a fresh commissioning run. Our <a href=\"brewhouse-commissioning-checklist.html\">commissioning checklist</a> applies to used kit just as it does to new. A cheap brewhouse with an expensive move is not cheap.</p><p>This is the point where a cost comparison against new kit, built properly into your capex plan, saves founders from a decision made on the asking price alone.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is a second-hand brewhouse a good idea for a new brewpub?",
+   "It can be if the steel, jackets, heating and controls are sound and the full cost of moving and recommissioning still beats a new build. Inspect before you negotiate."
+  ],
+  [
+   "What is the most common hidden fault?",
+   "Leaking glycol jackets and wet insulation on fermenters, followed by pitted steel from chlorine. Pressure test every jacket in front of you."
+  ],
+  [
+   "Do I need excise approval for used equipment?",
+   "In many states vessel capacities form part of the licence application, so the kit must match what you apply for. Rules vary by state, so check with a licensing adviser."
+  ],
+  [
+   "Should I passivate used tanks?",
+   "Yes, unless the seller has a recent record. Clean, passivate and sanitise before the first brew."
+  ]
+ ],
+ "cta": {
+  "title": "Know what kit to buy and what it really costs",
+  "body": "Brewery Business Management is a 3 week live online course (₹8,999). It covers capex planning, comparing new and used equipment, sizing and building the cost of setup into a plan a bank will read.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewery-equipment-buying-guide",
+  "brewhouse-size-guide",
+  "brewhouse-commissioning-checklist"
+ ]
+}

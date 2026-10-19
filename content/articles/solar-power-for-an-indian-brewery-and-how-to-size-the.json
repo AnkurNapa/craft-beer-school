@@ -1,0 +1,63 @@
+{
+ "slug": "solar-power-for-an-indian-brewery-and-how-to-size-the",
+ "cat": "Business",
+ "h1": "Solar power for an Indian brewery and how to size the payback",
+ "title": "Solar Power and Payback for a Brewery | Craft Beer School",
+ "desc": "How to size rooftop solar for an Indian brewery or brewpub, estimate generation from your roof and work out the payback from your own bill and quotes.",
+ "teaser": "Your glycol chiller works hardest when the sun is strongest. That is the case for solar in one sentence.",
+ "standfirst": "Indian breweries pay commercial power tariffs and run refrigeration around the clock. Rooftop solar can cut that bill, but the payback depends on your roof, your tariff, your lease and your state's metering rules. Here is how to work it out.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why breweries suit solar",
+   "<p>Most of a brewpub's electricity goes to cooling: the glycol chiller, cold rooms, keg fridges and the bar. Cooling demand peaks on hot afternoons, exactly when solar panels generate most. That match between generation and load is better than in many businesses, where the power is needed after dark.</p><p>Breweries on electric brewhouses add another daytime load. If you brew in the morning and early afternoon, much of the heating can run on solar generation too.</p>"
+  ],
+  [
+   "Start with your bills",
+   "<p>Collect twelve months of electricity bills. Note the units consumed each month, the tariff per unit including fixed charges, any demand charges and the sanctioned load. Commercial tariffs in India vary by state and are revised regularly, so use your own bill rather than a figure from the internet.</p><p>If you can, get hourly or at least daytime versus night-time consumption from a smart meter or a simple logger on the main panel. Our guides to <a href=\"brewery-utilities-water-power.html\">brewery utilities</a> and <a href=\"cutting-power-and-water-in-a-brewpub.html\">cutting power and water in a brewpub</a> cover measuring loads. Fix the obvious waste first: a chiller set two degrees colder than needed, cold room doors that do not seal, uninsulated glycol lines sweating in the corner. Every unit saved is a unit you do not have to buy panels for.</p>"
+  ],
+  [
+   "Estimating what your roof can generate",
+   "<p>Across much of India, a well-placed rooftop system generates roughly 4 kWh per kilowatt-peak (kWp) of panels per day on average across the year, with lower figures in the monsoon and higher in clear dry months. Your installer should give you a site-specific estimate based on location, tilt and shading.</p><p>Roof space is usually the limit. As a rough guide, allow around 10 square metres of shadow-free roof per kWp. A 400 square metre usable roof might take a system in the region of 40 kWp, generating something like 160 kWh a day on average.</p><p>Then compare that to your daytime load. A system sized to cover your daytime consumption is usually the safest choice, because the value of exporting surplus power to the grid depends on your state's metering rules.</p>"
+  ],
+  [
+   "Metering rules decide the economics",
+   "<p>Rooftop solar connects to the grid under net metering, gross metering or similar schemes, depending on the state, the tariff category and the system size. Under net metering, exported units offset imported ones. Under gross metering, exported units are sold at a set rate that is often lower than what you pay to import. Some states cap system size relative to sanctioned load. These rules have changed several times and differ by state, so get the current position from your electricity distribution company or a reputable installer before you size the system.</p>"
+  ],
+  [
+   "Working out payback with your own numbers",
+   "<p>Simple payback is installed cost divided by annual savings. Build it up like this:</p><ol><li>Annual generation = system size in kWp times your installer's daily generation estimate times 365.</li><li>Units used on site = annual generation times the share your daytime load will absorb.</li><li>Annual savings = units used on site times your tariff per unit, plus any exported units times the export rate.</li><li>Subtract annual maintenance: panel cleaning, inverter servicing and insurance.</li><li>Payback in years = installed cost from your quotes divided by net annual savings.</li></ol><p>Allow for panel output falling slowly over time, commonly around half a percent a year. Allow also for an inverter replacement during the system's life. Dust matters in Indian cities: panels that go weeks without cleaning lose output, so budget for regular washing. Ask about financing and any current subsidy or accelerated depreciation benefit with your accountant, as these affect the real payback.</p>"
+  ],
+  [
+   "The lease question",
+   "<p>Many brewpubs rent their premises. If your payback is five or six years and your lease has three left, solar is a risk unless the landlord agrees to share cost, extend the lease or buy the system if you leave. Some installers offer a model where they own the panels and sell you the power at an agreed rate, which removes the upfront cost. Read the contract carefully.</p><p>Solar is one part of running a brewery that uses less energy, water and chemical. Our guide to <a href=\"sustainability-in-brewing.html\">sustainability in brewing</a> covers the rest.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much solar can a brewery roof hold?",
+   "Allow roughly 10 square metres of shadow-free roof per kilowatt-peak as a first estimate. Your installer will confirm after a site survey."
+  ],
+  [
+   "How much does 1 kWp of solar generate in India?",
+   "Across much of India, roughly 4 kWh a day on average over the year, lower in the monsoon. Use your installer's site-specific estimate for the payback calculation."
+  ],
+  [
+   "Is solar worth it on a rented brewpub?",
+   "Only if the payback fits inside your lease or the landlord agrees to share the cost or buy the system. Power purchase models can remove the upfront cost."
+  ]
+ ],
+ "cta": {
+  "title": "Measure and cut your brewery's footprint",
+  "body": "ESG in Craft Brewing covers energy, water, waste and simple carbon reporting for small breweries in two weeks of live online classes.",
+  "href": "esg-in-craft-brewing-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "brewery-utilities-water-power",
+  "sustainability-in-brewing",
+  "cutting-power-and-water-in-a-brewpub"
+ ]
+}

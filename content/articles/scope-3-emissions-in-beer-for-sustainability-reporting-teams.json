@@ -1,0 +1,63 @@
+{
+ "slug": "scope-3-emissions-in-beer-for-sustainability-reporting-teams",
+ "cat": "Beer for teams",
+ "h1": "Scope 3 emissions in beer for sustainability reporting teams",
+ "title": "Scope 3 Emissions in Beer for ESG Teams | Craft Beer School",
+ "desc": "Where Scope 3 emissions sit in a beer business, from barley and glass to transport and coolers. Plus how reporting teams can collect better data.",
+ "teaser": "Most of a brewer's carbon footprint never passes through the brewery gate. It sits in barley fields, glass furnaces and shop fridges.",
+ "standfirst": "Scope 3 covers the emissions a brewer causes but does not directly control. For most beer businesses it is the largest part of the footprint and the hardest to measure. This guide maps where it sits and how a reporting team can improve the numbers.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Scopes 1, 2 and 3 in one paragraph",
+   "<p>The Greenhouse Gas Protocol splits a company's emissions into three scopes. Scope 1 is direct emissions from sources the company owns, such as boilers burning fuel or its own vehicles. Scope 2 is emissions from purchased electricity, steam or heat. Scope 3 is everything else in the value chain, upstream and downstream, grouped into fifteen categories.</p><p>For a brewery, Scope 1 and 2 are the brewhouse, cellar and packaging hall: steam for the kettle, power for refrigeration, fuel in the boiler. Scope 3 is the barley farmer, the maltster, the glass maker, the trucks, the shop fridge and the bottle after it is emptied.</p>"
+  ],
+  [
+   "Where beer's Scope 3 sits",
+   "<p>Life cycle studies of beer commonly find packaging and agricultural raw materials among the biggest contributors. The main categories for a brewer are:</p><ul><li><strong>Purchased goods.</strong> Barley and malt (fertiliser, farming and kilning energy at the maltster), rice or maize adjuncts, hops and above all packaging: glass, aluminium cans, crowns, labels and cartons.</li><li><strong>Upstream transport.</strong> Moving malt, glass and other inputs to the brewery.</li><li><strong>Downstream distribution.</strong> Trucks to depots and outlets, plus warehousing.</li><li><strong>Cooling at the point of sale.</strong> Fridges and coolers in shops and bars run for years. How they are categorised depends on who owns them, so agree a rule and document it.</li><li><strong>End of life.</strong> What happens to bottles and cans once empty.</li></ul><p>For procurement colleagues, our guide to <a href=\"barley-and-malt-for-procurement-teams.html\">barley and malt for procurement teams</a> explains the supply chain behind the biggest ingredient line.</p>"
+  ],
+  [
+   "Packaging choices change the picture",
+   "<p>Single-use glass is energy intensive to make. Returnable bottles spread that impact over many trips, so the emissions per fill fall as trippage rises, though washing and reverse logistics add some back. Cans are lighter to transport. Aluminium recycles well, but primary aluminium carries a high footprint, so recycled content matters a great deal. Kegs, reused for years, usually have a low packaging footprint per litre.</p><p>None of these is automatically best. The answer depends on trippage, recycled content, distance and how the pack is collected. Our guide to <a href=\"water-energy-packaging-beer-wine-spirits.html\">water, energy and packaging across beer, wine and spirits</a> compares them more widely.</p>"
+  ],
+  [
+   "Getting better data",
+   "<p>Most first Scope 3 inventories are built on spend-based estimates: rupees spent per category multiplied by an average emission factor. That gives a rough map quickly but cannot show improvement, because a cheaper supplier looks greener even if nothing changed.</p><p>The next step is activity data: tonnes of malt, tonnes of glass, kilometres travelled, kilowatt-hours in coolers. Better still is supplier-specific data, such as a maltster's own footprint per tonne or a glass maker's figure for recycled cullet content. A practical sequence:</p><ol><li>Rank categories by estimated size and pick the top three or four.</li><li>Swap spend data for activity data in those categories first.</li><li>Ask the largest suppliers for product-level footprints and the method behind them.</li><li>Document every factor, source and assumption so next year's figure is comparable.</li></ol><p>Expect the first supplier conversations to be slow. Smaller maltsters, glass makers and transporters in India may not yet measure their own footprint. Start with a short, clear request: the activity data you need, the period it covers and why you are asking. Offer to share the method you use. Suppliers that see the request as a long-term relationship rather than a one-off audit usually respond better. Their numbers tend to improve year by year.</p>"
+  ],
+  [
+   "Where the brewery itself still matters",
+   "<p>Scope 3 dominates on paper but the brewery shapes it. A brewhouse that gets more extract from each tonne of malt buys less malt per litre, which cuts Scope 3 directly. Lower beer losses between brewhouse and package mean fewer raw materials and less packaging per litre sold. Energy and water work in the brewery itself is covered in <a href=\"sustainability-in-brewing.html\">sustainability in brewing</a>.</p><p>This is the gap many reporting teams feel. The protocol tells you what to count. It does not tell you which process numbers in a brewery move the total, or which supplier questions will actually get useful answers.</p>"
+  ],
+  [
+   "Be careful with claims",
+   "<p>Scope 3 numbers carry wide uncertainty. Report them with their method and assumptions, avoid precise-sounding percentages that the data cannot support and never turn a partial inventory into a marketing claim. Regulators and investors are increasingly alert to green claims that run ahead of the evidence.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the biggest Scope 3 item for a brewer?",
+   "It depends on the business, but packaging (especially single-use glass) and agricultural raw materials such as malt are commonly among the largest."
+  ],
+  [
+   "Are returnable bottles always lower carbon?",
+   "Often, when trippage is high and collection distances are reasonable. Low trippage or long return journeys can erode the benefit."
+  ],
+  [
+   "Is a spend-based Scope 3 estimate good enough?",
+   "It is a reasonable starting map. To track real improvement you need activity data and supplier-specific figures for the largest categories."
+  ]
+ ],
+ "cta": {
+  "title": "Build a Scope 3 inventory a brewer would recognise",
+  "body": "ESG in Craft Brewing is a 2 week live course (₹5,000) covering emissions scopes, water, energy and packaging in brewing. It also shows which brewery and supplier numbers actually move the footprint.",
+  "label": "See the full syllabus",
+  "href": "esg-in-craft-brewing-course.html"
+ },
+ "related": [
+  "sustainability-in-brewing",
+  "water-energy-packaging-beer-wine-spirits",
+  "barley-and-malt-for-procurement-teams"
+ ]
+}

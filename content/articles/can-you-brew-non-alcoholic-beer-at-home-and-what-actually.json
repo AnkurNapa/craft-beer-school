@@ -1,0 +1,63 @@
+{
+ "slug": "can-you-brew-non-alcoholic-beer-at-home-and-what-actually",
+ "cat": "Brewing basics",
+ "h1": "Can you brew non-alcoholic beer at home and what actually works",
+ "title": "Brewing Non-Alcoholic Beer at Home | Craft Beer School",
+ "desc": "The methods homebrewers use for non-alcoholic and low-alcohol beer, which ones work, the food safety risk most people miss and what to expect.",
+ "teaser": "Boiling the alcohol off a finished beer works, sort of. It also boils off most of what made it worth drinking.",
+ "standfirst": "Non-alcoholic beer is one of the hardest things to brew well, at any scale. Here is what homebrewers can realistically do, which method gives the best results and the safety step you cannot skip.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why this is harder than it looks",
+   "<p>Alcohol does more in beer than most drinkers realise. It adds body, a little warmth and sweetness. It also carries hop and yeast aroma. Take it out and the beer tastes thin and worty. Commercial brewers solve this with vacuum distillation, membranes or special yeasts. At home you have fewer tools, so the method matters.</p><p>There is also a measuring problem. Labelling thresholds for \"non-alcoholic\" and \"low alcohol\" differ from one country and regulator to another. A hydrometer cannot tell 0.4% from 0.8% with confidence. Treat any home brew as low alcohol rather than alcohol free.</p>"
+  ],
+  [
+   "Method one: boil it off",
+   "<p>Brew a normal beer, ferment it, then heat it to drive off the ethanol. Ethanol boils at about 78 °C, well below water, so holding the beer at 75 to 80 °C for 20 to 30 minutes removes most of it.</p><p>It works, in that the alcohol drops. But heat also strips hop aroma, cooks the malt and can leave a stewed flavour. You then have to carbonate a beer with no live yeast, which means kegging. Most homebrewers try it once.</p>"
+  ],
+  [
+   "Method two: limited fermentation",
+   "<p>This is the route that gives the best results at home. Make a low gravity wort that is rich in unfermentable sugars, then ferment it with a yeast that cannot eat most of it.</p><ul><li><strong>Low gravity.</strong> Aim for an original gravity of roughly 1.020 to 1.030.</li><li><strong>Hot mash.</strong> Mash at 72 to 78 °C. At these temperatures beta-amylase is destroyed quickly, so the wort ends up rich in dextrins the yeast cannot ferment.</li><li><strong>Maltose-negative yeast.</strong> Several dried yeasts sold for low-alcohol brewing ferment glucose and sucrose but not maltose or maltotriose. Some wild species, such as Saccharomycodes ludwigii and Pichia kluyveri, behave similarly.</li><li><strong>Body.</strong> Crystal malts, oats and a little wheat help fill the gap alcohol leaves.</li></ul><p>Expect a beer around 0.5 to 1% ABV with real malt character. Our guide to <a href=\"low-and-no-alcohol-production-routes.html\">low and no alcohol production routes</a> compares this with the commercial methods.</p>"
+  ],
+  [
+   "The safety step you cannot skip",
+   "<p>This is the part most online recipes leave out. Normal beer is protected by alcohol, hops, low pH and carbon dioxide. A beer with almost no alcohol and plenty of residual sugar loses one of those barriers and is a much friendlier home for spoilage organisms.</p><p>The serious concern is Clostridium botulinum, which can grow in low-acid, low-oxygen conditions. The accepted safety line for foods is a pH of 4.6. Low-alcohol beers must finish comfortably below it, ideally 4.2 to 4.4 or lower. Buy cheap pH strips or a pH meter and check. If it is high, adjust with food-grade lactic acid.</p><p>Then keep the beer cold from packaging until it is drunk. Drink it within a few weeks. Most commercial brewers pasteurise. At home, cold storage and low pH are your protection. Do not bottle condition it and leave it in a warm cupboard. Residual sugar plus any stray yeast means overcarbonation and possibly a burst bottle.</p>"
+  ],
+  [
+   "Making it taste like beer",
+   "<p>A few things lift a low-alcohol beer from passable to good:</p><ul><li>Hop it late. Whirlpool and dry hop additions put aroma back where alcohol would have carried it.</li><li>Carbonate on the high side. Fizz adds a sense of body and freshness.</li><li>Serve it very cold and fresh. These beers stale faster than normal ones.</li><li>Use soft water with a little calcium chloride for a rounder palate.</li></ul><p>Pale and hoppy styles hide the thin body best. A low-alcohol <a href=\"brewing-a-lager-at-home.html\">lager</a> is the hardest, because there is nothing to hide behind.</p>"
+  ],
+  [
+   "What to expect",
+   "<p>One practical warning on yeast. Maltose-negative strains are sold specifically for this job. Normal ale yeast that drifts into the batch from your fermenter or tubing will happily eat the sugars left behind. Clean and sanitise thoroughly before a low-alcohol brew. Do not reuse the yeast cake from a normal beer.</p><p>Your first attempt will probably taste a little sweet or worty. That is the dextrins and residual sugars at work. Adjust mash temperature, hop load and carbonation over two or three small batches rather than one big one. A 10 litre batch is ideal for this kind of experiment. Our guide to <a href=\"small-batch-brewing.html\">small batch brewing</a> explains how to scale down.</p><p>The gap between a homebrewed low-alcohol beer and a good commercial one comes down to process control: yeast choice, wort composition and stability. That is a body of knowledge in its own right. It is why commercial non-alcoholic beer took brewers decades to get right.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I make 0.0% beer at home?",
+   "Not reliably. Home methods can get you to roughly 0.5 to 1% ABV. You cannot measure the result precisely enough to call it alcohol free."
+  ],
+  [
+   "Why must low-alcohol beer be acidic?",
+   "With little alcohol and plenty of sugar, the beer loses some natural protection against microbes. Keeping the pH below 4.6, ideally lower, plus cold storage, prevents dangerous growth."
+  ],
+  [
+   "Which home method gives the best flavour?",
+   "Limited fermentation, with a hot mash and a maltose-negative yeast, usually tastes far better than boiling the alcohol off a finished beer."
+  ]
+ ],
+ "cta": {
+  "title": "Brew non-alcoholic beer that tastes like beer",
+  "body": "The Non-Alcoholic Beer course is 2 weeks live online (₹5,000). It covers yeast selection, wort design, dealcoholisation routes and microbial stability, the parts a home method cannot fix on its own.",
+  "href": "non-alcoholic-beer-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "low-and-no-alcohol-production-routes",
+  "brewing-a-lager-at-home",
+  "small-batch-brewing"
+ ]
+}

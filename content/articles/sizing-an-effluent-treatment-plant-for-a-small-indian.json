@@ -1,0 +1,63 @@
+{
+ "slug": "sizing-an-effluent-treatment-plant-for-a-small-indian",
+ "cat": "Business",
+ "h1": "Sizing an effluent treatment plant for a small Indian brewery",
+ "title": "Sizing an ETP for a Small Indian Brewery | Craft Beer School",
+ "desc": "How to size an effluent treatment plant for a small Indian brewery: effluent volume, COD load, pH swings from CIP, treatment steps and consent norms.",
+ "teaser": "Your ETP vendor will happily sell you a plant. Here is how to check it is the right size before you pour the foundation.",
+ "standfirst": "Brewery effluent is strong, warm and swings from acid to caustic within an hour. Size the treatment plant from your own water use and organic load, plan for the peaks and the consent to operate gets far easier to keep.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What makes brewery effluent hard",
+   "<p>Brewery wastewater is not sewage. It carries sugars, yeast, proteins and hop residue, which give it a high organic load measured as chemical oxygen demand (COD) and biochemical oxygen demand (BOD). Typical untreated brewery effluent is commonly quoted in the range of roughly 2,000 to 6,000 mg/L COD, many times stronger than domestic sewage. A good share of it is readily biodegradable, which is the good news.</p><p>The bad news is variability. A brewpub might send almost nothing to drain for hours, then dump a caustic CIP solution, then a tank rinse full of yeast, then an acid wash. pH can swing from below 3 to above 12 in a single shift. Temperature can swing from ambient to 80 °C. Biology does not like surprises. Most ETP failures we hear about in small breweries come from shock loads, not from an undersized aeration tank.</p>"
+  ],
+  [
+   "Step one: measure your effluent volume",
+   "<p>Start from water. Read your water meter daily for two weeks, or estimate from your brewing and cleaning schedule if you are not open yet. Small breweries typically use somewhere between 4 and 10 litres of water per litre of beer, with brewpubs at the higher end because cleaning does not shrink with batch size. Our guide to <a href=\"brewery-utilities-water-power.html\">brewery water and power</a> covers measuring it properly.</p><p>Effluent is roughly water used minus the water that leaves in beer, evaporates in the boil or goes out with spent grain. As a working figure, take your water ratio and subtract about 1.5. A brewpub using 7 litres of water per litre of beer sends roughly 5.5 litres of effluent to drain for every litre packaged or served.</p><p>Example: a brewpub making an average of 500 litres of beer a day at that ratio sends about 2,750 litres of effluent a day. Kitchen and washroom water go to the ETP too in many layouts, so add them if they do. Then design with headroom for growth and a peak factor, because a brew day with three tank cleans can easily send double the average.</p>"
+  ],
+  [
+   "Step two: estimate the organic load",
+   "<p>Volume alone does not size the biology. Multiply flow by strength. At 2,750 litres a day and 4,000 mg/L COD, the plant receives about 11 kg of COD a day (2.75 cubic metres times 4 kg per cubic metre). That figure, not the volume, sets the aeration and the biomass the plant needs.</p><p>The cheapest reduction in load happens upstream. Keep spent grain, trub, spent yeast and hop residue out of the drain. Yeast slurry in particular is extremely high in COD, so a single dumped tank bottom can overwhelm a small plant. Our guide to <a href=\"brewery-waste-and-spent-grain.html\">brewery waste and spent grain</a> covers better uses for all of it.</p>"
+  ],
+  [
+   "The usual treatment train",
+   "<p>A small brewery ETP is commonly built from these stages:</p><ol><li><strong>Screening</strong> to catch grain husks and hop debris.</li><li><strong>An equalisation tank</strong> holding several hours to a full day of flow, with mixing and pH correction. This is the most important stage in a brewery.</li><li><strong>Biological treatment</strong>, usually aerobic: extended aeration activated sludge or a moving bed biofilm reactor (MBBR) for small footprints.</li><li><strong>Settling</strong> in a clarifier, with sludge returned or wasted.</li><li><strong>Tertiary treatment</strong> such as a pressure sand filter and activated carbon if you want to reuse water for gardening or flushing.</li><li><strong>Sludge handling</strong>, usually drying beds or a small filter press.</li></ol>"
+  ],
+  [
+   "Plan for the CIP peaks",
+   "<p>The floor detail that kills small plants: a 2 percent caustic CIP solution dumped straight to drain at 75 °C. It arrives at pH above 12 and hot enough to stress the biomass. Recover and reuse caustic where your CIP set allows it, which also saves chemical, as our guide to <a href=\"cip-water-and-chemical-savings.html\">CIP water and chemical savings</a> explains. Send what you do dump to the equalisation tank slowly, where acid rinses partly neutralise it. Fit a pH probe with an alarm on the equalisation tank and check it is calibrated.</p>"
+  ],
+  [
+   "Consent and discharge norms",
+   "<p>Breweries need consent from the State Pollution Control Board: a consent to establish before construction and a consent to operate before production, renewed periodically. The general discharge standards under the environment rules for inland surface water include BOD of 30 mg/L, COD of 250 mg/L, suspended solids of 100 mg/L and pH between 5.5 and 9.0. Your consent may set stricter limits or require zero liquid discharge, depending on the state and the site. Check the conditions in your own consent order. The board's procedures and fees vary by state.</p><p>Ask any ETP vendor to show their sizing calculation from your flow and COD figures. Ask too for the outlet values they will guarantee. A vendor who quotes by floor area alone has not done the work.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the COD of brewery effluent?",
+   "Untreated brewery effluent is commonly in the range of about 2,000 to 6,000 mg/L COD, depending on how much yeast, trub and beer reaches the drain."
+  ],
+  [
+   "How big should a brewpub ETP be?",
+   "Size it from your daily effluent volume and organic load, with headroom for growth and peaks. Measure water use for two weeks and subtract about 1.5 litres per litre of beer as a first estimate."
+  ],
+  [
+   "Why does the equalisation tank matter so much?",
+   "Brewery effluent swings widely in pH, temperature and strength. The equalisation tank evens those swings out so the biological stage is not shocked."
+  ]
+ ],
+ "cta": {
+  "title": "Cut your effluent load before you treat it",
+  "body": "ESG in Craft Brewing is a two week live online course on water, energy, waste and effluent in small breweries. It shows you how to measure your water ratio and organic load, cut both at source and report the results, so the treatment plant is sized for the brewery you actually run.",
+  "href": "esg-in-craft-brewing-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewery-waste-and-spent-grain",
+  "brewery-utilities-water-power",
+  "cip-water-and-chemical-savings"
+ ]
+}

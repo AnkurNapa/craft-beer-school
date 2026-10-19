@@ -1,0 +1,67 @@
+{
+ "slug": "using-exogenous-enzymes-in-high-adjunct-brewing-in-india",
+ "cat": "Brewing science",
+ "h1": "Using exogenous enzymes in high adjunct brewing in India",
+ "title": "Enzymes for high adjunct brewing | Craft Beer School",
+ "desc": "Which commercial enzymes high adjunct brewers use, where each goes in the process, the FAN and over-attenuation risks and the Indian rules to check.",
+ "teaser": "Push rice, maize or raw barley past what your malt can handle and you start buying enzymes. Each one solves a problem and can create another.",
+ "standfirst": "Malt brings its own enzymes, but only enough for so much adjunct. Beyond that, brewers add commercial enzymes. Here is what each one does, where it goes and what to watch.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why high adjunct brewing needs help",
+   "<p>Malt supplies the amylases that turn starch into sugar, the glucanases that break down cell walls and the proteases that release amino acids. Adjuncts such as rice, maize and raw barley bring starch but little or no active enzyme. As the adjunct share rises, the malt's enzyme power gets spread thinner. Above a point, conversion slows, lautering struggles and yeast runs short of nitrogen.</p><p>In India, adjuncts are used widely for cost, local availability and a lighter flavour. Our guide to <a href=\"rice-and-maize-adjuncts-india.html\">rice and maize adjuncts in India</a> covers the flavour and sourcing side. Commercial, or exogenous, enzymes are how breweries keep high adjunct brews working.</p>"
+  ],
+  [
+   "The main enzymes and their jobs",
+   "<ul><li><strong>Thermostable alpha-amylase.</strong> Bacterial, from Bacillus species. Survives cereal cooker temperatures near boiling and liquefies adjunct starch without needing malt in the cooker.</li><li><strong>Beta-glucanase.</strong> Breaks down beta-glucan from barley and oats, lowering wort viscosity and speeding lautering and filtration. Important with raw barley.</li><li><strong>Protease.</strong> Neutral proteases release amino acids and raise free amino nitrogen (FAN), which high adjunct worts often lack.</li><li><strong>Glucoamylase.</strong> Also called amyloglucosidase. Cuts glucose units off starch and dextrins, raising fermentability for dry or low-carbohydrate beers.</li><li><strong>Pullulanase.</strong> A debranching enzyme that cuts the branch points beta-amylase cannot reach, also raising fermentability.</li></ul><p>Each comes with a supplier data sheet giving activity units, optimum temperature and pH and a dose range. Start there. Our guide to <a href=\"enzymes-in-the-mash.html\">enzymes in the mash</a> covers the malt enzymes these work alongside.</p>"
+  ],
+  [
+   "Where each one goes",
+   "<p>Thermostable alpha-amylase goes into the cereal cooker at mash-in. Beta-glucanase and protease go into the main mash at a low rest, often 45 to 50 °C, where they work before higher temperatures inactivate them. Glucoamylase and pullulanase can go into the mash at saccharification temperature, or into the fermenter.</p><p>That last choice matters. Enzymes added to the mash are destroyed in the boil. Enzymes added in the fermenter survive into the beer.</p>"
+  ],
+  [
+   "The glucoamylase trap",
+   "<p>Glucoamylase added to the fermenter keeps working after fermentation ends. In filtered, pasteurised beer the heat stops it. In unpasteurised beer it can keep cutting dextrins into glucose in the bright tank, keg or bottle. Yeast left in the package then ferments that sugar, raising carbonation and lowering body over weeks. Some brewers have seen over-attenuated, over-carbonated packages from exactly this.</p><p>If your beer is not pasteurised, add glucoamylase to the mash, not the fermenter, or check with the supplier for a product that the boil inactivates. Then confirm with a forced fermentation test on finished beer before release.</p>"
+  ],
+  [
+   "Watching FAN in high adjunct worts",
+   "<p>FAN is the nitrogen yeast can use. All-malt worts at standard gravity usually carry plenty. A 40% rice wort carries much less, because rice contributes little soluble nitrogen. Many brewers aim for something like 150 mg/L FAN in a 12 °P wort as a comfortable level, though strains vary.</p><p>Low FAN shows up as slow fermentation, higher diacetyl, sulphur notes and weak yeast for repitching. Protease in the mash helps. So does keeping enough malt in the grist, adding yeast nutrient and checking FAN with a lab test rather than assuming it. Our <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> guide covers how enzyme choices affect extract too.</p>"
+  ],
+  [
+   "Indian rules to check",
+   "<p>Food enzymes used in beer are processing aids governed by FSSAI standards. State excise rules may also apply to what goes into beer. Use food-grade enzymes from suppliers who provide documentation, keep batch records and check the current FSSAI regulations for permitted enzymes and labelling. Rules change, so a check before each new product is a good habit.</p><p>Store enzymes as the supplier specifies. Many need refrigeration and lose activity in Indian heat. A drum left in a warm store for a summer may need a higher dose to give the same result, which is one more reason to test.</p>"
+  ],
+  [
+   "Testing before you trust",
+   "<p>When you add or change an enzyme, run small trials. Lab mashes with and without the enzyme, measured for extract, fermentability and viscosity, tell you more than any data sheet. Then follow the first production brews closely with iodine tests, lauter times, fermentation curves and final gravity. Designing a high adjunct process from enzyme chemistry up is exactly the kind of work that needs deeper study.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I brew 50% rice beer without enzymes?",
+   "With high-enzyme malt and a well-run cereal cooker, some brewers manage it. Most use at least a thermostable alpha-amylase to make the cooker reliable."
+  ],
+  [
+   "Do commercial enzymes change beer flavour?",
+   "Indirectly. They change fermentability, body and yeast nutrition, which change flavour. The enzymes themselves add no taste at normal doses."
+  ],
+  [
+   "Are enzymes allowed in Indian beer?",
+   "Food-grade enzymes are used as processing aids under FSSAI standards. Check the current regulations and your state rules before use."
+  ]
+ ],
+ "cta": {
+  "title": "Design high adjunct brews that ferment reliably",
+  "body": "Advanced Brewing Science is a 6 week live course covering enzymes, adjunct mashing, yeast nutrition and fermentability, with lab trial design you can use in your own brewery. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "rice-and-maize-adjuncts-india",
+  "enzymes-in-the-mash",
+  "brewhouse-efficiency"
+ ]
+}

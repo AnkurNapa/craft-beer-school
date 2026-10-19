@@ -1,0 +1,67 @@
+{
+ "slug": "keeping-kombucha-under-the-alcohol-limit",
+ "cat": "Drinks business",
+ "h1": "Keeping kombucha under the alcohol limit for a soft drink label",
+ "title": "Keeping Kombucha Under the Alcohol Limit | Craft Beer School",
+ "desc": "How kombucha makers keep alcohol below the soft drink limit: fermentation control, finishing methods, cold chain and testing.",
+ "teaser": "Your kombucha left the brewery at 0.3%. By the time it sat in a warm shop it was over 1%. Here is how to stop that.",
+ "standfirst": "Kombucha contains yeast, yeast makes alcohol and a soft drink label promises the alcohol stays low. Keeping that promise across fermentation, packaging and a hot Indian supply chain is the core technical job of a kombucha maker.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why kombucha makes alcohol",
+   "<p>Kombucha is sweetened tea fermented by a symbiotic culture of bacteria and yeast. The yeast turns sugar into alcohol and CO2. Acetic acid bacteria then turn much of that alcohol into acetic acid, which gives kombucha its tartness. In a healthy open fermentation, the bacteria keep the alcohol low.</p>\n<p>The trouble starts once the drink is sealed. Without oxygen, the acetic acid bacteria slow down, but the yeast carries on eating any remaining sugar. Alcohol rises in the bottle. Warmth speeds this up, which is bad news for a drink that may sit in a shop at 30 °C.</p>"
+  ],
+  [
+   "Know the limit you are working to",
+   "<p>To be sold as a non-alcoholic drink, kombucha has to stay under a legal alcohol limit. Many markets draw that line at 0.5% ABV. In India, check the current FSSAI position on kombucha, including any category standard, the exact limit, the testing expected and the labelling, because the rules have been developing. If you also hold an excise licence for other drinks, ask a licensing consultant how they want the products kept apart.</p>\n<p>The limit applies to the drink throughout its shelf life, not just on the day it is bottled. That is the key point most small makers miss.</p>"
+  ],
+  [
+   "Control the fermentation",
+   "<p>Start with a consistent process. Use the same tea, sugar dose and starter proportion each time. Ferment at a controlled temperature. Most makers work somewhere around 22 to 28 °C. Hotter fermentations run faster, but they are harder to control.</p>\n<p>Track the fermentation with measurements, not the calendar. Record pH, sugar (as Brix or gravity) and, where you can, alcohol. A batch that is still sweet when you want to package it will keep making alcohol in the bottle. Our guide to <a href=\"kombucha-and-water-kefir-production.html\">kombucha and water kefir production</a> covers the process in more depth.</p>"
+  ],
+  [
+   "Finishing methods that keep alcohol down",
+   "<p>Producers use one or more of these approaches:</p>\n<ul>\n<li><strong>Ferment dry, then sweeten carefully.</strong> Let the yeast use most of the sugar, then add back sweetness with juice or sugar only if you also stop the yeast.</li>\n<li><strong>Cold chain from tank to fridge.</strong> Below about 4 °C the yeast works very slowly. This keeps the drink live but only works if every step stays cold.</li>\n<li><strong>Filtration.</strong> Removing most of the yeast before packaging slows further fermentation. It also changes the character of a live product.</li>\n<li><strong>Pasteurisation.</strong> Heat kills the yeast and bacteria, which stops alcohol rising. You can no longer call the drink live, so decide what your brand is promising.</li>\n<li><strong>Alcohol removal.</strong> Some larger producers strip alcohol after fermentation. The equipment is costly for a small business.</li>\n</ul>\n<p>Preservatives are another lever. Check what is permitted for the category and how it must be labelled before using them.</p>"
+  ],
+  [
+   "The Indian cold chain problem",
+   "<p>A live kombucha that is perfect in your fridge can fail in the market. A carton left on a loading dock in May, a shop that switches off its chiller at night or a delivery van with no cooling will all wake the yeast. Pressure can build too. Over-carbonated bottles can gush or, in the worst case, burst.</p>\n<p>If you sell live, pick your retail partners carefully, insist the drink is kept refrigerated and print clear storage instructions on the label. If you cannot guarantee the cold chain, a pasteurised product is the safer route.</p>"
+  ],
+  [
+   "Test it like a regulator would",
+   "<p>Do not assume. Hold back bottles from every batch and store some at fridge temperature and some at a warm room temperature, around 30 °C. Test alcohol at intervals through the shelf life, using a lab or a method suited to low alcohol measurement. Many quick tools used in breweries are not accurate enough at these levels, so confirm results with an accredited lab at least periodically.</p>\n<p>The warm samples show you what will happen when your cold chain breaks. If they go over the limit, your process or your shelf life claim needs to change. A short forced test like this also helps with carbonation and flavour stability.</p>\n<p>Write the results into a simple shelf life file for each recipe: storage temperature, days, alcohol, pH, carbonation and tasting notes. When a buyer or an inspector asks how you know your kombucha stays within the limit, that file is the answer. It also shows you, over a year of batches, whether your process is drifting.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does alcohol rise in bottled kombucha?",
+   "Once the bottle is sealed the acetic acid bacteria slow down, but the yeast keeps turning leftover sugar into alcohol. Warmth speeds it up."
+  ],
+  [
+   "What is the alcohol limit for kombucha in India?",
+   "Many markets use 0.5% ABV for non-alcoholic drinks. Check the current FSSAI rules for kombucha for the exact figure that applies in India."
+  ],
+  [
+   "Can kombucha stay live and under the limit?",
+   "Yes, if it is fermented low in sugar and kept refrigerated all the way to the customer. Without a reliable cold chain, it is risky."
+  ],
+  [
+   "Does pasteurising kombucha ruin it?",
+   "It stops the culture, so it is no longer a live drink. It can change the flavour a little. It does keep alcohol stable through shelf life."
+  ]
+ ],
+ "cta": {
+  "title": "Keep every bottle within spec",
+  "body": "Our Kombucha course runs for two weeks for ₹5,000. It covers culture management, fermentation control, finishing, packaging and alcohol testing, with the measurements and records a single guide can only sketch.",
+  "label": "See the full syllabus",
+  "href": "kombucha-course.html"
+ },
+ "related": [
+  "kombucha-and-water-kefir-production",
+  "fssai-rules-for-beer",
+  "soft-drinks-and-alcohol-free-drinks-in-a-brewery"
+ ]
+}

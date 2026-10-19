@@ -1,0 +1,63 @@
+{
+ "slug": "pack-mix-in-beer-sales-draught-bottle-and-can-for-analysts",
+ "cat": "Beer for teams",
+ "h1": "Pack mix in beer sales: draught, bottle and can for analysts",
+ "title": "Pack Mix in Beer Sales for Analysts | Craft Beer School",
+ "desc": "How draught, bottle and can volumes behave, how to convert them to one unit and how to separate mix effects from price and volume in beer sales data.",
+ "teaser": "Your revenue went up and volume went down. Before anyone celebrates or panics, check the pack mix.",
+ "standfirst": "Beer is sold in kegs, bottles and cans of different sizes, each with its own price per litre and its own channel. If you analyse beer sales without handling pack mix properly, the story your dashboard tells will often be wrong.",
+ "read": "3 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Three packs, three businesses",
+   "<p>The same beer can reach a drinker three ways.</p><ul><li><strong>Draught.</strong> Beer in kegs, usually 30 or 50 litres, poured through taps in bars, pubs and brewpubs. It is on-trade only.</li><li><strong>Bottle.</strong> In India the 650 ml returnable glass bottle has long been the workhorse of mainstream beer, alongside 330 ml bottles for premium brands.</li><li><strong>Can.</strong> Mostly 500 ml and 330 ml. Lighter, unbreakable and light-proof, popular for take-home and for craft brands.</li></ul><p>Each pack has a different cost to fill, a different excise and pricing treatment depending on the state and a different route to the drinker. Our guide to <a href=\"kegs-vs-cans-business.html\">kegs versus cans</a> covers the economics from the brewery side.</p>"
+  ],
+  [
+   "First, get everything into litres",
+   "<p>The most common mistake in beer data is adding up cases. A case of twelve 650 ml bottles holds 7.8 litres. A case of twenty-four 330 ml cans holds 7.92 litres. A case of twenty-four 500 ml cans holds 12 litres. A keg holds 30 or 50.</p><p>Sum raw cases across these and you will get a number that means nothing. The industry standard is to convert everything to litres or hectolitres (100 litres) before comparing. Keep a clean pack master table with SKU, pack size, units per case and litres per case. Most errors in beer reporting trace back to that table.</p><p>Once volume is in hectolitres, compare price per litre rather than price per case. That is the only way to see whether a can is genuinely more or less valuable than a bottle.</p>"
+  ],
+  [
+   "Why pack mix moves the totals",
+   "<p>Price per litre differs a lot by pack. Small packs usually cost more per litre than large ones. Draught can look cheap per litre at the brewery gate but the outlet sells it at a premium. So when the share of each pack changes, total revenue and average price move even if no individual price has changed.</p><p>This is the mix effect. A shift from 650 ml bottles towards 330 ml cans can raise average revenue per litre while total litres fall. A summer surge in large-pack sales can do the opposite. Without separating mix from price, a team can credit a price increase for growth that was really a change in what people bought.</p>"
+  ],
+  [
+   "Breaking down a change in revenue",
+   "<p>The standard tool is a price, volume and mix bridge. For each pack or SKU you compare two periods and split the change in revenue into:</p><ol><li><strong>Volume effect.</strong> The change in total litres, valued at last period's average price.</li><li><strong>Mix effect.</strong> The change caused by the share of each pack moving, at last period's prices.</li><li><strong>Price effect.</strong> The change in price per litre within each pack, at this period's volumes.</li></ol><p>The three should add up to the total change. If they do not, check your pack master first. Build this once in Power BI or Tableau with a proper date table and pack dimension and it becomes a monthly habit rather than a spreadsheet fight.</p>"
+  ],
+  [
+   "Channel and season sit inside the mix",
+   "<p>Pack mix is tangled up with channel. Draught is all on-trade. Most cans and bottles go through off-trade shops in many states, though bottles also sell heavily in bars. A drop in draught share might be a channel story, such as bars closing early or a slow season, rather than a pack preference. See <a href=\"on-trade-vs-off-trade.html\">on-trade versus off-trade</a> for how the channels differ.</p><p>Indian seasons matter too. Summer lifts volume across the board, while monsoon months often soften take-home sales in some regions. Compare the same month year on year before reading anything into a mix shift.</p>"
+  ],
+  [
+   "Shipments are not consumption",
+   "<p>Most pack data starts as shipments: what left the brewery or depot. Trade loading before a price change or a festival can distort the mix for a month. Wherever you can, check shipments against depletions or retail sales before calling a trend. Our guide to <a href=\"shipments-vs-depletions-beer-sales-data.html\">shipments versus depletions</a> explains the gap.</p><p>This is the point where many analysts get stuck. The maths of a mix bridge is simple. Building a model that handles pack sizes, channels, seasons and shipment timing cleanly is the real skill. So is making it readable for a commercial manager in one glance.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why not just report cases?",
+   "Cases hold different volumes depending on pack. Twelve 650 ml bottles and twenty-four 500 ml cans are both one case but differ by more than four litres. Convert to litres or hectolitres first."
+  ],
+  [
+   "What is a mix effect?",
+   "The change in revenue caused by the share of each pack or SKU moving, with prices held constant. It explains growth that is neither price nor volume."
+  ],
+  [
+   "Is draught always the cheapest pack?",
+   "Per litre at the brewery gate it often is, because kegs are reused and filled in bulk. The outlet then sells it at a premium per glass, so the drinker rarely sees it as cheap."
+  ]
+ ],
+ "cta": {
+  "title": "Turn messy pack data into a bridge your managers trust",
+  "body": "Power BI and Tableau for Breweries is a 2 week live course (₹5,000) that builds price, volume and mix models on real beer data, with pack masters, date tables and dashboards that hold up in a review.",
+  "label": "See the full syllabus",
+  "href": "power-bi-and-tableau-for-breweries-course.html"
+ },
+ "related": [
+  "kegs-vs-cans-business",
+  "shipments-vs-depletions-beer-sales-data",
+  "on-trade-vs-off-trade"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "how-much-cold-break-to-carry-into-the-fermenter",
+ "cat": "Brewing science",
+ "h1": "How much cold break to carry into the fermenter",
+ "title": "How much cold break to carry over | Craft Beer School",
+ "desc": "What cold break is, what it does to fermentation and flavour and how small brewers decide how much to leave in or take out.",
+ "teaser": "Crystal clear wort or a cloudy fermenter? Both camps have a point. Here is what cold break actually does.",
+ "standfirst": "Cold break is the protein and polyphenol haze that forms as wort cools. Some of it helps yeast, too much can hurt flavour and stability. We explain the trade-off and the practical choices in a small brewhouse.",
+ "read": "4 min",
+ "updated": "2026-10-19",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What cold break is",
+   "<p>When boiled wort is cooled, proteins and polyphenols that stayed dissolved in the hot wort come out of solution as a fine cloud. This is cold break. It is different from hot break, the larger clumps that form during the boil and settle in the whirlpool. Our guide to <a href=\"boil-chemistry-hot-break.html\">hot break</a> covers that first stage.</p><p>Cold break particles are small and slow to settle. They also carry lipids, including unsaturated fatty acids, along with some hop material.</p>"
+  ],
+  [
+   "How it forms",
+   "<p>Cold break starts forming as the wort passes through the heat exchanger and keeps forming as the wort cools further. The colder the wort, the more forms. A lager wort cooled to 8 to 10 °C throws more visible cold break than an ale wort at 18 to 20 °C.</p><p>Fast cooling helps form a denser break that settles more easily. Slow cooling gives a finer haze. Our guide to <a href=\"how-to-chill-wort-fast.html\">chilling wort fast</a> covers the equipment side.</p>"
+  ],
+  [
+   "Why some cold break helps",
+   "<p>The lipids in cold break include unsaturated fatty acids. Yeast needs these and sterols to build healthy membranes. Some cold break in the fermenter can support yeast growth, particularly if oxygenation is limited.</p><p>The particles also give CO2 somewhere to form bubbles. This helps carry CO2 out of the beer and keeps yeast moving, which can speed up fermentation a little.</p><p>Brewing research and practical experience both point the same way: removing nearly all cold break can slow fermentation. So a perfectly clear wort is not always the goal.</p>"
+  ],
+  [
+   "Why too much hurts",
+   "<p>Too much cold break brings problems:</p><ul><li>Harsh or grainy flavours in delicate beers such as pale lagers.</li><li>Poorer flavour stability, since lipids can oxidise into staling compounds over time.</li><li>Haze that is harder to remove later.</li><li>Dirty yeast crops, with more trub mixed into the slurry you plan to repitch.</li></ul><p>Excess fatty acids can also reduce ester formation, which may or may not suit the style. Our guide to <a href=\"beer-haze-causes.html\">beer haze causes</a> covers the haze side.</p>"
+  ],
+  [
+   "Practical options for small breweries",
+   "<p>Large breweries remove cold break with flotation or settling tanks. Small brewpubs usually have none of these. Their options are simpler:</p><ul><li><strong>Run a good whirlpool.</strong> A clean whirlpool cone keeps hot break back, which leaves cold break as the main carry-over.</li><li><strong>Leave the last of the whirlpool behind.</strong> Stop transfer when the wort starts to cloud.</li><li><strong>Dump from the cone early.</strong> Cold break and dead yeast settle into the fermenter cone within the first day. A short dump before vigorous fermentation clears some of it.</li><li><strong>Let pale lagers settle.</strong> Some brewers cool wort, let it stand a few hours, then rack off before pitching. This adds handling and infection risk, so only do it with good hygiene.</li></ul><p>One brewhouse-floor detail: a cone dump is easiest 12 to 24 hours after knockout, before the krausen builds. Open the valve slowly and stop when the stream changes from grey sludge to cream-coloured yeast, or you will throw away your pitch.</p>"
+  ],
+  [
+   "How to see what you are carrying",
+   "<p>Most brewers never look. A simple check is to fill a clean, clear one litre jug or an Imhoff cone with wort from the heat exchanger outlet during knockout, then let it stand cold for an hour. The layer of sediment at the bottom shows how much break you are sending to the fermenter.</p><p>Do this at the start, middle and end of knockout. The end of a whirlpool transfer usually carries far more than the start. If the last few hundred litres are very cloudy, stopping a little earlier or diverting that portion can make a bigger difference than any new equipment.</p><p>Write the result down with the recipe. Over a few months you can link sediment levels to fermentation speed, final gravity and how the beer tastes after a few weeks in package.</p>"
+  ],
+  [
+   "Deciding how much is right",
+   "<p>There is no single answer. Ales and robust styles cope well with a moderate cold break carry-over. Pale lagers and beers meant for a long shelf life benefit from less. Watch fermentation speed, taste the beer and check flavour stability with a forced ageing test.</p><p>In Indian conditions, where packaged beer may sit warm in the trade, reducing cold break carry-over in pale beers is a reasonable choice. Draught beer sold fresh from the brewpub is more forgiving.</p><p>Understanding why a choice matters, rather than following a rule, is the core of brewing science.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is cold break bad for beer?",
+   "Some helps yeast growth by supplying lipids. Too much can make beer harsher and less stable, especially in pale lagers."
+  ],
+  [
+   "How do I remove cold break in a small brewery?",
+   "Run a good whirlpool, leave the cloudy last runnings behind and dump the fermenter cone 12 to 24 hours after knockout."
+  ],
+  [
+   "Does cold break affect fermentation speed?",
+   "Removing all of it can slow fermentation slightly, because yeast loses lipids and CO2 loses bubble sites."
+  ]
+ ],
+ "cta": {
+  "title": "Control what goes into your fermenter",
+  "body": "Advanced Brewing Science is a 6 week live course that covers wort clarity, yeast nutrition and flavour stability. It shows how each choice turns up in the finished beer. ₹12,999.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "boil-chemistry-hot-break",
+  "how-to-chill-wort-fast",
+  "beer-haze-causes"
+ ]
+}
