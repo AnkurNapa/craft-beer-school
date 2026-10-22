@@ -7,17 +7,17 @@
 
 :root{
   --ink:#1d1d1f;          /* Apple near-black */
-  --navy:#123c4a;         /* deep teal-navy — brand accent */
-  --navy-deep:#0c2b35;
-  --blue:#0066cc;         /* Apple link blue */
-  --mint:#cfeadb;         /* offset block */
-  --mint-deep:#8fcfa6;
+  --navy:#2b1a0c;         /* stout: the 30% dark, from the logo hue */
+  --navy-deep:#1e1208;
+  --blue:#9a5f08;         /* links: deep logo amber, 5.2:1 on white */
+  --mint:#fbe9c6;         /* foam: offset block */
+  --mint-deep:#e7a921;
   --paper:#ffffff;
   --cloud:#f5f5f7;        /* Apple section gray */
-  --sand:#faf7f1;         /* warm tint */
-  --amber:#d9862a;        /* CTA warmth (beer) */
-  --amber-deep:#b96f18;
-  --gold:#f3c34d;
+  --sand:#fbf6ec;         /* warm tint */
+  --amber:#e19e13;        /* logo gold: the 10% accent */
+  --amber-deep:#9a5f08;
+  --gold:#e7a921;
   --ink-soft:#6e6e73;     /* Apple secondary text */
   --line:#e8e8ed;         /* hairline */
 
@@ -291,7 +291,7 @@ footer.site a:hover{color:#fff}
     display:flex;gap:.5rem;position:fixed;left:0;right:0;bottom:0;z-index:60;
     padding:.6rem .8rem calc(.6rem + env(safe-area-inset-bottom));
     background:rgba(255,255,255,.92);backdrop-filter:blur(10px);
-    border-top:1px solid rgba(18,60,74,.12);
+    border-top:1px solid rgba(43,26,12,.12);
   }
   .mobile-cta .btn{flex:1;justify-content:center;padding:.7rem .9rem;font-size:.92rem}
   /* Keep the sticky bar from covering the last of the footer. */
@@ -823,7 +823,7 @@ section.fam-group{padding:0}
 /* Keyword filter (podcast + YouTube) */
 .kw-filter{display:grid;gap:.4rem;max-width:34rem;margin:0 0 2rem}
 .kw-filter input{font:inherit;font-size:1rem;padding:.8rem 1.1rem;border:1.5px solid var(--line);border-radius:980px;background:var(--paper);color:var(--ink)}
-.kw-filter input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(10,109,132,.15)}
+.kw-filter input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(225,158,19,.18)}
 .kw-count{font-size:.9rem;color:var(--ink-soft);min-height:1.2em}
 [data-q][hidden]{display:none!important}
 /* YouTube page */
@@ -851,7 +851,7 @@ section.fam-group{padding:0}
 .finder select{appearance:none;flex:0 0 auto;min-width:13rem;padding:.8rem 2.4rem .8rem 1.2rem;border:0;border-radius:980px;background:var(--amber) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23fff' stroke-width='2' fill='none'/%3E%3C/svg%3E") no-repeat right 1rem center;color:#fff;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;transition:background-color .2s var(--ease)}
 .finder select:hover{background-color:var(--amber-deep)}
 .finder input{flex:1;min-width:0;padding:.8rem 1.1rem;border:1px solid var(--line);border-radius:12px;font:inherit;background:var(--paper);color:var(--ink)}
-.finder input:focus{border-color:var(--blue);outline:none;box-shadow:0 0 0 3px rgba(10,109,132,.15)}
+.finder input:focus{border-color:var(--blue);outline:none;box-shadow:0 0 0 3px rgba(225,158,19,.18)}
 .finder .btn{flex:0 0 auto;border-radius:12px;padding-inline:1.6rem;text-transform:uppercase;letter-spacing:.08em;font-size:.8rem}
 .finder-all{text-align:center;margin-top:.9rem;font-size:.9rem}
 .finder-all a,.f-clear{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
@@ -982,7 +982,7 @@ section.fam-group{padding:0}
 .hop-card b{display:block;font-family:var(--head);font-size:1.4rem;color:var(--ink)}
 .hop-card span{font-size:.85rem;color:var(--ink-soft)}
 @media (max-width:900px){.hop-split{grid-template-columns:1fr}}
-.hop-trail:nth-of-type(2) .hop-n{background:#0a6d84}
+.hop-trail:nth-of-type(2) .hop-n{background:#9a5f08}
 .hop-trail:nth-of-type(3) .hop-n{background:#2f6b2a}
 .bd-hist{margin:.1rem 0 .4rem;font-size:.82rem;color:var(--ink)}
 .bd-hist a{color:var(--blue);text-decoration:underline;text-underline-offset:2px;margin-left:.3rem}
@@ -1265,3 +1265,50 @@ body{letter-spacing:-.011em;line-height:1.5}
 .link-arrow{font-weight:500;color:var(--blue)}
 .hero .display{font-size:clamp(2.8rem,6.2vw,5.4rem)}
 .hero .display .script{white-space:nowrap}
+
+/* Colour scheme from the logo (22 Oct 2026). One hue family, about 40 degrees, no blue:
+   logo gold #e19e13 is the accent, stout #2b1a0c the dark, white the page.
+   Links are deep amber #9a5f08 (5.2:1 on white).
+   Gold buttons carry stout text: white on gold is only 2.3:1, stout on gold is 7.3:1. */
+:root{--on-gold:#2b1a0c;--gold-hover:#efb43a}
+.rainbow{background:linear-gradient(90deg,#ae7213,#e19e13 40%,#f0ce89 75%,#e19e13)}
+::selection{background:var(--gold);color:var(--on-gold)}
+.btn-amber,.nav-cta,.finder select{color:var(--on-gold)!important}
+.btn-amber:hover,.nav-cta:hover{background:var(--gold-hover)}
+.finder select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%232b1a0c' stroke-width='2' fill='none'/%3E%3C/svg%3E")}
+.btn-amber .ico,.nav-cta .ico{color:var(--on-gold)}
+.course-card .tag,.course-no{color:var(--amber-deep)}
+
+/* White page, always (Ankur, 22 Oct 2026). Every section background is white; colour lives
+   in the accents only (gold buttons and labels, blue links). Hairlines separate the bands. */
+.tint,.sand,.ticker,.navy-sec,.banner,.cta,.cta-band,footer.site,.announce{background:#fff!important;color:var(--ink)}
+section.okt-band{background:#fff!important}
+.announce{border-bottom:1px solid var(--line)}
+.announce a{color:var(--amber-deep)}
+.banner{border-bottom:1px solid var(--line)}
+.cta,footer.site{border-top:1px solid var(--line)}
+.navy-sec h1,.navy-sec h2,.navy-sec h3,.navy-sec h4,.banner h1,.cta h2,.cta-band h2,.cta-band h3{color:var(--ink)}
+.navy-sec .lead,.navy-sec p,.banner p,.cta p,.cta-band p{color:var(--ink-soft)}
+.banner .eyebrow,.navy-sec .eyebrow{color:var(--amber-deep)}
+.banner .crumbs,.banner .crumbs a{color:var(--ink-soft)}
+.btn-ghost.on-dark{color:var(--ink);border-color:var(--ink)}
+footer.site{color:var(--ink-soft)}
+footer.site h4{color:var(--amber-deep)}
+footer.site a:hover{color:var(--ink)}
+.foot-brand .brand{color:var(--ink)}
+.foot-bottom{border-top-color:var(--line);color:var(--ink-soft)}
+
+/* Inline white text from the old dark sections, now on white. */
+.navy-sec [style*="color:#fff"],.banner [style*="color:#fff"],.cta [style*="color:#fff"],footer.site [style*="color:#fff"]{color:var(--ink)!important}
+.checklist.on-dark li{color:var(--ink)}
+/* No blue anywhere: form controls, focus and the tile Enrol button follow the logo gold. */
+:root{accent-color:var(--amber)}
+:focus-visible{outline-color:var(--amber)}
+.course-card .foot .btn{background:var(--amber);border-color:var(--amber);color:var(--on-gold)}
+.course-card .foot .btn:hover{background:var(--gold-hover);filter:none}
+a.link-arrow,.link-arrow{color:var(--amber-deep)}
+.field input:focus,.field select:focus,.field textarea:focus{box-shadow:0 0 0 3px rgba(225,158,19,.25)}
+.navy-sec [style*="color:rgba(255,255,255"],.banner [style*="color:rgba(255,255,255"],.cta [style*="color:rgba(255,255,255"]{color:var(--ink-soft)!important}
+.navy-sec .feature p,.navy-sec .feature h3{color:var(--ink)}
+.navy-sec .feature p{color:var(--ink-soft)}
+.leaflet-container a{color:var(--amber-deep)}

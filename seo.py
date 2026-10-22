@@ -312,7 +312,7 @@ def head_meta(slug, title, desc):
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
 <link rel="manifest" href="/site.webmanifest" />
-<meta name="theme-color" content="#123c4a" />
+<meta name="theme-color" content="#ffffff" />
 <meta name="geo.region" content="IN-KA" />
 <meta name="geo.placename" content="{CITY}" />"""
 
@@ -425,7 +425,7 @@ def webmanifest():
         "start_url": "/",
         "display": "standalone",
         "background_color": "#ffffff",
-        "theme_color": "#123c4a",
+        "theme_color": "#ffffff",
         "icons": [
             {"src": "/assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"},
             {"src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml"},

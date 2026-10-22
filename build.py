@@ -236,7 +236,7 @@ FOOTER = """
 <footer class="site">
   <div class="wrap foot-grid">
     <div class="foot-brand">
-      <a href="index.html" aria-label="Craft Beer School home"><img src="assets/footer-logo.png" alt="Craft Beer School" class="foot-logo" width="113" height="126" /></a>
+      <a href="index.html" aria-label="Craft Beer School home"><img src="assets/logo.png" alt="Craft Beer School" class="foot-logo" width="118" height="146" /></a>
       <p>India's trusted online and in-person beer school. Grain to glass and beyond, brewing, tasting, branding and the business of beer.</p>
     </div>
     <div><h4>Learn</h4><ul>
