@@ -4,7 +4,10 @@ Change an offer here and rebuild; nothing else needs touching."""
 
 CITIES = "Pune, Delhi, Gurugram and Bengaluru"
 
+import starters_page
+
 OFFERS = [
+    starters_page.OFFER,
     dict(key="wset",
          banner="Exam soon? Last-minute WSET Level 1 Beer prep, in person.",
          link="Enrol now",

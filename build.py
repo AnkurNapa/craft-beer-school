@@ -15,6 +15,7 @@ from urllib.parse import quote
 import article_render
 import course_pages
 import inperson_pages
+import starters_page
 import articles_all
 import pages_a
 import promos
@@ -518,6 +519,13 @@ PAGES = {
 
 PAGES.update(course_pages.pages())
 PAGES.update(inperson_pages.pages())
+PAGES.update(starters_page.pages())
+# Beer for Starters band on the home page and above the first course group.
+for _slug, _anchor, _cta in [("index.html", '<section class="hero">', "home-starters"),
+                             ("courses.html", '<section class="tint cf-group"', "courses-starters")]:
+    _t, _d, _a, _b = PAGES[_slug]
+    assert _anchor in _b, f"{_slug}: no anchor for the Beer for Starters band"
+    PAGES[_slug] = (_t, _d, _a, _b.replace(_anchor, starters_page.HOME_BAND.replace("home-starters", _cta) + _anchor, 1))
 COURSE_SLUGS = set(course_pages.pages())
 # Every course page ends with the free guides that already sell it.
 for _c in pages_a.COURSE_DATA:
