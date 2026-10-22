@@ -30,7 +30,36 @@ def credit(r):
 SHOW_ON_SITE = False  # photos are used in the prospectus PDF only, by request
 
 
+STOCK = HERE / "content/stock.json"  # CC0 stock photos for the website (22 Oct 2026)
+
+
+def _stock():
+    return json.loads(STOCK.read_text()) if STOCK.exists() else {}
+
+
+def _img(r, alt, eager, sizes="(max-width: 680px) 92vw, 1100px"):
+    src, sm = r["file"], r["file"].replace(".jpg", "-sm.jpg")
+    load = 'loading="eager" fetchpriority="high"' if eager else 'loading="lazy"'
+    return (f'<img src="{src}" srcset="{sm} 640w, {src} 1024w" sizes="{sizes}" alt="{html.escape(alt)}" '
+            f'width="{r["w"]}" height="{r["h"]}" {load} decoding="async" />')
+
+
+def stock_img(slot, alt, cls="", sizes="(max-width: 680px) 92vw, 400px"):
+    """A bare stock <img>, or "" when the slot has no photo. CC0 needs no caption."""
+    r = _stock().get(slot)
+    return _img(r, alt, False, sizes).replace("<img ", f'<img class="{cls}" ', 1) if r else ""
+
+
+def band(slot, alt):
+    """Full-width photo band between sections, Apple style."""
+    r = _stock().get(slot)
+    return f'<div class="photo-band reveal">{_img(r, alt, False, "100vw")}</div>' if r else ""
+
+
 def figure(slot, alt, cls="photo", eager=False):
+    r = _stock().get(slot)
+    if r:
+        return f'<figure class="{cls}">{_img(r, alt, eager)}</figure>'
     if not SHOW_ON_SITE:
         return ""
     r = _all().get(slot)
@@ -54,12 +83,17 @@ def credits_page():
         f'<td><a href="{r["page"]}" target="_blank" rel="noopener nofollow">{html.escape(r["title"].removeprefix("File:"))}</a></td>'
         f'<td>{html.escape(" ".join(r["author"].split()))}</td><td>{_licence(r)}</td></tr>'
         for r in _all().values())
+    rows += "".join(
+        f'<tr><td><img src="{r["file"].replace(".jpg", "-sm.jpg")}" alt="" width="120" height="75" loading="lazy" /></td>'
+        f'<td><a href="{r["page"]}" target="_blank" rel="noopener nofollow">{html.escape(r["title"] or "Untitled photo")}</a></td>'
+        f'<td>rawpixel</td><td><a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></td></tr>'
+        for r in _stock().values())
     return f"""
 <section class="banner"><div class="wrap">
   <div class="crumbs"><a href="index.html">Home</a> / Image credits</div>
   <span class="eyebrow">Image credits</span>
-  <h1 class="display">Photos in our prospectus.</h1>
-  <p>The photographs in the Craft Beer School prospectus come from Wikimedia Commons under free licences. Thank you to the photographers.</p>
+  <h1 class="display">Photos on our site and in our prospectus.</h1>
+  <p>The photographs in the Craft Beer School prospectus come from Wikimedia Commons under free licences. The photographs on this website come from rawpixel under CC0, which needs no credit, but we list them here anyway. Thank you to the photographers.</p>
 </div></section>
 <section><div class="wrap">
   <p style="max-width:62ch;color:var(--ink-soft)">Each photo has been cropped and resized for the web. Photos under a Creative Commons ShareAlike licence remain under that licence as modified; the licence link for each is below. Beer glass illustrations and course share images are our own.</p>

@@ -9,7 +9,7 @@
   --ink:#1d1d1f;          /* Apple near-black */
   --navy:#123c4a;         /* deep teal-navy — brand accent */
   --navy-deep:#0c2b35;
-  --blue:#0a6d84;         /* link / accent blue */
+  --blue:#0066cc;         /* Apple link blue */
   --mint:#cfeadb;         /* offset block */
   --mint-deep:#8fcfa6;
   --paper:#ffffff;
@@ -18,13 +18,15 @@
   --amber:#d9862a;        /* CTA warmth (beer) */
   --amber-deep:#b96f18;
   --gold:#f3c34d;
-  --ink-soft:#5f6368;     /* calm secondary text */
+  --ink-soft:#6e6e73;     /* Apple secondary text */
   --line:#e8e8ed;         /* hairline */
 
-  --serif:"Fraunces",Georgia,serif;
-  --head:"Hanken Grotesk",system-ui,-apple-system,sans-serif;
-  --sans:"Hanken Grotesk",system-ui,-apple-system,sans-serif;
-  --mono:"Space Mono",ui-monospace,monospace;
+  /* Apple type: SF Pro on Apple devices, Inter (the closest free match) everywhere else. */
+  --sf:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Inter","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --serif:var(--sf);
+  --head:var(--sf);
+  --sans:var(--sf);
+  --mono:var(--sf);
 
   --wrap:1180px;
   --ease:cubic-bezier(.16,1,.3,1);
@@ -1238,3 +1240,28 @@ header .lang-switch nav{position:absolute;top:calc(100% + .35rem);left:0;z-index
   .course-facts .cta-pair{margin-left:auto;flex-wrap:nowrap;gap:.5rem}
   .course-facts .cta-pair .btn{padding:.5rem 1.05rem;font-size:.88rem;white-space:nowrap}
 }
+
+/* Stock photos (22 Oct 2026): tile tops, full-width bands that settle as they scroll in. */
+.course-card .tile-img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;background:var(--cloud)}
+.photo-band{overflow:hidden;height:clamp(220px,40vw,560px);background:var(--cloud)}
+.photo-band img{display:block;width:100%;height:100%;object-fit:cover;transform:scale(1.1);transition:transform 1.8s var(--ease)}
+.photo-band.in img{transform:none}
+.js .photo-band.reveal{transform:none}
+@media (prefers-reduced-motion:reduce){.photo-band img{transform:none}}
+
+/* Apple design language (22 Oct 2026): SF type, semibold headlines, sentence-case eyebrows,
+   gradient accent words. Brand amber and navy stay. */
+h1,h2,h3,h4{font-weight:700;letter-spacing:-.022em}
+.display{font-weight:700;letter-spacing:-.03em;line-height:1.04}
+.sec-head h2{letter-spacing:-.025em}
+h3{font-weight:600;letter-spacing:-.015em}
+body{letter-spacing:-.011em;line-height:1.5}
+.lead,.banner p{letter-spacing:-.012em}
+.eyebrow{font-family:var(--sf);font-size:1.05rem;font-weight:600;letter-spacing:-.01em;text-transform:none;color:var(--amber-deep)}
+.banner .eyebrow{color:var(--gold)}
+.script{font-family:var(--sf);font-style:normal;font-weight:700;
+  background:linear-gradient(90deg,var(--amber),#e8a33d 45%,var(--amber-deep));-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn{font-weight:500;letter-spacing:-.01em}
+.link-arrow{font-weight:500;color:var(--blue)}
+.hero .display{font-size:clamp(2.8rem,6.2vw,5.4rem)}
+.hero .display .script{white-space:nowrap}

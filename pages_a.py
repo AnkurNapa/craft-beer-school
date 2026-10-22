@@ -59,7 +59,8 @@ def mode_tag(mode):
 
 def course(no, tag, dur, name, blurb, items, price, ph):
     lis = "".join(f"<li>{i}</li>" for i in items)
-    return f"""<article class="card course-card reveal" data-type="{course_types(name, price)}" data-subject="{SUBJECT[name]}">
+    tile = photos.stock_img("course:" + course_href(name)[:-len("-course.html")], name, "tile-img")
+    return f"""<article class="card course-card reveal" data-type="{course_types(name, price)}" data-subject="{SUBJECT[name]}">{tile}
   <div class="top"><span class="course-no">{no} / {tag}</span><span class="course-dur">{dur}</span></div>
   <div class="card-body">
     {mode_tag(MODE.get(name, "Online"))}
@@ -238,7 +239,8 @@ def tracks_section():
                       '<li><a href="brewery-business-tour-in-person.html">Brewery Business Tour</a><span>Half day · On enquiry</span></li>'
                       '<li><a href="in-person-brewing-courses-pune-delhi-gurugram-bengaluru.html">1-day and 1-month brewing courses</a><span>Pune, Delhi, Gurugram, Bengaluru</span></li>')
         slot = {"Brewing": "track:brewing", "Business and tech": "track:business", "Spirits": "track:spirits",
-                "Beyond beer": "track:beyond", "Wine and new products": "track:wine"}.get(title, "track:bengaluru")
+                "Beyond beer": "track:beyond", "Wine and new products": "track:wine",
+                "Brand and marketing": "track:brand"}.get(title, "track:bengaluru")
         tiles.append(f"""<article class="track reveal">{photos.figure(slot, title, "photo track-photo")}
         <div class="track-head"><span class="ic">[[{icon}]]</span><div><h3>{title}</h3><p>{line}</p></div></div>
         <ul class="track-list">{items}</ul>
@@ -340,7 +342,9 @@ HOME = f"""{OKT}
     <div style="margin-top:2rem"><a href="#tracks" class="link-arrow">See all {COURSE_COUNT_WORD} courses by track</a></div>
   </div>
 </section>
+{photos.band("band:brewhouse", "Copper brew kettles in a working brewhouse")}
 {tracks_section()}
+{photos.band("band:hops", "Fresh hop cones on the bine")}
 <section class="navy-sec" id="companies">
   <div class="wrap split">
     <div class="prose-block reveal">
@@ -434,6 +438,7 @@ ABOUT = banner("About","About Craft Beer School","We teach the whole bottle.",
   </div>
 </section>
 
+""" + photos.band("band:pour", "Beer taps along a bar") + """
 <section class="tint">
   <div class="wrap">
     <div class="sec-head center"><span class="eyebrow">What makes us different</span><h2>From passion to profession.</h2></div>
