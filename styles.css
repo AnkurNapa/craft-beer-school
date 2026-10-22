@@ -1312,3 +1312,10 @@ a.link-arrow,.link-arrow{color:var(--amber-deep)}
 .navy-sec .feature p,.navy-sec .feature h3{color:var(--ink)}
 .navy-sec .feature p{color:var(--ink-soft)}
 .leaflet-container a{color:var(--amber-deep)}
+
+/* Section dividers on the white page (22 Oct 2026): a hairline between sections and a short
+   logo-gold bar above each section label. */
+main > section + section{border-top:1px solid var(--line)}
+main > section[style*="padding-block:0"],main > section[style*="padding-block:0"] + section{border-top:0}
+.sec-head .eyebrow::before,.prose-block>.eyebrow::before{content:"";display:block;width:44px;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--amber),var(--gold));margin-bottom:.9rem}
+.sec-head.center .eyebrow::before{margin-inline:auto}
