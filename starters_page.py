@@ -146,7 +146,7 @@ def pages():
 
 # Home page band and promo strip entry, so every CTA points at the same page.
 HOME_BAND = f"""
-<section class="okt-band" aria-label="{NAME}" style="background:#fbf3e2;border-bottom:1px solid #ead9b8">
+<section class="okt-band" aria-label="{NAME}" style="padding-block:0;background:#fbf3e2;border-bottom:1px solid #ead9b8">
   <div class="wrap" style="display:flex;align-items:center;gap:clamp(1rem,3vw,2.5rem);flex-wrap:wrap;padding-block:clamp(1.4rem,3vw,2.2rem)">
     <a href="{SLUG}" data-cta="home-starters-poster" style="flex:0 1 280px;max-width:100%;display:block">
       <img src="assets/beer-for-starters-560.jpg" width="560" height="560" loading="eager" style="width:100%;height:auto;border-radius:12px;box-shadow:0 14px 30px -14px rgba(59,36,20,.5)"

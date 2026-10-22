@@ -1157,3 +1157,84 @@ header .lang-switch nav{position:absolute;top:calc(100% + .35rem);left:0;z-index
 .cf-docs{display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;font-size:.9rem}
 .cf-docs a{color:var(--blue);text-decoration:underline;display:inline-flex;align-items:center;gap:.35rem}
 .cf-docs .ico{width:1em;height:1em}
+
+/* Apple-style navigation (Ankur's request, 22 Oct 2026): quiet bar, full-width
+   panel under the header with large links, page blurred behind it. CSS only. */
+@media (min-width:961px){
+  header nav,.nav-dd{position:static}
+  .navlinks{font-size:.84rem;font-weight:500}
+  .navlinks>a,.nav-dd>a{color:rgba(29,29,31,.78);transition:color .2s}
+  .navlinks>a:hover,.nav-dd>a:hover,.nav-dd:focus-within>a{color:#1d1d1f}
+  .navlinks>a::after,.nav-dd>a::after{display:none}
+  .navlinks a.active{color:var(--amber-deep)}
+  .dd-menu{top:100%;left:0;right:0;min-width:0;border-radius:0;border:0;border-bottom:1px solid var(--line);
+    box-shadow:none;background:#fbfbfd;
+    padding:2.4rem max(clamp(1.2rem,4vw,2.5rem),calc((100vw - var(--wrap))/2 + 2.5rem)) 3rem;
+    grid-template-columns:repeat(3,minmax(0,16rem));grid-auto-flow:row;gap:.15rem 2.5rem;align-content:start;
+    transform:translateY(-10px);transition:opacity .28s var(--ease),transform .28s var(--ease),visibility .28s}
+  .dd-menu::before{top:-1.4rem;height:1.4rem}
+  .dd-menu::after{content:"";position:absolute;top:100%;left:0;right:0;height:100vh;pointer-events:none;
+    background:rgba(29,29,31,.28)}
+  .dd-menu a{padding:.32rem 0;border-radius:0;font-family:var(--head);font-size:1.05rem;font-weight:600;color:#1d1d1f;white-space:normal}
+  .dd-menu a:first-child{grid-column:1/-1;font-size:1.7rem;font-weight:700;letter-spacing:-.02em;margin-bottom:.7rem}
+  .dd-menu a:hover,.dd-menu a:focus-visible{background:none;color:var(--amber-deep)}
+  .dd-menu a{opacity:0;transform:translateY(-4px);transition:opacity .3s var(--ease),transform .3s var(--ease),color .2s}
+  .nav-dd:hover .dd-menu a,.nav-dd:focus-within .dd-menu a{opacity:1;transform:none}
+  .nav-dd:hover .dd-menu a:nth-child(n+2),.nav-dd:focus-within .dd-menu a:nth-child(n+2){transition-delay:.04s}
+  .nav-dd:hover .dd-menu a:nth-child(n+5),.nav-dd:focus-within .dd-menu a:nth-child(n+5){transition-delay:.08s}
+}
+@media (prefers-reduced-motion:reduce){.dd-menu,.dd-menu a{transition:none!important;transform:none!important}}
+/* Phones: Apple's full-screen menu with big, tappable top-level links. */
+@media (max-width:960px){
+  .navlinks.open{gap:.2rem;padding:1rem 1.5rem 2rem;background:#fbfbfd}
+  .navlinks.open>a:not(.nav-cta),.navlinks.open .nav-dd>a{font-size:1.45rem;font-weight:700;letter-spacing:-.02em;color:#1d1d1f;padding-block:.45rem}
+  .navlinks.open>a::after,.navlinks.open .nav-dd>a::after{display:none}
+  .navlinks.open .dd-menu{padding:0 0 .6rem;background:transparent}
+  .navlinks.open .dd-menu a{font-size:1rem;font-weight:500}
+}
+
+/* Apple-style pass (Ankur's request, 22 Oct 2026). */
+/* 1. Big type and space. */
+.display{font-size:clamp(3rem,8vw,6.4rem);line-height:1;letter-spacing:-.045em}
+.banner{padding-block:clamp(3.5rem,8vw,6.5rem) clamp(3.5rem,7vw,5.5rem)}
+.banner p{font-size:clamp(1.1rem,1.6vw,1.35rem);line-height:1.5}
+.sec-head h2{font-size:clamp(2.2rem,5vw,3.8rem);letter-spacing:-.035em;line-height:1.04}
+.lead{font-size:clamp(1.15rem,1.7vw,1.4rem)}
+@media (min-width:961px){section{padding-block:clamp(5.5rem,10vw,9.5rem)}}
+
+/* 2. Scroll animations: rise, settle and stagger. Reduced motion turns them off (line 274). */
+.js .reveal,.js .sec-head{opacity:0;transform:translateY(40px) scale(.985);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.js .reveal.in,.js .sec-head.in{opacity:1;transform:none}
+.js .grid-3>.reveal:nth-child(3n+2),.js .tracks>.reveal:nth-child(3n+2){transition-delay:.08s}
+.js .grid-3>.reveal:nth-child(3n),.js .tracks>.reveal:nth-child(3n){transition-delay:.16s}
+
+/* 3. Course tiles, Apple store style: soft grey tile, centred big type, pill buttons. */
+.course-card{background:#f5f5f7;border:0;border-radius:22px;box-shadow:none;text-align:center;transition:transform .5s var(--ease),box-shadow .5s var(--ease)}
+.course-card:hover{transform:translateY(-4px) scale(1.01);box-shadow:0 22px 44px -22px rgba(0,0,0,.28)}
+.course-card .top{justify-content:center;gap:.8rem;padding-top:1.8rem}
+.course-card .card-body{display:flex;flex-direction:column;align-items:center;padding:1rem 1.8rem 2rem}
+.course-card h3{font-size:clamp(1.45rem,2vw,1.75rem);letter-spacing:-.025em;line-height:1.12;margin-top:.5rem}
+.course-card p{color:var(--ink-soft)}
+.course-card ul{align-items:center}
+.course-card li{padding-left:0}
+.course-card li::before{display:none}
+.course-card .link-arrow{order:2;margin:.2rem 0 0;color:var(--blue)}
+.course-card .foot{flex-direction:column;gap:.9rem;width:100%;padding-top:1.3rem}
+.course-card .price{font-size:1.7rem}
+.course-card .foot .btn{background:var(--blue);border-color:var(--blue);color:#fff;border-radius:980px;padding:.6rem 1.6rem!important}
+.course-card .foot .btn:hover{filter:brightness(1.08)}
+@media (prefers-reduced-motion:reduce){.course-card:hover{transform:none}}
+
+/* 4. Sticky course bar: the facts row sticks under the menu while you read the page.
+   Wide screens only; phones already have the bottom Enrol bar. */
+@media (min-width:1200px){
+  .course-facts{padding:.8rem 1.6rem;border-radius:16px;
+    background:rgba(255,255,255,.86);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px)}
+  section:has(>.course-facts){position:sticky;top:76px;z-index:150;padding-block:0}
+  .course-facts{flex-wrap:nowrap;gap:1.6rem}
+  .course-facts>div{flex:0 0 auto}
+  .course-facts span{font-size:.68rem}
+  .course-facts b{font-size:1rem}
+  .course-facts .cta-pair{margin-left:auto;flex-wrap:nowrap;gap:.5rem}
+  .course-facts .cta-pair .btn{padding:.5rem 1.05rem;font-size:.88rem;white-space:nowrap}
+}

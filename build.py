@@ -276,7 +276,7 @@ SCRIPTS = """
 <script>
 document.documentElement.classList.add('js');
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+document.querySelectorAll('.reveal,.sec-head').forEach(el=>io.observe(el));
 
 const FORMSPREE_ID="__FID__";
 const ENQUIRY_EMAIL="__EMAIL__";
