@@ -1,0 +1,67 @@
+{
+ "slug": "depot-stock-norms-for-packaged-beer",
+ "cat": "Beer for teams",
+ "h1": "Depot stock norms for packaged beer",
+ "title": "Depot Stock Norms for Packaged Beer | Craft Beer School",
+ "desc": "How beer companies set depot stock norms in days of cover, why freshness caps the upper limit and how to size norms for peak season in India.",
+ "teaser": "Too little beer at a depot loses sales. Too much goes stale. Stock norms are how companies find the middle.",
+ "standfirst": "A depot stock norm says how much of each beer a depot should hold, usually in days of cover. For most goods it is a service and cash trade-off. For beer there is a third limit: the beer is ageing from the day it is packaged, so the norm has a ceiling set by freshness.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Stock norms are written in days, not cases",
+   "<p>A stock norm is usually expressed as days of cover: how many days of expected sales the depot should hold. If a depot sells 2,000 cases of a brand a day and the norm is 10 days, the target stock is 20,000 cases. Writing norms in days lets the same rule work for a fast brand and a slow one. It also works for a busy summer month and a quiet monsoon month.</p><p>Most companies set a minimum and a maximum. The minimum protects against stockouts while the next truck arrives. The maximum stops the depot filling with beer that will not sell in time. Between the two, the depot orders to replenish.</p>"
+  ],
+  [
+   "The minimum comes from lead time and variability",
+   "<p>The lower limit has two parts. The first is cycle stock: enough to cover sales until the next replenishment lands. If trucks from the brewery arrive every three days and transit takes two, the depot needs at least five days of cover in the pipeline to avoid running dry. The second is safety stock, which covers the days when demand runs higher than forecast or a truck is late.</p><p>Safety stock grows with uncertainty. A brand with steady daily sales needs little. A brand whose sales swing with weather, festivals and dry days needs more. So does a depot far from the brewery, where a breakdown on the highway can delay a load by a day or two. Our guide to <a href=\"beer-supply-chain-explained.html\">the beer supply chain</a> shows where those delays tend to come from.</p>"
+  ],
+  [
+   "The maximum comes from freshness",
+   "<p>Packaged lager in India commonly carries a best before date around six months from packaging. That sounds generous. In practice the beer must also pass through the depot, the distributor or corporation and the retailer before it spends time on a shelf. Many outlets refuse stock that arrives with too little life left. If the trade expects at least four months of remaining life on delivery, the brewery and depot together have roughly two months to move it.</p><p>Heat shortens that window further in flavour terms. A depot in a hot city without temperature control will age beer faster than the printed date suggests. Fresh beer sells better and gets fewer complaints. So the maximum norm is often set lower than cash or space alone would allow. A depot holding 45 days of a slow brand is a freshness risk even if it has room.</p>"
+  ],
+  [
+   "A worked example for peak season",
+   "<p>Take an illustrative depot selling 1,500 cases a day of a core lager in a normal month. Replenishment is every two days with a one day transit, so cycle stock is about three days. The planner adds four days of safety stock for variability. The minimum is seven days, or 10,500 cases. The maximum, set by space and freshness, is 15 days, or 22,500 cases.</p><p>Now April arrives and daily sales climb towards 2,500 cases. If the norm stays in cases, the depot is suddenly at four days of cover and heading for stockouts. If the norm is in days, the target recalculates to 17,500 to 37,500 cases. That only works if the forecast has moved up too. The brewery must also have brewed the beer three or four weeks earlier. The numbers are invented for the example. The logic is what matters: norms in days follow the forecast automatically.</p>"
+  ],
+  [
+   "Why one norm for every brand fails",
+   "<p>Applying the same days of cover to every brand and pack is common and rarely right. Fast core brands can run lean because replenishment is frequent and demand is predictable. Slow specialty brands need more days to avoid stockouts, yet they are exactly the ones most at risk of ageing in the depot. Returnable glass adds another wrinkle, since empties must flow back and the depot needs space for them too.</p><p>A practical approach segments SKUs by volume and variability, then sets norms for each segment. Review them each quarter and before the summer peak. Track two numbers alongside: stockout days and the age profile of stock in the depot. If one moves badly while the other looks good, the norm is in the wrong place.</p>"
+  ],
+  [
+   "Reading depot data with a brewer's eye",
+   "<p>A depot dashboard that shows days of cover but not stock age hides the biggest beer risk. Ask for the oldest packaging date by SKU at each depot, as well as the quantity. FIFO, first in first out, is the rule every warehouse aims for. In a crowded depot during peak season it slips easily. Our related guides on <a href=\"brewhouse-kpis-for-analysts.html\">brewhouse KPIs for analysts</a> and <a href=\"beer-industry-explained-for-gcc-teams.html\">the beer industry for GCC teams</a> connect depot numbers back to production.</p><p>A first step: pick your three largest depots and pull stock by SKU with packaging dates. Flag anything older than 60 days. That list tells you which norms to look at first.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a depot stock norm?",
+   "It is the target amount of each product a depot should hold, usually set as minimum and maximum days of cover based on forecast sales."
+  ],
+  [
+   "Why do beer stock norms have a maximum?",
+   "Because beer ages from packaging. Holding too many days of stock risks selling beer that is close to its best before date or already stale in flavour."
+  ],
+  [
+   "How long does packaged beer last in India?",
+   "Most packaged lager carries a best before of about six months, but heat in storage can make it taste old sooner."
+  ],
+  [
+   "Should stock norms change in summer?",
+   "Norms in days of cover adjust automatically as the forecast rises. The brewery must still brew ahead, since lager takes weeks to produce."
+  ]
+ ],
+ "cta": {
+  "title": "Help your supply chain team plan around a product that ages",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that show what stale beer tastes like and why freshness matters.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-industry-explained-for-gcc-teams",
+  "brewhouse-kpis-for-analysts",
+  "beer-supply-chain-explained"
+ ]
+}

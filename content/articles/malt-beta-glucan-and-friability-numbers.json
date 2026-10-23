@@ -1,0 +1,75 @@
+{
+ "slug": "malt-beta-glucan-and-friability-numbers",
+ "cat": "Ingredients",
+ "h1": "Malt beta-glucan and friability numbers",
+ "title": "Malt Beta-Glucan and Friability Numbers | Craft Beer School",
+ "desc": "How to read beta-glucan and friability on a malt certificate, the healthy ranges and what poor numbers do to runoff, filtration and haze.",
+ "teaser": "Slow runoff and blinded filters often start at the maltings. Two numbers on the certificate warn you before the malt reaches the mill.",
+ "standfirst": "Beta-glucan and friability both tell you how well the maltster broke down the barley's cell walls. Poor numbers show up as slow lautering, sticky filters and haze. Reading them on delivery gives you a chance to adjust the mash before the problem reaches the brewhouse.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Cell walls are the first thing malting breaks down",
+   "<p>Each starch granule in a barley grain sits inside cell walls made mostly of beta-glucan, a sticky carbohydrate. During germination the grain makes enzymes that break those walls down. That opens the starch to the mash and removes much of the gum. Our guide to the <a href=\"barley-malting-process.html\">barley malting process</a> shows where this happens.</p><p>Some barley varieties and some growing seasons give grain that is naturally higher in beta-glucan. If germination is cut short, or the barley is hard to modify, much of the beta-glucan stays intact. It dissolves into the wort during mashing and raises viscosity. Thicker wort drains slowly through the grain bed and blinds filters later.</p>"
+  ],
+  [
+   "Friability measures how easily the malt crumbles",
+   "<p>Friability is measured with a friabilimeter. A weighed malt sample is rolled against a sieve and the share that crumbles through is recorded as a percentage. Well-modified kernels are soft and crumble. Under-modified kernels stay hard and glassy.</p><p>Typical guidance for barley base malt:</p><ul><li>Above about 85%: very good modification.</li><li>80 to 85%: acceptable for most brewing.</li><li>Below about 80%: expect slower runoff and lower extract.</li></ul><p>The same test also counts whole unmodified grains, sometimes reported as glassy or partly unmodified grains. Even with a good average friability, a high share of glassy kernels means uneven modification.</p>"
+  ],
+  [
+   "Beta-glucan in congress wort shows how much gum reaches the kettle",
+   "<p>The laboratory mashes the malt in a standard congress mash and measures beta-glucan in the wort, usually in milligrams per litre. Values below about 200 mg/L are generally considered good for barley base malt. Many brewers start to see lautering and filtration trouble once values climb well above that.</p><p>Wort viscosity is often reported alongside it, in millipascal seconds (mPa·s). A typical target for congress wort at 8.6% extract is about 1.6 mPa·s or below. Higher viscosity means slower runoff in the same tun. Our guide to the <a href=\"malt-certificate-of-analysis.html\">malt certificate of analysis</a> shows where these sit on the sheet.</p>"
+  ],
+  [
+   "The two numbers can disagree",
+   "<p>Friability and beta-glucan usually move together, but not always. A malt can show good friability with high beta-glucan if the kernels are soft but the walls were not fully broken down. Mixed lots, where well-modified and under-modified malt are blended, can average out to acceptable numbers while still causing trouble.</p><p>Some maltsters also report modification and homogeneity from a Calcofluor stain. The dye binds to intact beta-glucan and glows under ultraviolet light, so under-modified parts of each kernel show up clearly. It is the best way to spot a blended lot, because it looks at individual kernels rather than an average.</p><p>When the numbers disagree, trust the one that matches your brewhouse experience. If runoff is slow, beta-glucan or viscosity is usually the culprit, whatever friability says.</p>"
+  ],
+  [
+   "A beta-glucan rest or enzyme can rescue a poor lot",
+   "<p>When a delivery comes in with high beta-glucan, you have options:</p><ul><li>Mash in at around 40 to 45 °C and hold for 15 to 20 minutes. Malt beta-glucanase is heat sensitive and works best at these low temperatures.</li><li>Add a commercial beta-glucanase, following the supplier's dose and temperature range.</li><li>Raise rice hulls in the grist to support the bed.</li><li>Slow the lauter and keep the bed flooded.</li></ul><p>A step mash costs time. An enzyme costs money. A set mash costs both. Our guide to <a href=\"wheat-malt-in-brewing.html\">wheat malt in brewing</a> covers similar issues with huskless grain.</p>"
+  ],
+  [
+   "Humidity can make good malt look bad",
+   "<p>Friability depends on the malt being dry and crisp. Malt that has picked up moisture in storage turns slightly leathery and crumbles less, so its friability falls even though modification has not changed. In a humid Indian monsoon, opened bags can pick up moisture within days. That same slack malt also mills badly, with more torn husk and more flour.</p><p>The floor detail here: a sack that reads 86% friable on the certificate can behave like a 78% malt after a month on a damp floor. Store malt sealed and off the ground. Use opened bags quickly.</p>"
+  ],
+  [
+   "The certificate is a prediction you can test",
+   "<p>Malt numbers are useful only if you compare them with what happens in your brewhouse. Track lauter time, differential pressure and filter run length against each malt lot's friability and beta-glucan. After a few lots you will know your own thresholds. Linking lab numbers to process results is the data side of brewing science. A single guide cannot set that up for you.</p>"
+  ],
+  [
+   "Log your next malt lot against runoff time",
+   "<p>When the next malt delivery arrives, write its friability and beta-glucan on the brew sheet for the first batch that uses it. Record total lauter time. Do this for three lots and you will have the start of a specification tuned to your own kit.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good friability for malt?",
+   "Above about 85% is very good and 80 to 85% is acceptable for most brewing. Below 80% often means slower runoff and lower extract."
+  ],
+  [
+   "What beta-glucan level is acceptable in malt?",
+   "Values below about 200 mg/L in congress wort are generally considered good for barley base malt."
+  ],
+  [
+   "How do I deal with high beta-glucan malt?",
+   "Use a rest around 40 to 45 °C, a commercial beta-glucanase, more rice hulls or a slower lauter."
+  ],
+  [
+   "Can storage change friability?",
+   "Yes. Malt that picks up moisture becomes leathery and crumbles less, so measured friability falls even though modification is unchanged."
+  ]
+ ],
+ "cta": {
+  "title": "Link malt numbers to brewhouse results",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers malting, cell wall chemistry and lautering so you can read a malt certificate and adjust the mash before trouble starts.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "barley-malting-process",
+  "wheat-malt-in-brewing",
+  "malt-certificate-of-analysis"
+ ]
+}

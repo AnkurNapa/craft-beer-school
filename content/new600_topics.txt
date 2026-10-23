@@ -1,0 +1,638 @@
+# Ankur's 600: 300 brewing guides and 300 whisky guides, all bylined to Ankur Napa alone.
+# Line: segment code | stage | course code | h1. Built into plan.json by make_new600_plan.py.
+# Segments: BL Beer lovers (whisky lovers in the whisky cat), HB Homebrewers, PB Professional brewers,
+# FO Founders, CT Corporate teams, DP Drinks producers, CC Career changers.
+# Courses: F fundamentals, A advanced science, Y style specialisation, S sensory, M business,
+# D craft distilling, C corporate training, N non-alcoholic beer.
+
+## Brewing basics
+HB|c|F|Writing a brew day timeline so nothing gets rushed
+HB|c|F|Setting up a fermentation corner in a rented flat
+HB|c|F|Using a swamp cooler to keep fermentation cool without a fridge
+HB|c|F|Converting a chest freezer into a fermentation chamber
+HB|c|F|Wiring a plug-in temperature controller for a fermentation fridge
+HB|c|F|Taking a gravity sample without contaminating the batch
+HB|c|F|Reading a refractometer on brew day
+HB|a|F|Making sense of the mash schedule in a homebrew recipe
+HB|c|F|Mash out and why some homebrewers skip it
+HB|c|F|Batch sparging versus fly sparging at home
+HB|c|F|Why your efficiency changes from one brew to the next
+HB|c|F|Topping up with water to hit your target gravity
+HB|c|F|Adjusting a recipe when you miss your original gravity
+HB|c|F|Stopping a boil-over and keeping it from happening again
+HB|c|F|Using Irish moss and kettle finings for clearer homebrew
+HB|c|F|Hop spiders, hop bags or loose pellets in a small kettle
+HB|c|F|Cooling wort with an immersion chiller when tap water is warm
+HB|c|F|No-chill brewing and when it makes sense
+HB|c|F|Aerating wort at home by shaking, splashing or pure oxygen
+HB|c|F|How much yeast to pitch in a 20 litre homebrew batch
+HB|a|F|What a blow-off tube does and when you need one
+HB|c|F|Lag time after pitching and when to start worrying
+HB|c|F|Dry hopping a homebrew without oxidising it
+HB|a|F|Secondary fermentation and why most homebrewers no longer bother
+HB|c|F|Cold crashing in a home fridge without suck-back
+HB|c|F|Using gelatine to clear homebrew
+HB|c|F|Bottling straight from the fermenter with a bottling wand
+HB|c|F|Carbonation drops versus batch priming
+HB|c|F|Why homebrew bottles gush and how to avoid bottle bombs
+HB|c|F|Storing bottled homebrew in Indian heat
+HB|a|F|How long homebrew keeps before it starts to fade
+HB|a|F|Pouring bottle-conditioned homebrew without the yeast
+HB|c|F|Starting with a mini keg setup for homebrew
+HB|c|F|Force carbonating a homebrew keg with the set and forget method
+HB|c|F|Balancing a home kegerator so beer pours without foam
+HB|c|F|Cleaning beer lines on a home kegerator
+HB|c|Y|Brewing a Belgian blonde ale at home
+HB|c|Y|Brewing an oatmeal stout at home
+HB|c|Y|Brewing a Vienna lager at home
+HB|c|Y|Brewing an English brown ale at home
+HB|c|Y|Brewing a West Coast IPA at home with a clean dry finish
+HB|c|Y|Brewing a Mexican-style lager at home with flaked maize
+HB|c|Y|Brewing a gose at home with salt and coriander
+HB|c|Y|Brewing a cream ale at home
+HB|c|Y|Brewing a Scottish export ale at home
+HB|c|Y|Brewing an imperial stout at home and waiting for it
+HB|c|Y|Brewing a small batch of barleywine at home
+HB|c|Y|Brewing a smoked porter at home
+HB|c|Y|Brewing a chai spiced porter at home with whole spices
+HB|c|Y|Brewing a coffee stout at home with cold brew coffee
+HB|c|Y|Brewing a jamun fruit beer at home in the monsoon
+HB|c|Y|Brewing a pumpkin ale at home with Indian pumpkin
+HB|c|Y|Brewing a rye pale ale at home
+HB|c|Y|Brewing a hoppy lager at home
+HB|c|Y|Brewing an altbier at home
+HB|c|Y|Brewing a Munich dunkel at home
+HB|c|Y|Brewing a Belgian tripel at home without hot alcohol flavours
+HB|c|Y|Brewing an English IPA at home with Goldings hops
+HB|c|Y|Brewing a Czech pale lager at home
+HB|c|Y|Brewing an Irish red ale at home
+HB|c|Y|Brewing a blonde ale for friends who drink lager
+HB|c|F|Building a homebrew recipe from scratch with four malts at most
+HB|c|F|Choosing a kettle size for the batch you want to brew
+HB|a|F|Ball valves, thermometers and sight glasses on a homebrew kettle
+HB|c|F|Brewing the same recipe twice to learn what changed
+HB|c|S|Splitting one batch of wort between two yeast strains
+HB|c|S|Splitting one batch to compare two dry hops
+HB|c|F|Common homebrew infections and what they look like
+HB|c|F|Pellicles, mould and when to pour a batch away
+HB|c|F|Sanitising fifty bottles quickly without missing any
+HB|a|F|Homebrewing on a budget with kitchen kit you already own
+HB|c|F|Buying homebrew ingredients online in India and checking freshness
+HB|c|F|Storing leftover hops and malt between brew days
+HB|c|F|Water for your first all-grain brew without a water report
+HB|c|F|Brewing two batches back to back on one brew day
+HB|c|F|Shortening brew day to four hours without cutting corners
+HB|a|F|Five first homebrew recipes in an order that teaches skills
+HB|c|A|Fermenting under pressure in a keg at home
+HB|c|F|Harvesting yeast from a bottle-conditioned commercial beer
+HB|a|S|Judging at homebrew competitions to learn faster
+
+## Brewing science
+PB|c|A|Calculating mash water volume and strike temperature
+PB|c|A|Grain absorption and how it sets your sparge volume
+PB|c|A|Dead space losses in the mash tun and kettle
+PB|c|A|Measuring brewhouse yield on a 10 hl brewpub system
+PB|c|A|Lauter tun rake height and run-off speed
+PB|c|A|Wort clarity at the grant and why brewers watch it
+PB|a|A|First wort hopping and what it really does
+PB|c|A|Hop stands below 80 °C and how much bitterness they add
+PB|c|A|Trub separation in a whirlpool vessel
+PB|c|A|DMS in pale lager and how boil vigour keeps it down
+PB|c|A|Measuring free amino nitrogen in wort
+PB|c|A|Correcting wort gravity readings for temperature
+PB|c|A|Oxygen saturation of wort and how to measure it
+PB|c|A|Yeast pitch rate in million cells per ml per degree Plato
+PB|c|A|Propagating yeast in a small brewery from a lab culture
+PB|c|A|Storing harvested yeast in a yeast brink
+PB|c|A|Cone harvesting yeast from a cylindroconical tank
+PB|c|A|Methylene blue or methylene violet for yeast viability
+PB|c|A|Running a forced diacetyl test before you crash a tank
+PB|c|A|What a VDK result from the lab tells a brewer
+PB|c|A|Attenuation limit tests and why every brewery should run one
+PB|a|A|Real versus apparent attenuation
+PB|c|A|Real extract, apparent extract and the Balling formula
+PB|c|A|Calculating ABV accurately for high-gravity beer
+PB|c|A|Temperature stratification in tall fermenters
+PB|a|A|Top cropping yeast in an open fermenter
+PB|c|A|CO2 recovery in a small brewery
+PB|c|A|Inline carbonation versus carbonation stones
+PB|c|A|Cleaning and caring for carbonation stones
+PB|c|A|Reading pressure and temperature charts for carbonation
+PB|c|A|Using a dissolved CO2 meter in a brewpub
+PB|c|A|Diatomaceous earth filtration done safely
+PB|c|A|Sheet filters for small brewpubs
+PB|c|A|Cartridge and sterile filtration for packaged beer
+PB|c|A|Flash pasteurisation versus tunnel pasteurisation
+PB|c|A|Pasteurising canned beer in a small brewery
+PB|c|A|Microbial stability of unpasteurised craft beer in India
+PB|c|A|Total package oxygen and how to measure it
+PB|c|A|Can seam inspection for small canning lines
+PB|c|A|Fill level checks on a small canning line
+PB|c|A|Checking crown crimps on bottled beer
+PB|c|A|Nitrogen dosing in cans
+PB|a|A|Light-struck beer and the bottle colour that prevents it
+PB|c|A|How beer colour shifts as it ages
+PB|c|A|How much bitterness beer loses in storage
+PB|c|A|Measuring IBU in a small brewery lab
+PB|c|A|Measuring haze with a turbidity meter
+PB|a|A|Chill haze versus permanent haze
+PB|a|A|Protein rests and when modern malt does not need one
+PB|c|A|The temperature windows of beta-amylase and alpha-amylase
+PB|c|A|Limit dextrinase and why fermentability varies between malts
+PB|c|A|Measuring mash pH at room temperature or mash temperature
+PB|c|A|Acidulated malt or lactic acid for mash pH
+PB|c|A|Kettle pH and its effect on hop bitterness
+PB|c|A|Finished beer pH and what it says about fermentation
+PB|c|A|Residual alkalinity and how to calculate it
+PB|c|A|Dealkalising brewing water
+PB|c|A|Chlorophenols and the medicinal taste from sanitiser
+PB|c|A|Phenolic off-flavours from wild yeast
+PB|c|A|Oxidation in dry-hopped beer after packaging
+PB|c|A|Hop oil retention from fermenter to can
+PB|c|A|Humulinones and bitterness from dry hops
+PB|c|A|Measuring head retention in a brewery lab
+PB|c|A|Lipids, detergents and other enemies of beer foam
+PB|c|A|Caustic, acid and peracetic acid in brewery cleaning
+PB|c|A|Time, temperature and concentration in a CIP cycle
+PB|c|A|Verifying CIP with conductivity and pH
+PB|c|A|Cleaning and sanitising plate heat exchangers
+PB|c|A|Hygiene zoning in a small brewery
+PB|c|A|Sampling valves and how not to infect a tank while sampling
+PB|c|A|Microbiology media for beer spoilage organisms
+PB|c|A|PCR testing for beer spoilers in a small brewery
+PB|c|A|Lactobacillus and Pediococcus in beer
+PB|c|A|Pectinatus and Megasphaera in packaged beer
+PB|c|A|Detecting wild yeast with lysine medium
+PB|c|S|Running triangle tests in a brewery lab
+PB|c|A|Alcohol measurement by density meter or distillation
+PB|c|A|Calibrating a density meter
+PB|c|A|Where heat is lost in a brewhouse
+PB|c|A|Lower evaporation boils that save energy
+PB|c|A|Vapour condensers on brew kettles
+PB|c|A|Mash filters versus lauter tuns
+PB|c|A|Fermenting high-adjunct worts in Indian breweries
+PB|c|A|Adding sugar syrup in the kettle
+PB|c|A|Fermenting lager yeast at ale temperatures
+PB|a|A|What actually changes in a lagering tank
+PB|c|A|Fermenter headspace and foam-over
+PB|c|A|Daily gravity and pH checks during fermentation
+PB|c|A|Shelf life testing protocols for craft beer
+PB|c|N|Dealcoholisation methods for alcohol-free beer
+PB|c|N|Limited fermentation for alcohol-free beer
+PB|c|A|Logging fermentation data in a small brewery
+
+## Ingredients
+PB|c|A|Pilsner malt specs and what to check on arrival
+PB|a|A|Munich malt in Indian brewpub recipes
+HB|a|A|Vienna malt for amber lagers
+PB|c|A|Melanoidin malt and how much to use
+HB|a|A|Biscuit and aromatic malts compared
+PB|c|A|Chocolate malt versus dehusked black malt
+HB|c|A|Black malt and roasted barley in stouts
+HB|a|A|Honey malt and brown malt
+PB|c|A|Rye malt and the sticky mash
+HB|a|A|Spelt and einkorn in beer
+PB|c|A|Sorghum and other grains for gluten-free beer
+HB|a|A|Buckwheat and quinoa in gluten-free beer
+HB|c|A|Making Belgian candi syrup
+PB|c|A|Maltodextrin for body in low-alcohol beer
+PB|c|A|Rice hulls for lautering high-wheat mashes
+PB|c|A|Malt modification and the Kolbach index
+PB|c|A|Diastatic power and how much adjunct a malt can convert
+PB|c|A|Malt beta-glucan and friability numbers
+PB|c|A|Malt moisture and why it matters at weighing
+PB|c|A|Mycotoxins in malt and grain safety
+PB|c|A|Malt dust and mill room explosion safety
+PB|c|A|The hop storage index explained
+PB|a|A|Cohumulone and the harsh bitterness debate
+PB|c|A|Citra, Mosaic and Simcoe in Indian IPAs
+HB|a|A|Cascade and Centennial in classic American pale ale
+PB|a|A|Saaz hops and Czech lager
+PB|a|A|Hallertau Mittelfrueh and German lager
+HB|a|A|Fuggles and East Kent Goldings in English ales
+HB|a|A|Nelson Sauvin and Motueka in New Zealand pale ales
+HB|a|A|Galaxy and Vic Secret Australian hops
+PB|c|A|Hop hash and lupulin powder
+PB|a|A|Resin and bitterness from old hops
+BL|a|A|Wet hop beer and why India rarely sees it
+PB|c|A|Saison yeast strains compared
+HB|c|A|German wheat beer yeast strains compared
+HB|a|A|Kolsch and altbier yeast strains
+PB|a|A|Weihenstephan 34/70 lager yeast and why brewers trust it
+PB|c|A|Wine and champagne yeast in high-gravity beer
+PB|c|A|Pediococcus for sour beer
+PB|c|A|Sodium and salinity in brewing water
+PB|a|A|Magnesium in brewing water
+PB|c|A|Bicarbonate and alkalinity in Indian groundwater
+PB|c|A|Iron and manganese in borewell water
+PB|c|A|Nitrate in groundwater and brewing
+PB|c|A|Activated carbon filters for brewing water
+PB|c|A|Reading a water report from your city supplier
+PB|c|A|Process water for cleaning versus brewing liquor
+PB|c|A|Aseptic fruit purees in a small brewery
+HB|a|Y|Pineapple in beer
+HB|a|Y|Guava in beer
+HB|a|Y|Jackfruit in beer
+HB|a|Y|Lychee in beer
+HB|a|Y|Kaffir lime leaves and lemongrass in beer
+HB|a|Y|Black pepper and long pepper in beer
+HB|a|Y|Saffron in beer
+HB|a|Y|Date syrup and palm sugar in beer
+HB|a|Y|Salt in beer beyond gose
+PB|c|Y|Bourbon barrels for barrel-aged stout in India
+PB|c|A|Antifoam in fermenters
+PB|a|A|Khandsari, cane sugar and other Indian sugars in beer
+HB|c|A|Toasting your own malt in a home oven
+HB|c|A|Malting your own barley at home
+PB|c|A|Corn grits versus flaked maize
+PB|c|A|Broken rice as a brewing adjunct
+HB|a|A|Malted oats versus flaked oats
+HB|a|A|Torrified wheat in English ales
+PB|c|A|Hop pellet types T90 and T45
+PB|c|A|Hop variety substitution for commercial brewers
+PB|c|A|Hop aroma descriptors on supplier sheets
+PB|c|A|Yeast cell count on arrival from a supplier
+PB|c|A|Malt colour and how it adds up in a recipe
+PB|c|A|Crystal malt colour and the sweetness it leaves
+PB|c|A|Smoked malts compared from beech to peat
+HB|a|A|Choosing between dry and liquid lager yeast
+PB|c|A|Rice varieties for rice lager in India
+PB|c|A|Maize and its oil content in brewing
+
+## Styles
+BL|a|S|Kristallweizen explained
+BL|a|S|Roggenbier, the German rye beer
+BL|a|S|English versus American barleywine
+BL|a|S|Burton ale, the forgotten strong ale
+BL|a|S|Brown porter versus robust porter
+BL|a|S|Oud bruin explained
+BL|a|S|Faro, the sweetened lambic
+BL|a|S|Brett beer as a style of its own
+BL|a|S|New Zealand pilsner explained
+BL|a|S|Australian sparkling ale explained
+BL|a|S|Brut IPA explained
+BL|a|S|Triple IPA explained
+BL|a|S|White IPA explained
+BL|a|S|Belgian IPA explained
+BL|a|S|Session sour beer explained
+BL|a|S|Fruited sours and smoothie sours
+BL|a|S|Catharina sour, the Brazilian style
+BL|a|S|Lichtenhainer explained
+BL|a|S|Steinbier and brewing with hot stones
+BL|a|S|Why doppelbock names end in ator
+BL|a|S|Imperial pilsner explained
+BL|a|S|Kentucky common explained
+BL|a|S|Pre-Prohibition lager explained
+BL|a|S|Chicha and other traditional corn beers
+BL|a|S|Traditional sorghum beers of Africa
+BL|a|S|Braggot, the beer and mead hybrid
+BL|a|S|Tropical IPA explained
+BL|a|S|Abbey and Trappist beer explained
+BL|a|S|Raw ale and Norwegian farmhouse brewing
+BL|a|S|Rauchbock explained
+BL|a|S|Dark mild explained
+BL|a|S|Strong bitter explained
+BL|a|S|Schwarzbier versus dunkel side by side
+BL|a|S|Hazy lager explained
+BL|a|S|Grape ale, the Italian hybrid style
+
+## Whisky
+DP|c|D|Malting barley for whisky versus malting for beer
+DP|c|D|Predicted spirit yield on a distilling malt spec
+BL|a|S|Peating levels in phenol ppm explained
+DP|c|D|Milling grist for a distillery
+DP|c|D|Mashing for malt whisky and why the wort is never boiled
+FO|c|D|Mash tun options for a small distillery
+DP|c|D|Clear versus cloudy wort in malt whisky
+DP|c|D|Wooden versus stainless steel washbacks
+DP|c|D|Distillers yeast versus brewers yeast
+DP|c|D|Fermentation length and its effect on new make
+DP|c|D|Bacteria in long whisky fermentations
+DP|c|D|Why whisky wash sits near 8 percent ABV
+BL|a|D|What the wash still and spirit still each do
+BL|a|D|Double distillation explained
+BL|a|D|Triple distillation explained
+DP|c|D|Pot still shape and reflux
+DP|c|D|Lyne arm angle and spirit character
+DP|c|D|Copper contact and spirit character
+DP|c|D|Worm tubs versus shell and tube condensers
+DP|c|D|Heads, hearts and tails in making the cut
+DP|c|D|Foreshots, methanol and distillery safety
+DP|c|D|Recycling feints in a malt distillery
+DP|c|D|Low wines and the spirit still charge
+DP|c|D|New make strength and cut points
+BL|a|D|How a Coffey still makes grain whisky
+FO|c|D|Hybrid stills for craft distilleries
+DP|a|D|Batch versus continuous distillation
+DP|c|D|Distilling rye and taming the foam
+DP|c|D|Corn whisky mash bills
+BL|a|S|Bourbon mash bills explained
+DP|c|D|Sour mash and backset
+BL|a|S|Wheated bourbon explained
+DP|c|D|Rice whisky explained
+DP|c|D|Millet whisky in India
+DP|c|D|Oat whisky explained
+DP|c|D|Handling pot ale and spent wash
+DP|c|D|Draff and spent grain for cattle feed
+DP|c|D|Distillery effluent treatment in India
+DP|c|D|Process water and reduction water in a distillery
+DP|c|D|Cooling water for condensers in a hot climate
+DP|c|D|Energy use in a whisky distillery
+FO|c|D|Steam boilers for a small distillery
+DP|c|D|Ethanol vapour and ignition sources in a distillery
+DP|c|D|Hazardous area zoning in a distillery
+DP|c|D|Spirit receivers and measuring strength
+DP|c|D|Measuring alcohol strength with temperature correction
+CT|a|C|Proof, ABV and litres of pure alcohol
+DP|c|D|Cask filling strength and why 63.5 percent is common
+DP|c|D|Cask filling and gauging
+BL|a|S|Cask sizes from barrel to butt
+DP|c|D|Cask char levels
+DP|c|D|Toasted versus charred casks
+BL|a|S|First-fill versus refill casks
+DP|c|D|Rejuvenated casks
+DP|c|D|Virgin oak casks
+BL|a|S|American oak versus European oak
+BL|a|S|Mizunara oak explained
+DP|c|D|Why Scotch must mature in oak and not other woods
+DP|c|D|Cask leaks and repairs
+DP|a|D|Cooperage basics for distillers
+DP|c|D|Dunnage, racked and palletised warehouses
+DP|c|D|Temperature swings in Indian whisky warehouses
+DP|c|D|Humidity and strength change in the cask
+DP|c|D|Measuring and tracking cask losses
+DP|c|D|Sampling casks with a valinch
+CT|c|C|Cask management systems and inventory tracking
+BL|a|S|The chemistry of whisky maturation
+BL|a|S|Vanillin and oak lactones in whisky
+BL|a|S|Tannin and colour from the cask
+DP|c|D|Esters in new make spirit
+DP|c|D|Blending malt and grain whiskies
+DP|c|D|Vatting and marrying whisky
+BL|a|S|Non-chill filtered whisky and haze
+BL|a|S|Cask strength whisky explained
+BL|a|S|Single cask bottlings explained
+FO|c|D|A bottling line for a craft distillery
+DP|c|D|Corks, synthetic stoppers and screw caps for whisky
+DP|c|D|Batch records and traceability in a distillery
+FO|c|D|Setting up a distillery quality control lab
+DP|c|D|Gas chromatography for whisky congeners
+DP|c|S|Running a sensory panel in a distillery
+DP|c|D|Methanol limits and testing in spirits
+DP|c|D|Ethyl carbamate in spirits
+DP|c|D|Copper levels in spirit
+DP|c|D|Water hardness and haze when reducing whisky
+FO|c|D|Contract distilling and sourced whisky
+CT|a|C|How the bulk whisky trade works
+BL|a|S|Blended malt explained
+BL|a|S|Grain whisky explained
+BL|a|S|Single pot still Irish whiskey
+BL|a|S|How Japanese whisky is made
+BL|a|S|American single malt explained
+BL|a|S|Tennessee whiskey and the Lincoln County process
+BL|a|S|Canadian whisky explained
+BL|a|S|Taiwanese whisky and hot climate maturation
+BL|a|S|Australian whisky explained
+BL|a|S|English and Welsh whisky explained
+BL|a|S|Speyside whisky explained
+BL|a|S|Islay whisky explained
+BL|a|S|Highland whisky explained
+BL|a|S|Lowland whisky explained
+BL|a|S|Campbeltown whisky explained
+BL|a|S|Island whiskies of Scotland
+BL|a|S|What makes a whisky Scotch
+BL|a|S|The rules that define Irish whiskey
+BL|a|S|Straight bourbon and bottled in bond
+BL|a|S|American and Canadian rye whisky compared
+BL|a|S|What small batch means on a whisky label
+BL|c|S|Nosing whisky properly
+BL|a|S|Using a whisky aroma wheel
+BL|c|S|Recognising sherry cask character
+BL|c|S|Recognising bourbon cask character
+BL|c|S|Peat versus smoke in whisky
+BL|a|S|Mouthfeel in whisky from oily to thin
+BL|a|S|What a long finish means in whisky
+BL|c|S|Tasting past the alcohol burn in whisky
+BL|c|S|Tasting whisky blind
+BL|c|S|Comparing whisky age statements side by side
+BL|c|S|A vertical tasting of one distillery
+BL|c|S|A horizontal whisky tasting by region
+BL|c|S|Planning whisky flights for a dinner
+BL|a|S|Whisky on the rocks and what ice does
+BL|a|S|Whisky stones and other chilling tricks
+BL|a|S|The old fashioned explained
+BL|a|S|The Manhattan explained
+BL|a|S|The whisky sour explained
+BL|a|S|The Penicillin cocktail explained
+BL|a|S|The hot toddy for winter evenings
+BL|a|S|Irish coffee explained
+BL|a|S|Whisky and soda in India
+BL|a|S|Whisky and cheese pairing
+BL|a|S|Whisky and chocolate pairing
+BL|a|S|Whisky with kebabs and tandoori food
+BL|a|S|Whisky with Indian sweets
+BL|a|S|Why the same whisky costs differently across Indian states
+BL|a|S|Buying whisky at duty free
+BL|a|S|Whisky miniatures and sample sets
+BL|a|S|Whisky clubs and tasting societies
+BL|a|S|Getting the most from a whisky festival
+BL|a|S|Keeping a whisky journal
+BL|a|S|Whisky auctions and the secondary market
+BL|c|S|Spotting counterfeit whisky
+BL|a|S|Storing unopened whisky bottles upright
+BL|a|S|What to do when a whisky cork breaks
+BL|a|S|Choosing a whisky as a gift
+BL|a|S|Responsible whisky drinking and pacing
+BL|a|S|Whisky words for beginners from dram to expression
+BL|a|S|No age statement whisky explained
+BL|a|S|Vintage dates versus age statements
+BL|a|S|Independent bottlers explained
+BL|a|S|Peated Indian whisky explained
+BL|a|S|Why most whisky is bottled at 40 percent
+BL|a|S|What whisky colour does not tell you
+BL|a|S|Legs and tears in a whisky glass
+BL|a|S|Whisky or whiskey and why the spelling differs
+BL|c|S|Bourbon and Scotch tasted side by side
+BL|c|S|Tasting Japanese whisky
+BL|c|S|Tasting Irish whiskey
+BL|c|S|The flavour of rye whiskey
+BL|a|S|Why blended Scotch deserves another look
+BL|c|S|Tasting grain whisky
+BL|c|S|Tasting cask strength whisky without numbing your palate
+BL|a|S|Oloroso, PX and fino casks in whisky
+BL|a|S|Port, rum and wine cask finishes
+BL|a|S|Whisky and seafood pairing
+BL|a|S|Peated whisky with smoked food
+BL|a|S|Cooking with whisky
+BL|a|S|Whisky in Indian weather and serving temperature
+BL|a|S|Decanters and whether they suit whisky
+BL|a|S|Copita, tulip and tumbler glasses compared
+BL|c|S|Teaching a friend to taste whisky
+BL|a|S|Whisky with mithai and festive food
+BL|a|S|How whisky ratings and scores work
+BL|a|S|Reading a whisky back label
+BL|a|S|Whisky in a hip flask
+BL|a|S|Smoky whisky for people who think they hate smoke
+BL|a|S|Fruity whisky styles for beginners
+BL|a|S|Spicy whisky styles and where the spice comes from
+BL|a|S|Light and floral whisky styles
+BL|a|S|Rich and sweet whisky styles
+BL|a|S|Whisky with a splash of coconut water and other Indian mixers
+BL|a|S|Whisky and coffee pairing
+BL|a|S|The history of whisky in India
+BL|a|S|The history of Scotch whisky
+BL|a|S|The history of bourbon
+BL|a|S|The history of Irish whiskey
+BL|a|S|The history of Japanese whisky
+BL|a|S|How the Coffey still changed whisky
+BL|a|S|How phylloxera helped Scotch whisky
+BL|a|S|Prohibition and American whiskey
+CT|a|C|Whisky inventory on the balance sheet
+CT|c|C|Working capital in a whisky business
+CT|c|C|Forecasting whisky with long lead times
+CT|c|C|Planning cask supply
+CT|a|C|Grain procurement for distilleries
+CT|a|C|Barley contracts for malt whisky
+CT|a|C|Glass bottle supply for spirits
+CT|c|C|Whisky packaging cost drivers
+CT|a|C|Whisky route to market in India
+CT|a|C|Excise and state permits for spirits in India
+CT|a|C|Whisky portfolio tiers from regular to prestige
+CT|c|C|Whisky price architecture
+CT|a|C|How analysts segment whisky drinkers
+CT|c|C|Whisky depletion data explained
+CT|a|C|Primary and secondary sales in spirits
+CT|c|C|Whisky sensory training for marketing teams
+CT|a|C|Whisky trade marketing in bars and restaurants
+CT|a|C|Whisky in the duty free channel
+CT|a|C|Whisky export documentation
+CT|c|C|Cask inventory data models for analysts
+CT|c|C|Litres of alcohol per tonne as a distillery KPI
+CT|c|C|OEE on a spirits bottling line
+CT|c|C|Handling whisky quality complaints
+CT|a|C|Water and energy in whisky sustainability
+CT|a|C|The carbon footprint of a bottle of whisky
+CT|a|C|ESG reporting for whisky companies
+CT|a|C|New product development for whisky
+CT|a|C|How limited edition whiskies are planned
+CT|a|C|The whisky label compliance review
+CT|a|C|Surrogate advertising rules for spirits in India
+CT|a|C|Whisky digital marketing within the rules
+CT|a|C|Whisky for supply chain new joiners
+CT|a|C|Whisky for procurement teams
+CT|a|C|Whisky for IT and data teams
+CT|c|C|Demand sensing for the festive season in spirits
+CT|a|C|Whisky and the Indian festive calendar
+CT|a|C|How MRP changes work for spirits in India
+CT|a|C|State labelling rules for spirits in India
+CT|c|C|Training a GCC team on spirits
+CT|a|C|Whisky for finance new joiners
+CT|a|C|Whisky for HR and L&D teams
+CT|c|C|Building a whisky sales dashboard
+CT|c|C|Whisky master data done right
+CT|a|C|Whisky for legal and compliance teams
+CC|c|D|Becoming a distiller in India
+CC|a|D|Becoming a whisky blender
+CC|a|D|Working as a cooper
+CC|c|D|A career as a distillery QC chemist
+CC|a|D|Shift life as a distillery operator
+CC|a|D|A career in whisky sales
+CC|a|D|Whisky writing and journalism as a career
+CC|c|D|Studying distilling and the qualifications that count
+CC|c|D|IBD distilling qualifications explained
+CC|a|D|A career as a whisky warehouse manager
+CC|a|D|A career in whisky marketing
+CC|a|D|Becoming a whisky educator
+CC|a|D|Moving from bartending into whisky
+FO|c|D|Budget lines for a craft whisky distillery
+FO|c|D|Choosing a site for a distillery in India
+FO|c|D|The distillery licence process in India
+FO|c|D|Sizing stills for a craft distillery
+FO|c|D|Buying used stills
+FO|d|D|Funding whisky that cannot be sold for years
+FO|c|D|Releasing a young spirit while the whisky waits
+FO|c|D|Sourcing new make from another distillery
+FO|c|D|Building a whisky brand without a distillery
+FO|c|D|Distillery visitor centres and tours
+FO|c|D|Cask ownership programmes
+FO|c|D|Planning a first whisky release
+FO|d|D|Hiring your first distiller
+FO|c|D|Distillery layout for good process flow
+FO|c|D|Utilities for a distillery from water to power
+FO|c|D|Insuring maturing whisky stock
+FO|c|D|Export plans for an Indian single malt
+FO|d|D|A distillery business plan from grain to glass
+FO|c|D|Commissioning a new distillery
+FO|c|D|Writing standard operating procedures for a distillery
+FO|c|D|Naming a whisky brand
+FO|c|D|Designing a whisky range of core and limited releases
+DP|c|D|Yeast nutrition in whisky fermentation
+DP|c|D|Infection in washbacks and how to spot it
+DP|c|D|Antifoam in whisky fermentation
+DP|c|D|Enzymes for grain whisky mashing
+DP|c|D|Cooking maize and wheat for grain whisky
+DP|c|D|Spirit yield calculation in a malt distillery
+DP|c|D|Still cleaning and caustic boils
+DP|c|D|Still maintenance and copper wear
+DP|c|D|Direct fire versus steam heated stills
+DP|c|D|Running a spirit still for a lighter or heavier spirit
+DP|c|D|Distillation logs and what to record
+DP|c|D|Peated and unpeated runs in one distillery
+DP|c|D|Cask inspection before filling
+DP|c|D|Cask regauging and stock checks
+DP|c|D|Re-racking whisky into new casks
+DP|c|D|Choosing casks for an Indian climate
+DP|c|D|Small batch whisky blending at a craft distillery
+DP|c|D|Whisky reduction schedules in stages
+DP|c|D|Filtration choices before bottling whisky
+DP|c|D|Whisky stability testing before release
+DP|c|D|Caramel colour rules and practice
+DP|c|D|Single malt rules and what they forbid
+DP|c|D|Malt whisky from Indian six-row and two-row barley
+DP|c|D|Floor malting and whisky
+DP|c|D|Peat sources and peat smoke character
+DP|c|D|Using wine casks from Indian wineries
+DP|c|D|Rum casks for whisky finishing
+DP|c|D|Sherry seasoned casks explained
+DP|c|D|Cask finishing times and how to judge them
+DP|c|D|Distillery water rights and borewell planning
+DP|c|D|Grain whisky versus neutral spirit
+DP|c|D|Malt whisky from a brewery wash
+DP|c|D|Collaborations between breweries and distilleries
+DP|c|D|Beer cask finished whisky
+DP|c|D|Distilling hopped beer into whisky
+DP|c|D|Training a new still operator
+DP|c|D|Temperature control in whisky fermentation
+DP|c|D|The pH of whisky wash
+DP|c|D|Measuring original gravity of whisky wort
+DP|c|D|Daily reports in a malt distillery
+DP|c|D|Copper pot still design for small batches
+DP|c|D|Column still basics for craft distillers
+DP|c|D|Pressure and vacuum distillation for whisky
+DP|c|D|Quality of distilling malt on arrival
+DP|c|D|Malt storage in a humid distillery
+DP|c|D|Whisky sensory defects and their causes
+BL|a|S|Smoke, peat and iodine on the Islay nose
+BL|a|S|Rye bread, spice and pepper notes in whisky
+BL|a|S|Honey, heather and floral notes in whisky
+BL|a|S|Dried fruit and Christmas cake notes in whisky
+BL|a|S|Tropical fruit notes in aged whisky
+BL|a|S|Sulphur, rubber and struck match in sherried whisky
+BL|a|S|Why some whiskies taste salty
+BL|a|S|Whisky and water hardness at home
+BL|a|S|Adding a few drops of water with a pipette
+BL|c|S|Hosting a whisky tasting for colleagues
+BL|a|S|Whisky gift sets and what is worth paying for
+BL|a|S|Whisky for wine drinkers
+BL|a|S|Whisky for beer drinkers
+BL|a|S|Whisky for rum drinkers
+BL|a|S|Whisky for first-time drinkers
+BL|a|S|The angel's share and devil's cut
+BL|a|S|Why old whisky is not always better
+BL|a|S|Whisky and climate change
+BL|a|S|Women who shaped whisky history
+BL|a|S|Whisky distilleries worth visiting in Scotland
+BL|a|S|Whisky trails in Kentucky
+BL|a|S|Indian distilleries that welcome visitors
+BL|a|S|Visiting a distillery as a beginner
+BL|a|S|Whisky in films and pop culture

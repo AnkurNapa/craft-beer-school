@@ -1,0 +1,67 @@
+{
+ "slug": "whisky-inventory-on-the-balance-sheet",
+ "cat": "Whisky",
+ "h1": "Whisky inventory on the balance sheet",
+ "title": "Whisky Inventory on the Balance Sheet | Craft Beer School",
+ "desc": "Why maturing whisky is inventory, what goes into its cost, how evaporation and excise affect the number and what finance teams check.",
+ "teaser": "A whisky company can hold years of stock and call it a current asset. Here is why that is correct and what sits inside the number.",
+ "standfirst": "Maturing whisky is the largest asset on many distillers' balance sheets. It sits in casks for years, loses volume every season and pays no excise until it leaves the bond. For anyone in finance or analytics who has never seen a warehouse, this guide explains what the inventory line is really measuring.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Maturing whisky is work in progress, not a fixed asset",
+   "<p>A cask of whisky in a warehouse is still being made. Maturation is a production step: the spirit is changing in the wood every year it sits there. So accountants treat it as inventory, specifically work in progress, rather than as a long-term investment or a fixed asset.</p><p>In India, the relevant standard is Ind AS 2, Inventories, which follows the international standard IAS 2. The core rule is simple. Inventory is carried at the lower of cost and net realisable value. Cost is what it took to get the stock to its present condition and location. Net realisable value is what it is expected to sell for, less the costs still needed to finish and sell it.</p><p>This is a guide to the concepts, not accounting advice. Your company's accounting policy and auditors decide the detail.</p>"
+  ],
+  [
+   "What goes into the cost of a cask",
+   "<p>The cost of maturing whisky usually builds up from several layers:</p><ul><li><strong>Raw materials.</strong> Malted barley or other grain, yeast and the energy used to mash, ferment and distil.</li><li><strong>Production labour and overheads.</strong> A share of distillery wages, maintenance and depreciation, allocated on normal production capacity.</li><li><strong>The cask.</strong> Some companies include cask cost in inventory. Others treat casks as reusable equipment and charge depreciation into the whisky's cost each year. Policies differ.</li><li><strong>Warehousing during maturation.</strong> Because maturing is part of making the product, many producers include warehouse costs during ageing in inventory cost.</li></ul><p>Storage after the whisky is finished and bottled is a different matter. That is normally an expense, not part of inventory cost. Selling and marketing costs are never part of it.</p>"
+  ],
+  [
+   "Years of stock can still be a current asset",
+   "<p>Finance new joiners often ask how stock that will not be sold for twelve years can be a current asset. The answer is the operating cycle. Indian reporting rules let a company classify assets as current if they are held within its normal operating cycle, even when that cycle is longer than twelve months. For a whisky company, the operating cycle includes maturation.</p><p>So maturing stock is usually shown as current, with notes explaining that a large part will not be sold within the next year. When you compare a whisky company's current ratio or inventory days with a beer or soft drinks company, you are comparing very different businesses. A brewery turns over its stock in weeks. A malt distillery takes years. Our guide to <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs for analysts</a> covers more ratios that behave differently.</p>"
+  ],
+  [
+   "Evaporation raises the cost per litre",
+   "<p>Every year some spirit evaporates through the cask, the <a href=\"angels-share-whisky-in-indian-heat.html\">angels' share</a>. The total cost of the cask stays the same or rises with warehousing, but the litres of pure alcohol (LPA) inside it fall. So the cost per LPA rises every year.</p><p>A worked example with illustrative numbers shows the effect. A 200 litre cask filled at 63.5% ABV holds 127 LPA. At a hypothetical loss of 4% a year, after three years it holds 127 x 0.96 x 0.96 x 0.96, about 112 LPA. If nothing else changed, the cost per LPA is now about 13% higher than on filling day. In Indian warehouses, where losses run well above Scotland's commonly quoted 2% a year, this effect is larger.</p><p>Normal, expected losses like these are absorbed into the cost of the remaining stock. Abnormal losses, such as a leaking cask, a fire or theft, are written off as an expense in the period they happen.</p>"
+  ],
+  [
+   "Maturing whisky sits in bond, before excise",
+   "<p>Maturing spirit sits in a bonded warehouse under excise supervision. In India, excise on alcohol for human consumption is levied by the states. Duty generally falls due when spirit is released for sale rather than when it is made. So stock in bond is carried at its production cost, excluding excise.</p><p>That changes once duty has been paid on bottled stock waiting to be sold. How duty-paid stock is presented depends on the company's policy and the state's rules. When you see a jump in inventory value without a jump in volume, check whether stock has moved from bonded to duty-paid status. The duty can be several times the value of the liquid.</p>"
+  ],
+  [
+   "Net realisable value is where write-downs come from",
+   "<p>The lower of cost and net realisable value test bites when the expected selling price falls. A brand that is being discontinued, a cask that has gone off or a style that has fallen out of fashion can all leave stock worth less than it cost. The difference is written down.</p><p>For maturing whisky, estimating net realisable value means forecasting a selling price years ahead and the costs to bottle and sell. That is a judgement. It is one reason auditors spend real time in distillery warehouses and on stock ageing reports.</p>"
+  ],
+  [
+   "What to ask for first",
+   "<p>If you work with whisky numbers and have never seen how they are built, ask finance for two documents. The first is the stock ageing report, in LPA by age band and spirit type. The second is the inventory costing policy, which tells you what is included in cost and how casks and warehousing are treated. Read them side by side. Most confusion about whisky inventory comes from not knowing which of those choices the company has made.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is maturing whisky classed as a current asset?",
+   "Because it is held within the company's normal operating cycle, which for whisky includes years of maturation. The notes usually say how much will not be sold within twelve months."
+  ],
+  [
+   "Does the angels' share reduce inventory value?",
+   "Normal evaporation usually stays within the cost of the remaining stock, so the cost per litre of pure alcohol rises. Abnormal losses such as leaks are written off."
+  ],
+  [
+   "Is excise included in the value of maturing whisky?",
+   "Generally not. Maturing spirit sits in bond and duty is usually paid when it is released for sale, so bonded stock is carried at production cost."
+  ]
+ ],
+ "cta": {
+  "title": "Give your finance team the floor view of whisky stock",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions. Each one starts from how the product is made and ends at the numbers your team works with.",
+  "label": "Ask about team training",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "whisky-inventory-planning",
+  "how-whisky-is-made",
+  "malt-grain-and-blended-whisky"
+ ]
+}

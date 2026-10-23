@@ -1,0 +1,71 @@
+{
+ "slug": "whisky-stability-testing-before-release",
+ "cat": "Whisky",
+ "h1": "Whisky stability testing before release",
+ "title": "Whisky Stability Testing Before Release | Craft Beer School",
+ "desc": "The cold, heat, light and closure tests a craft distillery should run before a whisky release and what each result tells you.",
+ "teaser": "The bottle that looked perfect on the bottling line can arrive hazy, leaking or flat. Testing finds that first.",
+ "standfirst": "A whisky release faces heat, cold, light and rough handling between the distillery and the drinker. Stability testing puts samples through those conditions first. It is cheap, it takes a few weeks and it saves you from a recall.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Stability means the bottle stays as you made it",
+   "<p>A stable whisky looks, smells and tastes the same months after bottling as it did on the day. Instability shows up as haze, sediment, floating flakes, a change in colour, a drop in strength through a leaking closure or off flavours from a tainted cork.</p><p>Whisky at 40% ABV or more is hostile to microbes, so stability work is mostly about physical and chemical changes rather than spoilage. That makes it predictable, which means you can test for it. Our guide to <a href=\"planning-a-first-whisky-release.html\">planning a first whisky release</a> shows where testing fits in the timeline.</p>"
+  ],
+  [
+   "Start with a cold test",
+   "<p>Cold haze is the most common problem, especially for whisky bottled below 46% ABV without chill filtration. Hold sealed sample bottles in a fridge at around 4 °C for 24 to 48 hours. Then check them against a strong light on a dark background. Some distilleries go colder, close to 0 °C, to mimic whisky poured over ice.</p><p>Record what you see in plain words: bright, slight haze, heavy haze, sediment. Let the samples warm to room temperature and check again. Haze that clears on warming is usually fatty acid esters. Haze that stays may be something else, often a mineral reaction from reduction water.</p>"
+  ],
+  [
+   "Then cycle hot and cold",
+   "<p>Indian distribution is hard on bottles. A case may sit in a truck in summer heat, then a warm shop, then a cold bar. Cycle samples between a warm cabinet at around 40 °C and a fridge every day or two for a week or more. Inspect after each cycle.</p><p>Cycling shows problems a single cold test misses: closures that loosen as glass and cork expand and contract, sediment that forms only after repeated changes and colour shifts from heat. It also tells you how your label adhesive behaves when condensation forms on a cold bottle.</p>"
+  ],
+  [
+   "Check light, closures and strength",
+   "<p>Three more checks belong on the list:</p><ul><li><strong>Light.</strong> Whisky in clear glass on a sunny shop shelf can change colour and flavour. Leave a sample in daylight beside one kept dark for a few weeks and compare.</li><li><strong>Closure.</strong> Store some bottles on their sides and some upside down. Check for weeping, a sticky neck or a falling fill level. Nose for cork taint, the wet cardboard note of TCA.</li><li><strong>Strength.</strong> Measure ABV on finished bottles with a density meter corrected to 20 °C. Compare with the label. Tolerances are set by regulation, so check the current rules for your market.</li></ul>"
+  ],
+  [
+   "Taste against a retained control",
+   "<p>Keep a set of bottles from each batch in a cool, dark store as the reference. At the end of the stress tests, taste the stressed samples against the control at around 20% ABV, blind if you can, with a second taster. Look for dulled aroma, a papery note, extra bitterness or a rubbery closure taint.</p><p>The floor detail we would insist on: label control and stressed samples with codes, not descriptions. A taster who knows which glass came out of the hot cabinet will find a fault in it, whether it is there or not.</p>"
+  ],
+  [
+   "Read the results as a decision",
+   "<p>Each result points to an action. Heavy cold haze means a filtration review or a higher bottling strength. Haze that does not clear suggests your reduction water needs attention. Leaking closures mean a different stopper or a check of bottle neck tolerance. Our guide to <a href=\"filtration-choices-before-bottling-whisky.html\">filtration choices before bottling</a> covers the first fix.</p><p>Retain bottles from every batch for at least the expected shelf life of the product, so you can answer a complaint by comparing with what left the distillery. Our guide to <a href=\"how-whisky-is-made.html\">how whisky is made</a> covers the production steps that feed into these results.</p>"
+  ],
+  [
+   "Build it into the release calendar",
+   "<p>Stability testing takes weeks, so plan for it. Bottle a small pilot run from the final reduced whisky, test it while the label and packaging are being finalised and only then commit to the full run. Rushing this step to hit a launch date is how distilleries end up explaining cloudy bottles to retailers.</p><p>Knowing which tests matter and how to read them is part of running a distillery quality system. A distilling course gives you that system rather than a list of things to worry about.</p><p>Your first step: pull six bottles from your next pilot batch, put two in the fridge, two in a warm cabinet and keep two dark as controls.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why test whisky for stability?",
+   "Heat, cold, light and handling can cause haze, sediment, leaks and off flavours after bottling. Testing first lets you fix the cause before release."
+  ],
+  [
+   "What is a cold stability test for whisky?",
+   "Sealed samples are held around 4 °C, or colder, for a day or two and inspected for haze or sediment against a light, then checked again once warm."
+  ],
+  [
+   "Can whisky spoil in the bottle?",
+   "Whisky at 40% ABV or more does not support microbial spoilage, but it can still haze, throw sediment, leak or pick up taint from a closure."
+  ],
+  [
+   "How long should retained samples be kept?",
+   "At least for the expected shelf life of the product, so you can compare any complaint against bottles from the same batch."
+  ]
+ ],
+ "cta": {
+  "title": "Release whisky that arrives as you bottled it",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers reduction, filtration and quality checks before bottling so your release holds up from the distillery to the bar.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "planning-a-first-whisky-release",
+  "filtration-choices-before-bottling-whisky",
+  "how-whisky-is-made"
+ ]
+}

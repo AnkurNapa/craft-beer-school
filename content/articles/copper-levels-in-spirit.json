@@ -1,0 +1,71 @@
+{
+ "slug": "copper-levels-in-spirit",
+ "cat": "Whisky",
+ "h1": "Copper levels in spirit",
+ "title": "Copper Levels in Spirit | Craft Beer School",
+ "desc": "Why spirit picks up copper from the still, what too much does to colour and clarity and how a distillery measures and controls it.",
+ "teaser": "Copper cleans up your spirit in the still. Left in the spirit, it causes haze, off colours and awkward questions from buyers.",
+ "standfirst": "Copper is the distiller's friend in the vapour path and a nuisance in the bottle. Every copper still sheds some metal into the spirit. This guide explains where it comes from, when it becomes a problem and how to keep it measured and low.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two jobs for the same metal",
+   "<p>Copper in a still does real chemical work. It reacts with sulphur compounds such as hydrogen sulphide and the meaty, rubbery sulphides that yeast makes, pulling them out of the vapour. It also binds cyanide, which matters for <a href=\"ethyl-carbamate-in-spirits.html\">ethyl carbamate control</a>. Our guide to <a href=\"copper-contact-and-spirit-character.html\">copper contact and spirit character</a> covers how still design changes that conversation.</p><p>The price of that work is that the copper surface is slowly consumed. Copper compounds form on the metal and some of them dissolve or wash into the spirit. A distillery therefore has two copper questions. Is there enough copper contact to clean the spirit? Is too much copper ending up in it?</p>"
+  ],
+  [
+   "Where the copper in your spirit comes from",
+   "<p>Most dissolved copper picked up by spirit comes from the parts of the still that sit in contact with condensing liquid: the lyne arm, the condenser and the pipework to the spirit safe. Acids in the distillate, mainly acetic acid and fatty acids, attack copper oxides and carbonates on the surface and carry the metal away.</p><p>Copper levels usually spike in a few predictable situations:</p><ul><li>the first runs after a still has stood idle, when green verdigris has built up on the inside</li><li>the first runs after a chemical clean</li><li>a brand new still before its surfaces settle</li><li>tails, which carry more acid than hearts</li></ul><p>India's humid coastal months speed up verdigris on idle copper. A still left for two weeks in a monsoon Goa shed can look green inside when you open the manway.</p>"
+  ],
+  [
+   "What too much copper does",
+   "<p>Excess copper shows up after reduction and bottling more often than in new make. Common signs are a fine haze or deposit, a faint blue or green tint in clear spirits and a metallic, coin-like edge on the palate. In casks, copper can react with oak tannins and other compounds, adding to sediment.</p><p>For clear spirits such as vodka or gin made in copper, a tinted bottle is an instant reject. For whisky the problem hides in caramel colour and cask colour, then appears as a deposit in the bottle after six months on a shop shelf.</p>"
+  ],
+  [
+   "How to measure it",
+   "<p>Copper is measured in milligrams per litre (mg/l). Laboratories use atomic absorption spectroscopy (AAS) or inductively coupled plasma (ICP) instruments, which give accurate results down to fractions of a milligram. For routine checks on site, colorimetric test kits give a quick reading that is good enough to spot a spike.</p><p>A sensible pattern is a lab result on each new still, after any major clean and on a share of batches, plus quick kit checks on the first run after any idle period. Specifications vary by market and buyer, so ask your importer or bottler what limit they work to and test against that figure.</p>"
+  ],
+  [
+   "Keeping copper low without losing the copper effect",
+   "<ul><li><strong>Run a sacrificial charge.</strong> After downtime or a clean, run low wines or water through the still first and send it back for redistillation rather than into the spirit receiver.</li><li><strong>Keep the still busy.</strong> Regular use keeps surfaces in balance. Long idle spells grow verdigris.</li><li><strong>Watch the tails cut.</strong> Late tails carry more copper and more acid.</li><li><strong>Use stainless steel downstream.</strong> Receivers, tanks and hoses after the condenser should not add copper.</li><li><strong>Filter if needed.</strong> Some distilleries use filtration after reduction to remove fine deposits, but fixing the source is better.</li></ul>"
+  ],
+  [
+   "Cleaning routines decide the copper story",
+   "<p>Stills are cleaned with caustic and acid solutions, often citric acid for copper. Each clean strips the oxide layer and exposes fresh metal. That fresh surface is good for sulphur removal on the next run, but it also gives up copper more freely until it settles. Over cleaning wastes copper and thins the still walls over the years.</p><p>Write the cleaning routine down: what chemical, what strength, what temperature, how long and how often. Then log copper results against it. After a few months you will see how long the spike after a clean lasts on your still. That tells you how many sacrificial runs you really need, rather than guessing at one or three.</p><p>Inspect wall thickness on old stills too. Copper that has been eaten away for decades eventually thins at the shoulder and lyne arm, which is a safety question as well as a quality one.</p>"
+  ],
+  [
+   "Read copper as a process signal",
+   "<p>A copper number that creeps up batch by batch tells you something about the still, the cleaning routine or the cut. A number that jumps once usually points to an idle still or a clean. Logged against still hours and cleaning dates, copper becomes one more line on the control chart rather than a surprise in a bottle.</p><p>Your first step: before your next run after a weekend or longer idle period, open the manway, look for verdigris and plan a sacrificial charge if you see green.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does spirit pick up copper?",
+   "Acids in the condensing distillate dissolve copper oxides and carbonates from the still surfaces, especially in the condenser and lyne arm."
+  ],
+  [
+   "What does too much copper do to spirit?",
+   "It can cause haze, a blue or green tint in clear spirits, metallic flavour and deposits after bottling."
+  ],
+  [
+   "How is copper in spirit measured?",
+   "Laboratories use atomic absorption or ICP instruments to measure copper in mg/l. Colorimetric kits give a quick on-site check."
+  ],
+  [
+   "What is a sacrificial run?",
+   "A charge run through the still after an idle period or a clean, then sent back for redistillation so the first copper rich distillate stays out of the spirit."
+  ]
+ ],
+ "cta": {
+  "title": "Run your still with numbers behind every cut",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers still design, copper contact, cleaning, cut points and spirit testing so what you see in the bottle can be traced to the still.",
+  "label": "See the full syllabus",
+  "href": "craft-distilling-course.html"
+ },
+ "related": [
+  "copper-contact-and-spirit-character",
+  "molasses-vs-grain-spirit-india",
+  "predicted-spirit-yield-on-a-distilling-malt-spec"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "still-maintenance-and-copper-wear",
+ "cat": "Whisky",
+ "h1": "Still maintenance and copper wear",
+ "title": "Still Maintenance and Copper Wear | Craft Beer School",
+ "desc": "Where copper stills wear, how to inspect them with ultrasonic thickness checks, the safety valves to test and how to plan repairs before a failure.",
+ "teaser": "Copper is sacrificed every time a still runs. The question is where it thins first and whether you notice in time.",
+ "standfirst": "Copper pot stills wear out slowly by design, because the copper reacts with the spirit vapour. A maintenance plan that tracks where the metal is thinning keeps the still safe and keeps the spirit the same.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Copper is meant to wear",
+   "<p>Distillers use copper because it reacts with sulphur compounds in the vapour and removes them from the spirit. That reaction consumes copper. Every run takes a tiny amount of metal from the inside of the still, the lyne arm and the condenser, some of which leaves as copper compounds in the feints and spent lees.</p><p>So a copper still is a consumable, just a very slow one. The aim of maintenance is not to stop wear but to know where it is happening and to repair before a thin spot becomes a leak or a failure. Our guide to <a href=\"copper-contact-and-spirit-character.html\">copper contact and spirit character</a> explains the chemistry behind the wear.</p>"
+  ],
+  [
+   "Where stills thin first",
+   "<p>Wear is uneven. The parts that see the most hot, wet vapour and the most condensation usually go first:</p><ul><li><strong>The shoulder and neck</strong>, where vapour condenses and runs back as reflux.</li><li><strong>The lyne arm</strong>, especially near joints.</li><li><strong>The condenser</strong>, where vapour first meets cold copper. Shell and tube condensers can develop pinhole leaks in tubes; worm tubs wear in the first coils.</li><li><strong>Around welds and rivets</strong>, where the metal structure changes.</li><li><strong>The base of a direct fired wash still</strong>, which also takes heat and abrasion from the rummager.</li></ul><p>Many distilleries replace a shoulder, a neck section or a lyne arm while keeping the rest of the still, which is one reason a still can stay in service for decades.</p><p>The spirit still and the wash still wear differently. The wash still sees more solids and, if direct fired, more heat at the base. The spirit still sees stronger, cleaner vapour and more of the sulphur chemistry. Inspect them as two different machines, with their own measurement points and their own history.</p>"
+  ],
+  [
+   "Measure thickness, do not guess it",
+   "<p>An ultrasonic thickness gauge reads metal thickness from the outside without cutting anything. Build a map of fixed measurement points, mark them on the still and record the reading at each point at every inspection. Once a year is a common interval; more often for a still known to be wearing fast.</p><p>Compare each reading with the original thickness on the fabricator's drawings and with the minimum thickness the fabricator or a pressure vessel inspector sets for safe use. The trend matters more than any single reading. A point losing metal steadily tells you when to budget the repair, often a year or two ahead.</p>"
+  ],
+  [
+   "Safety devices need testing too",
+   "<p>A still is a vessel full of hot, flammable vapour. Its safety devices are part of maintenance, not an extra:</p><ul><li><strong>Pressure relief valves</strong> set and tested to the design pressure.</li><li><strong>Vacuum relief or anti-collapse valves</strong>. A still cooling with closed valves can draw a vacuum strong enough to crumple thin copper. These valves must open freely every time.</li><li><strong>Steam coils and jackets</strong> pressure tested, because a coil leak puts steam condensate into the charge or wash into the steam system.</li><li><strong>Sight glasses and gaskets</strong> checked for cracks and weeping.</li><li><strong>Spirit safe locks, seals and hydrometers</strong> kept in the state the excise authority requires.</li></ul><p>Steam systems and pressure vessels in India also come under state boiler and pressure vessel inspection rules. The requirements vary by state, so keep your inspection certificates current with the local inspectorate.</p>"
+  ],
+  [
+   "Repairs change the spirit, so plan them",
+   "<p>New copper behaves differently from old. A replaced lyne arm or condenser offers fresh, reactive copper. The spirit may come off lighter and cleaner for a while. A changed shape or angle changes reflux and therefore character. Our guide to <a href=\"pot-still-shape-and-reflux.html\">pot still shape and reflux</a> covers why.</p><p>Give the coppersmith the original drawings and insist on matching dimensions. After any major repair, keep the first new make separate, compare it with spirit from before the work and adjust cut points if needed. Plan repairs for a scheduled shutdown, not the middle of a busy season. In India that often means the hottest weeks, when cooling water struggles anyway and many distilleries slow production. Book the coppersmith months ahead, because skilled copper work is scarce.</p>"
+  ],
+  [
+   "Start the copper map this month",
+   "<p>Your first step: ask the fabricator for the original wall thickness of each still section, then mark ten to twenty measurement points on each still and condenser. Hire or buy an ultrasonic gauge and record a baseline. Next year's readings will show you, in millimetres, which part of your plant needs money first. Put the readings in the same system as your run logs, so a change in new make character can be checked against the repair history in one place.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do copper stills wear out?",
+   "Copper reacts with sulphur compounds in the spirit vapour and is slowly consumed. That reaction is the reason distillers use copper in the first place."
+  ],
+  [
+   "How is copper thickness checked?",
+   "With an ultrasonic thickness gauge at fixed, marked points, recorded at each inspection and compared with the original and minimum thickness."
+  ],
+  [
+   "Which part of a still usually wears first?",
+   "Often the shoulder, neck, lyne arm and condenser, where hot vapour and condensation are heaviest."
+  ]
+ ],
+ "cta": {
+  "title": "Keep your stills safe and your spirit consistent",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers still design, copper's role in spirit character and the operating and maintenance records that keep a pot still running for decades.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-the-wash-still-and-spirit-still-each-do",
+  "pot-still-shape-and-reflux",
+  "copper-contact-and-spirit-character"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "lauter-tun-rake-height-and-run-off-speed",
+ "cat": "Brewing science",
+ "h1": "Lauter tun rake height and run-off speed",
+ "title": "Lauter Tun Rake Height and Run-off Speed | Craft Beer School",
+ "desc": "How rake height and run-off speed work together in a lauter tun, what differential pressure tells you and how to avoid a stuck or cloudy lauter.",
+ "teaser": "Rake too deep and the wort turns cloudy. Run off too fast and the bed sets like concrete. The trick is in between.",
+ "standfirst": "The lauter tun is a filter that you build fresh every brew from the husks. Rake height and run-off speed decide whether it filters well or seals itself shut. Here is how brewers balance the two.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The grain bed is the filter",
+   "<p>A lauter tun does not filter through its false bottom. The slots only hold the husks. The real filter is the bed of husks and particles that settles on top. In classic lauter tuns that bed is commonly around 30 to 50 cm deep. Deeper beds filter well but run slowly. Shallow beds run fast but let more fine material through.</p><p>Everything you do during the lauter, from recirculation to raking to pump speed, either keeps that bed open or squeezes it shut.</p>"
+  ],
+  [
+   "Run-off speed compacts the bed",
+   "<p>Pull wort too hard and the pressure drop across the bed rises. Fine particles migrate down, the bed compresses and flow slows. Pull harder to keep up and the bed compacts further. That spiral ends in a stuck lauter.</p><p>A stuck lauter costs more than time. The fix often involves underletting, deep raking and recirculating again, each of which disturbs the bed and pulls fines into the wort. A brew that sticks once usually runs cloudy afterwards. Avoiding the stick is cheaper than recovering from it.</p><p>The sign to watch is differential pressure, the difference between the pressure above the false bottom and below it. Many lauter tuns have a gauge or a pair of sight tubes for it. On simpler brewpub systems, the grant tells you the same story: wort level falling away even though the pump has not changed speed.</p><p>A gentle start matters most. Recirculate for 10 to 15 minutes until the wort runs clear, then open the run-off slowly and increase it in steps.</p>"
+  ],
+  [
+   "What the rakes are for",
+   "<p>Rakes loosen a bed that has started to compact. The knives cut through the grain and reopen channels for the wort. Used well, raking lets you keep a steady run-off without letting the pressure climb.</p><p>Used badly, it does harm. Knives run close to the false bottom drag fines down through the bed and into the run-off. The wort goes cloudy. Our guide to <a href=\"cloudy-wort-run-off-and-the-lipids-it-carries-into-the.html\">cloudy wort run-off and the lipids it carries</a> explains why that matters downstream.</p>"
+  ],
+  [
+   "Rake height follows the bed",
+   "<p>There is no single correct rake height. It depends on bed depth, grist and how far the bed has settled. The usual pattern looks like this:</p><ul><li>During recirculation and first wort, keep the rakes high or stopped so the bed can form undisturbed.</li><li>When differential pressure starts to rise, lower the rakes in steps and run them slowly.</li><li>If the run-off goes cloudy after a rake change, raise the rakes again and slow the run-off.</li><li>If the bed has truly set, stop run-off, lower the rakes, underlet with hot liquor if your vessel allows it and recirculate before restarting.</li></ul><p>Record rake height, rake speed and differential pressure at fixed intervals on the brew sheet. After a dozen brews you will know which settings suit your tun.</p><p>Rake speed matters as much as height. Slow rotation loosens the bed gently. Fast rotation with knives low churns it, which is sometimes what a set bed needs but rarely what a healthy one wants. Many brewpub control panels let you set both. Most operators only ever touch one.</p>"
+  ],
+  [
+   "Sparge temperature and the end of the lauter",
+   "<p>Sparge liquor at about 76 to 78 °C keeps wort viscosity down and helps run-off. Much hotter and you risk extracting husk tannins. Colder and the wort thickens, especially on grists with wheat or oats.</p><p>Stop collecting when the last runnings fall to around 1 to 2 °P, or when their pH climbs toward 6.0. Past that point you collect more tannin and silicate than sugar.</p>"
+  ],
+  [
+   "Grist and mill gap change everything",
+   "<p>A finer crush gives better extract and a tighter bed. A grist with plenty of whole husk runs faster. Rice and maize adjuncts, common in Indian lager recipes, add extract without adding husk, which thins the filter bed per kilo of grist. On a high adjunct brew you may need a slower start and gentler raking.</p><p>Depth matters too. Stuffing 260 kg into a tun sized for 200 kg deepens the bed and slows everything. Brewers sometimes blame the rakes for what is really an overloaded vessel. Even fermenter shape changes behaviour downstream, a point covered in our guide to <a href=\"how-fermenter-height-and-shape-change-yeast-behaviour.html\">fermenter height and shape</a>.</p><p>Knowing the physics of the bed lets you design recipes and set the mill for your own tun. That is hard to learn from one brewer's habits.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>On your next lauter, write down differential pressure or the grant level every 10 minutes with rake height and pump setting beside it. Mark the moment the wort clouds, if it does. One annotated lauter tells you more about your tun than a month of guessing.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How deep should a lauter tun grain bed be?",
+   "Classic lauter tuns commonly run beds of around 30 to 50 cm. Deeper beds filter better but run more slowly."
+  ],
+  [
+   "Why does my wort turn cloudy when I rake?",
+   "Knives run too low drag fines through the bed and into the run-off. Raise the rakes and slow the run-off until it clears."
+  ],
+  [
+   "What sparge temperature should I use?",
+   "About 76 to 78 °C is standard. It keeps wort viscosity down without pulling extra tannin from the husks."
+  ]
+ ],
+ "cta": {
+  "title": "Lauter faster without losing clarity",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It teaches mash and lauter physics, grist design and how to read your brewhouse data so a stuck lauter stops being a weekly event.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cloudy-wort-run-off-and-the-lipids-it-carries-into-the",
+  "how-fermenter-height-and-shape-change-yeast-behaviour",
+  "how-many-cans-to-test-from-a-single-canning-run"
+ ]
+}

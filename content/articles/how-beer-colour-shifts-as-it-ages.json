@@ -1,0 +1,67 @@
+{
+ "slug": "how-beer-colour-shifts-as-it-ages",
+ "cat": "Brewing science",
+ "h1": "How beer colour shifts as it ages",
+ "title": "How Beer Colour Shifts as It Ages | Craft Beer School",
+ "desc": "Why pale beers darken and hazy IPAs turn brown in storage, how heat speeds it up and how to measure colour change in your lab.",
+ "teaser": "Pale lager goes amber, hazy IPA goes muddy brown. Colour drift is a clock you can read.",
+ "standfirst": "Beer colour is not fixed at packaging. Oxygen, heat and time push most beers darker and change hue. Measuring that drift tells you how well your process protects the beer.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Most beers darken in the package",
+   "<p>Pale beers tend to darken slowly in storage. The causes are the same chemistry that makes beer go stale. Polyphenols from malt husk and hops oxidise and link up into larger, darker molecules. Maillard type reactions between sugars and amino compounds continue slowly at storage temperature. Both are faster with more oxygen and more heat.</p><p>The change is small in a well made lager kept cold. In a beer that picked up oxygen at packaging and then sat warm, it can be visible on the shelf, with a golden beer moving towards amber.</p><p>Hue changes as well as depth. Fresh pale beer reads as clean yellow or gold. Aged beer often picks up a reddish or brownish cast that a colour number alone does not describe well. Two beers at the same EBC can look different in the glass if one is fresh and one is old. Hold the samples against a white card in daylight as well as reading the instrument.</p>"
+  ],
+  [
+   "Hazy dry-hopped beers change the fastest",
+   "<p>Heavily dry-hopped hazy IPAs carry a big load of hop polyphenols. When oxygen gets in, those polyphenols oxidise quickly and the beer shifts from bright yellow-orange to a dull brown, sometimes with a greyish or purple tint. The colour change usually travels with flavour loss: fresh fruit fades and a sweet, cardboard or onion note arrives. Brewers often see the colour go before the panel calls the flavour, which makes colour a useful early warning.</p><p>Our guide to <a href=\"oxidation-in-dry-hopped-beer-after-packaging.html\">oxidation in dry-hopped beer after packaging</a> covers the oxygen side in detail.</p>"
+  ],
+  [
+   "Heat is the accelerator India supplies in plenty",
+   "<p>A rough chemistry rule says reaction rates about double for every 10 °C rise. A beer stored at 30 °C will age several times faster than one at 4 °C. In a godown in Nagpur or Hyderabad in May, 35 to 40 °C is normal, so a pale beer can move further in a month than it would in a year in a cold room.</p><p>This is why forced ageing works as a test. Holding sealed samples warm for a few days gives you a preview of months on a shelf. Our guide to <a href=\"forced-ageing-tests.html\">forced ageing tests</a> explains how to set one up.</p>"
+  ],
+  [
+   "Some colour drops out instead of building up",
+   "<p>Not every beer darkens. In unfiltered and hazy beers, part of the colour you see comes from suspended particles. As yeast and haze settle, the beer can look lighter and brighter. Dark beers can also lose a little colour as colour carrying material precipitates with haze into sediment. So a colour reading on an unfiltered beer mixes two effects, real colour change and change in haze.</p><p>That matters when a customer sends back a can that looks wrong. Before blaming oxidation, check whether the can was stored upright, shaken or poured to the last drop. A hazy IPA poured carefully off its sediment looks lighter than one poured with the dregs. Compare against a retained can from the same run, handled the same way.</p>"
+  ],
+  [
+   "Measure colour at 430 nanometres and keep the method fixed",
+   "<p>Beer colour is measured as absorbance at 430 nanometres in a spectrophotometer. In a 10 millimetre cuvette, EBC colour is 25 times the absorbance at 430 nanometres. SRM uses a different factor. EBC is roughly 1.97 times SRM. Our guide to <a href=\"using-a-spectrophotometer-for-beer-colour-and-bitterness.html\">using a spectrophotometer for colour and bitterness</a> walks through the method.</p><p>Haze ruins the reading, because particles scatter light and read as extra colour. Degas the sample and filter or centrifuge it first. A common check is to read absorbance at 700 nanometres as well. If it is more than about 0.039 times the 430 nanometre reading, the sample is too turbid for a valid colour number.</p><p>For tracking change over time, consistency matters more than absolute accuracy. Same cuvette, same preparation, same temperature, same instrument.</p>"
+  ],
+  [
+   "What colour drift tells you about your process",
+   "<p>Treat a big colour shift as a symptom. The usual causes, roughly in order of how often we see them:</p><ul><li>Oxygen picked up during transfer or packaging.</li><li>Warm storage or a broken cold chain.</li><li>High polyphenol load from heavy dry hopping or harsh sparging.</li><li>Light exposure in clear or green glass, which brings its own flavour fault.</li></ul><p>Colour on its own does not tell you which one. Combine it with dissolved oxygen and total package oxygen figures and a tasting panel and the picture becomes clear. Turning these separate readings into a single shelf life picture is the kind of work a single guide cannot teach.</p><p>Your first step: keep back three cans from your next batch. Read colour on day one, store one can cold and one at 30 °C and read both again after four weeks. The gap between them is your beer's heat sensitivity in one number.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does beer get darker as it ages?",
+   "Polyphenols oxidise and link into darker compounds. Slow Maillard reactions also continue in the package. Oxygen and heat speed both up."
+  ],
+  [
+   "Why does hazy IPA turn brown?",
+   "Heavy dry hopping adds a lot of hop polyphenols. When oxygen gets into the package they oxidise quickly, turning the beer dull brown."
+  ],
+  [
+   "How is beer colour measured?",
+   "As absorbance at 430 nanometres in a spectrophotometer. In a 10 millimetre cuvette, EBC colour is 25 times that absorbance, after the sample is degassed and cleared of haze."
+  ],
+  [
+   "Can beer get lighter with age?",
+   "Unfiltered beers can look lighter as yeast and haze settle, because suspended particles add to apparent colour."
+  ]
+ ],
+ "cta": {
+  "title": "Stop guessing at shelf life",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers oxidation chemistry, flavour stability and lab methods, so you can link colour, oxygen and flavour changes to their causes.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "using-a-spectrophotometer-for-beer-colour-and-bitterness",
+  "light-struck-beer-and-the-bottle-colour-that-prevents-it",
+  "mash-ph-explained"
+ ]
+}

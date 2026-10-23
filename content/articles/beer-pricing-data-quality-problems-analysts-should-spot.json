@@ -1,0 +1,67 @@
+{
+ "slug": "beer-pricing-data-quality-problems-analysts-should-spot",
+ "cat": "Beer for teams",
+ "h1": "Beer pricing data quality problems analysts should spot",
+ "title": "Beer Pricing Data Problems to Spot | Craft Beer School",
+ "desc": "The pricing data errors that distort beer dashboards in India, from pack size mix-ups to MRP changes plus how to catch them.",
+ "teaser": "Half the odd spikes in a beer price chart are not price changes. They are data problems with a beer story behind them.",
+ "standfirst": "Beer pricing data is messier than most because the same brand comes in many packs, states and price lists. These are the problems we see analysts trip over and the checks that catch them early.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Price per case means nothing until you fix the pack",
+   "<p>The most common error is comparing prices across packs as if they were the same unit. A case of twelve 650 ml bottles holds 7.8 litres. A case of twenty four 330 ml cans holds 7.92 litres. A case of twenty four 500 ml cans holds 12 litres. Put those three \"cases\" in one average price column and the number is noise.</p><p>The fix is boring and it works: convert every line to price per litre, or to price per hectolitre (100 litres) for big numbers, before you compare anything. Keep the pack code next to it so you can split by pack later. Our guide to <a href=\"beer-quality-data-for-data-teams.html\">beer quality data for data teams</a> uses the same rule for production data. Litres first, then everything else.</p>"
+  ],
+  [
+   "MRP is set by state and changes on notification dates",
+   "<p>In India the maximum retail price printed on the bottle or can is shaped by each state's excise structure. When a state revises duty, MRPs move on a notified date, often at the start of a financial year in April. A dashboard that shows a 12% price jump in April across one state is probably showing a duty change, not a brand decision.</p><p>Build a simple table of state, effective date and change type. Join it to your price series. Then a spike can be explained in one click rather than in a meeting.</p>"
+  ],
+  [
+   "Old stock at old prices blurs every price change",
+   "<p>Beer already in the trade at the old MRP keeps selling at that price for weeks. Stock labelled with the old price sits next to stock with the new price. Your data will show a blend for a while, then settle.</p><p>So do not read the first month after a price change as the new normal. In a well run route to market, old stock clears in a few weeks. If the blend lasts three months, the real story is slow stock rotation, which is also a freshness problem for the beer.</p>"
+  ],
+  [
+   "Strong and mild variants of one brand are different products",
+   "<p>Many Indian beer brands sell a mild variant around 4.5 to 5% ABV and a strong variant around 6 to 8%. In several states these carry different duty, so their prices sit apart. A brand level average price moves whenever the mix between them moves, even if no price changed at all.</p><p>Report the variants separately. If leadership wants one brand number, show a mix-adjusted price beside the raw average so nobody mistakes a mix shift for a price rise.</p>"
+  ],
+  [
+   "Watch for the quiet errors",
+   "<p>Some problems never make a spike. They just make the numbers slightly wrong for a long time:</p><ul><li><strong>Free goods recorded as sales.</strong> Promotional cases at zero value pull average price down.</li><li><strong>Schemes netted in some states and not others.</strong> One state shows net price, the next shows list price.</li><li><strong>Units entered as cases.</strong> One line with bottles in the case column inflates volume twelve or twenty four times.</li><li><strong>Duplicate outlet codes.</strong> One bar under two codes splits its history in half.</li></ul><p>A quick sanity range catches most of these. If any line's price per litre falls outside, say, half to double the brand's median for that state and pack, flag it for a human.</p>"
+  ],
+  [
+   "Promotions and schemes need their own column",
+   "<p>Beer is heavily promoted in markets where the rules allow it: a free can with a case, a retailer scheme, a summer discount to clear stock before it ages. Each of these changes the price actually paid without touching the printed MRP. If schemes are booked as a deduction in one system and as a separate cost line in another, the same brand will show two different net prices depending on which report you open.</p><p>Agree one rule with finance and write it down. We prefer gross price, scheme value and net price as three separate columns, so anyone can rebuild the net figure. A scheme that costs ₹50 a case on a case that nets ₹900 is a 5.6% price cut. That number belongs in the analysis, not hidden inside it.</p>"
+  ],
+  [
+   "Know which price you are looking at",
+   "<p>A beer has several prices on its way to the glass: the ex-brewery price, the price after excise, the price to the wholesaler or state corporation, the retailer's price and the MRP. In some states a government corporation sits between brewer and retailer. Analysts often mix two of these in one chart without noticing.</p><p>Label every price column with its point in the chain. That one habit prevents more wrong conclusions than any model. It is also the part of beer data that people outside the industry never expect. It is also why a little time spent learning how beer moves through Indian excise pays back fast.</p><p>A first step for this week: take your main pricing table, add a price per litre column and sort by it. The top and bottom twenty rows will show you most of what is wrong with it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why should beer prices be compared per litre?",
+   "Beer cases come in different pack sizes, so a case price hides very different volumes. Price per litre or per hectolitre puts every pack on the same footing."
+  ],
+  [
+   "Why do beer prices jump in April in India?",
+   "Many states revise excise duty at the start of the financial year, which moves MRPs on a notified date. Check the state notification before calling it a pricing decision."
+  ],
+  [
+   "What is a mix-adjusted price?",
+   "It holds the mix of variants or packs constant so that a change in the average reflects real price changes rather than a shift in what was sold."
+  ]
+ ],
+ "cta": {
+  "title": "Give your analysts the beer context behind the numbers",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions. Our route to market module explains how beer moves from brewery to shelf in India and what each price in the chain means.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-quality-data-for-data-teams",
+  "excise-reporting-data-explained-for-finance-analysts",
+  "quality-release-data-explained-for-it-and-data-teams"
+ ]
+}

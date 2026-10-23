@@ -1,0 +1,69 @@
+{
+ "slug": "moving-from-an-it-job-into-a-beer-company-role",
+ "cat": "Careers",
+ "h1": "Moving from an IT job into a beer company role",
+ "title": "Moving from IT into a Beer Company Role | Craft Beer School",
+ "desc": "Which IT and data roles beer companies hire for, the plant systems you will meet and how to show you understand the product as well as the code.",
+ "teaser": "Beer companies run on ERP, plant control systems and a lot of spreadsheets. Your IT skills fit. Your beer knowledge decides the offer.",
+ "standfirst": "IT professionals in Bengaluru, Pune and Hyderabad increasingly look at drinks companies, their technology centres and their plants. The technical fit is often good. What wins the role is showing you understand what the systems are there to control.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Beer companies are bigger IT users than they look",
+   "<p>A brewery is a food factory with a tax office attached. Every batch has to be traced from raw material to finished pack. Every litre is counted for excise. Orders, stock and invoices run through an ERP system. The brewhouse and packaging lines run on plant control systems that log temperatures, flows and pressures every few seconds. Sales teams track outlets and distributors. Marketing runs consumer data.</p><p>That adds up to a lot of IT and data work: ERP support, integration, reporting, analytics, cybersecurity, plant systems and increasingly forecasting and AI. Large drinks companies also run global capability centres in Indian cities, which hire in volume.</p>"
+  ],
+  [
+   "The roles that fit an IT background",
+   "<ul><li><strong>ERP and business systems:</strong> supply chain, finance and manufacturing modules.</li><li><strong>Data and analytics:</strong> sales dashboards, demand forecasting, plant performance reports.</li><li><strong>Plant and automation IT:</strong> the layer between control systems and business systems, often called manufacturing execution.</li><li><strong>Digital commerce and route to market:</strong> distributor and retailer ordering apps where state rules allow.</li><li><strong>Infrastructure and security:</strong> including the factory network, which cannot simply be rebooted mid-shift.</li></ul><p>Our guide on <a href=\"data-and-analytics-jobs-in-breweries-and-drinks-companies.html\">data and analytics jobs in drinks companies</a> covers the analytics side in more depth.</p>"
+  ],
+  [
+   "Learn what the plant data means",
+   "<p>The fastest way to stand out is to understand the data you will handle. A few examples:</p><ul><li><strong>Original and final gravity</strong> measure sugar in wort before and after fermentation. Alcohol is roughly (OG minus FG) x 131.25 when gravity is written as a decimal such as 1.048.</li><li><strong>Fermentation temperature</strong> logs show whether a lager held around 8 to 13 °C or drifted warm.</li><li><strong>OEE</strong>, overall equipment effectiveness, is availability x performance x quality on a packaging line. It is the single most watched number in many plants.</li><li><strong>Dissolved oxygen</strong> in packaged beer is measured in parts per billion. Low is good, because oxygen stales beer.</li></ul><p>An analyst who knows why these move is far more useful than one who can only chart them.</p>"
+  ],
+  [
+   "Plant systems behave differently from office systems",
+   "<p>Office IT can patch on a Sunday night. A plant may run three shifts, seven days a week, through the summer peak. Downtime on a packaging line costs output that cannot be made up later. Control systems may be older than your laptop and still be the right choice because they are stable.</p><p>People who move from IT into plants often stumble here. Respect the production calendar. Plan changes for planned shutdowns. Ask the shift manager before touching anything on the floor. You will earn trust quickly if production sees that you understand their constraints.</p>"
+  ],
+  [
+   "Translate your CV into their language",
+   "<p>Rewrite project descriptions so a plant manager can see the value. \"Migrated reporting to a cloud warehouse\" is fine. \"Cut the time to produce the daily packaging efficiency report from two hours to ten minutes\" is better, even if your old project was in banking and you are describing the equivalent outcome.</p><p>Where you have worked with manufacturing, logistics or retail data, put it first. Traceability, batch records, inventory and demand forecasting all carry straight across.</p>"
+  ],
+  [
+   "Expect the culture to change",
+   "<p>Drinks companies tend to be more physical and more seasonal than software firms. People talk about volume in hectolitres, not users. The year bends around summer and festive peaks. Responsible drinking and regulation shape what marketing and sales can do, because alcohol is controlled state by state in India. You do not have to drink to fit in. Plenty of people in the industry do not.</p><p>Visits matter too. Ask whether you can spend a day at a plant early on. If you are joining a capability centre far from any brewery, ask for a virtual tour or a session with a brewer. Our guide on <a href=\"moving-from-engineering-into-brewing-and-what-skills-carry.html\">moving from engineering into brewing</a> is useful if you later want to go further toward production.</p>"
+  ],
+  [
+   "A first step you can take this week",
+   "<p>Brew a beer, at home or on a short course, even if you never intend to brew professionally. Mashing, boiling, fermenting and packaging once yourself makes every column in a plant dataset make sense. Then pick one public dataset, or invent a realistic one, of 30 batches with gravity and temperature readings and build a simple dashboard that flags the batch that went wrong. Bring it to interviews.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do beer companies hire IT people?",
+   "Yes. They need ERP, data and analytics, plant systems, security and digital commerce skills. Large drinks companies also run technology and capability centres in Indian cities."
+  ],
+  [
+   "Do I need to know brewing to work in beer company IT?",
+   "Not formally, but understanding the process makes you more effective and more credible, especially in data and plant systems roles."
+  ],
+  [
+   "What is OEE in a brewery?",
+   "Overall equipment effectiveness: availability x performance x quality, usually measured on packaging lines. It shows how much of the line's potential output is actually achieved."
+  ],
+  [
+   "What is the biggest adjustment from software to a plant?",
+   "Respecting the production calendar. Plant systems often run around the clock and changes must fit planned shutdowns."
+  ]
+ ],
+ "cta": {
+  "title": "Understand the process behind the plant data",
+  "body": "Brewing Fundamentals is a four week live course (₹5,999) covering malt, mashing, boiling, fermentation and packaging in plain terms. It explains why the numbers in a brewery dataset move, which no software course will.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "moving-from-engineering-into-brewing-and-what-skills-carry"
+ ]
+}

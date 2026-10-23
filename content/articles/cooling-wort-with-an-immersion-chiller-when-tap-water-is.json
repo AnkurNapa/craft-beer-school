@@ -1,0 +1,67 @@
+{
+ "slug": "cooling-wort-with-an-immersion-chiller-when-tap-water-is",
+ "cat": "Brewing basics",
+ "h1": "Cooling wort with an immersion chiller when tap water is warm",
+ "title": "Chilling Wort When Tap Water Is Warm | Craft Beer School",
+ "desc": "How to chill homebrew wort to pitching temperature with an immersion chiller when Indian tap water runs at 28 to 32 °C, using ice and a second stage.",
+ "teaser": "An immersion chiller cannot cool wort below the water running through it. In an Indian summer that is the whole problem.",
+ "standfirst": "An immersion chiller is the standard homebrew tool for cooling wort. In much of India, tap water runs too warm in summer to reach ale pitching temperature on its own. Here is how we get from boiling to 19 °C anyway.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why warm water stalls the chiller",
+   "<p>An immersion chiller is a coil of copper or stainless tube that sits in the hot wort. Cold water runs through it and carries heat away. How fast it works depends on the difference in temperature between the wort and the water.</p><p>At the start, wort near 100 °C and water at 30 °C give a 70 degree gap. Heat moves fast. As the wort cools, the gap shrinks and cooling slows. Wort at 35 °C with water at 30 °C has only a 5 degree gap. The last few degrees take longer than the first fifty. Below 30 °C, the chiller cannot help at all. For an ale yeast that wants 18 to 20 °C, tap water alone will never get there in an Indian summer.</p>"
+  ],
+  [
+   "Stage one: tap water does the heavy lifting",
+   "<p>Use tap water for the first stage. Run it through the chiller at a steady flow until the wort reaches about 35 to 40 °C. This is where tap water is most efficient. It is also the bulk of the heat to remove.</p><p>Move the wort while you chill. Stir gently with a sanitised spoon or rock the chiller up and down in the kettle. Hot wort next to the coil gets replaced by hotter wort from elsewhere, which keeps the temperature gap high. Keep the lid on loosely between stirs. A 20 litre batch with a 10 metre copper chiller can reach the end of this stage in roughly 15 to 20 minutes, depending on water flow.</p>"
+  ],
+  [
+   "Stage two: ice water through the chiller",
+   "<p>Once tap water stops helping, switch to ice water. The simplest way is a recirculating loop:</p><ul><li>Fill a large bucket with water and several kilograms of ice, or frozen water bottles.</li><li>Put a small submersible fountain pump in the bucket.</li><li>Connect the pump outlet to the chiller inlet and run the chiller outlet back into the bucket.</li></ul><p>Ice water at 2 to 5 °C reopens a wide temperature gap. The wort drops quickly from 35 °C to pitching temperature. Add ice as it melts. Freeze water bottles two days before brew day so you have enough.</p>"
+  ],
+  [
+   "A pre-chiller is the other route",
+   "<p>Without a pump, use a pre-chiller. This is a second coil of tubing sitting in a bucket of ice water, connected between the tap and the main chiller. Tap water passes through the cold coil first and enters the main chiller much colder.</p><p>A pre-chiller wastes ice early in the chill when tap water is already cold enough to do the job. Connect it only for the second stage. Many brewers simply plumb it in once the wort reaches about 40 °C.</p>"
+  ],
+  [
+   "Sanitise the chiller in the boil",
+   "<p>The chiller goes into wort that will soon be cool enough for bacteria to grow. Put it into the kettle 10 to 15 minutes before the end of the boil. The boiling wort sanitises it. Check the fittings first so that tap water cannot drip from a leaky hose connection into the kettle.</p><p>Once the wort drops below about 60 °C, it is vulnerable. Keep the lid on as far as the chiller allows and stir only with a sanitised spoon. Our guide on <a href=\"how-to-chill-wort-fast.html\">chilling wort fast</a> explains the other reasons for speed, including cold break and DMS.</p>"
+  ],
+  [
+   "Save the water",
+   "<p>A typical chill uses a lot of water, much of it warm on the way out. In cities where water arrives by tanker or for a few hours a day, that matters. Run the outlet into buckets. The first runnings come out hot and are perfect for cleaning the mash tun and kettle. Later water can go to plants once it cools. Our guide to <a href=\"working-out-how-much-water-you-need-for-a-homebrew-batch.html\">working out how much water you need</a> includes chilling in the total.</p><p>Choosing the right pitching temperature for each yeast is part of what we cover on our fundamentals course.</p>"
+  ],
+  [
+   "If you cannot reach pitching temperature",
+   "<p>Sometimes the ice runs out at 24 °C. Do not pitch warm. Transfer the wort to a sanitised fermenter, seal it with an airlock and put it in your fermentation fridge or swamp cooler for a few hours until it reaches 18 to 20 °C. Then pitch. Wort sealed in a clean fermenter is reasonably safe for a short wait. Before your next brew, freeze six 1 litre water bottles and buy a small fountain pump. That pair turns a summer chill from an hour of frustration into a routine.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can an immersion chiller cool wort below tap water temperature?",
+   "No. It can only bring wort close to the temperature of the water running through it. Below that you need ice water."
+  ],
+  [
+   "How long should chilling take?",
+   "Aim for under 30 minutes from boil to pitching temperature where you can. Faster chilling improves cold break and lowers infection risk."
+  ],
+  [
+   "When should I put the chiller in the kettle?",
+   "Ten to 15 minutes before the end of the boil, so the boiling wort sanitises it."
+  ]
+ ],
+ "cta": {
+  "title": "Brew clean beer through an Indian summer",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It covers chilling, pitching temperature and fermentation control for brewers working in real Indian conditions.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "how-to-chill-wort-fast",
+  "home-brewing-safety-with-co2-cylinders-glass-and-hot-wort",
+  "working-out-how-much-water-you-need-for-a-homebrew-batch"
+ ]
+}

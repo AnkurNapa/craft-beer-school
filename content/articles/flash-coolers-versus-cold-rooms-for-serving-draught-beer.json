@@ -1,0 +1,67 @@
+{
+ "slug": "flash-coolers-versus-cold-rooms-for-serving-draught-beer",
+ "cat": "Tasting",
+ "h1": "Flash coolers versus cold rooms for serving draught beer",
+ "title": "Flash Coolers vs Cold Rooms for Draught | Craft Beer School",
+ "desc": "Flash coolers or a keg cold room for serving draught beer in India: how each works, what warm kegs do to craft beer and which fits your bar.",
+ "teaser": "A flash cooler chills beer in seconds. It does nothing for the keg sitting at 32 °C behind the bar.",
+ "standfirst": "There are two ways to get cold draught beer into a glass. Chill the keg and keep it cold, or keep the keg warm and chill the beer on its way to the tap. Both work. In a hot country they lead to very different beer by the end of the keg. Here is how to choose.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two ways to cool draught beer",
+   "<p>A <strong>cold room</strong> keeps kegs at serving temperature, usually 2 to 4 °C, all the time. Beer leaves the keg cold and a short line or a glycol python keeps it cold to the tap.</p><p>A <strong>flash cooler</strong> leaves kegs at room temperature. The beer passes through a stainless coil inside a cooler on its way to the tap and is chilled in a few seconds. Most flash coolers in bars are either ice bank coolers, where a refrigeration unit builds a layer of ice in a water bath around the coil, or dry block coolers, where the coil sits in a solid aluminium block cooled directly.</p>"
+  ],
+  [
+   "Warm kegs age beer faster",
+   "<p>The biggest difference is what happens to the beer before it is poured. A keg stored at 30 to 35 °C in an Indian summer ages far faster than one held at 3 °C. Staling reactions speed up with temperature: a common rule of thumb is that many chemical reaction rates roughly double for every 10 °C rise. Hop aroma fades, malt turns papery and caramel notes creep in.</p><p>For a pasteurised mainstream lager that empties in a day, that is tolerable. For an unpasteurised craft IPA that takes a week to sell, it is not. The last pint from a warm stored keg can taste noticeably older than the first.</p>"
+  ],
+  [
+   "Warm kegs need much higher gas pressure",
+   "<p>CO2 is less soluble in warm beer. To hold 2.5 volumes at 3 °C a keg needs about 0.8 bar of CO2. At 30 °C the same carbonation needs well over 2 bar. Flash cooler systems have to run at those higher pressures. If the gas is set for a cold keg, a warm keg slowly loses carbonation and pours flat.</p><p>There is a second catch. When the room cools overnight and warms again by day, the right pressure moves with it. A setting that is correct at 2 pm can be slightly wrong at 2 am. A cold room removes that swing.</p>"
+  ],
+  [
+   "Flash coolers have a capacity limit",
+   "<p>An ice bank cooler stores cooling as ice. During a rush, every pint melts some of that ice. If the bar pours faster than the refrigeration unit can rebuild the ice, the bank runs down and beer starts reaching the tap warm and foamy. This is the classic late night failure at a busy event.</p><p>Size the cooler for your peak hour, not your average. Give it time to build a full ice bank before service, often several hours from a warm start. Dry block coolers recover faster but have less stored cooling to draw on.</p><p>Check the ice bank before every big night. Many units have a sight glass or an indicator. If the ice is thin at opening time, the cooler will not last the evening.</p>"
+  ],
+  [
+   "Where each one makes sense",
+   "<ul><li><strong>Flash cooler:</strong> events and festivals, outdoor bars, sites with no space or power for a cold room, mainstream pasteurised beer with very fast turnover.</li><li><strong>Cold room:</strong> taprooms and bars serving unpasteurised craft beer, any site where a keg takes more than a day or two to empty, menus with many taps.</li><li><strong>Cold room plus python:</strong> bars where the taps sit far from the kegs. Our guide to <a href=\"python-cooling-for-long-draught-lines-in-a-hot-country.html\">python cooling</a> covers that setup.</li></ul><p>Some bars use both: a cold room for the kegs and a small flash cooler as a final trim on very long runs.</p>"
+  ],
+  [
+   "Running costs are not the whole story",
+   "<p>A flash cooler is cheaper to buy and install than a cold room. It also only cools the beer you pour. A cold room cools the whole space, the kegs and every time the door opens. On a power bill alone, the flash cooler can look like the better deal.</p><p>The cost that does not show up on the bill is beer quality and waste. Flat pours, foam from tired ice banks and stale beer at the bottom of a warm keg all end up down the drain or in unhappy customers. For craft beer, which costs more per litre to make, that waste adds up quickly. Our guide to <a href=\"keeping-keg-cold-rooms-at-a-steady-temperature-in-summer.html\">keeping a keg cold room steady in summer</a> covers how to run one well.</p>"
+  ],
+  [
+   "Taste the last pint, not the first",
+   "<p>A flash cooled beer can taste perfect when the keg is fresh. The test is the end of the keg. Ask the brewery for a fresh can or bottle of the same batch and taste it side by side with the draught pour on day four or five of the keg. If the draught is duller, papery or less hoppy, warm storage is costing you.</p><p>Your first step: put a thermometer next to the kegs in your bar for one week and write down the highest reading each afternoon. If it regularly goes above 25 °C, budget for a cold room or a well insulated keg fridge before you add more craft taps.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a flash cooler for beer?",
+   "A cooler that chills beer as it flows through a coil on its way to the tap, so kegs can stay at room temperature. Most use an ice bank or a solid cooled block."
+  ],
+  [
+   "Is a flash cooler good for craft beer?",
+   "It works, but warm keg storage ages unpasteurised craft beer faster. For kegs that take more than a day or two to empty, a cold room keeps beer fresher."
+  ],
+  [
+   "Why does a flash cooler pour warm beer during a rush?",
+   "The ice bank melts faster than the refrigeration can rebuild it. Size the cooler for peak hour and let it build a full ice bank before service."
+  ]
+ ],
+ "cta": {
+  "title": "Serve every pint as fresh as the first",
+  "body": "Sensory Evaluation is our two week live course (₹5,999). It trains brewers and bar teams to taste what a draught system does to beer: buttery diacetyl from dirty lines, sourness, flat or prickly carbonation and warm serving, so you catch faults a pressure gauge cannot show.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "keeping-keg-cold-rooms-at-a-steady-temperature-in-summer",
+  "beer-serving-temperature",
+  "draught-line-cleaning"
+ ]
+}

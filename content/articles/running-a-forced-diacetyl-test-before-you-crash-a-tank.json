@@ -1,0 +1,71 @@
+{
+ "slug": "running-a-forced-diacetyl-test-before-you-crash-a-tank",
+ "cat": "Brewing science",
+ "h1": "Running a forced diacetyl test before you crash a tank",
+ "title": "Forced Diacetyl Test Before a Crash | Craft Beer School",
+ "desc": "How to run a forced diacetyl test: heat one sample, keep one cold, smell both. A five minute check that stops buttery beer going to the bright tank.",
+ "teaser": "Heat one sample, keep one cold, smell both. If the hot one smells of butter, do not crash yet.",
+ "standfirst": "Crash a tank before the yeast has cleaned up diacetyl and you lock a buttery flavour into the beer. A forced diacetyl test catches it with nothing more than a water bath and your nose. Here is how to run it.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the beer can smell clean and still not be ready",
+   "<p>During fermentation, yeast leak a compound called alpha-acetolactate into the beer. It has no flavour. Over time, it breaks down outside the cell into diacetyl, which tastes of butter or butterscotch. Healthy yeast then take the diacetyl back up and reduce it to compounds with little flavour.</p><p>The catch is timing. If you cool the tank while plenty of alpha-acetolactate is still in the beer, the yeast go quiet. The precursor keeps breaking down into diacetyl in the bright tank or in the package, with no active yeast left to clear it. A beer that tasted clean at crash turns buttery weeks later.</p>"
+  ],
+  [
+   "Heat speeds up the conversion",
+   "<p>The forced test uses heat to convert any remaining alpha-acetolactate into diacetyl straight away, so your nose can find it. If the heated sample smells clean, there is little precursor left and the tank is ready. If it smells buttery, the yeast still has work to do.</p>"
+  ],
+  [
+   "The procedure",
+   "<ol><li>Take two samples of beer from the tank into clean glass jars with lids. Fill them about two thirds full.</li><li>Seal both. Label one hot, one cold.</li><li>Put the hot sample in a water bath at about 60 to 70 °C for 10 to 20 minutes.</li><li>Leave the cold sample at room temperature or in the fridge.</li><li>Cool the hot sample back to the same temperature as the cold one.</li><li>Open the cold sample and smell it. Then open the hot sample and smell it.</li></ol><p>Keep the lids on during heating so diacetyl does not escape. Cool both samples to the same temperature before smelling, because warm beer releases aroma more strongly and can fool you.</p>"
+  ],
+  [
+   "Reading the result",
+   "<ul><li><strong>Both clean:</strong> little precursor and little diacetyl. The tank is ready to crash.</li><li><strong>Hot buttery, cold clean:</strong> precursor still present. Hold the tank warm for another day and test again.</li><li><strong>Both buttery:</strong> diacetyl is already present and so is precursor. The yeast needs more time and possibly a warmer rest. Check that yeast is still in suspension.</li></ul><p>If you cannot smell diacetyl reliably, train with a spiked sample. Some people are much less sensitive to it than others. Pick your most sensitive taster for this check.</p><p>Smell the cold sample first, every time. Once your nose has met the buttery hot sample, it takes a while to reset. The cold one will then seem cleaner than it is. If two people smell independently and write down their verdict before talking, you get a far more honest result than a group sniff at the tank.</p>"
+  ],
+  [
+   "The diacetyl rest makes the test easier to pass",
+   "<p>Many lager brewers raise the temperature toward the end of primary fermentation, often by a few degrees to around 14 to 18 °C, for a day or two. Warmer yeast convert precursor and reduce diacetyl faster. Our guide to the <a href=\"diacetyl-rest.html\">diacetyl rest</a> explains when to start it and how long it takes.</p><p>Ales fermented warm usually clear diacetyl quickly, but the test is still worth running on fast turnarounds and on new yeast strains.</p>"
+  ],
+  [
+   "When the sensory test is not enough",
+   "<p>The forced test is a sensory check. It tells you whether the beer is over your own threshold, not the exact level. For a precise figure, a lab measures total vicinal diketones by gas chromatography after converting the precursor. Our guide to <a href=\"what-a-vdk-result-from-the-lab-tells-a-brewer.html\">what a VDK result tells a brewer</a> covers how to read that number.</p><p>Small breweries can build a useful link by sending a few samples to a lab and running the forced test on the same day. You learn how your nose compares with the measured value.</p>"
+  ],
+  [
+   "Why it matters downstream",
+   "<p>Diacetyl that forms after crash ends up in your bright beer and packaged product. In warm Indian distribution, any remaining precursor converts faster. A beer that leaves the brewery borderline can reach the shelf obviously buttery. Our guide to <a href=\"bright-beer-tank-management.html\">bright beer tank management</a> covers what to check before packaging.</p><p>Diacetyl that appears late with sourness can also be a sign of Pediococcus infection. If the forced test fails again and again on a beer that used to pass, check hygiene as well as yeast health.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Before your next crash, run the forced test on two jars from the tank. Write the result on the batch sheet next to the date and gravity. Make it a rule that no tank is cooled without a pass written down.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How hot should a forced diacetyl test be?",
+   "About 60 to 70 °C for 10 to 20 minutes in a sealed jar, then cooled to match the cold sample before smelling."
+  ],
+  [
+   "Why does a buttery hot sample mean the tank is not ready?",
+   "Heat converts remaining alpha-acetolactate into diacetyl. A buttery hot sample shows precursor is still present."
+  ],
+  [
+   "Can a forced diacetyl test replace lab VDK analysis?",
+   "It is a good sensory check. For an exact figure, a lab measures total VDK by gas chromatography."
+  ]
+ ],
+ "cta": {
+  "title": "Know exactly when a tank is ready",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers fermentation by-products, diacetyl control and sensory testing, so you crash tanks on evidence rather than on the calendar.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "diacetyl-rest",
+  "bright-beer-tank-management",
+  "measuring-carbonation"
+ ]
+}

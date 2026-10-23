@@ -1,0 +1,67 @@
+{
+ "slug": "brewery-capex-projects-explained-for-project-managers",
+ "cat": "Beer for teams",
+ "h1": "Brewery capex projects explained for project managers",
+ "title": "Brewery Capex for Project Managers | Craft Beer School",
+ "desc": "What makes brewery capex projects different: hygienic design, long lead tanks, shutdown windows, commissioning with real beer and approvals in India.",
+ "teaser": "A brewery project is part construction job, part food safety job and part live operation. Project managers need all three in the plan.",
+ "standfirst": "Brewery capital projects range from one new fermenter to a whole packaging hall. They follow the usual project disciplines, but the plant cannot simply stop and the product is food. This guide explains what a project manager new to brewing should plan for.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The common project types",
+   "<p>Most brewery capex falls into a few families. Capacity projects add fermentation and maturation tanks or a bigger brewhouse. Packaging projects add or replace a filler, labeller, pasteuriser or a whole line. Utility projects cover refrigeration, steam boilers, compressed air, carbon dioxide recovery and water and effluent treatment. Digital projects add automation, sensors and data systems. Each has its own suppliers and risks.</p><p>Tanks are often the simplest to justify and the slowest to arrive. Stainless steel fermenters for a large brewery are custom fabricated. Lead times of several months from order to delivery are common. A big tank may need road permits and a crane to install. Our guide to <a href=\"brewery-capex-for-finance-teams-tanks-lines-and-payback.html\">brewery capex for finance teams</a> covers how these projects are justified.</p>"
+  ],
+  [
+   "Hygienic design is not optional",
+   "<p>Beer is food, so everything that touches it must be cleanable. Brewery equipment is designed for cleaning in place (CIP): pipes, tanks and valves are cleaned by circulating hot caustic, acid and sanitiser solutions without dismantling them. That rules out dead legs in pipework where liquid can sit, rough welds where bacteria can hide and materials that corrode under cleaning chemicals.</p><p>For a project manager this has practical effects. Welding of product pipework is usually orbital and inspected. Pipe runs need a slight fall so they drain. Every new tank and line must be connected to a CIP circuit. A shortcut here can create a contamination problem that only shows up weeks later as off flavours in packaged beer.</p>"
+  ],
+  [
+   "The brewery keeps running while you build",
+   "<p>Most projects happen in a working brewery. Tank farms sit next to live tanks full of beer. Packaging lines are replaced inside halls where other lines are running. Tie-ins to utilities, such as connecting a new glycol or steam line, often need a shutdown of the existing system.</p><p>Shutdown windows are precious. In India, breweries usually avoid them in the run-up to summer, when demand peaks from around March to June. They plan them for the monsoon or winter when volume is lower. A project that slips past its window may have to wait months for the next one. That makes schedule risk on long lead items far more expensive than it looks on a Gantt chart.</p>"
+  ],
+  [
+   "Commissioning ends with beer, not a switch",
+   "<p>A new piece of brewery kit is not finished when it powers on. Typical stages are a factory acceptance test at the supplier, installation, a site acceptance test, commissioning with water and then trials with real product. A new fermenter is not accepted until it has cooled and fermented a batch properly. A new filler is judged on fill accuracy, oxygen pick-up and speed with real beer and real bottles.</p><p>Oxygen is a good example of a brewing-specific test. Packaged beer is sensitive to dissolved oxygen, which shortens shelf life. A filler that runs at full speed but picks up too much oxygen fails the brewery's quality requirement even if it meets its mechanical specification. Agree measurable acceptance criteria with the brewing and quality teams before the contract is signed, not after.</p>"
+  ],
+  [
+   "Approvals and safety add time in India",
+   "<p>Brewery projects in India can need approvals beyond the usual building permissions. Pressure vessels and boilers have their own inspection regimes. Changes to licensed capacity, new tanks or new production areas may need excise approval, since excise officials supervise bonded production. Environmental consents can cover water use and effluent discharge. The requirements and timelines differ by state and project type, so the regulatory and EHS teams should map them at the start.</p><p>Brewery construction also brings specific hazards: confined space entry into tanks, carbon dioxide build-up in cellars, ammonia in some refrigeration systems and work at height on tall vessels. A permit to work system and clear isolation procedures are standard. Contractors new to food plants need induction on hygiene as well as safety.</p>"
+  ],
+  [
+   "A worked example of schedule risk",
+   "<p>Take an illustrative project to add four fermenters before summer. Tanks have a 20 week lead time, installation and piping take six weeks and commissioning with beer takes three. That is 29 weeks. If the brewery wants them full by mid-March, the order must be placed by late August. If the purchase order slips by a month, the tanks arrive after the shutdown window and the brewery enters summer without them. The cost is not the project budget. It is the beer the brewery could not make. The numbers are invented for illustration. The logic holds on any long lead project.</p><p>Data and automation projects carry their own version of this risk, since they touch control systems that run the brewery. Our guide to <a href=\"brewery-sensor-and-scada-data-for-data-engineering-teams.html\">brewery sensor and SCADA data</a> explains those systems. For packaging lines, <a href=\"packaging-line-efficiency-oee.html\">line efficiency and OEE</a> is the measure most projects promise to move.</p><p>A first step: for your next project, write down the brewery's shutdown windows for the coming year and work back from them to the latest order date for every long lead item.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is CIP in a brewery?",
+   "Cleaning in place: tanks, pipes and valves are cleaned by circulating cleaning solutions through them without taking them apart. New equipment must be designed for it."
+  ],
+  [
+   "When do Indian breweries usually do shutdowns?",
+   "Usually outside the summer peak, often in the monsoon or winter, when demand is lower and taking capacity offline costs less."
+  ],
+  [
+   "How long do brewery tanks take to arrive?",
+   "Custom stainless fermenters often take several months from order to delivery, so they usually sit on the critical path."
+  ],
+  [
+   "What does commissioning involve for brewery equipment?",
+   "Factory and site acceptance tests, water trials and then trials with real beer against agreed quality criteria such as oxygen pick-up and fill accuracy."
+  ]
+ ],
+ "cta": {
+  "title": "Help your project team speak the brewery's language",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that explain how brewing equipment and processes work.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "brewery-capex-for-finance-teams-tanks-lines-and-payback",
+  "packaging-line-efficiency-oee",
+  "brewery-sensor-and-scada-data-for-data-engineering-teams"
+ ]
+}

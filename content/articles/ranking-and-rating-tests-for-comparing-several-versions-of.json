@@ -1,0 +1,67 @@
+{
+ "slug": "ranking-and-rating-tests-for-comparing-several-versions-of",
+ "cat": "Tasting",
+ "h1": "Ranking and rating tests for comparing several versions of a beer",
+ "title": "Ranking and Rating Tests for Beer | Craft Beer School",
+ "desc": "When to rank and when to rate several versions of a beer, how to set up each test and how to read the results without fooling yourself.",
+ "teaser": "Four trial batches of the same pale ale and one tasting session. Ranking and rating tests tell you which one to brew again.",
+ "standfirst": "Difference tests compare two beers. Development work rarely stops at two. When you have three to six versions of a recipe, ranking and rating tests show you the order and the size of the gaps.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two tools for more than two beers",
+   "<p>A <strong>ranking test</strong> asks tasters to put samples in order on one attribute: most to least bitter, most to least liked. A <strong>rating test</strong> asks them to score each sample on a scale. Both handle several samples in one sitting, which makes them the natural next step after a pilot brew day that produced four versions of the same beer.</p><p>They answer slightly different questions. Ranking tells you the order. Rating tells you the order plus how far apart the samples sit. Pick the one that matches the decision you have to make.</p>"
+  ],
+  [
+   "When ranking is the better choice",
+   "<p>Ranking is quick and forgiving. Tasters do not have to agree on what a 6 means. They only have to decide which sample has more of something than the next. That makes it a good fit for a mixed panel, such as brewers, taproom staff and a few regulars, who have not trained on a shared scale.</p><p>Use it for screening. If you brewed five dry hop rates, a ranking for hop aroma intensity tells you whether the panel can follow the dose at all. If the ranks come back scrambled, the extra hops are not doing what you paid for.</p><p>The usual statistic for ranks from several tasters is the Friedman test. It checks whether the rank sums differ by more than chance would give. Any statistics package or a free online calculator will run it from a simple table of ranks.</p>"
+  ],
+  [
+   "When rating earns the extra effort",
+   "<p>Rating gives more information but asks more of the panel. For liking, the standard tool is the nine point hedonic scale, running from dislike extremely through neither like nor dislike to like extremely. For intensity, trained panels often use an unstructured line scale with anchors at each end.</p><p>Rating shows things ranking hides. Two samples might rank first and second, yet rate 7.1 and 7.0, which tells you they are effectively tied. Or every sample might rate below 5, which tells you the whole recipe direction is wrong even though one came top. Analyse ratings with an analysis of variance and a post hoc comparison, treating each taster as a block.</p>"
+  ],
+  [
+   "A worked example from a pilot brew",
+   "<p>Say you brewed a 50 litre pale ale four ways, with dry hop rates of 2, 4, 6 and 8 g/L. Eight tasters rank the cups for hop aroma, 1 for strongest. If the 8 g/L beer collects mostly 1s and the 2 g/L beer mostly 4s, the rank sums will be far apart and the Friedman test will confirm what you can already see.</p><p>The interesting result is in the middle. If 6 and 8 g/L share the top ranks almost equally, the panel cannot separate them. That is a direct case for brewing at 6 g/L and saving a quarter of the dry hop on every batch, a real saving when imported hops are priced in dollars.</p>"
+  ],
+  [
+   "Set-up rules that apply to both",
+   "<p>The traps are the same as in any <a href=\"running-a-vertical-tasting-of-the-same-beer-across-several.html\">multi-sample tasting</a>. Serve every sample at the same temperature in identical glasses. Code with random three digit numbers. Randomise the serving order for each taster, because the first sample in a set is often rated differently from the rest. A balanced design, where each sample appears in each position equally often, is better still.</p><ul><li>Keep it to five or six samples of normal strength beer. More than that and fatigue blurs the later ones.</li><li>Pour about 30 to 50 ml per sample. Enough to taste twice, not enough to drink.</li><li>Give water and plain crackers, with a short pause between samples.</li><li>Ask one question per test. Ranking for bitterness and liking at once muddles both.</li></ul>"
+  ],
+  [
+   "Reading results without fooling yourself",
+   "<p>The biggest mistake is reading a winner into noise. With eight tasters, a sample can come top by chance more often than people expect. Run the significance test before you announce anything. If there is no significant difference, the honest conclusion is that the panel could not separate the versions, so pick on cost or process convenience.</p><p>The second mistake is confusing a trained panel's intensity scores with consumer liking. Brewers often prefer more bitterness than their customers do. Use your trained tasters to measure what changed. Use a separate consumer group, even twenty regulars in the taproom, to find out what people prefer. Our guide on <a href=\"ranking-off-flavour-severity-so-a-panel-agrees-on-what-fails.html\">ranking off-flavour severity</a> covers the trained side in more depth.</p><p>Keep the raw sheets. A ranking table with the taster names, dates and sample codes lets you rerun the analysis later. It also lets you spot the one taster who always ranks the darkest sample first.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Next time you have two or more trial versions of a beer, hold back three cans of each. Run a simple ranking for the one attribute the trial was meant to change. Put the ranks into a Friedman calculator before anyone discusses what they tasted. Let the numbers speak first, then argue.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between ranking and rating in sensory testing?",
+   "Ranking puts samples in order on one attribute. Rating scores each sample on a scale, which also shows how far apart they are."
+  ],
+  [
+   "Which statistical test is used for ranking data?",
+   "The Friedman test is the usual choice for ranks from several tasters across several samples. It checks whether the rank sums differ more than chance would explain."
+  ],
+  [
+   "How many beers can a panel rank in one session?",
+   "Five or six samples of normal strength beer is a sensible limit. Beyond that, palate fatigue makes the later samples less reliable."
+  ]
+ ],
+ "cta": {
+  "title": "Pick the right trial batch with confidence",
+  "body": "Sensory Evaluation is our two week live course (₹5,999), taught on Saturdays and Sundays. It covers ranking, rating and difference tests with the statistics behind each, so trial batches are judged on evidence rather than the loudest voice.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "running-a-vertical-tasting-of-the-same-beer-across-several",
+  "ranking-off-flavour-severity-so-a-panel-agrees-on-what-fails",
+  "descriptive-analysis-versus-difference-tests-in-beer-sensory"
+ ]
+}

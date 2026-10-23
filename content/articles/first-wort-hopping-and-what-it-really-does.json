@@ -1,0 +1,71 @@
+{
+ "slug": "first-wort-hopping-and-what-it-really-does",
+ "cat": "Brewing science",
+ "h1": "First wort hopping and what it really does",
+ "title": "First Wort Hopping: What It Really Does | Craft Beer School",
+ "desc": "What first wort hopping is, what it does to bitterness and aroma and what the claims leave out, from a brewer who measures.",
+ "teaser": "Hops in the kettle before the boil. Smoother bitterness or brewing folklore? A bit of both.",
+ "standfirst": "First wort hopping means putting hops in the kettle while the wort is still running off from the lauter tun. Brewers swear it gives a rounder bitterness. Here is what is actually going on and how to test it on your own beer.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Hops in the kettle before the boil starts",
+   "<p>In first wort hopping, a hop charge goes into the empty or filling kettle at the start of run-off. The hops sit in hot wort, usually somewhere around 65 to 75 °C, for the whole lauter. Then they stay in through the full boil.</p><p>It is an old German practice that came back into fashion among craft brewers. The usual claims are that it gives a smoother, less harsh bitterness than a normal 60 minute addition and that it holds on to some hop aroma.</p>"
+  ],
+  [
+   "What happens during run-off",
+   "<p>The bitterness in beer comes mostly from iso-alpha acids, which form when alpha acids are heated near boiling. At run-off temperatures that reaction is very slow, so little bitterness is made during the lauter itself.</p><p>Other things do happen. Hop oils start to dissolve. Some oil compounds react or bind to wort components. Alpha acids dissolve more fully into wort that is still warm rather than boiling hard. That longer contact time before the boil is the main difference from a standard bittering charge.</p>"
+  ],
+  [
+   "Bitterness is at least as high as a 60 minute addition",
+   "<p>Because FWH hops go through the entire boil, they behave like the earliest possible bittering addition. In practice many brewers measure IBU figures equal to or a little higher than the same hops added at the start of the boil. If you swap a 60 minute addition for FWH without changing the weight, expect similar or slightly more bitterness, not less.</p><p>That is worth stating plainly, because some brewers treat FWH as an aroma addition and calculate it as if it barely contributes. It contributes fully.</p>"
+  ],
+  [
+   "Smoother bitterness is a perception claim",
+   "<p>The case for FWH rests mostly on tasting. Panels have described FWH beers as having a finer, more rounded bitterness. That is plausible, but it is a sensory effect at a similar IBU, not a chemical guarantee. It depends on the hop, the beer and the drinker.</p><p>The aroma claim is weaker. Most hop oil is driven off during a long boil whenever it went in. Any aroma left from FWH is subtle compared with a <a href=\"whirlpool-hopping.html\">whirlpool</a> or dry hop addition. If you want obvious hop aroma, add hops late.</p>"
+  ],
+  [
+   "Where it suits and where it does not",
+   "<p>FWH makes most sense in beers where bitterness needs to be firm but clean: German Pilsner, helles with a bit more hop, bitter and pale ale. It is less useful in a hazy IPA, where the hop charge that matters is late and cold.</p><ul><li>Use low cohumulone aroma varieties such as noble types if the goal is a soft bitterness.</li><li>Keep the FWH charge to the share of total bitterness you would normally give your first addition.</li><li>Do not expect it to fix harsh bitterness from high pH wort. Our guide to <a href=\"kettle-ph-and-its-effect-on-hop-bitterness.html\">kettle pH and hop bitterness</a> explains why that matters more.</li></ul>"
+  ],
+  [
+   "Practical points on a brewpub system",
+   "<p>On a 10 hl kettle, put the FWH pellets in before the first wort arrives so they wet evenly as wort runs in. Pellets dumped onto a full kettle can float and clump. If you heat during run-off, keep the burners or steam gentle so the kettle does not boil over with the hop load.</p><p>Hop pellets also bring extra trub. A full boil charge plus FWH plus whirlpool hops can make the trub cone large. Watch your whirlpool loss, especially in hot Indian summers when every extra minute of cooling time costs you in cooling water.</p><p>Record the oxygen and wort temperature at knockout as usual. FWH does not change that part of the process, so do not let the novelty distract from <a href=\"wort-aeration-and-oxygen.html\">wort aeration</a>.</p>"
+  ],
+  [
+   "Test it rather than trust it",
+   "<p>The honest way to decide is a split comparison. Brew the same recipe twice: once with a normal first addition, once with the same hops as FWH. Match the measured IBU as closely as you can. Then run a triangle test with your team, blind, on fresh beer.</p><p>If tasters cannot pick the FWH beer reliably, you have learned something useful too. Lab IBU, sensory testing and a decent brew log turn a brewing myth into a decision. That way of thinking is what our advanced course is built around.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>On your next batch of a pale lager or bitter, move your first hop addition to first wort without changing its weight. Send a sample for IBU if you can. Taste it beside the previous batch, blind, with two colleagues. Write down what you found before you decide to keep it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does first wort hopping add bitterness?",
+   "Yes. The hops go through the whole boil, so they give bitterness at least equal to a 60 minute addition and often a little more."
+  ],
+  [
+   "Does first wort hopping add aroma?",
+   "Only a little, if any. Most hop oil boils off. For clear aroma use whirlpool or dry hop additions."
+  ],
+  [
+   "Which beers suit first wort hopping?",
+   "Beers that want firm but clean bitterness, such as German Pilsner, bitter and pale ale."
+  ]
+ ],
+ "cta": {
+  "title": "Learn how hop chemistry really works",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers isomerisation, hop oils and sensory testing, so you can tell which hopping methods change your beer and which only feel like they do.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "whirlpool-hopping",
+  "wort-aeration-and-oxygen",
+  "acid-washing-yeast-and-when-it-does-more-harm-than-good"
+ ]
+}

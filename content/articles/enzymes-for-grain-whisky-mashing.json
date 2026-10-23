@@ -1,0 +1,63 @@
+{
+ "slug": "enzymes-for-grain-whisky-mashing",
+ "cat": "Whisky",
+ "h1": "Enzymes for grain whisky mashing",
+ "title": "Enzymes for Grain Whisky Mashing | Craft Beer School",
+ "desc": "How alpha amylase, glucoamylase and other enzymes convert maize, wheat and rice starch in grain whisky mashing, plus where the rules allow them.",
+ "teaser": "Maize and rice bring starch but no enzymes. Something has to turn that starch into sugar: malt or a bottle from a supplier.",
+ "standfirst": "Grain whisky lives or dies on starch conversion. Unmalted maize, wheat and rice carry almost no active enzymes of their own, so the distiller has to supply them, either from malted barley or from added enzymes where the rules allow.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Raw grain has starch but no tools",
+   "<p>Malting wakes up a barley grain and builds the enzymes that break starch into fermentable sugar. Unmalted maize, wheat and rice skip that step. They have plenty of starch but almost none of the enzymes needed to convert it. A mash of raw maize and water, however well cooked, ferments very little.</p><p>Grain distillers solve this in one of two ways. They add malted barley, whose enzymes convert the whole mash, or they add commercial enzymes made by fermentation. Which route you take depends on the spirit you want to make and the rules for the category you sell. Our guide to <a href=\"grains-in-whisky-corn-rye-wheat-rice.html\">grains in whisky</a> covers what each cereal brings to the flavour.</p>"
+  ],
+  [
+   "The rules decide before the chemistry does",
+   "<p>Scotch whisky must be converted by the endogenous enzymes of the malt, meaning only the cereal's own enzymes, mostly from malted barley. No added enzymes are permitted. Scotch grain whisky distilleries therefore include a share of malt in every mash, typically a modest percentage of the grain bill chosen for its high enzyme content.</p><p>Many other whisky categories allow added enzymes. They are widely used in American and Indian grain distilling. Indian standards for grain spirit and the rules of each export market change, so check the current standard for every label you plan to print before choosing a route.</p>"
+  ],
+  [
+   "The enzymes and what each does",
+   "<ul><li><strong>Alpha amylase</strong> chops long starch chains into shorter pieces, which thins the mash. Thermostable versions work at 85 to 95 °C, so they can be added during cooking to stop a maize mash setting like porridge.</li><li><strong>Beta amylase</strong> trims maltose off the chain ends. It comes from malt and works best around 60 to 65 °C. It is quickly destroyed above about 70 °C.</li><li><strong>Glucoamylase</strong> breaks starch fragments right down to glucose, including the branch points that other amylases leave behind. It works at mash temperatures and carries on in the washback, which raises fermentability.</li><li><strong>Beta glucanase and xylanase</strong> break down gums in barley, rye and wheat that make a mash sticky and hard to pump.</li><li><strong>Protease</strong> releases amino nitrogen, which can help yeast nutrition in grain-heavy mashes.</li></ul>"
+  ],
+  [
+   "Gelatinisation comes before conversion",
+   "<p>Enzymes cannot attack starch locked inside raw granules. The starch has to be gelatinised first, which means heating it in water until the granules swell and burst. Each cereal gelatinises at a different temperature. Barley and wheat starches gelatinise low enough to happen at normal mash temperatures. Maize needs about 62 to 74 °C and rice around 68 to 78 °C, which is why both are cooked separately and hotter before conversion. Our guide to <a href=\"cooking-maize-and-wheat-for-grain-whisky.html\">cooking maize and wheat</a> covers that step.</p><p>Get gelatinisation wrong and no amount of enzyme helps. Uncooked starch passes straight through to the still as lost yield. In a direct fired or steam coil still it can also scorch.</p>"
+  ],
+  [
+   "A typical enzyme sequence",
+   "<p>A common pattern in grain distilleries that use added enzymes looks like this:</p><ol><li>Mix milled maize with water and add thermostable alpha amylase.</li><li>Heat to cook and liquefy the starch, holding at the supplier's recommended temperature and time.</li><li>Cool to around 60 to 65 °C and add malt or glucoamylase for saccharification.</li><li>Cool further to the set temperature and transfer to the washback, where glucoamylase keeps working through fermentation.</li></ol><p>Doses come from the enzyme supplier's data sheet, usually expressed per tonne of grain or per kilogram of starch. Check the pH range on that sheet as well; most amylases have an optimum somewhere around pH 5 to 6.</p>"
+  ],
+  [
+   "Measure conversion, not just the dose",
+   "<p>Enzyme performance should show up in the numbers. An iodine test on a drop of mash shows whether starch remains: blue black means unconverted starch, a reddish or no colour change means conversion is well advanced. Track original gravity of the wash, final gravity and litres of pure alcohol per tonne of grain against the starch content of the grain you bought.</p><p>Your first step: run an iodine test at the end of saccharification on your next five mashes and record the result next to the yield. If yield is below expectation while iodine tests are clean, look at fermentation. If the iodine shows starch, look at cooking temperature and enzyme dose before anything else.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can Scotch grain whisky use added enzymes?",
+   "No. Scotch must be converted only by the cereal's own enzymes, which is why Scotch grain distilleries include malted barley in the mash."
+  ],
+  [
+   "What does glucoamylase do in grain whisky?",
+   "It breaks starch fragments down to glucose, including branch points. It keeps working in the washback, which raises fermentability and yield."
+  ],
+  [
+   "Why does maize need cooking before mashing?",
+   "Maize starch gelatinises at around 62 to 74 °C, so it must be cooked before enzymes can reach and convert it."
+  ]
+ ],
+ "cta": {
+  "title": "Convert every kilogram of starch you buy",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers malt and grain mashing, enzymes, cooking and the yield calculations that show whether your conversion is working.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "how-whisky-is-made",
+  "malt-grain-and-blended-whisky",
+  "grains-in-whisky-corn-rye-wheat-rice"
+ ]
+}

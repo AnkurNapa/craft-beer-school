@@ -1,0 +1,67 @@
+{
+ "slug": "batch-sparging-versus-fly-sparging-at-home",
+ "cat": "Brewing basics",
+ "h1": "Batch sparging versus fly sparging at home",
+ "title": "Batch Sparging vs Fly Sparging at Home | Craft Beer School",
+ "desc": "How batch and fly sparging work at home, the efficiency and time trade-off between them and which suits your mash tun and your patience.",
+ "teaser": "Batch sparging is quicker and simpler. Fly sparging squeezes out a little more sugar. Here is how to choose.",
+ "standfirst": "Sparging rinses the sugar out of the grain after the mash. Homebrewers do it in one of two ways. Each has a cost in time, kit or efficiency. Here is how they compare.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What sparging does",
+   "<p>At the end of the mash, the grain bed holds a lot of sugary wort. Draining it gets you the first runnings, but sugar remains trapped in the grain. Sparging adds hot water to rinse that sugar out so it ends up in the kettle instead of the compost bin.</p><p>Sparge water is usually 75 to 78 °C. Hot enough to keep the wort flowing, cool enough not to extract harsh tannins from the husks.</p><p>How much you sparge depends on your pre-boil volume. Work out how much wort you want in the kettle before the boil, subtract what the first runnings give you and the difference is your sparge volume. Grain holds back roughly 1 litre per kilogram, so a 5 kg grain bill keeps about 5 litres behind.</p>"
+  ],
+  [
+   "How batch sparging works",
+   "<ul><li>Drain the mash completely into the kettle.</li><li>Add the sparge water to the mash tun in one go, or in two equal portions.</li><li>Stir thoroughly and let it settle for a few minutes.</li><li>Recirculate the first cloudy litre or two back over the grain until it runs clear.</li><li>Drain completely into the kettle.</li></ul><p>For best results, aim for roughly equal volumes from the first and second runnings. Batch sparging takes around 30 minutes and needs no extra equipment. It is the common choice for cooler box mash tuns.</p>"
+  ],
+  [
+   "How fly sparging works",
+   "<p>Fly sparging rinses the grain continuously. You open the mash tun valve slowly and sprinkle hot water on top at the same rate the wort drains out. A layer of water about 2 to 5 cm deep stays above the grain bed throughout. The run-off takes 45 to 90 minutes.</p><p>You need a sparge arm or a way to spread water gently, a hot liquor tank above the mash tun and a false bottom or manifold that drains evenly. The slow, even rinse extracts more sugar. The cost is time, kit and attention.</p><p>The flow rate matters. Run off too fast and the water carves channels through the bed, rinsing one side and missing the rest. A steady trickle, roughly the speed that fills a 1 litre jug in a minute or two on a homebrew system, gives the rinse time to work.</p>"
+  ],
+  [
+   "Efficiency: the real difference",
+   "<p>Fly sparging usually gives a few percentage points more extraction than batch sparging, sometimes more on a well-designed system. On a 20 litre batch that might mean a few hundred grams of extra malt to hit the same gravity with batch sparging. At homebrew scale, that is cheap.</p><p>Consistency matters more than the headline figure. A brewer who batch sparges the same way every time hits their numbers. A brewer who fly sparges too fast, channels water through one side of the bed or runs off unevenly gets less than a good batch sparge. Our guide on <a href=\"why-your-efficiency-changes-from-one-brew-to-the-next.html\">why efficiency changes between brews</a> covers the causes.</p>"
+  ],
+  [
+   "Know when to stop collecting",
+   "<p>With fly sparging, the last runnings get thinner as you go. Late in the sparge, the pH of the run-off rises because there is less malt buffering left. Above about pH 6, tannins and silicates dissolve more easily. Most brewers stop when runnings fall to around 1.010, or about 2 to 3 °Brix on a refractometer, or when they have their pre-boil volume.</p><p>Batch sparging avoids most of this risk. The grain sees the sparge water once at a known temperature. The run-off is quick.</p>"
+  ],
+  [
+   "Big beers and no-sparge brewing",
+   "<p>Efficiency drops as gravity rises with either method. A big beer like a barleywine traps more sugar in the grain bed. Some brewers skip sparging altogether for strong beers, drain only the first runnings and add more malt to compensate. That no-sparge approach can give a richer wort and a simpler brew day, at the cost of extra grain.</p><p>In Indian cities where imported malt is expensive, efficiency matters more than it does where malt is cheap. Even so, a reliable process you repeat beats a slightly higher number you hit once. Working out which method suits your kit and how to tune it is one of the first things a structured course helps with.</p>"
+  ],
+  [
+   "Pick one method and log five brews",
+   "<p>If you have a cooler box mash tun, batch sparge with two equal additions. If you have a three-vessel system with a sparge arm, try fly sparging. Either way, keep the method fixed for five brews and log pre-boil gravity and volume each time. Then you know your system's real efficiency and can adjust grain bills to match it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is fly sparging more efficient than batch sparging?",
+   "Usually by a few percentage points on a well-run system. A careless fly sparge can be less efficient than a good batch sparge."
+  ],
+  [
+   "What temperature should sparge water be?",
+   "Around 75 to 78 °C. Much hotter risks extracting tannins from the grain husks."
+  ],
+  [
+   "When should I stop sparging?",
+   "When you reach your pre-boil volume, or when runnings drop to around 1.010 or 2 to 3 °Brix, whichever comes first."
+  ]
+ ],
+ "cta": {
+  "title": "Get the same efficiency every brew day",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It covers mashing, lautering and efficiency so you can tune your own system instead of copying someone else's numbers.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "brewing-a-small-batch-of-barleywine-at-home",
+  "fermentation-temperature-control-at-home",
+  "brewing-a-lager-at-home"
+ ]
+}

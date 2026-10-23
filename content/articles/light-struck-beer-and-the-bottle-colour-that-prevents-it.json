@@ -1,0 +1,67 @@
+{
+ "slug": "light-struck-beer-and-the-bottle-colour-that-prevents-it",
+ "cat": "Brewing science",
+ "h1": "Light-struck beer and the bottle colour that prevents it",
+ "title": "Light-Struck Beer and Bottle Colour | Craft Beer School",
+ "desc": "Why beer goes skunky in light, the chemistry behind it and why brown glass, cans and reduced hop extracts protect it.",
+ "teaser": "That skunky smell from a green bottle on a sunny table takes seconds to form, not days.",
+ "standfirst": "Light-struck beer smells like a skunk or burnt rubber. It forms when light breaks down hop bitter acids in the bottle. The colour of the glass decides how much of that light gets in.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Light breaks hop acids into a thiol you can smell at tiny levels",
+   "<p>Beer contains riboflavin, a vitamin that comes from malt and yeast. Riboflavin absorbs blue and ultraviolet light, roughly the band from 350 to 500 nanometres. Once excited, it passes energy to the iso-alpha-acids that make beer bitter. A side chain breaks off those hop acids and reacts with sulphur in the beer to form 3-methyl-2-butene-1-thiol, usually shortened to MBT.</p><p>MBT is among the most potent aroma compounds known in beer. People can detect it at a few nanograms per litre. That is why a beer can go noticeably skunky after minutes in strong sun.</p><p>Two things follow from the chemistry. First, every beer bittered with ordinary hops is at risk, whatever its style or strength. A pale lager simply shows it sooner, because there is less malt and roast character to hide behind. Second, the reaction needs no oxygen and no heat. A perfectly packaged, ice cold beer will still skunk if light reaches it.</p>"
+  ],
+  [
+   "Brown glass blocks the light that does the damage",
+   "<p>Bottle colour matters because of that 350 to 500 nanometre band. Brown, or amber, glass absorbs most light below about 500 nanometres, so very little of the harmful band reaches the beer. Green glass lets much more of it through. Clear glass lets nearly all of it through.</p><ul><li><strong>Brown glass:</strong> good protection, though not perfect under long, intense exposure.</li><li><strong>Green glass:</strong> poor protection. Skunking can show within hours in daylight.</li><li><strong>Clear glass:</strong> almost none, unless the beer is brewed to resist light.</li><li><strong>Cans and kegs:</strong> complete protection, because no light gets in at all.</li></ul><p>Some drinkers have come to associate the skunky note with certain imported green bottle lagers and think it is part of the style. It is a fault, however familiar.</p>"
+  ],
+  [
+   "Fluorescent and LED shop lighting also causes it",
+   "<p>Sunlight is the fast route, but not the only one. A bottle sitting for days under bright retail lighting in a glass fronted cooler can also pick up the fault. In India, beer often sits in clear or green glass in shops with strong lighting and doors that open all day. A cold chain does nothing to stop light damage. Temperature and light are separate problems.</p><p>This is also why outer packaging matters. A closed carton or a six pack carrier that covers the bottles protects them. An open topped crate under a tube light does not.</p><p>Bars add one more risk. A pint poured into a glass and carried across a sunny terrace is exposed to full daylight through clear glass. A beer that left the brewery in perfect shape can pick up a trace of skunk before the first sip. You cannot stop that, but it is worth knowing when a customer complains about a beer that tested clean in your lab.</p>"
+  ],
+  [
+   "Reduced hop extracts are how clear bottles survive",
+   "<p>Some brewers who want clear glass for brand reasons replace normal bittering hops with reduced hop extracts: rho, tetra or hexa iso-alpha-acids. These have been chemically altered so the side chain cannot split off in the same way, so MBT does not form. The catch is that every bittering source must be reduced. Any normal hop addition, including a late kettle or dry hop addition, can bring enough ordinary iso-alpha-acids to skunk the beer. Our guide to <a href=\"reduced-hop-extracts-that-stop-clear-bottled-beer-turning.html\">reduced hop extracts for clear bottles</a> covers dosing and the effect on foam and flavour.</p>"
+  ],
+  [
+   "How to tell light-struck from other sulphur faults",
+   "<p>Skunky beer is easy to confuse with other sulphur notes. A simple test helps:</p><ol><li>Open two bottles from the same batch, one stored in the dark and one exposed to light.</li><li>Pour both and smell them blind next to each other.</li><li>If only the exposed bottle smells of skunk, rubber or cannabis, light is the cause.</li></ol><p>If both smell of sulphur, look elsewhere: yeast stress, a young lager or an infection. Our guide to <a href=\"beer-off-flavours.html\">beer off-flavours</a> covers the wider family. A brewery panel can also be trained on the MBT note with a deliberately exposed sample, which is the cheapest reference standard you will ever make.</p>"
+  ],
+  [
+   "What a brewery can control and what it cannot",
+   "<p>You can choose brown glass or cans, specify a closed carton, train your distributor and keep beer away from sunny loading bays. You cannot follow every bottle to the shop shelf. If the beer must go into green or clear glass, reduced extracts are the only real fix. A heavier paper label or a sleeve helps a little, but not enough to rely on.</p><p>A first step for this week: take three bottles of your own packaged beer, leave one in direct sun for 15 minutes, one under shop lighting for a day and keep one in a box. Smell them side by side. The result tells you how exposed your pack really is before a customer tells you.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What causes light-struck beer?",
+   "Light in the blue and ultraviolet range excites riboflavin in beer, which breaks down hop iso-alpha-acids into a sulphur compound called MBT. It smells skunky at a few nanograms per litre."
+  ],
+  [
+   "Does brown glass fully prevent skunky beer?",
+   "It blocks most of the harmful light and gives good protection. Long exposure to strong light can still cause some damage, so cans or cartons are safer."
+  ],
+  [
+   "Can cans get light-struck?",
+   "No. Cans and kegs block light completely, so light-struck flavour cannot form in them."
+  ],
+  [
+   "How do clear bottled beers avoid skunking?",
+   "They use reduced hop extracts for all their bitterness. These modified hop acids do not break down into MBT when exposed to light."
+  ]
+ ],
+ "cta": {
+  "title": "Learn the chemistry that protects your beer after it leaves you",
+  "body": "Advanced Brewing Science is our six week live course. It covers hop chemistry, flavour stability, packaging and the sensory faults that start after the beer leaves the brewery.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "beer-spoilage-bacteria-that-survive-hops-and-how-to-find",
+  "reduced-hop-extracts-that-stop-clear-bottled-beer-turning",
+  "using-a-spectrophotometer-for-beer-colour-and-bitterness"
+ ]
+}

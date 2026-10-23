@@ -1,0 +1,71 @@
+{
+ "slug": "pediococcus-for-sour-beer",
+ "cat": "Ingredients",
+ "h1": "Pediococcus for sour beer",
+ "title": "Pediococcus for Sour Beer | Craft Beer School",
+ "desc": "How Pediococcus sours beer, why it brings diacetyl and ropiness plus why it needs Brettanomyces and its own equipment in a brewery.",
+ "teaser": "Pediococcus gives sour beer its deep, lasting acidity. It also brings butter and slime unless Brett is there to clean up.",
+ "standfirst": "Pediococcus is the slow, stubborn souring bacterium of mixed fermentation. It tolerates hops, keeps producing lactic acid for months and leaves diacetyl and ropiness behind. In a brewery it needs a partner yeast, a long timeline and its own kit.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Pediococcus is a lactic acid bacterium",
+   "<p>Pediococcus is a genus of lactic acid bacteria. The species most associated with beer is Pediococcus damnosus. Under a microscope the cells sit in pairs and groups of four, called tetrads, which helps a lab tell them from rod-shaped Lactobacillus.</p><p>It is homofermentative: it turns sugar almost entirely into lactic acid rather than a mix of acids and gas. It grows best without oxygen, which means it happily lives inside a full barrel or a sealed fermenter.</p>"
+  ],
+  [
+   "It tolerates hops, unlike most Lactobacillus",
+   "<p>Many Lactobacillus strains are strongly inhibited by hop iso-alpha acids, which is why kettle souring is usually done before the hops go in. Pediococcus damnosus is notably more hop tolerant. That is one reason it is a feared spoiler in ordinary beer: it can grow in a hopped lager or ale where Lactobacillus would struggle.</p><p>For a sour programme it means Pediococcus can work in a hopped wort over a long mixed fermentation. Traditional lambic and many barrel-aged sours rely on it for their deep, clean acidity. Final pH in such beers commonly falls to around 3.2 to 3.5.</p>"
+  ],
+  [
+   "Diacetyl and ropiness come with it",
+   "<p>Pediococcus produces large amounts of diacetyl, the buttery compound. Many strains also produce exopolysaccharides. Those long sugar chains make the beer thick and ropy, so it pours like thin oil. Brewers call such a beer sick.</p><p>Neither problem is permanent if the right partner is present. Brettanomyces breaks down the polysaccharide over time and the beer thins out again. Brett and Saccharomyces both reduce diacetyl. That is why Pediococcus is almost never used alone. Our guide to <a href=\"brettanomyces-explained.html\">Brettanomyces</a> explains the partner yeast.</p>"
+  ],
+  [
+   "Expect months, not weeks",
+   "<p>A Pediococcus beer takes time. The bacteria grow slowly and acid builds over months. A typical mixed fermentation with Saccharomyces, Brettanomyces and Pediococcus might spend six months to a year or more in a barrel or tank before blending or packaging. The ropy phase can come and go within that window.</p><p>Warm temperatures speed things up. In Indian conditions a barrel room that sits at 25 to 30 °C will see faster souring than a cool European cellar, but also more risk of acetic character if oxygen gets in. Keep barrels topped up and bungs tight.</p>"
+  ],
+  [
+   "Give it its own hoses, gaskets and tanks",
+   "<p>The hop tolerance that makes Pediococcus useful in a sour programme makes it dangerous to the rest of the brewery. A biofilm in a pump seal, a scratched gasket or a shared hose can carry it into a clean beer, where it shows up weeks later as diacetyl, haze and sourness in packaged product.</p><ul><li>Keep separate soft parts for sour beers: hoses, gaskets, valves, filler parts where possible.</li><li>Clean and sanitise sour equipment last in the day's sequence.</li><li>Plate or test clean beers regularly for beer spoilage bacteria, including Pediococcus.</li><li>Package sours on a separate day, with a full clean afterwards.</li></ul><p>A faster alternative for some styles is a pre-acidified wort, such as the approach in our guide to <a href=\"weyermann-sour-wort.html\">Weyermann sour wort</a>, which avoids live bacteria entirely.</p>"
+  ],
+  [
+   "Test clean beers so you know it has stayed put",
+   "<p>The only way to know Pediococcus has stayed in the sour programme is to look for it elsewhere. Breweries plate samples of clean beer on selective media designed for beer spoilage bacteria, such as NBB or HLP, incubated without oxygen for about a week. PCR kits give a faster answer and can identify the organism directly.</p><p>Diacetyl is a useful early warning too. A clean lager that suddenly fails a forced diacetyl test after it has passed one is worth plating at once. Sample from the places contamination hides: the last beer through a shared hose, the filler bowl and the bottom of a bright tank after transfer.</p>"
+  ],
+  [
+   "Buy a pure culture or a blend",
+   "<p>Yeast labs sell Pediococcus as a single culture and as part of mixed cultures that also contain Saccharomyces and Brettanomyces. Blends give a known starting point. Single cultures give more control over when each organism goes in. Many brewers pitch Saccharomyces first for the primary, then add Brett and Pediococcus once the beer goes to barrel.</p><p>If you are planning a sour programme, start by mapping your brewery. Mark every hose, gasket, valve and tank that would touch the sour beer and decide which ones become sour-only. If the list includes your filler or bright tank, solve that before you buy a single culture.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does Pediococcus do in beer?",
+   "It produces lactic acid slowly over months, giving deep sourness. It also makes diacetyl and can make the beer ropy until Brettanomyces cleans it up."
+  ],
+  [
+   "Is Pediococcus hop tolerant?",
+   "Pediococcus damnosus is much more hop tolerant than most Lactobacillus, which is why it can sour hopped wort and spoil ordinary beer."
+  ],
+  [
+   "Why is my sour beer thick and slimy?",
+   "Many Pediococcus strains produce exopolysaccharides. Given time, Brettanomyces usually breaks them down."
+  ],
+  [
+   "Can I use the same equipment for sour and clean beers?",
+   "It is risky. Most breweries keep separate soft parts such as hoses and gaskets for sour beers."
+  ]
+ ],
+ "cta": {
+  "title": "Run a sour programme without infecting the brewery",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers brewing microbiology, mixed fermentation, contamination control and the lab tests that keep sour cultures where they belong.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "weyermann-sour-wort",
+  "lachancea-and-non-traditional-yeasts",
+  "barley-malting-process"
+ ]
+}

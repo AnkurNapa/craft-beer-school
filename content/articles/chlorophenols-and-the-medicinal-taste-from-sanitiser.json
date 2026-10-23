@@ -1,0 +1,67 @@
+{
+ "slug": "chlorophenols-and-the-medicinal-taste-from-sanitiser",
+ "cat": "Brewing science",
+ "h1": "Chlorophenols and the medicinal taste from sanitiser",
+ "title": "Chlorophenols and Medicinal Off-Flavour | Craft Beer School",
+ "desc": "Why chlorine and chloramine in water or sanitiser make beer taste medicinal, where it gets in and how to stop it.",
+ "teaser": "If your beer tastes like an antiseptic mouthwash, the problem often started at the tap, not the yeast.",
+ "standfirst": "Chlorophenols give beer a sharp medicinal, plastic or antiseptic flavour. They form when chlorine meets phenols from malt and yeast. People can taste them at extremely low levels, so a trace of chlorine is enough.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Chlorine plus phenols makes chlorophenols",
+   "<p>Malt and yeast give wort and beer small amounts of phenolic compounds. On their own most are harmless. When free chlorine or chloramine is present, it reacts with them to form chlorophenols, such as 2,6-dichlorophenol and 2,4,6-trichlorophenol. These compounds taste medicinal, like antiseptic, sticking plaster or plastic.</p><p>Their flavour thresholds are extremely low, often quoted in micrograms per litre or less. A small amount of chlorine left in brewing water, or a sanitiser residue on a fermenter wall, can produce enough to taste. Our guide to <a href=\"beer-off-flavours.html\">beer off-flavours</a> places this fault among the other phenolic notes.</p>"
+  ],
+  [
+   "Municipal water is the usual source",
+   "<p>Most municipal water in India is chlorinated to keep it safe in the distribution network. Some supplies use chloramine instead, a combination of chlorine and ammonia that lasts longer in the pipes. Both can form chlorophenols in beer.</p><p>Free chlorine is easier to remove. It dissipates if water stands or is boiled. Activated carbon removes it quickly. Chloramine is more stubborn. It does not boil off readily and needs longer contact with carbon. If your city changes its treatment, your beer can change with it. Tanker water may also be chlorinated before delivery.</p>"
+  ],
+  [
+   "Sanitisers and cleaning chemicals add a second route",
+   "<p>Chlorine-based products used in the brewery are the other source:</p><ul><li><strong>Hypochlorite sanitisers</strong> (bleach type products) left on surfaces without a thorough rinse.</li><li><strong>Chlorinated caustic cleaners</strong> used in CIP, if the rinse step is short.</li><li><strong>Chlorine dioxide or chlorinated water</strong> used for rinsing tanks or hoses.</li></ul><p>The floor detail: a gasket or a dead leg in a pipe can hold a small pocket of chlorinated solution after the main rinse. The first beer through after cleaning picks it up. Breweries that use chlorine products often find the medicinal note only in the first few cases off a line.</p><p>Many breweries avoid chlorine-based sanitisers on beer contact surfaces altogether and use peracetic acid or acid anionic sanitisers instead. Neither forms chlorophenols. Our guide to <a href=\"cip-water-and-chemical-savings.html\">CIP water and chemical savings</a> covers cleaning cycles.</p><p>If you do keep a chlorine product for floors, drains or external surfaces, store it well away from the beer side and use separate buckets and brushes. A bucket that held hypochlorite on Monday and sanitiser for a filler on Tuesday is a common way for a trace to cross over.</p>"
+  ],
+  [
+   "Removing chlorine and chloramine from brewing water",
+   "<ul><li><strong>Activated carbon filtration.</strong> The standard brewery solution. Size the filter for enough contact time, because chloramine needs considerably longer than free chlorine. Replace or regenerate the carbon on schedule, since spent carbon stops working without any visible sign.</li><li><strong>Metabisulphite.</strong> Sodium or potassium metabisulphite neutralises both chlorine and chloramine almost instantly. A common homebrew dose is one Campden tablet, about 0.44 g of metabisulphite, per roughly 75 litres of water. Breweries dose metabisulphite solution into liquor tanks.</li><li><strong>Reverse osmosis.</strong> RO membranes are often damaged by chlorine, so RO plants need carbon pre-filtration anyway.</li></ul><p>Standing or boiling water helps with free chlorine but should not be relied on, especially if the supply might use chloramine.</p>"
+  ],
+  [
+   "Testing for chlorine",
+   "<p>Simple DPD test kits measure free and total chlorine in water in a few minutes. Total minus free gives combined chlorine, mostly chloramine. Test brewing liquor after treatment, not just the incoming supply. Aim for no detectable chlorine in water that touches wort or beer.</p><p>For sanitiser residues, test the final rinse water from a tank or line after cleaning. If chlorine shows, extend the rinse.</p><p>Sensory checks help too. Train your panel on the note with a deliberately spiked sample made in the lab, never in production kit, so tasters recognise it in a blind line-up. Many people who have never met chlorophenols describe them vaguely as harsh or plastic and move on.</p>"
+  ],
+  [
+   "Tell it apart from yeast phenols",
+   "<p>Medicinal flavour can also come from phenolic yeast, wild or deliberate. Clove-like 4-vinyl guaiacol is the classic wheat beer note. Some wild yeasts produce harsher, plastic or medicinal phenols too. Our guide to <a href=\"phenolic-off-flavours-from-wild-yeast.html\">phenolic off-flavours from wild yeast</a> covers that side.</p><p>A practical way to separate the two:</p><ul><li>Chlorophenols are sharper and more antiseptic. They can appear in every beer brewed with the same water, whatever the yeast.</li><li>Yeast phenols track a particular yeast, tank or batch and often come with other signs of contamination, such as over-attenuation or haze.</li></ul><p>Your first step: test your brewing liquor for free and total chlorine on your next brew day, before and after any filter. If you see total chlorine above zero after treatment, fix that before you look anywhere else for a medicinal note.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What causes a medicinal taste in beer?",
+   "Often chlorophenols, formed when chlorine or chloramine reacts with phenols from malt and yeast. Wild yeast can also produce medicinal phenols."
+  ],
+  [
+   "Does boiling remove chloramine from water?",
+   "Not reliably. Boiling removes free chlorine but chloramine is stable. Use activated carbon with long contact time or metabisulphite."
+  ],
+  [
+   "How much metabisulphite removes chlorine?",
+   "A common homebrew dose is one Campden tablet, about 0.44 g, per roughly 75 litres of water. It works almost instantly on chlorine and chloramine."
+  ],
+  [
+   "Which sanitisers avoid chlorophenols?",
+   "Peracetic acid and acid anionic sanitisers do not contain chlorine, so they do not form chlorophenols."
+  ]
+ ],
+ "cta": {
+  "title": "Track down off-flavours at the source",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers water treatment, cleaning chemistry, sensory faults and microbiology, so a medicinal note gets traced and fixed rather than guessed at.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-ph-explained",
+  "enzymes-in-the-mash",
+  "step-mashing"
+ ]
+}

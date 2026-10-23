@@ -1,0 +1,67 @@
+{
+ "slug": "no-chill-brewing-and-when-it-makes-sense",
+ "cat": "Brewing basics",
+ "h1": "No-chill brewing and when it makes sense",
+ "title": "No-Chill Brewing and When It Makes Sense | Craft Beer School",
+ "desc": "How no-chill brewing works, the bitterness and DMS trade-offs, safe containers and when it suits Indian homebrewers short of water or ice.",
+ "teaser": "Skip the chiller. Seal hot wort in a container and let it cool overnight. It works, with two trade-offs you need to plan for.",
+ "standfirst": "No-chill brewing seals hot wort in a food-grade container and lets it cool on its own. It saves water, ice and an hour on brew day. It changes bitterness and suits some styles better than others. Here is how we decide when to use it.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "How no-chill works",
+   "<p>At the end of the boil, the hot wort goes straight into a container made of food-grade, heat-tolerant plastic. Brewers often call it a cube. Squeeze out the air, seal the cap and leave it to cool overnight. The next day, or within a few days, pour the cooled wort into a fermenter and pitch.</p><p>The method grew popular among Australian homebrewers dealing with water restrictions. It relies on the heat of the wort to sanitise the inside of the container, the same principle as hot-filling jam jars.</p>"
+  ],
+  [
+   "Why it appeals in India",
+   "<p>Chilling with an immersion chiller can use a lot of water. In an Indian summer it also needs ice because tap water runs at 28 to 32 °C. For brewers in cities with water shortages, or anyone without a freezer full of ice bottles, no-chill removes the hardest part of a hot weather brew day.</p><p>It also splits the day. You can brew in the evening, leave the cube overnight and pitch the next morning when you are fresh. Some brewers brew two batches on one day and ferment them a week apart.</p>"
+  ],
+  [
+   "Trade-off one: more bitterness",
+   "<p>Hops keep releasing bitterness as long as the wort is hot. Bitter acids isomerise fastest near boiling but continue at lower temperatures. In a chilled batch, flame-out hops stop working within minutes. In a no-chill cube the wort stays above 80 °C for an hour or more.</p><p>The result is more bitterness and less hop aroma than the recipe intended. Brewers usually adjust in one of two ways. Some move all late additions later, treating a 20 minute addition as a flame-out one. Others add aroma hops to the fermenter as a dry hop instead. Our guide to <a href=\"when-to-add-hops-for-bittering-and-flavour-and-aroma.html\">when to add hops</a> explains how timing shapes bitterness and aroma.</p>"
+  ],
+  [
+   "Trade-off two: DMS in pale lagers",
+   "<p>Dimethyl sulphide, or DMS, gives a cooked sweetcorn flavour. Its precursor is present in malt, especially lightly kilned Pilsner malt. Heat converts the precursor into DMS. During a rolling boil, DMS evaporates as fast as it forms. Once the boil stops, it no longer evaporates, but hot wort keeps making it.</p><p>A slow cool in a sealed cube traps that DMS. For a stout, a brown ale or an amber, the risk is low and the flavour would be masked anyway. For a pale lager or a Pilsner, where sweetcorn is a fault anyone can taste, a fast chill is the safer route. A longer, vigorous boil of 90 minutes helps reduce the precursor before the cube.</p>"
+  ],
+  [
+   "Use the right container",
+   "<p>The container matters. It must be food-grade high-density polyethylene, recycling code 2, rated for hot liquids. Do not use thin water bottles, buckets meant for paint or anything of unknown plastic. Hot wort can leach chemicals from unsuitable plastic and soften it until it splits.</p><ul><li>Rinse the cube with a little boiling water before filling.</li><li>Fill it close to the top so little air remains.</li><li>Squeeze the sides to push out the last of the air and seal tight.</li><li>Lay it on its side briefly so hot wort touches the inside of the cap.</li></ul><p>Handle hot wort with care. A 20 litre cube at 95 °C is heavy. Use a tap or pump rather than lifting the kettle to pour. Wear heat-resistant gloves.</p>"
+  ],
+  [
+   "How long the wort can wait",
+   "<p>A properly sealed cube can hold wort for some time. Some brewers store cubes for weeks. We prefer to pitch within a few days. A seal that fails or a cube that was not fully hot inside gives bacteria a warm, sugary place to grow. A bulging cube or an off smell means discard it.</p><p>No-chill is a tool, not a shortcut for every brew. Knowing which styles suit it and how to adjust the recipe is part of the judgement we teach on our fundamentals course. Our earlier guide on <a href=\"how-to-chill-wort-fast.html\">chilling wort fast</a> covers the case for the traditional route.</p>"
+  ],
+  [
+   "Try it on a dark ale first",
+   "<p>Pick a stout, porter or brown ale for your first no-chill batch. Move every late hop addition to flame-out and treat the original flame-out addition as a dry hop. Buy a 20 or 25 litre HDPE cube labelled for hot liquids. Fill it straight from the kettle, seal it and pitch within two days.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does no-chill brewing increase bitterness?",
+   "Yes. Hops keep isomerising while the wort stays hot, so most brewers move late additions later or switch aroma hops to a dry hop."
+  ],
+  [
+   "Is no-chill brewing safe?",
+   "With a food-grade HDPE container rated for heat, filled hot and sealed well, the hot wort sanitises the inside. Discard any cube that bulges or smells wrong."
+  ],
+  [
+   "Can I use no-chill for a lager?",
+   "It is risky for pale lagers because slow cooling traps DMS, which tastes of cooked sweetcorn. Darker beers handle it better."
+  ]
+ ],
+ "cta": {
+  "title": "Choose brew day methods that suit your kitchen",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It covers the boil, hops, chilling and fermentation so you can pick the method that fits your home and your beer.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "first-homebrew-mistakes",
+  "how-to-chill-wort-fast",
+  "making-sense-of-the-mash-schedule-in-a-homebrew-recipe"
+ ]
+}

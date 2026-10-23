@@ -1,0 +1,71 @@
+{
+ "slug": "balancing-a-long-draw-draught-system-in-a-busy-bar",
+ "cat": "Tasting",
+ "h1": "Balancing a long draw draught system in a busy bar",
+ "title": "Balancing a Long Draw Draught System | Craft Beer School",
+ "desc": "How to balance a long draw draught system: line resistance, lift, mixed gas blends and the pour rate a busy bar needs, with a worked example.",
+ "teaser": "A 25 metre run from cold room to bar cannot be balanced with CO2 alone. Here is the arithmetic that fixes it.",
+ "standfirst": "A long draw system moves beer from a cold room to taps that may be 10 to 50 metres away. Balance it wrong and you get foam on every pour or carbonation that drifts over a week. Balance it right and a busy bar pours clean pints at a steady pace all night. The maths is simple once you see what each number does.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Balance means the pressure in equals the resistance out",
+   "<p>A draught system is balanced when the gas pressure applied to the keg is used up by the time the beer reaches the faucet. The beer should arrive at the nozzle with just enough pressure left to flow at a steady rate, about 60 ml per second, so a 500 ml glass fills in roughly 8 to 9 seconds.</p><p>Three things use up pressure on the way: friction in the beer line, the height the beer has to climb and the fittings, couplers and faucet. If applied pressure is higher than all three combined, the beer races out and foams. If it is lower, the pour is slow and the beer can break out gas in the line.</p>"
+  ],
+  [
+   "Know the resistance of each line size",
+   "<p>Commonly used planning figures for vinyl beer line are:</p><ul><li><strong>3/16 inch (about 4.8 mm) bore:</strong> roughly 0.68 bar per metre (3 psi per foot). This is the restriction or choker line.</li><li><strong>3/8 inch (about 9.5 mm) bore:</strong> roughly 0.045 bar per metre (0.2 psi per foot). This is a typical trunk line in a long draw python.</li></ul><p>Lift adds about 0.11 bar for every metre the beer climbs (0.5 psi per foot). Barrier tubing has lower resistance than vinyl of the same bore, so check the maker's figure. These numbers are starting points. Real systems vary with temperature, fittings and how much tubing is coiled.</p>"
+  ],
+  [
+   "Why CO2 alone fails on a long run",
+   "<p>Gas pressure sets carbonation. A beer at 2.5 volumes of CO2 held at 3 °C needs about 0.8 bar (12 psi) of CO2 at sea level to stay where it is. That is far too little to push beer 25 metres and up a floor.</p><p>Raise pure CO2 to 2 bar to get the beer moving and it slowly over carbonates. After a few days the keg sits near 3.5 volumes and every pour is foam. Keep CO2 at 0.8 bar and the pour is slow and the beer flattens in the line. This is why long draw systems use a blend of CO2 and nitrogen.</p>"
+  ],
+  [
+   "A worked example with mixed gas",
+   "<p>Take a bar with a 25 metre 3/8 inch trunk line, a 2 metre lift from cold room to tap and a short choker. Rough resistance: 25 x 0.045 = 1.1 bar of line, 2 x 0.11 = 0.2 bar of lift, plus around 0.7 bar for the choker, coupler and faucet. Total: about 2.0 bar (gauge).</p><p>Now the gas. Gauges read above atmospheric pressure, so 2.0 bar gauge is about 3.0 bar absolute. The beer needs about 1.8 bar absolute of CO2 (0.8 bar gauge plus 1 atmosphere) to hold 2.5 volumes. 1.8 divided by 3.0 is 60%. So this system wants roughly 60% CO2 and 40% nitrogen. That is why 60/40 is such a common long draw blend.</p><p>Change the beer's target carbonation, the cold room temperature or the line length and the right blend changes too. Many bars with mixed beers use an on site gas blender so each group of taps can run its own ratio.</p>"
+  ],
+  [
+   "Altitude shifts the gauge",
+   "<p>Gauges measure pressure above the surrounding air. At altitude the air pressure is lower, so the same gauge reading gives less absolute pressure. A common rule is to add about 0.07 bar (1 psi) for every 600 metres (2,000 feet) above sea level.</p><p>Bengaluru sits at roughly 900 metres, so a system copied from a Mumbai bar may need about 0.1 bar more on the gauge to hold the same carbonation. Small, but enough to explain a beer that tastes slightly flatter in one city than another.</p>"
+  ],
+  [
+   "Temperature is the variable that breaks most systems",
+   "<p>All of these numbers assume the beer stays at about 3 °C from keg to tap. If one metre of line passes through a hot ceiling void, the beer warms, CO2 breaks out and the first pour foams no matter how good the arithmetic was. That is why long draws need a glycol chilled python along their whole length. Our guide to <a href=\"python-cooling-for-long-draught-lines-in-a-hot-country.html\">python cooling in a hot country</a> covers the cooling side.</p><p>Measure beer temperature in the glass, not on the cold room thermostat. A probe thermometer in the first 100 ml of a pour tells you what the drinker gets.</p>"
+  ],
+  [
+   "Busy nights test the balance",
+   "<p>A system that pours well at 6 pm can fall apart at 10 pm when every tap runs at once. Beer moving fast warms the python, the glycol chiller works harder and the cold room door opens every few minutes. Pour rate, foam and beer temperature at peak are the real test.</p><p>The other half of the test is sensory. A system that pours clean but carries a faint buttery or sour edge has a cleaning problem, not a balance one. Pair the pressure checks with our <a href=\"daily-draught-quality-checks-a-bar-manager-can-do-in-ten.html\">daily draught quality checks</a>.</p>"
+  ],
+  [
+   "Start with one tap",
+   "<p>Your first step: pick your busiest tap tonight. Time a 500 ml pour, measure the beer temperature in the glass and note the regulator pressure and gas blend. If the pour takes under 6 or over 12 seconds, work back through the line resistance, lift and gas using the figures above before you touch the regulator.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What gas blend is used for long draw systems?",
+   "Often around 60% CO2 and 40% nitrogen, but the right blend depends on the applied pressure, beer temperature and target carbonation. Work it out for each system."
+  ],
+  [
+   "What is a good pour rate for draught beer?",
+   "About 60 ml per second, so a 500 ml glass fills in around 8 to 9 seconds."
+  ],
+  [
+   "Why does my long draw beer foam only on the first pour?",
+   "Usually the beer in part of the line has warmed. Check the python cooling right up to the faucet and the font."
+  ]
+ ],
+ "cta": {
+  "title": "Taste what your draught system is doing",
+  "body": "Sensory Evaluation is our two week live course (₹5,999). It trains brewers and bar teams to taste what a draught system does to beer: buttery diacetyl from dirty lines, sourness, flat or prickly carbonation and warm serving, so you catch faults a pressure gauge cannot show.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "python-cooling-for-long-draught-lines-in-a-hot-country",
+  "daily-draught-quality-checks-a-bar-manager-can-do-in-ten",
+  "draught-line-cleaning"
+ ]
+}

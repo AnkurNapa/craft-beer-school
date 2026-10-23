@@ -1,0 +1,71 @@
+{
+ "slug": "spare-parts-to-keep-on-the-shelf-in-a-small-brewery",
+ "cat": "Business",
+ "h1": "Spare parts to keep on the shelf in a small brewery",
+ "title": "Brewery Spare Parts to Keep on the Shelf | Craft Beer School",
+ "desc": "Which spare parts a small brewery or brewpub should keep in stock, why lead times matter in India and how to organise a spares store.",
+ "teaser": "The part that stops your brewery is rarely expensive. It is the one gasket nobody ordered.",
+ "standfirst": "Most brewery breakdowns are caused by small, cheap parts. When they fail on a Friday and the replacement is in another country, a full fermenter can be lost. A well chosen spares shelf costs little and saves batches.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Think in lead times, not prices",
+   "<p>The question for each part is not what it costs but how long it takes to replace. A gasket might cost a few hundred rupees and take two days from a local supplier. A specific imported pump seal might take four to eight weeks by sea or a week by air at a painful price. Anything with a long lead time that can stop production belongs on the shelf.</p><p>Start by listing every part that, if it failed tonight, would stop brewing, fermenting, cooling or serving. That list is your critical spares list.</p>"
+  ],
+  [
+   "Seals, gaskets and O-rings",
+   "<p>These fail most often and are the easiest to stock. Keep spares for:</p><ul><li>Tri-clamp gaskets in every size you use, in EPDM or the material your supplier specifies.</li><li>Manway door seals for each vessel type.</li><li>Butterfly valve seats.</li><li>Pump mechanical seals and O-ring kits.</li><li>Keg coupler seals and tap washers for the bar.</li><li>Sight glass gaskets.</li></ul><p>Gaskets harden and crack with heat and caustic. Replace them on a schedule, not only when they leak. Our guide to a <a href=\"preventive-maintenance-plan-brewery.html\">preventive maintenance plan</a> covers the timing.</p>"
+  ],
+  [
+   "Sensors, controls and electrics",
+   "<p>A failed temperature probe on a fermenter means a tank that either freezes or warms up. Keep at least one spare PT100 probe of each type, a spare temperature controller and spare solenoid valves for the glycol lines. Add fuses, contactors and relays for the main panel. Note down the exact models: a probe that looks the same but uses a different connector is no help at midnight.</p><p>Back up the PLC code and panel settings on a USB drive kept off site. When a controller fails, a backup turns a week of reprogramming into an afternoon.</p>"
+  ],
+  [
+   "Cooling and gas",
+   "<p>The glycol chiller is the beating heart of an Indian brewery. In a 35 °C summer, a stopped chiller can push a fermenting ale well above its target within hours. Keep a spare glycol circulation pump or at least its seal kit. Keep the refrigeration contractor's number on the wall and a service contract with response times in writing.</p><p>For CO2, keep spare regulators, gauge sets and hoses. A leaking regulator wastes gas and can flatten your beer on tap.</p>"
+  ],
+  [
+   "Pumps, valves and hoses",
+   "<p>If your brewery has one transfer pump, a spare pump or at least a spare motor and impeller is worth its price. Keep a spare length of brewery hose with fittings, a few spare butterfly valves and pressure relief valves for your tanks. A relief valve that sticks is a safety issue, not just an inconvenience. Our guide to <a href=\"brewery-safety-culture.html\">brewery safety culture</a> explains why.</p><p>For the mill, keep spare belts and know who can re-groove the rollers.</p>"
+  ],
+  [
+   "Organising the store",
+   "<p>A spares shelf is only useful if people can find things. Label bins by part number and machine. Keep a simple spreadsheet with the part, machine, quantity, minimum stock, supplier and lead time. Reorder when a part drops to its minimum, not when it runs out.</p><p>Review the list every six months. Note which parts you used and which failures caught you out. Over two or three years, that log becomes the most accurate maintenance plan you have, because it is built from your own brewery's failures rather than a supplier's generic list.</p><p>Planning for breakdowns before they happen is part of running a brewery as a business. It ties into staffing and cash flow too. See our guide on <a href=\"brewery-staffing.html\">brewery staffing</a>.</p>"
+  ],
+  [
+   "Consumables are not spares, but run out just as badly",
+   "<p>Separate from spare parts, keep a buffer of consumables that stop production when they run out. That means caustic and acid cleaners, sanitiser, filter sheets or cartridges if you filter, lab reagents and CO2 cylinders. Hold at least two to four weeks of stock, more for anything imported.</p><p>Yeast deserves its own line. If you rely on dried yeast, keep enough packs in a refrigerator for your next few brews. Imported liquid cultures can take weeks to arrive and do not like Indian courier vans in summer. A fresh pitch that sits in a hot warehouse for three days is not fresh any more.</p>"
+  ],
+  [
+   "What to do this week",
+   "<p>Walk the brewery with your head brewer and a notepad. For each machine, write down the one part that would stop it. Find its lead time. Anything over a week goes on your first order. That list will probably cost less than a single dumped batch.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What spare parts should a small brewery keep?",
+   "Gaskets and seals in every size used, pump seal kits, temperature probes, controllers, glycol solenoid valves, CO2 regulators, a spare hose, relief valves and electrical fuses and contactors."
+  ],
+  [
+   "How do I decide which spares to stock?",
+   "Rank parts by lead time and how badly their failure stops production. Long lead time parts that halt brewing, cooling or serving go on the shelf first."
+  ],
+  [
+   "How often should brewery gaskets be replaced?",
+   "On a schedule, before they leak. Heat and caustic harden them over time. Your maintenance plan and supplier guidance set the interval."
+  ]
+ ],
+ "cta": {
+  "title": "Run your brewery like a business",
+  "body": "Brewery Business Management is three weeks of live weekend classes, Saturdays and Sundays from 12:00 PM to 2:00 PM IST. Batches are capped at 20 people. You get recordings, weekly assignments and a certificate. We cover maintenance planning, staffing and the costs that keep a brewery running smoothly.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "brewery-staffing",
+  "preventive-maintenance-plan-brewery",
+  "brewery-safety-culture"
+ ]
+}

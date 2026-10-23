@@ -1,0 +1,71 @@
+{
+ "slug": "cask-regauging-and-stock-checks",
+ "cat": "Whisky",
+ "h1": "Cask regauging and stock checks",
+ "title": "Cask Regauging and Stock Checks | Craft Beer School",
+ "desc": "How to regauge a whisky cask by weight and strength, work out litres of pure alcohol and turn stock checks into a loss record you trust.",
+ "teaser": "Your stock sheet says one thing. The cask says another. Regauging tells you which one is lying.",
+ "standfirst": "Every cask in a warehouse loses spirit while it sits. Regauging measures what is left so the books, the excise register and the release plan all start from the same number. Done carelessly, it hides losses until the day you try to bottle.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Regauging means measuring what is in the cask now",
+   "<p>When a cask is filled, the distillery records its bulk litres, its strength and its litres of pure alcohol (LPA). Regauging repeats that measurement later in the cask's life. The difference between the two is your loss: evaporation, soakage into the wood and anything that leaked out.</p><p>The number that matters is LPA, not bulk litres. A cask filled with 200 litres at 63.5% ABV holds 127 LPA. If it later holds 180 litres at 62.0%, it holds 111.6 LPA. Bulk fell by 10%, but alcohol fell by about 12%. Track only bulk litres and you will undercount the loss every time.</p>"
+  ],
+  [
+   "Weigh the cask rather than dipping it",
+   "<p>There are two ways to find the volume. A wet dip pushes a calibrated rod through the bung and reads the liquid height, then a cask table converts height to litres. It is quick but rough, because no two casks are exactly the same shape.</p><p>Weighing is better. You need three things:</p><ul><li><strong>Tare weight.</strong> The empty weight of that cask, recorded and stencilled at filling.</li><li><strong>Gross weight.</strong> The cask weighed now on a calibrated platform scale.</li><li><strong>Density of the spirit.</strong> Read from a density meter on a sample, corrected to 20 °C.</li></ul><p>Net weight divided by density gives litres. Spirit near 63% ABV weighs roughly 0.90 kg a litre, so 162 kg net is about 180 litres. Soaked wood adds weight the tare does not know about, which is why careful distilleries treat the figure as an estimate until the cask is emptied and measured properly.</p>"
+  ],
+  [
+   "Strength needs a proper sample and a real instrument",
+   "<p>Draw the sample from the middle of the cask with a clean valinch, not from the top layer near the bung. Measure it with a digital density meter or a certified hydrometer and thermometer, with the reading corrected to 20 °C. Our guide on <a href=\"alcohol-measurement-by-density-meter-or-distillation.html\">density meters and distillation</a> covers the instruments.</p><p>The one floor detail we insist on: let the sample reach room temperature in a sealed bottle before you read it. A cold sample from a cool warehouse corner reads wrong on a hydrometer even with a correction table, because the table assumes the bottle and the spirit are at the same temperature as the thermometer.</p>"
+  ],
+  [
+   "What healthy loss looks like in India",
+   "<p>Scotland's loss is commonly quoted at about 2% a year. Indian warehouses lose far more because heat drives evaporation hard. The rate also varies with the building, the floor and the season. Our guide to <a href=\"whisky-maturation-and-casks.html\">maturation and casks</a> explains the mechanism.</p><p>So do not copy anyone's loss allowance. Build your own baseline. Regauge a sample of casks from each warehouse position on a fixed schedule, every six or twelve months. Plot LPA loss per cask per year. Within two years you will know your normal range. A cask that loses twice the average of its neighbours is usually a leak, a loose bung or a cracked stave. It deserves a look before the next monsoon.</p>"
+  ],
+  [
+   "Stock checks tie the warehouse to the register",
+   "<p>A licensed bonded warehouse keeps an excise register of every cask and its contents. Excise officers may verify it. Wastage allowances, forms and the frequency of checks vary by state and change over time. Check the current notification for your state or ask a licensing adviser.</p><p>A clean stock check has a routine:</p><ol><li>Count every cask against the register by cask number and position.</li><li>Regauge a planned sample, plus any cask showing staining or wet ground.</li><li>Compare measured LPA with expected LPA from your loss baseline.</li><li>Investigate gaps above your normal range before you write anything off.</li><li>Record who measured what with which instrument and when.</li></ol>"
+  ],
+  [
+   "A spreadsheet beats a ledger for spotting leaks",
+   "<p>A paper register records the past. A simple spreadsheet, one row per cask per gauge, lets you see patterns. Add columns for fill date, cask type, warehouse position, gross weight, tare, density, temperature, bulk litres and LPA. Then calculate annual loss as a percentage of the filling LPA.</p><p>Sort by that loss figure and the problem casks float to the top. Group by warehouse position and you see which racks run hot. Plot one cask's LPA against time and a straight decline looks normal while a sudden drop between two gauges points to a leak. None of this needs special software. It needs the same measurements, taken the same way, every time.</p><p>Instrument checks belong in the same file. Record when the scale and the density meter were last verified against a reference. A drifting scale can invent a loss that never happened.</p>"
+  ],
+  [
+   "Turn the numbers into a release plan",
+   "<p>Regauging data has a second use. Your future bottling volume depends on what survives the warehouse, not what went in. Feed real loss rates into your <a href=\"whisky-inventory-planning.html\">inventory plan</a> and the release forecast stops being optimistic by default.</p><p>This is where many young distilleries come unstuck. They fill casks for a launch five years out using a loss figure from a Scottish book, then find the warehouse has eaten a much larger share. Knowing how to measure, record and model cask losses from day one is the kind of discipline a distilling course gives you before the casks are full.</p><p>Your first step: pick ten casks across different warehouse positions, weigh them this week and record gross weight, tare, density and temperature on one sheet.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is regauging a whisky cask?",
+   "It is measuring the volume and strength of spirit in a cask after filling, so you can calculate the litres of pure alcohol that remain and the loss since filling."
+  ],
+  [
+   "Is weighing or dipping more accurate?",
+   "Weighing is generally more accurate because it does not depend on the cask's shape. It still needs a reliable tare weight and a density reading corrected to 20 °C."
+  ],
+  [
+   "Why track litres of pure alcohol rather than bulk litres?",
+   "Strength changes as a cask ages, so bulk litres alone hide part of the loss. Litres of pure alcohol show exactly how much alcohol is left to bottle."
+  ],
+  [
+   "How often should casks be regauged?",
+   "Many distilleries regauge a sample every six or twelve months and any cask that shows signs of leaking. Your excise rules may set their own requirements, so check them."
+  ]
+ ],
+ "cta": {
+  "title": "Know what your warehouse is really holding",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers cask filling, gauging, maturation loss and stock records so your release plan rests on measured numbers.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "how-whisky-is-made",
+  "whisky-maturation-and-casks",
+  "whisky-inventory-planning"
+ ]
+}

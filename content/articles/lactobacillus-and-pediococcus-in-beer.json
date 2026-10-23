@@ -1,0 +1,71 @@
+{
+ "slug": "lactobacillus-and-pediococcus-in-beer",
+ "cat": "Brewing science",
+ "h1": "Lactobacillus and Pediococcus in beer",
+ "title": "Lactobacillus and Pediococcus in Beer | Craft Beer School",
+ "desc": "How Lactobacillus and Pediococcus spoil beer, the signs they leave from sourness to diacetyl and rope plus how to find and stop them.",
+ "teaser": "Useful in a sour beer, ruinous in a lager. The two lactic acid bacteria every brewer should know by sight and smell.",
+ "standfirst": "Lactobacillus and Pediococcus are the most common bacteria to spoil beer. Brewers who make sour beer use them on purpose. Everyone else needs to recognise them early and keep them out.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The two lactic acid bacteria that matter most",
+   "<p>Lactobacillus and Pediococcus are lactic acid bacteria. They ferment sugars into lactic acid, they tolerate low pH and they grow well with little oxygen. That makes beer, with its low pH and low oxygen, a reasonable home for the strains that can handle hops and alcohol.</p><p>Under the microscope, Lactobacillus forms rods, often in short chains. Pediococcus forms round cells, cocci, typically in pairs or groups of four called tetrads. Both are Gram positive. Seeing tetrads in a beer sample is a strong hint that Pediococcus is present.</p>"
+  ],
+  [
+   "What Lactobacillus does to beer",
+   "<p>Lactobacillus brevis is one of the most frequent beer spoilers. It sours beer by producing lactic acid and can create haze and a silky film. Some strains produce off flavours beyond sourness. Many Lactobacillus species are sensitive to hops, but strains carrying hop resistance genes such as horA can grow even in well hopped beer.</p><p>A spoiled beer often shows a drop in pH, a sharp, clean sourness and haze. In a brewery that does not make sour beer, a pH that falls by 0.2 or more in packaged beer over a few weeks deserves a plate.</p>"
+  ],
+  [
+   "What Pediococcus does to beer",
+   "<p>Pediococcus damnosus is the classic beer spoiling Pediococcus. It produces lactic acid and also diacetyl, giving a buttery or butterscotch note. Historically this combination was called sarcina sickness.</p><p>Some strains also produce exopolysaccharides that make beer ropy, thick and oily, so it pours like thin syrup. In sour beers aged with Brettanomyces, the Brett usually breaks down this rope over time. In a clean lager, rope means dumping. Our guide to <a href=\"pediococcus-for-sour-beer.html\">Pediococcus in sour beer</a> covers the deliberate side.</p>"
+  ],
+  [
+   "Where they come from",
+   "<p>Lactic acid bacteria are everywhere grain and sugar are. Malt dust carries them. So do drains, poorly cleaned hoses, sample valves, gaskets, heat exchanger plates and yeast slurry that has been reused too long.</p><p>In practice most infections come from the cold side: a hose that was rinsed but not sanitised, a fermenter valve not taken apart, yeast harvested from a contaminated batch and repitched. Warm brewery floors in Indian summers speed their growth in every damp corner.</p>"
+  ],
+  [
+   "How to find them",
+   "<p>Lactic acid bacteria grow slowly and prefer low oxygen. To detect them:</p><ul><li>Plate on selective media such as HLP, MRS with cycloheximide or NBB.</li><li>Incubate anaerobically or with low oxygen at 25 to 30 °C for five to seven days.</li><li>Use membrane filtration for bright and packaged beer, where numbers are low.</li><li>Use PCR when you need to know quickly whether hop resistance genes are present.</li></ul><p>Plate yeast slurry before repitching. A slurry carrying bacteria spreads them to every batch it touches. Our guide to <a href=\"microbiology-media-for-beer-spoilage-organisms.html\">microbiology media</a> explains each medium.</p>"
+  ],
+  [
+   "How to keep them out",
+   "<p>Good cleaning and sanitising remove most risk. Focus on the places where beer sits still: valves, gaskets, hose ends, heat exchanger inlets and fittings. Dismantle what can be dismantled. Replace worn gaskets.</p><p>Watch yeast handling. Set a generation limit, harvest cleanly and plate slurry before reuse. If a batch shows lactic bacteria, do not harvest its yeast.</p><p>If you run a sour programme as well as clean beers, keep separate hoses, gaskets and if possible tanks for the sour side. Lactic bacteria in a soft plastic or rubber part survive cleaning more easily than in stainless steel.</p>"
+  ],
+  [
+   "Lactic bacteria in sour programmes",
+   "<p>Many breweries now run sour beers next to clean ones. Kettle souring uses Lactobacillus deliberately, usually to drop wort pH to around 3.2 to 3.5 before boiling. The boil then kills the bacteria, so a kettle sour carries little risk once it leaves the kettle.</p><p>Mixed fermentation sours are different. They carry live Lactobacillus, Pediococcus and often Brettanomyces into tanks, barrels and packaging. Those organisms can then find their way into clean beers through shared hoses, gaskets, pumps and fillers.</p><p>Breweries that run both usually keep a separate set of soft parts and transfer equipment for the sour side. Some fill sours last on the packaging line, then clean thoroughly. Plating clean beers regularly for lactic acid bacteria is the check that this separation works. Our guide to <a href=\"adding-a-sour-or-barrel-programme-without-infecting-the.html\">adding a sour programme</a> covers the planning in more detail.</p>"
+  ],
+  [
+   "When a positive turns up",
+   "<p>A positive plate does not always mean dumping. Check whether the organism is a known beer spoiler, whether it carries hop resistance and whether the beer has changed. Measure pH and taste. Then trace the source back through the process so it does not happen again.</p><p>Working from a positive result to a root cause is detective work. It is one of the main skills we teach on the advanced course.</p><p>Your first step: plate your next yeast slurry on a lactic acid bacteria medium before repitching and incubate it for a full seven days.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How can I tell Lactobacillus from Pediococcus?",
+   "Under a microscope, Lactobacillus forms rods and Pediococcus forms round cells in pairs or tetrads. Pediococcus also commonly produces diacetyl."
+  ],
+  [
+   "What makes beer ropy?",
+   "Some Pediococcus strains produce exopolysaccharides that give beer a thick, oily, stringy texture."
+  ],
+  [
+   "Can hops stop Lactobacillus?",
+   "Hops inhibit many strains, but strains with hop resistance genes such as horA can still grow in hopped beer."
+  ]
+ ],
+ "cta": {
+  "title": "Stop spoilers before they reach the package",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers brewery microbiology, detection methods and hygiene so you can find lactic bacteria early and trace them to source.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-ph-explained",
+  "enzymes-in-the-mash",
+  "step-mashing"
+ ]
+}

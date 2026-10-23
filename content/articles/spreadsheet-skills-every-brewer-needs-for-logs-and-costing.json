@@ -1,0 +1,66 @@
+{
+ "slug": "spreadsheet-skills-every-brewer-needs-for-logs-and-costing",
+ "cat": "Careers",
+ "h1": "Spreadsheet skills every brewer needs for logs and costing",
+ "title": "Spreadsheet Skills Every Brewer Needs | Craft Beer School",
+ "desc": "The spreadsheet skills a brewer uses for brew logs, gravity and ABV, yield and cost per litre, with simple formulas you can copy.",
+ "teaser": "Every brewery runs on a spreadsheet, whether it admits it or not. These are the skills that make yours trustworthy.",
+ "standfirst": "Brew logs, fermentation records, stock counts and costing all end up in a spreadsheet. A brewer who builds them well saves hours and catches problems early. Here are the skills that matter most and how to use them on real brewery numbers.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with a log that is easy to fill in",
+   "<p>The most useful brewery spreadsheet is a brew log that people actually complete. That means one row per brew, one column per measurement and no merged cells. Date, batch number, beer, malt weights, mash temperature, original gravity, volume into fermenter and any notes. Keep it in one table, not spread across tabs for each month.</p><p>Use data validation to stop bad entries. A drop-down list of beer names prevents \"Pale Ale\", \"pale ale\" and \"PA\" from turning into three different beers. A rule that only allows gravity readings between 1.000 and 1.120 catches the typo where someone types 1048 instead of 1.048. These two habits fix more problems than any clever formula.</p>"
+  ],
+  [
+   "The brewing formulas worth building once",
+   "<p>A handful of calculations come up on every brew. Build them once, check them against a known example and lock the cells.</p><ul><li><strong>ABV from gravity.</strong> ABV = (OG - FG) x 131.25. A beer from 1.048 to 1.010 gives about 5.0%.</li><li><strong>Gravity to Plato.</strong> A rough rule is that 1.048 is about 12 °P. For precise work, use a proper conversion formula or table.</li><li><strong>Apparent attenuation.</strong> (OG - FG) / (OG - 1) x 100, using the gravity points.</li><li><strong>Brewhouse efficiency.</strong> The extract you collected in the fermenter divided by the extract your malt could have given, as a percentage.</li></ul><p>Put a worked example at the top of each sheet with known answers. If someone breaks a formula, the example will show it immediately.</p>"
+  ],
+  [
+   "Costing a batch so you can redo it",
+   "<p>Cost per litre is the number owners ask about most and brewers understand least. The method is simple. Add up raw material costs for the batch: malt, hops, yeast, adjuncts, water treatment, carbon dioxide and packaging. Divide by the litres you actually sold, not the litres you brewed.</p><p>Here is the working with illustrative numbers. Suppose raw materials for a batch cost ₹30,000 and you brew 1,000 litres of wort. After losses in fermentation, transfers and packaging, you end up with 900 litres of saleable beer. Your raw material cost is ₹30,000 / 900 = about ₹33 per litre, not ₹30. That gap is why losses matter.</p><p>Use SUMIFS to total costs by batch from a purchase list. Use XLOOKUP or VLOOKUP to pull current ingredient prices into a recipe. When malt prices change, every recipe updates.</p><p>Once raw materials are in, add the other costs in the same way: energy, labour, cleaning chemicals and excise where it applies. Keep each on its own line so you can see which one moved when the total changes.</p>"
+  ],
+  [
+   "Pivot tables answer the questions owners ask",
+   "<p>Once you have a clean log, pivot tables turn it into answers in seconds. How many litres of each beer did we brew last quarter? What was the average efficiency by month? Which beer has the biggest gap between brewed and sold volume? You do not need to write formulas for any of these. You drag fields into rows and values.</p><p>This is also where clean data pays off. A pivot table on a log with three spellings of the same beer gives three rows of nonsense. A log with validation gives one clear answer.</p>"
+  ],
+  [
+   "Charts that show trouble early",
+   "<p>A simple line chart of gravity readings over time for each fermentation shows a stuck or slow ferment at a glance. A chart of brewhouse efficiency across the last 30 brews shows drift that nobody noticed batch by batch. Conditional formatting can colour any value outside its normal range, such as a final gravity more than two points above target.</p><p>Keep charts plain. One measurement, clear axes, a target line. The point is to see a problem, not to decorate a report.</p>"
+  ],
+  [
+   "Common mistakes to avoid",
+   "<ul><li>Hard typing numbers into formulas, such as =A2*131.25*0.98, without saying what 0.98 is.</li><li>Copying formulas down without checking the references moved correctly.</li><li>Keeping several versions of the same file on different laptops.</li><li>Mixing units in one column, such as litres and hectolitres.</li><li>Building a workbook only you understand.</li></ul><p>Write a short notes tab explaining each sheet, where its data comes from and who updates it. Future you will be grateful. So will whoever takes over your job.</p>"
+  ],
+  [
+   "Where spreadsheets lead",
+   "<p>Good spreadsheet habits are the foundation for everything else in brewery data. Brewers who keep clean logs find it easy to move on to dashboards and more advanced analysis later. Our guide to <a href=\"learning-data-skills-as-a-working-brewer.html\">learning data skills as a working brewer</a> covers the next steps.</p><p>The catch is that a spreadsheet only calculates. It cannot tell you whether 72% efficiency is good for your mill and mash tun, or why attenuation dropped. That judgement comes from understanding the brewing process behind each number.</p><p>Your first step: open your last ten brew records, put them into one table with one row per brew and calculate ABV and apparent attenuation for each. Check whether any result looks wrong, then find out why.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the formula for ABV from gravity?",
+   "A common formula is ABV = (OG - FG) x 131.25. For example, a beer from 1.048 to 1.010 is about 5.0% ABV."
+  ],
+  [
+   "How do I calculate cost per litre of beer?",
+   "Add up all raw material and packaging costs for the batch, then divide by the litres you actually sold, not the litres brewed. Losses raise the real cost per litre."
+  ],
+  [
+   "Do brewers need advanced Excel skills?",
+   "Not usually. Clean tables, data validation, a few formulas, SUMIFS, lookups, pivot tables and simple charts cover most brewery needs."
+  ]
+ ],
+ "cta": {
+  "title": "Know what the numbers in your log mean",
+  "body": "Brewing Fundamentals is a four week live course (₹5,999). It covers gravity, efficiency, attenuation, ABV and the process behind each figure, so your spreadsheet tells you something useful.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mechanical-skills-a-brewer-should-pick-up-early",
+  "learning-data-skills-as-a-working-brewer"
+ ]
+}

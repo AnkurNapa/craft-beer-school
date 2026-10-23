@@ -1,0 +1,71 @@
+{
+ "slug": "resin-and-bitterness-from-old-hops",
+ "cat": "Ingredients",
+ "h1": "Resin and bitterness from old hops",
+ "title": "Resin and Bitterness From Old Hops | Craft Beer School",
+ "desc": "Why old hops lose alpha acid but not all their bitterness, how to read the Hop Storage Index plus what aged hops do to aroma.",
+ "teaser": "Old hops lose alpha acid on paper. Their bitterness does not vanish with it. That is where recipes go wrong.",
+ "standfirst": "Hops age the moment they leave the kiln. Alpha acids oxidise, soft resins harden and the aroma turns from fresh to cheesy. The bitterness that results is harder to predict than the label suggests.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Hop resins split into soft and hard",
+   "<p>The resin in a hop's lupulin glands is traditionally divided by what dissolves it. Soft resins dissolve in hexane and contain the alpha acids and beta acids that brewers buy hops for. Hard resins do not. They grow as the soft resins oxidise over time.</p><p>Fresh hops are mostly soft resin. Leave them warm and exposed to air and the balance shifts. The alpha acid figure on the certificate, measured when the lot was packed, becomes less true every month.</p>"
+  ],
+  [
+   "Alpha acid falls faster in warm air",
+   "<p>Storage temperature and oxygen decide how fast hops age. Pellets kept frozen and vacuum or nitrogen packed hold most of their alpha acid for a year or more. The same pellets in an opened bag at Indian room temperature, often 30 °C or higher for months of the year, can lose a large share in a single season. Some varieties are far more stable than others, so a figure that holds for one hop says little about the next.</p><p>The practical rule is simple: freeze, seal and use opened packs quickly. If hops have sat in a warm godown during a customs delay, treat their alpha acid figure as a guess until you have checked it.</p>"
+  ],
+  [
+   "The Hop Storage Index tells you how far they have gone",
+   "<p>The Hop Storage Index (HSI) is a lab measurement that compares the light absorbance of a hop extract at two wavelengths, 275 nm and 325 nm. As alpha and beta acids oxidise, the ratio rises.</p><ul><li>Freshly processed hops typically read around 0.25 to 0.35.</li><li>Readings climbing towards 0.5 point to clear ageing.</li><li>Higher still and the hops are best kept for uses where aroma does not matter.</li></ul><p>Many suppliers print HSI on the certificate of analysis. If yours does not, ask for it. It is a cheaper question than a batch brewed to the wrong bitterness.</p>"
+  ],
+  [
+   "Oxidised acids still taste bitter",
+   "<p>Here is the part that catches brewers out. When alpha acids oxidise they do not simply disappear. They form compounds that carry bitterness of their own. Beta acids, which add little bitterness to fresh hops, oxidise into products such as hulupones that do taste bitter.</p><p>So an old hop with a low measured alpha acid can still bitter a beer more than a calculation predicts. The character changes too. Bitterness from heavily aged hops is often described as harsher and more lingering than the clean bite of iso-alpha acids from fresh hops. If you scale up a 60 minute addition to make up for lost alpha acid, you can end up with a beer that is both over-bitter and rough. Our <a href=\"alpha-acids-explained.html\">alpha acids guide</a> explains the calculation this assumption breaks.</p>"
+  ],
+  [
+   "Aroma goes cheesy before bitterness goes",
+   "<p>Hop oil oxidises too. Fresh hop aroma gives way to stale, hay-like notes, then to cheesy, sweaty smells from isovaleric acid and related short-chain acids that form as hop acids break down. Many tasters pick these up at very low levels. A pack of pellets that smells of old cheese should not go near a dry hop, whatever its certificate says.</p><p>Noble varieties with delicate aroma show ageing early. Our guide to <a href=\"noble-hops-explained.html\">noble hops</a> covers why those hops in particular are worth buying fresh and storing cold.</p>"
+  ],
+  [
+   "Some brewers age hops on purpose",
+   "<p>Traditional lambic brewers in Belgium use hops aged for years. They want the preservative effect of hops against bacteria with almost none of the bitterness or aroma, because a long spontaneous fermentation does not suit either. That works because the beer style is built around it.</p><p>For a clean pale ale or lager, aged hops are a fault waiting to happen. The exception is bittering in a dark or strongly flavoured beer where a little extra harshness is lost. Even there, adjust by taste over a few batches rather than by arithmetic alone.</p>"
+  ],
+  [
+   "Measure before you compensate",
+   "<p>When you suspect a hop lot has aged, do not guess. Brew a small test batch with a fixed weight, measure the bitterness of the finished beer and compare it with what the label alpha acid predicted. Two or three such checks across a season tell you how your store treats hops in practice.</p><p>Start with what is in your cold room today. Pull the certificate for every open lot, note the pack date and HSI and smell a pinch of each. Anything that smells of cheese goes to the bottom of the list or out.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do old hops lose their bitterness?",
+   "They lose alpha acid, but oxidised alpha and beta acids add bitterness of their own. The beer can end up more bitter than a calculation based on the reduced alpha acid suggests."
+  ],
+  [
+   "What is a good Hop Storage Index?",
+   "Freshly processed hops usually read around 0.25 to 0.35. Readings rising towards 0.5 show clear ageing."
+  ],
+  [
+   "Why do my hops smell like cheese?",
+   "Short-chain acids such as isovaleric acid form as hop acids oxidise. A cheesy smell means the hops are badly aged and should not be used for aroma."
+  ],
+  [
+   "How should hops be stored in India?",
+   "Frozen, vacuum or nitrogen packed and away from light. Opened packs should be resealed with minimal air and used quickly."
+  ]
+ ],
+ "cta": {
+  "title": "Understand the chemistry behind bitterness",
+  "body": "Advanced Brewing Science is our six week live weekend course. It covers hop acids, isomerisation, oxidation and how to measure bitterness instead of trusting the label.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "alpha-acids-explained",
+  "noble-hops-explained",
+  "american-hops-guide"
+ ]
+}

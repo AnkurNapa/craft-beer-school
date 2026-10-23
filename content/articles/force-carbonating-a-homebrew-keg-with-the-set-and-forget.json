@@ -1,0 +1,63 @@
+{
+ "slug": "force-carbonating-a-homebrew-keg-with-the-set-and-forget",
+ "cat": "Brewing basics",
+ "h1": "Force carbonating a homebrew keg with the set and forget method",
+ "title": "Force Carbonating a Keg: Set and Forget | Craft Beer School",
+ "desc": "How to force carbonate homebrew with the set and forget method: chill the keg, set the right pressure and let it carbonate in a week or two.",
+ "teaser": "The slowest way to carbonate a keg is also the most reliable. Set the pressure, leave it and come back to perfect beer.",
+ "standfirst": "Force carbonating means dissolving carbon dioxide into cold beer under pressure. The set and forget method does it slowly, at serving pressure, without shaking or guesswork. It takes a week or two and gets the level right almost every time.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "How force carbonation works",
+   "<p>Carbon dioxide dissolves into beer when gas pressure sits above it. How much dissolves depends on two things: the temperature of the beer and the pressure of the gas. Colder beer holds more carbon dioxide. Higher pressure pushes more in. Hold both steady long enough and the beer settles at a fixed carbonation level, measured in volumes of carbon dioxide.</p><p>That is all set and forget does. You chill the keg to serving temperature, set the regulator to the pressure that gives your target level at that temperature and leave it alone. The beer slowly reaches equilibrium. It cannot overshoot, because the pressure never goes above the target.</p>"
+  ],
+  [
+   "Chill the beer first",
+   "<p>Temperature is half the equation, so get it right first. Put the filled, sealed keg in the kegerator or fridge and let it reach serving temperature, usually 2 to 4 °C, before you set the final pressure. Beer at 20 °C holds far less carbon dioxide than beer at 3 °C. A keg connected warm will under-carbonate at the same pressure and then over-carbonate as it cools, unless you adjust.</p><p>Indian summers make this harder. A fridge working against a 35 °C kitchen may struggle to hold 3 °C. The beer temperature may drift. A cheap probe thermometer taped to the keg wall tells you the real temperature, which can differ a lot from the fridge dial.</p>"
+  ],
+  [
+   "The right pressure for your style",
+   "<p>Carbonation charts give the pressure needed for a target level at each temperature. As a reference point, most pale ales and lagers sit around 2.4 to 2.6 volumes. At about 3 °C, that takes roughly 11 to 12 psi, or about 0.8 bar. Stouts and English bitters are often served lower, around 2.0 volumes. Wheat beers and Belgian ales often go higher, 3 volumes or more, which needs higher pressure and longer serving lines.</p><p>Look up your target in a carbonation chart for your exact temperature. Our guide to <a href=\"carbonation-levels-by-style.html\">carbonation levels by style</a> lists the typical targets.</p>"
+  ],
+  [
+   "Setting it up",
+   "<ol><li>Fill and seal the keg. Purge the headspace with a few short bursts of gas, releasing each through the pressure relief valve.</li><li>Check for leaks: spray soapy water on the lid, posts and fittings. Bubbles mean a leak to fix now, not after the cylinder empties.</li><li>Chill the keg to serving temperature.</li><li>Set the regulator to the chart pressure and connect the gas.</li><li>Leave it for 7 to 14 days. Pour a sample after a week to check.</li></ol><p>Most beers are well carbonated in 10 days. A 19 litre keg takes longer than a small one, because the gas only enters through the surface.</p>"
+  ],
+  [
+   "Why not shake it?",
+   "<p>Many brewers speed up carbonation by turning the pressure up high and rolling or shaking the keg. It can carbonate a keg in an hour. It also makes over-carbonation easy and stirs up any sediment, so the beer pours cloudy and foamy for days. Burst carbonation, where you set a high pressure for a day then drop back to serving pressure, is a gentler shortcut. Set and forget remains the method we teach first, because it is hard to get wrong.</p>"
+  ],
+  [
+   "When the pour is still foamy",
+   "<p>If the beer is correctly carbonated but pours as foam, the problem is usually the dispensing side, not the carbonation. Short serving lines, a warm tap or a pressure set higher than the chart are the common causes. A short line cannot slow the beer down before it hits the glass. Our guide to <a href=\"starting-with-a-mini-keg-setup-for-homebrew.html\">starting with a mini keg setup</a> covers serving pressure on small kegs. For a full kegerator, balance the line length with the pressure.</p><p>If you have not kegged before, consider the brewing side too. A beer that finished fermenting cleanly and was brewed by a sound method such as <a href=\"brew-in-a-bag-method.html\">brew in a bag</a> carbonates more predictably than one rushed into the keg.</p><p>Your first step: write your fridge's real temperature and your target carbonation level on a piece of tape on the keg. Look up the pressure on a chart before you connect the gas.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does set and forget carbonation take?",
+   "Usually 7 to 14 days at serving temperature. Check a sample after a week."
+  ],
+  [
+   "What pressure should I use to force carbonate?",
+   "For most ales and lagers at about 3 °C, roughly 11 to 12 psi gives 2.4 to 2.6 volumes. Check a carbonation chart for your exact temperature."
+  ],
+  [
+   "Can I force carbonate warm beer?",
+   "You can, but it needs much higher pressure and is harder to control. Chill the beer first for predictable results."
+  ]
+ ],
+ "cta": {
+  "title": "Carbonate every keg to the right level",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999) on Saturday and Sunday afternoons. It covers fermentation, carbonation and packaging, including how temperature and pressure work together in a keg.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "starting-with-a-mini-keg-setup-for-homebrew",
+  "brew-in-a-bag-method",
+  "first-homebrew-mistakes"
+ ]
+}

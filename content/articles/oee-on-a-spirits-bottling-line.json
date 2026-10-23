@@ -1,0 +1,67 @@
+{
+ "slug": "oee-on-a-spirits-bottling-line",
+ "cat": "Whisky",
+ "h1": "OEE on a spirits bottling line",
+ "title": "OEE on a Spirits Bottling Line | Craft Beer School",
+ "desc": "How to calculate OEE on a spirits bottling line, with a worked example, plus the changeovers, fill checks and labels that drag it down in India.",
+ "teaser": "OEE packs availability, speed and quality into one number. On a spirits line, changeovers usually decide it.",
+ "standfirst": "Overall equipment effectiveness is the standard way to measure how well a bottling line uses its time. This guide shows the calculation with real numbers, then explains what drives the figure on a whisky line.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Three losses in one number",
+   "<p>Overall equipment effectiveness (OEE) compares what a line produced with what it could have produced if it ran all the planned time, at full speed, with no rejects. It multiplies three factors.</p><ul><li><strong>Availability:</strong> running time divided by planned production time. Breakdowns and changeovers reduce it.</li><li><strong>Performance:</strong> actual output divided by what the line would make at its rated speed in the running time. Slow running and short stops reduce it.</li><li><strong>Quality:</strong> good bottles divided by total bottles. Rejects and rework reduce it.</li></ul><p>OEE equals availability times performance times quality. A figure of 85% is widely quoted as world class for discrete manufacturing. Many lines run well below it.</p>"
+  ],
+  [
+   "A worked example",
+   "<p>Take a whisky line rated at 100 bottles a minute on an eight hour shift of 480 planned minutes.</p><ul><li>The line stops for 60 minutes: 40 for a changeover and 20 for a labeller jam. Running time is 420 minutes. Availability is 420 divided by 480, or 87.5%.</li><li>In 420 minutes at 100 a minute the line could make 42,000 bottles. It made 36,000. Performance is 85.7%.</li><li>Of the 36,000, 360 were rejected for low fill or crooked labels, leaving 35,640 good bottles. Quality is 99%.</li></ul><p>OEE is 87.5% times 85.7% times 99%, which is 74%. A useful cross-check: good bottles divided by planned minutes times rated speed gives 35,640 divided by 48,000, the same 74%.</p>"
+  ],
+  [
+   "Changeovers are the big lever",
+   "<p>On most spirits lines, availability is where OEE is won or lost. Changeovers are the reason. Indian whisky is sold state by state, so the same liquid in the same bottle may need different labels, different excise adhesive labels or holograms and different cartons for each state. Each switch is a changeover, even when the bottle never changes.</p><p>Add pack size changes between 750, 375 and 180 ml, each needing new change parts on the filler, capper and labeller. A line can then spend more time changing than running on a busy day. Sequencing runs to group similar packs, preparing labels and parts before the line stops and standardising settings all cut changeover time without new equipment.</p>"
+  ],
+  [
+   "Performance hides in short stops",
+   "<p>Short stops of a minute or two often go unrecorded. Operators clear a jammed bottle and carry on. They do not show up as downtime, so they appear as poor performance. Common causes on spirits lines are glass with dimensional variation, closures that feed badly and labels affected by humidity in the Indian monsoon.</p><p>If performance sits well below rated speed, time-stamped stop data from the line controller is worth more than any opinion. It usually shows two or three machines causing most of the stops.</p>"
+  ],
+  [
+   "Quality on a spirits line",
+   "<p>Spirits are filled by volume and every bottle must hold at least its declared contents, so fill level control matters. Underfills are a legal problem as well as a quality one. Other common rejects are cork or cap faults, scuffed or crooked labels, wrong batch codes and missing excise labels.</p><p>Strength matters before filling. The whisky has already been reduced to bottling strength, commonly 42.8% ABV for mainstream Indian whisky. It is checked before it reaches the filler bowl. Our guide to <a href=\"reducing-whisky-to-bottling-strength.html\">reducing whisky to bottling strength</a> explains that step.</p>"
+  ],
+  [
+   "Reading OEE without gaming it",
+   "<p>OEE is easy to inflate by changing the definitions. Removing planned changeovers from planned time, using a lower rated speed or counting reworked bottles as good all lift the number without improving the line. Agree the definitions once, write them down and keep them. Compare a line with itself over time before comparing it with another site.</p><p>It also helps to translate points into bottles, because that is what planners and finance understand. On the example line, one percentage point of OEE is 1% of 48,000, or 480 bottles a shift. Over two shifts a day for 300 days that is about 288,000 bottles a year, or 24,000 cases of twelve. Put that way, a ten minute cut in one daily changeover stops sounding like housekeeping.</p><p>Our guide to <a href=\"a-bottling-line-for-a-craft-distillery.html\">a bottling line for a craft distillery</a> explains the machines behind the numbers.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Take one week of shift records for one line. For each shift, write down planned minutes, stop minutes split into changeovers and breakdowns, total bottles and rejects. Calculate the three factors. If availability is the lowest of the three, start by timing your next changeover from last good bottle to first good bottle.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How is OEE calculated?",
+   "OEE is availability times performance times quality. Equivalently, it is good output divided by planned time multiplied by rated speed."
+  ],
+  [
+   "What is a good OEE for a bottling line?",
+   "About 85% is widely quoted as world class for discrete manufacturing. Compare a line with its own history first, using fixed definitions."
+  ],
+  [
+   "Why are changeovers so frequent on Indian spirits lines?",
+   "Whisky is sold state by state, so the same liquid may need different labels, excise labels and cartons for each state, plus pack size changes."
+  ]
+ ],
+ "cta": {
+  "title": "Bottling lines that never seem to hit plan",
+  "body": "Our Brewing and distilling operations module is built around your team's own portfolio, so the examples are your brands, your states and your data.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "a-bottling-line-for-a-craft-distillery",
+  "whisky-tasting-for-beginners",
+  "reducing-whisky-to-bottling-strength"
+ ]
+}

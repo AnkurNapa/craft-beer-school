@@ -1,0 +1,71 @@
+{
+ "slug": "malting-barley-for-whisky-versus-malting-for-beer",
+ "cat": "Whisky",
+ "h1": "Malting barley for whisky versus malting for beer",
+ "title": "Malting for Whisky Versus Beer | Craft Beer School",
+ "desc": "Why distilling malt is specified differently from brewing malt: extract, enzymes, nitrogen, kilning and peat, with the numbers to check on a spec.",
+ "teaser": "Same grain, same maltings, different job. Whisky malt is built for yield. Beer malt is built for flavour and foam.",
+ "standfirst": "Distillers and brewers buy malt from the same maltsters, but they ask for very different things. Here is what changes in the steep, the kiln and the spec sheet when the malt is going to a still.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A distiller buys alcohol, not flavour",
+   "<p>A brewer chooses malt for flavour, colour, foam and body as well as extract. A malt distiller mostly wants one thing: as much fermentable sugar per tonne as possible, because every extra litre of alcohol is margin. That single difference drives almost every other line on the spec.</p><p>Distilling malt is pale, well modified and high in fermentable extract. The flavour the brewer cares about matters less, because the still will strip most of the grain character and concentrate a few compounds instead. The exception is peat, which we come to below.</p>"
+  ],
+  [
+   "The spec lines that differ",
+   "<p>Put a brewing pale malt spec next to a distilling malt spec and the differences are easy to see:</p><ul><li><strong>Fermentability.</strong> Distillers want a high share of fermentable sugar and judge malt on predicted spirit yield (PSY) in litres of alcohol per tonne. Brewers judge on hot water extract and accept more unfermentable dextrin for body.</li><li><strong>Nitrogen.</strong> Distilling malt usually comes from low nitrogen barley, often around 1.5% to 1.65% total nitrogen. Less protein means more starch per kernel.</li><li><strong>Colour.</strong> Distilling malt is very pale, typically a few EBC. Beer malts range from pale to black.</li><li><strong>Enzymes.</strong> Distillers want strong diastatic power, because enzymes keep working in the washback after the mash.</li></ul><p>Our guide to <a href=\"predicted-spirit-yield-on-a-distilling-malt-spec.html\">predicted spirit yield on a distilling malt spec</a> explains the PSY number in detail.</p>"
+  ],
+  [
+   "Kilning stays gentle so the enzymes survive",
+   "<p>Brewing malts for darker styles are kilned hot to build colour and toasty flavour. Distilling malt is kilned cooler and finished at a lower temperature, so more amylase survives. That matters because a whisky wort is never boiled. The enzymes travel with the wort into the washback and keep breaking dextrins into sugar the yeast can use.</p><p>A brewer boils the wort, which kills the enzymes and fixes the sugar profile at the end of the mash. A distiller relies on that second, slow conversion during fermentation. Over-kilned malt robs the distiller of yield even when its extract looks fine on paper.</p>"
+  ],
+  [
+   "Peat goes on while the grain is wet",
+   "<p>Peated malt gets its smoke during kilning. Peat is burned under the green malt early in the kiln cycle, while the grain is still damp, because wet husks pick up phenols far better than dry ones. Once the malt dries, smoke barely sticks. The maltster then measures the result in parts per million of phenol, which is why a distiller orders malt at a set ppm.</p><p>Brewers rarely use peated malt. Beer smoke usually comes from beechwood smoked malt, which tastes of bacon and campfire rather than of iodine and seaweed. If you want the whisky side of the story, read <a href=\"peating-levels-in-phenol-ppm-explained.html\">peating levels in phenol ppm explained</a>.</p>"
+  ],
+  [
+   "Barley varieties are chosen for different reasons",
+   "<p>Maltsters grow and select barley for each market. For Scotch, varieties that produce little or no glycosidic nitrile are preferred, because that compound can form ethyl carbamate in the spirit. Brewing varieties are judged on extract, protein and how well they behave in the brewhouse. A good beer barley is not automatically a good whisky barley.</p><p>India adds its own question. Much Indian barley is six row, with more husk and protein than two row. It can be malted for distilling, but expect lower extract per tonne. We cover that trade-off in <a href=\"indian-six-row-barley-for-malt-whisky.html\">Indian six row barley for malt whisky</a>.</p>"
+  ],
+  [
+   "What this means when you place an order",
+   "<p>A craft distillery that also brews, or a brewery moving into spirits, cannot simply order more of its pale malt. Ask the maltster for a distilling specification. Ask for PSY, total nitrogen, moisture, diastatic power and, for peated malt, phenol ppm with the test method named. In a humid Indian store, check moisture on arrival too. Malt that has picked up water mills badly and loses extract.</p><p>Reading a spec sheet is the easy part. Linking each line on it to what happens in the mash tun, the washback and the still is the harder skill. It is where most new distillers lose yield without knowing why.</p>"
+  ],
+  [
+   "A first step with your next delivery",
+   "<p>Take the certificate of analysis from your last malt delivery and lay it beside a distilling malt spec from any maltster. Circle every line where they differ. For each circled line write one sentence on what it would change in your mash or your washback. That page is the start of your own malt buying standard.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I use brewing malt to make whisky?",
+   "Yes, but you will usually get less alcohol per tonne. Brewing malts are specified for flavour and body as well as extract, while distilling malt is chosen for fermentable yield and enzyme strength."
+  ],
+  [
+   "Why is distilling malt so pale?",
+   "It is kilned gently so its enzymes survive. Those enzymes keep converting sugar in the washback because whisky wort is never boiled."
+  ],
+  [
+   "Why is peat added while the malt is wet?",
+   "Damp grain absorbs phenols from peat smoke far better than dry grain, so peat is burned early in the kiln cycle."
+  ],
+  [
+   "Does Indian barley work for malt whisky?",
+   "Indian six row barley can be malted for distilling. It usually gives lower extract per tonne than two row barley because of more husk and protein."
+  ]
+ ],
+ "cta": {
+  "title": "Buy malt that turns into more spirit",
+  "body": "Craft Distilling is our four week live course (₹9,999), Saturdays and Sundays with recordings and a certificate. It takes you from malt spec and milling through mashing, fermentation and the stills, so you can link each line on a spec sheet to yield and flavour.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "indian-six-row-barley-for-malt-whisky",
+  "barley-contracts-for-malt-whisky",
+  "malt-whisky-from-indian-six-row-and-two-row-barley"
+ ]
+}

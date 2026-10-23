@@ -1,0 +1,63 @@
+{
+ "slug": "barley-and-aluminium-price-risk-for-finance-teams",
+ "cat": "Beer for teams",
+ "h1": "Barley and aluminium price risk for finance teams",
+ "title": "Barley and Aluminium Price Risk | Craft Beer School",
+ "desc": "Where barley and aluminium sit in beer cost, how their prices move and the contract and hedging tools finance teams use to manage them.",
+ "teaser": "A beer's two biggest commodity risks come from a field in Rajasthan and a metal exchange in London. Finance owns both.",
+ "standfirst": "Malt and cans are two of the largest material costs in many beers. Their prices move for reasons the brewery cannot control. This guide shows finance teams where the exposure sits and what tools exist to manage it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two commodities, two very different markets",
+   "<p>Barley becomes malt. Malt is the main source of sugar in beer. Aluminium becomes cans. One is a farm crop priced by local harvests and government procurement. The other is a global metal priced in US dollars on the London Metal Exchange (LME). A finance team managing beer cost needs to understand both, because they move for completely different reasons.</p><p>In India, barley is a rabi crop, sown around October and November and harvested in March and April, mostly in Rajasthan, Haryana, Punjab, Uttar Pradesh and Madhya Pradesh. A poor monsoon, a hot spell at grain fill or a shift in what farmers plant can all move the price of malting barley for the year.</p>"
+  ],
+  [
+   "How much malt a hectolitre needs",
+   "<p>To size the exposure, start from the recipe. An all-malt lager around 12 °Plato uses roughly 16 to 18 kg of malt per hectolitre. Many Indian lagers replace part of the malt with rice, maize or sugar syrup, which lowers malt use per hectolitre and shifts some of the risk to those adjuncts.</p><p>A worked example with illustrative numbers: a brewery making 100,000 hl a year at 15 kg of malt per hl uses 1,500 tonnes of malt. A 10% rise in malt price at an assumed ₹50 a kg adds ₹5 a kg, or ₹75 lakh a year. Run the same sum with your own volume and contract price. Our guide to <a href=\"barley-and-malt-for-procurement-teams.html\">barley and malt for procurement teams</a> covers how malt is specified and bought.</p>"
+  ],
+  [
+   "Aluminium is a currency risk as well as a metal risk",
+   "<p>Can prices usually build from the LME aluminium price plus a regional premium plus a conversion charge for turning metal into cans and ends. The LME part is quoted in US dollars per tonne, so a weaker rupee raises can cost even when the metal price is flat.</p><p>That gives finance two linked exposures: the metal price and the USD to INR exchange rate. Can makers often pass the LME price through to brewers with a lag, under a formula in the supply contract. Read that formula. It tells you which month's LME average sets which month's can price. That timing decides when a price spike hits the P and L.</p>"
+  ],
+  [
+   "The tools available",
+   "<p>There are four common ways to manage these risks. Each trades cost certainty against flexibility:</p><ul><li><strong>Fixed price contracts.</strong> Agree a malt price for the season with the maltster. Certainty, but you pay a premium and lose if prices fall.</li><li><strong>Formula pricing.</strong> Link the can price to a published LME average. Transparent, but you carry the market movement.</li><li><strong>Financial hedges.</strong> Aluminium futures and forwards trade on the LME and on India's MCX. Currency forwards cover the dollar part. These need treasury policy and board approval.</li><li><strong>Pack mix.</strong> Shifting volume between cans and returnable glass changes the exposure itself.</li></ul><p>None of these removes risk. They move it from the P and L to a contract or a hedge book, where it is easier to see and budget.</p><p>Hedging also needs a volume you trust. If the forecast says 50 million cans and the year delivers 40 million, a hedge sized at 50 million is now a speculative position on the extra 10 million. Most treasury policies hedge a share of expected volume, such as half or two thirds. They roll forward as the forecast firms up. That share is a policy choice for your board, not a brewing fact.</p>"
+  ],
+  [
+   "Pass-through has limits in beer",
+   "<p>Many consumer goods companies raise prices when costs rise. In beer, MRP is registered with each state, often once a year. Excise is a large share of it. Changing a price can mean a new label registration and a wait. That makes cost pass-through slow and partial, which is why beer finance teams care more about cost certainty than most.</p><p>Know the brewing side too. If malt gets expensive, the brewery cannot just use less without changing the beer. A higher adjunct share changes flavour, body and sometimes the label claim. Our guide to <a href=\"beer-cost-of-goods-explained.html\">beer cost of goods</a> shows how each input fits into cost per hectolitre.</p>"
+  ],
+  [
+   "Where to start",
+   "<p>Build a simple exposure table for the next 12 months: expected tonnes of malt and number of cans by month, with the price basis of each contract and the date it resets. Add the share already fixed or hedged.</p><p>Then run two scenarios: a 10% move in malt and a 10% move in LME aluminium together with a 5% move in the rupee. The answer tells you which risk deserves a policy first.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "When is barley harvested in India?",
+   "Barley is a rabi crop, sown around October and November and harvested in March and April, mainly in north and west India."
+  ],
+  [
+   "Why does the rupee affect can prices?",
+   "Aluminium is priced in US dollars on the LME. A weaker rupee raises the rupee cost of the metal even when the dollar price does not change."
+  ],
+  [
+   "Can a brewery just raise prices when costs rise?",
+   "Not quickly. Beer MRP is registered with each state and excise is a large part of it, so price changes are slow and partial."
+  ]
+ ],
+ "cta": {
+  "title": "Give your finance team the brewing behind the cost line",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-cost-of-goods-explained",
+  "barley-and-malt-for-procurement-teams",
+  "brewery-capex-for-finance-teams-tanks-lines-and-payback"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "the-temperature-windows-of-beta-amylase-and-alpha-amylase",
+ "cat": "Brewing science",
+ "h1": "The temperature windows of beta-amylase and alpha-amylase",
+ "title": "Beta-Amylase and Alpha-Amylase Windows | Craft Beer School",
+ "desc": "The temperature ranges where beta-amylase and alpha-amylase work and die, how they shape fermentability and how to choose a mash temperature.",
+ "teaser": "Two degrees on the mash thermometer can move a beer's finishing gravity by several points.",
+ "standfirst": "Two enzymes do most of the work of turning starch into sugar. They work best at different temperatures and die at different temperatures. Your mash temperature is a decision about how much each one gets to do.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two enzymes, two jobs",
+   "<p>Starch is made of long chains of glucose. Amylose is a straight chain. Amylopectin is branched. Malt supplies two main enzymes to break them down:</p><ul><li><strong>Beta-amylase</strong> works from the ends of the chains, snipping off maltose, a two glucose sugar that yeast ferment readily. It is slow but produces fermentable sugar.</li><li><strong>Alpha-amylase</strong> cuts at random points inside the chains. It quickly breaks starch into shorter pieces, called dextrins, creating many new chain ends for beta-amylase to work on.</li></ul><p>Neither enzyme can cut the branch points in amylopectin. Those leave behind limit dextrins, which brewing yeast cannot ferment. Our guide to <a href=\"limit-dextrinase-and-why-fermentability-varies-between-malts.html\">limit dextrinase</a> covers the enzyme that can.</p>"
+  ],
+  [
+   "Beta-amylase works best around 60 to 65 °C",
+   "<p>Beta-amylase is most active at roughly 60 to 65 °C. Above that, it denatures quickly. At 70 °C it lasts only minutes. This is the enzyme behind a dry, highly fermentable wort, so a low mash temperature, around 62 to 64 °C, favours it and gives a beer that finishes lower.</p><p>There is a catch. Barley starch needs to gelatinise before enzymes can attack it efficiently. For malted barley that happens at around 60 to 65 °C. At the very bottom of the range, conversion slows. That is one reason most single infusion mashes sit at 63 °C or above.</p>"
+  ],
+  [
+   "Alpha-amylase works best around 68 to 72 °C",
+   "<p>Alpha-amylase tolerates more heat. It works best around 68 to 72 °C and survives into the mid 70s for a short time. A mash at the high end, say 68 to 70 °C, gives alpha-amylase the upper hand. Beta-amylase dies early, so fewer chains are trimmed to maltose. The wort keeps more dextrins and the beer finishes with more body and a higher final gravity.</p><p>Mashing out at about 76 to 78 °C stops most enzyme activity and fixes the sugar profile before lautering. It also lowers wort viscosity, which helps runoff.</p>"
+  ],
+  [
+   "Choosing a single infusion temperature",
+   "<p>Most single infusion mashes land between 63 and 69 °C. A rough guide:</p><ul><li><strong>63 to 65 °C:</strong> high fermentability, dry finish. Suits Pilsner, Brut IPA, saison and dry pale lager.</li><li><strong>65 to 67 °C:</strong> balanced. Suits most pale ales, IPAs and amber beers.</li><li><strong>67 to 69 °C:</strong> more body and residual sweetness. Suits sweet stout, Scottish ales and many low alcohol beers.</li></ul><p>These are starting points, not laws. The same temperature gives different results with different malt, mash thickness and pH. Our guide to <a href=\"why-mash-thickness-changes-fermentability-and-brewhouse.html\">why mash thickness changes fermentability</a> covers one of the bigger variables.</p>"
+  ],
+  [
+   "pH and mash thickness move the windows",
+   "<p>Both enzymes prefer a mildly acidic mash, around pH 5.2 to 5.6 measured at room temperature. Beta-amylase sits towards the lower end of that range, alpha-amylase slightly higher. A mash far outside the range works less well whatever the temperature.</p><p>A thick mash, with less water per kilogram of grain, protects enzymes from heat and lets them survive longer. A thin mash speeds reactions but lets enzymes denature sooner. Brewers often run a slightly thicker mash for a sweeter beer and a thinner one when chasing high fermentability.</p>"
+  ],
+  [
+   "Rice and maize change the plan",
+   "<p>Many Indian lagers use rice or maize. Their starch gelatinises at higher temperatures than barley starch, often in the high 60s to high 70s °C depending on the source. That is above the point where beta-amylase dies. So these adjuncts are usually boiled in a separate cereal cooker with a little malt, then added to the main mash to raise its temperature into the conversion range. Adding raw rice directly to a 65 °C mash leaves much of its starch unconverted.</p><p>The cooker step also shapes fermentability. When the boiling cereal mash is pumped back, it lifts the main mash temperature in one jump. Brewers time that transfer so the main mash has already spent time in the beta-amylase range before it rises to the alpha-amylase range. Get the order or the volumes wrong and the main mash overshoots, killing beta-amylase early and leaving a sweeter, less attenuated lager than the recipe intended. Write down the target temperature after the cereal mash goes in and check it every brew.</p>"
+  ],
+  [
+   "Your thermometer is the first suspect",
+   "<p>The floor detail: a mash thermometer that reads two degrees high moves you from a balanced mash into a dry one without anyone noticing. Check probes in iced water and boiling water every few months. Temperature also varies across a large mash tun, so take readings in more than one spot after mashing in.</p><p>Your first step: brew your next batch of a core beer at its usual temperature but log the actual mash temperature at three points every 15 minutes. Compare the result with your expected final gravity. If they differ by more than a point or two, you have a measurement problem before you have a recipe problem.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature does beta-amylase work best at?",
+   "Roughly 60 to 65 °C. It denatures quickly above that, lasting only minutes at 70 °C."
+  ],
+  [
+   "What temperature does alpha-amylase work best at?",
+   "Around 68 to 72 °C. It survives briefly into the mid 70s °C."
+  ],
+  [
+   "Does a lower mash temperature make a drier beer?",
+   "Generally yes. A mash around 63 to 65 °C favours beta-amylase, which produces fermentable maltose and a lower final gravity."
+  ],
+  [
+   "Why mash out at 76 to 78 °C?",
+   "It stops most enzyme activity and fixes the sugar profile. It also lowers wort viscosity for an easier runoff."
+  ]
+ ],
+ "cta": {
+  "title": "Design mashes that hit your gravity every time",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers starch chemistry, mash enzymes, adjunct cooking and how to control fermentability on purpose.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beta-glucan-problems-with-oats-and-unmalted-barley-in-the",
+  "dry-hop-contact-time-and-temperature-for-the-best-extraction",
+  "free-rise-fermentation-and-when-to-let-the-temperature-climb"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "steam-boilers-for-a-small-distillery",
+ "cat": "Whisky",
+ "h1": "Steam boilers for a small distillery",
+ "title": "Steam Boilers for a Small Distillery | Craft Beer School",
+ "desc": "Choosing a steam boiler for a craft distillery: sizing in kg per hour, pressure, boiler types, fuel, water treatment and Indian registration.",
+ "teaser": "The boiler is the heart of a steam-heated distillery. Undersize it and every still run drags. Oversize it and it wastes fuel all day.",
+ "standfirst": "Most craft distilleries heat their stills, mash water and cleaning tanks with steam. The boiler is one of the biggest capital items a founder buys and one of the hardest to change later. Here is how to size it, choose a type and keep it safe and legal.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why most distilleries heat with steam",
+   "<p>Steam carries a lot of heat in a small pipe and gives it up at a steady temperature as it condenses. Saturated steam at 3 bar gauge sits at about 144 °C, hot enough to boil wash briskly but gentle enough to avoid scorching the solids on the still wall. That control is why steam jackets and internal coils replaced direct fire in most modern distilleries. Our guide on <a href=\"direct-fire-versus-steam-heated-stills.html\">direct fire versus steam heated stills</a> covers the flavour side of that choice.</p> <p>One boiler can also serve the mash water tank, cleaning in place and any pot ale handling. That makes it the one piece of kit every department depends on. When it stops, the whole site stops.</p>"
+  ],
+  [
+   "Sizing a boiler in kg of steam per hour",
+   "<p>Boilers are rated by how much steam they make per hour, usually quoted \"from and at 100 °C\" (the output if fed with water at 100 °C). Start from your heaviest simultaneous load, not your average. For a small distillery that is often the wash still coming up to boil while the mash water tank is heating.</p> <p>A rough working: at 3 bar gauge each kg of steam gives up about 2,100 kJ as it condenses. A wash still that needs 300 kW at full heat-up draws about 300 x 3,600 / 2,100, roughly 510 kg of steam per hour. Add the mash water heater and any cleaning load running at the same time, then a margin of 15 to 25% for losses and future growth. Ask your still supplier for the actual kW figures. Do not guess them from the still's volume.</p>"
+  ],
+  [
+   "Boiler types you will be offered",
+   "<p>At craft scale three designs come up most often:</p> <ul><li><strong>Fire tube (shell) boilers.</strong> Hot gases pass through tubes inside a large water drum. They hold a big reserve of hot water, so they ride out sudden demand well. They take longer to heat from cold.</li> <li><strong>Coil or once-through boilers.</strong> Water passes through a coil heated by the burner. They raise steam in minutes and take little floor space, but have little reserve and need very good feed water.</li> <li><strong>Electric boilers.</strong> Clean and simple, with no flue. Whether they make sense depends on your tariff and the reliability of your grid supply.</li></ul> <p>Water tube boilers suit larger plants. Whichever you choose, buy for the service network near your site. A boiler with no engineer within a day's travel is a liability.</p>"
+  ],
+  [
+   "Water treatment and condensate return",
+   "<p>Boilers fail from the water side far more often than from the fire side. Hard borewell water forms scale on heating surfaces. Scale insulates the metal, wastes fuel and can lead to overheating. Dissolved oxygen corrodes. A softener, a feed tank kept hot to drive off oxygen and chemical dosing are standard on any steam plant.</p> <p>Return as much condensate as you can. It comes back hot and already soft. A widely used rule of thumb is that raising feed water temperature by about 6 °C saves roughly 1% of fuel. Control dissolved solids in the boiler water with regular blowdown, set from a conductivity reading rather than from habit. Keep a daily log of pressure, water level checks and blowdown. That logbook is also what an inspector asks to see.</p>"
+  ],
+  [
+   "Fuel and the Indian context",
+   "<p>The fuel decides your running cost. Indian distilleries use furnace oil, diesel, piped natural gas, LPG, coal and biomass such as rice husk briquettes. Gas is clean and easy to control but not available everywhere. Biomass can be cheap in agricultural districts but needs storage, handling and ash disposal. Compare fuels on the cost of a kg of steam delivered, not the price per tonne or per litre.</p> <p>Regulation matters here. In India most steam boilers above a small size must be registered with and inspected by the state boiler inspectorate before use. They need periodic inspections after that. The operator usually needs a certificate of competency. Emissions from the stack need consent from the state pollution control board. Rules and thresholds change, so check the current requirements with the inspectorate and a qualified boiler consultant before you place an order.</p>"
+  ],
+  [
+   "The questions to ask before you sign",
+   "<p>Founders often buy the boiler last and in a hurry, after the stills have used up the budget. Put these questions to every supplier:</p> <ul><li>What is the rated output from and at 100 °C? What is the actual output at my feed water temperature?</li> <li>What efficiency do you guarantee on my fuel? How is it measured?</li> <li>Who handles registration, drawings and inspection with the state inspectorate?</li> <li>Which water treatment does the warranty require?</li> <li>Where is the nearest service engineer and what spares are held locally?</li></ul> <p>Matching boiler output to still heat-up curves, mash schedules and cleaning cycles is a planning exercise that sits between engineering and distilling. It is worth learning properly before the purchase order goes out.</p>"
+  ],
+  [
+   "Start with a load list",
+   "<p>Before you call a boiler supplier, write a one page load list. Put every steam user on it with its kW demand and the hours it runs. Mark which ones overlap in your busiest production hour. The largest overlapping total, plus your margin, is the boiler size to ask quotes for.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What steam pressure do distillery stills use?",
+   "Many steam heated pot stills run at low pressure, often a few bar gauge. Check the design pressure of your still's jacket or coils with the manufacturer."
+  ],
+  [
+   "Does a small distillery boiler need registration in India?",
+   "In most cases yes. Steam boilers above a small size generally need registration and periodic inspection by the state boiler inspectorate. Check current rules before buying."
+  ],
+  [
+   "How do I size a boiler for a distillery?",
+   "List every steam user with its kW demand and find your heaviest overlapping load. Convert to kg of steam per hour and add a margin for losses and growth."
+  ],
+  [
+   "Is an electric boiler a good idea for a craft distillery?",
+   "It can be where power is reliable and the tariff is reasonable. It avoids a flue and fuel handling but can cost more per kg of steam."
+  ]
+ ],
+ "cta": {
+  "title": "Plan your distillery before you buy the kit",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers mashing, distillation and plant layout so you understand what your stills, boiler and cooling actually need to deliver.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-tun-options-for-a-small-distillery",
+  "small-batch-whisky-blending-at-a-craft-distillery",
+  "distillery-kpis-for-analysts"
+ ]
+}

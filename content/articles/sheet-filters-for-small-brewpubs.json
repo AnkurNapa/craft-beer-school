@@ -1,0 +1,67 @@
+{
+ "slug": "sheet-filters-for-small-brewpubs",
+ "cat": "Brewing science",
+ "h1": "Sheet filters for small brewpubs",
+ "title": "Sheet Filters for Small Brewpubs | Craft Beer School",
+ "desc": "How plate and frame sheet filters work, which sheet grade to use and how to set up, sanitise and run one in a small brewpub.",
+ "teaser": "A sheet filter is the simplest way to polish beer in a brewpub. It is also easy to get papery flavours and infections from one.",
+ "standfirst": "Sheet filters push beer through cellulose pads clamped between plates. They are compact, affordable and familiar to many small breweries. Here is how to choose sheets, prepare the filter and run it without taste or hygiene problems.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "How a sheet filter works",
+   "<p>A plate and frame sheet filter clamps a stack of filter sheets between alternating plates. Beer enters one side of each sheet and leaves the other. The sheets are depth media, typically made of cellulose fibre with other filter aids. They trap particles throughout their thickness rather than only on the surface.</p><p>Common sheet sizes are 40 x 40 cm and 60 x 60 cm. More sheets mean more filter area and a longer run before the sheets clog. Many brewpubs use a 40 x 40 cm filter with 10 to 20 sheets.</p>"
+  ],
+  [
+   "Choose the grade by what you want to remove",
+   "<p>Sheet makers sell grades from coarse to very fine:</p><ul><li><strong>Coarse or clarifying sheets</strong> remove most yeast and larger haze particles.</li><li><strong>Fine or polishing sheets</strong> give bright beer and remove most remaining yeast.</li><li><strong>Germ-reducing sheets</strong> remove most yeast and many bacteria, but are not a guarantee of sterility.</li></ul><p>Many brewpubs settle on one polishing grade after cold conditioning. If beer arrives at the filter very cloudy, the sheets blind quickly. Better settling or a centrifuge upstream extends the run more than coarser sheets. Our guide to <a href=\"atp-swabs-for-quick-hygiene-checks-in-a-small-brewery.html\">ATP swabs</a> helps check that the filter is clean before each run.</p>"
+  ],
+  [
+   "Prepare the sheets properly",
+   "<p>New sheets can give beer a papery or cardboard taste. Flush them with clean water before use, following the maker's guidance, until the water coming out tastes neutral. Then sanitise. Hot water at around 80 to 85 °C for 20 to 30 minutes is common practice for sheet filters. Some brewers use steam where the maker allows it.</p><p>Assemble the filter with the rough side of each sheet facing the incoming beer, as marked by the maker. A reversed sheet filters poorly and can shed fibres. Tighten the frame evenly so the sheets seal at the edges.</p>"
+  ],
+  [
+   "Run it cold and steady",
+   "<p>Filter beer at around -1 to 0 °C. Chill haze proteins form at that temperature and the filter can catch them. Warmer beer may look bright at the filter and haze over in the cold room later.</p><p>Keep the flow steady and do not let pressure spike. Sudden changes push particles through. Watch differential pressure. When it reaches the maker's maximum, the sheets are done. Do not reverse flow to try to clear them. Push beer out with deaerated water or carbon dioxide at the end rather than air, so the filter does not add oxygen.</p>"
+  ],
+  [
+   "Hygiene is the weak point",
+   "<p>Sheets are single use. Re-using them after a break invites bacteria to grow in the damp fibres. The filter frame, plates and seals also harbour beer residue. Clean them after every run according to the maker's instructions and inspect gaskets for wear.</p><p>A sheet filter that is not clean puts bacteria directly into finished beer, with no further step to remove them. In a warm Indian brewpub, that means sour or hazy beer in serving tanks within days. Plating a filtered beer sample from time to time, as in our guide to <a href=\"microbiology-plating-small-brewery.html\">microbiology plating</a>, tells you whether the filter is part of the problem.</p>"
+  ],
+  [
+   "When a sheet filter is the wrong tool",
+   "<p>Sheet filters suit batches of a few hectolitres. For larger volumes, the sheet cost and changeover time add up. They are also not a sterile filter, so beer that must be biologically stable in package needs either pasteurisation or a membrane filter downstream. Check that the chosen sheets do not strip too much body or hop character from your beer by tasting filtered and unfiltered side by side.</p><p>Clean the frame thoroughly with the right chemistry, as in our guide to <a href=\"cip-cleaning-in-place.html\">cleaning in place</a>. Looked after, the filter itself will last for years.</p>"
+  ],
+  [
+   "Run one side-by-side trial",
+   "<p>On your next filtration, pull a sample before and after the filter. Taste them side by side, measure haze if you can and plate the filtered sample. Those three checks tell you whether your sheet grade, flushing routine and hygiene are right.</p><p>Write the results on the batch record with the sheet grade, the number of sheets, the beer temperature and the differential pressure at the end of the run. After a few batches you will know how many hectolitres a set of sheets handles for each beer. That number lets you plan filtration days and order sheets before you run out, which in a brewpub that relies on imported sheets can save a week of cloudy beer.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should I filter beer at?",
+   "Around -1 to 0 °C. Chill haze forms at that temperature, so the filter can remove it."
+  ],
+  [
+   "Can I reuse filter sheets?",
+   "No. Sheets are single use. Re-using damp sheets invites bacterial growth and contaminates beer."
+  ],
+  [
+   "Why does my filtered beer taste papery?",
+   "New sheets were not flushed enough before use. Flush with clean water until the outflow tastes neutral, then sanitise."
+  ]
+ ],
+ "cta": {
+  "title": "Filter for brightness without losing the beer",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers filtration, colloidal stability, microbiology and hygiene, so your sheet filter makes beer brighter, not worse.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cip-cleaning-in-place",
+  "microbiology-plating-small-brewery",
+  "atp-swabs-for-quick-hygiene-checks-in-a-small-brewery"
+ ]
+}

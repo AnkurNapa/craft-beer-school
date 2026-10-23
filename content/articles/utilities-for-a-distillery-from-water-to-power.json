@@ -1,0 +1,71 @@
+{
+ "slug": "utilities-for-a-distillery-from-water-to-power",
+ "cat": "Whisky",
+ "h1": "Utilities for a distillery from water to power",
+ "title": "Distillery Utilities From Water to Power | Craft Beer School",
+ "desc": "The utilities a craft whisky distillery in India needs: water, steam, cooling, power, compressed air and effluent, with how to size each.",
+ "teaser": "Stills get the photographs. Water, steam and cooling decide whether the stills can run at all on a hot afternoon in May.",
+ "standfirst": "A distillery is a heat and water machine. It heats mash, boils wash, condenses vapour and cleans everything. In India's climate, the utilities that do this need careful planning. Here is what each one does and the questions to ask when sizing it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Water for every step",
+   "<p>A distillery uses water in several streams. Mashing water goes into the mash tun, usually in stages at temperatures around 63 to 65 °C for the first water. Cooling water runs through the condensers and wort coolers. Cleaning water washes vessels and floors. Reduction water brings spirit down to filling or bottling strength.</p><p>Each stream needs different quality. Cooling water needs volume and low scaling tendency. Reduction water needs very high quality, usually demineralised, because hardness and minerals can cause haze in the bottle. Our guide to <a href=\"process-water-and-reduction-water-in-a-distillery.html\">process water and reduction water</a> covers treatment in detail.</p>"
+  ],
+  [
+   "Steam does the heavy lifting",
+   "<p>Most craft stills are heated by steam through coils or jackets. Steam also heats mashing water and cleaning solutions. The boiler is therefore the heart of the utility system. Running it is a major share of operating cost.</p><p>Size the boiler for peak demand, which usually happens when a still is heating up while hot water is also being made. Choose the fuel carefully: piped gas, diesel, biomass or other options each have different costs, storage needs and emissions rules. Steam boilers in India must meet the boiler regulations in force and are inspected. Plan condensate return, because hot condensate fed back to the boiler saves fuel and water.</p>"
+  ],
+  [
+   "Cooling is harder in Indian heat",
+   "<p>Condensers turn spirit vapour back into liquid. Ethanol boils at 78.4 °C, so the condenser must remove a lot of heat quickly. The colder the cooling water, the better it works. In much of India, cooling tower water in summer can be around 30 °C or higher, which reduces condenser capacity compared with a cooler climate.</p><p>Size condensers and cooling towers for the hottest month, not the average. If the condenser cannot keep up, vapour can pass through uncondensed, which wastes spirit and creates a fire risk. Some distilleries add chillers for the final stage of cooling. Our guide to <a href=\"cooling-water-for-condensers-in-a-hot-climate.html\">cooling water for condensers in a hot climate</a> goes further.</p>"
+  ],
+  [
+   "Power and backup",
+   "<p>Electricity runs the mill, pumps, agitators, cooling tower fans, compressors, lighting and controls. Grid supply quality varies across India. A power cut in the middle of a still run is a safety issue as well as a production one. Cooling water pumps stopping while a still is hot means vapour reaching places it should not.</p><p>Plan backup generation for at least the critical loads: cooling water pumps, controls, ventilation in spirit areas and emergency lighting. Electrical equipment in hazardous areas must be rated for those zones.</p>"
+  ],
+  [
+   "Compressed air and other services",
+   "<p>Compressed air drives pneumatic valves and some pumps. It needs to be clean and dry. Many distilleries also need carbon dioxide extraction or ventilation around washbacks, because fermentation releases large volumes of CO2, which can build up in low spaces and is dangerous to breathe. Plan ventilation for washback rooms from the start.</p>"
+  ],
+  [
+   "Effluent is a utility too",
+   "<p>Every litre of spirit leaves several litres of pot ale, spent lees and cleaning water behind. Treating that effluent needs energy, space and sometimes water of its own. Pollution control boards set strict conditions on distillery effluent. Many states expect zero liquid discharge. Treat effluent planning as part of the utility design, not as an add-on.</p>"
+  ],
+  [
+   "Estimating demand from the process",
+   "<p>Utility sizing starts with the process numbers. Take a one tonne malt mash as an example. Mashing uses several thousand litres of hot water across the waters. Fermentation produces roughly 5,000 litres of wash at around 8% ABV. The wash still has to heat that whole volume to boiling, then the spirit still heats the low wines and feints. Every one of those steps sets a demand on steam and cooling.</p><p>Your equipment supplier should give heating and cooling loads for each vessel. Add them up for the busiest hour of the production day, not the average. That busiest hour usually comes when a still is heating while the next mash is being prepared.</p><p>Add a margin for growth and for hot weather losses, then size the boiler, cooling towers and backup power from that figure.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>List every utility above in a table with three columns: what uses it, peak demand and where it comes from. Fill in what you know and mark the gaps. Peak steam and cooling demands come from the process itself, so understanding mashing and distillation in detail is what lets you size utilities with confidence.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What utilities does a whisky distillery need?",
+   "Water for mashing, cooling, cleaning and reduction, plus steam, electricity, compressed air, ventilation and effluent treatment."
+  ],
+  [
+   "Why is cooling harder for distilleries in India?",
+   "Cooling water is warmer in hot months, which reduces condenser capacity. Condensers and cooling towers should be sized for the hottest month."
+  ],
+  [
+   "What water is used to reduce whisky?",
+   "Usually demineralised water, because minerals and hardness can cause haze in the bottled whisky."
+  ]
+ ],
+ "cta": {
+  "title": "Size your utilities from the process",
+  "body": "Craft Distilling is our four week live course (₹9,999), on Saturday and Sunday afternoons with recordings and weekly assignments. It explains mashing, distillation and cooling in the detail you need to size water, steam and cooling for your plant.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "process-water-and-reduction-water-in-a-distillery",
+  "distillery-water-rights-and-borewell-planning",
+  "distillery-kpis-for-analysts"
+ ]
+}

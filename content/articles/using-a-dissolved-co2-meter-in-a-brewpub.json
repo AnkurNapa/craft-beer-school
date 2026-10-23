@@ -1,0 +1,67 @@
+{
+ "slug": "using-a-dissolved-co2-meter-in-a-brewpub",
+ "cat": "Brewing science",
+ "h1": "Using a dissolved CO2 meter in a brewpub",
+ "title": "Using a Dissolved CO2 Meter in a Brewpub | Craft Beer School",
+ "desc": "How dissolved CO2 meters work, how to sample without losing gas and how to use the readings to carbonate every brite tank to target.",
+ "teaser": "A dissolved CO2 meter turns 'it seems fizzy enough' into a number you can repeat every batch.",
+ "standfirst": "Most brewpubs carbonate by time and taste. A dissolved carbon dioxide meter replaces guesswork with a number. Here is how the common meters work, how to take a sample that tells the truth and what targets to aim for.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a number beats a guess",
+   "<p>Carbonation shapes how a beer smells, tastes and pours. Too low and it feels flat and heavy. Too high and it foams, bites and hides aroma. Most brewpubs judge it by tasting from the tank and by how long the stone has run. Both vary with the brewer and the day.</p><p>A meter gives you a reading in volumes or grams per litre. One volume is about 1.96 g of carbon dioxide per litre. A typical lager target of 2.5 to 2.7 volumes is roughly 4.9 to 5.3 g per litre. Once you measure, you can repeat it.</p>"
+  ],
+  [
+   "How the meters work",
+   "<p>The traditional meter is a piercing device with a pressure gauge and thermometer. You take a closed sample, shake it until the gas in the headspace reaches equilibrium with the beer, then read pressure and temperature. A chart converts the two readings into volumes. These devices are robust and affordable for a brewpub.</p><p>Electronic meters do the same job with less operator influence. Some use pressure and temperature in a measuring chamber. Others expand the sample volume in steps and calculate carbon dioxide from the pressure changes, which separates it from other gases such as air. They cost more but give faster and more repeatable readings.</p>"
+  ],
+  [
+   "Sampling is where errors start",
+   "<p>The biggest error is not the meter. It is losing gas while sampling. A few rules help:</p><ul><li>Sample from a clean, sanitised valve connected directly to the meter under pressure.</li><li>Flush the line first so you are not measuring stale beer.</li><li>Keep the sample at tank temperature. Warm sample lines release gas.</li><li>Avoid foaming. Foam is carbon dioxide leaving the beer.</li><li>Shake properly with piercing meters. Too little and you read low.</li></ul><p>Take two readings and compare them. If they disagree by more than about 0.1 volume, look at your technique before blaming the meter.</p>"
+  ],
+  [
+   "Targets by style",
+   "<p>Typical carbonation ranges are well established:</p><ul><li>British cask-style ales: about 1 to 1.5 volumes.</li><li>Most ales and lagers in keg or bottle: about 2.3 to 2.8 volumes.</li><li>German wheat beers: often 3.5 volumes or more.</li></ul><p>Pick a target for each house beer and write it on the recipe. Then measure every brite tank before it goes to serving tanks, kegs or bottles. Our guide to <a href=\"spunding-explained.html\">spunding</a> shows how to get part of the way there naturally during fermentation.</p>"
+  ],
+  [
+   "Use it alongside oxygen",
+   "<p>Many brewpubs that buy a carbon dioxide meter later add a dissolved oxygen meter. The two answer different questions. Carbon dioxide tells you whether the beer will feel right. Oxygen tells you whether it will stay fresh. Both are measured from the same tank at the same time. Our guide to <a href=\"measuring-dissolved-oxygen.html\">measuring dissolved oxygen</a> covers the second.</p><p>Gas quality links them too. Carbonation gas carrying oxygen raises dissolved oxygen as it raises carbon dioxide. Our guide to <a href=\"co2-in-the-brewery.html\">CO2 in the brewery</a> covers purity.</p>"
+  ],
+  [
+   "Keep the meter honest",
+   "<p>Calibrate or check the meter as the maker recommends. Check the thermometer against a reference and replace seals and needles on schedule. Clean it after every use, because beer drying in the chamber or piercer harbours bacteria. In a hot kitchen or cellar, store it somewhere cool and dry.</p><p>A meter that reads a steady 0.2 volumes low is still useful for repeating a known result. A meter that wanders is worse than none, because it gives false confidence.</p>"
+  ],
+  [
+   "Log every tank from today",
+   "<p>Add a carbonation column to your brite tank log: target volumes, measured volumes, temperature and the time the stone ran. After ten batches, look at the spread. If measured carbonation sits within 0.1 volume of target every time, your process is under control. If it does not, the log shows where to start.</p><p>Look for patterns. If one tank always reads low, check its stone and its temperature probe. If one brewer's readings always run high, watch how they sample. If readings drift upward through the week, look at the cellar temperature. A meter is cheap compared with a returned keg, but only if someone looks at what it says and acts on it. That habit of reading the numbers across batches, not one at a time, is what separates a measured brewpub from one that merely owns instruments.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I convert volumes of CO2 to grams per litre?",
+   "Multiply by about 1.96. So 2.5 volumes is about 4.9 g of carbon dioxide per litre."
+  ],
+  [
+   "Is a dissolved CO2 meter worth it for a small brewpub?",
+   "Yes, if consistent carbonation matters to you. Even a basic piercing meter replaces guesswork with a repeatable number."
+  ],
+  [
+   "Why do my CO2 readings vary?",
+   "Usually because gas escapes during sampling: warm lines, foaming or too little shaking. Fix the sampling before recalibrating the meter."
+  ]
+ ],
+ "cta": {
+  "title": "Measure what you serve",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers carbonation, dissolved gases, quality measurement and process control, so every beer leaves the tank at the number you set.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "co2-in-the-brewery",
+  "measuring-dissolved-oxygen",
+  "spunding-explained"
+ ]
+}

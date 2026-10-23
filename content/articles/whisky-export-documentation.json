@@ -1,0 +1,67 @@
+{
+ "slug": "whisky-export-documentation",
+ "cat": "Whisky",
+ "h1": "Whisky export documentation",
+ "title": "Whisky Export Documentation Explained | Craft Beer School",
+ "desc": "The documents behind a whisky export from India: invoice, packing list, shipping bill, certificate of origin, lab analysis and the excise side.",
+ "teaser": "A whisky export can be held at port for want of one certificate. Here is the paperwork, document by document.",
+ "standfirst": "Exporting whisky means satisfying Indian excise, Indian customs and the importing country, each with its own papers. This guide walks through the documents at process level so planners, finance and supply chain teams know what each one is for.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Three authorities, one shipment",
+   "<p>A case of whisky leaving India has to satisfy three sets of rules. The <strong>state excise department</strong> controls the spirit from distillation to the moment it leaves the bonded warehouse. <strong>Indian customs</strong> clears the goods out of the country. The <strong>importing country</strong> decides whether the product may enter, how it must be labelled and what duty it pays.</p><p>Each authority wants its own documents. A mistake in any one stops the shipment. Rules vary by state and by destination and they change, so exporters work from the current notification and usually use a customs broker and a freight forwarder. This guide describes the process. It is not legal advice.</p>"
+  ],
+  [
+   "The excise side: removing spirit without duty",
+   "<p>Whisky for export does not pay Indian state excise duty, because it is not being consumed in India. Instead, the exporter applies to the state excise department for permission to remove the goods from the bonded warehouse for export, typically under a bond or undertaking that the goods will leave the country. Once the shipment is proved to have been exported, the bond is discharged.</p><p>In practice this means an export permit or pass with a validity period, the bottles or bulk containers checked against it and proof of export filed afterwards. If the shipment misses its vessel and the permit expires, the paperwork starts again.</p>"
+  ],
+  [
+   "The commercial documents",
+   "<p>These are the papers every export carries, whatever the product.</p><ul><li><strong>Commercial invoice:</strong> seller, buyer, description, quantity, value, currency and the agreed Incoterm, such as FOB (free on board) or CIF (cost, insurance and freight).</li><li><strong>Packing list:</strong> cases per pallet, bottles per case, gross and net weights and marks on each case.</li><li><strong>Shipping bill:</strong> the export declaration filed with Indian customs, carrying the tariff classification and value.</li><li><strong>Bill of lading or air waybill:</strong> the carrier's receipt and contract of carriage.</li></ul><p>Whisky is classified under tariff heading 2208.30 in the international Harmonised System. Getting the code and the description right on every document matters, because a mismatch between invoice and shipping bill is one of the most common reasons for a query at port.</p>"
+  ],
+  [
+   "Certificates the buyer will ask for",
+   "<p>The importer's own customs and food authorities usually want proof of what the product is and where it was made. Expect some or all of these, depending on the destination:</p><ul><li><strong>Certificate of origin:</strong> confirms the goods were produced in India. It can also qualify for lower duty under a trade agreement.</li><li><strong>Certificate of analysis:</strong> a laboratory report on the batch, typically covering alcoholic strength and limits such as methanol.</li><li><strong>Age or maturation certificate:</strong> where the label carries an age statement or the destination defines whisky by minimum maturation.</li><li><strong>Free sale or health certificate:</strong> confirms the product is lawfully sold or fit for consumption in the country of origin.</li></ul><p>Our guide to <a href=\"methanol-limits-and-testing-in-spirits.html\">methanol limits and testing in spirits</a> explains one of the analyses buyers ask for most often.</p>"
+  ],
+  [
+   "Labels for the destination market",
+   "<p>An Indian state label will not do for an export market. The importing country sets its own rules on what the label must say: product name, alcohol by volume, volume, origin, importer details, allergens, health warnings and the language. Some markets require label approval before the first shipment arrives.</p><p>Definitions matter too. Many countries require whisky to be matured for a minimum time in wooden casks. Scotch, for comparison, must be matured for at least three years in oak casks in Scotland. A product sold as whisky in India must meet the definition in the destination to be called whisky there.</p>"
+  ],
+  [
+   "What it means on the production floor",
+   "<p>Export runs are planned like a special edition. They often need a different bottle size (700 ml is common in the European Union, against 750 ml in India), a different strength and their own labels and cartons. The bottling team needs the approved artwork and the final quantity well before the permit window opens. One wrong carton print on a pallet of 50 cases means relabelling under excise supervision.</p><p>Keep a retained sample from every export batch with its certificate of analysis. If the importer raises a quality claim months later, that bottle is your evidence.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Ask your export or logistics team for the document pack from one recent shipment. Lay out the invoice, packing list, shipping bill and certificate of origin side by side and check that product description, quantity, strength and tariff code match on all four. Where they do not, you have found the next query at port before it happens.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What tariff code is used for whisky?",
+   "Whisky falls under heading 2208.30 of the Harmonised System. Countries add their own digits after that, so check the full code for the destination."
+  ],
+  [
+   "Does exported whisky pay Indian excise duty?",
+   "Generally no, because it is not consumed in India. It leaves the bonded warehouse under an export permit and bond, which is discharged once export is proved. Procedures vary by state."
+  ],
+  [
+   "Why do buyers ask for a certificate of analysis?",
+   "It proves the batch meets the destination's limits, typically alcoholic strength and contaminants such as methanol."
+  ]
+ ],
+ "cta": {
+  "title": "Give your team a clear view of how whisky crosses borders",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "how-whisky-is-made",
+  "malt-grain-and-blended-whisky",
+  "whisky-styles-of-the-world"
+ ]
+}

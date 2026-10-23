@@ -1,0 +1,70 @@
+{
+ "slug": "factory-acceptance-testing-before-your-brewhouse-ships",
+ "cat": "Business",
+ "h1": "Factory acceptance testing before your brewhouse ships",
+ "title": "Factory Acceptance Testing a Brewhouse | Craft Beer School",
+ "desc": "What to test, measure and sign off at the supplier's factory before a new brewhouse is crated and shipped to your brewery.",
+ "teaser": "Once the brewhouse is in a container, every fault costs ten times more to fix. Find them at the factory.",
+ "standfirst": "A factory acceptance test is your last chance to see the brewhouse working before it is crated and shipped. Done properly, it turns the supplier's promises into a signed checklist. Done as a factory tour with lunch, it is worth nothing.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the test happens before shipping",
+   "<p>A factory acceptance test, or FAT, is a set of checks run at the supplier's works with the equipment assembled. The point is simple. Fixing a leaking weld or a miswired pump at the factory takes the supplier an afternoon. Fixing it after the brewhouse has crossed an ocean and been rigged into your basement takes weeks, flights and arguments about who pays.</p><p>Write the FAT into the purchase contract with a payment milestone attached. A common pattern is that a share of the price is released only after a signed FAT report. That gives the test teeth.</p>"
+  ],
+  [
+   "Agree the test plan in advance",
+   "<p>Ask the supplier for a written FAT protocol at least a few weeks before the date. It should list every check, how it will be done and what counts as a pass. Compare it line by line with your <a href=\"brewhouse-size-guide.html\">brewhouse specification</a> and add anything missing.</p><p>Decide who attends. If you cannot travel, appoint an independent engineer or ask for a live video walk-through with the camera under your control, not theirs. A pre-recorded video of a perfect test proves very little.</p>"
+  ],
+  [
+   "Pressure and leak tests",
+   "<p>Every pressure-rated vessel, such as unitanks, bright tanks and the hot liquor tank if it is pressurised, should be hydrostatically tested. The test pressure is typically set at around 1.3 to 1.5 times the design pressure, held for a stated time with no drop on the gauge. Ask to see the gauge's calibration certificate as well as the reading.</p><p>Check jackets as well as vessels. A leaking glycol jacket inside insulation is invisible until beer starts warming or glycol shows up where it should not. Ask for jacket pressure tests in the report.</p>"
+  ],
+  [
+   "The wet run",
+   "<p>The most useful test is running the brewhouse on water. Fill the vessels, heat the hot liquor tank, run the pumps, transfer between vessels and run the chiller if it is connected. While it runs, check:</p><ul><li>Heating time to a set temperature against the supplier's claim.</li><li>Pump flow rates and whether the pumps cavitate or rattle.</li><li>Leaks at every clamp, valve, sight glass and manway.</li><li>Rakes, agitators and motors running in the right direction without grinding.</li><li>Spray balls covering the inside of each vessel, checked with the manway open.</li><li>Whether every vessel drains completely, with no puddles left on the floor of the tank.</li></ul><p>That last one matters more than it looks. Water left behind in a vessel becomes a home for bacteria between brews.</p>"
+  ],
+  [
+   "Controls, welds and paperwork all need checking",
+   "<p>Go through the control panel input by input. Every temperature probe should read correctly against a reference thermometer, within about half a degree. Every valve and pump should respond to its button or screen command. Every alarm should trigger. Ask the engineer to simulate a probe failure and show what the system does.</p><p>Confirm you will receive the PLC code, the electrical drawings and any passwords. Brewers who skip this often find themselves paying the supplier for every change later.</p><p>Look inside the vessels with a torch. Internal welds on product surfaces should be ground smooth and passivated, with no crevices, discolouration or weld spatter. Measure a few dimensions against the drawings: vessel heights, port positions and platform heights.</p><p>Then check the paperwork you will need in India. That means material test certificates, pressure test reports, drawings, manuals and the packing list. Customs and your own installers will both want them. Photograph every nameplate and serial number before crating.</p>"
+  ],
+  [
+   "The punch list and signing off",
+   "<p>Few FATs pass first time with no comments. That is normal. Write every fault on a punch list with an owner and a date. Sort it into items that must be fixed before shipping and minor items that can be fixed on site. Sign the FAT report only when the first group is closed and you have evidence, ideally photos or a short retest.</p><p>A FAT checklist is one of the most practical documents a founder can own. It also takes some brewing judgement to know which faults matter and which do not. That judgement is what we teach founders to build.</p>"
+  ],
+  [
+   "Bring the right kit with you",
+   "<p>Whoever attends should carry a few simple tools: a calibrated reference thermometer, a torch, a tape measure, a camera and a printed copy of the specification and drawings. A small mirror on a stick helps see welds behind pipework. A stopwatch, or a phone, times heating and transfers.</p><p>Plan for at least a full day for a small brewhouse and two for a larger system with fermenters. Rushing a FAT to catch a flight is how the punch list ends up half written. Ask for a quiet room to go through the paperwork away from the noise of the shop floor.</p>"
+  ],
+  [
+   "What to do this week",
+   "<p>If your brewhouse is on order, open the contract and look for the words factory acceptance test. If they are not there, ask the supplier today for a written FAT protocol and a date. Link part of the next payment to signing it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a factory acceptance test for a brewhouse?",
+   "It is a set of checks run at the supplier's factory before shipping: pressure tests, a wet run on water, control checks and a document review. Faults found are fixed before the equipment leaves."
+  ],
+  [
+   "Do I need to attend the FAT in person?",
+   "It is best to attend or send an independent engineer. A live video test with the camera under your direction is a second choice. Pre-recorded videos prove very little."
+  ],
+  [
+   "What pressure is a brewery tank tested at?",
+   "Hydrostatic tests are typically set at around 1.3 to 1.5 times the design pressure, held with no pressure drop. The exact value should come from the design standard named in your contract."
+  ]
+ ],
+ "cta": {
+  "title": "Buy your brewhouse with your eyes open",
+  "body": "Brewery Business Management is three weeks of live weekend classes, Saturdays and Sundays from 12:00 PM to 2:00 PM IST. Batches are capped at 20 people. You get recordings, weekly assignments and a certificate. We cover equipment buying, contracts and commissioning so founders know what to check before money moves.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "brewhouse-size-guide",
+  "brewpub-layout-kitchen-brewhouse-bar"
+ ]
+}

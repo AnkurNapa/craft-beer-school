@@ -1,0 +1,67 @@
+{
+ "slug": "mousy-taint-in-wild-and-sour-beers-and-how-to-test-for-it",
+ "cat": "Tasting",
+ "h1": "Mousy taint in wild and sour beers and how to test for it",
+ "title": "Mousy Taint in Sour Beer: How to Test | Craft Beer School",
+ "desc": "What mousy taint is, why you cannot smell it in the glass, the compounds Brett and lactic bacteria make and simple tests for it.",
+ "teaser": "Mousy taint hides in the glass and shows up ten seconds after you swallow. Here is how to catch it before customers do.",
+ "standfirst": "Mousy taint is the fault that wild and sour brewers dread most, partly because many tasters cannot detect it at all. It does not show on the nose, it lingers after swallowing and it can ruin a barrel programme. This guide covers the chemistry and the tests.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What mousy tastes like",
+   "<p>Mousy taint is usually described as the smell of a mouse cage, rodent bedding, stale crackers or cooked rice that has gone off. Some tasters say it is like popcorn or cereal at low levels, then turns unpleasant. The key feature is timing: it does not appear on the nose and barely registers as the beer crosses the tongue. It builds after swallowing, often ten to thirty seconds later and it lingers on the back of the palate long after the beer is gone.</p><p>That delayed, persistent finish is what makes it so damaging. A drinker gets a pleasant first impression and an unpleasant memory.</p>"
+  ],
+  [
+   "The compounds and the organisms",
+   "<p>Mousy taint comes from a small group of nitrogen-containing ring compounds, chiefly 2-acetyltetrahydropyridine (ACTPY), 2-ethyltetrahydropyridine (ETPY) and 2-acetyl-1-pyrroline (APY). They are made by <em>Brettanomyces</em> and by some lactic acid bacteria, including strains of <em>Lactobacillus</em>. The compounds were first studied in wine, where mousiness has been known for a long time. Wild and mixed fermentation beers carry the same risk for the same reasons.</p><p>Production is linked to the amino acid lysine, the presence of ethanol and exposure to oxygen. Our guide to <a href=\"lactobacillus-and-pediococcus-in-beer.html\">Lactobacillus and Pediococcus in beer</a> covers the bacteria side in more depth.</p>"
+  ],
+  [
+   "Why the nose misses it",
+   "<p>At beer pH, typically 3.2 to 3.8 for a sour, these compounds are mostly in a charged, non-volatile form. They cannot rise out of the glass, so you cannot smell them. In the mouth, saliva raises the pH. The compounds shift to their volatile form and reach the nose from behind as you breathe out. That is why the taint appears late and sits at the back of the palate.</p><p>The second complication is people. A significant share of tasters are insensitive to mousy compounds. A brewer who cannot detect it can release a mousy barrel with full confidence. Every wild programme needs at least one taster known to be sensitive.</p>"
+  ],
+  [
+   "How to test for it",
+   "<p>Because the problem is pH, the tests raise the pH outside the mouth:</p><ol><li><strong>The hand test.</strong> Put a drop of beer on the back of your clean hand or between finger and thumb. Rub it in and smell. Skin is less acidic than beer and the volatile form is released. A mousy beer becomes obvious.</li><li><strong>The bicarbonate test.</strong> Add a small pinch of sodium bicarbonate (baking soda) to around 20 ml of beer in a glass, swirl and smell. The rise in pH frees the compounds. Run a clean beer alongside as a control.</li><li><strong>Delayed tasting.</strong> Taste, swallow, then wait thirty seconds before breathing out slowly through the nose. Note anything that builds.</li></ol><p>None of these tests measures concentration. They tell you whether it is there. For a release decision on a barrel, run them blind with several tasters. A <a href=\"triangle-test.html\">triangle test</a> against a known clean sample is the most reliable way to settle a dispute.</p>"
+  ],
+  [
+   "What raises the risk in a sour programme",
+   "<p>Brewers who run barrel and mixed fermentation programmes tend to see mousiness linked to a few conditions:</p><ul><li><strong>Oxygen exposure</strong> during transfers, topping up and barrel storage.</li><li><strong>High final pH.</strong> Sours that finish above about 3.6 give the organisms more room.</li><li><strong>Stalled or incomplete fermentation</strong> leaving nutrients behind for spoilage organisms.</li><li><strong>Bottle conditioning with active Brett</strong> and oxygen picked up at packaging.</li><li><strong>Warm storage.</strong> In an Indian summer a barrel room without cooling runs well above the 12 to 15 °C cellar that most wild brewers aim for.</li></ul><p>Some brewers report mousiness fading with months of time in bottle, but that is not reliable enough to plan around.</p>"
+  ],
+  [
+   "Prevention beats rescue",
+   "<p>There is no practical treatment that removes mousy taint from finished beer. Blending a mousy barrel into a large clean batch dilutes it, but it can also push the whole blend over the threshold for sensitive drinkers. Most brewers would rather dump than risk it.</p><p>Keep transfers closed and purged with carbon dioxide, top up barrels, measure pH at packaging and keep the barrel room cool. Test every barrel before blending, not just the blend.</p><p>Your first step: open a sour you trust and one you suspect, run the hand test on both side by side and note which tasters on your team can pick the difference.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why can't I smell mousy taint in the glass?",
+   "At beer pH the compounds are not volatile. Saliva raises the pH in your mouth, which frees them, so the taint appears after swallowing."
+  ],
+  [
+   "What causes mousy taint in beer?",
+   "Compounds such as ACTPY, ETPY and APY made by Brettanomyces and some lactic acid bacteria, linked to lysine, ethanol and oxygen exposure."
+  ],
+  [
+   "How do you test beer for mousy taint?",
+   "Rub a drop on the back of your hand and smell it, or add a pinch of baking soda to a small sample. Both raise the pH and release the compounds."
+  ],
+  [
+   "Can everyone taste mousy taint?",
+   "No. Many people are insensitive to it, so wild programmes need at least one taster known to detect it."
+  ]
+ ],
+ "cta": {
+  "title": "Build a panel that catches faults before release",
+  "body": "Sensory Evaluation is our two week live course (₹5,999). It covers off-flavour training, threshold testing and triangle tests so your release decisions rest on evidence, not one person's palate.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "triangle-test",
+  "how-to-taste-sour-beer-without-the-acidity-flattening-your",
+  "the-beer-clean-glass-test-and-why-bubbles-stick-to-dirty"
+ ]
+}

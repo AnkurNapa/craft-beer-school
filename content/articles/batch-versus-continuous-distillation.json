@@ -1,0 +1,75 @@
+{
+ "slug": "batch-versus-continuous-distillation",
+ "cat": "Whisky",
+ "h1": "Batch versus continuous distillation",
+ "title": "Batch Versus Continuous Distillation | Craft Beer School",
+ "desc": "How batch pot still distillation differs from continuous column distillation, what each does to flavour and cost and why whisky uses both.",
+ "teaser": "One still empties and refills. The other never stops. That one difference shapes the flavour and price of every whisky.",
+ "standfirst": "Whisky is made two ways: in batches in pot stills or continuously in columns. Each method suits a different spirit and a different scale. This guide explains both in plain terms.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Batch distillation in a pot still",
+   "<p>In batch distillation, a still is filled with a set volume of liquid, heated until it has given up its alcohol, emptied and refilled. A malt whisky pot still might run for six to eight hours per spirit run. The strength coming off the still falls through the run, so the distiller must decide which part to keep.</p><p>Most malt whisky is distilled twice. The wash still turns an 8% wash into low wines of around 20 to 25% ABV. The spirit still turns low wines into new make at about 68 to 72% ABV. Some Irish and a few Scottish distilleries distil three times. Our guide to <a href=\"double-distillation-explained.html\">double distillation</a> covers the two runs.</p>"
+  ],
+  [
+   "Continuous distillation in a column",
+   "<p>In continuous distillation, wash flows into a column and steam flows up through it without stopping. The column has many plates. On each one, rising vapour meets falling liquid. Each plate works like a small still. Spirit is drawn off at a steady strength from a fixed point in the column.</p><p>The best known design is the two column Coffey still, patented in 1830. It produces grain whisky at around 94% ABV. Other column designs can reach 95 to 96% ABV, the strength of neutral spirit used for vodka and as the base for many spirits.</p>"
+  ],
+  [
+   "What each does to flavour",
+   "<p>A pot still keeps more of the compounds that give character: fruity esters, oils, cereal notes and some sulphur that copper later removes. The spirit is heavier and more varied from distillery to distillery. Still shape, lyne arm angle, run speed and cut points all leave a mark.</p><p>A column separates far more precisely. The higher the strength, the fewer congeners survive. Grain whisky is light, sweet and creamy. Neutral spirit has almost no character from its raw material at all. That is why pot still spirit carries a distillery's name with pride and grain whisky is mostly used in blends.</p>"
+  ],
+  [
+   "What each does to cost",
+   "<p>Batch distillation is slow and labour heavy. Each run needs filling, heating, cutting, emptying and periodic cleaning. Heat is wasted every time the still cools down. Output is limited by how many runs fit into a day.</p><p>Continuous columns run for days or weeks between cleans. Heat recovery is built in. One control room can run a large plant. The cost per litre of pure alcohol is much lower, which is part of why blended whisky costs less than single malt.</p>"
+  ],
+  [
+   "Where the rules come in",
+   "<p>Some whisky definitions name the still. Scotch single malt must be distilled in pot stills at a single distillery. Single pot still Irish whiskey, as the name says, must come from pot stills. Bourbon has no still rule but must be distilled to no more than 80% ABV, which keeps it far from neutral spirit. Scotch grain whisky must be distilled to less than 94.8% ABV.</p><p>India has its own rules for what can be called whisky, which differ from these and can change. Anyone making or buying spirit for a brand should check the current notification.</p>"
+  ],
+  [
+   "Batch and continuous in Indian whisky",
+   "<p>Much Indian whisky is made from column distilled spirit, often from molasses, blended with smaller amounts of malt or grain whisky. Indian single malts use pot stills in the Scottish way. Both are batch and continuous distillation at work. Our guide to <a href=\"pot-still-vs-column-still.html\">pot still versus column still</a> shows the kit side by side.</p><p>The heat matters for both. Warm cooling water reduces condenser capacity on pot stills and columns alike, so distilleries in hot regions plan their cooling for the hottest months.</p>"
+  ],
+  [
+   "Some distilleries use both",
+   "<p>The line between batch and continuous is not always clean. Some American whiskey distilleries run a continuous column, often called a beer still, followed by a batch pot still known as a doubler or thumper. The column strips the alcohol cheaply and the pot still finishes the spirit with more character. Hybrid stills on craft sites put a pot and a short column in one unit and can be run either way.</p><p>Grain distilleries also run their columns in a kind of campaign: they start up, run continuously for days or weeks, then shut down for cleaning. So even continuous plants have a rhythm. What matters for flavour is the strength the spirit is drawn at and how much reflux and copper contact it meets on the way.</p>"
+  ],
+  [
+   "Why the difference is worth knowing",
+   "<p>If you work in whisky or plan to, the still type explains a lot: why a blend tastes softer than a single malt, why one bottle costs more than another and why a craft distillery's first spirit tastes heavy and young. Learn to see the still behind the label and the rest of whisky starts to fall into place.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between batch and continuous distillation?",
+   "Batch distillation fills, runs and empties a pot still for each run. Continuous distillation feeds wash into a column without stopping and draws off spirit at a steady strength."
+  ],
+  [
+   "Which method makes single malt whisky?",
+   "Single malt Scotch must be made by batch distillation in pot stills at a single distillery."
+  ],
+  [
+   "Is continuous distillation cheaper?",
+   "Generally yes. Columns run for long periods with built in heat recovery and less labour, so the cost per litre of pure alcohol is lower."
+  ],
+  [
+   "Why is grain whisky lighter than malt whisky?",
+   "It is distilled continuously to around 94% ABV, which removes more of the flavour compounds that survive in pot still spirit at about 70% ABV."
+  ]
+ ],
+ "cta": {
+  "title": "Learn how still choice shapes every whisky",
+  "body": "Craft Distilling is our four week live course (₹9,999), on Saturdays and Sundays with recordings and a certificate. It covers mashing, fermentation, pot and column distillation and maturation, with the numbers behind each step.",
+  "href": "craft-distilling-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "double-distillation-explained",
+  "triple-distillation-explained",
+  "batch-records-and-traceability-in-a-distillery"
+ ]
+}

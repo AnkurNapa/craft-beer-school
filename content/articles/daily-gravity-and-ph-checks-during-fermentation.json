@@ -1,0 +1,67 @@
+{
+ "slug": "daily-gravity-and-ph-checks-during-fermentation",
+ "cat": "Brewing science",
+ "h1": "Daily gravity and pH checks during fermentation",
+ "title": "Daily Gravity and pH Checks | Craft Beer School",
+ "desc": "Why to measure gravity and pH every day during fermentation, how to take good samples and the readings that warn you of trouble early.",
+ "teaser": "Two numbers a day, taken the same way, tell you more about a fermentation than any amount of staring at the airlock.",
+ "standfirst": "Daily gravity and pH readings are the cheapest quality control a brewery has. They take five minutes. They catch slow yeast, infection and temperature failures days before a tasting would. Here is how to do them properly and what to look for.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why every day and not just at the end",
+   "<p>A single reading at the end tells you where a fermentation finished. Daily readings tell you how it got there. That shape is where the warnings are. A ferment that drops fast for three days then flattens out is behaving differently from one that crawls steadily, even if both finish at the same gravity.</p><p>The daily rhythm also builds discipline. The same person checking the same tanks at the same hour spots small changes: a krausen that dropped early, a smell that is off, a temperature display stuck on one number. The numbers start the conversation. The walk round the tanks finishes it.</p><p>Plot the readings and you have a fermentation curve. Once you have a few curves for the same beer, you know what normal looks like. Our guide to <a href=\"reading-a-fermentation-curve.html\">reading a fermentation curve</a> explains the phases. The daily habit is what makes the curve possible.</p>"
+  ],
+  [
+   "Taking a sample that tells the truth",
+   "<p>Bad sampling ruins good instruments. A few rules keep readings honest:</p><ul><li>Sample at the same time each day, from the same valve.</li><li>Sanitise the valve before and after. Run off a small amount to waste first, so you are not reading stale beer sitting in the valve.</li><li>Degas the sample by pouring it back and forth or stirring. Bubbles hold a hydrometer up and read high.</li><li>Measure at the instrument's calibration temperature, usually 20 °C, or correct for temperature.</li></ul><p>Never return a sample to the tank. Write the reading down immediately, with the tank temperature at the same moment.</p>"
+  ],
+  [
+   "Hydrometer, refractometer or digital meter",
+   "<p>A glass hydrometer is cheap and reliable if you read it at eye level and correct for temperature. A digital density meter is faster and more precise. Many breweries move to one as volume grows.</p><p>A refractometer is handy for wort but misleading once fermentation starts. Alcohol bends light too, so a raw refractometer reading on fermenting beer reads high. You need a correction formula that uses the original gravity. For daily checks during fermentation, use a hydrometer or density meter as your reference.</p>"
+  ],
+  [
+   "What the pH curve tells you",
+   "<p>Wort usually goes into the fermenter at about pH 5.2 to 5.5. Healthy yeast pulls that down quickly. Most of the drop happens in the first 24 to 48 hours. Finished beer usually sits around pH 4.0 to 4.5 depending on the style. Our guide to <a href=\"what-the-ph-drop-during-fermentation-tells-a-brewer.html\">the pH drop during fermentation</a> covers the chemistry.</p><p>Three patterns are worth knowing. A slow or shallow drop in the first two days points to weak or under-pitched yeast. A pH that keeps falling well below 4.0 in a beer that should not be sour points to lactic bacteria. A pH that rises late in conditioning can mean yeast is breaking down. None of these is proof on its own, but each tells you where to look.</p>"
+  ],
+  [
+   "Warning signs in the gravity readings",
+   "<p>Gravity readings carry their own signals:</p><ul><li><strong>No drop after 24 to 36 hours</strong> on an ale: check pitch, oxygen and temperature.</li><li><strong>Two identical readings well above target</strong>: the ferment has stalled. Rouse the yeast or raise the temperature a couple of degrees.</li><li><strong>Readings below the expected finish</strong>: possible wild yeast or diastaticus. Plate a sample.</li><li><strong>A fast drop on a hot day</strong>: check whether the cooling held. Fermentation heat can push a tank several degrees above setpoint.</li></ul><p>Run a forced fermentation test on each new recipe: a small sample with extra yeast kept warm. It shows the lowest gravity the wort can reach, so you know whether a high finish is a yeast problem or a wort problem.</p>"
+  ],
+  [
+   "Keep the meters honest too",
+   "<p>A pH meter drifts. Calibrate it daily with fresh pH 4 and pH 7 buffers, rinse the probe between samples and store it in storage solution, never in distilled water. Check the hydrometer in distilled water at 20 °C now and then: it should read 1.000.</p><p>Keep the records for every batch, not only the problem ones. A brewery with fifty logged batches of its flagship knows its normal range. A brewery with five does not. Over time, the archive tells you when a yeast generation started to drift or when a malt lot changed the finish.</p><p>The readings are only half the value. Turning daily numbers into decisions, such as when to start a diacetyl rest, when to crash or when to plate, is a skill built on fermentation science.</p><p>Your first step: print a simple sheet for each fermenter with columns for date, time, temperature, gravity and pH. Fill it in every day for one full batch and plot it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How often should I check gravity during fermentation?",
+   "Once a day at the same time. Daily readings show the shape of the fermentation, which is where early warnings appear."
+  ],
+  [
+   "Can I use a refractometer during fermentation?",
+   "Only with a correction formula. Alcohol affects the reading, so a raw refractometer reading on fermenting beer reads high."
+  ],
+  [
+   "What pH should finished beer be?",
+   "Most finished beers sit around pH 4.0 to 4.5. Sour beers go well below that by design."
+  ],
+  [
+   "What does a stalled gravity reading look like?",
+   "Two identical readings on consecutive days, well above the expected finishing gravity. That is the moment to check temperature and rouse the yeast."
+  ]
+ ],
+ "cta": {
+  "title": "Turn daily readings into decisions",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers fermentation monitoring, yeast health and microbiology so you know what each reading means and what to do next.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-the-ph-drop-during-fermentation-tells-a-brewer",
+  "reading-a-fermentation-curve",
+  "finished-beer-ph-and-what-it-says-about-fermentation"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "ethyl-carbamate-in-spirits",
+ "cat": "Whisky",
+ "h1": "Ethyl carbamate in spirits",
+ "title": "Ethyl Carbamate in Spirits | Craft Beer School",
+ "desc": "How ethyl carbamate forms in grain and fruit spirits, the guideline levels used abroad and the copper, barley and storage choices that keep it low.",
+ "teaser": "Ethyl carbamate is a contaminant you cannot taste. Distillers control it with barley choice, copper and a dark store.",
+ "standfirst": "Ethyl carbamate forms naturally in fermented and distilled drinks. Regulators abroad watch it closely in spirits, so a distillery planning to export should understand where it comes from. Here is the chemistry in plain terms and the controls that work.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What ethyl carbamate is",
+   "<p>Ethyl carbamate, also called urethane, is a compound that forms when ethanol reacts with cyanate or with urea. The International Agency for Research on Cancer classifies it as probably carcinogenic to humans (Group 2A). That classification is why food safety authorities set guideline levels for it in spirits and wine.</p><p>It has no smell or taste that a panel could pick out at the levels found in drinks. You cannot manage it by tasting. You manage it by understanding its precursors and testing the spirit, usually by gas chromatography with a mass spectrometer.</p>"
+  ],
+  [
+   "Where it comes from in grain spirit",
+   "<p>In malt and grain whisky the main route starts in the barley. Some barley varieties make a compound called epiheterodendrin in the growing shoot during malting. It is a cyanogenic glycoside, often discussed by maltsters as glycosidic nitrile (GN). In the wash it can break down to release cyanide. In the still, cyanide is converted to cyanate, which then reacts with ethanol to form ethyl carbamate. Much of that reaction continues after distillation, in the spirit receiver and in the cask.</p><p>The Scotch whisky industry tackled this by moving to barley varieties that produce little or no GN. If you buy distilling malt, ask your maltster for the GN status of the variety. Indian six row barley has its own profile, so ask for data rather than assuming.</p>"
+  ],
+  [
+   "Where it comes from in fruit spirit",
+   "<p>Stone fruit spirits are the high risk category. Cherry, plum and apricot stones contain amygdalin, another cyanogenic glycoside. Crushing stones releases it, fermentation breaks it down and the cyanide ends up in the spirit. Light then speeds the reaction to ethyl carbamate in the bottle, which is why some fruit brandies rise in ethyl carbamate on a sunny shelf.</p><p>The controls are practical: avoid crushing stones, distil soon after fermentation, separate heads and tails carefully and store spirit away from light. For a craft distillery making a mango or jamun spirit, the same logic applies to any fruit with cyanogenic seeds.</p>"
+  ],
+  [
+   "Copper is the distiller's main defence",
+   "<p>Copper in the still binds cyanide and removes much of it before it reaches the spirit. This is one more reason copper pot stills and copper packing in columns earn their place. A still with plenty of active copper surface in the vapour path catches more. A stainless still with little copper catches less.</p><p>Copper surfaces only work while they are clean and reactive. Our guide to <a href=\"copper-levels-in-spirit.html\">copper levels in spirit</a> explains the balance between enough copper contact and too much copper in the final product.</p>"
+  ],
+  [
+   "Guideline levels you will meet",
+   "<p>India does not stand alone here, so look at what your export markets use. Health Canada has long applied a guideline of 150 micrograms per litre for distilled spirits and 400 micrograms per litre for fruit brandies. In the European Union, a Commission recommendation sets a target of 1 milligram per litre for stone fruit spirits and asks producers to apply a code of practice.</p><p>Rules and buyer specifications change. Before exporting, ask the importer which limits they test against, then test a retained sample of the actual batch in an accredited laboratory. For India, check the current FSSAI standards for alcoholic beverages.</p>"
+  ],
+  [
+   "A control plan on one page",
+   "<ul><li>Specify low GN barley or ask the maltster for GN data on each lot.</li><li>Keep copper surfaces active and inspect the still on a schedule.</li><li>For fruit, avoid crushing stones and distil promptly.</li><li>Store spirit and bottled product away from direct light and heat.</li><li>Test new recipes, then test on a fixed schedule once the process is stable.</li></ul><p>In a hot Indian warehouse, keep bottled fruit spirits in their cartons and off sunlit floors. That habit costs nothing.</p>"
+  ],
+  [
+   "Urea is the other route",
+   "<p>Cyanate is the main precursor in spirits, but urea matters in some fermented drinks. Yeast releases urea as it breaks down arginine, an amino acid. Over long storage, urea and ethanol react slowly to form ethyl carbamate, a reaction that speeds up with heat. Wine and fermented rice drinks are where this route gets most attention.</p><p>For a distiller, the practical point is that urea does not distil over in a meaningful way, so the wash route matters less than the cyanide route. It still argues for healthy fermentations and against adding urea based yeast nutrients to a distilling wash, a practice the wine industry moved away from for this reason.</p>"
+  ],
+  [
+   "Start with the malt contract",
+   "<p>The cheapest control is upstream. If the barley does not carry the precursor, the still has less to remove. This is the kind of link between raw material, process and safety that makes distilling a technical trade. It is worth understanding properly before you plan <a href=\"glass-bottle-supply-for-spirits.html\">bottles and labels for export</a>.</p><p>Your first step: email your maltster today and ask for the glycosidic nitrile status of the barley in your next malt delivery.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is ethyl carbamate?",
+   "A compound that forms when ethanol reacts with cyanate or urea. It is classified as probably carcinogenic to humans, so regulators set guideline levels in spirits."
+  ],
+  [
+   "How does copper reduce ethyl carbamate?",
+   "Copper in the still binds cyanide, a key precursor, so less of it reaches the spirit to form ethyl carbamate later."
+  ],
+  [
+   "Why are stone fruit spirits higher in ethyl carbamate?",
+   "Stones contain amygdalin, which releases cyanide during fermentation. Light then speeds its conversion to ethyl carbamate in the spirit."
+  ]
+ ],
+ "cta": {
+  "title": "Control the contaminants buyers test for",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers raw materials, fermentation, still design, copper and spirit testing so safety congeners are managed from grain to bottle.",
+  "label": "See the full syllabus",
+  "href": "craft-distilling-course.html"
+ },
+ "related": [
+  "whisky-tasting-for-beginners",
+  "methanol-limits-and-testing-in-spirits",
+  "glass-bottle-supply-for-spirits"
+ ]
+}

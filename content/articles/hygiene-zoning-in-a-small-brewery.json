@@ -1,0 +1,71 @@
+{
+ "slug": "hygiene-zoning-in-a-small-brewery",
+ "cat": "Brewing science",
+ "h1": "Hygiene zoning in a small brewery",
+ "title": "Hygiene Zoning in a Small Brewery | Craft Beer School",
+ "desc": "How to divide a small brewery into hygiene zones, control movement of people, tools and hoses and keep spoilers away from clean beer.",
+ "teaser": "Most brewery infections walk in. Zoning decides where people, hoses and boots can go and keeps the dirty side away from the clean side.",
+ "standfirst": "Zoning is a simple idea borrowed from food factories: some areas need more care than others, so you control what moves between them. A small brewery can apply it with paint, buckets and a few rules.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Not every area carries the same risk",
+   "<p>A brewery has areas where contamination hardly matters and areas where it ruins beer. The grain store and mill room are dusty, but nothing there touches finished beer. The brewhouse handles wort that is boiled. The cold side handles fermenting and finished beer that will never be heated again. Packaging is where beer is most exposed before it reaches the drinker.</p><p>Zoning means ranking these areas by risk and controlling movement between them. Its goal is simple: microbes, dust and dirt should move from clean areas to dirty ones, never the other way.</p>"
+  ],
+  [
+   "A simple three zone map",
+   "<p>Most small breweries manage with three zones:</p><ul><li><strong>General</strong>: grain store, mill, spent grain area, deliveries, office. Dust and outside dirt are expected.</li><li><strong>Hot side</strong>: mash tun, kettle, whirlpool. Wort is boiled, so the risk to beer is lower, but grain dust and hop debris should not travel further in.</li><li><strong>Cold side and packaging</strong>: heat exchanger outlet, fermenters, bright tanks, filler, keg washer. This is the high hygiene zone. Everything that touches beer here must be clean and sanitised.</li></ul><p>Draw the map on a floor plan and put it on the wall. If you run a sour or Brettanomyces programme, it needs its own zone, which our guide to <a href=\"adding-a-sour-or-barrel-programme-without-infecting-the.html\">adding a sour programme</a> covers.</p>"
+  ],
+  [
+   "Colour code tools and hoses",
+   "<p>The cheapest control is colour. Give each zone its own colour for brushes, buckets, scoops and squeegees. Red for general areas, blue for the hot side and white or green for the cold side is one common scheme. A blue brush found in the packaging hall tells you something has gone wrong.</p><p>Hoses matter even more. A transfer hose that lay on the brewhouse floor yesterday should not be connected to a bright tank today. Keep cold side hoses on wall racks, ends capped or hung down to drain, cleaned and sanitised before use.</p>"
+  ],
+  [
+   "People and footwear",
+   "<p>People carry more contamination than anything else. Staff walking from the spent grain skip to the bright tank room bring soil and microbes with them. Basic controls:</p><ul><li>Dedicated boots for the cold side or a boot wash at the entry.</li><li>Hand wash station with soap and a sanitiser at the entry to the cold zone.</li><li>Clean overalls or aprons for packaging work.</li><li>A rule that people move from clean to dirty during a shift, not back again without washing.</li></ul><p>Visitors and taproom staff need the same rules. In a brewpub, the most common breach is a server cutting through the cold room to fetch kegs.</p>"
+  ],
+  [
+   "Floors, drains and standing water",
+   "<p>Drains are a reservoir for spoilage organisms. Lactic acid bacteria, Pectinatus and wild yeasts all thrive in the warm, damp, nutrient rich film in a brewery drain. In Indian heat, with floor temperatures often above 25 °C, that film grows fast.</p><p>Clean drains daily with a brush and detergent, then sanitise. Never hose a drain at high pressure next to an open fermenter or filler, because the spray carries aerosol a long way. Slope floors so water runs away from tanks, not under them. Puddles that never dry are a warning sign.</p>"
+  ],
+  [
+   "Checking that zoning works",
+   "<p>Zoning only works if you test it. Swab surfaces in each zone on a schedule: filler nozzles, tank valves, hose ends, door handles, drains. ATP swabs give a same day answer on surface cleanliness. Plating tells you which organisms are present. Our guide to <a href=\"microbiology-plating-small-brewery.html\">microbiology plating</a> explains the basics.</p><p>Look for trends rather than single results. If drain swabs in the packaging hall show beer spoilers, the next step is checking whether those spoilers are turning up in packaged beer.</p>"
+  ],
+  [
+   "Equipment that crosses zones",
+   "<p>Some equipment has to move between zones: pumps, hoses, sample jugs, ladders and trolleys. Each is a way for contamination to travel. Give mobile equipment a home zone and a rule for crossing. A pump that moves between the brewhouse and the cold side must be cleaned and sanitised, inside and out, before it crosses.</p><p>Keg handling is a common gap. Kegs return from bars and restaurants with dirt on the outside and old beer inside. Wash and inspect them in the general zone before they enter the cold side for filling.</p><p>Raw materials need thought as well. Hop pellets and yeast arrive from outside. Wipe down cartons and pouches before they come into the cold side. Open yeast in a clean area with sanitised tools. Each of these is a small step, but zoning works through dozens of small, consistent steps rather than one large investment.</p>"
+  ],
+  [
+   "Start with one boundary",
+   "<p>A small brewery cannot rebuild its layout. It can still draw one firm line, usually at the door into the cold side. Then enforce it. Once that boundary holds, add colour coding, then drain routines, then swabbing.</p><p>Designing a hygiene system that fits a cramped brewpub rather than a textbook factory is part of what we teach on the advanced course.</p><p>Your first step: buy one set of brushes and buckets in a single colour today and keep them on the cold side only.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is hygiene zoning in a brewery?",
+   "Dividing the brewery into areas by contamination risk and controlling how people, tools and hoses move between them, from clean to dirty."
+  ],
+  [
+   "Which brewery area needs the highest hygiene?",
+   "The cold side and packaging, because beer there will not be heated again before it reaches the drinker."
+  ],
+  [
+   "Should sour beer production be zoned separately?",
+   "Yes. Souring bacteria and Brettanomyces need their own equipment and area so they cannot spread to clean beers."
+  ]
+ ],
+ "cta": {
+  "title": "Build hygiene into the layout, not just the rota",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers hygiene design, cleaning chemistry and brewery microbiology so you can set up zones that hold in a real, cramped brewery.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "atp-swabs-for-quick-hygiene-checks-in-a-small-brewery",
+  "microbiology-plating-small-brewery",
+  "propagating-yeast-in-a-small-brewery-from-a-lab-culture"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "measuring-ibu-in-a-small-brewery-lab",
+ "cat": "Brewing science",
+ "h1": "Measuring IBU in a small brewery lab",
+ "title": "Measuring IBU in a Small Brewery Lab | Craft Beer School",
+ "desc": "The standard IBU method step by step: iso-octane extraction, a UV reading at 275 nm and the multiplier, plus where it misleads.",
+ "teaser": "IBU is one absorbance reading times 50. Getting that reading right is where small labs go wrong.",
+ "standfirst": "Measuring bitterness units needs a UV spectrophotometer, a shaker, a centrifuge and some careful chemistry. It is well within reach of a small brewery lab. The method is simple. Doing it the same way every time is the hard part.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The method in one paragraph",
+   "<p>The standard method, published by both the ASBC and the EBC, works like this. Take a measured volume of cold, degassed beer, usually 10 millilitres. Acidify it with a small amount of hydrochloric acid so the hop acids move out of the beer. Add 20 millilitres of iso-octane (2,2,4-trimethylpentane) and a drop of octanol to stop foaming. Shake hard for 15 minutes. Separate the layers, centrifuging if needed. Read the absorbance of the iso-octane layer at 275 nanometres against a pure iso-octane blank. Multiply by 50. That number is the bitterness units, or IBU.</p>"
+  ],
+  [
+   "The kit you need",
+   "<ul><li><strong>A UV-capable spectrophotometer.</strong> It must read at 275 nanometres. Many cheap visible-range instruments start at 340 nanometres and cannot do this test.</li><li><strong>Quartz cuvettes.</strong> Glass and most plastics absorb ultraviolet light and will give nonsense readings.</li><li><strong>A mechanical shaker</strong> set to a fixed speed, so every sample gets the same extraction.</li><li><strong>A centrifuge</strong> for samples that form an emulsion between the layers.</li><li><strong>Accurate pipettes</strong> and spectroscopy grade iso-octane.</li></ul><p>Iso-octane is flammable and its vapour should not be breathed. Work in a fume hood or at least a well ventilated bench away from flames, wear gloves and goggles and keep a solvent waste container. Our guide to <a href=\"using-a-spectrophotometer-for-beer-colour-and-bitterness.html\">using a spectrophotometer for colour and bitterness</a> covers instrument set-up.</p>"
+  ],
+  [
+   "Where small labs get the wrong number",
+   "<p>Most errors come from preparation rather than the instrument:</p><ul><li><strong>Foam and gas.</strong> Undegassed beer carries carbon dioxide that makes volumes inaccurate. Degas by pouring between beakers or gentle stirring. Keep the beer cold.</li><li><strong>Inconsistent shaking.</strong> Hand shaking gives different extraction each time. Use a shaker and a timer.</li><li><strong>Emulsions.</strong> A cloudy layer between beer and solvent traps hop acids. Centrifuge rather than guess.</li><li><strong>Dirty cuvettes.</strong> A fingerprint absorbs ultraviolet light. Handle cuvettes by the frosted sides only.</li><li><strong>Readings out of range.</strong> Very bitter beers can push absorbance high enough to lose accuracy. Dilute and correct rather than reading off the top of the scale.</li></ul><p>The floor detail we would insist on: run one control beer every time you test, a commercial beer or a frozen batch of your own with a known value. If the control drifts, the day's results are suspect.</p>"
+  ],
+  [
+   "IBU is not the same as iso-alpha-acids",
+   "<p>The 275 nanometre reading picks up iso-alpha-acids, but also other compounds that absorb there: unisomerised alpha acids, oxidised hop acids and some polyphenols. In a beer bittered only in the kettle, IBU tracks iso-alpha-acids reasonably well. In a heavily dry-hopped beer, it does not. Dry hopping adds compounds such as humulinones that raise the reading. A hazy IPA can measure higher than its taste suggests or the other way round.</p><p>For a true iso-alpha-acid figure you need HPLC, which separates the compounds. Most small breweries send a few samples a year to an outside lab for that and use the IBU method for routine work.</p>"
+  ],
+  [
+   "Using IBU to improve the brewhouse",
+   "<p>One number on a finished beer is trivia, however carefully you measured it. Measured consistently, IBU becomes a tool:</p><ol><li>Measure kettle-knockout wort and finished beer for each batch of a core brand to see your losses through fermentation.</li><li>Compare calculated IBU from your recipe software with what you measure. The gap is your real hop utilisation, which depends on your kettle, boil vigour and hop stand.</li><li>Track the same brand over months. A sudden fall points to a new hop lot, a change in alpha acid or a process slip.</li><li>Measure retained samples during storage to see how much your beer loses on the shelf.</li></ol><p>Linking those measurements to process decisions is where lab work pays for itself.</p>"
+  ],
+  [
+   "Start with one brand and one month",
+   "<p>Do not try to test everything at once. Pick your best selling hoppy beer and measure it at knockout and at packaging for every batch over a month. Our guide to <a href=\"how-much-bitterness-beer-loses-in-storage.html\">how much bitterness beer loses in storage</a> explains what to do next with retained samples.</p><p>Your first step: check whether your spectrophotometer reads at 275 nanometres and whether you have quartz cuvettes. If either answer is no, that is the purchase to plan before any other lab kit.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How is IBU calculated?",
+   "Hop acids are extracted from acidified beer into iso-octane. The absorbance of that solvent layer is read at 275 nanometres. The reading multiplied by 50 gives the bitterness units."
+  ],
+  [
+   "Can I use plastic cuvettes for IBU?",
+   "No. Most plastics and ordinary glass absorb ultraviolet light at 275 nanometres. Use quartz cuvettes."
+  ],
+  [
+   "Is IBU accurate for hazy IPAs?",
+   "Less so. Dry hopping adds compounds that also absorb at 275 nanometres, so IBU and perceived bitterness can differ. HPLC gives a specific iso-alpha-acid figure."
+  ],
+  [
+   "Is iso-octane dangerous?",
+   "It is flammable and its vapour should not be inhaled. Use it in a fume hood or a well ventilated area away from flames, with gloves and eye protection."
+  ]
+ ],
+ "cta": {
+  "title": "Build a lab routine you can trust",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers lab methods for bitterness, colour, yeast and microbiology, with the theory to know when a number is lying.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "microbiology-plating-small-brewery",
+  "propagating-yeast-in-a-small-brewery-from-a-lab-culture",
+  "measuring-head-retention-in-a-brewery-lab"
+ ]
+}

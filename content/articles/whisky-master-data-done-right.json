@@ -1,0 +1,67 @@
+{
+ "slug": "whisky-master-data-done-right",
+ "cat": "Whisky",
+ "h1": "Whisky master data done right",
+ "title": "Whisky Master Data Done Right | Craft Beer School",
+ "desc": "How to structure whisky master data so sales, finance and excise agree: liquid, pack, state version, strength and cask lineage.",
+ "teaser": "Most whisky reporting problems start in the SKU master. Fix the structure and half the arguments disappear.",
+ "standfirst": "Whisky companies run on master data that was rarely designed. SKUs get created in a hurry for a new state or a festive pack. Years later nobody can say how many products the company sells. Here is the structure we would use, built from how whisky is actually made and sold.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Separate the liquid from the pack",
+   "<p>The most common mistake is treating the SKU as the only level. A whisky product has at least three layers that change at different speeds:</p><ul><li><strong>Liquid:</strong> the blend or single malt, with its recipe, age statement and bottling strength.</li><li><strong>Pack:</strong> the bottle size and format, such as 750 ml, 375 ml, 180 ml or a gift pack.</li><li><strong>Market version:</strong> the state label with its approved MRP, codes and statutory text.</li></ul><p>A sellable SKU is a combination of all three. Store each layer as its own entity with its own attributes. When a state changes its MRP, only the market version changes. When the blend is reformulated, only the liquid changes.</p>"
+  ],
+  [
+   "Strength is a core attribute, not a note",
+   "<p>Whisky is taxed, reported and produced in terms of alcohol. Every liquid record needs its bottling strength as a number, such as 42.8% ABV, not buried in a description. Every pack record needs its volume in millilitres. Together they give litres of absolute alcohol (LAL) per bottle: a 750 ml bottle at 42.8% holds 0.321 LAL.</p><p>With those two numbers stored cleanly, the system can convert any sales figure into nine-litre cases, bulk litres or LAL without lookup tables maintained by hand. Our guide to <a href=\"whisky-for-it-and-data-teams.html\">whisky for IT and data teams</a> explains why LAL matters so much.</p>"
+  ],
+  [
+   "Brand hierarchy that marketing recognises",
+   "<p>Above the liquid sits the brand hierarchy: category, brand family, brand, variant. The category might be Indian whisky, Indian single malt, Scotch or bourbon. Variants are the expressions within a brand, such as a standard blend and a premium one.</p><p>Agree the hierarchy with brand teams and freeze it. Keep price band as a separate attribute at the market version level, because the same liquid can sit in different bands in different states once duty is added. Mixing price band into the brand hierarchy is a reliable way to break year-on-year comparisons.</p>"
+  ],
+  [
+   "Every state version needs dates",
+   "<p>State attributes change. Excise departments approve labels and prices, often for an excise year running April to March in many states. A version without dates rewrites history whenever a price changes.</p><p>Give each market version an effective-from and effective-to date, the approved MRP, the approval reference and status. Keep superseded versions. A sale in January must still point to the price that was valid in January. Rules vary by state and change often, so the compliance team should own these fields and the data team should own the structure.</p>"
+  ],
+  [
+   "Link bottles back to casks",
+   "<p>For matured whisky, master data does not stop at the SKU. Bottling batches draw from vats that drew from casks. Each cask has its own record: number, fill date, wood type, previous contents, fill strength and warehouse. The age on a label refers to the youngest whisky in the bottle, so lineage from bottling batch to every contributing cask has to be reliable.</p><p>That lineage is what lets the quality team trace a complaint, the blender plan future stock and finance value maturing inventory. A good test: pick any bottling batch and see if you can list its casks in under five minutes.</p>"
+  ],
+  [
+   "Governance keeps it clean",
+   "<p>Structure decays without rules. Set a short checklist for creating any new SKU: liquid exists, pack exists, state approval reference entered, strength and volume filled, brand hierarchy assigned. Block creation until all are present.</p><p>Assign an owner for each layer. Brand teams own the hierarchy. Quality owns liquid attributes. Compliance owns state versions. Supply chain owns packs and dry goods. Review duplicates every quarter. Most portfolios carry dead SKUs from old festive packs and discontinued state labels that clutter every report.</p>"
+  ],
+  [
+   "Where training changes the outcome",
+   "<p>Master data projects fail when the people maintaining the data do not understand the product. Someone who knows why a 180 ml pack for one state cannot be sold in another will not merge those SKUs. Someone who has seen a cask warehouse will protect the lineage. That understanding usually takes a guided session on the product more than another data standard.</p><p>A practical first step: export your SKU list and count how many records have no numeric ABV or volume. That number is your clean-up backlog. Our guide to <a href=\"building-a-whisky-sales-dashboard.html\">building a whisky sales dashboard</a> shows what clean data makes possible.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the most important field in whisky master data?",
+   "Strength and volume, stored as numbers. Together they give litres of absolute alcohol, which drives excise, production and sales reporting."
+  ],
+  [
+   "Why does one whisky have so many SKUs?",
+   "Each pack size and each state label creates a separate sellable SKU, often with its own approved MRP."
+  ],
+  [
+   "Who should own whisky master data?",
+   "Split ownership by layer: brand teams for the hierarchy, quality for the liquid, compliance for state versions and supply chain for packs."
+  ]
+ ],
+ "cta": {
+  "title": "Master data that sales, finance and excise agree on",
+  "body": "Our Data and AI in beverages module teaches data teams how whisky is made, taxed and sold, so the structure they build matches the product. It is built around your own portfolio.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "whisky-depletion-data-explained",
+  "whisky-for-it-and-data-teams",
+  "how-whisky-is-made"
+ ]
+}

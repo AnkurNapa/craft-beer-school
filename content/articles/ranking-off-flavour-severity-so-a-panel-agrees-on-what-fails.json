@@ -1,0 +1,71 @@
+{
+ "slug": "ranking-off-flavour-severity-so-a-panel-agrees-on-what-fails",
+ "cat": "Tasting",
+ "h1": "Ranking off-flavour severity so a panel agrees on what fails",
+ "title": "Ranking Off-Flavour Severity on a Panel | Craft Beer School",
+ "desc": "How to build an off-flavour severity scale with spiked anchors and a clear fail line so your brewery panel agrees on which batches go out.",
+ "teaser": "Everyone on the panel smelt the diacetyl. Half passed the beer anyway. A severity scale fixes that argument.",
+ "standfirst": "Detecting a fault is the easy part. The hard part is getting six tasters to agree on whether it is bad enough to hold a tank. A written severity scale with physical anchors turns that debate into a decision.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Detection is not the same as a verdict",
+   "<p>Most brewery panels are trained to notice faults. Fewer are trained to grade them. The result is a familiar meeting: three people mark diacetyl present, two of them call it minor, one wants to dump and the head brewer makes the call on mood. Nobody learns anything and the next batch gets the same argument.</p><p>A severity scale separates two questions. Is the fault there? How much does it matter for this beer? The first is about thresholds. The second is about intensity and context. It needs its own words and its own anchors.</p>"
+  ],
+  [
+   "Build a short scale with fixed words",
+   "<p>Keep the scale small. A four or five point scale is easier to calibrate than a ten point one, because tasters cannot hold ten distinct levels in memory. A practical version:</p><ol><li><strong>0, not detected.</strong></li><li><strong>1, just detectable.</strong> Found only when looking for it.</li><li><strong>2, noticeable.</strong> A trained taster finds it unprompted, a drinker probably would not.</li><li><strong>3, clear.</strong> A regular drinker could notice something is off.</li><li><strong>4, dominant.</strong> The fault defines the beer.</li></ol><p>Write the fail line next to the scale before anyone tastes. A common house rule is that any score of 3 fails. So does a 2 on a fault the brand cannot carry, such as diacetyl in a pale lager, also fails. Writing it down first stops the line moving to suit a full cold room.</p>"
+  ],
+  [
+   "Anchor every level with a spiked sample",
+   "<p>Words alone drift. Anchors keep them honest. Take your flagship beer, split it and spike each portion with a known dose of the compound. Diacetyl is the usual starting point because it is common and its flavour threshold in lager is often quoted around 0.1 mg/L. Spike at roughly one, two and four times that figure and label the cups as levels 1, 2 and 3.</p><p>Spiking kits from flavour standard suppliers make this repeatable. Our guide to <a href=\"off-flavour-spiking-kits.html\">off-flavour spiking kits</a> covers how to dose them. Taste the anchors at the start of each calibration session. Over a few weeks the panel's 2 starts to mean the same thing for everyone.</p>"
+  ],
+  [
+   "Context changes the score that fails",
+   "<p>The same intensity can be fine in one beer and fatal in another. A trace of 4-vinyl guaiacol is the signature of a hefeweizen and a fault in a Pilsner. Low diacetyl suits some English bitters and ruins a helles. Write the tolerance per brand, not per compound.</p><p>A simple grid works: brands down the side, the main faults across the top and a maximum allowed score in each cell. Our <a href=\"phenolic-off-flavours.html\">phenolic off-flavours</a> guide is useful when you set the phenol column, because clove, plastic and smoky phenols need different limits.</p>"
+  ],
+  [
+   "Check that the panel actually agrees",
+   "<p>Agreement is something you measure, not something you assume. After each session, put the scores in a sheet and look at the spread for each sample. If one taster is regularly two points away from the group, they need more anchor work or the compound is below their threshold. If the whole panel scatters across the scale on one fault, the anchors for that fault are not doing their job.</p><p>This is where a data habit pays off. Keep every score with the taster, date, batch and anchor used. After twenty or thirty sessions you can see which tasters are reliable on which faults. Then you can weight the release decision accordingly. A spreadsheet with conditional formatting is enough to start. Turning those numbers into a release rule the whole team trusts is the part a short guide cannot teach.</p>"
+  ],
+  [
+   "Handle the borderline batch the same way every time",
+   "<p>Borderline batches cause the most friction. Decide the rule in advance: for example, a split between 2 and 3 means a retaste the next day by the three most reliable tasters on that fault. If a lab number exists, such as a vicinal diketone result, it settles the tie. Record the outcome so the next borderline call can refer back to it.</p><p>In a hot Indian summer, also check the sample temperature. Beer served at 12 °C instead of 4 °C reads stronger on many faults. A warm sample can turn a 2 into a 3 with no change in the beer.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Pick one fault your brewery has argued about in the last month. Spike your flagship at one, two and four times the threshold for that compound this week. Taste the three cups with the panel, agree which number each deserves and write the fail line on the wall above the tasting bench.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many points should an off-flavour severity scale have?",
+   "Four or five points is usually enough. Tasters struggle to hold more distinct intensity levels in memory, so a longer scale adds noise rather than precision."
+  ],
+  [
+   "What is a good first compound to anchor a panel on?",
+   "Diacetyl is a common choice because it turns up often and has a widely quoted lager threshold around 0.1 mg/L, which makes spiking at set multiples easy."
+  ],
+  [
+   "Should the fail line be the same for every beer?",
+   "No. Set a maximum score per brand and fault. Clove phenols are expected in a hefeweizen and a fault in a Pilsner."
+  ],
+  [
+   "How do I know if the panel agrees?",
+   "Record every score and look at the spread per sample. Persistent outliers need retraining. Wide scatter on one fault means its anchors need rework."
+  ]
+ ],
+ "cta": {
+  "title": "Get your panel to agree on what fails",
+  "body": "Sensory Evaluation is our two week live course (₹5,999), taught on Saturdays and Sundays. It covers thresholds, spiked anchors, severity scaling and panel statistics so release decisions rest on data rather than the loudest taster.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "off-flavour-spiking-kits",
+  "beer-flavour-wheel",
+  "phenolic-off-flavours"
+ ]
+}

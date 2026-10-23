@@ -1,0 +1,67 @@
+{
+ "slug": "cartridge-and-sterile-filtration-for-packaged-beer",
+ "cat": "Brewing science",
+ "h1": "Cartridge and sterile filtration for packaged beer",
+ "title": "Sterile Filtration for Packaged Beer | Craft Beer School",
+ "desc": "How cartridge filters and membrane filtration remove spoilage organisms from packaged beer, plus prefilters, integrity tests and sanitising.",
+ "teaser": "A 0.45 micron membrane can make beer biologically stable without heat. It only works if the whole line stays clean behind it.",
+ "standfirst": "Cartridge and membrane filtration removes yeast and spoilage bacteria from beer before packaging, as an alternative to pasteurisation. Here is how the filter train is built, how to prove a membrane is intact and where the method fails.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Cold stabilisation without heat",
+   "<p>Packaged beer that leaves the brewery unpasteurised and unfiltered carries live yeast and possibly bacteria. In a warm supply chain they can grow, causing haze, sourness or over-carbonation. Pasteurisation solves this with heat. Membrane filtration solves it by physically removing the organisms.</p><p>Brewing yeast cells are typically 5 to 10 microns across. Most beer spoilage bacteria are smaller, often around 0.5 to 1 micron wide. A membrane rated at 0.45 microns retains them reliably when it is intact and correctly installed. Some brewers use 0.65 micron membranes as a compromise between flow and retention.</p>"
+  ],
+  [
+   "A filter train, not a single filter",
+   "<p>A membrane would clog in minutes if it saw cloudy beer. So the filter is the last step in a train:</p><ul><li><strong>Clarification upstream.</strong> Cold conditioning, finings, a centrifuge, DE or sheet filtration removes most yeast and haze.</li><li><strong>Depth prefilter cartridges.</strong> Often rated around 1 to 5 microns, they catch fines that got through and protect the membrane.</li><li><strong>Membrane cartridges.</strong> The final 0.45 or 0.65 micron stage that removes spoilage organisms.</li></ul><p>Housings are stainless steel. Cartridges slot in and seal with O-rings. The cartridges are consumables. How long they last depends heavily on how clear the beer is when it arrives. Our guide to <a href=\"beer-filtration-basics.html\">beer filtration basics</a> covers the upstream steps.</p>"
+  ],
+  [
+   "Prove the membrane is intact",
+   "<p>A damaged membrane looks the same as a good one. A pinhole or a bad O-ring lets bacteria straight through. That is why sterile filtration depends on integrity testing.</p><p>The common tests are the bubble point test and the diffusion or pressure hold test. Both wet the membrane, apply gas pressure to one side and measure how gas passes through. An intact membrane holds pressure up to a value set by its pore size. A damaged one fails. Cartridge makers publish the test values for each product. Test before and after each run. Keep the records.</p><p>Plating confirms the result. Sample filtered beer and plate it on selective media, as in our guide to <a href=\"diastaticus-yeast-and-the-risk-of-over-carbonated-packaged.html\">diastaticus yeast and over-carbonated packages</a>, which explains why that yeast is such a concern.</p>"
+  ],
+  [
+   "Sanitise everything downstream",
+   "<p>Sterile filtration only works if nothing reinfects the beer afterwards. Every pipe, valve, tank and filler after the membrane must be sanitised. Hot water at around 80 to 85 °C for 20 to 30 minutes, or steam where allowed, is common for the filter housing and cartridges. Follow the cartridge maker's limits on temperature, pressure and cycles.</p><p>The filler is often the weakest link. Sterile filtration feeding a filler that is not cleaned to the same standard achieves little. Brewers call the whole approach sterile filling. It requires real discipline.</p>"
+  ],
+  [
+   "Effect on flavour and haze",
+   "<p>A well-run membrane removes organisms with little impact on flavour. It can, however, remove some colloidal material and slightly reduce body or foam if the beer is borderline. Hop-derived haze in hazy beers can be stripped, so membrane filtration does not suit beers sold as hazy.</p><p>Colloidal stability is a separate issue. A beer can be biologically stable after filtration and still haze from proteins and polyphenols. Our guide to <a href=\"silica-gel-or-pvpp-for-colloidal-stability-in-packaged-beer.html\">silica gel or PVPP for colloidal stability</a> covers that side.</p>"
+  ],
+  [
+   "When to choose it over pasteurisation",
+   "<p>Membrane filtration suits breweries that want to avoid heat flavour, have good clarification upstream and can manage clean filling. Pasteurisation suits beers that are hazy, fruited or sweet and breweries that cannot guarantee hygiene after the filter. Some breweries use both for different products.</p><p>Cost is real. Cartridges are expensive and blinding them with poorly clarified beer burns money. A brewery that skips the prefilter to save cost usually spends more on membranes.</p>"
+  ],
+  [
+   "Track cartridge life from the start",
+   "<p>If you run cartridge filtration, start a log: cartridge serial numbers, hectolitres filtered, differential pressure at start and end, integrity test results and plate results. After a month you will know your real cost per hectolitre and whether your prefiltration is protecting the membranes.</p><p>Look closely at any run where differential pressure climbed unusually fast. That usually points back upstream: a tank that was not cold enough, a short conditioning time or a centrifuge that needed attention. Fixing the beer arriving at the filter is the cheapest way to extend cartridge life.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What size filter removes bacteria from beer?",
+   "A membrane rated at 0.45 microns is the usual choice for removing beer spoilage bacteria. Some brewers use 0.65 microns for higher flow."
+  ],
+  [
+   "How do I know a membrane filter is working?",
+   "Run an integrity test such as a bubble point or pressure hold test before and after each run, then plate filtered beer to confirm."
+  ],
+  [
+   "Does sterile filtration change beer flavour?",
+   "Usually very little when the beer is well clarified. It can strip haze and slightly reduce body or foam on borderline beers."
+  ]
+ ],
+ "cta": {
+  "title": "Choose stability methods you can defend",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers filtration, pasteurisation, microbiology and packaging hygiene, so you can choose and run the stabilisation method your beer needs.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-filtration-basics",
+  "diastaticus-yeast-and-the-risk-of-over-carbonated-packaged",
+  "silica-gel-or-pvpp-for-colloidal-stability-in-packaged-beer"
+ ]
+}

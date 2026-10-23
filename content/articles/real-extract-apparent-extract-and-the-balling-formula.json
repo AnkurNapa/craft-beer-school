@@ -1,0 +1,67 @@
+{
+ "slug": "real-extract-apparent-extract-and-the-balling-formula",
+ "cat": "Brewing science",
+ "h1": "Real extract, apparent extract and the Balling formula",
+ "title": "Real Extract and the Balling Formula | Craft Beer School",
+ "desc": "What original, apparent and real extract mean, how the Balling formula links them and how to calculate alcohol from extract by hand.",
+ "teaser": "One relationship worked out in the 1840s still ties together every gravity number on your brew sheet.",
+ "standfirst": "Original extract, apparent extract and real extract are three views of the same fermentation. The Balling formula connects them and gives you alcohol by weight without a lab. Here is how it works and how to use it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Three extracts, one fermentation",
+   "<p>Extract is everything dissolved in wort that is not water: sugars, dextrins, proteins, minerals. Brewers measure it in degrees Plato, where 1 °P is roughly 1 g of extract per 100 g of wort.</p><ul><li><strong>Original extract (OE)</strong> is the extract before fermentation. A typical lager wort sits at 11 to 12 °P.</li><li><strong>Apparent extract (AE)</strong> is what a hydrometer or density meter reads in the finished beer. Alcohol is lighter than water, so this reading is lower than the truth.</li><li><strong>Real extract (RE)</strong> is the extract actually left in the beer, measured once the alcohol has been removed.</li></ul><p>A lab finds real extract by distilling off the alcohol, making the residue back up to the original weight with water and reading its density. Most breweries do not distil every batch, which is where Balling comes in.</p>"
+  ],
+  [
+   "What Balling worked out",
+   "<p>Carl Balling, a chemist in Prague, studied fermentation in the 1840s. He measured how much extract the yeast uses to make a given amount of alcohol. His figure, still used today, is that 2.0665 g of extract yields 1 g of ethanol, 0.9565 g of carbon dioxide and 0.11 g of new yeast mass.</p><p>That ratio is the heart of the calculation. If you know how much extract disappeared, you know how much alcohol appeared. From it come the two relationships brewers use most:</p><ul><li>Real extract is approximately 0.1808 x OE + 0.8192 x AE.</li><li>Alcohol by weight = (OE - RE) / (2.0665 - 0.010665 x OE).</li></ul><p>The first is an approximation that holds well for normal beers. The second is Balling's equation rearranged to give alcohol directly.</p>"
+  ],
+  [
+   "A worked example",
+   "<p>Take a wort at 12.4 °P (about 1.050 SG) that finishes at 2.56 °P (about 1.010 SG).</p><ul><li>RE = 0.1808 x 12.4 + 0.8192 x 2.56 = 2.24 + 2.10 = 4.34 °P</li><li>Extract consumed = 12.4 - 4.34 = 8.06 °P</li><li>Divisor = 2.0665 - (0.010665 x 12.4) = 1.934</li><li>Alcohol by weight = 8.06 / 1.934 = 4.17% w/w</li></ul><p>To turn weight into volume, multiply by the beer's specific gravity and divide by the density of ethanol, about 0.791. That gives 4.17 x 1.010 / 0.791 = 5.3% ABV. The quick formula, (OG - FG) x 131.25, gives 5.25% for the same beer. At normal strength the two agree within a tenth of a point.</p>"
+  ],
+  [
+   "Why the simple formula drifts on strong beer",
+   "<p>The 131.25 factor treats the relationship between gravity drop and alcohol as a straight line. It is not quite straight. As original gravity climbs, the simple formula reads progressively lower than Balling. At 1.100 the gap is around four tenths of a percent ABV.</p><p>That matters if you brew barley wines, imperial stouts or high-gravity lagers for dilution. It also matters for labels. Excise and labelling rules in India set the declared strength and the tolerance allowed. Those rules vary by state and change, so check the current notification. A brewery that calculates with the simple formula and labels close to a limit is taking a needless risk. Our guide to <a href=\"real-versus-apparent-attenuation.html\">real versus apparent attenuation</a> shows how the same real extract figure changes how you read fermentation performance.</p>"
+  ],
+  [
+   "Use it as a mass balance check",
+   "<p>The Balling equation is also a mass balance. It says extract does not vanish: it becomes alcohol, carbon dioxide, yeast or stays as real extract. That gives you a cross-check on your instruments.</p><p>If an alcohol analyser reports an ABV that disagrees with your Balling calculation by more than about 0.2 points, one of the readings is off. Common culprits are a hydrometer read at the wrong temperature, a refractometer used on fermented beer without correction or carbonation bubbles on a density meter cell. Degassing samples before reading fixes more discrepancies than recalibration does.</p><p>The same thinking extends upstream. Tracking extract from mash tun to fermenter to package, as in our guide to <a href=\"tracking-extract-from-grain-to-glass-with-a-brew-day-mass.html\">tracking extract from grain to glass</a>, shows where you lose it.</p>"
+  ],
+  [
+   "Set it up in your brew log",
+   "<p>Add two columns to your brew log spreadsheet: real extract and alcohol by weight, both calculated from the formulas above. Add a third for ABV by the Balling route next to the one you already calculate. The working takes ten minutes to set up and then runs itself.</p><p>Read it for the next month. If the two ABV columns differ by more than a few tenths on any beer, find out why before the next label goes to print. The chemistry behind those columns is the kind of thing the Advanced Brewing Science course works through in full.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is real extract in beer?",
+   "Real extract is the dissolved solids left in finished beer once the alcohol is accounted for. It is higher than the apparent extract a hydrometer reads, because alcohol lowers the density reading."
+  ],
+  [
+   "What is the Balling formula used for?",
+   "It links original extract, real extract and alcohol. Brewers use it to calculate alcohol by weight from gravity readings and to check that their instruments agree."
+  ],
+  [
+   "Is the 131.25 ABV formula accurate?",
+   "It is close for beers of normal strength. Above about 1.070 original gravity it reads progressively low compared with the Balling method."
+  ],
+  [
+   "How do I convert alcohol by weight to alcohol by volume?",
+   "Multiply alcohol by weight by the beer's specific gravity, then divide by about 0.791, the density of ethanol."
+  ]
+ ],
+ "cta": {
+  "title": "Make your gravity numbers agree with each other",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers extract, attenuation and alcohol calculations alongside the yeast and mash science that drive them, with worked examples on your own brew data.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "real-versus-apparent-attenuation",
+  "control-charts-for-brewers",
+  "tracking-extract-from-grain-to-glass-with-a-brew-day-mass"
+ ]
+}

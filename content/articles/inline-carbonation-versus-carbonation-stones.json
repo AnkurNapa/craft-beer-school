@@ -1,0 +1,67 @@
+{
+ "slug": "inline-carbonation-versus-carbonation-stones",
+ "cat": "Brewing science",
+ "h1": "Inline carbonation versus carbonation stones",
+ "title": "Inline Carbonation vs Carbonation Stones | Craft Beer School",
+ "desc": "How inline carbonation and carbonation stones differ in speed, control and cost, plus which one suits a small brewery.",
+ "teaser": "A stone carbonates a tank overnight. An inline system does it in the pipe. Which one you need depends on what comes next.",
+ "standfirst": "Carbonation stones and inline carbonation systems both dissolve carbon dioxide into beer. They differ in speed, control and cost. Here is how each works and how to choose for a small brewery.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Both are working against the same law",
+   "<p>Carbon dioxide dissolves in beer according to temperature and pressure. Colder beer and higher pressure hold more gas. At equilibrium, beer at 2 °C under about 0.76 bar gauge holds roughly 2.6 volumes of carbon dioxide.</p><p>Getting there takes contact area and time. Gas sitting in the headspace of a tank dissolves very slowly, which is why simply pressurising a brite tank can take days. Stones and inline systems both speed up the process by breaking the gas into tiny bubbles with a large surface area.</p>"
+  ],
+  [
+   "How a carbonation stone works",
+   "<p>A carbonation stone is a porous element, usually sintered stainless steel, fitted near the bottom of a brite tank or fermenter. Typical pore sizes are around 0.5 to 2 microns. Gas pushed through it forms a cloud of fine bubbles that rise through the beer and dissolve as they go.</p><p>The process looks like this:</p><ul><li>Chill the beer to near 0 °C. Cold beer absorbs gas faster and holds more.</li><li>Set the gas pressure at the stone above the tank top pressure plus the hydrostatic head of beer above it.</li><li>Let the tank top pressure rise and vent slowly to the target, pushing out air and dissolving gas.</li><li>Check carbonation with a meter, not by time.</li></ul><p>Stones are cheap, simple and suit batch carbonation in a brewpub. They need care, though. Our guide to <a href=\"cleaning-and-caring-for-carbonation-stones.html\">cleaning and caring for carbonation stones</a> covers why.</p>"
+  ],
+  [
+   "How inline carbonation works",
+   "<p>Inline carbonation injects carbon dioxide into beer as it flows through a pipe, usually during transfer from the filter or fermenter to the brite tank. A flow meter measures the beer, a mass flow controller doses the gas and a sparger or venturi breaks it into fine bubbles. A static mixer or a length of pipe under pressure gives the gas time to dissolve.</p><p>The result is beer that reaches the brite tank already at or near target carbonation. Good systems measure dissolved carbon dioxide downstream and adjust dosing automatically. They are standard in larger breweries and on packaging lines where beer moves continuously.</p>"
+  ],
+  [
+   "Speed, control and cost",
+   "<p>The two methods trade off in predictable ways:</p><ul><li><strong>Speed.</strong> A stone often takes several hours to a day. Inline is done when the transfer ends.</li><li><strong>Control.</strong> Inline systems with feedback hit a target closely and consistently. Stones depend on the operator, the temperature and the stone's condition.</li><li><strong>Cost.</strong> A stone costs little. Inline systems need flow meters, controllers, sensors and installation, which puts them beyond many small brewpubs.</li><li><strong>Risk.</strong> A clogged or damaged stone gives uneven carbonation and foaming. Inline systems have more parts that can fail but are easier to monitor.</li></ul>"
+  ],
+  [
+   "Foaming and oxygen",
+   "<p>Both methods can cause foaming if gas goes in too fast or the beer is too warm. With a stone, foaming carries beer out through the vent and wastes gas. With inline carbonation, poor dissolution can leave free gas that breaks out in the brite tank.</p><p>Both also depend on clean gas. Any oxygen in the carbon dioxide goes straight into the beer. Purity matters as much as the method. Measuring the outcome properly, as in our guide to <a href=\"measuring-carbonation.html\">measuring carbonation</a>, tells you whether either method is doing its job.</p>"
+  ],
+  [
+   "Which suits a small brewery",
+   "<p>For most brewpubs and small breweries in India, a well-maintained stone in each brite tank is the sensible choice. Batches are small, beer is served on site or kegged and an overnight carbonation fits the schedule. Inline carbonation starts to make sense when you package continuously, when tank time is the bottleneck or when consistency between batches matters enough to justify the spend.</p><p>Choosing between them is partly an equipment question and partly a process question. Knowing the solubility physics lets you get the best from whichever you have.</p>"
+  ],
+  [
+   "Time your next carbonation",
+   "<p>On your next brite tank, record the beer temperature, stone pressure, top pressure and time at the start. Measure dissolved carbon dioxide every few hours until you reach target. That one log shows how long your stone really takes and whether temperature or stone condition is slowing it down.</p><p>Repeat the log on two or three batches. If carbonation time varies by more than a few hours between similar batches at the same temperature, the stone is the likely cause. Pull it, run a bubble test and clean it before you think about buying new equipment.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What pore size is a carbonation stone?",
+   "Most brewery carbonation stones have pores around 0.5 to 2 microns. Smaller pores make finer bubbles that dissolve faster."
+  ],
+  [
+   "Is inline carbonation worth it for a brewpub?",
+   "Usually not. A well-maintained stone suits small batches. Inline systems make sense for continuous packaging or when tank time is the bottleneck."
+  ],
+  [
+   "How long does stone carbonation take?",
+   "Often several hours to a day, depending on temperature, pressure, stone condition and tank size. Measure carbonation rather than going by time."
+  ]
+ ],
+ "cta": {
+  "title": "Carbonate to a number, every batch",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers gas solubility, carbonation methods, measurement and packaging quality, so you hit the same carbonation whichever kit you use.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cleaning-and-caring-for-carbonation-stones",
+  "fixing-homebrew-carbonation",
+  "measuring-carbonation"
+ ]
+}

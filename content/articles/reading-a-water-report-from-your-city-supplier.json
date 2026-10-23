@@ -1,0 +1,75 @@
+{
+ "slug": "reading-a-water-report-from-your-city-supplier",
+ "cat": "Ingredients",
+ "h1": "Reading a water report from your city supplier",
+ "title": "Reading a City Water Report for Brewing | Craft Beer School",
+ "desc": "How to read a municipal water report as a brewer: the units, the ions that matter, conversions to mg/L plus the gaps you must fill yourself.",
+ "teaser": "A city water report is full of numbers brewers need and missing several they need more. Here is how to read it.",
+ "standfirst": "Most municipal water boards publish quality data or will share it on request. It is a useful starting point for building a brewing water profile. It is also an average for a whole city, reported in units designed for public health rather than mash pH.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A city report is written for safety, not brewing",
+   "<p>Municipal water reports exist to show the water is safe to drink. They focus on microbiology, disinfectant residual, turbidity and a list of contaminants against drinking water limits. Some of the figures brewers need, such as calcium, magnesium and alkalinity, are often there. Others, such as sodium and sulphate, may be missing or reported only as within limits.</p><p>The data is also usually an average across a treatment plant or a whole distribution zone, sometimes over months. Your tap may differ, especially if the city mixes surface water and groundwater. Treat the report as a first estimate. Our guide to <a href=\"brewing-water-basics.html\">brewing water basics</a> explains what each ion does.</p>"
+  ],
+  [
+   "mg/L and ppm mean the same thing",
+   "<p>For water, one milligram per litre (mg/L) equals one part per million (ppm). Brewing software uses both. Some reports use milliequivalents per litre (mEq/L), which count chemical charge rather than weight. To convert mEq/L to mg/L, multiply by the ion's equivalent weight: about 20 for calcium, 12 for magnesium, 23 for sodium, 35.5 for chloride, 48 for sulphate and 61 for bicarbonate.</p>"
+  ],
+  [
+   "Hardness and alkalinity often appear as calcium carbonate",
+   "<p>Many Indian reports give total hardness, calcium hardness and alkalinity in mg/L as calcium carbonate. Brewing calculators usually want the ions themselves. The conversions are:</p><ul><li>Calcium hardness as CaCO3 divided by 2.5 gives calcium in mg/L.</li><li>Magnesium hardness as CaCO3 divided by 4.12 gives magnesium in mg/L.</li><li>Alkalinity as CaCO3 multiplied by 1.22 gives bicarbonate in mg/L.</li></ul><p>If the report shows only total hardness and calcium hardness, subtract one from the other to get magnesium hardness, then convert. A report showing total hardness of 150 and calcium hardness of 100, both as CaCO3, means 40 mg/L of calcium and about 12 mg/L of magnesium.</p>"
+  ],
+  [
+   "Check that the ions balance",
+   "<p>Water is electrically neutral, so positive and negative charges should balance. Convert the main cations (calcium, magnesium, sodium, potassium) and anions (bicarbonate, sulphate, chloride, nitrate) to mEq/L and add each side. On a good analysis the two totals agree within about 10%.</p><p>If they do not, something is missing or wrong. Very often a city report leaves out sodium or sulphate. That gap is a sign to get your own analysis rather than guess the missing figure.</p>"
+  ],
+  [
+   "Water pH tells you less than alkalinity",
+   "<p>Every report shows pH. Brewers new to water chemistry often fix on it. It matters far less than it looks. Water pH describes the water on its own. What decides mash pH is alkalinity, the water's capacity to resist acid, together with calcium and magnesium.</p><p>Two waters can both read pH 7.5. One with 30 mg/L of alkalinity barely shifts a mash. One with 250 mg/L drags a pale mash well above 5.6. If a report gives pH but not alkalinity, it has left out the number you need most. Our guide to <a href=\"water-hardness-and-beer.html\">water hardness and beer</a> explains how hardness and alkalinity relate.</p>"
+  ],
+  [
+   "TDS and conductivity are only a summary",
+   "<p>Total dissolved solids (TDS) is the weight of everything dissolved in the water. Conductivity measures how well the water carries electricity, which tracks TDS. Both are handy for spotting change. A jump in conductivity at the tap tells you the source has shifted.</p><p>Neither tells you what the dissolved material is. Two waters at 300 mg/L TDS can have very different calcium, sodium and alkalinity. Use TDS as an alarm, not a recipe input.</p>"
+  ],
+  [
+   "Chlorine residual and seasons need your attention",
+   "<p>City water normally carries a chlorine residual to keep it safe in the pipes. Some supplies use chloramine. Either must come out before brewing. A report showing a residual tells you to plan removal. Our guide to <a href=\"removing-chlorine-and-chloramine.html\">removing chlorine and chloramine</a> covers how.</p><p>Indian city water also changes with the seasons. During the monsoon, surface water can carry more turbidity and organic matter. Plants may also dose more disinfectant. In the dry months some cities lean harder on groundwater. Ask the water board whether your zone draws from more than one source.</p>"
+  ],
+  [
+   "Get your own sample analysed",
+   "<p>The city report is where you start, not where you stop. Take a sample from the tap that feeds your hot liquor tank, after any building tanks or filters. Send it to an accredited water testing lab. Ask for calcium, magnesium, sodium, potassium, chloride, sulphate, alkalinity, nitrate, iron, pH and TDS. Repeat it in a different season. Put your two results next to the city report and you will see straight away how far the official average is from your own water.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is mg/L the same as ppm?",
+   "Yes. For water, one milligram per litre equals one part per million."
+  ],
+  [
+   "How do I convert calcium hardness to calcium?",
+   "Divide calcium hardness expressed as calcium carbonate by 2.5 to get calcium in mg/L."
+  ],
+  [
+   "Why does my water report not balance?",
+   "Usually because an ion such as sodium or sulphate is missing. A gap of more than about 10% means you need your own analysis."
+  ],
+  [
+   "Is the city water report enough to build a water profile?",
+   "It is a useful starting estimate. Your own lab analysis from the brewery tap, repeated across seasons, is far more reliable."
+  ]
+ ],
+ "cta": {
+  "title": "Turn water data into the beer you planned",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers water chemistry, report interpretation, ion balancing and building brewing liquor for every style.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "removing-chlorine-and-chloramine",
+  "brewing-water-basics",
+  "water-hardness-and-beer"
+ ]
+}

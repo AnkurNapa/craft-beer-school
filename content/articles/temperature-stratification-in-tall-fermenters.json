@@ -1,0 +1,67 @@
+{
+ "slug": "temperature-stratification-in-tall-fermenters",
+ "cat": "Brewing science",
+ "h1": "Temperature stratification in tall fermenters",
+ "title": "Stratification in Tall Fermenters | Craft Beer School",
+ "desc": "Why tall fermenters form warm and cold layers, the 4 °C density trap during crash cooling and how to place probes and use jackets.",
+ "teaser": "Your probe says 2 °C. The cone may be at 7. Tall tanks lie about temperature once fermentation stops stirring them.",
+ "standfirst": "During active fermentation, rising carbon dioxide mixes a tall tank for free. Once it slows, the beer can split into layers at different temperatures. Here is why it happens, where the 4 °C trap sits and how to cool a tall fermenter evenly.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Fermentation stirs the tank for free",
+   "<p>A cylindroconical fermenter in full fermentation is a well-mixed vessel. Carbon dioxide forms throughout the beer and rises, dragging liquid up the centre and down the walls. Temperature differences of more than a degree from top to bottom are unusual at this stage.</p><p>That changes as fermentation slows. Gas production falls, the natural circulation weakens and heat moves only by convection. In a short, squat tank this hardly matters. In a tall tank, where the beer column might be three or four times taller than the tank is wide, layers can form and persist for a day or more.</p>"
+  ],
+  [
+   "Cold beer sinks until it does not",
+   "<p>Above about 4 °C, colder beer is denser than warmer beer, so it sinks. A jacket chilling the upper part of the tank sets up a useful circulation: cold beer falls down the wall, warmer beer rises to replace it and the whole tank cools.</p><p>Below about 4 °C the rule flips. Water is densest near 4 °C. Beer behaves similarly, with its maximum density a little lower because of the dissolved extract and alcohol. Beer chilled below that point becomes lighter, not heavier. If the upper jacket keeps chilling, the coldest beer stays at the top. The cone and lower cylinder can sit several degrees warmer for a long time.</p><p>That is why a brewer can crash a tank, see 1 °C on a probe in the upper cylinder and still find warm beer in the cone the next morning.</p>"
+  ],
+  [
+   "Use the right jacket for each stage",
+   "<p>Most tall fermenters have two or three cooling zones: one on the cone and one or two on the cylinder. A sensible pattern for a crash to 0 °C looks like this:</p><ul><li>Cool from fermentation temperature down to about 4 °C mainly with the upper cylinder jackets, so cold beer sinks and mixes the tank.</li><li>Below 4 °C, switch the work to the lower cylinder and cone jackets. Beer chilled there rises, which keeps circulation going.</li><li>Avoid running glycol much colder than about -4 °C against the wall. Very cold glycol can freeze a skin of beer on the jacket face, which insulates the tank and slows cooling further.</li></ul><p>Tank makers set out zone recommendations for their own vessels, so read those first. The principle stays the same.</p>"
+  ],
+  [
+   "Where the probe sits changes what you see",
+   "<p>Most small breweries have one temperature probe per tank, usually in the lower cylinder. It reports one point, not the tank. During active fermentation that is fine. During a crash it can mislead in either direction.</p><p>Check it now and then. Draw a small sample from the racking arm or a sample valve higher up and read it with a calibrated thermometer, then compare it with a sample from the cone. A difference of more than 2 °C after a day of crashing tells you the tank is stratified.</p>"
+  ],
+  [
+   "Why stratification matters in the glass",
+   "<p>Warm pockets cause real problems. Yeast in a warm cone keeps working, which can change flavour and makes cropping unpredictable. Yeast that drops slowly gives hazier beer at transfer. Uneven temperature also means uneven carbon dioxide solubility through the tank, which matters if you carbonate in the fermenter.</p><p>Height adds its own effects. Hydrostatic pressure at the bottom of a tall tank raises dissolved carbon dioxide during fermentation, which can suppress ester formation. Our guide to <a href=\"free-rise-fermentation-and-when-to-let-the-temperature-climb.html\">free-rise fermentation</a> shows how deliberate temperature changes interact with that.</p>"
+  ],
+  [
+   "The Indian glycol problem",
+   "<p>In hot climates the glycol system often struggles during the afternoon. Ambient temperatures of 35 °C or more around a chiller cut its capacity. A crash that should take 24 hours stretches to 48, which is exactly the window in which a tall tank stratifies. Insulate glycol lines, shade the chiller and stagger crashes so two tall tanks do not pull on the system at once.</p><p>Dry hopping has its own temperature logic too. If you dry hop warm and then crash, our guide to <a href=\"dry-hop-contact-time-and-temperature-for-the-best-extraction.html\">dry hop contact time and temperature</a> explains how that timing affects extraction.</p>"
+  ],
+  [
+   "Map one tank this month",
+   "<p>Pick your tallest fermenter and log its next crash properly. Every six hours, take a temperature from the cone and from the highest sample point you have, alongside the probe reading. Note which jackets were open. One crash mapped this way tells you whether your jacket routine needs to change below 4 °C.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does beer below 4 °C not sink?",
+   "Like water, beer is densest near 4 °C, slightly lower in practice because of dissolved extract and alcohol. Below that point colder beer becomes lighter and stays at the top unless something mixes it."
+  ],
+  [
+   "Which jacket should I use to crash cool a tall fermenter?",
+   "Use the upper jackets to around 4 °C, then shift cooling to the lower cylinder and cone jackets below that. Check the tank maker's guidance for your vessel."
+  ],
+  [
+   "How do I know if my fermenter is stratified?",
+   "Compare temperatures from the cone and from a higher sample point with a calibrated thermometer. A gap of more than 2 °C after a day of crashing suggests stratification."
+  ]
+ ],
+ "cta": {
+  "title": "Control what happens inside a tank you cannot see into",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers fermentation physics, vessel geometry, yeast behaviour and cooling, so you can design a crash routine instead of guessing at one.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "dry-hop-contact-time-and-temperature-for-the-best-extraction",
+  "free-rise-fermentation-and-when-to-let-the-temperature-climb",
+  "calculating-mash-water-volume-and-strike-temperature"
+ ]
+}

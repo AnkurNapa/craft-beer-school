@@ -1,0 +1,71 @@
+{
+ "slug": "what-a-vdk-result-from-the-lab-tells-a-brewer",
+ "cat": "Brewing science",
+ "h1": "What a VDK result from the lab tells a brewer",
+ "title": "What a VDK Lab Result Tells a Brewer | Craft Beer School",
+ "desc": "What vicinal diketones are, the difference between free and total VDK and how to use a lab result to decide when a tank is ready.",
+ "teaser": "Your VDK result is two compounds and their precursors in one number. Here is how to read it.",
+ "standfirst": "A VDK result from the lab tells you whether the yeast has finished cleaning up after fermentation. Read it properly and you can crash tanks with confidence. Read it wrongly and buttery beer reaches the market.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two compounds in one number",
+   "<p>Vicinal diketones, or VDKs, are a pair of related compounds. <strong>Diacetyl</strong> tastes of butter or butterscotch. <strong>2,3-pentanedione</strong> tastes of honey or toffee and is less potent. Yeast make both during fermentation through their precursors, alpha-acetolactate and alpha-acetohydroxybutyrate.</p><p>Diacetyl matters most for flavour. A commonly quoted flavour threshold in lager is around 0.1 mg/L, while 2,3-pentanedione is usually around ten times less potent. That is why many brewers think of the VDK result mainly as a diacetyl check.</p>"
+  ],
+  [
+   "Free VDK and total VDK",
+   "<p>This is the distinction that matters most.</p><ul><li><strong>Free VDK</strong> is the diacetyl and pentanedione already in the beer at the moment of sampling.</li><li><strong>Total VDK</strong> also includes the flavourless precursors. The lab heats the sample to convert them before measuring.</li></ul><p>Free VDK tells you how the beer tastes now. Total VDK tells you how it might taste later, once the precursors have converted. For deciding whether to crash a tank, total VDK is the number to use.</p>"
+  ],
+  [
+   "Typical release limits",
+   "<p>Many breweries set a release limit of total VDK below about 0.10 mg/L before cooling a lager tank. Some set tighter limits for pale lagers where any butter is obvious. Ales with a malt-forward profile may tolerate slightly more, though most brewers still aim low.</p><p>The right limit depends on your beer and your market. Set it by comparing lab results with tasting panel results on the same beers. Our guide to <a href=\"brewery-qc-lab-on-a-budget.html\">a brewery QC lab on a budget</a> covers how small breweries can work with outside labs.</p>"
+  ],
+  [
+   "How the lab measures it",
+   "<p>The usual method is headspace gas chromatography with an electron capture detector. The lab warms a sealed sample to convert precursors, then measures the gases above the liquid. Spectrophotometric methods also exist and are used in some smaller labs.</p><p>Sample handling matters. Take the sample from a sanitised valve into a sealed vial filled to the level the lab asks for. Get it to the lab cold and fast. A warm sample on a slow courier in Indian heat can start converting precursor before the lab even sees it.</p><p>Ask the lab how long results take. A VDK figure that arrives three days after you needed to crash is a record, not a decision. Plan sampling so the result lands while the tank is still warm, for example a first sample at the start of the diacetyl rest and a second a day later.</p>"
+  ],
+  [
+   "Reading the trend, not one figure",
+   "<p>A single VDK result is a snapshot. A series across the end of fermentation shows you the yeast at work. Total VDK usually peaks near the end of active fermentation, then falls during the diacetyl rest as yeast reabsorb and reduce it.</p><p>Plot the results against the fermentation curve: gravity, temperature and VDK on one chart. The shape repeats from batch to batch on a stable process, which makes an odd batch stand out at once.</p><p>If total VDK is still falling but above limit, give it time. If it has stalled above limit, the yeast may have dropped out too early or be in poor health. Check yeast in suspension and consider rousing or warming. Our guide to <a href=\"what-the-ph-drop-during-fermentation-tells-a-brewer.html\">what the pH drop during fermentation tells a brewer</a> adds another signal for tracking fermentation health.</p>"
+  ],
+  [
+   "What high VDK points to",
+   "<p>A high result has several common causes:</p><ul><li>Crashing too early, before the yeast cleared the precursor.</li><li>Underpitching or low wort oxygen, giving stressed yeast.</li><li>Low free amino nitrogen, especially with high adjunct worts.</li><li>A very flocculent strain that drops out before finishing.</li><li>Bacterial contamination, especially Pediococcus, which produces diacetyl in packaged beer.</li></ul><p>A VDK result that rises in packaged beer weeks after release points to infection or to precursor that was never converted. Our guide to <a href=\"microbiology-plating-small-brewery.html\">microbiology plating</a> covers how to check for bacteria.</p>"
+  ],
+  [
+   "Pairing the lab with the floor",
+   "<p>The lab result is precise but slow. The <a href=\"running-a-forced-diacetyl-test-before-you-crash-a-tank.html\">forced diacetyl test</a> is fast but sensory. Running both on the same samples for a while teaches you how your nose relates to the number. After that, many brewpubs use the forced test routinely and send samples to the lab for new recipes, new yeast or problem batches.</p><p>Connecting a lab figure to what happens in the tank and then to what the drinker tastes is where small brewery quality work really pays.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Ask your lab whether their VDK result is free or total. Ask what their sample requirements are too. Then send one sample from a lager tank on the day you plan to crash, together with your forced test result. Compare the two.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does VDK mean in beer?",
+   "Vicinal diketones: diacetyl and 2,3-pentanedione, plus their precursors when the lab reports total VDK."
+  ],
+  [
+   "What is a typical VDK limit before crashing a lager?",
+   "Many breweries use total VDK below about 0.10 mg/L. Set your own limit against tasting panel results."
+  ],
+  [
+   "What is the difference between free and total VDK?",
+   "Free VDK is what is already in the beer. Total VDK also includes precursors that can convert into diacetyl later."
+  ]
+ ],
+ "cta": {
+  "title": "Read your lab results like a brewer",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers fermentation by-products, quality control and lab data, so a VDK figure turns into a clear decision about your tank.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-the-ph-drop-during-fermentation-tells-a-brewer",
+  "brewery-qc-lab-on-a-budget",
+  "microbiology-plating-small-brewery"
+ ]
+}

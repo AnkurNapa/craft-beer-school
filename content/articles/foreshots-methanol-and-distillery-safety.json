@@ -1,0 +1,71 @@
+{
+ "slug": "foreshots-methanol-and-distillery-safety",
+ "cat": "Whisky",
+ "h1": "Foreshots, methanol and distillery safety",
+ "title": "Foreshots, Methanol and Still Safety | Craft Beer School",
+ "desc": "What foreshots really contain, why methanol in grain whisky is mostly a myth and the real safety risks on a distillery floor.",
+ "teaser": "Discarding the first spirit does not make whisky safe. Here is what does and what actually hurts people in distilleries.",
+ "standfirst": "Ask most people about distilling danger and they say methanol. In a grain whisky distillery the bigger risks are fire, hot liquids and confined spaces. This guide sorts the myth from the hazard.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What is in the foreshots",
+   "<p>Foreshots are the first spirit off the spirit still. They are strong, often above 80% ABV. They are full of light volatile compounds: acetaldehyde, ethyl acetate and other esters, plus oils and residues washed out of the still from the last run. They smell sharp and solvent like.</p><p>In a malt distillery the foreshots go to the feints receiver and are redistilled with the next charge. They are kept out of the hearts for flavour, not because they are a pool of poison. The cut is mainly a quality decision.</p>"
+  ],
+  [
+   "Methanol comes from pectin, not grain starch",
+   "<p>Methanol forms when pectin is broken down. Pectin is plentiful in fruit skins and pulp, which is why fruit brandies and pomace spirits are the ones regulators watch for methanol. Malted barley, maize and wheat contain very little pectin, so a properly made grain wash produces only small amounts of methanol.</p><p>Methanol also does not come off neatly at the start of a run. It boils at 64.7 °C, below ethanol's 78.4 °C, but it mixes so readily with water that it is spread across the run rather than concentrated in the first jar. Throwing away the foreshots is not a methanol control step, whatever home distilling forums say. Our guide to <a href=\"methanol-limits-and-testing-in-spirits.html\">methanol limits and testing</a> covers how it is measured.</p>"
+  ],
+  [
+   "Why methanol poisoning still happens in India",
+   "<p>The tragedies that make headlines in India are almost always illicit liquor adulterated with industrial methanol. Someone adds a cheap industrial solvent to stretch or strengthen a drink. That is a crime, not a distilling error. No licensed distillery cutting process is involved.</p><p>For a licensed distiller the lesson is simple. Know where every input comes from, never bring industrial alcohol near a potable spirit line and test your product against the limits in the current food safety regulations. Limits are set nationally and can change, so check the current notification rather than a number you read once.</p>"
+  ],
+  [
+   "Fire is the hazard that kills distillers",
+   "<p>Ethanol vapour is heavier than air and flammable between about 3.3% and 19% by volume in air. Pure ethanol has a flash point of about 13 °C. Even 40% ABV spirit gives off enough vapour to ignite at around 26 °C, which is a normal afternoon in most of India.</p><p>That means spirit receivers, the spirit safe, filling stations and the warehouse all need ignition control. Flameproof electrics in classified zones, earthed pumps and hoses, no phones or hot work without a permit and good low level ventilation are the basics. Our guide to <a href=\"hazardous-area-zoning-in-a-distillery.html\">hazardous area zoning</a> explains how zones are drawn.</p>"
+  ],
+  [
+   "The foreshots are still worth handling carefully",
+   "<p>Methanol is not the main reason to respect foreshots, but they deserve care for other reasons. They are the strongest spirit in the building, so they are the most flammable. Acetaldehyde is an irritant with a very low boiling point, so a sample jar of foreshots left open on a warm bench fills the room with sharp vapour.</p><p>Keep foreshots in closed lines from the spirit safe to the feints receiver. Never collect them in open buckets. Do not taste neat foreshots. If you nose them for training, dilute a few millilitres in water in a covered glass and do it in a ventilated room away from any ignition source. A spill of high strength spirit on a hot still jacket is exactly how distillery fires start.</p>"
+  ],
+  [
+   "Hot liquids, pressure and confined spaces",
+   "<p>Stills run at or near 100 °C and wash stills hold thousands of litres of boiling liquid. Steam lines on a small distillery boiler often run at several bar. Burns, scalds and blown gaskets are far more common than poisoning.</p><ul><li>Fit and test vacuum relief valves. A still that cools with every valve closed can collapse inwards.</li><li>Never open a manway on a still or washback that is still hot or under pressure.</li><li>Treat washbacks as confined spaces. Fermentation fills them with carbon dioxide, which can kill someone who climbs in to clean.</li><li>Lock out steam and agitators before anyone enters a vessel.</li></ul>"
+  ],
+  [
+   "Building a safety habit on a small site",
+   "<p>Craft distilleries often have three or four people doing every job. That is where shortcuts creep in. Write short, clear procedures for charging the still, making cuts, transferring spirit and cleaning. Train each person on them. Keep a written permit system for hot work and vessel entry, even if the same person signs both sides.</p><p>Walk the site once a week with a checklist: relief valves, earthing straps, gas detection, fire extinguishers, eyewash stations and housekeeping around the spirit store. Record what you find and what you fixed. The gap most new distillers feel is not knowing which of these matters most on their own layout.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do foreshots contain methanol?",
+   "Foreshots contain a little methanol, but in grain whisky most methanol is spread across the run. Foreshots are cut mainly for flavour because they are full of solvent like esters and aldehydes."
+  ],
+  [
+   "Why is methanol a bigger issue in fruit spirits?",
+   "Methanol forms from pectin, which is abundant in fruit. Grain mashes have very little pectin, so grain whisky makes far less methanol than fruit brandy."
+  ],
+  [
+   "What is the biggest safety risk in a distillery?",
+   "Fire and explosion from ethanol vapour, followed by burns from hot liquids and steam and carbon dioxide in confined spaces such as washbacks."
+  ],
+  [
+   "At what temperature can 40% ABV spirit catch fire?",
+   "A 40% ABV spirit has a flash point of around 26 °C, so it can give off ignitable vapour at ordinary Indian room temperatures."
+  ]
+ ],
+ "cta": {
+  "title": "Run a distillery that is safe and consistent",
+  "body": "Craft Distilling is our four week live course (₹9,999), on Saturdays and Sundays with recordings and a certificate. It covers still operation, cut decisions and the safety basics of working with hot spirit and ethanol vapour, so you can set up procedures that fit your own site.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "distillery-kpis-for-analysts",
+  "sourcing-oak-casks-for-an-indian-distillery",
+  "what-a-new-distillery-sells-while-whisky-ages"
+ ]
+}

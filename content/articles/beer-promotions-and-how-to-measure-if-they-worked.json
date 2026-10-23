@@ -1,0 +1,67 @@
+{
+ "slug": "beer-promotions-and-how-to-measure-if-they-worked",
+ "cat": "Beer for teams",
+ "h1": "Beer promotions and how to measure if they worked",
+ "title": "Did That Beer Promotion Work? | Craft Beer School",
+ "desc": "A practical method for judging beer promotions: set a baseline, measure uplift, subtract pull-forward and cannibalisation, then check the margin.",
+ "teaser": "A promotion that lifted volume can still lose money. Here is how to tell the difference.",
+ "standfirst": "Beer companies spend heavily on trade promotions, yet many are judged only by how much volume rose during the offer. A proper evaluation asks what would have sold anyway, what was borrowed from later weeks and what was taken from the company's own brands.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Promotions in beer look different in India",
+   "<p>In many countries a beer promotion means a price cut on the shelf. In India the options are narrower. Alcohol advertising is restricted, MRP is fixed on the label and state rules often limit what can be offered at retail. Promotions more often happen through the trade: schemes for retailers and distributors, on-trade activations, visibility deals and event sponsorship within what the rules allow. Rules vary by state and change, so every scheme needs a compliance check.</p><p>Whatever the mechanism, the evaluation question is the same. Did the money spent produce more profit than not spending it? Our guide to <a href=\"trade-spend-and-promotions-in-beer-for-sales-and-finance.html\">trade spend and promotions</a> covers how this spend is recorded.</p>"
+  ],
+  [
+   "Start with a baseline, not last year",
+   "<p>The baseline is what would have sold without the promotion. Comparing with the same weeks last year is tempting and usually wrong. Beer sales swing with weather, festivals, dry days, price changes and distribution. Any of those may differ from last year.</p><p>Better baselines use the weeks just before the promotion, adjusted for seasonality, or a set of comparable outlets or districts that did not run the promotion. A control group is the strongest option. If 200 outlets ran a retailer scheme and 200 similar outlets did not, the difference between them during the scheme is a far cleaner estimate of uplift than any year-on-year comparison.</p>"
+  ],
+  [
+   "Subtract what was borrowed and what was stolen",
+   "<p>Raw uplift overstates the benefit for two reasons. The first is pull-forward. Retailers and drinkers buy ahead during an offer, then buy less afterwards. Measure the weeks after the promotion as well as during it. A dip after the offer is volume that would have sold anyway.</p><p>The second is cannibalisation. A promotion on one brand often takes volume from the company's other brands or packs. If a scheme on a 500 ml can pulls drinkers from the same brand's 650 ml bottle, total company volume may barely move. Look at the whole portfolio in the promoted outlets, not just the promoted SKU. Our guide to <a href=\"returnable-glass-bottles-in-indian-beer-and-why-they-matter.html\">returnable glass bottles</a> explains why a shift between packs also changes cost per case.</p>"
+  ],
+  [
+   "A worked example of true uplift",
+   "<p>Take an illustrative retailer scheme over four weeks. Promoted outlets sold 52,000 cases against a baseline of 40,000, so raw uplift is 12,000 cases. In the four weeks after, they sold 36,000 against a baseline of 40,000, a dip of 4,000. Sister brands in the same outlets fell 3,000 cases below their baseline during the scheme.</p><p>Incremental volume is 12,000 minus 4,000 minus 3,000, which is 5,000 cases. If the scheme cost ₹10,00,000 and gross margin is ₹150 per case, incremental margin is ₹7,50,000. The scheme lost ₹2,50,000 despite a headline uplift of 30%. Every number here is invented. The structure is what you should copy.</p>"
+  ],
+  [
+   "The brewery pays for promotions too",
+   "<p>Promotions create demand spikes. The brewery has to brew for them weeks in advance, since a lager typically needs three to four weeks or more from brewhouse to package. A badly forecast promotion leaves either empty shelves or a depot full of beer that ages while it waits. Short runs of special packs also mean more changeovers on the packaging line, which lowers efficiency.</p><p>These costs rarely appear in a promotion evaluation. They should. Ask supply chain what overtime, extra freight or stock write-offs the promotion caused. Add them to the cost side. A promotion that looks marginal on margin may be clearly negative once the brewery's costs are in.</p>"
+  ],
+  [
+   "Building a promotion library",
+   "<p>The real value of measuring promotions comes from comparing them. A simple library records each promotion's mechanism, region, timing, cost, raw uplift, incremental volume and return. After a year, patterns show up: which mechanisms work in which states, which brands respond and which timings clash with the brewery's capacity.</p><p>That library also makes the next plan better. Instead of debating whether a scheme will work, the team can point to similar ones and their results. Our overview of <a href=\"beer-industry-explained-for-gcc-teams.html\">the beer industry for GCC teams</a> is a good primer for analysts who are new to the data behind this.</p><p>It helps to agree the evaluation method before a promotion starts, not after. Write down the control outlets, the baseline weeks and the post-period length in the proposal itself. Once results are in, nobody can quietly change the comparison to make a weak scheme look strong.</p><p>A first step: pick your last three promotions and recalculate each with a baseline, a post-period dip and a cannibalisation check. Put the three results side by side and share them before the next promotion is approved.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a promotion baseline?",
+   "It is the volume that would have sold without the promotion, best estimated from comparable outlets or adjusted pre-promotion weeks rather than last year."
+  ],
+  [
+   "What is pull-forward in beer promotions?",
+   "Volume bought early because of the offer that would otherwise have sold later. It shows up as a dip after the promotion ends."
+  ],
+  [
+   "What is cannibalisation?",
+   "When a promotion on one product takes sales from the company's other products or packs, so total volume rises less than the promoted item's sales."
+  ],
+  [
+   "Can a beer promotion lose money even if volume rises?",
+   "Yes. After subtracting pull-forward and cannibalisation, incremental margin can be smaller than the cost of the promotion."
+  ]
+ ],
+ "cta": {
+  "title": "Help your commercial team measure what really works",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that link commercial decisions to what happens in the brewery.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "returnable-glass-bottles-in-indian-beer-and-why-they-matter",
+  "trade-spend-and-promotions-in-beer-for-sales-and-finance",
+  "beer-industry-explained-for-gcc-teams"
+ ]
+}

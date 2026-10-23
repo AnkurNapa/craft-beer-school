@@ -1,0 +1,63 @@
+{
+ "slug": "distributor-and-retailer-margins-in-beer-explained",
+ "cat": "Beer for teams",
+ "h1": "Distributor and retailer margins in beer explained",
+ "title": "Distributor and Retailer Margins in Beer | Craft Beer School",
+ "desc": "How beer price builds from brewery to MRP in India, the difference between margin and markup and why state rules shape every rupee.",
+ "teaser": "Most of what a consumer pays for beer in India never reaches the brewery. Here is where the rupees go.",
+ "standfirst": "Between the brewery gate and the shop counter, beer picks up excise, tax and the margins of everyone who handles it. This guide explains the chain, the arithmetic and why each Indian state does it differently.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The route to the consumer varies by state",
+   "<p>In most consumer goods, the manufacturer sells to a distributor, who sells to a retailer, who sells to you. Beer in India follows a version of that chain, but each state decides its shape. In some states a government corporation is the only wholesaler, such as KSBCL in Karnataka. In Tamil Nadu, the state corporation TASMAC also runs the retail shops. Other states license private distributors and retailers.</p><p>That means there is no single Indian margin structure. A brand manager working across ten states is working with ten different price chains. Our guide to the <a href=\"beer-supply-chain-explained.html\">beer supply chain</a> walks through the physical flow.</p>"
+  ],
+  [
+   "Margin and markup are not the same number",
+   "<p>This trips up new analysts all the time. Markup is the profit as a share of cost. Margin is the profit as a share of selling price. If a retailer buys a case for ₹1,000 and sells it for ₹1,250:</p><ul><li>Profit is ₹250</li><li>Markup is 250 / 1,000 = 25%</li><li>Margin is 250 / 1,250 = 20%</li></ul><p>A 25% markup and a 20% margin describe the same deal. Before comparing any two numbers from different states or partners, check which one each uses. Many beer arguments are two people quoting the same deal two ways.</p><p>The conversion is simple once you know it. Margin equals markup divided by one plus markup. Markup equals margin divided by one minus margin. A 20% margin is a 25% markup. A 30% margin is about a 43% markup. Put both columns in any partner comparison and the confusion goes away.</p>"
+  ],
+  [
+   "How the price builds up",
+   "<p>A simplified price build, with illustrative numbers only, shows the order of things. The brewery sells at an ex-brewery price. State excise duty is added, calculated in whatever way that state sets: per bulk litre, per case, as a percentage or a mix. The wholesaler or state corporation adds its margin. The retailer adds its margin. State VAT or sales tax is applied at the stages the state chooses. The total, rounded, becomes the MRP printed on the label.</p><p>Beer is outside GST in India, so these state level taxes apply instead. In many states excise and tax together make up the largest single part of the MRP, often more than the brewery's own price. That is why a duty change can move shelf price more than any brewery decision.</p><p>Strength matters too. Some states tax strong beer, usually above about 5% ABV, at a different rate from mild beer. The same brand family can therefore carry quite different MRPs for its regular and strong versions, even though the brewery's cost to make them is close. Check each state's current notification for how it defines the bands.</p>"
+  ],
+  [
+   "Who controls what",
+   "<p>In states with government wholesale or retail, margins are often fixed by the state. The brewery cannot negotiate them. In states with private trade, distributor and retailer margins are more commercial. Trade terms such as schemes, free goods and display payments sit on top.</p><p>For analysts this matters in two ways. First, a change in net revenue per case may come from a state policy change, not from anything sales did. Second, comparing profitability across states without stripping out excise and fixed margins compares tax regimes, not performance. Keep excise as its own line, separate from net sales, in every model.</p>"
+  ],
+  [
+   "The beer side of a margin conversation",
+   "<p>Margins pay for real work. A beer distributor runs warehouses, trucks and, in many states, the collection of empty returnable bottles. Draught partners handle kegs, gas and line cleaning. A retailer with a working chiller keeps beer at serving temperature, which is worth more to a lager brand than a better shelf spot in a warm shop.</p><p>When a partner pushes for more margin, ask what it pays for. Freshness, cold storage and empties recovery protect the beer. A higher margin that buys none of them is just price. Our guide to <a href=\"brewhouse-kpis-for-analysts.html\">brewhouse KPIs for analysts</a> shows the production numbers that sit behind the ex-brewery price.</p>"
+  ],
+  [
+   "Where to start",
+   "<p>Pick one SKU in one state and build its price chain on a single page, from ex-brewery price to MRP, using the current state notification for excise and tax. Mark each step as fixed by the state or negotiable.</p><p>Then do the same for a second state. Seeing the two side by side teaches more about beer economics in India than any national average. State rules change, so date the page and recheck it when a new excise policy is announced.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between margin and markup?",
+   "Markup is profit as a share of cost. Margin is profit as a share of selling price. A 25% markup equals a 20% margin."
+  ],
+  [
+   "Is beer taxed under GST in India?",
+   "No. Alcohol for human consumption is outside GST, so states levy their own excise and sales tax or VAT instead."
+  ],
+  [
+   "Who sets distributor margins for beer?",
+   "It depends on the state. Some states fix margins through a government corporation, while others leave them to commercial agreement."
+  ]
+ ],
+ "cta": {
+  "title": "Help your team read every rupee in the beer price chain",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-industry-explained-for-gcc-teams",
+  "brewhouse-kpis-for-analysts",
+  "beer-supply-chain-explained"
+ ]
+}

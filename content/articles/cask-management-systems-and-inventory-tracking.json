@@ -1,0 +1,71 @@
+{
+ "slug": "cask-management-systems-and-inventory-tracking",
+ "cat": "Whisky",
+ "h1": "Cask management systems and inventory tracking",
+ "title": "Cask management systems explained | Craft Beer School",
+ "desc": "What a whisky cask management system records, why cask inventory behaves the way it does and what analysts should ask of the data.",
+ "teaser": "A whisky warehouse is a stock ledger that evaporates. Here is what the system behind it should track.",
+ "standfirst": "For a planner or analyst, whisky stock is strange: it sits for years, shrinks while it waits and changes value as it ages. A cask management system is how a distillery keeps track. Here is what goes into one and what the numbers mean on the warehouse floor.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why whisky stock is different",
+   "<p>Most drinks inventory moves fast. Beer is brewed and sold within weeks. Whisky is distilled, filled into oak casks and left for years. Scotch must mature for at least three years in oak in Scotland. Many whiskies sit far longer. During that time the stock is not idle. It loses volume through the wood every year, changes strength and gains value as it matures.</p><p>That makes a whisky warehouse a ledger of thousands of individual assets, each with its own history. A cask management system is the software, or sometimes the spreadsheet, that records them. Our guide to <a href=\"how-whisky-is-made.html\">how whisky is made</a> gives the production background.</p>"
+  ],
+  [
+   "The record behind each cask",
+   "<p>Each cask is a single row with a unique ID painted, stamped or tagged on its head. A sound record holds:</p><ul><li>Cask type, size and wood (American or European oak), previous fill and how many times it has been filled.</li><li>Fill date, fill volume, fill strength and litres of pure alcohol (LPA).</li><li>The spirit batch that went in, linking back to distillation records.</li><li>Location: warehouse, bay, row and tier.</li><li>Every regauge, sample and movement, with dates.</li><li>Ownership, if casks are sold to third parties.</li></ul><p>LPA is the key unit. It is volume multiplied by alcohol strength, corrected to 20 °C. It lets you compare stock regardless of how much it has been diluted.</p>"
+  ],
+  [
+   "Barcodes, RFID and the people with clipboards",
+   "<p>Larger warehouses tag casks with barcodes or RFID labels so staff can scan as they move them. Smaller ones still rely on painted IDs and paper sheets entered later. The technology matters less than discipline. A scan that never happens is the same as a sheet that never gets typed up.</p><p>The common failure is location drift. A cask is moved to make room, the move is not recorded and two years later nobody can find it. Every stock check that turns up a cask in the wrong bay is a sign the move process needs fixing, not just the record.</p>"
+  ],
+  [
+   "Why the stock shrinks",
+   "<p>Spirit evaporates through the oak. The usual figure quoted for Scotland is about 2% of volume a year. In Indian heat it is well above that. So a forecast that assumes the volume filled is the volume bottled will always be too high.</p><p>Good systems store a loss rate per cask type, size and position, measured from regauges. They project each cask's expected yield at its planned bottling date. Our guide to <a href=\"measuring-and-tracking-cask-losses.html\">measuring cask losses</a> explains how those rates are measured. If your dashboard shows a single flat loss percentage for all stock, ask where it came from.</p>"
+  ],
+  [
+   "What finance and planning should ask",
+   "<ul><li><strong>Age profile.</strong> How much LPA will be available at each age over the next five to ten years? This drives which products can launch when.</li><li><strong>Cask mix.</strong> How much is in ex-bourbon, sherry or other casks? Blends depend on it.</li><li><strong>Loss variance.</strong> Which warehouses or positions lose more than expected?</li><li><strong>Reconciliation.</strong> Does the system match the excise authority's bonded stock record? Rules vary by state and change, so the compliance team should hold the current notification.</li></ul><p>For analysts building models, see <a href=\"cask-inventory-data-models-for-analysts.html\">cask inventory data models</a> for how to structure the tables.</p>"
+  ],
+  [
+   "Where the numbers come from on the floor",
+   "<p>Every figure in the system started with someone weighing a cask, drawing a sample with a valinch and reading a hydrometer or density meter. A strength reading taken without temperature correction, or a weight taken on an uncalibrated scale, flows straight into your forecast. When a number looks odd, the fastest fix is usually a conversation with the warehouse team, not a new formula.</p><p>Teams that understand the physical process, why a cask on a high rack loses more than one on the floor, ask better questions of the data and build forecasts the business can trust.</p>"
+  ],
+  [
+   "Valuation and the age curve",
+   "<p>Whisky stock usually sits on the balance sheet at cost, but its sale value depends on age and cask. A cask that will make a 12 year old single malt is worth more in eight years than it is today, even after losses. Planning teams therefore look at stock as an age curve: litres of pure alcohol available at each future age, year by year.</p><p>Gaps in that curve are slow to fix. If too little spirit was filled five years ago, no amount of money today can produce five year old whisky next year. This is why distillery fill plans are set years ahead and why a cask system that cannot project yield by age is a planning risk, not just an IT issue. A wrong loss assumption compounds across every year of the curve.</p>"
+  ],
+  [
+   "Start with a reconciliation",
+   "<p>If you are new to a whisky business, ask for one month's cask movement report next to a physical count of one warehouse bay. Walk the bay with the warehouse manager and check ten cask IDs against their recorded positions. The gaps you find will tell you more about the quality of the data than any dashboard.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a cask management system?",
+   "Software or a structured register that records every whisky cask: its type, fill details, location, regauges and movements, so the distillery can track stock that matures for years."
+  ],
+  [
+   "Why does whisky inventory shrink?",
+   "Spirit evaporates through the oak during maturation. The loss is well above Scotland's commonly quoted 2% a year in hot climates like India."
+  ],
+  [
+   "What is LPA in a cask system?",
+   "Litres of pure alcohol: volume times alcohol strength corrected to 20 °C. It is the standard unit for comparing and valuing spirit stock."
+  ]
+ ],
+ "cta": {
+  "title": "Make your cask data make sense",
+  "body": "Our Brewing and distilling operations module explains maturation, gauging and cask losses so planners and analysts can read the warehouse data with confidence. We build it around your team's own portfolio, on-site or live online.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "measuring-and-tracking-cask-losses",
+  "cask-inventory-data-models-for-analysts",
+  "how-whisky-is-made"
+ ]
+}

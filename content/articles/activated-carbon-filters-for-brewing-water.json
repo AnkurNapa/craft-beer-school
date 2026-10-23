@@ -1,0 +1,71 @@
+{
+ "slug": "activated-carbon-filters-for-brewing-water",
+ "cat": "Ingredients",
+ "h1": "Activated carbon filters for brewing water",
+ "title": "Carbon Filters for Brewing Water | Craft Beer School",
+ "desc": "How activated carbon removes chlorine and chloramine, how to size contact time plus the maintenance that stops a carbon bed growing bacteria.",
+ "teaser": "Carbon filters take chlorine out of brewing water in seconds. Chloramine takes far longer. A neglected bed grows bacteria.",
+ "standfirst": "An activated carbon filter is the standard way to strip chlorine from brewing water before it can form medicinal chlorophenols in beer. It works well when it is sized for the job, checked with a test kit and replaced on time. Neglected, it becomes a home for bacteria.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Carbon stops chlorophenols before they start",
+   "<p>Municipal water in India is usually disinfected with chlorine. Many brewery treatment systems add chlorine of their own. In the brewhouse, chlorine reacts with phenols from malt and yeast to form chlorophenols. These give a medicinal, plaster or antiseptic taste that many people can detect at extremely low concentrations.</p><p>Removing chlorine from brewing liquor is therefore standard practice. Activated carbon is the most common way to do it. Our guide to <a href=\"removing-chlorine-and-chloramine.html\">removing chlorine and chloramine</a> covers the other options, such as metabisulphite.</p>"
+  ],
+  [
+   "Carbon works by surface and by reaction",
+   "<p>Activated carbon is made from coconut shell, coal or wood heated in a controlled way to create a huge internal surface area full of tiny pores. It removes contaminants in two ways. Organic compounds that cause off tastes and odours stick to that surface. Free chlorine is different: it reacts at the carbon surface and is reduced to chloride, so the carbon removes it quickly and in large quantities.</p><p>Coconut shell carbon is widely available in India and suits drinking water and brewing applications well.</p>"
+  ],
+  [
+   "Contact time is the number that matters",
+   "<p>Filter performance depends on how long water spends in the carbon. This is called empty bed contact time (EBCT): the volume of the carbon bed divided by the flow rate. A bed holding 50 litres of carbon with water flowing at 10 litres per minute gives an EBCT of five minutes.</p><p>Free chlorine is removed within a short contact time. Organic compounds need longer. If you push water through faster to fill the hot liquor tank sooner, chlorine can slip through. Size the filter for the flow you actually use, not the flow on a quiet day.</p>"
+  ],
+  [
+   "Chloramine needs catalytic carbon and patience",
+   "<p>Some water suppliers disinfect with chloramine, a combination of chlorine and ammonia that lasts longer in pipes. Chloramine is far harder to remove. Standard activated carbon handles it slowly. Catalytic carbon, which has a modified surface, handles it much better. Even then it needs a considerably longer contact time than free chlorine. That means a larger bed or a slower flow.</p><p>Ask your water supplier which disinfectant they use. If the answer is chloramine, or the supply switches between the two, size and specify the carbon for chloramine.</p>"
+  ],
+  [
+   "Test after the filter on every brew day",
+   "<p>The only way to know a carbon filter is working is to test the water coming out of it. A DPD test kit measures free and total chlorine in a few minutes. Test the water after the filter at the flow rate you use for brewing. The target is zero for both free and total chlorine.</p><p>Keep a simple log next to the filter: date, flow rate, free chlorine and total chlorine. A slow rise over weeks gives warning before the beer does.</p><p>Total chlorine includes chloramine. A reading of zero free chlorine with some total chlorine means chloramine is getting through. The bed needs more contact time or a catalytic carbon.</p>"
+  ],
+  [
+   "A carbon bed can grow bacteria",
+   "<p>By removing chlorine, carbon also removes the water's protection against microbes. The carbon traps organic matter that bacteria feed on. A warm carbon bed that sits idle between brew days, which is easy at 30 °C in an Indian plant room, can develop a significant bacterial population.</p><p>The water going into the mash is boiled, so this is a smaller risk for brewing liquor than for water used cold. It matters more for any cold water downstream, such as dilution water or rinse water. Flush the filter before use, backwash it regularly if the design allows and replace the carbon on schedule. Some systems allow hot water sanitation of the bed.</p>"
+  ],
+  [
+   "Replace by capacity, not by habit",
+   "<p>Carbon gets used up. Its capacity for organic compounds runs out gradually. A bed that removes chlorine perfectly can still be past its best for taste and odour. Manufacturers give a rated capacity in litres treated, which depends on the incoming water.</p><p>Fit a water meter ahead of the carbon filter and log the litres treated. Replace the carbon when you reach the rated capacity or when the post-filter chlorine test shows any breakthrough, whichever comes first. Write the replacement date on the vessel. If you do not know when the carbon in your brewery was last changed, that is the first thing to find out.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does activated carbon remove chloramine?",
+   "Slowly. Catalytic carbon removes it much better, but still needs a longer contact time than free chlorine."
+  ],
+  [
+   "How do I know my carbon filter is working?",
+   "Test free and total chlorine after the filter with a DPD kit at your brewing flow rate. Both should read zero."
+  ],
+  [
+   "How often should carbon be replaced?",
+   "When the rated capacity in litres is reached or chlorine starts to break through, whichever comes first."
+  ],
+  [
+   "Can a carbon filter grow bacteria?",
+   "Yes. With the chlorine removed and organic matter trapped, an idle carbon bed can grow bacteria, so flush, backwash and replace it on schedule."
+  ]
+ ],
+ "cta": {
+  "title": "Design water treatment that protects every batch",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers water chemistry, chlorine and chloramine removal, treatment design and the routine tests that keep brewing liquor consistent.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-water-basics",
+  "water-hardness-and-beer",
+  "treating-borewell-water-for-brewing"
+ ]
+}

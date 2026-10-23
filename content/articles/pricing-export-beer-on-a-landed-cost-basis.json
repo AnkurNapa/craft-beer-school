@@ -1,0 +1,71 @@
+{
+ "slug": "pricing-export-beer-on-a-landed-cost-basis",
+ "cat": "Business",
+ "h1": "Pricing export beer on a landed cost basis",
+ "title": "Pricing Export Beer on Landed Cost | Craft Beer School",
+ "desc": "How to price export beer from India on a landed cost basis: build the chain from ex brewery to shelf, step by step, with the working.",
+ "teaser": "The price on a shelf abroad can be several times your ex brewery price. Here is where the money goes.",
+ "standfirst": "When Indian craft beer reaches a shelf abroad, freight, duties, taxes and margins have all been added on the way. If you do not build that chain yourself, you cannot tell whether your beer will sell at a price anyone will pay. We show how to build it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start at the shelf, not the brewery",
+   "<p>Landed cost is what the beer costs once it has arrived in the importing country, cleared customs and had duties paid. The shelf price adds the margins of everyone who sells it after that.</p><p>Work backwards first. Visit or research shops in your target city and note the price of comparable imported craft beers in the same pack size. That is your ceiling. If your chain of costs ends well above it, the beer will sit on the shelf, however good it is.</p>"
+  ],
+  [
+   "Build the chain step by step",
+   "<p>A typical chain looks like this:</p><ol><li><strong>Ex brewery price.</strong> What you charge for the beer at your gate.</li><li><strong>Indian side costs.</strong> Inland freight to port, export permits, customs broker, port handling and documents.</li><li><strong>Free on board (FOB) price.</strong> Ex brewery price plus Indian side costs.</li><li><strong>Sea or air freight and insurance.</strong> Reefer freight for beer that must stay cold.</li><li><strong>Import duty and excise</strong> in the destination, often charged on volume, alcohol or value.</li><li><strong>Clearance and handling</strong> at the destination port and transport to the warehouse.</li><li><strong>Sales tax or VAT</strong>, depending on the market.</li><li><strong>Importer, distributor and retailer margins.</strong></li></ol><p>Steps 1 to 7 give the landed cost. Step 8 takes it to the shelf.</p>"
+  ],
+  [
+   "A worked example with index numbers",
+   "<p>Real figures vary too much by market to quote, so use an index. Call your ex brewery price per case 100. Say Indian side costs add 10, so FOB is 110. Reefer freight and insurance add 25, giving 135 at the destination port. Say duty and clearance add 60, giving a landed cost of 195.</p><p>Now say the importer adds 25%, the distributor 20% and the retailer 35%. 195 becomes about 244, then 293, then 395. Add a sales tax of 10% and the shelf price is about 435. Your 100 has become roughly 435 on the shelf. Swap in real duty, freight and margin figures from your importer and the sum tells you whether the beer can compete.</p>"
+  ],
+  [
+   "Where the levers are",
+   "<p>Look at which steps you can change:</p><ul><li><strong>Pack and volume.</strong> Freight is charged per container. Filling it raises the litres carrying each rupee of freight.</li><li><strong>Strength.</strong> Where duty rises with alcohol, a 4.5% beer can land far cheaper than an 8% one.</li><li><strong>Number of margins.</strong> An importer that also distributes removes one step.</li><li><strong>Format.</strong> Kegs carry more beer per unit of packaging weight than cans or bottles but need a return route or one-way kegs.</li></ul><p>Our guide to <a href=\"beer-pricing-strategy.html\">beer pricing strategy</a> covers margins in the domestic market. The same logic applies abroad with more steps.</p>"
+  ],
+  [
+   "Currency and payment risk",
+   "<p>You will usually price in the buyer's currency or in US dollars. If the rupee strengthens between quoting and payment, your rupee income falls. Keep quotes valid for a short, stated period and review prices when currencies move a lot. Ask your bank about forward contracts once volumes justify it.</p><p>Get paid in advance or by letter of credit until the importer has a record with you. A shipment abroad is expensive to recover if payment does not arrive.</p>"
+  ],
+  [
+   "Check your own margin last",
+   "<p>Compare your ex brewery export price with your full cost per case, including the export batch's extra labels, testing and paperwork. Many breweries find their export price is lower than their domestic price because the chain abroad is longer. That can still make sense if export volume fills capacity. It does not make sense if each case loses money. Our guide to <a href=\"cost-per-litre-beer.html\">cost per litre of beer</a> shows how to work out the full cost.</p><p>Building this model properly, then testing it against changes in duty, freight and exchange rates, is the kind of work a structured business course is built around.</p>"
+  ],
+  [
+   "Watch the costs that hide",
+   "<p>Some costs do not appear on the first quote. Demurrage and detention charges apply when a container sits too long at the port. Reefer plugs at ports are often charged per day. Breakage and rejected stock come off your margin even when the importer absorbs them on paper. Samples and promotional stock carry the same duty and freight as stock you sell.</p><p>Add a contingency row of a few percent to the landed cost for the first shipments. Replace it with real figures once you have two or three shipments of history. The model gets better every time a container lands and the importer shares the actual bill.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Open a spreadsheet with one row for each of the eight steps above. Set your ex brewery price to 100. Ask your importer for its duty, tax and margin assumptions and fill them in. If the shelf price comes out above comparable beers, you know which row to work on first.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is landed cost for beer?",
+   "It is the total cost of the beer once it has arrived in the importing country with freight, duty and clearance paid, before the importer, distributor and retailer add their margins."
+  ],
+  [
+   "Why is imported craft beer so expensive abroad?",
+   "Freight, duties, taxes and several layers of margin are added to the brewery's price. Each margin is calculated on a price that already includes the previous costs."
+  ],
+  [
+   "Should I price export beer in rupees or dollars?",
+   "Most importers expect their own currency or US dollars. Keep quotes valid for a short period to limit currency risk."
+  ]
+ ],
+ "cta": {
+  "title": "Price export beer that actually sells",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers costing, pricing chains, margins and export planning so you can build a landed cost model and test it before you ship.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cost-per-litre-beer",
+  "beer-pricing-strategy",
+  "imported-or-indian-made-brewhouse-compared-on-cost-and"
+ ]
+}

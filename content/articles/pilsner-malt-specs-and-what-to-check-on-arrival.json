@@ -1,0 +1,67 @@
+{
+ "slug": "pilsner-malt-specs-and-what-to-check-on-arrival",
+ "cat": "Ingredients",
+ "h1": "Pilsner malt specs and what to check on arrival",
+ "title": "Pilsner Malt Specs: Checks on Arrival | Craft Beer School",
+ "desc": "How to read a Pilsner malt certificate of analysis and the simple checks to run on every delivery before the malt reaches your mill.",
+ "teaser": "Every bag of Pilsner malt comes with numbers. Knowing which ones matter tells you whether the next brew will behave.",
+ "standfirst": "Pilsner malt is the base of most lagers and many ales. It is also the malt that shows faults most clearly, because there is nothing dark to hide behind. Here is how to read its spec sheet and what to check when a delivery arrives.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why Pilsner malt deserves a closer look",
+   "<p>Pilsner malt is the palest base malt, kilned gently to keep colour low and enzymes high. A light lager made with it has little to hide a problem behind. A malt lot with poor modification shows up as a slow run-off. One with high moisture loses extract. One that has picked up a musty note in storage shows in the glass.</p><p>A certificate of analysis (COA) comes with each lot from a good maltster. It lists the lab numbers for that lot. Our guide to <a href=\"weyermann-pilsner-malt.html\">Weyermann Pilsner malt</a> walks through one real spec sheet. Here we look at what each number means and the checks you can run yourself.</p>"
+  ],
+  [
+   "The numbers on the certificate",
+   "<p>Typical Pilsner malt specs from European maltsters fall in these ranges:</p><ul><li><strong>Moisture:</strong> about 4 to 5% maximum. Lower means more extract per kilogram.</li><li><strong>Colour:</strong> roughly 2.5 to 4.5 EBC.</li><li><strong>Extract, fine grind, dry basis:</strong> around 80% or more.</li><li><strong>Protein:</strong> about 9 to 12%. High protein means more haze risk and less extract.</li><li><strong>Kolbach index:</strong> roughly 36 to 42%, a measure of protein modification.</li><li><strong>Friability:</strong> 80% or more. Low friability means glassy, poorly modified kernels.</li><li><strong>Wort viscosity:</strong> low values mean beta-glucans are broken down and run-off will be easier.</li></ul><p>Two more figures are worth a glance. The fine-coarse extract difference shows modification: a small gap, around 1.5 to 2%, means a well-modified malt. Diastatic power tells you how much enzyme is available, which matters if you use rice or maize adjuncts that bring none of their own.</p><p>Compare each lot against your supplier's specification and against the last lot that brewed well.</p>"
+  ],
+  [
+   "Moisture is money",
+   "<p>Moisture is the number with the most direct cost. At 5% moisture, a 25 kg bag holds 23.75 kg of dry malt. At 6%, it holds 23.5 kg. You pay for the water and you lose the extract.</p><p>Moisture also climbs after delivery. In India's monsoon months, malt stored in an open warehouse picks up moisture from humid air. Damp malt mills poorly, can go slack in flavour and in the worst case grows mould. Store bags on pallets, off the floor and away from walls, in the driest corner of the building. Reseal opened bags and use them first.</p>"
+  ],
+  [
+   "DMS precursor and the boil",
+   "<p>Pilsner malt carries more S-methylmethionine (SMM) than darker malts, because the low kilning temperature leaves more of it intact. In the hot wort, SMM breaks down into dimethyl sulphide (DMS), which tastes of cooked sweetcorn. A vigorous open boil drives DMS off.</p><p>That is why many brewers boil Pilsner malt worts for 60 to 90 minutes with the lid open and cool the wort promptly. A slow whirlpool rest at high temperature lets SMM keep converting while the steam has no way out. If a light lager smells of sweetcorn, check boil vigour and whirlpool time before blaming the malt lot.</p>"
+  ],
+  [
+   "Five checks at the gate",
+   "<p>You do not need a full lab to catch most problems. On every delivery:</p><ol><li>Check the lot numbers on the bags against the COA.</li><li>Inspect the bags for tears, damp patches and insects.</li><li>Open one bag and smell it. Fresh malt smells sweet and bready. Musty or sour means reject.</li><li>Bite a few kernels. Good Pilsner malt is crisp and crumbly. Hard, glassy kernels suggest poor modification.</li><li>Weigh a sample before and after drying in a low oven if you can, to estimate moisture.</li></ol><p>Also check the milled grist on the first brew with a new lot. Pull a sample from the mill and look at it: plenty of whole husks, cracked endosperm and not too much flour. A new lot with a different kernel size can need a small change to the roller gap.</p><p>Write down the result for each lot, with the date and the storage location.</p>"
+  ],
+  [
+   "Link the malt to the brew",
+   "<p>The real value of arrival checks comes when you connect them to brewhouse results. Record the malt lot on every brew sheet. If brewhouse yield falls or run-off slows, you can check whether the change started with a new lot. Our guide to <a href=\"indian-vs-imported-malt.html\">Indian versus imported malt</a> covers how the two supply routes differ on these numbers.</p><p>Reading a COA properly and adjusting the mash when a lot changes takes more depth than a checklist can give. It is one of the most practical skills a brewer can learn.</p><p>Your first step: collect the COAs for your last three Pilsner malt lots and put the moisture, extract and Kolbach index side by side with your brewhouse yield for each.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What moisture should Pilsner malt have?",
+   "Most specifications set a maximum of about 4 to 5%. Lower moisture means more extract per kilogram of malt."
+  ],
+  [
+   "What does the Kolbach index tell a brewer?",
+   "It shows how far the malt's protein has been broken down during malting. Pilsner malt typically sits around 36 to 42%."
+  ],
+  [
+   "Why does my Pilsner smell of sweetcorn?",
+   "That is dimethyl sulphide (DMS) from the malt's SMM. A vigorous open boil and prompt cooling drive most of it off."
+  ],
+  [
+   "How should I store malt in India?",
+   "On pallets, off the floor and away from walls, in a dry area. Reseal opened bags because malt picks up moisture in humid weather."
+  ]
+ ],
+ "cta": {
+  "title": "Read a malt spec sheet like a brewer",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers malt analysis, mashing and brewhouse yield so you can adjust your process when a new malt lot arrives.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "weyermann-pilsner-malt",
+  "weyermann-extra-pale-premium-pilsner-malt",
+  "weyermann-bohemian-pilsner-malt"
+ ]
+}

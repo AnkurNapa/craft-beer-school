@@ -1,0 +1,70 @@
+{
+ "slug": "handling-cash-card-and-upi-payments-at-a-brewpub",
+ "cat": "Business",
+ "h1": "Handling cash, card and UPI payments at a brewpub",
+ "title": "Cash, Card and UPI Payments at a Brewpub | Craft Beer School",
+ "desc": "How a brewpub should take cash, card and UPI payments: what each costs, how to stop payment fraud and how to reconcile every night.",
+ "teaser": "Three ways to pay, three ways to lose money. Here is how a brewpub keeps every rupee it earns.",
+ "standfirst": "Indian brewpub guests pay by UPI, card and cash, often on the same table. Each method has its own costs, risks and paperwork. Here is how we would set up the till and the nightly close.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Most bills now arrive by UPI",
+   "<p>UPI has changed how Indian guests pay. A table of six splitting a bill will often pay by scanning a QR code six times. That is fast and cheap. The government's zero merchant discount rate policy means standard UPI and RuPay debit card payments to a merchant usually carry no merchant fee. Credit cards and other networks do carry a fee, set as a percentage of the bill that depends on the card type and your bank's terms.</p><p>So the mix of payment methods shows up in your margins. Ask your bank for the full fee schedule in writing before you sign. Check it against your first month's statement.</p>"
+  ],
+  [
+   "Fake payment screenshots are the common UPI fraud",
+   "<p>The most common payment fraud at Indian bars is simple. A guest shows a screenshot of a successful payment, or a payment to the wrong account, then walks out. Staff in a rush accept the guest's phone screen as proof.</p><p>The rule is easy: a payment counts only when it shows on your side. Use a soundbox that announces each payment aloud, or check the merchant app on the counter. Never accept the guest's screen as confirmation. Put a dynamic QR code on each bill where your POS supports it, so the amount is fixed and tied to that bill.</p>"
+  ],
+  [
+   "Card payments need their own routine",
+   "<p>Card terminals should come to the table or the guest should come to the counter. The card should never leave the guest's sight. Train staff to hand over the terminal for the guest to enter the PIN, then return the card immediately.</p><p>Settle the card terminal batch every night at close. Each terminal prints a summary. Staple it to the night's cash sheet. Chargebacks and disputed payments do happen. A tidy daily record is how you answer them.</p>"
+  ],
+  [
+   "Cash still needs tight control",
+   "<p>Cash is the easiest money to lose. Run each shift with a fixed float, counted at the start and the end. At close, two people count the cash together, ideally without looking at what the POS says first. This is called a blind count. Compare the two afterwards.</p><p>Small differences happen. A pattern of shortages on one person's shifts, or on one terminal, needs looking into. Keep cash locked in a safe overnight and bank it on a regular schedule, not when someone remembers. Our guide to <a href=\"how-much-cash-to-keep-in-reserve-before-a-brewpub-opens.html\">cash reserves before opening</a> covers the bigger picture.</p>"
+  ],
+  [
+   "Split bills and tips without chaos",
+   "<p>Groups splitting bills is normal, so make the POS do the work. A good system can split a bill by item or evenly, then take a different payment method for each share. Doing it by hand at the counter is where mistakes and losses creep in.</p><p>Tips arrive by every method too. Decide how card and UPI tips are recorded and paid out to staff. Then write it down. Our guide to <a href=\"service-charge-tips-and-staff-incentives-in-an-indian.html\">service charge, tips and staff incentives</a> sets out the options.</p>"
+  ],
+  [
+   "Choose a POS that handles all three methods",
+   "<p>The point of sale (POS) system is where the payment controls live. Before you buy one, check that it can take each payment method against the same bill, split bills by item, record tips separately and export a daily report by payment type. It should also integrate with your UPI provider and card terminal, so payments are matched to bills automatically rather than typed in by hand.</p><p>Give each staff member a personal login. Shared logins make it impossible to trace who voided a bill or applied a discount. Our guide to <a href=\"pos-and-inventory-software-for-brewpubs.html\">POS and inventory software for brewpubs</a> covers what else to look for.</p>"
+  ],
+  [
+   "Reconcile every night, not every month",
+   "<p>At close, the manager should be able to put four numbers side by side: POS sales by payment method, cash counted, card settlement total and UPI receipts from the merchant app. They should agree to within a small tolerance you set.</p><p>A monthly reconciliation finds problems weeks too late. A nightly one finds a missing UPI payment while the server still remembers the table. Spend fifteen minutes on it every night. Keep each night's sheet with the terminal slips for the accountant.</p>"
+  ],
+  [
+   "Watch the numbers behind the payments",
+   "<p>Payment data is also management data. The split between cash, card and UPI changes the fees you pay. Voids and discounts by staff member show training gaps or worse. Average bill by hour shows when your best spenders arrive. Most POS systems can export all of it.</p><p>Owners who look at these reports weekly spot leaks long before the accountant does. Building that habit and knowing which numbers matter is part of running a brewpub as a business rather than a busy bar.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do brewpubs pay fees on UPI payments?",
+   "Standard UPI payments to merchants usually carry no merchant fee under the zero merchant discount rate policy. Credit cards do, so check your bank's schedule."
+  ],
+  [
+   "How do we avoid fake UPI payment screenshots?",
+   "Only accept a payment when it appears on your side, through a soundbox or the merchant app. Never treat a guest's phone screen as proof."
+  ],
+  [
+   "How often should a brewpub reconcile payments?",
+   "Every night. Compare POS sales by method with cash counted, card settlement and UPI receipts while the shift is still fresh."
+  ]
+ ],
+ "cta": {
+  "title": "Keep control of every rupee that comes in",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers cash flow, POS reporting, nightly controls and the monthly numbers that show where money leaks out of a brewpub.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "how-much-cash-to-keep-in-reserve-before-a-brewpub-opens",
+  "brewpub-vs-microbrewery"
+ ]
+}

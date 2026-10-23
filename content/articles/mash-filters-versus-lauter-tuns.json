@@ -1,0 +1,67 @@
+{
+ "slug": "mash-filters-versus-lauter-tuns",
+ "cat": "Brewing science",
+ "h1": "Mash filters versus lauter tuns",
+ "title": "Mash Filters Versus Lauter Tuns | Craft Beer School",
+ "desc": "How a mash filter and a lauter tun separate wort, where extract and time differ and which one suits a high-adjunct Indian brewhouse.",
+ "teaser": "A lauter tun filters through husk. A mash filter filters through cloth. That one difference decides your mill, your grist and your yield.",
+ "standfirst": "Both vessels do the same job: get sweet wort out of the mash and leave the grain behind. They do it in opposite ways. Knowing why tells you which one your brewhouse needs and how to run the one you already have.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The real difference is the filter medium",
+   "<p>Wort separation is a filtration problem. In a lauter tun the filter is the grain bed itself, sitting on a slotted false bottom. In a mash filter the filter is a set of polypropylene cloths stretched across plates, with the mash pumped into the chambers between them.</p><p>Everything else follows from that. A lauter tun needs intact husks to build a permeable bed, so it needs a roller mill set to crack the kernel and keep the husk whole. A mash filter does not care about husk, so it can take a much finer grist from a hammer mill. Finer grist exposes more starch to the enzymes. That is where most of the mash filter's extract advantage comes from.</p>"
+  ],
+  [
+   "How a lauter tun earns its yield",
+   "<p>A well run lauter tun holds a grain bed of roughly 30 to 50 cm. Rakes cut through it to stop it compacting while sparge water rinses extract down through the bed. The brewer's job is to keep the bed open: a coarse enough crush, a mash-out near 76 to 78 °C to lower wort viscosity and a run-off rate that does not pull the bed down onto the plates.</p><p>Push the flow and the pressure difference across the bed climbs, the bed compacts and run-off stalls. Our guide to <a href=\"stuck-mash-fixes.html\">fixing a stuck mash</a> covers the rescue. Most brewers stop sparging when last runnings fall to around 2 °P or the pH climbs above 6, because past that point you rinse out more tannin and silicate than sugar.</p>"
+  ],
+  [
+   "How a mash filter works",
+   "<p>A mash filter is a plate and frame press built for brewing. The mash is pumped in, the first wort runs through the cloths and the chambers fill with grain. Sparge water then washes the cake. In membrane designs, an inflatable membrane behind each cloth squeezes the cake at the end, pressing out the last strong wort.</p><p>Because the cake is thin and compressed, a mash filter can wash it with less sparge water than a deep lauter bed needs. That keeps the pre-boil volume down and the wort gravity up, which helps breweries that brew at high gravity and dilute later. The cost is mechanical: cloths wear, blind and need regular cleaning or replacement. A press also has more moving parts than a tun with rakes.</p>"
+  ],
+  [
+   "Where extract and cycle time actually differ",
+   "<p>Brewhouse yield is the headline. A mash filter typically recovers a point or two more of the available extract than a lauter tun, mostly because of the fine grind rather than anything clever in the press. On a large brewery's malt bill a point or two is real money. On a 10 hl brewpub it is a few kilograms of malt per brew.</p><p>Cycle time matters for plants running many brews a day. A mash filter's cycle is fairly fixed and predictable. A lauter tun's cycle depends on how the bed behaves, which changes with each malt lot and grist. A modern lauter tun in good hands is quick, but it has bad days a press rarely has.</p><p>Batch size is where the lauter tun wins. A press is built for a set grain load because the chambers have to fill properly. A lauter tun copes with a wider range of batch sizes and gravities, which suits breweries that brew a changing line-up.</p>"
+  ],
+  [
+   "Why high-adjunct grists push breweries towards filters",
+   "<p>Many Indian lagers carry rice or maize at 20 to 40% of the grist. Rice and maize bring starch but no husk, so every kilogram of adjunct thins the filter bed a lauter tun depends on. Brewers compensate with rice hulls, a coarser malt crush or a slower run-off. Each of those costs extract or time.</p><p>A mash filter does not need the husk, so a high-adjunct or wheat-heavy grist runs much like an all-malt one. That is a large part of why big adjunct breweries choose presses. The same logic applies to rye and unmalted wheat, which add gums that slow a lauter bed. If you run a lauter tun and want to keep adjunct levels high, our guide to <a href=\"enzymes-in-the-mash.html\">enzymes in the mash</a> explains how to keep viscosity in check.</p>"
+  ],
+  [
+   "Which one fits your brewery",
+   "<p>For a brewpub or small craft brewery the answer is almost always a lauter tun, often combined with the mash tun. It is cheaper, flexible on batch size and forgiving of a varied recipe list. A mash filter makes sense when you brew many batches of a few beers, run high adjunct or high gravity and can justify the capital and the cloth maintenance.</p><p>Choosing between them is easy once you know your numbers. Running either one well is harder: it needs a grip on milling, enzyme behaviour, wort viscosity and how each malt lot changes the picture. That is the part a spec sheet will not teach.</p><p>Your first step: log three numbers on every brew for the next month: brewhouse yield, total run-off time and last runnings gravity. If yield swings by more than two points between brews of the same recipe, look at your mill gap before you look at new equipment.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does a mash filter give higher extract than a lauter tun?",
+   "Usually yes, by a point or two of brewhouse yield. Most of the gain comes from the fine hammer-milled grist a press can handle, not from the press itself."
+  ],
+  [
+   "Can a small brewpub use a mash filter?",
+   "It can, but it rarely pays. A press is built for a fixed grain load, costs more and needs cloth maintenance, while a lauter tun copes better with changing batch sizes."
+  ],
+  [
+   "Why do rice adjuncts slow down a lauter tun?",
+   "Rice has no husk. The more rice in the grist, the thinner the husk filter bed becomes, so run-off slows and the bed is more likely to stick."
+  ],
+  [
+   "When should I stop sparging?",
+   "Most brewers stop when last runnings fall to around 2 °P or the pH rises above about 6. Beyond that you extract more tannin and silicate than useful sugar."
+  ]
+ ],
+ "cta": {
+  "title": "Run your wort separation on numbers, not luck",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers milling, mash enzymes, viscosity and wort separation so you can diagnose run-off and yield problems on any brewhouse.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-ph-explained",
+  "enzymes-in-the-mash",
+  "stuck-mash-fixes"
+ ]
+}

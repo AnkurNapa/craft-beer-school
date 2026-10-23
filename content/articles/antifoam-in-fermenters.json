@@ -1,0 +1,71 @@
+{
+ "slug": "antifoam-in-fermenters",
+ "cat": "Ingredients",
+ "h1": "Antifoam in fermenters",
+ "title": "Antifoam in Fermenters: How and When | Craft Beer School",
+ "desc": "How silicone antifoam works in fermenters, what it does to fill volume and foam on the finished beer, how to dose it and regulatory checks in India.",
+ "teaser": "A few millilitres of antifoam can let you fill a fermenter far fuller. It can also raise questions about head retention.",
+ "standfirst": "Antifoam stops kräusen climbing out of the fermenter. That means more beer per tank and less mess. Here is how it works, how to dose it and what to watch for.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why fermenters foam over",
+   "<p>During active fermentation, CO2 bubbles rise through the beer. Proteins and hop compounds stabilise them into foam, the kräusen. Vigorous ale fermentations at 18 to 22 °C can push kräusen a long way up the vessel, especially in hot Indian conditions where cooling struggles to hold temperature.</p><p>To avoid foam-overs, most brewers leave 20 to 25% of the fermenter as headspace. On a 1,000 litre fermenter, that is 200 to 250 litres of capacity not filled with beer. Our guide to <a href=\"fermenter-headspace-and-foam-over.html\">fermenter headspace and foam-over</a> covers the risks of getting this wrong.</p>"
+  ],
+  [
+   "What antifoam is and how it works",
+   "<p>Brewing antifoams are usually silicone emulsions based on polydimethylsiloxane (PDMS). The silicone has very low surface tension. When it reaches a bubble wall, it spreads and weakens it, so the bubble bursts. Kräusen stays low and fermentation carries on as normal.</p><p>Antifoams are processing aids. They are added at very low doses and mostly removed by yeast, trub and filtration. Use only food grade products made for brewing or fermentation. Follow the supplier's data sheet.</p>"
+  ],
+  [
+   "Dosing antifoam",
+   "<p>The dose is small. Commercial data sheets give it in millilitres per hectolitre. Homebrew products are often dosed at a couple of drops per 4 litres. Always use the supplier's figure, because concentrations differ between brands.</p><p>Add antifoam to the fermenter before or during filling so it mixes into the wort. Some brewers also use it in the kettle to prevent boil-overs, which can help a small brewhouse fill closer to capacity. The one floor detail we would insist on: shake the antifoam bottle well before every use. The emulsion separates on standing. An unshaken bottle doses wrongly.</p>"
+  ],
+  [
+   "What it does to the finished beer",
+   "<p>The main worry is head retention. If antifoam kills foam in the fermenter, does it kill the head in the glass? At recommended doses, suppliers report that the silicone is largely removed with yeast and trub and that finished foam is not harmed. Many breweries use it routinely.</p><p>Do not take that on trust. Run your own comparison: one batch with antifoam and one without, same recipe, then measure foam on the finished beer. Our guide to <a href=\"beer-foam-science.html\">beer foam science</a> explains how foam stability is measured.</p>"
+  ],
+  [
+   "Other benefits brewers report",
+   "<ul><li><strong>More beer per tank.</strong> Fill closer to full, which can raise output without new fermenters.</li><li><strong>Less loss.</strong> Kräusen that climbs out carries beer, yeast and hop bitterness with it.</li><li><strong>Cleaner tank tops.</strong> Less foam means less dried kräusen around the top of the vessel and in blow-off lines.</li><li><strong>Fewer blocked blow-off arms</strong> during heavily dry-hopped fermentations.</li></ul><p>Some brewers also report slightly better hop utilisation, because less bitterness leaves with the foam. Treat that as something to measure in your own brewery rather than assume.</p>"
+  ],
+  [
+   "Antifoam in the kettle and the cellar",
+   "<p>Foam is not only a fermenter problem. Many small brewhouses lose wort to boil-overs in the first minutes after the wort reaches a rolling boil, when proteins froth up before the hot break forms. A small antifoam dose in the kettle calms this and lets you fill closer to the brim.</p><p>Antifoam can also help during heavy dry hopping. Pellets dropped into a fermenter full of dissolved CO2 can trigger a sudden foam eruption as the gas comes out of solution on the hop particles. A dose of antifoam beforehand, or adding hops slowly, reduces the risk. On a tall fermenter that is a safety issue as well as a mess.</p><p>Do not use antifoam in the bright tank or at packaging. By then you want foam, not less of it. There is also no yeast or trub left to carry the silicone out of the beer.</p>"
+  ],
+  [
+   "Regulation and labelling in India",
+   "<p>Silicone antifoam is used as a processing aid in food production in many countries. In India, food additives and processing aids are governed by FSSAI regulations, which are updated from time to time. Check the current FSSAI rules on processing aids for beer and keep your supplier's food grade documentation on file.</p><p>Labelling rules for processing aids also change. Confirm with a regulatory consultant whether any declaration is needed for your product. Never use an industrial defoamer not approved for food.</p>"
+  ],
+  [
+   "Deciding whether to use it",
+   "<p>Antifoam makes most sense when tank space is the bottleneck. If a brewery is turning away orders because fermenters are full, a few millilitres per batch may be the cheapest capacity it can buy. If foam is not a problem, it adds a step for little gain.</p><p>Understanding what foam, proteins and yeast are doing in the tank is part of fermentation science. That depth is what turns a process aid into a considered choice.</p><p>Your first step: measure the highest point the kräusen reaches in your next three fermentations, then compare it with your current headspace to see whether antifoam would gain you any capacity.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does antifoam affect beer foam in the glass?",
+   "At recommended doses, suppliers report that most of the silicone is removed with yeast and trub, so finished foam is not harmed. Test it in your own beer."
+  ],
+  [
+   "How much antifoam do I add to a fermenter?",
+   "Follow the supplier's data sheet. Doses are small, given in millilitres per hectolitre. Brands differ in strength."
+  ],
+  [
+   "Is antifoam allowed in beer in India?",
+   "Food grade silicone antifoams are widely used as processing aids. Check the current FSSAI regulations and keep your supplier's documentation on file."
+  ]
+ ],
+ "cta": {
+  "title": "Get more beer from every fermenter",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers fermentation, yeast behaviour, process aids and quality control in the depth a single guide cannot.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "barley-malting-process",
+  "base-malts-explained",
+  "crystal-and-caramel-malts"
+ ]
+}

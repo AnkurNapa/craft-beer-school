@@ -1,0 +1,63 @@
+{
+ "slug": "running-a-spirit-still-for-a-lighter-or-heavier-spirit",
+ "cat": "Whisky",
+ "h1": "Running a spirit still for a lighter or heavier spirit",
+ "title": "Running a Spirit Still Light or Heavy | Craft Beer School",
+ "desc": "How to run a spirit still for a lighter or heavier new make: distillation speed, cut points, condenser temperature, charge level and copper rest.",
+ "teaser": "The same still can make a light, fruity spirit or a heavy, meaty one. The levers are in the distiller's hands.",
+ "standfirst": "Still shape sets the range, but the operator decides where inside it each run lands. Speed, cut points, condenser temperature and how long the copper rests all push new make lighter or heavier.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Light and heavy, defined",
+   "<p>Distillers describe new make on a scale from light to heavy. A <strong>light</strong> spirit tends to be fruity, floral and clean, with fewer heavy sulphur and oily notes. A <strong>heavy</strong> spirit carries more body, more oily, meaty, nutty or sulphury character. It often needs longer in the cask to open up.</p><p>Neither is better. Both come from the same chemistry: how much of the heavier, less volatile compounds reach the spirit and how much copper contact strips sulphur out on the way. Our guide to <a href=\"what-the-wash-still-and-spirit-still-each-do.html\">what the wash still and spirit still each do</a> explains why the spirit still is where most of this is decided.</p>"
+  ],
+  [
+   "Slow distillation means more reflux",
+   "<p>Running a still gently means less steam, lower vapour speed and more time for vapour to condense on the shoulder and neck and fall back into the pot. That reflux strips heavier compounds out of the vapour and gives it more contact with copper. The result is a lighter spirit.</p><p>Pushing the still hard does the opposite: vapour rushes over the lyne arm, carrying heavier compounds with it and spending less time on copper. The new make is heavier and often more sulphury. Distillation rate is the easiest lever to change and the easiest to drift on a busy day, which is why the steam setting belongs in the SOP and the run log.</p>"
+  ],
+  [
+   "Cut points move the character most",
+   "<p>Where you start and stop collecting hearts decides which compounds you keep:</p><ul><li><strong>An earlier cut to feints</strong>, at a higher strength, keeps out the heavier, oily and earthy compounds that come late in the run. Lighter spirit, lower yield of hearts.</li><li><strong>A later cut to feints</strong>, at a lower strength, brings in more of those compounds. Heavier, richer spirit, more volume.</li><li><strong>Foreshots time</strong> matters too: too short and solvent, glue-like notes reach the hearts.</li></ul><p>In many malt distilleries the cut to feints falls somewhere in the 60s % ABV. Moving it by a few percentage points changes the new make noticeably. Our guide to <a href=\"low-wines-and-the-spirit-still-charge.html\">low wines and the spirit still charge</a> covers how the charge strength shifts those points.</p>"
+  ],
+  [
+   "Condenser temperature and copper rest",
+   "<p>A condenser run with warmer cooling water outflow lets vapour travel further into the condenser before it liquefies, giving more contact with copper and a lighter result. A cold, efficient condenser stops that copper conversation early and keeps more sulphur. Worm tubs, with their long copper coil in cold water, are associated with heavier, more sulphury spirit for the same reason. In India, where cooling water itself may arrive warm, condenser outflow temperature is a figure to log every run.</p><p>Copper also needs rest. A still run continuously gives its copper less time to recover its reactive surface between runs. Some distillers leave the spirit still open to air between runs, which helps the copper surface recover. Short gaps and long campaigns tend toward a heavier spirit.</p>"
+  ],
+  [
+   "Charge level and strength",
+   "<p>Filling a spirit still to a lower level leaves more headspace and more copper surface per litre of charge, which encourages reflux and lightness. A fuller still does the reverse. The strength of the charge, the low wines and feints mix, also matters: a charge that is too strong or too weak shifts when compounds come over and can push heavy notes into the hearts.</p><p>Keep the charge level the same from run to run once you have chosen it. Variable fills are one of the quiet reasons new make drifts in small distilleries, especially when low wines and feints stocks swing.</p><p>Change one lever at a time. If you speed up distillation, move cut points and change condenser temperature in the same week, you will not know which one changed the spirit.</p>"
+  ],
+  [
+   "Run a controlled trial",
+   "<p>Your first step: pick one lever, usually the cut to feints. Run three spirit distillations with it set two percentage points higher than normal while everything else stays the same. Keep a sample of each, label them and taste them blind against your normal new make, cut to around 20% ABV with water for nosing. Record what you find, including the litres of hearts collected, because a lighter spirit usually costs volume. That is how a still's real range is mapped, one lever at a time, with the trade-off in yield visible next to the flavour.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I make a lighter spirit on a pot still?",
+   "Distil more slowly, make an earlier cut to feints, run a warmer condenser outflow and give the copper rest between runs."
+  ],
+  [
+   "Why does fast distillation make heavier spirit?",
+   "Vapour moves quickly with less reflux and less copper contact, so heavier and sulphury compounds reach the spirit."
+  ],
+  [
+   "Should I change several still settings at once?",
+   "No. Change one lever at a time so you can see which change affected the new make."
+  ]
+ ],
+ "cta": {
+  "title": "Run your still for the spirit you want",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers distillation science, cut points, reflux and copper contact, so you can steer new make character run by run instead of by luck.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-the-wash-still-and-spirit-still-each-do",
+  "low-wines-and-the-spirit-still-charge",
+  "molasses-vs-grain-spirit-india"
+ ]
+}

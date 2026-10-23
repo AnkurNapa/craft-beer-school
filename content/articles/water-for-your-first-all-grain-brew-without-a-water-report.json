@@ -1,0 +1,71 @@
+{
+ "slug": "water-for-your-first-all-grain-brew-without-a-water-report",
+ "cat": "Brewing basics",
+ "h1": "Water for your first all-grain brew without a water report",
+ "title": "Water for Your First All-Grain Brew | Craft Beer School",
+ "desc": "How to sort out water for your first all-grain brew without a water report: chlorine, hard borewell water, simple salt additions and mash pH.",
+ "teaser": "No water report? You can still get water right for a first all-grain brew. Here is the simple version.",
+ "standfirst": "Water chemistry scares new all-grain brewers more than it should. For a first brew, two things matter: get rid of chlorine and avoid very hard, alkaline water. We show how to do both without a lab report.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "You do not need a report for a first brew",
+   "<p>Water is most of your beer. Its minerals do affect flavour and mash chemistry. But for a first all-grain brew, a full water report is not the place to start. Most pale and amber beers turn out well if you get two things right: remove the chlorine and keep the water from being too hard and alkaline.</p><p>Leave detailed water profiles for later, once you know your system and can taste what a change does.</p>"
+  ],
+  [
+   "Step one: deal with chlorine",
+   "<p>Municipal water in Indian cities is usually treated with chlorine and sometimes chloramine. Both react with phenols in beer to make chlorophenols, which taste medicinal, like antiseptic or plasters, even at tiny levels. This is one of the most common faults in first homebrews.</p><p>The easy fix is a Campden tablet, which is potassium metabisulphite. One tablet treats about 75 litres of water, so half a tablet is plenty for a 30 to 35 litre brew. Crush it, stir it in and wait a few minutes. It removes both chlorine and chloramine. Leaving water out overnight drives off free chlorine but does little against chloramine, so the tablet is the safer route.</p>"
+  ],
+  [
+   "Step two: is your water hard?",
+   "<p>Borewell water in much of India is hard and alkaline, high in calcium, magnesium and bicarbonate. Bicarbonate is the problem for brewing. It pushes mash pH up, which gives harsh, dull and astringent pale beers.</p><p>Without a report, a handheld TDS meter gives a rough guide for a small cost. It measures total dissolved solids, all minerals together. Very low readings mean soft water, close to RO. Readings of several hundred parts per million suggest hard water. It cannot tell you which minerals are there, so treat it as a warning light, not an analysis. The other clue is your kettle: thick white scale means hard, alkaline water.</p><p>If your water tastes fine to drink and leaves little scale, it is probably fine for a first brew once the chlorine is gone.</p>"
+  ],
+  [
+   "The simple fix for hard water: start from RO",
+   "<p>If your water is hard, the most reliable route is reverse osmosis water, which many Indian homes already have from a kitchen purifier. RO water is close to mineral free, so you add back a little of what yeast and enzymes need.</p><p>For about 25 litres of RO water, adding 3 grams of calcium chloride (the dihydrate form) and 3 grams of gypsum gives roughly 60 ppm of calcium with a balanced mix of chloride and sulphate. That suits most pale ales and ambers. Weigh the salts on a jewellery or kitchen scale that reads to 0.1 grams and stir them into the mash water.</p><p>Diluting borewell water half and half with RO is a middle route. It halves the bicarbonate and keeps some natural minerals. Packaged drinking water varies a lot by brand, so read its label before trusting it.</p>"
+  ],
+  [
+   "Check mash pH if you can",
+   "<p>Mash pH is the number that tells you whether your water is working. The target for most beers is about 5.2 to 5.6, measured on a cooled sample. Inside that range enzymes work well and the beer tastes clean. Above it, pale beers turn harsh.</p><p>A pH meter is the accurate tool; strips are a rough guide. If you have neither for your first brew, RO water with the salts above will usually land a pale ale in range, because the malt itself brings the pH down. Dark beers acidify the mash more, so they are more forgiving of alkaline water. Our guide to <a href=\"first-all-grain-brew-day.html\">your first all-grain brew day</a> covers when to take the reading.</p>"
+  ],
+  [
+   "Mistakes to avoid",
+   "<ul><li>Using softened water from an ion exchange softener. It swaps calcium for sodium, which can make beer salty and gives yeast no calcium.</li><li>Adding salts by the spoon. A teaspoon of gypsum is several grams and varies with how you pack it. Weigh.</li><li>Changing water and recipe at once. Brew the first batch with simple water so you can judge the recipe.</li><li>Forgetting sparge or top-up water. Treat all the water that goes into the beer, not only the mash.</li></ul>"
+  ],
+  [
+   "When to go further",
+   "<p>Once you have a few batches behind you, a lab water report or regular readings from your supplier let you build water for each style: more sulphate for crisp, bitter beers, more chloride for soft, malty ones. That is when water becomes a tool rather than a risk. The method of mashing matters too; our guide to the <a href=\"brew-in-a-bag-method.html\">brew in a bag method</a> shows how a single vessel changes your water volumes.</p><p>Your first step: buy a pack of Campden tablets and test your tap water with a TDS meter so you know whether to brew with it or start from RO.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need to treat tap water for brewing?",
+   "Yes, at least for chlorine. Half a Campden tablet treats about 30 to 35 litres and removes both chlorine and chloramine."
+  ],
+  [
+   "Can I brew with RO water?",
+   "Yes, but add back some calcium. Around 3 grams each of calcium chloride and gypsum in 25 litres suits most pale ales."
+  ],
+  [
+   "Is borewell water good for brewing?",
+   "Often it is too hard and alkaline for pale beers. Dilute it with RO water or start from RO and add salts."
+  ],
+  [
+   "What mash pH should I aim for?",
+   "About 5.2 to 5.6 measured on a cooled sample."
+  ]
+ ],
+ "cta": {
+  "title": "Understand water before it ruins a batch",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999) on weekend afternoons. It covers water treatment, mashing, boiling and fermentation, so your first all-grain batches land where you planned.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "first-all-grain-brew-day",
+  "extract-vs-all-grain-brewing",
+  "brew-in-a-bag-method"
+ ]
+}

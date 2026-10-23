@@ -1,0 +1,67 @@
+{
+ "slug": "whisky-for-supply-chain-new-joiners",
+ "cat": "Whisky",
+ "h1": "Whisky for supply chain new joiners",
+ "title": "Whisky for Supply Chain New Joiners | Craft Beer School",
+ "desc": "A plain guide to whisky supply chains for new joiners: long maturation lead times, dry goods, state excise permits, pack sizes and nine litre cases.",
+ "teaser": "Most supply chains plan in weeks. Whisky plans in years, then ships in trucks that need a permit to move.",
+ "standfirst": "If you have just joined the supply chain team at a whisky company, the product will behave unlike anything you have planned before. This guide explains the parts that surprise new joiners most and the numbers you will use every day.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The longest lead time in the building",
+   "<p>The defining feature of whisky supply chains is maturation. Scotch must mature for at least three years in oak casks in Scotland. Many expressions carry an age statement of 12 years or more. Indian single malts mature faster in the heat but still spend years in cask. Any aged whisky you plan to sell in 2030 needed spirit distilled years before.</p><p>That means part of supply chain planning is really long-range stock planning: how much new spirit to fill each year to meet demand forecasts many years ahead. Get it too low and a brand runs short of aged stock. Get it too high and capital sits in casks. Our guide to <a href=\"whisky-inventory-planning.html\">whisky inventory planning</a> covers this in more depth.</p>"
+  ],
+  [
+   "Not all whisky is aged the same way",
+   "<p>Much mainstream Indian whisky is a blend built on extra neutral alcohol (ENA), a highly purified spirit from molasses or grain, combined with malt spirit, flavour and colour. ENA can be bought or produced and used without long ageing, so the lead times for these blends are shorter. Premium tiers, Indian single malts and bottled-in-India Scotch depend on aged stock.</p><p>The practical upshot: know which SKUs depend on aged liquid. A spike in demand for a mainstream blend can often be met within weeks. A spike for a single malt can only be met from casks that already exist.</p>"
+  ],
+  [
+   "Dry goods quietly run the bottling plan",
+   "<p>Dry goods are everything except the liquid: glass bottles, closures, labels, cartons, shipper cases and excise adhesive labels or holograms. Each has its own supplier and lead time. A custom glass bottle or a premium gift box can take far longer to arrive than the whisky takes to bottle.</p><p>Labels are the trap. Indian whisky is sold state by state. Each state may need its own label version. One liquid in one bottle can therefore become many SKUs. A shortage of one state's labels can stop that state's supply while the bottling hall stands ready.</p>"
+  ],
+  [
+   "Pack sizes and the nine litre case",
+   "<p>Indian whisky is commonly sold in 750, 375 and 180 ml bottles, with other sizes in some markets. The trade's standard volume unit is the <strong>nine litre case</strong>: twelve 750 ml bottles. Reports of cases sold are usually converted to nine litre equivalent cases so that different pack sizes can be added fairly.</p><p>For example, 48 bottles of 180 ml hold 8.64 litres, just under one nine litre equivalent case. Adding a carton of those to a carton of 750 ml bottles as if both were one case is the most common reporting error new joiners make.</p>"
+  ],
+  [
+   "Every movement needs a permit",
+   "<p>Spirits in India move under state excise control. Stock leaves a bonded warehouse against a permit, often with a transport pass valid for a set period. Moving stock between states needs an export permit from the sending state and an import permit from the receiving one. Permits take time to obtain and expire if not used.</p><p>That changes how a supply chain behaves. Trucks move in full loads against permits rather than in small daily drops. A delayed permit can shift a large shipment from one month into the next. Rules and fees vary by state and change, so the team must work from the current notification. Our guide to <a href=\"excise-and-state-permits-for-spirits-in-india.html\">excise and state permits</a> explains the process.</p>"
+  ],
+  [
+   "Heat and storage",
+   "<p>Bottled whisky is stable, but it still needs sensible storage. Keep cases out of direct sun and away from extreme heat, which can push corks and damage labels. Store bottles upright, so the spirit does not sit against a cork for months. In casks, Indian heat raises evaporation losses well above the roughly 2% a year often quoted for Scotland, which planners must allow for when they forecast aged stock.</p><p>Warehouses that hold finished cases in summer need ventilation, shade and a first-in, first-out routine, so older batches leave before newer ones.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Pick one SKU you are responsible for. Write down its liquid type (aged or not), its pack size, the number of state label versions and the lead time of its slowest dry good. That single line explains most of the surprises that SKU will give you this year.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do whisky supply chains plan years ahead?",
+   "Aged whisky must mature in casks for years, so the spirit for future sales has to be produced and filled long before demand appears."
+  ],
+  [
+   "What is a nine litre case?",
+   "The trade's standard volume unit, equal to twelve 750 ml bottles. Different pack sizes are converted to nine litre equivalent cases for reporting."
+  ],
+  [
+   "Why does each Indian state need different labels?",
+   "Alcohol is largely a state subject, so each state registers labels for sale within it and may require its own text or excise labels."
+  ]
+ ],
+ "cta": {
+  "title": "Give your supply chain team a working picture of whisky",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "indian-whisky-market-for-new-joiners",
+  "whisky-for-finance-new-joiners",
+  "whisky-tasting-for-beginners"
+ ]
+}

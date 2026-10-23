@@ -1,0 +1,67 @@
+{
+ "slug": "water-and-energy-in-whisky-sustainability",
+ "cat": "Whisky",
+ "h1": "Water and energy in whisky sustainability",
+ "title": "Water and Energy in Whisky Making | Craft Beer School",
+ "desc": "Where a whisky distillery uses water and energy, which steps use most, how heat recovery and effluent treatment work and what teams should measure.",
+ "teaser": "Distilling is boiling and cooling, over and over. That is why water and energy sit at the centre of whisky sustainability.",
+ "standfirst": "A sustainability report on a whisky company leans heavily on two numbers: water and energy per litre of alcohol. This guide explains where those numbers come from in the distillery and which levers really move them.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Distilling is heating and cooling",
+   "<p>Whisky making is a sequence of heating and cooling. Water is heated to mash the grain, the wort is cooled for fermentation, the wash is boiled in the stills and the vapour is condensed back to liquid. Every one of those steps uses energy and most use water.</p><p>Sustainability teams usually report two intensity measures: water used per litre of pure alcohol produced and energy used per litre of pure alcohol. Pure alcohol is the common unit because it lets a site compare years with different strengths and volumes. Our guide to <a href=\"energy-use-in-a-whisky-distillery.html\">energy use in a whisky distillery</a> goes deeper on the heat side.</p>"
+  ],
+  [
+   "Where the water goes",
+   "<p>Water in a distillery has four main jobs.</p><ul><li><strong>Process water</strong> for mashing, where hot water converts the starch in the grain to sugar.</li><li><strong>Cooling water</strong> for the condensers and wort coolers. This is often the largest volume, though much of it can be recirculated through cooling towers.</li><li><strong>Cleaning water</strong> for washbacks, pipes and vessels.</li><li><strong>Reduction water</strong> to bring spirit down to filling and bottling strength. It must be very pure, usually demineralised, so it does not cause haze.</li></ul><p>Reduction alone is a real volume. Taking 1,000 litres of whisky at 63.5% ABV down to 42.8% means a final volume of about 1,484 litres, so roughly 484 litres of water goes into the bottle, a little more in practice because alcohol and water contract when mixed.</p>"
+  ],
+  [
+   "Where the energy goes",
+   "<p>Distillation is the biggest energy user in most whisky distilleries, because the stills boil large volumes of wash and low wines. Mashing water heating comes next. Most of this heat is supplied as steam from a boiler. The fuel used in the boiler largely decides the site's direct carbon emissions.</p><p>The heat does not disappear. It leaves in hot condenser cooling water, in hot pot ale and spent lees and in steam vented to atmosphere. That is why heat recovery is the first lever any distillery engineer reaches for.</p>"
+  ],
+  [
+   "The levers that move the numbers",
+   "<ul><li><strong>Heat recovery.</strong> Using hot condenser water to preheat the next charge of wash or the mashing water.</li><li><strong>Vapour recompression.</strong> Thermal vapour recompression (TVR) and mechanical vapour recompression (MVR) compress low pressure vapour so its heat can be reused in the stills.</li><li><strong>Anaerobic digestion.</strong> Treating pot ale and other residues to produce biogas that can fire the boiler.</li><li><strong>Co-products.</strong> Spent grain (draff) goes to cattle feed. Pot ale can be concentrated into feed syrup.</li><li><strong>Cooling towers and reuse.</strong> Recirculating cooling water instead of drawing fresh water each pass.</li><li><strong>Fuel switching.</strong> Moving the boiler to a lower carbon fuel or electrification where the grid supply allows it.</li></ul><p>Each lever needs engineering work and capital. A sustainability team should know which ones a site already has before it sets a target.</p>"
+  ],
+  [
+   "The Indian context",
+   "<p>In India, water is often the harder constraint. Many distilleries draw on groundwater and face seasonal shortages and rising local scrutiny. Effluent from distilleries, especially molasses distilleries producing large volumes of spent wash, is tightly regulated by pollution control boards, which push sites towards zero liquid discharge: treating effluent so no liquid leaves the site. Rules vary by state and change, so teams should work from the current consent conditions for each site.</p><p>Heat also changes maturation. Warehouses in Indian heat lose more spirit to evaporation each year than cool Scottish ones, which affects how much alcohol must be produced for each bottle eventually sold.</p>"
+  ],
+  [
+   "Reading the sustainability numbers",
+   "<p>Be careful when comparing intensity figures. A malt distillery, a grain distillery and a molasses distillery have different processes and cannot be compared on one chart. Check the boundary too: does the water figure include cooling water that is recirculated? Does energy include bottling and warehousing? Small definition changes move the figures more than real improvements do.</p><p>To turn an intensity into something a brand team can use, convert it to a bottle. A 750 ml bottle at 42.8% ABV holds about 0.32 litres of pure alcohol. Multiply the site's water or energy per litre of alcohol by 0.32 and you have the production share per bottle, before maturation losses, glass and transport are added.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Ask your site engineering team for monthly water and steam or fuel use alongside litres of alcohol produced for the last twelve months. Calculate both intensities month by month. Mark the months with planned shutdowns or cleaning campaigns. The pattern will show where a real saving might be. It will also show which months simply produced less.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which step uses most energy in a whisky distillery?",
+   "Distillation usually uses the most, because the stills boil large volumes of wash and low wines. Heating mashing water comes next."
+  ],
+  [
+   "Why is reduction water demineralised?",
+   "Minerals in hard water can cause haze in the bottle. Demineralised water keeps the whisky clear when it is reduced to bottling strength."
+  ],
+  [
+   "What is zero liquid discharge?",
+   "It means treating a site's effluent so that no liquid waste leaves the site. Pollution control boards in India push distilleries towards it, with rules that vary by state."
+  ]
+ ],
+ "cta": {
+  "title": "Give your team the production facts behind the sustainability report",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "adding-water-to-whisky",
+  "reducing-whisky-to-bottling-strength",
+  "energy-use-in-a-whisky-distillery"
+ ]
+}

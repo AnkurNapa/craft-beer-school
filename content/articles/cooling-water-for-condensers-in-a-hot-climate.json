@@ -1,0 +1,67 @@
+{
+ "slug": "cooling-water-for-condensers-in-a-hot-climate",
+ "cat": "Whisky",
+ "h1": "Cooling water for condensers in a hot climate",
+ "title": "Condenser Cooling Water in Hot Climates | Craft Beer School",
+ "desc": "How condenser cooling works in Indian heat: wet-bulb limits, cooling towers, chillers, scale and the distillate temperature to aim for.",
+ "teaser": "Your condenser can only be as cold as the water feeding it. In an Indian May, that water may be 32 °C before it reaches the still.",
+ "standfirst": "A pot still is a heater at one end and a cooler at the other. Most distilleries in hot countries size the heater well and starve the cooler. Here is how to plan condenser water for a climate where the tower cannot get below the wet-bulb temperature.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The condenser decides how much spirit you keep",
+   "<p>Every litre of vapour that leaves the lyne arm has to be turned back into liquid and cooled before it reaches the spirit safe. If the condenser falls behind, two things happen. Warm distillate loses ethanol and light aromatics to the air at the receiver vents. Worse, uncondensed vapour can push out of the vent pipe into the stillhouse, which is a safety problem as well as a loss.</p> <p>Most distillers aim for distillate running at roughly 15 to 20 °C at the safe. Much warmer than that and the hydrometer readings drift, the cut becomes harder to judge and you can smell the losses. Our guide to <a href=\"worm-tubs-versus-shell-and-tube-condensers.html\">worm tubs and shell and tube condensers</a> covers the two main designs. Both obey the same rule: they need cold water in large volumes.</p>"
+  ],
+  [
+   "Wet-bulb temperature sets the floor",
+   "<p>An open cooling tower cools water by evaporating a small part of it. That means it can never get the water below the wet-bulb temperature of the air, which is the temperature a wet thermometer reads in moving air. A well run tower typically delivers water about 3 to 5 °C above the wet-bulb. Engineers call that gap the approach.</p> <p>This is why a hot dry place and a hot humid place behave so differently. At 40 °C with low humidity the wet-bulb may sit in the low 20s, so a tower still gives useful water. On the coast in the pre-monsoon weeks the wet-bulb can reach 28 to 30 °C. Add the approach and your coldest tower water is 32 to 34 °C. A condenser designed around 25 °C water in a European brochure will not keep up.</p>"
+  ],
+  [
+   "Sizing the water flow with real numbers",
+   "<p>The heat a condenser must remove is the latent heat of the vapour plus the cooling of the liquid afterwards. Water carries away about 4.18 kJ per kg for each degree it warms. If cooling water enters at 32 °C and you let it leave at 45 °C, each kg absorbs about 54 kJ. Allow it to leave at 60 °C and the same kg absorbs about 117 kJ, so you need less than half the flow.</p> <p>That is the trade every hot climate distillery makes. A higher outlet temperature saves water and pump power. It also gives you warm water you can use for the next mash, as long as the condenser has enough surface area to still bring the distillate down. Ask the still maker for the heat duty in kW at your peak boil rate. Then size the tower, pumps and pipe for your worst week, not your average one.</p>"
+  ],
+  [
+   "When a chiller earns its place",
+   "<p>Where the tower cannot reach the temperature you need, the usual answer is a two stage system. The tower does the bulk of the work. A small chiller or a chilled water trim cooler brings the last stretch of distillate down from, say, 30 °C to below 20 °C. Because the chiller only handles the final few degrees, it can be a fraction of the size of one doing all the work.</p> <p>Chillers cost power. Grid power in many Indian states is not cheap or steady. Size the chiller so that a power cut means slowing the still, not losing it. Some distilleries keep a buffer tank of chilled water that gives them 20 to 30 minutes to turn the steam down safely when the chiller trips.</p>"
+  ],
+  [
+   "Hard water and the slow loss of condenser capacity",
+   "<p>A cooling tower concentrates whatever is dissolved in its make-up water, because the water that evaporates leaves the salts behind. Borewell water with high hardness will scale condenser tubes quickly at outlet temperatures above about 50 °C. A millimetre of scale cuts heat transfer noticeably, so a condenser that was adequate in its first year can run warm in its third.</p> <p>Control this the way any utility plant does. Soften or treat the make-up water, bleed off a little tower water continuously to hold the dissolved solids at a set level and dose against scale and corrosion. Treat the tower for bacteria as well. Warm tower water is a classic home for Legionella, so follow a written cleaning and dosing routine. Log the conductivity and the approach temperature weekly. A widening approach is the earliest sign that the tower fill or the tubes need attention.</p>"
+  ],
+  [
+   "Plan for the worst week of the year",
+   "<p>The mistake we see most often in planning is designing utilities around an annual average. Distillation does not average. It runs at full boil on the hottest, most humid afternoon of May just as it does in January. Look up the design wet-bulb for your location (the figure HVAC engineers use for the hottest few days) and size the tower and condenser around it.</p> <p>Also think about where the hot water goes. A malt distillery that captures condenser outlet water at 60 to 70 °C for mashing turns its cooling load into an energy saving. The full heat balance of a still, from steam in to spirit out, is one of the things a short guide cannot teach properly and a good distilling course should.</p>"
+  ],
+  [
+   "A first step for this week",
+   "<p>Put a thermometer on the cooling water inlet, the outlet and the distillate at the safe. Record all three every 30 minutes through one full spirit run on a hot afternoon. If the distillate climbs above 20 °C while the inlet water sits near the wet-bulb, the condenser or the flow is undersized and you now know by how much.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should distillate be at the spirit safe?",
+   "Most distillers aim for roughly 15 to 20 °C. Warmer distillate loses volatile spirit at the receiver and makes hydrometer readings less reliable."
+  ],
+  [
+   "Why can a cooling tower not cool water below a certain point?",
+   "A tower cools by evaporation, so it cannot get water below the wet-bulb temperature of the air. In practice it delivers water about 3 to 5 °C above the wet-bulb."
+  ],
+  [
+   "Do I need a chiller for a still in India?",
+   "Not always. In dry inland climates a well sized tower may be enough. In humid coastal climates a small chiller trimming the final few degrees is common."
+  ]
+ ],
+ "cta": {
+  "title": "Design the still house around real heat loads",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers still design, condensers, cuts and the heat balance of a distillery so you can size steam and cooling before you buy kit.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "taiwanese-whisky-and-hot-climate-maturation",
+  "adding-water-to-whisky",
+  "reducing-whisky-to-bottling-strength"
+ ]
+}

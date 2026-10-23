@@ -1,0 +1,71 @@
+{
+ "slug": "running-triangle-tests-in-a-brewery-lab",
+ "cat": "Brewing science",
+ "h1": "Running triangle tests in a brewery lab",
+ "title": "Running Triangle Tests in a Brewery | Craft Beer School",
+ "desc": "How to run a valid triangle test in a brewery: sample prep, serving order, blind coding and how many correct answers you need.",
+ "teaser": "Changed a hop, a malt or a supplier? A triangle test tells you whether anyone can actually taste the difference.",
+ "standfirst": "A triangle test is the simplest sensory test that gives a statistically sound answer. It asks one question: can tasters tell two beers apart? Run it carefully and it settles arguments that opinion cannot.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a triangle test answers",
+   "<p>In a triangle test, each taster gets three samples. Two are the same beer and one is different. The taster must pick the odd one out. If the beers are truly identical, a taster guessing has a one in three chance of being right.</p><p>The test answers a narrow question: is there a perceptible difference? It does not say which beer is better or what the difference is. That narrowness is its strength. Use it when you change a raw material, a supplier, a process step or a package and want to know whether drinkers might notice.</p>"
+  ],
+  [
+   "Preparing the samples",
+   "<p>The samples must differ only in the thing you are testing. Everything else must match:</p><ul><li>Same serving temperature, for example 6 °C for both beers.</li><li>Same volume in each glass, around 30 to 50 ml.</li><li>Same glass type, clean and free of odour.</li><li>Same carbonation, as far as possible.</li><li>Poured at the same time so neither loses more gas.</li></ul><p>If the beers differ in colour or haze and that is not the point, use coloured glasses or dim red lighting so tasters cannot simply see the difference.</p>"
+  ],
+  [
+   "Serving order and blind coding",
+   "<p>With samples A and B, there are six possible orders: AAB, ABA, BAA, BBA, BAB and ABB. Use all six equally across tasters. This balances out position effects, such as tasters favouring the middle glass or finding the first sample stronger.</p><p>Label each glass with a random three digit code, not A, B or 1, 2, 3. Tasters should not be able to guess anything from the label. The person serving should keep the key on a separate sheet. Tasters taste from left to right and must choose one sample, even if they are unsure. That forced choice is what makes the statistics work.</p>"
+  ],
+  [
+   "How many correct answers you need",
+   "<p>Because guessing gives one in three, you need more correct answers than chance would produce. Standard tables, such as those in ISO 4120, give the minimum number at a 5% significance level:</p><ul><li>12 tasters: 8 correct</li><li>15 tasters: 9 correct</li><li>18 tasters: 10 correct</li><li>24 tasters: 13 correct</li><li>30 tasters: 15 correct</li></ul><p>A small brewery may not have 24 trained tasters. Running the test in sessions, or with each taster doing two sets, can build numbers, but keep the method the same. Our guide to <a href=\"running-a-sensory-panel.html\">running a sensory panel</a> covers training tasters.</p>"
+  ],
+  [
+   "Running the session",
+   "<p>Hold triangle tests in a quiet, odour free space, away from the brewhouse and the kitchen. Avoid strong smells such as coffee, perfume or spicy food before the session. Mid morning is often best, before lunch dulls the palate.</p><p>Give tasters water and plain crackers between samples. Keep sessions short: one or two triangle tests per sitting. Fatigue sets in quickly with beer, especially strong or bitter ones. Use spittoons so tasters can spit, which keeps the session safe and responsible.</p>"
+  ],
+  [
+   "Reading a result",
+   "<p>If the number of correct answers reaches the table value, you can conclude there is a perceptible difference. If it does not, you cannot conclude the beers are identical. You can only say that this panel, on this day, did not reliably tell them apart. That is a weaker statement and it matters when the change is commercial, such as a cheaper malt.</p><p>Ask tasters who picked correctly to describe the difference in a few words. That gives you clues for the next step, often a descriptive test.</p>"
+  ],
+  [
+   "Common mistakes that spoil a triangle test",
+   "<p>Small errors make triangle tests unreliable:</p><ul><li><strong>Uneven temperature.</strong> One beer sits out longer and warms up. Tasters pick the warm one, not the different one.</li><li><strong>Visible differences.</strong> Colour, haze or foam give away the odd sample before anyone tastes it.</li><li><strong>Talking.</strong> Tasters who discuss samples influence each other. Keep the room silent until all answers are in.</li><li><strong>Leading questions.</strong> Telling tasters what changed primes them to find it. Say only that they are looking for the odd one.</li><li><strong>The brewer serving and watching.</strong> Body language can give answers away. Have someone else serve where possible.</li></ul><p>Keep notes on panel members' results over time. Some tasters are consistently better at finding certain differences, such as bitterness or sulphur. That knowledge helps you choose panels for future tests and spot when a taster needs more training.</p>"
+  ],
+  [
+   "Making it part of change control",
+   "<p>Triangle tests work best as a habit. Any change to raw materials, suppliers, recipes or processes goes through one before full roll out. Over time you build a record of which changes drinkers noticed and which they did not.</p><p>Designing clean tests for business questions and training a panel to run them is the core of our sensory course.</p><p>Your first step: run a triangle test this week on two batches of your best selling beer that should be identical. If tasters can tell them apart, you have a consistency problem to solve.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many tasters do I need for a triangle test?",
+   "More is better. With 12 tasters you need 8 correct for significance at the 5% level. With 24 tasters you need 13."
+  ],
+  [
+   "Can tasters say they are not sure in a triangle test?",
+   "No. The method uses forced choice. Tasters must pick one sample, even if they are guessing."
+  ],
+  [
+   "Does a failed triangle test mean the beers are the same?",
+   "Not quite. It means the panel did not reliably detect a difference, which is weaker evidence than proving the beers are identical."
+  ]
+ ],
+ "cta": {
+  "title": "Turn tasting into evidence",
+  "body": "Sensory Evaluation is our two week live course (₹5,999), Saturdays and Sundays online. It trains your nose and palate and teaches the sensory tests, including triangle tests, that turn opinion into data you can act on.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewery-qc-lab-on-a-budget",
+  "microbiology-plating-small-brewery",
+  "calibrating-and-caring-for-a-ph-meter-in-a-brewery-lab"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "sizing-stills-for-a-craft-distillery",
+ "cat": "Whisky",
+ "h1": "Sizing stills for a craft distillery",
+ "title": "Sizing Stills for a Craft Distillery | Craft Beer School",
+ "desc": "How to size the wash still and spirit still for a craft malt distillery from your target output, with the arithmetic shown.",
+ "teaser": "Pick still sizes from the output you want, working backwards through the spirit still, the wash still and the mash. Not from a brochure.",
+ "standfirst": "Still size is the decision every other piece of kit follows. Get it wrong and the mash tun, washbacks and stills never quite balance. Here is how to work it out backwards from the litres of pure alcohol you actually want to make each year.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start from pure alcohol, not litres of whisky",
+   "<p>Distillers count output in litres of pure alcohol (LPA), sometimes written LOA. A litre of new make at 70% ABV contains 0.7 LPA. Using pure alcohol keeps the arithmetic honest because strength changes at every step: wash at around 8%, low wines at roughly 20 to 25%, new make near 70% and casks filled nearer 63.5%.</p><p>So the first question is not \"how big a still?\" It is \"how many LPA a year over how many production days?\" A craft distillery that wants 50,000 LPA a year over 200 working days needs about 250 LPA a day. Everything else follows from that.</p>"
+  ],
+  [
+   "From pure alcohol back to grain",
+   "<p>A well run malt distillery commonly achieves somewhere around 400 LPA per tonne of malt, depending on the malt spec, the mash and the fermentation. Craft sites often run lower in their early years. Our guide to <a href=\"predicted-spirit-yield-on-a-distilling-malt-spec.html\">predicted spirit yield on a distilling malt spec</a> explains where that number comes from.</p><p>At a working figure of 380 LPA per tonne, 250 LPA a day needs about 0.66 tonnes of malt a day. Many craft sites round that to a one tonne mash every other day or a smaller daily mash, depending on staffing.</p>"
+  ],
+  [
+   "Sizing the wash still",
+   "<p>One tonne of malt typically gives roughly 5,000 litres of wash at around 8% ABV, which holds about 400 LPA before losses. That wash has to go through the wash still.</p><p>A wash still should not be filled to the top. Wash foams as it heats. A foaming still can push wash over the lyne arm and into the low wines. A common rule is to charge it to about two thirds of its total volume. To take a 5,000 litre charge, then, the wash still needs roughly 7,500 litres of total volume. Alternatively, you can split the wash into two smaller charges in a smaller still and run it twice, which saves capital but costs time and energy.</p>"
+  ],
+  [
+   "Sizing the spirit still",
+   "<p>The wash still turns 5,000 litres of 8% wash into low wines of perhaps 20 to 25% ABV. That is a large reduction in volume. At 22% ABV, 400 LPA becomes about 1,800 litres of low wines.</p><p>The spirit still charge is the low wines plus the foreshots and feints recycled from the previous spirit run, so it is larger than the low wines alone. That is why spirit stills are usually smaller than wash stills. Many distilleries pair one wash still with one spirit still about half to two thirds of its size, or run two wash charges for every spirit charge. The aim is a spirit still that takes one full charge, with headspace, without running half empty.</p>"
+  ],
+  [
+   "Balance the whole plant",
+   "<p>The stills are only one part of the chain. The mash tun must produce enough wort for each wash still charge. The washbacks must hold several days of fermentation, because malt whisky ferments for anything from around two days to a week or more. If fermentation runs 72 hours and you mash daily, you need at least four washbacks so one is always free to fill.</p><p>Check timing, too. A wash still run and a spirit still run each take several hours. If both have to fit in one shift, the still sizes, heating power and condenser capacity all need to match. Condensers in Indian heat deserve extra attention, because warm cooling water reduces their capacity.</p>"
+  ],
+  [
+   "Shape matters as much as size",
+   "<p>Two stills of the same volume can produce very different spirit. Tall necks, reflux bowls and a rising lyne arm push more vapour back down, giving a lighter, fruitier spirit. Short, squat stills with a falling lyne arm give a heavier, oilier one. Copper surface area per litre also matters, because copper removes sulphur compounds. Smaller stills have more copper per litre of charge, which is one reason small stills can make clean spirit.</p><p>So size the stills from output, then specify shape from the spirit character you want. Our guide to <a href=\"hybrid-stills-for-craft-distilleries.html\">hybrid stills for craft distilleries</a> covers designs that try to do both jobs.</p>"
+  ],
+  [
+   "Leave room to grow",
+   "<p>Most craft distilleries outgrow their first stills or wish they had. Leave floor space, ceiling height and utility capacity for a second still pair. Size the boiler, cooling water and effluent plant with growth in mind, because those are expensive to replace.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Write down your target LPA per year and your production days. Work backwards through the steps above: LPA per day, tonnes of malt, litres of wash, wash still volume, low wines and spirit still volume. Do it in a spreadsheet so you can change one number and see the rest move. If any step feels like a guess, that is where you need the process explained properly before you talk to a still maker.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How full should a wash still be?",
+   "A common rule is to charge a wash still to about two thirds of its total volume, leaving headspace for foam."
+  ],
+  [
+   "Why is the spirit still smaller than the wash still?",
+   "Low wines are a much smaller volume than wash because the wash still concentrates the alcohol, so the spirit still charge is smaller even with feints added."
+  ],
+  [
+   "How much spirit does a tonne of malt make?",
+   "Well run malt distilleries commonly reach around 400 litres of pure alcohol per tonne, depending on malt, mash and fermentation. New craft sites often start lower."
+  ]
+ ],
+ "cta": {
+  "title": "Size your plant with the arithmetic in hand",
+  "body": "Craft Distilling is our four week live course (₹9,999), on Saturday and Sunday afternoons with recordings and weekly assignments. It works through mashing, fermentation and distillation so you can size stills, washbacks and utilities from your own numbers.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "sourcing-oak-casks-for-an-indian-distillery",
+  "hybrid-stills-for-craft-distilleries",
+  "a-bottling-line-for-a-craft-distillery"
+ ]
+}

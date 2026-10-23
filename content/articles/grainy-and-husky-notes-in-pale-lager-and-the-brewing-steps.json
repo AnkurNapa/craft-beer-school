@@ -1,0 +1,67 @@
+{
+ "slug": "grainy-and-husky-notes-in-pale-lager-and-the-brewing-steps",
+ "cat": "Tasting",
+ "h1": "Grainy and husky notes in pale lager and the brewing steps behind them",
+ "title": "Grainy and Husky Notes in Pale Lager | Craft Beer School",
+ "desc": "Where grainy, husky and astringent notes in pale lager come from, from milling and sparging to pH, with the brewhouse numbers that prevent them.",
+ "teaser": "Pale lager hides nothing. A rough, husky edge in the finish usually traces back to the mill, the lauter tun or the sparge.",
+ "standfirst": "A good pale lager tastes of fresh bread and clean malt. When it tastes of raw grain, chaff or tea that stewed too long, something in the brewhouse pulled the wrong compounds out of the grist. Here are the steps behind it and the numbers that keep it clean.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two faults that travel together",
+   "<p>Grainy and husky are related but not the same. <strong>Grainy</strong> is a raw cereal note, like chewing unmalted barley or smelling a sack of fresh grain. <strong>Husky</strong> is drier and rougher: chaff, cardboard and a grippy astringency on the gums, closer to over-steeped black tea. Grainy is mostly an aroma and flavour problem. Husky is mostly a mouthfeel problem.</p><p>Both stand out in pale lager because the style leaves nowhere to hide. A 4.5% ABV helles or Pilsner with 20 IBU and pale malt has no roast, no big hop aroma and no esters to cover a rough edge. The same flaw in a stout might go unnoticed.</p>"
+  ],
+  [
+   "Where grainy comes from",
+   "<p>Grainy flavour is largely driven by aldehydes, including isobutyraldehyde and the Strecker aldehydes 2-methylbutanal and 3-methylbutanal. They form in malting and kilning, during mashing and boiling and through oxygen pickup on the hot side. A healthy fermentation reduces much of them, as yeast converts aldehydes to their alcohols.</p><p>So grainy beer usually points to one of three things: grainy malt (under-modified or very lightly kilned), hot side oxygen pickup during mashing in and transfers or a fermentation that did not have the vigour or time to clean up. Our guide to <a href=\"worty-taste-in-finished-beer-and-what-it-says-about.html\">worty taste in finished beer</a> covers the fermentation side, since worty and grainy overlap.</p>"
+  ],
+  [
+   "Where husky comes from",
+   "<p>Husk astringency comes from polyphenols (tannins) and silicates in the barley husk. Extraction rises sharply with three conditions: high temperature, high pH and low gravity. The classic way to get all three at once is over-sparging. As the run-off thins out, its pH climbs and its buffering falls away, so hot sparge water pulls tannin from the husk.</p><p>Milling matters too. A mill gap set too fine shreds husks rather than cracking them open. Shredded husk releases more polyphenol and gives a poorer filter bed, which leads to longer, harder lautering and more channeling. Our guide to <a href=\"polyphenols-from-husk-and-hops-and-how-they-shape-haze-and.html\">polyphenols from husk and hops</a> explains the chemistry.</p>"
+  ],
+  [
+   "The brewhouse numbers that prevent it",
+   "<p>These are standard ranges and most husky beer breaks at least one of them:</p><ul><li><strong>Mash pH 5.2 to 5.6</strong> measured at room temperature. Pale lager grists on soft water often come in high without acid or acidulated malt.</li><li><strong>Sparge water 75 to 78 °C.</strong> Hotter than about 80 °C at the grain bed starts to extract tannin and can set unconverted starch free.</li><li><strong>Sparge water pH around 5.5 to 6.0</strong> after acidification, so the bed is not flushed with alkaline water.</li><li><strong>Stop collecting</strong> when last runnings fall to about 1.008 to 1.010 (2 to 2.5 °P) or the run-off pH climbs past about 5.8 to 6.0, whichever comes first.</li><li><strong>Mill gap</strong> set so husks stay largely intact. Check by eye: the husk should look like split shells, not flour.</li></ul><p>The floor detail we would insist on: check the pH of the last runnings, not just the first wort. That reading tells you when to stop sparging far better than a target volume.</p>"
+  ],
+  [
+   "Indian water makes it easier to go wrong",
+   "<p>Many Indian breweries brew on borewell water with high alkalinity. Bicarbonate drives mash pH up. Alkaline sparge water makes husk extraction worse in the final runnings. A pale lager mashed on untreated hard borewell water can sit at pH 5.8 or above, well outside the range above, which shows as harshness in the finish. Dealkalising the water or acidifying the mash and sparge liquor solves most of it. Rice and maize adjunct lagers have a little less husk per litre, but the same rules apply to the barley portion.</p>"
+  ],
+  [
+   "How to tell which one you have",
+   "<p>Taste the beer and pay attention to where the problem sits. Grainy shows in the aroma and mid-palate as raw cereal. Husky shows after swallowing as a dry, grippy, tea-like roughness on the gums and cheeks. If it is mostly grainy, look at malt, oxygen and fermentation. If it is mostly husky, look at the mill, the sparge and pH.</p><p>Your first step: on the next pale lager brew, log the pH and gravity of the last runnings and the sparge water temperature at the bed. Compare those three numbers with how the finished beer tastes. Within two or three batches you will know which step is giving you the husk.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What makes pale lager taste grainy?",
+   "Aldehydes from malt, hot side oxygen pickup or an incomplete fermentation. Vigorous, complete fermentation removes much of the grainy character."
+  ],
+  [
+   "What causes husky astringency?",
+   "Tannins and silicates from barley husk, extracted by hot, high pH, low gravity sparge run-off and by over-fine milling."
+  ],
+  [
+   "When should I stop sparging?",
+   "When last runnings fall to about 1.008 to 1.010 or the run-off pH rises past about 5.8 to 6.0, whichever comes first."
+  ],
+  [
+   "Does mash pH affect husky flavours?",
+   "Yes. A mash above about 5.6 extracts more husk polyphenol. Aim for 5.2 to 5.6 measured at room temperature."
+  ]
+ ],
+ "cta": {
+  "title": "Trace a flavour fault back to the brewhouse step",
+  "body": "Sensory Evaluation is our two week live course (₹5,999). It trains you to tell grainy from husky, worty from oxidised and link each fault to the step in the process that caused it.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "vinegar-notes-in-beer-and-the-acetic-acid-bacteria-behind",
+  "earthy-beetroot-notes-from-geosmin-and-how-brewers-track",
+  "nail-polish-notes-from-ethyl-acetate-and-how-to-tell-them"
+ ]
+}

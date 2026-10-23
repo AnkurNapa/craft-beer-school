@@ -1,0 +1,75 @@
+{
+ "slug": "magnesium-in-brewing-water",
+ "cat": "Ingredients",
+ "h1": "Magnesium in brewing water",
+ "title": "Magnesium in Brewing Water | Craft Beer School",
+ "desc": "What magnesium does for yeast and mash pH, the safe range for brewing water plus when Epsom salt helps and when it hurts.",
+ "teaser": "Yeast needs magnesium. Malt already supplies most of it, so more in the water often does harm.",
+ "standfirst": "Magnesium is a yeast nutrient and a minor player in mash chemistry. Most of what yeast needs comes from malt. Above about 30 mg/L in brewing water it starts to taste sour and bitter. Much higher it can upset the stomach.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Yeast needs it, malt supplies it",
+   "<p>Magnesium is an essential cofactor for many yeast enzymes, including several in the pathway that turns sugar into alcohol. Without enough of it fermentation slows. Fortunately, malt contains plenty. An all-malt wort normally supplies more magnesium than yeast requires, regardless of what is in the water.</p><p>That is why brewing water guidelines put magnesium in a low range, commonly 10 to 30 mg/L. Many good beers are brewed with water containing less than 10 mg/L. Worts with a large proportion of sugar or unmalted adjuncts, such as the rice and maize used in many Indian lagers, carry less malt magnesium, so it is worth checking if fermentation is sluggish.</p>"
+  ],
+  [
+   "It lowers mash pH, but weakly",
+   "<p>Like calcium, magnesium reacts with phosphates in the malt to release acid and lower mash pH. It is about half as effective as calcium for the same concentration. In the residual alkalinity formula developed by Paul Kolbach, alkalinity is offset by calcium hardness divided by 3.5 plus magnesium hardness divided by 7.</p><p>In practice, adding magnesium to adjust mash pH makes little sense. Calcium does the job better and without the flavour risk. Our guide to <a href=\"water-hardness-and-beer.html\">water hardness and beer</a> explains how calcium and magnesium together make up total hardness.</p>"
+  ],
+  [
+   "High levels taste sour and bitter",
+   "<p>Above about 30 mg/L, magnesium starts to show on the palate. It gives a sour, astringent bitterness that brewers sometimes describe as metallic or chalky. Higher still, from roughly 125 mg/L, magnesium sulphate has a well-known laxative effect.</p><p>Some brewers like a little extra magnesium in very hoppy beers, believing it sharpens hop bitterness. If you try it, stay modest and taste the result against a control. The line between crisp and harsh is close.</p>"
+  ],
+  [
+   "Hard groundwater can carry plenty",
+   "<p>Groundwater that runs through dolomite or other magnesium-rich rock can carry significant magnesium alongside calcium. Borewell water in parts of India is hard for this reason. A water report showing total hardness of 400 mg/L as calcium carbonate could be mostly calcium or split between the two. You need the separate figures to know.</p><p>Converting is straightforward. Magnesium hardness expressed as calcium carbonate divided by 4.12 gives magnesium in mg/L. So 100 mg/L of magnesium hardness is about 24 mg/L of magnesium. Our guide to <a href=\"treating-borewell-water-for-brewing.html\">treating borewell water</a> covers how to bring a hard source under control.</p>"
+  ],
+  [
+   "Epsom salt adds magnesium and sulphate together",
+   "<p>The usual way to add magnesium is magnesium sulphate heptahydrate, known as Epsom salt. One gram in 10 litres adds about 10 mg/L of magnesium and 39 mg/L of sulphate. On a 10 hl brew that is 1 kg for the same result.</p><p>Most brewers who add Epsom salt are really after the sulphate, to dry out and sharpen a hoppy beer. They accept the magnesium as a side effect. If you want sulphate without magnesium, use calcium sulphate (gypsum) instead. Buy food grade salts from a reliable supplier and store them dry, because Epsom salt picks up moisture in humid weather and weighs inaccurately once it does.</p>"
+  ],
+  [
+   "Reverse osmosis takes it out",
+   "<p>Magnesium is part of permanent hardness, so boiling does not remove it the way it can remove calcium carbonate. Ion exchange softening removes it but adds sodium. Reverse osmosis removes most of it along with everything else, which is why many breweries on hard groundwater build their liquor from RO water and add back exactly what they want.</p><p>If you start from RO water, you can usually leave magnesium out entirely for all-malt beers. Malt will cover the yeast.</p>"
+  ],
+  [
+   "Sluggish adjunct fermentations need a wider look",
+   "<p>When a high-adjunct lager ferments slowly, magnesium is one suspect but rarely the only one. Rice and maize dilute everything malt supplies: free amino nitrogen, zinc, vitamins and minerals. Zinc is more often the limiting nutrient. Many breweries target roughly 0.1 to 0.2 mg/L of zinc in wort.</p><p>Commercial yeast nutrients usually supply zinc, magnesium and other minerals together, added late in the boil at the rate on the label. That is a more balanced fix than dosing Epsom salt alone. Before adding anything, compare the slow batch with a good one: same yeast generation, same pitch rate, same oxygen. Nutrients only help if nutrients were the problem.</p>"
+  ],
+  [
+   "Check your figure, then leave it alone",
+   "<p>The most useful thing to do about magnesium is often nothing. Pull your latest water report and convert the magnesium hardness to mg/L. If it sits under 30 mg/L, stop worrying. If it is higher, look at blending with RO water before you look at any other fix, then build calcium and sulphate back to suit your styles.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much magnesium should brewing water have?",
+   "A common guideline is 10 to 30 mg/L. Many beers are brewed with less, because malt supplies the magnesium yeast needs."
+  ],
+  [
+   "Does magnesium lower mash pH?",
+   "Yes, but only about half as effectively as calcium. Calcium is the better tool for adjusting mash pH."
+  ],
+  [
+   "What does too much magnesium taste like?",
+   "Above about 30 mg/L it gives a sour, astringent bitterness. Much higher levels can have a laxative effect."
+  ],
+  [
+   "How much magnesium does Epsom salt add?",
+   "One gram in 10 litres adds about 10 mg/L of magnesium and 39 mg/L of sulphate."
+  ]
+ ],
+ "cta": {
+  "title": "Read your water the way a brewer should",
+  "body": "Advanced Brewing Science is our six week live weekend course. It covers water chemistry, mash pH, yeast nutrition and how each ion changes the beer in the glass.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "brewing-water-basics",
+  "water-hardness-and-beer",
+  "treating-borewell-water-for-brewing"
+ ]
+}

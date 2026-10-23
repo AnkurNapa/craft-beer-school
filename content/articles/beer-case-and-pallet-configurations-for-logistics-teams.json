@@ -1,0 +1,63 @@
+{
+ "slug": "beer-case-and-pallet-configurations-for-logistics-teams",
+ "cat": "Beer for teams",
+ "h1": "Beer case and pallet configurations for logistics teams",
+ "title": "Beer Cases and Pallets for Logistics | Craft Beer School",
+ "desc": "How beer cases, trays and pallets are built, how to convert cases to hectolitres and why glass changes every load plan.",
+ "teaser": "A case of beer is not a fixed unit. Twelve bottles and 24 cans hold almost the same beer and weigh very different amounts.",
+ "standfirst": "Logistics teams in beer companies plan in cases, pallets and trucks while the brewery thinks in hectolitres. This guide shows how the units fit together and where the weight hides.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A case is a pack format, not a volume",
+   "<p>Ask a brewer how much beer went out last week and you get an answer in hectolitres. Ask a logistics planner and you get cases. Both are right. The trouble starts when someone assumes every case holds the same amount of beer.</p><p>In India the common formats are the 650 ml bottle in a case of 12 and the 330 ml or 500 ml can in a case of 24. Do the arithmetic and the differences jump out:</p><ul><li>12 x 650 ml bottles = 7.8 litres</li><li>24 x 330 ml cans = 7.92 litres</li><li>24 x 500 ml cans = 12 litres</li></ul><p>The first two are almost identical in beer. The third carries half as much again. If your dashboard counts all three as \"one case\", your volume and freight cost per case will both mislead you.</p>"
+  ],
+  [
+   "Convert to hectolitres before you compare anything",
+   "<p>One hectolitre is 100 litres. To turn cases into hectolitres, multiply the case count by the litres per case and divide by 100. A thousand cases of 650 ml bottles is 1,000 x 7.8 / 100 = 78 hl. A thousand cases of 500 ml cans is 120 hl.</p><p>Keep that conversion factor on the SKU master, not in someone's spreadsheet. Finance, sales and the brewery should all read the same number for the same SKU. Our guide to <a href=\"beer-production-planning-basics.html\">beer production planning</a> shows how the brewery turns those hectolitres into brews and tank days.</p>"
+  ],
+  [
+   "Glass is the heavy part of the load",
+   "<p>The beer in a 12 bottle case weighs about 7.8 kg, because beer is close to water in density. The glass and the crate add several kilograms more, so a full returnable case lands well above 12 kg. A 24 can tray of the same beer volume weighs much less, because an aluminium can is a small fraction of a bottle's weight.</p><p>That matters on the truck. A load of glass usually hits the vehicle's weight limit before it fills the space. A load of cans usually fills the space first. Planners who use one rule for both either run trucks overweight or send them out half empty.</p><p>Returnable glass adds a second trip. Empty bottles come back in the same crates, so the reverse leg is booked capacity, not spare capacity.</p>"
+  ],
+  [
+   "How a pallet is built",
+   "<p>Most beer moves on one of two pallet footprints: 1200 x 1000 mm, common in Asia, or the 1200 x 800 mm Euro pallet. Cases go on in layers, often in an interlocking pattern so each layer binds the one below. Cans usually travel in shrink wrapped trays with a slip sheet between layers. Bottles travel in plastic crates or cartons.</p><p>Every pallet should have a written specification: footprint, cases per layer, layers per pallet, total height and gross weight. A worked example, with illustrative numbers: if a pallet takes 16 cases per layer and 5 layers, that is 80 cases. At 24 x 330 ml cans, that is 80 x 7.92 = 634 litres, a little over 6 hl per pallet.</p><p>Height is limited by stability, the warehouse racking and the truck. A pallet that leans in the yard will lean worse after 300 km of Indian highway.</p><p>Kegs follow their own rules. A 30 litre or 50 litre steel keg is stacked upright, often two high. The empty keg is an asset worth far more than the beer inside it. Track kegs by serial number, not by count, or they quietly vanish into the trade.</p>"
+  ],
+  [
+   "Heat and handling decide how the pallet arrives",
+   "<p>Beer is a perishable food. Every hour at 40 °C in a parked truck ages it. Cans heat up fast and cool down fast. Glass holds heat longer. Neither likes direct sun. Clear or green glass also lets light spoil the beer, giving a skunky smell within hours of strong sunshine. Brown glass blocks most of the light that causes it. Cans block all of it.</p><p>The floor detail we would insist on: stretch wrap the pallet tight enough to stop cases walking, but never wrap a pallet of crates straight off a warm line and park it in the sun. Trapped heat plus no airflow is how a fresh lager tastes stale before it reaches the first distributor. Our guide to the <a href=\"beer-supply-chain-explained.html\">beer supply chain</a> follows that journey end to end.</p>"
+  ],
+  [
+   "What the numbers mean on your desk",
+   "<p>Three numbers explain most logistics surprises in beer. Litres per case tells you whether a volume change is real or just a pack mix change. Gross weight per pallet tells you how many pallets a truck can legally carry. Pallets per truck, multiplied by litres per pallet, gives you hectolitres per trip, which is the honest basis for freight cost per hectolitre.</p><p>When a cost per case jumps, check the pack mix first. A shift from 330 ml cans to 650 ml glass can raise weight per trip sharply with almost no change in beer shipped. Teams that know the product spot that in a minute. Teams that do not can lose a week arguing about the freight contract.</p><p>Start this week with one table: every live SKU, its litres per case, its gross weight per case and its cases per pallet. Check three of those rows against a real pallet in the warehouse.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many litres are in a case of beer?",
+   "It depends on the pack. A case of 12 x 650 ml bottles holds 7.8 litres, 24 x 330 ml cans hold 7.92 litres and 24 x 500 ml cans hold 12 litres."
+  ],
+  [
+   "Why do beer trucks run out of weight before space?",
+   "Glass bottles and crates are heavy. A truck loaded with glass usually reaches its legal weight limit before its deck is full, while cans tend to fill the space first."
+  ],
+  [
+   "What pallet sizes are used for beer?",
+   "The 1200 x 1000 mm pallet is common in Asia and the 1200 x 800 mm Euro pallet is common in Europe. Each SKU should have its own written pallet specification."
+  ]
+ ],
+ "cta": {
+  "title": "Help your logistics team read the beer behind the cases",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-route-planning-and-delivery-costs-for-logistics-teams",
+  "beer-industry-explained-for-gcc-teams",
+  "beer-production-planning-basics"
+ ]
+}

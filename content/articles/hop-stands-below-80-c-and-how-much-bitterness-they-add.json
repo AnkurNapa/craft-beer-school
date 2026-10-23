@@ -1,0 +1,71 @@
+{
+ "slug": "hop-stands-below-80-c-and-how-much-bitterness-they-add",
+ "cat": "Brewing science",
+ "h1": "Hop stands below 80 °C and how much bitterness they add",
+ "title": "Hop Stands Below 80 °C: Bitterness | Craft Beer School",
+ "desc": "How much bitterness a hop stand below 80 °C really adds, why isomerisation slows and why lab IBU can still rise in hoppy beer.",
+ "teaser": "Cool the wort before the hop stand and isomerisation all but stops. Your IBU test may still go up.",
+ "standfirst": "Many brewers chill wort to below 80 °C before a hop stand to keep aroma and limit bitterness. It works, mostly. Here is how much bitterness a cool stand really adds and why the lab number can surprise you.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Isomerisation slows sharply as wort cools",
+   "<p>Iso-alpha acids, the main bitter compounds in beer, form when alpha acids are heated. The reaction is fast at a rolling boil and slows steeply as temperature falls. By the time wort is down at 75 to 80 °C it is a small fraction of the boiling rate.</p><p>That is why a hot whirlpool at 95 °C adds real bitterness and a stand below 80 °C adds far less. If you add hops at flame out and leave the wort hot for 30 minutes, you are effectively adding another boil-like addition. If you cool first, you are mostly extracting oils.</p>"
+  ],
+  [
+   "What brewers do to get below 80 °C",
+   "<p>The common approach is to run wort through the heat exchanger and back to the whirlpool, or to add a measured amount of cold liquor, until it reaches the target. Then the hops go in and the stand runs for 20 to 45 minutes before knockout.</p><p>On a 10 hl brewpub, recirculating through the plate heat exchanger is usually easiest. Take a temperature reading at the whirlpool outlet, not just on the vessel probe, because the wort can stratify. A probe reading 78 °C at the top while the bottom is 85 °C is a common surprise.</p>"
+  ],
+  [
+   "The bitterness that still turns up",
+   "<p>A cool stand adds little iso-alpha acid. But lab IBU results on heavily hopped beers often come back higher than the boil additions alone predict. There are three reasons.</p><ul><li><strong>Oxidised alpha acids.</strong> Compounds such as humulinones form when hops age or meet oxygen. They dissolve well and taste bitter, though less so than iso-alpha acids.</li><li><strong>Polyphenols.</strong> Large hop charges bring polyphenols that add some harshness and absorb in the IBU test.</li><li><strong>The test itself.</strong> The standard spectrophotometric IBU method measures absorbance at 275 nm. Several hop compounds besides iso-alpha acids absorb there.</li></ul><p>So a cool hop stand can lift the measured IBU and the perceived bitterness a little, even when isomerisation is minimal.</p>"
+  ],
+  [
+   "How to budget for it",
+   "<p>There is no single conversion that fits every system. A sensible approach:</p><ol><li>Count a stand below 80 °C as a small bitterness contribution, not zero.</li><li>Calculate your boil additions as usual.</li><li>Measure finished beer IBU in the lab for a few batches.</li><li>Compare measured with predicted. The gap is your stand's real contribution on your kit with your hops.</li></ol><p>Our guide to <a href=\"kettle-ph-and-its-effect-on-hop-bitterness.html\">kettle pH and hop bitterness</a> explains another reason predicted and measured IBU differ: pH changes isomerisation and how harsh bitterness tastes.</p>"
+  ],
+  [
+   "What else the stand changes",
+   "<p>A long hot rest is also a period when the wort keeps reacting. Colour can deepen a little through <a href=\"maillard-reactions-in-the-kettle-and-what-they-add-to-beer.html\">Maillard reactions</a>. On pale lagers, dimethyl sulphide forms without boiling to drive it off. Cooling to below 80 °C slows both. That is one practical reason to cool before the stand on lighter beers.</p><p>Hop compounds also bind to trub and yeast later. Some measured bitterness drops out in fermentation and more during storage, especially in warm Indian supply chains. Our guide to <a href=\"how-much-bitterness-beer-loses-in-storage.html\">how much bitterness beer loses in storage</a> covers that end of the story.</p>"
+  ],
+  [
+   "Aroma is the reason for the stand",
+   "<p>Lower temperature keeps more of the volatile hop oils in solution. Myrcene in particular evaporates readily at high temperature. A stand at 75 to 80 °C gives a different, often fresher hop character than flame-out hops left hot. That is why hazy IPA and pale ale brewers favour it.</p><p>Hop charge size usually matters more than small temperature changes. Doubling the stand charge tends to move aroma more than shifting the temperature by five degrees.</p><p>Variety matters too. Hops with high oil content per 100 g give more for the same weight. Oil figures on the supplier certificate are worth reading before you set the dose. Imported pellets that sat in a warm godown for months will have lost some oil whatever temperature you stand them at, so store hops cold and sealed from the day they arrive.</p>"
+  ],
+  [
+   "The gap the numbers expose",
+   "<p>Most brewers set stand temperature and time by habit and never check the result. The lab IBU, a simple panel and a few batches of records will tell you how your system really behaves. Turning that into a recipe you can repeat is where knowing the chemistry pays off.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>On your next hoppy batch, log the actual whirlpool temperature at the bottom outlet when the stand hops go in. Take it again after 15 and 30 minutes. Send the finished beer for lab IBU. Compare it with your calculated figure. That gap is the number you have been missing.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does a hop stand at 75 °C add bitterness?",
+   "A little. Isomerisation is slow at that temperature, but oxidised hop acids and polyphenols still add measured and perceived bitterness."
+  ],
+  [
+   "Why is my measured IBU higher than predicted?",
+   "The IBU test picks up several hop compounds besides iso-alpha acids. Large late hop charges add those compounds."
+  ],
+  [
+   "How long should a hop stand last?",
+   "Many brewers run 20 to 45 minutes. Hop quantity usually changes aroma more than small changes in time."
+  ]
+ ],
+ "cta": {
+  "title": "Design hop schedules that hit their numbers",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers isomerisation, hop oil chemistry and lab IBU, so your bitterness and aroma come out the way the recipe intends.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "maillard-reactions-in-the-kettle-and-what-they-add-to-beer",
+  "how-much-bitterness-beer-loses-in-storage",
+  "kettle-ph-and-its-effect-on-hop-bitterness"
+ ]
+}

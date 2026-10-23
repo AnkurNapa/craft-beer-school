@@ -1,0 +1,75 @@
+{
+ "slug": "malt-dust-and-mill-room-explosion-safety",
+ "cat": "Ingredients",
+ "h1": "Malt dust and mill room explosion safety",
+ "title": "Malt Dust and Mill Room Explosion Safety | Craft Beer School",
+ "desc": "Why malt dust can explode, how primary and secondary explosions happen and the housekeeping, ignition and extraction controls a mill room needs.",
+ "teaser": "Flour and malt dust have destroyed mills and breweries. The mill room is the one place in a brewery where a broom can be a hazard.",
+ "standfirst": "Fine malt dust burns fast when it is suspended in air. In a closed mill room, that can become an explosion. The controls are well known and mostly cheap: keep dust down, keep ignition sources out and give the equipment somewhere safe to vent.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Malt dust is a fuel that burns explosively in a cloud",
+   "<p>A heap of malt dust on the floor smoulders slowly if lit. The same dust thrown into the air burns almost instantly, because every particle is surrounded by oxygen. In an open space that is a flash fire. Inside a room, a bucket elevator or a dust collector, the pressure has nowhere to go. That is a dust explosion.</p><p>Safety engineers describe five conditions together, often drawn as a pentagon: fuel, oxygen, an ignition source, a dispersed dust cloud and confinement. Remove any one and the explosion cannot happen. Most mill room controls aim at the dust cloud and the ignition source, because the other three are always present.</p>"
+  ],
+  [
+   "The second explosion is usually the worst",
+   "<p>Most serious dust explosions happen in two stages. A small primary explosion, inside a mill, elevator or duct, sends a pressure wave through the room. That wave shakes loose dust settled on beams, ledges, light fittings and the tops of machines. The dust forms a much larger cloud, the flame front reaches it and a secondary explosion follows. The secondary blast does most of the damage.</p><p>That is why housekeeping matters so much. US fire safety guidance from the NFPA uses a settled layer of about 0.8 mm, roughly 1/32 inch, as a trigger for action on many combustible dusts. That is thinner than a coin. If you can write your name in the dust on a ledge, it is time to clean.</p>"
+  ],
+  [
+   "Clean with a vacuum, never compressed air",
+   "<p>The habit that causes most near misses is cleaning with compressed air or a stiff broom. Both throw dust back into the air, which builds exactly the cloud you are trying to avoid. Use instead:</p><ul><li>An industrial vacuum rated for combustible dust, with earthed hoses.</li><li>Soft brushes and gentle sweeping only for spills that cannot be vacuumed.</li><li>A cleaning schedule that includes high surfaces, not just the floor.</li></ul><p>Fix the leaks that make the dust in the first place. Worn seals on augers, loose connections on the grist case and open hoppers are all dust sources.</p>"
+  ],
+  [
+   "Keep ignition sources out of the mill room",
+   "<p>A dust cloud needs only a small spark. Common sources in a brewery mill room are:</p><ul><li><strong>Tramp metal.</strong> A bolt or stone in the malt can spark in the rolls. Fit a magnet ahead of the mill and check it every brew. Our guide to <a href=\"malt-crush-and-roller-mill-gap.html\">malt crush and roller mill gap</a> covers mill set-up.</li><li><strong>Hot bearings and slipping belts.</strong> Lubricate on schedule and listen for changes in noise.</li><li><strong>Static electricity.</strong> Earth and bond the mill, ducts and grist case.</li><li><strong>Electrical equipment.</strong> Use motors, switches and lights suited to dusty areas.</li><li><strong>Hot work.</strong> Welding or grinding needs a permit, a full clean and a fire watch.</li></ul>"
+  ],
+  [
+   "Extraction and venting give the equipment a safe failure",
+   "<p>Dust extraction at the mill, the grist case and transfer points keeps the room clean. The collector itself then becomes the place where dust is concentrated, so it needs its own protection. That usually means explosion vents ducted to a safe outside area, or suppression systems on larger plants. A collector inside the building with no venting is a risk worth checking.</p><p>In India, hazardous area classification and equipment for combustible dust are covered by Indian standards and factory regulations, which vary by state. A qualified safety consultant or your factory inspectorate can tell you what applies to your plant.</p>"
+  ],
+  [
+   "Dust is a health hazard as well as a fire hazard",
+   "<p>Grain dust irritates the eyes and airways. Over time it can cause occupational asthma. Anyone milling or cleaning the mill room should wear a well-fitted respirator of at least FFP2 or N95 standard, plus eye protection. Some brewers also develop sensitivities to <a href=\"mycotoxins-in-malt-and-grain-safety.html\">moulds on grain</a>, another reason to keep stored malt dry.</p>"
+  ],
+  [
+   "Design the room before you build it",
+   "<p>Mill rooms are often an afterthought in small brewery layouts. A mill in a corner of the brewhouse spreads dust over everything. The safer layout puts the mill in its own room, with smooth walls, few horizontal ledges and good access for cleaning. Doors should close. The room should open onto an outside wall where vents can discharge.</p><p>The floor detail we see most often in small plants: a dust-caked tube light fitting directly above the mill. It is a dust shelf and an ignition source in one.</p><p>Brewery safety, like brewing science, is about understanding the mechanism and designing around it. A checklist helps. Knowing why each item is on it helps more.</p>"
+  ],
+  [
+   "Walk the mill room today",
+   "<p>Stand in your mill room and look up. Check beams, light fittings, the tops of motors and the dust collector. If you can see a layer of dust, schedule a full vacuum clean before the next brew and check the magnet ahead of the mill while you are there.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can malt dust really explode?",
+   "Yes. Fine malt dust suspended in air in a confined space can ignite and explode. Grain dust explosions have destroyed mills and processing plants."
+  ],
+  [
+   "Why should I not use compressed air to clean the mill room?",
+   "Compressed air throws settled dust back into the air, creating the dust cloud needed for an explosion. Use a vacuum rated for combustible dust instead."
+  ],
+  [
+   "What is a secondary dust explosion?",
+   "A small first explosion shakes settled dust loose into a much larger cloud, which then ignites. The secondary blast usually does most of the damage."
+  ],
+  [
+   "What PPE is needed for milling malt?",
+   "A well-fitted respirator of at least FFP2 or N95 standard and eye protection, because grain dust irritates the airways and can cause occupational asthma."
+  ]
+ ],
+ "cta": {
+  "title": "Understand the mechanism behind every safety rule",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers raw materials, milling and brewhouse operations so you can run the mill room and the rest of the brewery from a real understanding of the risks.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "malt-crush-and-roller-mill-gap",
+  "mycotoxins-in-malt-and-grain-safety",
+  "barley-malting-process"
+ ]
+}

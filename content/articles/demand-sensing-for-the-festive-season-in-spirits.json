@@ -1,0 +1,67 @@
+{
+ "slug": "demand-sensing-for-the-festive-season-in-spirits",
+ "cat": "Whisky",
+ "h1": "Demand sensing for the festive season in spirits",
+ "title": "Festive Demand Sensing for Spirits | Craft Beer School",
+ "desc": "Why spirits forecasts miss the festive peak and the early signals planners can use: depot orders, label approvals and dry days.",
+ "teaser": "The festive peak in spirits is predictable. The forecast still misses it every year, usually for reasons the plant could have told you.",
+ "standfirst": "Every planner knows sales rise from Diwali through the wedding season to New Year. Demand sensing is about catching the shape of that rise early enough to act. In spirits, the constraints that matter most sit in the supply chain, not in the sales curve.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Forecasts miss for supply reasons",
+   "<p>A statistical forecast built on last year's sales will show the festive rise. What it rarely shows is the lag between deciding to make more and actually having bottles at a depot. A whisky blend is drawn from matured stock that was laid down years ago. That stock is fixed. What moves is bottling capacity, dry goods and paperwork.</p><p>Planners new to spirits often treat lead time as a single number. In practice it stacks up: blending and reduction a few days, resting and filtration, bottling line slots, then dispatch and state permits before stock can move. The forecast is usually right about demand and wrong about when supply can respond.</p>"
+  ],
+  [
+   "What demand sensing means here",
+   "<p>Demand sensing replaces a monthly forecast with short-horizon signals that update daily or weekly. In consumer goods it uses point-of-sale data. In Indian spirits that data is patchy, because many states sell through government wholesale corporations and retail data comes late or not at all.</p><p>The useful signals are closer to home:</p><ul><li>Orders and indents from state corporations or distributors, week by week.</li><li>Depot stock cover in days, by SKU and state.</li><li>Depletion data where it exists, as opposed to primary shipments.</li><li>Label and price approvals pending in each state.</li><li>Announced dry days, elections and local festivals.</li></ul><p>Our <a href=\"whisky-depletion-data-explained.html\">guide to depletion data</a> explains why shipments alone will mislead you.</p>"
+  ],
+  [
+   "The calendar has more than one peak",
+   "<p>India does not have one festive season. Diwali, Durga Puja, Onam, Christmas and New Year fall in different months and matter differently by state. Weddings cluster in auspicious windows that shift each year. Gifting at Diwali drives premium packs and gift cartons, which have their own dry goods.</p><p>Against that sit dry days, when states close liquor sales. Gandhi Jayanti on 2 October is a dry day in most states. Elections bring dry days at short notice. A forecast that ignores a two-day closure in a large state during a peak week will overstate sales and leave stock stranded at the depot.</p>"
+  ],
+  [
+   "The constraint is usually the bottling line",
+   "<p>A typical plan assumes the line can absorb any volume. It cannot. Lines change over between pack sizes and state labels. Every changeover costs time. A 180 ml run for one state and a 750 ml gift pack for another compete for the same hours.</p><p>Demand sensing earns its keep when it feeds the line schedule early. If depot cover for a high-volume 180 ml SKU drops below its target two weeks before Diwali, the plant needs to know now. A good rule is to agree a frozen window, often the next one or two weeks, where the schedule does not change, then sense and adjust beyond it.</p>"
+  ],
+  [
+   "Responsible plans keep stock where it is legal",
+   "<p>Spirits stock cannot move freely between states. Each movement needs permits and duty treatment that vary by state. Excess stock in one state cannot simply be shipped to another that is short. That is why state-level sensing matters more than national totals.</p><p>It also means the cost of over-forecasting is high. Bottles labelled for one state are stuck there. Rules vary and change, so the supply chain team should confirm current permit timelines with the excise or compliance team each season rather than using last year's numbers.</p>"
+  ],
+  [
+   "Gift packs and premium mix need their own plan",
+   "<p>The festive season changes the mix as well as the volume. Gift cartons, packs with glasses and premium blends sell far more in the Diwali weeks than in the rest of the year. Those packs use dry goods that are ordered once, often months ahead, in fixed print runs.</p><p>That makes them a different planning problem. A standard 750 ml SKU can be topped up with another bottling run. A gift carton printed for one state's label cannot. Once the cartons run out, the pack is gone for the season. Leftover cartons after the peak are written off or stored for a year. Demand sensing for these packs is less about weekly signals and more about an honest early commitment, reviewed against corporation indents in the first two festive weeks. Agree a cut-off date with marketing for any gift pack design change. Then stick to it.</p>"
+  ],
+  [
+   "A team that knows the product plans better",
+   "<p>Planners who have seen a blending hall and a bottling line read their own numbers differently. They stop asking why the plant cannot double output next week. We often find that a half-day on how whisky is made, followed by a responsible, opt-in tasting with water and spit cups, does more for forecast discussions than another model. Our <a href=\"whisky-tasting-for-beginners.html\">beginner's tasting guide</a> sets the tone for that session.</p><p>A practical first step: list your top twenty festive SKUs by state and write down, for each, how many days it takes from a decision to bottle to stock arriving at the depot. Compare that list with how far ahead your forecast is locked.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is spirits demand hard to sense in India?",
+   "Many states sell through government wholesale corporations, so retail sales data is limited. Planners rely on indents, depot cover and depletion data instead."
+  ],
+  [
+   "Can planners make more whisky for the festive season?",
+   "Not quickly. Matured stock was laid down years ago. What planners can adjust is blending, bottling slots, dry goods and dispatch."
+  ],
+  [
+   "Do dry days really affect forecasts?",
+   "Yes. A dry day in a large state during a peak week removes sales that a forecast based on last year may still expect."
+  ]
+ ],
+ "cta": {
+  "title": "Festive forecasts that match what the plant can do",
+  "body": "Our Data and AI in beverages module teaches planners how spirits are blended, bottled and moved across states, built around your own portfolio and calendar.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "whisky-tasting-for-beginners",
+  "methanol-limits-and-testing-in-spirits",
+  "ethyl-carbamate-in-spirits"
+ ]
+}

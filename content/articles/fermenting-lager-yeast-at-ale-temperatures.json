@@ -1,0 +1,67 @@
+{
+ "slug": "fermenting-lager-yeast-at-ale-temperatures",
+ "cat": "Brewing science",
+ "h1": "Fermenting lager yeast at ale temperatures",
+ "title": "Fermenting Lager Yeast Warm | Craft Beer School",
+ "desc": "What happens when you ferment lager yeast at 18 to 20 °C, which flavours change and how pressure and pitch rate keep a warm lager clean.",
+ "teaser": "Lager yeast at ale temperatures can work. It can also give you a fruity beer that is not quite a lager. The difference is in the details.",
+ "standfirst": "Fermenting lager yeast warm saves tank time and chilling power, two things every Indian brewery would like more of. Some strains handle it well. Here is what changes, what to watch and where the limits are.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why brewers ferment lager yeast warm",
+   "<p>Lager yeast (Saccharomyces pastorianus) is normally fermented at about 8 to 13 °C. At that temperature, primary fermentation takes a week or two and a full lager cycle can run four weeks or more. Warm fermentation at 15 to 20 °C cuts that time sharply.</p><p>In India, the gain is bigger. Holding a fermenter at 10 °C when the plant room is at 35 °C costs a lot of glycol power. A warmer fermentation eases the load on chillers and frees up tanks. That is why the idea keeps coming up in brewpubs.</p>"
+  ],
+  [
+   "What changes in the flavour",
+   "<p>Warmer yeast grows faster and makes more by-products. The two families that matter are esters, such as isoamyl acetate (banana) and ethyl acetate (solvent at high levels). The second is higher alcohols, which taste hot and solvent-like. A lager should have very little of either.</p><p>There is good news too. Warm fermentation reduces diacetyl and acetaldehyde faster, because the yeast reabsorbs them more quickly. Sulphur, a classic lager note, also tends to fade sooner. So a warm lager tends to be fruitier and cleaner of sulphur at the same time. Whether that suits your beer depends on the style.</p>"
+  ],
+  [
+   "Strain choice matters most",
+   "<p>Lager strains differ widely. Some produce clean beer up to around 18 to 20 °C. Others throw esters and sulphur as soon as they leave the cold. California common is a historic style brewed with lager yeast at warm temperatures. It shows a little fruit as part of its character.</p><p>Dry and liquid lager strains are both sold with a recommended temperature range on the pack or the supplier's data sheet. Read it. A strain listed at 9 to 15 °C will not thank you for 20 °C. A strain listed up to 22 °C has usually been chosen for exactly this kind of use.</p><p>Before you change a house beer, run a split batch: same wort, two fermenters, one at your usual temperature and one at your warm target. Taste them blind side by side with a few colleagues. A triangle test tells you whether anyone can tell them apart.</p>"
+  ],
+  [
+   "Using pressure to hold esters down",
+   "<p>Carbon dioxide pressure suppresses yeast growth and ester formation. Many brewers who ferment lagers warm do it under pressure, often in the region of 1 bar gauge in a pressure-rated fermenter with a spunding valve. The beer is also partly carbonated at the end of fermentation, which saves a step.</p><p>Only do this in a vessel rated for the pressure, with a working relief valve. A unitank built for carbonation can take it. An open or low-pressure fermenter cannot. Our guide to <a href=\"wort-aeration-and-oxygen.html\">wort aeration and oxygen</a> is worth a read too, because pressure fermentation still needs a well-oxygenated start.</p>"
+  ],
+  [
+   "Pitch rate and oxygen still count",
+   "<p>Warm fermentation lets yeast grow more, which tempts brewers to under-pitch. Resist it. More growth means more esters. A pitch of about 1.5 million cells per mL per °P is the standard lager rule. At warm temperatures some brewers drop towards ale rates, but the beer will show more fruit.</p><p>Keep oxygen at pitching to normal levels (roughly 8 to 10 mg/L) and hold the temperature steady. A ferment that starts at 12 °C and free rises to 20 °C behaves differently from one held at 18 °C throughout. Our guide to <a href=\"yeast-growth-phases.html\">yeast growth phases</a> explains why the first 48 hours set the flavour.</p>"
+  ],
+  [
+   "Still lager the beer afterwards",
+   "<p>Warm fermentation shortens primary. It does not replace cold conditioning. Once the gravity is down and diacetyl is clean, drop the beer to about 0 to 2 °C for a week or more to settle yeast and haze. Skipping the cold stage gives a hazy beer with a raw edge, whatever the fermentation temperature.</p><p>In India, there is one more reason to keep that cold stage. Beer leaving a brewpub for a distributor will meet heat in transport. A beer conditioned properly holds its clarity and flavour longer when the cold chain slips.</p><p>Deciding which steps you can safely shorten needs a working model of yeast physiology, not a forum thread. That is the gap a structured course fills.</p><p>Your first step: split your next lager batch, ferment half at your usual temperature and half at 16 °C, then taste both blind after the same cold conditioning.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature can lager yeast ferment at?",
+   "Normally about 8 to 13 °C. Some strains produce clean beer up to around 18 to 20 °C, but most give more esters as the temperature rises."
+  ],
+  [
+   "Does pressure fermentation reduce esters?",
+   "Yes. Carbon dioxide pressure suppresses yeast growth and ester formation, so many brewers ferment warm lagers under about 1 bar in a rated vessel."
+  ],
+  [
+   "Do I still need to lager a warm-fermented lager?",
+   "Yes. Warm fermentation shortens primary, but a week or more near 0 to 2 °C is still needed to clear yeast and haze."
+  ],
+  [
+   "Will warm fermentation give my lager diacetyl?",
+   "Usually less. Yeast reabsorbs diacetyl faster when warm. Esters and higher alcohols are the bigger risk."
+  ]
+ ],
+ "cta": {
+  "title": "Shorten your lager cycle without losing the lager",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers yeast strains, fermentation temperature, pressure and pitching so you can change a process with confidence.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "wort-aeration-and-oxygen",
+  "yeast-growth-phases",
+  "fermenting-through-an-indian-summer"
+ ]
+}

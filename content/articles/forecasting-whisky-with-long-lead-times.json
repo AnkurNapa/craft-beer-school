@@ -1,0 +1,71 @@
+{
+ "slug": "forecasting-whisky-with-long-lead-times",
+ "cat": "Whisky",
+ "h1": "Forecasting whisky with long lead times",
+ "title": "Forecasting Whisky With Long Lead Times | Craft Beer School",
+ "desc": "How whisky planners forecast demand years ahead, convert it into fillings, allow for evaporation and keep the plan flexible.",
+ "teaser": "Whisky laid down today will be sold in 2030 or 2040. Here is how planners forecast that far ahead without guessing blind.",
+ "standfirst": "Most demand planners work months ahead. Whisky planners decide today what will be sold in five, ten or twenty years. This guide shows how a long range whisky forecast is built, how it turns into fillings and how teams keep room to change course.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The lead time is set by the age statement",
+   "<p>The lead time for a whisky is the time from distilling to sale. For a mainstream Indian blend built on neutral spirit it can be weeks. For Scotch it is at least three years, the legal minimum. For a 12 year old single malt it is twelve years, plus time to bottle and ship.</p><p>That means a forecast for an aged whisky is really a forecast for a future year, translated back to today's filling programme. Get it wrong and nothing can fix it quickly. You cannot make 12 year old whisky in a hurry. Our guide to <a href=\"whisky-inventory-planning.html\">whisky inventory planning</a> covers the stock side of the same problem.</p>"
+  ],
+  [
+   "Start from demand by brand, then break it into spirit",
+   "<p>A long range plan usually starts with expected sales of each brand, in cases, for each future year. Those cases are then turned into litres of pure alcohol (LPA), because that is the unit the warehouse and the excise records use. A case of twelve 750 ml bottles at 42.8% ABV holds 9 litres of whisky, which is about 3.85 LPA.</p><p>Next, the blend recipes break each brand into the spirits it needs: malt or grain, distillery, cask type and age. A brand that uses 30% of a six year old malt creates demand for that malt, at that age, in that year. Add up every brand and you have demand for each spirit by age, year by year.</p>"
+  ],
+  [
+   "Add the angels' share before you fill",
+   "<p>Spirit evaporates in the cask, so you must fill more than you will finally need. The formula is straightforward:</p><p><strong>LPA to fill today = LPA needed in year n / (1 - annual loss rate) to the power n</strong></p><p>With illustrative rates: at 2% a year, a malt needed in ten years requires about 1.22 LPA filled for every 1 LPA needed. At a hypothetical 6% a year over five years, the multiplier is about 1.36. In hot Indian warehouses losses are much higher than Scotland's commonly quoted 2%, but whisky also matures faster, so ages are shorter. Planners use their own measured loss rates from regauging, not textbook figures.</p>"
+  ],
+  [
+   "Every forecast is wrong, so plan in scenarios",
+   "<p>No one can forecast whisky demand ten years out with precision. The useful question is how wrong you can afford to be in each direction. Too little stock means lost sales and a brand rationed in its best markets. Too much stock ties up cash and warehouse space and may have to be sold off cheaply in bulk.</p><p>So planners run scenarios: a base case, a high case and a low case. They then look at what each would cost. Scotland's history of overproduction in the 1970s, followed by closures in the 1980s and shortages of some aged whiskies years later, is the cautionary tale every planner learns.</p>"
+  ],
+  [
+   "Build flexibility into the portfolio",
+   "<p>The best hedge against a wrong forecast is a portfolio that can absorb it. A few common tactics:</p><ul><li><strong>No age statement brands.</strong> Without a number on the label, blenders can use a range of ages and adjust when stock is tight. This is one reason they became common after periods of shortage.</li><li><strong>Shared spirit across brands.</strong> A malt that goes into several blends can be shifted towards whichever brand is growing.</li><li><strong>Several ages of the same spirit.</strong> Filling every year, rather than in bursts, keeps the ageing profile smooth.</li><li><strong>Bulk trading.</strong> Surplus whisky can be sold to other blenders. Shortfalls can sometimes be bought in. Our guide to <a href=\"how-the-bulk-whisky-trade-works.html\">the bulk whisky trade</a> explains how.</li></ul>"
+  ],
+  [
+   "The festive peak is a separate, shorter forecast",
+   "<p>Long range planning decides what goes into casks. A second, shorter forecast decides what gets bottled and released each month. In India that short range plan is dominated by the festive season from around Dussehra and Diwali through to the New Year, when many brands sell far more than in an average month. Gifting packs and special editions add to the peak.</p><p>Because excise permits, label approvals and packaging all take time, the festive plan is usually locked months ahead. The whisky in those bottles was decided years earlier. Good teams keep the two forecasts linked, so a strong festive season feeds back into next year's long range plan rather than being treated as a one-off. A brand that keeps beating its festive numbers is telling the long range planners something.</p>"
+  ],
+  [
+   "Review it every year and track the drift",
+   "<p>A long range whisky plan is not set once. It is reviewed at least yearly, as real sales, regauging results and new product plans come in. The most useful report compares the stock that should exist at each age according to last year's plan with what actually exists. The gap shows whether losses, demand or fillings drifted. It also shows the direction.</p><p>The floor detail that matters here is regauging. Warehouse teams weigh sample casks and measure strength to find the real LPA, because the book figure is only an estimate. A plan built on book stock alone drifts further from reality every year.</p>"
+  ],
+  [
+   "A first step for your team",
+   "<p>Pick one aged brand. Take its sales forecast five years out, convert it to LPA, break it down by recipe and apply your measured loss rate. Then compare the result with the stock of the right age actually sitting in the warehouse today. That one exercise teaches more about whisky planning than any dashboard, because it forces every assumption into the open.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why can't whisky companies just make more when demand rises?",
+   "Aged whisky takes years to mature. A shortage of 12 year old stock can only be fixed by filling casks and waiting twelve years."
+  ],
+  [
+   "How do planners allow for evaporation?",
+   "They fill more than they need, dividing future demand by one minus the annual loss rate raised to the number of years. They use loss rates measured in their own warehouses."
+  ],
+  [
+   "What is a no age statement whisky and why does it help planning?",
+   "A whisky with no age on the label. Blenders can use a range of ages, which gives flexibility when particular ages are in short supply."
+  ]
+ ],
+ "cta": {
+  "title": "Forecasts that never match the warehouse?",
+  "body": "Our Raw materials and supply chain module takes planners through fillings, ageing profiles, losses and scenario planning. We build it around your team's own portfolio and stock reports.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "storing-an-opened-whisky-bottle",
+  "bacteria-in-long-whisky-fermentations",
+  "what-a-long-finish-means-in-whisky"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "setting-up-a-distillery-quality-control-lab",
+ "cat": "Whisky",
+ "h1": "Setting up a distillery quality control lab",
+ "title": "Setting up a distillery QC lab | Craft Beer School",
+ "desc": "What equipment and tests a craft whisky distillery quality control lab needs first, what to send out and how to run it on a budget.",
+ "teaser": "A distillery QC lab does not start with a gas chromatograph. It starts with a calibrated hydrometer and a routine.",
+ "standfirst": "Every craft distillery needs a quality control lab, but most do not need an expensive one on day one. Here is what to buy first, which tests to run in house, what to send to an outside lab and how to keep the numbers honest.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the lab is for",
+   "<p>A distillery QC lab answers a short list of questions every day. Is the grain what we ordered? Is the fermentation on track? What strength is the spirit? Is this cask ready? Is this batch fit to bottle? Most of these need simple instruments used well. The expensive analysis can be bought in when needed.</p><p>The lab also supports compliance. Strength and volume figures feed excise records. Food safety rules require that products meet standards. Requirements vary by state and change, so keep the current notifications on file. Our guide to <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs</a> shows how lab numbers become management numbers.</p>"
+  ],
+  [
+   "Measuring alcohol strength",
+   "<p>Strength is the most important number in a distillery. Start with a set of certified glass hydrometers covering the range from wash to new make, a certified thermometer and temperature correction tables to 20 °C. That set is cheap and reliable if handled with care.</p><p>A digital density meter is the first major upgrade. It is faster, needs smaller samples and corrects for temperature automatically. Check it daily against a reference solution and log the result. A meter that drifts quietly will corrupt every gauge, every blend and every excise figure. Our guide to <a href=\"reducing-whisky-to-bottling-strength.html\">reducing to bottling strength</a> shows why accuracy at this step matters.</p>"
+  ],
+  [
+   "Fermentation tests",
+   "<ul><li><strong>Gravity</strong>: a hydrometer or refractometer for original and final gravity. Note that a refractometer needs a correction once alcohol is present.</li><li><strong>pH</strong>: a calibrated pH meter for mash and wash, calibrated with buffers before use.</li><li><strong>Temperature</strong>: logged through fermentation, especially in Indian heat where washes warm fast.</li><li><strong>Microscope</strong>: for yeast health and spotting bacterial contamination.</li></ul><p>These are the same tools a brewery lab uses. Our guide to <a href=\"distillers-yeast-versus-brewers-yeast.html\">distillers yeast versus brewers yeast</a> explains what you are looking for under the microscope.</p>"
+  ],
+  [
+   "Sensory is a lab instrument",
+   "<p>The most used instrument in a distillery lab is the human nose. Set aside a clean, odour-free space with good light, tulip-shaped glasses, clean water for dilution and spittoons. Train a small panel to nose new make cuts, cask samples and bottling batches the same way every time. Dilute samples to around 20% ABV before nosing.</p><p>Record results in a fixed format: date, sample, taster, aroma notes, faults and pass or fail. Over time those records show drift that no single tasting catches.</p>"
+  ],
+  [
+   "What to send to an outside lab",
+   "<p>Some tests need equipment few craft distilleries can justify. Gas chromatography measures congeners such as methanol, esters, aldehydes and higher alcohols. Many regulators and export markets set limits on methanol and other compounds. Send new make, final products and any suspect batch to an accredited lab on a regular schedule. Ask the lab which methods and units they use so results compare over time.</p><p>Water for reduction should also be tested periodically for hardness and minerals, which can cause haze in the bottle.</p><p>Raw materials deserve the same care. Ask malt and grain suppliers for a certificate of analysis with each delivery, covering moisture and extract at least. Check moisture yourself now and then. In Indian monsoon humidity, grain that arrives dry can pick up moisture in storage, which affects milling and yield.</p>"
+  ],
+  [
+   "Calibration and records",
+   "<p>A lab is only as good as its calibration. Keep a log for each instrument: when it was calibrated or checked, against what standard and by whom. Hydrometers and thermometers should carry certificates. Density meters and pH meters need regular checks against reference solutions. Balances need checking with known weights.</p><p>The floor detail that matters: write the instrument ID on every result sheet. When an instrument is found to be off, you need to know which results it produced.</p>"
+  ],
+  [
+   "Layout and safety",
+   "<p>A small lab needs a sink, bench space, good ventilation and secure storage for spirit samples and chemicals. Keep high strength samples in closed containers, away from heat and ignition sources. Label everything. In a warm Indian building, a lab that gets hot in the afternoon will drift its readings, so shade it or cool it. Keep a first aid kit and an eyewash point. Train everyone who uses the lab in basic chemical handling.</p><p>Building a lab is easy. Building the habit of using it daily, the same way, is the hard part. It is what separates distilleries that know their product from those that hope.</p>"
+  ],
+  [
+   "Write the daily checklist first",
+   "<p>Before you buy any equipment, write the list of tests you will run every day, every batch and every cask. Then buy the instruments that list needs and nothing more. A one page daily checklist pinned to the lab wall will do more for quality than a cupboard of unused kit.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What equipment does a small distillery lab need first?",
+   "Certified hydrometers and a thermometer with temperature correction tables, a pH meter, a microscope and a clean sensory space."
+  ],
+  [
+   "Should a craft distillery buy a gas chromatograph?",
+   "Usually not at first. Send samples to an accredited outside lab for congener and methanol analysis on a regular schedule."
+  ],
+  [
+   "How often should a density meter be checked?",
+   "Daily against a reference solution, with the result logged, so any drift is caught before it affects gauges and blends."
+  ]
+ ],
+ "cta": {
+  "title": "Run your distillery on numbers you trust",
+  "body": "Craft Distilling is our four week live course (₹9,999), taught on weekend afternoons with recordings and a certificate. It covers strength measurement, fermentation control, sensory work and quality records across the full process from grain to bottle.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "distillery-kpis-for-analysts",
+  "reducing-whisky-to-bottling-strength",
+  "sourcing-oak-casks-for-an-indian-distillery"
+ ]
+}

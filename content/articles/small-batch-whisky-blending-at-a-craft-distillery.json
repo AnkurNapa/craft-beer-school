@@ -1,0 +1,71 @@
+{
+ "slug": "small-batch-whisky-blending-at-a-craft-distillery",
+ "cat": "Whisky",
+ "h1": "Small batch whisky blending at a craft distillery",
+ "title": "Small Batch Whisky Blending | Craft Beer School",
+ "desc": "How a craft distillery picks casks, builds bench blends and scales them up, with the strength maths that keeps every batch consistent.",
+ "teaser": "Three good casks do not always make one good whisky. A bench blend tells you before you commit.",
+ "standfirst": "Small batch blending at a craft distillery means choosing a handful of casks and marrying them into one release. The craft is in the sampling, the bench work and the maths. Skip any of the three and batch two will not taste like batch one.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Small batch has no single legal meaning",
+   "<p>There is no standard legal definition of small batch in Scotch or in American whiskey rules, so the phrase on a label tells the drinker little on its own. Our guide to <a href=\"what-small-batch-means-on-a-whisky-label.html\">what small batch means on a label</a> covers the labelling side.</p><p>Inside a distillery the meaning is practical. A small batch is a vatting of a limited number of casks, picked deliberately, blended to a target profile. For a single malt every cask must come from the same distillery. The aim is a whisky better than any single cask in it.</p>"
+  ],
+  [
+   "Start with a cask map, not a tasting session",
+   "<p>Before you nose anything, list the candidate casks with cask type, fill number, fill date, current strength and litres of pure alcohol. Group them by type: ex-bourbon, sherry, wine or refill. Then sample every candidate and score each one on the same sheet.</p><p>Nose and taste each sample at around 20% ABV. At cask strength the alcohol masks flavour and numbs the palate after a few samples. Keep sessions short, use spit cups and stop when your notes start repeating themselves.</p>"
+  ],
+  [
+   "Build bench blends in millilitres",
+   "<p>Bench blending means mixing small trial blends in measuring cylinders or pipettes, in proportion to the cask volumes you plan to use. Make three or four versions with different ratios. Leave them a day or two in sealed bottles, then nose them blind against each other.</p><p>The floor detail we insist on: blend by litres of pure alcohol, not bulk volume, when you are matching a target strength and character. A cask at 62% contributes more alcohol (and usually more flavour) than the same bulk of a cask at 55%.</p>"
+  ],
+  [
+   "Do the strength maths before you vat",
+   "<p>The strength of a blend is total litres of pure alcohol divided by total bulk litres. A worked example with three casks:</p><ul><li>Cask A: 200 litres at 60.0% ABV, so 120.0 LPA.</li><li>Cask B: 180 litres at 58.0% ABV, so 104.4 LPA.</li><li>Cask C: 240 litres at 62.0% ABV, so 148.8 LPA.</li></ul><p>Total: 620 litres holding 373.2 LPA, which gives a blend strength of about 60.2%. That number sets how much water you will need to reach bottling strength. Our guide to <a href=\"budget-lines-for-a-craft-whisky-distillery.html\">budget lines for a craft distillery</a> shows how that bulk turns into bottles and cost.</p>"
+  ],
+  [
+   "Let the blend marry before reduction",
+   "<p>Once vatted, give the blend time to settle together in a clean stainless vessel before you reduce it. Many distillers rest it for days to weeks, then reduce in stages with demineralised water. Rushing straight from vat to bottle often gives a whisky that tastes of its parts rather than a whole.</p><p>Measure strength again after marrying. Mixing different casks rarely lands exactly on the calculated figure. A reading corrected to 20 °C with a density meter is the number you trust.</p>"
+  ],
+  [
+   "Know which casks to leave out",
+   "<p>The hardest decision in small batch blending is what not to use. A single sulphury, musty or overly tannic cask can drag down a whole vatting. A cask with a strong character may be wonderful on its own and wrong in a blend.</p><p>Run a simple test before you commit. Make the bench blend with the doubtful cask, then make it without. Nose both blind, ideally with a second person. If the blend without it is cleaner, leave it out and save it for another release or a single cask bottling.</p><p>Also watch the youngest cask in the mix. If you plan an age statement, the youngest whisky sets it. One three year old cask in a vatting of six year olds makes the whole batch a three year old on the label. Check your fill records before you vat, not after.</p>"
+  ],
+  [
+   "Write a blend record you can repeat",
+   "<p>Record every cask, its gauge, the bench ratio chosen, tasting notes and the final strength. When batch one sells out, batch two starts from that record. You will not find identical casks, so the job becomes matching the profile with what you have. That is the real skill in small batch work: consistent character from inconsistent wood.</p><p>Craft distilleries often learn this by trial and costly error. A distilling course that covers cask selection, sensory method and blending maths shortens that curve a long way.</p><p>Your first step: build a cask map of your ten most mature casks this week, with LPA for each, before you pour a single sample.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What makes a whisky small batch?",
+   "There is no single legal definition in Scotch or American rules. In practice it means a deliberate vatting of a limited number of casks blended to a target profile."
+  ],
+  [
+   "What strength should I taste cask samples at?",
+   "Around 20% ABV, diluted with clean water. Cask strength numbs the palate quickly and hides flavour."
+  ],
+  [
+   "How do I calculate the strength of a blend?",
+   "Add up the litres of pure alcohol from each cask and divide by the total bulk litres. Then confirm with a density meter reading corrected to 20 °C."
+  ],
+  [
+   "How long should a blend marry before bottling?",
+   "Many distillers rest a vatting for days to weeks before reducing it. Taste it over time and bottle when it tastes like one whisky rather than several."
+  ]
+ ],
+ "cta": {
+  "title": "Blend batches that taste the same every time",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers cask selection, sensory method and blending and reduction maths so each release matches the last.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-small-batch-means-on-a-whisky-label",
+  "budget-lines-for-a-craft-whisky-distillery",
+  "small-casks-for-faster-whisky-ageing"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "handling-whisky-quality-complaints",
+ "cat": "Whisky",
+ "h1": "Handling whisky quality complaints",
+ "title": "Handling Whisky Quality Complaints | Craft Beer School",
+ "desc": "How whisky companies handle quality complaints: the common types, what to capture, the retained sample, root cause and when to escalate at once.",
+ "teaser": "Most whisky complaints are haze, corks or fill levels. A few need escalating the same day. Know which is which.",
+ "standfirst": "A consumer complaint about a whisky is a free quality report with a deadline attached. This guide covers the complaints that come in most, what each usually means in production terms and a process that turns them into fixes.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What people actually complain about",
+   "<p>Whisky is a stable product. It does not spoil like beer or milk, so complaints are fewer and follow familiar patterns.</p><ul><li><strong>Haze or floating particles.</strong> Cloudiness or flakes, often noticed when the bottle has been cold.</li><li><strong>Closure problems.</strong> Corks that break, crumble or leak. Caps that will not seal.</li><li><strong>Low fill.</strong> A bottle that looks short of its declared volume.</li><li><strong>Taste or smell.</strong> \"Not like it used to be\", sulphury, solventy or musty.</li><li><strong>Packaging faults.</strong> Wrong or missing labels, damaged cartons, unreadable batch codes.</li><li><strong>Tampering or counterfeit.</strong> Broken seals, a refilled bottle or a liquid that tastes nothing like the brand.</li></ul><p>Each type points to a different part of the process, so the first job is to classify the complaint correctly.</p>"
+  ],
+  [
+   "Escalate safety concerns the same day",
+   "<p>Some complaints cannot wait in a queue. Any report of illness after drinking, suspected tampering, a suspected counterfeit or a foreign object such as glass goes to the quality head and the legal or brand protection team immediately. Illicit and counterfeit spirits can contain dangerous levels of methanol, so a genuine report of someone falling ill is treated as a safety incident until proved otherwise. The consumer should be advised to seek medical help.</p><p>Everything else follows the normal process below.</p>"
+  ],
+  [
+   "Capture the facts before the bottle disappears",
+   "<p>A complaint without a batch code is almost impossible to investigate. Train the people who take complaints to collect:</p><ul><li>the batch or lot code and bottling date printed on the bottle or label</li><li>the SKU, pack size and the state where it was bought</li><li>where and when it was bought and how it was stored</li><li>a clear photo of the fault, the label and the closure</li><li>whether the bottle is available for collection</li></ul><p>Ask for the bottle back where possible. A sealed or partly used bottle from the consumer, compared with your own retained sample from the same batch, answers most questions in a single afternoon.</p>"
+  ],
+  [
+   "The retained sample is your evidence",
+   "<p>Every bottling batch should leave a few bottles in a retained sample library, stored cool and dark with the batch records. When a complaint arrives, the quality team pulls the retained bottle and compares it with the complaint bottle: appearance, aroma and alcoholic strength.</p><p>If the retained sample is fine and the complaint bottle is not, the problem probably happened after it left the plant, through heat, light, storage on its side or tampering. If both show the fault, it is a batch problem and other bottles in the market will show it too.</p>"
+  ],
+  [
+   "Common faults and what usually causes them",
+   "<p><strong>Haze in the cold.</strong> Whisky contains fatty acid esters and other compounds that can come out of solution at low temperatures. Chill filtration removes most of them, so non-chill-filtered whisky is more likely to haze. That is one reason many producers bottle it at 46% ABV or above. Hard or poorly treated reduction water can also leave a calcium haze. Our guide to <a href=\"water-hardness-and-haze-when-reducing-whisky.html\">water hardness and haze</a> covers this.</p><p><strong>Broken corks.</strong> Corks dry out and crumble when bottles are stored upright for years in heat, or degrade when high strength spirit sits against them for years on their side. <strong>Low fill</strong> needs checking against filler records and the legal tolerance, since a bottle can look short against a high shoulder while holding its declared volume. <strong>Taste changes</strong> in a blend are checked against the batch's sensory sign-off and its retained sample.</p>"
+  ],
+  [
+   "From root cause to corrective action",
+   "<p>Log every complaint in one system with a category, batch and outcome. Then look for patterns monthly rather than one complaint at a time. Five haze complaints from one state in a cold January point to filtration or reduction water on a few batches. Five cork complaints from one closure supplier lot point to the supplier.</p><p>Each confirmed cause should end in a corrective and preventive action: what was fixed, who owns it and how you will know it worked. Reply to the consumer with a clear, honest answer and close the record. Our guide to <a href=\"reducing-whisky-to-bottling-strength.html\">reducing whisky to bottling strength</a> explains the step where many haze and strength faults start.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Pull the last six months of complaints and check how many have a usable batch code. If it is under half, fix the intake script before anything else. A complaint you cannot trace to a batch is a complaint you cannot learn from.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does some whisky go cloudy in the cold?",
+   "Natural compounds such as fatty acid esters can come out of solution at low temperature. Non-chill-filtered whisky is more prone to it. The haze often clears as the bottle warms."
+  ],
+  [
+   "What should a complaint record always include?",
+   "The batch code, SKU, pack size, state of purchase, storage conditions and a photo of the fault and label. Ask for the bottle back where possible."
+  ],
+  [
+   "Which whisky complaints need escalating at once?",
+   "Any report of illness, suspected tampering or counterfeiting, or a foreign object such as glass. These go to the quality head and legal or brand protection the same day."
+  ]
+ ],
+ "cta": {
+  "title": "Complaints that never turn into fixes",
+  "body": "Our Brewing and distilling operations module is built around your team's own portfolio, so the examples are your brands, your states and your data.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "reducing-whisky-to-bottling-strength",
+  "how-whisky-is-made",
+  "malt-grain-and-blended-whisky"
+ ]
+}

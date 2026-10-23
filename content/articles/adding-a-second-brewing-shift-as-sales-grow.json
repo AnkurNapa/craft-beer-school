@@ -1,0 +1,67 @@
+{
+ "slug": "adding-a-second-brewing-shift-as-sales-grow",
+ "cat": "Business",
+ "h1": "Adding a second brewing shift as sales grow",
+ "title": "Adding a Second Brewing Shift | Craft Beer School",
+ "desc": "When a growing brewery should add a second shift, what it changes in tanks, utilities and staff, how to cost it and how to hand over safely.",
+ "teaser": "A second shift can double brewhouse output without a new building. It can also double your problems.",
+ "standfirst": "When sales outgrow a single day shift, a second shift is often the cheapest way to make more beer. It spreads fixed costs over more litres. It also brings handovers, late night safety and pressure on tanks and utilities that the day team never saw.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Check the real bottleneck first",
+   "<p>A second shift adds brewhouse hours. It only adds beer if the brewhouse is what limits you. If your fermenters are full, two brews a day just means two brews waiting for a tank.</p><p>Count tank days before anything else. With six fermenters and ales spending 14 days in each, you can ferment about 13 batches a month. If you already brew 12, a second shift will not help much until you add tanks. Our guide to <a href=\"buying-fermenters-in-stages-as-sales-grow.html\">buying fermenters in stages</a> covers that side.</p><p>Then check packaging. A canning line that runs one shift may be the real limit, in which case the second shift belongs there rather than in the brewhouse.</p>"
+  ],
+  [
+   "Utilities must cope with double duty",
+   "<p>Two brews back to back draw more from every utility in the building. Check each before you staff up:</p><ul><li><strong>Hot liquor:</strong> can the hot liquor tank refill and reheat between brews, or does the second brew wait for water?</li><li><strong>Cooling:</strong> the glycol chiller must knock out wort and hold fermentations at the same time. Two fresh fermentations in one day put a peak load on it.</li><li><strong>Steam or heating:</strong> the boiler has to recover between boils.</li><li><strong>Water and effluent:</strong> brewing uses several litres of water for every litre of beer, so effluent volume rises with output. Check your treatment plant and any consent limits.</li><li><strong>Power:</strong> confirm your sanctioned load covers both shifts' peaks.</li></ul>"
+  ],
+  [
+   "Cost it per litre",
+   "<p>The financial case rests on spreading fixed costs. Show the working with your own numbers. Say rent, salaries, loan payments and other fixed costs come to ₹6 lakh a month and you sell 20,000 litres. Fixed cost is ₹30 a litre. Add a second shift and sell 30,000 litres. The same fixed costs fall to ₹20 a litre.</p><p>But the second shift adds its own costs: wages, any night shift allowance, extra supervision, more cleaning chemicals and higher utilities. Subtract those from the saving. If the second shift costs ₹1.5 lakh a month, total fixed and shift cost is ₹7.5 lakh over 30,000 litres, or ₹25 a litre. Still better, but only if the extra 10,000 litres actually sell.</p><p>Add the shift when the sales are signed, not when they are hoped for.</p>"
+  ],
+  [
+   "Handover is where batches go wrong",
+   "<p>The classic second shift failure is a handover note that says \"all fine\" when the evening brew had a slow lauter and the mash pH was off. The next brewer starts blind.</p><p>Use a written handover log at every shift change. It should record which tanks are fermenting and at what gravity and temperature, any brew in progress and its stage, cleaning done and pending, any fault or alarm and anything the next shift must do first. Brewer and incoming brewer both sign it. Walk the cellar together for five minutes.</p><p>Keep recipes, CIP steps and sampling points in written procedures on the floor. Two shifts doing the same job in two different ways will show up as two different beers.</p>"
+  ],
+  [
+   "Night work needs its own safety rules",
+   "<p>The second shift often means fewer people, less supervision and work after dark. Write rules for it:</p><ul><li>No lone working in confined spaces, tank entry or with concentrated caustic and acid.</li><li>A named shift lead with authority to stop work.</li><li>Working CO2 alarms in cellars and cold rooms, checked weekly. See our guide to <a href=\"planning-ventilation-and-co2-safety-in-brewery-cellars.html\">ventilation and CO2 safety</a>.</li><li>A phone list for emergencies and the person on call for breakdowns.</li></ul><p>Labour law on shift hours, overtime, night work and rest days varies by state and by type of establishment. Check the current rules with your labour consultant before you draw up the rota.</p>"
+  ],
+  [
+   "People make or break it",
+   "<p>Do not staff the second shift entirely with new hires. Move an experienced brewer to lead it and backfill the day team. Train new staff on days, where help is close, before they move to evenings.</p><p>Rotate shifts fairly if your team agrees, or pay a fair premium for fixed evenings. Burned out brewers make mistakes. Brewing mistakes are expensive. Watch quality data closely for the first two months: gravities, pH and sensory results by shift. A gap between shifts is a training problem you can fix early.</p><p>Deciding whether the extra shift, an extra tank or a contract brewer is the cheaper path is a capacity and cash question rather than a brewing one.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Write down your monthly tank days and current batches, then the fixed costs per litre now and with a second shift. If the tanks are already full or the cost per litre barely moves, you have your answer before hiring anyone.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "When should a brewery add a second shift?",
+   "When the brewhouse or packaging line, not the fermenters, limits output and the extra sales are already agreed. Check tank days first."
+  ],
+  [
+   "Does a second shift lower the cost per litre?",
+   "Usually, because fixed costs spread over more litres. Subtract the shift's own wages, utilities and chemicals to see the real saving."
+  ],
+  [
+   "How do brewery shifts hand over safely?",
+   "With a written, signed handover log covering every tank, brew and fault, plus a short cellar walk together at each shift change."
+  ]
+ ],
+ "cta": {
+  "title": "Grow output without growing losses",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers capacity, cost per litre, staffing and cash flow, so you can compare a second shift, a new tank or contract brewing on the numbers.",
+  "label": "See the full syllabus",
+  "href": "brewery-business-management-course.html"
+ },
+ "related": [
+  "buying-fermenters-in-stages-as-sales-grow",
+  "maharashtra-beer-excise-and-licences",
+  "buying-craft-beer-kegs-maharashtra"
+ ]
+}

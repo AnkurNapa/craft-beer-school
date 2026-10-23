@@ -1,0 +1,71 @@
+{
+ "slug": "fermenting-under-pressure-in-a-keg-at-home",
+ "cat": "Brewing basics",
+ "h1": "Fermenting under pressure in a keg at home",
+ "title": "Fermenting Under Pressure in a Keg | Craft Beer School",
+ "desc": "How to ferment under pressure in a corny keg at home with a spunding valve, why it cuts esters and how to do it safely and carbonate as you go.",
+ "teaser": "A keg, a spunding valve and a little pressure let you ferment cleaner beer at warmer temperatures.",
+ "standfirst": "Fermenting in a sealed keg with a spunding valve holds the beer under light pressure. That suppresses some yeast esters, lets lager strains run warmer and carbonates the beer by the end. It suits Indian homes where cold fermentation space is scarce.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What pressure fermentation does",
+   "<p>Fermentation makes carbon dioxide. In an open fermenter with an airlock, it escapes. In a sealed keg fitted with a spunding valve, the CO2 builds up until it reaches the pressure you set, then the valve vents the excess. The beer ferments under that pressure.</p><p>Dissolved CO2 and top pressure slow yeast growth and reduce ester formation. That is the useful effect. Beer fermented under modest pressure at a warmer temperature often tastes closer to a beer fermented cooler without pressure. Large breweries with tall tanks have long dealt with the same effect, because the liquid at the bottom of a tall vessel sits under the weight of everything above it.</p>"
+  ],
+  [
+   "Why it suits a home in India",
+   "<p>The hard part of brewing lager at home in India is holding 10 to 12 °C for two weeks when the room is 30 °C. Pressure helps. Many homebrewers ferment lager strains at around 18 to 20 °C under about 1 bar and get clean beers in a fraction of the usual time.</p><p>It is not magic. You still need temperature control at 18 to 20 °C, which in an Indian summer means a fridge, a water bath or a cool room. But holding 18 °C is far easier than holding 10 °C. The beer is also carbonated when it finishes. Our guide to <a href=\"fermentation-temperature-control-at-home.html\">fermentation temperature control at home</a> covers the options.</p>"
+  ],
+  [
+   "The kit",
+   "<ul><li><strong>A corny keg.</strong> The common 19 litre ball lock keg is the standard.</li><li><strong>A spunding valve.</strong> An adjustable pressure relief valve with a gauge, fitted to the gas post.</li><li><strong>A shortened or floating dip tube.</strong> The liquid dip tube reaches the bottom where yeast settles. Trim 2 to 3 cm off it or fit a floating pickup so you draw clear beer.</li><li><strong>A blow-off tube</strong> for the first day, attached to the gas post.</li></ul><p>Check the keg's lid seal and the pressure relief valve on the lid before you use it. A keg in good condition is built to hold far more pressure than you will use here, but old seals leak and a stuck relief valve is a hazard.</p>"
+  ],
+  [
+   "Filling and the first day",
+   "<p>Fill the keg with no more than about 15 to 16 litres of wort, leaving room for krausen. If you fill it to the top, foam reaches the gas post and blocks the valve. Pitch your yeast, seal the lid and give the keg a quick burst of CO2 to seat the seal if you have a cylinder.</p><p>For the first 12 to 24 hours, many brewers leave a blow-off tube on the gas post rather than the spunding valve. Early fermentation is the most vigorous stage and yeast health benefits from not being under pressure while it grows. Once activity is steady, swap to the spunding valve.</p>"
+  ],
+  [
+   "Setting the pressure",
+   "<p>For most ales and warm lagers, about 0.8 to 1 bar (12 to 15 psi) is a good setting. That is enough to reduce esters without stressing the yeast badly. Going much higher, especially early, can slow fermentation and leave it unfinished.</p><p>At 20 °C, 1 bar of top pressure leaves the beer at roughly 2 volumes of CO2. When you chill the keg at the end, the beer absorbs more gas, so you may need a short top-up from a cylinder to reach normal serving carbonation of about 2.4 to 2.6 volumes. Some brewers raise the spunding setting near the end of fermentation to carbonate more fully in the keg.</p>"
+  ],
+  [
+   "Finishing and serving",
+   "<p>Fermentation usually finishes in 7 to 10 days. Check gravity by pulling a small sample through the liquid post: when it holds steady for two or three days, it is done. Lager strains still benefit from a diacetyl check, so taste for butterscotch before you chill.</p><p>Then chill the keg as cold as you can and let the yeast settle for a few days to a couple of weeks. The first pint or two will be cloudy with yeast; after that the shortened dip tube draws clear beer. You can serve straight from the fermentation keg or push the beer under pressure into a clean serving keg. Give a lager the full cold rest; it is the stage most people rush.</p>"
+  ],
+  [
+   "Mistakes to avoid",
+   "<ul><li>Overfilling the keg and blocking the gas post with foam.</li><li>Applying high pressure from day one, which slows fermentation.</li><li>Trusting a cheap gauge without checking it against your regulator gauge.</li><li>Expecting pressure to fix a fermentation at 30 °C. It does not; it reduces esters, it does not stop heat stress.</li></ul><p>The science behind pressure, esters and yeast growth is where homebrewing starts to overlap with professional brewing. Knowing how dissolved CO2 affects yeast metabolism lets you set pressure on purpose instead of copying numbers.</p><p>Your first step: brew your usual pale ale, ferment it in a keg with a spunding valve at 1 bar and compare it with your last batch from an open fermenter.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What pressure should I ferment at?",
+   "About 0.8 to 1 bar (12 to 15 psi) suits most ales and warm lager fermentations. Avoid high pressure early in fermentation."
+  ],
+  [
+   "Can I ferment lager at room temperature under pressure?",
+   "Many homebrewers ferment lager strains at 18 to 20 °C under about 1 bar with clean results. You still need to hold that temperature steadily."
+  ],
+  [
+   "How full should I fill a keg for fermentation?",
+   "No more than about 15 to 16 litres in a 19 litre corny keg, so krausen does not reach the gas post."
+  ],
+  [
+   "Will the beer be carbonated after pressure fermentation?",
+   "Partly. At 20 °C and 1 bar it holds roughly 2 volumes, so a short top-up of CO2 after chilling usually brings it to serving level."
+  ]
+ ],
+ "cta": {
+  "title": "Understand what pressure does to yeast",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers yeast metabolism, fermentation science, carbonation and process control, so you can set pressure, temperature and timing on purpose.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "fermentation-temperature-control-at-home",
+  "brewing-a-lager-at-home",
+  "brewing-a-wheat-beer-at-home"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "grain-absorption-and-how-it-sets-your-sparge-volume",
+ "cat": "Brewing science",
+ "h1": "Grain absorption and how it sets your sparge volume",
+ "title": "Grain Absorption and Your Sparge Volume | Craft Beer School",
+ "desc": "Why spent grain keeps about a litre of water per kilo, how to measure your own figure and how to turn it into a sparge volume that hits pre-boil.",
+ "teaser": "Every kilo of malt walks out of the lauter tun holding roughly a litre of your water. Plan for it or miss your volumes.",
+ "standfirst": "Grain absorption is the quiet line in every water calculation. Get it wrong and you either chase pre-boil volume with extra sparge or boil off weak wort for an hour. Here is how to measure it and use it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Spent grain leaves holding about a litre per kilo",
+   "<p>When the lauter is finished, the husks and insoluble solids that stay in the tun are soaked. On most commercial systems the wet spent grain is roughly 75 to 80% water by weight. Work that back to the original grist and it comes to something close to 1 litre of liquor retained for every kilo of malt mashed. That is the planning figure most brewers start from.</p><p>It is a starting figure, not a law. Fine milling, a high share of wheat or oats, a long sparge and the way the tun drains all move it. A coarse crush on a well drained lauter tun can sit below 1 litre per kilo. A rice heavy grist with plenty of husk-free adjunct can behave differently again, because the rice adds extract but very little to the filter bed.</p>"
+  ],
+  [
+   "The water balance every brew has to close",
+   "<p>Total liquor in has to equal what you want in the kettle plus what you leave behind. Written out:</p><p><strong>Sparge volume = pre-boil volume - (mash liquor - grain absorption - unrecovered dead space)</strong></p><p>Mash liquor is your strike water. Grain absorption is kilos of grist times your absorption figure. Dead space is the liquor under the false bottom or in pipework that never reaches the kettle. Our guide to <a href=\"calculating-mash-water-volume-and-strike-temperature.html\">mash water volume and strike temperature</a> covers the first half of this sum. This guide is about the middle term, which is the one brewers most often guess.</p>"
+  ],
+  [
+   "A worked example on a 10 hl brewpub",
+   "<p>Say you mash 200 kg of malt at 3 litres per kilo. That is 600 litres of strike liquor. With absorption at 1.0 litre per kilo, 200 litres stays in the grain. If 20 litres sits under the false bottom and never gets pumped out, the first wort you can collect is about 380 litres.</p><p>Your pre-boil target is 1,100 litres, which you worked out from your boil-off rate and the knockout volume you want. Sparge volume is 1,100 minus 380, so 720 litres. Total liquor for the brew is 1,320 litres: 1,100 to the kettle plus 220 left behind in grain and dead space.</p><p>Now change one number. If your real absorption is 1.15 litres per kilo, you lose another 30 litres to the grain. You will be 30 litres short at pre-boil, or you will add 30 litres of extra sparge that carries the weakest runnings of the day.</p>"
+  ],
+  [
+   "Measuring your own absorption figure",
+   "<p>You do not need a lab for this. You need honest volume readings and one temperature correction.</p><ol><li>Record the strike liquor and sparge liquor volumes from a flow meter or a calibrated hot liquor tank sight glass.</li><li>Record the volume in the kettle at the end of run-off and its temperature.</li><li>Correct the hot volume to 20 °C. Wort near 100 °C takes up about 4% more space than the same wort cold, so multiply a near-boiling reading by about 0.96.</li><li>Subtract your known dead space, which you measure once with water.</li><li>Divide what is left over by the kilos of grist.</li></ol><p>Do this for five or six brews and you will see your real number and how much it moves. Most systems settle into a narrow band. If yours swings by more than 0.1 litre per kilo between brews of the same recipe, look at mill gap and sparge practice before you look at the maths.</p>"
+  ],
+  [
+   "What changes absorption from brew to brew",
+   "<p>Finer milling breaks up husk and leaves more small particles that hold water. Wheat malt and flaked oats bring gums and fine material that do the same. Heavy recipes with 300 kg or more on a small tun pack a deeper bed that drains more slowly. Cutting the run-off early to save time leaves wetter grain behind.</p><p>In Indian brewpubs we also see absorption figures copied from homebrew software built around 20 litre batches. Those defaults assume different equipment and different milling. A figure measured on your own tun beats any default.</p>"
+  ],
+  [
+   "Why it matters beyond volume",
+   "<p>Absorption is also an extract number. That retained litre per kilo is wort, not plain water. Toward the end of the sparge it is weak, but earlier on it carries real sugar. A tun that retains more liquor usually lowers <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> as well, because some extract leaves with the grain. Tracking absorption alongside gravity is how you find out whether a lower yield came from the mill, the mash or the lauter.</p><p>A spreadsheet that holds strike volume, sparge volume, kettle volume, temperature and grist weight for every brew answers this question in about ten minutes. Most brewpubs record half those numbers and never put them in one place.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>On your next brew, write down five numbers: grist weight, strike volume, sparge volume, kettle volume at the end of run-off and the kettle temperature at that reading. Correct the volume to 20 °C, subtract your dead space and divide by grist weight. That one figure will tell you whether your sparge plan has been built on your brewery or on someone else's.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much water does grain absorb in the mash?",
+   "A common planning figure is about 1 litre per kilo of malt. Your own system may run a little above or below that, so measure it over several brews."
+  ],
+  [
+   "Does grain absorption change with recipe?",
+   "Yes. Finer milling, wheat, oats and very large grists all tend to raise it. Rice and other husk-free adjuncts change bed behaviour too."
+  ],
+  [
+   "Why correct kettle volume for temperature?",
+   "Hot wort takes up about 4% more volume near boiling than at 20 °C. Without the correction your absorption figure will come out too low."
+  ]
+ ],
+ "cta": {
+  "title": "Close your brewhouse water and extract balance",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers mash, lauter and boil as one mass balance, so you can trace every lost litre and every lost kilo of extract.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "tracking-extract-from-grain-to-glass-with-a-brew-day-mass",
+  "calculating-mash-water-volume-and-strike-temperature",
+  "mash-ph-explained"
+ ]
+}

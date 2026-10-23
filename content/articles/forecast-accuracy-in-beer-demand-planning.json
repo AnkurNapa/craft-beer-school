@@ -1,0 +1,63 @@
+{
+ "slug": "forecast-accuracy-in-beer-demand-planning",
+ "cat": "Beer for teams",
+ "h1": "Forecast accuracy in beer demand planning",
+ "title": "Forecast Accuracy for Beer Planners | Craft Beer School",
+ "desc": "How to measure beer forecast accuracy with WMAPE and bias, at the right lag and level. Why beer makes the maths matter.",
+ "teaser": "A forecast that looks 90% accurate nationally can be useless at the depot. Measure it where the beer is actually made and moved.",
+ "standfirst": "Beer is brewed weeks before it is sold, so a bad forecast turns into empty shelves or stale stock. This guide shows how to measure accuracy honestly and what the number tells the brewery.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Beer forces the forecast to be early",
+   "<p>A standard lager spends roughly three to four weeks in tanks between brewing and packaging: about a week fermenting, then a cold maturation period before filtration. Add packaging, despatch and distributor stock and the brewery is committing to volume a month or more before a consumer buys it.</p><p>That lead time is why forecast accuracy matters so much in beer. The brewery cannot brew more lager next Tuesday to fix this weekend. It can only work from the forecast it was given weeks ago. A planner who understands that measures accuracy against the forecast that was frozen at the lead time, not the one revised last Friday.</p>"
+  ],
+  [
+   "Pick a measure that weights volume",
+   "<p>The simple measure is mean absolute percentage error (MAPE): for each item, take the absolute error as a percentage of actual sales, then average. It has a problem in beer. A small SKU that sold 10 cases against a forecast of 20 shows a 100% error and drags the average down as much as a flagship brand.</p><p>Weighted MAPE (WMAPE) fixes that. Add up the absolute errors across all items, then divide by total actual sales. A worked example with three SKUs:</p><ul><li>Lager 650 ml: forecast 10,000 cases, actual 9,000, error 1,000</li><li>Strong 500 ml can: forecast 4,000, actual 4,500, error 500</li><li>Wheat beer 330 ml: forecast 200, actual 100, error 100</li></ul><p>Total error is 1,600 against total actual of 13,600, so WMAPE is about 11.8% and forecast accuracy, defined as 1 minus WMAPE, is about 88%. The wheat beer's 100% miss counts for what it is: 100 cases.</p><p>One caution on the formula. Some teams divide by forecast instead of actual, which flatters over forecasting. Agree the definition once, write it down and use it everywhere. Two teams quoting accuracy with different denominators will argue for a quarter without noticing they disagree on maths, not on beer.</p>"
+  ],
+  [
+   "Accuracy without bias hides half the story",
+   "<p>Bias tells you which way you miss. Add up forecast minus actual without taking absolute values, then divide by total actual. In the example above, the errors are plus 1,000, minus 500 and plus 100, so bias is plus 600 on 13,600, about 4.4% over forecast.</p><p>A team can post steady 85% accuracy while always forecasting high. In beer, persistent over forecasting fills warehouses with ageing stock. Persistent under forecasting leaves shelves bare in April and May, when Indian heat pushes demand up. Track bias by month and by brand. A bias that keeps the same sign for three months is a process problem, not bad luck.</p>"
+  ],
+  [
+   "Measure at the level the brewery acts on",
+   "<p>Accuracy rises as you add things up. National, monthly, all brands together will always look good, because errors cancel out. The brewery does not brew \"all brands\". It brews a specific beer, packs a specific SKU and ships to a specific depot.</p><p>So measure at the level decisions are made: SKU by depot by week for despatch, SKU by month for packaging plans, brand by month for brewing. Expect the numbers to be lower at finer levels. That is honest, not a failure. For the bigger picture on seasonal swings, see our guide to <a href=\"beer-seasonality-for-demand-planners.html\">beer seasonality for demand planners</a>.</p>"
+  ],
+  [
+   "Forecast the right thing",
+   "<p>Many beer teams forecast shipments, the cases sold to distributors, because that is what the brewery invoices. Shipments are shaped by distributor ordering, quarter end pushes and state permit timing. Depletions, what distributors sell on to retailers, are closer to real consumer demand.</p><p>Where depletion data exists, forecast demand from depletions, then plan shipments to refill the pipeline. Accuracy on shipments alone can look fine while the distributor sits on six weeks of stock. Excise also shapes demand: a state duty change can move MRP overnight, which shifts volume between brands and packs. Our guide to <a href=\"beer-demand-forecasting-indian-seasons.html\">beer demand forecasting across Indian seasons</a> covers the calendar effects.</p>"
+  ],
+  [
+   "What a better number buys",
+   "<p>The value of accuracy shows up on the floor. Fewer urgent brew changes, fewer short packaging runs and less beer sitting past its best before date. It also shows up in the cold store, where tank space and warehouse space are both finite in peak season.</p><p>The gap most teams have is not the formula. It is knowing why a miss happened: was it heat, a price change, a distributor stocking up before a duty revision or a packaging line breakdown that cut supply? Reading the product side of a miss is what turns a planner into someone the brewery trusts.</p><p>Your first step: take last month's frozen forecast and actuals, calculate WMAPE and bias by SKU and list the three biggest absolute misses. Ask the brewery and the sales team what happened with each one.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good forecast accuracy for beer?",
+   "It depends on the level. Accuracy is higher for brand by month than for SKU by depot by week. Compare yourself over time at a fixed level and lag rather than chasing an industry figure."
+  ],
+  [
+   "Why use WMAPE instead of MAPE?",
+   "WMAPE weights errors by volume, so a big miss on a flagship brand counts for more than a big percentage miss on a tiny SKU."
+  ],
+  [
+   "What lag should forecast accuracy be measured at?",
+   "Measure against the forecast frozen at the brewery's lead time, often a month or more for lager, because that is the forecast production actually used."
+  ]
+ ],
+ "cta": {
+  "title": "Help your planners read the beer behind the forecast miss",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-production-planning-basics",
+  "beer-demand-forecasting-indian-seasons",
+  "beer-seasonality-for-demand-planners"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "sodium-and-salinity-in-brewing-water",
+ "cat": "Ingredients",
+ "h1": "Sodium and salinity in brewing water",
+ "title": "Sodium and Salinity in Brewing Water | Craft Beer School",
+ "desc": "How much sodium brewing water can carry, where it comes from in Indian water supplies plus how to add salt on purpose for gose and stout.",
+ "teaser": "A little sodium rounds out malt. Too much tastes salty and harsh. Softened water is a common culprit.",
+ "standfirst": "Sodium is the brewing ion most brewers ignore until it tastes wrong. At modest levels it adds roundness and fullness. Above about 150 mg/L it turns salty and harsh, especially with high sulphate. Coastal borewells and water softeners are the usual causes.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Sodium rounds out malt at low levels",
+   "<p>Sodium works on the palate much like salt in cooking. A little makes malt taste fuller and sweeter. Commonly quoted ranges for brewing water run from near zero up to about 150 mg/L, with many brewers aiming to keep it under 100 mg/L for most beers.</p><p>Up to around 70 to 100 mg/L, sodium paired with chloride gives a soft, rounded mouthfeel that suits malty styles such as stouts, brown ales and Scottish ales. Above about 150 mg/L it can taste distinctly salty. Paired with high sulphate, it gives a harsh, unpleasant bitterness that no amount of hop tuning will fix.</p>"
+  ],
+  [
+   "Softened water is the classic mistake",
+   "<p>Domestic and industrial water softeners work by ion exchange. Water passes through a resin that swaps calcium and magnesium ions for sodium. The water stops forming scale, but its sodium content rises in proportion to the hardness removed.</p><p>Here is the arithmetic. Each mg/L of hardness removed, measured as calcium carbonate, adds about 0.46 mg/L of sodium. Soften water with 300 mg/L of hardness to near zero and you add roughly 140 mg/L of sodium. At the same time you have removed the calcium the mash needs. Softened water is fine for boilers and cleaning. It should not be your brewing liquor. Our guide to <a href=\"process-water-for-cleaning-versus-brewing-liquor.html\">process water versus brewing liquor</a> covers where each belongs.</p>"
+  ],
+  [
+   "Coastal and saline borewells carry it naturally",
+   "<p>Groundwater near the coast (and in some inland areas with saline aquifers) can carry high sodium and chloride along with high total dissolved solids (TDS). A brewery on borewell water in a coastal city should test for sodium before brewing anything delicate.</p><p>TDS on its own does not tell you the answer. A TDS of 800 mg/L could be mostly calcium bicarbonate or mostly sodium chloride. Those two waters brew completely different beers. You need the individual ions from a lab report. Our guide to <a href=\"treating-borewell-water-for-brewing.html\">treating borewell water</a> covers the wider picture.</p>"
+  ],
+  [
+   "Reverse osmosis removes it, blending dilutes it",
+   "<p>Sodium does not boil out and is not removed by carbon filters. One practical option is reverse osmosis (RO), which removes most dissolved ions including sodium. The other is blending, where the source water is diluted with RO or low-mineral water to bring sodium down.</p><p>Blending ratios are simple to work out. If your source carries 200 mg/L of sodium and you want 50 mg/L, mix one part source water with three parts RO water. Then add back the calcium and other ions you need from brewing salts.</p>"
+  ],
+  [
+   "Adding salt on purpose",
+   "<p>Some styles want sodium. Gose, the tart wheat beer from Germany, is brewed with salt and coriander. The salt should be perceptible without being briny. Some brewers also add a small amount of salt to stouts and porters for roundness.</p><p>Table salt is about 39% sodium by weight. One gram of sodium chloride dissolved in 10 litres adds roughly 39 mg/L of sodium and 61 mg/L of chloride. Scale up and 1 kg in a 10 hl batch adds the same. Use pure, non-iodised salt. Iodised table salt and salt with anti-caking agents can bring unwanted flavours. Our <a href=\"gose-guide.html\">gose guide</a> covers the style's salt levels.</p>"
+  ],
+  [
+   "Watch the sodium and sulphate pairing",
+   "<p>The harshness of sodium with sulphate is worth singling out. A hoppy pale ale built on a high sulphate profile, say 250 mg/L or more, tastes crisp and dry with low sodium. With 100 mg/L of sodium on top, the same beer can taste rough and minerally. If you brew hop-forward beers on water that carries sodium, keep sulphate moderate or remove the sodium first.</p><p>Chloride with sodium is gentler, which is why salty, malty beers work and salty, bitter ones rarely do.</p>"
+  ],
+  [
+   "Taste it in your own beer first",
+   "<p>Ranges on paper only go so far. A simple bench test shows what sodium does to your own beer. Make a salt solution of known strength, for example 1 g of pure salt in 100 mL of water, so each 1 mL holds 10 mg of salt. Pour equal glasses of a finished beer and dose them at steps that add 20, 40 and 80 mg/L of sodium, leaving one glass untouched.</p><p>Taste them blind with two or three colleagues. Most teams find a point where the beer gets rounder, then a point where it turns salty. Those two numbers tell you more about your recipe than any general guideline. The test takes 15 minutes.</p>"
+  ],
+  [
+   "Know your number before you adjust",
+   "<p>Sodium is easy to test and hard to remove, so start with the test. Send a sample of your brewing water to a lab and ask for sodium, chloride, sulphate, calcium, magnesium and alkalinity. If the brewery uses a softener anywhere, sample after it and before it. Then trace which outlets feed the hot liquor tank. More than one brewery has found its brewing water running through a softener installed for the boiler.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much sodium is too much in brewing water?",
+   "Many brewers keep it under about 100 mg/L. Above roughly 150 mg/L it can taste salty, especially with high sulphate."
+  ],
+  [
+   "Can I brew with softened water?",
+   "It is not recommended. Ion exchange softeners replace calcium and magnesium with sodium, which raises sodium and removes calcium the mash needs."
+  ],
+  [
+   "How do I remove sodium from water?",
+   "Reverse osmosis removes most sodium. Blending with RO or low-mineral water dilutes it. Boiling and carbon filters do not remove it."
+  ],
+  [
+   "How much salt do I add for a gose?",
+   "It varies by recipe and taste. One gram of salt in 10 litres adds about 39 mg/L of sodium, so build up gradually and taste."
+  ]
+ ],
+ "cta": {
+  "title": "Build the water profile your beer needs",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers water chemistry, ion balance, mash pH and how to design a brewing liquor from whatever source your brewery has.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-water-basics",
+  "water-hardness-and-beer",
+  "treating-borewell-water-for-brewing"
+ ]
+}

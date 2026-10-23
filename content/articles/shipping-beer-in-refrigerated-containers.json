@@ -1,0 +1,71 @@
+{
+ "slug": "shipping-beer-in-refrigerated-containers",
+ "cat": "Business",
+ "h1": "Shipping beer in refrigerated containers",
+ "title": "Shipping Beer in Refrigerated Containers | Craft Beer School",
+ "desc": "How to ship beer in refrigerated containers from India: set points, pre-cooling, loading for airflow, data loggers and the road legs.",
+ "teaser": "A reefer keeps cold beer cold. It does not make warm beer cold. Most problems start from that one misunderstanding.",
+ "standfirst": "Refrigerated containers, or reefers, let craft beer cross oceans without baking on the way. They only work if the beer goes in cold and is loaded so air can move. We cover how to book, load and track a reefer shipment of beer.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why beer needs a reefer",
+   "<p>Beer ages faster as temperature rises. Hop aroma fades, malt flavours turn papery and unpasteurised beer can pick up spoilage. A standard steel container at an Indian port or on a ship in the tropics can get well above 40 °C inside. Weeks at that temperature undo whatever care went into brewing.</p><p>A refrigerated container holds a set temperature for the whole voyage, using its own refrigeration unit powered from the ship or a generator. For hoppy or unpasteurised beer on any sea route longer than a few days, it is the safe default. Our guide to <a href=\"exporting-craft-beer-from-india-and-the-shelf-life-it-needs.html\">exporting craft beer and the shelf life it needs</a> covers the ageing side.</p>"
+  ],
+  [
+   "Choosing a set point",
+   "<p>Most brewers ask for a set point in the low single digits, often around 2 to 4 °C. That keeps beer cold without risk of freezing. Beer freezes a little below 0 °C, the exact point depending on its strength. Frozen cans can split or bulge. Never set below zero.</p><p>Give the set point in writing on the booking and on the shipping instructions. A reefer can also run at frozen settings for other cargo. A typing error on the booking is not a theory.</p>"
+  ],
+  [
+   "Pre-cool the beer, not just the box",
+   "<p>A reefer is built to hold cargo at temperature, not to pull warm cargo down. If you load beer at 30 °C, the unit may take days to cool the middle of each pallet, if it gets there at all. Cold air flows around warm pallets rather than into them.</p><p>Chill the beer in your cold room before loading, ideally to the set point. Ask the shipping line to pre-cool the empty container too, then load quickly with the doors open for as little time as possible. This one habit decides most of the outcome.</p>"
+  ],
+  [
+   "Load for airflow",
+   "<p>Reefers blow cold air from the unit at the front, under a grooved floor, up through the cargo and back along the ceiling. Anything that blocks that path creates warm spots.</p><ul><li>Do not load above the red line marked on the container walls. Air needs a gap above the cargo.</li><li>Do not cover the floor grooves with loose cartons or slip sheets that block them.</li><li>Stack pallets squarely and wrap them tightly so they do not shift.</li><li>Leave the fresh air vent closed. Beer is not fresh produce and does not need ventilation.</li></ul><p>A 40 foot reefer typically holds around 20 standard pallets. A 20 foot reefer holds about half that.</p>"
+  ],
+  [
+   "Track the temperature yourself",
+   "<p>The reefer unit records its own temperature, but you may not get that data easily. Put two or three independent data loggers in the load, one near the doors and one in the middle of a pallet. When the container is opened at the destination, the importer downloads them. You will know whether the beer stayed cold or warmed up during a long stop.</p><p>Ask the importer to check the logger readings before signing for the delivery. If the temperature went out of range, a record taken at the door supports any insurance claim.</p><p>Note the set point, container number and data logger serial numbers on your shipping documents. If you sell on CIF terms, you arrange cargo insurance. Check that the policy covers temperature damage, not just loss and breakage, because many basic policies do not. If the importer arranges insurance, ask for a copy of the cover.</p><p>Photograph the load before the doors close: pallets, wrapping, the red line and the logger positions. If something goes wrong, those photographs show the beer left in good order.</p>"
+  ],
+  [
+   "The road legs are the weak point",
+   "<p>The sea voyage is often the easy part. Problems happen on land: the truck from the brewery to the port, waiting at the port before loading and the delay at the destination before the container is unpacked. A reefer needs power during all of these, from a clip-on generator set on the truck or a plug at the port.</p><p>Ask your freight forwarder how the container is powered at each stage. Ask how long it will sit at the Indian port before the ship sails. In May, three days unplugged on a dock in Chennai or Mumbai can do more damage than three weeks at sea.</p>"
+  ],
+  [
+   "Costs and when not to bother",
+   "<p>Reefer freight costs noticeably more than a dry container. Not every beer needs it. A pasteurised, filtered lager shipped in cooler months may survive a dry container. A hazy IPA will not. Weigh the extra freight per case against the value of the beer and your brand's reputation. Deciding when the extra cost pays for itself is a pricing question as much as a logistics one.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Ask your freight forwarder for a reefer quote alongside a dry container quote for the same route. Ask how the container will be powered on each road leg and at each port. Order two data loggers for your first shipment.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should beer be shipped at in a reefer?",
+   "Most brewers use a set point of around 2 to 4 °C. Never set the container below zero, because beer can freeze and packs can burst."
+  ],
+  [
+   "Can a reefer cool warm beer?",
+   "Not well. Reefers are designed to hold temperature. Chill the beer before loading and ask for the empty container to be pre-cooled."
+  ],
+  [
+   "How many pallets fit in a 40 foot reefer?",
+   "Typically around 20 standard pallets, depending on pallet size and how they are loaded."
+  ]
+ ],
+ "cta": {
+  "title": "Get beer abroad in the condition it left",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers export logistics, cold chain costs, pricing and planning so shipping decisions are made on numbers, not hope.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "shipping-and-installing-an-imported-brewhouse-in-india",
+  "microbrewery-licence-india",
+  "brewpub-vs-microbrewery"
+ ]
+}

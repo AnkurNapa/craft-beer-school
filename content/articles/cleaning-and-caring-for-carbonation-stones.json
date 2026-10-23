@@ -1,0 +1,67 @@
+{
+ "slug": "cleaning-and-caring-for-carbonation-stones",
+ "cat": "Brewing science",
+ "h1": "Cleaning and caring for carbonation stones",
+ "title": "Caring for Carbonation Stones | Craft Beer School",
+ "desc": "How to clean, test, store and handle carbonation stones so they keep making fine bubbles and never become a contamination source.",
+ "teaser": "A carbonation stone has millions of tiny pores. Every one of them is a place for beer, bacteria and fingerprints to hide.",
+ "standfirst": "Carbonation stones are simple, cheap and easy to ruin. A clogged stone carbonates slowly and unevenly. A dirty one can contaminate every tank it touches. Here is how to clean, test and store them properly.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why stones need more care than tanks",
+   "<p>A carbonation stone is sintered stainless steel, made by fusing fine metal particles into a porous body. Pores are typically around 0.5 to 2 microns across, so the surface area inside is enormous. That is what makes fine bubbles. It is also what makes cleaning hard.</p><p>Beer that soaks into those pores leaves proteins, hop residues and yeast behind. Bacteria shelter in them, out of reach of a quick rinse. Normal tank CIP flows past the stone but does not always push chemicals right through it. So the stone needs its own routine.</p>"
+  ],
+  [
+   "Never touch the porous surface",
+   "<p>Skin oils clog pores. Handle stones by their fittings, never by the porous body. Wear clean nitrile gloves. Do not scrub them with brushes or abrasive pads either. Scrubbing pushes debris deeper and can damage the surface.</p><p>Keep a little gas flowing through the stone whenever it is in beer or cleaning solution and not in use. Positive pressure stops liquid soaking backwards into the pores. Turning the gas off while the stone sits in beer is one of the most common ways stones become clogged.</p>"
+  ],
+  [
+   "A cleaning routine that reaches the pores",
+   "<p>Clean stones after every use. A typical routine:</p><ul><li>Rinse with warm water, pushing gas or water through the stone from the inside if your fitting allows.</li><li>Soak in hot caustic, around 2% at 70 to 80 °C, for 20 to 30 minutes. Push solution through the pores where you can.</li><li>Rinse thoroughly with clean water until the rinse runs neutral.</li><li>Soak in a brewery acid cleaner to remove mineral deposits and neutralise any remaining caustic.</li><li>Rinse again, then sanitise just before use.</li></ul><p>Follow your chemical supplier's concentration and contact time. Avoid chlorine-based products on stainless steel. Chloride attacks the protective layer and can cause pitting, which in a porous stone is permanent.</p><p>Ultrasonic cleaning baths are worth considering. Sound waves dislodge debris from deep in the pores in a way soaking alone cannot.</p>"
+  ],
+  [
+   "Test it before it goes back in",
+   "<p>A simple bubble test tells you whether a stone is healthy. Submerge it in clean water and slowly raise the gas pressure. A good stone gives an even mist of fine bubbles over its whole surface at low pressure. Warning signs:</p><ul><li>Large bubbles from one spot, which suggest a crack or damaged area.</li><li>Patches with no bubbles, which suggest clogging.</li><li>Needing much more pressure than before to start bubbling, which suggests general fouling.</li></ul><p>Record the pressure at which bubbling starts each time. If it creeps up over weeks, cleaning is not reaching deep enough.</p>"
+  ],
+  [
+   "Store stones clean and dry",
+   "<p>After cleaning and rinsing, dry stones or store them fully submerged in sanitiser, following your usual practice. Do not leave them damp in a sealed bag. In a warm Indian cellar that gives mould and bacteria an easy home. Label each stone with its tank and date of last deep clean.</p><p>Stones can also be heated to drive out stubborn organic deposits, but check the maker's limits first. Some housings and seals do not tolerate high temperatures.</p>"
+  ],
+  [
+   "Know when to replace one",
+   "<p>Stones wear out. A stone that fails the bubble test after a deep clean, shows visible pitting or has been dropped should be replaced. A new stone costs far less than a tank of beer carbonated unevenly or infected from the inside. Plate a swab from the stone now and then, as you would any other contact surface.</p><p>Stones in fermenters face a harsher life than those in brite tanks because yeast and trub get into the pores. Clean them more often and replace them sooner. Our guide to <a href=\"cip-cleaning-in-place.html\">cleaning in place</a> covers the chemistry behind caustic and acid cycles. If you are deciding whether to keep using stones at all, see <a href=\"inline-carbonation-versus-carbonation-stones.html\">inline carbonation versus carbonation stones</a>.</p>"
+  ],
+  [
+   "Give every stone a log",
+   "<p>Start a simple log today: stone number, tank, date cleaned, cleaning method and bubble-test start pressure. In a month you will know which stones are healthy and which are slowly clogging.</p><p>Add one more column: how long each tank took to reach target carbonation. When a stone's start pressure rises and its carbonation time stretches together, you have caught a clog before it ruined a batch. That pairing of a cleaning record with a process number is the cheapest quality system a brewpub can run.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How often should I clean a carbonation stone?",
+   "After every use. A deep clean with hot caustic and acid, followed by a bubble test, keeps the pores open and the stone hygienic."
+  ],
+  [
+   "Can I use bleach on a carbonation stone?",
+   "No. Chlorine attacks stainless steel and can cause permanent pitting. Use caustic and acid cleaners made for brewery use."
+  ],
+  [
+   "Why does my carbonation stone make big bubbles?",
+   "Large bubbles from one spot usually mean a crack or damaged area. Patchy bubbling suggests clogging. Deep clean it and test again, then replace it if it still fails."
+  ]
+ ],
+ "cta": {
+  "title": "Build a cleaning routine you can prove works",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers cleaning chemistry, hygiene testing, carbonation and microbiology, so your stones and tanks stay clean by design.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "inline-carbonation-versus-carbonation-stones",
+  "cip-cleaning-in-place",
+  "fixing-homebrew-carbonation"
+ ]
+}

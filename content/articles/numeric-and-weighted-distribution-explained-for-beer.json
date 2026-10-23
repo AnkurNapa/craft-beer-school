@@ -1,0 +1,63 @@
+{
+ "slug": "numeric-and-weighted-distribution-explained-for-beer",
+ "cat": "Beer for teams",
+ "h1": "Numeric and weighted distribution explained for beer analysts",
+ "title": "Numeric and Weighted Distribution | Craft Beer School",
+ "desc": "What numeric and weighted distribution mean for beer, how to calculate them and how to read the gap between the two.",
+ "teaser": "Being in 30% of shops can be worth more than being in 60%. It depends which shops. That is what weighted distribution measures.",
+ "standfirst": "Numeric and weighted distribution are two of the most quoted numbers in beer sales reviews and two of the most misread. This guide explains both, shows the arithmetic and covers what beer adds to the picture.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Numeric distribution counts shops",
+   "<p>Numeric distribution, often shortened to ND, is the share of outlets in a universe that stock your product. If a retail audit covers 1,000 beer outlets in a city and 300 of them stock your lager, numeric distribution is 30%.</p><p>The universe matters. Numeric distribution across all beer licensed outlets in a state is a different number from numeric distribution across bars only or shops only. Always state the universe alongside the figure. A brand with 60% ND in shops and 15% in bars is a different business from one with the reverse.</p>"
+  ],
+  [
+   "Weighted distribution counts what those shops sell",
+   "<p>Weighted distribution, or WD, adjusts for outlet size. It is the share of total category sales made by the outlets that stock your product. Category means all beer, or a defined segment such as strong beer, depending on the report.</p><p>Back to the example. Your lager is in 300 of 1,000 outlets. If those 300 outlets together sell 60% of all beer sold in the city, your weighted distribution is 60. You are in a minority of shops but the big ones.</p><p>The opposite can happen too. A brand in 600 small outlets that together sell 35% of category volume has ND of 60% and WD of 35. Wide but thin.</p><p>Some reports weight by the outlet's sales of all beer. Others weight by sales of the specific segment, such as strong beer or premium lager. A strong beer brand will look better weighted by strong beer sales than by all beer sales, because the outlets that sell the most strong beer are not always the outlets that sell the most beer overall. Check which weighting your report uses before you compare two brands from different segments.</p>"
+  ],
+  [
+   "The gap between the two tells a story",
+   "<p>The most useful thing is to compare the two numbers:</p><ul><li><strong>WD well above ND.</strong> You are in the high volume outlets. Growth comes from adding smaller outlets, which may cost more to serve per case.</li><li><strong>WD well below ND.</strong> You are spread across small outlets but missing the big ones. Those are often where the most beer is sold, so winning a few of them may matter more than adding many more small ones.</li><li><strong>WD close to ND.</strong> Your outlet mix looks like the market.</li></ul><p>A common sales review mistake is to celebrate a rise in ND while WD stays flat. That usually means new listings in outlets that sell little beer. It looks like progress on a chart and adds little volume.</p>"
+  ],
+  [
+   "Distribution is not the same as availability",
+   "<p>Retail audits usually count a product as distributed if the outlet handled it during the period, even if it was out of stock on the day of the audit. Some reports separate handling distribution from in stock distribution. The gap between the two is a supply problem: outlets that list your beer but keep running out.</p><p>In beer that gap is seasonal. In April and May, when heat pushes demand up across much of India, outlets that order weekly can run dry before the next delivery. A brand can hold its handling distribution and lose sales every hot weekend. Our guide to <a href=\"pack-mix-in-beer-sales-draught-bottle-and-can-for-analysts.html\">pack mix in beer sales</a> shows how the same brand can be strong in one pack and absent in another.</p>"
+  ],
+  [
+   "Beer adds a few twists",
+   "<p>Measure distribution at the SKU level, not only the brand. A lager in 650 ml bottles and the same lager in 500 ml cans are different items on the shelf. A brand with wide bottle distribution may have very narrow can distribution. In some outlets the consumer only wants one of them.</p><p>Licensing shapes the universe. Beer can only be sold in licensed outlets. The rules differ by state. Some states run government retail shops. Others license private shops and bars. Comparing distribution across states without noting those structures compares rulebooks, not sales performance.</p><p>Cold matters too. An outlet that stocks your beer but never puts it in the cooler counts as distributed in the audit. The consumer looking for cold beer sees nothing.</p>"
+  ],
+  [
+   "Model it so it can be trusted",
+   "<p>If you build these measures yourself, the outlet dimension needs a reliable outlet universe with channel, state and a size measure. The product dimension needs SKU, pack and brand. Our guide to <a href=\"fact-and-dimension-tables-for-beer-sales-analysts.html\">fact and dimension tables for beer sales analysts</a> covers that structure.</p><p>Write the definitions on the dashboard itself: universe, period, category and whether out of stock outlets count. Without them, two teams will quote different distribution numbers for the same brand.</p><p>Your first step: take your brand's latest ND and WD by state and plot them against each other. The states sitting far from the diagonal are where the next distribution conversation should start.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is numeric distribution?",
+   "The share of outlets in a defined universe that stock a product. 300 of 1,000 outlets stocking your beer is 30% numeric distribution."
+  ],
+  [
+   "What is weighted distribution?",
+   "The share of total category sales made by the outlets that stock your product. It shows whether you are in the outlets that sell the most."
+  ],
+  [
+   "Why can weighted distribution be higher than numeric?",
+   "When your product is in fewer but larger outlets. Being in 30% of shops that sell 60% of the beer gives a weighted distribution of 60."
+  ]
+ ],
+ "cta": {
+  "title": "Help your analysts read distribution with the beer in mind",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "abv-plato-and-original-gravity-explained-for-analysts",
+  "pack-mix-in-beer-sales-draught-bottle-and-can-for-analysts",
+  "fact-and-dimension-tables-for-beer-sales-analysts"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "direct-fire-versus-steam-heated-stills",
+ "cat": "Whisky",
+ "h1": "Direct fire versus steam heated stills",
+ "title": "Direct Fire Versus Steam Heated Stills | Craft Beer School",
+ "desc": "How direct fired and steam heated pot stills differ in control, flavour, fouling and safety, with the choice for a new Indian distillery.",
+ "teaser": "Fire under the pot or steam inside it: the choice changes your spirit, your cleaning and your safety case.",
+ "standfirst": "Pot stills can be heated by a flame under the base or by steam through coils, pans or a jacket. Each route has real effects on flavour, control and running cost, so it is a decision to make on evidence, not nostalgia.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two ways to boil a charge",
+   "<p>A <strong>direct fired</strong> still has a furnace or burner under the pot. Historically it burned coal; today gas or oil is more common. The base of the still is the heating surface and gets very hot, well above the boiling point of the charge.</p><p>A <strong>steam heated</strong> still has steam from a boiler passing through internal coils, pans or an external jacket. The heating surface is only as hot as the steam, which depends on its pressure. Most large malt distilleries converted from direct fire to steam during the 20th century for control and efficiency, though a few kept direct fire for its character. Our guide to <a href=\"steam-boilers-for-a-small-distillery.html\">steam boilers for a small distillery</a> covers the steam side.</p>"
+  ],
+  [
+   "What direct fire does to flavour",
+   "<p>The very hot base of a direct fired still can lightly cook solids in the wash, encouraging Maillard reactions and producing heavier, more toasty or nutty notes. Many distillers credit direct firing with a richer, oilier new make. It is a plausible effect but hard to separate from still shape, cut points and the rest of the process, so be wary of claims that the fire alone makes the difference.</p><p>The same hot spots that add character can scorch. Direct fired wash stills often carry a rummager, a rotating arm dragging copper chain mesh across the base, to stop solids burning on. The rummager wears the copper and needs maintenance of its own.</p><p>Direct fire is also harder to control. A flame cannot be turned down as finely or as quickly as a steam valve. The heat stored in a hot base keeps boiling the charge after the burner is reduced. Operators of direct fired stills learn to anticipate, easing off early before foam rises or a cut approaches.</p>"
+  ],
+  [
+   "What steam gives you",
+   "<ul><li><strong>Control.</strong> Steam flow can be adjusted finely and repeatably with a valve, which makes it easier to run the same distillation day after day.</li><li><strong>Cleaner surfaces.</strong> Lower surface temperatures mean less scorching and slower fouling.</li><li><strong>Safety.</strong> No open flame in the still house, which matters with ethanol vapour about.</li><li><strong>Efficiency.</strong> A well run boiler with condensate return usually uses fuel better than a flame under a pot.</li><li><strong>Flexibility.</strong> One boiler can heat both stills, the mash water and cleaning water.</li></ul><p>Steam also lets you start slowly and ease off precisely as the foam rises in the wash still or as you approach a cut in the spirit still, which helps keep cut points consistent.</p>"
+  ],
+  [
+   "Safety and rules in India",
+   "<p>An open flame in a building that handles ethanol vapour needs serious safety engineering: separation, ventilation, flame proof electrical fittings nearby and careful hazardous area zoning. Insurers and licensing authorities will ask about it. Our guide to <a href=\"hybrid-stills-for-craft-distilleries.html\">hybrid stills</a> touches on other choices that affect the same layout.</p><p>Steam brings its own rules. Boilers and steam pressure vessels in India must be registered and inspected under boiler regulations administered by state inspectorates. Requirements, fees and inspection intervals vary by state and change, so involve the inspectorate early in design rather than after the boiler arrives.</p>"
+  ],
+  [
+   "Cost and the practical choice for a new distillery",
+   "<p>For most new craft distilleries, steam is the practical default. One boiler serves the whole plant, control is easier for a small team still learning its stills, cleaning is lighter and the safety case is simpler. Direct fire suits a distillery that has a clear flavour reason for it, the space to separate the furnace and the budget for rummagers, refractory and a harder safety review.</p><p>Electric heating elements are a third option on very small stills. They give good control but carry their own scorching risk at the element surface and can be costly to run at scale. Whatever the heat source, ask the fabricator for the heating surface area and the expected heat-up time for a full charge. Those two figures tell you more about daily operation than any brochure.</p>"
+  ],
+  [
+   "Decide on flavour and data, not romance",
+   "<p>Your first step: write down the new make character you want in one sentence, then list how you will control it: still shape, reflux, cut points and heat source. If the heat source is the only lever you are relying on for character, visit distilleries running both systems, taste their new make side by side and ask what else differs. The answer is usually more than the fire. Then cost both options over ten years, including fuel, maintenance, rummager replacement, insurance and the extra safety work. The cheaper still to buy is not always the cheaper still to run.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does direct firing make whisky taste better?",
+   "It can add heavier, toasty notes through hotter surfaces, but still shape and cut points matter at least as much. It is hard to isolate the effect of the fire alone."
+  ],
+  [
+   "What is a rummager in a still?",
+   "A rotating arm dragging copper chain mesh across the base of a direct fired still to stop solids scorching."
+  ],
+  [
+   "Which is safer, direct fire or steam?",
+   "Steam, because it keeps open flame out of the still house. Boilers bring their own inspection rules, which vary by state in India."
+  ]
+ ],
+ "cta": {
+  "title": "Choose stills that make the spirit you want",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers still types, heating, reflux and cut points, so your equipment choices follow from the new make you are trying to produce.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "pot-still-vs-column-still",
+  "hybrid-stills-for-craft-distilleries",
+  "steam-boilers-for-a-small-distillery"
+ ]
+}

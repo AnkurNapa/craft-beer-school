@@ -1,0 +1,63 @@
+{
+ "slug": "still-cleaning-and-caustic-boils",
+ "cat": "Whisky",
+ "h1": "Still cleaning and caustic boils",
+ "title": "Still Cleaning and Caustic Boils | Craft Beer School",
+ "desc": "How and when to clean wash and spirit stills, how a caustic boil works, acid rinses for copper, safety steps and the signs a still needs cleaning.",
+ "teaser": "A dirty wash still burns, foams and slows down. A caustic boil puts it right, if you treat the chemicals with respect.",
+ "standfirst": "Stills need cleaning less often than mash tuns or washbacks, but they need it properly. Burnt-on solids in a wash still change the spirit and the energy bill. A clean done carelessly can hurt people or copper.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why stills get dirty",
+   "<p>A wash still boils fermented wash that carries yeast, protein and fine grain solids. Some of that bakes onto hot surfaces, especially steam coils, pans or the base of a direct fired still. Over time the layer thickens, insulates the heating surface and starts to scorch. The result is longer run times, more steam used and burnt or cooked notes creeping into the low wines.</p><p>Spirit stills stay much cleaner because they distil low wines and feints with few solids. Their deposits are mainly copper compounds formed as copper reacts with sulphur in the vapour. Some of that is the copper doing its job, as our guide to <a href=\"copper-contact-and-spirit-character.html\">copper contact and spirit character</a> explains.</p>"
+  ],
+  [
+   "Signs a still needs cleaning",
+   "<ul><li>Run times creep up on the same charge and steam pressure.</li><li>Steam use per run rises.</li><li>Foaming or boiling over becomes more frequent.</li><li>Burnt, cereal or cooked notes appear in low wines or new make.</li><li>Visible black or brown deposits on coils or the base during inspection.</li></ul><p>Log run time and steam use per charge. A rising trend gives you a scheduled clean instead of an emergency one. Most distilleries settle on a fixed interval for the wash still, set by how quickly those numbers drift on their own plant.</p><p>Direct fired wash stills foul fastest, because the base runs hottest. That is why many of them carry a rummager, a rotating copper chain mesh that scrapes the base during the run. Steam heated stills foul more slowly, but deposits on coils are harder to see and the drop in heat transfer shows up only in the run log.</p>"
+  ],
+  [
+   "How a caustic boil works",
+   "<p>Sodium hydroxide, usually called caustic, dissolves proteins and organic deposits. In a caustic boil the still is filled with a hot caustic solution to cover the fouled surfaces, heated and circulated or held for the time in your SOP, then drained and rinsed. The concentration and contact time should come from your chemical supplier for the specific soil and vessel, often in the low single digit per cent range for organic deposits.</p><p>A typical sequence:</p><ol><li>Drain and rinse the still with water to remove loose solids.</li><li>Fill with the caustic solution to cover the heating surfaces.</li><li>Heat gently and hold for the specified time.</li><li>Drain to a safe, approved effluent route. Caustic waste needs neutralising before discharge.</li><li>Rinse thoroughly with water until the rinse pH is neutral.</li></ol>"
+  ],
+  [
+   "Acid rinses for copper",
+   "<p>Copper resists caustic well, but caustic does not remove mineral scale or green copper salts. A mild acid rinse, such as citric acid at the concentration the supplier recommends, deals with those and brightens the copper. Never mix acid and caustic. Always rinse to neutral between them.</p><p>Be careful with copper in the spirit still. Aggressive or frequent acid cleaning strips copper faster and shortens still life. Many distillers clean spirit stills only lightly and occasionally, because the reactive copper surface is part of their spirit character. Our guide to <a href=\"still-maintenance-and-copper-wear.html\">still maintenance and copper wear</a> covers that trade-off.</p>"
+  ],
+  [
+   "Safety comes before shine",
+   "<p>Hot caustic causes severe burns and permanent eye damage. A still also counts as a confined space. Write and follow an SOP that covers:</p><ul><li>Face shield, goggles, chemical gloves, apron and boots for anyone handling caustic.</li><li>An eyewash station and safety shower within a few seconds' walk.</li><li>Always adding caustic to water, never water to caustic, because the reaction gives off heat.</li><li>Lock-out of steam and pumps before anyone opens a manway.</li><li>Confined space entry rules, gas testing and a standby person if anyone enters the still.</li><li>Venting: never seal a still that is cooling, because it can pull a vacuum.</li></ul><p>Caustic also reacts with any carbon dioxide left in a closed vessel, which can draw a vacuum on its own. Keep vents open throughout the clean.</p>"
+  ],
+  [
+   "Clean on evidence, not habit",
+   "<p>Your first step: add two columns to your wash still log, run time and steam used per charge. Plot them for a month. When both rise together by more than your normal spread, schedule a caustic boil and note the figures after cleaning. Within a few cycles you will know your real cleaning interval instead of guessing it. Record the caustic concentration, temperature and contact time for each clean as well. If one clean leaves the run time still high, the record shows whether it was the chemistry or the deposit that changed.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How often should a wash still be cleaned?",
+   "It depends on the plant. Track run time and steam use per charge and clean when they drift, rather than on a fixed guess."
+  ],
+  [
+   "Is caustic safe for copper stills?",
+   "Copper resists caustic well, but rinse thoroughly afterwards and never mix caustic with acid. Follow the chemical supplier's concentration and contact time."
+  ],
+  [
+   "Do spirit stills need caustic boils?",
+   "Rarely. Spirit stills carry few solids. Their copper deposits are partly useful, so many distillers clean them only lightly."
+  ]
+ ],
+ "cta": {
+  "title": "Keep your stills running clean and consistent",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers still operation, cleaning and the run logs that show when a still needs attention before the spirit or the energy bill tells you.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-the-wash-still-and-spirit-still-each-do",
+  "pot-still-shape-and-reflux",
+  "low-wines-and-the-spirit-still-charge"
+ ]
+}

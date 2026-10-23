@@ -1,0 +1,67 @@
+{
+ "slug": "energy-use-in-a-whisky-distillery",
+ "cat": "Whisky",
+ "h1": "Energy use in a whisky distillery",
+ "title": "Energy Use in a Whisky Distillery | Craft Beer School",
+ "desc": "Where the energy goes in a malt whisky distillery, how to work out each load from first principles and the heat recovery that pays back first.",
+ "teaser": "Most of a distillery's energy goes into boiling water that is not alcohol. Knowing where it goes is the first step to spending less.",
+ "standfirst": "A whisky distillery is a heat plant that happens to make spirit. Steam for the stills dominates the bill, followed by mashing water and effluent handling. Here is how to work out each load yourself and where heat recovery usually pays first.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Most of the steam boils water, not alcohol",
+   "<p>A wash at around 8% ABV is mostly water. To pull the alcohol out, the wash still boils off roughly a third of its charge as low wines, which carry the ethanol and a great deal of water with them. The spirit still then boils most of that again. Every kg of water vapour costs about 2,260 kJ of latent heat, far more than ethanol's roughly 840 kJ per kg.</p> <p>So the biggest lever on distillation energy is the wash itself. A stronger wash means fewer litres to heat per litre of pure alcohol. Our guide on <a href=\"why-whisky-wash-sits-near-8-percent-abv.html\">why whisky wash sits near 8% ABV</a> explains why distillers do not simply push it higher. Within that range, a fermentation that finishes properly and leaves no sugar behind is the cheapest energy saving in the building.</p>"
+  ],
+  [
+   "Working out a load from first principles",
+   "<p>You do not need a consultant to estimate a heat load. Water needs about 4.18 kJ to warm 1 kg by 1 °C. Heating 1,000 litres of mash water from 25 °C to 64 °C takes 1,000 x 4.18 x 39, about 163 MJ, or roughly 45 kWh of heat before any losses.</p> <p>Do the same for the wash still. Bring the charge from fermenter temperature to its boiling point (sensible heat), then add the latent heat of everything you boil off. Divide by your boiler efficiency, which for a reasonably maintained packaged boiler is often in the 80 to 90% range. The result is fuel per batch. Divide by litres of pure alcohol produced and you have the number worth tracking every week.</p>"
+  ],
+  [
+   "The other big loads",
+   "<p>After the stills, the main energy users are usually these:</p> <ul><li><strong>Mashing water.</strong> Three waters at rising temperatures, the last often near 80 to 90 °C, for every mash.</li> <li><strong>Cleaning.</strong> Hot caustic for washbacks, pipes and stills, often heated by steam.</li> <li><strong>Pot ale and spent lees.</strong> Any evaporation, drying or anaerobic treatment on site has its own energy demand.</li> <li><strong>Cooling.</strong> Pumps and tower fans run whenever the stills do, plus any chiller in a hot climate.</li> <li><strong>Warehousing and bottling.</strong> Usually small next to the stills, unless the warehouse is air-conditioned.</li></ul> <p>The proportions vary with design and with what the site does with its effluent. Measure your own split before believing anyone else's.</p>"
+  ],
+  [
+   "Heat recovery that pays back first",
+   "<p>The cheapest recovery is usually the condenser. Cooling water leaving a condenser at 60 to 70 °C is ready-made mashing water. Storing it in an insulated hot liquor tank means the next mash needs only a small steam top-up. Many distilleries recover this before doing anything else.</p> <p>Next come the less obvious ones. Return boiler condensate rather than draining it, because it comes back hot and already treated. Preheat the wash charge with the hot pot ale or spent lees through a plate heat exchanger. Insulate every steam line and valve body, which is unglamorous and almost always worth it. Larger plants use thermal vapour recompression or mechanical vapour recompression on the stills, but at craft scale the payback depends heavily on run hours.</p>"
+  ],
+  [
+   "Energy in an Indian setting",
+   "<p>Climate changes the balance. Incoming water in much of India is already 25 to 30 °C, which slightly reduces mash water heating. The cooling side gets harder, because tower water in humid months stays warm and a chiller may be needed to bring distillate down.</p> <p>Fuel choice matters too. Furnace oil, diesel, piped natural gas, coal and biomass briquettes from rice husk or other agricultural residues all appear in Indian boiler houses. Each has a different cost per useful kJ and a different consent and emissions picture with the state pollution control board. Compare them on cost per kg of steam delivered, including handling and ash, not on fuel price per tonne. Our guide to <a href=\"water-and-energy-in-whisky-sustainability.html\">water and energy in whisky sustainability</a> covers the reporting side.</p>"
+  ],
+  [
+   "Measure it before you try to cut it",
+   "<p>Most small distilleries know their monthly fuel bill and nothing finer. That is not enough to manage. Fit a steam flow meter on the main header or at least on the still house branch. Meter electricity by area. Then log energy per litre of pure alcohol by batch alongside wash strength and spirit yield.</p> <p>Once those numbers sit together you can see which fermentations cost you extra steam and whether a change to the still run saved anything. Treating energy as a process variable rather than an overhead is the habit that separates a well run distillery from a merely busy one.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Pick one week of production. Add up the fuel bought or the gas metered for that week, convert it to MJ using the supplier's calorific value and divide by the litres of pure alcohol filled. Write that number on the board in the still house. It becomes the baseline every improvement is judged against.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which part of a whisky distillery uses the most energy?",
+   "Distillation, because the stills boil off large volumes of water along with the alcohol. Mashing water and effluent handling usually come next."
+  ],
+  [
+   "How do I measure distillery energy efficiency?",
+   "Track energy per litre of pure alcohol (LPA) produced, batch by batch, alongside wash strength and spirit yield."
+  ],
+  [
+   "What heat recovery should a small distillery do first?",
+   "Usually condenser water recovery for mashing, condensate return to the boiler and insulation of steam lines. These are cheap and pay back quickly at any scale."
+  ]
+ ],
+ "cta": {
+  "title": "Make spirit without burning money on steam",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers mashing, fermentation and distillation with the heat and yield numbers a distiller needs to run a plant efficiently.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-a-new-distillery-sells-while-whisky-ages",
+  "water-and-energy-in-whisky-sustainability",
+  "budget-lines-for-a-craft-whisky-distillery"
+ ]
+}

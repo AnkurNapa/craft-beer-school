@@ -1,0 +1,71 @@
+{
+ "slug": "building-a-whisky-sales-dashboard",
+ "cat": "Whisky",
+ "h1": "Building a whisky sales dashboard",
+ "title": "Building a Whisky Sales Dashboard | Craft Beer School",
+ "desc": "How to design a whisky sales dashboard that the trade trusts: the right units, shipments versus depletions, state views and price bands.",
+ "teaser": "Most whisky dashboards show cases shipped and call it sales. The trade knows better.",
+ "standfirst": "A whisky sales dashboard has to work for brand managers, finance and sales heads who all read it differently. The difference between a dashboard people trust and one they ignore usually comes down to units, definitions and state views. Here is how we would build one.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Decide what counts as a sale",
+   "<p>The first argument in any spirits dashboard project is what a sale is. There are at least three candidates. Primary sales or shipments: cases leaving the company's warehouse or bond to a distributor or state corporation. Secondary sales: cases moving from that wholesaler to retailers. Depletions or tertiary sales: bottles sold to drinkers or to bars.</p><p>Each answers a different question. Shipments drive revenue recognition and excise. Depletions show real consumer demand. A gap between them means stock is building or draining in the trade. Our guide to <a href=\"whisky-depletion-data-explained.html\">depletion data</a> explains the definitions. Put the definitions on the dashboard itself, in plain words, so nobody argues about them in the meeting.</p>"
+  ],
+  [
+   "Pick units that the trade uses",
+   "<p>Spirits are counted in nine-litre cases: twelve 750 ml bottles. Indian portfolios also include 375 ml and 180 ml packs, so a raw case count mixes very different volumes. Convert to nine-litre equivalent cases for volume comparisons and keep physical cases for logistics.</p><p>Finance will also want value. Show gross sales and net sales after excise side by side, because duty varies by state and can be larger than the product revenue. A dashboard that shows only gross value will make high-duty states look more important than they are.</p>"
+  ],
+  [
+   "Every state is its own market",
+   "<p>Alcohol is a state subject in India. Each state has its own excise, approved prices, label versions and route to market. Some sell through government wholesale corporations, others through private distributors. A national total hides almost everything useful.</p><p>Make state the primary filter. Within each state, show volume, price band and pack mix. Mark dry days and election periods on time charts so a dip has an explanation. Rules and channels vary and change, so keep state attributes in a maintained reference table rather than hard coded into the report.</p>"
+  ],
+  [
+   "Price bands tell the mix story",
+   "<p>Indian whisky sells across wide price bands, from economy to premium and luxury. Brand teams think in those bands. Group SKUs by band within each state, using the approved MRP for that state and pack.</p><p>Mix shifts are often the real story. A month with flat volume but strong growth in premium bands is very different from one with growth in economy 180 ml packs. Show mix as a share of nine-litre cases and of net value. During the Diwali gifting season, premium mix usually moves more than volume.</p>"
+  ],
+  [
+   "Get the master data right first",
+   "<p>A dashboard is only as clean as the SKU master behind it. One blend can exist as dozens of SKUs across pack sizes and states. If those SKUs are not mapped to a common brand, blend, pack and price band, every chart will undercount or double count.</p><p>Before building visuals, audit the master data. Check that each SKU has a state, a pack size in millilitres, an ABV and a price band. Our guide to <a href=\"whisky-master-data-done-right.html\">whisky master data</a> covers the structure in detail. In our experience this step takes longer than the dashboard and saves more arguments.</p>"
+  ],
+  [
+   "Design for the questions people ask",
+   "<p>Brand managers ask how their brand is moving in each state and band. Sales heads ask which distributors or depots are behind plan. Finance asks about net revenue and duty. Supply chain asks about stock cover in days at depots.</p><p>Build one landing page that answers the top question for each role in a single view, with drill-through to detail. Show stock cover next to depletions, because a depot with ten days of cover before Diwali is an urgent problem. Keep colours consistent: one colour per price band across every page.</p>"
+  ],
+  [
+   "Show trade stock as days of cover",
+   "<p>The most useful single measure for a spirits sales team is often stock cover: how many days of sales the trade holds at the current depletion rate. If a state corporation's depots hold 4,000 nine-litre cases of a SKU and depletions run at 200 cases a day, cover is 20 days. That number tells sales whether a push will stick and tells supply chain whether to ship.</p><p>Cover needs depletion data to be meaningful, which is patchy in some states. Where depletion data is missing, show it as missing rather than estimating silently. A chart that quietly fills gaps with shipments trains everyone to trust a number that is not there. Flag the data source for each state on the page.</p>"
+  ],
+  [
+   "Where a dashboard needs judgement",
+   "<p>No dashboard explains why a state dipped. That needs someone who knows the product, the calendar and the rules. The best dashboards carry a short commentary box written by a person each month.</p><p>A practical first step: list the five questions your sales head asked in the last review meeting and check whether your current report answers each one in under a minute. Build from the gaps.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between shipments and depletions?",
+   "Shipments are cases sent from the company to the trade. Depletions are sales from the trade to drinkers or bars. The gap shows stock building or falling in the trade."
+  ],
+  [
+   "Why use nine-litre cases?",
+   "It is the standard spirits volume unit, equal to twelve 750 ml bottles. It lets you compare packs of different sizes fairly."
+  ],
+  [
+   "Should a whisky dashboard show gross or net sales?",
+   "Both. Gross sales include excise, which varies by state. Net sales show the company's real revenue."
+  ]
+ ],
+ "cta": {
+  "title": "Sales dashboards nobody can explain",
+  "body": "Our Data and AI in beverages module teaches teams to build sales reporting on the right units and definitions, built around your own portfolio and states.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "a-career-in-whisky-sales",
+  "building-a-whisky-brand-without-a-distillery",
+  "how-whisky-is-made"
+ ]
+}

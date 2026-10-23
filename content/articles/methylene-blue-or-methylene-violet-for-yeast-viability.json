@@ -1,0 +1,71 @@
+{
+ "slug": "methylene-blue-or-methylene-violet-for-yeast-viability",
+ "cat": "Brewing science",
+ "h1": "Methylene blue or methylene violet for yeast viability",
+ "title": "Methylene Blue or Violet for Viability | Craft Beer School",
+ "desc": "How methylene blue and methylene violet stain dead yeast, where each one goes wrong and which to use in a small brewery lab.",
+ "teaser": "Both stains count dead yeast. One tends to flatter a tired slurry.",
+ "standfirst": "Viability staining is the quickest way to judge a yeast slurry before you repitch it. Methylene blue is the classic stain. Methylene violet is the alternative many labs now prefer. Here is how they differ and which one to use.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "How a viability stain works",
+   "<p>A viability stain is a dye that live cells can deal with and dead cells cannot. In a methylene blue stain, living yeast take up the dye and reduce it to a colourless form using their own enzymes. Dead cells cannot, so they stay stained. Under the microscope you count blue cells as dead and clear cells as alive.</p><p>Methylene violet works on a similar principle: dead cells take up the colour and live cells stay pale. The calculation is the same: live cells divided by total cells, as a percentage.</p><p>Say you count 400 cells across your squares and 36 are stained. Viability is (400 - 36) / 400 x 100 = 91%. That figure then corrects your pitch: a slurry at 91% viability needs about 10% more volume to deliver the same number of live cells as a perfect one. A small error in the stain becomes an error in every litre you pitch.</p>"
+  ],
+  [
+   "Methylene blue: cheap, quick, flattering",
+   "<p>Methylene blue is cheap, widely available and has been used in brewery labs for a very long time. It works well on healthy slurry, where viability is high.</p><p>Its known weakness is that it tends to overestimate viability when the true figure is low. Cells that are damaged but not yet dead can still reduce some of the dye and look alive. In a slurry with true viability around 80%, methylene blue can read noticeably higher. The decision you are making, whether to repitch, is exactly where that error does damage.</p><p>Methylene blue is also slowly toxic to yeast. Leave a stained sample too long and live cells start to stain. Count within about ten minutes of mixing.</p>"
+  ],
+  [
+   "Methylene violet: clearer at lower viability",
+   "<p>Methylene violet is reported to give a sharper distinction between live and dead cells and to stay more accurate when viability is lower. That is the range that matters for repitching decisions.</p><p>The dye costs a bit more and may need ordering from a lab supplier rather than a chemist. The method is otherwise the same. Prepare it to the recipe in the ASBC or EBC methods you follow, keep it in a dark bottle and label it with the date.</p>"
+  ],
+  [
+   "Running the stain properly",
+   "<ol><li>Dilute the slurry so a haemocytometer square holds about 20 to 50 cells. Our guide to <a href=\"counting-yeast-cells-with-a-haemocytometer-step-by-step.html\">counting yeast cells with a haemocytometer</a> covers dilution.</li><li>Mix equal volumes of diluted slurry and stain.</li><li>Wait a fixed time, often a few minutes, before loading the chamber.</li><li>Count stained and unstained cells across several squares, totalling at least a few hundred cells.</li><li>Finish counting within ten minutes of mixing.</li></ol><p>Count budding cells as one if the bud is less than half the size of the mother cell. Agree a rule for pale blue or partly stained cells and stick to it. Different analysts with different rules will give different results.</p>"
+  ],
+  [
+   "What viability does not tell you",
+   "<p>A stain tells you which cells are alive. It does not tell you how vigorous they are. Yeast stored too long can show 95% viability and still ferment slowly because their glycogen reserves are depleted. That is the difference between viability and vitality, covered in our guide to <a href=\"yeast-viability-and-vitality.html\">yeast viability and vitality</a>.</p><p>Watching lag time and the first 24 hours of each fermentation fills that gap. A slurry that stained well but started slowly is telling you about vitality.</p>"
+  ],
+  [
+   "What to do with the number",
+   "<p>Many breweries use about 90% viability as a working threshold for repitching. Above that, adjust the pitch for viability and go ahead. Below it, consider pitching more, using it for a weaker beer or discarding and propagating fresh. Whatever threshold you choose, it only works if the stain gives a trustworthy number in that range. That is the strongest argument for methylene violet.</p><p>Plotting viability across generations shows you when a strain starts to tire. Our guide to <a href=\"yeast-growth-phases.html\">yeast growth phases</a> shows how stress shows up in fermentation.</p>"
+  ],
+  [
+   "A simple comparison you can run",
+   "<p>If you already use methylene blue, run both stains side by side on the same slurry for a few weeks. On healthy slurry they should agree closely. On older or stressed slurry, note how far apart they are. That comparison tells you whether methylene blue has been flattering your yeast.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Order a small bottle of methylene violet from a lab supplier. When it arrives, stain your next three slurries with both dyes side by side. Record the results in the same table. Then decide which one goes on your repitch checklist.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which is better for yeast viability, methylene blue or violet?",
+   "Methylene violet is generally considered more accurate when viability is lower, which is the range that matters for repitching decisions."
+  ],
+  [
+   "Why does methylene blue overestimate viability?",
+   "Damaged cells can still reduce some of the dye and appear alive, so tired slurries tend to read higher than their true viability."
+  ],
+  [
+   "How quickly must I count a stained yeast sample?",
+   "Within about ten minutes. Both stains slowly harm live cells, which then start to take up the dye."
+  ]
+ ],
+ "cta": {
+  "title": "Make repitch decisions you can defend",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers yeast physiology, viability and vitality testing, so you can tell healthy slurry from tired yeast before it reaches a tank.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "yeast-viability-and-vitality",
+  "wort-aeration-and-oxygen",
+  "yeast-growth-phases"
+ ]
+}

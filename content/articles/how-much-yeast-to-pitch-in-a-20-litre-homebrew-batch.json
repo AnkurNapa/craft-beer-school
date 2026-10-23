@@ -1,0 +1,67 @@
+{
+ "slug": "how-much-yeast-to-pitch-in-a-20-litre-homebrew-batch",
+ "cat": "Brewing basics",
+ "h1": "How much yeast to pitch in a 20 litre homebrew batch",
+ "title": "How Much Yeast to Pitch in 20 Litres | Craft Beer School",
+ "desc": "How much yeast to pitch in a 20 litre homebrew batch: standard pitch rates, how many dry sachets or liquid packs you need and when to make a starter.",
+ "teaser": "One sachet or two? The answer depends on gravity, yeast type and how old the packet is. Here is the sum.",
+ "standfirst": "Pitching the right amount of yeast is one of the simplest ways to make cleaner homebrew. Too little gives slow, fruity, sometimes stuck fermentations. Here is how we work out the number for a 20 litre batch.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The standard pitch rate",
+   "<p>Brewers express pitch rate as millions of yeast cells per millilitre of wort per degree Plato. The widely used figures are:</p><ul><li><strong>Ales:</strong> about 0.75 million cells per ml per °P.</li><li><strong>Lagers:</strong> about 1.5 million cells per ml per °P.</li></ul><p>Lagers need double because yeast works more slowly at cold temperatures. High gravity beers often get rates at the top of the range as well, because the yeast faces more stress. Our guide on <a href=\"plato-or-specific-gravity-and-which-scale-homebrewers-should.html\">Plato and specific gravity</a> explains the conversion. One degree Plato is about four gravity points.</p>"
+  ],
+  [
+   "Work the sum for 20 litres",
+   "<p>Take a typical pale ale at 1.048, which is about 12 °P. Twenty litres is 20,000 ml.</p><ul><li>0.75 million times 20,000 ml times 12 °P gives 180,000 million cells.</li><li>That is 180 billion cells.</li></ul><p>For a lager at the same gravity, double it to 360 billion. For a stronger ale at 1.064, about 16 °P, the ale figure rises to 240 billion. Those numbers tell you how much yeast to buy. They are worth working out once for your usual beers.</p>"
+  ],
+  [
+   "Dry yeast: count by grams",
+   "<p>Dry yeast makers usually give a dose in grams per hectolitre. For many ale strains it is around 50 to 80 g per hl. A 20 litre batch is 0.2 hl, so the range works out to 10 to 16 g. A standard 11.5 g sachet sits inside that range for an average strength ale.</p><p>Lager strains are typically dosed higher, often 80 to 120 g per hl, which is 16 to 24 g for 20 litres. That means two sachets. For a strong ale above about 1.065, two sachets of ale yeast is sensible too. Always check the maker's recommendation for the specific strain. Rehydrating dry yeast in about ten times its weight of sterile water at the temperature the maker gives, often 25 to 29 °C, improves viability.</p>"
+  ],
+  [
+   "Liquid yeast: watch the date",
+   "<p>A fresh liquid yeast pack or vial typically holds around 100 billion cells. That is below the 180 billion an average ale wants. The gap grows as the pack ages, because viability falls month by month in storage.</p><p>In India this matters more. Liquid yeast travels through a cold chain that often breaks somewhere between the lab and your door. A pack that sat in a warm courier van for a day has lost a lot of its cells. Check the manufacture date. If the pack arrives warm or is more than a couple of months old, make a starter or buy dry yeast instead. Dry yeast tolerates Indian shipping far better.</p>"
+  ],
+  [
+   "When to make a starter",
+   "<p>A starter grows more yeast before brew day. Mix dry malt extract into water to about 1.036 to 1.040, boil it, cool it, pitch the liquid yeast and let it grow for 24 to 48 hours. A 1 to 2 litre starter on a stir plate can take a single pack up to the count a 20 litre ale needs.</p><p>Online yeast calculators estimate the growth for you from pack date and starter size. They are approximations but good ones. For lagers from liquid yeast, a starter is almost always needed. Pour off most of the spent starter beer before pitching if it is large, to avoid diluting the batch with oxidised wort.</p>"
+  ],
+  [
+   "What happens if you get it wrong",
+   "<p>Underpitching is the more common mistake. The yeast has to grow more, which takes longer and produces more esters and sometimes fusel alcohols. Lag times stretch beyond 24 hours and give bacteria a head start. Attenuation can fall short, leaving a sweet, heavy beer.</p><p>Overpitching is less common at home. It can make a beer taste thin or muted because the yeast grows little and produces fewer flavour compounds. For styles that rely on yeast character, such as a hefeweizen, brewers sometimes underpitch a little on purpose. Knowing when to bend the rule is part of the fermentation judgement we teach on our fundamentals course.</p>"
+  ],
+  [
+   "Work out your next pitch",
+   "<p>Take the original gravity of your next recipe and convert it to Plato. Multiply 0.75 million by 20,000 ml by that Plato figure for an ale, or 1.5 million for a lager. Compare the result with what your yeast packet delivers. If it falls short, buy a second sachet or plan a starter two days before brew day. Write the sum in your brew log.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many cells does a 20 litre ale need?",
+   "At a typical pale ale gravity of 1.048, about 180 billion cells, using 0.75 million cells per ml per °P."
+  ],
+  [
+   "Is one sachet of dry yeast enough for 20 litres?",
+   "For an average strength ale, one 11.5 g sachet usually falls within the maker's dose. Lagers and strong beers generally need two."
+  ],
+  [
+   "Do I need a starter for liquid yeast?",
+   "Often yes. A fresh pack holds around 100 billion cells, below what most 20 litre batches need. The count falls as it ages."
+  ]
+ ],
+ "cta": {
+  "title": "Pitch the right yeast in the right amount",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It covers yeast, pitch rates, starters and fermentation so your beer ferments cleanly from the first hour.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "a-first-pale-ale-recipe-for-a-10-litre-homebrew-batch",
+  "working-out-how-much-water-you-need-for-a-homebrew-batch",
+  "small-batch-brewing"
+ ]
+}

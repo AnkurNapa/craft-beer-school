@@ -1,0 +1,71 @@
+{
+ "slug": "batch-records-and-traceability-in-a-distillery",
+ "cat": "Whisky",
+ "h1": "Batch records and traceability in a distillery",
+ "title": "Distillery batch records and tracing | Craft Beer School",
+ "desc": "What batch records a whisky distillery should keep from grain to bottle, how to link them and how to run a simple trace drill.",
+ "teaser": "If a bottle comes back with a problem, can you trace it to the cask, the still run and the grain lot? Most small distilleries cannot.",
+ "standfirst": "Traceability means any bottle can be followed back through every step to its raw materials. Any raw material can also be followed forward to every bottle. In whisky, that chain can stretch over many years. Here is what to record and how to keep the chain unbroken.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why traceability matters in whisky",
+   "<p>A problem found in a bottle today could come from grain milled years ago. Without records, you cannot say which other bottles share the same source. With them, you can isolate a batch, answer a regulator or prove an age statement. Food safety rules expect a manufacturer to trace products. Excise authorities track spirit in alcohol terms at every stage. Requirements vary by state and change, so check the current notification.</p><p>Records also make blending and quality control possible. You cannot repeat a good whisky if you do not know what went into it. Our guide to <a href=\"small-batch-whisky-blending-at-a-craft-distillery.html\">small batch blending</a> depends on this.</p>"
+  ],
+  [
+   "One code at every step",
+   "<p>The simplest system gives every lot a code and records which input codes it consumed:</p><ul><li><strong>Grain or malt lot</strong>: supplier, delivery date, certificate of analysis.</li><li><strong>Mash</strong>: grain lots used, water volume, temperatures, original gravity.</li><li><strong>Fermentation</strong>: mash code, yeast lot, temperature, duration, final gravity.</li><li><strong>Distillation</strong>: wash codes, low wines, cut points, spirit volume and strength.</li><li><strong>Cask fill</strong>: spirit run code, cask ID, volume, strength, litres of pure alcohol.</li><li><strong>Vatting and bottling</strong>: cask IDs, reduction water, filtration, bottling batch code.</li></ul><p>Each step names the codes it used. That is the whole idea.</p><p>Keep codes short and readable. A code such as a year, a step letter and a sequence number is easy to write on a cask head or a tank label without mistakes.</p>"
+  ],
+  [
+   "The distillation record",
+   "<p>The spirit run is where most of a whisky's character is set, so record it carefully: charge volume and strength, heat input, the time and strength at each cut, volumes of heads, heart and tails and where the heads and tails went. Feints are often recycled into the next spirit run. Record that too, because it links one run to the next. Our guide to <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs</a> shows how the same records feed yield figures.</p>"
+  ],
+  [
+   "Casks carry the long chain",
+   "<p>Once spirit is in a cask, the cask ID is the link for years. Every regauge, sample, move and transfer goes against that ID. Paint or stamp it on the cask head. Record it on the fill sheet the same day. A cask that loses its ID becomes a cask nobody can safely bottle as an aged whisky, because the age can no longer be proved.</p><p>When casks are vatted, the batch record lists every cask ID with its volume and strength at vatting. That is the point where many chains break in small distilleries: casks get emptied into a tank and someone writes the total but not the parts.</p>"
+  ],
+  [
+   "Paper, spreadsheet or software",
+   "<p>A paper record kept carefully beats software used carelessly. Many craft distilleries start with printed sheets for each step and a spreadsheet that links codes. That works into the low thousands of casks. Beyond that, a database or dedicated distillery software saves time, especially for searching backwards from a bottle.</p><p>Whatever the tool, the record must be made at the time by the person doing the work, then checked by someone else. Records filled in at the end of the week are memory, not data.</p><p>Back records up. A spreadsheet on one laptop in a hot distillery office is one dead hard drive away from losing years of cask history. Keep a copy off site. Keep paper originals in a dry, locked cabinet.</p>"
+  ],
+  [
+   "Bottling closes the loop",
+   "<p>Every bottle should carry a batch code that links to the bottling record. That record names the vatting, the reduction water, the filter, the closure lot, the bottle lot and the label lot. Packaging lots matter: a faulty batch of closures can taint whisky that was perfect in the cask. Keep retained samples of each bottling batch for at least as long as the product is likely to be on sale.</p>"
+  ],
+  [
+   "Test it with a trace drill",
+   "<p>A traceability system is only proven when you use it. Pick a bottle at random from stock. Using only the records, trace it back to the bottling batch, the casks, the spirit runs, the fermentations and the grain lots. Then go forward: pick a grain lot and find every cask and bottle it reached. Time how long each takes. If either takes more than a few hours, find the step where you got stuck and fix that record first.</p><p>This is also where a brewer's or distiller's data habits pay off. A record that links codes cleanly can answer questions nobody thought to ask when it was set up.</p>"
+  ],
+  [
+   "Do your first drill this month",
+   "<p>Set aside two hours. Pick one bottle and trace it back as far as your current records allow. Write down where the chain breaks. That break is your first fix. It is usually a single missing column on a single form.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is traceability in a distillery?",
+   "The ability to follow any bottle back to its casks, spirit runs and grain lots, plus any raw material forward to every bottle it reached."
+  ],
+  [
+   "What records should a distillery keep for each cask?",
+   "Cask ID, fill date, spirit run code, volume, strength, litres of pure alcohol, location and every regauge, sample or movement."
+  ],
+  [
+   "How do I test my traceability system?",
+   "Run a trace drill: pick a bottle and trace it back through the records, then pick a raw material lot and trace it forward. Time both."
+  ]
+ ],
+ "cta": {
+  "title": "Build records that stand up to scrutiny",
+  "body": "Craft Distilling is our four week live course (₹9,999), taught on weekend afternoons with recordings and a certificate. It covers production records, cask management and quality control across the process from grain to bottle.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "small-batch-whisky-blending-at-a-craft-distillery",
+  "distillery-kpis-for-analysts",
+  "sourcing-oak-casks-for-an-indian-distillery"
+ ]
+}

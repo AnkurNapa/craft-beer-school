@@ -1,0 +1,65 @@
+{
+ "slug": "planning-ventilation-and-co2-safety-in-brewery-cellars",
+ "cat": "Business",
+ "h1": "Planning ventilation and CO2 safety in brewery cellars",
+ "title": "CO2 Safety in Brewery Cellars | Craft Beer School",
+ "desc": "How much CO2 a fermentation releases, why it pools in cellars and how to plan extraction, detectors and alarms before a new brewery opens.",
+ "teaser": "Carbon dioxide has no smell and no colour. In a closed cellar it can reach dangerous levels without anyone noticing.",
+ "standfirst": "Every litre of beer you ferment gives off carbon dioxide. In a basement cellar or a sealed cold room it collects at floor level. This guide covers how much gas to expect and how to plan the room around it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "How much gas one batch makes",
+   "<p>Fermentation turns sugar into ethanol and carbon dioxide in roughly equal weights. A 1,000 litre batch of 5 percent ABV beer contains about 50 litres of ethanol, which weighs around 39 kg. That fermentation releases roughly 38 kg of CO2. At room temperature that is about 20 cubic metres of gas, most of it in the first three or four days.</p><p>Multiply by the number of fermenters running at once. A cellar with four tanks at high krausen is releasing far more gas than a small, closed room can dilute on its own. Add CO2 cylinders or a bulk tank for carbonation and dispense. A leaking fitting can add more at any hour of the day.</p>"
+  ],
+  [
+   "Why cellars and cold rooms are the risk",
+   "<p>CO2 is about one and a half times as dense as air. It does not mix away evenly. It flows down stairs, settles in pits and collects in the bottom metre of a room. A basement brewery, a sunken cellar or a walk-in cold room with a tight door is exactly where it builds up.</p><p>Fresh air holds a little over 400 ppm of CO2. The commonly used workplace exposure limit is 5,000 ppm averaged over an eight hour shift, with a short-term limit of 30,000 ppm over fifteen minutes. Above that, people get headaches, breathlessness and confusion. At high concentrations they collapse. The sad pattern in brewery accidents is a second person going in to help the first.</p>"
+  ],
+  [
+   "Extract low, supply high",
+   "<p>Because the gas sinks, extraction belongs near the floor. Put the extract grilles within about 300 mm of floor level, on the far side of the room from the fresh air inlet, so clean air sweeps across the space and pushes CO2 out. A fan high on the wall mostly removes warm air and leaves the gas where it was.</p><p>Better still, collect the gas at its source. Run blow-off hoses from fermenters into a manifold that vents outside, well away from windows and air intakes. That removes most of the load before it ever enters the room. Ask your HVAC engineer to size the extraction from your peak fermentation load and the room volume, not from a generic air-change figure.</p>"
+  ],
+  [
+   "Gas cylinders and dispense lines count too",
+   "<p>Fermentation is the big source, but it is not the only one. A single 30 kg CO2 cylinder holds about 16 cubic metres of gas once released. A failed regulator or a cut beer line in a small cellar can empty one quickly. Store full and empty cylinders upright, chained to a wall, in a ventilated space rather than inside the cold room if you can help it.</p><p>If you use mixed gas for nitro beers, the same thinking applies to nitrogen. It is lighter than CO2 and does not pool in the same way, but it still displaces oxygen in a closed room. Extraction and detection should cover every gas you store, not only the one fermentation makes.</p>"
+  ],
+  [
+   "Detectors and alarms that people trust",
+   "<p>Fixed CO2 detectors should be mounted low, in the zone where gas collects, with a display and alarm outside the room as well as inside. People need to know the air is bad before they open the door. Many breweries set a first alarm at the 5,000 ppm long-term limit and a second, louder one at a higher level that also starts the extract fans. Agree the exact set points with the detector supplier and any local rules.</p><p>Calibrate detectors on the schedule the maker gives and log every test. An alarm that goes off falsely twice a week gets ignored or unplugged. That is worse than no alarm, because people believe they are protected.</p>"
+  ],
+  [
+   "Rules for working in the room",
+   "<p>Hardware only works with habits behind it. The basics we teach every new team:</p><ul><li>Check the outside display before entering any cellar or cold room.</li><li>Never enter a fermenter, even an empty one, without a confined space procedure and a second person outside.</li><li>If someone collapses in a cellar, do not go in after them. Raise the alarm and ventilate.</li><li>Close cylinder valves at the end of the shift and leak test new fittings with soapy water.</li></ul><p>Our guide to <a href=\"brewery-safety-culture.html\">brewery safety culture</a> covers how to make these habits stick.</p>"
+  ],
+  [
+   "Build it in, then write it down",
+   "<p>Ventilation is far cheaper at the drawing stage than after opening, when ducts have to run through finished ceilings. Put CO2 extraction, blow-off routing and detector positions on the same drawings as the drains and the electrics. Then turn them into a one page site safety plan that every new hire reads on day one.</p><p>Fire and building approvals in most states will look at ventilation, but they may not ask specifically about fermentation gas. Do not wait for an inspector to raise it. The Brewery Business Management course covers site planning and safety alongside costing, so a founder can see where these decisions sit in the build.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much CO2 does a fermentation produce?",
+   "Roughly the same weight as the ethanol made. A 1,000 litre batch at 5 percent ABV releases around 38 kg, or about 20 cubic metres of gas at room temperature."
+  ],
+  [
+   "Where should CO2 detectors go?",
+   "Low down, where the gas collects, with a display and alarm outside the room so people can check before entering."
+  ],
+  [
+   "What CO2 level is dangerous?",
+   "The common workplace limit is 5,000 ppm over eight hours and 30,000 ppm over fifteen minutes. Levels above that cause symptoms quickly and very high levels can cause collapse."
+  ]
+ ],
+ "cta": {
+  "title": "Design a brewery that is safe from day one",
+  "body": "Brewery Business Management runs live on Saturdays and Sundays, 12:00 PM to 2:00 PM IST, for three weeks. Batches are capped at 20, every class is recorded and you finish with a certificate. The fee is ₹8,999. It covers site planning, safety systems and the costs behind them.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "brewery-safety-culture"
+ ]
+}

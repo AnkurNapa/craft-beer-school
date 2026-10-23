@@ -1,0 +1,71 @@
+{
+ "slug": "correcting-wort-gravity-readings-for-temperature",
+ "cat": "Brewing science",
+ "h1": "Correcting wort gravity readings for temperature",
+ "title": "Correcting Wort Gravity for Temperature | Craft Beer School",
+ "desc": "Why warm wort reads low on a hydrometer, how big the error gets at 30, 40 and 60 °C and the simplest way to get a gravity you can trust.",
+ "teaser": "A gravity read on warm wort is wrong before you write it down. Here is by how much.",
+ "standfirst": "Hydrometers are calibrated at one temperature. Read them on warm wort and you get a gravity that is too low, sometimes by a whole degree Plato. Here is the size of the error and how to correct it properly.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Warm wort is less dense",
+   "<p>Liquids expand as they warm. The same wort weighs less per litre at 40 °C than at 20 °C, so a hydrometer floats lower and reads a lower gravity. Nothing about the sugar has changed. Only the reading has.</p><p>Most brewing hydrometers and Plato scales are calibrated at 20 °C. Older specific gravity hydrometers, especially from the US or UK, may be calibrated at 15.6 °C (60 °F). Check the stem or the box. A correction table built for the wrong calibration temperature makes the problem worse.</p>"
+  ],
+  [
+   "How big the error gets",
+   "<p>Water density gives a good feel for the size of the correction. Compared with a reading at 20 °C, a sample at:</p><ul><li><strong>25 °C</strong> reads low by roughly 0.001 SG, about 0.3 °P.</li><li><strong>30 °C</strong> reads low by roughly 0.0025 SG, about 0.6 °P.</li><li><strong>40 °C</strong> reads low by roughly 0.006 SG, about 1.5 °P.</li><li><strong>60 °C</strong> reads low by roughly 0.015 SG, nearly 4 °P.</li></ul><p>Wort expands a little more than water, so the true correction is slightly larger, especially at higher gravities. These are guide figures, not a substitute for a proper table.</p><p>An Indian brewery floor in May can easily be at 32 °C. A sample cooled only to room temperature can still be 0.7 °P under. On a 12 °P lager that is a 6% error in the extract figure that feeds your <a href=\"measuring-brewhouse-yield-on-a-10-hl-brewpub-system.html\">brewhouse yield</a>.</p>"
+  ],
+  [
+   "Correction tables and calculators work, within limits",
+   "<p>Correction tables and online calculators add a temperature correction to your reading. They work well within about 10 °C of the calibration temperature. Beyond that, errors grow, because the correction assumes a particular wort composition and a hydrometer glass that behaves exactly as expected.</p><p>A worked example: you read 1.046 on a sample at 32 °C with a 20 °C hydrometer. The correction is about plus 0.003, so the true gravity is close to 1.049, roughly 12.2 °P. If you had logged 1.046, your yield calculation would understate extract by more than 5%.</p>"
+  ],
+  [
+   "Cooling the sample is the reliable fix",
+   "<p>The best correction is not to need one. Cool the sample to 20 °C before reading.</p><ol><li>Draw the sample into a clean stainless or glass container with a lid.</li><li>Stand it in iced water and stir with a thermometer.</li><li>Read the hydrometer once the sample is within 1 °C of the calibration temperature.</li></ol><p>A cooling coil or a small sample cooler on the brewhouse makes this a two minute job. The lid stops evaporation, which would otherwise concentrate the sample and push the reading up.</p>"
+  ],
+  [
+   "Refractometers and density meters",
+   "<p>A refractometer reads a drop of wort. Most have automatic temperature compensation, but that only works once the drop and the prism are at the same temperature. Put a drop of hot wort on a cold prism and wait 30 seconds before reading. Refractometers read in Brix, calibrated for sucrose, so wort usually needs a correction factor of about 1.02 to 1.04 to convert to Plato. Measure your own by reading the same cooled sample on both instruments.</p><p>Once fermentation starts, alcohol distorts refractometer readings. Our guide to <a href=\"correcting-refractometer-readings-once-fermentation-has.html\">correcting refractometer readings once fermentation has started</a> covers that problem.</p><p>Digital density meters with an oscillating U-tube measure temperature and correct automatically. They are the most reliable option if the budget allows, though they still need the sample free of bubbles and solids.</p>"
+  ],
+  [
+   "Calibrate the instrument too",
+   "<p>A hydrometer can be wrong even at the right temperature. Check it once a month in distilled water at 20 °C. It should read 1.000 or 0 °P. If it reads 1.001, subtract that from every reading. Glass hydrometers break. Replacements from different makers do not always agree.</p><p>Write the calibration check in the lab log. It takes two minutes and saves weeks of chasing phantom yield problems.</p>"
+  ],
+  [
+   "Gravity feeds everything downstream",
+   "<p>Original gravity sets your ABV, your extract figures, your yield and the starting point of every <a href=\"reading-a-fermentation-curve.html\">fermentation curve</a>. An error at the start runs through the whole batch record. When numbers do not add up, a warm gravity reading is one of the first things we check.</p><p>Building a set of habits where every reading is taken the same way is less exciting than buying instruments. It also gets you further, faster.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Take your next knockout sample and read it twice: once at whatever temperature it reaches in five minutes on the bench and once properly cooled to 20 °C. Note both. The difference is the error your brew sheets have been carrying.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does warm wort give a low hydrometer reading?",
+   "Warm wort is less dense than the same wort at 20 °C, so the hydrometer floats lower and reads a lower gravity."
+  ],
+  [
+   "What temperature are hydrometers calibrated at?",
+   "Most brewing hydrometers are calibrated at 20 °C. Some older specific gravity hydrometers use 15.6 °C (60 °F). Check yours."
+  ],
+  [
+   "Can I use a correction table instead of cooling?",
+   "Within about 10 °C of the calibration temperature, yes. For hot samples, cooling to 20 °C is more reliable."
+  ]
+ ],
+ "cta": {
+  "title": "Build brewery numbers you can trust",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers lab measurement, extract calculations and process data, so every number on your brew sheet means what it says.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "correcting-refractometer-readings-once-fermentation-has",
+  "wort-aeration-and-oxygen",
+  "reading-a-fermentation-curve"
+ ]
+}

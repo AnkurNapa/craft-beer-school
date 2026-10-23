@@ -1,0 +1,67 @@
+{
+ "slug": "cask-filling-and-gauging",
+ "cat": "Whisky",
+ "h1": "Cask filling and gauging",
+ "title": "Cask Filling and Gauging | Craft Beer School",
+ "desc": "How casks are filled and gauged in a whisky distillery, from weighing and strength to bulk litres and LPA, with a worked example and record checklist.",
+ "teaser": "Gauging a cask means knowing exactly how much alcohol went in. Every stock figure for the next decade starts with that number.",
+ "standfirst": "Filling a cask looks simple: spirit goes in, a bung goes on. The record made at that moment is what every later stock check, loss figure and excise return is measured against. Here is how filling and gauging work and how to get them right.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Before the spirit goes in",
+   "<p>Filling starts with the empty cask. Check it for soundness, smell it for off notes and look for loose hoops or damaged staves. A dry cask may need swelling with water before it will hold spirit, which matters in Indian heat where empty casks dry out quickly. Our guide to <a href=\"cask-inspection-before-filling.html\">cask inspection before filling</a> covers the checks in detail.</p> <p>Weigh the empty cask and record the tare weight. Do it after any swelling water has been drained out, or the tare will include water that is not there once the spirit goes in. Give the cask a unique number and record its type, previous contents, fill number and size.</p>"
+  ],
+  [
+   "Filling to a target",
+   "<p>Fill from the spirit vat through a filling head, usually by weight on a platform scale or by meter. Most distilleries do not fill completely to the bung. A small headspace allows for expansion as the warehouse warms. A 200 litre barrel might take a little less than its nominal capacity, depending on house practice. Wipe spills straight away, since a filling store is a flammable vapour area.</p> <p>Fit the bung firmly. Write or stencil the cask number, fill date and distillery mark on the cask end. In many distilleries a barcode or RFID tag now goes on too, which ties the physical cask to its record.</p>"
+  ],
+  [
+   "Gauging by weight",
+   "<p>Gauging means measuring how much alcohol a cask holds. Weighing is more accurate than measuring volume, because casks vary in shape and capacity. The steps are:</p> <ol><li>Weigh the full cask (gross weight).</li> <li>Subtract the tare to get the net weight of spirit.</li> <li>Measure the strength of the spirit as filled, corrected to the reference temperature.</li> <li>Use the density of spirit at that strength to convert weight to bulk litres.</li> <li>Multiply bulk litres by ABV to get litres of pure alcohol (LPA).</li></ol> <p>Worked example: a net weight of 180 kg at 63.5% ABV. Spirit at that strength has a density of about 0.90 kg per litre at 20 °C, so 180 / 0.90 is about 200 bulk litres. Multiply by 0.635 and the cask holds about 127 LPA. Use proper density tables in practice rather than a rounded figure.</p>"
+  ],
+  [
+   "The record that follows the cask",
+   "<p>Every filled cask should have a record that captures at least:</p> <ul><li>Cask number, type, size, previous contents and fill number.</li> <li>Spirit batch or run number and distillation date.</li> <li>Fill date, tare, gross and net weight.</li> <li>Filling strength, bulk litres and LPA.</li> <li>Warehouse, row and position.</li></ul> <p>This record becomes the starting point for every regauge, loss calculation and blending decision afterwards. A spreadsheet works for a few hundred casks. Beyond that a proper cask management system saves a great deal of searching. Our guide to <a href=\"cask-management-systems-and-inventory-tracking.html\">cask management systems</a> looks at the options.</p>"
+  ],
+  [
+   "Excise and the bonded warehouse",
+   "<p>Filled casks sit in a bonded warehouse, where spirit is held under excise control. The gauge at filling is the figure the authorities and your own accounts measure later losses against. In India the paperwork, permitted loss allowances and inspection routine depend on the state rules and your licence conditions. Some states expect to see filling records countersigned, others check them at audit. Ask your licensing adviser which records must be kept and in what form before your first fill.</p>"
+  ],
+  [
+   "Scales and meters that you can trust",
+   "<p>A gauge is only as good as the scale and strength reading behind it. Have platform scales calibrated by an accredited agency at the interval your rules require and check them daily with a known test weight. Keep the hydrometers or density meter used at filling on the same check routine as the rest of the lab.</p> <p>Temperature matters on filling day as much as in the lab. Spirit straight from a warm stillhouse is less dense, so measure its temperature with the strength and correct both. A density figure taken from a table at the wrong temperature turns a correct weight into a wrong number of litres.</p> <p>Small errors compound across a warehouse. A scale reading 1 kg light on every cask understates 1,000 casks by about 1,000 kg of spirit. Learning to run filling, gauging and stock records as one system, rather than three separate jobs, is a large part of what makes a distillery manageable.</p>"
+  ],
+  [
+   "Start with the next ten casks",
+   "<p>On your next filling day, take ten casks and redo the gauge calculation by hand from the tare, gross weight and strength. Compare your LPA with the figure in the system. If they differ by more than a fraction of a litre, find the cause before the next fill.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does gauging a cask mean?",
+   "Measuring how much spirit and how much pure alcohol a cask holds, usually by weighing it full and empty and measuring strength."
+  ],
+  [
+   "Why are casks gauged by weight rather than volume?",
+   "Casks vary in shape and capacity, so weighing gives a more accurate result. Weight is converted to bulk litres using the density of spirit at its measured strength."
+  ],
+  [
+   "Do you fill a whisky cask right to the top?",
+   "Usually not quite. A small headspace allows the spirit to expand as the warehouse warms."
+  ]
+ ],
+ "cta": {
+  "title": "Run a warehouse your stock figures can rely on",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers cask filling, gauging, maturation and the records that tie your stock, losses and excise returns together.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cask-filling-strength-and-why-63-5-percent-is-common",
+  "cask-inspection-before-filling",
+  "how-whisky-is-made"
+ ]
+}

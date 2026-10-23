@@ -1,0 +1,71 @@
+{
+ "slug": "whisky-price-architecture",
+ "cat": "Whisky",
+ "h1": "Whisky price architecture",
+ "title": "Whisky Price Architecture in India | Craft Beer School",
+ "desc": "How whisky price architecture works in India: how shelf prices are built, duty slabs, price ladders by tier and pack and changing a price.",
+ "teaser": "A whisky's shelf price is mostly decided by the state, not the brand. Here is how to build a price ladder that still makes sense.",
+ "standfirst": "Price architecture is the planned set of price points across a company's brands, packs and markets. In Indian whisky it is shaped as much by state excise as by brand strategy. This guide shows how a shelf price is built and how teams keep a price ladder coherent across many states.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Price architecture is a ladder with planned gaps",
+   "<p>Price architecture means placing every brand and pack at a deliberate price point, so each one has a clear role and they do not steal sales from each other by accident. Think of a ladder. Each rung is a price point. The gaps between rungs should be big enough that a consumer sees a reason to step up and small enough that the step feels possible.</p><p>In whisky, the ladder runs across tiers from regular to luxury and across pack sizes from small bottles to 750 ml and larger. Our guide to <a href=\"whisky-portfolio-tiers-from-regular-to-prestige.html\">whisky portfolio tiers</a> explains the tiers themselves.</p>"
+  ],
+  [
+   "How a shelf price is built in India",
+   "<p>A whisky's maximum retail price in an Indian state is usually built in layers:</p><ol><li><strong>The producer's price</strong>, often declared as an ex-distillery price, covering liquid, packaging, overheads and margin.</li><li><strong>Excise duty and other state levies</strong>, calculated by the state's own formula.</li><li><strong>Wholesale margin</strong>, taken by a state corporation or a licensed distributor.</li><li><strong>Retail margin</strong> for the shop.</li><li><strong>VAT or sales tax</strong> levied by the state, since alcohol sits outside GST.</li></ol><p>In many states, taxes make up a larger share of the shelf price than the producer's price. That means the brand team controls only one layer of the final number. Many states fix or approve the maximum retail price as part of brand registration. Rules vary by state and change, so pricing teams work from the current notification.</p>"
+  ],
+  [
+   "Duty slabs create cliffs in the ladder",
+   "<p>Many states charge duty in slabs based on the declared price. Crossing a slab boundary can raise the shelf price by far more than the change in the producer's price. So the price ladder is not a smooth line. It has cliffs.</p><p>Here is an illustrative example with made-up numbers. If a slab boundary sits just above a brand's current declared price, a small increase to cover rising glass costs could push it into the next slab. The shelf price could jump into the band of a higher tier, where it competes with stronger brands at the same price. Sometimes absorbing the cost or changing the pack is the better choice. Good pricing teams always know where the nearest slab boundary is.</p>"
+  ],
+  [
+   "Pack sizes need their own ladder",
+   "<p>Small packs such as 180 ml bottles let a consumer buy a known brand for less money at one time. They are the entry point for much of the regular tier. Larger packs usually offer a lower price per millilitre, which rewards buying more at once.</p><p>Check the ladder per millilitre as well as per bottle. If a 375 ml costs more than half a 750 ml by a large margin, consumers notice. If it costs less, the bigger bottle loses its reason to exist. Rounding rules for the maximum retail price can push packs out of line, so review them together, not one at a time.</p>"
+  ],
+  [
+   "Promotions work differently here",
+   "<p>In many markets, brands move volume with shelf discounts and multi-buy offers. In India that is often harder. Where the maximum retail price is fixed or approved by the state and retail is run or tightly licensed by it, there may be little room for a temporary price cut at the shelf. Rules differ by state, so check before planning any promotion.</p><p>So brands lean on other levers within the rules: gift packs at festive times, pack size choices, availability and trade relationships with bars and shops. For price architecture this means the ladder you set is the ladder consumers see for a long time. There is less chance to correct a badly placed price with a quick promotion, so it pays to get the placement right first.</p>"
+  ],
+  [
+   "The same brand sits at different prices across states",
+   "<p>Because duty structures differ, the same whisky can have very different shelf prices in neighbouring states. A brand that sits in the middle of the ladder in one state may sit near the top in another, competing against a different set of rivals. Large price gaps across borders also tempt illegal movement of stock, which states watch closely. Our guide on <a href=\"why-the-same-whisky-costs-differently-across-indian-states.html\">why the same whisky costs differently across states</a> explains the mechanics.</p><p>So there is no single national price architecture. There is a set of state ladders. The brand strategy has to work on each of them.</p>"
+  ],
+  [
+   "Changing a price is a process, not a decision",
+   "<p>In many states a price change means applying to the excise department, getting the new price approved and often printing new labels showing the new maximum retail price. Old stock with the old price may need to be sold through or relabelled. Changes are often timed around the start of the excise year.</p><p>That makes price moves slow and expensive to reverse. It also means a sudden rise in input costs cannot always be passed through quickly. Teams that plan price changes a year ahead, state by state, avoid the scramble.</p>"
+  ],
+  [
+   "A first step: rebuild the ladder in one table",
+   "<p>Choose your three biggest states. For each, list every brand and pack you sell with its maximum retail price, price per 750 ml equivalent and the duty slab it sits in. Mark the nearest slab boundary above each one. The table will show which brands have room to move, which are one cost increase away from a cliff and where your own brands are crowding each other.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is price architecture in whisky?",
+   "The planned set of price points across a company's brands, pack sizes and markets, designed so each product has a clear role and the gaps between them make sense."
+  ],
+  [
+   "Who sets the retail price of whisky in India?",
+   "The producer declares a price, but state excise duty, levies, trade margins and VAT are added on top. Many states fix or approve the final maximum retail price."
+  ],
+  [
+   "Why can a small price increase cause a big jump on the shelf?",
+   "Many states charge duty by price slab. Crossing a slab boundary can raise the duty by much more than the original change. The shelf price follows."
+  ]
+ ],
+ "cta": {
+  "title": "Price ladders nobody on the team can explain?",
+  "body": "Our Route to market and regulation in India module takes pricing, finance and sales teams through how shelf prices are built, duty slabs and state approvals. We build it around your team's own portfolio and states.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "how-whisky-is-made",
+  "malt-grain-and-blended-whisky",
+  "whisky-styles-of-the-world"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "distillery-layout-for-good-process-flow",
+ "cat": "Whisky",
+ "h1": "Distillery layout for good process flow",
+ "title": "Distillery Layout for Good Process Flow | Craft Beer School",
+ "desc": "How to lay out a craft whisky distillery for clean process flow: grain to cask in one direction, hazardous areas, excise and growth.",
+ "teaser": "A good layout moves grain in one end and casks out the other. A bad one has hoses across walkways for decades.",
+ "standfirst": "Distillery layout decides how hard every working day will be. A clear flow from grain to cask makes the plant safer, easier to clean and easier for the excise officer to control. Here is how to plan it before the walls go up.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Follow the process in one direction",
+   "<p>The simplest rule is that material should move one way through the building. Grain arrives, gets milled, mashed, fermented, distilled, filled into casks and sent to the warehouse. Each step should sit next to the one before it.</p><p>A typical sequence looks like this:</p><ol><li>Grain intake and storage</li><li>Milling</li><li>Mash tun and hot water tank</li><li>Wort cooling and washbacks</li><li>Wash still and spirit still</li><li>Spirit safe, receivers and spirit store</li><li>Cask filling</li><li>Warehouse</li></ol><p>When steps sit in order, pipe runs are short, pumping costs less and fewer hoses cross the floor. Short runs also mean less hold-up of liquid in pipes and easier cleaning.</p>"
+  ],
+  [
+   "Keep dust away from vapour",
+   "<p>Two hazards in a distillery must be kept apart. Grain milling creates fine dust, which can be explosive in the right concentration. Spirit handling creates ethanol vapour, which is flammable. Ethanol has a flash point of around 13 °C, well below normal Indian temperatures, so vapour from spilled spirit can ignite easily.</p><p>Put the mill in its own room or building, with dust extraction, away from the still house. Keep spirit handling areas well ventilated and classified for hazardous atmospheres. Our guide to <a href=\"ethanol-vapour-and-ignition-sources-in-a-distillery.html\">ethanol vapour and ignition sources</a> explains why both risks matter.</p>"
+  ],
+  [
+   "Use gravity where you can",
+   "<p>Many traditional distilleries use height to move liquids. Grain is lifted once to the top, then mash, wort and wash flow down through the plant by gravity. Modern craft distilleries usually rely on pumps, but gravity still helps in places, for example from the spirit safe to the receivers or from the receivers to the filling store.</p><p>Plan ceiling heights early. Stills with tall necks and lyne arms need vertical space. Washbacks need room for access from above for cleaning and inspection.</p>"
+  ],
+  [
+   "Design for excise control",
+   "<p>The excise department controls spirit from the moment it leaves the still. Your layout must support that control. Spirit pipes usually run to a locked spirit safe and then to locked receivers. The spirit store and warehouse need secure, controlled access. Measuring points for strength and volume should be easy for both your team and the excise officer to reach.</p><p>Keep the bonded areas compact and clearly marked. Every extra door or connection is something to secure and record. Our guide to <a href=\"the-distillery-licence-process-in-india.html\">the distillery licence process</a> covers the approvals that inspect this.</p>"
+  ],
+  [
+   "Plan utilities, drains and cleaning",
+   "<p>Utilities need their own space close to where they are used. The steam boiler should be near the stills and mash tun but separated from spirit handling areas. Cooling water lines to the condensers need short, direct runs. Compressed air, electrical panels and control rooms need dry, safe locations.</p><p>Floors should slope to drains, with effluent kept separate from surface water. Pot ale and spent lees must go to treatment, not to storm drains. Plan cleaning access around every vessel. A washback you cannot reach is one you cannot clean properly.</p>"
+  ],
+  [
+   "Warehouse, dispatch and growth",
+   "<p>The warehouse should sit at the end of the flow, with a direct route from the filling store. Plan access for forklifts and space for racks or pallets. In India's heat, orientation, insulation and ventilation affect losses and maturation, so think about the warehouse as carefully as the still house. Our guide to <a href=\"process-water-and-reduction-water-in-a-distillery.html\">process water and reduction water</a> covers another flow that needs planning: water in and effluent out.</p><p>Most craft distilleries expand. Leave space beside the stills for a second pair, beside the washbacks for more vessels and around the warehouse for more buildings. Size drains, utilities and access roads for that future plant, because they are the hardest things to change later.</p>"
+  ],
+  [
+   "Sizing the rooms",
+   "<p>Each step needs space beyond the vessel itself. Allow room around every tank for access, valves, pumps and cleaning. Stills and pumps need the most clearance, because they are the items most often opened for maintenance. Check the specific clearances your equipment supplier recommends.</p><p>Washbacks take more floor area than most founders expect. If you mash daily and ferment for 72 hours, you need at least four washbacks so one is always free. Leave room for more if fermentation times grow. Stills need room for the lyne arm, the condenser and the spirit safe, plus space to remove a condenser for repair.</p><p>Draw every vessel at scale before you fix wall positions. Changing a drawing costs nothing. Moving a wall after the stills arrive costs a great deal.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Draw a simple block plan with one box for each step in the process, in order. Draw arrows for grain, wort, wash, spirit, water, steam and effluent. Wherever arrows cross or double back, rethink the layout. Knowing what each vessel needs, in volume, access and connections, is what turns a block plan into a working distillery.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the right order for a distillery layout?",
+   "Grain intake, milling, mashing, fermentation, distillation, spirit store, cask filling and warehouse, with each step next to the one before it."
+  ],
+  [
+   "Why keep the mill separate from the stills?",
+   "Grain dust can be explosive and ethanol vapour is flammable. Separating the two reduces the risk of either igniting."
+  ],
+  [
+   "How does excise affect distillery layout?",
+   "Spirit must be secured from the still onward, so the spirit safe, receivers, store and warehouse need locked, controlled access and easy measuring points."
+  ]
+ ],
+ "cta": {
+  "title": "Plan your plant around the process",
+  "body": "Craft Distilling is our four week live course (₹9,999), on Saturday and Sunday afternoons with recordings and weekly assignments. It explains what every vessel and step needs, so your layout supports the process instead of fighting it.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "process-water-and-reduction-water-in-a-distillery",
+  "the-distillery-licence-process-in-india",
+  "distillery-kpis-for-analysts"
+ ]
+}

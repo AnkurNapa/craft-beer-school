@@ -1,0 +1,71 @@
+{
+ "slug": "bacteria-in-long-whisky-fermentations",
+ "cat": "Whisky",
+ "h1": "Bacteria in long whisky fermentations",
+ "title": "Bacteria in Long Whisky Fermentations | Craft Beer School",
+ "desc": "Which bacteria grow in long malt whisky fermentations, how lactic bacteria add fruit to new make and the signs that a wash has gone too far.",
+ "teaser": "In a brewery, bacteria in the fermenter is a disaster. In a whisky washback, a little of the right kind is part of the recipe.",
+ "standfirst": "Malt whisky wort is never boiled, so bacteria ride into every washback. In a long fermentation some of them shape the spirit for the better. Others ruin it. Here is how to tell the difference and keep the balance.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why bacteria are always there",
+   "<p>A brewer boils wort, which kills almost everything in it. A malt distiller does not. The wort goes from the mash tun through a heat exchanger into the washback at around 16 to 20 °C, carrying whatever bacteria survived the mash and whatever lives in the pipework and vessels. Our guide to <a href=\"mashing-for-malt-whisky-and-why-the-wort-is-never-boiled.html\">why whisky wort is never boiled</a> explains the reasons.</p><p>Early in fermentation the yeast dominates. It grows fast, uses the oxygen, drops the pH and builds alcohol. Most bacteria sit quietly in the background. The picture changes once the yeast runs out of sugar.</p>"
+  ],
+  [
+   "Lactic bacteria take over late",
+   "<p>After roughly two days, yeast activity slows and the yeast starts to die back. Lactic acid bacteria, mostly Lactobacillus species, tolerate the alcohol and acidity and begin to grow. They feed on sugars the yeast left behind and on nutrients released from dying yeast cells. They produce lactic acid, which lowers the pH further.</p><p>This late lactic phase is part of why long fermentations, often 70 hours or more, give a different spirit from short ones. Acids from the bacteria react with alcohol to form esters, both in the wash and in the still. Distillers link a healthy late lactic phase with a fruitier, more complex new make. Our guide to <a href=\"fermentation-length-and-its-effect-on-new-make.html\">fermentation length and its effect on new make</a> covers the trade-offs.</p>"
+  ],
+  [
+   "Good bacteria and bad bacteria",
+   "<p>The difference is less about species than about timing and numbers. Lactic bacteria that grow after the yeast has done its work cost little alcohol and add character. The same bacteria growing early, before the yeast takes hold, compete for sugar and cut yield. That usually means the wort went into the washback carrying a heavy load from dirty kit.</p><p>Some contaminants are unwelcome at any point. Acetic acid bacteria turn alcohol into vinegar if they get oxygen, which is why a wash left open too long smells sharp. Other bacteria can make butyric acid, which smells of rancid butter, or compounds that give a harsh, peppery burn in the spirit. Those faults carry through the still.</p>"
+  ],
+  [
+   "The numbers to watch",
+   "<p>You cannot see bacteria, but you can see what they do. Track these for every washback:</p><ul><li><strong>Gravity.</strong> A wash that stops falling early, with sugar left over, suggests competition or a struggling yeast.</li><li><strong>pH.</strong> It drops during fermentation as yeast and bacteria make acid. A wash that ends far more acidic than your usual run has had too much bacterial activity.</li><li><strong>Alcohol.</strong> A wash that finishes well below its usual ABV from the same wort gravity has lost sugar to something other than yeast.</li><li><strong>Smell.</strong> Fruity and clean is good. Vinegar, sour milk, rancid butter or cabbage is not.</li></ul><p>Keep these in one log. Our guide to <a href=\"forecasting-whisky-with-long-lead-times.html\">forecasting whisky with long lead times</a> shows why a batch history matters years later, when that new make finally comes out of the cask.</p>"
+  ],
+  [
+   "Hygiene decides which bacteria win",
+   "<p>The aim is not sterility. It is control. A distillery that cleans its heat exchanger, wort lines and washbacks properly starts every fermentation with a low, predictable bacterial load. The yeast gets established first and the lactic bacteria arrive on cue. A distillery with a dirty heat exchanger feeds a large population into every fill. Those bacteria compete with the yeast from the first hour.</p><p>The floor detail we would put first: the wort heat exchanger. It sits at the perfect temperature for bacteria, it is hard to inspect and it touches every litre of wort. Clean it after every use, check plates or tubes on a schedule and do not assume a CIP cycle has reached every corner.</p>"
+  ],
+  [
+   "Long fermentations in Indian heat",
+   "<p>Bacteria grow faster in warmth. In a hot Indian washback, the lactic phase starts sooner and runs harder. A fermentation length that gives pleasant fruit in a cool climate can tip into sourness here. Shorten the fermentation, cool the washback or tighten cleaning until the end pH and smell come back into line. In summer, review all three.</p><p>Wooden washbacks deserve extra care in heat, because the wood holds a resident population between fills. See <a href=\"wooden-versus-stainless-steel-washbacks.html\">wooden versus stainless steel washbacks</a>. Managing a living mix of yeast and bacteria by numbers and smell is a skill built over many batches. It is far quicker to learn with someone walking you through it.</p>"
+  ],
+  [
+   "Start a pH log tomorrow",
+   "<p>From your next fill, measure the pH of every washback at pitching and again just before it goes to the still, with a calibrated meter. Note the fermentation length and temperature beside each pair. After two weeks, look for the washbacks that end lowest. Smell the next wash from each one and check its heat exchanger route first.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Are bacteria in a whisky washback always bad?",
+   "No. Lactic bacteria growing late in a long fermentation are widely credited with adding fruity character. Bacteria growing early or in large numbers cut yield and can add faults."
+  ],
+  [
+   "Which bacteria grow in whisky fermentations?",
+   "Lactic acid bacteria, mostly Lactobacillus species, are the main group late in fermentation. Acetic acid bacteria and other spoilage organisms are unwelcome."
+  ],
+  [
+   "How can I tell if a wash has too much bacteria?",
+   "Look for unusually low pH, lower alcohol than normal, sugar left over and sour, vinegary or rancid smells."
+  ],
+  [
+   "What is the most common source of contamination?",
+   "Poorly cleaned wort lines and heat exchangers are common culprits, because they touch every litre of wort at a temperature bacteria like."
+  ]
+ ],
+ "cta": {
+  "title": "Keep your washbacks on your side",
+  "body": "Craft Distilling is our four week live course (₹9,999), Saturdays and Sundays with recordings and a certificate. It covers fermentation microbiology, hygiene and washback control for malt whisky, so you can use lactic character on purpose and spot trouble early.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "storing-an-opened-whisky-bottle",
+  "what-a-long-finish-means-in-whisky",
+  "forecasting-whisky-with-long-lead-times"
+ ]
+}

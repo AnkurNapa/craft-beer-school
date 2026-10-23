@@ -1,0 +1,67 @@
+{
+ "slug": "fermenting-high-adjunct-worts-in-indian-breweries",
+ "cat": "Brewing science",
+ "h1": "Fermenting high-adjunct worts in Indian breweries",
+ "title": "Fermenting High-Adjunct Worts in India | Craft Beer School",
+ "desc": "Why rice and maize worts ferment differently, the FAN, zinc and oxygen targets that keep them healthy and how Indian heat changes the picture.",
+ "teaser": "Rice and maize make a clean, light lager. They also starve your yeast of nitrogen unless you plan for it.",
+ "standfirst": "High-adjunct lagers dominate the Indian market for good reasons: they are light, crisp and cheaper to brew. The wort they make is a harder place for yeast to work. Here is what changes in the fermenter and how to keep it on track.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Adjuncts dilute everything except sugar",
+   "<p>Rice and maize are mostly starch. Once cooked and converted in the mash they add fermentable sugar, but almost nothing else: very little free amino nitrogen (FAN), few vitamins, little zinc and few lipids. Every kilogram of adjunct that replaces malt dilutes the nutrients yeast relies on.</p><p>An all-malt wort at 12 °P often carries well over 200 mg/L of FAN. Swap 30 to 40% of the malt for rice and that figure can fall towards or below the 150 mg/L many brewers treat as a comfortable minimum for a normal gravity lager. Our guide to <a href=\"low-fan-worts-from-high-rice-grists-and-how-to-correct-them.html\">low FAN worts from high rice grists</a> covers the mash-side fixes.</p>"
+  ],
+  [
+   "What low nitrogen does in the fermenter",
+   "<p>Yeast short of nitrogen grows less, so you end up with fewer cells doing the same work. Fermentation starts normally, then slows in the second half. Gravity crawls down the last few points.</p><p>The flavour cost is specific. Yeast short of the amino acid valine makes more of it from scratch, which produces more alpha-acetolactate, the precursor of diacetyl. Low nitrogen also tends to raise higher alcohols and hydrogen sulphide. A high-adjunct lager that smells of butter or eggs at the end of primary often has a nitrogen problem, not a yeast strain problem.</p>"
+  ],
+  [
+   "Zinc, oxygen and pitching rate",
+   "<p>Three levers help most.</p><ul><li><strong>Zinc.</strong> Yeast needs it for the enzymes of alcohol fermentation. Adjuncts bring almost none. Many brewers dose a yeast nutrient in the last minutes of the boil to reach roughly 0.1 to 0.2 mg/L in the wort.</li><li><strong>Oxygen.</strong> Yeast uses oxygen at pitching to build sterols and unsaturated fatty acids for new cell membranes. Rice wort is lipid-poor, so oxygen matters even more. Aim for about 8 to 10 mg/L dissolved oxygen in cold wort.</li><li><strong>Pitch rate.</strong> For lager, the common rule is about 1.5 million cells per mL per °P. A 12 °P wort wants around 18 million cells per mL. Under-pitching a thin wort is the most common cause of slow finishes.</li></ul>"
+  ],
+  [
+   "High gravity brewing adds pressure",
+   "<p>Larger breweries often brew high gravity, at 15 to 16 °P or more, then dilute with deaerated water after fermentation. It stretches fermenter capacity. It also concentrates the stress: more alcohol at the end, higher osmotic pressure at the start and the same nutrient gap scaled up.</p><p>At high gravity, raise the pitch in proportion to the Plato, oxygenate fully and keep a close eye on yeast viability when you repitch. Yeast from a 16 °P fermentation has worked harder than yeast from an 11 °P one. Track the generation number and pull the slurry earlier than you would for an all-malt beer.</p>"
+  ],
+  [
+   "Indian heat makes a weak fermentation worse",
+   "<p>A slow fermentation is a risk anywhere. In a brewery where the ambient air sits above 30 °C for months, it is a bigger one. Glycol plants run at full load, jackets struggle with the heat of an active ferment and a sluggish lager lingers in the tank longer while bacteria have a better chance.</p><p>Heat also affects the brewhouse side. Cooked rice mash held warm waiting for the malt mash is a perfect home for lactic bacteria if the transfer is delayed. Keep the cereal cooker to schedule and never let adjunct mash sit below 70 °C for long.</p><p>Keep lager fermentation in the usual 9 to 13 °C window and check that your chilling can hold it at peak activity. A healthy high-adjunct ferment gives off a lot of heat on day two and three. Our guide to <a href=\"fermenting-through-an-indian-summer.html\">fermenting through an Indian summer</a> covers the cooling side.</p>"
+  ],
+  [
+   "Read the fermentation, not just the recipe",
+   "<p>The signs of a nitrogen-starved adjunct ferment show up in data long before they show up in a tasting. Gravity falls on schedule for three days, then the curve flattens. The pH drop is shallower than usual. Diacetyl hangs on after a normal rest. A brewer logging daily gravity and pH sees it coming. One checking only at day seven sees it too late.</p><p>Connecting the mash, the wort analysis and the yeast's behaviour is exactly where a high-adjunct brewery's quality is won or lost. It is also what most brewers learn by trial and error.</p><p>Your first step: ask your lab or an outside lab for a FAN figure on your next cast wort. If it comes back under 150 mg/L, you know where to start.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What FAN level does a high-adjunct wort need?",
+   "Many brewers treat about 150 mg/L as a comfortable minimum for a normal gravity lager. High gravity worts need proportionally more."
+  ],
+  [
+   "Why does my rice lager taste buttery?",
+   "Low nitrogen makes yeast produce more alpha-acetolactate, which becomes diacetyl. Check FAN, pitching rate and the diacetyl rest before blaming the strain."
+  ],
+  [
+   "Do rice and maize add zinc to wort?",
+   "Almost none. Most of the zinc comes from malt, so high-adjunct breweries often add a yeast nutrient late in the boil."
+  ],
+  [
+   "Should I oxygenate rice wort more than all-malt wort?",
+   "Aim for the normal 8 to 10 mg/L, but do not skimp. Rice wort carries few lipids, so yeast depends on oxygen to build healthy membranes."
+  ]
+ ],
+ "cta": {
+  "title": "Keep high-adjunct fermentations healthy",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers wort nutrition, yeast metabolism and fermentation control for the rice and maize grists Indian breweries actually run.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "fermenting-through-an-indian-summer",
+  "low-fan-worts-from-high-rice-grists-and-how-to-correct-them",
+  "using-exogenous-enzymes-in-high-adjunct-brewing-in-india"
+ ]
+}

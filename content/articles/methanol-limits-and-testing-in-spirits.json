@@ -1,0 +1,71 @@
+{
+ "slug": "methanol-limits-and-testing-in-spirits",
+ "cat": "Whisky",
+ "h1": "Methanol limits and testing in spirits",
+ "title": "Methanol Limits and Testing in Spirits | Craft Beer School",
+ "desc": "Where methanol in spirits comes from, why grain whisky carries little, how limits are expressed and how a distillery should test for it.",
+ "teaser": "Methanol in a properly made whisky is low. The trouble is that you cannot smell the difference, so you test.",
+ "standfirst": "Methanol is the one congener every distiller is asked about. In grain whisky it is low by nature, but the only honest answer to how much is a lab result. This guide covers where it comes from, how limits work and what a sensible testing routine looks like.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Methanol comes from pectin, not from bad luck",
+   "<p>Yeast does not make methanol in any real amount. It forms when enzymes called pectin methylesterases strip methyl groups off pectin, the gum that holds plant cell walls together. Fruit is full of pectin, which is why fruit brandies and pomace spirits carry far more methanol than grain spirits. Malted barley, maize and wheat have very little.</p><p>So a malt whisky made from a clean grain mash starts with little methanol to worry about. Cane and molasses spirits sit low too. The risk climbs when fruit, fruit pulp or pectin rich material goes into the fermenter, or when someone adds industrial methanol on purpose, which is how illicit liquor poisonings happen.</p>"
+  ],
+  [
+   "Cutting foreshots does not remove all of it",
+   "<p>Methanol boils at 64.7 °C, below ethanol at 78.4 °C, so it is easy to assume it all comes off first. In a real still it does not behave that neatly. Methanol mixes completely with water and its behaviour in the boiling mixture means it tends to spread across the run, with a share turning up in the hearts and tails.</p><p>Cutting foreshots is still good practice: they carry acetone, acetaldehyde and other volatile material you do not want. But treat the foreshots cut as a quality step rather than a methanol guarantee. Our guide to <a href=\"foreshots-methanol-and-distillery-safety.html\">foreshots, methanol and distillery safety</a> covers the still side in more detail.</p>"
+  ],
+  [
+   "How limits are written",
+   "<p>Limits are usually given in grams per hectolitre of absolute alcohol (g/hl AA), so a strong cask sample and a bottled whisky are judged on the same basis. European Union spirit rules give useful reference points: vodka may contain no more than 10 g/hl AA of methanol, while fruit spirits are allowed up to 1,000 g/hl AA. That hundredfold spread shows how much the raw material matters.</p><p>In India, the Food Safety and Standards Authority of India (FSSAI) sets standards for alcoholic beverages, including limits on methanol by product category. State excise departments also test. Values and methods change, so read the current FSSAI notification and your state rules rather than relying on a figure from a forum or an old label. Export markets add their own limits on top.</p>"
+  ],
+  [
+   "What a testing routine looks like",
+   "<p>Methanol cannot be judged by smell, taste or an alcoholmeter. A hydrometer or density meter reads the mixture as if it were ethanol and water. You need a laboratory method and the standard one is gas chromatography with a flame ionisation detector. It reports methanol alongside the other congeners in one run.</p><p>A sensible routine for a craft distillery:</p><ul><li>test every new raw material or recipe at least once before release</li><li>test each blended batch of new make, or a fixed share of batches once the process is stable</li><li>test the final bottled product as your licence and export partners require</li><li>keep the reports with the batch record so any question can be answered from paper</li></ul>"
+  ],
+  [
+   "Results to act on",
+   "<p>For a grain whisky, a methanol result well below your limit that sits steady from batch to batch is the normal picture. A sudden rise is worth chasing. Common causes are a change of raw material, fruit or flavouring entering a mash, contamination of a reused container or a lab error. Ask for a retest on a retained sample before changing anything on the still.</p><p>Keep a retained sample of every batch, sealed and labelled, in a cool dark store. In an Indian summer a warehouse can pass 35 °C, so pick the coolest corner you have. That bottle is your evidence if a regulator or customer ever asks.</p>"
+  ],
+  [
+   "Flavourings and finishes deserve a second look",
+   "<p>A grain whisky can pick up methanol after distillation too. Fruit macerations, fruit wine casks used for finishing or flavourings added to a spirit drink can all bring pectin derived methanol with them. If your range includes a flavoured whisky, a fruit spirit or a liqueur, test those products separately rather than assuming the base spirit result covers them.</p><p>The same goes for bought in neutral spirit used in blends. Ask the supplier for a certificate of analysis on every lot, check it carries a methanol figure in g/hl AA and run your own test on the first delivery from any new supplier.</p>"
+  ],
+  [
+   "Know the number before anyone asks",
+   "<p>Methanol is where quality control meets licensing and public trust. A distillery that can show a run of clean results is in a far stronger position than one that assumes grain spirit is safe and has never checked. Understanding why the number is what it is, from mash to still, is what lets you defend it. That is where <a href=\"ethyl-carbamate-in-spirits.html\">other safety congeners such as ethyl carbamate</a> also enter the picture.</p><p>Your first step: pull your last three batch records and check whether each one carries a methanol result in g/hl AA. If any is missing, send the retained sample to a lab this week.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does whisky contain methanol?",
+   "Yes, in small amounts. Grain has little pectin, so properly made whisky carries far less methanol than fruit spirits. The only way to know the exact level is a laboratory test."
+  ],
+  [
+   "Does cutting the foreshots remove methanol?",
+   "Only partly. Methanol tends to spread across the run rather than leaving in the foreshots alone, so the cut is a quality step rather than a guarantee."
+  ],
+  [
+   "How is methanol measured in spirits?",
+   "By gas chromatography, usually with a flame ionisation detector. Hydrometers and density meters cannot tell methanol from ethanol."
+  ],
+  [
+   "What is the methanol limit for whisky in India?",
+   "FSSAI sets limits by product category and state excise departments also test. Check the current FSSAI notification and your state rules, because values and methods change."
+  ]
+ ],
+ "cta": {
+  "title": "Know what is in your spirit before the regulator asks",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers raw materials, fermentation, still operation, cuts and spirit testing so methanol and other congeners are measured and explained.",
+  "label": "See the full syllabus",
+  "href": "craft-distilling-course.html"
+ },
+ "related": [
+  "whisky-tasting-for-beginners",
+  "foreshots-methanol-and-distillery-safety",
+  "ethyl-carbamate-in-spirits"
+ ]
+}

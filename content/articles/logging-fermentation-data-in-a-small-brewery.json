@@ -1,0 +1,67 @@
+{
+ "slug": "logging-fermentation-data-in-a-small-brewery",
+ "cat": "Brewing science",
+ "h1": "Logging fermentation data in a small brewery",
+ "title": "Logging Fermentation Data | Craft Beer School",
+ "desc": "What to record for every fermentation in a small brewery, how to structure the log and how to turn it into decisions instead of filed paper.",
+ "teaser": "A fermentation log is only worth keeping if you can answer a question with it. Most brewery logs cannot.",
+ "standfirst": "Every small brewery records something during fermentation. Few record it in a way that helps when a batch goes wrong. Here is what to log, how to lay it out and how to use it, written from the data side of the brewhouse.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with the questions you will ask",
+   "<p>The best log is designed backwards from the questions you need to answer. When a batch finishes high, you want to know whether it was the yeast, the wort or the temperature. When a beer tastes different, you want to compare it with the last good batch. When a yeast generation starts to tire, you want to see it coming.</p><p>Think about who fills it in, too. On a busy shift the log competes with brewing, cleaning and deliveries. Keep the daily part short enough to finish in two minutes per tank, or it will be skipped on exactly the days things go wrong.</p><p>Each of those questions needs specific fields, recorded every time. A notebook with a few loose readings cannot answer them. A simple spreadsheet with consistent columns can. You do not need software to start: a well-designed sheet beats a fancy tool that nobody fills in.</p>"
+  ],
+  [
+   "What to record for every batch",
+   "<p>Split the log into a batch record and daily readings. The batch record is filled in once:</p><ul><li>Batch number, beer, brew date and fermenter.</li><li>Original gravity and volume into the fermenter.</li><li>Yeast strain, generation number, pitch rate and viability if measured.</li><li>Dissolved oxygen at pitching and wort temperature at knock-out.</li><li>Dry hop additions with date, time and amount.</li><li>Final gravity, apparent attenuation and ABV.</li></ul><p>ABV comes from the standard formula: (OG minus FG) x 131.25. For a 1.050 wort finishing at 1.010, that gives 5.25%.</p>"
+  ],
+  [
+   "Daily readings in long format",
+   "<p>Record daily readings one row per reading, not one column per day. Each row holds the batch number, date, time, tank temperature, gravity and pH. This long format looks less tidy than a wide grid, but it is far easier to filter, chart and compare across batches.</p><p>Add a free-text notes column for anything you notice: krausen dropped, sulphur smell, a power cut. Those notes often explain the numbers later. Our guide to <a href=\"atp-swabs-for-quick-hygiene-checks-in-a-small-brewery.html\">ATP swabs for quick hygiene checks</a> covers another set of readings worth logging in the same place, so hygiene and fermentation can be compared.</p>"
+  ],
+  [
+   "Power cuts and temperature logs",
+   "<p>In many Indian breweries, the most useful data comes from the temperature controller. A power cut that stops the glycol for three hours on a hot afternoon can push an active ferment several degrees over setpoint. Without a log, nobody notices until the beer tastes of solvent esters a week later.</p><p>Many controllers can record temperature automatically. If yours can, export the data weekly. If not, a cheap standalone temperature logger stuck to the tank does the job. Line the temperature trace up with the daily gravity and you can see exactly when a fermentation ran hot and how it affected the curve.</p>"
+  ],
+  [
+   "Digital hydrometers need checking",
+   "<p>Floating digital hydrometers that send readings to a phone are popular in small breweries. They give a reading every few minutes, which makes a beautiful curve. They also drift, collect krausen and can read wrong as the yeast coats them.</p><p>Treat them as trend tools. Check them against a calibrated hydrometer or density meter at least at the start and end of each batch. If the two disagree by more than a couple of gravity points, trust the reference and note the offset. The same rule applies to any sensor: data you never check against a reference is data you cannot trust.</p>"
+  ],
+  [
+   "Turning the log into decisions",
+   "<p>The log pays off when you compare batches. Pick your best batch of a flagship beer and treat its curve as the reference. Plot every new batch against it. Differences jump out: a slower start, a higher finish, a bigger pH drop.</p><p>A simple chart is enough. Put days since pitching on the horizontal axis and gravity on the vertical, one line per batch. In a spreadsheet that takes a few minutes to set up and then updates itself. A brewer who sees ten curves overlaid learns more in a minute than from a folder of paper sheets.</p><p>Look across generations too. If apparent attenuation drops by a point or two over several repitches, the yeast is telling you to propagate fresh. Our guide to <a href=\"propagating-yeast-in-a-small-brewery-from-a-lab-culture.html\">propagating yeast from a lab culture</a> covers that step. Building these comparisons is the data half. Knowing what a difference means biologically is the brewing half.</p><p>Your first step: set up one spreadsheet with a batch tab and a daily readings tab, then log your next three batches in it without skipping a day.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What should a fermentation log include?",
+   "Batch details, original gravity, yeast strain and generation, pitch rate, oxygen, daily temperature, gravity and pH, dry hop times and the final gravity."
+  ],
+  [
+   "Do I need special software to log fermentation data?",
+   "No. A well-designed spreadsheet with consistent columns is enough for most small breweries."
+  ],
+  [
+   "Are digital hydrometers accurate?",
+   "They are useful for trends but can drift. Check them against a calibrated hydrometer or density meter at least at the start and end of each batch."
+  ],
+  [
+   "How do I calculate ABV from my log?",
+   "Use (OG minus FG) x 131.25. A beer from 1.050 to 1.010 is about 5.25% ABV."
+  ]
+ ],
+ "cta": {
+  "title": "Make your brewery data answer questions",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers fermentation science and quality control so you know what to measure, what normal looks like and what a change means.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "microbiology-plating-small-brewery",
+  "atp-swabs-for-quick-hygiene-checks-in-a-small-brewery",
+  "propagating-yeast-in-a-small-brewery-from-a-lab-culture"
+ ]
+}

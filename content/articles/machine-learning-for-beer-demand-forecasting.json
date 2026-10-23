@@ -1,0 +1,63 @@
+{
+ "slug": "machine-learning-for-beer-demand-forecasting",
+ "cat": "Beer for teams",
+ "h1": "Machine learning for beer demand forecasting",
+ "title": "Machine Learning for Beer Forecasts | Craft Beer School",
+ "desc": "How machine learning is used for beer demand forecasting: the features that matter, the models teams use and how to test them honestly.",
+ "teaser": "A machine learning forecast that does not know about heatwaves, dry days and duty changes is a very expensive seasonal average.",
+ "standfirst": "Machine learning can improve beer forecasts, but only when it is fed the drivers that actually move beer demand. This guide covers those drivers, common model choices and how to tell whether the model beats a simple baseline.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Beat the baseline first",
+   "<p>Before building any model, set a baseline. The simplest one in beer is seasonal naive: this week's forecast equals the same week last year, perhaps scaled by recent growth. It is cheap, transparent and surprisingly hard to beat for a stable brand.</p><p>Every machine learning model should be compared with that baseline using the same accuracy measure, usually weighted MAPE and bias, at the level the business uses. Our guide to <a href=\"forecast-accuracy-in-beer-demand-planning.html\">forecast accuracy in beer demand planning</a> explains both. If the model does not clearly beat seasonal naive over several months of testing, it is not ready, however clever it is.</p>"
+  ],
+  [
+   "Weather is the first feature",
+   "<p>Beer demand rises with heat. Across much of India, the months from March to June are the strongest, with the monsoon usually bringing a dip in many regions. A week much hotter than normal lifts demand. A week of heavy rain cuts it, especially for outdoor and take away occasions.</p><p>So temperature by state and week is often the most valuable external feature. Use the actual weather for training and forecast weather for prediction. Be honest that a forecast more than a week or two ahead is close to seasonal normal. Our guide to <a href=\"beer-seasonality-for-demand-planners.html\">beer seasonality for demand planners</a> covers the patterns.</p>"
+  ],
+  [
+   "The Indian calendar adds sharp shocks",
+   "<p>Beer sales in India respond to events a generic model will not know about:</p><ul><li><strong>Dry days.</strong> Sales of alcohol are banned on certain days, such as national holidays, some festivals and elections. Dry days vary by state. Demand often shifts to the day before.</li><li><strong>Festivals and holidays.</strong> Long weekends and festivals move demand, sometimes up and sometimes down.</li><li><strong>Excise changes.</strong> A state duty revision can change MRP overnight. Distributors may stock up before a price rise, then buy little after it.</li><li><strong>Elections.</strong> Extended dry periods around polling can cut weekly sales in that state.</li></ul><p>Each of these should be a feature, by state and date. A model trained without them learns that some weeks are randomly odd and gets every one of them wrong.</p>"
+  ],
+  [
+   "Model choices that work",
+   "<p>Gradient boosted trees are a common choice for beer demand: they handle many features, mixed data types and non-linear effects such as temperature only mattering above a certain level. Classical time series models, such as exponential smoothing, are good baselines and work well for stable, high volume series.</p><p>Beer forecasts also need to add up. The brand forecast should equal the sum of its SKUs. The national forecast should equal the sum of the states. Hierarchical reconciliation methods adjust forecasts at different levels so they are consistent. Without that, the brewery plans brews from one number while sales plans from another.</p><p>Explainability matters more than a small accuracy gain. Planners have to defend the forecast in the S&OP meeting. A model that can show the forecast rose because next month is expected to be hot and there are no dry days will be trusted. A model that cannot explain itself will be overridden by hand. The override usually costs more accuracy than the model added.</p>"
+  ],
+  [
+   "Train on demand, not on supply",
+   "<p>The target matters as much as the model. Shipments, the cases sold to distributors, reflect distributor ordering, stock building and state permit timing as well as consumer demand. A model trained on shipments learns those habits.</p><p>Where depletion or retail sales data exists, use it as the demand signal. Watch for censored demand too. If a SKU was out of stock for two weeks, recorded sales were zero because there was no beer, not because nobody wanted it. Flag those periods or the model will learn the wrong lesson. Our guide to <a href=\"beer-demand-forecasting-indian-seasons.html\">beer demand forecasting across Indian seasons</a> covers the calendar side in more depth.</p>"
+  ],
+  [
+   "Test the way you will use it",
+   "<p>Use rolling origin backtesting: train on data up to a point, forecast the next period at the brewery's lead time, move forward and repeat. A lager forecast is used weeks before sale, so test it at that lag, not one week ahead. Random train and test splits leak future information and overstate accuracy.</p><p>Your first step: build the seasonal naive baseline for your top ten SKUs and measure its WMAPE at your planning lag over the past year. That number is what any model has to beat.</p><p>Then add one external feature at a time, starting with temperature and dry days. Record how much each one improves the backtest. Keep a log. When someone asks in six months why the model behaves as it does, that log is the answer.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What features matter most in beer demand forecasting?",
+   "Temperature, seasonality, dry days, festivals, price and excise changes, promotions and distribution, all at state level."
+  ],
+  [
+   "Which machine learning models work for beer demand?",
+   "Gradient boosted trees are common, with classical time series models such as exponential smoothing as baselines. Hierarchical reconciliation keeps levels consistent."
+  ],
+  [
+   "How should a beer forecasting model be tested?",
+   "With rolling origin backtesting at the brewery's real lead time, compared against a seasonal naive baseline using weighted MAPE and bias."
+  ]
+ ],
+ "cta": {
+  "title": "Help your data team forecast with the beer drivers built in",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-demand-forecasting-indian-seasons",
+  "beer-seasonality-for-demand-planners",
+  "forecast-accuracy-in-beer-demand-planning"
+ ]
+}

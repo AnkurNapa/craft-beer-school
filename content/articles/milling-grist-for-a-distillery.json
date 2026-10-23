@@ -1,0 +1,71 @@
+{
+ "slug": "milling-grist-for-a-distillery",
+ "cat": "Whisky",
+ "h1": "Milling grist for a distillery",
+ "title": "Milling Grist for a Distillery | Craft Beer School",
+ "desc": "How to mill malt for a whisky distillery: the husk, grits and flour split, mill gap checks and how a bad grist costs spirit yield.",
+ "teaser": "The mill is the cheapest machine in a distillery and the first place yield is lost. Here is how to set it.",
+ "standfirst": "A distillery grist has one job: let the mash tun reach every gram of starch while still draining freely. Get the split of husk, grits and flour right and the rest of the plant has a chance.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The grist decides how much starch you can reach",
+   "<p>Milling breaks malted barley into three fractions: husk, grits and flour. Starch locked in coarse grits stays there through the mash and leaves the distillery in the draff. Too much flour turns the mash into porridge that will not drain. The mill sets the ceiling for everything that follows.</p><p>Distillers care about this even more than brewers. A whisky distillery wants to recover as much fermentable extract as possible, because yield is the business. Every point of extract left in the draff is malt you paid for and sold as cattle feed.</p>"
+  ],
+  [
+   "A commonly quoted split",
+   "<p>A widely used target for a malt distillery grist is roughly 20% husk, 70% grits and 10% flour by weight. Treat it as a starting point for a traditional mash tun with a false bottom. A full lauter tun with good raking can tolerate a slightly finer grist. A simple infusion vessel without rakes may need a little more husk to keep the bed open.</p><p>The husk forms the filter bed. Grits carry most of the starch and must be small enough to gelatinise and convert in the mash time. Flour converts fast but packs tight. Balancing the three is what mill setting is about.</p>"
+  ],
+  [
+   "Checking the grist with a sieve test",
+   "<p>You cannot set a mill by eye. Take a grist sample from the mill outlet, weigh it and shake it through a stack of sieves. The fractions retained on each sieve tell you the split. Do it at the start of every campaign, after any change of malt and whenever drainage or yield shifts.</p><p>The floor detail we would never skip: take the sample across the full width of the grist stream, not from one corner. Rollers wear unevenly and one end of a roll can be crushing harder than the other. A sample from one side will lie to you.</p>"
+  ],
+  [
+   "Roller mills and what to look after",
+   "<p>Most distilleries use roller mills. Two roll mills are simple and cheap but give less control. Four and five roll mills crush in stages, separating husk early and breaking grits further on the lower rolls. That keeps the husk whole while still reducing the grits. For a small craft distillery, a well set two or four roll mill is usually enough.</p><p>Look after the rolls. Check and record the gaps on a schedule. Keep the feed even across the full width of the rolls. Remove stones and metal before the mill with a destoner and magnet, because one stray bolt can damage a roll surface. Grain dust is also an explosion hazard, so keep the mill room clean and follow proper dust control.</p>"
+  ],
+  [
+   "Indian malt and Indian weather",
+   "<p>Malt that has picked up moisture in a humid Indian store mills differently. The husk turns leathery and the endosperm smears rather than shatters, so the same gap gives a different grist. Check moisture before milling, especially in the monsoon. Store malt sealed and off the floor.</p><p>Indian six row barley has more husk and smaller kernels than two row. That helps drainage but can leave more unbroken grains if the gap is set for plump imported malt. Run a sieve test whenever you switch between them. Our guide to <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs</a> shows how extract losses show up in the numbers.</p>"
+  ],
+  [
+   "When the grist is wrong",
+   "<p>A coarse grist shows up as low extract in the wort and starch left in the draff, which you can test with iodine. A fine grist shows up as a slow or stuck runoff, cloudy wort and the temptation to cut the mash short. Both cost spirit. If you are chasing clearer wort for a fruitier new make, a good grist matters more than any trick in the mash tun. See <a href=\"clear-versus-cloudy-wort-in-malt-whisky.html\">clear versus cloudy wort in malt whisky</a>.</p><p>Fixing it means reading three numbers together: the sieve fractions, the wort gravity and the extract left in the draff. Linking them to the mill gap takes a little practice and a clear picture of the whole mashing process.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Borrow or buy a set of grist sieves. Take a sample across the full width of the mill outlet, sieve it and record the husk, grits and flour split. Compare it with 20, 70 and 10. If any fraction is more than a few points off, change one roll gap, re-test and write both results in your mill log.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good grist for a malt distillery?",
+   "A commonly quoted starting point is roughly 20% husk, 70% grits and 10% flour by weight, adjusted for your mash tun and malt."
+  ],
+  [
+   "How do I check my grist?",
+   "Take a sample across the full width of the mill outlet and shake it through a set of grist sieves. The weight on each sieve gives the split."
+  ],
+  [
+   "Why does a fine grist cause problems?",
+   "Too much flour packs the mash bed so it drains slowly or sticks. Runoff slows and wort clarity suffers."
+  ],
+  [
+   "Does Indian six row barley need a different mill setting?",
+   "Often, yes. It has smaller kernels and more husk than two row barley, so check the grist with a sieve test whenever you switch."
+  ]
+ ],
+ "cta": {
+  "title": "Stop losing yield before the mash",
+  "body": "Craft Distilling is our four week live course (₹9,999), Saturdays and Sundays with recordings and a certificate. It covers milling, mashing and fermentation as one chain, so you can set your mill against your mash tun and measure what each change does to yield.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "distillery-kpis-for-analysts",
+  "sourcing-oak-casks-for-an-indian-distillery",
+  "what-a-new-distillery-sells-while-whisky-ages"
+ ]
+}

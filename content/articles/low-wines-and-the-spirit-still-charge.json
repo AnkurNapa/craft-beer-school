@@ -1,0 +1,71 @@
+{
+ "slug": "low-wines-and-the-spirit-still-charge",
+ "cat": "Whisky",
+ "h1": "Low wines and the spirit still charge",
+ "title": "Low Wines and the Spirit Still Charge | Craft Beer School",
+ "desc": "What low wines are, how strong they run, how to build a spirit still charge and why fill level and charge strength change your new make.",
+ "teaser": "Low wines are the halfway point between beer and whisky. How you charge them into the spirit still shapes the new make.",
+ "standfirst": "The wash still turns an 8% wash into low wines of around 20 to 25% ABV. The spirit still then turns low wines into new make. This guide covers the charge in between: its strength, its volume and the mistakes that change the spirit.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the wash still leaves you",
+   "<p>A malt whisky wash goes into the wash still at roughly 7 to 9% ABV. The wash still strips nearly all the alcohol out of it in one pass with no cuts. The distillate collected, the low wines, typically averages about 20 to 25% ABV. The residue left in the still is pot ale.</p><p>The wash run ends when the strength off the condenser falls to around 1% ABV. Running much further wastes steam. Stopping much earlier leaves alcohol in the pot ale. Our guide to <a href=\"what-the-wash-still-and-spirit-still-each-do.html\">what the wash still and spirit still each do</a> covers the first distillation in full.</p>"
+  ],
+  [
+   "Building the charge",
+   "<p>Low wines go to the low wines receiver. Foreshots and feints from earlier spirit runs go to the feints receiver. In many distilleries the two are combined in a low wines and feints charger before being pumped to the spirit still.</p><p>The resulting charge commonly runs at about 25 to 30% ABV. It should be mixed well before charging. A charger that is not mixed can send oily feints in the first part of the charge and weaker low wines in the last part, which upsets the run.</p>"
+  ],
+  [
+   "Charge strength moves your cut points",
+   "<p>If the charge is stronger than usual, more alcohol is in the pot and the run stays at higher strength for longer. Heavier compounds come through at a different point in the run. Cuts set by strength or time on a normal charge will then catch slightly different spirit.</p><p>Watch the charge strength on every run. If it drifts by more than a couple of percent, find out why. A growing feints receiver is the usual cause. A change in wash still practice is the next suspect. Our guide to <a href=\"recycling-feints-in-a-malt-distillery.html\">recycling feints</a> covers how the loop behaves.</p>"
+  ],
+  [
+   "Fill level and headroom",
+   "<p>Pot stills are rarely filled to the top. A common practice is to charge to around two thirds of the pot's working capacity. The space above the liquid lets vapour separate from boiling liquid and gives room for foam and surges.</p><p>Overfill a pot and you risk liquid carrying over into the lyne arm, which puts unboiled charge straight into your spirit. Underfill it and you change the ratio of liquid to copper surface, which changes the character of the spirit. Pick a charge volume that suits the still and hold it steady. On a 1,000 litre spirit still the difference between 650 and 750 litres is enough to show in the new make.</p>"
+  ],
+  [
+   "Copper does its work in the second distillation too",
+   "<p>The spirit still is smaller than the wash still in most malt distilleries, so the charge has more copper surface per litre. Copper reacts with sulphur compounds and removes many of them from the vapour. That is one reason a spirit still charge should not be rushed through the pot.</p><p>Charge volume and copper contact are linked. A smaller charge in the same still means more copper per litre and often a lighter, cleaner spirit. A bigger charge means less. Copper also wears thin over years of this chemistry, which is why spirit stills need regular thickness checks. Our guide to <a href=\"copper-contact-and-spirit-character.html\">copper contact and spirit character</a> explains the reactions.</p><p>For a distillery that wants to change its spirit slightly, adjusting charge volume is one of the gentler levers to pull. Change it in steps, log every run and nose the new make before committing.</p>"
+  ],
+  [
+   "Heating the charge",
+   "<p>The first part of a spirit run is gentle. Bring the charge up to temperature steadily, then slow the heat as the still begins to run so that the spirit comes off at a calm, even rate. A spirit still run too hard reduces reflux and copper contact, which tends to give a heavier, more sulphury new make.</p><p>Record the time to first spirit, the rate of collection and the steam pressure or heat input. Those three numbers, logged run by run, tell you more about consistency than any single tasting. In Indian summer, warmer cooling water means the condenser has less margin, so a still run fast in May may push spirit through warmer than it did in January.</p>"
+  ],
+  [
+   "Low wines and Indian practice",
+   "<p>India's whisky output is dominated by spirit from molasses and grain distilled in columns, so many people in the industry have never handled low wines. Pot still malt distilleries in India follow the same double distillation logic as Scotland: wash still, low wines, spirit still. The difference is heat. Warmer cooling water and warm stores make good process control more important, not less.</p><p>Reading a charge from its numbers, then setting the still to match, is a skill the course builds with real run logs.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What are low wines in whisky?",
+   "Low wines are the spirit collected from the wash still in the first distillation. In malt whisky they typically average around 20 to 25% ABV."
+  ],
+  [
+   "How strong is a spirit still charge?",
+   "Low wines mixed with foreshots and feints usually give a spirit still charge of around 25 to 30% ABV."
+  ],
+  [
+   "How full should a pot still be charged?",
+   "A common practice is to fill a pot still to around two thirds of its working capacity, leaving headroom for vapour separation and foam."
+  ],
+  [
+   "When does the wash still run end?",
+   "Usually when the distillate falls to around 1% ABV, at which point almost all the alcohol has been recovered from the wash."
+  ]
+ ],
+ "cta": {
+  "title": "Get the charge right before the cut",
+  "body": "Craft Distilling is our four week live course (₹9,999), on Saturdays and Sundays with recordings and a certificate. It covers both distillations, charge building, still heating and the run records that keep your new make consistent from week to week.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-the-wash-still-and-spirit-still-each-do",
+  "running-a-spirit-still-for-a-lighter-or-heavier-spirit",
+  "molasses-vs-grain-spirit-india"
+ ]
+}

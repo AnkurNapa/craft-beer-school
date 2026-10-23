@@ -1,0 +1,71 @@
+{
+ "slug": "hop-pellet-types-t90-and-t45",
+ "cat": "Ingredients",
+ "h1": "Hop pellet types T90 and T45",
+ "title": "Hop Pellet Types T90 and T45 Explained | Craft Beer School",
+ "desc": "T90 versus T45 hop pellets: how they are made, what the numbers mean, how to adjust recipes, dry hop losses and storing pellets in India.",
+ "teaser": "T90 and T45 are not grades of quality. They describe how much of the hop cone made it into the pellet.",
+ "standfirst": "Most commercial brewers buy hops as pellets. The label usually says T90 or T45. The difference affects your recipe calculations, your dry hop losses and your costs. Here is what each type means.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the T numbers mean",
+   "<p>The T number roughly describes how much of the original dried hop cone weight ends up in the pellet. T90 pellets keep about 90% of the original weight. T45 pellets keep about 45%. The type name comes from that ratio, not from any measure of freshness or quality.</p><p>Both are made from whole dried hops. The difference is what happens before the hops are pressed into pellets: T90 keeps almost all the plant material, while T45 removes much of the leafy material and concentrates the lupulin.</p>"
+  ],
+  [
+   "How T90 pellets are made",
+   "<p>For T90 pellets, dried hop cones are cleaned, milled into a powder, blended for uniformity and pressed through a pellet die. Very little is removed except stems, moisture and foreign matter. The pellet carries the whole hop: lupulin glands with their alpha acids and oils, plus bracts and other plant matter.</p><p>T90 is the standard pellet in most brewhouses. Its alpha acid content is close to that of the original cone. If a hop measured 12% alpha as cones, the T90 pellet will usually be close to 12% too.</p>"
+  ],
+  [
+   "How T45 pellets are made",
+   "<p>For T45 pellets, the hops are milled at very low temperature, often around minus 35 °C, so the sticky lupulin becomes brittle and separates from the leafy material. Some of the leaf is sieved off. The remaining lupulin-enriched powder is then pelleted.</p><p>Because roughly half the original weight has been removed, mostly leaf, a T45 pellet carries more alpha acid and oil per gram. A hop at 6% alpha as cones may come out somewhere around 9 to 11% as T45, depending on how much lupulin the variety has. Always use the figure on the certificate of analysis, not a calculation.</p><p>Lupulin powders, sold under various brand names, take this further and are sometimes listed in a similar way. Treat them as a separate product with their own numbers.</p>"
+  ],
+  [
+   "Adjusting recipes between types",
+   "<p>Bitterness calculations work on alpha acid, so the conversion is simple. Weight needed equals target alpha acid kilograms divided by the new pellet's alpha percentage.</p><p>Work it through. A recipe uses 2.0 kg of a T90 pellet at 6% alpha, which is 0.12 kg of alpha acid. The same hop as T45 is 10% alpha. You need 0.12 divided by 0.10, which is 1.2 kg. The bitterness should be similar, though utilisation can differ slightly.</p><p>Aroma is less simple. Oil content and composition change with processing, so a direct swap by weight or alpha may not give the same aroma. Trial it on one batch and taste before switching your whole range. Our guide to <a href=\"alpha-acids-explained.html\">alpha acids explained</a> covers the bitterness maths in more depth.</p>"
+  ],
+  [
+   "Why T45 can help in dry hopping",
+   "<p>Leafy hop material soaks up beer and settles as a thick sludge in the fermenter cone. Heavy dry hopping can lose a meaningful share of a batch to this hop matter. Less leaf in T45 pellets means less material to soak up beer for the same aroma, which can raise yield on heavily dry-hopped IPAs.</p><p>Less plant matter can also mean less of the grassy, vegetal character that long dry hop contact can bring. That said, the main drivers of grassy notes are contact time, temperature and hop quality, not pellet type alone.</p>"
+  ],
+  [
+   "Reading the certificate of analysis",
+   "<p>Whichever pellet you buy, the certificate of analysis for the lot is the document to work from. Look for alpha and beta acids, total oil, moisture and the hop storage index (HSI) if it is given. Hops are usually dried to about 8 to 10% moisture before pelleting. HSI measures how far the alpha and beta acids have degraded. Freshly processed hops read low, around 0.25 to 0.35. The figure rises as the hop ages.</p><p>Compare the certificate with the pellets in the bag. Pellets should be firm, green and fragrant. A bag of crumbled dust, brown pellets or a cheesy smell suggests heat damage in transit or storage, whatever the paperwork says. Raise it with the supplier before brewing.</p>"
+  ],
+  [
+   "Storing pellets in Indian heat",
+   "<p>Both pellet types are vulnerable to oxygen, heat and light. Alpha acids and oils degrade faster as temperature rises. Pellets are usually packed in nitrogen-flushed or vacuum-sealed foil bags to slow this down.</p><p>The one floor detail that protects your hops: check the cold chain at delivery. A foil pack that arrives soft and warm after days in a truck at 35 °C has already lost some quality. Store hops sealed, ideally frozen or as cold as you can. Use opened packs within days. Our guide to <a href=\"hop-pellets-vs-whole-cone.html\">hop pellets versus whole cone</a> compares pellets with other hop forms.</p>"
+  ],
+  [
+   "Choosing between them",
+   "<p>T90 is the default for most brewing. T45 makes sense when dry hop losses are costly, when cold storage space is tight or when a supplier offers a variety only in that form. The choice is about chemistry, yield and logistics together. Reading a hop specification and knowing what to do with it is where deeper training pays off.</p><p>Your first step: pull the certificates of analysis for the hops in your store and note the pellet type, alpha acid and total oil for each.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does T90 mean on hop pellets?",
+   "It means the pellet keeps roughly 90% of the original dried hop cone weight. Almost all the plant material is still there."
+  ],
+  [
+   "Are T45 pellets stronger than T90?",
+   "Per gram, yes. T45 pellets have much of the leafy material removed, so they carry more alpha acid and oil by weight."
+  ],
+  [
+   "How do I substitute T45 for T90 hops?",
+   "Calculate by alpha acid. Divide the alpha acid weight you need by the new pellet's alpha percentage, then trial for aroma before switching fully."
+  ]
+ ],
+ "cta": {
+  "title": "Read hop specifications with confidence",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), online on Saturdays and Sundays. It covers hop chemistry, raw material specifications and quality control in the depth a single guide cannot.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "hop-varieties-for-beginners",
+  "alpha-acids-explained",
+  "hop-pellets-vs-whole-cone"
+ ]
+}

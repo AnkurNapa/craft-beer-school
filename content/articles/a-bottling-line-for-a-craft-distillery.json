@@ -1,0 +1,71 @@
+{
+ "slug": "a-bottling-line-for-a-craft-distillery",
+ "cat": "Whisky",
+ "h1": "A bottling line for a craft distillery",
+ "title": "A bottling line for a craft distillery | Craft Beer School",
+ "desc": "How to plan a bottling line for a small whisky distillery: the steps, manual versus automatic kit, fill accuracy and safety.",
+ "teaser": "Most craft distilleries spend years on the spirit and weeks on the bottling line. The bottle is what customers see first.",
+ "standfirst": "A bottling line turns finished whisky into product on a shelf. For a small distillery it can be a few hand tools or a semi-automatic run. Here is what each step does, what to buy first and where small lines usually go wrong.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The steps every line has",
+   "<p>Whatever the scale, a spirits bottling line does the same jobs in the same order:</p><ol><li>Unpack and rinse bottles.</li><li>Fill to the right level or volume.</li><li>Close with a stopper, cork or screw cap.</li><li>Apply a seal or capsule if used.</li><li>Label front and back, plus any state excise label.</li><li>Code each bottle with a batch number.</li><li>Pack into cartons and palletise.</li></ol><p>A small distillery can do all of this by hand at first. The question is which step to mechanise first. Usually it is filling, then labelling.</p><p>Keep the line in a clean, dry room separate from the stillhouse. Dust, insects and cardboard fibres all end up in open bottles otherwise.</p>"
+  ],
+  [
+   "Rinsing and bottle supply",
+   "<p>New bottles arrive packed and are usually clean, but they carry dust and cardboard fibres. Most spirits lines rinse with filtered air or a small amount of the spirit itself. Water rinsing is avoided because droplets left in the bottle dilute the whisky and can cause haze.</p><p>Bottle supply is often the real bottleneck in India. Premium glass may need long lead times. A change in mould changes your filling height. Our guide to <a href=\"glass-bottle-supply-for-spirits.html\">glass bottle supply</a> covers this side. Order sample bottles and test them on your filler before signing a large order.</p>"
+  ],
+  [
+   "Fillers: level versus volume",
+   "<p>Small spirits fillers usually fill to a level. The bottle fills until the liquid reaches a set height, controlled by a tube in the neck. Every bottle looks the same on the shelf, which customers notice. But bottle volumes vary slightly, so the actual volume varies too.</p><p>The declared volume on the label is a legal promise under India's legal metrology rules for packaged goods. Check fills by weight regularly: weigh an empty bottle, weigh it filled, divide the net weight by the spirit's density at that strength. Keep records. Rules and tolerances can change, so check the current notification.</p>"
+  ],
+  [
+   "Manual, semi-automatic or automatic",
+   "<ul><li><strong>Manual</strong>: a gravity filler with a few heads, hand capping, hand labelling. Low cost, labour heavy, perhaps a few hundred bottles an hour with a practised team.</li><li><strong>Semi-automatic</strong>: an operator loads bottles; the machine fills or labels. A sensible step for a growing distillery.</li><li><strong>Automatic</strong>: a conveyor runs bottles through rinse, fill, cap, label and pack. Fast, but needs steady volume to justify the cost and the maintenance.</li></ul><p>Measure your real annual volume in bottles before buying. A line that sits idle most of the month costs more than the labour it saves. Our guide to <a href=\"oee-on-a-spirits-bottling-line.html\">OEE on a spirits bottling line</a> explains how to measure line performance once it runs.</p>"
+  ],
+  [
+   "Spirit is flammable",
+   "<p>This is the floor detail that matters most. Whisky at 40% ABV has a flash point of roughly 26 °C. In an Indian bottling hall in summer, the room is often warmer than that, so vapour near open bottles and filler bowls can ignite. Electrical equipment near the filler should be rated for flammable atmospheres, ventilation should be good and there should be no naked flames or smoking anywhere nearby.</p><p>State fire and factory rules for spirits handling vary and change. Bring your fire safety adviser in at the layout stage, not after the machines arrive.</p>"
+  ],
+  [
+   "Labels, codes and excise",
+   "<p>Every bottle needs a correct front and back label, a batch code and, in most Indian states, an excise label or hologram applied under supervision. Labelling rules vary by state and change. Approval of label designs can take time. Our guide to <a href=\"state-labelling-rules-for-spirits-in-india.html\">state labelling rules</a> covers the process.</p><p>Plan the line so the excise step fits the flow. A label applicator that runs fast while the hologram is applied by hand will spend most of its time waiting.</p>"
+  ],
+  [
+   "Quality checks on the line",
+   "<p>Set a short routine and keep to it. At the start of each run: check the filler with ten bottles by weight. Every hour: check fill levels, closure tightness and label position on a few bottles. At the end: reconcile bottles filled against spirit drawn from the tank, in litres of pure alcohol. A mismatch points to a filling problem, a spill or an error in the strength reading.</p><p>Keep a retained sample of every batch. If a complaint arrives, you need a bottle from the same run to compare.</p>"
+  ],
+  [
+   "Run a dry trial before the first batch",
+   "<p>Before bottling any whisky, run fifty bottles of water at the same temperature through every step. Time each station, weigh every fill and note where bottles queue. The slowest station is where your first investment should go. It costs a morning and saves you from learning the same lesson with spirit you cannot replace.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What should a small distillery automate first?",
+   "Usually filling, then labelling. Rinsing, capping and packing can stay manual until volume justifies more."
+  ],
+  [
+   "Should bottles be rinsed with water?",
+   "Spirits lines usually rinse with filtered air or a little spirit, because water left in the bottle dilutes the whisky and can cause haze."
+  ],
+  [
+   "Why is fire safety a concern on a spirits line?",
+   "Whisky at 40% ABV has a flash point of about 26 °C, so in a warm hall the vapour can ignite. Use suitably rated equipment and good ventilation."
+  ]
+ ],
+ "cta": {
+  "title": "Plan the whole distillery, not just the still",
+  "body": "Craft Distilling is our four week live course (₹9,999), taught on weekend afternoons with recordings and a certificate. It covers production from grain to bottle, including bottling, quality checks and the records a small distillery needs to run legally and well.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "sourcing-oak-casks-for-an-indian-distillery",
+  "oee-on-a-spirits-bottling-line",
+  "budget-lines-for-a-craft-whisky-distillery"
+ ]
+}

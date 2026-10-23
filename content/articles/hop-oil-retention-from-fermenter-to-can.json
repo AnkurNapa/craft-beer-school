@@ -1,0 +1,71 @@
+{
+ "slug": "hop-oil-retention-from-fermenter-to-can",
+ "cat": "Brewing science",
+ "h1": "Hop oil retention from fermenter to can",
+ "title": "Hop Oil Retention From Fermenter to Can | Craft Beer School",
+ "desc": "Where hop oil is lost between dry hop and can, from gas scrubbing and yeast to filters and can liners, plus how to keep more.",
+ "teaser": "You paid for every millilitre of hop oil. A surprising share of it never reaches the glass.",
+ "standfirst": "Hop oil carries most of a dry-hopped beer's aroma. Between the fermenter and the can it is lost to gas, yeast, filters and even packaging. Knowing where it goes is the first step to keeping more of it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Hop oil is a small, volatile fraction",
+   "<p>Hop oil makes up roughly 0.5 to 3% of the weight of most hop cones, with some aroma varieties higher. It is a mix of hundreds of compounds. The biggest single component is often myrcene, a hydrocarbon terpene with a green, resinous aroma. Others include humulene, caryophyllene and oxygenated compounds such as linalool and geraniol, which carry floral and citrus notes.</p><p>These compounds behave differently. Hydrocarbons like myrcene are very volatile and barely soluble in beer. Oxygenated compounds such as linalool are more soluble and hold on much better. That difference shapes where losses happen. Our guide to <a href=\"where-myrcene-goes-between-the-dry-hop-and-the-can.html\">where myrcene goes between the dry hop and the can</a> follows the most volatile compound in detail.</p>"
+  ],
+  [
+   "Carbon dioxide scrubbing during fermentation",
+   "<p>Fermentation produces a lot of carbon dioxide. As it bubbles out of the beer, it carries volatile hop compounds with it. Hops added during active fermentation lose more of their most volatile oils to this scrubbing than hops added once fermentation has slowed. That is one reason many brewers split dry hops, adding some during fermentation for biotransformation and oxygen scavenging and the rest after fermentation for aroma.</p><p>The same effect happens whenever you purge or carbonate by bubbling carbon dioxide through the beer. Aggressive purging or stone carbonation of a dry-hopped beer strips aroma.</p>"
+  ],
+  [
+   "Yeast, trub and hop material take their share",
+   "<p>Hop oils cling to surfaces. Yeast cells, protein trub and spent hop material all adsorb some of them. When you dump yeast and hop sediment from the cone, oil goes with it. Beer left in contact with a large hop bed for too long can also pick up grassy, vegetal flavours, so longer contact does not simply mean more aroma.</p><p>The floor detail: dump settled hops and yeast from the cone in small, frequent dumps and note the volume each time. One big dump after a long rest often takes a lot of good beer with it. Every litre of beer lost carries its share of dissolved oil.</p>"
+  ],
+  [
+   "Filtration and centrifuges",
+   "<p>Filtration removes hop oils along with haze. Depth filters and filter aids adsorb aroma compounds, so a filtered IPA often smells noticeably less intense than the same beer unfiltered. Centrifuges remove less oil than tight filters, which is part of why many hazy beer brewers prefer them or skip clarification altogether.</p><p>If you filter a hoppy beer, choose the loosest filter that meets your clarity target and keep the beer cold and the process closed.</p>"
+  ],
+  [
+   "Packaging and the can itself",
+   "<ul><li><strong>Transfers and purging.</strong> Every transfer through long hoses into a tank flushed with carbon dioxide loses a little aroma, especially if the beer is warm or the gas flow is aggressive.</li><li><strong>Oxygen.</strong> Oxidation does not just remove aroma. It changes it into stale, sweet notes. Our guide to <a href=\"oxidation-in-dry-hopped-beer-after-packaging.html\">oxidation in dry-hopped beer</a> covers that route.</li><li><strong>Can liners.</strong> The polymer liner inside an aluminium can absorbs some hydrophobic hop compounds over time, myrcene in particular. This is sometimes called flavour scalping. It is one reason canned hoppy beer can taste different from the same beer on draught after a few weeks.</li><li><strong>Warm storage.</strong> Heat speeds every loss. Hop aroma fades much faster at 30 °C than at 4 °C.</li></ul>"
+  ],
+  [
+   "Measuring what you keep",
+   "<p>Gas chromatography is the precise way to measure hop oil compounds in beer. Outside labs offer it. A small brewery can still track retention without one. Use a trained sensory panel and fixed reference samples: fresh beer from the tank, beer after packaging and beer after two, four and eight weeks. Score aroma intensity and character the same way each time.</p><p>Linalool is a useful marker in labs because it survives well and is linked to floral and citrus character. If a lab report shows linalool falling sharply between tank and can, look at oxygen and temperature first.</p>"
+  ],
+  [
+   "Small changes that keep more oil",
+   "<ul><li>Split dry hops, with the larger aroma addition after fermentation slows.</li><li>Keep contact time reasonable, often a few days, rather than a week or more.</li><li>Purge gently and avoid stone carbonation after dry hopping.</li><li>Choose the lightest clarification your style allows.</li><li>Package cold, keep cans cold and sell them fresh.</li></ul><p>Pulling these together into one consistent process while understanding the chemistry behind each loss is a lot to learn from guides alone.</p><p>Your first step: next time you package a dry-hopped beer, taste a sample from the bright tank and a can from the same run side by side within a day. If the can is noticeably flatter on aroma, the loss is happening in packaging. That is where to look next.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much oil do hops contain?",
+   "Most hops contain roughly 0.5 to 3% oil by weight, with some aroma varieties higher. Myrcene is often the largest single component."
+  ],
+  [
+   "Does fermentation remove hop aroma?",
+   "Yes. Carbon dioxide produced during fermentation carries volatile hop compounds out of the beer, especially hydrocarbons like myrcene."
+  ],
+  [
+   "Do can liners absorb hop aroma?",
+   "They can absorb some hydrophobic hop compounds over time, myrcene in particular. Cold storage and fresh sale reduce the effect."
+  ],
+  [
+   "Does filtration reduce hop aroma?",
+   "Yes. Filter media and filter aids adsorb hop oils. Centrifuges and lighter filtration keep more aroma."
+  ]
+ ],
+ "cta": {
+  "title": "Get more aroma from every kilo of hops",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers hop chemistry, dry hopping, oxygen control and packaging quality, so more of the hop oil you pay for reaches the glass.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "where-myrcene-goes-between-the-dry-hop-and-the-can",
+  "hop-creep",
+  "trialling-a-new-hop-variety"
+ ]
+}

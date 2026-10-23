@@ -1,0 +1,63 @@
+{
+ "slug": "cold-crashing-in-a-home-fridge-without-suck-back",
+ "cat": "Brewing basics",
+ "h1": "Cold crashing in a home fridge without suck-back",
+ "title": "Cold Crashing at Home Without Suck-Back | Craft Beer School",
+ "desc": "Why cold crashing pulls airlock liquid and air back into the fermenter and four ways to crash homebrew in a fridge without suck-back.",
+ "teaser": "Cold crashing clears beer beautifully. It also sucks whatever is in your airlock straight back into the fermenter.",
+ "standfirst": "Chilling finished beer near freezing settles yeast and haze in a day or two. The catch is suck-back: as the beer cools, the fermenter draws air and airlock liquid inside. Here is why it happens and how to stop it.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Cooling gas shrinks and pulls liquid in",
+   "<p>Gas contracts as it cools. A fermenter has a few litres of gas above the beer. Drop the beer from 20 °C to 2 °C and that headspace shrinks by around 6%, following the absolute temperature from about 293 K down to 275 K. Carbon dioxide also dissolves more readily into cold beer, which lowers the pressure further.</p><p>The fermenter makes up the difference by pulling in whatever sits at the other end of the airlock or blow-off tube. First the airlock liquid goes, then outside air. With a blow-off tube in a deep jar, a whole column of sanitiser can be drawn back up into the beer.</p>"
+  ],
+  [
+   "The air does more damage than the sanitiser",
+   "<p>A spoonful of diluted no-rinse sanitiser in 20 litres will not hurt the beer. The air that follows it will. Fermentation is over by the time you crash. No active yeast remains to use up oxygen. Air drawn into cold beer stays there and stales it, which shows most in pale, hoppy styles. Our guide to <a href=\"brewing-a-hazy-ipa-at-home-without-it-turning-brown.html\">brewing a hazy IPA that stays bright</a> explains how fast that browning happens.</p><p>So the goal is to stop air getting in, not only to keep the airlock liquid out.</p><p>You can usually see it happen. The airlock liquid drops to one side, then empties. Bubbles start going the wrong way, into the fermenter rather than out. A plastic bucket lid may even dish inwards. Any of those signs means air is entering the headspace.</p>"
+  ],
+  [
+   "Four ways to crash without suck-back",
+   "<ol><li><strong>Fit a carbon dioxide balloon or bag.</strong> Replace the airlock with a tube running to a sanitised balloon, a mylar bag or a spare airlock filled from a CO2 cylinder. As the headspace shrinks, it draws CO2 from the balloon instead of air.</li><li><strong>Crash under pressure.</strong> A fermenter that can hold a few psi, such as a pressure rated plastic or stainless unit, can be sealed and given a small charge of CO2. Nothing gets drawn in.</li><li><strong>Seal the fermenter just before crashing.</strong> Swapping the airlock for a solid bung or capped grommet stops suck-back. Some vacuum will form, so do this only with a rigid fermenter and never with glass, which can implode.</li><li><strong>Use a dry blocker.</strong> Sanitised foil over the airlock hole lets some air in but keeps out liquid and dust. It is the least good option, but better than a full blow-off jar.</li></ol>"
+  ],
+  [
+   "How cold and for how long",
+   "<p>Crash to about 0 to 4 °C. Most home fridges manage 3 to 5 °C, which is enough. If your fridge has a thermostat dial rather than a display, put a cheap probe thermometer against the fermenter wall to check. Twenty four to 72 hours settles most yeast and a good share of chill haze. Gelatine or other finings added after the first day speed things up further.</p><p>Do not crash until fermentation is finished and the gravity has been steady for two or three days. Crash early and the yeast drops out before cleaning up diacetyl. If you are bottle conditioning, enough yeast stays in suspension to carbonate the bottles even after a few days of cold.</p>"
+  ],
+  [
+   "Fitting a fermenter into an Indian kitchen fridge",
+   "<p>A 25 litre bucket rarely fits a standard double door fridge, which is why many Indian homebrewers own a second-hand single door unit with the shelves taken out. If that is not possible, smaller batches help. A 10 litre batch in a 12 litre fermenter fits almost anywhere.</p><p>Fridges fight hard against a warm 20 litre load in hot weather. The compressor may run for hours. Give it a day, keep the door shut and avoid crashing during a power cut if your area has scheduled outages. The same fridge with a temperature controller doubles as your fermentation chamber, which our guide on <a href=\"brewing-a-kolsch-style-ale-at-home-without-a-lager-fridge.html\">brewing a Kolsch without a lager fridge</a> puts to use.</p>"
+  ],
+  [
+   "Cold side process is where good beer is won",
+   "<p>Cold crashing looks like a small step. It sits within the cold side of brewing, where oxygen pickup, infection and haze are all decided. Many homebrewers get the hot side right and then lose the beer after fermentation ends. That is the stage worth learning properly.</p><p>Your first step: before your next crash, fill a party balloon from a CO2 cylinder or a soda siphon charger. Fit it to the airlock hole with a short tube, then switch the fridge on.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Will suck-back ruin my beer?",
+   "A little sanitiser will not. The air drawn in after it can stale the beer, especially pale and hoppy styles, so it is worth preventing."
+  ],
+  [
+   "How long should I cold crash homebrew?",
+   "Twenty four to 72 hours at 0 to 4 °C clears most beers. Make sure the gravity has been steady for a few days first."
+  ],
+  [
+   "Can I seal a glass carboy before cold crashing?",
+   "No. A sealed glass vessel under vacuum can crack or implode. Use a CO2 balloon or a foil cap instead."
+  ]
+ ],
+ "cta": {
+  "title": "Protect your beer after fermentation ends",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999) on Saturday and Sunday afternoons. It covers fermentation, cold crashing, clarity and packaging so your beer reaches the glass as clean as it left the fermenter.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-a-kolsch-style-ale-at-home-without-a-lager-fridge",
+  "brewing-a-lager-at-home",
+  "brewing-a-hazy-ipa-at-home-without-it-turning-brown"
+ ]
+}

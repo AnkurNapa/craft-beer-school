@@ -1,0 +1,67 @@
+{
+ "slug": "state-by-state-pricing-in-beer-for-planners",
+ "cat": "Beer for teams",
+ "h1": "State by state pricing in beer for planners",
+ "title": "State by State Beer Pricing for Planners | Craft Beer School",
+ "desc": "Why the same beer carries a different price in every Indian state, how the price is built and what a price change does to a volume plan.",
+ "teaser": "The same bottle of lager can cost very different amounts across a state border. Planners who know why forecast better.",
+ "standfirst": "In India, beer prices are built state by state from excise duty, state levies, corporation margins and retail margins. The brewer controls only part of the number. For a planner, each state is its own price market with its own rules on when and how prices move.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The consumer price is mostly not the brewer's",
+   "<p>Start with the bottle on the shelf. Its maximum retail price (MRP) is printed on the label. Behind that MRP sits a stack of components: the brewer's ex-factory price, state excise duty, other state levies or fees, the margin of the state corporation or distributor where one exists, retailer margin and tax. Depending on the state, duties and levies can be a large share of the final price, often larger than the brewer's own share.</p><p>That is why a lager can be noticeably cheaper on one side of a state border than the other. The beer is identical. The state structures are not. Our guide on <a href=\"how-beer-mrp-is-set-state-by-state-for-commercial-teams.html\">how beer MRP is set state by state</a> walks through the build for commercial teams.</p>"
+  ],
+  [
+   "Price changes happen on the state's calendar",
+   "<p>In most consumer goods, a company changes its price when it chooses. In Indian beer, many price changes depend on the state. Excise policy is commonly revised once a year, often around the start of the financial year in April. Duty changes can arrive with little notice. In some states the brewer must apply for a price change or register a new price for each brand and pack. Approval takes time.</p><p>For a planner, this means price is often a known event with an uncertain date rather than a lever the business pulls. A good plan carries the price assumption by state and month, with a note on whether it is approved, applied for or only expected.</p>"
+  ],
+  [
+   "Why consumers react to round numbers",
+   "<p>Beer in India is often bought by the bottle. Prices tend to sit at round figures. When a duty change pushes a 650 ml bottle across a psychological threshold, volume can respond more than the percentage change suggests. A 7% price rise that moves a bottle from one round number to the next can feel bigger to a shopper than its arithmetic.</p><p>Consumers also trade between packs and strengths. When strong beer rises in price, some shoppers move to a cheaper brand, some to a smaller pack and some to a different category altogether. Elasticity is not one number. It differs by state, by price band and by how close the nearest substitute is.</p>"
+  ],
+  [
+   "A worked example of a duty change",
+   "<p>Take an illustrative state where a brand sells 1,00,000 cases a month. A duty increase lifts the MRP by 8%. If the category shows an elasticity of around minus 0.5 in that state from past changes, the first estimate is a 4% fall, to 96,000 cases.</p><p>Now add timing. Retailers and the corporation often buy ahead of a known increase, so the month before may run high and the month after low. A planner might model 1,06,000 cases in the month before, 88,000 in the month of the change and a settled 96,000 after that. The total over three months is close to the simple estimate. The monthly shape is very different. The brewery has to plan tanks and packaging to that shape. These numbers are invented for the example. Use your own history to set the elasticity and the pull-forward.</p>"
+  ],
+  [
+   "Corporation states and open market states behave differently",
+   "<p>In some states a government corporation buys all beer from brewers and supplies retailers. In others, licensed distributors and wholesalers do the job. This changes what your data means. In a corporation state, your primary sales are orders from the corporation, which reflect its stock policy as much as consumer demand. In an open market state, primary sales sit closer to distributor sell-in.</p><p>Planners should forecast consumer offtake where they can see it, then translate it into primary orders with the channel's own stock behaviour. Our guide to <a href=\"route-to-market-in-indian-beer-state-corporations-depots.html\">route to market in Indian beer</a> covers the structures in more detail.</p>"
+  ],
+  [
+   "What the brewery needs from the price plan",
+   "<p>A price change changes the brand mix, the pack mix and sometimes the state mix. Each of those lands on the brewery as a different packaging schedule. A shift from 650 ml bottles to 500 ml cans, for example, needs canning line time that may already be committed. The more notice the supply team gets, the less overtime and stockout risk follows. <a href=\"beer-seasonality-for-demand-planners.html\">Seasonality</a> adds another layer, since price changes around April land on the start of the summer peak.</p><p>Price also feeds straight into revenue planning. Net revenue per case moves with every duty and margin change, so a volume plan without a matching price assumption by state will not reconcile to the finance plan. Agree one price file with finance and keep it versioned, so everyone forecasts from the same numbers.</p><p>A first step: list every state you plan, with the date of the last price change, the expected next window and whether it needs approval. One table like that will show where your plan is carrying the most price risk.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does beer cost different amounts in different Indian states?",
+   "Each state sets its own excise duty, levies and channel margins, so the same beer ends up with a different MRP in each state."
+  ],
+  [
+   "Can a brewer change beer prices whenever it wants in India?",
+   "Not usually. Many states require price registration or approval for each brand and pack. Duty changes follow the state's policy calendar."
+  ],
+  [
+   "What is price elasticity in beer planning?",
+   "It is how much volume changes when price changes. It varies by state, price band and pack, so it is best measured from past price changes in each market."
+  ],
+  [
+   "Why do sales spike before a price increase?",
+   "Retailers and corporations often buy ahead of a known increase to hold stock at the old price, then order less afterwards."
+  ]
+ ],
+ "cta": {
+  "title": "Give your planners the commercial context behind every price",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that show how pricing, regulation and production connect.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-seasonality-for-demand-planners",
+  "how-beer-mrp-is-set-state-by-state-for-commercial-teams",
+  "route-to-market-in-indian-beer-state-corporations-depots"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "infection-in-washbacks-and-how-to-spot-it",
+ "cat": "Whisky",
+ "h1": "Infection in washbacks and how to spot it",
+ "title": "Infection in Washbacks: How to Spot It | Craft Beer School",
+ "desc": "How to spot bacterial infection in whisky washbacks: pH, smell, gravity and yield signs, the difference from a healthy late lactic phase and what to do.",
+ "teaser": "Some bacteria in a long malt fermentation are welcome. Too many cost spirit. Here is how to tell the two apart.",
+ "standfirst": "Whisky wash is never boiled, so bacteria from the malt and the vessels are always present. The skill is knowing when they are adding character and when they are eating your yield.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Bacteria are always in the washback",
+   "<p>Brewers boil wort and kill almost everything. Malt distillers do not. The wort goes into the washback with the bacteria the malt and the plant carry. In a long fermentation, lactic acid bacteria grow late, after the yeast slows. Many distillers value the fruity, rounder character this late lactic phase brings to new make.</p><p>So the question is not whether bacteria are present. It is whether they arrive too early, grow too fast or include the wrong kinds. Our guide to <a href=\"wooden-versus-stainless-steel-washbacks.html\">wooden versus stainless washbacks</a> covers why vessel material changes the bacterial picture.</p>"
+  ],
+  [
+   "What a healthy fermentation looks like",
+   "<p>Know your normal before you hunt for abnormal. A typical malt wash starts at a gravity around 1.050 to 1.060, pH a little above 5 and a set temperature near 19 to 20 °C. The yeast takes the gravity down fast over the first two days while temperature rises, often into the low 30s °C. A clean wash finishes near 8% ABV, with pH somewhere around 4 to 4.5 depending on fermentation length.</p><p>Log these figures for every washback and you will see a pattern within a few weeks. Infection shows up as a departure from that pattern, long before anyone smells it. A washback that is two points behind its usual gravity at 24 hours, or 0.3 lower on pH than its neighbours, is worth a second look even if the wash still smells clean.</p>"
+  ],
+  [
+   "Signs that bacteria are winning",
+   "<ul><li><strong>pH falls too early or too far.</strong> A sharp drop in the first 24 hours, before the yeast has done its work, suggests bacteria got there first.</li><li><strong>Gravity stalls.</strong> Fermentation stops several points above your usual final gravity because acid and competition stress the yeast.</li><li><strong>Smell changes.</strong> Sour milk, vinegar, rotten egg or a sharp, peppery smell is a warning. A pungent, tear-making note in the still house can be acrolein, formed when certain bacteria convert glycerol.</li><li><strong>Yield drops.</strong> Litres of pure alcohol per tonne fall for no clear process reason. Bacteria consume sugar that yeast would have turned into ethanol.</li><li><strong>Foam or texture changes.</strong> Unusual, persistent foam or a slimy, ropey wash.</li></ul>"
+  ],
+  [
+   "Confirm it in the lab",
+   "<p>A microscope at 400x to 1000x magnification is cheap and fast. Healthy wash shows mostly oval yeast cells. Many rod shaped bacteria early in the fermentation, or a crowd of small cocci, confirms the suspicion. Plate samples on selective media every few weeks to see which bacteria are present and in what numbers.</p><p>Compare washbacks. If one vessel shows the problem and the rest do not, look at that vessel: a cracked seal, a dead leg in the fill line, a door gasket or a wooden washback that needs a deeper clean. If every washback shows it, look upstream at the heat exchanger, the yeast or the wort itself. Our guide to <a href=\"bacteria-in-long-whisky-fermentations.html\">bacteria in long whisky fermentations</a> explains the useful side of the same organisms.</p>"
+  ],
+  [
+   "Heat makes everything faster",
+   "<p>Indian ambient temperatures help bacteria. A washback filled at 25 °C instead of 19 °C, or one that climbs past 35 °C, stresses the yeast and gives lactic bacteria a head start. Wort coolers struggle on hot afternoons when cooling water itself is warm. Hoses, pumps and heat exchanger plates stay warm and damp between uses.</p><p>Short of chilling everything, the best defences are a set temperature you actually hold, a healthy pitch large enough to dominate early, clean transfer lines and fermentation times that suit your climate rather than a recipe copied from Scotland. A 100 hour fermentation that gives lovely fruit in a cool Highland still house may simply give more acid in a washback sitting at 34 °C.</p>"
+  ],
+  [
+   "Fix the source, not the symptom",
+   "<p>Running an infected wash through the still recovers what spirit there is, but the new make may carry sour or harsh notes. Keep it separate and assess it before filling casks. Then find the source. Clean and steam the suspect vessel and lines, check every gasket and dead leg and replace any hose you cannot be sure of.</p><p>Your first step: start a simple washback log today with pH and gravity at fill, 24 hours, 48 hours and at the end. Plot each washback against its own average. A vessel drifting out of line will show itself on a chart weeks before the yield report does.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Are bacteria always bad in whisky fermentation?",
+   "No. A late lactic phase in long malt fermentations is often welcome for the fruity character it adds. Problems start when bacteria grow early or in large numbers."
+  ],
+  [
+   "What pH does a healthy whisky wash finish at?",
+   "Commonly around 4 to 4.5 depending on fermentation length. A fast early drop is more of a warning than the final figure."
+  ],
+  [
+   "How do I confirm a washback infection?",
+   "Check a sample under a microscope for many rod shaped bacteria early in fermentation, then plate on selective media to identify them."
+  ]
+ ],
+ "cta": {
+  "title": "Spot washback problems before they cost yield",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers fermentation science, washback hygiene and the daily logs that show an infection early, with distillers who run both the plant and the data.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "wooden-versus-stainless-steel-washbacks",
+  "how-whisky-is-made",
+  "malt-grain-and-blended-whisky"
+ ]
+}

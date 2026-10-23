@@ -1,0 +1,63 @@
+{
+ "slug": "peated-and-unpeated-runs-in-one-distillery",
+ "cat": "Whisky",
+ "h1": "Peated and unpeated runs in one distillery",
+ "title": "Peated and Unpeated Runs in One Plant | Craft Beer School",
+ "desc": "How to run peated and unpeated malt through one distillery without smoke carryover: campaigns, cleaning, feints segregation and records.",
+ "teaser": "Peat smoke clings to everything it touches, including your feints receiver. Here is how to make both styles in one plant.",
+ "standfirst": "Many distilleries want a smoky whisky and an unsmoked one. Making both on the same mash tun, washbacks and stills is common practice, but only with planning, because peat character carries over far more easily than it washes out.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why carryover is the main problem",
+   "<p>Peated malt is dried over peat smoke, which leaves phenolic compounds on the grain. Malt is specified by its phenol content in parts per million (ppm). Lightly peated malt may sit in single figures, while heavily peated malt is often specified somewhere around 40 to 50 ppm or higher. Our guide to <a href=\"peating-levels-in-phenol-ppm-explained.html\">peating levels in phenol ppm</a> explains how it is measured.</p><p>Phenols are sticky. They cling to the mill, the mash tun, washbacks, copper and above all to feints, which are redistilled again and again. Run unpeated malt straight after a peated campaign and the first batches will usually carry a smoky edge. That may be acceptable in some blends; it is a fault in a whisky sold as unpeated.</p><p>Only part of the malt's phenols reach the new make. Much is lost in mashing, fermentation and the cuts, so spirit from 40 ppm malt measures far lower than 40 ppm. That is also why the cut points on a peated run matter: phenols tend to come over late, so a later cut to feints keeps more smoke in the hearts and more in the feints receiver too.</p>"
+  ],
+  [
+   "Run peat in campaigns",
+   "<p>Most distilleries that make both styles do not alternate batch by batch. They run campaigns: several weeks of unpeated, then several weeks of peated, then back. Fewer changeovers mean fewer cleaning cycles and less spirit lost to carryover.</p><p>The usual order is unpeated first, peated second. Moving from clean to smoky costs nothing, because a trace of unpeated spirit in a peated run does no harm. Moving from smoky to clean is where the work is. Plan the calendar so each changeover from peated to unpeated falls before a scheduled cleaning or maintenance stop. Peated malt also tends to cost more and may need ordering further ahead from the maltster, so the campaign plan and the malt order should be made together.</p>"
+  ],
+  [
+   "Segregate feints and low wines",
+   "<p>The feints receiver is the biggest source of carryover. Every spirit still run sends foreshots and feints back for redistillation. After a peated campaign, that receiver holds smoky feints that will flavour every unpeated charge for weeks if you keep using it.</p><p>The cleanest answer is separate feints and low wines receivers for each style. Where that is not possible, distilleries commonly:</p><ul><li>Run the feints receiver down as far as possible at the end of the peated campaign.</li><li>Redistil leftover peated feints at the start of the next peated campaign, not into unpeated spirit.</li><li>Track the LPA held back, because it belongs in your yield and excise accounts.</li></ul><p>Our guide to <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs</a> shows why feints stock movements matter to yield reporting.</p>"
+  ],
+  [
+   "Clean the plant at changeover",
+   "<p>At the switch from peated to unpeated, clean every surface the peated product touched. A sensible sequence: clear and clean the malt intake and mill, clean the mash tun and wort lines, clean washbacks with the usual detergent cycle and clean or steam the stills and condensers. Copper surfaces can hold phenolic character, so many distillers follow cleaning with one or more flush runs before collecting spirit for unpeated casks.</p><p>Wooden washbacks are harder to clean of phenols than stainless ones. If you run both styles, consider which vessels will hold peated wash and keep it that way.</p>"
+  ],
+  [
+   "Test the first unpeated spirit",
+   "<p>After a changeover, keep the first unpeated new make separate. Nose it diluted to around 20% ABV against a reference sample of normal unpeated spirit. A trained panel picks up low phenol levels easily, especially warm. If the distillery has access to a lab, phenol analysis of new make gives a number to set your own release limit against.</p><p>Spirit with a light smoky trace can often go into casks marked for blending or for a lightly peated release. Record where every cask of changeover spirit went so it cannot surprise anyone in five years. Note the campaign and run numbers on each cask record as well, so a blender can trace any smoky surprise back to the changeover that caused it.</p>"
+  ],
+  [
+   "Plan the calendar before the malt order",
+   "<p>Your first step: draw a twelve month calendar with peated and unpeated campaigns, cleaning stops and changeovers marked. Use it to place your malt orders, size the feints receivers you need and schedule a sensory check on the first run of every unpeated campaign. The calendar makes carryover a planned cost instead of a recurring surprise.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can one distillery make both peated and unpeated whisky?",
+   "Yes. Most do it in campaigns, with cleaning and separate feints handling at each changeover from peated to unpeated."
+  ],
+  [
+   "Why is the feints receiver a problem with peated runs?",
+   "Feints are redistilled repeatedly, so phenols in the receiver carry smoky character into later charges unless peated feints are kept apart."
+  ],
+  [
+   "Which order should peated and unpeated campaigns run in?",
+   "Usually unpeated first, then peated, because traces of unpeated spirit do no harm in a smoky run but the reverse does."
+  ]
+ ],
+ "cta": {
+  "title": "Make two styles without one spoiling the other",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers peated malt, fermentation, distillation and feints management, so you can plan campaigns and keep each new make true to style.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "a-vertical-tasting-of-one-distillery",
+  "distillery-kpis-for-analysts",
+  "ex-bourbon-sherry-and-wine-casks"
+ ]
+}

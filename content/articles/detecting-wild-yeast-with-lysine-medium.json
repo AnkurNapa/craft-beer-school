@@ -1,0 +1,71 @@
+{
+ "slug": "detecting-wild-yeast-with-lysine-medium",
+ "cat": "Brewing science",
+ "h1": "Detecting wild yeast with lysine medium",
+ "title": "Detecting Wild Yeast with Lysine Medium | Craft Beer School",
+ "desc": "How lysine medium finds non-Saccharomyces wild yeast in brewery slurry, how to run it properly and which wild yeasts it misses.",
+ "teaser": "Your culture yeast cannot grow on lysine. Many wild yeasts can. That simple fact makes a cheap wild yeast test.",
+ "standfirst": "Finding a handful of wild yeast cells among millions of culture yeast cells is hard. Lysine medium solves part of the problem by starving the culture yeast. It works well if you know what it can and cannot see.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why wild yeast is hard to find",
+   "<p>A brewery yeast slurry holds hundreds of millions of cells per millilitre. A wild yeast contamination at one cell in a million is enough to cause trouble over a few generations. On a general medium such as WLN, a few wild colonies are buried among thousands of culture yeast colonies.</p><p>Selective media get around this by preventing the culture yeast from growing while allowing wild yeasts to grow. Lysine medium is one of the oldest and simplest.</p>"
+  ],
+  [
+   "How lysine medium works",
+   "<p>Lysine medium contains lysine as the only source of nitrogen, along with sugars, vitamins and minerals. Brewing yeasts, both ale (Saccharomyces cerevisiae) and lager (Saccharomyces pastorianus), cannot use lysine as a nitrogen source. Many non Saccharomyces wild yeasts, such as Pichia, Candida and Hanseniaspora species, can.</p><p>So when you spread slurry on lysine agar, culture yeast cannot form proper colonies. Wild yeasts that use lysine grow into visible colonies within a few days.</p>"
+  ],
+  [
+   "The washing step matters",
+   "<p>Yeast cells carry stored nitrogen from the wort they grew in. If you plate slurry straight onto lysine medium, culture yeast uses that reserve to grow a few generations and forms tiny colonies. Those can be mistaken for wild yeast.</p><p>To avoid this, wash the cells first. Spin down a slurry sample, pour off the liquid, resuspend in sterile water or saline and repeat two or three times. Some methods also starve the cells briefly in sterile water. Washed cells have far less carry over nitrogen, so culture yeast stays small or invisible.</p>"
+  ],
+  [
+   "Running the test",
+   "<ol><li>Count the slurry so you know how many cells you plate.</li><li>Wash the cells as above.</li><li>Spread a known number of cells, often in the range of a million or more, on lysine agar plates. More cells make the test more sensitive.</li><li>Incubate aerobically at around 25 to 27 °C for three to five days.</li><li>Count colonies of normal size. Ignore pinpoint colonies that match the expected background from culture yeast.</li></ol><p>Express the result as wild yeast per million culture yeast cells. That gives a number you can compare across generations. Our guide to <a href=\"yeast-growth-phases.html\">yeast growth phases</a> explains why healthy slurry handling matters.</p>"
+  ],
+  [
+   "What lysine medium misses",
+   "<p>Lysine medium does not detect wild Saccharomyces. That includes diastaticus, the starch eating variant of Saccharomyces cerevisiae that can over carbonate packaged beer. It also includes many wild Saccharomyces strains that cause phenolic off flavours. They cannot use lysine any more than your culture yeast can.</p><p>For wild Saccharomyces, brewers use other media, such as copper sulphate or crystal violet media, or PCR tests that target specific genes such as STA1 for diastaticus. Our guide to <a href=\"phenolic-off-flavours-from-wild-yeast.html\">phenolic off flavours from wild yeast</a> covers what those yeasts do to beer.</p>"
+  ],
+  [
+   "How often to test",
+   "<p>A practical schedule for a small brewery:</p><ul><li>Test each new culture when it arrives or after propagation.</li><li>Test every few generations of repitched yeast, for example every third generation.</li><li>Test whenever a fermentation behaves oddly, such as unusual attenuation, phenolic notes or a change in flocculation.</li></ul><p>Keep records for each strain and generation. A slowly rising wild yeast count across generations is a strong reason to start fresh from a clean culture.</p>"
+  ],
+  [
+   "Reading colonies and avoiding mistakes",
+   "<p>Colonies on lysine medium need careful reading. Culture yeast with carry over nutrients can form tiny, pinpoint colonies. Wild yeasts usually form larger, well defined colonies of normal size within three to five days. If you are unsure, pick a colony and look at it under a microscope. Many wild yeasts have shapes that differ from culture yeast: elongated cells, apiculate (lemon shaped) cells or pseudohyphae.</p><p>Mistakes to avoid:</p><ul><li>Plating too few cells, which makes the test too insensitive to catch low level contamination.</li><li>Skipping the washing step, which lets culture yeast grow and cloud the result.</li><li>Reading plates too early, before wild yeast colonies are visible.</li><li>Using a single plate. Two or three plates per sample give a more reliable count.</li></ul><p>Run a positive control occasionally with a known wild yeast, if you have one in a culture collection, to confirm the medium works.</p>"
+  ],
+  [
+   "Building the habit",
+   "<p>Lysine medium is cheap and simple, but its value comes from doing it regularly and recording results. A single test tells you little. A record across twenty generations tells you how clean your yeast handling really is.</p><p>Choosing the right wild yeast tests, including the ones lysine medium cannot replace, is part of the microbiology we teach on the advanced course.</p><p>Your first step: order a small batch of lysine agar and run it on your oldest active yeast generation.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why can brewing yeast not grow on lysine medium?",
+   "Brewing strains of Saccharomyces cannot use lysine as their only nitrogen source, while many non Saccharomyces wild yeasts can."
+  ],
+  [
+   "Does lysine medium detect diastaticus?",
+   "No. Diastaticus is a Saccharomyces and cannot grow on lysine, so it needs other media or a PCR test for the STA1 gene."
+  ],
+  [
+   "Why wash yeast before plating on lysine?",
+   "Washing removes stored nitrogen that would let culture yeast grow small colonies and be mistaken for wild yeast."
+  ]
+ ],
+ "cta": {
+  "title": "Keep your yeast clean across generations",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers yeast management, brewery microbiology and wild yeast detection so you can repitch with confidence.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "phenolic-off-flavours-from-wild-yeast",
+  "wort-aeration-and-oxygen",
+  "yeast-growth-phases"
+ ]
+}

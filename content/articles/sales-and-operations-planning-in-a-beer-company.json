@@ -1,0 +1,67 @@
+{
+ "slug": "sales-and-operations-planning-in-a-beer-company",
+ "cat": "Beer for teams",
+ "h1": "Sales and operations planning in a beer company",
+ "title": "Sales and Operations Planning in Beer | Craft Beer School",
+ "desc": "How S&OP works in a beer company: the monthly cycle, the brewing and packaging limits it must respect and the decisions it should produce.",
+ "teaser": "S&OP in beer is a monthly argument between sales and the tanks. Run well, it ends with a decision. Run badly, it ends with a deck.",
+ "standfirst": "Sales and operations planning matches what the market wants with what the brewery can make. In beer, tank time, packaging lines and state permits set hard limits. This guide shows how the monthly cycle works and where it usually breaks.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "S&OP is one plan everyone signs up to",
+   "<p>Sales and operations planning (S&OP) is a monthly process that turns separate plans into one. Sales has a volume target. The brewery has capacity. Finance has a budget. Procurement has contracts. Left alone, these drift apart within weeks. S&OP brings them back to one agreed plan, usually looking 12 to 18 months ahead, with the next few months locked in more detail.</p><p>The textbook cycle has five steps, each roughly a week apart:</p><ol><li>Data gathering: last month's actuals, stock and forecast accuracy.</li><li>Demand review: sales and marketing agree the unconstrained forecast.</li><li>Supply review: the brewery tests that forecast against capacity.</li><li>Pre-S&OP: planners and finance resolve gaps and prepare options.</li><li>Executive S&OP: leaders choose between options and commit.</li></ol>"
+  ],
+  [
+   "The brewery has limits a spreadsheet forgets",
+   "<p>Supply review is where beer differs from most consumer goods. The brewhouse might make a certain number of brews a day, but the real limit is often tank time. A lager that needs three to four weeks in a fermenter and maturation tank ties up that tank for the whole period. If summer demand needs 30% more lager, the question is not whether the brewhouse can brew it but whether the tanks can hold it long enough.</p><p>Packaging lines are the other constraint. A bottle line, a can line and a keg line each have their own speeds and changeover times. Changing from one brand or one state's labels to another costs time, so short runs eat capacity. Our guide to <a href=\"beer-production-planning-basics.html\">beer production planning</a> explains how planners sequence brews and runs.</p>"
+  ],
+  [
+   "Materials and permits sit in the supply review too",
+   "<p>Beer needs more than liquid to ship. Glass bottles, cans, crowns, labels and cartons all have lead times. Returnable glass depends on empties coming back from the trade, which slows in peak season just when demand rises. Excise labels for each state must be requested and received before packing.</p><p>Then there are permits. Moving beer into a state usually needs paperwork from the destination's excise department. Approvals take time. A plan that ignores permit timing will show stock ready to ship that cannot legally move. Rules vary by state and change, so the supply review should include whoever owns excise compliance.</p>"
+  ],
+  [
+   "Demand review needs the product view",
+   "<p>The demand review should start from consumer demand, not last year's shipments. Depletions, retail data and weather all help. Our guide to <a href=\"shipments-vs-depletions-beer-sales-data.html\">shipments versus depletions</a> explains why shipments alone mislead.</p><p>It should also flag anything that changes the beer itself: a new brand, a pack change from 650 ml glass to 500 ml cans, a state duty revision that moves MRP. Each changes the volume mix the brewery must make. A 10% shift from bottles to cans can leave volume flat while overloading the can line and idling the bottle line.</p>"
+  ],
+  [
+   "The executive meeting should end in a decision",
+   "<p>The final meeting is not a status update. It should present two or three options with their cost and service consequences, then choose. For example: build lager stock in February to cover April, accepting higher warehouse cost and older beer, or run extra shifts in April with overtime cost and changeover risk.</p><p>Finance matters here because volume and value differ in beer. Excise is a large share of gross sales and differs by state, so a shift in state mix can change revenue sharply with the same hectolitres. Our guide to <a href=\"gross-and-net-sales-in-beer-and-how-excise-distorts-the-p-l.html\">gross and net sales in beer</a> shows how.</p>"
+  ],
+  [
+   "Stock targets turn the plan into tanks and pallets",
+   "<p>The plan only works if it says how much finished beer to hold and where. Most beer companies set a stock target in days of cover: finished goods divided by average daily sales. Ten days of cover for a fast lager SKU in a hot state might be sensible. Forty days for a slow wheat beer is not, because a wheat beer is best drunk young and will lose its fresh character in a warm godown.</p><p>Days of cover links S&OP to quality as well as cash. Too little and the trade runs dry in a heatwave. Too much and the brewery is paying to store beer that gets older every day. The executive meeting should see cover by SKU and state, with freshness, not only by value.</p>"
+  ],
+  [
+   "Where it usually goes wrong",
+   "<p>The common failures are predictable. The forecast is a target in disguise, so supply builds stock for sales that never come. The supply review checks brewhouse capacity but not tank time. Finance runs a separate number. The executive meeting reviews the past instead of choosing the future. Freshness gets forgotten: beer is best drunk fresh, so building stock too early has a quality cost that never shows in a capacity chart.</p><p>Your first step: sit in on one supply review and ask one question. Which constraint bound last month, the brewhouse, the tanks, the packaging line or the materials? If nobody knows, that is where the plan is weakest.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How often does S&OP run in a beer company?",
+   "Monthly is standard. Each month the plan is refreshed through data, demand, supply, reconciliation and executive steps."
+  ],
+  [
+   "What is the main capacity constraint in a brewery?",
+   "Often it is tank time rather than brewhouse output, because lager occupies fermentation and maturation tanks for several weeks. Packaging lines are the other frequent limit."
+  ],
+  [
+   "Why does excise matter in beer S&OP?",
+   "Each state taxes beer differently and needs its own labels and permits. State mix changes revenue. Permit timing decides when stock can legally move."
+  ]
+ ],
+ "cta": {
+  "title": "Help your planning team see the brewery behind the plan",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-production-planning-basics",
+  "shipments-vs-depletions-beer-sales-data",
+  "gross-and-net-sales-in-beer-and-how-excise-distorts-the-p-l"
+ ]
+}

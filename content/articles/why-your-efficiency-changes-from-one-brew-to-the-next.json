@@ -1,0 +1,67 @@
+{
+ "slug": "why-your-efficiency-changes-from-one-brew-to-the-next",
+ "cat": "Brewing basics",
+ "h1": "Why your efficiency changes from one brew to the next",
+ "title": "Why Your Brewhouse Efficiency Changes | Craft Beer School",
+ "desc": "Why homebrew efficiency swings between batches: crush, volume errors, mash pH, sparging and grain bill size, plus how to track down the cause.",
+ "teaser": "Seventy-two per cent last month, sixty-five this month, same recipe. The cause is usually one of six things.",
+ "standfirst": "Efficiency is how much of the malt's sugar ends up in your wort. When it jumps around, your gravity and your beer jump with it. Here is how we track down the cause.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two kinds of efficiency",
+   "<p>Homebrewers use the word for two different numbers. Mash efficiency measures how much of the malt's potential sugar made it out of the mash and into the kettle. Brewhouse efficiency, sometimes called overall efficiency, measures how much made it into the fermenter after the boil, trub losses and the wort left in the kettle.</p><p>Mixing them up is the first source of confusion. A brewer who reads mash efficiency one week and brewhouse efficiency the next will see a swing of several points with nothing changed. Decide which number you track, write it at the top of your log and stick with it. Recipe software usually asks for brewhouse efficiency, because that is what predicts original gravity in the fermenter.</p>"
+  ],
+  [
+   "Measurement error comes first",
+   "<p>Before blaming the mash, check the measuring. Efficiency is calculated from gravity and volume. Errors in either change the result.</p><ul><li><strong>Volume.</strong> Hot wort expands. Wort near boiling takes up about 4% more space than the same wort at 20 °C. Measure at the same temperature every time, or correct for it.</li><li><strong>Kettle markings.</strong> A dip stick marked by eye can be off by half a litre. On a 20 litre batch that alone moves efficiency by a couple of points.</li><li><strong>Gravity temperature.</strong> A hydrometer sample at 35 °C reads low unless corrected.</li><li><strong>Weighing.</strong> Kitchen scales drift. Check yours with a known weight, such as a sealed 1 kg bag of sugar.</li></ul><p>Fix these first. Many efficiency mysteries disappear once measuring is consistent.</p>"
+  ],
+  [
+   "The crush is the biggest lever",
+   "<p>Of everything in the mash, the mill gap changes efficiency most. A coarse crush leaves starch locked inside grain pieces where water and enzymes cannot reach it. A fine crush exposes more starch but can cause a stuck sparge in a traditional mash tun.</p><p>A roller mill gap of around 1 mm is a common starting point for general use. Brew in a bag brewers can go finer because the bag acts as the filter. If you buy pre-milled malt, efficiency can change between orders because the shop's mill setting or its operator changed. If your efficiency drops suddenly, look at a handful of the crushed grain. Lots of whole kernels means the crush was too coarse.</p>"
+  ],
+  [
+   "Mash conditions",
+   "<p>Enzymes need the right temperature, pH and time. Each one can move efficiency:</p><ul><li><strong>Temperature.</strong> A thermometer reading two degrees off pushes the mash away from where conversion is fastest.</li><li><strong>pH.</strong> Mash pH between about 5.2 and 5.6 suits the enzymes. Some Indian borewell water is high in carbonate, which pushes mash pH up, especially with pale grain bills.</li><li><strong>Time.</strong> A shortened mash on a busy day may not finish converting, particularly with less modified malt or a lot of adjunct.</li></ul><p>An iodine test on a few drops of mash liquid shows whether starch remains. Black-purple means conversion is not finished.</p>"
+  ],
+  [
+   "Sparging and grain bill size",
+   "<p>How you rinse the grain matters. A fly sparge run too fast channels through the bed. A batch sparge with unequal runnings leaves sugar behind. Changing method changes efficiency, so compare like with like. Our guide to <a href=\"batch-sparging-versus-fly-sparging-at-home.html\">batch and fly sparging</a> covers the trade-off.</p><p>Bigger beers also get lower efficiency on the same kit. A 1.080 wort leaves more sugar trapped in the grain bed than a 1.045 wort, because the same volume of sparge water has more to rinse out. If you brew a strong ale after a session bitter and your efficiency drops several points, that is expected rather than a fault.</p>"
+  ],
+  [
+   "Malt and losses",
+   "<p>Malt itself varies. Extract potential differs between maltsters, varieties and harvest years. Imported malt that has sat in a humid Indian warehouse can pick up moisture, which means less extract per kilogram bought. Store opened sacks sealed and in the coolest spot you have.</p><p>Finally, look at where wort is left behind: the dead space under a false bottom, the trub in the kettle, the hop debris. A new hop spider or kettle can change brewhouse efficiency without the mash changing at all. Separating mash losses from kettle losses is where reading efficiency becomes a real diagnostic tool. It is part of what we teach on our fundamentals course.</p>"
+  ],
+  [
+   "Track one change at a time",
+   "<p>Start a simple table in your <a href=\"keeping-a-brew-log.html\">brew log</a>: grain weight, crush source, mash temperature, mash pH if you have a meter, pre-boil volume and gravity, post-boil volume and gravity. Fill it in for the next three brews without changing your process. Once the numbers settle, change one thing at a time and watch which column moves.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a normal brewhouse efficiency for homebrewing?",
+   "Many homebrew systems land somewhere around 65 to 80%. Consistency matters more than the number, because recipes can be scaled to whatever your system gives."
+  ],
+  [
+   "Why is my efficiency lower on strong beers?",
+   "A high gravity mash leaves more sugar trapped in the grain bed, so the same sparge rinses out a smaller share of it."
+  ],
+  [
+   "Does crush size affect efficiency?",
+   "Yes, more than almost anything else in the mash. A coarse crush leaves starch unreachable inside grain pieces."
+  ]
+ ],
+ "cta": {
+  "title": "Hit your numbers on every batch",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It covers mashing, extract and efficiency so you can find the cause when numbers drift instead of guessing.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "are-electric-all-in-one-brewing-systems-worth-the-money",
+  "what-a-blow-off-tube-does-and-when-you-need-one",
+  "splitting-one-batch-of-wort-between-two-yeast-strains"
+ ]
+}

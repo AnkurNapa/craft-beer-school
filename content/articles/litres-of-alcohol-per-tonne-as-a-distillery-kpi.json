@@ -1,0 +1,67 @@
+{
+ "slug": "litres-of-alcohol-per-tonne-as-a-distillery-kpi",
+ "cat": "Whisky",
+ "h1": "Litres of alcohol per tonne as a distillery KPI",
+ "title": "Litres of Alcohol per Tonne as a KPI | Craft Beer School",
+ "desc": "What litres of alcohol per tonne measures in a whisky distillery, how to calculate it, where the losses hide and how to compare it fairly.",
+ "teaser": "Litres of alcohol per tonne is the yield number every distillery manager watches. Here is what moves it.",
+ "standfirst": "Litres of alcohol per tonne tells you how much spirit a distillery gets from its grain. It is simple to calculate and easy to misread. This guide explains the number, the losses behind it and the traps in comparing it across sites.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the number measures",
+   "<p>Litres of alcohol per tonne (LA per tonne, or LPA per tonne) is the volume of pure alcohol a distillery collects for every tonne of grain it mashes. Pure alcohol means the spirit volume multiplied by its alcoholic strength, so 1,000 litres of new make at 63.5% ABV counts as 635 litres of alcohol.</p><p>The calculation is plain division. A malt distillery that mashes 10 tonnes of malt in a week and collects 4,000 litres of alcohol in the spirit receiver has achieved 400 LA per tonne. Grain is the largest raw material cost in whisky, so every litre lost between the malt intake and the spirit receiver is money and grain thrown away.</p>"
+  ],
+  [
+   "The target comes from the malt specification",
+   "<p>Distilling malt is bought against a specification. One of its numbers is the <strong>predicted spirit yield</strong>: the litres of alcohol per tonne that the maltster's laboratory method says the malt should give under standard conditions. Modern distilling barley varieties are commonly specified above 400 litres per tonne.</p><p>That gives a fair way to read the KPI. If a batch of malt has a predicted spirit yield of 420 and the distillery achieves 400, process efficiency is 400 divided by 420, or 95.2%. An absolute number on its own says little. The gap against what the malt could give says a lot.</p><p>Exact predicted yields and achieved yields vary with barley variety, harvest and site, so each distillery should build its target from its own malt certificates.</p>"
+  ],
+  [
+   "Where the litres go",
+   "<p>Losses build up through every step of the process. A distillery manager looks in this order.</p><ol><li><strong>Milling.</strong> The grist must be ground to the right balance of husk, grits and flour. Too coarse and starch stays locked in the grits. Too fine and the mash tun drains badly.</li><li><strong>Mashing.</strong> Malt whisky mashes usually run at around 63 to 65 °C so the enzymes convert starch to sugar. Too hot and the enzymes are damaged early.</li><li><strong>Draff and sparging.</strong> Sugar left behind in the spent grain (draff) never reaches the washback.</li><li><strong>Fermentation.</strong> Yeast uses some sugar to grow and makes small amounts of glycerol and other by-products. Bacterial infection steals more.</li><li><strong>Distillation.</strong> Heads and tails (foreshots and feints) are recycled into the next distillation, so little is lost if the cuts are managed well. Alcohol left in pot ale and spent lees is lost.</li></ol>"
+  ],
+  [
+   "What the KPI looks like on the floor",
+   "<p>On the floor, a yield problem rarely shows up as a dramatic failure. It looks like a slightly high gravity left in the wash at the end of fermentation, a mash tun that took twenty minutes longer to run off or a mill gap nobody has checked since the last service. Each costs a few litres per tonne. Together they make a gap that finance notices at year end.</p><p>That is why good distilleries track yield per batch, not per month. A monthly average hides the one bad mash that cost a week's improvement.</p>"
+  ],
+  [
+   "Comparing yields fairly",
+   "<p>Analysts asked to benchmark LA per tonne across sites hit three traps.</p><ul><li><strong>Moisture basis.</strong> Malt typically holds a few per cent moisture. Yield per tonne as received is lower than yield per tonne of dry malt. Every site must use the same basis.</li><li><strong>Grain type.</strong> Malt distilleries, grain distilleries using wheat or maize and Indian distilleries running molasses are not comparable on one chart. Molasses is measured per tonne of molasses with its own sugar content.</li><li><strong>Measurement point.</strong> Is the alcohol measured at the spirit receiver, at cask filling or after a stock adjustment? Choose one point and stick to it.</li></ul><p>Our guide to <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs for analysts</a> places this measure alongside the others.</p>"
+  ],
+  [
+   "Why excise cares as much as finance",
+   "<p>In India, spirit production is supervised by the state excise department. Litres of alcohol produced are recorded and reconciled against the grain or molasses used and the spirit held in stock. A yield far above what the raw material could give raises questions, as does one far below. Accurate yield data is part of keeping excise records straight. Rules vary by state and change, so the excise team should work from the current notification.</p><p>For the units behind all of this, see our guide to <a href=\"proof-abv-and-litres-of-pure-alcohol.html\">proof, ABV and litres of pure alcohol</a>.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Ask for the last three months of mashing records with tonnes mashed and litres of alcohol collected per batch, plus the predicted spirit yield on each malt delivery. Plot achieved yield as a percentage of predicted yield, batch by batch. The batches at the bottom of that chart are where the production team should look first.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How is litres of alcohol per tonne calculated?",
+   "Divide the litres of pure alcohol collected by the tonnes of grain mashed. Pure alcohol is spirit volume multiplied by its alcoholic strength."
+  ],
+  [
+   "What is a good yield for a malt whisky distillery?",
+   "Compare achieved yield with the predicted spirit yield on the malt specification. The percentage of predicted yield achieved is a fairer measure than the absolute number."
+  ],
+  [
+   "Can yields be compared across distilleries?",
+   "Only on the same moisture basis, raw material and measurement point. Malt, grain and molasses distilleries are not comparable on one chart."
+  ]
+ ],
+ "cta": {
+  "title": "Yield numbers nobody can explain",
+  "body": "Our Brewing and distilling operations module is built around your team's own portfolio, so the examples are your brands, your states and your data.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "distillery-kpis-for-analysts",
+  "proof-abv-and-litres-of-pure-alcohol",
+  "a-career-as-a-distillery-qc-chemist"
+ ]
+}

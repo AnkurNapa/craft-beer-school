@@ -1,0 +1,71 @@
+{
+ "slug": "measuring-water-use-per-litre-of-beer",
+ "cat": "Business",
+ "h1": "Measuring water use per litre of beer",
+ "title": "Measuring Water Use Per Litre of Beer | Craft Beer School",
+ "desc": "How to measure your brewery's water to beer ratio: where to put meters, what to record daily and the benchmark ranges to compare against.",
+ "teaser": "Every brewery has a water to beer ratio. Most small ones have never measured it.",
+ "standfirst": "Water use per litre of beer is the simplest measure of how efficiently a brewery runs. It shows up in your utility bill, your effluent plant and your borewell. We explain how to measure it properly and what the number tells you.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the ratio means",
+   "<p>The water to beer ratio is total water used by the brewery divided by beer sold, in the same units. If a brewery uses 7,000 litres of water to make 1,000 litres of beer, its ratio is 7 to 1, often written as 7 hl/hl.</p><p>Only about one litre of that ends up in the beer. The rest goes into brewing losses, cleaning, cooling, packaging, steam and staff use. Large, modern breweries commonly report figures around 3 to 4 litres per litre. Small craft breweries usually run higher, often somewhere between 5 and 10, because small batches mean more cleaning per litre made.</p>"
+  ],
+  [
+   "Where the water goes",
+   "<p>Before you measure, know the main streams:</p><ul><li><strong>The beer itself.</strong> About 1 litre per litre.</li><li><strong>Grain absorption.</strong> Spent grain holds roughly 1 litre of water per kg of grain. At about 18 kg of malt per hectolitre, that is around 0.2 litres per litre of beer.</li><li><strong>Boil-off.</strong> A kettle commonly evaporates several percent of its volume per hour of boil.</li><li><strong>Cleaning.</strong> CIP rinses and floor washing, often the biggest single stream in a small brewery.</li><li><strong>Cooling.</strong> The wort cooler, glycol system and any cooling tower.</li><li><strong>Packaging.</strong> Keg washing, rinsers and line flushes.</li></ul><p>Knowing the streams tells you where to put meters and where savings are likely.</p>"
+  ],
+  [
+   "Put meters where decisions are made",
+   "<p>One main meter gives you the ratio. It does not tell you why it moved. Add sub-meters on the streams you can change: the hot liquor tank feed, the CIP set, the packaging area and the utility block. Simple mechanical water meters are cheap and need no power. Pulse output meters can feed a spreadsheet or a dashboard later if you want.</p><p>Record the readings at the same time each day. Weekly is the minimum. Daily readings show you the morning someone left a hose running overnight, which weekly readings bury. Our guide to <a href=\"brewery-utilities-water-power.html\">brewery utilities, water and power</a> covers the wider utility picture.</p>"
+  ],
+  [
+   "Divide by the right number",
+   "<p>Use beer packaged or sold in the same period as the divisor, not beer brewed. Beer brewed this week may not be packaged for a month. Over a single week the ratio jumps around for that reason. Over a month it settles. Track a rolling monthly figure and compare month to month.</p><p>Be consistent about what counts. If the brewpub kitchen and toilets share the meter, either sub-meter them or note that the figure includes them. A ratio that changes definition every quarter is no use for decisions.</p>"
+  ],
+  [
+   "Where the quick savings usually are",
+   "<p>The wort cooler is often the best place to start. Cold liquor going through the heat exchanger comes out hot, often around 75 to 80 °C. Collect it in the hot liquor tank for the next brew or for cleaning, rather than sending it to drain. Many brewers find this one change saves a large share of brewhouse water.</p><p>After that, look at cleaning. Recover the final CIP rinse to use as the next pre-rinse. Fit trigger nozzles on hoses. Check CIP cycle times against what the cleaning actually needs. Our guide to <a href=\"cip-water-and-chemical-savings.html\">CIP water and chemical savings</a> goes into the detail.</p>"
+  ],
+  [
+   "Make the number visible",
+   "<p>Measurement only changes behaviour when people see it. Put the weekly ratio on a whiteboard in the brewery. Mark the target and the trend. When a number jumps, ask the team what happened that week. Usually someone already knows.</p><p>Turning daily meter readings into a ratio, a trend and a target is a small data habit with a large return. It is also the foundation for any sustainability reporting your customers or investors may ask for later.</p>"
+  ],
+  [
+   "Set a target you can defend",
+   "<p>Once you have three months of data, set a target for the next twelve. A drop of one litre per litre is a common first aim for a small brewery starting from a high ratio, but base yours on the streams you have found. If the wort cooler water is already recovered, the next litre has to come from cleaning or packaging.</p><p>Watch for false progress. A busy month makes the ratio look better because cleaning is spread over more beer. A quiet month makes it look worse for the same reason. Compare months with similar volumes, or plot the ratio against volume so you can see whether the brewery is really improving or just busier.</p><p>Effluent follows water. Every litre you save at the tap is a litre you do not have to treat before discharge, which matters if your effluent plant is close to its limit.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Read your main water meter today and again at the same time tomorrow. Do it every day for four weeks. At the end of the month, divide total water used by litres of beer packaged. That is your first honest water to beer ratio.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good water to beer ratio?",
+   "Large breweries often report around 3 to 4 litres of water per litre of beer. Small craft breweries commonly sit higher, often 5 to 10. The trend in your own brewery matters more than any benchmark."
+  ],
+  [
+   "Should I divide by beer brewed or beer sold?",
+   "Use beer packaged or sold over the same period. Track a monthly figure so timing differences even out."
+  ],
+  [
+   "Where is the easiest place to save water in a brewery?",
+   "Often the wort cooler. Collect the hot water it produces for the next brew or for cleaning rather than sending it to drain."
+  ]
+ ],
+ "cta": {
+  "title": "Run your brewery on measured numbers",
+  "body": "Brewery Business Management is a three week live course on Saturdays and Sundays, 12:00 PM to 2:00 PM IST, with a maximum of 20 students per batch, recordings, weekly assignments and a certificate (₹8,999).",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "cost-per-litre-beer",
+  "brewery-utilities-water-power",
+  "mobile-canning-services-and-when-a-small-brewery-should-use"
+ ]
+}

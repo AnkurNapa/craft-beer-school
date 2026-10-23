@@ -1,0 +1,71 @@
+{
+ "slug": "humidity-and-strength-change-in-the-cask",
+ "cat": "Whisky",
+ "h1": "Humidity and strength change in the cask",
+ "title": "Humidity and strength change in the cask | Craft Beer School",
+ "desc": "Why whisky strength falls in a humid warehouse and can rise in a dry one. What it means for Indian distillers.",
+ "teaser": "The same new make can lose strength in one warehouse and gain it in another. Humidity decides which.",
+ "standfirst": "Water and alcohol both leave a cask through the wood, but not at the same rate. Which one wins depends on the air around the cask. Knowing which way your strength is moving changes how you fill, sample and plan bottling.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two liquids leaving at different speeds",
+   "<p>Whisky in a cask is mostly ethanol and water. Both evaporate through the staves and the bung. Ethanol is more volatile, so in still air it leaves faster. But water's escape depends strongly on how much water vapour is already in the surrounding air. In humid air, water struggles to evaporate. In dry air, it leaves easily.</p><p>The result is a rule every warehouse manager learns: in humid warehouses, strength falls over time; in hot dry warehouses, it can hold steady or even rise.</p>"
+  ],
+  [
+   "Scotland and Kentucky show both ends",
+   "<p>Scotland's cool, damp warehouses are the textbook case of falling strength. Spirit filled at 63.5% ABV commonly comes out several points lower after a decade or more. Our guide to <a href=\"cask-filling-strength-and-why-63-5-percent-is-common.html\">filling strength</a> explains why that figure is so common.</p><p>In tall Kentucky rickhouses, the hot, dry upper floors often see bourbon strength rise with age, while the cooler, damper lower floors see it fall. Same spirit, same cask type, opposite direction. Position decides.</p>"
+  ],
+  [
+   "India runs both ways in one year",
+   "<p>Much of India alternates between a hot dry season and a hot humid one. In a north Indian warehouse in April and May, low humidity favours water loss, so strength may creep up. Through the monsoon, humidity near saturation slows water loss and alcohol leads, so strength may fall. Coastal sites stay humid for much of the year.</p><p>The net change over several years depends on your site and building. We would not assume Scottish behaviour or Kentucky behaviour. Measure it. A distillery in a dry inland location may find its casks at a higher strength than it expected at bottling, which changes the water needed for reduction.</p>"
+  ],
+  [
+   "Why the direction matters on the floor",
+   "<ul><li><strong>Filling strength.</strong> If strength rises in your warehouse, filling slightly lower may keep casks in the range you want at bottling.</li><li><strong>Cask strength releases.</strong> A cask strength bottling reports whatever the cask gives you. Rising strength makes those releases hotter.</li><li><strong>Volume versus alcohol.</strong> A cask can lose volume while strength rises. Bulk litres and litres of pure alcohol tell different stories.</li><li><strong>Minimum strength.</strong> Scotch must be bottled at no less than 40% ABV. A long-aged cask in a damp warehouse can fall close to that line.</li></ul>"
+  ],
+  [
+   "Bulk litres versus pure alcohol",
+   "<p>This is where many loss reports go wrong. Suppose a 200 litre barrel is filled at 63.5% ABV. That is 127 litres of pure alcohol (LPA). After three years it holds 170 litres at 64.5%. Volume is down 15%. Pure alcohol is 109.7 LPA, down 13.6%. The strength rose, so the alcohol loss is smaller than the volume loss.</p><p>Reverse the humidity and the numbers swing the other way. Always report both. Always correct strength readings to 20 °C before you calculate. Our guide to <a href=\"measuring-and-tracking-cask-losses.html\">measuring cask losses</a> sets out the method.</p>"
+  ],
+  [
+   "How to measure strength properly",
+   "<p>A strength trend is only as good as the readings behind it. Alcohol strength changes with temperature, so every reading must be corrected to the standard 20 °C using the tables or the correction built into a digital density meter. A sample taken from a warm cask in May and read straight off a hydrometer can be out by a point or more.</p><p>Take samples the same way each time, from the same depth through the bung, after rolling or rousing the cask if your practice allows. Spirit near the top of a still cask can differ slightly from the body. Use one instrument for a series, check it against a reference solution and record which instrument you used. Our guide to <a href=\"measuring-alcohol-strength-with-temperature-correction.html\">measuring strength with temperature correction</a> covers the method step by step.</p>"
+  ],
+  [
+   "Planning bottling from the trend",
+   "<p>Once you know which way strength moves in each warehouse zone, bottling planning gets easier. Reduction water is calculated from the strength at the time of vatting, not at filling. A blend drawn from a dry zone will need more water to reach the bottling strength than the fill strength would suggest, so it yields more bottles. A blend from a humid zone yields fewer.</p><p>That is a real number for the sales team. A forecast built on fill strength alone can be wrong by several percent in either direction, which matters when a release is promised to a state distributor months ahead.</p>"
+  ],
+  [
+   "Log humidity next to every regauge",
+   "<p>Start recording relative humidity alongside temperature in each warehouse zone. Note it on every cask regauge. After two or three regauge cycles you will see which way your strength is drifting and how fast. That single habit turns a surprise at bottling into a figure you planned for. A pocket hygrometer next to your existing thermometer is enough to begin.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does whisky strength drop in Scottish casks?",
+   "Scottish warehouses are cool and humid, which slows the evaporation of water. Alcohol leaves faster, so the strength falls over time."
+  ],
+  [
+   "Can whisky strength go up in the cask?",
+   "Yes. In hot, dry warehouses water can evaporate faster than alcohol, so strength holds or rises while volume falls."
+  ],
+  [
+   "Should I track bulk litres or pure alcohol?",
+   "Both. Bulk litres show the volume left. Litres of pure alcohol, from volume times strength corrected to 20 °C, show the real loss."
+  ]
+ ],
+ "cta": {
+  "title": "Track what is really happening in your casks",
+  "body": "Craft Distilling is our four week live course (₹9,999), taught on weekend afternoons with recordings and a certificate. It covers filling strength, maturation, gauging and reduction so your cask numbers line up with what you finally bottle.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "whisky-label-terms-explained",
+  "cask-filling-strength-and-why-63-5-percent-is-common",
+  "cask-strength-whisky-explained"
+ ]
+}

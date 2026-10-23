@@ -1,0 +1,67 @@
+{
+ "slug": "converting-a-chest-freezer-into-a-fermentation-chamber",
+ "cat": "Brewing basics",
+ "h1": "Converting a chest freezer into a fermentation chamber",
+ "title": "Chest Freezer Fermentation Chamber | Craft Beer School",
+ "desc": "How to turn a chest freezer into a fermentation chamber with a plug-in controller, a probe, a timber collar and a small heater.",
+ "teaser": "A chest freezer and a plug-in controller hold beer within half a degree of target, all year, including lager temperatures.",
+ "standfirst": "A chest freezer is the most reliable fermentation chamber a homebrewer can build. It holds temperature for ales and lagers, it is efficient to run and it needs no permanent wiring. Here is how we convert one.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a chest freezer beats a fridge",
+   "<p>An upright fridge has shelves, a door seal that opens sideways and often a moulded inner door that steals space. A chest freezer is an open, insulated box. Cold air stays inside when you lift the lid. Thick walls mean the compressor runs less. Most will take two 20 litre fermenters side by side.</p><p>On its own, a freezer simply gets as cold as it can, around minus 18 °C. The conversion is about overriding the built-in thermostat with an external one that switches the power on and off to hold a set temperature.</p><p>Set the freezer's own dial to its coldest setting. The external controller then does all the deciding. If the freezer has a digital control panel that resets when power is cut, check that it comes back on in freezer mode after each switch, because some models do not.</p>"
+  ],
+  [
+   "Choose a size that fits your fermenter",
+   "<p>Measure your fermenter with the airlock or blow-off fitted. Many chest freezers have a step on one side over the compressor, which reduces the floor area. A freezer of around 150 to 200 litres usually takes one or two homebrew fermenters.</p><p>If the fermenter is too tall, do not drill the walls. Chest freezers often run coolant lines inside the walls and lid. A single hole in the wrong place ends the freezer. The standard fix is a collar, covered below.</p>"
+  ],
+  [
+   "Add a dual-stage plug-in controller",
+   "<p>The controller sits between the wall socket and the freezer. It has a temperature probe and usually two output sockets, one for cooling and one for heating. The freezer plugs into the cooling socket. You set the target temperature and the controller switches the freezer on when the beer is too warm and off when it reaches target.</p><p>Set a differential of about 0.5 °C so the freezer is not switching constantly. Set the compressor delay to a few minutes so the compressor is never restarted moments after it stops. Our guide to <a href=\"wiring-a-plug-in-temperature-controller-for-a-fermentation.html\">setting up a plug-in controller</a> covers the settings and probe placement in detail.</p>"
+  ],
+  [
+   "Build a timber collar",
+   "<p>A collar is a rectangular frame of timber the same size as the freezer's rim. It sits on the freezer body and the lid sits on top of it. A collar of 10 to 15 cm adds height for taller fermenters and blow-off tubes. It also gives you a place to drill holes for the probe cable and a gas line later.</p><p>Fix the lid hinges to the collar, not the freezer body. Seal the collar to the rim with foam weatherstrip. Paint or seal the timber so it does not soak up condensation and grow mould.</p>"
+  ],
+  [
+   "Deal with condensation and winter",
+   "<p>Cold surfaces in a humid Indian flat drip. Water collects on the floor of the freezer within days. Keep a towel or a tray of moisture absorber in the bottom and wipe it out weekly. Run the freezer for a day before your first batch so you can see how wet it gets.</p><p>In a north Indian winter the room can drop below your ale target. Plug a small heater into the controller's heating socket. A reptile heat mat or a low-wattage tube heater is enough for an insulated box. Never use a heater that can overheat with no air flow.</p><p>A second-hand freezer is fine as long as the seal is sound and the compressor starts cleanly. Close the lid on a strip of paper all round the rim. If the paper slides out easily anywhere, the seal leaks there and the freezer will run longer and drip more.</p>"
+  ],
+  [
+   "Put the probe on the beer",
+   "<p>The controller is only as good as what its probe measures. Hanging in the air, it tracks the air, which swings far more than the beer. Tape the probe to the side of the fermenter at the height of the beer. Cover it with a folded piece of foam or bubble wrap so it reads the vessel wall rather than the cold air. A thermowell inside the fermenter is better still.</p><p>With that setup, a chamber holds beer within about half a degree of target. It also opens doors a swamp cooler cannot: a lager at 10 °C, a <a href=\"cold-crashing-in-a-home-fridge-without-suck-back.html\">cold crash</a> to 2 °C, a diacetyl rest at 18 °C. Knowing when to use each of those steps is the part a recipe sheet leaves out.</p>"
+  ],
+  [
+   "Run it empty first",
+   "<p>Before trusting a batch to it, set the controller to 19 °C and stand a fermenter of water inside with the probe taped on. Leave it for 48 hours and check the reading morning and evening. If it holds within a degree, set it to 10 °C and check again. Then brew.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I use a fridge instead of a chest freezer?",
+   "Yes, if the fermenter fits once shelves are out. A chest freezer is usually better insulated and holds more, which is why it is the common choice."
+  ],
+  [
+   "Do I need to drill holes in a chest freezer?",
+   "No. Run the probe cable under the lid seal or through a timber collar. Drilling the walls risks hitting coolant lines."
+  ],
+  [
+   "What temperature should a fermentation chamber be set to?",
+   "Most clean ales ferment at 18 to 20 °C and most lagers at about 8 to 13 °C. Check your yeast maker's range for the strain you use."
+  ]
+ ],
+ "cta": {
+  "title": "Use your fermentation chamber with confidence",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It teaches fermentation schedules for ales and lagers, including when to raise, hold and drop temperature.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "fermentation-temperature-control-at-home",
+  "setting-up-a-fermentation-corner-in-a-rented-flat",
+  "using-a-swamp-cooler-to-keep-fermentation-cool-without-a"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "mechanical-skills-a-brewer-should-pick-up-early",
+ "cat": "Careers",
+ "h1": "Mechanical skills a brewer should pick up early",
+ "title": "Mechanical Skills a Brewer Needs Early | Craft Beer School",
+ "desc": "The mechanical skills a new brewer should learn first: pumps, valves, gaskets, glycol, pressure safety and basic fault finding.",
+ "teaser": "Brewing is half chemistry and half plumbing. The brewers who understand the plumbing have fewer bad days.",
+ "standfirst": "A brewery is full of pumps, valves, hoses, heat exchangers and pressure vessels. New brewers who learn how they work fix small problems themselves and avoid dangerous mistakes. Here are the mechanical skills worth picking up early.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A brewer is also an operator of plant",
+   "<p>On a brew day you might run a mill, a mash mixer, a lauter tun, a kettle, a whirlpool, a heat exchanger and several pumps. In the cellar you work with pressurised tanks, carbon dioxide, glycol and kegs. Most of the time it all works. When it does not, the brewer who understands the kit can tell a blocked pump from an empty tank or a stuck valve from a failed seal.</p><p>You do not need to be an engineer. You do need a working knowledge of the equipment and the safety rules around it. Our guide to <a href=\"a-career-as-a-brewery-maintenance-engineer.html\">a career as a brewery maintenance engineer</a> shows how deep this goes for those who want more.</p>"
+  ],
+  [
+   "Pumps: the first thing to understand",
+   "<p>Most breweries use centrifugal pumps to move wort, beer, water and cleaning solutions. They are simple and reliable, with a few rules worth learning:</p><ul><li><strong>Never run them dry.</strong> The mechanical seal relies on liquid to cool and lubricate it. A dry run of even a minute can damage it.</li><li><strong>Prime them.</strong> A centrifugal pump cannot suck air well. The inlet must be flooded with liquid before you start.</li><li><strong>Control flow on the outlet side.</strong> Throttling the inlet can cause cavitation, which sounds like gravel in the pump and damages the impeller.</li><li><strong>Watch hot liquids.</strong> Near-boiling wort flashes to vapour more easily at the pump inlet, which also causes cavitation.</li></ul>"
+  ],
+  [
+   "Valves, gaskets and fittings",
+   "<p>Learn the common fittings. Tri-clamp (or tri-clover) fittings join pipes and hoses with a gasket and a clamp. Butterfly valves open and close with a quarter turn. Ball valves and mix-proof valves appear in larger plants. Each has a gasket or seal that wears out.</p><p>Gaskets matter more than they look. A worn or cracked gasket can trap beer and bacteria, or let air into the line. Learn which material your brewery uses (EPDM and silicone are common), how to check gaskets for wear and how to replace them. Keep spares. A brewery that runs out of the right gasket on a Saturday night has a problem no recipe can solve.</p>"
+  ],
+  [
+   "Pressure, vacuum and tank safety",
+   "<p>Fermenters and bright tanks are pressure vessels. Each has a rated working pressure, shown on its nameplate. Each also has safety devices to protect it: a pressure relief valve and a vacuum relief valve. Learn where they are and check them as part of your routine.</p><p>The vacuum side catches new brewers out. A tank full of carbon dioxide that is washed with caustic can collapse inward, because caustic absorbs CO2 and pulls a vacuum. Spraying cold water into a hot, sealed tank can do the same. A blocked or missing vacuum relief valve turns that into a crushed tank. Always follow the brewery's procedure for venting and cleaning tanks.</p><p>Treat carbon dioxide with respect too. It is heavier than air and can collect in low or enclosed spaces. Never enter a tank. Be careful in cellars without ventilation.</p>"
+  ],
+  [
+   "Glycol and cooling systems",
+   "<p>Most craft breweries cool fermenters with a glycol solution, chilled to a few degrees below zero and pumped through jackets on each tank. Learn how the system works: the chiller, the glycol tank, the pump and the solenoid valve on each tank that opens when the controller calls for cooling.</p><p>In Indian summers, chillers work hard. A small drop in glycol level, a clogged condenser or a failed fan can let fermentation temperatures rise within hours. Learn the normal readings for your system so you notice when something drifts.</p>"
+  ],
+  [
+   "Fault finding and lockout",
+   "<p>Basic fault finding follows a simple order. Is it powered? Is the valve open? Is there liquid at the inlet? Is anything blocked? Most problems are found in the first few checks. A pump that hums but moves nothing usually has a closed valve, an air lock or an empty inlet, not a failed motor. Write down what you checked and what you found, so the maintenance team does not have to start again.</p><p>Before you open, dismantle or reach into any equipment, isolate it. Lockout and tagout means switching off and locking the power, closing and tagging valves and releasing pressure. It is the single most important mechanical safety habit in any brewery.</p>"
+  ],
+  [
+   "Learning these skills",
+   "<p>The best teacher is the equipment itself. Ask the head brewer or maintenance engineer to walk you through each piece of kit, open it up when it is being serviced and explain what each part does. Draw simple diagrams of your brewery's pipework and valves. Learn to read the nameplates on pumps, motors and tanks. Our guide to <a href=\"spreadsheet-skills-every-brewer-needs-for-logs-and-costing.html\">spreadsheet skills for brewers</a> covers the logging side that pairs with this.</p><p>Your first step: on your next shift, trace one transfer from start to finish, naming every valve, pump and fitting the beer passes through. Ask about any part you cannot name.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why should you never run a centrifugal pump dry?",
+   "The mechanical seal relies on liquid to cool and lubricate it. Running dry can overheat and damage the seal in a short time."
+  ],
+  [
+   "Why do brewery tanks have vacuum relief valves?",
+   "A sealed tank can collapse inward if a vacuum forms, for example when caustic absorbs carbon dioxide during cleaning. The vacuum relief valve lets air in to prevent this."
+  ],
+  [
+   "What is lockout and tagout?",
+   "It is a safety procedure where power is switched off and locked, valves are closed and tagged and pressure is released before anyone works on equipment."
+  ]
+ ],
+ "cta": {
+  "title": "Understand the brewery you work in",
+  "body": "Brewing Fundamentals is a four week live course (₹5,999). It covers the brewhouse, fermentation, cellar, cleaning and safety, so the equipment around you makes sense from your first shift.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "spreadsheet-skills-every-brewer-needs-for-logs-and-costing",
+  "learning-data-skills-as-a-working-brewer"
+ ]
+}

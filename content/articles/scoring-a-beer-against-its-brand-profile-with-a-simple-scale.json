@@ -1,0 +1,71 @@
+{
+ "slug": "scoring-a-beer-against-its-brand-profile-with-a-simple-scale",
+ "cat": "Tasting",
+ "h1": "Scoring a beer against its brand profile with a simple scale",
+ "title": "Score a beer against its brand profile | Craft Beer School",
+ "desc": "A simple five point true to brand scale for brewery panels: what each score means, how to write the brand profile and when a score should hold a tank.",
+ "teaser": "Is this batch the beer your customers expect? A five point scale and a written brand profile answer that in a minute.",
+ "standfirst": "Liking a beer and checking it are different jobs. A true to brand score asks one narrow question about each batch and gives you a number you can track, discuss and act on.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Ask whether it matches, not whether you like it",
+   "<p>Most informal tastings ask \"is it good?\". That question invites personal taste. One panellist loves extra hop aroma, another hates it. The batch gets a middling score that means nothing. A brand profile score asks something narrower: does this batch match the beer we have promised the customer?</p><p>That question has a right answer. A batch can be delicious and still off brand, for example if a lager picks up fruity esters from a warm fermentation. It can also be a little dull and still perfectly on brand if dull is what the brand is. The scale measures sameness, not quality. That is what a production brewery needs to know before release.</p>"
+  ],
+  [
+   "Write the brand profile first",
+   "<p>You cannot score against a profile nobody has written down. For each beer, write a short profile on one page:</p><ul><li>Target numbers: original gravity, final gravity, ABV, bitterness units and colour in EBC.</li><li>Five to eight sensory attributes with expected intensity on a 0 to 5 scale, for example \"bitterness 3, grainy malt 2, citrus hop aroma 3, fruity esters 1\".</li><li>Attributes that must never appear, such as diacetyl, sulphur or cardboard.</li><li>A one line description a customer would recognise.</li></ul><p>Agree the profile with the head brewer and the panel while tasting a batch everyone accepts as right. That batch becomes the reference beer.</p>"
+  ],
+  [
+   "A five point scale that works",
+   "<p>Keep the scale short and anchor every point in words:</p><ul><li><strong>5:</strong> indistinguishable from the reference.</li><li><strong>4:</strong> a slight difference a trained taster notices, a customer would not.</li><li><strong>3:</strong> a clear difference in one attribute, still recognisably the brand.</li><li><strong>2:</strong> a difference a regular customer would notice.</li><li><strong>1:</strong> not the brand, or a fault is present.</li></ul><p>Panellists also tick which attribute moved and in which direction. A score of 3 with \"bitterness low\" is useful. A score of 3 on its own is not. Some breweries use a simple true or not true call instead. That works too, but the five points give earlier warning of drift.</p>"
+  ],
+  [
+   "Run it the same way every time",
+   "<p>Serve the reference and the test sample together, coded, about 50 ml each, at the same temperature, around 8 to 10 °C for most beers. Panellists taste the reference first, then score the test sample against it. Collect the sheets before anyone speaks.</p><p>Four to six panellists are enough for a small brewery. Take the median score rather than the mean, so one outlier does not swing the result. Our guide to <a href=\"true-to-brand-tasting-checking-each-batch-matches-the.html\">true to brand tasting</a> covers sample handling in more detail.</p>"
+  ],
+  [
+   "Turn the score into a decision",
+   "<p>A score is only useful if it triggers an action. Set rules before you need them:</p><ul><li>Median 4 or 5: release.</li><li>Median 3: release only if the head brewer agrees after a second tasting. Log the attribute that moved.</li><li>Median 2 or below, or any panellist reporting a must-never attribute: hold the tank and investigate.</li></ul><p>Write the rules on the wall of the tasting room. The point is to take the argument out of release day. If a score of 2 means hold, nobody has to win a debate to stop a bad batch going out.</p>"
+  ],
+  [
+   "Common ways the scale goes wrong",
+   "<p>Three problems turn up again and again. The first is panellists who never use 1 or 5. Everything gets a 3 or a 4, so the scale stops telling you anything. Fix it by including a spiked sample now and then that should score 1. Add a duplicate of the reference that should score 5.</p><p>The second is a profile that is too vague. \"Balanced, refreshing, easy drinking\" fits half the beers in India. Attributes with target intensities, like \"bitterness 3 of 5\", give panellists something to measure against.</p><p>The third is scoring warm or tired. Samples left on a bench in a 32 °C brewhouse taste different by the time the last panellist reaches them. Keep samples chilled until serving and score the core range before lunch, not at the end of a shift when everyone has already tasted a dozen beers.</p>"
+  ],
+  [
+   "Track the scores over time",
+   "<p>Put every score in a spreadsheet with batch number, date and the attributes ticked. A run of 4s that slowly becomes a run of 3s with \"esters high\" tells you something is creeping, perhaps a fermenter running warm or yeast that has been repitched too many times. You will see it in the chart before a customer tastes it in a glass.</p><p>Reading those trends well and knowing which process change explains which sensory shift, is where tasting turns into quality control.</p>"
+  ],
+  [
+   "Write one profile this week",
+   "<p>Take your best selling beer, pour a glass of the current batch with your head brewer and write its one page profile together. Then score the next batch against it with whoever is on shift. One profile, one scale, one week.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a true to brand score?",
+   "It is a rating of how closely a batch matches the agreed profile of that beer, rather than how much the taster likes it."
+  ],
+  [
+   "How many people do I need to score a beer?",
+   "Four to six trained panellists are enough for most small breweries. Use the median score to reduce the effect of one outlier."
+  ],
+  [
+   "What should happen if a batch scores low?",
+   "Set the rule in advance. Many breweries hold any batch with a median of 2 or below, or any batch where a forbidden fault is reported. They investigate before release."
+  ]
+ ],
+ "cta": {
+  "title": "Turn tasting notes into release decisions",
+  "body": "Sensory Evaluation is our two week live weekend course (₹5,999). It covers panel design, spiked off-flavour training, scoring scales and how to turn tasting notes into release decisions.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "a-simple-beer-tasting-sheet-for-beginners-with-a-free",
+  "tasting-a-strong-indian-lager-against-a-pilsner-side-by-side",
+  "true-to-brand-tasting-checking-each-batch-matches-the"
+ ]
+}

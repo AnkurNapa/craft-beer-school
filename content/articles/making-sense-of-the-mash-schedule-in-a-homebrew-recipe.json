@@ -1,0 +1,67 @@
+{
+ "slug": "making-sense-of-the-mash-schedule-in-a-homebrew-recipe",
+ "cat": "Brewing basics",
+ "h1": "Making sense of the mash schedule in a homebrew recipe",
+ "title": "Reading a Mash Schedule in a Recipe | Craft Beer School",
+ "desc": "What each line of a homebrew mash schedule means, from strike temperature to mash out. Plus how temperature shapes the beer.",
+ "teaser": "Saccharification rest, 66 °C, 60 minutes. Here is what that line in your recipe is asking for and why the number matters.",
+ "standfirst": "Every all-grain recipe has a mash schedule, usually two or three short lines. They control how sweet, dry or full-bodied the beer ends up. Here is how to read one.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The mash is where starch becomes sugar",
+   "<p>Malted barley is mostly starch. Yeast cannot ferment starch. In the mash, crushed malt soaks in hot water and enzymes from the malt cut the starch into sugars. Some of those sugars yeast can eat. Some it cannot. The balance between the two decides whether the finished beer is dry and crisp or rich and full.</p><p>Temperature controls that balance. That is why a mash schedule is mostly a list of temperatures and times. It is a recipe for the wort as much as the hop schedule is a recipe for bitterness.</p><p>The same grain bill mashed at 63 °C and at 69 °C gives two noticeably different beers. One finishes lower and tastes drier. The other finishes higher with a fuller mouthfeel. Nothing else in the recipe changed.</p>"
+  ],
+  [
+   "The single infusion line",
+   "<p>Most modern homebrew recipes use a single infusion mash: one temperature held for about an hour. A typical line reads \"Saccharification rest, 66 °C, 60 minutes\". Saccharification simply means turning starch into sugar.</p><p>The range that matters runs from about 62 to 70 °C. Two enzymes do most of the work. Beta amylase makes highly fermentable sugar and works best at the lower end, around 60 to 65 °C. Alpha amylase works faster and higher, around 68 to 72 °C. It leaves more sugars that yeast cannot ferment. Our <a href=\"mash-temperature-guide.html\">mash temperature guide</a> goes deeper.</p>"
+  ],
+  [
+   "What a few degrees changes",
+   "<ul><li><strong>63 to 64 °C:</strong> very fermentable wort, a dry finish. Common in saisons, Belgian tripels and dry lagers.</li><li><strong>65 to 67 °C:</strong> the middle ground for most pale ales and bitters.</li><li><strong>68 to 70 °C:</strong> more body and sweetness. Common in stouts, milds and malty ambers.</li></ul><p>Two degrees is a real difference. A thermometer that reads two degrees off changes the beer you get, which is why we calibrate ours before every brew day.</p><p>Time matters less than most people think. Modern base malt converts most of its starch within 30 to 45 minutes at these temperatures. The 60 minute rest is a safety margin and gives the beta amylase time to finish its slower work. Recipes with a 90 minute rest are usually aiming for a very fermentable wort.</p>"
+  ],
+  [
+   "Strike temperature is not the mash temperature",
+   "<p>Some recipes list a strike temperature as well. This is how hot the water should be before the grain goes in. Cold grain pulls the temperature down, so strike water is always hotter than the target mash temperature. For a 66 °C mash at around 3 litres per kilogram, strike water often lands somewhere in the low to mid 70s.</p><p>Recipe software assumes grain at about 20 °C unless you tell it otherwise. In an Indian kitchen in May, the malt might sit at 30 °C or more. Warm grain cools the water less, so the default strike temperature overshoots. Enter your actual grain temperature, measured with a thermometer pushed into the sack.</p>"
+  ],
+  [
+   "Step mashes and the older rests",
+   "<p>Some recipes list several steps. Each one has a reason:</p><ul><li><strong>Beta-glucan rest, around 40 to 45 °C:</strong> breaks down gummy compounds. Useful with a lot of rye or oats, which can cause a stuck sparge.</li><li><strong>Protein rest, around 50 to 55 °C:</strong> historically used for poorly modified malt. Most modern malt does not need it and a long one can thin body and head.</li><li><strong>Mash out, around 75 to 78 °C for 10 minutes:</strong> stops enzyme activity and loosens the wort for draining. See our guide to <a href=\"mash-out-and-why-some-homebrewers-skip-it.html\">mash out</a>.</li></ul><p>To step up you need either direct heat under the mash or additions of boiling water. A cooler box mash tun cannot be heated, so step mashes there need careful water calculations.</p>"
+  ],
+  [
+   "Water to grain ratio",
+   "<p>Some schedules give a ratio, such as 3 litres per kilogram. Thicker mashes, around 2.5 litres per kilogram, are common in traditional mash tuns. Brew in a bag uses the full water volume in one go, often 4 litres per kilogram or more. The ratio changes strike temperature and how the mash holds heat. It affects fermentability less than temperature does.</p><p>Once you can read the schedule, the next question is designing one: choosing a temperature on purpose for the beer you want. That is where brewing moves from following recipes to writing them.</p>"
+  ],
+  [
+   "Read your next recipe line by line",
+   "<p>Take the recipe you plan to brew next. For each step in the mash schedule, write one line beside it saying what that step does to the beer. If you cannot, look it up before brew day. Then check your thermometer in boiling water and an ice bath so the number you hit is the number the recipe meant.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What mash temperature should I use for a pale ale?",
+   "Around 65 to 67 °C for 60 minutes suits most pale ales. Go lower for a drier beer and higher for more body."
+  ],
+  [
+   "Do I need a protein rest?",
+   "Rarely, with modern well-modified malt. A long protein rest can reduce body and head retention."
+  ],
+  [
+   "Why is strike water hotter than the mash temperature?",
+   "The grain absorbs heat when it goes in, so the water starts hotter and settles at the target once mixed."
+  ]
+ ],
+ "cta": {
+  "title": "Design a mash for the beer you want",
+  "body": "Brewing Fundamentals is our four week live course covering malt, mashing, hops, yeast and fermentation so you can read any recipe and know why each step is there.",
+  "label": "See what the course covers",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "a-first-pale-ale-recipe-for-a-10-litre-homebrew-batch",
+  "building-a-homebrew-recipe-from-scratch-with-four-malts-at",
+  "first-homebrew-mistakes"
+ ]
+}

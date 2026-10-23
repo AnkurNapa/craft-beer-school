@@ -1,0 +1,67 @@
+{
+ "slug": "beer-route-planning-and-delivery-costs-for-logistics-teams",
+ "cat": "Beer for teams",
+ "h1": "Beer route planning and delivery costs for logistics teams",
+ "title": "Beer Route Planning and Delivery Costs | Craft Beer School",
+ "desc": "Why beer is expensive to move, how to calculate cost per case delivered and what route planners must allow for: weight, excise permits, heat and empties.",
+ "teaser": "Beer is mostly water in heavy glass. That makes every kilometre and every return trip count.",
+ "standfirst": "Beer is heavy, low in value per kilo and travels under excise control. In India it often moves in returnable glass that has to come back. Route planning for beer is ordinary logistics with a few extra rules that change the cost per case more than most planners expect.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Trucks fill by weight before they fill by space",
+   "<p>A case of twelve 650 ml returnable bottles weighs well over 10 kg once you add the glass, the beer and the crate or carton. A truck loaded with beer in glass usually hits its legal weight limit before it runs out of floor space. Cans change that picture, since they are much lighter per litre of beer, so a can load may fill by volume first.</p><p>This matters for cost. Freight is paid per trip, so cost per case depends on how many cases a truck can legally carry. Mixing heavy glass with lighter cans on the same load can use both weight and space more fully. Our guide to <a href=\"beer-case-and-pallet-configurations-for-logistics-teams.html\">case and pallet configurations</a> covers how pallet patterns affect load.</p>"
+  ],
+  [
+   "Excise rules shape the route",
+   "<p>Beer in India moves under excise control. A consignment usually needs a permit or transport pass that names the origin, destination, quantities and validity period. Trucks may need to follow approved routes and reach the destination within the permit's time window. Moving beer between states typically involves export and import permits from both states, with their own fees and checks.</p><p>For a route planner this removes some of the flexibility found in other goods. A truck cannot always drop part of a load at an unplanned stop or reroute freely if a road is blocked. Multi-drop routes may need separate documentation per consignee. Rules vary by state and change, so the excise team's current procedure decides what is allowed.</p>"
+  ],
+  [
+   "Heat is a quality cost, not just a comfort issue",
+   "<p>Beer ages faster when warm. A truck parked in the afternoon sun in an Indian summer can heat its load well above 40 °C. A few days like that during transit and depot storage can make lager taste stale long before its best before date. Draught kegs are even more sensitive, since most draught beer is unpasteurised.</p><p>Route planning can reduce this. Plan long hauls to avoid parking loaded vehicles in the midday sun, use covered or insulated vehicles for premium and draught products and keep dwell time at transfer points short. The cost of these measures should be compared with the cost of returns and complaints from heat-damaged beer, as our guide to <a href=\"beer-production-planning-basics.html\">production planning basics</a> shows from the brewery's side.</p>"
+  ],
+  [
+   "Empties are half the journey",
+   "<p>Returnable glass makes beer logistics a loop rather than a line. Empty bottles have to come back from outlets and depots to the brewery for washing and refilling. If trucks return empty, the cost of the outbound trip effectively covers both directions. If they bring back empties, that return leg does useful work.</p><p>Planners should track empties as carefully as full goods. A shortage of returned bottles can stop a filling line just as surely as a shortage of malt. Breakage and chipping during return journeys also add up, since chipped bottles are rejected at the brewery's inspector.</p>"
+  ],
+  [
+   "A worked cost per case",
+   "<p>Here is an illustrative calculation for a 300 km depot run. Say a truck costs ₹30,000 for the round trip including fuel, driver, tolls and a share of fixed costs. It can carry 1,000 cases of 650 ml glass before hitting its weight limit. Freight is ₹30 per case.</p><p>Now say a mixed load allows 1,200 cases by adding cans. Cost per case falls to ₹25. If the return leg brings back empties the brewery would otherwise pay to collect separately, the saving is larger still. These figures are invented for illustration. The method is what to reuse: cost per trip, divided by cases that can legally travel, then adjusted for what the return leg carries.</p>"
+  ],
+  [
+   "What to measure on every route",
+   "<p>A useful route dashboard for beer includes:</p><ul><li>Cost per case delivered, by route and pack type.</li><li>Load utilisation by weight and by volume.</li><li>Empties returned per full case delivered.</li><li>Transit time against the permit validity.</li><li>Breakage per 1,000 cases by route.</li></ul><p>These numbers expose the routes that look fine on total spend and are expensive per case. Our overview of <a href=\"beer-industry-explained-for-gcc-teams.html\">the beer industry for GCC teams</a> is a good companion for analysts new to these flows.</p><p>Seasonality changes the picture through the year. In the summer peak, trucks run full and depots turn stock quickly. In the monsoon, volumes fall, loads go out part-filled and wet roads slow transit. A route plan that is efficient in May may be costly in August. Review cost per case by month, not only by year.</p><p>A first step: take your five longest routes and calculate cost per case for each, using actual cases carried rather than truck capacity. The route with the biggest gap between the two is your first target.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is beer expensive to transport?",
+   "It is heavy and low in value per kilo, especially in glass, so trucks reach their weight limit quickly and freight is a large share of cost."
+  ],
+  [
+   "Do beer trucks need special permits in India?",
+   "Yes. Beer generally moves under excise permits or transport passes that specify route, quantity and timing. Rules vary by state."
+  ],
+  [
+   "Does heat during transport damage beer?",
+   "Yes. High temperatures speed up staling, so beer exposed to heat in transit can taste old well before its best before date."
+  ],
+  [
+   "Why do empty bottles matter in beer logistics?",
+   "Returnable bottles must come back for refilling. Without enough empties, filling lines stop, so the return flow needs planning too."
+  ]
+ ],
+ "cta": {
+  "title": "Help your logistics team understand what they are carrying",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that show how heat and handling change the beer.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-production-planning-basics",
+  "beer-case-and-pallet-configurations-for-logistics-teams",
+  "beer-industry-explained-for-gcc-teams"
+ ]
+}

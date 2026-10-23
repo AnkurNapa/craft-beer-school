@@ -1,0 +1,71 @@
+{
+ "slug": "measuring-haze-with-a-turbidity-meter",
+ "cat": "Brewing science",
+ "h1": "Measuring haze with a turbidity meter",
+ "title": "Measuring Haze With a Turbidity Meter | Craft Beer School",
+ "desc": "How a beer turbidity meter works, the EBC haze scale, 90 degree versus forward scatter and the habits that keep readings honest.",
+ "teaser": "Your eyes can tell bright from hazy. A turbidity meter tells you whether this batch is hazier than the last one.",
+ "standfirst": "A turbidity meter puts a number on haze by measuring how much light the beer scatters. Used well, it catches stability problems weeks before a customer sees a cloudy bottle. Used carelessly, it measures bubbles and fingerprints.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A turbidity meter measures scattered light, not colour",
+   "<p>Shine a beam of light through beer and most of it passes straight through. Particles in the beer, from protein and polyphenol complexes to yeast cells, scatter some of it sideways. A turbidity meter, also called a haze meter or nephelometer, measures that scattered light with a detector set at an angle to the beam. More particles mean more scatter and a higher reading.</p><p>This is a different measurement from colour, which is about how much light the beer absorbs. A dark beer can be perfectly bright. A pale beer can be very hazy. You need both numbers to describe a beer's appearance.</p>"
+  ],
+  [
+   "The angle decides which particles you see",
+   "<p>Brewery haze meters usually read at 90 degrees to the beam. Many also read at a forward angle of about 25 degrees. The two angles respond to different particle sizes:</p><ul><li><strong>90 degrees</strong> is most sensitive to very small particles, below about one micron. These are the colloidal protein and polyphenol complexes behind chill haze and permanent haze.</li><li><strong>25 degrees</strong> responds more to larger particles, such as yeast cells, filter aid fines and starch.</li></ul><p>Reading both helps diagnosis. A high 25 degree reading with a normal 90 degree reading points to yeast or filter breakthrough. A rising 90 degree reading in stored beer points to colloidal instability. Our guide to <a href=\"beer-haze-causes.html\">beer haze causes</a> sorts out the different kinds.</p>"
+  ],
+  [
+   "Know the units and the EBC scale",
+   "<p>Haze is reported in formazin based units, named after the reference suspension used to calibrate the meters. The common scales convert like this: 1 EBC haze unit equals 4 NTU (or FTU) equals 69 ASBC units. Most breweries in India work in EBC units.</p><p>The EBC scale gives a rough visual guide for bright beer:</p><ul><li>Below 0.5 EBC: brilliant</li><li>0.5 to 1.0: almost brilliant</li><li>1.0 to 2.0: very slightly hazy</li><li>2.0 to 4.0: slightly hazy</li><li>4.0 to 8.0: hazy</li><li>Above 8.0: very hazy</li></ul><p>A filtered lager normally leaves the filter well under 1 EBC. A hazy IPA is meant to sit far above 8 and the meter matters less there, except to check consistency between batches.</p>"
+  ],
+  [
+   "Temperature changes the answer",
+   "<p>Chill haze appears when beer is cold and fades when it warms. So the temperature of the sample is part of the result. Measure at 0 °C to see total haze including chill haze. Measure at 20 °C to see permanent haze. Always record the temperature next to the number. A reading of 0.8 EBC at 20 °C and 0.8 EBC at 0 °C describe very different beers.</p><p>The floor detail that saves most arguments: keep a small ice bath at the meter so samples are read at a true 0 °C every time, rather than whatever the cold room happened to be that morning.</p>"
+  ],
+  [
+   "Bubbles, scratches and fingerprints read as haze",
+   "<p>Anything that scatters light raises the reading, so most bad numbers come from the sample cell rather than the beer:</p><ul><li><strong>Bubbles.</strong> Carbon dioxide breaking out on the cell walls reads as haze. Degas gently or measure in a meter designed to read through the closed bottle.</li><li><strong>Condensation.</strong> A cold cell fogs in a humid lab within seconds, which in a Mumbai or Chennai monsoon is almost guaranteed. Wipe and read quickly, or use a meter with a dry purge.</li><li><strong>Scratches and fingerprints.</strong> Handle cells by the top. Replace scratched cells.</li><li><strong>Orientation.</strong> Mark the cell and insert it the same way every time, because no glass is perfectly even.</li><li><strong>Very dark beer.</strong> Strong colour absorbs some scattered light and can make readings low. Compare dark beers only against themselves.</li></ul>"
+  ],
+  [
+   "Calibrate on a schedule",
+   "<p>Meters are calibrated against formazin standards. Formazin is unpleasant to handle and unstable when diluted, so many labs use sealed secondary standards supplied with the meter for routine checks and do a full formazin calibration less often, following the manufacturer's schedule. Log every check. A meter that drifts by a few tenths of a unit can make a stable beer look like a problem, or the reverse.</p>"
+  ],
+  [
+   "Turn readings into a stability check",
+   "<p>One haze reading at packaging tells you the beer is bright today. The useful question is whether it will stay bright. Pair the meter with a forced test: hold sealed samples warm for a set number of days, chill them and read haze again. A beer that climbs quickly under forcing will haze in the trade, particularly through a hot Indian summer with patchy cold storage. Our guide to <a href=\"chill-haze-versus-permanent-haze.html\">chill haze versus permanent haze</a> explains what the forced readings mean.</p><p>Your first step: for your next three batches of filtered beer, record haze at 0 °C and 20 °C at packaging, then again after four weeks in the cold room. Those twelve numbers give you a baseline that every later stability decision can be measured against.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does a beer turbidity meter measure?",
+   "It measures how much light the beer scatters at a set angle, usually 90 degrees and sometimes also 25 degrees. More scatter means more particles and more haze."
+  ],
+  [
+   "How do EBC, NTU and ASBC haze units compare?",
+   "1 EBC haze unit equals 4 NTU or FTU, which equals 69 ASBC units."
+  ],
+  [
+   "What EBC haze counts as brilliant beer?",
+   "Below 0.5 EBC is generally described as brilliant and 0.5 to 1.0 as almost brilliant."
+  ],
+  [
+   "Why measure haze at 0 °C and 20 °C?",
+   "Chill haze shows at 0 °C and dissolves at 20 °C. Reading both separates chill haze from permanent haze."
+  ]
+ ],
+ "cta": {
+  "title": "Predict haze before your customers see it",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers colloidal stability, stabilisers, filtration and the lab methods that tell you how long a beer will stay bright.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-haze-causes",
+  "measuring-dissolved-oxygen",
+  "measuring-carbonation"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "spirit-yield-calculation-in-a-malt-distillery",
+ "cat": "Whisky",
+ "h1": "Spirit yield calculation in a malt distillery",
+ "title": "Spirit Yield in a Malt Distillery | Craft Beer School",
+ "desc": "How to calculate spirit yield in a malt distillery in litres of pure alcohol per tonne, compare it with predicted spirit yield and account for feints.",
+ "teaser": "Litres of pure alcohol per tonne is the number every malt distillery lives by. Here is how to calculate it so it means something.",
+ "standfirst": "Spirit yield tells you how much of the alcohol your malt could give you actually ended up in the spirit receiver. The sum is simple. Getting honest inputs, especially for feints and strength, is where most distilleries go wrong.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The one number that sums up the process",
+   "<p>Malt distillers measure yield in litres of pure alcohol (LPA) per tonne of malt. It rolls milling, mashing, fermentation and distillation into one figure. A good distilling malt run through a well managed plant typically gives around 400 LPA per tonne, give or take, depending on the malt and the process.</p><p>The figure matters because malt is the largest variable cost in a malt distillery. A drop of 10 LPA per tonne across a year means a few per cent less spirit from the same grain bill. Our guide to <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs</a> shows how yield sits next to the other numbers a distillery reports.</p>"
+  ],
+  [
+   "Start with predicted spirit yield",
+   "<p>Every distilling malt specification includes a predicted spirit yield (PSY): the LPA per tonne the maltster's laboratory expects from that malt under standard conditions. It is your ceiling. Our guide to <a href=\"predicted-spirit-yield-on-a-distilling-malt-spec.html\">predicted spirit yield on a malt spec</a> explains how it is measured.</p><p>Compare your actual yield with PSY to get distillery efficiency:</p><p><strong>Efficiency = actual LPA per tonne / PSY x 100</strong></p><p>If the malt's PSY is 415 and you achieve 398 LPA per tonne, your efficiency is 398 / 415 x 100 = 95.9%. That gap of about 4% is the alcohol lost somewhere between the mill and the spirit receiver.</p>"
+  ],
+  [
+   "Getting LPA right",
+   "<p>LPA is volume multiplied by strength, where strength is the alcohol by volume corrected to the reference temperature:</p><p><strong>LPA = litres x ABV / 100</strong></p><p>So 3,200 litres of new make at 68% ABV is 3,200 x 0.68 = 2,176 LPA. The catch is temperature. Volume and strength readings both change with temperature, so an uncorrected reading at 32 °C in an Indian still house can be noticeably off. Use the official correction tables or a density meter that corrects automatically. Excise authorities also require corrected figures, so the same discipline serves both purposes.</p>"
+  ],
+  [
+   "Feints make single runs misleading",
+   "<p>A spirit still run collects hearts as new make, but foreshots and feints go back into the feints receiver and are redistilled with later charges. That means alcohol made from this week's malt may not reach the spirit receiver until next week. Calculate yield run by run and the numbers jump around for no real reason.</p><p>The answer is to calculate over a period, such as a week or a month. Include the change in stock of low wines and feints:</p><p><strong>Period yield = (new make LPA + change in low wines and feints LPA) / tonnes of malt mashed</strong></p><p>If the feints receiver held 1,500 LPA at the start of the month and 1,900 at the end, add the 400 LPA increase to the month's new make before dividing by the malt mashed. If it fell, subtract the difference. Our guide to <a href=\"recycling-feints-in-a-malt-distillery.html\">recycling feints</a> covers the receiver side.</p>"
+  ],
+  [
+   "A worked month",
+   "<p>Suppose a distillery mashes 40 tonnes of malt with a PSY of 412 in a month. The spirit receiver collects 15,600 LPA. Low wines and feints stock rose by 300 LPA over the month.</p><ul><li>Total alcohol made: 15,600 + 300 = 15,900 LPA.</li><li>Yield: 15,900 / 40 = 397.5 LPA per tonne.</li><li>Efficiency: 397.5 / 412 x 100 = 96.5%.</li></ul><p>Now the monthly figures can be compared fairly. A fall shows up as a real change rather than noise from feints moving between runs.</p><p>Watch the malt figure too. Use the tonnes actually mashed, weighed at the mill or intake, not the tonnes invoiced. Malt arrives with a few per cent moisture. Some is also lost as dust in handling. A distillery that divides by invoiced tonnes flatters nobody and confuses the trend when the supplier changes.</p>"
+  ],
+  [
+   "Where to look when yield falls",
+   "<p>Break the gap into stages. Compare wort extract with the malt's expected extract to check mashing. Compare original gravity and final gravity to check fermentation. Compare wash LPA with low wines LPA to check the wash still. Losses often hide in under-converted starch, wash left in the draff, stuck fermentations, infection or alcohol left in the spent lees.</p><p>Your first step: set up a monthly sheet with five numbers, tonnes mashed, PSY, new make LPA and opening and closing feints LPA. Fill it in for the last three months from your records. If you cannot fill every cell, that missing number is the first thing to start recording. Once the sheet runs for a few months, add a simple chart of efficiency against PSY. It is the one picture a head distiller and a finance team can both read in a minute.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good spirit yield for a malt distillery?",
+   "Around 400 litres of pure alcohol per tonne of malt is typical for good distilling malt and a well run plant. Compare your figure with the malt's PSY."
+  ],
+  [
+   "Why calculate yield over a month rather than per run?",
+   "Feints are recycled into later runs, so alcohol moves between batches. A period figure that includes the change in feints stock is far more reliable."
+  ],
+  [
+   "How do I calculate litres of pure alcohol?",
+   "Multiply volume in litres by ABV divided by 100, using readings corrected to the reference temperature."
+  ]
+ ],
+ "cta": {
+  "title": "Know exactly where your alcohol goes",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers malt specs, mashing, fermentation and distillation alongside the LPA records and yield sums that show where spirit is lost.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "predicted-spirit-yield-on-a-distilling-malt-spec",
+  "distillery-kpis-for-analysts",
+  "recycling-feints-in-a-malt-distillery"
+ ]
+}

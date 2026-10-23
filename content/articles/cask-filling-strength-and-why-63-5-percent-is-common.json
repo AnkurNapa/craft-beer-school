@@ -1,0 +1,67 @@
+{
+ "slug": "cask-filling-strength-and-why-63-5-percent-is-common",
+ "cat": "Whisky",
+ "h1": "Cask filling strength and why 63.5 percent is common",
+ "title": "Cask Filling Strength and 63.5 Percent | Craft Beer School",
+ "desc": "Why many Scotch distilleries fill casks at 63.5% ABV, what filling stronger or weaker changes and the cask and warehouse maths behind the choice.",
+ "teaser": "63.5% ABV is the most common filling strength in Scotch. It is a compromise between flavour, cask space and habit.",
+ "standfirst": "New make usually leaves the still near 70% ABV and goes into the cask weaker. The strength you choose changes how many casks you need, how the spirit extracts the wood and what the whisky tastes like years later. Here is how to think about it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Where 63.5% comes from",
+   "<p>Many Scotch distilleries reduce new make to about 63.5% ABV before filling. In the old British proof system that is roughly 111 degrees proof, or 11 over proof, which is how the figure was long expressed in warehouses. It is a convention, not a legal requirement. Scotch law sets a minimum bottling strength of 40% ABV and a maximum cask size, not a filling strength.</p> <p>Bourbon is different. US rules cap the barrel entry strength at 62.5% ABV (125 proof). So when you see the two spirits filled at similar strengths, one is habit and the other is regulation. Our guide to <a href=\"cask-filling-and-gauging.html\">cask filling and gauging</a> covers the process on filling day.</p>"
+  ],
+  [
+   "What strength does to extraction",
+   "<p>Oak contains compounds that dissolve better in alcohol, such as many of the aromatic ones. Others dissolve better in water, such as some sugars from toasted wood and parts of the tannin. Spirit strength shifts the balance between them. Very strong spirit tends to pull more of the alcohol-soluble side and less of the water-soluble side. Weaker spirit tends towards the reverse.</p> <p>Distillers who favour filling around 63.5% argue that it gives a good balance between the two over a long maturation. Others fill weaker for a softer, rounder style, or at full still strength for more intensity. There is no single right answer. The key is choosing on purpose and keeping it consistent, because a change in filling strength will change the whisky in ten years' time.</p>"
+  ],
+  [
+   "The cask maths",
+   "<p>Filling strength sets how many casks you need. Take 1,000 litres of pure alcohol (LPA):</p> <ul><li>At 70% ABV it is 1,000 / 0.70 = about 1,429 bulk litres, or about 7.1 barrels of 200 litres.</li> <li>At 63.5% ABV it is 1,000 / 0.635 = about 1,575 bulk litres, or about 7.9 barrels.</li> <li>At 55% ABV it is 1,000 / 0.55 = about 1,818 bulk litres, or about 9.1 barrels.</li></ul> <p>Filling weaker means more casks, more warehouse space and more handling for the same spirit. Over a year of production that difference is large. It is one reason some distilleries fill closer to still strength and reduce only at bottling.</p>"
+  ],
+  [
+   "Strength in the warehouse, especially in India",
+   "<p>The filling strength is only the starting point. Over time, water and alcohol both evaporate through the wood. In cool, damp warehouses such as those in Scotland, alcohol tends to leave faster than water, so strength usually falls slowly. In hot, dry warehouses water can leave faster, so strength can rise.</p> <p>India has both conditions in one year. A humid monsoon and a dry, hot pre-monsoon summer pull in different directions. Losses are also much higher than in Scotland overall. Our guide to <a href=\"humidity-and-strength-change-in-the-cask.html\">humidity and strength change in the cask</a> explains the mechanism. Track strength by cask so you can see which way your own warehouse moves before you settle on a filling strength.</p>"
+  ],
+  [
+   "Reducing new make for filling",
+   "<p>Reduction for filling needs water that will not cloud or taint the spirit. Most distilleries use demineralised or reverse osmosis water. Hard borewell water can drop out minerals as haze when mixed with strong spirit. Add the water slowly to the spirit with mixing, let the blend rest, then check strength again before filling. The mixture also contracts slightly: 50 litres of ethanol plus 50 litres of water gives a little less than 100 litres. So always calculate from LPA and measure after mixing rather than trusting volumes.</p>"
+  ],
+  [
+   "Choosing your own filling strength",
+   "<p>For a new distillery, the decision usually comes down to a few questions:</p> <ul><li>What style do you want in ten years? What strength do you plan to bottle at?</li> <li>How tight are cask supply and warehouse space?</li> <li>Which way does strength move in your own warehouse?</li> <li>Do you want different strengths for different cask types?</li></ul> <p>Some craft distillers run small trials, filling the same new make at two strengths into matched casks and tasting them every six months. That kind of trial is cheap and its results belong to you. Designing it properly is one of the things a structured distilling course should prepare you for.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Pick two matched casks of the same type and fill them with the same spirit run, one at 63.5% and one at your still strength. Label them clearly, record weights and strengths and sample both every six months. In three years you will have your own answer instead of a borrowed one.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is 63.5% ABV a legal filling strength for Scotch?",
+   "No. It is a common convention. Scotch rules set a minimum bottling strength of 40% ABV and a maximum cask size, not a filling strength."
+  ],
+  [
+   "What is the maximum barrel entry strength for bourbon?",
+   "62.5% ABV, which is 125 US proof."
+  ],
+  [
+   "Does filling at a higher strength save casks?",
+   "Yes. The same litres of pure alcohol take up fewer bulk litres at higher strength, so you need fewer casks and less warehouse space."
+  ]
+ ],
+ "cta": {
+  "title": "Make cask decisions you will thank yourself for",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers new make, cask choice, filling and maturation so you can plan what goes into the warehouse and why.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "whisky-label-terms-explained",
+  "cask-filling-and-gauging",
+  "humidity-and-strength-change-in-the-cask"
+ ]
+}

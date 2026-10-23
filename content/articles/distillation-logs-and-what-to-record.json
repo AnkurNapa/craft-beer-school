@@ -1,0 +1,63 @@
+{
+ "slug": "distillation-logs-and-what-to-record",
+ "cat": "Whisky",
+ "h1": "Distillation logs and what to record",
+ "title": "Distillation Logs and What to Record | Craft Beer School",
+ "desc": "What a distillery's wash and spirit still logs should record, from charge and cut strengths to steam and condenser temperatures, with how to use them.",
+ "teaser": "A still log is the memory of every run. Most small distilleries record too little, or record a lot and never read it.",
+ "standfirst": "Distillation logs serve two masters: the excise officer and the distiller. Designed well, the same sheet proves every litre to one and shows the other why today's new make tastes different from last month's.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A log is evidence and a tool",
+   "<p>Every distillery keeps records because excise rules demand them. Spirit made, spirit moved and spirit filled into casks must all be accounted for, in the format your state requires. Those rules vary by state and change, so your licensing adviser should confirm what the statutory registers must contain.</p><p>The process log is different. It records how each run went so you can repeat good runs and diagnose bad ones. Many small distilleries treat it as a formality, a few scribbled figures at the end of a shift. That wastes the cheapest quality tool they have. Our guide to <a href=\"double-distillation-explained.html\">double distillation</a> explains the two runs the log needs to follow.</p>"
+  ],
+  [
+   "What to record on the wash still",
+   "<ul><li>Run number, date, operator and washback number the wash came from.</li><li>Charge volume and wash strength (temperature corrected).</li><li>Time heat went on, time of first distillate and time the run ended.</li><li>Steam pressure or valve setting through the run, or burner setting on a direct fired still.</li><li>Low wines volume and strength collected.</li><li>Strength at which the run was stopped.</li><li>Any foaming or boil-over, with the time it happened.</li><li>Spent lees volume, if measured.</li></ul><p>From these you can calculate how much alcohol went in as wash and how much came out as low wines. If low wines LPA falls well short of wash LPA over several runs, alcohol is being left in the pot ale or lost somewhere. Low wines from a malt wash commonly collect at roughly 20 to 25% ABV overall. A steady fall in that figure on the same wash strength is worth investigating before it shows up in the monthly yield.</p>"
+  ],
+  [
+   "What to record on the spirit still",
+   "<p>The spirit still log matters most for character. Record:</p><ul><li>Charge volume and strength, with the mix of low wines and feints.</li><li>Steam setting or heat input.</li><li>Foreshots: start time, end time and the strength or test that ended them.</li><li>Cut to hearts: time and strength.</li><li>Cut to feints: time and strength.</li><li>End of run: time and strength.</li><li>Volume and strength of hearts, foreshots and feints collected.</li><li>Condenser cooling water inlet and outlet temperatures.</li><li>Sensory notes on the hearts: one line is enough.</li></ul><p>Strength readings must be corrected to the reference temperature. In a still house at 32 °C an uncorrected hydrometer reading can mislead you by a noticeable margin.</p>"
+  ],
+  [
+   "Keep the logs comparable",
+   "<p>The value of a log comes from comparison, so the format must stay the same run after run. Use a printed sheet or a simple digital form with fixed fields, fixed units and no free text where a number belongs. \"Cut at about 64\" is not a record. \"Cut to feints at 64.2% ABV corrected, 14:35\" is.</p><p>Record times on a 24 hour clock. Record strength to one decimal place. Write the reason whenever a run departs from the SOP, such as a steam outage, a stuck valve or a deliberate trial. A run that went wrong without a note is a mystery forever.</p><p>Have the operator sign each sheet and the shift lead check it the same day. Errors caught within hours can be corrected from memory. Errors found at month end usually cannot. A single wrong strength reading can throw an excise reconciliation out by more than the whole month's losses.</p>"
+  ],
+  [
+   "Turn the logs into trends",
+   "<p>Paper logs are fine to start with, but the numbers should reach a spreadsheet weekly. A few simple charts answer most questions:</p><ul><li>Run time per charge, which shows fouling and steam problems.</li><li>Cut strengths over time, which shows operators drifting from the SOP.</li><li>Hearts volume as a share of the charge, which links character to yield.</li><li>Condenser outlet temperature by month, which shows the effect of Indian summer cooling water.</li></ul><p>Our guide to <a href=\"recycling-feints-in-a-malt-distillery.html\">recycling feints</a> shows how the feints figures from these logs feed the yield calculation. With a few months of clean data, a distiller can see patterns that no single run reveals.</p>"
+  ],
+  [
+   "Start with the fields you will use",
+   "<p>Do not design a log with 60 fields that nobody fills in. Start with the ten that matter most for your plant and add others when a question needs them.</p><p>Your first step: take last week's spirit still runs and try to answer one question from the records alone: at what corrected strength was each cut to feints made? If you cannot answer it for every run, add that field to the sheet today and train every operator on it before the next run.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What should a spirit still log record?",
+   "Charge volume and strength, heat input, the time and corrected strength of every cut, volumes collected, condenser temperatures and a short sensory note."
+  ],
+  [
+   "Are distillery process logs the same as excise records?",
+   "No. Excise registers are statutory and their format is set by the state. Process logs are for the distiller, though both use the same measurements."
+  ],
+  [
+   "Why must strength readings be temperature corrected?",
+   "Alcohol strength and volume both change with temperature. Uncorrected readings in a hot still house can be noticeably wrong."
+  ]
+ ],
+ "cta": {
+  "title": "Record runs you can learn from",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers distillation from wash to new make, the measurements behind every cut and how to turn run logs into decisions about yield and character.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "double-distillation-explained",
+  "triple-distillation-explained",
+  "batch-versus-continuous-distillation"
+ ]
+}

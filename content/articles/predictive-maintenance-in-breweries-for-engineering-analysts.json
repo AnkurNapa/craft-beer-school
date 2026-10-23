@@ -1,0 +1,63 @@
+{
+ "slug": "predictive-maintenance-in-breweries-for-engineering-analysts",
+ "cat": "Beer for teams",
+ "h1": "Predictive maintenance in breweries for engineering analysts",
+ "title": "Predictive Maintenance in Breweries | Craft Beer School",
+ "desc": "Where predictive maintenance pays in a brewery, which assets and sensors to start with and how to build labels from maintenance records.",
+ "teaser": "A brewery's most expensive breakdowns happen on the packaging line at peak season. That is where predictive maintenance earns its keep.",
+ "standfirst": "Predictive maintenance uses sensor data to spot equipment failures before they happen. In a brewery, the value sits in a few critical assets. This guide shows engineering analysts where to look, what data to use and how to measure the result.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with where downtime hurts most",
+   "<p>A brewery has three broad areas: the brewhouse, the cellar of fermentation and maturation tanks and the packaging hall. Failures cost very different amounts in each. A brewhouse pump failure can often wait for a spare brew slot. A packaging line stopping during the summer peak loses output that cannot be recovered, because the line was already running flat out.</p><p>Packaging lines also have the most moving parts: fillers, crowners or seamers, labellers, pasteurisers, case packers and conveyors. Utilities matter too. If the refrigeration plant fails, fermentations can overheat and beer can be lost. Rank assets by the cost of an hour of downtime before choosing where to start.</p><p>A worked example with illustrative numbers: a bottle line rated at 30,000 bottles an hour that stops for two hours on a peak day loses 60,000 bottles, or 5,000 cases of 650 ml. That is 390 hl of beer that has to be packed some other time, if there is any other time. The same two hours on a brewhouse pump might cost one brew slot that can be made up overnight.</p>"
+  ],
+  [
+   "Measure availability before predicting failure",
+   "<p>Overall equipment effectiveness (OEE) is the standard way to measure a packaging line. It multiplies three factors: availability (time running against time planned), performance (actual speed against rated speed) and quality (good units against total units). A worked example: 90% availability x 95% performance x 99% quality = about 84.6% OEE.</p><p>Predictive maintenance mainly moves availability, by turning unplanned stops into planned ones. If the line's downtime records do not separate breakdowns from changeovers, cleaning and waiting for materials, fix that first. A model cannot show a gain the baseline cannot measure.</p>"
+  ],
+  [
+   "Sensors and signals worth collecting",
+   "<p>Most rotating equipment, such as motors, pumps, gearboxes and compressors, gives warning signs before it fails. The common signals are:</p><ul><li><strong>Vibration.</strong> Bearing wear and misalignment show up as rising vibration at specific frequencies.</li><li><strong>Temperature.</strong> Bearings and motor windings run hotter as they wear.</li><li><strong>Motor current.</strong> A pump working harder against a blockage draws more current.</li><li><strong>Process data.</strong> Pressures, flows and temperatures already recorded by the control system.</li></ul><p>The floor detail worth knowing: a tunnel pasteuriser runs its conveyor slowly through hot water zones for long periods. Chain and drive wear there builds slowly, then stops the whole line. Drive current and conveyor speed trends often show it weeks ahead. Our guide to <a href=\"brewery-sensor-and-scada-data-for-data-engineering-teams.html\">brewery sensor and SCADA data</a> explains where these signals live.</p>"
+  ],
+  [
+   "Labels come from the maintenance system",
+   "<p>To train a model that predicts failure, you need examples of failures. Those live in the computerised maintenance management system (CMMS) as work orders. The quality of those records decides what is possible. A work order that says \"filler stopped, fixed\" teaches a model little. One that records the asset, the failed component, the failure mode and the time it started teaches a lot.</p><p>Most breweries have few failures per asset, which makes supervised models hard. Many teams start with simpler methods:</p><ul><li>Condition thresholds: alert when vibration or temperature passes a set level.</li><li>Anomaly detection: learn what normal looks like and flag departures.</li><li>Trend projection: estimate when a slowly rising signal will reach a limit.</li></ul><p>These need no failure labels and can work from day one.</p>"
+  ],
+  [
+   "Hygiene and food safety set constraints",
+   "<p>A brewery is a food plant. Sensors in product contact areas must be hygienic and cleanable. Anything added near open beer must not create a contamination risk. Many lines are washed down regularly, so sensors need suitable protection ratings.</p><p>Maintenance actions also have to fit around cleaning in place schedules and production plans. A prediction that a bearing will fail in two weeks is only useful if the planner can fit a stop in that window. Bring planning into the project early.</p><p>There is also a quality angle. Some equipment problems show up first in the product, not in a vibration trace. A filler valve that is wearing may raise dissolved oxygen in packed beer before it fails outright. Higher oxygen shortens shelf life. Linking quality lab results to asset data can catch failures that sensors on the machine miss.</p>"
+  ],
+  [
+   "Where to start",
+   "<p>Pull twelve months of downtime records for one packaging line. Group unplanned stops by asset and failure mode and rank them by lost hours. Pick the top asset whose failures give a physical warning, such as vibration or heat. Fit one sensor, collect a baseline for a few weeks and set a simple threshold alert before trying anything more complex.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Where should predictive maintenance start in a brewery?",
+   "Usually on the packaging line or the refrigeration plant, where unplanned downtime costs the most and failures give physical warning signs."
+  ],
+  [
+   "What is OEE?",
+   "Overall equipment effectiveness: availability x performance x quality. It is the standard measure of how well a packaging line uses its planned time."
+  ],
+  [
+   "Do I need failure data to start predictive maintenance?",
+   "Not always. Condition thresholds, anomaly detection and trend projection can start without labelled failures. Supervised models need good maintenance records."
+  ]
+ ],
+ "cta": {
+  "title": "Help your engineers connect the data to the brewing floor",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "abv-plato-and-original-gravity-explained-for-analysts",
+  "brewery-sensor-and-scada-data-for-data-engineering-teams",
+  "pack-mix-in-beer-sales-draught-bottle-and-can-for-analysts"
+ ]
+}

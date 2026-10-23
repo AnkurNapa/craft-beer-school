@@ -1,0 +1,71 @@
+{
+ "slug": "calculating-mash-water-volume-and-strike-temperature",
+ "cat": "Brewing science",
+ "h1": "Calculating mash water volume and strike temperature",
+ "title": "Mash Water Volume and Strike Temperature | Craft Beer School",
+ "desc": "How to calculate mash liquor volume, strike temperature and sparge water for a brewpub batch, with formulas and a worked example.",
+ "teaser": "Hit mash temperature first time, every time. The formulas, a worked brewpub example and the corrections that matter.",
+ "standfirst": "Missing mash temperature by two degrees changes fermentability and body in the finished beer. Getting it right is arithmetic, plus a correction for your own vessel. We work through strike temperature and the full water balance for a brewpub batch.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with the liquor-to-grist ratio",
+   "<p>The liquor-to-grist ratio is the volume of mash water per kilogram of grist. For single infusion mashes in a brewpub, 2.5 to 3.0 L/kg is typical. Lauter tun systems with separate mash vessels often run 3.0 to 4.0 L/kg.</p><p>Thicker mashes, at the low end, protect beta-amylase slightly and hold heat well, but are harder to stir and can give a stuck run-off. Thinner mashes make enzymes more accessible and convert quickly, but they leave less water for sparging. Pick a ratio for your system and keep it fixed so the other numbers become predictable.</p><p>For a 200 kg grist at 2.8 L/kg, the strike liquor is 560 L.</p>"
+  ],
+  [
+   "The strike temperature formula",
+   "<p>Strike temperature is the water temperature needed so that water and grist settle at your target mash temperature. In metric units:</p><p><strong>Tw = (0.41 / r) x (T2 - T1) + T2</strong></p><p>where Tw is strike water temperature, r is the liquor-to-grist ratio in L/kg, T1 is the grain temperature and T2 the target mash temperature. The 0.41 reflects the heat capacity of dry grain relative to water.</p><p>For 200 kg of grain at 25 °C, 2.8 L/kg and a target of 66 °C:</p><p>Tw = (0.41 / 2.8) x (66 - 25) + 66 = 0.146 x 41 + 66 = 72.0 °C.</p><p>Note the grain temperature. In a malt store in an Indian summer, grain can sit at 30 °C or more, which drops the required strike temperature compared with a cold European brewhouse. Measure it with a probe pushed into the grist hopper rather than assuming room temperature.</p>"
+  ],
+  [
+   "Correcting for your vessel",
+   "<p>The formula assumes no heat is lost to the vessel. A cold steel mash tun absorbs heat, sometimes enough to pull the mash 1 to 3 °C below target. Two ways to handle it:</p><ul><li>Preheat the tun with hot water or steam before mashing in, so the vessel starts close to strike temperature.</li><li>Measure the loss over a few brews and add a fixed correction to Tw.</li></ul><p>To measure, record strike temperature, grain temperature and the settled mash temperature 10 minutes after mash-in for three or four brews. The average shortfall is your correction. Most brewhouses settle on a correction of around 1 to 2 °C and stop thinking about it.</p>"
+  ],
+  [
+   "Step infusions and adding hot water",
+   "<p>To raise a mash from one rest to another by adding boiling water:</p><p><strong>Wa = (T2 - T1) x (0.41G + Wm) / (Tw - T2)</strong></p><p>where Wa is the volume of water to add, G the grist mass in kg, Wm the water already in the mash in litres, T1 the current temperature, T2 the target and Tw the temperature of the added water. Raising 200 kg with 560 L from 63 °C to 72 °C using water at 98 °C needs (9 x 642) / 26, which is about 222 L.</p><p>That is why most brewpubs step mash with a heated mash vessel rather than infusions; adding 222 L changes the liquor-to-grist ratio considerably and leaves less sparge water.</p>"
+  ],
+  [
+   "Mash volume and vessel capacity",
+   "<p>Grain takes up space. A common figure is about 0.67 L per kg of dry grist. For our example, mash volume is 560 L plus 200 x 0.67, which is about 694 L. Add headroom for stirring and foam and check the total against your mash tun's working volume, not its brim volume.</p><p>This calculation matters most for strong beers, where the grist can grow faster than the tun.</p>"
+  ],
+  [
+   "The full water balance and sparge volume",
+   "<p>Sparge water is what is left after you work backwards from cast-out. For our example:</p><ul><li>Cast-out target: 1,000 L of hot wort at the end of the boil.</li><li>Evaporation at about 6% for a 60 minute boil means roughly 1,064 L pre-boil.</li><li>Spent grain retention of about 0.9 L/kg holds back 180 L.</li><li>Lauter tun dead space under the false bottom, say 30 L.</li></ul><p>Total liquor is 1,064 + 180 + 30 = 1,274 L. Subtract 560 L of strike liquor and the sparge is about 714 L, usually at 76 to 78 °C so the grain bed stays fluid without extracting tannins. Remember that wort shrinks about 4% on cooling from boiling, so 1,000 L hot gives about 960 L cold. Our guide to <a href=\"mash-ph-explained.html\">mash pH</a> covers the chemistry of the liquor you are heating.</p>"
+  ],
+  [
+   "Make it a sheet, then test it",
+   "<p>Every one of these numbers belongs in a brewhouse spreadsheet: liquor-to-grist ratio, grain temperature, vessel correction, evaporation, grain retention and dead space. Once your own figures are in, strike temperature and sparge volume calculate themselves on every brew sheet. The weak point is always the assumed constants, so check them against measured volumes on a few brews and update them. Our guides to <a href=\"enzymes-in-the-mash.html\">mash enzymes</a> and <a href=\"measuring-mash-ph-at-room-temperature-or-mash-temperature.html\">measuring mash pH</a> cover what the temperature you hit then does.</p><p>Your first step: on your next three brews, record grain temperature, strike temperature and the settled mash temperature at 10 minutes, then work out your vessel correction.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the formula for strike water temperature?",
+   "Tw = (0.41 / r) x (T2 - T1) + T2, with r in L/kg, T1 the grain temperature and T2 the target mash temperature in °C."
+  ],
+  [
+   "What liquor-to-grist ratio should I use?",
+   "About 2.5 to 3.0 L/kg for brewpub single infusion mashes. Separate mash and lauter systems often run 3.0 to 4.0 L/kg."
+  ],
+  [
+   "How much space does grain take up in the mash?",
+   "About 0.67 L per kg of dry grist, added to the strike liquor volume."
+  ],
+  [
+   "Why does my mash land below target temperature?",
+   "Usually heat lost to the vessel. Preheat the tun or add a measured correction of 1 to 2 °C to the strike temperature."
+  ]
+ ],
+ "cta": {
+  "title": "Turn brewhouse maths into control",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers mash enzymes, water chemistry, brewhouse calculations and process control, so every number on your brew sheet has a reason behind it.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "measuring-mash-ph-at-room-temperature-or-mash-temperature",
+  "mash-ph-explained",
+  "enzymes-in-the-mash"
+ ]
+}

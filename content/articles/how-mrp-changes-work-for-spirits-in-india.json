@@ -1,0 +1,67 @@
+{
+ "slug": "how-mrp-changes-work-for-spirits-in-india",
+ "cat": "Whisky",
+ "h1": "How MRP changes work for spirits in India",
+ "title": "How Spirits MRP Changes Work in India | Craft Beer School",
+ "desc": "A process-level guide to how spirits MRP is set and changed state by state in India. Learn why a price change needs planning.",
+ "teaser": "Changing the price of a whisky in India is a project, not a click. Each state has its own approval and its own timing.",
+ "standfirst": "In most consumer goods, a price change is a commercial decision. In Indian spirits it is also a regulatory one. This guide walks through the process at a high level so commercial, finance and data teams know why an MRP change takes weeks.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "MRP is printed and controlled",
+   "<p>MRP means maximum retail price. Under Indian legal metrology rules, packaged goods must show the MRP inclusive of all taxes. For spirits that number is printed on the label or a sticker. The retailer cannot charge more.</p><p>Alcohol for human consumption sits outside GST. States levy excise duty and other charges instead, so each state's price build is different. That is why the same whisky can carry a different MRP in neighbouring states. Our guide to <a href=\"why-the-same-whisky-costs-differently-across-indian-states.html\">why whisky costs differently across states</a> explains the build-up.</p>"
+  ],
+  [
+   "Each state approves its own prices",
+   "<p>In many states a brand must register its label and declare or get approval for its prices with the state excise department before it can sell. The registration often runs for the state's excise year, which in many states follows the financial year from April to March. Changing the price mid-year usually means a fresh application.</p><p>The detail varies a lot. Some states fix prices through a formula from a declared ex-distillery price. Others work through a state wholesale corporation that buys at an agreed price. The rules change, so check the current notification for each state or ask your compliance team.</p>"
+  ],
+  [
+   "Why changes take weeks",
+   "<p>An MRP change rarely affects one SKU. A brand may sell in three pack sizes across many states, each with its own label. Every combination needs its own paperwork. Then come the physical steps:</p><ul><li>New labels or price stickers printed and approved.</li><li>Old stock at depots and retail sold through or relabelled under state rules.</li><li>Distributor and corporation systems updated.</li><li>Sales teams briefed so retailers are not caught out.</li></ul><p>A planner who expects a new price in every state on the same date is usually disappointed.</p>"
+  ],
+  [
+   "Duty changes force changes too",
+   "<p>Not every MRP change is the brand's choice. When a state revises excise duty, often in its annual budget or excise policy, prices may have to change. Sometimes the state publishes revised price lists itself. Sometimes the brand must apply.</p><p>Finance teams feel this most. A duty rise that the brand cannot pass on in full squeezes the margin per case. A rise passed on in full can push a SKU into a higher price band where it sells less. Our guide on <a href=\"excise-and-state-permits-for-spirits-in-india.html\">excise and state permits</a> covers the wider duty process.</p>"
+  ],
+  [
+   "What the data team should store",
+   "<p>For analysts, the lesson is to store prices as dated records by state, SKU and pack. A single current price field will rewrite history the day the price changes. Keep the effective date, the approval reference and whether the change came from the brand or from the state.</p><p>A typical Indian spirits pack set covers 750 ml, 375 ml and 180 ml. If your company sells in fifteen states, that is forty-five price points for one blend before any special packs. Mistakes multiply fast.</p>"
+  ],
+  [
+   "Old stock and new prices",
+   "<p>The hardest practical question in any MRP change is what to do with stock already printed at the old price. Retailers cannot sell above the printed MRP. If the price rises, stock with the old MRP must usually be sold at the old price or relabelled in a way the state allows. If the price falls, retailers holding old stock may need it relabelled or need compensation from the brand.</p><p>States handle this differently. Some allow a sticker over the old MRP after approval. Some set a date after which old labels cannot be sold. Some require the stock to move back to a depot. The cost of a careless change is real: a warehouse full of cases at the wrong price that cannot legally leave. Planners therefore try to run down old-price stock before the effective date, which means the supply chain needs the date weeks in advance. Write the run-down plan before the price application goes in, not after it is approved.</p>"
+  ],
+  [
+   "What your team gains from understanding it",
+   "<p>Commercial teams who understand the process plan price changes around the excise year and festive peaks instead of fighting them. Finance teams stop expecting overnight margin gains. This is process knowledge, not legal advice: always work from the current state notification and your compliance team.</p><p>A practical first step: pick one SKU and list, state by state, the date its current MRP took effect and who approved it. If that takes more than an hour, your price master data needs work before the next change.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Who sets the MRP of whisky in India?",
+   "The brand proposes it, but in most states the excise department or state corporation must approve or register it. Rules vary by state."
+  ],
+  [
+   "Why is whisky MRP different in each state?",
+   "Alcohol is outside GST and each state sets its own excise duty and charges, so the tax built into the MRP differs."
+  ],
+  [
+   "Can a brand change MRP at any time?",
+   "Usually only through the state's approval process, often tied to the excise year. Check the current state notification."
+  ]
+ ],
+ "cta": {
+  "title": "Price changes your commercial team can plan for",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions built around your own portfolio.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "excise-and-state-permits-for-spirits-in-india",
+  "surrogate-advertising-rules-for-spirits-in-india",
+  "state-labelling-rules-for-spirits-in-india"
+ ]
+}

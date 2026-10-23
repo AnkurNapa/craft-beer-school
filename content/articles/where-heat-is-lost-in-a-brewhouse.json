@@ -1,0 +1,71 @@
+{
+ "slug": "where-heat-is-lost-in-a-brewhouse",
+ "cat": "Brewing science",
+ "h1": "Where heat is lost in a brewhouse",
+ "title": "Where Heat Is Lost in a Brewhouse | Craft Beer School",
+ "desc": "Where a brewhouse loses heat, from boil evaporation to bare pipes and wasted knockout water, with worked numbers for a 1,000 litre batch.",
+ "teaser": "Boiling off 80 litres of water takes about 50 kWh. That is one of several places your brewhouse leaks energy.",
+ "standfirst": "Brewing is mostly heating and cooling liquid. Much of that energy leaves the building as steam, warm water and hot metal. Knowing where it goes is the first step to keeping more of it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Brewing is a heat business",
+   "<p>A brewhouse heats water for mashing and sparging, heats wort to boiling, boils it and then cools it again. Each step moves large amounts of energy. In many breweries, thermal energy for the brewhouse is one of the largest utility costs after refrigeration.</p><p>Most of that energy is not lost through bad luck. It escapes through a few predictable routes. Measuring them shows where small changes pay off. Our guide to <a href=\"brewery-energy-and-co2-recovery-2026.html\">brewery energy and CO2 recovery</a> looks at the wider picture.</p>"
+  ],
+  [
+   "Evaporation in the boil",
+   "<p>Boiling evaporates water. Evaporation takes a lot of energy. The latent heat of vaporisation of water is about 2,257 kJ/kg. Every litre boiled off carries about 2.26 MJ out of the kettle.</p><p>Worked example: a 1,000 litre batch with 8% evaporation loses 80 litres. That is 80 x 2.26 = about 181 MJ, or roughly 50 kWh, just to boil away water. Unless the vapour is condensed and the heat recovered, all of it goes out of the stack. Our guide to <a href=\"lower-evaporation-boils-that-save-energy.html\">lower evaporation boils</a> covers how to reduce it.</p>"
+  ],
+  [
+   "Heating wort to the boil",
+   "<p>Before the boil, wort has to be heated from mash out temperature to about 100 °C. Wort has a specific heat of roughly 4.0 kJ/kg per °C. Heating 1,040 kg of wort (about 1,000 litres at typical gravity) from 65 °C to 100 °C takes about 1,040 x 4.0 x 35 = about 146 MJ.</p><p>This energy is not lost in itself, but it is lost if the hot wort is later cooled without recovering the heat. That brings us to knockout.</p>"
+  ],
+  [
+   "Knockout: the biggest recovery opportunity",
+   "<p>After the boil, wort is cooled from near 100 °C to fermentation temperature, often 10 to 20 °C. A plate heat exchanger moves that heat into cold water. If the warmed water goes to the hot liquor tank for the next brew, much of the heat is recovered. If it goes down the drain, it is lost.</p><p>Many small breweries collect more hot water at knockout than they can use. The excess overflows. Size the hot liquor tank and plan water use so knockout water feeds the next mash and cleaning. Our guide to <a href=\"sizing-a-plate-heat-exchanger-for-your-brewhouse-wort.html\">sizing a plate heat exchanger</a> covers the cooling side.</p>"
+  ],
+  [
+   "Bare pipes and vessels",
+   "<p>Hot surfaces lose heat to the room by radiation and convection. Uninsulated hot liquor tanks, mash tuns, kettles and steam lines all leak heat continuously. A bare steam line or hot water pipe can lose a surprising amount over a working day.</p><p>Insulation pays back quickly on steam and hot water lines. It also makes the brewhouse cooler and safer to work in, which matters in an Indian summer when the brewhouse already runs hot.</p>"
+  ],
+  [
+   "Steam and condensate losses",
+   "<p>Breweries with steam boilers lose energy through leaking traps, steam leaks and condensate dumped to drain. Condensate is hot, treated water. Returning it to the boiler saves both heat and water treatment chemicals.</p><p>Check steam traps regularly. A trap stuck open lets live steam pass straight into the condensate line. A trap stuck closed floods heating jackets and slows heating. Either way you pay for energy that does no useful work.</p>"
+  ],
+  [
+   "Cooling is energy too",
+   "<p>Heat lost is only half the energy story. Removing heat costs energy as well. Wort cooled with glycol rather than mains water puts load on refrigeration. Fermentation releases heat that the glycol system must remove. Cold rooms and bright tanks need constant cooling, especially in Indian summers when ambient temperatures exceed 35 °C.</p><p>Two stage knockout helps. Mains or borewell water takes wort from near boiling down to perhaps 25 to 30 °C, depending on water temperature. Glycol finishes the job. The more heat the water stage removes, the less the refrigeration plant has to do.</p><p>Insulating cold surfaces matters for the same reason as insulating hot ones. Bare glycol lines gain heat from a warm brewhouse and drip condensation onto the floor. Proper insulation on glycol supply and return lines cuts the load and keeps floors drier, which helps hygiene too.</p>"
+  ],
+  [
+   "Measuring before changing",
+   "<p>Fit a hot water meter on the hot liquor tank outlet and track fuel or electricity per brew. Log evaporation rate on each batch. These three numbers show where the energy goes and whether changes work.</p><p>Working through an energy balance for a whole brewhouse is part of the process engineering we cover on the advanced course.</p><p>Your first step: on your next brew day, measure how much hot water overflows or goes to drain after knockout. That is heat you already paid for.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much energy does it take to evaporate water in a boil?",
+   "About 2.26 MJ per litre, so boiling off 80 litres takes roughly 181 MJ, or about 50 kWh."
+  ],
+  [
+   "Where is most heat recovered in a brewhouse?",
+   "At knockout, where the plate heat exchanger transfers heat from hot wort into water that can be used for the next brew."
+  ],
+  [
+   "Is insulating brewhouse pipes worth it?",
+   "Usually yes. Insulating hot water and steam lines reduces constant heat loss and makes the brewhouse cooler and safer."
+  ]
+ ],
+ "cta": {
+  "title": "Run a brewhouse that wastes less",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers brewhouse engineering, heat transfer and process control so you can find and fix your own energy losses.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "sizing-a-plate-heat-exchanger-for-your-brewhouse-wort",
+  "brewhouse-efficiency",
+  "beer-stability-in-indian-heat"
+ ]
+}

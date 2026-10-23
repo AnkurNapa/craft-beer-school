@@ -1,0 +1,71 @@
+{
+ "slug": "propagating-yeast-in-a-small-brewery-from-a-lab-culture",
+ "cat": "Brewing science",
+ "h1": "Propagating yeast in a small brewery from a lab culture",
+ "title": "Propagating Yeast From a Lab Culture | Craft Beer School",
+ "desc": "How a small brewery steps a lab yeast culture up to a full pitch: step sizes, wort, temperature, sterility and the checks at each stage.",
+ "teaser": "From a test tube to a 10 hl pitch in a week. The steps are simple. The hygiene is not optional.",
+ "standfirst": "Buying a fresh pitch for every brew gets expensive. Propagating your own from a lab culture gives you clean yeast at a fraction of the cost, if you respect the steps. Here is how a small brewery does it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Propagation is controlled growth",
+   "<p>Propagation takes a small, pure culture and grows it in steps until there are enough cells to pitch a full batch. The aim is to grow healthy yeast fast while keeping everything else out. Each step gives the yeast fresh wort, oxygen and time.</p><p>The starting point is usually a slant, a plate or a small vial from a yeast bank or supplier. That culture has been checked for purity. Your job is to keep it pure as you scale it up by a factor of a million or more.</p>"
+  ],
+  [
+   "Step sizes of roughly ten times",
+   "<p>The usual rule is to step up by about five to ten times the volume at each stage. Jump further and the cells are too thinly spread to take hold quickly, which leaves room for contaminants. A typical sequence for a 10 hl brewpub:</p><ol><li>Colony or vial into about 10 ml of sterile wort.</li><li>10 ml into 100 ml.</li><li>100 ml into 1 litre.</li><li>1 litre into 10 litres.</li><li>10 litres into 100 litres in a small propagation vessel or a clean keg.</li><li>100 litres into the first full brew, often pitched as a smaller batch or a lower gravity beer.</li></ol><p>Each step typically takes 24 to 48 hours. Transfer at or just after high krausen, when the cells are active and numerous, rather than letting them settle out and go dormant.</p>"
+  ],
+  [
+   "Wort, temperature and oxygen",
+   "<p>Use wort of around 10 to 12 °P for propagation. Very strong wort stresses young cells. Hopped or unhopped both work, though light hopping helps with bacterial control. Add yeast nutrient with zinc if your normal wort is borderline.</p><p>Small lab steps are usually held at about 20 to 25 °C for ale strains. Lager strains are often propagated a little warmer than their fermentation temperature to speed growth, then brought down toward fermentation temperature in the last steps so they are used to the cold before they are pitched.</p><p>Yeast grow best with plenty of oxygen. Use a stir plate for flasks and continuous gentle aeration with sterile air through a filter for larger vessels. Growth is what you want here, unlike in the main fermentation where the oxygen dose is limited.</p>"
+  ],
+  [
+   "Sterility at every step",
+   "<p>At the small stages, contamination is the biggest risk. A single stray bacterium in a 10 ml tube becomes a large population by the 100 litre stage.</p><ul><li>Sterilise lab wort and glassware in an autoclave or pressure cooker at 121 °C for at least 15 minutes.</li><li>Work near a flame or in a clean cabinet, with surfaces wiped with 70% ethanol.</li><li>Flame the mouths of flasks and tubes during transfers.</li><li>Clean and sanitise propagation vessels with your normal cleaning chemistry, then steam or hot water if they allow it.</li></ul><p>In Indian summers the air in a brewery is warm and humid, with plenty of microbes about. Keep lab steps in the cleanest, coolest room you have, away from the grain store and the mill.</p>"
+  ],
+  [
+   "Check before each step",
+   "<p>Before each transfer, look at a sample under the microscope. You want uniform yeast cells without rods or cocci. At the larger steps, count cells and check viability so you know what you are pitching. Our guide to <a href=\"microbiology-plating-small-brewery.html\">microbiology plating</a> covers how to plate samples on selective media to catch bacteria and wild yeast that a microscope can miss.</p><p>Keep a record for each propagation: date, volumes, gravities, temperatures and the checks. If something goes wrong three generations later, the record tells you where to look.</p>"
+  ],
+  [
+   "What it costs and what it saves",
+   "<p>A small brewery lab for propagation needs a microscope, a haemocytometer, an autoclave or pressure cooker, flasks, a stir plate and an incubator or temperature controlled space. Many of these also serve other lab work. Our guide to a <a href=\"brewery-qc-lab-on-a-budget.html\">brewery QC lab on a budget</a> covers what to buy first.</p><p>The saving comes from buying one culture and getting many batches from it. The risk comes from cutting corners. A contaminated propagation can spoil several batches before anyone notices. If you cannot keep the small steps sterile, buying fresh pitches is the cheaper option.</p>"
+  ],
+  [
+   "Where it fits in the yeast cycle",
+   "<p>Propagation starts a yeast line. After the first brew, most breweries harvest and repitch for several generations before going back to a fresh propagation. Set a generation limit for each strain and propagate fresh when you reach it, or earlier if attenuation, flocculation or flavour drift. Measuring <a href=\"measuring-ibu-in-a-small-brewery-lab.html\">IBU</a>, gravity and flavour across generations shows you when that point arrives.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Pick one house strain and write out the full propagation plan on paper: each step, its volume, wort gravity, temperature, time and the check before transfer. Then work out what equipment you already have and what is missing. The plan tells you whether you are ready.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How big should each yeast propagation step be?",
+   "Roughly five to ten times the previous volume. Larger jumps slow growth and give contaminants a chance."
+  ],
+  [
+   "What temperature should I propagate yeast at?",
+   "Ale strains often at about 20 to 25 °C. Lager strains are usually propagated a little warmer than fermentation and cooled in the last steps."
+  ],
+  [
+   "How long does each propagation step take?",
+   "Typically 24 to 48 hours. Transfer at or just after high krausen while the yeast are active."
+  ]
+ ],
+ "cta": {
+  "title": "Run your own yeast with confidence",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers yeast physiology, propagation and microbiology, so you can grow clean yeast in-house and know when to start fresh.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "microbiology-plating-small-brewery",
+  "measuring-ibu-in-a-small-brewery-lab",
+  "brewery-qc-lab-on-a-budget"
+ ]
+}

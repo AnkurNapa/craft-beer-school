@@ -1,0 +1,67 @@
+{
+ "slug": "proof-abv-and-litres-of-pure-alcohol",
+ "cat": "Whisky",
+ "h1": "Proof, ABV and litres of pure alcohol",
+ "title": "Proof, ABV and Litres of Pure Alcohol | Craft Beer School",
+ "desc": "A plain guide to ABV, US and UK proof, bulk litres, proof litres and LPA, with worked examples for the numbers that appear in spirits dashboards.",
+ "teaser": "Bulk litres, proof litres and LPA all describe the same whisky. They give very different numbers. Here is how to read each one.",
+ "standfirst": "Spirits companies measure alcohol in several units at once. The same stock can look very different depending on which one a report uses. If you work with whisky numbers but have never stood in a distillery, this is the conversion guide to keep open.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "ABV is the starting point",
+   "<p>Alcohol by volume (ABV) is the percentage of a liquid that is pure ethanol, measured at a reference temperature (internationally 20 °C). A whisky at 42.8% ABV contains 42.8 ml of ethanol in every 100 ml. Everything else in this guide is built on that number.</p> <p>Strength changes through the life of a whisky. Spirit leaves the still at around 68 to 72% ABV in many malt distilleries. It is often reduced to about 63.5% to fill casks, changes slowly in the warehouse and is reduced again to bottling strength, commonly 40% or 42.8%. The same physical whisky therefore carries different ABVs at different points in your data, which is why spirits companies prefer a unit that does not depend on dilution.</p>"
+  ],
+  [
+   "Litres of pure alcohol (LPA)",
+   "<p>LPA strips the water out of the comparison. Multiply the bulk volume by the ABV as a fraction:</p> <ul><li>1,000 bulk litres of new make at 63.5% ABV = 1,000 x 0.635 = 635 LPA.</li> <li>One 9-litre case (12 bottles of 750 ml) at 42.8% ABV = 9 x 0.428 = about 3.85 LPA.</li></ul> <p>Adding water changes bulk litres but not LPA. That is why production, maturing stock, losses and yield are usually tracked in LPA. When a cask loses volume to evaporation (the angel's share), the loss is measured in LPA too. Our guide to <a href=\"litres-of-alcohol-per-tonne-as-a-distillery-kpi.html\">litres of alcohol per tonne</a> shows how distilleries use it as a yield measure.</p>"
+  ],
+  [
+   "Bulk litres and why they still matter",
+   "<p>Bulk litres (BL) are just the volume of liquid, whatever its strength. They matter for anything physical: tank space, bottles, glass orders, freight and shelf space. A planner booking bottling line time thinks in bulk litres and cases. A finance colleague valuing maturing stock usually thinks in LPA.</p> <p>Mixing the two in one report is a classic dashboard error. A month where the distillery fills at a higher strength looks like a drop in bulk production even though LPA is unchanged. Always label which unit a column uses.</p>"
+  ],
+  [
+   "US proof",
+   "<p>In the United States, proof is simply twice the ABV. A bourbon at 50% ABV is 100 proof. A bottle labelled 80 proof is 40% ABV. US rules also set strengths in proof: bourbon must be distilled to no more than 160 proof (80% ABV) and go into the barrel at no more than 125 proof (62.5% ABV). This is the proof you will see on American labels and in American trade data.</p>"
+  ],
+  [
+   "UK proof and the Indian legacy",
+   "<p>The old British system works differently. 100 degrees proof equals about 57.1% ABV. Strengths were described as degrees over proof or under proof. A spirit at 75 degrees proof, or 25 degrees under proof (25 U.P.), is about 42.8% ABV. That is where the familiar Indian whisky strength of 42.8% comes from.</p> <p>The same legacy survives in Indian excise language as the proof litre: one litre of spirit at 100 degrees British proof. One proof litre holds about 0.571 LPA. Some state excise documents use proof litres, some use bulk litres and some use LPA. Rules vary by state and change, so check which unit a given duty or permit is based on before you compare states. Our guide on <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs for analysts</a> shows where each unit appears in reporting.</p>"
+  ],
+  [
+   "A quick conversion sheet for your desk",
+   "<ul><li>LPA = bulk litres x ABV (as a fraction).</li> <li>US proof = ABV x 2.</li> <li>UK proof degrees = ABV x 1.75 (approximately).</li> <li>Proof litres = LPA / 0.571 (approximately).</li> <li>Bulk litres at a new strength = LPA / new ABV. Reducing 635 LPA to 40% ABV gives 635 / 0.40 = about 1,588 bulk litres.</li></ul> <p>One more unit turns up in sales reports: cases. A 9-litre case is the common convention, so a report in cases is a report in bulk litres divided by nine. It hides strength entirely. Two brands selling the same number of cases at 40% and 42.8% ABV carry different amounts of alcohol and often different duty.</p> <p>That last line is how a planner works out how many bottles a batch of cask strength whisky will fill once it has been reduced. It ignores small losses in reduction and filtration, which in practice are real but small.</p>"
+  ],
+  [
+   "Try it on your own data",
+   "<p>Open the stock or production report you use most and find the unit for every volume column. If any column is unlabelled, ask the distillery team whether it is bulk litres, proof litres or LPA. Then add the label. It is the quickest way to stop two teams arguing about numbers that are both right.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is 100 proof in ABV?",
+   "In the US system 100 proof is 50% ABV. In the old British system 100 degrees proof is about 57.1% ABV."
+  ],
+  [
+   "Why is Indian whisky often 42.8% ABV?",
+   "42.8% ABV is 25 degrees under British proof (75 degrees proof), a strength inherited from the British proof system."
+  ],
+  [
+   "What does LPA mean?",
+   "Litres of pure alcohol: bulk litres multiplied by ABV. It measures the ethanol in a volume regardless of how much water is in it."
+  ]
+ ],
+ "cta": {
+  "title": "Give your team the numbers behind the dashboard",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions. Your analysts learn what each unit and KPI means on the distillery floor.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "distillery-kpis-for-analysts",
+  "litres-of-alcohol-per-tonne-as-a-distillery-kpi",
+  "why-whisky-wash-sits-near-8-percent-abv"
+ ]
+}

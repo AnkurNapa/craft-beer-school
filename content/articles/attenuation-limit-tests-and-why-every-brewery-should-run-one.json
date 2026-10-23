@@ -1,0 +1,67 @@
+{
+ "slug": "attenuation-limit-tests-and-why-every-brewery-should-run-one",
+ "cat": "Brewing science",
+ "h1": "Attenuation limit tests and why every brewery should run one",
+ "title": "Attenuation Limit Tests Explained | Craft Beer School",
+ "desc": "How to run an attenuation limit test, what the result tells you about your mash and your fermentation and why it settles arguments fast.",
+ "teaser": "A small flask of wort fermented hard tells you how far your tank should go. Every brewery should run one.",
+ "standfirst": "An attenuation limit test, also called a forced fermentation test, ferments a sample of wort as far as it can go. It tells you how fermentable your wort really is. Compare that with the tank and you know whether a high finishing gravity is a mash problem or a yeast problem.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "One question, two possible answers",
+   "<p>When a beer finishes at a higher gravity than expected, there are two broad explanations. Either the wort was less fermentable than usual, which points to the mash, or the yeast did not finish the job, which points to fermentation. Brewers can argue about which for days.</p><p>The attenuation limit test settles it. It shows how far the wort can ferment under ideal conditions. If the tank stopped well short of that, the problem is in fermentation. If the limit itself was high, the problem is in the brewhouse.</p>"
+  ],
+  [
+   "How to run the test",
+   "<ol><li>Take a sample of cooled wort at knockout, about 200 to 500 ml, into a sanitised flask.</li><li>Add a large dose of yeast, well above your normal pitch. Many brewers use a spoonful of thick slurry or dried yeast.</li><li>Keep it warm, typically around 25 °C, so fermentation runs fast.</li><li>Stir it on a stir plate or shake it regularly to keep yeast in suspension.</li><li>Measure gravity every day until two readings a day apart are the same. That usually takes 24 to 72 hours.</li></ol><p>Use a vigorous, well attenuating yeast for the test, ideally the same strain as the tank so the result reflects the sugars that strain can use. The final gravity of the flask is your attenuation limit. Measure it at 20 °C, after degassing the sample. Our guide to <a href=\"correcting-wort-gravity-readings-for-temperature.html\">correcting gravity readings for temperature</a> explains why that matters.</p>"
+  ],
+  [
+   "Turning it into a percentage",
+   "<p>Apparent attenuation is: <strong>(original gravity - final gravity) / original gravity x 100</strong>, using degrees Plato or the points of specific gravity.</p><p>Say the wort is 12.0 °P. The forced test finishes at 2.4 °P. The limit of apparent attenuation is (12.0 - 2.4) / 12.0 x 100 = 80%. If the tank finishes at 3.6 °P, it reached 70%. A gap of ten points says the yeast stopped well short. If the tank reaches 2.5 °P, it is close to the limit and fermentation was fine.</p>"
+  ],
+  [
+   "What a low limit tells you about the mash",
+   "<p>The fermentable sugar content of wort is set mostly by mash temperature and time. A mash rest around 62 to 65 °C favours beta-amylase and gives more fermentable wort. A rest around 68 to 72 °C favours alpha-amylase and leaves more unfermentable dextrins. If your limit is lower than usual, check:</p><ul><li>Mash temperature, using a calibrated thermometer in the mash itself.</li><li>Mash time at the main rest.</li><li>Mash pH, which affects enzyme activity.</li><li>Malt batch and modification.</li><li>Adjunct cooking, if you use rice or maize, since poorly gelatinised starch converts badly.</li></ul>"
+  ],
+  [
+   "What a tank short of the limit tells you",
+   "<p>If the tank finishes well above the forced test result, the yeast stopped early. Common reasons are underpitching, low oxygen, low free amino nitrogen, temperature dropping too early or a highly flocculent strain that settled before finishing. The same thinking, forcing a result early to see the future, sits behind <a href=\"forced-ageing-tests.html\">forced ageing tests</a> for shelf life.</p><p>Underattenuated beer is not only sweeter. It carries fermentable sugar into the package, which is a risk if any yeast or bacteria are present. In warm Indian distribution that can mean overcarbonated cans or bottles.</p>"
+  ],
+  [
+   "Why every brewery should run one",
+   "<p>It costs almost nothing. A flask, some yeast, a warm spot and a hydrometer. It takes a few minutes a day. It gives you a target for every batch, so you know at a glance whether fermentation has finished. It turns arguments about yeast into a measured answer.</p><p>Over time, a record of attenuation limits across batches also shows you how stable your mash is. A drifting limit is an early warning of a thermometer, malt or process change. Our guide to <a href=\"running-triangle-tests-in-a-brewery-lab.html\">running triangle tests</a> shows another cheap test that pays off in the same way.</p><p>Keep the flask sealed with a sanitised airlock or foil and work cleanly. A contaminated flask can ferment further than brewing yeast alone would, which makes the limit look lower than the truth. If a forced test ever finishes far below every previous result, smell it and look at a drop under the microscope before you believe it.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>On your next brew, take 300 ml of knockout wort into a sanitised flask, pitch a heavy dose of yeast and keep it warm on the bench. Measure it daily until it stops. Write the final gravity on the batch sheet as the target the tank should reach.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is an attenuation limit test?",
+   "A forced fermentation of a wort sample with a heavy yeast pitch at warm temperature, to find how far that wort can ferment."
+  ],
+  [
+   "How long does an attenuation limit test take?",
+   "Usually 24 to 72 hours, until two gravity readings a day apart are the same."
+  ],
+  [
+   "What does it mean if my tank finishes above the limit?",
+   "The yeast stopped early. Check pitch rate, oxygen, yeast health, nutrients and temperature control."
+  ]
+ ],
+ "cta": {
+  "title": "Diagnose fermentation problems with confidence",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers mash enzymes, fermentation science and lab methods, so a high finishing gravity points you straight to its cause.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "forced-ageing-tests",
+  "running-triangle-tests-in-a-brewery-lab",
+  "brewery-qc-lab-on-a-budget"
+ ]
+}

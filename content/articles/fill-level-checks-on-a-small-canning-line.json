@@ -1,0 +1,67 @@
+{
+ "slug": "fill-level-checks-on-a-small-canning-line",
+ "cat": "Brewing science",
+ "h1": "Fill level checks on a small canning line",
+ "title": "Checking Can Fill Levels | Craft Beer School",
+ "desc": "How to check fill levels on a small canning line by weight, what the numbers mean for headspace oxygen and how to chart them per head.",
+ "teaser": "A can that is 5 ml short is a legal problem. A can that is 5 ml over is a pressure problem. You need both numbers.",
+ "standfirst": "Fill level affects legal quantity, oxygen pickup, seam quality and pasteurisation safety. Weighing cans is the simplest way to control it. Here is how to set up fill checks on a small line and what to do with the results.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Fill level matters four ways",
+   "<p>Underfilled cans give customers less than the label promises. Packaged goods in India are regulated under legal metrology rules that set how much shortfall is allowed for a declared quantity. The limits depend on the size of the pack and the rules change, so check the current rules. Systematically short cans are a compliance risk.</p><p>Fill level also sets headspace. A low fill leaves more room for oxygen, which raises total package oxygen. A high fill leaves too little headspace, which raises internal pressure, especially if the cans are later pasteurised or sit in heat. And a very full can can spill beer onto the seaming chuck, which affects seam quality.</p>"
+  ],
+  [
+   "Weighing is the practical method",
+   "<p>Large lines use fill height detectors. Small lines can do the same job with a good scale. The method:</p><ul><li>Weigh at least 10 empty cans with ends and calculate the average tare weight.</li><li>Work out the target net weight. A 330 ml can of beer with a gravity of 1.010 should hold about 330 x 1.010 = 333 g of beer.</li><li>Weigh filled, seamed cans and subtract the tare to get net beer weight.</li><li>Convert back to volume by dividing by the beer's gravity.</li></ul><p>Use a scale that reads to 0.1 g and check it daily with a reference weight. Can weights vary between batches, so recheck the tare when a new pallet of cans arrives.</p>"
+  ],
+  [
+   "Sample every head",
+   "<p>Many small fillers have two, four or six heads. An average across the whole filler can hide one head that is always short. Take samples from each head in sequence, marking which head each can came from.</p><p>A practical frequency is a set of cans from every head at start-up, then at regular intervals through the run. Check again after any stop or adjustment. Record the results against the head and time. Our guide to <a href=\"can-seam-inspection-for-small-canning-lines.html\">can seam inspection</a> uses a similar per-head rhythm.</p>"
+  ],
+  [
+   "Chart the results",
+   "<p>Plot net volume per head on a simple run chart with lines for target, lower limit and upper limit. You will quickly see patterns:</p><ul><li>A head that sits low every run usually needs mechanical adjustment.</li><li>Fills that drift lower through a run often point to rising beer temperature and foaming.</li><li>Wide scatter on all heads suggests unstable carbonation, pressure or beer temperature.</li></ul><p>A control chart also tells you when to leave the filler alone. Adjusting after every single reading usually makes fills worse.</p>"
+  ],
+  [
+   "Foam is the usual culprit",
+   "<p>Most fill problems on small lines are foam problems. Warm beer, high carbonation and turbulence in the filling tube all create foam. Foam takes up space that should be beer, so the can seems full but is short once the foam settles.</p><p>Keep beer cold, ideally around 0 to 2 °C at the filler. Keep carbonation within the range the filler handles well. Check that filling tubes and seals are clean and undamaged, using quick hygiene checks such as <a href=\"atp-swabs-for-quick-hygiene-checks-in-a-small-brewery.html\">ATP swabs</a>. In Indian summers, beer lines from the brite tank to the filler can warm several degrees, so insulate them.</p>"
+  ],
+  [
+   "Fill level and stability",
+   "<p>If you pasteurise cans, fill level matters more. Overfilled cans develop higher internal pressure when heated. If you rely on cold chain alone, a low fill means more oxygen and faster staling. Either way, fill control is part of shelf life. Clean filling equipment also reduces the risk of contamination, as covered in our guide to <a href=\"cip-cleaning-in-place.html\">cleaning in place</a>.</p>"
+  ],
+  [
+   "Weigh twenty cans tomorrow",
+   "<p>On your next run, weigh five cans from each of four heads. Calculate net volume for each. If any head is consistently more than a few millilitres from target, adjust it and weigh again. That one check usually pays for the scale.</p><p>Note the beer temperature at the filler alongside each set of weights. On many small lines the link between a warm afternoon and short fills only shows up once both are on the same sheet.</p><p>Keep the sheet. Next month, repeat the same check and put the two sheets side by side. If the same head has drifted again, it needs maintenance rather than another adjustment.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I check fill level on cans?",
+   "Weigh filled cans, subtract the average empty can weight and divide by the beer's gravity to get net volume."
+  ],
+  [
+   "Why are my cans underfilled?",
+   "Usually foam: warm beer, high carbonation or turbulence in the filling tubes. Keep beer cold and check the filler's tubes and seals."
+  ],
+  [
+   "What is the legal tolerance for fill volume in India?",
+   "Legal metrology rules set the allowed shortfall based on declared quantity. The limits change, so check the current rules."
+  ]
+ ],
+ "cta": {
+  "title": "Fill every can to a number",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers packaging quality, oxygen, carbonation and process control, so your canning line fills to target and stays there.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "atp-swabs-for-quick-hygiene-checks-in-a-small-brewery",
+  "can-seam-inspection-for-small-canning-lines",
+  "cip-cleaning-in-place"
+ ]
+}

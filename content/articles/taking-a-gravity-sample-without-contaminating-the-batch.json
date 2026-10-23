@@ -1,0 +1,67 @@
+{
+ "slug": "taking-a-gravity-sample-without-contaminating-the-batch",
+ "cat": "Brewing basics",
+ "h1": "Taking a gravity sample without contaminating the batch",
+ "title": "Taking a Clean Gravity Sample | Craft Beer School",
+ "desc": "How to take a hydrometer or refractometer sample from a homebrew fermenter without letting bacteria or oxygen in. Plus how often to sample.",
+ "teaser": "Every time you open the fermenter you invite bacteria and oxygen in. Here is how to take a reading without either.",
+ "standfirst": "Gravity readings tell you when fermentation has finished and what strength the beer will be. Taking them carelessly is one of the most common ways homebrew gets infected. Here is a routine that keeps the batch safe.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why sampling is a contamination risk",
+   "<p>A fermenting beer is fairly well protected. It has low pH, alcohol, hop compounds and a blanket of carbon dioxide on top. Most of the risk arrives from outside: a hand, a turkey baster, a dusty spigot or a tube that touched the counter. Each sample is a chance to carry bacteria or wild yeast straight into the beer.</p><p>The second risk is oxygen. Once fermentation is nearly done, the yeast no longer uses oxygen. Air drawn in while you sample stays in the beer and stales it. Hop aroma fades and cardboard flavours appear weeks later. A careless sampling habit in the second week can ruin a good IPA.</p><p>Indian heat raises the stakes. Bacteria such as lactobacillus and pediococcus grow faster in a warm room. A batch fermenting at 24 °C because the swamp cooler ran out of ice is more vulnerable to a dirty sample than one sitting at 18 °C in a fridge.</p>"
+  ],
+  [
+   "Sample less often",
+   "<p>The simplest way to cut risk is to take fewer samples. Most batches need three readings:</p><ul><li>Original gravity, taken from the kettle or fermenter before pitching.</li><li>A first check when the airlock has slowed, usually after five to seven days for an ale.</li><li>A confirmation two or three days later.</li></ul><p>If the last two readings match, fermentation is finished. Daily readings tell you nothing those three cannot. Our guide to <a href=\"original-gravity-final-gravity-explained.html\">original and final gravity</a> explains what the numbers mean.</p><p>Lagers and strong beers take longer, so stretch the gap before the first check. A 1.080 barleywine can take two weeks or more to reach its final gravity. Opening it on day four only adds risk.</p>"
+  ],
+  [
+   "Sanitise the spigot, thief or baster first",
+   "<p>A fermenter with a tap near the bottom is the cleanest option because you never open the lid. The catch is the spout. Wort and beer sit in it and dry there. Spray the tap inside and out with no-rinse sanitiser before opening it. Run off the first 50 ml or so into a cup and discard it, then fill your sample jar. Spray the tap again afterwards.</p><p>Without a tap, use a wine thief or a turkey baster. Soak it in sanitiser for the full contact time on the label first. Open the lid only as far as you need, draw the sample and close it straight away. Never put a hand or an unsanitised thermometer into the fermenter.</p>"
+  ],
+  [
+   "Never pour a sample back",
+   "<p>Once beer has been in a sample jar on the counter, it stays out. Returning it to the fermenter is the classic way to infect a batch. A hydrometer reading needs about 100 ml. A refractometer needs a few drops, which is why many brewers use one for checks during fermentation.</p><p>Taste the sample instead of tipping it out. A warm, flat sample is not beer at its best, but it tells you a lot. A buttery note means diacetyl is still there and the beer needs more time on the yeast. A green apple note means acetaldehyde. Both usually fade if you wait.</p>"
+  ],
+  [
+   "Read the hydrometer correctly",
+   "<p>Most hydrometers are calibrated at 20 °C. Some older ones use 15.6 °C. A sample at 30 °C reads low, so cool it or use a temperature correction table. Read at the bottom of the curve where the liquid meets the stem, at eye level.</p><p>During active fermentation, carbon dioxide bubbles cling to the hydrometer and push it up. Give it a spin as you drop it in to knock them off. A reading taken through foam can be several points high. Our guide on <a href=\"how-to-use-a-hydrometer.html\">how to use a hydrometer</a> covers the basics.</p>"
+  ],
+  [
+   "Refractometers after fermentation need a correction",
+   "<p>A refractometer is ideal for low-volume checks, but alcohol bends light too. Once fermentation starts, a raw refractometer reading of the beer is wrong, usually by a lot. You need a correction calculator that takes both the original reading and the current one. Without it, a beer that has finished can look as though it has stalled at 1.020.</p><p>Many brewers confirm the final reading with a hydrometer for that reason. Knowing when a number is real and when it is an artefact of the method is the habit that separates guessing from measuring.</p>"
+  ],
+  [
+   "Set up a sampling kit before brew day",
+   "<p>Put a small tray together: a spray bottle of no-rinse sanitiser, a sample jar, the thief or baster, the hydrometer and a strip of paper for readings. Keep it beside the fermenter. When the airlock slows, everything you need is in one place and nothing gets picked up from the kitchen counter.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How often should I take a gravity reading during fermentation?",
+   "Usually three times: before pitching, when activity slows and two or three days later to confirm it is stable."
+  ],
+  [
+   "Can I put a hydrometer sample back in the fermenter?",
+   "No. Discard it or taste it. Returning a sample is one of the most common causes of infection."
+  ],
+  [
+   "Why does my refractometer show a high final gravity?",
+   "Alcohol changes the reading. Use a correction calculator with your original and current readings, or check with a hydrometer."
+  ]
+ ],
+ "cta": {
+  "title": "Take readings you can trust",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It covers gravity, attenuation, sanitation and how to read a fermentation without putting the batch at risk.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "original-gravity-final-gravity-explained",
+  "how-to-calculate-abv",
+  "brewing-a-lager-at-home"
+ ]
+}

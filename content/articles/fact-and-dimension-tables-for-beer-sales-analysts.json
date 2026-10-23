@@ -1,0 +1,63 @@
+{
+ "slug": "fact-and-dimension-tables-for-beer-sales-analysts",
+ "cat": "Beer for teams",
+ "h1": "Fact and dimension tables for beer sales analysts",
+ "title": "Fact and Dimension Tables for Beer Sales | Craft Beer School",
+ "desc": "How to model beer sales data as facts and dimensions, choose the grain and convert cases to hectolitres without breaking reports.",
+ "teaser": "Most broken beer dashboards fail at the model, not the chart. Get the grain and the pack dimension right and the rest follows.",
+ "standfirst": "Beer sales data looks like any other sales data until you meet cases of different sizes, state excise and depletions that lag shipments. Here is how to model it so the numbers hold.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Facts are events, dimensions describe them",
+   "<p>A star schema has a fact table in the middle and dimension tables around it. The fact table records events with numbers attached: an invoice line, a shipment, a retail sale. Dimensions describe the who, what, where and when of those events: the product, the outlet, the distributor, the date.</p><p>In beer, a typical sales fact row says that on a given date, a given distributor bought a given SKU in a given state, in a quantity of cases at a given net price. Everything descriptive, such as brand, pack size, ABV or outlet channel, lives in a dimension and joins in by key.</p><p>Why bother? Because the same question gets asked a dozen ways. Sales wants volume by brand and state. Finance wants net revenue by channel and month. Supply chain wants cases by pack and depot. One clean fact table with honest dimensions answers all three without a separate extract for each team. A wide flat file with brand names typed into every row answers none of them reliably once a brand is renamed.</p>"
+  ],
+  [
+   "Choose the grain before anything else",
+   "<p>The grain is what one row of the fact table means. Pick the lowest level the source can honestly support, usually the invoice line. You can always add up to a month or a brand. You can never split a monthly total back into days.</p><p>Keep shipments and depletions in separate fact tables. Shipments are what the brewery sold to distributors. Depletions are what distributors sold on to retailers. They have different grains, different timing and different owners. Our guide to <a href=\"shipments-vs-depletions-beer-sales-data.html\">shipments versus depletions</a> explains why mixing them gives false trends.</p>"
+  ],
+  [
+   "The product dimension carries the beer knowledge",
+   "<p>Most beer modelling mistakes sit in the product dimension. A good one holds, for every SKU: brand, brand family, pack type (bottle, can or keg), unit size in ml, units per case, litres per case, ABV and the state it is labelled for.</p><p>Litres per case is the field that saves you. A case of 12 x 650 ml bottles is 7.8 litres, so 0.078 hl. A case of 24 x 500 ml cans is 12 litres, so 0.12 hl. Store the hectolitre factor on the SKU and calculate volume in the model:</p><ul><li>hectolitres = cases x litres per case / 100</li><li>bottles or cans = cases x units per case</li></ul><p>Never sum raw cases across pack types and call it volume. A shift towards 500 ml cans will look like a volume rise when it is mostly a pack mix change. Our guide to <a href=\"pack-mix-in-beer-sales-draught-bottle-and-can-for-analysts.html\">pack mix in beer sales</a> goes deeper.</p>"
+  ],
+  [
+   "State and time behave differently in beer",
+   "<p>Because each Indian state sets its own excise, the same liquid in the same bottle is a different SKU with a different MRP in each state. The state belongs on the product or on a separate geography dimension, but it must be there. A national average price per case across states with very different excise is close to meaningless.</p><p>Your date dimension needs more than a calendar. Add flags for dry days, state elections, major festivals and the financial year, which in India runs April to March. Beer demand also swings with heat, so many teams add a weekly temperature table keyed by state and week.</p>"
+  ],
+  [
+   "Track change without rewriting history",
+   "<p>Brands get repositioned, outlets change channel and distributors change territory. If you overwrite the dimension, last year's sales move to this year's category and every trend shifts quietly. Use a type 2 slowly changing dimension for anything that matters: add a new row with valid from and valid to dates and keep the old row.</p><p>A worked example: an outlet moves from off trade to on trade in July. With type 2 history, its January to June sales stay in off trade. With an overwrite, they move to on trade and the on trade channel appears to have grown in the first half of the year when it did not.</p>"
+  ],
+  [
+   "Test the model against the brewery",
+   "<p>The model is right when its hectolitres match the brewery's packaged volume, allowing for stock in the warehouse. Pick one month, sum shipments in hectolitres by pack and compare it with the packaging report. A gap of a few percent usually means a missing conversion factor or a free goods line counted twice.</p><p>Your first step: open the product dimension and check that every live SKU has litres per case filled in. Fix the blanks before building another chart.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the right grain for a beer sales fact table?",
+   "Use the lowest level the source supports honestly, usually the invoice line. You can add up from there but never split a total back down."
+  ],
+  [
+   "Should shipments and depletions share one fact table?",
+   "No. They have different grains, timing and owners. Keep them in separate fact tables and compare them in the report."
+  ],
+  [
+   "How do I convert beer cases to hectolitres?",
+   "Multiply cases by litres per case and divide by 100. Store litres per case on each SKU in the product dimension."
+  ]
+ ],
+ "cta": {
+  "title": "Give your analysts the beer knowledge behind the model",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "pack-mix-in-beer-sales-draught-bottle-and-can-for-analysts",
+  "shipments-vs-depletions-beer-sales-data",
+  "abv-plato-and-original-gravity-explained-for-analysts"
+ ]
+}

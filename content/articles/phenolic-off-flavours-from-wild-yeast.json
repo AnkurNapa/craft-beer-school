@@ -1,0 +1,67 @@
+{
+ "slug": "phenolic-off-flavours-from-wild-yeast",
+ "cat": "Brewing science",
+ "h1": "Phenolic off-flavours from wild yeast",
+ "title": "Phenolic Off-Flavours From Wild Yeast | Craft Beer School",
+ "desc": "How wild yeast turns ferulic acid into clove and medicinal phenols, how to confirm contamination and how to keep it out of the brewery.",
+ "teaser": "A clove note in a pale ale is not a happy accident. It is usually a wild yeast with a POF+ gene.",
+ "standfirst": "Some yeasts can turn plant acids from malt into strongly flavoured phenols. Brewers choose them for wheat beers and Belgian styles. When a wild yeast does it in a lager or pale ale, it is contamination.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The POF+ gene turns malt acids into phenols",
+   "<p>Malt contains hydroxycinnamic acids, mainly ferulic acid and p-coumaric acid. Yeasts that carry the phenolic off-flavour trait, written POF+, have working copies of two genes, PAD1 and FDC1. Together they decarboxylate these acids into volatile phenols:</p><ul><li>Ferulic acid becomes <strong>4-vinyl guaiacol</strong>, with a clove-like, spicy aroma.</li><li>p-Coumaric acid becomes <strong>4-vinyl phenol</strong>, with a more medicinal, plastic or sticking plaster note.</li></ul><p>German wheat beer yeasts and many Belgian strains are POF+ by design. Most ale and lager production strains are POF-, meaning they lack a working version of these genes. Our guide to <a href=\"phenolic-off-flavours.html\">phenolic off-flavours</a> covers the full family.</p>"
+  ],
+  [
+   "Wild yeasts are often POF+",
+   "<p>Many wild Saccharomyces strains, the yeasts found on fruit, grain dust and in the environment, carry a working POF+ trait. So does Saccharomyces cerevisiae var. diastaticus, which can also break down dextrins and cause over-attenuation, gushing and exploding packages. When one of these gets into a clean beer, phenols are often the first sign.</p><p>Brettanomyces takes the chemistry one step further. It converts the vinyl phenols into ethyl phenols. 4-ethyl guaiacol is smoky and spicy. 4-ethyl phenol is barnyard and horse blanket. Those flavours are prized in some styles and a fault in nearly all others.</p>"
+  ],
+  [
+   "Telling contamination from the house yeast",
+   "<p>Clove or medicinal notes in a beer brewed with a POF- yeast point to something else in the tank. Before blaming wild yeast, rule out the alternatives:</p><ul><li><strong>Chlorophenols</strong> from chlorine in water or sanitiser. These are sharper and more antiseptic. Our guide to <a href=\"chlorophenols-and-the-medicinal-taste-from-sanitiser.html\">chlorophenols</a> covers that route.</li><li><strong>Cross-contamination from a house wheat or Belgian strain.</strong> Breweries that run a POF+ strain alongside clean strains often find it turns up in the wrong tank through shared hoses, harvest vessels or brinks.</li><li><strong>Raw materials.</strong> Some smoked malts and certain spices add phenolic character. Check the recipe before you condemn the yeast.</li></ul><p>Signs that point firmly to contamination: the phenolic note grows over time in the package, the beer over-attenuates, haze increases or bottles and cans gain pressure.</p>"
+  ],
+  [
+   "Confirming it in the lab",
+   "<p>Several standard tests help:</p><ul><li><strong>Lysine medium.</strong> Brewing Saccharomyces strains cannot grow on lysine as their only nitrogen source. Many non-Saccharomyces wild yeasts can. It does not catch wild Saccharomyces. Our guide to <a href=\"detecting-wild-yeast-with-lysine-medium.html\">detecting wild yeast with lysine medium</a> explains the method.</li><li><strong>Copper sulphate media</strong> are used to detect wild Saccharomyces, which tolerate copper better than most brewing strains.</li><li><strong>A POF test.</strong> Grow the isolate on a medium containing ferulic acid and smell it for clove. A positive result from a colony that should be POF- is a strong clue.</li><li><strong>PCR tests</strong> for the STA1 gene identify diastaticus specifically. Many outside labs offer them.</li></ul>"
+  ],
+  [
+   "Where wild yeast gets in",
+   "<p>Wild yeast is everywhere in a brewery: grain dust from the mill room, fruit flies, open fermenters, poorly cleaned heat exchangers and packaging lines. In a warm Indian climate, with temperatures that suit yeast for most of the year, a small contamination can grow fast in any wort left sitting.</p><p>The floor detail that catches many breweries: the yeast brink or harvest vessel. It is cleaned less often than fermenters and is the one piece of kit that touches every generation. A wild yeast that settles there rides along into every repitch.</p>"
+  ],
+  [
+   "Getting rid of it",
+   "<ul><li>Dump affected yeast. Acid washing will not separate wild yeast from culture yeast, because both tolerate low pH.</li><li>Start fresh from a clean lab culture or a new pitch from a trusted supplier.</li><li>Strip down and deep clean anything that touched the contaminated batch: heat exchanger, hoses, valves, gaskets and the filler.</li><li>Keep POF+ house strains separated in time and equipment from clean strains, with a full clean between them.</li><li>Plate regularly. Monthly plating of pitching yeast and finished beer catches contamination before customers do.</li></ul><p>Building a lab routine that catches wild yeast early and knowing which medium answers which question takes practice beyond a single guide.</p><p>Your first step: taste your last three batches of each clean beer next to each other, focusing on clove and plastic notes. If any batch shows them, plate a sample of the pitching yeast for that batch before you brew with it again.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What causes clove flavour in beer?",
+   "4-vinyl guaiacol, made when a POF+ yeast decarboxylates ferulic acid from malt. Wheat beer yeasts do it on purpose; in other beers it often signals wild yeast."
+  ],
+  [
+   "Are wild yeasts always phenolic?",
+   "Not always, but many wild Saccharomyces strains and diastaticus are POF+, so phenols are a common sign of contamination."
+  ],
+  [
+   "Does lysine medium detect diastaticus?",
+   "No. Lysine medium detects many non-Saccharomyces wild yeasts. Diastaticus is a Saccharomyces strain, so use copper media or a PCR test for STA1."
+  ],
+  [
+   "Can acid washing remove wild yeast?",
+   "No. Wild yeast tolerates low pH as well as culture yeast does. Discard affected yeast and start from a clean culture."
+  ]
+ ],
+ "cta": {
+  "title": "Catch contamination before customers do",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers yeast genetics, microbiology, selective media and plating routines that find wild yeast early.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "detecting-wild-yeast-with-lysine-medium",
+  "wort-aeration-and-oxygen",
+  "yeast-growth-phases"
+ ]
+}

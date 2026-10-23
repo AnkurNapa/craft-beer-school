@@ -1,0 +1,75 @@
+{
+ "slug": "handling-pot-ale-and-spent-wash",
+ "cat": "Whisky",
+ "h1": "Handling pot ale and spent wash",
+ "title": "Handling Pot Ale and Spent Wash | Craft Beer School",
+ "desc": "What pot ale, spent lees and spent wash are, why their pollution load is so high and the common ways distilleries treat or reuse them.",
+ "teaser": "For every litre of spirit, a distillery leaves many litres of residue behind. Planning for it decides whether you stay open.",
+ "standfirst": "Pot ale, spent lees and spent wash are the liquids left behind after distillation. They are high in organic matter and can harm rivers and soil. This guide explains what each one is and how distilleries handle them.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What each residue is",
+   "<p><strong>Pot ale</strong> is what is left in the wash still after the first distillation in a malt distillery. It contains dead yeast, soluble proteins, unfermented sugars and other solids. <strong>Spent lees</strong> are left in the spirit still after the second distillation and are mostly hot water with some copper and a small organic load.</p><p><strong>Spent wash</strong> is the term used in Indian molasses and grain distilleries for the residue from the column. From molasses it is a dark, acidic liquid with a strong smell. It is produced in large volumes, commonly quoted at roughly 8 to 15 litres for every litre of alcohol, depending on the plant.</p>"
+  ],
+  [
+   "Why it is a problem",
+   "<p>These residues carry a heavy organic load. Their biochemical oxygen demand (BOD) and chemical oxygen demand (COD) are many times higher than domestic sewage. Released into a river, they use up the dissolved oxygen fish and other life need. On land, untreated spent wash can damage soil and groundwater.</p><p>Molasses spent wash is the hardest. Its dark colour comes from melanoidins and other compounds that resist ordinary biological treatment. That is why pollution control boards in India treat distilleries as a high risk category and have pushed them towards zero liquid discharge.</p>"
+  ],
+  [
+   "Pot ale in a malt distillery",
+   "<p>Pot ale is lighter than molasses spent wash and has value. Common routes are:</p><ul><li>Evaporating it into a thick pot ale syrup, sold as an animal feed ingredient.</li><li>Mixing that syrup with draff and drying it into distillers dark grains.</li><li>Spreading it on farmland under a permit, where rules allow, as a fertiliser.</li><li>Feeding it to an anaerobic digester to make biogas.</li></ul><p>Small craft distilleries may not justify an evaporator. Many look for a local farmer, a feed processor or a shared treatment plant instead. Our guide to <a href=\"draff-and-spent-grain-for-cattle-feed.html\">draff and spent grain for cattle feed</a> covers the solids.</p>"
+  ],
+  [
+   "Spent wash in Indian molasses and grain plants",
+   "<p>Large molasses distilleries in India commonly run a chain of treatments. Biomethanation in anaerobic digesters cuts much of the organic load and makes biogas for the boiler. Multi effect evaporators concentrate what is left. The concentrate may be burned in an incineration boiler or mixed with press mud from sugar mills and composted.</p><p>Grain distilleries handle their residue differently. A decanter centrifuge separates the solids as wet cake. Some of the thin liquid is recycled into the next mash. The rest is evaporated to a syrup and dried with the wet cake into distillers dried grains with solubles (DDGS). Our guide to <a href=\"distillery-effluent-treatment-in-india.html\">distillery effluent treatment in India</a> covers the full system.</p>"
+  ],
+  [
+   "Spent lees and copper",
+   "<p>Spent lees look harmless, mostly hot water, but they carry dissolved copper from the still. Copper is toxic to aquatic life and to the bacteria in a biological treatment plant. Spent lees often need their own handling or careful mixing with other streams before treatment.</p><p>They are also very hot when they leave the still. Use the heat if you can, for example to preheat process water. Never send them straight into a drain or a treatment tank that relies on living bacteria.</p>"
+  ],
+  [
+   "Numbers to know for your plan",
+   "<p>For a small malt distillery, a rough sum helps. A wash still charged with 5,000 litres of wash at 8% ABV leaves most of that volume behind as pot ale, roughly 3,000 litres or a little more per run, depending on how much is collected as low wines. Run that still once a day and you have over a million litres of pot ale a year to deal with.</p><p>Write that number into your business plan before you order stills. It sets the size of storage tanks, the cost of trucking or treatment and the space you need on site.</p>"
+  ],
+  [
+   "Rules and permits",
+   "<p>In India, consent to establish and consent to operate from the state pollution control board are required before a distillery can run. Conditions for distilleries are strict and change over time. Do not rely on another plant's set-up as proof of what is allowed for yours. Work with an environmental consultant who knows the current norms in your state. Design treatment in from day one rather than adding it later.</p>"
+  ],
+  [
+   "A first step",
+   "<p>Measure or estimate the volume of each residue you will produce per run and per year. Write down where each one will go, who will take it and what it will cost. If any line on that list says unknown, solve it before you sign for land.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is pot ale?",
+   "Pot ale is the residue left in the wash still after the first distillation in a malt whisky distillery. It contains yeast, proteins and other solids."
+  ],
+  [
+   "What is spent wash?",
+   "Spent wash is the liquid residue from distilling fermented molasses or grain, especially in column plants. It carries a very high organic load and needs treatment."
+  ],
+  [
+   "Can pot ale be used as animal feed?",
+   "Yes. Pot ale is often evaporated into a syrup and used as a feed ingredient, sometimes mixed with draff to make distillers dark grains."
+  ],
+  [
+   "Why are spent lees treated separately?",
+   "Spent lees carry dissolved copper from the still, which can harm aquatic life and the bacteria in biological treatment plants."
+  ]
+ ],
+ "cta": {
+  "title": "Plan your distillery's residues from day one",
+  "body": "Craft Distilling is our four week live course (₹9,999), on Saturdays and Sundays with recordings and a certificate. It covers the whole process from grain to spirit, including what leaves the still besides spirit, so you can plan tanks, treatment and costs before you build.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "pot-still-vs-column-still",
+  "whisky-wash-fermentation",
+  "why-whisky-wash-sits-near-8-percent-abv"
+ ]
+}

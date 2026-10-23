@@ -1,0 +1,67 @@
+{
+ "slug": "reading-a-refractometer-on-brew-day",
+ "cat": "Brewing basics",
+ "h1": "Reading a refractometer on brew day",
+ "title": "Reading a Refractometer on Brew Day | Craft Beer School",
+ "desc": "How to calibrate and read a refractometer on brew day, convert Brix to gravity, apply a wort correction factor and avoid the usual errors.",
+ "teaser": "Two drops of wort and five seconds give you a gravity reading. Here is how to make it an accurate one.",
+ "standfirst": "A refractometer reads wort gravity from a few drops, which makes it the fastest tool on brew day. It needs calibrating, a correction factor and a little care with temperature. Here is how we use one.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a refractometer measures",
+   "<p>A refractometer measures how much a liquid bends light. Sugar in solution bends it more as concentration rises. The scale inside most brewing refractometers reads in degrees Brix, a measure of sugar by weight. Brewers usually work in specific gravity or degrees Plato, so you convert.</p><p>Brix and Plato are close enough to treat as the same for wort. As a rough rule, one degree Plato is about four gravity points. So 12 °P is about 1.048 and 15 °P is about 1.061. Our guide on <a href=\"plato-or-specific-gravity-and-which-scale-homebrewers-should.html\">Plato or specific gravity</a> explains both scales.</p>"
+  ],
+  [
+   "Calibrate with distilled water first",
+   "<p>Put two or three drops of distilled or packaged drinking water on the prism, close the cover plate and look through the eyepiece towards light. The boundary between the blue and white fields should sit exactly on zero. If it does not, turn the small calibration screw until it does.</p><p>Do this at room temperature at the start of every brew day. Most refractometers have automatic temperature compensation that works between roughly 10 and 30 °C. Indian kitchens in summer often sit at the top of that range or above it, so calibrate in the same room where you will take readings.</p>"
+  ],
+  [
+   "Take the reading the right way",
+   "<ul><li>Draw a small sample with a pipette or a sanitised spoon from a well-stirred mash or kettle.</li><li>Let the drops cool for 30 seconds on a spoon or a cool surface. Hot wort evaporates on the prism and reads high.</li><li>Put two or three drops on the prism and close the plate gently so no air bubbles are trapped.</li><li>Wait a few seconds for the sample to reach the prism temperature.</li><li>Read where the blue field meets the white.</li><li>Rinse with clean water and dry with a soft cloth.</li></ul><p>A cloudy, fuzzy line usually means the sample was not mixed or contains grain particles. Take another.</p><p>Treat the prism gently. It is soft glass. Wipe it with a damp cloth, never a scouring pad. Do not rinse it under a running tap with the cover open, because water gets into the body. A scratched prism gives a blurred line forever.</p>"
+  ],
+  [
+   "Apply a wort correction factor",
+   "<p>Refractometers are made for sugar solutions. Wort contains sugars plus proteins and other compounds that bend light slightly differently. The result is that a refractometer reads wort a little high. Brewers divide the Brix reading by a wort correction factor, commonly around 1.04, to get the true value.</p><p>Your own factor depends on your instrument. To find it, take a hydrometer reading and a refractometer reading of the same cooled wort several brews in a row. Divide the refractometer value by the hydrometer value converted to Plato. Average the results and use that number from then on.</p><p>If you have just bought the instrument, start with 1.04 and refine it. A factor that is off by 0.02 shifts a 1.050 reading by about one gravity point. That is small, but it adds up when you are also measuring volume roughly.</p>"
+  ],
+  [
+   "Where a refractometer earns its place",
+   "<p>The best use is during the brew, when waiting for a hydrometer sample to cool wastes time:</p><ul><li><strong>First runnings</strong> tell you how concentrated the mash was.</li><li><strong>Last runnings</strong> tell you when to stop sparging. Many brewers stop around 2 to 3 °Brix to avoid extracting tannins.</li><li><strong>Pre-boil gravity</strong> tells you whether you will hit your target while there is still time to fix it.</li><li><strong>Post-boil gravity</strong> is your original gravity, once corrected.</li></ul><p>That pre-boil reading is the one most homebrewers skip and most need. Our guide to <a href=\"adjusting-a-recipe-when-you-miss-your-original-gravity.html\">adjusting when you miss your original gravity</a> shows what to do with it.</p>"
+  ],
+  [
+   "After fermentation starts, the reading lies",
+   "<p>Alcohol bends light more than water does. Once yeast has made some, a refractometer reading of beer no longer reflects sugar alone. A finished beer that a hydrometer reads at 1.010 can show a refractometer value that looks like 1.025.</p><p>Correction calculators exist that combine the original and current readings to estimate the true gravity. They are close but not perfect. For final gravity, most brewers trust a hydrometer. Knowing which tool to use at which stage is the kind of method a structured course gives you in one place rather than across ten forum threads.</p>"
+  ],
+  [
+   "Find your correction factor this month",
+   "<p>On your next three brew days, take a hydrometer reading of the cooled wort at 20 °C and a refractometer reading of the same wort. Write both in your <a href=\"keeping-a-brew-log.html\">brew log</a>. After three brews, work out your average factor and write it on a label stuck to the refractometer case.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a wort correction factor?",
+   "A number, commonly around 1.04, that you divide a refractometer's Brix reading by to correct for the way wort bends light differently from pure sugar solution."
+  ],
+  [
+   "Can I use a refractometer to measure final gravity?",
+   "Only with a correction calculator, because alcohol skews the reading. A hydrometer is more reliable for final gravity."
+  ],
+  [
+   "How do I convert Brix to specific gravity?",
+   "For wort, one degree Brix is roughly four gravity points, so 12 °Brix is about 1.048. A calculator gives a more precise figure."
+  ]
+ ],
+ "cta": {
+  "title": "Measure every stage of the brew with confidence",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It covers gravity, extract and efficiency so every reading on brew day tells you something you can act on.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "first-all-grain-brew-day",
+  "a-bottling-day-checklist-for-homebrewers",
+  "a-simple-cleaning-routine-for-the-hours-after-brew-day"
+ ]
+}

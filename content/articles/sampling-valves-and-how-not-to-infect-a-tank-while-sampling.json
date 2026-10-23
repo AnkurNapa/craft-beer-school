@@ -1,0 +1,71 @@
+{
+ "slug": "sampling-valves-and-how-not-to-infect-a-tank-while-sampling",
+ "cat": "Brewing science",
+ "h1": "Sampling valves and how not to infect a tank while sampling",
+ "title": "Sampling Valves Without Infection | Craft Beer School",
+ "desc": "How to take samples from fermenters and bright tanks without contaminating the beer: valve types, sanitising, flushing and cleaning.",
+ "teaser": "Every sample you take is a small opening into a tank of beer. Handle the valve badly and you put more in than you take out.",
+ "standfirst": "Brewers sample tanks daily for gravity, pH, cell counts and tasting. Each sample is a chance to contaminate the beer or the sample itself. A few simple habits prevent both.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why sampling is a contamination risk",
+   "<p>A sample valve is a small dead space on the side of a tank, often below the beer line. Between samples, a little beer sits in it, at room temperature in many breweries, exposed to air at the outlet. That residue is an ideal home for bacteria and wild yeast. When you open the valve, any growth in that space can be pulled back or carried along.</p><p>Bad sampling causes two problems. It can infect the tank. It can also contaminate the sample, so your lab results show spoilers that are not in the beer and you dump a good batch.</p>"
+  ],
+  [
+   "Choose a valve you can clean",
+   "<p>Valve design matters. Common types include:</p><ul><li><strong>Sanitary sample valves</strong> with a short outlet and a membrane or diaphragm seal. These have little dead space and are easy to sanitise.</li><li><strong>Small ball valves</strong> fitted as sample points. Cheap and common, but beer gets trapped around the ball and seats. They need taking apart to clean properly.</li><li><strong>Tap style sample cocks</strong>. Easy to use, with a long spout that holds residue.</li></ul><p>Whatever you have, check that it can be dismantled, cleaned and reassembled without special tools. If it cannot, replace it.</p>"
+  ],
+  [
+   "A sampling routine that works",
+   "<ol><li>Wash hands and wear clean gloves.</li><li>Spray the valve outlet with 70% ethanol and let it act for a few seconds.</li><li>Open the valve and discard the first portion of beer, enough to flush the valve body. For most sample valves 100 to 200 ml is plenty.</li><li>Collect the sample into a clean, sanitised or sterile container without letting the valve touch it.</li><li>Close the valve and flush the outlet with clean water, then spray again with ethanol or sanitiser.</li><li>Fit a cap or cover if the valve has one.</li></ol><p>For microbiology samples, use sterile containers and keep the time the valve is open as short as possible.</p>"
+  ],
+  [
+   "To flame or not to flame",
+   "<p>Some brewers flame sample valves with a gas torch or by igniting ethanol. Flaming can sterilise metal surfaces well, but it brings real risks. Seals made of EPDM, silicone or PTFE can be damaged by heat. An open flame near ethanol sprays and cardboard packaging is a fire hazard.</p><p>If your valves are designed for it, flaming is a valid choice. For most small breweries, ethanol spray, a good flush and regular dismantling give reliable results without the fire risk. Whatever you choose, do it the same way every time and train everyone who samples.</p>"
+  ],
+  [
+   "Dismantle and clean on a schedule",
+   "<p>Spraying the outside of a valve does nothing for beer trapped inside it. Take sample valves apart and clean them regularly, for example every time the tank goes through CIP. Soak the parts in caustic or a cleaning solution, brush them with a small bottle brush, rinse, sanitise and reassemble.</p><p>Check seals while the valve is open. Cracked or hardened seals hold beer and microbes. Keep spare seals in stock so a worn one is replaced on the spot.</p>"
+  ],
+  [
+   "Sampling when beer is under pressure",
+   "<p>Bright tanks and fermenters in late fermentation hold beer under CO2 pressure. Opening a sample valve fully can spray beer and foam, so the sample loses gas and the floor gets wet. Open the valve slowly to get a gentle stream. For carbonation or dissolved oxygen readings, connect the instrument directly to the valve with a sanitised fitting rather than filling a cup. Our guide to <a href=\"measuring-carbonation.html\">measuring carbonation</a> covers the right technique.</p><p>Fast, careful sampling also limits oxygen pick up in the tank when the valve is opened.</p>"
+  ],
+  [
+   "Sampling for microbiology versus routine checks",
+   "<p>Not every sample needs the same care. A gravity check during fermentation tolerates a little contamination in the sample, because you are measuring density, not microbes. A microbiology sample does not. A single bacterium from a dirty valve can turn up as a positive plate.</p><p>For microbiology samples, step up the routine:</p><ul><li>Use sterile, sealed containers and open them only at the moment of sampling.</li><li>Flush the valve longer than usual, often double the volume.</li><li>Sanitise the valve outlet twice, before and after flushing.</li><li>Label the container with tank, date, time and the person who sampled.</li><li>Plate or refrigerate the sample within an hour.</li></ul><p>Write these steps down as a separate procedure so nobody uses the quick gravity routine for a micro sample. The extra minute it takes is far cheaper than a false alarm that holds a tank for a week.</p>"
+  ],
+  [
+   "Trust your results",
+   "<p>When a lab plate shows spoilers, the first question should always be: is the beer infected, or was the sample? Clean sampling makes that question easier to answer. If you suspect the valve, sample the same tank through a second, freshly cleaned point and compare.</p><p>Linking sampling technique to reliable microbiology results is part of the lab practice we teach on the advanced course.</p><p>Your first step: take one sample valve off a tank today, take it apart and look inside. What you find will tell you how often to do it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I sanitise a sample valve on a fermenter?",
+   "Spray the outlet with 70% ethanol, flush the first 100 to 200 ml to drain, take the sample, then flush and spray again after closing the valve."
+  ],
+  [
+   "Should I flame a sample valve?",
+   "Only if the valve and its seals are designed for heat. Ethanol spray, flushing and regular dismantling work well for most small breweries."
+  ],
+  [
+   "How often should sample valves be cleaned inside?",
+   "Take them apart and clean them regularly, ideally each time the tank is cleaned. Replace worn seals at the same time."
+  ]
+ ],
+ "cta": {
+  "title": "Get lab results you can act on",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers sampling, brewery microbiology and quality control so your data reflects the beer, not the valve.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "measuring-carbonation",
+  "monotanking-in-a-unitank",
+  "working-out-how-much-cooling-a-fermenting-tank-really-needs"
+ ]
+}

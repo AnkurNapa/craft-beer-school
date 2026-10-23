@@ -1,0 +1,71 @@
+{
+ "slug": "costing-a-contract-brewed-beer-per-case",
+ "cat": "Business",
+ "h1": "Costing a contract brewed beer per case",
+ "title": "Costing a Contract Brewed Beer Per Case | Craft Beer School",
+ "desc": "Build the cost of a case of contract brewed beer line by line: liquid, losses, packaging, duty and freight, with the working shown.",
+ "teaser": "The host's price per litre is only the start. Here is how to cost a full case before you set a selling price.",
+ "standfirst": "Founders often quote the host brewery's price per litre as their cost. The real cost of a case is that number plus losses, packaging, duty, freight and the fees nobody mentioned. We show the working so you can redo it with your own figures.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Pick the case you are costing",
+   "<p>Cost the unit you actually sell. In India a case is often 24 cans of 330 ml, which holds 7.92 litres, or 12 bottles of 650 ml, which holds 7.8 litres. A case of 24 cans of 500 ml holds 12 litres. Get this wrong and every number after it is wrong.</p><p>We will use a case of 24 cans of 330 ml in the example below. Every rupee figure in this guide is a round number chosen to show the arithmetic. They are not quotes. Replace each one with what your host, suppliers and state excise office actually charge.</p>"
+  ],
+  [
+   "Liquid cost and the losses on top",
+   "<p>The host may charge per litre of packaged beer or per brew. If it charges per brew, divide by the litres that actually reach the package, not the litres in the kettle.</p><p>Losses are the line founders forget. Beer is lost to trub, yeast, filtration, tank bottoms, line flushing and packaging rejects. If the contract says you pay for the brew and you get 90% of it in cans, your liquid cost per packaged litre is the brew price divided by 0.9. Agree the loss allowance in writing.</p><p>If you supply the raw materials yourself, add them here. A 12 °P wort needs roughly 17 to 18 kg of malt per hectolitre at normal brewhouse efficiency. Hops vary far more by style. A hazy IPA can use several times the hops of a lager.</p>"
+  ],
+  [
+   "A worked example",
+   "<p>Say the host charges ₹10,000 per hectolitre of packaged beer, raw materials included. That is ₹100 a litre. Your case holds 7.92 litres, so the liquid costs ₹792.</p><p>Now add packaging. Say a printed can and its end cost ₹14 together, so 24 of them cost ₹336. Add ₹40 for the carton and ₹10 for labels or sleeve and tape. Packaging comes to ₹386 a case.</p><p>So far the case costs ₹1,178 before any duty, freight or overhead. Write it out like this in a spreadsheet, one row per item, so you can see which line moves the total most.</p>"
+  ],
+  [
+   "Duty, fees and the state",
+   "<p>Excise duty and related fees on beer are set by each state and are charged in different ways: per bulk litre, per case, on a declared price or a mix. Brand registration and label approval usually carry their own annual fees. These can make up a large share of the price a drinker pays, so cost them from the current state notification or with your licensing consultant, never from memory.</p><p>Keep duty on its own row. It is a pass-through you cannot negotiate down. It also changes when the state budget changes. A founder who folds duty into one blended cost figure cannot tell whether margin moved because of the host or because of the state.</p>"
+  ],
+  [
+   "Freight, storage and the cold chain",
+   "<p>Beer has to get from the host to a licensed warehouse or distributor, often in a vehicle with permits for the route. Cost freight per case, not per trip, by dividing the trip cost by the cases on the truck. A half full truck doubles the cost per case.</p><p>Hoppy beer should be stored cold. If you pay for cold storage at a warehouse, add it per case per month. Then ask how long a case really sits before it sells. Two extra months in cold storage can quietly add more than the host's price rise you argued about.</p>"
+  ],
+  [
+   "The lines people leave out",
+   "<p>Add QC testing, samples given to bars, breakage and the cost of beer that goes out of date unsold. Spread one-off costs such as label artwork and registration fees across the cases you expect to sell in the year. Our guide to <a href=\"cost-per-litre-beer.html\">cost per litre of beer</a> shows the same logic for a brewery you own.</p><p>Once the full cost per case is clear, pricing becomes a separate question of margin at each step from you to the drinker. Building that chain and seeing how a change in duty or freight ripples through it is the part most founders get wrong the first time.</p>"
+  ],
+  [
+   "Test the total against the shelf price",
+   "<p>Once every row is filled, run the sum backwards from the price a drinker pays. Take the retail price of a can, multiply by 24 and remove the retailer's margin, the distributor's margin and taxes collected along the way. What is left is what you receive per case. If that figure is close to your full cost, the plan does not work, however good the beer is.</p><p>Then change one input at a time and watch the result. Raise freight by 20%. Add two months of storage. Assume 5% of stock goes out of date. A plan that survives these tests has some resilience. A plan that only works when every number goes your way needs a different host, a different pack or a different price.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Open a spreadsheet with one row for each cost in this guide: liquid, losses, cans, carton, labels, duty, freight, storage, testing, samples and write-offs. Fill in every row you know today. Each blank row is a question to put to your host or your licensing consultant this week.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many litres are in a case of beer in India?",
+   "It depends on the pack. 24 cans of 330 ml hold 7.92 litres, 12 bottles of 650 ml hold 7.8 litres and 24 cans of 500 ml hold 12 litres."
+  ],
+  [
+   "Should excise duty be part of my cost per case?",
+   "Yes, but keep it on its own line so you can see how changes in state duty affect margin separately from production cost."
+  ],
+  [
+   "What loss allowance should I agree with a host brewery?",
+   "Base it on the host's measured losses from brewhouse to package for similar beers, then write that allowance into the contract."
+  ]
+ ],
+ "cta": {
+  "title": "Learn to cost and price beer properly",
+  "body": "Brewery Business Management is a three week live course on Saturdays and Sundays, 12:00 PM to 2:00 PM IST, with a maximum of 20 students per batch, recordings, weekly assignments and a certificate (₹8,999).",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "contract-brewing-india",
+  "cost-per-litre-beer",
+  "kegs-vs-cans-business"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "water-hardness-and-haze-when-reducing-whisky",
+ "cat": "Whisky",
+ "h1": "Water hardness and haze when reducing whisky",
+ "title": "Water Hardness and Haze in Whisky | Craft Beer School",
+ "desc": "Why hard water causes haze and deposits when you reduce whisky, how to measure your reduction water and the practice that keeps bottles clear.",
+ "teaser": "A clear cask sample can turn cloudy the moment you add water. Often the water is the problem.",
+ "standfirst": "Reducing whisky from cask strength to bottling strength looks like the simplest step in the distillery. Use the wrong water and you get haze, white flakes or a deposit three months after bottling. Here is why and what to use instead.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two sources of haze when you add water",
+   "<p>When whisky is reduced, two different things can go cloudy. The first comes from the whisky itself. Long chain fatty acid esters, such as ethyl palmitate, dissolve happily at cask strength but come out of solution as the alcohol drops. This is the haze that chill filtration removes and that non-chill filtered whisky avoids by staying at 46% ABV or above. Our guide to <a href=\"non-chill-filtered-whisky-and-haze.html\">non-chill filtered whisky and haze</a> covers it.</p><p>The second comes from the water. Hard water carries dissolved calcium and magnesium plus bicarbonate. Added to a spirit that contains organic acids from oak, those minerals can form insoluble salts. Calcium oxalate and calcium carbonate deposits are the usual culprits. They show as white flakes, a fine sediment or a crust on the bottle base, sometimes weeks after bottling.</p>"
+  ],
+  [
+   "Indian water makes this a live problem",
+   "<p>Many Indian distilleries draw borewell water, which is often hard. Municipal supplies vary by city and by season. Water that tastes perfectly good can still carry several hundred milligrams per litre of dissolved solids and that is far too much for reduction.</p><p>Reduction water is part of the product. In a whisky reduced from 60% to 42% ABV, roughly 30% of the bottle is water you added. Whatever is dissolved in that water is now in your whisky. Our guide to <a href=\"reducing-whisky-to-bottling-strength.html\">reducing whisky to bottling strength</a> covers the dilution maths.</p>"
+  ],
+  [
+   "What good reduction water looks like",
+   "<p>Most distilleries reduce with demineralised water, made by reverse osmosis, ion exchange or both. The quick way to check it is a conductivity meter, reading in microsiemens per centimetre (µS/cm). Demineralised water reads a small fraction of what raw borewell water does. A rising reading is the first warning that an RO membrane or resin bed needs attention.</p><p>Check these on each batch of reduction water:</p><ul><li>conductivity, logged against a target you set with your water treatment supplier</li><li>smell and taste, since chlorine or a musty note will carry straight into the whisky</li><li>microbiological quality, because stored treated water can grow bacteria in warm tanks</li></ul>"
+  ],
+  [
+   "Reduce slowly and in stages",
+   "<p>Even with good water, adding it all at once can shock the spirit. Local pockets of low strength let esters and other compounds drop out faster than they will dissolve back. Many distilleries reduce in two or three steps, with gentle mixing between additions and a rest of a day or more before the final adjustment.</p><p>Measure strength with a calibrated density meter or hydrometer at a controlled temperature, then correct. Spirit and water contract when mixed, so the final volume is always slightly less than the sum of the two. Plan the batch on alcohol, not on litres.</p>"
+  ],
+  [
+   "Test before you bottle",
+   "<p>A simple stability check catches most problems. Take a sample of the reduced whisky, put one bottle in a fridge at around 4 °C overnight and keep another at warehouse temperature for a week. Hold both against a bright light. Haze in the cold sample points at fatty esters. Flakes or sediment at room temperature point more often at minerals or particles.</p><p>If haze appears, check the water first. A reading on the conductivity meter takes ten seconds and rules out the most common cause before you start blaming the cask.</p>"
+  ],
+  [
+   "Store treated water like an ingredient",
+   "<p>Demineralised water has no chlorine left to protect it, so it can grow bacteria if it sits warm. In a distillery where the tank room reaches 35 °C in May, a big tank of RO water filled on Monday is not the same water on Friday. Make reduction water close to when you need it, store it in clean stainless or food grade tanks with tight lids and clean those tanks on a schedule.</p><p>Hoses and fittings matter as much. A rubber hose that sat on a wet floor can add more taint to a batch than the water treatment removed. Use dedicated, food grade hoses for reduction water and nothing else.</p>"
+  ],
+  [
+   "When haze is part of the style",
+   "<p>Some producers accept a faint cloud at low temperature in non-chill filtered whisky and explain it on the label. That is a stylistic choice about fatty esters. Mineral deposits are a different matter. They add nothing, look like a fault and invite customer complaints.</p><p>Your first step: buy or borrow a conductivity meter and measure both your raw water and your reduction water today. Write the two numbers in the batch record.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does whisky go cloudy when water is added?",
+   "Fatty acid esters fall out of solution as alcohol drops. Hard water can also add calcium and magnesium that form insoluble deposits with acids from the cask."
+  ],
+  [
+   "What water should be used to reduce whisky?",
+   "Most distilleries use demineralised water made by reverse osmosis or ion exchange, checked with a conductivity meter."
+  ],
+  [
+   "Can borewell water be used for reduction?",
+   "Not without treatment. Borewell water in India is often hard and its minerals end up in the bottle as haze or deposits."
+  ]
+ ],
+ "cta": {
+  "title": "Bottle whisky that stays clear on the shelf",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers water, maturation, reduction, filtration and bottling so the spirit you casked is the spirit your customer sees.",
+  "label": "See the full syllabus",
+  "href": "craft-distilling-course.html"
+ },
+ "related": [
+  "reducing-whisky-to-bottling-strength",
+  "adding-water-to-whisky",
+  "non-chill-filtered-whisky-and-haze"
+ ]
+}

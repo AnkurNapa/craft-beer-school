@@ -1,0 +1,63 @@
+{
+ "slug": "carbonation-drops-versus-batch-priming",
+ "cat": "Brewing basics",
+ "h1": "Carbonation drops versus batch priming",
+ "title": "Carbonation Drops Versus Batch Priming | Craft Beer School",
+ "desc": "Carbonation drops or batch priming for bottling homebrew: how each works, how much sugar to use and which suits your beer and bottles.",
+ "teaser": "Carbonation drops are quick. Batch priming is precise. Here is how to pick the right one for your next bottling day.",
+ "standfirst": "Every bottle-conditioned homebrew needs a small dose of sugar to carbonate. You can add it one tablet at a time or stir it through the whole batch. Each method has a place. Pick the wrong one and it shows up as flat or gushing bottles.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Both methods do the same thing",
+   "<p>Bottle conditioning works by adding a small, measured amount of fermentable sugar to finished beer. The yeast still in suspension ferments it inside the sealed bottle. The carbon dioxide has nowhere to go, so it dissolves into the beer. Get the amount right and you have the carbonation you planned. Get it wrong and you have flat beer or bottles that gush.</p><p>The only difference between carbonation drops and batch priming is how the sugar gets into each bottle. Drops put a fixed dose in each one. Batch priming dissolves the full amount into the whole batch before bottling. Our guide to <a href=\"bottle-conditioning-and-priming-sugar.html\">bottle conditioning and priming sugar</a> covers the yeast side.</p>"
+  ],
+  [
+   "Carbonation drops: fixed dose, no maths",
+   "<p>Carbonation drops are small tablets of sugar, usually a mix of glucose and sucrose. Each tablet is sized to carbonate one standard bottle, typically 330 ml, to a medium level. You drop one into each bottle, fill and cap.</p><p>The appeal is plain. No measuring, no syrup to boil and no stirring the beer. They are ideal when you bottle straight from the fermenter. They also help if you are bottling a few bottles from a keg or splitting a batch.</p><p>The limits are just as plain. The dose is fixed. A 650 ml bottle, the standard Indian beer bottle, needs two drops. A 500 ml bottle sits awkwardly between one and two. If you want a lightly carbonated stout or a highly carbonated Belgian ale, drops cannot adjust. They also cost more per batch than a bag of dextrose.</p>"
+  ],
+  [
+   "Batch priming: measured, adjustable",
+   "<p>Batch priming means dissolving a weighed amount of sugar in a little boiled water and stirring it gently into the whole batch, usually in a bottling bucket. Every bottle then gets the same concentration, whatever its size.</p><p>The amount depends on the style and the beer's temperature at the end of fermentation. Warmer beer holds less dissolved carbon dioxide, so it needs a little more sugar. As a rough guide, about 6 g of dextrose per litre gives around 2.4 volumes of carbon dioxide, a typical level for pale ales and lagers. That is roughly 120 g in a 20 litre batch. Use a priming calculator with your actual volume and temperature. Our guide to <a href=\"carbonation-levels-by-style.html\">carbonation levels by style</a> lists the targets.</p>"
+  ],
+  [
+   "How the two compare",
+   "<ul><li><strong>Accuracy:</strong> batch priming is more precise because you weigh the sugar for your exact volume and target. Drops give a fixed, medium dose.</li><li><strong>Flexibility:</strong> batch priming suits any bottle size and any carbonation level. Drops suit standard bottles at standard levels.</li><li><strong>Effort:</strong> drops need no maths and no extra vessel. Batch priming needs a calculator, a scale and a bottling bucket.</li><li><strong>Risk:</strong> drops cannot be under-mixed. Batch priming can leave uneven bottles if the sugar is not stirred in well.</li><li><strong>Cost:</strong> dextrose costs a fraction of drops per batch.</li></ul>"
+  ],
+  [
+   "Mistakes that cause gushers either way",
+   "<p>The most common problem is not the sugar method. It is bottling before fermentation is finished. If the beer still has a few gravity points to drop, that sugar ferments in the bottle on top of the priming sugar. Confirm the gravity is steady for three days before bottling.</p><p>With batch priming, the next problem is uneven mixing. Sugar syrup is denser than beer and sinks. Add the syrup to the bucket first, rack the beer in on top so it swirls and then stir gently once. With drops, the trap is using two in a 330 ml bottle by mistake. In Indian heat, warm storage also speeds conditioning and can push a borderline batch over the edge.</p>"
+  ],
+  [
+   "Which to choose",
+   "<p>Use drops for small batches, mixed bottle sizes, bottling from the fermenter or when you want an easy first bottling day. Use batch priming once you want control over carbonation by style and you own a bottling bucket and a scale. Many brewers start with drops and move to batch priming as they brew more styles. Our guide to <a href=\"small-batch-brewing.html\">small batch brewing</a> suits drops well.</p><p>Your first step: weigh one of your carbonation drops on a kitchen scale. Compare its weight with the 6 g per litre guide for your bottle size and you will know exactly what level it gives.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many carbonation drops go in a 650 ml bottle?",
+   "Usually two, since each drop is sized for a bottle of about 330 ml. Check the packet for the maker's guidance."
+  ],
+  [
+   "How much priming sugar for 20 litres of homebrew?",
+   "Around 120 g of dextrose gives roughly 2.4 volumes of carbon dioxide. Use a priming calculator with your exact volume and beer temperature."
+  ],
+  [
+   "Can I use table sugar instead of dextrose?",
+   "Yes. Plain sucrose works and ferments fully. You need slightly less by weight than dextrose for the same carbonation."
+  ]
+ ],
+ "cta": {
+  "title": "Get carbonation right in every bottle",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999) on Saturday and Sunday afternoons. It covers bottle conditioning, priming and carbonation by style so every batch pours with the fizz you planned.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "bottle-conditioning-and-priming-sugar",
+  "carbonation-levels-by-style",
+  "small-batch-brewing"
+ ]
+}

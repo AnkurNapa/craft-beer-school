@@ -1,0 +1,67 @@
+{
+ "slug": "cask-inventory-data-models-for-analysts",
+ "cat": "Whisky",
+ "h1": "Cask inventory data models for analysts",
+ "title": "Cask Inventory Data Models for Analysts | Craft Beer School",
+ "desc": "How to model whisky cask inventory: casks, fills, regauges, movements and vattings, plus the measures analysts need such as litres of alcohol and loss.",
+ "teaser": "A cask is not a SKU. Model it like one and your whisky stock numbers will drift every year.",
+ "standfirst": "Whisky inventory lives in thousands of casks that change in volume, strength and value every year they sit in the warehouse. This guide shows how to model that stock so the numbers survive a regauge, an audit and a blender's questions.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why casks break ordinary inventory models",
+   "<p>Most inventory models assume a unit stays the same until it is sold. A cask of whisky does not. While it matures it loses volume to evaporation, its alcoholic strength drifts, its flavour changes and its value rises with age. It can be moved between warehouses, topped up, emptied into a vat or refilled with new spirit.</p><p>So the question an analyst must answer is not how many casks we have. It is how many litres of pure alcohol we hold, of what spirit, in what kind of wood, filled when. A good data model is built to answer exactly that.</p>"
+  ],
+  [
+   "The core entities",
+   "<p>A workable cask model has a small set of tables.</p><ul><li><strong>Cask:</strong> the physical container. Cask number, type, nominal size, wood (American or European oak), previous contents (bourbon, sherry, wine), fill number (first fill, refill) and cooperage details.</li><li><strong>Spirit batch:</strong> the new make spirit that went in. Distillation date, still or production run, recipe or grain, strength at filling.</li><li><strong>Fill event:</strong> one row each time a cask is filled. Date, spirit batch, bulk litres, strength and original litres of alcohol.</li><li><strong>Location:</strong> warehouse, bay, row and tier. Position matters in hot climates, since casks high in a warehouse run warmer.</li><li><strong>Gauge event:</strong> every measurement of volume and strength across the cask's life.</li><li><strong>Movement and disposal events:</strong> transfers, re-racking into another cask, emptying into a vat for blending or bottling.</li></ul><p>Our guide to <a href=\"cask-management-systems-and-inventory-tracking.html\">cask management systems</a> covers the software that holds these records.</p>"
+  ],
+  [
+   "Litres of alcohol is the unit that matters",
+   "<p>Bulk litres alone mislead, because strength varies from cask to cask. The trade measures whisky stock in <strong>litres of pure alcohol</strong> (LPA): bulk litres multiplied by alcohol by volume. A 250 litre hogshead filled with 245 litres at 63.5% ABV holds 155.6 LPA.</p><p>Common cask sizes are worth knowing: an American standard barrel is about 200 litres, a hogshead about 250 litres and a butt or puncheon about 500 litres. Store the actual filled volume, not just the nominal size, because nominal sizes vary in practice.</p><p>Our guide to <a href=\"proof-abv-and-litres-of-pure-alcohol.html\">proof, ABV and litres of pure alcohol</a> explains the conversions.</p>"
+  ],
+  [
+   "Gauges and loss are events, not overwrites",
+   "<p>The most important design choice is to keep every gauge as its own event row. Never overwrite the fill volume with the latest reading. Loss is the difference between two gauge events. The business needs that history.</p><p>Evaporation loss, the angel's share, is often quoted at around 2% a year in Scotland's cool climate. In Indian heat it runs well above that. Our guide to the <a href=\"angels-share-whisky-in-indian-heat.html\">angel's share in Indian heat</a> explains why. With every gauge stored, an analyst can calculate annual loss by warehouse, tier, cask type and fill year, which is the raw material for a maturation forecast and for excise reconciliation.</p>"
+  ],
+  [
+   "Model the grain before the dashboard",
+   "<p>Decide the grain of each fact table explicitly. A sound pattern is one row per cask per event in an event fact, plus a periodic snapshot table with one row per cask per month holding the latest known volume, strength, LPA and location. The snapshot makes month end reporting fast; the event table keeps the truth.</p><p>Vatting is where models break. When twenty casks are emptied into one vat, the vat becomes a new entity with a lineage back to each cask. Store that lineage as a bridge table from vat to cask with the LPA each cask contributed. Without it, nobody can answer a quality question about a bottled batch.</p>"
+  ],
+  [
+   "Keys and master data",
+   "<p>Cask numbers are often reused or recorded differently in different systems. Use a surrogate key for each cask and keep the painted cask number as an attribute. Keep cask type, wood and previous contents in controlled lists rather than free text, or \"ex-bourbon\", \"bourbon barrel\" and \"ASB\" will appear as three different woods in your first chart.</p><p>Finance will also want cost on the same grain. Each cask carries the cost of its spirit and wood at filling, then picks up warehousing cost every year it stays. Divide by the current LPA rather than the original, because loss means the remaining alcohol carries the whole cost. A cask that has lost a fifth of its alcohol costs a quarter more per remaining litre, before any storage charge.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Take an extract of fill and gauge records for one warehouse. Calculate LPA at fill and LPA at the latest gauge for each cask, then the annual percentage loss. Plot it by tier. If the top tiers lose more, your data model is already telling the warehouse manager something useful.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What unit should whisky inventory be measured in?",
+   "Litres of pure alcohol, which is bulk litres multiplied by alcohol by volume. Bulk litres alone mislead because strength varies between casks."
+  ],
+  [
+   "Why keep every gauge reading?",
+   "Loss is the difference between readings over time. Overwriting the fill volume destroys the history needed for loss analysis, maturation forecasts and excise reconciliation."
+  ],
+  [
+   "How should vatting be modelled?",
+   "Treat the vat as a new entity with a bridge table back to every cask that went in, recording the litres of alcohol each contributed."
+  ]
+ ],
+ "cta": {
+  "title": "Stock numbers that drift every time the casks are gauged",
+  "body": "Our Data and AI in beverages module is built around your team's own portfolio, so the examples are your brands, your states and your data.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "cask-management-systems-and-inventory-tracking",
+  "how-whisky-is-made",
+  "whisky-maturation-and-casks"
+ ]
+}

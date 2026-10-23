@@ -1,0 +1,67 @@
+{
+ "slug": "limited-fermentation-for-alcohol-free-beer",
+ "cat": "Brewing science",
+ "h1": "Limited fermentation for alcohol-free beer",
+ "title": "Limited Fermentation for NA Beer | Craft Beer School",
+ "desc": "How limited fermentation makes alcohol-free beer: mash design, maltose-negative yeasts, cold contact methods and the microbial risks to manage.",
+ "teaser": "Limited fermentation needs no dealcoholisation plant. It does need a brewer who understands sugars, yeast and food safety.",
+ "standfirst": "Limited fermentation is the route most craft brewers take to alcohol-free beer. Instead of removing alcohol, you stop it forming in the first place. It is cheaper to start, but it comes with flavour and safety problems that need careful handling.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The idea in one paragraph",
+   "<p>Normal beer gets its alcohol from yeast fermenting the sugars in wort, mainly maltose. Limited fermentation restricts how much alcohol forms, aiming for a beer under 0.5% ABV. There are three main tools: a wort with less fermentable sugar, a yeast that cannot ferment maltose and a fermentation stopped early or run so cold that little alcohol forms.</p><p>Whatever the method, the finished beer is judged against full-strength beer, not against soft drinks. Drinkers who choose an alcohol-free beer usually want it to taste like beer. That sets the bar.</p><p>Most breweries combine two of the three. Each has a cost in flavour. All of them leave sugar in the beer, which changes the microbiology. That last point is the one brewers most often underestimate.</p>"
+  ],
+  [
+   "Design the wort first",
+   "<p>A limited-fermentation wort starts weaker than a normal beer, often around 6 to 8 °P. Mashing hot, at about 72 to 78 °C, favours alpha amylase and produces more unfermentable dextrins, so less of the extract can turn into alcohol. Some recipes skip the lower rests entirely.</p><p>Speciality malts help with body and colour without adding much fermentable sugar. Crystal and caramel malts are common, in modest amounts. Our <a href=\"ankur-napa-free-brewing-tools.html\">free brewing tools</a> help you estimate the gravity, but the real check is a measurement on your own wort. Expect some trial batches before the balance is right.</p>"
+  ],
+  [
+   "Maltose-negative yeasts",
+   "<p>The second tool is the yeast. Some yeasts, such as Saccharomycodes ludwigii and certain Pichia kluyveri strains, cannot ferment maltose or maltotriose. They ferment glucose, fructose and sucrose, which make up only a small share of wort sugars, then stop. That limits alcohol naturally, while still giving the beer some fermentation character.</p><p>Several yeast suppliers now sell dried strains made for this job. Follow the supplier's pitch rate and temperature. Ferment as you normally would, but track gravity closely, because the drop is small. A fermentation that goes further than expected points to contamination by ordinary brewing yeast. Our guide to <a href=\"reading-a-fermentation-curve.html\">reading a fermentation curve</a> shows what to watch.</p>"
+  ],
+  [
+   "Cold contact and stopped fermentation",
+   "<p>The third tool is temperature. In cold contact fermentation, wort is held with yeast at around 0 to 4 °C for a period. At that temperature yeast makes very little alcohol, but it does reduce some worty aldehydes and adds a little beer character. Stopped fermentation lets a normal yeast run briefly at warmer temperatures, then crashes it cold and removes the yeast once the target alcohol is reached.</p><p>Both methods are simple in principle. In practice, stopping on time is hard. A few hours too long can push the beer over the limit. Measure alcohol rather than estimating it from gravity alone, because at these levels the ABV formula is not precise enough.</p>"
+  ],
+  [
+   "The worty flavour problem",
+   "<p>Beer that has barely fermented tastes of wort. The culprits are mainly Strecker aldehydes such as 2-methylbutanal and 3-methylbutanal, along with other aldehydes from the mash and boil. In a normal fermentation, yeast reduces most of them to alcohols with much less flavour impact. In a limited fermentation, many remain.</p><p>Brewers fight this in several ways. Lower boil intensity and shorter hot holds reduce aldehyde formation. Maltose-negative yeasts and cold contact both reduce some aldehydes. Late hopping and dry hopping cover what is left. A slightly lower pH, from acidulated malt or a lactic acid addition, also makes the beer taste fresher and less sweet.</p>"
+  ],
+  [
+   "Microbial safety comes first",
+   "<p>This is the part that matters most. A beer with high residual sugar, very little alcohol and a relatively high pH is a much easier place for microbes to grow than normal beer. Spoilage organisms can grow. In the worst case, so can pathogens. Keeping the pH below about 4.2 is common practice, well under the 4.6 threshold used in food safety to control Clostridium botulinum.</p><p>Most commercial alcohol-free beers are pasteurised, usually with more pasteurisation units than standard beer. Agree the target with your pasteuriser supplier or a food safety adviser. Do not sell unpasteurised limited-fermentation beer on the assumption that it is safe because normal beer is. Getting the recipe, the yeast and the safety controls right together is the core of a proper course on the subject.</p><p>Your first step: brew a 20 litre test batch at 7 °P with a maltose-negative yeast, then measure the final pH and alcohol before deciding anything else.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What yeast is used for limited fermentation?",
+   "Maltose-negative yeasts such as Saccharomycodes ludwigii and some Pichia kluyveri strains. They ferment only the simple sugars and then stop."
+  ],
+  [
+   "Why does alcohol-free beer taste worty?",
+   "Limited fermentation leaves aldehydes from the wort in the beer. Normal fermentation would reduce most of them."
+  ],
+  [
+   "Does limited-fermentation beer need pasteurising?",
+   "In most cases, yes. High sugar, low alcohol and higher pH make it vulnerable to spoilage and pathogens."
+  ],
+  [
+   "What pH should alcohol-free beer have?",
+   "Many brewers keep it below about 4.2, well under the 4.6 food safety threshold for Clostridium botulinum."
+  ]
+ ],
+ "cta": {
+  "title": "Brew alcohol-free beer that is safe and tastes right",
+  "body": "Non-Alcoholic Beer is our two week live course (₹5,000), on Saturdays and Sundays online. It covers wort design, special yeasts, flavour control and pasteurisation for alcohol-free beer, which a single guide cannot.",
+  "href": "non-alcoholic-beer-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "free-rise-fermentation-and-when-to-let-the-temperature-climb",
+  "dealcoholisation-methods-for-alcohol-free-beer",
+  "reading-a-fermentation-curve"
+ ]
+}

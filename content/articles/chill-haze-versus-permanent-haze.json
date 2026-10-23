@@ -1,0 +1,71 @@
+{
+ "slug": "chill-haze-versus-permanent-haze",
+ "cat": "Brewing science",
+ "h1": "Chill haze versus permanent haze",
+ "title": "Chill Haze Versus Permanent Haze | Craft Beer School",
+ "desc": "What chill haze and permanent haze are, how protein and polyphenols cause both, how to test for them and how brewers prevent them.",
+ "teaser": "A beer that clouds in the fridge and clears on the table is giving you a warning about next month.",
+ "standfirst": "Chill haze comes and goes with temperature. Permanent haze stays whatever you do. They come from the same raw materials. With time, one tends to turn into the other.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Both hazes start with protein meeting polyphenol",
+   "<p>Most non-biological haze in beer comes from two groups of molecules. Haze active proteins, many rich in the amino acid proline, come from malt. Polyphenols, sometimes called tannins, come from malt husk and hops. In the beer they attract each other and form loose complexes. When enough of these complexes grow large enough to scatter light, you see haze.</p><p>Our guide to <a href=\"polyphenols-from-husk-and-hops-and-how-they-shape-haze-and.html\">polyphenols from husk and hops</a> explains where the polyphenol side comes from in more detail.</p>"
+  ],
+  [
+   "Chill haze forms in the cold and fades when warm",
+   "<p>Chill haze appears when beer is cooled to around 0 °C and disappears when it warms back to about 20 °C. The protein and polyphenol complexes in chill haze are held together by weak bonds, such as hydrogen bonds. Cold strengthens them, so particles form. Warmth loosens them, so the particles break up and redissolve.</p><p>To a drinker, chill haze looks like a faint cloud in a beer straight from a very cold fridge. In a pale lager served ice cold, as most beer in India is, it is easy to see. It does not change flavour, but it makes a beer look old or faulty.</p>"
+  ],
+  [
+   "Permanent haze stays at any temperature",
+   "<p>Permanent haze does not clear when the beer warms. Over time, oxidation turns simple polyphenols into larger, more reactive ones. These form stronger, often covalent bonds with proteins. The complexes no longer break up on warming, so the haze stays.</p><p>This is why chill haze is treated as an early warning. A beer that shows chill haze today has the materials and the chemistry to form permanent haze later, especially with oxygen and heat. A beer that sits in a 35 °C warehouse for a month moves along that path much faster than one kept cold.</p>"
+  ],
+  [
+   "Testing tells the two apart",
+   "<p>A haze meter makes the difference measurable. Our guide to <a href=\"measuring-haze-with-a-turbidity-meter.html\">measuring haze with a turbidity meter</a> covers the instrument. The basic test:</p><ol><li>Chill a sealed sample to 0 °C and hold it for 24 hours. Read haze at 0 °C. This is total haze.</li><li>Warm the same sample to 20 °C and read again. This is permanent haze.</li><li>The difference between the two readings is the chill haze.</li></ol><p>Forced ageing goes one step further. Hold samples warm for several days, then chill and read. The rise in haze compared with an unforced sample predicts how the beer will behave over months. Breweries usually set their own forcing routine and compare batches against it, rather than chasing a universal number.</p>"
+  ],
+  [
+   "Cold conditioning removes chill haze before it reaches the bottle",
+   "<p>The simplest tool is time at low temperature. Holding beer at around minus 1 to 0 °C for several days lets chill haze particles form in the tank, where they settle or are caught by filtration. Beer filtered warmer, say at 4 or 5 °C, leaves those particles in solution. They then appear later in the customer's fridge.</p><p>The floor detail here is simple: check the actual beer temperature at the filter inlet, not the glycol set point. A tank set to 0 °C can deliver beer several degrees warmer at the filter after a long transfer line on a hot day.</p>"
+  ],
+  [
+   "Stabilisers target one side of the complex",
+   "<p>Brewers who need long shelf life remove one partner from the protein and polyphenol pair:</p><ul><li><strong>Silica gel</strong> adsorbs haze active proteins and is removed by filtration. Used at normal rates it leaves most foam proteins alone.</li><li><strong>PVPP</strong> (polyvinylpolypyrrolidone) binds polyphenols, also removed by filtration. Some breweries use regenerable PVPP systems.</li><li><strong>Proline-specific endoprotease</strong>, an enzyme added at the start of fermentation, breaks down the haze active proteins so they cannot form complexes. It is also used to reduce gluten levels.</li><li><strong>Good brewhouse practice</strong> reduces both partners: avoid oversparging at high pH, which pulls polyphenols from husk. Get a strong hot break and cold break as well.</li></ul><p>Choosing between these depends on your shelf life target, filtration set-up and whether the beer is meant to be bright at all. A hazy IPA wants its haze, but it still needs to be the right haze, not a muddy permanent one from oxidised polyphenols.</p>"
+  ],
+  [
+   "Start with the cold test",
+   "<p>Your first step: take one bottle of your bright beer from the cold room and one from the warmest place it is stored in trade. Hold both at 0 °C overnight, then compare them against the light. If the warm stored bottle is noticeably hazier, your problem is not only chill haze. It is permanent haze already on its way.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is chill haze in beer?",
+   "A haze that forms when beer is chilled to around 0 °C and clears when it warms to about 20 °C. It comes from loosely bound protein and polyphenol complexes."
+  ],
+  [
+   "What causes permanent haze?",
+   "Oxidised polyphenols form strong bonds with proteins, creating particles that do not dissolve on warming. Oxygen, heat and time drive it."
+  ],
+  [
+   "Does chill haze affect flavour?",
+   "Not directly. It affects appearance, but it signals that permanent haze and staling may follow."
+  ],
+  [
+   "How do breweries prevent chill haze?",
+   "Cold conditioning near 0 °C before filtration plus stabilisers such as silica gel, PVPP or a proline-specific enzyme."
+  ]
+ ],
+ "cta": {
+  "title": "Go deeper into what keeps beer bright",
+  "body": "Advanced Brewing Science is our six week live course. It covers colloidal stability, protein and polyphenol chemistry, filtration and the lab tests that predict shelf life.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "beer-haze-causes",
+  "polyphenols-from-husk-and-hops-and-how-they-shape-haze-and",
+  "measuring-haze-with-a-turbidity-meter"
+ ]
+}

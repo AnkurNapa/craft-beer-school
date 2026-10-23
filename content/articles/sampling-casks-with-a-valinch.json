@@ -1,0 +1,71 @@
+{
+ "slug": "sampling-casks-with-a-valinch",
+ "cat": "Whisky",
+ "h1": "Sampling casks with a valinch",
+ "title": "Sampling casks with a valinch | Craft Beer School",
+ "desc": "How to draw a clean, representative whisky sample from a cask with a valinch, what to record and the mistakes that skew results.",
+ "teaser": "A valinch looks like a simple tube. Used carelessly, it gives you a wrong reading and a contaminated cask.",
+ "standfirst": "The valinch is the distiller's window into a cask. Every strength reading, every maturation call and every blend starts with a sample drawn through one. Here is how to do it cleanly and get a sample that tells the truth.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a valinch is",
+   "<p>A valinch is a long tube, usually copper, stainless steel or glass, open at both ends and slightly narrowed at the bottom. Some call it a whisky thief. You lower it through the bung hole, let spirit flow in, cover the top with your thumb and lift. Atmospheric pressure holds the spirit in the tube until you release your thumb over a glass or sample bottle.</p><p>Copper ones look good on a warehouse tour. Stainless steel and glass are easier to clean and easier to check for residue. Whatever the material, it must be food safe and kept only for spirit.</p>"
+  ],
+  [
+   "Before you open the cask",
+   "<ul><li>Check the cask ID against your register and confirm this cask is due for sampling.</li><li>Clean the valinch and rinse it with a little high strength spirit or let it dry fully. Water left in the tube dilutes the sample and lowers the strength reading.</li><li>Have a labelled sample bottle ready: cask ID, date, warehouse position and initials.</li><li>Have a clean replacement bung or the cleaned original ready to go back in.</li></ul><p>Wipe the area around the bung before removing it. Dust, insects and mould on the cask head will fall straight into the spirit otherwise. In the monsoon, this step matters more than any other.</p>"
+  ],
+  [
+   "Drawing a representative sample",
+   "<p>Spirit near the surface of a still cask can differ slightly from the main body. Fine char and wood particles settle at the bottom. Aim for the middle. Lower the valinch about halfway, wait a moment for the level inside to settle, then cap and lift.</p><p>Draw a first pull and discard it into a waste container to rinse the tube with the cask's own spirit. Then draw your sample. A 100 millilitre sample is plenty for a strength reading and a nosing. If you need more for a lab panel, take several pulls rather than one long wait.</p><p>Do not return anything to the cask once it has touched a glass, a hand or a jug. Spirit that leaves the cask stays out.</p>"
+  ],
+  [
+   "Reading strength from the sample",
+   "<p>Measure strength the same day with a calibrated density meter or a hydrometer and thermometer. Correct the reading to 20 °C. A sample read warm on a hot afternoon can be out by a point or more without correction. Our guide to <a href=\"measuring-alcohol-strength-with-temperature-correction.html\">temperature correction</a> covers the tables.</p><p>Record strength, temperature, instrument and the correction applied in the cask record. A strength reading without that context cannot be compared with next year's.</p>"
+  ],
+  [
+   "Nosing and tasting cask samples",
+   "<p>Cask samples are usually well above 55% ABV. Nose them first at full strength, gently, with the glass held below the nose rather than straight under it. Then dilute a small amount to around 20% ABV with clean, still water and nose again. Dilution opens up the aromas that alcohol hides and protects your palate.</p><p>Taste only small amounts and spit. A warehouse sampling run can cover dozens of casks. Nobody makes good blending calls after swallowing them. Nobody should drive home from a warehouse after a tasting. Our guide to <a href=\"ex-bourbon-sherry-and-wine-casks.html\">cask types</a> helps you know what to look for in each.</p>"
+  ],
+  [
+   "Mistakes that skew the record",
+   "<ul><li><strong>A wet valinch.</strong> A few drops of water lower the strength reading.</li><li><strong>Sampling the top only.</strong> Gives a lighter, sometimes stronger sample than the cask average.</li><li><strong>Unrecorded samples.</strong> Every millilitre drawn is a loss. Unrecorded withdrawals make your loss figures look like leaks.</li><li><strong>Loose bungs.</strong> A bung not seated firmly lets spirit evaporate faster and invites insects.</li><li><strong>Mixed labels.</strong> A sample with the wrong cask ID can send the wrong cask into a blend.</li></ul>"
+  ],
+  [
+   "Access and safety",
+   "<p>Casks on high racks or palletised stacks are harder to reach. Use proper access platforms, never a cask as a step. Spirit vapour is flammable, so keep naked flames, sparking electrical kit and smoking well away from open casks. Work in pairs on high racks. Rules for bonded warehouses on who may open a cask and how withdrawals are recorded vary by state and change, so check the current notification.</p><p>Knowing what you are tasting in a sample and what to do about it is where distilling craft lives. Our guide to <a href=\"small-casks-for-faster-whisky-ageing.html\">small casks</a> shows why some casks need sampling far more often than others.</p>"
+  ],
+  [
+   "Write a one page sampling procedure",
+   "<p>Before your next warehouse round, write the steps above on one page: clean, wipe, discard first pull, sample the middle, label, reseal, record, correct to 20 °C. Laminate it and hang it by the warehouse door. A procedure everyone follows the same way is the only thing that makes this year's samples comparable with next year's.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a valinch?",
+   "A long open tube, usually copper, stainless steel or glass, used to draw whisky from a cask through the bung hole by holding the top closed with a thumb."
+  ],
+  [
+   "Should whisky go back into the cask after sampling?",
+   "No. Once spirit has touched a glass or hand it should not return to the cask, to avoid contamination."
+  ],
+  [
+   "Why dilute a cask sample before nosing?",
+   "Cask samples are often above 55% ABV. Diluting to around 20% ABV opens up aromas that high alcohol masks and protects your palate."
+  ]
+ ],
+ "cta": {
+  "title": "Make every cask sample count",
+  "body": "Craft Distilling is our four week live course (₹9,999), taught on weekend afternoons with recordings and a certificate. It covers cask sampling, strength measurement, maturation and blending alongside the full process from grain to bottle.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "ex-bourbon-sherry-and-wine-casks",
+  "small-casks-for-faster-whisky-ageing",
+  "sourcing-oak-casks-for-an-indian-distillery"
+ ]
+}

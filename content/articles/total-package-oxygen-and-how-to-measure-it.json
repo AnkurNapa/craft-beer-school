@@ -1,0 +1,67 @@
+{
+ "slug": "total-package-oxygen-and-how-to-measure-it",
+ "cat": "Brewing science",
+ "h1": "Total package oxygen and how to measure it",
+ "title": "Measuring Total Package Oxygen | Craft Beer School",
+ "desc": "What total package oxygen means, why headspace oxygen matters so much and how to measure TPO in cans and bottles with the right method.",
+ "teaser": "One millilitre of air in a can's headspace adds about 900 ppb of oxygen to the beer. Dissolved oxygen meters miss it.",
+ "standfirst": "Total package oxygen counts all the oxygen sealed inside a can or bottle, in the beer and in the headspace. It predicts shelf life better than dissolved oxygen alone. Here is what it means and how to measure it.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two places oxygen hides",
+   "<p>Oxygen in a sealed package sits in two places. Some is dissolved in the beer. The rest is in the headspace, the gas gap above the beer. Over days and weeks the headspace oxygen dissolves into the beer and reacts with it. So the beer eventually sees both.</p><p>Total package oxygen, or TPO, is the sum: dissolved oxygen plus headspace oxygen, expressed as if all of it were dissolved in the beer. Brewers report it in parts per billion (ppb) or micrograms per litre.</p>"
+  ],
+  [
+   "Why headspace matters so much",
+   "<p>Air is about 21% oxygen. Work through a small amount:</p><ul><li>1 ml of air contains about 0.21 ml of oxygen.</li><li>Oxygen weighs about 1.43 mg per ml at standard conditions, so that is 0.30 mg.</li><li>Spread through 330 ml of beer, that is about 0.91 mg per litre, or 910 ppb.</li></ul><p>So a single millilitre of trapped air can contribute several times more oxygen than a well-run filler adds to the liquid. That is why foam on fill, undercover gassing and seaming speed matter so much. Our guide to <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup in packaging</a> covers the line side.</p>"
+  ],
+  [
+   "What good looks like",
+   "<p>Targets vary with beer style and shelf life expectations. As a broad guide, many breweries aim for TPO below about 100 ppb, while large brewers with long distribution chains often aim lower still. Hop-forward beers are especially sensitive, because aroma fades and oxidation flavours appear quickly.</p><p>In India's heat, oxidation runs faster. A hazy IPA with 300 ppb TPO sitting in a warm shop loses its hop aroma fast. Lowering TPO is one of the most effective freshness steps a craft brewery can take.</p><p>Bottles and cans behave differently here. A bottle with a crown has a larger headspace than most cans and its liner may let a little oxygen in over time, unless it is an oxygen-scavenging liner. A can, once seamed well, is effectively sealed. So the TPO you measure on a can at packaging is close to what the beer will see for its whole life. That makes the reading on the filling day the one that matters most.</p>"
+  ],
+  [
+   "How TPO is measured",
+   "<p>There are two common approaches:</p><ul><li><strong>Shake method.</strong> Pierce the package with a sealed sampling device and measure dissolved oxygen. Then shake the package hard so the headspace oxygen dissolves into the beer and measure again. The second reading, adjusted for the package, gives TPO.</li><li><strong>Calculated method.</strong> Measure dissolved oxygen in the beer and headspace oxygen separately, then calculate TPO from headspace volume and the gas laws.</li></ul><p>Modern optical oxygen sensors are common in both approaches. Follow the instrument maker's method exactly. The shake step, temperature and timing all affect the result. Our guide to <a href=\"oxygen-saturation-of-wort-and-how-to-measure-it.html\">oxygen saturation of wort</a> covers the instruments from the hot side.</p>"
+  ],
+  [
+   "Sampling plan for a small line",
+   "<p>A single TPO reading tells you little. Measure enough packages to see the spread:</p><ul><li>Sample from each filling head, because one bad valve can hide in an average.</li><li>Sample at the start of a run, mid-run and after any stop.</li><li>Record fill level alongside TPO, since low fills mean bigger headspace.</li></ul><p>Plot the results over time. Patterns show up quickly: a head that is always high, a rise after breaks or a gradual drift as seals wear.</p>"
+  ],
+  [
+   "Where oxygen comes from upstream",
+   "<p>TPO also reflects everything before the filler. Dissolved oxygen in the brite tank, gas purity and transfer practices all add to it. A brewery can have a perfect filler and still post high TPO because the beer arrived with 150 ppb dissolved oxygen. Measure the brite tank too. Our guide to <a href=\"wort-aeration-and-oxygen.html\">wort aeration and oxygen</a> explains why oxygen is welcome at pitching and unwelcome everywhere after.</p>"
+  ],
+  [
+   "Measure ten packages this week",
+   "<p>Take ten cans or bottles from your next run, spread across heads and the run. Measure TPO and fill level for each. If the spread is wide, you know where to look first.</p><p>Compare the highest readings with their fill level and filling head. If the worst packages share a head, the problem is mechanical. If they share a time in the run, look at what happened then: a stop, a restart or a gas supply change. Either way you have turned a vague freshness worry into a fault you can fix.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is total package oxygen?",
+   "The total oxygen in a sealed package, dissolved oxygen in the beer plus oxygen in the headspace, expressed as if all of it were dissolved."
+  ],
+  [
+   "What is a good TPO for craft beer?",
+   "Many breweries aim for below about 100 ppb. Hop-forward beers and long supply chains justify aiming lower."
+  ],
+  [
+   "Why is headspace oxygen so important?",
+   "Even 1 ml of air in a 330 ml can adds about 900 ppb of oxygen to the beer once it dissolves."
+  ]
+ ],
+ "cta": {
+  "title": "Measure oxygen across the whole package",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers oxygen control, packaging, measurement and shelf life, so you can find and fix oxygen pickup on your line.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "oxygen-saturation-of-wort-and-how-to-measure-it",
+  "wort-aeration-and-oxygen",
+  "oxygen-pickup-in-packaging"
+ ]
+}

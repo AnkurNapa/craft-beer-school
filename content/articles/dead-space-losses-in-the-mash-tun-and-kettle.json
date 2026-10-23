@@ -1,0 +1,67 @@
+{
+ "slug": "dead-space-losses-in-the-mash-tun-and-kettle",
+ "cat": "Brewing science",
+ "h1": "Dead space losses in the mash tun and kettle",
+ "title": "Dead Space Losses in Mash Tun and Kettle | Craft Beer School",
+ "desc": "Where wort hides in a brewhouse, how to measure dead space with water and how to put a kilo figure on the extract you lose every brew.",
+ "teaser": "Every brewhouse keeps some wort for itself. Measure how much and you can decide what is worth recovering.",
+ "standfirst": "Dead space is the wort that never makes the next vessel: under the false bottom, below the kettle outlet, in the whirlpool cone and in pipework. It is a volume loss and an extract loss. Here is how to measure it and when it is worth fighting.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Dead space is volume your pumps cannot reach",
+   "<p>In a mash or lauter tun it is the liquor below the false bottom and in the outlet pipes that the pump cannot pull. In the kettle it is wort below the outlet. In a whirlpool it is the wort held in the trub cone with the hops and hot break. Add the heat exchanger and hoses and you have a fixed volume that stays behind on every brew, whatever the recipe.</p><p>Most of it is set by the vessel design. Some is set by habit, such as stopping transfer early to keep trub out of the fermenter.</p><p>The fixed part is a design decision you live with. The habit part changes with the operator. Two brewers on the same kit can leave very different volumes in the whirlpool, which is why the loss belongs on the brew sheet rather than in the vessel manual.</p>"
+  ],
+  [
+   "Measuring it with water takes one afternoon",
+   "<p>Fill each vessel with a measured volume of clean water from a flow meter. Drain it the way you drain on brew day, through the same pump, valves and plate heat exchanger. Measure what comes out. The difference is your dead space for that path.</p><p>Do the lauter tun with the false bottom in place and the kettle with the whirlpool step included. Write the figures on the brew sheet. On many 10 hl systems the combined figure is tens of litres, which is enough to matter every week.</p>"
+  ],
+  [
+   "Putting a kilo figure on the loss",
+   "<p>A volume only becomes a cost when you turn it into extract. Use: <strong>kg extract = litres x specific gravity x °Plato / 100</strong>.</p><p>Say 40 litres of 12 °P wort stays in the kettle and whirlpool. 12 °P is about 1.048 specific gravity. So 40 x 1.048 x 0.12 is about 5 kg of extract left behind per brew. Brew three times a week and you lose around 15 kg of extract a week, which is roughly the laboratory extract of 19 to 20 kg of pale malt. Run the same sum on your own malt price in rupees and you have a real figure to weigh against the cost of a fix.</p><p>Dead space in the lauter tun works differently. The liquor under the false bottom at the end of the sparge is weak, often only 1 or 2 °P, so the extract loss is small. The bigger effect there is on your volume plan, which is why it belongs in the <a href=\"grain-absorption-and-how-it-sets-your-sparge-volume.html\">sparge volume calculation</a> alongside grain absorption.</p>"
+  ],
+  [
+   "Kettle and whirlpool losses are the expensive ones",
+   "<p>Kettle wort is at full gravity, so every litre left behind carries the most extract. Heavy dry hopping in the whirlpool makes it worse: hop material soaks up wort. A large late hop charge on an IPA can leave far more behind than a pale lager does.</p><p>Things that help, in rough order of cost:</p><ul><li>Let the whirlpool settle properly before transfer so you can run closer to the trub cone without carrying solids.</li><li>Use hop pellets rather than whole cones where the recipe allows, since pellet material forms a tighter cone.</li><li>Tilt or angle the transfer outlet if the vessel design allows it.</li><li>Fit a sight glass on the knockout line so the operator can see when trub starts to come through, rather than stopping early to be safe.</li></ul>"
+  ],
+  [
+   "What calcium and pH have to do with it",
+   "<p>A tight trub cone holds less wort. Hot break forms better flocs when wort has enough calcium and the kettle pH falls into its usual range of about 5.0 to 5.4 by the end of the boil. Loose, fluffy break spreads across the whirlpool floor and traps more wort. Our guide to <a href=\"the-many-jobs-calcium-does-from-the-mash-tun-to-the.html\">the many jobs calcium does</a> explains why soft borewell or RO water can leave the break poorly formed.</p>"
+  ],
+  [
+   "Losses after the brewhouse count too",
+   "<p>The brewhouse is not the only place wort hides. Heat exchanger holdup, hoses and the bottom of the fermenter cone all keep some. These are best measured the same way: water in, water out. If you are building a full picture, our guide to <a href=\"tracking-extract-from-grain-to-glass-with-a-brew-day-mass.html\">tracking extract from grain to glass</a> shows how each loss fits into one balance from malt to packaged beer.</p><p>Knowing which loss is biggest is the point. Brewers often spend on a new mill when the real leak is 40 litres of full-gravity wort in the whirlpool.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Pick one path, kettle to whirlpool to fermenter. Measure its dead space with water on your next cleaning day. Convert it to kilos of extract at your typical gravity and multiply by brews per month. Write the rupee figure on the whiteboard. That number decides whether a fix is worth your time.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is dead space in a mash tun?",
+   "It is the liquor below the false bottom and in outlet pipework that the pump cannot draw off at the end of the lauter."
+  ],
+  [
+   "How do I measure brewhouse dead space?",
+   "Fill the vessel with a measured volume of water, drain it the way you do on brew day and measure what comes out. The difference is the dead space."
+  ],
+  [
+   "Which dead space loss costs the most?",
+   "Kettle and whirlpool losses, because that wort is at full gravity. Lauter tun dead space at the end of the sparge is usually weak wort."
+  ]
+ ],
+ "cta": {
+  "title": "Find out where your extract really goes",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It teaches the brewhouse mass balance from malt to fermenter, so you can rank every loss and fix the expensive ones first.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "the-many-jobs-calcium-does-from-the-mash-tun-to-the",
+  "mash-ph-explained",
+  "enzymes-in-the-mash"
+ ]
+}

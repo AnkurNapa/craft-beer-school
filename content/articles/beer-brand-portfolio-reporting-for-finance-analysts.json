@@ -1,0 +1,63 @@
+{
+ "slug": "beer-brand-portfolio-reporting-for-finance-analysts",
+ "cat": "Beer for teams",
+ "h1": "Beer brand portfolio reporting for finance analysts",
+ "title": "Beer Brand Portfolio Reporting | Craft Beer School",
+ "desc": "How finance analysts should report a beer brand portfolio: volume in hectolitres, margin per litre, mix effects and the beer facts behind them.",
+ "teaser": "A beer portfolio report that adds cases from different packs is adding apples to kegs.",
+ "standfirst": "Beer portfolios mix strong and mild lagers, premium crafts, draught and alcohol free lines. Each earns money differently. Here is how to report them so the numbers mean the same thing on every page.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Report volume in hectolitres, not cases",
+   "<p>The beer industry measures volume in hectolitres, written hl, where one hectolitre is 100 litres. Cases are a sales convenience whose size varies: twelve 650 ml bottles make 7.8 litres, twenty four 330 ml cans make 7.92 litres, twenty four 500 ml cans make 12 litres. A 50 litre keg is half a hectolitre.</p><p>Convert every line to hectolitres before you add anything up. Then revenue, cost and margin can all be expressed per hectolitre and compared across brands. This one rule fixes more portfolio reports than any other change.</p><p>Draught deserves its own line. A keg brand sells through bars, carries a refundable keg deposit and needs cold dispense kit in the outlet. Its revenue per hectolitre is often higher than bottled beer while its packaging cost is far lower, because the keg comes back and is refilled for years. Lumped in with bottles, draught makes the whole brand look odd.</p>"
+  ],
+  [
+   "Know what drives cost per hectolitre for each brand",
+   "<p>Beer cost of goods has a few big blocks: raw materials, packaging, energy, labour and overheads. For a mainstream lager in bottles, packaging is often a larger cost than the beer inside it. Glass, crown, label and carton add up fast. Our guide to <a href=\"beer-cost-of-goods-explained.html\">beer cost of goods</a> breaks this down.</p><p>Raw material cost tracks strength. A strong beer around 7 to 8% ABV needs more malt or adjunct per litre than a mild lager around 5%, because alcohol comes from fermented sugar. Indian lagers often use rice, maize or sugar alongside malt to keep the body light and the cost down. A craft brand with more malt and more hops costs more per litre to make. Report raw material cost per hectolitre by brand and these differences become visible instead of buried.</p>"
+  ],
+  [
+   "Excise can dwarf everything else",
+   "<p>In India the largest number between ex-brewery price and shelf price is usually state excise and related levies. These are set by each state, change often and may depend on strength, pack or price band. A brand can look highly profitable in one state and marginal in the next with the same recipe and the same cost of goods.</p><p>For a clean portfolio view, report net revenue after excise, then margin per hectolitre on that net figure. Our guide to <a href=\"excise-reporting-data-explained-for-finance-analysts.html\">excise reporting data</a> explains where the duty numbers come from. Keep gross figures available, but never compare brands on gross revenue alone. Rules differ by state, so check the current notification rather than relying on last year's structure.</p>"
+  ],
+  [
+   "Separate price, mix and volume effects",
+   "<p>When portfolio revenue moves, leadership wants to know why. The standard answer splits the change into three effects:</p><ul><li><strong>Volume:</strong> more or fewer hectolitres sold at last year's mix and prices.</li><li><strong>Mix:</strong> the shift between brands, packs, channels or states, each with its own revenue per hectolitre.</li><li><strong>Price:</strong> real changes in price for the same product in the same place.</li></ul><p>Beer portfolios have heavy mix effects. A move from mild to strong variants, from bottles to cans or from on-trade to off-trade changes revenue per hectolitre without any price change. Report mix as its own bar on the bridge chart. Otherwise it gets credited to pricing, which flatters some teams and punishes others.</p>"
+  ],
+  [
+   "Brand roles matter more than brand size",
+   "<p>Most beer portfolios have a few brands doing very different jobs. A flagship lager carries volume and plant utilisation. A strong variant serves a price and strength segment. A premium or craft brand earns margin per hectolitre and image. An alcohol free line opens occasions and sometimes channels that alcohol cannot reach. Our guide to <a href=\"beer-brand-portfolio-explained.html\">the beer brand portfolio</a> explains these roles.</p><p>A finance report that ranks brands only by total profit will always suggest cutting the small ones. Some of those small brands keep a distributor interested or fill a tank that would otherwise sit idle. Add a column for the brand's role so the conversation starts in the right place.</p>"
+  ],
+  [
+   "Watch the beer specific traps",
+   "<p>A few things trip up analysts new to beer:</p><ul><li><strong>Returnable bottles.</strong> Many Indian brewers reuse glass. Bottle cost then depends on return rates and breakage, not just purchase price.</li><li><strong>Write-offs.</strong> Beer goes out of date. Expired stock and trade returns are a real cost and spike after a slow summer.</li><li><strong>Seasonality.</strong> A brand's monthly margin swings with volume because fixed brewery costs do not.</li><li><strong>Brewing losses.</strong> Breweries lose some beer at every step, so litres brewed are always more than litres sold.</li></ul><p>A first step: rebuild last quarter's brand table in hectolitres with net revenue after excise per hectolitre. Most of the surprises in your portfolio will show up in that one view.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do brewers report volume in hectolitres?",
+   "A hectolitre is 100 litres and is the same whatever the pack. Cases vary in size, so hectolitres let every brand and pack be compared fairly."
+  ],
+  [
+   "Why does a strong beer cost more to make?",
+   "Alcohol comes from fermented sugar, so a stronger beer needs more malt or adjunct per litre. Its raw material cost per hectolitre is higher."
+  ],
+  [
+   "What is a mix effect in beer reporting?",
+   "It is the change in revenue caused by selling a different blend of brands, packs, channels or states, each with its own revenue per hectolitre, rather than by changing prices."
+  ]
+ ],
+ "cta": {
+  "title": "Help your finance team see the beer behind the portfolio",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions. Our Beverage 101 module explains how beer is made, packed and taxed so your analysts can explain every line in the portfolio report.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "excise-reporting-data-explained-for-finance-analysts",
+  "beer-brand-portfolio-explained",
+  "beer-cost-of-goods-explained"
+ ]
+}

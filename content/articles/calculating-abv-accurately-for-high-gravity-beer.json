@@ -1,0 +1,67 @@
+{
+ "slug": "calculating-abv-accurately-for-high-gravity-beer",
+ "cat": "Brewing science",
+ "h1": "Calculating ABV accurately for high-gravity beer",
+ "title": "Calculating ABV for High-Gravity Beer | Craft Beer School",
+ "desc": "Why the standard ABV formula reads low on strong beer, how to calculate it properly and how to handle dilution, temperature and refractometers.",
+ "teaser": "The quick ABV formula loses accuracy as gravity climbs. On a 1.100 barley wine it can be four tenths out.",
+ "standfirst": "The (OG - FG) x 131.25 formula is fine for a 5% lager. On imperial stouts, barley wines and high-gravity worts for dilution, it drifts. Here is how to calculate strong beer properly and where the measuring errors hide.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The quick formula assumes a straight line",
+   "<p>Most brewers calculate alcohol as (OG - FG) x 131.25. It works because, over the range of everyday beers, the drop in gravity and the alcohol produced move almost in step. The relationship is in fact slightly curved. The higher the original gravity, the more the straight line underestimates.</p><p>Run the numbers on a beer from 1.100 to 1.020. The quick formula gives 10.5% ABV. A calculation by the Balling method, which uses real extract and the mass balance of fermentation, gives about 10.9%. On a 1.120 wort finishing at 1.030 the quick answer is 11.8% and the Balling answer about 12.4%.</p>"
+  ],
+  [
+   "Calculate strong beer the Balling way",
+   "<p>Work in degrees Plato. For the 1.100 example, original extract is about 23.8 °P and apparent extract about 5.1 °P.</p><ul><li>Real extract = 0.1808 x 23.8 + 0.8192 x 5.1 = 8.46 °P</li><li>Alcohol by weight = (23.8 - 8.46) / (2.0665 - 0.010665 x 23.8) = 8.44% w/w</li><li>ABV = 8.44 x 1.020 / 0.791 = 10.9%</li></ul><p>Our guide to <a href=\"real-extract-apparent-extract-and-the-balling-formula.html\">real extract and the Balling formula</a> explains where each constant comes from. Put the three lines in a spreadsheet once and use it for anything above 1.070.</p>"
+  ],
+  [
+   "Diluted beer needs its own arithmetic",
+   "<p>High-gravity brewing means brewing a strong wort, fermenting it and diluting with deaerated water before packaging. Here the alcohol calculation is the easy part. ABV falls in proportion to the dilution. A 7.2% beer diluted with a quarter of its volume in water lands at 7.2 / 1.25 = 5.8%.</p><p>The hard part is knowing the true strength of the concentrate. Calculate it with the Balling method, not the quick formula, or every diluted batch inherits the error. Then measure the blend, because dilution water volume is easy to get wrong by a few per cent on a flow meter. Our guide to <a href=\"high-gravity-brewing-and-dilution.html\">high-gravity brewing and dilution</a> covers blending targets and dissolved oxygen in the water.</p>"
+  ],
+  [
+   "Measurement errors are bigger than formula errors",
+   "<p>Four tenths of a point from the formula matters. But a careless reading can cost more.</p><ul><li><strong>Temperature.</strong> Hydrometers are calibrated at a set temperature, usually 20 °C. In an Indian brewhouse a sample can easily be 30 °C or more. Cool it or correct it.</li><li><strong>Carbon dioxide.</strong> Bubbles on a hydrometer stem or in a density meter cell push the reading down. Degas the sample first.</li><li><strong>Refractometers.</strong> Alcohol bends light differently from sugar. Once fermentation starts, a refractometer reading needs a correction formula and even then is less reliable on strong beer.</li><li><strong>Yeast in suspension.</strong> Cloudy samples from a vigorous fermentation read high. Settle or centrifuge them.</li></ul>"
+  ],
+  [
+   "Strong worts ferment differently",
+   "<p>Very strong worts also challenge the measurement of final gravity itself. Yeast under high osmotic pressure and high alcohol often slows down near the end. A final gravity taken too early overstates the real finishing point and understates ABV. Take readings on three consecutive days and only call it final when they agree within 0.001.</p><p>The <a href=\"reading-a-fermentation-curve.html\">fermentation curve</a> helps here. A strong beer that drops quickly to 1.030 and then crawls is normal. One that stops dead at 1.040 is a yeast health problem, not an alcohol calculation problem.</p>"
+  ],
+  [
+   "Labels and excise",
+   "<p>Declared alcohol strength on Indian beer labels is regulated. Excise duty in many states depends on strength bands. Tolerances and bands vary by state and change, so check the current notification or ask a licensing adviser. What does not vary is the principle: your calculated figure needs to be defensible. A brewery that uses the quick formula on a 10% beer and declares to one decimal place is declaring a number it cannot support.</p><p>Where the stakes are high, send a sample for laboratory alcohol analysis now and then. Use the result to check your own calculation, not to replace it.</p>"
+  ],
+  [
+   "Your next strong batch",
+   "<p>On your next beer above 1.070, record OG and FG in Plato from degassed samples at 20 °C. Calculate ABV both ways and write both on the brew sheet. If the gap is more than 0.3 points, use the Balling figure for anything that leaves the brewery.</p><p>Then go back through your strong recipes from the past year and recalculate them the same way. If any label sits within half a point of a band or tolerance limit, that recipe deserves a lab check before its next run. Knowing why strong worts behave as they do, from osmotic stress on yeast to the curve in the alcohol relationship, is what turns a spreadsheet correction into a brewing decision.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does the 131.25 formula underestimate strong beers?",
+   "It treats the relationship between gravity drop and alcohol as a straight line. The real relationship curves, so the error grows as original gravity rises."
+  ],
+  [
+   "How do I calculate ABV after dilution?",
+   "Divide the concentrate's ABV by the dilution factor. A 7.2% beer diluted by a quarter of its volume becomes 7.2 / 1.25, or 5.8%."
+  ],
+  [
+   "Can I use a refractometer to measure final gravity?",
+   "Only with a correction for alcohol. Even then the correction is less reliable at high gravity. A hydrometer or density meter on a degassed sample is better for strong beer."
+  ]
+ ],
+ "cta": {
+  "title": "Get strong beer numbers right before they reach a label",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers extract chemistry, high-gravity fermentation and the calculations behind alcohol, dilution and attenuation.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "high-gravity-brewing-and-dilution",
+  "why-hop-utilisation-drops-in-high-gravity-worts",
+  "reading-a-fermentation-curve"
+ ]
+}

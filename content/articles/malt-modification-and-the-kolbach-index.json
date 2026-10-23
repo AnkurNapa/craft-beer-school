@@ -1,0 +1,75 @@
+{
+ "slug": "malt-modification-and-the-kolbach-index",
+ "cat": "Ingredients",
+ "h1": "Malt modification and the Kolbach index",
+ "title": "Malt Modification and the Kolbach Index | Craft Beer School",
+ "desc": "What the Kolbach index on a malt analysis means, the healthy ranges for base malt and how it changes your mash, foam and fermentation.",
+ "teaser": "The Kolbach index is one number on your malt certificate. It tells you how hard the maltster worked the protein, which shapes foam, body and yeast food.",
+ "standfirst": "Modification is how far the maltster has broken down the barley's protein and cell walls. The Kolbach index is the standard measure of the protein side. Read it alongside total protein and you can predict a lot about your mash before you weigh in.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Modification is what malting does to the grain",
+   "<p>When barley germinates, enzymes break down the cell walls around the starch and split some of the storage protein into smaller, soluble pieces. The maltster controls how far that goes with time, moisture and temperature, then stops it in the kiln. That process is modification. Our guide to the <a href=\"barley-malting-process.html\">barley malting process</a> walks through each stage.</p><p>Under-modified malt has tough cell walls and large proteins. Over-modified malt has had much of its protein broken down and loses some extract to the growing rootlet. Brewers want malt modified to suit the beer and the mash regime they run.</p>"
+  ],
+  [
+   "The Kolbach index is soluble protein as a share of total protein",
+   "<p>The Kolbach index, also called the soluble nitrogen ratio or S/T ratio, is a simple calculation:</p><p><strong>Kolbach index = soluble nitrogen in congress wort / total nitrogen in malt x 100</strong></p><p>Soluble nitrogen is measured in a standard laboratory mash, the congress mash. Total nitrogen comes from the dry malt. Multiply nitrogen by 6.25 to get protein.</p><p>Typical ranges for barley base malt:</p><ul><li>Below about 35%: under-modified. Expect a firmer mash, fuller body and sometimes more haze.</li><li>Roughly 36 to 42%: well modified. This is where most lager and pale ale malts sit.</li><li>Above about 45%: highly modified. Expect thinner body, weaker foam and darker wort.</li></ul>"
+  ],
+  [
+   "Read Kolbach with total protein or it misleads",
+   "<p>Two malts can share a Kolbach index and still behave differently. Take two lots of Pilsner malt, both at 40%:</p><ul><li>Lot A at 10.0% total protein gives 4.0% soluble protein.</li><li>Lot B at 11.5% total protein gives 4.6% soluble protein.</li></ul><p>Lot B carries 15% more soluble protein into the wort. That means more yeast nutrition, more foam-positive protein and a higher haze risk. When a new crop arrives, compare both numbers against the last lot. Our guide to the <a href=\"malt-certificate-of-analysis.html\">malt certificate of analysis</a> shows where each value sits on the sheet.</p>"
+  ],
+  [
+   "Kolbach tells you whether a protein rest helps",
+   "<p>Many older brewing texts call for a protein rest around 50 to 52 °C. That made sense with the under-modified malts of the past. With a modern malt at 38 to 42% Kolbach, a long protein rest usually breaks down more of the mid-sized proteins that build foam and body. The result is a thin beer with a weak head.</p><p>If a malt comes in well below 35%, a short rest can help. Above 42%, skip it and mash in straight at saccharification temperature. Our guide to <a href=\"protein-rests-and-when-modern-malt-does-not-need-one.html\">protein rests</a> goes into the trade-off.</p>"
+  ],
+  [
+   "Modification also shows up in other numbers",
+   "<p>Kolbach covers protein. Cell wall breakdown shows up elsewhere on the certificate:</p><ul><li>Friability above about 80% suggests good cell wall modification.</li><li>Beta-glucan in congress wort below about 200 mg/L points the same way.</li><li>A fine-coarse extract difference under about 2% means fine and coarse grinds yield similar extract, a sign of even modification.</li></ul><p>A malt with good Kolbach but high beta-glucan has had its protein worked but its cell walls left tough. Expect slow runoff even though the protein numbers look fine.</p>"
+  ],
+  [
+   "High-adjunct Indian lagers need a different balance",
+   "<p>Many Indian lagers use rice or maize for a large share of the grist. Adjuncts bring starch but almost no soluble protein. A malt with a higher Kolbach index and good free amino nitrogen (FAN) helps make up the shortfall, keeping yeast fed and fermentations healthy.</p><p>Here the floor detail matters: a malt change that drops soluble protein by half a percent can show up three days later as a fermentation that hangs a degree Plato above its usual finish. Reading the certificate before the malt hits the mill catches that early. Building a malt specification that matches your adjunct level, mash regime and yeast is a science job. It takes more than a single target number.</p>"
+  ],
+  [
+   "Agree a range with your maltster, not a single value",
+   "<p>Barley changes from crop to crop. A dry growing season tends to push protein up. A wet harvest can make modification uneven. Maltsters adjust steeping and germination to compensate, but they cannot make every lot identical. That is why most malt specifications list the Kolbach index as a range, often five or six points wide.</p><p>A small brewpub buying a few tonnes a year has less buying power than a large brewery, but it can still ask for the certificate with every delivery and query a lot that sits outside the agreed range. Keep a simple spreadsheet of each lot's protein, Kolbach, friability and beta-glucan next to your brewhouse yield and fermentation times. After a year you will see which numbers actually move your beer.</p>"
+  ],
+  [
+   "Compare your next two malt certificates",
+   "<p>Pull the certificates for your current and previous malt lots. Calculate soluble protein for each from total protein and Kolbach. If they differ by more than about 0.3%, watch foam, haze and fermentation time on the first brews with the new lot and note what changes.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good Kolbach index for base malt?",
+   "Most well-modified lager and pale ale malts sit between about 36 and 42%. Below 35% is under-modified and above 45% is highly modified."
+  ],
+  [
+   "How is the Kolbach index calculated?",
+   "Soluble nitrogen in a congress wort divided by total nitrogen in the malt, multiplied by 100."
+  ],
+  [
+   "Do I need a protein rest with modern malt?",
+   "Usually not. With a Kolbach index of 38 to 42%, a protein rest tends to thin body and weaken foam."
+  ],
+  [
+   "Why does total protein matter alongside Kolbach?",
+   "The same Kolbach index on a higher-protein malt means more soluble protein in the wort, which affects foam, haze and yeast nutrition."
+  ]
+ ],
+ "cta": {
+  "title": "Read a malt certificate like a brewer",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers malting, protein chemistry and mash design so you can turn the numbers on a malt certificate into decisions on brew day.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "barley-malting-process",
+  "wheat-malt-in-brewing",
+  "malt-certificate-of-analysis"
+ ]
+}

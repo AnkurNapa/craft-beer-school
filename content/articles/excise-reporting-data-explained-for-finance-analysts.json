@@ -1,0 +1,67 @@
+{
+ "slug": "excise-reporting-data-explained-for-finance-analysts",
+ "cat": "Beer for teams",
+ "h1": "Excise reporting data explained for finance analysts",
+ "title": "Beer Excise Reporting Data Explained | Craft Beer School",
+ "desc": "What the excise numbers in a beer company's reports mean: bulk litres, bonded stock, duty paid removals, losses and why they rarely match sales.",
+ "teaser": "Excise data and sales data describe the same beer in different units. Here is how to read the excise side without getting lost.",
+ "standfirst": "In Indian beer, the state excise department sees every litre before finance does. Excise data has its own units, its own timing and its own idea of a loss. Once you know how it is built, reconciling it to sales becomes a routine job rather than a monthly argument.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Excise counts litres, not cases or rupees",
+   "<p>Your sales dashboard probably speaks in cases and rupees. The excise register speaks in bulk litres. A bulk litre is simply a litre of finished beer, whatever its strength. A case of twelve 650 ml bottles is 7.8 bulk litres. A case of twenty four 330 ml cans is 7.92 bulk litres. Those two cases look identical in a case count and differ by 0.12 litres in the excise count.</p><p>Some states also track alcohol content, because duty can depend on strength. A strong lager at 7% ABV and a mild lager at 4.5% ABV may sit in different duty slabs even when the bulk litres match. That is why excise extracts often carry both a volume column and a strength or category column. Before you build anything, find out which basis your states use. Rules vary by state and change, so the current notification is the only reliable reference.</p>"
+  ],
+  [
+   "Bonded stock and duty paid stock are two separate pots",
+   "<p>Beer made in a brewery normally sits in bond: produced and stored under excise supervision with duty not yet paid. Duty becomes payable when beer is removed from bond, usually against a permit or transport pass, to a depot, a state corporation or a buyer. From that moment it is duty paid stock.</p><p>For an analyst this matters in three ways:</p><ul><li>Production volume and duty paid removals are different numbers for the same month. The gap is the change in bonded stock.</li><li>Duty is a cash event at removal, not at brewing or at retail sale. A heavy removal month before a price change can distort the duty line.</li><li>Stock held in bond carries no duty in the balance sheet. Stock moved to a duty paid depot does, so it ties up far more working capital per case.</li></ul>"
+  ],
+  [
+   "Where the losses show up in the register",
+   "<p>Excise registers record beer at several points: wort or beer in tanks, beer filtered into bright beer tanks, beer packaged and beer removed. Each step has a recorded loss. Tank bottoms, filter changes, line purges, under-filled bottles pulled off the line and breakages all appear somewhere.</p><p>A typical brewery loses a few percent of volume between the fermenter and the dispatch dock. States set their own permitted loss allowances for some of these steps. Losses within the allowance are routine. Losses above it may need explanation to the excise officer and can attract duty on the excess. When your excise loss line jumps in one month, the cause is usually on the floor: a filter run that went badly, a packaging line fault or a broken pallet in the warehouse.</p>"
+  ],
+  [
+   "Why excise data and sales data never quite agree",
+   "<p>Finance teams often expect the excise extract and the ERP sales report to tie exactly. They rarely do. The reasons are mostly structural rather than errors:</p><ul><li><strong>Timing.</strong> Excise records a removal on the permit date. Sales may recognise revenue on delivery or on invoice, which can fall in the next month.</li><li><strong>Units.</strong> Cases converted to litres using the wrong pack size give a small but persistent gap.</li><li><strong>Channel.</strong> In states where a government corporation buys all beer, your sale is to the corporation. Retail offtake is a different number again.</li><li><strong>Returns and breakage.</strong> A return to the brewery may be booked as a credit note in sales long before excise records the stock coming back.</li></ul><p>Build a bridge with these four lines and most of the unexplained difference disappears. Whatever remains is worth chasing.</p>"
+  ],
+  [
+   "A worked reconciliation in bulk litres",
+   "<p>Say a brewery packaged 10,000 hl in a month and its excise register shows opening bonded packaged stock of 1,200 hl and closing stock of 1,500 hl. Duty paid removals should then be 10,000 plus 1,200 minus 1,500, which is 9,700 hl, less any recorded breakage in bond. If recorded breakage was 20 hl, removals come to 9,680 hl.</p><p>Now convert sales. If sales reports 1,24,000 cases of 650 ml twelve-packs, that is 1,24,000 x 7.8 litres, or 9,672 hl. The 8 hl difference is small enough to be timing or a few cases of unrecorded damage. A difference of 300 hl is not. The numbers here are illustrative, but the method works on any month: start from the register, work forward to removals, then convert sales into the same unit.</p>"
+  ],
+  [
+   "What the excise team and the brewery need from you",
+   "<p>Excise reporting is usually owned by a compliance or excise team at the plant, with returns filed daily, monthly or both depending on the state. They need finance to agree on pack conversions, to flag removals that straddle a duty change and to treat permitted loss allowances as a target rather than an afterthought.</p><p>It helps to sit with the plant excise officer or compliance lead for an hour and walk the register from tank to truck. Seeing where beer is measured makes the numbers make sense. Our guide on <a href=\"beer-cost-of-goods-explained.html\">beer cost of goods</a> shows how duty sits alongside malt, packaging and freight in the cost stack. For portfolio views, read <a href=\"beer-brand-portfolio-reporting-for-finance-analysts.html\">brand portfolio reporting for finance analysts</a>.</p><p>A first step you can take this week: pull one month of excise removals and one month of sales for a single state, convert both to bulk litres and list every difference over 1%. That list is your reconciliation map.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a bulk litre in beer excise?",
+   "A bulk litre is one litre of finished beer regardless of its alcohol strength. Excise registers in India commonly record beer volume in bulk litres."
+  ],
+  [
+   "When is excise duty paid on beer?",
+   "Duty is generally paid when beer is removed from a bonded warehouse or brewery under a permit. The exact point and rate depend on the state, so check the current excise notification."
+  ],
+  [
+   "Why does excise volume differ from sales volume?",
+   "Mostly timing, pack size conversions, channel structure and returns. A simple bridge with these lines explains most of the gap."
+  ],
+  [
+   "Are brewing losses taxed?",
+   "States usually set permitted loss allowances. Losses within them are accepted. Losses above them may need explanation and can attract duty, depending on the state rules."
+  ]
+ ],
+ "cta": {
+  "title": "Give your finance team the floor view behind the numbers",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that connect the dashboard to the brewery.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-brand-portfolio-reporting-for-finance-analysts",
+  "beer-pricing-data-quality-problems-analysts-should-spot",
+  "beer-cost-of-goods-explained"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "packaging-engineer-careers-in-breweries",
+ "cat": "Careers",
+ "h1": "Packaging engineer careers in breweries",
+ "title": "Packaging Engineer Careers in Breweries | Craft Beer School",
+ "desc": "What a brewery packaging engineer does: filling, seaming, pasteurising and labelling lines, efficiency, oxygen pickup, skills and career paths.",
+ "teaser": "Beer can be perfect in the tank and ruined in thirty seconds on the filler. Packaging engineers stop that happening.",
+ "standfirst": "The packaging hall is the busiest, loudest and most mechanical part of a brewery. Packaging engineers keep its fillers, seamers, pasteurisers and labellers running fast without harming the beer. It is a good career for engineers who like machines and measurable results.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the packaging hall does",
+   "<p>A packaging line takes bright beer from a tank and turns it into sealed, labelled, palletised product. On a bottle line that means rinsing or washing bottles, filling, crowning, pasteurising if the beer needs it, labelling, coding and packing. A can line fills and seams the cans instead. Keg lines clean, sterilise and fill kegs.</p><p>At a large brewery a line can run hundreds of containers a minute. Small craft lines run far slower but face the same physics: get the beer in, keep oxygen out and seal it properly.</p>"
+  ],
+  [
+   "The job of a packaging engineer",
+   "<p>Packaging engineers keep lines efficient and the product right. The work splits into a few areas:</p><ul><li><strong>Line performance:</strong> tracking downtime, speed losses and rejects, then fixing the causes.</li><li><strong>Quality at the machine:</strong> fill levels, seam or crown integrity, oxygen pickup, label placement and date coding.</li><li><strong>Changeovers:</strong> moving from one pack size or beer to another quickly and cleanly.</li><li><strong>Projects:</strong> specifying, installing and commissioning new machines or upgrades.</li><li><strong>Maintenance strategy:</strong> working with maintenance teams on planned servicing and spare parts.</li></ul>"
+  ],
+  [
+   "Two numbers rule the hall",
+   "<p>The first is overall equipment effectiveness, or OEE. It multiplies availability, performance and quality. A line that runs 80% of planned time, at 90% of rated speed, with 98% good containers, has an OEE of about 71%. Engineers spend much of their time pushing each factor up.</p><p>The second is oxygen. Every container picks up some oxygen during filling. That oxygen stales beer over the following weeks. Packaging teams measure dissolved oxygen in the beer and total package oxygen in the finished container, usually in parts per billion. Counter pressure filling, CO2 purging and fobbing the headspace before capping or seaming all exist to keep it low.</p><p>If the beer is pasteurised, a third number joins them: pasteurisation units. One unit is one minute at 60 °C. Too few risk spoilage, too many cook the beer. Getting the tunnel pasteuriser right is a classic packaging engineer task.</p>"
+  ],
+  [
+   "A floor detail that matters",
+   "<p>On a can line, the double seam is checked by cutting a seam open and measuring its dimensions, such as overlap and body hook, against the can maker's specification. A seam that looks fine from outside can still leak slowly. Our guide to <a href=\"can-seam-inspection-for-small-canning-lines.html\">can seam inspection</a> walks through the checks. It is a good example of the precision this job demands, where a fraction of a millimetre separates a sound can from a recall.</p>"
+  ],
+  [
+   "Who gets hired",
+   "<p>Most packaging engineers have a degree or diploma in mechanical, electrical, instrumentation, production or packaging engineering. Experience in other fast moving consumer goods lines, such as soft drinks, dairy or bottled water, transfers well, since the machines and problems are similar.</p><p>Useful skills include reading drawings and electrical schematics, basic PLC and HMI familiarity, root cause analysis and a working understanding of beer: why oxygen and temperature matter, what foaming tells you and how carbonation affects filling. Engineers who learn the brewing side tend to make better calls on the line, because they understand what the machine is doing to the product.</p>"
+  ],
+  [
+   "Where it leads",
+   "<p>Safety is a large part of the job. Packaging halls combine fast moving machinery, glass, conveyors, hot pasteuriser water, noise and forklifts. Engineers design guarding, lockout procedures for maintenance and safe ways to clear jams, because clearing a jam with the machine live is one of the classic ways people get hurt on a line.</p><p>Packaging engineers move into packaging manager, engineering manager or plant manager roles, or into project roles commissioning new lines. Some join equipment suppliers as service or commissioning engineers, which can mean travel across India and abroad. Others move to <a href=\"cellar-and-packaging-jobs.html\">craft brewery packaging roles</a>, where one person may run the whole line.</p><p>Indian conditions add their own problems. High ambient temperatures make beer foam more readily at the filler. Humid air can cause condensation on cold containers, which stops labels sticking. Glass quality and crown supply can vary between batches. A packaging engineer who has solved these on a hot afternoon in May has skills that travel well.</p><p>Small craft breweries often have no packaging engineer at all, just a brewer who learned the canner. That gap is an opportunity for someone who understands both the machine and the beer.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Next time you open a can or bottle of beer, look at the date code, the fill level against others in the pack and the condition of the seam or crown. Then read about how a filler controls each one. If that makes you curious rather than bored, packaging engineering will suit you.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does a brewery packaging engineer do?",
+   "Keeps filling, seaming, pasteurising, labelling and packing lines running efficiently, while protecting beer quality through fill levels, seals and low oxygen pickup."
+  ],
+  [
+   "What qualifications do brewery packaging engineers need?",
+   "Usually a mechanical, electrical, instrumentation, production or packaging engineering degree or diploma. Experience on other drinks or food lines transfers well."
+  ],
+  [
+   "What is OEE on a packaging line?",
+   "Overall equipment effectiveness: availability multiplied by performance multiplied by quality. It shows how much of a line's potential output it actually delivers."
+  ]
+ ],
+ "cta": {
+  "title": "Understand the beer behind the machine",
+  "body": "Brewing Fundamentals is our four week live course. It covers how beer is made from malt to packaging, including why oxygen, carbonation and temperature matter so much on the line.",
+  "label": "See what the course covers",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "cellar-and-packaging-jobs",
+  "a-career-as-a-brewery-maintenance-engineer",
+  "brewing-careers-for-microbiology-and-food-technology"
+ ]
+}

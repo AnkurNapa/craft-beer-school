@@ -1,0 +1,67 @@
+{
+ "slug": "earthy-beetroot-notes-from-geosmin-and-how-brewers-track",
+ "cat": "Tasting",
+ "h1": "Earthy beetroot notes from geosmin and how brewers track them down",
+ "title": "Geosmin in Beer: Earthy Beetroot Notes | Craft Beer School",
+ "desc": "Why some beers smell of beetroot or wet soil, how geosmin gets in through water and grain and how brewers trace the source.",
+ "teaser": "If your beer smells like the first rain on dry earth, you have met geosmin. Brewers would rather you had not.",
+ "standfirst": "Geosmin is the compound behind the smell of rain on dry soil and the earthy taste of beetroot. The human nose is extremely sensitive to it. Here is how it reaches beer and how brewers hunt it down.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The smell of rain in a glass",
+   "<p>Anyone who has stood outside as the first monsoon shower hits dry ground knows geosmin. That rich, earthy smell, sometimes called petrichor, is partly geosmin released from soil. Beetroot owes its earthy taste to the same compound. In a vegetable patch it is pleasant. In a pale lager or a wheat beer it reads as dirt, damp soil or beetroot and drinkers notice.</p><p>The name means earth smell. It is made by soil bacteria, particularly Streptomyces and by some cyanobacteria (blue-green algae) that grow in lakes and reservoirs. Humans detect it at a few nanograms per litre, which is why water utilities around the world get complaints about earthy tap water long before the levels pose any other concern.</p>"
+  ],
+  [
+   "How it gets into beer",
+   "<p>Geosmin is not produced by brewing yeast. It arrives from outside, almost always through one of three routes:</p><ul><li><strong>Water.</strong> The most common source. Reservoirs and rivers can carry geosmin after algal blooms, which favour warm, still water in hot months. Municipal treatment removes most things, but standard chlorination does little to geosmin.</li><li><strong>Grain.</strong> Barley, malt or adjuncts such as rice and maize that picked up moisture and grew moulds or soil bacteria in storage.</li><li><strong>The brewery itself.</strong> Damp corners, wet drains, mouldy hoses or a cold room with standing water can harbour the organisms that make it.</li></ul><p>Many Indian breweries switch between municipal supply, borewell and tanker water through the year. Each change brings a different risk. A brewery that only smells earthy beer in summer, or only after a tanker delivery, already has a strong clue.</p>"
+  ],
+  [
+   "Tracking it down, one source at a time",
+   "<p>Brewers trace geosmin the way a detective works a list of suspects. Start with the cheapest test and move outward:</p><ol><li><strong>Smell the water hot.</strong> Heat a litre of brewing water to around 60 °C in a clean glass jug and smell it. Heat drives off volatile compounds, so earthy water becomes obvious.</li><li><strong>Compare sources.</strong> If you use more than one supply, smell each one hot, side by side.</li><li><strong>Check the carbon filter.</strong> Activated carbon is the standard treatment for geosmin. A spent or bypassed filter lets it straight through.</li><li><strong>Smell the grain.</strong> Open sacks, rub a handful of malt and smell it. Check the bottom sacks in a stack, where damp collects.</li><li><strong>Brew a test.</strong> If water and grain both seem clean, look at the brewery itself: drains, hoses and cold rooms.</li></ol><p>A clean answer at step one saves days. Most earthy beer we hear about turns out to be water.</p>"
+  ],
+  [
+   "Why carbon filters matter",
+   "<p>Activated carbon adsorbs geosmin, MIB (its musty cousin) and chlorine, which is why most breweries run incoming water through a carbon bed before it reaches the hot liquor tank. The catch is that carbon fills up. Once its surface is saturated, it stops removing anything and can even release what it has collected.</p><p>Manufacturers give a capacity in litres treated or months of use. Breweries that track the litres passed through each filter replace it on time. Those that wait until the beer tastes earthy replace it late. Our guide to <a href=\"brewing-water-basics.html\">brewing water basics</a> covers the rest of water treatment.</p>"
+  ],
+  [
+   "Telling geosmin from other earthy notes",
+   "<p>Earthy is a broad word. Geosmin is specifically beetroot and wet soil. TCA and TBA smell more of wet cardboard and damp cellar. Some English hops give a dry, woody earthiness that brewers want. Brettanomyces gives barnyard and leather. If you can taste a slice of cooked beetroot and find the same note in the beer, it is probably geosmin. Our guide to <a href=\"musty-and-mouldy-notes-in-beer-and-where-they-usually-come.html\">musty and mouldy notes</a> covers the cardboard family.</p><p>Tasters vary a great deal in their sensitivity to geosmin. A brewer who cannot smell it at all can pass an earthy batch with full confidence, which is why one nose is never enough for a release decision. Knowing your own threshold and those of the people around you is a large part of tasting well.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Write down which water source fed every batch, alongside the date the carbon filter was last changed. When an earthy batch turns up, that log narrows the search in minutes. Then build your own reference: cook a beetroot, smell it, then smell a glass of tap water warmed in the microwave. You now have two references for geosmin. The next time a beer seems faintly of soil, you will know what you are tasting and where it most likely came from.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does geosmin taste like in beer?",
+   "Earthy, like beetroot or wet soil after rain. It can make a clean beer seem dirty or dull."
+  ],
+  [
+   "Where does geosmin come from?",
+   "Soil bacteria such as Streptomyces and some blue-green algae. It reaches beer mainly through water, sometimes through damp grain or a damp brewery."
+  ],
+  [
+   "Does boiling remove geosmin?",
+   "Some is driven off, but boiling is not a reliable fix. Activated carbon filtration of the incoming water is the standard treatment."
+  ],
+  [
+   "Why do some people not notice geosmin?",
+   "Sensitivity varies widely between people. Some tasters pick it up at very low levels while others need far more before they notice."
+  ]
+ ],
+ "cta": {
+  "title": "Find out how sensitive your own nose is",
+  "body": "Sensory Evaluation is our two week live course (₹5,999). It walks you through the common off-flavours with guided tasting so you learn your own thresholds and how to describe what you find.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "vinegar-notes-in-beer-and-the-acetic-acid-bacteria-behind",
+  "grainy-and-husky-notes-in-pale-lager-and-the-brewing-steps",
+  "nail-polish-notes-from-ethyl-acetate-and-how-to-tell-them"
+ ]
+}

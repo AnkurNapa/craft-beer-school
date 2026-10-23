@@ -1,0 +1,67 @@
+{
+ "slug": "training-a-gcc-team-on-spirits",
+ "cat": "Whisky",
+ "h1": "Training a GCC team on spirits",
+ "title": "Training a GCC Team on Spirits | Craft Beer School",
+ "desc": "How to build spirits product training for a global capability centre team: what to teach, in what order and how to keep tastings responsible.",
+ "teaser": "GCC teams run the numbers for whisky brands they have never seen made. A good programme fixes that in days, not years.",
+ "standfirst": "Global capability centres in Bengaluru, Pune and Hyderabad do serious work for drinks companies: forecasting, finance, analytics, procurement and technology. Most of the people doing it have never been inside a distillery. Here is how we would design spirits training for such a team.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The gap is context, not intelligence",
+   "<p>A GCC analyst can build a forecast model in an afternoon. What they often lack is the physical picture behind the data. Why does a whisky brand run short when sales are only slightly above plan? Why do volumes drop in the warehouse with no sale? Why can stock not move from one Indian state to another?</p><p>Each of those questions has a production answer. Whisky matures for years, so supply was decided long ago. Spirit evaporates from casks, more in hot climates. State excise rules govern every movement. A team that knows those three facts already asks better questions in its next review meeting.</p>"
+  ],
+  [
+   "Start with how whisky is made",
+   "<p>The first module should walk the process in order. Grain is milled and mashed to release sugars. Yeast ferments the sugary liquid into a beer-like wash of around 7 to 9% ABV over two to four days. The wash is distilled, in copper pot stills for malt whisky or in continuous column stills for grain spirit. The spirit is filled into oak casks and matured. Finally it is blended, reduced with water to bottling strength and bottled.</p><p>Tie each step to a number the team sees: litres of alcohol per tonne of grain at distillation, cask counts and ages in the warehouse, strength and fill volume at bottling. Our guide to <a href=\"how-whisky-is-made.html\">how whisky is made</a> is a good pre-read.</p>"
+  ],
+  [
+   "Then explain the categories",
+   "<p>GCC teams often support several markets at once, so they need the main categories straight. Scotch must be distilled and matured in Scotland for at least three years in oak and bottled at a minimum of 40% ABV. Bourbon must be at least 51% corn, distilled to no more than 80% ABV and filled at no more than 62.5% ABV into new charred oak containers. Irish whiskey matures at least three years on the island of Ireland.</p><p>Indian whisky is its own world. Much of it blends neutral spirit, often from molasses, with malt or grain whisky. Indian single malts are made from malted barley and aged in the Indian climate, where maturation runs faster than in Scotland. Mixing these categories up in a report is the quickest way for an analyst to lose credibility with a market team.</p>"
+  ],
+  [
+   "Route to market differs by country and state",
+   "<p>The second block of training should cover how product reaches the drinker. In many markets a three-tier system separates producer, distributor and retailer. In India, alcohol is a state subject. Some states sell through government wholesale corporations, some through licensed private distributors and each sets its own excise, label approvals and prices.</p><p>For a GCC team, that explains why primary shipments, secondary sales and depletions are different numbers. It also explains why price and SKU master data looks so messy. A short module on route to market saves months of confused data requests. Rules vary by state and change, so the module should teach the pattern and point to the compliance team for current detail.</p>"
+  ],
+  [
+   "Sensory sessions make it stick",
+   "<p>A guided tasting turns abstract categories into memory. A typical flight for a team might set new make spirit beside a young bourbon-cask malt, a sherry-cask malt and a peated whisky. Nosing alone shows what oak, sherry and peat contribute. Adding a few drops of water shows how reducing strength opens up aroma, which also explains why blenders work on diluted samples.</p><p>Tastings must be opt-in and within company policy. Use small measures, spit cups, water and food. Non-drinkers take part by nosing and are fully welcome. Schedule sessions so nobody drives afterwards. Our <a href=\"whisky-tasting-for-beginners.html\">beginner's tasting guide</a> sets the right tone.</p>"
+  ],
+  [
+   "Build it around the team's own portfolio",
+   "<p>Generic training is forgotten within a month. The programme works when every example comes from the brands the team supports. Use the company's own SKU list to teach pack sizes and state versions. Use its own warehouse data to show maturation losses. Use its own forecast misses to show where supply constraints bit.</p><p>Shape it by role. Finance needs excise, inventory valuation and maturing stock. Planning needs lead times and bottling constraints. Procurement needs specifications for spirit, casks and dry goods. Technology needs the data model behind casks and litres of alcohol. A shared day on the product followed by role-specific half days is a format that fits most GCC calendars.</p>"
+  ],
+  [
+   "Measure whether it worked",
+   "<p>Training is worth running only if it changes work. Before the programme, collect the questions the team keeps asking production and market colleagues. Three months later, check how many still come up. Track whether forecast reviews and finance commentary now explain variances in production terms.</p><p>A practical first step: ask each team lead to send the five questions about the product they most often have to escalate. That list becomes your syllabus.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should spirits training for a GCC team take?",
+   "A shared day on the product plus role-specific half days works for most teams. The exact length depends on the roles and portfolio."
+  ],
+  [
+   "Do people have to drink at the tasting sessions?",
+   "No. Sessions are opt-in, within company policy, with spit cups and water. Non-drinkers can learn everything by nosing."
+  ],
+  [
+   "Should training cover more than whisky?",
+   "If the team supports rum, gin, vodka or wine, add short modules on those. The process-first approach carries across categories."
+  ]
+ ],
+ "cta": {
+  "title": "Teams that can explain the numbers they report",
+  "body": "Our Beverage 101 and Guided sensory sessions modules are built around your team's own portfolio, with role-specific blocks for finance, planning, procurement and data.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "whisky-tasting-for-beginners",
+  "methanol-limits-and-testing-in-spirits",
+  "ethyl-carbamate-in-spirits"
+ ]
+}

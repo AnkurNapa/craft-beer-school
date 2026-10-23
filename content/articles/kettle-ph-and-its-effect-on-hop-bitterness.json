@@ -1,0 +1,71 @@
+{
+ "slug": "kettle-ph-and-its-effect-on-hop-bitterness",
+ "cat": "Brewing science",
+ "h1": "Kettle pH and its effect on hop bitterness",
+ "title": "Kettle pH and Hop Bitterness | Craft Beer School",
+ "desc": "How wort pH in the boil affects hop isomerisation, the quality of bitterness, hot break and colour, with target ranges and fixes.",
+ "teaser": "A kettle pH a few tenths too high can make the same hop bill taste coarse and harsh.",
+ "standfirst": "Wort pH does not stop mattering when the mash ends. In the kettle it changes how much bitterness you get from hops and what that bitterness tastes like. A small acid addition can turn a rough IPA into a clean one.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Wort pH drops during the boil",
+   "<p>Wort usually enters the kettle a little above mash pH and falls by about 0.1 to 0.3 units during the boil. Calcium reacts with phosphates from malt, forming insoluble calcium phosphate and releasing hydrogen ions. Maillard reactions also produce acidic compounds. A well balanced pale wort typically ends the boil somewhere around pH 5.0 to 5.3 at room temperature.</p><p>How far it falls depends on calcium levels and the starting pH. Wort brewed with soft water and little calcium drops less. Our guide to <a href=\"mash-ph-explained.html\">mash pH explained</a> covers the starting point.</p><p>The boil also concentrates the wort as water evaporates, which nudges every dissolved acid and buffer closer together. On a 90 minute boil with strong evaporation, the drop is often at the larger end of the range. On a short, gentle boil it is smaller. If you change boil length or vigour, expect knockout pH to move a little too.</p>"
+  ],
+  [
+   "Higher pH raises hop utilisation",
+   "<p>Alpha acids from hops isomerise into iso-alpha-acids during the boil. These are the main source of beer's bitterness. Isomerisation and solubility both increase as pH rises, so a wort at pH 5.6 extracts more bitterness from the same hops than one at 5.0. Brewers who measure IBU sometimes find their utilisation changes with water treatment for this reason.</p><p>That sounds like a reason to boil at high pH. It is not, because of what comes with it.</p>"
+  ],
+  [
+   "Lower pH gives cleaner bitterness",
+   "<p>At higher kettle pH, the bitterness tends to be coarser and lingering. More polyphenols and other harsh compounds come out of hop material. The bitterness reads as rough rather than crisp. At lower pH, around 5.0 to 5.2 at the end of the boil, bitterness is generally described as finer and cleaner, even if slightly less is extracted.</p><p>This is a big reason why brewing water rich in alkalinity suits darker, maltier beers better than hoppy pale ones. A pale beer brewed with alkaline borewell water and no treatment often ends the boil too high. The result is a harsh, astringent bitterness that brewers blame on the hops.</p>"
+  ],
+  [
+   "Kettle pH affects more than bitterness",
+   "<ul><li><strong>Hot break.</strong> Protein coagulation and hot break formation are generally better at the lower end of the range, giving clearer wort and less haze potential.</li><li><strong>Colour.</strong> Higher pH speeds Maillard reactions, so wort darkens more during a long boil. Pale beers can pick up unwanted colour.</li><li><strong>Fermentation start.</strong> Wort pitched at a sensible pH, around 5.0 to 5.2, gives yeast a good start and is less hospitable to many spoilage bacteria than wort near 5.6.</li><li><strong>Hop aroma.</strong> Very high pH can make late hop additions taste more vegetal.</li></ul>"
+  ],
+  [
+   "Adjusting kettle pH",
+   "<p>The simplest fix is to correct the mash and sparge water, so the wort enters the kettle in the right place. If it still needs help, many brewers add a small amount of lactic or phosphoric acid to the kettle, often near the start of the boil or after the hot break forms. Add a measured volume, stir and check a cooled sample before adding more. Calcium additions, usually as calcium chloride or calcium sulphate, also help the pH fall during the boil and support yeast health.</p><p>The floor detail: measure pH on a cooled sample of the wort at knockout, not just in the mash. Many breweries record mash pH faithfully and never look at the kettle. That gap is where a lot of rough bitterness hides.</p><p>Go gently with kettle acid. A tenth of a pH unit is a noticeable change in a pale beer. Overshoot to 4.8 and the beer can taste thin and sharp, with slower fermentation as the yeast starts in a harsher environment. Small, measured steps beat one big guess.</p>"
+  ],
+  [
+   "Hop stands and whirlpool additions",
+   "<p>Hops added at flame out or in the whirlpool also isomerise, more slowly as temperature falls. The wort pH at that stage is the knockout pH, so the same logic applies. Our guide to <a href=\"hop-stands-below-80-c-and-how-much-bitterness-they-add.html\">hop stands below 80 °C</a> covers how much bitterness those additions add.</p>"
+  ],
+  [
+   "Start measuring at knockout",
+   "<p>Pairing kettle pH with IBU and tasting results lets you tune both water treatment and hop bills together. That kind of joined up thinking about water, hops and flavour is what a single recipe sheet never captures.</p><p>Your first step: on your next three brews of a hoppy pale beer, measure the cooled wort pH at knockout and write it beside the hop bill. If it sits above about 5.3, try a small acid addition in the kettle on the fourth brew and taste the two beers side by side.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What should kettle pH be at the end of the boil?",
+   "For most pale beers, around 5.0 to 5.3 measured on a cooled sample. Darker beers can sit a little higher."
+  ],
+  [
+   "Does higher kettle pH increase IBU?",
+   "Yes, isomerisation and solubility of hop acids rise with pH. But the bitterness tends to be coarser and harsher."
+  ],
+  [
+   "How do I lower kettle pH?",
+   "Correct mash and sparge water first. If needed, add a measured amount of lactic or phosphoric acid to the kettle and check a cooled sample."
+  ],
+  [
+   "Why does pH fall during the boil?",
+   "Calcium reacts with malt phosphates to form calcium phosphate, releasing hydrogen ions. Maillard reactions also add acidity."
+  ]
+ ],
+ "cta": {
+  "title": "Make bitterness a decision, not an accident",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers hop chemistry, water treatment and kettle chemistry so you can control both the amount and the quality of bitterness.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "hop-stands-below-80-c-and-how-much-bitterness-they-add",
+  "mash-ph-explained",
+  "hop-creep"
+ ]
+}

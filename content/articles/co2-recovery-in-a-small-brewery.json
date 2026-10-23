@@ -1,0 +1,67 @@
+{
+ "slug": "co2-recovery-in-a-small-brewery",
+ "cat": "Brewing science",
+ "h1": "CO2 recovery in a small brewery",
+ "title": "CO2 Recovery in a Small Brewery | Craft Beer School",
+ "desc": "How much CO2 your fermenters make, what a recovery plant does to clean it and how to judge whether recovery pays for a small brewery.",
+ "teaser": "Every fermenter in your brewery is making carbon dioxide. Most small breweries vent it and then buy it back in cylinders.",
+ "standfirst": "Fermentation produces almost as much carbon dioxide by weight as alcohol. A recovery system captures it, cleans it and stores it for carbonation and purging. Here is how the process works and how to decide whether it makes sense at your scale.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Your fermenters make more CO2 than you use",
+   "<p>The chemistry is simple. When yeast ferments glucose, each molecule becomes two molecules of ethanol and two of carbon dioxide. By weight that is about 0.96 g of carbon dioxide for every gram of ethanol.</p><p>Work it through for one hectolitre of 5% ABV beer. It holds 5 litres of ethanol, which weighs about 3.95 kg. The fermentation therefore produced roughly 3.8 kg of carbon dioxide. To carbonate that same hectolitre to 2.5 volumes takes about 0.5 kg. On paper, each batch makes several times the gas needed to carbonate it.</p><p>In practice you recover only part of it. The early gas is mixed with air from the tank headspace. Some is lost through foam, leaks and venting. But even a modest capture rate can cover a brewery's own carbonation needs.</p>"
+  ],
+  [
+   "What a recovery plant actually does",
+   "<p>Fermenter gas is not ready to use. It carries water vapour, ethanol, sulphur compounds and other volatiles that would taint beer. A recovery plant cleans it in stages:</p><ul><li><strong>Foam trap.</strong> Catches foam and liquid before the gas goes further.</li><li><strong>Water scrubber.</strong> Washes out ethanol and water-soluble volatiles.</li><li><strong>Compressor.</strong> Raises the pressure for the later stages.</li><li><strong>Dryer.</strong> Removes moisture.</li><li><strong>Activated carbon filter.</strong> Adsorbs remaining odour compounds, especially sulphur.</li><li><strong>Liquefier and storage tank.</strong> Cools the gas until it liquefies so it can be stored and vaporised when needed.</li></ul><p>Smaller packaged systems exist for craft breweries. Some skip liquefaction and store compressed gas instead, which limits how much can be held.</p>"
+  ],
+  [
+   "Purity decides when collection starts",
+   "<p>At the start of fermentation, gas leaving the tank is mostly air pushed out of the headspace. Collecting it would put oxygen into your carbonation gas. So recovery systems wait until the gas reaches a set purity, commonly around 99.5% carbon dioxide or higher, before they begin collecting. A purity analyser on the collection line makes that call.</p><p>Purity on the output side matters even more. Carbon dioxide that goes into beer should meet a food or beverage grade specification. If oxygen or off-odours get through, every beer carbonated with that gas suffers. Our guide to <a href=\"co2-in-the-brewery.html\">CO2 in the brewery</a> covers where gas quality matters most.</p>"
+  ],
+  [
+   "Show the working before you buy",
+   "<p>Whether recovery pays depends on your numbers, not on a brochure. Start with three:</p><ul><li>How many kilograms of carbon dioxide you buy each month, from your supplier invoices.</li><li>Your price per kilogram including cylinder rental and delivery.</li><li>Your monthly production in hectolitres, which tells you how much gas your fermenters make.</li></ul><p>Multiply monthly purchases by price to get your annual gas spend. Compare that with the installed cost of a system plus its power, carbon filters and maintenance. In India supply can matter as much as price. Breweries far from a gas supplier, or in regions where cylinders run short in summer, value a steady in-house source beyond the rupee saving.</p>"
+  ],
+  [
+   "Safety comes with the plant",
+   "<p>Carbon dioxide is heavier than air and pools in cellars, pits and enclosed rooms. A widely used workplace exposure limit is 5,000 ppm averaged over eight hours. Higher concentrations cause headaches, dizziness and, at high levels, loss of consciousness. A recovery plant adds compressors, pressure vessels and liquefied gas to the site, so it needs fixed carbon dioxide monitors with alarms, pressure relief valves and trained operators.</p><p>Hygiene matters too. The scrubber and pipework must be cleaned on schedule, because a dirty scrubber can pass off-flavours into the gas. Plating and swabbing, as in our guide to <a href=\"microbiology-plating-small-brewery.html\">microbiology plating for small breweries</a>, applies to gas lines as much as beer lines.</p>"
+  ],
+  [
+   "The cheaper wins come first",
+   "<p>Before investing in recovery, cut the waste. Check for leaks on every gas line with soapy water. Purge tanks with the minimum gas that does the job. Consider spunding, which captures natural carbonation inside the tank during the end of fermentation. Many small breweries find these steps cut purchased gas noticeably at almost no cost.</p>"
+  ],
+  [
+   "Start with a gas audit",
+   "<p>For one month, record every cylinder or bulk delivery and the hectolitres you produced. Divide one by the other to get kilograms of purchased carbon dioxide per hectolitre. That single figure tells you whether you have a leak problem, a purging habit or a genuine case for recovery.</p><p>Compare it with the 0.5 kg per hectolitre that carbonation itself needs. If you are buying three or four times that, most of the gap is purging, line losses and leaks. Fix those first, then rerun the audit. If the number is still high and supply is unreliable, recovery deserves a proper quote.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much CO2 does fermentation produce?",
+   "Roughly 0.96 kg of carbon dioxide for every kilogram of ethanol. One hectolitre of 5% ABV beer produces about 3.8 kg."
+  ],
+  [
+   "Is recovered CO2 safe to use in beer?",
+   "Yes, when the plant scrubs, dries and filters it properly and the output meets a beverage-grade specification. Purity must be monitored."
+  ],
+  [
+   "Can a small brewery afford CO2 recovery?",
+   "It depends on gas prices, supply reliability and volume. Calculate your annual gas spend and compare it with the full cost of a system, including running costs."
+  ]
+ ],
+ "cta": {
+  "title": "Run your gas like a cost, not an afterthought",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers fermentation chemistry, carbonation, gas handling and quality control, so your carbon dioxide decisions rest on numbers.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "co2-in-the-brewery",
+  "microbiology-plating-small-brewery",
+  "atp-swabs-for-quick-hygiene-checks-in-a-small-brewery"
+ ]
+}

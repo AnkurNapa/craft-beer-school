@@ -1,0 +1,67 @@
+{
+ "slug": "handling-a-power-cut-in-the-middle-of-brew-day",
+ "cat": "Business",
+ "h1": "Handling a power cut in the middle of brew day",
+ "title": "Handling a Power Cut Mid Brew Day | Craft Beer School",
+ "desc": "What to do when the power fails mid brew: mash, boil, knockout and fermentation decisions, plus the backup plan that makes them easy.",
+ "teaser": "The mash is at 66 °C and the lights go out. What you do in the next ten minutes decides whether the batch survives.",
+ "standfirst": "Power cuts are part of running a brewery in many Indian towns. The batch can usually be saved if you know which stage is fragile and which is not. Decide the rules before the lights go out.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Which stage you are at changes everything",
+   "<p>A power cut does not hurt every stage of brew day equally. A mash can sit for a while. Wort halfway through the heat exchanger cannot. A fermenter that loses its glycol for an hour is fine. The same fermenter without cooling for a day in May is not.</p><p>So the first thing to write down is a simple table: stage, how long it can wait and what you do. Post it on the brewhouse wall next to the main panel. In a power cut nobody wants to think from first principles.</p>"
+  ],
+  [
+   "Mash and lauter: usually recoverable",
+   "<p>If the power fails during the mash rest, close the lid and leave it. Most conversion at 64 to 67 °C is done within 45 to 60 minutes. An insulated mash tun loses heat slowly. Note the time and the temperature.</p><p>The risk comes with a long outage. As the mash cools into the 40s and 50s °C, lactic acid bacteria from the grain get comfortable. A mash left lukewarm for many hours can sour. If the cut runs long, plan to raise the temperature again once power returns or treat the batch as lost.</p><p>During lautering, a stopped pump or a stuck run-off simply pauses. Do not try to force the grain bed by hand. Let it sit and restart gently.</p>"
+  ],
+  [
+   "Boil and whirlpool: keep the wort hot and covered",
+   "<p>Wort that has started boiling is fairly safe from infection while it stays hot. Above about 80 °C, very little can grow. Close the kettle lid to hold the heat. The flavour risk is dimethyl sulphide (DMS): hot wort that is not boiling keeps forming DMS from its precursor without driving it off. Once the power is back, finish the full boil time with the lid open.</p><p>Hop additions get trickier. Bitterness from the early hops keeps extracting while the wort is hot, so a long pause can push bitterness up. Note what happened on the brew sheet and taste the finished beer before you adjust the next batch.</p>"
+  ],
+  [
+   "Knockout is the dangerous moment",
+   "<p>The worst time to lose power is during knockout, when wort is half cooled and half in the fermenter. Wort sitting at 30 to 50 °C in a heat exchanger or hose is the ideal home for bacteria. If the outage is short, recirculate hot wort or hot water through the exchanger before restarting. If it is long, the wort in the lines should be dumped and the exchanger cleaned.</p><p>Wort already in the fermenter at pitching temperature should be pitched straight away. Healthy yeast taking over quickly is your best defence.</p>"
+  ],
+  [
+   "Fermenters and cold rooms buy you hours, not days",
+   "<p>An active fermentation makes its own heat. Without glycol, a lager at 10 °C can drift up several degrees over a day. An ale at 19 °C in a warm brewhouse will go higher still. The yeast will then make esters and fusel alcohols you did not want. Keep fermenter jackets and cold room doors closed. Every opening costs cold.</p><p>Write down which tanks are mid fermentation and which are in conditioning. Conditioning tanks with finished beer at 1 to 2 °C have more margin. Active fermentations go first on any backup supply.</p>"
+  ],
+  [
+   "The first ten minutes, in order",
+   "<p>Panic makes people open lids and fiddle with valves. A short drill works better. When the power goes:</p><ol><li>Note the time and the temperature of every vessel that has a reading.</li><li>Close kettle and mash tun lids. Close cold room and fermenter room doors.</li><li>Switch off pump and heater isolators, so nothing restarts on its own with a surge when the grid returns.</li><li>Check whether the outage is your building or the whole street. A tripped breaker is a five minute fix.</li><li>Start the generator if you have one and bring essential loads on one at a time.</li></ol><p>Write every step on the brew sheet with the times. If the beer tastes odd three weeks later, that record tells you why. It also builds a history of how often outages hit brew days, which is the number you need to justify a bigger backup system.</p>"
+  ],
+  [
+   "A backup plan you set up before brew day",
+   "<p>Most of the decisions above become easy if two things are in place. First, a UPS on the brewhouse controller and any temperature logger, so you never lose track of what the tanks were doing. Second, a generator sized for the essential loads: glycol chiller, cold room, pumps and lighting. Brew kettles with electric elements draw far more than a small generator can supply, so most brewpubs do not try to back up the boil. Our guide to <a href=\"power-backup-for-a-brewery-with-generator-solar-and-grid.html\">power backup with generator, solar and grid</a> goes through sizing.</p><p>Then make a rule: if the grid has been unreliable that morning, do not mash in. A lost brew day costs time. A lost batch costs malt, hops, yeast and tank space. Knowing your loads and your risks well enough to make that call is part of running the business.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can a mash survive a power cut?",
+   "Usually yes. Most conversion is done within an hour and an insulated tun holds heat well. A very long outage that lets the mash cool into the 40s and 50s °C risks souring."
+  ],
+  [
+   "Is wort safe if the boil stops halfway?",
+   "Wort kept hot and covered is fairly safe from infection. Finish the full boil with the lid open once power returns to drive off DMS."
+  ],
+  [
+   "What should a brewery generator power first?",
+   "The glycol chiller and cold room come first, then pumps, controllers and lighting. Electric kettle elements are usually too large to back up economically."
+  ]
+ ],
+ "cta": {
+  "title": "Plan for the day the grid lets you down",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers utilities, risk planning and the costing behind backup decisions, so you know which loads to protect and when a lost brew day is cheaper than a lost batch.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewery-utilities-water-power",
+  "power-bi-for-breweries",
+  "power-backup-for-a-brewery-with-generator-solar-and-grid"
+ ]
+}

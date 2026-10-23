@@ -1,0 +1,75 @@
+{
+ "slug": "diastatic-power-and-how-much-adjunct-a-malt-can-convert",
+ "cat": "Ingredients",
+ "h1": "Diastatic power and how much adjunct a malt can convert",
+ "title": "Diastatic Power and Adjunct Conversion | Craft Beer School",
+ "desc": "What diastatic power means, how to convert between Windisch-Kolbach and Lintner and how to work out how much rice or maize a malt can convert.",
+ "teaser": "Every rice lager depends on one number: how much starch the malt's enzymes can convert. Here is how to work it out before brew day.",
+ "standfirst": "Diastatic power is the measure of a malt's starch-converting enzymes. It decides how much unmalted rice, maize or other adjunct the malt can carry. The calculation is simple, as long as you remember what the number does not tell you.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Diastatic power measures the enzymes that turn starch into sugar",
+   "<p>Malted barley carries two main starch-degrading enzymes. Alpha-amylase chops starch chains at random, thinning the mash. Beta-amylase nibbles maltose off the ends, making most of the fermentable sugar. Diastatic power (DP) is a laboratory measure of their combined ability to convert starch. Our guide to <a href=\"enzymes-in-the-mash.html\">enzymes in the mash</a> covers how each one behaves.</p><p>Unmalted adjuncts such as rice, maize and sorghum have almost no diastatic power of their own. Every gram of their starch must be converted by enzymes from the malt or from a commercial enzyme preparation.</p>"
+  ],
+  [
+   "Two scales are in use and they convert easily",
+   "<p>European malt certificates report DP in degrees Windisch-Kolbach (°WK). American certificates use degrees Lintner (°L). The standard conversion is:</p><p><strong>°L = (°WK + 16) / 3.5</strong></p><p>So a Pilsner malt reporting 250 °WK is about 76 °L. Check which scale your certificate uses before you do any maths. Mixing them up is an easy way to think a malt is three times stronger than it is.</p><p>Specialty malts carry far less. Crystal, caramel and roasted malts have essentially none, because kilning and roasting destroy the enzymes. Darker kilned base malts such as Munich sit well below Pilsner malt.</p>"
+  ],
+  [
+   "Work out the grist average, not the base malt value",
+   "<p>What matters is the weighted average DP of the whole grist. Multiply each ingredient's share by its DP and add them up. A widely used rule of thumb is that a grist averaging at least 30 to 35 °L will convert fully in a normal mash time. Many brewers aim for 40 °L or more to leave a margin.</p><p>A worked example for a 1,000 litre rice lager with 200 kg of grist:</p><ul><li>Pilsner malt, 140 kg (70%) at 76 °L: 0.70 x 76 = 53.2</li><li>Broken rice, 60 kg (30%) at 0 °L: 0</li><li>Grist average: 53 °L</li></ul><p>That grist has plenty of margin. To find the most adjunct this malt could carry while staying at 35 °L, divide 35 by 76. The answer is 0.46, so malt must be at least 46% of the grist, leaving up to 54% for adjunct. In practice most brewers stop well short of that limit.</p>"
+  ],
+  [
+   "The certificate value is a best case",
+   "<p>DP is measured on fresh malt in a controlled laboratory. Your mash is less kind. Several things reduce the enzyme power you actually get:</p><ul><li><strong>Temperature.</strong> Beta-amylase is quickly destroyed above about 70 °C. Adding boiling cereal mash too fast can kill enzymes in part of the main mash.</li><li><strong>pH.</strong> Both amylases work best around mash pH 5.2 to 5.6.</li><li><strong>Storage.</strong> Malt stored warm and damp loses enzyme activity over time.</li><li><strong>Mash thickness.</strong> Very thin mashes dilute and weaken enzymes. Very thick ones slow the reaction.</li></ul><p>This is why a recipe that converts perfectly in a cool month can leave starch behind in a hot one with older malt.</p>"
+  ],
+  [
+   "Adjunct starch must be gelatinised first",
+   "<p>Enzymes can only attack starch that has been gelatinised. Barley starch gelatinises inside the normal mash range. Rice starch typically needs around 70 to 80 °C or more, depending on variety. Maize is similar. So high-adjunct breweries cook the adjunct first in a cereal cooker, often with a little malt or a heat-stable enzyme, before mixing it into the main mash.</p><p>If the rice is not fully gelatinised, no amount of diastatic power will convert it. Our guide to <a href=\"running-a-cereal-cooker-for-rice-adjunct-in-a-small.html\">running a cereal cooker</a> covers that step.</p>"
+  ],
+  [
+   "Diastatic malt and enzymes extend the limit",
+   "<p>When the grist average gets tight, brewers have two tools. A high-enzyme malt, such as <a href=\"weyermann-diastatic-barley-malt.html\">Weyermann diastatic barley malt</a>, lifts the grist average with a small addition. Commercial enzymes can do the same job more cheaply but must be declared and handled according to supplier and regulatory guidance.</p><p>Choosing between them is a trade-off of cost, flavour, labelling and control. Getting it right means understanding enzyme kinetics, not only the arithmetic. That is the gap between a recipe calculator and real process design.</p>"
+  ],
+  [
+   "Always confirm conversion in the tun",
+   "<p>The arithmetic is a plan, not proof. Before you start the lauter, take a few drops of mash liquid on a white tile and add a drop of iodine solution. Blue-black means starch remains. Brown or yellow means conversion is complete. On high-adjunct brews, record the time it takes to pass the test on every batch.</p>"
+  ],
+  [
+   "Calculate your own grist average today",
+   "<p>Take your current adjunct recipe and the DP from your latest malt certificate. Convert to one scale and work out the grist average. If it sits below 40 °L, look at your iodine test times on recent brews before you raise the adjunct share any further.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is diastatic power in malt?",
+   "A laboratory measure of the malt's starch-converting enzymes, mainly alpha-amylase and beta-amylase. It is reported in degrees Windisch-Kolbach or degrees Lintner."
+  ],
+  [
+   "How do I convert Windisch-Kolbach to Lintner?",
+   "Use °L = (°WK + 16) / 3.5. A malt at 250 °WK is about 76 °L."
+  ],
+  [
+   "How much adjunct can base malt convert?",
+   "Aim for a grist average of at least 30 to 35 °L, ideally 40 °L. Divide that target by the malt's DP to find the minimum malt share."
+  ],
+  [
+   "Why did my mash not convert even though the numbers worked?",
+   "Common causes are ungelatinised adjunct, enzymes killed by hot cereal mash, wrong mash pH or old malt with less activity than the certificate shows."
+  ]
+ ],
+ "cta": {
+  "title": "Design high-adjunct mashes that convert every time",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers mash enzymes, adjunct cooking and grist design so you can plan a rice or maize lager from the malt certificate up.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "weyermann-diastatic-barley-malt",
+  "regenerative-barley-and-sustainable-malt",
+  "weyermann-sinamar-and-malt-extracts"
+ ]
+}

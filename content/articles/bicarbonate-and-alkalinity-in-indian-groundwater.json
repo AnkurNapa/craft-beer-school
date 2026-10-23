@@ -1,0 +1,71 @@
+{
+ "slug": "bicarbonate-and-alkalinity-in-indian-groundwater",
+ "cat": "Ingredients",
+ "h1": "Bicarbonate and alkalinity in Indian groundwater",
+ "title": "Alkalinity in Indian Groundwater | Craft Beer School",
+ "desc": "Why high alkalinity borewell water ruins pale beer mash pH, how to convert bicarbonate figures plus the treatments that work in India.",
+ "teaser": "High alkalinity groundwater pushes mash pH up and makes pale beer harsh. It is the most common water problem we see.",
+ "standfirst": "Alkalinity is the property of water that resists a drop in pH. Much Indian groundwater carries a lot of it as bicarbonate. That suits a stout and ruins a pilsner, because it pushes mash pH above where enzymes and flavour want it.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Alkalinity is a buffer against acid",
+   "<p>In most natural water, alkalinity comes mainly from bicarbonate. It acts like a sponge for acid. When malt releases acids in the mash, bicarbonate absorbs them and holds the pH up. The more alkalinity in the water, the more acid it takes to bring the mash down to the right range.</p><p>Water reports quote alkalinity in different ways, which causes confusion. Two figures matter:</p><ul><li><strong>Total alkalinity as calcium carbonate</strong>, in mg/L.</li><li><strong>Bicarbonate</strong>, in mg/L of HCO3.</li></ul><p>To convert, multiply bicarbonate by 0.82 to get alkalinity as calcium carbonate, or multiply alkalinity by 1.22 to get bicarbonate. A report showing 300 mg/L of bicarbonate means about 246 mg/L of alkalinity as calcium carbonate.</p>"
+  ],
+  [
+   "Indian borewells often run high",
+   "<p>Groundwater picks up bicarbonate as it moves through rock and soil, especially limestone and other carbonate-bearing formations. Many borewell sources across India report alkalinity of several hundred mg/L as calcium carbonate. Levels shift with the monsoon and with how hard the aquifer is being pumped.</p><p>Municipal supplies are often lower, but not always. Some cities mix surface water and groundwater, so the same tap can give different water in different seasons. Test more than once before you design around one number. Our guide to <a href=\"brewing-water-basics.html\">brewing water basics</a> covers the main ions.</p>"
+  ],
+  [
+   "High alkalinity pushes mash pH out of range",
+   "<p>Most brewers target a mash pH of about 5.2 to 5.6 at mash temperature, with many aiming for 5.2 to 5.4 measured at room temperature. Pale malts are only weakly acidic. Mash a pilsner grist in water with 250 mg/L of alkalinity and the pH can sit near 5.8 or higher.</p><p>The results show up in the glass:</p><ul><li>Harsher, more astringent bitterness as more tannin leaches from the husk.</li><li>Dull, flat malt flavour and a slightly soapy edge.</li><li>Slower conversion and lower extract as enzyme activity falls off.</li><li>Poorer protein break and haze in the finished beer.</li></ul><p>Dark malts are much more acidic. That is why historical brewing cities with alkaline water became famous for dark beers. Our guide to <a href=\"mash-ph-explained.html\">mash pH</a> explains the targets.</p>"
+  ],
+  [
+   "Residual alkalinity tells you what the mash sees",
+   "<p>Calcium and magnesium in the water work against alkalinity by reacting with malt phosphates and releasing acid. Residual alkalinity (RA) captures the balance. Using all figures as calcium carbonate, RA is roughly alkalinity minus calcium hardness divided by 3.5 minus magnesium hardness divided by 7.</p><p>Pale lagers want RA near zero or below. Amber beers tolerate a moderate RA. Stouts and porters can use a high one. A borewell with 300 mg/L of alkalinity and modest calcium will have an RA far too high for any pale beer without treatment.</p>"
+  ],
+  [
+   "Acid is the quickest fix",
+   "<p>Adding food grade acid neutralises alkalinity directly. Lactic and phosphoric acid are the usual choices. Phosphoric acid is close to flavour neutral at normal doses. Lactic acid can become noticeable as a sourness if you need a lot, which is a real risk with very alkaline water. Acidulated malt does the same job from inside the grist.</p><p>Do the dose calculation with a brewing water calculator using your measured alkalinity, then confirm with a calibrated pH meter on the mash. Acidify the sparge water too. Alkaline sparge water raises the pH of the grain bed as runnings thin out. That is when tannin extraction climbs.</p>"
+  ],
+  [
+   "Reverse osmosis and boiling are the alternatives",
+   "<p>Where alkalinity is very high, acid alone becomes a flavour problem and a large running cost. Reverse osmosis removes most bicarbonate along with other ions. Many breweries on alkaline groundwater blend RO water with the source to set alkalinity where they want it, then add calcium salts back.</p><p>Boiling removes some alkalinity, but only when there is enough calcium for calcium carbonate to precipitate and only after settling and decanting. It is slow and energy-hungry at brewery scale. Lime treatment works on the same principle and is used by some larger breweries, but it needs careful control.</p>"
+  ],
+  [
+   "Measure alkalinity yourself",
+   "<p>A lab report every few months is not enough on groundwater that drifts. An alkalinity titration kit costs little and takes a few minutes. Test the brewing liquor on every brew day for a month, log the numbers next to mash pH and see how much your source moves. If it swings by 50 mg/L between weeks, a fixed acid dose will not hold your mash pH. Your recipes need a dose that follows the test.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I convert bicarbonate to alkalinity?",
+   "Multiply bicarbonate in mg/L by 0.82 to get alkalinity as calcium carbonate. Multiply alkalinity by 1.22 to go the other way."
+  ],
+  [
+   "What alkalinity is too high for pale beer?",
+   "It depends on calcium, but water with more than about 100 mg/L of alkalinity usually needs treatment for a pale lager or pilsner."
+  ],
+  [
+   "Does boiling remove alkalinity?",
+   "Partly, if there is enough calcium for calcium carbonate to precipitate. It is slow and rarely practical at brewery scale."
+  ],
+  [
+   "Which acid is best for reducing alkalinity?",
+   "Phosphoric acid is the most flavour neutral at high doses. Lactic acid works well for moderate adjustments."
+  ]
+ ],
+ "cta": {
+  "title": "Match your water to every style you brew",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers alkalinity, residual alkalinity, mash pH and water treatment for Indian groundwater and municipal supplies.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "rice-and-maize-adjuncts-india",
+  "brewing-with-indian-spices",
+  "adding-indian-honey-to-beer"
+ ]
+}

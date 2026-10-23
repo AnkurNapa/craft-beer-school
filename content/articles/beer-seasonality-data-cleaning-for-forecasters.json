@@ -1,0 +1,71 @@
+{
+ "slug": "beer-seasonality-data-cleaning-for-forecasters",
+ "cat": "Beer for teams",
+ "h1": "Beer seasonality data cleaning for forecasters",
+ "title": "Cleaning Beer Seasonality Data | Craft Beer School",
+ "desc": "How to clean beer sales history before forecasting: dry days, price changes, stock-outs, festivals and the Indian summer peak.",
+ "teaser": "A beer forecast is only as good as the history it learns from. Most of that history needs cleaning first.",
+ "standfirst": "Beer demand in India swings with heat, festivals, elections and price changes. Before any model can learn the real seasonal pattern, the history has to be cleaned of events that will not repeat on the same dates.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The real seasonal shape is simple, the history is not",
+   "<p>The underlying pattern of Indian beer demand is easy to describe. Volume climbs from February, peaks in the hot months of roughly March to June, drops through the monsoon from about July to September, then recovers into the festive season and the year end. Beer is a hot weather drink and the curve follows the thermometer.</p><p>The trouble is that raw sales history carries far more than weather. It carries price changes, dry days, supply gaps, stock pushes and one-off events. A model fitted to raw history learns all of that as if it were season. Our guide to <a href=\"beer-seasonality-for-demand-planners.html\">beer seasonality for demand planners</a> covers the pattern itself. This guide is about cleaning the data so the model can see it.</p>"
+  ],
+  [
+   "Start with the right sales measure",
+   "<p>Decide which number you are forecasting before you clean anything. Brewery shipments, distributor sales and retail sales are three different series. Shipments run ahead of drinking because the trade builds stock before summer and before price rises. Our guide to <a href=\"shipments-vs-depletions-beer-sales-data.html\">shipments versus depletions</a> explains the gap.</p><p>Convert everything to litres or hectolitres first. A month where the mix moves from 650 ml bottles to 330 ml cans can look like a fall in cases while litres stay flat. Clean on litres, report in cases later if the business wants cases.</p>"
+  ],
+  [
+   "Mark the days when beer could not be sold",
+   "<p>Dry days are the most India-specific cleaning job. States declare them for elections, counting days, some festivals and national days. Polling can close liquor sales for two or three days in a district. Some states have had long periods of full prohibition. A model that sees a zero week in April will think April is weak.</p><p>Keep a calendar table of dry days by state and district with the source notification. Flag those days, then either impute normal demand for them or let the model treat them as a known event. Sales usually bunch up just before a dry day, so flag the two or three days before as well. Otherwise the model learns a spike that is really just a shift.</p>"
+  ],
+  [
+   "Separate stock-outs from low demand",
+   "<p>Sales cannot exceed what was on the shelf. In a hot May a popular SKU often runs out. The recorded sales then show the supply limit, not the demand. If you leave that in, next year's forecast will be too low for exactly the weeks that matter most.</p><p>Look for flat tops in the data: a run of weeks at the same volume during peak season, or a sudden drop when a nearby SKU of the same brand rises. Check them against brewery dispatch and depot stock. Where a stock-out is confirmed, replace the value with an estimate of unconstrained demand and keep the original in a separate column so anyone can audit it.</p>"
+  ],
+  [
+   "Strip out price and duty events",
+   "<p>When a state changes excise or MRP, the trade usually buys ahead of the change and then buys less for a few weeks after. That creates a spike and a hole that have nothing to do with season. Many duty changes land at the start of the financial year in April, right in the middle of the summer ramp, which makes them easy to confuse with weather.</p><p>Join a table of state price changes with their effective dates to your history. Flag the four weeks before and after each change. For a first model, simply excluding those weeks from the seasonal fit often works better than any clever correction.</p>"
+  ],
+  [
+   "Handle moving festivals and one-off years",
+   "<p>Diwali, Holi and Eid move against the Gregorian calendar from year to year. A Diwali in late October one year and mid November the next will shift festive demand between months. Use the festival date as a feature rather than the month.</p><p>Some years are simply abnormal. A pandemic lockdown, a long statewide ban or a brewery fire belongs out of the seasonal baseline entirely. Mark those periods and leave them out rather than trying to adjust them. Two years of clean history beat five years of noise.</p>"
+  ],
+  [
+   "Check the cleaned series against the weather",
+   "<p>Once the series is clean, plot it against average monthly temperature for the state. The relationship should be visible by eye: hotter months, more beer, with the monsoon pulling volume down even when temperatures stay high. If the cleaned line still jumps around without any weather or festival reason, there is another event hiding in the data.</p><p>A first step for this week: build the dry day and price change calendar for your two largest states. It takes an afternoon with the state notifications and it will explain more of last year's odd weeks than any model.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "When is beer demand highest in India?",
+   "Demand usually peaks in the hot months, roughly March to June, then falls through the monsoon and recovers in the festive season. The exact shape varies by state."
+  ],
+  [
+   "How should dry days be handled in a beer forecast?",
+   "Flag them in a calendar by state and district, flag the days just before them when sales bunch up and either impute normal demand or model them as known events."
+  ],
+  [
+   "Why do stock-outs make beer forecasts too low?",
+   "Recorded sales cannot exceed the stock on the shelf, so a stock-out shows the supply limit rather than true demand. Left uncorrected, the model learns a lower peak."
+  ],
+  [
+   "Should abnormal years be included in seasonal history?",
+   "Usually not. Periods such as lockdowns or long bans are better excluded from the seasonal baseline than adjusted."
+  ]
+ ],
+ "cta": {
+  "title": "Give your forecasters the beer calendar behind the data",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions. Our data and AI in beverages module shows how beer demand really behaves in India and how to prepare history for a forecast your planners will trust.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-quality-data-for-data-teams",
+  "shipments-vs-depletions-beer-sales-data",
+  "beer-seasonality-for-demand-planners"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "pasteurising-canned-beer-in-a-small-brewery",
+ "cat": "Brewing science",
+ "h1": "Pasteurising canned beer in a small brewery",
+ "title": "Pasteurising Cans in a Small Brewery | Craft Beer School",
+ "desc": "Practical ways to pasteurise canned beer at small scale: batch tunnels, water baths, PU logging, can pressure and the beers that need it most.",
+ "teaser": "You do not need a 30 metre tunnel to pasteurise cans. You do need to know exactly how many PU each can received.",
+ "standfirst": "Small breweries canning fruited beers, low-alcohol beers or seltzers often need pasteurisation but cannot justify a full tunnel. Here are the practical options, how to measure what each can actually receives and the risks to manage.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Which canned beers need it",
+   "<p>Not every canned beer needs pasteurising. A clean, well-filtered, bitter lager at 5% ABV, kept cold, carries several natural barriers to spoilage. The beers that worry us most are the ones with fewer barriers:</p><ul><li>Fruited beers and beers with residual sugar, where yeast can referment in the can.</li><li>Low and no alcohol beers, which lack the protection of ethanol.</li><li>Lightly hopped beers, which lack the antibacterial effect of hop acids.</li><li>Unfiltered beers heading into a warm supply chain.</li></ul><p>Refermentation in a can is a safety issue as well as a quality one. Cans can bulge or burst. Our guide to <a href=\"microbiology-plating-small-brewery.html\">microbiology plating</a> helps you find out what is actually in your beer before you decide.</p>"
+  ],
+  [
+   "The small-scale options",
+   "<p>Three approaches suit small breweries:</p><ul><li><strong>Batch or compact tunnel pasteurisers.</strong> Smaller machines that spray heated water over cans on a conveyor or in a chamber. More expensive but repeatable.</li><li><strong>Water bath or spray cabinet.</strong> Crates or baskets of cans immersed in or sprayed with water at controlled temperature, then cooled. Cheap to build, slower to run and harder to control.</li><li><strong>Flash pasteurisation before canning.</strong> Treats beer before it enters the can. It works only if the canning line is clean enough not to reinfect the beer.</li></ul><p>For fruited beers and seltzers, in-package treatment is usually the safer choice, because refermentation risk comes from anything that gets into the can.</p>"
+  ],
+  [
+   "Measure the PU inside the can",
+   "<p>One pasteurisation unit is one minute at 60 °C. The lethal rate rises about 1.393 times for each degree above that. The temperature that counts is the beer in the coldest part of the can, not the water around it.</p><p>A can dropped into a 60 °C bath takes several minutes to warm through. If you count time from when the can went in, you overstate the PU. The reliable method is a PU logger: a probe sealed inside a sample can that records temperature throughout the cycle and calculates the PU. Run it with every new can size, beer or batch load.</p><p>For example, if the logger shows the beer at 60 °C for 20 minutes after warm-up, that is 20 PU from the hold alone, plus a little during the heating and cooling ramps.</p>"
+  ],
+  [
+   "Watch the pressure",
+   "<p>As canned beer heats, carbon dioxide comes out of solution and the liquid expands. Pressure inside the can rises sharply. Highly carbonated beers, generous fills and small headspaces all push pressure higher. Cans can deform, ends can dome and seams can be stressed.</p><p>Keep carbonation within the range your can supplier recommends for pasteurised product. Control fill level tightly. Our guide to <a href=\"atp-swabs-for-quick-hygiene-checks-in-a-small-brewery.html\">ATP swabs</a> covers hygiene on the line before cans are filled. Inspect seams on pasteurised cans as well as unpasteurised ones, because heat stresses the seam.</p>"
+  ],
+  [
+   "Cool quickly and evenly",
+   "<p>Heat that continues after the hold adds PU and flavour damage. Cool cans quickly with water, stepping temperature down rather than plunging hot cans into ice water, which can stress them. Dry the cans before packing to avoid corrosion and mould on cartons, a real issue in Indian humidity.</p><p>Heat also affects flavour. Over-pasteurised beer can taste cooked or stale. Treat with the PU the beer needs, not the most you can achieve.</p>"
+  ],
+  [
+   "Records make it defensible",
+   "<p>Log every pasteurisation run: date, beer, can size, number of cans, water temperature, hold time and logger PU. Keep sample cans and incubate a few warm to check stability. If a market complaint arrives, those records show what you did.</p><p>Yeast propagation and repitching practices upstream also affect what reaches the can. Our guide to <a href=\"propagating-yeast-in-a-small-brewery-from-a-lab-culture.html\">propagating yeast from a lab culture</a> covers keeping the pitch clean.</p>"
+  ],
+  [
+   "Run one logged test",
+   "<p>If you pasteurise cans today without a logger, borrow or buy one and run a test cycle with your fullest, coldest load. Compare the logged PU with what you assumed. That single run usually changes how long brewers hold their cans.</p><p>Then repeat the test with your smallest load. A half-empty bath heats cans faster than a full one, so the same timer can give very different PU. Write the hold time for each load size on the wall next to the bath.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I pasteurise cans without a tunnel?",
+   "A controlled water bath or spray cabinet can work at small scale, but measure the PU inside a can with a logger rather than relying on water temperature and time."
+  ],
+  [
+   "Do canned fruited beers need pasteurising?",
+   "Often, yes. Residual sugar allows refermentation in the can, which can cause bulging or bursting. Pasteurisation or sterile filtration with clean filling reduces that risk."
+  ],
+  [
+   "Can pasteurisation damage cans?",
+   "It can if carbonation is high or headspace is small, because pressure rises as beer heats. Follow your can supplier's guidance and control fill level."
+  ]
+ ],
+ "cta": {
+  "title": "Make packaged beer safe to sell warm",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers pasteurisation, microbiology, packaging and shelf life, so you can stabilise canned beer at small scale and prove it.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "microbiology-plating-small-brewery",
+  "atp-swabs-for-quick-hygiene-checks-in-a-small-brewery",
+  "propagating-yeast-in-a-small-brewery-from-a-lab-culture"
+ ]
+}

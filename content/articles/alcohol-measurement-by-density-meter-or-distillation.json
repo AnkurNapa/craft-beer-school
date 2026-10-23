@@ -1,0 +1,71 @@
+{
+ "slug": "alcohol-measurement-by-density-meter-or-distillation",
+ "cat": "Brewing science",
+ "h1": "Alcohol measurement by density meter or distillation",
+ "title": "Alcohol by Density Meter or Distillation | Craft Beer School",
+ "desc": "How breweries measure alcohol: gravity calculations, distillation with density readings and instrument methods, with the accuracy of each.",
+ "teaser": "The ABV on your label is a legal claim. Here is how each method measures it and how far you can trust the answer.",
+ "standfirst": "Most small breweries calculate alcohol from gravity readings. That is fine for brewing decisions but rough for a label. Distillation and dedicated instruments give the precision regulators and buyers expect.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the method matters",
+   "<p>Alcohol content goes on the label, decides excise duty in most Indian states and shapes how a beer tastes. A label that reads 5.0% when the beer is 5.6% is a compliance problem and a consistency problem. Rules on labelling tolerance vary and change, so check the current requirements for your state and product.</p><p>There are three common ways to arrive at the number: calculate it from gravity, distil the beer and measure the distillate, or use an instrument that measures alcohol directly. They differ in accuracy, cost and speed.</p>"
+  ],
+  [
+   "Calculating from original and final gravity",
+   "<p>The familiar formula is ABV = (OG - FG) x 131.25, with gravities as specific gravity. A beer from 1.050 to 1.010 gives about 5.25%. It is quick and needs only a hydrometer or refractometer and a thermometer.</p><p>The formula is an approximation. It drifts at higher gravities and assumes a typical fermentation. Hydrometer readings carry their own error, especially if the sample is not degassed or not at the calibration temperature. Expect results within a few tenths of a percent at best. Good enough for brewing, not ideal for a label.</p>"
+  ],
+  [
+   "Distillation: the reference method",
+   "<p>Distillation separates alcohol from everything else in the beer. The standard approach, set out in brewing analysis methods such as those of the EBC and ASBC, runs like this:</p><ol><li>Degas a measured volume of beer, often 100 ml, at a controlled temperature.</li><li>Distil it, collecting the distillate in a volumetric flask.</li><li>Make the distillate up to the original volume with water at 20 °C.</li><li>Measure the density of the distillate with a pycnometer or digital density meter.</li><li>Convert density to alcohol using standard alcohol tables.</li></ol><p>Done carefully, distillation is accurate to around 0.1% ABV or better. It is slow and needs care, glassware and practice.</p>"
+  ],
+  [
+   "Digital density meters and alcohol analysers",
+   "<p>Benchtop density meters use an oscillating U-tube. The tube vibrates at a frequency that depends on the density of the liquid inside it. Readings are fast and precise, often to four or five decimal places in g/cm³.</p><p>On its own, a density meter cannot tell alcohol from sugar in beer, because both change density. Beer analysers pair a density cell with a second sensor, such as near infrared or sound velocity, that responds differently to alcohol. Together they give alcohol, original extract and real extract in a few minutes. The instrument must be calibrated and checked against reference samples. Our guide to <a href=\"calibrating-a-density-meter.html\">calibrating a density meter</a> covers that.</p>"
+  ],
+  [
+   "Sample preparation is half the result",
+   "<p>Every method fails if the sample is poor. Carbon dioxide bubbles lower density readings and throw off alcohol. Degas thoroughly by shaking, filtering or ultrasonic treatment, without warming the sample so much that alcohol evaporates.</p><p>Haze and yeast can upset readings too. Filter through paper if the method calls for it. Bring samples to the measurement temperature, usually 20 °C, before reading. In a hot Indian lab, a sample left on the bench can warm several degrees in minutes.</p>"
+  ],
+  [
+   "Which method for which job",
+   "<ul><li><strong>Brewing decisions</strong>, such as when fermentation is done: gravity readings and the formula.</li><li><strong>Routine release and labelling</strong> in a busy brewery: a calibrated beer analyser, checked regularly against distillation or reference samples.</li><li><strong>Disputes, audits and method checks</strong>: distillation with a density reading, done in-house or by an accredited lab.</li></ul><p>A small brewery without an analyser can still send samples to an outside lab every few batches to confirm that its gravity based figures stay within tolerance.</p>"
+  ],
+  [
+   "Why excise and labels care",
+   "<p>Alcohol content links directly to tax and to the legal description of the product. In most Indian states, excise duty and labelling rules depend on alcohol content in some way. Authorities may also test samples. Rules, tolerances and testing methods vary by state and change over time. Check the current notification for your state or ask a licensing consultant.</p><p>For the brewery, two things follow. First, the routine method must be reliable enough that the label stays within the allowed tolerance batch after batch. Second, records matter. Keep the original gravity, final gravity, calculated ABV and any lab results for each batch. If a question arises, those records show what you measured and how.</p><p>A beer that drifts higher in alcohol over time, perhaps because attenuation improves with a new yeast, can move outside the label claim without anyone noticing. Regular checks against a reference method catch that drift early.</p>"
+  ],
+  [
+   "Checking your own numbers",
+   "<p>The most useful habit is comparison. Measure the same beer by your routine method and by distillation or an external lab. If your calculated figure runs 0.3% high every time, you know to correct for it.</p><p>Understanding the analytical methods behind the numbers and their limits is part of the lab content on the advanced course.</p><p>Your first step: send one sample of your next batch to an external lab for alcohol by distillation and compare the result with your calculated ABV.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How accurate is the ABV formula from gravity?",
+   "It is an approximation, typically within a few tenths of a percent for normal strength beers. It is less reliable for very strong beers."
+  ],
+  [
+   "What is the reference method for alcohol in beer?",
+   "Distillation followed by measuring the density of the distillate, then converting density to alcohol with standard tables."
+  ],
+  [
+   "Can a density meter alone measure alcohol in beer?",
+   "No. Both sugar and alcohol change density, so a second sensor or distillation is needed to separate them."
+  ]
+ ],
+ "cta": {
+  "title": "Put numbers on your label you can defend",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers brewing analysis, lab methods and quality control so you can measure alcohol and extract with confidence.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "calibrating-a-density-meter",
+  "calibrating-and-caring-for-a-ph-meter-in-a-brewery-lab",
+  "maltose-negative-yeast-strains-for-low-alcohol-beer"
+ ]
+}

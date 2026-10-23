@@ -1,0 +1,63 @@
+{
+ "slug": "running-a-duo-trio-test-to-check-a-recipe-change",
+ "cat": "Tasting",
+ "h1": "Running a duo-trio test to check a recipe change",
+ "title": "Duo-Trio Test for a Recipe Change | Craft Beer School",
+ "desc": "How to run a duo-trio test on a recipe change: set-up, sample coding, how many tasters to use and how many correct answers make a real difference.",
+ "teaser": "You swapped the hop supplier. Can anyone taste it? A duo-trio test gives you an answer you can defend.",
+ "standfirst": "A recipe change is only safe if your drinkers cannot tell or if they prefer the new version. The duo-trio test is a simple way to check the first question with a small panel and a clear statistical answer.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a duo-trio test asks",
+   "<p>In a duo-trio test each taster gets three samples. One is marked as the reference. The other two are coded. One of them matches the reference. The taster's only job is to say which coded sample is the same as the reference.</p><p>Because there are only two choices, a guess is right half the time. That makes the duo-trio less statistically efficient than a <a href=\"triangle-test.html\">triangle test</a>, where a guess is right only a third of the time. It earns its place because it is easier on tasters. They compare two samples against a known anchor rather than hunting for the odd one out among three, which helps with strong, bitter or high alcohol beers that fatigue the palate fast.</p>"
+  ],
+  [
+   "When to choose it over a triangle",
+   "<p>Use a duo-trio when the panel knows the reference beer well and you want to know whether a change has moved it. Your flagship is the classic case. Typical cases:</p><ul><li>A new malt or hop lot from a different supplier.</li><li>A shorter boil or a different whirlpool rest to save energy.</li><li>A move from bottles to cans, or a new filter sheet grade.</li><li>A rice or maize adjunct swap in a mainstream lager.</li></ul><p>If the beers are heavily hopped or above about 8% ABV, the duo-trio's lighter load on the palate is a real advantage. If you need the most power from the fewest tasters, a triangle is the better test.</p>"
+  ],
+  [
+   "Setting it up properly",
+   "<p>The test is only as good as its set-up. Serve every sample at the same temperature, ideally within a degree, in identical glasses filled to the same level. Label the two test samples with random three digit numbers so nobody reads meaning into A and B. Use dark glasses or a red light if the change could shift colour.</p><p>Decide between a constant reference (always the current beer) and a balanced reference (half the tasters get the current beer as reference, half get the new one). Balanced is more rigorous. Constant reference suits a panel that knows the flagship well. Randomise which coded cup matches, so half the tasters get the match on the left.</p><p>Keep the session short. We would stop at two or three sets per taster for normal strength beer, with a short break between sets. Run it mid morning rather than straight after lunch. Keep the room free of cooking smells.</p><p>Give tasters water and plain crackers. Ask for an answer even if they feel they are guessing. A forced choice is what makes the statistics work.</p>"
+  ],
+  [
+   "How many correct answers count",
+   "<p>Here is the part most small breweries skip. With a one tailed test at the usual 5% significance level, these are the minimum correct answers needed to say the beers are different:</p><ul><li>10 tasters: 9 correct</li><li>12 tasters: 10 correct</li><li>15 tasters: 12 correct</li><li>20 tasters: 15 correct</li><li>24 tasters: 17 correct</li><li>30 tasters: 20 correct</li></ul><p>These come straight from the binomial distribution with a one in two chance of guessing. With ten tasters you need nine right, which is a high bar. That is why a duo-trio with six people tells you very little. If your panel is small, repeat the test on two or three separate days and pool the answers, using different coded numbers each time.</p>"
+  ],
+  [
+   "What a result does and does not mean",
+   "<p>A significant result means the panel can tell the beers apart. It does not say which is better or whether drinkers will care. Follow it with a short preference test or a session with your <a href=\"running-a-sensory-panel.html\">trained sensory panel</a> to learn what changed.</p><p>A result that is not significant does not prove the beers are identical. It means this panel, on this day, could not reliably separate them. With a small panel, a real but subtle difference can easily hide. Treat a non-significant result as reasonable comfort, not proof, especially for a flagship beer sold across several states.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Pick the next small change on your production plan, even something as minor as a new lot of the same malt. Brew it, pull samples from both versions at the same age and run a duo-trio with every willing taster in the building. Write down the number correct against the table above. The first test is mostly about learning the routine. The habit is what protects the brand.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How is a duo-trio test different from a triangle test?",
+   "A duo-trio gives tasters a known reference and asks which of two coded samples matches it. A triangle gives three coded samples and asks which is different. The triangle has a lower guessing rate, so it needs fewer tasters."
+  ],
+  [
+   "How many tasters does a duo-trio test need?",
+   "More than most breweries think. With ten tasters you need nine correct answers to show a difference at the 5% level, so aim for fifteen or more answers, pooling sessions if needed."
+  ],
+  [
+   "Does a non-significant result mean the beers are the same?",
+   "No. It means the panel could not reliably tell them apart that day. A small panel can miss a real but subtle difference."
+  ]
+ ],
+ "cta": {
+  "title": "Test recipe changes before drinkers notice",
+  "body": "Sensory Evaluation is our two week live course (₹5,999), taught on Saturdays and Sundays. It covers duo-trio, triangle and ranking tests, sample set-up and the statistics behind each, so you can sign off a change with confidence.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "triangle-test",
+  "running-a-sensory-panel",
+  "running-a-vertical-tasting-of-the-same-beer-across-several"
+ ]
+}

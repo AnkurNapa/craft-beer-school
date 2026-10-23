@@ -1,0 +1,71 @@
+{
+ "slug": "how-much-bitterness-beer-loses-in-storage",
+ "cat": "Brewing science",
+ "h1": "How much bitterness beer loses in storage",
+ "title": "Bitterness Loss in Stored Beer | Craft Beer School",
+ "desc": "Why IBU falls after packaging, how heat and oxygen speed it up, why trans iso-alpha-acids go first and how to measure the loss.",
+ "teaser": "The IPA you packaged at 60 IBU will not taste like 60 IBU in three months on a warm shelf.",
+ "standfirst": "Hop bitterness fades in the package. Some of the loss is chemistry and some is perception. How much you lose depends mostly on temperature, oxygen and the type of hop acids in the beer.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Iso-alpha-acids break down slowly after packaging",
+   "<p>Bitterness in beer comes mainly from iso-alpha-acids, formed when alpha acids isomerise in the boil. Each iso-alpha-acid exists in two forms, cis and trans. Kettle boiling usually gives roughly two parts cis to one part trans. The two behave differently in storage. Trans iso-alpha-acids are less stable and degrade faster, especially in the presence of oxygen and heat.</p><p>As trans forms break down, bitterness falls. Some of the breakdown products are themselves faintly bitter but rougher and more lingering, which is part of why an old IPA can taste both less bitter and harsher.</p>"
+  ],
+  [
+   "Temperature decides how fast it goes",
+   "<p>As with most staling reactions, warmth speeds things up. A rough chemistry rule says reaction rates about double for every 10 °C rise. Beer held at 4 °C loses bitterness slowly. The same beer at 30 °C, normal for an un-airconditioned shop in much of India, loses it many times faster.</p><p>We do not trust a single published percentage for bitterness loss, because the rate depends on the beer, its oxygen level and its storage history. What is consistent is the direction: cold beer holds its bitterness far better than warm beer.</p>"
+  ],
+  [
+   "Oxygen speeds up the losses",
+   "<p>Oxygen in the package accelerates the breakdown of iso-alpha-acids. Beer packaged with high total package oxygen loses bitterness faster than beer packaged tight. If your retained samples show unusual bitterness loss, check the oxygen readings from that run first. Our guide to <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup in packaging</a> covers where it gets in.</p><p>Oxygen and bitterness loss also feed each other on the palate. The same oxidation that strips iso-alpha-acids produces stale, papery and sweet honey notes. Those notes make the beer taste rounder and less bitter even beyond the measured drop. So an oxidised IPA can taste flabby long before the IBU number looks alarming. Fix oxygen and you protect both at once.</p>"
+  ],
+  [
+   "Not all lost bitterness is chemistry",
+   "<p>Iso-alpha-acids also leave the beer physically. They cling to foam, so beer that foams over in transfer loses bitterness. They bind to yeast and haze particles that later settle out. They stick to filter media. Most of this happens before packaging, but haze and sediment that settle in the bottle carry some bitterness with them too.</p><p>Perception changes as well. As hop aroma fades, beer can taste less bitter even when the measured IBU has barely moved, because aroma and bitterness are perceived together. In dry-hopped beers, other hop compounds such as humulinones add bitterness and change over time too.</p>"
+  ],
+  [
+   "Reduced hop extracts hold bitterness better",
+   "<p>Reduced iso-alpha-acids, such as tetra and hexa forms, are more stable than normal iso-alpha-acids. They also resist light damage. Some brewers use a small tetra addition after fermentation for foam and stable bitterness. It changes the character of the bitterness, so trial it on a pilot batch rather than switching a core beer overnight.</p><p>Tetra also tastes more bitter than the same weight of normal iso-alpha-acids, so dosing by IBU alone overshoots. Start well below your target and taste. It is a tool for specific problems such as foam or shelf stability in long supply chains, not a default for every beer.</p>"
+  ],
+  [
+   "Measuring the loss in your own beer",
+   "<p>The standard IBU method reads ultraviolet absorbance at 275 nanometres after extracting the beer with iso-octane. It is cheap and repeatable, but it is not specific. Some degradation products and other hop compounds also absorb at that wavelength. So IBU can understate how much true iso-alpha-acid you have lost. HPLC separates the individual compounds and gives the real picture, but few small breweries have one. Our guide to <a href=\"measuring-ibu-in-a-small-brewery-lab.html\">measuring IBU in a small brewery lab</a> walks through the method.</p><p>A practical tracking plan looks like this:</p><ol><li>Measure IBU on the bright beer just before packaging.</li><li>Keep back retained samples and store half cold and half warm, ideally at 25 to 30 °C to mimic trade conditions.</li><li>Re-measure at 4, 8 and 12 weeks.</li><li>Taste alongside the numbers with the same panel each time.</li></ol>"
+  ],
+  [
+   "What to do with the numbers",
+   "<p>If your beer routinely loses noticeable bitterness before most of it is drunk, you have three levers. Reduce oxygen at packaging. Shorten the time between packaging and sale. Push the cold chain further towards the customer. Adding extra hops to compensate is the lazy fix and usually makes the beer taste harsh when fresh.</p><p>A first step: next time you package an IPA, keep six cans back. Measure one now, then one cold and one warm at each of four and eight weeks. Three months from now you will know your actual loss, instead of relying on someone else's estimate.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does beer lose bitterness over time?",
+   "Yes. Iso-alpha-acids slowly degrade in the package, especially the trans forms. Heat and oxygen speed the loss."
+  ],
+  [
+   "Why does old IPA taste harsh as well as less bitter?",
+   "Some breakdown products of trans iso-alpha-acids give a rougher, lingering bitterness even as overall bitterness falls. Fading hop aroma adds to the effect."
+  ],
+  [
+   "Does cold storage stop bitterness loss?",
+   "It slows it a great deal. Beer held at 4 °C keeps its bitterness far longer than beer at 25 to 30 °C."
+  ],
+  [
+   "Is IBU a reliable way to track bitterness loss?",
+   "It shows the trend, but some breakdown products absorb at the same wavelength, so IBU can understate the true loss. HPLC is more specific."
+  ]
+ ],
+ "cta": {
+  "title": "Know how your beer ages before your customers do",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers hop chemistry, flavour stability and lab methods for measuring and protecting bitterness after packaging.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "hop-stands-below-80-c-and-how-much-bitterness-they-add",
+  "how-much-cold-break-to-carry-into-the-fermenter",
+  "using-a-spectrophotometer-for-beer-colour-and-bitterness"
+ ]
+}

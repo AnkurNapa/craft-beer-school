@@ -1,0 +1,67 @@
+{
+ "slug": "ethanol-vapour-and-ignition-sources-in-a-distillery",
+ "cat": "Whisky",
+ "h1": "Ethanol vapour and ignition sources in a distillery",
+ "title": "Ethanol Vapour and Ignition Sources | Craft Beer School",
+ "desc": "Why ethanol vapour is the main fire risk in a distillery, the flash point and explosive limits to know and how to control ignition sources.",
+ "teaser": "Even a 40% spirit gives off flammable vapour at Indian room temperature. Fire safety in a distillery starts there.",
+ "standfirst": "Spirit is a flammable liquid and its vapour is heavier than air. Most distillery fires and explosions need only three things: a leak, a confined space and a spark. Here is what the numbers mean and how to remove the spark.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why spirit burns at room temperature",
+   "<p>A liquid's flash point is the lowest temperature at which it gives off enough vapour to ignite above its surface. Pure ethanol flashes at about 13 °C. Water dilutes it, but not as much as people expect: a 40% ABV spirit has a flash point in the mid 20s °C. New make and cask strength spirit sit lower still.</p> <p>In most of India the stillhouse and warehouse are above those temperatures for most of the year. Treat every open receiver, sampling point, spill and leaking cask as a source of flammable vapour. That applies to the low wines and feints receivers just as much as to the spirit receiver.</p>"
+  ],
+  [
+   "The explosive range and where vapour collects",
+   "<p>Ethanol vapour in air will burn or explode between about 3.3% and 19% by volume. Below the lower limit the mix is too lean, above the upper limit too rich. The lower limit is the one that matters, because a small spill in a closed room can reach it quickly.</p> <p>Ethanol vapour is about 1.6 times as dense as air. It sinks and flows along the floor into drains, pits, sumps and the bottom of tanks. A pump pit below a still or a drain channel in a warehouse can hold vapour long after the room above smells clear. Ventilation should draw air from low level as well as high. Pits should be treated as confined spaces.</p>"
+  ],
+  [
+   "The ignition sources that turn up in practice",
+   "<p>Fire needs heat as well as fuel. In a distillery the common sources are:</p> <ul><li><strong>Electrical equipment</strong> that is not rated for flammable atmospheres: ordinary motors, switches, sockets, light fittings and extension leads.</li> <li><strong>Static electricity</strong> from spirit flowing fast through plastic hoses or splashing into a vessel.</li> <li><strong>Hot work</strong> such as welding, grinding or brazing on or near vessels and pipes.</li> <li><strong>Hot surfaces</strong> including uninsulated steam lines, motors and lamps. Ethanol autoignites at about 363 °C.</li> <li><strong>Vehicles and personal devices</strong>: forklifts that are not suitably rated, mobile phones, smoking.</li></ul> <p>Most of these are controlled by design and discipline rather than by firefighting. Our guide to <a href=\"hazardous-area-zoning-in-a-distillery.html\">hazardous area zoning</a> explains how sites decide which equipment goes where.</p>"
+  ],
+  [
+   "Static and the transfer of spirit",
+   "<p>Static is the ignition source people forget, because there is nothing to see until the spark. Spirit moving through pipes and hoses picks up charge. If the hose, drum or cask is not bonded and earthed, that charge builds until it jumps.</p> <p>The controls are simple. Bond and earth every vessel, pump and conductive hose used for spirit transfer. Test the earth continuity on a schedule. Use conductive or static-dissipative hoses rather than plain plastic. Fill vessels from the bottom or with a dip pipe, not by splashing from above. Slow the flow at the start of a fill. Keep these rules written into the transfer SOP and train for them, because they are easy to skip on a busy filling day.</p>"
+  ],
+  [
+   "Hot work and maintenance",
+   "<p>Many serious distillery incidents start during maintenance rather than production. A welder works on a pipe that looks empty, but residual spirit or vapour sits inside. Every hot job near spirit should run under a written hot work permit. That means isolating and draining the system, ventilating, testing the atmosphere with a calibrated gas detector, having a fire watch and checking again before restart.</p> <p>This is also where a craft distillery's size works against it. In a small team the person doing the job is often the person approving it. Keep the permit anyway. The paper is not the point. The pause it forces is.</p>"
+  ],
+  [
+   "Detection, ventilation and housekeeping",
+   "<p>Fixed gas detection in stillhouses and spirit stores is now common practice, with alarms set at a fraction of the lower explosive limit. Typical first alarm settings are in the region of 10 to 20% of the LEL, so people have time to act. Calibrate detectors on the maker's schedule. A detector that has not been bump tested is a decoration.</p> <p>Good housekeeping does as much as any instrument. Clean spills at once. Keep receivers and sample points closed. Store full and empty casks with clear aisles and no rubbish between them. Keep fire extinguishers, hydrants and emergency exits clear and checked. In India, fire safety approval comes from the state fire services and conditions vary, so involve a qualified fire consultant early in the design. A short <a href=\"foreshots-methanol-and-distillery-safety.html\">distillery safety</a> routine at every shift handover catches most of the small things.</p>"
+  ],
+  [
+   "One thing to do this week",
+   "<p>Walk your stillhouse and spirit store with a notepad and look only at ignition sources. List every socket, switch, light fitting, motor, phone charger and extension lead within a few metres of spirit. Note whether it is rated for a flammable atmosphere. That list is the start of a proper hazardous area review.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the flash point of whisky?",
+   "A 40% ABV spirit has a flash point in the mid 20s °C. Pure ethanol flashes at about 13 °C, so stronger spirit flashes at lower temperatures."
+  ],
+  [
+   "Is ethanol vapour heavier than air?",
+   "Yes, about 1.6 times as dense. It collects at floor level and in pits, drains and sumps."
+  ],
+  [
+   "What concentration of ethanol vapour can explode?",
+   "Roughly 3.3% to 19% by volume in air. Gas detectors usually alarm at a small fraction of the lower limit."
+  ]
+ ],
+ "cta": {
+  "title": "Run a distillery that is safe by design",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers distillation, spirit handling and the safety habits a still house needs, from cuts and receivers to transfers and storage.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "distillery-kpis-for-analysts",
+  "sourcing-oak-casks-for-an-indian-distillery",
+  "what-a-new-distillery-sells-while-whisky-ages"
+ ]
+}

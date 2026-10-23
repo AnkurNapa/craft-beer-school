@@ -1,0 +1,63 @@
+{
+ "slug": "glass-bottle-sourcing-and-breakage-for-procurement-teams",
+ "cat": "Beer for teams",
+ "h1": "Glass bottle sourcing and breakage for procurement teams",
+ "title": "Beer Bottle Sourcing and Breakage | Craft Beer School",
+ "desc": "How beer bottles are specified and sourced, why returnable glass matters in India and where breakage happens and what it costs.",
+ "teaser": "Every beer bottle in India may make many trips before it breaks. Procurement buys the first trip and pays for every broken one.",
+ "standfirst": "Glass is one of the biggest packaging costs in Indian beer. Most of it goes round more than once. This guide explains how bottles are specified, why returnables change the maths and where breakage eats the budget.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why beer bottles are brown",
+   "<p>Beer has a light problem. Blue and ultraviolet light breaks down riboflavin in the beer, which then reacts with hop compounds to form 3-methyl-2-butene-1-thiol, a sulphur compound with a skunky smell. People can detect it at very low levels. Brown, or amber, glass blocks most of that light. Green and clear glass block much less.</p><p>So when procurement is offered a cheaper green or flint bottle, the question is not only cost. It is whether the brand team accepts a higher risk of light struck beer on a bright shop shelf. That choice belongs to quality and marketing together, not to the buyer alone.</p>"
+  ],
+  [
+   "What a bottle specification covers",
+   "<p>A beer bottle is a pressure vessel. A carbonated lager at around 2.5 volumes of carbon dioxide pushes outwards on the glass. That pressure rises as the beer warms. The specification sets what the bottle must withstand and how it fits the line. The main items are:</p><ul><li>Capacity, usually 650 ml or 330 ml in India, with fill height tolerance</li><li>Weight and wall thickness, which drive strength and freight cost</li><li>Neck finish, typically for a 26 mm crown</li><li>Internal pressure and thermal shock resistance</li><li>Dimensions and tolerances that suit the filler, labeller and crate</li></ul><p>A bottle that is slightly out of tolerance at the neck can leak or jam the crowner. That shows up as line downtime, not as a glass problem, unless someone checks.</p>"
+  ],
+  [
+   "Returnable glass changes the economics",
+   "<p>Large Indian brewers rely heavily on returnable 650 ml bottles. The empty comes back through the distributor, gets washed and is filled again. One new bottle can therefore carry many fills before it breaks, gets scuffed beyond use or is lost in the trade.</p><p>That makes the trip rate, the average number of fills per bottle, the key procurement number. A worked example with illustrative numbers: if a new bottle costs ₹10 and makes 10 trips, glass costs ₹1 per fill plus washing and handling. If the trip rate falls to 5, glass cost per fill doubles. Small gains in returns are worth more than a hard bargain on the new bottle price.</p><p>Returns are seasonal. In peak summer demand rises just as empties are slowest to come back, so new glass orders must be placed months ahead. Glass furnaces run continuously and supply is planned well in advance.</p><p>Not every returning bottle goes back on the line. Empty inspection machines reject bottles with chipped necks, cracks, heavy scuffing or foreign objects inside. Scuffing matters more than it looks. A bottle that has rubbed against others for many trips develops a white band of wear that makes the pack look old on the shelf. It can also weaken the glass. Brand teams often set a scuffing limit. That limit quietly lowers the trip rate.</p>"
+  ],
+  [
+   "Where breakage happens",
+   "<p>Breakage happens at every stage. Each one shows up in a different budget:</p><ul><li><strong>Inbound.</strong> Damage in transit from the glass plant or from the trade.</li><li><strong>Bottle washer.</strong> Returnables soak in hot caustic, often around 75 to 80 °C. Bottles with hidden flaws crack here.</li><li><strong>Filler and crowner.</strong> Weak bottles burst under pressure. Fillers have guards for this.</li><li><strong>Pasteuriser.</strong> Heating filled bottles raises internal pressure.</li><li><strong>Outbound and trade.</strong> Crates dropped in loading, warm trucks, rough roads.</li></ul><p>The floor detail worth knowing: a burst on the filler can shower glass into nearby open bottles, so lines reject the bottles around a burst as a safety step. One weak bottle can cost several good ones.</p>"
+  ],
+  [
+   "Measure breakage where it happens",
+   "<p>A single breakage percentage across the whole chain hides the cause. Ask for breakage by stage, as a share of bottles entering that stage. A 1% loss at the washer on a line running 30,000 bottles an hour is 300 bottles every hour, before the filler has seen any of them. A rise at the washer points to old, worn glass. A rise at the filler points to a supplier batch or a machine setting. A rise in trade returns points to handling in distribution.</p><p>Our guide to <a href=\"cans-bottles-crowns-and-labels-packaging-for-procurement.html\">cans, bottles, crowns and labels</a> covers the other packaging materials that share the same line.</p>"
+  ],
+  [
+   "Where to start",
+   "<p>Ask the packaging team for one month of line data split by stage: bottles in, bottles rejected and bottles broken at the washer, filler and pasteuriser. Set that beside your trip rate estimate and new glass spend. The cheapest bottle on paper is rarely the cheapest per fill.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why are most beer bottles brown?",
+   "Brown glass blocks most of the light that reacts with hop compounds to create a skunky smell. Green and clear glass let more of that light through."
+  ],
+  [
+   "What is a bottle trip rate?",
+   "The average number of times a returnable bottle is filled before it is broken, rejected or lost. A higher trip rate lowers glass cost per fill."
+  ],
+  [
+   "Where does most bottle breakage happen?",
+   "It varies by brewery. Common points are the hot caustic bottle washer, the filler, the pasteuriser and handling in transit, so measure each stage separately."
+  ]
+ ],
+ "cta": {
+  "title": "Help your procurement team buy glass the brewery can run",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "barley-and-malt-for-procurement-teams",
+  "cans-bottles-crowns-and-labels-packaging-for-procurement",
+  "hops-for-procurement-teams-contracts-spot-buys-and-crop"
+ ]
+}

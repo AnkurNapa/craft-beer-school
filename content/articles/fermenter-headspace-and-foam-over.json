@@ -1,0 +1,67 @@
+{
+ "slug": "fermenter-headspace-and-foam-over",
+ "cat": "Brewing science",
+ "h1": "Fermenter headspace and foam-over",
+ "title": "Fermenter Headspace and Foam-Over | Craft Beer School",
+ "desc": "How much headspace a fermenter needs, why krausen climbs out of the tank and the practical fixes that stop foam-over without losing beer.",
+ "teaser": "A fermenter filled to the brim saves a little tank space and costs you yeast, bitterness and a messy blow-off arm.",
+ "standfirst": "Foam-over is one of the most common floor problems in a busy brewery. It wastes beer, fouls valves and can block the very fittings that keep a tank safe. Most of it comes down to headspace, temperature and the wort itself.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Headspace is not wasted space",
+   "<p>Headspace is the empty volume above the beer in a fermenter. During active fermentation, carbon dioxide rises through the beer and lifts proteins, hop resins and yeast into a foam head called krausen. The krausen needs room. Fill the tank too high and it climbs into the top fittings and out of the blow-off.</p><p>As a working rule, cylindroconical fermenters are designed with about 20 to 25% headspace above the working volume. A vessel sold as 10 hl usually means 10 hl of beer, with a gross volume closer to 12.5 hl. Check your tank drawings: the working volume, not the gross volume, is the number you should fill to.</p>"
+  ],
+  [
+   "What drives a foam-over",
+   "<p>Four things decide how high the krausen climbs.</p><ul><li><strong>Fermentation rate.</strong> A warm, fast fermentation produces gas quickly and builds a tall head.</li><li><strong>Yeast strain.</strong> Top-cropping ale strains rise into the foam far more than lager strains.</li><li><strong>Wort composition.</strong> Foam-positive proteins from wheat, oats or crystal malts make a stiffer, longer-lasting krausen. Lipids from cloudy run-off work the other way and knock foam down.</li><li><strong>Hop load.</strong> Heavily hopped worts carry more resin into the foam, which helps it build.</li></ul><p>A hazy IPA brewed with wheat and oats, fermented warm with an English ale strain, is the classic tank-climber. Our guide to <a href=\"beer-foam-science.html\">beer foam science</a> explains which compounds build foam and which destroy it.</p>"
+  ],
+  [
+   "What you lose when it foams over",
+   "<p>The obvious loss is beer. The less obvious losses are worse. Krausen carries hop bitter compounds and yeast with it, so a heavy foam-over can strip some bitterness and change how much healthy yeast stays in suspension.</p><p>The serious risk is safety. Krausen dries into a sticky crust in top plate fittings, the spray ball and the pressure and vacuum relief valve. A blocked relief valve cannot protect the tank. If the tank is then chilled hard or emptied quickly, it can pull a vacuum. Thin-walled stainless fermenters can collapse under vacuum. Check and clean the relief valve after every foamy batch.</p>"
+  ],
+  [
+   "Temperature control is the first fix",
+   "<p>The cheapest way to stop foam-over is a steadier fermentation. Pitch at the low end of your range and hold it there through the first two or three days, when gas production peaks. Letting an ale free rise from 18 to 24 °C on day two almost guarantees a climbing krausen.</p><p>In India this is where many brewpubs struggle. A glycol plant sized for a cool climate can fall behind on a hot afternoon with every fermenter at peak activity. If foam-overs cluster on hot days, look at your chilling capacity before you look at the recipe. Our guide to <a href=\"fermenting-through-an-indian-summer.html\">fermenting through an Indian summer</a> covers sizing and scheduling.</p>"
+  ],
+  [
+   "Antifoam lets you fill higher",
+   "<p>Food-grade silicone antifoam added at a very low dose to the fermenter or late in the boil collapses the krausen. Breweries that use it can fill closer to the gross volume without foam-over. The silicone is largely removed with the yeast and by filtration. It is used widely in commercial brewing.</p><p>Antifoam also helps in the kettle. A boil that keeps threatening to foam over at the start, when proteins coagulate, calms down with a small dose. That is the same chemistry at work.</p><p>Use the supplier's dose, not more. Keeping the foam down also keeps more hop bitterness in the beer instead of drying on the tank wall. One caution: in unfiltered beer, check with your supplier whether any residue could affect head retention in the glass, since the same chemistry that kills krausen can, in excess, affect the finished foam.</p>"
+  ],
+  [
+   "A blow-off that actually works",
+   "<p>Every fermenter should vent through a blow-off arm into a bucket or drain of sanitiser, sized so it cannot block with foam. A narrow hose packed with krausen becomes a plug. Run the widest practical line and keep its outlet below the liquid surface in the catch vessel, so air cannot track back into the tank.</p><p>Check the outlet daily during active fermentation. On a busy brewing day, a blow-off bucket that has run dry or filled with foam is easy to miss. The brewer who walks the tanks morning and evening catches it before it becomes a problem.</p><p>Treat repeated foam-overs as data. Note the beer, strain, fill volume, pitch temperature and peak temperature each time. After a few batches, the pattern usually points to a single cause. Spotting it needs a grip on how yeast, wort and temperature interact.</p><p>Your first step: measure the real working volume of each fermenter and mark it on the tank sheet. Then fill to that number, not to the top.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much headspace does a fermenter need?",
+   "About 20 to 25% above the working volume is a common design rule for cylindroconical fermenters. Top-cropping ale strains may need more."
+  ],
+  [
+   "Is antifoam safe in beer?",
+   "Food-grade silicone antifoam is widely used in commercial brewing and is largely removed with the yeast and by filtration. Use the supplier's dose."
+  ],
+  [
+   "Why is foam-over a safety risk?",
+   "Dried krausen can block the pressure and vacuum relief valve. A blocked valve cannot protect the tank from over-pressure or vacuum collapse."
+  ],
+  [
+   "Which beers foam over most?",
+   "Warm-fermented beers with wheat, oats or lots of hops, especially with top-cropping ale strains, build the tallest krausen."
+  ]
+ ],
+ "cta": {
+  "title": "Run cleaner, safer fermentations",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers yeast behaviour, wort composition, foam and fermentation control so you can plan tank fills and temperatures with confidence.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-foam-science",
+  "cloudy-wort-run-off-and-the-lipids-it-carries-into-the",
+  "diastaticus-yeast-and-the-risk-of-over-carbonated-packaged"
+ ]
+}

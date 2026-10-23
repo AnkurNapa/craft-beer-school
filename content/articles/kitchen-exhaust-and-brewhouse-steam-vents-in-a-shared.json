@@ -1,0 +1,65 @@
+{
+ "slug": "kitchen-exhaust-and-brewhouse-steam-vents-in-a-shared",
+ "cat": "Business",
+ "h1": "Kitchen exhaust and brewhouse steam vents in a shared building",
+ "title": "Kitchen Exhaust and Brewhouse Vents | Craft Beer School",
+ "desc": "How to plan kitchen grease exhaust and brewhouse steam vents in a shared building so neither fights the other and the neighbours stay on side.",
+ "teaser": "A kettle boil sends tens of litres of water into the air every hour. Put it in the kitchen duct and you have a grease fire risk and a dripping ceiling.",
+ "standfirst": "A brewpub in a mall, a tech park or a mixed-use block has to get rid of cooking fumes and brewhouse steam through a building it does not own. The two need separate routes. Here is how to plan them.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two very different exhausts",
+   "<p>Kitchen exhaust carries hot air loaded with grease, smoke and cooking smells. Brewhouse vapour is mostly water with the sweet, grainy smell of boiling wort and some hop aroma. They behave differently in a duct. Grease coats surfaces and becomes a fire load. Steam condenses on cold surfaces and runs back down as water.</p><p>Mixing them causes trouble both ways. Condensate washes grease along the duct and drips it from joints. Grease traps moisture and makes cleaning harder. The usual rule (and the one fire officers tend to expect) is a dedicated grease duct for the kitchen that carries nothing else.</p>"
+  ],
+  [
+   "How much steam a boil makes",
+   "<p>Brewers typically aim to evaporate somewhere around 4 to 10 percent of the kettle volume per hour during the boil. On a 1,000 litre kettle at 6 percent an hour, that is about 60 litres of water leaving as vapour every hour for the length of the boil. Over a 60 to 90 minute boil, the brewhouse puts 60 to 90 litres of water into the air.</p><p>If that vapour reaches a cool ceiling, it rains back onto the brewers and the equipment. In a shared building it can also find its way into the neighbouring unit through gaps in the false ceiling. The kettle needs its own vent stack or a vapour condenser.</p>"
+  ],
+  [
+   "Vent stacks and vapour condensers",
+   "<p>The simplest route is a stainless vent stack from the kettle lid straight out through the roof or an outside wall, with a condensate drain at the base so water does not run back into the wort. It needs a clear path, a weather cap and a position away from fresh air intakes and neighbours' windows.</p><p>Where a straight route is impossible, a vapour condenser is the alternative. It sprays cold water into the vapour or runs it past a cooled surface so the steam condenses to liquid that goes to drain. That removes most of the plume and much of the smell. It costs water and some power, so size it with the brewhouse supplier.</p>"
+  ],
+  [
+   "Getting a grease duct through someone else's building",
+   "<p>In a shared building the kitchen duct usually has to rise through floors you do not control to discharge above the roof line. That needs the landlord's consent, a route through shafts or along the outside of the building and fire-rated construction where it passes through other units. Agree the route before signing the lease. A unit without a usable route for kitchen exhaust is a poor site for a brewpub that serves food.</p><p>Hood design matters at the cooking line. A common guideline is for the hood to overhang the cooking appliances by about 150 mm on each side, with grease filters that staff can remove and wash. Your kitchen consultant will size airflow from the cooking equipment.</p>"
+  ],
+  [
+   "Make-up air keeps the doors closing",
+   "<p>Every cubic metre of air you extract has to be replaced. Without a planned make-up air supply, the building pulls air in through doors and gaps. Doors become hard to open. Gas burners flicker. Smells from the kitchen and brewhouse get pulled into the dining room instead of out of the building.</p><p>Plan make-up air for the kitchen hood and the brewhouse together, sized against the total extraction. In a hot climate, bringing in untreated outside air also adds load to the air conditioning. That is one more reason to keep the dining area separate from the kitchen and brewhouse air paths in the layout.</p>"
+  ],
+  [
+   "Smell, neighbours and approvals",
+   "<p>Brewing smells pleasant to brewers and less pleasant to an office tenant upstairs at 7 am on a brew day. Kitchen smells are the more common source of complaints, but a wort plume drifting into an air intake will generate calls too. Discharge points well above the roof line, away from intakes and windows, prevent most of it.</p><p>Fire, municipal and pollution approvals can all touch exhaust design. The rules vary by state and city. Put the duct routes on the drawings early so they go through the same approval rounds as everything else. Our guide to the <a href=\"brewpub-layout-kitchen-brewhouse-bar.html\">brewpub layout</a> shows how kitchen, brewhouse and bar share a floor plate.</p>"
+  ],
+  [
+   "Keep the ducts clean",
+   "<p>A grease duct that is never cleaned becomes a fire path from the kitchen to the roof. Set a cleaning schedule for filters, weekly or more often on a busy line. Arrange professional duct cleaning at the interval your fire adviser recommends. Keep the records at the venue.</p><p>Brewhouse stacks need attention too. Check the condensate drain on brew days and clear any build-up of wort residue at the base. The Brewery Business Management course covers fit out and building services as part of a complete opening plan, so these questions are answered before the ceilings close.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can the brewhouse kettle vent into the kitchen exhaust?",
+   "It is best avoided. Kitchen exhaust should run in a dedicated grease duct. Steam from the kettle needs its own vent stack or a vapour condenser."
+  ],
+  [
+   "How much steam does a brewhouse boil produce?",
+   "Commonly 4 to 10 percent of the kettle volume per hour. A 1,000 litre kettle at 6 percent puts about 60 litres of water into the air each hour."
+  ],
+  [
+   "What is a vapour condenser?",
+   "A unit on the kettle vent that condenses steam to liquid with cold water or a cooled surface, so the vapour goes to drain instead of out of a stack."
+  ]
+ ],
+ "cta": {
+  "title": "Solve your brewpub fit out before it costs you",
+  "body": "Brewery Business Management is a three week live course, Saturdays and Sundays from 12:00 PM to 2:00 PM IST, for ₹8,999. It covers layout, building services and the costing behind a brewpub opening.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewpub-layout-kitchen-brewhouse-bar"
+ ]
+}

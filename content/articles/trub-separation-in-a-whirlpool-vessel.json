@@ -1,0 +1,71 @@
+{
+ "slug": "trub-separation-in-a-whirlpool-vessel",
+ "cat": "Brewing science",
+ "h1": "Trub separation in a whirlpool vessel",
+ "title": "Trub Separation in a Whirlpool Vessel | Craft Beer School",
+ "desc": "How a whirlpool separates hot trub, what makes a tight cone and the operating habits that cut wort losses on a brewpub system.",
+ "teaser": "A whirlpool works by a teacup trick. Run it well and the trub stacks into a neat cone you can pump around.",
+ "standfirst": "Every brew makes hot trub: protein, hop material and fine solids from the boil. The whirlpool is how most breweries separate it from the wort. Here is how it works and what makes the difference between a tight cone and a muddy floor.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The teacup effect does the work",
+   "<p>Stir a cup of tea with loose leaves and stop. The leaves gather in a pile at the centre of the bottom rather than flinging to the walls. Friction at the base slows the liquid there, which sets up a gentle inward flow along the floor. That flow carries settled particles to the centre.</p><p>A whirlpool vessel uses the same effect. Hot wort enters tangentially, the whole volume spins and as it slows the trub collects in a cone in the middle. The clear wort is then drawn off from the side.</p>"
+  ],
+  [
+   "Vessel shape and filling",
+   "<p>Classic whirlpool design uses a diameter roughly equal to liquid height. Taller, narrower vessels spin less well. Many brewpub systems combine kettle and whirlpool in one vessel with a tangential inlet, which works but is a compromise.</p><p>The tangential inlet needs enough velocity to set the wort spinning without shearing the trub flocs. Pumping too hard breaks the break into small particles that settle slowly. Pumping too gently leaves the wort barely moving. Your system builder's flow rate is the starting point. Do not just open the valve fully.</p><p>In a combined kettle and whirlpool, the spin often comes from recirculating through a tangential return rather than a separate fill. Run that pump for a set time, commonly 10 to 15 minutes, then stop it and let the wort coast. Write down the time and pump speed so every brewer on the team runs it the same way. Much of the brew-to-brew variation in trub cones on small systems comes from operators each doing it slightly differently.</p>"
+  ],
+  [
+   "Rest time lets the cone form",
+   "<p>After filling or stirring, the wort needs to rest. A typical rest is 20 to 30 minutes before run-off begins. Cut it short and trub is still settling as you transfer. Make it much longer and the wort sits hot, building colour and allowing DMS to form on pale beers. Our guide to <a href=\"dms-in-pale-lager-and-how-boil-vigour-keeps-it-down.html\">DMS in pale lager</a> covers why that matters.</p>"
+  ],
+  [
+   "What makes a tight cone",
+   "<p>Good separation starts in the kettle, not the whirlpool.</p><ul><li><strong>A good hot break.</strong> A vigorous boil with enough calcium forms large flocs that settle fast. Our guide to the <a href=\"boil-chemistry-hot-break.html\">hot break</a> explains the chemistry.</li><li><strong>Kettle finings.</strong> Carrageenan based finings added near the end of the boil help protein flocculate. Follow the supplier's dose.</li><li><strong>Pellet hops over whole cones.</strong> Pellet material forms a firmer cone. Whole cones float and do not pack.</li><li><strong>Moderate hop charges.</strong> Very large whirlpool additions make a loose, bulky cone that holds a lot of wort.</li></ul>"
+  ],
+  [
+   "Running off without disturbing the cone",
+   "<p>Start transfer gently. A high flow rate at the start can lift the edge of the cone. Many whirlpools have two outlets: a side outlet above the cone for most of the wort and a lower one for the last of it. Watch a sight glass on the knockout line. When the wort starts to cloud, slow down or stop.</p><p>The final litres are a judgement call. Taking them gives you more beer and more trub. Leaving them costs extract. Measure the volume you leave behind and turn it into kilos of extract so the call is made on numbers.</p>"
+  ],
+  [
+   "How much trub is too much in the fermenter",
+   "<p>Some cold break and fine trub in the fermenter does little harm. Some brewers argue it gives yeast useful lipids. Large amounts of hot trub are different. They can add harsh flavours, carry hop matter into the yeast crop and make harvesting messier.</p><p>Trub that collects in the fermenter cone mixes with the yeast. If you crop yeast from that cone, our guide to <a href=\"cone-harvesting-yeast-from-a-cylindroconical-tank.html\">cone harvesting yeast</a> shows how to leave the trub layer behind.</p>"
+  ],
+  [
+   "Wort pH and calcium play a part",
+   "<p>Hot break forms best when the wort pH and calcium are in a healthy range. Wort that leaves the mash at around pH 5.2 to 5.6 usually drops to about 5.0 to 5.4 by the end of the boil. Very soft water with little calcium can give a fluffy, poorly formed break that spreads across the floor. For more on the mash side of this, see our guide to <a href=\"mash-ph-explained.html\">mash pH</a>.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>After your next whirlpool rest, look at the cone before you clean. Is it tight and centred, or spread across the floor? Photograph it, note the hop charge and rest time and measure what you left behind. Three photos from three brews will tell you whether the problem is your boil, your fill or your rest.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should a whirlpool rest be?",
+   "Typically 20 to 30 minutes after filling or stirring. Long rests keep wort hot and can increase colour and DMS on pale beers."
+  ],
+  [
+   "Why is my trub cone loose and spread out?",
+   "Common causes are a weak hot break, too much hop material, whole cone hops or a fill rate that shears the flocs."
+  ],
+  [
+   "Do kettle finings help whirlpool separation?",
+   "Yes. Carrageenan based finings help proteins form larger flocs that settle into a tighter cone."
+  ]
+ ],
+ "cta": {
+  "title": "Get cleaner wort from boil to fermenter",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers boil chemistry, trub and whirlpool practice, so your wort reaches the fermenter clean and your losses stay measured.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "whirlpool-hopping",
+  "mash-ph-explained",
+  "enzymes-in-the-mash"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "whisky-depletion-data-explained",
+ "cat": "Whisky",
+ "h1": "Whisky depletion data explained",
+ "title": "Whisky Depletion Data Explained | Craft Beer School",
+ "desc": "What depletions mean in whisky, how they differ from shipments, how to read channel stock and why the two lines drift apart around price and tax changes.",
+ "teaser": "Shipments tell you what you sold to the trade. Depletions tell you what the trade sold on. The gap is where forecasts go wrong.",
+ "standfirst": "Depletion data is the closest most whisky companies get to real consumer demand. This guide explains what the number counts, why it lags or leads shipments and how to use it without fooling yourself.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Shipments, depletions and offtake are three different numbers",
+   "<p>A bottle of whisky passes through at least three hands before anyone drinks it. Each handover produces a sales figure.</p><ul><li><strong>Shipments</strong> (primary sales) are what the producer sells to a distributor, wholesaler or state corporation.</li><li><strong>Depletions</strong> (secondary sales) are what that wholesaler sells on to retailers, bars and restaurants. Stock has left the wholesaler's warehouse and been depleted from it.</li><li><strong>Offtake</strong> (tertiary sales) is what the shop sells to the consumer or what the bar pours.</li></ul><p>Depletions sit in the middle. They are one step closer to the consumer than shipments and usually far easier to get than true offtake. That is why most whisky demand planning is built on them.</p>"
+  ],
+  [
+   "Channel stock is the gap between the two",
+   "<p>The arithmetic is simple. Opening channel stock plus shipments minus depletions gives closing channel stock. If you shipped 10,000 nine litre cases into a state this month and the wholesaler depleted 8,500, channel stock rose by 1,500 cases.</p><p>Analysts often convert that into weeks of cover: closing stock divided by average weekly depletions. If depletions average 2,000 cases a week, 6,000 cases in the channel is three weeks of cover. Most teams agree a target range per state, because too little cover means empty shelves while too much ties up the distributor's cash and ages the stock.</p><p>A nine litre case is the trade's standard unit: twelve 750 ml bottles. Always state whether a number is in cases, bottles, bulk litres or litres of pure alcohol. Mixing them is the most common reason two dashboards disagree.</p>"
+  ],
+  [
+   "Why the lines drift apart",
+   "<p>Shipments and depletions rarely move together month by month. The usual reasons are worth knowing by heart.</p><ol><li><strong>Pipeline fill.</strong> A new SKU or a new state needs stock in the channel before anyone can buy it. Shipments jump and depletions catch up later.</li><li><strong>Price and tax changes.</strong> When excise or MRP is about to change, the trade buys ahead at the old price or holds back to buy at the new one. Shipments spike or dip around the change date while consumption barely moves.</li><li><strong>Year end.</strong> Many Indian states run their excise year from April. Label and price registrations often renew then too. March and April can look strange for reasons that have nothing to do with drinkers.</li><li><strong>Festive and wedding seasons.</strong> The trade stocks up ahead of peak demand, so shipments lead depletions by several weeks.</li></ol>"
+  ],
+  [
+   "What depletion data looks like on the floor",
+   "<p>From the production side, depletions decide how hard the bottling hall runs. A whisky blend is not made to order. The blended, reduced spirit is usually married in a vat for a period before bottling. Dry goods such as state-specific labels and excise adhesive labels or holograms have lead times of their own. If the forecast is built on shipments that were inflated by a pipeline fill, the bottling plan for the next quarter is too high. The result is cases sitting in a bonded warehouse waiting for permits that nobody asked for.</p><p>This is the point where a planner and a production manager need the same vocabulary. Our guide to <a href=\"whisky-master-data-done-right.html\">whisky master data</a> covers the SKU and pack fields that make depletion data join cleanly to production.</p>"
+  ],
+  [
+   "How depletion data is collected in India",
+   "<p>The source depends on the state's route to market. In states where a government corporation is the wholesaler, depletion data comes from the corporation's issue records to retail. The producer's view of it depends on what the corporation shares and how often. In states with licensed private wholesalers, the producer may get distributor reports directly, sometimes through a distributor management system and sometimes as spreadsheets.</p><p>Either way, expect delays, restatements and SKU codes that do not match your own. A good depletion dataset carries the reporting date, the period it covers and the source, so an analyst can tell a genuine dip from a late file. Rules and reporting formats vary by state and change, so always work from the current arrangement in each market.</p>"
+  ],
+  [
+   "Common mistakes and how to avoid them",
+   "<p>The mistakes we see most often in whisky planning teams are predictable.</p><ul><li>Forecasting from shipments alone and calling it demand.</li><li>Comparing a state's depletions this April with last April when the price or tax rules changed in between.</li><li>Summing cases of 180 ml and 750 ml packs as if they were the same thing. Convert to nine litre equivalent cases or litres first.</li><li>Ignoring channel stock until a distributor refuses the next order.</li></ul><p>Each of these produces a forecast that looks precise and is wrong by a whole pipeline.</p>"
+  ],
+  [
+   "Start with one state and one chart",
+   "<p>Pick your largest state. Plot twelve months of shipments and depletions on one chart in nine litre equivalent cases. Under it, plot weeks of cover. Then mark every price change, tax change and launch on the timeline. Most of the gaps between the two lines will explain themselves. The ones that do not are the questions worth taking to the sales team on Monday.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a depletion in the whisky trade?",
+   "A depletion is a sale from a wholesaler or distributor to a retailer, bar or restaurant. It is one step closer to the consumer than a shipment from the producer."
+  ],
+  [
+   "Why do shipments and depletions differ?",
+   "Stock builds or falls in the channel. Pipeline fills, price and tax changes, year end and festive stocking all move shipments ahead of or behind actual consumption."
+  ],
+  [
+   "What unit should depletion data use?",
+   "Pick one and convert everything to it, usually nine litre equivalent cases or litres of pure alcohol. Never add cases of different pack sizes together."
+  ]
+ ],
+ "cta": {
+  "title": "Forecasts that ignore channel stock",
+  "body": "Our Data and AI in beverages module is built around your team's own portfolio, so the examples are your brands, your states and your data.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "whisky-for-it-and-data-teams",
+  "whisky-master-data-done-right",
+  "how-whisky-is-made"
+ ]
+}

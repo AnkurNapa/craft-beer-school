@@ -1,0 +1,67 @@
+{
+ "slug": "quality-release-data-explained-for-it-and-data-teams",
+ "cat": "Beer for teams",
+ "h1": "Quality release data explained for IT and data teams",
+ "title": "Beer Quality Release Data for IT Teams | Craft Beer School",
+ "desc": "What a brewery checks before releasing beer, the data each test produces and how IT and data teams can model release status without breaking it.",
+ "teaser": "Before beer leaves a brewery, someone signs it off. That decision rests on data your systems probably hold.",
+ "standfirst": "Quality release is the decision that a batch of beer meets specification and can be sold. It draws on lab results, sensory panels, process records and micro tests that arrive at different times. IT and data teams who understand that flow can build systems the quality team trusts.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Release happens at more than one gate",
+   "<p>Most breweries release beer at several points rather than once. Beer is checked before it is filtered, again in the bright beer tank before packaging and again after packaging before it leaves the warehouse. Each gate has its own tests and its own decision. A batch can pass at the tank and still be held after packaging if a fill height or oxygen result is out.</p><p>For a data model, this means release status belongs to a specific lot at a specific stage, not to a brand or a day. A tank of beer may become several packaging runs. Each run may be released, held or rejected separately. Our guide on <a href=\"beer-quality-data-for-data-teams.html\">beer quality data for data teams</a> covers the broader data set.</p>"
+  ],
+  [
+   "What the tests measure",
+   "<p>A typical release panel for packaged lager includes:</p><ul><li><strong>Alcohol (ABV)</strong> against the declared value, within a tolerance.</li><li><strong>Original and present gravity</strong>, showing how much sugar was there and how much is left.</li><li><strong>Bitterness</strong> in international bitterness units (IBU).</li><li><strong>Colour</strong> in EBC units.</li><li><strong>Carbon dioxide</strong>, often around 2.5 to 2.8 volumes for a lager.</li><li><strong>Dissolved oxygen</strong> in the package, measured in parts per billion, since oxygen shortens shelf life.</li><li><strong>Haze</strong>, measured with a haze meter.</li><li><strong>Fill volume</strong> against the declared quantity.</li><li><strong>Microbiology</strong>, checking for spoilage organisms.</li><li><strong>Sensory</strong>, where trained tasters confirm the beer tastes true to brand.</li></ul>"
+  ],
+  [
+   "The data arrives at different speeds",
+   "<p>This is where many systems trip up. ABV, CO2 and dissolved oxygen can be measured in minutes. Sensory panels happen at set times during the day. Microbiology plates may take several days to grow before they can be read. A batch can therefore look complete on the analytical results while the micro result is still pending.</p><p>A release system must treat pending as a status in its own right, not as a pass by default. The worst design is one where missing data shows as green. The safest is one where a lot cannot be released until every required test for that product and stage has a result recorded within specification, or a documented deviation approved by quality.</p>"
+  ],
+  [
+   "Specifications live in more than one place",
+   "<p>Each brand and pack has its own specification: target and limits for each test. A strong lager has a different ABV range from a mild one. A can and a bottle of the same beer may have different oxygen limits. Specifications also change when a recipe is adjusted.</p><p>For data teams, the specification is master data with versions. A result must be compared with the specification valid when the beer was made, not the one valid today. Store the specification version against each result, otherwise historical reports will show passes as failures, or worse, failures as passes.</p>"
+  ],
+  [
+   "Holds, deviations and who decides",
+   "<p>When a result falls outside specification, the lot goes on hold. Quality then investigates. Outcomes include retesting, blending, reprocessing, release under an approved deviation or rejection. Each outcome needs a record of who decided, when and why. That audit trail matters for food safety compliance and for any later complaint or recall.</p><p>IT teams should treat the release decision as a human sign-off supported by data, not an automatic calculation. Automation can flag, block and route. A named person in quality should still own the release. Our guide on <a href=\"brewery-sensor-and-scada-data-for-data-engineering-teams.html\">brewery sensor and SCADA data</a> explains where process records come from to support those decisions.</p>"
+  ],
+  [
+   "A worked example of a release record",
+   "<p>Take an illustrative packaging run of 8,000 cases. ABV reads 4.9% against a 4.8 to 5.2% range. CO2 reads 2.6 volumes, within limits. Dissolved oxygen reads 60 ppb against an internal limit of 50 ppb. Micro is pending. Sensory has passed.</p><p>The right status is hold, with two reasons: oxygen out of specification and micro pending. Quality might retest oxygen on more samples, decide the run is acceptable for a short shelf life market or reject it. The values here are illustrative. A dashboard that shows this run as released because most tests passed is the kind of error that lets a problem reach the trade. Our guide to <a href=\"handling-beer-consumer-complaints-and-what-quality-teams.html\">handling consumer complaints</a> shows where those problems end up.</p><p>Trend data matters as much as pass or fail. A dissolved oxygen result that creeps up over three weeks while staying inside the limit tells the packaging team a seal or a valve is wearing. Release systems that store every result, not just the decision, let quality spot that drift before it turns into a hold.</p><p>A first step: ask the quality team for one week of release decisions and map each test to the system that stores it. Mark any test that lives only on paper. That map is your integration backlog.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is quality release in a brewery?",
+   "It is the formal decision that a batch or packaging run meets specification and can be sold, based on lab, micro, sensory and process data."
+  ],
+  [
+   "Why do micro results delay beer release?",
+   "Microbiology tests often need days for organisms to grow on plates before they can be read, while chemical tests take minutes."
+  ],
+  [
+   "Should a system release beer automatically?",
+   "Systems can flag and block, but a named person in quality should own the release decision and any deviation."
+  ],
+  [
+   "Why version product specifications?",
+   "Results must be judged against the specification valid when the beer was made. Without versions, historical reports become unreliable."
+  ]
+ ],
+ "cta": {
+  "title": "Give your data team the brewing context behind every field",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that show what each quality test means for the beer.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-quality-data-for-data-teams",
+  "brewery-sensor-and-scada-data-for-data-engineering-teams",
+  "handling-beer-consumer-complaints-and-what-quality-teams"
+ ]
+}

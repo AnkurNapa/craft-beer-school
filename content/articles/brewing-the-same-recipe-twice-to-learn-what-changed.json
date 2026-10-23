@@ -1,0 +1,67 @@
+{
+ "slug": "brewing-the-same-recipe-twice-to-learn-what-changed",
+ "cat": "Brewing basics",
+ "h1": "Brewing the same recipe twice to learn what changed",
+ "title": "Brewing the Same Recipe Twice | Craft Beer School",
+ "desc": "Why rebrewing one recipe teaches more than chasing new ones, what to record each time and how to tell a real difference from chance.",
+ "teaser": "Brew the same beer twice and it will not taste the same. Finding out why teaches you more than ten new recipes.",
+ "standfirst": "Most homebrewers move to a new recipe after every batch. Rebrewing one recipe shows you how consistent your process really is. It also gives you a fair test for the one change you want to try.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why your second batch never matches the first",
+   "<p>Brew a recipe you liked a second time and it will taste different. Sometimes a little, sometimes a lot. The recipe did not change, so something in your process did: a mash a few degrees warmer, a longer boil, a warmer week in the fermenter, older hops.</p><p>That gap is the most useful information a homebrewer has. Professional brewers spend years making the same beer taste the same every batch. Consistency is a skill you learn on purpose. Rebrewing is how you start.</p>"
+  ],
+  [
+   "The numbers to write down every time",
+   "<p>A rebrew only teaches you something if you can compare it. Record the same numbers on every brew day:</p><ul><li>Grain weights and hop weights, with the alpha acid on the hop packet.</li><li>Strike water volume and mash temperature at 5 minutes and at the end.</li><li>Pre-boil volume and gravity, then post-boil volume and original gravity (OG).</li><li>Yeast, its age and how you pitched it.</li><li>Fermentation temperature for the first three days, which matter most.</li><li>Final gravity (FG) and the date you packaged.</li></ul><p>A paper notebook works. So does a spreadsheet. What matters is the same fields every time, so batch three sits next to batch one in a way you can read.</p>"
+  ],
+  [
+   "Tolerances that are normal",
+   "<p>Some variation is noise, not a mistake. On a homebrew system, an OG within 2 to 3 points of target is normal. Mash temperature within 1 °C is good. Volumes within half a litre are good. Fermentation temperature is where most kitchens slip: in an Indian summer a fermenter left in a room at 30 °C can run 3 to 5 °C above the air because fermentation makes its own heat.</p><p>Hops are the quiet variable. A packet opened three months ago and kept in a kitchen cupboard will have lost a good share of its aroma, so the rebrew tastes flatter even with identical weights. Buy fresh for a rebrew, or use hops from the same freezer-stored packet for both batches.</p><p>If your two batches sit inside those tolerances and still taste clearly different, look harder at fermentation and ingredient freshness. Those are the usual culprits.</p>"
+  ],
+  [
+   "Change one thing and only one",
+   "<p>Once your process is repeatable, rebrewing becomes an experiment. Keep the recipe and process fixed and change one variable: mash at 64 °C instead of 68 °C, swap the yeast, move the late hops to the whirlpool. If you change two things and the beer improves, you will not know which one did it.</p><p>Write the change at the top of the brew sheet before you start. It is easy to drift into a second change on the day without noticing.</p><p>Some changes are bigger than they look. Swapping a hop variety also changes the alpha acid, so the bitterness moves unless you adjust the weight. Moving to a new sack of the same malt can shift colour and extract. When an ingredient changes because the shop ran out, note it as a change, even if you did not choose it. A good test order for a pale ale is mash temperature first, then yeast, then hop timing, because that order runs from the biggest effect on body to the finer effects on aroma.</p>"
+  ],
+  [
+   "Test the difference blind",
+   "<p>Expectation is powerful. If you know which glass holds the new version, you will find the difference you hoped for. A triangle test removes that. Someone else pours three glasses: two from one batch, one from the other. You taste and pick the odd one out.</p><p>Guessing gets it right one time in three. If you pick correctly in most of several rounds, or several tasters do, the difference is probably real. If you cannot pick it, the change made less difference than you thought, which is also worth knowing. Pour small samples, keep water to hand and taste early in the evening rather than after a session. Our guide to <a href=\"how-to-taste-beer.html\">how to taste beer</a> covers the method.</p>"
+  ],
+  [
+   "Where rebrewing leads",
+   "<p>Rebrewing turns recipes into understanding. After three rounds on the same pale ale you will know how your system behaves, which makes <a href=\"scaling-a-beer-recipe.html\">scaling a recipe</a> or writing a new one far more reliable. It is also how professional brewers learn a new brewhouse.</p><p>The harder part is knowing which variable to change and why the beer responded. That needs a working picture of mashing, hop chemistry and yeast behaviour, the part no recipe sheet explains.</p><p>Your first step: pick the best beer you have brewed, copy its recipe onto a fresh sheet with the fields above and book a brew day to make it again exactly.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does the same homebrew recipe taste different each time?",
+   "Small process changes add up: mash temperature, boil vigour, fermentation temperature and ingredient freshness. Fermentation temperature is the most common cause."
+  ],
+  [
+   "What is a triangle test?",
+   "A taster gets three samples, two from one beer and one from another. They try to pick the odd one out. Chance alone gets it right one time in three."
+  ],
+  [
+   "How close to target gravity should a homebrew be?",
+   "Within 2 to 3 gravity points of the target original gravity is normal on a homebrew system."
+  ],
+  [
+   "How many variables should I change between batches?",
+   "One. Change two and you cannot tell which one caused the difference."
+  ]
+ ],
+ "cta": {
+  "title": "Brew consistent beer on purpose",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999) on weekend afternoons. It covers the process control behind repeatable beer: mashing, boiling, yeast and fermentation, with weekly assignments that build good brewing records.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "reading-a-beer-recipe",
+  "scaling-a-beer-recipe",
+  "designing-your-first-ipa-recipe"
+ ]
+}

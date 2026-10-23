@@ -1,0 +1,67 @@
+{
+ "slug": "beer-channel-mix-explained-for-gcc-analysts",
+ "cat": "Beer for teams",
+ "h1": "Beer channel mix explained for GCC analysts",
+ "title": "Beer Channel Mix for GCC Analysts | Craft Beer School",
+ "desc": "What on-trade and off-trade mean for beer, how channel mix shapes volume, price and pack in India and how to report it well.",
+ "teaser": "On-trade and off-trade sound like jargon. They decide which pack sells, at what price and how fast it goes stale.",
+ "standfirst": "Channel mix is how a beer's volume splits between bars and shops. It quietly drives price, pack and freshness in every beer dashboard. Here is what each channel means on the ground and how to read the mix.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two channels and why they behave so differently",
+   "<p>Beer reaches drinkers through two broad channels. The <strong>on-trade</strong> is anywhere you drink on the premises: bars, pubs, restaurants, hotels, clubs and brewpubs. The <strong>off-trade</strong> is anywhere you buy to drink elsewhere: retail shops, supermarkets where the state allows beer sales and online delivery where it is permitted.</p><p>They behave like different businesses. On-trade sells more draught and premium beer at a higher price per litre, but each outlet needs service, kegs and cold dispense. Off-trade moves larger volumes of bottles and cans at lower prices per litre, with the brewer having less control over storage. A brand that shifts from one channel to the other changes its whole profile, even if total litres stay flat.</p>"
+  ],
+  [
+   "Pack follows channel",
+   "<p>Draught almost only lives in the on-trade. A 30 or 50 litre keg goes to a bar, not a shop. Bottles and cans dominate off-trade. So when the channel mix moves, the pack mix moves with it. Our guide to <a href=\"pack-mix-in-beer-sales-draught-bottle-and-can-for-analysts.html\">pack mix in beer sales</a> explains what each pack costs and earns.</p><p>This matters for planners too. A brewery's keg line and its bottle line run at different speeds with different crews. A forecast that gets total volume right but channel wrong can still leave the wrong line overloaded.</p>"
+  ],
+  [
+   "In India the route to market depends on the state",
+   "<p>India has no single beer market. Each state sets its own excise rules and its own route to market. In some states a government corporation is the only wholesaler. In a few it is also the retailer. Elsewhere private wholesalers and licensed shops operate under state licences.</p><p>For an analyst this changes what \"sales\" even means. In a corporation state, the brewer's sale is to the corporation. The corporation's sale to the shop is a separate step. The off-trade volume you see may be shipments, not what drinkers actually bought. Our guide to <a href=\"beer-industry-explained-for-gcc-teams.html\">the beer industry for GCC teams</a> covers the wider structure. Rules differ by state and change over time, so check the current position for each one before comparing states.</p>"
+  ],
+  [
+   "Channel mix moves price per litre without any price change",
+   "<p>Say a brand sells 70% of its litres off-trade and 30% on-trade. On-trade earns more per litre. If on-trade drops to 20% during a long monsoon slowdown in bar footfall, the brand's average revenue per litre falls, though no single price changed.</p><p>The same trap appears in reverse during festive season or tourist months, when bars fill and on-trade share rises. Report revenue per litre by channel, then show the mix separately. A single blended figure hides the cause.</p>"
+  ],
+  [
+   "Freshness lives in the channel too",
+   "<p>Beer is a perishable product. A lager tastes best in the first few months. Heat speeds staling: a common brewer's rule of thumb is that every 10 °C rise in storage temperature roughly doubles or triples the rate of flavour change. A bar's cold room at 4 °C protects beer well. A shop's storeroom at 35 °C in May does not.</p><p>So channel mix also predicts quality complaints. If a brand's complaints rise as its off-trade share climbs in summer, the beer may be fine at the brewery and suffering on the way. That is worth knowing before anyone changes the recipe.</p>"
+  ],
+  [
+   "Seasons hit the two channels differently",
+   "<p>Indian beer demand peaks in the hot months, roughly March to June, then dips through the monsoon. Both channels feel this, but not equally. Off-trade volume swings hard with temperature because home drinking follows the weather. On-trade swings with footfall: long weekends, cricket matches, festive season, tourist months in Goa or the hills. A wet July might cut bar visits in Mumbai far more than it cuts shop sales.</p><p>So a forecaster should model the channels separately before adding them up. A single seasonal curve fitted to total volume will be wrong in both channels at once, just in opposite directions. Our guide to <a href=\"beer-seasonality-for-demand-planners.html\">beer seasonality for demand planners</a> explains the wider calendar. If you only have total volume, that is the first data request to raise.</p>"
+  ],
+  [
+   "How to report channel mix well",
+   "<p>A few habits make channel reporting trustworthy:</p><ul><li>Measure volume in litres or hectolitres, never in mixed cases.</li><li>Tag every outlet with one channel and keep the rule written down. Hotels with a shop counter cause endless arguments.</li><li>Keep brewpubs separate. They brew and sell on site and rarely appear in distributor data.</li><li>Show share of litres and share of revenue side by side. They tell different stories.</li></ul><p>Start by pulling one state's volume for the last twelve months, split on-trade and off-trade by month. If you cannot split it cleanly, that gap is the first thing to fix.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between on-trade and off-trade?",
+   "On-trade is drinking on the premises, such as bars and restaurants. Off-trade is buying to drink elsewhere, such as from a retail shop."
+  ],
+  [
+   "Why does channel mix affect average price?",
+   "On-trade usually earns more per litre than off-trade. When the share between them moves, the average price moves even if no individual price changed."
+  ],
+  [
+   "Does India have one route to market for beer?",
+   "No. Each state sets its own rules. Some use a government corporation as wholesaler or retailer while others use licensed private trade. The rules also change over time."
+  ]
+ ],
+ "cta": {
+  "title": "Help your analysts read beer data like the trade does",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions. Our route to market module explains channels, packs and state structures so your team can explain the numbers behind every chart.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "pack-mix-in-beer-sales-draught-bottle-and-can-for-analysts",
+  "beer-industry-explained-for-gcc-teams",
+  "abv-plato-and-original-gravity-explained-for-analysts"
+ ]
+}

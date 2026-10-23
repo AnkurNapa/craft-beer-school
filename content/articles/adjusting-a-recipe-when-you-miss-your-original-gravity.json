@@ -1,0 +1,67 @@
+{
+ "slug": "adjusting-a-recipe-when-you-miss-your-original-gravity",
+ "cat": "Brewing basics",
+ "h1": "Adjusting a recipe when you miss your original gravity",
+ "title": "When You Miss Your Original Gravity | Craft Beer School",
+ "desc": "What to do when homebrew wort comes in under or over target gravity: boil longer, add extract or sugar, top up or adjust the next recipe.",
+ "teaser": "Your wort reads 1.044 and the recipe said 1.052. There are four ways to respond. Here is how to choose.",
+ "standfirst": "Missing original gravity happens to every brewer. What matters is catching it early and knowing your options. Here is how we decide between boiling longer, adding fermentables, diluting or simply accepting it.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Catch it before the boil",
+   "<p>Most homebrewers find out they missed at the end, when the wort is in the fermenter. By then the options shrink. Take a reading of the wort in the kettle before the boil starts. Cool the sample to 20 °C or use a refractometer.</p><p>The pre-boil reading predicts the post-boil one. Gravity points times volume stays constant through the boil, minus a tiny amount. If you have 26 litres at 1.040 pre-boil, you have 1,040 point-litres. Boil down to 21 litres and you get about 1,040 divided by 21, roughly 50 points, or 1.050. If that is short of target, you know with an hour to fix it.</p>"
+  ],
+  [
+   "Option one: boil longer",
+   "<p>Boiling concentrates wort by evaporating water. Homebrew kettles typically evaporate a few litres an hour, depending on kettle width and burner power. Measure yours once with water and write the number down.</p><p>If you need 2 more litres off and your kettle loses 3 litres an hour, extend the boil by about 40 minutes. Start the extra time before the bittering hops go in, so hop timings stay as written. The cost is gas, time and a slightly smaller batch. Longer boils also darken wort a little. That matters in a pale lager and barely registers in a porter.</p>"
+  ],
+  [
+   "Option two: add extract or sugar",
+   "<p>Dry malt extract is the cleanest fix. As a working figure, 1 kg of dry malt extract dissolved into 20 litres raises gravity by roughly 18 points. Table sugar gives slightly more, close to 19 points. So a 20 litre batch that is 6 points short needs about 330 g of dry malt extract.</p><p>Add it during the last 15 minutes of the boil, stirring hard so it does not clump or scorch on the bottom. Sugar dries the beer out because yeast ferments it almost completely. A few hundred grams in a 20 litre pale ale is fine. A kilogram makes the beer thin and hot. Dry malt extract keeps the malt character in line with the recipe.</p>"
+  ],
+  [
+   "Option three: accept it and rebalance",
+   "<p>Sometimes the best response is to brew a slightly smaller beer on purpose. A 1.046 pale ale instead of 1.052 is still a good beer, just a little lighter in alcohol and body.</p><p>The one thing to check is balance. Bitterness that suited 1.052 will taste sharper at 1.046. If your hops have not gone in yet, trim the bittering addition by roughly the same proportion you are short on gravity. If they are already in, a lower gravity pale ale often tastes perfectly fine with a little more bite. Our guide to <a href=\"how-to-calculate-abv.html\">calculating ABV</a> shows how the lower gravity changes strength.</p>"
+  ],
+  [
+   "If you overshoot instead",
+   "<p>Coming in high is easier. Dilute with clean water to bring gravity down, which also gives you more beer. Our guide on <a href=\"topping-up-with-water-to-hit-your-target-gravity.html\">topping up to target gravity</a> walks through the sum and the water to use.</p><p>Or keep the stronger wort if the yeast can handle it and the fermenter has space. Pitch a little more yeast to match the higher gravity. A high gravity wort with a normal pitch can ferment slowly and produce more fruity esters than you planned.</p>"
+  ],
+  [
+   "Fix the recipe for next time",
+   "<p>A miss tells you something about your system. Usually it is that your real efficiency is not what your recipe software assumed. Work it out from this batch. Divide the gravity points you achieved by the points the recipe expected, then multiply by the efficiency you entered. If you got 44 points on a recipe built for 52 at 75%, your real efficiency was about 63%.</p><p>Enter that figure and the software will scale the grain bill up for next time. Do this over three or four batches and the average becomes reliable. Understanding where the lost extract went, rather than adding malt to cover it, is the deeper skill. That is where a structured course on brewing fundamentals helps.</p>"
+  ],
+  [
+   "Take a pre-boil reading next time",
+   "<p>On your next brew day, add one line to your timeline: pre-boil gravity and volume, measured before the burner goes on. Run the sum right then. If the prediction is short, decide between boiling longer and adding extract while you still have both choices.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much does 1 kg of dry malt extract raise gravity in 20 litres?",
+   "Roughly 18 gravity points. Table sugar gives a little more, close to 19 points."
+  ],
+  [
+   "Can I boil longer to raise gravity?",
+   "Yes. Boiling evaporates water and concentrates the wort. Measure your kettle's evaporation rate so you know how long to add."
+  ],
+  [
+   "Is it a problem if my original gravity is low?",
+   "Not necessarily. The beer will be lighter in alcohol and body. Check that bitterness still balances the lower gravity."
+  ]
+ ],
+ "cta": {
+  "title": "Hit your target gravity every time",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It covers extract, efficiency and brew day corrections so a missed number becomes a quick fix, not a lost batch.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "original-gravity-final-gravity-explained",
+  "how-to-calculate-abv",
+  "reading-a-beer-recipe"
+ ]
+}

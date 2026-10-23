@@ -1,0 +1,67 @@
+{
+ "slug": "oxidation-in-dry-hopped-beer-after-packaging",
+ "cat": "Brewing science",
+ "h1": "Oxidation in dry-hopped beer after packaging",
+ "title": "Oxidation in Dry-Hopped Beer | Craft Beer School",
+ "desc": "Why dry-hopped beers oxidise so fast after packaging, the signs to look for and the oxygen targets that protect hop flavour.",
+ "teaser": "Hazy IPAs lose their fruit and turn brown faster than almost any other beer. Oxygen is why.",
+ "standfirst": "Dry-hopped beers carry a large load of aroma compounds and polyphenols that react quickly with oxygen. A trace of oxygen in the can turns bright fruit into dull, sweet staleness within weeks. Most of the damage is decided on packaging day.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why dry-hopped beer is especially vulnerable",
+   "<p>Heavy dry hopping brings a lot of material into the beer: hop oils, polyphenols and other compounds from the hop cone. Many of these react readily with oxygen. The fruity, citrus and tropical aromas that define a modern IPA are among the first casualties. At the same time, oxidised polyphenols darken the beer and add harsh, astringent notes.</p><p>Dry hopping can also bring oxygen in. Hop pellets carry air in and around them. Opening a tank to add hops lets more in. Our guide to <a href=\"dry-hop-contact-time-and-temperature-for-the-best-extraction.html\">dry hop contact time and temperature</a> covers the timing side.</p>"
+  ],
+  [
+   "What oxidation looks and tastes like",
+   "<ul><li><strong>Aroma loss.</strong> Fresh citrus and tropical notes fade first.</li><li><strong>New flavours.</strong> Sweet honey, toffee, dried fruit, wet cardboard and sometimes an onion or garlic note.</li><li><strong>Colour change.</strong> Bright yellow or orange turns dull brown, sometimes with a grey or purple tint in very hazy beers.</li><li><strong>Harsher bitterness.</strong> Oxidised hop compounds give a rough, lingering finish.</li></ul><p>Brewers often notice the colour before the flavour, which makes colour checks on retained cans useful. Our guide to <a href=\"how-beer-colour-shifts-as-it-ages.html\">how beer colour shifts as it ages</a> explains how to measure it.</p>"
+  ],
+  [
+   "Packaging targets that protect the beer",
+   "<p>Oxygen is measured in two ways. Dissolved oxygen is what is already in the beer. Total package oxygen adds the oxygen trapped in the headspace, which slowly dissolves after seaming. Many quality focused breweries aim for dissolved oxygen below about 50 parts per billion in the bright tank and total package oxygen under roughly 100 to 150 parts per billion in the can. Lower is better for hop-forward beers.</p><p>Our guides to <a href=\"measuring-dissolved-oxygen.html\">measuring dissolved oxygen</a> and <a href=\"oxygen-pickup-in-packaging.html\">oxygen pickup in packaging</a> cover where the numbers come from and where oxygen gets in.</p>"
+  ],
+  [
+   "Where oxygen gets in",
+   "<ul><li><strong>Dry hop additions</strong> through an open manway, or hops dropped from a hopper that was never purged.</li><li><strong>Transfers</strong> into tanks that were not fully purged with carbon dioxide, or through hoses that were not purged before connecting.</li><li><strong>Leaky pump seals and fittings</strong> that suck air in on the suction side.</li><li><strong>Fillers and seamers</strong> with poor under-lid gassing or inconsistent fill heights.</li><li><strong>Bottles</strong> with crown liners that let oxygen in over time. Cans seal better.</li></ul><p>The floor detail: purge the dry hop vessel or hop doser with carbon dioxide before adding pellets, then purge again after closing. A cylinder of pellets carries more air than most brewers expect.</p>"
+  ],
+  [
+   "Process choices that reduce the damage",
+   "<ul><li><strong>Dry hop during active fermentation.</strong> Yeast still working will scavenge some of the oxygen introduced with the hops. Many brewers add at least part of the dry hop towards the end of primary fermentation for this reason.</li><li><strong>Keep transfers closed and purged.</strong> Push beer with carbon dioxide into tanks filled with carbon dioxide.</li><li><strong>Monitor hop creep.</strong> Enzymes from hops can restart fermentation and raise diacetyl. Our guide to <a href=\"hop-creep.html\">hop creep</a> covers it. A restart inside a sealed tank also scavenges a little oxygen, but one inside a can raises pressure.</li><li><strong>Package in cans.</strong> No light, better seal, lower oxygen ingress over time than most bottles.</li></ul>"
+  ],
+  [
+   "Cold chain and time finish the job",
+   "<p>Even a well packaged IPA keeps changing in the can. Chemistry speeds up with heat: a rough rule is that reaction rates double for every 10 °C rise. A hazy IPA kept at 4 °C stays fresh for weeks longer than one sitting at 30 °C in a shop. In India, where cold storage between brewery and customer is patchy, that gap is often where most of the freshness is lost.</p><p>Shorter supply chains help as much as better packaging. Brew smaller batches more often, keep stock cold, date the cans clearly and ask retailers to rotate stock. These are not technical fixes, but they matter more than another few parts per billion of oxygen.</p><p>Draught has its own trap. A keg of IPA opened in a bar and poured slowly over two weeks takes in no air if the coupler and gas line are sound. A leaky coupler or a gas supply contaminated with air will age it as fast as a badly seamed can. Check the gas quality at your own taproom before blaming the brewhouse.</p><p>Your first step: next time you package a dry-hopped beer, measure total package oxygen on five cans across the run. Keep two cans cold and two at room temperature and taste them side by side after three weeks. That single test shows your team the cost of oxygen and heat better than any chart.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do hazy IPAs go brown?",
+   "Hop polyphenols oxidise when oxygen is present, darkening the beer to a dull brown. The same oxidation strips fruity hop aroma."
+  ],
+  [
+   "What is a good total package oxygen target for IPA?",
+   "Many quality focused breweries aim for under roughly 100 to 150 parts per billion in the can, with dissolved oxygen below about 50 parts per billion in the bright tank."
+  ],
+  [
+   "Does dry hopping add oxygen?",
+   "Yes. Pellets carry air and opening a tank lets more in. Purging hops and adding them during active fermentation reduces the impact."
+  ],
+  [
+   "How long does a dry-hopped beer stay fresh?",
+   "It depends on oxygen and temperature. Cold, low oxygen cans hold aroma for weeks longer than warm ones with higher package oxygen."
+  ]
+ ],
+ "cta": {
+  "title": "Keep hop aroma in the can",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers oxygen control, hop chemistry, packaging quality and shelf life testing for hop-forward beers.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "oxygen-pickup-in-packaging",
+  "brewing-a-bone-dry-brut-ipa-with-amyloglucosidase",
+  "dry-hop-contact-time-and-temperature-for-the-best-extraction"
+ ]
+}

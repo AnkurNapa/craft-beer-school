@@ -1,0 +1,63 @@
+{
+ "slug": "commissioning-a-new-distillery",
+ "cat": "Whisky",
+ "h1": "Commissioning a new distillery",
+ "title": "Commissioning a New Distillery | Craft Beer School",
+ "desc": "The stages of commissioning a new whisky distillery, from water runs and pressure tests to first spirit off new copper stills.",
+ "teaser": "The stills are in. The first good spirit is still weeks away. Here is the order that gets you there safely.",
+ "standfirst": "Commissioning turns a building full of new equipment into a working distillery. Done in the right order it finds the leaks, calibration errors and safety gaps on water, before there is ethanol in the pipes.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Mechanical completion is not the finish line",
+   "<p>When the fabricator hands over, you have equipment that is installed. You do not yet have a process that works. Commissioning is the stage between the two. On a small malt distillery it usually takes several weeks.</p><p>Start with a walk-down of every line against the drawings. Check that valves are where the drawings say, that every pipe slopes the way it should drain and that relief valves, vacuum breakers and bursting discs are fitted and rated. A missing vacuum relief on a still is serious: a still cooling with closed valves can pull a vacuum strong enough to collapse the copper. Our guide to <a href=\"what-a-new-distillery-sells-while-whisky-ages.html\">what a new distillery sells while whisky ages</a> covers why the timing of this stage matters to cash flow.</p><p>Hold a punch list from day one. Every fault found goes on it with an owner and a date. Do not start the next stage while safety items are still open, however much pressure there is to fill the first cask. Hazardous area zoning, earthing of spirit lines and fire detection in the still house belong on that list before any ethanol does.</p>"
+  ],
+  [
+   "Water runs find the leaks",
+   "<p>The first live tests use water only. Fill and empty every vessel. Run every pump. Heat the stills with water or steam and watch the gaskets, sight glasses and flanges as they reach temperature. Pressure test steam and cooling circuits to the levels in the design documents.</p><p>Water runs also check the utilities. Can the boiler hold pressure with both stills on? Does cooling water return to the tower or tank cool enough on a 38 °C afternoon? Many Indian sites learn on their first May that the cooling design assumed a cooler day. Better to learn it on water than on a spirit run with vapour escaping a hot condenser.</p>"
+  ],
+  [
+   "Calibrate before you measure anything",
+   "<p>Every number in your records depends on instruments. Before the first mash, check:</p><ul><li>Flow meters and level gauges against a known volume.</li><li>Temperature probes against a reference thermometer.</li><li>Hydrometers or density meters in the spirit safe against certified standards.</li><li>The temperature correction method your excise records require.</li><li>Weighing for grain intake.</li></ul><p>Agree these checks with the excise officer where the state requires it. Spirit receivers and measuring vessels are often sealed or verified by the authorities. The process varies by state.</p>"
+  ],
+  [
+   "First mashes and fermentations",
+   "<p>Run the first mash at reduced batch size if the design allows. Watch strike temperature, run-off clarity and the wort gravity you actually achieve against the design figure. A malt whisky wort usually sits around 1.050 to 1.060. Fill the washbacks, pitch and log temperature and gravity every few hours.</p><p>The first few fermentations show how the washbacks hold temperature in your climate and how much foam you get. Note both. If a washback foams over in the first week, measure how much headspace you have and how fast the foam rises before you reach for antifoam. Record final gravity and wash strength too: a malt wash typically finishes around 8% ABV. A figure well below that points at mashing or yeast before it points at the still. Our guide to <a href=\"wooden-versus-stainless-steel-washbacks.html\">wooden versus stainless washbacks</a> explains why the two behave differently here.</p>"
+  ],
+  [
+   "New copper needs breaking in",
+   "<p>Brand new copper has a bright, reactive surface. Distillers commonly run water, then weak wash or a cleaning cycle, before the first real distillations. They expect the first spirit off a new still to be harsh or out of balance until the copper settles into its working state. Many distilleries treat the first runs as sacrificial or keep that spirit apart for assessment before it goes near a cask.</p><p>Use these runs to set cut points. Note the strength and time of each cut, taste the spirit at every stage and compare runs. The cut table you write now becomes the first draft of your standard operating procedure. Keep samples of every early run in labelled bottles. Tasting week one against week four tells you more about how the copper is settling than any single run can.</p>"
+  ],
+  [
+   "Sign off the plant, then the people",
+   "<p>Commissioning ends when the process repeats. Three or four consecutive runs with similar yield, similar cut strengths and new make that tastes the same is a reasonable test. At that point train every operator on the procedure you have just proven and make them run it while you watch.</p><p>Your first step: write a commissioning checklist now, one line per system (grain, mash, ferment, distil, receive, fill, utilities, safety), each with a test, an acceptance figure and a name. If a system has no acceptance figure, you do not yet know what working looks like.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does commissioning a small distillery take?",
+   "Usually several weeks from mechanical completion to repeatable spirit runs, longer if utilities or calibration problems turn up."
+  ],
+  [
+   "Why is the first spirit from new copper stills often poor?",
+   "New copper is very reactive and not yet in its working state. Many distillers keep the first runs apart and assess them before filling any cask."
+  ],
+  [
+   "What should be tested before the first mash?",
+   "Leaks, pressure ratings, relief and vacuum valves, utilities under full load and calibration of every meter used for excise and process records."
+  ]
+ ],
+ "cta": {
+  "title": "Start up a distillery without expensive surprises",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers each production stage from mash to cask, how to set and record cut points and the measurements that prove a new plant is working.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-a-new-distillery-sells-while-whisky-ages",
+  "sourcing-new-make-from-another-distillery",
+  "indian-whisky-market-for-new-joiners"
+ ]
+}

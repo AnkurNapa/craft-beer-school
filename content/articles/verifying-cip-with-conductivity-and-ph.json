@@ -1,0 +1,71 @@
+{
+ "slug": "verifying-cip-with-conductivity-and-ph",
+ "cat": "Brewing science",
+ "h1": "Verifying CIP with conductivity and pH",
+ "title": "Verifying CIP with Conductivity and pH | Craft Beer School",
+ "desc": "How to use conductivity and pH to check caustic strength, catch carbonate build-up and prove the final rinse left no chemical behind.",
+ "teaser": "A CIP that ran is not a CIP that worked. Two cheap measurements tell you whether the chemical was right and whether it all came out.",
+ "standfirst": "Conductivity and pH are the simplest ways to check a cleaning cycle. Used well they confirm chemical strength during cleaning and a clean rinse at the end. Used carelessly they give false comfort.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a cleaning cycle needs checking",
+   "<p>A CIP procedure on paper says 2% caustic at 75 °C for 20 minutes. What actually reaches the tank depends on make up accuracy, reuse, dilution by rinse water and absorbed CO2. Without a measurement you are trusting that nothing drifted.</p><p>Two measurements cover most of what a small brewery needs. Conductivity tracks how much chemical is in solution while cleaning runs. pH confirms the final rinse has carried the chemical away. Neither proves a surface is microbiologically clean, but both catch the most common failures before beer meets the vessel.</p>"
+  ],
+  [
+   "How conductivity tracks caustic strength",
+   "<p>Sodium hydroxide dissociates into ions that carry current, so conductivity rises with concentration. A 1 to 3% caustic solution reads in the tens to low hundreds of millisiemens per centimetre, far above rinse water, which reads in microsiemens.</p><p>Two cautions apply. Conductivity rises with temperature, roughly 2% per degree for many solutions, so use a meter with temperature compensation or read every sample at the same temperature. The relationship also differs between products, because commercial caustics contain additives. Build your own curve: make up your chemical at 1, 2 and 3% in your own water, read each one and keep the chart by the CIP set.</p>"
+  ],
+  [
+   "The carbonate trap",
+   "<p>Caustic reused over many cycles absorbs carbon dioxide and slowly turns into sodium carbonate. Sodium carbonate also conducts electricity. So a conductivity reading can look fine while the active caustic has fallen well below target.</p><p>The answer is a simple titration once a week or whenever the tank has been in heavy use. Titrate a sample with standard acid to the phenolphthalein end point, then continue to the methyl orange end point. The two results let you split free hydroxide from carbonate. When carbonate makes up a large share, dump and make fresh. It is cheaper than cleaning with half strength chemical for a month.</p>"
+  ],
+  [
+   "pH on the final rinse",
+   "<p>The most important check is the last one: did all the chemical come out? Take a sample from the drain at the end of the final rinse and compare its pH with the incoming water. They should match closely. A rinse from a caustic step reading well above the supply water means caustic is still in the vessel or the lines.</p><p>A calibrated pH meter is best. Indicator strips are acceptable for a quick yes or no check if they cover the range. Our guide to <a href=\"calibrating-and-caring-for-a-ph-meter-in-a-brewery-lab.html\">calibrating a pH meter</a> covers keeping readings honest.</p>"
+  ],
+  [
+   "Conductivity on the final rinse too",
+   "<p>Conductivity is often more sensitive than pH for rinse checks, especially after acid steps or when chemical traces are small. Measure the incoming water and set the rinse end point as a small margin above it. For example, if your supply water reads 400 µS/cm, a rinse still reading 1,500 µS/cm has not finished.</p><p>Many automated CIP sets use an inline conductivity probe for exactly this. They switch from chemical recovery to drain, or from rinse to the next step, at set conductivity values. If you run a manual system, a handheld meter and a written end point do the same job.</p>"
+  ],
+  [
+   "What these checks cannot tell you",
+   "<p>Conductivity and pH confirm chemistry. They say nothing about biofilm in a dead leg or yeast under a gasket. For that you need surface checks: visual inspection, ATP swabs and periodic microbiology plating. Our guide to <a href=\"atp-swabs-for-quick-hygiene-checks-in-a-small-brewery.html\">ATP swabs</a> explains the quick surface test.</p><p>Think of it as layers. Chemistry checks prove the cycle ran as designed. Surface checks prove the design works. Plating proves no spoilers survived.</p>"
+  ],
+  [
+   "Inline probes and handheld meters",
+   "<p>Automated CIP sets usually carry an inline conductivity probe on the return line. It switches caustic back to its recovery tank while strength is high, then sends weak rinse to drain. That saves chemical but only if the probe is clean and calibrated. A probe coated in scale or protein reads low, so the set dumps good caustic or recovers watery rinse.</p><p>Check inline probes against a handheld meter every month. Take a sample from a valve next to the probe and compare the two readings at the same temperature. If they differ by more than a few percent, clean the probe and check its calibration with a standard solution.</p><p>Small breweries on manual systems need only a handheld conductivity meter with temperature compensation and a pH meter. Both are modest purchases compared with a single dumped batch. Keep the meters in the lab, not on the wet brewhouse floor. Calibrate them on a fixed day each week.</p>"
+  ],
+  [
+   "Making it routine",
+   "<p>A verification only helps if someone does it every time and writes it down. Build a short CIP log for each vessel: date, step, chemical strength by conductivity, return temperature, final rinse pH and conductivity, initials. Review it weekly. Patterns show up quickly, such as one fermenter that always needs a longer rinse or a caustic tank that loses strength faster than the others.</p><p>Designing a verification plan that actually catches failures is part of building a real quality system, which is where we take this on the advanced course.</p><p>Your first step: measure your supply water conductivity and pH today, then write those numbers on the CIP log as the rinse targets.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can conductivity measure caustic strength?",
+   "Yes, once you have a calibration curve for your chemical in your water at a known temperature. Check it against titration because carbonate also conducts."
+  ],
+  [
+   "How do I know the final rinse is complete?",
+   "When the rinse water's pH and conductivity are close to those of the incoming supply water."
+  ],
+  [
+   "Why does reused caustic lose strength?",
+   "It absorbs CO2 and turns into sodium carbonate. It is also diluted by rinse water and soil. Titration shows how much active hydroxide remains."
+  ]
+ ],
+ "cta": {
+  "title": "Prove your cleaning works, every cycle",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers cleaning chemistry, verification methods and brewery microbiology so you can build a hygiene system that stands up to an audit.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-ph-explained",
+  "cip-water-and-chemical-savings",
+  "calibrating-and-caring-for-a-ph-meter-in-a-brewery-lab"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "measuring-brewhouse-yield-on-a-10-hl-brewpub-system",
+ "cat": "Brewing science",
+ "h1": "Measuring brewhouse yield on a 10 hl brewpub system",
+ "title": "Brewhouse Yield on a 10 hl Brewpub | Craft Beer School",
+ "desc": "How to measure brewhouse yield on a 10 hl brewpub: the extract formula, the temperature correction and a worked example with real numbers.",
+ "teaser": "Brewhouse yield is one sum and three honest measurements. Most brewpubs get one of the three wrong.",
+ "standfirst": "Brewhouse yield tells you how much of the extract you paid for actually reached the kettle. On a 10 hl brewpub it is the number that links malt cost to every batch. Here is how to measure it properly.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two definitions you should not mix up",
+   "<p>Brewers use two related numbers. <strong>Yield on grist</strong> is kilos of extract in the wort divided by kilos of malt, as a percentage. <strong>Brewhouse efficiency</strong> is the same extract divided by the extract the malt could give in the maltster's laboratory test. Both are useful. They just answer different questions. A figure without its definition is useless.</p><p>Yield on grist tells you cost per kilo of extract. Efficiency against lab extract tells you how well your brewhouse works, because it removes the effect of the malt itself. Our guide to <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> covers the idea in general. This one is about measuring it on a real 10 hl system.</p>"
+  ],
+  [
+   "The extract formula",
+   "<p>Extract in the wort, in kilos, is:</p><p><strong>kg extract = litres at 20 °C x specific gravity x °Plato / 100</strong></p><p>The specific gravity term matters because °Plato is a percentage by weight, while your volume is in litres. At 12 °P, specific gravity is about 1.048, so leaving it out understates extract by nearly 5%.</p><p>The lab extract comes from the malt certificate. Use the as-is figure, which accounts for moisture, rather than the dry basis figure. Pale malt usually certifies somewhere around 78 to 81% as-is on a fine grind.</p>"
+  ],
+  [
+   "A worked example with real numbers",
+   "<p>You mash 200 kg of pale malt with a certified as-is lab extract of 78%. The potential is 200 x 0.78 = 156 kg of extract.</p><p>At the end of the boil you have 1,040 litres in the kettle at about 98 °C. Corrected to 20 °C that is roughly 1,000 litres. The cooled sample reads 12.0 °P, which is 1.0484 specific gravity.</p><p>Extract = 1,000 x 1.0484 x 0.12 = 125.8 kg.</p><ul><li>Yield on grist: 125.8 / 200 = 62.9%</li><li>Brewhouse efficiency: 125.8 / 156 = 80.6%</li></ul><p>Many small combined mash and lauter brewpub systems land in the 75 to 90% range on efficiency. Large lauter tuns and mash filters run higher. The useful question is not how you compare with a big brewery. It is whether your own number is stable from brew to brew.</p><p>Run the money too. On this grist a five point fall in efficiency means roughly 8 kg of extract missing, about 10 kg of malt. You either make that up with more malt or sell weaker beer. Multiply 10 kg by your own landed malt price and by brews per month. The case for measuring properly writes itself.</p>"
+  ],
+  [
+   "Where the measurement goes wrong",
+   "<p>Three errors account for most odd yield figures we see.</p><ol><li><strong>Hot volume read as cold.</strong> Wort near boiling is about 4% larger than at 20 °C. Skip the correction and your yield reads 4% high.</li><li><strong>Uncalibrated sight glasses.</strong> Kettle markings on many imported brewpub systems are approximate. Calibrate them once with a water meter, at 100 litre steps.</li><li><strong>Gravity read warm.</strong> A hydrometer reading taken on warm wort without correction can be well off. Cool the sample to 20 °C, or use our guide to <a href=\"correcting-wort-gravity-readings-for-temperature.html\">correcting gravity readings for temperature</a>.</li></ol>"
+  ],
+  [
+   "Kettle, knockout or fermenter",
+   "<p>Decide where you measure and stick to it. Kettle full at the end of the boil gives you the brewhouse yield proper. Knockout volume in the fermenter includes whirlpool and heat exchanger losses, so it is lower. Both are valid. Mixing them across brews makes the trend meaningless.</p><p>We suggest recording both. The gap between them is your trub and transfer loss in kilos, which is often the cheapest place to win extract back.</p>"
+  ],
+  [
+   "Track it as a trend, not a score",
+   "<p>A single yield figure says little. Twenty of them on a chart say a lot. Plot efficiency for every brew, with recipe and mill gap noted. A sudden drop of three or four points usually points to the mill, a mash pH problem or a rushed lauter. A slow drift down over months often points to worn mill rolls or a change of malt supplier.</p><p>This is where a <a href=\"control-charts-for-brewers.html\">control chart</a> earns its keep. It tells you which brews were ordinary variation and which ones need a question asked.</p><p>Measured oxygen and carbonation belong further down the process, but the habit is the same: one number, measured the same way, every time.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Pull your last malt certificate and find the as-is lab extract. On your next brew, record kettle volume and temperature at the end of the boil and a cooled gravity reading. Run the formula above. Then do it for the next nine brews before you change anything.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good brewhouse efficiency for a brewpub?",
+   "Many small combined mash and lauter systems sit between about 75 and 90% of lab extract. Stability from brew to brew matters more than the headline figure."
+  ],
+  [
+   "Should I use dry basis or as-is lab extract?",
+   "Use as-is when you weigh malt as delivered, because it allows for the moisture in the malt."
+  ],
+  [
+   "Why include specific gravity in the extract formula?",
+   "Plato is a percentage by weight and your volume is in litres. Multiplying by specific gravity converts litres to kilos of wort."
+  ]
+ ],
+ "cta": {
+  "title": "Turn brew sheet numbers into yield you can act on",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers mashing, lautering and the brewhouse mass balance, so a falling yield becomes a problem you can locate rather than a mystery.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewhouse-efficiency",
+  "measuring-dissolved-oxygen",
+  "measuring-carbonation"
+ ]
+}

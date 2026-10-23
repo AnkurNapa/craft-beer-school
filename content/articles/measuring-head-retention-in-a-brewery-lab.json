@@ -1,0 +1,67 @@
+{
+ "slug": "measuring-head-retention-in-a-brewery-lab",
+ "cat": "Brewing science",
+ "h1": "Measuring head retention in a brewery lab",
+ "title": "Measuring Head Retention in the Lab | Craft Beer School",
+ "desc": "How to measure beer foam stability in a small brewery lab, from NIBEM and Rudin methods to a repeatable pour test you can run today.",
+ "teaser": "Saying the head looks fine is not a measurement. Here is how to put a number on foam and track it batch to batch.",
+ "standfirst": "Head retention is one of the first things a drinker sees and one of the last things most small breweries measure. You do not need a costly instrument to start. You need a method you repeat the same way every time.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Foam needs a number like any other spec",
+   "<p>Most small breweries judge foam by eye at the bar. That catches disasters but misses drift. A beer whose head collapses 30% faster than it did six months ago will still look acceptable on the day. You only see the trend if you record a figure for every batch.</p><p>Foam stability depends on foam positive proteins from malt, iso-alpha acids, carbonation level and the absence of fats and detergents. Any change in malt lot, adjunct ratio, yeast health or dry hop rate can move it. Measuring is how you find out which change mattered.</p>"
+  ],
+  [
+   "The reference methods",
+   "<p>Larger labs use dedicated instruments. The two you will see in method books:</p><ul><li><strong>NIBEM.</strong> Beer is foamed into a standard glass and electrodes track the foam surface as it falls. The result is the time in seconds for the foam to collapse by 10, 20 and 30 mm. Values for well made lagers often sit between roughly 200 and 300 seconds on the 30 mm reading.</li><li><strong>Rudin.</strong> Carbon dioxide is bubbled through degassed beer in a graduated tube until the foam reaches a set height. The analyst then times how long the liquid takes to drain back between two marks, giving a foam half life.</li></ul><p>Both are listed in EBC and ASBC methods. Both control the variables a bar pour does not: glass, temperature, gas and foam volume.</p>"
+  ],
+  [
+   "A repeatable pour test for a small lab",
+   "<p>If you have no foam instrument, you can still get useful data. The trick is to fix everything:</p><ul><li>One glass type, cleaned the same way, rinsed in clean water and drained. No detergent residue.</li><li>Beer at a fixed temperature, for example 6 °C, taken straight from cold storage.</li><li>A fixed pour from a fixed height. A simple clamp or stand holding the bottle or tap nozzle a set distance above the glass helps a great deal.</li><li>Start a timer when the pour stops. Record the initial foam height in mm and the time for the foam to collapse until liquid shows through at the centre.</li></ul><p>Run it in triplicate. Report the average and the spread. A single pour is anecdote. Three pours with a 10% spread is a result.</p>"
+  ],
+  [
+   "Carbonation changes everything",
+   "<p>Foam needs gas. A beer at 2.2 volumes of CO2 will not foam like the same beer at 2.7 volumes. So measure carbonation on the same sample before you compare foam between batches. If carbonation moved, that alone can explain the result.</p><p>Temperature matters for the same reason. Warm beer releases CO2 faster, which builds foam quickly and loses it quickly. Our guide to <a href=\"measuring-carbonation.html\">measuring carbonation</a> covers the gas side.</p>"
+  ],
+  [
+   "Lacing and what the eye adds",
+   "<p>Numbers do not capture everything a drinker sees. Lacing, the rings foam leaves on the glass as the beer is drunk, depends on the same proteins and bitter acids as head stability but also on the glass surface. Note it alongside your timing data using a simple scale, such as none, patchy or full rings.</p><p>Bubble size matters too. Fine, creamy foam usually lasts longer than large, open bubbles. Record it in a word or two. Over a few months these notes help you link a malt change or a new adjunct to a visible difference at the bar.</p>"
+  ],
+  [
+   "Setting a foam spec you can defend",
+   "<p>A spec is only useful if it reflects what your beers can actually do. Collect results on at least ten batches of each core beer before you fix a target. Then set an action limit below the normal range, not at its average. If your lager usually holds a collapse time of 180 to 220 seconds in your pour test, a result under 160 seconds is worth investigating.</p><p>Keep specs separate for each beer. A wheat beer rich in protein will hold foam differently from a rice lager made with 30% adjunct. Comparing them against one target makes the data meaningless.</p><p>Record the conditions every time: glass, beer temperature, pour height, carbonation and the person who ran the test. When a result looks odd, those notes are what let you tell a real foam problem from a change in method.</p>"
+  ],
+  [
+   "Turning foam data into decisions",
+   "<p>Plot foam time for each batch against the things you already track: malt lot, adjunct percentage, dry hop rate, yeast generation and days in storage. Patterns usually appear quickly. A sharp drop after a yeast generation limit was stretched points to proteinase release from stressed yeast. A drop that follows a new rice or maize supplier points to diluted foam protein.</p><p>Finding these links and testing them properly is the kind of lab thinking we teach in depth. A guide can show you the method. Building a quality system around it takes practice.</p><p>Your first step: pick one glass and one pour height today, then measure foam time in triplicate on your current batch. That becomes your baseline.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good NIBEM value for beer?",
+   "Many well made lagers fall roughly between 200 and 300 seconds on the 30 mm reading, but you should set your own target from your own beers."
+  ],
+  [
+   "Can I measure head retention without a foam instrument?",
+   "Yes. A fixed glass, temperature and pour height with a timer gives repeatable figures if you run every test in triplicate."
+  ],
+  [
+   "Why does carbonation affect foam measurements?",
+   "Foam is made of gas. A more highly carbonated beer forms more foam, so compare foam only between samples with similar CO2 levels."
+  ]
+ ],
+ "cta": {
+  "title": "Build a lab that catches drift before drinkers do",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers foam chemistry, carbonation and practical lab methods so you can set specs and act on what the numbers show.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "measuring-ibu-in-a-small-brewery-lab",
+  "brewery-qc-lab-on-a-budget",
+  "microbiology-plating-small-brewery"
+ ]
+}

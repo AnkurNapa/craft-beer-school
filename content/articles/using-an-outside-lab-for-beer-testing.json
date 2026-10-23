@@ -1,0 +1,66 @@
+{
+ "slug": "using-an-outside-lab-for-beer-testing",
+ "cat": "Business",
+ "h1": "Using an outside lab for beer testing",
+ "title": "Using an Outside Lab for Beer Testing | Craft Beer School",
+ "desc": "Which beer tests a small brewery should send to an outside lab, how to choose one in India, how to sample properly and how to read the report.",
+ "teaser": "Some beer tests belong in your own lab. Others are cheaper, safer and more credible done by someone else.",
+ "standfirst": "A small brewery cannot own every instrument it would like. An outside lab fills the gaps, from verifying ABV for a label to checking water and screening for contaminants. Used well, it also checks your own lab is telling the truth.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Split the work between your lab and theirs",
+   "<p>Daily process checks belong in-house. Gravity, pH, temperature, a forced diacetyl test and a quick microscope look at yeast are cheap and needed every day, so outsourcing them makes no sense. Our guide to <a href=\"brewery-qc-lab-on-a-budget.html\">a brewery QC lab on a budget</a> covers that kit.</p><p>Send out the tests that need expensive instruments, accreditation or skills you do not have:</p><ul><li>Alcohol by volume measured precisely, by distillation or a calibrated density meter, for labels and excise.</li><li>Bitterness units, colour and real extract, to check recipes are on target.</li><li>Microbiology beyond simple plating, such as identifying a spoilage organism.</li><li>Full water analysis: calcium, magnesium, sodium, chloride, sulphate, bicarbonate and microbial quality.</li><li>Contaminant screening, such as heavy metals or pesticide residues, where regulations or a buyer ask for it.</li></ul>"
+  ],
+  [
+   "Why an independent result matters",
+   "<p>Your own hydrometer reading is fine for brewing decisions. It is weaker evidence when a regulator, a retail buyer or an export customer asks how you know the beer is 5.0% ABV. A report from an accredited lab carries more weight, because the lab's methods and calibration have been audited by someone else.</p><p>In India, look for a lab accredited by NABL, the national accreditation body for testing labs. Check that the accreditation covers the specific test you need. A lab can be accredited for water testing and not for alcohol in beer. Food safety and excise requirements for testing vary by product, licence and state, so confirm with your licensing consultant which tests and which labs your authorities accept.</p>"
+  ],
+  [
+   "Sampling decides whether the result means anything",
+   "<p>A lab can only test what you send. Most bad results that brewers argue with trace back to the sample, not the lab.</p><ul><li>Take samples from finished, packaged beer when you want to know what the customer drinks, not from the fermenter.</li><li>Send sealed, unopened cans or bottles where possible. An open sample loses CO2 and picks up oxygen.</li><li>Keep samples cold and get them to the lab quickly, especially for microbiology.</li><li>Label each one with the batch code, packaging date and the test requested.</li><li>Keep identical retained samples back at the brewery, cold, in case you need to retest.</li></ul><p>Ask the lab how many units they need and how they want them packed before you send anything. Couriering warm beer across a city in May can spoil a micro test before it starts.</p>"
+  ],
+  [
+   "Use the lab to check your own instruments",
+   "<p>The quiet value of an outside lab is calibration. Send the same batch for ABV that you measured yourself and compare the two. If your reading is consistently 0.2% higher than the lab's, you know your instrument or method has drifted.</p><p>Do this every few months with a beer you brew often. Plot your number against the lab's on a simple chart. A steady gap points to calibration. A gap that jumps around points to sampling or technique. Either way, you find out before an excise inspection or a label claim does.</p>"
+  ],
+  [
+   "Reading the report",
+   "<p>Lab reports list the method, the result and often an uncertainty. A result of 5.1% ABV with an uncertainty of plus or minus 0.1% means the true value probably sits between 5.0 and 5.2%. Compare that with your label claim and whatever tolerance applies in your state.</p><p>For water, compare the ions against your brewing targets. A sulphate to chloride ratio tells you whether your water leans towards a crisp, hoppy finish or a softer, rounder one. For microbiology, a positive result names an organism. Look it up before you panic: some are harmless, others mean a dumped batch and a deep clean.</p><p>Keep every report in one folder, by batch. Over a year they become a quality record that buyers and investors respect.</p>"
+  ],
+  [
+   "Choosing and working with a lab",
+   "<p>Ask two or three labs for their test menu, turnaround time and sample requirements. Price matters, but turnaround matters more for microbiology, where a result that arrives after the beer has shipped is only history.</p><p>Build a relationship with one lab. Tell them what beer is and what you are worried about. Analysts who understand that a lager and a sour should give very different micro results will flag the odd one for you.</p><p>Deciding which tests to buy, how often and what they are worth to the business is a quality and cost question. That balance between testing spend and the risk it removes is where many small breweries either overspend or skip testing altogether.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Pick your best selling beer and send one sealed can to an accredited lab for ABV, with your own reading noted on the form. When the result comes back, you will know how far to trust your own instrument, which is worth knowing before anything else.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which beer tests should a small brewery outsource?",
+   "Precise ABV, bitterness and colour, full water analysis, detailed microbiology and contaminant screening. Keep gravity, pH and daily checks in-house."
+  ],
+  [
+   "How do I choose a beer testing lab in India?",
+   "Look for NABL accreditation covering the specific test you need, then compare turnaround time, sample requirements and price."
+  ],
+  [
+   "How should I send beer samples to a lab?",
+   "Send sealed, unopened packages kept cold, labelled with batch code and packaging date. Keep identical retained samples at the brewery."
+  ]
+ ],
+ "cta": {
+  "title": "Spend on testing where it pays",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers quality costs, compliance, supplier choices and budgeting, so testing becomes a planned line in the business rather than a panic purchase.",
+  "label": "See the full syllabus",
+  "href": "brewery-business-management-course.html"
+ },
+ "related": [
+  "factory-acceptance-testing-before-your-brewhouse-ships",
+  "microbrewery-licence-india"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "spirit-receivers-and-measuring-strength",
+ "cat": "Whisky",
+ "h1": "Spirit receivers and measuring strength",
+ "title": "Spirit Receivers and Measuring Strength | Craft Beer School",
+ "desc": "What each receiver in a whisky distillery holds, how volume and strength are measured in them and why litres of pure alcohol is the number that counts.",
+ "teaser": "Every litre a distillery makes passes through a receiver and gets measured there. That measurement is your yield, your stock and your excise record.",
+ "standfirst": "Between the spirit safe and the cask, new make sits in receivers. They are where a distillery first counts what it has made. Here is what each receiver does and how to measure volume and strength in them so the numbers hold up.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Three receivers and what each one holds",
+   "<p>A typical malt distillery running double distillation has three main receivers after the stills:</p> <ul><li><strong>Low wines receiver.</strong> Collects the distillate from the wash still, usually somewhere around 20 to 25% ABV.</li> <li><strong>Feints receiver.</strong> Collects the foreshots and the feints (heads and tails) from the spirit still. Often low wines and feints share one vessel, which becomes the charge for the next spirit run.</li> <li><strong>Spirit receiver.</strong> Collects only the middle cut, the new make that goes to casks.</li></ul> <p>Larger sites add an intermediate spirit receiver and a spirit vat in the filling store. The principle stays the same. Each vessel holds one stream so it can be measured on its own. Our guide to <a href=\"heads-hearts-and-tails-in-making-the-cut.html\">heads, hearts and tails</a> explains how the streams are separated at the safe.</p>"
+  ],
+  [
+   "Volume: dipping a calibrated vessel",
+   "<p>The simplest way to measure volume is to dip the receiver. A calibrated dipstick or a sight glass reads a depth. A calibration chart for that exact vessel converts depth to litres. The chart has to be made for the installed vessel, usually by filling it with metered water in steps. A chart copied from the fabrication drawing will be wrong at the bottom curve and wherever the shell has bowed.</p> <p>Volume changes with temperature. Spirit expands as it warms, so a receiver dipped at 30 °C holds more litres than the same spirit would occupy at 20 °C. Record the temperature with every dip and correct the volume to the reference temperature your tables use. Some distilleries now use load cells to weigh the receiver instead, which avoids the dipstick but needs its own calibration and density conversion.</p>"
+  ],
+  [
+   "Strength: mix first, then sample",
+   "<p>Spirit does not arrive in the receiver at one strength. The start of the middle cut is stronger than the end, so the receiver stratifies. Before sampling, rouse (mix) the contents with the receiver's agitator or by recirculating it. A sample drawn from an unmixed receiver can be several percent off the true average.</p> <p>Measure strength with a glass hydrometer and thermometer, corrected using standard tables, or with a digital density meter that corrects automatically. Both work if they are calibrated. Our guide on <a href=\"measuring-alcohol-strength-with-temperature-correction.html\">measuring alcohol strength with temperature correction</a> covers the method and the common errors.</p>"
+  ],
+  [
+   "Litres of pure alcohol is the number that matters",
+   "<p>Volume and strength combine into litres of pure alcohol (LPA): bulk litres multiplied by ABV. A receiver holding 1,200 litres at 69% ABV contains 1,200 x 0.69, or 828 LPA. That figure feeds three things at once. It is your spirit yield (LPA per tonne of malt), it is your stock and it is the basis of your excise record.</p> <p>Because of this, an error in the receiver echoes through every report afterwards. A dipstick chart out by 2% overstates or understates every batch by 2%. A strength reading taken at the wrong temperature does the same. Distilleries that reconcile receiver LPA against what arrives in casks soon find out whether their measurements agree.</p>"
+  ],
+  [
+   "Locks, seals and the excise officer",
+   "<p>Spirit receivers sit inside the bonded area. Distilleries are commonly required to keep the spirit safe and receivers locked or sealed, with access controlled. In India the details depend on the state excise rules and the conditions of your licence. Some states station an officer on site, others rely on records and periodic checks. Ask your licensing adviser exactly which vessels must be sealed, who holds keys and how dips must be recorded before you finalise the layout.</p> <p>Whatever the state, the same discipline helps. Record every dip, temperature and strength with date, time and initials. Never adjust a figure afterwards without a written note. Your records are your defence when stock and paperwork disagree.</p>"
+  ],
+  [
+   "Small habits that keep receiver numbers honest",
+   "<p>A few habits catch most errors before they become losses:</p> <ul><li>Check hydrometers and thermometers against a reference set on a fixed schedule.</li> <li>Calibrate density meters with water and a check standard. Log the result.</li> <li>Re-dip after rousing. Foam and swirl give false readings.</li> <li>Reconcile low wines and feints in, against spirit and feints out, for every spirit run.</li> <li>Plot LPA per run on a simple chart. A sudden step is a measurement problem until proven otherwise.</li></ul> <p>Measuring well is not the glamorous side of distilling. It is the side that decides whether your yield figures, cost per litre and excise returns can be trusted.</p>"
+  ],
+  [
+   "Start here",
+   "<p>Find the calibration chart for your spirit receiver and check when and how it was made. If nobody knows, plan a water calibration with a metered flow before your next shutdown. Every LPA figure the distillery reports depends on that one chart.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between a low wines receiver and a spirit receiver?",
+   "The low wines receiver collects weak distillate from the wash still. The spirit receiver collects only the middle cut of the spirit still, the new make that goes to casks."
+  ],
+  [
+   "Why must a receiver be mixed before sampling?",
+   "Spirit strength falls through the run, so the receiver stratifies. A sample from an unmixed vessel will not represent the average strength."
+  ],
+  [
+   "How do you calculate litres of pure alcohol?",
+   "Multiply the bulk volume in litres by the ABV as a fraction. For example, 1,000 litres at 63.5% ABV is 635 LPA."
+  ]
+ ],
+ "cta": {
+  "title": "Get your yield and stock numbers right",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers distillation, cuts, receivers and the measurements behind spirit yield, stock and excise records.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "measuring-alcohol-strength-with-temperature-correction",
+  "whisky-label-terms-explained",
+  "molasses-vs-grain-spirit-india"
+ ]
+}

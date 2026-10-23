@@ -1,0 +1,67 @@
+{
+ "slug": "shelf-life-testing-protocols-for-craft-beer",
+ "cat": "Brewing science",
+ "h1": "Shelf life testing protocols for craft beer",
+ "title": "Shelf Life Testing for Craft Beer | Craft Beer School",
+ "desc": "How to build a shelf life testing protocol for craft beer: forced ageing, the measurements that matter and how to set a best before date.",
+ "teaser": "A best before date should come from your own beer and your own test results, not from what the brewery down the road prints.",
+ "standfirst": "Most craft breweries set a best before date by habit. A simple testing protocol tells you how long your beer actually holds up, in the conditions it will really face. Here is how to build one without a big lab.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What shelf life testing is for",
+   "<p>Shelf life is the time a beer stays close to how you meant it to taste and look. It ends for one of three reasons: flavour stales, the beer goes hazy or flat, or microbes spoil it. A test protocol checks all three over time and under realistic storage.</p><p>For Indian craft beer this matters more than for beer in cooler markets. Cans and bottles sit in warm warehouses, travel on hot trucks and wait in shops without cold storage. Our guide to <a href=\"beer-shelf-life.html\">beer shelf life</a> covers why heat speeds staling. Testing tells you how much your specific beer can take.</p>"
+  ],
+  [
+   "Set up reference and stress samples",
+   "<p>Take a set of packages from one production run. Split them into two groups:</p><ul><li><strong>Reference samples</strong> stored cold, around 2 to 4 °C, in the dark. These age as slowly as practical.</li><li><strong>Test samples</strong> stored warm, at a temperature that represents your real trade. Many brewers use 25 to 30 °C, which is close to Indian ambient. Some add a harder forced-ageing set at a higher temperature for faster results.</li></ul><p>Use the same package, closure and pack format the trade will see. A beer tested in bottles but sold in cans may not age the same way. Keep warm samples in a box, out of light, unless light exposure is part of what you want to test: clear and green glass let light through, which can produce a skunky note in hopped beer.</p><p>Label every package with the batch and pull date before it goes into storage. Plan enough packages for every pull point with a few spares.</p>"
+  ],
+  [
+   "Pull points and what to measure",
+   "<p>A common schedule pulls samples at 0, 2, 4, 8 and 12 weeks, then monthly for beers with a long target life. At each pull, compare a warm sample with a cold reference. Measure what you can:</p><ul><li><strong>Sensory:</strong> the most important test. Taste blind against the reference. A triangle test shows whether trained tasters can tell them apart.</li><li><strong>Haze:</strong> a turbidity meter in EBC units, or a consistent visual check against a light.</li><li><strong>Carbonation and fill:</strong> check carbon dioxide volumes and fill height.</li><li><strong>Dissolved oxygen:</strong> at packaging, total package oxygen sets the clock for staling.</li><li><strong>Microbiology:</strong> plate unpasteurised beer on selective media for beer spoilers.</li></ul>"
+  ],
+  [
+   "Oxygen at packaging decides most of it",
+   "<p>Most flavour staling starts with oxygen picked up in the brite tank, filler or seamer. Papery and cardboard notes (often linked to trans-2-nonenal) appear sooner when there is oxygen in the package. Hop aroma fades faster too. Many breweries aim for total package oxygen below about 100 parts per billion. Hop-forward beers deserve a lower target still.</p><p>If you can measure it, record total package oxygen for every test run. If two batches of the same beer age differently, oxygen is the first thing to compare. If you cannot measure it yet, a sensory panel will show the result, just later.</p>"
+  ],
+  [
+   "Unpasteurised beer needs a microbiology arm",
+   "<p>Most Indian craft beer is unpasteurised and often unfiltered. That means any spoilers in the package can grow at warm storage temperatures. Lactobacillus and Pediococcus can sour beer. Diastaticus yeast can over-carbonate packages until they gush or burst.</p><p>For these beers, plate samples at each pull on selective media and watch for gushing or rising carbonation in warm-stored packages. Our guide to <a href=\"microbial-stability-of-unpasteurised-craft-beer-in-india.html\">microbial stability of unpasteurised craft beer in India</a> covers the risk in more depth.</p>"
+  ],
+  [
+   "Setting the date from the results",
+   "<p>The best before date is the last pull point where the warm-stored beer still passed sensory against your standard, minus a safety margin. If a hazy IPA lost its hop aroma at eight weeks warm, a six month date is fiction. If a dark lager still tasted right at twelve weeks warm, you have evidence for a longer date.</p><p>Record every result in one place, against the batch number and the packaging data. After a few runs, you can see which factors move shelf life most in your brewery. That record is also what a distributor or retail buyer will ask for when they want to know how long your beer lasts.</p><p>Repeat the test when you change the recipe, the packaging line or the package type. A can and a bottle of the same beer can age differently. Designing a protocol that answers your own questions needs a feel for staling chemistry, microbiology and sensory statistics.</p><p>Your first step: set aside twelve packages from your next run, put six in a cold room and six at room temperature, then taste one of each side by side every two weeks.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should craft beer shelf life testing run?",
+   "Long enough to cover your planned best before period. Many breweries pull samples at 0, 2, 4, 8 and 12 weeks, then monthly."
+  ],
+  [
+   "What temperature should test samples be stored at?",
+   "Store reference samples cold, around 2 to 4 °C. Keep test samples at a temperature that represents your real trade, often 25 to 30 °C in India."
+  ],
+  [
+   "What causes beer to go stale?",
+   "Mostly oxygen picked up during packaging, made worse by heat. Hop aroma fades and papery or cardboard notes appear."
+  ],
+  [
+   "Do unpasteurised beers need microbiology testing?",
+   "Yes. Spoilage bacteria and diastaticus yeast can grow in warm storage, so plate samples at each pull point."
+  ]
+ ],
+ "cta": {
+  "title": "Put evidence behind your best before date",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers staling chemistry, packaging oxygen, microbiology and sensory testing so you can design a shelf life protocol that holds up.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-shelf-life",
+  "microbial-stability-of-unpasteurised-craft-beer-in-india",
+  "pcr-testing-for-beer-spoilers-in-a-small-brewery"
+ ]
+}

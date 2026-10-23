@@ -1,0 +1,67 @@
+{
+ "slug": "yeast-pitch-rate-in-million-cells-per-ml-per-degree-plato",
+ "cat": "Brewing science",
+ "h1": "Yeast pitch rate in million cells per ml per degree Plato",
+ "title": "Yeast Pitch Rate per ml per °Plato | Craft Beer School",
+ "desc": "How the million cells per ml per degree Plato rule works, standard rates for ales and lagers and a worked 10 hl example from count to litres.",
+ "teaser": "One million cells per millilitre per degree Plato. Here is how to turn that rule into litres of slurry.",
+ "standfirst": "Brewers express pitch rate as millions of cells per millilitre per degree Plato. It sounds abstract but it turns into a very practical number: how many litres of slurry to send to the tank. Here is the working.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The rule and why it scales with gravity",
+   "<p>Stronger wort needs more yeast. More sugar means more work, more stress from alcohol and a longer fermentation. So the pitch rate is quoted per degree Plato: a 16 °P wort gets a third more cells per millilitre than a 12 °P wort at the same rate.</p><p>The common reference points are:</p><ul><li><strong>Ales:</strong> about 0.75 to 1 million cells per ml per °P.</li><li><strong>Lagers:</strong> about 1.5 to 2 million cells per ml per °P.</li></ul><p>Lagers ferment colder, so yeast grow more slowly. A higher pitch makes up for that and keeps lag short.</p>"
+  ],
+  [
+   "A worked example for a 10 hl lager",
+   "<p>You have 1,000 litres of 12 °P lager wort and want to pitch at 1.5 million cells per ml per °P.</p><ol><li>Target cells per ml: 1.5 x 12 = 18 million cells per ml.</li><li>Total cells: 18 million x 1,000,000 ml, which is 1.8 x 10 to the 13 cells (18 million million).</li><li>Your slurry count is 1.5 billion cells per ml with 90% viability, so 1.35 billion viable cells per ml.</li><li>Slurry needed: 1.8 x 10 to the 13 divided by 1.35 x 10 to the 9 is about 13,300 ml.</li></ol><p>So roughly 13 litres of slurry. Drop the viability to 80% and you need 15 litres. The count and viability make a real difference to the answer.</p>"
+  ],
+  [
+   "Getting a real cell count",
+   "<p>The calculation is only as good as the count. Use a haemocytometer under a microscope, diluted so you count somewhere between 20 and 50 cells per square. Our step by step guide to <a href=\"counting-yeast-cells-with-a-haemocytometer-step-by-step.html\">counting yeast cells with a haemocytometer</a> covers dilution and technique.</p><p>Stain at the same time to get viability. Methylene blue or methylene violet both work. Our guide to <a href=\"yeast-viability-and-vitality.html\">yeast viability and vitality</a> explains what the stain tells you and what it does not.</p><p>Thick slurry from a cone often falls somewhere in the region of 1 to 3 billion cells per ml, but that range is too wide to pitch by. Count every time.</p><p>Dried yeast works on the same principle with a different starting point. A sachet or brick label usually gives a minimum cell count per gram. Divide your total target cells by that figure to get grams, then rehydrate as the supplier instructs. Many brewers pitch dried lager yeast at a generous rate because the cells take time to recover.</p>"
+  ],
+  [
+   "Pitching by weight or volume",
+   "<p>Many brewpubs pitch by weight on a scale. Slurry density is close to 1 kg per litre, so 13 litres is about 13 kg. That works fine as long as the count was done on the same slurry, well mixed.</p><p>Slurry settles in storage. The bottom of a brink or bucket can be much thicker than the top. Stir gently before you sample for the count and again before you weigh out the pitch.</p>"
+  ],
+  [
+   "What happens when you get it wrong",
+   "<p>Underpitching usually means a long lag, more yeast growth and more by-products. In lagers that often means more diacetyl, more acetaldehyde and sometimes sulphur that takes a long time to clear. In warm Indian conditions a long lag also gives bacteria a head start.</p><p>Overpitching is less common but real. Very high pitches can give thin, flat flavour profiles with fewer esters. In ales where yeast character matters, that can strip out what makes the beer interesting.</p>"
+  ],
+  [
+   "Pitch rate depends on oxygen and health",
+   "<p>The rule assumes healthy yeast and adequate oxygen. A slurry stored too long or too warm, or harvested from a strong beer, will behave as if you pitched fewer cells than you counted. Low wort oxygen makes everything worse. Our guide to <a href=\"wort-aeration-and-oxygen.html\">wort aeration and oxygen</a> covers the link.</p><p>That is why pitch rate, viability, oxygen and fermentation temperature belong together in one record. Read separately they mislead. Read together they explain most fermentation problems.</p><p>The rule also changes with generation. Yeast in its fifth or sixth repitch may count well and stain well but ferment more slowly than a fresh crop. If lag times creep up over generations at the same calculated pitch, the slurry is telling you something the counting chamber cannot.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>For your next pitch, count the slurry, stain for viability and calculate the litres with the steps above. Write the target rate and the actual pitch on the brew sheet. Do it for five batches and compare the lag times. You will see how close your old habit was.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the standard pitch rate for ale?",
+   "About 0.75 to 1 million cells per ml per degree Plato for standard gravity ales."
+  ],
+  [
+   "What is the standard pitch rate for lager?",
+   "About 1.5 to 2 million cells per ml per degree Plato, because lager yeast grow more slowly at cooler temperatures."
+  ],
+  [
+   "Can I pitch yeast slurry by weight?",
+   "Yes. Slurry is close to 1 kg per litre. Count a well mixed sample first and stir the slurry before weighing."
+  ]
+ ],
+ "cta": {
+  "title": "Pitch the right yeast, every time",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers yeast counting, viability, propagation and fermentation control, so pitch rate becomes a number you calculate rather than guess.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "yeast-viability-and-vitality",
+  "counting-yeast-cells-with-a-haemocytometer-step-by-step",
+  "wort-aeration-and-oxygen"
+ ]
+}

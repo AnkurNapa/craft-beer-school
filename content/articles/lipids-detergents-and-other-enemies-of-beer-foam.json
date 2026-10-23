@@ -1,0 +1,67 @@
+{
+ "slug": "lipids-detergents-and-other-enemies-of-beer-foam",
+ "cat": "Brewing science",
+ "h1": "Lipids, detergents and other enemies of beer foam",
+ "title": "The Enemies of Beer Foam | Craft Beer School",
+ "desc": "What kills beer foam, from wort lipids and stressed yeast to detergent residue in glasses, plus the checks that find the culprit.",
+ "teaser": "A beer can leave the brewery with perfect foam and lose it in a dirty glass. Here is what destroys foam and where to look first.",
+ "standfirst": "Foam is a fragile balance of proteins, bitter acids and gas. A small amount of the wrong thing breaks it. Most foam complaints trace back to a short list of enemies, some in the brewhouse and some behind the bar.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Foam is held together by a thin protein film",
+   "<p>Every bubble in a beer head is wrapped in a thin film. Foam positive proteins from malt, such as lipid transfer protein and protein Z, gather at the bubble surface. Iso-alpha acids cross link with them and stiffen the film. Anything that pushes those molecules off the bubble surface, or breaks them down, shortens the life of the head.</p><p>That is why foam fails so easily. It takes very little fat or surfactant to win the competition for the bubble surface. Our guide to <a href=\"beer-foam-science.html\">beer foam science</a> explains the positive side of the balance.</p>"
+  ],
+  [
+   "Lipids from the brewhouse",
+   "<p>Malt contains lipids, mostly in the husk and germ. A well run lauter leaves most of them behind in the grain bed. Problems start when wort runs cloudy:</p><ul><li>Aggressive raking or a fast run off drags fine particles and fats into the kettle.</li><li>Over sparging at the end of collection pulls in more lipid rich material, especially when the last runnings are thin.</li><li>Poor hot break separation in the whirlpool carries fatty trub into the fermenter.</li></ul><p>Yeast uses some lipids, but excess fatty acids survive into the beer and thin the foam. Clear wort is cheap foam insurance. Our guide to <a href=\"cloudy-wort-run-off-and-the-lipids-it-carries-into-the.html\">cloudy wort run off</a> covers the lauter side.</p>"
+  ],
+  [
+   "Stressed yeast and proteinase A",
+   "<p>Yeast releases an enzyme called proteinase A, especially when it is stressed, dying or left warm. Proteinase A breaks down foam positive proteins. The damage continues in the package, so a beer that foamed well at filling can lose its head over weeks in a hot godown.</p><p>The risk factors are familiar: high gravity fermentations, yeast left in contact with beer too long and warm storage. In Indian distribution, where packaged beer can sit at 30 °C or more, this is one of the more common reasons foam fades between the brewery and the customer. Removing yeast promptly and keeping packaged beer cool protects foam as much as flavour.</p>"
+  ],
+  [
+   "Detergents, rinse aids and dirty glasses",
+   "<p>The single biggest foam killer at the bar is not in the beer at all. It is residue on the glass. Detergents and rinse aids are surfactants, designed to spread across surfaces. A trace left on a glass collapses foam within seconds and leaves bubbles clinging to the sides.</p><p>Restaurant dishwashers that use rinse aid for spot free glasses are a frequent cause. So is washing beer glasses with greasy plates. Signs of a dirty glass include bubbles stuck to the inner wall, foam that thins to a patchy ring and no lacing. A glass rinsed in cold water just before the pour gives a fairer test.</p>"
+  ],
+  [
+   "Brewhouse choices that weaken foam",
+   "<p>Some foam problems are built into the recipe rather than caused by an enemy. Foam positive proteins come from barley malt. Rice and maize adjuncts, common in Indian lagers, bring starch but very little of that protein. A grist with 30 to 40% adjunct starts with less foam protein than an all malt beer.</p><p>Very highly modified malt, long protein rests and intensive boiling can all reduce the proteins that build foam. High gravity brewing followed by dilution lowers them again. None of this makes good foam impossible. It means there is less margin, so small amounts of lipid or detergent show up sooner.</p><p>If your beer sits close to the edge, a share of wheat malt, oats or a foam focused speciality malt can help. Make one change at a time and measure foam on each batch so you know what worked.</p>"
+  ],
+  [
+   "Fats from food and the drinker",
+   "<p>Lipstick, lip balm and oily food all destroy foam where they touch it. Fried snacks served with beer are the obvious example. A drinker eating pakoras will see the head collapse wherever their lips meet the glass. That is normal chemistry, not a fault in the beer.</p><p>It matters for one reason: when someone complains, find out how and where the beer was served before blaming the brewhouse. Tasting the complaint beer in a beer clean glass at the brewery often settles the question in minutes.</p>"
+  ],
+  [
+   "Finding the culprit",
+   "<p>Work from the glass backwards:</p><ol><li>Pour the beer into a properly cleaned glass. If foam is fine, the problem is at the bar.</li><li>If foam is poor, check carbonation. Low CO2 makes weak foam whatever the protein content.</li><li>Compare foam on fresh and aged packs of the same batch. A steady decline in storage points to proteinase A.</li><li>Compare batches against malt lot, adjunct ratio and lauter notes. Poor foam from day one points to the brewhouse.</li></ol><p>Diagnosing faults methodically is a core part of what we teach on the advanced course.</p><p>Your first step: keep one dedicated, hand washed glass in the lab for foam checks and never let it near a dishwasher.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does my beer foam disappear quickly?",
+   "Common causes are detergent residue on the glass, low carbonation, lipids from cloudy wort or foam proteins broken down by yeast enzymes during storage."
+  ],
+  [
+   "Does rinse aid affect beer foam?",
+   "Yes. Rinse aids are surfactants and even a trace left on a glass can collapse foam and stop lacing."
+  ],
+  [
+   "Can warm storage reduce head retention?",
+   "It can. Proteinase A released by yeast breaks down foam proteins faster at higher temperatures, so foam can fade over weeks in a hot store."
+  ]
+ ],
+ "cta": {
+  "title": "Trace foam faults to their source",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers foam chemistry, yeast health and fault diagnosis so you can tell a brewhouse problem from a bar problem.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-foam-science",
+  "cloudy-wort-run-off-and-the-lipids-it-carries-into-the",
+  "sulphites-and-other-antioxidants-in-beer-and-when-they-help"
+ ]
+}

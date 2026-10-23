@@ -1,0 +1,71 @@
+{
+ "slug": "limit-dextrinase-and-why-fermentability-varies-between-malts",
+ "cat": "Brewing science",
+ "h1": "Limit dextrinase and why fermentability varies between malts",
+ "title": "Limit Dextrinase and Malt Fermentability | Craft Beer School",
+ "desc": "What limit dextrinase does in the mash, why it varies between malt lots and how to measure fermentability before it surprises you.",
+ "teaser": "Same recipe, same mash, new malt lot. The beer finishes two points higher. Limit dextrinase is a likely suspect.",
+ "standfirst": "Limit dextrinase is the only malt enzyme that cuts the branch points in starch. There is not much of it, it is fragile and the amount varies from malt to malt. That variation shows up in your final gravity.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The enzyme that cuts the branches",
+   "<p>Starch in barley is roughly a quarter amylose (a straight glucose chain) and three quarters amylopectin (a branched one). About one bond in twenty in amylopectin is a branch point, an alpha-1,6 bond. Alpha-amylase and beta-amylase cannot cut those bonds. They chew around the branches and leave limit dextrins behind. Brewing yeast cannot ferment limit dextrins.</p><p>Limit dextrinase, sometimes called the debranching enzyme, cuts the alpha-1,6 bonds. Every branch it cuts frees another straight chain for beta-amylase to turn into maltose. More limit dextrinase activity means a more fermentable wort and a drier beer. Our guide to <a href=\"the-temperature-windows-of-beta-amylase-and-alpha-amylase.html\">beta-amylase and alpha-amylase</a> covers the other two enzymes.</p>"
+  ],
+  [
+   "Most of it is locked away",
+   "<p>Malt contains limit dextrinase in two forms. Some is free and active. Much of it is bound to an inhibitor protein in the grain and does little in a normal mash. Only part of the bound form is released during malting and mashing. The balance between free and bound enzyme varies with barley variety, growing season and how the malt was made.</p><p>Limit dextrinase is also heat sensitive. It works best at roughly 60 to 65 °C and loses activity quickly above that. In a mash held at 67 or 68 °C, it does much less than at 63 °C. That is another reason low mash temperatures give drier beer.</p>"
+  ],
+  [
+   "Why two malts with similar specs ferment differently",
+   "<p>The standard malt certificate gives extract, moisture, colour, protein, Kolbach index and diastatic power. It almost never gives limit dextrinase. Diastatic power measures overall starch degrading ability. It is dominated by beta-amylase and says little about debranching.</p><p>So two lots with near identical certificates can still produce worts of different fermentability. Things that shift it include:</p><ul><li><strong>Barley variety.</strong> Varieties differ in how much limit dextrinase and inhibitor they carry.</li><li><strong>Germination.</strong> Longer, more thorough modification tends to free more enzyme.</li><li><strong>Kilning.</strong> Higher kilning temperatures, as in darker base malts, destroy more of this fragile enzyme than gentle lager malt kilning.</li><li><strong>Storage.</strong> Malt that picks up moisture in humid storage can lose enzyme activity over time, a real concern in coastal Indian cities.</li></ul>"
+  ],
+  [
+   "What it looks like in the fermenter",
+   "<p>Brewers rarely see limit dextrinase directly. They see the result: a beer that used to finish at 1.010 now finishes at 1.012 with the same yeast, temperature and recipe. Two points of gravity is roughly a quarter of a percent of alcohol and a noticeable change in body and sweetness. In a dry style, it is the difference between crisp and slightly cloying.</p><p>Before blaming malt, rule out the usual suspects: yeast health and pitch rate, fermentation temperature, mash temperature and thermometer accuracy. If all of those check out and the malt lot changed, fermentability of the malt is a strong candidate.</p>"
+  ],
+  [
+   "Measure fermentability, not just gravity",
+   "<p>The tool that settles the question is an attenuation limit test, sometimes called a forced fermentation. Take a sample of wort, pitch it with a large amount of yeast, keep it warm and agitated and let it ferment as far as it will go. The final gravity is the limit for that wort. Many all-malt worts reach an apparent attenuation of roughly 75 to 85%, but your own baseline matters more than a general range.</p><p>If the limit test falls when you change malt lots, the wort itself is less fermentable. If the test holds but the main fermenter finishes high, the problem is in fermentation. Our guide to <a href=\"attenuation-limit-tests-and-why-every-brewery-should-run-one.html\">attenuation limit tests</a> covers the method step by step.</p>"
+  ],
+  [
+   "What you can adjust",
+   "<p>Once you know a malt lot is less fermentable, you have a few levers:</p><ul><li><strong>Lower the mash temperature</strong> by a degree or two, or add a rest at 62 to 63 °C before the main saccharification rest.</li><li><strong>Extend the rest</strong> in the lower range to give limit dextrinase and beta-amylase more time.</li><li><strong>Check mash pH.</strong> Enzymes work best between about 5.2 and 5.6 measured at room temperature.</li><li><strong>Exogenous enzymes</strong>, such as a debranching enzyme or amyloglucosidase, give a large and less controlled increase in fermentability. They suit very dry styles but are heavy handed for routine correction.</li></ul><p>Knowing which lever to pull and by how much comes from understanding the enzymes rather than memorising a rule.</p>"
+  ],
+  [
+   "Start with your own baseline",
+   "<p>The floor detail that pays off: write the malt lot number on every brew sheet. Without it, you cannot connect a change in final gravity to a change in malt.</p><p>Your first step: run an attenuation limit test on the next batch of your best selling beer and record the lot numbers of every malt in the grist. Do the same for the next three batches. When a lot changes, you will have a fermentability baseline to compare it with.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does limit dextrinase do?",
+   "It cuts the alpha-1,6 branch points in starch, which alpha-amylase and beta-amylase cannot. This frees more chains to become fermentable maltose."
+  ],
+  [
+   "Why is limit dextrinase not on the malt certificate?",
+   "It is hard to measure routinely and is not part of the standard malt analysis. Diastatic power mostly reflects beta-amylase."
+  ],
+  [
+   "What temperature suits limit dextrinase?",
+   "Roughly 60 to 65 °C. It loses activity quickly above that, so higher mash temperatures leave more limit dextrins."
+  ],
+  [
+   "How do I check malt fermentability?",
+   "Run an attenuation limit test: ferment a wort sample with plenty of yeast in warm, agitated conditions until it stops. The final gravity shows the wort's limit."
+  ]
+ ],
+ "cta": {
+  "title": "Control fermentability instead of chasing it",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers starch chemistry, mash enzymes, malt analysis and the lab tests that separate a malt problem from a yeast problem.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "where-myrcene-goes-between-the-dry-hop-and-the-can",
+  "why-mash-thickness-changes-fermentability-and-brewhouse",
+  "attenuation-limit-tests-and-why-every-brewery-should-run-one"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "real-versus-apparent-attenuation",
+ "cat": "Brewing science",
+ "h1": "Real versus apparent attenuation",
+ "title": "Real Versus Apparent Attenuation | Craft Beer School",
+ "desc": "Why your hydrometer overstates how much sugar the yeast ate, how to convert apparent attenuation to real and which number to track.",
+ "teaser": "Your 80% attenuation is really about 65%. The hydrometer is not lying, it is reading through alcohol.",
+ "standfirst": "Apparent attenuation is the number most brewers log. Real attenuation is what the yeast actually did. Knowing the gap between them stops you chasing problems that are not there.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Alcohol makes the hydrometer read low",
+   "<p>Every brewery logs original gravity and final gravity. Divide the drop by the start and you get apparent attenuation. A 12 °P wort that finishes at 2.4 °P has an apparent attenuation of 80%.</p><p>The word apparent is doing real work there. Ethanol has a density of about 0.79 g/mL, well below water. As the yeast turns extract into alcohol, the alcohol drags the reading down further than the loss of sugar alone would. So the hydrometer or density meter reports less extract left in the beer than is truly there. The beer looks drier than it is.</p><p>Real attenuation strips out the alcohol effect. It answers a cleaner question: what share of the original extract did the yeast actually consume?</p>"
+  ],
+  [
+   "The gap is roughly a fifth",
+   "<p>For normal beers, real attenuation sits at roughly 0.81 to 0.82 times apparent attenuation. That ratio comes from the Balling relationship between original, apparent and real extract, covered in our guide to <a href=\"real-extract-apparent-extract-and-the-balling-formula.html\">real extract, apparent extract and the Balling formula</a>.</p><p>Work the example through. Real extract is about 0.1808 times original extract plus 0.8192 times apparent extract:</p><ul><li>0.1808 x 12 = 2.17</li><li>0.8192 x 2.4 = 1.97</li><li>Real extract = 4.14 °P</li><li>Real attenuation = (12 - 4.14) / 12 = 65.5%</li></ul><p>So the beer you logged at 80% is really at about 65%. Roughly a third of the original extract is still in the glass as unfermentable dextrins, proteins and other solids. That residue is a large part of the body you taste.</p>"
+  ],
+  [
+   "Why the apparent figure still earns its place",
+   "<p>None of this means apparent attenuation is wrong. It is fast, it needs only a hydrometer or a density meter and it is perfectly good for comparing like with like. If your house lager always finishes at 80% apparent and this batch stopped at 74%, something changed. The ratio between real and apparent barely moves within one recipe, so the trend tells the same story either way.</p><p>Where it breaks is when you compare across very different beers, or when someone quotes a real figure and you hear an apparent one. A supplier datasheet that says a strain attenuates 70% to 75% usually means apparent. A lab report from an alcohol analyser often prints real extract and real degree of fermentation. Mixing the two makes a healthy fermentation look stuck by fifteen points.</p>"
+  ],
+  [
+   "Where real attenuation earns its keep",
+   "<p>Real attenuation matters when you need to know what the yeast and the mash actually did. Three places stand out:</p><ul><li><strong>Calculating alcohol precisely.</strong> The Balling method uses real extract, which is why it holds up better than the simple gravity drop formula on strong beers.</li><li><strong>Judging fermentability of the wort.</strong> A rice or maize adjunct brew mashed for high fermentability should show a higher real figure than an all-malt wort with a hot saccharification rest.</li><li><strong>Explaining body.</strong> Two beers at the same final gravity can feel different in the mouth if their original gravities differ, because their real extracts differ.</li></ul>"
+  ],
+  [
+   "Track it against a ceiling",
+   "<p>Attenuation on its own does not tell you whether a fermentation finished. You need the ceiling: the limit of attenuation for that wort. A forced fermentation test, where a sample ferments warm with plenty of yeast, shows how far the wort can go. Our guide to <a href=\"attenuation-limit-tests-and-why-every-brewery-should-run-one.html\">attenuation limit tests</a> walks through it.</p><p>If the tank finishes within about 1 °P of the forced test, the yeast did its job. If it stops 2 °P short, you have residual fermentable sugar in the beer. In a warm Indian supply chain that sugar is a refermentation and over-carbonation risk once the beer is packaged.</p><p>Plotting final gravity, apparent attenuation and the forced test result batch after batch on a <a href=\"control-charts-for-brewers.html\">control chart</a> turns a column of numbers into an early warning. A drift of half a degree Plato over five batches is easy to miss in a logbook and obvious on a chart.</p>"
+  ],
+  [
+   "A first step for this week",
+   "<p>Take your last five batches of one recipe. For each, note original and final gravity in °P and calculate both apparent and real attenuation with the formula above. A spreadsheet does it in two columns.</p><p>Then ask two questions. Is the ratio between them steady near 0.82? Is the apparent figure steady from batch to batch? If both answers are yes, your fermentations are consistent and your apparent number is fine for daily use. If the apparent figure wanders, run a forced fermentation on the next brew before you blame the yeast. Understanding why the wort changed, from malt to mash temperature, is where a deeper course on brewing science pays back.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between real and apparent attenuation?",
+   "Apparent attenuation uses the final gravity reading, which alcohol pulls down. Real attenuation corrects for alcohol and shows the share of extract the yeast actually consumed. Real is roughly 0.82 times apparent."
+  ],
+  [
+   "Which attenuation figure do yeast suppliers quote?",
+   "Most yeast datasheets quote apparent attenuation, because brewers measure with hydrometers and density meters. Check the datasheet wording before comparing it with a lab report."
+  ],
+  [
+   "Can real attenuation be higher than apparent?",
+   "No. Alcohol always lowers the gravity reading, so apparent attenuation is always the higher of the two in a fermented beer."
+  ]
+ ],
+ "cta": {
+  "title": "Know what your wort can do before you ferment it",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers extract, fermentability, yeast metabolism and the calculations behind attenuation and alcohol, so your numbers explain your beer.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "real-extract-apparent-extract-and-the-balling-formula",
+  "control-charts-for-brewers",
+  "attenuation-limit-tests-and-why-every-brewery-should-run-one"
+ ]
+}

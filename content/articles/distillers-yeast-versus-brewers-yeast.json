@@ -1,0 +1,71 @@
+{
+ "slug": "distillers-yeast-versus-brewers-yeast",
+ "cat": "Whisky",
+ "h1": "Distillers yeast versus brewers yeast",
+ "title": "Distillers Yeast Versus Brewers Yeast | Craft Beer School",
+ "desc": "How distillers yeast differs from brewers yeast: alcohol and heat tolerance, speed, flavour and why distilleries rarely repitch.",
+ "teaser": "Both are Saccharomyces cerevisiae. One is bred for beer you drink. The other is bred for a wash you distil.",
+ "standfirst": "Distillers and brewers use the same yeast species but very different strains. A brewery yeast is chosen for flavour and behaviour in a finished beer. A distillers yeast is chosen to turn sugar into alcohol fast and reliably.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Same species, different job",
+   "<p>Almost all whisky and ale yeast is Saccharomyces cerevisiae. The strains differ because the jobs differ. A brewer wants a yeast that ferments cleanly or with a chosen ester profile, settles out on cue, leaves the right body and survives repitching for many generations. The beer goes straight into a glass, so every flavour counts.</p><p>A malt distiller wants a yeast that converts as much sugar as possible into alcohol, quickly and predictably. The wash is distilled, so many fermentation flavours are stripped or concentrated by the still. The distiller cares about some congeners, especially esters, but yield comes first.</p>"
+  ],
+  [
+   "What distillers yeast is bred for",
+   "<p>Distilling strains are selected for a short list of traits:</p><ul><li><strong>Speed.</strong> A fast start and a vigorous fermentation, often finishing primary fermentation inside two days.</li><li><strong>Alcohol tolerance.</strong> Comfortable at the 7% to 9% ABV of a malt wash and beyond.</li><li><strong>Heat tolerance.</strong> Able to keep working as the washback climbs into the low to mid 30s °C.</li><li><strong>Full attenuation.</strong> Using a wide range of sugars, including those released by enzymes still active in unboiled wort.</li></ul><p>They are usually supplied as dried yeast or as liquid cream yeast from a yeast maker, pitched fresh into every washback.</p>"
+  ],
+  [
+   "Why distilleries rarely repitch",
+   "<p>Breweries harvest and repitch yeast for many generations. Most malt distilleries do not. A fresh pitch each time gives a consistent cell count and health. It also removes the risk of carrying infection from one washback to the next. Yeast at the end of a hot, high alcohol whisky fermentation is also stressed and not in good shape to repitch.</p><p>There is a cost argument too. Fresh yeast costs money, but so does a slow or infected washback. Our guide to <a href=\"whisky-wash-fermentation.html\">whisky wash fermentation</a> covers pitching rates and the fermentation curve.</p>"
+  ],
+  [
+   "Where brewers yeast still turns up",
+   "<p>Historically, many Scotch distilleries used a mix of distillers yeast and surplus brewers yeast from nearby breweries. Distillers credited the brewers yeast with adding flavour, especially fruitiness. Supply changed as breweries changed. Many distilleries moved to distillers yeast alone. Some craft distillers still experiment with ale yeasts or blends for a distinctive new make.</p><p>A brewery moving into whisky is tempted to use its own house yeast. That can work. It can taste interesting too. Expect a slower fermentation and lower attenuation if the strain is less tolerant of heat and alcohol. Yield may be lower too spirit yield. Measure it rather than guessing.</p>"
+  ],
+  [
+   "Flavour still matters",
+   "<p>Yeast strain affects the esters and higher alcohols that reach the new make. Different distilling strains give different balances of fruit, floral and heavier notes. Yeast stress, too much heat or too little nutrient can push sulphur compounds and harsh fusel alcohols up. Copper in the stills removes some sulphur, but not all of it. Our guide to <a href=\"sulphur-and-feints-off-notes-in-whisky.html\">sulphur and feints off notes in whisky</a> explains the faults that start in the washback.</p>"
+  ],
+  [
+   "Yeast in an Indian distillery",
+   "<p>Heat tolerance is the trait that matters most in India. A strain that behaves perfectly in a 16 °C Scottish washback room can stall when the wash reaches 36 °C on a May afternoon. Choose a strain with good heat tolerance, pitch cool and use washback cooling where you can. Dried yeast stores better than cream yeast in a warm plant, but keep it in a cool, dry place and use it within its date.</p><p>If you use Indian six row barley with higher protein, free amino nitrogen is usually plentiful. With high adjunct grain bills, check that the yeast has enough nutrient. A sluggish ferment is often a nutrient problem rather than a strain problem. Our guide to <a href=\"indian-six-row-barley-for-malt-whisky.html\">Indian six row barley for malt whisky</a> covers the malt side.</p><p>Picking a yeast is one decision in a chain that runs from malt to still. Seeing how strain, temperature and fermentation length combine is where a trained eye pays for itself.</p>"
+  ],
+  [
+   "Try a split washback trial",
+   "<p>If you have two washbacks, fill both from the same mash. Pitch your usual distillers yeast in one and an alternative strain in the other, at the same rate and temperature. Log gravity every 12 hours and record the final alcohol. Distil each wash separately and nose the new make side by side before you change anything permanently.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is distillers yeast a different species from brewers yeast?",
+   "No. Both are usually Saccharomyces cerevisiae. They are different strains, bred for different traits."
+  ],
+  [
+   "Can I make whisky with ale yeast?",
+   "Yes. Expect a slower fermentation and possibly lower yield if the strain is less tolerant of heat and alcohol. Measure the result before switching for good."
+  ],
+  [
+   "Why don't distilleries reuse their yeast?",
+   "A fresh pitch gives consistent cell numbers and health and avoids carrying infection between washbacks. Yeast at the end of a whisky fermentation is also stressed."
+  ],
+  [
+   "What yeast trait matters most in India?",
+   "Heat tolerance. Washbacks in Indian plants can run well above Scottish temperatures, so choose a strain that keeps working when warm."
+  ]
+ ],
+ "cta": {
+  "title": "Choose yeast for yield and flavour",
+  "body": "Craft Distilling is our four week live course (₹9,999), Saturdays and Sundays with recordings and a certificate. It covers yeast choice, pitching, temperature and fermentation for malt whisky, so you can trial strains properly and read the results.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "indian-six-row-barley-for-malt-whisky",
+  "sulphur-and-feints-off-notes-in-whisky",
+  "whisky-wash-fermentation"
+ ]
+}

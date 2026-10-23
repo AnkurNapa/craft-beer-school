@@ -1,0 +1,63 @@
+{
+ "slug": "ball-valves-thermometers-and-sight-glasses-on-a-homebrew",
+ "cat": "Brewing basics",
+ "h1": "Ball valves, thermometers and sight glasses on a homebrew kettle",
+ "title": "Ball Valves and Kettle Fittings | Craft Beer School",
+ "desc": "What a ball valve, dial thermometer and sight glass do on a homebrew kettle, how to fit them without leaks and how to keep them clean.",
+ "teaser": "Three small fittings turn a stockpot into a brewing kettle. Here is what each does and what goes wrong with them.",
+ "standfirst": "A ball valve, a thermometer and a sight glass are the first upgrades most homebrewers bolt onto a kettle. Each one saves effort on brew day. Each one also brings a place for leaks, wrong readings and hidden dirt.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why these three fittings come first",
+   "<p>A plain stockpot works. You can ladle wort out, read temperature with a kitchen probe and measure volume with a ruler. But lifting 25 litres of hot wort to pour it is risky. A kitchen probe in the wrong spot will mislead you by several degrees.</p><p>A ball valve lets you drain without lifting. A thermometer fixed through the wall reads the same spot every time. A sight glass shows volume at a glance. Together they make a brew day calmer, which usually means fewer mistakes.</p>"
+  ],
+  [
+   "Weldless fittings and the leak test",
+   "<p>Most homebrew fittings are weldless. You drill a hole in the kettle wall with a step bit, push the fitting through and clamp it with a locknut. A silicone O-ring on the inside does the sealing. Half inch BSP thread is the common size for homebrew valves in India, but check that everything you buy shares one thread standard, because BSP and NPT look alike and do not seal together.</p><p>Always fill the kettle with water and leave it for an hour before the first brew. A slow drip that you ignore with cold water becomes a steady stream of sticky wort at 100 °C.</p>"
+  ],
+  [
+   "The ball valve: cleaning is the whole story",
+   "<p>A ball valve has a steel ball with a hole through it. Turn the handle and the hole lines up with the flow. The trouble is the cavity around the ball, which fills with wort and hop debris every time you use it and is impossible to clean by flushing.</p><p>Buy a two piece or three piece valve that comes apart. After each brew day, strip it, scrub the ball and seats and leave it to dry. A one piece valve cannot be opened, so whatever grows inside it stays there. That matters less on the hot side, where the boil sanitises it, but it matters a lot if you ever use the same valve on a fermenter.</p>"
+  ],
+  [
+   "The thermometer: trust it after you test it",
+   "<p>Kettle thermometers are usually bimetal dial types. They are cheap, robust and often 1 to 2 °C out of the box. In a mash where 64 °C and 68 °C give noticeably different beers, that error matters.</p><p>Check it twice. In ice water with plenty of crushed ice it should read 0 °C. In boiling water it should read the boiling point for your altitude. Water boils at about 100 °C at sea level but roughly 1 °C lower for every 300 metres of height, so in Bengaluru, at around 900 metres, expect about 97 °C. Most dials have a small nut behind the face for adjustment.</p><p>Position matters too. A probe that sits in the top few centimetres of a mash reads hotter or cooler than the middle. Stir before you trust any reading.</p>"
+  ],
+  [
+   "The sight glass: calibrate it once",
+   "<p>A sight glass is a clear tube on the outside of the kettle that shows the liquid level. It is only useful once you mark it. Add water a litre at a time with a measuring jug and mark each level with a paint pen or a strip of tape on the backing. It takes half an hour once and saves guessing on every brew day after.</p><p>Remember that hot wort expands by about 4% compared with cold. Twenty litres at boiling is a little over nineteen litres once cooled, so read your volume at the same temperature each time or allow for the difference. Glass tubes and silicone seals need taking apart and cleaning after each brew, or they stain and harbour residue.</p>"
+  ],
+  [
+   "When you can skip them",
+   "<p>Inside the kettle, the valve needs a pickup. A short elbow or dip tube that draws from near the base lets you drain almost all the wort. Hop pellets and break material will block a bare valve within minutes, so add a hop spider, a mesh bag for the hops or a simple stainless mesh tube on the pickup. Whirlpool the wort and let it settle for 15 minutes before you open the valve. Most of the debris will then cone in the centre, away from the pickup at the side.</p><p>None of these fittings is essential for a first brew. A good digital probe thermometer and a measuring jug will brew perfectly good beer. Our guide to <a href=\"first-homebrew-mistakes.html\">first homebrew mistakes</a> lists what actually ruins early batches. Fit a ball valve first if you brew 20 litres, because lifting is the safety issue. Add the thermometer when you start chasing mash temperatures. The sight glass is the luxury.</p><p>Your first step: before you buy anything, test the thermometer you already own in ice water and at the boil. Write down how far off it reads.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What thread size do homebrew kettle fittings use?",
+   "Half inch BSP is common in India and Europe, while American kit often uses NPT. Keep every fitting on one standard so threads seal properly."
+  ],
+  [
+   "How do I calibrate a kettle thermometer?",
+   "Check it in ice water for 0 °C and at a rolling boil for your altitude's boiling point, then use the adjustment nut behind the dial to correct it."
+  ],
+  [
+   "How do I stop a weldless ball valve leaking?",
+   "Make sure the silicone O-ring sits on the inside of the kettle wall, tighten the locknut firmly and test with water for an hour before brewing."
+  ]
+ ],
+ "cta": {
+  "title": "Learn the brew day these fittings are for",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999) on weekend afternoons. It covers kit, mashing, boiling, fermentation and the measurements that make one batch match the next.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "using-irish-moss-and-kettle-finings-for-clearer-homebrew",
+  "first-homebrew-mistakes",
+  "kegging-homebrew"
+ ]
+}

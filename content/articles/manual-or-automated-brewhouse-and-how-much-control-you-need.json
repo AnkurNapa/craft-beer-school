@@ -1,0 +1,71 @@
+{
+ "slug": "manual-or-automated-brewhouse-and-how-much-control-you-need",
+ "cat": "Business",
+ "h1": "Manual or automated brewhouse and how much control you need",
+ "title": "Manual or Automated Brewhouse? | Craft Beer School",
+ "desc": "What manual, semi-automated and fully automated brewhouses do, what they cost in labour and consistency plus how to choose for a brewpub.",
+ "teaser": "Automation does not make better beer. It makes the same beer every time, which is a different thing.",
+ "standfirst": "Brewhouse suppliers sell automation as a ladder: manual, semi-auto, full auto. The right rung depends on how many brews you run, who runs them and what you need to record. Here is how we think about it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What each level actually means",
+   "<ul><li><strong>Manual.</strong> Hand valves, a temperature display and a brewer with a clipboard. The brewer opens valves, starts pumps and watches the clock.</li><li><strong>Semi-automated.</strong> A control panel or touchscreen runs temperatures and pumps. The brewer still opens most valves by hand. Mash steps may run on a timer.</li><li><strong>Fully automated.</strong> A PLC opens pneumatic valves, runs mash programmes, transfers and cleaning from a stored recipe. The brewer supervises and checks.</li></ul><p>Fermenter temperature control is a separate question. Almost every brewery should automate it: a controller and solenoid valve on each tank's glycol jacket, holding temperature within about half a degree. Nobody should be adjusting glycol by hand at 2 am.</p>"
+  ],
+  [
+   "Brews per day decides most of it",
+   "<p>A brewpub brewing 5 hl twice a week does not need a PLC running its mash. One skilled brewer can manage that by hand and enjoy it. A brewery doing three or four brews a day on a 20 hl system is different. Overlapping mash, lauter and boil across batches is where automation earns its money, because it removes timing errors when the brewer is busy elsewhere.</p><p>Look at your plan honestly. If you will brew fewer than about three times a week for the first two years, put the money into fermenters first. Our <a href=\"brewhouse-size-guide.html\">brewhouse size guide</a> helps with that sum.</p>"
+  ],
+  [
+   "Consistency is the real product",
+   "<p>The best argument for automation is repeatability. A manual brewhouse is only as consistent as the brewer on shift. Mash temperatures drift by a degree or two. Rests run long. Transfers happen faster or slower. Each drift changes fermentability and body.</p><p>An automated mash holds 65 °C as 65 °C on every batch and logs it. When a batch tastes off, you can open the log rather than relying on someone's memory. We work on data in breweries. The thing we see most often is the absence of data. Even on a manual system, a written brew log with times, temperatures and gravities beats no record at all.</p>"
+  ],
+  [
+   "What automation costs beyond the price tag",
+   "<ul><li><strong>Service.</strong> PLCs, sensors and pneumatic valves fail. Ask who in India can repair them and how fast.</li><li><strong>Compressed air.</strong> Pneumatic valves need a clean, dry air supply and a compressor that adds to your power load.</li><li><strong>Skills.</strong> Someone on site must understand the PLC software well enough to fix a stuck step at 7 am on a Saturday.</li><li><strong>Lock-in.</strong> Some suppliers keep the PLC code locked. Ask for full access and the source files in the contract.</li></ul>"
+  ],
+  [
+   "Records, recalls and the regulator",
+   "<p>Indian excise departments usually require production records. Food safety audits look for traceability. Automation does not make that compliance automatic, but it makes it easier. A system that stores batch number, temperatures and times can rebuild a batch's history in minutes. That matters on the bad day when you need to trace a problem. See our guide to a <a href=\"beer-recall-plan.html\">beer recall plan</a>.</p>"
+  ],
+  [
+   "A sensible middle path",
+   "<p>For most new brewpubs we suggest this split:</p><ul><li>Automated temperature control on every fermenter and bright tank.</li><li>A semi-automated brewhouse with digital temperature control on the mash and hot liquor tank.</li><li>Manual valves, with a clear valve map and written procedures.</li><li>A brew log that captures the same numbers a PLC would.</li><li>Room in the panel and budget to add automation later.</li></ul><p>That last point is the one founders forget. Ask the supplier which steps can be automated later and at what cost. A brewhouse that can grow its controls is worth more than one that cannot. Knowing which process steps give you a quality return when automated is the judgement that a supplier brochure will not give you.</p>"
+  ],
+  [
+   "Staff turnover and training",
+   "<p>Brewpubs in Indian cities often lose a brewer every year or two. A manual brewhouse leaves much of the process in that person's head. When they go, the beer changes. Automation, or at least written procedures and logs, keeps the recipe in the building.</p><p>The reverse risk is real too. A fully automated system run by staff who only press start teaches nobody to brew. When a valve sticks or a sensor reads 10 °C wrong, they will not notice. Whatever level you choose, train people on the process, not just on the screen.</p>"
+  ],
+  [
+   "What to do before signing",
+   "<p>Write down your expected brews per week for year one and year three. Then ask each supplier to quote the same brewhouse at two control levels. The price gap, set against the brewer hours you save, tells you whether full automation pays back in your brewery or just looks good on the tour.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does an automated brewhouse make better beer?",
+   "Not by itself. It makes beer more consistent from batch to batch because temperatures and timings repeat exactly. A skilled brewer on a manual system can make excellent beer."
+  ],
+  [
+   "What should always be automated in a brewery?",
+   "Fermenter and bright tank temperature control. A controller and glycol solenoid on each tank holds temperature far more reliably than manual adjustment."
+  ],
+  [
+   "Can I add automation to a manual brewhouse later?",
+   "Often yes, if the panel, valves and wiring were planned for it. Ask the supplier to confirm upgrade options and costs before you buy."
+  ]
+ ],
+ "cta": {
+  "title": "Decide what to automate and what to skip",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers equipment decisions, staffing and the costs behind each brewhouse option so you buy the control you need, not the control on the brochure.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewhouse-size-guide",
+  "brewpub-layout-kitchen-brewhouse-bar",
+  "beer-recall-plan"
+ ]
+}

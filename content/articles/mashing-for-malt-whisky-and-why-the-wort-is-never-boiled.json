@@ -1,0 +1,71 @@
+{
+ "slug": "mashing-for-malt-whisky-and-why-the-wort-is-never-boiled",
+ "cat": "Whisky",
+ "h1": "Mashing for malt whisky and why the wort is never boiled",
+ "title": "Malt Whisky Mashing: Why No Boil | Craft Beer School",
+ "desc": "How malt whisky mashing works with three waters and why distillers never boil the wort: enzymes, yield and what the washback gains.",
+ "teaser": "Brewers boil. Distillers never do. That one decision changes the mash, the fermentation and the yield.",
+ "standfirst": "A malt whisky mash looks like a brewery mash, then breaks the rules. There are no hops and no boil. The enzymes keep working long after the mash tun is empty. Here is why.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Mashing turns starch into sugar",
+   "<p>The aim of mashing is the same as in a brewery. Hot water activates the malt's enzymes, which break gelatinised starch into fermentable sugars. Alpha amylase chops long starch chains. Beta amylase trims them into maltose. The sweet liquid that drains off is called wort.</p><p>The difference is what the distiller wants from it. A brewer designs a mash for body, foam and a balance of fermentable and unfermentable sugar. A malt distiller wants as much fermentable sugar as possible and nothing else. There is no beer to drink at the end, only a wash to distil.</p>"
+  ],
+  [
+   "Three waters, one wort",
+   "<p>Most malt distilleries mash with three waters. The first water mixes with the grist at around 63 to 65 °C, the range where the amylases work well. That first wort is the strongest and goes to the washback. The second water goes on hotter, often in the 70s °C, to rinse out more sugar. The third water is hotter again, often 85 °C or more. It is too weak to ferment.</p><p>That weak third water is not wasted. It is kept and used as part of the first water for the next mash, which recovers its sugar and saves heat. The draff left in the tun goes out as cattle feed.</p><p>The water volumes matter as much as the temperatures. Too little first water and the mash is stiff, so enzymes struggle and extraction drops. Too much and the wort is weak, which lowers wash strength and raises the energy needed in the stills. Most distilleries settle on a ratio by trial and then hold it steady.</p>"
+  ],
+  [
+   "Why the wort is never boiled",
+   "<p>A brewer boils wort for several reasons: to extract hop bitterness, to sterilise it, to drive off unwanted volatiles and to stop the enzymes. A distiller needs none of that. There are no hops. The wash will be distilled, which deals with most volatiles. And the distiller actively wants the enzymes alive.</p><p>Wort leaves the mash tun still carrying active enzymes, especially the debranching enzyme limit dextrinase. In the washback, those enzymes keep breaking dextrins that the yeast cannot use into sugars that it can. That slow, second conversion during fermentation raises the alcohol yield. Boiling would kill it.</p><p>It is also why distilling malt is kilned gently. A strong enzyme package matters more to a distiller than to almost any brewer. Our guide to <a href=\"malting-barley-for-whisky-versus-malting-for-beer.html\">malting for whisky versus beer</a> covers that side.</p>"
+  ],
+  [
+   "The price of skipping the boil",
+   "<p>No boil means no heat sterilisation. The wort is cooled straight from the mash tun, usually through a heat exchanger to about 16 to 20 °C before pitching. Whatever bacteria survive the mash go into the washback with it. Clean pipework, heat exchangers and washbacks matter more in a distillery than many new distillers expect.</p><p>Some of those bacteria are welcome later in a long fermentation, where lactic bacteria can add fruity character. Others are not. Our guide to <a href=\"bacteria-in-long-whisky-fermentations.html\">bacteria in long whisky fermentations</a> explains the difference.</p>"
+  ],
+  [
+   "Wort strength and clarity",
+   "<p>Malt whisky wort usually sits around a gravity of 1.050 to 1.060, which ferments to a wash of roughly 7% to 9% ABV. Running the mash thicker to push gravity higher costs extraction efficiency and stresses the yeast. The distiller also chooses how clear the wort runs. Clear wort is widely linked with a fruitier, cleaner spirit and cloudy wort with a nuttier, heavier one. See <a href=\"clear-versus-cloudy-wort-in-malt-whisky.html\">clear versus cloudy wort</a>.</p>"
+  ],
+  [
+   "Mashing in an Indian distillery",
+   "<p>Heat works against you at the cooling step. If your cooling water arrives at 30 °C, a single stage heat exchanger cannot bring wort down to 18 °C. Many Indian plants need a chilled water or glycol stage to hit pitching temperature, especially in April and May. Pitch too warm and the washback runs hot, fast and full of fusel alcohol.</p><p>Getting mash temperatures, water volumes and cooling right together is a balancing act. The arithmetic for each step is easy. Seeing how they interact and which one to change when yield drops is the part that takes training.</p>"
+  ],
+  [
+   "Check one mash tomorrow",
+   "<p>On your next mash, record the temperature of each water as it goes on, the gravity of the first wort and the temperature of the wort leaving the heat exchanger. Do it again the day after. If the first water drifts outside 63 to 65 °C or the pitch is above 20 °C, fix that before you change anything else.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is whisky wort not boiled?",
+   "Distillers want the malt enzymes to stay active in the washback, where they keep turning dextrins into fermentable sugar. There are also no hops to extract. The still deals with most unwanted volatiles."
+  ],
+  [
+   "What temperature is a malt whisky mash?",
+   "The first water usually goes on at around 63 to 65 °C. Later waters are hotter, often in the 70s and then 85 °C or more."
+  ],
+  [
+   "What happens to the third water?",
+   "It is too weak to ferment, so it is kept and used as part of the first water for the next mash."
+  ],
+  [
+   "Does no boil mean more infection risk?",
+   "Yes. The wort is not heat sterilised, so cleaning of pipework, heat exchangers and washbacks matters a great deal."
+  ]
+ ],
+ "cta": {
+  "title": "Run a mash built for spirit yield",
+  "body": "Craft Distilling is our four week live course (₹9,999), Saturdays and Sundays with recordings and a certificate. It covers mashing, cooling and fermentation for malt whisky, so you can set temperatures and water volumes on purpose and know what to change when yield drops.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "clear-versus-cloudy-wort-in-malt-whisky",
+  "malt-grain-and-blended-whisky",
+  "indian-single-malt-explained"
+ ]
+}

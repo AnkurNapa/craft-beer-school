@@ -1,0 +1,67 @@
+{
+ "slug": "wiring-a-plug-in-temperature-controller-for-a-fermentation",
+ "cat": "Brewing basics",
+ "h1": "Wiring a plug-in temperature controller for a fermentation fridge",
+ "title": "Plug-in Temperature Controller Setup | Craft Beer School",
+ "desc": "How to set up a plug-in temperature controller for a fermentation fridge: sockets, set point, differential, compressor delay and probe placement.",
+ "teaser": "A plug-in controller needs no electrician. It does need the right four settings and a probe in the right place.",
+ "standfirst": "A plug-in temperature controller turns any fridge or chest freezer into a fermentation chamber. The hardware takes five minutes. Getting the settings right is what keeps the beer steady and the compressor alive.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Plug-in, not hard-wired",
+   "<p>There are two kinds of controller on the market. Bare panel controllers have screw terminals and need wiring into a box with sockets. Plug-in controllers come ready built: a lead that goes into the wall, a probe and output sockets for cooling and heating.</p><p>We recommend the plug-in type for almost every homebrewer. Mains wiring at 230 volts is not a weekend project. If you buy a bare controller, have a qualified electrician build the box with proper earthing and a fuse. In a rented flat the plug-in type also leaves nothing behind when you move.</p>"
+  ],
+  [
+   "Check the rating before you plug in",
+   "<p>Look at the label on the controller. Most plug-in units are rated around 10 amps. A household fridge or chest freezer draws far less than that while running, but compressors take a short surge at start-up. A small heater on the heating socket adds its own load.</p><p>Plug the controller straight into a wall socket. Avoid stacking it on a cheap multi-plug or a loose travel adapter. If the controller has a plug type that does not match Indian sockets, use a properly rated adapter with an earth pin, not a two-pin converter.</p>"
+  ],
+  [
+   "The four settings that matter",
+   "<ul><li><strong>Set point.</strong> The target temperature for the beer, for example 19 °C for a clean ale.</li><li><strong>Differential, also called hysteresis.</strong> How far the temperature can drift before the controller acts. Around 0.5 °C works for most setups. Too small and the fridge switches on and off constantly. Too large and the beer swings.</li><li><strong>Compressor delay.</strong> The minimum time before the cooling socket can switch back on. A few minutes protects the compressor from short cycling.</li><li><strong>Calibration offset.</strong> A correction if the probe reads high or low. Check it before first use.</li></ul><p>Some controllers also have alarms for high and low temperature. Set them two or three degrees either side of the set point so you notice a failure.</p><p>Write your settings on a strip of masking tape stuck to the controller. After a power cut some cheaper units reset to factory defaults, which can mean a set point of 10 °C under your ale. A glance at the tape tells you something has changed.</p>"
+  ],
+  [
+   "Calibrate the probe in ice water",
+   "<p>Fill a glass with crushed ice and top it up with cold water. Stir and wait two minutes. A correctly calibrated probe in the middle of the glass reads 0 °C. If yours reads 0.8 °C, set an offset of minus 0.8. Our guide to <a href=\"calibrating-the-thermometer-you-use-on-brew-day.html\">calibrating thermometers</a> uses the same method.</p><p>Repeat it every few months. Probe cables get pinched under lids and readings drift. A probe that reads one degree low means every beer ferments one degree warm without you knowing.</p>"
+  ],
+  [
+   "Put the probe where the yeast is",
+   "<p>Probe placement causes more trouble than any setting. A probe hanging in the air reacts in seconds. The beer reacts over hours. The controller will switch the fridge off when the air hits target while the beer is still warm, then on again, over and over.</p><p>Tape the probe flat against the fermenter wall at mid-height. Cover it with a pad of foam or folded bubble wrap so it reads the vessel, not the air. A thermowell inside the fermenter is the most accurate option. Either way the controller now tracks the beer. Where to set the beer and when to move it is covered in our guide to <a href=\"fermentation-temperature-control-at-home.html\">fermentation temperature control at home</a>.</p>"
+  ],
+  [
+   "Heating and cooling together",
+   "<p>A dual-stage controller can run a heater too. That matters in north Indian winters and for steps like a diacetyl rest, where a lager is raised a few degrees near the end of fermentation. Use a heater sized for a small insulated box, such as a reptile heat mat or a low-wattage tube heater.</p><p>Leave a gap of at least the differential between heating and cooling so the two never fight. Most dual-stage units handle this automatically with one set point. Watch the first day: if the heater and fridge alternate every few minutes, widen the differential. Building a schedule around these steps, rather than holding one number, is where fermentation control starts to shape flavour.</p>"
+  ],
+  [
+   "Set it up with water first",
+   "<p>Plug the controller into the wall, the fridge into the cooling socket and nothing into the heating socket. Calibrate the probe in ice water. Tape it to a fermenter full of water and set 19 °C with a 0.5 °C differential and a compressor delay of a few minutes. Check it after 12 hours. When the water sits at 19 °C, it is ready for beer.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What differential should I use on a fermentation controller?",
+   "About 0.5 °C suits most fridges and freezers. Widen it if the compressor switches on and off every few minutes."
+  ],
+  [
+   "Where should the temperature probe go?",
+   "Taped to the side of the fermenter and covered with insulation, or in a thermowell. A probe in the air tracks the air, not the beer."
+  ],
+  [
+   "Do I need an electrician for a temperature controller?",
+   "Not for a ready-built plug-in controller. A bare panel controller needs proper mains wiring with earthing, which is a job for a qualified electrician."
+  ]
+ ],
+ "cta": {
+  "title": "Turn temperature control into better flavour",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It covers fermentation temperature, yeast behaviour and how to plan a schedule rather than set one number and hope.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "fermentation-temperature-control-at-home",
+  "using-a-swamp-cooler-to-keep-fermentation-cool-without-a",
+  "mash-temperature-guide"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "reading-pressure-and-temperature-charts-for-carbonation",
+ "cat": "Brewing science",
+ "h1": "Reading pressure and temperature charts for carbonation",
+ "title": "Reading Carbonation Pressure Charts | Craft Beer School",
+ "desc": "How to read a carbonation chart, set tank pressure for a target in volumes and correct for altitude, temperature drift and gauge error.",
+ "teaser": "The chart says 0.76 bar at 2 °C for 2.6 volumes. It only works if you know what the chart assumes.",
+ "standfirst": "A carbonation chart links beer temperature, gauge pressure and dissolved carbon dioxide. Read it right and you can carbonate a tank without guessing. Read it wrong and every keg pours foam. Here is how to use one properly.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the chart actually shows",
+   "<p>A carbonation chart shows equilibrium. For a given beer temperature and head pressure, it tells you how much carbon dioxide the beer will hold once it has settled. Carbonation is usually given in volumes: one volume means the beer holds its own volume of carbon dioxide gas measured at standard conditions, about 1.96 g per litre.</p><p>Temperature runs down one side, pressure across the top and volumes fill the grid. Find your temperature, read across to the volume you want and the column header is the pressure to set. Some charts print psi, some bar. Check which before you set the regulator.</p>"
+  ],
+  [
+   "A few numbers worth knowing",
+   "<p>From a standard equilibrium table, approximate gauge pressures at sea level:</p><ul><li>0 °C: 2.4 volumes at about 0.50 bar (7 psi), 2.6 volumes at about 0.63 bar (9 psi).</li><li>2 °C: 2.6 volumes at about 0.76 bar (11 psi).</li><li>4 °C: 2.6 volumes at about 0.89 bar (13 psi).</li><li>10 °C: 2.6 volumes at about 1.30 bar (19 psi).</li></ul><p>The pattern is the point. Every couple of degrees warmer needs roughly another 0.13 bar to hold the same carbonation. A beer warming in the cellar under a fixed pressure will slowly lose gas. A beer chilling under a fixed pressure will slowly pick it up.</p>"
+  ],
+  [
+   "Charts assume sea level",
+   "<p>Gauges read pressure above the surrounding air, not absolute pressure. Most charts assume sea level air pressure. At altitude, the air pushes back less, so the same gauge reading gives less absolute pressure and the beer holds less gas.</p><p>The correction is small but real. Bengaluru sits at roughly 900 metres, where air pressure is about 0.1 bar lower than at sea level. To hit the chart's carbonation there, add about 0.1 bar to the gauge setting. A brewery in Pune needs a little less correction. One in a hill town needs more.</p>"
+  ],
+  [
+   "Equilibrium takes time",
+   "<p>The chart tells you where the beer will end up, not how fast it gets there. Gas dissolving through the surface of a still tank can take a week or more. Carbonation stones speed it up. So does setting pressure and leaving a cold keg undisturbed for several days.</p><p>Brewers who crank pressure up to carbonate faster often overshoot. Once the beer passes the target, the only way back is to vent and wait, which is slow and wastes gas. Set the chart pressure, then measure. Our guide to <a href=\"measuring-carbonation.html\">measuring carbonation</a> covers the instruments.</p>"
+  ],
+  [
+   "Where the chart goes wrong",
+   "<p>A chart is only as good as the numbers you feed it. Common errors:</p><ul><li><strong>Wrong temperature.</strong> The tank probe may not reflect the beer in the cone or at the top. Use the beer temperature, not the room or glycol temperature.</li><li><strong>Gauge error.</strong> Cheap gauges drift. Check them against a calibrated reference every few months.</li><li><strong>Beer differences.</strong> Charts are built for water-like solutions. Strong or sweet beers hold slightly less gas, so treat the chart as a starting point.</li><li><strong>Not waiting.</strong> Reading carbonation before equilibrium gives a low number and tempts you to raise pressure.</li></ul>"
+  ],
+  [
+   "Using charts for dispense",
+   "<p>The same physics governs kegs on a bar. Beer at 3 °C carbonated to 2.6 volumes needs its keg held at the chart pressure for that temperature, plus the altitude correction. Too low and it goes flat over the keg's life. Too high and it slowly over-carbonates, then pours foam. Line length and restriction are a separate balance, but they start from the correct keg pressure.</p><p>If customers complain about flat or foamy beer, check the keg temperature and pressure against the chart before blaming the line. Our guide to <a href=\"fixing-homebrew-carbonation.html\">fixing carbonation problems</a> works through other causes. The <a href=\"reading-a-fermentation-curve.html\">fermentation curve</a> matters too, because residual sugar in a keg can raise carbonation after the fact.</p>"
+  ],
+  [
+   "Print one for the cellar wall",
+   "<p>Make a chart for your own brewery. Use your altitude correction, your house beers' target volumes and the temperatures your cellar actually runs at. Put it next to the regulators. Then check one tank this week: read beer temperature, read the gauge and see where it lands on your chart.</p><p>If the tank sits more than 0.1 bar away from where your chart says it should be for the target, find out why before the beer is packaged. It is usually the probe, the gauge or a tank that has not reached equilibrium. Each of those is cheap to fix now and expensive to fix in a keg.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a volume of CO2?",
+   "One volume means the beer holds its own volume of carbon dioxide gas at standard conditions. It equals about 1.96 g of carbon dioxide per litre."
+  ],
+  [
+   "Do I need to adjust carbonation pressure for altitude?",
+   "Yes. Charts assume sea level. At about 900 metres, as in Bengaluru, add roughly 0.1 bar to the gauge setting."
+  ],
+  [
+   "Why is my keg getting flatter?",
+   "Usually the keg is warmer than the chart temperature for its pressure, or pressure is set too low. Check both against the chart."
+  ]
+ ],
+ "cta": {
+  "title": "Carbonate from physics, not habit",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers gas solubility, carbonation methods, dispense and measurement, so you can set any tank or keg to a target and hold it there.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "fixing-homebrew-carbonation",
+  "measuring-carbonation",
+  "reading-a-fermentation-curve"
+ ]
+}

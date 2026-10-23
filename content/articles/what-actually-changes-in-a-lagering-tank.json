@@ -1,0 +1,67 @@
+{
+ "slug": "what-actually-changes-in-a-lagering-tank",
+ "cat": "Brewing science",
+ "h1": "What actually changes in a lagering tank",
+ "title": "What Changes in a Lagering Tank | Craft Beer School",
+ "desc": "What happens to beer during cold lagering: yeast settling, haze, sulphur, diacetyl and carbonation, plus how long each change really takes.",
+ "teaser": "Lagering looks like nothing happening in a cold tank. Quite a lot is happening. Some of it is finished sooner than you think.",
+ "standfirst": "Every lager spends time cold before it is packaged. Brewers argue about how long. The answer depends on which changes you are waiting for, so it helps to know what each one is and how fast it runs.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Green beer is not finished beer",
+   "<p>At the end of primary fermentation a lager is called green beer. The sugar is mostly gone, but the beer is hazy with yeast and protein, carries some sulphur and has a raw, slightly sharp edge. It tastes like a lager in outline but not in detail.</p><p>Lagering means holding that beer cold, traditionally close to 0 °C, for days to weeks. The word comes from the German for storage. Old breweries lagered in cellars for months. A modern brewery usually does it in a cylindroconical tank or a dedicated conditioning tank, often after a warm diacetyl rest. Our guide to <a href=\"lagering-explained.html\">lagering explained</a> covers the history. Here we look at what changes in the tank.</p>"
+  ],
+  [
+   "Yeast drops out and takes flavour with it",
+   "<p>The most visible change is clarification. Cold temperatures make yeast cells clump together and settle into the cone. The faster you chill, the faster they drop. Most of the yeast is down within the first few days at 0 to 2 °C.</p><p>Yeast strains differ here. Highly flocculent strains drop in a day or two. Powdery strains stay in suspension longer and may need more time, a fining agent or a centrifuge. Know which kind your house strain is before you plan the schedule.</p><p>Removing that yeast matters for flavour as well as looks. Yeast left in contact with beer for a long time, especially warm, begins to break down and release savoury, meaty flavours. That is why brewers dump the cone early and again during long lagering. In a unitank, a regular yeast dump is the cheapest quality step you can take.</p>"
+  ],
+  [
+   "Chill haze forms and settles",
+   "<p>Beer contains proteins and polyphenols from malt and hops. At warm temperatures they stay dissolved. At near-zero temperatures some of them bind together into particles that scatter light, giving chill haze. Lagering gives those particles time to form and settle out, so the finished beer stays brighter when a customer chills it.</p><p>This is the slowest change in the tank. Haze stability keeps improving for weeks at 0 °C, which is one reason long traditional lagering produced such bright beer. Breweries that lager for a short time often rely on filtration or stabilising agents such as silica gel or PVPP to finish the job.</p>"
+  ],
+  [
+   "Sulphur fades and diacetyl is cleaned up",
+   "<p>Lager yeast produces hydrogen sulphide and other sulphur compounds during fermentation. Some of it escapes with the carbon dioxide during primary. More fades during conditioning, especially if the beer is still releasing a little gas. A lager that smells faintly of struck match at the end of primary is normal. One that still smells of it after two weeks cold needs attention.</p><p>Diacetyl is different. Yeast reabsorbs it best when warm, which is why most brewers run a <a href=\"diacetyl-rest.html\">diacetyl rest</a> at 14 to 18 °C before chilling. Once the beer is at 0 °C, diacetyl removal slows almost to a stop. Lagering does not fix a diacetyl problem. The rest does.</p>"
+  ],
+  [
+   "Carbon dioxide dissolves more easily when cold",
+   "<p>Cold beer holds far more dissolved carbon dioxide than warm beer at the same pressure. That is why lagering tanks are often held under a little top pressure. Some brewers carbonate naturally by capping the tank (spunding) before fermentation finishes, so the last of the sugar carbonates the beer. Others carbonate with gas in the bright tank.</p><p>Acetaldehyde, the green apple note of young beer, also falls while yeast is still active in the early days of conditioning. If you crash the beer too early, before the yeast has finished, it stays behind. That is another reason to confirm fermentation is truly complete before the temperature drops.</p><p>Either way, the target is usually around 2.5 volumes of carbon dioxide for a lager. Our guide to <a href=\"measuring-carbonation.html\">measuring carbonation</a> shows how to check it rather than assume it. A tank that sits at 0 °C for a week under steady pressure gives a consistent result.</p>"
+  ],
+  [
+   "How long is long enough",
+   "<p>Traditional lagering ran four to eight weeks or more. Many modern breweries lager for one to three weeks after a proper diacetyl rest. The yeast, sulphur and carbonation changes are mostly finished in that time. Haze stability and the rounding of flavour keep going, but with smaller gains each week.</p><p>In India the cost of a cold tank is real. Holding 0 °C when the plant room is at 35 °C uses a lot of power. A tank sitting cold is also a tank not brewing. So the right lagering time is the shortest one that meets your clarity and flavour targets, measured rather than guessed.</p><p>Your first step: next time you lager, pull a small sample every three or four days. Note clarity, aroma and taste. You will see where the changes stop being worth the wait.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should a lagering tank be?",
+   "Traditionally close to 0 °C. Many breweries hold 0 to 2 °C, cold enough to settle yeast and haze without freezing the beer."
+  ],
+  [
+   "Does lagering remove diacetyl?",
+   "Not much. Diacetyl is cleaned up by the yeast during a warm rest before chilling. At 0 °C the process nearly stops."
+  ],
+  [
+   "How long should I lager my beer?",
+   "Many modern breweries lager for one to three weeks after a diacetyl rest. Longer lagering keeps improving haze stability, with smaller gains over time."
+  ],
+  [
+   "Why do brewers dump yeast during lagering?",
+   "Yeast left in contact with the beer for too long breaks down and releases savoury, meaty flavours. Regular dumps keep the beer clean."
+  ]
+ ],
+ "cta": {
+  "title": "Learn what is happening inside every tank",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers fermentation, maturation, haze and carbonation from the yeast cell up, so your conditioning decisions rest on mechanisms.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "lagering-explained",
+  "measuring-carbonation",
+  "monotanking-in-a-unitank"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "oxygen-saturation-of-wort-and-how-to-measure-it",
+ "cat": "Brewing science",
+ "h1": "Oxygen saturation of wort and how to measure it",
+ "title": "Wort Oxygen Saturation and Measurement | Craft Beer School",
+ "desc": "How much oxygen wort can hold with air or pure oxygen, the targets for ales and lagers and how to measure dissolved oxygen at knockout.",
+ "teaser": "Air can only take wort so far. Knowing the limit tells you when you need pure oxygen.",
+ "standfirst": "Yeast need dissolved oxygen at the start of fermentation to build healthy cells. How much wort can hold depends on temperature, gravity and whether you use air or pure oxygen. Here is how to know what you are actually getting.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Yeast need oxygen once, at the start",
+   "<p>Brewing yeast use oxygen early in fermentation to make sterols and unsaturated fatty acids. Those go into their cell membranes and let them grow and multiply. After the first hours, oxygen is no longer useful. In finished beer it is the enemy.</p><p>So wort gets a measured dose at knockout and almost nothing afterwards. Our guide to <a href=\"wort-aeration-and-oxygen.html\">wort aeration and oxygen</a> covers the yeast side in more detail.</p>"
+  ],
+  [
+   "Air saturation sets a ceiling",
+   "<p>Air is about 21% oxygen. Wort bubbled with air until it can hold no more reaches air saturation. For a typical wort at 12 °P around 15 to 20 °C that is in the region of 8 mg/L. Water holds a little more. Stronger wort holds less, because sugar reduces gas solubility. Warmer wort holds less too.</p><p>That ceiling explains a common frustration. Many lagers and high gravity beers want more than air can deliver. No amount of extra bubbling with air will push a 16 °P wort past its saturation point.</p>"
+  ],
+  [
+   "Pure oxygen goes much higher",
+   "<p>With pure oxygen through a sintered stainless stone, wort can carry several times the air saturation figure. That makes it easy to hit higher targets. It also makes it easy to overshoot.</p><p>Typical targets used by many breweries:</p><ul><li>Ales at standard gravity: roughly 8 to 10 mg/L.</li><li>Lagers and higher gravity worts: often 10 to 12 mg/L or a little more.</li></ul><p>Your yeast supplier's recommendation for the strain is a better guide than a general table. Too much oxygen can drive excessive yeast growth, changing ester balance and using extract that should have become alcohol.</p>"
+  ],
+  [
+   "Where to put the stone",
+   "<p>Oxygen dissolves best in cold wort under pressure with fine bubbles. The usual place is in-line on the knockout main, after the heat exchanger and before the fermenter. The wort is already cool and the line is pressurised.</p><p>Bubbles that reach the fermenter undissolved are wasted. If you see large bubbles in a sight glass after the stone, the flow is too high or the stone is clogged. Clean stones by soaking and back-flushing. A partly blocked stone gives fewer, bigger bubbles and lower dissolved oxygen even at the same flow meter setting.</p>"
+  ],
+  [
+   "Measuring dissolved oxygen",
+   "<p>A rotameter on the oxygen line tells you how much gas went in, not how much dissolved. To know that, you need a dissolved oxygen meter.</p><ol><li>Optical, or luminescent, sensors are robust and need little maintenance. Many breweries now use them.</li><li>Electrochemical sensors work well but need membrane and electrolyte care.</li></ol><p>Measure in-line with a flow-through cell if you can, a few metres after the stone. A sample poured into a beaker picks up air from the room and reads high or low depending on what happened at the tap. Read in mg/L and note the wort temperature at the same time. Our guide to <a href=\"measuring-dissolved-oxygen.html\">measuring dissolved oxygen</a> covers meter care and calibration.</p>"
+  ],
+  [
+   "Oxygen elsewhere in the process",
+   "<p>Dissolved oxygen in wort is wanted. In the mash, during transfers and above all in packaged beer, it is not. The same meter you use at knockout should check bright beer and packaged beer, where values are measured in micrograms per litre rather than milligrams.</p><p>For the packaged end, see <a href=\"total-package-oxygen-and-how-to-measure-it.html\">total package oxygen</a>. For the hot side, our guide to <a href=\"low-oxygen-brewing-and-whether-wort-oxidises-in-the-mash.html\">low oxygen brewing</a> looks at whether mash oxidation matters.</p>"
+  ],
+  [
+   "Matching oxygen to the pitch",
+   "<p>Oxygen and pitch rate work together. A high pitch of healthy yeast needs less growth, so it needs less oxygen. A low pitch or a tired slurry needs more growth and more oxygen. Record both together so you can see the pattern in your fermentation curves.</p><p>When a lager tank ferments slowly, the oxygen record is often missing. That leaves only guesses.</p><p>Temperature matters to the meter as well as the wort. Oxygen solubility rises as wort cools, so 9 mg/L at 10 °C and 9 mg/L at 20 °C are different fractions of saturation. Log both the reading and the temperature. If your knockout temperature drifts upward in summer because cooling water from the borewell is warmer, your oxygen pickup can change without anyone touching the oxygen valve.</p><p>Some brewers aerate only part of the knockout, for example the first half of the transfer. That makes the average hard to know. If you do it, measure at several points through the transfer rather than once.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>If you have a dissolved oxygen meter, take one in-line reading at knockout on your next brew and note the oxygen flow and wort temperature. If you do not, ask your supplier or a nearby brewery to lend one for a day. One measured value is worth more than a year of flow meter settings.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much oxygen can wort hold with air?",
+   "Around 8 mg/L for a typical 12 °P wort at 15 to 20 °C. Stronger or warmer wort holds less."
+  ],
+  [
+   "What dissolved oxygen should I target?",
+   "Many breweries aim for about 8 to 10 mg/L for ales and 10 to 12 mg/L for lagers and stronger worts. Follow your yeast supplier for the specific strain."
+  ],
+  [
+   "Where should I measure wort oxygen?",
+   "In-line after the oxygen stone with a flow-through cell. Open samples pick up air and give unreliable readings."
+  ]
+ ],
+ "cta": {
+  "title": "Give your yeast the start it needs",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers yeast physiology, oxygen and fermentation control, so dosing and pitching become measured decisions rather than habits.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "wort-aeration-and-oxygen",
+  "low-oxygen-brewing-and-whether-wort-oxidises-in-the-mash",
+  "total-package-oxygen-and-how-to-measure-it"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "new-make-strength-and-cut-points",
+ "cat": "Whisky",
+ "h1": "New make strength and cut points",
+ "title": "New Make Strength and Cut Points | Craft Beer School",
+ "desc": "Typical new make spirit strength, where malt distillers make their cuts and how cut points and fermentation shape the spirit that goes into cask.",
+ "teaser": "Your new make strength is a number. Your cut points are a style decision. This guide connects the two.",
+ "standfirst": "New make spirit from a pot still usually averages around 68 to 72% ABV. That average hides a run that started stronger and ended weaker. This guide explains how the cut points produce the number and what moving them does.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "New make is an average",
+   "<p>New make is the hearts collected from a spirit still run, mixed in the spirit receiver. From a malt whisky pot still it typically averages about 68 to 72% ABV. That figure is the result of every litre collected between the first cut and the second.</p><p>If the hearts run starts at 75% ABV and ends at 65%, the average lands near 70%. Narrow the cut and the average rises. Widen it and the average falls. So new make strength tells you something about your cut, as long as the charge strength is steady.</p>"
+  ],
+  [
+   "The two cuts and what they decide",
+   "<p>The first cut, from foreshots to hearts, removes the sharp, solvent like compounds and oils. It is usually made once the demisting test in the spirit safe stays clear, often in the low to mid 70s ABV.</p><p>The second cut, from hearts to feints, sets how much weight the spirit carries. Cut at around 68% ABV and the new make is light and fruity. Cut nearer 60% and it carries oily, nutty, cereal and meaty notes. Our guide to <a href=\"heads-hearts-and-tails-in-making-the-cut.html\">heads, hearts and tails</a> explains what each part smells like.</p>"
+  ],
+  [
+   "Fermentation sets the raw material",
+   "<p>Cut points can only select from what the wash put in. A long fermentation of 70 hours or more typically gives more fruity esters than a short one of around 48 hours. Clear wort tends to give a cleaner, fruitier spirit than cloudy wort. Yeast choice, temperature and bacteria all change the congeners going into the still.</p><p>So two distilleries cutting at identical strengths can make very different spirit. Our guide to <a href=\"fermentation-length-and-its-effect-on-new-make.html\">fermentation length and its effect on new make</a> covers that link.</p>"
+  ],
+  [
+   "Strength to cask is a separate decision",
+   "<p>New make at 70% ABV is usually reduced with clean, soft water before filling. Many Scotch distilleries fill at around 63.5% ABV. Bourbon must be entered into the barrel at no more than 62.5% ABV. Some craft distillers fill lower, nearer 55%, believing it extracts different flavours from the oak.</p><p>Whatever you choose, record it and keep it the same for each spirit type. A change in filling strength changes how the spirit matures. That makes it hard to compare casks laid down in different years.</p>"
+  ],
+  [
+   "Why strength readings need temperature correction",
+   "<p>A hydrometer reads density. Density changes with temperature. Spirit is usually measured at a reference temperature of 20 °C. A reading taken on warm spirit at 30 °C will show a higher apparent strength than the real value. Without correction, your cut points and new make strength are off by more than you might think.</p><p>Spirit safe thermometers exist for this reason. Use correction tables or a digital density meter that corrects automatically. In Indian summers, where spirit at the safe can run well above 20 °C, this is not a fine detail. Our guide to <a href=\"measuring-alcohol-strength-with-temperature-correction.html\">measuring alcohol strength with temperature correction</a> shows how to do it.</p>"
+  ],
+  [
+   "What the numbers look like in a real run",
+   "<p>Here is a simple worked example for a small pot still. A charge of 600 litres at 28% ABV holds 168 litres of pure alcohol. Suppose the hearts collected are 140 litres at an average of 70% ABV. That is 98 litres of pure alcohol, or about 58% of the pure alcohol in the charge. Nearly all the rest goes to the feints receiver as foreshots and feints, to come back in later charges.</p><p>Run that sum every time. A hearts share that sits close to the same figure each run is a good sign. A share that jumps by several points tells you a cut moved, even if nobody remembers moving it.</p>"
+  ],
+  [
+   "Checking cut points with records",
+   "<p>For each spirit run, log the charge strength and volume, the time and strength of each cut and the hearts volume and average strength. Work out litres of pure alcohol in the hearts as a share of pure alcohol in the charge. That ratio, run after run, is a simple consistency check.</p><ul><li>If hearts share rises and new make strength falls, your second cut has crept lower.</li><li>If new make strength rises sharply, check the first cut and the charge strength.</li><li>If both move together, look at the feints receiver.</li></ul><p>On a 500 litre spirit still, a drift of one percent in cut strength can change hearts volume by several litres per run. Over a year that is a different whisky in your warehouse.</p>"
+  ],
+  [
+   "Choosing cuts for a new distillery",
+   "<p>Start by deciding the style you want to bottle in five or ten years. Then set conservative cuts, collect the run in small fractions for the first weeks and nose each fraction diluted to about 20% ABV. Fix your cut points from that work and stick to them. Change them only on purpose and in small steps.</p><p>That process is easy to describe and hard to do well without guidance on what to smell for and how to read the numbers.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What strength is new make spirit?",
+   "Malt whisky new make from a pot still typically averages around 68 to 72% ABV, depending on the cut points and the strength of the spirit still charge."
+  ],
+  [
+   "Why do distillers reduce new make before filling casks?",
+   "Filling strength affects how the spirit extracts flavour from oak. Many Scotch distilleries fill around 63.5% ABV and bourbon must enter the barrel at no more than 62.5% ABV."
+  ],
+  [
+   "Does a lower cut give a heavier spirit?",
+   "Yes. Cutting from hearts to feints at a lower strength brings in more oily, nutty and cereal compounds, giving a heavier new make."
+  ],
+  [
+   "Can cut points fix a poor fermentation?",
+   "Only partly. Cuts select from what the wash contains. Off flavours from infection or stressed yeast often carry into the hearts whatever the cut."
+  ]
+ ],
+ "cta": {
+  "title": "Set cut points that match your style",
+  "body": "Craft Distilling is our four week live course (₹9,999), on Saturdays and Sundays with recordings and a certificate. It covers fermentation, both distillations, cut points and filling strength, so the spirit you make today is the whisky you meant to bottle.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "fermentation-length-and-its-effect-on-new-make",
+  "esters-in-new-make-spirit",
+  "sourcing-new-make-from-another-distillery"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "cooking-maize-and-wheat-for-grain-whisky",
+ "cat": "Whisky",
+ "h1": "Cooking maize and wheat for grain whisky",
+ "title": "Cooking Maize and Wheat for Grain Whisky | Craft Beer School",
+ "desc": "How to cook maize and wheat for grain whisky: milling, gelatinisation temperatures, viscosity control, cooling and the faults that cost yield.",
+ "teaser": "Maize needs real heat before its starch is any use. Wheat needs less heat but more care with stickiness. Here is how both are cooked.",
+ "standfirst": "Cooking is the step that makes raw cereal starch available to enzymes. It is simple in principle and easy to get wrong in a small distillery, where a stuck, lumpy mash can cost a day and a large share of the yield.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why grain is cooked at all",
+   "<p>Starch in maize and wheat sits in tight granules that enzymes cannot get into. Heating the grain in water swells and bursts those granules, a process called gelatinisation. Only then can amylase enzymes, from malt or from a supplier, break the starch into sugar for the yeast.</p><p>Malted barley gelatinises within normal mash temperatures, so a malt distillery never needs a separate cook. Maize and rice do not, which is why grain distilleries have a cooker ahead of the mash. Our guide to <a href=\"grains-in-whisky-corn-rye-wheat-rice.html\">grains in whisky</a> explains why distillers choose each cereal in the first place.</p>"
+  ],
+  [
+   "Mill for the cook, not for a lauter tun",
+   "<p>Grain whisky mashes are usually fermented and distilled with the solids still in, so the husk structure a malt distiller protects in the mill does not matter. Maize is typically hammer milled to a fine meal so water and heat reach the starch quickly.</p><p>Fine meal brings dust. Grain dust in an enclosed mill room is an explosion hazard, so mill rooms need dust extraction, earthing and spark-free equipment. Store maize dry and cool. In humid Indian monsoon weather, damp maize can grow moulds that produce aflatoxins, which you do not want in your grain stream or your cattle feed. Reject wet or musty lots at intake. A simple moisture meter at the gate, with a rejection limit agreed with the supplier in writing, prevents most of these arguments.</p>"
+  ],
+  [
+   "Cooking maize",
+   "<p>Maize starch gelatinises at roughly 62 to 74 °C, but in practice it is cooked hotter and longer to make sure every granule is open. Atmospheric cookers commonly bring the mash to around 90 to 100 °C and hold it. Some larger plants cook under pressure at higher temperatures, which is faster but needs pressure rated vessels and more steam.</p><p>A practical sequence:</p><ol><li>Mix the meal into water at a ratio from your recipe, often around three litres of water per kilogram of grain.</li><li>Add thermostable alpha amylase if your rules allow, or a small amount of malt, early to stop the mash thickening.</li><li>Heat steadily to cooking temperature with good agitation.</li><li>Hold for the time in your SOP, typically 30 to 90 minutes.</li><li>Cool to conversion temperature before adding the main malt or glucoamylase.</li></ol>"
+  ],
+  [
+   "Viscosity is the enemy",
+   "<p>As maize starch gelatinises the mash thickens sharply. Without thinning enzymes it can set like porridge, overload the agitator and scorch on hot surfaces. That is the most common fault in small grain distilleries. The fix is enzyme or malt added before the thick stage, steady heating rather than a fast ramp and an agitator sized for the worst case, not the average.</p><p>Wheat behaves differently. Its starch gelatinises at a lower temperature than maize, within the normal mashing range, so it does not need such a hot cook. But wheat brings gums and proteins that make the mash sticky and foamy. Beta glucanase and xylanase help. Some distillers add wheat to an already cooked and cooling maize mash rather than cooking it from cold.</p>"
+  ],
+  [
+   "Cool to the right temperature, then convert",
+   "<p>After cooking the mash must come down to conversion temperature, usually around 60 to 65 °C, before malt is added. Add malt too hot and its beta amylase dies within minutes. Cool too slowly and bacteria start working on a warm, sugary mash.</p><p>In a hot climate the final cooling to washback set temperature is often the bottleneck. Cooling water that arrives at 30 °C cannot bring a mash down to 20 °C on its own. Plan heat exchanger area and a chilled water stage for May, not December. Our guide to <a href=\"enzymes-for-grain-whisky-mashing.html\">enzymes for grain whisky mashing</a> covers the conversion step that follows.</p>"
+  ],
+  [
+   "Check the cook with an iodine test",
+   "<p>Your yield is set here. Starch that is not gelatinised cannot be converted. Starch that is not converted cannot ferment. Take a small sample after conversion, add a drop of iodine solution and look at the colour. Blue black means starch is still there. Track the result alongside litres of pure alcohol per tonne of grain.</p><p>Your first step: on your next maize cook, log temperature every ten minutes from the start of heating to the end of the hold, plus the agitator load if you can read it. One clear temperature curve shows where the cook is too fast, too short or too cool. It then becomes the basis of your cooking SOP.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "At what temperature does maize starch gelatinise?",
+   "Roughly 62 to 74 °C, but distillers usually cook hotter, often 90 to 100 °C at atmospheric pressure, to open every granule."
+  ],
+  [
+   "Why does a maize mash turn thick during cooking?",
+   "Gelatinising starch absorbs water and swells. Adding thermostable alpha amylase or some malt early keeps the mash thin enough to stir."
+  ],
+  [
+   "Does wheat need the same cook as maize?",
+   "No. Wheat starch gelatinises at a lower temperature, but wheat mashes are stickier and benefit from gum-degrading enzymes."
+  ]
+ ],
+ "cta": {
+  "title": "Cook and convert grain without losing yield",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers grain selection, cooking, conversion and fermentation for grain whisky, with the yield checks that tell you each step is working.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "grains-in-whisky-corn-rye-wheat-rice",
+  "how-whisky-is-made",
+  "malt-grain-and-blended-whisky"
+ ]
+}

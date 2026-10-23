@@ -1,0 +1,71 @@
+{
+ "slug": "fermentation-length-and-its-effect-on-new-make",
+ "cat": "Whisky",
+ "h1": "Fermentation length and its effect on new make",
+ "title": "Fermentation Length and New Make Spirit | Craft Beer School",
+ "desc": "How short and long whisky fermentations change new make spirit: esters, lactic bacteria, acidity and the cost of washback time.",
+ "teaser": "Two days or four? The clock in the washback is one of the cheapest ways to change a malt spirit.",
+ "standfirst": "Most of the alcohol in a whisky wash is made in the first two days. What happens after that changes the flavour of the new make, sometimes more than any change at the still.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The alcohol is made early",
+   "<p>In a typical malt whisky washback, yeast does most of its work in the first 36 to 48 hours. Gravity falls fast, alcohol climbs towards 7% to 9% ABV and the temperature rises. By the end of the second day, most fermentable sugar is gone and the yeast is slowing down. A wash distilled at that point gives nearly all the alcohol it ever will.</p><p>So why do some distilleries leave the wash for three, four or even five days? Because the flavour is still changing even when the alcohol has mostly stopped.</p>"
+  ],
+  [
+   "Short fermentations and heavier spirit",
+   "<p>A short fermentation, around 48 hours, is efficient. It frees washbacks quickly and gives high throughput from fewer vessels. The new make it produces is often described as heavier, more cereal, nutty or malty, with less fruit. Some sulphur compounds can be higher too, which the stills then need to strip.</p><p>That is not a fault. Many distilleries want a robust spirit that stands up to long maturation in active casks. The point is to choose it, not to drift into it.</p>"
+  ],
+  [
+   "Long fermentations and fruitier spirit",
+   "<p>Leave the wash longer, often 70 hours or more. Two things happen. The yeast keeps producing and rearranging flavour compounds as it runs out of sugar. And lactic acid bacteria, which grow slowly in the background, take over once the yeast fades. They produce lactic acid and other compounds. In the wash and later in the still, acids and alcohols react to form esters, the fruity and floral compounds many distillers prize.</p><p>The new make from a long fermentation is usually described as lighter, fruitier and more complex. Our guide to <a href=\"esters-in-new-make-spirit.html\">esters in new make spirit</a> goes deeper on where the fruit comes from.</p>"
+  ],
+  [
+   "The cost of washback time",
+   "<p>Long fermentations need more washbacks for the same output. Suppose your stills can run one wash charge a day. With a 48 hour fermentation you need two or three washbacks to keep them fed. With a 96 hour fermentation you need four or five. That is extra capital, floor space and cleaning for every washback added.</p><p>Many distilleries run a mix: short fermentations during the week and longer ones over the weekend, when the stills are idle. That can give two spirit styles that are blended or filled into different casks. If you do that, record fermentation length on every cask so the spirit can be traced. Our guide to <a href=\"new-make-strength-and-cut-points.html\">new make strength and cut points</a> covers the still side of the trace.</p>"
+  ],
+  [
+   "When long becomes too long",
+   "<p>Lactic activity is welcome in moderation. Push too far and the wash turns sour, the pH drops too low and unwanted bacteria can join in. Some produce volatile acids or harsh, peppery notes that carry through to the spirit. Alcohol can even be lost if acetic bacteria get oxygen. Watch the end pH and the smell of the wash, every batch, with the same calibrated meter. A wash that smells of vinegar rather than fruit has gone too far.</p><p>Yield can suffer quietly too. If bacteria start early because the wort arrived with a heavy load, they take sugar the yeast would have turned into alcohol. A long fermentation that ends at a lower ABV than your short ones, from the same wort gravity, is a sign that something other than yeast got to the sugar first.</p><p>Hygiene sets the ceiling. A clean washback can run a long fermentation safely. A dirty one turns a long fermentation into an infection. See <a href=\"bacteria-in-long-whisky-fermentations.html\">bacteria in long whisky fermentations</a>.</p>"
+  ],
+  [
+   "Fermentation length in Indian heat",
+   "<p>Warmth speeds everything up. In an Indian washback running in the mid 30s °C, yeast finishes faster and bacteria grow faster. A 96 hour fermentation that is fine in a cool climate may sour in summer. Many Indian distillers find a shorter long fermentation, or a cooler washback, gives the fruit without the risk. Temperature and time have to be set together.</p><p>Reading those two together and knowing which to change when the new make shifts is the part of distilling that no single number teaches.</p>"
+  ],
+  [
+   "Run a length trial on one wort",
+   "<p>Split one mash between two washbacks. Distil one at 48 hours and the other at 72 or 96 hours, recording gravity, pH and temperature for both. Keep the new make separate, cut both to about 20% ABV with water and nose them side by side. Write down where the fruit appears. That is your house data on fermentation length.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does a malt whisky fermentation take?",
+   "Most of the alcohol is made in about 36 to 48 hours. Many distilleries ferment for longer, often 70 hours or more, to build flavour."
+  ],
+  [
+   "Why does a long fermentation make fruitier spirit?",
+   "Yeast keeps producing flavour compounds and lactic bacteria take over late in fermentation. Their acids react with alcohol in the wash and the still to form esters, which smell fruity."
+  ],
+  [
+   "Is a longer fermentation always better?",
+   "No. Too long, especially in heat or with poor hygiene, can sour the wash and add harsh notes to the spirit."
+  ],
+  [
+   "Do long fermentations need more washbacks?",
+   "Yes. For the same still output, longer fermentations tie up each washback for longer, so you need more vessels."
+  ]
+ ],
+ "cta": {
+  "title": "Set fermentation for the spirit you want",
+  "body": "Craft Distilling is our four week live course (₹9,999), Saturdays and Sundays with recordings and a certificate. It links fermentation length, temperature and hygiene to distillation and new make character, so you can design trials and read the results.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "new-make-strength-and-cut-points",
+  "esters-in-new-make-spirit",
+  "sourcing-new-make-from-another-distillery"
+ ]
+}

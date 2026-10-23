@@ -1,0 +1,63 @@
+{
+ "slug": "excise-holograms-and-stamps-explained-for-supply-chain-teams",
+ "cat": "Beer for teams",
+ "h1": "Excise holograms and stamps explained for supply chain teams",
+ "title": "Excise Holograms and Stamps Explained | Craft Beer School",
+ "desc": "What excise holograms and stamps on beer bottles do, how they are issued and reconciled and why a missing label can stop a truck.",
+ "teaser": "That small sticker on a beer bottle is a tax record. Lose a roll of them and you have a compliance problem, not a stationery problem.",
+ "standfirst": "In many Indian states every bottle and can of beer must carry an excise label before it leaves the brewery. Supply chain teams rarely see the labels being applied, yet they plan around them every week.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The label is proof that duty is accounted for",
+   "<p>Alcohol in India is taxed by each state, not by the centre. To make sure every bottle sold has been taxed, many states require a security label on each unit: a hologram, an adhesive excise stamp or a printed code that can be scanned. The label links that one bottle to a permit and a duty record.</p><p>For a supply chain team, the practical meaning is simple. No valid label, no legal sale in that state. A pallet of perfectly good beer without the right labels is stock you cannot move.</p><p>The details differ by state and they change. The format, the issuing body, the security features and any track and trace requirement are set by each state's excise notification. Always check the current rules or ask your excise team before you plan around them.</p>"
+  ],
+  [
+   "How labels reach the packaging line",
+   "<p>The usual pattern is that the brewery requests labels from the state excise department or its authorised supplier, in quantities tied to planned production and duty. The labels arrive in counted rolls or sheets, are logged into a secure store and are issued to the packaging line against a production order.</p><p>On the line, labels are applied by a machine on the labeller or by hand after filling and crowning. A shift that packs 50,000 bottles needs 50,000 labels plus an allowance for the bottles rejected after labelling. Every label is accounted for: applied, damaged, returned to store or destroyed under supervision.</p>"
+  ],
+  [
+   "Reconciliation is the part that bites",
+   "<p>At the end of each shift or day, someone reconciles the count. Labels issued must equal labels applied plus labels spoiled plus labels returned. If 50,000 were issued, 49,600 went on saleable bottles, 300 were spoiled and 100 came back, the books close. If 50 are missing, the shift does not close until they are found or explained.</p><p>The floor detail worth knowing: a label on a bottle that later breaks at the crate packer is still a used label. The broken bottle has to be recorded with its label so the count holds. Lines that skip this step end up with a reconciliation gap that grows every week.</p><p>For planners this means label stock is a real constraint, like glass or crowns. If the labels for a state have not arrived, that state's production cannot pack, however much beer sits in the bright tank.</p>"
+  ],
+  [
+   "One state, one label, one permit",
+   "<p>Because each state taxes alcohol separately, a bottle labelled for one state cannot normally be sold in another. Moving beer across a state border usually needs an export permit from the origin state and an import permit from the destination, with duty and labels matched to the destination's rules.</p><p>That turns one brand into many SKUs. The same 650 ml lager may exist as a separate item for each state it ships to, each with its own label, its own MRP and its own approved brand registration. Our guide to <a href=\"beer-production-planning-basics.html\">production planning</a> shows how this splits a single brew across several packaging runs.</p>"
+  ],
+  [
+   "What breaks when labels go wrong",
+   "<p>Three failures come up again and again. Label stock runs short because the request went in late, so a line stands idle. Labels for the wrong state get applied, so finished stock must be quarantined and relabelled or written off under supervision. The count fails to reconcile, so the excise officer will not clear the despatch until it does.</p><p>Each one shows up in your data as something else: a missed production plan, a stock write off or a truck that sat at the gate for a day. Knowing that a label caused it saves hours of hunting through the wrong system.</p><p>Where a state uses scannable codes, the label also becomes a data source. Each code can tie a bottle to a batch, a line and a despatch. That is useful for recalls and for tracing diverted stock. It also means a master data error, such as the wrong SKU mapped to a code range, travels all the way to the regulator's system. Treat that mapping with the same care as a price list.</p>"
+  ],
+  [
+   "Where to start",
+   "<p>Treat excise labels as a planned material with lead times, not as paperwork. Add them to the material plan for each state SKU, with stock on hand, stock on order and expected consumption including spoilage. Freshness rules still apply on top: our guide to <a href=\"beer-freshness-and-fifo-for-supply-chain-and-warehouse-teams.html\">beer freshness and FIFO</a> covers the warehouse side.</p><p>Your first step: ask the excise or compliance team for last month's label reconciliation for one line. Read where the spoiled and returned numbers came from. You will understand the packaging floor better in an hour than in a month of dashboards.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do beer bottles in India carry holograms?",
+   "Many states require a security label on each bottle or can to show that excise duty has been accounted for. The format and rules vary by state and change, so check the current notification."
+  ],
+  [
+   "Can beer labelled for one state be sold in another?",
+   "Normally not. Moving beer between states usually needs permits from both states, with labels and duty matched to the destination's rules."
+  ],
+  [
+   "What happens if excise labels do not reconcile?",
+   "The shift or despatch usually cannot be cleared until the gap is explained. Labels issued must match labels applied, spoiled and returned."
+  ]
+ ],
+ "cta": {
+  "title": "Show your supply chain team why excise sits inside the plan",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-production-planning-basics",
+  "beer-freshness-and-fifo-for-supply-chain-and-warehouse-teams",
+  "beer-returns-and-breakage-claims-for-supply-chain-teams"
+ ]
+}

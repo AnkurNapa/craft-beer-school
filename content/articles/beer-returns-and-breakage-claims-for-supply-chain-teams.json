@@ -1,0 +1,67 @@
+{
+ "slug": "beer-returns-and-breakage-claims-for-supply-chain-teams",
+ "cat": "Beer for teams",
+ "h1": "Beer returns and breakage claims for supply chain teams",
+ "title": "Beer Returns and Breakage Claims | Craft Beer School",
+ "desc": "How beer breakage and returns happen, why excise makes them harder than other goods and how supply chain teams can cut claims at the source.",
+ "teaser": "A broken bottle of beer is a supply chain loss, an excise event and a quality question at the same time.",
+ "standfirst": "Beer is heavy, fragile and taxed before it reaches the shelf. When a case breaks or comes back, the cost is not just the beer. This guide explains where breakage happens, how returns are handled and what supply chain teams can fix upstream.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Where beer breaks between the line and the shelf",
+   "<p>Most breakage happens at handling points rather than on the road. The usual places are the end of the packaging line, forklift moves in the brewery warehouse, loading and unloading trucks, depot restacking and retail delivery, where cases are often carried by hand. Glass bottles break at all of these. Cans dent and leak, which is less dramatic but just as unsellable.</p><p>Breakage rates are usually highest where cases are handled loose rather than on pallets. In India, much retail delivery still moves loose cases onto smaller vehicles for the last leg, so each extra touch adds risk. A useful first exercise is to tag breakage by where it was found, not just by which depot claimed it.</p>"
+  ],
+  [
+   "Why excise makes breakage more than a write-off",
+   "<p>Beer in India moves under excise control. Duty is usually paid when it leaves bond, so a case broken after removal has already carried its duty. Whether any of that can be recovered depends on the state. So does the way breakage must be recorded. Some states require breakage to be inspected or certified by an excise official before it can be written off or destroyed. Breakage in bond, inside the brewery, is usually recorded in the excise register against permitted allowances.</p><p>The practical effect is that broken stock often cannot just be swept up and binned. It may need to be held, counted and verified. That takes space and time at depots. Rules vary by state and change, so the excise team's current procedure is the one to follow.</p>"
+  ],
+  [
+   "Returns are mostly about dates and damage",
+   "<p>Beer comes back for a few common reasons:</p><ul><li><strong>Near or past best before.</strong> Most packaged lager in India carries a best before of around six months. Stock that sits too long in a depot or outlet is often returned or written off.</li><li><strong>Damaged packaging.</strong> Torn labels, crushed cartons or rusted crowns make beer hard to sell even when the beer is fine.</li><li><strong>Quality complaints.</strong> Haze, flat beer, low fill or an off flavour lead to returns that the quality team must investigate.</li><li><strong>Wrong delivery.</strong> The wrong brand, pack or quantity sent.</li></ul><p>Each reason has a different owner. Lumping them together in one returns number hides which team can fix it.</p>"
+  ],
+  [
+   "Heat turns a returns problem into a quality problem",
+   "<p>Beer is sensitive to heat. Stored warm, a lager ages faster: it can develop stale, papery or sweet sherry-like notes well before its best before date. A truck parked in the sun in May can push the beer inside well above 40 °C. Cases near the roof of a hot depot experience the same thing for weeks.</p><p>This means a return for an off flavour may really be a storage failure. When quality investigates, the batch is often fine at the brewery and stale at the outlet. Our guide to <a href=\"beer-freshness-and-fifo-for-supply-chain-and-warehouse-teams.html\">beer freshness and FIFO</a> covers how stock rotation and storage temperature protect the beer.</p>"
+  ],
+  [
+   "Measuring breakage in a way people can act on",
+   "<p>A single national breakage percentage is easy to report and hard to use. A better set of measures splits it:</p><ul><li>Breakage per 1,000 cases handled at each depot, so large and small sites compare fairly.</li><li>Breakage by stage: line, brewery warehouse, transit, depot and retail.</li><li>Breakage by pack: returnable glass, new glass and cans each behave differently.</li><li>Days from claim to verification, because slow verification ties up space and cash.</li></ul><p>For example, a depot reporting 30 broken cases a month sounds worse than one reporting 10. If the first handles 60,000 cases and the second 10,000, the first is at 0.5 per 1,000 and the second at 1.0 per 1,000. The illustrative numbers make the point: normalise before you compare.</p>"
+  ],
+  [
+   "Fixing breakage at the source",
+   "<p>The cheapest claim is the one that never happens. Common fixes include better pallet patterns and stretch wrapping, corner boards on tall stacks, training for loaders, removing double handling at depots and checking returnable bottles for chips before filling. The traceability on each case also matters, since it lets quality trace a cluster of complaints back to a line, a shift or a truck. Our guide on <a href=\"excise-holograms-and-stamps-explained-for-supply-chain-teams.html\">excise holograms and stamps</a> explains the markings that help with that.</p><p>When the same depot, route or pack keeps appearing in claims, the cause is usually physical and fixable: a bad dock plate, an overloaded vehicle, a pallet pattern that crushes the bottom layer in heat. Fixes like these cost far less than the beer they save.</p><p>A first step: take last month's breakage claims for one depot and tag each by stage and pack. The biggest bar on that chart is where to start.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why can't broken beer just be thrown away?",
+   "Because beer moves under excise control, many states require breakage to be recorded and sometimes verified by an official before it is written off or destroyed."
+  ],
+  [
+   "What is the usual shelf life of packaged beer in India?",
+   "Most packaged lager carries a best before of around six months, though this varies by brand and pack."
+  ],
+  [
+   "Does heat really damage beer?",
+   "Yes. Warm storage speeds up staling, so beer kept hot in trucks or depots can taste old well before its best before date."
+  ],
+  [
+   "How should breakage be measured?",
+   "Per 1,000 cases handled, split by stage and pack, so sites of different sizes can be compared fairly."
+  ]
+ ],
+ "cta": {
+  "title": "Help your supply chain team understand the product they move",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that show how handling and heat change the beer.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-production-planning-basics",
+  "beer-freshness-and-fifo-for-supply-chain-and-warehouse-teams",
+  "excise-holograms-and-stamps-explained-for-supply-chain-teams"
+ ]
+}

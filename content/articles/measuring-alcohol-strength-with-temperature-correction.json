@@ -1,0 +1,67 @@
+{
+ "slug": "measuring-alcohol-strength-with-temperature-correction",
+ "cat": "Whisky",
+ "h1": "Measuring alcohol strength with temperature correction",
+ "title": "Temperature Correction for ABV | Craft Beer School",
+ "desc": "Why hydrometer readings change with temperature, how to correct them with standard tables and when a density meter or a distillation is needed.",
+ "teaser": "A hydrometer reading at 30 °C is not the strength of your spirit. Here is how to turn it into one.",
+ "standfirst": "Alcohol strength is defined at a reference temperature. Measure warmer or colder and the reading moves, sometimes by more than a percent. In an Indian stillhouse that is the normal case, so correction is not optional.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why temperature changes the reading",
+   "<p>A hydrometer measures density. Ethanol and water both expand as they warm, but ethanol expands more, so a warm spirit is less dense and the hydrometer sinks further. It reads stronger than the spirit really is. Cold spirit reads weaker.</p> <p>The effect is not small. Near typical bottling and filling strengths the apparent strength moves by a few tenths of a percent ABV for every degree away from the reference temperature. A sample at 30 °C read against a 20 °C scale can easily look several percent stronger than it is. Across a year of production, that error turns into a real gap between what you think you made and what the excise paperwork says.</p>"
+  ],
+  [
+   "Reference temperatures and the tables",
+   "<p>ABV is defined as the volume of ethanol in 100 volumes of the liquid, both measured at a stated temperature. The international convention, set out in the OIML alcoholometric tables, is 20 °C. American proof gauging uses 60 °F (15.56 °C). Older British practice also used 60 °F. Your instruments, tables and excise authority must all agree on which one you use.</p> <p>Correction tables give the true strength at the reference temperature for each combination of observed reading and observed temperature. You read the hydrometer, read the thermometer and look up the true strength. In India, check which tables and reference temperature your state excise department specifies, because that is the figure your records must use.</p>"
+  ],
+  [
+   "Taking a good hydrometer reading",
+   "<p>Most strength errors come from technique, not the tables. A good routine looks like this:</p> <ul><li>Use a clean, dry cylinder tall and wide enough that the hydrometer floats freely.</li> <li>Let the sample settle close to room temperature and stir it so the temperature is even.</li> <li>Spin the hydrometer gently to free bubbles, then read at eye level at the meniscus point your instrument's certificate specifies.</li> <li>Read the thermometer in the same sample at the same moment.</li> <li>Correct with the tables. Record observed reading, temperature and true strength.</li></ul> <p>Use certified hydrometers with a narrow range. A single instrument covering 0 to 100% ABV is too coarse for gauging. A set of narrow range instruments with calibration certificates is standard practice.</p>"
+  ],
+  [
+   "Density meters and automatic correction",
+   "<p>Digital density meters work on an oscillating U-tube: a small glass tube vibrates at a frequency that depends on the density of the liquid inside. The meter controls or measures the sample temperature and reports the true strength at 20 °C directly. A good bench meter reads to 0.1% ABV or better and removes most of the operator error from reading a hydrometer.</p> <p>They still need care. Check the meter daily with degassed water, which should read a density of 0.9982 g/ml at 20 °C. Make sure no air bubbles sit in the tube and keep a check standard of known strength. A density meter that has not been checked will give wrong answers to three decimal places.</p>"
+  ],
+  [
+   "Obscuration: when density lies",
+   "<p>Density only gives true strength for a pure mix of ethanol and water. Anything else dissolved in the spirit makes it denser, so the hydrometer reads weaker than the real strength. This is called obscuration. New make has almost none. Matured whisky picks up a small amount from the cask. Spirit coloured with caramel, sweetened liqueurs or cream liqueurs can show much more.</p> <p>When obscuration matters, distil a measured sample in a small laboratory still, make the distillate back up to its original volume with water and measure that. It removes the dissolved solids and gives the true alcoholic strength. Our guide to <a href=\"setting-up-a-distillery-quality-control-lab.html\">setting up a distillery QC lab</a> covers the kit.</p>"
+  ],
+  [
+   "Where the numbers go next",
+   "<p>True strength feeds every downstream number: litres of pure alcohol in the receiver, cask fill records, reduction to bottling strength and the label. A label declaring 42.8% ABV must match the bottle within the tolerance your regulations allow. Our guide to <a href=\"reducing-whisky-to-bottling-strength.html\">reducing whisky to bottling strength</a> shows how a strength error early on becomes a label problem later.</p> <p>Knowing when a reading can be trusted, when it needs correction and when it needs a lab distillation is a basic distiller's skill. It is also one that is easy to get slightly wrong for years without noticing.</p>"
+  ],
+  [
+   "Try this tomorrow",
+   "<p>Take one sample of new make. Measure it with your hydrometer at stillhouse temperature, correct it with the tables, then measure the same sample on a density meter or send it to a lab. If the two true strengths differ by more than about 0.2% ABV, find out why before the next fill.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "At what temperature is ABV defined?",
+   "Internationally at 20 °C, following the OIML alcoholometric tables. US proof gauging uses 60 °F. Check which reference your excise authority requires."
+  ],
+  [
+   "Does warm spirit read stronger or weaker on a hydrometer?",
+   "Stronger. Warm spirit is less dense, so the hydrometer sinks further and shows a higher apparent strength."
+  ],
+  [
+   "What is obscuration in spirits?",
+   "The error caused by dissolved solids such as sugar or colour, which raise density and make a hydrometer read weaker than the true strength. A lab distillation removes it."
+  ]
+ ],
+ "cta": {
+  "title": "Measure spirit the way the excise officer will",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers distillation, strength measurement, reduction and the lab habits that keep yield and stock figures honest.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "spirit-receivers-and-measuring-strength",
+  "whisky-label-terms-explained",
+  "distillery-kpis-for-analysts"
+ ]
+}

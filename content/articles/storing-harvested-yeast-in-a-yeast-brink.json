@@ -1,0 +1,71 @@
+{
+ "slug": "storing-harvested-yeast-in-a-yeast-brink",
+ "cat": "Brewing science",
+ "h1": "Storing harvested yeast in a yeast brink",
+ "title": "Storing Harvested Yeast in a Yeast Brink | Craft Beer School",
+ "desc": "How to store harvested yeast in a brink: temperature, venting, stirring, storage time and the checks that tell you the slurry is still fit to pitch.",
+ "teaser": "A yeast brink keeps slurry cold, vented and mixed. Get those three right and the yeast stays fit to pitch.",
+ "standfirst": "Between harvest and repitch, yeast slurry sits in storage. How it is stored decides how it ferments next time. Here is how to run a yeast brink so the slurry comes out as healthy as it went in.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a brink is for",
+   "<p>A yeast brink is a jacketed stainless vessel for holding harvested slurry. It keeps yeast cold, lets carbon dioxide escape and usually has a gentle stirrer. Small breweries often use a jacketed keg or a sealed stainless container in a cold room instead. The principles are the same.</p><p>Stored yeast is alive and slowly using its reserves. Good storage slows that down. Poor storage burns through glycogen and lipids, leaving yeast that look fine under the microscope but ferment slowly.</p>"
+  ],
+  [
+   "Keep it at 2 to 4 °C",
+   "<p>Cold storage is the most important rule. At about 2 to 4 °C yeast metabolism slows right down. At 10 °C it is noticeably faster. Above that, viability falls quickly and the slurry starts to smell of autolysis, a sulphury, meaty note from dying cells.</p><p>Check the slurry temperature itself, not only the jacket or the room. Slurry is thick and can stay warm in the centre for hours after harvest. Gentle stirring helps it cool evenly. In Indian summer conditions, a brink in a warm corner of the cellar with a weak glycol supply can sit well above setpoint without anyone noticing.</p>"
+  ],
+  [
+   "Vent the carbon dioxide",
+   "<p>Yeast keep producing some carbon dioxide in storage. In a sealed container, pressure builds and the slurry stays saturated with gas, which stresses the cells. Vent the brink through a valve or a loose fitting lid with a sanitary seal so gas escapes but air and dust do not get in.</p><p>Some breweries blanket the headspace with carbon dioxide to keep oxygen out. A small amount of oxygen does little harm to cold stored slurry. The bigger concern is keeping out bacteria from the air.</p>"
+  ],
+  [
+   "Stir gently, not constantly",
+   "<p>Yeast settle in storage. Without mixing, the bottom becomes thick and warm while the top thins out. A slow stirrer or occasional gentle mixing keeps temperature and cell density even. That also gives you a representative sample when you count before pitching.</p><p>Do not whip it. Fast stirring shears cells and can draw air into the slurry. Low speed for a few minutes every few hours is plenty for most small brinks.</p>"
+  ],
+  [
+   "How long is too long",
+   "<p>Pitch stored yeast as soon as you can. Many breweries aim to repitch within a few days and treat about a week as the outer limit for good results. The longer yeast sits, the lower its glycogen reserves and the longer the next lag phase.</p><p>Storage time and conditions matter together. Yeast from a strong beer, stored warm, for a week will perform much worse than yeast from a standard lager stored at 2 °C for two days. If you have to store longer, consider pitching a smaller batch first or propagating fresh.</p><p>Most breweries store slurry under a layer of the beer it came from. That keeps the yeast in a familiar environment. Rinsing with sterile water is sometimes used to remove trub or alcohol, but every handling step is a contamination risk and water offers yeast no protection.</p><p>Slurry from beers above about 7% ABV is more stressed by its own alcohol. Store it for the shortest possible time, or use it only for a weaker beer next.</p>"
+  ],
+  [
+   "Check before you pitch",
+   "<p>Before each repitch, count the slurry and check viability. Our guide to <a href=\"yeast-viability-and-vitality.html\">yeast viability and vitality</a> explains the staining. Smell it: fresh slurry smells yeasty and clean. A sulphury, rubbery or meaty smell suggests autolysis. A sour or vinegar note suggests bacteria.</p><p>Plate a sample every few generations to check for contamination. Track lag time, fermentation speed and attenuation on each repitch. Our guide to <a href=\"yeast-growth-phases.html\">yeast growth phases</a> shows what a healthy lag looks like.</p>"
+  ],
+  [
+   "Clean the brink every time",
+   "<p>Empty, clean and sanitise the brink between crops. Yeast residue on the walls or in the valve feeds bacteria, which then meet your next harvest. Treat it like a fermenter: caustic clean, rinse, acid where your chemistry calls for it and sanitise before use.</p><p>Yeast management decisions, such as how long to store, when to discard and when to propagate, go much better with data behind them. Viability, lag time and attenuation together tell the story.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Put a probe thermometer into the middle of your stored slurry, not just the jacket. Record the reading twice a day until you pitch. If it is above 4 °C, fix the cooling before your next harvest.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should harvested yeast be stored at?",
+   "About 2 to 4 °C. Check the slurry itself, because thick slurry stays warm in the middle long after the jacket is cold."
+  ],
+  [
+   "How long can harvested yeast be stored?",
+   "Many breweries aim to repitch within a few days and treat about a week as the outer limit."
+  ],
+  [
+   "Why vent a yeast brink?",
+   "Yeast keep producing carbon dioxide. Venting stops pressure building and keeps the slurry from staying saturated with gas."
+  ]
+ ],
+ "cta": {
+  "title": "Keep your yeast healthy between brews",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers yeast handling, storage, viability testing and microbiology, so every repitch starts as strongly as the first.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "wort-aeration-and-oxygen",
+  "yeast-growth-phases",
+  "yeast-viability-and-vitality"
+ ]
+}

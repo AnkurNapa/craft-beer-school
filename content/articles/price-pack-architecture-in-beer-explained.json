@@ -1,0 +1,62 @@
+{
+ "slug": "price-pack-architecture-in-beer-explained",
+ "cat": "Beer for teams",
+ "h1": "Price pack architecture in beer explained",
+ "title": "Price Pack Architecture in Beer | Craft Beer School",
+ "desc": "How price pack architecture works in beer: pack sizes, price per litre, strength bands and the state excise rules that shape every ladder.",
+ "teaser": "Price pack architecture decides which beer a shopper picks before the brand does. In India, excise draws half the ladder for you.",
+ "standfirst": "Price pack architecture is the deliberate design of which packs a brand sells at which prices. In beer, pack formats, strength and state excise all shape the choices. This guide shows how to build and read a beer price ladder.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Price pack architecture is a designed ladder",
+   "<p>Price pack architecture, often shortened to PPA, is the set of pack sizes and price points a company offers across its brands. The goal is a clear ladder: each pack has a job, each price step means something to the shopper. No two packs fight for the same purchase.</p><p>In beer the packs are physical and they come from the brewery's lines. A brand can only offer the formats the packaging hall can fill: commonly 650 ml returnable bottles, 330 ml bottles, 330 ml and 500 ml cans and kegs for draught. Adding a new format can mean new glass, new change parts or a new line. PPA in beer starts on the packaging floor, not in a pricing workshop.</p>"
+  ],
+  [
+   "Compare packs on price per litre",
+   "<p>Shoppers compare the price on the label. Analysts should compare price per litre, because pack sizes differ. A worked example with illustrative prices:</p><ul><li>650 ml bottle at ₹150: about ₹231 per litre</li><li>500 ml can at ₹130: ₹260 per litre</li><li>330 ml can at ₹100: about ₹303 per litre</li></ul><p>Smaller packs usually cost more per litre. That is normal, because they cost more to make per litre and they suit a different occasion. The question is whether the steps are deliberate. If the 500 ml can is cheaper per litre than the 650 ml bottle, shoppers who notice will switch. The brewery's pack mix will move whether it planned to or not. Our guide to <a href=\"pack-mix-in-beer-sales-draught-bottle-and-can-for-analysts.html\">pack mix in beer sales</a> shows how to track that shift.</p>"
+  ],
+  [
+   "Excise sets much of the price",
+   "<p>Beer in India is taxed by each state. Excise plus state tax often makes up the largest part of the MRP. States calculate excise in different ways: per bulk litre, per case, as a percentage of a declared price or a combination. Some states set one rate for mild beer and another for strong beer, usually above about 5% ABV.</p><p>This has two effects on PPA. First, the same pack can have very different MRPs in different states, so a national price ladder is a fiction. Build one ladder per state. Second, the way a state calculates excise can favour some packs. Where duty is charged per bulk litre, it scales with volume. Where it is a percentage of price, it scales with price. Each structure changes the per litre gap between packs.</p><p>Rules vary by state and change with each excise policy, so check the current notification before setting a ladder.</p>"
+  ],
+  [
+   "MRP rounding and registration add friction",
+   "<p>MRP is printed on the label and registered with the state. Changing it usually means a new registration and new labels, often tied to the excise year. That makes price changes slow and lumpy. Shoppers also see round numbers, so prices tend to sit at ₹100, ₹120 or ₹150 steps, with the pack size or strength doing the fine tuning.</p><p>This is why beer companies often adjust a pack rather than a price. A change in strength band, a different pack size or a new multipack can reset a price point without touching the main SKU. Our guide to <a href=\"beer-skus-and-master-data-pack-size-and-brand-hierarchies.html\">beer SKUs and master data</a> covers how those variants are set up.</p>"
+  ],
+  [
+   "Give each pack a job",
+   "<p>A useful exercise is to write one line for each pack in a brand: who buys it, where and for what occasion. A 650 ml bottle might be the at home value pack. A 500 ml can might be the take away pack for a single drinker. A 330 ml bottle might be the bar and restaurant pack. A keg is draught in bars.</p><p>If two packs share the same line, one of them is probably cannibalising the other. If a common occasion has no pack, there is a gap a competitor can take. Strength works the same way: a mild and a strong version of one brand are two rungs on one ladder, not two separate brands.</p>"
+  ],
+  [
+   "Where to start",
+   "<p>Build a price per litre table for every pack of your brand and its two nearest competitors in one state, using current MRPs. Sort it from lowest to highest. Look for steps that are too small to matter, steps that go the wrong way and occasions with no pack at all.</p><p>Then ask the packaging team which formats the lines can actually run. A ladder the brewery cannot fill is only a slide.</p><p>Finally, check the ladder against volume. If 80% of a brand's hectolitres sit in one pack, that pack carries the brand and its price point deserves the most care. A small pack priced badly costs little. The main pack priced badly costs the year.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is price pack architecture in beer?",
+   "The deliberate design of pack sizes and price points across a beer portfolio, so each pack has a clear role and price step for the shopper."
+  ],
+  [
+   "Why compare beer packs on price per litre?",
+   "Pack sizes differ, so shelf prices alone mislead. Price per litre shows whether the steps between packs are deliberate."
+  ],
+  [
+   "How does excise affect beer price pack architecture?",
+   "Each state taxes beer differently, sometimes with separate strong and mild rates, so pack prices and gaps differ by state. Build one ladder per state."
+  ]
+ ],
+ "cta": {
+  "title": "Help your revenue team build ladders the brewery can fill",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-skus-and-master-data-pack-size-and-brand-hierarchies",
+  "pack-mix-in-beer-sales-draught-bottle-and-can-for-analysts"
+ ]
+}

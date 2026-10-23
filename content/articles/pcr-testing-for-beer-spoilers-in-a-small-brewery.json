@@ -1,0 +1,71 @@
+{
+ "slug": "pcr-testing-for-beer-spoilers-in-a-small-brewery",
+ "cat": "Brewing science",
+ "h1": "PCR testing for beer spoilers in a small brewery",
+ "title": "PCR Testing for Beer Spoilers | Craft Beer School",
+ "desc": "What PCR testing for beer spoilers can and cannot do in a small brewery, from hop resistance genes to enrichment and false positives.",
+ "teaser": "Plates take a week. PCR can answer in hours. Here is when the speed is worth it and when it misleads.",
+ "standfirst": "PCR detects the DNA of spoilage organisms instead of waiting for them to grow. That makes it fast and specific. It also makes it easy to misread if you do not understand what it is measuring.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What PCR actually detects",
+   "<p>Polymerase chain reaction, PCR, copies a short, specific stretch of DNA millions of times until there is enough to detect. In a beer test the target is a gene or sequence unique to a spoiler or to a trait that matters, such as hop resistance.</p><p>Real time PCR, often called qPCR, measures the DNA as it is copied, usually with a fluorescent signal. The cycle at which the signal crosses a threshold indicates how much target DNA was present at the start. Results come in hours rather than the five to seven days lactic acid bacteria need on a plate.</p>"
+  ],
+  [
+   "Targets that matter to brewers",
+   "<p>Commercial brewery PCR kits usually look for:</p><ul><li><strong>Hop resistance genes</strong> such as horA, horC and hitA. These are linked to the ability of lactic acid bacteria to grow in hopped beer. A Lactobacillus without them is much less likely to spoil beer.</li><li><strong>Species of concern</strong>: Lactobacillus brevis, Pediococcus damnosus, Pectinatus and Megasphaera.</li><li><strong>Diastaticus yeast</strong>, through the STA1 gene that lets it break down dextrins.</li></ul><p>Testing for genes that confer the ability to spoil beer, not just the presence of a genus, is one of PCR's real advantages over plating. Our guide to <a href=\"beer-spoilage-bacteria-that-survive-hops-and-how-to-find.html\">hop tolerant spoilage bacteria</a> explains why the genes matter.</p>"
+  ],
+  [
+   "Dead cells still give a signal",
+   "<p>The biggest trap in PCR is that DNA from dead cells is detected as readily as DNA from live ones. A pasteurised beer that once held Lactobacillus can test positive even though nothing in it can grow. So can a sample from a tank that was cleaned well but still holds traces of DNA.</p><p>Labs get around this in two main ways. One is enrichment: incubating the sample in a growth medium for one to three days before testing, so live cells multiply and dominate the signal. The other is special pre treatments that block DNA from dead cells, which some kits include. Either way, a positive result in unenriched beer means investigate, not dump.</p>"
+  ],
+  [
+   "Sensitivity and sample volume",
+   "<p>PCR can detect very small amounts of DNA, but only if that DNA is in the tiny volume that goes into the reaction. A typical reaction uses a few microlitres. If contamination is one cell per 100 ml, a direct test on 1 ml of beer will usually miss it.</p><p>That is why sampling technique and enrichment matter. Filter a larger volume through a membrane, enrich the membrane in broth and then test. The same logic applies to plating. Our guide to <a href=\"microbiology-plating-small-brewery.html\">microbiology plating</a> covers membrane filtration.</p>"
+  ],
+  [
+   "Is PCR worth it for a small brewery?",
+   "<p>PCR needs a thermal cycler, kits, a clean workspace and staff trained to avoid cross contamination between samples. That is a real investment. For many small breweries the better first step is good plating on selective media, with PCR sent out to an external lab when a question needs a fast or specific answer.</p><p>PCR earns its place in-house when you package large volumes, release beer quickly or have a recurring problem that plating identifies too slowly. A brewery shipping unpasteurised cans across India in summer has more reason to know fast than a brewpub serving from its own bright tanks.</p>"
+  ],
+  [
+   "Reading the results",
+   "<p>Treat PCR results as evidence, not verdicts. A clear positive for horA in enriched bright beer is a strong signal to hold the tank and investigate. A weak signal in unenriched packaged beer might be dead cells. A negative result from a 1 ml sample says little about a 50 hl tank.</p><p>Pair PCR with plating where you can. If both agree, you can act with confidence. If they disagree, the disagreement itself tells you something about the sample, the method or the organism.</p>"
+  ],
+  [
+   "Keeping a PCR lab clean",
+   "<p>PCR is so sensitive that the biggest risk is contaminating your own reactions. A trace of copied DNA from yesterday's positive can produce today's false positive. Good PCR labs separate work into areas: one for preparing reagents, one for handling samples and one for running the thermal cycler. Pipettes, gloves and lab coats stay in their own area.</p><p>Every run needs controls. A negative control, water in place of sample, should show no signal. A positive control, a known target, should show a clear signal. If the negative control lights up, the whole run is suspect.</p><p>This discipline is why many small breweries prefer to send samples to an external lab. A brewery that brings PCR in-house needs someone trained to run it, time to do it properly and a budget for kits and controls. Without those, results can do more harm than good by sending you after problems that do not exist.</p>"
+  ],
+  [
+   "Choosing where to start",
+   "<p>Know what question you need answered before buying a method. Rapid release of packaged beer, tracing a recurring infection and screening yeast for diastaticus each lead to different choices.</p><p>Understanding these methods well enough to choose between them is part of the microbiology content on the advanced course.</p><p>Your first step: list the three spoilage questions your brewery asks most often, then mark which ones plating already answers and which need something faster.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does PCR detect dead bacteria in beer?",
+   "Yes. Standard PCR detects DNA from dead cells as well as live ones, so enrichment or special pre treatments are used to focus on living cells."
+  ],
+  [
+   "What are horA and horC?",
+   "Genes linked to hop resistance in lactic acid bacteria. Bacteria that carry them are more likely to grow in and spoil hopped beer."
+  ],
+  [
+   "Is PCR faster than plating for beer spoilers?",
+   "Yes. PCR can give results in hours, while lactic acid bacteria need five to seven days to show on plates, though enrichment adds one to three days."
+  ]
+ ],
+ "cta": {
+  "title": "Choose the right test for each risk",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers brewery microbiology, PCR and plating methods so you can build a testing plan that suits your brewery.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "microbiology-plating-small-brewery",
+  "atp-swabs-for-quick-hygiene-checks-in-a-small-brewery",
+  "propagating-yeast-in-a-small-brewery-from-a-lab-culture"
+ ]
+}

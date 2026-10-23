@@ -1,0 +1,71 @@
+{
+ "slug": "microbiology-media-for-beer-spoilage-organisms",
+ "cat": "Brewing science",
+ "h1": "Microbiology media for beer spoilage organisms",
+ "title": "Microbiology Media for Beer Spoilers | Craft Beer School",
+ "desc": "Which agar media find which beer spoilage organisms, from WLN and WLD to HLP, MRS, NBB and lysine, plus how to incubate each one.",
+ "teaser": "No single plate finds every spoiler. Pick the medium to match the organism you are hunting.",
+ "standfirst": "A small brewery lab can find most beer spoilers with a handful of growth media. The skill is matching medium, incubation and sample to the question you are asking.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "One plate cannot find everything",
+   "<p>Beer spoilage organisms are a mixed group. Lactic acid bacteria such as Lactobacillus and Pediococcus prefer low oxygen and grow slowly. Pectinatus and Megasphaera are strict anaerobes. Acetic acid bacteria need oxygen. Wild yeasts grow alongside your culture yeast and are hard to spot among millions of brewing yeast cells.</p><p>Each group needs different nutrients and conditions. A general medium grows a bit of everything, but the most dangerous spoilers are often outcompeted or simply fail to grow. Selective media suppress the organisms you do not want to see so the ones you do can show up.</p>"
+  ],
+  [
+   "General media: WLN and WLD",
+   "<p>Wallerstein Laboratory Nutrient agar (WLN) is a general medium for yeast and bacteria. It contains bromocresol green, which colours colonies differently depending on how they take up the dye. Different yeast strains show different colony shapes and colours, which helps you spot something unusual.</p><p>WLD is the same medium with cycloheximide (actidione) added. Cycloheximide suppresses yeast, so bacteria can grow without being swamped. Plating the same sample on WLN and WLD gives you a quick picture of what is present.</p>"
+  ],
+  [
+   "Lactic acid bacteria: HLP, MRS and NBB",
+   "<p>Lactobacillus and Pediococcus are the most common beer spoilers. Three media are widely used:</p><ul><li><strong>HLP</strong> (Hsu's Lactobacillus Pediococcus medium) is a semi solid medium used in tubes. Its low oxygen conditions favour lactic acid bacteria.</li><li><strong>MRS</strong> is a rich medium for lactic acid bacteria, often used with cycloheximide to block yeast.</li><li><strong>NBB</strong> is designed specifically for beer spoiling bacteria and also picks up Pectinatus and Megasphaera.</li></ul><p>All are incubated anaerobically or with low oxygen, typically at 25 to 30 °C, for five to seven days. Lactic acid bacteria grow slowly, so reading plates after two days misses them. Our guide to <a href=\"lactobacillus-and-pediococcus-in-beer.html\">Lactobacillus and Pediococcus</a> covers what they do to beer.</p>"
+  ],
+  [
+   "Wild yeast: lysine and copper media",
+   "<p>Finding a few wild yeast cells among millions of culture yeast cells needs a medium culture yeast cannot use. Lysine medium contains lysine as the only nitrogen source. Brewing strains of Saccharomyces cannot grow on it, but many non Saccharomyces wild yeasts can.</p><p>Lysine medium misses wild Saccharomyces, including diastaticus. Copper sulphate media, crystal violet media or PCR tests fill that gap. Our guide to <a href=\"detecting-wild-yeast-with-lysine-medium.html\">detecting wild yeast with lysine medium</a> explains the method in detail.</p>"
+  ],
+  [
+   "Aerobic and anaerobic incubation",
+   "<p>Incubation conditions matter as much as the medium. Acetic acid bacteria and many wild yeasts grow in air. Lactic acid bacteria grow better with little oxygen. Pectinatus and Megasphaera need no oxygen at all.</p><p>Small breweries can use an anaerobic jar with gas generating sachets, which remove oxygen from a sealed container. It is cheap and reliable. Keep an incubator at a steady temperature; a cupboard in an Indian summer can swing from 25 to 38 °C across a day, which changes what grows and how fast.</p>"
+  ],
+  [
+   "Choosing the sample",
+   "<p>Media are only half the story. Where you sample decides what you find. Common points include yeast slurry before pitching, wort after the heat exchanger, fermenting beer, bright beer and packaged beer, plus swabs from fillers and valves.</p><p>For bright and packaged beer, contaminants are rare, so filter a larger volume, such as 100 to 250 ml, through a membrane and place the membrane on the medium. Plating 1 ml directly can easily miss low level contamination. Our guide to <a href=\"microbiology-plating-small-brewery.html\">microbiology plating</a> covers technique.</p>"
+  ],
+  [
+   "Making media and keeping them reliable",
+   "<p>Most small breweries buy prepared media or dehydrated powders. Prepared plates save time but have a short shelf life. Powders last longer but need an autoclave or pressure cooker, a balance and practice.</p><p>Whatever you use, check each new batch. Plate a known culture, such as your brewing yeast on WLN and a lactic acid bacterium on MRS, alongside a sterile control. The known culture should grow as expected. The control should stay clean. If either fails, the media or your technique has a problem.</p><p>Store prepared plates in the fridge, upside down to keep condensation off the agar. Cycloheximide is toxic, so handle media containing it with gloves and dispose of it according to the supplier's guidance. Keep a simple record of media batch, preparation date and expiry. Results from expired media cannot be trusted.</p>"
+  ],
+  [
+   "Building a plating plan",
+   "<p>Start with a short list: WLN and WLD for slurry and wort, NBB or MRS for bright and packaged beer, lysine for slurry every few generations. Add more only when a question needs it. Record media lot numbers, incubation conditions and read times every time.</p><p>Matching the right method to each risk point is where a small lab earns its keep. It is also a core part of the microbiology module on the advanced course.</p><p>Your first step: plate your current yeast slurry on WLN and WLD this week and compare the two plates.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the best medium for beer spoilage bacteria?",
+   "NBB is designed for beer spoilers and detects lactic acid bacteria as well as Pectinatus and Megasphaera when incubated anaerobically."
+  ],
+  [
+   "What is the difference between WLN and WLD?",
+   "WLD is WLN with cycloheximide added, which suppresses yeast so bacteria can grow and be seen."
+  ],
+  [
+   "How long should I incubate plates for lactic acid bacteria?",
+   "Typically five to seven days at 25 to 30 °C under low oxygen, because these bacteria grow slowly."
+  ]
+ ],
+ "cta": {
+  "title": "Run a lab that finds spoilers early",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers brewery microbiology, growth media and sampling plans so you know what to plate, where and when.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "microbiology-plating-small-brewery",
+  "beer-spoilage-bacteria-that-survive-hops-and-how-to-find",
+  "mash-ph-explained"
+ ]
+}

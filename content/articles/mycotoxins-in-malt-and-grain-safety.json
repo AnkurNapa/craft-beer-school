@@ -1,0 +1,75 @@
+{
+ "slug": "mycotoxins-in-malt-and-grain-safety",
+ "cat": "Ingredients",
+ "h1": "Mycotoxins in malt and grain safety",
+ "title": "Mycotoxins in Malt and Grain Safety | Craft Beer School",
+ "desc": "Which mycotoxins matter in brewing grain, where they come from and the receiving, storage and testing checks a brewery should run.",
+ "teaser": "Mould on grain can leave toxins that boiling does not remove. In India's heat, adjunct storage deserves the same care as malt.",
+ "standfirst": "Mycotoxins are toxic compounds made by moulds that grow on grain in the field or in storage. Some survive malting, mashing and boiling and carry into beer. A brewery cannot test them away at the end, so control starts with the supplier and the store.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Mycotoxins come from moulds in the field and in storage",
+   "<p>Two broad groups of moulds matter to brewers. Field moulds, mainly <em>Fusarium</em> species, infect barley, wheat and maize while the crop is growing, especially in wet weather around flowering. Storage moulds, mainly <em>Aspergillus</em> and <em>Penicillium</em> species, grow on grain kept too warm and too damp after harvest.</p><p>The moulds themselves are mostly killed by kilning and boiling. The toxins they leave behind are far more stable. Many are heat resistant and some dissolve readily in wort.</p>"
+  ],
+  [
+   "Four toxins matter most for brewing grain",
+   "<ul><li><strong>Deoxynivalenol (DON)</strong>, sometimes called vomitoxin, from <em>Fusarium</em>. It is the most common in barley and wheat. It is water soluble, so much of it moves from the grain into wort and on into beer.</li><li><strong>Zearalenone</strong>, also from <em>Fusarium</em>, mostly in maize.</li><li><strong>Aflatoxins</strong>, from <em>Aspergillus flavus</em> and related species. They favour warm, humid storage and affect maize, rice, sorghum and groundnuts. They are among the most potent natural toxins known.</li><li><strong>Ochratoxin A</strong>, from <em>Penicillium</em> and <em>Aspergillus</em> species growing on stored grain.</li></ul><p>For an Indian brewery using rice, maize or sorghum adjuncts, aflatoxins deserve special attention. The climate that ripens the crop also suits the mould.</p>"
+  ],
+  [
+   "Fusarium also makes beer gush",
+   "<p>Mycotoxins are a safety issue. <em>Fusarium</em> brings a quality problem as well. Infected malt can cause primary gushing, where a bottle or can foams violently the moment it is opened, even at the right carbonation. Small surface-active proteins called hydrophobins, made by the mould, are thought to be responsible.</p><p>Gushing beer is not proof of mycotoxins. Clean-pouring beer is not proof of their absence either. But a gushing problem across a whole batch is a reason to look hard at the malt lot behind it.</p>"
+  ],
+  [
+   "Control starts with the specification",
+   "<p>The most effective step is upstream. Write mycotoxin limits into your malt and adjunct specifications and ask suppliers for results with each lot. Reputable maltsters monitor barley for DON as routine. Adjunct suppliers are more variable, so ask directly what they test and how often.</p><p>Food safety regulators set maximum limits for several mycotoxins in cereals. In India these come from FSSAI and are revised from time to time. Check the current regulation rather than relying on an old figure. Ask your food safety consultant which limits apply to your raw materials.</p>"
+  ],
+  [
+   "Receiving checks catch the obvious problems",
+   "<p>Every grain delivery should get a quick look before it goes into the store:</p><ul><li>A musty or mouldy smell from the bags.</li><li>Visible mould, clumping or caked grain.</li><li>Pink or shrivelled kernels in barley or wheat, a sign of <em>Fusarium</em>.</li><li>Damp bags or water stains from transport.</li><li>Insect activity, which often goes with damp, warm grain.</li></ul><p>Reject or quarantine anything suspect until it is tested. Record the lot number either way so you can trace it later.</p>"
+  ],
+  [
+   "Storage moisture is the line that matters",
+   "<p>Storage moulds need moisture. Raw cereal grain stored below roughly 13 to 14% moisture is far less likely to support mould growth. Malt kilned to 4 to 5% is well below that, but it will absorb water from humid air. Broken rice and maize grits often arrive closer to the risk zone.</p><p>That is the floor detail we see overlooked most often: a pallet of rice grits stacked against a damp wall through the monsoon. Store grain dry, cool and ventilated, away from walls, with pest control in place. Our guide to <a href=\"grain-store-pest-control.html\">grain store pest control</a> covers the insect side. Our guide to <a href=\"malt-dust-and-mill-room-explosion-safety.html\">malt dust and mill room safety</a> covers the other hazard in the same room.</p>"
+  ],
+  [
+   "Testing has a place, but not as the main control",
+   "<p>Rapid test kits, such as lateral flow strips, can screen grain lots for aflatoxin or DON in minutes. They are useful for checking adjunct deliveries. Confirmatory testing is done by accredited laboratories using methods such as HPLC or LC-MS. Sampling matters more than the test itself, because mycotoxins sit in hotspots. A single scoop from the top of one bag tells you little.</p><p>Designing a raw material quality system with suppliers, specs, sampling plans and records takes food safety and brewing knowledge together. That is the sort of system thinking a single guide cannot hand you.</p>"
+  ],
+  [
+   "Start with your adjunct specification",
+   "<p>Pull the specification for your rice, maize or sorghum supplier. If it says nothing about mycotoxins, ask the supplier this week what they test for and how often. Request the last three results too. That one conversation tells you where your biggest gap sits.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does boiling remove mycotoxins from wort?",
+   "No. Most mycotoxins are heat stable. DON is also water soluble, so much of it passes from grain into wort and beer."
+  ],
+  [
+   "Which mycotoxins matter most in Indian brewing?",
+   "Aflatoxins deserve special attention because warm, humid storage suits Aspergillus moulds on maize, rice and sorghum. DON matters for barley and wheat."
+  ],
+  [
+   "Can mouldy malt cause gushing?",
+   "Yes. Fusarium infection can cause primary gushing, where beer foams violently on opening, through mould proteins called hydrophobins."
+  ],
+  [
+   "What moisture level prevents mould in stored grain?",
+   "Raw cereal grain stored below roughly 13 to 14% moisture is far less likely to support mould growth."
+  ]
+ ],
+ "cta": {
+  "title": "Build a raw material quality system that works",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers malt and adjunct quality, microbiology and brewery quality control so you can set specs and checks that keep problems out of the brewhouse.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "malt-dust-and-mill-room-explosion-safety",
+  "barley-malting-process",
+  "wheat-malt-in-brewing"
+ ]
+}

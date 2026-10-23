@@ -1,0 +1,67 @@
+{
+ "slug": "descriptive-analysis-versus-difference-tests-in-beer-sensory",
+ "cat": "Tasting",
+ "h1": "Descriptive analysis versus difference tests in beer sensory",
+ "title": "Descriptive Analysis vs Difference Tests | Craft Beer School",
+ "desc": "When a brewery needs a difference test, when it needs descriptive analysis and what each costs in tasters, training time and samples.",
+ "teaser": "One test tells you a beer has changed. The other tells you how. Most breweries need both, in the right order.",
+ "standfirst": "Difference tests and descriptive analysis are the two main families of sensory method. They answer different questions, need different panels and cost very different amounts of time. Knowing which to use saves both beer and goodwill.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two questions, two families of test",
+   "<p><strong>Difference tests</strong> ask whether two samples differ. The <a href=\"triangle-test.html\">triangle test</a>, the duo-trio and the paired comparison all belong here. The answer is yes or no, backed by a count of correct answers.</p><p><strong>Descriptive analysis</strong> asks how samples differ and by how much. A trained panel scores each beer on a list of attributes, such as malt sweetness, hop aroma, bitterness, body and specific faults. The answer is a profile: a set of numbers you can chart and compare.</p><p>Neither is better. They sit at different points in a quality or development decision.</p>"
+  ],
+  [
+   "What difference tests are good at",
+   "<p>Difference tests are cheap in training and good for a single sharp question. Did the new malt lot change the beer? Does the can taste like the keg? Untrained but reasonably sensitive tasters can take part, so the whole brewery team can help.</p><p>The cost is in numbers. A triangle test usually needs somewhere between 18 and 36 answers to be confident. A duo-trio needs more. The output is also thin. A significant result tells you the beers differ but not in what way.</p><ul><li>Best for: raw material changes, process tweaks, packaging trials, shelf life checks.</li><li>Panel: screened tasters, little training.</li><li>Output: different or not, at a stated confidence.</li></ul>"
+  ],
+  [
+   "What descriptive analysis is good at",
+   "<p>Descriptive analysis gives you a map. A trained panel of around eight to twelve tasters scores each beer on agreed attributes using a line scale, often 0 to 10 or 0 to 15. Repeat the samples across sessions and you get means, spreads and the ability to say that bitterness rose by two points while malt sweetness held steady.</p><p>The cost is training. Tasters need to agree on what each attribute means, with reference standards for each. They also have to show they can score repeatably. Building that panel takes weeks of regular sessions, not an afternoon. Our guide to <a href=\"running-a-sensory-panel.html\">running a sensory panel</a> covers recruiting and keeping one going.</p><ul><li>Best for: product development, competitor benchmarking, tracking drift in a flagship over months.</li><li>Panel: selected and trained, with references.</li><li>Output: an attribute profile with numbers.</li></ul>"
+  ],
+  [
+   "What each costs in beer and time",
+   "<p>Put rough numbers on both before you choose. A triangle test with 24 tasters uses three samples each, so 72 pours of perhaps 30 ml: a little over two litres of beer and one short session. A descriptive panel of ten tasters scoring four beers in triplicate uses 120 pours across three sessions, plus the reference standards and the weeks of training that came before.</p><p>Staff time is the bigger cost in a small brewery. Every taster on a panel is someone not on the brewhouse floor for half an hour. That is a good reason to save descriptive work for questions that need it. It is also a good reason to keep difference tests tight and well planned.</p>"
+  ],
+  [
+   "Use them in sequence",
+   "<p>The two methods work best together. A typical sequence in a growing brewery runs like this. First, a difference test asks whether a change is detectable. If it is not, you are done and you have saved a descriptive session. If it is, a descriptive session shows which attributes moved. Then a consumer test, if needed, shows whether drinkers care.</p><p>Running descriptive analysis on every small change wastes panel time. Running only difference tests leaves you knowing something has shifted but not what to fix. Order matters.</p>"
+  ],
+  [
+   "Matching the method to a small brewery",
+   "<p>A 10 hl brewpub with four staff cannot run a full descriptive panel. That is fine. It can run a short, honest version: a fixed list of six to eight attributes for each flagship, a 0 to 5 scale and the same three or four people scoring every batch. That is a simple descriptive profile. Over months it shows drift better than memory ever will.</p><p>For difference questions, pool tasters across days rather than cutting the number of answers. Thresholds also matter. A taster who cannot detect diacetyl at normal levels adds noise to both methods. Our guide to <a href=\"finding-your-own-sensory-thresholds-for-common-beer-faults.html\">finding your own sensory thresholds</a> helps you screen people before you rely on them.</p><p>The gap between collecting scores and using them is where most small breweries stall. Choosing the right method, running it cleanly and reading the result needs practice with real samples.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Write down the last three sensory questions your brewery asked, out loud or in a meeting. Mark each one D for difference (is it changed?) or P for profile (how is it changed?). Then check which method you actually used. If the letters and the methods do not match, start your next session with the right one.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is descriptive analysis in beer sensory?",
+   "It is a method where a trained panel scores beers on a fixed list of attributes, such as bitterness, malt sweetness and hop aroma, to build a numeric flavour profile."
+  ],
+  [
+   "How many tasters does a difference test need?",
+   "More than people expect. A triangle test usually needs around 18 to 36 answers for a confident result. A duo-trio needs more because guessing is easier."
+  ],
+  [
+   "Can a small brewery run descriptive analysis?",
+   "Yes, in a simplified form. A short attribute list, a small scale and the same few trained tasters scoring every batch is enough to track drift over time."
+  ]
+ ],
+ "cta": {
+  "title": "Choose the right sensory method every time",
+  "body": "Sensory Evaluation is our two week live course (₹5,999), taught on Saturdays and Sundays. It covers difference tests, descriptive profiling, panel training and the statistics behind them, so each question gets the method that answers it.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "running-a-sensory-panel",
+  "finding-your-own-sensory-thresholds-for-common-beer-faults",
+  "ranking-and-rating-tests-for-comparing-several-versions-of"
+ ]
+}

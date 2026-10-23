@@ -1,0 +1,71 @@
+{
+ "slug": "measuring-free-amino-nitrogen-in-wort",
+ "cat": "Brewing science",
+ "h1": "Measuring free amino nitrogen in wort",
+ "title": "Measuring Free Amino Nitrogen in Wort | Craft Beer School",
+ "desc": "What free amino nitrogen means for fermentation, typical wort values and how the ninhydrin method measures it in a small lab.",
+ "teaser": "FAN is the yeast food you cannot see. Too little and fermentations drag. Here is how to measure it.",
+ "standfirst": "Free amino nitrogen, or FAN, is the pool of amino acids and small peptides that yeast use to build new cells. It decides how well fermentation starts and finishes. Here is what the number means and how to measure it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What FAN is and why yeast care",
+   "<p>Yeast need nitrogen to grow. In wort they get it mainly from amino acids, plus ammonium and small peptides. Brewers lump these together as free amino nitrogen, or FAN, measured in milligrams per litre.</p><p>Low FAN means fewer new cells, a slower fermentation and often a higher final gravity. It also links to diacetyl and other flavour issues, because healthy yeast growth and amino acid uptake shape the by-products yeast make.</p>"
+  ],
+  [
+   "Typical values in brewing wort",
+   "<p>A common target for an all-malt wort at around 12 °P is roughly 150 to 200 mg/L. Many brewers treat about 130 to 150 mg/L as the lower limit for a reliable fermentation. Higher gravity worts need more in absolute terms.</p><p>Too much FAN is also possible. Excess amino acids left after fermentation can feed spoilage organisms and may be linked to higher levels of fusel alcohols. The aim is enough, not as much as possible.</p><p>FAN comes mostly from the malt. Protein breakdown happens largely during malting, so well modified malt delivers most of its FAN whatever you do in the mash. A protein rest around 45 to 55 °C adds a little on less modified malt but can thin body and foam if overdone. The malt certificate often lists soluble nitrogen or the Kolbach index, which gives you a rough idea of what to expect before you brew.</p>"
+  ],
+  [
+   "Why adjuncts matter in India",
+   "<p>Rice and maize carry very little usable nitrogen. They add extract, not yeast food. A lager recipe with 30 to 40% rice dilutes the FAN that the malt provides. If the malt is lower in protein or less modified, the shortfall grows.</p><p>This is one of the main reasons high adjunct lagers can ferment sluggishly. Measuring FAN tells you whether to adjust the grist, the protein rest or the yeast nutrient before it shows up as a stuck tank.</p>"
+  ],
+  [
+   "The ninhydrin method",
+   "<p>The standard brewing method uses ninhydrin, a reagent that reacts with amino groups to form a purple colour. The more FAN, the deeper the colour. The broad steps are:</p><ol><li>Dilute a wort sample, typically by 50 to 100 times, with distilled water.</li><li>Mix with the ninhydrin colour reagent in a test tube.</li><li>Heat in a boiling water bath for a fixed time, commonly 16 minutes.</li><li>Cool and add a dilution solution to stabilise the colour.</li><li>Read absorbance at 570 nm on a spectrophotometer.</li><li>Compare against a glycine standard run at the same time.</li></ol><p>Follow the full method from the ASBC or EBC methods of analysis for reagent recipes and exact volumes. Timing and temperature must be the same every time.</p>"
+  ],
+  [
+   "What the method misses",
+   "<p>Ninhydrin does not respond well to proline, which reacts to give a yellow colour rather than purple. Proline makes up a large share of wort amino acids but yeast barely use it in brewing conditions. So the method's blind spot does not hurt much in practice.</p><p>The method also responds to ammonium and some small peptides. That is part of why FAN is a useful practical figure rather than an exact count of usable nitrogen.</p>"
+  ],
+  [
+   "What a small lab needs",
+   "<p>You need a spectrophotometer that reads at 570 nm, glass test tubes, a boiling water bath, accurate pipettes and the reagents. Many small breweries already own a spectrophotometer for <a href=\"measuring-ibu-in-a-small-brewery-lab.html\">IBU</a> or colour work, so FAN is a modest addition.</p><p>Run a standard and a blank with every batch. Duplicate samples help you see whether your technique is steady. Measure FAN on the cooled wort at knockout, not hot from the kettle.</p><p>If you cannot test straight away, freeze the sample. Wort left in a warm lab will start to ferment or spoil within hours in Indian summer temperatures. The amino acids disappear with it.</p>"
+  ],
+  [
+   "Using the number",
+   "<p>Track FAN with your other wort numbers: gravity, pH, <a href=\"wort-aeration-and-oxygen.html\">dissolved oxygen</a> and pitch rate. When a fermentation drags, a FAN result tells you whether the yeast lacked food or something else went wrong. Over time you will see which grists and malts give you trouble.</p><p>Compare FAN at knockout with FAN in the finished beer as well. The difference is what the yeast took up. If the beer still has plenty left, low FAN was not your problem.</p><p>Many breweries measure every fermentation for gravity and almost none measure FAN. That gap often explains the batches nobody can account for.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Freeze a 50 ml knockout wort sample from your next three brews, especially any high adjunct batch. Send them to a lab that runs the ninhydrin FAN method, or set it up yourself if you have a spectrophotometer. Compare the results with how each fermentation ran.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good FAN level for wort?",
+   "Around 150 to 200 mg/L is a common target for 12 °P all-malt wort. Below about 130 to 150 mg/L fermentations can become unreliable."
+  ],
+  [
+   "Why do rice adjuncts lower FAN?",
+   "Rice adds extract but almost no usable nitrogen, so it dilutes the amino acids that come from the malt."
+  ],
+  [
+   "How is FAN measured?",
+   "Usually by the ninhydrin method: a colour reaction read at 570 nm on a spectrophotometer against a glycine standard."
+  ]
+ ],
+ "cta": {
+  "title": "Know what your yeast is actually eating",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers wort composition, yeast nutrition and lab methods, so slow fermentations become measurable problems you can fix.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "wort-aeration-and-oxygen",
+  "measuring-dissolved-oxygen",
+  "measuring-carbonation"
+ ]
+}

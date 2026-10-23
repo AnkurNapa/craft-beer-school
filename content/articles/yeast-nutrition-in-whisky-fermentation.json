@@ -1,0 +1,67 @@
+{
+ "slug": "yeast-nutrition-in-whisky-fermentation",
+ "cat": "Whisky",
+ "h1": "Yeast nutrition in whisky fermentation",
+ "title": "Yeast Nutrition in Whisky Fermentation | Craft Beer School",
+ "desc": "When whisky wash needs yeast nutrients, how FAN and zinc affect fermentation and why all-malt and grain mashes behave differently.",
+ "teaser": "An all-malt wash usually feeds its yeast well. A maize mash often does not. Here is how to tell which you have.",
+ "standfirst": "Yeast in a distillery wash works hard: high gravity, rising temperature and often no boil to clean things up. Whether it needs extra nutrition depends mostly on the grain bill and on what your local rules allow.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What yeast needs from the wash",
+   "<p>Yeast needs more than sugar. It needs nitrogen to build new cells, usually measured as free amino nitrogen (FAN). It needs minerals, especially zinc and magnesium. It needs vitamins and, early on, oxygen to build healthy cell membranes. Short of any of these, fermentation slows, finishes high and throws more off flavours.</p><p>In a whisky distillery the stakes are yield. Sugar left in the wash is spirit you paid for and never collected. Our guide to <a href=\"whisky-wash-fermentation.html\">whisky wash fermentation</a> covers the fermentation as a whole; this guide looks only at feeding the yeast.</p><p>Distillers ask more of yeast than most brewers do. The wash is not boiled, so the yeast competes with bacteria from the start. Many distilleries pitch fresh yeast every batch rather than repitching, which means every fermentation begins with cells that have to adapt to the wort. Good nutrition shortens that start and narrows the window bacteria can use.</p>"
+  ],
+  [
+   "All-malt wort usually carries enough",
+   "<p>Malted barley brings its own nitrogen and minerals. A distilling malt wort at around 1.050 to 1.060 normally carries enough FAN for a healthy fermentation. Brewers often aim for at least 150 mg/L of FAN in wort. A well made all-malt distilling wort usually sits comfortably above that.</p><p>That is why many malt distilleries add nothing but yeast. Scotch rules go further: Scotch whisky may only be made from water, cereals and yeast, with no other additions to the fermentation. If you plan to call your whisky Scotch, the question is settled. The same logic is worth borrowing elsewhere: if your malt and mashing are right, the wort feeds the yeast without help. A shortfall in an all-malt wort usually means a problem with the malt specification or the mash, which a nutrient will only hide. Outside Scotch, the rules in other countries and in India differ, so check the current standard before adding anything.</p>"
+  ],
+  [
+   "Grain mashes are where nutrition matters",
+   "<p>Maize, rice and broken rice are rich in starch but poor in usable nitrogen once cooked and converted. A grain mash with only a small share of malt can be short of FAN. The signs are familiar:</p><ul><li>Long lag before fermentation gets going.</li><li>Gravity that stalls a few points above the target.</li><li>More sulphury and fusel character in the new make.</li><li>Lower spirit yield per tonne than the starch content predicts.</li></ul><p>Grain and molasses distilleries outside the Scotch rules often add a nitrogen source such as diammonium phosphate, at doses the supplier recommends and the local standard allows. Our guide to <a href=\"antifoam-in-whisky-fermentation.html\">antifoam in whisky fermentation</a> covers the other common fermentation addition.</p>"
+  ],
+  [
+   "Why urea is a bad idea",
+   "<p>Urea is a cheap nitrogen source and was once common in industrial fermentations. It is now widely avoided in spirits because urea left in the wash reacts with ethanol to form ethyl carbamate, a compound regulators limit in spirits. The reaction speeds up with heat, which in a pot still and a hot Indian warehouse is not in short supply. If a supplier offers a nutrient blend, ask whether it contains urea before you buy it.</p>"
+  ],
+  [
+   "Zinc, temperature and pitch rate",
+   "<p>Zinc is the mineral most often short. Brewers commonly target about 0.1 to 0.2 mg/L in wort. Barley contains zinc, but much of it can stay bound in the grains. Copper and stainless vessels add none.</p><p>Temperature matters as much as food. A whisky wash is commonly set around 19 to 20 °C and rises as the yeast works. In Indian heat, washbacks without cooling can climb into the mid 30s, where yeast stress rises sharply and nutrient demand climbs with it. Pitch enough healthy yeast and control temperature before you reach for additives. More nutrients will not save an underpitched wash at 36 °C.</p><p>Oxygen is the other half of yeast health at the start. Yeast uses it in the first hours to build sterols for its cell membranes. A wort that is aerated as it goes into the washback gives the yeast a better start than any packet can. After those first hours, oxygen is no longer useful and the fermentation should run without it.</p>"
+  ],
+  [
+   "Measure before you feed",
+   "<p>Nutrient decisions should come from numbers. Log original gravity, temperature and gravity every few hours for each washback, plus final gravity and wash strength. A wash that finishes near 8% ABV on schedule is not hungry. One that stalls repeatedly while temperature is under control may be.</p><p>Your first step: send one sample of your wort to a lab for FAN and zinc. Compare it with the brewing benchmarks above. If FAN is comfortably above 150 mg/L and zinc is in range, look at temperature and pitch rate before buying any nutrient. If not, adjust the grain bill or add malt before you add chemicals.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does malt whisky wash need yeast nutrient?",
+   "Usually not. All-malt wort normally carries enough nitrogen and minerals. Scotch rules allow only water, cereals and yeast in any case."
+  ],
+  [
+   "What is FAN in distilling?",
+   "Free amino nitrogen, the nitrogen yeast can use to build new cells. Brewers often aim for at least 150 mg/L in wort."
+  ],
+  [
+   "Why should distillers avoid urea?",
+   "Urea left in the wash can form ethyl carbamate, a compound that is limited in spirits, especially when heat speeds the reaction."
+  ],
+  [
+   "Do grain whisky mashes need nutrients?",
+   "Maize and rice mashes with little malt can run short of nitrogen. Where rules allow, distillers add a supplier-approved nitrogen source."
+  ]
+ ],
+ "cta": {
+  "title": "Get every litre of alcohol out of your wash",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers mashing, fermentation and yeast health for malt and grain whisky so you can diagnose a slow wash before it costs you yield.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "whisky-wash-fermentation",
+  "antifoam-in-whisky-fermentation",
+  "how-whisky-is-made"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "beer-product-lifecycle-from-launch-to-delisting",
+ "cat": "Beer for teams",
+ "h1": "Beer product lifecycle from launch to delisting",
+ "title": "Beer Lifecycle: Launch to Delisting | Craft Beer School",
+ "desc": "How a beer moves from idea to launch to delisting, what each stage needs from brewing, regulatory and commercial teams and the numbers to watch.",
+ "teaser": "Every beer SKU has a life: a slow birth, a busy middle and an exit that is often harder than the launch.",
+ "standfirst": "A new beer passes through development, approvals, launch, growth, maturity and eventually delisting. Each stage asks different things of the brewery and of the corporate teams around it. Knowing the shape helps planners, finance and marketing work from the same picture.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Development starts in the pilot brewery",
+   "<p>Most new beers begin as a brief: a target consumer, a price band, a flavour idea and a pack. The brewing team turns that into a recipe, usually tested on a pilot system first. A pilot brew can be a few hundred litres. It lets the team test flavour, colour, bitterness and stability before committing a full brewhouse batch, which may be hundreds of hectolitres in a large brewery.</p><p>Development is not quick. A lager needs weeks of fermentation and maturation per trial. Shelf life testing needs months, since the team wants to know how the beer tastes at the end of its life, not just at the start. A product that looks ready in a tasting room may need several iterations before it holds up after weeks in a warm warehouse.</p>"
+  ],
+  [
+   "Approvals often decide the launch date",
+   "<p>Before a beer can be sold in India it typically needs product compliance with food safety standards, label checks under legal metrology rules and brand and label registration with each state excise department where it will be sold. Price registration may be needed too. Each state runs its own process and timeline. Those timelines often decide the real launch date more than brewing does.</p><p>For corporate teams this means a launch is rarely national on one day. It rolls out state by state as approvals land. Rules vary by state and change, so plans should carry each state's approval status separately. Our guide to <a href=\"beer-supply-chain-explained.html\">the beer supply chain</a> shows how a new SKU then moves through depots and channels.</p>"
+  ],
+  [
+   "Launch and growth need volume the plan cannot see",
+   "<p>A new beer has no sales history, so the first forecast is a guess based on analogues: similar launches, the size of the target segment and the distribution plan. Two things make the launch phase tricky. First, the pipeline fill: depots, distributors and retailers all need opening stock before the first consumer buys, so early primary sales overstate demand. Second, repeat purchase is unknown until consumers have tried it.</p><p>Watch rate of sale per outlet rather than total volume. A launch that gains outlets quickly but sells slowly per outlet is filling a pipeline, not winning drinkers. A good sign is steady or rising sales per outlet after the first restock cycle.</p>"
+  ],
+  [
+   "Maturity is where most money is made",
+   "<p>Most volume in a beer portfolio comes from mature brands: established, predictable and running efficiently on long production runs. This is where a brewery's cost per hectolitre is lowest, because large batches spread fixed costs and the packaging line avoids frequent changeovers. Our guide on <a href=\"brewhouse-kpis-for-analysts.html\">brewhouse KPIs for analysts</a> explains the efficiency measures behind that.</p><p>Mature brands still need attention. Recipes may be adjusted for raw material changes, packs refreshed and prices updated as duties move. The aim is consistency: a drinker should not notice a difference from one bottle to the next, even when the barley crop or the hop supplier has changed.</p>"
+  ],
+  [
+   "Decline and the long tail of SKUs",
+   "<p>Every portfolio collects a tail of slow SKUs: a seasonal that never quite worked, a pack size few outlets order, a brand that lost its audience. Each one carries hidden costs. It needs its own labels and cans, its own excise registration in each state and its own changeover on the line. Slow SKUs also age in depots, which raises returns.</p><p>Here is an illustrative case. A SKU selling 500 cases a month needs a two hour changeover each time it runs. If the line could fill 3,000 cases in those two hours on a core brand, the small SKU's real cost includes that lost output. The numbers are made up. The question is not, since it is the one finance and supply should ask about every tail SKU each year.</p>"
+  ],
+  [
+   "Delisting is a project too",
+   "<p>Removing a beer is not as simple as stopping production. The team needs to run out packaging materials, clear stock from depots and the trade before it ages, inform state corporations and distributors, close or lapse state registrations and decide what happens to any remaining labels or cans. Done badly, delisting leaves stale beer on shelves with the brand's name on it.</p><p>A clean delisting plan works backwards from the last day of sale in each state, the same way a launch plan works forward. It sets a final brew date, a final packaging date and a sell-through window short enough that the last bottles are still fresh.</p><p>A first step: list every SKU in your portfolio with its monthly volume and number of packs. Sort by volume. The bottom fifth is where the lifecycle conversation should start.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does it take to launch a new beer?",
+   "Often many months, because recipe trials, shelf life testing and state approvals all take time. Approvals frequently set the final date."
+  ],
+  [
+   "Why do early sales of a new beer look high?",
+   "Because depots, distributors and retailers stock up before consumers buy. That pipeline fill inflates the first few months of primary sales."
+  ],
+  [
+   "What does a slow SKU really cost?",
+   "Its own packaging, registrations and line changeovers, plus the risk of stock ageing in depots. These costs are often hidden in the averages."
+  ],
+  [
+   "What does delisting a beer involve?",
+   "Running out materials, clearing fresh stock from the trade, informing channels and closing state registrations, all planned back from a final sale date."
+  ]
+ ],
+ "cta": {
+  "title": "Give your team a shared picture of how a beer lives and dies",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that follow a beer from recipe to shelf.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-industry-explained-for-gcc-teams",
+  "brewhouse-kpis-for-analysts",
+  "beer-supply-chain-explained"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "gas-chromatography-for-whisky-congeners",
+ "cat": "Whisky",
+ "h1": "Gas chromatography for whisky congeners",
+ "title": "Gas Chromatography for Whisky Congeners | Craft Beer School",
+ "desc": "What a GC tells a distiller about whisky congeners, how the method works and how to use the numbers to set cuts and catch drift.",
+ "teaser": "Your nose finds the faults. A gas chromatograph tells you how much of each compound is there, run after run.",
+ "standfirst": "Congeners are the compounds other than ethanol and water that give whisky its character. Gas chromatography is how distilleries measure them. Here is what the instrument does, what the report means and how a small distillery can use it without owning one.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Congeners are measured, not guessed",
+   "<p>New make spirit is mostly ethanol and water. The rest is a few hundred compounds in small amounts: higher alcohols such as n-propanol, isobutanol and the amyl alcohols, esters such as ethyl acetate, aldehydes such as acetaldehyde, plus methanol and a long tail of fatty acids and their esters. Distillers call them congeners. Together they make a spirit taste of fruit, cereal, solvent or nothing much.</p><p>Tasting tells you whether the spirit is right. It does not tell you that isobutanol rose 15% since last month because the wash fermented warmer. Gas chromatography (GC) puts a number on each compound so you can see drift before the blenders taste it.</p>"
+  ],
+  [
+   "How the instrument separates a spirit",
+   "<p>A GC injects a tiny volume of spirit, often a single microlitre, into a heated inlet where it vaporises. A carrier gas such as helium or hydrogen sweeps the vapour through a long, thin column coated on the inside with a stationary phase. Each compound sticks to that coating to a different degree, so each one leaves the column at its own time, called the retention time.</p><p>At the end sits a detector. For routine congener work it is usually a flame ionisation detector (FID), which burns what comes out and measures the current. The result is a chromatogram: a line with a peak for each compound. The position of a peak identifies it against a standard. The area under the peak says how much is there.</p><p>When you need to know what an unknown peak is, a mass spectrometer replaces the FID. That is GC-MS. It is slower and dearer, so most distilleries keep it for investigations rather than daily checks.</p>"
+  ],
+  [
+   "Reading the report",
+   "<p>Labs usually report major congeners in grams per hectolitre of absolute alcohol (g/hl AA). The unit corrects for strength, so a sample at 68% ABV can be compared directly with one at 40%. To convert a result in milligrams per litre of sample, divide by the ABV as a fraction and then by ten. A spirit with 200 mg/l of ethyl acetate at 50% ABV has 400 mg per litre of pure alcohol, which is 40 g/hl AA.</p><p>The report worth reading lists, at minimum:</p><ul><li>acetaldehyde, a heads marker with a sharp green apple smell</li><li>ethyl acetate, fruity at low levels and solvent at high ones</li><li>methanol, a safety number as well as a quality one</li><li>n-propanol, isobutanol and the amyl alcohols, the backbone of body and fusel character</li></ul>"
+  ],
+  [
+   "Using GC to set and hold your cuts",
+   "<p>The most useful thing GC does for a pot still distillery is turn cut points into evidence. Collect small fractions through a spirit run, say every 2% ABV off the still. Have each one analysed. You will see acetaldehyde and ethyl acetate fall away early, then the higher alcohols climb as the run goes on. Where you cut to feints becomes a choice you can defend with numbers instead of habit.</p><p>Then use routine GC on every blended batch of new make. Plot each congener on a simple control chart. A drift in isobutanol or the amyl alcohols usually points upstream, to fermentation temperature, yeast health or wash gravity. A jump in acetaldehyde points at the heads cut. The spirit still needs a nose, but now the nose and the chart argue on equal terms.</p>"
+  ],
+  [
+   "Getting results without your own instrument",
+   "<p>A GC with an FID, a suitable column, gas supply and calibration standards is a serious purchase for a new Indian craft distillery. Most start by sending samples to an accredited food testing laboratory. Ask the lab which method they follow, whether they calibrate with an internal standard and whether they report in g/hl AA. Send the same reference sample twice a year to check they give the same answer.</p><p>Keep samples cold, in full glass bottles with tight caps. In a Goa or Bengaluru summer, a half full bottle on a warm shelf loses acetaldehyde and ethyl acetate before the courier collects it. Then the numbers look cleaner than your spirit really is.</p>"
+  ],
+  [
+   "Calibration decides whether the numbers mean anything",
+   "<p>A peak area is only a number until it is tied to a known concentration. Labs do that with calibration standards: mixtures of each congener at known levels in an ethanol and water base close to the sample strength. Good practice adds an internal standard, a compound not found in whisky, to every sample. If the injection volume wanders slightly, the internal standard moves with it and the ratio stays true.</p><p>Ask any lab you use how often it runs fresh standards and what its repeatability is on a duplicate sample. A result of 40 g/hl AA means little if the same sample run twice gives 32 and 48.</p>"
+  ],
+  [
+   "Where the data starts paying back",
+   "<p>One chromatogram is a curiosity. Fifty, lined up against fermentation logs and cut records, show you how your process makes flavour. This is the point where a distillery stops arguing about why one batch tasted hotter and starts looking at the column that changed. Linking that data to stills, cuts and <a href=\"malt-grain-and-blended-whisky.html\">the style of whisky you are making</a> is what turns a lab bill into a quality system.</p><p>Your first step: pick your next spirit run and collect six small fractions across the heart. Label each with the ABV and time off the still, then send them to a lab for a congener panel.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does gas chromatography measure in whisky?",
+   "It measures the concentration of individual volatile compounds such as acetaldehyde, ethyl acetate, methanol and higher alcohols. Each compound appears as a separate peak whose area shows how much is present."
+  ],
+  [
+   "What is g/hl AA?",
+   "Grams per hectolitre of absolute alcohol. It expresses a congener level relative to the pure alcohol in the sample, so spirits of different strengths can be compared directly."
+  ],
+  [
+   "Do small distilleries need their own GC?",
+   "Not at the start. Most send samples to an accredited food testing laboratory and buy an instrument only when the volume of samples justifies it."
+  ],
+  [
+   "Is GC-MS better than GC-FID?",
+   "It answers a different question. GC-FID is the workhorse for measuring known congeners. GC-MS identifies unknown compounds and is mostly used for investigations."
+  ]
+ ],
+ "cta": {
+  "title": "Set your cuts from evidence, not habit",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers fermentation, still operation, cut points and spirit quality control so you know what your congener numbers are telling you.",
+  "label": "See the full syllabus",
+  "href": "craft-distilling-course.html"
+ },
+ "related": [
+  "how-whisky-is-made",
+  "malt-grain-and-blended-whisky",
+  "whisky-styles-of-the-world"
+ ]
+}

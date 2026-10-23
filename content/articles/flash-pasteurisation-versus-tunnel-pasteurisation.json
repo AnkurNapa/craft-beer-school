@@ -1,0 +1,67 @@
+{
+ "slug": "flash-pasteurisation-versus-tunnel-pasteurisation",
+ "cat": "Brewing science",
+ "h1": "Flash pasteurisation versus tunnel pasteurisation",
+ "title": "Flash Versus Tunnel Pasteurisation | Craft Beer School",
+ "desc": "How flash and tunnel pasteurisation compare on pasteurisation units, flavour, cost and risk, plus which one suits a craft brewery.",
+ "teaser": "Flash pasteurisers heat beer for seconds. Tunnels heat sealed packages for minutes. Both aim at the same number.",
+ "standfirst": "Flash and tunnel pasteurisation both kill spoilage organisms with heat. They differ in where the heat goes, how long it lasts and what can go wrong after. Here is how they compare and how to choose.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Both work in pasteurisation units",
+   "<p>Brewers measure heat treatment in pasteurisation units. One PU is one minute at 60 °C. The lethal effect rises steeply with temperature: each degree above 60 °C multiplies the rate by about 1.393. The standard formula is PU per minute = 1.393 raised to the power (T - 60), where T is the beer temperature in °C.</p><p>That steep curve explains why flash and tunnel pasteurisation look so different but can deliver similar results. Many brewers aim for roughly 15 to 25 PU for a standard lager, though the right figure depends on the beer and its risk. Our guide to <a href=\"pasteurisation-units.html\">pasteurisation units</a> explains the calculation in detail.</p>"
+  ],
+  [
+   "Flash pasteurisation heats beer in the pipe",
+   "<p>A flash pasteuriser is a plate heat exchanger. Beer flows through a heating section, is held at temperature in a holding tube and is cooled again before it goes to a buffer tank and the filler. Typical settings are around 70 to 75 °C for 15 to 30 seconds.</p><p>Work out one setting. At 72 °C, the rate is 1.393 raised to the power 12, about 53 PU per minute. Held for 30 seconds, that gives about 27 PU. The whole process takes under a minute, so heat flavour is minimal.</p><p>The catch is what happens next. Beer leaves the flash pasteuriser biologically stable and then goes through a buffer tank, pipes and filler before it is sealed. Any contamination after the heat exchanger is not treated. Flash pasteurisation demands excellent hygiene downstream.</p>"
+  ],
+  [
+   "Tunnel pasteurisation heats the sealed package",
+   "<p>A tunnel pasteuriser sprays water over filled and sealed cans or bottles as they move through zones. The packages warm gradually, hold at pasteurisation temperature, often around 60 to 62 °C, then cool again. The whole pass can take an hour or so.</p><p>Because the package is already sealed, nothing can reinfect the beer after treatment. That is the tunnel's big advantage. The disadvantages are size, energy use, water use and a longer heat exposure that can add a cooked or stale note to delicate beers. Pressure inside the package also rises with temperature, so headspace and fill level must be controlled.</p>"
+  ],
+  [
+   "Comparing them side by side",
+   "<ul><li><strong>Flavour.</strong> Flash usually gives less heat impact because exposure is seconds, not many minutes.</li><li><strong>Contamination risk after treatment.</strong> Tunnel wins, because the package is sealed first.</li><li><strong>Space and utilities.</strong> Flash is compact. Tunnels are long machines with high water and energy demand.</li><li><strong>Product range.</strong> Tunnels handle carbonated beers, fruited beers and seltzers in package. Flash works best on beer that is going straight to a clean filler.</li><li><strong>Cost.</strong> Both are significant investments. Flash units can suit lower volumes. Tunnels pay back at higher volumes.</li></ul>"
+  ],
+  [
+   "Validation matters for both",
+   "<p>Whichever you choose, you need to know it delivers the PU you think it does. For flash systems, check temperature probes, holding tube time at the actual flow rate and flow meter accuracy. For tunnels, put a PU logger in a package and run it through the tunnel to measure the actual temperature history.</p><p>Check after any change in package size, line speed or recipe. A tunnel set for 330 ml cans may under-treat 500 ml cans because the bigger can heats more slowly.</p>"
+  ],
+  [
+   "What suits an Indian craft brewery",
+   "<p>India's hot supply chain makes stability important for packaged craft beer, especially in states where distribution takes weeks. For a small brewery starting to package, flash pasteurisation feeding a well-cleaned filler is often more practical than a tunnel. For fruited beers or products with residual sugar, tunnel pasteurisation, even on a small batch scale, gives greater security because refermentation in package is the real risk.</p><p>The decision depends on volume, product range and how well you can control hygiene. Neither method fixes a contaminated beer that has already spoiled.</p>"
+  ],
+  [
+   "Calculate your PU today",
+   "<p>Take your current or planned pasteuriser setting and calculate the PU it delivers. For flash, use temperature and holding time. For tunnel, use a logger if you have one. If you do not know the number, that is the first gap to close.</p><p>Then compare it with what the beer needs. A clean, bitter lager at 5% ABV carries several natural hurdles to spoilage and needs less heat than a sweet, fruited beer at 4%. If your setting delivers far more PU than the beer needs, you are paying in flavour and energy. If it delivers less, you are relying on luck in a warm warehouse.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a pasteurisation unit?",
+   "One minute at 60 °C. The rate rises about 1.393 times for each degree above 60 °C."
+  ],
+  [
+   "Which is better, flash or tunnel pasteurisation?",
+   "Neither is always better. Flash gives less heat flavour but needs strict hygiene after treatment. Tunnel treats the sealed package, so nothing can reinfect the beer."
+  ],
+  [
+   "How many PU does beer need?",
+   "Many brewers aim for roughly 15 to 25 PU for standard lager. Higher-risk beers, such as fruited or sweet ones, may need more."
+  ]
+ ],
+ "cta": {
+  "title": "Choose and validate the right pasteuriser",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers heat treatment, microbiology, packaging and shelf life, so you can match a stabilisation method to your beers and prove it works.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "pasteurisation-units",
+  "mash-ph-explained",
+  "enzymes-in-the-mash"
+ ]
+}

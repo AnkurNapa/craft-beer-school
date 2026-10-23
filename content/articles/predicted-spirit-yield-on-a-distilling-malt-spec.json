@@ -1,0 +1,71 @@
+{
+ "slug": "predicted-spirit-yield-on-a-distilling-malt-spec",
+ "cat": "Whisky",
+ "h1": "Predicted spirit yield on a distilling malt spec",
+ "title": "Predicted Spirit Yield on a Malt Spec | Craft Beer School",
+ "desc": "What predicted spirit yield (PSY) means on a distilling malt spec, how it is measured and how to compare it with the alcohol you actually collect.",
+ "teaser": "PSY is the number a maltster promises and a distiller is judged against. Here is how to read it and how to check it.",
+ "standfirst": "Predicted spirit yield is the most important line on a distilling malt spec. It tells you how much alcohol a tonne of malt should give. The gap between that and what you collect is your distillery's efficiency.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "PSY is litres of alcohol per tonne",
+   "<p>Predicted spirit yield (PSY) is the volume of pure alcohol a tonne of malt should produce under standard laboratory conditions. It is quoted in litres of alcohol (LA, sometimes LPA) per tonne. A good distilling malt is commonly specified somewhere around 400 to 420 LA per tonne, depending on barley variety and harvest.</p><p>The figure comes from a lab mash and fermentation. The maltster mashes a sample, ferments it under controlled conditions and calculates the alcohol that would result. It is a prediction for that malt, not a promise for your plant.</p>"
+  ],
+  [
+   "What drives PSY up or down",
+   "<p>PSY rises with fermentable extract. Low nitrogen barley helps, because less protein leaves more room for starch. Good modification in the maltings helps, because the starch is easier to reach. Gentle kilning helps, because the enzymes survive to convert dextrins into sugar later.</p><p>PSY falls with high protein, poor modification, skinny grain and over-kilning. Six row barley tends to sit lower than two row because it carries more husk. None of that is a fault on its own. It is a price and yield trade-off you should make on purpose. Our guide to <a href=\"malting-barley-for-whisky-versus-malting-for-beer.html\">malting for whisky versus malting for beer</a> covers where those differences come from.</p>"
+  ],
+  [
+   "Turning PSY into your own yield target",
+   "<p>The working is simple. Multiply the malt you mashed in tonnes by its PSY. That is your predicted alcohol. Then measure what you actually collected as spirit, converted to litres of pure alcohol.</p><p>A worked example: you mash 1.0 tonne of malt with a PSY of 410 LA per tonne. Predicted alcohol is 410 litres. Across the run you collect 560 litres of new make at an average 68% ABV, which is 560 x 0.68 = 381 litres of pure alcohol. Your efficiency is 381 / 410 = 93% of PSY.</p><p>Be careful with feints and foreshots. They go back into the next spirit still charge, so a fair comparison counts alcohol over a run of several batches rather than one.</p><p>Track that percentage batch by batch. A sudden drop tells you something changed. Our guide to <a href=\"spirit-yield-calculation-in-a-malt-distillery.html\">spirit yield calculation in a malt distillery</a> takes the calculation further.</p>"
+  ],
+  [
+   "Where the missing alcohol goes",
+   "<p>No distillery collects 100% of PSY. The lab works with a fine grind, ideal conditions and no losses. A real plant loses extract at every step:</p><ul><li><strong>Milling.</strong> A grist that is too coarse leaves starch locked in the grits.</li><li><strong>Mashing.</strong> Sugar left in the draff is sugar you paid for and threw to the cattle.</li><li><strong>Fermentation.</strong> Bacteria, a stressed yeast or a stuck washback eat or leave sugar.</li><li><strong>Distillation.</strong> Alcohol leaves in the spent lees or goes to feints that are not recycled well.</li></ul><p>Each step can be measured. Residual sugar in draff, gravity at the end of fermentation and strength in the spent wash all point to where the gap sits.</p>"
+  ],
+  [
+   "Checking the maltster's number",
+   "<p>PSY on a certificate of analysis is a lab figure for a sample. Ask how it was measured and whether the lab used a standard method. Two maltsters can use slightly different methods, so compare suppliers on the same basis or the comparison means little.</p><p>Keep samples of each delivery. If your efficiency falls by several points on one lot while your process is unchanged, you have evidence to take back to the supplier. In Indian conditions, check moisture on arrival as well. Malt that picks up water in a humid monsoon store weighs more. You pay for that water at malt prices.</p>"
+  ],
+  [
+   "Making the number useful on a dashboard",
+   "<p>PSY is the anchor for most distillery KPIs. Alcohol per tonne, efficiency against PSY and cost per litre of alcohol all hang off it. Put it in the same sheet as mash weight, wash gravity and spirit collected. The trend will tell you more than any single batch. Our guide to <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs for analysts</a> shows how the numbers link up.</p><p>The arithmetic is not hard. Knowing which step in the process to blame when the number moves takes an understanding of the whole plant, from malt to still.</p>"
+  ],
+  [
+   "Start with last month's batches",
+   "<p>Pull the malt weight, the PSY from each certificate and the litres of alcohol collected for every batch last month. Work out efficiency against PSY for each one. Put them in order and look at the lowest three. Write down what was different about those days. That list is where your yield review begins.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is PSY in whisky?",
+   "Predicted spirit yield is the amount of pure alcohol, in litres per tonne, that a malt should produce under standard laboratory conditions. It is the main yield figure on a distilling malt spec."
+  ],
+  [
+   "What is a good PSY for distilling malt?",
+   "Good distilling malt is commonly specified at around 400 to 420 litres of alcohol per tonne, depending on barley variety and harvest."
+  ],
+  [
+   "Why do I collect less alcohol than the PSY?",
+   "A real plant loses some extract at milling, mashing, fermentation and distillation. Tracking your efficiency against PSY shows where the losses sit."
+  ],
+  [
+   "Is PSY the same on every supplier's certificate?",
+   "Not always. Methods can differ slightly between labs, so ask how it was measured and compare suppliers on the same basis."
+  ]
+ ],
+ "cta": {
+  "title": "Find the alcohol your plant is losing",
+  "body": "Craft Distilling is our four week live course (₹9,999), Saturdays and Sundays with recordings and a certificate. It follows the extract from malt spec to new make, so you can measure losses at each step and know which one to fix first.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "spirit-yield-calculation-in-a-malt-distillery",
+  "malt-grain-and-blended-whisky",
+  "distillery-kpis-for-analysts"
+ ]
+}

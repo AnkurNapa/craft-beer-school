@@ -1,0 +1,67 @@
+{
+ "slug": "microbial-stability-of-unpasteurised-craft-beer-in-india",
+ "cat": "Brewing science",
+ "h1": "Microbial stability of unpasteurised craft beer in India",
+ "title": "Unpasteurised Beer Stability in India | Craft Beer School",
+ "desc": "What keeps unpasteurised craft beer stable in India's heat, which spoilage organisms to watch and how to test packaged beer for shelf life.",
+ "teaser": "Most craft beer in India is unpasteurised. In a 40 °C warehouse, that is a bet you need to understand.",
+ "standfirst": "Unpasteurised beer relies on its own natural barriers and on cold handling to stay sound. India's heat tests both. Here is what protects beer, what spoils it and how to find out whether yours will last.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Beer protects itself, up to a point",
+   "<p>Beer is a hostile place for most microbes. Brewers talk about hurdles, the combined barriers that make spoilage hard:</p><ul><li>Alcohol, usually 4 to 7% ABV.</li><li>Low pH, typically around 4.0 to 4.5.</li><li>Hop acids, which inhibit many gram-positive bacteria.</li><li>High carbon dioxide and very low oxygen.</li><li>Few nutrients left after fermentation.</li></ul><p>Each hurdle is modest on its own. Together they keep most pathogens out entirely and slow most spoilers. But some organisms have adapted to every one of them. Remove a hurdle, for example with a low-alcohol beer, a lightly hopped beer or residual sugar. The risk then rises sharply.</p>"
+  ],
+  [
+   "The organisms that get through",
+   "<p>A handful of organisms cause most beer spoilage:</p><ul><li><strong>Lactobacillus</strong>, especially hop-tolerant species such as L. brevis, which cause sourness and haze.</li><li><strong>Pediococcus</strong>, which produces diacetyl and can make beer ropy.</li><li><strong>Pectinatus and Megasphaera</strong>, strict anaerobes that thrive in low-oxygen packaged beer and produce rotten-egg and cheesy smells.</li><li><strong>Wild yeast</strong>, including Saccharomyces cerevisiae var. diastaticus, which can ferment dextrins and over-carbonate packages.</li></ul><p>None of these is a health hazard in the way food pathogens are. All of them can ruin a batch and damage a brand.</p>"
+  ],
+  [
+   "Heat speeds everything up",
+   "<p>Spoilage organisms grow faster in warm beer. So does chemical staling. A common rule of thumb is that chemical reaction rates roughly double or triple with every 10 °C rise. Beer that would stay fresh for months at 4 °C can taste old in weeks at 30 °C.</p><p>Indian supply chains often include long, uncooled stretches: a truck across two states, a depot warehouse, a retail shelf. Summer temperatures inside those spaces can exceed 40 °C. A beer that is stable in the brewery cold room may not survive that journey without help. That is why the cold chain is the single most important stability tool for unpasteurised craft beer here.</p>"
+  ],
+  [
+   "Strengthen the hurdles you control",
+   "<p>Several practical steps raise stability without pasteurising:</p><ul><li>Clean, healthy yeast and a full fermentation, so little sugar is left.</li><li>Rigorous cleaning of tanks, lines and fillers.</li><li>Low dissolved oxygen at packaging, which slows staling.</li><li>Filtration or good clarification to reduce yeast and bacteria in package.</li><li>Cold storage from tank to retailer wherever possible.</li></ul><p>Colloidal haze is a separate issue from microbial haze. Our guide to <a href=\"silica-gel-or-pvpp-for-colloidal-stability-in-packaged-beer.html\">silica gel or PVPP</a> covers the chemistry. Adjunct breweries should also see our guide to <a href=\"using-exogenous-enzymes-in-high-adjunct-brewing-in-india.html\">exogenous enzymes in high-adjunct brewing</a>, because enzyme carry-over into package can change fermentability.</p>"
+  ],
+  [
+   "Test before you trust",
+   "<p>Forced incubation is a simple stability test. Hold sealed packages at a warm temperature, often around 25 to 30 °C, for two to four weeks. Check them regularly for haze, pressure change, sediment and off-flavours. Then plate samples on selective media for lactic bacteria and wild yeast.</p><p>A package that stays clean and stable through warm incubation is a good sign. One that hazes, swells or sours tells you the beer will not survive a hot supply chain. Our guide to <a href=\"shelf-life-testing-protocols-for-craft-beer.html\">shelf-life testing protocols</a> sets out a full programme.</p>"
+  ],
+  [
+   "Labels and expectations",
+   "<p>Best-before dates should reflect what testing shows under realistic conditions, not what the brewery hopes. Rules on labelling vary and change, so check current requirements with your state authorities and the national food regulator. Work with distributors to agree storage conditions and stock rotation.</p><p>Be honest with retailers. A beer that needs refrigeration should say so clearly and be sold that way.</p>"
+  ],
+  [
+   "Put three packages in an incubator",
+   "<p>Take three packages from your next batch and keep them at around 30 °C for four weeks. Taste one each week against a cold-stored control. The result tells you more about your real shelf life than any calculation.</p><p>Plate the last package at the end of the four weeks, even if it tastes fine. A clean plate from a warm package is the evidence you want before you send beer on a long, hot journey. A plate with lactic bacteria on it, from beer that still tastes fine, is an early warning worth far more than a complaint from a retailer three months later. If you do find growth, trace it back: fermenter, brite tank, filler or the package itself. Swabbing those points in order usually finds the source within a week.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is unpasteurised beer safe to drink?",
+   "Yes. Beer's alcohol, low pH and hops make it a very poor home for food pathogens. The risk with unpasteurised beer is spoilage of flavour and appearance, not food poisoning."
+  ],
+  [
+   "What spoils craft beer in India?",
+   "Mainly hop-tolerant lactic bacteria, anaerobes such as Pectinatus and wild yeast, helped along by heat and long uncooled supply chains."
+  ],
+  [
+   "How can I test my beer's shelf life?",
+   "Use forced incubation: hold sealed packages at around 25 to 30 °C for several weeks, check for changes and plate samples on selective media."
+  ]
+ ],
+ "cta": {
+  "title": "Build beer that survives the journey",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers microbiology, spoilage organisms, packaging and shelf-life testing, so your beer reaches the customer as you brewed it.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "silica-gel-or-pvpp-for-colloidal-stability-in-packaged-beer",
+  "using-exogenous-enzymes-in-high-adjunct-brewing-in-india",
+  "shelf-life-testing-protocols-for-craft-beer"
+ ]
+}

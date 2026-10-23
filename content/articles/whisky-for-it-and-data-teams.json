@@ -1,0 +1,67 @@
+{
+ "slug": "whisky-for-it-and-data-teams",
+ "cat": "Whisky",
+ "h1": "Whisky for IT and data teams",
+ "title": "Whisky for IT and Data Teams | Craft Beer School",
+ "desc": "The whisky concepts behind the tables you build: LAL, cask stock, ageing, state SKUs and the data that excise needs.",
+ "teaser": "Whisky data has a time dimension measured in years and a tax dimension measured in litres of alcohol. Both trip up new data teams.",
+ "standfirst": "IT and data teams in drinks companies build systems for a product they may never have seen made. Whisky has quirks that break ordinary retail data models. Here is what the numbers in your tables mean on the warehouse floor.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Whisky is measured in alcohol, not just litres",
+   "<p>A retail system counts units. A whisky business counts litres of absolute alcohol, often written LAL or LPA (litres of pure alcohol). One bulk litre at 63.5% ABV holds 0.635 LAL. The same spirit reduced to 42.8% for bottling holds 0.428 LAL per litre. Volume went up when water was added. Alcohol did not.</p><p>Excise duty, production reports and losses are all tracked in alcohol terms. If your data model stores only bulk litres, you cannot reconcile stock against excise records. Store bulk volume, strength and the derived LAL on every movement. Strength must also be corrected to a reference temperature, normally 20 °C, because both volume and alcohol readings drift with heat.</p>"
+  ],
+  [
+   "Cask stock lives for years",
+   "<p>Malt whisky in Scotland must mature at least three years in oak. Indian malt matures for shorter periods because the heat speeds things up, but it still sits in casks for years. During that time each cask is an asset with an identity: cask number, fill date, wood type, previous contents, fill strength and warehouse location.</p><p>That is closer to fixed asset tracking than to retail inventory. A cask can be regauged, moved, sampled, re-racked into another cask or blended. Each event changes its volume and strength. The age statement on a bottle refers to the youngest whisky in it, so lineage from cask to bottling batch must survive every move. Lose the link and you lose the right to print the age.</p>"
+  ],
+  [
+   "Losses are expected, not errors",
+   "<p>Spirit evaporates through the wood. The Scotch industry often quotes around 2% a year for this angel's share. In Indian heat losses run well above that, which is why Indian distillers bottle younger whisky. A data team that flags every volume drop as an exception will drown in alerts.</p><p>The better design records expected loss by warehouse, season and cask type, then flags casks that lose much more than their neighbours. A leaking cask looks very different from an ordinary hot summer. Our <a href=\"whisky-depletion-data-explained.html\">guide to depletion data</a> covers the sales side of the same idea: the number you see depends on where you measure it.</p>"
+  ],
+  [
+   "Every state behaves like a separate market",
+   "<p>Alcohol in India is a state subject. Each state sets its own excise, approves its own labels and prices and often routes sales through its own wholesale corporation. A single product can therefore exist as many SKUs: one per state label, pack size and MRP.</p><p>Your master data needs a clean split between the liquid (brand and blend), the pack (750 ml, 375 ml, 180 ml) and the state version. When those layers are mixed into one free-text SKU name, sales analysis across states becomes guesswork. Rules and approvals vary by state and change often, so treat state attributes as dated records rather than fixed fields.</p>"
+  ],
+  [
+   "Where production data comes from",
+   "<p>A distillery generates data at every stage. Mashing gives weights and gravities. Fermentation gives gravity readings over two to four days. Distillation gives cut points, strengths and volumes from the spirit receiver. Warehousing gives fills, gauges and dumps. Bottling gives batch strength, fill volumes and dispatch.</p><p>Much of this still lives in paper logs and spreadsheets, especially in smaller plants. When a production record and an excise register disagree, the regulator trusts the register. A data project that starts by matching those two sources usually finds the real problems faster than one that starts with a dashboard.</p>"
+  ],
+  [
+   "Excise data is the system of record",
+   "<p>Every movement of spirit in an Indian distillery is recorded for the state excise department: production, transfers into bond, reduction, bottling and dispatch. Many states now use online excise portals and track and trace codes on bottles. That paperwork is the legal record. An ERP that disagrees with it is the one that will be corrected.</p><p>For a data team this has two consequences. First, the excise register is the best source for reconciliation because someone is legally obliged to keep it accurate. Second, any integration with a state portal must handle each state's own format, codes and deadlines. Rules vary by state and change, so design the connectors to be swapped rather than hard coded. Ask your compliance team which reports go out daily, weekly and monthly before you scope a project. You will find most of your data quality rules already written in those returns.</p>"
+  ],
+  [
+   "Why a tasting helps people who write SQL",
+   "<p>A data engineer who has nosed new make spirit next to a matured whisky understands why age and cask type are not just attributes. The colour change alone makes the point. Guided sessions should be opt-in, within company policy, with water and spit cups. Non-drinkers can nose and still follow everything. Our <a href=\"whisky-tasting-for-beginners.html\">beginner's tasting guide</a> is a gentle place to start.</p><p>A practical first step: pick one recent bottling batch and trace it back in your systems to the casks it came from. Note every place the trail goes cold. That list is your data model's to-do list.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is LAL in whisky data?",
+   "Litres of absolute alcohol: bulk volume multiplied by ABV. Excise, losses and production yield are all tracked in LAL, so data models need strength alongside volume."
+  ],
+  [
+   "Why do whisky volumes drop in storage?",
+   "Spirit evaporates through the cask. Losses are higher in hot climates such as India, so expected loss should be modelled rather than flagged as an error."
+  ],
+  [
+   "Why does one whisky have so many SKUs?",
+   "Each Indian state approves its own label and MRP, so one liquid in one pack size can need a separate SKU in every state where it is sold."
+  ]
+ ],
+ "cta": {
+  "title": "Data models that match the distillery floor",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions built around your own portfolio.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "whisky-tasting-for-beginners",
+  "whisky-depletion-data-explained",
+  "whisky-sensory-training-for-marketing-teams"
+ ]
+}

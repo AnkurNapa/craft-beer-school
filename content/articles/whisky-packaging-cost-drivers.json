@@ -1,0 +1,71 @@
+{
+ "slug": "whisky-packaging-cost-drivers",
+ "cat": "Whisky",
+ "h1": "Whisky packaging cost drivers",
+ "title": "Whisky Packaging Cost Drivers | Craft Beer School",
+ "desc": "What drives the cost of packaging a bottle of whisky: glass, closure, labels, cartons, security features, line speed and SKU count.",
+ "teaser": "In a regular whisky, the pack can cost more than the liquid. Here is where the money goes and which levers actually move it.",
+ "standfirst": "A bottle of whisky is a liquid plus seven or eight bought-in components and a few seconds on a bottling line. For the regular tier, packaging can be a bigger cost than the spirit. This guide breaks down the drivers and shows which ones a cost team can realistically change.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The bill of materials for one bottle",
+   "<p>Start with the bill of materials, the list of everything that goes into one finished bottle:</p><ul><li><strong>Glass bottle.</strong> Usually the largest single component.</li><li><strong>Closure.</strong> An aluminium screw cap, a cork stopper with a wooden or plastic head or a non-refillable closure designed to stop reuse.</li><li><strong>Labels.</strong> Front, back and neck labels, sometimes with foil or embossing.</li><li><strong>Security features.</strong> Many Indian states require holograms, excise labels or codes for tracking, issued or approved by the state.</li><li><strong>Secondary pack.</strong> A carton or gift box for premium products.</li><li><strong>Shipper.</strong> The corrugated case that carries the bottles, often with dividers.</li></ul><p>Add the conversion cost: labour, energy and overheads on the bottling line, plus the losses from breakage and rejects.</p>"
+  ],
+  [
+   "Glass is the heavyweight",
+   "<p>Glass is usually the biggest cost in the pack. Its price depends on weight, colour, shape and whether the mould is standard or custom. A heavy premium bottle can use far more glass than a standard one of the same size. Glass prices also move with energy and soda ash costs. Our guide to <a href=\"glass-bottle-supply-for-spirits.html\">glass bottle supply for spirits</a> explains how the furnaces work.</p><p>Small packs carry a hidden penalty. Four 180 ml bottles hold less whisky than one 750 ml bottle but need four bottles, four closures, four sets of labels and four passes through the filler. In a market where small packs are a big share of volume, packaging cost per litre of whisky rises sharply.</p>"
+  ],
+  [
+   "Closures and labels add up quickly",
+   "<p>A simple aluminium screw cap is cheap and fast to apply. A natural cork with a wooden head, a tamper-evident non-refillable closure or a weighted metal cap costs much more. The closure also affects line speed: some types apply more slowly or need more checks.</p><p>Labels look minor but multiply. Special papers, metallic foils, embossing and multiple colours all add cost. State-specific labels in India, carrying details such as the maximum retail price or a for sale in state statement, mean shorter print runs and more versions to manage. Every change of price or rule can turn printed stock into scrap.</p>"
+  ],
+  [
+   "Premium packs pay for presentation",
+   "<p>At the premium end, the gift box or tube can be one of the most expensive parts of the pack. Rigid boxes with magnetic closures, inserts and special finishes cost far more than a folding carton. They also take up more space in transport and storage.</p><p>That spend can be justified when it supports the price and the brand. It is harder to justify when the box is designed in isolation from the bottling line, the warehouse and the retail shelf. A box that slows packing by hand or does not fit a standard shipper adds cost at every step.</p>"
+  ],
+  [
+   "The line itself is a cost driver",
+   "<p>The bottling line's speed and uptime matter as much as the price of components. A line that stops often because labels misfeed, closures jam or bottles break makes every bottle more expensive, even if each component was bought cheaply. The floor detail to understand is changeover time. Switching a line from one bottle size or label to another means stopping, swapping parts, adjusting and testing. Many changeovers a week cut the hours left for actual filling.</p><p>Our guide to <a href=\"oee-on-a-spirits-bottling-line.html\">OEE on a spirits bottling line</a> explains how plants measure that lost time.</p>"
+  ],
+  [
+   "Freight and breakage are packaging costs too",
+   "<p>The pack decides how much whisky fits on a lorry. Heavy glass and bulky gift boxes reduce the number of cases per truck, so freight cost per bottle rises. Shippers that do not stack well on a standard pallet waste space in every warehouse and vehicle along the way.</p><p>Breakage is the other hidden cost. Spirits travel long distances by road in India, often through several depots before reaching a retailer. Weak shipper cartons, poor dividers or bottles that sit loose inside them break more often. Each broken bottle loses the liquid, the pack and the excise already paid on it, which in many states is the most expensive part. A small increase in carton strength can be cheaper than the breakage it prevents. Track breakage by route and pack, not as one company-wide figure.</p>"
+  ],
+  [
+   "Complexity is the quiet multiplier",
+   "<p>Every extra SKU, a new pack size, a limited edition or a version for one state, brings its own glass, labels, cartons and changeovers. It also brings minimum order quantities. Suppliers often require a minimum run per design, so a small edition may leave the company holding years of leftover components.</p><p>Cost teams that track total packaging spend by component often miss this. The cost of complexity shows up spread across obsolete stock, extra changeovers and small, expensive print runs rather than in one line of the report.</p>"
+  ],
+  [
+   "Levers that work",
+   "<ul><li><strong>Standardise.</strong> Use standard bottle shapes and closures across brands where the consumer will not notice.</li><li><strong>Lightweight carefully.</strong> Lighter glass saves material and freight, but must still run on the line and look right on the shelf.</li><li><strong>Cut SKUs that do not pay their way.</strong> Count the changeovers and minimum orders, not just the sales.</li><li><strong>Design with the line.</strong> Involve operations before a new pack is approved, not after the first trial run fails.</li></ul><p>A practical first step: build a full cost per bottle for your top five SKUs, including line time and losses. Then do the same per litre of whisky. The pack sizes and brands that look profitable often change places.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is usually the most expensive part of a whisky pack?",
+   "For most bottles the glass is the biggest single cost. For premium products a rigid gift box can rival or exceed it."
+  ],
+  [
+   "Why do small bottles cost more per litre?",
+   "Each small bottle needs its own glass, closure, labels and time on the filling line, so the packaging cost is spread over less whisky."
+  ],
+  [
+   "How do Indian state rules affect packaging cost?",
+   "State-specific labels, prices and security features mean more versions and shorter print runs. Rule or price changes can leave printed stock unusable."
+  ]
+ ],
+ "cta": {
+  "title": "Packaging costs nobody can explain?",
+  "body": "Our Raw materials and supply chain module walks cost, procurement and planning teams through glass, closures, labels and line efficiency. We build it around your team's own portfolio and pack range.",
+  "label": "Plan a programme",
+  "href": "contact.html?course=Corporate%20training#enroll"
+ },
+ "related": [
+  "how-whisky-is-made",
+  "malt-grain-and-blended-whisky",
+  "whisky-styles-of-the-world"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "dealkalising-brewing-water",
+ "cat": "Brewing science",
+ "h1": "Dealkalising brewing water",
+ "title": "Dealkalising Brewing Water | Craft Beer School",
+ "desc": "The main ways to strip alkalinity from brewing water: boiling, lime, acid, ion exchange and reverse osmosis, with the trade-offs of each.",
+ "teaser": "Alkaline borewell water can brew a fine stout and a terrible Pilsner. Dealkalising is how you get both.",
+ "standfirst": "High alkalinity water pushes mash pH up and makes pale beers harsh. There are five common ways to remove it, from boiling a kettle to running a reverse osmosis plant. The right one depends on your water, your volume and your beer list.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why alkalinity is the problem",
+   "<p>Alkalinity in brewing water is mostly bicarbonate. It neutralises acids, so it resists the natural fall of mash pH and keeps it above the target of about 5.2 to 5.6 at room temperature. Too much alkalinity gives dull, harsh pale beers, rough hop bitterness and poor clarity. The useful number is residual alkalinity, which allows for the effect of calcium and magnesium. Our guide to <a href=\"residual-alkalinity-and-how-to-calculate-it.html\">residual alkalinity</a> shows the calculation.</p><p>Much Indian borewell water carries a lot of alkalinity. Before choosing a treatment, get a full water analysis: alkalinity as calcium carbonate, calcium, magnesium, sodium, chloride, sulphate and total dissolved solids. A treatment that suits one profile can make another worse.</p>"
+  ],
+  [
+   "Boiling removes temporary hardness",
+   "<p>Boiling drives carbon dioxide out of the water. Bicarbonate then combines with calcium and drops out as calcium carbonate, the white scale you see in kettles. This removes what is called temporary hardness.</p><p>It works only if there is enough calcium to pair with the bicarbonate. It also takes energy, time and a settling step to separate the precipitate before use. Boiling suits small batches and homebrewing. At brewery scale it is rarely economic as a routine treatment.</p>"
+  ],
+  [
+   "Lime treatment works on the same principle",
+   "<p>Adding slaked lime, calcium hydroxide, converts bicarbonate to carbonate, which precipitates with calcium as chalk. This lime softening was a classic large brewery treatment. It needs careful dosing, a settling tank and a way to deal with the sludge. Overdosing leaves the water alkaline in a different way. For most craft breweries today, the equipment and control it needs make other routes more attractive.</p>"
+  ],
+  [
+   "Acid neutralises bicarbonate directly",
+   "<p>The simplest route for many breweries is to add food grade acid to the brewing liquor. Acid converts bicarbonate into carbon dioxide and water. Common choices:</p><ul><li><strong>Phosphoric acid:</strong> fairly neutral in flavour and widely used for liquor treatment.</li><li><strong>Lactic acid:</strong> also common, but large doses can add a soft tang.</li><li><strong>Sulphuric and hydrochloric acid:</strong> used in some larger breweries. They add sulphate or chloride, which also affect flavour. Both need careful handling.</li></ul><p>A useful conversion: 50 ppm of alkalinity as calcium carbonate equals 1 milliequivalent per litre, so acid needs can be worked out from the water report. Many brewers acidify hot liquor to bring alkalinity down to roughly 20 to 50 ppm, then fine tune mash pH with smaller additions. Our guide to <a href=\"acidulated-malt-or-lactic-acid-for-mash-ph.html\">acidulated malt or lactic acid</a> covers the mash side.</p><p>Acid adds only an anion. It does not reduce total dissolved solids. With very hard, salty water, acid alone may fix pH but leave a heavy mineral taste.</p>"
+  ],
+  [
+   "Ion exchange swaps the problem ions out",
+   "<p>A dealkalising ion exchange unit, usually a weak acid cation resin, removes bicarbonate alkalinity by swapping hardness ions for hydrogen ions. The released carbon dioxide is then vented. The resin needs periodic regeneration with acid, which brings chemical handling and effluent of its own.</p><p>Do not confuse this with a household water softener. A standard softener swaps calcium and magnesium for sodium. It leaves the alkalinity in place and removes the calcium that helps lower mash pH, so softened water is usually worse for brewing.</p>"
+  ],
+  [
+   "Reverse osmosis strips almost everything",
+   "<p>Reverse osmosis pushes water through a membrane that rejects most dissolved ions, typically well over 90%. The result is close to a blank slate. You then add back calcium chloride, calcium sulphate and other salts to build the profile you want, or blend RO water with raw water.</p><p>RO is common in Indian breweries because it handles high alkalinity and high dissolved solids in one step. The costs are real: membrane replacement, pre-filtration to protect the membranes, electricity and a reject stream that sends a significant share of the feed water to drain. Our guide to <a href=\"cip-water-and-chemical-savings.html\">CIP water and chemical savings</a> covers ways to reuse some of that water.</p>"
+  ],
+  [
+   "Choosing a route",
+   "<ul><li><strong>Moderate alkalinity, normal dissolved solids:</strong> acid treatment of brewing liquor is usually enough.</li><li><strong>High alkalinity, high dissolved solids:</strong> RO with mineral additions gives the most control.</li><li><strong>Small volume or homebrew:</strong> boiling or dilution with packaged drinking water can work.</li><li><strong>Large volume with stable water:</strong> ion exchange or lime treatment may make sense with proper engineering support.</li></ul><p>The floor detail: whatever you install, test the treated water, not just the raw supply. A tired RO membrane or a depleted resin bed lets alkalinity creep back long before anyone notices in the beer.</p><p>Your first step: test your treated brewing water for alkalinity every brew day for two weeks using a simple titration kit. If the number moves by more than a few ppm from day to day, fix that before you fine tune any recipe.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the cheapest way to dealkalise brewing water?",
+   "For moderate alkalinity, adding food grade phosphoric or lactic acid to the brewing liquor is usually the simplest and cheapest route."
+  ],
+  [
+   "Does a water softener reduce alkalinity?",
+   "No. A standard softener replaces calcium and magnesium with sodium and leaves alkalinity in place, which is usually worse for brewing."
+  ],
+  [
+   "Does boiling reduce alkalinity?",
+   "Yes, it precipitates bicarbonate as calcium carbonate when there is enough calcium. It is practical for small batches but rarely at brewery scale."
+  ],
+  [
+   "Why do Indian breweries use reverse osmosis?",
+   "Many borewell supplies are high in both alkalinity and dissolved solids. RO removes most of both, then brewers add back the minerals they want."
+  ]
+ ],
+ "cta": {
+  "title": "Build a water treatment plan for your supply",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers water chemistry, residual alkalinity, treatment options and how to rebuild a water profile for each style.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cip-water-and-chemical-savings",
+  "calculating-mash-water-volume-and-strike-temperature",
+  "mash-ph-explained"
+ ]
+}

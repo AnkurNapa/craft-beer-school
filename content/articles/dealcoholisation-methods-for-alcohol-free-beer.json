@@ -1,0 +1,67 @@
+{
+ "slug": "dealcoholisation-methods-for-alcohol-free-beer",
+ "cat": "Brewing science",
+ "h1": "Dealcoholisation methods for alcohol-free beer",
+ "title": "Dealcoholisation Methods for NA Beer | Craft Beer School",
+ "desc": "How vacuum distillation, spinning cone and membrane systems remove alcohol from beer, what each costs in flavour and what fits a craft brewery.",
+ "teaser": "Taking alcohol out of beer is easy. Taking it out and leaving the beer behind is the hard part.",
+ "standfirst": "There are two broad ways to make alcohol-free beer: stop the alcohol forming or remove it afterwards. This guide covers the second route, the main dealcoholisation technologies and the trade-offs a brewer has to weigh before choosing one.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why remove alcohol rather than avoid it",
+   "<p>Brewing a full-strength beer and then removing the alcohol has one big advantage: the beer goes through a normal fermentation. The yeast builds esters, reduces worty aldehydes and lowers the pH just as it would in any beer. What you remove afterwards is mainly ethanol, so the starting point tastes like real beer.</p><p>The alternative is to brew a beer that never makes much alcohol, through limited fermentation or special yeasts. That needs less equipment but tends to leave a sweet, worty character. Our guide to <a href=\"limited-fermentation-for-alcohol-free-beer.html\">limited fermentation for alcohol-free beer</a> covers that route. Many commercial brands use dealcoholisation, sometimes blended with a little limited-fermentation beer for body.</p>"
+  ],
+  [
+   "Thermal methods: vacuum distillation",
+   "<p>Ethanol boils at about 78 °C at normal pressure, lower than water. Heating beer to that temperature would cook it. Under vacuum, though, boiling points fall, so ethanol can be evaporated at much gentler temperatures, often in the region of 30 to 45 °C depending on the design.</p><p>Vacuum distillation systems run the beer through a column or evaporator under reduced pressure. Falling film and thin film evaporators spread the beer in a thin layer over a heated surface, so each drop spends only seconds being heated. The shorter the heat exposure, the less cooked flavour the beer picks up. The trade-off is that the most volatile aroma compounds, such as many esters, leave with the alcohol.</p>"
+  ],
+  [
+   "Spinning cone columns",
+   "<p>A spinning cone column is a special type of vacuum stripping system. Inside a vertical column, a stack of alternating fixed and rotating cones spreads the liquid into very thin films. Steam or stripping gas rising up the column carries volatile compounds away at low temperature.</p><p>A useful feature is that it can be run in two passes. The first, gentle pass strips the most volatile aroma compounds and collects them. The second pass removes the alcohol. The collected aroma fraction can then be blended back into the dealcoholised beer. It is effective, but the equipment is expensive, so it is mostly found at large breweries and contract processors.</p>"
+  ],
+  [
+   "Membrane methods: reverse osmosis and dialysis",
+   "<p>Membrane systems work cold. In reverse osmosis, beer is pumped at high pressure across a membrane that lets water and ethanol through while holding back most larger flavour molecules, sugars and colour. The water and alcohol that pass through are separated. The retained concentrate is then made back up with deaerated water.</p><p>Dialysis uses a membrane with a liquid on the other side, so alcohol diffuses out without the beer being heated or highly pressurised. Both methods keep cooked flavours out, which is their main appeal. The weak points are some loss of aroma, membrane fouling and cleaning. They also need a lot of good quality deaerated water. Reaching very low alcohol targets also takes longer with membranes.</p>"
+  ],
+  [
+   "What every method loses",
+   "<p>No method removes only ethanol. Alcohol itself contributes body, warmth and a little sweetness. Take it out and a beer tastes thinner, even if every other compound stayed put. Brewers compensate by starting with a fuller wort, using more speciality malt or adding back some unfermented wort for body.</p><p>Aroma is the other loss. Esters and some hop compounds are volatile, so thermal methods carry them off with the alcohol. Aroma recovery systems help. So does dry hopping after dealcoholisation, which many brewers use for hop-forward styles. The beer also needs careful oxygen control after processing, because it no longer has alcohol's mild protective effect against staling.</p>"
+  ],
+  [
+   "Labels, limits and the Indian picture",
+   "<p>Alcohol limits for labelling differ by country. In the UK, for example, alcohol-free means no more than 0.05% ABV and low alcohol means up to 1.2% ABV. Many countries treat beer under 0.5% ABV as non-alcoholic. In India, rules for non-alcoholic beer and its labelling come from food safety regulation and may interact with state excise rules. Both change. Check the current FSSAI position and your state rules, or ask a licensing consultant, before you plan a product.</p><p>Water quality deserves a word here. Membrane systems and post-dilution both need large volumes of deaerated, low-mineral water. A brewery on hard borewell water will need treatment before it can even consider membranes.</p><p>For a craft brewery, owning a dealcoholisation plant is rarely the first step. Contract dealcoholisation or a limited-fermentation recipe usually comes first. Choosing between them is a technical and commercial call that this guide can only start.</p><p>Your first step: decide your target ABV and the market you want to sell in, then check the label limit that applies there. The method follows from that number.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the best method to remove alcohol from beer?",
+   "There is no single best method. Vacuum distillation and spinning cones are fast and suit large volumes. Membrane systems avoid heat but need good deaerated water and careful cleaning."
+  ],
+  [
+   "Does dealcoholised beer taste different?",
+   "Usually a little thinner, because alcohol adds body. Aroma recovery, fuller worts and late dry hopping help close the gap."
+  ],
+  [
+   "At what temperature does vacuum distillation work?",
+   "Under vacuum, alcohol can be removed at about 30 to 45 °C depending on the system, far below its normal boiling point."
+  ],
+  [
+   "Can a small brewery dealcoholise beer?",
+   "It can use contract dealcoholisation, but the equipment is costly to own. Many small brewers start with limited fermentation instead."
+  ]
+ ],
+ "cta": {
+  "title": "Choose the right route to alcohol-free beer",
+  "body": "Non-Alcoholic Beer is our two week live course (₹5,000), on Saturdays and Sundays online. It covers dealcoholisation, limited fermentation, special yeasts and microbial safety so you can pick a method that suits your brewery.",
+  "href": "non-alcoholic-beer-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "limited-fermentation-for-alcohol-free-beer",
+  "ankur-napa-free-brewing-tools",
+  "free-rise-fermentation-and-when-to-let-the-temperature-climb"
+ ]
+}

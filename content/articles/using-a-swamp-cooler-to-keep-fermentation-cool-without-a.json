@@ -1,0 +1,67 @@
+{
+ "slug": "using-a-swamp-cooler-to-keep-fermentation-cool-without-a",
+ "cat": "Brewing basics",
+ "h1": "Using a swamp cooler to keep fermentation cool without a fridge",
+ "title": "Swamp Cooler Fermentation at Home | Craft Beer School",
+ "desc": "How a swamp cooler keeps a homebrew fermenter several degrees below room temperature, using a tub, a wet towel, a fan and frozen bottles.",
+ "teaser": "A tub of water, a wet T-shirt and a few frozen bottles can hold an ale at 19 °C in a 30 °C room. Here is how.",
+ "standfirst": "A swamp cooler is the cheapest way to control fermentation temperature. It needs no electrics beyond a fan. It works best in dry heat and needs more ice in humid cities. Here is how we set one up.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "How a swamp cooler works",
+   "<p>A swamp cooler uses two pieces of physics. The first is thermal mass. A fermenter standing in a tub of water is surrounded by a large volume that changes temperature slowly. Daily swings in room temperature are smoothed out.</p><p>The second is evaporation. A wet cloth draped over the fermenter, with its hem in the water, wicks water upwards. As that water evaporates from the cloth, it takes heat with it. A fan blowing across the cloth speeds this up a lot. Add frozen water bottles to the tub and you lower the water temperature directly.</p>"
+  ],
+  [
+   "What you need",
+   "<ul><li>A tub or bucket wide enough to hold your fermenter with a few centimetres of space around it.</li><li>Enough water to come up to at least the level of the beer inside.</li><li>An old cotton T-shirt or towel that covers the fermenter and reaches the water.</li><li>A small table fan.</li><li>Four to six 1 litre plastic bottles of water kept in the freezer.</li><li>A strip thermometer on the fermenter and a probe thermometer for the tub water.</li></ul><p>Cotton wicks better than synthetics. A 60 litre plastic tub fits most 30 litre buckets. Check before brew day.</p><p>A tub that is too small is the usual mistake. The fermenter displaces water as you lower it in, so a tub filled to the brim on the counter overflows on the floor. Fill it after the fermenter is in place.</p>"
+  ],
+  [
+   "Setting it up on pitching day",
+   "<p>Stand the empty tub in your <a href=\"setting-up-a-fermentation-corner-in-a-rented-flat.html\">fermentation corner</a> first, because a full one is too heavy to move. Lower the filled fermenter in, add water to the beer line and drape the wet cloth over the top so it touches the water all round. Point the fan at the cloth.</p><p>Pitch your yeast only when the wort is at the target temperature. Two frozen bottles in the tub at pitching time help hold it there. For most clean ale yeasts that target is 18 to 20 °C. Check the yeast maker's range for your strain.</p>"
+  ],
+  [
+   "Hold the first three days hardest",
+   "<p>The most heat comes in the first 48 to 72 hours, when the yeast is growing and fermenting fastest. This is also when most of the esters and fusel alcohols that make a warm-fermented beer taste harsh are formed. After about day four, fermentation slows and the beer can be allowed to rise a degree or two to help it finish.</p><p>In practice, swap frozen bottles morning and evening for the first three days. Watch the strip thermometer, not the water. A reading on the fermenter of 19 °C with the tub at 17 °C is normal during peak activity.</p>"
+  ],
+  [
+   "Humidity changes everything",
+   "<p>Evaporation slows as the air gets more humid. In dry heat, such as a north Indian May, a wet cloth and a fan can pull a fermenter several degrees below the room on their own. In Mumbai or Chennai during the monsoon, when humidity sits near saturation, evaporation does little. There the ice bottles do almost all the work.</p><p>Plan for your city. In a humid month expect to rotate more bottles. A second freezer tray of bottles saves a lot of anxious midnight trips. If you cannot hold the beer under 22 °C even with ice, choose a yeast that tolerates warmth, such as a kveik strain or a saison yeast.</p>"
+  ],
+  [
+   "Keep the water from turning green",
+   "<p>Standing water in a warm flat grows mould and algae within a week or two. Change the tub water between batches. During a long ferment, a small splash of unscented household bleach in the tub water keeps it clean. Keep bleach well away from the airlock and anything that touches beer.</p><p>Wash the cloth after every batch. A damp towel left for a fortnight smells and can carry mould spores near your fermenter. A swamp cooler is a stepping stone. Many brewers move on to a <a href=\"converting-a-chest-freezer-into-a-fermentation-chamber.html\">chest freezer chamber</a> once they brew often. Knowing which yeast strains suit the temperature you can actually hold is what a fundamentals course is for.</p>"
+  ],
+  [
+   "Test it before you brew",
+   "<p>Fill a fermenter with 20 litres of tap water and run the swamp cooler for two days with no beer in it. Log the room temperature and the strip reading every morning and evening. Note how many bottles you used. That tells you what your setup can hold in this season, before any wort is at risk.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much can a swamp cooler lower fermentation temperature?",
+   "It depends on humidity and how much ice you add. In dry heat a wet cloth and fan alone can give several degrees. In humid weather frozen bottles do most of the cooling."
+  ],
+  [
+   "How often should I change the ice bottles?",
+   "Twice a day during the first three days of fermentation, when the yeast produces the most heat. Once a day is usually enough after that."
+  ],
+  [
+   "Does a swamp cooler work for lagers?",
+   "Rarely. Holding 10 to 12 °C for two weeks in Indian heat needs far more ice than most people can manage. A fridge with a controller is the practical route for lager."
+  ]
+ ],
+ "cta": {
+  "title": "Ferment clean beer without expensive kit",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It covers how temperature shapes yeast flavour and which strains and setups give clean beer in Indian weather.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "brewing-a-kolsch-style-ale-at-home-without-a-lager-fridge",
+  "wiring-a-plug-in-temperature-controller-for-a-fermentation",
+  "cold-crashing-in-a-home-fridge-without-suck-back"
+ ]
+}

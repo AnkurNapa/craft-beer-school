@@ -1,0 +1,67 @@
+{
+ "slug": "why-over-carbonated-draught-beer-pours-wild-and-how-to-fix",
+ "cat": "Tasting",
+ "h1": "Why over-carbonated draught beer pours wild and how to fix it",
+ "title": "Fixing Draught Beer That Pours Wild | Craft Beer School",
+ "desc": "Why draught beer pours as foam: warm beer, gas pressure, short lines and over carbonated kegs, with a step by step fix for each cause.",
+ "teaser": "A tap pouring a glass of foam is telling you something. Usually it is about temperature, not gas.",
+ "standfirst": "A wild pour, where the tap spits foam and fills the glass with froth, is one of the most common draught complaints. Bar teams often turn the gas down and hope. Sometimes that works for a day. Usually it makes things worse. Here is how to find the real cause and fix it properly.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Check temperature before anything else",
+   "<p>Warm beer is the most common cause of foam that gets blamed on over carbonation. CO2 is less soluble as beer warms. Beer balanced at 3 °C that warms to 7 or 8 °C anywhere between keg and glass releases gas as it pours.</p><p>Pour a glass, put a probe thermometer in it and compare with the cold room. If the beer in the glass is more than 1 to 2 °C warmer than the keg, look at the line cooling, the font and the cold room before touching the regulator. Our guide to <a href=\"python-cooling-for-long-draught-lines-in-a-hot-country.html\">python cooling in a hot country</a> covers the usual weak spots.</p>"
+  ],
+  [
+   "Then check the gas pressure against the beer",
+   "<p>Gas pressure in the keg sets the carbonation of the beer over time. For a beer meant to hold 2.5 volumes of CO2 at 3 °C, the equilibrium pressure is about 0.8 bar (12 psi) at sea level. If the regulator has been set to 1.5 bar on pure CO2 to speed up a slow pour, the beer slowly absorbs more gas. After several days it may sit well above 3 volumes and pour as foam no matter what you do at the tap.</p><p>Find the brewery's target carbonation for each beer and look up the matching pressure on a carbonation chart for your cold room temperature. Set the regulator to that, not to whatever makes the pour look right today.</p>"
+  ],
+  [
+   "Too little restriction makes the beer race",
+   "<p>Even correctly carbonated beer will pour wild if the line is too short or too wide for the pressure. The beer reaches the faucet with pressure to spare and shoots out at speed. It churns in the glass and foams.</p><p>Planning figures for 3/16 inch vinyl line are about 0.68 bar per metre, but real lines often give less resistance than that, so installers usually allow some extra length. On a long draw system the balance is worked out across the whole line, lift and fittings. Our guide to <a href=\"balancing-a-long-draw-draught-system-in-a-busy-bar.html\">balancing a long draw system</a> walks through the arithmetic.</p><p>A flow control faucet adds restriction at the tap and can tame a short system. It is a fix for a mild mismatch, not a large one.</p>"
+  ],
+  [
+   "The keg may have arrived over carbonated",
+   "<p>Sometimes the beer left the brewery with more CO2 than the bar expects, or a keg was stored warm on its way and its headspace pressure rose. Signs: a new keg foams from the first pour while the same beer on the next tap was fine. The cold room and lines check out.</p><p>Ask the brewery for the target carbonation of that batch. If the keg is high, you can bring it down:</p><ol><li>Make sure the keg is fully cold, 2 to 4 °C.</li><li>Disconnect the gas.</li><li>Vent the headspace through the coupler's pressure relief valve, a few seconds at a time.</li><li>Leave it for several hours, then vent again. Repeat over a day or two.</li><li>Reconnect at the correct pressure and pour a test.</li></ol><p>It takes time because CO2 comes out of solution slowly. There is no quick trick that does not also ruin the pour.</p>"
+  ],
+  [
+   "Why turning the gas right down backfires",
+   "<p>The tempting fix is to drop the regulator until the beer pours gently. For a few hours it looks better. But now the gas pressure is below the beer's equilibrium, so CO2 starts breaking out of the beer in the keg and in the line. Bubbles form in the tubing, the pour becomes uneven and the beer in the glass turns flat by the end of the keg.</p><p>Lower pressure is only right if you are deliberately bringing an over carbonated keg down to its target. Even then you return to the correct setting once it gets there.</p>"
+  ],
+  [
+   "Smaller causes worth ruling out",
+   "<ul><li><strong>Dirty lines or faucets.</strong> Deposits and rough spots give bubbles places to form. A line overdue for cleaning can foam more.</li><li><strong>A kinked or crushed line.</strong> A sharp bend causes turbulence and breakout.</li><li><strong>A worn faucet.</strong> Damaged seals or a partly open valve cause spitting.</li><li><strong>Poor pouring technique.</strong> Opening the faucet halfway causes turbulence. Open it fully and quickly, hold the glass at about 45 degrees, then straighten it.</li><li><strong>Dirty or warm glasses.</strong> Both trigger foam. Rinse glasses in cold water before pouring.</li></ul>"
+  ],
+  [
+   "Fix it in order, one change at a time",
+   "<p>Work through the causes in this order: beer temperature in the glass, cold room temperature, regulator pressure against the carbonation chart, line restriction, the keg itself, then faucet, lines and technique. Change one thing, pour, note the result. Changing three things at once means you never learn which one mattered.</p><p>Taste as you go. Over carbonated beer tastes sharp and prickly, with the malt pushed into the background. A beer that tastes flat and dull after the fix has been taken too far the other way.</p><p>Your first step: next time a tap pours wild, before touching the gas, pour a glass and take its temperature. Write it down next to the cold room reading. That single number rules in or out the most common cause.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is my draught beer all foam?",
+   "Most often the beer is too warm somewhere between keg and glass. Next check the gas pressure against the beer's target carbonation, then the line restriction."
+  ],
+  [
+   "Should I lower the gas pressure if beer is foaming?",
+   "Not as a fix. Pressure below the beer's equilibrium makes CO2 break out in the keg and lines, giving uneven pours and flat beer later."
+  ],
+  [
+   "How do I reduce carbonation in a keg?",
+   "Chill it fully, disconnect gas and vent the headspace through the coupler relief valve in short bursts over a day or two, then reconnect at the correct pressure."
+  ]
+ ],
+ "cta": {
+  "title": "Pour clean beer from every tap",
+  "body": "Sensory Evaluation is our two week live course (₹5,999). It trains brewers and bar teams to taste what a draught system does to beer: buttery diacetyl from dirty lines, sourness, flat or prickly carbonation and warm serving, so you catch faults a pressure gauge cannot show.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "draught-line-cleaning",
+  "why-the-same-beer-tastes-different-on-draught-and-in-a-can",
+  "mousy-taint-in-wild-and-sour-beers-and-how-to-test-for-it"
+ ]
+}

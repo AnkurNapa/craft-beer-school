@@ -1,0 +1,75 @@
+{
+ "slug": "the-hop-storage-index-explained",
+ "cat": "Ingredients",
+ "h1": "The hop storage index explained",
+ "title": "The Hop Storage Index Explained | Craft Beer School",
+ "desc": "What the hop storage index (HSI) measures, how to read it on a hop certificate and how to use it to judge freshness and adjust bittering.",
+ "teaser": "Alpha acid on the bag tells you what the hop was at harvest. The hop storage index tells you how much of that is still there.",
+ "standfirst": "Hops age from the moment they are picked. The hop storage index, or HSI, is a quick laboratory measure of how far that ageing has gone. Used well, it helps you reject tired lots and adjust recipes before brew day.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Hops lose alpha acids and aroma as they age",
+   "<p>The alpha acids that give beer bitterness oxidise over time. So do the beta acids and the essential oils that carry aroma. Heat, oxygen and time drive the process. A hop that analysed at 12% alpha at harvest may be well below that a year later if it was stored badly.</p><p>Oxidation does not only remove bitterness. It creates new compounds, some of them unpleasant. Old hops can smell cheesy or like sweaty socks, from isovaleric acid formed as hop acids break down. Our guide to <a href=\"hop-storage-and-freshness.html\">hop storage and freshness</a> covers the full picture.</p>"
+  ],
+  [
+   "HSI is a ratio of two absorbance readings",
+   "<p>The hop storage index is a standard method from the American Society of Brewing Chemists (ASBC). Hops are extracted with a solvent, the extract is diluted in alkaline methanol and the solution is read in a spectrophotometer at two wavelengths: 275 nm and 325 nm.</p><p><strong>HSI = absorbance at 275 nm / absorbance at 325 nm</strong></p><p>Fresh alpha and beta acids absorb strongly at 325 nm. Their oxidation products absorb more at 275 nm. As the hop ages, the ratio rises. The test is fast and cheap compared with a full HPLC analysis of hop acids, which is why many suppliers report it.</p>"
+  ],
+  [
+   "Low numbers mean fresh hops",
+   "<p>Interpretation varies a little between laboratories and suppliers. As a general guide:</p><ul><li>Around 0.2 to 0.3: fresh, well-handled hops.</li><li>Around 0.3 to 0.4: some ageing. Usually still fine for bittering.</li><li>Above about 0.4: noticeably aged. Expect lower alpha acid than the bag says and weaker aroma.</li><li>0.5 and above: heavily oxidised. Think twice before using these for aroma at all.</li></ul><p>HSI is not a direct measure of alpha acid loss. Two hops with the same HSI can have lost different amounts of alpha, depending on variety and history. Treat it as a freshness warning, not a precise correction factor.</p>"
+  ],
+  [
+   "Varieties age at very different speeds",
+   "<p>Some hop varieties hold their alpha acids well in storage. Others lose them fast. Breeders and suppliers publish a storage stability figure for many varieties, usually as the percentage of alpha acid remaining after six months at 20 °C. The spread between varieties is wide.</p><p>This matters when you buy a year's supply in one order. A stable bittering hop may still be fine after twelve months in a freezer. A fragile aroma variety bought in the same order may be noticeably weaker by the time you open the last foil pack. Our guide to <a href=\"alpha-acids-explained.html\">alpha acids</a> explains how those acids turn into bitterness in the kettle.</p>"
+  ],
+  [
+   "Use HSI to adjust bittering and choose additions",
+   "<p>If a lot arrives with an HSI above about 0.4, get a fresh alpha acid figure before relying on the label. Some suppliers will provide one on request. Otherwise, raise the bittering addition modestly for a noticeably aged lot and check the bitterness of the first batch with a lab measurement or a careful tasting against the last brew.</p><p>Move older lots to early bittering additions, where aroma matters less. Keep the freshest hops, with the lowest HSI, for whirlpool and dry hopping, where oxidised aroma would show.</p>"
+  ],
+  [
+   "In India, the cold chain decides the number",
+   "<p>Most hops used in India are imported, often after weeks at sea and time in customs. The HSI on the certificate shows the hop when it was packed, not when it arrived. A pallet left on a warm dock for a few days in May can lose more freshness than it would in months of cold storage.</p><p>Here is the floor detail: insist on frozen or refrigerated transport and check the pack temperature on receipt with a probe thermometer. Store foil packs at or below 0 °C. Once opened, flush with CO2 or nitrogen, seal tightly and use within a few weeks.</p>"
+  ],
+  [
+   "Make HSI part of goods receiving",
+   "<p>Ask every hop supplier to include HSI and alpha acid on the certificate for each lot. Log both against the lot number and the date received. Over a year, you will see which suppliers and routes deliver fresh hops. Turning those certificates into purchasing and recipe decisions is the analytical side of brewing science. It is what separates a stable house beer from one that drifts.</p>"
+  ],
+  [
+   "Check your oldest hop lot now",
+   "<p>Find the oldest open foil pack in your freezer. Look up its HSI and alpha acid on the certificate. If the HSI is above 0.4, move that lot to bittering only and plan to use it within the next few brews.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does HSI mean on a hop certificate?",
+   "HSI is the hop storage index, the ratio of absorbance at 275 nm to 325 nm in an alkaline methanol extract. It rises as hop acids oxidise."
+  ],
+  [
+   "What is a good HSI value?",
+   "Around 0.2 to 0.3 indicates fresh, well-handled hops. Above about 0.4 shows noticeable ageing."
+  ],
+  [
+   "Can I calculate alpha acid loss from HSI?",
+   "Not precisely. HSI is a freshness warning. Alpha acid loss depends on variety and storage, so get a fresh alpha figure for aged lots."
+  ],
+  [
+   "How should hops be stored?",
+   "In sealed, oxygen-barrier foil packs at or below 0 °C. Flush opened packs with CO2 or nitrogen and use them within a few weeks."
+  ]
+ ],
+ "cta": {
+  "title": "Turn hop certificates into recipe decisions",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers hop chemistry, bitterness and raw material quality so you can read a hop certificate and keep your house beers on target.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "hop-storage-and-freshness",
+  "hop-varieties-for-beginners",
+  "alpha-acids-explained"
+ ]
+}

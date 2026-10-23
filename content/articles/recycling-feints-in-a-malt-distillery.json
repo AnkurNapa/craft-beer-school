@@ -1,0 +1,71 @@
+{
+ "slug": "recycling-feints-in-a-malt-distillery",
+ "cat": "Whisky",
+ "h1": "Recycling feints in a malt distillery",
+ "title": "Recycling Feints in a Malt Distillery | Craft Beer School",
+ "desc": "How heads and tails are recycled through the feints receiver, what builds up over time and how to keep feints from changing your spirit.",
+ "teaser": "Every malt distillery redistils its own heads and tails. Handled carelessly, they slowly change the spirit.",
+ "standfirst": "Feints recycling recovers alcohol that would otherwise be wasted. It also means every charge carries a little of every run before it. This guide explains the loop and how to keep it under control.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The loop every malt distillery runs",
+   "<p>A spirit still run gives three fractions. Hearts go to the spirit receiver and on to casks. Foreshots and feints go to the feints receiver. That receiver is mixed with low wines from the wash still in a charger. The blend becomes the next spirit still charge.</p><p>So the same heads and tails go round and round. Alcohol is recovered, but so are oils, heavy esters, higher alcohols and anything else that did not make the cut. The system settles into a rough balance over many runs, which is why a distillery's spirit can drift slowly when the balance is disturbed.</p>"
+  ],
+  [
+   "The numbers that matter in the charger",
+   "<p>Low wines from a wash still are usually around 20 to 25% ABV. Feints and foreshots together are stronger, often in the 30s or above, depending on where the run was stopped. Mixed, a spirit still charge commonly sits somewhere around 25 to 30% ABV.</p><p>The strength of that charge matters. A stronger charge pushes the run towards higher strengths throughout, which changes when compounds come off and so changes where you would cut. If feints volume grows from week to week, the charge strength rises and cut points that used to work start to give a different spirit. Our guide to <a href=\"low-wines-and-the-spirit-still-charge.html\">low wines and the spirit still charge</a> covers that side in detail.</p>"
+  ],
+  [
+   "What builds up if you are not watching",
+   "<p>Some compounds leave the loop slowly. Heavy fatty acid esters and higher alcohols such as isoamyl alcohol come off late in the run and go straight back to the feints receiver. Oils can separate and float on the receiver. Over time a distillery can find its feints receiver getting fuller and its new make getting heavier.</p><p>Signs that feints are building up:</p><ul><li>The feints receiver level creeps up week after week.</li><li>Charge strength rises without any change in fermentation or wash still practice.</li><li>New make starts to taste oily, soapy or vegetal at the same cut points.</li><li>The demisting test clears later than it used to.</li></ul>"
+  ],
+  [
+   "Ways distillers keep the loop in balance",
+   "<p>The first tool is the end point of the run. Stopping feints collection at around 1% ABV recovers nearly all the alcohol. Some distilleries stop earlier and send the weakest tail to spent lees, accepting a small alcohol loss to keep the heaviest compounds out of the loop.</p><p>The second tool is skimming. Oils that separate on top of the feints receiver can be drawn off. The third is an occasional run where the feints are distilled on their own and the fractions are handled separately. Each costs alcohol or time. Which one fits depends on your still and the style you want.</p>"
+  ],
+  [
+   "Feints in the spirit you can taste",
+   "<p>Feints do not only show up as a bigger tank. They show up in the glass. A light, fruity new make that starts to carry a buttery, soapy or cooked vegetable note at the same cut points is often a sign that the loop has shifted. Sulphury notes can also rise if heavier compounds build up, although copper contact and still speed play their part in that too.</p><p>Our guide to <a href=\"sulphur-and-feints-off-notes-in-whisky.html\">sulphur and feints off notes</a> describes the main aromas. Keep a reference sample of new make from a period when you were happy with the spirit. Nose each week's new make against it, diluted to around 20% ABV. A trained nose picks up drift weeks before the numbers in a log make it obvious.</p>"
+  ],
+  [
+   "Measuring the loop with data",
+   "<p>This is where a spreadsheet earns its keep. For every spirit run, record the volume and strength of the charge, the hearts and the feints collected. Convert each to litres of pure alcohol. Over a month the alcohol going into the feints receiver should roughly equal the alcohol coming out of it into charges.</p><p>If it does not, the receiver is either growing or something is being lost. A receiver that gains a few hundred litres of pure alcohol a month on a small site is telling you the cut or the stop point has moved. Our guide to <a href=\"spirit-yield-calculation-in-a-malt-distillery.html\">spirit yield calculation</a> shows how to set up the pure alcohol balance.</p>"
+  ],
+  [
+   "Starting a new distillery's loop",
+   "<p>A brand new distillery has no feints for its first charge. The first runs are low wines alone. The spirit can taste different until the feints receiver fills and the loop settles. That can take weeks of running. Do not judge your house character on the first few runs. Do not lay down your best casks with them.</p><p>Knowing how the loop behaves on your own kit and when to intervene is the kind of judgement a new distiller builds on the course rather than by spoiling casks.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What are feints in whisky distilling?",
+   "Feints are the tails of a spirit still run, the weaker and heavier spirit that comes after the hearts. Together with the foreshots they go to the feints receiver for redistillation."
+  ],
+  [
+   "How strong is a spirit still charge?",
+   "A mix of low wines with foreshots and feints commonly sits around 25 to 30% ABV, depending on how much feints are in the receiver and where runs were stopped."
+  ],
+  [
+   "Why does new make change when feints build up?",
+   "Heavier compounds recycle through the feints receiver. If they accumulate, charge strength rises and more of them come through at the same cut points, making the spirit heavier."
+  ],
+  [
+   "When should feints collection stop?",
+   "Many distilleries collect feints until the run falls to around 1% ABV to recover nearly all the alcohol. Some stop a little earlier to keep the heaviest compounds out of the loop."
+  ]
+ ],
+ "cta": {
+  "title": "Keep your feints loop under control",
+  "body": "Craft Distilling is our four week live course (₹9,999), on Saturdays and Sundays with recordings and a certificate. It covers both distillations, feints handling and pure alcohol balances, so you can spot drift in your spirit before it reaches a cask.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "spirit-yield-calculation-in-a-malt-distillery",
+  "malt-grain-and-blended-whisky",
+  "distillery-kpis-for-analysts"
+ ]
+}

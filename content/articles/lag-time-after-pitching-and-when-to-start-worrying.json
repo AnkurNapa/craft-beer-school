@@ -1,0 +1,63 @@
+{
+ "slug": "lag-time-after-pitching-and-when-to-start-worrying",
+ "cat": "Brewing basics",
+ "h1": "Lag time after pitching and when to start worrying",
+ "title": "Lag Time After Pitching: When to Worry | Craft Beer School",
+ "desc": "How long lag time after pitching normally lasts, what slows it down and the checks to make at 24 and 48 hours before you panic.",
+ "teaser": "No bubbles yet? Most of the time the yeast is busy. Here is when it is not.",
+ "standfirst": "The hours between pitching yeast and seeing activity are the most nervous part of a brew. Most of that waiting is normal. This guide explains what the yeast is doing and when a quiet fermenter really is a problem.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The yeast is busy before you see a single bubble",
+   "<p>Lag time is the gap between pitching and visible fermentation. The yeast is not idle. It is taking up dissolved oxygen, building sterols and fatty acids for new cell membranes and adjusting to a liquid far richer in sugar than its packet or starter. Only once it has done that work does it start multiplying quickly and producing the carbon dioxide you can see.</p><p>For a healthy ale pitch at the right temperature, activity usually shows within 6 to 24 hours. Dried yeast that was rehydrated properly often falls in the same window. Lager yeast pitched cold can take longer, sometimes 24 to 48 hours. That is still normal.</p>"
+  ],
+  [
+   "An airlock is a poor gauge",
+   "<p>Many brewers judge lag by the airlock. That is unreliable. A bucket lid that does not seal lets gas escape around the rim, so the airlock stays still while the beer ferments perfectly well. In the first hours, carbon dioxide also dissolves into the wort before any of it escapes.</p><p>Look at the beer instead. Signs of a start include a ring of fine bubbles at the edge, a thin cream layer forming on top and a slight haze as yeast comes into suspension. The only certain test is a gravity reading. If your original gravity was 1.050 and a sample now reads 1.046, fermentation has started, whatever the airlock says.</p>"
+  ],
+  [
+   "Four things that stretch lag time",
+   "<ul><li><strong>Too little yeast.</strong> One 11 g packet of dried yeast is about right for 20 litres of average strength ale. Use one for a 1.080 beer and the lag stretches. Our guide on <a href=\"pitching-yeast-properly.html\">pitching yeast properly</a> covers the numbers.</li><li><strong>Cold wort.</strong> Yeast pitched into wort a few degrees below its range wakes up slowly.</li><li><strong>Too little oxygen.</strong> Yeast needs oxygen to build healthy membranes. Shaking or splashing the cooled wort for a minute or two makes a real difference.</li><li><strong>Old or heat-damaged yeast.</strong> Check the date. A packet of liquid yeast that sat in a warm courier van has fewer live cells than the label promises.</li></ul>"
+  ],
+  [
+   "Indian heat adds its own risk",
+   "<p>Two problems are common here. First, getting wort down to pitching temperature is hard when tap water is 30 °C in May. Brewers pitch into warm wort to save time. The yeast takes off fast and makes harsh fusel alcohols, or a stressed pitch stalls. Cool the wort to the range on the packet, even if it means an ice bath, before the yeast goes in.</p><p>Second, liquid yeast suffers in transit. Order it with ice packs, put it in the fridge as soon as it arrives and make a starter if you have any doubt about its health. Dried yeast is far more forgiving in hot weather.</p><p>A long lag also leaves warm, sweet wort sitting unprotected. Any bacteria or wild yeast that got in during cooling has a head start. That is why lag time matters more in a hot kitchen than in a cool one.</p>"
+  ],
+  [
+   "What to check at 24 and 48 hours",
+   "<p>At 24 hours with no sign of life, do not reach for more yeast yet. Check three things. Is the beer at the right temperature for the strain? Does a gravity sample show any drop? Is the lid or bung sealing properly?</p><p>At 48 hours with no gravity drop at all, act. Warm the fermenter gently into the strain's range if it is cold. If temperature was fine, pitch fresh yeast: rehydrated dried yeast is the fastest rescue and the cheapest. By 72 hours a dead fermentation is at real risk of infection, so make the call sooner rather than later.</p>"
+  ],
+  [
+   "Prevention is cheaper than rescue",
+   "<p>The fix for most long lags happens on brew day. Pitch enough healthy yeast, aerate well and get the wort to the right temperature first. Then put the lid on and leave it. Opening the fermenter every few hours to look lets in air and dirt without speeding anything up. Cleaning up straight after the brew helps too. Our <a href=\"a-simple-cleaning-routine-for-the-hours-after-brew-day.html\">post brew day cleaning routine</a> keeps contamination risk low.</p><p>Understanding the yeast life cycle well enough to predict how a batch will behave is what separates a nervous brewer from a confident one. That takes more than a recipe card.</p><p>Your first step: on your next brew, write down the time you pitch and take a gravity reading at 24 hours. Two numbers will tell you more than a day of staring at the airlock.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long is too long for lag time?",
+   "For ales, no activity and no gravity drop after 48 hours is worth acting on. Lagers pitched cold can take a little longer before you need to worry."
+  ],
+  [
+   "Should I stir the fermenter if nothing is happening?",
+   "Not usually. Check temperature and gravity first. Stirring adds a little oxygen but also risks contamination once yeast has been pitched."
+  ],
+  [
+   "Can I just pitch more yeast?",
+   "Yes, if the beer is at the right temperature and still shows no gravity drop after about 48 hours. Rehydrated dried yeast is the quickest rescue."
+  ]
+ ],
+ "cta": {
+  "title": "Get fermentation started on time, every time",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999) on Saturday and Sunday afternoons. It covers yeast health, pitch rates, aeration and temperature control so your batches start fast and finish clean.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "extract-vs-all-grain-brewing",
+  "pitching-yeast-properly",
+  "a-simple-cleaning-routine-for-the-hours-after-brew-day"
+ ]
+}

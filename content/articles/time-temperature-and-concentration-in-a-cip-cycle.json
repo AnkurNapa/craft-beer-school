@@ -1,0 +1,67 @@
+{
+ "slug": "time-temperature-and-concentration-in-a-cip-cycle",
+ "cat": "Brewing science",
+ "h1": "Time, temperature and concentration in a CIP cycle",
+ "title": "Time, Temperature and Strength in CIP | Craft Beer School",
+ "desc": "How time, temperature, concentration and flow work together in a brewery CIP cycle, with typical settings and how to trade one for another.",
+ "teaser": "A CIP cycle has four dials. Turn one down and another has to come up, or the tank only looks clean.",
+ "standfirst": "Every cleaning cycle balances time, temperature, chemical concentration and mechanical action. Understanding how they trade against each other lets you clean properly without wasting water, chemical or energy.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Four factors decide whether a surface gets clean",
+   "<p>Cleaning engineers describe four factors, often called TACT: time, action, concentration and temperature. Action means the mechanical force of liquid hitting or flowing over a surface. Every factor contributes. If one falls short, the others must make up for it, within limits.</p><p>A hand scrubbed bucket relies on action. A soak tank relies on time. A brewery CIP set uses all four. Knowing which factor is weak in your system tells you where to spend effort. Our guide to <a href=\"cip-water-and-chemical-savings.html\">CIP water and chemical savings</a> looks at the cost side.</p>"
+  ],
+  [
+   "Temperature speeds the chemistry",
+   "<p>Caustic works much faster hot. Organic soils such as protein and hop resin soften and dissolve more readily as temperature rises. Typical hot caustic cycles run at around 70 to 85 °C for hot side vessels.</p><p>The catch is that the temperature must hold at the surface, not just in the CIP tank. A 2,000 litre fermenter with uninsulated pipework can lose many degrees between the set and the spray ball. Measure return temperature as well as supply. If the return is 20 °C below supply, the far end of the circuit is cleaning at a much lower temperature than you think.</p>"
+  ],
+  [
+   "Concentration has a sweet spot",
+   "<p>Most brewery caustic cycles run at about 1 to 3% sodium hydroxide. Below that range cleaning slows. Above it, results rarely improve much while chemical cost, rinse water and safety risk all climb.</p><p>Concentration also drifts. Recovered caustic picks up soil and water, then absorbs CO2 from the air and from tanks, turning part of it into sodium carbonate. A tank made up at 2% can be working well below that after a week of reuse. Check strength every cycle by titration or conductivity rather than assuming the make up was right.</p>"
+  ],
+  [
+   "Time is the cheap factor",
+   "<p>Extending contact time costs little more than pump energy and production hours. Many brewery caustic steps run around 20 to 30 minutes at temperature, longer for heavily soiled kettles.</p><p>Time only counts when the other conditions are met. Ten minutes spent heating up the circuit is not ten minutes of cleaning. Start the clock when the return line reaches the target temperature and concentration. That single change turns many weak cycles into adequate ones without spending anything.</p>"
+  ],
+  [
+   "Action means flow and coverage",
+   "<p>Liquid has to reach and scour every surface. In pipes this means turbulent flow. A velocity of at least about 1.5 m/s is the figure commonly quoted for pipe cleaning. In tanks it means the spray device must cover every surface, including under the manway, around fittings and the top of the cone.</p><p>Static spray balls are usually sized by flow per metre of tank circumference. Suppliers publish ranges for each design. Rotating jet heads use less flow but need adequate pressure. A blocked spray ball hole leaves a shadow that no amount of temperature or chemical will clean. Check spray devices regularly and look inside tanks after cleaning with a good torch.</p>"
+  ],
+  [
+   "A worked check on one fermenter",
+   "<p>Take a 2,000 litre fermenter with a static spray ball and a written caustic step of 2% at 75 °C for 20 minutes. On paper that is a reasonable cycle. Now measure it.</p><ul><li>Supply temperature reads 75 °C, but the return reads 58 °C. The vessel walls are being cleaned well below target.</li><li>Titration shows the recovered caustic at 1.2%, because it has been reused for a week and has absorbed CO2.</li><li>The return only reached temperature 12 minutes into the step, leaving 8 minutes of real cleaning.</li></ul><p>Each shortfall looks small. Together they mean the tank got perhaps a third of the cleaning the procedure promised. The fixes are cheap: insulate the supply line, top up or replace caustic based on titration and time the step from the return line. Nothing new has to be bought.</p>"
+  ],
+  [
+   "Trading one factor for another",
+   "<p>Sometimes you have to compromise. Fermenters full of CO2 cannot take hot caustic, so an acid clean at ambient temperature with longer contact and good flow is used instead. A small brewery with limited hot water may run caustic cooler but for longer. These trades work, but only up to a point. No amount of time makes up for a spray ball that misses a third of the tank.</p><p>Getting this right on a particular site means measuring each factor and changing one at a time. That kind of systematic thinking is what we build on the advanced course.</p><p>Your first step: on your next CIP, log supply and return temperature, caustic strength and the time spent at target. Compare that with what the written procedure says.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does TACT stand for in cleaning?",
+   "Time, action, concentration and temperature: the four factors that together decide how well a surface is cleaned."
+  ],
+  [
+   "What temperature should caustic CIP run at?",
+   "Hot side caustic cycles typically run around 70 to 85 °C, measured at the return line rather than only in the CIP tank."
+  ],
+  [
+   "When should I start timing a CIP step?",
+   "Start when the return line reaches the target temperature and concentration. Heating up time does not count as cleaning time."
+  ]
+ ],
+ "cta": {
+  "title": "Design cleaning cycles that hold up",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers cleaning chemistry, hygiene design and microbiology so you can set CIP parameters and verify them.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "dry-hop-contact-time-and-temperature-for-the-best-extraction",
+  "cip-water-and-chemical-savings",
+  "free-rise-fermentation-and-when-to-let-the-temperature-climb"
+ ]
+}

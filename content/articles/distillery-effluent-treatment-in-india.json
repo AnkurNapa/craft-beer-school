@@ -1,0 +1,75 @@
+{
+ "slug": "distillery-effluent-treatment-in-india",
+ "cat": "Whisky",
+ "h1": "Distillery effluent treatment in India",
+ "title": "Distillery Effluent Treatment in India | Craft Beer School",
+ "desc": "How Indian distilleries treat spent wash and other effluent, from biomethanation to evaporation and zero liquid discharge, at process level.",
+ "teaser": "Effluent is the part of a distillery plan that most often goes wrong. Here is how treatment works in India.",
+ "standfirst": "Every Indian distillery has to deal with its effluent before it can operate. The rules are strict and the volumes are large. This guide walks through the treatment options at process level, from small craft sites to large grain and molasses plants.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why distillery effluent is regulated so tightly",
+   "<p>Distillery residues carry very high levels of organic matter. Their BOD and COD run far above ordinary sewage. Molasses spent wash also has a dark colour that resists biological treatment. A single large distillery discharging untreated effluent can damage a river for kilometres.</p><p>For this reason distilleries sit in the most tightly controlled category of industry. The Central Pollution Control Board sets national guidance and each state pollution control board issues the consent to establish and the consent to operate. The norms have tightened over the years towards zero liquid discharge (ZLD), where no process effluent leaves the site as liquid. Requirements change, so always check the current conditions with your state board.</p>"
+  ],
+  [
+   "Know your streams",
+   "<p>A distillery has several effluent streams and each behaves differently:</p><ul><li>Spent wash or pot ale from the first distillation, the largest organic load.</li><li>Spent lees from a second distillation, hot and carrying copper.</li><li>Cleaning water from vessels and floors, which may include caustic and acid.</li><li>Cooling tower blowdown and boiler blowdown, high in dissolved salts.</li><li>Reject water from RO plants used for process and reduction water.</li></ul><p>Measure the volume and strength of each before you design anything. Mixing everything into one tank makes treatment harder, not easier.</p>"
+  ],
+  [
+   "Biomethanation",
+   "<p>In large molasses distilleries, the first step is usually an anaerobic digester. Bacteria break down much of the organic matter without oxygen and make biogas, which is mostly methane. That gas can fire the boiler and offset fuel cost. Biomethanation reduces BOD sharply but leaves a dark liquid with high COD and dissolved solids that still needs treatment.</p><p>Digesters need steady feeding and temperature control. They do not like sudden shocks of caustic or copper, which is one more reason to keep streams separate.</p>"
+  ],
+  [
+   "Evaporation, incineration and composting",
+   "<p>After digestion, multi effect evaporators concentrate the remaining liquid. The condensate is treated and reused in the plant. The thick concentrate then goes one of a few ways:</p><ul><li>Burned in an incineration boiler designed for high solids fuel, making steam and potash rich ash.</li><li>Mixed with press mud from a sugar mill and composted into a soil conditioner.</li><li>Dried into a powder for other uses where permitted.</li></ul><p>Which route fits depends on the plant's size, location and the state board's conditions. Our guide to <a href=\"handling-pot-ale-and-spent-wash.html\">handling pot ale and spent wash</a> explains the residues themselves.</p>"
+  ],
+  [
+   "Grain distilleries",
+   "<p>Grain plants have an easier stream because grain stillage has no molasses colour. A decanter centrifuge separates wet cake. Part of the thin stillage is recycled as backset into the next mash. The rest is evaporated into a syrup and dried with the wet cake into distillers dried grains with solubles (DDGS), which is sold as feed. Condensate from the evaporators is polished and reused.</p><p>Done well, a grain plant turns most of its effluent into a saleable product and recycled water. Our guide to <a href=\"draff-and-spent-grain-for-cattle-feed.html\">draff and spent grain for cattle feed</a> covers the feed side.</p>"
+  ],
+  [
+   "Craft and malt distilleries",
+   "<p>A small malt distillery making a few hundred litres of new make a day still produces several thousand litres of pot ale and cleaning water. It cannot usually justify a digester and evaporator of its own. Options to explore with an environmental consultant include sending pot ale to a feed processor or farm, a compact treatment package sized for the site or a common effluent treatment plant where one exists and accepts distillery waste.</p><p>Whatever route you choose, the state board will want to see it designed and costed before granting consent. It often takes longer than founders expect.</p>"
+  ],
+  [
+   "Monitoring after consent",
+   "<p>Consent conditions usually include regular sampling, record keeping and reporting. Larger plants may be required to install online monitoring that sends data to the board. Keep a logbook of volumes, treatment performance and any upsets. A day when the digester fails or an evaporator is down should be recorded with what you did about it.</p><p>Good data protects you. When an inspector asks how your plant performed last month, a clean log answers the question better than any explanation.</p>"
+  ],
+  [
+   "A first step",
+   "<p>List every stream your planned distillery will produce, with an estimated daily volume for each. Take that list to an environmental consultant who has worked with distilleries in your state before you finalise the site. The answer may change where you build.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is zero liquid discharge in a distillery?",
+   "Zero liquid discharge means no process effluent leaves the site as liquid. Residues are treated, concentrated, recycled or turned into solids such as compost, ash or feed."
+  ],
+  [
+   "What is biomethanation?",
+   "It is anaerobic digestion of spent wash by bacteria, which reduces the organic load and produces biogas that can be burned in the boiler."
+  ],
+  [
+   "Who regulates distillery effluent in India?",
+   "The Central Pollution Control Board sets national guidance and state pollution control boards issue consents and conditions for each plant. Rules change, so check current requirements."
+  ],
+  [
+   "Can a small craft distillery achieve ZLD?",
+   "It depends on volumes, location and the state board's conditions. Options include feed processors, compact treatment plants and common effluent treatment plants. Work with an environmental consultant."
+  ]
+ ],
+ "cta": {
+  "title": "Build effluent into your distillery plan",
+  "body": "Craft Distilling is our four week live course (₹9,999), on Saturdays and Sundays with recordings and a certificate. It covers the whole distilling process, including the residues each step produces, so you can plan treatment and utilities with your consultants rather than after them.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "sourcing-oak-casks-for-an-indian-distillery",
+  "choosing-a-site-for-a-distillery-in-india",
+  "the-distillery-licence-process-in-india"
+ ]
+}

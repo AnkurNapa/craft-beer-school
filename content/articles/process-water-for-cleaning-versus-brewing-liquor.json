@@ -1,0 +1,75 @@
+{
+ "slug": "process-water-for-cleaning-versus-brewing-liquor",
+ "cat": "Ingredients",
+ "h1": "Process water for cleaning versus brewing liquor",
+ "title": "Process Water Versus Brewing Liquor | Craft Beer School",
+ "desc": "Why brewing liquor, CIP water, boiler feed and dilution water need different treatment plus how to split one supply without wasting money.",
+ "teaser": "Not every litre in a brewery needs to be brewing quality. Treating it all the same wastes money and can damage kit.",
+ "standfirst": "A brewery uses water for many jobs besides making beer. Brewing liquor, cleaning water, boiler feed, cooling water and dilution water each have different needs. Matching treatment to the job saves money and protects both beer and equipment.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Brewers call the water in the beer liquor",
+   "<p>In brewing, liquor means the water that ends up in the beer: mash water, sparge water and any water used to adjust gravity. Everything else is process water. That includes water for cleaning in place (CIP), rinsing, boiler feed, cooling towers, pasteuriser make-up and general washdown.</p><p>Most small breweries treat all their water the same way, usually to brewing standard or not at all. Both waste something. Treating washdown water through reverse osmosis wastes money and water. Using untreated hard water in a boiler shortens its life. The answer is to map where each litre goes.</p>"
+  ],
+  [
+   "Brewing liquor is built for flavour and mash pH",
+   "<p>Liquor must be potable, free of chlorine and chloramine and adjusted for the beer. That usually means controlled calcium, low alkalinity for pale beers and sodium, iron and nitrate kept low. Many breweries on Indian borewell water build liquor from reverse osmosis water with salts added back. Our guide to <a href=\"brewing-water-basics.html\">brewing water basics</a> covers the ions involved.</p><p>Liquor is the most expensive water in the building to produce, so it should go only where it touches the beer.</p>"
+  ],
+  [
+   "Cleaning water must be clean, but hardness causes scale",
+   "<p>Water for CIP does not need a brewing ion profile, but it does need to be microbiologically clean, especially for the final rinse after sanitising, which touches product surfaces directly. Final rinse water should meet potable standards at minimum.</p><p>Hardness matters for a different reason. Hot caustic, typically 1.5 to 2% sodium hydroxide at 70 to 80 °C, reacts with calcium and magnesium in hard water to form scale. Combined with calcium oxalate from beer, that builds beerstone on vessel walls, which shelters bacteria and resists cleaning. Very hard water also uses up detergent faster. Soft or softened water helps here. Our guide to <a href=\"cip-cleaning-in-place.html\">CIP cleaning in place</a> covers cycle design.</p>"
+  ],
+  [
+   "Softened water belongs in the boiler, not the mash",
+   "<p>Steam boilers need feed water with very low hardness, because calcium and magnesium deposit as scale on heat transfer surfaces. Scale wastes fuel and can lead to overheating and failure. Ion exchange softening, which swaps calcium and magnesium for sodium, is the standard treatment for boiler feed, often with further treatment as the boiler manufacturer specifies.</p><p>That same softened water is a poor choice for brewing liquor, because it adds sodium and strips out the calcium the mash needs. Keep softened lines clearly labelled and separate from the liquor supply.</p>"
+  ],
+  [
+   "Dilution water needs the strictest treatment",
+   "<p>Breweries that brew at high gravity and dilute to sales strength after fermentation add water directly to finished beer. That water is never boiled, so it must be microbiologically sterile or close to it. It must also be deaerated, because dissolved oxygen stales beer. Air-saturated water at 20 °C holds around 9 mg/L of oxygen, while dilution water is typically taken down to tens of parts per billion. It must also be carbonated to match the beer.</p><p>Deaeration plants are a significant investment. A small brewery without one should not dilute finished beer.</p>"
+  ],
+  [
+   "Cooling water and glycol are separate loops",
+   "<p>Two more water systems sit in most breweries. An open cooling tower, where fitted, evaporates water to reject heat, so its minerals concentrate over time. It needs treatment against scale, corrosion and bacterial growth, including Legionella, usually under a contract with a water treatment company. It should never be connected to any product line.</p><p>The glycol loop that cools fermenters is a closed circuit, typically filled with food grade propylene glycol mixed with water. Use clean, low-mineral water to make up the mix, because hard water leaves deposits in jackets and heat exchangers. Check the glycol concentration with a refractometer every few months.</p>"
+  ],
+  [
+   "Chloride and chlorine are hard on stainless steel",
+   "<p>Stainless steel resists corrosion well, but chloride and chlorine attack it, especially when hot. High chloride water left standing in stainless vessels, or chlorinated water used hot, can cause pitting. Many breweries therefore avoid chlorine-based sanitisers on stainless or limit them to cold use with short contact times and a full rinse.</p><p>If your borewell carries high chloride, consider it for hot process water as well as for brewing.</p>"
+  ],
+  [
+   "Map every outlet before you buy treatment",
+   "<p>Walk the brewery with a floor plan and mark every water outlet: hot liquor tank, cold liquor tank, CIP tank, boiler, cooling tower, hose points and toilets. Next to each, write what quality it needs and what it currently gets. Then fit simple water meters on the main branches and read them weekly for a month.</p><p>Most breweries find that brewing liquor is only a share of total water use, which tells you how small an RO plant you really need and how much water you could save by not treating the rest to brewing standard.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is brewing liquor?",
+   "Brewing liquor is the water that goes into the beer: mash, sparge and any gravity adjustment water. All other water is process water."
+  ],
+  [
+   "Can I use softened water for cleaning?",
+   "Yes. Soft water reduces scale and detergent use in cleaning. It should not be used as brewing liquor because it is high in sodium and low in calcium."
+  ],
+  [
+   "What water is used for diluting beer?",
+   "Deaerated, sterile and carbonated water. It touches finished beer directly, so it needs the strictest treatment in the brewery."
+  ],
+  [
+   "Does final rinse water need to be potable?",
+   "Yes. It contacts product surfaces after sanitising, so it should meet potable standards at minimum."
+  ]
+ ],
+ "cta": {
+  "title": "Run your brewery's water like an engineer",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers water chemistry, treatment design, cleaning science and the brewing engineering behind a consistent, efficient brewery.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-water-basics",
+  "water-hardness-and-beer",
+  "treating-borewell-water-for-brewing"
+ ]
+}

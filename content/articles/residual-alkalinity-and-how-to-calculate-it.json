@@ -1,0 +1,67 @@
+{
+ "slug": "residual-alkalinity-and-how-to-calculate-it",
+ "cat": "Brewing science",
+ "h1": "Residual alkalinity and how to calculate it",
+ "title": "Calculating Residual Alkalinity | Craft Beer School",
+ "desc": "What residual alkalinity means for mash pH, the formula with worked numbers and how to use it to plan water treatment.",
+ "teaser": "Your water report has the numbers. One line of arithmetic tells you how they will pull on mash pH.",
+ "standfirst": "Residual alkalinity is the single most useful number on a brewing water report. It combines alkalinity, calcium and magnesium into one figure that predicts how your water will push mash pH. You can work it out in two minutes.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Alkalinity pushes mash pH up, calcium pulls it down",
+   "<p>Brewing water carries alkalinity, mostly as bicarbonate. Alkalinity resists acid, so it pushes mash pH upwards. Calcium and magnesium work the other way. In the mash they react with phosphates from malt, releasing hydrogen ions and lowering pH. Calcium is about twice as effective at this as magnesium.</p><p>Residual alkalinity, often written RA, is the alkalinity left after you allow for that calcium and magnesium effect. The idea comes from the German brewing chemist Paul Kolbach. It tells you how much your water will raise mash pH compared with distilled water. Our guide to <a href=\"mash-ph-explained.html\">mash pH explained</a> covers why that matters.</p>"
+  ],
+  [
+   "The formula",
+   "<p>With all values in ppm (mg/L), alkalinity expressed as calcium carbonate and calcium and magnesium as the ions themselves:</p><p><strong>RA = alkalinity - (0.714 x Ca + 0.588 x Mg)</strong></p><p>The factors come from Kolbach's finding that calcium hardness divided by 3.5 and magnesium hardness divided by 7 offset the alkalinity, after converting calcium and magnesium to their calcium carbonate equivalents.</p><p>If your water report gives bicarbonate instead of alkalinity, convert first: alkalinity as calcium carbonate is about 0.82 times bicarbonate in ppm.</p>"
+  ],
+  [
+   "A worked example",
+   "<p>Say a borewell water report shows alkalinity of 200 ppm as calcium carbonate, calcium at 60 ppm and magnesium at 20 ppm.</p><ul><li>Calcium effect: 0.714 x 60 = 42.8</li><li>Magnesium effect: 0.588 x 20 = 11.8</li><li>Total offset: 54.6</li><li>RA = 200 - 54.6 = about 145 ppm as calcium carbonate</li></ul><p>That is high. Brewing a pale lager with this water untreated, the mash would likely sit well above the target range, giving a dull, harsh beer. The same water would suit a stout far better, because roasted malts bring acidity that offsets the alkalinity.</p><p>A soft municipal supply with alkalinity of 40 ppm, calcium of 30 ppm and magnesium of 5 ppm gives an RA of about 40 - 24.4 = 16 ppm. That is close to neutral and easy to work with.</p><p>Notice what the arithmetic says about adding calcium. To cancel 100 ppm of RA with calcium alone you would need about 140 ppm of extra calcium, which brings a heavy load of chloride or sulphate with it. That is why very alkaline water is usually treated with acid or reverse osmosis first, then topped up with modest calcium for flavour and yeast health.</p>"
+  ],
+  [
+   "What RA suits which beer",
+   "<p>As a broad guide:</p><ul><li><strong>Pale beers</strong> such as Pilsner, helles and pale ales usually want RA near zero or slightly negative.</li><li><strong>Amber beers</strong> tolerate a moderate RA.</li><li><strong>Dark beers</strong> such as porter and stout handle a high RA, because dark malt acidity balances it.</li></ul><p>These ranges explain classic brewing cities. Soft, low alkalinity water suited pale lagers. Hard, alkaline water suited darker beers. The water came first and the style followed.</p><p>In India the same logic applies to whatever comes out of the tap. Hard borewell water in many inland cities leans towards the high RA end. Some municipal supplies fed by rain or rivers come in much softer. Neither is good or bad on its own terms. It just decides how much work stands between your water and a pale beer.</p>"
+  ],
+  [
+   "Lowering RA in practice",
+   "<p>You can lower RA in two directions. Reduce alkalinity, or raise calcium.</p><ul><li><strong>Acid additions</strong> to the brewing liquor, such as lactic or phosphoric acid, neutralise bicarbonate directly.</li><li><strong>Calcium salts</strong>, calcium chloride or calcium sulphate, raise calcium and lower RA while also shaping flavour. Chloride leans towards fuller malt character and sulphate towards drier, crisper bitterness.</li><li><strong>Dilution</strong> with reverse osmosis water reduces everything at once, then you add back the minerals you want.</li><li><strong>Acidulated malt</strong> in the grist offsets alkalinity in the mash itself.</li></ul><p>Our guide to <a href=\"dealkalising-brewing-water.html\">dealkalising brewing water</a> covers the treatment options at brewery scale.</p>"
+  ],
+  [
+   "RA is a starting point, not the answer",
+   "<p>RA predicts the direction and rough size of the water's effect. It does not predict the final mash pH on its own, because malt matters too. Base malt, caramel malt and roasted malt each bring different acidity. Brewing water calculators combine RA with the grist to estimate mash pH. Always check the estimate with a real pH reading at room temperature.</p><p>The floor detail: test water regularly, not once. A borewell's alkalinity can shift with the season and a tanker supply can change with every load. An RA worked out from a report two years old is a guess.</p><p>Your first step: find your latest water report, pull out alkalinity, calcium and magnesium. Work out RA with the formula above. If it is above about 50 ppm and you brew pale beers, water treatment is the next thing to fix.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is residual alkalinity in brewing water?",
+   "It is the alkalinity left after allowing for the pH lowering effect of calcium and magnesium. It predicts how much the water will raise mash pH."
+  ],
+  [
+   "How do I calculate residual alkalinity?",
+   "RA = alkalinity - (0.714 x Ca + 0.588 x Mg), with alkalinity as calcium carbonate in ppm and calcium and magnesium as ion concentrations in ppm."
+  ],
+  [
+   "What residual alkalinity is good for pale beer?",
+   "Usually near zero or slightly negative. Dark beers tolerate a much higher RA because roasted malts are acidic."
+  ],
+  [
+   "How do I convert bicarbonate to alkalinity?",
+   "Multiply bicarbonate in ppm by about 0.82 to get alkalinity as calcium carbonate."
+  ]
+ ],
+ "cta": {
+  "title": "Turn a water report into a treatment plan",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers water chemistry, residual alkalinity, salt and acid additions and how to match water to style.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-ph-explained",
+  "enzymes-in-the-mash",
+  "step-mashing"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "python-cooling-for-long-draught-lines-in-a-hot-country",
+ "cat": "Tasting",
+ "h1": "Python cooling for long draught lines in a hot country",
+ "title": "Python Cooling for Draught in the Heat | Craft Beer School",
+ "desc": "How glycol python cooling keeps long draught lines cold in hot Indian bars: how the bundle works, what fails in summer and what to check each week.",
+ "teaser": "In a 40 °C summer, an uncooled beer line becomes a beer warmer. The python is what stands between your cold room and a glass of foam.",
+ "standfirst": "A python is the insulated bundle that carries beer lines and chilled glycol together from the cold room to the bar. In a temperate country it is a convenience. In much of India it is the difference between a cold, clean pour and a glass of warm foam. Here is how it works and what goes wrong when the weather turns.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A python is beer lines wrapped round a cold loop",
+   "<p>Inside the python sit the beer lines, often six to twenty of them, alongside a glycol supply line and a glycol return line. The bundle is wrapped tightly, often with a foil layer, then sealed inside thick closed cell insulation. A glycol chiller at one end pumps a cold mixture of water and food grade propylene glycol out through the supply line and back through the return.</p><p>The beer lines touch the glycol lines along the whole run, so heat leaks in from the room are carried away before they reach the beer. The goal is beer at the faucet within about 1 °C of the cold room, typically 2 to 4 °C.</p>"
+  ],
+  [
+   "Why hot countries need it more",
+   "<p>Heat gain depends on the temperature gap between the beer and the air. A beer line at 3 °C in a 20 °C room has a 17 degree gap. The same line in a 38 °C bar, or in a ceiling void under a sun baked roof, has a gap twice as large or more. Heat flows in that much faster.</p><p>Beer warming by even 2 or 3 °C in the line releases dissolved CO2. The first pour foams, the bartender pours it away and the bar loses beer on every slow tap. Our guide to <a href=\"balancing-a-long-draw-draught-system-in-a-busy-bar.html\">balancing a long draw system</a> shows why all the pressure arithmetic assumes cold beer.</p>"
+  ],
+  [
+   "Every metre of beer line holds beer you pay for",
+   "<p>A 3/8 inch (about 9.5 mm) bore beer line holds roughly 70 ml per metre. A 25 metre python with ten lines holds about 17 to 18 litres of beer sitting in tubes at any moment. If the cooling fails overnight, that beer warms, picks up flavours from the line and often has to be poured away in the morning.</p><p>That is the business case for good cooling. It protects the beer already in the system as well as the pint being poured.</p><p>Route matters as much as cooling. Every extra metre is more beer held in the line, more heat gain and more pressure to balance. Ask the installer for the shortest practical route, avoid running the python above kitchens or through roof spaces where possible and keep the run accessible for inspection. A python hidden behind a sealed false ceiling is one nobody checks until the ceiling stains.</p>"
+  ],
+  [
+   "The chiller needs to be sized for summer",
+   "<p>Glycol chillers are rated by how much heat they can remove. Their capacity drops when the condenser, the part that dumps heat outdoors, sits in hot air. A chiller sized for a 25 °C ambient can struggle when its condenser sits in 40 °C air on a rooftop in May.</p><p>When specifying a system, give the installer your worst case summer conditions, the python length and the number of lines. Ask for the chiller's capacity at that ambient, not at the brochure figure. Put the condenser in shade with free air flow, never in an enclosed cupboard.</p>"
+  ],
+  [
+   "What fails in a hot summer",
+   "<ul><li><strong>Insulation damage.</strong> A crushed or split section lets heat in and often drips condensation. Wet patches on ceilings under the python route are an early sign.</li><li><strong>Weak glycol.</strong> Topping up with plain water dilutes the mix. Too weak and the bath can freeze around the evaporator, cutting cooling. Check strength with a refractometer.</li><li><strong>Dirty condenser.</strong> Dust and kitchen grease on the condenser fins cut capacity sharply. Clean it at least every quarter, more often near a kitchen extract.</li><li><strong>Uncooled font.</strong> The last half metre up through the bar top and into the font is often the warmest part of the run. A glycol loop into the font fixes it.</li><li><strong>Power cuts.</strong> A chiller on a supply that trips during load shedding lets the bath warm. Put it on backup power if the bar has any.</li></ul>"
+  ],
+  [
+   "Weekly checks that catch problems early",
+   "<p>Five minutes a week is enough to catch most issues:</p><ol><li>Read the glycol bath temperature on the chiller display and compare it with last week.</li><li>Check the glycol level and top up only with premixed glycol at the right strength.</li><li>Feel the supply and return lines where they leave the chiller. A large difference between them means the system is working hard.</li><li>Pour 100 ml from the tap furthest from the cold room after it has stood for an hour and measure its temperature.</li><li>Walk the python route and look for drips, damp or crushed insulation.</li></ol>"
+  ],
+  [
+   "Cold beer that tastes wrong is a cleaning problem",
+   "<p>Cooling slows bacterial growth in the lines but does not stop it. A python that holds beer at 3 °C still needs a full line clean about every two weeks. Beer that pours cold but tastes buttery, sour or musty points to the lines, not the chiller. Our guide to <a href=\"draught-line-cleaning.html\">draught line cleaning</a> covers the routine.</p><p>Your first step: tomorrow before opening, pour 100 ml from your longest line and measure its temperature in the glass. If it is more than 2 °C above the cold room, walk the python route and check the chiller before service starts.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a python in a draught system?",
+   "An insulated bundle of beer lines and chilled glycol lines that runs from the cold room to the bar, keeping beer cold along the whole route."
+  ],
+  [
+   "What temperature should beer be at the tap?",
+   "Within about 1 °C of the cold room, typically 2 to 4 °C for most draught beers."
+  ],
+  [
+   "How often should a python system be checked?",
+   "A quick weekly check of glycol temperature, level and the beer temperature at the furthest tap catches most faults. Clean the chiller condenser at least quarterly."
+  ]
+ ],
+ "cta": {
+  "title": "Keep draught beer cold and clean in the heat",
+  "body": "Sensory Evaluation is our two week live course (₹5,999). It trains brewers and bar teams to taste what a draught system does to beer: buttery diacetyl from dirty lines, sourness, flat or prickly carbonation and warm serving, so you catch faults a pressure gauge cannot show.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "balancing-a-long-draw-draught-system-in-a-busy-bar",
+  "draught-line-cleaning",
+  "solvent-and-hot-alcohol-notes-tasting-fusel-faults-in-beer"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "building-a-homebrew-recipe-from-scratch-with-four-malts-at",
+ "cat": "Brewing basics",
+ "h1": "Building a homebrew recipe from scratch with four malts at most",
+ "title": "A Homebrew Recipe With Four Malts | Craft Beer School",
+ "desc": "How to build a homebrew recipe from scratch with four malts at most: base malt share, gravity maths, colour and a worked 20 litre grist.",
+ "teaser": "Most good homebrew recipes need four malts or fewer. Here is how to choose them and do the gravity maths yourself.",
+ "standfirst": "A recipe with nine malts is usually a recipe nobody can debug. Four is enough for almost any style you will brew at home. We show how to pick them, how much of each to use and how to turn a target gravity into kilograms.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Four malts is a discipline, not a limit",
+   "<p>When a homebrew tastes muddy, the grain bill is often the first suspect. Seven specialty malts at 3% each blur into a brown, sweet middle that tastes of nothing in particular. Worse, when the beer is off, you cannot tell which malt did it.</p><p>Four malts at most forces each one to earn its place. Every slot has a job: one base malt for sugar and body, one malt for depth, one for colour or caramel and one for a specific effect such as head retention or roast. Plenty of classic beers use two or three. A Pilsner can be 100% Pilsner malt.</p>"
+  ],
+  [
+   "The base malt does 80% of the work",
+   "<p>Start with the base malt, because it carries the style. Pale ale malt for British and American ales. Pilsner malt for lagers and Belgian blondes. Maris Otter if you want a biscuit edge in a bitter. In most recipes the base sits at 80 to 95% of the grist.</p><p>The base also carries the enzymes. Specialty malts such as crystal and roasted malt have little or no diastatic power, so they rely on the base to convert the mash. Keep the base share high and conversion takes care of itself.</p>"
+  ],
+  [
+   "Three supporting slots, each with one job",
+   "<p>Fill the other slots by asking what the beer is missing, one question at a time:</p><ul><li><strong>Depth:</strong> Munich or Vienna malt at 5 to 20% adds bready, toasty richness without much sweetness.</li><li><strong>Caramel and colour:</strong> a crystal malt at 3 to 10%. Pale crystal gives honey and toffee. Darker crystal gives raisin and burnt sugar. Above about 15% most beers turn cloying.</li><li><strong>A specific effect:</strong> wheat or oats at 2 to 10% for head and body, or a roasted malt at 1 to 5% for colour and dryness in a stout or porter.</li></ul><p>If you cannot say in one line why a malt is there, take it out. A useful habit is to write the job next to each line of the grist before you weigh anything. Munich at 8% for bready depth is a decision. Munich at 8% because the last recipe had it is not.</p>"
+  ],
+  [
+   "Turning a target gravity into kilograms",
+   "<p>The maths is short. Pale malt gives roughly 300 litre-degrees per kilogram in theory: one kilogram fully extracted into one litre would give about 1.300. Your system will not get it all. A brew in a bag setup often lands at 65 to 75% efficiency.</p><p>Say you want 20 litres at 1.050. That is 50 points times 20 litres, or 1,000 litre-points. At 75% efficiency each kilogram of pale malt gives about 225 to 230 points in a litre, so you need about 4.3 kg of grain in total. Then split that total by your percentages. Crystal and roasted malts give a little less extract than base malt, but at small shares the difference barely moves the gravity.</p><p>Once you know your own efficiency from two or three brews, this calculation becomes reliable to within a few points.</p>"
+  ],
+  [
+   "A worked grist for a 20 litre amber ale",
+   "<p>Here is a four malt amber ale for 20 litres at about 1.050, assuming 75% efficiency:</p><ul><li>Pale ale malt: 3.65 kg (85%)</li><li>Munich malt: 0.35 kg (8%)</li><li>Crystal malt, around 150 EBC: 0.22 kg (5%)</li><li>Wheat malt: 0.09 kg (2%)</li></ul><p>Pale ale malt is the body. Munich gives bready depth. The crystal lifts the colour to amber and adds toffee. The wheat helps the head hold. Mash at 66 °C for 60 minutes. Hop it to about 30 IBU with a clean bittering addition and a modest late charge. If you want a ten litre version, halve everything; our <a href=\"a-first-pale-ale-recipe-for-a-10-litre-homebrew-batch.html\">10 litre pale ale recipe</a> shows the smaller scale in practice.</p>"
+  ],
+  [
+   "Check colour and balance before you buy",
+   "<p>Before you order grain, run the recipe through any free brewing calculator for colour and bitterness. Two numbers matter. Colour should land inside the style range, which you can check against our <a href=\"beer-styles-guide.html\">beer styles guide</a>. The ratio of IBU to gravity points tells you balance: around 0.5 to 0.6 for an amber, closer to 1.0 for an IPA.</p><p>In Indian kitchens one extra check helps. Crystal and roasted malts pick up moisture quickly in monsoon humidity and go soft and stale. Buy them in small amounts close to brew day so the 5% you planned tastes like it should.</p>"
+  ],
+  [
+   "What the recipe sheet cannot tell you",
+   "<p>A spreadsheet can balance gravity and colour. It cannot tell you how 8% Munich actually tastes against 12%, or why your amber came out thin when the numbers looked right. That only comes from brewing a recipe, tasting it critically and changing one thing. Write down the grist, the mash temperature and the gravity you hit. Your second recipe will be better because of that page.</p><p>Your first step: pick one style, write a four line grist on paper with a job next to each malt, then work out the kilograms for your batch size.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many malts should a homebrew recipe have?",
+   "Most good recipes need four or fewer. Many classic styles use one to three. Fewer malts make each flavour clearer and make problems easier to trace."
+  ],
+  [
+   "What percentage of a recipe should be base malt?",
+   "Usually 80 to 95%. The base malt supplies most of the sugar and all of the enzymes needed to convert the mash."
+  ],
+  [
+   "How much crystal malt is too much?",
+   "Above about 15% most beers become sweet and cloying. For pale ales and ambers, 3 to 10% is a sensible range."
+  ],
+  [
+   "What efficiency should I assume for my first recipe?",
+   "Assume 70 to 75% for a brew in a bag setup, then measure your real figure after a couple of brews and use that."
+  ]
+ ],
+ "cta": {
+  "title": "Design recipes that taste the way you planned",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999) on weekend afternoons. It takes you from grist and gravity maths to hops, yeast and fermentation, with weekly assignments where you design and critique real recipes.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "a-first-pale-ale-recipe-for-a-10-litre-homebrew-batch",
+  "making-sense-of-the-mash-schedule-in-a-homebrew-recipe",
+  "first-homebrew-mistakes"
+ ]
+}

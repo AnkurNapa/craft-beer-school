@@ -1,0 +1,71 @@
+{
+ "slug": "mash-tun-options-for-a-small-distillery",
+ "cat": "Whisky",
+ "h1": "Mash tun options for a small distillery",
+ "title": "Mash Tun Options for a Small Distillery | Craft Beer School",
+ "desc": "Mash tun choices for a small whisky distillery: infusion vessels, semi-lauter and full lauter tuns plus what each means for yield, labour and cost.",
+ "teaser": "The mash tun is one of the first big purchases a distillery makes. Pick it for the wort you want and the team you have.",
+ "standfirst": "A small distillery does not need the biggest or most automated mash tun. It needs one that gives the wort clarity and yield the spirit depends on, with a crew that can run it every day.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start from the wort you want",
+   "<p>The mash tun decides three things that matter to a malt distillery: how much extract you recover, how clear the wort runs and how long each mash ties up the vessel. Spirit character follows from wort clarity. Yield follows from extract. Throughput follows from cycle time. Pick the vessel that balances those for your plan, not the one with the most features.</p><p>Write down your target first. How many mashes a week, what grist weight per mash and whether you want a clear wort style or a cloudier, nuttier one. Every supplier conversation goes better with those numbers on the table.</p>"
+  ],
+  [
+   "Simple infusion vessel",
+   "<p>The simplest option is an insulated vessel with a false bottom, a mash inlet and run-off pipework, much like a brewery mash tun. There are no rakes. The grist and water mix, rest and drain through the bed. Sparge water goes on top.</p><p>It is cheap and easy to clean. The catch is control. Without rakes you cannot gently lift a bed that is settling, so drainage depends heavily on the grist and on a steady hand at the valve. Many small distilleries start this way and do well, especially at lower batch sizes.</p>"
+  ],
+  [
+   "Semi-lauter and full lauter tuns",
+   "<p>A semi-lauter tun adds a rotating arm that stirs or lifts the bed at set points. A full lauter tun goes further, with knives that cut through the bed at controlled height and speed while the wort runs off. Both give more control over run-off rate and clarity. Both let you use a slightly finer grist without a stuck mash.</p><p>The price is capital cost, more moving parts and a more complex clean. For a distillery planning several mashes a day, the shorter and more repeatable cycle can justify it. For a distillery mashing a few times a week, it may be money better spent on washbacks or on stills.</p>"
+  ],
+  [
+   "What actually drives the cost",
+   "<p>Beyond the vessel itself, budget for what surrounds it:</p><ul><li><strong>Hot water.</strong> Three waters mean a lot of hot liquor at different temperatures. A hot liquor tank and a reliable steam or heating supply are part of the mash tun decision. See <a href=\"steam-boilers-for-a-small-distillery.html\">steam boilers for a small distillery</a>.</li><li><strong>Wort cooling.</strong> A heat exchanger sized to cool wort to around 16 to 20 °C in a reasonable time, with chilled water if your cooling water is warm.</li><li><strong>Draff handling.</strong> A route out of the tun and a buyer or use for wet draff, which spoils quickly in heat.</li><li><strong>Cleaning.</strong> CIP connections and spray balls, because wort is never boiled and hygiene matters more than in a brewery.</li></ul>"
+  ],
+  [
+   "Buying second hand or adapting brewery kit",
+   "<p>Some small distilleries buy a used brewery mash tun or lauter tun. That can work well, because the job is similar. Check three things. The false bottom slot size should suit your grist. The vessel should be large enough for your grist and first water together, since distillers often mash thicker than brewers. And it should be rated for the cleaning chemicals you plan to use.</p><p>A brewhouse with a kettle is not wasted either. A distillery does not boil, but a kettle can serve as a hot liquor vessel or a wort receiver. Our guide to <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs</a> helps you set the throughput numbers that decide what size you really need.</p>"
+  ],
+  [
+   "Indian conditions to plan for",
+   "<p>In India, two things push the choice. Warm cooling water makes wort cooling the bottleneck more often than the mash itself, so spend on the heat exchanger and chilling before you add rakes. Wet draff turns sour within a day in summer heat, so agree collection with a local dairy or farm before you start production.</p><p>Licensing also comes before kit. Distillery licences, plant approval and excise supervision vary by state and change over time, so check the current notification or work with a licensing adviser before you finalise layout.</p>"
+  ],
+  [
+   "Before you call a supplier",
+   "<p>Write one page: mashes per week, grist per mash, target wort gravity and your preferred wort clarity. Add your cooling water temperature in May. Send the same page to every supplier you talk to. The answers will tell you quickly who is selling a vessel and who is designing a process.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need a lauter tun for a small whisky distillery?",
+   "Not always. Many small distilleries run well on a simple infusion mash tun with a false bottom. A lauter tun adds control and speed, which matters more as the number of mashes grows."
+  ],
+  [
+   "Can I use a brewery mash tun for whisky?",
+   "Often, yes. Check the false bottom suits your grist, that the vessel holds your grist and first water together and that it is rated for your cleaning chemicals."
+  ],
+  [
+   "What else should I budget for besides the mash tun?",
+   "Hot water supply, wort cooling, draff handling and cleaning systems all sit around the mash tun and can cost as much as the vessel."
+  ],
+  [
+   "Why does wort cooling matter so much in India?",
+   "Warm cooling water makes it hard to bring wort down to pitching temperature, so many plants need a chilled water stage."
+  ]
+ ],
+ "cta": {
+  "title": "Choose kit that fits your process",
+  "body": "Craft Distilling is our four week live course (₹9,999), Saturdays and Sundays with recordings and a certificate. It walks through each stage of a malt distillery, from mash tun to stills, so you can specify equipment around the spirit you want to make.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "steam-boilers-for-a-small-distillery",
+  "small-batch-whisky-blending-at-a-craft-distillery",
+  "distillery-kpis-for-analysts"
+ ]
+}

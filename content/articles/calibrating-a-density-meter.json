@@ -1,0 +1,71 @@
+{
+ "slug": "calibrating-a-density-meter",
+ "cat": "Brewing science",
+ "h1": "Calibrating a density meter",
+ "title": "Calibrating a Density Meter | Craft Beer School",
+ "desc": "How to check and adjust a brewery density meter with air and water, keep the U-tube clean and spot drift before it reaches your data.",
+ "teaser": "A density meter reads to five decimal places. A bubble or a dirty tube makes all of them wrong.",
+ "standfirst": "Digital density meters are among the most precise instruments in a brewery lab. That precision only holds if you check them daily, adjust them correctly and keep the measuring cell spotless.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "How an oscillating U-tube works",
+   "<p>A digital density meter contains a small glass U-tube that vibrates at its natural frequency. When you fill the tube with a liquid, the added mass changes that frequency. The instrument converts the frequency into density, usually in g/cm³.</p><p>Because the reading depends on frequency, anything that changes the vibration changes the result: temperature, bubbles, residue on the glass or a sample that is not uniform. Calibration links frequency to density using reference fluids of known density.</p>"
+  ],
+  [
+   "Check and adjust are different",
+   "<p>A <strong>check</strong> means measuring a reference and comparing the result with its known value. You do not change the instrument. An <strong>adjustment</strong> means changing the instrument's constants so that its readings match the references again.</p><p>Check daily, or before each series of samples. Adjust only when a check fails by more than your tolerance or after any repair. Adjusting every day can hide a developing problem, such as a dirty cell, by making the instrument agree with a reference it should be failing.</p>"
+  ],
+  [
+   "The references: air and water",
+   "<p>Most density meters are adjusted with dry air and pure water at 20 °C:</p><ul><li><strong>Water</strong>: degassed, ultrapure or freshly deionised water has a density of about 0.99820 g/cm³ at 20 °C.</li><li><strong>Air</strong>: dry air at 20 °C has a density of about 0.0012 g/cm³, which the instrument corrects for local air pressure.</li></ul><p>Use fresh water each time. Water that has stood open absorbs gases and picks up dust. Never use tap or borewell water, which carries dissolved salts that raise density. For a second check point closer to beer, certified reference standards such as sucrose solutions are available.</p>"
+  ],
+  [
+   "Bubbles are the most common error",
+   "<p>A tiny air bubble in the U-tube lowers the density reading. Even one bubble invisible to the naked eye can shift results in the fourth decimal place. Most instruments have a viewing window or a camera so you can inspect the cell after filling.</p><p>To avoid bubbles, degas samples well, fill slowly and steadily and do not let the syringe or sample tube draw air. If a bubble appears, push more sample through. With carbonated beer, poor degassing is the usual cause of erratic readings.</p>"
+  ],
+  [
+   "Cleaning the measuring cell",
+   "<p>Residue on the glass adds mass and shifts readings. Clean the cell after each series of samples and at the end of each day:</p><ol><li>Flush with water to remove beer.</li><li>Flush with a cleaning solution if residues build up. A mild lab detergent works.</li><li>Rinse thoroughly with water.</li><li>Flush with ethanol or acetone to remove water.</li><li>Dry with a stream of air using the built in pump.</li></ol><p>Check the air reading after drying. If it does not match the expected value, the cell is not clean or not dry.</p>"
+  ],
+  [
+   "Temperature control and logging",
+   "<p>Density changes with temperature, so density meters control cell temperature precisely, usually at 20 °C. If the lab is hot, as many Indian labs are in summer, the instrument has to work harder and samples take longer to settle. Let samples approach room temperature before measuring so they do not create gradients in the tube.</p><p>Log every daily check: date, reference used, reading, expected value, difference and initials. A chart of daily water readings shows drift clearly. A slow climb usually means the cell is dirty. Our guide to <a href=\"calibrating-and-caring-for-a-ph-meter-in-a-brewery-lab.html\">caring for a pH meter</a> follows the same logging habit.</p>"
+  ],
+  [
+   "Where a density meter earns its place",
+   "<p>A density meter is not only for alcohol. In a brewery lab it measures:</p><ul><li>Wort gravity at knockout, more precisely than a hydrometer.</li><li>Fermentation progress, with a small sample and a fast reading.</li><li>Final gravity and real extract for consistency between batches.</li><li>Sugar syrups and liquid adjuncts, for checking supplier specifications.</li></ul><p>Its speed and precision make it valuable for tracking fermentation curves. Readings logged every day across a fermentation show attenuation clearly and highlight a stuck or slow ferment early.</p><p>The precision only helps when sample handling is just as careful. Degas fermenting samples and filter out yeast if the instrument calls for it. Read every sample at the same temperature. If you upgrade from hydrometers, compare the two for a few weeks so you understand the difference and can carry old records forward.</p>"
+  ],
+  [
+   "What good looks like",
+   "<p>Benchtop density meters commonly specify accuracy in the range of 0.0001 to 0.00001 g/cm³, depending on the model. If daily water checks stay within your instrument's specification, your density data can be trusted. If they wander, fix the cause before measuring beer.</p><p>Building calibration and verification into lab routines is part of what we teach on the advanced course, along with how to use the data once you trust it. Our guide to <a href=\"alcohol-measurement-by-density-meter-or-distillation.html\">alcohol measurement</a> shows where density readings feed in.</p><p>Your first step: start a daily water check log on your density meter tomorrow morning.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the density of water at 20 °C?",
+   "About 0.99820 g/cm³ for pure, degassed water, which is why water at 20 °C is the standard check for density meters."
+  ],
+  [
+   "How often should I calibrate a density meter?",
+   "Check it daily with water and adjust only when the check fails your tolerance or after a repair."
+  ],
+  [
+   "Why do my density readings vary?",
+   "Bubbles in the cell, residue on the glass and poor degassing of carbonated samples are the most common causes."
+  ]
+ ],
+ "cta": {
+  "title": "Trust every number your lab produces",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers lab methods, calibration and quality systems so your measurements hold up from the bench to the label.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "calibrating-and-caring-for-a-ph-meter-in-a-brewery-lab",
+  "alcohol-measurement-by-density-meter-or-distillation",
+  "using-a-dissolved-co2-meter-in-a-brewpub"
+ ]
+}

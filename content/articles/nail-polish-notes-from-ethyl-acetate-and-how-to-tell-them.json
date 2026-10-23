@@ -1,0 +1,67 @@
+{
+ "slug": "nail-polish-notes-from-ethyl-acetate-and-how-to-tell-them",
+ "cat": "Tasting",
+ "h1": "Nail polish notes from ethyl acetate and how to tell them apart",
+ "title": "Ethyl Acetate: Nail Polish Notes in Beer | Craft Beer School",
+ "desc": "What ethyl acetate tastes like, why fermentation makes too much of it and how to tell it from fusel alcohols, acetaldehyde and acetic acid.",
+ "teaser": "Pear drops at a whisper, nail polish remover at a shout. Ethyl acetate is the most common ester in beer and one of the most misread.",
+ "standfirst": "Every beer contains ethyl acetate. At low levels it adds a light fruity lift. Push the fermentation and it turns to solvent and nail polish remover. This guide covers the causes and how to separate it from the other solventy faults it gets confused with.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The most abundant ester in beer",
+   "<p>Ethyl acetate is formed by yeast from ethanol and acetyl-CoA during fermentation. It is the most abundant ester in beer by a wide margin, often present at several times the level of the banana ester isoamyl acetate. At low concentrations it gives a light, fruity, pear drop sweetness that helps lift a beer. The commonly quoted flavour threshold is around 30 mg/L. Above that it reads as solvent, glue or nail polish remover.</p><p>Many beers sit comfortably below threshold. Strong ales, high gravity lagers and stressed fermentations can climb past it. Our guide to <a href=\"esters-and-fusel-alcohols.html\">esters and fusel alcohols</a> covers the wider family.</p>"
+  ],
+  [
+   "What pushes it up",
+   "<p>Ester production is about the balance between yeast growth and the enzymes that make esters. Conditions that limit growth while plenty of sugar is available push more carbon into esters. In practice the levers are:</p><ul><li><strong>Fermentation temperature.</strong> Warmer fermentations make more esters. An ale strain at 24 °C typically makes far more ethyl acetate than the same strain at 18 °C.</li><li><strong>Wort gravity.</strong> High gravity brewing raises esters, which is why beers brewed strong and diluted afterwards can taste estery.</li><li><strong>Low oxygen at pitching.</strong> Less oxygen means less sterol synthesis and less growth and ester levels rise.</li><li><strong>Pitch rate.</strong> Underpitching tends to raise esters through stress, though the effect varies by strain.</li><li><strong>Tank geometry and pressure.</strong> Tall cylindroconical vessels and top pressure suppress esters, which is why <a href=\"pressure-fermentation-and-what-it-does-to-ester-levels.html\">pressure fermentation</a> is used to keep them down.</li><li><strong>Strain.</strong> Some yeasts, including many Belgian and English strains, are simply more estery.</li></ul>"
+  ],
+  [
+   "The infection route",
+   "<p>Brewing yeast is not the only source. Wild yeasts such as <em>Pichia</em> and <em>Hanseniaspora</em>, plus acetic acid bacteria, can produce large amounts of ethyl acetate, usually alongside acetic acid. If the solvent note comes with vinegar sharpness, a film on the surface of a tank or a beer that gets worse over weeks, think contamination before fermentation conditions. Our guide to <a href=\"vinegar-notes-in-beer-and-the-acetic-acid-bacteria-behind.html\">vinegar notes in beer</a> covers that side.</p>"
+  ],
+  [
+   "Telling it apart from its neighbours",
+   "<p>Ethyl acetate is constantly confused with four other faults. A practical way to separate them:</p><ul><li><strong>Ethyl acetate:</strong> sweet solvent, nail polish remover, pear drops. Mostly in the nose, sweet rather than hot.</li><li><strong>Fusel alcohols:</strong> hot, burning, spirity. Felt as warmth in the throat and chest. Less sweet, more like a raw spirit.</li><li><strong>Acetaldehyde:</strong> green apple, freshly cut pumpkin, emulsion paint. Fresher and greener, not solventy.</li><li><strong>Acetic acid:</strong> sharp, sour, malt vinegar. Bites on the palate.</li><li><strong>Isoamyl acetate:</strong> banana and pear sweets. Fruity rather than solventy and welcome in a hefeweizen.</li></ul><p>A sample spiked with a little ethyl acetate from a sensory kit is the fastest way to calibrate. Spiked standards for all five are widely used for panel training.</p>"
+  ],
+  [
+   "Fixing it on the next batch",
+   "<p>If fermentation conditions are the cause, the levers are clear:</p><ol><li>Control temperature. Measure the beer, not the room. Remember that active fermentation runs several degrees above the jacket set point.</li><li>Oxygenate properly, typically 8 to 10 mg/L for ales, more for high gravity worts.</li><li>Pitch an adequate count of healthy yeast, based on a cell count rather than slurry volume.</li><li>Brew high gravity beers with care, since gravity raises esters even when everything else is right.</li></ol><p>The floor detail we would insist on: in an Indian summer, check that glycol capacity can hold the tank during the first 48 hours of fermentation, when heat output peaks. A tank that drifts from 18 to 23 °C overnight is the most common reason a clean ale turns solventy.</p>"
+  ],
+  [
+   "Why ethyl acetate rises in hot markets",
+   "<p>Glycol systems are often sized in cooler months and struggle when ambient temperatures in a brewpub's plant room pass 35 °C. Fermenters on the end of a long glycol loop see the warmest coolant. When several tanks are in active fermentation at once, the system can fall behind for exactly the hours that matter most for esters. Logging tank temperature every hour during the first two days shows whether that is happening. Many breweries discover their temperature control is fine on paper and not in May.</p><p>Your first step: log the beer temperature in your next ale every few hours for the first two days of fermentation, then compare it with the set point. If the beer ran more than two degrees warm, you have probably found your ethyl acetate.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What causes nail polish smell in beer?",
+   "Excess ethyl acetate, usually from warm fermentation, high gravity, low oxygen at pitching or an estery strain. Wild yeast and acetic bacteria can also cause it."
+  ],
+  [
+   "What is the flavour threshold of ethyl acetate?",
+   "The commonly quoted threshold is around 30 mg/L. Below that it adds fruitiness. Above it, it reads as solvent."
+  ],
+  [
+   "How is ethyl acetate different from fusel alcohol?",
+   "Ethyl acetate smells sweet and solventy like nail polish. Fusels feel hot and burning, more like raw spirit."
+  ],
+  [
+   "How do brewers reduce ethyl acetate?",
+   "Cooler, well-controlled fermentation, good oxygenation, healthy pitch rates and care with high gravity brewing."
+  ]
+ ],
+ "cta": {
+  "title": "Separate esters, fusels and faults with confidence",
+  "body": "Sensory Evaluation is our two week live course (₹5,999). It uses spiked samples and guided tasting to train your panel to tell ethyl acetate from fusels, acetaldehyde and acetic acid.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "earthy-beetroot-notes-from-geosmin-and-how-brewers-track",
+  "vinegar-notes-in-beer-and-the-acetic-acid-bacteria-behind",
+  "grainy-and-husky-notes-in-pale-lager-and-the-brewing-steps"
+ ]
+}

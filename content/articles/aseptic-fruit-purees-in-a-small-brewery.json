@@ -1,0 +1,75 @@
+{
+ "slug": "aseptic-fruit-purees-in-a-small-brewery",
+ "cat": "Ingredients",
+ "h1": "Aseptic fruit purees in a small brewery",
+ "title": "Aseptic Fruit Purees in a Small Brewery | Craft Beer School",
+ "desc": "How aseptic fruit purees work, when to add them, how to calculate their sugar contribution plus the refermentation risk in cans.",
+ "teaser": "Aseptic puree saves a small brewery from peeling mangoes. It still brings sugar, pectin and a refermentation risk.",
+ "standfirst": "Aseptic fruit puree is shelf stable, consistent and free of the microbes that ride in on fresh fruit. For a small brewery it is the easiest way to make a fruit beer at scale. The puree solves the hygiene problem. It does not solve the sugar, haze or packaging questions.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Aseptic means sterile until you open it",
+   "<p>Aseptic puree is heat treated to kill microbes, cooled and then filled into pre-sterilised bags under sterile conditions. Bag-in-box and bag-in-drum formats are common. Sealed and unopened, it is shelf stable at ambient temperature for months, which matters in a country where cold storage is expensive and power is not always reliable.</p><p>Once the bag is opened the clock starts. Opened puree should be refrigerated and used within the time the supplier specifies, usually days. A half used bag left in a warm store room becomes a fermentation of its own.</p>"
+  ],
+  [
+   "India has a strong mango pulp industry",
+   "<p>India processes a great deal of mango into aseptic pulp, mostly Alphonso and Totapuri. Alphonso is aromatic and expensive. Totapuri is more acidic and less intense, but cheaper and widely used. Guava, pineapple and other tropical fruits are also available aseptically from Indian processors.</p><p>Ask for the specification sheet with each lot. The figures that matter to a brewer are Brix (the sugar content), pH or acidity and whether any preservative or added sugar is present. Avoid purees with preservatives such as sodium benzoate or potassium sorbate, which can inhibit yeast.</p>"
+  ],
+  [
+   "Work out the sugar before you add it",
+   "<p>Puree brings fermentable sugar. Brix is roughly equal to degrees Plato, so a mango pulp at 15 °Brix carries about 15% dissolved solids by weight, almost all of it sugar.</p><p>Here is the working for a 1,000 litre batch. Adding 100 kg of pulp at 15 °Brix brings about 15 kg of sugar. Spread across the batch, that adds roughly 1.5 °P of fermentable extract, which the yeast will turn into alcohol. Fully fermented, 1.5 °P adds somewhere around 0.7 to 0.8% ABV. Count that in your recipe, your excise declaration and your label.</p>"
+  ],
+  [
+   "Add it after the most active fermentation",
+   "<p>Most brewers add puree to the fermenter once primary fermentation has slowed, often when the beer is two thirds or more of the way to final gravity. Added at the start, much of the fruit aroma is carried off by vigorous CO2. Added late, the yeast still has enough activity to ferment the fruit sugar and clean up afterwards.</p><p>Expect a second burst of fermentation and leave headspace. Rates vary widely by fruit and style, from a few percent of batch volume for a hint of fruit to 20% or more for fruited sours. Our guide to <a href=\"adding-fruit-to-beer.html\">adding fruit to beer</a> covers rates and styles.</p>"
+  ],
+  [
+   "Acidity changes the beer and the yeast",
+   "<p>Fruit brings acid as well as sugar. Mango pulp is usually only moderately acidic, while passion fruit and some berries are very sharp. A large dose lowers the pH of the finished beer, sometimes by several tenths of a unit. That changes how it tastes.</p><p>Measure the beer's pH before and after the fruit goes in. If you are adding a very acidic puree to a beer that is still fermenting, a sudden drop can slow the yeast. Adding the fruit in two smaller doses a day or two apart is gentler. Record the pH with the gravity, because both tell you whether the batch matches the last one.</p>"
+  ],
+  [
+   "Pectin and pulp change filtration and haze",
+   "<p>Fruit purees contain pectin and fine pulp. Pectin can cause a persistent haze and slow filtration or centrifugation. Pectinase enzyme, added with the puree, breaks it down. For a hazy fruit beer you may not mind. For a clear beer, plan for it.</p><p>Pulp also settles in the cone and holds beer. Expect higher losses than a standard batch. Plan your transfer to leave the sediment behind.</p>"
+  ],
+  [
+   "Refermentation in the can is the real danger",
+   "<p>The most serious risk with fruit beer is unfermented sugar reaching the package. If the beer is canned before the fruit sugar has fully fermented, the yeast left in suspension keeps working. Carbonation climbs and cans can swell or burst, which is a genuine safety hazard for anyone handling them.</p><ul><li>Confirm the gravity is stable over at least three consecutive days after the fruit addition.</li><li>Run a forced fermentation test on a sample to confirm there is no fermentable sugar left.</li><li>Filter, centrifuge or pasteurise if residual sugar or yeast is a concern.</li><li>Hold a few packaged samples warm for two weeks and check pressure before release.</li></ul>"
+  ],
+  [
+   "Start with one fruit and one spec sheet",
+   "<p>Pick one puree from one supplier and ask for the specification and a sample. Measure its Brix and pH yourself with a refractometer and pH meter and compare them with the sheet. Then brew a pilot batch, log the gravity daily from the fruit addition to packaging and keep two cans warm as a check. That record becomes your standard method for every fruit beer that follows.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is aseptic fruit puree?",
+   "Fruit puree heat treated and filled into sterile packaging, so it stays shelf stable at ambient temperature until opened."
+  ],
+  [
+   "When should I add fruit puree to beer?",
+   "Most brewers add it after primary fermentation has slowed, so the aroma is not carried off and the yeast can still ferment the fruit sugar."
+  ],
+  [
+   "How much sugar does mango pulp add?",
+   "Brix roughly equals sugar percentage. 100 kg of pulp at 15 °Brix in 1,000 litres adds about 1.5 °P of fermentable extract."
+  ],
+  [
+   "Why do fruit beer cans swell?",
+   "Unfermented fruit sugar is fermenting in the can. Confirm stable gravity and run a forced fermentation test before packaging."
+  ]
+ ],
+ "cta": {
+  "title": "Make fruit beers safely and consistently",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers fermentation science, adjunct and fruit calculations, microbiology and packaging stability for small breweries.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "hop-contracts-vs-spot-buying",
+  "adding-fruit-to-beer",
+  "weyermann-special-w-malt"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "protein-rests-and-when-modern-malt-does-not-need-one",
+ "cat": "Brewing science",
+ "h1": "Protein rests and when modern malt does not need one",
+ "title": "Protein Rests and Modern Malt | Craft Beer School",
+ "desc": "What a protein rest does, why well-modified modern malt rarely needs one, when it still helps and how to read the malt analysis.",
+ "teaser": "The protein rest in your old recipe might be thinning your foam for no benefit at all.",
+ "standfirst": "A protein rest was once a standard step in the mash. Modern malt arrives with most of that work already done. Knowing when the rest still earns its place starts with one number on the malt analysis.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A protein rest gives proteases time to work",
+   "<p>A protein rest holds the mash at roughly 45 to 55 °C. In that range, protein breaking enzymes from the malt are active. Proteases cut large proteins into medium-sized pieces. Peptidases trim those into small peptides and free amino acids, which yeast use as nitrogen.</p><p>Historically, brewers needed this step. Malt was often less modified, meaning the grain had not broken down much of its protein and cell wall material during malting. A rest in the mash finished the job, giving better yeast nutrition, clearer wort and fewer haze problems. Our guide to <a href=\"enzymes-in-the-mash.html\">enzymes in the mash</a> covers the full set of mash enzymes.</p>"
+  ],
+  [
+   "Modern malt arrives already modified",
+   "<p>Most base malt today is well modified. The maltster lets germination run long enough that much of the protein breakdown happens in the malthouse. The malt analysis shows this as the soluble nitrogen ratio, also called the Kolbach index: soluble protein as a percentage of total protein.</p><ul><li>A Kolbach index of about 35% or below suggests under-modified malt.</li><li>About 36 to 40% is typical of well modified lager malt.</li><li>Above about 40 to 45% is highly modified, common in many pale ale malts.</li></ul><p>When the Kolbach index is already in the high thirties or above, there is little left for a protein rest to do. The wort already has enough free amino nitrogen for healthy fermentation.</p>"
+  ],
+  [
+   "An unnecessary rest can cost foam and body",
+   "<p>The risk with a rest on well modified malt is going too far. The medium-sized proteins that a protease creates and then keeps cutting are the same ones that build foam and give body. Break too many of them down and the beer can finish thin, with a head that collapses quickly. A long rest around 50 °C is the usual culprit.</p><p>This is the trap of copying an old recipe or a decoction schedule written for malt from a different era. The step looks traditional and harmless. On modern malt it can work against the beer.</p>"
+  ],
+  [
+   "When a protein rest still helps",
+   "<p>There are real cases for a short rest:</p><ul><li><strong>Under-modified malt.</strong> Some speciality and traditional floor malts, or malt with a Kolbach index in the low thirties, benefit from it.</li><li><strong>High proportions of raw grain.</strong> Large amounts of unmalted barley or wheat bring extra protein and no enzymes of their own. A short rest helps the malt's enzymes deal with it.</li><li><strong>Low free amino nitrogen.</strong> Worts with a lot of rice or maize, common in Indian lagers, dilute the nitrogen the malt supplies. A rest can raise free amino nitrogen a little, though choosing a higher protein malt or adding yeast nutrient is often more effective.</li></ul><p>Even then, keep it short, often 10 to 20 minutes. A brief rest at the upper end, around 52 to 55 °C, favours the enzymes that produce medium-sized proteins rather than chopping everything down.</p><p>For worts heavy in rice or maize, think about where the nitrogen goes as well as where it comes from. Yeast short of free amino nitrogen grow less, ferment more slowly and tend to leave more diacetyl and sulphur behind. A protein rest is only one answer and rarely the strongest. Measuring free amino nitrogen in the wort, even a few times a year through an outside lab, tells you whether the problem exists before you add a step to fix it.</p>"
+  ],
+  [
+   "Do not confuse it with a beta-glucan rest",
+   "<p>A rest around 40 to 45 °C is often used for beta-glucan breakdown rather than protein. Beta-glucans are gums from barley and oat cell walls that make wort thick and slow to run off. With a lot of oats or raw barley, a beta-glucan rest can save a stuck lauter. That is a separate decision from a protein rest, even though the temperatures sit close together. Our guide to <a href=\"step-mashing.html\">step mashing</a> covers multi-step schedules.</p><p>Time at each step costs brewhouse hours. On a 10 hectolitre system brewing twice a day, a 20 minute rest you do not need is 40 minutes a day of tun time, plus the steam to climb from 50 °C to saccharification. Dropping a pointless rest is one of the few process changes that saves time, energy and foam at once.</p>"
+  ],
+  [
+   "Read the analysis, then decide",
+   "<p>The floor detail that matters: every malt delivery should come with a certificate of analysis. The Kolbach index is printed on it. Many brewers file it unread. Check it for each new lot, along with total protein and free amino nitrogen if the maltster gives it.</p><p>If you change a lot and the Kolbach index jumps or drops by several points, your mash may need adjusting even though the recipe has not changed. A brewer who understands why can fix it in one batch. One who follows the recipe blindly spends three batches wondering why the foam fell away.</p><p>Your first step: pull the certificates for the base malts in your two best selling beers. If the Kolbach index is above about 38% and your schedule includes a protein rest, brew the next batch with a single infusion and compare foam and body side by side.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature is a protein rest?",
+   "Roughly 45 to 55 °C. The upper end, around 52 to 55 °C, favours medium-sized proteins that help foam and body."
+  ],
+  [
+   "Does modern malt need a protein rest?",
+   "Usually not. Well modified malt with a Kolbach index in the high thirties or above already has enough soluble protein and free amino nitrogen."
+  ],
+  [
+   "Can a protein rest hurt beer?",
+   "Yes. A long rest on well modified malt can break down foam-positive proteins, leaving thin body and poor head retention."
+  ],
+  [
+   "When is a protein rest worth doing?",
+   "With under-modified malt, large amounts of raw barley or wheat, or worts low in free amino nitrogen. Keep it short."
+  ]
+ ],
+ "cta": {
+  "title": "Learn what is really happening in your mash",
+  "body": "Advanced Brewing Science is our six week live course. It covers mash enzymes, malt analysis and how to design mash schedules for the malt you actually buy.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "forced-ageing-tests",
+  "monotanking-in-a-unitank",
+  "acid-washing-yeast-and-when-it-does-more-harm-than-good"
+ ]
+}

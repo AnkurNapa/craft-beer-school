@@ -1,0 +1,71 @@
+{
+ "slug": "nitrogen-dosing-in-cans",
+ "cat": "Brewing science",
+ "h1": "Nitrogen dosing in cans",
+ "title": "Nitrogen Dosing in Cans | Craft Beer School",
+ "desc": "How liquid nitrogen dosers work on a canning line, what they do for nitro beers and still drinks and how to check every run.",
+ "teaser": "A drop of liquid nitrogen the size of a pea decides whether a nitro can pours like velvet or like flat cola.",
+ "standfirst": "Liquid nitrogen dosing puts a measured drop of nitrogen into each can a moment before the lid goes on. It pressurises cans of low carbonation beer and drives out oxygen. Get the timing wrong and you fill a pallet with flat or bulging cans.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A liquid nitrogen doser turns one drop into internal pressure",
+   "<p>A doser sits over the conveyor between the filler and the seamer. It holds liquid nitrogen at about minus 196 °C in an insulated reservoir and releases a tiny, timed drop into each can as it passes. Liquid nitrogen expands roughly 700 times as it turns to gas. Seal the can a fraction of a second later and that gas has nowhere to go, so it pressurises the headspace and pushes some nitrogen into the beer.</p><p>The same drop does two jobs. Part of it boils off before the lid lands and sweeps air out of the headspace. The part trapped under the lid builds pressure. Which job dominates depends on how long the can travels between doser and seamer.</p>"
+  ],
+  [
+   "Nitro beer needs low carbon dioxide before it needs nitrogen",
+   "<p>A nitro stout is carbonated far lower than a normal ale, often around 1.2 volumes of carbon dioxide against roughly 2.5 for a pale ale. Nitrogen is far less soluble in beer than carbon dioxide. That low solubility is the whole point: when the beer is released through a restrictor or a hard pour, nitrogen breaks out as tiny bubbles that give the tight, creamy head. Our guide to <a href=\"how-nitrogen-gas-gives-nitro-stouts-their-creamy-head.html\">how nitrogen gives nitro stouts their head</a> covers the physics of the pour.</p><p>So the brewing side comes first. Carbonate the bright beer to the low target, hold it cold and only then worry about the doser. If the base beer goes in at 2.5 volumes, nitrogen on top gives you a can that gushes rather than one that cascades.</p>"
+  ],
+  [
+   "Still drinks need dosing for a different reason",
+   "<p>A thin aluminium can of still beer, cold brew or juice has no carbon dioxide pressure to hold its shape. Stack it on a pallet and the walls panel or crush. A nitrogen dose gives it the internal pressure that carbonation would normally provide. Many lines run the doser for this reason alone, with no nitro head intended.</p>"
+  ],
+  [
+   "Line speed and timing decide the dose you actually get",
+   "<p>The floor detail that catches most teams is the gap between doser and seamer. The doser is set for a line speed. Slow the line for a jam and each can spends longer open, so more nitrogen boils away before the lid lands and pressure falls. Speed it up and pressure rises. A run that starts after a stoppage often has its first few dozen cans underdosed.</p><p>Other things shift the dose as well:</p><ul><li>Reservoir level. On dosers without level control, the dose can change as the liquid nitrogen runs down, so refill on a schedule rather than when it runs dry.</li><li>Fill height. A short fill leaves more headspace, which dilutes the pressure from the same drop.</li><li>Beer temperature. Warm beer holds less gas and makes the can more lively when it is opened.</li><li>Draughts and spray near the nozzle, which can make the drop miss the can entirely.</li></ul>"
+  ],
+  [
+   "Check pressure on cans pulled from every run",
+   "<p>You cannot see a dose. You have to measure it. Pull cans at the start, after any stoppage and at regular intervals, then read internal pressure with a can piercing gauge at a fixed temperature. Record the readings against time so you can see drift. Squeezing cans by hand tells you a can is flat but not by how much.</p><p>Set a target and a tolerance band from your own trials, because the right number depends on can size, beer and how the product is poured. Then write a reject rule. Cans outside the band get pulled, not shipped on the hope that most of the run was fine. Our guide on <a href=\"how-many-cans-to-test-from-a-single-canning-run.html\">how many cans to test from a canning run</a> covers sampling plans.</p>"
+  ],
+  [
+   "Overdosing and underdosing fail in opposite ways",
+   "<p>Underdosed cans pour flat, with a thin head on nitro beer and soft, dented walls on still products. Overdosed cans are the more dangerous fault. Ends can dome or buckle, cans can leak at the seam and a warm can may gush hard when opened. In an Indian summer, a pallet sitting in a 40 °C godown raises internal pressure further, so the margin you set on a cool packaging floor has to allow for heat in the trade.</p><p>Watch dissolved oxygen too. A well purged headspace protects a dark beer from stale, papery notes, but only if the beer went into the can low in oxygen. Nitrogen does not fix oxygen picked up in the bright tank.</p>"
+  ],
+  [
+   "Liquid nitrogen needs its own safety routine",
+   "<p>Liquid nitrogen burns skin on contact and displaces oxygen as it boils. A dewar leaking in a small packaging room can drop oxygen levels without any smell or warning. Fit an oxygen monitor where nitrogen is stored and used, give staff cryogenic gloves and a face shield for refills and keep dewars in ventilated spots. None of that is optional on a busy line.</p><p>Your first step: before the next nitro or still run, pull ten cans across the run, including the first ones after start-up. Read their pressures. The spread between the highest and lowest reading tells you whether your doser is controlled or just switched on.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does a nitro beer need low carbonation?",
+   "Nitrogen gives the creamy head only when carbon dioxide is kept low, often around 1.2 volumes. A fully carbonated beer with nitrogen added tends to gush rather than cascade."
+  ],
+  [
+   "Does nitrogen dosing remove oxygen from cans?",
+   "It helps, because some of the drop boils off and sweeps air from the headspace before seaming. It cannot remove oxygen already dissolved in the beer."
+  ],
+  [
+   "Why do still drinks in cans need nitrogen?",
+   "Without carbon dioxide pressure, thin aluminium cans panel or crush when stacked. A nitrogen dose gives them the internal pressure to hold their shape."
+  ],
+  [
+   "How do I check a nitrogen dose?",
+   "Read internal pressure on sample cans with a piercing gauge at a fixed temperature, at the start of a run, after stoppages and at regular intervals."
+  ]
+ ],
+ "cta": {
+  "title": "Control carbonation and gas from tank to can",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers gas laws, carbonation, oxygen control and packaging quality checks so nitro and still products leave the line consistent.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "gushing-in-bottles-and-cans-and-the-causes-beyond-infection",
+  "how-many-cans-to-test-from-a-single-canning-run",
+  "how-nitrogen-gas-gives-nitro-stouts-their-creamy-head"
+ ]
+}

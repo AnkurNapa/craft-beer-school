@@ -1,0 +1,71 @@
+{
+ "slug": "the-carbon-footprint-of-a-bottle-of-whisky",
+ "cat": "Whisky",
+ "h1": "The carbon footprint of a bottle of whisky",
+ "title": "Carbon Footprint of a Whisky Bottle | Craft Beer School",
+ "desc": "Where the carbon in a bottle of whisky comes from: grain, distillation, maturation, glass and transport, plus the levers a company can pull.",
+ "teaser": "The liquid is only part of a whisky's footprint. The glass, the boiler and the barley field all count.",
+ "standfirst": "A carbon footprint for one bottle of whisky draws on farming, distilling, years of maturation, glass and transport. This guide walks through each stage, explains the scopes used in reporting and shows where the big numbers usually sit.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a product footprint counts",
+   "<p>A product carbon footprint adds up the greenhouse gas emissions from every stage of a product's life, expressed in kilograms of carbon dioxide equivalent (CO2e). Life cycle assessment methods follow international standards such as ISO 14040 and ISO 14044, which set out how to define the boundary, collect data and allocate emissions between products.</p><p>Companies also report emissions in three scopes under the Greenhouse Gas Protocol. <strong>Scope 1</strong> is direct emissions, such as fuel burned in the distillery boiler. <strong>Scope 2</strong> is purchased electricity. <strong>Scope 3</strong> is everything else in the value chain: barley farming, glass, transport, distribution and disposal. For a whisky company, scope 3 is usually the largest share.</p>"
+  ],
+  [
+   "From the field: grain",
+   "<p>Whisky starts as barley, maize, wheat or rye. Growing grain releases emissions from fertiliser manufacture and use, farm machinery and drying. Malting adds more, because germinated barley is dried in a kiln. Peated malt adds the smoke of burning peat on top.</p><p>The link to the bottle is yield. A distillery that gets more litres of alcohol from each tonne of grain spreads the farm emissions over more whisky. Our guide to <a href=\"litres-of-alcohol-per-tonne-as-a-distillery-kpi.html\">litres of alcohol per tonne</a> explains that number.</p>"
+  ],
+  [
+   "In the distillery: steam and power",
+   "<p>Inside the distillery, the boiler is the main source of direct emissions. Steam heats mashing water and boils wash and low wines in the stills. The fuel in that boiler, whether furnace oil, gas, coal, biomass or biogas from the site's own residues, largely decides the scope 1 figure. Electricity for pumps, mills, chillers and the bottling hall makes up scope 2. Its footprint depends on the grid supply or any on-site renewable power.</p><p>Heat recovery and vapour recompression cut the steam needed per litre of alcohol. Our guide to <a href=\"water-and-energy-in-whisky-sustainability.html\">water and energy in whisky sustainability</a> covers these levers.</p>"
+  ],
+  [
+   "Maturation counts too",
+   "<p>Maturation is easy to forget because it looks like nothing happening. Yet a whisky spends years in a warehouse. Some of the alcohol evaporates every year. In Indian heat that loss runs well above the roughly 2% a year often quoted for Scotland. Every litre lost is a litre whose grain, steam and transport emissions are spread across fewer bottles.</p><p>Casks have their own footprint, but most whisky casks are reused oak: ex-bourbon barrels, ex-sherry butts and refilled casks. Reuse spreads the cooperage emissions across several fills.</p>"
+  ],
+  [
+   "The bottle is often the biggest single item",
+   "<p>Packaging, especially glass, is frequently one of the largest parts of a whisky's footprint. Glass is made by melting sand, soda ash and limestone in furnaces running at well over 1,000 °C. Heavier bottles mean more glass and more energy. Premium whisky bottles are often much heavier than standard ones. That weight then travels through every truck and container.</p><p>Recycled glass (cullet) melts at a lower temperature than raw materials, so bottles with higher recycled content need less furnace energy. Gift tins, rigid boxes and heavy closures add more. A 750 ml bottle at 42.8% ABV holds only about 0.32 litres of pure alcohol, so packaging emissions are spread over a small amount of whisky.</p>"
+  ],
+  [
+   "Transport and the end of life",
+   "<p>Whisky is heavy and travels far: grain to maltster, malt to distillery, spirit to bottling hall, cases to depots in many states and in some cases bottles across oceans. Road transport within India adds up because of distance and permit-driven routes. Shipping by sea has lower emissions per tonne kilometre than road or air.</p><p>At the end of life, a glass bottle that is collected and recycled feeds cullet back into new glass. One that goes to landfill does not. In India, many used bottles enter informal collection and reuse chains, which affect the picture in ways that are hard to measure.</p>"
+  ],
+  [
+   "Where companies can act",
+   "<ul><li>Lighter bottles and more recycled glass content.</li><li>Fewer secondary packs such as gift boxes in core ranges.</li><li>Lower carbon boiler fuel and heat recovery in the distillery.</li><li>Higher yield per tonne of grain.</li><li>Shorter, fuller transport loads.</li></ul><p>Each change has a cost and a brand consequence. A premium label team will resist lighter glass unless it can see the numbers. That is exactly why marketing, supply chain and production need a shared picture of the footprint.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Weigh an empty bottle of your best selling SKU and one from a premium line. Multiply each weight by annual bottles sold. That gives tonnes of glass per year for two SKUs, the most concrete starting point for any packaging conversation with your sustainability team.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What usually makes up most of a whisky's carbon footprint?",
+   "Value chain emissions (scope 3), especially grain and glass packaging, are often the largest share. Distillery boiler fuel is the main direct source."
+  ],
+  [
+   "Does maturation affect the footprint?",
+   "Yes. Evaporation losses during maturation mean the emissions from production are spread over fewer bottles. Losses are higher in hot climates."
+  ],
+  [
+   "Why does bottle weight matter?",
+   "Heavier glass needs more raw material and furnace energy to make and more fuel to transport. Higher recycled content also lowers glass emissions."
+  ]
+ ],
+ "cta": {
+  "title": "Help your team see where a whisky's carbon really comes from",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "designing-a-premium-whisky-label-and-bottle",
+  "storing-an-opened-whisky-bottle",
+  "how-whisky-is-made"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "iron-and-manganese-in-borewell-water",
+ "cat": "Ingredients",
+ "h1": "Iron and manganese in borewell water",
+ "title": "Iron and Manganese in Borewell Water | Craft Beer School",
+ "desc": "Why iron and manganese in borewell water spoil beer, the limits brewers aim for plus the aeration, filter and RO treatments that remove them.",
+ "teaser": "Clear borewell water that turns orange in a bucket is carrying iron. Beer made with it tastes of blood and stales fast.",
+ "standfirst": "Iron and manganese are common in Indian groundwater and very unwelcome in beer. Even low levels bring metallic flavours, haze and faster staling. Both are removable, but only if you treat in the right order.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The orange bucket test",
+   "<p>Fill a white bucket with water straight from the borewell and leave it for an hour. If the water comes out clear and slowly turns yellow or orange, with a rusty sediment, it carries dissolved iron. Underground, without oxygen, iron sits in the soluble ferrous form. Exposed to air it oxidises to ferric iron, which is insoluble and drops out as rust. Brown or black staining on fittings and tiles points to manganese.</p><p>That quick test is not a measurement, but it tells you to get one. A lab report showing iron and manganese in mg/L is the starting point for any treatment.</p>"
+  ],
+  [
+   "Brewers want almost none",
+   "<p>Brewing water guidelines set iron and manganese far below drinking water limits. A common target for brewing liquor is below about 0.1 mg/L of iron and below about 0.05 mg/L of manganese. Many breweries aim lower still.</p><p>At those trace levels you will not taste them in the water. In beer the effects are clearer:</p><ul><li>A metallic, blood-like or inky taste and a drying finish.</li><li>Faster staling, because iron and manganese catalyse oxidation reactions in packaged beer.</li><li>Haze and poorer colloidal stability.</li><li>In the brewhouse, dark deposits and stains on vessels and heat exchanger plates.</li></ul>"
+  ],
+  [
+   "Oxidise first, then filter",
+   "<p>The standard treatment relies on the same chemistry as the bucket. Convert dissolved iron and manganese to their insoluble forms, then filter them out.</p><ul><li><strong>Aeration</strong> oxidises ferrous iron fairly quickly. Manganese oxidises much more slowly and often needs a stronger oxidant.</li><li><strong>Chlorine or another oxidant</strong> dosed ahead of a filter speeds the reaction and handles manganese better.</li><li><strong>Catalytic filter media</strong>, such as manganese dioxide based media and manganese greensand, oxidise and trap both metals in one vessel. They need regular backwashing and, for some media, regeneration.</li></ul><p>Contact time matters. Water that passes through an oxidation step too quickly carries dissolved iron straight through the filter and precipitates later in your hot liquor tank.</p>"
+  ],
+  [
+   "Protect the reverse osmosis membrane",
+   "<p>Reverse osmosis removes iron and manganese very effectively, but it does not like them. Oxidised iron fouls RO membranes. The deposits are hard to clean off. RO suppliers specify a maximum iron level in the feed water. Borewell water often exceeds it.</p><p>So in a brewery on iron-bearing groundwater, the usual sequence is iron and manganese removal first, then sediment and carbon filtration, then RO. Skipping the pre-treatment to save money shortens membrane life. Our guide to <a href=\"treating-borewell-water-for-brewing.html\">treating borewell water</a> covers the whole chain.</p>"
+  ],
+  [
+   "Chlorine used for oxidation must come out",
+   "<p>If chlorine is dosed to oxidise iron and manganese, it must be removed before the water reaches the mash. Chlorine reacts with phenols to form chlorophenols, which give a medicinal, plaster-like flavour at extremely low levels. An activated carbon filter after the iron removal stage does that job. Our guide to <a href=\"activated-carbon-filters-for-brewing-water.html\">activated carbon filters</a> explains sizing and maintenance.</p><p>Test for chlorine after the carbon filter with a simple DPD kit. The target is zero.</p>"
+  ],
+  [
+   "Iron bacteria make the problem slimy",
+   "<p>Some borewells develop a second problem: iron bacteria. These naturally occurring organisms, such as Gallionella and Leptothrix, feed on dissolved iron and leave a reddish brown slime on pump parts, pipes and storage tanks. The water may smell musty or swampy. The slime can break loose in clumps that block filters.</p><p>Iron bacteria are not known to cause illness, but they shelter other microbes and make treatment less predictable. The usual remedy is shock chlorination of the well and pipework, done by a water treatment contractor, followed by regular checks. If the orange sediment in your bucket is slimy rather than gritty, mention it when you book the lab test.</p>"
+  ],
+  [
+   "Watch for iron from inside the brewery",
+   "<p>Iron does not only come from the ground. Corroded mild steel pipework, galvanised fittings that have lost their zinc and old storage tanks can all add iron to water that left the treatment plant clean. A good rule is to sample at the point of use, at the hot liquor tank inlet, as well as at the borewell and after treatment.</p><p>Stainless steel, food grade plastic and proper passivation keep the brewery side from undoing the work of the treatment plant.</p>"
+  ],
+  [
+   "Start with three samples",
+   "<p>If you run a brewery on borewell water, take three samples on the same day: raw from the borewell, after your existing treatment and at the hot liquor tank. Send all three for iron, manganese and hardness. The difference between the three tells you whether the problem is the source, the treatment or the pipework. It also tells you which one to fix first.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much iron is acceptable in brewing water?",
+   "A common brewing target is below about 0.1 mg/L of iron. Many breweries aim lower."
+  ],
+  [
+   "Why does my borewell water turn orange?",
+   "It contains dissolved ferrous iron, which oxidises to insoluble rust when exposed to air."
+  ],
+  [
+   "Can RO remove iron from water?",
+   "Yes, but iron fouls RO membranes, so it is normally removed first with oxidation and filtration."
+  ],
+  [
+   "What does iron taste like in beer?",
+   "Metallic, blood-like or inky, with a drying finish. It also speeds up staling in packaged beer."
+  ]
+ ],
+ "cta": {
+  "title": "Build a water treatment plan that protects your beer",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers brewing water chemistry, treatment sequences and how trace metals affect flavour and shelf life.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "treating-borewell-water-for-brewing",
+  "brewing-water-basics",
+  "water-hardness-and-beer"
+ ]
+}

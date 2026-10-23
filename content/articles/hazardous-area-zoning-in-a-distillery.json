@@ -1,0 +1,67 @@
+{
+ "slug": "hazardous-area-zoning-in-a-distillery",
+ "cat": "Whisky",
+ "h1": "Hazardous area zoning in a distillery",
+ "title": "Hazardous Area Zoning in a Distillery | Craft Beer School",
+ "desc": "What Zone 0, 1 and 2 mean in a distillery, how areas are classified, what Ex rated equipment is and the Indian approvals to check.",
+ "teaser": "Zoning decides which motors, lights and switches can go where in a distillery. Get it wrong and the electrics become the ignition source.",
+ "standfirst": "Hazardous area classification is how a distillery decides where flammable vapour may be present and how often. Each zone then sets the standard of electrical and mechanical equipment allowed there. Here is how it works in plain terms.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a zone actually describes",
+   "<p>A zone describes how likely an explosive atmosphere is in a space, not how dangerous the liquid is. For gases and vapours such as ethanol, the international standard (IEC 60079-10-1) uses three zones:</p> <ul><li><strong>Zone 0:</strong> an explosive atmosphere is present continuously or for long periods. Typically the vapour space inside a spirit receiver or tank.</li> <li><strong>Zone 1:</strong> an explosive atmosphere is likely to occur occasionally in normal operation. For example around open sampling points, filling heads and vents.</li> <li><strong>Zone 2:</strong> an explosive atmosphere is not likely in normal operation and, if it occurs, lasts only a short time. Often the wider area around flanges, pumps and valves.</li></ul> <p>Anywhere outside those boundaries is a non-hazardous area, where ordinary equipment is allowed.</p>"
+  ],
+  [
+   "How an area gets classified",
+   "<p>Classification starts with a list of release sources: every point where spirit or vapour can escape. Vents, sample cocks, pump seals, flanges, cask filling heads and manways all count. For each one the assessor estimates how often it releases, how much and how quickly ventilation disperses it. The result is a zone with a defined size around the source.</p> <p>Ventilation changes everything. The same pump seal can sit in a small Zone 2 in a well ventilated hall and in a larger, more serious zone in a closed basement. Because ethanol vapour is about 1.6 times heavier than air, pits, trenches and drains below a release source often end up in a higher zone than the room above. Our guide on <a href=\"ethanol-vapour-and-ignition-sources-in-a-distillery.html\">ethanol vapour and ignition sources</a> explains why.</p>"
+  ],
+  [
+   "What Ex rated equipment means",
+   "<p>Equipment for hazardous areas is built so that it cannot ignite the atmosphere around it. The marking on the nameplate tells you how. Common protection types include flameproof enclosures (Ex d), which contain an internal explosion. Another is increased safety (Ex e), which prevents sparks and hot spots in the first place. Each item is approved for the zones it may enter.</p> <p>Temperature matters as much as sparks. Equipment carries a temperature class showing the hottest surface it can reach. Ethanol autoignites at about 363 °C, so equipment must stay well below that. T2 (maximum 300 °C) is the usual minimum quoted for ethanol. Many sites specify a stricter class for margin. Gas group is the other part of the marking. Have your electrical designer confirm the group and class for your specific spirits.</p>"
+  ],
+  [
+   "Dust zones in the mill room",
+   "<p>Vapour is not the only hazard. Fine grain and malt dust from milling and grain handling can also form an explosive cloud. Dust has its own zones: Zone 20 (dust cloud present continuously or for long periods, often inside mills, hoppers and elevators), Zone 21 (likely occasionally) and Zone 22 (unlikely and short lived).</p> <p>The controls overlap with vapour zoning: rated motors and lights, earthing, dust extraction plus magnets and stone traps ahead of the mill to stop tramp metal sparking. Above all, keep layers of dust off beams and ledges. A small primary explosion can lift settled dust into a much larger secondary one. Our guide to <a href=\"milling-grist-for-a-distillery.html\">milling grist for a distillery</a> covers the mill side.</p>"
+  ],
+  [
+   "The Indian approvals to check",
+   "<p>In India, electrical equipment for hazardous areas generally needs certification from a recognised test body and approval from the Petroleum and Explosives Safety Organisation (PESO). Ask every supplier for the certificate and approval for the exact model, not a family brochure. State fire services and factory inspectorates may also want to see your area classification drawings.</p> <p>The rules, standards and approval routes change and differ between states, so treat this as a list of questions rather than a compliance guide. A qualified electrical consultant who has classified flammable liquid plants before is worth the fee. Have them produce a zone drawing as part of the design, before any cable is pulled.</p>"
+  ],
+  [
+   "Keeping zoning true after opening day",
+   "<p>A zone drawing describes the plant on the day it was made. Distilleries change. A new receiver goes in, a sample point moves, a door that used to stay open is now kept shut for security. Each of those can change a zone. Build a simple rule into your change process: no new vessel, vent, pump or wall without checking the zone drawing first.</p> <p>Ex equipment also needs inspection. A flameproof enclosure with a missing bolt or a damaged gland is no longer flameproof. Inspect rated equipment on a schedule, log what you find and train maintenance staff that replacing an Ex light fitting with an ordinary one is never a quick fix. Reading a zone drawing and asking the right questions of an engineer is a core skill for anyone who runs a still house.</p>"
+  ],
+  [
+   "Where to start",
+   "<p>Get a copy of your site's hazardous area classification drawing. If there is none, that is your first action. If there is one, take it to the still house and check it against what is actually there today: every vent, sample point, pump and light fitting. Note any mismatch for your electrical consultant.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is Zone 1 in a distillery?",
+   "An area where an explosive vapour atmosphere is likely to occur occasionally in normal operation, such as around open sample points, filling heads and vents."
+  ],
+  [
+   "Do distilleries need flameproof equipment?",
+   "Equipment inside hazardous zones must be rated for that zone. Flameproof (Ex d) is one common protection type but not the only one."
+  ],
+  [
+   "Who approves hazardous area equipment in India?",
+   "Equipment generally needs certification and approval from the Petroleum and Explosives Safety Organisation (PESO). Check current requirements with a qualified consultant."
+  ]
+ ],
+ "cta": {
+  "title": "Understand the plant you are running",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers distillation, spirit handling and still house safety so you can work with engineers and inspectors on equal terms.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "distillery-kpis-for-analysts",
+  "sourcing-oak-casks-for-an-indian-distillery",
+  "what-a-new-distillery-sells-while-whisky-ages"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "diatomaceous-earth-filtration-done-safely",
+ "cat": "Brewing science",
+ "h1": "Diatomaceous earth filtration done safely",
+ "title": "Safe Diatomaceous Earth Filtration | Craft Beer School",
+ "desc": "How DE filtration works, the dust hazard of crystalline silica and the handling, PPE and disposal rules that keep a filter room safe.",
+ "teaser": "Diatomaceous earth gives brilliantly clear beer. Breathed in as dry dust, it can damage your lungs for good.",
+ "standfirst": "Kieselguhr filters are still common in breweries because they work well. The powder itself needs respect. Here is how DE filtration works, why the dust is dangerous and how to run a filter room safely.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "How a DE filter clears beer",
+   "<p>Diatomaceous earth, or kieselguhr, is made from the fossilised silica skeletons of microscopic algae called diatoms. Under a microscope it looks like a heap of tiny sieves. In a filter, it builds a porous cake that traps yeast, protein haze and other particles while beer flows through.</p><p>The filter has two stages. First a precoat, often in two layers totalling around 1 kg per square metre of filter area, builds a base on the screens, leaves or candles. Then body feed, typically in the range of 50 to 150 g per hectolitre depending on how cloudy the beer is, is dosed continuously into the beer. The body feed keeps the cake open so it does not blind. Our guide to <a href=\"beer-filtration-basics.html\">beer filtration basics</a> compares DE with other methods.</p>"
+  ],
+  [
+   "Why the dust is dangerous",
+   "<p>Natural DE is mostly amorphous silica. Most filter grades are calcined, which means heated to high temperature. The flux-calcined grades used for faster flow can contain a significant share of crystalline silica in the form of cristobalite. Crystalline silica dust is a recognised cause of silicosis, a permanent scarring of the lungs. The International Agency for Research on Cancer classifies it as a human carcinogen.</p><p>The danger comes from fine, dry, airborne particles. Once DE is wet it is far less hazardous. So most of the safety work is about stopping dust forming and stopping people breathing it.</p>"
+  ],
+  [
+   "Handling that keeps dust down",
+   "<p>The highest risk moments are opening bags, tipping powder into the dosing tank and cleaning out spent cake that has dried. Good practice:</p><ul><li>Read the safety data sheet for your grade. It states the crystalline silica content and the protection needed.</li><li>Open and empty bags slowly, close to the water surface of the mixing tank.</li><li>Use local exhaust ventilation at the dosing point if you can.</li><li>Never sweep dry DE or blow it off with compressed air. Wet it and wash it, or use a vacuum with a suitable filter.</li><li>Keep spent cake wet until it leaves the site.</li></ul>"
+  ],
+  [
+   "Personal protective equipment",
+   "<p>Anyone handling dry powder should wear a properly fitted respirator rated for fine particles, at least FFP3 or P3 class, plus eye protection and gloves. A loose dust mask from a hardware shop is not enough. Respirators need fit testing and replacement filters on schedule. Beards break the seal.</p><p>Train everyone who works near the filter, not only the operator. In a small brewery the person cleaning the floor afterwards can be the one most exposed.</p>"
+  ],
+  [
+   "Running the filter well",
+   "<p>Filter cold, close to 0 °C, so chill haze forms and is caught. Watch differential pressure across the filter. A steady rise is normal. A sudden jump means the cake is blinding and the run is ending. Stop at the maker's maximum differential pressure rather than forcing more beer through.</p><p>Deaerate the water used for precoating and pushing beer out, or the filter becomes an oxygen pickup point. Keep the filter and dosing tank on your cleaning schedule. Our guide to <a href=\"keg-washing-and-filling.html\">keg washing and filling</a> follows the beer the next step downstream.</p>"
+  ],
+  [
+   "Disposal and alternatives",
+   "<p>Spent DE is a waste that needs managing. Keep it wet, store it covered and dispose of it through an approved route. Rules on industrial waste in India are set and enforced at state level by the pollution control boards. They change, so check what your board requires. Some breweries send spent cake for use in composting or construction materials where that is permitted.</p><p>If dust control is impractical in your building, consider alternatives: sheet filters, cartridge filters, crossflow membranes or simply cold conditioning with finings and a centrifuge. Each has its own trade-offs in cost and clarity.</p>"
+  ],
+  [
+   "Walk your filter room this week",
+   "<p>Stand where the bags are opened and look for dust on surfaces and ledges. Check that the safety data sheet is on site, that respirators fit the people who wear them and that spent cake is kept wet. If you find dry dust anywhere, that is the first thing to fix.</p><p>Then write down your filter routine as a one-page procedure: who mixes the precoat, what they wear, how the bags are opened, how spent cake is handled and where it goes. Post it in the filter room. A written routine is what keeps the safe way going when the usual operator is on leave and someone new is asked to run the filter on a busy Saturday.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is diatomaceous earth dangerous?",
+   "Dry DE dust can be. Calcined filter grades can contain crystalline silica, which causes lung damage when inhaled. Wet DE is far less hazardous."
+  ],
+  [
+   "What respirator should I wear for DE?",
+   "A properly fitted respirator rated FFP3 or P3 for fine particles, with eye protection and gloves. Check the safety data sheet for your grade."
+  ],
+  [
+   "How do I dispose of spent DE?",
+   "Keep it wet, store it covered and use an approved disposal route. Check your state pollution control board's current rules."
+  ]
+ ],
+ "cta": {
+  "title": "Run your filter for clarity and safety together",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers filtration, colloidal stability, oxygen control and safe plant operation, so your beer is bright and your team stays healthy.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-filtration-basics",
+  "keg-washing-and-filling",
+  "beer-stone-build-up-in-tanks-and-how-to-remove-it-safely"
+ ]
+}

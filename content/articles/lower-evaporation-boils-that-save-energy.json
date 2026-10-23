@@ -1,0 +1,71 @@
+{
+ "slug": "lower-evaporation-boils-that-save-energy",
+ "cat": "Brewing science",
+ "h1": "Lower evaporation boils that save energy",
+ "title": "Lower Evaporation Boils That Save Energy | Craft Beer School",
+ "desc": "How breweries cut boil evaporation to save energy without DMS or poor hot break, plus what to measure first.",
+ "teaser": "Boiling off 10% of your wort costs real money. Modern brewhouses manage with half that. Here is what to watch if you try.",
+ "standfirst": "The boil does several jobs, but evaporation itself is not one of them. Many breweries can cut evaporation and save energy, as long as they protect the jobs the boil was really doing.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the boil is really for",
+   "<p>The boil sterilises wort, isomerises hop alpha acids, coagulates proteins into hot break, drives off unwanted volatile compounds and concentrates wort. Of these, only concentration needs a lot of evaporation. Most breweries can adjust gravity in the mash instead.</p><p>The volatile compound that matters most is dimethyl sulphide, DMS, which smells of sweetcorn or cooked vegetables. Driving it off needs some evaporation and a vigorous boil. That is the main limit on how low evaporation can go.</p>"
+  ],
+  [
+   "How much evaporation is typical",
+   "<p>Traditional brewhouses often boiled off 8 to 12% of wort volume per hour, sometimes more. Many modern brewhouses with efficient kettles achieve the boil's goals with total evaporation of around 4 to 6%. The difference is energy: every litre not evaporated saves about 2.26 MJ.</p><p>For a 1,000 litre batch, cutting evaporation from 10% to 5% saves 50 litres of boil off, about 113 MJ or roughly 31 kWh per brew. Over a few hundred brews a year, that adds up. Our guide to <a href=\"boil-evaporation-rate.html\">boil evaporation rate</a> covers measuring yours.</p>"
+  ],
+  [
+   "DMS sets the floor",
+   "<p>DMS forms from S-methylmethionine (SMM) in malt when wort is heated. SMM converts to DMS throughout the boil and whirlpool. Free DMS escapes with the steam, but DMS formed in the whirlpool, after the boil, stays in the wort.</p><p>So reducing evaporation needs care with pale, lightly kilned malts such as Pilsner malt, which carry more SMM. Rice and maize adjuncts, common in Indian lagers, carry little SMM and dilute it. Keep whirlpool times short and cool wort promptly. Our guide to <a href=\"dms-in-pale-lager-and-how-boil-vigour-keeps-it-down.html\">DMS in pale lager</a> explains the chemistry.</p>"
+  ],
+  [
+   "Vigour matters more than volume",
+   "<p>A rolling boil with good circulation strips volatiles and forms hot break better than a long, gentle simmer. Kettles with internal or external heaters, sometimes called calandrias, circulate wort strongly and can achieve good results at low evaporation.</p><p>Some brewhouses use a short, vigorous boil followed by wort stripping, where hot wort flows over a column or under reduced pressure to remove volatiles after the boil. These systems need investment but can cut evaporation significantly.</p>"
+  ],
+  [
+   "Hot break and hop utilisation",
+   "<p>Hot break forms through protein coagulation, which depends on temperature, time and agitation more than evaporation. A strong boil for 60 minutes generally forms good break even at low evaporation. Check break quality in a sample: clear wort with large flocs is the goal.</p><p>Hop isomerisation depends on temperature and time, not evaporation. Cutting evaporation does not reduce bitterness directly. It can slightly change final gravity, which changes perceived balance, so retest your recipes after changes.</p>"
+  ],
+  [
+   "Trialling a lower evaporation boil",
+   "<p>Reduce evaporation in steps, not in one jump:</p><ol><li>Measure your current evaporation rate over several brews.</li><li>Reduce heat input to cut evaporation by 1 to 2 percentage points.</li><li>Check DMS on finished beer by taste and by lab analysis if you can.</li><li>Check hot break, clarity and flavour stability.</li><li>If all is well, repeat.</li></ol><p>Adjust your mash and sparge volumes so pre boil volume and gravity still hit the target post boil. Otherwise you will end up with more, weaker wort.</p>"
+  ],
+  [
+   "Watching flavour stability",
+   "<p>Changes to boiling can affect flavour stability, the way a beer ages in the package. A weaker boil may leave more of some precursors that later contribute to stale flavours. It may also change how much protein stays in the wort, which affects haze over time.</p><p>Track finished beer more closely during trials. Store packs from trial and control batches warm, at around 30 °C, for a few weeks and compare them blind. A triangle test, as covered in our guide to <a href=\"running-triangle-tests-in-a-brewery-lab.html\">running triangle tests</a>, shows whether tasters can tell the two apart.</p><p>Indian distribution often exposes beer to heat for long periods, so stability carries extra weight here. A boil change that saves energy but shortens shelf life in a hot supply chain is a poor trade. Run forcing tests as well as fresh tasting before you adopt a lower evaporation boil for all brews.</p>"
+  ],
+  [
+   "Saving energy without losing beer quality",
+   "<p>The aim is the lowest evaporation that still gives clean, stable beer. That number depends on your kettle, malt and recipes. Only trials show where it lies.</p><p>Balancing energy, chemistry and flavour this way is the kind of process thinking we build on the advanced course.</p><p>Your first step: measure your evaporation rate on your next three brews so you know your starting point.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much evaporation does a boil need?",
+   "Many modern brewhouses manage with total evaporation of around 4 to 6%, though the right figure depends on kettle design, malt and recipe."
+  ],
+  [
+   "Does reducing evaporation cause DMS?",
+   "It can, especially with pale malts high in SMM. Keep the boil vigorous, whirlpool short and test finished beer for DMS."
+  ],
+  [
+   "Does a lower evaporation boil reduce hop bitterness?",
+   "Not directly. Isomerisation depends on temperature and time rather than evaporation, though gravity changes can affect perceived balance."
+  ]
+ ],
+ "cta": {
+  "title": "Cut energy without cutting quality",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers wort boiling chemistry, DMS control and brewhouse efficiency so you can trial changes safely.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "boil-evaporation-rate",
+  "beer-spoilage-bacteria-that-survive-hops-and-how-to-find",
+  "reduced-hop-extracts-that-stop-clear-bottled-beer-turning"
+ ]
+}

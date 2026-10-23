@@ -1,0 +1,67 @@
+{
+ "slug": "beer-packaging-materials-explained-for-sustainability-teams",
+ "cat": "Beer for teams",
+ "h1": "Beer packaging materials explained for sustainability teams",
+ "title": "Beer Packaging Materials for ESG Teams | Craft Beer School",
+ "desc": "Glass, cans, kegs, crowns, labels and cartons: what each beer pack is made of, where its footprint sits and what sustainability teams can change.",
+ "teaser": "For most beer companies, packaging is a big slice of the carbon footprint. Here is what each material does and where the levers are.",
+ "standfirst": "A bottle of beer is mostly water in a glass container with a steel cap and a paper label, packed in a carton or crate. Each material has its own footprint, recycling route and constraints from the brewery floor. Sustainability teams need to understand all three before setting targets.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Packaging is usually the heaviest part of the footprint",
+   "<p>When beer companies measure their carbon footprint across the value chain, packaging often comes out as one of the largest contributors, frequently larger than the brewery's own energy use. Glass is made by melting sand, soda ash and limestone at high temperature. Aluminium for cans comes from energy intensive smelting, unless recycled metal is used. These emissions sit mainly in Scope 3, the supplier part of the footprint. Our guide to <a href=\"scope-3-emissions-in-beer-for-sustainability-reporting-teams.html\">Scope 3 emissions in beer</a> explains how they are counted.</p><p>The beer itself is light on materials by comparison. Malt, hops and water matter, but the container that carries a litre of beer often weighs a substantial fraction of the beer it holds.</p>"
+  ],
+  [
+   "Glass bottles and why returnable glass matters in India",
+   "<p>Glass is inert, protects beer well when brown and is recyclable. It is also heavy, which raises transport emissions. Brown glass blocks most of the light that causes the skunky lightstruck flavour in beer. Green and clear glass block much less of it.</p><p>In India, much beer is sold in 650 ml returnable bottles. These are collected, washed, inspected and refilled several times before they break or are rejected. Each extra trip spreads the footprint of making the bottle over more fills. Returnable bottles are heavier than one-way bottles so they survive repeated handling, which means the system only pays off if bottles actually come back. Washing also uses water, caustic and heat. Our guide on <a href=\"returnable-glass-bottles-in-indian-beer-and-why-they-matter.html\">returnable glass bottles</a> covers the operations side.</p>"
+  ],
+  [
+   "Cans, kegs and the case for refill",
+   "<p>Aluminium cans are light, stack well, chill quickly and block light completely. Aluminium can be recycled repeatedly without losing quality. Recycled aluminium needs far less energy than new metal. The footprint of a can depends heavily on its recycled content and on whether it is collected after use. Cans have an internal coating so the beer does not touch the metal.</p><p>Kegs are the most material efficient way to move beer. A stainless steel keg can be refilled for many years. For draught beer in bars and taprooms, the packaging footprint per litre is very small compared with bottles or cans, although kegs need cleaning, return logistics and a cold chain.</p>"
+  ],
+  [
+   "Crowns, labels, cartons and film",
+   "<p>The smaller materials add up. Crown caps are tinplate or steel with a liner that seals the bottle and limits oxygen getting in. Labels are paper or film, stuck with glue that must wash off in a returnable bottle washer. Cartons and dividers are corrugated board. Multipacks may use shrink film or paperboard sleeves. Pallets are wood or plastic with stretch wrap.</p><p>Each of these offers a lever: lighter board, recycled fibre, less film, glues that release cleanly so labels can be recycled. They also carry constraints. A label that does not wash off cleanly clogs the bottle washer. A carton that is too light collapses in a humid monsoon warehouse. Changes need a trial on the line, as our guide on <a href=\"artwork-change-workflow-for-beer-packaging-teams.html\">artwork changes</a> explains for labels.</p>"
+  ],
+  [
+   "Brewery constraints that limit the options",
+   "<p>Sustainability teams sometimes propose a material change that looks good on paper and fails on the floor. A few constraints to check early:</p><ul><li><strong>Oxygen.</strong> Packaging must keep oxygen out. A crown liner or can end that lets more in shortens shelf life.</li><li><strong>Light.</strong> Moving from brown to clear glass invites lightstruck flavour unless the beer is specially formulated.</li><li><strong>Pressure and pasteurisation.</strong> Containers must handle carbonation pressure and, for pasteurised beer, heat in a tunnel pasteuriser around 60 °C.</li><li><strong>Line speed.</strong> A lighter bottle or new label may run more slowly or jam more often.</li><li><strong>Regulation.</strong> Labels must keep mandatory information. Some changes need state excise label approval.</li></ul>"
+  ],
+  [
+   "Where to start measuring",
+   "<p>The most useful starting metric is packaging weight per hectolitre of beer sold, split by pack type. It is easy to calculate from purchase data and sales volume. It moves when packs get lighter or when the mix shifts towards kegs or returnables. For returnable glass, add average trips per bottle. For cans, add recycled content from the supplier.</p><p>As an illustration, if a returnable bottle that weighs several hundred grams makes ten trips, its glass footprint per fill is roughly a tenth of a single-use bottle of the same weight. If losses cut the average to five trips, the advantage halves. The exact numbers will depend on your bottles. The sensitivity to trips is the point.</p><p>A first step: pull one year of packaging purchases by material and divide by hectolitres sold. That single table will show where the weight really sits. The emissions usually follow it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which beer packaging has the lowest footprint?",
+   "Refillable kegs usually have the lowest packaging footprint per litre, followed by returnable glass that makes many trips. The ranking depends on trips, recycled content and transport."
+  ],
+  [
+   "Why is beer sold in brown bottles?",
+   "Brown glass blocks most of the light that causes lightstruck, skunky flavour in beer. Green and clear glass give much less protection."
+  ],
+  [
+   "Are aluminium cans sustainable?",
+   "Aluminium recycles well and recycled metal needs far less energy than new metal. The footprint depends on recycled content and collection rates."
+  ],
+  [
+   "Can breweries switch packaging materials easily?",
+   "Not always. Oxygen protection, light, pressure, line speed and label regulations all limit the options, so changes need trials."
+  ]
+ ],
+ "cta": {
+  "title": "Give your sustainability team the brewery context behind the targets",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that show why packaging choices change the beer.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "cans-bottles-crowns-and-labels-packaging-for-procurement",
+  "scope-3-emissions-in-beer-for-sustainability-reporting-teams",
+  "artwork-change-workflow-for-beer-packaging-teams"
+ ]
+}

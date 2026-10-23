@@ -1,0 +1,71 @@
+{
+ "slug": "wine-and-champagne-yeast-in-high-gravity-beer",
+ "cat": "Ingredients",
+ "h1": "Wine and champagne yeast in high-gravity beer",
+ "title": "Wine and Champagne Yeast in Strong Beer | Craft Beer School",
+ "desc": "When champagne yeast helps a strong beer and when it does nothing, the maltotriose problem, killer strains plus better ways to finish a big beer.",
+ "teaser": "Champagne yeast will not rescue a stuck barleywine. It can still be useful at bottling, if you know its limits.",
+ "standfirst": "Brewers reach for champagne yeast when a strong beer stops short. It often fails, because wine yeast cannot eat the sugars left behind. Knowing what wine yeast can and cannot do saves a tank and a lot of waiting.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Wine yeast is built for grape sugar",
+   "<p>Grape juice is mostly glucose and fructose. Wine yeasts, including champagne strains such as Lalvin EC-1118, are selected to ferment those simple sugars to high alcohol, often to around 18% ABV, in a low pH, high sugar environment.</p><p>Wort is different. Its main sugar is maltose, followed by maltotriose and unfermentable dextrins. Many wine yeasts ferment maltose poorly and maltotriose hardly at all. Brewing yeast evolved in wort. Wine yeast did not.</p>"
+  ],
+  [
+   "It rarely fixes a stuck fermentation",
+   "<p>Picture a barleywine that started at 1.110 and has sat at 1.035 for a week. Pitching champagne yeast feels like the answer. Usually nothing happens, because the sugars still in the beer are mainly maltotriose and dextrins that champagne yeast cannot touch.</p><p>Before adding any yeast, find out what is left. A forced fermentation test, where a sample is held warm with a large dose of fresh yeast, shows the lowest gravity the wort can reach. If the forced test also stops at 1.035, the beer is finished and the mash or recipe set that limit. If the forced test goes lower, the original yeast stopped early, usually from underpitching, low oxygen, a lack of nutrients or alcohol stress.</p>"
+  ],
+  [
+   "Better ways to finish a strong beer",
+   "<p>Prevention beats rescue in high-gravity brewing:</p><ul><li>Pitch more yeast. A big beer needs roughly twice the cells of a normal ale. A common commercial target for strong ales is around 1.5 to 2 million cells per mL per degree Plato.</li><li>Oxygenate well at pitching. Consider a second dose of oxygen early in fermentation for very strong worts.</li><li>Add yeast nutrient and keep fermentation temperature steady.</li><li>Use a brewing strain with good alcohol tolerance.</li><li>Feed simple sugars in stages once fermentation is under way rather than all at the start.</li></ul><p>If a beer truly stalls, repitching an actively fermenting brewing yeast from a starter works far more often than a dry wine strain. Our guide to <a href=\"making-a-yeast-starter.html\">making a yeast starter</a> covers that step.</p>"
+  ],
+  [
+   "Where wine yeast does help",
+   "<p>Champagne yeast earns its place in two jobs. The first is bottle or can conditioning a beer that is already high in alcohol. The original yeast may be too tired to carbonate the package, while a wine strain will ferment the added priming sugar in a beer above 10% ABV. The priming sugar is the only sugar it needs, so its weakness with maltotriose does not matter.</p><p>The second is beer that includes grape must or juice, a growing category of grape and beer hybrids. There the wine yeast is fermenting what it was bred for.</p><p>Some brewers prefer a dedicated conditioning yeast instead, such as Lallemand CBC-1, which is selected to carbonate in high alcohol and leave residual sugars alone. That predictability is valuable when you are packaging.</p>"
+  ],
+  [
+   "Rehydrate it and dose it like a brewing yeast",
+   "<p>Dry wine yeast still needs care at bottling. Rehydrate it in clean water at the temperature on the manufacturer's sheet, then acclimatise it by adding small amounts of the beer over 15 to 20 minutes so the cells are not shocked by alcohol and cold at once. Pitch it with the priming sugar and mix well before filling.</p><p>For conditioning, the target is a modest number of healthy cells, commonly in the region of a million cells per mL. Too few and the package carbonates slowly or unevenly. Too many and the sediment thickens. Store conditioned packages at around 20 °C for two weeks, then check carbonation on a sample before releasing the batch.</p>"
+  ],
+  [
+   "Watch out for killer strains",
+   "<p>Many wine yeasts are killer strains. They release a protein toxin that kills sensitive yeasts. Many brewing strains are sensitive. EC-1118 is a killer strain. In a single bottle that does not matter much. In a brewery it does. Killer yeast that reaches a fermenter used for other beers can suppress the brewing yeast in the next batch.</p><p>Treat wine yeasts like any specialist culture: dedicated or thoroughly cleaned kit, no harvesting for reuse and a clear note on the batch record. Check the manufacturer's sheet for killer status before you buy.</p>"
+  ],
+  [
+   "Make the numbers do the deciding",
+   "<p>High-gravity brewing is where small errors grow. A pitch 30% short in a 1.100 wort hurts far more than in a 1.045 one, because the yeast meets more alcohol stress at the end. Track the gravity curve against previous batches. A strong beer that drops slower than usual on day two is warning you while there is still time to act.</p><p>For your next big beer, run a forced fermentation test on a wort sample on brew day. Write the result on the brew sheet as the target final gravity. Then you will know whether a stall is a problem or simply the beer finishing where it was always going to.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Will champagne yeast restart a stuck beer?",
+   "Usually not. Champagne yeast ferments maltotriose poorly. That is often what remains in a stalled strong beer."
+  ],
+  [
+   "Can I bottle condition with champagne yeast?",
+   "Yes. It is a common way to carbonate beers above about 10% ABV, because it only needs to ferment the priming sugar."
+  ],
+  [
+   "What is a killer yeast?",
+   "A strain that releases a toxin harmful to sensitive yeasts. Many wine yeasts, including EC-1118, are killer strains."
+  ],
+  [
+   "How do I know if my strong beer is finished?",
+   "Run a forced fermentation test on a sample. If it stops at the same gravity as the tank, the beer is done."
+  ]
+ ],
+ "cta": {
+  "title": "Brew strong beer that finishes where you planned",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers yeast physiology, pitch rates, oxygen, nutrients and the tests that tell a finished beer from a stuck one.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "ale-vs-lager-yeast",
+  "dry-yeast-vs-liquid-yeast",
+  "making-a-yeast-starter"
+ ]
+}

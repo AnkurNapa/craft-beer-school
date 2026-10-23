@@ -1,0 +1,63 @@
+{
+ "slug": "beer-brand-health-tracking-for-insights-teams",
+ "cat": "Beer for teams",
+ "h1": "Beer brand health tracking for insights teams",
+ "title": "Beer Brand Health Tracking for Insights | Craft Beer School",
+ "desc": "How brand health tracking works for beer: the funnel measures, sample sizes, legal age rules and how to read movement honestly.",
+ "teaser": "A beer brand health tracker that moves three points a month is mostly measuring noise. Know your sample before you celebrate.",
+ "standfirst": "Brand health trackers measure how consumers see a brand over time. In beer, advertising rules, legal drinking ages and strong seasonality shape what a tracker can tell you. This guide covers the measures and how to read them.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A tracker follows the brand funnel",
+   "<p>A brand health tracker is a survey run at regular intervals, monthly or quarterly, with the same questions each wave. Most follow a funnel from first awareness to regular use. The usual measures are:</p><ul><li><strong>Unaided awareness:</strong> brands named without a prompt when asked about beer.</li><li><strong>Aided awareness:</strong> brands recognised from a list or a picture.</li><li><strong>Consideration:</strong> brands the person would consider buying.</li><li><strong>Past three months use:</strong> brands bought or drunk recently.</li><li><strong>Brand used most often:</strong> the one main brand.</li></ul><p>Conversion between stages is often more useful than any single stage. A brand with high awareness but low consideration has an image problem. A brand with high consideration but low recent use often has an availability or price problem.</p>"
+  ],
+  [
+   "Who you ask decides what you learn",
+   "<p>A beer tracker can only include adults of legal drinking age. That age varies by Indian state. The sample must respect the rules of each state it covers. It should also screen for people who actually drink beer, or at least alcohol, because asking non-drinkers about beer brand preference adds noise.</p><p>Define the sample carefully and keep it stable. If the screener changes, from \"drank beer in the past month\" to \"drank beer in the past three months\", every measure moves even though the brand did not. City mix matters too. A tracker that adds two new cities one quarter will shift the totals, so report like for like cities alongside the total.</p>"
+  ],
+  [
+   "Sample size sets the noise floor",
+   "<p>Every survey number has a margin of error. For a measure near 50%, a random sample of 400 gives a margin of error of about plus or minus 5 percentage points at 95% confidence. With 1,000 people, it is about plus or minus 3 points.</p><p>So with 400 respondents per wave, a move from 42% to 46% consideration is within the noise. It may be real. It may not. Insights teams should show the margin on every chart and look for movement sustained over several waves before calling a trend. Splitting the sample by city, age group and gender cuts each cell smaller and makes the noise bigger. A cell of 100 people has a margin of nearly plus or minus 10 points.</p>"
+  ],
+  [
+   "Beer brings its own context",
+   "<p>Direct alcohol advertising is not permitted in India. Brand awareness for beer is therefore built through permitted brand extensions, on trade presence, packaging, events and word of mouth. A tracker that only asks about advertising recall will undercount how people actually meet beer brands. Ask where they last saw or drank the brand.</p><p>Beer is also seasonal. Consumption rises in the hot months, so recent use and brand used most often can move with the weather. Compare each wave with the same period last year, not only the previous wave. Our guide to <a href=\"reading-beer-market-share-and-retail-audit-data-for.html\">reading beer market share and retail audit data</a> shows how to check survey trends against what is actually selling.</p>"
+  ],
+  [
+   "Image measures need beer language",
+   "<p>Most trackers ask people to link brands with statements such as \"refreshing\", \"premium\" or \"good value\". These work best when the statements match how drinkers actually talk about beer. In beer that means words like smooth, strong, light, bitter, fresh and easy to drink.</p><p>It also helps if the insights team knows what drives those perceptions on the product side. \"Smooth\" is often linked to low bitterness and good carbonation. \"Strong\" can mean alcohol content or simply a heavier body. When an image score drops, the cause may be in the glass, such as a recipe change, a freshness problem in a region or warm storage in the trade. Linking tracker data to quality and freshness data is where the useful insight usually sits.</p><p>That link is rarely built, because insights, quality and supply chain sit in different teams with different systems. A simple start is to tag each tracker wave with the average age of the brand's stock in the trade that month, taken from outlet audits. If image scores fall as stock age rises, the problem is freshness in the pipeline, not the advertising.</p>"
+  ],
+  [
+   "Where to start",
+   "<p>Take your latest three waves and add the margin of error to each funnel measure. Strike out every change smaller than the margin. Whatever is left is the honest story.</p><p>Then line those measures up against the same months' sales and retail distribution. Where the tracker and the sales data agree, you have something to act on. Where they disagree, ask whether the sample, the season or the beer itself changed.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does a beer brand health tracker measure?",
+   "Usually unaided and aided awareness, consideration, recent use and brand used most often, plus image statements, repeated every wave."
+  ],
+  [
+   "How big should a brand tracker sample be?",
+   "Big enough that the changes you care about exceed the margin of error. 400 respondents give about plus or minus 5 points on a 50% measure; 1,000 give about 3."
+  ],
+  [
+   "Why is beer brand tracking different in India?",
+   "Direct alcohol advertising is not permitted, legal drinking ages vary by state and beer demand is strongly seasonal, so samples and questions must allow for all three."
+  ]
+ ],
+ "cta": {
+  "title": "Help your insights team connect the tracker to the beer",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "reading-beer-market-share-and-retail-audit-data-for",
+  "beer-industry-explained-for-gcc-teams",
+  "beer-production-planning-basics"
+ ]
+}

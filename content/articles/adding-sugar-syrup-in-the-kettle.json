@@ -1,0 +1,71 @@
+{
+ "slug": "adding-sugar-syrup-in-the-kettle",
+ "cat": "Brewing science",
+ "h1": "Adding sugar syrup in the kettle",
+ "title": "Adding Sugar Syrup in the Kettle | Craft Beer School",
+ "desc": "When to add sugar or syrup to the kettle, how much it raises gravity and the yeast and flavour limits that keep the beer dry rather than thin.",
+ "teaser": "One kilogram of sucrose in 100 litres adds about 1 °P. What it does to the yeast depends on how much you use and which sugar you pick.",
+ "standfirst": "Brewers add sugar to the kettle to lift gravity, dry out a strong beer or replace malt in a light lager. Done well it is invisible. Done carelessly it leaves a thin beer and a tired yeast. Here is how to do it well.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why brewers add sugar at all",
+   "<p>Sugar is pure extract with no protein and nothing unfermentable. Swap some malt for sugar and the beer finishes drier and lighter in body at the same alcohol. That is why Belgian tripels and strong golden ales often carry 10 to 20% sugar: the alcohol is high but the beer drinks lighter than its gravity suggests.</p><p>Breweries also use sugar for capacity. A brewhouse that runs short of mash tun space can hit a higher gravity by adding syrup to the kettle. In India, cane sugar and liquid syrups are easy to buy, so the option is always there. The question is when it helps and when it hurts.</p>"
+  ],
+  [
+   "How much gravity a kilogram adds",
+   "<p>Sucrose adds about 46 gravity points per pound per US gallon. In metric terms, 1 kg of sucrose dissolved into 100 litres of wort raises the gravity by roughly 1 °P, about four gravity points. Dextrose (glucose monohydrate) gives a little less because it carries water of crystallisation.</p><p>Liquid syrups need one extra step. A syrup is sold by its solids content, in °Brix. A 65 °Bx syrup is about 65% sugar by weight, so 10 kg of it brings about 6.5 kg of sugar. Work out the solids first, then use the 1 kg per 100 L rule. If you are scaling a recipe, our <a href=\"ankur-napa-free-brewing-tools.html\">free brewing tools</a> include gravity and dilution calculators.</p>"
+  ],
+  [
+   "When to add it and how",
+   "<p>Add sugar in the last 10 to 15 minutes of the boil. That is long enough to dissolve and sterilise it, short enough to avoid extra colour from browning reactions. Our guide to <a href=\"maillard-reactions-in-the-kettle-and-what-they-add-to-beer.html\">Maillard reactions in the kettle</a> explains why long boils darken sugary wort.</p><p>Dissolve granulated sugar in hot wort or water first, or turn off the heat and stir hard while you add it. Dry sugar that sinks to a direct-fired kettle bottom scorches in seconds. With a steam-jacketed kettle the risk is lower, but a sticky layer on the heating surface still fouls it.</p><p>One knock-on effect: higher boil gravity lowers hop utilisation slightly. If the sugar goes in early, adjust your bittering. If it goes in late, the effect on bitterness is small.</p>"
+  ],
+  [
+   "What sugar does to the yeast",
+   "<p>Brewing yeast ferments glucose, fructose and sucrose before maltose. It splits sucrose outside the cell with the enzyme invertase, then takes up the glucose and fructose. That is fine at modest doses.</p><p>The trouble comes at high doses of glucose. A wort rich in glucose can repress the yeast's maltose uptake, so the yeast finishes the easy sugars then slows on the maltose. Repeat that across generations and some brewers see attenuation drift. Keep sugar to roughly 20% of the extract or less in most beers. Sugar also dilutes free amino nitrogen and zinc, so a sugar-heavy wort needs good oxygen and a healthy pitch.</p>"
+  ],
+  [
+   "Choosing the sugar",
+   "<p>Each sugar does a slightly different job:</p><ul><li><strong>Sucrose</strong> (white cane sugar) is neutral, cheap and fully fermentable.</li><li><strong>Dextrose</strong> is neutral too, but use less of it in one go because of the repression risk above.</li><li><strong>Invert syrup</strong> is sucrose already split into glucose and fructose. Darker inverts add toffee and dried fruit flavour.</li><li><strong>High maltose syrups</strong> from rice or maize behave more like malt wort and are popular for light lagers.</li><li><strong>Jaggery</strong> brings molasses and caramel notes. Its composition varies by batch, so measure gravity rather than trusting a rule.</li></ul>"
+  ],
+  [
+   "Worked example for a 1,000 litre batch",
+   "<p>Say you brew a 1,000 litre tripel and want 18 °P in the fermenter, with sugar providing 15% of the extract. Total extract needed is roughly 18 x 10 = 180 kg-equivalents of sucrose on the 1 kg per 100 L rule. Fifteen per cent of that is about 27 kg of sucrose. The other 85% comes from malt in the mash.</p><p>If the sugar comes as a 65 °Bx syrup instead, divide 27 by 0.65 and you need about 42 kg of syrup. Weigh it, do not measure it by volume: a litre of thick syrup weighs well over a kilogram. Check the kettle gravity after the addition and adjust the final volume with hot water if you overshoot.</p>"
+  ],
+  [
+   "Know the limits before you scale up",
+   "<p>Sugar is a tool for dryness and capacity, not a shortcut. Add too much and you get a thin, hot beer that ferments fast but tastes empty. Add it to a weak yeast and the last few points hang. Getting the balance right means understanding sugar spectra, yeast uptake and what a given beer needs.</p><p>Your first step: on your next strong beer, replace 10% of the base malt extract with sucrose added 10 minutes before the end of the boil. Compare the finishing gravity and body with the all-malt version.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much does 1 kg of sugar raise gravity?",
+   "About 1 °P, or four gravity points, in 100 litres of wort for sucrose. Dextrose gives slightly less because it contains water."
+  ],
+  [
+   "When should I add sugar to the kettle?",
+   "In the last 10 to 15 minutes of the boil. That dissolves and sterilises it without adding much colour."
+  ],
+  [
+   "Can too much sugar cause a stuck fermentation?",
+   "It can. High glucose levels can slow maltose uptake and sugar dilutes yeast nutrients, so keep it to about 20% of the extract or less."
+  ],
+  [
+   "Is jaggery good for brewing?",
+   "It can add molasses and caramel notes, but its sugar content varies by batch. Measure the gravity it gives rather than relying on a fixed rule."
+  ]
+ ],
+ "cta": {
+  "title": "Use sugar on purpose, not by habit",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers wort composition, sugar spectra and yeast metabolism so you can design strong and light beers that finish where you plan.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "kettle-souring-at-home",
+  "maillard-reactions-in-the-kettle-and-what-they-add-to-beer",
+  "the-science-of-krausening-and-when-it-beats-priming-sugar"
+ ]
+}

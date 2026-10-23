@@ -1,0 +1,71 @@
+{
+ "slug": "caustic-acid-and-peracetic-acid-in-brewery-cleaning",
+ "cat": "Brewing science",
+ "h1": "Caustic, acid and peracetic acid in brewery cleaning",
+ "title": "Caustic, Acid and PAA for Brewery CIP | Craft Beer School",
+ "desc": "What caustic, acid and peracetic acid each do in a brewery cleaning cycle, the usual strengths and temperatures plus the safety rules.",
+ "teaser": "Caustic removes the dirt, acid removes the stone and peracetic acid kills what is left. Mix up the jobs and you clean nothing.",
+ "standfirst": "Brewery cleaning rests on three chemicals with three different jobs. Knowing what each one removes, how strong to make it and where it can hurt you is the base of every hygiene programme.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Cleaning and sanitising are different jobs",
+   "<p>Cleaning removes soil. Sanitising kills the microbes left on a clean surface. A sanitiser cannot work through a layer of protein or yeast, because the soil protects the cells beneath it. So the order never changes: clean first, then sanitise.</p><p>In most breweries caustic does the main cleaning, acid removes mineral deposits and peracetic acid sanitises. Each step needs the right strength, temperature and contact time. Our guide to <a href=\"cip-cleaning-in-place.html\">cleaning in place</a> covers the cycle as a whole.</p>"
+  ],
+  [
+   "Caustic for organic soil",
+   "<p>Sodium hydroxide, caustic soda, is the workhorse. It breaks down proteins, hop resins, yeast and caramelised wort. Typical use is around 1 to 3% at 70 to 85 °C in hot vessels such as the kettle, whirlpool and wort lines. Commercial caustic products add wetting agents and chelators to help it penetrate and to stop hard water salts from depositing.</p><p>Caustic has one rule every brewer must know: it reacts with carbon dioxide. Run caustic into a fermenter still full of CO2 and two things happen. The caustic turns into sodium carbonate and loses strength. The gas is absorbed, the pressure drops and a tank can collapse under vacuum. Vent the CO2 out first or clean with acid instead.</p>"
+  ],
+  [
+   "Acid for beerstone and scale",
+   "<p>Caustic does not remove mineral deposits. Beerstone, mostly calcium oxalate bound with protein, builds up in fermenters, bright tanks and heat exchangers. Hard water leaves carbonate scale. Both give bacteria somewhere to hide.</p><p>Acid cleaners based on phosphoric acid, nitric acid or blends of the two dissolve these deposits. Typical strengths are around 0.5 to 2%, used cold or warm depending on the product. Many breweries alternate: caustic every cycle, acid every cycle or every few cycles depending on how fast stone builds. Acid also helps keep stainless steel passive and corrosion resistant.</p><p>For tanks under CO2, an acid clean followed by sanitising is the standard alternative to caustic, because acid does not react with the gas.</p>"
+  ],
+  [
+   "Peracetic acid for sanitising",
+   "<p>Peracetic acid, PAA, is a mixture of peracetic acid, hydrogen peroxide and acetic acid. It kills bacteria, yeast and spores quickly at cold temperatures, which makes it ideal for fermenters, bright tanks and packaging lines. Typical use is in the range of about 100 to 300 ppm with a contact time of several minutes. Follow the label for the product you buy.</p><p>PAA breaks down into acetic acid, water and oxygen. At sanitising strength many brewers drain without a final rinse, but local food rules and the product label decide that. Check strength with test strips or a titration kit rather than trusting a measuring jug.</p>"
+  ],
+  [
+   "Safety rules that are not optional",
+   "<ul><li>Never mix chemicals. Acid and chlorine release chlorine gas. Concentrated PAA with caustic reacts violently.</li><li>Always add chemical to water, never water to chemical.</li><li>Wear eye protection, chemical gloves and an apron when handling concentrates. Caustic causes serious burns and blinds.</li><li>Keep an eyewash station near the chemical store. Running water within reach is the minimum.</li><li>Store acids, alkalis and oxidisers apart, out of direct sun. Concentrated PAA in particular dislikes heat, so keep it in the coolest part of the building in an Indian summer.</li><li>Avoid chlorine on stainless steel. It causes pitting that later harbours bacteria.</li></ul>"
+  ],
+  [
+   "Water and rinsing matter as much as chemical",
+   "<p>Cleaning chemicals are dissolved in water, so water quality affects results. Hard borewell water, common in many Indian breweries, carries calcium and magnesium that react with caustic and leave scale. Chelating additives in commercial caustic products help, but very hard water may justify softening the CIP make up supply.</p><p>Rinsing is the step most often cut short. A pre rinse with water removes loose soil so caustic is not wasted on it. An intermediate rinse after caustic stops caustic and acid meeting inside the tank. The final rinse must leave no chemical behind, which you can confirm by checking pH or conductivity on the last of the rinse water.</p><p>Rinse water carrying chemical residue into beer is a quality failure and a food safety one. A cheap pH strip on the final rinse catches it before the next brew goes in.</p>"
+  ],
+  [
+   "Matching chemical to vessel",
+   "<p>A simple map helps new staff:</p><ul><li><strong>Hot side</strong> (mash tun, kettle, whirlpool, wort lines): hot caustic, acid as needed for scale.</li><li><strong>Cold side under CO2</strong> (fermenters, bright tanks): vent and use caustic, or acid clean under gas, then PAA.</li><li><strong>Heat exchangers</strong>: caustic then acid, with flow above normal process rate.</li><li><strong>Kegs and packaging</strong>: caustic and acid as per machine cycle, PAA or steam to finish.</li></ul><p>Understanding why each chemical works lets you adjust when a vessel will not come clean, rather than doubling the dose and hoping.</p><p>Your first step: write the chemical, strength, temperature and time for each vessel on one page and post it at the CIP set.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I use caustic in a fermenter full of CO2?",
+   "No. Caustic absorbs CO2, losing strength and creating a vacuum that can collapse the tank. Vent the gas first or use an acid clean."
+  ],
+  [
+   "What strength of PAA is used to sanitise brewery tanks?",
+   "Commonly around 100 to 300 ppm with several minutes of contact, but always follow the product label."
+  ],
+  [
+   "Why use acid if caustic already cleans?",
+   "Caustic removes organic soil but not mineral deposits. Acid dissolves beerstone and scale that caustic leaves behind."
+  ],
+  [
+   "Is chlorine safe on stainless steel?",
+   "It is best avoided. Chlorine can pit stainless steel, creating rough spots where bacteria survive cleaning."
+  ]
+ ],
+ "cta": {
+  "title": "Clean with chemistry, not guesswork",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers brewery hygiene, cleaning chemistry and microbiology so you can design cycles that work and prove they did.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cip-cleaning-in-place",
+  "brewery-qc-lab-on-a-budget",
+  "co2-in-the-brewery"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "acidulated-malt-or-lactic-acid-for-mash-ph",
+ "cat": "Brewing science",
+ "h1": "Acidulated malt or lactic acid for mash pH",
+ "title": "Acidulated Malt or Lactic Acid for pH | Craft Beer School",
+ "desc": "How acidulated malt and lactic acid lower mash pH, the 1% rule of thumb, flavour limits and how to choose between them.",
+ "teaser": "Both lower mash pH with lactic acid. One arrives in a sack, the other in a jerrycan.",
+ "standfirst": "Acidulated malt and liquid lactic acid do the same chemical job in the mash. They differ in how precisely you can dose them, how they store and how they fit your rules. Neither is wrong.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Both bring lactic acid to the mash",
+   "<p>Acidulated malt, also called sour malt, is pale malt coated with lactic acid produced by lactic acid bacteria on unhopped wort. Liquid lactic acid is the same acid bought as a solution, usually 80 or 88% strength, made by fermentation or chemical synthesis. In the mash both release lactic acid, which neutralises alkalinity from the water and lowers pH towards the target of about 5.2 to 5.6 at room temperature.</p><p>Our guide to <a href=\"weyermann-acidulated-malt.html\">Weyermann Acidulated Malt</a> covers one widely used product and its spec sheet.</p>"
+  ],
+  [
+   "The 1% rule of thumb for acid malt",
+   "<p>A common rule is that each 1% of acidulated malt in the grist lowers mash pH by about 0.1 units. So 2% might take a mash from 5.6 to 5.4. It is a rough guide. The real effect depends on the water's alkalinity, the other malts and the mash thickness. A mash with very alkaline water may need more. One with soft water and dark malt may need none.</p><p>Most brewers keep acid malt under about 5% of the grist in normal beers. Beyond that, a lactic tang can become noticeable. In sour styles, higher amounts are used deliberately for flavour.</p>"
+  ],
+  [
+   "Liquid lactic acid gives finer control",
+   "<p>Lactic acid is dosed by the millilitre, which makes small corrections easy. It can be added to the mash, to the sparge water or to the hot liquor before brewing. The right dose depends on water alkalinity and grist, so brewers use a water calculator to estimate it and confirm with a pH reading. Our guide to <a href=\"residual-alkalinity-and-how-to-calculate-it.html\">residual alkalinity</a> explains the number that drives the dose.</p><p>Flavour limits apply here too. Lactic acid has a soft, tangy character. Large doses, especially when treating very alkaline borewell water, can taste. When a lot of acid is needed, many brewers switch to phosphoric acid, which is more neutral in flavour, or treat the water before brewing.</p>"
+  ],
+  [
+   "How to choose",
+   "<ul><li><strong>Purity rules.</strong> Breweries following the German purity law cannot add acid directly. Acidulated malt was developed for exactly that reason.</li><li><strong>Precision.</strong> Liquid acid is easier to adjust in small steps. Acid malt doses come in kilograms, so small corrections on a large batch are coarse.</li><li><strong>Consistency.</strong> The acid content of acid malt varies a little between lots. Liquid acid is specified by strength on the label.</li><li><strong>Storage.</strong> Acid malt is grain and must be kept dry. In humid Indian storage it picks up moisture like any other malt. Liquid acid keeps well in a sealed container.</li><li><strong>Handling.</strong> Concentrated lactic acid is corrosive. It needs gloves, eye protection and a labelled, sealed container away from caustic chemicals.</li></ul>"
+  ],
+  [
+   "Sparge water needs attention as well",
+   "<p>Mash pH is only half the story. During sparging, the grain bed loses its buffering as sugars and acids rinse out. Alkaline sparge water can push the pH of the last runnings above about 5.8 to 6.0. At that point husk tannins and silicates extract more easily, giving harsh, astringent flavours. Acidifying sparge water, typically to around pH 5.5 to 6.0 before use, prevents this. Liquid acid is far more practical than acid malt for sparge water, since you cannot add malt to the hot liquor tank.</p>"
+  ],
+  [
+   "A practical approach for most breweries",
+   "<p>The floor detail: dose acid by measured volume with a dedicated measuring jug or syringe. Write the dose on the brew sheet next to the measured mash pH. Without that pairing you cannot refine the dose over time.</p><p>Many craft breweries settle on a mix. A small, fixed percentage of acid malt in the grist handles most of the correction for a given water supply and recipe. Lactic acid fine tunes the mash on the day and treats the sparge water. Others drop acid malt altogether and do everything with liquid acid. Either works if you measure.</p><p>Where things go wrong is when the water changes and the acid dose does not. A borewell can vary through the year. A tanker supply can change from one delivery to the next. Without regular water testing, a fixed acid dose drifts out of step.</p><p>Your first step: test your brewing water's alkalinity this week, then run your usual recipe through a water calculator and compare the predicted pH with what you actually measure at room temperature. The gap tells you how much to trust the calculator next time.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much does acidulated malt lower mash pH?",
+   "A common rule of thumb is about 0.1 pH units per 1% of the grist. The actual effect depends on water alkalinity and the rest of the grist."
+  ],
+  [
+   "Is acidulated malt the same as adding lactic acid?",
+   "Chemically, yes. Both bring lactic acid to the mash. Acid malt suits purity rules, while liquid acid offers finer control."
+  ],
+  [
+   "How much acidulated malt is too much?",
+   "Most brewers stay under about 5% in normal beers to avoid a noticeable tang. Sour beers use more on purpose."
+  ],
+  [
+   "Can I use acidulated malt to treat sparge water?",
+   "Not practically. Liquid lactic or phosphoric acid is used to acidify sparge water before it goes onto the grain bed."
+  ]
+ ],
+ "cta": {
+  "title": "Treat water and mash pH with confidence",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers water chemistry, residual alkalinity, acid choices and how to measure the result, so you can adapt when your water supply changes.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-ph-explained",
+  "measuring-mash-ph-at-room-temperature-or-mash-temperature",
+  "enzymes-in-the-mash"
+ ]
+}

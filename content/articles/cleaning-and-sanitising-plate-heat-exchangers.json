@@ -1,0 +1,71 @@
+{
+ "slug": "cleaning-and-sanitising-plate-heat-exchangers",
+ "cat": "Brewing science",
+ "h1": "Cleaning and sanitising plate heat exchangers",
+ "title": "Cleaning Plate Heat Exchangers | Craft Beer School",
+ "desc": "How to clean and sanitise a brewery plate heat exchanger: flow, chemicals, back flushing, opening it up and testing for leaks.",
+ "teaser": "The heat exchanger touches every litre of wort on its way to the fermenter. Clean it badly and you infect every batch.",
+ "standfirst": "A plate heat exchanger packs a large surface into narrow channels. That makes it efficient at cooling wort and hard to clean. Here is a routine that keeps it free of soil, stone and the bacteria that live in both.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the heat exchanger is a hygiene hot spot",
+   "<p>Wort leaves the whirlpool near boiling and is effectively sterile. It reaches the fermenter at 10 to 20 °C through the plate heat exchanger. Any microbe living in those plates goes straight into cooled, sugar rich wort that is ideal for growth. The heat exchanger is often the last point where wort can pick up contamination before yeast is pitched.</p><p>The channels are narrow and the plates are pressed into ridged patterns to create turbulence. That helps heat transfer and also gives protein, hop debris and beerstone plenty of places to settle.</p>"
+  ],
+  [
+   "Clean straight after every brew",
+   "<p>Soil is easiest to remove while it is fresh and warm. Wort residues left overnight dry onto the plates and become much harder to shift. Make cleaning part of knockout, not a job for later.</p><p>A sound routine looks like this:</p><ol><li>Push out the remaining wort with hot water.</li><li>Rinse until the water runs clear.</li><li>Circulate caustic, typically around 2% at 75 to 85 °C, for 20 to 30 minutes.</li><li>Rinse until the pH matches the supply water.</li><li>Circulate acid regularly, often weekly or every few brews, to remove beerstone and scale.</li><li>Rinse, then sanitise before the next use.</li></ol>"
+  ],
+  [
+   "Flow higher than process flow",
+   "<p>The cleaning flow must be higher than the flow used during knockout. If wort ran at 10 hl/h, clean at a noticeably higher rate, often around one and a half times process flow or as the manufacturer advises. Higher velocity creates the scrubbing turbulence the narrow channels need.</p><p>Reverse the flow direction for part of the cycle as well. Back flushing pushes out hop particles and trub that lodge at the inlet ports, where the incoming wort first meets the plates. Many small breweries skip this because it needs extra valves or hose changes. It is worth setting up.</p>"
+  ],
+  [
+   "Sanitising before knockout",
+   "<p>A heat exchanger cleaned yesterday has had a night to pick up airborne microbes and condensation. Sanitise it immediately before use. Two common methods:</p><ul><li><strong>Hot water.</strong> Recirculate water at 85 °C or above for around 20 to 30 minutes through the wort side. Simple, chemical free and effective, as long as the temperature holds at the outlet.</li><li><strong>Chemical.</strong> Circulate peracetic acid at the product's recommended strength, then drain. Useful when hot water capacity is short.</li></ul><p>Many brewers send hot wort through the plates at the start of knockout and divert the first portion to drain. That helps, but it does not replace a proper sanitising step.</p>"
+  ],
+  [
+   "Opening it up",
+   "<p>CIP alone does not keep a plate heat exchanger clean forever. Soil builds where flow is weakest. You cannot see it with the frame closed. Open and inspect the plates on a schedule, for example every few months or more often if cleaning results slip.</p><p>Look for brown protein film, white or grey beerstone and damaged or hardened gaskets. Clean plates by hand with a soft brush and suitable chemical. Never use wire brushes or abrasive pads, which scratch stainless steel. Note the plate order before you dismantle it. Reassembling plates in the wrong sequence is a common and expensive mistake.</p>"
+  ],
+  [
+   "Testing for leaks",
+   "<p>Plates can develop pinholes or cracks from corrosion, pressure shocks or fatigue. A pinhole lets cooling water or glycol cross into the wort side, or wort into the coolant. Either way you risk contamination you will struggle to trace.</p><p>Pressure test the wort side periodically with the coolant side drained and open. A drop in held pressure suggests a leak. Dye penetrant testing on opened plates finds cracks you cannot see. Our guide to <a href=\"sizing-a-plate-heat-exchanger-for-your-brewhouse-wort.html\">sizing a plate heat exchanger</a> covers the design side.</p>"
+  ],
+  [
+   "Gaskets and the cooling side",
+   "<p>Gaskets are the weak point of most plate heat exchangers. They sit in grooves where soil collects and they age with every hot clean. Hardened, cracked or flattened gaskets let wort seep into spaces CIP cannot reach. They can also leak between the wort and cooling sides.</p><p>Replace gaskets when inspection shows damage, not on a fixed date alone. Keep a spare set for each unit, because a heat exchanger that cannot be closed stops brewing.</p><p>The cooling side needs attention too. Borewell water used as the first cooling stage often carries enough hardness to scale the plates. Scale reduces heat transfer, so knockout takes longer and wort sits warm for longer before pitching. An acid clean on the water side once or twice a year, or softened cooling water, keeps knockout times steady. Log knockout time and outlet temperature on every brew. A slow climb in either is an early sign of fouling.</p>"
+  ],
+  [
+   "Checking that it worked",
+   "<p>The real test is microbiological. Take a sample of wort from the fermenter inlet just after knockout and plate it, or hold a sample warm for a few days and watch for signs of spoilage. Swab inlet and outlet ports after cleaning. A clean heat exchanger gives wort that stays clean.</p><p>Building checks like these into a weekly routine is the difference between hoping and knowing, which we cover in depth on the advanced course.</p><p>Your first step: after your next knockout, measure the cleaning flow rate and compare it with the knockout flow. If it is lower, fix that first.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How often should a plate heat exchanger be cleaned?",
+   "After every brew with caustic, with an acid clean regularly and a manual inspection every few months or whenever results slip."
+  ],
+  [
+   "What temperature sanitises a plate heat exchanger?",
+   "Recirculating water at 85 °C or above for around 20 to 30 minutes, measured at the outlet, is a common approach."
+  ],
+  [
+   "Why back flush a plate heat exchanger?",
+   "Reversing flow pushes out hop debris and trub that lodge at the inlet ports, where normal flow cannot dislodge them."
+  ]
+ ],
+ "cta": {
+  "title": "Stop infections where wort is most exposed",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers heat transfer, hygiene design and brewery microbiology so you can clean the hard to reach parts properly.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "sizing-a-plate-heat-exchanger-for-your-brewhouse-wort",
+  "cip-cleaning-in-place",
+  "beer-stability-in-indian-heat"
+ ]
+}

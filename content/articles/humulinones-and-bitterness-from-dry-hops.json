@@ -1,0 +1,71 @@
+{
+ "slug": "humulinones-and-bitterness-from-dry-hops",
+ "cat": "Brewing science",
+ "h1": "Humulinones and bitterness from dry hops",
+ "title": "Humulinones and Dry Hop Bitterness | Craft Beer School",
+ "desc": "Why heavy dry hopping adds bitterness with no boil, how humulinones form and what they do to your IBU readings and recipe targets.",
+ "teaser": "Your hazy IPA got no late kettle hops yet it tastes bitter. Meet the oxidised alpha acids that dissolve straight into cold beer.",
+ "standfirst": "Dry hops were meant to bring aroma without bitterness. Big dry hop rates proved otherwise. Humulinones explain most of the gap and they change how you should read an IBU number on a modern IPA.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Dry hops do add bitterness after all",
+   "<p>The old rule said alpha acids need the boil to isomerise, so cold side hops add aroma and nothing else. That rule held when dry hopping meant 1 or 2 g/L. At the 10 to 20 g/L rates now common in hazy and West Coast IPAs, brewers kept measuring and tasting bitterness that the kettle could not account for.</p><p>The main source is a family of compounds called humulinones. They are oxidation products of alpha acids, formed in the hop cone during drying, pelleting and storage. Unlike alpha acids they are fairly soluble in cold beer. So they dissolve during dry hopping without any heat at all.</p>"
+  ],
+  [
+   "What humulinones are and where they come from",
+   "<p>Humulinones form when alpha acids react with oxygen. Kilning starts the process. Pelleting pushes it further because grinding exposes resin to air and the die warms the material. Fresh pellets commonly carry a few tenths of a percent humulinones by weight. Older or poorly stored pellets carry more.</p><p>Beta acids oxidise too, into hulupones, which also taste bitter. They usually matter less in finished beer, but they are one reason old hops never behave like fresh ones in the fermenter.</p><p>The practical point: the bitterness a dry hop brings depends on the oxidation history of the pellet, not only on its alpha acid figure. Two lots of the same variety at the same alpha acid value can behave quite differently.</p>"
+  ],
+  [
+   "How bitter they are compared with iso-alpha acids",
+   "<p>Sensory work on humulinones puts their bitterness at roughly two thirds that of iso-alpha acids, weight for weight. Heavily dry hopped beers can reach humulinone levels in the low tens of milligrams per litre. At those levels the contribution is easy to taste.</p><p>Dry hopping also removes some iso-alpha acids. Hop material adsorbs them and pulls them out of solution when it settles. Large dry hop charges can raise beer pH by around 0.1 to 0.2 units as well, which makes bitterness feel softer. The net effect depends on how bitter the beer was before the dry hop. A beer brewed with little kettle bitterness tends to gain bitterness. A beer that was already highly bitter can lose some.</p>"
+  ],
+  [
+   "Why your IBU reading may be wrong",
+   "<p>The standard bitterness units method extracts acidified beer into isooctane and reads absorbance at 275 nm. It was never specific to iso-alpha acids. Humulinones absorb in the same region, so they show up in the reading, though not in exact proportion to how bitter they taste.</p><p>The result is a number that tracks perceived bitterness loosely on a dry hopped IPA. It is still useful for batch to batch control. It is not a good way to compare a hazy IPA with a German Pilsner. If you need to know which compounds are present, HPLC can separate iso-alpha acids from humulinones. Our guide to <a href=\"measuring-ibu-in-a-small-brewery-lab.html\">measuring IBU in a small brewery lab</a> covers the spectrophotometer method in detail.</p>"
+  ],
+  [
+   "Managing dry hop bitterness in practice",
+   "<p>Once you accept that dry hops carry bitterness, you can design for it:</p><ul><li>Cut kettle bitterness on beers with heavy dry hop charges. Many brewers drop the boil target well below what the style sheet suggests and let the dry hop make up the difference.</li><li>Store pellets cold, sealed and oxygen free. In an Indian summer a carton left near the brewhouse for a week oxidises far faster than one kept at around 0 to 4 °C.</li><li>Track pellet age and lot alongside your bitterness results so you can see which lots push harder.</li><li>Keep contact times short. Most extraction happens in the first day or so at fermentation temperature, which our guide to <a href=\"dry-hop-contact-time-and-temperature-for-the-best-extraction.html\">dry hop contact time</a> explains.</li></ul>"
+  ],
+  [
+   "Do not confuse bitterness with hop creep",
+   "<p>Dry hops change a beer in more than one way, so it helps to separate the effects. Humulinones change bitterness. Hop creep is a different problem: enzymes carried on the hop material break down unfermentable dextrins into sugars the yeast can use. Fermentation restarts, gravity falls by several points, diacetyl can return and a packaged beer can over carbonate.</p><p>Both effects grow with dry hop rate and both vary by hop lot. A beer that tastes more bitter and finishes drier after a heavy dry hop may be showing both at once. Check gravity before and after the dry hop as well as bitterness. Our guide to <a href=\"hop-creep.html\">hop creep</a> explains the enzyme side. Keeping the two apart stops you blaming humulinones for a dry, thin finish that really came from extra attenuation, or the other way round.</p>"
+  ],
+  [
+   "Taste first, then measure",
+   "<p>The number on the spec sheet is a means to an end. The goal is a beer whose bitterness matches the brief across every batch. That needs a trained tasting panel as much as a spectrophotometer, because a beer with the same measured BU can taste harsher or softer depending on pH, residual sweetness and which bitter compounds carry the load.</p><p>Hop chemistry like this is where recipe sheets stop being enough. Knowing why a reading moves lets you change the right variable instead of chasing the number.</p><p>Your first step: next time you dry hop, measure BU on the same beer before and after the dry hop charge. Log the pellet lot and its age. Three or four batches of that data will tell you more about your hops than any supplier sheet.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do dry hops add IBU?",
+   "Yes, at modern dry hop rates they usually do. Humulinones dissolve in cold beer and register in the standard IBU method, though dry hopping can also strip some iso-alpha acids."
+  ],
+  [
+   "Are humulinones as bitter as iso-alpha acids?",
+   "No. Sensory studies put them at roughly two thirds of the bitterness of iso-alpha acids at the same concentration."
+  ],
+  [
+   "Do old hops give more humulinones?",
+   "Generally yes. Oxidation during storage converts alpha acids into humulinones, so poorly stored pellets tend to carry more of them."
+  ],
+  [
+   "Should I reduce kettle hops in a heavily dry hopped IPA?",
+   "Many brewers do. Set a lower boil bitterness target, then taste and measure after dry hopping to see where the beer lands."
+  ]
+ ],
+ "cta": {
+  "title": "Know why bitterness moves, not just that it did",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers hop chemistry, analytical methods and sensory checks so you can set bitterness targets that hold from batch to batch.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-spoilage-bacteria-that-survive-hops-and-how-to-find",
+  "brewing-a-bone-dry-brut-ipa-with-amyloglucosidase",
+  "dry-hop-contact-time-and-temperature-for-the-best-extraction"
+ ]
+}

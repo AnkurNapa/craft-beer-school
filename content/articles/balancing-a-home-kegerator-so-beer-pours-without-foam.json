@@ -1,0 +1,63 @@
+{
+ "slug": "balancing-a-home-kegerator-so-beer-pours-without-foam",
+ "cat": "Brewing basics",
+ "h1": "Balancing a home kegerator so beer pours without foam",
+ "title": "Balancing a Home Kegerator to Stop Foam | Craft Beer School",
+ "desc": "Why a home kegerator pours foam and how to balance pressure, line length and temperature so homebrew pours clear with a good head.",
+ "teaser": "A kegerator that pours foam is almost never broken. It is unbalanced. You can fix it this weekend.",
+ "standfirst": "A foaming tap is the most common complaint from new kegerator owners. The cause is nearly always an imbalance between gas pressure, line resistance and temperature. Get those three to agree and the beer pours clear with a proper head.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Foam comes from an imbalance",
+   "<p>A draught system has one job: get beer from the keg to the glass while keeping the carbon dioxide dissolved. Pressure on the keg holds the gas in solution. The serving line slows the beer down. The tap releases it at a gentle flow. If the beer arrives too fast, too warm or under the wrong pressure, the gas breaks out and you get a glass of foam.</p><p>Balancing means matching three things: the pressure needed to hold your carbonation, the resistance of the line and a steady cold temperature all the way to the tap.</p>"
+  ],
+  [
+   "Temperature first",
+   "<p>Start with temperature, because it changes everything else. Warmer beer needs more pressure to hold the same carbonation. A keg sitting at 8 °C with the pressure set for 3 °C will slowly lose gas into the headspace and pour foamy. Most home kegerators work best at 2 to 4 °C.</p><p>The tower is the usual weak point. If beer sits in a warm tower or a tap on the outside of the fridge, the first pour of each session foams as it warms. Indian ambient heat makes this worse. A small fan blowing cold air up into the tower helps, as does insulation around it. Pouring a short sample first to clear the warm beer is a simple habit.</p>"
+  ],
+  [
+   "Set the pressure from a chart",
+   "<p>Your serving pressure should match the carbonation you want at your keg temperature. For most ales and lagers at about 3 °C, around 10 to 12 psi (roughly 0.7 to 0.8 bar) holds 2.4 to 2.6 volumes. Look up the exact figure in a carbonation chart. Our guide to <a href=\"force-carbonating-a-homebrew-keg-with-the-set-and-forget.html\">force carbonating with the set and forget method</a> explains how pressure and temperature combine.</p><p>The mistake is turning the pressure down to stop foam. That works for a day, then the beer slowly loses carbonation and goes flat. Fix the line instead.</p>"
+  ],
+  [
+   "Line length does the slowing down",
+   "<p>The serving line is not just a pipe. Its narrow bore and length create resistance that drops the pressure from keg pressure to near zero at the tap. Too short and the beer arrives with too much force, so it foams. Too long and it pours slowly but stays clear.</p><p>Most homebrew kegerators use 3/16 inch (about 4.8 mm) internal diameter vinyl line. Its resistance is often quoted at roughly 2 to 3 psi per foot (30 cm), but the true figure varies by brand and wall thickness. At 10 to 12 psi, many homebrewers find that 1.5 to 3 metres of 3/16 inch line pours well. Wider line, such as 1/4 inch, has much less resistance and needs to be far longer, which is why it foams so often in home setups.</p><p>The practical approach is to start long (about 3 metres) then trim 15 cm at a time until the pour is fast enough. You cannot add line back once you have cut it.</p>"
+  ],
+  [
+   "Other causes of foam",
+   "<ul><li><strong>Over-carbonated beer.</strong> If the keg was carbonated at a higher pressure, it will foam until it settles. Release the headspace pressure, set the correct pressure and give it a day or two.</li><li><strong>A dirty line or tap.</strong> Residue and beerstone give carbon dioxide places to form bubbles. Clean regularly.</li><li><strong>A partly opened tap.</strong> Always open the tap fully and quickly. A half-open tap creates turbulence and foam.</li><li><strong>Kinks in the line.</strong> A tight bend creates turbulence. Coil the line loosely.</li></ul>"
+  ],
+  [
+   "Balance is a skill worth learning",
+   "<p>Every draught system, from a single home tap to a busy taproom, runs on the same balance of pressure, resistance and temperature. Learn it once on your home kegerator and it applies everywhere. Hazy and hoppy beers are especially sensitive to warm lines and oxygen, as our guide to <a href=\"brewing-a-hazy-ipa-at-home-without-it-turning-brown.html\">brewing a hazy IPA that stays bright</a> explains. A clean lager pour is a good test of a balanced system, which our guide to <a href=\"brewing-a-lager-at-home.html\">brewing a lager at home</a> sets you up for.</p><p>Your first step: measure your keg temperature with a probe thermometer and your current line length with a tape. Write both down with the regulator pressure. Those three numbers will tell you where the imbalance is.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does my kegerator pour all foam?",
+   "Usually the serving line is too short for the pressure, the beer or tower is too warm or the keg is over-carbonated."
+  ],
+  [
+   "How long should my beer line be?",
+   "With 3/16 inch line at 10 to 12 psi, many home setups pour well with 1.5 to 3 metres. Start long and trim until the pour speed suits you."
+  ],
+  [
+   "Should I lower the pressure to stop foaming?",
+   "Only briefly. Lower pressure lets the beer slowly go flat. Lengthen the line or fix the temperature instead."
+  ]
+ ],
+ "cta": {
+  "title": "Pour great beer from your own taps",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999) on Saturday and Sunday afternoons. It covers fermentation, carbonation and packaging, including the pressure and temperature basics behind any draught system.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-a-lager-at-home",
+  "brewing-a-hazy-ipa-at-home-without-it-turning-brown",
+  "brewing-a-kolsch-style-ale-at-home-without-a-lager-fridge"
+ ]
+}

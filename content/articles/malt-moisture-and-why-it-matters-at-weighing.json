@@ -1,0 +1,75 @@
+{
+ "slug": "malt-moisture-and-why-it-matters-at-weighing",
+ "cat": "Ingredients",
+ "h1": "Malt moisture and why it matters at weighing",
+ "title": "Malt Moisture at the Weighing Scale | Craft Beer School",
+ "desc": "How malt moisture changes the extract you actually weigh in, how to correct the grist for it and how to stop malt picking up water in Indian humidity.",
+ "teaser": "Weigh 200 kg of damp malt and you are paying for water. Moisture quietly moves your gravity, your yield and your stock figures.",
+ "standfirst": "Malt arrives dry, at around 4% moisture. It does not stay that way in a humid store. Every extra point of moisture is water on the scale instead of extract in the kettle. It shows up in gravity, yield and stock records.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Malt is shipped dry because kilning drives the water out",
+   "<p>Green malt leaves germination at around 40 to 45% moisture. The kiln brings pale base malts down to roughly 3.5 to 4.5%. Most specifications set a maximum around 4.5 to 5% for base malt. At that level the malt is crisp, stable and easy to mill.</p><p>Malt is hygroscopic, though. It draws moisture from the air until it reaches balance with its surroundings. In dry, cool storage that happens slowly. In a store where humidity sits at 80 to 90% for weeks, as it does across much of India in the monsoon, an opened bag can gain several points within weeks.</p>"
+  ],
+  [
+   "Extra moisture means less extract per kilogram",
+   "<p>Your recipe assumes a certain amount of dry extract for every kilogram weighed. Water carries none. Take a 1,000 litre batch with 200 kg of base malt, written for malt at 4% moisture:</p><ul><li>At 4% moisture: 200 x 0.96 = 192 kg of dry malt.</li><li>At 7% moisture: 200 x 0.93 = 186 kg of dry malt.</li></ul><p>That is about 3% less dry matter. On a wort planned at 12.0 °P, it lands near 11.6 °P with nothing else changed. The brewer blames the mill or the sparge. The real cause is water in the sacks.</p>"
+  ],
+  [
+   "Correct the grist weight from a moisture reading",
+   "<p>If you know the moisture, the fix is simple. Multiply the recipe weight by the dry fraction it was written for, then divide by the actual dry fraction:</p><p><strong>Corrected weight = recipe weight x (1 - recipe moisture) / (1 - actual moisture)</strong></p><p>For the example above: 200 x 0.96 / 0.93 = 206.5 kg. Weigh in 6.5 kg more and the gravity comes back.</p><p>Malt certificates help here. They report extract on a dry basis and often an as-is figure too. As-is extract is the dry figure multiplied by (1 - moisture). Our guide to the <a href=\"malt-certificate-of-analysis.html\">malt certificate of analysis</a> shows which is which.</p>"
+  ],
+  [
+   "Measure moisture rather than guess",
+   "<p>The reference method dries a weighed, ground sample in an oven at around 105 °C for a few hours and measures the weight lost. A small brewery can do this with a lab oven and a balance reading to 0.01 g. Faster tools include moisture analysers with a built-in balance and heater, or near infrared (NIR) instruments in larger plants.</p><p>Check a sample from each new delivery and again from any bags that have been open for more than a couple of weeks. The certificate tells you the moisture when the malt left the maltings, not after six weeks in transit and storage.</p>"
+  ],
+  [
+   "Damp malt causes more than a gravity miss",
+   "<p>Moisture affects almost everything downstream:</p><ul><li><strong>Milling.</strong> Slack malt turns leathery. Husks tear rather than split. The crush shifts towards more flour and torn husk.</li><li><strong>Lautering.</strong> Poor crush means a tighter bed and slower runoff.</li><li><strong>Flavour.</strong> Damp malt goes stale faster and can pick up musty notes.</li><li><strong>Safety.</strong> Above roughly 13 to 14% moisture, grain supports mould growth, which brings a mycotoxin risk.</li><li><strong>Pests.</strong> Insects thrive in warm, damp grain stores.</li></ul><p>Our guide to <a href=\"malt-crush-and-roller-mill-gap.html\">malt crush and roller mill gap</a> covers what slack malt does at the rolls.</p>"
+  ],
+  [
+   "Stock figures depend on it too",
+   "<p>Most breweries in India reconcile raw material stock for excise and accounting. If you receive malt by weight and it gains water in store, the books show more malt than went in. If it dries out in an air-conditioned store, the reverse happens. Neither is a large error on a single bag, but over a year it adds up. Record moisture at receipt and at use so the yield report reflects reality.</p>"
+  ],
+  [
+   "Storage is the cheapest fix",
+   "<p>Keep malt in sealed bags on pallets, away from walls and off concrete floors. Fold and clip opened bags or tip them into airtight bins. Rotate stock first in, first out. In the monsoon, buy smaller deliveries more often rather than one large one that sits for months. A dehumidifier in a small malt store usually costs less than the extract it saves.</p><p>Turning moisture readings, extract and yield into one picture of brewhouse performance is the data side of brewing science. It is where a careful spreadsheet starts to pay for itself.</p>"
+  ],
+  [
+   "Check one bag this week",
+   "<p>Take a sample from the oldest open bag in your store. Measure its moisture and compare it with the certificate. If it has gained more than a point, correct the grist weight on your next brew and fix the storage before the next delivery arrives.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What moisture should malt have?",
+   "Pale base malts are usually kilned to around 3.5 to 4.5% moisture. Most specifications set a maximum around 4.5 to 5%."
+  ],
+  [
+   "How do I correct for wet malt?",
+   "Corrected weight = recipe weight x (1 - recipe moisture) / (1 - actual moisture). For 200 kg written at 4% and malt at 7%, weigh 206.5 kg."
+  ],
+  [
+   "Does damp malt affect milling?",
+   "Yes. Slack malt turns leathery, husks tear and the crush produces more flour, which slows lautering."
+  ],
+  [
+   "How do I measure malt moisture?",
+   "Dry a weighed, ground sample at around 105 °C and measure the weight lost, or use a moisture analyser or NIR instrument."
+  ]
+ ],
+ "cta": {
+  "title": "Turn malt numbers into predictable gravity",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers malt quality, extract and brewhouse yield so you can trace every gravity miss back to its cause.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "barley-malting-process",
+  "wheat-malt-in-brewing",
+  "malt-certificate-of-analysis"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "buying-fermenters-in-stages-as-sales-grow",
+ "cat": "Business",
+ "h1": "Buying fermenters in stages as sales grow",
+ "title": "Buying Fermenters as Sales Grow | Craft Beer School",
+ "desc": "How to plan fermenter purchases in stages, work out tank capacity from turnaround time and know when sales justify the next tank.",
+ "teaser": "The brewhouse makes wort. The fermenters decide how much beer you can sell.",
+ "standfirst": "Most new breweries buy a brewhouse that can grow and a few fermenters to start. Adding tanks as sales grow keeps cash in the business. It only works if you plan it from the first day.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Fermenters set your capacity",
+   "<p>A brewhouse can usually make wort far faster than fermenters can turn it into beer. A 10 hl brewhouse can brew a batch in a day. The fermenter it fills may be busy for two weeks for an ale or five or six weeks for a lager. So your output is set by tank space and turnaround time, not by the brewhouse.</p><p>That is good news for cash. You can buy a brewhouse sized for year five and fermenters sized for year one, then add tanks as sales grow.</p>"
+  ],
+  [
+   "The capacity sum",
+   "<p>Here is the formula we use:</p><p><strong>Annual litres = number of tanks x tank size x (365 / days per turn) x utilisation</strong></p><p>Take four 1,000 litre fermenters running ales at 14 days per turn. That is 4 x 1,000 x 26 turns, about 104,000 litres a year at full use. No brewery runs at 100%. Cleaning, scheduling gaps and holidays eat time. At 80% utilisation, the realistic figure is about 83,000 litres.</p><p>Swap in a lager at 35 days per turn and the same four tanks give about 33,000 litres at 80%. That is why style mix matters as much as tank count.</p>"
+  ],
+  [
+   "Start with enough tanks to brew the menu",
+   "<p>The first tank purchase is set by your menu, not your sales forecast. A brewpub with four core beers needs at least four fermenters plus a buffer, or it will run out of one beer while another sits waiting. A common starting point is the core beer count plus one or two, so you can brew a seasonal without emptying a core tank early.</p><p>Bright tanks or serving tanks sit downstream of fermenters. Plan them together. Our guide to <a href=\"buying-craft-beer-kegs-maharashtra.html\">buying kegs</a> covers the packaging side of the same plan.</p>"
+  ],
+  [
+   "Plan the space and utilities for tanks you do not own yet",
+   "<p>This is where staged buying usually fails. If the floor, drains, glycol and power are planned only for the first four tanks, adding the fifth means tearing up the floor. When you build:</p><ul><li>Mark out space for future tanks, including clearance for valves and cleaning.</li><li>Size the glycol chiller for the full future tank count, or plan space for a second chiller.</li><li>Run glycol headers with spare valved outlets.</li><li>Lay floor drains and slopes for the full row of tanks.</li><li>Check ceiling height and door width for the largest tank you might buy.</li></ul><p>That extra planning costs little on day one and a lot later.</p>"
+  ],
+  [
+   "Match tank sizes to the brewhouse",
+   "<p>Buy fermenters in sizes that match your brewhouse: one brew or two brews per tank. A 10 hl brewhouse pairs naturally with 10 hl or 20 hl fermenters. A 20 hl tank filled with two brews on one day doubles capacity per square metre of floor, but needs two brews in quick succession, which means a long brew day.</p><p>Odd sizes cause trouble. A 15 hl tank on a 10 hl brewhouse is either half empty or forces awkward blending.</p>"
+  ],
+  [
+   "When sales justify the next tank",
+   "<p>Watch three signals:</p><ul><li><strong>Stockouts.</strong> Beers running out before the next batch is ready.</li><li><strong>Rushed beer.</strong> Pressure to cut conditioning time to free tanks. That is the most expensive signal, because it costs quality.</li><li><strong>Utilisation.</strong> Tanks busy more than about 85 to 90% of days for three months running.</li></ul><p>Then do the money. If a new 1,000 litre tank adds about 20,000 litres a year at 80% use on an ale schedule, multiply that by your margin per litre after duty and ingredients. Compare it with the tank's installed cost. Our guide on <a href=\"adding-a-second-brewing-shift-as-sales-grow.html\">adding a second brewing shift</a> covers the labour side.</p>"
+  ],
+  [
+   "Second-hand and local tanks",
+   "<p>Staged buying opens up options. Your first fermenters might come with the brewhouse from one supplier, while later tanks come from an Indian fabricator or the second-hand market. That can save money, but check three things before mixing suppliers. Fittings must match: clamp sizes, valve types and the glycol jacket connections. Pressure ratings must suit how you carbonate. Cone angle and racking arm height should be close enough that your yeast harvesting routine works the same on every tank.</p><p>Ask for pressure test certificates and material certificates on every tank, new or used. A cheap tank that cannot hold 1 bar of top pressure is a fermenter only for beers you never carbonate in it.</p>"
+  ],
+  [
+   "The first step",
+   "<p>Open a spreadsheet. List your beers, their sales per week and their days in tank. Work out how many tank days each beer needs per month. Compare that with the tank days you own. The gap is your first purchase list. It is often smaller than founders expect.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many fermenters does a new brewpub need?",
+   "Usually at least one per core beer plus one or two extra for seasonals and scheduling. Work it out from sales per beer and days in tank."
+  ],
+  [
+   "How long does a beer stay in a fermenter?",
+   "Ales commonly need around two weeks including conditioning. Lagers often need five or six weeks or more. The real time depends on recipe, yeast and temperature."
+  ],
+  [
+   "Should fermenters match brewhouse size?",
+   "Yes. Tanks that hold one or two full brews avoid half-empty vessels and awkward blending."
+  ]
+ ],
+ "cta": {
+  "title": "Grow tank capacity without guessing",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers capacity planning, cash flow and equipment buying with real sums, so each tank you add pays its way.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "adding-a-second-brewing-shift-as-sales-grow",
+  "buying-craft-beer-kegs-maharashtra",
+  "brewery-equipment-buying-guide"
+ ]
+}

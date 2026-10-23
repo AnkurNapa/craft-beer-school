@@ -1,0 +1,75 @@
+{
+ "slug": "nitrate-in-groundwater-and-brewing",
+ "cat": "Ingredients",
+ "h1": "Nitrate in groundwater and brewing",
+ "title": "Nitrate in Groundwater and Brewing | Craft Beer School",
+ "desc": "Why nitrate in borewell water matters to brewers, the nitrate to nitrite risk in wort plus how to read the numbers and remove it.",
+ "teaser": "Nitrate is not harmful to yeast. What bacteria turn it into is. That is why brewers keep it low.",
+ "standfirst": "Nitrate reaches groundwater from fertiliser and sewage. Farming areas often carry a lot of it. Yeast tolerates nitrate, but some wort bacteria reduce it to nitrite, which harms fermentation and can form unwanted compounds. Brewers keep it low and keep a closer eye on it in borewell water.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Nitrate comes from farms and sewage",
+   "<p>Nitrate is a form of nitrogen that dissolves easily and moves through soil into groundwater. The main sources are nitrogen fertilisers, animal waste and leaking sewage or septic systems. Borewells in intensively farmed areas, or close to dense housing without good sanitation, are the most likely to carry high levels.</p><p>Levels can rise after the monsoon as rain washes fertiliser down through the soil. They can also creep up over years as an aquifer is loaded. A single clean test is not a guarantee.</p>"
+  ],
+  [
+   "Read the units before you panic",
+   "<p>Nitrate is reported two ways. The difference is a factor of more than four.</p><ul><li><strong>Nitrate</strong>, as mg/L of NO3.</li><li><strong>Nitrate nitrogen</strong>, as mg/L of N.</li></ul><p>To convert nitrate nitrogen to nitrate, multiply by 4.43. So 10 mg/L as N equals about 44 mg/L as nitrate. The WHO guideline for drinking water is 50 mg/L as nitrate. Indian drinking water standards set a similar limit. The current notification gives the exact figure. Check which unit your lab used before you compare it with anything.</p>"
+  ],
+  [
+   "The danger is nitrite, not nitrate",
+   "<p>Brewing yeast is not much troubled by nitrate itself. The problem starts when certain bacteria get into wort. Some wort spoilage bacteria, including members of the Enterobacteriaceae family, reduce nitrate to nitrite.</p><p>Nitrite is a different matter. It is toxic to yeast and can slow or stall fermentation. It also reacts with amines in wort to form N-nitroso compounds, which brewers and regulators have long worked to keep out of beer. That is why the brewing concern with nitrate is really a concern about hygiene and nitrite.</p>"
+  ],
+  [
+   "Brewers keep it lower than the drinking limit",
+   "<p>Common brewing guidance is to keep nitrate well below the drinking water limit, with many breweries aiming for under about 25 mg/L as nitrate. Nitrite in brewing liquor should be essentially zero. A positive nitrite result in source water points to active contamination and needs attention before brewing.</p><p>Malt also brings nitrogen into the wort. The brewing process has been refined over decades to keep nitrosamine formation low. Water nitrate is one input among several, but it is one you can measure cheaply and control.</p>"
+  ],
+  [
+   "Healthy, fast fermentation is the best defence",
+   "<p>Nitrite forms when bacteria have time to work in wort before yeast takes over. A quick start leaves them little chance. In practice that means:</p><ul><li>Cooling wort fast and pitching straight away.</li><li>Pitching enough healthy yeast to reach active fermentation within hours.</li><li>Cleaning the heat exchanger, wort lines and fermenters thoroughly so there is no bacterial load to begin with.</li><li>Never leaving wort sitting warm, which is easy to do by accident when a power cut stops the chiller in an Indian summer.</li></ul><p>Our guide to <a href=\"bicarbonate-and-alkalinity-in-indian-groundwater.html\">alkalinity in Indian groundwater</a> covers the other main borewell problem.</p>"
+  ],
+  [
+   "Reverse osmosis and ion exchange remove it",
+   "<p>Nitrate does not boil off. Carbon filters do not remove it. The two practical treatments are reverse osmosis, which removes most dissolved ions including nitrate. The other is nitrate-selective ion exchange resin. Blending high-nitrate source water with RO or a cleaner supply also brings the level down.</p><p>If you already run RO for alkalinity or hardness, nitrate is usually handled at the same time. Confirm it with a test on the treated water rather than assuming.</p>"
+  ],
+  [
+   "Quick tests fill the gaps between lab reports",
+   "<p>A full lab analysis every few months gives you accurate numbers. Between those reports, colorimetric test kits and test strips for nitrate and nitrite give a fast check on site. They are less precise than a lab, but good enough to spot a change from one month to the next.</p><p>Nitrite strips are especially useful in the brewhouse itself. A wort sample that shows nitrite before pitching, when the water showed none, points straight at a bacterial problem in the heat exchanger or the wort lines. Log every result with the date, the source and the unit, so a slow rise is visible long before it becomes a stuck fermentation.</p>"
+  ],
+  [
+   "Add nitrate to your next water test",
+   "<p>Many brewery water reports leave nitrate and nitrite off unless you ask. On the next test, request both. Note the unit on the result. If the brewery draws from a borewell, test again after the monsoon. If nitrate is climbing, treat it as an early signal about the aquifer. Start planning treatment before it reaches a level that forces your hand. The link between water and malt nitrogen is covered in our guide to <a href=\"base-malts-explained.html\">base malts</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is nitrate in water bad for beer?",
+   "Nitrate itself is tolerated by yeast. The risk is that bacteria in wort reduce it to nitrite, which harms fermentation and can form unwanted compounds."
+  ],
+  [
+   "What is the difference between nitrate and nitrate nitrogen?",
+   "Nitrate nitrogen counts only the nitrogen. Multiply it by 4.43 to get the figure as nitrate."
+  ],
+  [
+   "How do I remove nitrate from brewing water?",
+   "Reverse osmosis or nitrate-selective ion exchange. Boiling and carbon filters do not remove it."
+  ],
+  [
+   "How much nitrate is acceptable in brewing water?",
+   "Many breweries aim for under about 25 mg/L as nitrate, well below the drinking water limit, with nitrite essentially zero."
+  ]
+ ],
+ "cta": {
+  "title": "Know what is in your water before it reaches the mash",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers brewing water chemistry, microbiology, wort hygiene and the tests that keep groundwater problems out of the beer.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "bicarbonate-and-alkalinity-in-indian-groundwater",
+  "barley-malting-process",
+  "base-malts-explained"
+ ]
+}

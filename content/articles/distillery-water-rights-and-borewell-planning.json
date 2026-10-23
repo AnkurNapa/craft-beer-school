@@ -1,0 +1,71 @@
+{
+ "slug": "distillery-water-rights-and-borewell-planning",
+ "cat": "Whisky",
+ "h1": "Distillery water rights and borewell planning",
+ "title": "Distillery Water Rights and Borewells | Craft Beer School",
+ "desc": "How to plan water for an Indian distillery: groundwater permissions, borewell testing, seasonal yield and what each part of the plant uses.",
+ "teaser": "A distillery without a reliable water supply is a very expensive warehouse. Plan the water before the stills.",
+ "standfirst": "Distilleries use water for mashing, cooling, cleaning, boilers and reduction. In much of India that water comes from the ground. Groundwater is regulated and under pressure. Plan the source, the permissions and the quality before you sign for land.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Map where the water goes",
+   "<p>Start with a water balance. A distillery uses water in several streams, each with its own quality need:</p><ul><li><strong>Process water</strong> for mashing and fermentation. Must be clean and of known chemistry.</li><li><strong>Cooling water</strong> for condensers and wort coolers. Often the largest volume, much of it recirculated through cooling towers.</li><li><strong>Cleaning water</strong> for vessels, lines and floors.</li><li><strong>Boiler feed water</strong>, softened to protect the boiler.</li><li><strong>Reduction water</strong>, demineralised or reverse osmosis treated, which goes into the bottle.</li></ul><p>Size each stream from your equipment supplier's figures and your production plan, then add a margin for cleaning and growth. Our guide to <a href=\"utilities-for-a-distillery-from-water-to-power.html\">utilities for a distillery</a> covers the wider picture.</p>"
+  ],
+  [
+   "Groundwater needs permission",
+   "<p>In India, industrial groundwater use is regulated. The Central Ground Water Authority issues no objection certificates for groundwater abstraction in many areas. Some states run their own groundwater authorities and rules. Areas are assessed by how stressed their groundwater is. In blocks classed as over-exploited or critical, new industrial abstraction can be restricted or refused.</p><p>Requirements commonly include metering, recharge measures and periodic reporting, but the details vary by state and change. Check the current notification for your site or work with a consultant who handles groundwater approvals. This is not legal advice. It is a reason to check before buying land.</p>"
+  ],
+  [
+   "Pollution control comes with it",
+   "<p>A distillery also needs consents from the State Pollution Control Board under the Water (Prevention and Control of Pollution) Act, 1974: typically a consent to establish before construction and a consent to operate before production. Distillery effluent is strong, so boards often set tight discharge conditions. Plan effluent treatment alongside the water supply, not after it. Our guide to <a href=\"distillery-effluent-treatment-in-india.html\">distillery effluent treatment in India</a> covers that side.</p>"
+  ],
+  [
+   "Test the borewell properly",
+   "<p>A borewell that fills a tanker on the day you visit tells you little. Before you commit:</p><ol><li>Commission a hydrogeological survey to locate the best drilling points.</li><li>Run a pumping test over a sustained period to measure the safe yield and how fast the level recovers.</li><li>Repeat measurements before and after the monsoon. Indian water tables can swing a long way through the year.</li><li>Ask neighbours how their borewells behaved in the last dry year.</li></ol><p>The floor detail we insist on: install a flow meter and a water level sensor on every borewell from day one. A falling static level over two dry seasons is your early warning. Without the data you find out when the pump runs dry mid-mash.</p>"
+  ],
+  [
+   "Know the water chemistry",
+   "<p>Get a full lab analysis on every source: hardness, alkalinity, iron, manganese, chloride, sulphate, total dissolved solids, nitrate and microbiology. Repeat it seasonally. Borewell water in many Indian regions runs hard and high in dissolved solids. Iron stains equipment and can affect flavour. High hardness scales heat exchangers and condensers.</p><p>Process water can often be treated to a target with filtration and softening. Reduction water usually needs reverse osmosis or demineralisation. Our guide to <a href=\"process-water-and-reduction-water-in-a-distillery.html\">process water and reduction water</a> explains the treatment steps.</p>"
+  ],
+  [
+   "Use less, recover more",
+   "<p>Water you do not use is water you do not need permission for. Cooling towers recirculate condenser water rather than sending it to drain. Hot water from condensers can preheat the next mash or cleaning cycle. Rainwater harvesting from warehouse roofs can recharge the aquifer or supply non-process uses. Recharge structures are often expected as part of a groundwater approval.</p><p>Track water per litre of pure alcohol produced, month by month. It is the single best number for spotting leaks, wasteful cleaning and drift. Our guide to <a href=\"whisky-inventory-planning.html\">whisky inventory planning</a> shows how production plans set the demand.</p>"
+  ],
+  [
+   "Put water on the critical path",
+   "<p>Many distillery projects spend months on stills and branding and only weeks on water. That order is backwards. Permissions take time. A poor borewell can force expensive tanker supply or a new site. Treat water as a site selection criterion, alongside access and power.</p><p>Planning utilities and permissions together with the process is part of setting up a distillery properly. A distilling course gives you the framework to ask the right questions before the land deal closes.</p><p>Your first step: get a seasonal water quality analysis and the groundwater category for any site you are considering, before you discuss price.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does a distillery in India need permission to use groundwater?",
+   "Usually yes. Industrial groundwater use is regulated by the Central Ground Water Authority and, in some states, state authorities. Requirements vary by area and change, so check the current rules."
+  ],
+  [
+   "What is the biggest water use in a distillery?",
+   "Cooling water for condensers is often the largest volume, which is why recirculating it through cooling towers matters."
+  ],
+  [
+   "How should a borewell be tested before building?",
+   "With a hydrogeological survey, a sustained pumping test and measurements before and after the monsoon to see seasonal changes in yield and level."
+  ],
+  [
+   "What water is used to reduce whisky?",
+   "Usually demineralised or reverse osmosis water, because minerals in raw borewell water can cause haze and off flavours."
+  ]
+ ],
+ "cta": {
+  "title": "Plan the distillery around its water",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers distillery set-up, utilities and process water alongside production so your site and supply support the whisky you plan to make.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "process-water-and-reduction-water-in-a-distillery",
+  "utilities-for-a-distillery-from-water-to-power",
+  "whisky-inventory-planning"
+ ]
+}

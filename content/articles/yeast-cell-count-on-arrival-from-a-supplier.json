@@ -1,0 +1,67 @@
+{
+ "slug": "yeast-cell-count-on-arrival-from-a-supplier",
+ "cat": "Ingredients",
+ "h1": "Yeast cell count on arrival from a supplier",
+ "title": "Checking Yeast Cell Count on Arrival | Craft Beer School",
+ "desc": "What to check when a yeast pitch arrives: temperature, cell count, viability and the arithmetic that tells you if it will pitch your tank.",
+ "teaser": "The label says the pack holds enough yeast for your tank. A haemocytometer and twenty minutes tell you whether it still does.",
+ "standfirst": "A yeast pitch is a living ingredient that has spent days in transit. Before it goes near wort we count it, stain it and do the sums. Here is the routine and the numbers behind it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The label describes the yeast on the day it was packed",
+   "<p>A supplier's certificate tells you the cell count and viability when the culture left the lab. It cannot tell you what happened in the courier van. Liquid yeast keeps losing viability in storage. The loss is slow when the pack stays at 2 to 4 °C and much faster when it warms up.</p><p>In India that trip often includes a customs hold, a road leg in 35 °C heat and an ice pack that gave up somewhere on the way. Our guide to <a href=\"liquid-yeast-shipping-india.html\">shipping liquid yeast in India</a> covers the logistics. This guide covers what you do once the box is on your bench.</p>"
+  ],
+  [
+   "Check the temperature before you open anything",
+   "<p>Put a probe thermometer against the pack the moment it arrives and write the reading down. A pack at 4 °C with ice still frozen is a good start. A pack at 20 °C with a puddle of warm water is a warning, not a verdict: count it before you decide.</p><p>Record the production date and the batch number with the reading. If a strain keeps arriving warm from one route, that log is what you show the supplier.</p>"
+  ],
+  [
+   "Count the cells with a haemocytometer",
+   "<p>A haemocytometer and a microscope at 400x are the standard tools. The routine is simple:</p><ul><li>Mix the pack thoroughly so the sample represents the whole volume.</li><li>Dilute the sample, usually 1 in 100 for a thick slurry, in sterile water or buffer.</li><li>Load the chamber and count the cells in five of the 25 medium squares of the centre grid.</li><li>Multiply the average per square by 25, then by 10,000, then by the dilution to get cells per millilitre.</li></ul><p>Count buds that are at least half the size of the mother as separate cells. Count at least a few hundred cells in total so one clump does not skew the answer. Our step by step guide to <a href=\"counting-yeast-cells-with-a-haemocytometer-step-by-step.html\">counting cells with a haemocytometer</a> walks through the grid.</p>"
+  ],
+  [
+   "Stain for viability at the same time",
+   "<p>Mix the diluted sample one to one with methylene blue. Living cells reduce the dye and stay clear. Dead cells stay blue. Viability is the clear cells divided by the total.</p><p>A fresh lab culture should read well above 90%. Below about 90% we treat it with suspicion. Below about 80% we would rather propagate it up through a starter than pitch it straight into a production tank. Methylene blue tends to overstate viability in older slurries, so treat a borderline result as a reason to be careful rather than a pass.</p>"
+  ],
+  [
+   "Do the pitching arithmetic",
+   "<p>The usual targets are about 0.75 million cells per millilitre per degree Plato for ales and about 1.5 million for lagers. Work it through for a 10 hl lager at 12 °P:</p><ul><li>1.5 million x 12 = 18 million viable cells per ml.</li><li>10 hl is 1,000,000 ml, so the tank needs 18 trillion viable cells.</li><li>A slurry counted at 1 billion cells per ml with 90% viability holds 0.9 billion viable cells per ml.</li><li>18 trillion divided by 0.9 billion is 20,000 ml, so you need about 20 litres of that slurry.</li></ul><p>The same sum for a 12 °P ale halves the requirement to about 10 litres. If the count came back at half what the certificate promised, you now know the shortfall in litres rather than as a feeling. Underpitching shows up later as long lag, high diacetyl and sluggish attenuation, which is a slow way to learn the count was low.</p>"
+  ],
+  [
+   "What to do when the numbers disappoint",
+   "<p>A low count with good viability means you need more volume: build it up in a starter or a small propagation vessel on sterile wort. A low viability result is harder. Pitching extra dead cells adds autolysed flavours without adding fermentation power. Propagating from the healthy fraction is safer.</p><p>Send the supplier your arrival temperature, count and viability with the batch number. Good labs want this feedback because it tells them which routes fail. Reading a pack this way, then setting pitch rate, oxygen and temperature to match, is yeast management as a measured process. That is where a recipe sheet stops and brewing science starts.</p>"
+  ],
+  [
+   "Make arrival checks a written procedure",
+   "<p>Keep a one page form by the microscope: date, strain, batch, arrival temperature, cells per ml, viability, volume pitched and lag time in the tank. After a dozen pitches the form tells you which strains travel well and which routes cook your yeast. That is data you can act on.</p><p>The form also protects you in an argument. A supplier will take a replacement request seriously when it comes with a temperature, a count and a viability figure for a named batch. A complaint that the yeast \"felt slow\" gets a polite reply and nothing else.</p><p>Your first step: next time a pack arrives, take its temperature before it goes into the cold room and count it before brew day, not on brew day.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What pitch rate should a professional brewery use?",
+   "A common guide is about 0.75 million cells per ml per degree Plato for ales and about 1.5 million for lagers. Stronger worts and colder fermentations sit at the higher end."
+  ],
+  [
+   "Is methylene blue accurate enough for viability?",
+   "It is the standard quick test and good enough for arrival checks on fresh cultures. It can overstate viability in old or stressed yeast, so treat borderline results with care."
+  ],
+  [
+   "Should I pitch yeast that arrived warm?",
+   "Count it and stain it first. If viability is still high and the count meets your pitch, it can be used; if not, propagate it up or ask the supplier for a replacement."
+  ]
+ ],
+ "cta": {
+  "title": "Pitch yeast by the count, not by the label",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers yeast physiology, cell counting, viability testing and propagation so every pitch is sized from numbers you measured.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "liquid-yeast-shipping-india",
+  "ale-vs-lager-yeast",
+  "dry-yeast-vs-liquid-yeast"
+ ]
+}

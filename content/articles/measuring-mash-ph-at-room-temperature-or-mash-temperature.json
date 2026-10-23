@@ -1,0 +1,71 @@
+{
+ "slug": "measuring-mash-ph-at-room-temperature-or-mash-temperature",
+ "cat": "Brewing science",
+ "h1": "Measuring mash pH at room temperature or mash temperature",
+ "title": "Mash pH at Room or Mash Temperature | Craft Beer School",
+ "desc": "Why mash pH reads about 0.3 lower when hot, what ATC on your meter really corrects and how to take a reading you can compare.",
+ "teaser": "Your meter says 5.0 and the recipe wants 5.3. You may both be right, just at different temperatures.",
+ "standfirst": "Mash pH changes with temperature, so the same mash gives two different numbers depending on when you read it. Brewing targets are quoted at room temperature. Knowing that saves you from adding acid you did not need.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The same mash reads lower when hot",
+   "<p>A mash sample measured at mash temperature, around 65 °C, reads roughly 0.3 pH units lower than the same sample cooled to about 20 to 25 °C. This is real chemistry, not meter error. As temperature rises, the acids and buffers in the mash dissociate differently and water itself ionises more. The hydrogen ion activity genuinely changes.</p><p>So a mash that reads 5.3 at room temperature reads about 5.0 at 65 °C. Both numbers describe the same mash.</p>"
+  ],
+  [
+   "Brewing targets are quoted at room temperature",
+   "<p>The familiar target range for mash pH, about 5.2 to 5.6, refers to a sample cooled to room temperature. Most brewing texts, malt analysis methods and water calculators use this convention. Many brewers aim nearer 5.2 to 5.4 for pale beers. Our guide to <a href=\"mash-ph-explained.html\">mash pH explained</a> covers why the range matters for enzymes, extraction and flavour.</p><p>The mistake we see is reading a hot sample, getting 5.0 and adding chalk or holding back acid to push it up. The cooled reading would have been about 5.3, right where it should be. The next brew comes out with a dull, flabby finish and nobody connects it to the meter.</p>"
+  ],
+  [
+   "ATC does not fix this",
+   "<p>Most pH meters have automatic temperature compensation, ATC. It is easy to assume ATC converts a hot reading into a room temperature reading. It does not.</p><p>ATC corrects for how the electrode responds to temperature. The voltage a pH electrode produces per pH unit changes with temperature. ATC adjusts for that so the meter reports the true pH of the sample at its current temperature. It cannot tell you what the pH would be if the sample were cooled, because that depends on the chemistry of the mash. A hot mash with ATC still reads about 0.3 low compared with the published targets.</p>"
+  ],
+  [
+   "Hot samples also shorten electrode life",
+   "<p>There is a practical reason to cool samples too. Many general purpose pH electrodes are not built for repeated use in hot samples. Dipping them again and again into hot mash ages the junction faster. Readings drift, response slows and the electrode needs replacing sooner. Electrodes built for high temperatures exist, but most small brewery labs do not have one.</p>"
+  ],
+  [
+   "A routine that gives comparable numbers",
+   "<ol><li>Take the sample 10 to 15 minutes after mashing in, once the pH has settled.</li><li>Pull it from the middle of the mash, not the surface or the edge.</li><li>Put it in a small covered cup and stand the cup in iced water until it reaches about 20 to 25 °C.</li><li>Calibrate the meter with fresh pH 4 and pH 7 buffers at the same temperature as the sample.</li><li>Stir gently, wait for the reading to settle and record pH and temperature together.</li></ol><p>The cover matters more than people think. Hot wort loses carbon dioxide and water quickly, which can shift the reading slightly. The floor detail we would insist on: label the cup with the time and batch, because a cooling cup forgotten on the bench for an hour tells you nothing useful.</p>"
+  ],
+  [
+   "When a hot reading is still useful",
+   "<p>Some brewhouses with in-line probes read pH at process temperature all the time. That is fine as long as everyone knows the convention. Keep the hot numbers for trend watching and compare them only with other hot numbers. If you need to compare with a recipe, a water calculator or a malt analysis, convert by adding roughly 0.3 or, better, check against a cooled sample now and then to find your own offset. Our guide to <a href=\"acidulated-malt-or-lactic-acid-for-mash-ph.html\">acidulated malt or lactic acid</a> covers what to do once you know the real number.</p>"
+  ],
+  [
+   "Where small labs go wrong",
+   "<ul><li>Calibrating at 25 °C and then reading a hot sample, with no idea which convention the recipe used.</li><li>Using test strips. Their colour bands are too coarse for a target that spans a few tenths of a unit.</li><li>Storing the electrode dry or in distilled water, which damages it. Use the storage solution the maker specifies.</li><li>Recording pH without temperature, so nobody can tell later which way the number was read.</li></ul><p>A careful mash pH reading takes ten minutes. Understanding what it tells you, alongside water chemistry and malt acidity, is where the course picks up.</p><p>Your first step: on your next brew day, take one mash sample and read it hot and again once cooled to 20 °C. Write both numbers on the brew sheet. That one comparison shows your team the size of the gap better than any explanation.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is mash pH measured hot or cold?",
+   "Brewing targets such as 5.2 to 5.6 are quoted for samples cooled to about 20 to 25 °C. A hot sample reads roughly 0.3 units lower."
+  ],
+  [
+   "Does ATC on a pH meter correct for mash temperature?",
+   "No. ATC corrects the electrode's response to temperature. It does not convert a hot reading to what the sample would read at room temperature."
+  ],
+  [
+   "Can I put my pH probe in hot mash?",
+   "Many standard electrodes age quickly in hot samples. Cooling the sample first gives comparable readings and longer electrode life."
+  ],
+  [
+   "How long after mashing in should I measure pH?",
+   "About 10 to 15 minutes, once the mash has settled."
+  ]
+ ],
+ "cta": {
+  "title": "Get your water and mash chemistry right",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers mash pH, water chemistry, acid additions and the lab routines that make readings comparable from batch to batch.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "mash-ph-explained",
+  "calculating-mash-water-volume-and-strike-temperature",
+  "acidulated-malt-or-lactic-acid-for-mash-ph"
+ ]
+}

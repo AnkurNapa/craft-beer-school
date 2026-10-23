@@ -1,0 +1,67 @@
+{
+ "slug": "beer-batch-traceability-explained-for-it-teams",
+ "cat": "Beer for teams",
+ "h1": "Beer batch traceability explained for IT teams",
+ "title": "Beer Batch Traceability for IT Teams | Craft Beer School",
+ "desc": "How beer moves from malt lots to brews, tanks, packaging runs and pallets. How IT teams can model the genealogy so a recall takes hours, not days.",
+ "teaser": "One bottle of beer can trace back to several brews, two tanks and a dozen raw material lots. Your data model has to know that.",
+ "standfirst": "Traceability means being able to follow any finished beer back to the raw materials and process steps that made it. It also means following it forward to every place it was sent. In a brewery the path splits and merges at several points. IT teams who model that genealogy properly make recalls, complaints and audits far easier.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Beer is not made in neat one to one batches",
+   "<p>Many systems assume a batch goes in and a batch comes out. Brewing does not work that way. A single fermenter is often filled with several brews from the brewhouse, because large fermenters hold more than one brewhouse batch. Beer from one fermenter may be filtered into a bright beer tank alongside beer from another. One bright tank may then feed several packaging runs over a day or two, on more than one line.</p><p>So the genealogy is a graph, not a chain. One packaging run can trace back to two bright tanks, three fermenters and nine brews. Each brew used its own lots of malt, hops, adjuncts such as rice or maize, water treatment salts and yeast. Our guide to <a href=\"beer-production-planning-basics.html\">production planning basics</a> explains why brewers combine batches this way.</p>"
+  ],
+  [
+   "The standard is one step back, one step forward",
+   "<p>Food safety traceability is usually described as one step back and one step forward: every business must know who supplied each input and who received each output. Inside the brewery, good practice goes further and links every internal step too. In India, FSSAI rules expect food businesses to be able to trace and recall products. Brewery quality systems such as ISO 22000 or FSSC 22000 build traceability into their requirements.</p><p>A practical internal test is the mock recall. Pick a malt lot and find every pallet of beer it ended up in, then pick a pallet and find every raw material lot behind it. Many breweries aim to complete this within a few hours. If it takes days of spreadsheet work, the data model needs attention.</p>"
+  ],
+  [
+   "The identifiers that hold it together",
+   "<p>Traceability depends on identifiers that survive each step:</p><ul><li><strong>Raw material lot numbers</strong> from suppliers, recorded at goods receipt.</li><li><strong>Brew numbers</strong> from the brewhouse.</li><li><strong>Tank and fill identifiers</strong> for each fermenter and bright tank use.</li><li><strong>Packaging run or batch codes</strong>, printed on bottles, cans and cartons, usually with date and time.</li><li><strong>Pallet identifiers</strong>, often GS1 serial shipping container codes (SSCC) on a pallet label.</li><li><strong>Dispatch and permit records</strong> linking pallets to trucks, depots and customers.</li></ul><p>In India, excise holograms or labels on packs add another identifier in many states. Each link is a place where data can break, usually where a person types a number by hand.</p>"
+  ],
+  [
+   "Where traceability usually breaks",
+   "<p>The weak points are predictable. Raw material lots get received but not linked to the brew that used them, especially when a silo of malt is topped up from several deliveries. Tank transfers are recorded on paper. Packaging runs change bright tanks mid-run without a record of the switch time. Pallets are relabelled at a depot.</p><p>Bulk materials need special handling. A malt silo mixes lots, so a brew may contain malt from two or three deliveries. The honest model records that a brew drew from the silo during a time window, then lists the lots that were in it. That is less precise but true. Pretending each brew used exactly one lot makes the data look clean and the recall wrong.</p>"
+  ],
+  [
+   "A worked trace",
+   "<p>Here is an illustrative trace. A complaint arrives about a bottle with batch code showing line 2, 14 March, 10:40. The packaging record shows line 2 drew from bright tank 6 from 08:00 to 13:00. Bright tank 6 was filled from fermenters 11 and 12. Those fermenters held brews 3101 to 3106. Those brews used two malt lots, one rice lot and one hop lot.</p><p>Going forward, bright tank 6 also fed line 3 that afternoon. So the affected product is two packaging runs, about 14,000 cases, on maybe 20 pallets sent to four depots. With a good model this trace is a query. Without one it is a day of phone calls. The numbers are invented. The shape of the trace is typical.</p>"
+  ],
+  [
+   "Design choices for IT teams",
+   "<p>Model the genealogy as a set of parent and child links between lots, each with quantity and time. Keep raw identifiers exactly as printed, since a batch code typed differently from how it appears on the bottle will not match. Capture transfers automatically from automation systems where possible, as our guide to <a href=\"beer-industry-explained-for-gcc-teams.html\">the beer industry for GCC teams</a> outlines at a high level. Record quality release status at each node too, so a trace shows which lots were held.</p><p>Costing teams use the same links, since <a href=\"beer-cost-of-goods-explained.html\">cost of goods</a> depends on which materials went into which beer.</p><p>A first step: run a mock recall with the quality team on one recent packaging run. Time it and note every step that needed paper or a phone call. Those steps are your data gaps.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is batch traceability in a brewery?",
+   "The ability to follow finished beer back to every raw material lot and process step and forward to every customer it reached."
+  ],
+  [
+   "Why is beer traceability complex?",
+   "Brews are combined in fermenters, tanks are combined in filtration and one tank feeds several packaging runs, so the links form a graph rather than a chain."
+  ],
+  [
+   "What is a mock recall?",
+   "A practice trace where the team follows a lot backward and forward through the records to test how quickly and accurately they can identify affected product."
+  ],
+  [
+   "What is an SSCC?",
+   "A serial shipping container code, a GS1 standard identifier used on pallet labels to track individual pallets through the supply chain."
+  ]
+ ],
+ "cta": {
+  "title": "Help your IT team model the brewery as it really runs",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that walk technology teams through how beer is made.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-industry-explained-for-gcc-teams",
+  "beer-production-planning-basics",
+  "beer-cost-of-goods-explained"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "keeping-keg-cold-rooms-at-a-steady-temperature-in-summer",
+ "cat": "Tasting",
+ "h1": "Keeping keg cold rooms at a steady temperature in summer",
+ "title": "Keeping a Keg Cold Room Steady in Summer | Craft Beer School",
+ "desc": "How to hold a keg cold room at 2 to 4 °C through an Indian summer: heat load from warm kegs, door habits, condenser care and power cuts.",
+ "teaser": "Ten warm kegs carry about 15 kWh of heat into your cold room. Plan for it or watch the room drift.",
+ "standfirst": "A keg cold room that holds 3 °C in December can drift to 7 or 8 °C in May. The beer foams, carbonation wanders and staff blame the taps. The fixes are mostly habits: how kegs come in, how the door is used and how the refrigeration plant is looked after. Here is what keeps a cold room steady when it is 40 °C outside.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Hold 2 to 4 °C and measure it properly",
+   "<p>Most draught systems are designed around beer at 2 to 4 °C. Every pressure setting assumes it. A cold room running at 6 °C needs more gas pressure to hold the same carbonation, so beer balanced for 3 °C starts losing CO2 and pouring flatter, or foams as it warms further in the line.</p><p>Measure the beer, not the air. Air temperature jumps every time the door opens. Put a probe in a bottle of water or beer on a middle shelf and read that. Log it at least twice a day in summer, ideally with a cheap data logger that records overnight.</p>"
+  ],
+  [
+   "Warm deliveries are the biggest heat load",
+   "<p>A 50 litre keg arriving at 30 °C has to lose a lot of heat to reach 3 °C. Beer has a specific heat of roughly 4 kJ per kg per °C. So 50 kg x 4 kJ x 27 °C is about 5.4 MJ, or 1.5 kWh, for the beer alone before counting the steel. Ten warm kegs carry about 15 kWh of heat into the room.</p><p>If the refrigeration was sized for steady holding rather than pull down, a big delivery can push the room up several degrees for a day. Spread deliveries across the week, ask for morning drops before the heat builds and put warm kegs where air can flow around them. Never stack warm kegs against the evaporator, which blocks air for everything else.</p><p>A pre-chill area helps if you have the space. Some bars keep a second, smaller cold room or a large keg fridge where new deliveries come down to temperature before moving into the main room. That keeps the serving room steady while the new kegs do their cooling elsewhere.</p>"
+  ],
+  [
+   "Door habits matter more than the thermostat",
+   "<p>Every time the door opens, cold air spills out across the floor and warm humid air flows in. In a hot, humid city, that warm air also brings moisture, which ices the evaporator coil and cuts its capacity.</p><ul><li>Fit a strip curtain inside the door.</li><li>Fit a self closing door and check the gasket seals all round. A sheet of paper shut in the door should be hard to pull out.</li><li>Plan keg changes and stock checks so staff go in once with a list, not five times.</li><li>Do not store kitchen produce in the keg cold room. Chefs open doors often.</li></ul>"
+  ],
+  [
+   "Look after the condenser",
+   "<p>The condenser is the part outside that dumps the heat. It works by blowing outdoor air across hot fins. On a 40 °C roof, the air it blows is already hot, so the system has less margin. Dirt on the fins makes it worse.</p><p>Keep the condenser in shade with free air on all sides, never boxed in. Clean the fins at least every quarter and monthly in dusty or kitchen exhaust areas. Ask your refrigeration contractor to check gas charge and fan operation before summer, not during the first heatwave.</p><p>Inside the room, check the evaporator fans and the defrost cycle. In humid weather the coil collects ice faster. If defrost is set for the dry season, ice can build up between cycles and choke the airflow. Your contractor can shorten the interval for the monsoon and summer months.</p>"
+  ],
+  [
+   "Plan for power cuts",
+   "<p>A well insulated cold room full of cold kegs holds its temperature for a few hours with the door shut. Opened every ten minutes during a power cut, it does not. If the site has a generator or backup supply, make sure the cold room compressor is on it. If not, keep the door shut during outages and avoid changing kegs until power returns.</p><p>After a long outage, check the beer temperature before service. Kegs that warmed to 10 °C will pour foamy until they are cold again. Our guide to <a href=\"flash-coolers-versus-cold-rooms-for-serving-draught-beer.html\">flash coolers versus cold rooms</a> covers what warm storage does to beer.</p>"
+  ],
+  [
+   "Signs your cold room is losing the fight",
+   "<ul><li>Beer temperature in the glass creeping up through the afternoon.</li><li>Ice building up on the evaporator coil faster than defrost clears it.</li><li>The compressor running continuously without cycling off.</li><li>Condensation or water pooling around the door.</li><li>First pours foaming on taps that were fine in winter.</li></ul><p>Any of these is a reason to call the refrigeration contractor before the room fails completely on a busy weekend.</p>"
+  ],
+  [
+   "Taste the beer as well as reading the dial",
+   "<p>Warm storage leaves its mark on flavour. A craft beer held at 7 °C for two weeks instead of 3 °C ages faster: hop aroma fades and papery, stale notes start to show. A weekly tasting of each tap against a fresh pack of the same beer will catch it. Our guide to <a href=\"daily-draught-quality-checks-a-bar-manager-can-do-in-ten.html\">daily draught quality checks</a> builds that into a routine.</p><p>Your first step: put a probe thermometer in a bottle of water on the middle shelf of your cold room today and log it at opening and at 4 pm for one week. If the afternoon reading is ever above 4 °C, start with the door and the condenser.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature should a keg cold room be?",
+   "About 2 to 4 °C for most draught beer. Measure a bottle of liquid on a shelf rather than the air."
+  ],
+  [
+   "Why does my cold room warm up after a delivery?",
+   "Warm kegs bring a lot of heat. A single 50 litre keg at 30 °C holds about 1.5 kWh of heat that the room must remove."
+  ],
+  [
+   "How often should a cold room condenser be cleaned?",
+   "At least every quarter. Clean it more often in dusty areas or near kitchen exhausts."
+  ]
+ ],
+ "cta": {
+  "title": "Keep beer cold when the weather is not",
+  "body": "Sensory Evaluation is our two week live course (₹5,999). It trains brewers and bar teams to taste what a draught system does to beer: buttery diacetyl from dirty lines, sourness, flat or prickly carbonation and warm serving, so you catch faults a pressure gauge cannot show.",
+  "href": "sensory-evaluation-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "flash-coolers-versus-cold-rooms-for-serving-draught-beer",
+  "beer-serving-temperature",
+  "tasting-beer-with-a-cold"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "slug": "building-a-monthly-management-accounts-pack-for-a-brewery",
+ "cat": "Business",
+ "h1": "Building a monthly management accounts pack for a brewery",
+ "title": "Monthly Management Accounts: Brewery | Craft Beer School",
+ "desc": "What a brewery's monthly management accounts pack should hold: P&L against budget, cash, debtors, stock, kegs and the brewing KPIs.",
+ "teaser": "Your accountant's year-end figures arrive months too late to steer by. A monthly pack fixes that.",
+ "standfirst": "Statutory accounts tell you what happened last year. A monthly management pack tells you what is happening now, in time to act. Here is what a brewery's pack should contain and how to build it in a spreadsheet you will actually use.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Management accounts are for steering, not filing",
+   "<p>The accounts your auditor signs are for the tax department, the bank and your shareholders. They come once a year, often six months after the year ends. By then a slow leak in yield or a debtor who stopped paying in March has already cost you.</p> <p>Management accounts are internal. They follow whatever format helps you run the business, monthly, within ten working days of month end. Their job is to answer four questions: did we make money, where is the cash, what do people owe us and what is changing on the floor?</p>"
+  ],
+  [
+   "Page one: profit and loss against budget",
+   "<p>Start with a one page profit and loss for the month and the year to date, set against your budget and the same month last year. Keep the lines few and meaningful:</p> <ul><li>Beer sales, split by taproom, kegs to other venues and packaged beer.</li><li>Food and other sales if you run a kitchen.</li><li>Cost of goods for beer and for food, separately.</li><li>Gross margin, in rupees and as a percentage, for each stream.</li><li>Staff, rent, utilities, marketing and other overheads.</li><li>Excise and licence costs, if not already in cost of goods.</li><li>Operating profit before interest, tax and depreciation.</li></ul> <p>Add a column showing the variance against budget. Any line more than 10% off budget gets one sentence of explanation. Our guide to <a href=\"reading-a-brewery-profit-and-loss-statement-as-a-founder.html\">reading a brewery P&amp;L</a> explains each line.</p>"
+  ],
+  [
+   "Page two: cash, debtors and creditors",
+   "<p>Profit and cash are not the same thing. Breweries feel the difference sharply. Show:</p> <ul><li>Bank balance at month end and the movement in the month.</li><li>A rolling 13-week cash forecast, with excise dates, rent, salaries and loan repayments marked.</li><li>Debtors ageing: who owes you, split into 0 to 30, 31 to 60, 61 to 90 and over 90 days.</li><li>Creditors: what you owe malt and hop suppliers and when it falls due.</li></ul> <p>The debtors table is often the most useful page in the pack. A bar account sliding from the 31 to 60 column into 61 to 90 is a phone call this week, not a bad debt next quarter.</p>"
+  ],
+  [
+   "Page three: stock and kegs",
+   "<p>Breweries carry a lot of value in odd places. Value your stock monthly at cost:</p> <ul><li>Raw materials: malt, hops, yeast, packaging.</li><li>Beer in tanks, valued at cost to date.</li><li>Finished beer in kegs, cans or bottles, including duty already paid on it where applicable.</li></ul> <p>Add a keg register: kegs owned, kegs at the brewery, kegs out with accounts and kegs unaccounted for. A brewery with 200 kegs that has lost track of 30 has a large sum of capital sitting in other people's cold rooms. Our guide to <a href=\"keg-tracking-and-losses.html\">keg tracking and losses</a> covers the count.</p>"
+  ],
+  [
+   "Page four: the brewing numbers behind the money",
+   "<p>The finance pages show the result. The production page shows the cause. Keep it to a handful of indicators, tracked month by month:</p> <ul><li>Litres brewed and litres sold.</li><li>Brewhouse efficiency, the share of available extract that reaches the fermenter, typically somewhere around 70 to 80% on small systems.</li><li>Beer loss from brewhouse to glass, as a percentage.</li><li>Cost per litre sold.</li><li>Energy use per hectolitre where you have a meter.</li></ul> <p>This is where a Master Brewer's eye matters. A 4% rise in cost per litre usually has a production cause: lower efficiency from a worn mill gap, more beer dumped at the tank bottom or a dispense loss from a leaking coupler. Without this page you see the symptom and never find the cause.</p>"
+  ],
+  [
+   "Build it once, then fill it every month",
+   "<p>Start with a spreadsheet: one tab per page, one data tab that each page reads from and a tab for the budget. Our guide to <a href=\"building-a-brewery-financial-model-in-a-spreadsheet-tab-by.html\">building a brewery financial model</a> uses the same structure. Get the bookkeeping closed by the fifth working day. Fill the production numbers from the brew log and the till. Review it with your partners or investors in a fixed hour each month.</p> <p>Resist adding pages. A pack nobody reads in full is worse than a short one read every month.</p>"
+  ],
+  [
+   "Agree the format with your accountant this month",
+   "<p>The hard part is not the spreadsheet. It is the discipline of closing the books on time, valuing stock honestly and reading the pack as a decision tool. That is exactly the work we do with founders on real brewery numbers.</p> <p>Your first step: ask your accountant to close this month by the tenth working day. Build page one from that close, even roughly. A rough pack every month beats a perfect one never.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How soon after month end should management accounts be ready?",
+   "Within ten working days is a good target. Later than that and the numbers are too old to act on."
+  ],
+  [
+   "What is the difference between management and statutory accounts?",
+   "Statutory accounts are annual, audited and follow a legal format. Management accounts are internal, monthly and built to help you run the business."
+  ],
+  [
+   "Which brewery KPIs belong in a monthly pack?",
+   "Litres brewed and sold, brewhouse efficiency, beer loss, cost per litre sold and debtors ageing are a good core set."
+  ]
+ ],
+ "cta": {
+  "title": "Run your brewery on numbers you trust",
+  "body": "Brewery Business Management runs as live weekend classes over three weeks (₹8,999), with a maximum of 20 founders per batch, recordings and a certificate. We build a monthly management pack around your own brewery's figures.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "brewery-safety-culture",
+  "building-a-brewery-financial-model-in-a-spreadsheet-tab-by"
+ ]
+}

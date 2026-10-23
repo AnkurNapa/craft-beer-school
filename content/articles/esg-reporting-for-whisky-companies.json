@@ -1,0 +1,71 @@
+{
+ "slug": "esg-reporting-for-whisky-companies",
+ "cat": "Whisky",
+ "h1": "ESG reporting for whisky companies",
+ "title": "ESG Reporting for Whisky Companies | Craft Beer School",
+ "desc": "How ESG reporting works for whisky companies: the frameworks, India's BRSR, the topics that matter most for spirits and the production data behind them.",
+ "teaser": "An ESG report for a whisky company is built from boiler logs, water meters and marketing codes. Here is how it fits together.",
+ "standfirst": "Environmental, social and governance reporting asks a whisky company to explain its impact in numbers. This guide sets out the frameworks, the topics specific to spirits and where the data really comes from.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What ESG reporting is for",
+   "<p>ESG stands for environmental, social and governance. An ESG report tells investors, regulators, customers and employees how a company manages its impact and its risks beyond the financial accounts. For a drinks company that includes emissions, water and packaging, but also responsible marketing, community impact and how the board oversees all of it.</p><p>The report is only as good as the data under it. Most of that data lives in operations: fuel invoices, meter readings, effluent tests, supplier records and training logs.</p>"
+  ],
+  [
+   "The frameworks you will hear about",
+   "<ul><li><strong>Greenhouse Gas Protocol:</strong> the standard for measuring emissions in scope 1 (direct), scope 2 (purchased electricity) and scope 3 (value chain).</li><li><strong>GRI Standards:</strong> widely used global standards for reporting impacts on the economy, environment and people.</li><li><strong>ISSB standards:</strong> IFRS S1 and IFRS S2, issued in 2023, focused on sustainability and climate information for investors.</li><li><strong>BRSR:</strong> India's Business Responsibility and Sustainability Report, required by SEBI from the largest listed companies by market capitalisation, with a core set of indicators subject to assurance.</li></ul><p>Which apply depends on where a company is listed, where it sells and who owns it. Requirements change, so the reporting team should work from the current SEBI circulars and framework versions.</p>"
+  ],
+  [
+   "Environmental topics for spirits",
+   "<p>The environmental story of a whisky company sits in a few places. <strong>Energy and emissions</strong> come mainly from distillation steam and from glass. <strong>Water</strong> covers process, cooling and reduction water, plus the local water stress where each distillery sits. <strong>Effluent</strong> matters most for molasses distilleries, where pollution control boards push towards zero liquid discharge. <strong>Packaging</strong> covers glass weight, recycled content and secondary packs.</p><p>Typical intensity measures are water and energy per litre of pure alcohol produced. Using pure alcohol rather than bulk litres keeps years with different strengths comparable. Our guide to <a href=\"the-carbon-footprint-of-a-bottle-of-whisky.html\">the carbon footprint of a bottle of whisky</a> follows the emissions stage by stage.</p>"
+  ],
+  [
+   "Social topics are where alcohol is different",
+   "<p>For an alcohol company, the social section carries topics most industries do not face. Responsible marketing and the prevention of underage drinking come first: how the company keeps advertising away from anyone below the legal drinking age, which in India is set by each state. Product safety and counterfeit prevention follow, since illicit spirits can contain dangerous methanol levels. Then come health and safety in distilleries and warehouses, where ethanol vapour is a fire risk, plus farmer and supplier relationships for grain.</p><p>These topics need evidence, not statements: marketing code compliance checks, training records, incident logs and supplier audits.</p>"
+  ],
+  [
+   "Governance and the excise reality",
+   "<p>Governance covers board oversight, ethics, anti-corruption and how sustainability targets connect to management incentives. In Indian spirits, governance has a particular texture because so much of the business runs through state excise permits, approvals and government-run channels. Clear policies on permits, pricing and dealings with officials belong in this section.</p><p>Rules vary by state and change, so the governance narrative should describe processes and controls rather than make claims about specific rules.</p>"
+  ],
+  [
+   "The production data behind the numbers",
+   "<p>From the distillery side, most environmental indicators come from a short list of sources, read monthly for every site: boiler fuel deliveries and stock, electricity bills and sub-meters, borewell and municipal water meters, effluent test reports and the litres of alcohol produced. Emissions are calculated by multiplying each fuel and power quantity by a published emission factor for that fuel or grid.</p><p>The weak points are predictable. A meter that was broken for two months, a fuel tank dipped by eye, a site that reports bulk litres while the others report pure alcohol. Twelve clean months of readings per site, with a note against every estimate, is worth more to an assurance provider than a polished chart. If your team is also asked to explain why the numbers moved, our guide to <a href=\"water-and-energy-in-whisky-sustainability.html\">water and energy in whisky sustainability</a> covers the production levers.</p>"
+  ],
+  [
+   "Materiality decides what goes in",
+   "<p>A materiality assessment decides which topics matter enough to report in depth. Some frameworks ask about financial materiality (how the topic affects the company), some about impact materiality (how the company affects people and the environment) and the European approach asks for both, called double materiality. For a whisky company, water, energy, packaging and responsible marketing almost always come out on top.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Pick one indicator your company already reports, such as water use per litre of alcohol. Trace it back to its source: which meters, which sites, which months and who enters the number. If any step depends on one person's spreadsheet, that is where the next audit question will land.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is BRSR?",
+   "The Business Responsibility and Sustainability Report is SEBI's sustainability disclosure for the largest listed companies in India, with a core set of indicators subject to assurance."
+  ],
+  [
+   "Which ESG topics matter most for whisky companies?",
+   "Energy and emissions, water, effluent, packaging and responsible marketing usually come out on top, along with product safety and supplier relationships."
+  ],
+  [
+   "Where does ESG data come from in a distillery?",
+   "Mostly from operations: fuel and power bills, water meters, effluent tests, supplier records, training logs and marketing compliance checks."
+  ]
+ ],
+ "cta": {
+  "title": "Show your team the operations behind the ESG report",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "how-whisky-is-made",
+  "malt-grain-and-blended-whisky",
+  "whisky-styles-of-the-world"
+ ]
+}

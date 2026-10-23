@@ -1,0 +1,71 @@
+{
+ "slug": "a-career-as-a-distillery-qc-chemist",
+ "cat": "Whisky",
+ "h1": "A career as a distillery QC chemist",
+ "title": "A Career as a Distillery QC Chemist | Craft Beer School",
+ "desc": "What a distillery quality control chemist does, the tests they run from molasses to bottle and how to move into the role in India.",
+ "teaser": "The QC lab is where a distillery finds out whether the spirit is safe, legal and on spec. Someone has to run it.",
+ "standfirst": "Every distillery has a quality control lab, from a small malt plant to a large molasses complex. The chemists there test raw materials, follow fermentation, check spirit strength and screen for contaminants. It is a solid career for science graduates who like precise work. Here is what the job involves.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the QC lab is for",
+   "<p>The lab answers three questions all day. Is the incoming material fit to use? Is the process running as it should? Does the finished spirit meet the specification and the law? A QC chemist samples at each stage, runs the tests, records results and flags anything out of range before it becomes a problem in the bottle.</p><p>In India the lab also supports excise. Strength readings decide how much alcohol is recorded and taxed. A wrong reading is a compliance problem as well as a quality one. Our guide to <a href=\"setting-up-a-distillery-quality-control-lab.html\">setting up a distillery QC lab</a> covers the equipment side.</p>"
+  ],
+  [
+   "Raw material tests",
+   "<p>Testing starts at the gate. For molasses distilleries that means fermentable sugar content, because it decides how much alcohol each tonne can yield. For grain and malt plants it means moisture, starch or extract and checks for mould or foreign matter. Water is tested too, since process water and reduction water need different standards.</p><p>These numbers feed directly into yield calculations. A plant tracking litres of alcohol per tonne of raw material needs a reliable starting figure. Our guide to <a href=\"litres-of-alcohol-per-tonne-as-a-distillery-kpi.html\">litres of alcohol per tonne</a> explains why that KPI matters so much.</p>"
+  ],
+  [
+   "Following fermentation",
+   "<p>During fermentation the chemist tracks specific gravity or sugar as it falls, temperature, pH and the health of the yeast. A typical whisky wash ferments over two to four days to around 7 to 9% ABV. A fermentation that slows or sours early points to contamination or stressed yeast.</p><p>Microscope checks for bacteria and yeast counts are routine in many labs. In Indian heat, warm fermentations make bacterial contamination more likely, so early warning from the lab saves alcohol that would otherwise be lost to acid-producing bacteria.</p>"
+  ],
+  [
+   "Measuring the spirit",
+   "<p>Alcohol strength is the most important number in a distillery. Labs measure it by density, using hydrometers or digital density meters. Readings are corrected to a reference temperature of 20 °C. For samples with sugar or other dissolved solids, the lab may distil the sample first to get a true reading.</p><p>Beyond strength, gas chromatography (GC) profiles the congeners in spirit: methanol, acetaldehyde, ethyl acetate and higher alcohols such as isoamyl alcohol. These compounds shape flavour and some are regulated. Methanol in particular is tested routinely. FSSAI standards set limits for spirits in India, so results must be recorded and kept.</p>"
+  ],
+  [
+   "Sensory work in the lab",
+   "<p>Instruments do not catch everything. Many distillery labs run sensory panels to nose new make spirit, maturing whisky and finished blends against standards. QC chemists often join or lead these panels. Samples are usually diluted to around 20% ABV, then nosed rather than drunk.</p><p>Sensory skill makes a QC chemist far more useful. A chemist who can link a GC peak to a smell, such as ethyl acetate to a solvent or nail varnish note, becomes the person production asks first.</p>"
+  ],
+  [
+   "Records and audits",
+   "<p>A QC lab lives by its records. Every sample gets an identity, a time, a result and the name of the person who ran it. Instruments are calibrated on a schedule and the calibration is logged: a density meter checked against water and a reference standard, a GC run with known standards before samples. If a result is ever questioned by an auditor, an excise officer or a customer, the lab must show how it was produced.</p><p>This is where many new chemists are surprised. Half the job is chemistry. The other half is documentation that would stand up to someone looking for mistakes. Labs that keep retained samples of every bottling batch can answer a complaint months later by testing the same liquid again. That habit protects the company and the chemist who signed the result.</p>"
+  ],
+  [
+   "Who gets hired",
+   "<p>Most QC chemists have a degree in chemistry, biochemistry, microbiology, biotechnology or food technology. Lab experience with titration, density measurement, pH and basic microbiology helps. GC experience is valued. So is careful record keeping, because the lab's data is evidence for regulators and auditors.</p><p>The career can lead to quality manager roles, process development or blending. Many master blenders started in the lab, where they learned to connect analysis with aroma.</p>"
+  ],
+  [
+   "Where the gap usually is",
+   "<p>Graduates arrive knowing chemistry but not distilling. They can run a GC but do not yet know why a change in fermentation temperature raises higher alcohols or why heads and tails cuts change methanol and fusel levels. That process knowledge is what turns a lab technician into a chemist production trusts.</p><p>A practical first step: learn the full process from mash to cask so every test you run has a reason. Then ask a local distillery whether their lab takes interns or trainees.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What tests does a distillery QC lab run?",
+   "Raw material quality, fermentation gravity and pH, alcohol strength by density at 20 °C, congener profiles by GC including methanol and sensory checks."
+  ],
+  [
+   "Which degree suits a distillery QC chemist?",
+   "Chemistry, biochemistry, microbiology, biotechnology or food technology are the usual routes."
+  ],
+  [
+   "Can a QC chemist become a blender?",
+   "Yes. Many blenders start in the lab, where sensory panels and analysis meet."
+  ]
+ ],
+ "cta": {
+  "title": "Know why each test matters to the spirit",
+  "body": "Our Craft Distilling course runs over 4 weekends live online. It covers fermentation, distillation, cuts and maturation so a chemist can link every lab result to what happened on the plant. It costs ₹9,999, with recordings, weekly assignments and a certificate.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "litres-of-alcohol-per-tonne-as-a-distillery-kpi",
+  "shift-life-as-a-distillery-operator",
+  "whisky-writing-and-journalism-as-a-career"
+ ]
+}

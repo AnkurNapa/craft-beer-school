@@ -1,0 +1,71 @@
+{
+ "slug": "german-wheat-beer-yeast-strains-compared",
+ "cat": "Ingredients",
+ "h1": "German wheat beer yeast strains compared",
+ "title": "German Wheat Beer Yeast Strains Compared | Craft Beer School",
+ "desc": "Banana or clove? How the main hefeweizen yeast strains differ plus the temperature and mash tricks that steer the balance at home.",
+ "teaser": "Every hefeweizen yeast makes banana and clove. The strain and your fermentation temperature decide which one wins.",
+ "standfirst": "German wheat beer gets its character almost entirely from yeast. The well-known strains all make banana and clove, but in different proportions. Pick the strain first, then use temperature and pitch rate to fine tune it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Banana and clove come from two different compounds",
+   "<p>The banana in a hefeweizen is isoamyl acetate, an ester the yeast makes during fermentation. The clove is 4-vinyl guaiacol (4VG), a phenol formed when the yeast converts ferulic acid from the malt. Yeasts that can do that conversion are called POF positive, for phenolic off-flavour, a name that makes sense in a lager and none at all in a weissbier.</p><p>Because the two flavours come from different pathways, you can push them separately. Temperature and pitch rate move the esters most. The mash and the strain move the phenols. If you want to know more about how yeast choice shapes beer, our comparison of <a href=\"american-ale-yeast-strains-compared.html\">American ale yeast strains</a> covers the cleaner end of the spectrum.</p>"
+  ],
+  [
+   "The Weihenstephan strain is the classic balance",
+   "<p>Wyeast 3068 Weihenstephan Weizen and White Labs WLP300 Hefeweizen Ale are both linked to the Weihenstephan 68 strain. This is the yeast most homebrewers mean when they say hefeweizen. It gives a strong banana note with clove behind it, a soft fruitiness and low flocculation, so the beer stays cloudy as the style requires.</p><p>It is also a vigorous top cropper. In a 20 litre fermenter with too little headspace it will push foam through the airlock. Leave at least a quarter of the vessel empty or fit a blow-off tube.</p>"
+  ],
+  [
+   "Other liquid strains lean one way or the other",
+   "<ul><li><strong>Wyeast 3333 German Wheat</strong> is often described as more balanced and slightly tart, with less banana than 3068.</li><li><strong>White Labs WLP380 Hefeweizen IV</strong> leans towards clove and apricot, with banana lower in the mix.</li><li><strong>Wyeast 3638 Bavarian Wheat</strong> gives a more complex fruit profile, with apple and bubblegum notes alongside banana and clove.</li></ul><p>Suppliers' descriptions are a starting point, not a promise. The same strain can taste quite different in two kitchens because of temperature, wort and pitch rate.</p>"
+  ],
+  [
+   "Dry yeasts are easier to find in India",
+   "<p>Liquid yeast needs a cold chain from the lab to your door, which is hard to guarantee in an Indian summer. Dry wheat beer strains travel much better. Fermentis SafAle WB-06 and Lallemand LalBrew Munich Classic are the two most homebrewers can find.</p><p>WB-06 tends to give more clove and pepper with modest banana and very high attenuation, which can leave the beer thinner than a classic weissbier. Munich Classic is usually described as closer to the traditional balance, with more banana. Rehydrate either in water at the temperature on the packet before pitching. One 11 g sachet suits a 20 litre batch at normal gravity.</p>"
+  ],
+  [
+   "Temperature moves the banana",
+   "<p>As a broad rule, cooler fermentations favour clove and warmer ones favour banana. Around 17 to 18 °C most strains give a clove-forward beer. Around 20 to 22 °C the banana comes up. Above about 24 °C many strains start to throw fusel alcohols that taste hot and solventy. That is easy to reach in an Indian flat in May with no temperature control.</p><p>A wet towel and a fan around the fermenter can hold a few degrees below room temperature. A secondhand fridge with an external thermostat is the single best piece of kit a homebrewer here can buy for wheat beer.</p>"
+  ],
+  [
+   "Pitch rate and the mash finish the job",
+   "<p>Slight underpitching raises ester production, so some brewers pitch a little less yeast than the textbook rate to push the banana. Go too far and you invite a slow start and other off-flavours. Pitching a fresh sachet into a normal 1.048 to 1.052 wort is a safe middle.</p><p>For more clove, a ferulic acid rest in the mash helps. Holding the mash at around 43 to 45 °C for 10 to 15 minutes before the main saccharification rest frees more ferulic acid for the yeast to convert. It only helps with a POF positive strain and makes no difference to a clean ale yeast.<p>Wheat malt has no husk, so a mash of more than half wheat can run slowly. A handful of rice hulls in the mash tun keeps the lauter moving.</p>"
+  ],
+  [
+   "Run a split batch to learn your strain",
+   "<p>The fastest way to understand these yeasts is to taste them side by side. Brew one 20 litre batch of a simple weissbier, at least 50% wheat malt with pilsner malt for the rest. Split it into two fermenters. Pitch two different strains, or the same strain at two temperatures three or four degrees apart. Taste both after two weeks and note where the banana and clove sit. That one comparison will teach you more than any strain chart.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which yeast gives the most banana in a hefeweizen?",
+   "The Weihenstephan strain, sold as Wyeast 3068 and WLP300, is known for strong banana, especially fermented around 20 to 22 °C."
+  ],
+  [
+   "How do I get more clove in my wheat beer?",
+   "Ferment cooler (around 17 to 18 °C) and add a ferulic acid rest at about 43 to 45 °C in the mash."
+  ],
+  [
+   "Is WB-06 good for hefeweizen?",
+   "It works and is easy to find, but it tends to give more clove than banana and can finish very dry."
+  ],
+  [
+   "Why is my wheat beer solventy?",
+   "Fermentation probably ran too warm. Above about 24 °C many wheat strains produce harsh fusel alcohols."
+  ]
+ ],
+ "cta": {
+  "title": "Control flavour from the fermenter, not by luck",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It goes deep into yeast metabolism, esters, phenols and fermentation control so you can steer a beer's flavour on purpose.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "lager-yeast-strains-compared",
+  "american-ale-yeast-strains-compared",
+  "english-ale-yeast-strains-compared"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "mash-out-and-why-some-homebrewers-skip-it",
+ "cat": "Brewing basics",
+ "h1": "Mash out and why some homebrewers skip it",
+ "title": "Mash Out and Why Homebrewers Skip It | Craft Beer School",
+ "desc": "What a mash out does at 75 to 78 °C, when it helps and why brew in a bag and batch sparge brewers often skip it.",
+ "teaser": "A mash out takes ten minutes and a pot of hot water. Some brewers swear by it. Others never bother. Both can be right.",
+ "standfirst": "A mash out raises the mash to around 75 to 78 °C before draining. It stops the enzymes and makes the wort flow more easily. Whether you need one depends on how you lauter. Here is how to decide.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a mash out does",
+   "<p>During the mash, enzymes from the malt convert starch into sugar. They keep working as long as the temperature allows. A mash out raises the whole mash to about 75 to 78 °C and holds it there for around 10 minutes. At that temperature the main starch-converting enzymes are quickly denatured. The sugar profile of the wort is fixed.</p><p>The second effect is physical. Hot wort is thinner and flows more easily than wort at 65 °C. That helps the liquid drain through the grain bed and rinse sugars out during sparging.</p><p>Neither effect is dramatic on a small system. Both are real. Commercial brewers lean on the mash out because a stuck lauter in a 10 hl brewhouse costs hours. At home the stakes are lower, which is why the step is often treated as optional.</p>"
+  ],
+  [
+   "Why it matters for fermentability",
+   "<p>If you mash at 64 °C for a dry beer, then spend an hour fly sparging at a mash bed temperature that drifts around 70 °C, the enzymes keep working at a new balance. You end up with a different wort from the one you planned. A mash out fixes the profile at the end of your chosen rest.</p><p>For most homebrew batches the difference is small. It matters most when you are chasing a specific finish, such as a very dry saison or a full-bodied stout, or when you want two brews of the same recipe to match.</p>"
+  ],
+  [
+   "Why fly sparging benefits most",
+   "<p>Fly sparging rinses the grain slowly over 45 minutes to an hour. During that time the mash would otherwise sit warm with enzymes still active. A sticky, cool grain bed is also more likely to compact and stall.</p><p>Raising the mash to 76 °C before you start keeps the bed loose and the run-off steady. Commercial brewhouses do this routinely for the same reasons. Our guide to <a href=\"batch-sparging-versus-fly-sparging-at-home.html\">batch versus fly sparging</a> compares the two methods.</p>"
+  ],
+  [
+   "Why many homebrewers skip it",
+   "<p>Plenty of homebrewers skip the mash out and make excellent beer. The reasons are practical:</p><ul><li><strong>Brew in a bag:</strong> the bag comes out and the wort goes straight on the heat. It passes through 75 °C on the way to the boil within minutes.</li><li><strong>Batch sparging:</strong> sparge water at 75 to 80 °C raises the mash on its own. The run-off is quick, so enzymes have little time to change the wort.</li><li><strong>Cooler box mash tuns:</strong> there is no heat source, so mash out needs a large addition of boiling water. Many tuns do not have room.</li></ul><p>For these setups, the mash out saves little and costs a pot of boiling water and ten minutes.</p><p>There is also a gas cost. On a domestic LPG stove, heating a full mash by 10 degrees while stirring is slow. Many brewers would rather spend that time and fuel getting the kettle to the boil.</p>"
+  ],
+  [
+   "How to do one in a cooler or a kettle",
+   "<p>On a kettle with a burner underneath, raise the heat while stirring constantly so the bottom does not scorch. Stop at 76 °C and hold for 10 minutes. On a cooler box mash tun, add boiling water. Mash software calculates the volume. It is often several litres for a 20 litre batch, which takes up space you may need for sparge water.</p><p>Do not overshoot above about 80 °C. Very hot water, especially if the pH has drifted up, extracts tannins from grain husks. Those give a harsh, astringent, tea-like dryness. A <a href=\"building-a-cooler-box-mash-tun-for-all-grain-brewing.html\">cooler box mash tun</a> owner should check the volume before brew day, not in the middle of it.</p>"
+  ],
+  [
+   "How to tell if you need one",
+   "<p>Look at two things in your <a href=\"keeping-a-brew-log.html\">brew log</a>. First, your attenuation: if the same recipe finishes at different gravities batch to batch, an uncontrolled mash end could be one cause. Second, your lauter: if the run-off often slows or sticks, a mash out may help.</p><p>If neither problem shows up, you can safely skip it. Understanding what each enzyme does at each temperature is what lets you make that call from your own numbers. That science sits at the core of a good fundamentals course.</p>"
+  ],
+  [
+   "Try it once and compare",
+   "<p>Brew the same recipe twice, once with a 10 minute mash out at 76 °C and once without. Record the run-off time, pre-boil gravity and final gravity. If the numbers barely move, drop the step. If the run-off is faster or the final gravity is more predictable, keep it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature is a mash out?",
+   "Around 75 to 78 °C, held for about 10 minutes."
+  ],
+  [
+   "Do I need a mash out with brew in a bag?",
+   "Usually not. The wort heats through mash out temperatures on its way to the boil within minutes."
+  ],
+  [
+   "Can a mash out cause astringency?",
+   "Only if you overshoot well above 80 °C, especially with a high mash pH. Stay within the range and it should not."
+  ]
+ ],
+ "cta": {
+  "title": "Know which brew day steps you can skip",
+  "body": "Brewing Fundamentals is our four week live course (₹5,999). It teaches the science behind mashing and lautering so you can decide which steps your system needs.",
+  "label": "See the full syllabus",
+  "href": "brewing-fundamentals-course.html"
+ },
+ "related": [
+  "mash-temperature-guide",
+  "a-bottling-day-checklist-for-homebrewers",
+  "building-a-cooler-box-mash-tun-for-all-grain-brewing"
+ ]
+}

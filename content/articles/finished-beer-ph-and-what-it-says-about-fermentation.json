@@ -1,0 +1,67 @@
+{
+ "slug": "finished-beer-ph-and-what-it-says-about-fermentation",
+ "cat": "Brewing science",
+ "h1": "Finished beer pH and what it says about fermentation",
+ "title": "Finished Beer pH and Fermentation | Craft Beer School",
+ "desc": "What a normal finished beer pH looks like, why it falls in fermentation and what a pH that is too high or too low tells you.",
+ "teaser": "A finished beer pH of 4.7 when it is usually 4.3 is the fermenter telling you something.",
+ "standfirst": "Finished beer pH is one of the cheapest numbers a brewery can measure. It sums up how hard the yeast worked, whether anything else grew and how stable the beer will be. Most breweries measure it and never look at it again.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What normal looks like",
+   "<p>Wort usually goes into the fermenter at about pH 5.0 to 5.3. Healthy fermentation brings that down to about 4.0 to 4.6 in most ales and lagers. Many pale lagers settle around 4.2 to 4.4. Stouts and very malty beers can sit a little higher because dark malts and higher gravity worts carry more buffering. Sour beers sit much lower, often 3.0 to 3.5, because lactic acid bacteria have been at work.</p><p>The exact number matters less than the consistency. Each of your beers will have its own typical finished pH. A change from that baseline is the signal.</p>"
+  ],
+  [
+   "Why pH falls during fermentation",
+   "<p>Yeast lower pH in two main ways. They take up ammonium and amino acids from the wort and release hydrogen ions in exchange. They also excrete organic acids such as succinic and acetic acid in small amounts. Dissolved carbon dioxide adds a little carbonic acid as well.</p><p>Most of the drop happens early, during the most active growth phase in the first day or two. A fast, steep fall usually means a healthy pitch. Our guide to <a href=\"what-the-ph-drop-during-fermentation-tells-a-brewer.html\">what the pH drop during fermentation tells a brewer</a> covers reading the curve batch by batch.</p>"
+  ],
+  [
+   "A pH that is too high",
+   "<p>If finished pH is noticeably above your normal, look at:</p><ul><li><strong>Weak or underpitched yeast.</strong> Less growth means less acid. The fermentation often also ran slow or finished high.</li><li><strong>Low free amino nitrogen.</strong> Yeast starved of nitrogen grow less and lower pH less. Worts with a lot of rice or maize are more at risk.</li><li><strong>Yeast autolysis.</strong> Dead yeast break down and release compounds that raise pH. Long warm storage on a yeast bed, common when a tank sits full in hot weather, can cause this along with meaty or soapy flavours.</li><li><strong>High buffering wort.</strong> A change in grist, especially more dark malt or a higher gravity, can raise finished pH even with healthy yeast.</li></ul><p>A high pH also matters for stability. Beer at higher pH is less hostile to spoilage organisms, so it gives less protection if anything gets in.</p>"
+  ],
+  [
+   "A pH that is too low",
+   "<p>A finished pH well below your normal for a clean beer is a warning. The usual cause is lactic acid bacteria, such as Lactobacillus or Pediococcus, producing lactic acid alongside the yeast. Check the beer for sourness, haze and, with Pediococcus, the butterscotch note of diacetyl. Plate it on selective media to confirm. A pH drop that continues after primary fermentation has finished is especially suspicious, because yeast alone do not keep lowering pH once they stop working.</p><p>Changes in water treatment can also lower pH a little, particularly a large increase in acid additions or a switch to softer water with less buffering.</p>"
+  ],
+  [
+   "How to measure it properly",
+   "<ol><li>Degas the sample first. Dissolved carbon dioxide lowers the reading slightly and bubbles on the electrode make it unstable.</li><li>Bring the sample to the same temperature every time, usually 20 °C.</li><li>Calibrate the meter with fresh pH 4 and pH 7 buffers. For sour beers, add a pH 3 or similar buffer if your meter allows it.</li><li>Rinse the electrode with distilled water between samples and record the reading once it settles.</li></ol><p>The floor detail: measure finished pH at the same point for every batch, for example at transfer to the bright tank. A number taken sometimes at the end of fermentation and sometimes after a week of conditioning cannot be compared.</p>"
+  ],
+  [
+   "Make it part of a simple trend",
+   "<p>One reading tells you little. A run of readings for the same beer tells you a lot. Record finished pH alongside original gravity, final gravity, days to terminal gravity and yeast generation. When the pH creeps up across generations, your yeast may be tiring. When a single batch drops sharply, check for infection before you package.</p><p>Connecting those numbers into a picture of yeast health is exactly the kind of work that turns a lab record into a decision. Our guide to <a href=\"daily-gravity-and-ph-checks-during-fermentation.html\">daily gravity and pH checks</a> shows how to log them.</p><p>Your first step: pull the finished pH readings for your last ten batches of one core beer. Put them in a column next to yeast generation. If you have never looked at them together, the pattern may surprise you.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a normal pH for finished beer?",
+   "Most ales and lagers finish around 4.0 to 4.6, with many pale lagers near 4.2 to 4.4. Sour beers are lower, often 3.0 to 3.5."
+  ],
+  [
+   "Why does beer pH drop during fermentation?",
+   "Yeast release hydrogen ions as they take up ammonium and amino acids. They also excrete small amounts of organic acids."
+  ],
+  [
+   "What does a high finished beer pH mean?",
+   "Often weak or underpitched yeast, low free amino nitrogen, yeast autolysis or a more heavily buffered wort."
+  ],
+  [
+   "What does an unexpectedly low pH mean?",
+   "In a clean beer it often points to lactic acid bacteria. Check for sourness and plate a sample to confirm."
+  ]
+ ],
+ "cta": {
+  "title": "Read your fermentations like a lab would",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers yeast physiology, fermentation chemistry and microbiology, so pH, gravity and flavour readings turn into clear decisions.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "what-the-ph-drop-during-fermentation-tells-a-brewer",
+  "daily-gravity-and-ph-checks-during-fermentation",
+  "mash-ph-explained"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "writing-an-equipment-specification-for-a-brewhouse-tender",
+ "cat": "Business",
+ "h1": "Writing an equipment specification for a brewhouse tender",
+ "title": "Writing a Brewhouse Specification | Craft Beer School",
+ "desc": "What to put in a brewhouse equipment specification so supplier quotes are comparable: capacities, materials, finishes, pressures, controls and tests.",
+ "teaser": "If three suppliers quote against a vague brief, you get three different brewhouses. A specification makes them quote the same one.",
+ "standfirst": "A tender is only as good as the specification behind it. Write down what you need in numbers and supplier quotes become comparable. Leave it vague and you will compare prices for machines that do different jobs.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the specification matters more than the price",
+   "<p>Most founders ask suppliers for a quote on a 10 hl brewhouse and pick the cheapest. The trouble is that 10 hl can mean cast-out volume, kettle volume or fermenter volume. It can mean a two-vessel or four-vessel system. It can mean 2 mm or 3 mm stainless. A clear specification turns those hidden variables into lines that every supplier must answer.</p><p>It also becomes the reference for your acceptance tests and your warranty claims. If it is not written down, you cannot reject it.</p>"
+  ],
+  [
+   "Start with the process, not the equipment",
+   "<p>Describe what the brewhouse must do before describing what it is.</p><ul><li><strong>Batch size.</strong> State cast-out wort volume into the fermenter, for example 1,000 litres at 12 °Plato.</li><li><strong>Gravity range.</strong> The strongest wort you plan, since high gravity needs more mash tun space.</li><li><strong>Brews per day.</strong> One, two or more, which sets heating power and vessel count.</li><li><strong>Styles.</strong> Step mashes or decoction need different heating and agitation from single infusion.</li><li><strong>Adjuncts.</strong> Rice or maize needs a cereal cooker.</li></ul><p>Our <a href=\"brewhouse-size-guide.html\">brewhouse size guide</a> helps translate a sales plan into these numbers.</p>"
+  ],
+  [
+   "Vessels, materials and finishes",
+   "<p>For each vessel, ask for gross and working volume, dimensions, wall thickness and material. Stainless steel 304 is standard for most brewery vessels. Some brewers specify 316 where chloride levels in water or cleaning chemicals are high. Ask for the internal surface finish as a roughness figure, commonly Ra 0.8 µm or better for product contact, rather than just \"polished\".</p><p>Other lines worth writing in:</p><ul><li>Kettle headspace, so a vigorous boil does not boil over.</li><li>Lauter tun false bottom design and target grain bed depth.</li><li>Fermenter cone angle, commonly around 60 degrees for yeast removal.</li><li>Design pressure and test pressure for every pressure vessel.</li><li>Insulation type and thickness on hot and cold vessels.</li></ul>"
+  ],
+  [
+   "Heating, cooling and utilities",
+   "<p>State your heat source: steam, electric or direct fire. Ask for installed heating power in kW and expected time from mash-in to knockout. Specify the wort chiller's duty, for example cooling 1,000 litres from boil to 12 °C within a stated time using water or glycol at a stated temperature.</p><p>Ask suppliers to list every utility the system needs: power in kW, water flow, compressed air, steam pressure, glycol load and drainage. That list is what your electrical and plumbing contractors will design around. It often surprises people.</p>"
+  ],
+  [
+   "Controls, documents and testing",
+   "<p>Spell out the control level you want and whether you get full access to the PLC code. Then list the paperwork:</p><ul><li>Material test certificates for stainless steel.</li><li>Pressure test reports for each pressure vessel.</li><li>General arrangement drawings and a P&amp;ID (piping and instrumentation diagram).</li><li>Operating and maintenance manuals in English.</li><li>A spare parts list with part numbers.</li></ul><p>Add a factory acceptance test before shipping and a site acceptance test after commissioning, each with pass criteria. A deadline without pass criteria is just a date.</p>"
+  ],
+  [
+   "Commercial terms belong in the tender too",
+   "<p>Ask every supplier to price on the same basis: ex-works, FOB or delivered to site. Ask what installation, commissioning and training are included and how many days of engineer time that covers. State your warranty expectation and payment milestones. Ask how many similar systems they have installed in India and whether you can speak to those brewers.</p><p>Putting a business plan, a capacity model and a tender on one consistent set of numbers is harder than it sounds. It is also where most budget overruns start. Our <a href=\"brewery-business-plan.html\">brewery business plan</a> guide shows how the pieces connect.</p>"
+  ],
+  [
+   "Mistakes we see in brewhouse tenders",
+   "<ul><li><strong>No cast-out volume.</strong> The quote names a \"10 hl brewhouse\" and you discover the kettle holds 10 hl, so the fermenter gets 8.5.</li><li><strong>No pressure rating.</strong> Unitanks quoted without a design pressure cannot be trusted to carbonate.</li><li><strong>Missing items.</strong> Platforms, hoses, pumps, the grist case, the CIP unit and the chiller often sit outside the headline price.</li><li><strong>No acceptance criteria.</strong> Without them, any machine that switches on counts as delivered.</li></ul><p>Each gap usually costs money after the deposit is paid, when you have the least bargaining power.</p>"
+  ],
+  [
+   "Your first draft",
+   "<p>Open a spreadsheet with one row per requirement and one column per supplier. Fill the requirements first: batch size, gravity range, brews per day, heat source and vessel list. Send the same sheet to every supplier and ask them to fill their column. Anyone who refuses to answer in your format has told you how the warranty will go.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between brewhouse volume and cast-out volume?",
+   "Cast-out is the volume of wort sent to the fermenter after the boil. Kettle volume is larger to allow headspace and evaporation. Always specify cast-out so quotes compare like with like."
+  ],
+  [
+   "Should brewery vessels be 304 or 316 stainless steel?",
+   "304 is standard for most brewery vessels. 316 resists chlorides better and is sometimes chosen for high chloride water or aggressive cleaning regimes. State your choice in the specification."
+  ],
+  [
+   "What documents should a brewhouse supplier provide?",
+   "Material certificates, pressure test reports, drawings including a P&ID, manuals in English and a spare parts list. Ask for them in the tender so they are part of the contract."
+  ]
+ ],
+ "cta": {
+  "title": "Write a tender suppliers cannot wriggle out of",
+  "body": "Brewery Business Management is three weeks of live weekend classes, Saturdays and Sundays from 12:00 PM to 2:00 PM IST. Batches are capped at 20 people. You get recordings, weekly assignments and a certificate. We cover equipment buying, tenders, capacity planning and the business plan behind them.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "brewhouse-size-guide",
+  "brewery-business-plan",
+  "brewery-equipment-buying-guide"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "whisky-reduction-schedules-in-stages",
+ "cat": "Whisky",
+ "h1": "Whisky reduction schedules in stages",
+ "title": "Whisky Reduction Schedules in Stages | Craft Beer School",
+ "desc": "Why distilleries cut whisky to bottling strength in steps, how to calculate the water and what water quality does to haze and flavour.",
+ "teaser": "Pour all the water in at once and your whisky may go cloudy and taste flat. Staged reduction avoids both.",
+ "standfirst": "Cask strength whisky usually sits around 55 to 63% ABV. Bottling strength is often 40 to 46%. Getting from one to the other is a dilution job, but doing it in stages with the right water decides whether the whisky stays bright and tastes like it did in the cask.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Reduction is more than adding water",
+   "<p>Reduction means bringing whisky down to bottling strength with water. On paper it is simple arithmetic. In practice, a sudden large drop in strength can upset the balance of compounds held in solution. Oils and fatty acid esters that dissolve happily at 60% ABV come out of solution as the strength falls, which shows up as haze.</p><p>Many distillers describe a large single cut as shocking the spirit. Whatever you call it, the effect is real enough that staged reduction is standard practice in a lot of distilleries. Our guide to <a href=\"how-whisky-is-made.html\">how whisky is made</a> places reduction in the full process.</p>"
+  ],
+  [
+   "Use the right water, every time",
+   "<p>Reduction water goes straight into the bottle, so it must be clean, neutral and low in minerals. Most distilleries use demineralised or reverse osmosis water. Calcium, magnesium and iron in hard water can react with compounds in the whisky and form haze or sediment, sometimes weeks after bottling.</p><p>In India this matters more than most places. Borewell water often runs high in hardness and dissolved solids. Municipal supplies vary through the year. Test the water you use for reduction on every batch for hardness, conductivity and microbiological quality. Keep the treated water in a clean, closed stainless tank, not a plastic drum that has stood in the sun.</p>"
+  ],
+  [
+   "Do the dilution maths",
+   "<p>The litres of pure alcohol (LPA) stay the same through reduction. Only the water changes. So the final volume is LPA divided by target strength.</p><p>A worked example: 1,000 litres at 60% ABV holds 600 LPA. To reach 46%, the final volume is 600 divided by 0.46, about 1,304 litres. Simple subtraction says add 304 litres of water. You will need a little more than that, because ethanol and water contract when mixed, so the combined volume is less than the sum of the parts.</p><p>That is why no distiller trusts the calculation alone. Add slightly less water than your estimate, mix well, measure with a density meter corrected to 20 °C, then trim to target in small additions.</p>"
+  ],
+  [
+   "A staged schedule in practice",
+   "<p>There is no single correct schedule, but the pattern is consistent. Reduce in two or three steps with a rest between each. An example for a whisky going from 60% to 43%:</p><ol><li>Reduce from 60% to about 52%. Mix gently and rest for one or two days.</li><li>Reduce from 52% to about 46%. Rest again and check for haze.</li><li>Reduce to the final 43%, mix, rest and measure.</li></ol><p>Add the water slowly with gentle circulation rather than dumping it in from a hose. The floor detail we insist on: add water to whisky, not whisky to water. Pouring strong spirit into a tank of water exposes the first spirit to a very low strength, exactly the shock you are trying to avoid.</p>"
+  ],
+  [
+   "Why 46% keeps turning up",
+   "<p>Below about 46% ABV, some of the long chain fatty acid esters in whisky tend to come out of solution when the whisky is cold, which gives a cloudy look. Distilleries either remove these compounds by chill filtration or bottle at 46% or above and skip it. Our guide to <a href=\"malt-grain-and-blended-whisky.html\">malt, grain and blended whisky</a> covers why styles differ in this respect.</p><p>So the reduction schedule and the filtration decision go together. If you plan to bottle at 40% without chill filtration, expect haze in a cold room and decide whether your market will accept it.</p>"
+  ],
+  [
+   "Rest time is part of the recipe",
+   "<p>After the final cut, many distilleries leave the reduced whisky to rest for days or weeks before filtration and bottling. During this time haze can form and settle, the strength stabilises and the flavours knit together. Bottling straight after the last water addition often means the haze turns up in the bottle instead of the tank.</p><p>Measure strength at the end of the rest, not just after mixing. Small changes happen as the liquid settles and as temperature shifts in the tank room. The bottling strength on the label is the number that has to hold.</p>"
+  ],
+  [
+   "Write the schedule down",
+   "<p>A reduction schedule belongs in your batch record: starting strength and volume, each step's target, the water volume added, rest times, readings and the water test results. When a batch hazes in the market, this record is how you find out why. It also lets a new team member repeat the process exactly. Our guide to <a href=\"whisky-styles-of-the-world.html\">whisky styles of the world</a> shows how bottling strength differs by tradition.</p><p>Reduction is one of those steps that looks trivial until it goes wrong. A distilling course that covers water chemistry, dilution maths and haze makes the difference between guessing and knowing.</p><p>Your first step: test your reduction water for hardness and conductivity this week and write the result into your next batch record.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is whisky reduced in stages?",
+   "A large single drop in strength can push oils and esters out of solution, causing haze and dulling flavour. Staged reduction with rests reduces that risk."
+  ],
+  [
+   "What water should be used to reduce whisky?",
+   "Clean, neutral water low in minerals, usually demineralised or reverse osmosis water, tested for hardness, conductivity and microbiological quality."
+  ],
+  [
+   "How do I calculate how much water to add?",
+   "Divide the litres of pure alcohol by the target strength to get the final volume. Add slightly less water than the difference, measure and trim, because ethanol and water contract when mixed."
+  ],
+  [
+   "Should water be added to whisky or whisky to water?",
+   "Add water to whisky. Pouring spirit into water exposes it to a very low strength suddenly, which is the shock staged reduction tries to avoid."
+  ]
+ ],
+ "cta": {
+  "title": "Get to bottling strength without the haze",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers reduction water, dilution maths and haze control so your whisky leaves the tank as bright as it went in.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "how-whisky-is-made",
+  "malt-grain-and-blended-whisky",
+  "whisky-styles-of-the-world"
+ ]
+}

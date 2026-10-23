@@ -1,0 +1,67 @@
+{
+ "slug": "top-cropping-yeast-in-an-open-fermenter",
+ "cat": "Brewing science",
+ "h1": "Top cropping yeast in an open fermenter",
+ "title": "Top Cropping Yeast in an Open Fermenter | Craft Beer School",
+ "desc": "How top cropping works in open fermenters, when to skim and crop plus how to keep a top-cropped yeast clean and healthy.",
+ "teaser": "Before cylindroconical tanks, brewers harvested yeast off the top of the beer. Some still do, for good reasons.",
+ "standfirst": "Top cropping is the oldest way of saving yeast: let it rise to the surface on a head of foam, skim off the dirty first head and collect the clean yeast underneath. Here is how it works and what it asks of the brewer.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Some yeast rises with the gas",
+   "<p>Traditional ale strains, especially English ones, tend to form clumps that catch carbon dioxide bubbles and float. In an open fermenter they build a thick, rocky head of foam and yeast on top of the beer. That head is a harvest waiting to be collected.</p><p>Lager strains and many modern ale strains do the opposite and settle to the bottom, which is why most breweries crop from the cone of a closed tank. Our guide to <a href=\"how-fermenter-height-and-shape-change-yeast-behaviour.html\">how fermenter height and shape change yeast behaviour</a> shows that vessel geometry also affects how a strain behaves. A strain that top crops well in a shallow open square may drop in a tall cylindroconical.</p>"
+  ],
+  [
+   "Skim the first head, crop the second",
+   "<p>The timing matters more than the tool. A typical open fermentation with a top-cropping strain runs like this:</p><ul><li><strong>First head, around 12 to 24 hours.</strong> A brownish, bitter foam forms, full of hop resin, cold break and dead cells. Skim it off and discard it.</li><li><strong>Second head, around day two to three.</strong> A creamy, pale head of active yeast builds. This is the crop to keep.</li><li><strong>Later heads.</strong> As fermentation slows, the head thins and carries older, less vital cells. Leave these alone.</li></ul><p>Collect the crop with a sanitised stainless skimmer or scoop into a sanitised vessel. Take only from the middle of the head, not the edges where it touches the walls.</p>"
+  ],
+  [
+   "Why brewers still bother",
+   "<p>Top cropping selects for the yeast you want. The cells that rise in the active phase are the healthy, flocculent ones from the peak of growth. Cells that settle early are often the weakest. Over generations, a top-cropped house strain keeps its character, which is part of why some traditional ale brewers guard the method.</p><p>It also keeps the crop away from the trub that collects at the bottom of a vessel. Cone cropping has to work around that trub. Top cropping avoids it altogether if the first head is skimmed properly.</p>"
+  ],
+  [
+   "Open fermenters ask for strict hygiene",
+   "<p>An open fermenter is open to the room. The carbon dioxide blanket over the beer protects it during active fermentation, but the room still needs to be clean. Keep it separate from the brewhouse, filter or control the air if you can and keep fruit flies out with screens and tight drains. In Indian heat and monsoon humidity, fruit flies and mould appear in days, not weeks.</p><p>Sanitise every skimmer and vessel each time. Wear clean clothing and keep people who are not involved out of the room. A single contaminated crop can carry bacteria into the next ten batches.</p>"
+  ],
+  [
+   "Store and pitch it properly",
+   "<p>Cool the crop quickly to 2 to 4 °C and pitch within a few days. Top-cropped yeast holds a lot of beer and air in its foam, so it settles into a denser slurry in storage. Measure viability and count cells before pitching, as you would with cone-cropped yeast. A common pitching target for ales is around 0.75 million cells per millilitre per degree Plato.</p><p>Remember the oxygen question too. Open fermentation exposes the beer surface to air, but the yeast still needs dissolved oxygen in the wort at pitching. Our guide to <a href=\"wort-aeration-and-oxygen.html\">wort aeration and oxygen</a> covers how much.</p>"
+  ],
+  [
+   "Watch it through the generations",
+   "<p>Track each generation's lag time, attenuation and flavour. Plate a sample every few generations. A top-cropped strain that starts to drop instead of rise is changing, often because of mutation or selection drift. When it no longer behaves as your house yeast should, go back to a clean culture. Understanding <a href=\"yeast-growth-phases.html\">yeast growth phases</a> explains why the second head is the one worth keeping.</p>"
+  ],
+  [
+   "Try it on one batch",
+   "<p>If you brew with an English ale strain in a vessel you can open safely, try one top crop. Skim the first head at 18 hours, crop the second at 48 and compare its viability with your usual cone crop. The numbers will tell you whether the method suits your strain and your room.</p><p>Write down what you saw as well as what you measured: how thick the head was, how it smelled and how fast it rebuilt after skimming. Those notes become your cropping routine. A strain that keeps giving a clean second head at the same hour, batch after batch, is a strain that has settled into your vessel.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "When should I crop yeast from an open fermenter?",
+   "Skim and discard the first head at around 12 to 24 hours. Crop the second, creamy head at around day two to three, when the yeast is most active."
+  ],
+  [
+   "Can lager yeast be top cropped?",
+   "Generally not. Lager strains settle to the bottom of the vessel and are cropped from the cone or floor of the tank."
+  ],
+  [
+   "Is open fermentation risky?",
+   "It needs a clean, controlled room and strict sanitation. The carbon dioxide blanket protects active beer, but flies, dust and dirty tools can still contaminate it."
+  ]
+ ],
+ "cta": {
+  "title": "Learn how yeast behaves before you choose how to crop it",
+  "body": "Advanced Brewing Science is our six week live course. It covers yeast physiology, flocculation, harvesting, storage and microbiology, so you can manage a house strain across many generations.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See what the course covers"
+ },
+ "related": [
+  "how-fermenter-height-and-shape-change-yeast-behaviour",
+  "wort-aeration-and-oxygen",
+  "yeast-growth-phases"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "artwork-change-workflow-for-beer-packaging-teams",
+ "cat": "Beer for teams",
+ "h1": "Artwork change workflow for beer packaging teams",
+ "title": "Beer Artwork Change Workflow Explained | Craft Beer School",
+ "desc": "How a beer label or can artwork change moves from brief to printed stock in India, including excise label approval, proofs and old stock run-out.",
+ "teaser": "Changing one line on a beer label can take months. Here is why and how packaging teams keep it on track.",
+ "standfirst": "In beer, a label is a legal document as well as a piece of design. Every artwork change has to pass marketing, regulatory, the printer, the brewery and usually a state excise approval. Knowing the steps and their lead times is the difference between a smooth switch and a pallet of obsolete labels.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a small change is never small",
+   "<p>A marketing team may ask for a new colour or a refreshed logo. A regulatory team may need a new statutory line. A procurement team may switch label suppliers. Each looks like a design job. On a beer pack it touches several things at once: the label or can print, the carton or crate, the crown if it carries branding, the printed batch coding area and, in many states, the label registered with excise.</p><p>One beer brand can have several packs, each with its own artwork: 650 ml bottle, 330 ml bottle, 500 ml can, cartons and multipacks. A single change can mean six or more artwork files, each with its own proofs and approvals.</p>"
+  ],
+  [
+   "The legal content comes first",
+   "<p>Beer labels in India must carry mandatory information under food safety and legal metrology rules. That typically includes the brand name, alcohol content, net volume, manufacturer details, licence numbers, batch and date information, MRP and statutory warnings. The exact wording, size and position of some items are prescribed and have changed over time. States may add their own requirements, such as markings showing which state the beer is for sale in.</p><p>So the first step in any change is a regulatory check of the full label, not just the part being changed. A designer moving a graphic can accidentally shrink a mandatory warning below its minimum size. Packaging teams should keep a checklist of mandatory elements for each pack and check every proof against it. Regulations change, so that checklist needs an owner who tracks current notifications.</p>"
+  ],
+  [
+   "State excise label approval sets the timeline",
+   "<p>In many Indian states, beer labels must be registered or approved by the state excise department before a brand can be sold there. Registration is commonly renewed annually and a label change may need fresh approval. A brand sold in ten states may need ten approvals, each on its own process and timeline.</p><p>This is usually the longest step in the workflow and the least predictable. Packaging teams that plan artwork changes to line up with annual label renewal windows save themselves a second round. Rules and timelines vary by state and change, so the excise or regulatory team should confirm the process for each state before a launch date is promised.</p>"
+  ],
+  [
+   "From approved artwork to printed stock",
+   "<p>Once artwork is signed off, it goes to the printer for pre-press: colour separation, plates or cylinders and a printed proof. Colour matching matters more than it looks. A brand colour that shifts from batch to batch makes the shelf look untidy and erodes trust. Many companies approve a physical colour standard at a press check.</p><p>Lead times stack up here. Plates or cylinders must be made. Cans are printed by the can maker, often with minimum order quantities measured in the hundreds of thousands. Labels and cartons have their own runs. A realistic workflow allows several weeks for printing after approval, longer for cans. Our guide to <a href=\"cans-bottles-crowns-and-labels-packaging-for-procurement.html\">cans, bottles, crowns and labels</a> covers the materials side for procurement teams.</p>"
+  ],
+  [
+   "Run-out planning stops expensive waste",
+   "<p>The most avoidable cost in an artwork change is obsolete stock. Old labels, printed cans and cartons sitting in the brewery when new artwork arrives are often scrapped. A run-out plan sets a cut-over date and works backwards: how many old labels are left, how many bottles will be filled before the date and how much new stock must arrive in time.</p><p>Here is an illustrative case. A brewery has 4,00,000 old labels and fills 50,000 bottles of that SKU a week. It needs eight weeks to use them up. If new labels can be printed and approved in six weeks, ordering now leaves two weeks of overlap. That buffer is safe. If excise approval in one state is delayed, the brewery may need to keep filling old artwork for that state while switching others, which means tracking two versions on the line.</p>"
+  ],
+  [
+   "Who owns which step",
+   "<p>A clear workflow names an owner for each stage: brief from marketing, regulatory check, artwork studio, excise submission, printer proof, press check, purchase order, brewery line trial and cut-over. Many problems happen in the hand-offs, especially between artwork approval and procurement. A shared tracker with dates for each stage and each state removes most of the surprises.</p><p>The brewery also needs a line trial, since a new label paper, glue or can coating can behave differently on the filler and labeller. Sustainability teams increasingly join in too, because label and ink choices affect recyclability, as our guide on <a href=\"beer-packaging-materials-explained-for-sustainability-teams.html\">beer packaging materials</a> explains.</p><p>A first step: take your next planned artwork change and write down every pack, every state and every approval it needs. Put a date against each. The gaps in that list are your risk.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do beer labels need government approval in India?",
+   "In many states, yes. Beer labels are commonly registered with the state excise department. Changes may need fresh approval. Rules vary by state."
+  ],
+  [
+   "How long does a beer artwork change take?",
+   "Often several months from brief to printed stock, depending on regulatory checks, state approvals and printing lead times, especially for cans."
+  ],
+  [
+   "What is a run-out plan?",
+   "It is a plan that uses up old labels and packaging before the cut-over date, so new artwork arrives just as old stock runs out."
+  ],
+  [
+   "Why do new labels need a line trial?",
+   "New paper, glue or coatings can behave differently on the labeller or filler, so a short trial avoids stoppages after cut-over."
+  ]
+ ],
+ "cta": {
+  "title": "Help your packaging team see the pack the way the brewery does",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that connect packaging decisions to the product inside.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "cans-bottles-crowns-and-labels-packaging-for-procurement",
+  "beer-packaging-materials-explained-for-sustainability-teams",
+  "beer-industry-explained-for-gcc-teams"
+ ]
+}

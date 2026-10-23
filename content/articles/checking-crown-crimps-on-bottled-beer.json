@@ -1,0 +1,67 @@
+{
+ "slug": "checking-crown-crimps-on-bottled-beer",
+ "cat": "Brewing science",
+ "h1": "Checking crown crimps on bottled beer",
+ "title": "Checking Crown Crimps on Bottled Beer | Craft Beer School",
+ "desc": "How to check crown crimp diameter, test seal security and spot crowner wear so bottled beer holds its pressure and keeps oxygen out.",
+ "teaser": "A crown that is crimped half a millimetre too loose can leak gas for weeks without anyone noticing.",
+ "standfirst": "The crown cork is a small part with a big job: holding several bar of pressure and keeping oxygen out for months. Here is how to check crimp diameter, test seals and keep a crowner in shape.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a good crimp does",
+   "<p>A standard crown has 21 flutes around a 26 mm skirt and a liner inside. The crowner presses the crown down onto the bottle finish and folds the skirt under the glass lip. The liner compresses against the top of the bottle to form the seal.</p><p>Too loose and the liner does not seal fully, so carbon dioxide leaks out and oxygen gets in. Too tight and the glass can chip or crack, or the crown becomes very hard to open. Either way, the beer suffers.</p><p>The pressure involved is real. A beer carbonated to 2.6 volumes sitting at 30 °C in a warm shop builds close to 3 bar of gauge pressure in the bottle, several times what it sees in the cold room. A crimp that held in the brewery can start to weep in that heat. That is why a crown check at the crowner matters more in India than in a cool climate with a short cold chain.</p>"
+  ],
+  [
+   "Measure crimp diameter",
+   "<p>The main check is crimp diameter: the outside diameter of the crown after crimping. For standard 26 mm pry-off crowns on standard bottle finishes, specifications are commonly around 28.6 to 28.8 mm. Your crown supplier and bottle supplier give the exact range for your combination. Use theirs.</p><p>Measure with a go/no-go crown gauge or a calibrated caliper. A gauge is quicker: a crown that passes through the go ring and not the no-go ring is within spec. Check several points around the crown, because a worn crowner head can crimp unevenly.</p>"
+  ],
+  [
+   "Check every head, every shift",
+   "<p>Multi-head crowners can drift head by head. A practical routine:</p><ul><li>Check crimp diameter on bottles from each crowning head at start-up.</li><li>Repeat at regular intervals through the run, often hourly.</li><li>Check after any jam, change of crown supplier or adjustment.</li><li>Record results by head and time.</li></ul><p>Single-head bench crowners in small breweries need the same attention. Spring and throat wear change the crimp gradually.</p>"
+  ],
+  [
+   "Test the seal itself",
+   "<p>Crimp diameter is a proxy. The real question is whether the seal holds. A secure seal tester pressurises a crowned bottle through a fitting in the crown and checks for leaks at a set pressure. Even without one, you can hold crowned bottles upside down in warm water and look for bubbles.</p><p>Check removal effort too. Crowns that are very hard to open frustrate customers and suggest an overtight crimp.</p>"
+  ],
+  [
+   "Bottles cause problems too",
+   "<p>The crown can only seal against a good bottle finish. India's mass-market beer relies heavily on returnable glass. Returned bottles can arrive with chipped or worn lips. A chip on the sealing surface leaks no matter how well the crown is crimped. Inspect returnable bottles carefully before filling and reject damaged finishes.</p><p>Bottle height also varies between batches and suppliers. If the crowner is set for one height and the bottles change, crimp quality changes too.</p>"
+  ],
+  [
+   "Liners and light",
+   "<p>Crown liners differ. Oxygen-scavenging liners absorb some of the oxygen in the headspace and slow staling, which is valuable in a hot supply chain. Make sure the liner type suits your beer and your shelf-life target. Our guide to <a href=\"reduced-hop-extracts-that-stop-clear-bottled-beer-turning.html\">reduced hop extracts</a> covers another bottled beer risk: light-struck flavour in clear or green glass.</p><p>Store crowns dry and clean in sealed bags. Damp crowns can rust and liners can pick up odours. Do not leave opened bags near the brewhouse where steam and dust reach them.</p>"
+  ],
+  [
+   "Gauge ten bottles at the next run",
+   "<p>Take ten crowned bottles from your next run, spread across heads and time. Measure crimp diameter on each with a gauge or caliper and test two for seal security. If any fall outside spec, adjust the crowner head before the run continues.</p><p>Keep a log of the results. Over a few months, you will see each head's drift and know when throats and springs need replacing, before a batch of leaking bottles tells you.</p><p>Add one more habit: keep a few bottles from each run in a warm spot for a month and check their carbonation against cold-stored bottles from the same run. If the warm bottles have lost gas, the crimp or the bottle finish is letting it out. That is a cheap test that catches what a gauge on the line can miss.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the correct crimp diameter for a crown cork?",
+   "For standard 26 mm crowns, specifications are commonly around 28.6 to 28.8 mm, but use the exact range from your crown and bottle suppliers."
+  ],
+  [
+   "How do I know if a crown is leaking?",
+   "Use a secure seal tester or hold crowned bottles upside down in warm water and look for bubbles. Loss of carbonation in stored bottles is another sign."
+  ],
+  [
+   "Why do my crowns crimp unevenly?",
+   "Usually a worn crowner throat, weak spring or a change in bottle height. Check each head and replace worn parts."
+  ]
+ ],
+ "cta": {
+  "title": "Run your bottling line to a specification",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers packaging quality, oxygen, carbonation and microbiology, so every bottle holds its pressure and its flavour.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "reduced-hop-extracts-that-stop-clear-bottled-beer-turning",
+  "mash-ph-explained",
+  "enzymes-in-the-mash"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "tracking-gross-margin-beer-by-beer-in-a-brewpub",
+ "cat": "Business",
+ "h1": "Tracking gross margin beer by beer in a brewpub",
+ "title": "Tracking Gross Margin Beer by Beer | Craft Beer School",
+ "desc": "How to track gross margin for each beer in a brewpub: cost per litre, losses, pour sizes and a simple sheet to compare your taps.",
+ "teaser": "Your average beer margin hides a tap or two that barely pays for itself.",
+ "standfirst": "Most brewpubs know their overall beer margin. Few know it beer by beer. That matters, because a strong IPA and a light lager can sell at similar prices with very different costs. Here is how to see the difference.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The average hides the outliers",
+   "<p>A brewpub P&amp;L usually shows one line for beer cost of goods. If beer cost is 18% of beer sales, that looks healthy. But it is an average across every tap. A house lager might cost 12% of its selling price while a double dry-hopped IPA costs 28%.</p> <p>Neither number is wrong. You just need to know them, because they change what you push, what you price up and what you brew more of.</p>"
+  ],
+  [
+   "Cost each beer per litre sold",
+   "<p>Start with the ingredient cost of each batch: malt, hops, yeast, adjuncts, fruit, finings and water treatment. Add CO2 and a fair share of energy and cleaning chemicals. Divide by the litres actually sold from that batch, not the litres brewed.</p> <p>That last point matters. Some beers lose far more volume between brew day and glass:</p> <ul><li>Heavily dry-hopped beers lose more beer to hop debris in the fermenter.</li><li>Unfiltered wheat beers can carry more sediment at the tank bottom.</li><li>Every beer loses some to line flushes, foam and the last litres in the tank.</li></ul> <p>Our guide to <a href=\"cost-per-litre-beer.html\">cost per litre</a> covers the full build. For margin by beer, ingredient cost plus losses is usually enough to start.</p>"
+  ],
+  [
+   "Turn cost per litre into margin per pour",
+   "<p>Now apply each beer's pour size and menu price. Here are two lines from a simple sheet:</p> <ul><li>House lager: ₹70 a litre to make after losses. 400 ml pour costs ₹28. Price ₹320. Margin ₹292 a pour, beer cost 9%.</li><li>Hazy IPA: ₹180 a litre after losses. 400 ml pour costs ₹72. Price ₹380. Margin ₹308 a pour, beer cost 19%.</li></ul> <p>The IPA has the higher cost percentage but earns slightly more per pour. So the right measure depends on what limits you. If tank space limits you, margin per litre of tank time matters more. If drinkers order a fixed number of pours, margin per pour matters most. Track both.</p>"
+  ],
+  [
+   "Tank time is part of the cost",
+   "<p>A lager that spends four weeks in a fermenter and conditioning tank occupies capacity that could have produced two batches of a fast ale. If tanks are your bottleneck, a beer with a great margin per pour but long tank time may earn less per month than a quicker one.</p> <p>Add a column for days in tank and work out margin per tank-week. It changes conversations about which beers stay on the core list. It also stops the brewer and the owner arguing past each other: one sees flavour, the other sees money and both are looking at the same tank.</p>"
+  ],
+  [
+   "Reconcile against what the till says",
+   "<p>A margin sheet is only as good as its volumes. Compare litres sold according to the till with litres drawn from each serving tank. If the till shows 900 litres of pale ale sold and the tank gave up 1,000, you have 10% of that beer lost to spillage, overpouring, staff drinks or comps nobody rang in.</p> <p>Losses of a few percent at dispense are normal. A loss of 10% or more on one beer points to a specific problem: a badly set tap pouring too much foam, a generous bartender or a line leak. Find it and the margin recovers without touching the price.</p><p>Foam is the usual culprit. A tap pouring at 8 °C instead of 3 to 4 °C, or with the wrong line length for its pressure, sends a third of each pour down the drip tray. The bartender tops up to the line and the till records one pour while the tank gives up one and a half. Check serving temperature and pour speed on the worst beer before you blame the staff.</p>"
+  ],
+  [
+   "Use the numbers to manage the board",
+   "<p>Once you have margin by beer, use it every month. Push the strong-margin beers through staff recommendations and tasting paddles. Review the price of any beer that sits well below the others. Ask whether a low-margin beer earns its place by bringing people in.</p> <p>Our guide to <a href=\"brewpub-food-menu-and-margins.html\">brewpub food menus and margins</a> uses the same approach for the kitchen. Run both and you see the whole bill.</p>"
+  ],
+  [
+   "Build the sheet for your top five taps",
+   "<p>Tracking margin beer by beer is simple arithmetic. Keeping it current, reconciling it with the till and acting on it is the habit that separates brewpubs that grow margin from ones that only grow sales.</p> <p>Your first step: take your last batch of your five best-selling beers. Cost each per litre sold and per pour. Put them in one table and sort by margin per pour. The order will surprise you.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I calculate gross margin for one beer?",
+   "Cost the batch ingredients and losses, divide by litres sold to get cost per litre, then subtract cost per pour from the menu price."
+  ],
+  [
+   "What beer losses should a brewpub expect?",
+   "Some loss at every stage is normal. A dispense loss of 10% or more on a single beer usually points to a specific fault worth finding."
+  ],
+  [
+   "Should I use margin per pour or margin percentage?",
+   "Track both. Margin per pour matters when drinkers order a fixed number of pours. Margin per tank-week matters when tank space is your limit."
+  ]
+ ],
+ "cta": {
+  "title": "See which beers really pay their way",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers cost per litre, margin by product and till reconciliation, so you can manage your taps from numbers rather than gut feel.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewpub-vs-microbrewery",
+  "brewpub-food-menu-and-margins",
+  "brewpub-layout-kitchen-brewhouse-bar"
+ ]
+}

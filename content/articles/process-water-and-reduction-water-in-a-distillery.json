@@ -1,0 +1,75 @@
+{
+ "slug": "process-water-and-reduction-water-in-a-distillery",
+ "cat": "Whisky",
+ "h1": "Process water and reduction water in a distillery",
+ "title": "Process and Reduction Water for Whisky | Craft Beer School",
+ "desc": "The different water streams in a distillery, why reduction water must be demineralised and how Indian borewell and municipal water are treated.",
+ "teaser": "A distillery uses water for mashing, cooling, cleaning and diluting spirit. Each job needs different water.",
+ "standfirst": "Water touches every step of whisky making. Mashing water, cooling water, cleaning water and reduction water each have different quality needs. This guide explains them, with a focus on Indian borewell and municipal supplies.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Four kinds of water, four standards",
+   "<p>A distillery uses water in four main ways. <strong>Process water</strong> goes into the mash. <strong>Cooling water</strong> runs through condensers and heat exchangers. <strong>Cleaning water</strong> rinses vessels and floors. <strong>Reduction water</strong> dilutes new make before filling and mature whisky before bottling.</p><p>Each needs a different standard. Process water must be safe and suitable for mashing and fermentation. Cooling water must not scale or corrode the condensers. Reduction water ends up in the bottle, so it must be the cleanest of all.</p>"
+  ],
+  [
+   "Process water for mashing",
+   "<p>Mashing water must be potable and free from contamination. Its minerals matter less than in brewing because the wort is not boiled and the spirit is distilled. Moderate calcium helps enzymes and mash pH. Very hard water can leave scale in mash tun heat exchangers.</p><p>Many Indian distilleries draw from borewells. Borewell water can carry high hardness, iron, fluoride or nitrate depending on the area. Quality can change with the season. Test at least before and after the monsoon. Our guide to <a href=\"mashing-for-malt-whisky-and-why-the-wort-is-never-boiled.html\">mashing for malt whisky</a> covers the process side.</p>"
+  ],
+  [
+   "Reduction water must be clean and soft",
+   "<p>New make at around 70% ABV is usually reduced to filling strength, often near 63.5% ABV for Scotch style casks. Mature whisky is later reduced again to bottling strength, commonly 40 to 46% ABV. That is a lot of added water: taking whisky from 60% to 40% ABV adds about half the original volume again.</p><p>Any minerals in that water stay in the bottle. Calcium and magnesium can combine with compounds from the spirit or the cask and form a fine haze or deposit, sometimes weeks after bottling. Chlorine and its by-products can add off notes. So reduction water is almost always demineralised, usually by reverse osmosis (RO) followed by polishing.</p>"
+  ],
+  [
+   "Treating reduction water",
+   "<ul><li>Filter out sediment and carbon treat to remove chlorine.</li><li>Run through reverse osmosis to strip most dissolved salts.</li><li>Polish with a mixed bed deioniser if your spec needs very low conductivity.</li><li>Sterilise with UV or a fine filter before use.</li><li>Store in a clean stainless tank, covered and used within a short time.</li></ul><p>Measure conductivity at the point of use every day and keep a log. A rising reading tells you the membranes or resin need attention before haze shows up in a bottle. Our guide to <a href=\"water-hardness-and-haze-when-reducing-whisky.html\">water hardness and haze when reducing whisky</a> covers the chemistry.</p>"
+  ],
+  [
+   "Reducing in stages",
+   "<p>Adding a large volume of water to spirit all at once can shock it, giving temporary cloudiness from oils falling out of solution. Many distillers reduce in steps, letting the spirit rest between additions. That is especially true for whisky going to bottle without chill filtration. Mixing well after each addition matters too, because water and spirit do not blend instantly.</p><p>Remember that water and alcohol contract when mixed. The final volume is less than the sum of the two. Use strength tables or a density meter to calculate additions rather than simple ratios.</p><p>The same rules carry through to the bottling hall. Use the same treated water for the final reduction as for any rinse that touches the inside of a bottle. Rinsing bottles with untreated tap water can leave a film of minerals and chlorine that undoes all the care taken with reduction water.</p><p>Run a simple stability check before each release: hold a sample of the reduced whisky cold, around 4 °C, for a day or two and look for haze against a bright light. If it clouds, look first at the reduction water log, then at filtration. Our guide to <a href=\"whisky-stability-testing-before-release.html\">whisky stability testing</a> covers the full set of checks.</p>"
+  ],
+  [
+   "Cooling water in Indian heat",
+   "<p>Cooling towers in Indian summers often deliver water near 30 °C. That cuts condenser capacity and can push hot spirit through the safe. Size cooling for the hottest month. Treat cooling water to control scale, corrosion and bacteria. Manage blowdown too, which carries concentrated salts and must go to your effluent system.</p><p>RO plants also produce reject water, often a large share of the feed. That reject must be accounted for in your water balance and effluent plan.</p>"
+  ],
+  [
+   "A water balance for your site",
+   "<p>Add up daily volumes for each use: mashing, cooling make up, cleaning, reduction, boiler feed and staff. Compare with your borewell yield or municipal allocation. Distilleries in water stressed districts face growing scrutiny of their use. Some states require permission to draw groundwater for industry. Check the current rules with your licensing adviser.</p>"
+  ],
+  [
+   "A first step",
+   "<p>Send samples of your raw water to an accredited lab for a full analysis, including hardness, iron, chloride, sulphate, nitrate and microbiology. Take one sample in the dry season and one after the monsoon. Those two reports decide the size and type of treatment plant you need.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why must reduction water be demineralised?",
+   "Minerals in reduction water stay in the bottle and can cause haze or deposits. Chlorine can add off notes. Reverse osmosis and polishing remove them."
+  ],
+  [
+   "Does mashing water need to be as pure as reduction water?",
+   "No. Mashing water must be potable and suitable for fermentation, but it is not added to the bottle, so moderate minerals are acceptable."
+  ],
+  [
+   "Why reduce whisky in stages?",
+   "Adding a lot of water at once can make oils fall out of solution and cause temporary haze. Gradual reduction with rest and mixing gives a more stable spirit."
+  ],
+  [
+   "How much water is added to reduce whisky from 60% to 40% ABV?",
+   "Roughly half the original volume again, before allowing for the small contraction when water and alcohol mix."
+  ]
+ ],
+ "cta": {
+  "title": "Get water right at every stage",
+  "body": "Craft Distilling is our four week live course (₹9,999), on Saturdays and Sundays with recordings and a certificate. It covers mashing, distillation, reduction and bottling, including the water quality each step needs, so your spirit stays bright in the bottle.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "the-distillery-licence-process-in-india",
+  "distillery-layout-for-good-process-flow",
+  "utilities-for-a-distillery-from-water-to-power"
+ ]
+}

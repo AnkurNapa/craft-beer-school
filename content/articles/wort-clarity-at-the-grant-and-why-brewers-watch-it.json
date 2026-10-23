@@ -1,0 +1,67 @@
+{
+ "slug": "wort-clarity-at-the-grant-and-why-brewers-watch-it",
+ "cat": "Brewing science",
+ "h1": "Wort clarity at the grant and why brewers watch it",
+ "title": "Wort Clarity at the Grant Explained | Craft Beer School",
+ "desc": "Why brewers watch wort clarity at the grant, what cloudy run-off carries into the kettle and how to track it simply on a brewpub system.",
+ "teaser": "That little glass of wort at the grant is the cheapest quality check in the brewhouse.",
+ "standfirst": "Brewers have looked into the grant for as long as there have been lauter tuns. Clear wort means the bed is filtering. Cloudy wort means fines and lipids are heading for the kettle. Here is why it matters and how to measure it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The grant is a window on the filter bed",
+   "<p>The grant is the small open vessel, or sight glass, where run-off from the lauter tun collects before it is pumped to the kettle. Its job used to be purely mechanical: it stopped the pump pulling a vacuum under the bed. Its second job is diagnostic. It is the first place you see the wort.</p><p>Clear, bright wort tells you the husk bed is doing its work. Hazy or milky wort tells you particles are getting through.</p>"
+  ],
+  [
+   "What cloudy wort carries with it",
+   "<p>Cloudy run-off is carrying fine particles of protein, husk fragments and lipids from the malt. Lipids are the part brewers worry about most. Small amounts help yeast build cell membranes, which is why some cloud is not a disaster. Larger amounts are linked to poorer foam and to faster staling flavours in packaged beer.</p><p>Fine solids also add to the trub load in the whirlpool and can carry through into the fermenter. On a pale lager with a long shelf life in Indian heat, that is the last thing you want.</p><p>None of this means you should chase crystal-clear wort at any cost. Pushing recirculation for 40 minutes to get the last bit of shine costs time and can compact the bed. The aim is wort that is consistently clear enough for your beer, brew after brew, so that a change stands out when it happens.</p>"
+  ],
+  [
+   "Recirculation sets the starting point",
+   "<p>Every lauter should start with recirculation, often called vorlauf: run-off is pumped back on top of the bed until it runs clear. On most brewpub systems 10 to 15 minutes is typical, though the real test is the glass, not the clock.</p><p>Stop recirculating too early and the first wort to the kettle carries the cloud you meant to filter out. Recirculate too hard and you compact the bed before the lauter starts.</p><p>Return the recirculated wort gently onto the bed surface, through a spreader or under the liquid level, rather than letting it splash. A jet of wort digs a hole in the bed and opens a channel that lets fines straight through. Splashing also picks up air, which is a separate argument but not a helpful one.</p>"
+  ],
+  [
+   "When clarity drops mid-lauter",
+   "<p>A lauter that ran clear and turns cloudy is telling you something changed. The usual causes:</p><ul><li><strong>Rakes lowered too far</strong>, dragging fines through the bed. Our guide to <a href=\"lauter-tun-rake-height-and-run-off-speed.html\">rake height and run-off speed</a> covers this.</li><li><strong>Run-off too fast</strong>, pulling particles down through the bed.</li><li><strong>Sparge water channelling</strong> through one part of the bed and disturbing it.</li><li><strong>A crush that is too fine</strong> for the tun, giving too few whole husks.</li></ul><p>The fix is usually to slow the run-off and, if needed, recirculate again for a few minutes until it clears.</p>"
+  ],
+  [
+   "Measuring clarity instead of eyeballing it",
+   "<p>The eye is a good detector of change but a poor judge of how much. A few simple habits make it measurable:</p><ol><li>Draw a sample at the grant into the same clear glass at fixed points, for example the end of recirculation, mid first wort and mid sparge.</li><li>Photograph it against the same white card under the same light.</li><li>If you have a turbidity meter, cool the sample to 20 °C and record the reading in EBC haze units or NTU.</li></ol><p>Even without a meter, a photo log with a simple 1 to 5 score per sample is useful. Plot the scores. Our guide to <a href=\"control-charts-for-brewers.html\">control charts for brewers</a> shows how to tell a normal brew from one that needs attention.</p>"
+  ],
+  [
+   "Tying clarity to results downstream",
+   "<p>The value of the grant check grows when you connect it to what happens later. Note clarity on the brew sheet alongside foam stability, filtration time and how the beer tastes after a few weeks in a warm warehouse. Over a few months you may see that brews with cloudy run-off filter more slowly or stale sooner. You may also find they make no difference at all on your system, which is worth knowing too.</p><p>Linking a brewhouse observation to a packaged beer result is where small-brewery quality work pays off. It is also the part brewers rarely have time to work out alone. Our free <a href=\"ankur-napa-free-brewing-tools.html\">brewing tools</a> include simple templates for logging brew data.</p>"
+  ],
+  [
+   "Your first step this week",
+   "<p>Put a clean clear glass and a white card next to the grant. On your next three brews, photograph the run-off at the end of recirculation and halfway through the sparge. Give each a score from 1 to 5 and write it on the brew sheet. That is the start of a clarity record you can act on.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a grant in a brewery?",
+   "It is the small vessel or sight glass where lauter tun run-off collects before the pump sends it to the kettle."
+  ],
+  [
+   "Is some cloudiness at the grant acceptable?",
+   "A little haze is normal and small amounts of lipid help yeast. The concern is heavy or rising cloud, which carries more fines and lipids into the kettle."
+  ],
+  [
+   "How long should I recirculate before run-off?",
+   "Often 10 to 15 minutes on a brewpub system, but stop when the wort in the grant runs clear rather than by the clock."
+  ]
+ ],
+ "cta": {
+  "title": "Link brewhouse checks to beer quality",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), taught on weekend afternoons with recordings and weekly assignments. It covers lautering, wort composition and quality data, so you can connect what you see at the grant to foam, filtration and shelf life.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "wort-aeration-and-oxygen",
+  "control-charts-for-brewers",
+  "ankur-napa-free-brewing-tools"
+ ]
+}

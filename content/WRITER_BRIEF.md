@@ -134,3 +134,16 @@ These 44 guides are for people who work inside beer, wine and spirits companies 
 ## News and press pieces (publications, awards, talks)
 
 Full checklist in the vault's `Craft Beer School Article Flow.md`, section 3. In short: explain the organisation in its own section with real dates; link the primary source (resolved DOI or official page) in the first section; link the organisation's LinkedIn post and show a screenshot of it as a plan-row photo from `assets/press/`; match claims to the published version, not the draft; finish with a numbered References section and the byline author's one-line bio; leave out anything that only appears in private email. A piece about Ankur is bylined by Chatty via `"by": "mentor-chatty-girija.html"`. First example: `ankur-napa-mbaa-technical-quarterly-ai-article`.
+
+## Ankur's 2,300 (plan batch "ankur2300-NNN")
+
+2,000 beer guides and 300 whisky guides, all dated 2026-10-23 and bylined to Ankur Napa alone (`"by": "mentor-ankur-napa.html"` on every plan row). Built by `content/make_ankur2300_plan.py` from `content/new600_topics.txt` and `content/new_beer_topics_*.txt`.
+
+- Voice: the school's "we", written from Ankur's side of the work: a Master Brewer who also works in data and AI. Never invent personal anecdotes, clients, venues or results presented as real.
+- Every rule above still applies: JSON shape, 650 to 1,200 words, funnel CTA by stage, course facts, no serial comma, no ", and" joins, British spelling. These are 2026 pieces, so fees may be quoted.
+- Internal links: one to three, to slugs in `content/plan.json` or the listed hand guides. Prefer guides in the same category; the validator fails dead links.
+- Beer guides use the matching segment rules above (Corporate teams for "Beer for teams", Founders for "Business").
+- Whisky guides: whisky facts must be as reliable as the brewing ones. Use only standard, well-established definitions and values, for example: Scotch matures at least three years in oak casks in Scotland and is bottled at a minimum of 40% ABV; bourbon is at least 51% corn, distilled to no more than 80% ABV, filled at no more than 62.5% ABV into new charred oak containers; Irish whiskey matures at least three years on the island of Ireland. Name real regions, grains, still types and cask types. No invented production volumes, market sizes, prices, rankings, ages of named distilleries or claims about a named company's process. Do not name a distillery or brand unless the fact is famous and stable (for example the Coffey still, patented by Aeneas Coffey in 1830).
+- Indian regulation for spirits: process level only, rules vary by state and change, check the current notification. Never legal advice.
+- Responsible drinking: no encouragement to drink more, no health claims; tasting pieces mention water, pacing and never drinking and driving where natural.
+- Whisky CTAs: `craft-distilling-course.html` (Craft Distilling, 4 weeks, ₹9,999), `sensory-evaluation-course.html` (Sensory Evaluation, 2 weeks, ₹5,999: frame it as training the nose and palate, which carries across beer and spirits) or the Corporate training enquiry form, by plan row.

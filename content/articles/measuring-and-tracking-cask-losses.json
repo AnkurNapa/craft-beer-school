@@ -1,0 +1,71 @@
+{
+ "slug": "measuring-and-tracking-cask-losses",
+ "cat": "Whisky",
+ "h1": "Measuring and tracking cask losses",
+ "title": "Measuring and tracking cask losses | Craft Beer School",
+ "desc": "How to gauge whisky casks, calculate losses in litres of pure alcohol and spot leaks or problem positions before they cost you.",
+ "teaser": "Every cask loses spirit. The question is whether you know how much, where and why.",
+ "standfirst": "Cask losses are the hidden cost of whisky. A distillery that measures them well can tell a leak from normal evaporation, a hot position from a bad cask and a forecast from a guess. Here is a method a small team can run.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why losses deserve a method",
+   "<p>A whisky cask is paid for in advance. Grain, fermentation, distillation, the cask itself and years of storage all sit inside it. When spirit leaves through the wood, that money goes with it. In Indian heat, evaporation is well above Scotland's commonly quoted 2% a year, so poor measurement hides large sums.</p><p>Losses also matter for compliance. Spirit in a bonded warehouse is usually tracked by the excise authority. Unexplained shortfalls raise questions. Allowable loss rules and reporting formats vary by state and change, so check the current notification.</p>"
+  ],
+  [
+   "Gauge by weight, not by dip",
+   "<p>Dipping a rod through the bung gives a rough volume. Weight is far better. The method:</p><ol><li>Record the empty cask's tare weight before filling.</li><li>Weigh the full cask on a calibrated platform scale.</li><li>Take a sample and measure strength with a density meter or hydrometer, corrected to 20 °C.</li><li>Convert net weight to volume using the density of spirit at that strength.</li><li>Multiply volume by ABV to get litres of pure alcohol (LPA).</li></ol><p>Our guide to <a href=\"cask-filling-and-gauging.html\">cask filling and gauging</a> covers the filling side. The floor detail that matters most is the tare weight. A cask that soaks up several litres of spirit into its wood weighs more empty than the day it arrived, so record tare dry and treat later weights with that in mind.</p>"
+  ],
+  [
+   "The working on one barrel",
+   "<p>An illustrative example. A barrel is filled with 195 litres at 63.5% ABV: 123.8 LPA. Two years later it gauges at 172 litres and 62.8% ABV: 108.0 LPA.</p><ul><li>Volume loss: 23 litres, or 11.8% over two years.</li><li>LPA loss: 15.8 LPA, or 12.8% over two years.</li><li>Annual LPA loss: roughly 6.6% a year (compounding, 1 minus the square root of 0.872).</li></ul><p>Report LPA loss as your headline. It is the number that ties to cost and to tax. Volume loss tells you about the wood and the warehouse.</p>"
+  ],
+  [
+   "Separating normal loss from trouble",
+   "<p>One figure on its own says little. Compare it against a baseline for casks of the same size, type and position. Then look for outliers:</p><ul><li><strong>A cask losing far more than its neighbours</strong> may be leaking. Look for wet staves, stains on the floor or a loose hoop.</li><li><strong>A whole tier losing more</strong> is a temperature problem, not a cask problem.</li><li><strong>A small cask losing more</strong> than a large one is normal. Surface area to volume is higher.</li><li><strong>A sudden jump</strong> between two regauges usually means a leak, a sampling error or an unrecorded withdrawal.</li></ul>"
+  ],
+  [
+   "How often to regauge",
+   "<p>Full regauges cost labour and disturb casks. Many distilleries gauge at filling, then once a year on a sample of casks and fully before any blend or bottling. A sample of perhaps one cask in ten, spread across positions and cask types, catches drift without weighing everything. Our guide to <a href=\"cask-regauging-and-stock-checks.html\">regauging and stock checks</a> discusses scheduling.</p><p>Every regauge needs the same calibrated scale, the same strength instrument and the same temperature correction. Change any of those and your trend breaks.</p>"
+  ],
+  [
+   "Sampling is a loss too",
+   "<p>Every time someone draws a sample, the cask gives up spirit. A valinch full here and there looks trivial, but across hundreds of casks and years of tasting it adds up to real litres. Record every sample against the cask, with volume, date and the person who drew it. Unrecorded withdrawals are the most common reason a loss figure looks wrong. In a bonded store they are also a compliance issue.</p><p>Keep sample sizes small and consistent. A 100 millilitre sample is enough for a strength reading and a nosing. Return nothing to the cask once it has been in a glass. Our guide to <a href=\"sampling-casks-with-a-valinch.html\">sampling with a valinch</a> explains the routine.</p>"
+  ],
+  [
+   "Put it in one table",
+   "<p>Losses only become useful when they sit in one place: cask ID, size, type, position, fill date, fill volume, fill strength, each regauge with volume, strength and LPA, plus warehouse temperature for the period. A spreadsheet is enough to start. A <a href=\"cask-management-systems-and-inventory-tracking.html\">cask management system</a> helps once you have hundreds of casks.</p><p>With that table you can forecast how much whisky a cask will yield at bottling, which is what finance and sales really want from the warehouse. Building forecasts on loss curves rather than on hope is the kind of thing a grain to glass course can only start; the habit has to live in your distillery.</p>"
+  ],
+  [
+   "Start with ten casks",
+   "<p>Pick ten casks across different positions and sizes. Weigh each, sample it, correct strength to 20 °C and calculate LPA. Repeat in six months. Ten honest data points will show you your real loss rate and whether position or cask size is driving it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is LPA?",
+   "Litres of pure alcohol: the volume of spirit multiplied by its ABV, with strength corrected to 20 °C. It is the standard way to account for spirit regardless of dilution."
+  ],
+  [
+   "Why weigh casks instead of dipping them?",
+   "Weight with a known tare is far more accurate than a dip rod, which only estimates volume from the liquid level in a curved cask."
+  ],
+  [
+   "How do I spot a leaking cask?",
+   "Look for a loss far above casks of the same size, type and position, plus wet staves, floor stains or loose hoops."
+  ]
+ ],
+ "cta": {
+  "title": "Turn cask losses into numbers you trust",
+  "body": "Craft Distilling is our four week live course (₹9,999), taught on weekend afternoons with recordings and a certificate. It covers gauging, strength measurement, maturation and the records a distillery needs, alongside the full distilling process.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cask-management-systems-and-inventory-tracking",
+  "how-whisky-is-made",
+  "whisky-maturation-and-casks"
+ ]
+}

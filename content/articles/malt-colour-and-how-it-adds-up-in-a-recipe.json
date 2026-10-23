@@ -1,0 +1,67 @@
+{
+ "slug": "malt-colour-and-how-it-adds-up-in-a-recipe",
+ "cat": "Ingredients",
+ "h1": "Malt colour and how it adds up in a recipe",
+ "title": "How Malt Colour Adds Up in a Recipe | Craft Beer School",
+ "desc": "How malt colour in EBC and Lovibond becomes beer colour, the Morey formula that predicts it and why doubling dark malt never doubles the colour.",
+ "teaser": "Add twice the crystal malt and the beer does not come out twice as dark. Here is the formula brewers use and where it goes wrong.",
+ "standfirst": "Every malt on a spec sheet carries a colour number. Turning those numbers into a predicted beer colour is simple arithmetic with one bend in it. We show the working on a 1,000 litre batch.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two scales describe the same thing",
+   "<p>Malt colour is quoted in EBC in Europe and in degrees Lovibond in the US. Beer colour is quoted in EBC or in SRM. For beer, EBC is roughly SRM x 1.97. For malt, a common conversion is EBC = 2.65 x °L minus 1.2, so a 150 EBC crystal malt is about 57 °L.</p><p>Spec sheets from German maltsters give EBC. American software often wants Lovibond. Convert once, write both on your recipe sheet and stop converting in your head on brew day. Our guide to <a href=\"beer-colour-srm-ebc.html\">beer colour in SRM and EBC</a> explains the scales.</p>"
+  ],
+  [
+   "Malt colour units are the linear part",
+   "<p>The first step is malt colour units (MCU). In US units it is pounds of malt times degrees Lovibond divided by gallons. In metric it works out as:</p><p><strong>MCU = 8.345 x kg x °L / litres</strong></p><p>Each malt adds its own MCU and you sum them. Take 200 kg of Pilsner malt at about 1.8 °L and 10 kg of crystal at about 57 °L in 1,000 litres:</p><ul><li>Pilsner: 8.345 x 200 x 1.8 / 1,000 = 3.0 MCU</li><li>Crystal: 8.345 x 10 x 57 / 1,000 = 4.8 MCU</li><li>Total: 7.8 MCU</li></ul><p>Note that 10 kg of crystal contributes more MCU than 200 kg of base malt. Small additions of coloured malt carry most of the colour in a pale beer.</p>"
+  ],
+  [
+   "The Morey formula bends the line",
+   "<p>MCU is not beer colour. Above a few units, beer gets darker more slowly than MCU rises. The Morey formula is the usual correction:</p><p><strong>SRM = 1.4922 x MCU to the power 0.6859</strong></p><p>For our 7.8 MCU that gives about 6.1 SRM, or roughly 12 EBC: a deep gold. Now double the crystal to 20 kg. MCU rises to 12.5, but colour only reaches about 8.4 SRM, roughly 17 EBC. Twice the crystal gave about 40% more colour.</p><p>That bend is why a brewer who darkens a beer by eye keeps overshooting. Predict first, then adjust in small steps.</p>"
+  ],
+  [
+   "Know the rough colour of each malt family",
+   "<p>You do not need every spec sheet memorised, but the bands are worth knowing before you open the calculator:</p><ul><li><strong>Pale base malts</strong> such as Pilsner and pale ale malt sit around 3 to 7 EBC.</li><li><strong>Kilned malts</strong> such as Vienna and Munich run from about 6 to 25 EBC.</li><li><strong>Crystal and caramel malts</strong> span roughly 20 to 300 EBC, from honey gold to dark raisin.</li><li><strong>Roasted malts</strong> such as chocolate, black malt and roasted barley sit far higher, from several hundred to well over 1,000 EBC.</li></ul><p>Always use the figure printed on the bag in front of you. Colour varies from lot to lot within a stated range. Two maltsters' versions of the same malt type can differ widely. A recipe copied from a forum with a different maltster's crystal can miss its colour by a few EBC before you brew a drop.</p>"
+  ],
+  [
+   "What the formula leaves out",
+   "<p>Morey is an average fitted to real beers, not a law. Three things on the brewhouse floor move the result:</p><ul><li><strong>The boil.</strong> Maillard reactions darken wort during a long or vigorous boil. A 90 minute boil comes out darker than a 60 minute one.</li><li><strong>Kettle caramelisation.</strong> Direct fired kettles and scorched heating surfaces add colour that no malt bill predicts.</li><li><strong>Fermentation.</strong> Beer usually finishes a little lighter than wort as pH falls and yeast and finings drop out some colour.</li></ul><p>Dark roasted malts also fit the formula poorly. Chocolate and black malts change hue as well as depth, so a stout's measured EBC tells you less than its look in the glass.</p>"
+  ],
+  [
+   "Measure the beer and close the loop",
+   "<p>The standard lab method reads absorbance at 430 nm in a 1 cm cell. EBC is absorbance x 25 and SRM is absorbance x 12.7, each multiplied by any dilution. A basic spectrophotometer does it in minutes. Our guide to <a href=\"using-a-spectrophotometer-for-beer-colour-and-bitterness.html\">using a spectrophotometer</a> covers the method.</p><p>Measure every batch and log it next to the predicted figure. After ten brews you know your brewhouse's own offset from Morey. That offset is worth more than any software default, because it captures your kettle and your boil.</p>"
+  ],
+  [
+   "Designing colour on purpose",
+   "<p>Pick the target colour from the style, then build the grist backwards. Decide how much crystal you want for flavour, see what colour that gives, then trim or add a small dark malt to land the number. A few hundred grams of a dehusked roasted malt can lift colour in a 1,000 litre batch with little roast flavour.</p><p>Balancing base, caramel and roasted malts so colour, body and flavour all land where you meant them is the core of grist design. It is easier with a model you trust and a measured result to check it against.</p><p>Your first step: take your house pale ale, calculate its predicted colour with Morey, then measure the next batch at 430 nm and write both numbers down.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I convert EBC to Lovibond for malt?",
+   "A common conversion is °L = (EBC + 1.2) / 2.65. For finished beer, EBC is roughly SRM x 1.97."
+  ],
+  [
+   "Why is my beer darker than the recipe predicted?",
+   "Long or vigorous boils, direct fired kettles and scorching all add colour the malt bill does not account for. Measure your beers and learn your own offset."
+  ],
+  [
+   "Does doubling dark malt double the colour?",
+   "No. Beer colour rises more slowly than malt colour units, which is what the Morey formula models. Doubling crystal in a pale beer might add around 40% more colour."
+  ]
+ ],
+ "cta": {
+  "title": "Design colour, body and flavour on purpose",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999), Saturdays and Sundays online. It covers grist design, malt chemistry and lab measurement so your beer lands on target colour without guesswork.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "weyermann-vienna-malt",
+  "weyermann-sinamar-and-malt-extracts",
+  "crystal-malt-colour-and-the-sweetness-it-leaves"
+ ]
+}

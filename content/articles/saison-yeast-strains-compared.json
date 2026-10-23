@@ -1,0 +1,71 @@
+{
+ "slug": "saison-yeast-strains-compared",
+ "cat": "Ingredients",
+ "h1": "Saison yeast strains compared",
+ "title": "Saison Yeast Strains Compared | Craft Beer School",
+ "desc": "Dupont, French and dry saison strains compared: attenuation, temperature, the diastaticus risk plus which strain suits a commercial brewery.",
+ "teaser": "The famous Dupont strain stalls. The French strain never stops. Many dry saison yeasts are diastaticus. Choose with care.",
+ "standfirst": "Saison yeast is not one thing. The classic strains differ in how far they ferment, how much heat they need and whether they carry the STA1 gene. For a commercial brewery that last point decides how the yeast must be handled.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Saison yeast is phenolic, dry and heat tolerant",
+   "<p>The strains used for saison share a profile: peppery and spicy phenols, fruity esters and high attenuation. Almost all are POF positive, meaning they convert ferulic acid in wort into 4-vinyl guaiacol, the clove and pepper note. Most ferment happily well above normal ale temperatures, which suits Indian conditions far better than a lager strain does.</p><p>Beyond those basics they split into a few families. Knowing which family a strain belongs to tells you how it will behave in your tanks.</p>"
+  ],
+  [
+   "The Dupont strain wants heat and patience",
+   "<p>The strain associated with Brasserie Dupont in Belgium is sold as Wyeast 3724 Belgian Saison and White Labs WLP565 Saison Ale. It gives a complex, earthy, peppery beer that many brewers consider the benchmark.</p><p>It is also famous for stalling. Fermented at a normal 20 °C, it often stops around 1.030 to 1.035 and sits there for days or weeks. The usual fix is heat: start in the low 20s and let it rise to around 30 to 32 °C. Some brewers also keep the fermenter under very little head pressure, since the strain appears sensitive to it. With heat it will finish dry, but slowly.</p>"
+  ],
+  [
+   "French saison strains attenuate hard",
+   "<p>Wyeast 3711 French Saison and White Labs WLP590 French Saison behave very differently. They ferment quickly and finish very dry, often near 1.002 or below. The beer is lighter in body with a citrus and pepper profile and more fruit than earth.</p><p>That high attenuation has a cause. Wyeast 3711 is known to carry the STA1 gene, which makes it a diastaticus strain. It secretes glucoamylase, an enzyme that breaks down dextrins most brewing yeasts leave behind.</p>"
+  ],
+  [
+   "Diastaticus changes how you handle the yeast",
+   "<p>Saccharomyces cerevisiae var. diastaticus is a known spoiler of finished beer. A few cells reaching a packaged pale ale can keep fermenting dextrins in the can, raising carbonation until the package swells or bursts. Several popular dry saison yeasts, including Lallemand Belle Saison and Fermentis SafAle BE-134, are diastaticus by design.</p><p>In a commercial brewery that means:</p><ul><li>Dedicated or rigorously cleaned fermenters, hoses and gaskets for diastaticus strains.</li><li>Never harvesting and repitching the yeast into other beers.</li><li>Making sure a saison is fully fermented before packaging, because it can drop several more points of gravity than expected.</li><li>Periodic plating of other beers on selective media to confirm nothing has crossed over.</li></ul><p>Our guide to <a href=\"lachancea-and-non-traditional-yeasts.html\">non-traditional yeasts</a> covers other cultures that need the same care.</p>"
+  ],
+  [
+   "Pitch well and let the temperature climb",
+   "<p>Whichever strain you use, a healthy pitch matters more than the brand name. For liquid cultures in a commercial brewery a common target is about 1 million cells per mL per degree Plato, so a 12 °P saison wants around 12 million cells per mL. Underpitching pushes ester and fusel alcohol production up. In a beer fermented warm that can tip from fruity into solventy.</p><p>The usual profile is to pitch at 18 to 20 °C, hold for the first day while the yeast grows, then let the beer free rise. In much of India the ambient temperature does the work for you. Set the glycol jacket as a ceiling around 30 °C rather than fighting the rise, then hold warm until the gravity has been stable for two or three days.</p>"
+  ],
+  [
+   "Dry yeast makes saison practical for small brewers",
+   "<p>For a 10 hl brewpub without a yeast lab, dry saison yeast removes the propagation step. Rehydrate it as the manufacturer directs and pitch at the rate on the sheet. Fermentations are robust and repeatable. A box in the cold room covers months of brewing.</p><p>The trade-off is character. Many brewers find the dry strains cleaner and less complex than the best liquid cultures. Blending a dry strain with a small pitch of a characterful liquid strain is one way to keep reliability while adding depth, provided you accept that the blend counts as diastaticus.</p>"
+  ],
+  [
+   "Choose by finished gravity and risk",
+   "<p>A short way to pick:</p><ul><li>Earthy, classic and patient: the Dupont strain, with heat.</li><li>Very dry, quick and citrusy: a French strain, handled as diastaticus.</li><li>Reliable and simple: a dry saison strain, also handled as diastaticus.</li></ul><p>Whatever you choose, check the attenuation of the first batch against what you expected. A saison that finishes at 1.008 one batch and 1.001 the next is telling you the yeast or the wort has changed.</p><p>Before your next saison, write down on the brew sheet whether the strain is STA1 positive. If you do not know, ask the supplier or run a diastaticus PCR or selective plate on it. Then decide which tanks it is allowed into.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does my saison stall at 1.030?",
+   "The Dupont strain is known for stalling at normal ale temperatures. Raising the fermentation to around 30 to 32 °C usually gets it moving again."
+  ],
+  [
+   "Is Belle Saison a diastaticus yeast?",
+   "Yes. Lallemand Belle Saison is a diastaticus strain and needs to be kept away from other beers."
+  ],
+  [
+   "What temperature should saison ferment at?",
+   "Many brewers start around 20 to 22 °C and let the temperature rise towards 30 °C, though the right profile depends on the strain."
+  ],
+  [
+   "Can I reuse saison yeast?",
+   "Non-diastaticus strains can be repitched into saisons. Diastaticus strains should never be repitched into other beers because of the contamination risk."
+  ]
+ ],
+ "cta": {
+  "title": "Stop yeast surprises from reaching the can",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers yeast genetics, diastaticus control, fermentation management and the lab checks that keep specialist strains in their own tanks.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "lager-yeast-strains-compared",
+  "american-ale-yeast-strains-compared",
+  "english-ale-yeast-strains-compared"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "writing-standard-operating-procedures-for-a-distillery",
+ "cat": "Whisky",
+ "h1": "Writing standard operating procedures for a distillery",
+ "title": "Writing SOPs for a Distillery | Craft Beer School",
+ "desc": "How to write distillery standard operating procedures that operators follow: structure, critical limits, records and which SOPs to write first.",
+ "teaser": "If the process lives only in the head distiller's memory, it leaves when they go on leave. SOPs fix that.",
+ "standfirst": "A standard operating procedure turns one good run into a repeatable one. The best distillery SOPs are short, specific about numbers and written with the operators who will use them.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Consistency is written down, not remembered",
+   "<p>A small distillery often runs on one person's judgement. The head distiller knows when the foreshots are clean, how hard to push the wash still and which washback runs warm. That works until they are ill, on leave or gone. Then the new make changes and nobody can say why.</p><p>An SOP is the written answer to \"how do we do this here?\" It is also the document an excise officer, an auditor or an insurer will ask to see. Our guide to <a href=\"distillery-kpis-for-analysts.html\">distillery KPIs</a> shows how the numbers an SOP fixes in place feed straight into yield and cost reporting.</p>"
+  ],
+  [
+   "A structure that fits on two pages",
+   "<p>Every SOP in the distillery should follow the same layout, so an operator always knows where to look:</p><ol><li><strong>Purpose and scope.</strong> One sentence each.</li><li><strong>Responsibility.</strong> The role that does the task and the role that checks it.</li><li><strong>Safety.</strong> The specific hazards: hot liquid, steam, caustic, ethanol vapour, confined space.</li><li><strong>Equipment and materials.</strong></li><li><strong>Steps.</strong> Numbered, one action per step, in the order they happen.</li><li><strong>Critical limits.</strong> The numbers that must be hit, with the action if they are not.</li><li><strong>Records.</strong> What gets written down, where and by whom.</li><li><strong>Version and approval.</strong> Date, author and sign-off.</li></ol><p>If a procedure runs past two pages, split it. A wash still run and a still clean are separate SOPs, even if the same person does both on the same shift.</p>"
+  ],
+  [
+   "Numbers, not adjectives",
+   "<p>\"Heat the still gently\" means something different to every operator. \"Hold steam at the set point on the run sheet until the spirit flow settles\" can be checked. Good SOPs replace adjectives with figures and observations.</p><p>Take a spirit still run. The SOP should say how long foreshots run or what test ends them, the strength at which the cut to hearts is made, the strength at which hearts switch to feints and when the run ends. In many malt distilleries hearts start somewhere in the low to mid 70s % ABV and the cut to feints falls in the 60s, but your own figures come from your stills and your taste panel. Write those figures in, with the temperature correction method for every strength reading. A strength read at 30 °C in an Indian still house means nothing until it is corrected to the reference temperature.</p>"
+  ],
+  [
+   "Which SOPs to write first",
+   "<p>Write them in order of risk to people, then risk to spirit, then risk to money:</p><ul><li>Lock-out, confined space entry and hot work.</li><li>Spirit still run, including cut points.</li><li>Wash still run.</li><li>Cask filling and gauging, including filling strength (63.5% ABV is a common choice).</li><li>Cleaning: mash tun, washbacks and stills.</li><li>Spirit receiver transfers and excise records.</li><li>Mashing and fermentation.</li><li>Grain intake and milling, with dust explosion controls.</li></ul><p>Our guide to <a href=\"sourcing-oak-casks-for-an-indian-distillery.html\">sourcing oak casks</a> covers the purchasing side that a cask filling SOP depends on.</p>"
+  ],
+  [
+   "Write them with the operators",
+   "<p>The fastest way to an ignored SOP is to write it in an office. Stand next to the operator during a real run. Write down what they actually do, step by step, then compare it with what the design or the consultant said. The differences are where your process knowledge is hiding. Sometimes they are where your safety gaps are.</p><p>Then let a second operator run the task from the draft alone while you watch without helping. Every point where they hesitate is a step that needs rewriting. In our experience two rounds of this produce a procedure people trust, which is the only kind they follow.</p><p>Write in the language your team reads most comfortably. A Hindi or Kannada version on the still house wall is worth more than a perfect English one in a file.</p>"
+  ],
+  [
+   "Keep them alive",
+   "<p>An SOP is out of date the day someone finds a better way. Review each one at least once a year and after any incident, near miss or equipment change. Keep only the current version on the floor and the old ones in an archive, so nobody works from a superseded cut table.</p><p>Link each SOP to the records it creates. When yield drops or the new make tastes different, the first question is whether the procedure was followed. The run sheet answers it in minutes. This is where good SOPs and good data meet: one sets the standard, the other shows whether you hit it.</p>"
+  ],
+  [
+   "Start with the run that matters most",
+   "<p>Your first step: pick the spirit still run. Spend one shift beside the operator and write every action and every number on paper. Turn it into the eight part layout above, have a second operator test it and pin the result next to the spirit safe. One good SOP in use beats twenty in a folder.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long should a distillery SOP be?",
+   "Ideally one or two pages. If it runs longer, split it into separate procedures for separate tasks."
+  ],
+  [
+   "Which distillery SOP should be written first?",
+   "Safety procedures such as lock-out and confined space entry, then the spirit still run with its cut points, because that decides the character of the new make."
+  ],
+  [
+   "How often should SOPs be reviewed?",
+   "At least once a year and after any incident, near miss or equipment change."
+  ]
+ ],
+ "cta": {
+  "title": "Turn good runs into a repeatable process",
+  "body": "Craft Distilling is our four week live course (₹9,999). It covers each stage from mash to cask with the cut points, measurements and records a distillery SOP is built on.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "distillery-kpis-for-analysts",
+  "sourcing-oak-casks-for-an-indian-distillery",
+  "what-a-new-distillery-sells-while-whisky-ages"
+ ]
+}
