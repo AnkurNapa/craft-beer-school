@@ -512,6 +512,16 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
   </div>
 </section>
 
+<section class="cf-group" id="whisky-wine">
+  <div class="wrap">
+    <div class="sec-head"><span class="eyebrow">Whisky and wine</span><h2>Whisky online, wine one to one.</h2></div>
+    <div class="grid-2">
+      <article class="card reveal" data-type="online" data-subject="spirits-wine"><div class="card-body"><span class="mode mode-online">Online</span><span class="cat">Online · ₹5,000</span><h3>Whisky Course</h3><p>A live online course on whisky. Tell us when you would like to start and we send you the dates and the outline.</p><div class="foot"><a href="contact.html?course=Whisky%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="whisky-enroll">Enrol</a></div></div></article>
+      <article class="card reveal" data-type="online in-person" data-subject="spirits-wine"><div class="card-body"><span class="mode mode-both">Online + in person</span><span class="cat">One to one · 4 cities · ₹25,000</span><h3>Wine Consultation Course</h3><p>One-to-one sessions on wine, online or in person in Pune, Delhi, Gurugram or Bengaluru, built around your own questions or project.</p><div class="foot"><a href="contact.html?course=Wine%20Consultation%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="wine-consultation-enroll">Book a consultation</a></div></div></article>
+    </div>
+  </div>
+</section>
+
 <section class="cf-group" id="study">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Study material</span><h2>Learn from the book.</h2><p class="lead">Not a course: notes you work through on your own. Pay and we email it to you.</p></div>
