@@ -520,7 +520,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Wine</span><h2>Wine, one to one.</h2></div>
     <div class="grid-2">
-      <article class="card reveal" data-type="online in-person" data-subject="spirits-wine"><div class="card-body"><span class="mode mode-both">Online + in person</span><span class="cat">One to one · 4 cities · ₹25,000</span><h3>Wine Consultation Course</h3><p>One-to-one sessions on wine, online or in person in Pune, Delhi, Gurugram or Bengaluru, built around your own questions or project.</p><div class="foot"><a href="contact.html?course=Wine%20Consultation%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="wine-consultation-enroll">Book a consultation</a></div></div></article>
+      <article class="card reveal" data-type="online in-person" data-subject="spirits-wine"><div class="card-body"><span class="mode mode-both">Online + in person</span><span class="cat">One to one · 4 cities · ₹25,000</span><h3>Wine Consultation Course</h3><p>One-to-one sessions on wine, online or in person in Pune, Delhi, Gurugram or Bengaluru, built around your own questions or project.</p><div class="foot"><a href="contact.html?course=Wine%20Consultation%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="wine-consultation-enroll">Book a consultation</a> <a href="wine-consultation-one-to-one.html" class="link-arrow" data-cta="workshop-details">Course details</a></div></div></article>
     </div>
   </div>
 </section>
