@@ -82,7 +82,8 @@ def spec(slug, title):
         return (a["cat"], html.unescape(a["h1"]), f"{a['read']} read", article_art(key, a["cat"]))
     if slug in COURSES:
         c = COURSES[slug]
-        return ("Course · Live online", html.unescape(re.sub("<[^>]+>", "", c["name"])), f"{c['dur']} · {c['price']}", "")
+        how = "Live online" if pages_a.MODE.get(c["name"], "Online") == "Online" else "Online + in person"
+        return (f"Course · {how}", html.unescape(re.sub("<[^>]+>", "", c["name"])), f"{c['dur']} · {c['price']}", "")
     if slug in MENTORS:
         m = MENTORS[slug]
         face = "data:image/jpeg;base64," + base64.b64encode((HERE / m["img"]).read_bytes()).decode()
