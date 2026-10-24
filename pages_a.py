@@ -41,7 +41,7 @@ SUBJECT = {"Brewing Fundamentals": "brewing", "Advanced Brewing Science": "brewi
            "Brand Strategy and Positioning for Breweries": "business", "Rebranding a Brewery": "business",
            "Naming and Trademarks for Drinks Brands": "business", "Taproom Marketing and Community": "business",
            "AI for Craft Breweries": "data", "Digital Transformation Basics for Brewing": "data",
-           "Power BI and Tableau for Breweries": "data", "Craft Distilling": "spirits-wine", "Craft Gin Making": "spirits-wine",
+           "Power BI and Tableau for Breweries": "data", "Craft Distilling": "spirits-wine", "Craft Gin Making": "spirits-wine", "Whisky Appreciation": "spirits-wine",
            "Winemaking": "spirits-wine", "Fortified Wine": "spirits-wine", "Winery Business": "spirits-wine",
            "RTD Drinks: Alcoholic and Non-Alcoholic": "other-drinks", "Hop Water": "other-drinks",
            "Hard Seltzer": "other-drinks", "Kombucha": "other-drinks", "Non-Alcoholic Beer": "other-drinks"}
@@ -191,6 +191,10 @@ COURSE_DATA = [
          blurb="Turn first visits into regulars: events, beer clubs, staff who live the brand and local partnerships for a taproom or brewpub.",
          items=['Events that bring people back', 'Beer clubs and regulars', 'Staff as the brand', 'Local partners and collaborations'],
          price="₹5,000", amount="5000"),
+    dict(no="28", tag="New · Whisky", dur="2 Weeks", weeks=2, name="Whisky Appreciation",
+         blurb="Learn whisky the way a blender tastes it: how it is made, the main styles of the world and a tasting method you can use on any glass, with Indian whisky in the mix.",
+         items=["How whisky is made", "Styles of the world, India included", "Tasting with a method", "Serving, food and buying well"],
+         price="₹5,000", amount="5000"),
 ]
 
 COURSE_CARDS = [
@@ -209,8 +213,8 @@ TRACKS = [
       "Digital Transformation Basics for Brewing", "ESG in Craft Brewing", "Power BI and Tableau for Breweries"]),
     ("megaphone", "Brand and marketing", "Build, name and market a brewery brand people remember.",
      ["Beer Branding &amp; Packaging", "Digital Marketing for Breweries", "Brand Strategy and Positioning for Breweries", "Rebranding a Brewery", "Naming and Trademarks for Drinks Brands", "Taproom Marketing and Community"]),
-    ("martini", "Spirits", "Distilling and gin, from wash to bottle.",
-     ["Craft Distilling", "Craft Gin Making"]),
+    ("martini", "Spirits", "Whisky, distilling and gin, from wash to glass.",
+     ["Whisky Appreciation", "Craft Distilling", "Craft Gin Making"]),
     ("glass-water", "Beyond beer", "Alcohol-free, low-alcohol and the other ferments people are buying now.",
      ["Non-Alcoholic Beer", "RTD Drinks: Alcoholic and Non-Alcoholic", "Hop Water", "Hard Seltzer", "Kombucha"]),
     ("wine", "Wine and new products", "Make wine, run a winery and launch new drinks.",
@@ -514,9 +518,8 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
 
 <section class="cf-group" id="whisky-wine">
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Whisky and wine</span><h2>Whisky online, wine one to one.</h2></div>
+    <div class="sec-head"><span class="eyebrow">Wine</span><h2>Wine, one to one.</h2></div>
     <div class="grid-2">
-      <article class="card reveal" data-type="online" data-subject="spirits-wine"><div class="card-body"><span class="mode mode-online">Online</span><span class="cat">Online · ₹5,000</span><h3>Whisky Course</h3><p>A live online course on whisky. Tell us when you would like to start and we send you the dates and the outline.</p><div class="foot"><a href="contact.html?course=Whisky%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="whisky-enroll">Enrol</a></div></div></article>
       <article class="card reveal" data-type="online in-person" data-subject="spirits-wine"><div class="card-body"><span class="mode mode-both">Online + in person</span><span class="cat">One to one · 4 cities · ₹25,000</span><h3>Wine Consultation Course</h3><p>One-to-one sessions on wine, online or in person in Pune, Delhi, Gurugram or Bengaluru, built around your own questions or project.</p><div class="foot"><a href="contact.html?course=Wine%20Consultation%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="wine-consultation-enroll">Book a consultation</a></div></div></article>
     </div>
   </div>
