@@ -105,28 +105,6 @@ COURSES = [
          who=["Anyone new to craft beer", "Friends or teams looking for a tasting with real learning in it"],
          gain=["A guided tasting flight", "How to read aroma, flavour and style in any glass"],
          included="The tasting flight. Tasting is only for those of legal drinking age. Bring ID."),
-    dict(slug="wine-consultation-one-to-one.html",
-         name="Wine Consultation Course", short="Wine Consultation Course",
-         eyebrow="One to one · Online or in 4 cities",
-         blurb="One-to-one sessions on wine, online or in person in Pune, Delhi, Gurugram or Bengaluru, built around your own questions or project.",
-         desc="Wine Consultation Course: one-to-one sessions on wine, online or in person in Pune, Delhi, Gurugram or Bengaluru. Fee ₹25,000.",
-         enrol="contact.html?course=Wine%20Consultation%20Course#enroll", pdf=None,
-         facts=[("Format", "One to one"), ("Where", "Online or in person"), ("Cities", "Pune, Delhi, Gurugram, Bengaluru"),
-                ("Fee", "₹25,000")],
-         plan_title="How it works.",
-         plan_lead="Every consultation is shaped around you, so the sessions follow your agenda rather than a fixed syllabus.",
-         plan=[("Tell us what you need", "Send us your questions, your project or the wines you want to talk about when you enquire."),
-               ("Agree the plan", "We confirm what the sessions will cover, whether you meet us online or in person and the dates."),
-               ("Your sessions", "One-to-one time with a Craft Beer School mentor, online or in Pune, Delhi, Gurugram or Bengaluru."),
-               ("Go further", "If you want structured study next, we point you to the right course: <a href=\"winemaking-course.html\" style=\"color:var(--blue);text-decoration:underline\">Winemaking</a>, <a href=\"fortified-wine-course.html\" style=\"color:var(--blue);text-decoration:underline\">Fortified Wine</a> or <a href=\"winery-business-course.html\" style=\"color:var(--blue);text-decoration:underline\">Winery Business</a>.")],
-         who=["Wine lovers who want to go deeper with one-to-one guidance",
-              "Grape growers and founders planning a winery or a wine brand",
-              "Hotel, restaurant and retail teams building a wine list"],
-         gain=["Sessions built around your own questions or project",
-               "Help with making, tasting, buying or selling wine, whichever you need",
-               "The choice of meeting online or in person in four cities",
-               "A clear next step if you want to keep learning"],
-         included="One-to-one consultation sessions, online or in person. Tell us your city and what you want to cover when you enquire and we confirm the plan and dates. Tasting is only for those of legal drinking age."),
 ]
 
 
@@ -193,7 +171,7 @@ def pages():
             title = f"{c['short']} | Craft Beer School"
         fee = dict(c["facts"])["Fee"]
         where = dict(c["facts"]).get("City") or dict(c["facts"]).get("Where") or CITIES
-        desc = c.get("desc") or f"{c['name']}: {dict(c['facts'])['Duration'].lower()} in person, {where}. Fee {fee.lower() if fee == 'On enquiry' else fee}. {c['blurb']}"
+        desc = f"{c['name']}: {dict(c['facts'])['Duration'].lower()} in person, {where}. Fee {fee.lower() if fee == 'On enquiry' else fee}. {c['blurb']}"
         if len(desc) > 160:
             desc = desc[:157].rsplit(" ", 1)[0] + "..."
         out[c["slug"]] = (title, desc, "courses", render(c))

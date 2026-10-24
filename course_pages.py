@@ -25,6 +25,20 @@ LOGISTICS = [
     ("Fees", "Paid in full at sign-up. No discounts apply. A package of courses cannot be changed once confirmed."),
 ]
 
+# Cohort wording on every course page and prospectus. A one-to-one course
+# overrides it with a "format" dict in DETAIL.
+COHORT = dict(batch="Max 20", batch_fact=("20", "Students per batch, at most"), when=("Sat-Sun", "12:00 to 2:00 PM IST"),
+              lead="Two live sessions every weekend and one assignment a week.",
+              cta="Cohorts cap at 20. Enrol now or ask us on WhatsApp.", cap="Cohorts cap at 20 students.", logistics={})
+
+
+def fmt(c):
+    f = dict(COHORT, sessions=f'{c["weeks"] * 2} live, 2 hours each')
+    f.update(DETAIL[plain(c["name"])].get("format", {}))
+    f["logistics"] = [(k, f["logistics"].get(k, v)) for k, v in LOGISTICS]
+    return f
+
+
 ARTICLES_BY_SLUG = {a["slug"]: a for a in articles_all.ARTICLES}
 
 # name (plain text, as in the contact form) -> detail
@@ -290,23 +304,30 @@ DETAIL = {
         reading=['how-whisky-is-made', 'whisky-tasting-for-beginners', 'whisky-styles-of-the-world'],
         who=["Whisky lovers who want to know what is in the glass",
              "Bar, hospitality and sales staff who talk about whisky every day",
-             "Anyone heading for a career in whisky, from brand roles to the warehouse"],
+             "Anyone heading for a career in whisky, from brand roles to the warehouse",
+             "Collectors who want to buy with more confidence"],
         outcomes=["Explain how malt, grain and blended whisky are made",
                   "Tell Scotch, Irish, American, Japanese and Indian whisky apart",
                   "Taste and describe any whisky with a method you can repeat",
-                  "Serve whisky well in Indian heat and pair it with food"],
+                  "Serve whisky well in Indian heat and pair it with food",
+                  "Read a whisky label and know what it promises",
+                  "Run a whisky tasting for friends at home"],
         weeks=[
             ("How whisky is made and its styles",
              ["Barley, malting and mashing: the same start as beer, without the hops",
               "Fermentation, pot and column stills and the cuts",
               "Casks, maturation and why Indian heat ages whisky faster with a bigger angels' share",
-              "Scotch regions, Irish whiskey, American bourbon and rye, Japanese whisky and Indian single malts"],
+              "Scotch regions, Irish whiskey, American bourbon and rye, Japanese whisky and Indian single malts",
+              "Single malt, single grain and blends: what each one means",
+              "Peat and smoke: where it comes from and how it shows in the glass"],
              "Map five whiskies you can buy in India to how and where they were made."),
             ("Tasting, serving and buying",
              ["A tasting method: look, nose, palate and finish",
               "Adding water, cask strength and getting past the alcohol burn",
               "Serving in Indian weather: neat, with water, on ice or as a highball",
-              "Pairing with Indian food, reading a label and buying well"],
+              "Pairing with Indian food, reading a label and buying well",
+              "Blind tasting and comparing whiskies side by side",
+              "Whisky clubs, festivals and building a home collection on a budget"],
              "Taste three whiskies with the method and write a note for each."),
         ]),
     "Craft Gin Making": dict(
@@ -389,6 +410,37 @@ DETAIL = {
               "Fining, filtration and cold stabilisation against tartrate crystals",
               "Barrel or tank ageing, bottling and storing wine in a hot country"],
              "Write a cellar plan from end of fermentation to bottle."),
+        ]),
+    "Wine Consultation": dict(
+        reading=['how-wine-is-made', 'indian-wine-regions', 'grape-varieties-for-beginners'],
+        format=dict(sessions="One to one", batch="Just you", batch_fact=("1:1", "Every session is one to one"),
+                    when=("Your time", "Sessions agreed with you"),
+                    lead="One-to-one sessions at times that suit you, online or in person. One assignment a week.",
+                    cta="Every session is one to one. Enrol now or ask us on WhatsApp.", cap="Every session is one to one.",
+                    logistics={"Schedule": "One-to-one sessions at times agreed with you, online or in person in Pune, Delhi, Gurugram or Bengaluru.",
+                               "Batch size": "Just you. Every session is one to one.",
+                               "Beyond the screen": "Recommended winery visits, so you see how the wine is made."}),
+        who=["Wine lovers who want to go deeper with one-to-one guidance",
+             "Grape growers and founders planning a winery or a wine brand",
+             "Hotel, restaurant and retail teams building a wine list",
+             "Brewers and distillers adding wine to their range"],
+        outcomes=["Straight answers to your own wine questions",
+                  "A clear view of how wine is made and what shapes its taste",
+                  "A tasting method you can use on any wine",
+                  "A one-page plan for your project or your next step in wine"],
+        weeks=[
+            ("Your questions and the basics",
+             ["We start from your brief: the questions, project or wines you bring",
+              "How wine is made, from grape to bottle, at the depth you need",
+              "Grapes, regions and styles, Indian wine included",
+              "Tasting with a method: look, nose, palate and finish"],
+             "Write down the three questions or decisions you most want settled by the end."),
+            ("Your project and next steps",
+             ["A deep dive on your project: making, buying, listing or selling wine",
+              "Costs, licences and labels where your project needs them, which vary by state",
+              "Wine with Indian food and serving it in Indian heat",
+              "Where to go next: courses, reading and people to talk to"],
+             "Turn the sessions into a one-page plan for your project or your next step."),
         ]),
     "Fortified Wine": dict(
         reading=['how-fortified-wines-are-made', 'how-wine-is-made', 'wine-faults-for-quality-teams'],
@@ -670,6 +722,7 @@ KEYWORDS = {
     "safety-in-brewing-course.html": ["safety", "cip ", "cleaning"],
     "craft-distilling-course.html": ["distill", "whisky", "spirit", "make spirit"],
     "whisky-appreciation-course.html": ["whisky", "whiskey"],
+    "wine-consultation-course.html": ["wine"],
     "craft-gin-making-course.html": ["gin ", "distill", "botanical"],
     "rtd-drinks-alcoholic-and-non-alcoholic-course.html": ["rtd", "seltzer", "alcopop", "mixed drinks", "shandies", "flavoured beers"],
     "hop-water-course.html": ["hop water", "hop extract", "cryo"],
@@ -719,15 +772,16 @@ def render(c):
     weeks = "".join(_week(i, *w) for i, w in enumerate(d["weeks"], 1))
     who = "".join(f"<li>{w}</li>" for w in d["who"])
     out = "".join(f"<li>{o}</li>" for o in d["outcomes"])
-    logi = "".join(f"<div><dt>{k}</dt><dd>{FREE_FEES if k == 'Fees' and is_free(c) else v}</dd></div>" for k, v in LOGISTICS)
+    f = fmt(c)
+    logi = "".join(f"<div><dt>{k}</dt><dd>{FREE_FEES if k == 'Fees' and is_free(c) else v}</dd></div>" for k, v in f["logistics"])
     enrol = enroll_href(c["name"])
     return banner(f'<a href="courses.html">Courses</a> / {c["name"]}', f'{c["no"]} / {c["tag"]}', c["name"], c["blurb"]) + f"""
 <section style="padding-block:0">
   <div class="wrap course-facts">
     <div><span>Format</span><b>{pages_a.MODE_LABEL[pages_a.MODE.get(c["name"], "Online")]}</b></div>
     <div><span>Duration</span><b>{c["dur"]}</b></div>
-    <div><span>Sessions</span><b>{c["weeks"] * 2} live, 2 hours each</b></div>
-    <div><span>Batch</span><b>Max 20</b></div>
+    <div><span>Sessions</span><b>{f["sessions"]}</b></div>
+    <div><span>Batch</span><b>{f["batch"]}</b></div>
     <div><span>Fee</span><b>{c["price"]}</b></div>
     <div class="cta-pair">{_ctas(enrol, "facts")}{_prospectus(c, "facts")}</div>
   </div>
@@ -744,7 +798,7 @@ def render(c):
 {mentors.instructors(slug_for(c["name"]), c["name"].replace("&amp;", "&"))}
 <section class="tint">
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Syllabus</span><h2>Week by week.</h2><p class="lead">{c["weeks"]} week{"s" if c["weeks"] != 1 else ""}. Two live sessions every weekend and one assignment a week.</p></div>
+    <div class="sec-head"><span class="eyebrow">Syllabus</span><h2>Week by week.</h2><p class="lead">{c["weeks"]} week{"s" if c["weeks"] != 1 else ""}. {f["lead"]}</p></div>
     <div class="faq syllabus">{weeks}</div>
     <aside class="cta-inline" style="margin-top:2.4rem">
       <div><h3>Questions about the syllabus?</h3><p>Ask us on WhatsApp before you commit, or enrol now to hold your seat.</p></div>
@@ -765,7 +819,7 @@ def render(c):
 
 {all_guides(slug_for(c["name"]))}
 
-<section class="cta"><div class="wrap"><h2>Save your seat in {c["name"]}.</h2><p>Cohorts cap at 20. Enrol now or ask us on WhatsApp.</p><div class="cta-pair" style="justify-content:center">{_ctas(enrol, "bottom")}</div></div></section>
+<section class="cta"><div class="wrap"><h2>Save your seat in {c["name"]}.</h2><p>{f["cta"]}</p><div class="cta-pair" style="justify-content:center">{_ctas(enrol, "bottom")}</div></div></section>
 """
 
 

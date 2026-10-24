@@ -26,7 +26,7 @@ def course_href(course_name):
 # How each course is taught. Online unless listed: Brewing Fundamentals also
 # has an in-person version too.
 MODE = {"Brewing Fundamentals": "Both", "Winemaking": "Both", "Fortified Wine": "Both", "Winery Business": "Both",
-        "New Product Development: Beer, Whisky and Wine": "Both"}
+        "New Product Development: Beer, Whisky and Wine": "Both", "Wine Consultation": "Both"}
 MODE_LABEL = {"Online": "Online", "In person": "In person", "Both": "Online + in person"}
 
 
@@ -41,7 +41,7 @@ SUBJECT = {"Brewing Fundamentals": "brewing", "Advanced Brewing Science": "brewi
            "Brand Strategy and Positioning for Breweries": "business", "Rebranding a Brewery": "business",
            "Naming and Trademarks for Drinks Brands": "business", "Taproom Marketing and Community": "business",
            "AI for Craft Breweries": "data", "Digital Transformation Basics for Brewing": "data",
-           "Power BI and Tableau for Breweries": "data", "Craft Distilling": "spirits-wine", "Craft Gin Making": "spirits-wine", "Whisky Appreciation": "spirits-wine",
+           "Power BI and Tableau for Breweries": "data", "Craft Distilling": "spirits-wine", "Craft Gin Making": "spirits-wine", "Whisky Appreciation": "spirits-wine", "Wine Consultation": "spirits-wine",
            "Winemaking": "spirits-wine", "Fortified Wine": "spirits-wine", "Winery Business": "spirits-wine",
            "RTD Drinks: Alcoholic and Non-Alcoholic": "other-drinks", "Hop Water": "other-drinks",
            "Hard Seltzer": "other-drinks", "Kombucha": "other-drinks", "Non-Alcoholic Beer": "other-drinks"}
@@ -195,6 +195,10 @@ COURSE_DATA = [
          blurb="Learn whisky the way a blender tastes it: how it is made, the main styles of the world and a tasting method you can use on any glass, with Indian whisky in the mix.",
          items=["How whisky is made", "Styles of the world, India included", "Tasting with a method", "Serving, food and buying well"],
          price="₹5,000", amount="5000"),
+    dict(no="29", tag="New · One to one", dur="2 Weeks", weeks=2, name="Wine Consultation",
+         blurb="One-to-one sessions on wine, online or in person in Pune, Delhi, Gurugram or Bengaluru, built around your own questions or project.",
+         items=["Built around your own questions", "Making, tasting, buying or selling wine", "Online or in person in 4 cities", "A plan for your next step"],
+         price="₹25,000", amount="25000"),
 ]
 
 COURSE_CARDS = [
@@ -218,7 +222,7 @@ TRACKS = [
     ("glass-water", "Beyond beer", "Alcohol-free, low-alcohol and the other ferments people are buying now.",
      ["Non-Alcoholic Beer", "RTD Drinks: Alcoholic and Non-Alcoholic", "Hop Water", "Hard Seltzer", "Kombucha"]),
     ("wine", "Wine and new products", "Make wine, run a winery and launch new drinks.",
-     ["Winemaking", "Fortified Wine", "Winery Business", "New Product Development: Beer, Whisky and Wine"]),
+     ["Winemaking", "Fortified Wine", "Winery Business", "Wine Consultation", "New Product Development: Beer, Whisky and Wine"]),
     ("map-pin", "Free and in Bengaluru", "Start free, or learn in the room with us.",
      ["Safety in Brewing"]),
 ]
@@ -512,15 +516,6 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
       <article class="card reveal" data-type="in-person" data-subject="tasting"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Day · Bengaluru · ₹4,999</span><h3>Professional Beer Tasting Day</h3><p>Taste the way brewers, judges and buyers do. A guided flight across the main styles, from lager, wheat and pale ale to IPA, stout, sour and Belgian, plus spiked samples of the common off-flavours. You learn the professional tasting method, write proper tasting notes and score every beer on an industry scoresheet. Beers, tasting kit and scoresheets included.</p><div class="foot"><a href="contact.html?course=Professional%20Beer%20Tasting%20Day#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Book a seat</a> <a href="professional-beer-tasting-day-in-person.html" class="link-arrow" data-cta="workshop-details">Course details</a></div></div></article>
       <article class="card reveal" data-type="in-person" data-subject="business"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">Half day · Bengaluru · Guided tour</span><h3>Brewery Business Tour</h3><p>For anyone thinking about a brewery or brewpub business. Walk a working Bengaluru brewery with a brewer who runs one: brewhouse, cellar, cold room and taproom. Then the questions every would-be founder asks, about cost, licences, staffing, space and what nobody tells you before you start.</p><div class="foot"><a href="contact.html?course=Brewery%20Business%20Tour#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a> <a href="brewery-business-tour-in-person.html" class="link-arrow" data-cta="workshop-details">Course details</a></div></div></article>
       <article class="card reveal" data-type="in-person" data-subject="tasting"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">2 Hours · Tasting</span><h3>2-Hour Craft Beer Tasting Course</h3><p>A guided tasting flight in Bengaluru. Learn to read aroma, flavour and style in two focused hours.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a> <a href="2-hour-craft-beer-tasting-course-in-person.html" class="link-arrow" data-cta="workshop-details">Course details</a></div></div></article>
-    </div>
-  </div>
-</section>
-
-<section class="cf-group" id="whisky-wine">
-  <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">Wine</span><h2>Wine, one to one.</h2></div>
-    <div class="grid-2">
-      <article class="card reveal" data-type="online in-person" data-subject="spirits-wine"><div class="card-body"><span class="mode mode-both">Online + in person</span><span class="cat">One to one · 4 cities · ₹25,000</span><h3>Wine Consultation Course</h3><p>One-to-one sessions on wine, online or in person in Pune, Delhi, Gurugram or Bengaluru, built around your own questions or project.</p><div class="foot"><a href="contact.html?course=Wine%20Consultation%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="wine-consultation-enroll">Book a consultation</a> <a href="wine-consultation-one-to-one.html" class="link-arrow" data-cta="workshop-details">Course details</a></div></div></article>
     </div>
   </div>
 </section>

@@ -221,7 +221,8 @@ def course_html(c):
     fee = "Free" if cp.is_free(c) else c["price"]
     weeks = plan(["Week", "Focus", "Topics", "Assignment"],
                  [[f"Week {i}", t, "; ".join(topics), task] for i, (t, topics, task) in enumerate(d["weeks"], 1)])
-    logi = "".join(f"<li><b>{k}.</b> {cp.FREE_FEES if k == 'Fees' and cp.is_free(c) else v}</li>" for k, v in cp.LOGISTICS)
+    f = cp.fmt(c)
+    logi = "".join(f"<li><b>{k}.</b> {cp.FREE_FEES if k == 'Fees' and cp.is_free(c) else v}</li>" for k, v in f["logistics"])
     return f"""<!doctype html><html lang="en-IN"><head><meta charset="utf-8">{style()}
 <style>.team{{display:grid;grid-template-columns:repeat(4,1fr);gap:5mm;margin-top:5mm}}.member img{{width:100%;aspect-ratio:1;object-fit:cover;border-radius:4mm}}
 .member h3{{font-size:10.5pt;margin-top:2.5mm}}.member p{{font-size:8pt;color:var(--soft)}}table.plan{{font-size:8.2pt}}table.plan td:nth-child(2){{font-weight:700;width:30mm}}</style></head><body>
@@ -230,9 +231,9 @@ def course_html(c):
 <section class="page about"><span class="eyebrow">{c["no"]} / {c["tag"]}</span>
   <h2>{name}.</h2>
   <p class="lead">{c["blurb"]}</p>
-  <div class="facts"><div class="fact"><b>{c["dur"]}</b><span>{c["weeks"] * 2} live sessions, 2 hours each</span></div>
-    <div class="fact"><b>Sat-Sun</b><span>12:00 to 2:00 PM IST</span></div>
-    <div class="fact"><b>20</b><span>Students per batch, at most</span></div><div class="fact"><b>{fee}</b><span>Course fee</span></div></div>
+  <div class="facts"><div class="fact"><b>{c["dur"]}</b><span>{f["sessions"].replace(" live,", " live sessions,")}</span></div>
+    <div class="fact"><b>{f["when"][0]}</b><span>{f["when"][1]}</span></div>
+    <div class="fact"><b>{f["batch_fact"][0]}</b><span>{f["batch_fact"][1]}</span></div><div class="fact"><b>{fee}</b><span>Course fee</span></div></div>
   <div class="cols" style="margin-top:0"><div class="box"><h3>Who it is for</h3>{ul(d["who"])}</div>
     <div class="box"><h3>What you walk away with</h3>{ul(d["outcomes"])}</div></div>
   <span class="eyebrow" style="display:block;margin-top:7mm">Who teaches it</span><div class="team">{_instructors(c)}</div>
@@ -240,7 +241,7 @@ def course_html(c):
 
 <section class="page"><span class="eyebrow">Syllabus</span>
   <h2 style="font-size:24pt;margin:3mm 0 4mm">Week by week.</h2>
-  <p style="font-size:9.4pt">{c["weeks"]} week{"s" if c["weeks"] != 1 else ""}. Two live sessions every weekend and one assignment a week.</p>
+  <p style="font-size:9.4pt">{c["weeks"]} week{"s" if c["weeks"] != 1 else ""}. {f["lead"]}</p>
   {weeks}
   {foot(name)}</section>
 
@@ -248,7 +249,7 @@ def course_html(c):
   <h2 style="font-size:24pt;margin:3mm 0 6mm">Format, terms and how to enrol.</h2>
   <div class="terms"><ol>{logi}<li><b>Refunds.</b> Read the refund policy at {mp.SITE}/refund.html before you pay.</li></ol></div>
   <div class="fee"><div><span>Course fee per student</span><br><b>{fee}</b></div>
-    <span style="max-width:95mm">Enrol at {mp.SITE}/{cp.slug_for(c["name"])} or ask us on WhatsApp. Cohorts cap at 20 students.</span></div>
+    <span style="max-width:95mm">Enrol at {mp.SITE}/{cp.slug_for(c["name"])} or ask us on WhatsApp. {f["cap"]}</span></div>
   <div class="cards" style="margin-top:8mm">
     <div style="background:var(--navy);color:#fff"><b>Website</b><span>{mp.SITE}</span></div>
     <div style="background:var(--navy);color:#fff"><b>WhatsApp and phone</b><span>{mp.PHONE}</span></div>
