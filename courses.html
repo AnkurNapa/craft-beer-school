@@ -84,8 +84,8 @@
 <section class="okt-band" aria-label="Beer for Starters" style="padding-block:0;background:#fbf3e2;border-bottom:1px solid #ead9b8">
   <div class="wrap" style="display:flex;align-items:center;gap:clamp(1rem,3vw,2.5rem);flex-wrap:wrap;padding-block:clamp(1.4rem,3vw,2.2rem)">
     <a href="beer-for-starters-online-course.html" data-cta="courses-starters-poster" style="flex:0 1 280px;max-width:100%;display:block">
-      <img src="assets/beer-for-starters-560.jpg" width="560" height="560" loading="eager" style="width:100%;height:auto;border-radius:12px;box-shadow:0 14px 30px -14px rgba(59,36,20,.5)"
-           alt="Beer for Starters poster: a tasting tray of four beers, a one-hour online course for ₹199"></a>
+      <img src="assets/beer-for-starters-diwali-560.jpg" srcset="assets/beer-for-starters-diwali-560.jpg 1x, assets/beer-for-starters-diwali-1120.jpg 2x" width="560" height="560" loading="eager" style="width:100%;height:auto;border-radius:12px;box-shadow:0 14px 30px -14px rgba(59,36,20,.5)"
+           alt="Beer for Starters Diwali poster: cards, beer and a special Diwali hamper for the first batch, a one-hour online course for ₹199"></a>
     <div style="flex:1 1 320px">
       <span class="eyebrow">New · 1 hour online</span>
       <h2 style="margin:.3rem 0">Beer for Starters, just ₹199.</h2>
@@ -97,7 +97,7 @@
 <section class="tint cf-group" id="in-person">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">In person</span><h2>Brew in a real brewery.</h2><p class="lead">Hands-on courses in working microbreweries in Pune, Delhi, Gurugram and Bengaluru. <a href="in-person-brewing-courses-pune-delhi-gurugram-bengaluru.html" style="color:var(--blue);text-decoration:underline">Which one suits you</a>.</p></div>
-    <div class="grid-2">
+    <div class="grid-2" data-shuffle>
       <article class="card reveal" data-type="in-person" data-subject="brewing"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Day · 4 cities · ₹25,000</span><h3>1-Day Super Intensive Craft Beer Course</h3><p>A full day inside a working microbrewery, from raw materials to a finished pour: ingredients, mash, lauter, boil, fermentation, CIP and a guided tasting, with a certificate.</p><div class="foot"><a href="contact.html?course=1-Day%20Super%20Intensive%20Craft%20Beer%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-1day">Save your seat</a> <a href="assets/craft-beer-school-1-day-course.pdf" download class="link-arrow" data-cta="workshop-1day-prospectus">Prospectus</a> <a href="1-day-super-intensive-craft-beer-course-in-person.html" class="link-arrow" data-cta="workshop-details">Course details</a></div></div></article>
       <article class="card reveal" data-type="in-person" data-subject="brewing"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Month · 48 hours · ₹1,25,000</span><h3>1-Month Intensive Brewing Excellence Course</h3><p>Four weeks of classes, online study, lab work and hands-on brewing in partner microbreweries: fundamentals, brewhouse, fermentation and quality control, at most 20 students.</p><div class="foot"><a href="contact.html?course=1-Month%20Intensive%20Brewing%20Excellence%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-1month">Save your seat</a> <a href="assets/craft-beer-school-1-month-course.pdf" download class="link-arrow" data-cta="workshop-1month-prospectus">Prospectus</a> <a href="1-month-intensive-brewing-excellence-course-in-person.html" class="link-arrow" data-cta="workshop-details">Course details</a></div></div></article>
       <article class="card reveal" data-type="in-person" data-subject="brewing"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Day · At Home</span><h3>1-Day Home Visit Brewing Course</h3><p>Our brew master comes to your home with all the equipment and ingredients needed to brew your first batch, start to finish.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a> <a href="home-visit-brewing-course-in-person.html" class="link-arrow" data-cta="workshop-details">Course details</a></div></div></article>
@@ -121,7 +121,7 @@
 <section class="cf-group" id="online">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Online courses</span><h2>29 pours from grain to glass.</h2><div style="margin-top:1.2rem"><a href="prospectus.html" class="btn btn-amber" data-cta="prospectus-download">Read the prospectus</a></div></div>
-    <div class="grid-3"><article class="card course-card reveal" data-type="online in-person" data-subject="brewing"><img class="tile-img" src="assets/stock/course-brewing-fundamentals.jpg" srcset="assets/stock/course-brewing-fundamentals-sm.jpg 640w, assets/stock/course-brewing-fundamentals.jpg 1024w" sizes="(max-width: 680px) 92vw, 400px" alt="Brewing Fundamentals" width="1024" height="683" loading="lazy" decoding="async" />
+    <div class="grid-3" data-shuffle><article class="card course-card reveal" data-type="online in-person" data-subject="brewing"><img class="tile-img" src="assets/stock/course-brewing-fundamentals.jpg" srcset="assets/stock/course-brewing-fundamentals-sm.jpg 640w, assets/stock/course-brewing-fundamentals.jpg 1024w" sizes="(max-width: 680px) 92vw, 400px" alt="Brewing Fundamentals" width="1024" height="683" loading="lazy" decoding="async" />
   <div class="top"><span class="course-no">01 / Foundations</span><span class="course-dur">4 Weeks</span></div>
   <div class="card-body">
     <span class="mode mode-both">Online + in person</span>
@@ -534,6 +534,10 @@ run();if(q.get('type')||q.get('subject'))document.getElementById('course-filter'
 
 <script>
 document.documentElement.classList.add('js');
+// Course grids marked data-shuffle reorder on every load; data-shuffle="3" also shows only the first 3.
+document.querySelectorAll('[data-shuffle]').forEach(g=>{const k=[...g.children],n=+g.dataset.shuffle||k.length;
+for(let i=k.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[k[i],k[j]]=[k[j],k[i]];}
+k.forEach((c,i)=>{c.hidden=i>=n;g.appendChild(c);});});
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal,.sec-head').forEach(el=>io.observe(el));
 

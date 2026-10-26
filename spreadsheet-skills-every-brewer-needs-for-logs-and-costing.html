@@ -222,6 +222,10 @@
 
 <script>
 document.documentElement.classList.add('js');
+// Course grids marked data-shuffle reorder on every load; data-shuffle="3" also shows only the first 3.
+document.querySelectorAll('[data-shuffle]').forEach(g=>{const k=[...g.children],n=+g.dataset.shuffle||k.length;
+for(let i=k.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[k[i],k[j]]=[k[j],k[i]];}
+k.forEach((c,i)=>{c.hidden=i>=n;g.appendChild(c);});});
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal,.sec-head').forEach(el=>io.observe(el));
 

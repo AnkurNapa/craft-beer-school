@@ -205,7 +205,6 @@ COURSE_CARDS = [
     course(c["no"], c["tag"], c["dur"], c["name"], c["blurb"], c["items"], c["price"], "")
     for c in COURSE_DATA
 ]
-C1, C2, C3 = COURSE_CARDS[:3]
 
 # Home page tracks. Every course must sit in exactly one, so a new course can
 # never go missing from the home page: the assert below stops the build.
@@ -346,7 +345,7 @@ HOME = f"""{OKT}
       <h2>{COURSE_COUNT_WORD.capitalize()} pours, one path from grain to glass.</h2>
       <p class="lead">Every course pairs theory with real practice. Classes are small, taught by working brewers and backed by one-to-one mentorship.</p>
     </div>
-    <div class="grid-3">{C1}{C2}{C3}</div>
+    <div class="grid-3" data-shuffle="3">{"".join(COURSE_CARDS)}</div>
     <div style="margin-top:2rem"><a href="#tracks" class="link-arrow">See all {COURSE_COUNT_WORD} courses by track</a></div>
   </div>
 </section>
@@ -509,7 +508,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
 <section class="tint cf-group" id="in-person">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">In person</span><h2>Brew in a real brewery.</h2><p class="lead">Hands-on courses in working microbreweries in Pune, Delhi, Gurugram and Bengaluru. <a href="in-person-brewing-courses-pune-delhi-gurugram-bengaluru.html" style="color:var(--blue);text-decoration:underline">Which one suits you</a>.</p></div>
-    <div class="grid-2">
+    <div class="grid-2" data-shuffle>
       <article class="card reveal" data-type="in-person" data-subject="brewing"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Day · 4 cities · ₹25,000</span><h3>1-Day Super Intensive Craft Beer Course</h3><p>A full day inside a working microbrewery, from raw materials to a finished pour: ingredients, mash, lauter, boil, fermentation, CIP and a guided tasting, with a certificate.</p><div class="foot"><a href="contact.html?course=1-Day%20Super%20Intensive%20Craft%20Beer%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-1day">Save your seat</a> <a href="assets/craft-beer-school-1-day-course.pdf" download class="link-arrow" data-cta="workshop-1day-prospectus">Prospectus</a> <a href="1-day-super-intensive-craft-beer-course-in-person.html" class="link-arrow" data-cta="workshop-details">Course details</a></div></div></article>
       <article class="card reveal" data-type="in-person" data-subject="brewing"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Month · 48 hours · ₹1,25,000</span><h3>1-Month Intensive Brewing Excellence Course</h3><p>Four weeks of classes, online study, lab work and hands-on brewing in partner microbreweries: fundamentals, brewhouse, fermentation and quality control, at most 20 students.</p><div class="foot"><a href="contact.html?course=1-Month%20Intensive%20Brewing%20Excellence%20Course#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-1month">Save your seat</a> <a href="assets/craft-beer-school-1-month-course.pdf" download class="link-arrow" data-cta="workshop-1month-prospectus">Prospectus</a> <a href="1-month-intensive-brewing-excellence-course-in-person.html" class="link-arrow" data-cta="workshop-details">Course details</a></div></div></article>
       <article class="card reveal" data-type="in-person" data-subject="brewing"><div class="card-body"><span class="mode mode-in-person">In person</span><span class="cat">1 Day · At Home</span><h3>1-Day Home Visit Brewing Course</h3><p>Our brew master comes to your home with all the equipment and ingredients needed to brew your first batch, start to finish.</p><div class="foot"><a href="contact.html?course=In-person+workshop+%2F+tasting#enroll" class="btn btn-ghost" style="padding:.55rem 1.1rem" data-cta="workshop-enquire">Enquire</a> <a href="home-visit-brewing-course-in-person.html" class="link-arrow" data-cta="workshop-details">Course details</a></div></div></article>
@@ -533,7 +532,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
 <section class="cf-group" id="online">
   <div class="wrap">
     <div class="sec-head"><span class="eyebrow">Online courses</span><h2>{COURSE_COUNT_WORD.capitalize()} pours from grain to glass.</h2><div style="margin-top:1.2rem"><a href="prospectus.html" class="btn btn-amber" data-cta="prospectus-download">Read the prospectus</a></div></div>
-    <div class="grid-3">{"".join(COURSE_CARDS)}</div>
+    <div class="grid-3" data-shuffle>{"".join(COURSE_CARDS)}</div>
   </div>
 </section>
 
