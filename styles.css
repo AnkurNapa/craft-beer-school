@@ -1470,3 +1470,10 @@ main > section[style*="padding-block:0"],main > section[style*="padding-block:0"
   main:has(.hero) .photo-band,main:has(.hero) .split-media{display:none}
   main:has(.hero) .hero-media img{aspect-ratio:16/10;max-height:240px;object-fit:cover;width:100%}
 }
+/* Swipe cues on the phone rails: dots under each rail, the current card's dot in gold. */
+.rail-dots{display:none}
+@media (max-width:760px){
+  .rail-dots{display:flex;justify-content:center;gap:.45rem;margin-top:.2rem}
+  .rail-dots i{width:7px;height:7px;border-radius:50%;background:#e3d3b0;transition:background .25s,transform .25s}
+  .rail-dots i.on{background:var(--amber-deep);transform:scale(1.25)}
+}

@@ -300,6 +300,16 @@ const shut=()=>{dds.forEach(x=>x.classList.remove('is-open'));nl.classList.remov
 dds.forEach(d=>{d.addEventListener('mouseenter',()=>{clearTimeout(shutT);clearTimeout(openT);
 if(nl.classList.contains('dd-open')){nl.classList.add('dd-live');show(d);}else openT=setTimeout(()=>show(d),120);});
 d.addEventListener('mouseleave',()=>{clearTimeout(openT);clearTimeout(shutT);shutT=setTimeout(shut,250);});});})();
+// Phone rails on the home page: dots show there is more to swipe. Each rail
+// nudges once when it first comes into view so people see that it moves.
+(()=>{if(!matchMedia('(max-width:760px)').matches||!document.querySelector('main .hero'))return;
+const calm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+document.querySelectorAll('main :is(.grid-3,.grid-2,.tracks)').forEach(r=>{const kids=[...r.children].filter(k=>!k.hidden);if(kids.length<2)return;
+const d=document.createElement('div');d.className='rail-dots';d.setAttribute('aria-hidden','true');kids.forEach(()=>d.appendChild(document.createElement('i')));r.after(d);
+const upd=()=>{const i=Math.round(r.scrollLeft/(kids[0].offsetWidth+14));[...d.children].forEach((x,j)=>x.classList.toggle('on',j===Math.min(i,kids.length-1)));};
+r.addEventListener('scroll',upd,{passive:true});upd();
+if(calm)return;const o=new IntersectionObserver(es=>{if(!es[0].isIntersecting)return;o.disconnect();
+setTimeout(()=>{r.scrollBy({left:70,behavior:'smooth'});setTimeout(()=>r.scrollBy({left:-70,behavior:'smooth'}),550);},300);},{threshold:.6});o.observe(r);});})();
 // Shelves scroll sideways; the arrows move one screen of cards and hide at either end.
 document.querySelectorAll('.rail').forEach(sh=>{const t=sh.querySelector('.rail-track'),[p,n]=sh.querySelectorAll('.rail-btn');
 const upd=()=>{p.disabled=t.scrollLeft<4;n.disabled=t.scrollLeft+t.clientWidth>=t.scrollWidth-4;};
