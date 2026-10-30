@@ -1,0 +1,67 @@
+{
+ "slug": "rice-in-the-brewhouse-cereal-cooking",
+ "cat": "Brewing science",
+ "h1": "Rice in the brewhouse: cereal cooking and mash schedules",
+ "title": "Rice in the Brewhouse: Cereal Cooking | Craft Beer School",
+ "desc": "How to cook rice for brewing, set the mash schedule and avoid stuck mashes. Practical numbers for lager brewers using rice adjunct.",
+ "teaser": "Rice is easy to buy and awkward to mash. A cereal cooker and a clear schedule fix most of the trouble.",
+ "standfirst": "Rice gives light, dry beer but its starch needs cooking first. Here is how a cereal cook works and how to join it to the main mash without shocking the enzymes.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What rice brings to a beer",
+   "<p>Rice is mostly starch, with low protein and little fat. It adds extract, lightens body, dries the finish and keeps colour pale. It has almost no flavour of its own, which suits clean lagers. It does not bring enzymes, so the barley malt in the grist must convert the rice starch as well as its own.</p><p>Typical rice use runs from 10 to 30 per cent of the grist. Some breweries go higher. At higher levels you must check that the malt has enough diastatic power and enough nitrogen for yeast. Our guide on <a href=\"designing-a-lager-for-hot-countries.html\">designing a lager for hot countries</a> shows where it fits in a recipe.</p>"
+  ],
+  [
+   "Types of rice adjunct",
+   "<p>Broken rice or rice grits are cheap and need to be cooked. Flaked rice has been pre-gelatinised by rolling and heating, so it can go straight into the main mash, at a higher price. Rice syrup is already converted. Choose the form to match your equipment: a brewery without a cereal cooker will find flaked rice far easier.</p><p>Check the supply. Rice fines or dust, old stock and rancid fat from poorly stored rice show up as stale or cardboard-like flavours. Ask for a certificate of analysis with moisture, extract and fat content.</p>"
+  ],
+  [
+   "The cereal cook step by step",
+   "<p>Rice starch gelatinises at roughly 61 to 78 °C, depending on variety, so you bring it past that point and usually to the boil. A common routine in a cereal cooker (also called an adjunct cooker):</p><ol><li>Mash in rice with water at a ratio around 1:3 to 1:4 by weight, at about 45 to 50 °C.</li><li>Add 10 to 20 per cent of the malt (relative to the rice) or a heat-stable alpha-amylase to thin the mixture as it heats. Without it the mash turns into glue.</li><li>Hold around 65 to 70 °C for about 15 minutes to liquefy.</li><li>Raise to the boil and hold 15 to 30 minutes.</li><li>Pump into the main mash at the right moment.</li></ol><p>Stir throughout. Rice paste scorches on heating surfaces, so keep agitation going and watch the steam jacket temperature.</p>"
+  ],
+  [
+   "Joining the cook to the main mash",
+   "<p>While the rice cooks, the main mash (malt and water) rests at about 45 to 52 °C. When the boiling rice joins it, the combined mash should rise to the saccharification temperature, often 63 to 67 °C. The ratio of the two masses and their temperatures set the final temperature. Work the sums on paper: mass x specific heat x temperature, summed and divided. Test the first brews with a thermometer and adjust the volumes.</p><p>A worked example, treating everything as water-like for a first estimate: 1,600 kg of main mash at 50 °C meets 650 kg of boiling rice cook (150 kg rice in 500 L of water) at 100 °C. The mixed temperature is (1,600 x 50 + 650 x 100) / 2,250 = 64.4 °C, right in the saccharification range. Solids hold less heat than water, so the real figure lands a degree or so lower. Check it with a probe and trim the main mash start temperature next time.</p><p>After the saccharification rest, many brewers raise to 72 to 75 °C briefly, then to 76 to 78 °C for mash-out before lautering. Test with iodine before moving on.</p>"
+  ],
+  [
+   "Lautering and yield",
+   "<p>Rice has no husk, so a mash with a high rice proportion lauters more slowly. Ensure the malt is milled so that husks stay intact, rake gently and give the bed time to settle. If you see slow run-off, rice hulls can help at high rice levels. Collect wort until the gravity falls to the cut-off you use. Run a mass balance of extract in to extract out to see your efficiency.</p><p>Poor yield usually comes from incomplete gelatinisation (cooked too cool or too short), enzyme shortfall or stuck run-off. Keep a log. After a few batches you will see the pattern.</p>"
+  ],
+  [
+   "Nitrogen, yeast and oxidation",
+   "<p>High rice levels dilute the nitrogen in the wort. Check free amino nitrogen and aim for what your yeast strain needs, which your yeast supplier can advise. Consider a modest yeast nutrient dose or a malt with higher protein. Light, delicate rice lagers also show oxidation and heat damage fast. Control oxygen at packaging as described in <a href=\"dissolved-oxygen-and-shelf-life-in-warm-markets.html\">our guide on oxygen and shelf life</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much rice can I use?",
+   "Typical use is 10 to 30 per cent of the grist. Above that, check diastatic power, FAN and lautering behaviour."
+  ],
+  [
+   "Do I need a cereal cooker?",
+   "Only for raw rice or grits. Flaked rice is pre-gelatinised and can go straight into the main mash."
+  ],
+  [
+   "Why does my rice mash stick?",
+   "Rice has no husk, so it does not add filter bed structure. Use well-milled malt, gentle raking, a slower run-off or rice hulls."
+  ],
+  [
+   "Does rice make beer taste thin?",
+   "It lightens body, which is the point in a crisp lager. If it tastes thin, check the mash temperature, the amount of rice and the malt used."
+  ]
+ ],
+ "cta": {
+  "title": "Fix the mash before it costs you a batch",
+  "body": "Mash science, adjunct cooking and extract balances are core topics. Advanced Brewing Science runs for 6 weeks, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-cold-chain-in-hot-countries",
+  "dissolved-oxygen-and-shelf-life-in-warm-markets",
+  "non-alcoholic-beer-where-alcohol-is-restricted"
+ ]
+}

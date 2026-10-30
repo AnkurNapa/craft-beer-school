@@ -102,7 +102,7 @@ SEGMENTS = [
     ("Beer lovers", "New to craft beer? Styles, tasting and pairing in plain English.", "sensory-evaluation-course.html", "Sensory Evaluation"),
     ("Homebrewers", "Brewing at home and want every batch better than the last.", "brewing-fundamentals-course.html", "Brewing Fundamentals"),
     ("Professional brewers", "Running a brewhouse and chasing consistency.", "advanced-brewing-science-course.html", "Advanced Brewing Science"),
-    ("Founders", "Planning a brewery or brewpub in India.", "brewery-business-management-course.html", "Brewery Business Management"),
+    ("Founders", "Planning a brewery or brewpub.", "brewery-business-management-course.html", "Brewery Business Management"),
     ("Brand builders", "Naming, packaging and selling beer people remember.", "beer-branding-packaging-course.html", "Beer Branding &amp; Packaging"),
     ("Career changers", "Turning a love of beer into a job.", "brewing-fundamentals-course.html", "Brewing Fundamentals"),
     ("Drinks producers", "Running a brewery, cidery, distillery or winery and want it to do better.", "contact.html?course=Brewery%20consultancy#enroll", "Brewery consultancy"),

@@ -1,0 +1,67 @@
+{
+ "slug": "water-use-per-litre-of-beer",
+ "cat": "Business",
+ "h1": "Water use per litre of beer: measuring it and bringing it down",
+ "title": "Water Use per Litre of Beer | Craft Beer School",
+ "desc": "How to measure your brewery's water ratio, find where the water goes and cut use with reuse, better cleaning and fewer leaks.",
+ "teaser": "Most breweries use far more water than the beer contains. A meter and a month of notes show where it goes.",
+ "standfirst": "The water ratio, litres of water used per litre of beer packaged, is the simplest sustainability figure to track. Here is how to measure it and bring it down.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The ratio that matters",
+   "<p>Beer is about 90 to 95 per cent water, but the brewery uses many times that amount. Water goes into the mash, the sparge, cleaning, rinsing, cooling, the boiler, packaging, floor washing and cooling towers. The water ratio is total water in divided by beer packaged, both in litres. A ratio of 5 means 5 litres of water for every litre of beer. Small breweries often have higher ratios than large ones, since cleaning and rinsing do not shrink in proportion to a smaller batch. The only figure that matters is your own, tracked over time.</p>"
+  ],
+  [
+   "Meter it",
+   "<p>Fit a main meter on the incoming line and read it on the same day each week. Divide by the volume of beer packaged in that period. A rough ratio from a month of data is better than a precise estimate from memory. Then add sub-meters to the brewhouse, the cellar, the cleaning area and the packaging line. Do not forget water for the boiler or the cooling tower if you have them. Where meters are not possible, time a hose and count minutes, or measure tank volumes for cleaning cycles.</p><p>Keep a simple log. The habits behind it are covered in <a href=\"logging-brewery-data-you-will-use.html\">logging brewery data you will actually use</a>.</p>"
+  ],
+  [
+   "Where the water goes",
+   "<p>Break use into groups so you can see the targets.</p><ul><li><strong>Product water.</strong> Water that ends up in the beer, plus water that leaves with spent grain and wort losses.</li><li><strong>Cleaning.</strong> Rinsing tanks, hoses and floors and cleaning in place. This is typically the largest controllable share.</li><li><strong>Cooling.</strong> Water used in heat exchangers and in cooling towers or evaporative condensers where evaporation is lost.</li><li><strong>Packaging.</strong> Rinsing bottles and kegs, lubricating conveyors and cleaning fillers.</li><li><strong>Utilities.</strong> Boiler make-up, blowdown, softener regeneration and reverse osmosis reject.</li></ul><p>Rank them. Start with the biggest one that you can change cheaply. A hose fitted with a trigger nozzle costs little, while a new heat exchanger costs a lot, so the order of work usually follows the order of cost rather than the order of size.</p>"
+  ],
+  [
+   "Reuse and recovery",
+   "<p>Final rinse water from a clean tank is still clean. Capture it and use it as pre-rinse for the next tank. Collect hot water leaving the wort cooler and use it in the next brew or for cleaning (this also saves energy, see <a href=\"cutting-energy-use-in-a-small-brewery.html\">cutting energy use in a small brewery</a>). Recirculate cleaning solutions and keep caustic and acid in storage tanks for several cycles, topping up based on titration. Use cleaning nozzles that spray with less water and fit trigger guns to hoses.</p><p>Reverse osmosis units reject a portion of the feed water. If your plant treats water on site, ask what fraction is rejected and whether it can be used for floor washing or the boiler.</p>"
+  ],
+  [
+   "Fix the obvious leaks",
+   "<p>Walk the plant at the end of a shift and look for running taps, dripping valves and overflowing tanks. Check overnight meter readings: if the meter moves when nobody is working, you have a leak. A toilet cistern or a corroded line can account for a surprising share of a small brewery's use. Put a person in charge of the walk-round and give them a checklist. Write down the meter reading at the start and end of the shift, so a change shows up as a number rather than a feeling. Train the team too: a hose left running while the brewer is elsewhere is a habit you can change in a week.</p>"
+  ],
+  [
+   "Wastewater is the other half",
+   "<p>What leaves the brewery matters as much as what enters. Brewery wastewater is rich in organic matter from yeast, trub, spent hops and spilled beer, measured as biochemical or chemical oxygen demand (BOD or COD). It can also be hot, acidic or alkaline from cleaning. Many places limit what you can send to the sewer. Some charge by load. Keep solids out of drains with screens, collect trub and spent yeast separately for animal feed or composting where allowed and neutralise cleaning waste. Rules differ by country and region, so ask the water utility or the environmental regulator what applies to you.</p><p>Where water is scarce, as it is in many dry regions, an efficient plant also protects you from supply cuts. See <a href=\"choosing-a-brewery-site.html\">choosing a brewery site</a> for how water supply shapes a site decision.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a normal water ratio for a brewery?",
+   "It differs widely with size, equipment and packaging. Measure yours and work to reduce it over time. A rough check beats an assumed figure."
+  ],
+  [
+   "Where do small breweries use the most water?",
+   "Usually in cleaning and rinsing, then cooling and packaging. Metering each area shows the pattern in your plant."
+  ],
+  [
+   "Can I reuse brewery water?",
+   "Yes, for pre-rinses, floor washing and some utility uses, provided it does not contact beer or a clean surface in a way that adds contamination. Check with your quality lead."
+  ],
+  [
+   "Do I need a permit to discharge wastewater?",
+   "Often some form of permission or limits apply. Ask your local water utility or environmental regulator."
+  ]
+ ],
+ "cta": {
+  "title": "Measure it, then bring it down",
+  "body": "ESG in Craft Brewing is a 2 week course, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). It covers water, energy and waste metering with worked examples from brewery plants. Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "esg-in-craft-brewing-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "choosing-a-brewery-site",
+  "writing-a-head-brewer-job-description",
+  "what-investors-ask-a-brewery-founder"
+ ]
+}

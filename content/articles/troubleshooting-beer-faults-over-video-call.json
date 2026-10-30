@@ -1,0 +1,71 @@
+{
+ "slug": "troubleshooting-beer-faults-over-video-call",
+ "cat": "Consultancy",
+ "h1": "Troubleshooting beer faults over a video call",
+ "title": "Beer faults over a video call | Craft Beer School",
+ "desc": "How to describe a beer fault, what records to gather and how a brewer diagnoses diacetyl, DMS, infection or oxidation remotely.",
+ "teaser": "A good fault diagnosis starts with good information. This is what to send before the call.",
+ "standfirst": "Many beer faults can be traced remotely if you bring the right records and describe the problem clearly. Here is how a call works and what to prepare.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Describe what you taste, not what you think it is",
+   "<p>The most useful start is a plain description. Say butter, green apple, wet cardboard or sweetcorn, rather than the name of the fault you suspect. Naming the fault first narrows the search too early. Describe when you notice it too: on the nose, mid-palate or in the finish. Say whether it is stronger in some batches or tanks.</p>\n<p>If you have a tasting panel, ask each member to write their own description. Agreement or disagreement tells us a lot.</p>\n<p>Say how the fault has changed too. Has it grown over weeks in the keg or can? A fault that worsens in package often points to oxygen, microbes or continuing fermentation. A fault that is the same on day one and day thirty points back to the brewhouse or fermenter.</p>"
+  ],
+  [
+   "Gather the numbers first",
+   "<p>Before the call, collect for the affected batches:</p>\n<p><ul><li>Brew sheet, with mash temperature, boil length and wort gravity.</li><li>Pitching rate, yeast generation and wort aeration.</li><li>A fermentation temperature log by day.</li><li>Gravity and pH readings through fermentation.</li><li>Date and temperature at crash cooling.</li><li>Packaging date, dissolved oxygen if measured and storage temperature.</li></ul></p>\n<p>A fault in one batch and not the next is a clue. A fault in every batch points at equipment or routine.</p>\n<p>Do not worry if records are patchy. A photo of a handwritten sheet works. What matters is that you note the date and the tank, because one missing detail can hide the cause.</p>"
+  ],
+  [
+   "Common faults and what we ask",
+   "<p><strong>Diacetyl (butter).</strong> Was the beer cooled before fermentation finished? Was there a rest near the end? Yeast health and pitching rate matter too.</p>\n<p><strong>DMS (sweetcorn).</strong> How vigorous is the boil, is the lid on and how long does hot wort sit before cooling?</p>\n<p><strong>Acetaldehyde (green apple).</strong> Was the beer packaged too early? Check fermentation time and yeast condition.</p>\n<p><strong>Oxidation (cardboard).</strong> Where could oxygen enter after fermentation: transfers, filters, fillers? Our <a href=\"beer-off-flavours.html\">off-flavours guide</a> describes each fault in more detail.</p>\n<p>A useful habit is to keep a reference beer: a clean, trusted batch that you can taste beside the problem beer. Side by side, differences that are hard to name alone become obvious. We often ask for this during a call, with everyone tasting the same pair.</p>"
+  ],
+  [
+   "Using the camera",
+   "<p>Video helps where numbers do not. We might ask you to show the fermenter and its probe position, the cooling jacket, the transfer hose connections, the carbonation stone or a cleaning cycle in progress. A thermometer probe sitting in a pocket on the wrong side of a tank can read several degrees away from the beer.</p>\n<p>We also look at hygiene by eye: gaskets, dead legs, worn hoses and the state of valves.</p>"
+  ],
+  [
+   "Infection or process fault?",
+   "<p>Infection and process faults can taste similar. A sour, buttery or phenolic beer might be bacterial, or it might be a cooling problem. Clues include whether the beer changes over time, whether gravity keeps falling in the package and whether the fault follows one tank or one valve. If we suspect infection we suggest plating at a local lab. We cannot confirm it from video alone.</p>\n<p>Cleaning records matter as much as brewing records. Ask yourself when each tank, hose and keg filler was last cleaned and with what. Many repeated faults come from a single dirty valve or a hose used for both wort and finished beer.</p>"
+  ],
+  [
+   "What the call produces",
+   "<p>A good call ends with a short list: the most likely cause, what to check first, what to change and what to record next time. We write it down and send it. If the problem needs hands-on help, we say so. Related reading: <a href=\"adding-non-alcoholic-beer-to-a-brewery.html\">adding a non-alcoholic beer</a>, where hygiene risks are higher. Also see <a href=\"how-remote-brewery-consultancy-works.html\">how remote consultancy works</a>.</p>\n<p>Be wary of quick fixes such as adding more sanitiser or changing yeast supplier before the cause is known. Changing three things at once hides which one helped.</p>"
+  ],
+  [
+   "Prevention is cheaper",
+   "<p>The best answer to a fault is a routine that stops it. That usually means a basic quality plan: regular gravity and temperature checks, a tasting at fixed points and a cleaning schedule with records. We help you build one so that you can solve the next problem yourself.</p>\n<p>Give your team a simple fault log: date, beer, tank, description, suspected cause and action. After three months the log shows patterns that no single tasting would reveal.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can beer faults really be diagnosed by video?",
+   "Often, yes, when you bring good records and a clear description. Some cases, like suspected infection, need a lab test."
+  ],
+  [
+   "What should I send before the call?",
+   "Brew sheets, fermentation logs, gravity and pH readings, packaging dates and photos of the equipment."
+  ],
+  [
+   "How quickly can you find the cause?",
+   "It depends on the records. A well documented problem can be narrowed in one call. Others need a few rounds of checks."
+  ],
+  [
+   "Do you need a sample?",
+   "Not always. A sample may help, but shipping alcohol across borders has rules, so we look at local lab options first."
+  ]
+ ],
+ "cta": {
+  "title": "Find the cause, not just the symptom",
+  "body": "A remote consultation with our brewers covers fault diagnosis, a written plan and a process your team can run. Rahul leads on brewing. Ankur leads on quality, cost and data. Your team learns to run the fixes.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "adding-non-alcoholic-beer-to-a-brewery",
+  "how-remote-brewery-consultancy-works",
+  "commissioning-a-brewhouse-with-an-overseas-supplier"
+ ]
+}

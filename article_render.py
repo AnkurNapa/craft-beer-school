@@ -7,6 +7,7 @@ FAQ block that doubles as FAQPage schema and links to sibling articles. The
 CTA is part of the template, so no article can ship without a way to enrol.
 """
 
+import sponsors
 import article_art
 import json
 import pathlib
@@ -204,6 +205,8 @@ def render(article, by_slug):
 
     {_faqs(article.get('faqs'))}
 
+    {sponsors.card(article)}
+
     {_cta(article['cta'], 'band')}{_also(article.get('also'))}
   </div>
 </article>
@@ -341,52 +344,70 @@ SEG_ICON = {"Beer lovers": "beer", "Homebrewers": "flask", "Professional brewers
             "Corporate teams": "users"}
 
 
+TABS_JS = """(()=>{const nav=document.getElementById('topic-tabs');if(!nav)return;
+const tabs=[...nav.querySelectorAll('a.topic')],panels=tabs.map(t=>document.getElementById(t.hash.slice(1)));
+const show=(id,move)=>{const i=Math.max(0,panels.findIndex(p=>p&&p.id===id));
+tabs.forEach((t,j)=>{t.classList.toggle('on',j===i);t.setAttribute('aria-selected',j===i);});
+panels.forEach((p,j)=>{if(p)p.hidden=j!==i;});
+if(move)nav.scrollIntoView({block:'start',behavior:'smooth'});};
+tabs.forEach(t=>t.addEventListener('click',e=>{e.preventDefault();history.replaceState(null,'',t.hash);show(t.hash.slice(1),false);}));
+addEventListener('hashchange',()=>show(location.hash.slice(1),true));
+show(location.hash.slice(1),!!location.hash);})();"""
+
+
+def _panel(pid, head, who, cards, more, cta):
+    return f"""
+<section id="{pid}" class="seg" role="tabpanel">
+  <div class="wrap">
+    <h2 class="rail-head"><b>{head}</b> <span>{who}</span></h2>
+    <div class="rail">
+      <button type="button" class="rail-btn prev" aria-label="Previous guides" disabled>[[arrow-left]]</button>
+      <div class="rail-track">{cards}</div>
+      <button type="button" class="rail-btn next" aria-label="More guides">[[arrow-right]]</button>
+    </div>
+    {more}
+    {cta}
+  </div>
+</section>"""
+
+
 def blog_index(articles, banner, segment_of, segments):
-    """The blog laid out like the Apple Store: a row of reader topics, then one
-    sideways shelf per reader, each ending at the course they are most likely to buy."""
-    jump = "".join(f'<a href="#{_seg_id(name)}" class="topic" data-cta="blog-segment">'
-                   f'<span class="topic-ico">[[{SEG_ICON.get(name, "book-open")}]]</span>{name}</a>'
-                   for name, *_ in segments)
-    blocks = []
+    """The blog laid out for the reader: title and search first, then one tab per
+    reader group (Latest opens by default), so a visitor sees one shelf at a time
+    instead of scrolling past eight. Without JavaScript every shelf shows."""
+    tab = lambda pid, label, icon: (f'<a href="#{pid}" class="topic" role="tab" data-cta="blog-segment">'
+                                    f'<span class="topic-ico">[[{icon}]]</span>{label}</a>')
+    jump = tab("latest", "Latest", "book-open") + "".join(
+        tab(_seg_id(name), name, SEG_ICON.get(name, "book-open")) for name, *_ in segments)
+    newest = sorted(articles, key=lambda a: a["updated"], reverse=True)[:SHOWN]
+    blocks = [_panel("latest", "Latest.", "The newest guides from the brewhouse floor.",
+                     "".join(_card(a) for a in newest), "",
+                     '<p class="finder-all" style="margin-top:1rem"><a href="blog.html?cat=all">Browse every guide, newest first</a></p>')]
     for name, who, course_href, course_name in segments:
         mine = [a for a in articles if segment_of.get(a["slug"]) == name]
         if not mine:
             continue
         head, rest = mine[:SHOWN], mine[SHOWN:]
-        head_cards = "".join(_card(a) for a in head)
-        rest_cards = "".join(_card(a) for a in rest)
         more = (f'<details class="more"><summary>Show all {len(mine)} {name.lower()} guides</summary>'
-                f'<div class="grid-3">{rest_cards}</div></details>') if rest else ""
-        blocks.append(f"""
-<section id="{_seg_id(name)}" class="seg">
-  <div class="wrap">
-    <h2 class="rail-head"><b>For {name.lower()}.</b> <span>{who}</span></h2>
-    <div class="rail">
-      <button type="button" class="rail-btn prev" aria-label="Previous {name.lower()} guides" disabled>[[arrow-left]]</button>
-      <div class="rail-track">{head_cards}</div>
-      <button type="button" class="rail-btn next" aria-label="More {name.lower()} guides">[[arrow-right]]</button>
-    </div>
-    {more}
-    <aside class="cta-inline" style="margin-top:2rem">
-      <div><h3>Ready to go further?</h3><p>{course_name} turns these guides into a structured course, live every weekend with a mentor.</p></div>
-      <a class="btn btn-amber" href="{course_href}" data-cta="blog-segment-course">See {course_name}</a>
-    </aside>
-  </div>
-</section>""")
-    blocks_html = "".join(blocks)
-    return banner + _finder(articles, segment_of) + f"""
-<div id="doors">
-<section style="padding-bottom:0">
+                f'<div class="grid-3">{"".join(_card(a) for a in rest)}</div></details>') if rest else ""
+        cta = (f'<aside class="cta-inline" style="margin-top:2rem">'
+               f'<div><h3>Ready to go further?</h3><p>{course_name} turns these guides into a structured course, live every weekend with a mentor.</p></div>'
+               f'<a class="btn btn-amber" href="{course_href}" data-cta="blog-segment-course">See {course_name}</a></aside>')
+        blocks.append(_panel(_seg_id(name), f"For {name.lower()}.", who, "".join(_card(a) for a in head), more, cta))
+    return banner + f"""
+<section class="guides-head">
   <div class="wrap">
     <div class="store-head">
       <h1>Guides</h1>
-      <p>{len(articles):,} guides from the brewhouse floor. Start with the one that fits you.</p>
+      <p>{len(articles):,} guides from the brewhouse floor. Search, or pick who you are.</p>
     </div>
-    <nav class="topic-row" aria-label="Guides by reader">{jump}</nav>
   </div>
-</section>
-{blocks_html}
+</section>""" + _finder(articles, segment_of) + f"""
+<div id="doors">
+<div class="wrap"><nav class="topic-row" id="topic-tabs" role="tablist" aria-label="Guides by reader">{jump}</nav></div>
+{"".join(blocks)}
 </div>
+<script>{TABS_JS}</script>
 <section class="cta">
   <div class="wrap" style="text-align:center">
     <h2>Reading is a start. Brewing is better.</h2>

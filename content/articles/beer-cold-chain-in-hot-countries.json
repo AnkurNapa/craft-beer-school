@@ -1,0 +1,67 @@
+{
+ "slug": "beer-cold-chain-in-hot-countries",
+ "cat": "Brewing science",
+ "h1": "Protecting beer through a hot-country cold chain",
+ "title": "Beer Cold Chain in Hot Countries | Craft Beer School",
+ "desc": "Where heat damages beer between brewery and glass, how to measure it with loggers and what to change first. A guide for hot-climate brewers.",
+ "teaser": "Every hour a pallet sits in the sun is shelf life gone. Find the weak links before your customers find them for you.",
+ "standfirst": "Beer ages faster the warmer it is kept. In a hot country the damage often happens after the beer leaves your door, so the cold chain is part of your quality system.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why temperature rules shelf life",
+   "<p>Most of the reactions that make beer taste stale are chemical. Chemical reactions speed up with temperature. As a working rule, ageing reactions run roughly twice as fast, or more, for every 10 °C (18 °F) rise. A beer that holds its flavour for months at 5 °C can show clear stale notes in a few weeks at 30 °C. Hop aroma fades first, then sweet, caramel-like notes appear and finally paper or cardboard flavours.</p><p>Pale, lightly hopped lagers show damage quickly because there is little malt or roast to hide it. Strong dark beers hide it better. If your product is fresh and hoppy, the cold chain matters most.</p>"
+  ],
+  [
+   "Map the journey before you fix it",
+   "<p>Draw the route as a list: packaging hall, warehouse, loading, truck or container, distributor depot, retailer store room, shop shelf, customer's home. Next to each step write the temperature you think it sees and how long beer waits there. Then measure.</p><p>Small temperature data loggers are inexpensive. Tuck one into a case in a pallet and ship it with a normal order. The graph will show you where the peaks are: a loading bay at midday, a trailer parked in the sun, a depot with no cooling. Do this in the hottest season and again in the cooler one. Brewers who do this for the first time are often surprised by how hot the beer got in a place they considered fine.</p>"
+  ],
+  [
+   "Where the heat comes from",
+   "<p>The usual weak points are the same in most hot countries.</p><ul><li><strong>Loading and waiting.</strong> Pallets stand on a dock in the sun while paperwork is sorted.</li><li><strong>Vehicles.</strong> An unrefrigerated truck body or a standard shipping container can reach temperatures well above the outside air when the sun heats the roof. Insulated or refrigerated vehicles cost more but protect the beer.</li><li><strong>Depots.</strong> Many distributors keep stock at ambient temperature for weeks.</li><li><strong>Retail.</strong> Beer sits on a shelf near a window or in a shop with no air conditioning.</li></ul><p>You may control only the first of these. The others you influence by contract, by agreement and by what you tell your customers.</p>"
+  ],
+  [
+   "Fixes that cost little",
+   "<p>Start with the cheap changes. Ship early in the morning or at night. Pre-cool the warehouse and keep finished goods away from the roof and outside walls. Cover pallets with reflective wrap while they wait. Load the vehicle in shade. Track how long stock is held and use first-in, first-out so old stock leaves before new.</p><p>Print a production date or best-before date on every pack in a form the retailer can read. Make the date reflect how the beer will really be stored. A best-before date calculated for a 4 °C fridge will mislead anyone storing beer at 30 °C. If you do not have storage data, set a conservative date and revise as you gather evidence from sensory checks on aged samples.</p>"
+  ],
+  [
+   "Put the beer through your own test",
+   "<p>Keep reference samples from each batch. Hold one set cold and one set at the temperature your product sees in the market, such as 30 or 35 °C. Taste both at intervals in a blind comparison with a small panel. Note when the warm sample is clearly different. That gives you a measured shelf life under real conditions, which is far more useful than a number copied from a competitor's can.</p><p>Pair this with dissolved oxygen measurement at packaging, because oxygen and heat compound each other. Our guide on <a href=\"dissolved-oxygen-and-shelf-life-in-warm-markets.html\">dissolved oxygen and shelf life in warm markets</a> covers that side.</p>"
+  ],
+  [
+   "Pasteurisation, kegs and cold-room contracts",
+   "<p>Pasteurisation protects against microbes, not against staling. It can add a little heat damage of its own. Keg beer often reaches the drinker sooner than packaged beer, but its quality depends on the venue holding kegs cold. Write temperature requirements into supply terms where you can and visit a few outlets to see what really happens. If a venue serves your lager warm from a back store, no recipe will save it. You may be better off supplying fewer outlets that handle the beer properly. For the wider system around this, see <a href=\"fermenting-lager-style-beer-without-a-fridge.html\">fermenting lager without a fridge</a> and the cooling side in <a href=\"glycol-cooling-for-breweries-in-the-tropics.html\">sizing glycol cooling</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How hot is too hot for packaged beer?",
+   "There is no single line, because damage builds with time and temperature together. As a guide, beer kept below about 10 °C keeps its character far longer than beer held at 25 °C or above."
+  ],
+  [
+   "Does a data logger really help?",
+   "Yes. It shows where and when beer gets hot, which is usually not where you expected. Put one in a case on a normal delivery and read the graph."
+  ],
+  [
+   "Should I pasteurise to extend shelf life?",
+   "Pasteurisation controls microbes. It does not stop oxidation or heat staling. It adds some heat. Use it where microbial stability is the problem."
+  ],
+  [
+   "Can I set a best-before date for warm storage?",
+   "Yes. You should if your beer is often stored warm. Base it on taste tests of aged samples, not on a cool-climate assumption."
+  ]
+ ],
+ "cta": {
+  "title": "Keep your beer fresh all the way to the glass",
+  "body": "Shelf life, oxygen control and quality systems for hot markets are core topics. Advanced Brewing Science runs for 6 weeks, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "fermenting-lager-style-beer-without-a-fridge",
+  "reading-your-city-water-report-for-brewing",
+  "glycol-cooling-for-breweries-in-the-tropics"
+ ]
+}

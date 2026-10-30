@@ -1,0 +1,71 @@
+{
+ "slug": "logging-brewery-data-you-will-use",
+ "cat": "Business",
+ "h1": "Logging brewery data you will actually use",
+ "title": "Logging Brewery Data You Will Use | Craft Beer School",
+ "desc": "What to record on brew day, in fermentation, at packaging and in sales and how to structure it so a dashboard can use it later.",
+ "teaser": "Most brewery logs are filled in and never read. Decide the question first and the log writes itself.",
+ "standfirst": "Good data starts at the tank, in the same format every time. Here is what to record, how to set it out and which numbers repay the effort.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with the questions",
+   "<p>Write down five questions you want to answer. How much beer do we lose between wort and package? Is our efficiency steady? Which beers finish on time? What does a litre cost? Does the cold room cope in summer? Every column in your log should help answer one of them. If a field answers nothing, drop it. People stop filling in long forms. The data that remains is patchy.</p>"
+  ],
+  [
+   "The brew log",
+   "<p>One row per batch, with a unique batch ID that follows the beer from kettle to sale. Record the date, recipe, volumes (strike water, wort to the fermenter), original gravity, pH at set points, boil time and any deviations. Add the measured mash efficiency or extract yield, calculated rather than guessed. The formula for ABV is (OG - FG) x 131.25, so keep gravity readings as numbers in a column, never as text in a notes cell.</p><p>Use the same units throughout: litres, degrees Celsius, specific gravity or degrees Plato. Pick one and stick to it, since mixed units are the commonest reason a dashboard shows nonsense.</p>"
+  ],
+  [
+   "The fermentation log",
+   "<p>Per tank per day: temperature, gravity, pH and a short note on smell and taste where relevant. Link the rows to the batch ID. A temperature probe that logs automatically is better than a number written after a walk round, because it shows spikes, but the daily gravity and tasting note still need a person. Record the yeast strain, generation number and pitch rate so you can see how they link to speed and flavour. See <a href=\"yeast-health-in-a-hot-brewery.html\">managing yeast health in a hot brewery</a>.</p>"
+  ],
+  [
+   "Packaging and quality",
+   "<p>Record the packaging date, format, volumes filled, losses, carbonation, dissolved oxygen where measured and the result of any tasting. Keep reference samples and write the retained sample ID in the log. Quality records matter when something goes wrong: a customer complaint becomes a search for one batch ID, not a hunt through notebooks. Add shelf-life test results as they come in, each linked to the batch.</p>"
+  ],
+  [
+   "Costs, utilities and sales",
+   "<p>Link cost data to batches. Record raw materials, labour hours, water and energy from meters, packaging materials and cleaning chemicals for each batch. The goal is cost per litre by beer, not an average that hides one expensive beer. Meter readings for water and energy are covered in <a href=\"water-use-per-litre-of-beer.html\">water use per litre of beer</a> and <a href=\"cutting-energy-use-in-a-small-brewery.html\">cutting energy use</a>. For sales, record by date, product, pack size, customer type and quantity, so you can see the seasons and which accounts drive the most volume. See <a href=\"forecasting-demand-for-a-small-brewery.html\">forecasting demand for a small brewery</a> for how the sales log feeds planning.</p>"
+  ],
+  [
+   "Set it out so a tool can read it",
+   "<p>Spreadsheets are fine to start. A few rules make the data usable in a tool such as Power BI or Tableau later.</p><ul><li>One table per subject: batches, fermentation readings, packaging runs, sales.</li><li>One row per event, one column per field, no merged cells and no blank header rows.</li><li>Dates in one format, such as 2026-10-31.</li><li>Categories chosen from a drop-down list, not typed freehand. \"IPA\", \"ipa\" and \"I.P.A.\" are three different values to a computer.</li><li>A batch ID in every table, so rows can be joined.</li><li>Free-text notes in a separate column, never mixed with numbers.</li></ul>"
+  ],
+  [
+   "Make logging easy and keep it honest",
+   "<p>Put the sheet or form where the work happens: a tablet on the brewhouse wall, a laminated checklist at the tank. Capture at the point of work. Data typed from memory at the end of the week is mostly wrong. Make one person responsible for checking it each week, spotting gaps and fixing impossible values such as a gravity of 10.5. Review the numbers in a short weekly meeting. People write down what gets discussed. They stop writing down what nobody reads.</p><p>Then look at it. A simple chart of efficiency by brew, loss by stage or fermentation time by beer shows more than a table of numbers. Building these charts is what our Power BI and Tableau course teaches. The charts also show you where the log needs another column.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the minimum I should record for each batch?",
+   "A batch ID, date, recipe, volumes, original gravity, final gravity, fermentation temperature and packaged volume. Everything else can be added once those are reliable."
+  ],
+  [
+   "Do I need software?",
+   "No. A well-structured spreadsheet is enough to start. Structure matters more than the tool."
+  ],
+  [
+   "How often should I record fermentation data?",
+   "Daily for gravity, temperature and pH. Automatic temperature logging adds detail between readings."
+  ],
+  [
+   "Why does my dashboard show strange numbers?",
+   "Usually because of mixed units, text in number columns, typos in categories or missing batch IDs. Fix the data at the source."
+  ]
+ ],
+ "cta": {
+  "title": "Turn your brewery records into decisions",
+  "body": "Power BI and Tableau for Breweries is a 2 week course, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). You build dashboards from brewery data like yours. Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "power-bi-and-tableau-for-breweries-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "selling-craft-beer-to-hotels-and-restaurants",
+  "learn-the-brewery-business-before-you-sign-a-lease",
+  "cutting-energy-use-in-a-small-brewery"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "forecasting-demand-for-a-small-brewery",
+ "cat": "Business",
+ "h1": "Forecasting beer demand for a small brewery",
+ "title": "Forecasting Demand for a Small Brewery | Craft Beer School",
+ "desc": "A practical guide to forecasting sales for a small brewery: data to collect, simple methods, seasonality, stockouts and turning the forecast into brews.",
+ "teaser": "A forecast does not need to be clever. It needs to be good enough to decide what to brew next month.",
+ "standfirst": "Small breweries can forecast demand with a spreadsheet, a sales log and a few honest rules. The aim is fewer stockouts, less old beer and a brewing plan you can defend.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What you are deciding",
+   "<p>A forecast exists to make a decision: how much of each beer to brew, when and how many tanks to fill. Brewing takes weeks. An ale may need two to three weeks in tank before packaging. A lager needs longer. You must forecast far enough ahead to cover that lead time plus packaging and delivery. If demand next month is the question, the brew decision was made a month ago.</p><p>Choose the level of detail by use. Forecasting total litres by month helps you plan tank space. Forecasting each beer by pack size helps you plan brews. Forecasting by customer helps with big accounts.</p>"
+  ],
+  [
+   "Collect the right data",
+   "<p>You need sales by date, product, pack size and customer type, going back as far as you have it. A year gives a first view of seasons. Two years or more is better. Keep the log described in <a href=\"logging-brewery-data-you-will-use.html\">logging brewery data you will actually use</a>. Record events that moved sales: a festival, a promotion, a new outlet, a stockout, a heatwave, a price change. Without notes, a spike is a mystery later.</p><p>Beware of stockouts. If you ran out of a beer for two weeks, sales were zero because you had no stock, not because nobody wanted it. Mark those periods and adjust the figures upward when you read them.</p>"
+  ],
+  [
+   "Simple methods that work",
+   "<p>Start with the simplest approach and compare. Three are enough for most small breweries.</p><ul><li><strong>Last year, adjusted.</strong> Take the same month last year and multiply by a growth factor. If you sold 100 cases in October last year and growth is running at 10 per cent, forecast 110.</li><li><strong>Moving average.</strong> Average the last three months, useful for steady products with little season.</li><li><strong>Seasonal index.</strong> Work out each month's share of the annual total, then apply that share to a forecast for the year. Hot countries often show clear peaks in the hot season and around holidays.</li></ul><p>You can combine them: average two methods and the result is often better than either one.</p>"
+  ],
+  [
+   "Account for the things the history cannot see",
+   "<p>Add what you know. A new distributor, a restaurant group signing on, a seasonal beer, a festival. Ask your sales contacts what they expect and write it down. Adjust for weather if your sales follow it: hot weeks lift lager. Be cautious with single big accounts, because losing one changes the forecast sharply. Keep a separate line for them so you can see their share.</p><p>Do not forecast a new product from nothing. Compare it with a similar beer in your range and use that beer's early pattern, then review weekly.</p>"
+  ],
+  [
+   "Measure how wrong you were",
+   "<p>Every forecast is wrong. What matters is how wrong and in which direction. After each month, compare forecast with actual for each product. Two common measures: the mean absolute error (average size of the miss, in cases) and the mean absolute percentage error (the miss as a share of sales). A consistent over-forecast means you carry too much stock. A consistent under-forecast means you run out. Adjust the method or the growth factor to fix the bias. Keep the record, because after six months you will see which method works for which beer.</p>"
+  ],
+  [
+   "From forecast to brew plan",
+   "<p>Convert the forecast into litres, add a safety stock for variation and lead time, subtract stock on hand and beer already in tank. The result is what to brew. A simple rule: hold enough finished stock for a set number of weeks of sales, say two to four, depending on how long a brew takes and how perishable the beer is. Fresh hoppy beers need less stock and more frequent brewing. Lagers, which take longer, need a longer view.</p><p>Link the plan to capacity. Tank space and cooling set a ceiling on what you can brew in summer, as discussed in <a href=\"cutting-energy-use-in-a-small-brewery.html\">cutting energy use in a small brewery</a>. Water and energy also follow the plan, which is why <a href=\"water-use-per-litre-of-beer.html\">water use per litre of beer</a> is worth tracking. Review the plan every month and keep it simple. A forecast that the team understands gets used. A clever one that nobody trusts goes in a drawer.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much history do I need to forecast beer sales?",
+   "A year gives a first look at seasons. Two years or more is better. With less, use simple methods and judgement from your sales team."
+  ],
+  [
+   "What is a good forecast accuracy?",
+   "It depends on volume and product. Small breweries see larger swings than big ones. Track your own error and aim to reduce it over time."
+  ],
+  [
+   "How do I forecast a new beer?",
+   "Compare it with a similar beer in your range, use that beer's early sales pattern and review weekly."
+  ],
+  [
+   "Should I forecast by beer or in total?",
+   "Both. Total litres plan tank space and cooling. Beer-level forecasts plan which brews to make."
+  ]
+ ],
+ "cta": {
+  "title": "Forecast with data you already have",
+  "body": "Power BI and Tableau for Breweries is a 2 week course, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). You build sales dashboards and forecasts from brewery data. Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "power-bi-and-tableau-for-breweries-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "learn-the-brewery-business-before-you-sign-a-lease",
+  "cutting-energy-use-in-a-small-brewery",
+  "water-use-per-litre-of-beer"
+ ]
+}

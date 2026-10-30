@@ -1,0 +1,67 @@
+{
+ "slug": "glycol-cooling-for-breweries-in-the-tropics",
+ "cat": "Brewing science",
+ "h1": "Sizing glycol cooling for a brewery in the tropics",
+ "title": "Sizing Glycol Cooling in the Tropics | Craft Beer School",
+ "desc": "How to estimate the cooling load of fermenters and a cold room in a hot-climate brewery and what size of glycol chiller to buy.",
+ "teaser": "In a hot country the chiller is the busiest machine in the building. Size it for the worst day, not the average one.",
+ "standfirst": "Glycol cooling in a hot climate has to cope with warm cooling water, warm wort and a warm building. Here is how to work out the load and where brewers undersize it.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why heat changes the sums",
+   "<p>A chiller is a heat pump. It pulls heat out of the glycol loop and rejects it to air or water. When the ambient air is 38 to 42 °C (100 to 108 °F), an air-cooled condenser works against a smaller temperature difference, so the same machine removes less heat than its nameplate suggests. Manufacturers publish capacity at stated conditions. Read the footnote and ask for the figure at your design ambient temperature.</p><p>Hot weather also raises the starting temperature of everything: groundwater, wort leaving the heat exchanger, the room around your tanks. Each adds load. A brewery sized from a cool-climate rule of thumb will run its chiller flat out for months.</p>"
+  ],
+  [
+   "The loads you have to add up",
+   "<p>Think in four separate loads and sum them at the busiest moment of the week.</p><ul><li><strong>Wort cooling.</strong> Heat to remove = volume x specific heat x temperature drop. Wort behaves like water for this purpose (about 4.0 kJ per kg per kelvin). Dropping 1,000 L from 100 to 20 °C is about 320 MJ, or roughly 89 kWh. With a heat exchanger and cold water first, glycol only does the last stage.</li><li><strong>Fermentation heat.</strong> Fermentation releases heat as sugar becomes alcohol and carbon dioxide. A common planning figure is roughly 600 kJ per kg of sugar fermented. It peaks in the first two or three days. A full tank can need cooling for hours at a time.</li><li><strong>Heat gain through walls.</strong> Insulation thickness, tank surface area and room temperature set this. Poorly insulated cold rooms in hot buildings lose much of their capacity here.</li><li><strong>Pump and pipe losses.</strong> Pump heat and uninsulated lines add to the load more than most new owners expect.</li></ul>"
+  ],
+  [
+   "Design for the peak, then add margin",
+   "<p>The peak is not an average day. It is the day you crash one tank while filling another with hot wort, on the hottest afternoon of the year, with the cold room door open for a delivery. List what could run at once and add it up. Then add margin for growth and for the fact that capacity falls as the condenser fouls. Many brewers add 20 to 30 per cent as a sensible allowance, but treat that as a starting point and have a refrigeration engineer confirm it for your site.</p><p>Do not size to the first brewhouse only. If you plan to double fermenter capacity in two years, either buy the chiller for that or leave space and power for a second unit. Running two smaller chillers also gives you redundancy: if one fails you can hold temperatures at half capacity rather than none.</p>"
+  ],
+  [
+   "Glycol loop details that matter",
+   "<p>Food-grade propylene glycol at around 25 to 35 per cent in water is typical for beer cooling, giving a loop temperature of about -2 to 0 °C (28 to 32 °F). Check the glycol supplier's freeze-protection chart for your concentration. Too weak and the loop can freeze at the chiller. Too strong and the fluid is thicker, so pumps work harder and heat transfer drops.</p><p>Use insulated pipework with vapour barriers, because condensation forms on cold pipes in humid air and soaks poor insulation. Wet insulation stops insulating. Put a temperature sensor and a solenoid valve on every tank jacket so only tanks that need cooling draw glycol. Without per-tank control, one warm tank steals flow from the rest.</p>"
+  ],
+  [
+   "Where condensers fail in dust and heat",
+   "<p>Air-cooled condensers in dusty, hot sites clog with dust, insects and leaves. A blocked condenser raises head pressure, cuts capacity and shortens compressor life. Schedule cleaning by calendar, not by complaint. Put the unit in shade with free airflow, away from the hot exhaust of boilers or air compressors. Water-cooled or evaporative condensers perform better in extreme heat but use water and need treatment. Weigh that against your site's water situation, which our guide on <a href=\"brewery-water-from-desalination.html\">brewery water from desalination</a> touches on.</p><p>Altitude matters too. Thin air at high sites carries less mass through an air-cooled condenser, so its capacity drops there too. See our piece on <a href=\"brewing-beer-at-high-altitude.html\">brewing at high altitude</a>.</p>"
+  ],
+  [
+   "What to ask a refrigeration supplier",
+   "<p>Ask for capacity at your design ambient, not at standard rating conditions. Ask what happens at your peak temperature, what the part-load efficiency is and whether the unit has a variable speed drive. Ask what the service response is in your region and which spares are held locally. Ask for the total glycol volume the system needs and what the pump head is.</p><p>Bring your own load list. A supplier who sees your wort volumes, fermenter count and brew schedule can size a chiller properly. A supplier given only a tank count will give you a default.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much glycol cooling does a 1,000 L brewery need?",
+   "It depends on brew frequency, fermenter count, ambient temperature and insulation. Add up wort cooling, fermentation heat and wall gain at your busiest moment, then have a refrigeration engineer check it."
+  ],
+  [
+   "Is propylene glycol or ethylene glycol used in breweries?",
+   "Food-grade propylene glycol is the standard choice because it is far less toxic if it leaks. Ethylene glycol should not be used in food and drink plants."
+  ],
+  [
+   "Why does my chiller struggle in summer?",
+   "Capacity falls as ambient temperature rises. Fouled condensers make it worse. Clean the coils, shade the unit and check your design figures against peak ambient."
+  ],
+  [
+   "Do I need a separate chiller for the cold room?",
+   "Not always, but sharing one with the glycol loop means they compete at peak load. Many small breweries run separate systems for redundancy."
+  ]
+ ],
+ "cta": {
+  "title": "Design the system on paper before you buy it",
+  "body": "Heat balances, cooling loads and fermentation temperature control are core topics. You work through your own plant with a teacher. Advanced Brewing Science runs for 6 weeks, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-beer-at-high-altitude",
+  "homebrewing-with-desalinated-water",
+  "fermenting-lager-style-beer-without-a-fridge"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "cutting-energy-use-in-a-small-brewery",
+ "cat": "Business",
+ "h1": "Cutting energy use in a small brewery",
+ "title": "Cutting Energy Use in a Small Brewery | Craft Beer School",
+ "desc": "Where a small brewery uses energy, how to measure kWh per hectolitre and which changes pay back first: boil, heat recovery, insulation, cooling.",
+ "teaser": "Energy is a quiet cost until the bill arrives. Measure it by stage and the savings are usually obvious.",
+ "standfirst": "Heating and cooling account for most of a small brewery's energy. Meter them, find the biggest loss and fix that first.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Measure before you change anything",
+   "<p>The first step is a number. Total energy use over a month divided by hectolitres of beer packaged gives kWh per hectolitre. Add up all fuels in the same unit: electricity, gas, diesel, steam, wood. Plot it by month. The figure will not match anyone else's, because equipment, climate and packaging differ, so compare it with your own history, not a published benchmark.</p><p>Then break it down. Add sub-meters to the brewhouse, the refrigeration plant, the packaging line and the compressor. A basic clip-on meter is often enough to learn where the kilowatt-hours go. Many brewers expect the chiller to dominate and are surprised by the size of the boil.</p>"
+  ],
+  [
+   "The boil is the biggest heat load",
+   "<p>Heating wort to boiling and holding it there takes a lot of energy. Heating 1,000 L of water from 20 to 100 °C needs about 93 kWh (roughly 4.18 kJ per kg per kelvin x 1,000 kg x 80 K, divided by 3,600). Boil-off adds more: evaporating 6 per cent of 1,000 L an hour is 60 kg and at 2,257 kJ per kg that is about 38 kWh every hour of boiling. These are theoretical minimums. Real kettles lose more through the walls and the stack.</p><p>Options include a shorter or gentler boil (a vigorous but lower evaporation rate, such as 4 to 6 per cent per hour, with a vapour condenser or a dynamic low-pressure boil system), insulating the kettle, covering the vessel between steps and keeping the burner or element well maintained. Test the result for DMS and flavour before you commit, as a weak boil can leave cooked-vegetable notes.</p>"
+  ],
+  [
+   "Recover heat you already make",
+   "<p>Cooling wort from 100 °C to pitching temperature throws away a large share of the heat you put in. A plate heat exchanger can transfer that heat to incoming water, giving you water at 70 to 80 °C for the next brew, the hot liquor tank or cleaning. Keep the hot water in an insulated tank and use it the same day. Condensing the vapour from the boil also yields hot water. Heat recovery often pays back quickly, because the heat is free once the exchanger is installed.</p><p>In a hot country there is a limit: if wort must be cooled below ambient to pitch, as discussed in <a href=\"glycol-cooling-for-breweries-in-the-tropics.html\">sizing glycol cooling</a>, the recovered heat can lighten the load, but the chiller still has the last step.</p>"
+  ],
+  [
+   "Insulation, cooling and leaks",
+   "<p>Insulate hot tanks, hot pipes and steam lines. Insulate cold lines and cold rooms too. Check door seals on cold rooms and fix gaps. Keep condensers clean and shaded. Raise the set point where the beer allows it: a cold room at 2 °C instead of 0 °C for kegs uses less energy and does no harm if the beer is stable. Turn off glycol pumps and fans that run when nothing needs cooling. Fit variable speed drives to pumps and motors that run at partial load, as a drive can cut use sharply on a pump that spends most of its time throttled.</p><p>Compressed air leaks are a classic hidden waste. Listen for hissing when the plant is quiet and spray soapy water on joints. A leak that you can hear costs more than most people think.</p>"
+  ],
+  [
+   "Power sources and hot-climate options",
+   "<p>In sunny countries, solar thermal panels preheat brewing and cleaning water. Solar photovoltaic panels lower daytime electricity use. Both depend on local tariffs, roof space and rules on grid connection, so get quotes and ask about incentives in your country. Heat pumps can supply both heating and cooling in one system if designed that way, using the same compressor work for two jobs. Seek an energy engineer for sizing. Do not guess.</p><p>Look at your tariff too. If electricity costs less at night, schedule the cooling and the pump runs accordingly, where the beer allows.</p>"
+  ],
+  [
+   "Keep a record and show the result",
+   "<p>After each change, compare kWh per hectolitre before and after, adjusting for output and weather. A single month proves little. Log it over a season. Share the figure with the team, because behaviour matters: a lid left open or a valve left running undoes a lot of engineering. When you can show real savings, they support any later conversation about financing, a lease or an investor. They also help with questions on sustainability, which our guide on <a href=\"water-use-per-litre-of-beer.html\">water use per litre of beer</a> covers from the water side. Good records start with the habit described in <a href=\"logging-brewery-data-you-will-use.html\">logging brewery data you will actually use</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good kWh per hectolitre figure?",
+   "It varies with equipment, climate and packaging, so use your own history as the benchmark. Track it monthly and look for a downward trend."
+  ],
+  [
+   "What saves the most energy first?",
+   "Often heat recovery from wort cooling, followed by insulation and fixing leaks. Measure first, because every brewery differs."
+  ],
+  [
+   "Can I shorten the boil to save energy?",
+   "Sometimes. A shorter or gentler boil can still remove DMS if evaporation is adequate. Test the beer before you change the routine."
+  ],
+  [
+   "Do solar panels make sense for a brewery?",
+   "They can, particularly in sunny places, but it depends on tariffs, roof space and local rules. Get quotes and have an energy engineer check the sizing."
+  ]
+ ],
+ "cta": {
+  "title": "Cut your energy and water bills and report it",
+  "body": "ESG in Craft Brewing is a 2 week course, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). It shows you how to measure energy, water and waste in a brewery and decide what to fix first. Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "esg-in-craft-brewing-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "pricing-a-pint-in-a-brewpub",
+  "choosing-a-brewery-site",
+  "writing-a-head-brewer-job-description"
+ ]
+}

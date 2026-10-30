@@ -1498,3 +1498,36 @@ main > section[style*="padding-block:0"],main > section[style*="padding-block:0"
   .rail-track>.card .card-body>p{display:none}
   .seg details.more{margin-top:.2rem}
 }
+/* Guides page tabs (Ankur's request, 31 Oct 2026): title and search first, then one reader
+   group at a time. The tab row stays pinned under the header while the shelf scrolls. */
+section.guides-head{padding-block:clamp(2rem,4vw,3.5rem) .5rem}
+.guides-head + .finder-wrap{padding-block:.5rem 1rem}
+#topic-tabs{position:sticky;top:var(--hdr,64px);z-index:40;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  padding-block:1rem .6rem;border-bottom:1px solid var(--line)}
+#topic-tabs .topic{color:var(--ink-soft)}
+#topic-tabs .topic.on{color:var(--amber-deep)}
+#topic-tabs .topic.on .topic-ico{background:linear-gradient(160deg,#f3c14b,#e19e13);border-color:#e19e13;color:#fff}
+#doors .seg{padding-block:clamp(1.5rem,3vw,2.5rem)}
+@media (max-width:760px){
+  #topic-tabs{top:58px;padding-block:.6rem .4rem;margin-inline:calc(-1 * clamp(1.2rem,4vw,2.5rem));padding-inline:clamp(1.2rem,4vw,2.5rem)}
+  #topic-tabs .topic{flex:0 0 5.2rem;gap:.4rem;font-size:.75rem}
+  #topic-tabs .topic-ico{width:3.1rem;height:3.1rem;border-radius:.9rem}
+  #topic-tabs .topic-ico .ico{width:1.4rem;height:1.4rem}
+}
+@media (min-width:761px){#topic-tabs{flex-wrap:nowrap;overflow:visible}#topic-tabs .topic{flex:1 1 0;min-width:0;padding-inline:.15rem}}
+/* Sponsor slot on guides and the advertise page (31 Oct 2026). Marked clearly, kept out of the article text. */
+.sponsor-card{position:relative;display:flex;align-items:center;gap:1.25rem;margin:2rem 0;padding:1.1rem 1.25rem 1.1rem 1.4rem;
+  border:1px solid var(--line);border-radius:16px;background:#fff}
+.sponsor-card div{flex:1}
+.sponsor-card h3{margin:0 0 .2rem;font-size:1rem}
+.sponsor-card p{margin:0;font-size:.9rem;color:var(--ink-soft)}
+.sponsor-tag{position:absolute;top:-.6rem;left:1rem;padding:.1rem .55rem;border-radius:999px;background:#fff;border:1px solid var(--line);
+  font-size:.66rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+.sponsor-card.house{border-style:dashed;border-color:#f0d08a;background:#fffaf0}
+.sponsor-card.house .sponsor-tag{color:var(--amber-deep);border-color:#f0d08a;background:#fffaf0}
+@media (max-width:640px){.sponsor-card{flex-direction:column;align-items:flex-start}}
+.table-wrap{overflow-x:auto}
+.ad-table{width:100%;border-collapse:collapse;font-size:.95rem}
+.ad-table th,.ad-table td{text-align:left;padding:.8rem .9rem;border-bottom:1px solid var(--line);vertical-align:top}
+.ad-table thead th{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.ad-table tbody th{font-weight:600}

@@ -1,0 +1,75 @@
+{
+ "slug": "scaling-a-homebrew-recipe",
+ "cat": "Brewing basics",
+ "h1": "Scaling a homebrew recipe up or down without changing the beer",
+ "title": "Scaling a Homebrew Recipe | Craft Beer School",
+ "desc": "How to scale a recipe up or down: grain, hops, water, yeast, losses, boil-off and when a straight ratio goes wrong.",
+ "teaser": "Doubling every number does not give you the same beer. Hops, losses and evaporation all scale differently.",
+ "standfirst": "A recipe is written for one kettle on one system. Move to a different batch size and some numbers scale straight and others need thought.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with the numbers that scale",
+   "<p>Grain scales directly with the final volume. If a recipe uses 4.5 kg of grain for 19 L, a 5 L batch needs 4.5 x 5 / 19 = 1.18 kg and a 38 L batch needs 9 kg. Keep the grist percentages the same. Water for the mash scales too if you hold the mash thickness (litres per kilogram) the same. Water salts, yeast nutrient and clarifier scale with the volume of water or wort.</p>"
+  ],
+  [
+   "Start from the volume into the fermenter",
+   "<p>The batch size in a recipe is usually the volume into the fermenter. Your system loses wort to trub, kettle dead space, hop absorption and grain absorption and those losses are mostly fixed amounts, not percentages. A small system loses a larger fraction. So if you want 5 L in the fermenter, you may need 7 L of pre-boil wort and not 5.5. Measure your own losses over two batches and use them.</p>"
+  ],
+  [
+   "Boil-off does not scale evenly",
+   "<p>Evaporation depends on the surface area of the kettle and the heat applied, not on the batch size. A wide pot boils off more per litre than a tall one. Measure your boil-off rate by boiling a known volume of water for an hour and set the pre-boil volume from that. If you scale a 60 minute boil from a 19 L pot to a 5 L pot, you may lose 1.5 L an hour on a wide pot, which is a bigger fraction of the batch. At altitude the rate changes again (see <a href=\"brewing-beer-at-high-altitude.html\">brewing beer at high altitude</a>).</p>"
+  ],
+  [
+   "Hops need recalculating",
+   "<p>Hop utilisation changes with the pot shape, boil gravity and volume, so a straight ratio of grams can give a different bitterness. Recalculate IBU in brewing software with your own batch size and boil volume. Aroma hops added at the end scale more reliably, in grams per litre. Dry hops scale in grams per litre too. If you lack software, scale by volume first, brew, taste and adjust.</p>"
+  ],
+  [
+   "Yeast and fermentation",
+   "<p>Yeast scales with volume and gravity: you need the same cell count per litre. A small batch is easy to pitch generously. A large batch needs more yeast or a starter. Fermentation temperature behaves differently too: a big fermenter holds its heat, while a small one follows the room. See <a href=\"homebrewing-in-a-hot-climate.html\">homebrewing in a hot climate</a>.</p>"
+  ],
+  [
+   "Things that do not scale and your own numbers",
+   "<p>Spices, fruit, smoked malt and roasted malt are strong flavours. A straight ratio is a good start, but tasting matters. Brew a pilot batch of 2 to 5 L at the new ratio before committing 100 L. Mash efficiency also changes with scale, since a deeper grain bed behaves differently, so gravity may land above or below target.</p><p>Whatever size you brew, record your own mash efficiency, boil-off rate, trub loss and final volume for each system. After three or four batches these figures settle and software with your own numbers gives scaling that is nearly right on the first go. The note-keeping is dull, but it is the difference between a hobby and a craft.</p>"
+  ],
+  [
+   "A worked scale-down",
+   "<p>Take a 20 L pale ale with 4.6 kg of grain, 20 g of bittering hops, 60 g whirlpool hops and 40 g dry hops. For a 5 L batch the grain is 4.6 x 5 / 20 = 1.15 kg. Whirlpool and dry hops scale to 15 g and 10 g. The bittering charge needs a recalculation, not a straight 5 g, because the smaller pot has a different boil volume. Enter the new volumes in your software and look at the IBU figure it gives.</p><p>Brew it, write down the original gravity you got and compare with the target of 1.050. If you landed at 1.046, your efficiency is a little lower at small scale, so add a few percent more grain next time.</p>"
+  ],
+  [
+   "A scaling checklist",
+   "<ol><li>Convert units if needed (see <a href=\"converting-brewing-recipes-metric-and-us-units.html\">converting brewing recipes</a>).</li><li>Scale grain by final volume and keep percentages.</li><li>Add your own losses to find the pre-boil volume.</li><li>Recalculate hop bitterness for the new boil.</li><li>Scale yeast by cell count per litre.</li><li>Brew, record, taste, adjust.</li></ol><p>Each repeat teaches you a little more. The course shows how to build and scale a recipe with confidence. The guide <a href=\"learning-to-brew-online-from-anywhere.html\">learning to brew online</a> explains how it works.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I just multiply every ingredient?",
+   "Grain, water and salts mostly scale directly. Hops, losses, boil-off and strong flavours do not."
+  ],
+  [
+   "Why is my small batch less bitter?",
+   "Hop utilisation depends on boil volume, gravity and pot shape. Recalculate IBU for the new setup."
+  ],
+  [
+   "How do I find my boil-off rate?",
+   "Boil a known volume of water for an hour and measure what is left."
+  ],
+  [
+   "Should I pilot a recipe at small scale?",
+   "Yes. A 2 to 5 L pilot batch shows problems before you commit a large batch."
+  ]
+ ],
+ "cta": {
+  "title": "Build recipes you can repeat",
+  "body": "Brewing Fundamentals is a 4-week live online course. It teaches recipe building and scaling, so a good batch can be repeated at any size.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "learning-to-brew-online-from-anywhere",
+  "bottle-conditioning-in-hot-weather",
+  "brewing-a-clean-pale-ale-in-warm-weather"
+ ]
+}

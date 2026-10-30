@@ -1,0 +1,71 @@
+{
+ "slug": "brewery-water-from-desalination",
+ "cat": "Brewing science",
+ "h1": "Brewery water from desalination: remineralising for beer",
+ "title": "Brewing Water From Desalination | Craft Beer School",
+ "desc": "Desalinated and RO water is nearly empty of minerals. Here is how to remineralise it for each beer style, with target ranges and checks.",
+ "teaser": "Desalinated water is a blank page. That is a gift if you know what to write on it and a mess if you do not.",
+ "standfirst": "Reverse osmosis permeate has almost no calcium, magnesium or alkalinity. You must build the brewing water back up, salt by salt, for each style.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What desalinated water actually is",
+   "<p>Desalination by reverse osmosis (RO) or distillation removes most dissolved salts. What reaches your brewery is usually very low in calcium, magnesium and bicarbonate. Many plants then add a little back to protect pipes and make the water palatable, a step known as post-treatment, so your supply may carry some hardness and alkalinity. You cannot assume. Ask the utility for a recent analysis or test it yourself. Our guide on <a href=\"reading-your-city-water-report-for-brewing.html\">reading a city water report</a> shows what to look for.</p><p>Three things to check straight away: residual chlorine or chloramine (which must be removed before brewing), total alkalinity and conductivity. If conductivity is below about 100 microsiemens per centimetre, you are close to a blank slate.</p>"
+  ],
+  [
+   "Why remineralise at all",
+   "<p>Water chemistry shapes mash pH, enzyme activity, yeast health and flavour. Calcium helps mash pH fall into range, supports enzymes, aids protein clarification and feeds yeast. Without it, a pale mash tends to land above the target pH. A high-pH sparge then pulls out tannins. Zero-mineral water also gives a thin, flat-tasting beer and can cause sluggish fermentation because yeast needs zinc, calcium and magnesium.</p><p>The target mash pH is 5.2 to 5.6, measured at room temperature. Remineralising is how you get there without relying on chance.</p>"
+  ],
+  [
+   "Salts you will use",
+   "<p>Brewers typically use a few salts, each adding specific ions.</p><ul><li><strong>Gypsum (calcium sulphate).</strong> Adds calcium and sulphate. Sulphate sharpens hop bitterness and gives a drier finish.</li><li><strong>Calcium chloride.</strong> Adds calcium and chloride. Chloride rounds the palate and enhances malt fullness.</li><li><strong>Epsom salt (magnesium sulphate).</strong> A small amount supplies magnesium for yeast. Too much tastes harsh and bitter.</li><li><strong>Baking soda or chalk.</strong> Adds alkalinity for dark beers. Use sparingly and measure.</li><li><strong>Lactic acid or phosphoric acid.</strong> Lowers pH when you overshoot.</li></ul><p>Use food-grade salts from a reliable supplier and weigh them to 0.1 g for small batches.</p>"
+  ],
+  [
+   "Target ranges by style",
+   "<p>These are starting points, not laws. Calcium of 50 to 150 mg/L suits most beers. A pale lager might sit near 50 to 70 mg/L calcium, with low sulphate and chloride (under 50 mg/L each). A hoppy pale ale or IPA often uses 100 to 150 mg/L calcium with a sulphate-to-chloride ratio favouring sulphate, perhaps 2:1 or higher. A malty beer such as a brown ale or stout tilts towards chloride and needs some alkalinity to balance roasted malt acidity.</p><p>Magnesium of 5 to 20 mg/L is plenty. Sodium should stay under about 100 mg/L for most beers. Lower is safer. Check each figure against your recipe, then adjust after you taste the result.</p>"
+  ],
+  [
+   "Work out additions properly",
+   "<p>Use a water calculator. Enter your base water analysis (or the RO values if untreated), your volume and your grist. Let the calculator suggest salts and a predicted mash pH. Then measure real mash pH with a calibrated meter 10 to 15 minutes into the mash. Calibrate the meter with fresh buffers each brew day. The prediction is a guide. The measurement is the truth.</p><p>If mash water and sparge water are treated separately, calculate each on its own volume. Keep records of every addition and every pH reading. After three or four brews you will know how your system behaves. The calculator becomes a check rather than a crutch.</p><p>Do the sums once, write the salt weights on the brew sheet and weigh them out the day before. A scale with 0.1 g resolution costs little. Guessing with teaspoons does not repeat from batch to batch. Repeatability is the whole reason to treat the water at all.</p>"
+  ],
+  [
+   "Chloramine and sodium: two traps",
+   "<p>Chloramine does not boil off the way free chlorine does, so letting water stand overnight is not enough. Left in the water it reacts with malt phenols and gives medicinal, plastic-like flavours in the beer. Remove it before mashing, either with a small dose of Campden tablet (potassium metabisulphite) or by carbon filtration with enough contact time.</p><p>Sodium creeps in from several sources, including baking soda and some pH adjusters. Keep a running total in your sheet. A little sodium rounds malt flavour, but at higher levels it turns the beer salty. The saltiness gets worse when chloride is also high.</p>"
+  ],
+  [
+   "Practical points for a hot brewery",
+   "<p>Desalinated water arrives warm, sometimes above 30 °C in the pipes in summer. That helps heating but hurts cooling, since your heat exchanger has less cooling potential. Think about a holding tank in shade or a pre-chiller. See our piece on <a href=\"glycol-cooling-for-breweries-in-the-tropics.html\">sizing glycol cooling</a>.</p><p>Low-mineral water is also corrosive. Stainless steel generally handles it, but check fittings and heat exchanger plates with your supplier. And do not forget the cleaning side: low hardness means less scale but changes how detergents behave.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I brew with straight RO water?",
+   "You can, but results are usually better with added calcium and a mash pH check. Straight RO suits very pale beers with careful pH control."
+  ],
+  [
+   "How much gypsum do I add?",
+   "It depends on your volume and target. One gram of gypsum in 10 L adds roughly 23 mg/L calcium and 56 mg/L sulphate. Use a calculator to refine it."
+  ],
+  [
+   "Do I still need to remove chlorine from desalinated water?",
+   "Often yes. Many supplies are chlorinated or chloraminated after treatment. Test first. Activated carbon removes chlorine. Chloramine is more stubborn and is usually dealt with by a Campden tablet (potassium metabisulphite) or longer carbon contact."
+  ],
+  [
+   "What pH meter do I need?",
+   "A pH meter with automatic temperature compensation and fresh buffers. Paper strips are not accurate enough for mash pH."
+  ]
+ ],
+ "cta": {
+  "title": "Build the water for the beer you want",
+  "body": "Water chemistry, mash pH and mineral additions are covered with worked examples from real brewery reports. Advanced Brewing Science runs for 6 weeks, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "homebrewing-with-desalinated-water",
+  "fermenting-lager-style-beer-without-a-fridge",
+  "reading-your-city-water-report-for-brewing"
+ ]
+}

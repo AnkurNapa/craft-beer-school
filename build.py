@@ -29,6 +29,7 @@ import seo
 import style_render
 import brand_consult
 import companies
+import sponsors
 import mentors
 import photos
 import brochure_pages
@@ -263,6 +264,7 @@ FOOTER = """
       <li><a href="about.html">About us</a></li>
       <li><a href="for-companies.html">Corporate services</a></li>
       <li><a href="corporate-brochure.html" data-cta="footer-brochure">Corporate brochure</a></li>
+      <li><a href="advertise.html" data-cta="footer-advertise">Advertise with us</a></li>
       <li><a href="careers.html">Careers and mentors</a></li>
       <li><a href="contact.html">Contact</a></li>
       <li><a href="__ENROLL__" data-cta="footer-enroll">Enrol</a></li>
@@ -598,6 +600,7 @@ PAGES["search.html"] = ("Search | Craft Beer School",
                         "", discover.search_page())
 PAGES.update(style_render.pages(BY_SLUG))
 PAGES[companies.SLUG] = companies.PAGE
+PAGES[sponsors.SLUG] = sponsors.page(ARTICLES)
 PAGES[brand_consult.SLUG] = brand_consult.page(pages_a.banner)
 PAGES.update(mentors.pages())
 PAGES.update(brochure_pages.pages())

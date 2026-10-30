@@ -1,0 +1,75 @@
+{
+ "slug": "reading-your-city-water-report-for-brewing",
+ "cat": "Brewing science",
+ "h1": "Reading your city water report for brewing, wherever you live",
+ "title": "Reading Your City Water Report | Craft Beer School",
+ "desc": "Calcium, magnesium, sodium, chloride, sulphate and alkalinity: how to read a municipal water report and what each number means in the mash.",
+ "teaser": "Your city publishes a water report. Most of it is meaningless to a brewer. Eight numbers are not.",
+ "standfirst": "A water quality report is a free lab test of your brewing water. Learn to pick the eight numbers that matter and what they do to your beer.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Where to find the report",
+   "<p>Most water utilities publish an annual report, often online or on request. Look for terms such as water quality report, consumer confidence report or water analysis. If you use a private well, send a sample to a lab. If your supply comes from several sources, the numbers vary by area and season, so ask which source feeds your tap. Desalinated supplies are different (see <a href=\"homebrewing-with-desalinated-water.html\">homebrewing with desalinated water</a>).</p>"
+  ],
+  [
+   "The numbers that matter",
+   "<p>Pick these out of the report and write them down in mg/L (the same as ppm):</p><ul><li><strong>Calcium (Ca).</strong> Helps the mash, clarity and yeast. Brewers aim for roughly 50 to 150 mg/L.</li><li><strong>Magnesium (Mg).</strong> A yeast nutrient in small amounts. Usually 5 to 30 mg/L is plenty.</li><li><strong>Sodium (Na).</strong> Rounds flavour at low levels and tastes salty when high.</li><li><strong>Chloride (Cl).</strong> Enhances malt fullness.</li><li><strong>Sulphate (SO4).</strong> Sharpens hop bitterness.</li><li><strong>Alkalinity or bicarbonate (HCO3).</strong> Resists a drop in mash pH. High values are a problem for pale beers.</li><li><strong>pH and total dissolved solids (TDS).</strong> A rough guide.</li><li><strong>Chlorine or chloramine.</strong> Must be removed before brewing.</li></ul>"
+  ],
+  [
+   "Alkalinity is the big one",
+   "<p>The mash needs to sit at pH 5.2 to 5.6. Malt acidifies the mash. Calcium and magnesium push the pH lower still, while alkalinity pushes against both. Water with high alkalinity makes pale beers taste harsh and dull, because the mash pH is too high. If the report gives bicarbonate, multiply by 0.82 to get alkalinity as CaCO3. A rough measure of the water's effect is residual alkalinity: alkalinity minus (calcium / 1.4 + magnesium / 1.7), with calcium and magnesium in mg/L. The lower the figure, the better for pale beers. A high figure suits dark beers.</p>"
+  ],
+  [
+   "A worked example",
+   "<p>Say a report shows calcium 30, magnesium 8, sodium 15, chloride 20, sulphate 25 and bicarbonate 120 mg/L. Alkalinity is 120 x 0.82 = 98 as CaCO3. Residual alkalinity is 98 - (30 / 1.4 + 8 / 1.7) = 98 - (21 + 5) = 72. That is moderately high. For a pale ale, you would cut alkalinity by diluting with RO water or adding acid. You would also add calcium with gypsum or calcium chloride. For a stout, the water is much closer to what you want as it is.</p>"
+  ],
+  [
+   "Chloride and sulphate: steering the flavour",
+   "<p>Chloride and sulphate set the character. A higher chloride-to-sulphate ratio gives a softer, maltier beer and a higher sulphate ratio gives a sharper, drier one. Most reports show sulphate and chloride in the same units. Calculate the ratio and compare it with the beer you want to brew. Free online water calculators do the sums when you enter your numbers and your recipe.</p>"
+  ],
+  [
+   "Chlorine, chloramine and common mistakes",
+   "<p>Cities add chlorine or chloramine to keep water safe. These react with malt to produce medicinal, plastic-like flavours. Campden tablets (potassium or sodium metabisulphite) remove both quickly. Boiling removes chlorine but not chloramine. Check which your utility uses.</p><p>The most common error is reading a number in the wrong unit. Hardness may be given in degrees (German, French or English), in mg/L as CaCO3, or in grains per gallon. Alkalinity may be as CaCO3 or as bicarbonate. Check the footnotes before you enter anything in a calculator. The second error is trusting a figure from an old report. The third is forgetting that boiling does not change most minerals, though it can precipitate some carbonate hardness.</p>"
+  ],
+  [
+   "Turning the numbers into a plan",
+   "<p>Once you have the numbers, decide what beer you want. For pale and hoppy beers, you want low alkalinity, good calcium and enough sulphate. For dark beers, moderate alkalinity helps. For soft, malty beers, raise chloride. Make one change at a time and keep a table of what you did and how the beer tasted.</p><p>If the report is unclear, ask the utility for more detail or send a sample to a brewing water lab. A cheap test costs less than a bad batch.</p>"
+  ],
+  [
+   "Seasons and sources",
+   "<p>Water changes through the year, with rain, reservoir levels and source blending. Use the latest report. If you can, test your tap with a cheap kit for hardness and alkalinity every few months. Keep your results with your brew log. Water is the first stage of a beer's life. For the later stages, see <a href=\"beer-cold-chain-in-hot-countries.html\">beer cold chain in hot countries</a> and <a href=\"dissolved-oxygen-and-shelf-life-in-warm-markets.html\">dissolved oxygen and shelf life in warm markets</a>.</p><p>Water chemistry is the part of brewing where calculation and taste meet. Our advanced course covers it in depth.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What water numbers matter for brewing?",
+   "Calcium, magnesium, sodium, chloride, sulphate, alkalinity or bicarbonate, pH and chlorine or chloramine."
+  ],
+  [
+   "What is residual alkalinity?",
+   "The part of the water's alkalinity that is not cancelled by its calcium and magnesium. It predicts how high the mash pH will go."
+  ],
+  [
+   "Do I need to remove chlorine?",
+   "Yes. Chlorine and chloramine can create medicinal flavours. A Campden tablet removes both."
+  ],
+  [
+   "Is soft water good for brewing?",
+   "It is good for pale beers, but you may need to add calcium for the yeast and the mash."
+  ]
+ ],
+ "cta": {
+  "title": "Make water work for your beer",
+  "body": "Advanced Brewing Science is a 6-week live online course. It takes mash chemistry and water adjustment from the basics to the calculations you can use on your own tap water.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "beer-cold-chain-in-hot-countries",
+  "dissolved-oxygen-and-shelf-life-in-warm-markets",
+  "rice-in-the-brewhouse-cereal-cooking"
+ ]
+}

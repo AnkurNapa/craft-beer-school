@@ -1,0 +1,71 @@
+{
+ "slug": "cleaning-in-place-with-hard-water",
+ "cat": "Brewing science",
+ "h1": "Cleaning in place with hard water: scale, caustic and acid",
+ "title": "Cleaning in Place With Hard Water | Craft Beer School",
+ "desc": "How hardness affects caustic and acid cleaning, how to prevent scale and beerstone, plus a safe CIP sequence for small breweries.",
+ "teaser": "Hard water makes scale on every hot surface and eats your cleaning chemicals. The fix is chemistry plus a good sequence.",
+ "standfirst": "Hard water changes how caustic and acid cleaners behave. Know what precipitates, when and why, so your tanks, heat exchangers and spray balls stay clean.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What hardness does",
+   "<p>Hardness is mostly dissolved calcium and magnesium. When water with high hardness is heated, or mixed with alkaline cleaner, calcium carbonate precipitates as a white scale. It coats heating elements, steam jackets, spray balls and heat exchanger plates, insulating them and giving microbes somewhere to hide. Hard water can also react with detergent components, so you use more chemical for less cleaning.</p><p>In brewing, another deposit matters: beerstone, a mix of calcium oxalate and protein that forms on tanks and fittings from malt-derived oxalate and calcium. Hard water adds to it. Beerstone looks like a hazy, rough film. It harbours bacteria.</p>"
+  ],
+  [
+   "What each chemical does",
+   "<p>Caustic soda (sodium hydroxide) dissolves organic soil: yeast, protein, hop resin. It works best hot, commonly 60 to 80 °C, at about 1 to 2 per cent. It does not remove mineral scale and, in hard water, it helps make more of it. Acid cleaners such as phosphoric or nitric acid, used at lower concentrations and moderate temperature, dissolve scale and beerstone. Peracetic acid is a common sanitiser, applied just before the vessel is filled. Always follow the supplier's data sheet and safety instructions, because concentrations and times depend on the product.</p><p>Caustic is dangerous to skin and eyes. Use proper goggles, gloves and a face shield. Keep eyewash within reach. Never mix acid and caustic. Never mix any cleaner with chlorine products.</p>"
+  ],
+  [
+   "A sequence that works",
+   "<ol><li><strong>Pre-rinse</strong> with cold or lukewarm water to remove loose soil. Hot water on protein sets it.</li><li><strong>Caustic wash</strong> circulated for 20 to 30 minutes at the recommended temperature.</li><li><strong>Rinse</strong> until the rinse water pH matches the incoming water.</li><li><strong>Acid wash</strong> at the recommended strength, often on every cycle or at a set frequency, to stop scale building up.</li><li><strong>Rinse</strong> again.</li><li><strong>Sanitise</strong> just before use. Do not rinse if the sanitiser is a no-rinse type used within its limits.</li></ol><p>Soak or circulate? Circulating with a pump and spray ball gives mechanical action. Soaking helps on fittings and valves, which you should strip and clean by hand.</p>"
+  ],
+  [
+   "Dealing with the hard water itself",
+   "<p>Chelating agents, such as gluconate or EDTA-based additives built into many caustic products, hold calcium in solution so it does not drop out as scale. Check whether your detergent has them. Softening the water used for cleaning also helps: an ion-exchange softener swaps calcium and magnesium for sodium. Reverse osmosis removes most dissolved minerals. A softener can be sized to the cleaning water only, which is a small fraction of your total use. Brewing water is a separate matter, covered for the opposite case of very soft water in <a href=\"brewery-water-from-desalination.html\">our guide to brewing water from desalination</a>.</p>"
+  ],
+  [
+   "Heat exchangers and the hot side",
+   "<p>A plate heat exchanger carries hot, protein-rich wort on one side and cooling water on the other. Scale on the water side cuts heat transfer, so wort leaves warmer than it should. If your pitching temperature creeps up in summer, check the plates before blaming the weather. Flush with acid on a schedule and open the exchanger for inspection from time to time, since gasket edges and plate corners hold residue.</p><p>The kettle and whirlpool pick up hop resin and protein burn-on. Caustic does most of the work here. A manual scrub of manway seals, probes and the underside of lids picks up what spray patterns miss. Make a list of the dead legs, valves and fittings in your plant and put each one on the cleaning checklist by name, because the places nobody names are the places infections start.</p>"
+  ],
+  [
+   "The vacuum risk",
+   "<p>Hot caustic in a closed tank absorbs the carbon dioxide left in the tank from fermentation. As the gas disappears, the pressure inside falls. A tank without a vent or vacuum relief valve can implode. Tanks collapsed this way are a well-known industrial accident. Keep the vent open during hot caustic cleaning, check that vacuum valves are clean and working and do not seal a tank hot and let it cool with the vents closed. Cooling a hot sealed tank causes the same effect.</p>"
+  ],
+  [
+   "Check that cleaning worked",
+   "<p>Look, touch and test. Inspect tank walls with a torch for film or haze. Run a clean hand over surfaces in rinsed tanks and fittings. Use ATP swabs where available to measure residual organic soil and plate swabs for microbial results. Titrate cleaner strength with a test kit, because chemicals are used up and hard water uses them faster. Record temperature, time and concentration for every CIP. If you see scale, add an acid step or raise frequency. Cleaning is also the base of yeast hygiene, as shown in <a href=\"yeast-health-in-a-hot-brewery.html\">managing yeast health in a hot brewery</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why is there white scale in my tank?",
+   "It is usually calcium carbonate or beerstone from hard water and malt-derived oxalate. Acid cleaning removes it. Caustic does not."
+  ],
+  [
+   "Do I need a water softener for CIP?",
+   "Not always, but softening the cleaning water or using a detergent with chelating agents reduces scale and chemical use."
+  ],
+  [
+   "How often should I use acid?",
+   "Many breweries use acid at the end of each cleaning cycle or at set intervals, depending on hardness and soil. Follow your supplier's advice and check for scale."
+  ],
+  [
+   "Can a tank really collapse during CIP?",
+   "Yes. Caustic absorbs the CO2 in the tank, so a sealed tank can implode. Keep vents open and check vacuum relief valves."
+  ]
+ ],
+ "cta": {
+  "title": "Clean it right and keep the beer safe",
+  "body": "Cleaning chemistry, sanitation and quality systems are covered with worked examples. Advanced Brewing Science runs for 6 weeks, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-beer-at-high-altitude",
+  "homebrewing-with-desalinated-water",
+  "fermenting-lager-style-beer-without-a-fridge"
+ ]
+}

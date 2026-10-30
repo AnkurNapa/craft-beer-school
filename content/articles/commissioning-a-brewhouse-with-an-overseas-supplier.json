@@ -1,0 +1,71 @@
+{
+ "slug": "commissioning-a-brewhouse-with-an-overseas-supplier",
+ "cat": "Consultancy",
+ "h1": "Commissioning a brewhouse when the supplier is overseas",
+ "title": "Commissioning a brewhouse from overseas | Craft Beer School",
+ "desc": "How to prepare for a brewhouse built abroad: factory testing, shipping, utilities, installation, cleaning and the first brews, with remote support.",
+ "teaser": "The brewhouse is bought. The harder work is the site, the utilities and the first brew.",
+ "standfirst": "When the supplier is in another country, commissioning depends on clear documents, ready utilities and good communication. Here is the order we follow.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Before the order is final",
+   "<p>Agree in writing what the supplier delivers: vessels, pumps, valves, control panel, piping, CIP and a glycol chiller if included. Agree too what stays with you. Ask for drawings, a utilities list and a commissioning plan. Agree who attends commissioning, whether supplier engineers come or whether support is by video. Check warranty terms and what happens if parts fail.</p>\n<p>Agree a payment schedule linked to milestones, such as drawings approved, factory test passed, delivery and commissioning complete. Withholding a final payment until commissioning is signed off gives both sides a clear finish line. Ask a lawyer to check the contract, because we do not give legal advice.</p>"
+  ],
+  [
+   "Factory acceptance",
+   "<p>A factory acceptance test (FAT) means the equipment is checked at the supplier before shipping. Ask to watch it live on video or send someone. Check vessel dimensions, weld finish, valve types, pump direction, control panel function and nameplates. Fixing a fault in the factory costs far less than finding it in your building.</p>\n<p>Take a checklist to the FAT. Ask for the test to include the control sequence from mash-in to knock-out, a hot water run and a pressure test of vessels and piping. Request a short recorded video of each step. Keep the files, because they are your evidence if something fails later.</p>"
+  ],
+  [
+   "Shipping and customs",
+   "<p>Brewing equipment travels by container. Check the packing list against the order, photograph every crate on arrival and note damage before signing. Import duty, customs paperwork and local standards differ by country, so work with a customs agent. We do not give legal advice on this.</p>\n<p>Insurance during transit matters. Confirm who carries the risk at each stage of the journey and what the policy covers. Ask your freight agent to explain it in plain terms.</p>"
+  ],
+  [
+   "Getting the site ready",
+   "<p>Most delays come from utilities, not tanks. Check these before the equipment arrives:</p>\n<p><ul><li>Electrical supply: voltage, phases and frequency (50 or 60 Hz) must match the panel and motors.</li><li>Water: supply pressure, a drain with enough capacity and a water analysis.</li><li>Heat source: steam, electric or direct fire, with safety checks.</li><li>Cooling: a glycol chiller sized for peak fermenter load.</li><li>Compressed air and CO2 supply.</li><li>A floor with fall to drains that takes the weight of full vessels.</li></ul></p>\n<p>Electrical mismatches are common when equipment is built to another country's standard. Ask for a written confirmation.</p>\n<p>Do not forget access. Measure doors, lift capacity and the route from the lorry to the brewhouse floor. A conical fermenter that does not fit through a doorway is an expensive lesson. Plan for the crane or forklift needed to place vessels.</p>"
+  ],
+  [
+   "Installation and passivation",
+   "<p>After vessels are placed and piped, the stainless steel needs cleaning and passivation. Passivation uses an acid, often citric or nitric, to remove free iron and restore the protective oxide layer on the steel. Ask the supplier for their method. Then pressure test the piping and check all gaskets and clamps.</p>\n<p>Keep the first run of cleaning chemicals to those the supplier recommends for their seals and gaskets. Wrong chemicals can damage soft parts that are hard to replace from abroad. Ask for a spares list and keep the key items in stock locally.</p>"
+  ],
+  [
+   "Water trials before wort",
+   "<p>Run the whole system with water first. Test every pump, valve, sensor, heating element and control step. Run a full CIP cycle with caustic and rinse. Check cooling by holding a tank at a set temperature. Any leak, wrong flow direction or sensor error is cheap to fix with water in the tank. Then do a first brew on a simple beer, not a showpiece.</p>\n<p>Write a commissioning checklist and sign off every line. When a problem appears three months later, the record shows what was tested and what was not.</p>"
+  ],
+  [
+   "Training and the first brews",
+   "<p>Record the video calls and take notes. Train at least two people on each task so one absence does not stop production. Keep the supplier's manuals in the language your team reads. Plan your first range with care: see <a href=\"developing-a-core-range-for-a-new-market.html\">developing a core range</a>. For general remote support see <a href=\"how-remote-brewery-consultancy-works.html\">how remote consultancy works</a>. See <a href=\"troubleshooting-beer-faults-over-video-call.html\">troubleshooting faults</a> for when a first beer does not taste as planned.</p>\n<p>Ask the supplier for a named contact and an agreed response time for the first few months. A fast answer to a small question is worth more than a long warranty document.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a factory acceptance test?",
+   "A check of the equipment at the supplier before it ships, covering dimensions, welds, valves, pumps and controls."
+  ],
+  [
+   "Why run water trials?",
+   "Leaks and control errors are far cheaper to find and fix with water than with wort."
+  ],
+  [
+   "Do voltage and frequency matter?",
+   "Yes. Motors and panels built for one standard can fail or run badly on another. Confirm in writing before shipping."
+  ],
+  [
+   "Can commissioning be supported remotely?",
+   "Much of it, by video and shared documents. On-site visits are by arrangement when the work needs them."
+  ]
+ ],
+ "cta": {
+  "title": "Commission with a plan and a second pair of eyes",
+  "body": "Our consultant brewers review the supplier's documents, utilities and commissioning plan. Rahul leads on brewing and start-ups. We leave your team able to run the plant.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "how-remote-brewery-consultancy-works",
+  "troubleshooting-beer-faults-over-video-call",
+  "developing-a-core-range-for-a-new-market"
+ ]
+}

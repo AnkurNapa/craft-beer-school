@@ -1,0 +1,75 @@
+{
+ "slug": "brewing-with-local-adjuncts",
+ "cat": "Ingredients",
+ "h1": "Brewing with local adjuncts: rice, sorghum, cassava and maize",
+ "title": "Brewing with Local Adjuncts | Craft Beer School",
+ "desc": "Rice, sorghum, cassava and maize in the mash: how each starch behaves, how much to use and why you need enzymes from malt behind them.",
+ "teaser": "Local grain can lighten a beer or replace imported malt, but raw starch must be cooked and converted before it ferments.",
+ "standfirst": "Adjuncts are grains and starches added alongside barley malt. Rice, maize, sorghum and cassava all work, if you understand starch.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why brewers use adjuncts",
+   "<p>Adjuncts are used to lighten body and colour, to cut cost and to make use of the grain that grows nearby. Rice and maize give a crisp, light, dry beer. Sorghum is a traditional African brewing grain. Cassava is a starch source in tropical countries. None of them brings the enzymes that barley malt has, so malt still has to do the conversion work.</p>"
+  ],
+  [
+   "The starch problem: gelatinisation",
+   "<p>Starch must gelatinise (swell and open up) before enzymes can break it into sugars. Barley starch gelatinises at a temperature low enough to happen in the mash itself, in the low 60s °C. Raw rice, maize and sorghum starches need higher temperatures, roughly in the range of 65 to 80 °C depending on the grain and variety. That is why these adjuncts are given a separate cereal cook, then added to the malt mash. Flaked or torrefied forms, already cooked by the manufacturer, can go straight into the mash.</p><p>Our guide to <a href=\"rice-in-the-brewhouse-cereal-cooking.html\">rice in the brewhouse</a> goes through the cereal cook step by step.</p>"
+  ],
+  [
+   "Rice and maize",
+   "<p>Rice and maize grits give a light, clean beer. A typical use is up to 20 to 30 per cent of the grist for a light lager-style beer. Cook the broken rice or grits with a small amount of crushed malt and water, bring them to a boil and add them to the main mash to lift its temperature. Flaked rice and flaked maize skip the cook. Both add fermentable sugar but little flavour and no husk, so a mash with a lot of them can set or stick. Rice hulls fix that.</p>"
+  ],
+  [
+   "Sorghum and cassava",
+   "<p>Sorghum grain has its own long brewing tradition. It can be used as grits, as a syrup, or malted. A longer guide is in <a href=\"brewing-with-sorghum.html\">brewing with sorghum</a>. Cassava is used as flour or starch. Cassava starch gelatinises easily and gives a clean fermentable base. Raw bitter cassava can contain cyanide-forming compounds, which cooking and processing reduce, so use commercial cassava flour or starch and cook it thoroughly. Do not experiment with raw roots.</p><p>For larger-scale methods, see <a href=\"sorghum-and-cassava-in-commercial-brewing.html\">sorghum and cassava in commercial brewing</a>.</p>"
+  ],
+  [
+   "How much adjunct the malt can carry",
+   "<p>Because the malt supplies the enzymes, the more adjunct you add, the less enzyme power per kilo of mash. A pale malt has plenty of spare enzyme power, so 20 to 30 per cent adjunct is safe. Beyond that, you need high-enzyme malts or added enzymes. The wort also needs more yeast nutrient. Adjuncts also dilute the amino acids that yeast needs, so fermentation can slow. Keep an eye on gravity.</p><p>Test with a 5 L batch before scaling up.</p><p>If you use a large share of adjunct or a low-enzyme malt, a few drops of a brewing amylase enzyme in the mash help conversion. Follow the supplier's dose and mash at the temperature stated. Then check conversion with an iodine test: put a few drops of wort on a white plate and add a drop of iodine. If it stays yellow-brown and does not turn blue-black, the starch is gone.</p>"
+  ],
+  [
+   "Flavour and character",
+   "<p>An adjunct beer is not a cheap beer. A rice lager has a dry, snappy finish that many Asian brewers have refined over decades. A maize beer has a gentle sweetness. Sorghum can give a slightly tart, grainy character. Hops and yeast do most of the rest.</p><p>Mash a little lower, near 64 to 65 °C, when using adjuncts. That makes more fermentable sugar and a drier beer, which suits the style.</p>"
+  ],
+  [
+   "A first adjunct brew",
+   "<p>Try rice first, in a light, dry beer. For 20 L, mash 3.6 kg of pilsner or pale malt with 0.9 kg of flaked rice, which is a grist of 80 per cent malt and 20 per cent rice. Mash at 65 °C for 60 minutes and add a handful of rice hulls if the runoff slows. Hop lightly with a noble-type hop for about 20 IBU and ferment clean and cool.</p><p>Taste it next to a pure malt version of the same beer. You will notice the lighter body and the drier finish at once.</p>"
+  ],
+  [
+   "Sourcing and storage",
+   "<p>Buy food-grade grain that is free of mould and store it dry. Local grain can carry mycotoxins if badly stored, so look and smell before you use it and discard anything musty. For buying and storing other ingredients, see <a href=\"buying-homebrew-ingredients-with-no-shop-nearby.html\">buying ingredients when there is no shop nearby</a>.</p><p>Adjunct brewing is where mash chemistry gets interesting. Our advanced course covers enzymes, starch and cereal cooking in detail.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What are brewing adjuncts?",
+   "Any fermentable material other than barley malt, such as rice, maize, sorghum, cassava, sugar or syrups."
+  ],
+  [
+   "Do I need to cook rice for beer?",
+   "Raw rice, yes, because its starch needs a higher temperature than a normal mash. Flaked rice is already cooked and goes in directly."
+  ],
+  [
+   "How much adjunct can I use?",
+   "Up to 20 to 30 per cent of the grist is a safe starting point with a high-enzyme pale malt."
+  ],
+  [
+   "Is cassava safe to brew with?",
+   "Use commercial cassava flour or starch and cook it fully. Never use raw bitter cassava roots."
+  ]
+ ],
+ "cta": {
+  "title": "Understand starch, enzymes and the mash",
+  "body": "Advanced Brewing Science is a 6-week live online course. It covers enzymes, gelatinisation and cereal cooking, so you can design a grist with local grain.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "buying-homebrew-ingredients-with-no-shop-nearby",
+  "storing-hops-in-hot-weather",
+  "brewing-with-sorghum"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "sorghum-and-cassava-in-commercial-brewing",
+ "cat": "Ingredients",
+ "h1": "Sorghum and cassava in commercial brewing: what changes in the brewhouse",
+ "title": "Sorghum and Cassava in Brewing | Craft Beer School",
+ "desc": "What changes in the brewhouse when you replace barley malt with sorghum or cassava: gelatinisation, enzymes, lautering and nitrogen.",
+ "teaser": "Sorghum and cassava will not mash like barley. Know where they differ and you can make a stable, repeatable beer.",
+ "standfirst": "Both crops are cheap, local and widely grown across Africa and beyond. Brewing with them at scale means managing starch gelatinisation, enzymes, filtration and nitrogen supply.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why brewers use them",
+   "<p>In parts of Africa and elsewhere, barley does not grow well and importing malt is costly. Sorghum and cassava are grown locally. Sorghum has a long brewing history in the form of traditional beers. Commercial brewers now use it both as a partial replacement for barley malt and as the main grain. Sorghum beer is also naturally free of barley gluten, though a gluten-free claim depends on local labelling rules and testing, which you must check with your regulator.</p><p>Local sourcing can lower cost and support farmers, but it adds variation in grain quality, so incoming checks matter. See our <a href=\"brewing-with-sorghum.html\">introduction to brewing with sorghum</a> for the basics.</p>"
+  ],
+  [
+   "Starch gelatinisation is the first change",
+   "<p>Starch must gelatinise (swell and open up) before amylase enzymes can break it down. Barley starch gelatinises at about 52 to 63 °C, inside the normal mash range. Sorghum starch needs higher temperatures, commonly around 68 to 78 °C depending on the variety. That is why sorghum needs a cereal cook or a high-temperature step before it meets the main mash. Cassava starch gelatinises at lower temperatures, roughly 60 to 70 °C. It also becomes very thick, so it needs controlled cooking and careful stirring.</p><p>Skip this step and you leave starch behind. You will see it as low extract, a blue-black reaction with iodine and a hazy beer that may later turn unstable.</p>"
+  ],
+  [
+   "Enzymes: malt, or added",
+   "<p>Sorghum can be malted. The malt carries amylase of its own, but enzyme activity differs from barley malt and varies by variety and malting. Many commercial breweries add exogenous enzymes (alpha-amylase, glucoamylase and sometimes pullulanase) to the unmalted grain. This gives control and consistency. Enzymes come with dosing instructions and optimum temperature and pH ranges, so follow the supplier's data and run trials.</p><p>Cassava has no enzymes of its own. It is almost pure starch. Enzyme additions or a barley malt blend must do all the conversion.</p>"
+  ],
+  [
+   "Lautering and filtration",
+   "<p>Barley's husk forms a natural filter bed in the lauter tun. Sorghum grain has no husk like barley's, so a mash of milled sorghum tends to run slowly or stick. Brewers add rice hulls or use a mash filter or other filtration device to open up the bed. Cassava flour mashes are viscous. Beta-glucans and arabinoxylans can also raise viscosity. Enzymes such as beta-glucanases and xylanases are used to manage it.</p><p>Plan the first trials at pilot scale. A stuck mash at full scale is a lost day and a lot of wasted grain.</p>"
+  ],
+  [
+   "Nitrogen and yeast health",
+   "<p>Yeast needs amino nitrogen to grow. Barley malt supplies plenty. Sorghum supplies less in a usable form. Cassava supplies almost none. A wort made mostly from them will be low in free amino nitrogen (FAN). Fermentation will be slow or incomplete unless you correct it. Options include proteases to release amino acids from sorghum protein, blending in some barley malt, adding yeast nutrient or adding food-grade sources of nitrogen. Measure FAN in the wort and aim for the figure your yeast strain needs, which your yeast supplier can advise.</p><p>Watch pH too. Wort from these grains can run differently from barley, so measure and adjust.</p>"
+  ],
+  [
+   "Run a pilot trial first",
+   "<p>Before you commit a full brew, mash 5 to 10 kg of the grain in the pilot kit or in a small test vessel. Record the gelatinisation temperature that gave a clean iodine test, the enzyme dose, the viscosity, the run-off time and the extract achieved. Repeat with a second batch of grain, because grain from two farms can behave very differently. Scale up only when the numbers repeat.</p><p>Keep a sample of every lot you buy. If a brew goes wrong, you can compare it with the lot that worked.</p>"
+  ],
+  [
+   "Safety, quality and sensory",
+   "<p>Raw cassava contains cyanogenic compounds that must be removed by proper processing. Buy flour or starch from a supplier that processes to food standards and check certificates of analysis. Never use raw or home-processed roots in a commercial brew.</p><p>Sorghum brings its own flavour, sometimes described as grainy, slightly astringent or tannic if the pericarp is not removed, so decortication or choice of variety matters. Cassava is bland, which is its virtue as an adjunct. Taste each batch against a reference and keep records. For wider adjunct use, the guide to <a href=\"brewing-with-local-adjuncts.html\">local adjuncts</a> helps. Yeast readiness is covered in <a href=\"reviving-liquid-yeast-that-arrived-warm.html\">reviving yeast after a warm journey</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why does sorghum need a cereal cook?",
+   "Its starch gelatinises at a higher temperature than barley starch, often above 70 °C. Without a high-temperature step, much of the starch is not converted."
+  ],
+  [
+   "Can cassava replace all the barley malt?",
+   "Not on its own. Cassava has no enzymes and almost no nitrogen. It works as an adjunct or with added enzymes and a nitrogen source."
+  ],
+  [
+   "Is sorghum beer gluten-free?",
+   "Sorghum has no barley gluten, but a gluten-free claim depends on local rules, testing and avoiding cross-contamination. Check with your regulator."
+  ],
+  [
+   "What enzymes do I add?",
+   "Typically alpha-amylase, glucoamylase and sometimes pullulanase or a beta-glucanase. Follow your supplier's dosing and temperature guidance."
+  ]
+ ],
+ "cta": {
+  "title": "Learn the mash science behind local grains",
+  "body": "Mash chemistry, enzymes and adjunct brewing are covered with worked examples. Advanced Brewing Science runs for 6 weeks, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewing-with-local-adjuncts",
+  "brewing-with-sorghum",
+  "reviving-liquid-yeast-that-arrived-warm"
+ ]
+}

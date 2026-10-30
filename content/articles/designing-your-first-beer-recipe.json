@@ -1,0 +1,67 @@
+{
+ "slug": "designing-your-first-beer-recipe",
+ "cat": "Brewing basics",
+ "h1": "Designing your first beer recipe with a simple spreadsheet",
+ "title": "Your First Beer Recipe in a Spreadsheet | Craft Beer School",
+ "desc": "Build a beer recipe from scratch with a simple spreadsheet: grain bill, gravity, bitterness and ABV, using standard formulas you can check.",
+ "teaser": "A beer recipe is arithmetic with a purpose. Build one in a spreadsheet and you will understand every number in it.",
+ "standfirst": "You do not need brewing software to design a good first recipe. A spreadsheet, five formulas and a clear idea of the beer you want are enough.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with the beer, not the numbers",
+   "<p>Decide what you want in the glass before you open the spreadsheet. A pale, dry, lightly hopped ale? A malty amber? A porter? Write down three words for the flavour and a rough strength. Everything else follows from that.</p><p>For a first recipe, choose a style that forgives mistakes: a pale ale, a blonde ale or a simple porter. Avoid very strong beers and anything that needs a long cold conditioning. If you are unsure what styles exist, our <a href=\"beer-styles-guide.html\">beer styles guide</a> is a good starting map.</p>"
+  ],
+  [
+   "Set up the sheet",
+   "<p>Make three blocks: a batch block, a grain block and a hop block. In the batch block put your final volume into the fermenter (say 19 L, or 5 US gal), your mash efficiency (start with 70 per cent if you do not know yours) and the target original gravity (OG).</p><p>Gravity is easiest to handle as points. A beer at 1.050 has 50 points. Points per kilogram of malt per litre is the cleanest way to work in metric: a typical base malt yields about 300 points per kilogram per litre at 100 per cent efficiency (equivalent to about 36 points per pound per US gallon). Check your maltster's data sheet for the real figure, because it varies by malt.</p>"
+  ],
+  [
+   "Work out the grain bill",
+   "<p>Total points needed = target points x volume in litres. For 19 L at 1.050: 50 x 19 = 950 points. Divide by your efficiency (0.70) to get the points the grain must contain: 950 / 0.70 = about 1,357. Divide by 300 points per kg per litre and you need roughly 4.5 kg of base malt.</p><p>Now split it. A pale ale might be 90 per cent pale malt and 10 per cent crystal malt. Put percentages in one column, kilograms in the next and make the kilograms a formula that multiplies your total weight by the percentage. When you change the percentages, the sheet recalculates. This is the point at which a spreadsheet earns its keep.</p><p>Specialty malts such as roasted barley or dark crystal add colour and flavour strongly, so use them in small amounts, often under 10 per cent of the grist.</p>"
+  ],
+  [
+   "Bitterness and hops",
+   "<p>Bitterness is measured in international bitterness units (IBU). Each hop addition contributes alpha acids that isomerise in the boil. The amount depends on the alpha acid percentage, the weight, the boil time and the wort gravity. The Tinseth formula is widely used and easy to put in a sheet. You do not need to derive it. Copy a published version, test it against a known recipe and check your result is close.</p><p>As a rule of thumb for a first recipe, aim for a bitterness to gravity ratio (IBU divided by gravity points) of about 0.5 to 0.8 for a balanced beer. A 1.050 ale with 30 to 40 IBU sits there. Hops added in the last five minutes or after the boil add aroma and very little bitterness, so treat them as a separate column.</p>"
+  ],
+  [
+   "Check the strength and colour",
+   "<p>The standard estimate for strength is ABV = (OG - FG) x 131.25. If you expect an ale yeast to finish around 1.010 from 1.050, ABV = 0.040 x 131.25 = 5.25 per cent. Expect the real number to vary by a few tenths. Yeast strain, mash temperature and fermentability of the grist all move final gravity.</p><p>Colour is trickier by hand. The Morey equation is common in software, but if you are building your own, a rough check is enough: a pale ale sits at about 10 to 20 EBC, an amber at 25 to 35 and a porter at 40 to 70. If your sheet says your pale ale is black, a percentage has gone wrong.</p>"
+  ],
+  [
+   "Brew it and keep notes",
+   "<p>Add columns for what actually happened: measured OG, measured FG, volume, fermentation temperature, days to finish. After the first brew, compare. If your OG was lower than planned, your efficiency was lower than 70 per cent, so adjust the sheet. After three brews you will have a number you trust.</p><p>Change only one thing at a time between brews. If you change malt, hop and yeast together you will not know which one made the difference. Brew day itself is covered in our <a href=\"brew-day-with-power-cuts.html\">guide to brew days with unreliable power</a>, which is useful whether or not your grid is flaky.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need brewing software?",
+   "No. A spreadsheet handles gravity, ABV and a basic bitterness estimate. Software saves time once you brew often, but building the sheet yourself teaches you what the numbers mean."
+  ],
+  [
+   "What efficiency should I assume?",
+   "Start at about 70 per cent for a simple all-grain system. Measure your own after the first brew and replace the guess with your real figure."
+  ],
+  [
+   "How accurate is the ABV formula?",
+   "It is a standard estimate, good to a few tenths of a percentage point for ordinary beers. Very strong beers drift further from it."
+  ],
+  [
+   "What is the easiest first style?",
+   "A pale ale, a blonde ale or a simple porter. They forgive small mistakes in temperature and timing."
+  ]
+ ],
+ "cta": {
+  "title": "Turn formulas into confident brewing",
+  "body": "Brewing Fundamentals is 4 weeks, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30), with recordings, weekly assignments and a certificate. It takes you from grain bill to finished beer with a teacher checking your numbers. The fee is on the course page.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brew-day-with-power-cuts",
+  "homebrewing-in-a-hot-climate",
+  "homebrewing-in-the-humid-tropics"
+ ]
+}

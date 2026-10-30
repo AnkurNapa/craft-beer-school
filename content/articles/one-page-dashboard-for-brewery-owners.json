@@ -1,0 +1,71 @@
+{
+ "slug": "one-page-dashboard-for-brewery-owners",
+ "cat": "Consultancy",
+ "h1": "A one-page dashboard for brewery owners",
+ "title": "A one-page dashboard for brewery owners | Craft Beer School",
+ "desc": "Which brewery numbers an owner should see on one page: volume, yield, quality, packaging loss, stock and cash, with healthy ranges and how to collect them.",
+ "teaser": "Ten numbers on one page tell an owner more than a hundred in a folder. Here is the list and how to build it.",
+ "standfirst": "A dashboard does not need software. It needs the right few numbers, collected the same way every week. This is what we put on the page.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with the questions an owner asks",
+   "<p>What did we brew and sell? Is the beer good? Are we wasting anything? Are we running out of anything? Is cash healthy? A dashboard should answer those five questions on one page. If a figure does not help answer one of them, leave it off.</p>\n<p>Owners of small breweries often keep numbers in three places: the brewer's notebook, the accountant's file and their own memory. A single page forces agreement on what counts. That discussion is half the value.</p>"
+  ],
+  [
+   "Production: volume and efficiency",
+   "<p><strong>Volume brewed and packaged.</strong> Hectolitres (1 hl is 100 litres) or litres, by beer and by month. Compare brewed with packaged: the gap is loss.</p>\n<p><strong>Brewhouse efficiency.</strong> Extract you actually collected, divided by the extract the grain could theoretically give. It shows how well the mash and lauter perform. Many small plants sit between roughly 70 and 85 per cent, but your target depends on your equipment, so track your own trend.</p>\n<p><strong>Tank utilisation.</strong> The share of fermenter days in use. Idle tanks are idle capital.</p>\n<p>Put brewed and packaged volume side by side. If a brewery brews 100 hl and packages 94 hl, six per cent is gone somewhere between the kettle and the can. The page makes you ask where. Beer lost to yeast and trub, to line rinses, to rejected packs and to tank bottoms all count.</p>"
+  ],
+  [
+   "Quality: a few reliable checks",
+   "<p><strong>Final gravity and ABV against target.</strong> A batch that finishes off target tells you something happened. ABV follows from gravity: (OG minus FG) x 131.25.</p>\n<p><strong>Fermentation time.</strong> Days from pitch to ready. A creeping number points to yeast health or temperature.</p>\n<p><strong>Tasting pass rate.</strong> The share of batches that pass a panel tasting before release.</p>\n<p><strong>Complaints and returns.</strong> Count them and note the beer and date. See our <a href=\"remote-quality-audit-for-a-brewery.html\">remote quality audit</a> for the wider system behind these numbers.</p>\n<p>Do not add measurements you cannot take reliably. A pH reading from an uncalibrated meter is worse than none. Calibrate meters with fresh buffer solutions before use and note the date.</p>"
+  ],
+  [
+   "Losses: where beer and money leak",
+   "<p><strong>Packaging loss.</strong> Beer lost between tank and packed unit, as a percentage. Foam at the filler, line changeovers, rejected cans and kegs all show up here.</p>\n<p><strong>Raw material waste.</strong> Spoiled hops, out-of-date yeast and malt spilled in milling.</p>\n<p><strong>Water and energy per hectolitre.</strong> Useful once you have meters. Rising use signals a leak, a faulty valve or a process drift.</p>\n<p>Look at the trend over months, not a single week. A packaging loss that rises slowly is often a worn seal or a changed routine. It hides in week-to-week noise.</p>"
+  ],
+  [
+   "Stock and cash",
+   "<p><strong>Days of stock.</strong> Finished beer on hand divided by average daily sales. Too many days risks old beer. Too few risks stockouts.</p>\n<p><strong>Raw material cover.</strong> How many weeks of malt, hops, yeast and packaging you hold.</p>\n<p><strong>Cost per litre.</strong> Raw materials, packaging, labour and energy, divided by litres sold.</p>\n<p><strong>Cash position and receivables.</strong> Money in the bank and money owed to you. A beer business can look busy while cash runs out.</p>\n<p>Cost per litre helps you set prices and spot drift. If malt prices rise or yields fall, the number moves and you see it before the accounts do.</p>"
+  ],
+  [
+   "How to build it",
+   "<p>Use a spreadsheet. One tab for weekly entries, one for the page. Agree who enters which number and when. Keep definitions written on the sheet, because \"efficiency\" can mean different things to different people. Show each number beside last month and a target. Colour a number only when it needs action.</p>\n<p>Aim for a page you can read in two minutes. If it takes longer, you have too many figures.</p>\n<p>Keep a version history. When you change a definition, mark the date, so a jump in a chart is not mistaken for a real change.</p>"
+  ],
+  [
+   "Using it well",
+   "<p>Review the page at a fixed time each week or month with the head brewer and whoever handles sales. Pick one number to improve and agree who will act. Do not chase every red cell. Our consultancy team can set up the page with you by video call and shared data. We then train your team to keep it. See <a href=\"how-remote-brewery-consultancy-works.html\">how remote consultancy works</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many numbers should a brewery dashboard show?",
+   "About ten to twelve, covering production, quality, losses, stock and cash. More than that becomes a report that nobody reads."
+  ],
+  [
+   "Do I need special software?",
+   "No. A spreadsheet with a weekly entry tab and a summary page is enough to start."
+  ],
+  [
+   "What is a good brewhouse efficiency?",
+   "It depends on the plant. Many small breweries land between about 70 and 85 per cent. Track your own trend and set a target from it."
+  ],
+  [
+   "How often should I review it?",
+   "Weekly for production and quality, monthly for cost and cash."
+  ]
+ ],
+ "cta": {
+  "title": "Know your numbers without drowning in them",
+  "body": "We set up a one-page dashboard with your team by video call and shared data. Then we train them to keep it. Ankur leads on quality, cost and data. Your team ends up running it.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "commissioning-a-brewhouse-with-an-overseas-supplier",
+  "developing-a-core-range-for-a-new-market",
+  "remote-quality-audit-for-a-brewery"
+ ]
+}

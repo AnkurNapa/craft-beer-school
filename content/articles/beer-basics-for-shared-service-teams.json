@@ -1,0 +1,71 @@
+{
+ "slug": "beer-basics-for-shared-service-teams",
+ "cat": "Beer for teams",
+ "h1": "Beer basics for shared service and GCC teams",
+ "title": "Beer basics for shared service teams | Craft Beer School",
+ "desc": "The few beer facts a GCC or shared service analyst needs: ingredients, the process, key terms and why they matter in a plan or a report.",
+ "teaser": "You work on beer data all day. This is the five minute version of how the product is made.",
+ "standfirst": "If you support a brewing company from a shared service centre, a little product knowledge makes reports and plans make more sense. Here is the short version.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Four ingredients",
+   "<p>Beer is made from water, malted barley, hops and yeast. Water is most of the volume. Barley is soaked, sprouted and dried to make malt, which supplies the sugar. Hops give bitterness and aroma. Yeast eats the sugar and makes alcohol and carbon dioxide.</p>\n<p>Every cost line in the plan leads back to these four, plus packaging and energy.</p>\n<p>Water quality matters more than most people expect. Some famous beer styles grew up around local water. Today brewers adjust water minerals to suit the style they want, which is one reason a brewery keeps water treatment records.</p>"
+  ],
+  [
+   "The process in six steps",
+   "<p><ol><li><strong>Milling and mashing.</strong> Malt is crushed and soaked in hot water so enzymes turn starch into sugar.</li><li><strong>Lautering.</strong> The sweet liquid, called wort, is separated from the grain.</li><li><strong>Boiling.</strong> Wort is boiled with hops, usually for an hour or so.</li><li><strong>Cooling and fermentation.</strong> Yeast is added and the wort ferments for days to weeks.</li><li><strong>Conditioning.</strong> The beer matures and clears.</li><li><strong>Packaging.</strong> Beer is put into kegs, cans or bottles.</li></ol></p>\n<p>The slow part is fermentation and conditioning, which is why beer cannot simply be made faster when demand jumps.</p>\n<p>Wort is boiled for roughly an hour. Boiling sterilises it, extracts bitterness from hops and drives off unwanted volatile compounds. After the boil, the wort is cooled fast to the temperature yeast likes.</p>"
+  ],
+  [
+   "Ale and lager",
+   "<p>The two big families are ale and lager. Ales use yeast that works warmer, often around 18 to 22 °C. They tend to taste fruitier. Lagers ferment colder, around 8 to 13 °C. They are cleaner and crisper. Lager takes longer, because of the cold fermentation and the cold conditioning period. That longer tank time is one reason lager planning looks different from ale planning.</p>\n<p>Ales are usually ready in one to three weeks from brew day to package. Lagers commonly need four weeks or more, since cold maturation is slow. Strong or barrel-aged beers take longer still. This is why the weeks of cover in a stock plan differ by style.</p>"
+  ],
+  [
+   "Words you will hear",
+   "<p><strong>Hectolitre (hl).</strong> 100 litres, the standard volume unit in brewing reports.</p>\n<p><strong>Wort.</strong> Unfermented beer.</p>\n<p><strong>ABV.</strong> Alcohol by volume, the percentage of the drink that is alcohol.</p>\n<p><strong>Gravity.</strong> A measure of sugar in the liquid, taken before and after fermentation.</p>\n<p><strong>IBU.</strong> A measure of bitterness compounds from hops.</p>\n<p><strong>Yield.</strong> How much saleable beer comes from the raw materials.</p>\n<p><strong>Batch.</strong> One brew, traced by a code.</p>\n<p>Other words you may see in reports include trub and attenuation. Trub is the protein-rich sediment left after the boil. Attenuation is how much of the sugar the yeast has eaten. These are not needed daily, but they appear in process notes.</p>"
+  ],
+  [
+   "Why this matters at your desk",
+   "<p>A forecast sets how many tanks must be filled weeks before the beer is sold. A shortage of cans stops packaging even if the beer is ready. A batch that fails quality checks is held and cannot be shipped. Loss between tank and pack shows up as a yield figure. Our <a href=\"explaining-brewery-kpis-to-non-brewers.html\">KPI guide for non-brewers</a> goes into those measures.</p>\n<p>Capacity is another thing to picture. A brewery has a fixed number of fermenters. Each one is occupied for days or weeks. When a new product is added, it competes for tank time with existing beers. That is why a request for one more variant is rarely just a labelling change.</p>"
+  ],
+  [
+   "Freshness and the cold chain",
+   "<p>Beer ages. Oxygen, heat and light spoil it, so brewers print best-before dates and ask for cold storage. A pallet that waits in a hot warehouse loses flavour long before the date passes. This links directly to stock days, returns and complaints in your reports.</p>\n<p>Packaging has its own constraints. A canning line, a bottling line and a keg filler are separate machines. A changeover between products or sizes takes time. Cans, glass, labels and cartons must arrive before the beer is ready, not after.</p>"
+  ],
+  [
+   "Where to go next",
+   "<p>For a team-wide view, see <a href=\"beverage-training-for-global-drinks-teams.html\">beverage training for global drinks teams</a>. If you want to understand flavour, <a href=\"sensory-training-for-drinks-sales-teams.html\">sensory training</a> is a good next step. For a broader reader's introduction, try <a href=\"what-is-craft-beer.html\">what is craft beer</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does beer take to make?",
+   "An ale is usually ready one to three weeks after brew day. Lagers commonly need four weeks or more."
+  ],
+  [
+   "What is wort?",
+   "The sweet liquid made from malt and water before yeast turns it into beer."
+  ],
+  [
+   "What is the difference between ale and lager?",
+   "Ale yeast works warmer and gives fruitier flavours. Lager yeast works colder and gives a cleaner taste, with longer tank time."
+  ],
+  [
+   "What is a hectolitre?",
+   "100 litres. Brewing reports commonly use it as the unit of volume."
+  ]
+ ],
+ "cta": {
+  "title": "What would your team gain from knowing this?",
+  "body": "We run beverage training for drinks companies and shared service teams: modules like Beverage 101 and guided sensory sessions, live online anywhere or on site by arrangement.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beverage-training-for-global-drinks-teams",
+  "sensory-training-for-drinks-sales-teams",
+  "beer-knowledge-for-drinks-marketing-teams"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "converting-brewing-recipes-metric-and-us-units",
+ "cat": "Brewing basics",
+ "h1": "Converting brewing recipes between metric and US units",
+ "title": "Converting Brewing Recipes Between Units | Craft Beer School",
+ "desc": "Metric to US and back: volumes, weights, temperatures, gravity, colour and pressure, with the conversion factors a brewer actually needs.",
+ "teaser": "A recipe from a US forum, a UK book and a German friend, all in different units. Here is the cheat sheet that makes them agree.",
+ "standfirst": "Brewing recipes arrive in litres, gallons, kilograms, pounds, Celsius and Fahrenheit. Convert carefully and the beer comes out the same.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Volume",
+   "<p>One US gallon is 3.785 L, so a 5 US gallon batch is 18.9 L, usually rounded to 19 L. A UK (imperial) gallon is bigger at 4.546 L, which catches people out in British recipes. One US quart is 0.946 L. Check which gallon the recipe means before you convert. If a recipe comes from a UK book, a 5 gallon batch is about 22.7 L.</p>"
+  ],
+  [
+   "Weight",
+   "<p>One pound is 453.6 g and one ounce is 28.35 g. So 10 lb of pale malt is 4.54 kg and 1 oz of hops is 28 g. Many brewers round hops to the nearest 5 g, which is fine. Never round grain by more than a percent or two, because it changes gravity.</p>"
+  ],
+  [
+   "Temperature",
+   "<p>°F = °C x 9/5 + 32 and °C = (°F - 32) x 5/9. Useful anchors: mash at 65 °C is 149 °F, 67 °C is 153 °F and 70 °C is 158 °F. Ale fermentation at 18 to 20 °C is 64 to 68 °F. Lager fermentation at 10 °C is 50 °F. Boiling is 100 °C or 212 °F at sea level; see <a href=\"brewing-beer-at-high-altitude.html\">brewing beer at high altitude</a> for the effect of height.</p>"
+  ],
+  [
+   "Gravity",
+   "<p>Specific gravity (SG), written as a number such as 1.050, is used in the US and UK. Degrees Plato (°P) is used in much of continental Europe. The two are related: °P is roughly (SG - 1) x 250, so 1.050 is about 12.5 °P. The formula is approximate but good enough for homebrew. ABV is (OG - FG) x 131.25 whichever way you measure.</p>"
+  ],
+  [
+   "Colour and bitterness",
+   "<p>Colour comes as SRM (US) or EBC (Europe). EBC is about 1.97 times SRM, so 10 SRM is about 20 EBC. Bitterness is in IBU in both systems, so it needs no conversion, but the calculation depends on the formula and your kettle, so treat it as a guide. Hop alpha acid percentages are the same everywhere.</p>"
+  ],
+  [
+   "Water, mash thickness and pressure",
+   "<p>Mash thickness comes in litres per kilogram (L/kg) or quarts per pound (qt/lb). 1 qt/lb is 2.09 L/kg, so the common 1.25 qt/lb is about 2.6 L/kg. Water minerals are in mg/L, which is the same as ppm. Pressure: 1 bar is 14.5 psi. Carbonation is in volumes of CO2 in both systems, 2.4 volumes being typical for an ale.</p>"
+  ],
+  [
+   "A worked conversion and a sense check",
+   "<p>A US recipe: 5 gal batch, 10 lb 2-row, 1 lb Munich, 1 oz hops at 60 minutes, mash 152 °F. In metric: 19 L, 4.5 kg and 0.45 kg, 28 g, 67 °C. Check the grain ratios still match (about 90 per cent and 10 per cent) and that the ratio of hops to volume has not drifted. Software such as a free brewing calculator does this for you, but understand the sums so that you can spot an error.</p><p>If your batch is a different size from the recipe's, you will need to scale as well. <a href=\"scaling-a-homebrew-recipe.html\">Scaling a homebrew recipe</a> covers it.</p><p>After any conversion, do a sense check. A 19 L batch at 1.050 needs about 4.5 kg of grain, so if your sum says 45 kg or 0.45 kg, you have slipped a decimal. A mash at 150 to 156 °F is 66 to 69 °C, so 50 °C is wrong. A hop addition of 28 g in 19 L is normal, but 280 g would be an extreme dry hop. Quick checks like these catch most errors before they cost a batch.</p><p>Keep your original and converted numbers side by side in your notes, so you can trace back if the beer is not what you expected.</p>"
+  ],
+  [
+   "Habits that prevent mistakes",
+   "<p>Write the unit next to every number. Pick one system for your own notes and convert once. Keep a conversion card by the kettle. In our live classes students join from many countries and use different units, so we use both and teach the conversions along the way. See <a href=\"homebrewing-in-singapore-and-malaysia.html\">homebrewing in Singapore and Malaysia</a> and <a href=\"homebrewing-in-a-small-apartment.html\">homebrewing in a small apartment</a> for recipes at small scale.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many litres are in 5 US gallons?",
+   "About 18.9 L, usually rounded to 19 L."
+  ],
+  [
+   "Is a UK gallon the same as a US gallon?",
+   "No. A UK gallon is 4.546 L and a US gallon is 3.785 L."
+  ],
+  [
+   "How do I convert SRM to EBC?",
+   "Multiply SRM by about 1.97 to get EBC."
+  ],
+  [
+   "How do I convert Fahrenheit to Celsius?",
+   "Subtract 32, multiply by 5 and divide by 9. So 152 °F is 66.7 °C."
+  ]
+ ],
+ "cta": {
+  "title": "Brew from any recipe in the world",
+  "body": "Brewing Fundamentals is a 4-week live online course. We teach recipe maths in both metric and US units, so you can use recipes from any country.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "homebrewing-in-the-humid-tropics",
+  "homebrewing-in-a-small-apartment",
+  "brewing-with-tropical-fruit"
+ ]
+}

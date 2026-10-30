@@ -1,0 +1,71 @@
+{
+ "slug": "homebrewing-in-a-hot-climate",
+ "cat": "Brewing basics",
+ "h1": "Homebrewing in a hot climate: keeping fermentation cool without a cellar",
+ "title": "Homebrewing in a Hot Climate | Craft Beer School",
+ "desc": "How to keep fermentation cool without a cellar: evaporative cooling, thermal mass, the right yeast and a brew schedule that suits hot weather.",
+ "teaser": "Your kitchen is 31 °C and your yeast wants 19. Here is how brewers in hot countries close that gap with a bucket, a towel and a bit of planning.",
+ "standfirst": "Heat is the biggest single threat to a homebrew and most of it can be handled without buying a fridge. This guide covers the cheap cooling methods that work and when to stop fighting the room and change the yeast instead.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why warm fermentation goes wrong",
+   "<p>Yeast makes flavour as well as alcohol. At ale temperatures of 18 to 20 °C it produces a modest amount of fruity esters. Push the same yeast to 28 °C and it makes far more esters, plus higher alcohols (fusel) that taste hot and solvent-like. Fermentation is also exothermic, so the beer in the middle of active fermentation can sit several degrees above the room.</p><p>That last point matters. A thermometer on the wall tells you about the room. A stick-on strip thermometer on the fermenter tells you about the beer. Measure the beer.</p>"
+  ],
+  [
+   "Cooling without electricity",
+   "<p>The cheapest method is a water bath. Stand the fermenter in a tub or bucket of water that comes up to the level of the beer. Water holds heat far better than air, so the beer swings slowly instead of racing up each afternoon.</p><p>Add evaporative cooling and you gain a few more degrees. Drape a T-shirt or towel over the fermenter with its bottom edge in the water and point a small fan at it. As the water evaporates it carries heat away. It works best in dry heat. In humid air the gain is smaller, which is why the humid-tropics case needs more help (see <a href=\"homebrewing-in-the-humid-tropics.html\">homebrewing in the humid tropics</a>).</p><p>For a hot spell, freeze two or three 2 L plastic bottles of water and swap them into the bath morning and evening. Sanitise the outside of each bottle first. Check the temperature each time you swap, because the aim is a steady beer, not a cold one.</p>"
+  ],
+  [
+   "Use the coolest part of the day and the house",
+   "<p>Move the fermenter to the coolest spot you have: an inner room, a ground floor, a cupboard on an outside wall that never sees the sun, or a bathroom with a tiled floor. Avoid the kitchen. Cover it with a dark cloth to keep light off and keep it away from the fridge back, which blows warm air.</p><p>Brew when the water is cold. Chilling wort to pitching temperature with tap water is hard when the tap runs at 30 °C. Run the water through a coil sitting in an ice bath, or stand the covered kettle in a sink of ice water and swirl the water around it now and then. Pitch when the wort is below 25 °C. Better to pitch an hour later at the right temperature than at once into warm wort.</p>"
+  ],
+  [
+   "Change the yeast, not the room",
+   "<p>If you cannot hold 20 °C, pick a yeast that likes warmth. Kveik strains, from Norwegian farmhouse brewing, ferment cleanly in the 30s °C. Saison yeasts also tolerate heat and in fact often prefer it. A standard English or American ale yeast pushed to 28 °C will not. Our guide to <a href=\"choosing-yeast-for-a-warm-room.html\">choosing yeast for a warm room</a> goes through the options and how to pitch them.</p><p>Dry yeast also survives a hot postal journey much better than liquid, which helps if your supplier is far away.</p>"
+  ],
+  [
+   "Plan the schedule around the weather",
+   "<p>A warm fermentation finishes fast, often in three to four days. Do not bottle on day four because airlock activity stopped. Leave the beer on the yeast another few days, take a gravity reading and take another two days later. When the two match, fermentation is done. The extra time lets yeast clean up diacetyl and acetaldehyde, a job it does faster when warm anyway.</p><p>Hops fade in heat too, so keep them cold and add them late. Our guide to <a href=\"storing-hops-in-hot-weather.html\">storing hops in hot weather</a> covers that.</p>"
+  ],
+  [
+   "Chilling and pitching in hot weather",
+   "<p>Tap water in a hot country can run at 28 to 32 °C, which means a standard immersion chiller only gets wort down to the high 30s. Pre-chill the water instead. Run it through a coil of copper or stainless tube standing in a bucket of ice, then through the chiller. Or fill a second pot with ice and use it as a bath for the sealed brew kettle.</p><p>Do not pitch yeast into warm wort and hope. Yeast pitched at 30 °C goes straight into a high-ester fermentation. If the wort will not go below 26 °C, leave it covered in the cool bath for an hour or two, or even overnight in a clean, sealed fermenter, then pitch in the morning when the room is cooler. A covered, sanitised fermenter for a few hours is a smaller risk than a hot pitch.</p><p>Aerate the wort after it has cooled, never while it is warm. Warm wort that is shaken hard picks up oxygen that will cause staling later.</p>"
+  ],
+  [
+   "Where the guesswork ends",
+   "<p>You can get good beer with these tricks. What you cannot easily do from a blog post is work out why one batch tastes of banana and another of nail polish. That takes tasting against known faults and understanding what the yeast was doing at each stage. A live class lets you ask about your own set-up, with your own photographs and temperature log. That is the gap our Brewing Fundamentals course fills.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the best fermentation temperature for homebrew?",
+   "For most ale yeasts it is 18 to 20 °C, measured on the beer. Lager yeasts prefer 8 to 13 °C. Kveik and many saison strains are happiest well above 25 °C."
+  ],
+  [
+   "Does a wet towel really cool a fermenter?",
+   "Yes, a few degrees, as water evaporates from the cloth. It works best in dry air with a fan. In humid weather it helps much less."
+  ],
+  [
+   "Can I brew in summer without cooling?",
+   "You can if you choose a heat-tolerant yeast such as kveik or a saison strain. With a normal ale yeast, uncontrolled heat usually gives harsh, fruity or solvent-like beer."
+  ],
+  [
+   "How do I know when fermentation is finished?",
+   "Take a hydrometer reading two days apart. If it does not move, fermentation is done, whatever the airlock is doing."
+  ]
+ ],
+ "cta": {
+  "title": "Stop guessing why a batch went wrong",
+  "body": "Brewing Fundamentals is a 4-week live online course for people brewing at home. You will learn fermentation control and how to read your beer for faults, with your own questions answered in class.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "homebrewing-in-the-humid-tropics",
+  "homebrewing-in-a-small-apartment",
+  "brewing-with-tropical-fruit"
+ ]
+}

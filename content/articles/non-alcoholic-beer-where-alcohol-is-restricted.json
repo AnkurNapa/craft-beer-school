@@ -1,0 +1,67 @@
+{
+ "slug": "non-alcoholic-beer-where-alcohol-is-restricted",
+ "cat": "Brewing science",
+ "h1": "Non-alcoholic beer for markets where alcohol is restricted",
+ "title": "Non-Alcoholic Beer in Restricted Markets | Craft Beer School",
+ "desc": "Methods for making non-alcoholic beer, the legal limits that differ by country, plus the stability and flavour problems to plan for.",
+ "teaser": "If alcohol is banned or tightly limited where you live, non-alcoholic beer is the product to learn. It is harder than it looks.",
+ "standfirst": "A beer with almost no alcohol has no ethanol to preserve it and no strong flavour to hide faults. This guide covers the ways to make it, the limits to check and the quality problems that follow.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Law comes first",
+   "<p>Rules on alcohol differ widely. In some countries alcohol is banned or heavily restricted. In others only certain products are allowed. The definition of non-alcoholic also differs: some markets use 0.5 per cent ABV as the ceiling, some allow only 0.0 per cent with no detectable alcohol and some use different terms for different ranges. Labels, permits and import rules may differ again. Before you invest in equipment, ask your national regulator or a licensing adviser what is allowed, how it must be labelled and whether any religious or cultural certification is expected in your market. Local law comes first. Nothing in this guide is legal advice.</p>"
+  ],
+  [
+   "Three ways to make it",
+   "<p>There are three main routes.</p><ul><li><strong>Restricted fermentation.</strong> Start with a low-gravity wort or use a yeast that ferments little. Some non-<em>Saccharomyces</em> yeasts cannot ferment maltose, the main sugar in wort, so they produce little alcohol. The beer keeps a sweet, worty character that needs careful balancing with hops and acid.</li><li><strong>Arrested or cold contact fermentation.</strong> Fermentation is stopped early by cooling and removing yeast, or wort is held with yeast near 0 °C so that it ferments very little. It is a simple method but often leaves a worty flavour and carries a microbiological risk because unfermented sugar remains.</li><li><strong>Dealcoholisation.</strong> Brew a normal beer, then remove the ethanol by vacuum distillation or membrane processes such as reverse osmosis. It gives a closer match to regular beer but needs expensive equipment and can strip aroma, which you may need to recover or replace.</li></ul><p>Small producers often start with restricted fermentation or contract dealcoholisation, then invest as volume grows.</p>"
+  ],
+  [
+   "Flavour problems you will meet",
+   "<p>Without alcohol, the beer has thin body and exposed flavours. A sweet, cereal or worty note is the most common complaint, caused by wort compounds that normal fermentation reduces. Body can come from dextrins, from higher mash temperatures for less fermentable wort and from malts such as oats and wheat. Acid in small amounts balances sweetness. Hops need care: bitterness is more prominent without alcohol. Some hop oils lose character in dealcoholisation.</p><p>Taste with trained tasters. Our guide to <a href=\"yeast-health-in-a-hot-brewery.html\">managing yeast health</a> matters here too, because a stressed yeast makes more off-flavours that nothing can hide.</p>"
+  ],
+  [
+   "Stability is the real risk",
+   "<p>Alcohol normally stops many microbes. With none, the beer is food. Residual sugar, a pH that may be higher than a normal beer and warm storage make spoilage easy. Brewers use several defences together: low pH (many aim for around 4.0 or below, depending on the product), sterile filtration, tunnel or flash pasteurisation, clean filling and sometimes preservatives where the law allows them. Hygiene must be tighter than for regular beer.</p><p>Pasteurisation has a cost. Heat can bring cooked, bready and stale flavours into a delicate beer. Measure pasteurisation units and keep them to what you need. Fill with low oxygen as described in <a href=\"dissolved-oxygen-and-shelf-life-in-warm-markets.html\">our guide on oxygen and shelf life</a>.</p>"
+  ],
+  [
+   "Measuring the alcohol honestly",
+   "<p>You must know the real alcohol content, not the one you hope for. Ordinary hydrometers cannot measure it at these levels. Use a lab method such as gas chromatography or a calibrated instrument sold for low alcohol. Test every batch, not only the first. Fermentation can restart in the package if a few yeast cells survive, raising alcohol after sale. Check shelf samples after storage too. Keep records for the regulator.</p><p>Equally important is the testing method's uncertainty. A reading of 0.4 per cent with an error of 0.1 may be fine against a 0.5 limit. Against a limit of zero it is not.</p>"
+  ],
+  [
+   "Building a range",
+   "<p>Start with one or two simple styles that suit the method: a pale lager, a wheat beer, a hoppy pale ale or a malt-forward amber. Test them with the people who will drink them. Many drinkers choose non-alcoholic beer for health, religious, work or driving reasons and expect real beer taste. Serve it cold in good glassware and avoid claims about health. On the shelf, label it honestly and say what is in the bottle.</p><p>Look at the full range in our <a href=\"non-alcoholic-beer-styles-explained.html\">non-alcoholic beer styles guide</a> if you want to see where the market is.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the legal limit for non-alcoholic beer?",
+   "It differs by country. Some markets use 0.5 per cent ABV, others require 0.0 per cent. Check with your national regulator or a licensing adviser."
+  ],
+  [
+   "Can I use a normal hydrometer to check alcohol?",
+   "No. It is not accurate enough at these levels. Use a laboratory method or a calibrated low-alcohol instrument."
+  ],
+  [
+   "Why does non-alcoholic beer taste worty?",
+   "Because unfermented wort compounds stay in the beer. Dealcoholised beers have less of this problem. Restricted-fermentation beers can be balanced with hops and acid."
+  ],
+  [
+   "Is pasteurisation necessary?",
+   "Often yes, or sterile filtration, because there is no alcohol to protect the beer. Measure it and avoid overheating."
+  ]
+ ],
+ "cta": {
+  "title": "Make a beer that tastes like beer, without the alcohol",
+  "body": "Non-Alcoholic Beer is a 2 week course, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). Students join from their own time zone and recordings cover a missed class. It covers methods, flavour balance and stability in detail. The fee is on the course page.",
+  "href": "non-alcoholic-beer-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "dissolved-oxygen-and-shelf-life-in-warm-markets",
+  "rice-in-the-brewhouse-cereal-cooking",
+  "yeast-health-in-a-hot-brewery"
+ ]
+}

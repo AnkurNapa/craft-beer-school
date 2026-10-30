@@ -1,0 +1,71 @@
+{
+ "slug": "yeast-health-in-a-hot-brewery",
+ "cat": "Brewing science",
+ "h1": "Managing yeast health in a hot brewery",
+ "title": "Managing Yeast Health in a Hot Brewery | Craft Beer School",
+ "desc": "Keep yeast healthy when ambient temperatures are high: pitching, oxygen, temperature control, storage and re-pitching limits.",
+ "teaser": "Heat stresses yeast at every step. Look after the yeast and it looks after the beer.",
+ "standfirst": "Yeast that is warm, under-fed or re-used too often gives fruity, solventy and sulphury beer. These checks keep it healthy in a hot building.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What heat does to yeast",
+   "<p>Yeast makes alcohol, carbon dioxide and flavour compounds. When temperatures rise, it works faster and produces more esters (fruity notes) and higher alcohols (fusel, solvent-like notes). Above its comfortable range, it becomes stressed and dies off. Weak yeast produces off flavours such as diacetyl, acetaldehyde and sulphur compounds. A hot brewery lacks a safety margin: a chiller failure or a summer afternoon can push fermentation 5 to 10 °C past the target.</p><p>Fermentation also makes its own heat. Without cooling, a tank can warm several degrees above the room during the vigorous phase. That heat needs removing, as discussed in <a href=\"glycol-cooling-for-breweries-in-the-tropics.html\">sizing glycol cooling</a>.</p>"
+  ],
+  [
+   "Pitch cool, pitch enough",
+   "<p>Cool the wort to the target pitching temperature before the yeast goes in. Pitching into warm wort and cooling afterwards stresses cells and lets the first stage of fermentation run too hot. Pitch rate matters too. A common guide is 0.75 million cells per millilitre per degree Plato for ales and 1.5 million for lagers. Count cells with a counting chamber or use a measured volume of slurry from a known density. Pitching too few cells gives a long lag, more stress and more risk of bacteria.</p><p>Give the yeast oxygen at pitching. Many brewers aim for around 8 to 10 mg/L of dissolved oxygen for ales and a bit more for lagers or high-gravity wort. Oxygen lets yeast build the membrane lipids it needs to survive.</p>"
+  ],
+  [
+   "Temperature control through fermentation",
+   "<p>Set a target and hold it within about 1 °C. Raise the temperature gently near the end for a diacetyl rest if the style calls for it. Log tank temperatures on a graph. A graph shows a temperature spike that a daily hand reading would miss. For warm countries, consider yeast strains that cope with higher temperatures, such as certain ale strains and the Norwegian kveik family, which ferment cleanly in the 30s °C. Read our guide on <a href=\"choosing-yeast-for-a-warm-room.html\">choosing yeast for a warm room</a> for options. Pick the strain to match the beer, not just the temperature.</p>"
+  ],
+  [
+   "Storing and re-pitching yeast",
+   "<p>Harvested yeast slurry should be kept cold (2 to 4 °C) in a clean, sanitised vessel with a loose lid for gas release. Use it within a few days, because viability falls and the cells weaken as stored reserves run out. Keep it away from heat in transit between tanks.</p><p>Most breweries limit re-pitching to a number of generations, often between 5 and 10, though the right number depends on strain, wort gravity and hygiene. Check viability each time with a stain such as methylene blue, aiming for above 90 per cent. Track generation numbers on a sheet. When fermentation starts slowly, flavour drifts or the yeast clumps oddly, go back to a fresh culture.</p>"
+  ],
+  [
+   "Feed the yeast properly",
+   "<p>Healthy fermentation needs more than sugar. Yeast wants free amino nitrogen, zinc, magnesium and other minerals. It also wants a wort that is not too high in gravity for its strength. Wort made with a lot of unmalted adjunct, or with very soft water, can run short. Slow starts and stuck fermentations in warm weather often trace back to a nutrient shortfall made worse by heat, not to heat alone. If you see this, measure FAN and consider a yeast nutrient with zinc, following the supplier's dose. For high-gravity brews, pitch more yeast and add oxygen in stages rather than all at once.</p><p>Harvest at the right time too. Take yeast from the cone while fermentation is still healthy and before the beer has sat on it for days in a warm tank. Yeast left on the bottom of a warm fermenter at the end of fermentation autolyses and gives meaty, rubbery flavours.</p>"
+  ],
+  [
+   "Cleaning up a stressed culture",
+   "<p>Acid washing can reduce bacterial load in harvested yeast. A common routine uses food-grade phosphoric acid to bring the slurry to pH 2.0 to 2.5 for no more than two hours, kept cold and stirred. It is not a cure for a seriously infected culture. It can damage yeast if overdone, so test it on a small sample first. If you find bacteria on a plate or under the microscope, replace the culture and review your cleaning.</p><p>Link this to your cleaning programme. Poor cleaning leads to infection that no yeast care can fix. Hard water can compromise cleaning, as covered in <a href=\"cleaning-in-place-with-hard-water.html\">cleaning in place with hard water</a>.</p>"
+  ],
+  [
+   "A checklist for the hottest week",
+   "<ul><li>Check chiller capacity and glycol temperature daily.</li><li>Cool wort to target before pitching and record the temperature.</li><li>Count cells or measure slurry volume and write down the pitch rate.</li><li>Oxygenate wort and verify the dissolved oxygen if you have a meter.</li><li>Log fermenter temperature with a probe and review the graph each morning.</li><li>Keep harvested yeast cold and use it quickly.</li><li>Taste every batch at the end of fermentation for diacetyl and acetaldehyde before cooling.</li></ul>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What temperature is too hot for ale yeast?",
+   "Most ale strains do best between about 18 and 22 °C. Above 25 to 28 °C many give strong ester and solvent flavours. Some strains, such as kveik, handle the 30s °C."
+  ],
+  [
+   "How many times can I re-pitch yeast?",
+   "Often 5 to 10 generations, depending on strain, gravity and hygiene. Check viability and flavour each time and restart from a fresh culture when quality slips."
+  ],
+  [
+   "Why does my beer taste of nail polish remover?",
+   "That is usually ethyl acetate or other solvent-like compounds from stressed or warm fermentation. Check temperature, pitch rate and oxygen."
+  ],
+  [
+   "Is a viability stain worth doing?",
+   "Yes. A methylene blue count is cheap and shows whether slurry is healthy enough to re-pitch. Aim for above 90 per cent viable cells."
+  ]
+ ],
+ "cta": {
+  "title": "Keep yeast healthy when the building is not",
+  "body": "Fermentation science, yeast management and troubleshooting are core topics. Advanced Brewing Science runs for 6 weeks, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cleaning-in-place-with-hard-water",
+  "brewing-beer-at-high-altitude",
+  "homebrewing-with-desalinated-water"
+ ]
+}

@@ -29500,5 +29500,1508 @@
   "stage": "consideration",
   "batch": "student-guide-1",
   "date": "2026-10-30"
+ },
+ {
+  "slug": "homebrewing-in-a-hot-climate",
+  "h1": "Homebrewing in a hot climate: keeping fermentation cool without a cellar",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "homebrewing-in-the-humid-tropics",
+   "homebrewing-in-a-small-apartment",
+   "brewing-with-tropical-fruit"
+  ]
+ },
+ {
+  "slug": "brewing-beer-at-high-altitude",
+  "h1": "Brewing beer at high altitude: boiling point, hops and evaporation",
+  "cat": "Brewing science",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "fermenting-lager-style-beer-without-a-fridge",
+   "reading-your-city-water-report-for-brewing",
+   "glycol-cooling-for-breweries-in-the-tropics"
+  ]
+ },
+ {
+  "slug": "homebrewing-with-desalinated-water",
+  "h1": "Homebrewing with desalinated or RO water: building the minerals back up",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "reading-your-city-water-report-for-brewing",
+   "glycol-cooling-for-breweries-in-the-tropics",
+   "brewery-water-from-desalination"
+  ]
+ },
+ {
+  "slug": "homebrewing-in-the-humid-tropics",
+  "h1": "Homebrewing in the humid tropics: mould, malt storage and sanitation",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "converting-brewing-recipes-metric-and-us-units",
+   "homebrewing-in-singapore-and-malaysia",
+   "learning-to-brew-online-from-anywhere"
+  ]
+ },
+ {
+  "slug": "fermenting-lager-style-beer-without-a-fridge",
+  "h1": "Fermenting a lager-style beer without a fridge in a warm country",
+  "cat": "Brewing science",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "brewery-water-from-desalination",
+   "beer-cold-chain-in-hot-countries",
+   "dissolved-oxygen-and-shelf-life-in-warm-markets"
+  ]
+ },
+ {
+  "slug": "choosing-yeast-for-a-warm-room",
+  "h1": "Choosing yeast for a warm room you cannot cool",
+  "cat": "Ingredients",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "sorghum-and-cassava-in-commercial-brewing",
+   "importing-malt-for-a-small-brewery",
+   "hop-freshness-across-long-supply-chains"
+  ]
+ },
+ {
+  "slug": "homebrewing-in-a-small-apartment",
+  "h1": "Homebrewing in a small apartment: a small-batch setup that works",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "bottle-conditioning-in-hot-weather",
+   "scaling-a-homebrew-recipe",
+   "brewing-a-clean-pale-ale-in-warm-weather"
+  ]
+ },
+ {
+  "slug": "buying-homebrew-ingredients-with-no-shop-nearby",
+  "h1": "Buying homebrew ingredients when there is no shop nearby",
+  "cat": "Ingredients",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "hop-freshness-across-long-supply-chains",
+   "choosing-yeast-for-a-warm-room",
+   "storing-hops-in-hot-weather"
+  ]
+ },
+ {
+  "slug": "storing-hops-in-hot-weather",
+  "h1": "Storing hops in hot weather so they keep their aroma",
+  "cat": "Ingredients",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "choosing-yeast-for-a-warm-room",
+   "buying-homebrew-ingredients-with-no-shop-nearby",
+   "brewing-with-local-adjuncts"
+  ]
+ },
+ {
+  "slug": "brewing-with-local-adjuncts",
+  "h1": "Brewing with local adjuncts: rice, sorghum, cassava and maize",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "buying-homebrew-ingredients-with-no-shop-nearby",
+   "storing-hops-in-hot-weather",
+   "brewing-with-sorghum"
+  ]
+ },
+ {
+  "slug": "brewing-with-sorghum",
+  "h1": "Brewing with sorghum: a gluten-free grain with African roots",
+  "cat": "Ingredients",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "storing-hops-in-hot-weather",
+   "brewing-with-local-adjuncts",
+   "reviving-liquid-yeast-that-arrived-warm"
+  ]
+ },
+ {
+  "slug": "brewing-with-tropical-fruit",
+  "h1": "Brewing with tropical fruit: mango, passion fruit and pineapple",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "homebrewing-in-a-hot-climate",
+   "homebrewing-in-the-humid-tropics",
+   "homebrewing-in-a-small-apartment"
+  ]
+ },
+ {
+  "slug": "converting-brewing-recipes-metric-and-us-units",
+  "h1": "Converting brewing recipes between metric and US units",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "homebrewing-in-the-humid-tropics",
+   "homebrewing-in-a-small-apartment",
+   "brewing-with-tropical-fruit"
+  ]
+ },
+ {
+  "slug": "homebrewing-in-singapore-and-malaysia",
+  "h1": "Homebrewing in Singapore and Malaysia: heat, humidity and ingredients",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "homebrewing-in-a-small-apartment",
+   "brewing-with-tropical-fruit",
+   "converting-brewing-recipes-metric-and-us-units"
+  ]
+ },
+ {
+  "slug": "learning-to-brew-online-from-anywhere",
+  "h1": "Learning to brew online from anywhere: what a live course gives you",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "decision",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "brewing-with-tropical-fruit",
+   "converting-brewing-recipes-metric-and-us-units",
+   "homebrewing-in-singapore-and-malaysia"
+  ]
+ },
+ {
+  "slug": "bottle-conditioning-in-hot-weather",
+  "h1": "Bottle conditioning in hot weather without gushers",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "converting-brewing-recipes-metric-and-us-units",
+   "homebrewing-in-singapore-and-malaysia",
+   "learning-to-brew-online-from-anywhere"
+  ]
+ },
+ {
+  "slug": "reading-your-city-water-report-for-brewing",
+  "h1": "Reading your city water report for brewing, wherever you live",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "beer-cold-chain-in-hot-countries",
+   "dissolved-oxygen-and-shelf-life-in-warm-markets",
+   "rice-in-the-brewhouse-cereal-cooking"
+  ]
+ },
+ {
+  "slug": "scaling-a-homebrew-recipe",
+  "h1": "Scaling a homebrew recipe up or down without changing the beer",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "learning-to-brew-online-from-anywhere",
+   "bottle-conditioning-in-hot-weather",
+   "brewing-a-clean-pale-ale-in-warm-weather"
+  ]
+ },
+ {
+  "slug": "brewing-a-clean-pale-ale-in-warm-weather",
+  "h1": "Brewing a clean pale ale in warm weather",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "bottle-conditioning-in-hot-weather",
+   "scaling-a-homebrew-recipe",
+   "brew-day-with-power-cuts"
+  ]
+ },
+ {
+  "slug": "brew-day-with-power-cuts",
+  "h1": "Planning a brew day around power cuts and unreliable gas",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "scaling-a-homebrew-recipe",
+   "brewing-a-clean-pale-ale-in-warm-weather",
+   "designing-your-first-beer-recipe"
+  ]
+ },
+ {
+  "slug": "reviving-liquid-yeast-that-arrived-warm",
+  "h1": "Liquid yeast that arrived warm: what to do before you pitch",
+  "cat": "Ingredients",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "brewing-with-sorghum",
+   "sorghum-and-cassava-in-commercial-brewing",
+   "importing-malt-for-a-small-brewery"
+  ]
+ },
+ {
+  "slug": "designing-your-first-beer-recipe",
+  "h1": "Designing your first beer recipe with a simple spreadsheet",
+  "cat": "Brewing basics",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Homebrewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "brew-day-with-power-cuts",
+   "homebrewing-in-a-hot-climate",
+   "homebrewing-in-the-humid-tropics"
+  ]
+ },
+ {
+  "slug": "glycol-cooling-for-breweries-in-the-tropics",
+  "h1": "Sizing glycol cooling for a brewery in the tropics",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "brewing-beer-at-high-altitude",
+   "homebrewing-with-desalinated-water",
+   "fermenting-lager-style-beer-without-a-fridge"
+  ]
+ },
+ {
+  "slug": "brewery-water-from-desalination",
+  "h1": "Brewery water from desalination: remineralising for beer",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "homebrewing-with-desalinated-water",
+   "fermenting-lager-style-beer-without-a-fridge",
+   "reading-your-city-water-report-for-brewing"
+  ]
+ },
+ {
+  "slug": "beer-cold-chain-in-hot-countries",
+  "h1": "Protecting beer through a hot-country cold chain",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "fermenting-lager-style-beer-without-a-fridge",
+   "reading-your-city-water-report-for-brewing",
+   "glycol-cooling-for-breweries-in-the-tropics"
+  ]
+ },
+ {
+  "slug": "dissolved-oxygen-and-shelf-life-in-warm-markets",
+  "h1": "Dissolved oxygen and shelf life in warm markets",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "reading-your-city-water-report-for-brewing",
+   "glycol-cooling-for-breweries-in-the-tropics",
+   "brewery-water-from-desalination"
+  ]
+ },
+ {
+  "slug": "designing-a-lager-for-hot-countries",
+  "h1": "Designing a lager for drinkers in hot countries",
+  "cat": "Styles",
+  "course": "style-specialization-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "asian-rice-lagers-explained",
+   "non-alcoholic-beer-styles-explained",
+   "beginners-map-of-world-beer-styles"
+  ]
+ },
+ {
+  "slug": "sorghum-and-cassava-in-commercial-brewing",
+  "h1": "Sorghum and cassava in commercial brewing: what changes in the brewhouse",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "brewing-with-local-adjuncts",
+   "brewing-with-sorghum",
+   "reviving-liquid-yeast-that-arrived-warm"
+  ]
+ },
+ {
+  "slug": "rice-in-the-brewhouse-cereal-cooking",
+  "h1": "Rice in the brewhouse: cereal cooking and mash schedules",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "beer-cold-chain-in-hot-countries",
+   "dissolved-oxygen-and-shelf-life-in-warm-markets",
+   "non-alcoholic-beer-where-alcohol-is-restricted"
+  ]
+ },
+ {
+  "slug": "non-alcoholic-beer-where-alcohol-is-restricted",
+  "h1": "Non-alcoholic beer for markets where alcohol is restricted",
+  "cat": "Brewing science",
+  "course": "non-alcoholic-beer-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "dissolved-oxygen-and-shelf-life-in-warm-markets",
+   "rice-in-the-brewhouse-cereal-cooking",
+   "yeast-health-in-a-hot-brewery"
+  ]
+ },
+ {
+  "slug": "importing-malt-for-a-small-brewery",
+  "h1": "Importing malt for a small brewery: lead times, storage and moisture",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "sorghum-and-cassava-in-commercial-brewing",
+   "hop-freshness-across-long-supply-chains",
+   "choosing-yeast-for-a-warm-room"
+  ]
+ },
+ {
+  "slug": "hop-freshness-across-long-supply-chains",
+  "h1": "Hop freshness across long supply chains",
+  "cat": "Ingredients",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "importing-malt-for-a-small-brewery",
+   "choosing-yeast-for-a-warm-room",
+   "buying-homebrew-ingredients-with-no-shop-nearby"
+  ]
+ },
+ {
+  "slug": "yeast-health-in-a-hot-brewery",
+  "h1": "Managing yeast health in a hot brewery",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "cleaning-in-place-with-hard-water",
+   "brewing-beer-at-high-altitude",
+   "homebrewing-with-desalinated-water"
+  ]
+ },
+ {
+  "slug": "cleaning-in-place-with-hard-water",
+  "h1": "Cleaning in place with hard water: scale, caustic and acid",
+  "cat": "Brewing science",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "brewing-beer-at-high-altitude",
+   "homebrewing-with-desalinated-water",
+   "fermenting-lager-style-beer-without-a-fridge"
+  ]
+ },
+ {
+  "slug": "cutting-energy-use-in-a-small-brewery",
+  "h1": "Cutting energy use in a small brewery",
+  "cat": "Business",
+  "course": "esg-in-craft-brewing-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "pricing-a-pint-in-a-brewpub",
+   "choosing-a-brewery-site",
+   "writing-a-head-brewer-job-description"
+  ]
+ },
+ {
+  "slug": "water-use-per-litre-of-beer",
+  "h1": "Water use per litre of beer: measuring it and bringing it down",
+  "cat": "Business",
+  "course": "esg-in-craft-brewing-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "choosing-a-brewery-site",
+   "writing-a-head-brewer-job-description",
+   "what-investors-ask-a-brewery-founder"
+  ]
+ },
+ {
+  "slug": "upskilling-a-brewery-team-online",
+  "h1": "Upskilling a brewery team with live online classes",
+  "cat": "Careers",
+  "course": "advanced-brewing-science-course.html",
+  "segment": "Professional brewers",
+  "stage": "decision",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "working-as-a-brewer-abroad",
+   "learning-to-brew-while-working-full-time",
+   "working-in-beer-sales"
+  ]
+ },
+ {
+  "slug": "beer-qualifications-compared-bjcp-wset-cicerone",
+  "h1": "BJCP, WSET and Cicerone: beer qualifications compared",
+  "cat": "Careers",
+  "course": "wset-beer-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "learning-to-brew-while-working-full-time",
+   "working-in-beer-sales",
+   "careers-in-non-alcoholic-drinks"
+  ]
+ },
+ {
+  "slug": "logging-brewery-data-you-will-use",
+  "h1": "Logging brewery data you will actually use",
+  "cat": "Business",
+  "course": "power-bi-and-tableau-for-breweries-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "selling-craft-beer-to-hotels-and-restaurants",
+   "learn-the-brewery-business-before-you-sign-a-lease",
+   "cutting-energy-use-in-a-small-brewery"
+  ]
+ },
+ {
+  "slug": "forecasting-demand-for-a-small-brewery",
+  "h1": "Forecasting beer demand for a small brewery",
+  "cat": "Business",
+  "course": "power-bi-and-tableau-for-breweries-course.html",
+  "segment": "Professional brewers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "learn-the-brewery-business-before-you-sign-a-lease",
+   "cutting-energy-use-in-a-small-brewery",
+   "water-use-per-litre-of-beer"
+  ]
+ },
+ {
+  "slug": "opening-a-brewpub-in-a-new-country",
+  "h1": "Opening a brewpub in a country you did not grow up in",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "cutting-energy-use-in-a-small-brewery",
+   "water-use-per-litre-of-beer",
+   "logging-brewery-data-you-will-use"
+  ]
+ },
+ {
+  "slug": "starting-a-brewpub-in-southeast-asia",
+  "h1": "Starting a brewpub in Southeast Asia: what founders plan for",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "water-use-per-litre-of-beer",
+   "logging-brewery-data-you-will-use",
+   "forecasting-demand-for-a-small-brewery"
+  ]
+ },
+ {
+  "slug": "brewpub-or-production-brewery",
+  "h1": "Brewpub or production brewery: choosing your model",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "logging-brewery-data-you-will-use",
+   "forecasting-demand-for-a-small-brewery",
+   "opening-a-brewpub-in-a-new-country"
+  ]
+ },
+ {
+  "slug": "brewery-licensing-steps-most-countries-share",
+  "h1": "Brewery licensing: the steps most countries share",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "forecasting-demand-for-a-small-brewery",
+   "opening-a-brewpub-in-a-new-country",
+   "starting-a-brewpub-in-southeast-asia"
+  ]
+ },
+ {
+  "slug": "microbrewery-start-up-costs-founders-forget",
+  "h1": "Microbrewery start-up costs: the lines founders forget",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "opening-a-brewpub-in-a-new-country",
+   "starting-a-brewpub-in-southeast-asia",
+   "brewpub-or-production-brewery"
+  ]
+ },
+ {
+  "slug": "starting-a-microbrewery-in-africa",
+  "h1": "Starting a microbrewery in Africa: grain, water and power",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "starting-a-brewpub-in-southeast-asia",
+   "brewpub-or-production-brewery",
+   "brewery-licensing-steps-most-countries-share"
+  ]
+ },
+ {
+  "slug": "importing-brewing-equipment",
+  "h1": "Importing brewing equipment: shipping, duties and installation",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "brewpub-or-production-brewery",
+   "brewery-licensing-steps-most-countries-share",
+   "microbrewery-start-up-costs-founders-forget"
+  ]
+ },
+ {
+  "slug": "starting-a-beer-brand-with-contract-brewing",
+  "h1": "Starting a beer brand with contract brewing",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "brewery-licensing-steps-most-countries-share",
+   "microbrewery-start-up-costs-founders-forget",
+   "starting-a-microbrewery-in-africa"
+  ]
+ },
+ {
+  "slug": "starting-a-non-alcoholic-beer-brand",
+  "h1": "Starting a non-alcoholic beer brand",
+  "cat": "Business",
+  "course": "non-alcoholic-beer-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "microbrewery-start-up-costs-founders-forget",
+   "starting-a-microbrewery-in-africa",
+   "importing-brewing-equipment"
+  ]
+ },
+ {
+  "slug": "starting-a-hard-seltzer-brand",
+  "h1": "Starting a hard seltzer brand: production and positioning",
+  "cat": "Business",
+  "course": "hard-seltzer-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "starting-a-microbrewery-in-africa",
+   "importing-brewing-equipment",
+   "starting-a-beer-brand-with-contract-brewing"
+  ]
+ },
+ {
+  "slug": "starting-a-kombucha-business",
+  "h1": "Starting a kombucha business: from kitchen to commercial",
+  "cat": "Business",
+  "course": "kombucha-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "importing-brewing-equipment",
+   "starting-a-beer-brand-with-contract-brewing",
+   "starting-a-non-alcoholic-beer-brand"
+  ]
+ },
+ {
+  "slug": "planning-a-craft-distillery-first-decisions",
+  "h1": "Planning a craft distillery: the first decisions",
+  "cat": "Whisky",
+  "course": "craft-distilling-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": []
+ },
+ {
+  "slug": "pricing-a-pint-in-a-brewpub",
+  "h1": "Pricing a pint in a brewpub: cost, margin and local habits",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "starting-a-non-alcoholic-beer-brand",
+   "starting-a-hard-seltzer-brand",
+   "starting-a-kombucha-business"
+  ]
+ },
+ {
+  "slug": "choosing-a-brewery-site",
+  "h1": "Choosing a brewery site: water, power, drains and neighbours",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "starting-a-hard-seltzer-brand",
+   "starting-a-kombucha-business",
+   "pricing-a-pint-in-a-brewpub"
+  ]
+ },
+ {
+  "slug": "writing-a-head-brewer-job-description",
+  "h1": "Writing a head brewer job description that attracts the right people",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "decision",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "starting-a-kombucha-business",
+   "pricing-a-pint-in-a-brewpub",
+   "choosing-a-brewery-site"
+  ]
+ },
+ {
+  "slug": "what-investors-ask-a-brewery-founder",
+  "h1": "What investors ask a brewery founder",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "decision",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "pricing-a-pint-in-a-brewpub",
+   "choosing-a-brewery-site",
+   "writing-a-head-brewer-job-description"
+  ]
+ },
+ {
+  "slug": "selling-craft-beer-to-hotels-and-restaurants",
+  "h1": "Selling craft beer to hotels and restaurants",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "choosing-a-brewery-site",
+   "writing-a-head-brewer-job-description",
+   "what-investors-ask-a-brewery-founder"
+  ]
+ },
+ {
+  "slug": "learn-the-brewery-business-before-you-sign-a-lease",
+  "h1": "Learning the brewery business before you sign a lease",
+  "cat": "Business",
+  "course": "brewery-business-management-course.html",
+  "segment": "Founders",
+  "stage": "decision",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "writing-a-head-brewer-job-description",
+   "what-investors-ask-a-brewery-founder",
+   "selling-craft-beer-to-hotels-and-restaurants"
+  ]
+ },
+ {
+  "slug": "launching-a-beer-brand-in-a-new-market",
+  "h1": "Launching a beer brand in a new market",
+  "cat": "Branding",
+  "course": "brand-strategy-and-positioning-for-breweries-course.html",
+  "segment": "Brand builders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "naming-a-beer-for-more-than-one-language",
+   "protecting-a-beer-name-in-more-than-one-country",
+   "can-or-bottle-for-hot-markets"
+  ]
+ },
+ {
+  "slug": "what-a-beer-label-must-show",
+  "h1": "What a beer label must show: the rules most markets share",
+  "cat": "Branding",
+  "course": "beer-branding-packaging-course.html",
+  "segment": "Brand builders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "protecting-a-beer-name-in-more-than-one-country",
+   "can-or-bottle-for-hot-markets",
+   "marketing-non-alcoholic-beer-in-the-gulf"
+  ]
+ },
+ {
+  "slug": "marketing-beer-where-alcohol-ads-are-restricted",
+  "h1": "Marketing beer where alcohol advertising is restricted",
+  "cat": "Branding",
+  "course": "digital-marketing-for-breweries-course.html",
+  "segment": "Brand builders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "can-or-bottle-for-hot-markets",
+   "marketing-non-alcoholic-beer-in-the-gulf",
+   "brewery-brand-that-tourists-remember"
+  ]
+ },
+ {
+  "slug": "instagram-for-breweries",
+  "h1": "Instagram for breweries: what to post and how often",
+  "cat": "Branding",
+  "course": "digital-marketing-for-breweries-course.html",
+  "segment": "Brand builders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "marketing-non-alcoholic-beer-in-the-gulf",
+   "brewery-brand-that-tourists-remember",
+   "launching-a-beer-brand-in-a-new-market"
+  ]
+ },
+ {
+  "slug": "brewery-website-that-brings-taproom-visits",
+  "h1": "A brewery website that brings people to the taproom",
+  "cat": "Branding",
+  "course": "digital-marketing-for-breweries-course.html",
+  "segment": "Brand builders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "brewery-brand-that-tourists-remember",
+   "launching-a-beer-brand-in-a-new-market",
+   "what-a-beer-label-must-show"
+  ]
+ },
+ {
+  "slug": "naming-a-beer-for-more-than-one-language",
+  "h1": "Naming a beer that works in more than one language",
+  "cat": "Branding",
+  "course": "naming-and-trademarks-for-drinks-brands-course.html",
+  "segment": "Brand builders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "launching-a-beer-brand-in-a-new-market",
+   "what-a-beer-label-must-show",
+   "marketing-beer-where-alcohol-ads-are-restricted"
+  ]
+ },
+ {
+  "slug": "protecting-a-beer-name-in-more-than-one-country",
+  "h1": "Protecting a beer name in more than one country",
+  "cat": "Branding",
+  "course": "naming-and-trademarks-for-drinks-brands-course.html",
+  "segment": "Brand builders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "what-a-beer-label-must-show",
+   "marketing-beer-where-alcohol-ads-are-restricted",
+   "instagram-for-breweries"
+  ]
+ },
+ {
+  "slug": "can-or-bottle-for-hot-markets",
+  "h1": "Can or bottle for hot markets",
+  "cat": "Branding",
+  "course": "beer-branding-packaging-course.html",
+  "segment": "Brand builders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "marketing-beer-where-alcohol-ads-are-restricted",
+   "instagram-for-breweries",
+   "brewery-website-that-brings-taproom-visits"
+  ]
+ },
+ {
+  "slug": "marketing-non-alcoholic-beer-in-the-gulf",
+  "h1": "Marketing non-alcoholic beer in the Gulf",
+  "cat": "Branding",
+  "course": "digital-marketing-for-breweries-course.html",
+  "segment": "Brand builders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "instagram-for-breweries",
+   "brewery-website-that-brings-taproom-visits",
+   "naming-a-beer-for-more-than-one-language"
+  ]
+ },
+ {
+  "slug": "brewery-brand-that-tourists-remember",
+  "h1": "Building a brewery brand that tourists remember",
+  "cat": "Branding",
+  "course": "taproom-marketing-and-community-course.html",
+  "segment": "Brand builders",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "brewery-website-that-brings-taproom-visits",
+   "naming-a-beer-for-more-than-one-language",
+   "protecting-a-beer-name-in-more-than-one-country"
+  ]
+ },
+ {
+  "slug": "become-a-brewer-without-a-brewing-degree",
+  "h1": "How to become a brewer without a brewing degree",
+  "cat": "Careers",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Career changers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "changing-career-to-brewing-in-your-30s-or-40s",
+   "working-as-a-brewer-abroad",
+   "learning-to-brew-while-working-full-time"
+  ]
+ },
+ {
+  "slug": "changing-career-to-brewing-in-your-30s-or-40s",
+  "h1": "Changing career to brewing in your 30s or 40s",
+  "cat": "Careers",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Career changers",
+  "stage": "decision",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "working-as-a-brewer-abroad",
+   "learning-to-brew-while-working-full-time",
+   "working-in-beer-sales"
+  ]
+ },
+ {
+  "slug": "working-as-a-brewer-abroad",
+  "h1": "Working as a brewer abroad: the skills that travel",
+  "cat": "Careers",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Career changers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "learning-to-brew-while-working-full-time",
+   "working-in-beer-sales",
+   "careers-in-non-alcoholic-drinks"
+  ]
+ },
+ {
+  "slug": "learning-to-brew-while-working-full-time",
+  "h1": "Learning to brew while working full time",
+  "cat": "Careers",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Career changers",
+  "stage": "decision",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "working-in-beer-sales",
+   "careers-in-non-alcoholic-drinks",
+   "homebrewer-to-assistant-brewer-first-year-plan"
+  ]
+ },
+ {
+  "slug": "working-in-beer-sales",
+  "h1": "Working in beer sales: what the job involves",
+  "cat": "Careers",
+  "course": "brewery-business-management-course.html",
+  "segment": "Career changers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "careers-in-non-alcoholic-drinks",
+   "homebrewer-to-assistant-brewer-first-year-plan",
+   "becoming-a-beer-judge"
+  ]
+ },
+ {
+  "slug": "careers-in-non-alcoholic-drinks",
+  "h1": "Careers in non-alcoholic and low-alcohol drinks",
+  "cat": "Careers",
+  "course": "non-alcoholic-beer-course.html",
+  "segment": "Career changers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "homebrewer-to-assistant-brewer-first-year-plan",
+   "becoming-a-beer-judge",
+   "starting-in-a-taproom-to-learn-the-trade"
+  ]
+ },
+ {
+  "slug": "homebrewer-to-assistant-brewer-first-year-plan",
+  "h1": "From homebrewer to assistant brewer: a first-year plan",
+  "cat": "Careers",
+  "course": "brewing-fundamentals-course.html",
+  "segment": "Career changers",
+  "stage": "decision",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "becoming-a-beer-judge",
+   "starting-in-a-taproom-to-learn-the-trade",
+   "working-in-brewery-supply-chain-and-planning"
+  ]
+ },
+ {
+  "slug": "becoming-a-beer-judge",
+  "h1": "Becoming a beer judge: training and practice",
+  "cat": "Careers",
+  "course": "sensory-evaluation-course.html",
+  "segment": "Career changers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "starting-in-a-taproom-to-learn-the-trade",
+   "working-in-brewery-supply-chain-and-planning",
+   "upskilling-a-brewery-team-online"
+  ]
+ },
+ {
+  "slug": "starting-in-a-taproom-to-learn-the-trade",
+  "h1": "Starting in a taproom to learn the beer trade",
+  "cat": "Careers",
+  "course": "wset-beer-course.html",
+  "segment": "Career changers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "working-in-brewery-supply-chain-and-planning",
+   "upskilling-a-brewery-team-online",
+   "beer-qualifications-compared-bjcp-wset-cicerone"
+  ]
+ },
+ {
+  "slug": "working-in-brewery-supply-chain-and-planning",
+  "h1": "Working in brewery supply chain and planning",
+  "cat": "Careers",
+  "course": "brewery-business-management-course.html",
+  "segment": "Career changers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "upskilling-a-brewery-team-online",
+   "beer-qualifications-compared-bjcp-wset-cicerone",
+   "become-a-brewer-without-a-brewing-degree"
+  ]
+ },
+ {
+  "slug": "tasting-beer-in-hot-weather",
+  "h1": "Tasting beer in hot weather: serving temperature and glassware",
+  "cat": "Tasting",
+  "course": "sensory-evaluation-course.html",
+  "segment": "Beer lovers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "learning-about-beer-online-where-to-start",
+   "getting-the-most-out-of-a-beer-festival",
+   "pairing-beer-with-southeast-asian-food"
+  ]
+ },
+ {
+  "slug": "beginners-map-of-world-beer-styles",
+  "h1": "A beginner's map of world beer styles",
+  "cat": "Styles",
+  "course": "beer-for-starters-online-course.html",
+  "segment": "Beer lovers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "non-alcoholic-beer-styles-explained",
+   "designing-a-lager-for-hot-countries",
+   "traditional-african-beers"
+  ]
+ },
+ {
+  "slug": "pairing-beer-with-southeast-asian-food",
+  "h1": "Pairing beer with Southeast Asian food",
+  "cat": "Tasting",
+  "course": "sensory-evaluation-course.html",
+  "segment": "Beer lovers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "tasting-beer-in-hot-weather",
+   "pairing-beer-with-middle-eastern-food",
+   "pairing-beer-with-west-african-food"
+  ]
+ },
+ {
+  "slug": "pairing-beer-with-middle-eastern-food",
+  "h1": "Pairing beer and non-alcoholic beer with Middle Eastern food",
+  "cat": "Tasting",
+  "course": "sensory-evaluation-course.html",
+  "segment": "Beer lovers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "pairing-beer-with-southeast-asian-food",
+   "pairing-beer-with-west-african-food",
+   "learning-about-beer-online-where-to-start"
+  ]
+ },
+ {
+  "slug": "pairing-beer-with-west-african-food",
+  "h1": "Pairing beer with West African food",
+  "cat": "Tasting",
+  "course": "sensory-evaluation-course.html",
+  "segment": "Beer lovers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "pairing-beer-with-middle-eastern-food",
+   "learning-about-beer-online-where-to-start",
+   "getting-the-most-out-of-a-beer-festival"
+  ]
+ },
+ {
+  "slug": "traditional-african-beers",
+  "h1": "Traditional African beers: sorghum, millet and banana",
+  "cat": "Styles",
+  "course": "beer-for-starters-online-course.html",
+  "segment": "Beer lovers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "non-alcoholic-beer-styles-explained",
+   "designing-a-lager-for-hot-countries",
+   "beginners-map-of-world-beer-styles"
+  ]
+ },
+ {
+  "slug": "asian-rice-lagers-explained",
+  "h1": "Asian rice lagers explained",
+  "cat": "Styles",
+  "course": "beer-for-starters-online-course.html",
+  "segment": "Beer lovers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "designing-a-lager-for-hot-countries",
+   "beginners-map-of-world-beer-styles",
+   "traditional-african-beers"
+  ]
+ },
+ {
+  "slug": "non-alcoholic-beer-styles-explained",
+  "h1": "Non-alcoholic beer styles explained: from lager to IPA",
+  "cat": "Styles",
+  "course": "non-alcoholic-beer-course.html",
+  "segment": "Beer lovers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "beginners-map-of-world-beer-styles",
+   "traditional-african-beers",
+   "asian-rice-lagers-explained"
+  ]
+ },
+ {
+  "slug": "learning-about-beer-online-where-to-start",
+  "h1": "Learning about beer online: where a beginner should start",
+  "cat": "Tasting",
+  "course": "beer-for-starters-online-course.html",
+  "segment": "Beer lovers",
+  "stage": "decision",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "pairing-beer-with-southeast-asian-food",
+   "pairing-beer-with-middle-eastern-food",
+   "pairing-beer-with-west-african-food"
+  ]
+ },
+ {
+  "slug": "getting-the-most-out-of-a-beer-festival",
+  "h1": "Getting the most out of a beer festival",
+  "cat": "Tasting",
+  "course": "sensory-evaluation-course.html",
+  "segment": "Beer lovers",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "pairing-beer-with-middle-eastern-food",
+   "pairing-beer-with-west-african-food",
+   "learning-about-beer-online-where-to-start"
+  ]
+ },
+ {
+  "slug": "how-remote-brewery-consultancy-works",
+  "h1": "How remote brewery consultancy works",
+  "cat": "Consultancy",
+  "course": "contact.html?course=Brewery%20consultancy#enroll",
+  "segment": "Drinks producers",
+  "stage": "decision",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "by": "mentor-ankur-napa.html",
+  "related": [
+   "remote-quality-audit-for-a-brewery",
+   "adding-non-alcoholic-beer-to-a-brewery",
+   "troubleshooting-beer-faults-over-video-call"
+  ]
+ },
+ {
+  "slug": "troubleshooting-beer-faults-over-video-call",
+  "h1": "Troubleshooting beer faults over a video call",
+  "cat": "Consultancy",
+  "course": "contact.html?course=Brewery%20consultancy#enroll",
+  "segment": "Drinks producers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "by": "mentor-rahul-baliyan.html",
+  "related": [
+   "adding-non-alcoholic-beer-to-a-brewery",
+   "how-remote-brewery-consultancy-works",
+   "commissioning-a-brewhouse-with-an-overseas-supplier"
+  ]
+ },
+ {
+  "slug": "commissioning-a-brewhouse-with-an-overseas-supplier",
+  "h1": "Commissioning a brewhouse when the supplier is overseas",
+  "cat": "Consultancy",
+  "course": "contact.html?course=Brewery%20consultancy#enroll",
+  "segment": "Drinks producers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "by": "mentor-rahul-baliyan.html",
+  "related": [
+   "how-remote-brewery-consultancy-works",
+   "troubleshooting-beer-faults-over-video-call",
+   "developing-a-core-range-for-a-new-market"
+  ]
+ },
+ {
+  "slug": "developing-a-core-range-for-a-new-market",
+  "h1": "Developing a core beer range for a new market",
+  "cat": "Consultancy",
+  "course": "contact.html?course=Brewery%20consultancy#enroll",
+  "segment": "Drinks producers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "by": "mentor-rahul-baliyan.html",
+  "related": [
+   "troubleshooting-beer-faults-over-video-call",
+   "commissioning-a-brewhouse-with-an-overseas-supplier",
+   "one-page-dashboard-for-brewery-owners"
+  ]
+ },
+ {
+  "slug": "one-page-dashboard-for-brewery-owners",
+  "h1": "A one-page dashboard for brewery owners",
+  "cat": "Consultancy",
+  "course": "contact.html?course=Brewery%20consultancy#enroll",
+  "segment": "Drinks producers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "by": "mentor-ankur-napa.html",
+  "related": [
+   "commissioning-a-brewhouse-with-an-overseas-supplier",
+   "developing-a-core-range-for-a-new-market",
+   "remote-quality-audit-for-a-brewery"
+  ]
+ },
+ {
+  "slug": "remote-quality-audit-for-a-brewery",
+  "h1": "A remote quality audit for a brewery: what we review",
+  "cat": "Consultancy",
+  "course": "contact.html?course=Brewery%20consultancy#enroll",
+  "segment": "Drinks producers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "by": "mentor-ankur-napa.html",
+  "related": [
+   "developing-a-core-range-for-a-new-market",
+   "one-page-dashboard-for-brewery-owners",
+   "adding-non-alcoholic-beer-to-a-brewery"
+  ]
+ },
+ {
+  "slug": "adding-non-alcoholic-beer-to-a-brewery",
+  "h1": "Adding a non-alcoholic beer to an existing brewery",
+  "cat": "Consultancy",
+  "course": "contact.html?course=Brewery%20consultancy#enroll",
+  "segment": "Drinks producers",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "by": "mentor-ankur-napa.html",
+  "related": [
+   "one-page-dashboard-for-brewery-owners",
+   "remote-quality-audit-for-a-brewery",
+   "how-remote-brewery-consultancy-works"
+  ]
+ },
+ {
+  "slug": "beverage-training-for-global-drinks-teams",
+  "h1": "Beverage training for global drinks company teams",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "segment": "Corporate teams",
+  "stage": "decision",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "explaining-brewery-kpis-to-non-brewers",
+   "beer-basics-for-shared-service-teams",
+   "sensory-training-for-drinks-sales-teams"
+  ]
+ },
+ {
+  "slug": "beer-basics-for-shared-service-teams",
+  "h1": "Beer basics for shared service and GCC teams",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "segment": "Corporate teams",
+  "stage": "awareness",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "beverage-training-for-global-drinks-teams",
+   "sensory-training-for-drinks-sales-teams",
+   "beer-knowledge-for-drinks-marketing-teams"
+  ]
+ },
+ {
+  "slug": "sensory-training-for-drinks-sales-teams",
+  "h1": "Sensory training for drinks sales teams",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "beer-basics-for-shared-service-teams",
+   "beer-knowledge-for-drinks-marketing-teams",
+   "explaining-brewery-kpis-to-non-brewers"
+  ]
+ },
+ {
+  "slug": "beer-knowledge-for-drinks-marketing-teams",
+  "h1": "Beer knowledge for drinks marketing teams",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "sensory-training-for-drinks-sales-teams",
+   "explaining-brewery-kpis-to-non-brewers",
+   "beverage-training-for-global-drinks-teams"
+  ]
+ },
+ {
+  "slug": "explaining-brewery-kpis-to-non-brewers",
+  "h1": "Explaining brewery KPIs to colleagues who never brewed",
+  "cat": "Beer for teams",
+  "course": "contact.html?course=Corporate%20training#enroll",
+  "segment": "Corporate teams",
+  "stage": "consideration",
+  "batch": "global-1",
+  "date": "2026-10-31",
+  "related": [
+   "beer-knowledge-for-drinks-marketing-teams",
+   "beverage-training-for-global-drinks-teams",
+   "beer-basics-for-shared-service-teams"
+  ]
  }
 ]

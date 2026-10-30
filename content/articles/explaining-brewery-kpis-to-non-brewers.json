@@ -1,0 +1,71 @@
+{
+ "slug": "explaining-brewery-kpis-to-non-brewers",
+ "cat": "Beer for teams",
+ "h1": "Explaining brewery KPIs to colleagues who never brewed",
+ "title": "Explaining brewery KPIs to non-brewers | Craft Beer School",
+ "desc": "Plain-language meanings of brewhouse efficiency, yield, packaging loss, OEE, days of stock and right-first-time for finance, planning and analyst teams.",
+ "teaser": "The numbers in a brewery report each describe something physical. Once you can picture it, the number makes sense.",
+ "standfirst": "Finance, planning and analytics colleagues see brewery KPIs on dashboards every week. This guide explains what each number measures on the floor and what moves it.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Brewhouse efficiency",
+   "<p>Grain contains a certain amount of extract, the sugar and soluble material that can be washed out. Brewhouse efficiency is the share of that theoretical extract that actually ends up in the wort. If it falls, the brewery uses more malt for the same beer, so cost rises. Causes include a coarse crush, poor lautering, a short sparge or equipment wear. It does not mean the beer is worse.</p>\n<p>Think of a household budget. Brewhouse efficiency is a bit like the share of a grocery bag that ends up on the plate. The rest is peel, packaging and waste. Some of it can be reduced.</p>"
+  ],
+  [
+   "Yield and packaging loss",
+   "<p>Yield compares the beer you can sell with what the raw materials should produce. Loss happens at several points: wort left behind, yeast and trub at the tank bottom, beer in lines, rejected cans and foam at the filler. Packaging loss is usually reported separately, as a percentage of beer moved from tank to pack. A rise of one or two points can be a worn seal or a changeover habit. In finance terms, each lost hectolitre carries its full ingredient and energy cost.</p>\n<p>Yield figures also depend on how a brewery counts. Some count from the start of the boil, others from the knock-out into the fermenter. Ask for the definition before comparing sites.</p>\n<p>Beer that is dumped for quality reasons is a different kind of loss. It is sunk cost with no revenue, so quality problems are often the most expensive losses in the plant.</p>"
+  ],
+  [
+   "OEE: overall equipment effectiveness",
+   "<p>OEE is availability multiplied by performance multiplied by quality. Availability is the share of planned time the line is running. Performance is the speed compared to its rated speed. Quality is the share of output that is good. A packaging line at 90 per cent availability, 85 per cent speed and 98 per cent good output has an OEE of about 75 per cent. It shows where capacity hides: stops, slow running or rejects.</p>\n<p>A good OEE depends on the line and the product, so avoid comparing a canning line with a keg line. Look at the trend and the biggest loss category first.</p>"
+  ],
+  [
+   "Days of stock and forecast accuracy",
+   "<p>Days of stock is finished beer on hand divided by average daily sales. Because beer cannot be made on the day it is ordered, a brewery needs cover. Too much stock risks stale beer, since freshness matters. Too little risks stockouts in peak weeks. Forecast accuracy matters because tanks are filled weeks before sale. Our <a href=\"beer-basics-for-shared-service-teams.html\">beer basics for shared service teams</a> explains why.</p>\n<p>Safety stock is the extra beer kept for surprises, such as a hot weekend or a delayed delivery. It trades off against freshness, so the right level differs by product.</p>\n<p>A sudden jump in orders is where the stock number earns its keep. If cover is five days and the order jumps by half, the brewery cannot make more beer that week, because fermentation takes the time it takes.</p>"
+  ],
+  [
+   "Right first time and quality holds",
+   "<p>Right first time is the share of batches that pass quality checks without rework or a hold. A batch that fails a test may be blended, filtered again or dumped. Each outcome has a cost and a delay, so a falling right-first-time rate usually shows up later as a supply gap.</p>\n<p>Trend lines tell more than single results. A single failed batch is bad luck. Three in a row is a process problem.</p>"
+  ],
+  [
+   "Cost per hectolitre and why it moves",
+   "<p>Cost per hectolitre combines malt, hops, yeast, packaging, energy, water and labour. Volume matters because fixed costs spread over fewer hectolitres push the number up. Barley prices, aluminium prices and energy tariffs change it from outside. When it moves, ask which part moved before you ask who is at fault.</p>\n<p>Energy and water per hectolitre are worth a mention. Breweries use heat for boiling and cold for fermentation. Both are bought. A rising number can mean a leaking steam trap or a chiller working hard, so it often warns of equipment trouble.</p>"
+  ],
+  [
+   "Reading a dashboard with a brewer",
+   "<p>Ask what a number measures, what a normal range looks like for that plant and what the brewer would check first if it moved. Most healthy ranges differ by plant and by product, so do not import a target from a different site. A short session with a brewer, on a real dashboard, is faster than any glossary. Our programmes do this using your reports: see <a href=\"beverage-training-for-global-drinks-teams.html\">beverage training for global drinks teams</a>, or <a href=\"beer-knowledge-for-drinks-marketing-teams.html\">product knowledge for marketing</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is brewhouse efficiency?",
+   "The share of the grain's theoretical extract that reaches the wort. It affects how much malt a brewery needs per batch."
+  ],
+  [
+   "What is OEE?",
+   "Availability times performance times quality for a line. It shows how much of the line's capacity turns into good output."
+  ],
+  [
+   "Why does packaging loss matter?",
+   "Every hectolitre lost after brewing has already carried its full cost, so even a small percentage adds up."
+  ],
+  [
+   "Who should explain these KPIs to us?",
+   "A brewer or quality manager walking through your own dashboard, or a training programme built around your reports."
+  ]
+ ],
+ "cta": {
+  "title": "Stop guessing what the KPIs mean",
+  "body": "Beverage 101, Brewing and distilling operations and Data and AI in beverages are built around your team's own dashboards and portfolio. Sessions run live online or on site by arrangement.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Plan a programme"
+ },
+ "related": [
+  "beer-knowledge-for-drinks-marketing-teams",
+  "beverage-training-for-global-drinks-teams",
+  "beer-basics-for-shared-service-teams"
+ ]
+}

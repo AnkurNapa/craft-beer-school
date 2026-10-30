@@ -1,0 +1,67 @@
+{
+ "slug": "dissolved-oxygen-and-shelf-life-in-warm-markets",
+ "cat": "Brewing science",
+ "h1": "Dissolved oxygen and shelf life in warm markets",
+ "title": "Dissolved Oxygen in Warm Markets | Craft Beer School",
+ "desc": "Where oxygen gets into beer, what readings to aim for and how to cut it at transfer, filling and seaming. A guide for brewers selling into heat.",
+ "teaser": "Oxygen is a small number on a meter and a big problem on a shelf. In warm markets it matters twice as much.",
+ "standfirst": "A few parts per billion of oxygen at packaging can decide whether your beer is still good after six weeks at 30 °C. Here is where it gets in and how to keep it out.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why oxygen and heat compound",
+   "<p>After fermentation, oxygen is the enemy. It reacts with beer compounds and produces stale flavours: wet paper and cardboard in pale beers, sherry-like and dried fruit notes in stronger ones and loss of hop aroma in all of them. Heat speeds those reactions up. A beer with a small oxygen load can survive in a cold chain, but the same beer in a warm van and a warm shop will turn.</p><p>That is why brewers who sell into hot markets tend to be stricter about oxygen than brewers who ship cold. The tolerance is smaller.</p>"
+  ],
+  [
+   "The numbers brewers aim for",
+   "<p>Dissolved oxygen (DO) is measured in parts per billion (ppb, equal to micrograms per litre). Many packaging breweries aim for DO under 50 ppb in the packaged beer. Tighter targets, such as under 20 to 30 ppb, are common for hop-forward or long-life products. Total package oxygen (TPO) adds the oxygen in the headspace to the dissolved oxygen. A common aim for TPO is under 100 to 150 ppb, though targets differ by brewery and product. Treat these as ranges to set with your own sensory data, not as rules from a standard.</p><p>You can only manage what you measure, so a meter is not optional for a packaging brewery. An optical sensor in a flow cell on the bright tank outlet, or a handheld meter that samples from a filled can or bottle, both work. Take readings at the start of every run and again at intervals.</p>"
+  ],
+  [
+   "Where oxygen gets in",
+   "<p>Work backwards from the package.</p><ul><li><strong>Cans and bottles.</strong> Air in the container before filling. Purge with carbon dioxide first. After filling, foam the beer to push air out of the headspace (called fobbing or jetting) just before the lid goes on.</li><li><strong>Filler and seamer.</strong> Worn valves, leaking gaskets and poor seams let air in. Seam inspection with a teardown at set intervals catches this.</li><li><strong>Hoses and transfers.</strong> Splashing, loose fittings and half-empty lines introduce air. Fill hoses with deaerated water before beer goes through and push with CO2, not air.</li><li><strong>Dosing water.</strong> If you blend beer with water, it must be deaerated.</li><li><strong>The gas itself.</strong> Low-purity CO2 or nitrogen carries oxygen with it.</li></ul>"
+  ],
+  [
+   "A simple oxygen audit",
+   "<p>Measure DO at each step in turn: bright tank, after the transfer line, at the filler bowl, in the first filled package, after the seamer. The step where the number jumps is the step to fix. Do it before and after any change so you can show the improvement rather than assume it.</p><p>Expect the first audit to be humbling. Most small breweries find the biggest jumps at the transfer line and the filler. A tight fitting or a purged line can cut the number a long way for no cost beyond time. Keep the audit sheet and repeat it every few months, as seals wear.</p>"
+  ],
+  [
+   "Hops, yeast and the beer itself",
+   "<p>The beer can help defend itself. Yeast in suspension scavenges oxygen, which is one reason bottle conditioning and unfiltered beers can hold up well. Antioxidant compounds from malt and hops help to a degree. Hazy, hop-saturated beers are especially vulnerable and tend to fade quickly in warm conditions, so these styles need the strictest control. Very hoppy beers that pick up oxygen lose their fresh hop aroma and drift towards stale, tea-like notes. Keep hop dosing under a CO2 blanket and avoid dry hopping methods that bring in air.</p>"
+  ],
+  [
+   "Link it to the cold chain",
+   "<p>One sampling warning: air gets into a sample as easily as into the beer. Fill the sample container from the bottom, let it overflow and read quickly. Calibrate the sensor on the schedule the maker gives. A reading taken carelessly can show 100 ppb of oxygen that was never in the package. Chasing it wastes a week.</p><p>An oxygen programme without temperature control is half a job. Read our guide to the <a href=\"beer-cold-chain-in-hot-countries.html\">cold chain in hot countries</a> and set up forced-ageing tests: hold samples at the storage temperature your product sees and taste them over weeks. Then see how your DO numbers map to flavour. That gives you a target that is true for your beer, which is better than a number copied from a trade paper. For the surrounding chemistry, <a href=\"reading-your-city-water-report-for-brewing.html\">water quality</a> also affects how beer holds up, since poor water treatment can add metals that catalyse oxidation.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What dissolved oxygen should my packaged beer have?",
+   "Many breweries aim for under 50 ppb and under 20 to 30 ppb for hoppy or long-life beers. Set your own target by tasting aged samples."
+  ],
+  [
+   "What is total package oxygen?",
+   "It is the dissolved oxygen plus the oxygen in the headspace of the can or bottle, expressed as parts per billion in the beer. It is a better predictor of shelf life than DO alone."
+  ],
+  [
+   "Can I measure oxygen without an expensive meter?",
+   "Good measurement needs a proper sensor. Without one you can still cut oxygen with purging, tight fittings and jetting, but you will not know how much you removed."
+  ],
+  [
+   "Does pasteurisation remove oxygen?",
+   "No. The heat can speed up the effects of oxygen. Control oxygen before pasteurising."
+  ]
+ ],
+ "cta": {
+  "title": "Find the oxygen you did not know you had",
+  "body": "Packaging quality, oxygen audits and shelf-life testing are covered with worked examples. Advanced Brewing Science runs for 6 weeks, live online on Saturdays and Sundays from 12:00 PM to 2:00 PM India Standard Time (UTC+5:30). Students join from their own time zone and recordings cover a missed class. The fee is on the course page.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "reading-your-city-water-report-for-brewing",
+  "glycol-cooling-for-breweries-in-the-tropics",
+  "brewery-water-from-desalination"
+ ]
+}

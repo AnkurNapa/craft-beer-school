@@ -1,0 +1,75 @@
+{
+ "slug": "brewing-beer-at-high-altitude",
+ "cat": "Brewing science",
+ "h1": "Brewing beer at high altitude: boiling point, hops and evaporation",
+ "title": "Brewing Beer at High Altitude | Craft Beer School",
+ "desc": "Water boils at a lower temperature as you climb. What that does to hop bitterness, DMS, evaporation and carbonation and how to adjust.",
+ "teaser": "Boiling water is cooler in Nairobi or Denver than at the coast. That changes your wort in ways that are easy to fix once you know them.",
+ "standfirst": "Altitude lowers the boiling point of water and that touches almost every step on brew day. Here is what actually changes and what to do about it.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What altitude does to boiling water",
+   "<p>Water boils about 1 °C lower for every 300 m you go up. At 1,600 m, roughly the height of Denver, a pot boils at around 95 °C. In Nairobi, at about 1,800 m, it is nearer 94 °C. At sea level the figure is 100 °C.</p><p>A boil is still a boil, with bubbles and steam. But the wort is a few degrees cooler than the same pot at the coast and cooler wort does less chemistry in the same time.</p>"
+  ],
+  [
+   "Hop bitterness and DMS",
+   "<p>Alpha acids isomerise in the boil and the reaction is temperature dependent. A slightly cooler boil means slightly lower utilisation. In practice you may need a little more hops or a few extra minutes for the same bitterness. Rather than trusting a formula, brew, taste and measure, then adjust the next batch by a few grams.</p><p>The same cooler boil is slower to drive off dimethyl sulphide (DMS), the cooked sweetcorn character that comes from pale malt. Brewers at altitude often extend the boil by 10 to 15 minutes for pale beers and keep it vigorous and uncovered. Chill fast afterwards, since DMS re-forms in hot wort that sits.</p>"
+  ],
+  [
+   "Evaporation and volumes",
+   "<p>Dry air and a lower boiling point change your boil-off rate. Measure it rather than assuming. Boil a known volume of plain water for an hour, measure what is left and use that figure in your recipe software. Many altitude brewers find they lose more water than their old numbers suggested, which means a higher gravity and less beer than planned.</p>"
+  ],
+  [
+   "Calibrate your thermometer for your location",
+   "<p>A good habit anywhere: check your thermometer in a pot at a rolling boil and compare the reading with the expected boiling point for your altitude. At 1,800 m that is about 94 °C. If the thermometer reads 94 °C there, it is accurate and the altitude is doing its work. If it reads 96 °C, it reads 2 °C high, so subtract 2 from every reading in the brew.</p>"
+  ],
+  [
+   "Mashing and fermenting",
+   "<p>Mashing happens well below the boiling point, so mash temperatures are unaffected. The same 65 to 67 °C gives the same sugar profile as at sea level. Fermentation is also essentially unchanged, because yeast does not respond to the air pressure changes a homebrewer meets.</p><p>One practical thing does shift. Open pots lose heat faster in thin air that is also cooler, so a long mash in a thin pot may need a lid or a blanket.</p>"
+  ],
+  [
+   "Carbonation",
+   "<p>The pressure gauge on a keg regulator reads pressure relative to the air around it. At altitude the air is thinner, so to hold the same CO2 in the beer you need a little more gauge pressure than a chart written for sea level shows. Adjust up in small steps and taste. For bottles, priming sugar amounts are the same, because the CO2 comes from fermentation inside a sealed bottle.</p>"
+  ],
+  [
+   "A worked example",
+   "<p>Say a 20 L batch at 1,800 m boils at about 94 °C. Boil a known volume of water for an hour and measure the loss. If you find 4 L an hour, not 3, then to finish with 20 L you start the boil with 24 L, plus a litre or two for the kettle dead space and trub.</p><p>Next, extend the boil to 70 minutes for a pale ale. Keep the hop additions timed to the end of the boil as usual, so the extra ten minutes comes at the start, before the bittering charge goes in. Taste the finished beer. If it is thin in bitterness, add 10 per cent more bittering hops next time. If it tastes of sweetcorn, extend the boil again and chill faster.</p><p>Keep notes. After three batches you will have a table of your own numbers and they are worth more than any general rule.</p>"
+  ],
+  [
+   "Water and the next step",
+   "<p>Altitude does not change your water chemistry, but many high cities draw from snowmelt or deep wells and the water can be very soft or very hard. Read the report before you brew (see <a href=\"reading-your-city-water-report-for-brewing.html\">reading your city water report</a>). For a related problem, brewing without cold storage, see <a href=\"fermenting-lager-style-beer-without-a-fridge.html\">fermenting a lager-style beer without a fridge</a>.</p><p>Altitude is one more variable in a process already full of them. Understanding why each step does what it does makes the adjustments obvious.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Does altitude change beer fermentation?",
+   "Not meaningfully. Yeast does not care about air pressure at the levels homebrewers see. The changes come on the hot side: lower boiling point, extra evaporation and slower DMS removal."
+  ],
+  [
+   "Do I need more hops at altitude?",
+   "Often a little, because a cooler boil isomerises alpha acids slightly less. Adjust by tasting and by measurement over a couple of batches instead of using a fixed rule."
+  ],
+  [
+   "How long should I boil pale beer at altitude?",
+   "Many brewers extend the usual 60 minutes by 10 to 15 for pale malt beers, to drive off DMS. Keep the boil vigorous and the lid off."
+  ],
+  [
+   "Do I change priming sugar at altitude?",
+   "No. Bottle priming relies on CO2 made inside the sealed bottle. Kegs on a regulator may need a bit more gauge pressure."
+  ]
+ ],
+ "cta": {
+  "title": "Understand the brew day, not just the recipe",
+  "body": "Brewing Fundamentals is a 4-week live online course. It explains why each step of the brew day behaves as it does, so you can adjust for altitude, water or equipment with confidence.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "fermenting-lager-style-beer-without-a-fridge",
+  "reading-your-city-water-report-for-brewing",
+  "glycol-cooling-for-breweries-in-the-tropics"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "brew-day-with-power-cuts",
+ "cat": "Brewing basics",
+ "h1": "Planning a brew day around power cuts and unreliable gas",
+ "title": "Brew Day With Power Cuts | Craft Beer School",
+ "desc": "How to plan a brew day when electricity or gas is unreliable: insulated mashing, safe backup heat, wort protection and fermentation holding.",
+ "teaser": "Power fails in the middle of a mash. A good plan means you lose an hour, not a batch.",
+ "standfirst": "Where the electricity or gas supply is unreliable, a brew day needs a plan B. This guide shows which steps tolerate an interruption and which do not.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Which steps are safe to pause",
+   "<p>Not all brewing steps are equally fragile. Learn the order of risk:</p><ul><li><strong>Mash.</strong> The most forgiving. An insulated mash can hold temperature for an hour or more with no heat.</li><li><strong>Lautering and sparge.</strong> Tolerates a pause if the grain stays warm.</li><li><strong>Boil.</strong> A pause is not a disaster, but the boil must be completed for full effect, so restart on backup heat.</li><li><strong>Cooling and pitching.</strong> Needs water pressure and speed. This is where an interruption does the most harm.</li><li><strong>Fermentation.</strong> Tolerates a power cut for hours, but not days of heat.</li></ul>"
+  ],
+  [
+   "Insulate the mash",
+   "<p>A mash held in a pot loses heat steadily. Wrap the pot in a sleeping bag, thick towels or a foam blanket, or mash in a cool box (a picnic cooler) with a bag. A well wrapped pot loses only a few degrees per hour, so a power cut during the mash costs little. Check the temperature every 20 minutes and add hot water to raise it if necessary. A mash can also run for 90 minutes without harm.</p>"
+  ],
+  [
+   "Back-up heat, used safely",
+   "<p>A portable gas burner or a charcoal stove can finish a boil when the electricity fails. Use them outdoors or in a well-ventilated space, never in a closed room, because burning gas and charcoal produce carbon monoxide. Keep a fire extinguisher or a damp blanket near, keep children and pets away and do not leave a boil unattended. Check your gas bottle is more than a quarter full before you start and keep a spare.</p>"
+  ],
+  [
+   "If the power fails during the boil",
+   "<p>If the kettle stays hot, restart on the backup heat as soon as you can and complete the remaining boil time. If the wort has cooled well below the boil for a long time, bring it back to a full boil before you continue, because wort sitting between about 20 and 45 °C is at the highest risk for bacteria. Note the extra time and adjust the hops. If you cannot resume within an hour or so, chill the wort quickly, ferment it as it is and call it an experiment.</p>"
+  ],
+  [
+   "Chilling without running water",
+   "<p>Many places that lose power also lose water pressure. Prepare for chilling before you start. Fill a bath, a large tub or a sink with cold water and ice. Stand the covered kettle in it and stir the water around it. Stock a few frozen bottles for the water bath. A pre-prepared chilling set-up saves the batch if the pump fails.</p>"
+  ],
+  [
+   "Hold fermentation steady and keep notes",
+   "<p>If you rely on a fridge or heater to control fermentation, a power cut may let the beer drift. A water bath and an insulated cover slow the drift. Frozen bottles act as a small emergency cooler in hot weather. A thermometer that shows the max and min temperature tells you what happened while you were out. Beer will survive hours of a few extra degrees. Days of heat, as described in <a href=\"homebrewing-in-a-hot-climate.html\">homebrewing in a hot climate</a>, are the real threat.</p><p>Every interruption is information. Write down when the power failed, how long it lasted, which step you were in and what you did. After a few cuts you will see a pattern, such as a common time of day. Then you can brew around it. Share what you learn with other homebrewers nearby: local knowledge about which areas lose power and for how long is worth more than a general rule.</p>"
+  ],
+  [
+   "A short checklist before you start",
+   "<ol><li>Check the gas bottle and keep a spare.</li><li>Fill a bucket of water for emergencies.</li><li>Freeze two or three bottles of water.</li><li>Charge a torch and a phone.</li><li>Wrap the mash pot in a blanket or put it in a cooler.</li><li>Keep a notebook for times and temperatures.</li></ol><p>With these ready, a power cut becomes a delay and not a disaster.</p>"
+  ],
+  [
+   "Plan the brew, then keep a log",
+   "<p>Pick brew days when cuts are least likely, if the utility publishes a schedule. Choose a simple recipe that tolerates a longer mash, such as a pale ale (see <a href=\"brewing-a-clean-pale-ale-in-warm-weather.html\">a clean pale ale in warm weather</a>). A smaller batch finishes faster and is easier to protect (see <a href=\"scaling-a-homebrew-recipe.html\">scaling a homebrew recipe</a>). Write down what you did and when, with times and temperatures, so you can repeat what worked.</p><p>Planning a robust brew day is one part of brewing knowledge. Designing the recipe is another (see <a href=\"designing-your-first-beer-recipe.html\">designing your first beer recipe</a>).</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can a mash survive a power cut?",
+   "Yes. Wrap the pot well and the temperature drops only a few degrees an hour. A mash can run for 90 minutes without harm."
+  ],
+  [
+   "Is it safe to use a gas burner indoors?",
+   "No. Use gas and charcoal outdoors or in a ventilated space because of carbon monoxide."
+  ],
+  [
+   "What if the power fails after the boil?",
+   "Cool the wort in a bath of cold water and ice and pitch as soon as it is at temperature."
+  ],
+  [
+   "Will a power cut ruin fermentation?",
+   "A few hours rarely does. Days of heat can, so use a water bath and insulation."
+  ]
+ ],
+ "cta": {
+  "title": "Build a brew day that survives surprises",
+  "body": "Brewing Fundamentals is a 4-week live online course. It teaches the order of risk on a brew day, so interruptions cost you time and not beer.",
+  "href": "brewing-fundamentals-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "scaling-a-homebrew-recipe",
+  "brewing-a-clean-pale-ale-in-warm-weather",
+  "designing-your-first-beer-recipe"
+ ]
+}

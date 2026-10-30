@@ -1,0 +1,71 @@
+{
+ "slug": "homebrewing-with-desalinated-water",
+ "cat": "Brewing science",
+ "h1": "Homebrewing with desalinated or RO water: building the minerals back up",
+ "title": "Homebrewing with Desalinated Water | Craft Beer School",
+ "desc": "Desalinated and RO water has almost no minerals. How to build calcium, magnesium and chloride or sulphate back up for good mash and flavour.",
+ "teaser": "Water from a desalination plant or an RO unit is a blank page. That is useful, if you know what to write on it.",
+ "standfirst": "Desalinated and reverse osmosis water carries almost no calcium or magnesium. Brewing straight with it gives flat beer and a poor mash. Here is how to add minerals back, with numbers you can check.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a blank page is not enough",
+   "<p>Reverse osmosis and the distillation or membrane processes used in desalination remove most dissolved minerals. In the Gulf and on many islands, tap water comes from this source. Some utilities add minerals back for drinking and some do not, so check your supplier's published water report first.</p><p>Brewing needs a little of each mineral. Calcium helps the mash enzymes, lowers mash pH, helps clarity and supports yeast. Magnesium is a yeast nutrient in small amounts. Chloride rounds out malt flavour. Sulphate sharpens hop bitterness. With none of these, the beer tends to taste thin and the mash pH can wander.</p>"
+  ],
+  [
+   "Treat chlorine first",
+   "<p>Tap water that has been disinfected may contain chlorine or chloramine, even after desalination. Both react with malt phenols to form medicinal off-flavours. A small amount of potassium or sodium metabisulphite (sold as Campden tablets) removes both. Follow the pack dose and let the water stand a few minutes. RO water from a filter system with a carbon stage may already be free of chlorine, but check.</p>"
+  ],
+  [
+   "Choose your targets",
+   "<p>For a first approach, aim for about 50 to 100 mg/L of calcium in the mash. Keep magnesium in the 5 to 15 mg/L range, since yeast needs some and more gives a bitter note. Use chloride and sulphate to steer the beer: a higher chloride level for soft, malty beers, a higher sulphate level for crisp, hoppy ones. Many brewers aim for a chloride-to-sulphate ratio near 1:1 as a neutral starting point.</p>"
+  ],
+  [
+   "Building the water",
+   "<p>You need two salts to start: calcium chloride and gypsum (calcium sulphate). Check which form your supplier sells, since hydrated and dry forms differ in weight. As a worked example with the common hydrated forms:</p><ul><li>0.2 g of calcium chloride dihydrate in 1 L adds about 55 mg/L calcium and 96 mg/L chloride.</li><li>0.2 g of gypsum (calcium sulphate dihydrate) in 1 L adds about 47 mg/L calcium and 112 mg/L sulphate.</li></ul><p>Add the salts to the mash water and stir until dissolved. Use free software such as a brewing water calculator to work out the exact mix and do the sums per litre of total water you will use, not just the mash.</p><p>If the calculator shows magnesium low, add a small amount of Epsom salt (magnesium sulphate), which also adds sulphate.</p>"
+  ],
+  [
+   "Watch mash pH with dark malts",
+   "<p>Low-alkalinity water suits pale beers well, because the mash pH sits near the target of 5.2 to 5.6 with a little calcium. The opposite happens with dark malts. Roasted grains are acidic. With no alkalinity in the water to cushion them, the mash pH can fall too low. If you brew stouts or porters from RO water, add a small amount of baking soda or chalk to bring the pH back and measure with a calibrated pH meter or good strips.</p>"
+  ],
+  [
+   "A worked example for a pale ale",
+   "<p>For 25 L of total water for a pale ale, a simple plan is 5 g of gypsum and 3 g of calcium chloride dihydrate. By the figures above, that gives about 47 mg/L calcium from the gypsum (0.2 g per litre) and about 33 mg/L from the calcium chloride (0.12 g per litre), so around 80 mg/L calcium in all. Sulphate would sit near 112 mg/L and chloride near 58 mg/L, which leans the beer crisp and hoppy.</p><p>For a malty amber you would swap the balance: more calcium chloride and less gypsum. Brew it, taste it and compare with the previous batch. Because RO water starts from nothing, the changes you make are the only ones that show up in the glass, which makes it an excellent teaching tool.</p><p>One caution: weigh salts on a scale that reads to 0.1 g and record the weights. A kitchen scale that only reads whole grams is too coarse for 3 g of a salt.</p>"
+  ],
+  [
+   "Keep a log",
+   "<p>Write down the water recipe for every batch, along with the taste notes. Over six or eight batches you will see how chloride and sulphate change the beer. For help reading a public water report before you blend, see <a href=\"reading-your-city-water-report-for-brewing.html\">reading your city water report</a>. For the commercial scale of the same problem, see <a href=\"brewery-water-from-desalination.html\">brewery water from desalination</a>.</p><p>Water chemistry rewards a careful method. If you want to go beyond calculators and understand the reactions, our advanced course covers it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Can I brew with RO water directly?",
+   "Technically yes, but without calcium the mash and the yeast both struggle. Most brewers add calcium chloride or gypsum to bring calcium to 50 mg/L or more."
+  ],
+  [
+   "Is desalinated tap water safe to brew with?",
+   "It is as safe as the drinking water it comes from. Check for chlorine or chloramine and remove it before brewing."
+  ],
+  [
+   "How much gypsum should I add?",
+   "As a starting point 0.2 g per litre adds about 47 mg/L calcium and 112 mg/L sulphate. Use a water calculator to fine tune."
+  ],
+  [
+   "Do I need a pH meter?",
+   "It helps a lot with RO water because the mash pH is entirely in your hands. A reliable meter or good strips let you confirm 5.2 to 5.6."
+  ]
+ ],
+ "cta": {
+  "title": "Master water chemistry for any brewery",
+  "body": "Advanced Brewing Science is a 6-week live online course. It covers mash chemistry, water adjustment and the calculations behind the numbers in this guide, with weekly assignments.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "reading-your-city-water-report-for-brewing",
+  "glycol-cooling-for-breweries-in-the-tropics",
+  "brewery-water-from-desalination"
+ ]
+}
