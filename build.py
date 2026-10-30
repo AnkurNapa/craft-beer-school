@@ -310,6 +310,13 @@ const upd=()=>{const i=Math.round(r.scrollLeft/(kids[0].offsetWidth+14));[...d.c
 r.addEventListener('scroll',upd,{passive:true});upd();
 if(calm)return;const o=new IntersectionObserver(es=>{if(!es[0].isIntersecting)return;o.disconnect();
 setTimeout(()=>{r.scrollBy({left:70,behavior:'smooth'});setTimeout(()=>r.scrollBy({left:-70,behavior:'smooth'}),550);},300);},{threshold:.6});o.observe(r);});})();
+// Desktop: the home page course tracks become a shelf with arrows, like the guide shelves.
+(()=>{const t=document.querySelector('main .tracks');if(!t||!matchMedia('(min-width:961px)').matches)return;
+const r=document.createElement('div');r.className='rail';t.before(r);
+const b=(c,l,i)=>{const x=document.createElement('button');x.type='button';x.className='rail-btn '+c;x.setAttribute('aria-label',l);x.innerHTML=i;return x;};
+const svg=d=>'<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+d+'</svg>';
+r.append(b('prev','Previous tracks',svg('<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>')),t,b('next','More tracks',svg('<path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>')));
+t.classList.add('rail-track');})();
 // Shelves scroll sideways; the arrows move one screen of cards and hide at either end.
 document.querySelectorAll('.rail').forEach(sh=>{const t=sh.querySelector('.rail-track'),[p,n]=sh.querySelectorAll('.rail-btn');
 const upd=()=>{p.disabled=t.scrollLeft<4;n.disabled=t.scrollLeft+t.clientWidth>=t.scrollWidth-4;};

@@ -1477,3 +1477,24 @@ main > section[style*="padding-block:0"],main > section[style*="padding-block:0"
   .rail-dots i{width:7px;height:7px;border-radius:50%;background:#e3d3b0;transition:background .25s,transform .25s}
   .rail-dots i.on{background:var(--amber-deep);transform:scale(1.25)}
 }
+/* Less scrolling everywhere (Ankur's request, 31 Oct 2026). Desktop sections sat 144px apart;
+   Apple-like spacing is about half. Photo bands drop to half height. */
+@media (min-width:961px){
+  section{padding-block:clamp(3rem,5vw,4.75rem)}
+  .photo-band{height:clamp(200px,20vw,290px)}
+  main .tracks.rail-track{display:flex;grid-template-columns:none;gap:1.25rem;overflow-x:auto;scroll-snap-type:x mandatory;
+    scrollbar-width:none;padding:.5rem 2px 1.5rem}
+  main .tracks.rail-track::-webkit-scrollbar{display:none}
+  main .tracks.rail-track>.track{flex:0 0 calc((100% - 2.5rem)/3);scroll-snap-align:start}
+}
+/* Guides page on phones: one button under each shelf instead of a full course box,
+   cards without the teaser line, tighter gaps. */
+@media (max-width:760px){
+  .seg{padding-block:1.4rem}
+  .seg .rail-head{margin-bottom:.8rem}
+  .seg .cta-inline{margin-top:.6rem!important;padding:0;border:0;background:none;box-shadow:none}
+  .seg .cta-inline>div{display:none}
+  .seg .cta-inline .btn{width:100%}
+  .rail-track>.card .card-body>p{display:none}
+  .seg details.more{margin-top:.2rem}
+}
