@@ -1,0 +1,71 @@
+{
+ "slug": "project-report-for-a-brewery-expansion",
+ "cat": "Consultancy",
+ "h1": "A project report for expanding an existing brewery",
+ "title": "A Project Report for Brewery Expansion | Craft Beer School",
+ "desc": "How to write a project report for expanding an existing brewery: incremental cash flows, the with and without comparison and the risks to what you already have.",
+ "teaser": "An expansion is judged on what it adds, not on what the brewery already earns.",
+ "standfirst": "The common mistake in an expansion report is to credit the new plant with the old plant's profit. The right question is what changes because you build.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The question is incremental",
+   "<p>A new brewery starts from nothing. An expansion starts from a business that already earns. The report must separate what the brewery would earn anyway from what the expansion adds. That is the with-and-without comparison: cash flow with the project minus cash flow without it.</p><p>A hypothetical in neutral units. An expansion costs 80. With it, the brewery earns 50 a year. Without it, 35. The increment is 15. Payback on the increment is 80/15 = about 5.3 years. If you wrongly credit the project with the whole 50, payback looks like 1.6 years. A credit officer will see the error at once.</p>"
+  ],
+  [
+   "What counts as incremental",
+   "<p>Include extra revenue, extra variable cost, extra staff, extra marketing, extra maintenance and extra working capital. Exclude costs already sunk, such as the original brewhouse, because no decision about the expansion can change them. Include the extra interest on any new loan. Include costs that rise elsewhere, such as the existing packaging line running longer or the extra cold storage load.</p><p>The \"without\" case may not be flat. If current capacity is full and customers are being turned away, the base is flat. If a competitor is about to take share, the without case may decline. The expansion then protects revenue. Say which and support it. For the basic measures, see <a href=\"npv-irr-and-payback-for-a-brewery-project.html\">NPV, IRR and payback</a>.</p>"
+  ],
+  [
+   "A look at the life of the project",
+   "<p>Using the same increment of 15 a year, the length of the benefit matters. Over ten years at 12 percent, the increments are worth about 85 today against a cost of 80, an NPV of about 5. Over eight years they are worth about 75, an NPV of about minus 5. The decision turns on how long the new plant produces useful extra cash. That is the type of assumption to test, not to hide. See <a href=\"sensitivity-analysis-for-a-drinks-project.html\">sensitivity analysis for a drinks project</a>.</p>"
+  ],
+  [
+   "Evidence from your own sales",
+   "<p>An existing brewery has the best market evidence there is: its own sales history. Show volume by month, by product, by channel, by customer. Show where you are turning orders away or running out of stock. Show lead times. This turns the market section from forecast into extrapolation. If you want a new product line, a new channel or a new state, say that this part has no history and treat it with more caution.</p>"
+  ],
+  [
+   "Capacity, bottlenecks and disruption",
+   "<p>Map the current chain, find the current bottleneck and show what the expansion fixes. Often a bottleneck at the fermenters or packaging is cheaper to fix than a new brewhouse. The report should show that option considered. See <a href=\"capacity-planning-in-a-project-report.html\">capacity planning in a project report</a>.</p><p>Building next to a running brewery brings risks: shutdowns during tie-ins, contamination from construction dust, staff stretched between old and new. Plan the shutdown window, the temporary storage and the quality checks. Cost them.</p>"
+  ],
+  [
+   "Cost, contingency and timing",
+   "<p>Cost the whole expansion: plant, building work, utilities upgrade, tie-ins to existing lines, commissioning and training. Add a contingency line. Add the cost of lost production during the shutdown for tie-ins, which is easy to forget. If the brewery loses two weeks of output at 15 units of contribution a week, that is a 30 unit cost the new plant has to earn back.</p><p>Show the timeline: orders, delivery, installation, commissioning and ramp-up. Expansion plants rarely run at design output in the first weeks. A report should say so.</p>"
+  ],
+  [
+   "Finance and existing lenders",
+   "<p>If you already have a loan, check the terms before you add another. Lenders may need to consent. Existing covenants can limit new borrowing. Show combined debt cover for the whole brewery, not just for the new part. Use the actual accounts of the last years as the starting point. Be ready to explain any weak year.</p><p>As with any report, this cannot promise approval. It shows the logic.</p><p>Keep the old brewery's customers in mind as well. If the expansion adds a new style or a bigger pack, the report should say whether it competes with your own current products. Cannibalised sales are not new sales. The incremental cash flow must net them off.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How is an expansion report different from a start-up report?",
+   "It measures the increment over what the brewery would earn without the project. It can use real sales history as evidence."
+  ],
+  [
+   "Should I include existing profit in the expansion cash flow?",
+   "No. Include only the extra cash caused by the project. Otherwise returns look much better than they are."
+  ],
+  [
+   "Do lenders need my past accounts?",
+   "Usually yes. They use them to judge the base business and its ability to carry more debt."
+  ],
+  [
+   "What if my without case is declining?",
+   "Say so with evidence. The expansion then protects revenue as well as adding it, but the claim must be supported."
+  ]
+ ],
+ "cta": {
+  "title": "Make the case for the extra plant",
+  "body": "Our project and business reports service prepares expansion reports for existing breweries, with the with-and-without model and the capacity analysis, led by Ankur Napa. Share your accounts and plans and we will tell you what the report should show.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Ask for a project report"
+ },
+ "related": [
+  "what-goes-into-preparing-a-project-report",
+  "mistakes-in-brewery-project-reports",
+  "business-health-report-for-a-brewery"
+ ]
+}

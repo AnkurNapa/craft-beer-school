@@ -1,0 +1,71 @@
+{
+ "slug": "reading-a-brewery-production-report-as-a-non-brewer",
+ "cat": "Beer for teams",
+ "h1": "Reading a brewery production report as a non brewer",
+ "title": "Reading a Brewery Production Report | Craft Beer School",
+ "desc": "A plain guide for analysts, planners and finance teams to the numbers in a brewery production report: brews, gravity, ABV, yield, losses and tank time.",
+ "teaser": "Hectolitres, gravity, yield, losses. A production report is a story about a week on the brewery floor. Here is how to read it.",
+ "standfirst": "If you work in planning, finance or analytics for a drinks company, you will meet a production report sooner or later. The numbers are less mysterious than they look. Each one maps to something that happened in a vessel.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the report is for",
+   "<p>A brewery production report records what was made, how much and how well. The plant team uses it to see whether the week went to plan. You use it to understand why a forecast missed, why a cost per hectolitre moved or why stock is short in one pack size.</p><p>Nearly every report is built from the same few pieces: brews, volumes, gravity, losses and time. Learn those and you can read most of them. A hectolitre (hl) is 100 litres, the unit most breweries use for volume.</p>"
+  ],
+  [
+   "Brews and volumes",
+   "<p>A <strong>brew</strong> is one run of the brewhouse, from milling malt to cooled wort. The <strong>batch size</strong> is the volume of that wort, such as 100 hl. A brewery might run several brews into one fermenter to fill it.</p><p>Look for three volume lines. <em>Wort produced</em> is what leaves the brewhouse. <em>Beer filtered or ready</em> is what is left after fermentation and clean-up. <em>Packaged</em> is what ends up in cans, bottles and kegs. Each line is smaller than the one before. The gaps are losses.</p>"
+  ],
+  [
+   "Gravity and ABV",
+   "<p>Gravity is how much sugar is dissolved in the wort. It is shown as <strong>original gravity</strong> (OG) before fermentation and <strong>final gravity</strong> (FG) after. A typical lager might read OG 1.048 and FG 1.010. Sometimes the report gives it in degrees Plato instead, where 12 °P is about 1.048.</p><p>The difference tells you how much sugar the yeast turned into alcohol. A quick estimate of alcohol by volume is (OG - FG) x 131.25. For that lager, 0.038 x 131.25 is about 5.0% ABV. If the report shows an ABV well away from the recipe, ask why. It could be a fermentation that stalled or a measurement slip.</p>"
+  ],
+  [
+   "Yield and efficiency",
+   "<p>The report may show <strong>brewhouse efficiency</strong> or <strong>extract yield</strong>. This compares the sugar extracted from the malt with the most it could have given in theory. A higher figure means more wort from the same malt, which lowers the cost of each hectolitre.</p><p>For you, this is a link between a plant number and a cost line. If efficiency drops by a few points, malt cost per hl rises, even when the price of malt did not move. Our guide to <a href=\"reading-a-beer-specification-sheet-when-you-are-not-a-brewer.html\">reading a beer specification sheet when you are not a brewer</a> shows the targets these figures are measured against.</p>"
+  ],
+  [
+   "Losses",
+   "<p>Losses are the most useful part of the report for a planner. Beer is lost to yeast and trub (the sediment) at the bottom of a tank, to filtration, to rinsing and to packaging. Some is dumped because it failed a quality check.</p><p>Here is an illustration with made-up numbers. A brewery makes 100 hl of wort and packages 92 hl. The total loss is 8%, of which about 3 hl happened at packaging. If a line breaks down and that packaging loss doubles, the week is a further 3 hl short. So is the stock your forecast counted on. Ask for losses by stage, not as one total. The stage tells you where to look.</p>"
+  ],
+  [
+   "Tank time and packaging",
+   "<p>Beer sits in a tank while it ferments. An ale may take about two weeks and a lager four or more. This is called <strong>tank time</strong>. A report may show fermenter utilisation, the share of tank days actually used. When it nears 100%, the brewery cannot add volume however well the brewhouse runs. Our guide to <a href=\"beer-production-planning-basics.html\">beer production planning for supply chain teams</a> goes deeper on this.</p><p>Packaging lines have their own figures: bottles or cans per hour, downtime and rejects. A fast line that stops often can pack less than a slower steady one. When a dashboard shows packed volume falling, check these before you blame demand. The cause may be a line that spent half a shift waiting for empty cans.</p>"
+  ],
+  [
+   "Questions to ask when you read one",
+   "<p>A few plain questions will make you useful in any review:</p><ul><li>What changed against the plan? In which stage?</li><li>Are the losses normal for this beer and this line?</li><li>Was any beer dumped? Was the cause found?</li><li>How full are the tanks for the next four weeks?</li></ul><p>You do not need to run a brew to ask them. A visit helps. Our guide to <a href=\"your-first-brewery-visit-as-a-corporate-employee-what-to.html\">your first brewery visit as a corporate employee</a> shows what to look for on the floor. Tastings on such visits are optional and within company policy, with non-drinkers always welcome.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does a brewery production report show?",
+   "What was brewed, packaged and lost in a period, with gravity, ABV, yield and tank use. It explains why output matched or missed the plan."
+  ],
+  [
+   "What is a hectolitre?",
+   "One hectolitre is 100 litres. It is the standard volume unit in brewing."
+  ],
+  [
+   "Why does the report show losses at each stage?",
+   "Beer is lost in tanks, filtration and packaging. Seeing where it goes helps the team fix the right step and helps planners set realistic volumes."
+  ],
+  [
+   "What is original gravity?",
+   "A measure of the sugar in the wort before fermentation. The fall to final gravity shows how much turned into alcohol."
+  ]
+ ],
+ "cta": {
+  "title": "Help your team read the plant",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions, so planners and analysts understand the numbers they work with.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "reading-a-beer-specification-sheet-when-you-are-not-a-brewer",
+  "your-first-brewery-visit-as-a-corporate-employee-what-to",
+  "beer-production-planning-basics"
+ ]
+}

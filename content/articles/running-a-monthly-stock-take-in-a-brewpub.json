@@ -1,0 +1,67 @@
+{
+ "slug": "running-a-monthly-stock-take-in-a-brewpub",
+ "cat": "Business",
+ "h1": "Running a monthly stock take in a brewpub",
+ "title": "Monthly Stock Take in a Brewpub | Craft Beer School",
+ "desc": "A step by step monthly stock take for a brewpub: what to count, how to reconcile beer against sales and what to do with the variance.",
+ "teaser": "If you only count stock when the accountant asks, you are paying for a leak you cannot see.",
+ "standfirst": "A monthly stock take tells a brewpub owner where money leaves the building. This guide sets out what to count, in what order and how to turn the gap between book and physical stock into action.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a brewpub needs its own stock take",
+   "<p>A restaurant counts food. A bar counts bottles. A brewpub does both and also holds malt, hops, yeast, packaging and beer in tanks, each with a different way of going missing.</p><p>Grain picks up moisture in a monsoon, so its weight and quality both shift. Hops lose value as they age. Beer foams, is lost in line cleaning or is poured as a free taster. None of this shows up in a profit and loss account until the margin is already thin. A monthly count turns those slow leaks into numbers you can act on.</p>"
+  ],
+  [
+   "What to count and in what order",
+   "<p>Do the count on the same day each month, at the same hour, with the pub closed or quiet. Use two people: one counts, one records. Count in this order so that nothing moves while you are counting:</p><ol><li>Cold store and kitchen stock, then dry stores.</li><li>Bar stock: bottles, cans, spirits, mixers.</li><li>Brewery raw materials: malt by sack and bin, hops by pack, yeast, finings, cleaning chemicals.</li><li>Packaging: kegs in and out, cans, bottles, caps, labels, cartons.</li><li>Beer: every tank, every keg on the cold room floor and every keg on tap.</li></ol><p>Weigh or measure anything open. A half-used 25 kg sack of malt is not 0.5 of a sack. Weigh it.</p>"
+  ],
+  [
+   "Counting beer without guessing",
+   "<p>Tanks are measured with a calibrated dip stick or a level sensor, then converted to litres from the tank's chart. Check the chart against a flowmeter or a known fill at least once. Kegs are counted by size. A keg on tap is estimated by the pour count since it was changed, or weighed against a full and empty keg.</p><p>The reconciliation is simple arithmetic. Opening beer plus beer transferred in, less closing beer, gives the beer that left the system. Compare that with what the till shows poured and sold.</p><p>Here is an illustration with made up numbers. Opening stock 800 L, transfers in 2,000 L, closing stock 700 L. That makes 2,100 L out. The point of sale shows 1,850 L sold. The gap is 250 L, or 11.9% of the beer. Some of that is genuine: foam, line flushes, tasters and cleaning. The question is how much of it is genuine and whether the gap is growing.</p>"
+  ],
+  [
+   "Finding the cause of a gap",
+   "<p>Work down a short list before you accuse anyone.</p><ul><li>Pour size: are glasses being filled above the line?</li><li>Foam: is the keg gas pressure or line length off, so a third of every pour is head?</li><li>Free pours and comps: are they recorded at all?</li><li>Line cleaning: how many litres go down the drain every week?</li><li>Till errors: is a pint being rung up as a half?</li><li>Dead volume: is every keg left with a few litres that nobody counts?</li></ul><p>Start with the first three. They are the usual culprits. Then set a tolerance you can live with, based on your first three months of counts, not on a number someone quoted you. Investigate anything beyond it.</p>"
+  ],
+  [
+   "Raw materials and theoretical usage",
+   "<p>For malt and hops, compare actual use against recipe use. If the brew log says you mashed 220 kg of malt this month, the stock movement should show about 220 kg gone. Add a small allowance for spillage and moisture change. A persistent shortfall points to over-milling losses, spoilage, theft or weighing errors on brew day.</p><p>Hops and yeast deserve special care. A 5 kg bag of an expensive imported hop that sat open in a warm store is a cost even if it never went missing. Record the date opened and the storage condition. Our guide to <a href=\"running-a-happy-hour-that-does-not-wreck-brewpub-margins.html\">happy hours and margins</a> shows how the same discipline applies to the bar side.</p>"
+  ],
+  [
+   "Compliance and the excise register",
+   "<p>Many Indian states require brewpubs to keep stock and production registers that excise officers can inspect. The format and reporting duties differ by state and change over time, so check the current notification for your state or ask a licensing adviser. As a rule, your internal count should reconcile with the statutory register. Keep them in step each month so an inspection does not find a surprise.</p><p>This is not legal advice. It is a reminder that the stock take serves two audiences: you and the regulator.</p>"
+  ],
+  [
+   "Turning the count into a routine",
+   "<p>Keep one spreadsheet with one tab per month. Record the count date, the counters, the unit of each item and its cost. Calculate the value of closing stock and the movement from last month. Review it with the head brewer, the kitchen lead and the manager together. Link it to payroll and rostering through your monthly cost review, as in <a href=\"monthly-payroll-for-a-brewpub-team-in-an-indian-city.html\">our payroll guide</a>.</p><p>This is the point where a business owner needs more than a spreadsheet. Costing, variance analysis and cash planning are what we teach in the Brewery Business Management course, with live weekend classes, a batch of up to 20 and a certificate at the end.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How often should a brewpub count stock?",
+   "Monthly is the minimum for a full count. Many brewpubs also count high-value items such as spirits and hops weekly."
+  ],
+  [
+   "What is a normal variance on beer?",
+   "There is no universal figure. Set your own tolerance from three or four months of counts, then investigate anything beyond it."
+  ],
+  [
+   "Who should do the count?",
+   "Two people who do not control the till or the purchasing, one counting and one recording, on the same day and at the same time each month."
+  ]
+ ],
+ "cta": {
+  "title": "Ready to run the numbers on your own brewpub?",
+  "body": "Brewery Business Management is a three week live course (₹8,999) with weekend classes, a batch of up to 20 and a certificate. Costing, stock control and cash planning are covered in full.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "monthly-payroll-for-a-brewpub-team-in-an-indian-city",
+  "running-a-happy-hour-that-does-not-wreck-brewpub-margins",
+  "running-the-brewpub-kitchen-yourself-or-leasing-it-out"
+ ]
+}

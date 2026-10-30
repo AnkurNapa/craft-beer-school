@@ -1,0 +1,71 @@
+{
+ "slug": "keeping-a-brewery-running-when-a-key-supplier-fails",
+ "cat": "Business",
+ "h1": "Keeping a brewery running when a key supplier fails",
+ "title": "When a Key Brewery Supplier Fails | Craft Beer School",
+ "desc": "How a small brewery prepares for a supplier failure: finding single points of failure, backup suppliers, safety stock and recipe flexibility.",
+ "teaser": "Your maltster misses a delivery. Your CO2 supplier goes quiet. How many days until the taps run dry?",
+ "standfirst": "Small breweries depend on a handful of suppliers for malt, hops, yeast, CO2, cleaning chemicals and packaging. When one fails, the beer stops. A little planning before it happens keeps the taps flowing.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Find your single points of failure",
+   "<p>Start with a list of everything you buy regularly. Next to each item, write how many suppliers can provide it and how many days of stock you hold. Any line with one supplier and less than two weeks of stock is a single point of failure.</p><p>For most Indian craft breweries the list looks something like this: base malt, the two or three hop varieties in the core range, CO2, caustic and acid cleaners, kegs or cans, labels and spare parts for the glycol chiller. CO2 is often the most fragile. Without it you cannot carbonate, purge tanks or pour beer at the bar.</p>"
+  ],
+  [
+   "Score each risk honestly",
+   "<p>Not every risk needs the same attention. For each item, ask two questions. How likely is a failure in the next year? How bad would it be? A simple 1 to 5 score for each, multiplied together, gives a priority. A CO2 supplier who has missed deliveries before scores high on both. A label printer with a three month stock buffer scores low.</p><p>Put the scores in your <a href=\"keeping-a-risk-register-for-a-small-brewery-business.html\">risk register</a> with an owner and an action for each high scoring item. Review it every quarter.</p>"
+  ],
+  [
+   "Qualify a second supplier before you need one",
+   "<p>A backup supplier you have never bought from is not really a backup. Order a small quantity from the second source a few times a year. For malt, compare the certificate of analysis: moisture, extract, colour and protein. Brew a test batch and taste it against your usual beer.</p><p>Do the same for hops, cleaning chemicals and CO2. Some suppliers will only serve accounts with an order history. Keeping a small, regular order open means they know you when the main supplier fails.</p>"
+  ],
+  [
+   "Hold safety stock where it matters",
+   "<p>Safety stock is the cheapest insurance for items with long or unreliable lead times. If imported specialty malt can take ten weeks to arrive and you use 25 kg a week, holding an extra four weeks means another 100 kg on the shelf. That is a small cost against losing a flagship beer for a month.</p><p>For CO2, ask your supplier for a larger cylinder bank or bulk tank so you hold more days of supply on site. Our guide to <a href=\"setting-reorder-points-for-malt-hops-and-yeast.html\">setting reorder points</a> shows how to work out the right levels.</p>"
+  ],
+  [
+   "Make your recipes flexible on purpose",
+   "<p>A brewery that can only make its flagship one exact way is fragile. Write a substitution note for each core recipe. If the usual base malt is out, which alternative do you use and what adjustments follow? If a key hop variety is short, which one comes closest in oil profile and alpha acid? How do you recalculate the bitterness?</p><p>Brew the substitute version once in a quiet week and taste it side by side with the original. A regular drinker should struggle to tell. If they cannot tell, you have doubled your supply options for that beer.</p>"
+  ],
+  [
+   "Have a plan for the first 48 hours",
+   "<p>When a supplier does fail, the first two days decide how much it costs. Write a one page response plan:</p><ol><li>Confirm stock on hand and how many days it covers.</li><li>Call the backup supplier and place an order.</li><li>Adjust the brewing schedule to protect the best selling beers.</li><li>Tell key bar accounts early if any beer may run short.</li><li>Record what happened and what it cost.</li></ol><p>Bars forgive a brewery that warns them a beer will be short next week. They do not forgive an empty tap they were promised.</p>"
+  ],
+  [
+   "Packaging and spare parts fail quietly",
+   "<p>Brewers watch malt and hops closely, but packaging and spares often cause the longer outages. Printed cans and labels come with long lead times and large minimum runs. A canning line or keg washer can sit idle for weeks waiting for one imported seal or pump part.</p><p>List the parts that would stop production if they broke: glycol pump, chiller compressor parts, keg washer seals, pressure relief valves, temperature probes. Keep one spare of each cheap, critical part on site. For expensive parts, find out where the nearest stock is and how long it takes to reach you. Our guide on <a href=\"warranty-and-service-terms-to-demand-from-equipment.html\">warranty and service terms from equipment suppliers</a> covers what to agree before you buy.</p>"
+  ],
+  [
+   "Contracts help but do not replace planning",
+   "<p>Written supply agreements with your main suppliers should state lead times, minimum notice of shortages and what happens if they cannot deliver. They rarely stop a failure. They do give you notice and a basis for a fair conversation afterwards.</p><p>Supply risk planning is one of those owner jobs that never feels urgent until it is. An afternoon spent mapping suppliers and stock is worth more than a week of firefighting later.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the most fragile supply for a small brewery?",
+   "CO2 is often the weakest link. Without it you cannot carbonate, purge tanks or dispense beer, so hold extra cylinders or ask for bulk supply."
+  ],
+  [
+   "How do I test a backup malt supplier?",
+   "Compare their certificate of analysis with your usual malt, then brew a test batch and taste it side by side with your regular beer."
+  ],
+  [
+   "Should a small brewery hold safety stock?",
+   "Yes, for items with long or unreliable lead times such as imported malt and hops. A few extra weeks of stock costs far less than a missing beer."
+  ]
+ ],
+ "cta": {
+  "title": "Build a brewery that survives the bad weeks",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers supplier management, risk planning, stock control and cash planning, so one late delivery never stops your taps.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "keeping-a-risk-register-for-a-small-brewery-business",
+  "keeping-beer-cold-from-brewery-to-bar-in-an-indian-summer",
+  "running-performance-reviews-in-a-small-brewery-team"
+ ]
+}

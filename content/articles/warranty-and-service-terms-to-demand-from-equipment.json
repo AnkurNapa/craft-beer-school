@@ -1,0 +1,71 @@
+{
+ "slug": "warranty-and-service-terms-to-demand-from-equipment",
+ "cat": "Business",
+ "h1": "Warranty and service terms to demand from equipment suppliers",
+ "title": "Brewery Equipment Warranty Terms | Craft Beer School",
+ "desc": "The warranty, service and support terms to put in a brewery equipment contract: start dates, coverage, response times, spares and payment retention.",
+ "teaser": "A one-year warranty sounds fine until you learn it started the day the crates left the factory.",
+ "standfirst": "Brewery equipment is expensive and hard to replace quickly. The warranty and service terms decide who pays when it breaks and how fast it gets fixed. Negotiate them before you pay the deposit, while you still have bargaining power.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "When the clock starts",
+   "<p>The single most important warranty term is the start date. Suppliers often prefer it to start from dispatch. You want it to start from commissioning or from the signed site acceptance test. Shipping, customs and installation can easily take three or four months. On a 12 month warranty that runs from dispatch, a third of your cover can be gone before you brew.</p><p>A common compromise is 12 months from commissioning or 18 months from dispatch, whichever comes first. Write it in exactly. Vague phrases such as \"one year warranty\" invite arguments later.</p>"
+  ],
+  [
+   "What is covered, in writing",
+   "<p>Ask for the warranty to cover defects in materials, workmanship and design. Then ask what is excluded. Common exclusions are wear parts such as gaskets and seals, damage from misuse and failures caused by poor utilities. That last exclusion can be stretched. If your water is hard or your voltage fluctuates, as it does in many Indian industrial areas, a supplier may blame every failure on it.</p><p>Agree the utility conditions in the contract: voltage range, water quality and steam pressure. Then both sides know what normal looks like. Separate warranties are common for bought-in parts such as pumps, motors and controllers. Ask who handles those claims.</p>"
+  ],
+  [
+   "Response times and remote support",
+   "<p>A warranty that fixes a fault in six weeks is not much use to a brewpub with a full fermenter and a broken glycol chiller. Ask for written response times:</p><ul><li>Remote support by phone or video within a stated number of hours.</li><li>A technician on site within a stated number of days for critical faults.</li><li>Shipping of replacement parts within a stated time, with who pays freight and duty.</li></ul><p>Remote access to the control system helps. Many faults can be diagnosed from the PLC log. Agree how that access is secured and who can use it.</p>"
+  ],
+  [
+   "Spares as part of the deal",
+   "<p>Ask for a starter spares kit in the purchase price: gaskets, seals, a pump seal kit, sensors and fuses. Ask for a full spare parts list with part numbers and prices valid for a fixed period. Also ask how long parts will be available. Equipment that runs for 15 or 20 years needs parts that long. A supplier who discontinues a valve after five years leaves you stuck.</p><p>Our guide on <a href=\"spare-parts-to-keep-on-the-shelf-in-a-small-brewery.html\">spare parts to keep on the shelf</a> lists the items we would hold regardless of the contract.</p>"
+  ],
+  [
+   "Holding back money until it works",
+   "<p>The best warranty protection is money not yet paid. Common payment structures run like this: a deposit on order, a payment after a successful factory acceptance test, a payment on delivery and a final retention after commissioning. Retentions of around 5 to 10% held until the end of the warranty, or until performance is proven, are a common way to keep the supplier engaged.</p><p>Suppliers resist retentions, but many accept one if the rest of the terms are fair. A bank guarantee for the warranty period is an alternative some larger suppliers prefer. Our guide on <a href=\"negotiating-payment-terms-with-malt-and-hop-suppliers.html\">negotiating payment terms</a> covers the general approach.</p>"
+  ],
+  [
+   "Performance, not just parts",
+   "<p>Warranties usually cover broken parts. They rarely cover a brewhouse that works but underperforms. Write performance guarantees into the contract: cast-out volume, brew length in hours, chiller duty and brewhouse efficiency within a stated range for a defined recipe. Test them at site acceptance.</p><p>These are the clauses where founders gain the most by understanding how breweries run. Reading a contract with a brewer's eye is a different skill from reading it with a lawyer's eye. You need both. The lawyer should check the final wording.</p>"
+  ],
+  [
+   "Training and handover",
+   "<p>Ask for training to be part of the contract, with a stated number of days and a list of topics: operation, cleaning, routine maintenance and simple fault finding. Ask for manuals in English and, if your team prefers, a short operating summary in Hindi or the local language. Record the training sessions on video so new staff can watch them later.</p><p>A warranty claim is often rejected because the brewery did not follow the maintenance schedule. Keep a simple log of every service, gasket change and cleaning cycle from the first day. When a pump fails in month ten, that log is your evidence that the failure was not your fault.</p>"
+  ],
+  [
+   "Before you sign",
+   "<p>Take your draft contract and highlight five things: warranty start date, exclusions, response times, spares availability and retention. If any one is missing or vague, send the supplier a written request to fix it this week.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "When should a brewery equipment warranty start?",
+   "Ideally from commissioning or the signed site acceptance test. A common compromise is 12 months from commissioning or 18 months from dispatch, whichever comes first."
+  ],
+  [
+   "What is a retention in an equipment contract?",
+   "A part of the price, often around 5 to 10%, held back until the end of the warranty or until performance is proven. It keeps the supplier engaged after delivery."
+  ],
+  [
+   "Are gaskets and seals covered by warranty?",
+   "Usually not, as they are wear parts. Ask for a starter spares kit and a priced spare parts list in the contract."
+  ]
+ ],
+ "cta": {
+  "title": "Negotiate equipment deals like an operator",
+  "body": "Brewery Business Management is three weeks of live weekend classes, Saturdays and Sundays from 12:00 PM to 2:00 PM IST. Batches are capped at 20 people. You get recordings, weekly assignments and a certificate. We cover equipment buying, supplier contracts and the operating costs that follow, so you sign on terms that protect the brewery.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "negotiating-payment-terms-with-malt-and-hop-suppliers",
+  "brewery-equipment-buying-guide",
+  "depreciation-on-brewing-equipment-and-what-it-means-for-tax"
+ ]
+}

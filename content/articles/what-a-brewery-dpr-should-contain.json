@@ -1,0 +1,71 @@
+{
+ "slug": "what-a-brewery-dpr-should-contain",
+ "cat": "Consultancy",
+ "h1": "What a brewery DPR should contain",
+ "title": "What a Brewery DPR Should Contain | Craft Beer School",
+ "desc": "A section-by-section list of what a brewery detailed project report must contain, with the numbers each section should carry.",
+ "teaser": "A brewery DPR is not a brochure. Here is each section, the numbers it needs and the gaps readers spot first.",
+ "standfirst": "A brewery DPR has to answer one question for a stranger: will this plant, at this site, make and sell enough beer to repay what it costs? Each section supports that answer.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with a summary that can stand alone",
+   "<p>Many readers never get past the first two pages. Put the project name, location, product, capacity, total cost, means of finance and headline returns there. State the loan you are asking for and the equity you are putting in as numbers, not adjectives.</p><p>Write the summary last. It must match the rest of the report to the last digit. If it says 20,000 hectolitres a year and the technical section says 18,000, the credibility of the whole document drops.</p>"
+  ],
+  [
+   "Promoters, product and market",
+   "<p>Describe who is behind the project and what they have actually done. Say what you will brew, in which formats, at what price points. Then the market: where the beer will be sold, to whom, through which channels and against which competing brands. India adds a layer here, because alcohol is a state subject and pricing, tax and permitted channels differ from state to state. Our guide on <a href=\"market-section-of-a-project-report.html\">the market section of a project report</a> goes through how to build it from your own evidence.</p>"
+  ],
+  [
+   "Technical section: site, plant and capacity",
+   "<p>This is where a brewer earns trust. Cover the site (area, utilities, drainage, access), the brewhouse size, the fermenter count, the packaging line, cold storage and the laboratory. State the brewhouse volume, the number of brews per day and the fermenter turnaround time.</p><p>Then show capacity as a chain. A 10 hl brewhouse making two brews a day looks big on paper, but six fermenters that each hold a beer for about 16 days set the real limit. The weakest link in the chain is the capacity, whatever the brewhouse brochure says. See <a href=\"capacity-planning-in-a-project-report.html\">capacity planning in a project report</a> for the full method.</p><p>Include utilities with numbers: water per litre of beer, electricity, steam or heat source, refrigeration load and effluent treatment. A brewery that uses a lot more water per litre than its report assumed will see the difference in running costs and in the effluent plant.</p>"
+  ],
+  [
+   "Approvals and compliance",
+   "<p>List each licence and permission, the authority that grants it and the sequence. Typical headings are company registration, land and building approvals, pollution board consent, food safety registration, excise or duty licences, weights and measures and label approvals. Rules differ by country and, in India, by state. They also change. Say plainly that each item will be confirmed with the relevant authority or a licensing adviser. Do not quote fees or section numbers from memory.</p>"
+  ],
+  [
+   "Project cost and means of finance",
+   "<p>Break the cost into land, building, plant and machinery, utilities, installation, pre-operative expenses, contingency and working capital. Show a contingency line. A project with none looks either naive or padded elsewhere.</p><p>Then show how it is paid for: promoter equity, term loan, any subsidy or grant and the working capital facility. The two sides must balance exactly. A small hypothetical: 100 units of cost funded by 40 equity and 60 term loan. If the cost table totals 100 and the finance table totals 98, a credit officer will find that in minutes.</p>"
+  ],
+  [
+   "Financial projections",
+   "<p>Show at least five years of operations, month by month for the first year if you can. Include a profit and loss statement, a cash flow, a balance sheet, a debt repayment schedule and the working capital build. Add break-even volume: fixed costs divided by contribution per litre.</p><p>For example, if fixed costs are 400,000 units a month and each litre contributes 4 units after variable costs, break-even is 100,000 litres a month. If installed capacity is 160,000 litres a month, that means running at about 63 percent just to cover costs. That illustration uses made-up numbers. Use yours.</p><p>Finish with NPV, IRR and payback, explained in <a href=\"npv-irr-and-payback-for-a-brewery-project.html\">NPV, IRR and payback for a brewery project</a>.</p>"
+  ],
+  [
+   "Risks, sensitivity and the appendix",
+   "<p>List the real risks: volume ramp-up, price pressure, raw material cost, licence delay, heat and cold chain losses, key person loss. For each, say what you will do about it. Then test the model against them, as set out in <a href=\"sensitivity-analysis-for-a-drinks-project.html\">sensitivity analysis for a drinks project</a>.</p><p>Put supporting material in an appendix: quotations for plant, site layout, brewing process flow, the model itself and any market evidence. A report that cites a quotation should attach it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many pages should a brewery DPR have?",
+   "There is no fixed number. It should be long enough that every key figure can be traced to a stated source and short enough that a credit officer reads the summary and the financial section in one sitting."
+  ],
+  [
+   "Does the DPR need quotations from equipment suppliers?",
+   "It should cite them for the main plant items. A cost built from supplier quotations is easier to defend than one based on a general estimate."
+  ],
+  [
+   "Should the DPR include licence fees?",
+   "Only if you have the current figure from the authority in writing. Fees and rules vary and change, so otherwise note that they will be confirmed."
+  ],
+  [
+   "Can I reuse a DPR template?",
+   "A template can give the structure. The numbers and the reasoning must be your own, because readers spot recycled text quickly."
+  ]
+ ],
+ "cta": {
+  "title": "Get the sections and the numbers right the first time",
+  "body": "Our project and business reports service builds brewery DPRs from your site, your plant choice and your market evidence. Share what you have and we will tell you what is missing.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Ask for a project report"
+ },
+ "related": [
+  "defensible-assumptions-in-a-project-report",
+  "sensitivity-analysis-for-a-drinks-project",
+  "project-report-or-business-plan"
+ ]
+}

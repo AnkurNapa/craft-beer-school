@@ -1,0 +1,67 @@
+{
+ "slug": "brewing-yield-and-losses-explained-for-cost-accountants",
+ "cat": "Beer for teams",
+ "h1": "Brewing yield and losses explained for cost accountants",
+ "title": "Brewing Yield and Losses for Accountants | Craft Beer School",
+ "desc": "Where a brewery loses extract and beer between malt and packaged case, how yield is measured and how cost accountants can put a rupee value on each loss.",
+ "teaser": "A brewery buys malt by the tonne and sells beer by the case. Everything lost in between is a cost.",
+ "standfirst": "Brewing yield is how much sellable beer comes out of the raw materials that went in. Losses happen at every step, from the mash tun to the packaging line. Cost accountants who understand where they happen can value them properly and help the brewery decide which ones to chase.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two kinds of yield, measured differently",
+   "<p>Brewers talk about yield in two ways. The first is extract yield: how much of the sugar and other soluble material in the malt actually ends up in the wort. Malt has a laboratory extract value, often around 80% of its dry weight for a good pale malt. The brewhouse rarely achieves all of it. Brewhouse efficiency compares what was achieved with that laboratory potential. A well-run brewhouse often lands in the low to mid 90s as a percentage of lab extract.</p><p>The second is volume yield: how many litres of finished beer come out of the litres of wort brewed. This is where most of the visible losses sit, from tank bottoms to broken bottles. Accountants usually meet the second kind in variance reports, but the first kind drives raw material cost per hectolitre just as hard.</p>"
+  ],
+  [
+   "Where the volume goes",
+   "<p>Following a batch from brewhouse to dispatch, losses typically appear at these points:</p><ul><li><strong>Brewhouse.</strong> Wort left in spent grain, hop residue and trub (the protein sediment).</li><li><strong>Fermentation.</strong> Yeast that settles in the tank cone, plus some beer lost with it when yeast is harvested.</li><li><strong>Filtration.</strong> Beer pushed out at the start and end of a filter run, plus beer held up in the filter itself.</li><li><strong>Bright beer tanks.</strong> Tank bottoms and line purges.</li><li><strong>Packaging.</strong> Under-filled or over-filled containers, bottles rejected by inspection, foam-over at the filler and breakage.</li><li><strong>Warehouse and transit.</strong> Breakage and damage after packaging.</li></ul><p>Each is small. Added up, total losses from cold wort to packaged beer commonly run to several percent in a large brewery and often more in a small one, where fixed losses per batch weigh more heavily.</p>"
+  ],
+  [
+   "Valuing a loss depends on where it happens",
+   "<p>A litre lost early costs less than a litre lost late. Wort lost in the brewhouse carries the cost of malt, energy and water. Beer lost on the packaging line also carries the cost of fermentation, filtration, the bottle, crown, label and carton it was in. Beer broken after leaving bond may already have carried excise duty, which in India can be the biggest single cost component of all.</p><p>So the same 1% loss can have very different values. An accountant who applies one average cost per litre to all losses will understate the late-stage ones. Building a cost per litre at each stage of the process gives a far better picture. Our guide to <a href=\"cost-per-hectolitre-explained-for-finance-teams.html\">cost per hectolitre</a> explains how those stage costs build up.</p>"
+  ],
+  [
+   "A worked example of a loss bridge",
+   "<p>Take an illustrative batch of 500 hl of cold wort. Say 5 hl is lost in fermentation with yeast, 8 hl at filtration, 4 hl in bright tank bottoms and 8 hl on the packaging line. That leaves 475 hl of packaged beer, a volume yield of 95%.</p><p>Now value it. If wort costs ₹1,500 per hl at the fermenter, the 17 hl lost before packaging is worth about ₹25,500 at that stage cost (using the wort figure as a floor, since filtered beer carries more cost). If packaged beer costs ₹6,000 per hl before duty, the 8 hl lost on the line is worth ₹48,000. Fewer litres, nearly double the value. These numbers are invented. The method is the point: value each loss at the cost it had built up when it was lost.</p>"
+  ],
+  [
+   "Why some loss is the price of good beer",
+   "<p>Not every loss is waste. Brewers deliberately leave trub behind in the whirlpool, because carrying it into the fermenter can harm flavour. They discard yeast after a set number of generations to keep fermentation healthy. They reject under-filled bottles because selling them would breach legal metrology rules. A cost accountant who pushes to cut these losses to zero may push the brewery into quality problems that cost far more.</p><p>The productive conversation is about variation. If filtration losses run at 1.5% most months and jump to 3% in one, something happened: a filter that blocked early, a hazy batch or a planning change that broke a long run into short ones. The <a href=\"beer-cost-of-goods-explained.html\">cost of goods</a> picture is clearer when losses are tracked against their own normal range.</p>"
+  ],
+  [
+   "Returnable glass adds its own losses",
+   "<p>In Indian beer, many 650 ml bottles are returnable and used several times. Bottles are lost to breakage, chipping and rejection at the washer and inspector on each trip. The number of trips a bottle makes before it is lost has a big effect on packaging cost per hectolitre. Our guide to <a href=\"returnable-glass-bottles-in-indian-beer-and-why-they-matter.html\">returnable glass bottles</a> covers this in detail.</p><p>A first step: ask the brewery for one month of volume at four points: cold wort, filtered beer, packaged beer and dispatched beer. The three gaps between them are your loss bridge. Put a stage cost against each and you will know which loss to talk about first.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is brewhouse efficiency?",
+   "It compares the extract a brewhouse actually gets into the wort with the laboratory extract potential of the malt. Well-run brewhouses often reach the low to mid 90s percent."
+  ],
+  [
+   "Where does a brewery lose most beer volume?",
+   "Losses are spread across fermentation, filtration, tank bottoms, packaging and breakage. Packaging and filtration are often the largest visible ones."
+  ],
+  [
+   "Should all brewing losses be valued at the same cost?",
+   "No. A litre lost later in the process carries more cost, including packaging and sometimes excise duty, so each stage should have its own cost per litre."
+  ],
+  [
+   "Can a brewery reduce losses to zero?",
+   "No. Some losses protect quality, such as leaving trub behind or discarding old yeast. The aim is to control variation, not remove every loss."
+  ]
+ ],
+ "cta": {
+  "title": "Help your finance team see where the litres really go",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that walk finance through the brewery from malt to case.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-cost-of-goods-explained",
+  "returnable-glass-bottles-in-indian-beer-and-why-they-matter",
+  "cost-per-hectolitre-explained-for-finance-teams"
+ ]
+}

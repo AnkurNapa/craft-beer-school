@@ -1,0 +1,67 @@
+{
+ "slug": "dry-states-and-restricted-markets-for-beer-planners",
+ "cat": "Beer for teams",
+ "h1": "Dry states and restricted markets for beer planners",
+ "title": "Dry States and Restricted Beer Markets | Craft Beer School",
+ "desc": "How prohibition states, dry days and licensing limits shape an Indian beer volume plan. What to model, not assume.",
+ "teaser": "A map of India is not a map of the beer market. Planners need to know where beer cannot be sold and when.",
+ "standfirst": "India has states where beer cannot legally be sold at all, plus dry days, election bans and licensing caps almost everywhere else. For a demand planner these are not footnotes. They decide where volume can exist and when it disappears for a day or a week.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Some states take beer off the map entirely",
+   "<p>Alcohol policy in India sits with the states, so the national beer market is really a set of separate state markets with their own rules. A few states run full prohibition. Gujarat has had prohibition since its formation in 1960. Bihar introduced it in 2016. Nagaland and Mizoram also prohibit the sale of alcohol, as does the union territory of Lakshadweep outside permitted exceptions. Policies in this area have changed before and can change again, so planners should treat this list as a starting point and confirm the current position with the company's regulatory or excise team.</p><p>For a planner the consequence is simple: there is no retail demand to forecast in a dry state. Any volume that appears against those geographies in a data set is either a coding error, permit-based supply under specific rules or a neighbouring state's depot mislabelled. Check it before it reaches a forecast.</p>"
+  ],
+  [
+   "Border effects move volume next door",
+   "<p>Prohibition does not remove thirst. It often pushes legal purchases into neighbouring states and union territories, especially in towns near the border. Retail outlets in those border districts can show sales well above what their local population would suggest.</p><p>This matters when you build a forecast from population or per capita consumption. A district that borders a dry state may need its own baseline rather than a state average. It also means a policy change in one state can shift volume in another. If a dry state relaxed its rules, the neighbour's border outlets would lose some of that trade. If a state tightened them, the reverse would happen. Planners do not need to predict policy, but they should know which districts are exposed.</p>"
+  ],
+  [
+   "Dry days are the restriction most plans forget",
+   "<p>Even in states where beer is freely sold, retail and on-trade sales stop on dry days. These usually include national holidays such as Republic Day, Independence Day and Gandhi Jayanti, plus state festivals and religious days that vary by state. Polling days and the period immediately before them are dry in the constituencies going to vote. Counting day often is too.</p><p>In a large state an election can mean several dry days, sometimes staggered across districts over weeks. If every day sold the same, losing two trading days would remove two sevenths of a week's retail sales in the affected area, close to 29%. Some of that demand is pulled forward into the days before the ban. Some of it is simply lost. Your plan should carry a dry day calendar by state, updated as election schedules are announced.</p>"
+  ],
+  [
+   "Licensing caps limit where beer can be sold",
+   "<p>Restricted markets also come in quieter forms. States control the number of retail and on-trade licences, opening hours, the distance from schools and places of worship and, in some cases, whether beer can be sold in the same outlet as spirits. Highway distance rules have also affected outlet counts in the past.</p><p>When a state cuts licences or changes outlet rules, the number of points of sale changes overnight. That shows up in your data as a sudden drop in numeric distribution rather than a change in consumer demand. Read volume per outlet alongside total volume, so you can tell the two apart. Our guide to <a href=\"route-to-market-in-indian-beer-state-corporations-depots.html\">route to market in Indian beer</a> explains how state corporations and depots sit in that chain.</p>"
+  ],
+  [
+   "How to model restrictions in the plan",
+   "<p>A useful approach is to separate the forecast into base demand and restriction effects:</p><ul><li><strong>Base demand</strong> per state from history, cleaned of dry days and disruptions.</li><li><strong>Calendar adjustments</strong> for known dry days, with a pull-forward assumption for the day before.</li><li><strong>Event adjustments</strong> for elections, using the announced schedule by district.</li><li><strong>Structural adjustments</strong> for licence changes or policy shifts, entered only once confirmed.</li></ul><p>Keeping these layers apart makes the forecast explainable. When actuals miss, you can see whether the base was wrong or a restriction was mis-sized. That is worth more than a single blended number nobody can unpick.</p>"
+  ],
+  [
+   "Why the brewery cares about your dry day calendar",
+   "<p>Beer is brewed weeks before it is sold. A typical lager spends roughly three to four weeks in fermentation and maturation before packaging, so the brewery commits volume long before the dry days arrive. If an election week is missed in the plan, finished beer sits in depots with a printed best before date ticking down. Our guides to <a href=\"beer-seasonality-for-demand-planners.html\">beer seasonality for demand planners</a> and <a href=\"fermentation-lead-times-explained-for-supply-planners.html\">fermentation lead times</a> show how the calendar and the tank schedule interact.</p><p>Restrictions also affect the brewery's packaging mix. Strong beer and mild beer, bottles and cans, may sell in different proportions in border districts than in the state as a whole. A planner who knows where volume is shifting can warn supply which packs to build ahead of an election or a festival ban.</p><p>A first step: build a single sheet listing every dry day and announced election phase for your top five states over the next quarter. Share it with the supply team before the next planning meeting.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which Indian states have alcohol prohibition?",
+   "Gujarat, Bihar, Nagaland and Mizoram prohibit alcohol sales, along with Lakshadweep outside permitted exceptions. Policies change, so confirm the current position before planning."
+  ],
+  [
+   "Do dry days affect beer forecasts much?",
+   "Yes. Losing two trading days in a week can cut that week's retail sales by more than a quarter in the affected area, with some demand pulled forward."
+  ],
+  [
+   "Should election dry days be in the volume plan?",
+   "Yes, by district and phase, once the schedule is announced. Elections can create several dry days in a large state."
+  ],
+  [
+   "How can planners tell a demand drop from a licensing change?",
+   "Track volume per outlet alongside total volume. A licence cut reduces outlet count while volume per outlet often holds."
+  ]
+ ],
+ "cta": {
+  "title": "Help your planners see the market the way the brewery does",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions that explain how regulation and production shape the plan.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-seasonality-for-demand-planners",
+  "brewery-capacity-utilisation-explained-for-planners",
+  "fermentation-lead-times-explained-for-supply-planners"
+ ]
+}

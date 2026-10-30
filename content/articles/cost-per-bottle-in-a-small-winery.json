@@ -1,0 +1,67 @@
+{
+ "slug": "cost-per-bottle-in-a-small-winery",
+ "cat": "Wine",
+ "h1": "Working out cost per bottle in a small winery",
+ "title": "Cost per Bottle in a Small Winery | Craft Beer School",
+ "desc": "How to work out cost per bottle: fruit, winemaking, packaging, labour, overhead, losses and the cost of money, with a worked example in hypothetical units.",
+ "teaser": "If you do not know what a bottle costs you, you cannot price it, fund it or know when you are losing money.",
+ "standfirst": "Cost per bottle is the number that sits under every pricing and funding decision. Here is how to build it from the ground up, with an example you can copy using your own figures.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why this number matters",
+   "<p>Price, margin, break-even and loan size all rest on cost per bottle. Wineries that guess usually guess low, because the costs that hide are the ones nobody sees on an invoice: lost wine, idle tanks, cleaning time and the interest on money tied up while the wine ages.</p>\n<p>Keep it honest even when it hurts. A founder who sees a cost of 6 units and a shelf price of 8 learns early that the chain does not work. A founder who never calculates it learns that after the first year of trading.</p>"
+  ],
+  [
+   "The cost blocks",
+   "<ol><li>Fruit or juice, including transport and sorting.</li><li>Winemaking inputs: yeast, nutrients, sulphur dioxide, fining agents, filter pads and gases.</li><li>Direct labour in the cellar.</li><li>Packaging: glass, closure, capsule, label, carton.</li><li>Utilities: power for cooling, water for cleaning.</li><li>Equipment wear and repairs.</li><li>Overheads: rent or loan payments on the building, insurance, licences, admin and marketing.</li><li>Losses: wine lost in lees, racking, filtering and bottling, plus breakage and samples.</li><li>The cost of money while the wine is ageing.</li></ol>\n<p>Split the list in two. Direct costs rise with each bottle. Overheads do not.</p>\n<p>Glass is a good place to check your numbers. A heavy bottle can cost noticeably more than a light one and does little for the wine. Closures differ too: natural cork, technical cork, synthetic closures and screw caps carry different prices and different risks. Ask suppliers for quotes at your real order size, because small lots cost more per unit.</p>"
+  ],
+  [
+   "Start from bottles, not litres",
+   "<p>Fruit gives juice. Juice gives wine. Wine gives bottles after losses. A 750 ml bottle holds 0.75 litre, so a 1,000 litre tank of finished wine cannot give more than about 1,333 bottles. Real bottling gives fewer after losses. Use the actual bottle count at the end of the process, not the theoretical figure. The difference is one of the largest sources of error in beginners' costing.</p>\n<p>Check it twice a year. Compare the litres that went into each tank with the bottles that came out, then note where the biggest gaps sit. Racking and filtering losses are usually the easiest to cut.</p>"
+  ],
+  [
+   "A worked example in hypothetical units",
+   "<p>Suppose a winery bottles 1,000 bottles from one batch. The batch cost is:</p>\n<ul><li>Fruit: 2,000 units.</li><li>Winemaking inputs: 300 units.</li><li>Cellar labour: 500 units.</li><li>Packaging: 1,500 units.</li><li>Utilities and wear: 200 units.</li><li>Share of overheads: 1,500 units.</li></ul>\n<p>The total is 6,000 units, so the cost is 6 units a bottle. Now suppose 5 per cent of the wine was lost before bottling and the same costs applied to only 950 bottles. The cost rises to about 6.3 units. A small loss moves the number. Now add interest on money tied up for a year. These figures are invented for the method. Use your own.</p>"
+  ],
+  [
+   "Allocate overhead honestly",
+   "<p>Overheads are shared across all the wine you make. A simple method divides annual overhead by the bottles you expect to bottle that year. If you overestimate bottles, you underestimate the overhead per bottle. Use a realistic volume. Our guide on <a href=\"boutique-winery-economics.html\">boutique winery economics</a> shows how volume changes the picture.</p>\n<p>If you also run a tasting room, give it its own costs and income so that cellar costs are not mixed with hospitality costs. Otherwise one hides the other. Staff who work in both should have their time split on a sensible basis, such as hours.</p>"
+  ],
+  [
+   "Use the number",
+   "<p>Cost per bottle is a floor for price. Work from it into the shelf price using the price chain in <a href=\"pricing-wine-cost-positioning-and-shelf.html\">pricing wine</a>. It also feeds your cash flow and the size of your loan. See <a href=\"funding-a-winery.html\">funding a winery</a>.</p>\n<p>Recalculate after every vintage. Compare the plan with the actual and find the line that moved. Over a few vintages you will know your own costs better than any industry figure.</p>\n<p>Show the number to your winemaker and your sales lead. Both can find savings the owner cannot see: a cheaper closure, fewer racking steps, a better tank fill. A cost model that only the owner understands does not change behaviour.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the biggest hidden cost?",
+   "Often lost wine and the cost of money while stock waits. Both are easy to forget."
+  ],
+  [
+   "Should I include overheads in cost per bottle?",
+   "Yes for pricing and funding. Keep a direct-cost version too for day-to-day decisions."
+  ],
+  [
+   "How often should I recalculate?",
+   "After every vintage and when a major cost changes."
+  ],
+  [
+   "Is there a standard cost per bottle?",
+   "No. It depends on your fruit, scale, style and packaging. Work it out from your own records."
+  ]
+ ],
+ "cta": {
+  "title": "Know what each bottle really costs",
+  "body": "The Winery Business course is two weeks, live online. It teaches you to build a cost per bottle model from your own figures, then use it for pricing, break-even and funding.",
+  "href": "winery-business-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "when-to-hire-a-consultant-winemaker",
+  "funding-a-winery",
+  "importing-wine-into-india"
+ ]
+}

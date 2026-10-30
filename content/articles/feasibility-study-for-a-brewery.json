@@ -1,0 +1,71 @@
+{
+ "slug": "feasibility-study-for-a-brewery",
+ "cat": "Consultancy",
+ "h1": "A feasibility study for a brewery: the questions it must answer",
+ "title": "Feasibility Study for a Brewery | Craft Beer School",
+ "desc": "The questions a brewery feasibility study must answer before you commit money: market, licence route, site, plant, people and cash.",
+ "teaser": "A feasibility study decides whether to proceed. It should be able to say no.",
+ "standfirst": "A feasibility study is done before the detailed report, when the question is still open. Its job is to find the reasons a brewery might fail while they are cheap to fix.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a feasibility study is for",
+   "<p>A feasibility study asks whether a project should go ahead. A detailed project report assumes it should and shows how. The study comes first, costs less and must be willing to return a no or a \"not at this scale\".</p><p>Many founders skip it and go straight to a DPR, because the lender asked for one. That is how a plan for the wrong size of brewery ends up polished and wrong. The relationship between the two is covered in <a href=\"project-report-or-business-plan.html\">project report or business plan</a>.</p>"
+  ],
+  [
+   "Question 1: is there demand at a price you can live with?",
+   "<p>Start with the buyer. Who will drink this beer, in which places, at what price per pint or per bottle? Check the local price of rival beers, the trade margin each channel takes and whether the state allows the channel you plan to use. Alcohol is a state subject in India, so a plan that works in one state may not be legal or viable next door.</p><p>Work from your own evidence: price lists you have collected, visits to outlets, conversations with distributors. Avoid quoting market sizes you cannot source. A bottom-up view is more honest. If you expect to supply 50 venues at 4 kegs of 30 litres a month, that is 6,000 litres a month. You can then check whether 50 venues exist in your catchment.</p>"
+  ],
+  [
+   "Question 2: which licences do you need and in what order?",
+   "<p>Describe the route: company set-up, premises, pollution consent, food safety registration, then the excise or duty licences that let you brew and sell. Say how long each step usually takes in your jurisdiction as a range from the authority or an adviser, not from memory. Rules differ by country and by Indian state. They also change, so confirm each with the regulator or a licensing adviser.</p><p>The order matters because some approvals need a built premises while a lender wants approvals before releasing money. Mapping that loop early saves months.</p>"
+  ],
+  [
+   "Question 3: does the site work?",
+   "<p>A brewery needs reliable water, three-phase power, drainage for effluent, floor strength for full tanks, loading access and sometimes a cold room. Water is the item people forget. Small breweries often use far more water per litre of beer than large, efficient plants do. If your water is costly or hard to get, say so with a number.</p><p>Check zoning too. A site that is cheap because it is not zoned for industrial use is not cheap.</p>"
+  ],
+  [
+   "Question 4: what size and what does it cost?",
+   "<p>Pick a scale from the demand estimate, not from a brewhouse catalogue. Then size every step: brewhouse, fermenters, conditioning, packaging, cold storage. A brewhouse that can make two brews a day is no use if you have two fermenters. See <a href=\"capacity-planning-in-a-project-report.html\">capacity planning in a project report</a>.</p><p>Get at least two quotations for the main plant. Add installation, utilities, pre-operative costs and contingency.</p>"
+  ],
+  [
+   "Question 5: does the cash work and how fragile is it?",
+   "<p>Build a simple model with volume, price, variable cost and fixed cost. Here is a hypothetical in neutral units. Price 10 per litre, variable cost 6 per litre, fixed costs 400,000 a month. Contribution is 4 per litre, so break-even is 100,000 litres a month. At 160,000 litres of capacity that is about 63 percent utilisation.</p><p>Now ask what happens if price falls to 9. Contribution drops to 3 and break-even rises to about 133,000 litres, or 83 percent of capacity. One unit off the price moves you from comfortable to precarious. This is why a feasibility study should end with a sensitivity test, described in <a href=\"sensitivity-analysis-for-a-drinks-project.html\">sensitivity analysis for a drinks project</a>.</p>"
+  ],
+  [
+   "Question 6: who runs it?",
+   "<p>List the roles: head brewer, quality, packaging, sales, finance. Name which you have and which you must hire. A brewery with a good plant and no one who has run a fermentation schedule in heat is a risk. The study should say so.</p><p>Close with a clear recommendation: proceed, proceed at a different scale or stop. A study that always says proceed is a brochure.</p><p>Keep the study short enough to read in one sitting and put the working in an appendix. If the answer is proceed, the same evidence carries forward into the detailed report, so nothing is wasted.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How is a feasibility study different from a DPR?",
+   "A feasibility study decides whether to proceed, at a lower level of detail. A DPR assumes the decision and gives the detailed technical and financial case for lenders and investors."
+  ],
+  [
+   "Can a feasibility study say no?",
+   "It should be able to. If the break-even volume is above what the market and the site can support, the honest result is a different scale or no project."
+  ],
+  [
+   "Do I need a feasibility study if I already have funding?",
+   "It is still worth doing. The cost of a study is small beside the cost of building a plant of the wrong size."
+  ],
+  [
+   "Does it replace advice on licences?",
+   "No. It maps the route at process level. Confirm each step with the regulator or a licensing adviser, because rules differ and change."
+  ]
+ ],
+ "cta": {
+  "title": "Test the idea before you build the plant",
+  "body": "Our project and business reports service includes feasibility studies for breweries, led by Ankur Napa. We work through demand, licensing route, site, scale and cash. We tell you plainly what we find.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Ask for a project report"
+ },
+ "related": [
+  "sensitivity-analysis-for-a-drinks-project",
+  "project-report-or-business-plan",
+  "feasibility-study-for-a-craft-distillery"
+ ]
+}

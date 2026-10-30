@@ -1,0 +1,71 @@
+{
+ "slug": "project-report-for-a-brewpub",
+ "cat": "Consultancy",
+ "h1": "A project report for a brewpub",
+ "title": "A Project Report for a Brewpub | Craft Beer School",
+ "desc": "What a brewpub project report must show: two businesses in one, the sales mix, the size of the brewhouse and the cash cycle of a venue.",
+ "teaser": "A brewpub is a brewery and a restaurant at once. The report has to prove both.",
+ "standfirst": "A brewpub project report covers a venue and a brewery in one set of numbers. Most weaknesses come from treating one half as an afterthought.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Two businesses, one report",
+   "<p>A brewpub makes beer on the premises and sells it there, usually with food. So the report needs hospitality numbers (covers, spend per head, occupancy, rent) and brewing numbers (batch size, fermenter time, yield, ingredients). Many reports are strong on one and thin on the other.</p><p>Licences also differ. In many places, including Indian states, a brewpub falls under a specific licence class with its own conditions on sales, hours and volume. Rules differ by state and change, so describe the route and confirm it with the regulator or a licensing adviser.</p>"
+  ],
+  [
+   "Seats, hours and turns",
+   "<p>Hospitality revenue starts with seats. Count them, multiply by the number of times a seat is used per day (turns) and by spend per head. A hypothetical venue with 80 seats and 1.5 turns a day serves 120 guests. Check that against your opening hours and the days when the licence allows sales. A venue that is full on Saturday night and quiet on Tuesday afternoon needs an average, not a peak, in its model.</p>"
+  ],
+  [
+   "Size the brewhouse from sales, not from catalogues",
+   "<p>A brewpub's limit is usually sales, not brewing. A hypothetical: 120 guests a day, 70 percent order beer and each has 0.6 litres on average. That is about 50 litres a day, or roughly 15,000 litres over 300 trading days (about 151 hl). A 5 hl brewhouse would need about 30 brews a year, one every ten days or so.</p><p>Seeing that, an owner might choose a smaller brewhouse and spend the difference on tanks to hold more styles, since a pub sells variety. See <a href=\"capacity-planning-in-a-project-report.html\">capacity planning in a project report</a> for the method. Note that the illustration uses invented figures. Use footfall and spend you can support with evidence.</p>"
+  ],
+  [
+   "Revenue mix and margins",
+   "<p>Split revenue into beer, food, other drinks, merchandise and any packaged beer sold off site. Each has a different margin and each depends on the others. Beer drives the visit. Food adds spend per head.</p><p>A simple illustration: out of every 100 units of revenue, 55 come from beer, 40 from food and 5 from other items. If beer and food have different cost of sales, the blend, not either alone, drives profit. Show the blend, then show what happens if food sales are weaker than planned. This is the sensitivity work in <a href=\"sensitivity-analysis-for-a-drinks-project.html\">sensitivity analysis for a drinks project</a>.</p>"
+  ],
+  [
+   "Site, layout and utilities",
+   "<p>A brewpub competes on location and experience. The report should show the site plan: where the brewhouse sits, how the grain comes in, where spent grain goes, how the cold room serves the bar and how drainage and effluent are handled. A brewhouse in view of guests is a draw, but it also means steam, noise and cleaning chemicals sit beside the dining room. The layout must allow for that.</p><p>Include utilities per litre of beer and for the kitchen. Gas, power and water costs in a hot city are not small. Cooling a cold room and a dining space can be the biggest electricity item.</p>"
+  ],
+  [
+   "Capex, opening costs and ramp-up",
+   "<p>Break out the fit-out, brewing plant, kitchen, furniture, licences, pre-opening salaries and marketing. Pre-opening costs are easy to underestimate. Rent and staff run for months before the doors open. Commissioning a brewhouse and training the team also take time before the first pint can be sold, so add the weeks between handover and trading to the timeline, not just the cost.</p><p>Show a ramp-up. Footfall builds over months, not on day one. Link it to an opening plan and a marketing plan. Show the cash needed to bridge the quiet period. A hypothetical: if monthly fixed costs are 15 units and sales cover only half of them for the first four months, the bridge is about 30 units. The plan should say where it comes from.</p>"
+  ],
+  [
+   "Staff, management and the model",
+   "<p>Name who will brew, who will run the floor and who will watch the numbers. A brewer who also manages a restaurant is a warning sign. Then give lenders the standard financial package: projections, repayment cover, break-even, NPV, IRR and payback. They are explained in <a href=\"npv-irr-and-payback-for-a-brewery-project.html\">NPV, IRR and payback for a brewery project</a>.</p><p>As always, a report cannot promise a loan or approval. It can show that the project has been thought through from the brewhouse to the bar.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is a brewpub project report different from a brewery report?",
+   "Yes. It must also cover the venue: covers, spend per head, rent, kitchen and hospitality staff. The brewing side is usually smaller and sales driven."
+  ],
+  [
+   "How big should a brewpub brewhouse be?",
+   "Work back from realistic beer sales per day and the number of styles you want on tap. Often the answer is a smaller brewhouse and more tanks than owners expect."
+  ],
+  [
+   "Which licence does a brewpub need?",
+   "It depends on the country and, in India, the state. Rules differ and change, so confirm with the regulator or a licensing adviser."
+  ],
+  [
+   "What is the biggest mistake in brewpub projections?",
+   "Taking the best possible footfall and spend from day one. Build a ramp and test a weaker food or footfall case."
+  ]
+ ],
+ "cta": {
+  "title": "Get both halves of the brewpub right",
+  "body": "Our project and business reports service prepares brewpub project reports that cover the venue and the brewery, led by Ankur Napa. Share your concept and site. We will tell you what the numbers need.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Ask for a project report"
+ },
+ "related": [
+  "investor-pack-for-a-drinks-start-up",
+  "npv-irr-and-payback-for-a-brewery-project",
+  "project-report-for-a-brewery-expansion"
+ ]
+}

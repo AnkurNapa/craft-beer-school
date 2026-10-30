@@ -1,0 +1,71 @@
+{
+ "slug": "steam-versus-electric-heating-for-a-brewpub-brewhouse",
+ "cat": "Business",
+ "h1": "Steam versus electric heating for a brewpub brewhouse",
+ "title": "Steam or Electric Brewhouse Heating | Craft Beer School",
+ "desc": "How steam and electric brewhouse heating compare on power load, running cost, boiler rules, speed and wort quality for a brewpub in India.",
+ "teaser": "Electric looks simpler until you see the power load. Steam looks complicated until you see the boil. Here is how to choose.",
+ "standfirst": "The heat source is one of the first brewhouse decisions and one of the hardest to reverse. It decides your power connection, your fuel bill and your compliance work. Here is how we weigh steam against electric for a brewpub.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The energy sum comes first",
+   "<p>Start with the physics, because it does not care about brochures. Heating 1,000 litres of wort from 20 °C to 100 °C needs about 1,000 kg x 4.18 kJ/kg°C x 80 °C, which is roughly 334,000 kJ or 93 kWh. That ignores losses. The boil then evaporates water, which takes a great deal more energy again.</p><p>With 60 kW of electric elements, that warm-up alone takes over an hour and a half in a perfect world. Real brewhouses lose heat to the air, so plan for longer. That single calculation explains most of the steam versus electric argument.</p>"
+  ],
+  [
+   "How electric heating works in practice",
+   "<p>Electric brewhouses put immersion elements in the kettle and hot liquor tank, or use heated jackets. There is no boiler, no flame and no fuel store. For a small brewpub of 3 to 5 hl that can be the simplest route.</p><ul><li><strong>Power load.</strong> Element ratings add up fast. Your sanctioned load from the electricity board must cover the brewhouse, the glycol chiller and the kitchen at once.</li><li><strong>Scorching.</strong> Elements in direct contact with wort run very hot. Low watt-density elements reduce scorching and the burnt flavour that comes with it.</li><li><strong>Cleaning.</strong> Elements build up protein and scale and need regular cleaning.</li></ul>"
+  ],
+  [
+   "How steam works in practice",
+   "<p>A steam brewhouse uses a boiler, fired by diesel, gas or electricity, to send steam through jackets on the mash tun and kettle. Brewhouse steam usually runs at around 2 to 3 bar gauge, where saturated steam is about 134 to 144 °C. That spreads heat over a large jacket surface, so the wort heats evenly with little scorching. You can also heat the mash tun gently for step mashes.</p><p>Steam scales well. Most brewhouses from about 10 hl upwards use it. The price is the boiler itself, the water treatment it needs and the paperwork. In India a steam boiler above the small exemption limits must be registered with the state boiler inspectorate. Our guide to <a href=\"registering-a-steam-boiler-for-a-brewhouse-in-india.html\">registering a steam boiler</a> covers that process.</p>"
+  ],
+  [
+   "Running cost: do the sum with your own tariffs",
+   "<p>Compare cost per kWh of useful heat. Electric heating turns nearly all its energy into heat in the wort. A fuel-fired boiler typically delivers about 80 to 85% of the fuel's energy as steam when well maintained, less when it is not. Diesel holds roughly 10 kWh of energy per litre.</p><p>So the sum is: electricity tariff per kWh against fuel price per litre divided by about 8 kWh of delivered heat. Use your own state's commercial tariff, including demand charges. Then add the boiler's maintenance, water treatment and annual inspection. Prices move too much to print a winner, but the method holds.</p>"
+  ],
+  [
+   "Space, people and the shared building",
+   "<p>A boiler needs its own room or a safe outdoor spot, a flue, a fuel supply and, depending on the rules, a certified attendant. In a brewpub inside a mall or tech park that can be hard to get approved. Steam vents from the kettle also need handling. See our guide on <a href=\"kitchen-exhaust-and-brewhouse-steam-vents-in-a-shared.html\">kitchen exhaust and steam vents</a>.</p><p>Electric needs none of that, which is why many city brewpubs choose it even when steam would brew better beer.</p>"
+  ],
+  [
+   "Our rule of thumb",
+   "<p>Below about 5 hl with a good power connection, electric is usually the sensible choice. Above about 10 hl, steam usually wins on boil quality and heating time. Between the two, it depends on your site, your power sanction and whether a boiler can be approved there. An electric steam generator sits in the middle: steam jackets without combustion, but still drawing heavy power.</p><p>This is a decision to model, not to guess. Founders who run the numbers on load, tariff and brew length before ordering avoid the most expensive retrofit in the building.</p>"
+  ],
+  [
+   "What the boil itself asks for",
+   "<p>The kettle needs a vigorous, rolling boil to drive off DMS precursors from pale malts and to coagulate protein into hot break. Brewers commonly aim for evaporation of around 5 to 10% an hour. An underpowered kettle that only simmers gives you a cooked corn note in pale lagers and hazier beer.</p><p>So ask suppliers for evaporation rate as well as heating time. A steam jacket or a well sized set of elements should both reach a proper boil. The difference shows in how fast they get there and how evenly the heat spreads.</p>"
+  ],
+  [
+   "Before you ask for quotes",
+   "<p>Get your sanctioned load and tariff from the electricity bill. Ask each supplier for the installed heating power in kW and the expected time from mash-in to knockout for your batch size. If the time looks too good for the kW, do the 93 kWh sum above and ask them to explain it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is electric or steam better for a small brewpub?",
+   "Below about 5 hl, electric is often simpler and cheaper to install if your power connection allows it. Steam gives a gentler, more even boil and suits larger brewhouses."
+  ],
+  [
+   "Do I need a licence for a brewhouse steam boiler in India?",
+   "Boilers above the exemption limits must be registered with the state boiler inspectorate and inspected regularly. The rules vary and change, so check with the inspectorate or a consultant."
+  ],
+  [
+   "Does electric heating affect beer flavour?",
+   "It can. High watt-density elements may scorch wort and add a burnt note. Low watt-density elements and good cleaning reduce the risk."
+  ]
+ ],
+ "cta": {
+  "title": "Size your brewhouse before you buy it",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It walks through equipment choices, utility loads and the running costs that decide whether a brewhouse pays, using your site's numbers.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewpub-layout-kitchen-brewhouse-bar",
+  "kitchen-exhaust-and-brewhouse-steam-vents-in-a-shared",
+  "registering-a-steam-boiler-for-a-brewhouse-in-india"
+ ]
+}

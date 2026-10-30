@@ -1,0 +1,71 @@
+{
+ "slug": "managing-tank-space-when-every-beer-is-selling-at-once",
+ "cat": "Business",
+ "h1": "Managing tank space when every beer is selling at once",
+ "title": "Managing Tank Space When Beer Sells Out | Craft Beer School",
+ "desc": "How to plan fermenter and brite tank time when demand outruns capacity: tank-days, beer margin per day, scheduling and when to add tanks.",
+ "teaser": "When every beer sells, tank space becomes the real product. Here is how to schedule it so you stop guessing.",
+ "standfirst": "A brewery that sells out has a good problem and a hard one. Tank space is limited and every style wants a different number of days. This guide shows how to count tank-days, rank beers by what they earn per day and decide when to buy more tanks.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Tank-days are the real currency",
+   "<p>A fermenter holds beer for a number of days. During those days nothing else can use it. So capacity is not only the volume of your tanks. It is volume multiplied by days available. Count in hectolitre-days.</p><p>A beer that occupies a 20 hl tank for 14 days uses 280 hl-days. A lager that takes 30 days uses 600. Sales volumes hide this, because the lager and the ale may sell the same number of litres.</p>"
+  ],
+  [
+   "How many batches a year can you make",
+   "<p>Annual capacity per tank = 365 / (cycle days + turnaround days) x tank volume. Turnaround is the emptying, cleaning and refilling time, often one day.</p><p>An illustration with hypothetical figures: four 20 hl fermenters.</p><ul><li>Ale at 14 days plus 1 turnaround: 24 turns of 20 hl per tank, about 480 hl a year per tank.</li><li>Lager at 28 days plus 1: about 12 turns, 240 hl a year per tank.</li></ul><p>All four tanks on ale gives about 1,920 hl a year at full use. Switch two to lager and it falls to about 1,440 hl. Nobody runs at 100%, so apply a realistic fill rate of 80 to 85% to those numbers. The point is the size of the swing, not the exact figure.</p>"
+  ],
+  [
+   "Rank beers by margin per tank-day",
+   "<p>Contribution per hectolitre is not enough, because it ignores time. Divide contribution by the days in the tank.</p><p>A made-up example: Beer A earns 100 units per hl and takes 15 days in tank, so 6.7 per hl-day. Beer B earns 130 units per hl and takes 30 days, so 4.3 per hl-day. If tanks are the limit, Beer A makes more money, even though Beer B looks richer on a price list.</p><p>Use your own contribution figures. Our guide to <a href=\"becoming-a-contract-brewer-to-fill-spare-tank-space.html\">becoming a contract brewer to fill spare tank space</a> shows the other side, when tanks are empty.</p>"
+  ],
+  [
+   "Shorten the time a beer sits in the tank",
+   "<p>Before you buy another tank, look at the days. Several are within your control.</p><ul><li>Reduce idle days. A beer that finished fermenting on Tuesday and was packaged on Friday wasted three tank-days.</li><li>Move beer to a brite tank or a cold room to free the fermenter.</li><li>Use warm-fermented lagers or shorter lager schedules where the style allows.</li><li>Pitch correctly and ferment at the top of the yeast's range so ales finish promptly. Keep the diacetyl rest.</li><li>Crash and fine to clear faster, if a clear beer is acceptable.</li></ul><p>Do not cut time where it costs the beer. A lager that was rushed to free a tank and sold with diacetyl is a loss.</p>"
+  ],
+  [
+   "The chiller can be the real limit",
+   "<p>In an Indian summer the glycol chiller may be your bottleneck. If several tanks crash at the same time, the chiller falls behind and fermentation temperatures climb. Spread crashes through the week, use a schedule board that shows chiller load and keep an eye on the glycol return temperature. Sometimes the cheapest capacity gain is a bigger chiller or a better insulated cold room, not another tank.</p>"
+  ],
+  [
+   "A scheduling board that works",
+   "<p>Use a simple grid with tanks down the side and days across the top. Colour each block by beer and add the turnaround day. Fill it for the next eight weeks. Gaps become obvious, as do clashes when two beers need the same tank. Update it every morning.</p><p>Keep a short list of low-risk fillers for a gap: a house pale ale that ferments fast and sells reliably.</p>"
+  ],
+  [
+   "When to add capacity",
+   "<p>If your schedule is full at a realistic fill rate, you have tried the fixes above and the demand is steady, then adding a tank is sensible. Check first whether new states or channels will bring more demand than you can serve. Our guide to <a href=\"selling-beer-across-state-borders-in-india-and-the-permits.html\">selling beer across state borders in India and the permits</a> covers the process. Rules vary by state and change. Compare the cost of a tank against the contribution it will earn per year, using the margin per tank-day figure. If you have a brewpub, also see <a href=\"leasing-space-for-a-brewpub.html\">leasing space for a brewpub</a>, because floor space may limit you before money does.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a tank-day?",
+   "One tank occupied for one day. A 20 hl tank full for 14 days uses 280 hl-days of capacity. Counting tank-days shows which beers use up your capacity."
+  ],
+  [
+   "How do I decide which beer to brew first?",
+   "Rank beers by contribution per hectolitre divided by days in tank. This shows which style earns the most from limited tank time."
+  ],
+  [
+   "Should I buy another fermenter when everything is selling?",
+   "Check first whether you can cut idle days and whether the glycol chiller can cope. If capacity is still the limit at a realistic fill rate, add a tank."
+  ],
+  [
+   "Why is my lager using so much capacity?",
+   "Lagers sit in the tank two to four weeks, against one to two for most ales, so one lager takes the capacity of two or more ale batches."
+  ]
+ ],
+ "cta": {
+  "title": "Plan capacity before you buy a tank",
+  "body": "Brewery Business Management is a three week live course (₹8,999). It covers capacity planning, costing and scheduling for breweries, using your own numbers in the weekly assignments.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "becoming-a-contract-brewer-to-fill-spare-tank-space",
+  "leasing-space-for-a-brewpub",
+  "selling-beer-across-state-borders-in-india-and-the-permits"
+ ]
+}

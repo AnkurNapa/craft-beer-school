@@ -1,0 +1,67 @@
+{
+ "slug": "planning-water-supply-and-storage-for-a-new-brewery",
+ "cat": "Business",
+ "h1": "Planning water supply and storage for a new brewery",
+ "title": "Water Supply and Storage for a Brewery | Craft Beer School",
+ "desc": "How much water a new brewery needs, how much storage to build and how to plan treatment, tanker backup and hot water before the site is fitted out.",
+ "teaser": "Beer is mostly water. The brewery uses several times more than ends up in the glass. Plan the supply before the tanks arrive.",
+ "standfirst": "A brewery needs reliable water in volume, at a quality it can control. In much of India that means planning storage and backup as carefully as the brewhouse. Here is how to size it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Work out the daily volume first",
+   "<p>Small breweries commonly use somewhere between four and ten litres of water for every litre of beer sold. The extra goes into mash and sparge water that stays in the grain, boil-off, vessel rinses, cleaning, cooling and floor washing. Newer and smaller sites tend to sit at the higher end until the team tightens its habits.</p><p>Do the arithmetic for your own plan. A brewpub selling 1,000 litres a week at a ratio of seven needs about 7,000 litres a week. Brew days are uneven, though. A 500 litre brew day can use 3,000 litres or more in a few hours once mashing, sparging, cooling and cleaning are counted. Size the supply for brew day, not the weekly average.</p>"
+  ],
+  [
+   "Where the water comes from",
+   "<p>Most Indian breweries rely on one or more of municipal supply, a borewell or tankers. Each has a catch. Municipal water may arrive for a few hours a day and carries chlorine or chloramine that must be removed before brewing. Borewell water can be hard or high in dissolved solids and may need permission to draw. Our guide on <a href=\"getting-groundwater-permission-for-a-brewery-borewell.html\">groundwater permission for a brewery borewell</a> covers that. Tanker water varies from load to load.</p><p>Whatever the source, get a full water report before you design treatment. Ask for hardness, alkalinity, calcium, magnesium, sodium, chloride, sulphate, iron, total dissolved solids and pH. Repeat it in another season, since borewell chemistry often shifts between monsoon and summer.</p>"
+  ],
+  [
+   "Storage turns an unreliable supply into a reliable one",
+   "<p>The usual approach is to hold enough raw water for at least one full brew day plus cleaning. Two days of total use is better, so a missed municipal supply or a late tanker does not stop production. For the brewpub above, that might mean a raw water tank of 5,000 to 10,000 litres.</p><p>Store raw water in food grade tanks, shaded and covered, with a clean-out access. Plan a treated water tank after filtration as well, so the brewhouse draws from a steady, known supply rather than straight from the treatment line. Summer is when supply is thinnest and demand highest, which our guide on <a href=\"planning-for-water-shortages-and-tanker-supply-in-summer.html\">water shortages and tanker supply</a> covers in detail.</p>"
+  ],
+  [
+   "Treatment and what it costs in water",
+   "<p>At minimum, brewing water needs sediment filtration and activated carbon to remove chlorine and chloramine. Many breweries with hard borewell water add reverse osmosis and then build back the minerals they want for each style with brewing salts.</p><p>RO has a water cost of its own. A typical small commercial unit sends a large share of its feed to drain as reject, often a third or more. That reject can be reused for floor washing or toilets if the plumbing allows. Plan the RO capacity and the reject route together, or you will size the tank for treated water and forget the extra raw water the unit consumes.</p>"
+  ],
+  [
+   "Hot water and cold water are capacity too",
+   "<p>A hot liquor tank lets you heat brewing water ahead of time and recover heat from the wort chiller. With a plate heat exchanger cooling wort from boiling to fermentation temperature, the outgoing cooling water leaves hot and can go straight back to the hot liquor tank for the next brew or for cleaning. That saves both water and energy.</p><p>On the cold side, Indian groundwater in summer can be close to 30 °C, which is too warm to cool wort to 18 °C for an ale or 10 °C for a lager in one pass. Many breweries use a cold liquor tank chilled overnight or a second glycol stage. Plan the space and power for it now.</p>"
+  ],
+  [
+   "Keep the water safe once it is stored",
+   "<p>Stored water does not stay good on its own. Once the chlorine is removed, treated water has no protection against bacteria, so keep the treated tank small enough to turn over daily. Raw water tanks need cleaning on a fixed schedule, often every few months. Clean them more often if tanker water brings in silt.</p><p>Test what you store as well as what arrives. A simple chlorine test kit at the brewhouse inlet confirms that the carbon filter is still working. A failing carbon bed shows up later as chlorophenols in the beer: a medicinal, plastic-bandage note that no amount of dry hopping hides. Change carbon cartridges on volume treated, not on the calendar. Record each change in the brewhouse log.</p>"
+  ],
+  [
+   "Measure from the first brew",
+   "<p>Fit a water meter on the main supply and, if the budget allows, one on the brewhouse feed. Log readings every brew day. Within a month you will know your real ratio and where the water goes. That number is the most useful single figure for spotting waste and for sizing the next expansion.</p><p>Water planning sits next to drainage, power and the licence path in a new brewery project. The Brewery Business Management course works through those utilities as one plan, with the costing beside them.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much water does a small brewery use?",
+   "Commonly four to ten litres for every litre of beer sold, depending on the process and how carefully cleaning water is managed."
+  ],
+  [
+   "How much water storage should a brewery have?",
+   "Enough for at least one full brew day plus cleaning. Two days of total use is better, so a missed supply does not stop production."
+  ],
+  [
+   "Do I need reverse osmosis for brewing water?",
+   "Not always. Carbon filtration to remove chlorine is the minimum. RO helps when the source is very hard or high in dissolved solids, but it sends a share of the feed water to drain."
+  ]
+ ],
+ "cta": {
+  "title": "Plan the utilities behind your brewery",
+  "body": "Brewery Business Management runs live on Saturdays and Sundays, 12:00 PM to 2:00 PM IST, for three weeks. Batches are capped at 20, every class is recorded and you finish with a certificate. The fee is ₹8,999. It covers site utilities, running costs and the approvals behind them.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "planning-floor-drains-and-slopes-in-a-new-brewery",
+  "planning-for-water-shortages-and-tanker-supply-in-summer",
+  "brewery-utilities-water-power"
+ ]
+}

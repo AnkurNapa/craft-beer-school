@@ -1,0 +1,67 @@
+{
+ "slug": "becoming-a-brewing-process-engineer",
+ "cat": "Careers",
+ "h1": "Becoming a brewing process engineer",
+ "title": "Becoming a Brewing Process Engineer | Craft Beer School",
+ "desc": "What a brewing process engineer does: yields, energy and water, scale-up, troubleshooting and new equipment, plus the skills and routes into the role.",
+ "teaser": "Process engineers ask why a brewery uses this much malt, water and energy for each litre, then make it use less.",
+ "standfirst": "Brewing process engineers look at a brewery as a set of flows: grain, water, heat, wort, beer and waste. They measure those flows, find the losses and design changes that make the process more consistent and efficient. It suits chemical engineers who like beer.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What process engineers do",
+   "<p>A brewing process engineer improves how the brewery makes beer. The work covers four broad areas:</p><ul><li><strong>Performance:</strong> measuring yields, losses, cycle times and energy use, then finding improvements.</li><li><strong>Troubleshooting:</strong> working out why a lauter has slowed, a filter is blocking early or a beer is drifting off specification.</li><li><strong>Projects:</strong> specifying and commissioning new vessels, heat exchangers, filters or utilities.</li><li><strong>Scale-up:</strong> taking a recipe from a pilot plant or a smaller brewery and making it work on production kit.</li></ul><p>In large breweries this is a dedicated role. In smaller ones, a head brewer with an engineering mind does much of it alongside everything else.</p>"
+  ],
+  [
+   "Everything starts with a balance",
+   "<p>The process engineer's basic tool is the mass and energy balance. What goes in must come out somewhere. If 1,000 kg of malt and a known volume of water go into the mash, the engineer accounts for the extract in the wort, the extract left in the spent grain, the water evaporated in the boil and the beer lost in trub, yeast and tank bottoms.</p><p>Brewhouse yield is one result: how much of the malt's potential extract reaches the fermenter. Our guide to <a href=\"brewhouse-efficiency.html\">brewhouse efficiency</a> shows the calculation. Small changes matter at scale. A large brewery that lifts yield by one percentage point saves roughly that share of its malt bill every year.</p><p>Energy balances work the same way. Wort is boiled, then cooled. A plate heat exchanger that cools hot wort with cold brewing water recovers much of that heat as hot water for the next brew, which is why breweries rarely waste it.</p>"
+  ],
+  [
+   "Water and energy are the big targets",
+   "<p>Breweries use far more water than ends up in the beer, mainly for cleaning, cooling and rinsing. Large efficient breweries often work towards around three to four litres of water per litre of beer. Small breweries commonly use much more. Process engineers find where it goes, often in CIP rinses, bottle washers and pasteurisers, then cut it without risking hygiene.</p><p>Energy follows the same logic: boiling, refrigeration and steam. Engineers look at boil evaporation rates, insulation, refrigeration efficiency and heat recovery. In India, where cooling loads are high for much of the year, refrigeration is often the biggest electricity user.</p>"
+  ],
+  [
+   "Scale-up is harder than it looks",
+   "<p>A beer that works on a 50 litre pilot system does not automatically work on a 100 hectolitre brewhouse. Hop utilisation changes with boil vigour and vessel shape. Whirlpool time changes how much aroma survives. Fermenter geometry affects yeast behaviour and the pressure the yeast works under.</p><p>Raw materials add another layer. Malt from a new crop can modify differently, so the same mash schedule gives a different wort. Rice and maize adjuncts, common in Indian lagers, need cooking in a cereal cooker to gelatinise their starch before the malt enzymes can convert it. A process engineer sets those cooking temperatures and times and checks them against the extract the brewhouse actually achieves.</p><p>Process engineers translate recipes rather than copy them. They adjust hop additions for utilisation, plan the fermentation profile for a tall vessel and run trial batches with careful measurement before full production. Our guide to <a href=\"scaling-a-pilot-recipe-to-production.html\">scaling a pilot recipe to production</a> covers the main adjustments.</p>"
+  ],
+  [
+   "Skills and qualifications",
+   "<p>Most brewing process engineers have a degree in chemical engineering, biochemical engineering or food process engineering. Some add a brewing qualification, such as the Institute of Brewing and Distilling's Diploma in Brewing, or a postgraduate course in brewing science.</p><p>Useful skills include:</p><ul><li>Heat and mass transfer, fluid flow and process control.</li><li>Statistics, to separate real changes from noise.</li><li>Spreadsheets and data tools for analysing plant data.</li><li>Brewing science: enzymes, yeast metabolism and the chemistry of flavour.</li></ul><p>That last one separates good brewing engineers from good engineers who happen to work in a brewery. Knowing why a mash rest at 63 °C gives a more fermentable wort than one at 70 °C lets you see which process changes will change the beer.</p>"
+  ],
+  [
+   "Where it leads",
+   "<p>Process engineers move into brewing management, technical management, capital project roles or central technical teams that support several breweries. Some join equipment suppliers as process specialists. Others move towards data and automation, where plant data feeds models that predict yields or catch problems early. See our guide to <a href=\"careers-in-brewery-automation-and-control-systems.html\">careers in brewery automation</a>.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Take one brew you know, at home or at work. Write its balance: grain in, water in, wort out, spent grain out, water evaporated. If the numbers do not close within a few per cent, find out where the missing water or extract went. That habit is the job.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does a brewing process engineer do?",
+   "Measures and improves brewery yields, energy and water use, troubleshoots process problems, scales up recipes and commissions new equipment."
+  ],
+  [
+   "What degree do brewing process engineers need?",
+   "Usually chemical, biochemical or food process engineering. A brewing qualification such as the IBD Diploma in Brewing helps."
+  ],
+  [
+   "How much water does a brewery use per litre of beer?",
+   "Large efficient breweries often aim for around three to four litres of water per litre of beer. Small breweries commonly use more."
+  ]
+ ],
+ "cta": {
+  "title": "Learn the science the plant runs on",
+  "body": "Advanced Brewing Science is our six week live course. It covers mashing chemistry, hop utilisation, yeast physiology and process control, the science behind every balance a process engineer draws.",
+  "label": "See what the course covers",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "beer-judge-bjcp-exam",
+  "a-career-as-a-brewery-maintenance-engineer",
+  "becoming-a-beer-trainer-or-educator-in-india"
+ ]
+}

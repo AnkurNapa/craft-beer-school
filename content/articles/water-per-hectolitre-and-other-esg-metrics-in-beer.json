@@ -1,0 +1,63 @@
+{
+ "slug": "water-per-hectolitre-and-other-esg-metrics-in-beer",
+ "cat": "Beer for teams",
+ "h1": "Water per hectolitre and other ESG metrics in beer",
+ "title": "Water per Hectolitre and Beer ESG | Craft Beer School",
+ "desc": "What water per hectolitre, energy per hectolitre and other brewery ESG metrics mean, how they are calculated and how to read them.",
+ "teaser": "Beer is mostly water, yet most of a brewery's water never ends up in the beer. That gap is what water per hectolitre measures.",
+ "standfirst": "ESG reports for beer companies lean on a handful of ratios: water, energy, carbon and waste per hectolitre. This guide explains what each one measures, how it is calculated and what moves it on the brewery floor.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Water per hectolitre is a ratio of two meters",
+   "<p>Water use ratio, often written as hl/hl, is the volume of water a brewery takes in divided by the volume of beer it produces. If a brewery draws 400,000 hl of water in a year and produces 100,000 hl of beer, its water use ratio is 4.0 hl/hl.</p><p>Beer itself is more than 90% water, so in that example roughly one hectolitre of every four goes into the product. The rest is used for brewing and cleaning, then leaves as wastewater, steam or with by-products. Efficient large breweries are commonly quoted at around 3 hl/hl. Smaller breweries and those with lots of packaging changeovers often run higher.</p>"
+  ],
+  [
+   "Where the extra water goes",
+   "<p>The water that does not end up in beer goes to a few places:</p><ul><li><strong>Cleaning.</strong> Cleaning in place (CIP) of tanks, pipes and the brewhouse is often the largest single use.</li><li><strong>Packaging.</strong> Bottle washers for returnable glass and tunnel pasteurisers use a lot of water.</li><li><strong>Utilities.</strong> Boilers, cooling towers and refrigeration lose water to evaporation and blowdown.</li><li><strong>Brewing losses.</strong> Water leaves with spent grain, trub and yeast.</li></ul><p>Returnable glass is a big factor in India. Washing a bottle uses water, but making a new one uses far more energy. That trade off is why a single ESG number never tells the whole story. Our guide to <a href=\"brewhouse-kpis-for-analysts.html\">brewhouse KPIs for analysts</a> covers the production ratios that sit alongside it.</p><p>Water source matters in India too. Many breweries draw from borewells or buy tanker water. Groundwater stress is a real local issue in several brewing regions. A ratio of 4 hl/hl means something different in a water stressed district than in one with plentiful municipal supply. Good reports say where the water comes from as well as how much is used.</p>"
+  ],
+  [
+   "Energy, carbon and the scopes",
+   "<p>Energy is usually reported as megajoules or kilowatt hours per hectolitre, split into thermal energy (mostly steam for the brewhouse and pasteurisation) and electrical energy (mostly refrigeration, compressed air and motors). Wort boiling and pasteurisation dominate heat. Refrigeration dominates electricity, especially in a hot climate where chilling fermenters and cold rooms works harder.</p><p>Carbon follows the greenhouse gas protocol scopes. Scope 1 is fuel burned on site, such as boiler fuel. Scope 2 is purchased electricity. Scope 3 is everything else in the value chain, including malt, packaging and distribution. For most breweries, Scope 3 is the largest. Packaging, especially new glass, is a big part of it. That means a brewery can cut its own energy use sharply and still barely move its total footprint.</p>"
+  ],
+  [
+   "Waste and by-products",
+   "<p>The largest by-product by weight is spent grain, commonly quoted at around 20 kg of wet spent grain per hectolitre of beer. It is usually sold as cattle feed, so it counts as a by-product rather than waste in most reports. Yeast, trub, broken glass, labels and cardboard make up most of the rest.</p><p>ESG reports often show a waste recycling or recovery rate: the share of solid waste sent for reuse, recycling or feed rather than landfill. Read the definition. A brewery that counts spent grain sold for feed will show a very high rate even if its other waste goes to landfill.</p>"
+  ],
+  [
+   "Reading the ratios honestly",
+   "<p>All of these metrics are per hectolitre of beer, so they move when volume moves. A brewery that runs at half capacity in a slow month will show worse water and energy ratios even if nothing on the floor changed, because cleaning and utilities do not scale down neatly with volume. Compare like with like: the same site, the same season, similar volumes.</p><p>Product mix matters too. Lagers need long cold maturation, which adds refrigeration energy. Many small packaging runs mean more changeovers and more cleaning. When a ratio worsens, check volume and mix before concluding that efficiency fell.</p><p>In India, the largest listed companies report sustainability data through SEBI's Business Responsibility and Sustainability Report (BRSR). Our guide to <a href=\"cost-per-hectolitre-explained-for-finance-teams.html\">cost per hectolitre</a> shows how the same per hectolitre logic works for finance.</p>"
+  ],
+  [
+   "Where to start",
+   "<p>Ask for one year of monthly water intake and beer production for one site and calculate hl/hl for each month. Plot it beside monthly volume. The months where the ratio jumps while volume holds steady are where the operations team can tell you what really happened.</p><p>Then ask where the water is metered. Many breweries meter only the main intake, so the split between cleaning, packaging and utilities is an estimate. Sub-meters on the bottle washer, the pasteuriser and the CIP system turn a single site ratio into something an engineer can act on. The ESG number gets better when the floor can see where the water goes, not when the report is redrafted.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good water use ratio for a brewery?",
+   "Efficient large breweries are commonly quoted around 3 hectolitres of water per hectolitre of beer. Smaller sites and those with many changeovers usually run higher."
+  ],
+  [
+   "Why does most brewery water not end up in the beer?",
+   "Much of it is used for cleaning, bottle washing, pasteurising, boilers and cooling, then leaves as wastewater or evaporation."
+  ],
+  [
+   "Which emissions scope is largest for a brewery?",
+   "Usually Scope 3, the value chain, where malt and packaging, especially new glass, make up a large share."
+  ]
+ ],
+ "cta": {
+  "title": "Help your team read ESG ratios with the brewery in mind",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules like Beverage 101 and guided sensory sessions built around the beers your company actually sells.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "cost-per-hectolitre-explained-for-finance-teams",
+  "beer-industry-explained-for-gcc-teams",
+  "brewhouse-kpis-for-analysts"
+ ]
+}

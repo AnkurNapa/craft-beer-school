@@ -1,0 +1,67 @@
+{
+ "slug": "planning-brewery-capacity-for-a-festival-season-rush",
+ "cat": "Business",
+ "h1": "Planning brewery capacity for a festival season rush",
+ "title": "Planning Brewery Capacity for a Rush | Craft Beer School",
+ "desc": "How to plan brewery capacity for the festival season: forecast demand, work out tank days, brew ahead and stop the cellar becoming the bottleneck.",
+ "teaser": "The festival rush is won in the cellar six weeks earlier. Here is how to work out whether your tanks can keep up.",
+ "standfirst": "Many breweries see a sharp rise in demand around the festival season and the year end parties. Most breweries find out too late that their brewhouse could keep up but their fermenters could not. The sums are simple once you count in tank days.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Fermenters set your capacity",
+   "<p>A small brewhouse can usually brew far more wort than the cellar can ferment. A brewhouse that turns out one batch a day could make 25 to 30 batches a month. The fermenters decide how many of those batches you can actually hold.</p><p>Capacity is measured in tank days. An ale that spends 14 days in a fermenter from brew to transfer uses 14 tank days. A lager that ferments and lagers for 28 days uses 28. With four fermenters you have about 120 tank days a month. That is roughly eight ale batches or four lager batches, whatever the brewhouse can do.</p>"
+  ],
+  [
+   "Forecast the rush from last year",
+   "<p>Start with real numbers. Pull last year's sales by week and by beer, from invoices or your excise records. Mark the weeks that ran high. If you are new, use your current weekly sales and ask your largest trade customers what uplift they expect.</p><p>Convert that forecast into batches. Say you sell 2,000 litres a week normally and expect 3,000 litres a week for the six peak weeks. That is 6,000 extra litres. On a 1,000 litre brewhouse with around 900 litres sold per batch after losses, you need about seven extra batches.</p><p>Then convert batches into tank days. Seven extra ale batches at 14 days each is 98 extra tank days, close to a whole fermenter for three months. That number is usually the moment brewers realise they need a plan.</p>"
+  ],
+  [
+   "Brew ahead with beers that keep",
+   "<p>The simplest way to add capacity is to start earlier. Six to eight weeks before the peak, brew beers that hold their flavour in a cold tank or in kegs: lagers and malt led ales such as ambers and porters. Fill bright tanks and kegs, store them cold and draw them down when the rush arrives.</p><p>Keep the hop forward beers for last. A hazy IPA brewed eight weeks early will lose aroma before it is poured. Brew those as close to the peak as the tank schedule allows.</p><p>Check the cold store before you brew ahead. Kegs at 25 °C in a warehouse will not taste fresh at Diwali. Our guide to <a href=\"planning-staff-leave-around-festivals-and-peak-weekends.html\">planning staff leave around festivals</a> covers the people side of the same calendar, so the clashes are visible early.</p>"
+  ],
+  [
+   "Shorten tank time without cutting corners",
+   "<p>Some tank days can be saved safely. Others cannot.</p><ul><li><strong>Safe:</strong> pitching the right amount of healthy yeast, so lag time is short. Controlling temperature tightly, so fermentation finishes on schedule. Moving finished beer promptly to a bright tank or kegs instead of letting it sit in a fermenter.</li><li><strong>Risky:</strong> transferring before diacetyl has cleared, crash cooling before gravity is stable or skipping lagering on a lager. Rushed beer returns from the trade as complaints.</li></ul><p>Always check diacetyl before transfer with a forced test: warm a sealed sample to about 60 °C for 10 to 20 minutes, cool it and smell for butterscotch. If it is there, the beer is not ready, whatever the calendar says.</p>"
+  ],
+  [
+   "Look past the tanks",
+   "<p>Once the fermenters are sorted, the next bottleneck appears somewhere else. Check each of these against the peak plan:</p><ul><li>Kegs and cooperage: count how many kegs are in trade and how fast they come back. Rushes often stall on empty kegs.</li><li>Raw materials: order malt, hops and CO2 early, because suppliers also get busy.</li><li>People: a peak plan may need a second shift. See our guide to <a href=\"adding-a-second-brewing-shift-as-sales-grow.html\">adding a second brewing shift</a>.</li><li>Cleaning: more batches mean more CIP cycles and more caustic.</li><li>Excise: confirm permits and label approvals for any seasonal beer well ahead, since timelines vary by state.</li></ul>"
+  ],
+  [
+   "Know when to say no",
+   "<p>Sometimes the sums show you cannot meet the forecast. Then the business decision is which customers and which beers come first. Usually it is the outlets that buy year round and the beers with the best margin. Turning down a one-off festival order can be better than shorting a bar that buys every week.</p><p>If the peak repeats every year and you keep turning work away, that is the case for another fermenter. Put the cost of the tank, its glycol connection and its installation against the extra margin from the batches it adds each year. Our guide to <a href=\"buying-fermenters-in-stages-as-sales-grow.html\">buying fermenters in stages</a> covers how to size and time that purchase.</p><p>That trade-off between volume, margin and loyalty is a management call rather than a brewing one. It gets easier with a proper cost per litre for each beer.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Count your tank days for the next twelve weeks. List every fermenter and every batch already planned. Then add the extra batches your forecast needs and see which week turns red. That week is when you need to start brewing ahead.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How do I work out my brewery's real capacity?",
+   "Count tank days. Multiply the number of fermenters by the days in the month, then divide by the days each beer spends in a tank. That is your batch limit."
+  ],
+  [
+   "Which beers can be brewed ahead of a rush?",
+   "Lagers and malt led ales hold up well in cold storage. Brew hop forward beers as close to the peak as possible."
+  ],
+  [
+   "Can I shorten fermentation to make more beer?",
+   "Only by fermenting well, not by rushing. Pitch healthy yeast and control temperature, but never transfer before diacetyl clears or gravity is stable."
+  ]
+ ],
+ "cta": {
+  "title": "Plan capacity before the orders arrive",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers forecasting, capacity, cost per litre and cash flow, so you can decide which orders to take and when to invest in tanks.",
+  "label": "See the full syllabus",
+  "href": "brewery-business-management-course.html"
+ },
+ "related": [
+  "planning-floor-drains-and-slopes-in-a-new-brewery",
+  "planning-ventilation-and-co2-safety-in-brewery-cellars",
+  "planning-water-supply-and-storage-for-a-new-brewery"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "planning-the-electrical-load-for-a-brewpub-before-fit-out",
+ "cat": "Business",
+ "h1": "Planning the electrical load for a brewpub before fit out",
+ "title": "Brewpub Electrical Load Planning | Craft Beer School",
+ "desc": "How to add up a brewpub's electrical load, from kettle elements to glycol chillers. Get the sanctioned load right before the walls close.",
+ "teaser": "An electric brewhouse, a glycol chiller and a busy kitchen can all peak at 7 pm. Your power supply has to survive that hour.",
+ "standfirst": "Power is the utility founders check last and regret first. This guide shows how to list every load, apply sensible diversity and arrive at a figure you can take to the electricity board before fit out starts.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the electrics come before the paint",
+   "<p>Most brewpub sites were built as shops, offices or restaurants. Their existing connection was sized for lights, air conditioning and perhaps a kitchen. A brewhouse adds heating, pumps, refrigeration and cleaning on top. If the supply cannot carry it, you need an enhanced sanctioned load from the distribution company, sometimes a new transformer and almost always new cabling inside the building.</p><p>All of that has lead times. Some of it needs the landlord's consent. Find out what the site can supply before you sign the lease, then confirm it again before the architect finalises the layout. Our guide on the <a href=\"brewpub-layout-kitchen-brewhouse-bar.html\">brewpub layout</a> shows how the three zones compete for space. They compete for power in the same way.</p>"
+  ],
+  [
+   "Start with a load list",
+   "<p>Write down every piece of equipment that draws power, its rated kilowatts and whether it is single or three phase. A typical brewpub list includes:</p><ul><li>Brewhouse heating, if electric: kettle and hot liquor tank elements.</li><li>Pumps, mill, agitators and the CIP pump.</li><li>Glycol chiller and cold room compressors.</li><li>Kitchen: ovens, fryers, induction hobs, dishwasher, exhaust fans.</li><li>Air conditioning for the dining area, often the biggest single block.</li><li>Lighting, POS, sound system and bar fridges.</li></ul><p>Get the rated figure from each supplier's data sheet, not from a salesperson's estimate. Then add a line for the things you will add in year two, because there is always a canning machine or a second chiller.</p>"
+  ],
+  [
+   "The kettle is the big number",
+   "<p>Heating water takes a lot of energy. Raising 500 litres of wort from 70 °C to boiling needs about 500 kg x 4.18 kJ per kg per degree x 30 degrees, which is roughly 63,000 kJ or 17.5 kWh, before any losses. To do that in half an hour you need elements of around 35 kW. Holding a rolling boil against heat loss takes more.</p><p>That is why many brewpubs above a few hectolitres use steam or gas firing instead. Our guide on <a href=\"steam-versus-electric-heating-for-a-brewpub-brewhouse.html\">steam versus electric heating</a> compares the options. If you go electric, the brewhouse alone may need more power than the rest of the venue put together.</p>"
+  ],
+  [
+   "Cabling, phases and the distribution board",
+   "<p>Once the load list exists, the electrical consultant can design the distribution inside the building. Brewhouse heating and large compressors run on three phase supply. Spread single phase loads such as lighting, fridges and sockets evenly across the three phases, or one phase runs hot while the others sit idle.</p><p>Give the brewery its own sub-board, separate from the kitchen and dining area. Wet areas need splash-proof sockets and isolators placed above the level a hose can reach, with earth leakage protection on every circuit. A brewery floor is wet most of the day. Electrical safety there is not an area for savings. Leave spare ways on every board for the equipment you will add later, because cutting into a live board after opening means a closed brewery for a day.</p>"
+  ],
+  [
+   "Diversity: not everything runs at once",
+   "<p>Adding every rated figure gives the connected load. The supply you need is lower, because the kettle is not boiling while the mill runs and the fryers are not all on at 11 am. Electrical engineers apply a diversity factor to each group to estimate the maximum demand.</p><p>Be careful with diversity in a brewpub. The worst case is real: a Friday evening brew finishing its boil while the chiller pulls hard on a hot day, the kitchen is full and every air conditioner is on. Schedule brewing for mornings where you can. Ask the engineer to show the maximum demand calculation with brewing on and off so you can see how much the timing buys you.</p>"
+  ],
+  [
+   "Talk to the distribution company early",
+   "<p>The sanctioned load or contract demand is what your connection is approved to draw. Exceeding it can mean penalty charges. A large enough load may move you to a different tariff category or to a high tension connection with its own transformer. The thresholds, tariffs and paperwork differ by state and distribution company and they change, so get the current rules from the local office or an electrical consultant.</p><p>Ask about power factor at the same time. Motors and compressors pull the power factor down. Many commercial tariffs penalise a low power factor, which a capacitor bank can correct.</p>"
+  ],
+  [
+   "Backup power and the beer in the tanks",
+   "<p>A power cut on a summer afternoon is a brewing problem as well as a dining one. Fermenters lose temperature control. Cold rooms warm up. A lager fermenting at 10 °C can climb several degrees in a few hours once the glycol stops. Size the diesel generator or inverter to carry at least the chiller, cold room, pumps and essential lights, even if it cannot run the kettle.</p><p>Put the essential circuits on their own distribution board so the changeover is clean. Label everything. The Brewery Business Management course covers utility planning and running costs alongside the licence path, so the electrical figure ends up in your budget instead of surprising it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much power does a brewpub need?",
+   "It depends on the brewhouse heating method, the kitchen and the air conditioning. List every load, apply diversity with an electrical engineer and confirm the maximum demand before fit out."
+  ],
+  [
+   "Is an electric brewhouse practical in India?",
+   "For small systems, yes. Above a few hectolitres the kettle elements become a very large load, which is why many brewpubs choose steam or gas."
+  ],
+  [
+   "What should the generator cover?",
+   "At minimum the glycol chiller, cold room, pumps and essential lighting, so beer in the tanks stays at temperature during a power cut."
+  ]
+ ],
+ "cta": {
+  "title": "Get your brewpub's numbers right before fit out",
+  "body": "Brewery Business Management runs live on Saturdays and Sundays, 12:00 PM to 2:00 PM IST, for three weeks. Batches are capped at 20, every class is recorded and you finish with a certificate. The fee is ₹8,999. It covers utilities, fit out costing and the approvals path in the order you will need them.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "negotiating-a-rent-free-fit-out-period-on-a-brewpub-lease",
+  "brewpub-layout-kitchen-brewhouse-bar",
+  "planning-a-brewpub-opening-month"
+ ]
+}

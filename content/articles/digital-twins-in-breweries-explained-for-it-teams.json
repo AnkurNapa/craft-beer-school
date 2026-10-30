@@ -1,0 +1,71 @@
+{
+ "slug": "digital-twins-in-breweries-explained-for-it-teams",
+ "cat": "Beer for teams",
+ "h1": "Digital twins in breweries explained for IT teams",
+ "title": "Brewery Digital Twins for IT Teams | Craft Beer School",
+ "desc": "What a digital twin of a brewery really is, what data feeds it, why fermentation makes it hard and the questions IT teams should ask first.",
+ "teaser": "A digital twin is not a 3D picture of a brewery. It is a model that stays in step with the real plant. Here is what that means for your systems.",
+ "standfirst": "IT teams in drinks companies hear the phrase digital twin often. Behind it sits a plain idea with a hard biological centre. This guide explains the idea, the data it needs and where breweries differ from other factories.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a digital twin means in a brewery",
+   "<p>A digital twin is a model of a real asset that is fed live data, so the model and the plant move together. The asset can be one fermentation tank, a brewhouse, a packaging line or a whole site. The model can be a set of equations, a simulation or a machine learning model trained on history.</p><p>It helps to separate three levels. A <strong>descriptive</strong> twin shows what the plant is doing now. A <strong>diagnostic</strong> twin explains why a tank is behaving oddly. A <strong>predictive</strong> twin says what will happen next, such as when a fermentation will finish. Most useful brewery work today sits at the first two levels. Prediction is possible, but it needs more history than people expect.</p>"
+  ],
+  [
+   "Why beer is harder than a bottling line",
+   "<p>A can filler is a machine. Its behaviour repeats. Fermentation is a living process. Yeast converts sugar to alcohol and carbon dioxide. It also gives off heat while it does so. In a large tank that heat is enough to warm the beer by several degrees if the cooling jacket does not respond. The same recipe can run faster or slower depending on yeast health, wort composition and temperature.</p><p>This is why planners treat brewing times as ranges. Our guide on <a href=\"fermentation-lead-times-explained-for-supply-planners.html\">fermentation lead times for supply planners</a> explains that side. A twin has to represent a range, not a single number. It also has to tolerate batches that do not follow the script.</p>"
+  ],
+  [
+   "The data a brewery twin needs",
+   "<p>Most of it already exists. It is spread across systems that do not talk to each other:</p><ul><li><strong>PLC and SCADA tags</strong>: tank temperatures, valve positions, pump status, pressures and flow.</li><li><strong>A historian</strong>: the time series store behind SCADA.</li><li><strong>Laboratory results</strong>: gravity, pH, diacetyl, microbiology, usually in a LIMS or spreadsheets.</li><li><strong>Batch records</strong>: recipe, tank, yeast generation, start and end times.</li><li><strong>ERP and planning</strong>: orders, stock and the production plan.</li></ul><p>Digital sensors can add gravity and temperature continuously. Our guide on <a href=\"digital-hydrometers-and-fermentation-sensors.html\">digital hydrometers and fermentation sensors</a> shows what they measure. Without sensors, gravity arrives as a manual reading once or twice a day.</p>"
+  ],
+  [
+   "The unglamorous work comes first",
+   "<p>Twin projects fail on data plumbing more often than on modelling. The questions IT teams can settle early are practical:</p><ol><li>Does every tank and tag have a consistent name across plants?</li><li>Are clocks synchronised, so a lab result lines up with a temperature curve?</li><li>Can you link a time series to a batch, a recipe and a yeast generation?</li><li>Who owns the plant network and how is it separated from the office network?</li><li>Where do laboratory results live? Who corrects them when someone types a wrong value?</li></ol><p>A brewery that can answer these has most of a twin already. One that cannot should fix them before it buys software.</p>"
+  ],
+  [
+   "What a twin can do for a production team",
+   "<p>Start with questions the plant already asks. Is this fermentation on its normal curve? Will tank 6 be free on Thursday? How much cooling energy did we use per hectolitre last week? A diagnostic twin overlays today's gravity curve on a band built from past batches and flags the tank that has stalled. A scheduling twin simulates tank use against the plan, which links to the capacity problem in our guide on <a href=\"beer-production-planning-basics.html\">beer production planning basics</a>.</p><p>Each question has an owner on the floor. The best projects begin with a brewer or planner who has the problem, not an IT team looking for a use for a platform.</p>"
+  ],
+  [
+   "Limits to state plainly",
+   "<p>A twin does not replace taste. Flavour is judged by a trained panel. Most sensors do not measure it. A twin built on twelve batches will be wrong about the thirteenth if conditions change. A model of fermentation fitted to one yeast strain does not transfer to another without retraining. A twin that nobody on the floor trusts becomes a dashboard that nobody opens.</p><p>Be honest with the business about what is a model and what is a measurement. The cost side matters too. Our guide on <a href=\"beer-cost-of-goods-explained.html\">beer cost of goods</a> shows where savings from better energy or yield would appear in the accounts.</p>"
+  ],
+  [
+   "Questions to ask before you start",
+   "<ul><li>Which decision will this twin change? Who makes it?</li><li>What data do we have? How far back does it go and how clean is it?</li><li>Which tanks or lines are worth modelling first?</li><li>Who maintains the model after the project team leaves?</li><li>How will we know it helped?</li></ul><p>If you can answer the first question in one sentence, you are ready to scope a pilot. If you cannot, you need a conversation with production first. A shared understanding of the brewing process makes that conversation faster. That is the gap our team training closes.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is a digital twin the same as a 3D model?",
+   "No. A 3D model shows shape. A digital twin is a model that receives live data so it follows what the real plant is doing. It may have no visual at all."
+  ],
+  [
+   "What data does a brewery digital twin need?",
+   "Plant tags from PLC and SCADA, a historian, laboratory results, batch records and planning data. The hard part is linking them by batch and time."
+  ],
+  [
+   "Can a twin predict when fermentation will finish?",
+   "Sometimes. It needs a good history of similar batches and reliable gravity readings. Fermentation varies, so the output should be a range with a confidence band."
+  ],
+  [
+   "Does a twin replace brewers?",
+   "No. It supports their decisions. Flavour, judgement and fixing problems on the floor still need people."
+  ]
+ ],
+ "cta": {
+  "title": "Help your IT team speak brewing",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions, built around the products your team supports.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-industry-explained-for-gcc-teams",
+  "beer-production-planning-basics",
+  "beer-cost-of-goods-explained"
+ ]
+}

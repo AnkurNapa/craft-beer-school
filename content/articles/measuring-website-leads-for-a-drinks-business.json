@@ -1,0 +1,71 @@
+{
+ "slug": "measuring-website-leads-for-a-drinks-business",
+ "cat": "Branding",
+ "h1": "Measuring website leads for a drinks business",
+ "title": "Measuring Website Leads for Drinks | Craft Beer School",
+ "desc": "How a drinks business can count website leads: define a lead, set up Analytics and Search Console, track forms and calls and read the numbers sensibly.",
+ "teaser": "If you cannot say how many enquiries the site brought last month, you cannot say whether it is working. Start with counting.",
+ "standfirst": "A lead is any visitor who takes a step towards buying or visiting. Measuring them does not need a data team. It needs clear definitions and a few free tools set up once.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Define what a lead is",
+   "<p>Write down the actions that matter for your business. For a taproom they may be a table booking, a tour request, a private hire enquiry and a phone call. For a brand they may be a trade enquiry, a click on a stockist link or a newsletter sign-up. For a winery, a tasting booking or a wine club sign-up.</p>\n<p>Give each a rank. A trade enquiry from a bar is worth more than a newsletter sign-up. You do not need exact values, but you should know which actions come first.</p>"
+  ],
+  [
+   "The free tools",
+   "<ul><li><strong>Google Analytics:</strong> counts visits and records actions you define as events, such as a form submission or a click on a phone number.</li><li><strong>Google Search Console:</strong> shows the searches that bring people to your site, plus the clicks.</li><li><strong>Your booking system or form tool:</strong> usually has its own count, which is the most reliable for bookings.</li><li><strong>Your phone and messages:</strong> note calls and chats that came from the site.</li></ul>\n<p>Check privacy rules where you operate. Many places require consent for some tracking. Tell visitors what you collect. Collect no more than you need.</p>"
+  ],
+  [
+   "Tag the sources",
+   "<p>Use tagged links, called UTM parameters, in links you control, such as newsletters, social posts and your Business Profile. They let Analytics show where a visit came from. Keep a naming scheme and stick to it, since small spelling differences split your data.</p>\n<p>For phone enquiries, ask a simple question: how did you hear about us? Record the answer in a notebook or a sheet. It is crude and it works.</p>"
+  ],
+  [
+   "Build a simple table",
+   "<p>Make a monthly table with rows for each lead type and columns for visits, leads and the share of visits that became leads. Add a column for the source. The following example is invented, to show the arithmetic. If 2,000 visits produce 40 booking requests, the rate is 2 per cent. If 25 of those bookings actually turn up, you can see where the gap is.</p>\n<p>Track what happens after the lead: did the table turn up, did the trade enquiry become an order? A lead counted but never followed up is a missed sale.</p>"
+  ],
+  [
+   "Read the numbers sensibly",
+   "<p>Look at trends across months and not single days. Compare similar periods, since weekends, holidays and events change traffic. Do not draw conclusions from very small counts. If bookings fall while visits hold steady, look at the booking page. If visits fall, look at search and your profile.</p>\n<p>Be careful with what the tools cannot see. Some visitors block tracking. Some people see your site, then walk in a week later. Treat the numbers as a guide, not an exact account.</p>"
+  ],
+  [
+   "Show it in a dashboard",
+   "<p>When the table works, a simple dashboard saves time. A spreadsheet chart is enough to start. When your data grows, tools such as Power BI or Tableau can join sales, bookings and web data in one view. That is what our course on Power BI and Tableau for breweries teaches. Link what the numbers say back to your pages with <a href=\"website-calls-to-action-for-taproom-bookings.html\">calls to action for bookings</a>.</p>"
+  ],
+  [
+   "What the numbers cannot tell you",
+   "<p>Web data shows what happened on your site. It does not show why. A drop in bookings could be a broken form, a rainy weekend or a rival event. Pair the counts with a few conversations: ask regulars what they did before visiting. Read the comments in reviews.</p>\n<p>Be honest in your reports about the limits. Say how many leads you counted, how you counted them and what you could not see. A small business gains more from a simple, honest table than from a polished chart built on shaky counts.</p>\n<p>Keep a short note beside each month of anything unusual, such as a festival, a closure or a site change. Context turns a number into something you can learn from.</p>"
+  ],
+  [
+   "A monthly routine",
+   "<p>On the first of each month: update the table, note what changed on the site, check Search Console for new searches and write down one thing to fix or test. Thirty minutes is enough. The habit matters more than the tool. Our <a href=\"seo-for-breweries.html\">SEO for breweries</a> guide shows what to change on the site itself.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need Google Analytics?",
+   "It is the usual free choice, but others exist. Whatever you pick, define your leads first and check the privacy rules where you operate."
+  ],
+  [
+   "How do I count phone calls from the website?",
+   "Use a tap-to-call link that Analytics records as an event. Ask callers how they found you."
+  ],
+  [
+   "What is a good conversion rate?",
+   "It depends on the business and the page, so we do not give a benchmark. Track your own rate and aim to improve it over time."
+  ]
+ ],
+ "cta": {
+  "title": "Turn your numbers into a dashboard",
+  "body": "Power BI and Tableau for Breweries is a two week live online course (₹5,000) with weekly assignments and a certificate. It shows how to bring sales, bookings and web data into one dashboard.",
+  "href": "power-bi-and-tableau-for-breweries-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "managing-reviews-and-ratings-for-a-brewery",
+  "seo-mistakes-drinks-websites-make",
+  "market-research-in-india-for-a-foreign-drinks-brand"
+ ]
+}

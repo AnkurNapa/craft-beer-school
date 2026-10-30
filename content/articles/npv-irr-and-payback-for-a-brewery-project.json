@@ -1,0 +1,71 @@
+{
+ "slug": "npv-irr-and-payback-for-a-brewery-project",
+ "cat": "Consultancy",
+ "h1": "NPV, IRR and payback for a brewery project, explained",
+ "title": "NPV, IRR and Payback for a Brewery | Craft Beer School",
+ "desc": "NPV, IRR and payback explained with one worked brewery example in neutral units, with what each measure hides.",
+ "teaser": "Three measures, one set of cash flows. Here is what each tells you and where each misleads.",
+ "standfirst": "Payback tells you how fast you get your money back. NPV tells you how much value the project adds. IRR tells you the return rate. Used together they are far safer than any one alone.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "One example for all three",
+   "<p>This is a hypothetical in neutral units. It is an illustration, not a forecast. A brewery project costs 100 today. It returns cash of 30, 35, 40, 40 and 40 over five years. We use a 12 percent discount rate, chosen only for the example. Your own rate should reflect your cost of capital and the risk.</p><p>These are net cash flows after operating costs and tax. Depreciation is not a cash flow, so it does not appear.</p>"
+  ],
+  [
+   "Payback: how long to get the money back",
+   "<p>Add the cash flows until they reach the investment. After year one: 30. After year two: 65. After year three: 105. So payback occurs during year three. You need 35 more after year two. Year three brings 40, so payback is 2 + 35/40 = about 2.9 years.</p><p>Payback is easy to explain and shows exposure. It ignores everything after the payback date and ignores the time value of money. A project with fast payback and a short life can be worse than one with slower payback and a long life. Discounted payback fixes the second point: discount each flow first. Here the discounted flows add to 26.8, 54.7, 83.2 and 108.6. Discounted payback is therefore a little under 3.7 years.</p>"
+  ],
+  [
+   "NPV: how much value it adds",
+   "<p>Net present value discounts each future cash flow to today and subtracts the investment. At 12 percent, year one is 30/1.12 = 26.8, year two 35/1.12 squared = 27.9, year three 28.5, year four 25.4 and year five 22.7. They sum to about 131.3. Subtract 100 and NPV is about 31.</p><p>A positive NPV means the project earns more than the discount rate on the money. A negative one means it earns less. NPV is in money, so it also shows scale. The rule is simple: accept if NPV is positive, other things equal. The discount rate is the sensitive input. At 10 percent, NPV is about 38. At 20 percent it is about 8.</p>"
+  ],
+  [
+   "IRR: the rate that makes NPV zero",
+   "<p>The internal rate of return is the discount rate at which NPV equals zero. For these flows it is about 23 percent. You find it by trial or with a spreadsheet function. If IRR is above your required rate, the project passes.</p><p>IRR is popular because a percentage is easy to compare. It has traps. A project with a large outflow later (for example a second plant) can have more than one IRR. When choosing between two projects of different size, IRR can favour the smaller one with a higher rate while NPV favours the larger one. When they disagree, trust NPV.</p>"
+  ],
+  [
+   "What these measures leave out",
+   "<p>They depend entirely on the cash flows. Wrong volume or price makes all three wrong. They also ignore whether you can fund the early years. A project with a good NPV can still run out of cash in year one if working capital is under-planned. That is why lenders also look at debt cover, covered in <a href=\"a-dpr-a-bank-will-accept.html\">writing a DPR a bank will accept</a>.</p><p>Test the cash flows with the method in <a href=\"sensitivity-analysis-for-a-drinks-project.html\">sensitivity analysis for a drinks project</a>. If the cash flows fall by about 24 percent here, NPV reaches zero. That margin of safety is as useful as the 31.</p>"
+  ],
+  [
+   "Choosing the rate and the tax treatment",
+   "<p>The discount rate is a judgement. A common starting point is the weighted cost of the money funding the project: the interest on the loan and the return the owners expect on their equity, weighted by how much of each you use. Add a margin for risk if the project is new. State the rate you used and show NPV at two or three nearby rates, as above.</p><p>Use cash flows after tax. Be clear whether the cash flows include interest. The usual convention is to exclude financing costs from the project cash flows and let the discount rate carry them. Whichever you choose, apply it consistently, or the same project will show two different answers.</p>"
+  ],
+  [
+   "Reading the three together",
+   "<p>Use payback for liquidity, NPV for value and IRR for comparing against a hurdle rate. Put them in the report with the discount rate stated. Do not show an IRR without the cash flows beneath it. Lenders and investors apply their own criteria and may use other measures as well. The measures help you decide. They also help the reader check your decision. They do not guarantee a result.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good IRR for a brewery?",
+   "There is no universal figure. Compare IRR with your cost of capital and the risk of the project. See what your lender or investor expects."
+  ],
+  [
+   "Why use NPV if IRR is easier to understand?",
+   "NPV shows the value added in money and avoids the traps IRR can fall into with mixed cash flows or projects of different size."
+  ],
+  [
+   "Does payback matter?",
+   "Yes, as a measure of how long your money is at risk. It should be read alongside NPV, because it ignores later cash flows."
+  ],
+  [
+   "Which discount rate should I use?",
+   "One that reflects your cost of capital and the risk. State it and show NPV at a few nearby rates."
+  ]
+ ],
+ "cta": {
+  "title": "Get the numbers behind the measures right",
+  "body": "Our project and business reports service builds the cash flow model that NPV, IRR and payback depend on, with sensitivity tests, led by Ankur Napa. Ask for a project report and we will take you through it.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Ask for a project report"
+ },
+ "related": [
+  "project-report-for-a-non-alcoholic-drinks-plant",
+  "what-goes-into-preparing-a-project-report",
+  "mistakes-in-brewery-project-reports"
+ ]
+}

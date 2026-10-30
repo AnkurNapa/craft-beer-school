@@ -1,0 +1,71 @@
+{
+ "slug": "reading-a-brewery-balance-sheet-as-a-founder",
+ "cat": "Business",
+ "h1": "Reading a brewery balance sheet as a founder",
+ "title": "Reading a Brewery Balance Sheet | Craft Beer School",
+ "desc": "How a brewery founder reads a balance sheet: fixed assets, stock, receivables, loans and equity, with a worked illustration and the ratios worth watching.",
+ "teaser": "The profit and loss tells you how the year went. The balance sheet tells you whether the brewery can survive the next one.",
+ "standfirst": "A balance sheet is a photograph of what the brewery owns and owes on one day. Learn to read five lines and a few ratios. You will then see problems long before the bank does.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a balance sheet shows",
+   "<p>It has two sides that must match. On one side is what the brewery owns, called assets. On the other is how those assets were paid for: money owed to others, called liabilities. The rest is money the owners put in or left behind, called equity. The rule is assets = liabilities + equity.</p><p>It differs from your <a href=\"reading-a-brewery-profit-and-loss-statement-as-a-founder.html\">profit and loss statement</a>, which covers a period. The balance sheet is one day, usually the last day of a month or a financial year. Read both together. A brewery can show a profit and still have a weak balance sheet if the profit is stuck in stock or unpaid invoices.</p>"
+  ],
+  [
+   "Assets: what the brewery owns",
+   "<p>Split assets into two groups.</p><ul><li><strong>Fixed assets.</strong> Things you keep for years: brewhouse, fermenters, packaging line, cold room, kegs, vehicles and fit-out. They are recorded at cost less depreciation.</li><li><strong>Current assets.</strong> Cash, stock and money customers owe you. Stock covers malt, hops, yeast, packaging, beer in tank and finished goods.</li></ul><p>Check two things. First, how much of the stock is beer that will sell and how much is old packaging nobody will use. Second, whether the kegs on the list are all still in your control. Kegs go missing in trade. A book value that counts lost kegs overstates your assets. A yearly keg count, tag by tag, is a dull job that protects the number.</p>"
+  ],
+  [
+   "Liabilities: what the brewery owes",
+   "<p>Again two groups.</p><ul><li><strong>Current liabilities.</strong> Due within a year: suppliers, wages, tax, excise dues, the short-term part of any loan.</li><li><strong>Long-term liabilities.</strong> Equipment loans, term loans and any loan from owners or investors.</li></ul><p>Pay particular attention to excise and tax dues. They must be paid on dates you do not control, as our guide to <a href=\"planning-cash-around-excise-payment-dates.html\">planning cash around excise payment dates</a> explains. A large unpaid amount on the day of the sheet is a flag.</p>"
+  ],
+  [
+   "Equity: what is left for the owners",
+   "<p>Equity is assets minus liabilities. It includes the money founders and investors put in and the profits kept in the business, less losses. A brewery with negative equity owes more than it owns. Many young breweries start with strong equity on paper and then lose it slowly through years of small losses. Watch the trend rather than a single figure.</p>"
+  ],
+  [
+   "An illustration with round numbers",
+   "<p>Here is a hypothetical brewery on 31 March, in neutral units:</p><ul><li>Fixed assets after depreciation: 500.</li><li>Stock: 60.</li><li>Receivables: 80.</li><li>Cash: 20.</li><li>Total assets: 660.</li><li>Current liabilities: 130.</li><li>Term loan: 300.</li><li>Equity: 230.</li></ul><p>Liabilities of 430 plus equity of 230 gives 660, so it balances.</p><p>Now test it. Current assets are 160 (stock, receivables and cash) against current liabilities of 130. The ratio is 1.2, a thin cushion. Debt to equity is 300 / 230, or about 1.3. Receivables of 80 against yearly sales of, say, 480 means customers take about 60 days to pay. That is the part to chase. The loan is not the issue.</p>"
+  ],
+  [
+   "Ratios worth watching every quarter",
+   "<p>Four will do for a small brewery.</p><ul><li><strong>Current ratio.</strong> Current assets divided by current liabilities. Under 1 means you owe more in the next year than you can quickly turn into cash.</li><li><strong>Debt to equity.</strong> Total borrowing against owners' money. Your bank will quote its own limit.</li><li><strong>Days of receivables.</strong> Receivables divided by sales times 365. Rising days mean customers are paying later.</li><li><strong>Days of stock.</strong> Stock divided by cost of goods sold times 365. Rising days mean beer or ingredients are sitting.</li></ul><p>There are no universal good values. Compare your own figures month to month.</p>"
+  ],
+  [
+   "Questions the sheet should prompt",
+   "<p>When you read it, ask what changed since last time. Then ask why. If cash fell but profit rose, where did the money go: stock, receivables or loan repayment? If the loan dropped, did the brewery pay it down or just move it to another line? How would the sheet look if founders stepped back from daily operations, as discussed in our guide to <a href=\"stepping-back-from-daily-operations-as-a-brewery-founder.html\">stepping back from daily operations as a brewery founder</a>? Co-founders should also agree how the sheet treats any money they have lent in, which links to <a href=\"brewery-partner-agreements.html\">partner agreements</a>.</p><p>Ask your accountant to walk you through it once a quarter. It is their job. A balance sheet that you cannot explain is a balance sheet that is quietly running the business for you.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What are the main parts of a brewery balance sheet?",
+   "Assets (fixed and current), liabilities (current and long-term) and equity. Assets always equal liabilities plus equity."
+  ],
+  [
+   "Can a profitable brewery have a weak balance sheet?",
+   "Yes. Profit can be tied up in stock or unpaid invoices. Loans or excise dues can also leave too little cash to meet them on time."
+  ],
+  [
+   "What is a current ratio?",
+   "Current assets divided by current liabilities. A figure below 1 means short-term bills exceed what can be turned into cash quickly."
+  ],
+  [
+   "How often should a founder read the balance sheet?",
+   "Monthly if possible and at least quarterly. Compare each one with the last to see the direction of travel."
+  ]
+ ],
+ "cta": {
+  "title": "Read the numbers before they read you",
+  "body": "Brewery Business Management is a three week live course (₹8,999). It teaches cost per litre, cash flow and reading your accounts, with exercises on your own figures.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "reading-a-brewery-profit-and-loss-statement-as-a-founder",
+  "stepping-back-from-daily-operations-as-a-brewery-founder",
+  "brewery-partner-agreements"
+ ]
+}

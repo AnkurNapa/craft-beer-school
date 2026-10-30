@@ -1,0 +1,67 @@
+{
+ "slug": "brewery-shutdowns-and-planned-maintenance-for-planners",
+ "cat": "Beer for teams",
+ "h1": "Brewery shutdowns and planned maintenance for planners",
+ "title": "Brewery Shutdowns for Planners | Craft Beer School",
+ "desc": "Why breweries shut down for planned maintenance, when they schedule it, how long it takes and how planners should build it into supply plans.",
+ "teaser": "Every brewery stops on purpose a few times a year. The planner who knows when and why stops the shelves going empty.",
+ "standfirst": "Planned shutdowns are when a brewery stops lines or the whole site to clean, inspect and repair. They are predictable, which makes them the easiest supply risk to plan around. Here is what happens and how to build it into the numbers.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a brewery has to stop",
+   "<p>A brewery runs hot and wet equipment around the clock. Pumps wear, seals harden, heat exchanger plates foul and filler valves drift. Daily cleaning keeps beer safe, but it does not replace a proper strip-down. Planned maintenance is the scheduled stop where engineers replace wear parts, inspect pressure vessels, calibrate instruments and fix what the running weeks have been patching.</p><p>Some stops are legal or insurance requirements too. Boilers, pressure vessels and refrigeration systems using ammonia need periodic inspection under the applicable rules, which vary by state. A planner does not need the detail, only the fact that some of these dates are not negotiable.</p><p>Skipping planned stops does not save time. It moves the stop to a worse date. A filler that is not overhauled in August tends to fail in April, on a Friday, with the summer order book full. An unplanned breakdown usually costs far more output than the planned stop it replaced, because nobody has built stock for it.</p>"
+  ],
+  [
+   "Line stops and full site shutdowns are different",
+   "<p>Most planned maintenance happens one line at a time. A bottling line might stop for a shift or two every few weeks for preventive work, plus a longer stop of several days once or twice a year. The rest of the plant keeps running.</p><p>A full site shutdown is rarer and bigger. The brewhouse, utilities and packaging all stop together, often for one to three weeks, because some work, such as on the boiler, the main refrigeration plant or the effluent treatment plant, takes the whole site down. During that time no wort is made, so the tanks have to be full of beer at the right stage before the stop or empty enough to be cleaned.</p>"
+  ],
+  [
+   "Timing follows the beer calendar",
+   "<p>In India beer demand peaks in the hot months, roughly March to June. No brewery wants a shutdown then. The usual windows are the monsoon dip from about July to September or the cooler months after the festive rush. Our guide to <a href=\"beer-seasonality-for-demand-planners.html\">beer seasonality for demand planners</a> shows the demand curve these windows sit in.</p><p>A sensible plan works backwards from the shutdown. Brewing runs harder in the weeks before to build stock. Lager takes roughly three to five weeks from brewhouse to bright tank, so that build has to start well ahead. Our guide to <a href=\"brewery-capacity-utilisation-explained-for-planners.html\">capacity utilisation for planners</a> explains why a brewery running near full capacity has little room to pre-build.</p>"
+  ],
+  [
+   "What the stock build really costs",
+   "<p>Building stock for a shutdown is not free. Finished beer needs warehouse space, ideally cool, because heat speeds staling. Beer brewed a month early also reaches the drinker a month older. For a lager with a best before of six to nine months, a few weeks may be fine. For a hazy craft beer with a much shorter fresh life, it can be a real quality cost.</p><p>The build also loads the plant before the stop: extra brews, extra shifts, extra cleaning. A good planner models the weeks before the shutdown as carefully as the shutdown itself. A shutdown that is two weeks long on paper often affects six weeks of supply.</p>"
+  ],
+  [
+   "Start-up is part of the shutdown",
+   "<p>A brewery does not jump back to full speed the morning after a shutdown. Lines need cleaning, sterilising and test runs. Packaging lines often run slower for the first shifts as new parts bed in. Quality teams want extra checks on the first batches: dissolved oxygen, fill levels, seal integrity and taste.</p><p>Build a ramp into the plan. A common approach is to assume reduced output, perhaps half to three quarters of normal, for the first few days after a long stop. Our guide to <a href=\"packaging-line-efficiency-oee.html\">packaging line efficiency</a> explains why lines lose output after any stop.</p>"
+  ],
+  [
+   "How planners should work with engineering",
+   "<p>The best shutdowns are agreed months ahead between engineering, production, supply chain and sales. A few habits help:</p><ul><li>Hold a rolling twelve month maintenance calendar and put it in the supply plan, not only in the engineering system.</li><li>Ask engineering for the true duration including cleaning and start-up, not just the repair time.</li><li>Agree which SKUs get pre-built stock and which can run short.</li><li>Keep a buffer for overrun. Shutdowns find problems. Problems add days.</li></ul><p>A first step: ask your site engineering lead for next year's planned shutdown dates this week. Put them into your supply plan before the summer forecast is locked.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why do breweries shut down?",
+   "To clean, inspect and repair equipment that cannot be maintained while running, such as boilers, refrigeration plants and packaging lines. Some inspections are also required by safety rules."
+  ],
+  [
+   "When do Indian breweries schedule shutdowns?",
+   "Usually outside the summer peak, often during the monsoon dip or after the festive season, when demand is lower."
+  ],
+  [
+   "How long does a brewery shutdown last?",
+   "A line stop may last a shift or a few days. A full site shutdown often runs one to three weeks, plus a start-up period at reduced output."
+  ],
+  [
+   "Why build stock before a shutdown?",
+   "No beer is brewed during the stop. Lager also takes weeks to ferment and mature, so stock has to be built well in advance to keep supplying the trade."
+  ]
+ ],
+ "cta": {
+  "title": "Help your planners plan around the brewery calendar",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions. Our brewing and distilling operations module shows planners how a brewery runs, stops and restarts, so supply plans match what the plant can really do.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "brewery-capacity-utilisation-explained-for-planners",
+  "packaging-line-efficiency-oee",
+  "beer-seasonality-for-demand-planners"
+ ]
+}

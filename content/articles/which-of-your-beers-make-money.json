@@ -1,0 +1,71 @@
+{
+ "slug": "which-of-your-beers-make-money",
+ "cat": "Business",
+ "h1": "Which of your beers make money: portfolio profitability",
+ "title": "Which of Your Beers Make Money | Craft Beer School",
+ "desc": "How to work out profit by beer: contribution per litre, tank days, discounts and returns, plus how to chart it so the weak lines are obvious.",
+ "teaser": "Your best seller may not be your best earner. Margin by beer and by tank day shows which labels pay for the others.",
+ "standfirst": "Most breweries know total sales and little else. This guide shows how to calculate contribution for each beer, add the cost of tank time and set up a simple report that tells you which beers to brew more and less of.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Sales are not profit",
+   "\n<p>A beer can lead your sales chart and still lose money. It may use expensive hops, sell at a discount, sit in the tank for six weeks or come back as returns. Another beer that sells a fifth as much may earn more per litre and per tank day. You cannot see this from the sales total.</p>\n<p>Portfolio profitability means calculating what each beer earns after its own direct costs, so that you can decide what to brew, what to promote and what to drop.</p>"
+  ],
+  [
+   "Step one: contribution per litre",
+   "\n<p>For each beer, take the net selling price per litre after taxes, discounts and trade margin. Subtract its direct cost: malt, hops, yeast, adjuncts, packaging, plus losses. That leaves contribution per litre. It is not profit, because fixed costs are not allocated. It shows what each beer adds towards fixed costs.</p>\n<p>Hypothetical example, in currency units, with the numbers rounded for clarity. A pale lager nets 130 per litre and costs 60, so contribution is 70. An IPA nets 190 per litre and costs 105 because of the hops, so contribution is 85. The IPA looks better. Now add time.</p>"
+  ],
+  [
+   "Step two: tank days",
+   "\n<p>Fermenters are the limited resource in most breweries. A beer that occupies a tank for longer earns its contribution more slowly. Contribution per tank day is contribution per litre times the litres in the batch, divided by the days the batch occupies the tank.</p>\n<p>Take a 2,000 litre tank. The lager occupies it for 28 days. Contribution is 70 times 2,000, which is 140,000, or 5,000 per tank day. The IPA occupies it for 14 days. Contribution is 85 times 2,000, which is 170,000, or about 12,140 per tank day. The IPA earns more than twice as much per tank day, since it turns the tank twice as fast. If the tank is your constraint, that changes what you brew. If it is not, the lager's steady volume may still matter.</p>"
+  ],
+  [
+   "Step three: the costs people leave out",
+   "\n<ul><li>Discounts and free stock given to win accounts.</li><li>Returns and beer that goes out of date on the shelf.</li><li>Waste: dumped batches, lines flushed, short-fills.</li><li>Special packaging or labels for one beer.</li><li>Extra labour: dry hopping, fruit additions, cleaning after a sour.</li></ul>\n<p>Add these to the beer that causes them. A fruited seasonal can look good until you count the hand labour and the shorter shelf life. See <a href=\"cost-per-litre-beer.html\">cost per litre of beer</a> for the cost build.</p>"
+  ],
+  [
+   "Why a spreadsheet becomes a dashboard",
+   "\n<p>Once you track ten beers across three channels for twelve months, a spreadsheet gets heavy. A reporting tool turns the same data into a view that updates itself. A good report for this question has four items: contribution per litre by beer, contribution per tank day, volume trend and share of total contribution, so you can see where the money comes from.</p>\n<p>Power BI and Tableau are two common tools. They do not create the insight. If you are starting out, a single clean sheet is enough to answer the first question. Add columns as new questions arrive, not before. The insight comes from clean data: one row per sale, with the beer, channel, price, cost and date. Get that right first. Check that every sale carries the right beer name, since a spelling difference creates two beers in the report. Fix the cost per beer each quarter, not once a year. A report built on stale costs gives an old answer in a new colour.</p>"
+  ],
+  [
+   "What to do with the answer",
+   "\n<p>Sort the beers into four groups. <strong>Earn well and sell well:</strong> protect them. <strong>Earn well and sell slowly:</strong> promote them. <strong>Earn poorly and sell well:</strong> reprice or cut the cost, see <a href=\"cutting-cost-of-goods-without-changing-the-beer.html\">cutting cost of goods without changing the beer</a>. <strong>Earn poorly and sell slowly:</strong> consider dropping them. A beer may still be worth keeping if it brings customers in. If so, say it openly and cap its share of tank time.</p>\n<p>Revisit the table every quarter. Prices and costs move. A beer that was marginal in January may be strong after a cost fix. Share the table with whoever sells your beer, since a salesperson often knows why a beer moves slowly. It might be the price, the pack or the shelf it sits on. Each of those has a different cure.</p>"
+  ],
+  [
+   "Be careful with what the data cannot say",
+   "\n<p>A beer might drive footfall to the taproom, showcase your skill or open doors with a distributor. These effects are real but hard to measure. Treat them as a judgement you make with open eyes, not as a way to avoid looking at the numbers. If a beer is the face of the brand, accept its cost knowingly and set a limit.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is contribution per litre?",
+   "Net selling price per litre minus the direct cost of that litre. It shows what a beer adds towards fixed costs."
+  ],
+  [
+   "Why does tank time matter?",
+   "If fermenters limit how much you can brew, a beer that occupies a tank longer earns less per day of tank use, even if its margin per litre looks higher."
+  ],
+  [
+   "Should I drop my lowest-margin beer?",
+   "Not automatically. Check whether it brings customers in. If so, keep it but limit how much of your tank time it uses."
+  ],
+  [
+   "Do I need Power BI to do this?",
+   "No. A spreadsheet works. A reporting tool helps once the data is large or you want the view to refresh itself."
+  ]
+ ],
+ "cta": {
+  "title": "Turn your sales data into answers",
+  "body": "Power BI and Tableau for Breweries is a 2-week live online course (₹5,000) that shows how to build the dashboards that answer questions like this one, from your own sales and cost data.",
+  "href": "power-bi-and-tableau-for-breweries-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "cutting-cost-of-goods-without-changing-the-beer",
+  "business-model-canvas-for-a-craft-brewery",
+  "setting-up-a-brewery-in-india-as-a-foreign-company"
+ ]
+}

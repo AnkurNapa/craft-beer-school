@@ -1,0 +1,75 @@
+{
+ "slug": "brewery-capacity-utilisation-explained-for-planners",
+ "cat": "Beer for teams",
+ "h1": "Brewery capacity utilisation explained for planners",
+ "title": "Brewery Capacity Utilisation Explained | Craft Beer School",
+ "desc": "What capacity utilisation means in a brewery, where the real bottleneck sits and how planners should read the number in a dashboard.",
+ "teaser": "Brewery capacity is not one number. It is the slowest of the brewhouse, the tanks and the packaging line.",
+ "standfirst": "Capacity utilisation looks simple in a dashboard: output divided by capacity. In a brewery the hard part is the denominator. Here is how planners without a production background can read it properly.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Utilisation is output over available capacity",
+   "<p>Capacity utilisation is actual output divided by the output the plant could achieve in the same period, usually as a percentage. Take a hypothetical brewery that could package 100,000 hectolitres in a month and actually packages 75,000. It is running at 75%.</p><p>The formula is easy. The difficulty is agreeing what capacity means. Is it the design figure on the equipment, the best the plant has ever done or what it can sustain week after week? Each gives a different answer. Ask which one your dashboard uses before you trust it.</p>"
+  ],
+  [
+   "A brewery has three capacities",
+   "<p>Beer passes through three main stages, each with its own limit:</p><ul><li><strong>Brewhouse:</strong> how many brews a day it can make, multiplied by brew size.</li><li><strong>Fermentation and maturation:</strong> how many tanks there are, how big they are and how long each batch occupies one.</li><li><strong>Packaging:</strong> how many bottles, cans or kegs the lines can fill per hour, multiplied by running hours.</li></ul><p>The plant's real capacity is set by whichever is slowest at the time. That is the bottleneck. In many breweries it is the tanks, not the brewhouse, because beer sits in them for weeks.</p>"
+  ],
+  [
+   "Tank time is usually the limit",
+   "<p>A brewhouse might make a brew in a few hours. That beer then occupies a fermentation tank for weeks. Lagers commonly spend three to five weeks in fermentation and maturation. Ales are faster, often one to three weeks.</p><p>The arithmetic is worth doing. If a tank's full cycle, including cleaning, takes 21 days, it can turn over about 17 times a year (365 divided by 21). Ten such tanks give about 170 tank cycles a year. Multiply by tank volume and you have the plant's annual tank capacity. If the beer mix shifts towards lagers with longer cycles, that capacity falls even though no equipment has changed. Our guide on <a href=\"beer-seasonality-for-demand-planners.html\">beer seasonality</a> shows why that matters in summer.</p>"
+  ],
+  [
+   "Packaging has its own efficiency number",
+   "<p>Packaging lines are usually measured with overall equipment effectiveness (OEE): availability x performance x quality. A line that runs 90% of planned time, at 90% of rated speed, with 98% good output, has an OEE of about 79%. Our guide on <a href=\"packaging-line-efficiency-oee.html\">packaging line efficiency and OEE</a> explains it in detail.</p><p>OEE and utilisation are different. Utilisation tells you how much of the plant's capacity you are using. OEE tells you how well the line runs while you use it. A plant can have high utilisation and poor OEE, which usually means long hours spent fighting stoppages.</p>"
+  ],
+  [
+   "Why 100% is not the goal",
+   "<p>A plant at 100% utilisation has no room for breakdowns, cleaning overruns, quality holds or a sudden spike in demand. Planners usually aim for a level that leaves some headroom, especially before peak season. What counts as healthy varies by company and plant, so check your own targets.</p><p>Very low utilisation is a problem too. Fixed costs such as staff, depreciation and utilities are spread over fewer hectolitres, so the cost per litre rises. That is why finance teams watch utilisation closely.</p>"
+  ],
+  [
+   "Seasonality and shutdowns change the picture",
+   "<p>Beer demand in India usually rises in the hot months. Plants often run close to their limit from late winter to build stock, then slow during the monsoon. Annual utilisation can look modest even though the plant was at its limit for several months.</p><p>Planned maintenance shutdowns also take capacity out. They are usually scheduled in the quieter season. Our guide on <a href=\"brewery-shutdowns-and-planned-maintenance-for-planners.html\">brewery shutdowns and planned maintenance</a> covers how to plan around them. Monthly utilisation figures tell a far more useful story than an annual average.</p>"
+  ],
+  [
+   "Reading the number in a dashboard",
+   "<p>When you see a utilisation figure, ask four questions. Which capacity definition is used? Which stage is the bottleneck this month? Is the beer mix changing tank time? Were there planned shutdowns in the period? With those answers, the number becomes a story about the plant rather than a single percentage.</p><p>Talk to the production team too. They will know which tank is out for repair or which line has been running slowly, details a dashboard rarely shows.</p>"
+  ],
+  [
+   "A first step for your team",
+   "<p>Ask production for three figures: brews per day, number and size of fermentation tanks with typical cycle times and packaging line speeds with running hours. Calculate the capacity of each stage for a month. Whichever is lowest is your bottleneck. Compare it with last month's output. You will understand your utilisation number better than most people who quote it.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is capacity utilisation in a brewery?",
+   "Actual output divided by the output the plant could achieve in the same period, usually expressed as a percentage."
+  ],
+  [
+   "What usually limits brewery capacity?",
+   "Often fermentation and maturation tanks, because beer occupies them for weeks. The brewhouse or packaging lines can also be the bottleneck."
+  ],
+  [
+   "Is OEE the same as capacity utilisation?",
+   "No. OEE measures how well a line runs while it operates. Utilisation measures how much of total capacity is being used."
+  ],
+  [
+   "Should a brewery run at 100% utilisation?",
+   "Usually not. Some headroom is needed for breakdowns, cleaning, quality holds and demand spikes, especially before peak season."
+  ]
+ ],
+ "cta": {
+  "title": "Help your planners see the plant behind the percentage",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions, built around the products your team works with.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "brewery-shutdowns-and-planned-maintenance-for-planners",
+  "packaging-line-efficiency-oee",
+  "beer-seasonality-for-demand-planners"
+ ]
+}

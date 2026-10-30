@@ -1,0 +1,71 @@
+{
+ "slug": "consumer-survey-for-a-drinks-brand",
+ "cat": "Branding",
+ "h1": "Running a consumer survey for a drinks brand",
+ "title": "Consumer Survey for a Drinks Brand | Craft Beer School",
+ "desc": "How to design a consumer survey for a drinks brand: the questions to ask, how to word them, how many people to reach and how to read the result.",
+ "teaser": "A survey is easy to run and easy to run badly. Question wording and sample choice decide whether the numbers mean anything.",
+ "standfirst": "A survey gives you counts, but only if the people who answered resemble the people you want to reach. This guide covers the design choices that matter most, in the order you make them.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Decide what the numbers will change",
+   "<p>Start from the decision. If the result is \"37 per cent prefer a wheat beer\", what do you do on Monday? If the answer is nothing, the question is curiosity and not research.</p>\n<p>Aim for between eight and fifteen questions. Beyond that, respondents drift and answer at random. Everything you ask costs you some completed responses.</p>"
+  ],
+  [
+   "Choose who you are asking",
+   "<p>Define the group first: legal drinking age in the state (it differs across India), lives within reach of your outlets, drinks beer or the category at least occasionally. Put a screening question at the start so everyone else exits politely.</p>\n<p>Never survey minors and never target them in recruiting. Check that your age screen is real. Keep the invitation free of any hint of encouraging heavier drinking.</p>"
+  ],
+  [
+   "Write questions that do not steer",
+   "<p>Leading questions are the biggest source of bad data. \"How much do you enjoy our refreshing new lager?\" tells the respondent what answer you want.</p>\n<p>Ask neutral questions with balanced answer options. Ask about behaviour (\"what did you last buy and where?\") more than intentions (\"would you buy?\"), because people overstate what they will do. Avoid double questions such as \"Are the price and the pack right?\" since a person may think one is fine and the other not.</p>\n<p>Randomise the order of answer options where you can. Always include \"none of these\" or \"don't know\".</p>"
+  ],
+  [
+   "How many responses you need",
+   "<p>The standard sample size logic: for a simple proportion at 95 per cent confidence, n is roughly 1.96 squared times p times (1 minus p), divided by the margin of error squared. With p at 0.5 (the most cautious case) and a margin of 5 points, that gives about 384 respondents. For a margin of 10 points you need about 96.</p>\n<p>Those numbers assume a random sample, which a link shared on social media is not. Treat results from a convenience sample as directional and say so in your write-up. If you split the results by group (age bands, say), each group needs enough people of its own.</p>"
+  ],
+  [
+   "Testing before you send",
+   "<p>Run the survey on five to eight people first and watch them answer, or ask them to talk through it. You will find the question nobody understands within minutes. Check the length on a phone, because most people will answer there.</p>\n<p>Look at the data from the pilot too. If every respondent picks the same option, the question is not separating anyone.</p>"
+  ],
+  [
+   "Choosing the channel",
+   "<p>An online form is cheapest and fastest, but it reaches people who are online, answer surveys and care enough to finish. Intercept interviews outside a shop or at an event reach a wider mix, though the interviewer needs training so that tone does not steer the answers. Phone interviews cost more and suit trade audiences such as bar managers.</p>\n<p>Pick the channel that matches where your buyers can be found. Say which you used when you report, because it affects how far the result can be trusted.</p>"
+  ],
+  [
+   "Questions that earn their place",
+   "<p>A useful drinks survey often has a short run of the same kinds of question: what the person drank last, where they bought it, what they paid, what they would swap it for and what put them off trying something new. Add a few about the person (age band, area) so you can compare groups.</p>\n<p>Price questions need care. Asking \"what would you pay?\" with an open box gives wild answers. Show a few price points or use a structured method, which we cover in <a href=\"price-research-for-a-new-drink.html\">price research for a new drink</a>.</p>\n<p>Skip questions about health benefits or anything that suggests drinking more. Ask only what you need. Do not collect personal data you will not use.</p>"
+  ],
+  [
+   "Reading the result without fooling yourself",
+   "<p>Report the sample size and how people were reached alongside every number. Look for differences that are large and consistent rather than small gaps between close percentages. Cross-check with something you can observe, such as what is on the shelf from your <a href=\"retail-audit-for-craft-beer.html\">retail audit</a>.</p>\n<p>If the survey contradicts what the audit shows, believe the audit and ask why people say one thing and buy another. That gap is often the most useful finding.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is an online survey enough for a drinks brand?",
+   "It can be, if your target buyers are online and you screen them properly. For older or less connected groups, or for outlet owners, short interviews work better."
+  ],
+  [
+   "Should I offer an incentive?",
+   "A small one raises completion rates. Keep it modest and unrelated to alcohol so that it does not attract people who only want the reward."
+  ],
+  [
+   "What is a good response rate?",
+   "It varies widely with how you invite people, so we do not give a benchmark. Track your own rate between waves and aim to improve it by shortening the survey."
+  ]
+ ],
+ "cta": {
+  "title": "Want the survey designed properly?",
+  "body": "We design the screening, wording and sample plan with you. Our market research service covers consumer surveys, retail audits, competitor and price research and location research, led by Ankur Napa. We can work remotely by video call and shared data, with site visits by arrangement.",
+  "href": "contact.html?course=Market%20research#enroll",
+  "label": "Ask about market research"
+ },
+ "related": [
+  "retail-audit-for-craft-beer",
+  "competitor-analysis-for-a-brewery",
+  "sizing-a-local-beer-market"
+ ]
+}

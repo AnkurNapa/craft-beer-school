@@ -1,0 +1,71 @@
+{
+ "slug": "cost-per-hectolitre-explained-for-finance-teams",
+ "cat": "Beer for teams",
+ "h1": "Cost per hectolitre explained for finance teams",
+ "title": "Cost per Hectolitre Explained | Craft Beer School",
+ "desc": "What cost per hectolitre means in a brewery, which costs sit inside it, why volume moves it and what finance teams should ask before comparing two plants.",
+ "teaser": "Every brewery finance report has this number. Few people can say what sits inside it.",
+ "standfirst": "Cost per hectolitre is the number finance teams use to compare plants, products and years. It is easy to calculate and easy to misread. Here is what is inside it and what to ask.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a hectolitre is",
+   "<p>A hectolitre (hl) is 100 litres. Breweries use it because it scales neatly: a brew of 50 hl is 5,000 litres. For scale, 100 litres fills about 150 bottles of 650 ml or about 300 cans of 330 ml. Dividing total cost by hectolitres produced gives cost per hectolitre.</p><p>The formula is simple. The hard part is agreeing which costs and which hectolitres go into it.</p>"
+  ],
+  [
+   "What sits inside the cost",
+   "<p>Think of it as a stack. Raw materials come first: malt, adjuncts such as rice or maize, hops, yeast and water treatment. Then packaging, which for bottled and canned beer is often the largest single line: bottles or cans, crowns or lids, labels, cartons. Then utilities, mainly electricity, fuel for steam and water. Then labour, maintenance, depreciation of equipment and overheads.</p><p>Excise duty and sales taxes are normally kept apart. They depend on state rules and tell you about tax, not about how well the plant runs. If a report mixes them in, comparisons between states become meaningless.</p>"
+  ],
+  [
+   "Variable and fixed costs",
+   "<p>Variable costs move with volume: malt, bottles, steam. Fixed costs stay roughly the same whatever the output: salaries, depreciation, rent. Cost per hectolitre falls when volume rises because fixed cost is spread across more hectolitres.</p><p>Here is an illustration with round numbers in a neutral unit. Suppose fixed cost is 500,000 a month and variable cost is 3,000 per hl. At 1,000 hl the cost is 3,500 per hl (500,000 / 1,000 + 3,000). At 2,000 hl it is 3,250. At 500 hl it is 4,000. Nothing about the plant changed. Only the volume did. A rising cost per hectolitre in a quiet month does not mean the brewery got worse.</p>"
+  ],
+  [
+   "Which hectolitre is the denominator?",
+   "<p>Beer is lost between the brewhouse and the pallet. Some is left in tanks and pipes, some is lost in filtration, some is rejected at packaging. A hectolitre of wort is not a hectolitre of packaged beer. Ask which one your report uses.</p><p>Cost per hectolitre of packaged beer is the number closest to what a customer buys. Cost per hectolitre of brewhouse output looks cheaper because it ignores the losses after it. The gap between the two is a yield measure. Every percentage point of loss is materials and energy that you paid for and cannot sell. As an illustration, suppose a plant spends 350,000 to brew 100 hl and packages 95 hl. The cost is 3,500 per brewed hl but about 3,684 per packaged hl. The 5 hl of loss added over 5% to the cost of every hectolitre sold.</p>"
+  ],
+  [
+   "Product mix and packaging format",
+   "<p>A lager in a returnable bottle, a premium ale in a can and a draught keg do not cost the same. The beer inside may be nearly identical. Packaging, handling and breakage differ. A plant's average cost per hectolitre is partly a measure of its mix.</p><p>When two plants differ, check mix before judging efficiency. A plant that makes more cans and fewer returnable bottles can show a higher cost per hectolitre and still be run well. Our guide on <a href=\"beer-cost-of-goods-explained.html\">beer cost of goods</a> shows the structure from the cost side.</p>"
+  ],
+  [
+   "Questions to ask when you see the number",
+   "<p>Is it brewed or packaged hectolitres? Is excise in or out? Does it include depreciation and overheads? Is it actual cost or standard cost? Which product mix produced it? Was output unusually high or low, because of season or maintenance?</p><p>Compare like with like. Ask production which line or tank was down and which brew was dumped. The variance on a finance report often has a simple answer on the floor.</p>"
+  ],
+  [
+   "Reading a trend in a dashboard",
+   "<p>A single month tells you little. Plot cost per hectolitre for twelve months next to volume. If the line rises when volume falls, fixed cost is the cause. If it rises while volume is steady, look at input prices, losses or mix. If it falls after a new line is commissioned, check that the depreciation of that line is in the figure.</p><p>Season matters. Beer demand in India usually peaks in the hot months, so cost per hectolitre tends to be lowest then and highest in the quiet season. Compare each month with the same month last year.</p>"
+  ],
+  [
+   "Using it for decisions",
+   "<p>Cost per hectolitre helps with pricing floors, plant comparisons and investment cases. For a new tank or line, our guide on <a href=\"brewery-capex-for-finance-teams-tanks-lines-and-payback.html\">brewery capex for finance teams</a> shows how to link it to payback. For promotions, see <a href=\"trade-spend-and-promotions-in-beer-for-sales-and-finance.html\">trade spend and promotions</a>.</p><p>Use it as a question, not an answer. A number tells you where to look. A conversation with the brewing and packaging teams tells you why.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a hectolitre?",
+   "A hectolitre is 100 litres. Breweries use it as a standard unit of volume."
+  ],
+  [
+   "Why does cost per hectolitre change from month to month?",
+   "Mainly because fixed costs are spread over a different volume. Input prices, product mix and losses also move it."
+  ],
+  [
+   "Does cost per hectolitre include excise?",
+   "Usually not. Excise and taxes are normally kept apart because they depend on state rules, but check the definition used in each report."
+  ]
+ ],
+ "cta": {
+  "title": "Help finance read the plant behind the number",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions, built around the products your team works with.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-cost-of-goods-explained",
+  "brewery-capex-for-finance-teams-tanks-lines-and-payback",
+  "trade-spend-and-promotions-in-beer-for-sales-and-finance"
+ ]
+}

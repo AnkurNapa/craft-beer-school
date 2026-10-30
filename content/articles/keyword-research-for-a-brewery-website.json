@@ -1,0 +1,71 @@
+{
+ "slug": "keyword-research-for-a-brewery-website",
+ "cat": "Branding",
+ "h1": "Keyword research for a brewery website",
+ "title": "Keyword Research for a Brewery Website | Craft Beer School",
+ "desc": "A simple keyword research method for a brewery website: find the words customers type, group them by intent and match each group to a page.",
+ "teaser": "You do not need an expensive tool. You need to listen to how customers ask, then match each question to a page.",
+ "standfirst": "Keyword research is finding out which words people use when they look for what you offer. For a brewery it is a short, practical exercise that can be done in an afternoon.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with your own words and theirs",
+   "<p>Write down everything you offer: taproom, tours, beer styles, events, bookings, merchandise, private hire. Then write the phrases customers use. Check reviews, messages, the questions staff hear and the way visitors describe the place. Customers rarely use your terms. They say brewery near me or places to drink craft beer, not microbrewery taproom experience.</p>\n<p>Keep the list in a spreadsheet with a row for each phrase.</p>"
+  ],
+  [
+   "Use free sources",
+   "<ul><li><strong>Search suggestions:</strong> type a phrase into Google and note the suggestions and the related searches at the bottom of the page.</li><li><strong>Google Search Console:</strong> once set up, it shows the searches that already show your site. This is the best data you have.</li><li><strong>Keyword planning tools:</strong> Google's planner gives rough ranges of search volume, not exact counts. Treat numbers as relative.</li><li><strong>Search interest tools:</strong> show how interest moves over time.</li></ul>\n<p>Do not trust any figure to the last digit. Volumes for local, niche terms are often small or hidden. They can still be worth winning.</p>"
+  ],
+  [
+   "Sort by what the searcher wants",
+   "<p>Group each phrase by intent. Someone searching for a brewery tour wants to visit. Someone searching for what a hazy IPA is wants to learn. Someone typing your brand wants your site. Someone typing craft beer delivery wants to buy.</p>\n<p>Intent tells you what page to build. Visit searches need a visit page with a booking route. Learning searches need an explainer. Buying searches need a product or stockists page. A page that tries to serve all of them serves none.</p>"
+  ],
+  [
+   "Map one main phrase to one page",
+   "<p>In your spreadsheet, put the main phrase for each page next to its address. Add two or three related phrases the page can also cover naturally. If two pages target the same phrase they compete against each other, so merge them or change one.</p>\n<p>Where a phrase has no page, note it as a gap. Where a page has no clear phrase, ask whether it should exist. Write titles and headings in natural language. Never repeat the phrase unnaturally. This is covered further in <a href=\"seo-for-breweries.html\">SEO for breweries</a>.</p>"
+  ],
+  [
+   "Local keywords",
+   "<p>For a taproom, add the area, the neighbourhood and the city, but only where true. Think of how people describe a place: near a landmark, a metro stop or a business park. Include those on your visit page in plain sentences. Make sure the details match your <a href=\"google-business-profile-for-a-taproom.html\">Business Profile</a>.</p>"
+  ],
+  [
+   "Pick battles you can win",
+   "<p>A new small site will struggle to rank for very broad terms such as craft beer. Nobody can promise results either way. Look for specific phrases that match what you offer, tied to your place, your beers or your events. A smaller number of relevant visitors who book is worth more than a large number who never come.</p>\n<p>Check who ranks now. If the top results are national retailers or big publishers, a local brewery may do better with a more specific phrase. If they are weak pages, you have a chance.</p>"
+  ],
+  [
+   "A worked example of mapping",
+   "<p>Imagine a taproom with a brewing tour. The list shows brewery tour near me, how long is a brewery tour and book a brewery tour. The first and third are visit intent, so one visit page with a booking button fits. The second is a question, so add a short answer on the same page: how long the tour takes, what is included and what to wear.</p>\n<p>Now imagine the phrase what is a pilsner. That is learning intent, so it needs an explainer, probably linked from your pilsner product page. You can use <a href=\"beer-styles-guide.html\">our beer styles guide</a> as a model for how to structure it.</p>\n<p>Notice that you have written no page for a phrase nobody wants. The research tells you what to skip as well as what to write.</p>\n<p>The usual mistakes are easy to list: chasing the biggest numbers regardless of fit, ignoring the phrases customers use in favour of industry words, targeting the same phrase on many pages and treating the list as finished. Searches change with seasons, festivals and new styles. Revisit it, keep it short and tie every phrase to a page that helps the visitor.</p>"
+  ],
+  [
+   "Check and repeat",
+   "<p>Revisit your list every quarter. Note which phrases bring clicks, which pages get impressions but few clicks and which new phrases appear. Add pages for gaps and fix titles for weak performers. Track in a sheet so your learning builds up. When you have a list, write the pages as described in <a href=\"content-that-brings-visitors-to-a-drinks-website.html\">content that brings visitors to a drinks website</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Do I need paid keyword tools?",
+   "Not to start. Search suggestions, Search Console and a free planner give plenty for a small site."
+  ],
+  [
+   "How many keywords should one page target?",
+   "One main phrase and a few closely related ones. More than that makes the page vague."
+  ],
+  [
+   "Are low-volume keywords worth it?",
+   "Often yes, for local and specific searches. A few visitors with a clear need can be worth more than many casual ones."
+  ]
+ ],
+ "cta": {
+  "title": "Want to find the words your customers use?",
+  "body": "Digital Marketing for Breweries is a two week live online course by Chatty Girija (₹5,000) with weekly assignments and a certificate. It covers search, your Business Profile and measurement in more depth than a single guide can.",
+  "href": "digital-marketing-for-breweries-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "website-calls-to-action-for-taproom-bookings",
+  "measuring-website-leads-for-a-drinks-business",
+  "managing-reviews-and-ratings-for-a-brewery"
+ ]
+}

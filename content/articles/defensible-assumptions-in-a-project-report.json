@@ -1,0 +1,71 @@
+{
+ "slug": "defensible-assumptions-in-a-project-report",
+ "cat": "Consultancy",
+ "h1": "Financial assumptions in a project report: making them defensible",
+ "title": "Defensible Report Assumptions | Craft Beer School",
+ "desc": "How to choose and document the price, volume, cost and ramp-up assumptions in a project report so a reader can trace and test each one.",
+ "teaser": "Every number in a forecast is an assumption in disguise. Here is how to make each one traceable.",
+ "standfirst": "An assumption is defensible when a stranger can see where it came from and what happens if it is wrong. Optimistic is fine only if it is labelled and tested.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why assumptions decide the answer",
+   "<p>A model is arithmetic applied to assumptions. The arithmetic is rarely wrong. The assumptions are where projects are won or lost: selling price, volume, ramp-up, raw material cost, wastage and wage growth. Two honest analysts with different assumptions can make the same brewery look rich or ruined.</p><p>So a project report should give assumptions their own page, with a source and a reason next to each.</p>"
+  ],
+  [
+   "A hierarchy of evidence",
+   "<p>Rank your sources. Strongest first: your own invoices and sales records, signed letters of intent, published price lists you collected yourself, supplier quotations, published statistics from an official body, then expert opinion, then your own judgement. For each key assumption, say which level it sits on.</p><p>A price assumption backed by three distributors' written rate cards beats one backed by \"the market is premium\". A raw material cost taken from a quotation dated this month beats a figure remembered from last year.</p>"
+  ],
+  [
+   "Price and volume",
+   "<p>Price should be net of tax, trade margin and discounts, because that is what reaches the brewery. State the path from shelf price down to ex-brewery price. In India, where taxes and margins differ by state, this is a state-specific calculation.</p><p>Volume should be built from the bottom: venues or outlets, times units a month, times pack size. Cross-check it against capacity from <a href=\"capacity-planning-in-a-project-report.html\">capacity planning</a>. If sales are lower than capacity by a wide margin, the plant may be too big. If they are higher, the plant is the limit and sales above it do not exist.</p>"
+  ],
+  [
+   "Ramp-up, wastage and cost",
+   "<p>Do not start at full utilisation. A hypothetical ramp of 40, 55, 70, 80 and 80 percent of capacity over five years is an illustration, not a rule. Yours should follow your distribution plan and licences.</p><p>Wastage deserves a number. Beer is lost in the brewhouse, in fermenter transfers and in packaging. A line saying \"yield 100 percent\" is the first thing an experienced brewer spots. State your loss assumptions by stage and base them on the plant and process you chose.</p><p>For costs, split fixed and variable clearly. Use quotations for malt, hops, packaging and utilities. State the date. Allow for price movement with a stated escalation rate and say what it is based on.</p>"
+  ],
+  [
+   "Make each assumption testable",
+   "<p>List each key assumption, the base value and a plausible low and high. A hypothetical example in neutral units: a project costs 100 and returns cash of 30, 35, 40, 40 and 40 over five years. At a 12 percent discount rate the net present value is about 31. If every cash flow is 10 percent lower, NPV falls to about 18. If 20 percent lower, about 5. The project survives a 20 percent miss, but only just. The report should say so.</p><p>This is the start of the sensitivity work in <a href=\"sensitivity-analysis-for-a-drinks-project.html\">sensitivity analysis for a drinks project</a>.</p>"
+  ],
+  [
+   "Common ways to lose credibility",
+   "<p>Round, ambitious numbers without a source. A discount rate chosen to get the answer you wanted. Inflation applied to costs but not to prices. Selling price taken from the brand you hope to be, not the one you are in year one. And a model where changing an input does not change the output because someone typed over a formula.</p><p>Keep one assumptions sheet and link every calculation to it. Lock the formulas. Then anyone can change a cell and see the effect.</p>"
+  ],
+  [
+   "Record the date and the owner",
+   "<p>Assumptions age. A malt price quoted in January is not the price in October. Put a date next to every sourced figure and the name of whoever is responsible for refreshing it. When the report goes to a lender months after the model was built, the date tells the reader how much of it needs rechecking.</p><p>Keep a short change log too. If the selling price moved from 95 to 90 units between drafts, note why. A reader who sees a documented change trusts the model more than one who finds a silent difference between two versions.</p><p>Finally, say what you did not model. If excise changes mid-year would hurt, or a bad hop crop would raise costs, name the risk even if you could not price it. Honest gaps are easier to forgive than hidden ones.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the most important assumption in a brewery model?",
+   "Usually volume and its ramp-up, followed by net selling price. Both drive the cash flow and are the hardest to prove before you trade."
+  ],
+  [
+   "How do I choose a discount rate?",
+   "Base it on your cost of capital and the risk of the project. Say how you chose it. Lenders and investors may apply their own rates. The 12 percent used in our examples is an illustration only."
+  ],
+  [
+   "Should assumptions be conservative or realistic?",
+   "Aim for realistic and show the downside. A reader trusts a base case that is honest and a table that shows what happens when it is not."
+  ],
+  [
+   "Where should assumptions appear in the report?",
+   "On a single assumptions page near the financial section, each with its source, with the model linked to it."
+  ]
+ ],
+ "cta": {
+  "title": "Make every number traceable",
+  "body": "Our project and business reports service builds assumptions pages with sources, ranges and a model that responds when an input changes. Bring your draft numbers and we will test them.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Ask for a project report"
+ },
+ "related": [
+  "feasibility-study-for-a-craft-distillery",
+  "project-report-for-a-brewpub",
+  "capacity-planning-in-a-project-report"
+ ]
+}

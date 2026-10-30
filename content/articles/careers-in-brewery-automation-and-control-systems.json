@@ -1,0 +1,71 @@
+{
+ "slug": "careers-in-brewery-automation-and-control-systems",
+ "cat": "Careers",
+ "h1": "Careers in brewery automation and control systems",
+ "title": "Careers in Brewery Automation | Craft Beer School",
+ "desc": "What brewery automation and control engineers do: PLCs, SCADA, instruments, batch control and plant data, plus the skills and routes into the work.",
+ "teaser": "Modern breweries run on PLCs, sensors and control screens. Someone has to build and maintain them.",
+ "standfirst": "A large brewery can brew, ferment, filter and clean with a small crew on shift because control systems run the sequences. Automation and control engineers design, programme and maintain those systems. It is a career for engineers who like both code and stainless steel.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What brewery automation covers",
+   "<p>Brewery automation is the hardware and software that runs the process. It has three main layers:</p><ul><li><strong>Instruments and actuators:</strong> temperature sensors, pressure and level transmitters, flow meters, valves and pumps.</li><li><strong>Controllers:</strong> programmable logic controllers, or PLCs, that read instruments and drive valves and pumps according to programmed logic.</li><li><strong>Supervisory systems:</strong> SCADA and HMI screens that show operators the plant, let them start sequences and record data in a historian.</li></ul><p>Above that, many breweries link control systems to manufacturing execution or ERP systems for batch records, materials and planning. Our guide to <a href=\"jobs-in-a-brewery.html\">jobs in a brewery</a> shows where automation sits among the other roles.</p>"
+  ],
+  [
+   "What a controls engineer does day to day",
+   "<p>The work splits between keeping the plant running and changing it. Running it means responding to faults: a valve that does not confirm its position, a sensor reading wrong, a sequence that stalls. Changing it means writing or modifying PLC programs, building screens, adding instruments and commissioning new equipment.</p><p>A typical week might include tracing a fault on a mix-proof valve that stopped a transfer, adding a new recipe parameter for the brewing team and testing a change on a simulator before it goes live. Changes are planned with production, because a mistake in a sequence can send caustic into a tank of beer.</p>"
+  ],
+  [
+   "Batch control and why breweries are different",
+   "<p>Brewing is a batch process. Each brew follows a recipe with steps, such as mash in at a set temperature, hold, ramp, transfer. Many brewery control systems follow the ISA-88 batch control standard, which separates the recipe from the equipment logic so brewers can change a recipe without rewriting control code.</p><p>Breweries also share pipes and vessels between brewing, cleaning and transfers, so valve matrices and interlocks stop beer and cleaning chemicals meeting. An engineer who understands why the CIP return must never open while a fermenter is full is worth a lot.</p>"
+  ],
+  [
+   "Instruments tell you what is real",
+   "<p>Control is only as good as measurement. Brewery instruments include temperature probes in every vessel, level and pressure transmitters, flow meters for wort and water and inline analysers for things like dissolved oxygen, turbidity and density. Each needs calibration. A temperature probe reading two degrees low on a fermenter changes the beer for every batch until someone notices.</p><p>Small breweries are adding sensors too. They tend to start where a missed reading costs the most, such as fermenter temperature and the oxygen picked up at packaging.</p>"
+  ],
+  [
+   "Data is the growing part of the job",
+   "<p>Control systems produce large amounts of data: every temperature, pressure and valve position, logged every few seconds. More breweries now use that data beyond the control room, for yield tracking, fermentation prediction, energy monitoring and maintenance planning. Engineers who can move data out of a historian safely and make it useful to brewers and managers are increasingly valued.</p><p>A simple example shows the value. A historian logs the temperature and gravity of every fermentation. Plot fifty batches of the same beer and the normal curve becomes obvious. A batch that falls behind that curve on day two can be flagged automatically, while there is still time to rouse the yeast or adjust temperature, instead of being found on day ten. That is the kind of work where brewing and data skills meet.</p><p>That brings cybersecurity into the job. Connecting plant networks to company systems or the internet opens risks, so control engineers need to understand network segmentation and secure remote access.</p>"
+  ],
+  [
+   "Skills and routes in",
+   "<p>Most automation engineers have a degree or diploma in instrumentation, electrical, electronics or mechatronics engineering. Experience programming PLCs from major manufacturers, building SCADA screens and working with industrial networks is the core of most job listings.</p><p>Routes in include:</p><ul><li>System integrators who build control systems for breweries and other food plants.</li><li>Equipment suppliers who sell brewhouses and packaging lines with their own automation.</li><li>In-house engineering teams at large breweries.</li><li>Moving across from automation in dairy, soft drinks or pharmaceuticals.</li></ul><p>Brewing knowledge sets candidates apart. An engineer who knows what a lauter rake does, why mash temperature matters and how fermentation behaves will build sequences that brewers trust.</p>"
+  ],
+  [
+   "Where it leads",
+   "<p>Automation engineers progress to senior controls, engineering manager or project roles. Some specialise in manufacturing data and analytics. Others join integrators and work across many plants, which can mean travel. See also our guide to <a href=\"brewery-quality-control-career.html\">quality control careers</a> for the lab side of the same data.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Sketch a simple brewhouse: a hot liquor tank, a mash tun, a kettle and the pipes between them. Mark every valve, pump and sensor you would need to move water from the tank to the mash at 65 °C. That sketch is the start of a control design.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What does a brewery automation engineer do?",
+   "Designs, programmes and maintains the PLCs, SCADA screens, instruments and networks that run brewing, fermentation, cleaning and packaging."
+  ],
+  [
+   "What qualifications do brewery controls engineers need?",
+   "Usually an instrumentation, electrical, electronics or mechatronics degree or diploma, plus experience with PLCs, SCADA and industrial networks."
+  ],
+  [
+   "What is ISA-88 in brewing?",
+   "An international standard for batch control. It separates recipes from equipment logic so brewers can change recipes without rewriting control code."
+  ]
+ ],
+ "cta": {
+  "title": "Learn what the code is controlling",
+  "body": "Advanced Brewing Science is our six week live course. It covers mashing, wort boiling, fermentation and process control in depth, the science behind every sequence a brewery runs.",
+  "label": "See what the course covers",
+  "href": "advanced-brewing-science-course.html"
+ },
+ "related": [
+  "brewery-quality-control-career",
+  "jobs-in-a-brewery",
+  "brewery-sales-career"
+ ]
+}

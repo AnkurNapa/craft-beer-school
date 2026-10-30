@@ -1,0 +1,71 @@
+{
+ "slug": "planning-a-brewing-schedule-for-a-brewpub-with-eight-taps",
+ "cat": "Business",
+ "h1": "Planning a brewing schedule for a brewpub with eight taps",
+ "title": "Scheduling an Eight Tap Brewpub | Craft Beer School",
+ "desc": "How to build a repeating brewing schedule for a brewpub with eight taps: tank days, the style mix, brew day rhythm and the reorder rule that stops runouts.",
+ "teaser": "Eight taps look simple until two of them run dry on the same Friday. A schedule is just tank days laid out on a calendar.",
+ "standfirst": "A brewpub with eight taps is really running eight small production lines. The schedule that keeps them all pouring comes from three numbers: what each tap sells, how long each beer sits in a tank and how often you can brew.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with what each tap sells",
+   "<p>Before you plan a single brew, write down how much beer each tap sells in a normal week. Your point of sale records give the best answer. If the pub has not opened, use a forecast and keep it modest. Our guide to <a href=\"planning-a-brewpub-opening-month.html\">planning a brewpub's opening month</a> covers how to set those first weeks.</p><p>Here is an illustration with round, hypothetical numbers. Six ale taps sell 150 litres each a week, which is 900 litres. Two lager taps sell 150 litres each, which is 300 litres. The pub pours 1,200 litres a week, or about 5,200 litres a month. Your own numbers will differ. The method does not.</p>"
+  ],
+  [
+   "Turn volume into batches",
+   "<p>A 1,000 litre brewhouse rarely delivers 1,000 litres of sellable beer. After trub, yeast, tank heels and the odd dump, call it 900. So 5,200 litres a month needs about six batches.</p><p>Split them by style. The ales need about 3,900 litres, which is 4.3 batches. The lagers need about 1,300 litres, which is 1.4 batches. Together that is about six brew days a month. That is a light load for a brewhouse. The fermenters are what limit you, not the kettle.</p>"
+  ],
+  [
+   "Count tank days",
+   "<p>Every batch rents a tank for a fixed time. A typical ale spends about 14 days in a fermenter from brew day to transfer. A lager that ferments cool and then lagers can spend 28 or more. Multiply batches by days:</p><ul><li>Ales: 4.3 batches x 14 days = about 60 tank days.</li><li>Lagers: 1.4 batches x 28 days = about 40 tank days.</li></ul><p>That is roughly 100 tank days a month. One fermenter gives you about 30. So you need at least four. A fifth gives you slack. Running every tank at 100% is a plan that breaks the first time one batch sticks.</p><p>This is also why lagers are expensive on a small site. One lager tap holds a tank twice as long as an ale tap for the same litres.</p>"
+  ],
+  [
+   "Pick a style mix that can be scheduled",
+   "<p>With eight taps, a workable split is four core beers that never leave, two rotating beers and two flex taps. The core beers carry the volume. They get the best brewing slots because you know exactly how fast they sell.</p><p>The rotating beers change every four to six weeks. Plan them as a calendar rather than a mood. The flex taps carry a guest, a one-off or a repeat of whatever sold out. They are also your buffer. If a core beer is late, a flex tap covers it while you catch up.</p>"
+  ],
+  [
+   "Set a brew day rhythm",
+   "<p>A fixed pattern makes everything easier. Many small brewpubs brew on the same two days each week, say Monday and Thursday. Staff know the days. Malt arrives the day before. The cold room has space.</p><p>Do not let two beers hit the taps in the same week unless a tap is empty for them. Stagger them so that one new beer comes out every four to five days instead of three at once.</p><p>The kettle and mash tun also compete with the kitchen for steam, power and hot water. Our guide to <a href=\"planning-the-electrical-load-for-a-brewpub-before-fit-out.html\">planning the electrical load for a brewpub</a> shows why a brew day and a busy lunch service can clash.</p>"
+  ],
+  [
+   "The reorder rule that stops runouts",
+   "<p>Most runouts come from one mistake: brewing when the tap is empty instead of before it. A beer needs about three weeks from brew day to a poured glass for an ale. A lager needs five or more. That is your lead time.</p><p>So work back. Say a core ale sells 150 litres a week and takes three weeks to arrive. At any moment you need at least 450 litres in the pipeline. The practical rule is to brew the next batch when beer on hand (serving tank plus anything conditioning) falls to the lead time volume plus one week of cover. For this beer that is 450 plus 150, or 600 litres. Write the trigger volume next to each beer on the tap board. Anyone in the cellar can then see when a brew is due.</p>"
+  ],
+  [
+   "Keep the schedule on one page",
+   "<p>You do not need software at the start. A wall planner works, with a row for each tank and a column for each week. Colour in each batch from brew day to transfer. Mark the clean and sanitise day after every transfer. If the planner is full, no more beer can be added. That is useful information on the day someone asks for an extra seasonal.</p><p>Review it each week against what sold. The first two months will show you which taps are slower or faster than your forecast. Adjust the batch sizes and rhythm. Over time, parking, deliveries and goods access become part of the same plan too, as our guide to <a href=\"parking-and-access-planning-for-a-brewpub-site.html\">parking and access planning for a brewpub site</a> explains.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many fermenters does an eight tap brewpub need?",
+   "It depends on volume and style mix. In a worked illustration of 1,200 litres a week with two lager taps, the sums come to about 100 tank days a month. That means four fermenters at least. A fifth gives slack."
+  ],
+  [
+   "How often should a brewpub brew?",
+   "Most small brewpubs settle on a fixed pattern of one or two brew days a week. The right rate comes from your weekly sales divided by sellable litres per batch."
+  ],
+  [
+   "Why are lagers harder to schedule?",
+   "They occupy a tank for about twice as long as an ale. A lager tap uses more tank days for the same litres sold."
+  ],
+  [
+   "When should I brew the next batch of a core beer?",
+   "Work back from lead time. Brew when beer on hand falls to the lead time volume plus a week of cover, so the new batch arrives before the old one runs out."
+  ]
+ ],
+ "cta": {
+  "title": "Plan the cellar before the pub opens",
+  "body": "Brewery Business Management is a three week live course (₹8,999). It covers forecasting, capacity and cost per litre. Weekend classes, a maximum of 20 per batch and a certificate.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "planning-a-brewpub-opening-month",
+  "planning-the-electrical-load-for-a-brewpub-before-fit-out",
+  "parking-and-access-planning-for-a-brewpub-site"
+ ]
+}

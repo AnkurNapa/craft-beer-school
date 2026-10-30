@@ -1,0 +1,75 @@
+{
+ "slug": "fermentation-lead-times-explained-for-supply-planners",
+ "cat": "Beer for teams",
+ "h1": "Fermentation lead times explained for supply planners",
+ "title": "Beer Lead Times for Supply Planners | Craft Beer School",
+ "desc": "Why beer takes weeks to make, how fermentation and maturation set lead times and what supply planners should allow for in their plans.",
+ "teaser": "You cannot brew your way out of a stock-out next week. Fermentation decides your lead time.",
+ "standfirst": "Supply planners often meet beer as SKUs and weeks of cover. Behind every SKU is a fermentation that cannot be hurried much. Here is how beer lead times work and what they mean for your plan.",
+ "read": "3 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Beer takes weeks, not days",
+   "<p>Beer is made in stages. First the brewhouse turns malt and water into sweet wort, boils it with hops and cools it. That takes hours. Then yeast is added and fermentation begins. That takes days. Then the beer matures and is clarified. That can take weeks. Finally it is packaged and released by quality control.</p><p>For a typical lager, the time from brew day to packaging is often three to five weeks. Ales are usually faster, often one to three weeks. Exact times depend on the brewery, the recipe and the yeast. Ask your production team for the standard times for each brand. Our guide on <a href=\"beer-production-planning-basics.html\">beer production planning basics</a> covers the wider process.</p>"
+  ],
+  [
+   "Fermentation is biology on its own schedule",
+   "<p>During fermentation, yeast turns sugars in wort into alcohol and carbon dioxide. Lager yeasts usually work cool, commonly around 8 to 13 °C, which makes them slower. Ale yeasts work warmer, often around 18 to 22 °C. They finish faster.</p><p>Fermentation can be speeded up a little with temperature, but not much without changing the flavour. Push a lager too warm and it produces fruity esters and other flavours that make it taste wrong. That is why production teams resist requests to cut fermentation time. The beer would no longer match its specification.</p>"
+  ],
+  [
+   "Maturation removes off-flavours",
+   "<p>After the main fermentation, beer usually rests while yeast reabsorbs certain by-products. The best known is diacetyl, which tastes of butter. Brewers often hold the beer warm for a few days, a diacetyl rest, then cool it close to 0 °C to mature and clarify.</p><p>Brewers judge when beer is ready by testing, not by calendar. If a batch is slow, it stays in the tank longer. That variability is one reason lead times are best treated as ranges in a plan.</p>"
+  ],
+  [
+   "Packaging and release add more time",
+   "<p>After maturation, beer may be filtered, carbonated and held in a bright beer tank before packaging. Packaging line schedules and changeovers between brands and packs add more time. Then quality control checks the packaged beer. Some microbiology tests require plates to incubate for several days before results are available. The beer may be held until they are.</p><p>Add transport to depots and distributors. The total time from brew day to the shelf can be well over a month. Our guide on <a href=\"beer-supply-chain-explained.html\">the beer supply chain</a> follows that path in full.</p>"
+  ],
+  [
+   "Tank space sets the real constraint",
+   "<p>Because beer sits in tanks for weeks, the number of tanks often limits how much the plant can make. A planner may see a brewhouse that can brew several times a day and assume capacity is plentiful. In practice, if all fermentation tanks are full, there is nowhere to put new wort.</p><p>The mix of brands matters too. Brands with longer cycles occupy tanks longer and reduce total output. A forecast that shifts volume from ales to lagers can strain capacity even if total volume stays flat.</p>"
+  ],
+  [
+   "Planning for the summer peak",
+   "<p>Beer demand in India rises sharply in the hot months. Because lead times are long and tanks are limited, plants build stock ahead of the peak. Planners must decide how early to start and how much to hold.</p><p>Brew too early and beer ages in warehouses. Heat speeds staling, so stock held in hot depots loses freshness. Brew too late and outlets run dry. Balancing those risks needs realistic lead times and an understanding of shelf life. Our guide on <a href=\"beer-seasonality-for-demand-planners.html\">beer seasonality for demand planners</a> describes the demand side.</p>"
+  ],
+  [
+   "What to ask production",
+   "<p>Good planners build a short list of questions for each brand:</p><ul><li>Standard time from brew to packaging with the usual range.</li><li>Which tanks the brand can use and how big they are.</li><li>Packaging line and changeover constraints.</li><li>Quality release time and any tests that hold stock.</li><li>Shelf life and storage requirements after packaging.</li></ul><p>With these, a plan stops being a spreadsheet exercise and starts reflecting what the plant can actually do.</p>"
+  ],
+  [
+   "A first step for your team",
+   "<p>Pick your three biggest brands. For each, map every stage from brew day to the shelf with its standard duration and range: brewhouse, fermentation, maturation, packaging, quality release and transport. Add the stages up. Compare the total with the lead time your planning system currently uses. Any gap is where your forecast and the plant have been talking past each other.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How long does it take to make beer?",
+   "For a typical lager, often three to five weeks from brew day to packaging. Ales are usually faster, often one to three weeks. Times vary by brewery and recipe."
+  ],
+  [
+   "Can fermentation be speeded up?",
+   "Only a little. Pushing temperature too high changes the flavour, so the beer no longer meets its specification."
+  ],
+  [
+   "Why do planners need to understand tank capacity?",
+   "Beer occupies tanks for weeks, so tank space often limits output more than the brewhouse does. Brand mix changes tank demand."
+  ],
+  [
+   "What adds time after fermentation?",
+   "Maturation, filtration, bright beer holding, packaging schedules, quality release tests and transport to depots."
+  ]
+ ],
+ "cta": {
+  "title": "Show your planners why beer cannot be rushed",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions, built around the products your team works with.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "beer-supply-chain-explained",
+  "beer-production-planning-basics",
+  "beer-seasonality-for-demand-planners"
+ ]
+}

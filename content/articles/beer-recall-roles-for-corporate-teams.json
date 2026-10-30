@@ -1,0 +1,67 @@
+{
+ "slug": "beer-recall-roles-for-corporate-teams",
+ "cat": "Beer for teams",
+ "h1": "Beer recall roles for corporate teams",
+ "title": "Beer Recall Roles for Corporate Teams | Craft Beer School",
+ "desc": "Who does what when a beer is recalled: quality, regulatory, supply chain, communications, finance and analytics. Plus how to prepare.",
+ "teaser": "A recall is a cross-team event. The teams that handle it well agreed their roles months before the first call.",
+ "standfirst": "When a batch of beer must come back from the market, many teams act at once. This guide sets out the roles, the data they need and the practice that makes a recall less chaotic.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why beer gets recalled",
+   "<p>Recalls happen when a product may be unsafe, mislabelled or seriously below standard. In beer the usual causes are foreign matter such as glass in a bottle, a packaging fault that lets bottles burst, a microbiological problem or a label error, such as a wrong strength or a missing declaration. A supplier material that fails a check can also start one.</p>\n<p>A bottle burst can come from over-carbonation. If yeast stays alive in a packaged beer and finds sugar, it makes more carbon dioxide and pressure climbs. Pasteurisation or sterile filtration prevents that, so a failure in either is a serious event.</p>\n<p>Rules on food safety, labelling and recalls apply to alcoholic drinks and are enforced by the relevant authorities, including at state level. Process and notification duties change, so your regulatory team should confirm the current requirements. This guide is about roles, not legal advice.</p>"
+  ],
+  [
+   "The first hours",
+   "<p>The first job is to find out what happened and how far it reaches. The quality team leads. They hold the batch records, the test results and the retained samples. They decide whether the issue is isolated to one batch, one filling line or one day.</p>\n<p>A cross-functional group is called together, often a small recall committee. Typical members:</p>\n<ul><li><strong>Quality:</strong> assesses the risk, leads the investigation and recommends the scope.</li>\n<li><strong>Regulatory and legal:</strong> advise on notification duties and wording.</li>\n<li><strong>Supply chain and planning:</strong> find where the affected stock is and arrange to stop, hold or collect it.</li>\n<li><strong>Sales and distribution:</strong> contact trade partners and retail outlets.</li>\n<li><strong>Customer care:</strong> prepare to receive consumer calls.</li>\n<li><strong>Communications:</strong> draft statements and manage the message.</li>\n<li><strong>Finance:</strong> estimate and track the cost.</li>\n<li><strong>Operations:</strong> fix the root cause before restart.</li></ul>\n<p>Someone must chair the meeting and keep a log of decisions. That is usually a senior leader from quality or operations.</p>"
+  ],
+  [
+   "Traceability is the whole game",
+   "<p>The speed of a recall depends on how quickly you can answer one question: where did this batch go? The answer lives in codes. Every can or bottle carries a batch code. That code links to a brew number, the raw material lots used, the filling line and time, the pallets built and the invoices that sent them out.</p>\n<p>If those links exist in a system, the answer takes minutes. If they sit in paper registers and spreadsheets that do not match, it takes days. Data and analytics teams matter here. They are often asked to join the dots between brewery records, warehouse systems and distributor invoices.</p>\n<p>Many companies run a mock recall once a year. They pick a batch at random and ask the team to trace it from raw material to retailer within a set time. It is the best way to find broken links before a real event does.</p>"
+  ],
+  [
+   "What analytics and technology teams do",
+   "<p>If you work in a GCC or technology team supporting a beverage company, a recall pulls you in quickly. Typical requests include:</p>\n<ul><li>A list of all customers and outlets that received a batch.</li>\n<li>Stock on hand by location, split by batch and age.</li>\n<li>Sales out by outlet since the batch left the plant.</li>\n<li>A dashboard that tracks collected, destroyed and outstanding units.</li></ul>\n<p>The hard part is mismatched units. The brewery tracks hectolitres, the warehouse tracks pallets and sales track cases. Know the conversion before you start. Our guide to <a href=\"beer-production-planning-basics.html\">beer production planning basics</a> explains how batches and tanks connect to the plan, which helps when you trace backwards.</p>"
+  ],
+  [
+   "Communication and people",
+   "<p>The tone of the message matters. It should be plain, quick and honest: which product, which batch codes, what the risk is and what to do. Consumers should know how to identify the pack, what to do with it and who to call.</p>\n<p>Inside the company, keep staff informed so they are not learning from the news. People teams also need to know which roles carry recall duties. Our guide on <a href=\"what-hr-teams-should-know-when-hiring-for-brewery-roles.html\">what HR teams should know when hiring for brewery roles</a> is a good place to start.</p>"
+  ],
+  [
+   "After the recall",
+   "<p>A recall does not end when the last pallet is collected. The quality team writes a root cause report. Operations puts corrective actions in place. Finance closes the cost. The recall plan itself is reviewed, with questions such as: did we find the stock fast enough, did the codes work and did the right people know their roles?</p>\n<p>The best preparation is dull. Keep the contact list current, name a deputy for every role, rehearse once a year and keep batch records easy to find. For a wider view of how the industry hangs together, read <a href=\"beer-industry-explained-for-gcc-teams.html\">the beer industry explained for GCC teams</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Who leads a beer recall?",
+   "Usually a senior leader from quality or operations chairs a cross-functional committee. Quality leads the technical investigation."
+  ],
+  [
+   "What is a mock recall?",
+   "A rehearsal where the team traces a chosen batch from raw material to retailer in a set time, to find weak links in the records."
+  ],
+  [
+   "What data does a recall team need first?",
+   "Batch codes, brew and filling records, stock by location and the list of customers who received the batch."
+  ],
+  [
+   "What should consumers be told in a recall?",
+   "How to identify the affected pack, what the risk is, what to do with it and who to contact. Keep it plain and quick."
+  ]
+ ],
+ "cta": {
+  "title": "Help your team understand the product behind the process",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions. Teams learn what a batch code really stands for.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "what-hr-teams-should-know-when-hiring-for-brewery-roles",
+  "beer-industry-explained-for-gcc-teams",
+  "beer-production-planning-basics"
+ ]
+}

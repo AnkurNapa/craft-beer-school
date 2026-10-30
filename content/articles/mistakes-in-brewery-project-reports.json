@@ -1,0 +1,75 @@
+{
+ "slug": "mistakes-in-brewery-project-reports",
+ "cat": "Consultancy",
+ "h1": "Common mistakes in brewery project reports",
+ "title": "Mistakes in Brewery Project Reports | Craft Beer School",
+ "desc": "The common mistakes we see in brewery project reports, with worked examples of how each one changes the answer.",
+ "teaser": "Most reports fail on the same short list of errors. Check yours against it.",
+ "standfirst": "These are general patterns seen in project work. None is unusual. Each one has a cheap check you can run before you submit.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "1. Capacity read from the brewhouse brochure",
+   "<p>The brewhouse is rarely the limit. Fermenters, packaging or cold storage often are. A hypothetical brewhouse could make 5,000 hl a year, but six fermenters cycling every 16 days limit output to about 2,400 hl. A report that sells 4,000 hl is impossible on its own plant. Check: compute the output of every stage and use the lowest. See <a href=\"capacity-planning-in-a-project-report.html\">capacity planning in a project report</a>.</p>"
+  ],
+  [
+   "2. No working capital",
+   "<p>Stock, receivables and the cost of ingredients bought ahead are cash. Leaving them out flatters the return. In a neutral-unit illustration, a project costing 100 with an NPV of about 31 at 12 percent loses about 4 when 10 units of working capital are put in at the start and recovered in year five. NPV falls to about 27. The effect is bigger in a distillery, where stock sits for years. Check: show working capital as its own line.</p>"
+  ],
+  [
+   "3. Full sales from month one",
+   "<p>Breweries do not sell at capacity on opening. Distribution builds, licences arrive and customers try the beer. The fixed costs start on day one. Check: show a monthly ramp for year one and the cash it needs. Link it to evidence in <a href=\"defensible-assumptions-in-a-project-report.html\">financial assumptions in a project report</a>.</p>"
+  ],
+  [
+   "4. Shelf price used as revenue",
+   "<p>The brewery does not receive the shelf price. Tax, retailer and distributor margins come off first. A hypothetical bottle at 100 on the shelf may return 45 to the brewery. Using 100 more than doubles the revenue line. In India, taxes and margins differ by state. Check: show the price walk from shelf to ex-brewery.</p>"
+  ],
+  [
+   "5. No contingency, no escalation",
+   "<p>Plant costs overrun and prices rise. A cost table with no contingency suggests either naivety or hidden padding. Another version of the same error is applying inflation to costs but not to prices, or the reverse. Check: add a contingency line and state your treatment of inflation. If the plant costs 10 percent more, NPV in the example falls from about 31 to about 21.</p>"
+  ],
+  [
+   "6. Numbers that disagree and a single case",
+   "<p>Project cost does not equal means of finance. Capacity differs between sections. Depreciation in the profit and loss does not match the asset schedule. These are the first things a credit officer catches. They destroy trust. Check: build tables from one model and read the report against it.</p><p>A report with one scenario invites the question: what if it is wrong? Check: run a downside and show the debt cover and NPV. In the example, a 20 percent fall in cash flows leaves NPV of about 5, which passes but only just. See <a href=\"sensitivity-analysis-for-a-drinks-project.html\">sensitivity analysis for a drinks project</a>.</p>"
+  ],
+  [
+   "7. Depreciation, tax and construction interest",
+   "<p>Depreciation reduces taxable profit but is not a cash cost. A model that subtracts it from cash flow understates cash. One that ignores it overstates tax. Check: start cash flow from profit before depreciation, deduct tax computed with depreciation and compare with a simple recalculation by hand.</p><p>If you borrow before the plant earns, interest accrues during the build. It is a real project cost. In a neutral-unit case, a loan of 60 at 10 percent drawn for a year of building costs about 6 before the first sale. Leave it out and the funding falls short. Check: put interest during construction into the project cost and the means of finance.</p><p>A related slip is to forget pre-operative costs such as salaries, trial batches and licence work before the first sale. They belong in the project cost too. A list of every cost between the first payment and the first sale is the simplest check.</p>"
+  ],
+  [
+   "8. Licences treated as a formality",
+   "<p>Alcohol is regulated. In India it is a state subject, so licences, excise and some label rules differ from state to state and change. Treating approval as a step that will happen on schedule is a risk. Check: list each approval, its status and your plan if it is late. Confirm the process with the regulator or a licensing adviser.</p><p>A fresh reader catches most of these. Reading your own report cold is hard, because you know what each line was meant to say. That is the case for <a href=\"independent-review-of-a-project-report.html\">an independent review</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the most common mistake?",
+   "Optimistic volume with no ramp-up and no working capital. Both flatter the returns and are easy to test."
+  ],
+  [
+   "How do I check my own report?",
+   "Trace three or four key numbers from the summary back to the model and from the model to a source. Then change one input and see whether the outputs respond."
+  ],
+  [
+   "Do these mistakes apply to distilleries and wineries?",
+   "Yes. Some matter more. Stock held for ageing makes working capital errors larger."
+  ],
+  [
+   "Can a template prevent them?",
+   "A template helps with structure. It does not check your capacity chain, your price walk or your numbers."
+  ]
+ ],
+ "cta": {
+  "title": "Check your report against the list",
+  "body": "Our project and business reports service finds and fixes these issues in draft reports and models, led by Ankur Napa. Ask for a project report review and tell us where you are.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Ask for a project report"
+ },
+ "related": [
+  "turnkey-brewery-projects-what-the-contract-covers",
+  "brewery-consultancy-for-a-brewpub-or-a-large-plant",
+  "what-winery-consultancy-covers"
+ ]
+}

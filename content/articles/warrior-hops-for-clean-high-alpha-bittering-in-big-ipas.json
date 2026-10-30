@@ -1,0 +1,63 @@
+{
+ "slug": "warrior-hops-for-clean-high-alpha-bittering-in-big-ipas",
+ "cat": "Ingredients",
+ "h1": "Warrior hops for clean high alpha bittering in big IPAs",
+ "title": "Warrior Hops for Bittering Big IPAs | Craft Beer School",
+ "desc": "How to use Warrior for clean, efficient bittering in double IPAs and big beers, with alpha ranges, dosing maths and storage advice.",
+ "teaser": "Big IPAs need serious bitterness without harshness. Warrior gives it with less hop matter in the kettle.",
+ "standfirst": "Warrior is a high alpha American hop with low cohumulone and a neutral flavour. It lets brewers put serious bitterness into a big IPA without loading the kettle with vegetable matter or a scratchy finish.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why big beers need a different bittering hop",
+   "<p>A double IPA at 8 to 10% ABV often targets 60 to 100 IBU on paper. Getting there with a low alpha hop means kilograms of pellets in a 10 hl kettle. All that plant matter soaks up wort, adds grassy polyphenols and leaves a mountain of trub in the whirlpool. Every kilogram of extra hop also costs freight and cold storage to get to India.</p><p>High alpha bittering hops solve this. Warrior is a proprietary American variety with alpha acids typically around 15 to 18%. You need roughly a third of the hop mass a 5% hop would need for the same bitterness, which means less loss, a cleaner whirlpool and more beer in the tank.</p>"
+  ],
+  [
+   "Low cohumulone and why brewers care",
+   "<p>Alpha acids come in several forms. One of them, cohumulone, has long been linked by brewers to a harsher, lingering bitterness. Warrior's cohumulone usually sits around 22 to 26% of total alpha acids, which is low for a high alpha hop. Research on how much cohumulone really affects perceived harshness is not settled, but brewers consistently describe Warrior's bitterness as smooth.</p><p>Flavour is close to neutral: a little resin and citrus at most. That is the point. In a big IPA, the late and dry hops carry the aroma. The bittering hop should give backbone and get out of the way.</p>"
+  ],
+  [
+   "Doing the dosing maths",
+   "<p>Bitterness in IBU is milligrams of iso-alpha acids per litre. A practical formula for the hop mass is:</p><p><strong>grams = IBU x litres / (alpha fraction x utilisation x 1,000)</strong></p><p>For a 1,000 litre double IPA aiming at 60 IBU from the bittering charge, with Warrior at 16% alpha and 25% utilisation (lower than usual because utilisation falls at high wort gravity): 60 x 1,000 / (0.16 x 0.25 x 1,000) = 1,500 g. With a 6% hop you would need 4 kg for the same result.</p><p>Measured IBU in finished double IPAs rarely matches the paper figure. Bitterness above roughly 80 to 100 IBU is hard to taste as more bitter. Iso-alpha acids also drop out with trub and yeast. Test the finished beer if you have access to a lab, then adjust next time.</p>"
+  ],
+  [
+   "Where to add it",
+   "<p>Warrior belongs at the start of the boil, 60 to 90 minutes before the end. A few practical notes from the brewhouse floor:</p><ul><li>Add the bittering charge in small lots as the kettle comes up to the boil. High alpha pellets foam hard when they hit wort at a rolling boil. A boilover costs wort and a long clean-up.</li><li>Many brewers split bittering between the start of the boil and a hop extract or a smaller second charge, to keep kettle loading down.</li><li>Warrior also works in the whirlpool for isomerisation without vegetal load, but expect very little aroma.</li></ul>"
+  ],
+  [
+   "Building the rest of a big IPA around it",
+   "<p>With Warrior carrying the bitterness, the rest of the hop bill can go into whirlpool and dry hop. A typical West Coast double IPA might get 70% of its IBU from Warrior at 60 minutes, then 4 to 8 g/L of aroma hops in the whirlpool at around 80 °C and dry hops on top. Our guide to <a href=\"bravo-hops-for-fruity-high-alpha-bittering-on-a-budget.html\">Bravo</a> covers a cheaper high alpha hop with more fruit.</p><p>Keep the grist lean. A big IPA with too much crystal malt tastes sweet and heavy whatever the IBU. Most well built double IPAs finish around 1.010 to 1.014.</p>"
+  ],
+  [
+   "Buying and storing high alpha hops in India",
+   "<p>High alpha hops lose bitterness faster in warm storage than many brewers expect. Ask suppliers for the crop year, the certificate of analysis and the hop storage index if they have it. Store unopened packs in a freezer at around -18 °C and opened packs flushed with CO2 and sealed. A hop that left the farm at 16% alpha can arrive well below that after weeks in a hot container.</p><p>Hop extract is worth a look for very large beers. A CO2 extract delivers alpha acids with almost no plant matter, so it suits a brewery that fights wort loss and trub on every big batch. It does not replace hops in the whirlpool or dry hop.</p><p>Your first step: next time you brew a big IPA, recalculate the bittering charge with the alpha acid from the actual certificate, not the variety's typical range. That single habit makes your bitterness repeatable from batch to batch.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the alpha acid content of Warrior hops?",
+   "Typically around 15 to 18%, though it varies by crop. Always use the figure on the lot's certificate of analysis."
+  ],
+  [
+   "Does Warrior add aroma?",
+   "Very little. It is chosen for clean, neutral bittering, with at most a slight resin and citrus note."
+  ],
+  [
+   "Why use a high alpha hop for bittering?",
+   "You need much less hop mass for the same IBU, which reduces wort loss, vegetal flavour, trub and the cost of shipping and storing hops."
+  ]
+ ],
+ "cta": {
+  "title": "Stop guessing your bittering charge",
+  "body": "Advanced Brewing Science is our six week live course (₹12,999). It covers hop chemistry, IBU calculation, utilisation and dry hop technique, with weekly assignments on your own recipes.",
+  "href": "advanced-brewing-science-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "weyermann-special-w-malt",
+  "bravo-hops-for-fruity-high-alpha-bittering-on-a-budget",
+  "herkules-hops-for-high-alpha-bittering-from-germany"
+ ]
+}

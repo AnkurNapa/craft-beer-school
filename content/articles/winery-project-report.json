@@ -1,0 +1,71 @@
+{
+ "slug": "winery-project-report",
+ "cat": "Wine",
+ "h1": "Writing a project report for a winery",
+ "title": "Writing a Winery Project Report | Craft Beer School",
+ "desc": "What a winery project report (DPR) contains: site, technology, costs, working capital, cash flow and returns, plus how lenders read it.",
+ "teaser": "A project report is the document a lender reads before a cheque is written. Make the numbers answer their questions before they ask.",
+ "standfirst": "A detailed project report, or DPR, turns a winery idea into costed, checkable figures. Here is what goes in it, in the order a lender or authority expects to read it.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a project report is for",
+   "<p>A business plan persuades. A project report proves. It sets out the project in enough technical and financial detail that a bank, investor or government agency can test it. In India lenders often ask for a DPR. Elsewhere it may be called a feasibility study or a loan application pack.</p>"
+  ],
+  [
+   "The sections lenders expect",
+   "<ol><li>Project summary: product, capacity, location, total cost and how it is funded.</li><li>Promoters: who owns it and their experience.</li><li>Market: who will buy, at what price, through which channels.</li><li>Technical plan: process flow from fruit receipt to bottling, with capacity at each stage.</li><li>Site and utilities: land, buildings, water, power and effluent.</li><li>Equipment list with the reason for each item.</li><li>Licences and approvals needed and their status.</li><li>Cost of project and means of finance.</li><li>Working capital and projected cash flow.</li><li>Profit and loss, break-even and returns.</li><li>Risks and how they are covered.</li></ol>"
+  ],
+  [
+   "Inputs to collect before writing",
+   "<p>A project report is only as good as its inputs. Gather quotes for equipment from more than one supplier, a site plan, a utilities estimate for water and power, a staffing plan with salaries, a list of licences with their status and a sales plan by channel. Use quotes rather than guesses wherever you can. Date them.</p>\n<p>Choose assumptions you can defend in a meeting, such as how many bottles each tank yields or what share of wine is lost in racking and filtering. Standard winemaking losses are real, so allow for them rather than assuming every litre becomes a bottle.</p>"
+  ],
+  [
+   "Technical plan and capacity",
+   "<p>A winery's process is simple to state: crush or press, ferment, clarify, age, stabilise and bottle. The report should show the capacity of each step and the bottleneck. If you plan 20,000 bottles but the bottling line and cold storage can only handle part of that, a good reader will spot it.</p>\n<p>Every item in the equipment list should trace to a step in the process. See <a href=\"planning-winery-equipment-for-a-first-vintage.html\">planning winery equipment for a first vintage</a>.</p>\n<p>State capacity in bottles per year and show how you arrive at it. Start from tank volume, allow for losses in racking and filtering, then convert to 750 ml bottles. Check that the bottling method and storage space can keep pace. A project report that claims a figure its smallest step cannot deliver loses credibility fast.</p>\n<p>Also show how capacity grows. A lender wants to see a first phase that is realistic, with expansion tied to proven sales rather than hope.</p>"
+  ],
+  [
+   "Working capital is where reports fail",
+   "<p>Lenders know that wine ties up money. If grapes are bought in one season and wine is sold over the next two, the report must fund that gap. Show how many months of stock you hold and what it cost to make. Our guide on <a href=\"why-wine-ageing-ties-up-cash.html\">ageing and cash</a> explains the logic.</p>\n<p>A project cost that includes the building but forgets the first year of operating cash is the most common flaw.</p>"
+  ],
+  [
+   "Returns, in the usual measures",
+   "<p>Show break-even volume, payback period, net present value and internal rate of return. NPV discounts future cash to today's value and IRR is the discount rate at which NPV is zero. State the discount rate and the years used.</p>\n<p>As an illustration only: if a project costs 100 units and returns 30 units of cash a year for five years, simple payback is a little over three years. Real wineries have uneven cash, so build the year-by-year table rather than a shortcut.</p>"
+  ],
+  [
+   "Sensitivity, honesty and presentation",
+   "<p>Test the model with fruit costs up, prices down and sales delayed. A report that survives these tests is more believable than one with a single bright scenario. Say plainly what you do not yet know, such as a licence still pending.</p>\n<p>We cannot promise a loan or a licence. The report's job is to make the case clearly so the decision is made on facts.</p>\n<p>Lead with a clear summary, then the detail. Number the tables, state every assumption in one place and keep a separate sheet of the inputs so a reader can change them and see the effect. Spreadsheets with formulas are more convincing than pasted values.</p>\n<p>A lender will often ask for the report in their own format. Keep your model flexible so the same facts can be presented in the shape they need. This guide is general. Requirements differ by lender, country and Indian state.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the difference between a DPR and a business plan?",
+   "A DPR is more technical and cost-driven, written for lenders or authorities. A business plan is broader and written to explain and persuade."
+  ],
+  [
+   "How long does a project report take to prepare?",
+   "It depends on how much data you already have. Clear inputs on site, scale and costs speed it up a great deal."
+  ],
+  [
+   "Do I need a project report for a small winery?",
+   "If you are borrowing or applying for support, usually yes. Even if not, preparing one finds problems early."
+  ],
+  [
+   "Who should write it?",
+   "The promoter should own it. A specialist can build the model and check the figures."
+  ]
+ ],
+ "cta": {
+  "title": "Ask us to build your project report",
+  "body": "We prepare detailed project reports, feasibility studies and investor packs for wineries, led by Ankur Napa, with remote work by video call and shared data. Tell us the idea and we will say what is needed.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Ask for a project report"
+ },
+ "related": [
+  "buy-grapes-or-grow-your-own",
+  "boutique-winery-economics",
+  "why-wine-ageing-ties-up-cash"
+ ]
+}

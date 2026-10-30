@@ -1,0 +1,67 @@
+{
+ "slug": "rainwater-harvesting-at-a-brewery-and-what-it-can-supply",
+ "cat": "Business",
+ "h1": "Rainwater harvesting at a brewery and what it can supply",
+ "title": "Rainwater Harvesting at a Brewery | Craft Beer School",
+ "desc": "How much water rainwater harvesting can supply an Indian brewery, how to size the roof and tank and where harvested water is safe to use.",
+ "teaser": "One millimetre of rain on one square metre of roof gives one litre of water. Start there and the numbers get honest fast.",
+ "standfirst": "Rainwater harvesting can take real pressure off a brewery's borewell or municipal supply. It will not replace either in most of India, because rain falls in a few months and tanks are finite. We show how to work out what your roof can actually deliver.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The one sum that matters",
+   "<p>Every rainwater calculation starts with the same fact: 1 mm of rain falling on 1 m² of roof gives 1 litre of water. Multiply your roof area in square metres by annual rainfall in millimetres and you have the litres that fall on the roof in a year.</p><p>Not all of it reaches the tank. Some splashes, evaporates or is diverted as the dirty first flush. A runoff factor of around 0.8 for a hard roof is a sensible planning figure. So the usable yield is roof area times rainfall times 0.8.</p><p>As an illustration, take a brewery with a 500 m² roof in a city with roughly 900 mm of rain a year. That is 500 x 900 x 0.8 = 360,000 litres, or 3,600 hl, in a year.</p>"
+  ],
+  [
+   "Compare it with what you use",
+   "<p>Now compare that with demand. A small brewery often uses somewhere between 5 and 10 litres of water for every litre of beer it sells, once brewing, cleaning, cooling and packaging are counted. A brewery making 1,000 hl of beer a year at 6 litres per litre uses about 6,000 hl of water.</p><p>On paper, the roof could cover more than half of that. In practice it covers much less, for the reason in the next section. Our guide to <a href=\"measuring-water-use-per-litre-of-beer.html\">measuring water use per litre of beer</a> shows how to find your own ratio rather than guessing.</p>"
+  ],
+  [
+   "The monsoon problem",
+   "<p>Most of India gets the bulk of its rain in a few monsoon months. Bengaluru's rain is spread over more months than most cities. Mumbai gets over 2,000 mm a year, but most of it between June and September. The roof may deliver 3,600 hl in a year, but you can only use what you can store between rains.</p><p>Storage is expensive and takes space. A 50,000 litre tank fills in a few heavy days in July and sits empty in March. So the honest planning question is not how much rain falls. It is how much you can store and how fast you use it. For many breweries, harvested water covers a meaningful share of demand during and just after the monsoon and very little in the dry months.</p>"
+  ],
+  [
+   "Where harvested water can go",
+   "<p>Rainwater is soft, low in minerals and usually slightly acidic. It picks up dust, leaves, bird droppings and whatever is on the roof. Treated properly, it suits several brewery uses:</p><ul><li><strong>Utility water.</strong> Floor washing, cooling tower top-up, toilet flushing and garden use, after basic filtration.</li><li><strong>Cleaning pre-rinses.</strong> The first rinse of a CIP cycle, after filtration and disinfection.</li><li><strong>Groundwater recharge.</strong> Overflow sent to recharge pits can help the borewell you depend on in summer.</li></ul><p>Using it as brewing liquor is possible but needs a proper treatment line, regular microbiological testing and mineral additions to build the water profile your beers need. Most small breweries start with utility uses and see how the system behaves through a full year. Our guide to <a href=\"planning-water-supply-and-storage-for-a-new-brewery.html\">planning water supply and storage for a new brewery</a> shows where a harvested tank fits beside the main supply.</p>"
+  ],
+  [
+   "Designing the system",
+   "<p>A basic system has gutters and downpipes, a first flush diverter that throws away the first few millimetres of each rain, a screen or sand filter, a covered storage tank and a pump. For any use beyond the garden, add finer filtration and disinfection, often UV, after the tank.</p><p>Keep tanks dark and sealed to stop algae and mosquitoes. Clean gutters before the monsoon. Keep roof surfaces free of anything you would not want in your water, such as old paint or stored chemicals. Many cities require rainwater harvesting on new buildings above a certain plot size. Check your local building bylaws before you design, because the rule may decide part of the system for you.</p>"
+  ],
+  [
+   "Is it worth the money?",
+   "<p>Work out the cost per kilolitre saved. Add the cost of tanks, filters, pumps and plumbing, spread over the system's working life, plus yearly maintenance. Divide by the water you expect to use from it each year. Compare that with what you pay for municipal water or tanker water in the dry season.</p><p>Breweries that buy tanker water in summer often find the case strong, especially when recharge pits keep their borewell alive longer. Breweries on cheap, reliable municipal supply may find it is more about resilience and reputation than cost. Both are valid reasons. Just know which one you are paying for.</p>"
+  ],
+  [
+   "Your first step",
+   "<p>Measure your roof area from the building plan. Look up your city's average annual rainfall. Multiply the two by 0.8 and divide by 100 to get hectolitres a year. Then put that next to a month by month record of your water use and see which months the roof could actually help.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much water can a brewery roof collect?",
+   "Roughly roof area in square metres times annual rainfall in millimetres times 0.8, in litres. A 500 m² roof with 900 mm of rain gives about 360,000 litres a year."
+  ],
+  [
+   "Can harvested rainwater be used to brew beer?",
+   "It can, after proper filtration, disinfection, regular testing and mineral additions. Most breweries start by using it for cleaning and utility water."
+  ],
+  [
+   "Will rainwater harvesting replace my borewell?",
+   "Rarely. Rain falls in a few months and storage is limited, so it usually supplements a borewell or municipal supply rather than replacing it."
+  ]
+ ],
+ "cta": {
+  "title": "Build a brewery that runs on real numbers",
+  "body": "Brewery Business Management is a three week live course on Saturdays and Sundays, 12:00 PM to 2:00 PM IST, with a maximum of 20 students per batch, recordings, weekly assignments and a certificate (₹8,999).",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "craft-beer-taps-without-a-brewery-maharashtra",
+  "setting-up-a-nano-brewery-and-what-it-can-realistically-earn",
+  "planning-water-supply-and-storage-for-a-new-brewery"
+ ]
+}

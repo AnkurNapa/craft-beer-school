@@ -1,0 +1,67 @@
+{
+ "slug": "moving-a-recipe-to-a-new-plant",
+ "cat": "Consultancy",
+ "h1": "Moving a recipe and process to a new plant",
+ "title": "Moving a Recipe to a New Plant | Craft Beer School",
+ "desc": "How to move a beer recipe and process to a new brewhouse or contract plant: what changes with scale and equipment plus how to check the result.",
+ "teaser": "The same recipe on a different brewhouse is a different beer until you prove otherwise.",
+ "standfirst": "A recipe is a set of targets, not a guarantee. Moving it to another plant means translating those targets to different kit. This guide shows how to do that in an orderly way.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why the same recipe drifts",
+   "<p>A recipe lists malt, hops, yeast and a few numbers. The beer also depends on things the recipe rarely records: how the mash tun distributes heat, how vigorously the kettle boils, how much wort is lost to trub, how the fermenter shape affects yeast and how much oxygen the packaging line lets in.</p>\n<p>Move to a new plant and each of these changes slightly. Added together, they change the beer. A brewer who expects an identical result will be disappointed. A brewer who plans for adjustment will not.</p>"
+  ],
+  [
+   "Write down the target first",
+   "<p>Before anything moves, define what the beer is. Record the targets the original plant hits.</p>\n<ul><li>Original gravity, final gravity and alcohol</li><li>Bitterness units and colour</li><li>Mash pH and kettle pH</li><li>Fermentation temperatures and times</li><li>Yeast strain, pitching rate and generation</li><li>Carbonation level and packaged oxygen</li><li>A sensory description, plus a reference sample tasted by the panel</li></ul>\n<p>The reference sample matters most. Numbers describe a beer. A tasted sample defines it. Keep the sample cold and label its date.</p>"
+  ],
+  [
+   "Map the new equipment against the old",
+   "<p>List the differences. Mash tun design affects efficiency. Kettle geometry and heating method change boil intensity and so affect colour and volatile compounds. Fermenter height and cone angle affect yeast behaviour and hop extraction in dry hopping. Cooling capacity changes how fast you reach pitching temperature.</p>\n<p>Water changes the beer too. A different mineral profile shifts mash pH and the way bitterness comes across. In India, borewell and municipal water differ widely from place to place, so test the new site's water and treat it to match the original.</p>\n<p>Scale adds its own effects. Hop utilisation falls or rises with kettle size and boil vigour, so bitterness often needs adjusting rather than copying.</p>"
+  ],
+  [
+   "Run trial batches and compare",
+   "<p>Plan at least two trial batches. The first calibrates, the second confirms. After each trial, compare measured values with the target sheet and taste against the reference.</p>\n<p>Adjust one thing at a time where possible. If bitterness is low, change the hop addition. If colour is off, look at boil time and malt. If the beer finishes sweeter, check mash temperature and yeast health. Changing four variables at once tells you nothing about which fixed the problem.</p>\n<p>Packaging deserves its own check. A beer that is perfect in the tank can pick up oxygen on a poorly set-up filler. Measure dissolved oxygen at fill and compare shelf-life samples.</p>"
+  ],
+  [
+   "Contract plants and hosts",
+   "<p>When the new plant belongs to someone else, add a written specification and shared test results. Both sides must agree who tastes and who releases a batch. Our guide to <a href=\"contract-manufacturing-for-drinks-brands.html\">contract manufacturing for drinks brands</a> sets out the terms to cover.</p>\n<p>If you are scaling up inside your own business, read the guide on <a href=\"brewery-consultancy-for-a-brewpub-or-a-large-plant.html\">consultancy by plant size</a> for what shifts as the volume grows.</p>"
+  ],
+  [
+   "Where we can help",
+   "<p>We help breweries and brands move a recipe and process to a new plant, whether it is a bigger brewhouse of their own or a contract partner. The work covers writing the target sheet, mapping equipment differences, planning and attending trial batches and setting up the tasting and measurement routine. It runs remotely by video call and shared data, with site visits by arrangement.</p>\n<p>Rahul Baliyan leads on process and brewhouse practice. We do not promise a match on the first batch, because no honest brewer can. We promise a method that gets you there in fewer batches.</p>"
+  ],
+  [
+   "A practical order of work",
+   "<p>Put the steps in a fixed order so nothing is skipped. First, collect the target sheet and the reference sample. Second, test the water at the new site. Third, compare equipment and list the likely differences. Fourth, set starting values for the first trial from your best judgement. Fifth, brew, measure and taste. Sixth, adjust and repeat.</p>\n<p>Share the sheet with everyone who touches the beer, including the packaging crew. Many drifts start in the last hour, after the brewing went to plan.</p>\n<p>Keep the old and new data side by side in one table. After three batches the table will show you which differences are settling and which are not.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How many trial batches should I plan?",
+   "At least two: one to calibrate and one to confirm. More may be needed if the new plant differs a lot from the old one."
+  ],
+  [
+   "Why does bitterness change when I scale up?",
+   "Hop utilisation depends on kettle size, boil vigour and wort gravity, so the same hop weight can give a different result. Measure the bitterness and adjust."
+  ],
+  [
+   "Can you manage the move remotely?",
+   "Planning, target sheets and data review work well by video call. We suggest a site visit by arrangement for at least one trial batch."
+  ]
+ ],
+ "cta": {
+  "title": "Move the beer without losing it",
+  "body": "We plan the move, attend trial batches and set up the checks, remotely with site visits by arrangement.",
+  "href": "contact.html?course=Brewery%20consultancy#enroll",
+  "label": "Book a consultation"
+ },
+ "related": [
+  "project-report-for-a-cidery",
+  "turnkey-brewery-projects-what-the-contract-covers",
+  "brewery-consultancy-for-a-brewpub-or-a-large-plant"
+ ]
+}

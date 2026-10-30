@@ -1,0 +1,67 @@
+{
+ "slug": "planning-for-water-shortages-and-tanker-supply-in-summer",
+ "cat": "Business",
+ "h1": "Planning for water shortages and tanker supply in summer",
+ "title": "Summer Water Shortages and Tankers | Craft Beer School",
+ "desc": "How a brewery plans for summer water shortages: working out demand, storage days, testing tanker water and treating it before it reaches the brewhouse.",
+ "teaser": "Summer is when beer sells fastest and borewells run dry. Plan the water before the tanker queue starts.",
+ "standfirst": "In many Indian cities the brewery's busiest months are also the months the borewell drops and the municipal supply turns erratic. Tankers fill the gap, but tanker water is not the water you designed your recipes around. Here is how we would plan for it.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start with how much water you actually use",
+   "<p>Beer is mostly water, but the beer is the smaller part of what a brewery uses. Cleaning, rinsing, cooling and heating use far more. Small breweries commonly use somewhere between 4 and 10 litres of water for every litre of beer they sell. Measure your own figure for a month before you plan anything. Our guide on <a href=\"measuring-water-use-per-litre-of-beer.html\">measuring water use per litre of beer</a> shows how.</p><p>Here is the working for a typical brewpub. Three 1,000 litre brews a week at 6 litres of water per litre of beer is 18,000 litres a week, plus the kitchen and washrooms. That number is your summer baseline. It rises with sales.</p>"
+  ],
+  [
+   "Storage days are the number that matters",
+   "<p>Once you know weekly demand, the question is how many days you can run if supply stops. Divide your usable storage by daily use. A brewpub using 3,000 litres a day with 10,000 litres of storage has a little over three days. That is enough for a missed tanker. It is not enough for a week of municipal cuts.</p><p>Underground sumps and overhead tanks both count, but only the usable volume above the pump suction does. Clean storage tanks before summer. Sediment that sat quietly all winter gets stirred up when tankers start pouring water in from a height. Our guide to <a href=\"planning-water-supply-and-storage-for-a-new-brewery.html\">planning water supply and storage</a> covers tank sizing for a new site.</p>"
+  ],
+  [
+   "Tanker water is a different water every time",
+   "<p>Tankers in most cities draw from borewells around the edge of town. Two tankers from the same supplier on the same day can come from different sources. Hardness, alkalinity and total dissolved solids (TDS) can swing a long way. So can microbial quality, because the tank on the truck is rarely cleaned the way yours is.</p><p>Test every load before you accept it into storage. A handheld TDS meter costs little and takes thirty seconds. Record the reading, the tanker number and the time. A reading far from your normal range is a reason to send the tanker away. A smell, colour or visible sediment is too.</p>"
+  ],
+  [
+   "Treat before it reaches the brewhouse",
+   "<p>Brewing liquor should be consistent, so most breweries that rely on tankers put treatment between storage and the brewhouse. A sediment filter takes out grit. An activated carbon filter removes chlorine and many off tastes. A reverse osmosis (RO) unit strips most of the dissolved minerals, giving you a blank sheet you can build back up with brewing salts to match your recipe.</p><p>RO has a cost in summer: it rejects a share of the water it treats. Plan for that waste in your volumes. Route the reject water to floor washing or toilet flushing rather than the drain. Keep cleaning water and brewing water separate. Cleaning can usually tolerate more variation than mash water can.</p>"
+  ],
+  [
+   "What changing water does to the beer",
+   "<p>Water chemistry shows up in the glass. Higher alkalinity pushes mash pH up, away from the 5.2 to 5.6 range where enzymes and flavour behave best. A pale lager brewed with hard tanker water can turn harsh and dull. The sulphate to chloride balance shifts how bitter or round a beer tastes, so an IPA recipe built on soft municipal water will taste different on borewell water from the city edge.</p><p>Chlorine is the other trap. Municipal water and some tanker loads carry chlorine, which can react with phenols in the mash to form chlorophenols. They taste medicinal, like antiseptic. Drinkers notice them at very low levels. Carbon filtration takes chlorine out. A mash pH reading on every brew in summer tells you whether the water is drifting before the beer does.</p>"
+  ],
+  [
+   "Contracts and backups for the hot months",
+   "<p>Tanker supply gets tight just when you need it most. Line up at least two suppliers before March, agree a price and delivery window in writing and keep both phone numbers on the brewhouse wall. Ask each supplier where the water comes from. If they cannot answer, treat that as an answer.</p><p>Look at what you can save as well as buy. Reusing final rinse water for the first rinse of the next cleaning cycle and fixing leaking hoses both cut demand. Our guide to <a href=\"rainwater-harvesting-at-a-brewery-and-what-it-can-supply.html\">rainwater harvesting</a> covers what a roof can collect in the monsoon.</p>"
+  ],
+  [
+   "Put the water plan into the brewing schedule",
+   "<p>In a tight summer, water decides how many brews you can do. If storage covers three days and tankers are unreliable, schedule brews and big cleaning jobs right after a delivery, not before one. Keep a log of storage level each morning. Two weeks of that log will show whether your supply is keeping up or slowly falling behind.</p><p>Treating water as a planning constraint, like tank space or cash, is the business habit most new brewery owners miss. Sales forecasts, utility capacity and the brewing calendar all have to agree.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much water does a brewpub use per litre of beer?",
+   "Small breweries commonly use between 4 and 10 litres of water for each litre of beer. Measure your own figure, since cleaning habits make a large difference."
+  ],
+  [
+   "Is tanker water safe to brew with?",
+   "It can be, once tested and treated. Check each load with a TDS meter, filter out sediment and chlorine and consider RO so the brewing water stays consistent."
+  ],
+  [
+   "How many days of water storage should a brewery have?",
+   "Enough to ride through the longest supply gap you expect. For tanker supply in summer, aim for several days of usable storage at peak use."
+  ]
+ ],
+ "cta": {
+  "title": "Make water a line in your plan, not a crisis",
+  "body": "Brewery Business Management is our three week live course (₹8,999). It covers utilities planning, supplier agreements and the brewing schedule, so water, cash and tank space all line up before the busy months.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "planning-water-supply-and-storage-for-a-new-brewery",
+  "brewery-utilities-water-power",
+  "planning-a-brewpub-opening-month"
+ ]
+}

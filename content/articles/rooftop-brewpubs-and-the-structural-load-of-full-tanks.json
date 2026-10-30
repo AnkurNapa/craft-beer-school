@@ -1,0 +1,67 @@
+{
+ "slug": "rooftop-brewpubs-and-the-structural-load-of-full-tanks",
+ "cat": "Business",
+ "h1": "Rooftop brewpubs and the structural load of full tanks",
+ "title": "Rooftop Brewpubs and Full Tank Loads | Craft Beer School",
+ "desc": "Why full fermenters and brite tanks on a rooftop or upper floor need a structural engineer's check, with the arithmetic that shows how heavy they are.",
+ "teaser": "A 1,000 litre fermenter full of beer weighs well over a tonne. Most roofs were never designed for that on four small feet.",
+ "standfirst": "Rooftop brewpubs sell the view. The tanks behind the bar sell the beer. Before the two meet on an upper floor, someone qualified has to confirm the slab can carry them. Here is why.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Beer is heavy",
+   "<p>One litre of water weighs one kilogram. Wort and beer are slightly denser. A fermenter holding 1,000 litres of wort at a typical starting gravity weighs about 1,050 kg in liquid alone. Add the stainless vessel, its jacket, insulation and fittings, which can be several hundred kilograms. A single tank can weigh around one and a half tonnes when full.</p><p>A brewpub might run four fermenters, two brite tanks, a hot liquor tank and the brewhouse. The total is easily ten tonnes or more, concentrated in a small part of the floor. Add a walk-in cold room full of kegs and the glycol chiller. The brewery zone becomes the heaviest part of the building.</p>"
+  ],
+  [
+   "Point loads are the real problem",
+   "<p>Floors are designed for a spread load, expressed in kilonewtons per square metre. Offices, shops and restaurants are typically designed for a few kilonewtons per square metre of live load. A tank does not spread its weight evenly. It stands on three or four legs, each resting on a small foot plate.</p><p>Do the arithmetic. A full 1,000 litre tank of about 1,450 kg on a footprint of roughly 1.1 square metres puts around 13 kN per square metre on that patch of floor, several times a typical design load. Through four small feet, the local pressure is higher still. Only a structural engineer can say whether the slab, beams and columns underneath can carry it.</p>"
+  ],
+  [
+   "Ask for a structural assessment before signing",
+   "<p>Before you sign a lease on an upper floor or rooftop, commission a structural engineer to assess the slab where the brewery will sit. Give them the full weight of every vessel when full, its footprint, leg positions and the layout. Ask what the existing structure can carry and what strengthening would be needed if it cannot.</p><p>Strengthening options include steel frames that carry tank loads down to columns, spreader plinths that distribute weight over a larger area and new beams. All of them cost money and need the landlord's consent. Some buildings simply cannot be strengthened economically. Better to know that before the rent starts.</p>"
+  ],
+  [
+   "Water, CIP and the forgotten loads",
+   "<p>Tanks are not the only weight. Water storage tanks on the roof may already be using a share of the structural capacity. A hot liquor tank full of water weighs as much as a fermenter. During cleaning, vessels may be part filled with caustic solution. Spent grain sitting in bins weighs hundreds of kilos after each brew.</p><p>Wet floors add load too. Floor screeds laid to fall towards drains are thicker and heavier than a dry office floor. Our guide on <a href=\"planning-floor-drains-and-slopes-in-a-new-brewery.html\">floor drains and slopes</a> explains why the falls matter. Your engineer needs to know the screed depth.</p>"
+  ],
+  [
+   "Getting tanks up there",
+   "<p>Rooftop sites have a second problem: delivery. A fermenter may be too large for a goods lift. Many rooftop brewpubs bring vessels in by crane before the parapet or glazing is finished. That needs a crane permit, a road closure and a clear date with the fabricator. Plan it into the project timeline early.</p><p>Think about the far future too. If a tank ever fails or you upgrade, it has to come out the same way. A brewery that can only be removed by cutting the tanks into pieces is a liability at the end of the lease.</p>"
+  ],
+  [
+   "Vibration, heat and leaks",
+   "<p>Pumps, the mill and the glycol chiller all vibrate. On an upper floor that vibration can carry into the rooms below. Anti-vibration mounts on rotating equipment help. Placing the chiller where noise and heat can escape without bothering neighbours helps more.</p><p>Leaks on a roof are a bigger problem than leaks on a ground floor slab. A failed valve that dumps 500 litres of beer over a waterproof membrane will find any weakness. Specify a fully waterproofed brewery floor, upturns at the walls and drains sized for a tank dump. Your insurer will ask about it.</p>"
+  ],
+  [
+   "Start with the engineer's letter",
+   "<p>Fire and building approvals for a rooftop venue will look at occupancy, exits and structure. A structural stability certificate is often part of that package. Rules vary by state and city, so check with your architect what your local authority requires. Our guide on <a href=\"planning-the-electrical-load-for-a-brewpub-before-fit-out.html\">planning the electrical load</a> covers the other utility that rooftop sites often lack.</p><p>The Brewery Business Management course covers site selection, fit out costs and approvals as one plan. If you are looking at a rooftop site this month, the first step is simple: ask for the building's structural drawings and send them, with your tank weights, to a structural engineer before you negotiate rent.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How heavy is a full brewery fermenter?",
+   "A 1,000 litre fermenter holds about 1,050 kg of wort. With the vessel and fittings, it can weigh around one and a half tonnes when full."
+  ],
+  [
+   "Can a rooftop hold brewery tanks?",
+   "Sometimes, often with strengthening. Only a structural engineer who knows the tank weights, footprints and leg positions can confirm it."
+  ],
+  [
+   "How are tanks delivered to a rooftop brewpub?",
+   "Often by crane before the parapet or glazing is finished. Plan the permit and date early. Think about how tanks would come out again."
+  ]
+ ],
+ "cta": {
+  "title": "Check your brewpub site before you sign",
+  "body": "Brewery Business Management is a three week live course, Saturdays and Sundays from 12:00 PM to 2:00 PM IST, for ₹8,999. It covers site selection, fit out costing and the approvals a rooftop venue needs.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "pos-and-inventory-software-for-brewpubs",
+  "loyalty-programmes-for-brewpubs-and-what-they-really-return",
+  "planning-the-electrical-load-for-a-brewpub-before-fit-out"
+ ]
+}

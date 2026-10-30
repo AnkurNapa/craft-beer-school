@@ -1,0 +1,71 @@
+{
+ "slug": "boutique-winery-economics",
+ "cat": "Wine",
+ "h1": "Boutique winery economics: volume, price and cash",
+ "title": "Boutique Winery Economics Explained | Craft Beer School",
+ "desc": "How a small winery makes money: the link between volume, price, fixed cost and cash, with a worked example in hypothetical units.",
+ "teaser": "A small winery cannot win on volume. It has to win on price, mix and cash discipline.",
+ "standfirst": "Boutique wineries have high fixed costs spread over few bottles. Here is the arithmetic that decides whether one works, with an illustration you can rebuild with your own numbers.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The shape of the problem",
+   "<p>A winery needs a cellar, tanks, a bottling method, licences, insurance and staff whether it makes 5,000 bottles or 50,000. Those fixed costs are spread across bottles. At small volume each bottle carries more of them, so a boutique winery must sell at a higher price or find a cheaper way to carry the base.</p>"
+  ],
+  [
+   "Fixed costs, variable costs and yield",
+   "<p>Variable costs rise with each bottle: fruit, glass, closure, label, carton and a share of cellar consumables. Fixed costs do not: rent or loan payments, salaries, utilities, licence renewals, insurance and equipment upkeep.</p>\n<p>Break-even volume is fixed cost divided by the margin per bottle, which is the price you receive minus variable cost. Use the price you actually receive, not the shelf price, since shops, distributors and taxes take their share.</p>\n<p>Not every litre becomes a bottle. Wine loses volume to lees, filter losses, racking, evaporation from barrels and bottling waste. Standard practice is to allow for these when you work out how many bottles a tonne or a tank will give. Use the figures from your own winemaker or equipment supplier rather than a number from a book.</p>\n<p>The same applies to fruit. If you buy grapes by weight, what you get depends on how hard you press and how clean the fruit is. Always cost from bottles actually made, not from a theoretical maximum.</p>"
+  ],
+  [
+   "An illustration in hypothetical units",
+   "<p>Suppose fixed cost is 600 units a year. Variable cost is 4 units a bottle and the winery receives 10 units a bottle. The margin is 6 units, so break-even is 100 bottles. In real money terms the numbers are much larger, but the method holds.</p>\n<p>Now cut the price received to 8 units by selling through a distributor. Margin falls to 4 and break-even rises to 150 bottles. Channel mix moves the answer more than most founders expect. These are made-up figures for the method only. Run it again with your own.</p>"
+  ],
+  [
+   "Price and mix",
+   "<p>Selling more bottles from your own door at full price helps the margin. Selling in volume to trade helps the cash. A balanced mix is common. See <a href=\"pricing-wine-cost-positioning-and-shelf.html\">pricing wine</a> for how to set prices and <a href=\"winery-tasting-room-as-a-business.html\">tasting rooms as a business</a> for direct sales.</p>\n<p>Avoid discounting to move stock. It trains customers to wait and it cuts the margin you most need. If a wine is slow, ask first whether the price, the label or the channel is wrong. Then change that one thing and watch the next month's sales before you change another.</p>"
+  ],
+  [
+   "Where the margin leaks",
+   "<p>Common leaks are glass and closures bought in small lots at a high price, wine held too long before sale, giveaways at tastings, unsold stock that needs discounting and staff time spent on low-value jobs. Each is small. Together they can wipe out a thin margin.</p>\n<p>Track cost per bottle each vintage and compare. See our guide on <a href=\"cost-per-bottle-in-a-small-winery.html\">cost per bottle in a small winery</a>.</p>"
+  ],
+  [
+   "Cash is not profit",
+   "<p>A winery can show a profit and run out of money. You pay for fruit, glass and labour at harvest and bottling. You are paid when the wine sells, sometimes more than a year later. Stock on the shelf is cash you have spent. Our guide on <a href=\"why-wine-ageing-ties-up-cash.html\">ageing and cash</a> goes deeper.</p>\n<p>Build a monthly cash flow, not just a yearly profit and loss account.</p>"
+  ],
+  [
+   "Levers a small winery can pull",
+   "<ul><li>Sell more direct, at higher margin.</li><li>Release some wines early so cash returns sooner.</li><li>Share equipment or custom-crush to avoid buying kit.</li><li>Limit the range so each wine sells faster.</li><li>Buy fruit instead of owning vines at the start.</li></ul>\n<p>Each lever has a cost. Test it in the model before you commit.</p>\n<p>A long list of wines spreads work, tank space and stock across too many lines. Each wine needs its own fruit lot, label, shelf space and sales effort. A short, focused range sells faster and ties up less cash. Start with a few wines you can sell and add more only when the first ones move.</p>\n<p>This is also a quality point. A small cellar that makes fewer wines can give each more attention.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is a good margin for a winery?",
+   "There is no single number. Work out your own cost per bottle and the price you receive on each channel, then test break-even."
+  ],
+  [
+   "Why do small wineries struggle?",
+   "Fixed costs spread over few bottles, long cash cycles and weak routes to market are the usual causes."
+  ],
+  [
+   "Does a tasting room help the economics?",
+   "Often, because direct sales earn a higher margin. It also adds staff, opening hours and licence conditions."
+  ],
+  [
+   "Should I make more wine to cut cost per bottle?",
+   "Only if you can sell it. Unsold wine costs storage and ties up cash."
+  ]
+ ],
+ "cta": {
+  "title": "Model your own winery before you build",
+  "body": "The Winery Business course is two weeks long and teaches break-even, cash flow and pricing with a model you can reuse for your own project. It goes further than the worked example here.",
+  "href": "winery-business-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "why-wine-ageing-ties-up-cash",
+  "winery-tasting-room-as-a-business",
+  "getting-wine-into-shops-and-restaurants"
+ ]
+}

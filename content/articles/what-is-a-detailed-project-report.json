@@ -1,0 +1,67 @@
+{
+ "slug": "what-is-a-detailed-project-report",
+ "cat": "Consultancy",
+ "h1": "What a detailed project report is and when you need one",
+ "title": "What a Detailed Project Report Is | Craft Beer School",
+ "desc": "What a detailed project report (DPR) is, who reads it, what it must prove and when a drinks business needs one rather than a short plan.",
+ "teaser": "A DPR is the document a lender or partner reads before they decide. Here is what it holds and when you need one.",
+ "standfirst": "A detailed project report is a written case that a project can be built, run and paid for. It is read by people who were not in the room when you had the idea.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a DPR is",
+   "<p>A detailed project report, or DPR, describes a proposed project in enough technical and financial detail for an outsider to judge it. For a brewery that means the product, the market, the site, the plant, the people, the licences, the money and the risks, in that order. The aim is not to impress. The aim is to let a stranger check your thinking.</p><p>The term is common in India and in development finance generally. Elsewhere you may see \"feasibility report\", \"project proposal\" or \"technical and financial study\". The content is similar. What changes is who asks for it and how much proof they expect.</p>"
+  ],
+  [
+   "Who reads it and what they want",
+   "<p>A bank credit officer wants to know whether the project earns enough cash to repay the loan and what happens if it does not. An equity investor wants to know how the business could grow and how they get their money back. A government agency wants to see that the plan fits a scheme. A partner abroad wants to see that you understand your own market.</p><p>Each reader skims the summary, then goes straight to the numbers they care about. A good DPR lets each of them find those numbers in under a minute. If the capacity figure on page 12 does not match the one in the cash flow, the reader stops trusting every other figure.</p>"
+  ],
+  [
+   "The parts of a DPR",
+   "<p>Most DPRs follow a similar order. We cover each part in more detail in <a href=\"what-a-brewery-dpr-should-contain.html\">what a brewery DPR should contain</a>. The short version:</p><p><ul><li>Executive summary: the project, the cost, the means of finance and the headline returns on one or two pages.</li><li>Promoters and management: who is doing this and what they have done before.</li><li>Market: who buys, how much, at what price and against whom.</li><li>Technical: site, plant, capacity, utilities, process and staffing.</li><li>Approvals: the licences and permissions needed and the order they come in.</li><li>Financials: project cost, means of finance, projections, break-even, NPV, IRR and payback.</li><li>Risks and sensitivity: what could go wrong and how far the returns bend when it does.</li></ul></p>"
+  ],
+  [
+   "Why the financial part carries the weight",
+   "<p>The earlier sections feed the financial model. Capacity sets the volume. The market sets the price and the ramp-up. The technical section sets the cost of plant and the running costs. If one section is vague, the model inherits the vagueness.</p><p>A simple test: pick any number in the cash flow and trace it back to a sentence in the report that explains where it came from. If you cannot, the number is a guess dressed as a forecast. We look at how to avoid this in <a href=\"defensible-assumptions-in-a-project-report.html\">making financial assumptions defensible</a>.</p>"
+  ],
+  [
+   "A small illustration of what the model must show",
+   "<p>Here is a hypothetical project in neutral units. It is an illustration, not a forecast for any real brewery. Suppose a project costs 100 units and returns cash of 30, 35, 40, 40 and 40 units over five years. A lender looks first at whether cash in a year covers the loan repayment due that year. An investor looks at whether the five years of cash, discounted for time, exceed the 100 invested.</p><p>Discounted at 12 percent, those five cash flows are worth about 131 units today, so the net present value is about 31 units. The same flows give an internal rate of return of roughly 23 percent and a simple payback of about 2.9 years. We explain each measure in <a href=\"npv-irr-and-payback-for-a-brewery-project.html\">NPV, IRR and payback for a brewery project</a>. The point here is that a DPR must show all of these, built from stated inputs, so the reader can change an input and watch the answer move.</p>"
+  ],
+  [
+   "When you need one and when you do not",
+   "<p>You need a DPR when someone else is putting in money or approval and wants evidence: a bank loan, an equity round, a government subsidy scheme or a joint venture. You also need one when the project is big enough that a wrong guess would hurt, even if you are funding it yourself.</p><p>You may not need one when you are testing an idea cheaply, such as a contract brew of one beer. A short business plan is enough there. The difference is covered in <a href=\"project-report-or-business-plan.html\">project report or business plan</a>.</p><p>A DPR does not get you a loan or an investment. Banks and investors decide on their own criteria. What a good report does is remove the avoidable reasons for a no.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is a DPR the same as a business plan?",
+   "They overlap but differ in purpose. A business plan is for running and steering the business. A DPR is built for outsiders who need to judge one specific project, with more technical and financial detail."
+  ],
+  [
+   "How long is a DPR?",
+   "It depends on the project. A small brewpub report may run to a few dozen pages with a financial model attached. The test is whether a reader can check each key number, not the page count."
+  ],
+  [
+   "Will a DPR guarantee a loan?",
+   "No. Banks and investors apply their own criteria and policies. A clear, consistent report removes avoidable objections but cannot promise approval."
+  ],
+  [
+   "Who should write it?",
+   "Someone who understands both the brewing process and the finance. Founders can draft the vision and the market knowledge. The model and the technical sections benefit from an experienced hand."
+  ]
+ ],
+ "cta": {
+  "title": "Need a DPR that holds up when someone checks it?",
+  "body": "Our project and business reports service prepares detailed project reports for breweries, distilleries, wineries and other drinks projects, led by Ankur Napa. Tell us the project and we will tell you what the report needs.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Talk to us about project and business reports"
+ },
+ "related": [
+  "a-dpr-a-bank-will-accept",
+  "defensible-assumptions-in-a-project-report",
+  "sensitivity-analysis-for-a-drinks-project"
+ ]
+}

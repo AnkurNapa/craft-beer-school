@@ -1,0 +1,75 @@
+{
+ "slug": "planning-production-capacity-for-a-gin-brand",
+ "cat": "Drinks business",
+ "h1": "Planning production capacity for a gin brand",
+ "title": "Gin Brand Production Capacity | Craft Beer School",
+ "desc": "How to size a gin still, count batches per week and find the real bottleneck, so capacity matches demand and does not tie up money in idle plant.",
+ "teaser": "A still that is too big sits idle. One that is too small caps your sales. Plan capacity from demand, then find the slowest step.",
+ "standfirst": "Capacity is not the size of the still. It is how many saleable bottles you can make in a month with the people, kit and hours you actually have.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Start from demand, not from equipment",
+   "<p>Equipment catalogues tempt you to start with a still. Start with the number of bottles you realistically expect to sell in the first and second year, by month. Seasonality matters, because gin sales can rise sharply around festivals and holidays in some markets.</p><p>Then work out what output you need in the busiest month. That is the figure your plant must serve, or your contract partner must book for you. See <a href=\"market-research-before-launching-a-gin.html\">market research before launching a gin</a> for how to estimate demand without guessing.</p>"
+  ],
+  [
+   "From still size to bottles",
+   "<p>A still's charge is the volume of spirit and water you put in. From each run, measure how much finished gin you get after the cuts and dilution to bottling strength. Divide that volume by the bottle size to get bottles per run.</p><p>A hypothetical illustration: a run that gives 100 litres of bottled gin, repeated 3 times a week for 50 weeks, gives 15,000 litres. At 750 ml a bottle that is 20,000 bottles. Real figures depend on your still, your cuts and your hours. Run trial batches and measure, rather than rely on a supplier's brochure.</p>"
+  ],
+  [
+   "Find the slowest step",
+   "<p>Distilling is rarely the bottleneck. Look at every stage between spirit delivery and a closed carton:</p><ul><li>Charging the still and heating it up.</li><li>The run itself, including time to collect hearts.</li><li>Cooling and resting before dilution.</li><li>Dilution, filtration and settling.</li><li>Filling, closing, labelling and packing.</li><li>Stock checks, lab checks and paperwork.</li></ul><p>Often filling and labelling by hand cap output long before the still does. Time each step during a trial and put the slowest one at the centre of your plan.</p>"
+  ],
+  [
+   "People and shifts",
+   "<p>A still needs a trained operator and safe working conditions. Count the people for each stage and the hours they work. A one-person operation is limited by the clock. Adding a second person at the filling table may double output for far less money than a bigger still.</p><p>Ethanol is flammable and distilling needs trained people. Plan training and safety before you plan expansion.</p>"
+  ],
+  [
+   "Own plant, shared plant or contract",
+   "<p>If volume is small or uncertain, contract capacity avoids paying for kit that sits idle. If volume is steady and you want control, your own plant makes sense. A middle route uses a partner distillery for most volume and your own small still for trials and limited releases. Compare them using the method in <a href=\"starting-a-gin-brand-distil-or-contract.html\">distil it yourself or contract it</a>.</p>"
+  ],
+  [
+   "Leave room to grow, but not too much",
+   "<p>Buy for next year's demand, not for the dream. Equipment that can be added to later, such as a second tank or a faster filler, keeps options open. A building that allows another still beside the first keeps them open too.</p><p>When volume starts to rise, plan how you will move from hundreds of cases to thousands, as set out in <a href=\"scaling-a-gin-brand.html\">scaling a gin brand</a>.</p>"
+  ],
+  [
+   "Trials, maintenance and downtime",
+   "<p>Do not plan capacity from a brochure. Run at least three trial batches and time everything with a clock. Record the volume of spirit charged, the volume of hearts collected, the strength, the volume after dilution and the number of saleable bottles. Note how long each person spent on each task.</p><p>The figures will differ from the plan. They usually differ in the same direction, with output lower and time longer. Use the measured numbers, not the hoped-for ones, in your cost per bottle and your cash flow. Then repeat the trial after any change in method.</p><p>A still needs cleaning between runs. Different recipes call for careful changeover so that one botanical does not carry into the next. Pumps, seals and filters need servicing. Fire and safety checks take time. Build all of this into the weekly calendar, along with leave and public holidays. A plant that runs at its brochure rate for 52 weeks a year exists only on paper.</p>"
+  ],
+  [
+   "Link capacity to cash",
+   "<p>Every extra unit of capacity costs money to buy and to staff. Put the capacity plan into your monthly cash flow, so you see when you pay for it and when sales cover it. Capacity that arrives six months before demand is a cost, not an asset.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How big a still do I need?",
+   "It depends on the demand you expect and the number of runs you can do. Work backwards from bottles per month."
+  ],
+  [
+   "What usually limits output?",
+   "Often filling, labelling and packing rather than the still. Time each step in a trial to find out."
+  ],
+  [
+   "Should I buy a second still early?",
+   "Only when demand and cash flow show the first one is full. Idle plant is expensive."
+  ],
+  [
+   "Can I scale on a contract distillery?",
+   "Yes, within the distillery's capacity and slot availability. Agree minimums and lead times in writing."
+  ]
+ ],
+ "cta": {
+  "title": "Size the plant for the demand you have",
+  "body": "Our Craft Distilling course runs 4 weeks, ₹9,999. It covers still types, the run and its cuts, dilution and the other process steps that decide your real output.",
+  "href": "craft-distilling-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "gin-distillery-licensing-steps",
+  "a-gin-brand-story-that-is-true",
+  "getting-craft-gin-into-bars-and-shops"
+ ]
+}

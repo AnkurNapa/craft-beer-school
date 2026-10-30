@@ -1,0 +1,71 @@
+{
+ "slug": "sizing-a-local-beer-market",
+ "cat": "Branding",
+ "h1": "Sizing a local beer market without inventing numbers",
+ "title": "Sizing a Local Beer Market | Craft Beer School",
+ "desc": "How to estimate the size of a local beer market from the bottom up, using your own assumptions and clear arithmetic, without borrowed figures.",
+ "teaser": "A market size you can explain beats one you found. Here is the bottom-up method, with a worked example using made-up numbers.",
+ "standfirst": "You do not need a published market size to plan a brewery. You need a defensible estimate for the area you can actually serve. Build it from a chain of assumptions you can check.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why bottom-up beats a headline number",
+   "<p>Published market sizes cover wide regions and mix mass-market with craft. They tell you little about a city you can serve by van. And if you cannot see how the number was made, you cannot defend it to a lender.</p>\n<p>A bottom-up estimate starts from people and works up to litres or rupees. Every step is an assumption you can state, test and change.</p>"
+  ],
+  [
+   "The chain",
+   "<ol><li>Adults of legal drinking age in your area. (The age differs by state, so use the local one.)</li><li>Share who drink beer at all.</li><li>Share of those who would consider craft.</li><li>How often they buy and how much per occasion.</li><li>Your reachable share, given your outlets and delivery area.</li></ol>\n<p>The first number comes from census or local government data. The others come from your survey, from interviews or, where you have nothing, from a stated low, middle and high guess.</p>"
+  ],
+  [
+   "A worked illustration",
+   "<p>These numbers are invented to show the method and are not a forecast. Suppose 500,000 adults live in the area. If 20 per cent drink beer, that is 100,000 people. If 10 per cent of those consider craft, you have 10,000. If each buys 4 litres a month, the craft pool is 40,000 litres a month. If you can reach a tenth of the pool through your outlets, a first target is 4,000 litres a month.</p>\n<p>Now run it again with pessimistic and optimistic values for each step. The spread between the two results is the honest answer. A wide spread tells you which assumption is worth researching.</p>"
+  ],
+  [
+   "Replace guesses with evidence",
+   "<p>Rank assumptions by how much they move the result. Usually the share who consider craft and the frequency of purchase swing it most. Put those into a <a href=\"consumer-survey-for-a-drinks-brand.html\">consumer survey</a>. Use your <a href=\"retail-audit-for-craft-beer.html\">retail audit</a> to check how many outlets could really stock you.</p>"
+  ],
+  [
+   "Cross-check from the other direction",
+   "<p>Top-down check: take what a few comparable local outlets sell in a month, from conversations with the owners, then see if your total is plausible. A taproom that sells a few hundred litres a month cannot support a plan that assumes thousands from the same room.</p>\n<p>Capacity is a check too. A 10 hectolitre brewhouse brews 1,000 litres per batch, so ask how many batches a week your estimate implies and whether the fermenters can cope.</p>"
+  ],
+  [
+   "Common errors",
+   "<p>The first is to count everyone in the city as a buyer. Reachable people are those who can get your beer where they already shop or drink. The second is to use a share of total beer drinkers without separating craft. The third is to forget that frequency falls well below what people say. Ask about the last purchase and not about intentions.</p>\n<p>The fourth is to ignore seasonality. In a hot climate, beer sales usually rise through the summer and fall in the rains or the cooler months, so a yearly total hides months where you could run out or sit on stock. Check with local retailers about the busy and quiet months.</p>"
+  ],
+  [
+   "Writing it up",
+   "<p>Present the chain in a one-page table: step, assumption, source, low, middle, high. Anyone reading can change a number and see the result. Mark invented illustration numbers as such. Mark each real input with where it came from.</p>\n<p>If you present this to a bank or an investor, the visible chain builds trust far more than a confident round number.</p>\n<p>Keep a record of each version. When you replace a guess with a survey result, note the date and the old value. After a few months you will see which assumptions moved and which held. Your next estimate will be better for it.</p>\n<p>For a taproom, switch the chain to visits: people within travel time, share who go out for drinks, visits per month and spend per visit. The method is the same, only the unit changes.</p>"
+  ],
+  [
+   "What to do with the answer",
+   "<p>Use the middle case for planning and the low case for cash flow. If the plan only works in the high case, change the plan. Our business plan work uses this same logic; see <a href=\"start-a-microbrewery-india.html\">how to start a microbrewery in India</a> for the wider picture.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Where do I get the population figure?",
+   "From census data or local government statistics for your area. Use the most recent figure available and say which year it is."
+  ],
+  [
+   "Can I use a published craft beer market size instead?",
+   "Only as a rough cross-check. Use it only if you can see how it was calculated. For planning your own volumes, the bottom-up build is more useful."
+  ],
+  [
+   "How accurate will the estimate be?",
+   "It will be a range, not a point. The value is in knowing which assumptions drive it."
+  ]
+ ],
+ "cta": {
+  "title": "Need a market size you can defend?",
+  "body": "We build bottom-up estimates with your assumptions visible. Our market research service covers consumer surveys, retail audits, competitor and price research and location research, led by Ankur Napa. We can work remotely by video call and shared data, with site visits by arrangement.",
+  "href": "contact.html?course=Market%20research#enroll",
+  "label": "Ask about market research"
+ },
+ "related": [
+  "taste-panels-and-focus-groups-for-a-new-drink",
+  "market-research-for-a-taproom-location",
+  "researching-drinks-trends-without-chasing-fads"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "beer-price-elasticity-explained-for-revenue-managers",
+ "cat": "Beer for teams",
+ "h1": "Beer price elasticity explained for revenue managers",
+ "title": "Beer Price Elasticity Explained | Craft Beer School",
+ "desc": "What price elasticity means for beer, how to calculate it, why Indian excise and state pricing complicate it and what revenue managers should watch.",
+ "teaser": "Price elasticity tells you how much volume you lose when price goes up. In beer, the state often moves the price for you.",
+ "standfirst": "Price elasticity is one of the core numbers in revenue management. In beer it is shaped by excise, state pricing rules, pack sizes and the product itself. Here is how to read it without needing a production background.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Elasticity is a ratio, nothing more",
+   "<p>Price elasticity of demand is the percentage change in volume divided by the percentage change in price. If price rises 10% and volume falls 5%, elasticity is minus 0.5. If volume falls 15%, it is minus 1.5.</p><p>An elasticity between 0 and minus 1 is called inelastic: volume falls less than price rises, so revenue goes up. Below minus 1 is elastic: volume falls faster than price rises, so revenue goes down. The sign is usually negative, which is why people often quote the number without it.</p><p>The concept is simple. Measuring it reliably is harder. Beer adds a few twists.</p>"
+  ],
+  [
+   "Own price and cross price elasticity",
+   "<p>Own price elasticity measures how a brand's volume reacts to its own price. Cross price elasticity measures how it reacts to a competitor's price. If a rival strong lager drops in price and your strong lager loses volume, the cross elasticity between them is positive.</p><p>In beer, cross elasticities between similar brands in the same segment can be high, because many drinkers see them as substitutes. Between segments, such as mainstream lager and premium craft, they are usually lower. Revenue managers who look only at own price elasticity miss half the picture. Our guide on <a href=\"price-pack-architecture-in-beer-explained.html\">price pack architecture</a> shows how packs and prices fit together across a range.</p>"
+  ],
+  [
+   "Excise and state pricing change the rules",
+   "<p>Alcohol in India is taxed and regulated mainly by states. Excise duty, the way retail prices are set and the permitted price changes all vary by state and change through notifications. In some states retail prices are effectively fixed through a state process. In others companies have more freedom.</p><p>That means the shelf price a consumer sees may move because of a duty change the brewer did not choose. Elasticity estimated in one state often does not transfer to another. Always check the current rules with your regulatory team before modelling a price move.</p>"
+  ],
+  [
+   "Packs and sizes blur the price",
+   "<p>Beer in India is sold in several formats: 650 ml bottles, 500 ml and 330 ml cans, smaller bottles and draught by the glass. A price change on one pack can shift volume to another. A consumer who finds the 650 ml bottle too expensive may switch to cans rather than leave the brand.</p><p>For that reason many revenue managers measure elasticity per litre as well as per pack. Analysing volume in hectolitres alongside pack units helps separate genuine loss of demand from movement between packs.</p>"
+  ],
+  [
+   "Freshness and seasonality distort the data",
+   "<p>Beer demand swings with the weather. In much of India it peaks in the hot months before the monsoon. A price rise in March followed by a strong April does not prove demand is inelastic: the heat may have overwhelmed the price effect. Elasticity models must control for season, festive periods and events.</p><p>Freshness matters too. A promotion that clears old stock may show a large volume response that has more to do with stock rotation than with price. Our guide on <a href=\"barley-and-aluminium-price-risk-for-finance-teams.html\">barley and aluminium price risk</a> covers the cost side that often triggers price moves in the first place.</p>"
+  ],
+  [
+   "Why the product matters to the number",
+   "<p>Different beer segments behave differently. Mainstream strong lagers may compete hard on price per unit of alcohol. Premium and craft beers often sell more on taste, brand and occasion, which can make them less price sensitive, though that is something to measure, not assume.</p><p>Understanding the product helps you interpret the data. A revenue manager who knows that a wheat beer is a different drinking occasion from a strong lager will not lump them together in one model. One who knows that unpasteurised craft beer has a shorter shelf life will treat its promotions differently.</p>"
+  ],
+  [
+   "Read elasticity as a range, not a fact",
+   "<p>Every elasticity estimate comes with uncertainty. It depends on the period, the market, the competitor moves and the method. A good analyst presents a range and the conditions it holds under. A model that says minus 0.8 in Karnataka last summer may say something different in Maharashtra this winter.</p><p>Test small where rules allow, compare like with like and revisit the numbers each season. Most mistakes come from treating one estimate as permanent.</p>"
+  ],
+  [
+   "A first step for your team",
+   "<p>Take one brand in one state. Plot monthly volume per litre against average price per litre over two years and mark every duty change, price move and festive period. Before running any model, look at the chart together as a team and agree what it seems to show. That shared view is the best foundation for any elasticity work that follows.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is price elasticity of demand?",
+   "The percentage change in volume divided by the percentage change in price. Minus 0.5 means a 10% price rise cuts volume by 5%."
+  ],
+  [
+   "Is beer demand elastic or inelastic?",
+   "It depends on the brand, segment, state and period. Measure it with your own data and treat each estimate as a range rather than a fixed fact."
+  ],
+  [
+   "Why does excise matter for beer elasticity?",
+   "Excise and pricing rules are set by states, so shelf prices can move because of duty changes and elasticity in one state may not apply in another."
+  ],
+  [
+   "Should elasticity be measured per pack or per litre?",
+   "Both. Measuring per litre helps separate genuine loss of demand from consumers switching between pack sizes."
+  ]
+ ],
+ "cta": {
+  "title": "Give your revenue team a feel for the product behind the price",
+  "body": "We run beverage training for drinks companies and GCC teams, with modules such as Beverage 101 and guided sensory sessions, built around the products your team works with.",
+  "href": "contact.html?course=Corporate%20training#enroll",
+  "label": "Ask about team training"
+ },
+ "related": [
+  "barley-and-aluminium-price-risk-for-finance-teams",
+  "price-pack-architecture-in-beer-explained",
+  "brewery-capex-projects-explained-for-project-managers"
+ ]
+}

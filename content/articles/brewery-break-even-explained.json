@@ -1,0 +1,67 @@
+{
+ "slug": "brewery-break-even-explained",
+ "cat": "Business",
+ "h1": "Brewery break-even explained: the volume you need each month",
+ "title": "Brewery Break-Even: The Volume You Need | Craft Beer School",
+ "desc": "How to work out the monthly volume your brewery must sell to cover its costs, with a worked example, a sensitivity check and the traps to avoid.",
+ "teaser": "Rent, salaries and loan payments arrive whether or not you sell a litre. Break-even tells you how many litres cover them.",
+ "standfirst": "Break-even is the monthly volume at which your brewery stops losing money. This guide shows the method, a worked example in neutral currency units and the three numbers that move it most.",
+ "read": "4 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What break-even actually measures",
+   "\n<p>Break-even is the volume of beer you must sell in a month for revenue to equal costs. Below it you lose money. Above it each extra litre adds profit. It is the first number an owner, a lender or an investor should ask for, because it turns a vague hope into a target you can check against the brewhouse.</p>\n<p>The method needs only two ideas. <strong>Fixed costs</strong> are the ones you pay at zero output: rent, salaries, loan instalments, insurance, licence renewals and the electricity the cold room draws regardless of what is inside. <strong>Variable costs</strong> rise with each litre: malt, hops, yeast, packaging, cleaning chemicals and any duty or levy charged per litre.</p>"
+  ],
+  [
+   "The formula and a worked example",
+   "\n<p>Contribution per litre is the net selling price minus the variable cost of that litre. Break-even volume is monthly fixed costs divided by contribution per litre.</p>\n<p>Here is an illustration with round, hypothetical numbers in currency units. Treat them as a template, not as a benchmark. Monthly fixed costs are 600,000. Your average net price is 150 per litre after taxes and trade margin. Variable cost is 70 per litre. Contribution is therefore 80 per litre. Break-even is 600,000 divided by 80, which is 7,500 litres a month.</p>\n<p>On a 1,000 litre brewhouse that is 7.5 brews a month, before you allow for anything lost on the way to the customer. Now you can ask a sharper question: can your fermenters, your packaging line and your sales team deliver 7,500 litres every month? If the honest answer is no, the plan needs a smaller cost base or a higher price.</p>"
+  ],
+  [
+   "Use net price, not the menu price",
+   "\n<p>The most common mistake is to use the price on the menu or the shelf. Your price is what reaches the brewery after the distributor or retailer margin, after tax and after any discount you gave to win the listing. In India alcohol is a state subject, so the way duty and trade margins reach your price differs from state to state. Take the figure from your own invoices or from a licensing adviser, not from a friend in another state.</p>\n<p>A taproom pint sold at full price and a keg sold to a bar at a trade price are two different contributions. Work out the break-even for each channel before you blend them.</p>"
+  ],
+  [
+   "Lost beer raises the target",
+   "\n<p>Beer is lost at every step: trub left in the fermenter, yeast and hop absorption, filter loss, fill losses and beer that fails quality control. If 8 per cent of what you brew never gets sold, you must brew more than you sell. Using the same example, 7,500 litres sold means brewing about 8,150 litres.</p>\n<p>This is why yield matters to the finance model as much as to the brewer. Measure losses at each step for a few brews and put the real figure into the model. Our guide on <a href=\"cost-per-litre-beer.html\">cost per litre of beer</a> shows how to count those costs.</p>"
+  ],
+  [
+   "Test the number with a sensitivity check",
+   "\n<p>A single break-even figure is fragile. Change one input at a time and see what happens. Cut the net price by 10 per cent to 135 and contribution falls to 65, so break-even rises to about 9,230 litres. A 10 per cent price cut therefore demands roughly 23 per cent more volume. That asymmetry is why discounting is dangerous for a young brewery.</p>\n<p>Run the same check on fixed costs and on variable cost. You will usually find that price and the fixed cost base are the two levers that matter. Ingredient prices matter less than owners fear, though packaging can surprise you.</p>"
+  ],
+  [
+   "What to do with the answer",
+   "\n<p>Compare break-even with realistic capacity and with a realistic sales ramp. Most new breweries do not reach full volume in month one, so the gap between early sales and break-even has to be funded. That gap is what the cash flow and the <a href=\"brewery-working-capital.html\">working capital</a> plan must cover.</p>\n<p>Write the answer down as a monthly volume and as a number of brews. Share it with whoever else has money or a job in the business. A target everyone can see changes decisions. Then ask what could lower the target. A smaller team, a cheaper site, a second sales channel with a better margin or a product mix that favours the higher contribution beers all move it. You can test each of these ideas on your own numbers in a model. That is the skill we teach in the course below. A model you built yourself is one you will actually update.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is break-even the same as profit?",
+   "No. At break-even you cover costs and make nothing. Profit starts above that volume. You still need to pay yourself and repay any loan principal from it."
+  ],
+  [
+   "Should I include my own salary in fixed costs?",
+   "Yes. If the brewery cannot pay you a modest salary at its planned volume, the model is overstated. Leave it out and you will think the business works when it does not."
+  ],
+  [
+   "How often should I recalculate break-even?",
+   "Every month at first. Do it again whenever rent, prices, duty or a major cost changes. It takes minutes once the model exists."
+  ],
+  [
+   "Does break-even include the money to build the brewery?",
+   "Not directly. Capital cost enters through loan repayments and depreciation. The cash needed to build and open is a separate funding question."
+  ]
+ ],
+ "cta": {
+  "title": "Stop guessing your monthly target",
+  "body": "Brewery Business Management is a 3-week live online course (₹8,999) that teaches you to build the cost model, the pricing and the monthly forecast for your own brewery. You finish with a model you can change yourself.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "brewpub-food-and-beer-margins",
+  "brewery-working-capital",
+  "bank-loan-for-a-brewery"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "slug": "planning-floor-drains-and-slopes-in-a-new-brewery",
+ "cat": "Business",
+ "h1": "Planning floor drains and slopes in a new brewery",
+ "title": "Brewery Floor Drains and Slopes | Craft Beer School",
+ "desc": "How to plan floor falls, drain types and drain positions in a new brewery so hot caustic, spent grain and spills leave the floor fast.",
+ "teaser": "A brewery floor that holds water is a floor that grows things. Fix the falls before the tanks arrive.",
+ "standfirst": "Drains and floor slopes are the cheapest thing to get right at the drawing stage and the most expensive thing to fix once the tanks are standing. Here is what to specify.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "A brewery floor is a wet floor, every day",
+   "<p>Small breweries commonly use somewhere between four and ten litres of water for every litre of beer they sell. Most of that difference ends up on the floor or in a drain: rinse water, cleaning solution, vessel dumps, hose-downs and the odd spilt batch. A floor that cannot shed that volume quickly becomes slippery, smells of stale wort by evening and gives bacteria a permanent home near your fermenters.</p><p>So the floor is part of the process plant, not part of the decoration. Treat it with the same care as the brewhouse order.</p>"
+  ],
+  [
+   "Get the falls right",
+   "<p>The usual guidance for wet process floors is a fall of about 1 to 2 percent towards the drain, which is 10 to 20 mm for every metre of run. Less than 1 percent and water sits in shallow puddles wherever the screed is slightly uneven. Much more than 2 percent and trolleys, kegs and people start to slide. Tank legs also need packing to stand level.</p><p>Short runs matter as much as the gradient. A 2 percent fall over eight metres means a 160 mm level difference, which is awkward around a brewhouse platform. Several drains with short falls usually beat one drain with a long one. Ask the architect to draw the falls as contour lines on the floor plan so you can see where water will go before the screed is poured.</p>"
+  ],
+  [
+   "Trench drains or point drains",
+   "<p>Two drain types cover most breweries:</p><ul><li><strong>Trench (slot) drains</strong> run in a line, often in front of the brewhouse and along a row of fermenters. They catch a sheet of water from a wide area and suit places where vessels are dumped and hosed.</li><li><strong>Point (gully) drains</strong> collect water from a fall that slopes in from every side. They suit cold rooms, packaging areas and corners.</li></ul><p>Specify stainless steel, ideally grade 304 or 316, with removable gratings and a basket or sump that catches solids. Hot caustic at 70 to 80 °C, sanitiser and acid all go down these drains. Mild steel and plastic channels do not last.</p>"
+  ],
+  [
+   "Place drains where the liquid actually lands",
+   "<p>Walk the process on paper. Where does the mash tun empty? Where do you dump trub and yeast? Where does a fermenter drain during CIP? Each of those points needs a drain within a hose length and on the downhill side. Never put a drain directly under a tank leg or under the path of a pallet truck.</p><p>The one floor detail we always insist on: a grain-out point with a coarse basket in front of the mash tun. Spent grain is heavy and fibrous. A few kilos washed into a drain line will block it within weeks, usually on a Saturday.</p>"
+  ],
+  [
+   "Cold rooms and packaging need their own plan",
+   "<p>A walk-in cold room at 2 to 4 °C gets far less water than the brewhouse, but what it does get stays longer because nothing evaporates. Give it a point drain with a trap that will not dry out. Slope the floor gently enough that kegs stand still. If the cold room has an insulated floor, the drain detail has to be agreed with the panel supplier before the floor goes in.</p><p>Canning and bottling areas collect sticky beer, broken glass and rinse water from fillers. A trench drain along the line with a fine grating catches the glass before it reaches the pipe. Keep electrical panels and the filler controls away from the low point of the floor.</p>"
+  ],
+  [
+   "Size for the worst minute, not the average day",
+   "<p>The drain system has to cope with a peak, not a daily total. Dumping 500 litres of hot rinse water from a kettle in two minutes is about 4 litres a second. A single small gully cannot take that. Give the plumbing consultant your largest dump volume and how fast it leaves the vessel, then let them size the channels and pipes.</p><p>Plan for temperature too. Effluent leaving a brewery can be close to boiling after a kettle dump and well above 70 °C after a hot CIP cycle. Pipes, joints and the effluent treatment plant all need to handle that.</p>"
+  ],
+  [
+   "Floors, effluent and the approvals behind them",
+   "<p>The floor finish has to survive hot caustic and acid. Polyurethane cement resin systems and acid-resistant tiles laid on a properly falling screed are common choices. Seal the joint where the floor meets the wall with a cove so dirt cannot sit in the corner.</p><p>Brewery effluent is high in organic load and swings in pH between caustic and acid cleaning. Most states require pollution control board consent before you operate. Many also expect a treatment plant sized to your output. Rules vary by state, so check with the board or a consultant early. Pair this guide with our notes on <a href=\"planning-water-supply-and-storage-for-a-new-brewery.html\">planning water supply and storage</a>, since what comes in must go out.</p><p>Drain design is one line in a long list of decisions that only look cheap at the drawing stage. The Brewery Business Management course takes you through the whole site plan in the order a founder has to make those calls.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What slope should a brewery floor have?",
+   "A fall of about 1 to 2 percent towards the drain is the usual guidance, which is 10 to 20 mm per metre. Keep runs short so the level difference stays manageable."
+  ],
+  [
+   "Are trench drains better than point drains?",
+   "Neither is better everywhere. Trench drains suit the brewhouse and fermenter rows where water arrives in sheets. Point drains suit cold rooms and corners."
+  ],
+  [
+   "What material should brewery drains be?",
+   "Stainless steel, usually grade 304 or 316, with removable gratings and solids baskets. It survives hot caustic and acid where plastic and mild steel do not."
+  ]
+ ],
+ "cta": {
+  "title": "Plan your brewery site before the concrete sets",
+  "body": "Brewery Business Management runs live on Saturdays and Sundays, 12:00 PM to 2:00 PM IST, for three weeks. Batches are capped at 20, every class is recorded and you finish with a certificate. The fee is ₹8,999. It covers site planning, utilities and the approvals that sit behind them.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "planning-water-supply-and-storage-for-a-new-brewery",
+  "planning-ventilation-and-co2-safety-in-brewery-cellars",
+  "safety-training-every-new-brewery-worker-needs-on-day-one"
+ ]
+}

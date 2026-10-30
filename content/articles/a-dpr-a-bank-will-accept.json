@@ -1,0 +1,71 @@
+{
+ "slug": "a-dpr-a-bank-will-accept",
+ "cat": "Consultancy",
+ "h1": "Writing a DPR a bank will accept",
+ "title": "Writing a DPR a Bank Will Accept | Craft Beer School",
+ "desc": "How to write a project report that a bank credit officer can check: consistent numbers, repayment cover, margin of safety and honest risks.",
+ "teaser": "Banks decide on their own criteria. A clear report removes the avoidable reasons for a no.",
+ "standfirst": "No report can promise a loan. What it can do is let a credit officer check your claims quickly and find nothing that does not add up.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What a credit officer actually does",
+   "<p>A credit officer reads many proposals and has to justify each recommendation to a committee. Their first pass is for consistency: does the project cost in the summary match the cost table, does the loan match the means of finance, does the capacity match the cash flow? Their second pass is for repayment: will cash cover the instalments?</p><p>Lenders set their own policies, security requirements and thresholds. These differ by bank and change over time. Ask your lender what format and ratios they expect. Everything below is general good practice, not a promise of approval.</p>"
+  ],
+  [
+   "Make the numbers agree everywhere",
+   "<p>Most rejected or delayed reports fail on arithmetic, not strategy. Total project cost must equal total means of finance. Capacity in the technical section must equal the volume ceiling in the model. Depreciation in the profit and loss must match the asset schedule. Interest must match the repayment schedule.</p><p>Build the model once and pull every table from it. If you retype numbers into a text document, they drift. This is the cheapest improvement you can make. We list other common slips in <a href=\"mistakes-in-brewery-project-reports.html\">common mistakes in brewery project reports</a>.</p>"
+  ],
+  [
+   "Show repayment cover",
+   "<p>Lenders look at whether operating cash covers debt service, often through the debt service coverage ratio (DSCR): cash available for debt service divided by principal plus interest due in the year.</p><p>A hypothetical illustration: a loan of 60 units repaid in equal principal over five years is 12 units a year. At 10 percent interest the first year interest is 6 on the opening balance. Debt service is 18. If first-year cash available is 30, DSCR is about 1.7. Lenders set their own minimum, so ask what yours is. Then check the weakest year, which is usually the first full year, not the average.</p>"
+  ],
+  [
+   "Be realistic about ramp-up",
+   "<p>Nothing makes a credit officer more doubtful than a brewery that sells at full capacity in month three. Show a ramp that rises with distribution and licences. Show the cost of the quiet months too. A brewery has fixed costs from day one: staff, rent, interest and the electricity that keeps a cold room at 2 °C whether it is full or not.</p><p>Tie the ramp to evidence, such as signed intent from distributors or sales from a pilot, rather than hope. See <a href=\"defensible-assumptions-in-a-project-report.html\">financial assumptions in a project report</a>.</p>"
+  ],
+  [
+   "Show the margin of safety",
+   "<p>Include a sensitivity table. Show what happens to DSCR and NPV if sales fall by 10 or 20 percent, if raw material costs rise or if the plant costs 10 percent more. A report that shows its own weak points looks more credible than one that shows none. The method is in <a href=\"sensitivity-analysis-for-a-drinks-project.html\">sensitivity analysis for a drinks project</a>.</p>"
+  ],
+  [
+   "Be clear on security, approvals and the promoters",
+   "<p>State what security you can offer, the status of each approval and the promoters' own contribution in cash. List licences as obtained, applied for or to be applied for, with dates. Do not hide a pending approval; a lender will find it.</p><p>Describe the promoters' experience honestly. If nobody on the team has run a brewery, say who you will hire and when. Rules, fees and timing for licences differ by country and by Indian state, so confirm each with the regulator or an adviser.</p>"
+  ],
+  [
+   "What a report cannot do",
+   "<p>It cannot change a weak project into a good one. If the break-even volume is higher than the market can absorb, no formatting helps. An independent read before you submit can catch problems you are too close to see; we cover that in <a href=\"independent-review-of-a-project-report.html\">getting an independent review</a>.</p><p>Think of the report as the answer to questions the officer will ask in the committee room. Why this site? Why this size? What if the first year is slow? What if the main distributor leaves? If each question has a page that answers it with a number, you have done most of the work. If the honest answer is \"we have not thought about that\", better to find out now than in front of the credit committee. Lenders also differ, so an early conversation about what they will want to see saves rewriting later.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Will a good DPR get me a bank loan?",
+   "Not on its own. The bank decides on its own criteria, including your security, track record and its current policies. A consistent report removes avoidable reasons for a refusal."
+  ],
+  [
+   "What is DSCR?",
+   "Debt service coverage ratio: cash available to pay debt in a year divided by the principal and interest due that year. Lenders set their own minimum, so ask yours."
+  ],
+  [
+   "Should I use the bank's own format?",
+   "If the bank gives you one, use it with your fuller report attached. The structure they ask for tells you what they will check."
+  ],
+  [
+   "How long should the projections run?",
+   "Long enough to cover the loan tenure, usually five to ten years. Ask your lender what they expect."
+  ]
+ ],
+ "cta": {
+  "title": "Send a report that a credit officer can check",
+  "body": "Our project and business reports service prepares lender-ready detailed project reports with one model feeding every table. We cannot promise a loan, but we can make the report easy to examine.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Start the conversation"
+ },
+ "related": [
+  "project-report-or-business-plan",
+  "feasibility-study-for-a-craft-distillery",
+  "project-report-for-a-brewpub"
+ ]
+}

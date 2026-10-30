@@ -1,0 +1,71 @@
+{
+ "slug": "unit-economics-of-a-keg-can-and-pint",
+ "cat": "Business",
+ "h1": "Unit economics of a keg, a can and a pint",
+ "title": "Keg, Can and Pint Unit Economics | Craft Beer School",
+ "desc": "Compare what the same litre of beer earns as a keg, a can and a taproom pint, with a worked example in neutral currency units and the costs people forget.",
+ "teaser": "The same litre earns very different money depending on the container and who buys it.",
+ "standfirst": "A litre of beer is a different product in a keg, a can and a glass. This guide walks through the costs and the margin of each, using a worked illustration, so you can see where your money is made.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why unit economics beats the average",
+   "\n<p>Most breweries know their average cost per litre. Fewer know what a litre earns in each format. That matters because the formats carry very different costs and prices. A brewery that sells all three without knowing the split may be subsidising a loss-making format from a profitable one.</p>\n<p>Unit economics means working out revenue and cost for one unit of each product. Start with the unit you actually sell: a 30 litre keg, a 330 ml or 500 ml can, a pint in the taproom.</p>"
+  ],
+  [
+   "The common base: beer in the tank",
+   "\n<p>All three share the cost of the liquid. That is ingredients, brewing labour, utilities, yield loss and a share of fixed cost. We cover how to build it in <a href=\"cost-per-litre-beer.html\">cost per litre of beer</a>. For this illustration take a base cost of 60 currency units per litre of finished beer. Those numbers are hypothetical.</p>\n<p>From there each format adds its own costs and sells at its own price.</p>"
+  ],
+  [
+   "Keg: low packaging cost, long cash cycle",
+   "\n<p>A keg is reusable, so its cost is a deposit, a loss rate and cleaning. Kegs disappear or get damaged. The loss rate belongs in the model. Suppose a 30 litre keg sells to a bar for a net price of 150 per litre, or 4,500. Add 5 per litre for cleaning, gas and keg loss, on top of the 60 base. Contribution is 85 per litre, or 2,550 per keg.</p>\n<p>Notice what is not in the number: the time until the bar pays and the cold chain. In a hot climate, beer that sits warm at the outlet degrades. The brand takes the blame. See our guide on <a href=\"beer-off-flavours.html\">beer off flavours</a>.</p>"
+  ],
+  [
+   "Can: higher cost per litre, wider reach",
+   "\n<p>A can adds the can itself, the lid, the label or sleeve, the carrier and the filling cost. A mobile canner, if used, adds a per-litre or per-can fee, which you should read in the contract. Say these add 40 per litre for a 500 ml can. With a net price of 220 per litre after the distributor and retailer margin, contribution is 220 minus 60 minus 40, or 120 per litre. That looks better than the keg.</p>\n<p>But the can carries costs the keg did not: stock of empty cans, minimum orders, damaged goods and slower sales if the range is wide. Canned beer also sits longer on shelves, so freshness and cold storage matter more.</p>"
+  ],
+  [
+   "Pint: the highest price, the heaviest overhead",
+   "\n<p>In your own taproom a 500 ml pint sells at a menu price. Suppose net revenue is 350 per pint, or 700 per litre. After the base cost of 60 and a small allowance for glassware, cleaning and spillage, contribution per litre is very high. But the taproom carries staff, rent, licence costs and a lot of unsold hours.</p>\n<p>The pint's contribution must carry the whole venue. Compare it to the other two only after allocating those costs. Our guide on <a href=\"taproom-only-brewery-model.html\">the taproom-only brewery model</a> explains that logic. Remember too that a pint is rarely a full 500 ml of sold beer. Foam, spillage, tasting pours and the free round for a regular all come off the litre you brewed, so measure how many pints you really sell from a keg.</p>"
+  ],
+  [
+   "Compare on contribution after the channel's own costs",
+   "\n<p>Put the three side by side: net price per litre, packaging and handling, direct channel cost, contribution per litre and cash days. Then multiply by realistic volumes. A format with a lower contribution per litre may still earn more in total if it moves in volume. Another with a great margin may sell a few cases a month.</p>\n<p>Do not average the three. Decide which formats you want more of and why. The point is to choose, not to describe. A brewery that finds its keg business thin might lift the keg price, drop the slowest accounts or shift volume to the taproom. One that finds the can strong might add a second beer in that format. In both cases the table, not a feeling, makes the call.</p>"
+  ],
+  [
+   "What to do next",
+   "\n<p>Build one table in a spreadsheet this week. Rows are formats, columns are price, costs, contribution and cash days. Update it when a supplier raises a price. If you want to learn how to build this properly from your own records, the course below teaches it, step by step.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Which format is most profitable per litre?",
+   "It depends on your costs and your channel. Taproom pints usually have the highest price per litre, but they also carry the venue's costs. Work it out from your own numbers."
+  ],
+  [
+   "Should a small brewery start with cans?",
+   "Not necessarily. Draught needs less capital. Start from the channel you can reach and the cash you have."
+  ],
+  [
+   "Do I include keg loss in the cost?",
+   "Yes. Kegs go missing and get damaged. Count an annual loss rate from your own records."
+  ],
+  [
+   "Why use contribution rather than profit per unit?",
+   "Contribution leaves out fixed costs, which do not change with each unit. That shows which format pays for the overhead."
+  ]
+ ],
+ "cta": {
+  "title": "Know what each litre earns",
+  "body": "Brewery Business Management is a 3-week live online course (₹8,999) that teaches you to build the cost model, the pricing and the monthly forecast for your own brewery. Unit economics is one of the first models you build.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "franchise-partnership-or-own-brewpub",
+  "expand-your-brewery-or-buy-contract-capacity",
+  "how-breweries-are-valued"
+ ]
+}

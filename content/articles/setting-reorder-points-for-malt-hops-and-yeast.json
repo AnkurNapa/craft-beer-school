@@ -1,0 +1,71 @@
+{
+ "slug": "setting-reorder-points-for-malt-hops-and-yeast",
+ "cat": "Business",
+ "h1": "Setting reorder points for malt, hops and yeast",
+ "title": "Reorder Points for Malt, Hops and Yeast | Craft Beer School",
+ "desc": "How to set reorder points for brewing ingredients: daily usage, lead time, safety stock and a worked example for a 1,000 litre brewpub.",
+ "teaser": "Running out of base malt on a brew day is avoidable. One simple formula stops it.",
+ "standfirst": "Most small breweries reorder ingredients when someone notices the pile looks small. That works until the imported malt takes ten weeks and the pile runs out in six. Here is how we set reorder points that hold.",
+ "read": "4 min",
+ "updated": "2026-10-23",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "The formula is simple",
+   "<p>A reorder point is the stock level at which you place the next order. The standard formula is:</p><p><strong>Reorder point = average daily usage x lead time in days + safety stock</strong></p><p>Average daily usage comes from your brewing schedule. Lead time is the time from placing the order to having the goods in your store, not the time the supplier quotes for dispatch. Safety stock is the buffer that covers a late delivery or a sudden jump in sales. When stock falls to the reorder point, you order. Nobody has to guess.</p>"
+  ],
+  [
+   "A worked example for base malt",
+   "<p>Take a brewpub making two 1,000 litre batches a week of beers around 12 °Plato. Each batch uses roughly 200 kg of base malt, so weekly use is 400 kg, or about 57 kg a day.</p><p>Say domestic malt arrives 14 days after you order. Lead time demand is 57 x 14, which is about 800 kg. Add one week of usage as safety stock, 400 kg. The reorder point is 1,200 kg, or 48 bags of 25 kg. When the store drops to 48 bags, the order goes out.</p><p>Run the same sum for each malt. A crystal malt used at 5% of the grist moves slowly. Its reorder point will be small, but its lead time may be long if it is imported.</p>"
+  ],
+  [
+   "Imported ingredients change the numbers",
+   "<p>Many Indian craft breweries import specialty malts, hops and liquid yeast. Shipping, customs clearance and the trip from port to brewery can take many weeks. The timing varies too. Use the longest lead time you have actually experienced in the last year, not the best one. If a shipment once took ten weeks, plan on ten.</p><p>Long lead times push the reorder point up a lot. Ten weeks of a malt you use at 20 kg a week is 200 kg before you add any buffer. That is cash tied up on the shelf, so balance it against what a stock-out would cost. Our guide to <a href=\"working-capital-in-a-brewery-covering-stock-kegs-and-trade.html\">working capital in a brewery</a> shows how stock affects cash.</p>"
+  ],
+  [
+   "Hops need cold storage and shorter cover",
+   "<p>Hops lose aroma and bitterness as they age, faster when warm. Store pellets in sealed oxygen barrier packs in a freezer or cold room, ideally below 0 °C. Once a pack is opened, flush it with CO2 or vacuum seal it and use it soon.</p><p>That changes the stock maths. You do not want a year of hops sitting around even if the price was good, unless your cold storage is excellent. Many breweries contract hops for the year with a supplier, then call off deliveries in smaller lots. The reorder point then applies to the call-off, with the contract securing the supply.</p>"
+  ],
+  [
+   "Yeast is a different kind of stock",
+   "<p>Dry yeast keeps for a long time when stored cool and sealed, so it works with an ordinary reorder point. Liquid yeast is short lived. Order it for a specific brew date, not to sit on a shelf.</p><p>If you repitch, your real stock is slurry in a fermenter. Track it by generation number and harvest date. Set a rule for how many generations you allow before fresh propagation, then order the fresh pitch early enough to arrive before that generation limit. In practice the reorder point for liquid yeast is a date in the brewing calendar, not a quantity on a shelf.</p>"
+  ],
+  [
+   "Put packaging and gases on the same sheet",
+   "<p>Ingredients are only half the stock that can stop a brew. A brewery with plenty of malt but no CO2, no caustic or no labels is just as stuck. Give each of these a reorder point too: CO2 cylinders or bulk tank level, cleaning chemicals, cans and ends, crown caps, labels and keg spares such as spear seals.</p><p>Printed packaging deserves extra care because lead times are long and minimum print runs are large. If a can label takes six weeks to print and you fill 2,000 cans a week, the reorder point is at least 12,000 labels plus your buffer. Running out of labels for the beer that pays the rent is an expensive way to learn that sum.</p>"
+  ],
+  [
+   "Count stock often enough to trust the numbers",
+   "<p>A reorder point only works if you know what is in the store. Do a full stock take monthly and a quick count of key items (base malt, main hops and CO2) every week. Record every withdrawal against the batch that used it.</p><p>Compare what the recipes say you used with what left the store. A gap means spillage, mis-weighing or recipes not followed. Our guide to <a href=\"running-a-monthly-stock-take-in-a-brewpub.html\">running a monthly stock take</a> sets out the routine.</p>"
+  ],
+  [
+   "Review the points every quarter",
+   "<p>Reorder points go stale. Sales grow, recipes change and suppliers get faster or slower. Each quarter, recalculate daily usage from the last three months and check each lead time against real delivery dates. A simple spreadsheet with one row per ingredient is enough: usage, lead time, safety stock, reorder point, current stock.</p><p>Highlight any line where current stock is below the reorder point. That is your order list. Building this sheet takes an afternoon. It is the kind of operating tool that separates breweries that run smoothly from those that run out.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the formula for a reorder point?",
+   "Reorder point equals average daily usage multiplied by lead time in days, plus safety stock. Order when stock falls to that level."
+  ],
+  [
+   "How much safety stock should a brewery keep?",
+   "One to two weeks of usage is a common starting point for domestic supply. Imported ingredients with unreliable lead times need more."
+  ],
+  [
+   "How should hops be stored?",
+   "In sealed oxygen barrier packs in a freezer or cold room, ideally below 0 °C. Reseal opened packs and use them soon."
+  ]
+ ],
+ "cta": {
+  "title": "Plan your brewery's stock and cash with confidence",
+  "body": "Brewery Business Management runs as live weekend classes over three weeks (₹8,999), with a maximum of 20 per batch, recordings, weekly assignments and a certificate. You will learn costing, stock control, supplier management and cash planning for a working brewery or brewpub.",
+  "href": "brewery-business-management-course.html",
+  "label": "Save your seat"
+ },
+ "related": [
+  "setting-up-a-board-and-advisers-for-a-small-brewery-company",
+  "setting-up-a-nano-brewery-and-what-it-can-realistically-earn",
+  "setting-a-staff-drinking-policy-for-a-brewpub"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "brewery-working-capital",
+ "cat": "Business",
+ "h1": "Working capital for a brewery: stock, duty and the cash gap",
+ "title": "Brewery Working Capital Explained | Craft Beer School",
+ "desc": "Why a profitable brewery can still run out of cash, how to calculate the cash gap between buying malt and getting paid. It also covers how to fund that gap.",
+ "teaser": "You pay for malt months before the beer is paid for. That gap, not the profit, is what breaks young breweries.",
+ "standfirst": "Working capital is the cash tied up between buying ingredients and collecting payment. This guide shows how to measure the gap, what drives it and how to shrink it.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Profit is not cash",
+   "\n<p>A brewery can show a profit on paper and still be unable to pay its suppliers. The reason is timing. You pay for malt, hops, packaging and duty first. The beer ferments, matures, is packed, sold and delivered. Only then does the money come back, often after a credit period.</p>\n<p>The money tied up between those two points is <strong>working capital</strong>. Many owners budget for equipment and forget it, then discover in month four that every rupee of sales is already spoken for.</p>"
+  ],
+  [
+   "Where the cash gets stuck",
+   "\n<p>There are four places. <strong>Raw materials:</strong> imported malt and hops are often bought in larger lots. Some must be ordered months ahead. <strong>Beer in tank:</strong> a lager needs weeks in tank. You have paid for everything in it. <strong>Finished goods:</strong> packed beer sitting in the warehouse or a distributor's cold room. <strong>Receivables:</strong> customers who pay in 30, 60 or more days.</p>\n<p>Against that, <strong>payables</strong> are the supplier credit you manage to negotiate. The gap is roughly stock plus receivables minus payables.</p>"
+  ],
+  [
+   "A worked illustration",
+   "\n<p>Use round, hypothetical numbers in currency units. A brewery spends 100 on ingredients and packaging for a month of beer. Raw materials sit for 20 days. The beer then spends 30 days in tank and packaging. Finished stock sells in 10 days. That is 60 days before any invoice goes out. Customers then pay after 30 days, so cash returns on day 90. Suppliers give 15 days of credit.</p>\n<p>The cash gap is about 75 days of cost. For a brewery that spends 100 a month, that is roughly 250 of working capital for one cycle. It is more if sales are growing, because each month needs a larger batch than the last. Growth consumes cash even when it is profitable. A brewery that doubles its sales in a quarter often needs more working capital than one that stays flat, which is a surprise to owners who expect success to feel comfortable.</p>"
+  ],
+  [
+   "Duty and taxes in the cycle",
+   "\n<p>In India alcohol is a state subject. Excise duty, when and how it is paid and whether it is paid before beer leaves the premises differ by state and change. Some systems require payment or a deposit before beer moves out. Ask your licensing adviser how it works in your state. Then put the timing into the forecast. A duty bill paid in advance can be the biggest single item in your gap.</p>\n<p>Our <a href=\"cash-flow-forecast-for-a-new-brewery.html\">12-month cash flow guide</a> shows where to place those payments.</p>"
+  ],
+  [
+   "Ways to shrink the gap",
+   "\n<ul><li>Negotiate longer supplier terms on the items you buy regularly. Buy imported malt in lots your cash can carry.</li><li>Shorten tank time where the style allows it, without rushing fermentation. Do not hurry a lager to save a week and lose a batch.</li><li>Collect faster. Offer a small discount for payment on delivery, or insist on advance payment from new accounts.</li><li>Sell more direct. Taproom sales and cash on delivery customers pay at once.</li><li>Keep a cash buffer for the one batch that fails quality control.</li></ul>"
+  ],
+  [
+   "Funding the gap",
+   "\n<p>Working capital is usually funded by a revolving credit line or an overdraft, not by a term loan for equipment. Banks look at how you will pay it down. See <a href=\"bank-loan-for-a-brewery.html\">what the bank looks at</a> when you ask. Never fund the gap with money that is meant for equipment, because the shortfall will appear at the worst time. A brewery that has paid for a new fermenter and has no cash left for the next malt order has a shiny tank and nothing to put in it.</p>"
+  ],
+  [
+   "The numbers to watch",
+   "\n<p>Track days of stock, days of receivables and days of payables every month. Write them on one line in the monthly report, next to the bank balance. If the bank balance looks healthy but days of receivables are climbing, the cash is already leaving. Add a column for the same month last year once you have the history, so you can see seasonal swings before they surprise you. When one drifts, you will see the cash problem weeks before the bank balance shows it. The course below teaches you to build this into a monthly dashboard.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "How much working capital does a new brewery need?",
+   "It depends on your batch cycle, credit terms and state duty rules. Work it out from your own days of stock and receivables rather than a rule of thumb."
+  ],
+  [
+   "Why do growing breweries run short of cash?",
+   "Each month needs a larger batch bought before the last one is paid for, so growth absorbs cash even when sales are profitable."
+  ],
+  [
+   "Is working capital the same as a loan?",
+   "No. It is the cash tied up in operations. A loan or credit line is one way to fund it."
+  ],
+  [
+   "Does faster fermentation help?",
+   "Only if quality holds. A shorter tank time releases cash sooner, but a rushed beer that fails is the most expensive outcome."
+  ]
+ ],
+ "cta": {
+  "title": "Find your cash gap before it finds you",
+  "body": "Brewery Business Management is a 3-week live online course (₹8,999) that teaches you to build the cost model, the pricing and the monthly forecast for your own brewery. Working capital is built into the forecast you create.",
+  "href": "brewery-business-management-course.html",
+  "label": "See the full syllabus"
+ },
+ "related": [
+  "bank-loan-for-a-brewery",
+  "microbrewery-capital-costs",
+  "unit-economics-of-a-keg-can-and-pint"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "independent-review-of-a-project-report",
+ "cat": "Consultancy",
+ "h1": "Getting an independent review of your project report",
+ "title": "Independent Review of a Project Report | Craft Beer School",
+ "desc": "What an independent review of a project report checks, why a second reader finds errors the author cannot and what it cannot promise.",
+ "teaser": "The person who wrote the model is the worst person to check it. A fresh reader finds what you stopped seeing.",
+ "standfirst": "An independent review is a structured read of a project report by someone who did not write it. It looks for errors, gaps and claims a lender would challenge.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why a second reader matters",
+   "<p>By the time a report is finished, the author knows what every number is meant to say and reads it that way. A lender reads it cold. An independent reviewer plays that role before you submit, when fixing a problem costs a day and not a rejection.</p><p>It is most useful when a lot rides on the report: a large loan, an investor round or a decision to build. It is a check, not a rewrite.</p>"
+  ],
+  [
+   "What a reviewer checks",
+   "<p><ul><li>Arithmetic: do the tables add up, do totals match across sections, do formulas link correctly?</li><li>Consistency: is capacity the same in the technical section and the model? Does project cost equal means of finance?</li><li>Assumptions: does each have a source and a sensible range? See <a href=\"defensible-assumptions-in-a-project-report.html\">making assumptions defensible</a>.</li><li>Technical logic: does the plant chain support the volume and are utilities and yields realistic?</li><li>Market logic: does the volume follow from evidence?</li><li>Finance: is working capital included, is tax treated properly, are the return measures correct?</li><li>Risk: are real risks named and tested?</li></ul></p>"
+  ],
+  [
+   "A worked example of a typical catch",
+   "<p>A hypothetical in neutral units. A report shows a project costing 100 with five-year cash flows of 30, 35, 40, 40 and 40 and an NPV of about 31 at 12 percent. A reviewer asks about working capital. The model assumed none. Adding 10 units of stock and receivables at the start, recovered in year five, reduces NPV by 10 minus 10/1.12 to the power of 5, which is about 4.3. NPV falls to about 27.</p><p>The project still passes, but the report would have overstated the return. The second catch might be a debt cover calculation that used average cash flow rather than the weakest year. Neither error was deliberate. Both are what a fresh reader finds. For more patterns, see <a href=\"mistakes-in-brewery-project-reports.html\">common mistakes in brewery project reports</a>.</p>"
+  ],
+  [
+   "How a review works in practice",
+   "<p>You send the report and the live model. The reviewer reads the report as a lender would, then opens the model and traces the key numbers. They test a few inputs to see that the outputs respond. They write down what they found, ranked by how much it matters. You then fix it.</p><p>Good reviews are specific: the cell, the page and the effect. A general comment such as \"the market section is weak\" is less use than \"the volume of 6,000 litres a month assumes 50 venues and the report does not show where they are\".</p>"
+  ],
+  [
+   "What a review cannot do",
+   "<p>It cannot promise a loan, an investment or an approval. Banks and investors decide on their own criteria. A review does not change those. It also does not replace legal or tax advice, or checking licences with the regulator. It tests the report as written. It relies on the data you supply.</p><p>A review may also say that the project does not work. That is a useful result at this stage.</p>"
+  ],
+  [
+   "What to send and what you get back",
+   "<p>Send the report, the live model with formulas intact, the quotations and the market evidence behind the key numbers. A PDF of the model is not enough, because the reviewer needs to trace formulas. In return you should get a short written list of findings, ranked by effect, each with its location and a suggested fix. A note of what was and was not checked should come with it.</p><p>Plan time to fix the findings and to reread the report once changed. A review that finds ten items on Monday and a submission deadline on Tuesday helps no one. Ask for the first read well before the date you need.</p>"
+  ],
+  [
+   "Choosing a reviewer",
+   "<p>Choose someone who understands both the technical side and the finance and who did not write the report. Agree what is in scope before they start. Agree how findings are reported. Keep the reviewer's comments and your replies; some lenders like to see that a review took place.</p><p>Our project and business reports team can review reports and models prepared elsewhere, as well as prepare them. A good time to ask is a week before submission, not the night before.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Is an independent review the same as an audit?",
+   "No. An audit tests historical accounts. A review tests a forward-looking report for errors, gaps and weak assumptions."
+  ],
+  [
+   "When should I get a review?",
+   "Before you submit to a lender or investor and early enough to fix what is found."
+  ],
+  [
+   "Will a review guarantee a loan?",
+   "No. Lenders decide on their own criteria. A review reduces avoidable errors."
+  ],
+  [
+   "What do I need to send?",
+   "The report, the live financial model, the quotations and the market evidence behind the key numbers."
+  ]
+ ],
+ "cta": {
+  "title": "Have someone else read it first",
+  "body": "Our project and business reports team reviews project reports and financial models, whether we prepared them or not. Start the conversation and send us the draft.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Start the conversation"
+ },
+ "related": [
+  "mistakes-in-brewery-project-reports",
+  "business-health-report-for-a-brewery",
+  "project-report-for-a-cidery"
+ ]
+}

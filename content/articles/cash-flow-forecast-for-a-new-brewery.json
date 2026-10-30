@@ -1,0 +1,71 @@
+{
+ "slug": "cash-flow-forecast-for-a-new-brewery",
+ "cat": "Business",
+ "h1": "A 12-month cash flow forecast for a new brewery",
+ "title": "A 12-Month Brewery Cash Flow Forecast | Craft Beer School",
+ "desc": "How to build a 12-month cash flow forecast for a new brewery: the layout, the lags, a worked example and the low point that decides your funding.",
+ "teaser": "Profit tells you if the plan works. Cash tells you if you survive the first year. Forecast it month by month.",
+ "standfirst": "A cash flow forecast shows your bank balance month by month. This guide gives the layout, explains the timing traps and works through a small example in neutral currency units.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "What the forecast is for",
+   "\n<p>A cash flow forecast lists the money you expect to receive and pay each month. It also shows the balance at each month end. It answers one question: will we have enough cash to pay what is due? Nothing else on the page matters if the answer is no.</p>\n<p>For a new brewery the most important number is the lowest point. It tells you how much funding you need and when you need it.</p>"
+  ],
+  [
+   "The layout",
+   "\n<p>Use twelve columns, one for each month, starting at the month you first spend money, not the month you first brew. Rows run down the page in four groups. <strong>Cash in:</strong> sales by channel, loans drawn, owner and investor money, deposits. <strong>Cash out, one-off:</strong> equipment, fit-out, licences, deposits. <strong>Cash out, regular:</strong> ingredients, packaging, salaries, rent, utilities, marketing, loan instalments, taxes. <strong>Balance:</strong> opening cash plus in minus out equals closing cash.</p>\n<p>Build it in a spreadsheet with formulas, so a change in one input flows through. Keep inputs such as price, volume, payment days and loan terms in one block at the top. Never type a number into the middle of a formula. A forecast that only its author can change will not survive its first review. Show it to someone who has not seen it and ask them to find the weak assumption.</p>"
+  ],
+  [
+   "Timing is where forecasts fail",
+   "\n<p>Record cash when it moves, not when the sale is booked. If customers pay 30 days after delivery, a sale in month four is cash in month five. If you buy malt a month before you brew and the beer sits a month in tank, cash leaves two months before the first sale. Excise or duty may have its own payment timing, which differs by state and changes, so ask. Our guide on <a href=\"brewery-working-capital.html\">working capital</a> explains the gap.</p>"
+  ],
+  [
+   "A small worked example",
+   "\n<p>These are hypothetical numbers in thousands of currency units. Opening cash is 2,000. Months 1 to 3 are build and licence months with no sales, with outflows of 400, 400 and 450. Month 4 is the first brew. Outflows are 500 and nothing comes in yet. Sales are booked in month 4 but paid in month 5, so month 5 inflow is 300 against outflow of 520. Month 6 brings 600 in against 540 out.</p>\n<p>Closing balances run 1,600, 1,200, 750, 250, 30 and 90. The low point is 30 in month 5. The plan survives, but with almost no margin for a delayed licence, a late payment or a batch that fails. A one-month delay in the first sale would have taken the balance below zero. The right response is a larger buffer, not hope.</p>"
+  ],
+  [
+   "Three versions, not one",
+   "\n<p>Build a base case, a slow case and a fast case. In the slow case, delay the opening by two months and cut sales by a quarter. In the fast case, sales ramp up faster, which consumes cash in extra ingredients and stock. Growth is not free. Many breweries are surprised that the fast case is the one that needs the most funding.</p>\n<p>Take the lowest balance in the slow case and add a buffer. That is a sensible funding target. Be honest about the slow case. If your licence takes two months longer than the date on the plan, the slow case is the likely case. A forecast that assumes the best date is a wish.</p>"
+  ],
+  [
+   "Keep it alive",
+   "\n<p>A forecast built once and left in a drawer is useless. Every month, replace the forecast with actuals, update the remaining months and compare the two. The gaps teach you what you misjudged. Add the 13th month as you go, so you always look twelve months ahead.</p>\n<p>A lender or investor will ask to see this. See <a href=\"funding-a-brewery.html\">funding a brewery</a> for how it fits into a funding request.</p>"
+  ],
+  [
+   "Where to get help",
+   "\n<p>We build cash flow forecasts and full business plans for breweries as part of project and business reports, led by Ankur Napa. Whether you build your own or ask us to, the structure is the same. Start with the layout in this guide, fill in the quotes you already hold and mark every number you have not yet confirmed. Then chase those numbers one by one. A forecast with ten unconfirmed inputs is a to-do list. That is fine as a first draft.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "Why 12 months?",
+   "It covers a full cycle of costs, seasonal swings and the first licence and loan payments. Many lenders ask for longer, but the first year is where most breweries run short of cash."
+  ],
+  [
+   "What is the difference between profit and cash flow?",
+   "Profit counts sales when booked and costs when incurred. Cash flow counts money when it moves. A profitable brewery can run out of cash."
+  ],
+  [
+   "Should I include loan principal?",
+   "Yes. Principal repayments are cash out even though they are not an expense in the profit calculation."
+  ],
+  [
+   "How often should I update the forecast?",
+   "Every month, with actual figures. Roll it forward so it always looks twelve months ahead."
+  ]
+ ],
+ "cta": {
+  "title": "Get a forecast a lender can read",
+  "body": "We prepare business plans, detailed project reports and investor packs for breweries, led by Ankur Napa. We can build the cash flow with you. Work can be done remotely by video call and shared data, with site visits by arrangement.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Ask for a project report"
+ },
+ "related": [
+  "funding-a-brewery",
+  "selling-your-brewery-getting-the-numbers-ready",
+  "planning-a-brewpub-for-seasonal-demand"
+ ]
+}

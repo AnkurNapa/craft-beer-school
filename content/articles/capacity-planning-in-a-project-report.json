@@ -1,0 +1,71 @@
+{
+ "slug": "capacity-planning-in-a-project-report",
+ "cat": "Consultancy",
+ "h1": "Capacity planning in a project report",
+ "title": "Capacity Planning in a Project Report | Craft Beer School",
+ "desc": "How to work out the real capacity of a brewery or distillery from its slowest stage, with a worked example of why it sets every number.",
+ "teaser": "The brewhouse brochure is not your capacity. The slowest stage is.",
+ "standfirst": "Capacity in a project report must be built stage by stage. The number a lender trusts is the lowest one in the chain.",
+ "read": "3 min",
+ "updated": "2026-10-31",
+ "updated_label": "October 2026",
+ "sections": [
+  [
+   "Why capacity matters to every other number",
+   "<p>Capacity caps volume. Volume sets revenue. Revenue sets whether the loan is repaid. So a mistake in capacity runs through the whole model. Overstate it and sales are impossible. Understate it and you pay for a plant you do not need.</p><p>Readers check this early. If the technical section says 5,000 hectolitres and the model sells 6,000, the report loses credibility. See <a href=\"what-a-brewery-dpr-should-contain.html\">what a brewery DPR should contain</a>.</p>"
+  ],
+  [
+   "Work through the chain",
+   "<p>List each stage and compute its annual output: brewhouse, fermentation, conditioning, filtration, packaging and storage. The lowest figure is the plant capacity.</p><p>A hypothetical brewery in neutral figures: a 10 hl brewhouse makes two brews a day, five days a week, for 50 weeks. That is 10 x 2 x 5 x 50 = 5,000 hl a year. Fermentation: six tanks of 20 hl, each filled by two brews, held for about 16 days including cleaning. Allowing for gaps, say 20 cycles a year per tank. That is 6 x 20 x 20 = 2,400 hl a year.</p><p>The fermenters, not the brewhouse, are the limit. Capacity is about 2,400 hl, not 5,000.</p>"
+  ],
+  [
+   "Different beers, different times",
+   "<p>An ale may use a fermenter for about two weeks. A lager can need four weeks or more with conditioning. If half the output is lager, tank cycles fall. In the example, 30 days per cycle gives roughly 12 cycles a year, so six tanks give 6 x 20 x 12 = 1,440 hl. A mix of both lands between 1,440 and 2,400.</p><p>This is why the report should state the product mix and compute capacity from it. A single number with no mix is a guess.</p>"
+  ],
+  [
+   "Fix the bottleneck cheaply",
+   "<p>The chain tells you where to spend. In the example, a seventh fermenter adds 20 x 20 = 400 hl a year, taking capacity to 2,800 hl. That costs far less than a bigger brewhouse that would add nothing. A project report that shows this reasoning is more convincing than one that buys the biggest brewhouse on offer.</p><p>Check packaging too. A small canning or bottling line running a few hours a day may be fine on paper but depends on staff, changeovers and cleaning. Cold storage and dispatch can bind as well.</p><p>Utilities set a ceiling too. A brewery with 2,400 hl of fermenters but a chiller that cannot hold 12 °C when the ambient temperature passes 40 °C will lose fermentations, not just speed. Ask the equipment supplier for the cooling load at your worst-case temperature and size the chiller to it, not to the brochure.</p>"
+  ],
+  [
+   "When demand is larger than capacity",
+   "<p>Sometimes the market is ready for more than the plant can make. The report should say so and show the next step: another fermenter, a second shift or a later expansion, each with its cost and the extra volume it adds. A lender prefers a plan that grows in stages to one that builds for demand that has not arrived. Use the same chain method on each stage. Keep the assumptions in step.</p>"
+  ],
+  [
+   "Allow for real operating conditions",
+   "<p>Nameplate capacity is rarely achieved. Allow for maintenance, power cuts, holidays, cleaning, failed batches and slow weeks. Many models use a utilisation ceiling below 100 percent, such as 85 percent of theoretical. State it as an assumption with a reason. Heat matters too. In hot weather, fermentation cooling may limit how many tanks you can run at the right temperature.</p><p>Then connect capacity to the sales ramp. Year one is not full utilisation. A brewery with 2,400 hl of capacity that sells 600 hl in year one is at 25 percent. The report should show the extra tanks arriving only as sales justify them. See <a href=\"defensible-assumptions-in-a-project-report.html\">financial assumptions in a project report</a>.</p>"
+  ],
+  [
+   "Present it clearly",
+   "<p>Use a small table: stage, equipment, annual capacity, comment. Highlight the bottleneck. Then show how many hectolitres the model sells each year as a percentage of that capacity. A reader should see the plan to grow in one glance, with any later investment needed to lift the ceiling.</p><p>For expansions, the same method shows which stage to enlarge. See <a href=\"project-report-for-a-brewery-expansion.html\">a project report for expanding an existing brewery</a>.</p>"
+  ]
+ ],
+ "faqs": [
+  [
+   "What is the capacity of a brewery?",
+   "The output of its slowest stage over a year, often the fermenters rather than the brewhouse, adjusted for operating conditions."
+  ],
+  [
+   "Should capacity be 100 percent of nameplate?",
+   "Rarely. Allow for cleaning, maintenance, failed batches and downtime. State the utilisation ceiling you use and why."
+  ],
+  [
+   "Do lagers and ales have different capacity?",
+   "Yes. Lagers occupy tanks for longer, so a lager-heavy brewery has lower annual output from the same tanks."
+  ],
+  [
+   "How does capacity link to the loan?",
+   "Volume drives revenue and repayment cover. A capacity figure the plant cannot reach makes the whole financial model unreliable."
+  ]
+ ],
+ "cta": {
+  "title": "Size the plant from the slowest stage",
+  "body": "Our project and business reports service builds capacity analysis stage by stage into your DPR, so the volume in the model matches what the plant can make. Share your equipment list and we will check it.",
+  "href": "contact.html?course=Project%20and%20business%20reports#enroll",
+  "label": "Ask for a project report"
+ },
+ "related": [
+  "npv-irr-and-payback-for-a-brewery-project",
+  "project-report-for-a-brewery-expansion",
+  "independent-review-of-a-project-report"
+ ]
+}
