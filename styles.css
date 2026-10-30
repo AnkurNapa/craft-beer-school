@@ -1319,3 +1319,137 @@ main > section + section{border-top:1px solid var(--line)}
 main > section[style*="padding-block:0"],main > section[style*="padding-block:0"] + section{border-top:0}
 .sec-head .eyebrow::before,.prose-block>.eyebrow::before{content:"";display:block;width:44px;height:4px;border-radius:2px;background:linear-gradient(90deg,var(--amber),var(--gold));margin-bottom:.9rem}
 .sec-head.center .eyebrow::before{margin-inline:auto}
+
+/* Apple Store pass (Ankur's request, 30 Oct 2026): the menu panel as headed columns,
+   the first column in large type. The guides page gets a topic row and card shelves. */
+.dd-h{display:none}
+@media (min-width:961px){
+  .dd-menu{grid-template-columns:repeat(auto-fit,minmax(0,15rem));gap:0 4rem}
+  .dd-col{display:flex;flex-direction:column;align-items:flex-start}
+  .dd-h{display:block;font-size:.75rem;font-weight:500;color:#6e6e73;margin-bottom:.7rem}
+  .dd-menu a,.dd-menu a:first-child{grid-column:auto;font-size:.82rem;font-weight:600;letter-spacing:0;margin:0;padding:.28rem 0}
+  .dd-col:first-child a{font-size:1.5rem;font-weight:700;letter-spacing:-.02em;line-height:1.15;padding:.3rem 0}
+  .dd-col{opacity:0;transform:translateY(-4px);transition:opacity .3s var(--ease),transform .3s var(--ease)}
+  .dd-menu a{opacity:1;transform:none}
+  .nav-dd:hover .dd-col,.nav-dd:focus-within .dd-col{opacity:1;transform:none}
+  .nav-dd:hover .dd-col+.dd-col,.nav-dd:focus-within .dd-col+.dd-col{transition-delay:.05s}
+}
+@media (max-width:960px){
+  .navlinks.open .dd-col{display:flex;flex-direction:column}
+}
+
+/* Guides page: the store-style title, topic row and shelves. */
+.store-head{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;flex-wrap:wrap}
+.store-head h1{margin:0;font-size:clamp(3rem,7vw,5rem);line-height:1;letter-spacing:-.045em;
+  background:linear-gradient(90deg,var(--amber-deep),var(--amber));-webkit-background-clip:text;background-clip:text;color:transparent}
+.store-head p{margin:0;max-width:22rem;font-family:var(--head);font-size:clamp(1.3rem,2.2vw,1.75rem);font-weight:600;line-height:1.2;letter-spacing:-.02em;text-align:right;color:var(--ink)}
+.topic-row{display:flex;gap:.5rem;overflow-x:auto;scroll-snap-type:x mandatory;padding:2.5rem 0 .5rem;scrollbar-width:none}
+.topic-row::-webkit-scrollbar{display:none}
+.topic{flex:1 0 7.5rem;scroll-snap-align:start;display:flex;flex-direction:column;align-items:center;gap:.8rem;
+  padding:.4rem;font-family:var(--head);font-size:.88rem;font-weight:600;color:var(--ink);text-align:center}
+.topic-ico{width:4.5rem;height:4.5rem;border-radius:1.25rem;display:grid;place-items:center;background:var(--cloud);color:var(--amber-deep);
+  transition:transform .35s var(--ease),background .35s var(--ease)}
+.topic-ico .ico{width:2rem;height:2rem}
+.topic:hover .topic-ico,.topic:focus-visible .topic-ico{transform:scale(1.06);background:#fdf1d8}
+.rail-head{font-family:var(--head);font-size:clamp(1.5rem,2.6vw,2rem);font-weight:600;letter-spacing:-.02em;line-height:1.2;margin:0 0 1.5rem}
+.rail-head b{color:var(--amber-deep);font-weight:600}
+.rail-head span{color:#6e6e73}
+.rail{position:relative}
+.rail-track{display:flex;gap:1.25rem;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:2px;
+  padding:.5rem 2px 2rem;scrollbar-width:none;overscroll-behavior-x:contain}
+.rail-track::-webkit-scrollbar{display:none}
+.rail-track>.card{flex:0 0 min(22rem,82vw);scroll-snap-align:start;border-radius:22px;box-shadow:0 4px 18px rgba(0,0,0,.06);
+  transition:transform .4s var(--ease),box-shadow .4s var(--ease)}
+.rail-track>.card:hover{transform:scale(1.015);box-shadow:0 10px 30px rgba(0,0,0,.1)}
+.js .rail-track .reveal{opacity:1;transform:none}
+.rail-btn{position:absolute;top:40%;z-index:2;width:2.75rem;height:2.75rem;border-radius:50%;border:0;cursor:pointer;
+  display:grid;place-items:center;background:rgba(210,210,215,.72);color:#1d1d1f;backdrop-filter:blur(8px);
+  transition:opacity .25s,background .25s}
+.rail-btn:hover{background:rgba(190,190,195,.9)}
+.rail-btn:focus-visible{outline:2px solid var(--amber-deep);outline-offset:2px}
+.rail-btn[disabled]{opacity:0;pointer-events:none}
+.rail-btn.prev{left:-1.4rem}.rail-btn.next{right:-1.4rem}
+.rail-btn .ico{width:1.2rem;height:1.2rem}
+@media (max-width:960px){.rail-btn{display:none}.store-head p{text-align:left}}
+/* White throughout (Ankur's request, 30 Oct 2026): white menu panel, no dimmed page, white topic tiles. */
+@media (min-width:961px){
+  .dd-menu{background:#fff;box-shadow:0 18px 30px -18px rgba(0,0,0,.12)}
+  .dd-menu::after{display:none}
+}
+@media (max-width:960px){.navlinks.open{background:#fff}}
+.topic-ico{background:#fff;border:1px solid var(--line)}
+.topic:hover .topic-ico,.topic:focus-visible .topic-ico{background:#fff;border-color:var(--amber)}
+/* Gold gradients (Ankur's choice, 30 Oct 2026): logo gold to amber, like Apple's coloured headings. */
+.store-head{position:relative}
+.store-head::before{content:"";position:absolute;z-index:-1;left:-6rem;top:-6rem;width:32rem;height:20rem;pointer-events:none;
+  background:radial-gradient(closest-side,rgba(231,169,33,.28),rgba(231,169,33,0))}
+.store-head h1{background:linear-gradient(100deg,#d99a12 0%,#b87510 45%,var(--amber-deep) 100%);-webkit-background-clip:text;background-clip:text}
+.topic-ico{background:linear-gradient(160deg,#fff8e6,#fbe9c6);border:1px solid #f3dca4;color:var(--amber-deep)}
+.topic:hover .topic-ico,.topic:focus-visible .topic-ico{background:linear-gradient(160deg,#fdeec6,#f6d48a);border-color:var(--amber)}
+.rail-head b{background:linear-gradient(90deg,#b87510,#8a5306);-webkit-background-clip:text;background-clip:text;color:transparent}
+.rail-btn{background:rgba(251,233,198,.9);color:var(--amber-deep)}
+.rail-btn:hover{background:#f6d48a}
+.dd-col:first-child a:hover{background:linear-gradient(90deg,var(--amber),var(--amber-deep));-webkit-background-clip:text;background-clip:text;color:transparent}
+/* Clean white (Ankur's request, 30 Oct 2026): no glow, white tiles with a gold outline. */
+.store-head::before{display:none}
+.topic-ico{background:#fff;border:1px solid #f0d08a}
+.topic:hover .topic-ico,.topic:focus-visible .topic-ico{background:#fff;border-color:var(--amber)}
+/* No dark blocks (Ankur's request, 30 Oct 2026): text on stout brown was hard to read.
+   Tip card, banners, bands and image placeholders go light with stout text. */
+.thumb{background:#fbf6ec}
+.bf-tip,.navy-sec,.banner,.cta-band{background:#fffaf0;color:var(--ink);box-shadow:none;border:1px solid #f0d08a}
+.navy-sec,.banner,.cta-band{border-width:1px 0}
+.bf-tip::before{color:rgba(154,95,8,.1)}
+.bf-label{color:var(--amber-deep)}
+.bf-no{color:var(--ink-soft)}
+.bf-tip .bf-link{color:var(--ink)}
+.bf-tip .bf-link:hover{color:var(--amber-deep)}
+.bf-next{color:var(--amber-deep);background:#fff;border-color:#f0d08a}
+.bf-next:hover{background:#fdf1d8}
+:is(.navy-sec,.banner,.cta-band) :is(h1,h2,h3,p,li,span,small,strong,.lead){color:var(--ink)}
+:is(.navy-sec,.banner,.cta-band) a:not(.btn){color:var(--amber-deep)}
+:root{--wa:#17784f}
+/* Ingredient filters: the second and third selects were dark text on stout brown. White with a gold outline. */
+.ig-finder select:nth-of-type(2),.ig-finder select:nth-of-type(3){background-color:#fff;color:var(--ink)!important;box-shadow:inset 0 0 0 1px #f0d08a;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%239a5f08' stroke-width='2' fill='none'/%3E%3C/svg%3E")}
+.ig-finder select:nth-of-type(2):hover,.ig-finder select:nth-of-type(3):hover{background-color:#fffaf0;box-shadow:inset 0 0 0 1px var(--amber)}
+/* Brewery directory type filter: same dark text on stout brown fault. */
+.bd-kind-select{background-color:#fff!important;color:var(--ink)!important;box-shadow:inset 0 0 0 1px #f0d08a;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%239a5f08' stroke-width='2' fill='none'/%3E%3C/svg%3E")!important}
+/* Menu motion (Ankur's request, 31 Oct 2026). The first panel slides open; moving between
+   menus swaps panels at once and only the links fade, so two panels never show together. */
+@media (min-width:961px){
+  .dd-menu{min-height:22rem;opacity:1;transform:none;clip-path:inset(0 0 100% 0);
+    transition:clip-path .38s var(--ease),visibility 0s linear .38s}
+  .nav-dd:hover .dd-menu,.nav-dd:focus-within .dd-menu{clip-path:inset(0 0 -40px 0);
+    transition:clip-path .38s var(--ease),visibility 0s}
+  .navlinks.dd-live .dd-menu{transition:none}
+  .dd-col{transition:opacity .25s var(--ease),transform .25s var(--ease)}
+}
+@media (prefers-reduced-motion:reduce){.dd-menu{clip-path:none!important}}
+/* Script-driven open state (.is-open) wins over hover; keyboard focus still opens a panel. */
+@media (min-width:961px){
+  .js .navlinks .nav-dd:not(.is-open):not(:has(:focus-visible)) .dd-menu{visibility:hidden;clip-path:inset(0 0 100% 0)}
+  .js .navlinks .nav-dd:not(.is-open):not(:has(:focus-visible)) .dd-col{opacity:0;transform:translateY(-4px)}
+  .js .navlinks .nav-dd:is(.is-open,:has(:focus-visible)) .dd-menu{visibility:visible;clip-path:inset(0 0 -40px 0)}
+  .js .navlinks .nav-dd:is(.is-open,:has(:focus-visible)) .dd-col{opacity:1;transform:none}
+  .js .navlinks .nav-dd.is-open>a{color:#1d1d1f}
+}
+/* Switching between open menus: no slide at all, links fade in place. */
+@media (min-width:961px){
+  .js .navlinks.dd-live .nav-dd .dd-menu{transition:none!important}
+  .js .navlinks.dd-live .nav-dd .dd-col{transform:none!important;transition:opacity .18s ease!important}
+}
+/* Apple bar (Ankur's request, 31 Oct 2026): logo leads one centred row of menu names, slimmer bar. */
+@media (min-width:961px){
+  header nav{justify-content:center;gap:2.2rem;padding-block:.35rem}
+  .brand-logo{height:40px}
+  .brand{transition:opacity .2s}
+  .brand:hover{opacity:.75}
+  .navlinks{gap:2rem}
+  .search-form{background:#fff}
+  .search-form input{width:120px}
+}
+/* Search: wide enough for the whole placeholder (it was cut to "Search guides, cours"). */
+@media (min-width:961px){.search-form input{width:232px;text-overflow:ellipsis}}
+@media (min-width:961px) and (max-width:1180px){header nav{gap:1.2rem}.navlinks{gap:1.15rem}.search-form input{width:205px;font-size:.8rem}}

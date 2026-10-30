@@ -329,17 +329,23 @@ addEventListener('popstate',render);document.readyState==='loading'?document.add
 })();"""
 
 
-SHOWN = 6  # per segment before the rest fold away
+SHOWN = 12  # per shelf before the rest fold away
 
 
 def _seg_id(name):
     return name.lower().replace(" ", "-")
 
 
+SEG_ICON = {"Beer lovers": "beer", "Homebrewers": "flask", "Professional brewers": "award", "Founders": "briefcase",
+            "Brand builders": "megaphone", "Career changers": "cap", "Drinks producers": "wine",
+            "Corporate teams": "users"}
+
+
 def blog_index(articles, banner, segment_of, segments):
-    """The blog as a set of doors, one per reader segment, each ending at the
-    course that segment is most likely to buy."""
-    jump = "".join(f'<a href="#{_seg_id(name)}" class="seg-chip" data-cta="blog-segment">{name}</a>'
+    """The blog laid out like the Apple Store: a row of reader topics, then one
+    sideways shelf per reader, each ending at the course they are most likely to buy."""
+    jump = "".join(f'<a href="#{_seg_id(name)}" class="topic" data-cta="blog-segment">'
+                   f'<span class="topic-ico">[[{SEG_ICON.get(name, "book-open")}]]</span>{name}</a>'
                    for name, *_ in segments)
     blocks = []
     for name, who, course_href, course_name in segments:
@@ -354,8 +360,12 @@ def blog_index(articles, banner, segment_of, segments):
         blocks.append(f"""
 <section id="{_seg_id(name)}" class="seg">
   <div class="wrap">
-    <div class="sec-head"><span class="eyebrow">For {name.lower()}</span><h2>{who}</h2></div>
-    <div class="grid-3">{head_cards}</div>
+    <h2 class="rail-head"><b>For {name.lower()}.</b> <span>{who}</span></h2>
+    <div class="rail">
+      <button type="button" class="rail-btn prev" aria-label="Previous {name.lower()} guides" disabled>[[arrow-left]]</button>
+      <div class="rail-track">{head_cards}</div>
+      <button type="button" class="rail-btn next" aria-label="More {name.lower()} guides">[[arrow-right]]</button>
+    </div>
     {more}
     <aside class="cta-inline" style="margin-top:2rem">
       <div><h3>Ready to go further?</h3><p>{course_name} turns these guides into a structured course, live every weekend with a mentor.</p></div>
@@ -368,13 +378,11 @@ def blog_index(articles, banner, segment_of, segments):
 <div id="doors">
 <section style="padding-bottom:0">
   <div class="wrap">
-    <div class="sec-head">
-      <span class="eyebrow">The Journal</span>
-      <h2>{len(articles)} guides from the brewhouse floor.</h2>
-      <p class="lead">Written by brewers who actually run the numbers, for people
-      learning beer in India. Start with the door that fits you.</p>
+    <div class="store-head">
+      <h1>Guides</h1>
+      <p>{len(articles):,} guides from the brewhouse floor. Start with the one that fits you.</p>
     </div>
-    <nav class="seg-nav" aria-label="Guides by reader">{jump}</nav>
+    <nav class="topic-row" aria-label="Guides by reader">{jump}</nav>
   </div>
 </section>
 {blocks_html}

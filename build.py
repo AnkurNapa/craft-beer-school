@@ -125,38 +125,46 @@ def enroll_href(course=None):
         return ENROLL_HREF
     return f"contact.html?course={quote(course)}#enroll"
 
-# Top menu: five groups, each a dropdown (Ankur asked for dropdowns, 12 Oct 2026).
-# (label, landing page, active keys, [(sub label, href), ...] or None)
+# Top menu: five groups, each an Apple-style panel of headed columns (dropdowns
+# asked for 12 Oct 2026, columns like the Apple Store menu 30 Oct 2026).
+# (label, landing page, active keys, [(column heading, [(label, href), ...]), ...] or None)
 NAV_ITEMS = [
     ("Courses", "courses.html", {"courses"}, [
-        ("All courses", "courses.html"),
-        ("In person: 1 day and 1 month", "courses.html?type=in-person"),
-        ("Online courses", "courses.html?type=online"),
-        ("Study book, ₹1,999", "brewing-fundamentals-and-beer-crosswords-bundle.html"),
-        ("Free courses and books", "courses.html?type=free"),
-        ("WSET exam prep", "courses.html?type=exam"),
-        ("Corporate training", "for-companies.html"),
-        ("Prospectus", "prospectus.html")]),
+        ("Explore courses", [
+            ("All courses", "courses.html"),
+            ("In person: 1 day and 1 month", "courses.html?type=in-person"),
+            ("Online courses", "courses.html?type=online"),
+            ("Free courses and books", "courses.html?type=free")]),
+        ("Study", [
+            ("Study book, ₹1,999", "brewing-fundamentals-and-beer-crosswords-bundle.html"),
+            ("WSET exam prep", "courses.html?type=exam"),
+            ("Prospectus", "prospectus.html")]),
+        ("For companies", [
+            ("Corporate training", "for-companies.html")])]),
     ("Learn", "blog.html", {"blog", "styles", "resources", "podcast"}, [
-        ("Guides and blog", "blog.html"),
-        ("Beer style library", "style-library.html"),
-        ("Brewing glossary", "brewing-glossary.html"),
-        ("Yeast strains", "yeast-strains-guide.html"),
-        ("Hop varieties", "hops-guide.html"),
-        ("Malts", "malt-guide.html"),
-        ("Free resources", "resources.html"),
-        ("Podcast", "podcast.html"),
-        ("YouTube lessons", "youtube.html")]),
+        ("Explore learning", [
+            ("Guides and blog", "blog.html"),
+            ("Beer style library", "style-library.html"),
+            ("Brewing glossary", "brewing-glossary.html"),
+            ("Free resources", "resources.html"),
+            ("Podcast", "podcast.html"),
+            ("YouTube lessons", "youtube.html")]),
+        ("Guides by reader", [
+            (name, f"blog.html#{name.lower().replace(' ', '-')}") for name, *_ in articles_all.SEGMENTS]),
+        ("Ingredients", [
+            ("Yeast strains", "yeast-strains-guide.html"),
+            ("Hop varieties", "hops-guide.html"),
+            ("Malts", "malt-guide.html")])]),
     ("Find", "breweries.html", {"breweries"}, [
-        ("Brewery directory", "breweries.html"),
-        ("Brewery hopping trails", "brewery-hopping-india.html")]),
+        ("Explore India", [
+            ("Brewery directory", "breweries.html"),
+            ("Brewery hopping trails", "brewery-hopping-india.html")])]),
     ("About", "about.html", {"about", "careers"}, [
-        ("About us", "about.html"),
-        ("Ankur Napa", "mentor-ankur-napa.html"),
-        ("Rahul Baliyan", "mentor-rahul-baliyan.html"),
-        ("Chatty Girija", "mentor-chatty-girija.html"),
-        ("Careers", "careers.html"),
-        ("FAQ", "faq.html")]),
+        ("The school", [
+            ("About us", "about.html"),
+            ("Careers", "careers.html"),
+            ("FAQ", "faq.html")]),
+        ("Mentors", [(m["name"], m["slug"]) for m in mentors.MENTORS])]),
     ("Contact", "contact.html", {"contact"}, None),
 ]
 
@@ -205,7 +213,9 @@ def nav(active):
         cls = ' class="active"' if active in keys else ''
         if not subs:
             return f'<a href="{href}"{cls}>{label}</a>'
-        menu = "".join(f'<a href="{h}">{l}</a>' for l, h in subs)
+        menu = "".join(f'<div class="dd-col"><span class="dd-h">{head}</span>'
+                       + "".join(f'<a href="{h}">{l}</a>' for l, h in links) + '</div>'
+                       for head, links in subs)
         return (f'<div class="nav-dd"><a href="{href}"{cls} aria-haspopup="true">{label}<span class="dd-caret" aria-hidden="true"></span></a>'
                 f'<div class="dd-menu">{menu}</div></div>')
     links = "".join(item(*i) for i in NAV_ITEMS)
@@ -281,6 +291,20 @@ for(let i=k.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[k[i],k[j]
 k.forEach((c,i)=>{c.hidden=i>=n;g.appendChild(c);});});
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
 document.querySelectorAll('.reveal,.sec-head').forEach(el=>io.observe(el));
+// Menu, Apple style: a panel opens after a short rest on its name (hover intent), so
+// brushing past does nothing. Once open the next swaps in at once without a slide.
+// Leaving waits a moment, so a small slip off the panel never closes it.
+(()=>{const nl=document.getElementById('navlinks');if(!nl)return;let shutT,openT;const dds=nl.querySelectorAll('.nav-dd');
+const show=d=>{dds.forEach(x=>x!==d&&x.classList.remove('is-open'));d.classList.add('is-open');nl.classList.add('dd-open');};
+const shut=()=>{dds.forEach(x=>x.classList.remove('is-open'));nl.classList.remove('dd-open','dd-live');};
+dds.forEach(d=>{d.addEventListener('mouseenter',()=>{clearTimeout(shutT);clearTimeout(openT);
+if(nl.classList.contains('dd-open')){nl.classList.add('dd-live');show(d);}else openT=setTimeout(()=>show(d),120);});
+d.addEventListener('mouseleave',()=>{clearTimeout(openT);clearTimeout(shutT);shutT=setTimeout(shut,250);});});})();
+// Shelves scroll sideways; the arrows move one screen of cards and hide at either end.
+document.querySelectorAll('.rail').forEach(sh=>{const t=sh.querySelector('.rail-track'),[p,n]=sh.querySelectorAll('.rail-btn');
+const upd=()=>{p.disabled=t.scrollLeft<4;n.disabled=t.scrollLeft+t.clientWidth>=t.scrollWidth-4;};
+p.onclick=()=>t.scrollBy({left:-t.clientWidth*.9,behavior:'smooth'});n.onclick=()=>t.scrollBy({left:t.clientWidth*.9,behavior:'smooth'});
+t.addEventListener('scroll',upd,{passive:true});upd();});
 
 const FORMSPREE_ID="__FID__";
 const ENQUIRY_EMAIL="__EMAIL__";

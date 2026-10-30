@@ -31,7 +31,7 @@ HERE = pathlib.Path(__file__).parent
 OUT = HERE / "assets/og"
 MANIFEST = OUT / "manifest.json"
 SKIP = {"index.html"}  # the home page keeps the hand-made og-default.png
-TEMPLATE_VERSION = "3"
+TEMPLATE_VERSION = "4"  # 4: light cards on white, 30 Oct 2026
 
 ARTICLES = {a["slug"]: a for a in articles_all.ARTICLES}
 CARDS = style_render.load_cards()
@@ -99,18 +99,18 @@ PAGE = """<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Hanken+Grotesk:wght@600;700&family=Space+Mono:wght@700&display=block" rel="stylesheet">
 <style>
 *{margin:0;box-sizing:border-box}
-body{width:1200px;height:630px;background:#123c4a;color:#fff;font-family:"Hanken Grotesk",sans-serif;position:relative;overflow:hidden}
-.bar{position:absolute;top:0;left:0;right:0;height:10px;background:linear-gradient(90deg,#d9862a,#f3c34d 30%,#2f8f5f 60%,#0a6d84)}
-.glow{position:absolute;right:-180px;top:-120px;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,rgba(217,134,42,.45),rgba(217,134,42,0) 68%)}
-.eyebrow{position:absolute;left:80px;top:80px;right:80px;font-family:"Space Mono",monospace;font-size:22px;letter-spacing:.28em;text-transform:uppercase;color:#f3c34d}
+body{width:1200px;height:630px;background:#fff;color:#2b1a0c;font-family:"Hanken Grotesk",sans-serif;position:relative;overflow:hidden}
+.bar{position:absolute;top:0;left:0;right:0;height:10px;background:linear-gradient(90deg,#f3c14b,#e19e13 50%,#9a5f08)}
+.glow{position:absolute;right:-180px;top:-120px;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,rgba(231,169,33,.22),rgba(231,169,33,0) 68%)}
+.eyebrow{position:absolute;left:80px;top:80px;right:80px;font-family:"Space Mono",monospace;font-size:22px;letter-spacing:.28em;text-transform:uppercase;color:#9a5f08}
 h1{position:absolute;left:80px;top:150px;width:__W__px;height:300px;display:flex;align-items:center;font-family:"Fraunces",serif;font-weight:600;line-height:1.08;letter-spacing:-.01em}
-.glass{position:absolute;right:150px;top:70px;height:360px;display:flex;align-items:flex-end;color:#dfe9ec}
+.glass{position:absolute;right:150px;top:70px;height:360px;display:flex;align-items:flex-end;color:#9a5f08}
 .glass svg{height:340px;width:auto}
 .foot{position:absolute;left:80px;right:80px;bottom:62px;display:flex;align-items:center;justify-content:space-between}
 .brand{display:flex;align-items:center;gap:20px;font-size:26px;font-weight:700;line-height:1.3}
 .brand img{width:72px;height:80px;object-fit:contain}
-.brand span{display:block;font-weight:600;color:rgba(255,255,255,.75)}
-.pill{background:#d9862a;color:#fff;font-weight:700;font-size:25px;padding:16px 30px;border-radius:999px;white-space:nowrap}
+.brand span{display:block;font-weight:600;color:#6e6e73}
+.pill{background:#9a5f08;color:#fff;font-weight:700;font-size:25px;padding:16px 30px;border-radius:999px;white-space:nowrap}
 </style></head><body>
 <div class="bar"></div>__GLOW__
 <div class="eyebrow">__EYEBROW__</div>
@@ -121,7 +121,7 @@ __GLASS__
 </body></html>"""
 
 
-LOGO_URI = "data:image/png;base64," + base64.b64encode((HERE / "assets/footer-logo.png").read_bytes()).decode()
+LOGO_URI = "data:image/png;base64," + base64.b64encode((HERE / "assets/logo.png").read_bytes()).decode()
 
 
 def render_html(eyebrow, title, pill, glass):
