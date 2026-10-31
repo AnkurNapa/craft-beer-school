@@ -153,7 +153,7 @@ COURSE_DATA = [
     dict(no="19", tag="New · Wine", dur="2 Weeks", weeks=2, name="Winemaking",
          blurb="Grape to bottle: harvest numbers, crushing and pressing, red and white fermentation, malolactic, clarifying and bottling, for Indian vineyards and climate.",
          items=["Grapes, sugar and acid at harvest","Red and white fermentation","Malolactic, clarifying and ageing","Bottling and stability"],
-         price="₹25,000", amount="25000"),
+         price="₹10,000", amount="10000"),
     dict(no="20", tag="New · Wine", dur="2 Weeks", weeks=2, name="Fortified Wine",
          blurb="How port-style, sherry-style and other fortified wines are made: fortifying with grape spirit, sweetness, oxidative ageing and blending.",
          items=["Fortifying with grape spirit","Sweet and dry styles","Oxidative and barrel ageing","Blending, costing and the rules"],
