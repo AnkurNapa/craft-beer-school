@@ -390,6 +390,8 @@ DETAIL = {
         ]),
     "Winemaking": dict(
         reading=['how-wine-is-made', 'indian-wine-regions', 'grape-varieties-for-beginners'],
+        format=dict(lead="Two live online sessions every weekend, video tutorials to watch at your own pace and one assignment a week.",
+                    logistics={"Included": "Video tutorials, session recordings, presentation decks, weekly assignments and the learning kit."}),
         who=["Grape growers who want to make their own wine",
              "Brewers and distillers adding wine to their skills",
              "Wine lovers ready to make a first small batch"],
@@ -831,7 +833,7 @@ def pages():
         title = f"{name} Course | Craft Beer School"
         if len(title) > 60:  # search results cut long titles; fall back to the short name
             title = f"{c.get('short', name)} | Craft Beer School"
-        where = "online and in person" if pages_a.MODE.get(c["name"]) == "Both" else "online"
+        where = {"Both": "online and in person", "Video": "online with video tutorials"}.get(pages_a.MODE.get(c["name"]), "online")
         desc = (f"{name}: {c['dur'].lower()} of live weekend classes {where}, max 20 per batch, "
                 f"{'free' if is_free(c) else c['price']}. Full week-by-week syllabus, assignments and certificate.")
         if len(desc) > 160:

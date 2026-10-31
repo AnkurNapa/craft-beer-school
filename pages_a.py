@@ -25,9 +25,9 @@ def course_href(course_name):
 # ---- shared course card snippets -------------------------------------------
 # How each course is taught. Online unless listed: Brewing Fundamentals also
 # has an in-person version too.
-MODE = {"Brewing Fundamentals": "Both", "Winemaking": "Both", "Fortified Wine": "Both", "Winery Business": "Both",
+MODE = {"Brewing Fundamentals": "Both", "Winemaking": "Video", "Fortified Wine": "Both", "Winery Business": "Both",
         "New Product Development: Beer, Whisky and Wine": "Both", "Wine Consultation": "Both"}
-MODE_LABEL = {"Online": "Online", "In person": "In person", "Both": "Online + in person"}
+MODE_LABEL = {"Online": "Online", "In person": "In person", "Both": "Online + in person", "Video": "Online + video tutorials"}
 
 
 # Course finder on courses.html: every card carries a type (online, in-person, study, free, exam)
@@ -49,7 +49,7 @@ SUBJECT = {"Brewing Fundamentals": "brewing", "Advanced Brewing Science": "brewi
 
 def course_types(name, price):
     mode = MODE.get(name, "Online")
-    types = {"Online": "online", "In person": "in-person", "Both": "online in-person"}[mode]
+    types = {"Online": "online", "In person": "in-person", "Both": "online in-person", "Video": "online"}[mode]
     return types + (" free" if price == "Free" else "")
 
 
