@@ -115,14 +115,14 @@ MENTORS = [
                   ("assets/rahul-brewhouse.jpg", "In a copper brewhouse"),
                   ("assets/rahul-cohort-1.jpg", "With fellow brewers on the course in Germany"),
                   ("assets/rahul-cohort-2.jpg", "The course group in the classroom")]),
-    dict(slug="mentor-kenneth.html", name="Kenneth", img="assets/kenneth-portrait.jpg", page_img="assets/kenneth-headshot.jpg",
+    dict(slug="mentor-kenneth.html", name="Kenneth Ho", first="Kenneth", img="assets/kenneth-portrait.jpg", page_img="assets/kenneth-headshot.jpg",
          role="Beer Educator · National Beer Judge",
-         card="A WSET and Cicerone Beer Educator, accredited National Beer Judge and member of the British Guild of Beer Writers. He works to raise beer education standards across Asia and Greater China.",
+         card="A WSET and Cicerone Beer Educator, accredited National Beer Judge and the first Asian writer invited into the British Guild of Beer Writers. He has spent over ten years raising beer education standards across Asia and Greater China.",
          lede="Beer education, judging and writing across Asia.",
-         bio=["Kenneth is a beer educator, National Beer Judge and beer writer. His work is about bringing world-class standards to beer education across Asia and Greater China.",
-              "He is a Beer Educator for both WSET and Cicerone. He is also an accredited National Beer Judge and a member of the British Guild of Beer Writers. In one class he joins brewing science, careful sensory analysis and what he has learned judging international competitions.",
-              "He has worked with hospitality leaders, breweries, trade bodies and drinks professionals. He leads certification courses, judges major competitions and writes about how craft beer in Asia is changing."],
-         areas=["Beer education", "WSET and Cicerone preparation", "Sensory analysis", "Competition judging", "Beer styles", "Beer writing"],
+         bio=["Kenneth Ho is a beer educator, judge and writer with over ten years in the trade. He runs Beer &amp; Beer, his own school and journal. His work brings world-class standards to beer education across Asia and Greater China.",
+              "He is a Beer Educator for both WSET and Cicerone. He teaches WSET Beer Levels 1 and 2 as well as the Cicerone Certified Beer Server. He is an accredited National Beer Judge. He was also the first Asian writer invited into the British Guild of Beer Writers. In one class he joins brewing science, careful sensory analysis and what he has learned judging international competitions.",
+              "His consulting runs from brand to glass. He advised Cathay Pacific and Gweilo Beer on Betsy, a beer brewed to taste right at 38,000 feet. He led Belgian beer workshops for the Consulate General of Belgium in Hong Kong during Belgian Days. He helped Asahi explain the technology behind its Nama Jokki cans. He also wrote the Traditional and Simplified Chinese translations of The Seven Appearances of Lambic by the beer historian Raf Meert."],
+         areas=["Beer education", "WSET and Cicerone preparation", "Sensory analysis", "Competition judging", "Food pairing", "Brand consulting", "Beer styles", "Beer writing"],
          courses=[("sensory-evaluation-course.html", "Sensory Evaluation"),
                   ("style-specialization-course.html", "Style Specialisation"),
                   ("wset-beer-course.html", "WSET Level 1 Award in Beer")],
@@ -131,6 +131,7 @@ MENTORS = [
                     ("", "Accredited National Beer Judge", ""),
                     ("", "Member", "British Guild of Beer Writers")],
          linkedin="",
+         site="https://beernbeer.com/",
          gallery=[("assets/kenneth-judging.jpg", "On the judging panel at a beer competition"),
                   ("assets/kenneth-speaking.jpg", "Speaking at a beer event"),
                   ("assets/kenneth-judge-chair.jpg", "Tasting in his judge's jacket"),
@@ -144,10 +145,14 @@ def card(m):
             f'<p>{m["card"]}</p><div style="display:flex;flex-wrap:wrap;gap:.4rem 1.4rem"><a href="{m["slug"]}" class="link-arrow">Full profile</a>{_linkedin(m)}</div></div></article>\n')
 
 
+def _links(m):
+    first = m.get("first", m["name"].split()[0])
+    links = [(m["linkedin"], f"{first} on LinkedIn"), (m.get("site"), f"{first}'s website")]
+    return [f'<a href="{u}" target="_blank" rel="noopener" class="link-arrow">{t}</a>' for u, t in links if u]
+
+
 def _linkedin(m):
-    if not m["linkedin"]:
-        return ""
-    return f'<a href="{m["linkedin"]}" target="_blank" rel="noopener" class="link-arrow">{m.get("first", m["name"].split()[0])} on LinkedIn</a>'
+    return "".join(_links(m))
 
 
 CONTACT = "mentor-chatty-girija.html"  # point of contact on every course page, reached on WhatsApp
@@ -217,8 +222,7 @@ def _body(m):
     areas = "".join(f"<li>{a}</li>" for a in m["areas"])
     courses = "".join(f'<li><a href="{s}">{n}</a></li>' for s, n in m["courses"])
     courses = f'<h3>Courses</h3><ul class="checklist">{courses}</ul>' if courses else ""
-    li = (f'<p><a href="{m["linkedin"]}" target="_blank" rel="noopener" class="link-arrow">{m.get("first", m["name"].split()[0])} on LinkedIn</a></p>'
-          if m["linkedin"] else "")
+    li = "".join(f"<p>{a}</p>" for a in _links(m))
     others = "".join(card(o) for o in MENTORS if o is not m)
     history = "".join(_timeline(t, m.get(k)) for t, k in (("Career", "career"), ("Education", "education")))
     history = f'<section class="tint"><div class="wrap split" style="align-items:start">{history}</div></section>' if history else ""
