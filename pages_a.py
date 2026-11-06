@@ -75,9 +75,9 @@ def course(no, tag, dur, name, blurb, items, price, ph):
 # Course records drive both the cards and the Course JSON-LD in seo.py, so the
 # structured data can never drift from what is on the page.
 COURSE_DATA = [
-    dict(no="01", tag="Foundations", dur="4 Weeks", weeks=4, name="Brewing Fundamentals",
-         blurb="The science of brewing: ingredients, equipment and technique. Live online sessions, plus your first real recipe.",
-         items=["Brewing science and theory","Raw materials and quality","Equipment and sanitation","Recipe formulation basics"],
+    dict(no="01", tag="Foundations", dur="2 Weeks", weeks=2, name="Brewing Fundamentals",
+         blurb="Beer made simple: what it is, its types and styles, the four ingredients and how it is brewed. Ends with an online test and a final assignment.",
+         items=["What beer is and how it is not made","Types of beer and brewery","Ingredients and what each one does","A basic recipe in percentages"],
          price="₹5,999", amount="5999"),
     dict(no="02", tag="Deep Craft", dur="6 Weeks", weeks=6, name="Advanced Brewing Science",
          blurb="Go deeper into brewing chemistry, microbiology and fermentation. For serious homebrewers and professionals.",
@@ -404,9 +404,10 @@ HOME = f"""{OKT}
 <section class="sand">
   <div class="wrap">
     <div class="sec-head center"><span class="eyebrow">Beer Stories</span><h2>Spreading the cheer.</h2></div>
-    <div class="grid-2">
+    <div class="grid-3">
       <blockquote class="quote reveal"><p>"I recently completed the Brewing Fundamentals course, hosted by Ankur and Chatty, and it was an outstanding experience."</p><div class="who"><span class="av">S</span><div><b>Sunil Prakash Rao</b><span>Singapore</span></div></div></blockquote>
       <blockquote class="quote reveal"><p>"I'm from Ratnagiri, with an M.Sc. in Nutrition and Food Processing. Despite no prior brewing background, this online class made it click."</p><div class="who"><span class="av">P</span><div><b>Poorva Shinde</b><span>Ratnagiri</span></div></div></blockquote>
+      <blockquote class="quote reveal"><p>"This course told me about brewery safety practices, potential workplace hazards and the importance of maintaining a safe working environment during brewing operations. Anyone interested in brewing must know about workplace safety."</p><div class="who"><span class="av">A</span><div><b>Aditi Sharma</b><span>Safety in Brewing</span></div></div></blockquote>
     </div>
   </div>
 </section>
