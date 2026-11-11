@@ -76,8 +76,8 @@ def course(no, tag, dur, name, blurb, items, price, ph):
 # structured data can never drift from what is on the page.
 COURSE_DATA = [
     dict(no="01", tag="Foundations", dur="2 Weeks", weeks=2, name="Brewing Fundamentals",
-         blurb="Beer made simple: what it is, its types and styles, the four ingredients and how it is brewed. Ends with an online test and a final assignment.",
-         items=["What beer is and how it is not made","Types of beer and brewery","Ingredients and what each one does","A basic recipe in percentages"],
+         blurb="Four live classes over two weeks: craft beer, ingredients, the brew day, major styles, sensory tasting, service and food pairing. Ends with a short assessment.",
+         items=["Craft beer and the Indian industry","Ingredients and the brewing process","Major beer styles with a guided tasting","Sensory analysis, service and food pairing"],
          price="₹5,999", amount="5999"),
     dict(no="02", tag="Deep Craft", dur="6 Weeks", weeks=6, name="Advanced Brewing Science",
          blurb="Go deeper into brewing chemistry, microbiology and fermentation. For serious homebrewers and professionals.",
