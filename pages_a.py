@@ -503,7 +503,7 @@ COURSES = banner("Courses","Basics to Business","Learn the art, science &amp; bu
   <div class="cf" role="group" aria-label="Course type">{CF_TYPES}</div>
   <div class="cf" role="group" aria-label="Subject">{CF_SUBJECTS}</div>
   <p class="cf-count" aria-live="polite"></p>
-  <div class="cf-docs"><a href="assets/craft-beer-school-1-day-course.pdf" download data-cta="courses-prospectus-1day">[[download]] 1-day course prospectus</a><a href="assets/craft-beer-school-1-month-course.pdf" download data-cta="courses-prospectus-1month">[[download]] 1-month course prospectus</a><a href="prospectus.html" data-cta="courses-prospectus-all">All online courses prospectus</a></div>
+  <div class="cf-docs"><a href="assets/craft-beer-school-1-day-course.pdf" download data-cta="courses-prospectus-1day">[[download]] 1-day course prospectus</a><a href="assets/craft-beer-school-1-month-course.pdf" download data-cta="courses-prospectus-1month">[[download]] 1-month course prospectus</a><a href="prospectus.html" data-cta="courses-prospectus-all">All online courses prospectus</a><a href="course-calendar-2027.html" data-cta="courses-calendar">[[calendar]] 2027 course calendar</a></div>
 </div></section>
 
 <section class="tint cf-group" id="in-person">

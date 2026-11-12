@@ -1,0 +1,792 @@
+[
+ {
+  "course": "Brewing Fundamentals",
+  "run": 1,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-01-02",
+   "2027-01-03",
+   "2027-01-09",
+   "2027-01-10"
+  ]
+ },
+ {
+  "course": "Rebranding a Brewery",
+  "run": 1,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-01-02",
+   "2027-01-09"
+  ]
+ },
+ {
+  "course": "Hop Water",
+  "run": 1,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-01-16",
+   "2027-01-23"
+  ]
+ },
+ {
+  "course": "Safety in Brewing",
+  "run": 1,
+  "slots": [
+   "Sat morning"
+  ],
+  "classes": [
+   "2027-01-16"
+  ]
+ },
+ {
+  "course": "Fortified Wine",
+  "run": 1,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-01-23",
+   "2027-01-30"
+  ]
+ },
+ {
+  "course": "Sensory Evaluation",
+  "run": 1,
+  "slots": [
+   "Sat morning"
+  ],
+  "classes": [
+   "2027-01-23",
+   "2027-01-30"
+  ]
+ },
+ {
+  "course": "Advanced Brewing Science",
+  "run": 1,
+  "slots": [
+   "Sun afternoon"
+  ],
+  "classes": [
+   "2027-02-07",
+   "2027-02-14",
+   "2027-02-21",
+   "2027-02-28",
+   "2027-03-07",
+   "2027-03-14"
+  ]
+ },
+ {
+  "course": "Brewing Fundamentals",
+  "run": 2,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-02-06",
+   "2027-02-07",
+   "2027-02-13",
+   "2027-02-14"
+  ]
+ },
+ {
+  "course": "Craft Distilling",
+  "run": 1,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-02-06",
+   "2027-02-13",
+   "2027-02-20",
+   "2027-02-27"
+  ]
+ },
+ {
+  "course": "Winery Business",
+  "run": 1,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-02-06",
+   "2027-02-13"
+  ]
+ },
+ {
+  "course": "AI for Craft Breweries",
+  "run": 1,
+  "slots": [
+   "Sat morning"
+  ],
+  "classes": [
+   "2027-02-20",
+   "2027-02-27"
+  ]
+ },
+ {
+  "course": "Hard Seltzer",
+  "run": 1,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-02-20",
+   "2027-02-27"
+  ]
+ },
+ {
+  "course": "Naming and Trademarks for Drinks Brands",
+  "run": 1,
+  "slots": [
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-02-21",
+   "2027-02-28"
+  ]
+ },
+ {
+  "course": "Kombucha",
+  "run": 1,
+  "slots": [
+   "Sun evening"
+  ],
+  "classes": [
+   "2027-03-07",
+   "2027-03-14"
+  ]
+ },
+ {
+  "course": "Brewing Fundamentals",
+  "run": 3,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-03-13",
+   "2027-03-14",
+   "2027-03-20",
+   "2027-03-21"
+  ]
+ },
+ {
+  "course": "Craft Gin Making",
+  "run": 1,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-03-13",
+   "2027-03-20",
+   "2027-03-27",
+   "2027-04-03"
+  ]
+ },
+ {
+  "course": "Digital Transformation Basics for Brewing",
+  "run": 1,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-03-13",
+   "2027-03-20"
+  ]
+ },
+ {
+  "course": "Style Specialisation",
+  "run": 1,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-03-27",
+   "2027-04-03",
+   "2027-04-10",
+   "2027-04-17",
+   "2027-04-24",
+   "2027-05-01",
+   "2027-05-08",
+   "2027-05-15"
+  ]
+ },
+ {
+  "course": "Brewing Fundamentals",
+  "run": 4,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-04-03",
+   "2027-04-04",
+   "2027-04-10",
+   "2027-04-11"
+  ]
+ },
+ {
+  "course": "New Product Development: Beer, Whisky and Wine",
+  "run": 1,
+  "slots": [
+   "Sun afternoon"
+  ],
+  "classes": [
+   "2027-04-04",
+   "2027-04-11"
+  ]
+ },
+ {
+  "course": "Taproom Marketing and Community",
+  "run": 1,
+  "slots": [
+   "Sun evening"
+  ],
+  "classes": [
+   "2027-04-04",
+   "2027-04-11"
+  ]
+ },
+ {
+  "course": "Brewery Business Management",
+  "run": 1,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-04-10",
+   "2027-04-17",
+   "2027-04-24"
+  ]
+ },
+ {
+  "course": "Digital Marketing for Breweries",
+  "run": 1,
+  "slots": [
+   "Sun evening"
+  ],
+  "classes": [
+   "2027-04-18",
+   "2027-04-25"
+  ]
+ },
+ {
+  "course": "ESG in Craft Brewing",
+  "run": 1,
+  "slots": [
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-04-18",
+   "2027-04-25"
+  ]
+ },
+ {
+  "course": "Safety in Brewing",
+  "run": 2,
+  "slots": [
+   "Sat morning"
+  ],
+  "classes": [
+   "2027-04-17"
+  ]
+ },
+ {
+  "course": "Non-Alcoholic Beer",
+  "run": 1,
+  "slots": [
+   "Sun afternoon"
+  ],
+  "classes": [
+   "2027-04-25",
+   "2027-05-02"
+  ]
+ },
+ {
+  "course": "Brewing Fundamentals",
+  "run": 5,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-05-01",
+   "2027-05-02",
+   "2027-05-08",
+   "2027-05-09"
+  ]
+ },
+ {
+  "course": "Whisky Appreciation",
+  "run": 1,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-05-01",
+   "2027-05-08"
+  ]
+ },
+ {
+  "course": "Beer Branding & Packaging",
+  "run": 1,
+  "slots": [
+   "Sat morning"
+  ],
+  "classes": [
+   "2027-05-15",
+   "2027-05-22",
+   "2027-05-29"
+  ]
+ },
+ {
+  "course": "Power BI and Tableau for Breweries",
+  "run": 1,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-05-15",
+   "2027-05-22"
+  ]
+ },
+ {
+  "course": "Brand Strategy and Positioning for Breweries",
+  "run": 1,
+  "slots": [
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-05-23",
+   "2027-05-30"
+  ]
+ },
+ {
+  "course": "RTD Drinks: Alcoholic and Non-Alcoholic",
+  "run": 1,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-05-22",
+   "2027-05-29"
+  ]
+ },
+ {
+  "course": "Brewing Fundamentals",
+  "run": 6,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-06-05",
+   "2027-06-06",
+   "2027-06-12",
+   "2027-06-13"
+  ]
+ },
+ {
+  "course": "Fortified Wine",
+  "run": 2,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-06-05",
+   "2027-06-12"
+  ]
+ },
+ {
+  "course": "Hop Water",
+  "run": 2,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-06-19",
+   "2027-06-26"
+  ]
+ },
+ {
+  "course": "Rebranding a Brewery",
+  "run": 2,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-06-19",
+   "2027-06-26"
+  ]
+ },
+ {
+  "course": "Sensory Evaluation",
+  "run": 2,
+  "slots": [
+   "Sat morning"
+  ],
+  "classes": [
+   "2027-06-19",
+   "2027-06-26"
+  ]
+ },
+ {
+  "course": "Brewing Fundamentals",
+  "run": 7,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-07-03",
+   "2027-07-04",
+   "2027-07-10",
+   "2027-07-11"
+  ]
+ },
+ {
+  "course": "Hard Seltzer",
+  "run": 2,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-07-03",
+   "2027-07-10"
+  ]
+ },
+ {
+  "course": "Craft Distilling",
+  "run": 2,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-07-17",
+   "2027-07-24",
+   "2027-07-31",
+   "2027-08-07"
+  ]
+ },
+ {
+  "course": "Safety in Brewing",
+  "run": 3,
+  "slots": [
+   "Sat morning"
+  ],
+  "classes": [
+   "2027-07-17"
+  ]
+ },
+ {
+  "course": "Winery Business",
+  "run": 2,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-07-17",
+   "2027-07-24"
+  ]
+ },
+ {
+  "course": "AI for Craft Breweries",
+  "run": 2,
+  "slots": [
+   "Sat morning"
+  ],
+  "classes": [
+   "2027-07-24",
+   "2027-07-31"
+  ]
+ },
+ {
+  "course": "Naming and Trademarks for Drinks Brands",
+  "run": 2,
+  "slots": [
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-07-25",
+   "2027-08-01"
+  ]
+ },
+ {
+  "course": "Digital Transformation Basics for Brewing",
+  "run": 2,
+  "slots": [
+   "Sat morning"
+  ],
+  "classes": [
+   "2027-08-07",
+   "2027-08-14"
+  ]
+ },
+ {
+  "course": "New Product Development: Beer, Whisky and Wine",
+  "run": 2,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-08-07",
+   "2027-08-14"
+  ]
+ },
+ {
+  "course": "Brewing Fundamentals",
+  "run": 8,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-08-21",
+   "2027-08-22",
+   "2027-08-28",
+   "2027-08-29"
+  ]
+ },
+ {
+  "course": "Kombucha",
+  "run": 2,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-08-21",
+   "2027-08-28"
+  ]
+ },
+ {
+  "course": "Taproom Marketing and Community",
+  "run": 2,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-08-21",
+   "2027-08-28"
+  ]
+ },
+ {
+  "course": "ESG in Craft Brewing",
+  "run": 2,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-09-11",
+   "2027-09-18"
+  ]
+ },
+ {
+  "course": "Non-Alcoholic Beer",
+  "run": 2,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-09-11",
+   "2027-09-18"
+  ]
+ },
+ {
+  "course": "Advanced Brewing Science",
+  "run": 2,
+  "slots": [
+   "Sun afternoon"
+  ],
+  "classes": [
+   "2027-09-19",
+   "2027-09-26",
+   "2027-10-03",
+   "2027-10-10",
+   "2027-10-17",
+   "2027-10-24"
+  ]
+ },
+ {
+  "course": "Brewing Fundamentals",
+  "run": 9,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-09-18",
+   "2027-09-19",
+   "2027-09-25",
+   "2027-09-26"
+  ]
+ },
+ {
+  "course": "Craft Gin Making",
+  "run": 2,
+  "slots": [
+   "Sun evening"
+  ],
+  "classes": [
+   "2027-09-19",
+   "2027-09-26",
+   "2027-10-03",
+   "2027-10-10"
+  ]
+ },
+ {
+  "course": "Power BI and Tableau for Breweries",
+  "run": 2,
+  "slots": [
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-10-03",
+   "2027-10-10"
+  ]
+ },
+ {
+  "course": "Brewing Fundamentals",
+  "run": 10,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-10-16",
+   "2027-10-17",
+   "2027-10-23",
+   "2027-10-24"
+  ]
+ },
+ {
+  "course": "Safety in Brewing",
+  "run": 4,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-10-16"
+  ]
+ },
+ {
+  "course": "Style Specialisation",
+  "run": 2,
+  "slots": [
+   "Sat evening"
+  ],
+  "classes": [
+   "2027-10-16",
+   "2027-10-23",
+   "2027-11-06",
+   "2027-11-13",
+   "2027-11-20",
+   "2027-11-27",
+   "2027-12-04",
+   "2027-12-11"
+  ]
+ },
+ {
+  "course": "Brewery Business Management",
+  "run": 2,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-10-23",
+   "2027-11-06",
+   "2027-11-13"
+  ]
+ },
+ {
+  "course": "RTD Drinks: Alcoholic and Non-Alcoholic",
+  "run": 2,
+  "slots": [
+   "Sun evening"
+  ],
+  "classes": [
+   "2027-10-24",
+   "2027-11-07"
+  ]
+ },
+ {
+  "course": "Digital Marketing for Breweries",
+  "run": 2,
+  "slots": [
+   "Sat morning"
+  ],
+  "classes": [
+   "2027-11-06",
+   "2027-11-13"
+  ]
+ },
+ {
+  "course": "Beer Branding & Packaging",
+  "run": 2,
+  "slots": [
+   "Sat afternoon"
+  ],
+  "classes": [
+   "2027-11-20",
+   "2027-11-27",
+   "2027-12-04"
+  ]
+ },
+ {
+  "course": "Brand Strategy and Positioning for Breweries",
+  "run": 2,
+  "slots": [
+   "Sun afternoon"
+  ],
+  "classes": [
+   "2027-11-21",
+   "2027-11-28"
+  ]
+ },
+ {
+  "course": "Brewing Fundamentals",
+  "run": 11,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-11-20",
+   "2027-11-21",
+   "2027-11-27",
+   "2027-11-28"
+  ]
+ },
+ {
+  "course": "Whisky Appreciation",
+  "run": 2,
+  "slots": [
+   "Sun evening"
+  ],
+  "classes": [
+   "2027-11-21",
+   "2027-11-28"
+  ]
+ },
+ {
+  "course": "Brewing Fundamentals",
+  "run": 12,
+  "slots": [
+   "Sat morning",
+   "Sun morning"
+  ],
+  "classes": [
+   "2027-12-04",
+   "2027-12-05",
+   "2027-12-11",
+   "2027-12-12"
+  ]
+ }
+]

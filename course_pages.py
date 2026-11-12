@@ -6,6 +6,7 @@ Price, duration and the card bullets come from pages_a.COURSE_DATA so a detail
 page can never quote a different fee than the courses grid. Logistics and terms
 mirror the "CBS Online Courses 2026" brochure.
 """
+from urllib.parse import quote
 import re
 
 import article_render
@@ -798,6 +799,7 @@ def render(c):
     <div><span>Batch</span><b>{f["batch"]}</b></div>
     <div><span>Fee</span><b>{c["price"]}</b></div>
     <div class="cta-pair">{_ctas(enrol, "facts")}{_prospectus(c, "facts")}</div>
+    <a class="link-arrow" href="course-calendar-2027.html?course={quote(plain(c["name"]))}" data-cta="course-dates">See 2027 dates</a>
   </div>
 </section>
 
