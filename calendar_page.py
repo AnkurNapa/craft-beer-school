@@ -119,6 +119,23 @@ def render():
 </section>""" + SCRIPT
 
 
+def course_block(name):
+    """A course page's own 2027 batches, or "" when the course has no fixed dates.
+    Rows are translate="no" so the language pages need only the heading."""
+    runs = [r for r in _runs() if r["course"] == name]
+    if not runs:
+        return ""
+    rows = "".join(_row(r) for r in runs)
+    return STYLE + f"""
+<section id="dates">
+  <div class="wrap">
+    <h2>2027 dates.</h2>
+    <ul class="cal-list" translate="no">{rows}</ul>
+    <p style="margin-top:1rem"><a class="link-arrow" href="{SLUG}" data-cta="course-calendar">2027 course calendar</a></p>
+  </div>
+</section>"""
+
+
 def pages():
     """slug -> (title, desc, active, body) for build.PAGES."""
     desc = ("Craft Beer School 2027 course calendar: every weekend batch of every course, month by month, "

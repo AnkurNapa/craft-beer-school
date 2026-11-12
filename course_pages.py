@@ -10,6 +10,7 @@ from urllib.parse import quote
 import re
 
 import article_render
+import calendar_page
 import articles_all
 import mentors
 import pages_a
@@ -790,6 +791,7 @@ def render(c):
     f = fmt(c)
     logi = "".join(f"<div><dt>{k}</dt><dd>{FREE_FEES if k == 'Fees' and is_free(c) else v}</dd></div>" for k, v in f["logistics"])
     enrol = enroll_href(c["name"])
+    dates = calendar_page.course_block(plain(c["name"]))
     return banner(f'<a href="courses.html">Courses</a> / {c["name"]}', f'{c["no"]} / {c["tag"]}', c["name"], c["blurb"]) + f"""
 <section style="padding-block:0">
   <div class="wrap course-facts">
@@ -799,9 +801,10 @@ def render(c):
     <div><span>Batch</span><b>{f["batch"]}</b></div>
     <div><span>Fee</span><b>{c["price"]}</b></div>
     <div class="cta-pair">{_ctas(enrol, "facts")}{_prospectus(c, "facts")}</div>
-    <a class="link-arrow" href="course-calendar-2027.html?course={quote(plain(c["name"]))}" data-cta="course-dates">See 2027 dates</a>
+    {'<a class="link-arrow" href="#dates" data-cta="course-dates">See 2027 dates</a>' if dates else ""}
   </div>
 </section>
+{dates}
 
 <section>
   <div class="wrap">{photos.figure("course:" + slug_for(c["name"])[:-len("-course.html")], c["name"] + " course", "photo wide")}</div>
