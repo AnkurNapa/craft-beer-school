@@ -145,16 +145,28 @@ def pages():
 
 
 # Home page band and promo strip entry, so every CTA points at the same page.
+# Christmas dressing shows until XMAS_UNTIL; after that the band falls back to its plain look by itself.
+XMAS_UNTIL = "2027-01-02T00:00:00+05:30"
+_STAR = '<svg viewBox="0 0 24 24" width="{s}" height="{s}" aria-hidden="true" style="position:absolute;{pos};fill:#e19e13;opacity:.85"><path d="M12 2l2.9 6.9L22 9.3l-5.5 4.8L18.2 22 12 18.3 5.8 22l1.7-7.9L2 9.3l7.1-.4z"/></svg>'
+_DECOR = "".join(_STAR.format(s=sz, pos=pos) for sz, pos in
+                 [(22, "top:14px;right:4%"), (14, "top:46px;right:9%"), (18, "bottom:16px;right:2%"), (12, "top:20px;left:46%")])
 HOME_BAND = f"""
-<section class="okt-band" aria-label="{NAME}" style="padding-block:0;background:#fbf3e2;border-bottom:1px solid #ead9b8">
+<section class="okt-band xmas-band" aria-label="{NAME}" style="position:relative;overflow:hidden;padding-block:0;background:#fbf3e2;border-bottom:1px solid #ead9b8">
+  <style>.xmas-band .xmas-on{{display:none}}.xmas-band.is-xmas .xmas-on{{display:block}}.xmas-band.is-xmas .xmas-off{{display:none}}
+  .xmas-band.is-xmas{{background:linear-gradient(180deg,#fbf3e2,#fff 85%);border-top:4px solid #b3261e}}</style>
+  <script>if(new Date()<new Date('{XMAS_UNTIL}'))document.currentScript.parentNode.classList.add('is-xmas')</script>
+  <div class="xmas-on">{_DECOR}</div>
   <div class="wrap" style="display:flex;align-items:center;gap:clamp(1rem,3vw,2.5rem);flex-wrap:wrap;padding-block:clamp(1.4rem,3vw,2.2rem)">
     <a href="{SLUG}" data-cta="home-starters-poster" style="flex:0 1 280px;max-width:100%;display:block">
-      <img src="assets/beer-for-starters-diwali-560.jpg" srcset="assets/beer-for-starters-diwali-560.jpg 1x, assets/beer-for-starters-diwali-1120.jpg 2x" width="560" height="560" loading="eager" style="width:100%;height:auto;border-radius:12px;box-shadow:0 14px 30px -14px rgba(59,36,20,.5)"
-           alt="Beer for Starters Diwali poster: cards, beer and a special Diwali hamper for the first batch, a one-hour online course for ₹199"></a>
+      <img src="assets/beer-for-starters-560.jpg" srcset="assets/beer-for-starters-560.jpg 1x, assets/beer-for-starters.jpg 2x" width="560" height="560" loading="eager" style="width:100%;height:auto;border-radius:12px;box-shadow:0 14px 30px -14px rgba(59,36,20,.5)"
+           alt="Beer for Starters poster: a tasting tray of four beers, a one-hour online course for ₹199"></a>
     <div style="flex:1 1 320px">
-      <span class="eyebrow">New · 1 hour online</span>
+      <span class="eyebrow xmas-on" style="color:#b3261e">Merry Christmas from Craft Beer School</span>
+      <span class="eyebrow xmas-off">New · 1 hour online</span>
       <h2 style="margin:.3rem 0">{NAME}, just {FEE}.</h2>
-      <p style="margin:0">You drink it. Now get to know it. A Happy Hour Hamper awaits our first batch.</p>
+      <p style="margin:0" class="xmas-on">Start the new year knowing what is in your glass. A Happy Hour Hamper awaits our first batch.</p>
+      <p style="margin:0" class="xmas-off">You drink it. Now get to know it. A Happy Hour Hamper awaits our first batch.</p>
+      <a href="course-calendar-2027.html" class="link-arrow xmas-on" data-cta="home-starters-calendar" style="margin-top:.5rem">Plan your 2027 courses</a>
     </div>
     <a href="{SLUG}" class="btn btn-amber" data-cta="home-starters">See the course [[arrow-right]]</a>
   </div>
