@@ -1531,3 +1531,26 @@ section.guides-head{padding-block:clamp(2rem,4vw,3.5rem) .5rem}
 .ad-table th,.ad-table td{text-align:left;padding:.8rem .9rem;border-bottom:1px solid var(--line);vertical-align:top}
 .ad-table thead th{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
 .ad-table tbody th{font-weight:600}
+/* Academic calendar page */
+.ac-legend{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.2rem}
+.ac-chip{display:inline-block;padding:.18rem .6rem;border-radius:99px;font-size:.78rem;font-weight:600;line-height:1.5;border:1px solid var(--line);background:#fff;color:var(--ink)}
+.ac-a{background:#fbe9c6;border-color:#e7a921}
+.ac-b{background:#fff;border-color:#9a5f08;color:#9a5f08}
+.ac-c{background:#f5f5f7;border-color:#6e6e73}
+.ac-closed-chip{background:repeating-linear-gradient(135deg,#fff,#fff 5px,#f5f5f7 5px,#f5f5f7 10px);color:var(--ink-soft)}
+.ac-grid{align-items:start}
+.ac-month h3{margin:0 0 .6rem}
+.ac-month ol{list-style:none;margin:0;padding:0}
+.ac-row{display:grid;grid-template-columns:2.2rem 1fr;gap:.5rem;padding:.5rem 0;border-top:1px solid var(--line);font-size:.9rem}
+.ac-row b{font-weight:700}
+.ac-row span{display:flex;flex-wrap:wrap;gap:.3rem}
+.ac-closed span,.ac-free span{color:var(--ink-soft)}
+.ac-closed{background:repeating-linear-gradient(135deg,transparent,transparent 6px,rgba(245,245,247,.9) 6px,rgba(245,245,247,.9) 12px)}
+.ac-scroll{overflow-x:auto}
+.ac-table td:last-child,.ac-table td:nth-child(3){text-align:left;font-weight:400}
+.ac-table th,.ac-table td{padding:.6rem .5rem}
+.ac-note{margin-top:1rem;color:var(--ink-soft);font-size:.9rem;max-width:70ch}
+.ac-month{padding:1.25rem 1.4rem 1rem}
+.ac-month:hover{transform:none;box-shadow:none}
+.ac-chip{max-width:100%;white-space:normal}
+.ac-row span{min-width:0}

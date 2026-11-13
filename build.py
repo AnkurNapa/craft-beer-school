@@ -36,6 +36,7 @@ import photos
 import brochure_pages
 import discover
 import podcast
+import academic_calendar
 import youtube
 
 # --- Consistent inline icon set (Lucide, MIT). Use [[name]] in page bodies. ---
@@ -141,6 +142,7 @@ NAV_ITEMS = [
         ("Study", [
             ("Study book, ₹1,999", "brewing-fundamentals-and-beer-crosswords-bundle.html"),
             ("WSET exam prep", "courses.html?type=exam"),
+            ("Academic calendar 2027", "academic-calendar.html"),
             ("Prospectus", "prospectus.html")]),
         ("For companies", [
             ("Corporate training", "for-companies.html")])]),
@@ -257,6 +259,7 @@ FOOTER = """
       <li><a href="resources.html">Resources</a></li>
       <li><a href="style-library.html">Style Library</a></li>
       <li><a href="prospectus.html" data-cta="footer-prospectus">Prospectus</a></li>
+      <li><a href="academic-calendar.html">Academic calendar</a></li>
       <li><a href="blog.html">Blog</a></li>
       <li><a href="podcast.html">Podcast</a></li>
       <li><a href="youtube.html">YouTube</a></li>
@@ -608,6 +611,7 @@ PAGES[brand_consult.SLUG] = brand_consult.page(pages_a.banner)
 PAGES.update(mentors.pages())
 PAGES.update(brochure_pages.pages())
 PAGES[podcast.SLUG] = podcast.page(pages_a.banner)
+PAGES[academic_calendar.SLUG] = academic_calendar.page(pages_a.banner)
 PAGES[youtube.SLUG] = youtube.page(pages_a.banner)
 PAGES[photos.CREDITS] = ("Image Credits | Craft Beer School",
                          "Credits and licences for the free-licence photographs used on Craft Beer School.",
