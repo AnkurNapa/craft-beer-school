@@ -15,7 +15,7 @@ PDF = "assets/craft-beer-school-home-brewing-course.pdf"
 ENROL = "contact.html?course=1%20Month%20Home%20Brewing%20Course#enroll"
 
 FACTS = [("Format", "Online + video call tutorials"), ("Duration", "1 month"),
-         ("Hands on", "One beer brewed at home"), ("Fee", FEE + " + GST, paid in full")]
+         ("Hands on", "One beer brewed at home"), ("Fee", FEE + ", paid in full")]
 
 WEEKS = [
     ("Week 1. Beer fundamentals",
@@ -79,7 +79,7 @@ def render():
   <div class="wrap split" style="align-items:start">
     <div class="prose-block reveal"><span class="eyebrow">What is included</span><h2>In the fee.</h2><ul class="checklist">{_list(INCLUDED)}</ul></div>
     <div class="prose-block reveal"><span class="eyebrow">What is not included</span><h2>Bought by you.</h2><ul class="checklist">{_list(NOT_INCLUDED)}</ul>
-      <p style="color:var(--ink-soft);font-size:.9rem">The certificate needs at least 60% attendance at the live sessions plus both assignments. The fee of {FEE} plus GST is paid in full at enrolment. Read the <a href="refund.html" style="color:var(--blue);text-decoration:underline">refund policy</a> before you pay. This course is for adults of legal drinking age.</p></div>
+      <p style="color:var(--ink-soft);font-size:.9rem">The certificate needs at least 60% attendance at the live sessions plus both assignments. The fee of {FEE} is paid in full at enrolment. Read the <a href="refund.html" style="color:var(--blue);text-decoration:underline">refund policy</a> before you pay. This course is for adults of legal drinking age.</p></div>
   </div>
 </section>
 
