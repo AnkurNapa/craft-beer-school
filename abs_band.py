@@ -23,3 +23,7 @@ HOME_BAND = f"""
   </div>
 </section>
 """
+
+# First line of the top strip; build.py removes it after UNTIL and shows the next offer.
+ANNOUNCE = (f'<span class="ann abs-ann">New online batch: Advanced Brewing Science starts 21 November 2026. '
+            f'<a href="{SLUG}" data-cta="announce-abs">Enrol now [[arrow-right]]</a></span>')

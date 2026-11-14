@@ -174,16 +174,18 @@ NAV_ITEMS = [
     ("Contact", "contact.html", {"contact"}, None),
 ]
 
-# Otherwise rotates through the current offers in promos.py; the first shows without JS.
+# Otherwise rotates through the Advanced Brewing Science line then the offers in promos.py; the first shows without JS.
 # During Oktoberfest (festive.GATE sets .okt) the strip shows only this line.
 ANNOUNCE = ('<div class="announce" aria-live="off">'
     '<span class="okt-ann">Oktoberfest batch: Online Brewing Fundamentals starts 17 October, with a happy gift to take home. '
-    '<a href="contact.html?course=Brewing%20Fundamentals#enroll" data-cta="announce-oktoberfest">Enrol now [[arrow-right]]</a></span>' + "".join(
-    f'<span class="ann"{"" if i == 0 else " hidden"}>{o["banner"]} '
+    '<a href="contact.html?course=Brewing%20Fundamentals#enroll" data-cta="announce-oktoberfest">Enrol now [[arrow-right]]</a></span>' + abs_band.ANNOUNCE + "".join(
+    f'<span class="ann" hidden>{o["banner"]} '
     f'<a href="{o["article"]}" data-cta="announce-{o["key"]}">{o["link"]} [[arrow-right]]</a></span>'
     for i, o in enumerate(promos.OFFERS)) +
     '<span class="announce-sep">·</span><a href="courses.html" data-cta="announce-courses">All courses</a>'
-    '<script>(()=>{const s=document.currentScript.parentNode.querySelectorAll(".ann");let i=0;'
+    '<script>(()=>{const p=document.currentScript.parentNode,a=p.querySelector(".abs-ann");'
+    f'if(a&&new Date()>=new Date("{abs_band.UNTIL}")){{a.remove();p.querySelector(".ann").hidden=false}}'
+    'const s=p.querySelectorAll(".ann");let i=0;'
     'if(s.length>1)setInterval(()=>{s[i].hidden=true;i=(i+1)%s.length;s[i].hidden=false},6000)})()</script></div>')
 
 
@@ -579,7 +581,7 @@ for _slug, _anchor, _cta in [("index.html", '<section class="hero">', "home-star
                              ("courses.html", '<section class="tint cf-group"', "courses-starters")]:
     _t, _d, _a, _b = PAGES[_slug]
     assert _anchor in _b, f"{_slug}: no anchor for the Beer for Starters band"
-    _abs = abs_band.HOME_BAND if _slug == "index.html" else ""
+    _abs = abs_band.HOME_BAND.replace("home-abs", _cta.replace("starters", "abs"))
     PAGES[_slug] = (_t, _d, _a, _b.replace(_anchor, _abs + starters_page.HOME_BAND.replace("home-starters", _cta) + _anchor, 1))
 COURSE_SLUGS = set(course_pages.pages())
 # Every course page ends with the free guides that already sell it.
