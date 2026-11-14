@@ -16,6 +16,7 @@ import article_render
 import course_pages
 import inperson_pages
 import starters_page
+import home_brew_page
 import abs_band
 import calendar_page
 import articles_all
@@ -575,6 +576,7 @@ PAGES = {
 PAGES.update(course_pages.pages())
 PAGES.update(inperson_pages.pages())
 PAGES.update(starters_page.pages())
+PAGES.update(home_brew_page.pages())
 PAGES.update(calendar_page.pages())
 # Beer for Starters band on the home page and above the first course group.
 for _slug, _anchor, _cta in [("index.html", '<section class="hero">', "home-starters"),
@@ -583,6 +585,12 @@ for _slug, _anchor, _cta in [("index.html", '<section class="hero">', "home-star
     assert _anchor in _b, f"{_slug}: no anchor for the Beer for Starters band"
     _abs = abs_band.HOME_BAND.replace("home-abs", _cta.replace("starters", "abs"))
     PAGES[_slug] = (_t, _d, _a, _b.replace(_anchor, _abs + starters_page.HOME_BAND.replace("home-starters", _cta) + _anchor, 1))
+# The home brewing course is the first card in the online grid on courses.html.
+_t, _d, _a, _b = PAGES["courses.html"]
+_grid = '<section class="cf-group" id="online">'
+assert _grid in _b, "courses.html: no online grid for the home brewing card"
+_i = _b.index('<div class="grid-3" data-shuffle>', _b.index(_grid)) + len('<div class="grid-3" data-shuffle>')
+PAGES["courses.html"] = (_t, _d, _a, _b[:_i] + home_brew_page.CARD + _b[_i:])
 COURSE_SLUGS = set(course_pages.pages())
 # Every course page ends with the free guides that already sell it.
 for _c in pages_a.COURSE_DATA:
