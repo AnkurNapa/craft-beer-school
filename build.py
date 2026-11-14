@@ -585,7 +585,7 @@ for _slug, _anchor, _cta in [("index.html", '<section class="hero">', "home-star
     assert _anchor in _b, f"{_slug}: no anchor for the Beer for Starters band"
     _abs = abs_band.HOME_BAND.replace("home-abs", _cta.replace("starters", "abs"))
     PAGES[_slug] = (_t, _d, _a, _b.replace(_anchor, _abs + starters_page.HOME_BAND.replace("home-starters", _cta) + _anchor, 1))
-# The home brewing course is the first card in the online grid on courses.html.
+# The home brewing course joins the online grid on courses.html (the page shuffles the cards on load).
 _t, _d, _a, _b = PAGES["courses.html"]
 _grid = '<section class="cf-group" id="online">'
 assert _grid in _b, "courses.html: no online grid for the home brewing card"

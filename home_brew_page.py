@@ -94,7 +94,7 @@ def pages():
     return {SLUG: (f"{NAME} Online | Craft Beer School", desc, "courses", render())}
 
 
-# First card in the online grid on courses.html, in the same tile style as the online courses.
+# Card for the online grid on courses.html, in the same tile style as the online courses.
 CARD = (f'<article class="card course-card reveal" data-type="online" data-subject="brewing">'
         f'<img class="tile-img" src="assets/stock/track-brewing.jpg" srcset="assets/stock/track-brewing-sm.jpg 640w, assets/stock/track-brewing.jpg 1024w" '
         f'sizes="(max-width: 680px) 92vw, 400px" alt="{NAME}" width="1024" height="683" loading="lazy" decoding="async" />\n'
