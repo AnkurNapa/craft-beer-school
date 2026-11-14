@@ -262,7 +262,7 @@ def course_html(c):
 
 def main():
     render(day_html(), mp.HERE / "assets/craft-beer-school-1-day-course.pdf")
-    render(month_html(), mp.HERE / "assets/craft-beer-school-1-month-course.pdf")
+    # The 1-month PDF is now the home brewing syllabus built in ~/Documents/cbs-home-brewing-syllabus, so it is not rendered here.
     (mp.HERE / "assets/prospectus").mkdir(exist_ok=True)
     for c in mp.pages_a.COURSE_DATA:
         render(course_html(c), mp.HERE / course_pdf(c))
