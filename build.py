@@ -396,6 +396,51 @@ document.querySelectorAll('form .btn-wa').forEach(a=>{
   });
 });
 
+// A course enquiry on WhatsApp asks for the student's details first, so the
+// message reaches Chatty complete and nobody needs a long call to collect them.
+(()=>{
+  const F=[['name','Name','text','name'],['phone','Mobile No.','tel','tel'],['email','Email Id','email','email'],
+    ['city','Location','text','address-level2'],['course','Course preference/s','text','off'],
+    ['background','Background (educational or professional)','text','off']];
+  const get=k=>{try{return localStorage.getItem('cbs-enq-'+k)||''}catch(e){return ''}};
+  const put=(k,v)=>{try{localStorage.setItem('cbs-enq-'+k,v)}catch(e){}};
+  let dlg,link;
+  function make(){
+    const st=document.createElement('style');
+    st.textContent='.enq-dialog{border:0;border-radius:16px;padding:1.4rem;max-width:26rem;width:calc(100% - 32px);box-shadow:0 20px 60px rgba(0,0,0,.25)}'+
+      '.enq-dialog::backdrop{background:rgba(0,0,0,.45)}.enq-dialog h3{margin:0 0 .3rem}.enq-dialog p{margin:0 0 1rem;font-size:.9rem;opacity:.8}'+
+      '.enq-dialog label{display:block;font-size:.85rem;font-weight:600;margin:0 0 .7rem}.enq-dialog input{display:block;width:100%;margin-top:.25rem;padding:.6rem .7rem;border:1px solid #ccc;border-radius:10px;font:inherit}'+
+      '.enq-dialog .enq-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}.enq-dialog .enq-skip{display:inline-block;margin-top:.8rem;font-size:.8rem}';
+    document.head.appendChild(st);
+    dlg=document.createElement('dialog');dlg.className='enq-dialog';
+    dlg.innerHTML='<form><h3>Your details for Chatty</h3><p>We answer in one message with everything you need, so there is no long call.</p>'+
+      F.map(([k,l,t,a])=>'<label>'+l+'<input name="'+k+'" type="'+t+'" autocomplete="'+a+'" required></label>').join('')+
+      '<div class="enq-actions"><button class="btn btn-wa" type="submit">Send on WhatsApp</button>'+
+      '<button class="btn btn-ghost" type="button" data-close>Cancel</button></div>'+
+      '<a href="#" class="enq-skip" data-skip>Open WhatsApp without the form</a></form>';
+    document.body.appendChild(dlg);
+    const form=dlg.querySelector('form');
+    dlg.querySelector('[data-close]').onclick=()=>dlg.close();
+    dlg.querySelector('[data-skip]').onclick=e=>{e.preventDefault();dlg.close();window.open(link,'_blank','noopener')};
+    form.onsubmit=e=>{
+      e.preventDefault();
+      const d=new FormData(form),v={};F.forEach(([k])=>{v[k]=String(d.get(k)||'').trim();if(k!=='course')put(k,v[k])});
+      const [base,q]=link.split('?text=');
+      const out=decodeURIComponent(q||'').split('\\n').map(l=>{const f=F.find(([,lab])=>l.startsWith(lab+':'));return f?f[1]+': '+v[f[0]]:l}).join('\\n');
+      if(window.gtag)gtag('event','generate_lead',{course:v.course,form_page:location.pathname,method:'whatsapp'});
+      dlg.close();window.open(base+'?text='+encodeURIComponent(out),'_blank','noopener');
+    };
+  }
+  document.addEventListener('click',e=>{
+    const a=e.target.closest&&e.target.closest('a[href*="wa.me/"]');
+    if(!a||a.closest('form')||!a.href.includes('Mobile%20No.%3A')||typeof HTMLDialogElement!=='function')return;
+    e.preventDefault();link=a.href;if(!dlg)make();
+    const q=decodeURIComponent(link.split('?text=')[1]||''),m=q.match(/Course preference\\/s: (.*)/);
+    F.forEach(([k])=>{dlg.querySelector('[name='+k+']').value=k==='course'?(m?m[1]:''):get(k)});
+    dlg.showModal();
+  },true);
+})();
+
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
