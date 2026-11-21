@@ -108,13 +108,16 @@ def helper_data():
     runs = {}
     for r in calendar_page._runs():
         runs.setdefault(plain(r["course"]), []).append({"d": r["classes"], "w": calendar_page._when(r["slots"])})
+    import pages_a
+    subject = {plain(k): v for k, v in pages_a.SUBJECT.items()}
+    group = lambda n: subject.get(n) or ("tasting" if "Tasting" in n else "business" if "Business" in n else "brewing")
     courses = []
     for name, rows in _CACHE.items():
         page = next((v for k, v in rows if k in ("Syllabus", "Details")), "")
-        courses.append({"n": name, "s": page.rsplit("/", 1)[-1], "rows": [[k, v] for k, v in rows],
+        courses.append({"n": name, "g": group(name), "s": page.rsplit("/", 1)[-1], "rows": [[k, v] for k, v in rows],
                         "runs": runs.get(name, []),
                         "wa": f"https://wa.me/{mentors.WHATSAPP_NUMBER}?text={quote(text(name, page))}"})
-    return {"courses": courses, "all": ALL_FEES, "calendar": CALENDAR,
+    return {"courses": courses, "groups": [list(g) for g in pages_a.SUBJECTS], "all": ALL_FEES, "calendar": CALENDAR,
             "wa": f"https://wa.me/{mentors.WHATSAPP_NUMBER}?text={quote(text())}"}
 
 if __name__ == "__main__":

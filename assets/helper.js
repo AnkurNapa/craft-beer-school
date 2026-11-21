@@ -95,12 +95,16 @@
     return score >= 2 ? best : null;
   }
   function picker(topic) {
+    // Pick an area first (Brewing, Business and brand...), then a course in it, each shown with its fee.
     pending = topic;
-    const sel = el('select'); sel.setAttribute('aria-label', 'Choose a course');
-    sel.appendChild(el('option', null, 'Choose a course…')).value = '';
-    data.courses.forEach((c, i) => { const o = el('option', null, c.n); o.value = i; sel.appendChild(o); });
-    sel.onchange = () => { if (sel.value !== '') { const c = data.courses[+sel.value]; say(c.n, 'me'); answer(c, pending); } };
-    say([document.createTextNode('Which course would you like to know about?'), sel]);
+    say('What are you interested in?');
+    chips(data.groups.map(([g, label]) => [label, () => { say(label, 'me'); courses(g); }])
+      .concat([['Not sure, show all', () => { say('Show all', 'me'); courses(null); }]]));
+  }
+  function courses(g) {
+    const list = data.courses.filter(c => !g || c.g === g);
+    say(g ? 'Here are the courses. Tap one for the fee, dates and details.' : 'All our courses. Tap one for the details.');
+    chips(list.map(c => [c.n + ' · ' + c.rows[0][1].split(', paid')[0], () => { say(c.n, 'me'); answer(c, pending); }]));
   }
   function ask(q, key) {
     if (!key) say(q, 'me');
