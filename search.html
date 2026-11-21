@@ -193,7 +193,7 @@ p.onclick=()=>t.scrollBy({left:-t.clientWidth*.9,behavior:'smooth'});n.onclick=(
 t.addEventListener('scroll',upd,{passive:true});upd();});
 
 const FORMSPREE_ID="YOUR_FORM_ID";
-const ENQUIRY_EMAIL="chatty@cheerschattyventures.com",FEES={"Brewing Fundamentals": "₹5,999, 2 weeks, online + in person", "Advanced Brewing Science": "₹12,999, 6 weeks, online", "Brewery Business Management": "₹8,999, 3 weeks, online", "Style Specialisation": "₹18,999, 8 weeks, online", "Beer Branding & Packaging": "₹4,999, 3 weeks, online", "Sensory Evaluation": "₹5,999, 2 weeks, online", "AI for Craft Breweries": "₹5,000, 2 weeks, online", "Digital Transformation Basics for Brewing": "₹5,000, 2 weeks, online", "ESG in Craft Brewing": "₹5,000, 2 weeks, online", "Safety in Brewing": "Free, 1 week, online", "Craft Distilling": "₹9,999, 4 weeks, online", "Craft Gin Making": "₹9,999, 4 weeks, online", "RTD Drinks: Alcoholic and Non-Alcoholic": "₹5,000, 2 weeks, online", "Hop Water": "₹5,000, 2 weeks, online", "Hard Seltzer": "₹5,000, 2 weeks, online", "Kombucha": "₹5,000, 2 weeks, online", "Non-Alcoholic Beer": "₹5,000, 2 weeks, online", "Power BI and Tableau for Breweries": "₹5,000, 2 weeks, online", "Winemaking": "₹10,000, 2 weeks, online + video tutorials", "Fortified Wine": "₹5,000, 2 weeks, online + in person", "Winery Business": "₹5,000, 2 weeks, online + in person", "New Product Development: Beer, Whisky and Wine": "₹5,000, 2 weeks, online + in person", "Digital Marketing for Breweries": "₹5,000, 2 weeks, online", "Brand Strategy and Positioning for Breweries": "₹5,000, 2 weeks, online", "Rebranding a Brewery": "₹5,000, 2 weeks, online", "Naming and Trademarks for Drinks Brands": "₹5,000, 2 weeks, online", "Taproom Marketing and Community": "₹5,000, 2 weeks, online", "Whisky Appreciation": "₹5,000, 2 weeks, online", "Wine Consultation": "₹25,000, 2 weeks, online + in person", "1-Day Super Intensive Craft Beer Course": "₹25,000, 1 day, in person", "1-Month Intensive Brewing Excellence Course": "₹1,25,000, 4 weeks, in person", "1-Day Home Visit Brewing Course": "On enquiry, 1 day, in person", "Professional Beer Tasting Day": "₹4,999, 1 day, in person", "Brewery Business Tour": "On enquiry, half day, in person", "2-Hour Craft Beer Tasting Course": "On enquiry, 2 hours, in person"};
+const ENQUIRY_EMAIL="chatty@cheerschattyventures.com",FEES={"Brewing Fundamentals": "₹5,999, paid in full at sign-up", "Advanced Brewing Science": "₹12,999, paid in full at sign-up", "Brewery Business Management": "₹8,999, paid in full at sign-up", "Style Specialisation": "₹18,999, paid in full at sign-up", "Beer Branding & Packaging": "₹4,999, paid in full at sign-up", "Sensory Evaluation": "₹5,999, paid in full at sign-up", "AI for Craft Breweries": "₹5,000, paid in full at sign-up", "Digital Transformation Basics for Brewing": "₹5,000, paid in full at sign-up", "ESG in Craft Brewing": "₹5,000, paid in full at sign-up", "Safety in Brewing": "Free", "Craft Distilling": "₹9,999, paid in full at sign-up", "Craft Gin Making": "₹9,999, paid in full at sign-up", "RTD Drinks: Alcoholic and Non-Alcoholic": "₹5,000, paid in full at sign-up", "Hop Water": "₹5,000, paid in full at sign-up", "Hard Seltzer": "₹5,000, paid in full at sign-up", "Kombucha": "₹5,000, paid in full at sign-up", "Non-Alcoholic Beer": "₹5,000, paid in full at sign-up", "Power BI and Tableau for Breweries": "₹5,000, paid in full at sign-up", "Winemaking": "₹10,000, paid in full at sign-up", "Fortified Wine": "₹5,000, paid in full at sign-up", "Winery Business": "₹5,000, paid in full at sign-up", "New Product Development: Beer, Whisky and Wine": "₹5,000, paid in full at sign-up", "Digital Marketing for Breweries": "₹5,000, paid in full at sign-up", "Brand Strategy and Positioning for Breweries": "₹5,000, paid in full at sign-up", "Rebranding a Brewery": "₹5,000, paid in full at sign-up", "Naming and Trademarks for Drinks Brands": "₹5,000, paid in full at sign-up", "Taproom Marketing and Community": "₹5,000, paid in full at sign-up", "Whisky Appreciation": "₹5,000, paid in full at sign-up", "Wine Consultation": "₹25,000, paid in full at sign-up", "1-Day Super Intensive Craft Beer Course": "₹25,000", "1-Month Intensive Brewing Excellence Course": "₹1,25,000", "1-Day Home Visit Brewing Course": "On enquiry", "Professional Beer Tasting Day": "₹4,999", "Brewery Business Tour": "On enquiry", "2-Hour Craft Beer Tasting Course": "On enquiry"};
 const SUPABASE_URL="";
 const SUPABASE_ANON_KEY="";
 
@@ -254,6 +254,51 @@ document.querySelectorAll('form .btn-wa').forEach(a=>{
     a.href=base.split('?text=')[0]+'?text='+encodeURIComponent(lines.join('\n'));
   });
 });
+
+// A course enquiry on WhatsApp asks for the student's details first, so the
+// message reaches Chatty complete and nobody needs a long call to collect them.
+(()=>{
+  const F=[['name','Name','text','name'],['phone','Mobile No.','tel','tel'],['email','Email Id','email','email'],
+    ['city','Location','text','address-level2'],['course','Course preference/s','text','off'],
+    ['background','Background (educational or professional)','text','off']];
+  const get=k=>{try{return localStorage.getItem('cbs-enq-'+k)||''}catch(e){return ''}};
+  const put=(k,v)=>{try{localStorage.setItem('cbs-enq-'+k,v)}catch(e){}};
+  let dlg,link;
+  function make(){
+    const st=document.createElement('style');
+    st.textContent='.enq-dialog{border:0;border-radius:16px;padding:1.4rem;max-width:26rem;width:calc(100% - 32px);box-shadow:0 20px 60px rgba(0,0,0,.25)}'+
+      '.enq-dialog::backdrop{background:rgba(0,0,0,.45)}.enq-dialog h3{margin:0 0 .3rem}.enq-dialog p{margin:0 0 1rem;font-size:.9rem;opacity:.8}'+
+      '.enq-dialog label{display:block;font-size:.85rem;font-weight:600;margin:0 0 .7rem}.enq-dialog input{display:block;width:100%;margin-top:.25rem;padding:.6rem .7rem;border:1px solid #ccc;border-radius:10px;font:inherit}'+
+      '.enq-dialog .enq-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}.enq-dialog .enq-skip{display:inline-block;margin-top:.8rem;font-size:.8rem}';
+    document.head.appendChild(st);
+    dlg=document.createElement('dialog');dlg.className='enq-dialog';
+    dlg.innerHTML='<form><h3>Your details for Chatty</h3><p>We answer in one message with everything you need, so there is no long call.</p>'+
+      F.map(([k,l,t,a])=>'<label>'+l+'<input name="'+k+'" type="'+t+'" autocomplete="'+a+'" required></label>').join('')+
+      '<div class="enq-actions"><button class="btn btn-wa" type="submit">Send on WhatsApp</button>'+
+      '<button class="btn btn-ghost" type="button" data-close>Cancel</button></div>'+
+      '<a href="#" class="enq-skip" data-skip>Open WhatsApp without the form</a></form>';
+    document.body.appendChild(dlg);
+    const form=dlg.querySelector('form');
+    dlg.querySelector('[data-close]').onclick=()=>dlg.close();
+    dlg.querySelector('[data-skip]').onclick=e=>{e.preventDefault();dlg.close();window.open(link,'_blank','noopener')};
+    form.onsubmit=e=>{
+      e.preventDefault();
+      const d=new FormData(form),v={};F.forEach(([k])=>{v[k]=String(d.get(k)||'').trim();if(k!=='course')put(k,v[k])});
+      const [base,q]=link.split('?text=');
+      const out=decodeURIComponent(q||'').split('\n').map(l=>{const f=F.find(([,lab])=>l.startsWith(lab+':'));return f?f[1]+': '+v[f[0]]:l}).join('\n');
+      if(window.gtag)gtag('event','generate_lead',{course:v.course,form_page:location.pathname,method:'whatsapp'});
+      dlg.close();window.open(base+'?text='+encodeURIComponent(out),'_blank','noopener');
+    };
+  }
+  document.addEventListener('click',e=>{
+    const a=e.target.closest&&e.target.closest('a[href*="wa.me/"]');
+    if(!a||a.closest('form')||!a.href.includes('Mobile%20No.%3A')||typeof HTMLDialogElement!=='function')return;
+    e.preventDefault();link=a.href;if(!dlg)make();
+    const q=decodeURIComponent(link.split('?text=')[1]||''),m=q.match(/Course preference\/s: (.*)/);
+    F.forEach(([k])=>{dlg.querySelector('[name='+k+']').value=k==='course'?(m?m[1]:''):get(k)});
+    dlg.showModal();
+  },true);
+})();
 
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
@@ -355,5 +400,6 @@ document.querySelectorAll('form.search-form').forEach((form,fi)=>{
   form.addEventListener('submit',()=>remember(input.value));
 });
 })();</script>
+<script src="/assets/helper.js" defer></script>
 </body>
 </html>
