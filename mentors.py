@@ -178,7 +178,8 @@ def instructors(course_slug, course_name):
     c = by_slug[CONTACT]
     label = "Instructor and point of contact" if c in team else "Point of contact"
     from urllib.parse import quote
-    wa = f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(f'Hi Chatty, I would like to know more about the {course_name} course.')}"
+    import enquiry
+    wa = f"https://wa.me/{WHATSAPP_NUMBER}?text={quote(enquiry.text(course_name, intro=f'Hi Chatty, I would like to enquire about the {enquiry.plain(course_name)} course.'))}"
     cards_html.append(_person(c, label, f'<a href="{wa}" target="_blank" rel="noopener" class="btn btn-amber person-btn" '
                                         f'data-cta="course-contact-whatsapp">WhatsApp {c.get("first", c["name"].split()[0])}</a>'))
     head = "Your instructor and point of contact" if len(team) <= 1 else "Your instructors and point of contact"

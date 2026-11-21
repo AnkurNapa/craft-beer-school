@@ -37,8 +37,9 @@ def _when(slots):
 
 def _book_href(course, r):
     dates = "; ".join(d.strftime("%a %d %b") for d in r["days"])
-    text = (f"Hi Craft Beer School, I want to book {course} starting {r['days'][0]:%A %d %B %Y}. "
-            f"Classes: {dates} ({_when(r['slots'])}). Please confirm my seat.")
+    import enquiry
+    text = enquiry.text(course, intro=(f"Hi Craft Beer School, I want to book {course} starting {r['days'][0]:%A %d %B %Y}. "
+                                       f"Classes: {dates} ({_when(r['slots'])}). Please confirm my seat."))
     return f"https://wa.me/{mentors.WHATSAPP_NUMBER}?text={quote(text)}"
 
 

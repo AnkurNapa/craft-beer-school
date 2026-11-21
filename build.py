@@ -18,6 +18,7 @@ import inperson_pages
 import starters_page
 import home_brew_page
 import abs_band
+import enquiry
 import calendar_page
 import articles_all
 import pages_a
@@ -102,7 +103,7 @@ def ga_tag():
 # Single source of truth for every contact CTA on the site.
 ENQUIRY_EMAIL = "chatty@cheerschattyventures.com"
 WHATSAPP_NUMBER = mentors.WHATSAPP_NUMBER
-WHATSAPP_TEXT = "Hi Craft Beer School, I'd like to know more about your courses."
+WHATSAPP_TEXT = enquiry.text()  # blank course enquiry form with a link to every fee
 ENROLL_HREF = "contact.html#enroll"   # lands on the form, not the top of the page
 
 
@@ -114,10 +115,12 @@ def whatsapp_text(slug, title):
     """Opening message that tells us which page the person tapped WhatsApp on."""
     name = re.sub(r"\s*\|\s*Craft Beer School\s*$", "", html.unescape(title)).strip()
     url = seo.url_for(slug)
-    if slug == "index.html":
-        return f"{WHATSAPP_TEXT} (from {url})"
+    if slug in ("index.html", "courses.html", "contact.html"):
+        return enquiry.text(url=url)
     if slug in COURSE_SLUGS:
-        return f"Hi Craft Beer School, I'd like to know more about the {name.replace(' Course', '')} course. ({url})"
+        return enquiry.text(page_course(slug) or name.replace(" Course", ""), url)
+    if slug in INPERSON_NAMES:
+        return enquiry.text(INPERSON_NAMES[slug], url)
     if slug.startswith("style-") and slug != "style-library.html":
         return f"Hi Craft Beer School, I was reading about {name.split(':')[0]} in your Style Library and have a question. ({url})"
     if slug[:-5] in articles_all.SEGMENT or slug[:-5] in {a['slug'] for a in articles_all.ARTICLES}:
@@ -331,7 +334,7 @@ p.onclick=()=>t.scrollBy({left:-t.clientWidth*.9,behavior:'smooth'});n.onclick=(
 t.addEventListener('scroll',upd,{passive:true});upd();});
 
 const FORMSPREE_ID="__FID__";
-const ENQUIRY_EMAIL="__EMAIL__";
+const ENQUIRY_EMAIL="__EMAIL__",FEES=__FEES__;
 const SUPABASE_URL="__SBURL__";
 const SUPABASE_ANON_KEY="__SBKEY__";
 
@@ -371,15 +374,25 @@ document.addEventListener('click',e=>{
 
 // "WhatsApp instead" on a form carries whatever the person already typed,
 // so nobody has to repeat their name, course or question in the chat.
+// Picking a course on a form shows its fee straight away, so nobody has to ask.
+document.querySelectorAll('select[name=course]').forEach(s=>{
+  const out=s.parentNode.querySelector('.course-fee');if(!out)return;
+  const show=()=>{const f=FEES[s.value];out.textContent=f?'Fee: '+f:'';out.style.display=f?'block':'none'};
+  s.addEventListener('change',show);show();
+});
+
 document.querySelectorAll('form .btn-wa').forEach(a=>{
   const base=a.getAttribute('href');
   a.addEventListener('click',()=>{
-    const d=new FormData(a.closest('form'));
-    const lines=[['name','Name'],['company','Brewery'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message'],['came_from','Came from']]
-      .map(([k,l])=>[l,String(d.get(k)||'').trim()]).filter(([,v])=>v).map(([l,v])=>l+': '+v);
-    if(!lines.length){a.href=base;return}
-    const [url,q]=base.split('?text=');
-    a.href=url+'?text='+encodeURIComponent(decodeURIComponent(q||'')+'\\n\\n'+lines.join('\\n'));
+    const d=new FormData(a.closest('form')),v=k=>String(d.get(k)||'').trim();
+    if(!['name','phone','email','city','course','message'].some(v)){a.href=base;return}
+    const course=v('course'),fee=FEES[course];
+    const lines=["__GREETING__",fee?'Fee for '+course+': '+fee:'Course fees: __ALL_FEES__','',
+      'Name: '+v('name'),'Mobile No.: '+v('phone'),'Email Id: '+v('email'),'Location: '+v('city'),
+      'Course preference/s: '+course,'Background (educational or professional): '+v('background')];
+    if(v('message'))lines.push('','Message: '+v('message'));
+    if(v('came_from'))lines.push('Came from: '+v('came_from'));
+    a.href=base.split('?text=')[0]+'?text='+encodeURIComponent(lines.join('\\n'));
   });
 });
 
@@ -444,11 +457,17 @@ document.querySelectorAll('form[data-formspree]').forEach(form=>{
 </script>"""
 
 
+FEES_JSON = json.dumps(enquiry.fees(), ensure_ascii=False)
+
+
 def fill_ctas(html):
     """Resolve the shared CTA placeholders used in FOOTER and SCRIPTS."""
     return (html.replace("__ENROLL__", ENROLL_HREF)
                 .replace("__WA__", whatsapp_href())
                 .replace("__EMAIL__", ENQUIRY_EMAIL)
+                .replace("__FEES__", FEES_JSON)
+                .replace("__GREETING__", enquiry.GREETING)
+                .replace("__ALL_FEES__", enquiry.ALL_FEES)
                 .replace("__FID__", FORMSPREE_ID)
                 .replace("__SBURL__", SUPABASE_URL)
                 .replace("__SBKEY__", SUPABASE_ANON_KEY))
@@ -588,6 +607,7 @@ assert _grid in _b, "courses.html: no online grid for the home brewing card"
 _i = _b.index('<div class="grid-3" data-shuffle>', _b.index(_grid)) + len('<div class="grid-3" data-shuffle>')
 PAGES["courses.html"] = (_t, _d, _a, _b[:_i] + home_brew_page.CARD + _b[_i:])
 COURSE_SLUGS = set(course_pages.pages())
+INPERSON_NAMES = {c["slug"]: c["name"] for c in inperson_pages.COURSES}
 # Every course page ends with the free guides that already sell it.
 for _c in pages_a.COURSE_DATA:
     _slug = pages_a.course_href(_c["name"])
