@@ -175,19 +175,15 @@ NAV_ITEMS = [
     ("Contact", "contact.html", {"contact"}, None),
 ]
 
-# Otherwise rotates through the Advanced Brewing Science line then the offers in promos.py; the first shows without JS.
-# During Oktoberfest (festive.GATE sets .okt) the strip shows only this line.
+# The top strip carries one line: the WhatsApp community, free to join until January 2027
+# (Ankur's request, 21 Nov 2026). During Oktoberfest (festive.GATE sets .okt) the strip shows only the okt line.
+COMMUNITY = "https://chat.whatsapp.com/Bnf1rtg1HHYGRh9J0cJqgK"
 ANNOUNCE = ('<div class="announce" aria-live="off">'
     '<span class="okt-ann">Oktoberfest batch: Online Brewing Fundamentals starts 17 October, with a happy gift to take home. '
-    '<a href="contact.html?course=Brewing%20Fundamentals#enroll" data-cta="announce-oktoberfest">Enrol now [[arrow-right]]</a></span>' + abs_band.ANNOUNCE + "".join(
-    f'<span class="ann" hidden>{o["banner"]} '
-    f'<a href="{o["article"]}" data-cta="announce-{o["key"]}">{o["link"]} [[arrow-right]]</a></span>'
-    for i, o in enumerate(promos.OFFERS)) +
-    '<span class="announce-sep">·</span><a href="courses.html" data-cta="announce-courses">All courses</a>'
-    '<script>(()=>{const p=document.currentScript.parentNode,a=p.querySelector(".abs-ann");'
-    f'if(a&&new Date()>=new Date("{abs_band.UNTIL}")){{a.remove();p.querySelector(".ann").hidden=false}}'
-    'const s=p.querySelectorAll(".ann");let i=0;'
-    'if(s.length>1)setInterval(()=>{s[i].hidden=true;i=(i+1)%s.length;s[i].hidden=false},6000)})()</script></div>')
+    '<a href="contact.html?course=Brewing%20Fundamentals#enroll" data-cta="announce-oktoberfest">Enrol now [[arrow-right]]</a></span>'
+    '<span class="ann">Join the Craft Beer School WhatsApp community free now. From January 2027 it will carry a fee. '
+    f'<a href="{COMMUNITY}" target="_blank" rel="noopener" data-cta="announce-community">Join now [[arrow-right]]</a></span>'
+    '<span class="announce-sep">·</span><a href="courses.html" data-cta="announce-courses">All courses</a></div>')
 
 
 def course_ticker():
