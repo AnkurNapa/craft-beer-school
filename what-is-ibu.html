@@ -267,7 +267,7 @@ p.onclick=()=>t.scrollBy({left:-t.clientWidth*.9,behavior:'smooth'});n.onclick=(
 t.addEventListener('scroll',upd,{passive:true});upd();});
 
 const FORMSPREE_ID="YOUR_FORM_ID";
-const ENQUIRY_EMAIL="chatty@cheerschattyventures.com";
+const ENQUIRY_EMAIL="chatty@cheerschattyventures.com",FEES={"Brewing Fundamentals": "₹5,999, 2 weeks, online + in person", "Advanced Brewing Science": "₹12,999, 6 weeks, online", "Brewery Business Management": "₹8,999, 3 weeks, online", "Style Specialisation": "₹18,999, 8 weeks, online", "Beer Branding & Packaging": "₹4,999, 3 weeks, online", "Sensory Evaluation": "₹5,999, 2 weeks, online", "AI for Craft Breweries": "₹5,000, 2 weeks, online", "Digital Transformation Basics for Brewing": "₹5,000, 2 weeks, online", "ESG in Craft Brewing": "₹5,000, 2 weeks, online", "Safety in Brewing": "Free, 1 week, online", "Craft Distilling": "₹9,999, 4 weeks, online", "Craft Gin Making": "₹9,999, 4 weeks, online", "RTD Drinks: Alcoholic and Non-Alcoholic": "₹5,000, 2 weeks, online", "Hop Water": "₹5,000, 2 weeks, online", "Hard Seltzer": "₹5,000, 2 weeks, online", "Kombucha": "₹5,000, 2 weeks, online", "Non-Alcoholic Beer": "₹5,000, 2 weeks, online", "Power BI and Tableau for Breweries": "₹5,000, 2 weeks, online", "Winemaking": "₹10,000, 2 weeks, online + video tutorials", "Fortified Wine": "₹5,000, 2 weeks, online + in person", "Winery Business": "₹5,000, 2 weeks, online + in person", "New Product Development: Beer, Whisky and Wine": "₹5,000, 2 weeks, online + in person", "Digital Marketing for Breweries": "₹5,000, 2 weeks, online", "Brand Strategy and Positioning for Breweries": "₹5,000, 2 weeks, online", "Rebranding a Brewery": "₹5,000, 2 weeks, online", "Naming and Trademarks for Drinks Brands": "₹5,000, 2 weeks, online", "Taproom Marketing and Community": "₹5,000, 2 weeks, online", "Whisky Appreciation": "₹5,000, 2 weeks, online", "Wine Consultation": "₹25,000, 2 weeks, online + in person", "1-Day Super Intensive Craft Beer Course": "₹25,000, 1 day, in person", "1-Month Intensive Brewing Excellence Course": "₹1,25,000, 4 weeks, in person", "1-Day Home Visit Brewing Course": "On enquiry, 1 day, in person", "Professional Beer Tasting Day": "₹4,999, 1 day, in person", "Brewery Business Tour": "On enquiry, half day, in person", "2-Hour Craft Beer Tasting Course": "On enquiry, 2 hours, in person"};
 const SUPABASE_URL="";
 const SUPABASE_ANON_KEY="";
 
@@ -307,15 +307,25 @@ document.addEventListener('click',e=>{
 
 // "WhatsApp instead" on a form carries whatever the person already typed,
 // so nobody has to repeat their name, course or question in the chat.
+// Picking a course on a form shows its fee straight away, so nobody has to ask.
+document.querySelectorAll('select[name=course]').forEach(s=>{
+  const out=s.parentNode.querySelector('.course-fee');if(!out)return;
+  const show=()=>{const f=FEES[s.value];out.textContent=f?'Fee: '+f:'';out.style.display=f?'block':'none'};
+  s.addEventListener('change',show);show();
+});
+
 document.querySelectorAll('form .btn-wa').forEach(a=>{
   const base=a.getAttribute('href');
   a.addEventListener('click',()=>{
-    const d=new FormData(a.closest('form'));
-    const lines=[['name','Name'],['company','Brewery'],['course','Course'],['city','City'],['phone','Phone'],['email','Email'],['message','Message'],['came_from','Came from']]
-      .map(([k,l])=>[l,String(d.get(k)||'').trim()]).filter(([,v])=>v).map(([l,v])=>l+': '+v);
-    if(!lines.length){a.href=base;return}
-    const [url,q]=base.split('?text=');
-    a.href=url+'?text='+encodeURIComponent(decodeURIComponent(q||'')+'\n\n'+lines.join('\n'));
+    const d=new FormData(a.closest('form')),v=k=>String(d.get(k)||'').trim();
+    if(!['name','phone','email','city','course','message'].some(v)){a.href=base;return}
+    const course=v('course'),fee=FEES[course];
+    const lines=["Hi Craft Beer School, I'd like to enquire about a course.",fee?'Fee for '+course+': '+fee:'Course fees: https://craftbeerschool.in/courses.html','',
+      'Name: '+v('name'),'Mobile No.: '+v('phone'),'Email Id: '+v('email'),'Location: '+v('city'),
+      'Course preference/s: '+course,'Background (educational or professional): '+v('background')];
+    if(v('message'))lines.push('','Message: '+v('message'));
+    if(v('came_from'))lines.push('Came from: '+v('came_from'));
+    a.href=base.split('?text=')[0]+'?text='+encodeURIComponent(lines.join('\n'));
   });
 });
 
