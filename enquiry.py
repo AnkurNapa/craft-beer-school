@@ -97,6 +97,26 @@ def text(course=None, url=None, intro=None):
     return "\n".join(lines)
 
 
+
+def helper_data():
+    """assets/helper.json for the course helper chat: facts, 2027 batches and the
+    WhatsApp enquiry link per course. Dates stay as data; the page picks upcoming ones."""
+    from urllib.parse import quote
+    import calendar_page
+    import mentors
+    details("")
+    runs = {}
+    for r in calendar_page._runs():
+        runs.setdefault(plain(r["course"]), []).append({"d": r["classes"], "w": calendar_page._when(r["slots"])})
+    courses = []
+    for name, rows in _CACHE.items():
+        page = next((v for k, v in rows if k in ("Syllabus", "Details")), "")
+        courses.append({"n": name, "s": page.rsplit("/", 1)[-1], "rows": [[k, v] for k, v in rows],
+                        "runs": runs.get(name, []),
+                        "wa": f"https://wa.me/{mentors.WHATSAPP_NUMBER}?text={quote(text(name, page))}"})
+    return {"courses": courses, "all": ALL_FEES, "calendar": CALENDAR,
+            "wa": f"https://wa.me/{mentors.WHATSAPP_NUMBER}?text={quote(text())}"}
+
 if __name__ == "__main__":
     t = text("Brewing Fundamentals", f"{SITE}/x.html")
     assert "Fee: ₹5,999, paid in full at sign-up" in t, t
@@ -105,4 +125,7 @@ if __name__ == "__main__":
     assert "Fee: Free" in text("Safety in Brewing")
     assert "Fee: ₹25,000" in text("1-Day Super Intensive Craft Beer Course")
     assert ALL_FEES in text() and fees()["Brewing Fundamentals"].startswith("₹5,999")
+    h = helper_data()
+    bf = next(c for c in h["courses"] if c["n"] == "Brewing Fundamentals")
+    assert bf["s"] == "brewing-fundamentals-course.html" and bf["runs"] and "Mobile%20No.%3A" in bf["wa"]
     print(t)

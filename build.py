@@ -547,6 +547,7 @@ def page(slug, title, desc, active, body):
 {FOOTER}
 {SCRIPTS}
 <script>{discover.SUGGEST_JS}</script>
+<script src="/assets/helper.js" defer></script>
 </body>
 </html>""")))
 
@@ -708,6 +709,7 @@ def main():
 
     today = datetime.date.today().isoformat()
     write("assets/search.json", discover.search_index(ARTICLES, style_render.load_cards(), mentors.MENTORS))
+    write("assets/helper.json", json.dumps(enquiry.helper_data(), ensure_ascii=False, separators=(",", ":")))
     write("assets/suggest.json", json.dumps(discover.suggest_index(ARTICLES, style_render.load_cards()), ensure_ascii=False, separators=(",", ":")))
     write("sitemap.xml", seo.sitemap_xml(list(PAGES), today))
     write("robots.txt", seo.robots_txt())
