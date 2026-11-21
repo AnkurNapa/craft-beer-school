@@ -12,7 +12,7 @@ HOME_BAND = f"""
   <script>if(new Date()>=new Date('{UNTIL}'))document.currentScript.parentNode.classList.add('abs-over')</script>
   <div class="wrap" style="display:flex;align-items:center;gap:clamp(1rem,3vw,2.5rem);flex-wrap:wrap;padding-block:clamp(1.4rem,3vw,2.2rem)">
     <a href="{SLUG}" data-cta="home-abs-poster" style="flex:0 1 280px;max-width:100%;display:block">
-      <img src="assets/advanced-brewing-science-poster-560.jpg" srcset="assets/advanced-brewing-science-poster-560.jpg 1x, assets/advanced-brewing-science-poster.jpg 2x" width="560" height="996" loading="eager" style="width:100%;height:auto;border-radius:12px;box-shadow:0 14px 30px -14px rgba(17,32,64,.45)"
+      <img src="assets/advanced-brewing-science-poster-560.jpg" srcset="assets/advanced-brewing-science-poster-560.jpg 1x, assets/advanced-brewing-science-poster.jpg 2x" width="560" height="996" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px;box-shadow:0 14px 30px -14px rgba(17,32,64,.45)"
            alt="Advanced Brewing Science poster: a new live online batch starts 21 November 2026, six weeks for working brewers, Brewing Fundamentals graduates and serious homebrewers"></a>
     <div style="flex:1 1 320px">
       <span class="eyebrow">New online batch · starts 21 November 2026</span>

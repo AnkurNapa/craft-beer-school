@@ -24,7 +24,7 @@ _seeded = [{**a, **{k: _PLAN[a["slug"]][k] for k in ("also", "wheel", "malt", "p
 # Byline for every guide that is not a guest story: Chatty on the creative
 # side (brand, packaging, marketing), Ankur on everything technical.
 import mentors
-_PEOPLE = {m["slug"]: {"name": m["name"], "role": m["role"], "photo": m["img"], "href": m["slug"]}
+_PEOPLE = {m["slug"]: {"name": m["name"], "role": m["role"], "photo": mentors.thumb(m["img"]), "href": m["slug"]}
            for m in mentors.MENTORS}
 _CREATIVE = {"brand", "design", "social", "influencers", "storytelling", "naming", "merchandise", "events",
              "marketing", "positioning", "launching"}

@@ -321,7 +321,7 @@ HOME = f"""{OKT}
       </div>
     </div>
     <div class="hero-media reveal">
-      <div class="offset-img"><img src="assets/hero.jpg" alt="A craft beer tasting flight, grain to glass at Craft Beer School" width="1200" height="900" loading="eager" fetchpriority="high" /></div>
+      <div class="offset-img"><picture><source type="image/webp" srcset="assets/hero-800.webp 800w, assets/hero.webp 1200w" sizes="(max-width: 680px) 92vw, 560px"><img src="assets/hero.jpg" alt="A craft beer tasting flight, grain to glass at Craft Beer School" width="1200" height="900" loading="eager" fetchpriority="high" /></picture></div>
     </div>
   </div>
 </section>

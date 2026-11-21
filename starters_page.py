@@ -158,7 +158,7 @@ HOME_BAND = f"""
   <div class="xmas-on">{_DECOR}</div>
   <div class="wrap" style="display:flex;align-items:center;gap:clamp(1rem,3vw,2.5rem);flex-wrap:wrap;padding-block:clamp(1.4rem,3vw,2.2rem)">
     <a href="{SLUG}" data-cta="home-starters-poster" style="flex:0 1 280px;max-width:100%;display:block">
-      <img src="assets/beer-for-starters-560.jpg" srcset="assets/beer-for-starters-560.jpg 1x, assets/beer-for-starters.jpg 2x" width="560" height="560" loading="eager" style="width:100%;height:auto;border-radius:12px;box-shadow:0 14px 30px -14px rgba(59,36,20,.5)"
+      <img src="assets/beer-for-starters-560.jpg" srcset="assets/beer-for-starters-560.jpg 1x, assets/beer-for-starters.jpg 2x" width="560" height="560" loading="lazy" decoding="async" style="width:100%;height:auto;border-radius:12px;box-shadow:0 14px 30px -14px rgba(59,36,20,.5)"
            alt="Beer for Starters poster: a tasting tray of four beers, a one-hour online course for ₹199"></a>
     <div style="flex:1 1 320px">
       <span class="eyebrow xmas-on" style="color:#b3261e">Merry Christmas from Craft Beer School</span>

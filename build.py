@@ -96,9 +96,12 @@ GA_ID = os.environ.get("GA_ID", "G-1ZHW47YJDC")  # shared with the Beverage-AI R
 def ga_tag():
     if not GA_ID:
         return ""
-    return (f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
-            "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
-            f"gtag('js',new Date());gtag('config','{GA_ID}');</script>")
+    # The 180 KB analytics script loads after the page has finished loading, so it never
+    # competes with the page itself. gtag() calls made before then queue in dataLayer.
+    return ("<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
+            f"gtag('js',new Date());gtag('config','{GA_ID}');"
+            "addEventListener('load',()=>setTimeout(()=>{const s=document.createElement('script');s.async=true;"
+            f"s.src='https://www.googletagmanager.com/gtag/js?id={GA_ID}';document.head.appendChild(s)}},1500))</script>")
 
 # Single source of truth for every contact CTA on the site.
 ENQUIRY_EMAIL = "chatty@cheerschattyventures.com"
@@ -396,51 +399,6 @@ document.querySelectorAll('form .btn-wa').forEach(a=>{
   });
 });
 
-// A course enquiry on WhatsApp asks for the student's details first, so the
-// message reaches Chatty complete and nobody needs a long call to collect them.
-(()=>{
-  const F=[['name','Name','text','name'],['phone','Mobile No.','tel','tel'],['email','Email Id','email','email'],
-    ['city','Location','text','address-level2'],['course','Course preference/s','text','off'],
-    ['background','Background (educational or professional)','text','off']];
-  const get=k=>{try{return localStorage.getItem('cbs-enq-'+k)||''}catch(e){return ''}};
-  const put=(k,v)=>{try{localStorage.setItem('cbs-enq-'+k,v)}catch(e){}};
-  let dlg,link;
-  function make(){
-    const st=document.createElement('style');
-    st.textContent='.enq-dialog{border:0;border-radius:16px;padding:1.4rem;max-width:26rem;width:calc(100% - 32px);box-shadow:0 20px 60px rgba(0,0,0,.25)}'+
-      '.enq-dialog::backdrop{background:rgba(0,0,0,.45)}.enq-dialog h3{margin:0 0 .3rem}.enq-dialog p{margin:0 0 1rem;font-size:.9rem;opacity:.8}'+
-      '.enq-dialog label{display:block;font-size:.85rem;font-weight:600;margin:0 0 .7rem}.enq-dialog input{display:block;width:100%;margin-top:.25rem;padding:.6rem .7rem;border:1px solid #ccc;border-radius:10px;font:inherit}'+
-      '.enq-dialog .enq-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}.enq-dialog .enq-skip{display:inline-block;margin-top:.8rem;font:inherit;font-size:.8rem;background:none;border:0;padding:0;text-decoration:underline;cursor:pointer;color:inherit}';
-    document.head.appendChild(st);
-    dlg=document.createElement('dialog');dlg.className='enq-dialog';
-    dlg.innerHTML='<form><h3>Your details for Chatty</h3><p>We answer in one message with everything you need, so there is no long call.</p>'+
-      F.map(([k,l,t,a])=>'<label>'+l+'<input name="'+k+'" type="'+t+'" autocomplete="'+a+'" required></label>').join('')+
-      '<div class="enq-actions"><button class="btn btn-wa" type="submit">Send on WhatsApp</button>'+
-      '<button class="btn btn-ghost" type="button" data-close>Cancel</button></div>'+
-      '<button type="button" class="enq-skip" data-skip>Open WhatsApp without the form</button></form>';
-    document.body.appendChild(dlg);
-    const form=dlg.querySelector('form');
-    dlg.querySelector('[data-close]').onclick=()=>dlg.close();
-    dlg.querySelector('[data-skip]').onclick=e=>{e.preventDefault();dlg.close();window.open(link,'_blank','noopener')};
-    form.onsubmit=e=>{
-      e.preventDefault();
-      const d=new FormData(form),v={};F.forEach(([k])=>{v[k]=String(d.get(k)||'').trim();if(k!=='course')put(k,v[k])});
-      const [base,q]=link.split('?text=');
-      const out=decodeURIComponent(q||'').split('\\n').map(l=>{const f=F.find(([,lab])=>l.startsWith(lab+':'));return f?f[1]+': '+v[f[0]]:l}).join('\\n');
-      if(window.gtag)gtag('event','generate_lead',{course:v.course,form_page:location.pathname,method:'whatsapp'});
-      dlg.close();window.open(base+'?text='+encodeURIComponent(out),'_blank','noopener');
-    };
-  }
-  document.addEventListener('click',e=>{
-    const a=e.target.closest&&e.target.closest('a[href*="wa.me/"]');
-    if(!a||a.closest('form')||!a.href.includes('Mobile%20No.%3A')||typeof HTMLDialogElement!=='function')return;
-    e.preventDefault();link=a.href;if(!dlg)make();
-    const q=decodeURIComponent(link.split('?text=')[1]||''),m=q.match(/Course preference\\/s: (.*)/);
-    F.forEach(([k])=>{dlg.querySelector('[name='+k+']').value=k==='course'?(m?m[1]:''):get(k)});
-    dlg.showModal();
-  },true);
-})();
-
 document.querySelectorAll('form[data-formspree]').forEach(form=>{
   const msg=form.querySelector('.form-msg');
   const btn=form.querySelector('button[type=submit]');
@@ -533,7 +491,7 @@ def page(slug, title, desc, active, body):
 {seo.head_meta(slug, title, desc)}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'" /><noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" /></noscript>
 <link rel="stylesheet" href="styles.css?v={CSS_VERSION}" />
 {seo.jsonld(slug, title, desc)}
 {ga_tag()}
@@ -547,7 +505,6 @@ def page(slug, title, desc, active, body):
 {FOOTER}
 {SCRIPTS}
 <script>{discover.SUGGEST_JS}</script>
-<script src="/assets/helper.js" defer></script>
 </body>
 </html>""")))
 
@@ -709,7 +666,6 @@ def main():
 
     today = datetime.date.today().isoformat()
     write("assets/search.json", discover.search_index(ARTICLES, style_render.load_cards(), mentors.MENTORS))
-    write("assets/helper.json", json.dumps(enquiry.helper_data(), ensure_ascii=False, separators=(",", ":")))
     write("assets/suggest.json", json.dumps(discover.suggest_index(ARTICLES, style_render.load_cards()), ensure_ascii=False, separators=(",", ":")))
     write("sitemap.xml", seo.sitemap_xml(list(PAGES), today))
     write("robots.txt", seo.robots_txt())

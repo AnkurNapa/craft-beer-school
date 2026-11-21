@@ -98,37 +98,12 @@ def text(course=None, url=None, intro=None):
 
 
 
-def helper_data():
-    """assets/helper.json for the course helper chat: facts, 2027 batches and the
-    WhatsApp enquiry link per course. Dates stay as data; the page picks upcoming ones."""
-    from urllib.parse import quote
-    import calendar_page
-    import mentors
-    details("")
-    runs = {}
-    for r in calendar_page._runs():
-        runs.setdefault(plain(r["course"]), []).append({"d": r["classes"], "w": calendar_page._when(r["slots"])})
-    import pages_a
-    subject = {plain(k): v for k, v in pages_a.SUBJECT.items()}
-    group = lambda n: subject.get(n) or ("tasting" if "Tasting" in n else "business" if "Business" in n else "brewing")
-    courses = []
-    for name, rows in _CACHE.items():
-        page = next((v for k, v in rows if k in ("Syllabus", "Details")), "")
-        courses.append({"n": name, "g": group(name), "s": page.rsplit("/", 1)[-1], "rows": [[k, v] for k, v in rows],
-                        "runs": runs.get(name, []),
-                        "wa": f"https://wa.me/{mentors.WHATSAPP_NUMBER}?text={quote(text(name, page))}"})
-    return {"courses": courses, "groups": [list(g) for g in pages_a.SUBJECTS], "all": ALL_FEES, "calendar": CALENDAR,
-            "wa": f"https://wa.me/{mentors.WHATSAPP_NUMBER}?text={quote(text())}"}
-
 if __name__ == "__main__":
     t = text("Brewing Fundamentals", f"{SITE}/x.html")
-    assert "Fee: ₹5,999, paid in full at sign-up" in t, t
+    assert "Fee: ₹7,799, paid in full at sign-up" in t, t
     assert "Course preference/s: Brewing Fundamentals" in t and "Mobile No.:" in t
     assert "Syllabus: https://craftbeerschool.in/brewing-fundamentals-course.html" in t
     assert "Fee: Free" in text("Safety in Brewing")
-    assert "Fee: ₹25,000" in text("1-Day Super Intensive Craft Beer Course")
-    assert ALL_FEES in text() and fees()["Brewing Fundamentals"].startswith("₹5,999")
-    h = helper_data()
-    bf = next(c for c in h["courses"] if c["n"] == "Brewing Fundamentals")
-    assert bf["s"] == "brewing-fundamentals-course.html" and bf["runs"] and "Mobile%20No.%3A" in bf["wa"]
+    assert "Fee: ₹32,500" in text("1-Day Super Intensive Craft Beer Course")
+    assert ALL_FEES in text() and fees()["Brewing Fundamentals"].startswith("₹7,799")
     print(t)

@@ -156,11 +156,18 @@ def _linkedin(m):
 
 
 CONTACT = "mentor-chatty-girija.html"  # point of contact on every course page, reached on WhatsApp
+def thumb(src):
+    """240 px copy of a portrait for avatars and person cards, when one exists."""
+    import os
+    t = src.rsplit(".", 1)[0] + "-240.jpg"
+    return t if os.path.exists(os.path.join(os.path.dirname(__file__), t)) else src
+
+
 WHATSAPP_NUMBER = "919820925347"      # school and Chatty WhatsApp, digits only, country code first
 
 
 def _person(m, label, action):
-    return (f'<article class="card person-card reveal"><img class="person-img" src="{m["img"]}" alt="{m["name"]}" '
+    return (f'<article class="card person-card reveal"><img class="person-img" src="{thumb(m["img"])}" alt="{m["name"]}" '
             f'width="120" height="120" loading="lazy" /><div class="card-body"><span class="cat">{label}</span>'
             f'<h3><a href="{m["slug"]}">{m["name"]}</a></h3><p>{m["role"]}</p>{action}</div></article>')
 

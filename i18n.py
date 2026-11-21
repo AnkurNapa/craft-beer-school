@@ -198,7 +198,7 @@ def build():
             html = str(soup)
             # inline scripts and styles that point at site files
             html = html.replace("fetch('assets/", "fetch('/assets/").replace('url(assets/', 'url(/assets/')
-            html = html.replace("</head>", f'<link href="https://fonts.googleapis.com/css2?family={FONTS[l]}:wght@400;600;800&display=swap" rel="stylesheet" />' + "</head>", 1)
+            html = html.replace("</head>", f'<link href="https://fonts.googleapis.com/css2?family={FONTS[l]}:wght@400;600;800&display=swap" rel="stylesheet" media="print" onload="this.media=\'all\'" />' + "</head>", 1)
             html = _insert_head_and_switcher(html, name, l, ready)
             (out_dir / name).write_text(html, encoding="utf-8")
     # English pages get the switcher and hreflang too
