@@ -11,7 +11,7 @@ import subprocess
 
 import make_prospectus as mp
 
-PRICE_DAY, PRICE_MONTH = "₹25,000", "₹1,25,000"
+PRICE_DAY, PRICE_MONTH = "₹32,500", "₹1,62,500"
 CITIES = "Pune, Delhi, Gurugram and Bengaluru"
 
 EXTRA_CSS = """

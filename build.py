@@ -410,14 +410,14 @@ document.querySelectorAll('form .btn-wa').forEach(a=>{
     st.textContent='.enq-dialog{border:0;border-radius:16px;padding:1.4rem;max-width:26rem;width:calc(100% - 32px);box-shadow:0 20px 60px rgba(0,0,0,.25)}'+
       '.enq-dialog::backdrop{background:rgba(0,0,0,.45)}.enq-dialog h3{margin:0 0 .3rem}.enq-dialog p{margin:0 0 1rem;font-size:.9rem;opacity:.8}'+
       '.enq-dialog label{display:block;font-size:.85rem;font-weight:600;margin:0 0 .7rem}.enq-dialog input{display:block;width:100%;margin-top:.25rem;padding:.6rem .7rem;border:1px solid #ccc;border-radius:10px;font:inherit}'+
-      '.enq-dialog .enq-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}.enq-dialog .enq-skip{display:inline-block;margin-top:.8rem;font-size:.8rem}';
+      '.enq-dialog .enq-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1rem}.enq-dialog .enq-skip{display:inline-block;margin-top:.8rem;font:inherit;font-size:.8rem;background:none;border:0;padding:0;text-decoration:underline;cursor:pointer;color:inherit}';
     document.head.appendChild(st);
     dlg=document.createElement('dialog');dlg.className='enq-dialog';
     dlg.innerHTML='<form><h3>Your details for Chatty</h3><p>We answer in one message with everything you need, so there is no long call.</p>'+
       F.map(([k,l,t,a])=>'<label>'+l+'<input name="'+k+'" type="'+t+'" autocomplete="'+a+'" required></label>').join('')+
       '<div class="enq-actions"><button class="btn btn-wa" type="submit">Send on WhatsApp</button>'+
       '<button class="btn btn-ghost" type="button" data-close>Cancel</button></div>'+
-      '<a href="#" class="enq-skip" data-skip>Open WhatsApp without the form</a></form>';
+      '<button type="button" class="enq-skip" data-skip>Open WhatsApp without the form</button></form>';
     document.body.appendChild(dlg);
     const form=dlg.querySelector('form');
     dlg.querySelector('[data-close]').onclick=()=>dlg.close();

@@ -37,7 +37,7 @@ OFFERS = [
          link="1-day and 1-month courses",
          article="in-person-brewing-courses-pune-delhi-gurugram-bengaluru.html",
          title=f"Brew with us in {CITIES.replace(' and ', ' or ')}",
-         body="Choose the 1-day course (₹25,000) or the 1-Month Intensive Brewing Excellence Course (₹1,25,000). Hands-on, with a brewer beside you.",
+         body="Choose the 1-day course (₹32,500) or the 1-Month Intensive Brewing Excellence Course (₹1,62,500). Hands-on, with a brewer beside you.",
          href="contact.html?course=In-person+workshop+%2F+tasting#enroll",
          label="Save your seat",
          words=["pune", "delhi", "gurugram", "gurgaon", "bengaluru", "bangalore", "in person", "in-person",

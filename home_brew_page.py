@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""1 Month Home Brewing Course: online lessons with live video call tutorials, ₹65,000.
+"""1 Month Home Brewing Course: online lessons with live video call tutorials, ₹84,500.
 
 Built like starters_page.py because it runs alongside the in-person 1-month course
 and does not fit the online template in course_pages.py. The copy follows Chatty's
@@ -10,7 +10,7 @@ from inperson_pages import _list
 
 SLUG = "1-month-home-brewing-online-course.html"
 NAME = "1 Month Home Brewing Course"
-FEE = "₹65,000"
+FEE = "₹84,500"
 PDF = "assets/craft-beer-school-home-brewing-course.pdf"
 ENROL = "contact.html?course=1%20Month%20Home%20Brewing%20Course#enroll"
 

@@ -127,7 +127,7 @@ These 44 guides are for people who work inside beer, wine and spirits companies 
 - Name malts in Weyermann's own capitals (CARAMUNICH, CARAFA SPECIAL, CARAHELL) without the ® sign. Do not imply Craft Beer School is endorsed by Weyermann.
 - Internal links: the hub and one or two sibling malt guides from this batch, plus an existing guide where it helps (base-malts-explained, crystal-and-caramel-malts, roasted-malts-guide, wheat-malt-in-brewing, smoked-beer-rauchbier, mash-ph-explained, beer-colour-srm-ebc, sourcing-malt-and-hops-in-india, decoction-mashing).
 - The hub explains Weyermann (family maltster in Bamberg, Germany, since 1879), how to read a malt spec sheet and an aroma wheel (the wheels came from a GC/MS and trained sensory panel study with Trier University), and links every guide in the batch, grouped by family.
-- CTA: stage consideration (hub awareness), course advanced-brewing-science-course.html, 6 weeks, ₹12,999. The gap it fills is grist design: balancing base, caramel and roasted malts for colour, body and flavour on purpose.
+- CTA: stage consideration (hub awareness), course advanced-brewing-science-course.html, 6 weeks, ₹16,899. The gap it fills is grist design: balancing base, caramel and roasted malts for colour, body and flavour on purpose.
 - Also read `~/.claude/skills/humanizer/references/brewing-house-style.md` for numbers and sourcing discipline; this brief's voice and JSON shape win where they differ.
 - No serial comma and no ", and" joins.
 
@@ -146,7 +146,7 @@ Full checklist in the vault's `Craft Beer School Article Flow.md`, section 3. In
 - Whisky guides: whisky facts must be as reliable as the brewing ones. Use only standard, well-established definitions and values, for example: Scotch matures at least three years in oak casks in Scotland and is bottled at a minimum of 40% ABV; bourbon is at least 51% corn, distilled to no more than 80% ABV, filled at no more than 62.5% ABV into new charred oak containers; Irish whiskey matures at least three years on the island of Ireland. Name real regions, grains, still types and cask types. No invented production volumes, market sizes, prices, rankings, ages of named distilleries or claims about a named company's process. Do not name a distillery or brand unless the fact is famous and stable (for example the Coffey still, patented by Aeneas Coffey in 1830).
 - Indian regulation for spirits: process level only, rules vary by state and change, check the current notification. Never legal advice.
 - Responsible drinking: no encouragement to drink more, no health claims; tasting pieces mention water, pacing and never drinking and driving where natural.
-- Whisky CTAs: `craft-distilling-course.html` (Craft Distilling, 4 weeks, ₹9,999), `sensory-evaluation-course.html` (Sensory Evaluation, 2 weeks, ₹5,999: frame it as training the nose and palate, which carries across beer and spirits) or the Corporate training enquiry form, by plan row.
+- Whisky CTAs: `craft-distilling-course.html` (Craft Distilling, 4 weeks, ₹12,999), `sensory-evaluation-course.html` (Sensory Evaluation, 2 weeks, ₹7,799: frame it as training the nose and palate, which carries across beer and spirits) or the Corporate training enquiry form, by plan row.
 
 ## Global series (plan batch "global-1")
 
